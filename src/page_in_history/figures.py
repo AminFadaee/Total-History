@@ -329,11 +329,12 @@ class FigureBuilder:
         people = self.wikidata.entities(qids)
         legendary = {qid for qid, kinds in self.wikidata.kinds(list(people), {LEGENDARY: "legendary"}).items()
                      if kinds and HUMAN not in people[qid].ids("P31", preferred_only=False)}
-        candidates = []
+        candidates, seen = [], set()
         for qid in qids:
             person = people.get(qid)
-            if not person or not person.enwiki or qid in legendary or self._excluded(person):
+            if not person or person.id in seen or not person.enwiki or qid in legendary or self._excluded(person):
                 continue
+            seen.add(person.id)
             span = lifetime(person.years("P569"), person.years("P570"))
             if span and span[0] + ADULT_AGE < POST_WAR:
                 score = float(frame.score.get(qid, 0.0))
