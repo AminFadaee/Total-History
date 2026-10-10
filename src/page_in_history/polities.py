@@ -29,6 +29,8 @@ MAX_VITAL_LEVEL = 4
 LEVEL_5_LANGUAGES = 45
 LEVEL_5_PEAK_KM2 = 1_000_000
 MAX_DRAWN_SHARE = 0.5
+LATEST_START = 1945
+SETTLEMENT = "Q486972"
 LARGE_PEAK_KM2 = 2_000_000
 LIVING_ON_MAP_BEFORE = 1900
 LIVING_PEAK_KM2 = 2_000_000
@@ -301,7 +303,9 @@ class PolityBuilder:
 
     def select_notable(self) -> list[Identity]:
         """Civilizations that Wikipedia's editors list as vital, that Wikipedia covers in many languages, or that ruled
-        a vast territory. Any one is enough, so small early civilizations and large regional empires both qualify."""
+        a vast territory. Any one is enough, so small early civilizations and large regional empires both qualify. A
+        civilization that began in 1945 or later is left out, as the deck's figures are, since it belongs to the
+        present more than to history."""
         identities = list(self.catalog.identities.values())
         qids = [identity.qid for identity in identities]
         editions = self.wikidata.language_editions(qids)
@@ -310,6 +314,7 @@ class PolityBuilder:
         selected = [identity for identity in identities
                     if self._notable(identity, editions.get(identity.qid, 0), levels.get(identity.qid), kinds[identity.qid])]
         selected += self._mapless(levels, selected)
+        selected = [identity for identity in selected if self.catalog.years(identity.qid)[0] < LATEST_START]
         return sorted(selected, key=lambda identity: self.catalog.years(identity.qid)[0])
 
     def _mapless(self, levels: dict[str, int], drawn: list[Identity]) -> list[Identity]:
@@ -406,6 +411,8 @@ class PolityBuilder:
         referenced = [self.catalog.entities[identity.qid].ids("P36") for identity in known]
         self.names = self.wikidata.entities([qid for ids in referenced for qid in ids] +
                                             [page.qid for page in self.pages.values() if page.qid])
+        capitals = sorted({qid for ids in referenced for qid in ids})
+        self.settlements = {qid for qid, kinds in self.wikidata.kinds(capitals, {SETTLEMENT: "settlement"}).items() if kinds}
         return [self._polity(identity, self.infoboxes[identity.qid]) for identity in identities]
 
     def _stated(self, first: str, last: str) -> bool:
@@ -427,16 +434,22 @@ class PolityBuilder:
     def _capitals(self, entity: Entity, infobox: Infobox) -> list[dict]:
         """Capitals that Wikidata and the infobox both name: the same item, or two items for the same place within
         25 km, as when Wikidata names the prefecture Shuntian Fu and the infobox the city of Beijing. They are shown
-        under the infobox's name, once per place (Bursa, not also Prusa), and a linked state is never a capital."""
+        under the name of the place Wikidata lists, once per place (Bursa rather than the infobox's Prusa, Ayutthaya
+        rather than its historical park), or the infobox's name when Wikidata's item is wider than a place, and a
+        linked state is never a capital."""
         listed = entity.ids("P36")
-        places = [found.coordinates() for found in (self.names.get(qid) for qid in listed) if found and found.coordinates()]
+        places = [(qid, found.coordinates()) for qid, found in ((qid, self.names.get(qid)) for qid in listed)
+                  if found and found.coordinates()]
         capitals = []
         for qid in self._qids(infobox.capital):
             if qid in self.catalog.by_qid or (qid in self.names and self.catalog.is_polity(self.names[qid])):
                 continue
             capital = self._capital(qid)
             location = capital["location"]
-            nearby = bool(location) and any(kilometres(location, place) <= CAPITAL_MATCH_KM for place in places)
+            near = [place for place, coordinates in places if location and kilometres(location, coordinates) <= CAPITAL_MATCH_KM]
+            nearby = bool(near)
+            if near and qid not in listed and near[0] in self.settlements:
+                capital = {**self._capital(near[0]), "location": location}
             repeated = bool(location) and any(found["location"] and kilometres(location, found["location"]) <= CAPITAL_MATCH_KM
                                               for found in capitals)
             if (qid in listed or nearby) and not repeated and capital["name"] not in {found["name"] for found in capitals}:
@@ -536,9 +549,9 @@ class PolityBuilder:
 
     def _modern_countries(self, geometry) -> list[str]:
         shape = equal_area_shape(geometry, self.cliopatria.frame.crs)
-        found = []
+        found: dict[str, float] = {}
         for country in self.countries[self.countries.listed & self.countries.intersects(shape)].itertuples():
             overlap = country.geometry.intersection(shape).area
             if overlap / shape.area >= MODERN_SHARE_OF_POLITY or overlap / country.geometry.area >= MODERN_SHARE_OF_COUNTRY:
-                found.append((overlap, country.name))
-        return [name for _, name in sorted(found, reverse=True)]
+                found[country.listed_as] = found.get(country.listed_as, 0) + overlap
+        return sorted(found, key=found.get, reverse=True)

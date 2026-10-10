@@ -140,5 +140,5 @@ class RegionalSuccession:
         listed = self.countries[self.countries.listed]
         inside = listed[listed.geometry.contains(point)]
         if not inside.empty:
-            return inside.iloc[0]["name"]
-        return listed.iloc[int(np.argmin(shapely.distance(listed.geometry.values, point)))]["name"]
+            return inside.iloc[0]["listed_as"]
+        return listed.iloc[int(np.argmin(shapely.distance(listed.geometry.values, point)))]["listed_as"]
