@@ -26,7 +26,8 @@ ALONE = 0.9
 WITH_EVIDENCE = 0.7
 PORTRAIT = 0.5
 IMAGE_FILE = re.compile(r"\.(jpe?g|png|tiff?)$", re.IGNORECASE)
-NOT_A_PORTRAIT = re.compile(r"\bcoins?\b|coinage|\bdinars?\b|\baure(?:us|i)\b|siliqua|calligraph", re.IGNORECASE)
+NOT_A_PORTRAIT = re.compile(r"\bcoins?\b|coinage|\bdinars?\b|\baure(?:us|i)\b|siliqua|calligraph|\bstamps?\b|postage",
+                            re.IGNORECASE)
 PHOTOGRAPHIC = re.compile(r"photograph|daguerreotype|albumen|gelatin silver|cartes? de visite|cabinet card|ambrotype|"
                           r"tintype|collodion", re.IGNORECASE)
 NOT_PHOTOGRAPHIC = re.compile(r"painting|drawing|lithograph|engraving|etching|woodcut|illustration|sculpture|statue|"
@@ -176,14 +177,14 @@ class PortraitFinder:
 
     def illustration(self, person: Entity) -> tuple[str, str, str]:
         """A picture of the person for the Who card, which may be a painting: their main Wikidata image, or when
-        Commons files that under coins or calligraphy (such images can show someone else, like a ruler's successor
+        Commons files that under coins, stamps or calligraphy (such images can show someone else, like a ruler's successor
         on the reverse), the first other candidate that shows them: a portrait of one person to the model, or without
         it, a file in a portrait, painting or statue category named after them. Returns the file name, its credit and
         why there is none when there is not."""
         main = [claim["mainsnak"]["datavalue"]["value"].replace("_", " ") for claim in person.statements("P18")][:1]
         for file in self._candidates(person)[:MAX_CANDIDATES]:
             if file.name in main or self._shows_one_person(file, person):
-                return file.name, file.credit, "" if file.name in main else "main image is a coin, calligraphy or missing"
+                return file.name, file.credit, "" if file.name in main else "main image is a coin, stamp, calligraphy or missing"
         return "", "", "no candidate shows a portrait of the person"
 
     def _shows_one_person(self, file: CommonsFile, person: Entity) -> bool:
