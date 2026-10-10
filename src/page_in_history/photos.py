@@ -1,4 +1,5 @@
 import hashlib
+import logging
 import json
 import re
 from dataclasses import dataclass
@@ -11,6 +12,7 @@ from PIL import Image
 from page_in_history.http import Http
 from page_in_history.sources.wikidata import Entity
 
+logger = logging.getLogger(__name__)
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 COMMONS_FILE = "https://commons.wikimedia.org/wiki/Special:FilePath/{}?width={}"
 PHOTO_ERA = 1860
@@ -130,14 +132,30 @@ class PhotoClassifier:
         """How much the picture looks like a photograph rather than art, and like a portrait of one person rather than
         a group, a building, a document or an object: each the share of the matching descriptions, cached per file."""
         if file not in self.scores:
-            path = self.http.download(COMMONS_FILE.format(quote(file), SCORE_WIDTH), f"commons-{digest(file)}-{SCORE_WIDTH}")
-            pixels = self._pixels(Image.open(path).convert("RGB"))[None]
-            image = normalised(output(self.vision, self.vision.run(None, {"pixel_values": pixels}), "image_embeds"))
-            self.scores[file] = [share(image, self.medium, len(self.PHOTO_PROMPTS)),
-                                 share(image, self.subject, len(self.PORTRAIT_PROMPTS))]
+            picture = self._picture(file)
+            if picture is None:
+                self.scores[file] = [0.0, 0.0]
+            else:
+                pixels = self._pixels(picture)[None]
+                image = normalised(output(self.vision, self.vision.run(None, {"pixel_values": pixels}), "image_embeds"))
+                self.scores[file] = [share(image, self.medium, len(self.PHOTO_PROMPTS)),
+                                     share(image, self.subject, len(self.PORTRAIT_PROMPTS))]
             self.scores_path.write_text(json.dumps(self.scores))
         photo, portrait = self.scores[file]
         return photo, portrait
+
+    def _picture(self, file: str) -> Image.Image | None:
+        """The file at scoring size, downloaded again once if the cached copy is unreadable, as a truncated transfer
+        leaves it; None when it still cannot be read, which counts as neither a photograph nor a portrait."""
+        url, name = COMMONS_FILE.format(quote(file), SCORE_WIDTH), f"commons-{digest(file)}-{SCORE_WIDTH}"
+        for attempt in range(2):
+            path = self.http.download(url, name)
+            try:
+                return Image.open(path).convert("RGB")
+            except OSError:
+                logger.warning("Unreadable image %s (attempt %d)", file, attempt + 1)
+                path.unlink(missing_ok=True)
+        return None
 
     def _pixels(self, image: Image.Image) -> np.ndarray:
         scale = self.SIZE / min(image.size)
