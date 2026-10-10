@@ -1,0 +1,81 @@
+{
+  "id": "Q15146034",
+  "slug": "gokturk-khaganate",
+  "name": "Göktürk Khaganate",
+  "wikipedia": "First Turkic Khaganate",
+  "map_year": 561,
+  "period": {
+    "start": {
+      "earliest": 552,
+      "latest": 552,
+      "circa": false
+    },
+    "end": {
+      "earliest": 603,
+      "latest": 603,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Suyab",
+      "location": [
+        75.2667,
+        42.8
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q26576",
+    "region": "Kyrgyzstan",
+    "name": "White Huns"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Kazakhstan",
+    "Mongolia",
+    "China",
+    "Russia",
+    "Uzbekistan",
+    "Kyrgyzstan",
+    "Tajikistan"
+  ],
+  "borders": true,
+  "map": "maps/gokturk-khaganate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Suyab"
+      ],
+      "infobox": [
+        "Ötüken",
+        "Suyab"
+      ]
+    },
+    "cliopatria_years": [
+      555,
+      586
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Suyab",
+    "labelled": [
+      "Sasanian Empire",
+      "Northern Zhou",
+      "Avar Khaganate",
+      "Tuyuhun",
+      "Yenisei Kyrgyz",
+      "Eastern Roman Empire",
+      "Chen Dynasty",
+      "Maukhari Dynasty",
+      "Goguryeo",
+      "Ghassanids",
+      "Lakhmid Kingdom",
+      "Kamarupa Kingdom",
+      "Maitraka Dynasty"
+    ]
+  }
+}

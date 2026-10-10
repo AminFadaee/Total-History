@@ -18,7 +18,9 @@
   "contribution": "A Shafi'i Ash'ari Sunni Muslim scholar and polymath.",
   "image": "images/al-ghazali.jpg",
   "image_credit": "Kahlil Gibran · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Al-Ghazali (Persian: ابو حامد محمد ابن محمد غزالی طوسی, romanized: Abū Ḥāmid Muḥammad ibn Muḥammad Ghazālī Ṭūsi; c. 1058 – 19 December 1111), latinized as Algazelus, was a Shafi'i Ash'ari Sunni Muslim scholar and polymath. He is known as one of the most prominent and influential jurisconsults, legal theoreticians, muftis, philosophers, theologians, logicians and mystics in Islamic history.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

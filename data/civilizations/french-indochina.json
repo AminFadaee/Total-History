@@ -1,0 +1,74 @@
+{
+  "id": "Q185682",
+  "slug": "french-indochina",
+  "name": "French Indochina",
+  "wikipedia": "French Indochina",
+  "map_year": 1932,
+  "period": {
+    "start": {
+      "earliest": 1887,
+      "latest": 1887,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1954,
+      "latest": 1954,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Ho Chi Minh City",
+      "location": [
+        106.70194444444445,
+        10.775555555555556
+      ]
+    },
+    {
+      "name": "Hanoi",
+      "location": [
+        105.84117,
+        21.0245
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Vietnam",
+    "Laos",
+    "Cambodia",
+    "New Caledonia",
+    "French Southern and Antarctic Lands"
+  ],
+  "borders": true,
+  "map": "maps/french-indochina.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Saigon",
+        "Hanoi"
+      ],
+      "infobox": [
+        "Ho Chi Minh City",
+        "Hanoi"
+      ]
+    },
+    "cliopatria_years": [
+      1860,
+      1957
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ho Chi Minh City",
+    "labelled": [
+      "British Raj",
+      "Republic of China",
+      "Kingdom of Thailand",
+      "United States of America"
+    ]
+  }
+}

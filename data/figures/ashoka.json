@@ -14,18 +14,23 @@
   "civilizations": [
     "Maurya Empire"
   ],
-  "related": [],
+  "related": [
+    "Kalinga"
+  ],
   "contribution": "Emperor of Magadha from c. 268 BCE until his death, and the third ruler from the Mauryan dynasty.",
   "image": "images/ashoka.jpg",
   "image_credit": "Photo Dharma from Sadao, Thailand · CC BY 2.0",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
         "Maurya Empire"
       ],
       "lead": [
-        "Maurya Empire"
+        "Maurya Empire",
+        "Kalinga"
       ],
       "citizenship": [
         "Maurya Empire"
@@ -35,6 +40,7 @@
       ]
     },
     "lead": "Ashoka, also known as Asoka or Aśoka ( ə-SHOH-kə; Sanskrit: [ɐˈɕoːkɐ], IAST: Aśoka; c. 304 – 232 BCE), most commonly known as Ashoka the Great, was Emperor of Magadha from c. 268 BCE until his death, and the third ruler from the Mauryan dynasty. His empire covered a large part of the Indian subcontinent, stretching from present-day Afghanistan in the west to present-day Bangladesh in the east, with its capital at Pataliputra. A patron of Buddhism, he is credited with an important role in the spread of Buddhism across ancient Asia.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

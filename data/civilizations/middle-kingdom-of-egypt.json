@@ -3,9 +3,13 @@
   "slug": "middle-kingdom-of-egypt",
   "name": "Middle Kingdom of Egypt",
   "wikipedia": "Middle Kingdom of Egypt",
-  "map_year": -1800,
+  "map_year": -1700,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -2055,
+      "latest": -2055,
+      "circa": true
+    },
     "end": null,
     "confirmed": false
   },
@@ -25,12 +29,14 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
   "modern_countries": [
     "Egypt"
   ],
+  "borders": true,
   "map": "maps/middle-kingdom-of-egypt.png",
   "checks": {
     "infobox": true,
@@ -52,8 +58,7 @@
     "home": "Thebes",
     "labelled": [
       "Hyksos",
-      "Elam",
-      "Sumerian City-States"
+      "Babylonia"
     ]
   }
 }

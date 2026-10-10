@@ -1,0 +1,63 @@
+{
+  "id": "Q218272",
+  "slug": "french-algeria",
+  "name": "French Algeria",
+  "wikipedia": "French Algeria",
+  "map_year": 1846,
+  "period": {
+    "start": {
+      "earliest": 1830,
+      "latest": 1830,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1962,
+      "latest": 1962,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Algiers",
+      "location": [
+        3.0586111111111,
+        36.776388888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q3045696",
+    "region": "Algeria",
+    "name": "Regency of Algiers"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Algeria"
+  ],
+  "borders": true,
+  "map": "maps/french-algeria.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Algiers"
+      ],
+      "infobox": [
+        "Algiers"
+      ]
+    },
+    "cliopatria_years": [
+      1830,
+      1847
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Algiers",
+    "labelled": [
+      "Morocco",
+      "Beylik of Tunis"
+    ]
+  }
+}

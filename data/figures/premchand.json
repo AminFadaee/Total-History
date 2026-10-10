@@ -18,7 +18,9 @@
   "contribution": "An Indian writer famous for his modern Hindustani literature.",
   "image": "images/premchand.jpg",
   "image_credit": "Ankur8563 · CC BY-SA 3.0",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "images/premchand-photo.jpg",
+  "photo_credit": "रोहित साव27 · CC BY-SA 4.0",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Dhanpat Rai Srivastava (31 July 1880 – 8 October 1936), better known as Munshi Premchand based on his pen name Premchand (pronounced [preːm t͡ʃənd̪] ), was an Indian writer famous for his modern Hindustani literature.",
-    "photo": "capture date '2013-03-10 06:47:18' not within their lifetime and not classified as a photograph"
+    "image": "",
+    "photo": "model 0.91, portrait 0.99"
   }
 }

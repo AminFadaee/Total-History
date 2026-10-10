@@ -22,7 +22,9 @@
   "contribution": "A Bangladeshi politician, revolutionary, statesman, activist, and diarist who was the founding president of Bangladesh.",
   "image": "images/sheikh-mujibur-rahman.jpg",
   "image_credit": "Prime Minister's Office of Bangladesh · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/sheikh-mujibur-rahman-photo.jpg",
+  "photo_credit": "Prime Minister's Office of Bangladesh · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -47,6 +49,7 @@
       ]
     },
     "lead": "Sheikh Mujibur Rahman (17 March 1920 – 15 August 1975) was a Bangladeshi politician, revolutionary, statesman, activist, and diarist who was the founding president of Bangladesh. As the leader of Bangladesh, he led the country as its president and prime minister from 1972 until his assassination in a coup d'état in 1975.",
-    "photo": "captured before 1973date QS:P,+1973-00-00T00:00:00Z/7,P1326,+1973-00-00T00:00:00Z/9Published on: 1 January 2020, 16:53 during their lifetime"
+    "image": "",
+    "photo": "model 0.90, portrait 0.92, in Category:Portrait photographs of Sheikh Mujibur Rahman"
   }
 }

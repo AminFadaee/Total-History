@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Paris",
-      "location": [
-        2.352222222222222,
-        48.85666666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q58326",
     "region": "France",
@@ -45,6 +38,7 @@
   "modern_countries": [
     "France"
   ],
+  "borders": true,
   "map": "maps/second-french-empire.png",
   "checks": {
     "infobox": true,
@@ -61,19 +55,17 @@
       1870
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Paris",
+    "home": "the spot held longest",
     "labelled": [
-      "Empire of Brazil",
-      "Russian Empire",
-      "United States of America",
-      "Ottoman Empire",
-      "Muhammad Ali dynasty",
-      "Qajar Dynasty",
-      "Republic of Peru",
-      "Emirate of Nejd",
-      "Khanate of Khiva",
-      "Sokoto Caliphate",
-      "Austrian Empire"
+      "Kingdom of Spain",
+      "Kingdom of Italy",
+      "German Confederation",
+      "Kingdom of Bavaria",
+      "Kingdom of Belgium",
+      "Austrian Empire",
+      "Kingdom of Great Britain",
+      "Serbs",
+      "Papal States"
     ]
   }
 }

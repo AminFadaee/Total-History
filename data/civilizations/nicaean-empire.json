@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q12544",
     "region": "Turkey",
@@ -56,6 +57,7 @@
     "Bulgaria",
     "North Macedonia"
   ],
+  "borders": true,
   "map": "maps/nicaean-empire.png",
   "checks": {
     "infobox": true,
@@ -81,10 +83,11 @@
       "Second Bulgarian Empire",
       "Kingdom of Serbia",
       "Despotate of Epirus",
-      "Kingdom of Hungary",
+      "Principality of Achaea",
       "Kingdom of Sicily",
       "Armenian Kingdom of Cilicia",
-      "Banate of Bosnia"
+      "Banate of Bosnia",
+      "Kingdom of Cyprus"
     ]
   }
 }

@@ -17,22 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Aegae",
-      "location": [
-        22.3227596,
-        40.4779658
-      ]
-    },
-    {
-      "name": "Pella",
-      "location": [
-        22.525642,
-        40.760033
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q237325",
@@ -104,6 +90,7 @@
     "Lebanon",
     "Palestine"
   ],
+  "borders": true,
   "map": "maps/macedonian-empire.png",
   "checks": {
     "infobox": true,
@@ -123,7 +110,7 @@
       -292
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Aegae",
+    "home": "the spot held longest",
     "labelled": [
       "Maurya Empire",
       "Kingdom of Kush",

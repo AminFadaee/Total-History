@@ -1,0 +1,73 @@
+{
+  "id": "Q274488",
+  "slug": "eastern-wu",
+  "name": "Eastern Wu",
+  "wikipedia": "Eastern Wu",
+  "map_year": 270,
+  "period": {
+    "start": {
+      "earliest": 222,
+      "latest": 222,
+      "circa": false
+    },
+    "end": {
+      "earliest": 280,
+      "latest": 280,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Jiankang",
+      "location": [
+        118.79647,
+        32.05837
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q7209",
+    "region": "China",
+    "name": "Han Dynasty"
+  },
+  "after": {
+    "id": "Q7352",
+    "region": "China",
+    "name": "Western Jin"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Vietnam",
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
+  ],
+  "borders": true,
+  "map": "maps/eastern-wu.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ezhou",
+        "Nanjing"
+      ],
+      "infobox": [
+        "Ezhou",
+        "Jiankang"
+      ]
+    },
+    "cliopatria_years": [
+      207,
+      282
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Jiankang",
+    "labelled": [
+      "Western Jin",
+      "Funan",
+      "Pyu City-States"
+    ]
+  }
+}

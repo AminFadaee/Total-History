@@ -1,0 +1,69 @@
+{
+  "id": "Q736936",
+  "slug": "lu",
+  "name": "Lu",
+  "wikipedia": "Lu (state)",
+  "map_year": -750,
+  "period": {
+    "start": {
+      "earliest": -1042,
+      "latest": -1042,
+      "circa": true
+    },
+    "end": {
+      "earliest": -249,
+      "latest": -249,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q504759",
+    "region": "China",
+    "name": "Chu"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/lu.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Qufu"
+      ],
+      "infobox": [
+        "Lushan County, Henan",
+        "Qufu"
+      ]
+    },
+    "cliopatria_years": [
+      -750,
+      -248
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "the spot held longest",
+    "labelled": [
+      "Qi",
+      "Wu",
+      "Song",
+      "Wey",
+      "Zhu",
+      "Xu",
+      "Teng",
+      "Cao",
+      "Chu",
+      "Jin",
+      "Qin",
+      "Later Zhou",
+      "Zheng",
+      "Chen",
+      "Cai"
+    ]
+  }
+}

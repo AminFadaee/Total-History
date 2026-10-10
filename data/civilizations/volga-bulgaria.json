@@ -29,6 +29,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q12557",
@@ -44,6 +45,7 @@
   "modern_countries": [
     "Russia"
   ],
+  "borders": true,
   "map": "maps/volga-bulgaria.png",
   "checks": {
     "infobox": true,

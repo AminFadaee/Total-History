@@ -1,0 +1,84 @@
+{
+  "id": "Q16957",
+  "slug": "german-democratic-republic",
+  "name": "German Democratic Republic",
+  "wikipedia": "East Germany",
+  "map_year": 1973,
+  "period": {
+    "start": {
+      "earliest": 1949,
+      "latest": 1949,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1990,
+      "latest": 1990,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "East Berlin",
+      "location": [
+        13.404444444444,
+        52.518611111111
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q183",
+    "region": "Germany",
+    "name": "Federated Republic of Germany"
+  },
+  "rulers": [
+    {
+      "id": "Q2628",
+      "name": "Walter Ulbricht"
+    },
+    {
+      "id": "Q2607",
+      "name": "Erich Honecker"
+    },
+    {
+      "id": "Q2602",
+      "name": "Egon Krenz"
+    },
+    {
+      "id": "Q57241",
+      "name": "Hans Modrow"
+    }
+  ],
+  "modern_countries": [
+    "Germany"
+  ],
+  "borders": true,
+  "map": "maps/german-democratic-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "East Berlin"
+      ],
+      "infobox": [
+        "East Berlin"
+      ]
+    },
+    "cliopatria_years": [
+      1949,
+      1990
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "East Berlin",
+    "labelled": [
+      "Republic of Poland",
+      "Federal Republic of Germany",
+      "Union of Soviet Socialist Republics",
+      "French Fifth Republic",
+      "Netherlands",
+      "Kingdom of Belgium"
+    ]
+  }
+}

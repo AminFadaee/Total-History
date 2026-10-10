@@ -1,0 +1,40 @@
+{
+  "id": "Q36322",
+  "slug": "jane-austen",
+  "name": "Jane Austen",
+  "wikipedia": "Jane Austen",
+  "role": "English novelist",
+  "life": "1775–1817",
+  "lifetime": [
+    1775,
+    1817
+  ],
+  "occupation": "Writer",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of Great Britain"
+  ],
+  "related": [],
+  "contribution": "An English writer known primarily for her six novels, which implicitly interpret, critique, and comment on the English landed gentry at the end of the 18th century.",
+  "image": "images/jane-austen.jpg",
+  "image_credit": "Cassandra Austen · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of Great Britain"
+      ],
+      "citizenship": [
+        "Kingdom of Great Britain"
+      ],
+      "birthplace": [
+        "Kingdom of Great Britain"
+      ]
+    },
+    "lead": "Jane Austen ( OST-in, AW-stin; 16 December 1775 – 18 July 1817) was an English writer known primarily for her six novels, which implicitly interpret, critique, and comment on the English landed gentry at the end of the 18th century.",
+    "image": "",
+    "photo": "no death year in or after 1860"
+  }
+}

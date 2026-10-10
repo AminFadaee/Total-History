@@ -1,0 +1,73 @@
+{
+  "id": "Q756617",
+  "slug": "kingdom-of-denmark",
+  "name": "Kingdom of Denmark",
+  "wikipedia": "Danish Realm",
+  "map_year": 1220,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Copenhagen",
+      "location": [
+        12.568888888889,
+        55.676111111111
+      ]
+    }
+  ],
+  "parts": [
+    "Denmark",
+    "Greenland"
+  ],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Germany",
+    "Denmark",
+    "Sweden",
+    "Poland",
+    "Estonia"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-denmark.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Copenhagen"
+      ],
+      "infobox": [
+        "Copenhagen"
+      ]
+    },
+    "cliopatria_years": [
+      936,
+      1406
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Copenhagen",
+    "labelled": [
+      "Kievan Rus'",
+      "Novgorod Republic",
+      "Holy Roman Empire",
+      "Kingdom of Sweden",
+      "Duchy of Sandomierz",
+      "Livonian Brothers of the Sword",
+      "Duchy of Greater Poland",
+      "Duchy of Silesia",
+      "Old Kingdom of Norway",
+      "Principality of Smolensk",
+      "Principality of Chernigov",
+      "Principality of Galicia-Volhynia",
+      "Principality of Kiev",
+      "Grand Duchy of Lithuania",
+      "Principality of Minsk",
+      "Duchy of Masovia",
+      "County of Flanders"
+    ]
+  }
+}

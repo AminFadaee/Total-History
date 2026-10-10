@@ -18,13 +18,18 @@
   "contribution": "Roman emperor from AD 79 to 81.",
   "image": "images/titus.jpg",
   "image_credit": "Unknown artistUnknown artist · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
         "Roman Empire"
       ],
       "death": [
+        "Roman Empire"
+      ],
+      "citizenship": [
         "Roman Empire"
       ],
       "vital_section": [
@@ -35,6 +40,7 @@
       ]
     },
     "lead": "Titus Flavius Vespasianus ( ; 30 December AD 39 – 13 September 81) was Roman emperor from AD 79 to 81. A member of the Flavian dynasty, Titus succeeded his father, Vespasian, upon his death, becoming the first Roman emperor to succeed his biological father.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

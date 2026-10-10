@@ -33,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q2277",
     "region": "Italy",
@@ -58,6 +59,7 @@
     "San Marino",
     "Vatican"
   ],
+  "borders": true,
   "map": "maps/western-roman-empire.png",
   "checks": {
     "infobox": true,

@@ -20,7 +20,9 @@
   "contribution": "Prince of Novgorod and Grand Prince of Vladimir.",
   "image": "images/alexander-nevsky.jpg",
   "image_credit": "Collective of Kremlin Armory artists · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -39,6 +41,7 @@
       ]
     },
     "lead": "Alexander Yaroslavich Nevsky (Russian: Александр Ярославич Невский; IPA: [ɐlʲɪˈksandr jɪrɐˈsɫavʲɪtɕ ˈnʲɛfskʲɪj] ; monastic name: Aleksiy; 13 May 1221 – 14 November 1263) was Prince of Novgorod (1236–1240; 1241–1256; 1258–1259) and Grand Prince of Vladimir (1252–1263).",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

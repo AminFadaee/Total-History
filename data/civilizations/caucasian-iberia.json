@@ -5,13 +5,17 @@
   "wikipedia": "Kingdom of Iberia",
   "map_year": -63,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -302,
+      "latest": -302,
+      "circa": true
+    },
     "end": {
       "earliest": 580,
       "latest": 580,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": true
   },
   "capitals": [
     {
@@ -20,22 +24,9 @@
         44.72166,
         41.83763
       ]
-    },
-    {
-      "name": "Tbilisi",
-      "location": [
-        44.7925,
-        41.7225
-      ]
-    },
-    {
-      "name": "Mtskheta",
-      "location": [
-        44.71944444444444,
-        41.84305555555556
-      ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q83891",
@@ -47,6 +38,7 @@
     "Georgia",
     "Russia"
   ],
+  "borders": true,
   "map": "maps/caucasian-iberia.png",
   "checks": {
     "infobox": true,
@@ -71,12 +63,10 @@
     "labelled": [
       "Kingdom of Armenia",
       "Caucasian Albania",
-      "Kingdom of Cappadocia",
-      "Galatia",
+      "Lazica",
       "Kingdom of Pontus",
-      "Thracian Kingdom",
-      "Kingdom of Osroene",
-      "Kingdom of Gordyene"
+      "Kingdom of Cappadocia",
+      "Kingdom of Sophene"
     ]
   }
 }

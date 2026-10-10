@@ -18,7 +18,9 @@
   "contribution": "A German sociologist, historian, jurist, and political economist who was one of the central figures in the development of sociology and the social sciences more generally.",
   "image": "images/max-weber.jpg",
   "image_credit": "Ernst Gottmann · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/max-weber-photo.jpg",
+  "photo_credit": "Ernst Gottmann · Public domain",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -33,6 +35,7 @@
       ]
     },
     "lead": "Maximilian Carl Emil Weber (; German: [ˈveːbɐ] ; 21 April 1864 – 14 June 1920) was a German sociologist, historian, jurist, and political economist who was one of the central figures in the development of sociology and the social sciences more generally. His ideas continue to influence social theory and research.",
-    "photo": "captured 1918 during their lifetime"
+    "image": "",
+    "photo": "model 0.86, portrait 0.98, captured 1918, during their lifetime"
   }
 }

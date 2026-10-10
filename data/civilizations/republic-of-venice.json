@@ -19,13 +19,6 @@
   },
   "capitals": [
     {
-      "name": "Venice",
-      "location": [
-        12.331944444444,
-        45.439722222222
-      ]
-    },
-    {
       "name": "Eraclea",
       "location": [
         12.683333333333,
@@ -40,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q153136",
@@ -61,6 +55,7 @@
     "Greece",
     "Croatia"
   ],
+  "borders": true,
   "map": "maps/republic-of-venice.png",
   "checks": {
     "infobox": true,
@@ -81,7 +76,7 @@
       1796
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Venice",
+    "home": "Eraclea",
     "labelled": [
       "Ottoman Empire",
       "Habsburg Monarchy",

@@ -1,0 +1,71 @@
+{
+  "id": "Q215443",
+  "slug": "swedish-empire",
+  "name": "Swedish Empire",
+  "wikipedia": "Swedish Empire",
+  "map_year": 1632,
+  "period": {
+    "start": {
+      "earliest": 1611,
+      "latest": 1611,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1721,
+      "latest": 1721,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Stockholm",
+      "location": [
+        18.068611111111,
+        59.329444444444
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Sweden",
+    "Finland",
+    "Germany",
+    "Estonia",
+    "Aland"
+  ],
+  "borders": true,
+  "map": "maps/swedish-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Stockholm"
+      ],
+      "infobox": [
+        "Stockholm"
+      ]
+    },
+    "cliopatria_years": [
+      1612,
+      1814
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Stockholm",
+    "labelled": [
+      "Tsardom of Russia",
+      "Polish-Lithuanian Commonwealth",
+      "Iberian Union",
+      "Habsburg Monarchy",
+      "Kazakh Khanate",
+      "Kingdom of France",
+      "Kingdom of England",
+      "Khanate of Khiva",
+      "Small Horde",
+      "Kalmyk Khanate"
+    ]
+  }
+}

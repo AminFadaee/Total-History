@@ -1,0 +1,78 @@
+{
+  "id": "Q83572",
+  "slug": "sikh-empire",
+  "name": "Sikh Empire",
+  "wikipedia": "Sikh Empire",
+  "map_year": 1842,
+  "period": {
+    "start": {
+      "earliest": 1799,
+      "latest": 1799,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1849,
+      "latest": 1849,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Gujranwala",
+      "location": [
+        74.183333333333,
+        32.15
+      ]
+    },
+    {
+      "name": "Lahore",
+      "location": [
+        74.343611111111,
+        31.549722222222
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q2578028",
+    "region": "Pakistan",
+    "name": "Sikh Confederacy"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Pakistan",
+    "India"
+  ],
+  "borders": true,
+  "map": "maps/sikh-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Lahore",
+        "Gujranwala"
+      ],
+      "infobox": [
+        "Gujranwala",
+        "Lahore"
+      ]
+    },
+    "cliopatria_years": [
+      1799,
+      1848
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Lahore",
+    "labelled": [
+      "British Empire",
+      "Qing Dynasty",
+      "Durrani Dynasty",
+      "Talpur Dynasty",
+      "Mughal Empire",
+      "Emirate of Bukhara",
+      "Nepal"
+    ]
+  }
+}

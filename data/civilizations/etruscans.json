@@ -10,6 +10,7 @@
     "confirmed": false
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q17167",
@@ -21,6 +22,7 @@
     "Italy",
     "France"
   ],
+  "borders": true,
   "map": "maps/etruscans.png",
   "checks": {
     "infobox": true,
@@ -34,8 +36,6 @@
     ],
     "identity": "Wikipedia article with a country infobox",
     "home": "the spot held longest",
-    "labelled": [
-      "Greek City-States"
-    ]
+    "labelled": []
   }
 }

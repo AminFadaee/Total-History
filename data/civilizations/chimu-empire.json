@@ -1,0 +1,59 @@
+{
+  "id": "Q581741",
+  "slug": "chimu-empire",
+  "name": "Chimu Empire",
+  "wikipedia": "Chimor",
+  "map_year": 1375,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1470,
+      "latest": 1470,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Chan Chan",
+      "location": [
+        -79.075,
+        -8.1105555555556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q28573",
+    "region": "Peru",
+    "name": "Inca Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Peru",
+    "Ecuador"
+  ],
+  "borders": true,
+  "map": "maps/chimu-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chan Chan"
+      ],
+      "infobox": [
+        "Chan Chan"
+      ]
+    },
+    "cliopatria_years": [
+      1188,
+      1481
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Chan Chan",
+    "labelled": [
+      "Cuzco"
+    ]
+  }
+}

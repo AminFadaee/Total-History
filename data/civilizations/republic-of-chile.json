@@ -1,0 +1,57 @@
+{
+  "id": "Q298",
+  "slug": "republic-of-chile",
+  "name": "Republic of Chile",
+  "wikipedia": "Chile",
+  "map_year": 1905,
+  "period": {
+    "start": {
+      "earliest": 1810,
+      "latest": 1810,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Santiago",
+      "location": [
+        -70.65,
+        -33.4375
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Chile"
+  ],
+  "borders": true,
+  "map": "maps/republic-of-chile.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Santiago"
+      ],
+      "infobox": [
+        "Santiago"
+      ]
+    },
+    "cliopatria_years": [
+      1812,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Santiago",
+    "labelled": [
+      "Argentine Confederation",
+      "Bolivia",
+      "Republic of Peru",
+      "Brazilian Republic"
+    ]
+  }
+}

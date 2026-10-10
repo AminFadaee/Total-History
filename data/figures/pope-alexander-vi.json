@@ -19,7 +19,9 @@
   "contribution": "Head of the Catholic Church and sovereign of the Papal States from 11 August 1492 until his death in 1503.",
   "image": "images/pope-alexander-vi.jpg",
   "image_credit": "Attributed to Pedro Berruguete · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -43,6 +45,7 @@
       ]
     },
     "lead": "Pope Alexander VI (born Roderic de Borja y Llançol; c. 1431 – 18 August 1503) was head of the Catholic Church and sovereign of the Papal States from 11 August 1492 until his death in 1503.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

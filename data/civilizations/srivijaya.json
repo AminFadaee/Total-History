@@ -3,7 +3,7 @@
   "slug": "srivijaya",
   "name": "Srivijaya",
   "wikipedia": "Srivijaya",
-  "map_year": 718,
+  "map_year": 860,
   "period": {
     "start": {
       "earliest": 671,
@@ -22,6 +22,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -31,6 +32,7 @@
     "Thailand",
     "Singapore"
   ],
+  "borders": true,
   "map": "maps/srivijaya.png",
   "checks": {
     "infobox": true,
@@ -49,9 +51,10 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Palembang",
     "labelled": [
-      "Water Chenla",
-      "Land Chenla",
-      "Lavo Kingdom"
+      "Khmer Empire",
+      "Lavo Kingdom",
+      "Sunda Kingdom",
+      "Mataram Kingdom"
     ]
   }
 }

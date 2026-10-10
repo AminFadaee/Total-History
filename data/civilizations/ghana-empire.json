@@ -3,7 +3,7 @@
   "slug": "ghana-empire",
   "name": "Ghana Empire",
   "wikipedia": "Ghana Empire",
-  "map_year": 793,
+  "map_year": 1192,
   "period": {
     "start": null,
     "end": {
@@ -22,6 +22,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q13099593",
@@ -33,6 +34,7 @@
     "Mali",
     "Mauritania"
   ],
+  "borders": true,
   "map": "maps/ghana-empire.png",
   "checks": {
     "infobox": true,

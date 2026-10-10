@@ -1,0 +1,59 @@
+{
+  "id": "Q34",
+  "slug": "kingdom-of-sweden",
+  "name": "Kingdom of Sweden",
+  "wikipedia": "Sweden",
+  "map_year": 1564,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Stockholm",
+      "location": [
+        18.068611111111,
+        59.329444444444
+      ]
+    }
+  ],
+  "parts": [
+    "Jaemtland"
+  ],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Sweden",
+    "Finland",
+    "Aland"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-sweden.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Stockholm"
+      ],
+      "infobox": [
+        "Stockholm"
+      ]
+    },
+    "cliopatria_years": [
+      980,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Stockholm",
+    "labelled": [
+      "Tsardom of Russia",
+      "Holy Roman Empire Minor States",
+      "House of Jagiellon",
+      "Small Horde",
+      "Kingdom of England",
+      "Kingdom of Scotland"
+    ]
+  }
+}

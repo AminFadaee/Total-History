@@ -1,0 +1,69 @@
+{
+  "id": "Q146597",
+  "slug": "zand-dynasty",
+  "name": "Zand Dynasty",
+  "wikipedia": "Zand Iran",
+  "map_year": 1776,
+  "period": {
+    "start": {
+      "earliest": 1751,
+      "latest": 1751,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1794,
+      "latest": 1794,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q63149558",
+    "region": "Iran",
+    "name": "Afsharid Iran"
+  },
+  "after": {
+    "id": "Q63158027",
+    "region": "Iran",
+    "name": "Qajar Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Iran"
+  ],
+  "borders": true,
+  "map": "maps/zand-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Shiraz"
+      ],
+      "infobox": [
+        "Shiraz",
+        "Isfahan",
+        "Kerman"
+      ]
+    },
+    "cliopatria_years": [
+      1748,
+      1793
+    ],
+    "identity": "the state named after Zand dynasty",
+    "home": "the spot held longest",
+    "labelled": [
+      "Ottoman Empire",
+      "Durrani Empire",
+      "Khanate of Khiva",
+      "Mughal Empire",
+      "Khanate of Bukhara",
+      "Khanate of Kokand",
+      "Sultanate of Oman",
+      "Emirate of Diriyah",
+      "Sikh Confederacy",
+      "Kingdom of Georgia"
+    ]
+  }
+}

@@ -23,7 +23,9 @@
   "contribution": "The fifth Safavid shah of Iran from 1588 to 1629.",
   "image": "images/abbas-the-great.jpg",
   "image_credit": "1647 artist · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -47,6 +49,7 @@
       ]
     },
     "lead": "Abbas I (Persian: عباس یکم, romanized: Abbâs-e Yekom; 27 January 1571 – 19 January 1629), commonly known as Abbas the Great (Persian: عباس بزرگ, romanized: Abbâs-e Bozorg), was the fifth Safavid shah of Iran from 1588 to 1629. The third son of Shah Mohammad Khodabanda, he is generally considered one of the most important rulers in Iranian history and the greatest ruler of the Safavid dynasty.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

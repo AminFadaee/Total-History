@@ -33,6 +33,9 @@
       ]
     }
   ],
+  "parts": [
+    "Grand Duchy of Lithuania"
+  ],
   "before": {},
   "after": {},
   "rulers": [
@@ -54,6 +57,7 @@
     "Lithuania",
     "Estonia"
   ],
+  "borders": true,
   "map": "maps/polish-lithuanian-commonwealth.png",
   "checks": {
     "infobox": true,

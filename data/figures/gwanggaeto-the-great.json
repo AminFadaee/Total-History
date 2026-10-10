@@ -22,7 +22,9 @@
   "contribution": "The nineteenth monarch of Goguryeo.",
   "image": "images/gwanggaeto-the-great.jpg",
   "image_credit": "Reignsh · CC BY-SA 3.0",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "lead": [
@@ -39,6 +41,7 @@
       ]
     },
     "lead": "Gwanggaeto the Great (374–412, r. 391–412) was the nineteenth monarch of Goguryeo. His full posthumous name means \"Entombed in Gukgangsang, Broad Expander of Domain, Peacemaker, Supreme King\", sometimes abbreviated to Hotaewang. His era name is Yeongnak and he is occasionally recorded as Yeongnak Taewang (\"Great King\" or \"Emperor\" Yeongnak). Gwanggaeto's imperial reign title meant that Goguryeo was on equal standing as an empire with the imperial dynasties in China.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

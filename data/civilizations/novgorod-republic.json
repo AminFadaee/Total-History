@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q170770",
@@ -36,6 +37,7 @@
   "modern_countries": [
     "Russia"
   ],
+  "borders": true,
   "map": "maps/novgorod-republic.png",
   "checks": {
     "infobox": true,

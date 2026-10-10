@@ -1,0 +1,70 @@
+{
+  "id": "Q175379",
+  "slug": "empire-of-china",
+  "name": "Empire of China",
+  "wikipedia": "Empire of China (1915–1916)",
+  "map_year": 1916,
+  "period": {
+    "start": {
+      "earliest": 1915,
+      "latest": 1915,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1916,
+      "latest": 1916,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Beijing",
+      "location": [
+        116.407526,
+        39.90403
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q13426199",
+    "region": "China",
+    "name": "Republic of China"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/empire-of-china.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Beijing"
+      ],
+      "infobox": [
+        "Beijing"
+      ]
+    },
+    "cliopatria_years": [
+      1916,
+      1916
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Beijing",
+    "labelled": [
+      "Russian Empire",
+      "British Raj",
+      "Great Mongol State",
+      "Tibet",
+      "French Indochina",
+      "Emirate of Afghanistan",
+      "Ottoman Empire",
+      "Emirate of Nejd",
+      "Nepal"
+    ]
+  }
+}

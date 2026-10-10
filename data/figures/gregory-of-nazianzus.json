@@ -18,10 +18,15 @@
   "contribution": "An early Roman Christian theologian and prelate who served as Archbishop of Constantinople from 380 to 381.",
   "image": "images/gregory-of-nazianzus.jpg",
   "image_credit": "Unknown authorUnknown author · Copyrighted free use",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
+        "Roman Empire"
+      ],
+      "citizenship": [
         "Roman Empire"
       ],
       "birthplace": [
@@ -29,6 +34,7 @@
       ]
     },
     "lead": "Gregory of Nazianzus (Koine Greek: Γρηγόριος ὁ Ναζιανζηνός, romanized: Grēgórios ho Nazianzēnós, IPA: [ɣriˈɣori.os o nazi.anziˈnos]; c. 329 – 25 January 390), also known as  Saint Gregory the Theologian or Gregory Nazianzen, was an early Roman Christian theologian and prelate who served as Archbishop of Constantinople from 380 to 381. He is widely considered the most accomplished rhetorical stylist of the patristic age. As a classically trained orator and philosopher, he infused Hellenism into the early Church, establishing the paradigm of Byzantine theologians and church officials.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

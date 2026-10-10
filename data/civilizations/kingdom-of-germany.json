@@ -1,0 +1,69 @@
+{
+  "id": "Q175211",
+  "slug": "kingdom-of-germany",
+  "name": "Kingdom of Germany",
+  "wikipedia": "Kingdom of Germany",
+  "map_year": 961,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [
+    "Duchy of Lorraine",
+    "Duchy of Bavaria"
+  ],
+  "before": {
+    "id": "Q153080",
+    "region": "Germany",
+    "name": "East Franks"
+  },
+  "after": {
+    "id": "Q12548",
+    "region": "Germany",
+    "name": "Holy Roman Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Germany",
+    "Italy",
+    "Austria",
+    "Netherlands",
+    "Belgium",
+    "Slovenia",
+    "Luxembourg",
+    "Liechtenstein",
+    "San Marino"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-germany.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [
+        "Regensburg"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      911,
+      961
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "West Franks",
+      "Principality of Hungary",
+      "Duchy of Bohemia",
+      "Kievan Rus'",
+      "Byzantine Empire",
+      "First Bulgarian Empire",
+      "Caliphate of Córdoba",
+      "Kingdom of León",
+      "Kingdom of England",
+      "Kingdom of Alba",
+      "Duchy of Brittany"
+    ]
+  }
+}

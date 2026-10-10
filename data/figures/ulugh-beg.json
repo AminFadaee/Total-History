@@ -18,7 +18,9 @@
   "contribution": "A Timurid sultan, as well as an astronomer and mathematician.",
   "image": "images/ulugh-beg.jpg",
   "image_credit": "Unknown artistUnknown artist · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Mīrzā Muhammad Tarāghāy bin Shāhrukh (Chagatay: میرزا محمد تراغای بن شاهرخ; Persian: میرزا محمد طارق بن شاهرخ), better known as Ulugh Beg (Persian: الغ‌بیگ; 22 March 1394 – 27 October 1449), was a Timurid sultan, as well as an astronomer and mathematician.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

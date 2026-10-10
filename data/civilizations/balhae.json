@@ -1,0 +1,72 @@
+{
+  "id": "Q28322",
+  "slug": "balhae",
+  "name": "Balhae",
+  "wikipedia": "Parhae",
+  "map_year": 922,
+  "period": {
+    "start": {
+      "earliest": 698,
+      "latest": 698,
+      "circa": false
+    },
+    "end": {
+      "earliest": 926,
+      "latest": 926,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Shangjing Longquanfu",
+      "location": [
+        129.14166667,
+        44.13055556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q4958",
+    "region": "China",
+    "name": "Liao Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Russia",
+    "North Korea"
+  ],
+  "borders": true,
+  "map": "maps/balhae.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Dongmosan",
+        "Site of the Middle Capital of the Balhae Kingdom",
+        "Shangjing Longquanfu",
+        "Donggyeong Yongwonbu"
+      ],
+      "infobox": [
+        "Dunhua",
+        "Helong",
+        "Shangjing Longquanfu",
+        "Hunchun"
+      ]
+    },
+    "cliopatria_years": [
+      705,
+      925
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Shangjing Longquanfu",
+    "labelled": [
+      "Liao Dynasty",
+      "Goryeo",
+      "Former Jin"
+    ]
+  }
+}

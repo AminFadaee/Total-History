@@ -1,0 +1,55 @@
+{
+  "id": "Q28405",
+  "slug": "gojoseon",
+  "name": "Gojoseon",
+  "wikipedia": "Old Chosŏn",
+  "map_year": -110,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": -108,
+      "latest": -108,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Wanggeom-seong",
+      "location": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "North Korea",
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/gojoseon.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Asadal",
+        "Pyongyang",
+        "Wanggeom-seong"
+      ],
+      "infobox": [
+        "Wanggeom-seong"
+      ]
+    },
+    "cliopatria_years": [
+      -197,
+      -92
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Han Dynasty",
+      "Korean Jin"
+    ]
+  }
+}

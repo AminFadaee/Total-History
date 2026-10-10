@@ -33,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q12557",
@@ -45,6 +46,7 @@
     "Russia",
     "North Korea"
   ],
+  "borders": true,
   "map": "maps/great-jin.png",
   "checks": {
     "infobox": true,

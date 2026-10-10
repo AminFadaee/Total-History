@@ -18,7 +18,9 @@
   "contribution": "An English philosopher and political theorist, best known for his 1651 book Leviathan, in which he expounds an influential formulation of social contract theory.",
   "image": "images/thomas-hobbes.jpg",
   "image_credit": "John Michael Wright · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Thomas Hobbes ( HOBZ; 5 April 1588 – 4 December 1679) was an English philosopher and political theorist, best known for his 1651 book Leviathan, in which he expounds an influential formulation of social contract theory. He is considered to be one of the founders of modern political philosophy.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

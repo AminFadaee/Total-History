@@ -26,20 +26,6 @@
       ]
     },
     {
-      "name": "Nineveh",
-      "location": [
-        43.15,
-        36.366667
-      ]
-    },
-    {
-      "name": "Kar-Tukulti-Ninurta",
-      "location": [
-        43.26944444,
-        35.49583333
-      ]
-    },
-    {
       "name": "Nimrud",
       "location": [
         43.328888888889,
@@ -61,6 +47,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -131,6 +118,7 @@
     "Syria",
     "Iran"
   ],
+  "borders": true,
   "map": "maps/assyria.png",
   "checks": {
     "infobox": true,

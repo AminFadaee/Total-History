@@ -18,7 +18,9 @@
   "contribution": "King of France from 1610 until his death in 1643 and King of Navarre from 1610 to 1620, when the crown of Navarre was merged with the French crown.",
   "image": "images/louis-xiii.jpg",
   "image_credit": "Philippe de Champaigne / Formerly attributed to Jan van Belcamp · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -38,6 +40,7 @@
       ]
     },
     "lead": "Louis XIII (French pronunciation: [lwi tʁɛz]; sometimes called the Just; 27 September 1601 – 14 May 1643) was King of France from 1610 until his death in 1643 and King of Navarre (as Louis II) from 1610 to 1620, when the crown of Navarre was merged with the French crown.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

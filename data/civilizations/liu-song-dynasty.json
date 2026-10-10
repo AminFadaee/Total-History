@@ -1,0 +1,77 @@
+{
+  "id": "Q49697",
+  "slug": "liu-song-dynasty",
+  "name": "Liu Song Dynasty",
+  "wikipedia": "Liu Song dynasty",
+  "map_year": 439,
+  "period": {
+    "start": {
+      "earliest": 420,
+      "latest": 420,
+      "circa": false
+    },
+    "end": {
+      "earliest": 479,
+      "latest": 479,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Jiankang",
+      "location": [
+        118.79647,
+        32.05837
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q7352",
+    "region": "China",
+    "name": "Western Jin"
+  },
+  "after": {
+    "id": "Q62456",
+    "region": "China",
+    "name": "Southern Qi"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
+  ],
+  "borders": true,
+  "map": "maps/liu-song-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Jiankang"
+      ],
+      "infobox": [
+        "Jiankang"
+      ]
+    },
+    "cliopatria_years": [
+      426,
+      479
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Jiankang",
+    "labelled": [
+      "Northern Wei",
+      "Tuyuhun",
+      "Rouran Khaganate",
+      "Gupta Empire",
+      "Protectorate of the Western Regions",
+      "Goguryeo",
+      "Vakataka Kingdom",
+      "Funan",
+      "Kamarupa Kingdom",
+      "Northern Liang"
+    ]
+  }
+}

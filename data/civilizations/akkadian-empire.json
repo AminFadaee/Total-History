@@ -23,6 +23,7 @@
       "location": null
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -32,6 +33,7 @@
     "Iran",
     "Turkey"
   ],
+  "borders": true,
   "map": "maps/akkadian-empire.png",
   "checks": {
     "infobox": true,

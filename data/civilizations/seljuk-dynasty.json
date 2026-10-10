@@ -14,6 +14,7 @@
     "confirmed": false
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -23,6 +24,7 @@
     "Kazakhstan",
     "Iran"
   ],
+  "borders": true,
   "map": "maps/seljuk-dynasty.png",
   "checks": {
     "infobox": false,

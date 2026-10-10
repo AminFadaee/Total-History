@@ -1,0 +1,68 @@
+{
+  "id": "Q926295",
+  "slug": "italian-africa",
+  "name": "Italian Africa",
+  "wikipedia": "Italian Empire",
+  "map_year": 1940,
+  "period": {
+    "start": {
+      "earliest": 1882,
+      "latest": 1882,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1943,
+      "latest": 1943,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Rome",
+      "location": [
+        12.482777777778,
+        41.893055555556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Libya",
+    "Ethiopia",
+    "Somalia",
+    "Eritrea"
+  ],
+  "borders": true,
+  "map": "maps/italian-africa.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Rome"
+      ],
+      "infobox": [
+        "Rome"
+      ]
+    },
+    "cliopatria_years": [
+      1890,
+      1943
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "British Africa",
+      "French Africa",
+      "Kingdom of Egypt",
+      "Belgian Congo",
+      "Free French",
+      "Kingdom of Saudi Arabia",
+      "Sultanate of Muscat and Oman",
+      "North Yemen"
+    ]
+  }
+}

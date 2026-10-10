@@ -18,7 +18,9 @@
   "contribution": "Prince of Novgorod from 970 and Grand Prince of Kiev from 978 until his death in 1015.",
   "image": "images/vladimir-the-great.jpg",
   "image_credit": "Anonymous illumination · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Vladimir I Sviatoslavich or Volodymyr I Sviatoslavych (Old East Slavic: Володимѣръ Свѧтославичь, romanized: Volodiměr Svętoslavič; Christian name: Basil; c. 958 – 15 July 1015), given the epithet \"the Great\", was Prince of Novgorod from 970 and Grand Prince of Kiev from 978 until his death in 1015. The Catholic Church and the Eastern Orthodox Church both canonised him as Saint Vladimir.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

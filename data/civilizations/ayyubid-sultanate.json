@@ -22,6 +22,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q160307",
     "region": "Egypt",
@@ -82,6 +83,7 @@
     "Israel",
     "Palestine"
   ],
+  "borders": true,
   "map": "maps/ayyubid-sultanate.png",
   "checks": {
     "infobox": true,

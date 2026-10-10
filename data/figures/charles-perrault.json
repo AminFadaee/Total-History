@@ -18,7 +18,9 @@
   "contribution": "A French author and member of the Académie Française.",
   "image": "images/charles-perrault.jpg",
   "image_credit": "Charles Le Brun · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Charles Perrault ( perr-OH, US also  pə-ROH, French: [ʃaʁl pɛʁo]; 12 January 1628 – 16 May 1703) was a French author and member of the Académie Française. He laid the foundations for a new literary genre, the fairy tale, with his works derived from earlier folk tales, published in his 1697 book Histoires ou contes du temps passé. The best known of his tales include \"Little Red Riding Hood\", \"Cinderella\", \"Puss in Boots\", \"Sleeping Beauty\", and \"Bluebeard\".",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

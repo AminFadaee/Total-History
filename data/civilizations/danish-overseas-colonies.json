@@ -1,0 +1,40 @@
+{
+  "id": "Q302132",
+  "slug": "danish-overseas-colonies",
+  "name": "Danish overseas colonies",
+  "wikipedia": "Danish overseas colonies",
+  "map_year": 1536,
+  "period": {
+    "start": {
+      "earliest": 1537,
+      "latest": 1537,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1953,
+      "latest": 1953,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Copenhagen"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

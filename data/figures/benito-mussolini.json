@@ -21,7 +21,9 @@
   "contribution": "A fascist dictator who was the prime minister of Italy from 1922 until his deposition in 1943.",
   "image": "images/benito-mussolini.jpg",
   "image_credit": "Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "images/benito-mussolini-photo.jpg",
+  "photo_credit": "UnknownUnknown · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -40,6 +42,7 @@
       ]
     },
     "lead": "Benito Amilcare Andrea Mussolini (29 July 1883 – 28 April 1945) was a fascist dictator who was the prime minister of Italy from 1922 until his deposition in 1943. Known as Il Duce during his rule, he established a totalitarian dictatorship led by the National Fascist Party (PNF) in the Kingdom of Italy.",
-    "photo": "capture date '10 January 2009 (original upload date)' not within their lifetime and not classified as a photograph"
+    "image": "",
+    "photo": "model 0.83, portrait 0.92, captured 1939, during their lifetime"
   }
 }

@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q624887",
@@ -43,9 +44,9 @@
     "Armenia",
     "Lebanon",
     "Palestine",
-    "Cyprus",
-    "Northern Cyprus"
+    "Cyprus"
   ],
+  "borders": true,
   "map": "maps/neo-assyrian-empire.png",
   "checks": {
     "infobox": true,

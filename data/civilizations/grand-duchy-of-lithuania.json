@@ -19,13 +19,14 @@
   },
   "capitals": [
     {
-      "name": "Vilnius",
+      "name": "Senieji Trakai",
       "location": [
-        25.28,
-        54.687222222222225
+        24.966666666667,
+        54.616666666667
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -44,6 +45,7 @@
     "Russia",
     "Lithuania"
   ],
+  "borders": true,
   "map": "maps/grand-duchy-of-lithuania.png",
   "checks": {
     "infobox": true,
@@ -63,7 +65,7 @@
       1449
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Vilnius",
+    "home": "Senieji Trakai",
     "labelled": [
       "Blue Horde",
       "Novgorod Republic",

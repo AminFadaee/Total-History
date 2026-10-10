@@ -3,7 +3,7 @@
   "slug": "roman-republic",
   "name": "Roman Republic",
   "wikipedia": "Roman Republic",
-  "map_year": -44,
+  "map_year": -36,
   "period": {
     "start": {
       "earliest": -509,
@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q2277",
@@ -49,12 +50,12 @@
     "Montenegro",
     "Lebanon",
     "Cyprus",
-    "Northern Cyprus",
     "Luxembourg",
     "Malta",
     "San Marino",
     "Vatican"
   ],
+  "borders": true,
   "map": "maps/roman-republic.png",
   "checks": {
     "infobox": true,
@@ -75,9 +76,10 @@
     "labelled": [
       "Parthian Empire",
       "Ptolemaic Kingdom",
-      "Himyarite Kingdom",
       "Kingdom of Kush",
-      "Kingdom of Armenia"
+      "Kingdom of Armenia",
+      "Himyarite Kingdom",
+      "Minaeans"
     ]
   }
 }

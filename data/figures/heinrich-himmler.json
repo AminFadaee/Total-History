@@ -19,12 +19,17 @@
   "contribution": "A German Nazi politician, police administrator, and military leader.",
   "image": "images/heinrich-himmler.jpg",
   "image_credit": "Friedrich Franz Bauer · CC BY-SA 3.0 de",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/heinrich-himmler-photo.jpg",
+  "photo_credit": "Friedrich Franz Bauer · CC BY-SA 3.0 de",
   "checks": {
     "civilization_votes": {
       "office": [
         "Weimar Republic",
         "Nazi Germany"
+      ],
+      "death": [
+        "Kingdom of Great Britain"
       ],
       "lead": [
         "Nazi Germany"
@@ -35,6 +40,7 @@
       ]
     },
     "lead": "Heinrich Luitpold Himmler (German: [ˈhaɪnʁɪç ˈluːɪtpɔlt ˈhɪmlɐ] ; 7 October 1900 – 23 May 1945) was a German Nazi politician, police administrator, and military leader. He was the fourth and longest-serving Reichsführer of the Schutzstaffel (Protection Squadron; SS), serving from 1929 to 1945. He was a leading member of the Nazi Party and one of the most powerful figures in Nazi Germany. He was also one of the main architects of the Holocaust, the genocide of European Jews during World War II.",
-    "photo": "captured 1942date QS:P571,+1942-00-00T00:00:00Z/9 during their lifetime"
+    "image": "",
+    "photo": "model 0.94, portrait 0.97, in Category:Photographs by Friedrich Franz Bauer"
   }
 }

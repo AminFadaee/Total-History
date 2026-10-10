@@ -18,7 +18,9 @@
   "contribution": "The ninth Mamluk sultan of the Bahri dynasty who ruled Egypt between 1293–1294, 1299–1309, and 1310 until his death in 1341.",
   "image": "images/al-nasir-muhammad.jpg",
   "image_credit": "14th century artist · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -38,6 +40,7 @@
       ]
     },
     "lead": "Al-Malik an-Nasir Nasir ad-Din Muhammad ibn Qalawun (Arabic: الملك الناصر ناصر الدين محمد بن قلاوون), commonly known as an-Nasir Muhammad (Arabic: الناصر محمد), or by his kunya: Abu al-Ma'ali (أبو المعالي) or as Ibn Qalawun (1285–1341) was the ninth Mamluk sultan of the Bahri dynasty who ruled Egypt between 1293–1294, 1299–1309, and 1310 until his death in 1341. During his first reign, he was overthrown by Kitbugha and al-Shuja‘i, and during his second reign by Baybars II and Sayf al-Din Salar. During his third reign, he had Baybars executed to suppress further insurgency.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

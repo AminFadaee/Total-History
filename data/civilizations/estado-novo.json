@@ -1,0 +1,65 @@
+{
+  "id": "Q824489",
+  "slug": "estado-novo",
+  "name": "Estado Novo",
+  "wikipedia": "Estado Novo (Portugal)",
+  "map_year": 1958,
+  "period": {
+    "start": {
+      "earliest": 1933,
+      "latest": 1933,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1974,
+      "latest": 1974,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Lisbon",
+      "location": [
+        -9.139016,
+        38.708042
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Angola",
+    "Mozambique",
+    "Portugal",
+    "Guinea-Bissau",
+    "East Timor",
+    "Cabo Verde",
+    "São Tomé and Principe",
+    "Macao S.A.R"
+  ],
+  "borders": true,
+  "map": "maps/estado-novo.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Lisbon"
+      ],
+      "infobox": [
+        "Lisbon"
+      ]
+    },
+    "cliopatria_years": [
+      1926,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Lisbon",
+    "labelled": [
+      "Francoist Spain"
+    ]
+  }
+}

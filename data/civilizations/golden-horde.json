@@ -19,6 +19,7 @@
       "location": null
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q12557",
     "region": "Russia",
@@ -33,6 +34,7 @@
     "Georgia",
     "Moldova"
   ],
+  "borders": true,
   "map": "maps/golden-horde.png",
   "checks": {
     "infobox": true,

@@ -1,0 +1,96 @@
+{
+  "id": "Q853477",
+  "slug": "lan-xang",
+  "name": "Lan Xang",
+  "wikipedia": "Lan Xang",
+  "map_year": 1375,
+  "period": {
+    "start": {
+      "earliest": 1353,
+      "latest": 1353,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1707,
+      "latest": 1707,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Vientiane",
+      "location": [
+        102.63,
+        17.98
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q201705",
+    "region": "Laos",
+    "name": "Khmer Empire"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q532364",
+      "name": "Fa Ngum"
+    },
+    {
+      "id": "Q888948",
+      "name": "Samsenethai"
+    },
+    {
+      "id": "Q732557",
+      "name": "Setthathirath"
+    },
+    {
+      "id": "Q888712",
+      "name": "Sourigna Vongsa"
+    },
+    {
+      "id": "Q461226",
+      "name": "Setthathirath II"
+    }
+  ],
+  "modern_countries": [
+    "Laos",
+    "Thailand",
+    "Vietnam"
+  ],
+  "borders": true,
+  "map": "maps/lan-xang.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kingdom of Luang Phrabang",
+        "Vientiane"
+      ],
+      "infobox": [
+        "Kingdom of Luang Phrabang",
+        "Vientiane"
+      ]
+    },
+    "cliopatria_years": [
+      1363,
+      1708
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Vientiane",
+    "labelled": [
+      "Shan States",
+      "Ayutthaya Kingdom",
+      "Khmer Empire",
+      "Ngô Dynasty",
+      "Chámpa",
+      "Sukhothai Kingdom",
+      "Lan Na Kingdom",
+      "Ava Kingdom",
+      "Hanthawaddy Kingdom",
+      "Lavo Kingdom"
+    ]
+  }
+}

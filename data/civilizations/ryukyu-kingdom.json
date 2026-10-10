@@ -1,0 +1,73 @@
+{
+  "id": "Q28025",
+  "slug": "ryukyu-kingdom",
+  "name": "Ryukyu Kingdom",
+  "wikipedia": "Ryukyu Kingdom",
+  "map_year": 1519,
+  "period": {
+    "start": {
+      "earliest": 1429,
+      "latest": 1429,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1879,
+      "latest": 1879,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Shuri",
+      "location": [
+        127.71942222222,
+        26.217005555556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q55521",
+    "region": "Japan",
+    "name": "Chüzan"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q1372130",
+      "name": "Shō Hashi"
+    },
+    {
+      "id": "Q907317",
+      "name": "Shō Nei"
+    },
+    {
+      "id": "Q1372454",
+      "name": "Shō Tai"
+    }
+  ],
+  "modern_countries": [
+    "Japan"
+  ],
+  "borders": true,
+  "map": "maps/ryukyu-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Shuri, Okinawa"
+      ],
+      "infobox": [
+        "Shuri, Okinawa"
+      ]
+    },
+    "cliopatria_years": [
+      1429,
+      1520
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Shuri",
+    "labelled": []
+  }
+}

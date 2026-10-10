@@ -18,7 +18,9 @@
   "contribution": "A Roman Jewish client king of the Herodian kingdom of Judea.",
   "image": "images/herod-the-great.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Herod I or Herod the Great (c. 72 – 4 or 1 BCE) was a Roman Jewish client king of the Herodian kingdom of Judea. He is known for his colossal building projects. Among these works are the rebuilding of the Second Temple in Jerusalem and the expansion of its base—the Western Wall being part of it. Many of the crucial details of his life are recorded in the works of the 1st century CE Roman–Jewish historian Josephus.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

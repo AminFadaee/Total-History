@@ -3,7 +3,7 @@
   "slug": "nostradamus",
   "name": "Nostradamus",
   "wikipedia": "Nostradamus",
-  "role": "French apothecary, astrologer and seer",
+  "role": "French astrologer and seer",
   "life": "1503–1566",
   "lifetime": [
     1503,
@@ -18,7 +18,9 @@
   "contribution": "A French astrologer, apothecary, physician, and reputed seer, who is best known for his book Les Prophéties, a collection of 942 poetic quatrains allegedly predicting future events.",
   "image": "images/nostradamus.jpg",
   "image_credit": "After César de Notre-Dame · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -33,6 +35,7 @@
       ]
     },
     "lead": "Michel de Nostredame (December 1503 – July 1566), usually Latinised as Nostradamus, was a French astrologer, apothecary, physician, and reputed seer, who is best known for his book Les Prophéties (published in 1555), a collection of 942 poetic quatrains allegedly predicting future events.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

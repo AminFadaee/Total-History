@@ -3,7 +3,7 @@
   "slug": "northern-song",
   "name": "Northern Song",
   "wikipedia": "Song dynasty",
-  "map_year": 1056,
+  "map_year": 1126,
   "period": {
     "start": {
       "earliest": 960,
@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q1193822",
     "region": "China",
@@ -38,6 +39,7 @@
     "Hong Kong S.A.R.",
     "Macao S.A.R"
   ],
+  "borders": true,
   "map": "maps/northern-song.png",
   "checks": {
     "infobox": true,
@@ -62,23 +64,24 @@
     "home": "Lin'an Prefecture",
     "labelled": [
       "Tibetans",
-      "Liao Dynasty",
+      "Great Jin",
       "Western Xia",
       "Kingdom of Dali",
       "Ngô Dynasty",
       "Qocho Kingdom",
       "Eastern Kara-Khanids",
-      "Khmer Empire",
-      "Pala Empire",
       "Pagan Kingdom",
+      "Khmer Empire",
+      "Sena Dynasty",
       "Heian Japan",
+      "Gahadavala Dynasty",
       "Lohara Dynasty",
+      "Kara-Khitans",
       "Kamarupa Kingdom",
       "Eastern Ganga Kingdom",
       "Haripuñjaya",
       "Lavo Kingdom",
-      "Goryeo",
-      "Chandela Kingdom"
+      "Goryeo"
     ]
   }
 }

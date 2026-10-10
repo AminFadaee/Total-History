@@ -1,0 +1,53 @@
+{
+  "id": "Q134128",
+  "slug": "cnut",
+  "name": "Cnut",
+  "wikipedia": "Cnut",
+  "role": "King of Denmark, Norway and England",
+  "life": "994–1035",
+  "lifetime": [
+    994,
+    1035
+  ],
+  "occupation": "Politician",
+  "birth_country": "Denmark",
+  "civilizations": [
+    "North Sea Empire",
+    "Kingdom of Denmark",
+    "Old Kingdom of Norway"
+  ],
+  "related": [
+    "Holy Roman Empire"
+  ],
+  "contribution": "King of England from 1016, King of Denmark from 1018, and King of Norway from 1028 until his death in 1035.",
+  "image": "images/cnut.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of England",
+        "Old Kingdom of Norway"
+      ],
+      "death": [
+        "North Sea Empire"
+      ],
+      "lead": [
+        "North Sea Empire",
+        "Holy Roman Empire"
+      ],
+      "citizenship": [
+        "Kingdom of Denmark",
+        "North Sea Empire"
+      ],
+      "birthplace": [
+        "Kingdom of Denmark"
+      ]
+    },
+    "lead": "Cnut ( k-NOOT; Old Norse: Knútr; c. 995 – 12 November 1035), also known as Canute and with the epithet the Great, was King of England from 1016, King of Denmark from 1018, and King of Norway from 1028 until his death in 1035. The three kingdoms united under Cnut's rule are referred to together as the North Sea Empire by historians.",
+    "image": "",
+    "photo": "no death year in or after 1860"
+  }
+}

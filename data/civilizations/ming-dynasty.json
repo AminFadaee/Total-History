@@ -17,16 +17,25 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Beijing",
+      "location": [
+        116.407526,
+        39.90403
+      ]
+    }
+  ],
+  "parts": [],
   "before": {
     "id": "Q7313",
     "region": "China",
     "name": "Yuan Dynasty"
   },
   "after": {
-    "id": "Q1198163",
+    "id": "Q8733",
     "region": "China",
-    "name": "Southern Ming"
+    "name": "Qing Dynasty"
   },
   "rulers": [],
   "modern_countries": [
@@ -35,6 +44,7 @@
     "Hong Kong S.A.R.",
     "Macao S.A.R"
   ],
+  "borders": true,
   "map": "maps/ming-dynasty.png",
   "checks": {
     "infobox": true,
@@ -53,7 +63,7 @@
       1644
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Beijing",
     "labelled": [
       "Northern Yuan",
       "Tibet",

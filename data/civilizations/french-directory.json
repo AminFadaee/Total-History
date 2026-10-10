@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Paris",
-      "location": [
-        2.352222222222222,
-        48.85666666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q70972",
     "region": "France",
@@ -47,6 +40,7 @@
     "Mauritius",
     "Malta"
   ],
+  "borders": true,
   "map": "maps/french-directory.png",
   "checks": {
     "infobox": true,
@@ -63,15 +57,18 @@
       1799
     ],
     "identity": "the state named after French Directory",
-    "home": "Paris",
+    "home": "the spot held longest",
     "labelled": [
-      "Portuguese Empire",
       "Ottoman Empire",
-      "Russian Empire",
-      "Qing Dynasty",
-      "Spanish Empire",
-      "Kazakh Khanate",
-      "Durrani Empire"
+      "Kingdom of Spain",
+      "Kingdom of Prussia",
+      "Holy Roman Empire Minor States",
+      "Helvetic Republic",
+      "Kingdom of Great Britain",
+      "Morocco",
+      "Regency of Algiers",
+      "Beylik of Tunis",
+      "Principality of Wallachia"
     ]
   }
 }

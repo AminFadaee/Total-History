@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -57,6 +58,7 @@
   "modern_countries": [
     "South Africa"
   ],
+  "borders": true,
   "map": "maps/free-orange-state.png",
   "checks": {
     "infobox": true,

@@ -1,0 +1,66 @@
+{
+  "id": "Q213510",
+  "slug": "belgian-congo",
+  "name": "Belgian Congo",
+  "wikipedia": "Belgian Congo",
+  "map_year": 1922,
+  "period": {
+    "start": {
+      "earliest": 1908,
+      "latest": 1908,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1960,
+      "latest": 1960,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Boma",
+      "location": [
+        13.05,
+        -5.85
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Democratic Republic of the Congo",
+    "Burundi",
+    "Rwanda"
+  ],
+  "borders": true,
+  "map": "maps/belgian-congo.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kinshasa",
+        "Boma, Democratic Republic of the Congo"
+      ],
+      "infobox": [
+        "Boma, Democratic Republic of the Congo",
+        "Kinshasa"
+      ]
+    },
+    "cliopatria_years": [
+      1890,
+      1962
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Boma",
+    "labelled": [
+      "British Africa",
+      "French Africa",
+      "Portuguese Republic",
+      "British Gold Coast",
+      "Ethiopian Empire"
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "slug": "zhou-dynasty",
   "name": "Zhou Dynasty",
   "wikipedia": "Zhou dynasty",
-  "map_year": -1000,
+  "map_year": -800,
   "period": {
     "start": {
       "earliest": -1046,
@@ -18,6 +18,7 @@
     "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q128938",
     "region": "China",
@@ -28,6 +29,7 @@
   "modern_countries": [
     "China"
   ],
+  "borders": true,
   "map": "maps/zhou-dynasty.png",
   "checks": {
     "infobox": true,

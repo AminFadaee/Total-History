@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q204920",
@@ -37,6 +38,7 @@
     "Spain",
     "France"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-navarre.png",
   "checks": {
     "infobox": true,
@@ -56,17 +58,11 @@
     "home": "Pamplona",
     "labelled": [
       "Kingdom of Castile",
-      "Holy Roman Empire",
-      "Almoravid Dynasty",
-      "Kingdom of Sicily",
+      "Kingdom of Aragon",
       "County of Toulouse",
       "County of Portugal",
-      "Duchy of Brittany",
-      "County of Blôis",
-      "Hammadid Dynasty",
-      "County of Vermandois",
-      "Kingdom of Arles",
-      "Papal States"
+      "County of Barcelona",
+      "County of Rosellón"
     ]
   }
 }

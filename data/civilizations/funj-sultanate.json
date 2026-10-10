@@ -1,0 +1,59 @@
+{
+  "id": "Q1475713",
+  "slug": "funj-sultanate",
+  "name": "Funj Sultanate",
+  "wikipedia": "Funj Sultanate",
+  "map_year": 1507,
+  "period": {
+    "start": {
+      "earliest": 1504,
+      "latest": 1504,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1821,
+      "latest": 1821,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q4740071",
+      "name": "Amara Dunqas"
+    },
+    {
+      "id": "Q4840914",
+      "name": "Badi VII"
+    }
+  ],
+  "modern_countries": [
+    "Sudan"
+  ],
+  "borders": true,
+  "map": "maps/funj-sultanate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Sennar"
+      ]
+    },
+    "cliopatria_years": [
+      1507,
+      1821
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Makuria Kingdom",
+      "Ethiopian Empire",
+      "Adal Sultanate"
+    ]
+  }
+}

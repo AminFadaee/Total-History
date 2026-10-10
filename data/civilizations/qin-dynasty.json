@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q34756",
     "region": "China",
@@ -42,6 +43,7 @@
     "Hong Kong S.A.R.",
     "Macao S.A.R"
   ],
+  "borders": true,
   "map": "maps/qin-dynasty.png",
   "checks": {
     "infobox": true,

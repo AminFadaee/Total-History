@@ -18,7 +18,9 @@
   "contribution": "A classical Arabic poet, and the foremost representative of the modern poetry that developed during the first years of the Abbasid Caliphate.",
   "image": "images/abu-nuwas.jpg",
   "image_credit": "Kahlil Gibran · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Abu Nuwas (أبو نواس, Abū Nuwās) (756-8 – c. 814) was a classical Arabic poet, and the foremost representative of the modern (muhdath) poetry that developed during the first years of the Abbasid Caliphate. He also entered the folkloric tradition, appearing several times in One Thousand and One Nights.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

@@ -1,0 +1,57 @@
+{
+  "id": "Q212056",
+  "slug": "mongolian-people-s-republic",
+  "name": "Mongolian People's Republic",
+  "wikipedia": "Mongolian People's Republic",
+  "map_year": 1946,
+  "period": {
+    "start": {
+      "earliest": 1924,
+      "latest": 1924,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1992,
+      "latest": 1992,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q711",
+    "region": "Mongolia",
+    "name": "Mongolia"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Mongolia"
+  ],
+  "borders": true,
+  "map": "maps/mongolian-people-s-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ulaanbaatar"
+      ],
+      "infobox": [
+        "Ulaanbaatar"
+      ]
+    },
+    "cliopatria_years": [
+      1926,
+      1991
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Union of Soviet Socialist Republics",
+      "Republic of China",
+      "East Turkestan Republic",
+      "Communist Party of China"
+    ]
+  }
+}

@@ -17,17 +17,14 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Dublin",
-      "location": [
-        -6.260277777777778,
-        53.34972222222222
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q27",
+    "region": "Ireland",
+    "name": "Éire"
+  },
   "rulers": [
     {
       "id": "Q269412",
@@ -37,6 +34,7 @@
   "modern_countries": [
     "Ireland"
   ],
+  "borders": true,
   "map": "maps/irish-free-state.png",
   "checks": {
     "infobox": true,
@@ -53,12 +51,9 @@
       1937
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Dublin",
+    "home": "the spot held longest",
     "labelled": [
-      "Kingdom of Great Britain",
-      "French Third Republic",
-      "Weimar Republic",
-      "Kingdom of Belgium"
+      "Kingdom of Great Britain"
     ]
   }
 }

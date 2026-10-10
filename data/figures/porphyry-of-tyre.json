@@ -18,7 +18,9 @@
   "contribution": "A Phoenician Neoplatonic philosopher born in Tyre, Roman Phoenicia during Roman rule.",
   "image": "images/porphyry-of-tyre.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -26,9 +28,13 @@
       ],
       "lead": [
         "Roman Empire"
+      ],
+      "citizenship": [
+        "Roman Empire"
       ]
     },
     "lead": "Porphyry (; Koine Greek: Πορφύριος, romanized: Porphýrios; c. 234 – c. 305) was a Phoenician Neoplatonic philosopher born in Tyre, Roman Phoenicia during Roman rule. He edited and published the Enneads, the only collection of the work of Plotinus, his teacher.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

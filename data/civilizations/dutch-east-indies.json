@@ -3,7 +3,7 @@
   "slug": "dutch-east-indies",
   "name": "Dutch East Indies",
   "wikipedia": "Dutch East Indies",
-  "map_year": 1915,
+  "map_year": 1941,
   "period": {
     "start": {
       "earliest": 1800,
@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q252",
@@ -36,6 +37,7 @@
   "modern_countries": [
     "Indonesia"
   ],
+  "borders": true,
   "map": "maps/dutch-east-indies.png",
   "checks": {
     "infobox": true,
@@ -57,7 +59,7 @@
     "labelled": [
       "British Colonial Empire",
       "French Indochina",
-      "Rattanakosin Kingdom"
+      "Kingdom of Thailand"
     ]
   }
 }

@@ -1,0 +1,67 @@
+{
+  "id": "Q157070",
+  "slug": "county-of-flanders",
+  "name": "County of Flanders",
+  "wikipedia": "County of Flanders",
+  "map_year": 1169,
+  "period": {
+    "start": {
+      "earliest": 862,
+      "latest": 862,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1384,
+      "latest": 1384,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bruges",
+      "location": [
+        3.2241666666666666,
+        51.208888888888886
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "France",
+    "Belgium"
+  ],
+  "borders": true,
+  "map": "maps/county-of-flanders.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bruges"
+      ],
+      "infobox": [
+        "Bruges",
+        "Ghent",
+        "Lille"
+      ]
+    },
+    "cliopatria_years": [
+      990,
+      1384
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bruges",
+    "labelled": [
+      "Holy Roman Empire",
+      "Angevin Empire",
+      "County of Champagne",
+      "Duchy of Brittany",
+      "Kingdom of Arles",
+      "County of Nevers",
+      "County of Blôis"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "Q63134381",
+  "slug": "khwarezmid-empire",
+  "name": "Khwarezmid Empire",
+  "wikipedia": "Khwarazmian Empire",
+  "map_year": 1216,
+  "period": {
+    "start": {
+      "earliest": 1077,
+      "latest": 1077,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1231,
+      "latest": 1231,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q3708094",
+    "region": "Iran",
+    "name": "Great Seljuk Empire"
+  },
+  "after": {
+    "id": "Q12557",
+    "region": "Iran",
+    "name": "Mongol Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Afghanistan",
+    "Pakistan",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Tajikistan"
+  ],
+  "borders": true,
+  "map": "maps/khwarezmid-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Konye-Urgench",
+        "Samarkand",
+        "Ghazni",
+        "Tabriz"
+      ]
+    },
+    "cliopatria_years": [
+      1202,
+      1235
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Kimek-Kipchak confederation",
+      "Kara-Khitans",
+      "Mamluk Dynasty",
+      "Lohara Dynasty",
+      "Kingdom of Georgia",
+      "Kashmir",
+      "Zengid dynasty",
+      "Tibetans",
+      "Ayyubid Sultanate",
+      "Yadava Dynasty",
+      "Kingdom of Hungary",
+      "Sultanate of Rum",
+      "Pagan Kingdom",
+      "Sena Dynasty",
+      "Chaulukya Dynasty",
+      "Second Bulgarian Empire",
+      "Makuria",
+      "Principality of Chernigov",
+      "Alodia",
+      "Chandela Kingdom",
+      "Mahdids"
+    ]
+  }
+}

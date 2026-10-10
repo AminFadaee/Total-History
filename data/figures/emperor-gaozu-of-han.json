@@ -22,7 +22,9 @@
   "contribution": "The founder and first emperor of the Han dynasty.",
   "image": "images/emperor-gaozu-of-han.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -35,13 +37,15 @@
         "Xiongnu"
       ],
       "citizenship": [
-        "Qin Dynasty"
+        "Qin Dynasty",
+        "Qin"
       ],
       "birthplace": [
         "Chu"
       ]
     },
     "lead": "Emperor Gaozu of Han (256 or 247 – 1 June 195 BC), personal name Liu Bang, was the founder and first emperor of the Han dynasty.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

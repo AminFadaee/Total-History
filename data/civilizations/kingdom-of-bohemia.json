@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Prague",
-      "location": [
-        14.421388888888888,
-        50.0875
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -43,6 +36,7 @@
     "Poland",
     "Germany"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-bohemia.png",
   "checks": {
     "infobox": true,
@@ -59,30 +53,19 @@
       1528
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Prague",
+    "home": "the spot held longest",
     "labelled": [
       "Holy Roman Empire Minor States",
-      "Kingdom of Hungary",
       "Kingdom of Poland",
-      "House of Habsburg",
+      "Kingdom of Hungary",
       "Duchy of Bavaria",
+      "House of Habsburg",
+      "House of Ascania",
       "Kingdom of Sweden",
-      "Grand Duchy of Lithuania",
-      "Kingdom of France",
-      "Kingdom of England",
-      "Teutonic Order",
-      "Principality of Moldavia",
-      "Principality of Smolensk",
-      "Principality of Wallachia",
-      "Kingdom of Denmark",
-      "Banate of Bosnia",
-      "Serbian Empire",
-      "Duchy of Brittany",
-      "Capetian House of Anjou",
-      "County of Armagnac",
       "Kingdom of Arles",
-      "County of Auvergne",
-      "Pskov Republic"
+      "Free County of Burgundy",
+      "County of Flanders",
+      "County of Brabant"
     ]
   }
 }

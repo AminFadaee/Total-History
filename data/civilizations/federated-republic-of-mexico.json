@@ -1,0 +1,60 @@
+{
+  "id": "Q1109279",
+  "slug": "federated-republic-of-mexico",
+  "name": "Federated Republic of Mexico",
+  "wikipedia": "First Mexican Republic",
+  "map_year": 1824,
+  "period": {
+    "start": {
+      "earliest": 1824,
+      "latest": 1824,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1835,
+      "latest": 1835,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Mexico City",
+      "location": [
+        -99.13589,
+        19.353773
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico",
+    "United States of America"
+  ],
+  "borders": true,
+  "map": "maps/federated-republic-of-mexico.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mexico City"
+      ],
+      "infobox": [
+        "Mexico City"
+      ]
+    },
+    "cliopatria_years": [
+      1824,
+      1865
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Mexico City",
+    "labelled": [
+      "United States of America",
+      "United Provinces of Central America"
+    ]
+  }
+}

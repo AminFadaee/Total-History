@@ -3,7 +3,7 @@
   "slug": "janapada-of-magadha",
   "name": "Janapada of Magadha",
   "wikipedia": "Magadha",
-  "map_year": -600,
+  "map_year": -530,
   "period": {
     "start": null,
     "end": null,
@@ -18,12 +18,14 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
   "modern_countries": [
     "India"
   ],
+  "borders": true,
   "map": "maps/janapada-of-magadha.png",
   "checks": {
     "infobox": true,
@@ -43,6 +45,15 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
-    "labelled": []
+    "labelled": [
+      "Janapada of Anga",
+      "Janapada of Malla",
+      "Janapada of Vajji",
+      "Janapada of Surasena",
+      "Janapada of Kāśī",
+      "Janapada of Kosala",
+      "Janapada of Pañcāla",
+      "Janapada of Cedī"
+    ]
   }
 }

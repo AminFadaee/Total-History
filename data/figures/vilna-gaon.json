@@ -12,14 +12,16 @@
   "occupation": "Religious figure",
   "birth_country": "Belarus",
   "civilizations": [
-    "Russian Empire",
-    "Polish-Lithuanian Commonwealth"
+    "Polish-Lithuanian Commonwealth",
+    "Russian Empire"
   ],
   "related": [],
   "contribution": "A Lithuanian Jewish talmudist, halakhist, kabbalist, and the foremost leader of misnagdic Jewry of the past few centuries.",
   "image": "images/vilna-gaon.jpg",
   "image_credit": "Winograd · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -38,6 +40,7 @@
       ]
     },
     "lead": "Elijah ben Solomon Zalman, (Hebrew: ר' אליהו בן שלמה זלמן Rabbi Eliyahu ben Shlomo Zalman), also known as the Vilna Gaon (Yiddish: דער װילנער גאון Der Vilner Goen; Polish: Gaon z Wilna, Gaon Wileński; or Elijah of Vilna; Sialiec, Polish–Lithuanian Commonwealth, April 23, 1720 – Vilnius, Russian Empire, October 9, 1797), was a Lithuanian Jewish talmudist, halakhist, kabbalist, and the foremost leader of misnagdic (non-hasidic) Jewry of the past few centuries.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

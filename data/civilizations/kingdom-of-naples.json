@@ -3,7 +3,7 @@
   "slug": "kingdom-of-naples",
   "name": "Kingdom of Naples",
   "wikipedia": "Kingdom of Naples",
-  "map_year": 1285,
+  "map_year": 1497,
   "period": {
     "start": {
       "earliest": 1282,
@@ -22,6 +22,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q188586",
     "region": "Italy",
@@ -32,6 +33,7 @@
   "modern_countries": [
     "Italy"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-naples.png",
   "checks": {
     "infobox": true,
@@ -52,18 +54,8 @@
     "labelled": [
       "Crown of Aragon",
       "Papal States",
-      "Kingdom of Hungary",
-      "Byzantine Empire",
-      "Hafsid Dynasty",
-      "Kingdom of France",
-      "Zayyanid dynasty",
-      "Second Bulgarian Empire",
-      "Kingdom of Serbia",
-      "House of Habsburg",
-      "Capetian House of Anjou",
-      "Kingdom of Syrmia",
-      "Kingdom of Arles",
-      "County of Auvergne"
+      "Republic of Genoa",
+      "Republic of Florence"
     ]
   }
 }

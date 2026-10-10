@@ -20,7 +20,9 @@
   "contribution": "A Czech Christian theologian and philosopher who became a Church reformer and the inspiration of Hussitism, a key predecessor to Protestantism, and a seminal figure in the Bohemian Reformation.",
   "image": "images/jan-hus.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "lead": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Jan Hus (; Czech: [ˈjan ˈɦus] ; c. 1369 – 6 July 1415), sometimes anglicized as John Goose or John Huss, and referred to in historical texts as Iohannes Hus or Johannes Huss, was a Czech Christian theologian and philosopher who became a Church reformer and the inspiration of Hussitism, a key predecessor to Protestantism, and a seminal figure in the Bohemian Reformation. Hus is considered to be the first Church reformer, even though some designate the theorist John Wycliffe. His teachings had a strong influence, most immediately in the approval of a reformed Bohemian religious denomination and, over a century later, on Martin Luther.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

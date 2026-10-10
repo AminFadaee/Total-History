@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Paris",
-      "location": [
-        2.352222222222222,
-        48.85666666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q71092",
@@ -36,6 +29,7 @@
   "modern_countries": [
     "France"
   ],
+  "borders": true,
   "map": "maps/french-second-republic.png",
   "checks": {
     "infobox": true,
@@ -52,18 +46,19 @@
       1852
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Paris",
+    "home": "the spot held longest",
     "labelled": [
-      "Empire of Brazil",
-      "British Empire",
-      "Russian Empire",
-      "Qing Dynasty",
-      "United States of America",
-      "Ottoman Empire",
-      "Bolivia",
-      "Qajar Dynasty",
-      "Khanate of Khiva",
-      "Sokoto Caliphate"
+      "Kingdom of Spain",
+      "German Confederation",
+      "Kingdom of Sardinia",
+      "Kingdom of Belgium",
+      "Austrian Empire",
+      "Hungarian Nationalists",
+      "Kingdom of Great Britain",
+      "Kingdom of the Two Sicilies",
+      "Kingdom of Bavaria",
+      "Serbs",
+      "Papal States"
     ]
   }
 }

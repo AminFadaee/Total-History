@@ -33,6 +33,12 @@
       ]
     }
   ],
+  "parts": [
+    "Yuan Dynasty",
+    "Chagatai Khanate",
+    "Golden Horde",
+    "Ilkhanate"
+  ],
   "before": {},
   "after": {
     "id": "Q7313",
@@ -80,10 +86,10 @@
     "Georgia",
     "Moldova",
     "Armenia",
-    "Siachen Glacier",
     "Hong Kong S.A.R.",
     "Macao S.A.R"
   ],
+  "borders": true,
   "map": "maps/mongol-empire.png",
   "checks": {
     "infobox": true,
@@ -106,8 +112,6 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Avarga",
     "labelled": [
-      "Mamluk Sultanate",
-      "Mali Empire",
       "Khmer Empire"
     ]
   }

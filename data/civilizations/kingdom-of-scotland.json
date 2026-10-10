@@ -3,7 +3,7 @@
   "slug": "kingdom-of-scotland",
   "name": "Kingdom of Scotland",
   "wikipedia": "Kingdom of Scotland",
-  "map_year": 1579,
+  "map_year": 1602,
   "period": {
     "start": {
       "earliest": 801,
@@ -19,13 +19,14 @@
   },
   "capitals": [
     {
-      "name": "Edinburgh",
+      "name": "Dunfermline",
       "location": [
-        -3.1891666666666665,
-        55.95333333333333
+        -3.4616666666667,
+        56.071388888889
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -41,6 +42,7 @@
   "modern_countries": [
     "United Kingdom"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-scotland.png",
   "checks": {
     "infobox": true,
@@ -59,13 +61,10 @@
       1608
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Edinburgh",
+    "home": "Dunfermline",
     "labelled": [
       "Kingdom of England",
-      "Denmark-Norway",
-      "Holy Roman Empire Minor States",
-      "Electorate of Brandenburg",
-      "Union of Utrecht"
+      "Dutch Republic"
     ]
   }
 }

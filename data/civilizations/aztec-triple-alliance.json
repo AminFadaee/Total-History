@@ -1,0 +1,57 @@
+{
+  "id": "Q2608489",
+  "slug": "aztec-triple-alliance",
+  "name": "Aztec Triple Alliance",
+  "wikipedia": "Aztec Empire",
+  "map_year": 1519,
+  "period": {
+    "start": {
+      "earliest": 1428,
+      "latest": 1428,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1521,
+      "latest": 1521,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [
+    "Tenochtitlan"
+  ],
+  "before": {
+    "id": "Q13695",
+    "region": "Mexico",
+    "name": "Tenochtitlan"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico"
+  ],
+  "borders": true,
+  "map": "maps/aztec-triple-alliance.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tenochtitlan"
+      ],
+      "infobox": [
+        "Tenochtitlan"
+      ]
+    },
+    "cliopatria_years": [
+      1429,
+      1520
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Michoacán",
+      "Later Mayan City-States"
+    ]
+  }
+}

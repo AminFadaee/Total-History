@@ -18,7 +18,9 @@
   "contribution": "A Russian writer.",
   "image": "images/leo-tolstoy.jpg",
   "image_credit": "Sergei Prokudin-Gorskii · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/leo-tolstoy-photo.jpg",
+  "photo_credit": "Sergei Prokudin-Gorskii · Public domain",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Count Lev Nikolayevich Tolstoy (; Russian: Лев Николаевич Толстой, IPA: [ˈlʲef nʲɪkɐˈla(j)ɪvʲɪtɕ tɐlˈstoj] ; 9 September [O.S. 28 August] 1828 – 20 November [O.S. 7 November] 1910), usually referred to in English as Leo Tolstoy, was a Russian writer. He is regarded as one of the greatest and most influential authors of all time.",
-    "photo": "captured 23 May 1908date QS:P571,+1908-05-23T00:00:00Z/11 during their lifetime"
+    "image": "",
+    "photo": "model 0.77, portrait 1.00, in Category:20th-century portrait photographs of sitting men at full length"
   }
 }

@@ -14,6 +14,7 @@
     "confirmed": false
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -24,6 +25,7 @@
     "Romania",
     "Moldova"
   ],
+  "borders": true,
   "map": "maps/scythia.png",
   "checks": {
     "infobox": true,

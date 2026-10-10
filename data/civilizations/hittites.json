@@ -5,11 +5,20 @@
   "wikipedia": "Hittites",
   "map_year": -1300,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false
+    "start": {
+      "earliest": -1650,
+      "latest": -1650,
+      "circa": true
+    },
+    "end": {
+      "earliest": -1200,
+      "latest": -1200,
+      "circa": true
+    },
+    "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -17,6 +26,7 @@
     "Turkey",
     "Syria"
   ],
+  "borders": true,
   "map": "maps/hittites.png",
   "checks": {
     "infobox": true,
@@ -37,10 +47,10 @@
     "identity": "Wikipedia article with a country infobox",
     "home": "the spot held longest",
     "labelled": [
-      "New Kingdom of Egypt",
       "Mitanni",
+      "New Kingdom of Egypt",
       "Assyria",
-      "Babylonia"
+      "Mycenaean Greece"
     ]
   }
 }

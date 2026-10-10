@@ -13,15 +13,8 @@
     },
     "confirmed": false
   },
-  "capitals": [
-    {
-      "name": "Vienna",
-      "location": [
-        16.3725,
-        48.208333333333336
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -39,6 +32,7 @@
     "Slovenia",
     "Luxembourg"
   ],
+  "borders": true,
   "map": "maps/habsburg-monarchy.png",
   "checks": {
     "infobox": true,
@@ -55,7 +49,7 @@
       1805
     ],
     "identity": "Wikipedia item with overlapping dates",
-    "home": "Vienna",
+    "home": "the spot held longest",
     "labelled": [
       "Ottoman Empire",
       "Polish-Lithuanian Commonwealth",

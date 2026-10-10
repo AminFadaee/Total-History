@@ -3,7 +3,7 @@
   "slug": "kalmar-union",
   "name": "Kalmar Union",
   "wikipedia": "Kalmar Union",
-  "map_year": 1482,
+  "map_year": 1521,
   "period": {
     "start": {
       "earliest": 1397,
@@ -26,6 +26,13 @@
       ]
     }
   ],
+  "parts": [
+    "Kingdom of Sweden",
+    "Denmark",
+    "Old Kingdom of Norway",
+    "Republic of Finland",
+    "Republic of Iceland"
+  ],
   "before": {},
   "after": {
     "id": "Q62651",
@@ -42,6 +49,7 @@
     "Faroe Islands",
     "Aland"
   ],
+  "borders": true,
   "map": "maps/kalmar-union.png",
   "checks": {
     "infobox": true,
@@ -68,13 +76,15 @@
       "Grand Principality of Moscow",
       "Holy Roman Empire Minor States",
       "Kingdom of England",
+      "Khanate of Sibir",
       "House of Jagiellon",
-      "Golden Horde",
-      "Kingdom of Hungary",
+      "Nogai Horde",
       "Kingdom of France",
       "Khanate of Kazan",
       "Astrakhan Khanate",
-      "Crimean Khanate"
+      "Crimean Khanate",
+      "Kingdom of Bohemia",
+      "Shirvan"
     ]
   }
 }

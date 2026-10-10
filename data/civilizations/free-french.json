@@ -1,0 +1,82 @@
+{
+  "id": "Q152582",
+  "slug": "free-french",
+  "name": "Free French",
+  "wikipedia": "Free France",
+  "map_year": 1942,
+  "period": {
+    "start": {
+      "earliest": 1940,
+      "latest": 1940,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1944,
+      "latest": 1944,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Brazzaville",
+      "location": [
+        15.27111111111111,
+        -4.269444444444445
+      ]
+    },
+    {
+      "name": "Algiers",
+      "location": [
+        3.0586111111111,
+        36.776388888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Chad",
+    "Central African Republic",
+    "Cameroon",
+    "Republic of the Congo",
+    "Gabon",
+    "Djibouti"
+  ],
+  "borders": true,
+  "map": "maps/free-french.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "London",
+        "Algiers",
+        "Brazzaville"
+      ],
+      "infobox": [
+        "Paris",
+        "De facto and de jure",
+        "London",
+        "Brazzaville",
+        "Algiers"
+      ]
+    },
+    "cliopatria_years": [
+      1940,
+      1944
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "Brazzaville",
+    "labelled": [
+      "French Africa",
+      "British Africa",
+      "Belgian Congo",
+      "British Gold Coast",
+      "Ethiopia",
+      "Estado Novo",
+      "North Yemen"
+    ]
+  }
+}

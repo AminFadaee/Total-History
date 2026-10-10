@@ -1,0 +1,64 @@
+{
+  "id": "Q102679",
+  "slug": "kingdom-of-numidia",
+  "name": "Kingdom of Numidia",
+  "wikipedia": "Numidia",
+  "map_year": -110,
+  "period": {
+    "start": {
+      "earliest": -202,
+      "latest": -202,
+      "circa": false
+    },
+    "end": {
+      "earliest": -25,
+      "latest": -25,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Cirta",
+      "location": [
+        6.61194444,
+        36.3675
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Algeria",
+    "Libya",
+    "Tunisia"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-numidia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Cirta"
+      ],
+      "infobox": [
+        "Cirta",
+        "Constantine, Algeria",
+        "People's Democratic Republic of Algeria"
+      ]
+    },
+    "cliopatria_years": [
+      -197,
+      -47
+    ],
+    "identity": "Wikidata state named like the Cliopatria polity",
+    "home": "Cirta",
+    "labelled": [
+      "Roman Republic",
+      "Cyrenaica",
+      "Mauretania"
+    ]
+  }
+}

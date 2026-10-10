@@ -1,0 +1,49 @@
+{
+  "id": "Q5690",
+  "slug": "sparta",
+  "name": "Sparta",
+  "wikipedia": "Sparta",
+  "map_year": -909,
+  "period": {
+    "start": {
+      "earliest": -900,
+      "latest": -900,
+      "circa": true
+    },
+    "end": {
+      "earliest": -188,
+      "latest": -188,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q394074",
+      "name": "Agis I"
+    },
+    {
+      "id": "Q44228",
+      "name": "Leonidas I"
+    }
+  ],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Sparta"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

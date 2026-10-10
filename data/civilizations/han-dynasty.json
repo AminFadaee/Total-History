@@ -24,22 +24,9 @@
         108.85833333333333,
         34.30833333333333
       ]
-    },
-    {
-      "name": "Luoyang",
-      "location": [
-        112.42447,
-        34.65867
-      ]
-    },
-    {
-      "name": "Xuchang",
-      "location": [
-        113.82014,
-        34.02444
-      ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q7183",
     "region": "China",
@@ -56,6 +43,7 @@
     "Hong Kong S.A.R.",
     "Macao S.A.R"
   ],
+  "borders": true,
   "map": "maps/han-dynasty.png",
   "checks": {
     "infobox": true,

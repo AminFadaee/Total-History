@@ -1,0 +1,54 @@
+{
+  "id": "Q1627675",
+  "slug": "pyu-city-states",
+  "name": "Pyu City-States",
+  "wikipedia": "Pyu city-states",
+  "map_year": 84,
+  "period": {
+    "start": {
+      "earliest": -200,
+      "latest": -101,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1050,
+      "latest": 1050,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q888574",
+    "region": "Myanmar",
+    "name": "Pagan Kingdom"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Myanmar"
+  ],
+  "borders": true,
+  "map": "maps/pyu-city-states.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Sri Ksetra kingdom",
+        "Hanlin, Burma",
+        "Beikthano",
+        "Pinle",
+        "Binnaka"
+      ]
+    },
+    "cliopatria_years": [
+      84,
+      1045
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

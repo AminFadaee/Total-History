@@ -1,0 +1,72 @@
+{
+  "id": "Q3125368",
+  "slug": "mahdist-state",
+  "name": "Mahdist State",
+  "wikipedia": "Mahdist State",
+  "map_year": 1890,
+  "period": {
+    "start": {
+      "earliest": 1885,
+      "latest": 1885,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1899,
+      "latest": 1899,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Omdurman",
+      "location": [
+        32.462887,
+        15.683517
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q127861",
+    "region": "Sudan",
+    "name": "Khedivate of Egypt"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Sudan",
+    "South Sudan"
+  ],
+  "borders": true,
+  "map": "maps/mahdist-state.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Omdurman"
+      ],
+      "infobox": [
+        "Omdurman"
+      ]
+    },
+    "cliopatria_years": [
+      1890,
+      1899
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Omdurman",
+    "labelled": [
+      "Belgian Congo",
+      "British Africa",
+      "Ethiopian Empire",
+      "Wadai Empire",
+      "Sokoto Caliphate",
+      "Emirate of Jabal Shammar",
+      "Bornu Empire",
+      "Sultanate of Oman",
+      "Emirate of Nejd",
+      "Sultanate of Hobyo"
+    ]
+  }
+}

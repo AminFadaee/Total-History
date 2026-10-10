@@ -1,0 +1,62 @@
+{
+  "id": "Q430309",
+  "slug": "ai-viet",
+  "name": "Đại Việt",
+  "wikipedia": "Đại Việt",
+  "map_year": 1529,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1804,
+      "latest": 1804,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q6500483",
+    "region": "Vietnam",
+    "name": "Nguyễn dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Vietnam"
+  ],
+  "borders": true,
+  "map": "maps/ai-viet.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Thăng Long"
+      ],
+      "infobox": [
+        "Hoa Lư Ancient Capital",
+        "Hanoi",
+        "Citadel of the Hồ Dynasty",
+        "Phú Xuân"
+      ]
+    },
+    "cliopatria_years": [
+      1529,
+      1833
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "the spot held longest",
+    "labelled": [
+      "Ming Dynasty",
+      "Lan Xang",
+      "Khmer Empire",
+      "Shan States",
+      "Ayutthaya Kingdom",
+      "Kingdom of Mrauk U",
+      "Hanthawaddy Kingdom",
+      "First Toungoo Empire",
+      "Lan Na Kingdom",
+      "Prome Kingdom"
+    ]
+  }
+}

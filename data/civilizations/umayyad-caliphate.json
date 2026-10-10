@@ -33,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q12490507",
     "region": "Syria",
@@ -81,6 +82,7 @@
     "Bahrain",
     "Andorra"
   ],
+  "borders": true,
   "map": "maps/umayyad-caliphate.png",
   "checks": {
     "infobox": true,

@@ -1,0 +1,82 @@
+{
+  "id": "Q555994",
+  "slug": "aq-qoyunlu",
+  "name": "Aq Qoyunlu",
+  "wikipedia": "Aq Qoyunlu",
+  "map_year": 1475,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1503,
+      "latest": 1503,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Diyarbakır",
+      "location": [
+        40.236666666667,
+        37.910833333333
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q484195",
+    "region": "Turkey",
+    "name": "Timurid Empire"
+  },
+  "after": {
+    "id": "Q18234383",
+    "region": "Turkey",
+    "name": "Safavid Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Iraq",
+    "Turkey",
+    "Armenia"
+  ],
+  "borders": true,
+  "map": "maps/aq-qoyunlu.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Diyarbakır",
+        "Tabriz",
+        "Baghdad"
+      ],
+      "infobox": [
+        "Bayburt",
+        "Yaylak",
+        "Kiğı",
+        "Palu, Elazığ",
+        "Ergani",
+        "Kishlak",
+        "Diyarbakır",
+        "Tabriz"
+      ]
+    },
+    "cliopatria_years": [
+      1407,
+      1511
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Diyarbakır",
+    "labelled": [
+      "Timurid Empire",
+      "Mamluk Sultanate",
+      "Ottoman Empire",
+      "Shirvan",
+      "Kazakh Khanate",
+      "Lodi Dynasty",
+      "Makuria Kingdom",
+      "Sind-Samma Dynasty",
+      "Kapisa"
+    ]
+  }
+}

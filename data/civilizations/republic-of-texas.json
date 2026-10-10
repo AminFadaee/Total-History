@@ -3,7 +3,7 @@
   "slug": "republic-of-texas",
   "name": "Republic of Texas",
   "wikipedia": "Republic of Texas",
-  "map_year": 1836,
+  "map_year": 1842,
   "period": {
     "start": {
       "earliest": 1836,
@@ -26,10 +26,10 @@
       ]
     },
     {
-      "name": "Houston",
+      "name": "Harrisburg",
       "location": [
-        -95.383055555556,
-        29.762777777778
+        -95.2776,
+        29.7162
       ]
     },
     {
@@ -40,6 +40,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -63,6 +64,7 @@
   "modern_countries": [
     "United States of America"
   ],
+  "borders": true,
   "map": "maps/republic-of-texas.png",
   "checks": {
     "infobox": true,

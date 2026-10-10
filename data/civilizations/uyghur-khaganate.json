@@ -1,0 +1,71 @@
+{
+  "id": "Q831218",
+  "slug": "uyghur-khaganate",
+  "name": "Uyghur Khaganate",
+  "wikipedia": "Uyghur Khaganate",
+  "map_year": 763,
+  "period": {
+    "start": {
+      "earliest": 744,
+      "latest": 744,
+      "circa": false
+    },
+    "end": {
+      "earliest": 840,
+      "latest": 840,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Ordu-Baliq",
+      "location": [
+        102.659444,
+        47.431111
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mongolia",
+    "China",
+    "Russia",
+    "Kazakhstan",
+    "Kyrgyzstan"
+  ],
+  "borders": true,
+  "map": "maps/uyghur-khaganate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ordu-Baliq"
+      ],
+      "infobox": [
+        "Ötüken",
+        "Ordu-Baliq"
+      ]
+    },
+    "cliopatria_years": [
+      750,
+      849
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ordu-Baliq",
+    "labelled": [
+      "Tibetan Empire",
+      "Tang Dynasty",
+      "Abbasid Caliphate",
+      "Kimek-Kipchak confederation",
+      "Oghuz Turks",
+      "Balhae",
+      "Turk Shahis",
+      "Unified Silla",
+      "Karkota Dynasty"
+    ]
+  }
+}

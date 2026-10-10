@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Bogotá",
-      "location": [
-        -74.08175,
-        4.60971
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q630882",
@@ -52,6 +45,7 @@
     "Peru",
     "Panama"
   ],
+  "borders": true,
   "map": "maps/gran-colombia.png",
   "checks": {
     "infobox": true,
@@ -68,11 +62,12 @@
       1833
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Bogotá",
+    "home": "the spot held longest",
     "labelled": [
       "Empire of Brazil",
       "Republic of Peru",
-      "Río de la Plata"
+      "United Provinces of Central America",
+      "Netherlands Antilles"
     ]
   }
 }

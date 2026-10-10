@@ -1,0 +1,59 @@
+{
+  "id": "Q849623",
+  "slug": "oyo-empire",
+  "name": "Oyo Empire",
+  "wikipedia": "Oyo Empire",
+  "map_year": 1769,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1836,
+      "latest": 1836,
+      "circa": true
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q3509066",
+      "name": "Ọranyan"
+    },
+    {
+      "id": "Q96007216",
+      "name": "Adeyemi I Alowolodu"
+    }
+  ],
+  "modern_countries": [
+    "Nigeria",
+    "Benin",
+    "Togo",
+    "Ghana"
+  ],
+  "borders": true,
+  "map": "maps/oyo-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Oyo-Ile"
+      ],
+      "infobox": [
+        "Igboho",
+        "Old Oyo"
+      ]
+    },
+    "cliopatria_years": [
+      1609,
+      1835
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Ashanti Empire"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "Q111471",
+  "slug": "dal-riata",
+  "name": "Dál Riata",
+  "wikipedia": "Dál Riata",
+  "map_year": 750,
+  "period": {
+    "start": {
+      "earliest": 498,
+      "latest": 498,
+      "circa": false
+    },
+    "end": {
+      "earliest": 850,
+      "latest": 850,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q1991742",
+    "region": "United Kingdom",
+    "name": "Kingdom of Alba"
+  },
+  "rulers": [
+    {
+      "id": "Q558767",
+      "name": "Fergus Mór"
+    },
+    {
+      "id": "Q298263",
+      "name": "Kenneth MacAlpin"
+    }
+  ],
+  "modern_countries": [
+    "United Kingdom"
+  ],
+  "borders": true,
+  "map": "maps/dal-riata.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Dunadd"
+      ]
+    },
+    "cliopatria_years": [
+      540,
+      899
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Kingdom of Northumbria"
+    ]
+  }
+}

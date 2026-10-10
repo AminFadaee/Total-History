@@ -12,14 +12,16 @@
   "occupation": "Writer",
   "birth_country": "Russia",
   "civilizations": [
-    "Union of Soviet Socialist Republics",
-    "Russian Empire"
+    "Russian Empire",
+    "Union of Soviet Socialist Republics"
   ],
   "related": [],
   "contribution": "A Russian and Soviet poet, novelist, and literary translator.",
   "image": "images/boris-pasternak.jpg",
   "image_credit": "Владимир Савостьянов / ТАСС · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/boris-pasternak-photo.jpg",
+  "photo_credit": "Владимир Савостьянов / ТАСС · Public domain",
   "checks": {
     "civilization_votes": {
       "category": [
@@ -40,6 +42,7 @@
       ]
     },
     "lead": "Boris Leonidovich Pasternak (10 February [O.S. 29 January] 1890 – 30 May 1960) was a Russian and Soviet poet, novelist, and literary translator.",
-    "photo": "captured 1958-02 during their lifetime"
+    "image": "",
+    "photo": "model 0.88, portrait 0.99, captured 1958, during their lifetime"
   }
 }

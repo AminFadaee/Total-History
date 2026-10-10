@@ -18,7 +18,9 @@
   "contribution": "Emperor of Russia from 1801, the first King of Congress Poland from 1815, and the Grand Duke of Finland from 1809 to his death in 1825.",
   "image": "images/alexander-i-of-russia.jpg",
   "image_credit": "Alexander Molinari · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Alexander I of Russia (Russian: Александр I Павлович, romanized: Aleksandr I Pavlovich, IPA: [ɐlʲɪkˈsandr ˈpavləvʲɪtɕ]; 23 December [O.S. 12 December] 1777 – 1 December [O.S. 19 November] 1825), nicknamed \"the Blessed\", was Emperor of Russia from 1801, the first King of Congress Poland from 1815, and the Grand Duke of Finland from 1809 to his death in 1825. He ruled Russia during the period of the Napoleonic Wars.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "id": "Q7251",
+  "slug": "alan-turing",
+  "name": "Alan Turing",
+  "wikipedia": "Alan Turing",
+  "role": "English computer scientist",
+  "life": "1912–1954",
+  "lifetime": [
+    1912,
+    1954
+  ],
+  "occupation": "Computer scientist",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of Great Britain"
+  ],
+  "related": [],
+  "contribution": "An English mathematician and logician widely regarded as the father of theoretical computer science.",
+  "image": "images/alan-turing.jpg",
+  "image_credit": "Elliott &amp; Fry · Public domain",
+  "image_is_photo": true,
+  "photo": "images/alan-turing-photo.jpg",
+  "photo_credit": "Elliott &amp; Fry · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of Great Britain"
+      ],
+      "citizenship": [
+        "Kingdom of Great Britain"
+      ],
+      "birthplace": [
+        "Kingdom of Great Britain"
+      ]
+    },
+    "lead": "Alan Mathison Turing (; 23 June 1912 – 7 June 1954) was an English mathematician and logician widely regarded as the father of theoretical computer science. He formalised the concepts of algorithm and computation with the Turing machine, a model of a general-purpose computer, and his contributions to cryptanalysis helped the Allies of World War II decipher messages encrypted by the German Enigma machine. He also contributed the Turing test to philosophy of artificial intelligence and the Turing pattern concept to mathematical and theoretical biology.",
+    "image": "",
+    "photo": "model 0.92, portrait 0.93, captured 1951, during their lifetime"
+  }
+}

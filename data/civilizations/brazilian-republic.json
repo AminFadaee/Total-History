@@ -1,0 +1,58 @@
+{
+  "id": "Q155",
+  "slug": "brazilian-republic",
+  "name": "Brazilian Republic",
+  "wikipedia": "Brazil",
+  "map_year": 1905,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Brasília",
+      "location": [
+        -47.882777777778,
+        -15.793888888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q217230",
+    "region": "Brazil",
+    "name": "Empire of Brazil"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Brazil"
+  ],
+  "borders": true,
+  "map": "maps/brazilian-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Brasília"
+      ],
+      "infobox": [
+        "Brasília"
+      ]
+    },
+    "cliopatria_years": [
+      1890,
+      1966
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Brasília",
+    "labelled": [
+      "Argentine Confederation",
+      "Bolivia",
+      "Republic of Peru",
+      "Republic of Colombia",
+      "Venezuela"
+    ]
+  }
+}

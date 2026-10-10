@@ -20,8 +20,10 @@
   ],
   "contribution": "Roman emperor from 193 to 211.",
   "image": "images/septimius-severus.jpg",
-  "image_credit": "Public domain",
-  "photo": false,
+  "image_credit": "CC BY-SA 3.0",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -34,11 +36,15 @@
         "Kingdom of Osroene",
         "Parthian Empire"
       ],
+      "citizenship": [
+        "Roman Empire"
+      ],
       "vital_section": [
         "Roman Empire"
       ]
     },
     "lead": "Lucius Septimius Severus (; Latin: [ˈluːkius sepˈtimius seˈweːrus]; 11 April 145 – 4 February 211) was Roman emperor from 193 to 211. He was born in Leptis Magna, Libya, in the Roman province of Africa. He is of Libyco-Punic descent on his father's side and Romano-Italian on his mother's side. As a young man, he advanced through the customary succession of offices during the reigns of Marcus Aurelius and Commodus. Severus was the final contender to seize power after the death of the emperor Pertinax in 193 during the Year of the Five Emperors.",
+    "image": "main image is a coin, calligraphy or missing",
     "photo": "no death year in or after 1860"
   }
 }

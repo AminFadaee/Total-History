@@ -1,0 +1,70 @@
+{
+  "id": "Q431575",
+  "slug": "idrisids",
+  "name": "Idrisids",
+  "wikipedia": "Idrisid dynasty",
+  "map_year": 793,
+  "period": {
+    "start": {
+      "earliest": 788,
+      "latest": 788,
+      "circa": false
+    },
+    "end": {
+      "earliest": 974,
+      "latest": 974,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Volubilis",
+      "location": [
+        -5.5536111111111,
+        34.071111111111
+      ]
+    },
+    {
+      "name": "Fez",
+      "location": [
+        -5.003333333333333,
+        34.04333333333334
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Morocco",
+    "Algeria"
+  ],
+  "borders": true,
+  "map": "maps/idrisids.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Volubilis",
+        "Fez, Morocco"
+      ],
+      "infobox": [
+        "Volubilis",
+        "Fez, Morocco",
+        "Hajar al-Nasr"
+      ]
+    },
+    "cliopatria_years": [
+      793,
+      979
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Volubilis",
+    "labelled": [
+      "Rustamid dynasty",
+      "Barghawata Conference"
+    ]
+  }
+}

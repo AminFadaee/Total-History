@@ -1,0 +1,51 @@
+{
+  "id": "Q29179",
+  "slug": "francisco-franco",
+  "name": "Francisco Franco",
+  "wikipedia": "Francisco Franco",
+  "role": "Dictator of Spain from 1939 to 1975",
+  "life": "1892–1975",
+  "lifetime": [
+    1892,
+    1975
+  ],
+  "occupation": "Politician",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Kingdom of Spain",
+    "Francoist Spain"
+  ],
+  "related": [
+    "Second Spanish Republic",
+    "Nazi Germany",
+    "United States of America"
+  ],
+  "contribution": "A Spanish military general and the dictator of Spain from 1939 until his death in 1975.",
+  "image": "images/francisco-franco.jpg",
+  "image_credit": "Unknown authorUnknown author · CC0",
+  "image_is_photo": true,
+  "photo": "images/francisco-franco-photo.jpg",
+  "photo_credit": "Unknown authorUnknown author · CC0",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Francoist Spain"
+      ],
+      "lead": [
+        "Second Spanish Republic",
+        "Francoist Spain",
+        "Nazi Germany",
+        "United States of America"
+      ],
+      "citizenship": [
+        "Kingdom of Spain"
+      ],
+      "birthplace": [
+        "Kingdom of Spain"
+      ]
+    },
+    "lead": "Francisco Franco Bahamonde (4 December 1892 – 20 November 1975) was a Spanish military general and the dictator of Spain from 1939 until his death in 1975. He had led the Nationalist forces in overthrowing the Second Spanish Republic during the Spanish Civil War from 1936 to 1939. This period in Spanish history, from the Nationalist victory to Franco's death, is commonly known as Francoist Spain.",
+    "image": "",
+    "photo": "model 0.91, portrait 0.94, in Category:Portrait photographs of Francisco Franco"
+  }
+}

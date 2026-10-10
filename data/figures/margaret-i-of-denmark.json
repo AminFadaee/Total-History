@@ -13,18 +13,23 @@
   "birth_country": "Denmark",
   "civilizations": [
     "Kingdom of Denmark",
-    "Kalmar Union",
+    "Old Kingdom of Norway",
     "Kingdom of Sweden"
   ],
-  "related": [],
+  "related": [
+    "Kalmar Union"
+  ],
   "contribution": "Queen regnant of Denmark, Norway, and Sweden from the late 1380s until her death, and the founder of the Kalmar Union that joined the Scandinavian kingdoms together for over a century.",
   "image": "images/margaret-i-of-denmark.jpg",
   "image_credit": "Jacob Truedson Demitz assisted by Emil Eikner for Ristesson · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
         "Kingdom of Denmark",
+        "Old Kingdom of Norway",
         "Kingdom of Sweden"
       ],
       "category": [
@@ -36,11 +41,15 @@
       "lead": [
         "Kalmar Union"
       ],
+      "citizenship": [
+        "Old Kingdom of Norway"
+      ],
       "birthplace": [
         "Kingdom of Denmark"
       ]
     },
     "lead": "Margaret I (Danish: Margrete Valdemarsdatter; March 1353 – 28 October 1412) was queen regnant of Denmark, Norway, and Sweden from the late 1380s until her death, and the founder of the Kalmar Union that joined the Scandinavian kingdoms together for over a century. She had been queen consort of Norway from 1363 to 1380 and of Sweden from 1363 to 1364 by marriage to Haakon VI. Margaret was known as a wise, energetic and capable leader, who governed with \"farsighted tact and caution\", earning the nickname \"Semiramis of the North\". Also known famously and derisively as \"King Breechless\", one of several derogatory nicknames once thought to have been invented by her rival Albert, King of Sweden, she was also called \"Lady King\" by her subjects, widely used in recognition of her capabilities. Knut Gjerset calls her \"the first great ruling queen in European history\".",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

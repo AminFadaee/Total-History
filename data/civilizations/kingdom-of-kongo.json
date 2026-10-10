@@ -1,0 +1,63 @@
+{
+  "id": "Q796583",
+  "slug": "kingdom-of-kongo",
+  "name": "Kingdom of Kongo",
+  "wikipedia": "Kingdom of Kongo",
+  "map_year": 1662,
+  "period": {
+    "start": {
+      "earliest": 1390,
+      "latest": 1390,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "M'banza-Kongo",
+      "location": [
+        14.25,
+        -6.2666666666667
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q6702512",
+      "name": "Lukeni lua Nimi"
+    },
+    {
+      "id": "Q16930601",
+      "name": "Manuel III of Kongo"
+    }
+  ],
+  "modern_countries": [
+    "Angola",
+    "Democratic Republic of the Congo"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-kongo.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "M'banza-Kongo"
+      ],
+      "infobox": [
+        "M'banza-Kongo",
+        "People's Republic of Angola"
+      ]
+    },
+    "cliopatria_years": [
+      1440,
+      1669
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "M'banza-Kongo",
+    "labelled": []
+  }
+}

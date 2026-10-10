@@ -1,0 +1,69 @@
+{
+  "id": "Q29",
+  "slug": "kingdom-of-spain",
+  "name": "Kingdom of Spain",
+  "wikipedia": "Spain",
+  "map_year": 1890,
+  "period": {
+    "start": {
+      "earliest": 1516,
+      "latest": 1516,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Madrid",
+      "location": [
+        -3.703333333333333,
+        40.41694444444445
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Spain",
+    "Philippines",
+    "Morocco",
+    "Cuba",
+    "Western Sahara",
+    "Puerto Rico",
+    "Guam",
+    "Palau"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-spain.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Madrid"
+      ],
+      "infobox": [
+        "Madrid"
+      ]
+    },
+    "cliopatria_years": [
+      1516,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Madrid",
+    "labelled": [
+      "French Third Republic",
+      "Morocco",
+      "Ottoman Tripolitania",
+      "French Africa",
+      "Austria-Hungary",
+      "Kingdom of Italy",
+      "Wadai Empire",
+      "Bornu Empire",
+      "Serbs"
+    ]
+  }
+}

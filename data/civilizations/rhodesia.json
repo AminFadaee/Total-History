@@ -1,0 +1,62 @@
+{
+  "id": "Q217169",
+  "slug": "rhodesia",
+  "name": "Rhodesia",
+  "wikipedia": "Rhodesia",
+  "map_year": 1976,
+  "period": {
+    "start": {
+      "earliest": 1965,
+      "latest": 1965,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1979,
+      "latest": 1979,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Harare",
+      "location": [
+        31.052222222222,
+        -17.829166666667
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Zimbabwe"
+  ],
+  "borders": true,
+  "map": "maps/rhodesia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Harare"
+      ],
+      "infobox": [
+        "Harare"
+      ]
+    },
+    "cliopatria_years": [
+      1967,
+      1978
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Harare",
+    "labelled": [
+      "Mozambique",
+      "Republic of Botswana",
+      "Zambia",
+      "South Africa",
+      "Malawi"
+    ]
+  }
+}

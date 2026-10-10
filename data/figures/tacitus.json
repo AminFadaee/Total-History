@@ -18,10 +18,15 @@
   "contribution": "A Roman historian and politician.",
   "image": "images/tacitus.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
+        "Roman Empire"
+      ],
+      "citizenship": [
         "Roman Empire"
       ],
       "birthplace": [
@@ -29,6 +34,7 @@
       ]
     },
     "lead": "Publius Cornelius Tacitus, known simply as Tacitus ( TAS-it-əs, Latin: [ˈtakɪtʊs]; c. AD 56 – c. 120), was a Roman historian and politician. He is widely regarded as one of the greatest Roman historians by modern scholars.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

@@ -19,20 +19,6 @@
   },
   "capitals": [
     {
-      "name": "Montgomery",
-      "location": [
-        -86.3,
-        32.3675
-      ]
-    },
-    {
-      "name": "Richmond",
-      "location": [
-        -77.43666666666667,
-        37.54083333333333
-      ]
-    },
-    {
       "name": "Danville",
       "location": [
         -79.404404,
@@ -40,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q30",
@@ -55,6 +42,7 @@
   "modern_countries": [
     "United States of America"
   ],
+  "borders": true,
   "map": "maps/confederate-states-of-america.png",
   "checks": {
     "infobox": true,
@@ -76,7 +64,7 @@
       1865
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Montgomery",
+    "home": "Danville",
     "labelled": [
       "United States of America",
       "Federated Republic of Mexico",

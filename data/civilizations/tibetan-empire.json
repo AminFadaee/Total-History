@@ -1,0 +1,78 @@
+{
+  "id": "Q2431480",
+  "slug": "tibetan-empire",
+  "name": "Tibetan Empire",
+  "wikipedia": "Tibetan Empire",
+  "map_year": 840,
+  "period": {
+    "start": {
+      "earliest": 618,
+      "latest": 618,
+      "circa": false
+    },
+    "end": {
+      "earliest": 842,
+      "latest": 842,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Lhasa",
+      "location": [
+        91.1175,
+        29.65388888888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q366661",
+      "name": "Trisong Detsen"
+    },
+    {
+      "id": "Q558271",
+      "name": "Langdarma"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/tibetan-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Lhasa"
+      ],
+      "infobox": [
+        "Lhasa"
+      ]
+    },
+    "cliopatria_years": [
+      623,
+      849
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Lhasa",
+    "labelled": [
+      "Tang Dynasty",
+      "Uyghur Khaganate",
+      "Abbasid Caliphate",
+      "Nanzhao",
+      "Qarlugs",
+      "Turk Shahis",
+      "Karkota Dynasty",
+      "Kamarupa Kingdom",
+      "Gurjara-Pratihara Dynasty",
+      "Pala Empire",
+      "Oghuz Turks",
+      "Pyu City-States"
+    ]
+  }
+}

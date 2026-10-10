@@ -18,7 +18,9 @@
   "contribution": "Emperor of Japan from 30 January 1867 until his death in 1912.",
   "image": "images/emperor-meiji.jpg",
   "image_credit": "Uchida Kuichi · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/emperor-meiji-photo.jpg",
+  "photo_credit": "Uchida Kuichi · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -29,6 +31,7 @@
       ]
     },
     "lead": "Emperor Meiji (3 November 1852 – 29 July 1912), personal name Mutsuhito, was Emperor of Japan from 30 January 1867 until his death in 1912. The Meiji Restoration proclaimed the Empire of Japan in 1868, beginning the Meiji era. During his reign, Japan transformed from a feudal state under the Tokugawa shogunate into a major imperial power.",
-    "photo": "captured 1873date QS:P571,+1873-00-00T00:00:00Z/9 during their lifetime"
+    "image": "",
+    "photo": "model 0.94, portrait 0.81, in Category:Official portrait photograph of Emperor Mutsuhito (1873)"
   }
 }

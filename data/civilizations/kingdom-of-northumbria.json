@@ -18,6 +18,7 @@
     "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q623751",
     "region": "United Kingdom",
@@ -32,6 +33,7 @@
   "modern_countries": [
     "United Kingdom"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-northumbria.png",
   "checks": {
     "infobox": true,
@@ -46,15 +48,16 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Burgundian Kingdom",
-      "Scandinavian minor kingdoms",
-      "Samo's Empire",
+      "Kingdom of Wessex",
+      "Kingdom of East Anglia",
+      "Brythons",
+      "Kingdom of Gwynedd",
       "Kingdom of the Franks",
       "Saxons",
-      "Bavarians",
-      "Frisia Kingdom",
-      "Duchy of Thuringia",
-      "Breton Kingdoms"
+      "Magna Frisia",
+      "Dumnonia",
+      "Dál Riata",
+      "Kingdom of Kent"
     ]
   }
 }

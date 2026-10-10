@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q2277",
     "region": "Turkey",
@@ -108,11 +109,11 @@
     "Lebanon",
     "Palestine",
     "Cyprus",
-    "Northern Cyprus",
     "Malta",
     "San Marino",
     "Vatican"
   ],
+  "borders": true,
   "map": "maps/eastern-roman-empire.png",
   "checks": {
     "infobox": true,

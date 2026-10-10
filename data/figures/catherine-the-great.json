@@ -18,12 +18,15 @@
   "related": [
     "Polish-Lithuanian Commonwealth",
     "Crimean Khanate",
-    "Ottoman Empire"
+    "Ottoman Empire",
+    "Kingdom of Great Britain"
   ],
   "contribution": "Empress of Russia from 9 July 1762 until her death in 1796.",
   "image": "images/catherine-the-great.jpg",
   "image_credit": "After Alexander Roslin · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -36,7 +39,8 @@
         "Russian Empire",
         "Polish-Lithuanian Commonwealth",
         "Crimean Khanate",
-        "Ottoman Empire"
+        "Ottoman Empire",
+        "Kingdom of Great Britain"
       ],
       "citizenship": [
         "Russian Empire",
@@ -47,6 +51,7 @@
       ]
     },
     "lead": "Catherine II (born Sophie Auguste Friederike von Anhalt-Zerbst; 2 May 1729 – 17 November 1796), known as Catherine the Great, was Empress of Russia from 9 July 1762 until her death in 1796. Before her accession, Catherine had been a royal consort as the wife of Emperor Peter III, whom she overthrew in a coup d'état. Her reign of over 34 years saw an era of prosperity during the Enlightenment in which many new cities, universities and theatres were established; large-scale immigration from the rest of Europe occurred; and the Russian Empire was recognised as a great power of Europe.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

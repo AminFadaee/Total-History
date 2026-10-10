@@ -1,0 +1,69 @@
+{
+  "id": "Q335088",
+  "slug": "armenian-kingdom-of-cilicia",
+  "name": "Armenian Kingdom of Cilicia",
+  "wikipedia": "Armenian Kingdom of Cilicia",
+  "map_year": 1192,
+  "period": {
+    "start": {
+      "earliest": 1080,
+      "latest": 1080,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1375,
+      "latest": 1375,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Sis",
+      "location": [
+        35.8103,
+        37.4444
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q282428",
+    "region": "Turkey",
+    "name": "Mamluk Sultanate"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Turkey"
+  ],
+  "borders": true,
+  "map": "maps/armenian-kingdom-of-cilicia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tarsus, Mersin",
+        "Kozan, Adana"
+      ],
+      "infobox": [
+        "Tarsus, Mersin",
+        "Sis",
+        "Kozan, Adana"
+      ]
+    },
+    "cliopatria_years": [
+      1099,
+      1374
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Sis",
+    "labelled": [
+      "Ayyubid Sultanate",
+      "Sultanate of Rum",
+      "Byzantine Empire",
+      "Hamdanid Emirates",
+      "Kingdom of Cyprus"
+    ]
+  }
+}

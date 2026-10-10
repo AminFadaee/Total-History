@@ -1,0 +1,42 @@
+{
+  "id": "Q6197",
+  "slug": "horace",
+  "name": "Horace",
+  "wikipedia": "Horace",
+  "role": "Roman lyric poet",
+  "life": "65–8 BC",
+  "lifetime": [
+    -65,
+    -8
+  ],
+  "occupation": "Writer",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic",
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "The leading Roman lyric poet during the time of Augustus.",
+  "image": "images/horace.jpg",
+  "image_credit": "Anton von Werner · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "citizenship": [
+        "Roman Empire",
+        "Roman Republic"
+      ],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Quintus Horatius Flaccus (Classical Latin: [ˈkʷiːntʊs (h)ɔˈraːtiʊs ˈfɫakːʊs]; 8 December 65 BC – 27 November 8 BC), commonly known in the English-speaking world as Horace ( HORR-iss), was the leading Roman lyric poet during the time of Augustus (also known as Octavian). The rhetorician Quintilian regarded his Odes as the only Latin lyrics worth reading: \"He can be lofty sometimes, yet he is also full of charm and grace, versatile in his figures, and felicitously daring in his choice of words.\"",
+    "image": "",
+    "photo": "no death year in or after 1860"
+  }
+}

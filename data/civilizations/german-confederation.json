@@ -17,16 +17,13 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Free City of Frankfurt",
-      "location": [
-        8.68222222,
-        50.11027778
-      ]
-    }
-  ],
-  "before": {},
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q154741",
+    "region": "Poland",
+    "name": "Confederation of the Rhine"
+  },
   "after": {},
   "rulers": [],
   "modern_countries": [
@@ -34,6 +31,7 @@
     "Poland",
     "Czechia"
   ],
+  "borders": true,
   "map": "maps/german-confederation.png",
   "checks": {
     "infobox": true,
@@ -50,7 +48,7 @@
       1867
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Free City of Frankfurt",
+    "home": "the spot held longest",
     "labelled": [
       "Russian Empire",
       "Austrian Empire",

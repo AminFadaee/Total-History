@@ -1,0 +1,77 @@
+{
+  "id": "Q139319",
+  "slug": "russian-republic",
+  "name": "Russian Republic",
+  "wikipedia": "Russian Republic",
+  "map_year": 1917,
+  "period": {
+    "start": {
+      "earliest": 1917,
+      "latest": 1917,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q34266",
+    "region": "Russia",
+    "name": "Russian Empire"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Russia",
+    "Kazakhstan",
+    "Ukraine",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Finland",
+    "Kyrgyzstan",
+    "Belarus",
+    "Tajikistan",
+    "Azerbaijan",
+    "Georgia",
+    "Estonia",
+    "Latvia",
+    "Moldova",
+    "Armenia"
+  ],
+  "borders": true,
+  "map": "maps/russian-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Saint Petersburg"
+      ],
+      "infobox": [
+        "Saint Petersburg"
+      ]
+    },
+    "cliopatria_years": [
+      1917,
+      1919
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Kuomintang",
+      "Great Mongol State",
+      "Qajar Dynasty",
+      "French Africa",
+      "British Raj",
+      "Italian Africa",
+      "British Gold Coast",
+      "Tibet",
+      "Ethiopian Empire",
+      "Emirate of Nejd"
+    ]
+  }
+}

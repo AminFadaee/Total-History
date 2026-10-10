@@ -18,7 +18,9 @@
   "contribution": "A Chinese statesman, general, and Neo-Confucian philosopher during the Ming dynasty.",
   "image": "images/wang-yangming.jpg",
   "image_credit": "Cai Shixin · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Wang Shouren (Chinese: 王守仁, 26 October 1472 – 9 January 1529), courtesy name Bo'an (Chinese: 伯安), art name Yangmingzi (traditional Chinese: 陽明子; simplified Chinese: 阳明子), usually referred to as Wang Yangming (traditional Chinese: 王陽明; simplified Chinese: 王阳明), was a Chinese statesman, general, and Neo-Confucian philosopher during the Ming dynasty. After Zhu Xi, he is commonly regarded as the most important Neo-Confucian thinker, for his interpretations of Confucianism that denied the rationalist dualism of the orthodox philosophy of Zhu Xi. Wang and Lu Xiangshan are regarded as the founders as the Lu–Wang school, or the School of the Mind.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

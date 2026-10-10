@@ -18,7 +18,9 @@
   "contribution": "A Russian novelist, short story writer, poet, playwright, translator and popularizer of Russian literature in the West.",
   "image": "images/ivan-turgenev.jpg",
   "image_credit": "Ilya Repin · Public domain",
-  "photo": true,
+  "image_is_photo": false,
+  "photo": "images/ivan-turgenev-photo.jpg",
+  "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Ivan Sergeyevich Turgenev (1818–1883) was a Russian novelist, short story writer, poet, playwright, translator and popularizer of Russian literature in the West.",
-    "photo": "captured 1874date QS:P571,+1874-00-00T00:00:00Z/9 during their lifetime"
+    "image": "",
+    "photo": "model 0.95, portrait 0.95, captured 1865, during their lifetime"
   }
 }

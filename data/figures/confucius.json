@@ -1,0 +1,40 @@
+{
+  "id": "Q4604",
+  "slug": "confucius",
+  "name": "Confucius",
+  "wikipedia": "Confucius",
+  "role": "Chinese philosopher",
+  "life": "c. 551–479 BC",
+  "lifetime": [
+    -551,
+    -479
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "China",
+  "civilizations": [
+    "Lu"
+  ],
+  "related": [],
+  "contribution": "A Chinese philosopher of the Spring and Autumn period who is traditionally considered the paragon of Chinese sages.",
+  "image": "images/confucius.jpg",
+  "image_credit": "Anonymous Chinese painter of the Western Han period · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Teng"
+      ],
+      "citizenship": [
+        "Lu"
+      ],
+      "birthplace": [
+        "Lu"
+      ]
+    },
+    "lead": "Confucius (c. 551 – c. 479 BCE), born Kong Qiu, was a Chinese philosopher of the Spring and Autumn period who is traditionally considered the paragon of Chinese sages. Much of the shared cultural heritage of the Sinosphere originates in the philosophy and teachings of Confucius. His philosophical teachings, called Confucianism, emphasized personal and governmental morality, harmonious social relationships, righteousness, kindness, sincerity, and a ruler's responsibilities to lead by virtue.",
+    "image": "",
+    "photo": "no death year in or after 1860"
+  }
+}

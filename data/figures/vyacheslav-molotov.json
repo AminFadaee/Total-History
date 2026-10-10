@@ -21,7 +21,9 @@
   "contribution": "A Soviet politician, diplomat, and revolutionary.",
   "image": "images/vyacheslav-molotov.jpg",
   "image_credit": "G. Weil for TASS · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/vyacheslav-molotov-photo.jpg",
+  "photo_credit": "G. Weil for TASS · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -42,6 +44,7 @@
       ]
     },
     "lead": "Vyacheslav Mikhaylovich Molotov (né Skryabin; 9 March [O.S. 25 February] 1890 – 8 November 1986) was a Soviet politician, diplomat, and revolutionary. He was one of the most prominent figures in the Soviet government during the rule of his close ally, Joseph Stalin. In addition to serving as Chairman of the Council of People's Commissars from 1930 to 1941, he held office as Minister of Foreign Affairs from 1939 to 1949 and again from 1953 to 1956. The Molotov cocktail was named for him.",
-    "photo": "captured circa 1947 during their lifetime"
+    "image": "",
+    "photo": "model 0.95, portrait 0.94, captured 1947, during their lifetime"
   }
 }

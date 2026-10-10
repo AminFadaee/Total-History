@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Sardis",
-      "location": [
-        28.040278,
-        38.488333
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q389688",
@@ -45,6 +38,7 @@
   "modern_countries": [
     "Turkey"
   ],
+  "borders": true,
   "map": "maps/lydia.png",
   "checks": {
     "infobox": true,
@@ -61,10 +55,7 @@
       -541
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Sardis",
-    "labelled": [
-      "Neo-Babylonian Empire",
-      "Kingdom of Urartu"
-    ]
+    "home": "the spot held longest",
+    "labelled": []
   }
 }

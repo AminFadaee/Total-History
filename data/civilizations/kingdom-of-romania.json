@@ -19,13 +19,6 @@
   },
   "capitals": [
     {
-      "name": "Bucharest",
-      "location": [
-        26.09777777777778,
-        44.41336111111111
-      ]
-    },
-    {
       "name": "Iași",
       "location": [
         27.588888888889,
@@ -33,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q958291",
     "region": "Romania",
@@ -66,6 +60,7 @@
     "Moldova",
     "Ukraine"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-romania.png",
   "checks": {
     "infobox": true,
@@ -84,23 +79,14 @@
       1947
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Bucharest",
+    "home": "Iași",
     "labelled": [
       "Ukrainian People's Republic",
       "Yugoslavia",
       "Hungarian Republic",
       "Principality of Bulgaria",
-      "Ottoman Empire",
-      "German Empire",
-      "Kingdom of Italy",
-      "Second Polish Republic",
       "Czechoslovakia",
-      "Republic of Austria",
-      "First Hellenic Republic",
-      "Georgia",
-      "Swiss Confederation",
-      "Kingdom of Belgium",
-      "Netherlands"
+      "Republic of Austria"
     ]
   }
 }

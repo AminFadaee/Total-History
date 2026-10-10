@@ -23,7 +23,9 @@
   "contribution": "The sultan of the Ottoman Empire from 1574 until his death in 1595.",
   "image": "images/murad-iii.jpg",
   "image_credit": "16th century artist · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -43,6 +45,7 @@
       ]
     },
     "lead": "Murad III (Ottoman Turkish: مراد ثالث, romanized: Murād-i sālis; Turkish: III. Murad; 4 July 1546 – 16 January 1595) was the sultan of the Ottoman Empire from 1574 until his death in 1595.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

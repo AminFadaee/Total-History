@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Berlin",
-      "location": [
-        13.383333333333,
-        52.516666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q41304",
     "region": "Germany",
@@ -67,6 +60,7 @@
     "Slovenia",
     "Luxembourg"
   ],
+  "borders": true,
   "map": "maps/nazi-germany.png",
   "checks": {
     "infobox": true,
@@ -83,7 +77,7 @@
       1944
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Berlin",
+    "home": "the spot held longest",
     "labelled": [
       "Union of Soviet Socialist Republics",
       "French Africa",

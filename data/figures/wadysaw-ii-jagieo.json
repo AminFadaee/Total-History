@@ -18,7 +18,9 @@
   "contribution": "Grand Duke of Lithuania beginning in 1377 and King of Poland from 1386 until his death.",
   "image": "images/wadysaw-ii-jagieo.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Jogaila (Lithuanian: [jɔˈɡâːɪɫɐ] ; c. 1352/1362 – 1 June 1434), later Władysław II Jagiełło (Polish: [vwaˈdɨswaf jaˈɡʲɛwwɔ] ), was Grand Duke of Lithuania beginning in 1377 and King of Poland from 1386 until his death. As Grand Duke, he ruled Lithuania from 1377 to 1381 and from 1382 to 1401, at which time he became the Supreme Duke of Lithuania in exchange for naming his cousin Vytautas as the new Grand Duke. Władysław II initially served as King of Poland alongside his wife Jadwiga until her death in 1399, and then the sole ruler until his own death in 1434.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

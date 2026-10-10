@@ -1,0 +1,63 @@
+{
+  "id": "Q289577",
+  "slug": "himyarite-kingdom",
+  "name": "Himyarite Kingdom",
+  "wikipedia": "Himyar",
+  "map_year": -19,
+  "period": {
+    "start": {
+      "earliest": -110,
+      "latest": -110,
+      "circa": false
+    },
+    "end": {
+      "earliest": 578,
+      "latest": 578,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Zafar",
+      "location": [
+        44.40287441,
+        14.21389794
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Saudi Arabia",
+    "Yemen"
+  ],
+  "borders": true,
+  "map": "maps/himyarite-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Zafar, Yemen"
+      ],
+      "infobox": [
+        "Zafar, Yemen",
+        "Sanaa"
+      ]
+    },
+    "cliopatria_years": [
+      -110,
+      601
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Zafar",
+    "labelled": [
+      "Nabataeans",
+      "Hadhramaut",
+      "Kingdom of Kush",
+      "Kingdom of Axum"
+    ]
+  }
+}

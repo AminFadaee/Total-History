@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Saint Petersburg",
-      "location": [
-        30.316666666667,
-        59.95
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q186096",
     "region": "Russia",
@@ -61,6 +54,7 @@
     "Armenia",
     "Aland"
   ],
+  "borders": true,
   "map": "maps/russian-empire.png",
   "checks": {
     "infobox": true,
@@ -78,18 +72,14 @@
       1916
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Saint Petersburg",
+    "home": "the spot held longest",
     "labelled": [
       "Qing Dynasty",
-      "Qajar Dynasty",
-      "German Empire",
+      "Ottoman Empire",
       "British Raj",
-      "British Africa",
       "French Africa",
-      "Belgian Congo",
-      "Ottoman Tripolitania",
-      "Kingdom of Spain",
-      "Ethiopian Empire"
+      "Ethiopian Empire",
+      "Sokoto Caliphate"
     ]
   }
 }

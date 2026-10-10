@@ -1,0 +1,73 @@
+{
+  "id": "Q62456",
+  "slug": "southern-qi",
+  "name": "Southern Qi",
+  "wikipedia": "Southern Qi",
+  "map_year": 500,
+  "period": {
+    "start": {
+      "earliest": 479,
+      "latest": 479,
+      "circa": false
+    },
+    "end": {
+      "earliest": 502,
+      "latest": 502,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Jiankang",
+      "location": [
+        118.79647,
+        32.05837
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q49697",
+    "region": "China",
+    "name": "Liu Song Dynasty"
+  },
+  "after": {
+    "id": "Q1069868",
+    "region": "China",
+    "name": "Liang Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
+  ],
+  "borders": true,
+  "map": "maps/southern-qi.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Jiankang"
+      ],
+      "infobox": [
+        "Jiankang"
+      ]
+    },
+    "cliopatria_years": [
+      480,
+      509
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Jiankang",
+    "labelled": [
+      "Northern Wei",
+      "Tuyuhun",
+      "Gupta Empire",
+      "Funan",
+      "Kamarupa Kingdom",
+      "Pyu City-States"
+    ]
+  }
+}

@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q12544",
     "region": "Turkey",
@@ -61,6 +62,7 @@
   "modern_countries": [
     "Turkey"
   ],
+  "borders": true,
   "map": "maps/empire-of-trebizond.png",
   "checks": {
     "infobox": true,
@@ -79,19 +81,11 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Trabzon",
     "labelled": [
-      "Halych-Volhynia occupation",
       "Sultanate of Rum",
-      "Hamdanid Emirates",
       "Kingdom of Georgia",
-      "Nicaean Empire",
-      "Second Bulgarian Empire",
-      "Kingdom of Hungary",
-      "Principality of Galicia-Volhynia",
-      "Zengid dynasty",
-      "Armenian Kingdom of Cilicia",
-      "Latin Empire",
-      "Principality of Pereyaslavl",
-      "Kingdom of Serbia"
+      "Hamdanid Emirates",
+      "Halych-Volhynia occupation",
+      "Nicaean Empire"
     ]
   }
 }

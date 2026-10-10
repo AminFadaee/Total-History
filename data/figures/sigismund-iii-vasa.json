@@ -20,8 +20,10 @@
   ],
   "contribution": "",
   "image": "images/sigismund-iii-vasa.jpg",
-  "image_credit": "Pieter Soutman · Public domain",
-  "photo": false,
+  "image_credit": "Martin Kober · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -45,6 +47,7 @@
       ]
     },
     "lead": "Sigismund III Vasa (Polish: Zygmunt III Waza, Lithuanian: Žygimantas Vaza; 20 June 1566 – 30 April 1632",
+    "image": "main image is a coin, calligraphy or missing",
     "photo": "no death year in or after 1860"
   }
 }

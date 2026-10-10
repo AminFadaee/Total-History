@@ -19,34 +19,6 @@
   },
   "capitals": [
     {
-      "name": "Nishapur",
-      "location": [
-        58.795833333333334,
-        36.21333333333333
-      ]
-    },
-    {
-      "name": "Ray",
-      "location": [
-        51.434444444444445,
-        35.5975
-      ]
-    },
-    {
-      "name": "Isfahan",
-      "location": [
-        51.67472222222222,
-        32.6525
-      ]
-    },
-    {
-      "name": "Hamadan",
-      "location": [
-        48.516666666667,
-        34.8
-      ]
-    },
-    {
       "name": "Merv",
       "location": [
         62.1925,
@@ -54,16 +26,9 @@
       ]
     }
   ],
-  "before": {
-    "id": "Q249578",
-    "region": "Iran",
-    "name": "Ghaznavid Empire"
-  },
-  "after": {
-    "id": "Q63134381",
-    "region": "Iran",
-    "name": "Khwarezmid Empire"
-  },
+  "parts": [],
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Iran",
@@ -81,6 +46,7 @@
     "Lebanon",
     "Palestine"
   ],
+  "borders": true,
   "map": "maps/great-seljuk-empire.png",
   "checks": {
     "infobox": true,
@@ -105,7 +71,7 @@
       1201
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Ray",
+    "home": "Merv",
     "labelled": [
       "Kimek-Kipchak confederation",
       "Ghaznavid Empire",

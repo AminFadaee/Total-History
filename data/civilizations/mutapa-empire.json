@@ -1,0 +1,36 @@
+{
+  "id": "Q854468",
+  "slug": "mutapa-empire",
+  "name": "Mutapa Empire",
+  "wikipedia": "Mutapa Empire",
+  "map_year": 1430,
+  "period": {
+    "start": {
+      "earliest": 1430,
+      "latest": 1430,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Zvongombe"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

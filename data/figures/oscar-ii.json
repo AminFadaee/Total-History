@@ -1,0 +1,48 @@
+{
+  "id": "Q52924",
+  "slug": "oscar-ii",
+  "name": "Oscar II",
+  "wikipedia": "Oscar II",
+  "role": "King of Sweden and Norway",
+  "life": "1829–1907",
+  "lifetime": [
+    1829,
+    1907
+  ],
+  "occupation": "Politician",
+  "birth_country": "Sweden",
+  "civilizations": [
+    "Kingdom of Sweden"
+  ],
+  "related": [
+    "United Kingdoms of Sweden and Norway"
+  ],
+  "contribution": "King of Sweden from 1872 until his death in 1907 and King of Norway from 1872 to 1905.",
+  "image": "images/oscar-ii.jpg",
+  "image_credit": "Lars Larsson · Public domain",
+  "image_is_photo": true,
+  "photo": "images/oscar-ii-photo.jpg",
+  "photo_credit": "Lars Larsson · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Sweden"
+      ],
+      "death": [
+        "Kingdom of Sweden"
+      ],
+      "lead": [
+        "United Kingdoms of Sweden and Norway"
+      ],
+      "citizenship": [
+        "Kingdom of Sweden"
+      ],
+      "birthplace": [
+        "United Kingdoms of Sweden and Norway"
+      ]
+    },
+    "lead": "Oscar II (Oscar Fredrik; 21 January 1829 – 8 December 1907) was King of Sweden from 1872 until his death in 1907 and King of Norway from 1872 to 1905.",
+    "image": "",
+    "photo": "model 0.96, portrait 0.93, in Category:Photographs of Oscar II of Sweden"
+  }
+}

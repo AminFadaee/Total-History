@@ -1,0 +1,67 @@
+{
+  "id": "Q733668",
+  "slug": "ghassanids",
+  "name": "Ghassanids",
+  "wikipedia": "Ghassanids",
+  "map_year": 629,
+  "period": {
+    "start": {
+      "earliest": 220,
+      "latest": 220,
+      "circa": false
+    },
+    "end": {
+      "earliest": 638,
+      "latest": 638,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Jabiyah",
+      "location": [
+        35.996667,
+        32.918889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q12490507",
+    "region": "Saudi Arabia",
+    "name": "Rashidun Caliphate"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Saudi Arabia",
+    "Jordan",
+    "Iraq",
+    "Syria"
+  ],
+  "borders": true,
+  "map": "maps/ghassanids.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Jabiyah"
+      ],
+      "infobox": [
+        "Jabiyah"
+      ]
+    },
+    "cliopatria_years": [
+      510,
+      633
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Eastern Roman Empire",
+      "Sasanian Empire",
+      "Lakhmid Kingdom"
+    ]
+  }
+}

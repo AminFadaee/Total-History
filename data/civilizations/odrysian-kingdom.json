@@ -1,0 +1,55 @@
+{
+  "id": "Q870517",
+  "slug": "odrysian-kingdom",
+  "name": "Odrysian Kingdom",
+  "wikipedia": "Odrysian kingdom",
+  "map_year": -366,
+  "period": {
+    "start": {
+      "earliest": -480,
+      "latest": -480,
+      "circa": true
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q83958",
+    "region": "Bulgaria",
+    "name": "Macedonian Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Bulgaria",
+    "Turkey",
+    "Romania",
+    "Greece"
+  ],
+  "borders": true,
+  "map": "maps/odrysian-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Seuthopolis"
+      ],
+      "infobox": [
+        "Seuthopolis"
+      ]
+    },
+    "cliopatria_years": [
+      -450,
+      -338
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Greek City-States",
+      "Macedonian Empire",
+      "Second Athenian League"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "Q153015",
+  "slug": "kingdom-of-saxony",
+  "name": "Kingdom of Saxony",
+  "wikipedia": "Kingdom of Saxony",
+  "map_year": 1811,
+  "period": {
+    "start": {
+      "earliest": 1806,
+      "latest": 1806,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q156199",
+    "region": "Germany",
+    "name": "Electorate of Saxony"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q53444",
+      "name": "Frederick Augustus I of Saxony"
+    },
+    {
+      "id": "Q57320",
+      "name": "Frederick Augustus III of Saxony"
+    }
+  ],
+  "modern_countries": [
+    "Germany",
+    "Poland"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-saxony.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Dresden"
+      ],
+      "infobox": [
+        "Dresden"
+      ]
+    },
+    "cliopatria_years": [
+      1806,
+      1870
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "First French Empire",
+      "Austrian Empire",
+      "Confederation of the Rhine",
+      "Kingdom of Bavaria",
+      "Kingdom of Westphalia",
+      "Grand Duchy of Berg",
+      "Duchy of Warsaw",
+      "Grand Duchy of Baden",
+      "Duchy of Nassau",
+      "Duchy of Mecklenburg",
+      "Grand Duchy of Würzburg"
+    ]
+  }
+}

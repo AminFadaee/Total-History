@@ -25,6 +25,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q12557",
     "region": "China",
@@ -45,6 +46,7 @@
     "Pakistan",
     "Afghanistan"
   ],
+  "borders": true,
   "map": "maps/chagatai-khanate.png",
   "checks": {
     "infobox": true,

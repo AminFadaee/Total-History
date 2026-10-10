@@ -3,7 +3,7 @@
   "slug": "goguryeo",
   "name": "Goguryeo",
   "wikipedia": "Goguryeo",
-  "map_year": 480,
+  "map_year": 523,
   "period": {
     "start": {
       "earliest": -37,
@@ -31,15 +31,9 @@
         126.17861111,
         41.12083333
       ]
-    },
-    {
-      "name": "Pyongyang",
-      "location": [
-        125.7475,
-        39.016666666666666
-      ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q9683",
@@ -52,6 +46,7 @@
     "North Korea",
     "South Korea"
   ],
+  "borders": true,
   "map": "maps/goguryeo.png",
   "checks": {
     "infobox": true,

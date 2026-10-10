@@ -1,0 +1,51 @@
+{
+  "id": "Q844930",
+  "slug": "classical-athens",
+  "name": "Classical Athens",
+  "wikipedia": "Classical Athens",
+  "map_year": -508,
+  "period": {
+    "start": {
+      "earliest": -508,
+      "latest": -508,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Athens",
+      "location": [
+        23.728055555555557,
+        37.98416666666667
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q207634",
+      "name": "Cleisthenes"
+    }
+  ],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Athens"
+      ],
+      "infobox": [
+        "Athens"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

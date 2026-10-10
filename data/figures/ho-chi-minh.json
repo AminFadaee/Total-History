@@ -1,0 +1,53 @@
+{
+  "id": "Q36014",
+  "slug": "ho-chi-minh",
+  "name": "Ho Chi Minh",
+  "wikipedia": "Ho Chi Minh",
+  "role": "Leader of North Vietnam from 1945 to 1969",
+  "life": "1890–1969",
+  "lifetime": [
+    1890,
+    1969
+  ],
+  "occupation": "Politician",
+  "birth_country": "Vietnam",
+  "civilizations": [
+    "French Indochina",
+    "Democratic Republic of Vietnam"
+  ],
+  "related": [
+    "Union of Soviet Socialist Republics",
+    "Republic of Vietnam",
+    "United States of America"
+  ],
+  "contribution": "A Vietnamese communist revolutionary and statesman who founded the Democratic Republic of Vietnam in 1945.",
+  "image": "images/ho-chi-minh.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "image_is_photo": false,
+  "photo": "images/ho-chi-minh-photo.jpg",
+  "photo_credit": "Tăng Tuyết Minh · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Democratic Republic of Vietnam"
+      ],
+      "lead": [
+        "Democratic Republic of Vietnam",
+        "French Indochina",
+        "Union of Soviet Socialist Republics",
+        "Republic of Vietnam",
+        "United States of America"
+      ],
+      "citizenship": [
+        "Democratic Republic of Vietnam",
+        "French Indochina"
+      ],
+      "birthplace": [
+        "French Indochina"
+      ]
+    },
+    "lead": "Hồ Chí Minh (born Nguyễn Sinh Cung; 19 May 1890 – 2 September 1969), colloquially known as Uncle Ho (Bác Hồ) among other aliases and sobriquets, was a Vietnamese communist revolutionary and statesman who founded the Democratic Republic of Vietnam in 1945 (known as North Vietnam after 1954). He served as its first president from 1946 until his death in 1969 and as its first prime minister from 1945 to 1955. A committed Marxist–Leninist, Hồ played a central role in establishing the Indochinese Communist Party in 1930 and later led its successor, the Workers' Party of Vietnam (renamed Communist Party of Vietnam after 1976), as chairman until his death.",
+    "image": "",
+    "photo": "model 0.97, portrait 0.97, captured 1926, during their lifetime"
+  }
+}

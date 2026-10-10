@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q12560",
@@ -40,6 +41,7 @@
     "Greece",
     "North Macedonia"
   ],
+  "borders": true,
   "map": "maps/second-bulgarian-empire.png",
   "checks": {
     "infobox": true,
@@ -65,16 +67,11 @@
       "Halych-Volhynia occupation",
       "Kingdom of Serbia",
       "Latin Empire",
+      "Despotate of Epirus",
       "Banate of Bosnia",
-      "Holy Roman Empire",
       "Sultanate of Rum",
-      "Principality of Galicia-Volhynia",
       "Nicaean Empire",
-      "Kingdom of Sicily",
-      "Kingdom of Bohemia",
-      "Armenian Kingdom of Cilicia",
-      "Principality of Kiev",
-      "Papal States"
+      "Kingdom of Sicily"
     ]
   }
 }

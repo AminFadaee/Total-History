@@ -1,0 +1,71 @@
+{
+  "id": "Q154667",
+  "slug": "kingdom-of-georgia",
+  "name": "Kingdom of Georgia",
+  "wikipedia": "Kingdom of Georgia",
+  "map_year": 1126,
+  "period": {
+    "start": {
+      "earliest": 1008,
+      "latest": 1008,
+      "circa": true
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Kutaisi",
+      "location": [
+        42.705555555555556,
+        42.27166666666667
+      ]
+    },
+    {
+      "name": "Tbilisi",
+      "location": [
+        44.7925,
+        41.7225
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Georgia",
+    "Azerbaijan",
+    "Turkey",
+    "Armenia"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-georgia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kutaisi",
+        "Tbilisi"
+      ],
+      "infobox": [
+        "Kutaisi",
+        "Tbilisi"
+      ]
+    },
+    "cliopatria_years": [
+      1010,
+      1802
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Tbilisi",
+    "labelled": [
+      "Great Seljuk Empire",
+      "Byzantine Empire",
+      "Hamdanid Emirates",
+      "Danishmendids",
+      "County of Edessa",
+      "Armenian Kingdom of Cilicia"
+    ]
+  }
+}

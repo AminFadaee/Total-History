@@ -3,7 +3,7 @@
   "slug": "korean-empire",
   "name": "Korean Empire",
   "wikipedia": "Korean Empire",
-  "map_year": 1898,
+  "map_year": 1908,
   "period": {
     "start": {
       "earliest": 1897,
@@ -17,10 +17,19 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Seoul",
+      "location": [
+        126.99,
+        37.56
+      ]
+    }
+  ],
+  "parts": [],
   "before": {
     "id": "Q28179",
-    "region": "North Korea",
+    "region": "South Korea",
     "name": "Joseon"
   },
   "after": {},
@@ -38,6 +47,7 @@
     "North Korea",
     "South Korea"
   ],
+  "borders": true,
   "map": "maps/korean-empire.png",
   "checks": {
     "infobox": true,
@@ -55,7 +65,7 @@
       1910
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Seoul",
     "labelled": [
       "Qing Dynasty",
       "Russian Empire",

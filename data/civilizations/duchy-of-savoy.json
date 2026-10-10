@@ -1,0 +1,48 @@
+{
+  "id": "Q426025",
+  "slug": "duchy-of-savoy",
+  "name": "Duchy of Savoy",
+  "wikipedia": "Duchy of Savoy",
+  "map_year": 1416,
+  "period": {
+    "start": {
+      "earliest": 1416,
+      "latest": 1416,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Turin",
+      "location": [
+        7.676111111111111,
+        45.079166666666666
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chambéry",
+        "Turin"
+      ],
+      "infobox": [
+        "Chambéry",
+        "Turin"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

@@ -19,13 +19,6 @@
   },
   "capitals": [
     {
-      "name": "Babylon",
-      "location": [
-        44.42111111111111,
-        32.5425
-      ]
-    },
-    {
       "name": "Pasargadae",
       "location": [
         53.179444444444,
@@ -33,10 +26,10 @@
       ]
     },
     {
-      "name": "Persepolis",
+      "name": "Ecbatana",
       "location": [
-        52.89,
-        29.935
+        48.516247,
+        34.8065
       ]
     },
     {
@@ -47,13 +40,14 @@
       ]
     },
     {
-      "name": "Ecbatana",
+      "name": "Persepolis",
       "location": [
-        48.516247,
-        34.8065
+        52.89,
+        29.935
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q1183338",
     "region": "Iran",
@@ -133,9 +127,9 @@
     "Armenia",
     "Lebanon",
     "Palestine",
-    "Cyprus",
-    "Northern Cyprus"
+    "Cyprus"
   ],
+  "borders": true,
   "map": "maps/achaemenid-empire.png",
   "checks": {
     "infobox": true,

@@ -1,0 +1,65 @@
+{
+  "id": "Q320930",
+  "slug": "cao-wei",
+  "name": "Cao Wei",
+  "wikipedia": "Cao Wei",
+  "map_year": 263,
+  "period": {
+    "start": {
+      "earliest": 220,
+      "latest": 220,
+      "circa": false
+    },
+    "end": {
+      "earliest": 266,
+      "latest": 266,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q7209",
+    "region": "China",
+    "name": "Han Dynasty"
+  },
+  "after": {
+    "id": "Q7352",
+    "region": "China",
+    "name": "Western Jin"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/cao-wei.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Luoyang"
+      ],
+      "infobox": [
+        "Xuchang",
+        "Luoyang"
+      ]
+    },
+    "cliopatria_years": [
+      224,
+      264
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Eastern Wu",
+      "Indo-Sasanian Empire",
+      "Goguryeo",
+      "Wusun",
+      "Eastern Kushans",
+      "Vakataka Kingdom",
+      "Western Satraps"
+    ]
+  }
+}

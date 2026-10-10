@@ -17,16 +17,25 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Chang'an",
+      "location": [
+        108.85833333333333,
+        34.30833333333333
+      ]
+    }
+  ],
+  "parts": [],
   "before": {
     "id": "Q7405",
     "region": "China",
     "name": "Sui Dynasty"
   },
   "after": {
-    "id": "Q783489",
+    "id": "Q571453",
     "region": "China",
-    "name": "Later Liang Dynasty"
+    "name": "Former Shu"
   },
   "rulers": [
     {
@@ -45,6 +54,7 @@
     "Hong Kong S.A.R.",
     "Macao S.A.R"
   ],
+  "borders": true,
   "map": "maps/tang-dynasty.png",
   "checks": {
     "infobox": true,
@@ -62,7 +72,7 @@
       910
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Chang'an",
     "labelled": [
       "Rashidun Caliphate",
       "Tibetan Empire",

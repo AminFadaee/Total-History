@@ -18,6 +18,7 @@
     "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q105313",
@@ -65,6 +66,7 @@
   "modern_countries": [
     "United Kingdom"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-mercia.png",
   "checks": {
     "infobox": true,
@@ -82,10 +84,8 @@
     "home": "the spot held longest",
     "labelled": [
       "Kingdom of Northumbria",
-      "Kingdom of the Franks",
-      "Dál Riata",
       "Breton Kingdoms",
-      "Duchy of Croatia"
+      "Brythons"
     ]
   }
 }

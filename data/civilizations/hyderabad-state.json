@@ -1,0 +1,73 @@
+{
+  "id": "Q1240096",
+  "slug": "hyderabad-state",
+  "name": "Hyderabad State",
+  "wikipedia": "Hyderabad State",
+  "map_year": 1744,
+  "period": {
+    "start": {
+      "earliest": 1724,
+      "latest": 1724,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1948,
+      "latest": 1948,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Aurangabad",
+      "location": [
+        75.32,
+        19.88
+      ]
+    },
+    {
+      "name": "Hyderabad",
+      "location": [
+        78.47472222222223,
+        17.361666666666668
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q668",
+    "region": "India",
+    "name": "Republic of India"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "India"
+  ],
+  "borders": true,
+  "map": "maps/hyderabad-state.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Hyderabad",
+        "Aurangabad"
+      ],
+      "infobox": [
+        "Aurangabad",
+        "Hyderabad"
+      ]
+    },
+    "cliopatria_years": [
+      1727,
+      1947
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Hyderabad",
+    "labelled": [
+      "Carnatic Sultanate",
+      "Kingdom of Mysore",
+      "Maratha Empire"
+    ]
+  }
+}

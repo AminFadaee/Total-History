@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Paris",
-      "location": [
-        2.352222222222222,
-        48.85666666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q71092",
     "region": "France",
@@ -36,6 +29,7 @@
   "modern_countries": [
     "France"
   ],
+  "borders": true,
   "map": "maps/french-third-republic.png",
   "checks": {
     "infobox": true,
@@ -52,25 +46,17 @@
       1939
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Paris",
+    "home": "the spot held longest",
     "labelled": [
-      "Brazilian Republic",
-      "British Africa",
       "Kingdom of Spain",
-      "Ottoman Empire",
       "German Empire",
-      "French Africa",
-      "Qajar Dynasty",
-      "Italian Africa",
-      "Belgian Congo",
-      "Republic of Peru",
-      "British Gold Coast",
-      "Republic of Colombia",
-      "Ethiopian Empire",
-      "Venezuela",
-      "Ukrainian People's Republic",
-      "Emirate of Nejd",
-      "Khanate of Khiva"
+      "Kingdom of Italy",
+      "Kingdom of Belgium",
+      "Yugoslavia",
+      "Second Polish Republic",
+      "Czechoslovakia",
+      "Hungarian Republic",
+      "Republic of Austria"
     ]
   }
 }

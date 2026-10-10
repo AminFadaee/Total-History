@@ -1,0 +1,65 @@
+{
+  "id": "Q1071439",
+  "slug": "merina-kingdom",
+  "name": "Merina Kingdom",
+  "wikipedia": "Imerina",
+  "map_year": 1895,
+  "period": {
+    "start": {
+      "earliest": 1540,
+      "latest": 1540,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1897,
+      "latest": 1897,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Antananarivo",
+      "location": [
+        47.525,
+        -18.91
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q233326",
+      "name": "Ranavalona III"
+    }
+  ],
+  "modern_countries": [
+    "Madagascar"
+  ],
+  "borders": true,
+  "map": "maps/merina-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Antananarivo"
+      ],
+      "infobox": [
+        "Antananarivo"
+      ]
+    },
+    "cliopatria_years": [
+      1792,
+      1897
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Antananarivo",
+    "labelled": [
+      "South African Republic",
+      "Free Orange State",
+      "Zululand"
+    ]
+  }
+}

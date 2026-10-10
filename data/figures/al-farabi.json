@@ -18,7 +18,9 @@
   "contribution": "An early Islamic philosopher and music theorist.",
   "image": "images/al-farabi.jpg",
   "image_credit": "Iraninhk · CC BY-SA 4.0",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Abu Nasr Muhammad al-Farabi (Arabic: أبو نصر محمد الفارابي, romanized: Abū Naṣr Muḥammad al-Fārābī; c. 870 – 14 December 950–12 January 951), known in the Latin West as Alpharabius, was an early Islamic philosopher and music theorist. He has been designated as \"Father of Islamic Neoplatonism\", and the \"Founder of Islamic Political Philosophy\".",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

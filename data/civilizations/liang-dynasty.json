@@ -1,0 +1,77 @@
+{
+  "id": "Q1069868",
+  "slug": "liang-dynasty",
+  "name": "Liang Dynasty",
+  "wikipedia": "Liang dynasty",
+  "map_year": 510,
+  "period": {
+    "start": {
+      "earliest": 502,
+      "latest": 502,
+      "circa": false
+    },
+    "end": {
+      "earliest": 557,
+      "latest": 557,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Jiankang",
+      "location": [
+        118.79647,
+        32.05837
+      ]
+    }
+  ],
+  "parts": [
+    "Later Western Liang"
+  ],
+  "before": {
+    "id": "Q62456",
+    "region": "China",
+    "name": "Southern Qi"
+  },
+  "after": {
+    "id": "Q62454",
+    "region": "China",
+    "name": "Chen Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
+  ],
+  "borders": true,
+  "map": "maps/liang-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Jiankang",
+        "Nanjing"
+      ],
+      "infobox": [
+        "Jiankang",
+        "Jiangling County"
+      ]
+    },
+    "cliopatria_years": [
+      510,
+      560
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "Jiankang",
+    "labelled": [
+      "Northern Wei",
+      "Tuyuhun",
+      "Gupta Empire",
+      "Funan",
+      "Kamarupa Kingdom",
+      "Pyu City-States"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Q5577",
+  "slug": "salvador-dali",
+  "name": "Salvador Dalí",
+  "wikipedia": "Salvador Dalí",
+  "role": "Spanish surrealist artist",
+  "life": "1904–1989",
+  "lifetime": [
+    1904,
+    1989
+  ],
+  "occupation": "Painter",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Kingdom of Spain"
+  ],
+  "related": [
+    "Francoist Spain"
+  ],
+  "contribution": "A Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.",
+  "image": "images/salvador-dali.jpg",
+  "image_credit": "Roger Higgins, World Telegram staff photographer · Public domain",
+  "image_is_photo": false,
+  "photo": "images/salvador-dali-photo.jpg",
+  "photo_credit": "Van Vechten, Carl, 1880-1964. · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of Spain"
+      ],
+      "lead": [
+        "Francoist Spain"
+      ],
+      "citizenship": [
+        "Kingdom of Spain"
+      ],
+      "birthplace": [
+        "Kingdom of Spain"
+      ]
+    },
+    "lead": "Salvador Domingo Felipe Jacinto Dalí i Domènech, Marquess of Dalí de Púbol (11 May 1904 – 23 January 1989), known as Salvador Dalí, was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.",
+    "image": "main image is a coin, calligraphy or missing",
+    "photo": "model 0.96, portrait 0.98"
+  }
+}

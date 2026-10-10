@@ -3,17 +3,22 @@
   "slug": "old-kingdom-of-egypt",
   "name": "Old Kingdom of Egypt",
   "wikipedia": "Old Kingdom of Egypt",
-  "map_year": -2500,
+  "map_year": -2250,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -2686,
+      "latest": -2686,
+      "circa": true
+    },
     "end": {
       "earliest": -2181,
       "latest": -2181,
       "circa": true
     },
-    "confirmed": false
+    "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q187979",
     "region": "Egypt",
@@ -24,6 +29,7 @@
   "modern_countries": [
     "Egypt"
   ],
+  "borders": true,
   "map": "maps/old-kingdom-of-egypt.png",
   "checks": {
     "infobox": true,

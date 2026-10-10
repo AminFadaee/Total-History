@@ -3,7 +3,7 @@
   "slug": "roman-kingdom",
   "name": "Roman Kingdom",
   "wikipedia": "Roman Kingdom",
-  "map_year": -750,
+  "map_year": -700,
   "period": {
     "start": {
       "earliest": -753,
@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q17167",
@@ -66,6 +67,7 @@
     "Italy",
     "Vatican"
   ],
+  "borders": true,
   "map": "maps/roman-kingdom.png",
   "checks": {
     "infobox": true,

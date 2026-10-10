@@ -1,0 +1,38 @@
+{
+  "id": "Q435583",
+  "slug": "old-swiss-confederacy",
+  "name": "Old Swiss Confederacy",
+  "wikipedia": "Old Swiss Confederacy",
+  "map_year": 1291,
+  "period": {
+    "start": {
+      "earliest": 1291,
+      "latest": 1291,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1798,
+      "latest": 1798,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

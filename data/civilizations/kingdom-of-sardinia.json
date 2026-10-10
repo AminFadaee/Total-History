@@ -1,0 +1,70 @@
+{
+  "id": "Q2577303",
+  "slug": "kingdom-of-sardinia",
+  "name": "Kingdom of Sardinia",
+  "wikipedia": "Kingdom of Sardinia (1720–1861)",
+  "map_year": 1861,
+  "period": {
+    "start": {
+      "earliest": 1720,
+      "latest": 1720,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1861,
+      "latest": 1861,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q172579",
+    "region": "Italy",
+    "name": "Kingdom of Italy"
+  },
+  "rulers": [
+    {
+      "id": "Q209579",
+      "name": "Victor Amadeus II"
+    },
+    {
+      "id": "Q168691",
+      "name": "Victor Emmanuel II"
+    }
+  ],
+  "modern_countries": [
+    "Italy",
+    "San Marino"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-sardinia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Turin",
+        "Cagliari"
+      ]
+    },
+    "cliopatria_years": [
+      1721,
+      1861
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Austrian Empire",
+      "Second French Empire",
+      "Kingdom of Spain",
+      "French Africa",
+      "United Principalities of Moldavia and Wallachia",
+      "Beylik of Tunis",
+      "Kingdom of Bavaria",
+      "Serbs"
+    ]
+  }
+}

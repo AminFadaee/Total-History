@@ -12,16 +12,18 @@
   "occupation": "Politician",
   "birth_country": "",
   "civilizations": [
-    "Mamluk Sultanate"
+    "Mamluk Sultanate",
+    "Ayyubid Sultanate"
   ],
   "related": [
-    "Mongol Empire",
-    "Ayyubid Sultanate"
+    "Mongol Empire"
   ],
   "contribution": "The fourth Mamluk sultan of Egypt and Syria, ruling from 1260 to 1277.",
   "image": "images/baybars.jpg",
   "image_credit": "Ahmed yousri elmamlouk · CC BY-SA 4.0",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -34,9 +36,13 @@
         "Mamluk Sultanate",
         "Mongol Empire",
         "Ayyubid Sultanate"
+      ],
+      "citizenship": [
+        "Ayyubid Sultanate"
       ]
     },
     "lead": "Al-Malik al-Zahir Rukn al-Din Baybars al-Bunduqdari (Arabic: الْمَلِك الظَّاهِر رُكْن الدِّين بَيْبَرْس الْبُنْدُقْدَارِيّ; 1223/1228 – 30 June 1277), commonly known as Baibars or Baybars (بَيْبَرْس) and nicknamed Abu al-Futuh (أَبُو الْفُتُوح, lit. 'Father of Conquests'), was the fourth Mamluk sultan of Egypt and Syria, ruling from 1260 to 1277. He is noted for leading the vanguard of the Mamluk army that inflicted the first substantial defeat of the Mongols at the Battle of Ain Jalut, as well as his successful campaigns against the Crusaders. Through a combination of diplomacy and military action, he ushered in an age of Mamluk dominance in the Eastern Mediterranean.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

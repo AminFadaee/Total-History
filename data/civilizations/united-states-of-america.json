@@ -1,0 +1,55 @@
+{
+  "id": "Q30",
+  "slug": "united-states-of-america",
+  "name": "United States of America",
+  "wikipedia": "United States",
+  "map_year": 1945,
+  "period": {
+    "start": {
+      "earliest": 1784,
+      "latest": 1784,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "United States of America",
+    "Greenland",
+    "Philippines",
+    "Iceland",
+    "Puerto Rico",
+    "Guam",
+    "Palau"
+  ],
+  "borders": true,
+  "map": "maps/united-states-of-america.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Washington, D.C."
+      ],
+      "infobox": [
+        "Washington, D.C."
+      ]
+    },
+    "cliopatria_years": [
+      1776,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Canada",
+      "Mexico",
+      "French Fourth Republic",
+      "Venezuela"
+    ]
+  }
+}

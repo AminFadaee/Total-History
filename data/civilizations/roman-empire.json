@@ -26,6 +26,13 @@
       ]
     },
     {
+      "name": "Mediolanum",
+      "location": [
+        9.185321,
+        45.462907
+      ]
+    },
+    {
       "name": "Ravenna",
       "location": [
         12.201666666666666,
@@ -40,6 +47,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q17167",
     "region": "Italy",
@@ -81,7 +89,6 @@
     "Lebanon",
     "Palestine",
     "Cyprus",
-    "Northern Cyprus",
     "Luxembourg",
     "Andorra",
     "Malta",
@@ -89,6 +96,7 @@
     "San Marino",
     "Vatican"
   ],
+  "borders": true,
   "map": "maps/roman-empire.png",
   "checks": {
     "infobox": true,

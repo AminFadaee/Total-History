@@ -24,15 +24,9 @@
         85.144,
         25.611
       ]
-    },
-    {
-      "name": "Patna",
-      "location": [
-        85.141388888889,
-        25.61
-      ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q949268",
     "region": "India",
@@ -87,6 +81,7 @@
     "Nepal",
     "Bangladesh"
   ],
+  "borders": true,
   "map": "maps/maurya-empire.png",
   "checks": {
     "infobox": true,

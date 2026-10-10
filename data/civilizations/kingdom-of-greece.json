@@ -1,0 +1,92 @@
+{
+  "id": "Q209065",
+  "slug": "kingdom-of-greece",
+  "name": "Kingdom of Greece",
+  "wikipedia": "Kingdom of Greece",
+  "map_year": 1963,
+  "period": {
+    "start": {
+      "earliest": 1832,
+      "latest": 1832,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1973,
+      "latest": 1973,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Nafplio",
+      "location": [
+        22.8,
+        37.56583333333333
+      ]
+    },
+    {
+      "name": "Athens",
+      "location": [
+        23.728055555555557,
+        37.98416666666667
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q528546",
+    "region": "Greece",
+    "name": "First Hellenic Republic"
+  },
+  "after": {
+    "id": "Q504081",
+    "region": "Greece",
+    "name": "Greek junta"
+  },
+  "rulers": [
+    {
+      "id": "Q77067",
+      "name": "Otto of Greece"
+    },
+    {
+      "id": "Q17142",
+      "name": "George I of Greece"
+    },
+    {
+      "id": "Q151773",
+      "name": "Constantine II of Greece"
+    }
+  ],
+  "modern_countries": [
+    "Greece"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-greece.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Athens",
+        "Nafplio"
+      ],
+      "infobox": [
+        "Nafplio",
+        "Athens"
+      ]
+    },
+    "cliopatria_years": [
+      1945,
+      1966
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Nafplio",
+    "labelled": [
+      "Republic of Turkey",
+      "Socialist Federal Republic of Yugoslavia",
+      "People's Republic of Bulgaria",
+      "People's Socialist Republic of Albania",
+      "Republic of Cyprus"
+    ]
+  }
+}

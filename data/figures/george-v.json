@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
+    "Kingdom of Great Britain",
     "British Raj",
     "Canada"
   ],
@@ -23,7 +24,9 @@
   "contribution": "King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936.",
   "image": "images/george-v.jpg",
   "image_credit": "Bassano Ltd · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/george-v-photo.jpg",
+  "photo_credit": "Bassano Ltd · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -31,16 +34,24 @@
         "Canada",
         "Irish Free State"
       ],
+      "death": [
+        "Kingdom of Great Britain"
+      ],
       "lead": [
         "British Colonial Empire",
         "Russian Empire",
         "German Empire"
       ],
       "citizenship": [
+        "Kingdom of Great Britain",
         "British Raj"
+      ],
+      "birthplace": [
+        "Kingdom of Great Britain"
       ]
     },
     "lead": "George V (George Frederick Ernest Albert; 3 June 1865 – 20 January 1936) was King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936.",
-    "photo": "captured between 1922 and 1923date QS:P571,+1922-00-00T00:00:00Z/8,P1319,+1922-00-00T00:00:00Z/9,P1326,+1923-00-00T00:00:00Z/9 during their lifetime"
+    "image": "",
+    "photo": "model 0.98, portrait 0.87, in Category:Portrait photographs of George V of the United Kingdom"
   }
 }

@@ -1,0 +1,79 @@
+{
+  "id": "Q491106",
+  "slug": "khanate-of-khiva",
+  "name": "Khanate of Khiva",
+  "wikipedia": "Khanate of Khiva",
+  "map_year": 1857,
+  "period": {
+    "start": {
+      "earliest": 1511,
+      "latest": 1511,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1920,
+      "latest": 1920,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Konye-Urgench",
+      "location": [
+        59.1530707,
+        42.3261336
+      ]
+    },
+    {
+      "name": "Khiva",
+      "location": [
+        60.361111111111114,
+        41.381388888888885
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q484195",
+    "region": "Turkmenistan",
+    "name": "Timurid Empire"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Turkmenistan",
+    "Uzbekistan",
+    "Kazakhstan"
+  ],
+  "borders": true,
+  "map": "maps/khanate-of-khiva.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Khiva",
+        "Konye-Urgench"
+      ],
+      "infobox": [
+        "Konye-Urgench",
+        "Khiva"
+      ]
+    },
+    "cliopatria_years": [
+      1512,
+      1919
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Konye-Urgench",
+    "labelled": [
+      "Russian Empire",
+      "Qajar Dynasty",
+      "Emirate of Afghanistan",
+      "Khanate of Kokand",
+      "Emirate of Bukhara",
+      "Kashmir and Jammu",
+      "Talpur Dynasty"
+    ]
+  }
+}

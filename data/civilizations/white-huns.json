@@ -29,6 +29,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q26996",
     "region": "Afghanistan",
@@ -50,6 +51,7 @@
     "Kyrgyzstan",
     "Tajikistan"
   ],
+  "borders": true,
   "map": "maps/white-huns.png",
   "checks": {
     "infobox": true,

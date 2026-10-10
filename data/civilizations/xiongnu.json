@@ -18,6 +18,7 @@
     "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q861054",
@@ -36,6 +37,7 @@
     "Russia",
     "Kazakhstan"
   ],
+  "borders": true,
   "map": "maps/xiongnu.png",
   "checks": {
     "infobox": true,

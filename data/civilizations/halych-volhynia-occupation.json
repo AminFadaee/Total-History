@@ -1,0 +1,112 @@
+{
+  "id": "Q239502",
+  "slug": "halych-volhynia-occupation",
+  "name": "Halych-Volhynia occupation",
+  "wikipedia": "Kingdom of Galicia–Volhynia",
+  "map_year": 1192,
+  "period": {
+    "start": {
+      "earliest": 1199,
+      "latest": 1199,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1349,
+      "latest": 1349,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Volodymyr",
+      "location": [
+        24.322222,
+        50.848056
+      ]
+    },
+    {
+      "name": "Halych",
+      "location": [
+        24.721666666667,
+        49.112777777778
+      ]
+    },
+    {
+      "name": "Chełm",
+      "location": [
+        23.483333333333,
+        51.133333333333
+      ]
+    },
+    {
+      "name": "Lviv",
+      "location": [
+        24.0315921,
+        49.841952
+      ]
+    }
+  ],
+  "parts": [
+    "Principality of Halych",
+    "Principality of Volhynia"
+  ],
+  "before": {
+    "id": "Q680472",
+    "region": "Ukraine",
+    "name": "Principality of Volhynia"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Ukraine",
+    "Romania",
+    "Poland",
+    "Moldova",
+    "Belarus"
+  ],
+  "borders": true,
+  "map": "maps/halych-volhynia-occupation.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Halych",
+        "Chełm",
+        "Lviv",
+        "Volodymyr, Ukraine"
+      ],
+      "infobox": [
+        "Volodymyr, Ukraine",
+        "Halych",
+        "Chełm",
+        "Lviv"
+      ]
+    },
+    "cliopatria_years": [
+      1056,
+      1240
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Volodymyr",
+    "labelled": [
+      "Kimek-Kipchak confederation",
+      "Kievan Rus'",
+      "Kingdom of Hungary",
+      "Byzantine Empire",
+      "Duchy of Sandomierz",
+      "Second Bulgarian Empire",
+      "Principality of Pereyaslavl",
+      "Principality of Minsk",
+      "Holy Roman Empire",
+      "Principality of Smolensk",
+      "Kingdom of Georgia",
+      "Kingdom of Denmark",
+      "Hamdanid Emirates",
+      "Kingdom of Serbia",
+      "Volga Bulgaria",
+      "Duchy of Silesia",
+      "Banate of Bosnia"
+    ]
+  }
+}

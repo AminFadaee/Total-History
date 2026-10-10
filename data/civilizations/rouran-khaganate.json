@@ -1,0 +1,64 @@
+{
+  "id": "Q155361",
+  "slug": "rouran-khaganate",
+  "name": "Rouran Khaganate",
+  "wikipedia": "Rouran Khaganate",
+  "map_year": 407,
+  "period": {
+    "start": {
+      "earliest": 330,
+      "latest": 330,
+      "circa": false
+    },
+    "end": {
+      "earliest": 555,
+      "latest": 555,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q15146034",
+    "region": "Mongolia",
+    "name": "Göktürk Khaganate"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Mongolia",
+    "Russia"
+  ],
+  "borders": true,
+  "map": "maps/rouran-khaganate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Gansu",
+        "Mumocheng"
+      ]
+    },
+    "cliopatria_years": [
+      402,
+      554
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Protectorate of the Western Regions",
+      "Later Qin",
+      "Goguryeo",
+      "Northern Wei",
+      "Northern Liang",
+      "Later Yan",
+      "Wusun",
+      "Kidarites",
+      "Tuyuhun",
+      "Southern Yan"
+    ]
+  }
+}

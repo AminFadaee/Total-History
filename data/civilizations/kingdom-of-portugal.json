@@ -33,12 +33,17 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q1139807",
     "region": "Portugal",
     "name": "County of Portugal"
   },
-  "after": {},
+  "after": {
+    "id": "Q45",
+    "region": "Portugal",
+    "name": "Portuguese Republic"
+  },
   "rulers": [
     {
       "id": "Q587697",
@@ -61,6 +66,7 @@
     "Cabo Verde",
     "São Tomé and Principe"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-portugal.png",
   "checks": {
     "infobox": true,
@@ -83,19 +89,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Coimbra",
     "labelled": [
-      "British Africa",
-      "French Africa",
-      "Belgian Congo",
-      "Russian Empire",
-      "Qing Dynasty",
-      "Brazilian Republic",
-      "United States of America",
-      "British Raj",
-      "Ottoman Empire",
-      "Qajar Dynasty",
-      "Bolivia",
-      "Ethiopian Empire",
-      "Sokoto Caliphate"
+      "Kingdom of Spain"
     ]
   }
 }

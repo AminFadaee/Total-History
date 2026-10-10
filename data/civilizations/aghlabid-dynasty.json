@@ -1,0 +1,75 @@
+{
+  "id": "Q207600",
+  "slug": "aghlabid-dynasty",
+  "name": "Aghlabid Dynasty",
+  "wikipedia": "Aghlabid dynasty",
+  "map_year": 840,
+  "period": {
+    "start": {
+      "earliest": 800,
+      "latest": 800,
+      "circa": false
+    },
+    "end": {
+      "earliest": 909,
+      "latest": 909,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kairouan",
+      "location": [
+        10.1,
+        35.68333333333333
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q12536",
+    "region": "Tunisia",
+    "name": "Abbasid Caliphate"
+  },
+  "after": {
+    "id": "Q160307",
+    "region": "Tunisia",
+    "name": "Fatimid Caliphate"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Tunisia",
+    "Libya",
+    "Algeria"
+  ],
+  "borders": true,
+  "map": "maps/aghlabid-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kairouan"
+      ],
+      "infobox": [
+        "Kairouan",
+        "Al-Abbasiyya",
+        "Raqqada"
+      ]
+    },
+    "cliopatria_years": [
+      800,
+      910
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kairouan",
+    "labelled": [
+      "Byzantine Empire",
+      "Abbasid Caliphate",
+      "Rustamid dynasty",
+      "Emirate of Córdoba",
+      "Idrisids",
+      "Kingdom of Asturias"
+    ]
+  }
+}

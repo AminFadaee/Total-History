@@ -1,0 +1,59 @@
+{
+  "id": "Q5257",
+  "slug": "satavahana-dynasty",
+  "name": "Satavahana Dynasty",
+  "wikipedia": "Satavahana dynasty",
+  "map_year": 106,
+  "period": {
+    "start": {
+      "earliest": -230,
+      "latest": -230,
+      "circa": false
+    },
+    "end": {
+      "earliest": 224,
+      "latest": 224,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q62943",
+    "region": "India",
+    "name": "Maurya Empire"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "India"
+  ],
+  "borders": true,
+  "map": "maps/satavahana-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Amaravati, Palnadu district"
+      ],
+      "infobox": [
+        "Paithan",
+        "Amaravati, Palnadu district",
+        "Pauni",
+        "Junnar"
+      ]
+    },
+    "cliopatria_years": [
+      -225,
+      223
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Western Satraps",
+      "Pyu City-States",
+      "Early Cholas"
+    ]
+  }
+}

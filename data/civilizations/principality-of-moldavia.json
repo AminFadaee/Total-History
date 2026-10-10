@@ -1,0 +1,109 @@
+{
+  "id": "Q10957559",
+  "slug": "principality-of-moldavia",
+  "name": "Principality of Moldavia",
+  "wikipedia": "Moldavia",
+  "map_year": 1363,
+  "period": {
+    "start": {
+      "earliest": 1346,
+      "latest": 1346,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1862,
+      "latest": 1862,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Baia",
+      "location": [
+        26.2169,
+        47.4203
+      ]
+    },
+    {
+      "name": "Siret",
+      "location": [
+        26.06,
+        47.95
+      ]
+    },
+    {
+      "name": "Suceava",
+      "location": [
+        26.255555555556,
+        47.651388888889
+      ]
+    },
+    {
+      "name": "Iași",
+      "location": [
+        27.588888888889,
+        47.162222222222
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q79965",
+    "region": "Romania",
+    "name": "Golden Horde"
+  },
+  "after": {
+    "id": "Q958291",
+    "region": "Romania",
+    "name": "United Principalities of Moldavia and Wallachia"
+  },
+  "rulers": [
+    {
+      "id": "Q654356",
+      "name": "Dragoș, Voivode of Moldavia"
+    },
+    {
+      "id": "Q294832",
+      "name": "Alexandru Ioan Cuza"
+    }
+  ],
+  "modern_countries": [
+    "Romania",
+    "Moldova",
+    "Ukraine"
+  ],
+  "borders": true,
+  "map": "maps/principality-of-moldavia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Iași",
+        "Suceava",
+        "Siret",
+        "Baia"
+      ],
+      "infobox": [
+        "Baia",
+        "Siret",
+        "Suceava",
+        "Iași"
+      ]
+    },
+    "cliopatria_years": [
+      1363,
+      1858
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Baia",
+    "labelled": [
+      "Grand Duchy of Lithuania",
+      "Kingdom of Hungary",
+      "Kingdom of Poland",
+      "Principality of Wallachia",
+      "Despotate of Dobruja",
+      "Despotate of Vidin"
+    ]
+  }
+}

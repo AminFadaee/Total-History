@@ -1,0 +1,66 @@
+{
+  "id": "Q10800789",
+  "slug": "le-dynasty",
+  "name": "Lê Dynasty",
+  "wikipedia": "Lê dynasty",
+  "map_year": 1475,
+  "period": {
+    "start": {
+      "earliest": 1428,
+      "latest": 1428,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1789,
+      "latest": 1789,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q9903",
+    "region": "Vietnam",
+    "name": "Ming Dynasty"
+  },
+  "after": {
+    "id": "Q2301908",
+    "region": "Vietnam",
+    "name": "Nguyễn lords"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Vietnam"
+  ],
+  "borders": true,
+  "map": "maps/le-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Hanoi",
+        "Thọ Xuân district",
+        "Temporary capital"
+      ]
+    },
+    "cliopatria_years": [
+      1429,
+      1571
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "the spot held longest",
+    "labelled": [
+      "Ming Dynasty",
+      "Lan Xang",
+      "Khmer Empire",
+      "Ayutthaya Kingdom",
+      "Shan States",
+      "Ava Kingdom",
+      "Kingdom of Mrauk U",
+      "Hanthawaddy Kingdom",
+      "Lan Na Kingdom"
+    ]
+  }
+}

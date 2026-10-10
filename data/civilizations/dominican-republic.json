@@ -1,0 +1,54 @@
+{
+  "id": "Q786",
+  "slug": "dominican-republic",
+  "name": "Dominican Republic",
+  "wikipedia": "Dominican Republic",
+  "map_year": 2024,
+  "period": {
+    "start": {
+      "earliest": 1844,
+      "latest": 1844,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Santo Domingo",
+      "location": [
+        -69.93611111111112,
+        18.4625
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Dominican Republic"
+  ],
+  "borders": true,
+  "map": "maps/dominican-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Santo Domingo"
+      ],
+      "infobox": [
+        "Santo Domingo"
+      ]
+    },
+    "cliopatria_years": [
+      1846,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Santo Domingo",
+    "labelled": [
+      "Republic of Haiti"
+    ]
+  }
+}

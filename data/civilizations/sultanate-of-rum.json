@@ -19,20 +19,21 @@
   },
   "capitals": [
     {
-      "name": "Konya",
-      "location": [
-        32.49213888888889,
-        37.872769444444444
-      ]
-    },
-    {
       "name": "Nicaea",
       "location": [
         29.7195,
         40.429
       ]
+    },
+    {
+      "name": "Konya",
+      "location": [
+        32.49213888888889,
+        37.872769444444444
+      ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q3708094",
     "region": "Turkey",
@@ -72,6 +73,7 @@
   "modern_countries": [
     "Turkey"
   ],
+  "borders": true,
   "map": "maps/sultanate-of-rum.png",
   "checks": {
     "infobox": true,
@@ -95,9 +97,8 @@
     "home": "Konya",
     "labelled": [
       "Byzantine Empire",
-      "Hamdanid Emirates",
-      "Norman Italy",
-      "Kingdom of Croatia"
+      "Danishmendids",
+      "Hamdanid Emirates"
     ]
   }
 }

@@ -1,0 +1,73 @@
+{
+  "id": "Q216068",
+  "slug": "sabaeans",
+  "name": "Sabaeans",
+  "wikipedia": "Sheba",
+  "map_year": -450,
+  "period": {
+    "start": {
+      "earliest": -800,
+      "latest": -800,
+      "circa": false
+    },
+    "end": {
+      "earliest": 275,
+      "latest": 275,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Marib",
+      "location": [
+        45.32581,
+        15.46253
+      ]
+    },
+    {
+      "name": "Sanaa",
+      "location": [
+        44.2,
+        15.35
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q289577",
+    "region": "Yemen",
+    "name": "Himyarite Kingdom"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Yemen",
+    "Saudi Arabia"
+  ],
+  "borders": true,
+  "map": "maps/sabaeans.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Marib",
+        "Sirwah",
+        "Sanaa"
+      ],
+      "infobox": [
+        "Marib",
+        "Sanaa"
+      ]
+    },
+    "cliopatria_years": [
+      -800,
+      282
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "Marib",
+    "labelled": [
+      "Hadhramaut"
+    ]
+  }
+}

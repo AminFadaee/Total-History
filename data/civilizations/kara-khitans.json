@@ -1,0 +1,76 @@
+{
+  "id": "Q862304",
+  "slug": "kara-khitans",
+  "name": "Kara-Khitans",
+  "wikipedia": "Qara Khitai",
+  "map_year": 1147,
+  "period": {
+    "start": {
+      "earliest": 1124,
+      "latest": 1124,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1218,
+      "latest": 1218,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Balasagun",
+      "location": [
+        75.248425,
+        42.74759
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q494354",
+    "region": "Kyrgyzstan",
+    "name": "Kara-Khanids"
+  },
+  "after": {
+    "id": "Q12557",
+    "region": "Kyrgyzstan",
+    "name": "Mongol Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Kazakhstan",
+    "Uzbekistan",
+    "Kyrgyzstan",
+    "Tajikistan"
+  ],
+  "borders": true,
+  "map": "maps/kara-khitans.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Balasagun"
+      ],
+      "infobox": [
+        "Balasagun"
+      ]
+    },
+    "cliopatria_years": [
+      1126,
+      1219
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Balasagun",
+    "labelled": [
+      "Kimek-Kipchak confederation",
+      "Tibetans",
+      "Great Seljuk Empire",
+      "Western Xia",
+      "Lohara Dynasty",
+      "Kashmir",
+      "Ghaznavid Empire"
+    ]
+  }
+}

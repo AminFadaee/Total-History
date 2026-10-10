@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Carthage",
-      "location": [
-        10.323461,
-        36.852558
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q41642",
     "region": "Tunisia",
@@ -39,6 +32,7 @@
     "Algeria",
     "Malta"
   ],
+  "borders": true,
   "map": "maps/carthage.png",
   "checks": {
     "infobox": true,
@@ -55,7 +49,7 @@
       -145
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Carthage",
+    "home": "the spot held longest",
     "labelled": [
       "Roman Republic",
       "Antigonid Macedonia"

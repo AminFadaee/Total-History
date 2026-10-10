@@ -1,0 +1,89 @@
+{
+  "id": "Q207521",
+  "slug": "ethiopian-empire",
+  "name": "Ethiopian Empire",
+  "wikipedia": "Ethiopian Empire",
+  "map_year": 1932,
+  "period": {
+    "start": {
+      "earliest": 1270,
+      "latest": 1270,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1974,
+      "latest": 1974,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Gondar",
+      "location": [
+        37.466666666667,
+        12.6
+      ]
+    },
+    {
+      "name": "Addis Ababa",
+      "location": [
+        38.7525,
+        9.035833333333333
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q926295",
+    "region": "Ethiopia",
+    "name": "Italian Africa"
+  },
+  "rulers": [
+    {
+      "id": "Q888003",
+      "name": "Yekuno Amlak"
+    },
+    {
+      "id": "Q41178",
+      "name": "Haile Selassie"
+    }
+  ],
+  "modern_countries": [
+    "Ethiopia"
+  ],
+  "borders": true,
+  "map": "maps/ethiopian-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Addis Ababa",
+        "Gondar"
+      ],
+      "infobox": [
+        "Katama",
+        "Termaber",
+        "Emfraz",
+        "Debre Birhan",
+        "Gondar",
+        "Debre Tabor",
+        "Mekelle",
+        "Addis Ababa"
+      ]
+    },
+    "cliopatria_years": [
+      1272,
+      1935
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Gondar",
+    "labelled": [
+      "British Africa",
+      "Italian Africa",
+      "French Africa",
+      "North Yemen"
+    ]
+  }
+}

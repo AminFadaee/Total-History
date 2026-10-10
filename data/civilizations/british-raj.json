@@ -26,13 +26,14 @@
       ]
     },
     {
-      "name": "New Delhi",
+      "name": "Presidencies and provinces of British India",
       "location": [
-        77.2088888888889,
-        28.613888888888887
+        77.20900569444444,
+        28.61389538888889
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q668",
@@ -68,6 +69,7 @@
     "Bangladesh",
     "Sri Lanka"
   ],
+  "borders": true,
   "map": "maps/british-raj.png",
   "checks": {
     "infobox": true,

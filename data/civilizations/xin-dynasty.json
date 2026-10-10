@@ -1,0 +1,74 @@
+{
+  "id": "Q504769",
+  "slug": "xin-dynasty",
+  "name": "Xin Dynasty",
+  "wikipedia": "Xin dynasty",
+  "map_year": 6,
+  "period": {
+    "start": {
+      "earliest": 9,
+      "latest": 9,
+      "circa": false
+    },
+    "end": {
+      "earliest": 23,
+      "latest": 23,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Chang'an",
+      "location": [
+        108.85833333333333,
+        34.30833333333333
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q7209",
+    "region": "China",
+    "name": "Han Dynasty"
+  },
+  "after": {
+    "id": "Q7209",
+    "region": "China",
+    "name": "Han Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
+  ],
+  "borders": true,
+  "map": "maps/xin-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chang'an"
+      ],
+      "infobox": [
+        "Chang'an"
+      ]
+    },
+    "cliopatria_years": [
+      6,
+      29
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Chang'an",
+    "labelled": [
+      "Xiongnu",
+      "Yuezhi",
+      "Wusun",
+      "Goguryeo",
+      "Parthian Empire",
+      "Satavahana Dynasty",
+      "Indo-Scythians"
+    ]
+  }
+}

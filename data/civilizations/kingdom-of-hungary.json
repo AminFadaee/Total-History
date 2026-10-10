@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q2899771",
     "region": "Hungary",
@@ -56,6 +57,7 @@
     "Czechia",
     "Republic of Serbia"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-hungary.png",
   "checks": {
     "infobox": true,
@@ -95,9 +97,7 @@
       "Duchy of Bavaria",
       "Kingdom of France",
       "Crimean Khanate",
-      "Kingdom of England",
       "Habsburg Monarchy",
-      "Kingdom of Naples",
       "Papal States",
       "Teutonic Order",
       "County of Savoy",

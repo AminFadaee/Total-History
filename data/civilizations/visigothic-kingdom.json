@@ -19,27 +19,14 @@
   },
   "capitals": [
     {
-      "name": "Toulouse",
-      "location": [
-        1.4433333333333334,
-        43.60444444444445
-      ]
-    },
-    {
       "name": "Toledo",
       "location": [
         -4.0333333333333,
         39.866666666667
       ]
-    },
-    {
-      "name": "Barcelona",
-      "location": [
-        2.1769444444444,
-        41.3825
-      ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q42834",
     "region": "Spain",
@@ -106,6 +93,7 @@
     "Portugal",
     "Andorra"
   ],
+  "borders": true,
   "map": "maps/visigothic-kingdom.png",
   "checks": {
     "infobox": true,

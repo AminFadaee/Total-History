@@ -18,7 +18,9 @@
   "contribution": "An Italian Renaissance painter, a student of Roman archaeology, and the son-in-law of Jacopo Bellini.",
   "image": "images/andrea-mantegna.jpg",
   "image_credit": "Andrea Mantegna · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "citizenship": [
@@ -29,6 +31,7 @@
       ]
     },
     "lead": "Andrea Mantegna (UK: , US: ; Italian: [anˈdrɛːa manˈteɲɲa]; c. 1431 – September 13, 1506) was an Italian Renaissance painter, a student of Roman archaeology, and the son-in-law of Jacopo Bellini.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

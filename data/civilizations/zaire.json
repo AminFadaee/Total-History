@@ -1,0 +1,75 @@
+{
+  "id": "Q6500954",
+  "slug": "zaire",
+  "name": "Zaire",
+  "wikipedia": "Zaire",
+  "map_year": 1992,
+  "period": {
+    "start": {
+      "earliest": 1965,
+      "latest": 1965,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1997,
+      "latest": 1997,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q974",
+    "region": "Democratic Republic of the Congo",
+    "name": "Democratic Republic of the Congo"
+  },
+  "after": {
+    "id": "Q974",
+    "region": "Democratic Republic of the Congo",
+    "name": "Democratic Republic of the Congo"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Democratic Republic of the Congo"
+  ],
+  "borders": true,
+  "map": "maps/zaire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kinshasa"
+      ],
+      "infobox": [
+        "Kinshasa"
+      ]
+    },
+    "cliopatria_years": [
+      1973,
+      1995
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "People's Republic of Angola",
+      "Republic of Sudan",
+      "Zambia",
+      "Central African Republic",
+      "Republic of the Congo",
+      "Republic of Uganda",
+      "Ethiopia",
+      "Tanzania",
+      "Federal Republic of Nigeria",
+      "Federal Republic of Somalia",
+      "Republic of Kenya",
+      "Mozambique",
+      "Republic of Cameroon",
+      "Republic of Zimbabwe",
+      "Gabon",
+      "Republic of Côte d'Ivoire",
+      "Ghana",
+      "Republic of Benin"
+    ]
+  }
+}

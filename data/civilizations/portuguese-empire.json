@@ -1,0 +1,66 @@
+{
+  "id": "Q200464",
+  "slug": "portuguese-empire",
+  "name": "Portuguese Empire",
+  "wikipedia": "Portuguese Empire",
+  "map_year": 1820,
+  "period": {
+    "start": {
+      "earliest": 1498,
+      "latest": 1498,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1999,
+      "latest": 1999,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Lisbon",
+      "location": [
+        -9.139016,
+        38.708042
+      ]
+    }
+  ],
+  "parts": [
+    "Portuguese Ceylon"
+  ],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Brazil",
+    "Uruguay",
+    "Cabo Verde",
+    "São Tomé and Principe"
+  ],
+  "borders": true,
+  "map": "maps/portuguese-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Lisbon",
+        "Rio de Janeiro"
+      ],
+      "infobox": [
+        "Lisbon"
+      ]
+    },
+    "cliopatria_years": [
+      1502,
+      1823
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Spanish Empire",
+      "Río de la Plata",
+      "New Granada"
+    ]
+  }
+}

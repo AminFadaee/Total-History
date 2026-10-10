@@ -22,7 +22,9 @@
   "contribution": "An Indian stateswoman who twice served as the Prime Minister of India from 1966 to 1977 and again from 1980 until her assassination in 1984.",
   "image": "images/indira-gandhi.jpg",
   "image_credit": "Prime Minister's Office · GODL-India",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/indira-gandhi-photo.jpg",
+  "photo_credit": "Prime Minister's Office · GODL-India",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -47,6 +49,7 @@
       ]
     },
     "lead": "Indira Priyadarshini Gandhi (née Nehru; 19 November 1917 – 31 October 1984) was an Indian stateswoman who twice served as the Prime Minister of India from 1966 to 1977 and again from 1980 until her assassination in 1984. She was India's first and only female prime minister, and a central figure in Indian politics as the leader of the Indian National Congress (INC). Gandhi also served as chairperson of the Non-Aligned Movement (NAM) from 1983 to 1984, becoming the first Indian to hold the position. She was the daughter of Jawaharlal Nehru, the first prime minister of India, and the mother of Rajiv Gandhi, who succeeded her as prime minister. Her cumulative tenure of 15 years and 350 days, spanning four terms, makes her the second-longest-serving Indian prime minister after her father and the longest-serving female head of government at the time of her death.",
-    "photo": "captured 1983[1] during their lifetime"
+    "image": "",
+    "photo": "model 0.97, portrait 0.67, captured 1983, during their lifetime"
   }
 }

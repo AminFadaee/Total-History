@@ -1,0 +1,58 @@
+{
+  "id": "Q4332415",
+  "slug": "four-oirats",
+  "name": "Four Oirats",
+  "wikipedia": "Oirat Confederation",
+  "map_year": 1450,
+  "period": {
+    "start": {
+      "earliest": 1399,
+      "latest": 1399,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q8959",
+    "region": "China",
+    "name": "Northern Yuan"
+  },
+  "after": {
+    "id": "Q1923401",
+    "region": "China",
+    "name": "Dzungar Khanate"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Mongolia",
+    "China",
+    "Russia"
+  ],
+  "borders": true,
+  "map": "maps/four-oirats.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1402,
+      1474
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Ming Dynasty",
+      "Khanate of Sibir",
+      "Chagatai Khanate",
+      "Tibet",
+      "Joseon",
+      "Kashmiri Sultanate",
+      "Sayyid Dynasty"
+    ]
+  }
+}

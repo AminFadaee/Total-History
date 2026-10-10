@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q180114",
@@ -49,6 +50,7 @@
     "Egypt",
     "Lebanon"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-jerusalem.png",
   "checks": {
     "infobox": true,
@@ -69,10 +71,8 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Jerusalem",
     "labelled": [
-      "Great Seljuk Empire",
       "Fatimid Caliphate",
-      "Sultanate of Rum",
-      "County of Edessa"
+      "Great Seljuk Empire"
     ]
   }
 }

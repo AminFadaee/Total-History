@@ -17,23 +17,16 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Vienna",
-      "location": [
-        16.3725,
-        48.208333333333336
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q153136",
-    "region": "Austria",
+    "region": "Slovakia",
     "name": "Habsburg Monarchy"
   },
   "after": {
     "id": "Q28513",
-    "region": "Austria",
+    "region": "Slovakia",
     "name": "Austria-Hungary"
   },
   "rulers": [
@@ -61,6 +54,7 @@
     "Slovakia",
     "Slovenia"
   ],
+  "borders": true,
   "map": "maps/austrian-empire.png",
   "checks": {
     "infobox": true,
@@ -77,7 +71,7 @@
       1867
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Vienna",
+    "home": "the spot held longest",
     "labelled": [
       "Russian Empire",
       "Ottoman Empire",
@@ -90,6 +84,8 @@
       "Kingdom of Saxony",
       "Second French Empire",
       "Kingdom of the Two Sicilies",
+      "Kingdom of Hanover",
+      "Netherlands",
       "Kingdom of Belgium"
     ]
   }

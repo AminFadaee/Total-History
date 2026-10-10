@@ -15,20 +15,21 @@
   },
   "capitals": [
     {
-      "name": "Qashliq",
-      "location": [
-        68.52048,
-        58.14942
-      ]
-    },
-    {
       "name": "Chimgi-Tura",
       "location": [
         65.51555555555555,
         57.153333333333336
       ]
+    },
+    {
+      "name": "Qashliq",
+      "location": [
+        68.52048,
+        58.14942
+      ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q186096",
@@ -40,6 +41,7 @@
     "Russia",
     "Kazakhstan"
   ],
+  "borders": true,
   "map": "maps/khanate-of-sibir.png",
   "checks": {
     "infobox": true,
@@ -58,7 +60,7 @@
       1587
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Qashliq",
+    "home": "Chimgi-Tura",
     "labelled": [
       "Mongol Khanate",
       "Grand Principality of Moscow",

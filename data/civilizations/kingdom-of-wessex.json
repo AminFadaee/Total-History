@@ -18,6 +18,7 @@
     "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q179876",
@@ -45,6 +46,7 @@
   "modern_countries": [
     "United Kingdom"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-wessex.png",
   "checks": {
     "infobox": true,
@@ -62,11 +64,8 @@
     "home": "the spot held longest",
     "labelled": [
       "Kingdom of Northumbria",
-      "Kingdom of the Franks",
-      "Dál Riata",
-      "Great Moravia",
       "Kingdom of Brittany",
-      "Obotrites"
+      "Brythons"
     ]
   }
 }

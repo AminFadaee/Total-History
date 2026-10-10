@@ -19,7 +19,9 @@
   "contribution": "A Russian revolutionary, politician, and political theorist.",
   "image": "images/vladimir-lenin.jpg",
   "image_credit": "Pavel Zhukov · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/vladimir-lenin-photo.jpg",
+  "photo_credit": "Pavel Zhukov · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -40,6 +42,7 @@
       ]
     },
     "lead": "Vladimir Ilyich Ulyanov (22 April [O.S. 10 April] 1870 – 21 January 1924), better known as Vladimir Lenin, was a Russian revolutionary, politician, and political theorist. He served as the first and founding head of government of Soviet Russia from 1917 to 1924 and of the Soviet Union from 1922 to 1924. Ideologically a Marxist, his developments to the ideology are called Leninism.",
-    "photo": "captured 1920-07 during their lifetime"
+    "image": "",
+    "photo": "model 0.90, portrait 1.00, in Category:Portrait photographs of Vladimir Lenin by Pavel Zhukov"
   }
 }

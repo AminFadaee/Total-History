@@ -19,7 +19,9 @@
   "contribution": "A 7th-century Chinese Buddhist monk, scholar, traveller, and translator.",
   "image": "images/xuanzang.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -37,6 +39,7 @@
       ]
     },
     "lead": "Xuanzang (Chinese: 玄奘; Wade–Giles: Hsüen Tsang; [ɕɥɛ̌n.tsâŋ]; 6 April 602 – 5 February 664), born Chen Hui or Chen Yi (陳褘 / 陳禕), also known by his Sanskrit Dharma name Mokṣadeva, was a 7th-century Chinese Buddhist monk, scholar, traveller, and translator. He is known for the epoch-making contributions to Chinese Buddhism, the travelogue of his journey to the Indian subcontinent in 629–645, his efforts to bring at least 657 Indian texts to China, and his translations of some of these texts. He was only able to translate 75 distinct sections of a total of 1,335 chapters, but his translations included some of the most important Mahayana scriptures.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

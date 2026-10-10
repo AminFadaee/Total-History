@@ -1,0 +1,90 @@
+{
+  "id": "Q190025",
+  "slug": "united-provinces-of-central-america",
+  "name": "United Provinces of Central America",
+  "wikipedia": "Federal Republic of Central America",
+  "map_year": 1824,
+  "period": {
+    "start": {
+      "earliest": 1823,
+      "latest": 1823,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1839,
+      "latest": 1839,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Guatemala City",
+      "location": [
+        -90.51333333333334,
+        14.641666666666667
+      ]
+    },
+    {
+      "name": "Sonsonate",
+      "location": [
+        -89.7274861111111,
+        13.72061388888889
+      ]
+    },
+    {
+      "name": "San Salvador",
+      "location": [
+        -89.19115555555555,
+        13.697597222222223
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q1433911",
+      "name": "Manuel José Arce"
+    },
+    {
+      "id": "Q332111",
+      "name": "Francisco Morazán"
+    }
+  ],
+  "modern_countries": [
+    "Nicaragua",
+    "Honduras",
+    "Guatemala",
+    "Costa Rica",
+    "El Salvador"
+  ],
+  "borders": true,
+  "map": "maps/united-provinces-of-central-america.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Guatemala City",
+        "San Salvador",
+        "Sonsonate, El Salvador"
+      ],
+      "infobox": [
+        "Guatemala City",
+        "Sonsonate, El Salvador",
+        "San Salvador"
+      ]
+    },
+    "cliopatria_years": [
+      1824,
+      1839
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Guatemala City",
+    "labelled": [
+      "Federated Republic of Mexico",
+      "Gran Colombia"
+    ]
+  }
+}

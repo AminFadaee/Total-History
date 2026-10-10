@@ -1,0 +1,78 @@
+{
+  "id": "Q199443",
+  "slug": "ghurid-dynasty",
+  "name": "Ghurid Dynasty",
+  "wikipedia": "Ghurid dynasty",
+  "map_year": 1202,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1215,
+      "latest": 1215,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Firozkoh",
+      "location": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q249578",
+    "region": "Afghanistan",
+    "name": "Ghaznavid Empire"
+  },
+  "after": {
+    "id": "Q63134381",
+    "region": "Afghanistan",
+    "name": "Khwarezmid Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Pakistan",
+    "India",
+    "Afghanistan",
+    "Iran"
+  ],
+  "borders": true,
+  "map": "maps/ghurid-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Firozkoh"
+      ],
+      "infobox": [
+        "Firozkoh",
+        "Herat",
+        "Ghazni"
+      ]
+    },
+    "cliopatria_years": [
+      1152,
+      1209
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "the spot held longest",
+    "labelled": [
+      "Khwarezmid Empire",
+      "Kara-Khitans",
+      "Sena Dynasty",
+      "Lohara Dynasty",
+      "Chaulukya Dynasty",
+      "Kashmir",
+      "Chandela Kingdom",
+      "Tibetans",
+      "Yadava Dynasty",
+      "Pagan Kingdom",
+      "Hamdanid Emirates",
+      "Kakatiya Dynasty",
+      "Eastern Ganga Kingdom",
+      "Kingdom of Georgia",
+      "Shirvan"
+    ]
+  }
+}

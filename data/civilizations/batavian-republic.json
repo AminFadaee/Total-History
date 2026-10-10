@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q170072",
     "region": "Netherlands",
@@ -37,6 +38,7 @@
     "Indonesia",
     "Netherlands"
   ],
+  "borders": true,
   "map": "maps/batavian-republic.png",
   "checks": {
     "infobox": true,
@@ -56,17 +58,12 @@
     "home": "The Hague",
     "labelled": [
       "French Directory",
-      "Russian Empire",
-      "Qing Dynasty",
-      "Ottoman Empire",
-      "Kazakh Khanate",
-      "Durrani Empire",
-      "Qajar Dynasty",
-      "Maratha Empire",
-      "Khanate of Khiva",
-      "Habsburg Monarchy",
-      "British Empire",
-      "Emirate of Diriyah"
+      "Kingdom of Prussia",
+      "Holy Roman Empire Minor States",
+      "Kingdom of Great Britain",
+      "Electorate of Saxony",
+      "Electorate of Hanover",
+      "Duchy of Bavaria"
     ]
   }
 }

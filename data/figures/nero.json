@@ -21,7 +21,9 @@
   "contribution": "Roman emperor from AD 54 until his suicide in AD 68, as the final emperor of the Julio-Claudian dynasty.",
   "image": "images/nero.jpg",
   "image_credit": "Jastrow · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -33,9 +35,13 @@
       "lead": [
         "Parthian Empire",
         "Cimmerian Bosporus"
+      ],
+      "citizenship": [
+        "Roman Empire"
       ]
     },
     "lead": "Nero (Nero Claudius Caesar Augustus Germanicus, born Lucius Domitius Ahenobarbus; 15 December AD 37 – 9 June AD 68) was Roman emperor from AD 54 until his suicide in AD 68, as the final emperor of the Julio-Claudian dynasty.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

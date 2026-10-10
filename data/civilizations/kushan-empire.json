@@ -18,6 +18,7 @@
     "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q1255614",
     "region": "Pakistan",
@@ -37,6 +38,7 @@
     "Uzbekistan",
     "Tajikistan"
   ],
+  "borders": true,
   "map": "maps/kushan-empire.png",
   "checks": {
     "infobox": true,

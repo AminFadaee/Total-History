@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -33,6 +34,7 @@
     "Italy",
     "Malta"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-sicily.png",
   "checks": {
     "infobox": true,
@@ -55,11 +57,10 @@
     "labelled": [
       "Holy Roman Empire",
       "Byzantine Empire",
-      "Kingdom of Hungary",
       "County of Toulouse",
-      "Kingdom of Aragon",
       "Hammadid Dynasty",
-      "Kingdom of Navarre"
+      "Grand Principality of Serbia",
+      "County of Barcelona"
     ]
   }
 }

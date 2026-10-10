@@ -18,7 +18,9 @@
   "contribution": "A French mathematician, physicist, inventor, philosopher, and Catholic writer.",
   "image": "images/blaise-pascal.jpg",
   "image_credit": "unknown; a copy of the painting of François II Quesnel, which was made for Gérard Edelinck en 1691[réf. nécessaire]. · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Blaise Pascal (19 June 1623 – 19 August 1662) was a French mathematician, physicist, inventor, philosopher, and Catholic writer.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

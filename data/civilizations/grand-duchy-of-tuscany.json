@@ -1,0 +1,61 @@
+{
+  "id": "Q154849",
+  "slug": "grand-duchy-of-tuscany",
+  "name": "Grand Duchy of Tuscany",
+  "wikipedia": "Grand Duchy of Tuscany",
+  "map_year": 1848,
+  "period": {
+    "start": {
+      "earliest": 1569,
+      "latest": 1569,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1860,
+      "latest": 1860,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Florence",
+      "location": [
+        11.254166666667,
+        43.771388888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Italy"
+  ],
+  "borders": true,
+  "map": "maps/grand-duchy-of-tuscany.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Florence"
+      ],
+      "infobox": [
+        "Florence"
+      ]
+    },
+    "cliopatria_years": [
+      1797,
+      1848
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Florence",
+    "labelled": [
+      "Kingdom of Sardinia",
+      "Papal States",
+      "Kingdom of the Two Sicilies",
+      "Swiss Confederation"
+    ]
+  }
+}

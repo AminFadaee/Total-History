@@ -18,7 +18,9 @@
   "contribution": "A Muslim scholar, jurist, muhaddith and traditionalist who is the eponym of the Maliki school, one of the four schools of Islamic jurisprudence in Sunni Islam.",
   "image": "images/malik-ibn-anas.jpg",
   "image_credit": "Sun'i · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Malik ibn Anas (Arabic: مَالِك بْن أَنَس, romanized: Mālik ibn ʾAnas; c. 711–795) was a Muslim scholar, jurist, muhaddith and traditionalist who is the eponym of the Maliki school, one of the four schools of Islamic jurisprudence in Sunni Islam.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

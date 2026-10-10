@@ -1,0 +1,81 @@
+{
+  "id": "Q1062422",
+  "slug": "konbaung-dynasty",
+  "name": "Konbaung Dynasty",
+  "wikipedia": "Konbaung dynasty",
+  "map_year": 1815,
+  "period": {
+    "start": {
+      "earliest": 1752,
+      "latest": 1752,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1885,
+      "latest": 1885,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Shwebo",
+      "location": [
+        95.7,
+        22.56666667
+      ]
+    },
+    {
+      "name": "Sagaing",
+      "location": [
+        95.98166666666667,
+        21.88
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Myanmar"
+  ],
+  "borders": true,
+  "map": "maps/konbaung-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Shwebo",
+        "Inwa",
+        "Amarapura",
+        "Mandalay"
+      ],
+      "infobox": [
+        "Shwebo",
+        "Sagaing",
+        "Inwa",
+        "Amarapura",
+        "Mandalay"
+      ]
+    },
+    "cliopatria_years": [
+      1741,
+      1819
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Sagaing",
+    "labelled": [
+      "Qing Dynasty",
+      "Rattanakosin Kingdom",
+      "British Empire",
+      "Maratha Empire",
+      "Nguyễn dynasty",
+      "Mughal Empire",
+      "Vientiane",
+      "Nepal",
+      "Khmer Empire",
+      "Sikh Empire"
+    ]
+  }
+}

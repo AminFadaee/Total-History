@@ -5,25 +5,19 @@
   "wikipedia": "New Kingdom of Egypt",
   "map_year": -1400,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false
+    "start": {
+      "earliest": -1570,
+      "latest": -1570,
+      "circa": true
+    },
+    "end": {
+      "earliest": -1069,
+      "latest": -1069,
+      "circa": false
+    },
+    "confirmed": true
   },
   "capitals": [
-    {
-      "name": "Memphis",
-      "location": [
-        31.250917,
-        29.844667
-      ]
-    },
-    {
-      "name": "Pi-Ramesses",
-      "location": [
-        31.834217,
-        30.79937
-      ]
-    },
     {
       "name": "Thebes",
       "location": [
@@ -37,8 +31,23 @@
         30.905555555556,
         27.661666666667
       ]
+    },
+    {
+      "name": "Pi-Ramesses",
+      "location": [
+        31.834217,
+        30.79937
+      ]
+    },
+    {
+      "name": "Memphis",
+      "location": [
+        31.250917,
+        29.844667
+      ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -49,6 +58,7 @@
     "Lebanon",
     "Palestine"
   ],
+  "borders": true,
   "map": "maps/new-kingdom-of-egypt.png",
   "checks": {
     "infobox": true,
@@ -78,7 +88,7 @@
       -801
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Memphis",
+    "home": "Thebes",
     "labelled": [
       "Mitanni",
       "Babylonia",

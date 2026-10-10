@@ -21,7 +21,9 @@
   "contribution": "Holy Roman Emperor from 1556, King of Bohemia, Hungary, and Croatia from 1526, and Archduke of Austria from 1521 until his death in 1564.",
   "image": "images/ferdinand-i-holy-roman-emperor.jpg",
   "image_credit": "Hans Bocksberger the Elder · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -36,6 +38,7 @@
       ]
     },
     "lead": "Ferdinand I (10 March 1503 – 25 July 1564) was Holy Roman Emperor from 1556, King of Bohemia, Hungary, and Croatia from 1526, and Archduke of Austria from 1521 until his death in 1564. Before his accession as emperor, he ruled the Austrian hereditary lands of the House of Habsburg in the name of his elder brother, Emperor Charles V, and often served as Charles' representative in developing encouraging relationships with German princes. In addition, Ferdinand also developed valuable relationships with the German banking house of Jakob Fugger and the Castillan bank of Palenzuela's Vienveniste Ha Levi Ha Kahana family.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

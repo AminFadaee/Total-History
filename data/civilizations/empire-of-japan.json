@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q205662",
     "region": "Japan",
@@ -64,6 +65,7 @@
     "Singapore",
     "Palau"
   ],
+  "borders": true,
   "map": "maps/empire-of-japan.png",
   "checks": {
     "infobox": true,

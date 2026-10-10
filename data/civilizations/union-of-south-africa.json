@@ -1,0 +1,81 @@
+{
+  "id": "Q193619",
+  "slug": "union-of-south-africa",
+  "name": "Union of South Africa",
+  "wikipedia": "Union of South Africa",
+  "map_year": 1910,
+  "period": {
+    "start": {
+      "earliest": 1910,
+      "latest": 1910,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1961,
+      "latest": 1961,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Cape Town",
+      "location": [
+        18.42388888888889,
+        -33.92527777777778
+      ]
+    },
+    {
+      "name": "Pretoria",
+      "location": [
+        28.188055555556,
+        -25.746388888889
+      ]
+    },
+    {
+      "name": "Bloemfontein",
+      "location": [
+        26.216666666667,
+        -29.1
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q590227",
+      "name": "Edward VIII"
+    },
+    {
+      "id": "Q280856",
+      "name": "George VI"
+    },
+    {
+      "id": "Q9682",
+      "name": "Elizabeth II"
+    }
+  ],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Cape Town",
+        "Bloemfontein",
+        "Pretoria"
+      ],
+      "infobox": [
+        "Cape Town",
+        "Pretoria",
+        "Bloemfontein"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

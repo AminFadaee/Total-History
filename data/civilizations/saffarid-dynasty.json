@@ -1,0 +1,83 @@
+{
+  "id": "Q45310",
+  "slug": "saffarid-dynasty",
+  "name": "Saffarid Dynasty",
+  "wikipedia": "Saffarid dynasty",
+  "map_year": 898,
+  "period": {
+    "start": {
+      "earliest": 861,
+      "latest": 861,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1002,
+      "latest": 1002,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Zaranj",
+      "location": [
+        61.86,
+        30.96
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q12536",
+    "region": "Afghanistan",
+    "name": "Abbasid Caliphate"
+  },
+  "after": {
+    "id": "Q12150341",
+    "region": "Afghanistan",
+    "name": "Samanid Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Afghanistan",
+    "Pakistan",
+    "Turkmenistan",
+    "Tajikistan"
+  ],
+  "borders": true,
+  "map": "maps/saffarid-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Zaranj"
+      ],
+      "infobox": [
+        "Zaranj"
+      ]
+    },
+    "cliopatria_years": [
+      860,
+      899
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "Zaranj",
+    "labelled": [
+      "Abbasid Caliphate",
+      "Samanid Empire",
+      "Sind-Habbari Dynasty",
+      "Kashmir",
+      "Tibetans",
+      "Gurjara-Pratihara Dynasty",
+      "Qocho Kingdom",
+      "Kingdom of Khotan",
+      "Oghuz Turks",
+      "Kara-Khanids",
+      "Pala Empire",
+      "Bagratid Armenia",
+      "Georgia",
+      "Shirvan"
+    ]
+  }
+}

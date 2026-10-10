@@ -40,6 +40,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q199688",
@@ -54,6 +55,7 @@
     "Algeria",
     "Western Sahara"
   ],
+  "borders": true,
   "map": "maps/almoravid-dynasty.png",
   "checks": {
     "infobox": true,

@@ -3,7 +3,7 @@
   "slug": "grand-principality-of-moscow",
   "name": "Grand Principality of Moscow",
   "wikipedia": "Grand Principality of Moscow",
-  "map_year": 1521,
+  "map_year": 1540,
   "period": {
     "start": {
       "earliest": 1263,
@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Moscow",
-      "location": [
-        37.6175,
-        55.75055555555556
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q186096",
@@ -41,6 +34,7 @@
   "modern_countries": [
     "Russia"
   ],
+  "borders": true,
   "map": "maps/grand-principality-of-moscow.png",
   "checks": {
     "infobox": true,
@@ -57,21 +51,21 @@
       1546
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Moscow",
+    "home": "the spot held longest",
     "labelled": [
       "Khanate of Sibir",
-      "Kalmar Union",
       "House of Jagiellon",
+      "Kingdom of Sweden",
       "Khanate of Kazan",
       "Kazakh Khanate",
-      "Nogai Horde",
+      "Denmark-Norway",
       "Kingdom of France",
-      "Kingdom of Hungary",
+      "Nogai Horde",
       "Holy Roman Empire Minor States",
       "Astrakhan Khanate",
       "Kingdom of England",
       "Crimean Khanate",
-      "Kingdom of Bohemia"
+      "Kingdom of Hungary"
     ]
   }
 }

@@ -17,11 +17,20 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Beijing",
+      "location": [
+        116.407526,
+        39.90403
+      ]
+    }
+  ],
+  "parts": [],
   "before": {
-    "id": "Q1062546",
+    "id": "Q9903",
     "region": "China",
-    "name": "Later Jin Dynasty"
+    "name": "Ming Dynasty"
   },
   "after": {
     "id": "Q13426199",
@@ -37,6 +46,7 @@
     "Taiwan",
     "Hong Kong S.A.R."
   ],
+  "borders": true,
   "map": "maps/qing-dynasty.png",
   "checks": {
     "infobox": true,
@@ -54,7 +64,7 @@
       1911
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Beijing",
     "labelled": [
       "Russian Empire",
       "Kazakh Khanate",

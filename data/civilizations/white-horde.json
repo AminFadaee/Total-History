@@ -1,0 +1,55 @@
+{
+  "id": "Q2553863",
+  "slug": "white-horde",
+  "name": "White Horde",
+  "wikipedia": "White Horde",
+  "map_year": 1375,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1401,
+      "latest": 1500,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Kazakhstan",
+    "Russia",
+    "Uzbekistan"
+  ],
+  "borders": true,
+  "map": "maps/white-horde.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1363,
+      1384
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Northern Yuan",
+      "Chagatai Khanate",
+      "Blue Horde",
+      "Timurid Empire",
+      "Sarbadars",
+      "Grand Duchy of Lithuania",
+      "Jalayirid Sultanate",
+      "Kartids",
+      "Qara Qoyunlu",
+      "Kingdom of Georgia",
+      "Principality of Smolensk",
+      "Shirvan"
+    ]
+  }
+}

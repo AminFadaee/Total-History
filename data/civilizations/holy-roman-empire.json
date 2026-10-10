@@ -18,6 +18,7 @@
     "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q175211",
     "region": "Germany",
@@ -60,6 +61,7 @@
     "Liechtenstein",
     "San Marino"
   ],
+  "borders": true,
   "map": "maps/holy-roman-empire.png",
   "checks": {
     "infobox": true,

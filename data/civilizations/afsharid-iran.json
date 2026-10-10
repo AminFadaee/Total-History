@@ -1,0 +1,76 @@
+{
+  "id": "Q63149558",
+  "slug": "afsharid-iran",
+  "name": "Afsharid Iran",
+  "wikipedia": "Afsharid Iran",
+  "map_year": 1744,
+  "period": {
+    "start": {
+      "earliest": 1736,
+      "latest": 1736,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1796,
+      "latest": 1796,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q627449",
+    "region": "Iran",
+    "name": "Hotaki Dynasty"
+  },
+  "after": {
+    "id": "Q146597",
+    "region": "Iran",
+    "name": "Zand Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Afghanistan",
+    "Pakistan",
+    "Turkmenistan",
+    "India",
+    "Azerbaijan",
+    "Armenia",
+    "Bahrain"
+  ],
+  "borders": true,
+  "map": "maps/afsharid-iran.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mashhad"
+      ],
+      "infobox": [
+        "Mashhad"
+      ]
+    },
+    "cliopatria_years": [
+      1734,
+      1756
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Ottoman Empire",
+      "Dzungar Khanate",
+      "Tibet",
+      "Mughal Empire",
+      "Khanate of Bukhara",
+      "Khanate of Khiva",
+      "Kazakh Khanate",
+      "Nawabs of Bengal",
+      "Maratha Empire",
+      "Kalmyk Khanate",
+      "Gorkha Kingdom",
+      "Qasimids"
+    ]
+  }
+}

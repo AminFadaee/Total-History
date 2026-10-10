@@ -33,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q170770",
@@ -48,6 +49,7 @@
   "modern_countries": [
     "Russia"
   ],
+  "borders": true,
   "map": "maps/principality-of-rostov-suzdal.png",
   "checks": {
     "infobox": true,
@@ -71,17 +73,14 @@
     "labelled": [
       "Kievan Rus'",
       "Novgorod Republic",
-      "Principality of Chernigov",
       "Principality of Smolensk",
+      "Principality of Chernigov",
       "Principality of Ryazan",
-      "Kimek-Kipchak confederation",
-      "Kingdom of Sweden",
-      "Principality of Galicia-Volhynia",
+      "Livonian Brothers of the Sword",
       "Grand Duchy of Lithuania",
-      "Principality of Minsk",
-      "Principality of Kiev",
       "Volga Bulgaria",
-      "Duchy of Sandomierz"
+      "Principality of Turov and Pinsk",
+      "Principality of Polotsky"
     ]
   }
 }

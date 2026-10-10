@@ -1,0 +1,66 @@
+{
+  "id": "Q949268",
+  "slug": "nanda-empire",
+  "name": "Nanda Empire",
+  "wikipedia": "Nanda Empire",
+  "map_year": -333,
+  "period": {
+    "start": {
+      "earliest": -345,
+      "latest": -345,
+      "circa": true
+    },
+    "end": {
+      "earliest": -322,
+      "latest": -322,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Pataliputra",
+      "location": [
+        85.144,
+        25.611
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q972165",
+    "region": "India",
+    "name": "Magadha - Shaishunaga dynasty"
+  },
+  "after": {
+    "id": "Q62943",
+    "region": "India",
+    "name": "Maurya Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Bangladesh"
+  ],
+  "borders": true,
+  "map": "maps/nanda-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pataliputra"
+      ],
+      "infobox": [
+        "Pataliputra"
+      ]
+    },
+    "cliopatria_years": [
+      -333,
+      -319
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Pataliputra",
+    "labelled": []
+  }
+}

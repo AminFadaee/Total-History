@@ -18,7 +18,9 @@
   "contribution": "Emperor of Russia, King of Poland and Grand Duke of Finland from 13 March 1881 until his death in 1894.",
   "image": "images/alexander-iii-of-russia.jpg",
   "image_credit": "Sergey Lvovich Levitsky · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/alexander-iii-of-russia-photo.jpg",
+  "photo_credit": "Sergey Lvovich Levitsky · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Alexander III (Russian: Александр III Александрович Романов, romanized: Aleksandr III Aleksandrovich Romanov; 10 March 1845 – 1 November 1894) was Emperor of Russia, King of Poland and Grand Duke of Finland from 13 March 1881 until his death in 1894. He was highly reactionary in domestic affairs and reversed some of the liberal reforms of his father, Alexander II, a policy of \"counter-reforms\" (Russian: контрреформы).",
-    "photo": "captured circa 1880date QS:P571,+1880-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+    "image": "",
+    "photo": "model 0.90, portrait 0.98, in Category:1880 portrait photographs of men"
   }
 }

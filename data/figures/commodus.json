@@ -18,7 +18,9 @@
   "contribution": "Roman emperor from 177 to 192, first serving as nominal co-emperor under his father Marcus Aurelius and then ruling alone from 180.",
   "image": "images/commodus.jpg",
   "image_credit": "Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -30,6 +32,9 @@
       "lead": [
         "Roman Empire"
       ],
+      "citizenship": [
+        "Roman Empire"
+      ],
       "vital_section": [
         "Roman Empire"
       ],
@@ -38,6 +43,7 @@
       ]
     },
     "lead": "Commodus (; Latin: [ˈkɔmmɔdʊs]; 31 August 161 – 31 December 192) was Roman emperor from 177 to 192, first serving as nominal co-emperor under his father Marcus Aurelius and then ruling alone from 180. Commodus's sole reign is commonly thought to mark the end of the Pax Romana, a golden age of peace and prosperity in the history of the Roman Empire.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

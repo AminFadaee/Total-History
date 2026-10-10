@@ -18,7 +18,9 @@
   "contribution": "A Church Father who served as Archbishop of Constantinople.",
   "image": "images/john-chrysostom.jpg",
   "image_credit": "Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "John Chrysostom (; Koine Greek: Ἰωάννης ὁ Χρυσόστομος, romanized: Iōánnēs ho Chrysóstomos, IPA: [i.oˈannis o xryˈsostomos]; Latin: Ioannes Chrysostomus, Ecclesiastical Latin: [joˈannes kriˈzɔstomus]; Syriac: ܝܘܚܢܢ ܦܘܡܐ ܕܕܗܘܐ (Yōḥannan Pumā d-Dahbā); English: John the Golden-mouthed; c. 347 – 14 September 407) was a Church Father who served as Archbishop of Constantinople. He is known for his preaching and public speaking, particularly on the poor,  his Divine Liturgy of Saint John Chrysostom, and his ascetic sensibilities.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

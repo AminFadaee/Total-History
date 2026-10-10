@@ -33,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q8575586",
@@ -74,6 +75,7 @@
     "Palestine",
     "Bahrain"
   ],
+  "borders": true,
   "map": "maps/rashidun-caliphate.png",
   "checks": {
     "infobox": true,

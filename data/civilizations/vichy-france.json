@@ -17,22 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Paris",
-      "location": [
-        2.352222222222222,
-        48.85666666666667
-      ]
-    },
-    {
-      "name": "Vichy",
-      "location": [
-        3.4258333333333,
-        46.126944444444
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q70802",
     "region": "France",
@@ -48,6 +34,7 @@
   "modern_countries": [
     "France"
   ],
+  "borders": true,
   "map": "maps/vichy-france.png",
   "checks": {
     "infobox": true,
@@ -67,21 +54,12 @@
       1943
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Vichy",
+    "home": "the spot held longest",
     "labelled": [
-      "Unitary State of Brazil",
       "Nazi Germany",
       "Francoist Spain",
-      "French Africa",
-      "Italian Africa",
-      "Republic of Peru",
-      "British Gold Coast",
-      "Republic of Colombia",
-      "Kingdom of Egypt",
-      "Free French",
-      "Bolivia",
-      "Republic of Turkey",
-      "Kingdom of Iraq"
+      "Kingdom of Italy",
+      "Swiss Confederation"
     ]
   }
 }

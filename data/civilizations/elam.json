@@ -10,6 +10,7 @@
     "confirmed": false
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -17,6 +18,7 @@
     "Iran",
     "Iraq"
   ],
+  "borders": true,
   "map": "maps/elam.png",
   "checks": {
     "infobox": false,
@@ -35,8 +37,7 @@
     "home": "the spot held longest",
     "labelled": [
       "Assyria",
-      "Sumerian City-States",
-      "Hyksos"
+      "Sumerian City-States"
     ]
   }
 }

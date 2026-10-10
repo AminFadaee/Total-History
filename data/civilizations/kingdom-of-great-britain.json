@@ -1,0 +1,77 @@
+{
+  "id": "Q161885",
+  "slug": "kingdom-of-great-britain",
+  "name": "Kingdom of Great Britain",
+  "wikipedia": "Kingdom of Great Britain",
+  "map_year": 1794,
+  "period": {
+    "start": {
+      "earliest": 1707,
+      "latest": 1707,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1800,
+      "latest": 1800,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q179876",
+    "region": "United Kingdom",
+    "name": "Kingdom of England"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q119702",
+      "name": "Anne, Queen of Great Britain"
+    },
+    {
+      "id": "Q130805",
+      "name": "George I of Great Britain"
+    },
+    {
+      "id": "Q131981",
+      "name": "George II of Great Britain"
+    },
+    {
+      "id": "Q127318",
+      "name": "George III"
+    }
+  ],
+  "modern_countries": [
+    "United Kingdom",
+    "Ireland",
+    "Isle of Man"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-great-britain.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "London"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1709,
+      2024
+    ],
+    "identity": "Wikidata state named like the Cliopatria polity",
+    "home": "the spot held longest",
+    "labelled": [
+      "Habsburg Monarchy",
+      "French First Republic",
+      "Kingdom of Prussia",
+      "Denmark-Norway",
+      "Holy Roman Empire Minor States",
+      "Duchy of Bavaria",
+      "Electorate of Saxony"
+    ]
+  }
+}

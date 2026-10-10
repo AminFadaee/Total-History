@@ -1,0 +1,55 @@
+{
+  "id": "Q861054",
+  "slug": "xianbei",
+  "name": "Xianbei",
+  "wikipedia": "Xianbei",
+  "map_year": 161,
+  "period": {
+    "start": {
+      "earliest": -208,
+      "latest": -208,
+      "circa": false
+    },
+    "end": {
+      "earliest": 201,
+      "latest": 300,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Mongolia",
+    "Russia"
+  ],
+  "borders": true,
+  "map": "maps/xianbei.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Shangyi County",
+        "Hebei"
+      ]
+    },
+    "cliopatria_years": [
+      60,
+      237
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "the spot held longest",
+    "labelled": [
+      "Han Dynasty",
+      "Kushan Empire",
+      "Protectorate of the Western Regions",
+      "Goguryeo",
+      "Wusun"
+    ]
+  }
+}

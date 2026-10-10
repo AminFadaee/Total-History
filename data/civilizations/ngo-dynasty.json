@@ -1,0 +1,64 @@
+{
+  "id": "Q703919",
+  "slug": "ngo-dynasty",
+  "name": "Ngô Dynasty",
+  "wikipedia": "Ngô dynasty",
+  "map_year": 947,
+  "period": {
+    "start": {
+      "earliest": 939,
+      "latest": 939,
+      "circa": false
+    },
+    "end": {
+      "earliest": 965,
+      "latest": 965,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Citadel of Cổ Loa",
+      "location": [
+        105.873206,
+        21.113408
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q1198071",
+    "region": "Vietnam",
+    "name": "Southern Han"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Vietnam"
+  ],
+  "borders": true,
+  "map": "maps/ngo-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Citadel of Cổ Loa"
+      ],
+      "infobox": [
+        "Citadel of Cổ Loa"
+      ]
+    },
+    "cliopatria_years": [
+      947,
+      1406
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Citadel of Cổ Loa",
+    "labelled": [
+      "Southern Han",
+      "Chámpa",
+      "Haripuñjaya"
+    ]
+  }
+}

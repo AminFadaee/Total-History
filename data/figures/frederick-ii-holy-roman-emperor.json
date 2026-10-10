@@ -19,7 +19,9 @@
   "contribution": "King of Sicily from 1198, King of Germany from 1212, King of Italy and Holy Roman Emperor from 1220, and King of Jerusalem from 1225 to 1228.",
   "image": "images/frederick-ii-holy-roman-emperor.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -41,6 +43,7 @@
       ]
     },
     "lead": "Frederick II (Italian: Federico, Sicilian: Fidiricu, German: Friedrich, Latin: Fridericus; 26 December 1194 – 13 December 1250) was King of Sicily from 1198, King of Germany from 1212, King of Italy and Holy Roman Emperor from 1220, and King of Jerusalem from 1225 to 1228. He was the son of Emperor Henry VI, of the Hohenstaufen dynasty (the second son of Emperor Frederick Barbarossa), and Queen Constance I of Sicily, of the Hauteville dynasty.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

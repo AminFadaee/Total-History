@@ -1,0 +1,79 @@
+{
+  "id": "Q504759",
+  "slug": "chu",
+  "name": "Chu",
+  "wikipedia": "Chu (state)",
+  "map_year": -284,
+  "period": {
+    "start": {
+      "earliest": -722,
+      "latest": -722,
+      "circa": true
+    },
+    "end": {
+      "earliest": -223,
+      "latest": -223,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Danyang",
+      "location": [
+        119.6012702,
+        32.0109736
+      ]
+    },
+    {
+      "name": "Ying",
+      "location": [
+        112.173333,
+        30.422778
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q34756",
+    "region": "China",
+    "name": "Qin"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/chu.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Danyang",
+        "Ying"
+      ],
+      "infobox": [
+        "Danyang",
+        "Ying",
+        "Shou County",
+        "Xuzhou"
+      ]
+    },
+    "cliopatria_years": [
+      -750,
+      -224
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ying",
+    "labelled": [
+      "Qin",
+      "Minyue",
+      "Qi",
+      "Zhao",
+      "Han",
+      "Lu",
+      "Wey"
+    ]
+  }
+}

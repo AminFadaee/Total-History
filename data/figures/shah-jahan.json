@@ -20,7 +20,9 @@
   "contribution": "The fifth Mughal Emperor from 1628 until his deposition in 1658.",
   "image": "images/shah-jahan.jpg",
   "image_credit": "Bichitr · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -37,6 +39,7 @@
       ]
     },
     "lead": "Shah Jahan I (Shahab-ud-Din Muhammad Khurram; 5 January 1592 – 22 January 1666), also called Shah Jahan the Magnificent, was the fifth Mughal Emperor from 1628 until his deposition in 1658. His reign marked the zenith of Mughal architectural and cultural achievements.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

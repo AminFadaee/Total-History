@@ -1,0 +1,88 @@
+{
+  "id": "Q266923",
+  "slug": "kingdom-of-mysore",
+  "name": "Kingdom of Mysore",
+  "wikipedia": "Kingdom of Mysore",
+  "map_year": 1709,
+  "period": {
+    "start": {
+      "earliest": 1399,
+      "latest": 1399,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1950,
+      "latest": 1950,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Mysore",
+      "location": [
+        76.65305555555555,
+        12.30861111111111
+      ]
+    },
+    {
+      "name": "Bengaluru",
+      "location": [
+        77.5912997,
+        12.9791198
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q167639",
+    "region": "India",
+    "name": "Vijayanagara Empire"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q15845075",
+      "name": "Yaduraya Wodeyar"
+    },
+    {
+      "id": "Q1391321",
+      "name": "Jayachamarajendra Wadiyar"
+    },
+    {
+      "id": "Q10088",
+      "name": "Tipu Sultan"
+    }
+  ],
+  "modern_countries": [
+    "India"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-mysore.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mysore",
+        "Srirangapatna",
+        "Bengaluru"
+      ],
+      "infobox": [
+        "Mysore",
+        "Srirangapatna",
+        "Bengaluru"
+      ]
+    },
+    "cliopatria_years": [
+      1572,
+      1799
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Mysore",
+    "labelled": [
+      "Mughal Empire",
+      "Nayaks of Madurai",
+      "Thanjavur Maratha Kingdom"
+    ]
+  }
+}

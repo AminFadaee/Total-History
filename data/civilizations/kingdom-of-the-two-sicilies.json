@@ -3,7 +3,7 @@
   "slug": "kingdom-of-the-two-sicilies",
   "name": "Kingdom of the Two Sicilies",
   "wikipedia": "Kingdom of the Two Sicilies",
-  "map_year": 1815,
+  "map_year": 1849,
   "period": {
     "start": {
       "earliest": 1815,
@@ -19,20 +19,21 @@
   },
   "capitals": [
     {
-      "name": "Naples",
-      "location": [
-        14.248611111111112,
-        40.83583333333333
-      ]
-    },
-    {
       "name": "Palermo",
       "location": [
         13.361261944444445,
         38.115658055555556
       ]
+    },
+    {
+      "name": "Naples",
+      "location": [
+        14.248611111111112,
+        40.83583333333333
+      ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q48779892",
     "region": "Italy",
@@ -52,6 +53,7 @@
   "modern_countries": [
     "Italy"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-the-two-sicilies.png",
   "checks": {
     "infobox": true,
@@ -73,14 +75,10 @@
     "home": "Naples",
     "labelled": [
       "Papal States",
-      "Austrian Empire",
-      "Regency of Algiers",
       "Beylik of Tunis",
       "Kingdom of Sardinia",
-      "Principality of Wallachia",
       "Serbs",
-      "Swiss Confederation",
-      "Principality of Moldavia"
+      "First Hellenic Republic"
     ]
   }
 }

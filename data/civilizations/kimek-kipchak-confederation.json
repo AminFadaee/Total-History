@@ -1,0 +1,63 @@
+{
+  "id": "Q2477776",
+  "slug": "kimek-kipchak-confederation",
+  "name": "Kimek-Kipchak confederation",
+  "wikipedia": "Kimak–Kipchak confederation",
+  "map_year": 1085,
+  "period": {
+    "start": {
+      "earliest": 743,
+      "latest": 743,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1220,
+      "latest": 1220,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Kazakhstan",
+    "Russia"
+  ],
+  "borders": true,
+  "map": "maps/kimek-kipchak-confederation.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Khakan-Kimak",
+        "Imakia"
+      ],
+      "infobox": [
+        "Pavlodar"
+      ]
+    },
+    "cliopatria_years": [
+      750,
+      1235
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Great Seljuk Empire",
+      "Kievan Rus'",
+      "Eastern Kara-Khanids",
+      "Halych-Volhynia occupation",
+      "Tibetans",
+      "Qocho Kingdom",
+      "Byzantine Empire",
+      "Novgorod Republic",
+      "Hamdanid Emirates",
+      "Lohara Dynasty",
+      "Kingdom of Poland",
+      "Principality of Polotsky"
+    ]
+  }
+}

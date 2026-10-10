@@ -18,7 +18,9 @@
   "contribution": "A French jurist, historian, and political philosopher.",
   "image": "images/montesquieu.jpg",
   "image_credit": "After Jacques-Antoine Dassier · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Charles Louis de Secondat, baron de La Brède et de Montesquieu (18 January 1689 – 10 February 1755), generally referred to as simply Montesquieu, was a French jurist, historian, and political philosopher.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

@@ -26,13 +26,6 @@
       ]
     },
     {
-      "name": "Babylon",
-      "location": [
-        44.42111111111111,
-        32.5425
-      ]
-    },
-    {
       "name": "Antioch",
       "location": [
         36.181666666666665,
@@ -40,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q83958",
     "region": "Turkey",
@@ -63,6 +57,7 @@
     "Turkmenistan",
     "Syria"
   ],
+  "borders": true,
   "map": "maps/seleucid-empire.png",
   "checks": {
     "infobox": true,

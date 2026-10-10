@@ -20,8 +20,10 @@
   ],
   "contribution": "A Sephardic Jewish rabbi who is widely acknowledged as one of the most prolific and influential Torah scholars of the Middle Ages.",
   "image": "images/maimonides.jpg",
-  "image_credit": "No machine-readable author provided. Makinal~commonswiki assumed (based on copyright claims). · CC BY-SA 3.0",
-  "photo": false,
+  "image_credit": "Blaisio Ugolino · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -37,6 +39,7 @@
       ]
     },
     "lead": "Moses ben Maimon (died 12 December 1204), commonly known as Maimonides and also referred to by the Hebrew acronym Rambam, was a Sephardic Jewish rabbi who is widely acknowledged as one of the most prolific and influential Torah scholars of the Middle Ages.",
+    "image": "main image is a coin, calligraphy or missing",
     "photo": "no death year in or after 1860"
   }
 }

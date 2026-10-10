@@ -1,0 +1,75 @@
+{
+  "id": "Q841364",
+  "slug": "ayutthaya-kingdom",
+  "name": "Ayutthaya Kingdom",
+  "wikipedia": "Ayutthaya Kingdom",
+  "map_year": 1600,
+  "period": {
+    "start": {
+      "earliest": 1351,
+      "latest": 1351,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1767,
+      "latest": 1767,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Ayutthaya Historical Park",
+      "location": [
+        100.5575086,
+        14.351626
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q1332305",
+    "region": "Thailand",
+    "name": "Lavo Kingdom"
+  },
+  "after": {
+    "id": "Q1115291",
+    "region": "Thailand",
+    "name": "Thonburi Kingdom"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Thailand",
+    "Myanmar"
+  ],
+  "borders": true,
+  "map": "maps/ayutthaya-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Historic City of Ayutthaya"
+      ],
+      "infobox": [
+        "Ayutthaya Historical Park",
+        "Phitsanulok province",
+        "Lopburi province"
+      ]
+    },
+    "cliopatria_years": [
+      1352,
+      1768
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ayutthaya Historical Park",
+    "labelled": [
+      "Lan Xang",
+      "First Toungoo Empire",
+      "Khmer Empire",
+      "Lan Na",
+      "Trịnh lords",
+      "Nguyễn lords",
+      "Sultanate of Aceh"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "Q877619",
+  "slug": "french-consulate",
+  "name": "French Consulate",
+  "wikipedia": "French Consulate",
+  "map_year": 1800,
+  "period": {
+    "start": {
+      "earliest": 1799,
+      "latest": 1799,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1804,
+      "latest": 1804,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q71084",
+    "region": "France",
+    "name": "First French Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "France",
+    "Egypt",
+    "Belgium",
+    "Luxembourg",
+    "Mauritius"
+  ],
+  "borders": true,
+  "map": "maps/french-consulate.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1800,
+      1804
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Kingdom of Spain",
+      "Kingdom of Prussia",
+      "Holy Roman Empire Minor States",
+      "Kingdom of Sardinia",
+      "Helvetic Republic",
+      "Batavian Republic",
+      "Kingdom of Great Britain",
+      "Kingdom of Naples (Napoleonic)",
+      "Papal States",
+      "Electorate of Saxony",
+      "Electorate of Hanover"
+    ]
+  }
+}

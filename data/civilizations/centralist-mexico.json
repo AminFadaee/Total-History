@@ -1,0 +1,67 @@
+{
+  "id": "Q5062192",
+  "slug": "centralist-mexico",
+  "name": "Centralist Mexico",
+  "wikipedia": "Centralist Republic of Mexico",
+  "map_year": 1842,
+  "period": {
+    "start": {
+      "earliest": 1835,
+      "latest": 1835,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1846,
+      "latest": 1846,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Mexico City",
+      "location": [
+        -99.13589,
+        19.353773
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q1109279",
+    "region": "Mexico",
+    "name": "Federated Republic of Mexico"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico",
+    "United States of America"
+  ],
+  "borders": true,
+  "map": "maps/centralist-mexico.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mexico City"
+      ],
+      "infobox": [
+        "Mexico City"
+      ]
+    },
+    "cliopatria_years": [
+      1836,
+      1847
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Mexico City",
+    "labelled": [
+      "Federated Republic of Mexico",
+      "United States of America",
+      "Republic of New Granada",
+      "Republic of Texas",
+      "Honduras"
+    ]
+  }
+}

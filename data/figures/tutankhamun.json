@@ -20,7 +20,9 @@
   "contribution": "The third to last pharaoh of the Eighteenth Dynasty of ancient Egypt, who ruled c. 1332 – 1323 BC, dying at about the age of 19.",
   "image": "images/tutankhamun.jpg",
   "image_credit": "en:User:MykReeve · CC BY-SA 3.0",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -34,6 +36,7 @@
       ]
     },
     "lead": "Tutankhamun or Tutankhamen (Ancient Egyptian: twt-ꜥnḫ-jmn; c. 1342 BC – c. 1323 BC), was the third to last pharaoh of the Eighteenth Dynasty of ancient Egypt, who ruled c. 1332 – 1323 BC, dying at about the age of 19. Born Tutankhaten, his administration restored the traditional polytheistic form of ancient Egyptian religion, undoing a previous shift to the religion known as Atenism. Tutankhamun's tomb door proclaims his devotion to the ancient Egyptian gods.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

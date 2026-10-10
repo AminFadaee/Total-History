@@ -1,0 +1,75 @@
+{
+  "id": "Q582861",
+  "slug": "marinid-sultanate",
+  "name": "Marinid Sultanate",
+  "wikipedia": "Marinid dynasty",
+  "map_year": 1352,
+  "period": {
+    "start": {
+      "earliest": 1244,
+      "latest": 1244,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1465,
+      "latest": 1465,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Fez",
+      "location": [
+        -5.003333333333333,
+        34.04333333333334
+      ]
+    }
+  ],
+  "parts": [
+    "Wattasid dynasty"
+  ],
+  "before": {
+    "id": "Q199688",
+    "region": "Morocco",
+    "name": "Almohad Caliphate"
+  },
+  "after": {
+    "id": "Q970799",
+    "region": "Morocco",
+    "name": "Wattasid dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Morocco",
+    "Algeria",
+    "Tunisia",
+    "Libya"
+  ],
+  "borders": true,
+  "map": "maps/marinid-sultanate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Fez, Morocco"
+      ],
+      "infobox": [
+        "Fez, Morocco"
+      ]
+    },
+    "cliopatria_years": [
+      1250,
+      1467
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Fez",
+    "labelled": [
+      "Crown of Castile",
+      "Serbian Empire",
+      "Crown of Aragon",
+      "Kingdom of Naples",
+      "Beylik of Teke"
+    ]
+  }
+}

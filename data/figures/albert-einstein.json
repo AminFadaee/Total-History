@@ -12,16 +12,18 @@
   "occupation": "Physicist",
   "birth_country": "Germany",
   "civilizations": [
-    "United States of America",
-    "German Empire"
+    "United States of America"
   ],
   "related": [
+    "German Empire",
     "Nazi Germany"
   ],
   "contribution": "A German-born theoretical physicist best known for developing the theory of relativity.",
   "image": "images/albert-einstein.jpg",
   "image_credit": "Oren Jack Turner · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/albert-einstein-photo.jpg",
+  "photo_credit": "Oren Jack Turner · Public domain",
   "checks": {
     "civilization_votes": {
       "category": [
@@ -44,6 +46,7 @@
       ]
     },
     "lead": "Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity. Einstein also made important contributions to quantum theory. His mass–energy equivalence formula E = mc2, which arises from special relativity, has been called \"the world's most famous equation\". He received the 1921 Nobel Prize in Physics for \"his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect\".",
-    "photo": "captured 1947 during their lifetime"
+    "image": "",
+    "photo": "model 0.82, portrait 0.98, captured 1947, during their lifetime"
   }
 }

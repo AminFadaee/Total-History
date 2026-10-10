@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Versailles",
-      "location": [
-        2.135,
-        48.805
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q46370",
     "region": "France",
@@ -47,6 +40,7 @@
     "Haiti",
     "Mauritius"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-france.png",
   "checks": {
     "infobox": true,
@@ -64,16 +58,21 @@
       1791
     ],
     "identity": "Wikipedia item with overlapping dates",
-    "home": "Versailles",
+    "home": "the spot held longest",
     "labelled": [
-      "Spanish Empire",
-      "Russian Empire",
-      "Qing Dynasty",
-      "Portuguese Empire",
-      "Ottoman Empire",
-      "Kazakh Khanate",
-      "Durrani Empire",
-      "Tibet"
+      "Habsburg Monarchy",
+      "Kingdom of Spain",
+      "Holy Roman Empire Minor States",
+      "Kingdom of Prussia",
+      "Kingdom of Sardinia",
+      "Duchy of Bavaria",
+      "Swiss Confederation",
+      "Kingdom of Great Britain",
+      "Kingdom of Naples (Napoleonic)",
+      "Kingdom of Portugal",
+      "Republic of Venice",
+      "Papal States",
+      "Electorate of Saxony"
     ]
   }
 }

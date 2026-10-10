@@ -1,0 +1,103 @@
+{
+  "id": "Q80702",
+  "slug": "spanish-empire",
+  "name": "Spanish Empire",
+  "wikipedia": "Spanish Empire",
+  "map_year": 1806,
+  "period": {
+    "start": {
+      "earliest": 1492,
+      "latest": 1492,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1976,
+      "latest": 1976,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Madrid",
+      "location": [
+        -3.703333333333333,
+        40.41694444444445
+      ]
+    },
+    {
+      "name": "Valladolid",
+      "location": [
+        -4.7285611111111,
+        41.651980555556
+      ]
+    }
+  ],
+  "parts": [
+    "Kingdom of Spain"
+  ],
+  "before": {},
+  "after": {
+    "id": "Q29",
+    "region": "Cuba",
+    "name": "Kingdom of Spain"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Mexico",
+    "Argentina",
+    "Peru",
+    "Colombia",
+    "Bolivia",
+    "Venezuela",
+    "Brazil",
+    "Spain",
+    "Chile",
+    "Paraguay",
+    "Philippines",
+    "Ecuador",
+    "Uruguay",
+    "Nicaragua",
+    "Honduras",
+    "Guatemala",
+    "Cuba",
+    "Panama",
+    "Costa Rica",
+    "El Salvador",
+    "Puerto Rico",
+    "Guam"
+  ],
+  "borders": true,
+  "map": "maps/spanish-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Madrid city",
+        "Toledo city",
+        "Valladolid city"
+      ],
+      "infobox": [
+        "Itinerant court",
+        "Madrid",
+        "Valladolid"
+      ]
+    },
+    "cliopatria_years": [
+      1516,
+      1879
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "First French Empire",
+      "Morocco",
+      "Kingdom of Portugal",
+      "Regency of Algiers",
+      "Beylik of Tunis",
+      "Kingdom of Sardinia",
+      "Italian Republic",
+      "Papal States"
+    ]
+  }
+}

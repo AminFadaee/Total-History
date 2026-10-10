@@ -17,14 +17,17 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Free City of Frankfurt",
-      "location": [
-        8.68222222,
-        50.11027778
-      ]
-    }
+  "capitals": [],
+  "parts": [
+    "Grand Duchy of Baden",
+    "Kingdom of Bavaria",
+    "Grand Duchy of Berg",
+    "Grand Duchy of Hesse",
+    "Principality of Regensberg",
+    "Kingdom of Saxony",
+    "Kingdom of Westphalia",
+    "Kingdom of Württemberg",
+    "Grand Duchy of Würzburg"
   ],
   "before": {},
   "after": {
@@ -34,10 +37,10 @@
   },
   "rulers": [],
   "modern_countries": [
-    "Poland",
     "Germany",
-    "Russia"
+    "Poland"
   ],
+  "borders": true,
   "map": "maps/confederation-of-the-rhine.png",
   "checks": {
     "infobox": true,
@@ -58,17 +61,15 @@
     "home": "the spot held longest",
     "labelled": [
       "Russian Empire",
-      "Austrian Empire",
       "First French Empire",
+      "Austrian Empire",
       "Swedish Empire",
       "Duchy of Warsaw",
-      "Kingdom of Westphalia",
-      "Kingdom of Saxony",
-      "Kingdom of Great Britain",
-      "Kingdom of Bavaria",
-      "Helvetic Republic",
+      "Italian Republic",
       "Batavian Republic",
-      "Italian Republic"
+      "Kingdom of Great Britain",
+      "Serbs",
+      "Papal States"
     ]
   }
 }

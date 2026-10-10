@@ -1,0 +1,60 @@
+{
+  "id": "Q2444884",
+  "slug": "tibet",
+  "name": "Tibet",
+  "wikipedia": "Tibet (1912–1951)",
+  "map_year": 1927,
+  "period": {
+    "start": {
+      "earliest": 1912,
+      "latest": 1912,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1951,
+      "latest": 1951,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Lhasa",
+      "location": [
+        91.1175,
+        29.65388888888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/tibet.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Lhasa"
+      ],
+      "infobox": [
+        "Lhasa"
+      ]
+    },
+    "cliopatria_years": [
+      1363,
+      1952
+    ],
+    "identity": "Wikidata state named like the Cliopatria polity",
+    "home": "Lhasa",
+    "labelled": [
+      "British Raj",
+      "Nepal",
+      "Kingdom of Bhutan"
+    ]
+  }
+}

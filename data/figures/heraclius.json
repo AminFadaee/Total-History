@@ -19,9 +19,11 @@
     "Rashidun Caliphate"
   ],
   "contribution": "Byzantine emperor from 610 to 641.",
-  "image": "",
-  "image_credit": "",
-  "photo": false,
+  "image": "images/heraclius.jpg",
+  "image_credit": "Biblioteca Nazionale “Vittorio Emanuele III,” Naples (MS.I.B.18) · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -39,6 +41,7 @@
       ]
     },
     "lead": "Heraclius (Greek: Ἡράκλειος, romanized: Hērákleios; c. 575 – 11 February 641) was Byzantine emperor from 610 to 641. His rise to power began in 608, when he and his father, Heraclius the Elder, the Exarch of Africa, led a revolt against the unpopular emperor Phocas.",
-    "photo": "image is a coin or calligraphy"
+    "image": "main image is a coin, calligraphy or missing",
+    "photo": "no death year in or after 1860"
   }
 }

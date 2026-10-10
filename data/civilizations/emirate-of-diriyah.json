@@ -1,0 +1,74 @@
+{
+  "id": "Q146871",
+  "slug": "emirate-of-diriyah",
+  "name": "Emirate of Diriyah",
+  "wikipedia": "First Saudi state",
+  "map_year": 1811,
+  "period": {
+    "start": {
+      "earliest": 1744,
+      "latest": 1744,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1818,
+      "latest": 1818,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Diriyah",
+      "location": [
+        46.575555555556,
+        24.733333333333
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Saudi Arabia",
+    "Yemen",
+    "United Arab Emirates",
+    "Qatar",
+    "Kuwait"
+  ],
+  "borders": true,
+  "map": "maps/emirate-of-diriyah.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Diriyah"
+      ],
+      "infobox": [
+        "Diriyah"
+      ]
+    },
+    "cliopatria_years": [
+      1744,
+      1819
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Diriyah",
+    "labelled": [
+      "Ottoman Empire",
+      "Muhammad Ali dynasty",
+      "Qajar Dynasty",
+      "Durrani Empire",
+      "Maratha Empire",
+      "Funj Sultanate",
+      "Sultanate of Darfur",
+      "Emirate of Bukhara",
+      "Wadai Empire",
+      "Ethiopian Empire",
+      "Mughal Empire",
+      "Nepal",
+      "Sikh Empire"
+    ]
+  }
+}

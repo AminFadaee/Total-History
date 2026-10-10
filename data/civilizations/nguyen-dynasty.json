@@ -1,0 +1,69 @@
+{
+  "id": "Q6500483",
+  "slug": "nguyen-dynasty",
+  "name": "Nguyễn dynasty",
+  "wikipedia": "Nguyễn dynasty",
+  "map_year": 1834,
+  "period": {
+    "start": {
+      "earliest": 1802,
+      "latest": 1802,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1945,
+      "latest": 1945,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Phú Xuân",
+      "location": [
+        107.58333333333333,
+        16.466666666666665
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q1034173",
+    "region": "Vietnam",
+    "name": "Tây Sơn dynasty"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Vietnam"
+  ],
+  "borders": true,
+  "map": "maps/nguyen-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Huế"
+      ],
+      "infobox": [
+        "Phú Xuân",
+        "Huế"
+      ]
+    },
+    "cliopatria_years": [
+      1791,
+      1884
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Phú Xuân",
+    "labelled": [
+      "Qing Dynasty",
+      "Rattanakosin Kingdom",
+      "Khmer Empire",
+      "Burma",
+      "Spanish Empire",
+      "Chiangmai",
+      "Sultanate of Aceh"
+    ]
+  }
+}

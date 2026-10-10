@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Munich",
-      "location": [
-        11.575,
-        48.1375
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q47261",
     "region": "Germany",
@@ -63,6 +56,7 @@
     "Austria",
     "Italy"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-bavaria.png",
   "checks": {
     "infobox": true,
@@ -79,19 +73,18 @@
       1870
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Munich",
+    "home": "the spot held longest",
     "labelled": [
       "Austrian Empire",
       "Italian Republic",
       "Helvetic Republic",
       "Kingdom of Saxony",
+      "Grand Duchy of Berg",
+      "Kingdom of Württemberg",
+      "Grand Duchy of Baden",
       "First French Empire",
-      "Kingdom of Spain",
-      "Kingdom of Naples (Napoleonic)",
       "Kingdom of Sardinia",
-      "Serbs",
-      "Batavian Republic",
-      "Papal States"
+      "Grand Duchy of Hesse"
     ]
   }
 }

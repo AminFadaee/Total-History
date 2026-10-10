@@ -1,0 +1,64 @@
+{
+  "id": "Q7427",
+  "slug": "western-xia",
+  "name": "Western Xia",
+  "wikipedia": "Western Xia",
+  "map_year": 1139,
+  "period": {
+    "start": {
+      "earliest": 1038,
+      "latest": 1038,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1227,
+      "latest": 1227,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Xingqing",
+      "location": [
+        106.28419,
+        38.47323
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q12557",
+    "region": "China",
+    "name": "Mongol Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/western-xia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Yinchuan"
+      ],
+      "infobox": [
+        "Xingqing, Yinchuan",
+        "Yinchuan"
+      ]
+    },
+    "cliopatria_years": [
+      990,
+      1226
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Xingqing",
+    "labelled": [
+      "Great Jin",
+      "Kara-Khitans"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "Q722071",
+  "slug": "ashanti-empire",
+  "name": "Ashanti Empire",
+  "wikipedia": "Asante Empire",
+  "map_year": 1762,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1902,
+      "latest": 1902,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Kumasi",
+      "location": [
+        -1.625,
+        6.7
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q503623",
+    "region": "Ghana",
+    "name": "British Gold Coast"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Ghana",
+    "Ivory Coast"
+  ],
+  "borders": true,
+  "map": "maps/ashanti-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kumasi"
+      ],
+      "infobox": [
+        "Kumasi"
+      ]
+    },
+    "cliopatria_years": [
+      1702,
+      1897
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kumasi",
+    "labelled": [
+      "Oyo Empire"
+    ]
+  }
+}

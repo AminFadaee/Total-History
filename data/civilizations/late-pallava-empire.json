@@ -1,0 +1,59 @@
+{
+  "id": "Q466803",
+  "slug": "late-pallava-empire",
+  "name": "Late Pallava Empire",
+  "wikipedia": "Pallava dynasty",
+  "map_year": 602,
+  "period": {
+    "start": {
+      "earliest": 275,
+      "latest": 275,
+      "circa": false
+    },
+    "end": {
+      "earliest": 897,
+      "latest": 897,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kanchipuram",
+      "location": [
+        79.707777777778,
+        12.830833333333
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "India"
+  ],
+  "borders": true,
+  "map": "maps/late-pallava-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kanchipuram"
+      ],
+      "infobox": [
+        "Kanchipuram"
+      ]
+    },
+    "cliopatria_years": [
+      283,
+      805
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kanchipuram",
+    "labelled": [
+      "Chalukya Dynasty",
+      "Pandya Dynasty"
+    ]
+  }
+}

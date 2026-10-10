@@ -1,0 +1,37 @@
+{
+  "id": "Q296",
+  "slug": "claude-monet",
+  "name": "Claude Monet",
+  "wikipedia": "Claude Monet",
+  "role": "French painter",
+  "life": "1840–1926",
+  "lifetime": [
+    1840,
+    1926
+  ],
+  "occupation": "Painter",
+  "birth_country": "France",
+  "civilizations": [
+    "French Third Republic"
+  ],
+  "related": [],
+  "contribution": "A French painter and founder of Impressionism who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it.",
+  "image": "images/claude-monet.jpg",
+  "image_credit": "Nadar · Public domain",
+  "image_is_photo": true,
+  "photo": "images/claude-monet-photo.jpg",
+  "photo_credit": "Nadar · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "French Third Republic"
+      ],
+      "citizenship": [
+        "French Third Republic"
+      ]
+    },
+    "lead": "Oscar-Claude Monet (UK: , US: ; French: [klod mɔnɛ]; 14 November 1840 – 5 December 1926) was a French painter and founder of Impressionism who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it. During his long career, he was the most consistent and prolific practitioner of Impressionism's philosophy of expressing one's perceptions of nature, especially as applied to plein air (outdoor) landscape painting. The term \"Impressionism\" is derived from the title of his painting Impression, Sunrise (Impression, soleil levant), which was exhibited in 1874 at the First Impressionist Exhibition, initiated by Monet and a number of like-minded artists as an alternative to the Salon.",
+    "image": "",
+    "photo": "model 0.86, portrait 0.99, in Category:1899 black and white portrait photographs of men"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "Q13426199",
+  "slug": "republic-of-china",
+  "name": "Republic of China",
+  "wikipedia": "Republic of China (1912–1949)",
+  "map_year": 1913,
+  "period": {
+    "start": {
+      "earliest": 1912,
+      "latest": 1912,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Beijing",
+      "location": [
+        116.407526,
+        39.90403
+      ]
+    },
+    {
+      "name": "Chongqing",
+      "location": [
+        106.50694444444,
+        29.55
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q8733",
+    "region": "China",
+    "name": "Qing Dynasty"
+  },
+  "after": {
+    "id": "Q148",
+    "region": "China",
+    "name": "People's Republic of China"
+  },
+  "rulers": [
+    {
+      "id": "Q8573",
+      "name": "Sun Yat-sen"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/republic-of-china.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Shuntian Prefecture",
+        "Nan-ching",
+        "Ch'ung-ch'ing",
+        "Nanjing Fu",
+        "Jingzhao",
+        "Kuang-chou",
+        "Beijing"
+      ],
+      "infobox": [
+        "Beijing",
+        "Nanjing",
+        "Wuhan",
+        "Chongqing"
+      ]
+    },
+    "cliopatria_years": [
+      1912,
+      2024
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "Chongqing",
+    "labelled": [
+      "Russian Empire",
+      "British Raj",
+      "Great Mongol State",
+      "Tibet",
+      "French Indochina",
+      "Emirate of Afghanistan",
+      "Ottoman Empire",
+      "Emirate of Nejd",
+      "Nepal"
+    ]
+  }
+}

@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -39,6 +40,7 @@
     "Grenada",
     "Saint Vincent and the Grenadines"
   ],
+  "borders": true,
   "map": "maps/new-france.png",
   "checks": {
     "infobox": true,
@@ -56,10 +58,6 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Quebec City",
-    "labelled": [
-      "Portuguese Empire",
-      "Russian Empire",
-      "Zand Dynasty"
-    ]
+    "labelled": []
   }
 }

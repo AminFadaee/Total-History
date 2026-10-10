@@ -1,0 +1,46 @@
+{
+  "id": "Q468814",
+  "slug": "dahomey",
+  "name": "Dahomey",
+  "wikipedia": "Dahomey",
+  "map_year": 1600,
+  "period": {
+    "start": {
+      "earliest": 1600,
+      "latest": 1600,
+      "circa": true
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Abomey",
+      "location": [
+        1.9913888888889,
+        7.1852777777778
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Abomey"
+      ],
+      "infobox": [
+        "Abomey"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

@@ -14,6 +14,7 @@
     "confirmed": false
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -29,6 +30,7 @@
   "modern_countries": [
     "Turkey"
   ],
+  "borders": true,
   "map": "maps/phrygia.png",
   "checks": {
     "infobox": true,

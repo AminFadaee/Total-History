@@ -17,7 +17,30 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Jaca",
+      "location": [
+        -0.55,
+        42.55
+      ]
+    },
+    {
+      "name": "Huesca",
+      "location": [
+        -0.40889722222222,
+        42.1401
+      ]
+    },
+    {
+      "name": "Zaragoza",
+      "location": [
+        -0.88333333333333,
+        41.65
+      ]
+    }
+  ],
+  "parts": [],
   "before": {
     "id": "Q1297894",
     "region": "Spain",
@@ -32,6 +55,7 @@
   "modern_countries": [
     "Spain"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-aragon.png",
   "checks": {
     "infobox": true,
@@ -52,20 +76,15 @@
       1168
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Jaca",
     "labelled": [
       "Almoravid Dynasty",
       "Kingdom of Castile",
       "Kingdom of Navarre",
-      "Holy Roman Empire",
-      "Kingdom of Sicily",
       "County of Toulouse",
       "County of Portugal",
-      "Duchy of Brittany",
-      "Hammadid Dynasty",
-      "County of Blôis",
-      "Kingdom of Arles",
-      "Papal States"
+      "County of Barcelona",
+      "County of Rosellón"
     ]
   }
 }

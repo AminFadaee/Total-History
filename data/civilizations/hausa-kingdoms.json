@@ -1,0 +1,30 @@
+{
+  "id": "Q1591030",
+  "slug": "hausa-kingdoms",
+  "name": "Hausa Kingdoms",
+  "wikipedia": "Hausa Kingdoms",
+  "map_year": 801,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

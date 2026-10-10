@@ -1,0 +1,68 @@
+{
+  "id": "Q309272",
+  "slug": "mauretania",
+  "name": "Mauretania",
+  "wikipedia": "Mauretania",
+  "map_year": 30,
+  "period": {
+    "start": {
+      "earliest": -300,
+      "latest": -201,
+      "circa": false
+    },
+    "end": {
+      "earliest": 44,
+      "latest": 44,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Volubilis",
+      "location": [
+        -5.5536111111111,
+        34.071111111111
+      ]
+    },
+    {
+      "name": "Cherchell",
+      "location": [
+        2.19,
+        36.6075
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Algeria",
+    "Morocco"
+  ],
+  "borders": true,
+  "map": "maps/mauretania.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Volubilis",
+        "Cherchell"
+      ],
+      "infobox": [
+        "Volubilis",
+        "Cherchell"
+      ]
+    },
+    "cliopatria_years": [
+      -212,
+      42
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Volubilis",
+    "labelled": [
+      "Roman Empire"
+    ]
+  }
+}

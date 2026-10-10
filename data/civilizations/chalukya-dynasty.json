@@ -1,0 +1,63 @@
+{
+  "id": "Q1395011",
+  "slug": "chalukya-dynasty",
+  "name": "Chalukya Dynasty",
+  "wikipedia": "Chalukya dynasty",
+  "map_year": 633,
+  "period": {
+    "start": {
+      "earliest": 543,
+      "latest": 543,
+      "circa": false
+    },
+    "end": {
+      "earliest": 753,
+      "latest": 753,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q1479952",
+    "region": "India",
+    "name": "Kadamba Empire"
+  },
+  "after": {
+    "id": "Q856691",
+    "region": "India",
+    "name": "Rashtrakuta Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "India"
+  ],
+  "borders": true,
+  "map": "maps/chalukya-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Manyakheta",
+        "Basavakalyan"
+      ],
+      "infobox": [
+        "Badami"
+      ]
+    },
+    "cliopatria_years": [
+      555,
+      756
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Harsha's Empire",
+      "Maitraka Dynasty",
+      "Late Pallava Empire",
+      "Pyu City-States",
+      "Pandya Dynasty"
+    ]
+  }
+}

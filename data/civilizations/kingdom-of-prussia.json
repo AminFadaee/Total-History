@@ -17,19 +17,12 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Berlin",
-      "location": [
-        13.383333333333,
-        52.516666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
-    "id": "Q157367",
-    "region": "Germany",
-    "name": "Brandenburg-Prussia"
+    "id": "Q12548",
+    "region": "Switzerland",
+    "name": "Holy Roman Empire"
   },
   "after": {},
   "rulers": [
@@ -46,6 +39,7 @@
     "Poland",
     "Germany"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-prussia.png",
   "checks": {
     "infobox": true,
@@ -63,22 +57,16 @@
       1863
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Berlin",
+    "home": "the spot held longest",
     "labelled": [
       "Russian Empire",
       "Austrian Empire",
       "First French Empire",
       "Swedish Empire",
-      "Denmark-Norway",
       "Kingdom of Bavaria",
       "Kingdom of Saxony",
       "Batavian Republic",
-      "Grand Duchy of Hesse",
-      "Kingdom of Great Britain",
-      "Principality of Moldavia",
-      "Principality of Wallachia",
-      "Helvetic Republic",
-      "Italian Republic"
+      "Grand Duchy of Hesse"
     ]
   }
 }

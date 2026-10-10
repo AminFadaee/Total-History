@@ -1,0 +1,66 @@
+{
+  "id": "Q856691",
+  "slug": "rashtrakuta-dynasty",
+  "name": "Rashtrakuta Dynasty",
+  "wikipedia": "Rashtrakuta Empire",
+  "map_year": 788,
+  "period": {
+    "start": {
+      "earliest": 753,
+      "latest": 753,
+      "circa": false
+    },
+    "end": {
+      "earliest": 982,
+      "latest": 982,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q1395011",
+    "region": "India",
+    "name": "Chalukya Dynasty"
+  },
+  "after": {
+    "id": "Q14624218",
+    "region": "India",
+    "name": "Western Chalukya Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "India"
+  ],
+  "borders": true,
+  "map": "maps/rashtrakuta-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Manyakheta"
+      ],
+      "infobox": [
+        "Malkheda"
+      ]
+    },
+    "cliopatria_years": [
+      755,
+      989
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Pala Empire",
+      "Late Pallava Empire",
+      "Nanzhao",
+      "Haripuñjaya",
+      "Lavo Kingdom",
+      "Pyu City-States",
+      "Kamarupa Kingdom",
+      "Pandya Dynasty",
+      "Kashmir"
+    ]
+  }
+}

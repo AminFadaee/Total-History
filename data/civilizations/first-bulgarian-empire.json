@@ -47,6 +47,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -84,6 +85,7 @@
     "North Macedonia",
     "Kosovo"
   ],
+  "borders": true,
   "map": "maps/first-bulgarian-empire.png",
   "checks": {
     "infobox": true,
@@ -110,16 +112,14 @@
     "home": "Pliska",
     "labelled": [
       "Byzantine Empire",
-      "Khazaria",
       "Magyars",
+      "Khazaria",
       "East Franks",
       "Great Moravia",
       "Principality of Serbia",
-      "Middle Franks",
-      "Kingdom of the Iberians",
-      "Georgia",
       "Duchy of Benevento",
-      "Duchy of Croatia"
+      "Duchy of Croatia",
+      "Principality of Salerno"
     ]
   }
 }

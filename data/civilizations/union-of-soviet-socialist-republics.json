@@ -1,0 +1,97 @@
+{
+  "id": "Q15180",
+  "slug": "union-of-soviet-socialist-republics",
+  "name": "Union of Soviet Socialist Republics",
+  "wikipedia": "Soviet Union",
+  "map_year": 1946,
+  "period": {
+    "start": {
+      "earliest": 1922,
+      "latest": 1922,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1991,
+      "latest": 1991,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q159",
+    "region": "Russia",
+    "name": "Russian Federation"
+  },
+  "rulers": [
+    {
+      "id": "Q1394",
+      "name": "Vladimir Lenin"
+    },
+    {
+      "id": "Q30487",
+      "name": "Mikhail Gorbachev"
+    }
+  ],
+  "modern_countries": [
+    "Russia",
+    "Kazakhstan",
+    "China",
+    "Ukraine",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Poland",
+    "Romania",
+    "Belarus",
+    "Kyrgyzstan",
+    "Tajikistan",
+    "North Korea",
+    "Bulgaria",
+    "Hungary",
+    "Azerbaijan",
+    "Czechia",
+    "Georgia",
+    "Lithuania",
+    "Latvia",
+    "Slovakia",
+    "Estonia",
+    "Moldova",
+    "Armenia"
+  ],
+  "borders": true,
+  "map": "maps/union-of-soviet-socialist-republics.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Moscow"
+      ],
+      "infobox": [
+        "Moscow"
+      ]
+    },
+    "cliopatria_years": [
+      1922,
+      1991
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Republic of China",
+      "Mongolian People's Republic",
+      "Pahlavi Dynasty",
+      "Republic of Turkey",
+      "French Africa",
+      "British Raj",
+      "British Africa",
+      "Denmark",
+      "Kingdom of Saudi Arabia",
+      "British Gold Coast",
+      "Ethiopia",
+      "Kingdom of Egypt",
+      "Tibet"
+    ]
+  }
+}

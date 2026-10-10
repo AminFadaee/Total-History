@@ -17,20 +17,9 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Luoyang",
-      "location": [
-        112.42447,
-        34.65867
-      ]
-    }
-  ],
-  "before": {
-    "id": "Q320930",
-    "region": "China",
-    "name": "Cao Wei"
-  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
   "after": {
     "id": "Q49697",
     "region": "China",
@@ -42,6 +31,7 @@
     "Hong Kong S.A.R.",
     "Macao S.A.R"
   ],
+  "borders": true,
   "map": "maps/western-jin.png",
   "checks": {
     "infobox": true,
@@ -60,7 +50,7 @@
       425
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Luoyang",
+    "home": "the spot held longest",
     "labelled": [
       "Indo-Sasanian Empire",
       "Goguryeo",

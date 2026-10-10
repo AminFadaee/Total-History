@@ -26,6 +26,13 @@
       ]
     },
     {
+      "name": "Abbasid Samarra",
+      "location": [
+        43.801944444444445,
+        34.361666666666665
+      ]
+    },
+    {
       "name": "Cairo",
       "location": [
         31.235833333333332,
@@ -33,6 +40,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q8575586",
     "region": "Iraq",
@@ -85,6 +93,7 @@
     "Palestine",
     "Bahrain"
   ],
+  "borders": true,
   "map": "maps/abbasid-caliphate.png",
   "checks": {
     "infobox": true,

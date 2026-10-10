@@ -3,13 +3,22 @@
   "slug": "caucasian-albania",
   "name": "Caucasian Albania",
   "wikipedia": "Caucasian Albania",
-  "map_year": 439,
+  "map_year": 500,
   "period": {
     "start": null,
     "end": null,
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Qabala",
+      "location": [
+        47.845833333333,
+        40.981388888889
+      ]
+    }
+  ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -17,6 +26,7 @@
     "Azerbaijan",
     "Georgia"
   ],
+  "borders": true,
   "map": "maps/caucasian-albania.png",
   "checks": {
     "infobox": true,
@@ -35,10 +45,11 @@
       509
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Qabala",
     "labelled": [
       "Sasanian Empire",
-      "Caucasian Iberia"
+      "Caucasian Iberia",
+      "Lazica"
     ]
   }
 }

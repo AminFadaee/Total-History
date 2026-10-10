@@ -3,7 +3,7 @@
   "slug": "khanate-of-kazan",
   "name": "Khanate of Kazan",
   "wikipedia": "Khanate of Kazan",
-  "map_year": 1502,
+  "map_year": 1547,
   "period": {
     "start": {
       "earliest": 1438,
@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q79965",
     "region": "Russia",
@@ -40,6 +41,7 @@
   "modern_countries": [
     "Russia"
   ],
+  "borders": true,
   "map": "maps/khanate-of-kazan.png",
   "checks": {
     "infobox": true,
@@ -58,11 +60,9 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Kazan",
     "labelled": [
-      "Grand Principality of Moscow",
+      "Tsardom of Russia",
       "Nogai Horde",
-      "House of Jagiellon",
-      "Qasim Khanate",
-      "Pskov Republic"
+      "Qasim Khanate"
     ]
   }
 }

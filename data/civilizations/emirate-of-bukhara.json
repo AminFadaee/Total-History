@@ -1,0 +1,69 @@
+{
+  "id": "Q746558",
+  "slug": "emirate-of-bukhara",
+  "name": "Emirate of Bukhara",
+  "wikipedia": "Emirate of Bukhara",
+  "map_year": 1803,
+  "period": {
+    "start": {
+      "earliest": 1785,
+      "latest": 1785,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1920,
+      "latest": 1920,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bukhara",
+      "location": [
+        64.428611111111,
+        39.774722222222
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q577668",
+    "region": "Uzbekistan",
+    "name": "Khanate of Bukhara"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Tajikistan",
+    "Turkmenistan",
+    "Uzbekistan"
+  ],
+  "borders": true,
+  "map": "maps/emirate-of-bukhara.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bukhara"
+      ],
+      "infobox": [
+        "Bukhara"
+      ]
+    },
+    "cliopatria_years": [
+      1788,
+      1919
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bukhara",
+    "labelled": [
+      "Durrani Empire",
+      "Khanate of Khiva",
+      "Qing Dynasty",
+      "Qajar Dynasty",
+      "Kazakh Khanate",
+      "Khanate of Kokand"
+    ]
+  }
+}

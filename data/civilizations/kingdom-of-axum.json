@@ -22,6 +22,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -36,6 +37,7 @@
     "Yemen",
     "Saudi Arabia"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-axum.png",
   "checks": {
     "infobox": true,
@@ -56,8 +58,7 @@
     "home": "Axum",
     "labelled": [
       "Himyarite Kingdom",
-      "Kingdom of Kush",
-      "Hadhramaut"
+      "Sabaeans"
     ]
   }
 }

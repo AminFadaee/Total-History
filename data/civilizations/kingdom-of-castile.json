@@ -18,6 +18,7 @@
     "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q175276",
     "region": "Spain",
@@ -42,6 +43,7 @@
     "Spain",
     "Portugal"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-castile.png",
   "checks": {
     "infobox": true,
@@ -60,12 +62,11 @@
     "labelled": [
       "Almoravid Dynasty",
       "Duchy of Aquitaine",
-      "County of Toulouse",
-      "Duchy of Brittany",
-      "Hammadid Dynasty",
-      "County of Blôis",
-      "Kingdom of Arles",
-      "Papal States"
+      "Taifa of Zaragoza",
+      "Kingdom of Aragon",
+      "Taifa of Dénia",
+      "Taifa of Albarracín",
+      "Taifa of Tortosa"
     ]
   }
 }

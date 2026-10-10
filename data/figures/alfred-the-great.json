@@ -20,7 +20,9 @@
   "contribution": "King of the West Saxons from 871 to 886, and King of the Anglo-Saxons from 886 until his death in 899.",
   "image": "",
   "image_credit": "",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -37,6 +39,7 @@
       ]
     },
     "lead": "Alfred the Great (Old English: Ælfrǣd [ˈæɫvˌræːd]; c. 849 – 26 October 899) was King of the West Saxons from 871 to 886, and King of the Anglo-Saxons from 886 until his death in 899. He was the youngest son of King Æthelwulf and Æthelwulf's first wife Osburh, who both died when Alfred was young. Three of Alfred's brothers, Æthelbald, Æthelberht and Æthelred, reigned in turn before him. Under Alfred's rule, considerable administrative and military reforms were introduced, prompting lasting change in England.",
-    "photo": "image is a coin or calligraphy"
+    "image": "no candidate shows a portrait of the person",
+    "photo": "no death year in or after 1860"
   }
 }

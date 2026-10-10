@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q2060657",
     "region": "Indonesia",
@@ -42,6 +43,7 @@
     "Malaysia",
     "East Timor"
   ],
+  "borders": true,
   "map": "maps/majapahit.png",
   "checks": {
     "infobox": true,

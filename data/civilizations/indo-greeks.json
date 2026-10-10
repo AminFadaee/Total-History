@@ -5,15 +5,20 @@
   "wikipedia": "Indo-Greek Kingdom",
   "map_year": -126,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -200,
+      "latest": -200,
+      "circa": false
+    },
     "end": {
       "earliest": 10,
       "latest": 10,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q488880",
     "region": "India",
@@ -30,6 +35,7 @@
     "India",
     "Afghanistan"
   ],
+  "borders": true,
   "map": "maps/indo-greeks.png",
   "checks": {
     "infobox": true,

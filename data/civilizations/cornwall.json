@@ -3,19 +3,21 @@
   "slug": "cornwall",
   "name": "Cornwall",
   "wikipedia": "Cornwall",
-  "map_year": 710,
+  "map_year": 936,
   "period": {
     "start": null,
     "end": null,
     "confirmed": false
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
   "modern_countries": [
     "United Kingdom"
   ],
+  "borders": true,
   "map": "maps/cornwall.png",
   "checks": {
     "infobox": false,
@@ -32,17 +34,12 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Kingdom of Wessex",
-      "Kingdom of the Franks",
-      "Aquitaine",
-      "Kingdom of Italy",
-      "Saxons",
-      "Bavarians",
-      "Kingdom of Mercia",
-      "Kingdom of Northumbria",
-      "Duchy of Thuringia",
-      "Merovingian Empire",
-      "Breton Kingdoms"
+      "Kingdom of England",
+      "Viking settlements",
+      "Duchy of Normandy",
+      "Upper Burgundy",
+      "Kingdom of Seisyllwg",
+      "Danelaw"
     ]
   }
 }

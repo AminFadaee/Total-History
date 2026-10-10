@@ -3,7 +3,7 @@
   "slug": "kingdom-of-judah",
   "name": "Kingdom of Judah",
   "wikipedia": "Kingdom of Judah",
-  "map_year": -800,
+  "map_year": -750,
   "period": {
     "start": {
       "earliest": -930,
@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q3185305",
     "region": "Palestine",
@@ -47,6 +48,7 @@
     "Israel",
     "Jordan"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-judah.png",
   "checks": {
     "infobox": true,
@@ -65,11 +67,8 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Jerusalem",
     "labelled": [
-      "Neo-Assyrian Empire",
-      "Twenty-second Dynasty of Egypt",
-      "Twenty-third Dynasty of Egypt",
-      "Elam",
-      "Tabal Kingdom"
+      "Kingdom of Israel",
+      "Twenty-third Dynasty of Egypt"
     ]
   }
 }

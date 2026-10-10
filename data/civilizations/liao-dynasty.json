@@ -1,0 +1,75 @@
+{
+  "id": "Q4958",
+  "slug": "liao-dynasty",
+  "name": "Liao Dynasty",
+  "wikipedia": "Liao dynasty",
+  "map_year": 980,
+  "period": {
+    "start": {
+      "earliest": 916,
+      "latest": 916,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1125,
+      "latest": 1125,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Linhuangfu",
+      "location": [
+        119.391,
+        43.9625
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q5066",
+    "region": "China",
+    "name": "Great Jin"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Mongolia",
+    "Russia",
+    "North Korea"
+  ],
+  "borders": true,
+  "map": "maps/liao-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Lindong",
+        "Liaoyang Fu",
+        "Zhongjing",
+        "Nanjing",
+        "Datong Fu",
+        "Linhuangfu"
+      ],
+      "infobox": [
+        "Linhuangfu"
+      ]
+    },
+    "cliopatria_years": [
+      911,
+      1125
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Linhuangfu",
+    "labelled": [
+      "Northern Song",
+      "Ganzhou Kingdom",
+      "Goryeo",
+      "Qocho Kingdom",
+      "Yenisei Kyrgyz",
+      "Heian Japan"
+    ]
+  }
+}

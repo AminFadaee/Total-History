@@ -3,7 +3,7 @@
   "slug": "silla",
   "name": "Silla",
   "wikipedia": "Silla",
-  "map_year": 567,
+  "map_year": 674,
   "period": {
     "start": {
       "earliest": -57,
@@ -14,6 +14,7 @@
     "confirmed": false
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q701273",
     "region": "South Korea",
@@ -29,6 +30,7 @@
     "South Korea",
     "North Korea"
   ],
+  "borders": true,
   "map": "maps/silla.png",
   "checks": {
     "infobox": true,
@@ -47,9 +49,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Goguryeo",
-      "Baekje",
-      "Northern Qi",
+      "Tang Dynasty",
       "Asuka Japan"
     ]
   }

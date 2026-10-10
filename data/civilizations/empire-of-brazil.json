@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q155",
@@ -45,6 +46,7 @@
   "modern_countries": [
     "Brazil"
   ],
+  "borders": true,
   "map": "maps/empire-of-brazil.png",
   "checks": {
     "infobox": true,

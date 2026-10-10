@@ -1,0 +1,67 @@
+{
+  "id": "Q696241",
+  "slug": "khanate-of-kokand",
+  "name": "Khanate of Kokand",
+  "wikipedia": "Khanate of Kokand",
+  "map_year": 1822,
+  "period": {
+    "start": {
+      "earliest": 1709,
+      "latest": 1709,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1876,
+      "latest": 1876,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kokand",
+      "location": [
+        70.9425,
+        40.528611111111
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q577668",
+    "region": "Uzbekistan",
+    "name": "Khanate of Bukhara"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Uzbekistan"
+  ],
+  "borders": true,
+  "map": "maps/khanate-of-kokand.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kokand"
+      ],
+      "infobox": [
+        "Kokand"
+      ]
+    },
+    "cliopatria_years": [
+      1709,
+      1876
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kokand",
+    "labelled": [
+      "Qing Dynasty",
+      "Khanate of Khiva",
+      "Kazakh Khanate",
+      "Emirate of Bukhara"
+    ]
+  }
+}

@@ -18,7 +18,9 @@
   "contribution": "A Russian philosopher, novelist, short-story writer, essayist, and journalist.",
   "image": "images/fyodor-dostoevsky.jpg",
   "image_credit": "Vasily Perov · Public domain",
-  "photo": true,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Fyodor Mikhailovich Dostoevsky (11 November [O.S. 30 October] 1821 – 9 February [O.S. 28 January] 1881) was a Russian philosopher, novelist, short-story writer, essayist, and journalist. He is regarded as one of the greatest novelists in both Russian and world literature, and many of his works are considered highly influential masterpieces. Dostoevsky's literary works explore the human condition in the troubled political, social and spiritual atmospheres of 19th-century Russia, and engage with a variety of philosophical and religious themes. His most acclaimed novels include Crime and Punishment (1866), The Idiot (1869), Demons (1872), The Adolescent (1875) and The Brothers Karamazov (1880). His Notes from Underground, a novella published in 1864, is considered one of the first works of existentialist literature.",
-    "photo": "captured 1872 during their lifetime"
+    "image": "",
+    "photo": "Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg: model 0.14, portrait 1.00, captured 1872, during their lifetime; Initial J.png: model 0.12, portrait 0.52; Thoughtful Shelf.jpg: model 0.73, portrait 0.16; Спектакль «Достоевский FM», реж. Эдуард Терехов.png: model 0.86, portrait 0.51; History of Russian writers by mos.ru 05.jpg: model 0.82, portrait 0.00, captured 1881, during their lifetime; History of Russian writers by mos.ru 04.jpg: model 0.75, portrait 0.00; Premiere of Bobok in Army Theatre 03.jpg: model 0.79, portrait 0.92; Premiere of Bobok in Army Theatre 02.jpg: model 0.61, portrait 0.05; Premiere of Bobok in Army Theatre 01.jpg: model 0.81, portrait 0.07; Premiere of Bobok in Army Theatre 04.jpg: model 0.35, portrait 0.43"
   }
 }

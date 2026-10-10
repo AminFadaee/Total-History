@@ -12,14 +12,17 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of England",
+    "Kingdom of England"
+  ],
+  "related": [
     "Commonwealth of England"
   ],
-  "related": [],
   "contribution": "King of England, Scotland, and Ireland from 27 March 1625 until his execution in 1649.",
   "image": "images/charles-i-of-england.jpg",
   "image_credit": "Anthony van Dyck · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -37,6 +40,7 @@
       ]
     },
     "lead": "Charles I (19 November 1600 – 30 January 1649) was King of England, Scotland, and Ireland from 27 March 1625 until his execution in 1649.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

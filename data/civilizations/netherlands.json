@@ -1,0 +1,53 @@
+{
+  "id": "Q55",
+  "slug": "netherlands",
+  "name": "Netherlands",
+  "wikipedia": "Netherlands",
+  "map_year": 1815,
+  "period": {
+    "start": {
+      "earliest": 1795,
+      "latest": 1795,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Netherlands",
+    "Belgium",
+    "Luxembourg"
+  ],
+  "borders": true,
+  "map": "maps/netherlands.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [
+        "Amsterdam"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1815,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "German Confederation",
+      "Bourbon Kingdom of France",
+      "Kingdom of Great Britain",
+      "Kingdom of Bavaria",
+      "Grand Duchy of Berg",
+      "Grand Duchy of Baden",
+      "Duchy of Mecklenburg",
+      "Electorate of Hesse"
+    ]
+  }
+}

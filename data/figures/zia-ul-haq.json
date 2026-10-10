@@ -26,7 +26,9 @@
   "contribution": "A Pakistani general who ruled Pakistan from his coup in 1977 until his death in an airplane crash in 1988.",
   "image": "images/zia-ul-haq.jpg",
   "image_credit": "Series: Reagan White House Photographs, 1/20/1981 - 1/20/1989 Collection: White House Photographic Collection, 1/20/1981 - 1/20/1989 · Public domain",
-  "photo": true,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -55,6 +57,7 @@
       ]
     },
     "lead": "Muhammad Zia-ul-Haq (12 August 1924 – 17 August 1988) was a Pakistani general who ruled Pakistan from his coup in 1977 until his death in an airplane crash in 1988. He served as the chief martial law administrator from 1977 to 1985, and as the president of Pakistan from 1978 until his death. Zia was also the chief of the army staff of the Pakistan Army from 1976. He remains Pakistan's longest-serving de-facto ruler to date, and his political ideology is known as Ziaism.",
-    "photo": "captured 1982-12-07 during their lifetime"
+    "image": "",
+    "photo": "President Mohammad Zia Ul Haq.jpg: model 0.34, portrait 0.93, captured 1982, during their lifetime; General Muhammad Zia-Ul-Haq.jpg: model 0.29, portrait 0.87; President and Bill Clark Meeting with President Mohammad Zia Ul Haq of Pakistan in The Oval Office - DPLA - ea1ec517dc2de776dfd46cc49e55bde6.jpg: model 0.13, portrait 0.05, captured 1982, during their lifetime; President Mohammad Zia Ul Haq (cropped).jpg: model 0.49, portrait 0.90, captured 1982, during their lifetime; General Shamim Alam Khan receiving the Hilal-i-Imtiaz.jpg: model 0.30, portrait 0.11; Muhammad Zia-ul-Haq 1982.jpg: model 0.52, portrait 0.72, captured 1982, during their lifetime; Muhammad Zia-ul-Haq with his father (1929).jpg: model 0.95, portrait 0.13, captured 1929, during their lifetime; President Ronald Reagan in Meeting with President Mohammad Zia Ul Haq of Pakistan in Oval Office - DPLA - eefc4fe9db7b6d32f496c5bf18efdd6d.jpg: model 0.23, portrait 0.13, captured 1982, during their lifetime; Zia-ul-haq (trimmed).PNG: model 0.08, portrait 0.85; General zia and reagan.PNG: model 0.04, portrait 0.06, captured 1982, during their lifetime"
   }
 }

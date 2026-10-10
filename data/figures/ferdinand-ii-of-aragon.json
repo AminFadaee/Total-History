@@ -23,7 +23,9 @@
   "contribution": "King of Aragon from 1479 until his death in 1516.",
   "image": "images/ferdinand-ii-of-aragon.jpg",
   "image_credit": "Michael Sittow · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -44,6 +46,7 @@
       ]
     },
     "lead": "Ferdinand II (10 March 1452 – 23 January 1516), also known as Ferdinand the Catholic (Spanish: Fernando el Católico), was King of Aragon from 1479 until his death in 1516. As the husband and co-ruler of Queen Isabella I of Castile, he was also King of Castile from 1475 to 1504 (as Ferdinand V). He reigned jointly with Isabella over a dynastically unified Spain; together, they are known as the Catholic Monarchs. Ferdinand is considered the de facto first king of Spain, and was described as such during his reign, even though, legally, Castile and Aragon remained two separate kingdoms until they were formally united by the Nueva Planta decrees issued between 1707 and 1716.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

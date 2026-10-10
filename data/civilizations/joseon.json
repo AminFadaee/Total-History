@@ -3,7 +3,7 @@
   "slug": "joseon",
   "name": "Joseon",
   "wikipedia": "Joseon",
-  "map_year": 1516,
+  "map_year": 1600,
   "period": {
     "start": {
       "earliest": 1392,
@@ -17,7 +17,16 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Seoul",
+      "location": [
+        126.99,
+        37.56
+      ]
+    }
+  ],
+  "parts": [],
   "before": {
     "id": "Q28208",
     "region": "South Korea",
@@ -42,6 +51,7 @@
     "North Korea",
     "South Korea"
   ],
+  "borders": true,
   "map": "maps/joseon.png",
   "checks": {
     "infobox": true,
@@ -60,10 +70,12 @@
       1897
     ],
     "identity": "Wikipedia item with overlapping dates",
-    "home": "the spot held longest",
+    "home": "Seoul",
     "labelled": [
       "Ming Dynasty",
-      "Warring States Japan"
+      "Mongol Khanate",
+      "Warring States Japan",
+      "Tokugawa Shogunate"
     ]
   }
 }

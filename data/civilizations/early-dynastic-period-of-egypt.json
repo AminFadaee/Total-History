@@ -3,13 +3,22 @@
   "slug": "early-dynastic-period-of-egypt",
   "name": "Early Dynastic Period of Egypt",
   "wikipedia": "Early Dynastic Period of Egypt",
-  "map_year": -3000,
+  "map_year": -2700,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false
+    "start": {
+      "earliest": -3150,
+      "latest": -3150,
+      "circa": true
+    },
+    "end": {
+      "earliest": -2686,
+      "latest": -2686,
+      "circa": true
+    },
+    "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q177819",
@@ -20,6 +29,7 @@
   "modern_countries": [
     "Egypt"
   ],
+  "borders": true,
   "map": "maps/early-dynastic-period-of-egypt.png",
   "checks": {
     "infobox": true,
@@ -36,8 +46,6 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
-    "labelled": [
-      "Sumerian City-States"
-    ]
+    "labelled": []
   }
 }

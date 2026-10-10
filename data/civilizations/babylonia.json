@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Babylon",
-      "location": [
-        44.42111111111111,
-        32.5425
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -33,6 +26,7 @@
     "Iraq",
     "Iran"
   ],
+  "borders": true,
   "map": "maps/babylonia.png",
   "checks": {
     "infobox": true,
@@ -49,13 +43,11 @@
       -601
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Babylon",
+    "home": "the spot held longest",
     "labelled": [
       "Mitanni",
       "Elam",
-      "Assyria",
-      "New Kingdom of Egypt",
-      "Hittites"
+      "Assyria"
     ]
   }
 }

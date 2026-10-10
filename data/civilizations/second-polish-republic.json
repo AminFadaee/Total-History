@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -39,6 +40,7 @@
     "Ukraine",
     "Belarus"
   ],
+  "borders": true,
   "map": "maps/second-polish-republic.png",
   "checks": {
     "infobox": true,
@@ -63,8 +65,6 @@
       "Hungarian Republic",
       "Republic of Latvia",
       "Kingdom of Lithuania",
-      "French Third Republic",
-      "Estonia",
       "Swiss Confederation",
       "Netherlands",
       "Kingdom of Belgium"

@@ -1,0 +1,51 @@
+{
+  "id": "Q43937",
+  "slug": "azawad",
+  "name": "Azawad",
+  "wikipedia": "Azawad",
+  "map_year": 2012,
+  "period": {
+    "start": {
+      "earliest": 2012,
+      "latest": 2012,
+      "circa": false
+    },
+    "end": {
+      "earliest": 2013,
+      "latest": 2013,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Timbuktu",
+      "location": [
+        -2.9994438888889,
+        16.773333055556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Timbuktu"
+      ],
+      "infobox": [
+        "Timbuktu",
+        "Gao"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

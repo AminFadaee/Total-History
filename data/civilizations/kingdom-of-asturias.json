@@ -38,15 +38,9 @@
         -6.1138664,
         43.4896744
       ]
-    },
-    {
-      "name": "Oviedo",
-      "location": [
-        -5.8502777777778,
-        43.3625
-      ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q126936",
     "region": "Spain",
@@ -71,6 +65,7 @@
     "Spain",
     "Portugal"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-asturias.png",
   "checks": {
     "infobox": true,
@@ -97,10 +92,8 @@
     "labelled": [
       "Emirate of Córdoba",
       "County of Ribagorza",
-      "West Franks",
-      "Aghlabid Dynasty",
-      "Kingdom of Brittany",
-      "County of Urgell"
+      "County of Urgell",
+      "County of Pallars"
     ]
   }
 }

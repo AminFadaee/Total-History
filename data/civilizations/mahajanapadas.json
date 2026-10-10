@@ -1,0 +1,52 @@
+{
+  "id": "Q846025",
+  "slug": "mahajanapadas",
+  "name": "Mahajanapadas",
+  "wikipedia": "Mahajanapadas",
+  "map_year": -480,
+  "period": {
+    "start": {
+      "earliest": -600,
+      "latest": -600,
+      "circa": true
+    },
+    "end": {
+      "earliest": -345,
+      "latest": -345,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Nepal",
+    "India"
+  ],
+  "borders": true,
+  "map": "maps/mahajanapadas.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -480,
+      -451
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Magadha - Haryanka dynasty",
+      "Janapada of Malla",
+      "Janapada of Kāśī",
+      "Janapada of Kosala",
+      "Janapada of Pañcāla",
+      "Janapada of Cedī"
+    ]
+  }
+}

@@ -33,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q1986139",
     "region": "Iran",
@@ -73,6 +74,7 @@
     "Palestine",
     "Bahrain"
   ],
+  "borders": true,
   "map": "maps/sasanian-empire.png",
   "checks": {
     "infobox": true,
@@ -95,14 +97,14 @@
     "labelled": [
       "Western Göktürks",
       "Eastern Roman Empire",
+      "Nobatia",
       "Turk Shahis",
-      "Harsha's Empire",
+      "Karkota Dynasty",
       "Avar Khaganate",
-      "Visigothic Kingdom",
+      "Harsha's Empire",
       "Chalukya Dynasty",
-      "Tibetan Empire",
-      "Samo's Empire",
-      "Alodia"
+      "Alodia",
+      "Makuria"
     ]
   }
 }

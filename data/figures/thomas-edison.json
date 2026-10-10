@@ -1,0 +1,43 @@
+{
+  "id": "Q8743",
+  "slug": "thomas-edison",
+  "name": "Thomas Edison",
+  "wikipedia": "Thomas Edison",
+  "role": "American inventor and businessman",
+  "life": "1847–1931",
+  "lifetime": [
+    1847,
+    1931
+  ],
+  "occupation": "Inventor",
+  "birth_country": "United States",
+  "civilizations": [
+    "United States of America"
+  ],
+  "related": [],
+  "contribution": "An American inventor and businessman known for his work on the incandescent light bulb, the phonograph, electric power distribution and early motion pictures.",
+  "image": "images/thomas-edison.jpg",
+  "image_credit": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke · Public domain",
+  "image_is_photo": true,
+  "photo": "images/thomas-edison-photo.jpg",
+  "photo_credit": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
+        "United States of America"
+      ],
+      "birthplace": [
+        "United States of America"
+      ]
+    },
+    "lead": "Thomas Alva Edison (February 11, 1847 – October 18, 1931) was an American inventor and businessman known for his work on the incandescent light bulb, the phonograph, electric power distribution and early motion pictures. The merger of the Edison General Electric Company and the competitor Thomson-Houston Electric Company resulted in the formation of General Electric. Edison registered 1,093 patents in the United States.",
+    "image": "",
+    "photo": "model 0.89, portrait 0.95, in Category:Black and white portrait photographs at half length"
+  }
+}

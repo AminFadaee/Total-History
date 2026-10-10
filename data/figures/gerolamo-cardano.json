@@ -18,7 +18,9 @@
   "contribution": "An Italian polymath whose interests and proficiencies ranged through those of mathematician, physician, biologist, physicist, chemist, astrologer, astronomer, philosopher, music theorist, writer, and gambler.",
   "image": "images/gerolamo-cardano.jpg",
   "image_credit": "CC BY 4.0",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -32,6 +34,7 @@
       ]
     },
     "lead": "Gerolamo Cardano (Italian: [dʒeˈrɔːlamo karˈdaːno]; also Girolamo or Geronimo; French: Jérôme Cardan; Latin: Hieronymus Cardanus; 24 September 1501– 21 September 1576) was an Italian polymath whose interests and proficiencies ranged through those of mathematician, physician, biologist, physicist, chemist, astrologer, astronomer, philosopher, music theorist, writer, and gambler. He became one of the most influential mathematicians of the Renaissance and one of the key figures in the foundation of probability; he introduced the binomial coefficients and the binomial theorem in the Western world. He wrote more than 200 works on science.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

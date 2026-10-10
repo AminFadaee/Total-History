@@ -3,7 +3,7 @@
   "slug": "shang-dynasty",
   "name": "Shang Dynasty",
   "wikipedia": "Shang dynasty",
-  "map_year": -1600,
+  "map_year": -1100,
   "period": {
     "start": {
       "earliest": -1600,
@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q35216",
@@ -36,6 +37,7 @@
   "modern_countries": [
     "China"
   ],
+  "borders": true,
   "map": "maps/shang-dynasty.png",
   "checks": {
     "infobox": true,

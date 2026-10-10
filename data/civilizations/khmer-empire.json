@@ -17,7 +17,16 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Hariharalaya",
+      "location": [
+        103.966667,
+        13.333333
+      ]
+    }
+  ],
+  "parts": [],
   "before": {
     "id": "Q1057118",
     "region": "Cambodia",
@@ -31,6 +40,7 @@
     "Cambodia",
     "Vietnam"
   ],
+  "borders": true,
   "map": "maps/khmer-empire.png",
   "checks": {
     "infobox": true,
@@ -50,7 +60,7 @@
       1867
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Hariharalaya",
     "labelled": [
       "Pagan Kingdom",
       "Ngô Dynasty",

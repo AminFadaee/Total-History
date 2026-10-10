@@ -1,0 +1,55 @@
+{
+  "id": "Q23",
+  "slug": "george-washington",
+  "name": "George Washington",
+  "wikipedia": "George Washington",
+  "role": "Founding Father, U.S. president from 1789 to 1797",
+  "life": "1732–1799",
+  "lifetime": [
+    1732,
+    1799
+  ],
+  "occupation": "Politician",
+  "birth_country": "United States",
+  "civilizations": [
+    "United States of America"
+  ],
+  "related": [
+    "British Colonial Empire"
+  ],
+  "contribution": "A Founding Father and the first president of the United States, serving from 1789 to 1797.",
+  "image": "images/george-washington.jpg",
+  "image_credit": "Gilbert Stuart · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "United States of America"
+      ],
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "lead": [
+        "British Colonial Empire"
+      ],
+      "citizenship": [
+        "Kingdom of Great Britain",
+        "United States of America"
+      ],
+      "vital_section": [
+        "United States of America"
+      ],
+      "birthplace": [
+        "British Colonial Empire"
+      ]
+    },
+    "lead": "George Washington (February 22, 1732 [O.S. February 11, 1731] – December 14, 1799) was a Founding Father and the first president of the United States, serving from 1789 to 1797. As commander of the Continental Army, Washington led Patriot forces to victory in the American Revolutionary War against the British Empire. He is commonly known as the Father of His Country for his role in bringing about American independence.",
+    "image": "",
+    "photo": "no death year in or after 1860"
+  }
+}

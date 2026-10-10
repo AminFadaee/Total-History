@@ -1,0 +1,72 @@
+{
+  "id": "Q229411",
+  "slug": "delhi-sultanate",
+  "name": "Delhi Sultanate",
+  "wikipedia": "Delhi Sultanate",
+  "map_year": 1206,
+  "period": {
+    "start": {
+      "earliest": 1206,
+      "latest": 1206,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1526,
+      "latest": 1526,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Lahore",
+      "location": [
+        74.343611111111,
+        31.549722222222
+      ]
+    },
+    {
+      "name": "Budaun",
+      "location": [
+        79.12,
+        28.05
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q311151",
+      "name": "Qutb ud-Din Aibak"
+    },
+    {
+      "id": "Q381754",
+      "name": "Ibrahim Khan Lodi"
+    }
+  ],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Delhi",
+        "Lahore",
+        "Budaun"
+      ],
+      "infobox": [
+        "Lahore",
+        "Budaun",
+        "Delhi",
+        "Daulatabad Fort",
+        "Agra"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

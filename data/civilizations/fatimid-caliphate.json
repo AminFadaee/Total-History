@@ -19,17 +19,17 @@
   },
   "capitals": [
     {
+      "name": "Raqqada",
+      "location": [
+        10.0569,
+        35.596243
+      ]
+    },
+    {
       "name": "Mahdia",
       "location": [
         11.062222222222,
         35.504722222222
-      ]
-    },
-    {
-      "name": "Mansouria",
-      "location": [
-        10.113888888889,
-        35.658055555556
       ]
     },
     {
@@ -40,6 +40,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q12536",
     "region": "Egypt",
@@ -72,6 +73,7 @@
     "Palestine",
     "Malta"
   ],
+  "borders": true,
   "map": "maps/fatimid-caliphate.png",
   "checks": {
     "infobox": true,

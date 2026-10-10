@@ -26,6 +26,14 @@
       ]
     }
   ],
+  "parts": [
+    "Kingdom of Denmark",
+    "Danish India",
+    "Danish Gold Coast",
+    "Greenland",
+    "Old Kingdom of Norway",
+    "Republic of Iceland"
+  ],
   "before": {},
   "after": {},
   "rulers": [],
@@ -36,6 +44,7 @@
     "Denmark",
     "Faroe Islands"
   ],
+  "borders": true,
   "map": "maps/denmark-norway.png",
   "checks": {
     "infobox": true,
@@ -59,9 +68,9 @@
       "Swedish Empire",
       "Holy Roman Empire Minor States",
       "Polish-Lithuanian Commonwealth",
+      "Kingdom of France",
       "Habsburg Monarchy",
       "Kingdom of England",
-      "Kingdom of France",
       "Small Horde"
     ]
   }

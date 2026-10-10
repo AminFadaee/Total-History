@@ -18,6 +18,7 @@
     "confirmed": true
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q42834",
     "region": "Belgium",
@@ -45,6 +46,7 @@
     "Liechtenstein",
     "San Marino"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-the-franks.png",
   "checks": {
     "infobox": true,

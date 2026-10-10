@@ -1,0 +1,64 @@
+{
+  "id": "Q370736",
+  "slug": "british-cape-colony",
+  "name": "British Cape Colony",
+  "wikipedia": "Cape Colony",
+  "map_year": 1877,
+  "period": {
+    "start": {
+      "earliest": 1806,
+      "latest": 1806,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1910,
+      "latest": 1910,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Cape Town",
+      "location": [
+        18.42388888888889,
+        -33.92527777777778
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q4807130",
+    "region": "South Africa",
+    "name": "Napoleonic Batavia Republic"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "South Africa",
+    "Sierra Leone"
+  ],
+  "borders": true,
+  "map": "maps/british-cape-colony.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Cape Town"
+      ],
+      "infobox": [
+        "Cape Town"
+      ]
+    },
+    "cliopatria_years": [
+      1796,
+      1884
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Cape Town",
+    "labelled": [
+      "Free Orange State",
+      "Natalia Republic"
+    ]
+  }
+}

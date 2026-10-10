@@ -1,0 +1,80 @@
+{
+  "id": "Q164079",
+  "slug": "kingdom-of-hanover",
+  "name": "Kingdom of Hanover",
+  "wikipedia": "Kingdom of Hanover",
+  "map_year": 1842,
+  "period": {
+    "start": {
+      "earliest": 1814,
+      "latest": 1814,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1866,
+      "latest": 1866,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q706018",
+    "region": "Germany",
+    "name": "Electorate of Hanover"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q127318",
+      "name": "George III"
+    },
+    {
+      "id": "Q130586",
+      "name": "George IV"
+    },
+    {
+      "id": "Q130822",
+      "name": "William IV"
+    },
+    {
+      "id": "Q162302",
+      "name": "Ernest Augustus, King of Hanover"
+    }
+  ],
+  "modern_countries": [
+    "Germany"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-hanover.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Hanover"
+      ],
+      "infobox": [
+        "Hanover"
+      ]
+    },
+    "cliopatria_years": [
+      1803,
+      1865
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "German Confederation",
+      "Kingdom of Great Britain",
+      "Denmark-Norway",
+      "Netherlands",
+      "Electorate of Hesse",
+      "Duchy of Mecklenburg",
+      "Kingdom of Bavaria",
+      "Kingdom of Belgium",
+      "Kingdom of Saxony",
+      "Duchy of Nassau"
+    ]
+  }
+}

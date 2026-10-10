@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Berlin",
-      "location": [
-        13.383333333333,
-        52.516666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q151624",
     "region": "Germany",
@@ -42,6 +35,7 @@
     "Poland",
     "France"
   ],
+  "borders": true,
   "map": "maps/north-german-confederation.png",
   "checks": {
     "infobox": true,
@@ -58,15 +52,16 @@
       1870
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Berlin",
+    "home": "the spot held longest",
     "labelled": [
       "Russian Empire",
       "Austria-Hungary",
-      "Second French Empire",
       "Kingdom of Bavaria",
       "Kingdom of Belgium",
+      "Kingdom of Saxony",
       "Kingdom of Great Britain",
-      "United Principalities of Moldavia and Wallachia"
+      "United Principalities of Moldavia and Wallachia",
+      "Swiss Confederation"
     ]
   }
 }

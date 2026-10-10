@@ -10,6 +10,7 @@
     "confirmed": false
   },
   "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -18,6 +19,7 @@
     "Jordan",
     "Palestine"
   ],
+  "borders": true,
   "map": "maps/judea.png",
   "checks": {
     "infobox": false,
@@ -32,11 +34,8 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Kingdom of Armenia",
       "Nabataeans",
-      "Ptolemaic Kingdom",
-      "Kingdom of Cappadocia",
-      "Galatia"
+      "Kingdom of Armenia"
     ]
   }
 }

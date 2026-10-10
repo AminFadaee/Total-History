@@ -18,6 +18,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
@@ -25,6 +26,7 @@
     "Georgia",
     "Turkey"
   ],
+  "borders": true,
   "map": "maps/colchis.png",
   "checks": {
     "infobox": true,
@@ -43,10 +45,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Kutaisi",
     "labelled": [
-      "Kingdom of Armenia",
-      "Kingdom of Lysimachus",
-      "Scythia",
-      "Atropatene"
+      "Kingdom of Armenia"
     ]
   }
 }

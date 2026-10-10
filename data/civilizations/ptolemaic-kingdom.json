@@ -1,0 +1,63 @@
+{
+  "id": "Q2320005",
+  "slug": "ptolemaic-kingdom",
+  "name": "Ptolemaic Kingdom",
+  "wikipedia": "Ptolemaic Kingdom",
+  "map_year": -31,
+  "period": {
+    "start": {
+      "earliest": -305,
+      "latest": -305,
+      "circa": false
+    },
+    "end": {
+      "earliest": -30,
+      "latest": -30,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Egypt",
+    "Turkey",
+    "Libya",
+    "Greece",
+    "Syria",
+    "North Macedonia",
+    "Lebanon",
+    "Cyprus"
+  ],
+  "borders": true,
+  "map": "maps/ptolemaic-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Alexandria"
+      ],
+      "infobox": [
+        "Alexandria"
+      ]
+    },
+    "cliopatria_years": [
+      -331,
+      -28
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Parthian Empire",
+      "Roman Empire",
+      "Kingdom of Kush",
+      "Kingdom of Cappadocia",
+      "Thracian Kingdom",
+      "Kingdom of Armenia",
+      "Himyarite Kingdom"
+    ]
+  }
+}

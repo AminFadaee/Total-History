@@ -26,6 +26,15 @@
       ]
     }
   ],
+  "parts": [
+    "Principality of Kiev",
+    "Principality of Volhynia",
+    "Principality of Smolensk",
+    "Principality of Chernigov",
+    "Principality of Pereyaslavl",
+    "Principality of Halych",
+    "Halych-Volhynia occupation"
+  ],
   "before": {},
   "after": {
     "id": "Q12557",
@@ -43,6 +52,7 @@
     "Ukraine",
     "Belarus"
   ],
+  "borders": true,
   "map": "maps/kievan-rus.png",
   "checks": {
     "infobox": true,

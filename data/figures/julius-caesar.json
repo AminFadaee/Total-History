@@ -18,7 +18,9 @@
   "contribution": "A Roman general, statesman, and author who was the dictator of the Roman Republic almost continuously from 49 BC until his assassination in 44 BC. A member of the First Triumvirate, he led the Roman armies through the Gallic Wars and defeated his political rival Pompey in Caesar's civil war.",
   "image": "images/julius-caesar.jpg",
   "image_credit": "Ángel M. Felicísimo from Mérida, España · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -27,11 +29,15 @@
       "lead": [
         "Roman Republic"
       ],
+      "citizenship": [
+        "Roman Republic"
+      ],
       "birthplace": [
         "Roman Republic"
       ]
     },
     "lead": "Gaius Julius Caesar (12 or 13 July 100 BC – 15 March 44 BC) was a Roman general, statesman, and author who was the dictator of the Roman Republic almost continuously from 49 BC until his assassination in 44 BC. A member of the First Triumvirate, he led the Roman armies through the Gallic Wars and defeated his political rival Pompey in Caesar's civil war. He consolidated power and was titled as dictator perpetuo in 44 BC, helping create the political conditions that led to the collapse of the Roman Republic and the emergence of the Roman Empire. For his role in these events, he is regarded as one of history's most influential figures.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

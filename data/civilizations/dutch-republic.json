@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q188553",
@@ -38,6 +39,7 @@
     "Sri Lanka",
     "Netherlands"
   ],
+  "borders": true,
   "map": "maps/dutch-republic.png",
   "checks": {
     "infobox": true,
@@ -57,14 +59,13 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "The Hague",
     "labelled": [
-      "Russian Empire",
-      "Qing Dynasty",
-      "Ottoman Empire",
-      "Durrani Empire",
-      "Kazakh Khanate",
-      "Zand Dynasty",
-      "Tibet",
-      "Maratha Empire"
+      "Holy Roman Empire Minor States",
+      "Kingdom of Prussia",
+      "Habsburg Monarchy",
+      "Kingdom of Great Britain",
+      "Duchy of Bavaria",
+      "Electorate of Saxony",
+      "Electorate of Hanover"
     ]
   }
 }

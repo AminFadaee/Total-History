@@ -12,14 +12,16 @@
   "occupation": "Religious figure",
   "birth_country": "Italy",
   "civilizations": [
-    "Republic of Italy",
-    "Kingdom of Italy"
+    "Kingdom of Italy",
+    "Republic of Italy"
   ],
   "related": [],
   "contribution": "Head of the Catholic Church and sovereign of Vatican City from 21 June 1963 until his death on 6 August 1978.",
   "image": "images/pope-paul-vi.jpg",
   "image_credit": "Fotografia Felici · Public domain",
-  "photo": true,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -34,6 +36,7 @@
       ]
     },
     "lead": "Pope Paul VI (born Giovanni Battista Enrico Antonio Maria Montini; 26 September 1897 – 6 August 1978) was head of the Catholic Church and sovereign of Vatican City from 21 June 1963 until his death on 6 August 1978. Succeeding John XXIII, he continued the Second Vatican Council, which he closed in 1965, implementing its numerous reforms. He fostered improved ecumenical relations with Eastern Orthodox and Protestant churches, which resulted in many historic meetings and agreements.",
-    "photo": "captured early 1969date QS:P571,+1969-00-00T00:00:00Z/9,P4241,Q40719727 during their lifetime"
+    "image": "",
+    "photo": "Pope Paul VI 1969 Portrait (4x5 cropped).jpg: model 0.63, portrait 0.96, in Category:1969 photographs of the Vatican City; Statua papa Paolo VI chiostro Grazie Brescia 2010.jpg: model 0.00, portrait 0.55; PaulVITravelsMap.JPG: model 0.90, portrait 0.04; Madonna di Fatima in Vigentino, memoria d consacrazione LU04273.jpg: model 0.13, portrait 0.01, classified as a photograph on Commons; East Jerusalem 2007146.jpg: model 0.67, portrait 0.18; Bula de Criação da Diocese de Campo Maior.jpg: model 0.46, portrait 0.00, classified as a photograph on Commons; Buon Pastore (Ospitaletto, Cormano) - consecration plaque.jpg: model 0.19, portrait 0.00; Benedizione della chiesa.jpg: model 0.87, portrait 0.00, classified as a photograph on Commons; Commemorative Tablet of Catholic-Orthodox Prayer on Saint Peter's Basilica.jpg: model 0.07, portrait 0.03; Sanpaoloap-stemma papale.jpg: model 0.04, portrait 0.20, classified as a photograph on Commons"
   }
 }

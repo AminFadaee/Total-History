@@ -38,25 +38,15 @@
         74.343611111111,
         31.549722222222
       ]
-    },
-    {
-      "name": "Delhi",
-      "location": [
-        77.216666666667,
-        28.666666666667
-      ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q11709",
     "region": "India",
     "name": "Lodi Dynasty"
   },
-  "after": {
-    "id": "Q129286",
-    "region": "India",
-    "name": "British Raj"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q797848",
@@ -71,9 +61,9 @@
     "India",
     "Pakistan",
     "Afghanistan",
-    "Bangladesh",
-    "Siachen Glacier"
+    "Bangladesh"
   ],
+  "borders": true,
   "map": "maps/mughal-empire.png",
   "checks": {
     "infobox": true,
@@ -97,7 +87,7 @@
       1858
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Delhi",
+    "home": "Agra",
     "labelled": [
       "Safavid Dynasty",
       "Dzungar Khanate",

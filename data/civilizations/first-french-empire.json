@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Paris",
-      "location": [
-        2.352222222222222,
-        48.85666666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q877619",
     "region": "France",
@@ -54,6 +47,7 @@
     "Andorra",
     "Vatican"
   ],
+  "borders": true,
   "map": "maps/first-french-empire.png",
   "checks": {
     "infobox": true,
@@ -70,22 +64,17 @@
       1814
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Paris",
+    "home": "the spot held longest",
     "labelled": [
       "Ottoman Empire",
       "Austrian Empire",
-      "Portuguese Empire",
-      "Spanish Empire",
-      "Emirate of Diriyah",
-      "Kazakh Khanate",
-      "Durrani Empire",
-      "Río de la Plata",
-      "Maratha Empire",
-      "United States of America",
-      "Khanate of Khiva",
-      "Funj Sultanate",
-      "Sokoto Caliphate",
-      "Wadai Empire"
+      "Kingdom of Great Britain",
+      "Italian Republic",
+      "Kingdom of Bavaria",
+      "Morocco",
+      "Regency of Algiers",
+      "Duchy of Warsaw",
+      "Serbs"
     ]
   }
 }

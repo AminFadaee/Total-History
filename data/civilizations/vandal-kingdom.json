@@ -1,0 +1,98 @@
+{
+  "id": "Q10416611",
+  "slug": "vandal-kingdom",
+  "name": "Vandal Kingdom",
+  "wikipedia": "Vandal Kingdom",
+  "map_year": 469,
+  "period": {
+    "start": {
+      "earliest": 435,
+      "latest": 435,
+      "circa": false
+    },
+    "end": {
+      "earliest": 534,
+      "latest": 534,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Hippo Regius",
+      "location": [
+        7.75,
+        36.8825
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q42834",
+    "region": "Algeria",
+    "name": "Western Roman Empire"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q152127",
+      "name": "Gaiseric"
+    },
+    {
+      "id": "Q81140",
+      "name": "Huneric"
+    },
+    {
+      "id": "Q312604",
+      "name": "Gunthamund"
+    },
+    {
+      "id": "Q311888",
+      "name": "Thrasamund"
+    },
+    {
+      "id": "Q310962",
+      "name": "Hilderic"
+    },
+    {
+      "id": "Q294777",
+      "name": "Gelimer"
+    }
+  ],
+  "modern_countries": [
+    "Tunisia",
+    "Libya",
+    "Italy",
+    "Algeria",
+    "Morocco"
+  ],
+  "borders": true,
+  "map": "maps/vandal-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Hippo Regius",
+        "Carthage"
+      ],
+      "infobox": [
+        "Hippo Regius",
+        "Carthage"
+      ]
+    },
+    "cliopatria_years": [
+      439,
+      533
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Hippo Regius",
+    "labelled": [
+      "Eastern Roman Empire",
+      "Western Roman Empire",
+      "Visigothic Kingdom",
+      "Ostrogoths",
+      "Burgundian Kingdom",
+      "Kingdom of the Suebi"
+    ]
+  }
+}

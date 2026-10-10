@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Berlin",
-      "location": [
-        13.383333333333,
-        52.516666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q43287",
     "region": "Germany",
@@ -50,6 +43,7 @@
     "Germany",
     "Poland"
   ],
+  "borders": true,
   "map": "maps/weimar-republic.png",
   "checks": {
     "infobox": true,
@@ -66,18 +60,19 @@
       1935
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Berlin",
+    "home": "the spot held longest",
     "labelled": [
       "French Third Republic",
       "Second Polish Republic",
+      "Czechoslovakia",
       "Republic of Austria",
       "Kingdom of Lithuania",
+      "Swiss Confederation",
       "Kingdom of Belgium",
       "Kingdom of Romania",
       "Yugoslavia",
       "Hungarian Republic",
-      "Republic of Latvia",
-      "Irish Free State"
+      "Republic of Latvia"
     ]
   }
 }

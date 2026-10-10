@@ -23,7 +23,9 @@
   "contribution": "The founder and first khan of the Mongol Empire.",
   "image": "images/genghis-khan.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -47,6 +49,7 @@
       ]
     },
     "lead": "Genghis Khan (born Temüjin; c. 1162 – 18 or 25 August 1227), also known as Chinggis Khan, was the founder and first khan of the Mongol Empire. After spending most of his life uniting the Mongol tribes, he launched a series of military campaigns, conquering large parts of China and Central Asia.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

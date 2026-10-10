@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q12544",
     "region": "Turkey",
@@ -42,6 +43,7 @@
     "Bulgaria",
     "Greece"
   ],
+  "borders": true,
   "map": "maps/latin-empire.png",
   "checks": {
     "infobox": true,
@@ -64,15 +66,11 @@
       "Nicaean Empire",
       "Despotate of Epirus",
       "Kingdom of Serbia",
+      "Kingdom of Thessalonica",
       "Sultanate of Rum",
-      "Kingdom of Hungary",
-      "Halych-Volhynia occupation",
-      "Kingdom of Georgia",
-      "Kingdom of Sicily",
-      "Zengid dynasty",
       "Armenian Kingdom of Cilicia",
-      "Banate of Bosnia",
-      "Papal States"
+      "Principality of Achaea",
+      "Duchy of Athens"
     ]
   }
 }

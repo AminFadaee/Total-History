@@ -18,13 +18,18 @@
   "contribution": "Roman emperor from AD 138 to 161.",
   "image": "images/antoninus-pius.jpg",
   "image_credit": "Unknown artistUnknown artist · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
         "Roman Empire"
       ],
       "death": [
+        "Roman Empire"
+      ],
+      "citizenship": [
         "Roman Empire"
       ],
       "vital_section": [
@@ -35,6 +40,7 @@
       ]
     },
     "lead": "Titus Aelius Hadrianus Antoninus Pius (; Latin: [antoːˈniːnus ˈpius]; 19 September 86 – 7 March 161) was Roman emperor from AD 138 to 161. He was the fourth of the Five Good Emperors from the Nerva–Antonine dynasty and also the fourth of the six adoptive emperors.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

@@ -18,7 +18,9 @@
   "contribution": "An Italian Renaissance painter.",
   "image": "images/titian.jpg",
   "image_credit": "Titian · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "citizenship": [
@@ -29,6 +31,7 @@
       ]
     },
     "lead": "Tiziano Vecellio (Italian: [titˈtsjaːno veˈtʃɛlljo]; c. 1488/1490 – 27 August 1576), Latinized as Titianus, hence known in English as Titian (  TISH-ən), was an Italian Renaissance painter. The most important artist of Renaissance Venetian painting, he was born in Pieve di Cadore, near Belluno.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

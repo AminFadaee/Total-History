@@ -18,9 +18,14 @@
   "contribution": "A German philosopher, social and political theorist, and revolutionary socialist.",
   "image": "images/karl-marx.jpg",
   "image_credit": "John Jabez Edwin Mayall · Public domain",
-  "photo": true,
+  "image_is_photo": false,
+  "photo": "images/karl-marx-photo.jpg",
+  "photo_credit": "Michiel Hendryckx · CC BY-SA 4.0",
   "checks": {
     "civilization_votes": {
+      "death": [
+        "Kingdom of Great Britain"
+      ],
       "lead": [
         "Kingdom of Prussia"
       ],
@@ -32,6 +37,7 @@
       ]
     },
     "lead": "Karl Marx (German: [ˈkaʁl ˈmaʁks]; 5 May 1818 – 14 March 1883) was a German philosopher, social and political theorist, and revolutionary socialist. He developed the theory of historical materialism, analysing societal structure and change, particularly class struggle under capitalism, and predicting the system's ultimate replacement by communism. Marx co-authored The Communist Manifesto (1848) with Friedrich Engels, and undertook a critique of classical political economy in his magnum opus, Das Kapital (1867–1894). His ideas and their later development, collectively known as Marxism, have had enormous influence on intellectual, political, and social history, and have inspired revolutionary movements in many countries.",
-    "photo": "captured before 24th August 1875 during their lifetime"
+    "image": "",
+    "photo": "model 0.95, portrait 1.00"
   }
 }

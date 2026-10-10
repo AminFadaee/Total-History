@@ -1,0 +1,93 @@
+{
+  "id": "Q467627",
+  "slug": "durrani-empire",
+  "name": "Durrani Empire",
+  "wikipedia": "Durrani Empire",
+  "map_year": 1763,
+  "period": {
+    "start": {
+      "earliest": 1747,
+      "latest": 1747,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1826,
+      "latest": 1826,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kandahar",
+      "location": [
+        65.71588,
+        31.62068
+      ]
+    },
+    {
+      "name": "Kabul",
+      "location": [
+        69.165833333333,
+        34.532777777778
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q63149558",
+    "region": "Afghanistan",
+    "name": "Afsharid Iran"
+  },
+  "after": {
+    "id": "Q1335260",
+    "region": "Afghanistan",
+    "name": "Emirate of Afghanistan"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Pakistan",
+    "Afghanistan",
+    "India",
+    "Turkmenistan"
+  ],
+  "borders": true,
+  "map": "maps/durrani-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kandahar",
+        "Kabul"
+      ],
+      "infobox": [
+        "Kandahar",
+        "Kabul",
+        "Peshawar",
+        "Herat"
+      ]
+    },
+    "cliopatria_years": [
+      1748,
+      1827
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kabul",
+    "labelled": [
+      "Qing Dynasty",
+      "Zand Dynasty",
+      "Tibet",
+      "Khanate of Khiva",
+      "Khanate of Bukhara",
+      "Mughal Empire",
+      "Maratha Empire",
+      "British Empire",
+      "Gorkha Kingdom",
+      "Nawab of Awadh",
+      "Khanate of Kokand",
+      "Sultanate of Oman",
+      "Kingdom of Georgia",
+      "Kingdom of Bhutan"
+    ]
+  }
+}

@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q180114",
     "region": "Egypt",
@@ -65,6 +66,7 @@
     "Lebanon",
     "Palestine"
   ],
+  "borders": true,
   "map": "maps/mamluk-sultanate.png",
   "checks": {
     "infobox": true,

@@ -18,7 +18,9 @@
   "contribution": "A Chinese poet and government official of the Tang dynasty.",
   "image": "images/du-fu.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Du Fu (Chinese: 杜甫; pinyin: Dù Fǔ; Wade–Giles: Tu Fu; 712 – 770) was a Chinese poet and government official of the Tang dynasty. Together with his older contemporary and friend Li Bai, he is one of the principal poets associated with Tang poetry. Nearly 1,500 poems attributed to him survive.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

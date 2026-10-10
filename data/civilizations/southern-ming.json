@@ -1,0 +1,71 @@
+{
+  "id": "Q1198163",
+  "slug": "southern-ming",
+  "name": "Southern Ming",
+  "wikipedia": "Southern Ming",
+  "map_year": 1645,
+  "period": {
+    "start": {
+      "earliest": 1644,
+      "latest": 1644,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1662,
+      "latest": 1662,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q9903",
+    "region": "China",
+    "name": "Ming Dynasty"
+  },
+  "after": {
+    "id": "Q8733",
+    "region": "China",
+    "name": "Qing Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Hong Kong S.A.R."
+  ],
+  "borders": true,
+  "map": "maps/southern-ming.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Nanjing"
+      ],
+      "infobox": [
+        "Nanjing",
+        "Fuzhou",
+        "Guangzhou",
+        "Zhaoqing"
+      ]
+    },
+    "cliopatria_years": [
+      1645,
+      1682
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Tibet",
+      "Qing Dynasty",
+      "First Toungoo Empire",
+      "Lan Xang",
+      "Trịnh lords",
+      "Tümed",
+      "Ayutthaya Kingdom",
+      "Joseon",
+      "Nguyễn lords",
+      "Kingdom of Bhutan"
+    ]
+  }
+}

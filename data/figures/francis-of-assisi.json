@@ -18,7 +18,9 @@
   "contribution": "An Italian mystic, poet and Catholic friar who founded the religious order of the Franciscans.",
   "image": "images/francis-of-assisi.jpg",
   "image_credit": "Parzi · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -29,6 +31,7 @@
       ]
     },
     "lead": "Giovanni di Pietro di Bernardone (c. 19 August 1181 – 3 October 1226), known as Saint Francis of Assisi, was an Italian mystic, poet and Catholic friar who founded the religious order of the Franciscans.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

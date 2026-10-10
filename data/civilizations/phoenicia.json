@@ -14,6 +14,7 @@
     "confirmed": false
   },
   "capitals": [],
+  "parts": [],
   "before": {
     "id": "Q180568",
     "region": "Lebanon",
@@ -30,6 +31,7 @@
     "Morocco",
     "Malta"
   ],
+  "borders": true,
   "map": "maps/phoenicia.png",
   "checks": {
     "infobox": true,
@@ -48,13 +50,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Neo-Assyrian Empire",
-      "Twenty-sixth Dynasty of Egypt",
-      "Kingdom of Kush",
-      "Lydia",
-      "Kingdom of Urartu",
-      "Babylonia",
-      "Elam"
+      "Etruscans"
     ]
   }
 }

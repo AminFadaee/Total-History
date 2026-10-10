@@ -1,0 +1,62 @@
+{
+  "id": "Q7380487",
+  "slug": "kingdom-of-pontus",
+  "name": "Kingdom of Pontus",
+  "wikipedia": "Kingdom of Pontus",
+  "map_year": -87,
+  "period": {
+    "start": {
+      "earliest": -281,
+      "latest": -281,
+      "circa": false
+    },
+    "end": {
+      "earliest": 62,
+      "latest": 62,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q373015",
+      "name": "Mithridates V Euergetes"
+    }
+  ],
+  "modern_countries": [
+    "Turkey",
+    "Russia"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-pontus.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Amasya",
+        "Sinop, Turkey"
+      ],
+      "infobox": [
+        "Amasya",
+        "Sinop, Turkey"
+      ]
+    },
+    "cliopatria_years": [
+      -281,
+      67
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Roman Republic",
+      "Kingdom of Armenia",
+      "Greek City-States",
+      "Seleucid Empire",
+      "Thracian Kingdom"
+    ]
+  }
+}

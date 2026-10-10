@@ -17,15 +17,8 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Berlin",
-      "location": [
-        13.383333333333,
-        52.516666666667
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q41304",
@@ -57,6 +50,7 @@
     "Belgium",
     "Luxembourg"
   ],
+  "borders": true,
   "map": "maps/german-empire.png",
   "checks": {
     "infobox": true,
@@ -73,7 +67,7 @@
       1919
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Berlin",
+    "home": "the spot held longest",
     "labelled": [
       "Russian Republic",
       "Austria-Hungary",

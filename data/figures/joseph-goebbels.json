@@ -18,7 +18,9 @@
   "contribution": "A German politician and philologist who was the Gauleiter of Berlin, chief propagandist for the Nazi Party, and then Reich Minister of Propaganda from 1933 until his suicide in 1945.",
   "image": "images/joseph-goebbels.jpg",
   "image_credit": "Heinrich Hoffmann · CC BY-SA 3.0 de",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/joseph-goebbels-photo.jpg",
+  "photo_credit": "Heinrich Hoffmann · CC BY-SA 3.0 de",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -39,6 +41,7 @@
       ]
     },
     "lead": "Paul Joseph Goebbels (29 October 1897 – 1 May 1945) was a German politician and philologist who was the Gauleiter (district leader) of Berlin, chief propagandist for the Nazi Party, and then Reich Minister of Propaganda from 1933 until his suicide in 1945. He was one of Adolf Hitler's closest and most devoted followers and was known for his skills in public speaking and his extreme antisemitism which was evident in his publicly voiced views. He advocated progressively harsher discrimination, including the extermination of Jews and other groups in the Holocaust.",
-    "photo": "captured 1933[1] during their lifetime"
+    "image": "",
+    "photo": "model 0.87, portrait 0.93, in Category:Photographs by Heinrich Hoffmann"
   }
 }

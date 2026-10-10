@@ -19,20 +19,21 @@
   },
   "capitals": [
     {
-      "name": "Tushpa",
-      "location": [
-        43.3425,
-        38.5
-      ]
-    },
-    {
       "name": "Arzashkun",
       "location": [
         42,
         39.2
       ]
+    },
+    {
+      "name": "Tushpa",
+      "location": [
+        43.3425,
+        38.5
+      ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q389688",
@@ -102,6 +103,7 @@
     "Iran",
     "Armenia"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-urartu.png",
   "checks": {
     "infobox": true,
@@ -123,10 +125,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Arzashkun",
     "labelled": [
-      "Neo-Assyrian Empire",
-      "Lydia",
-      "Babylonia",
-      "Elam"
+      "Neo-Assyrian Empire"
     ]
   }
 }

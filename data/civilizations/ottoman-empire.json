@@ -26,17 +26,17 @@
       ]
     },
     {
-      "name": "Bursa",
+      "name": "Prusa",
       "location": [
-        29.08053888888889,
-        40.19133055555555
+        29.061495,
+        40.184818
       ]
     },
     {
-      "name": "Edirne",
+      "name": "Orestias",
       "location": [
-        26.57361,
-        41.67304
+        26.555555555555557,
+        41.676944444444445
       ]
     },
     {
@@ -45,15 +45,9 @@
         28.976018,
         41.01224
       ]
-    },
-    {
-      "name": "Istanbul",
-      "location": [
-        28.960277777778,
-        41.01
-      ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q12544",
     "region": "Turkey",
@@ -100,9 +94,9 @@
     "Kosovo",
     "Lebanon",
     "Palestine",
-    "Cyprus",
-    "Northern Cyprus"
+    "Cyprus"
   ],
+  "borders": true,
   "map": "maps/ottoman-empire.png",
   "checks": {
     "infobox": true,

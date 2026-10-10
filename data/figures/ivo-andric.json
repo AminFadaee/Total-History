@@ -12,8 +12,8 @@
   "occupation": "Writer",
   "birth_country": "Bosnia and Herzegovina",
   "civilizations": [
-    "Socialist Federal Republic of Yugoslavia",
-    "Austria-Hungary"
+    "Austria-Hungary",
+    "Socialist Federal Republic of Yugoslavia"
   ],
   "related": [
     "Nazi Germany",
@@ -22,7 +22,9 @@
   "contribution": "A Yugoslav novelist, poet and short story writer who won the Nobel Prize in Literature in 1961.",
   "image": "images/ivo-andric.jpg",
   "image_credit": "Stevan Kragujević · CC BY-SA 3.0 rs",
-  "photo": false,
+  "image_is_photo": true,
+  "photo": "images/ivo-andric-photo.jpg",
+  "photo_credit": "Stevan Kragujević · CC BY-SA 3.0 rs",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -34,13 +36,15 @@
         "Yugoslavia"
       ],
       "citizenship": [
-        "Socialist Federal Republic of Yugoslavia"
+        "Socialist Federal Republic of Yugoslavia",
+        "Austria-Hungary"
       ],
       "birthplace": [
         "Austria-Hungary"
       ]
     },
     "lead": "Ivo Andrić (Serbian Cyrillic: Иво Андрић, pronounced [ǐːʋo ǎːndritɕ]; born Ivan Andrić; 9 October 1892 – 13 March 1975) was a Yugoslav novelist, poet and short story writer who won the Nobel Prize in Literature in 1961. His writings dealt mainly with life in his native Bosnia under Ottoman rule.",
-    "photo": "capture date '5 January 2014 (original upload date)' not within their lifetime and not classified as a photograph"
+    "image": "",
+    "photo": "model 0.96, portrait 0.85"
   }
 }

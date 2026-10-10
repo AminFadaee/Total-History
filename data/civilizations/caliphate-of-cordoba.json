@@ -1,0 +1,55 @@
+{
+  "id": "Q171740",
+  "slug": "caliphate-of-cordoba",
+  "name": "Caliphate of Córdoba",
+  "wikipedia": "Caliphate of Córdoba",
+  "map_year": 990,
+  "period": {
+    "start": {
+      "earliest": 929,
+      "latest": 929,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q1337854",
+    "region": "Spain",
+    "name": "Emirate of Córdoba"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Spain",
+    "Morocco",
+    "Portugal"
+  ],
+  "borders": true,
+  "map": "maps/caliphate-of-cordoba.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [
+        "Córdoba, Spain"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      936,
+      1071
+    ],
+    "identity": "Wikidata state named like the Cliopatria polity",
+    "home": "the spot held longest",
+    "labelled": [
+      "Fatimid Caliphate",
+      "Kingdom of León",
+      "Duchy of Aquitaine",
+      "Kingdom of Arles",
+      "Duchy of Gascony",
+      "Emirate of Sicily"
+    ]
+  }
+}

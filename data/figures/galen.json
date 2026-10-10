@@ -17,11 +17,16 @@
   "related": [],
   "contribution": "A Roman and Greek physician, surgeon, and philosopher.",
   "image": "images/galen.jpg",
-  "image_credit": "Georg Paul Busch (engraver) · Public domain",
-  "photo": false,
+  "image_credit": "Pierre-Roch Vigneron · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
+        "Roman Empire"
+      ],
+      "citizenship": [
         "Roman Empire"
       ],
       "birthplace": [
@@ -29,6 +34,7 @@
       ]
     },
     "lead": "Aelius Galenus or Claudius Galenus (Greek: Κλαύδιος Γαληνός; September 129 – c. 216 CE), often anglicized as Galen () or Galen of Pergamon, was a Roman and Greek physician, surgeon, and philosopher. Considered to be one of the most accomplished of all medical researchers of antiquity, Galen influenced the development of various scientific disciplines, including anatomy, physiology, pathology, pharmacology, and neurology, as well as philosophy and logic.",
+    "image": "main image is a coin, calligraphy or missing",
     "photo": "no death year in or after 1860"
   }
 }

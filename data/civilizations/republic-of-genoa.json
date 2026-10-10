@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q659312",
@@ -47,6 +48,7 @@
     "France",
     "Russia"
   ],
+  "borders": true,
   "map": "maps/republic-of-genoa.png",
   "checks": {
     "infobox": true,
@@ -65,28 +67,20 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Genoa",
     "labelled": [
-      "Golden Horde",
       "Holy Roman Empire Minor States",
-      "Kingdom of Hungary",
-      "Kingdom of France",
-      "Kingdom of England",
-      "Byzantine Empire",
-      "Kingdom of Poland",
-      "Hafsid Dynasty",
-      "Kingdom of Bohemia",
-      "Second Bulgarian Empire",
-      "Crown of Aragon",
-      "Beylik of Karaman",
-      "Principality of Wallachia",
+      "Capetian House of Anjou",
+      "Republic of Pisa",
       "Kingdom of Naples",
-      "House of Habsburg",
-      "Beylik of Hamid",
-      "Margraviate of Brandenburg",
+      "Crown of Aragon",
       "Papal States",
-      "Duchy of Brittany",
-      "Duchy of Masovia",
-      "Kingdom of Sicily",
-      "Kastamonu"
+      "County of Auvergne",
+      "Kingdom of Majorca",
+      "Banate of Bosnia",
+      "Republic of Florence",
+      "Duchy of Aquitaine",
+      "Dauphiné",
+      "County of Foix",
+      "County of Armagnac"
     ]
   }
 }

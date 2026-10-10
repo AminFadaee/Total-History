@@ -33,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q1734616",
     "region": "Afghanistan",
@@ -56,6 +57,7 @@
     "Azerbaijan",
     "Armenia"
   ],
+  "borders": true,
   "map": "maps/timurid-empire.png",
   "checks": {
     "infobox": true,

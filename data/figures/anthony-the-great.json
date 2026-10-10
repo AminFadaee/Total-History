@@ -18,10 +18,15 @@
   "contribution": "A Christian monk from Egypt, revered since his death as a saint.",
   "image": "images/anthony-the-great.jpg",
   "image_credit": "Michael Damaskinos · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
+        "Roman Empire"
+      ],
+      "citizenship": [
         "Roman Empire"
       ],
       "birthplace": [
@@ -29,6 +34,7 @@
       ]
     },
     "lead": "Anthony the Great (c. 12 January 251 – 17 January 356) was a Christian monk from Egypt, revered since his death as a saint. He is distinguished from other saints named Anthony, such as Anthony of Padua, by various epithets: Anthony of Egypt, Anthony the Abbot, Anthony of the Desert, Anthony the Anchorite, Anthony the Hermit, and Anthony of Thebes. For his importance among the Desert Fathers and to all later Christian monasticism, he is also known as the Father of All Monks. His feast day is celebrated on 17 January among the Eastern Orthodox and Catholic churches and on Tobi 22 in the Coptic calendar.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

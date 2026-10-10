@@ -20,7 +20,9 @@
   "contribution": "An Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.",
   "image": "images/swami-vivekananda.jpg",
   "image_credit": "The original uploader was Dziewa at English Wikipedia. · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -37,6 +39,7 @@
       ]
     },
     "lead": "Swami Vivekananda () (12 January 1863 – 4 July 1902), born Narendranath Datta, was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna. Vivekananda was a major figure in the introduction of Vedanta and Yoga to the Western world during the late 19th century, and is credited with raising interfaith awareness and elevating Hinduism to the status of a major world religion.",
-    "photo": "capture date '7 January 2008 (original upload date)' not within their lifetime and not classified as a photograph"
+    "image": "",
+    "photo": "Swami Vivekananda-1893-09-signed.jpg: model 0.77, portrait 0.73; A youth delivering a speech on Swami Vivekananda during the National Youth Day celebrations on the occasion of Swami Vivekananda’s birth Anniversary, at the Ramakrishna Mission, Delhi on January 12, 2009.jpg: model 0.19, portrait 0.00; The Prime Minister, Dr. Manmohan Singh releasing a book titled \"Awakening India\", at the inauguration of the four year long celebrations of Swami Vivekananda’s 150th birth anniversary, in New Delhi on January 12, 2011.jpg: model 0.16, portrait 0.00"
   }
 }

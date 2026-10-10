@@ -1,0 +1,56 @@
+{
+  "id": "Q62389",
+  "slug": "icelandic-commonwealth",
+  "name": "Icelandic Commonwealth",
+  "wikipedia": "Icelandic Commonwealth",
+  "map_year": 1260,
+  "period": {
+    "start": {
+      "earliest": 930,
+      "latest": 930,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1262,
+      "latest": 1262,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Þingvellir",
+      "location": [
+        -21.125,
+        64.258055555556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Iceland"
+  ],
+  "borders": true,
+  "map": "maps/icelandic-commonwealth.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Þingvellir"
+      ],
+      "infobox": [
+        "Þingvellir"
+      ]
+    },
+    "cliopatria_years": [
+      936,
+      1271
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Þingvellir",
+    "labelled": []
+  }
+}

@@ -21,7 +21,9 @@
   "contribution": "An Italian composer and teacher of the classical period.",
   "image": "images/antonio-salieri.jpg",
   "image_credit": "Joseph Willibrord Mähler · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -40,6 +42,7 @@
       ]
     },
     "lead": "Antonio Salieri (18 August 1750 – 7 May 1825) was an Italian composer and teacher of the classical period.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

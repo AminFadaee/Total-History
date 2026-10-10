@@ -19,13 +19,6 @@
   },
   "capitals": [
     {
-      "name": "Tabriz",
-      "location": [
-        46.29611111111111,
-        38.07388888888889
-      ]
-    },
-    {
       "name": "Erciş",
       "location": [
         43.359722222222,
@@ -40,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q555994",
@@ -54,6 +48,7 @@
     "Azerbaijan",
     "Armenia"
   ],
+  "borders": true,
   "map": "maps/qara-qoyunlu.png",
   "checks": {
     "infobox": true,

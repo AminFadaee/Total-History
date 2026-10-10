@@ -1,0 +1,69 @@
+{
+  "id": "Q4712",
+  "slug": "duchy-of-burgundy",
+  "name": "Duchy of Burgundy",
+  "wikipedia": "Duchy of Burgundy",
+  "map_year": 1475,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1477,
+      "latest": 1477,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q298892",
+      "name": "Philip the Bold"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "Belgium",
+    "Netherlands",
+    "Luxembourg"
+  ],
+  "borders": true,
+  "map": "maps/duchy-of-burgundy.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Dijon"
+      ],
+      "infobox": [
+        "Dijon"
+      ]
+    },
+    "cliopatria_years": [
+      1003,
+      1481
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Holy Roman Empire Minor States",
+      "Kingdom of France",
+      "Kingdom of England",
+      "House of Habsburg",
+      "County of Savoy",
+      "House of Bourbon",
+      "Kingdom of Hungary",
+      "Kingdom of Bohemia",
+      "Electorate of Brandenburg",
+      "Republic of Venice",
+      "Duchy of Bavaria",
+      "Duchy of Milan",
+      "House of Ascania",
+      "Duchy of Brittany",
+      "Teutonic Order",
+      "Republic of Florence"
+    ]
+  }
+}

@@ -26,12 +26,14 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
   "modern_countries": [
     "South Korea"
   ],
+  "borders": true,
   "map": "maps/baekje.png",
   "checks": {
     "infobox": true,
@@ -53,9 +55,8 @@
     "home": "Wiryeseong",
     "labelled": [
       "Goguryeo",
-      "Jinhan",
-      "Former Yan",
-      "Later Zhao"
+      "Dongye",
+      "Jinhan"
     ]
   }
 }

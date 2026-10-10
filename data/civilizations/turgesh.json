@@ -1,0 +1,73 @@
+{
+  "id": "Q1277895",
+  "slug": "turgesh",
+  "name": "Türgesh",
+  "wikipedia": "Türgesh",
+  "map_year": 741,
+  "period": {
+    "start": {
+      "earliest": 699,
+      "latest": 699,
+      "circa": false
+    },
+    "end": {
+      "earliest": 766,
+      "latest": 766,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Suyab",
+      "location": [
+        75.2667,
+        42.8
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mongolia",
+    "China",
+    "Russia",
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Tajikistan"
+  ],
+  "borders": true,
+  "map": "maps/turgesh.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Suyab"
+      ],
+      "infobox": [
+        "Taraz",
+        "Suyab"
+      ]
+    },
+    "cliopatria_years": [
+      692,
+      749
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Suyab",
+    "labelled": [
+      "Tang Dynasty",
+      "Umayyad Caliphate",
+      "Tibetan Empire",
+      "Yenisei Kyrgyz",
+      "Khazaria",
+      "Kannauj-Varman Dynasty",
+      "Balhae",
+      "Turk Shahis",
+      "Unified Silla",
+      "Karkota Dynasty"
+    ]
+  }
+}

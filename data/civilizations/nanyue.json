@@ -1,0 +1,57 @@
+{
+  "id": "Q827040",
+  "slug": "nanyue",
+  "name": "Nanyue",
+  "wikipedia": "Nanyue",
+  "map_year": -170,
+  "period": {
+    "start": {
+      "earliest": -204,
+      "latest": -204,
+      "circa": false
+    },
+    "end": {
+      "earliest": -111,
+      "latest": -111,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q7209",
+    "region": "China",
+    "name": "Han Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Vietnam",
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
+  ],
+  "borders": true,
+  "map": "maps/nanyue.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Panyu County"
+      ],
+      "infobox": [
+        "Guangzhou"
+      ]
+    },
+    "cliopatria_years": [
+      -206,
+      -111
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Han Dynasty"
+    ]
+  }
+}

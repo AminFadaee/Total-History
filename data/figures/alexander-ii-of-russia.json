@@ -25,7 +25,9 @@
   "contribution": "Emperor of Russia, King of Poland, and Grand Duke of Finland from 2 March 1855 until his assassination on 13 March 1881.",
   "image": "images/alexander-ii-of-russia.jpg",
   "image_credit": "Attributed to W. &amp; D. Downey · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/alexander-ii-of-russia-photo.jpg",
+  "photo_credit": "Attributed to W. &amp; D. Downey · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -51,6 +53,7 @@
       ]
     },
     "lead": "Alexander II (29 April 1818 – 13 March 1881) was Emperor of Russia, King of Poland, and Grand Duke of Finland from 2 March 1855 until his assassination on 13 March 1881. He is also known as Alexander the Liberator because of his historic Edict of Emancipation, which officially abolished Russian serfdom in 1861. Crowned on 7 September 1856, he succeeded his father Nicholas I and was succeeded by his son Alexander III.",
-    "photo": "captured circa 18 May 1874date QS:P571,+1874-05-18T00:00:00Z/11,P1480,Q5727902 during their lifetime"
+    "image": "",
+    "photo": "model 0.94, portrait 0.93, in Category:Photographs by W. & D. Downey"
   }
 }

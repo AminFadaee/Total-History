@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q188712",
@@ -37,6 +38,7 @@
     "Japan",
     "Russia"
   ],
+  "borders": true,
   "map": "maps/tokugawa-shogunate.png",
   "checks": {
     "infobox": true,

@@ -1,0 +1,66 @@
+{
+  "id": "Q1923401",
+  "slug": "dzungar-khanate",
+  "name": "Dzungar Khanate",
+  "wikipedia": "Dzungar Khanate",
+  "map_year": 1687,
+  "period": {
+    "start": {
+      "earliest": 1634,
+      "latest": 1634,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1758,
+      "latest": 1758,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q8733",
+    "region": "China",
+    "name": "Qing Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Mongolia",
+    "Kazakhstan",
+    "Kyrgyzstan"
+  ],
+  "borders": true,
+  "map": "maps/dzungar-khanate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Yining"
+      ],
+      "infobox": [
+        "Yining"
+      ]
+    },
+    "cliopatria_years": [
+      1609,
+      1756
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Qing Dynasty",
+      "Tsardom of Russia",
+      "Kazakh Khanate",
+      "Tibet",
+      "Mughal Empire",
+      "Golden Horde",
+      "Khanate of Bukhara",
+      "Tümed",
+      "Khoshut Khanate",
+      "Khanate of Khiva"
+    ]
+  }
+}

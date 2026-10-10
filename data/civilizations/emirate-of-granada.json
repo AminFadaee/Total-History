@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q199688",
     "region": "Spain",
@@ -45,6 +46,7 @@
   "modern_countries": [
     "Spain"
   ],
+  "borders": true,
   "map": "maps/emirate-of-granada.png",
   "checks": {
     "infobox": true,
@@ -63,13 +65,13 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Granada",
     "labelled": [
-      "Almohad Caliphate",
       "Crown of Castile",
-      "Hafsid Dynasty",
+      "Almohad Caliphate",
+      "Taifa of Murcia",
       "Zayyanid dynasty",
-      "Crown of Aragon",
-      "County of Toulouse",
-      "Papal States"
+      "Kingdom of Portugal",
+      "Taifa of Dénia",
+      "Taifa of Valencia"
     ]
   }
 }

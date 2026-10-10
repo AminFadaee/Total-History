@@ -18,7 +18,9 @@
   "contribution": "The wife of emperor Justinian I and Eastern Roman empress from 527 until her death.",
   "image": "images/theodora-wife-of-justinian-i.jpg",
   "image_credit": "Meister von San Vitale in Ravenna · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Theodora (; Greek: Θεοδώρα; c. 490/500 – 28 June 548) was the wife of emperor Justinian I and Eastern Roman empress from 527 until her death.  Theodora was one of Justinian's chief political advisers. She is recognized as a saint in the Eastern Orthodox and Oriental Orthodox Churches, and commemorated on 14 November.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

@@ -1,0 +1,78 @@
+{
+  "id": "Q156418",
+  "slug": "kingdom-of-hawai-i",
+  "name": "Kingdom of Hawaï'i",
+  "wikipedia": "Hawaiian Kingdom",
+  "map_year": 1890,
+  "period": {
+    "start": {
+      "earliest": 1795,
+      "latest": 1795,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1893,
+      "latest": 1893,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Waikīkī",
+      "location": [
+        -157.82861111111,
+        21.276666666667
+      ]
+    },
+    {
+      "name": "Kailua-Kona",
+      "location": [
+        -155.99416666667,
+        19.65
+      ]
+    },
+    {
+      "name": "Lahaina",
+      "location": [
+        -156.67472222222,
+        20.886111111111
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "United States of America"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-hawai-i.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Honolulu",
+        "Kailua-Kona, Hawaii",
+        "Waikīkī",
+        "Hilo, Hawaii",
+        "Lahaina, Hawaii"
+      ],
+      "infobox": [
+        "Waikīkī",
+        "Honolulu",
+        "Kailua-Kona, Hawaii",
+        "Kamehameha I",
+        "Lahaina, Hawaii"
+      ]
+    },
+    "cliopatria_years": [
+      1791,
+      1894
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kailua-Kona",
+    "labelled": []
+  }
+}

@@ -20,7 +20,9 @@
   "contribution": "Head of the Catholic Church and leader of the Papal States from 17 August 1740 to his death on 3 May 1758.",
   "image": "images/pope-benedict-xiv.jpg",
   "image_credit": "Pierre Subleyras · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -41,6 +43,7 @@
       ]
     },
     "lead": "Pope Benedict XIV (Latin: Benedictus XIV; Italian: Benedetto XIV; 31 March 1675 – 3 May 1758), born Prospero Lorenzo Lambertini, was head of the Catholic Church and leader of the Papal States from 17 August 1740 to his death on 3 May 1758. His intellectualism and advocacy of science education earned him the nickname \"the Enlightenment Pope\".",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

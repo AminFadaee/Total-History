@@ -1,0 +1,75 @@
+{
+  "id": "Q13474305",
+  "slug": "francoist-spain",
+  "name": "Francoist Spain",
+  "wikipedia": "Francoist Spain",
+  "map_year": 1945,
+  "period": {
+    "start": {
+      "earliest": 1936,
+      "latest": 1936,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1975,
+      "latest": 1975,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Madrid",
+      "location": [
+        -3.703333333333333,
+        40.41694444444445
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q178038",
+    "region": "Spain",
+    "name": "Second Spanish Republic"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q4714655",
+      "name": "Alejandro Rodríguez de Valcárcel"
+    }
+  ],
+  "modern_countries": [
+    "Spain",
+    "Morocco",
+    "Western Sahara",
+    "Equatorial Guinea"
+  ],
+  "borders": true,
+  "map": "maps/francoist-spain.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Madrid",
+        "Salamanca"
+      ],
+      "infobox": [
+        "Madrid"
+      ]
+    },
+    "cliopatria_years": [
+      1939,
+      1975
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Madrid",
+    "labelled": [
+      "French Africa",
+      "French Fourth Republic",
+      "Kingdom of Egypt",
+      "Republic of Turkey",
+      "Yugoslavia"
+    ]
+  }
+}

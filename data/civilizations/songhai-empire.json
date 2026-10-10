@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q184536",
     "region": "Mali",
@@ -43,6 +44,7 @@
     "Senegal",
     "Gambia"
   ],
+  "borders": true,
   "map": "maps/songhai-empire.png",
   "checks": {
     "infobox": true,

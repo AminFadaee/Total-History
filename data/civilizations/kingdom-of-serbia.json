@@ -26,12 +26,14 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
   "modern_countries": [
     "Republic of Serbia"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-serbia.png",
   "checks": {
     "infobox": true,
@@ -50,14 +52,11 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Belgrade",
     "labelled": [
-      "Ottoman Empire",
       "Austria-Hungary",
+      "Ottoman Empire",
       "United Principalities of Moldavia and Wallachia",
       "Principality of Bulgaria",
-      "French Third Republic",
-      "Kingdom of Italy",
-      "First Hellenic Republic",
-      "Swiss Confederation"
+      "Montenegro"
     ]
   }
 }

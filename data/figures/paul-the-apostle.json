@@ -18,10 +18,15 @@
   "contribution": "A Christian apostle who spread the teachings of Jesus in the first century AD. For his contributions towards the New Testament, he is generally regarded as one of the most important figures of the Apostolic Age, and he also founded several Christian communities in Asia Minor and Europe from the mid-40s to the mid-50s AD.",
   "image": "images/paul-the-apostle.jpg",
   "image_credit": "Guercino · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
+        "Roman Empire"
+      ],
+      "citizenship": [
         "Roman Empire"
       ],
       "birthplace": [
@@ -29,6 +34,7 @@
       ]
     },
     "lead": "Paul (born Saul of Tarsus; c. 5 – c. 64/65 AD), commonly known as Paul the Apostle or Saint Paul, was a Christian apostle who spread the teachings of Jesus in the first century AD. For his contributions towards the New Testament, he is generally regarded as one of the most important figures of the Apostolic Age, and he also founded several Christian communities in Asia Minor and Europe from the mid-40s to the mid-50s AD.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

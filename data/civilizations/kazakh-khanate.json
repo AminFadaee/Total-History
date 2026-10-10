@@ -1,0 +1,107 @@
+{
+  "id": "Q1433867",
+  "slug": "kazakh-khanate",
+  "name": "Kazakh Khanate",
+  "wikipedia": "Kazakh Khanate",
+  "map_year": 1595,
+  "period": {
+    "start": {
+      "earliest": 1465,
+      "latest": 1465,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1847,
+      "latest": 1847,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Sozak",
+      "location": [
+        68.475,
+        44.140277777778
+      ]
+    },
+    {
+      "name": "Sighnaq",
+      "location": [
+        66.963888888889,
+        44.156666666667
+      ]
+    },
+    {
+      "name": "Saray-Jük",
+      "location": [
+        51.73333333,
+        47.5
+      ]
+    },
+    {
+      "name": "Turkistan",
+      "location": [
+        68.26916666666666,
+        43.301944444444445
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q3826541",
+      "name": "Kerei Khan"
+    },
+    {
+      "id": "Q322100",
+      "name": "Ablai Khan"
+    }
+  ],
+  "modern_countries": [
+    "Kazakhstan",
+    "Uzbekistan"
+  ],
+  "borders": true,
+  "map": "maps/kazakh-khanate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Sozak",
+        "Sighnaq",
+        "Saray-Jük",
+        "Turkistan",
+        "Tashkent"
+      ],
+      "infobox": [
+        "Sozak",
+        "Sighnaq",
+        "Saray-Jük",
+        "Turkistan",
+        "Tashkent"
+      ]
+    },
+    "cliopatria_years": [
+      1468,
+      1847
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Sozak",
+    "labelled": [
+      "Tsardom of Russia",
+      "Golden Horde",
+      "Eastern Moghulistan",
+      "Khanate of Bukhara",
+      "Khanate of Khiva",
+      "Small Horde",
+      "Safavid Dynasty",
+      "Khoshut Khanate",
+      "Tümed",
+      "Don Cossacks",
+      "Crimean Khanate"
+    ]
+  }
+}

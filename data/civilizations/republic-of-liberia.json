@@ -1,0 +1,50 @@
+{
+  "id": "Q1014",
+  "slug": "republic-of-liberia",
+  "name": "Republic of Liberia",
+  "wikipedia": "Liberia",
+  "map_year": 1848,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Monrovia",
+      "location": [
+        -10.804722222222,
+        6.3105555555556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Liberia"
+  ],
+  "borders": true,
+  "map": "maps/republic-of-liberia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Monrovia"
+      ],
+      "infobox": [
+        "Monrovia"
+      ]
+    },
+    "cliopatria_years": [
+      1848,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Monrovia",
+    "labelled": [
+      "British Cape Colony"
+    ]
+  }
+}

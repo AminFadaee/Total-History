@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q27306",
     "region": "Poland",
@@ -36,6 +37,7 @@
   "modern_countries": [
     "Poland"
   ],
+  "borders": true,
   "map": "maps/duchy-of-warsaw.png",
   "checks": {
     "infobox": true,
@@ -56,16 +58,15 @@
     "home": "Warsaw",
     "labelled": [
       "Russian Empire",
-      "First French Empire",
       "Austrian Empire",
-      "Kingdom of Great Britain",
+      "Confederation of the Rhine",
+      "First French Empire",
       "Kingdom of Bavaria",
-      "Italian Republic",
-      "Bessarabia",
-      "Principality of Wallachia",
       "Kingdom of Westphalia",
-      "Helvetic Republic",
-      "Kingdom of Saxony"
+      "Kingdom of Saxony",
+      "Duchy of Nassau",
+      "Duchy of Mecklenburg",
+      "Grand Duchy of Würzburg"
     ]
   }
 }

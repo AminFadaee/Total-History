@@ -3,7 +3,7 @@
   "slug": "goryeo",
   "name": "Goryeo",
   "wikipedia": "Goryeo",
-  "map_year": 1375,
+  "map_year": 1385,
   "period": {
     "start": {
       "earliest": 918,
@@ -33,6 +33,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q699871",
     "region": "North Korea",
@@ -48,6 +49,7 @@
     "North Korea",
     "South Korea"
   ],
+  "borders": true,
   "map": "maps/goryeo.png",
   "checks": {
     "infobox": true,

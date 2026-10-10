@@ -3,7 +3,7 @@
   "slug": "gupta-empire",
   "name": "Gupta Empire",
   "wikipedia": "Gupta Empire",
-  "map_year": 410,
+  "map_year": 443,
   "period": {
     "start": {
       "earliest": 320,
@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q12448145",
@@ -43,6 +44,7 @@
     "Pakistan",
     "Bangladesh"
   ],
+  "borders": true,
   "map": "maps/gupta-empire.png",
   "checks": {
     "infobox": true,
@@ -67,17 +69,15 @@
       "Vakataka Kingdom",
       "Kalabhra Dynasty",
       "Kamarupa Kingdom",
-      "Western Jin",
+      "Liu Song Dynasty",
+      "Northern Wei",
       "Protectorate of the Western Regions",
       "White Huns",
-      "Later Qin",
       "Tuyuhun",
       "Lakhmid Kingdom",
       "Funan",
       "Himyarite Kingdom",
-      "Kadamba Empire",
-      "Northern Liang",
-      "Xia"
+      "Kadamba Empire"
     ]
   }
 }

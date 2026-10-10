@@ -19,13 +19,6 @@
   },
   "capitals": [
     {
-      "name": "Nisa",
-      "location": [
-        58.212408333333,
-        37.951147222222
-      ]
-    },
-    {
       "name": "Ctesiphon",
       "location": [
         44.580833,
@@ -38,8 +31,16 @@
         54.103672,
         35.953053
       ]
+    },
+    {
+      "name": "Nisa",
+      "location": [
+        58.212408333333,
+        37.951147222222
+      ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q93180",
     "region": "Turkmenistan",
@@ -62,6 +63,7 @@
     "Qatar",
     "Bahrain"
   ],
+  "borders": true,
   "map": "maps/parthian-empire.png",
   "checks": {
     "infobox": true,

@@ -18,7 +18,9 @@
   "contribution": "The second Pharaoh of the Twentieth Dynasty in ancient Egypt.",
   "image": "images/ramesses-iii.jpg",
   "image_credit": "Miguel Hermoso Cuesta · CC BY-SA 4.0",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "lead": [
@@ -29,6 +31,7 @@
       ]
     },
     "lead": "Usermaatre Meryamun Ramesses III was the second Pharaoh of the Twentieth Dynasty in ancient Egypt. Some scholars date his reign from 26 March 1185 to 15 April 1154 BC, and he is considered to be the last pharaoh of the New Kingdom to have wielded substantial power.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

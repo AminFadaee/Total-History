@@ -18,7 +18,9 @@
   "contribution": "A Chinese poet acclaimed as one of the best and most important poets of the Tang dynasty, and even in the whole of Chinese poetry.",
   "image": "images/li-bai.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Li Bai (c. 701 – 762), also known by his courtesy name of Taibai, was a Chinese poet acclaimed as one of the best and most important poets of the Tang dynasty, and even in the whole of Chinese poetry. He and his friends such as Du Fu (712–770) were among the prominent figures in the flourishing of Chinese poetry of the Tang dynasty, often called the \"Golden Age of Chinese Poetry\". The expression \"Three Wonders\" denotes Li Bai's poetry, Pei Min's swordplay, and Zhang Xu's calligraphy.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

@@ -1,0 +1,52 @@
+{
+  "id": "Q106577",
+  "slug": "kingdom-of-neustria",
+  "name": "Kingdom of Neustria",
+  "wikipedia": "Neustria",
+  "map_year": 724,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 751,
+      "latest": 751,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "France"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-neustria.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Soissons"
+      ],
+      "infobox": [
+        "Soissons"
+      ]
+    },
+    "cliopatria_years": [
+      724,
+      731
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Kingdom of the Franks",
+      "Aquitaine",
+      "Breton Kingdoms",
+      "Kingdom of Alamannia",
+      "Kingdom of Wessex",
+      "Brythons",
+      "Kingdom of Kent"
+    ]
+  }
+}

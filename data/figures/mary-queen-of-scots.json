@@ -12,16 +12,18 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Scotland",
-    "Kingdom of England"
+    "Kingdom of Scotland"
   ],
   "related": [
-    "Kingdom of France"
+    "Kingdom of France",
+    "Kingdom of England"
   ],
   "contribution": "Queen of Scotland from 14 December 1542 until her forced abdication on 24 July 1567.",
   "image": "images/mary-queen-of-scots.jpg",
-  "image_credit": "Unidentified painter · Public domain",
-  "photo": false,
+  "image_credit": "After François Clouet · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -43,6 +45,7 @@
       ]
     },
     "lead": "Mary, Queen of Scots (8 December 1542 – 8 February 1587), also known as Mary Stuart or Mary I of Scotland, was Queen of Scotland from 14 December 1542 until her forced abdication on 24 July 1567.",
+    "image": "main image is a coin, calligraphy or missing",
     "photo": "no death year in or after 1860"
   }
 }

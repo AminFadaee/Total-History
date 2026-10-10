@@ -1,0 +1,66 @@
+{
+  "id": "Q668412",
+  "slug": "pala-empire",
+  "name": "Pala Empire",
+  "wikipedia": "Pala Empire",
+  "map_year": 825,
+  "period": {
+    "start": {
+      "earliest": 750,
+      "latest": 750,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1161,
+      "latest": 1161,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q5324",
+    "region": "India",
+    "name": "Gurjara-Pratihara Dynasty"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Bangladesh"
+  ],
+  "borders": true,
+  "map": "maps/pala-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pataliputra"
+      ],
+      "infobox": [
+        "Murshidabad"
+      ]
+    },
+    "cliopatria_years": [
+      750,
+      1168
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Rashtrakuta Dynasty",
+      "Gurjara-Pratihara Dynasty",
+      "Karkota Dynasty",
+      "Kamarupa Kingdom",
+      "Tibetan Empire",
+      "Nanzhao",
+      "Turk Shahis",
+      "Haripuñjaya",
+      "Lavo Kingdom",
+      "Pyu City-States",
+      "Kashmir"
+    ]
+  }
+}

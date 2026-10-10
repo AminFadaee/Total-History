@@ -18,7 +18,9 @@
   "contribution": "A Russian novelist, short-story writer, and playwright of Ukrainian origin.",
   "image": "images/nikolai-gogol.jpg",
   "image_credit": "Otto Friedrich Theodor von Möller · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Nikolai Vasilyevich Gogol (1 April [O.S. 20 March] 1809 – 4 March [O.S. 21 February] 1852) was a Russian novelist, short-story writer, and playwright of Ukrainian origin.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

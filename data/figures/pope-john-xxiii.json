@@ -22,7 +22,9 @@
   "contribution": "Head of the Catholic Church and sovereign of Vatican City from 28 October 1958 until his death on 3 June 1963.",
   "image": "images/pope-john-xxiii.jpg",
   "image_credit": "De Agostini Editore · Public domain",
-  "photo": true,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -41,6 +43,7 @@
       ]
     },
     "lead": "Pope John XXIII (born Angelo Giuseppe Roncalli;  25 November 1881 – 3 June 1963) was head of the Catholic Church and sovereign of Vatican City from 28 October 1958 until his death on 3 June 1963.",
-    "photo": "captured between 28 October 1958 and 3 June 1963date QS:P571,+1950-00-00T00:00:00Z/7,P1319,+1958-10-28T00:00:00Z/11,P1326,+1963-06-03T00:00:00Z/11 during their lifetime"
+    "image": "",
+    "photo": "Ioannes XXIII, by De Agostini, 1958–1963.jpg: model 0.72, portrait 0.92; Tractatus Astrarii BAV Cod D 39.JPG: model 0.38, portrait 0.00; Juan XXIII.jpg: model 0.90, portrait 0.01; John XXIII - An exposition in Istanbul.jpg: model 0.90, portrait 0.24; Pietra casa natale San Giovanni XXIII.jpg: model 0.05, portrait 0.03; Francesco Coccopalmerio 01.jpg: model 0.32, portrait 0.23; Monumento a Angelo Giuseppe Roncalli - San Miguel.jpg: model 0.00, portrait 0.57; 1981 Diciembre, 20. Visita a la casa natal de SS Juan XXIII en Sotto il Monte, Bérgamo, Italia.jpg: model 0.40, portrait 0.03; Roncalli Venezia2.jpg: model 0.30, portrait 0.01; Roncalli Venezia1.png: model 0.28, portrait 0.63"
   }
 }

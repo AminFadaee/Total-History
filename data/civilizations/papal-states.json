@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q172579",
@@ -38,6 +39,7 @@
     "San Marino",
     "Vatican"
   ],
+  "borders": true,
   "map": "maps/papal-states.png",
   "checks": {
     "infobox": true,
@@ -58,17 +60,12 @@
     "home": "Rome",
     "labelled": [
       "Kingdom of Spain",
-      "Holy Roman Empire Minor States",
       "Republic of Venice",
-      "Habsburg Monarchy",
-      "Kingdom of France",
-      "Regency of Algiers",
-      "Principality of Moldavia",
-      "Principality of Wallachia",
-      "Duchy of Bavaria",
-      "Swiss Confederation",
+      "Republic of Florence",
+      "Holy Roman Empire Minor States",
       "House of Savoy",
-      "Beylik of Tunis"
+      "Swiss Confederation",
+      "Republic of Genoa"
     ]
   }
 }

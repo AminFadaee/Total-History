@@ -18,7 +18,9 @@
   "contribution": "A Persian Hanbali jurist, preacher, and Sufi mystic leader based in Baghdad.",
   "image": "images/abdul-qadir-gilani.jpg",
   "image_credit": "Christies.com · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -29,6 +31,7 @@
       ]
     },
     "lead": "Abd al-Qadir al-Gilani (c. 1077 or 1078 – c. 1166), was a Persian Hanbali jurist, preacher, and Sufi mystic leader based in Baghdad. He is regarded as the eponym and founding figure of the Qadiriyya, one of the oldest Sufi orders. He is also known by the honorific Muhyi al-Dīn (Reviver of the Faith), and in later Sufi tradition, by the titles including Gawth al-Azam (the Greatest Succour) denoting his higher status among the Sufi saints.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

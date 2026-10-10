@@ -1,0 +1,75 @@
+{
+  "id": "Q888574",
+  "slug": "pagan-kingdom",
+  "name": "Pagan Kingdom",
+  "wikipedia": "Pagan Kingdom",
+  "map_year": 1285,
+  "period": {
+    "start": {
+      "earliest": 849,
+      "latest": 849,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1297,
+      "latest": 1297,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bagan",
+      "location": [
+        94.86,
+        21.1725
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q1627675",
+    "region": "Myanmar",
+    "name": "Pyu City-States"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Myanmar"
+  ],
+  "borders": true,
+  "map": "maps/pagan-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bagan"
+      ],
+      "infobox": [
+        "Bagan"
+      ]
+    },
+    "cliopatria_years": [
+      850,
+      1293
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bagan",
+    "labelled": [
+      "Sukhothai Kingdom",
+      "Haripuñjaya",
+      "Mamluk Dynasty",
+      "Khmer Empire",
+      "Yadava Dynasty",
+      "Kakatiya Dynasty",
+      "Pandya Empire",
+      "Eastern Ganga Kingdom",
+      "Ngô Dynasty",
+      "Chámpa",
+      "Chandela Kingdom",
+      "Ceylon",
+      "Hoysala Kingdom",
+      "Lavo Kingdom"
+    ]
+  }
+}

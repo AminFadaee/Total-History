@@ -19,7 +19,9 @@
   "contribution": "Head of the Catholic Church and sovereign of Vatican City from 2 March 1939 until his death on 9 October 1958.",
   "image": "images/pope-pius-xii.jpg",
   "image_credit": "Michael Pitcairn · Public domain",
-  "photo": true,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -34,6 +36,7 @@
       ]
     },
     "lead": "Pope Pius XII (Italian: Pio XII; born Eugenio Maria Giuseppe Giovanni Pacelli; 2 March 1876 – 9 October 1958) was head of the Catholic Church and sovereign of Vatican City from 2 March 1939 until his death on 9 October 1958. Pius reigned as pope during a highly consequential 19 years that included the Second World War, the Holocaust and the beginning of the Cold War.",
-    "photo": "captured circa 1951date QS:P571,+1951-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+    "image": "",
+    "photo": "Pius XII with tabard, by Michael Pitcairn, 1951 (retouched).jpg: model 0.67, portrait 0.86, in Category:Portrait photographs of Pius XII; PPXI.jpeg: model 0.89, portrait 0.00; 1899eugenio.jpg: model 0.81, portrait 0.00; Apostolic Blessing and Plenary Indulgence Parchment - 1948 Oct 26, Pope Pius XII to Della Mora Antonietta (DSC 2566).jpg: model 0.53, portrait 0.28, classified as a photograph on Commons; Pius XII., Glückwunschschreiben Pilger.jpg: model 0.64, portrait 0.00; Pacellis unglückliche Liebe (aus \"Männer um den Papst\", S. 11).png: model 0.58, portrait 0.00, captured 1938, during their lifetime; Eva Perón to meet Pope Pius XII (1947).jpg: model 0.97, portrait 0.07, captured 1947, during their lifetime; Jpg LA Medaglia Benemerenti award, Ursula Muller, 1939.jpg: model 0.45, portrait 0.00, classified as a photograph on Commons; PioXII Lecce.jpg: model 0.14, portrait 0.00, classified as a photograph on Commons; Päpstlicher Bulle.jpg: model 0.74, portrait 0.00"
   }
 }

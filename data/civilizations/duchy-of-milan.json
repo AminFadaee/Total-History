@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [
@@ -38,6 +39,7 @@
     "Italy",
     "Switzerland"
   ],
+  "borders": true,
   "map": "maps/duchy-of-milan.png",
   "checks": {
     "infobox": true,
@@ -61,27 +63,17 @@
       "House of Habsburg",
       "County of Savoy",
       "Republic of Venice",
-      "Crown of Castile",
-      "Kingdom of Hungary",
-      "Ottoman Empire",
-      "Kingdom of England",
-      "Kingdom of Poland",
-      "Crown of Aragon",
-      "Kingdom of Bohemia",
-      "Principality of Moldavia",
-      "Kingdom of Portugal",
-      "Principality of Wallachia",
-      "Serbian Empire",
-      "Kingdom of Naples",
-      "Duchy of Bavaria",
-      "Duchy of Burgundy",
-      "Kingdom of Bosnia",
+      "Swiss Confederation",
+      "House of Valois-Anjou",
       "Papal States",
-      "Duchy of Brittany",
+      "Duchy of Burgundy",
+      "Duchy of Bavaria",
       "House of Bourbon",
-      "House of Ascania",
-      "Emirate of Granada",
-      "Electorate of Brandenburg"
+      "Kingdom of Bosnia",
+      "County of Armagnac",
+      "Republic of Florence",
+      "County of Touraine",
+      "County of Foix"
     ]
   }
 }

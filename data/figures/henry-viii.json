@@ -18,7 +18,9 @@
   "contribution": "King of England and Ireland from 22 April 1509 until his death in 1547.",
   "image": "images/henry-viii.jpg",
   "image_credit": "Hans Holbein the Younger · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -35,6 +37,7 @@
       ]
     },
     "lead": "Henry VIII (28 June 1491 – 28 January 1547) was King of England and Ireland from 22 April 1509 until his death in 1547.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

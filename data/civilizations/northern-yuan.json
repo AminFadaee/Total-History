@@ -1,0 +1,69 @@
+{
+  "id": "Q8959",
+  "slug": "northern-yuan",
+  "name": "Northern Yuan",
+  "wikipedia": "Northern Yuan",
+  "map_year": 1375,
+  "period": {
+    "start": {
+      "earliest": 1368,
+      "latest": 1368,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Shangdu",
+      "location": [
+        116.18515888888889,
+        42.358021111111114
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q7313",
+    "region": "Mongolia",
+    "name": "Yuan Dynasty"
+  },
+  "after": {
+    "id": "Q4332415",
+    "region": "Mongolia",
+    "name": "Four Oirats"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Mongolia",
+    "Russia",
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/northern-yuan.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Shangdu"
+      ],
+      "infobox": [
+        "Shangdu",
+        "Yingchang",
+        "Karakorum"
+      ]
+    },
+    "cliopatria_years": [
+      1375,
+      1439
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Ming Dynasty",
+      "Chagatai Khanate",
+      "White Horde",
+      "Goryeo"
+    ]
+  }
+}

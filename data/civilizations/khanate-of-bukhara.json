@@ -1,0 +1,71 @@
+{
+  "id": "Q577668",
+  "slug": "khanate-of-bukhara",
+  "name": "Khanate of Bukhara",
+  "wikipedia": "Khanate of Bukhara",
+  "map_year": 1526,
+  "period": {
+    "start": {
+      "earliest": 1501,
+      "latest": 1501,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1785,
+      "latest": 1785,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bukhara",
+      "location": [
+        64.428611111111,
+        39.774722222222
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q746558",
+    "region": "Uzbekistan",
+    "name": "Emirate of Bukhara"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Turkmenistan",
+    "Uzbekistan",
+    "Afghanistan",
+    "Tajikistan",
+    "Kyrgyzstan"
+  ],
+  "borders": true,
+  "map": "maps/khanate-of-bukhara.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bukhara"
+      ],
+      "infobox": [
+        "Bukhara"
+      ]
+    },
+    "cliopatria_years": [
+      1516,
+      1787
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bukhara",
+    "labelled": [
+      "Safavid Dynasty",
+      "Kazakh Khanate",
+      "Timurid Empire",
+      "Western Moghulistan",
+      "Khanate of Khiva",
+      "Kashmiri Sultanate"
+    ]
+  }
+}

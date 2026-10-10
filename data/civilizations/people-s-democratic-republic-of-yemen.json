@@ -1,0 +1,78 @@
+{
+  "id": "Q199841",
+  "slug": "people-s-democratic-republic-of-yemen",
+  "name": "People's Democratic Republic of Yemen",
+  "wikipedia": "South Yemen",
+  "map_year": 1987,
+  "period": {
+    "start": {
+      "earliest": 1967,
+      "latest": 1967,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1990,
+      "latest": 1990,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Aden",
+      "location": [
+        45.033333333333,
+        12.8
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q805",
+    "region": "Yemen",
+    "name": "Republic of Yemen"
+  },
+  "rulers": [
+    {
+      "id": "Q307211",
+      "name": "Abdul Fattah Ismail"
+    },
+    {
+      "id": "Q924397",
+      "name": "Ali Nasir Muhammad"
+    },
+    {
+      "id": "Q2555542",
+      "name": "Ali Salem al-Beidh"
+    }
+  ],
+  "modern_countries": [
+    "Yemen"
+  ],
+  "borders": true,
+  "map": "maps/people-s-democratic-republic-of-yemen.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Aden"
+      ],
+      "infobox": [
+        "Aden"
+      ]
+    },
+    "cliopatria_years": [
+      1969,
+      1989
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Aden",
+    "labelled": [
+      "Kingdom of Saudi Arabia",
+      "Sultanate of Oman",
+      "North Yemen",
+      "Republic of Djibouti"
+    ]
+  }
+}

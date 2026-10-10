@@ -1,0 +1,55 @@
+{
+  "id": "Q1122052",
+  "slug": "cuman-kipchak-confederation",
+  "name": "Cuman-Kipchak Confederation",
+  "wikipedia": "Cumania",
+  "map_year": 1056,
+  "period": {
+    "start": {
+      "earliest": 901,
+      "latest": 1000,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1241,
+      "latest": 1241,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Ukraine"
+  ],
+  "borders": true,
+  "map": "maps/cuman-kipchak-confederation.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Sarai"
+      ]
+    },
+    "cliopatria_years": [
+      1056,
+      1065
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Kievan Rus'",
+      "Halych-Volhynia occupation",
+      "Principality of Peremyshl",
+      "Kingdom of Hungary",
+      "Kingdom of Poland",
+      "Principality of Kiev",
+      "Principality of Pereyaslavl",
+      "Principality of Volhynia"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "Q208169",
+  "slug": "republic-of-ragusa",
+  "name": "Republic of Ragusa",
+  "wikipedia": "Republic of Ragusa",
+  "map_year": 1429,
+  "period": {
+    "start": {
+      "earliest": 1358,
+      "latest": 1358,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1808,
+      "latest": 1808,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Dubrovnik",
+      "location": [
+        18.108333333333,
+        42.640277777778
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Bosnia and Herzegovina",
+    "Croatia"
+  ],
+  "borders": true,
+  "map": "maps/republic-of-ragusa.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Dubrovnik"
+      ],
+      "infobox": [
+        "Dubrovnik"
+      ]
+    },
+    "cliopatria_years": [
+      1385,
+      1808
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Dubrovnik",
+    "labelled": [
+      "Kingdom of Bosnia",
+      "Serbian Empire",
+      "Principality of Wallachia",
+      "Kingdom of Naples",
+      "Papal States",
+      "Duchy of Milan",
+      "Despotate of Epirus",
+      "Republic of Florence"
+    ]
+  }
+}

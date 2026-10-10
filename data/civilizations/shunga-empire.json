@@ -1,0 +1,87 @@
+{
+  "id": "Q651377",
+  "slug": "shunga-empire",
+  "name": "Shunga Empire",
+  "wikipedia": "Shunga Empire",
+  "map_year": -77,
+  "period": {
+    "start": {
+      "earliest": -185,
+      "latest": -185,
+      "circa": false
+    },
+    "end": {
+      "earliest": -73,
+      "latest": -73,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Pataliputra",
+      "location": [
+        85.144,
+        25.611
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q62943",
+    "region": "India",
+    "name": "Maurya Empire"
+  },
+  "after": {
+    "id": "Q784974",
+    "region": "India",
+    "name": "Kanva Dynasty"
+  },
+  "rulers": [
+    {
+      "id": "Q119973",
+      "name": "Pushyamitra Shunga"
+    },
+    {
+      "id": "Q24395",
+      "name": "Agnimitra"
+    },
+    {
+      "id": "Q24327",
+      "name": "Vasumitra"
+    },
+    {
+      "id": "Q3878846",
+      "name": "Devabhuti"
+    }
+  ],
+  "modern_countries": [
+    "India",
+    "Nepal",
+    "Bangladesh"
+  ],
+  "borders": true,
+  "map": "maps/shunga-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pataliputra"
+      ],
+      "infobox": [
+        "Pataliputra",
+        "Vidisha"
+      ]
+    },
+    "cliopatria_years": [
+      -170,
+      -67
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Pataliputra",
+    "labelled": [
+      "Indo-Scythians",
+      "Satavahana Dynasty"
+    ]
+  }
+}

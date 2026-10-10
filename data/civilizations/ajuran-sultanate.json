@@ -1,0 +1,43 @@
+{
+  "id": "Q862532",
+  "slug": "ajuran-sultanate",
+  "name": "Ajuran Sultanate",
+  "wikipedia": "Ajuran Sultanate",
+  "map_year": 1102,
+  "period": {
+    "start": {
+      "earliest": 1201,
+      "latest": 1300,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1695,
+      "latest": 1695,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [],
+  "borders": false,
+  "map": "",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Mareeg",
+        "Kelafo",
+        "Merca",
+        "Mogadishu"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

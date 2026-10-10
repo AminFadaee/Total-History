@@ -21,7 +21,9 @@
   "contribution": "An Indonesian general and politician who served as the second and longest-serving president of Indonesia from 1967 to 1998.",
   "image": "images/suharto.jpg",
   "image_credit": "State Secretariat of the Republic of Indonesia · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/suharto-photo.jpg",
+  "photo_credit": "State Secretariat of the Republic of Indonesia · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -46,6 +48,7 @@
       ]
     },
     "lead": "Suharto (8 June 1921 – 27 January 2008) was an Indonesian general and politician who served as the second and longest-serving president of Indonesia from 1967 to 1998.",
-    "photo": "captured 1993 during their lifetime"
+    "image": "",
+    "photo": "model 0.75, portrait 0.96, captured 1993, during their lifetime"
   }
 }

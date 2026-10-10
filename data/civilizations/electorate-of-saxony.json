@@ -1,0 +1,61 @@
+{
+  "id": "Q156199",
+  "slug": "electorate-of-saxony",
+  "name": "Electorate of Saxony",
+  "wikipedia": "Electorate of Saxony",
+  "map_year": 1648,
+  "period": {
+    "start": {
+      "earliest": 1356,
+      "latest": 1356,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1806,
+      "latest": 1806,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q153015",
+    "region": "Germany",
+    "name": "Kingdom of Saxony"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Germany",
+    "Poland"
+  ],
+  "borders": true,
+  "map": "maps/electorate-of-saxony.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Wittenberg",
+        "Dresden"
+      ],
+      "infobox": [
+        "Wittenberg",
+        "Dresden"
+      ]
+    },
+    "cliopatria_years": [
+      1363,
+      1805
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Habsburg Monarchy",
+      "Holy Roman Empire Minor States",
+      "Brandenburg-Prussia",
+      "Duchy of Bavaria",
+      "Duchy of Lorraine"
+    ]
+  }
+}

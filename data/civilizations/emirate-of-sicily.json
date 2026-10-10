@@ -1,0 +1,63 @@
+{
+  "id": "Q1250763",
+  "slug": "emirate-of-sicily",
+  "name": "Emirate of Sicily",
+  "wikipedia": "Muslim Sicily",
+  "map_year": 878,
+  "period": {
+    "start": {
+      "earliest": 827,
+      "latest": 827,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1091,
+      "latest": 1091,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Palermo",
+      "location": [
+        13.361261944444445,
+        38.115658055555556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Italy",
+    "Malta"
+  ],
+  "borders": true,
+  "map": "maps/emirate-of-sicily.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Palermo"
+      ],
+      "infobox": [
+        "Palermo"
+      ]
+    },
+    "cliopatria_years": [
+      850,
+      1093
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "Palermo",
+    "labelled": [
+      "Byzantine Empire",
+      "Aghlabid Dynasty",
+      "Principality of Salerno",
+      "Giudicato of Cagliari",
+      "Giudicato of Logudoro"
+    ]
+  }
+}

@@ -19,7 +19,9 @@
   "contribution": "An Indian theoretical physicist and mathematician.",
   "image": "images/satyendra-nath-bose.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "photo": true,
+  "image_is_photo": true,
+  "photo": "images/satyendra-nath-bose-photo.jpg",
+  "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -34,6 +36,7 @@
       ]
     },
     "lead": "Satyendra Nath Bose (; 1 January 1894 – 4 February 1974) was an Indian theoretical physicist and mathematician. He is best known for his work on quantum mechanics in the early 1920s, in developing the foundation for Bose–Einstein statistics, and the theory of the Bose–Einstein condensate. A Fellow of the Royal Society, he was awarded India's second highest civilian award, the Padma Vibhushan, in 1954 by the Government of India.",
-    "photo": "captured 1925 during their lifetime"
+    "image": "",
+    "photo": "model 0.95, portrait 0.98, in Category:1925 portrait photographs"
   }
 }

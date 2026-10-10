@@ -1,0 +1,88 @@
+{
+  "id": "Q199688",
+  "slug": "almohad-caliphate",
+  "name": "Almohad Caliphate",
+  "wikipedia": "Almohad Caliphate",
+  "map_year": 1206,
+  "period": {
+    "start": {
+      "earliest": 1121,
+      "latest": 1121,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1269,
+      "latest": 1269,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Tinmel",
+      "location": [
+        -8.2284722222222,
+        30.984638888889
+      ]
+    },
+    {
+      "name": "Marrakesh",
+      "location": [
+        -7.98108,
+        31.62947
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q75613",
+    "region": "Morocco",
+    "name": "Almoravid Dynasty"
+  },
+  "after": {
+    "id": "Q582861",
+    "region": "Morocco",
+    "name": "Marinid Sultanate"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Morocco",
+    "Algeria",
+    "Spain",
+    "Tunisia",
+    "Libya"
+  ],
+  "borders": true,
+  "map": "maps/almohad-caliphate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tinmel",
+        "Marrakesh"
+      ],
+      "infobox": [
+        "Tinmel",
+        "Marrakesh",
+        "Seville",
+        "Córdoba, Spain"
+      ]
+    },
+    "cliopatria_years": [
+      1139,
+      1343
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Tinmel",
+    "labelled": [
+      "Kingdom of Castile",
+      "Kingdom of León",
+      "Sultanate of Rum",
+      "Second Bulgarian Empire",
+      "Kingdom of Sicily",
+      "Nicaean Empire",
+      "Latin Empire",
+      "County of Toulouse"
+    ]
+  }
+}

@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {
     "id": "Q231392",
     "region": "Spain",
@@ -46,6 +47,7 @@
     "Spain",
     "Portugal"
   ],
+  "borders": true,
   "map": "maps/kingdom-of-leon.png",
   "checks": {
     "infobox": true,
@@ -65,12 +67,9 @@
     "home": "León",
     "labelled": [
       "Almoravid Dynasty",
-      "Duchy of Aquitaine",
       "County of Toulouse",
-      "Duchy of Brittany",
-      "Hammadid Dynasty",
-      "County of Blôis",
-      "Kingdom of Arles"
+      "County of Barcelona",
+      "County of Rosellón"
     ]
   }
 }

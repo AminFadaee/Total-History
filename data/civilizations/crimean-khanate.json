@@ -19,13 +19,6 @@
   },
   "capitals": [
     {
-      "name": "Bakhchysarai",
-      "location": [
-        33.860833333333,
-        44.752777777778
-      ]
-    },
-    {
       "name": "Chufut-Kale",
       "location": [
         33.92446667,
@@ -33,6 +26,7 @@
       ]
     }
   ],
+  "parts": [],
   "before": {},
   "after": {
     "id": "Q34266",
@@ -53,6 +47,7 @@
     "Ukraine",
     "Russia"
   ],
+  "borders": true,
   "map": "maps/crimean-khanate.png",
   "checks": {
     "infobox": true,
@@ -73,21 +68,12 @@
       1782
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Bakhchysarai",
+    "home": "Chufut-Kale",
     "labelled": [
-      "House of Jagiellon",
       "Golden Horde",
+      "House of Jagiellon",
       "Principality of Moldavia",
-      "Nogai Horde",
-      "Ottoman Empire",
-      "House of Habsburg",
-      "Kingdom of Georgia",
-      "Kingdom of Bohemia",
-      "Principality of Wallachia",
-      "Serbian Empire",
-      "Beylik of Isfendiyar",
-      "Kingdom of Bosnia",
-      "Empire of Trebizond"
+      "Principality of Wallachia"
     ]
   }
 }

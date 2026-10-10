@@ -1,0 +1,94 @@
+{
+  "id": "Q46652",
+  "slug": "sultanate-of-malacca",
+  "name": "Sultanate of Malacca",
+  "wikipedia": "Malacca Sultanate",
+  "map_year": 1459,
+  "period": {
+    "start": {
+      "earliest": 1400,
+      "latest": 1400,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1511,
+      "latest": 1511,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Malacca City",
+      "location": [
+        102.25111111111,
+        2.1888888888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q3363540",
+      "name": "Parameswara of Malacca"
+    },
+    {
+      "id": "Q4259660",
+      "name": "Megat Iskandar Shah of Malacca"
+    },
+    {
+      "id": "Q4260752",
+      "name": "Muhammad Shah of Malacca"
+    },
+    {
+      "id": "Q4260059",
+      "name": "Muzaffar Shah of Malacca"
+    },
+    {
+      "id": "Q1015747",
+      "name": "Mansur Shah of Malacca"
+    },
+    {
+      "id": "Q4708854",
+      "name": "Alauddin Riayat Shah of Malacca"
+    },
+    {
+      "id": "Q3244637",
+      "name": "Mahmud Shah of Malacca"
+    },
+    {
+      "id": "Q25483334",
+      "name": "Ahmad Shah of Malacca"
+    }
+  ],
+  "modern_countries": [
+    "Malaysia",
+    "Singapore"
+  ],
+  "borders": true,
+  "map": "maps/sultanate-of-malacca.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Malacca City"
+      ],
+      "infobox": [
+        "Malacca City",
+        "Bintan Regency",
+        "Kampar Regency"
+      ]
+    },
+    "cliopatria_years": [
+      1459,
+      1861
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Majapahit"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "Q371334",
+  "slug": "second-mexican-empire",
+  "name": "Second Mexican Empire",
+  "wikipedia": "Second Mexican Empire",
+  "map_year": 1865,
+  "period": {
+    "start": {
+      "earliest": 1863,
+      "latest": 1863,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1867,
+      "latest": 1867,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q84192",
+      "name": "Maximilian I of Mexico"
+    }
+  ],
+  "modern_countries": [
+    "Mexico"
+  ],
+  "borders": true,
+  "map": "maps/second-mexican-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mexico City"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1865,
+      1867
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "United States of America",
+      "Confederate States of America",
+      "Spanish Empire",
+      "Honduras",
+      "Republic of Nicaragua"
+    ]
+  }
+}

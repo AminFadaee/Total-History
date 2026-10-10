@@ -22,7 +22,9 @@
   "contribution": "The tsar of all Russia from 1682 to 1721, and the first emperor of Russia from 1721 until his death in 1725.",
   "image": "images/peter-the-great.jpg",
   "image_credit": "Attributed to Jean-Marc Nattier · Public domain",
-  "photo": false,
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -47,6 +49,7 @@
       ]
     },
     "lead": "Peter I (9 June 1672 – 8 February 1725), known by the epithet the Great, was the tsar of all Russia from 1682 to 1721, and the first emperor of Russia from 1721 until his death in 1725. He reigned jointly with his brother, Ivan V, from 1682 until Ivan's death in 1696.",
+    "image": "",
     "photo": "no death year in or after 1860"
   }
 }

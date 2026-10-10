@@ -3,7 +3,7 @@
   "slug": "champa",
   "name": "Chámpa",
   "wikipedia": "Champa",
-  "map_year": 875,
+  "map_year": 1056,
   "period": {
     "start": {
       "earliest": 192,
@@ -17,21 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [
-    {
-      "name": "Vijaya",
-      "location": [
-        109.07507,
-        13.92869
-      ]
-    }
-  ],
+  "capitals": [],
+  "parts": [],
   "before": {},
   "after": {},
   "rulers": [],
   "modern_countries": [
     "Vietnam"
   ],
+  "borders": true,
   "map": "maps/champa.png",
   "checks": {
     "infobox": true,
@@ -53,14 +47,12 @@
       1652
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Vijaya",
+    "home": "the spot held longest",
     "labelled": [
       "Khmer Empire",
-      "Tang Dynasty",
+      "Ngô Dynasty",
       "Haripuñjaya",
-      "Lavo Kingdom",
-      "Pyu City-States",
-      "Pagan Kingdom"
+      "Lavo Kingdom"
     ]
   }
 }

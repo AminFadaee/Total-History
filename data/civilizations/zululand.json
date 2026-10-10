@@ -1,0 +1,65 @@
+{
+  "id": "Q729768",
+  "slug": "zululand",
+  "name": "Zululand",
+  "wikipedia": "Zulu Kingdom",
+  "map_year": 1848,
+  "period": {
+    "start": {
+      "earliest": 1816,
+      "latest": 1816,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1897,
+      "latest": 1897,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "UMgungundlovu",
+      "location": [
+        31.267583333333,
+        -28.435888888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q1029847",
+    "region": "South Africa",
+    "name": "Natalia Republic"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "South Africa"
+  ],
+  "borders": true,
+  "map": "maps/zululand.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bulawayo",
+        "Ulundi"
+      ],
+      "infobox": [
+        "Bulawayo",
+        "UMgungundlovu",
+        "Ulundi"
+      ]
+    },
+    "cliopatria_years": [
+      1820,
+      1897
+    ],
+    "identity": "Wikidata state named like the Cliopatria polity",
+    "home": "UMgungundlovu",
+    "labelled": [
+      "Natalia Republic"
+    ]
+  }
+}
