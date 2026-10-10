@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from matplotlib import colors as mcolors
 from matplotlib import font_manager, patheffects
 from matplotlib.patches import Circle
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageOps
 from pyproj import Transformer
 from shapely import MultiLineString, MultiPolygon, Polygon, make_valid
 from shapely.geometry import Point, box
@@ -460,19 +460,16 @@ def rendered(figure) -> Image.Image:
 
 
 def beside(main: Image.Image, panels: list[Image.Image]) -> Image.Image:
-    """The main map with the panels stacked to its right, each a third of its height."""
+    """The main map with the panels stacked to its right in a column a third of its width, sharing its height, each
+    cropped around its centre to fill its share so no part of the column is left empty."""
     if not panels:
         return main
-    height = (main.height - PANEL_GAP * (MAX_PANELS - 1)) // MAX_PANELS
-    width = round(main.width * height / main.height)
-    sheet = Image.new("RGB", (main.width + PANEL_GAP + width, main.height), Color.OCEAN)
+    width = round(main.width * ((main.height - PANEL_GAP * (MAX_PANELS - 1)) // MAX_PANELS) / main.height)
+    height = (main.height - PANEL_GAP * (len(panels) - 1)) // len(panels)
+    sheet = Image.new("RGB", (main.width + PANEL_GAP + width, main.height), Color.HALO)
     sheet.paste(main, (0, 0))
-    draw = ImageDraw.Draw(sheet)
-    draw.rectangle((main.width, 0, main.width + PANEL_GAP - 1, main.height), fill=Color.HALO)
     for index, panel in enumerate(panels):
-        top = index * (height + PANEL_GAP)
-        sheet.paste(panel.resize((width, height), Image.LANCZOS), (main.width + PANEL_GAP, top))
-        draw.rectangle((main.width + PANEL_GAP, top + height, sheet.width, top + height + PANEL_GAP - 1), fill=Color.HALO)
+        sheet.paste(ImageOps.fit(panel, (width, height), Image.LANCZOS), (main.width + PANEL_GAP, index * (height + PANEL_GAP)))
     return sheet
 
 
