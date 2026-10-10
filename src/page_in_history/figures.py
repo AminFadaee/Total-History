@@ -13,7 +13,7 @@ from page_in_history.polities import PolityCatalog
 from page_in_history.sources import notable, vital
 from page_in_history.sources.pantheon import Person
 from page_in_history.sources.wikidata import Entity, Year, qualifier_year
-from page_in_history.sources.wikipedia import lead_links
+from page_in_history.sources.wikipedia import display_name, lead_links
 
 EXCLUDED_OCCUPATIONS = {
     "SOCCER PLAYER", "ACTOR", "ATHLETE", "SINGER", "MUSICIAN", "FILM DIRECTOR", "BASKETBALL PLAYER", "CYCLIST",
@@ -45,6 +45,7 @@ LIVING_ON_MAP_BEFORE = 1900
 DEATH_DISCOUNT = 0.5
 HEAD_OFFICES = ("P1906", "P1313")
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
+FILLER = {"the", "a", "an", "of", "from", "to", "and", "in", "ad", "bc", "bce", "ce"}
 LEADING_CENTURY = re.compile(r"^(?:c\.\s*)?\d+(?:st|nd|rd|th)[- ]century(?:[- ](?:BCE?|AD|CE))?[- ]+", re.IGNORECASE)
 DATES_IN_PARENTHESES = re.compile(r"\s*\([^()]*\d[^()]*\)")
 TRAILING_YEAR = re.compile(r",\s*(?:c\.\s*)?\d{1,4}\s*(?:BCE?|AD|CE)?\s*$")
@@ -127,6 +128,24 @@ def predicate(paragraph: str) -> str:
         return ""
     text = parts[1].strip().rstrip(".") + "."
     return text[:1].upper() + text[1:]
+
+
+def contribution(paragraph: str, role_text: str, description: str | None) -> str:
+    """What the person is known for: the opening sentence without its subject, or the next sentence when the opening
+    one only repeats the role ('Roman emperor from 69 to 79'), or Wikidata's description when the article has no
+    opening paragraph and the description says more than the role."""
+    text = predicate(paragraph)
+    if text and words(text) <= words(role_text):
+        sentences = SENTENCE_END.split(PARENTHESES.sub("", paragraph))
+        text = sentences[1].strip() if len(sentences) > 1 else text
+    if not text and description and words(description) - words(role_text):
+        text = description[:1].upper() + description[1:].rstrip(".") + "."
+    return text
+
+
+def words(text: str) -> set[str]:
+    """The words that carry meaning, without years, which roles and articles write differently ('AD 69', '69')."""
+    return set(re.findall(r"[a-z]+", text.lower())) - FILLER
 
 
 @dataclass(frozen=True)
@@ -319,7 +338,7 @@ class FigureBuilder:
         """The first people of every region and period in the cross-verified database of notable people, and
         everyone on Meta-Wiki's core list of 1,000 articles every Wikipedia should have, so no essential figure depends
         on the database alone. Left out: people whose adult life began after the Second World War, since the deck is
-        about history; sport, business and entertainment; and figures Wikidata files as legendary and not as human,
+        about history; people who died before 20, who had no adult life to place; sport, business and entertainment; and figures Wikidata files as legendary and not as human,
         such as Moses (Jesus is filed as both)."""
         frame = notable.load(self.http)
         pool = notable.pool(frame, POST_WAR, ADULT_AGE, self.per_cell)
@@ -336,7 +355,7 @@ class FigureBuilder:
                 continue
             seen.add(person.id)
             span = lifetime(person.years("P569"), person.years("P570"))
-            if span and span[0] + ADULT_AGE < POST_WAR:
+            if span and span[0] + ADULT_AGE < POST_WAR and span[1] >= span[0] + ADULT_AGE:
                 score = float(frame.score.get(qid, 0.0))
                 cell_rank = int(pool.cell_rank[qid]) if qid in pool.index else None
                 candidates.append(Candidate(person.enwiki, person, span, sections.get(qid, []), score, cell_rank, qid in core))
@@ -468,23 +487,23 @@ class FigureBuilder:
             title, person, span = candidate.title, candidate.person, candidate.lifetime
             extract, short_description = introductions.get(title, ("", None))
             paragraph = first_paragraph(extract)
-            contribution = predicate(paragraph)
+            role_text = role(short_description or person.description)
             image, credit, image_check = self.portraits.illustration(person)
             photo, photo_check = self.portraits.photograph(person)
             known = self.pantheon.get(person.id)
             assembled.append(Figure(
                 id=person.id,
                 slug=slugify(title),
-                name=title,
+                name=display_name(title),
                 wikipedia=title,
-                role=role(short_description or person.description),
+                role=role_text,
                 life=life_label(person.years("P569"), person.years("P570")),
                 lifetime=list(span),
                 occupation=known.occupation.capitalize() if known else "",
                 birth_country=known.birth_country if known else "",
                 civilizations=civilizations,
                 related=related,
-                contribution=contribution,
+                contribution=contribution(paragraph, role_text, person.description),
                 image=image,
                 image_credit=credit,
                 image_is_photo=bool(photo) and photo.file == image,
