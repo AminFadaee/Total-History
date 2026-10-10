@@ -124,9 +124,8 @@ update.
    most 300 years, so the Ottomans of 1300–1600 and of 1600–1923 are separate segments and people compete only with
    their contemporaries.
 7. **Figures.** Within each segment, people are ranked by the database's visibility score. Chosen are the candidates
-   from step 3, the segment's best person even when they are not one, and anyone on Meta-Wiki's list. A segment keeps at most 25, and
-   rulers, politicians and holders of the civilization's offices at most as many as everyone else, so places stay
-   empty rather than going to minor kings. Composers are capped at 20 across the deck.
+   from step 3, the segment's best person even when they are not one, and anyone on Meta-Wiki's list, at most 25 a
+   segment. Composers are capped at 20 across the deck.
 8. **The rest.** People placed in a deck civilization but not chosen are listed in `data/extended.json` and are not
    in the deck.
 

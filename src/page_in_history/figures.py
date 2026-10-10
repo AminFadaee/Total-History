@@ -33,7 +33,6 @@ STRONG_RANK, VERY_STRONG_RANK = 10, 3
 WINDOW_YEARS = 300
 MAX_PER_SEGMENT = 25
 MAX_COMPOSERS = 20
-RULING_OCCUPATIONS = {"POLITICIAN", "NOBLEMAN", "MILITARY PERSONNEL"}
 COMPOSER = "COMPOSER"
 ADULT_AGE = 20
 POST_WAR = 1945
@@ -222,28 +221,23 @@ class FigureBuilder:
         """The figures for the deck. Each figure belongs to its first civilization in the deck, and each civilization
         is split into eras of at most 300 years, so its people compete with their own contemporaries. In each such
         segment people are ranked by the database's visibility score; chosen are those among the first 60 of their
-        region and period, the segment's best person always, and anyone on Meta-Wiki's list of 1,000 articles. A
-        segment keeps at most 25, and rulers, politicians and holders of the civilization's offices at most as many as
-        everyone else, so places are left empty rather than filled with minor kings. Composers are capped at 20 across
-        the deck."""
+        region and period, the segment's best person always, and anyone on Meta-Wiki's list of 1,000 articles, at most
+        25 a segment. Composers are capped at 20 across the deck."""
         segments: dict[tuple[str, int], list[Candidate]] = {}
         for candidate, civilizations in placed:
             home = next(name for name in civilizations if name in deck)
             segments.setdefault((home, self._window(home, candidate)), []).append(candidate)
-        chosen: list[Candidate] = []
+        chosen: dict[str, tuple[Candidate, str]] = {}
         for (home, _), people in segments.items():
             ranked = sorted(people, key=lambda candidate: -candidate.score)
             wanted = [candidate for index, candidate in enumerate(ranked)
                       if index == 0 or candidate.core or (candidate.cell_rank and candidate.cell_rank <= per_cell)]
-            rulers = [candidate for candidate in wanted if self._rules(candidate, home)]
-            others = [candidate for candidate in wanted if candidate not in rulers]
-            kept_rulers = rulers[:max(1, len(others))] if rulers else []
-            kept = sorted(others + kept_rulers, key=lambda candidate: -candidate.score)[:MAX_PER_SEGMENT]
-            chosen += kept + [candidate for candidate in wanted if candidate.core and candidate not in kept]
-        composers = sorted((candidate for candidate in chosen if self._occupation(candidate) == COMPOSER),
+            kept = wanted[:MAX_PER_SEGMENT] + [candidate for candidate in wanted[MAX_PER_SEGMENT:] if candidate.core]
+            for candidate in kept:
+                chosen[candidate.person.id] = (candidate, home)
+        composers = sorted((candidate for candidate, *_ in chosen.values() if self._occupation(candidate) == COMPOSER),
                            key=lambda candidate: -candidate.score)
-        dropped = {candidate.person.id for candidate in composers[MAX_COMPOSERS:]}
-        return {candidate.person.id for candidate in chosen} - dropped
+        return set(chosen) - {candidate.person.id for candidate in composers[MAX_COMPOSERS:]}
 
     def _window(self, home: str, candidate: Candidate) -> int:
         first, last = self.catalog.years(self.catalog.identities[home].qid)
@@ -254,13 +248,6 @@ class FigureBuilder:
     def _occupation(self, candidate: Candidate) -> str:
         known = self.pantheon.get(candidate.person.id)
         return known.occupation if known else ""
-
-    def _rules(self, candidate: Candidate, home: str) -> bool:
-        """A ruler or politician by Pantheon's occupation, or anyone who held an office of their civilization, such as
-        a pope of the Papal States, whom Pantheon files as a religious figure."""
-        known = self.pantheon.get(candidate.person.id)
-        return ((bool(known) and known.occupation in RULING_OCCUPATIONS)
-                or self.catalog.identities[home].qid in self._offices(candidate))
 
     def prepare(self, candidates: list[Candidate]) -> None:
         """Fetches everything the votes need for these candidates, in batches."""
