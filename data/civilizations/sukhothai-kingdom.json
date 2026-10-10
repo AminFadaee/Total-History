@@ -1,0 +1,74 @@
+{
+  "id": "Q863279",
+  "slug": "sukhothai-kingdom",
+  "name": "Sukhothai Kingdom",
+  "wikipedia": "Sukhothai Kingdom",
+  "map_year": 1352,
+  "period": {
+    "start": {
+      "earliest": 1238,
+      "latest": 1238,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1438,
+      "latest": 1438,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Sukhothai",
+      "location": [
+        99.81666667,
+        17
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q841364",
+    "region": "Thailand",
+    "name": "Ayutthaya Kingdom"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Thailand",
+    "Laos",
+    "Myanmar"
+  ],
+  "borders": true,
+  "map": "maps/sukhothai-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Sukhothai Historical Park",
+        "Phitsanulok"
+      ],
+      "infobox": [
+        "Sukhothai",
+        "Phitsanulok"
+      ]
+    },
+    "cliopatria_years": [
+      1241,
+      1458
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Sukhothai",
+    "labelled": [
+      "Yuan Dynasty",
+      "Khmer Empire",
+      "Ngô Dynasty",
+      "Sultanate of Bengal",
+      "Shan States",
+      "Bahmani Sultanate",
+      "Sagaing Kingdom",
+      "Kingdom of Pinya",
+      "Ceylon"
+    ]
+  }
+}

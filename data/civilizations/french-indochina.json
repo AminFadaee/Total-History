@@ -19,7 +19,7 @@
   },
   "capitals": [
     {
-      "name": "Ho Chi Minh City",
+      "name": "Saigon",
       "location": [
         106.70194444444445,
         10.775555555555556
@@ -41,8 +41,7 @@
     "Vietnam",
     "Laos",
     "Cambodia",
-    "New Caledonia",
-    "French Southern and Antarctic Lands"
+    "France"
   ],
   "borders": true,
   "map": "maps/french-indochina.png",
@@ -63,7 +62,7 @@
       1957
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Ho Chi Minh City",
+    "home": "Saigon",
     "labelled": [
       "British Raj",
       "Republic of China",

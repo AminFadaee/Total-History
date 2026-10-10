@@ -1,0 +1,49 @@
+{
+  "id": "Q27645",
+  "slug": "mikhail-bakunin",
+  "name": "Mikhail Bakunin",
+  "wikipedia": "Mikhail Bakunin",
+  "role": "Russian revolutionary anarchist",
+  "life": "1814–1876",
+  "lifetime": [
+    1814,
+    1876
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [
+    "Swiss Confederation",
+    "Kingdom of Italy"
+  ],
+  "contribution": "A Russian revolutionary anarchist and political philosopher.",
+  "image": "images/mikhail-bakunin.jpg",
+  "image_credit": "Nadar · Public domain",
+  "image_is_photo": true,
+  "photo": "images/mikhail-bakunin-photo.jpg",
+  "photo_credit": "Nadar · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Swiss Confederation"
+      ],
+      "lead": [
+        "Russian Empire",
+        "Swiss Confederation",
+        "Kingdom of Italy"
+      ],
+      "citizenship": [
+        "Russian Empire",
+        "Second French Empire"
+      ],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Mikhail Alexandrovich Bakunin (30 May [O.S. 18 May] 1814 – 1 July 1876) was a Russian revolutionary anarchist and political philosopher. He is among the most influential figures of anarchism and a major figure in the revolutionary socialist, social anarchist, and collectivist anarchist tendencies. Bakunin's prestige as a revolutionary also made him one of the most famous ideologues in Europe, gaining substantial influence among radicals throughout Russia and Europe.",
+    "image": "",
+    "photo": "model 0.83, portrait 0.96, in Category:Photographs of Mikhail Bakunin by Nadar"
+  }
+}

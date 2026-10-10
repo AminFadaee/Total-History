@@ -1,0 +1,61 @@
+{
+  "id": "Q867227",
+  "slug": "au-lac",
+  "name": "Âu Lạc",
+  "wikipedia": "Âu Lạc",
+  "map_year": -208,
+  "period": {
+    "start": {
+      "earliest": -257,
+      "latest": -257,
+      "circa": false
+    },
+    "end": {
+      "earliest": -207,
+      "latest": -207,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Citadel of Cổ Loa",
+      "location": [
+        105.873206,
+        21.113408
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q827040",
+    "region": "Vietnam",
+    "name": "Nanyue"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Vietnam",
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/au-lac.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Citadel of Cổ Loa"
+      ],
+      "infobox": [
+        "Citadel of Cổ Loa"
+      ]
+    },
+    "cliopatria_years": [
+      -256,
+      -207
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Citadel of Cổ Loa",
+    "labelled": []
+  }
+}

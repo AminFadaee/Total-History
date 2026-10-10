@@ -19,7 +19,7 @@
   },
   "capitals": [
     {
-      "name": "Jiankang",
+      "name": "Nanjing",
       "location": [
         118.79647,
         32.05837
@@ -40,9 +40,7 @@
   "rulers": [],
   "modern_countries": [
     "China",
-    "Vietnam",
-    "Hong Kong S.A.R.",
-    "Macao S.A.R"
+    "Vietnam"
   ],
   "borders": true,
   "map": "maps/eastern-wu.png",
@@ -63,7 +61,7 @@
       282
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Jiankang",
+    "home": "Nanjing",
     "labelled": [
       "Western Jin",
       "Funan",

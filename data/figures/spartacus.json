@@ -1,0 +1,40 @@
+{
+  "id": "Q83406",
+  "slug": "spartacus",
+  "name": "Spartacus",
+  "wikipedia": "Spartacus",
+  "role": "Thracian gladiator who led a slave revolt",
+  "life": "103–71 BC",
+  "lifetime": [
+    -103,
+    -71
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Greece",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [],
+  "contribution": "A Thracian gladiator who was one of the escaped slave leaders in the Third Servile War, a major slave uprising against the Roman Republic.",
+  "image": "images/spartacus.jpg",
+  "image_credit": "Carole Raddato from FRANKFURT, Germany · CC BY-SA 2.0",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Republic"
+      ],
+      "lead": [
+        "Roman Republic"
+      ],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Spartacus (; c. 103 – 71 BC) was a Thracian gladiator who was one of the escaped slave leaders in the Third Servile War, a major slave uprising against the Roman Republic.",
+    "image": "",
+    "photo": "no death year in or after 1860"
+  }
+}

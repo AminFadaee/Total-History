@@ -19,14 +19,14 @@
   },
   "capitals": [
     {
-      "name": "Madrid",
+      "name": "Madrid city",
       "location": [
         -3.703333333333333,
         40.41694444444445
       ]
     },
     {
-      "name": "Valladolid",
+      "name": "Valladolid city",
       "location": [
         -4.7285611111111,
         41.651980555556
@@ -64,8 +64,7 @@
     "Panama",
     "Costa Rica",
     "El Salvador",
-    "Puerto Rico",
-    "Guam"
+    "United States"
   ],
   "borders": true,
   "map": "maps/spanish-empire.png",
