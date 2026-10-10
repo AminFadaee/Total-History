@@ -18,6 +18,7 @@ PHOTOGRAPHY_INVENTED = 1839
 PHOTOGRAPH = "Q125191"
 MAX_CANDIDATES = 10
 BATCH = 50
+MAX_ENCODED_TITLES = 6000
 SCORE_WIDTH = 480
 ALONE = 0.9
 WITH_EVIDENCE = 0.7
@@ -33,6 +34,23 @@ PORTRAIT_CATEGORY = re.compile(r"portraits? of|paintings of|statues of", re.IGNO
 MACHINE_DATE = re.compile(r"QS:P\d*,\+(\d{3,4})-")
 HUMAN_YEAR = re.compile(r"(?<!\d)(\d{3,4})(?!\d)")
 
+
+
+def url_batches(titles: list[str]) -> list[list[str]]:
+    """Batches of up to 50 titles, split further when the encoded titles would make the request URL too long for
+    the server, as long non-Latin file names do."""
+    batches = []
+    for start in range(0, len(titles), BATCH):
+        batch, size = [], 0
+        for title in titles[start:start + BATCH]:
+            length = len(quote(title)) + 3
+            if batch and size + length > MAX_ENCODED_TITLES:
+                batches.append(batch)
+                batch, size = [], 0
+            batch.append(title)
+            size += length
+        batches.append(batch)
+    return batches
 
 class PhotoMode(StrEnum):
     MODEL = "model"
@@ -203,8 +221,8 @@ class PortraitFinder:
         """Metadata, visible categories and the number of Wikipedia articles using each file."""
         found: dict[str, dict] = {}
         unique = list(dict.fromkeys(title.replace("_", " ") for title in titles))
-        for start in range(0, len(unique), BATCH):
-            params = {"action": "query", "titles": "|".join(unique[start:start + BATCH]),
+        for batch in url_batches(unique):
+            params = {"action": "query", "titles": "|".join(batch),
                       "prop": "imageinfo|categories|globalusage", "iiprop": "extmetadata", "clshow": "!hidden",
                       "cllimit": "max", "gunamespace": 0, "gulimit": "max", "format": "json", "formatversion": 2}
             while True:
