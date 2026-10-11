@@ -356,7 +356,8 @@ class DeckBuilder:
             "After": escaped(document["after"].get("name")),
             "AfterRegion": escaped(document["after"].get("region")),
             "Rulers": joined([ruler["name"] for ruler in document["rulers"]]),
-            "ModernCountries": countries(document["modern_countries"]),
+            "ModernCountries": countries(document["modern_countries"])
+                               + (f" · overseas: {countries(document['overseas_countries'])}" if document.get("overseas_countries") else ""),
         }
         self._add(self.civilization_model, CIVILIZATION_FIELDS, CIVILIZATION_TEMPLATES, values,
                   civilization_tags(document), document["id"])

@@ -12,6 +12,7 @@ from page_in_history.sources import vital
 from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
 from page_in_history.sources.wikidata import Entity, Wikidata, entity_id
 from page_in_history.sources.wikipedia import Infobox, Wikipedia, country_infobox, display_name, place_name
+from page_in_history.regions import home, regions
 from page_in_history.succession import RegionalSuccession
 
 POLITY_ROOTS = {
@@ -98,6 +99,7 @@ class Polity:
     after: dict = field(default_factory=dict)
     rulers: list[dict] = field(default_factory=list)
     modern_countries: list[str] = field(default_factory=list)
+    overseas_countries: list[str] = field(default_factory=list)
     borders: bool = True
     map: str = ""
     checks: dict = field(default_factory=dict)
@@ -516,7 +518,8 @@ class PolityBuilder:
         parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
                  if qid in self.catalog.by_qid and qid != identity.qid]
         map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
-        before, after, home = self.succession.neighbours(identity.qid, capitals)
+        before, after, home_place = self.succession.neighbours(identity.qid, capitals)
+        modern = self._modern_countries(extent, capitals) if drawn else ([], [])
         polity = Polity(
             id=identity.qid,
             slug=slugify(identity.name),
@@ -529,7 +532,8 @@ class PolityBuilder:
             before=self._named(before),
             after=self._named(after),
             rulers=self._rulers(identity.qid, self._qids(infobox.leaders)),
-            modern_countries=self._modern_countries(extent) if drawn else [],
+            modern_countries=modern[0],
+            overseas_countries=modern[1],
             borders=drawn,
         )
         polity.checks = {
@@ -538,7 +542,7 @@ class PolityBuilder:
                                 "infobox": [self._name(q) for q in self._qids(infobox.capital)]},
             "cliopatria_years": [first, last] if drawn else [],
             "identity": identity.how,
-            "home": home or "the spot held longest",
+            "home": home_place or "the spot held longest",
         }
         return polity
 
@@ -586,11 +590,20 @@ class PolityBuilder:
         holders = {entity_id(row["person"]) for row in self.wikidata.query(query)}
         return [{"id": qid, "name": self._name(qid)} for qid in leaders if qid in holders]
 
-    def _modern_countries(self, geometry) -> list[str]:
+    def _modern_countries(self, geometry, capitals: list[dict]) -> tuple[list[str], list[str]]:
+        """Today's countries in the territory, largest share first: those in the region around the capital (land
+        within 800 km of it, as the map groups it), then those only overseas, such as the protectorates Cliopatria
+        draws as the United Kingdom."""
         shape = equal_area_shape(geometry, self.cliopatria.frame.crs)
         found: dict[str, float] = {}
         for country in self.countries[self.countries.listed & self.countries.intersects(shape)].itertuples():
             overlap = country.geometry.intersection(shape).area
             if overlap / shape.area >= MODERN_SHARE_OF_POLITY or overlap / country.geometry.area >= MODERN_SHARE_OF_COUNTRY:
                 found[country.listed_as] = found.get(country.listed_as, 0) + overlap
-        return sorted(found, key=found.get, reverse=True)
+        ranked = sorted(found, key=found.get, reverse=True)
+        home_region = equal_area_shape(home(regions(geometry), [c["location"] for c in capitals if c["location"]]).geometry,
+                                       self.cliopatria.frame.crs)
+        nearby = self.countries[self.countries.listed & self.countries.intersects(home_region)]
+        at_home = {country.listed_as for country in nearby.itertuples()
+                   if country.geometry.intersection(home_region).area > 0}
+        return [name for name in ranked if name in at_home], [name for name in ranked if name not in at_home]
