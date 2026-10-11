@@ -1,0 +1,78 @@
+{
+  "id": "Q174193",
+  "slug": "united-kingdom-of-great-britain-and-ireland",
+  "name": "United Kingdom of Great Britain and Ireland",
+  "wikipedia": "United Kingdom of Great Britain and Ireland",
+  "map_year": 1920,
+  "period": {
+    "start": {
+      "earliest": 1801,
+      "latest": 1801,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1922,
+      "latest": 1922,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q161885",
+    "region": "United Kingdom",
+    "name": "Kingdom of Great Britain"
+  },
+  "after": {
+    "id": "Q145",
+    "region": "United Kingdom",
+    "name": "United Kingdom"
+  },
+  "rulers": [
+    {
+      "id": "Q127318",
+      "name": "George III"
+    },
+    {
+      "id": "Q269412",
+      "name": "George V"
+    }
+  ],
+  "modern_countries": [
+    "Yemen",
+    "United Kingdom",
+    "United Arab Emirates",
+    "Ireland",
+    "Cyprus",
+    "Bahrain",
+    "Malta"
+  ],
+  "borders": true,
+  "map": "maps/united-kingdom-of-great-britain-and-ireland.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "London"
+      ],
+      "infobox": [
+        "London"
+      ]
+    },
+    "cliopatria_years": [
+      1802,
+      1927
+    ],
+    "identity": "successor on borders Cliopatria gives an earlier name",
+    "home": "the spot held longest",
+    "labelled": [
+      "Emirate of Nejd",
+      "North Yemen",
+      "Ethiopian Empire",
+      "Kingdom of Hejaz",
+      "Emirate of Jabal Shammar",
+      "Asir"
+    ]
+  }
+}

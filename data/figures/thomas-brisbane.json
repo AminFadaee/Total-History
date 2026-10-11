@@ -12,7 +12,8 @@
   "occupation": "Astronomer",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Great Britain"
+    "Kingdom of Great Britain",
+    "United Kingdom of Great Britain and Ireland"
   ],
   "related": [],
   "contribution": "A British Army officer, colonial administrator and astronomer.",
@@ -24,9 +25,10 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ],
       "citizenship": [
+        "United Kingdom of Great Britain and Ireland",
         "Kingdom of Great Britain"
       ],
       "birthplace": [

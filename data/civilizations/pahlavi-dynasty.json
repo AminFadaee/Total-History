@@ -1,0 +1,70 @@
+{
+  "id": "Q107258515",
+  "slug": "pahlavi-dynasty",
+  "name": "Pahlavi Dynasty",
+  "wikipedia": "Pahlavi Iran",
+  "map_year": 1926,
+  "period": {
+    "start": {
+      "earliest": 1925,
+      "latest": 1925,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1979,
+      "latest": 1979,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q63158027",
+    "region": "Iran",
+    "name": "Qajar Dynasty"
+  },
+  "after": {
+    "id": "Q794",
+    "region": "Iran",
+    "name": "Islamic Republic of Iran"
+  },
+  "rulers": [
+    {
+      "id": "Q182921",
+      "name": "Reza Shah"
+    }
+  ],
+  "modern_countries": [
+    "Iran"
+  ],
+  "borders": true,
+  "map": "maps/pahlavi-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tehran"
+      ],
+      "infobox": [
+        "Tehran"
+      ]
+    },
+    "cliopatria_years": [
+      1924,
+      1978
+    ],
+    "identity": "the state named after Pahlavi dynasty",
+    "home": "the spot held longest",
+    "labelled": [
+      "British Raj",
+      "Union of Soviet Socialist Republics",
+      "British Africa",
+      "Kingdom of Afghanistan",
+      "Kingdom of Hejaz and Nejd",
+      "Kingdom of Egypt",
+      "French Mandate for Syria and Lebanon",
+      "Sultanate of Muscat and Oman"
+    ]
+  }
+}

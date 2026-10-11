@@ -12,7 +12,7 @@
   "occupation": "Nobleman",
   "birth_country": "Greece",
   "civilizations": [
-    "Kingdom of Great Britain"
+    "United Kingdom"
   ],
   "related": [],
   "contribution": "",
@@ -23,11 +23,14 @@
   "photo_credit": "Allan Warren · CC BY-SA 3.0",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "United Kingdom"
+      ],
       "death": [
-        "Kingdom of Great Britain"
+        "United Kingdom"
       ],
       "citizenship": [
-        "Kingdom of Great Britain"
+        "United Kingdom"
       ]
     },
     "lead": "Prince Philip, Duke of Edinburgh (born Prince Philip of Greece and Denmark,",

@@ -12,7 +12,7 @@
   "occupation": "Writer",
   "birth_country": "South Africa",
   "civilizations": [
-    "Kingdom of Great Britain"
+    "United Kingdom"
   ],
   "related": [],
   "contribution": "An English writer and academic philologist.",
@@ -23,11 +23,14 @@
   "photo_credit": "Unknown photo studio commissioned by Tolkien's students 1925/6 (private communication from Catherine McIlwaine, Tolkien Archivist, Bodleian Library) · Public domain",
   "checks": {
     "civilization_votes": {
+      "category": [
+        "United Kingdom"
+      ],
       "death": [
-        "Kingdom of Great Britain"
+        "United Kingdom"
       ],
       "citizenship": [
-        "Kingdom of Great Britain"
+        "United Kingdom"
       ]
     },
     "lead": "John Ronald Reuel Tolkien (; 3 January 1892 – 2 September 1973) was an English writer and academic philologist. He was the author of the high fantasy works The Hobbit (1937) and The Lord of the Rings (1954–1955).",

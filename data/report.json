@@ -4,8 +4,8 @@
     "start": -3400,
     "end": 2024
   },
-  "civilizations": 363,
-  "figures": 1740,
+  "civilizations": 371,
+  "figures": 1797,
   "failures": [],
   "unresolved_polities": {
     "Abbasid Caliphate/Buyid Dynasty": "shares Q12536 with 'Abbasid Caliphate'",
@@ -618,5 +618,942 @@
       "area_km2": 1162883.078621634,
       "neighbour_area_km2": 385462.91763290303
     }
+  ],
+  "lineage_handovers": [
+    {
+      "name": "Almohad Caliphate",
+      "side": "after",
+      "years": [
+        1270,
+        1343
+      ],
+      "to": null
+    },
+    {
+      "name": "Almoravid Dynasty",
+      "side": "after",
+      "years": [
+        1148,
+        1205
+      ],
+      "to": null
+    },
+    {
+      "name": "Alodia",
+      "side": "before",
+      "years": [
+        347,
+        500
+      ],
+      "to": null
+    },
+    {
+      "name": "Argentine Confederation",
+      "side": "after",
+      "years": [
+        1862,
+        1929
+      ],
+      "to": null
+    },
+    {
+      "name": "Astrakhan Khanate",
+      "side": "after",
+      "years": [
+        1557,
+        1768
+      ],
+      "to": null
+    },
+    {
+      "name": "Burgundian Kingdom",
+      "side": "after",
+      "years": [
+        535,
+        660
+      ],
+      "to": null
+    },
+    {
+      "name": "Burma",
+      "side": "before",
+      "years": [
+        1820,
+        1947
+      ],
+      "to": null
+    },
+    {
+      "name": "Byeonhan",
+      "side": "after",
+      "years": [
+        401,
+        566
+      ],
+      "to": null
+    },
+    {
+      "name": "Caucasian Albania",
+      "side": "before",
+      "years": [
+        -63,
+        -2
+      ],
+      "to": null
+    },
+    {
+      "name": "County of Besalú",
+      "side": "before",
+      "years": [
+        898,
+        987
+      ],
+      "to": null
+    },
+    {
+      "name": "County of Savoy",
+      "side": "after",
+      "years": [
+        1417,
+        1539
+      ],
+      "to": "Duchy of Savoy"
+    },
+    {
+      "name": "County of Urgell",
+      "side": "after",
+      "years": [
+        1414,
+        1808
+      ],
+      "to": null
+    },
+    {
+      "name": "Dauphiné",
+      "side": "before",
+      "years": [
+        1260,
+        1348
+      ],
+      "to": null
+    },
+    {
+      "name": "Denmark-Norway",
+      "side": "after",
+      "years": [
+        1815,
+        1940
+      ],
+      "to": null
+    },
+    {
+      "name": "Duchy of Anhalt",
+      "side": "before",
+      "years": [
+        1806,
+        1862
+      ],
+      "to": null
+    },
+    {
+      "name": "Duchy of Thuringia",
+      "side": "before",
+      "years": [
+        567,
+        630
+      ],
+      "to": null
+    },
+    {
+      "name": "Dál Riata",
+      "side": "after",
+      "years": [
+        844,
+        899
+      ],
+      "to": null
+    },
+    {
+      "name": "Early Dynastic Period of Egypt",
+      "side": "after",
+      "years": [
+        -2685,
+        -2501
+      ],
+      "to": "Old Kingdom of Egypt"
+    },
+    {
+      "name": "Elam",
+      "side": "before",
+      "years": [
+        -3200,
+        -2701
+      ],
+      "to": null
+    },
+    {
+      "name": "Empire of Haiti",
+      "side": "after",
+      "years": [
+        1807,
+        1811
+      ],
+      "to": "State of Haiti"
+    },
+    {
+      "name": "Empire of Haiti",
+      "side": "after",
+      "years": [
+        1812,
+        1915
+      ],
+      "to": null
+    },
+    {
+      "name": "Ethiopia",
+      "side": "before",
+      "years": [
+        1942,
+        1994
+      ],
+      "to": null
+    },
+    {
+      "name": "First Hellenic Republic",
+      "side": "after",
+      "years": [
+        1833,
+        1940
+      ],
+      "to": "Kingdom of Greece"
+    },
+    {
+      "name": "First Toungoo Empire",
+      "side": "after",
+      "years": [
+        1600,
+        1756
+      ],
+      "to": null
+    },
+    {
+      "name": "Free City of Danzig",
+      "side": "before",
+      "years": [
+        1809,
+        1919
+      ],
+      "to": "West Prussia"
+    },
+    {
+      "name": "Funan",
+      "side": "after",
+      "years": [
+        551,
+        640
+      ],
+      "to": null
+    },
+    {
+      "name": "Halych-Volhynia occupation",
+      "side": "before",
+      "years": [
+        1056,
+        1198
+      ],
+      "to": null
+    },
+    {
+      "name": "Giudicato of Cagliari",
+      "side": "before",
+      "years": [
+        866,
+        999
+      ],
+      "to": null
+    },
+    {
+      "name": "Golden Horde",
+      "side": "after",
+      "years": [
+        1503,
+        1695
+      ],
+      "to": null
+    },
+    {
+      "name": "Hamdanid Emirates",
+      "side": "after",
+      "years": [
+        1005,
+        1259
+      ],
+      "to": null
+    },
+    {
+      "name": "Himyarite Kingdom",
+      "side": "after",
+      "years": [
+        526,
+        601
+      ],
+      "to": null
+    },
+    {
+      "name": "Janapada of Aśmaka",
+      "side": "after",
+      "years": [
+        -424,
+        -351
+      ],
+      "to": null
+    },
+    {
+      "name": "Khanate of Sibir",
+      "side": "before",
+      "years": [
+        1429,
+        1489
+      ],
+      "to": null
+    },
+    {
+      "name": "Khmer Empire",
+      "side": "after",
+      "years": [
+        1432,
+        1867
+      ],
+      "to": null
+    },
+    {
+      "name": "Khoshut Khanate",
+      "side": "before",
+      "years": [
+        1582,
+        1649
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Armenia",
+      "side": "after",
+      "years": [
+        429,
+        642
+      ],
+      "to": "Sasanian Armenia"
+    },
+    {
+      "name": "Kingdom of Armenia",
+      "side": "after",
+      "years": [
+        643,
+        646
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Bhutan",
+      "side": "before",
+      "years": [
+        1636,
+        1948
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Castile",
+      "side": "before",
+      "years": [
+        961,
+        1064
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Georgia",
+      "side": "after",
+      "years": [
+        1467,
+        1762
+      ],
+      "to": "Kingdom of Kartli"
+    },
+    {
+      "name": "Kingdom of Georgia",
+      "side": "after",
+      "years": [
+        1763,
+        1801
+      ],
+      "to": "Kingdom of Kartli-Kakheti"
+    },
+    {
+      "name": "Kingdom of Georgia",
+      "side": "after",
+      "years": [
+        1802,
+        1802
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Gwent",
+      "side": "after",
+      "years": [
+        960,
+        1055
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Gwynedd",
+      "side": "after",
+      "years": [
+        1217,
+        1284
+      ],
+      "to": "Principality of Wales"
+    },
+    {
+      "name": "Kingdom of Israel",
+      "side": "after",
+      "years": [
+        -929,
+        -720
+      ],
+      "to": "Kingdom of Israel (Samaria)"
+    },
+    {
+      "name": "Kingdom of Israel",
+      "side": "after",
+      "years": [
+        -719,
+        -701
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Italy",
+      "side": "before",
+      "years": [
+        587,
+        1860
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Serbia",
+      "side": "before",
+      "years": [
+        1815,
+        1881
+      ],
+      "to": "Principality of Serbia"
+    },
+    {
+      "name": "Kingdom of Serbia",
+      "side": "before",
+      "years": [
+        1188,
+        1814
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Sophene",
+      "side": "after",
+      "years": [
+        -93,
+        113
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Sophene",
+      "side": "before",
+      "years": [
+        -256,
+        -202
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of the Iberians",
+      "side": "before",
+      "years": [
+        814,
+        887
+      ],
+      "to": "Principality of Iberia"
+    },
+    {
+      "name": "Kuwait",
+      "side": "before",
+      "years": [
+        1757,
+        1990
+      ],
+      "to": null
+    },
+    {
+      "name": "Later Zhou",
+      "side": "before",
+      "years": [
+        -750,
+        950
+      ],
+      "to": null
+    },
+    {
+      "name": "Mali Federation",
+      "side": "after",
+      "years": [
+        1961,
+        2024
+      ],
+      "to": "Mali"
+    },
+    {
+      "name": "Middle Kingdom of Egypt",
+      "side": "after",
+      "years": [
+        -1781,
+        -1601
+      ],
+      "to": null
+    },
+    {
+      "name": "Montenegro",
+      "side": "before",
+      "years": [
+        1853,
+        2005
+      ],
+      "to": null
+    },
+    {
+      "name": "Natalia Republic",
+      "side": "after",
+      "years": [
+        1844,
+        1910
+      ],
+      "to": null
+    },
+    {
+      "name": "Nepal",
+      "side": "before",
+      "years": [
+        1775,
+        2007
+      ],
+      "to": "Kingdom of Nepal"
+    },
+    {
+      "name": "Netherlands Antilles",
+      "side": "before",
+      "years": [
+        1815,
+        1953
+      ],
+      "to": "Colony of Curaçao and Dependencies"
+    },
+    {
+      "name": "New Kingdom of Egypt",
+      "side": "after",
+      "years": [
+        -1069,
+        -801
+      ],
+      "to": null
+    },
+    {
+      "name": "New Netherland",
+      "side": "after",
+      "years": [
+        1668,
+        1776
+      ],
+      "to": "Province of New Jersey"
+    },
+    {
+      "name": "New Netherland",
+      "side": "after",
+      "years": [
+        1777,
+        1802
+      ],
+      "to": null
+    },
+    {
+      "name": "Ngô Dynasty",
+      "side": "after",
+      "years": [
+        966,
+        1406
+      ],
+      "to": null
+    },
+    {
+      "name": "Nobatia",
+      "side": "before",
+      "years": [
+        347,
+        399
+      ],
+      "to": null
+    },
+    {
+      "name": "Novgorod Republic",
+      "side": "before",
+      "years": [
+        1056,
+        1135
+      ],
+      "to": null
+    },
+    {
+      "name": "Principality of Capua",
+      "side": "before",
+      "years": [
+        840,
+        899
+      ],
+      "to": null
+    },
+    {
+      "name": "Principality of Jersika",
+      "side": "before",
+      "years": [
+        1111,
+        1189
+      ],
+      "to": null
+    },
+    {
+      "name": "Principality of Koknese",
+      "side": "before",
+      "years": [
+        1111,
+        1179
+      ],
+      "to": null
+    },
+    {
+      "name": "Principality of Liechtenstein",
+      "side": "before",
+      "years": [
+        1721,
+        1805
+      ],
+      "to": null
+    },
+    {
+      "name": "Principality of Rostov-Suzdal",
+      "side": "before",
+      "years": [
+        1056,
+        1124
+      ],
+      "to": null
+    },
+    {
+      "name": "Pskov Republic",
+      "side": "before",
+      "years": [
+        1285,
+        1347
+      ],
+      "to": null
+    },
+    {
+      "name": "Republic of China",
+      "side": "after",
+      "years": [
+        1972,
+        2024
+      ],
+      "to": null
+    },
+    {
+      "name": "Republic of Florence",
+      "side": "after",
+      "years": [
+        1570,
+        1737
+      ],
+      "to": null
+    },
+    {
+      "name": "Saadi Sultanate",
+      "side": "after",
+      "years": [
+        1660,
+        1740
+      ],
+      "to": null
+    },
+    {
+      "name": "Serbian Empire",
+      "side": "after",
+      "years": [
+        1372,
+        1458
+      ],
+      "to": null
+    },
+    {
+      "name": "Sixteenth Dynasty of Egypt",
+      "side": "after",
+      "years": [
+        -1579,
+        -1501
+      ],
+      "to": null
+    },
+    {
+      "name": "Sultanate of Aceh",
+      "side": "after",
+      "years": [
+        1904,
+        1959
+      ],
+      "to": null
+    },
+    {
+      "name": "Sultanate of Brunei",
+      "side": "after",
+      "years": [
+        1889,
+        2024
+      ],
+      "to": null
+    },
+    {
+      "name": "Sultanate of Malacca",
+      "side": "after",
+      "years": [
+        1512,
+        1861
+      ],
+      "to": null
+    },
+    {
+      "name": "Sultanate of Mempawah",
+      "side": "before",
+      "years": [
+        1619,
+        1739
+      ],
+      "to": null
+    },
+    {
+      "name": "Sultanate of Oman",
+      "side": "before",
+      "years": [
+        1744,
+        1969
+      ],
+      "to": null
+    },
+    {
+      "name": "Swedish Empire",
+      "side": "after",
+      "years": [
+        1722,
+        1814
+      ],
+      "to": null
+    },
+    {
+      "name": "Swiss Confederation",
+      "side": "before",
+      "years": [
+        1294,
+        1847
+      ],
+      "to": null
+    },
+    {
+      "name": "Taifa of Algeciras",
+      "side": "after",
+      "years": [
+        1059,
+        1168
+      ],
+      "to": null
+    },
+    {
+      "name": "Taifa of Almería",
+      "side": "after",
+      "years": [
+        1148,
+        1249
+      ],
+      "to": null
+    },
+    {
+      "name": "Taifa of Niebla",
+      "side": "after",
+      "years": [
+        1054,
+        1249
+      ],
+      "to": null
+    },
+    {
+      "name": "Taifa of Saltés and Huelva",
+      "side": "after",
+      "years": [
+        1052,
+        1151
+      ],
+      "to": null
+    },
+    {
+      "name": "Taifa of Silves",
+      "side": "after",
+      "years": [
+        1064,
+        1168
+      ],
+      "to": null
+    },
+    {
+      "name": "Taifa of Valencia",
+      "side": "after",
+      "years": [
+        1095,
+        1249
+      ],
+      "to": null
+    },
+    {
+      "name": "Tarumanagara",
+      "side": "before",
+      "years": [
+        367,
+        449
+      ],
+      "to": null
+    },
+    {
+      "name": "Vakataka Kingdom",
+      "side": "after",
+      "years": [
+        501,
+        554
+      ],
+      "to": null
+    },
+    {
+      "name": "Western Satraps",
+      "side": "after",
+      "years": [
+        406,
+        489
+      ],
+      "to": null
+    },
+    {
+      "name": "Xu",
+      "side": "after",
+      "years": [
+        -511,
+        -285
+      ],
+      "to": null
+    },
+    {
+      "name": "Hunnic Empire",
+      "side": "after",
+      "years": [
+        485,
+        673
+      ],
+      "to": null
+    },
+    {
+      "name": "Kalinga",
+      "side": "after",
+      "years": [
+        -260,
+        -171
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Great Britain",
+      "side": "after",
+      "years": [
+        1802,
+        1927
+      ],
+      "to": "United Kingdom of Great Britain and Ireland"
+    },
+    {
+      "name": "Kingdom of Great Britain",
+      "side": "after",
+      "years": [
+        1928,
+        2024
+      ],
+      "to": "United Kingdom"
+    },
+    {
+      "name": "Principality of Serbia",
+      "side": "after",
+      "years": [
+        970,
+        1881
+      ],
+      "to": null
+    },
+    {
+      "name": "Tibet",
+      "side": "before",
+      "years": [
+        1363,
+        1911
+      ],
+      "to": null
+    }
+  ],
+  "names_not_matching_their_state": [
+    "Aquitaine",
+    "Azerbaijan Democratic Republic",
+    "Bahrain",
+    "Bali",
+    "British Ceylon",
+    "British East Africa",
+    "Cispadane Republic",
+    "County of Brabant",
+    "County of Béarn",
+    "County of Rosellón",
+    "County of Touraine",
+    "Cyprus Condominium",
+    "Duchy of Mecklenburg",
+    "Duchy of Łęczyca",
+    "Early Cheras",
+    "French Colony of Guiana",
+    "Grand Duchy of Kraków",
+    "Isle of Man",
+    "Janapada of Kamboja",
+    "Janapada of Kuru",
+    "Kamerun",
+    "Kingdom of Bulgaria",
+    "Kingdom of Lithuania",
+    "Michoacán",
+    "Napoleonic Batavia Republic",
+    "Pahang Sultanate",
+    "Palmyrene Empire",
+    "People's Republic of Zanzibar",
+    "Pro-Habsburg Spain",
+    "Republic of Baden",
+    "Strathclyde",
+    "Taifa of Córdoba",
+    "Ukrainian People's Republic"
   ]
 }

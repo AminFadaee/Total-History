@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Great Britain"
+    "Kingdom of Great Britain",
+    "United Kingdom of Great Britain and Ireland"
   ],
   "related": [],
   "contribution": "A Royal Navy officer who served as the first governor of the Colony of New South Wales.",
@@ -24,9 +25,10 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ],
       "citizenship": [
+        "United Kingdom of Great Britain and Ireland",
         "Kingdom of Great Britain"
       ],
       "birthplace": [
@@ -34,7 +36,7 @@
       ]
     },
     "lead": "Arthur Phillip (11 October 1738 – 31 August 1814) was a Royal Navy officer who served as the first governor of the Colony of New South Wales.",
-    "image": "main image is a coin, stamp, calligraphy or missing",
+    "image": "main image is an object (coin, stamp, plate, crown, flag, tomb), calligraphy or missing",
     "photo": "no death year in or after 1860"
   }
 }

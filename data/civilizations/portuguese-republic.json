@@ -1,0 +1,61 @@
+{
+  "id": "Q45",
+  "slug": "portuguese-republic",
+  "name": "Portuguese Republic",
+  "wikipedia": "Portugal",
+  "map_year": 1924,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Lisbon",
+      "location": [
+        -9.139016,
+        38.708042
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q45670",
+    "region": "Portugal",
+    "name": "Kingdom of Portugal"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Angola",
+    "Mozambique",
+    "Portugal",
+    "Guinea-Bissau",
+    "East Timor",
+    "Cabo Verde",
+    "São Tomé and Principe",
+    "China"
+  ],
+  "borders": true,
+  "map": "maps/portuguese-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Lisbon"
+      ],
+      "infobox": [
+        "Lisbon"
+      ]
+    },
+    "cliopatria_years": [
+      1911,
+      1925
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "Lisbon",
+    "labelled": [
+      "Kingdom of Spain"
+    ]
+  }
+}

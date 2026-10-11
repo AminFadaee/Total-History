@@ -1,0 +1,84 @@
+{
+  "id": "Q230407",
+  "slug": "kingdom-of-israel-samaria",
+  "name": "Kingdom of Israel (Samaria)",
+  "wikipedia": "Kingdom of Israel (Samaria)",
+  "map_year": -929,
+  "period": {
+    "start": {
+      "earliest": -930,
+      "latest": -930,
+      "circa": true
+    },
+    "end": {
+      "earliest": -720,
+      "latest": -720,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Shiloh",
+      "location": [
+        35.28953611,
+        32.05570278
+      ]
+    },
+    {
+      "name": "Tirzah",
+      "location": [
+        35.3378,
+        32.2874
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q3185305",
+    "region": "Palestine",
+    "name": "Kingdom of Israel"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q313219",
+      "name": "Jeroboam"
+    },
+    {
+      "id": "Q319038",
+      "name": "Hoshea"
+    }
+  ],
+  "modern_countries": [
+    "Jordan",
+    "Palestine",
+    "Israel",
+    "Syria"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-israel-samaria.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Shechem",
+        "Samaria",
+        "Tirzah"
+      ],
+      "infobox": [
+        "Shiloh",
+        "Shechem",
+        "Tirzah",
+        "Samaria"
+      ]
+    },
+    "cliopatria_years": [
+      -929,
+      -720
+    ],
+    "identity": "successor on borders Cliopatria gives an earlier name",
+    "home": "Shiloh",
+    "labelled": []
+  }
+}

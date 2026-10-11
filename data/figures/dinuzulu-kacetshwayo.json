@@ -14,7 +14,9 @@
   "civilizations": [
     "Zululand"
   ],
-  "related": [],
+  "related": [
+    "United Kingdom of Great Britain and Ireland"
+  ],
   "contribution": "The king of the Zulu nation from 20 May 1884 until his death in 1913.",
   "image": "images/dinuzulu-kacetshwayo.jpg",
   "image_credit": "E. E. Caney Photo · Public domain",
@@ -24,6 +26,7 @@
   "checks": {
     "civilization_votes": {
       "lead": [
+        "United Kingdom of Great Britain and Ireland",
         "Zululand"
       ],
       "citizenship": [

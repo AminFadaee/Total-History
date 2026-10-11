@@ -3,7 +3,7 @@
   "slug": "duchy-of-savoy",
   "name": "Duchy of Savoy",
   "wikipedia": "Duchy of Savoy",
-  "map_year": 1416,
+  "map_year": 1417,
   "period": {
     "start": {
       "earliest": 1416,
@@ -23,12 +23,20 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q1232887",
+    "region": "France",
+    "name": "County of Savoy"
+  },
   "after": {},
   "rulers": [],
-  "modern_countries": [],
-  "borders": false,
-  "map": "",
+  "modern_countries": [
+    "France",
+    "Italy",
+    "Switzerland"
+  ],
+  "borders": true,
+  "map": "maps/duchy-of-savoy.png",
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -41,8 +49,33 @@
         "Turin"
       ]
     },
-    "cliopatria_years": [],
-    "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "cliopatria_years": [
+      1417,
+      1539
+    ],
+    "identity": "successor on borders Cliopatria gives an earlier name",
+    "home": "the spot held longest",
+    "labelled": [
+      "Kingdom of France",
+      "Holy Roman Empire Minor States",
+      "House of Valois-Anjou",
+      "Duchy of Burgundy",
+      "Duchy of Milan",
+      "House of Bourbon",
+      "Republic of Genoa",
+      "Swiss Confederation",
+      "House of Habsburg",
+      "Papal States",
+      "Duchy of Bavaria",
+      "Duchy of Brittany",
+      "Republic of Venice",
+      "County of Armagnac",
+      "Republic of Florence",
+      "County of Foix",
+      "Kingdom of Navarre",
+      "Duchy of Aquitaine",
+      "Patriarchate of Aquileia",
+      "County of Béarn"
+    ]
   }
 }

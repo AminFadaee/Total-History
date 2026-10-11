@@ -19,7 +19,11 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q174193",
+    "region": "Ireland",
+    "name": "United Kingdom of Great Britain and Ireland"
+  },
   "after": {
     "id": "Q27",
     "region": "Ireland",
@@ -53,7 +57,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Kingdom of Great Britain"
+      "United Kingdom of Great Britain and Ireland"
     ]
   }
 }

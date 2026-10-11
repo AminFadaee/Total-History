@@ -12,7 +12,7 @@
   "occupation": "Nobleman",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Great Britain"
+    "United Kingdom of Great Britain and Ireland"
   ],
   "related": [
     "French Third Republic"
@@ -26,19 +26,20 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "United Kingdom of Great Britain and Ireland",
         "British Raj"
       ],
       "death": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ],
       "lead": [
         "French Third Republic"
       ],
       "citizenship": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ],
       "birthplace": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Edward VII (Albert Edward; 9 November 1841 – 6 May 1910) was King of the United Kingdom and the British Dominions, and Emperor of India, from 22 January 1901 until his death in 1910.",

@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Great Britain",
+    "United Kingdom of Great Britain and Ireland",
+    "United Kingdom",
     "Canada"
   ],
   "related": [],
@@ -25,18 +26,21 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "United Kingdom",
         "Canada",
         "British Raj",
-        "Union of South Africa"
+        "Union of South Africa",
+        "United Kingdom of Great Britain and Ireland"
       ],
       "death": [
         "French Fifth Republic"
       ],
       "citizenship": [
-        "Kingdom of Great Britain"
+        "United Kingdom",
+        "United Kingdom of Great Britain and Ireland"
       ],
       "birthplace": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Edward VIII (Edward Albert Christian George Andrew Patrick David; 23 June 1894 – 28 May 1972), later known as the Duke of Windsor, was King of the United Kingdom and the British Dominions, and Emperor of India, from 20 January 1936 until his abdication in December of the same year.",

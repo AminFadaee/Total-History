@@ -24,7 +24,11 @@
     "region": "United Kingdom",
     "name": "Kingdom of England"
   },
-  "after": {},
+  "after": {
+    "id": "Q174193",
+    "region": "United Kingdom",
+    "name": "United Kingdom of Great Britain and Ireland"
+  },
   "rulers": [
     {
       "id": "Q119702",
@@ -59,7 +63,7 @@
     },
     "cliopatria_years": [
       1709,
-      2024
+      1801
     ],
     "identity": "Wikidata state named like the Cliopatria polity",
     "home": "the spot held longest",

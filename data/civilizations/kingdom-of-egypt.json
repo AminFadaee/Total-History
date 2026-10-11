@@ -1,0 +1,73 @@
+{
+  "id": "Q124943",
+  "slug": "kingdom-of-egypt",
+  "name": "Kingdom of Egypt",
+  "wikipedia": "Kingdom of Egypt",
+  "map_year": 1926,
+  "period": {
+    "start": {
+      "earliest": 1922,
+      "latest": 1922,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1953,
+      "latest": 1953,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Cairo",
+      "location": [
+        31.235833333333332,
+        30.044444444444444
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q79",
+    "region": "Egypt",
+    "name": "Republic of Egypt"
+  },
+  "rulers": [
+    {
+      "id": "Q213001",
+      "name": "Farouk of Egypt"
+    },
+    {
+      "id": "Q311796",
+      "name": "Fuad II of Egypt"
+    }
+  ],
+  "modern_countries": [
+    "Egypt"
+  ],
+  "borders": true,
+  "map": "maps/kingdom-of-egypt.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Cairo"
+      ],
+      "infobox": [
+        "Cairo"
+      ]
+    },
+    "cliopatria_years": [
+      1922,
+      1952
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Cairo",
+    "labelled": [
+      "British Africa",
+      "Kingdom of Hejaz and Nejd",
+      "Italian Africa"
+    ]
+  }
+}

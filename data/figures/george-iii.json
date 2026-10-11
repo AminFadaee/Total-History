@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Great Britain"
+    "Kingdom of Great Britain",
+    "United Kingdom of Great Britain and Ireland"
   ],
   "related": [
     "Electorate of Hanover",
@@ -28,19 +29,22 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of Great Britain"
+        "Kingdom of Great Britain",
+        "United Kingdom of Great Britain and Ireland"
       ],
       "death": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ],
       "lead": [
         "Electorate of Hanover",
         "Kingdom of France",
         "Kingdom of Great Britain",
+        "United Kingdom of Great Britain and Ireland",
         "British Colonial Empire"
       ],
       "citizenship": [
-        "Kingdom of Great Britain"
+        "Kingdom of Great Britain",
+        "United Kingdom of Great Britain and Ireland"
       ],
       "birthplace": [
         "Kingdom of Great Britain"

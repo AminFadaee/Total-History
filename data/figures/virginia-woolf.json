@@ -12,7 +12,8 @@
   "occupation": "Writer",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Great Britain"
+    "United Kingdom of Great Britain and Ireland",
+    "United Kingdom"
   ],
   "related": [],
   "contribution": "An English writer and one of the most influential 20th-century modernist authors.",
@@ -24,13 +25,14 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Kingdom of Great Britain"
+        "United Kingdom"
       ],
       "citizenship": [
-        "Kingdom of Great Britain"
+        "United Kingdom",
+        "United Kingdom of Great Britain and Ireland"
       ],
       "birthplace": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Adeline Virginia Woolf ( \"wolf\"; née Stephen; 25 January 1882 –  28 March 1941) was an English writer and one of the most influential 20th-century modernist authors. She helped to pioneer the use of stream of consciousness narration as a literary device.",

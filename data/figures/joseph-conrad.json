@@ -13,7 +13,7 @@
   "birth_country": "Ukraine",
   "civilizations": [
     "Russian Empire",
-    "Kingdom of Great Britain"
+    "United Kingdom of Great Britain and Ireland"
   ],
   "related": [
     "British Colonial Empire"
@@ -27,14 +27,14 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ],
       "lead": [
         "British Colonial Empire"
       ],
       "citizenship": [
         "Russian Empire",
-        "Kingdom of Great Britain",
+        "United Kingdom of Great Britain and Ireland",
         "Second Polish Republic"
       ],
       "birthplace": [

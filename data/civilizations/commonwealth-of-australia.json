@@ -1,0 +1,55 @@
+{
+  "id": "Q408",
+  "slug": "commonwealth-of-australia",
+  "name": "Commonwealth of Australia",
+  "wikipedia": "Australia",
+  "map_year": 1945,
+  "period": {
+    "start": {
+      "earliest": 1901,
+      "latest": 1901,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Canberra",
+      "location": [
+        149.12694444444,
+        -35.293055555556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Australia",
+    "Papua New Guinea"
+  ],
+  "borders": true,
+  "map": "maps/commonwealth-of-australia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Canberra"
+      ],
+      "infobox": [
+        "Canberra"
+      ]
+    },
+    "cliopatria_years": [
+      1905,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Canberra",
+    "labelled": [
+      "Empire of Japan"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "Q33",
+  "slug": "republic-of-finland",
+  "name": "Republic of Finland",
+  "wikipedia": "Finland",
+  "map_year": 1942,
+  "period": {
+    "start": {
+      "earliest": 1917,
+      "latest": 1917,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Helsinki",
+      "location": [
+        24.9375,
+        60.170833333333334
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Finland",
+    "Russia"
+  ],
+  "borders": true,
+  "map": "maps/republic-of-finland.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Helsinki"
+      ],
+      "infobox": [
+        "Helsinki"
+      ]
+    },
+    "cliopatria_years": [
+      1918,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Helsinki",
+    "labelled": [
+      "Union of Soviet Socialist Republics",
+      "Nazi Germany",
+      "Kingdom of Sweden"
+    ]
+  }
+}

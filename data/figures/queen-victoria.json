@@ -12,7 +12,7 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Great Britain"
+    "United Kingdom of Great Britain and Ireland"
   ],
   "related": [
     "British Colonial Empire"
@@ -26,19 +26,21 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "United Kingdom of Great Britain and Ireland",
         "British Raj"
       ],
       "death": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ],
       "lead": [
+        "United Kingdom of Great Britain and Ireland",
         "British Colonial Empire"
       ],
       "citizenship": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ],
       "birthplace": [
-        "Kingdom of Great Britain"
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Victoria (Alexandrina Victoria; 24 May 1819 – 22 January 1901) was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901. Her reign of 63 years and 216 days, which was longer than those of any of her predecessors, constituted the Victorian era, a period of industrial, political, scientific, and military change within the United Kingdom marked by a great expansion of the British Empire. In 1876, the British parliament voted to grant her the additional title of Empress of India.",
