@@ -27,7 +27,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q49326",
+    "region": "Malaysia",
+    "name": "Majapahit"
+  },
   "after": {},
   "rulers": [
     {
@@ -83,7 +87,7 @@
     },
     "cliopatria_years": [
       1459,
-      1861
+      1511
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",

@@ -5,7 +5,11 @@
   "wikipedia": "Caucasian Albania",
   "map_year": 500,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -1,
+      "latest": 98,
+      "circa": false
+    },
     "end": null,
     "confirmed": false
   },
@@ -41,7 +45,7 @@
       ]
     },
     "cliopatria_years": [
-      -63,
+      -1,
       509
     ],
     "identity": "same item in Cliopatria and Wikipedia",

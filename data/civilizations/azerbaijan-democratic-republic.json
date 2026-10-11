@@ -1,0 +1,73 @@
+{
+  "id": "Q206411",
+  "slug": "azerbaijan-democratic-republic",
+  "name": "Azerbaijan Democratic Republic",
+  "wikipedia": "Azerbaijan Democratic Republic",
+  "map_year": 1918,
+  "period": {
+    "start": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1920,
+      "latest": 1920,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Ganja",
+      "location": [
+        46.360555555556,
+        40.682777777778
+      ]
+    },
+    {
+      "name": "Baku",
+      "location": [
+        49.835183333333,
+        40.366655555556
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Azerbaijan",
+    "Armenia"
+  ],
+  "borders": true,
+  "map": "maps/azerbaijan-democratic-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ganja, Azerbaijan",
+        "Baku"
+      ],
+      "infobox": [
+        "Ganja, Azerbaijan",
+        "Baku"
+      ]
+    },
+    "cliopatria_years": [
+      1918,
+      1919
+    ],
+    "identity": "Wikidata state named like the Cliopatria polity",
+    "home": "Ganja",
+    "labelled": [
+      "Ottoman Empire",
+      "Russian Republic",
+      "Qajar Dynasty",
+      "Georgia",
+      "British Colonial Empire",
+      "Armenia"
+    ]
+  }
+}

@@ -32,7 +32,11 @@
     "region": "Morocco",
     "name": "Wattasid dynasty"
   },
-  "after": {},
+  "after": {
+    "id": "Q2412900",
+    "region": "Morocco",
+    "name": "Republic of Salé"
+  },
   "rulers": [],
   "modern_countries": [
     "Morocco",
@@ -54,7 +58,7 @@
     },
     "cliopatria_years": [
       1556,
-      1740
+      1659
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Fez",

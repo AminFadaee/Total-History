@@ -12,8 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Ethiopia",
   "civilizations": [
-    "Ethiopian Empire",
-    "Ethiopia"
+    "Ethiopian Empire"
   ],
   "related": [
     "Union of Soviet Socialist Republics"
@@ -27,11 +26,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Ethiopian Empire",
-        "Ethiopia"
-      ],
-      "death": [
-        "Ethiopia"
+        "Ethiopian Empire"
       ],
       "lead": [
         "Ethiopian Empire",
@@ -39,9 +34,6 @@
       ],
       "citizenship": [
         "Ethiopian Empire"
-      ],
-      "vital_section": [
-        "Ethiopia"
       ],
       "birthplace": [
         "Ethiopian Empire"

@@ -41,7 +41,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q2577303",
+    "region": "Italy",
+    "name": "Kingdom of Sardinia"
+  },
   "after": {
     "id": "Q38",
     "region": "Italy",
@@ -76,7 +80,7 @@
       ]
     },
     "cliopatria_years": [
-      587,
+      1862,
       1946
     ],
     "identity": "same item in Cliopatria and Wikipedia",

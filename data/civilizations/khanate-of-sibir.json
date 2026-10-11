@@ -3,15 +3,19 @@
   "slug": "khanate-of-sibir",
   "name": "Khanate of Sibir",
   "wikipedia": "Khanate of Sibir",
-  "map_year": 1475,
+  "map_year": 1492,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1468,
+      "latest": 1468,
+      "circa": false
+    },
     "end": {
       "earliest": 1598,
       "latest": 1598,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": true
   },
   "capitals": [
     {
@@ -38,8 +42,7 @@
   },
   "rulers": [],
   "modern_countries": [
-    "Russia",
-    "Kazakhstan"
+    "Russia"
   ],
   "borders": true,
   "map": "maps/khanate-of-sibir.png",
@@ -56,28 +59,26 @@
       ]
     },
     "cliopatria_years": [
-      1429,
+      1490,
       1587
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Chimgi-Tura",
     "labelled": [
-      "Mongol Khanate",
       "Grand Principality of Moscow",
-      "Moghulistan",
       "Kazakh Khanate",
-      "Nogai Horde",
-      "Ming Dynasty",
-      "Aq Qoyunlu",
-      "Mamluk Sultanate",
+      "Mongol Khanate",
       "Kalmar Union",
       "House of Jagiellon",
-      "Timurid Empire",
+      "Nogai Horde",
       "Ottoman Empire",
-      "Tibet",
       "Golden Horde",
+      "Kingdom of Hungary",
+      "Holy Roman Empire Minor States",
       "Khanate of Kazan",
-      "Kapisa"
+      "Astrakhan Khanate",
+      "Eastern Chagatai Khanate",
+      "Kingdom of Bohemia"
     ]
   }
 }

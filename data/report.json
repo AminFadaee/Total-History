@@ -4,8 +4,8 @@
     "start": -3400,
     "end": 2024
   },
-  "civilizations": 373,
-  "figures": 1797,
+  "civilizations": 371,
+  "figures": 1788,
   "failures": [],
   "unresolved_polities": {
     "Abbasid Caliphate/Buyid Dynasty": "shares Q12536 with 'Abbasid Caliphate'",
@@ -2041,5 +2041,37 @@
     "Strathclyde",
     "Taifa of Córdoba",
     "Ukrainian People's Republic"
+  ],
+  "names_dropped_for_their_wrong_state": [
+    "Aquitaine",
+    "Bahrain",
+    "Bali",
+    "British Ceylon",
+    "British East Africa",
+    "Cispadane Republic",
+    "County of Brabant",
+    "County of Béarn",
+    "County of Rosellón",
+    "County of Touraine",
+    "Cyprus Condominium",
+    "Duchy of Mecklenburg",
+    "Duchy of Łęczyca",
+    "Early Cheras",
+    "French Colony of Guiana",
+    "Grand Duchy of Kraków",
+    "Isle of Man",
+    "Janapada of Kamboja",
+    "Janapada of Kuru",
+    "Kamerun",
+    "Kingdom of Bulgaria",
+    "Kingdom of Lithuania",
+    "Michoacán",
+    "Napoleonic Batavia Republic",
+    "Pahang Sultanate",
+    "Palmyrene Empire",
+    "People's Republic of Zanzibar",
+    "Pro-Habsburg Spain",
+    "Republic of Baden",
+    "Taifa of Córdoba"
   ]
 }
