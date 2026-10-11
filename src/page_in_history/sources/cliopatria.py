@@ -30,6 +30,7 @@ class Cliopatria:
     def __init__(self, frame: gpd.GeoDataFrame, spikes: list[Spike] | None = None):
         self.frame = frame
         self.spikes = self._drop_spikes() if spikes is None else spikes
+        self.by_name = dict(tuple(self.frame.groupby("Name", sort=False)))
 
     @classmethod
     def load(cls, http: Http) -> "Cliopatria":
@@ -50,7 +51,7 @@ class Cliopatria:
         return self.frame[(self.frame.FromYear <= year) & (self.frame.ToYear >= year)]
 
     def rows(self, name: str) -> gpd.GeoDataFrame:
-        return self.frame[self.frame.Name == name]
+        return self.by_name.get(name, self.frame.iloc[:0])
 
     def _drop_spikes(self) -> list[Spike]:
         """A single time step far larger than both neighbours is a mislabelled shape, not a conquest."""
