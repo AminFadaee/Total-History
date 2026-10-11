@@ -413,8 +413,9 @@ class FigureBuilder:
         death under a foreign occupation, like Saddam Hussein's in Baghdad drawn as American, would place them there.
         Holding a state's own head-of-state or head-of-government office confirms that state alone. A state whose own
         dates meet the person's adult life comes before one that had ended or not yet begun, as Tang before Sui for
-        Xuanzang; then the best supported, a place of death counting half there since exiles die abroad, and among
-        equals the one the person lived in longest as an adult."""
+        Xuanzang; then the best supported, a place of death counting half there since exiles die abroad; among equals
+        the one the person lived in longest as an adult, then one they were a citizen of, then one whose office they
+        held."""
         person, adulthood = candidate.person, candidate.adulthood
         sources = {
             "office": self._offices(candidate),
@@ -433,7 +434,8 @@ class FigureBuilder:
         best = max(votes.values(), default=0)
         support = lambda qid: (not self._in_own_dates(qid, adulthood),
                                -(votes[qid] - DEATH_DISCOUNT * (qid in sources["death"])),
-                               -self._years_within(qid, adulthood))
+                               -self._years_within(qid, adulthood),
+                               qid not in sources["citizenship"], qid not in sources["office"])
         confirmed = sorted((qid for qid in sorted(set(votes) | headed)
                             if (votes[qid] >= MIN_VOTES and (qid in member or votes[qid] == best)) or qid in headed),
                            key=support)
