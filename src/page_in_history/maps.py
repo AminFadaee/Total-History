@@ -306,7 +306,7 @@ class MapRenderer:
     @staticmethod
     def _overlaps(axes, scene: Scene, colors: dict[str, str]) -> None:
         """Land claimed by two polities in the same year gets one's colour striped with the other's, so neither
-        silently wins."""
+        silently wins. Only the part in the frame is drawn, since hatching costs time for its whole area."""
         fills = {**colors, scene.name: Color.HIGHLIGHT}
         minimum = (MIN_OVERLAP_PIXELS * scene.pixel) ** 2
         for (first, first_shape), (second, second_shape) in itertools.combinations(scene.shapes.items(), 2):
@@ -314,6 +314,9 @@ class MapRenderer:
                 continue
             shared = first_shape.intersection(second_shape)
             if shared.area < minimum:
+                continue
+            shared = shared.intersection(scene.frame)
+            if shared.is_empty:
                 continue
             base, stripes = (first, second) if first == scene.name or second != scene.name else (second, first)
             gpd.GeoSeries([shared], crs=scene.crs).plot(ax=axes, facecolor=fills[base], edgecolor=fills[stripes],
