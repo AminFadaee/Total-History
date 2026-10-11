@@ -317,7 +317,7 @@ class FigureBuilder:
         for qid in person.ids("P27", preferred_only=False):
             if qid in self.catalog.by_qid:
                 found.append(qid)
-            elif parts := [part for part in self.umbrellas.get(qid, ()) if self._active(part, adulthood)]:
+            elif parts := [part for part in sorted(self.umbrellas.get(qid, ())) if self._active(part, adulthood)]:
                 found += parts
             elif self.capital_holders.get(qid):
                 years: Counter = Counter()
@@ -419,7 +419,7 @@ class FigureBuilder:
         best = max(votes.values(), default=0)
         support = lambda qid: (-(votes[qid] - DEATH_DISCOUNT * (qid in sources["death"])),
                                -self._years_within(qid, adulthood))
-        confirmed = sorted((qid for qid in set(votes) | headed
+        confirmed = sorted((qid for qid in sorted(set(votes) | headed)
                             if (votes[qid] >= MIN_VOTES and (qid in member or votes[qid] == best)) or qid in headed),
                            key=support)
         if not confirmed and candidate.core:
@@ -445,7 +445,7 @@ class FigureBuilder:
             office = self.offices.get(qid)
             states = {state for state in office.ids("P1001", preferred_only=False) if state in self.catalog.by_qid} \
                 if office else set()
-            found += [state for state in states | self.head_offices.get(qid, set()) if self._active(state, term)]
+            found += [state for state in sorted(states | self.head_offices.get(qid, set())) if self._active(state, term)]
         return found
 
     def _headed(self, candidate: Candidate) -> set[str]:
