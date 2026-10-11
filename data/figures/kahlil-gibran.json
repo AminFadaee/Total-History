@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/kahlil-gibran.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/kahlil-gibran-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Jubrān Khalīl Jubrān (Arabic: جُبْرَان خَلِيل جُبْرَان; January 6, 1883 – April 10, 1931), usually referred to in English as Kahlil Gibran, was a Lebanese-American writer, poet and visual artist. He was also considered a philosopher, although he himself rejected the title. He is best known as the author of The Prophet, which was first published in the United States in 1923 and has since become one of the best-selling books of all time, having been translated into more than 100 languages.",
     "image": "",
-    "photo": "model 0.80, portrait 0.97, in Category:1913 black and white portrait photographs of men"
+    "photo": "model 0.80, one person 0.97, in Category:1913 black and white portrait photographs of men"
   }
 }

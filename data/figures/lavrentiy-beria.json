@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/lavrentiy-beria.jpg",
   "image_credit": "Unknown, presumed official · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/lavrentiy-beria-photo.jpg",
   "photo_credit": "Unknown, presumed official · Public domain",
   "checks": {
@@ -37,6 +37,6 @@
     },
     "lead": "Lavrentiy Pavlovich Beria (29 March [O.S. 17 March] 1899 – 23 December 1953) was a Soviet politician and one of the longest-serving and most influential of Joseph Stalin's secret police chiefs, serving as head of the NKVD from 1938 to 1945 during the country's involvement in the Second World War.",
     "image": "",
-    "photo": "model 0.83, portrait 0.97, captured 1950, during their lifetime"
+    "photo": "model 0.83, one person 0.96, captured 1950, during their lifetime"
   }
 }

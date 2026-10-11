@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/sakamoto-ryoma.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/sakamoto-ryoma-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Sakamoto Ryōma (坂本龍馬 or 坂本竜馬; 3 January 1836 – 10 December 1867) was a Japanese samurai, a shishi and influential figure of the Bakumatsu, and establishment of the Empire of Japan in the late Edo period.",
     "image": "",
-    "photo": "model 0.86, portrait 0.94, in Category:Historic samurai photographs"
+    "photo": "model 0.86, one person 0.98, in Category:Historic samurai photographs"
   }
 }

@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/juscelino-kubitschek.jpg",
   "image_credit": "Governo do Brasil · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/juscelino-kubitschek-photo.jpg",
   "photo_credit": "Governo do Brasil · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Juscelino Kubitschek de Oliveira (Brazilian Portuguese pronunciation: [ʒuseˈlinu kubiˈtʃɛk(i) dʒi oliˈve(j)ɾɐ]; 12 September 1902 – 22 August 1976), also known by his initials JK, was a Brazilian politician who served as the 21st president of Brazil from 1956 to 1961. During his term, the country experienced a period of notable economic growth and political stability. However, there was a significant increase in external debt, inflation, and wealth inequality. Kubitschek is also well-known for the construction of Brasília.",
     "image": "",
-    "photo": "model 0.93, portrait 0.94, captured 1956, during their lifetime"
+    "photo": "model 0.93, one person 0.99, captured 1956, during their lifetime"
   }
 }

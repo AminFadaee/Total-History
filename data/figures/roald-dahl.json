@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/roald-dahl.jpg",
   "image_credit": "Hans van Dijk for Anefo · CC BY-SA 3.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/roald-dahl-photo.jpg",
   "photo_credit": "Hans van Dijk for Anefo · CC BY-SA 3.0",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Roald Dahl (13 September 1916 – 23 November 1990) was a British author of popular children's literature and short stories, a poet, screenwriter and a wartime fighter ace. His books have sold more than 300 million copies worldwide. He has been called \"one of the greatest storytellers for children of the 20th century\".",
     "image": "",
-    "photo": "model 0.97, portrait 0.88, in Category:Photographs by Hans van Dijk"
+    "photo": "model 0.97, one person 0.99, in Category:Photographs by Hans van Dijk"
   }
 }

@@ -44,8 +44,10 @@
     "Sweden",
     "Norway",
     "Finland",
-    "Iceland",
     "Denmark"
+  ],
+  "overseas_countries": [
+    "Iceland"
   ],
   "borders": true,
   "map": "maps/kalmar-union.png",

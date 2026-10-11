@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/alan-turing.jpg",
   "image_credit": "Elliott &amp; Fry · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/alan-turing-photo.jpg",
   "photo_credit": "Elliott &amp; Fry · Public domain",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Alan Mathison Turing (; 23 June 1912 – 7 June 1954) was an English mathematician and logician widely regarded as the father of theoretical computer science. He formalised the concepts of algorithm and computation with the Turing machine, a model of a general-purpose computer, and his contributions to cryptanalysis helped the Allies of World War II decipher messages encrypted by the German Enigma machine. He also contributed the Turing test to philosophy of artificial intelligence and the Turing pattern concept to mathematical and theoretical biology.",
     "image": "",
-    "photo": "model 0.92, portrait 0.93, captured 1951, during their lifetime"
+    "photo": "model 0.92, one person 0.92, captured 1951, during their lifetime"
   }
 }

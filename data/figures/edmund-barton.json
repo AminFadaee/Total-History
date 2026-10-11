@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/edmund-barton.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/edmund-barton-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Sir Edmund \"Toby\" Barton (18 January 1849 – 7 January 1920) was the first prime minister of Australia, serving from 1901 to 1903. He held office as the leader of the Protectionist Party, before resigning in 1903 to become a founding justice of the High Court of Australia, on which he served until his death in 1920. Barton is regarded as a founding father of Australia, a principal leader in the federation of the Australian colonies and a drafter of the Commonwealth Constitution.",
     "image": "",
-    "photo": "model 0.80, portrait 0.97, captured 1889, during their lifetime"
+    "photo": "model 0.80, one person 0.99, captured 1889, during their lifetime"
   }
 }

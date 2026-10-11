@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/juan-rulfo.jpg",
   "image_credit": "Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/juan-rulfo-photo.jpg",
   "photo_credit": "Public domain",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Juan Nepomuceno Carlos Pérez Rulfo Vizcaíno,  best known as Juan Rulfo (Spanish: [ˈxwan ˈrulfo] ; 16 May 1917 – 7 January 1986), was a Mexican writer, screenwriter, and photographer. He is best known for two literary works, the 1955 novel Pedro Páramo, and the collection of short stories El Llano en llamas (The Burning Plain, 1953). In spite of Rulfo's slim literary production, he is considered one of the greatest Mexican and Latin American writers of the twentieth century who has influenced many subsequent writers including the Nobel laureate Gabriel García Márquez.",
     "image": "",
-    "photo": "model 0.92, portrait 0.95"
+    "photo": "model 0.92, one person 0.98"
   }
 }

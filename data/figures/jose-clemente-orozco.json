@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/jose-clemente-orozco.jpg",
   "image_credit": "Los Angeles Times · CC BY 4.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/jose-clemente-orozco-photo.jpg",
   "photo_credit": "Los Angeles Times · CC BY 4.0",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "José Clemente Orozco (November 23, 1883 – September 7, 1949) was a Mexican painter. He specialized in political murals that established the Mexican Mural Renaissance, together with fellow artists Diego Rivera and David Alfaro Siqueiros, among others.  Orozco was the most complex of the Mexican muralists, his work does have a leftist ideological conotation, but less than the Marxists Rivera and Siqueiros. Mostly influenced by Symbolism, he was also a genre painter and lithographer. Between 1922 and 1948, Orozco painted murals in Mexico City; Orizaba; Claremont, California; New York City; Hanover, New Hampshire; Guadalajara, Jalisco; and Jiquilpan, Michoacán.",
     "image": "",
-    "photo": "model 0.89, portrait 0.97, in Category:Los Angeles Times Photographic Collection at UCLA"
+    "photo": "model 0.89, one person 0.98, in Category:Los Angeles Times Photographic Collection at UCLA"
   }
 }

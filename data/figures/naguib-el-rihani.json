@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/naguib-el-rihani.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/naguib-el-rihani-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -34,6 +34,6 @@
     },
     "lead": "Naguib el-Rihani (Arabic: نجيب الريحاني; January 21, 1889 in Cairo – June 8, 1949 in Alexandria) was an Egyptian film and stage actor.",
     "image": "",
-    "photo": "model 0.95, portrait 0.92, captured 1949, during their lifetime"
+    "photo": "model 0.95, one person 0.98, captured 1949, during their lifetime"
   }
 }

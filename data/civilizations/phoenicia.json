@@ -23,13 +23,15 @@
   "after": {},
   "rulers": [],
   "modern_countries": [
-    "Lebanon",
     "Italy",
     "Libya",
     "Spain",
-    "Syria",
     "Morocco",
     "Malta"
+  ],
+  "overseas_countries": [
+    "Lebanon",
+    "Syria"
   ],
   "borders": true,
   "map": "maps/phoenicia.png",

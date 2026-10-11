@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/michael-joseph-savage.jpg",
   "image_credit": "Spencer Digby · CC BY-SA 2.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/michael-joseph-savage-photo.jpg",
   "photo_credit": "Spencer Digby · CC BY-SA 2.0",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Michael Joseph Savage (23 March 1872 – 27 March 1940) was an Australian-born New Zealand politician who served as the 23rd prime minister of New Zealand, heading the First Labour Government from 1935 until his death in 1940.",
     "image": "",
-    "photo": "model 0.82, portrait 0.98, captured 1930, during their lifetime"
+    "photo": "model 0.82, one person 1.00, captured 1930, during their lifetime"
   }
 }

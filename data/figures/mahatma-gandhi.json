@@ -22,7 +22,7 @@
   "setting": "",
   "image": "images/mahatma-gandhi.jpg",
   "image_credit": "Elliott &amp; Fry · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/mahatma-gandhi-photo.jpg",
   "photo_credit": "Elliott &amp; Fry · Public domain",
   "checks": {
@@ -47,6 +47,6 @@
     },
     "lead": "Mohandas Karamchand Gandhi (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and whose legacy would later inspire movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: \"great-souled\", \"venerable\"), first applied to him in 1914 in South Africa, is now used throughout the world.",
     "image": "",
-    "photo": "model 0.85, portrait 0.98, captured 1931, during their lifetime"
+    "photo": "model 0.85, one person 0.97, captured 1931, during their lifetime"
   }
 }

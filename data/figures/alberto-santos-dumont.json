@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/alberto-santos-dumont.jpg",
   "image_credit": "José Rosael/Hélio Nobre/Museu Paulista da USP · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/alberto-santos-dumont-photo.jpg",
   "photo_credit": "José Rosael/Hélio Nobre/Museu Paulista da USP · Public domain",
   "checks": {
@@ -34,6 +34,6 @@
     },
     "lead": "Alberto Santos-Dumont (self-stylised as Alberto Santos=Dumont; 20 July 1873 – 23 July 1932) was a Brazilian aeronaut, sportsman, inventor, and one of the few people to have contributed significantly to the early development of both lighter-than-air and heavier-than-air aircraft. The heir of a wealthy family of coffee producers, he dedicated himself to aeronautical study and experimentation in Paris, where he spent most of his adult life. He designed, built, and flew the first powered airships and won the Deutsch prize in 1901, when he flew around the Eiffel Tower in his airship No. 6, becoming one of the most famous people in the world in the early 20th century.",
     "image": "",
-    "photo": "model 0.99, portrait 0.96"
+    "photo": "model 0.99, one person 0.99"
   }
 }

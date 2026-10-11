@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/igor-stravinsky.jpg",
   "image_credit": "George Grantham Bain Collection · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/igor-stravinsky-photo.jpg",
   "photo_credit": "George Grantham Bain Collection · Public domain",
   "checks": {
@@ -40,6 +40,6 @@
     },
     "lead": "Igor Fyodorovich Stravinsky (17 June [O.S. 5 June] 1882 – 6 April 1971) was a Russian composer and conductor with French (from 1934) and American citizenship (from 1945). He is widely considered one of the most important and influential composers of the 20th century and a pivotal figure in modernist music.",
     "image": "",
-    "photo": "model 0.98, portrait 0.94, in Category:Igor Stravinsky in photographs"
+    "photo": "model 0.98, one person 0.99, in Category:Igor Stravinsky in photographs"
   }
 }

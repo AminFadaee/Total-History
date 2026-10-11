@@ -26,7 +26,7 @@
   "setting": "",
   "image": "images/otto-von-bismarck.jpg",
   "image_credit": "Jacques Pilartz · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Portrait from life",
   "photo": "",
   "photo_credit": "",
   "checks": {
@@ -59,6 +59,6 @@
     },
     "lead": "Otto Eduard Leopold, Prince of Bismarck, Count of Bismarck-Schönhausen, Duke of Lauenburg (1 April 1815 – 30 July 1898), was a German statesman and diplomat who oversaw the unification of Germany and served as its first chancellor from 1871 to 1890. Bismarck's Realpolitik and firm governance earned him the nickname Iron Chancellor (Eiserner Kanzler).",
     "image": "",
-    "photo": "Bundesarchiv Bild 146-2005-0057, Otto von Bismarck.jpg: model 0.65, portrait 0.93, captured 1890, during their lifetime; BismarckArbeitszimmer1886.jpg: model 0.49, portrait 0.49, captured 1886, during their lifetime; Otto von Bismarck portrait 1873.jpg: model 0.13, portrait 0.93, captured 1873, during their lifetime; Schloss Friedrichsruh um 1915.jpg: model 0.99, portrait 0.01; Deutsches Kaiserreich.png: model 0.41, portrait 0.00; OttovanBismarck1.jpg: model 0.27, portrait 0.95, captured 1850, during their lifetime; Bündnisse.png: model 0.45, portrait 0.05; Berlin Conference, 1884–85.jpg: model 0.04, portrait 0.11, captured 1885, during their lifetime; Graf v. Bismarck.JPG: model 0.02, portrait 0.97; August von Saucken-Julienfelde.jpg: model 0.07, portrait 0.94"
+    "photo": "Bundesarchiv Bild 146-2005-0057, Otto von Bismarck.jpg: model 0.65, one person 0.96, captured 1890, during their lifetime; BismarckArbeitszimmer1886.jpg: model 0.49, one person 0.98, captured 1886, during their lifetime; Otto von Bismarck portrait 1873.jpg: model 0.13, one person 1.00, captured 1873, during their lifetime; Schloss Friedrichsruh um 1915.jpg: model 0.99, one person 0.37; Deutsches Kaiserreich.png: model 0.41, one person 0.01; OttovanBismarck1.jpg: model 0.27, one person 0.97, captured 1850, during their lifetime; Bündnisse.png: model 0.45, one person 0.00; Berlin Conference, 1884–85.jpg: model 0.04, one person 0.77, captured 1885, during their lifetime; Graf v. Bismarck.JPG: model 0.02, one person 1.00; August von Saucken-Julienfelde.jpg: model 0.07, one person 0.99"
   }
 }

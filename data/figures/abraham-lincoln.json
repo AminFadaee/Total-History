@@ -22,7 +22,7 @@
   "setting": "",
   "image": "images/abraham-lincoln.jpg",
   "image_credit": "Alexander Gardner · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/abraham-lincoln-photo.jpg",
   "photo_credit": "Alexander Gardner · Public domain",
   "checks": {
@@ -52,6 +52,6 @@
     },
     "lead": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederacy and playing a major role in the abolition of slavery.",
     "image": "",
-    "photo": "model 0.76, portrait 0.97, captured 1863, during their lifetime"
+    "photo": "model 0.76, one person 0.97, captured 1863, during their lifetime"
   }
 }

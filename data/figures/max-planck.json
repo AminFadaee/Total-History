@@ -22,7 +22,7 @@
   "setting": "",
   "image": "images/max-planck.jpg",
   "image_credit": "Courtesy of the Clendening History of Medicine Library, University of Kansas Medical Center. · CC BY-SA 3.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/max-planck-photo.jpg",
   "photo_credit": "Courtesy of the Clendening History of Medicine Library, University of Kansas Medical Center. · CC BY-SA 3.0",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Max Karl Ernst Ludwig Planck (; German: [ˈmaks ˈplaŋk] ; 23 April 1858 – 4 October 1947) was a German theoretical physicist. Planck made many contributions to theoretical physics, primarily in his role as the originator of quantum theory and one of the founders of modern physics, which revolutionized understanding of atomic and subatomic processes. He is known for the Planck constant,",
     "image": "",
-    "photo": "model 0.83, portrait 0.96, in Category:Black and white portrait photographs of male scientists"
+    "photo": "model 0.83, one person 0.99, in Category:Black and white portrait photographs of male scientists"
   }
 }

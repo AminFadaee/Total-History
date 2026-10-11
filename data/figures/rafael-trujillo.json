@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/rafael-trujillo.jpg",
   "image_credit": "Unknown author. · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/rafael-trujillo-photo.jpg",
   "photo_credit": "Unknown author. · Public domain",
   "checks": {
@@ -43,6 +43,6 @@
     },
     "lead": "Rafael Leónidas Trujillo Molina ( troo-HEE-yoh; Spanish: [rafaˈel tɾuˈxiʝo]; 24 October 1891 – 30 May 1961), nicknamed \"El Jefe\" (Spanish: [el ˈxefe]; lit. 'The Boss'), was a Dominican military officer and dictator who ruled the Dominican Republic from August 1930 until his assassination in May 1961. He was the country's 36th and 39th president, from 1930 to 1938 and from 1942 to 1952 respectively. He was also the country's first generalissimo, its de facto most powerful position at the time, from 1930 until his assassination. In that position, Trujillo ruled the country under figurehead presidents.",
     "image": "",
-    "photo": "model 0.93, portrait 0.95, captured 1940, during their lifetime"
+    "photo": "model 0.93, one person 0.99, captured 1940, during their lifetime"
   }
 }

@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/yusef-of-morocco.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/yusef-of-morocco-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Moulay Yusef ben Hassan (Arabic: مولاي يوسف بن الحسن, romanized: Mawlāy Yūsuf ibn al-Ḥasan; c. 1882 – 17 November 1927) was the Alawi sultan of Morocco from 1912 to 1927. He was the son of Hassan I of Morocco, who was the son of Muhammad IV of Morocco.",
     "image": "",
-    "photo": "model 0.97, portrait 0.80, captured 1927, during their lifetime"
+    "photo": "model 0.97, one person 0.99, captured 1927, during their lifetime"
   }
 }

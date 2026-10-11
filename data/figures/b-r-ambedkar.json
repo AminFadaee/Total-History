@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/b-r-ambedkar.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/b-r-ambedkar-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -47,6 +47,6 @@
     },
     "lead": "Bhimrao Ramji Ambedkar (14 April 1891 – 6 December 1956) was an Indian jurist, economist, social reformer and politician who chaired the committee that drafted the Constitution of India based on the debates of the Constituent Assembly of India and the first draft of Sir Benegal Narsing Rau. Ambedkar served as Law and Justice minister in the first cabinet of Jawaharlal Nehru. He later renounced Hinduism and converted to Buddhism, inspiring the Dalit Buddhist movement.",
     "image": "",
-    "photo": "model 0.75, portrait 0.80, captured 1948, during their lifetime"
+    "photo": "model 0.75, one person 0.95, captured 1948, during their lifetime"
   }
 }

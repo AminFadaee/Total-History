@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/hendrik-verwoerd.jpg",
   "image_credit": "Afrikaners in die Goudstad, deel 2 · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/hendrik-verwoerd-photo.jpg",
   "photo_credit": "Afrikaners in die Goudstad, deel 2 · Public domain",
   "checks": {
@@ -44,6 +44,6 @@
     },
     "lead": "Hendrik Frensch Verwoerd (Afrikaans: [fərˈvuːrt];  8 September 1901 – 6 September 1966), also known as H. F. Verwoerd, was a Dutch-born South African politician, academic, and newspaper editor who served as Prime Minister of South Africa from 1958 until his assassination in 1966.",
     "image": "",
-    "photo": "model 0.96, portrait 0.67, captured 1945, during their lifetime"
+    "photo": "model 0.96, one person 0.99, captured 1945, during their lifetime"
   }
 }

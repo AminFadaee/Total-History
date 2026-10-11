@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/louis-pasteur.jpg",
   "image_credit": "Paul Nadar · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/louis-pasteur-photo.jpg",
   "photo_credit": "Paul Nadar · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Louis Pasteur (; French: [lwi pastœʁ] ; 27 December 1822 – 28 September 1895) was a French chemist, pharmacist, and microbiologist renowned for his discoveries of the principles of vaccination, microbial fermentation, and pasteurization, the last of which was named after him. His research in chemistry led to remarkable breakthroughs in the understanding of the causes and prevention of diseases, which laid down the foundations of hygiene, public health and much of modern medicine. Pasteur's works are credited with saving millions of lives through the development of vaccines for rabies and anthrax. He is regarded as one of the founders of modern bacteriology and has been honored as the \"father of bacteriology\" and the \"father of microbiology\" (together with Robert Koch; the latter epithet also attributed to Antonie van Leeuwenhoek).",
     "image": "",
-    "photo": "model 0.81, portrait 0.86, in Category:Black and white portrait photographs of men at half length"
+    "photo": "model 0.81, one person 0.92, in Category:Black and white portrait photographs of men at half length"
   }
 }

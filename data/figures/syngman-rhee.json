@@ -22,7 +22,7 @@
   "setting": "",
   "image": "images/syngman-rhee.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/syngman-rhee-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -45,6 +45,6 @@
     },
     "lead": "Syngman Rhee (born Rhee Syngryong; 26 March 1875 – 19 July 1965), also known by his art name Unam, was a South Korean politician who served as the first president of South Korea from 1948 until his resignation in 1960. His administration was characterised by authoritarianism, limited economic development, and in the late 1950s growing political instability and public opposition to his rule. Rhee previously was the first president of the Provisional Government of the Republic of Korea from 1919 until his impeachment in 1925 and again as the last president from 1947 to 1948.",
     "image": "",
-    "photo": "model 0.87, portrait 0.99, in Category:1948 black and white portrait photographs of men"
+    "photo": "model 0.87, one person 0.99, in Category:1948 black and white portrait photographs of men"
   }
 }

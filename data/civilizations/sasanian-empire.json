@@ -61,7 +61,6 @@
     "Turkey",
     "Afghanistan",
     "Turkmenistan",
-    "Yemen",
     "Syria",
     "Azerbaijan",
     "Georgia",
@@ -73,6 +72,9 @@
     "Lebanon",
     "Palestine",
     "Bahrain"
+  ],
+  "overseas_countries": [
+    "Yemen"
   ],
   "borders": true,
   "map": "maps/sasanian-empire.png",

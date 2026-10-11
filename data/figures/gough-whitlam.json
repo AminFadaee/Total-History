@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/gough-whitlam.jpg",
   "image_credit": "Australian Conservation Foundation · CC BY-SA 4.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/gough-whitlam-photo.jpg",
   "photo_credit": "Australian Conservation Foundation · CC BY-SA 4.0",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Edward Gough Whitlam (11 July 1916 – 21 October 2014) was the 21st prime minister of Australia, serving from December 1972 to November 1975. To date the longest-serving federal leader of the Australian Labor Party (ALP), he was notable for being the head of a reformist and socially progressive government that ended with his controversial dismissal by the then governor-general of Australia, Sir John Kerr, at the climax of the 1975 constitutional crisis. Whitlam remains the only Australian prime minister to have been removed from office by a governor-general.",
     "image": "",
-    "photo": "model 0.96, portrait 0.85, captured 1973, during their lifetime"
+    "photo": "model 0.96, one person 1.00, captured 1973, during their lifetime"
   }
 }

@@ -31,10 +31,12 @@
   "after": {},
   "rulers": [],
   "modern_countries": [
-    "Libya",
     "Ethiopia",
     "Somalia",
     "Eritrea"
+  ],
+  "overseas_countries": [
+    "Libya"
   ],
   "borders": true,
   "map": "maps/italian-africa.png",

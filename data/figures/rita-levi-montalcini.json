@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/rita-levi-montalcini.jpg",
   "image_credit": "Kurt Hagblom, Firma Hagblom-Foto, restored by Adam Cuerden · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/rita-levi-montalcini-photo.jpg",
   "photo_credit": "Kurt Hagblom, Firma Hagblom-Foto, restored by Adam Cuerden · Public domain",
   "checks": {
@@ -45,6 +45,6 @@
     },
     "lead": "Rita Levi-Montalcini  (born Rita Levi; 22 April 1909 – 30 December 2012) was an Italian neurobiologist. She was awarded the 1986 Nobel Prize in Physiology or Medicine jointly with colleague Stanley Cohen for the discovery of nerve growth factor (NGF).",
     "image": "",
-    "photo": "model 0.99, portrait 0.96, in Category:1986 black and white portrait photographs of women"
+    "photo": "model 0.99, one person 0.95, in Category:1986 black and white portrait photographs of women"
   }
 }

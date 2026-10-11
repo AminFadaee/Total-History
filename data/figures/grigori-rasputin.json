@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/grigori-rasputin.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/grigori-rasputin-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Grigori Yefimovich Rasputin (21 January [O.S. 9 January] 1869 – 30 December [O.S. 17 December] 1916) was a Russian mystic and faith healer. He is best known for having befriended the imperial family of Nicholas II, the last Emperor of Russia, through whom he gained considerable influence in the final years of the Russian Empire.",
     "image": "",
-    "photo": "model 0.94, portrait 0.99"
+    "photo": "model 0.94, one person 0.98"
   }
 }

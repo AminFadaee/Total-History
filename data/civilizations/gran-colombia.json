@@ -45,13 +45,15 @@
   ],
   "modern_countries": [
     "Colombia",
-    "Bolivia",
     "Venezuela",
     "Brazil",
     "Ecuador",
-    "Paraguay",
     "Peru",
     "Panama"
+  ],
+  "overseas_countries": [
+    "Bolivia",
+    "Paraguay"
   ],
   "borders": true,
   "map": "maps/gran-colombia.png",

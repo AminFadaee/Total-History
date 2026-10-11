@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/guglielmo-marconi.jpg",
   "image_credit": "Pach Brothers · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/guglielmo-marconi-photo.jpg",
   "photo_credit": "Pach Brothers · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Guglielmo Giovanni Maria Marconi, 1st Marquess of Marconi (25 April 1874 – 20 July 1937), was an Italian electrical engineer, inventor, and politician known for his creation of a practical radio wave-based wireless telegraph system. This led to his being largely credited as the inventor of radio and sharing the 1909 Nobel Prize in Physics with Ferdinand Braun \"in recognition of their contributions to the development of wireless telegraphy.\"",
     "image": "",
-    "photo": "model 0.98, portrait 0.95, in Category:Black and white portrait photographs of male scientists"
+    "photo": "model 0.98, one person 0.99, in Category:Black and white portrait photographs of male scientists"
   }
 }

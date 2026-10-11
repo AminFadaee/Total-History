@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/j-r-r-tolkien.jpg",
   "image_credit": "Unknown photo studio commissioned by Tolkien's students 1925/6 (private communication from Catherine McIlwaine, Tolkien Archivist, Bodleian Library) · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/j-r-r-tolkien-photo.jpg",
   "photo_credit": "Unknown photo studio commissioned by Tolkien's students 1925/6 (private communication from Catherine McIlwaine, Tolkien Archivist, Bodleian Library) · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "John Ronald Reuel Tolkien (; 3 January 1892 – 2 September 1973) was an English writer and academic philologist. He was the author of the high fantasy works The Hobbit (1937) and The Lord of the Rings (1954–1955).",
     "image": "",
-    "photo": "model 0.96, portrait 0.98, in Category:1920s portrait photographs of men"
+    "photo": "model 0.96, one person 0.99, in Category:1920s portrait photographs of men"
   }
 }

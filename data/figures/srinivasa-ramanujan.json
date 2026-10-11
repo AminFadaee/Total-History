@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/srinivasa-ramanujan.jpg",
   "image_credit": "Konrad Jacobs · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/srinivasa-ramanujan-photo.jpg",
   "photo_credit": "Konrad Jacobs · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Srinivasa Ramanujan Iyengar (22 December 1887 – 26 April 1920) was an Indian mathematician who worked during the early 20th century. He made substantial contributions to mathematical analysis, number theory, infinite series, and continued fractions, including solutions to mathematical problems then considered unsolvable.",
     "image": "",
-    "photo": "model 0.91, portrait 0.85, in Category:Black and white portrait photographs of male scientists"
+    "photo": "model 0.91, one person 0.89, in Category:Black and white portrait photographs of male scientists"
   }
 }

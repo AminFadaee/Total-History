@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/giulio-andreotti.jpg",
   "image_credit": "Senato della Repubblica · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/giulio-andreotti-photo.jpg",
   "photo_credit": "Senato della Repubblica · Public domain",
   "checks": {
@@ -41,6 +41,6 @@
     },
     "lead": "Giulio Andreotti (US:  AHN-dray-OT-ee, Italian: [ˈdʒuːljo andreˈɔtti]; 14 January 1919 – 6 May 2013) was an Italian politician and statesman who served as the 41st prime minister of Italy in seven governments (1972–1973, 1976–1979, and 1989–1992). He was leader of the Christian Democracy party and its conservative faction; he was the sixth-longest-serving prime minister since the Italian unification and the second-longest-serving post-war prime minister. Andreotti is widely considered the most powerful and prominent politician of the First Republic.",
     "image": "",
-    "photo": "model 0.78, portrait 0.95, captured 1950, during their lifetime"
+    "photo": "model 0.78, one person 0.97, captured 1950, during their lifetime"
   }
 }

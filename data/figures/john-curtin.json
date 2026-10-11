@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/john-curtin.jpg",
   "image_credit": "National Library of Australia · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/john-curtin-photo.jpg",
   "photo_credit": "National Library of Australia · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "John Curtin (8 January 1885 – 5 July 1945) was the 14th prime minister of Australia, serving from 1941 until his death in 1945. He held office as the leader of the Australian Labor Party (ALP), and is notable for leading the country through the majority of World War II, including all but the last few weeks of the Pacific War.",
     "image": "",
-    "photo": "model 0.90, portrait 0.97, captured 1941, during their lifetime"
+    "photo": "model 0.90, one person 1.00, captured 1941, during their lifetime"
   }
 }

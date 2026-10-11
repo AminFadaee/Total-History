@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/eduardo-frei-montalva.jpg",
   "image_credit": "CC BY-SA 3.0",
-  "image_is_photo": false,
+  "image_kind": "Depiction",
   "photo": "images/eduardo-frei-montalva-photo.jpg",
   "photo_credit": "Biblioteca del Congreso Nacional de Chile · CC BY 3.0 cl",
   "checks": {
@@ -40,6 +40,6 @@
     },
     "lead": "Eduardo Nicanor Frei Montalva (Spanish pronunciation: [eˈðwaɾðo fɾej monˈtalβa]; 16 January 1911 – 22 January 1982) was a Chilean political leader. In his long political career, he was Minister of Public Works, president of his Christian Democratic Party, senator, President of the Senate, and the 28th president of Chile from 1964 to 1970. His eldest son, Eduardo Frei Ruiz-Tagle, also became president of Chile (1994–2000).",
     "image": "",
-    "photo": "model 0.95, portrait 0.85, in Category:20th-century black and white portrait photographs of standing men at three-quarter length"
+    "photo": "model 0.95, one person 0.99, in Category:20th-century black and white portrait photographs of standing men at three-quarter length"
   }
 }

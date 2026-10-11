@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/getulio-vargas.jpg",
   "image_credit": "Governo do Brasil · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/getulio-vargas-photo.jpg",
   "photo_credit": "Governo do Brasil · Public domain",
   "checks": {
@@ -44,6 +44,6 @@
     },
     "lead": "Getúlio Dornelles Vargas (19 April 1882 – 24 August 1954) was a Brazilian military officer, lawyer, and politician who served as the 14th and 17th president of Brazil, from 1930 to 1945 and from 1951 until his suicide in 1954. Due to his long and controversial tenure as Brazil's provisional, constitutional, dictatorial and democratic leader, he is considered by historians as the most influential Brazilian politician of the 20th century.",
     "image": "",
-    "photo": "model 0.78, portrait 0.99, captured 1930, during their lifetime"
+    "photo": "model 0.78, one person 0.99, captured 1930, during their lifetime"
   }
 }

@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/pope-pius-xi.jpg",
   "image_credit": "Nicola Perscheid · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/pope-pius-xi-photo.jpg",
   "photo_credit": "Nicola Perscheid · Public domain",
   "checks": {
@@ -38,6 +38,6 @@
     },
     "lead": "Pope Pius XI (Italian: Pio XI; born Ambrogio Damiano Achille Ratti, Italian: [amˈbrɔːdʒo daˈmjaːno aˈkille ˈratti]; 31 May 1857 – 10 February 1939) was head of the Catholic Church from 6 February 1922 until his death in February 1939. He was also the first sovereign of Vatican City upon its creation on 11 February 1929.",
     "image": "",
-    "photo": "model 0.97, portrait 0.81"
+    "photo": "model 0.97, one person 0.99"
   }
 }

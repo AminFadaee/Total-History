@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/augusto-pinochet.jpg",
   "image_credit": "Ministerio de Relaciones Exteriores de Chile · CC BY 2.0 cl",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/augusto-pinochet-photo.jpg",
   "photo_credit": "Ministerio de Relaciones Exteriores de Chile · CC BY 2.0 cl",
   "checks": {
@@ -45,6 +45,6 @@
     },
     "lead": "Augusto José Ramón Pinochet Ugarte (25 November 1915 – 10 December 2006) was a Chilean army officer and military dictator who ruled Chile from 1973 to 1990. He led the Chilean Army in the overthrow of President Salvador Allende in 1973 and established a military junta. He was proclaimed President of Chile by the junta in 1974 and served until 1990, when he stepped down to pave the way for democratic elections. Throughout his presidency, thousands of political opponents were tortured or executed. Pinochet is the longest-serving head of state in the history of Chile.",
     "image": "",
-    "photo": "model 0.95, portrait 0.86, captured 1974, during their lifetime"
+    "photo": "model 0.95, one person 1.00, captured 1974, during their lifetime"
   }
 }

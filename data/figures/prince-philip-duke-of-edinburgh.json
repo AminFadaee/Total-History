@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/prince-philip-duke-of-edinburgh.jpg",
   "image_credit": "Allan Warren · CC BY-SA 3.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/prince-philip-duke-of-edinburgh-photo.jpg",
   "photo_credit": "Allan Warren · CC BY-SA 3.0",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Prince Philip, Duke of Edinburgh (born Prince Philip of Greece and Denmark,",
     "image": "",
-    "photo": "model 0.92, portrait 0.97"
+    "photo": "model 0.92, one person 0.93"
   }
 }

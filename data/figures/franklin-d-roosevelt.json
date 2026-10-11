@@ -22,7 +22,7 @@
   "setting": "",
   "image": "images/franklin-d-roosevelt.jpg",
   "image_credit": "Leon Perskie · CC BY 2.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/franklin-d-roosevelt-photo.jpg",
   "photo_credit": "Leon Perskie · CC BY 2.0",
   "checks": {
@@ -53,6 +53,6 @@
     },
     "lead": "Franklin Delano Roosevelt (January 30, 1882 – April 12, 1945), also known as FDR, was the 32nd president of the United States, serving from 1933 until his death in 1945. He is the longest-serving US president and the only one to have served more than two terms. His first two terms centered on combating the Great Depression, while his third and fourth focused on US involvement in World War II. A member of the Democratic Party, Roosevelt served in the New York State Senate from 1911 to 1913 and as the 44th governor of New York from 1929 to 1932.",
     "image": "",
-    "photo": "model 0.71, portrait 0.96, in Category:1944 portrait photographs of men"
+    "photo": "model 0.71, one person 0.98, in Category:1944 portrait photographs of men"
   }
 }

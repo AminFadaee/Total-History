@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/verner-von-heidenstam.jpg",
   "image_credit": "Johan Krouthén · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Portrait from life",
   "photo": "images/verner-von-heidenstam-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Carl Gustaf Verner von Heidenstam (6 July 1859 – 20 May 1940) was a Swedish poet, novelist and laureate of the 1916 Nobel Prize in Literature. He was a member of the Swedish Academy from 1912. His poems and prose work are filled with a great joy of life, sometimes imbued with a love of Swedish history and scenery, particularly its physical aspects.",
     "image": "",
-    "photo": "model 0.92, portrait 0.96, captured 1903, during their lifetime"
+    "photo": "model 0.92, one person 0.94, captured 1903, during their lifetime"
   }
 }

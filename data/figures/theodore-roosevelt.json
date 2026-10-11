@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/theodore-roosevelt.jpg",
   "image_credit": "Adam Cuerden · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/theodore-roosevelt-photo.jpg",
   "photo_credit": "Adam Cuerden · Public domain",
   "checks": {
@@ -46,6 +46,6 @@
     },
     "lead": "Theodore Roosevelt Jr. (October 27, 1858 – January 6, 1919) was the 26th president of the United States, serving from 1901 to 1909. Previously serving for six months as vice president under William McKinley, Roosevelt became president after McKinley's assassination in 1901. He was 42 years old upon his first inauguration, making him the youngest person to hold the office.",
     "image": "",
-    "photo": "model 0.73, portrait 0.95, in Category:Portrait photographs of Theodore Roosevelt"
+    "photo": "model 0.73, one person 0.95, in Category:Portrait photographs of Theodore Roosevelt"
   }
 }

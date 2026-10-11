@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/hilary-r-w-johnson.jpg",
   "image_credit": "Johnston, Harry Hamilton, Sir, 1858-1927; Royal Geographical Society (Great Britain) · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Portrait from life",
   "photo": "images/hilary-r-w-johnson-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Hilary Richard Wright Johnson (June 1, 1837 – February 28, 1901) served as the 11th president of Liberia from 1884 to 1892. He was elected four times. He was the first Liberian president to be born in Africa. He had served three times as Secretary of State and once as Secretary of the Interior prior to becoming president.",
     "image": "",
-    "photo": "model 0.80, portrait 0.95, captured 1892, during their lifetime"
+    "photo": "model 0.80, one person 0.99, captured 1892, during their lifetime"
   }
 }

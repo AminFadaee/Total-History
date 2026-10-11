@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/zhang-zuolin.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/zhang-zuolin-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Zhang Zuolin (March 19, 1875 – June 4, 1928) was a Chinese warlord who ruled Manchuria from 1916 until his assassination in 1928. He led the Fengtian clique, one of the most powerful factions during the Warlord Era. In 1927, he became the leader of the Beiyang government and was declared Generalissimo of the Republic of China.",
     "image": "",
-    "photo": "model 0.80, portrait 0.89, captured 1928, during their lifetime"
+    "photo": "model 0.80, one person 0.90, captured 1928, during their lifetime"
   }
 }

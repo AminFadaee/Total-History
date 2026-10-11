@@ -19,9 +19,9 @@
   "setting": "",
   "image": "images/charles-edouard-brown-sequard.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": false,
-  "photo": "images/charles-edouard-brown-sequard-photo.jpg",
-  "photo_credit": "Licence Ouverte",
+  "image_kind": "Portrait from life",
+  "photo": "",
+  "photo_credit": "",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -36,6 +36,6 @@
     },
     "lead": "Charles-Édouard Brown-Séquard FRS (8 April 1817 – 2 April 1894) was a Franco-Mauritian physiologist and neurologist who, in 1850, became the first to describe what is now called Brown-Séquard syndrome.",
     "image": "",
-    "photo": "model 0.99, portrait 0.89"
+    "photo": "Charles-Édouard Brown-Séquard.jpg: model 0.21, one person 0.99, captured 1880, during their lifetime; Brown-sequard.jpg: model 0.62, one person 0.98, captured 1875, during their lifetime; Brown-Sequard cropped.jpg: model 0.75, one person 0.92; Nervous system, in\"Course of Lectures on the physiology...\" Wellcome M0005469.jpg: model 0.47, one person 0.94; Portrait of C.E. Brown-Sequard Wellcome M0013766.jpg: model 0.56, one person 0.98; Charles Edouard Brown-Sequard, 1817?-1894, head-and-shoulders portrait, facing front LCCN2005685524.jpg: model 0.27, one person 0.99; Charles Edouard Brown-Sequard, 1817?-1894, head-and-shoulders portrait, facing front LCCN2005685524.tif: model 0.26, one person 0.99"
   }
 }

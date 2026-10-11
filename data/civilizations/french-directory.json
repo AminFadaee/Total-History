@@ -41,12 +41,14 @@
   ],
   "modern_countries": [
     "France",
-    "Egypt",
     "Italy",
     "Belgium",
     "Luxembourg",
-    "Mauritius",
     "Malta"
+  ],
+  "overseas_countries": [
+    "Egypt",
+    "Mauritius"
   ],
   "borders": true,
   "map": "maps/french-directory.png",

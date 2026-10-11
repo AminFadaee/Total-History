@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/henry-ford.jpg",
   "image_credit": "Fred Hartsook · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/henry-ford-photo.jpg",
   "photo_credit": "Fred Hartsook · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Henry Ford (July 30, 1863 – April 7, 1947) was an American industrialist and business magnate. As the founder of the Ford Motor Company, he is credited as a pioneer in making automobiles affordable for middle-class Americans through the system that came to be known as Fordism. In 1911, he was awarded a patent for the transmission mechanism that would be used in the Ford Model T and other automobiles.",
     "image": "",
-    "photo": "model 0.87, portrait 0.97, captured 1919, during their lifetime"
+    "photo": "model 0.87, one person 0.96, captured 1919, during their lifetime"
   }
 }

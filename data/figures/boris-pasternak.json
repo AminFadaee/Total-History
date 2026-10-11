@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/boris-pasternak.jpg",
   "image_credit": "Владимир Савостьянов / ТАСС · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/boris-pasternak-photo.jpg",
   "photo_credit": "Владимир Савостьянов / ТАСС · Public domain",
   "checks": {
@@ -44,6 +44,6 @@
     },
     "lead": "Boris Leonidovich Pasternak (10 February [O.S. 29 January] 1890 – 30 May 1960) was a Russian and Soviet poet, novelist, and literary translator.",
     "image": "",
-    "photo": "model 0.88, portrait 0.99, captured 1958, during their lifetime"
+    "photo": "model 0.88, one person 0.99, captured 1958, during their lifetime"
   }
 }

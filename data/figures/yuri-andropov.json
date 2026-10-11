@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/yuri-andropov.jpg",
   "image_credit": "TASS · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/yuri-andropov-photo.jpg",
   "photo_credit": "TASS · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Yuri Vladimirovich Andropov (15 June [O.S. 2 June] 1914 – 9 February 1984) was a Soviet politician who served as the general secretary of the Communist Party of the Soviet Union from late 1982 until his death in 1984. He previously served as the chairman of the KGB from 1967 until 1982.",
     "image": "",
-    "photo": "model 0.88, portrait 0.97, captured 1982, during their lifetime"
+    "photo": "model 0.88, one person 0.99, captured 1982, during their lifetime"
   }
 }

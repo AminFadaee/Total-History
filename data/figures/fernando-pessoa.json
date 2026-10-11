@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/fernando-pessoa.jpg",
   "image_credit": "S.A. e Maria José de Lencastre · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/fernando-pessoa-photo.jpg",
   "photo_credit": "S.A. e Maria José de Lencastre · Public domain",
   "checks": {
@@ -37,6 +37,6 @@
     },
     "lead": "Fernando António Nogueira de Seabra Pessoa (; Portuguese: [fɨɾˈnɐ̃du pɨˈsoɐ]; 13 June 1888 – 30 November 1935) was a Portuguese poet, writer, literary critic, translator, and publisher. He has been described as one of the most significant literary figures of the 20th century and one of the greatest poets in the Portuguese literature. He also wrote in and translated from English and French.",
     "image": "",
-    "photo": "model 0.94, portrait 0.98, captured 1914, during their lifetime"
+    "photo": "model 0.94, one person 0.99, captured 1914, during their lifetime"
   }
 }

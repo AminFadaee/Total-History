@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/sergei-rachmaninoff.jpg",
   "image_credit": "Kubey-Rembrandt Studios · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/sergei-rachmaninoff-photo.jpg",
   "photo_credit": "Kubey-Rembrandt Studios · Public domain",
   "checks": {
@@ -38,6 +38,6 @@
     },
     "lead": "Sergei Vasilyevich Rachmaninoff (1 April [O.S. 20 March] 1873 – 28 March 1943) was a Russian composer, virtuoso pianist, and conductor. Rachmaninoff is widely considered one of the finest pianists of his day and, as a composer, one of the last great representatives of Romanticism in Russian classical music. Early influences of Tchaikovsky, Rimsky-Korsakov, and other Russian composers gave way to a thoroughly personal idiom notable for its song-like melodicism, expressiveness, dense contrapuntal textures, and rich orchestral colours. The piano is featured prominently in Rachmaninoff's compositional output and he used his skills as a performer to fully explore the expressive and technical possibilities of the instrument.",
     "image": "",
-    "photo": "model 0.96, portrait 0.99, in Category:Sergei Rachmaninoff in photographs"
+    "photo": "model 0.96, one person 1.00, in Category:Sergei Rachmaninoff in photographs"
   }
 }

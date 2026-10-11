@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/juan-carlos-onetti.jpg",
   "image_credit": "Elisa Cabot · CC BY-SA 2.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/juan-carlos-onetti-photo.jpg",
   "photo_credit": "Elisa Cabot · CC BY-SA 2.0",
   "checks": {
@@ -41,6 +41,6 @@
     },
     "lead": "Juan Carlos Onetti Borges (July 1, 1909 – May 30, 1994) was a Uruguayan novelist and author of short stories.",
     "image": "",
-    "photo": "model 0.94, portrait 0.96"
+    "photo": "model 0.94, one person 0.97"
   }
 }

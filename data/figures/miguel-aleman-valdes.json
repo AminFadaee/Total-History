@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/miguel-aleman-valdes.jpg",
   "image_credit": "Harris &amp; Ewing, photographer · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/miguel-aleman-valdes-photo.jpg",
   "photo_credit": "Harris &amp; Ewing, photographer · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Miguel Alemán Valdés (Spanish pronunciation: [miˈɣel aleˈman] ; 29 September 1900 – 14 May 1983) was a Mexican politician who served a full term as the President of Mexico from 1946 to 1952. He was the first civilian president after a string of revolutionary generals.",
     "image": "",
-    "photo": "model 0.98, portrait 0.95, captured 1950, during their lifetime"
+    "photo": "model 0.98, one person 0.99, captured 1950, during their lifetime"
   }
 }

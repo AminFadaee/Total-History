@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/luis-echeverria.jpg",
   "image_credit": "CarlAlbertArchives · CC BY-SA 4.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/luis-echeverria-photo.jpg",
   "photo_credit": "CarlAlbertArchives · CC BY-SA 4.0",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Luis Echeverría Álvarez (Spanish pronunciation: [ˈlwis etʃeβeˈri.a ˈalβaɾes]; 17 January 1922 – 8 July 2022) was a Mexican lawyer, academic, and politician affiliated with the Institutional Revolutionary Party (PRI) who served as the 57th president of Mexico from 1970 to 1976. Previously, Echeverría was Secretary of the Interior from 1963 to 1969. He was the longest-lived president in Mexican history and the first to reach the age of 100.",
     "image": "",
-    "photo": "model 0.92, portrait 0.86"
+    "photo": "model 0.92, one person 0.98"
   }
 }

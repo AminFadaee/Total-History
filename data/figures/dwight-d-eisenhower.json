@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/dwight-d-eisenhower.jpg",
   "image_credit": "White House · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/dwight-d-eisenhower-photo.jpg",
   "photo_credit": "White House · Public domain",
   "checks": {
@@ -50,6 +50,6 @@
     },
     "lead": "Dwight David \"Ike\" Eisenhower (born David Dwight Eisenhower; October 14, 1890 – March 28, 1969) was the 34th president of the United States, serving from 1953 to 1961. In his previous military career, he commanded the Allied Expeditionary Force during World War II, including in Operation Torch in North Africa and Operation Overlord on D-Day in Normandy. For his distinguished service in the U.S. Army, Eisenhower was honored with the five-star rank of General of the Army.",
     "image": "",
-    "photo": "model 0.84, portrait 0.94, captured 1959, during their lifetime"
+    "photo": "model 0.84, one person 0.94, captured 1959, during their lifetime"
   }
 }

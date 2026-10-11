@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/nicanor-parra.jpg",
   "image_credit": "Biblioteca del Congreso Nacional · CC BY 3.0 cl",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/nicanor-parra-photo.jpg",
   "photo_credit": "Biblioteca del Congreso Nacional · CC BY 3.0 cl",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Nicanor Segundo Parra Sandoval (5 September 1914 – 23 January 2018) was a Chilean physicist and poet. He has been considered one of the most influential Spanish-language Chilean poets of the 20th century.",
     "image": "",
-    "photo": "model 0.97, portrait 0.91"
+    "photo": "model 0.97, one person 0.97"
   }
 }

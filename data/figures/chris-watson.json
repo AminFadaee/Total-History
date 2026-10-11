@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/chris-watson.jpg",
   "image_credit": "T. Humphrey &amp; Co. · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/chris-watson-photo.jpg",
   "photo_credit": "T. Humphrey &amp; Co. · Public domain",
   "checks": {
@@ -44,6 +44,6 @@
     },
     "lead": "John Christian Watson (born Johan Cristian Tanck; 9 April 1867 – 18 November 1941) was the third prime minister of Australia, serving from April to August 1904. He held office as the inaugural federal leader of the Australian Labor Party (ALP) from 1901 to 1907 and was the first member of the party to serve as prime minister.",
     "image": "",
-    "photo": "model 0.80, portrait 0.98, captured 1900, during their lifetime"
+    "photo": "model 0.80, one person 0.99, captured 1900, during their lifetime"
   }
 }

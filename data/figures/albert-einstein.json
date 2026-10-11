@@ -23,7 +23,7 @@
   "setting": "",
   "image": "images/albert-einstein.jpg",
   "image_credit": "Oren Jack Turner · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/albert-einstein-photo.jpg",
   "photo_credit": "Oren Jack Turner · Public domain",
   "checks": {
@@ -54,6 +54,6 @@
     },
     "lead": "Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity. Einstein also made important contributions to quantum theory. His mass–energy equivalence formula E = mc2, which arises from special relativity, has been called \"the world's most famous equation\". He received the 1921 Nobel Prize in Physics for \"his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect\".",
     "image": "",
-    "photo": "model 0.82, portrait 0.98, captured 1947, during their lifetime"
+    "photo": "model 0.82, one person 0.96, captured 1947, during their lifetime"
   }
 }

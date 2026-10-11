@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/pope-leo-xiii.jpg",
   "image_credit": "Braun et Compagnie · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/pope-leo-xiii-photo.jpg",
   "photo_credit": "Braun et Compagnie · Public domain",
   "checks": {
@@ -41,6 +41,6 @@
     },
     "lead": "Pope Leo XIII (Italian: Leone XIII; born Gioacchino Vincenzo Raffaele Luigi Pecci; 2 March 1810 – 20 July 1903) was head of the Catholic Church from 1878 until his death in 1903. He had the fourth-longest reign and third-longest verified reign of any pope, behind those of St. Peter, Pius IX (his predecessor), and John Paul II.",
     "image": "",
-    "photo": "model 0.88, portrait 0.93, in Category:Portrait photographs of Leo XIII"
+    "photo": "model 0.88, one person 0.97, in Category:Portrait photographs of Leo XIII"
   }
 }

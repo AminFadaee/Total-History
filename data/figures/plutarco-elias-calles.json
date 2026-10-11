@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/plutarco-elias-calles.jpg",
   "image_credit": "National Photo Company Collection. · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Portrait from life",
   "photo": "images/plutarco-elias-calles-photo.jpg",
   "photo_credit": "Autor desconocido · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Plutarco Elías Calles (born Francisco Plutarco Elías Campuzano; 25 September 1877 – 19 October 1945) was a Mexican politician and military officer who served as the 47th president of Mexico from 1924 to 1928. After the assassination of Álvaro Obregón, Calles founded the Institutional Revolutionary Party and held unofficial power as Mexico's de facto leader from 1929 to 1934, a period known as the Maximato. Previously, he served as a general in the Constitutional Army, as Governor of Sonora, Secretary of War, and Secretary of the Interior. During the Maximato, he served as Secretariat of Public Education, Secretary of War again, and Secretary of the Economy. During his presidency, he implemented many left-wing populist and anticlerical reforms, opposition to which sparked the Cristero War.",
     "image": "",
-    "photo": "model 0.95, portrait 0.87"
+    "photo": "model 0.95, one person 0.98"
   }
 }

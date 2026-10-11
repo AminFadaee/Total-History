@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/david-hilbert.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/david-hilbert-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "David Hilbert  (; German: [ˈdaːvɪt ˈhɪlbɐt]; 23 January 1862 – 14 February 1943) was a German mathematician and philosopher of mathematics and one of the most influential mathematicians of all time.",
     "image": "",
-    "photo": "model 0.86, portrait 0.98, in Category:Black and white portrait photographs of men with beards wearing glasses and hats"
+    "photo": "model 0.86, one person 0.99, in Category:Black and white portrait photographs of men with beards wearing glasses and hats"
   }
 }

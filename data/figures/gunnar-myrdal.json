@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/gunnar-myrdal.jpg",
   "image_credit": "Uppsala-Bild / Upplandsmuseet · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/gunnar-myrdal-photo.jpg",
   "photo_credit": "Uppsala-Bild / Upplandsmuseet · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Karl Gunnar Myrdal ( MUR-dahl, MEER-; Swedish: [ˈɡɵ̌nːar ˈmy̌ːɖɑːl]; 6 December 1898 – 17 May 1987) was a Swedish economist and sociologist. In 1974, he received the Nobel Memorial Prize in Economic Sciences along with Friedrich Hayek for \"their pioneering work in the theory of money and economic fluctuations and for their penetrating analysis of the interdependence of economic, social and institutional phenomena.\" When his wife, Alva Myrdal, received the Nobel Peace Prize in 1982, they became the fourth ever married couple to have won Nobel Prizes, and the first and only to win independent of each other (versus a shared Nobel Prize by scientist spouses).",
     "image": "",
-    "photo": "model 0.92, portrait 0.88, captured 1964, during their lifetime"
+    "photo": "model 0.92, one person 0.96, captured 1964, during their lifetime"
   }
 }

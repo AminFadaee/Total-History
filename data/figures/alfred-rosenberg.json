@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/alfred-rosenberg.jpg",
   "image_credit": "United States Army Signal Corps photographer · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/alfred-rosenberg-photo.jpg",
   "photo_credit": "United States Army Signal Corps photographer · Public domain",
   "checks": {
@@ -49,6 +49,6 @@
     },
     "lead": "Alfred Ernst Rosenberg (12 January 1893 [O.S. 31 December 1892] – 16 October 1946) was a Baltic German Nazi philosopher and convicted war criminal.",
     "image": "",
-    "photo": "model 0.97, portrait 0.95, captured 1945, during their lifetime"
+    "photo": "model 0.97, one person 0.99, captured 1945, during their lifetime"
   }
 }

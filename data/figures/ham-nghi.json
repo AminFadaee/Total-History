@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/ham-nghi.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/ham-nghi-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Emperor Hàm Nghi (Vietnamese: [hâːm ŋi], chữ Hán: 咸宜 lit. \"entirely right\", 3 August 1871 – 14 January 1944), personal name Nguyễn Phúc Ưng Lịch (阮福膺簡), also Nguyễn Phúc Minh, was the eighth emperor of the Vietnamese Nguyễn dynasty. He reigned for only one year (1884–85).",
     "image": "",
-    "photo": "model 0.93, portrait 0.98, captured 1890, during their lifetime"
+    "photo": "model 0.93, one person 0.99, captured 1890, during their lifetime"
   }
 }

@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/enrico-fermi.jpg",
   "image_credit": "Department of Energy-Office of Public Affairs, restored by Yann · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/enrico-fermi-photo.jpg",
   "photo_credit": "Department of Energy-Office of Public Affairs, restored by Yann · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Enrico Fermi (Italian: [enˈriːko ˈfermi]; 29 September 1901 – 28 November 1954) was an Italian and naturalized-American physicist, renowned for being the creator of the world's first artificial nuclear reactor, Chicago Pile-1, and a member of the Manhattan Project. He won the 1938 Nobel Prize in Physics \"for his demonstrations of the existence of new radioactive elements produced by neutron irradiation, and for his related discovery of nuclear reactions brought about by slow neutrons\". He has been called the \"architect of the nuclear age\" and the \"architect of the atomic bomb\". He was one of very few physicists to excel in both theoretical and experimental physics. With his colleagues, Fermi filed several patents related to the use of nuclear power, all of which were taken over by the US government. He made significant contributions to the development of statistical mechanics, quantum theory, and nuclear and particle physics.",
     "image": "",
-    "photo": "model 0.95, portrait 0.66, captured 1943, during their lifetime"
+    "photo": "model 0.95, one person 0.94, captured 1943, during their lifetime"
   }
 }

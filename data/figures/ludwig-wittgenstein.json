@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/ludwig-wittgenstein.jpg",
   "image_credit": "Moritz Nähr · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/ludwig-wittgenstein-photo.jpg",
   "photo_credit": "Moritz Nähr · Public domain",
   "checks": {
@@ -37,6 +37,6 @@
     },
     "lead": "Ludwig Josef Johann Wittgenstein ( VIT-gən-s(h)tyne; Austrian German: [ˈluːdvɪk ˈjoːsɛf ˈjoːhan ˈvɪtɡn̩ʃtaɪn]; 26 April 1889 – 29 April 1951) was an Austro-British philosopher who worked in logic, philosophy of mathematics, philosophy of mind, and philosophy of language.",
     "image": "",
-    "photo": "model 0.96, portrait 0.97"
+    "photo": "model 0.96, one person 0.99"
   }
 }

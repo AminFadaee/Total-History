@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/paul-of-greece.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/paul-of-greece-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Paul (Greek: Παύλος, romanized: Pavlos; 14 December 1901 – 6 March 1964) was King of Greece from 1 April 1947 until his death on 6 March 1964.",
     "image": "",
-    "photo": "model 0.96, portrait 0.94"
+    "photo": "model 0.96, one person 0.99"
   }
 }

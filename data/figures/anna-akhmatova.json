@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/anna-akhmatova.jpg",
   "image_credit": "Kuzma Petrov-Vodkin · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Portrait from life",
   "photo": "images/anna-akhmatova-photo.jpg",
   "photo_credit": "Pavel Nikolaevič Luknickij · Public domain",
   "checks": {
@@ -40,6 +40,6 @@
     },
     "lead": "Anna Andreyevna Gorenko (23 June [O.S. 11 June] 1889 – 5 March 1966), known by her pen name Anna Akhmatova, was a Russian and Soviet poet. She was nominated for the Nobel Prize in Literature in 1965 and 1966.",
     "image": "",
-    "photo": "model 0.97, portrait 0.99, captured 1926, during their lifetime"
+    "photo": "model 0.97, one person 0.99, captured 1926, during their lifetime"
   }
 }

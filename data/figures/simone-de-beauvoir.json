@@ -20,9 +20,9 @@
   "setting": "",
   "image": "images/simone-de-beauvoir.jpg",
   "image_credit": "Moshe Milner · CC BY-SA 3.0",
-  "image_is_photo": false,
+  "image_kind": "Photograph",
   "photo": "images/simone-de-beauvoir-photo.jpg",
-  "photo_credit": "刘东鳌(Liu Dong'ao) · Public domain",
+  "photo_credit": "Moshe Milner · CC BY-SA 3.0",
   "checks": {
     "civilization_votes": {
       "death": [
@@ -37,6 +37,6 @@
     },
     "lead": "Simone Lucie Ernestine Marie Bertrand de Beauvoir (9 January 1908 – 14 April 1986) was a French existentialist philosopher, writer, social theorist, and feminist activist. Though she did not consider herself a philosopher, nor was she considered one at the time of her death, she had a significant influence on both feminist existentialism and feminist theory.",
     "image": "",
-    "photo": "model 0.99, portrait 0.89, captured 1955, during their lifetime"
+    "photo": "model 0.99, one person 0.62, in Category:Photographs by Moshe Milner"
   }
 }

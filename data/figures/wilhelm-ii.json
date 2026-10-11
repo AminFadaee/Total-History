@@ -25,7 +25,7 @@
   "setting": "",
   "image": "images/wilhelm-ii.jpg",
   "image_credit": "Studio of Thomas Heinrich Voigt · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/wilhelm-ii-photo.jpg",
   "photo_credit": "Studio of Thomas Heinrich Voigt · Public domain",
   "checks": {
@@ -51,6 +51,6 @@
     },
     "lead": "Wilhelm II (Friedrich Wilhelm Viktor Albert; 27 January 1859 – 4 June 1941) was the last German Emperor from 1888 until his abdication in 1918. His fall from power marked the end of the German Empire as well as the Hohenzollern dynasty's 400-year rule over Prussia.",
     "image": "",
-    "photo": "model 0.94, portrait 0.90"
+    "photo": "model 0.94, one person 0.97"
   }
 }

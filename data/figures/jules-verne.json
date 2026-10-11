@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/jules-verne.jpg",
   "image_credit": "Nadar · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/jules-verne-photo.jpg",
   "photo_credit": "Nadar · Public domain",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Jules Gabriel Verne ( VURN; French: [ʒyl ɡabʁijɛl vɛʁn]; 8 February 1828 – 24 March 1905) was a French novelist, poet, and playwright.",
     "image": "",
-    "photo": "model 0.78, portrait 0.98, in Category:Black and white portrait photographs of writers"
+    "photo": "model 0.78, one person 0.99, in Category:Black and white portrait photographs of writers"
   }
 }

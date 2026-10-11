@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/oscar-ii.jpg",
   "image_credit": "Lars Larsson · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/oscar-ii-photo.jpg",
   "photo_credit": "Lars Larsson · Public domain",
   "checks": {
@@ -44,6 +44,6 @@
     },
     "lead": "Oscar II (Oscar Fredrik; 21 January 1829 – 8 December 1907) was King of Sweden from 1872 until his death in 1907 and King of Norway from 1872 to 1905.",
     "image": "",
-    "photo": "model 0.96, portrait 0.93, in Category:Photographs of Oscar II of Sweden"
+    "photo": "model 0.96, one person 0.99, in Category:Photographs of Oscar II of Sweden"
   }
 }

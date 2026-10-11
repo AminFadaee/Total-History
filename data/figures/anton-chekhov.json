@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/anton-chekhov.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Photograph",
   "photo": "images/anton-chekhov-photo.jpg",
   "photo_credit": "Главархив Москвы · CC BY 4.0",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Anton Pavlovich Chekhov (; Russian: Антон Павлович Чехов;",
     "image": "",
-    "photo": "model 0.98, portrait 0.96"
+    "photo": "model 0.98, one person 0.94"
   }
 }

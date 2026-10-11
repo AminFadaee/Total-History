@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/lu-xun.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/lu-xun-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -38,6 +38,6 @@
     },
     "lead": "Lu Xun (Chinese: 魯迅; pinyin: Lǔ Xùn, [lù ɕŷn]; 25 September 1881 – 19 October 1936), pen name of Zhou Shuren, born Zhou Zhangshou, was a Chinese writer. A leading figure of modern Chinese literature, he wrote in both vernacular and literary Chinese as a novelist, literary critic, essayist, poet, translator and political commentator, known for his sharp, satirical style and critical reflections on Chinese history and culture.",
     "image": "",
-    "photo": "model 0.84, portrait 0.98, captured 1930, during their lifetime"
+    "photo": "model 0.84, one person 0.99, captured 1930, during their lifetime"
   }
 }

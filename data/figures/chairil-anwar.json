@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/chairil-anwar.jpg",
   "image_credit": "Ministry of Information, Republic of Indonesia · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/chairil-anwar-photo.jpg",
   "photo_credit": "Ministry of Information, Republic of Indonesia · Public domain",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Chairil Anwar (26 July 1922 – 28 April 1949) was an Indonesian poet and member of the \"1945 Generation\" of writers. He is estimated to have written 96 works, including 70 individual poems.",
     "image": "",
-    "photo": "model 0.98, portrait 0.96, captured 1949, during their lifetime"
+    "photo": "model 0.98, one person 0.99, captured 1949, during their lifetime"
   }
 }

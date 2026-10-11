@@ -39,9 +39,11 @@
   "rulers": [],
   "modern_countries": [
     "Norway",
-    "Iceland",
     "Sweden",
     "Denmark"
+  ],
+  "overseas_countries": [
+    "Iceland"
   ],
   "borders": true,
   "map": "maps/denmark-norway.png",

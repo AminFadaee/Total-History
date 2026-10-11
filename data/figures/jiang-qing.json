@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/jiang-qing.jpg",
   "image_credit": "Unknown authorUnknown author · CC BY-SA 3.0 nl",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/jiang-qing-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · CC BY-SA 3.0 nl",
   "checks": {
@@ -47,6 +47,6 @@
     },
     "lead": "Jiang Qing (March 1914 (1914-03) – 14 May 1991 (1991-05-15); also spelled as Chiang Ch'ing), born Li Yunhe, also known as Li Jin, and briefly known by her stage name Lan Ping in the 1930s Shanghai, was a Chinese revolutionary, actress, and political figure. The fourth wife of Mao Zedong, she played a major role in the Cultural Revolution and led the Gang of Four.",
     "image": "",
-    "photo": "model 0.90, portrait 0.86, captured 1976, during their lifetime"
+    "photo": "model 0.90, one person 0.96, captured 1976, during their lifetime"
   }
 }

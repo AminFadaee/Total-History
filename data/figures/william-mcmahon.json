@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/william-mcmahon.jpg",
   "image_credit": "Australian News and Information Bureau · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/william-mcmahon-photo.jpg",
   "photo_credit": "Australian News and Information Bureau · Public domain",
   "checks": {
@@ -40,6 +40,6 @@
     },
     "lead": "Sir William McMahon (23 February 1908 – 31 March 1988) was the 20th prime minister of Australia, serving from 1971 to 1972. He held office as the leader of the Liberal Party of Australia, and previously held various ministerial positions from 1951 to 1971, the longest continuous service in Australian history.",
     "image": "",
-    "photo": "model 0.97, portrait 0.94, captured 1966, during their lifetime"
+    "photo": "model 0.97, one person 1.00, captured 1966, during their lifetime"
   }
 }

@@ -22,7 +22,7 @@
   "setting": "",
   "image": "images/fumimaro-konoe.jpg",
   "image_credit": "内閣情報部 · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/fumimaro-konoe-photo.jpg",
   "photo_credit": "内閣情報部 · Public domain",
   "checks": {
@@ -43,6 +43,6 @@
     },
     "lead": "Prince Fumimaro Konoe (近衞 文麿, Konoe Fumimaro; 12 October 1891 – 16 December 1945) was a Japanese politician who served as Prime Minister of Japan from 1937 to 1939 and from 1940 to 1941. He presided over the Japanese invasion of China in 1937 and breakdown in relations with the United States which eventually culminated in the Second World War's expansion to the Asia-Pacific theater. Konoe also played a central role in transforming Japan into a totalitarian state by pushing through the State General Mobilization Law and establishing the Imperial Rule Assistance Association.",
     "image": "",
-    "photo": "model 0.92, portrait 0.72"
+    "photo": "model 0.92, one person 0.96"
   }
 }

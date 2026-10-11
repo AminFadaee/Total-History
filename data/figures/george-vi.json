@@ -29,7 +29,7 @@
   "setting": "",
   "image": "images/george-vi.jpg",
   "image_credit": "Matson Photo Service · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/george-vi-photo.jpg",
   "photo_credit": "Matson Photo Service · Public domain",
   "checks": {
@@ -62,6 +62,6 @@
     },
     "lead": "George VI (Albert Frederick Arthur George; 14 December 1895 – 6 February 1952) was King of the United Kingdom and the Dominions of the British Commonwealth from 11 December 1936 until his death in 1952. He was also the last Emperor of India from 1936 until the British Raj was dissolved in August 1947, though the title was only formally relinquished in June 1948. Following the London Declaration of 1949, he was the first Head of the Commonwealth.",
     "image": "",
-    "photo": "model 0.99, portrait 0.88, in Category:1938 black and white portrait photographs of men"
+    "photo": "model 0.99, one person 0.98, in Category:1938 black and white portrait photographs of men"
   }
 }

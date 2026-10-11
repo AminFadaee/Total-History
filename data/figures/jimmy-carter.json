@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/jimmy-carter.jpg",
   "image_credit": "Department of Defense. Department of the Navy. Naval Photographic Center · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/jimmy-carter-photo.jpg",
   "photo_credit": "Department of Defense. Department of the Navy. Naval Photographic Center · Public domain",
   "checks": {
@@ -42,6 +42,6 @@
     },
     "lead": "James Earl Carter Jr. (October 1, 1924 – December 29, 2024) was an American politician and humanitarian who served as the 39th president of the United States from 1977 to 1981. A member of the Democratic Party, Carter served as the 76th governor of Georgia from 1971 to 1975 and in the Georgia State Senate from 1963 to 1967. He lived longer than any other president in U.S. history, reaching age 100.",
     "image": "",
-    "photo": "model 0.71, portrait 0.86, in Category:Photographs of the national flag of the United States with other flags"
+    "photo": "model 0.71, one person 0.88, in Category:Photographs of the national flag of the United States with other flags"
   }
 }

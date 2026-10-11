@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/muhammad-iqbal.jpg",
   "image_credit": "Amrita Sher-Gil · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/muhammad-iqbal-photo.jpg",
   "photo_credit": "Amrita Sher-Gil · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Sir Muhammad Iqbal (9 November 1877 – 21 April 1938) was an Islamic philosopher and poet. His poetry in Urdu is considered among the greatest of the 20th century, and his vision of a cultural and political ideal for the Muslims of British India is widely regarded as having animated the impulse behind the Pakistan Movement. The honorific commonly refers to him as Allamah (Persian: علامه, romanized: 'Allāma, lit. 'learned') and is widely considered one of the most important and influential Muslim thinkers and Islamic religious philosophers of the 20th century.",
     "image": "",
-    "photo": "model 0.76, portrait 0.90, captured 1938, during their lifetime"
+    "photo": "model 0.76, one person 0.97, captured 1938, during their lifetime"
   }
 }

@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/ronald-syme.jpg",
   "image_credit": "The original uploader was Mirv at en es Wikipedia. · CC BY-SA 3.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/ronald-syme-photo.jpg",
   "photo_credit": "The original uploader was Mirv at en es Wikipedia. · CC BY-SA 3.0",
   "checks": {
@@ -41,6 +41,6 @@
     },
     "lead": "Sir Ronald Syme (11 March 1903 – 4 September 1989) was a New Zealand-born historian and classicist. He was regarded as the greatest historian of ancient Rome since Theodor Mommsen and the most brilliant exponent of the history of the Roman Empire since Edward Gibbon. His great work was The Roman Revolution (1939), a masterly and controversial analysis of political life in the Roman Republic following the assassination of Julius Caesar, offering critical views about Octavian in particular that challenged widely accepted views in contemporary academia.",
     "image": "",
-    "photo": "model 0.99, portrait 0.85"
+    "photo": "model 0.99, one person 0.99"
   }
 }

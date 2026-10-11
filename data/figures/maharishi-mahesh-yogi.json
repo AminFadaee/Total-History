@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/maharishi-mahesh-yogi.jpg",
   "image_credit": "Vernon Barnes PhD Dr Jean Fortunet · CC BY-SA 3.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/maharishi-mahesh-yogi-photo.jpg",
   "photo_credit": "Vernon Barnes PhD Dr Jean Fortunet · CC BY-SA 3.0",
   "checks": {
@@ -37,6 +37,6 @@
     },
     "lead": "Maharishi Mahesh Yogi (born Mahesh Prasad Varma, 12 January 1911? – 5 February 2008) was the creator of Transcendental Meditation (TM) and leader of the worldwide organization that has been characterized in multiple ways, including as a new religious movement and as non-religious. He became known as Maharishi (meaning \"great seer\") and Yogi as an adult.",
     "image": "",
-    "photo": "model 0.93, portrait 0.68, captured 1978, during their lifetime"
+    "photo": "model 0.93, one person 0.94, captured 1978, during their lifetime"
   }
 }

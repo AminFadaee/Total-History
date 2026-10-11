@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/lyndon-b-johnson.jpg",
   "image_credit": "Arnold Newman · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/lyndon-b-johnson-photo.jpg",
   "photo_credit": "Arnold Newman · Public domain",
   "checks": {
@@ -45,6 +45,6 @@
     },
     "lead": "Lyndon Baines Johnson (August 27, 1908 – January 22, 1973), also known as LBJ, was the 36th president of the United States, serving from 1963 to 1969. He served as the 37th vice president under John F. Kennedy from 1961 to 1963, before assuming the presidency upon Kennedy's assassination. A Democrat from Texas, Johnson served in Congress until 1961, where he built a reputation as a talented and persuasive legislator. His presidency saw the passing of landmark civil rights legislation including the Civil Rights Act of 1964 and the Voting Rights Act of 1965, the creation of \"Great Society\" programs such as Medicare and Medicaid, and a major escalation in U.S. involvement in the Vietnam War.",
     "image": "",
-    "photo": "model 0.94, portrait 0.95, in Category:Photographs by Arnold Newman"
+    "photo": "model 0.94, one person 0.98, in Category:Photographs by Arnold Newman"
   }
 }

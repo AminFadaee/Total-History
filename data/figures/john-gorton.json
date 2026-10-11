@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/john-gorton.jpg",
   "image_credit": "National Archives of Australia · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/john-gorton-photo.jpg",
   "photo_credit": "National Archives of Australia · Public domain",
   "checks": {
@@ -40,6 +40,6 @@
     },
     "lead": "Sir John Grey Gorton (9 September 1911 – 19 May 2002) was the 19th prime minister of Australia, serving from 1968 to 1971. He held office as the leader of the Liberal Party of Australia, having previously served as a senator for Victoria. He was the first and only member of the upper house of the Parliament to assume the office of prime minister.",
     "image": "",
-    "photo": "model 0.95, portrait 0.86, captured 1968, during their lifetime"
+    "photo": "model 0.95, one person 0.99, captured 1968, during their lifetime"
   }
 }

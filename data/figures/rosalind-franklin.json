@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/rosalind-franklin.jpg",
   "image_credit": "MRC Laboratory of Molecular Biology · CC BY-SA 4.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/rosalind-franklin-photo.jpg",
   "photo_credit": "MRC Laboratory of Molecular Biology · CC BY-SA 4.0",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Rosalind Elsie Franklin (25 July 1920 – 16 April 1958) was an English chemist and X-ray crystallographer. Her work was central to the understanding of the molecular structures of DNA (deoxyribonucleic acid), RNA (ribonucleic acid), viruses, coal, and graphite. Although her works on coal and viruses were appreciated in her lifetime, Franklin's contributions to the discovery of the structure of DNA were largely unrecognised during her life, for which Franklin has been variously referred to as the \"wronged heroine\", the \"dark lady of DNA\", the \"forgotten heroine\", a \"feminist icon\", and the \"Sylvia Plath of molecular biology\". James Watson believed that, had she not died, ideally, Franklin would have been awarded a Nobel Prize in Chemistry.",
     "image": "",
-    "photo": "model 0.97, portrait 0.74, captured 1955, during their lifetime"
+    "photo": "model 0.97, one person 0.93, captured 1955, during their lifetime"
   }
 }

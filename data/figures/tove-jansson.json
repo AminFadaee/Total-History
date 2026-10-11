@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/tove-jansson.jpg",
   "image_credit": "Per Olov Jansson · CC BY 3.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/tove-jansson-photo.jpg",
   "photo_credit": "Per Olov Jansson · CC BY 3.0",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Tove Marika Jansson (Finland Swedish: [ˈtuːve ˈjɑːnsːon] ; 9 August 1914 – 27 June 2001) was a Finland-Swedish author, novelist and comic strip author, painter and illustrator. Brought up by artistic parents, her mother an illustrator and postage stamp designer, her father a sculptor, Jansson studied art from 1930 to 1938 in Helsinki, Stockholm, and Paris. She held her first solo art exhibition in 1943. Over the same period, she penned short stories and articles for publication, and subsequently drew illustrations for book covers, advertisements, and postcards. She continued her work as an artist and writer for the rest of her life.",
     "image": "",
-    "photo": "model 0.81, portrait 0.99, captured 1960, during their lifetime"
+    "photo": "model 0.81, one person 0.94, captured 1960, during their lifetime"
   }
 }

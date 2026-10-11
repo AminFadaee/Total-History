@@ -14,16 +14,16 @@
   "civilizations": [
     "Republic of Austria",
     "Nazi Germany",
-    "Margraviate of Moravia",
+    "Kingdom of Bohemia",
     "Duchy of Styria",
-    "Kingdom of Bohemia"
+    "Margraviate of Moravia"
   ],
   "related": [],
   "contribution": "An Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies arising from conflicts in the psyche through dialogue between patient and psychoanalyst, and the distinctive theory of mind and human agency it posits.",
   "setting": "",
   "image": "images/sigmund-freud.jpg",
   "image_credit": "Max Halberstadt · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/sigmund-freud-photo.jpg",
   "photo_credit": "Max Halberstadt · Public domain",
   "checks": {
@@ -41,6 +41,6 @@
     },
     "lead": "Sigmund Freud (born Sigismund Schlomo Freud; 6 May 1856 – 23 September 1939) was an Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies arising from conflicts in the psyche through dialogue between patient and psychoanalyst, and the distinctive theory of mind and human agency it posits.",
     "image": "",
-    "photo": "model 0.97, portrait 0.90, captured 1921, during their lifetime"
+    "photo": "model 0.97, one person 0.98, captured 1921, during their lifetime"
   }
 }

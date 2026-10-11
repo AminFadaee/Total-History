@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/jun-ichiro-tanizaki.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Portrait from life",
   "photo": "images/jun-ichiro-tanizaki-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Jun'ichirō Tanizaki (谷崎 潤一郎, Tanizaki Jun'ichirō; 24 July 1886 – 30 July 1965) was a Japanese author who is considered to be one of the most prominent figures in modern Japanese literature. The tone and subject matter of his work range from shocking depictions of sexuality and destructive erotic obsessions to subtle portrayals of the dynamics of family life within the context of the rapid changes in 20th-century Japanese society. Frequently, his stories are narrated in the context of a search for cultural identity in which the West and Japanese tradition are juxtaposed.",
     "image": "",
-    "photo": "model 0.92, portrait 0.94, captured 1913, during their lifetime"
+    "photo": "model 0.92, one person 0.98, captured 1913, during their lifetime"
   }
 }

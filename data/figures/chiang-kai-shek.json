@@ -22,7 +22,7 @@
   "setting": "",
   "image": "images/chiang-kai-shek.jpg",
   "image_credit": "Unknown photographer · Attribution",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/chiang-kai-shek-photo.jpg",
   "photo_credit": "Unknown photographer · Attribution",
   "checks": {
@@ -51,6 +51,6 @@
     },
     "lead": "Chiang Kai-shek (; 31 October 1887 – 5 April 1975) was a Chinese military commander, revolutionary, and statesman who was President of the Republic of China from 1948 to 1975 and the head of the Nationalist government from 1925 to 1948. As the de facto leader of the Republic of China (ROC), he ruled the country through World War II and oversaw the relocation of its government to Taiwan following defeat in the Chinese Civil War.",
     "image": "",
-    "photo": "model 0.81, portrait 1.00, in Category:Portrait photographs of Chiang Kai-shek"
+    "photo": "model 0.81, one person 0.99, in Category:Portrait photographs of Chiang Kai-shek"
   }
 }

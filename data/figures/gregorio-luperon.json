@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/gregorio-luperon.jpg",
   "image_credit": "Unknown authorUnknown author · CC0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/gregorio-luperon-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · CC0",
   "checks": {
@@ -42,6 +42,6 @@
     },
     "lead": "Gregorio Luperón (September 8, 1839 – May 21, 1897) was a Dominican revolutionary, military general, businessman, liberal politician, freemason, and statesman who was one of the leaders in the Dominican Restoration War.",
     "image": "",
-    "photo": "model 0.99, portrait 0.99"
+    "photo": "model 0.99, one person 0.99"
   }
 }

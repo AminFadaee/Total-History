@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/vaino-linna.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Portrait from life",
   "photo": "images/vaino-linna-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Väinö Valtteri Linna (pronounced [ˈʋæi̯nø ˈlinːɑ] ; 20 December 1920 – 21 April 1992) was a Finnish author and a former soldier who fought in the Continuation War (1941–44). Linna gained literary fame with his third novel, Tuntematon sotilas (The Unknown Soldier, published in 1954), and consolidated his position with the trilogy Täällä Pohjantähden alla (Under the North Star, published in 1959–1963 and translated into English by Richard Impola). Both have been adapted to a film format on several occasions; The Unknown Soldier was first adapted into a film in 1955 and Under the North Star in 1968 as Here, Beneath the North Star, both directed by Edvin Laine.",
     "image": "",
-    "photo": "model 0.96, portrait 1.00, captured 1947, during their lifetime"
+    "photo": "model 0.96, one person 0.99, captured 1947, during their lifetime"
   }
 }

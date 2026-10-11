@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/josef-mengele.jpg",
   "image_credit": "Unknown, i.e. either Bernhard Walther or Ernst Hofmann or Karl-Friedrich Höcker · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/josef-mengele-photo.jpg",
   "photo_credit": "Unknown, i.e. either Bernhard Walther or Ernst Hofmann or Karl-Friedrich Höcker · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Josef Mengele (German: [ˈjoːzɛf ˈmɛŋələ] ; 16 March 1911 – 7 February 1979), often dubbed the \"Angel of Death\"   (German: Todesengel), was a German military officer and physician during World War II at the Soviet front and then at Auschwitz during the Holocaust. He conducted research and experiments on prisoners at the Auschwitz II-Birkenau concentration camp, where he was a member of the team of doctors who selected victims to be murdered in the gas chambers.",
     "image": "",
-    "photo": "model 1.00, portrait 0.96, captured 1944, during their lifetime"
+    "photo": "model 1.00, one person 0.99, captured 1944, during their lifetime"
   }
 }

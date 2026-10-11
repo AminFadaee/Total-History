@@ -24,7 +24,7 @@
   "setting": "",
   "image": "images/mustafa-kemal-ataturk.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/mustafa-kemal-ataturk-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -52,6 +52,6 @@
     },
     "lead": "Mustafa Kemal Atatürk (c. 1881 – 10 November 1938) was a Turkish field marshal and statesman who was the founder of the Republic of Turkey and served as its first president from 1923 until his death in 1938. He led sweeping reforms, turning Turkey into an industrialising nation. Ideologically a republican, secularist, and nationalist, his policies and socio-political theories became known as Kemalism. Atatürk's personality cult and the Kemalist historiography developed around it have had significant and ongoing influences on Turkey's political culture and historical narrative.",
     "image": "",
-    "photo": "model 0.85, portrait 0.98, in Category:20th-century black and white portrait photographs of sitting men at half length"
+    "photo": "model 0.85, one person 0.99, in Category:20th-century black and white portrait photographs of sitting men at half length"
   }
 }

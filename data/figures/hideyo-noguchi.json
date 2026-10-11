@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/hideyo-noguchi.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Depiction",
   "photo": "images/hideyo-noguchi-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Hideyo Noguchi (野口 英世, Noguchi Hideyo; November 9, 1876 – May 21, 1928), also known as Seisaku Noguchi (野口 清作, Noguchi Seisaku), was a Japanese bacteriologist at the Rockefeller Institute during its foundation under Simon Flexner and known for his work on syphilis and contributing to the long term understanding of neurosyphilis.",
     "image": "",
-    "photo": "model 0.90, portrait 0.94, captured 1928, during their lifetime"
+    "photo": "model 0.90, one person 0.99, captured 1928, during their lifetime"
   }
 }

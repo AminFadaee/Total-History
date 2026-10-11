@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/kate-sheppard.jpg",
   "image_credit": "H. H. Clifford, see https://collection.canterburymuseum.com/objects/243177/glass-plate-negative-kate-w-sheppard · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/kate-sheppard-photo.jpg",
   "photo_credit": "H. H. Clifford, see https://collection.canterburymuseum.com/objects/243177/glass-plate-negative-kate-w-sheppard · Public domain",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Katherine Wilson Sheppard (born Catherine Wilson Malcolm; 10 March 1848 – 13 July 1934) was a New Zealand suffragist known for organising the 1893 Women's Suffrage Petition which resulted in New Zealand becoming the first country to establish universal suffrage.",
     "image": "",
-    "photo": "model 0.96, portrait 0.89, captured 1901, during their lifetime"
+    "photo": "model 0.96, one person 0.98, captured 1901, during their lifetime"
   }
 }

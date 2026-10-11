@@ -19,9 +19,9 @@
   "setting": "",
   "image": "images/andres-bello.jpg",
   "image_credit": "Raymond Monvoisin · Public domain",
-  "image_is_photo": false,
-  "photo": "",
-  "photo_credit": "",
+  "image_kind": "Portrait from life",
+  "photo": "images/andres-bello-photo.jpg",
+  "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
     "civilization_votes": {
       "office": [
@@ -43,6 +43,6 @@
     },
     "lead": "Andrés de Jesús María y José Bello López (Spanish pronunciation: [anˈdɾes ˈβeʝo]; November 29, 1781 – October 15, 1865) was a Venezuelan humanist, diplomat, poet, legislator, philosopher, educator and philologist, whose political and literary works constitute an important part of Spanish American culture.  Bello is featured on the old 1992 50 and 1998 2,000 Venezuelan bolívar notes and the 20,000 Chilean peso notes.",
     "image": "",
-    "photo": "AndresBello.jpg: model 0.05, portrait 0.97; Andrés Bello Monument - National Pantheon.jpg: model 0.03, portrait 0.13; Piano Andrés Bello.jpg: model 0.83, portrait 0.22; Signature of Andrés Bello, 1804.jpg: model 0.02, portrait 0.01; AndresBello cropped.png: model 0.31, portrait 0.96; Andres Bello(retrato).jpeg: model 0.02, portrait 0.95, captured 1850, during their lifetime; Andres Bello-Quinsac.jpg: model 0.03, portrait 0.98; TumbaBello.JPG: model 0.07, portrait 0.07; Panteón Nacional de Venezuela.JPG: model 0.21, portrait 0.02; Andrés Bello y esposa.jpg: model 0.81, portrait 0.12, captured 1850, during their lifetime"
+    "photo": "model 0.97, one person 0.96"
   }
 }

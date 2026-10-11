@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/okubo-toshimichi.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/okubo-toshimichi-photo.jpg",
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
@@ -38,6 +38,6 @@
     },
     "lead": "Ōkubo Toshimichi (Japanese: 大久保 利通; 26 September 1830 – 14 May 1878) was a Japanese statesman and samurai of the Satsuma Domain. Regarded as one of the main founders of modern Japan, he was one of the \"Three Great Nobles\" who led the Meiji Restoration in 1868, alongside Kido Takayoshi and Saigō Takamori. His policies, often characterized by realism and a focus on national strength (fukoku kyōhei), has led some historians to compare his role in Japan to that of Otto von Bismarck in Prussia.",
     "image": "",
-    "photo": "model 0.89, portrait 0.96, captured 1878, during their lifetime"
+    "photo": "model 0.89, one person 0.99, captured 1878, during their lifetime"
   }
 }

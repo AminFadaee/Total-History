@@ -20,7 +20,7 @@
   "setting": "",
   "image": "images/shigeru-mizuki.jpg",
   "image_credit": "大臣官房人事課 · CC BY 4.0",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/shigeru-mizuki-photo.jpg",
   "photo_credit": "大臣官房人事課 · CC BY 4.0",
   "checks": {
@@ -38,6 +38,6 @@
     },
     "lead": "Shigeru Mura (Japanese: 武良 茂, Hepburn: Mura Shigeru; March 8, 1922 – November 30, 2015), best known by his pen name Shigeru Mizuki (水木 しげる, Mizuki Shigeru), was a Japanese manga artist, illustrator and folklorist. He is best known for popularizing and reviving interest in yōkai, supernatural creatures from Japanese folklore, especially through his most famous series GeGeGe no Kitarō.",
     "image": "",
-    "photo": "model 0.96, portrait 0.95, captured 2010, during their lifetime"
+    "photo": "model 0.96, one person 0.99, captured 2010, during their lifetime"
   }
 }

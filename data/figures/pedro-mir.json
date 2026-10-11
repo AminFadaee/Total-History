@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/pedro-mir.jpg",
   "image_credit": "No machine-readable author provided. Thewhitesamurai~commonswiki assumed (based on copyright claims). · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/pedro-mir-photo.jpg",
   "photo_credit": "No machine-readable author provided. Thewhitesamurai~commonswiki assumed (based on copyright claims). · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Pedro Julio Mir Valentín (3 June 1913, San Pedro de Macorís – 11 July 2000, Santo Domingo) was a Dominican poet and writer, named Poet Laureate of the Dominican Republic by Congress in 1984, and a member of the generation of \"Independent poets of the 1940s\" in Dominican poetry.",
     "image": "",
-    "photo": "model 0.94, portrait 0.98"
+    "photo": "model 0.94, one person 0.97"
   }
 }

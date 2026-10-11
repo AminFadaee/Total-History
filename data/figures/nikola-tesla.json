@@ -21,7 +21,7 @@
   "setting": "",
   "image": "images/nikola-tesla.jpg",
   "image_credit": "Napoleon Sarony · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/nikola-tesla-photo.jpg",
   "photo_credit": "Napoleon Sarony · Public domain",
   "checks": {
@@ -42,6 +42,6 @@
     },
     "lead": "Nikola Tesla (10 July 1856 – 7 January 1943) was a Serbian-American engineer, futurist, and inventor. He is known for his contributions to the design of the modern alternating current (AC) electricity supply system.",
     "image": "",
-    "photo": "model 0.92, portrait 0.99, in Category:Black and white portrait photographs of male scientists"
+    "photo": "model 0.92, one person 0.99, in Category:Black and white portrait photographs of male scientists"
   }
 }

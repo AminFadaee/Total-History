@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/ernest-rutherford.jpg",
   "image_credit": "George Grantham Bain Collection (Library of Congress) · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Depiction",
   "photo": "images/ernest-rutherford-photo.jpg",
   "photo_credit": "The original uploader was Sadi Carnot at English Wikipedia. · CC BY-SA 3.0",
   "checks": {
@@ -36,6 +36,6 @@
     },
     "lead": "Ernest Rutherford, 1st Baron Rutherford of Nelson (30 August 1871 – 19 October 1937), was a New Zealand physicist and chemist who was a pioneering researcher in both atomic and nuclear physics. He has been described as \"the father of nuclear physics\" and \"the greatest experimentalist since Michael Faraday\". In 1908, he was awarded the Nobel Prize in Chemistry \"for his investigations into the disintegration of the elements, and the chemistry of radioactive substances.\"",
     "image": "",
-    "photo": "model 0.94, portrait 0.98"
+    "photo": "model 0.94, one person 0.99"
   }
 }

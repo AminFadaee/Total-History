@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/patricio-aylwin.jpg",
   "image_credit": "Biblioteca del Congreso Nacional de Chile · CC BY 3.0 cl",
-  "image_is_photo": false,
+  "image_kind": "Portrait from life",
   "photo": "images/patricio-aylwin-photo.jpg",
   "photo_credit": "Biblioteca del Congreso Nacional de Chile · CC BY 3.0 cl",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Patricio Aylwin Azócar  (Latin American Spanish pronunciation: [paˈtɾisjo ˈelwin aˈsokaɾ] ; 26 November 1918 – 19 April 2016) was a Chilean politician, lawyer, author, professor and former senator who was the 30th president of Chile from 1990 to 1994. He was the first president to be elected after the end of Augusto Pinochet's military dictatorship following the 1988 Chilean presidential referendum, marking the Chilean transition to democracy in 1990. He was from the Christian Democratic Party.",
     "image": "",
-    "photo": "model 0.88, portrait 0.84, captured 2011, during their lifetime"
+    "photo": "model 0.88, one person 0.97, captured 2011, during their lifetime"
   }
 }

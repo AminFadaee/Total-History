@@ -22,7 +22,7 @@
   "setting": "",
   "image": "images/friedrich-nietzsche.jpg",
   "image_credit": "Friedrich Hermann Hartmann · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/friedrich-nietzsche-photo.jpg",
   "photo_credit": "Friedrich Hermann Hartmann · Public domain",
   "checks": {
@@ -42,6 +42,6 @@
     },
     "lead": "Friedrich Wilhelm Nietzsche (15 October 1844 – 25 August 1900) was a German philosopher and writer who started his career as a classical philologist and turned to philosophy early in his academic career. In 1869, at age 24, he was appointed Professor of Classical Philology at the University of Basel. Plagued by health problems for most of his life, he resigned from the university in 1879. He afterward lived as an independent writer, spending much of his life in relative solitude and financial insecurity while moving between Switzerland, Italy, and southern France in search of climates that might alleviate his condition, and in the following decade, he completed much of his core writing. In 1889, aged 44, he suffered a neurological collapse, and thereafter a complete loss of his mental faculties, with paralysis and vascular dementia; he lived out his remaining 11 years, first under the care of his mother, and later his sister, until his death. His works and his philosophy have fostered not only extensive scholarship but also much popular interest.",
     "image": "",
-    "photo": "model 0.77, portrait 0.98, captured 1875, during their lifetime"
+    "photo": "model 0.77, one person 0.96, captured 1875, during their lifetime"
   }
 }

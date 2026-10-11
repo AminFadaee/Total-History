@@ -20,8 +20,8 @@
   "contribution": "A Dominican conservative politician and military figure.",
   "setting": "",
   "image": "images/buenaventura-baez.jpg",
-  "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": false,
+  "image_credit": "Unknown/Desconocido · Public domain",
+  "image_kind": "Photograph",
   "photo": "images/buenaventura-baez-photo.jpg",
   "photo_credit": "Unknown/Desconocido · Public domain",
   "checks": {
@@ -44,7 +44,7 @@
       ]
     },
     "lead": "Ramón Buenaventura Báez Méndez (July 14, 1812 – March 14, 1884) was a Dominican conservative politician and military figure. Known for having served as president of the Dominican Republic on five occasions, his rule was characterized by corruption and governing for the benefit of his personal fortune.",
-    "image": "main image is an object (coin, stamp, plate, crown, flag, tomb), calligraphy or missing",
-    "photo": "model 0.94, portrait 1.00"
+    "image": "",
+    "photo": "model 0.94, one person 0.96"
   }
 }

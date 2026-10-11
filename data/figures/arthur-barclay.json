@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/arthur-barclay.jpg",
   "image_credit": "Public domain",
-  "image_is_photo": false,
+  "image_kind": "Depiction",
   "photo": "images/arthur-barclay-photo.jpg",
   "photo_credit": "Johnston, Harry Hamilton, Sir, 1858-1927; Royal Geographical Society (Great Britain) · Public domain",
   "checks": {
@@ -33,6 +33,6 @@
     },
     "lead": "Arthur Barclay (31 July 1854 – 10 July 1938) was the 15th president of Liberia from 1904 to 1912.",
     "image": "",
-    "photo": "model 0.77, portrait 0.96, captured 1907, during their lifetime"
+    "photo": "model 0.77, one person 0.95, captured 1907, during their lifetime"
   }
 }

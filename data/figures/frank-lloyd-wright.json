@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/frank-lloyd-wright.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
-  "image_is_photo": false,
+  "image_kind": "Photograph",
   "photo": "images/frank-lloyd-wright-photo.jpg",
   "photo_credit": "New York World-Telegram and the Sun staff photographer: Al Ravenna · Public domain",
   "checks": {
@@ -39,6 +39,6 @@
     },
     "lead": "Frank Lloyd Wright Sr. (June 8, 1867 – April 9, 1959) was an American architect, designer, writer, and educator. He designed more than 1,000 structures over a creative period of 70 years. Wright played a key role in the architectural movements of the twentieth century, influencing architects worldwide through his works and mentoring hundreds of apprentices in his Taliesin Fellowship. Wright believed in designing in harmony with humanity and the environment, a philosophy he called organic architecture. This philosophy was exemplified in Fallingwater (1935), which has been called \"the best all-time work of American architecture\".",
     "image": "",
-    "photo": "model 0.93, portrait 0.97, in Category:1954 black and white portrait photographs of men"
+    "photo": "model 0.93, one person 0.99, in Category:1954 black and white portrait photographs of men"
   }
 }

@@ -19,7 +19,7 @@
   "setting": "",
   "image": "images/eva-braun.jpg",
   "image_credit": "Studio of Heinrich Hoffmann · Public domain",
-  "image_is_photo": true,
+  "image_kind": "Photograph",
   "photo": "images/eva-braun-photo.jpg",
   "photo_credit": "Studio of Heinrich Hoffmann · Public domain",
   "checks": {
@@ -37,6 +37,6 @@
     },
     "lead": "Eva Anna Paula Hitler (née Braun; 6 February 1912 – 30 April 1945) was a German photographer who was the longtime companion and briefly the wife of Adolf Hitler. Braun met Hitler in Munich in 1929 (aged 17) when she was an assistant and model for his personal photographer, Heinrich Hoffmann. She began seeing Hitler often about two years later.",
     "image": "",
-    "photo": "model 0.99, portrait 0.99, in Category:Studio portrait photographs of people"
+    "photo": "model 0.99, one person 1.00, in Category:Studio portrait photographs of people"
   }
 }
