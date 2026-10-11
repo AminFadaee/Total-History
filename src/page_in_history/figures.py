@@ -24,6 +24,7 @@ EXCLUDED_OCCUPATIONS = {
     "AMERICAN FOOTBALL PLAYER", "YOUTUBER", "POKER PLAYER", "MAGICIAN", "GAMER", "BULLFIGHTER", "GO PLAYER",
 }
 ASSUMED_LIFESPAN = 70
+MAX_LIFE_YEARS = 120
 MIN_VOTES = 2
 MEMBERSHIP_SOURCES = ("office", "category", "citizenship", "vital_section")
 SINGLE_VOTE_SOURCES = ("office", "category", "vital_section")
@@ -44,6 +45,7 @@ LIVING_ON_MAP_BEFORE = 1900
 DEATH_DISCOUNT = 0.5
 HEAD_OFFICES = ("P1906", "P1313")
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
+NAME_GLOSS = re.compile(r"^(?:also|commonly|better|often) (?:known|named|called)\b", re.IGNORECASE)
 FILLER = {"the", "a", "an", "of", "from", "to", "and", "in", "ad", "bc", "bce", "ce"}
 LEADING_CENTURY = re.compile(r"^(?:c\.\s*)?\d+(?:st|nd|rd|th)[- ]century(?:[- ](?:BCE?|AD|CE))?[- ]+", re.IGNORECASE)
 DATES_IN_PARENTHESES = re.compile(r"\s*\([^()]*\d[^()]*\)")
@@ -89,9 +91,13 @@ def lifetime(birth: list[Year], death: list[Year]) -> tuple[int, int] | None:
 
 
 def life_label(birth: list[Year], death: list[Year]) -> str:
-    if not birth or not death:
-        return ""
-    return period_label(birth[0].as_span(), death[0].as_span())
+    """'550–330 BC', or 'died 1357' when the birth is unknown or would make a life longer than 120 years, as for
+    kings of Aksum whose birth Wikidata gives a thousand years early, or 'born 1205' when the death is unknown."""
+    if birth and death and death[0].latest - birth[0].earliest <= MAX_LIFE_YEARS:
+        return period_label(birth[0].as_span(), death[0].as_span())
+    if death:
+        return f"died {death[0].as_span().label()}"
+    return f"born {birth[0].as_span().label()}" if birth else ""
 
 
 def role(description: str | None) -> str:
@@ -130,13 +136,14 @@ def predicate(paragraph: str) -> str:
 
 
 def contribution(paragraph: str, role_text: str, description: str | None) -> str:
-    """What the person is known for: the opening sentence without its subject, or the next sentence when the opening
-    one only repeats the role ('Roman emperor from 69 to 79'), or Wikidata's description when the article has no
-    opening paragraph and the description says more than the role."""
-    text = predicate(paragraph)
-    if text and words(text) <= words(role_text):
-        sentences = SENTENCE_END.split(PARENTHESES.sub("", paragraph))
-        text = sentences[1].strip() if len(sentences) > 1 else text
+    """What the person is known for: the opening sentence without its subject, or the next sentence that says more
+    than the role, when the opening one only repeats it ('Roman emperor from 69 to 79') or only glosses the name
+    ('Also known as …'); else Wikidata's description if it says more than the role; else nothing."""
+    sentences = [sentence.strip() for sentence in SENTENCE_END.split(PARENTHESES.sub("", paragraph)) if sentence.strip()]
+    candidates = [predicate(paragraph)] + sentences[1:]
+    text = next((candidate for candidate in candidates
+                 if candidate and balanced(candidate) == candidate and not NAME_GLOSS.match(candidate)
+                 and words(candidate) - words(role_text)), "")
     if not text and description and words(description) - words(role_text):
         text = description[:1].upper() + description[1:].rstrip(".") + "."
     return text
@@ -468,6 +475,8 @@ class FigureBuilder:
         return [self.catalog.identities[name].qid for name in rows.Name if name in self.catalog.identities]
 
     def _assemble(self, figures: list) -> list[Figure]:
+        """Each figure under its article's title without the disambiguator ('Fuzuli', not 'Fuzuli (poet)'), kept only
+        when two figures would otherwise share a name (Francis Bacon and Francis Bacon (artist))."""
         introductions = self.wikipedia.introductions([candidate.title for candidate, *_ in figures])
         assembled = []
         for candidate, civilizations, related, votes in figures:
@@ -499,4 +508,8 @@ class FigureBuilder:
                 checks={"civilization_votes": votes, "lead": paragraph, "image": image_check,
                         "photo": photo.check if photo else photo_check},
             ))
+        names = Counter(figure.name for figure in assembled)
+        for figure in assembled:
+            if names[figure.name] > 1:
+                figure.name = figure.wikipedia
         return assembled
