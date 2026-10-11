@@ -9,7 +9,7 @@ from shapely.geometry import Point
 from page_in_history.dates import period_label
 from page_in_history.naming import slugify
 from page_in_history.photos import PortraitFinder
-from page_in_history.polities import PolityCatalog
+from page_in_history.polities import LIVING_ON_MAP_BEFORE, PolityCatalog
 from page_in_history.sources import notable, vital
 from page_in_history.sources.pantheon import Person
 from page_in_history.sources.wikidata import Entity, Year, qualifier_year
@@ -41,7 +41,6 @@ LEGENDARY = "Q13002315"
 HUMAN = "Q5"
 SUCCESSION_STEPS = 3
 MIN_JOINING_KM2 = 20_000
-LIVING_ON_MAP_BEFORE = 1900
 DEATH_DISCOUNT = 0.5
 HEAD_OFFICES = ("P1906", "P1313")
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
@@ -206,7 +205,7 @@ class FigureBuilder:
         """Civilizations outside the selection that their people make notable: two people placed there among the
         first 10 of their region and period, or one among the first 3, as Confucius is for Lu, or one on Meta-Wiki's
         list of 1,000 articles, as Laozi is for Chu. A civilization must
-        have begun before 1900 and reached 20,000 km², so modern republics, a co-prince of Andorra or a free city do
+        have begun before 1930 and reached 20,000 km², so modern republics, a co-prince of Andorra or a free city do
         not bring in their state."""
         strong: Counter = Counter()
         very_strong: Counter = Counter()

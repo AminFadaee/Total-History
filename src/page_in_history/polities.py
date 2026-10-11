@@ -34,7 +34,7 @@ SETTLEMENT = "Q486972"
 HERITAGE = "Q9259"
 SITE = "Q839954"
 LARGE_PEAK_KM2 = 2_000_000
-LIVING_ON_MAP_BEFORE = 1900
+LIVING_ON_MAP_BEFORE = 1930
 LIVING_PEAK_KM2 = 2_000_000
 STATE_KINDS = {"state", "historical country", "city-state", "empire", "kingdom"}
 MAPLESS_KINDS = {
@@ -386,7 +386,7 @@ class PolityBuilder:
     def _notable(self, identity: Identity, languages: int, level: int | None, kinds: set[str]) -> bool:
         """Listed as vital at level 4 or above, in at least 60 languages, at level 5 with 45 languages or a peak of
         1 million km², or at a peak of 2 million km² without being a colony. A sovereign state that still exists
-        qualifies only if it was on the maps before 1900 and reached 2 million km², as the United States did. Any
+        qualifies only if it was on the maps before 1930 and reached 2 million km², as the United States did. Any
         other polity without an end date must be filed as historical, since Cliopatria sometimes links an old polity
         to today's place, such as the island of Rhodes, and today's provinces and towns never qualify."""
         entity = self.catalog.entities[identity.qid]
