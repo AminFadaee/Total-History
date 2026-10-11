@@ -11,7 +11,7 @@ from page_in_history.naming import slugify
 from page_in_history.photos import PortraitFinder
 from page_in_history.lineages import dates
 from page_in_history.polities import LIVING_ON_MAP_BEFORE, PolityCatalog
-from page_in_history.sources import notable, vital
+from page_in_history.sources import naturalearth, notable, vital
 from page_in_history.sources.pantheon import Person
 from page_in_history.sources.wikidata import Entity, Year, qualifier_year
 from page_in_history.sources.wikipedia import display_name, lead_links
@@ -34,6 +34,8 @@ PER_CELL = 60
 STRONG_RANK, VERY_STRONG_RANK = 10, 3
 WINDOW_YEARS = 300
 MAX_PER_SEGMENT = 25
+MIN_LANGUAGES = 10
+SECOND_PASS_PEOPLE = 30
 MAX_COMPOSERS = 20
 COMPOSER = "COMPOSER"
 ADULT_AGE = 20
@@ -195,6 +197,7 @@ class FigureBuilder:
         self.http = http
         self.per_cell = PER_CELL
         self.head_offices: dict[str, set[str]] = {}
+        self.languages: dict[str, int] = {}
         for state in catalog.by_qid:
             for office in catalog.entities[state].ids(*HEAD_OFFICES, preferred_only=False):
                 self.head_offices.setdefault(office, set()).add(state)
@@ -212,6 +215,17 @@ class FigureBuilder:
         deck = polity_names | set(self.joined)
         figures = [entry for entry in placed if set(entry[1]) & deck]
         chosen = self.select([(candidate, civilizations) for candidate, civilizations, *_ in figures], deck)
+        homes = {next(name for name in civilizations if name in deck) for candidate, civilizations, *_ in figures
+                 if candidate.person.id in chosen}
+        empty = deck - homes
+        known = {candidate.person.id for candidate in candidates}
+        filling = [entry for entry in self._second_pass(empty, known, start, end)
+                   if next((name for name in entry[1] if name in deck), None) in empty]
+        chosen |= self.select([(candidate, civilizations) for candidate, civilizations, *_ in filling], deck, per_cell=0)
+        figures += filling
+        filled = {next(name for name in civilizations if name in deck) for candidate, civilizations, *_ in filling
+                  if candidate.person.id in chosen}
+        logger.info("A second pass found figures for %d of %d civilizations without one", len(filled), len(empty))
         self.extended = [{"id": candidate.person.id, "name": candidate.title,
                           "civilization": next(name for name in civilizations if name in deck)}
                          for candidate, civilizations, *_ in figures if candidate.person.id not in chosen]
@@ -219,6 +233,40 @@ class FigureBuilder:
         logger.info("%d people placed in the deck's civilizations, %d chosen, and %d on Meta-Wiki's list outside them",
                     len(figures), len(chosen), len(outside))
         return self._assemble([entry for entry in figures if entry[0].person.id in chosen] + outside, deck)
+
+    def _second_pass(self, empty: set[str], known: set[str], start: int, end: int) -> list[tuple]:
+        """For civilizations still without a figure: the 30 people the database scores highest in the regions the
+        civilization covered at its largest (and those it files under no region) whose adult life overlaps its years,
+        placed by the same rules. Only those whose first civilization in the deck turns out to be that one are used."""
+        countries = naturalearth.countries(self.http)
+        adults = notable.adults(self.frame, POST_WAR, ADULT_AGE)
+        qids = []
+        for name in sorted(empty):
+            qid = self.catalog.identities[name].qid
+            first, last = self.catalog.years(qid)
+            regions = self._regions(name, qid, countries) | {notable.UNKNOWN_REGION}
+            pool = adults[adults.region.isin(regions) & (adults.birth + ADULT_AGE <= last)
+                          & (adults.birth + ASSUMED_LIFESPAN >= first)]
+            qids += [person for person in pool.nlargest(SECOND_PASS_PEOPLE, "score").index if person not in known]
+        candidates = [candidate for candidate in self._people(list(dict.fromkeys(qids)), {}, set())
+                      if candidate.lifetime[1] >= start and candidate.lifetime[0] <= end]
+        self.prepare(candidates)
+        return [(candidate, *self.civilizations(candidate)) for candidate in candidates]
+
+    def _regions(self, name: str, qid: str, countries) -> set[str]:
+        """The database's regions for the countries under the civilization's largest extent, or under its location
+        when it is not drawn."""
+        rows = self.cliopatria.rows(name)
+        if not rows.empty:
+            shape = rows.loc[rows.Area.idxmax()].geometry
+        else:
+            entity = self.catalog.entities.get(qid)
+            location = entity and entity.coordinates()
+            if not location:
+                return set()
+            shape = Point(location)
+        found = countries[countries.intersects(shape)].subregion
+        return {notable.SUBREGIONS[region] for region in found if region in notable.SUBREGIONS}
 
     def people_backed(self, placed: list[tuple], polity_names: set[str]) -> list[str]:
         """Civilizations outside the selection that their people make notable: two people placed there among the
@@ -247,9 +295,12 @@ class FigureBuilder:
         is split into eras of at most 300 years, so its people compete with their own contemporaries. In each such
         segment people are ranked by the database's visibility score; chosen are those among the first 60 of their
         region and period, the segment's best person always, and anyone on Meta-Wiki's list of 1,000 articles, at most
-        25 a segment. Composers are capped at 20 across the deck."""
+        25 a segment. Composers are capped at 20 across the deck. Someone with a Wikipedia article in fewer than 10
+        languages is left out, unless on Meta-Wiki's list: such people are known only to specialists."""
         segments: dict[tuple[str, int], list[Candidate]] = {}
         for candidate, civilizations in placed:
+            if not candidate.core and self.languages.get(candidate.person.id, 0) < MIN_LANGUAGES:
+                continue
             home = next(name for name in civilizations if name in deck)
             segments.setdefault((home, self._window(home, candidate)), []).append(candidate)
         chosen: dict[str, tuple[Candidate, str]] = {}
@@ -277,6 +328,7 @@ class FigureBuilder:
     def prepare(self, candidates: list[Candidate]) -> None:
         """Fetches everything the votes need for these candidates, in batches."""
         titles = [candidate.title for candidate in candidates]
+        self.languages.update(self.wikidata.language_editions([candidate.person.id for candidate in candidates]))
         self.headings = self.wikipedia.resolve(list({heading for candidate in candidates for heading in candidate.section}))
         self.offices = self.wikidata.entities([qid for candidate in candidates
                                                for qid in candidate.person.ids("P39", preferred_only=False)])
@@ -352,11 +404,14 @@ class FigureBuilder:
         on the database alone. Left out: people whose adult life began after the Second World War, since the deck is
         about history; people who died before 20, who had no adult life to place; sport, business and entertainment; and figures Wikidata files as legendary and not as human,
         such as Moses (Jesus is filed as both)."""
-        frame = notable.load(self.http)
-        pool = notable.pool(frame, POST_WAR, ADULT_AGE, self.per_cell)
+        self.frame = notable.load(self.http)
+        pool = notable.pool(self.frame, POST_WAR, ADULT_AGE, self.per_cell)
         core = {entry.qid for entry in vital.essential_people(self.http) if entry.list == CORE_LIST}
-        qids = list(dict.fromkeys(list(pool.index) + sorted(core)))
-        sections = self._vital_sections()
+        self.sections = self._vital_sections()
+        ranks = {qid: int(rank) for qid, rank in pool.cell_rank.items()}
+        return self._people(list(dict.fromkeys(list(pool.index) + sorted(core))), ranks, core)
+
+    def _people(self, qids: list[str], ranks: dict[str, int], core: set[str]) -> list[Candidate]:
         people = self.wikidata.entities(qids)
         legendary = {qid for qid, kinds in self.wikidata.kinds(list(people), {LEGENDARY: "legendary"}).items()
                      if kinds and HUMAN not in people[qid].ids("P31", preferred_only=False)}
@@ -368,11 +423,10 @@ class FigureBuilder:
             seen.add(person.id)
             span = lifetime(person.years("P569"), person.years("P570"))
             if span and span[0] + ADULT_AGE < POST_WAR and span[1] >= span[0] + ADULT_AGE:
-                score = float(frame.score.get(qid, 0.0))
-                cell_rank = int(pool.cell_rank[qid]) if qid in pool.index else None
-                region = notable.region_name(frame.region.get(qid, notable.UNKNOWN_REGION))
-                candidates.append(Candidate(person.enwiki, person, span, sections.get(qid, []), score, cell_rank,
-                                            qid in core, region))
+                score = float(self.frame.score.get(qid, 0.0))
+                region = notable.region_name(self.frame.region.get(qid, notable.UNKNOWN_REGION))
+                candidates.append(Candidate(person.enwiki, person, span, self.sections.get(qid, []), score,
+                                            ranks.get(qid), qid in core, region))
         return candidates
 
     def _vital_sections(self) -> dict[str, list[str]]:

@@ -22,7 +22,8 @@ def countries(http: Http) -> gpd.GeoDataFrame:
     frame["listed"] = frame.ISO_A2_EH != NO_CODE
     frame["listed_as"] = [short.get(sovereign, name) if kind in DEPENDENT_TYPES and sovereign != admin else name
                           for name, admin, sovereign, kind in zip(frame.name, frame.ADMIN, frame.SOVEREIGNT, frame.TYPE)]
-    return frame[["name", "WIKIDATAID", "listed", "listed_as", "geometry"]].rename(columns={"WIKIDATAID": "qid"})
+    return frame[["name", "WIKIDATAID", "listed", "listed_as", "SUBREGION", "geometry"]].rename(
+        columns={"WIKIDATAID": "qid", "SUBREGION": "subregion"})
 
 
 def rivers(http: Http) -> gpd.GeoDataFrame:

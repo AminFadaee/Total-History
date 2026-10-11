@@ -11,6 +11,15 @@ PERIODS = [(500, "before 500"), (1500, "500–1500"), (1750, "1500–1750"), (19
 EXCLUDED_DOMAINS = {"Sports/Games", "Missing"}
 EXCLUDED_FIELDS = {"Sports/Games", "Corporate/Executive/Business (large)", "Worker/Business (small)"}
 UNKNOWN_REGION = "Unknown"
+SUBREGIONS = {  # Natural Earth's UN subregions under the database's names
+    "Northern Africa": "North Africa", "Western Africa": "West Africa", "Eastern Africa": "East Africa",
+    "Middle Africa": "Central Africa", "Southern Africa": "Southern Africa", "Western Asia": "Western Asia (Middle East Caucasus)",
+    "Central Asia": "Central Asia", "Southern Asia": "South Asia incl. Indian Peninsula", "South-Eastern Asia": "SouthEast Asia",
+    "Eastern Asia": "Eastern Asia", "Northern Europe": "Northern Europe", "Western Europe": "Western Europe",
+    "Southern Europe": "Southern Europe", "Eastern Europe": "Eastern Europe", "Northern America": "Northern America",
+    "Central America": "Central America", "Caribbean": "Caribbean", "South America": "South America",
+    "Australia and New Zealand": "Oceania Western World", "Melanesia": "Oceania not Aus Nze",
+    "Micronesia": "Oceania not Aus Nze", "Polynesia": "Oceania not Aus Nze"}
 REGION_NAMES = {"Oceania Western World": "Oceania", "Oceania not Aus Nze": "Oceania", "SouthEast Asia": "Southeast Asia",
                 "South Asia incl. Indian Peninsula": "South Asia", "Western Asia (Middle East Caucasus)": "Western Asia",
                 UNKNOWN_REGION: ""}
@@ -45,10 +54,15 @@ def pool(frame: pd.DataFrame, adult_before: int, adult_age: int, per_cell: int) 
     the same number of people, so the database's lean towards Europe and North America does not carry into the deck,
     and comparing people only with their own region and period keeps the many recent figures from crowding out the
     few ancient ones. Each keeps its rank in the cell."""
-    eligible = frame[(frame.birth + adult_age < adult_before) & ~frame.level1_main_occ.isin(EXCLUDED_DOMAINS)
-                     & ~frame.level2_main_occ.isin(EXCLUDED_FIELDS)].copy()
+    eligible = adults(frame, adult_before, adult_age).copy()
     eligible["cell_rank"] = eligible.groupby(["region", "period"]).score.rank(ascending=False, method="first")
     return eligible[eligible.cell_rank <= per_cell]
+
+
+def adults(frame: pd.DataFrame, adult_before: int, adult_age: int) -> pd.DataFrame:
+    """People who were adults before the year, outside sport and business."""
+    return frame[(frame.birth + adult_age < adult_before) & ~frame.level1_main_occ.isin(EXCLUDED_DOMAINS)
+                 & ~frame.level2_main_occ.isin(EXCLUDED_FIELDS)]
 
 
 def region_name(region: str) -> str:

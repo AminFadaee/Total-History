@@ -140,11 +140,17 @@ update.
    their contemporaries.
 7. **Figures.** Within each segment, people are ranked by the database's visibility score. Chosen are the candidates
    from step 3, the segment's best person even when they are not one, and anyone on Meta-Wiki's list, at most 25 a
-   segment. Composers are capped at 20 across the deck.
-8. **Meta-Wiki's list.** Everyone on Meta-Wiki's list who passed step 3 is in the deck, even when none of their
+   segment. Composers are capped at 20 across the deck. Someone whose Wikipedia article exists in fewer than 10
+   languages is left out unless they are on Meta-Wiki's list: such people are known mostly to specialists.
+8. **Civilizations still empty.** For each deck civilization with no figure after step 7, the database's 30
+   highest-scored people from the regions under its largest extent (and those it files under no region), whose adult
+   life overlaps the civilization's years, are placed by the same rules. Those whose first deck civilization is that
+   one are added, the best of each segment, with the same language floor (Charles the Bald for the West Franks, Tamar for
+   Georgia).
+9. **Meta-Wiki's list.** Everyone on Meta-Wiki's list who passed step 3 is in the deck, even when none of their
    civilizations is: their card names their own state (Mandela, South Africa), or, when no state can be found for
    them, their region and the century of their adult life (Aristotle, Southern Europe, 4th century BC).
-9. **The rest.** People placed in a deck civilization but not chosen are listed in `data/extended.json` and are not
+10. **The rest.** People placed in a deck civilization but not chosen are listed in `data/extended.json` and are not
    in the deck.
 
 Both people sources lean towards Europe and, for the last two centuries, North America. Taking the same number of
@@ -166,7 +172,7 @@ The deck still reflects who held power and was written about: about 7% of the fi
 | Modern countries | Cliopatria, Natural Earth | Countries with an ISO 3166 code (so not the Siachen Glacier or Northern Cyprus) covering at least 5% of the civilization's territory or with half their own territory inside it, under the shorter of Natural Earth's two names (Serbia, not Republic of Serbia); a dependency counts as its sovereign country (Hong Kong as China). Countries only in territory far from the capital (more than 800 km of sea or land away, as the map groups it) are listed after the others as overseas: the United Kingdom of 1956 is the United Kingdom, with Oman, Yemen, the UAE, Kuwait, Qatar, Cyprus, Bahrain and Malta overseas, since Cliopatria draws colonies and protectorates alike as the ruling state |
 | Map: borders, coastline, rivers | Natural Earth | Rivers of scale rank 4 and above everywhere, rank 5 where they cross the civilization |
 | Map: capitals | Wikidata coordinates of the confirmed capitals | |
-| Figures | Cross-verified database of notable people, Meta-Wiki's list of 1,000 articles, Pantheon | See procedure steps 3, 6 and 7 |
+| Figures | Cross-verified database of notable people, Meta-Wiki's list of 1,000 articles, Pantheon | See procedure steps 3, 6, 7 and 8 |
 | A figure's civilization | Wikidata offices held, Wikipedia "people of" categories, place of death (Wikidata) and birthplace (Pantheon) on the Cliopatria map, links in the article's opening paragraph, Wikidata citizenship, the Vital Articles section the person is filed under | At least two of the seven, counting only civilizations that existed during the person's adult life (from age 20): on the Cliopatria map, or after the map stops drawing a state until its Wikidata end date (the Holy Roman Empire, drawn only until 1621, counts until 1806), but never before the map begins. A civilization backed only by places and opening links, with no office, category, citizenship or Vital section for it, counts only when none of the person's other civilizations has more votes, so a death under a foreign occupation does not place someone there. Citizenship given as today's country counts for the Cliopatria state that held its capital during most of the person's adult life, when Wikidata ties that state to the country as an earlier form of it or by naming it as its country, so an occupier (Japan in Seoul) does not count; and as an umbrella civilization (Ancient Rome) for its parts that existed then. People on Meta-Wiki's list with no civilization confirmed can be placed by a single office, category, Vital section, citizenship or birthplace (Bach, Cervantes), but not by a place of death or an opening link alone. An office counts for the state it governs, or whose head-of-state or head-of-government office it is, during the term; holding that head office confirms the state on its own. A category counts when Wikidata describes it as holding citizens, subjects or office holders of the state, so "collaborators with" and similar categories do not. Civilizations whose own Wikidata dates meet the person's adult life come first (Tang before Sui for Xuanzang), then by support, a place of death counting half since exiles die abroad, then by adult years spent in each, then citizenship, then office, and cards show only those in the deck |
 | Name | Wikipedia | The article's title without its disambiguator (Fuzuli, not Fuzuli (poet)), kept when two figures would share a name (Francis Bacon, Francis Bacon (artist)) |
 | Life | Wikidata | Birth and death years, as a range or centuries; "died …" when the birth is unknown or would make a life longer than 120 years, "born …" when the death is unknown |
