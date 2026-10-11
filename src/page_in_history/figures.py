@@ -76,7 +76,7 @@ class Figure:
     setting: str = ""
     image: str = ""
     image_credit: str = ""
-    image_is_photo: bool = False
+    image_kind: str = ""
     photo: str = ""
     photo_credit: str = ""
     checks: dict = field(default_factory=dict)
@@ -526,7 +526,7 @@ class FigureBuilder:
             extract, short_description = introductions.get(title, ("", None))
             paragraph = first_paragraph(extract)
             role_text = role(short_description or person.description)
-            image, credit, image_check = self.portraits.illustration(person)
+            image, credit, image_kind, image_check = self.portraits.illustration(person)
             photo, photo_check = self.portraits.photograph(person)
             known = self.pantheon.get(person.id)
             assembled.append(Figure(
@@ -545,7 +545,7 @@ class FigureBuilder:
                 setting="" if set(civilizations) & deck else setting(civilizations, candidate.region, candidate.adulthood),
                 image=image,
                 image_credit=credit,
-                image_is_photo=bool(photo) and photo.file == image,
+                image_kind=image_kind or "",
                 photo=photo.file if photo else "",
                 photo_credit=photo.credit if photo else "",
                 checks={"civilization_votes": votes, "lead": paragraph, "image": image_check,

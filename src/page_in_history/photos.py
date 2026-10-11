@@ -1,6 +1,5 @@
 import hashlib
 import logging
-import json
 import re
 from dataclasses import dataclass
 from enum import StrEnum
@@ -25,9 +24,16 @@ SCORE_WIDTH = 480
 ALONE = 0.9
 WITH_EVIDENCE = 0.7
 PORTRAIT = 0.5
+CLEAR_PORTRAIT = 0.9
 IMAGE_FILE = re.compile(r"\.(jpe?g|png|tiff?)$", re.IGNORECASE)
 NOT_A_PORTRAIT = re.compile(r"\bcoins?\b|coinage|\bdinars?\b|\baure(?:us|i)\b|siliqua|calligraph|\bstamps?\b|postage|"
-                            r"\bplates\b|burial suits?|\btomb of\b", re.IGNORECASE)
+                            r"\bplates\b|burial suits?|\btomb of\b|\bstatues?\b|\bbusts?\b(?! length)|sculptures?\b|\breliefs?\b|"
+                            r"\beffig(?:y|ies)\b", re.IGNORECASE)
+FROM_LIFE_YEARS = 5
+MODERN_ERA = 1900
+PHOTOGRAPHED_AFTER = 1950
+EARLY_YEARS = 50
+ASSUMED_LIFESPAN = 70
 WORN = re.compile(r"\bcrowns\b|\bflags?\b", re.IGNORECASE)
 PORTRAYED = re.compile(r"portrait|\bin art\b", re.IGNORECASE)
 PHOTOGRAPHIC = re.compile(r"photograph|daguerreotype|albumen|gelatin silver|cartes? de visite|cabinet card|ambrotype|"
@@ -35,7 +41,7 @@ PHOTOGRAPHIC = re.compile(r"photograph|daguerreotype|albumen|gelatin silver|cart
 NOT_PHOTOGRAPHIC = re.compile(r"painting|drawing|lithograph|engraving|etching|woodcut|illustration|sculpture|statue|"
                               r"\bbusts?\b|caricature|miniature|fresco|mosaic|\bcoins?\b|\bstamps?\b|calligraph",
                               re.IGNORECASE)
-PORTRAIT_CATEGORY = re.compile(r"portraits? of|paintings of|statues of", re.IGNORECASE)
+PORTRAIT_CATEGORY = re.compile(r"portraits? of|paintings of|photographs of|depictions of|drawings of|engravings of", re.IGNORECASE)
 MACHINE_DATE = re.compile(r"QS:P\d*,\+(\d{3,4})-")
 HUMAN_YEAR = re.compile(r"(?<!\d)(\d{3,4})(?!\d)")
 
@@ -56,6 +62,15 @@ def url_batches(titles: list[str]) -> list[list[str]]:
             size += length
         batches.append(batch)
     return batches
+
+class PictureKind(StrEnum):
+    PHOTOGRAPH = "Photograph"
+    FROM_LIFE = "Portrait from life"
+    LATER = "Later depiction"
+    UNDATED = "Depiction"
+
+
+
 
 class PhotoMode(StrEnum):
     MODEL = "model"
@@ -94,8 +109,9 @@ class Photo:
 
 class PhotoClassifier:
     """A zero-shot image model (OpenAI's CLIP ViT-L/14, 8-bit, run with onnxruntime on the CPU) that scores how much a
-    picture looks like a photograph of one person rather than a painting, drawing or print, a photograph of a statue
-    or painting, a group, or a picture of something else such as a building or a document."""
+    picture shows one person rather than a statue, bust, relief, coin, medal, group, scene, building or text, and how
+    much it looks like a photograph rather than a painting, drawing or print. Each picture's embedding is cached, so
+    the descriptions can change without running the model again."""
 
     REPOSITORY = "https://huggingface.co/Xenova/clip-vit-large-patch14/resolve/main/{}"
     FILES = {"vision": "onnx/vision_model_quantized.onnx", "text": "onnx/text_model.onnx",
@@ -105,8 +121,20 @@ class PhotoClassifier:
     OTHER_PROMPTS = ["a painting of a person", "an oil painting portrait", "an engraving of a person",
                      "a lithograph illustration of a person", "a drawing of a person",
                      "a photograph of a statue of a person", "a photograph of a marble bust", "a coin with a portrait"]
-    PORTRAIT_PROMPTS = ["a portrait of one person"]
-    SUBJECT_PROMPTS = ["a group of several people", "a building", "a document or manuscript"]
+    ONE_PERSON_PROMPTS = [
+        "a portrait photograph of one person", "a black and white photograph of one man", "a painted portrait of one person",
+        "an oil painting of a king", "an engraving of one man", "a pencil drawing of one person", "a lithograph portrait",
+        "a medieval illustration of a single figure", "a miniature painting of one person", "a portrait of a woman",
+        "a woodcut of one man", "an icon of a saint", "a drawing of a seated ruler"]
+    OTHER_SUBJECT_PROMPTS = [
+        "a marble statue", "a marble bust", "a bronze statue on a pedestal", "a stone head of a statue", "a stone relief",
+        "a carved relief on a wall", "a coin", "a medal", "arabic calligraphy", "a page of text", "a building",
+        "a window", "a landscape", "a map", "a group of people", "a crowd of people", "a battle scene",
+        "a painting of many people", "a skeleton", "a tomb", "a monument", "a ruler surrounded by courtiers",
+        "a court scene with many figures", "a rider on horseback", "an equestrian painting", "two people",
+        "a group photograph of several men", "a silver vase", "an engraved metal plate", "a decorated object",
+        "a signature", "handwriting", "a wax seal", "a coat of arms", "a book cover", "the title page of a book",
+        "an animal", "a bird", "two men side by side", "two people talking", "a theatre scene"]
     SIZE = 224
     MEAN = np.array([0.48145466, 0.4578275, 0.40821073], dtype=np.float32)
     STD = np.array([0.26862954, 0.26130258, 0.27577711], dtype=np.float32)
@@ -132,25 +160,29 @@ class PhotoClassifier:
             ids = np.array([encoding.ids for encoding in tokenizer.encode_batch(prompts)], dtype=np.int64)
             return normalised(output(text, text.run(None, {"input_ids": ids}), "text_embeds"))
         self.medium = encode(self.PHOTO_PROMPTS + self.OTHER_PROMPTS)
-        self.subject = encode(self.PORTRAIT_PROMPTS + self.SUBJECT_PROMPTS)
-        self.scores_path = http.cache_dir / "photo-scores.json"
-        self.scores = json.loads(self.scores_path.read_text()) if self.scores_path.exists() else {}
+        self.subject = encode(self.ONE_PERSON_PROMPTS + self.OTHER_SUBJECT_PROMPTS)
+        self.embeddings = http.cache_dir / "photo-embeddings"
 
     def score(self, file: str) -> tuple[float, float]:
-        """How much the picture looks like a photograph rather than art, and like a portrait of one person rather than
-        a group, a building, a document or an object: each the share of the matching descriptions, cached per file."""
-        if file not in self.scores:
+        """How much the picture looks like a photograph rather than art, and like one person rather than a statue, an
+        object, a group, a scene, a building or text: each the share of the matching descriptions. An unreadable
+        picture scores 0 on both."""
+        image = self.embedding(file)
+        if image is None:
+            return 0.0, 0.0
+        return share(image, self.medium, len(self.PHOTO_PROMPTS)), share(image, self.subject, len(self.ONE_PERSON_PROMPTS))
+
+    def embedding(self, file: str) -> np.ndarray | None:
+        """The picture's normalised embedding, computed once and cached per file."""
+        path = self.embeddings / digest(file)[:2] / f"{digest(file)}.npy"
+        if not path.exists():
             picture = self._picture(file)
-            if picture is None:
-                self.scores[file] = [0.0, 0.0]
-            else:
-                pixels = self._pixels(picture)[None]
-                image = normalised(output(self.vision, self.vision.run(None, {"pixel_values": pixels}), "image_embeds"))
-                self.scores[file] = [share(image, self.medium, len(self.PHOTO_PROMPTS)),
-                                     share(image, self.subject, len(self.PORTRAIT_PROMPTS))]
-            self.scores_path.write_text(json.dumps(self.scores))
-        photo, portrait = self.scores[file]
-        return photo, portrait
+            vector = np.zeros((1, 0), dtype=np.float32) if picture is None else normalised(
+                output(self.vision, self.vision.run(None, {"pixel_values": self._pixels(picture)[None]}), "image_embeds"))
+            path.parent.mkdir(parents=True, exist_ok=True)
+            np.save(path, vector.astype(np.float32))
+        vector = np.load(path)
+        return vector if vector.size else None
 
     def _picture(self, file: str) -> Image.Image | None:
         """The file at scoring size, downloaded again once if the cached copy is unreadable, as a truncated transfer
@@ -183,24 +215,94 @@ class PortraitFinder:
         self.http = http
         self.classifier = classifier
 
-    def illustration(self, person: Entity) -> tuple[str, str, str]:
-        """A picture of the person for the Who card, which may be a painting: their main Wikidata image, or when
-        Commons files that as an object (a coin, stamp, plate, burial suit, tomb, or a crown or flag outside a portrait) or calligraphy (such images can show someone else, like a ruler's successor
-        on the reverse), the first other candidate that shows them: a portrait of one person to the model, or without
-        it, a file in a portrait, painting or statue category named after them. Returns the file name, its credit and
-        why there is none when there is not."""
-        main = [claim["mainsnak"]["datavalue"]["value"].replace("_", " ") for claim in person.statements("P18")][:1]
-        for file in self._candidates(person)[:MAX_CANDIDATES]:
-            if file.name in main or self._shows_one_person(file, person):
-                return file.name, file.credit, "" if file.name in main else "main image is an object (coin, stamp, plate, crown, flag, tomb), calligraphy or missing"
-        return "", "", "no candidate shows a portrait of the person"
+    def illustration(self, person: Entity) -> tuple[str, str, PictureKind | None, str]:
+        """A picture of the person for the Who card, labelled a photograph, a portrait made in their lifetime, or a
+        later depiction, which is shown as context only. Candidates are the person's main Wikidata image and the files
+        in their own Commons category, except those Commons files as objects (coins, stamps, plates, statues, busts,
+        reliefs, effigies, tombs; a crown or flag outside a portrait) or calligraphy. The main image is kept when the
+        image model sees one person in it, not a statue, object, group, scene, signature, building or text, unless it
+        is a later depiction and another file is a portrait from the person's lifetime that the model sees clearly.
+        Any other file must be filed on Commons as a portrait, painting, drawing, engraving or photograph of the person
+        by name, or be a photograph named after them in full, since their category also holds their works, their
+        relatives and scenes they appear in, and the model must see one person in it clearly. Otherwise those files are
+        tried best first by what Commons says before anything is downloaded: likely
+        photographs, then pictures made in the person's lifetime, then within 50 years of their death, then the rest,
+        the most used first, stopping once nothing later could do better. Without the model, the main image or a
+        portrait category named after the person stands in. Returns the file name, its credit, its kind, and why there
+        is none when there is not."""
+        born, died = life_span(person)
+        main_titles = {"File:" + claim["mainsnak"]["datavalue"]["value"].replace("_", " ") for claim in person.statements("P18")}
+        files = self._candidates(person)[:MAX_CANDIDATES]
+        if not files:
+            return "", "", None, "no candidate image"
+        expected = {file.title: self._expected(file, person, born, died, file.title in main_titles) for file in files}
+        main = next((file for file in files if file.title in main_titles), None)
+        if main and self._shows_one_person(main, person, PORTRAIT):
+            rank = self._rank(main, person, born, died, True)
+            if rank >= 2:
+                from_life = next((file for file in files if file is not main and expected[file.title] == 1
+                                  and self._about(file, person) and self._shows_one_person(file, person, CLEAR_PORTRAIT)), None)
+                if from_life:
+                    return from_life.name, from_life.credit, PictureKind.FROM_LIFE, ""
+            return main.name, main.credit, kind(main, rank, made_year(main, died) is not None), ""
+        others = sorted((file for file in files if file is not main and self._about(file, person)),
+                        key=lambda file: (expected[file.title], -file.usage))
+        best = None
+        for position, file in enumerate(others):
+            if self._shows_one_person(file, person, CLEAR_PORTRAIT):
+                rank = self._rank(file, person, born, died, False)
+                if best is None or rank < best[0]:
+                    best = (rank, file)
+            remaining = [expected[later.title] for later in others[position + 1:]]
+            if best is not None and (not remaining or best[0] <= min(remaining)):
+                break
+        if best is None:
+            return "", "", None, "no candidate shows one person"
+        return best[1].name, best[1].credit, kind(best[1], best[0], made_year(best[1], died) is not None), ""
 
-    def _shows_one_person(self, file: CommonsFile, person: Entity) -> bool:
-        """A portrait of one person to the model; without it, a portrait, painting or statue category of the person."""
+    def _shows_one_person(self, file: CommonsFile, person: Entity, bar: float) -> bool:
+        """One person to the image model; without the model, the main image or a portrait or painting category named
+        after the person."""
         if self.classifier:
-            return self.classifier.score(file.name)[1] >= PORTRAIT
-        name = (person.label or "").casefold()
-        return any(PORTRAIT_CATEGORY.search(category) and name in category.casefold() for category in file.categories)
+            return self.classifier.score(file.name)[1] >= bar
+        return about_by_category(file, person) or "File:" + file.name in {
+            "File:" + claim["mainsnak"]["datavalue"]["value"].replace("_", " ") for claim in person.statements("P18")}
+
+    def _about(self, file: CommonsFile, person: Entity) -> bool:
+        """About the person by a category, or by a full-name file name when the model sees a photograph, since works of
+        art carry their artist's name."""
+        if about_by_category(file, person):
+            return True
+        return named_after(file, person) and self.classifier is not None and self.classifier.score(file.name)[0] >= WITH_EVIDENCE
+
+    def _rank(self, file: CommonsFile, person: Entity, born: int, died: int, main: bool) -> int:
+        """What the file is: with the model, as _actual; without it, what Commons says (_expected)."""
+        if not self.classifier:
+            return self._expected(file, person, born, died, main)
+        return self._actual(file, person, born, died, main, self.classifier.score(file.name)[0])
+
+    def _expected(self, file: CommonsFile, person: Entity, born: int, died: int, main: bool) -> int:
+        """The best a file can be, from Commons alone: 0 a photograph, 1 made in the person's lifetime, 2 within 50
+        years of their death, 3 anything else."""
+        made = made_year(file, died)
+        if died >= PHOTO_ERA and (self._photographic_category(file, person, main)
+                                  or (made is not None and max(born, PHOTOGRAPHY_INVENTED) <= made <= died)):
+            return 0
+        if made is not None and born <= made <= died + FROM_LIFE_YEARS:
+            return 1
+        if made is not None and born <= made <= died + EARLY_YEARS:
+            return 2
+        return 3
+
+    def _actual(self, file: CommonsFile, person: Entity, born: int, died: int, main: bool, photo: float) -> int:
+        """What the file is once the model has seen it: a photograph only when the model is sure on its own, or fairly
+        sure and Commons agrees, as for the Photo card; otherwise its date decides."""
+        made = made_year(file, died)
+        evidence = self._photographic_category(file, person, main) or (
+            made is not None and max(born, PHOTOGRAPHY_INVENTED) <= made <= died)
+        if died >= PHOTO_ERA and (photo >= ALONE or (photo >= WITH_EVIDENCE and evidence)):
+            return 0
+        return max(1, self._expected(file, person, born, died, main))
 
     def photograph(self, person: Entity) -> tuple[Photo | None, str]:
         """A photograph of the person for the Photo card. Candidates are the person's Wikidata images and the files
@@ -217,10 +319,10 @@ class PortraitFinder:
             strong = self._photographic_category(file, person, file.title in main)
             weak = self._supporting(file, lifetime)
             if self.classifier:
-                score, portrait = self.classifier.score(file.name)
+                score, one_person = self.classifier.score(file.name)
                 evidence = strong or weak
-                found = f"model {score:.2f}, portrait {portrait:.2f}" + (f", {evidence}" if evidence else "")
-                if portrait >= PORTRAIT and (score >= ALONE or (score >= WITH_EVIDENCE and evidence)):
+                found = f"model {score:.2f}, one person {one_person:.2f}" + (f", {evidence}" if evidence else "")
+                if one_person >= PORTRAIT and (score >= ALONE or (score >= WITH_EVIDENCE and evidence)):
                     return Photo(file.name, file.credit, found), ""
                 checked.append(f"{file.name}: {found}")
             elif strong:
@@ -339,3 +441,49 @@ def capture_year(captured: str) -> int | None:
 
 def plain(html: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html)).strip()
+
+
+def life_span(person: Entity) -> tuple[int, int]:
+    """The person's first and last possible year, assuming a 70-year life where one end is unknown."""
+    births, deaths = person.years("P569"), person.years("P570")
+    born = min((year.earliest for year in births), default=None)
+    died = max((year.latest for year in deaths), default=None)
+    if born is None and died is None:
+        return 0, 0
+    return (born if born is not None else died - ASSUMED_LIFESPAN), (died if died is not None else born + ASSUMED_LIFESPAN)
+
+
+def kind(file: CommonsFile, rank: int, file_dated: bool) -> PictureKind:
+    """A photograph, a portrait from life, or a later depiction when its date says so; undated art is a depiction."""
+    if rank == 0:
+        return PictureKind.PHOTOGRAPH
+    if rank == 1:
+        return PictureKind.FROM_LIFE
+    return PictureKind.LATER if file_dated else PictureKind.UNDATED
+
+
+def names(person: Entity) -> set[str]:
+    categories = [claim["mainsnak"]["datavalue"]["value"] for claim in person.statements("P373")]
+    return {name.casefold() for name in [person.label or "", *categories] if name}
+
+
+def about_by_category(file: CommonsFile, person: Entity) -> bool:
+    """Filed on Commons as a portrait, painting, drawing, engraving or photograph of the person, by their name or their
+    own Commons category's name."""
+    return any(PORTRAIT_CATEGORY.search(category) and any(name in category.casefold() for name in names(person))
+               for category in file.categories)
+
+
+def named_after(file: CommonsFile, person: Entity) -> bool:
+    """The file name holds the person's full name ('Victor Hugo by Étienne Carjat')."""
+    title = file.name.replace("_", " ").casefold()
+    return any(name in title for name in names(person))
+
+
+def made_year(file: CommonsFile, died: int) -> int | None:
+    """When the picture was made, by its Commons date; for someone who died before 1900, a date from 1950 on is when
+    the artwork was photographed, not made, so it is unknown."""
+    year = capture_year(file.captured)
+    if year is not None and died < MODERN_ERA and year >= PHOTOGRAPHED_AFTER:
+        return None
+    return year

@@ -374,7 +374,7 @@ class DeckBuilder:
             "Contribution": escaped(document["contribution"]),
             "Image": self.media.image(document["image"]),
             "ImageCredit": escaped(document["image_credit"]),
-            "ImageKind": "Photograph" if document["image_is_photo"] else "Depiction",
+            "ImageKind": document.get("image_kind") or "Depiction",
             "Photo": self.media.image(document["photo"]),
             "PhotoCredit": escaped(document["photo_credit"]),
             "Related": joined([name for name in document["related"] if name in maps]),
