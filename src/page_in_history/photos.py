@@ -27,7 +27,9 @@ WITH_EVIDENCE = 0.7
 PORTRAIT = 0.5
 IMAGE_FILE = re.compile(r"\.(jpe?g|png|tiff?)$", re.IGNORECASE)
 NOT_A_PORTRAIT = re.compile(r"\bcoins?\b|coinage|\bdinars?\b|\baure(?:us|i)\b|siliqua|calligraph|\bstamps?\b|postage|"
-                            r"\bplates\b|burial suits?|\bcrowns\b|\btomb of\b|\bflags?\b", re.IGNORECASE)
+                            r"\bplates\b|burial suits?|\btomb of\b", re.IGNORECASE)
+WORN = re.compile(r"\bcrowns\b|\bflags?\b", re.IGNORECASE)
+PORTRAYED = re.compile(r"portrait|\bin art\b", re.IGNORECASE)
 PHOTOGRAPHIC = re.compile(r"photograph|daguerreotype|albumen|gelatin silver|cartes? de visite|cabinet card|ambrotype|"
                           r"tintype|collodion", re.IGNORECASE)
 NOT_PHOTOGRAPHIC = re.compile(r"painting|drawing|lithograph|engraving|etching|woodcut|illustration|sculpture|statue|"
@@ -75,7 +77,12 @@ class CommonsFile:
 
     @property
     def portrait(self) -> bool:
-        return not any(NOT_A_PORTRAIT.search(category) for category in self.categories)
+        """Not filed as an object: a coin, stamp, plate, burial suit or tomb, or a crown or flag on its own. A crown
+        or flag in a picture filed as a portrait or as art, like a monarch painted wearing one, is still a portrait."""
+        if any(NOT_A_PORTRAIT.search(category) for category in self.categories):
+            return False
+        return not any(WORN.search(category) for category in self.categories) or \
+            any(PORTRAYED.search(category) for category in self.categories)
 
 
 @dataclass(frozen=True)
@@ -177,7 +184,7 @@ class PortraitFinder:
 
     def illustration(self, person: Entity) -> tuple[str, str, str]:
         """A picture of the person for the Who card, which may be a painting: their main Wikidata image, or when
-        Commons files that under coins, stamps, plates, crowns, flags, tombs or calligraphy (such images can show someone else, like a ruler's successor
+        Commons files that as an object (a coin, stamp, plate, burial suit, tomb, or a crown or flag outside a portrait) or calligraphy (such images can show someone else, like a ruler's successor
         on the reverse), the first other candidate that shows them: a portrait of one person to the model, or without
         it, a file in a portrait, painting or statue category named after them. Returns the file name, its credit and
         why there is none when there is not."""
