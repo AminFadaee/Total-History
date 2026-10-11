@@ -67,7 +67,7 @@ class Wikipedia:
             query = self.http.json(API, params, namespace="wikipedia")["query"]
             normalized = {item["from"]: item["to"] for item in query.get("normalized", [])}
             redirects = {item["from"]: item["to"] for item in query.get("redirects", [])}
-            pages = {page["title"]: page for page in query["pages"]}
+            pages = {page["title"]: page for page in query.get("pages", [])}
             for title in batch:
                 target = normalized.get(title, title)
                 target = redirects.get(target, target)
