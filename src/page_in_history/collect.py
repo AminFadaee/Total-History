@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 import pathlib
 import shutil
 from dataclasses import asdict, dataclass
@@ -10,7 +11,7 @@ from PIL import Image
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
 from page_in_history.lineages import Lineages
-from page_in_history.maps import MapRenderer
+from page_in_history.maps import MapJob, render_all
 from page_in_history.photos import COMMONS_FILE, PhotoClassifier, PhotoMode, PortraitFinder, digest
 from page_in_history.polities import Polity, PolityBuilder, PolityCatalog
 from page_in_history.sources import fonts, naturalearth, pantheon
@@ -20,6 +21,7 @@ from page_in_history.sources.wikipedia import Wikipedia
 
 IMAGE_WIDTH = 480
 IMAGE_QUALITY = 85
+MAP_WORKERS = max(1, (os.cpu_count() or 2) // 2)
 
 logger = logging.getLogger(__name__)
 
@@ -87,16 +89,8 @@ class Collector:
         polities += builder.build([catalog.identities[name] for name in figure_builder.joined])
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))
-        font = fonts.inter(self.http)
-        renderer = MapRenderer(cliopatria, countries, naturalearth.rivers(self.http), font)
         self.failures: list[str] = []
-        for polity in (polity for polity in polities if polity.borders):
-            try:
-                self._draw(polity, renderer)
-            except Exception:
-                logger.exception("Could not draw %s", polity.name)
-                self.failures.append(f"drawing {polity.name}")
-                polity.map = ""
+        self._draw([polity for polity in polities if polity.borders], cliopatria, countries)
         for figure in figures:
             try:
                 figure.image = self._image(figure.image, figure.slug)
@@ -109,11 +103,20 @@ class Collector:
         write_json(self.paths.root / "extended.json", figure_builder.extended)
         self._report(scope, catalog, cliopatria, lineages, polities, figures)
 
-    def _draw(self, polity: Polity, renderer: MapRenderer) -> None:
-        polity.map = f"maps/{polity.slug}.png"
-        capitals = [capital["location"] for capital in polity.capitals if capital["location"]]
-        polity.checks["labelled"] = renderer.render(polity.name, polity.map_year, capitals, self.paths.root / polity.map,
-                                                    polity.parts)
+    def _draw(self, polities: list[Polity], cliopatria: Cliopatria, countries) -> None:
+        jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
+                       [capital["location"] for capital in polity.capitals if capital["location"]],
+                       self.paths.root / "maps" / f"{polity.slug}.png", polity.parts)
+                for polity in polities]
+        results = render_all(jobs, countries, naturalearth.rivers(self.http), fonts.inter(self.http), MAP_WORKERS)
+        for polity, result in zip(polities, results):
+            if isinstance(result, Exception):
+                logger.error("Could not draw %s", polity.name, exc_info=result)
+                self.failures.append(f"drawing {polity.name}")
+                polity.map = ""
+            else:
+                polity.map = f"maps/{polity.slug}.png"
+                polity.checks["labelled"] = result
 
     def _image(self, file: str, name: str) -> str:
         if not file:

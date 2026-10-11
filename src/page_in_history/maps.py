@@ -2,8 +2,10 @@ import hashlib
 import io
 import itertools
 import math
+import multiprocessing
 import pathlib
 import textwrap
+from concurrent.futures import ProcessPoolExecutor
 from dataclasses import dataclass
 from enum import StrEnum
 
@@ -24,7 +26,7 @@ from shapely.geometry import Point, box
 from shapely.ops import polylabel
 
 from page_in_history.naming import year_label
-from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
+from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA
 
 FIGURE_SIZE = (10, 5.625)
 DPI = 160
@@ -201,8 +203,8 @@ class Scene:
     spanning a third of the globe is drawn on the Equal Earth world projection, anything smaller on a projection
     centred on it."""
 
-    def __init__(self, renderer: "MapRenderer", name: str, year: int, region, territory, parts: list[str]):
-        polities = renderer.cliopatria.at(year)
+    def __init__(self, renderer: "MapRenderer", name: str, polities: gpd.GeoDataFrame, region, territory,
+                 parts: list[str]):
         polities = polities.assign(Name=polities.Name.where(~polities.Name.isin(parts), name))
         center = region.representative_point()
         west, south, east, north = region.bounds
@@ -233,10 +235,20 @@ class Scene:
         return frame.set_geometry(frame.geometry.make_valid())
 
 
+@dataclass(frozen=True)
+class MapJob:
+    """One map to draw, with the Cliopatria polities of its year, which is all of Cliopatria a map needs."""
+
+    name: str
+    year: int
+    polities: gpd.GeoDataFrame
+    capitals: list[tuple[float, float]]
+    output: pathlib.Path
+    parts: list[str]
+
+
 class MapRenderer:
-    def __init__(self, cliopatria: Cliopatria, countries: gpd.GeoDataFrame, rivers: gpd.GeoDataFrame,
-                 font: pathlib.Path):
-        self.cliopatria = cliopatria
+    def __init__(self, countries: gpd.GeoDataFrame, rivers: gpd.GeoDataFrame, font: pathlib.Path):
         self.countries = countries
         self.rivers = rivers
         self.land = gpd.GeoDataFrame(geometry=[countries.geometry.union_all()], crs=countries.crs)
@@ -244,21 +256,21 @@ class MapRenderer:
         font_manager.fontManager.addfont(str(font))
         self.font = font_manager.FontProperties(fname=font).get_name()
 
-    def render(self, name: str, year: int, capitals: list[tuple[float, float]], output: pathlib.Path,
-               parts: list[str] = ()) -> list[str]:
+    def render(self, job: MapJob) -> list[str]:
         """Draws the civilization at its year, with the parts Wikidata lists for it, around its home region and with up
         to three other large regions as panels beside it; capitals are starred only where it holds them that year.
         Returns the polities that got a label on the main map."""
-        territory = self.cliopatria.at(year)
-        territory = territory[territory.Name.isin([name, *parts])].geometry.union_all()
-        capitals = [capital for capital in capitals if territory.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital))]
+        name, year, polities, parts = job.name, job.year, job.polities, job.parts
+        territory = polities[polities.Name.isin([name, *parts])].geometry.union_all()
+        capitals = [capital for capital in job.capitals if territory.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital))]
         found = regions(territory)
         main = home(found, capitals)
         panels = [region for region in found if region is not main and region.share >= MIN_PANEL_SHARE][:MAX_PANELS]
-        image, labelled = self._draw(Scene(self, name, year, main.geometry, territory, parts), year, capitals, panel=False)
-        images = [self._draw(Scene(self, name, year, region.geometry, territory, parts), year, capitals, panel=True)[0]
+        image, labelled = self._draw(Scene(self, name, polities, main.geometry, territory, parts), year, capitals,
+                                     panel=False)
+        images = [self._draw(Scene(self, name, polities, region.geometry, territory, parts), year, capitals, panel=True)[0]
                   for region in panels]
-        save(beside(image, images), output)
+        save(beside(image, images), job.output)
         return labelled
 
     def _draw(self, scene: "Scene", year: int, capitals: list[tuple[float, float]], panel: bool) -> tuple[Image.Image, list[str]]:
@@ -479,3 +491,32 @@ def beside(main: Image.Image, panels: list[Image.Image]) -> Image.Image:
 def save(image: Image.Image, output: pathlib.Path) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     image.quantize(PALETTE_COLORS).save(output, optimize=True)
+
+
+worker: MapRenderer | None = None
+
+
+def start_worker(countries: gpd.GeoDataFrame, rivers: gpd.GeoDataFrame, font: pathlib.Path) -> None:
+    global worker
+    worker = MapRenderer(countries, rivers, font)
+
+
+def draw(job: MapJob) -> list[str]:
+    return worker.render(job)
+
+
+def render_all(jobs: list[MapJob], countries: gpd.GeoDataFrame, rivers: gpd.GeoDataFrame, font: pathlib.Path,
+               workers: int) -> list[list[str] | Exception]:
+    """Draws the maps side by side in separate processes; each map's result is the polities labelled on it, or the
+    error that stopped it."""
+    context = multiprocessing.get_context("spawn")
+    with ProcessPoolExecutor(workers, mp_context=context, initializer=start_worker,
+                             initargs=(countries, rivers, font)) as pool:
+        futures = [pool.submit(draw, job) for job in jobs]
+        results: list[list[str] | Exception] = []
+        for future in futures:
+            try:
+                results.append(future.result())
+            except Exception as error:
+                results.append(error)
+        return results
