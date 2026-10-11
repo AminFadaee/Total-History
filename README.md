@@ -157,7 +157,7 @@ Both people sources lean towards Europe and, for the last two centuries, North A
 candidates from every region and period, and comparing people only with their own contemporaries, offsets most of it.
 The database's own region and birth year are used only to form the cells; segments and the 1945 cut use Wikidata's
 dates, since the database gets a few wrong (it gives Shaka a birth year of 1971).
-The deck still reflects who held power and was written about: about 7% of the figures are women.
+The deck still reflects who held power and was written about: about 8% of the figures are women.
 
 ### Details per field
 
