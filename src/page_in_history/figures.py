@@ -9,6 +9,7 @@ from shapely.geometry import Point
 from page_in_history.dates import period_label
 from page_in_history.naming import slugify
 from page_in_history.photos import PortraitFinder
+from page_in_history.lineages import dates
 from page_in_history.polities import LIVING_ON_MAP_BEFORE, PolityCatalog
 from page_in_history.sources import notable, vital
 from page_in_history.sources.pantheon import Person
@@ -373,6 +374,15 @@ class FigureBuilder:
         rows = self.cliopatria.rows(self.catalog.by_qid[qid].name)
         return bool(((rows.ToYear >= years[0]) & (rows.FromYear <= years[1])).any())
 
+    def _in_own_dates(self, qid: str, years: tuple[int, int]) -> bool:
+        """Whether the state's own Wikidata dates meet the years. A name whose map years never meet those dates points
+        at the wrong state, so they are not held against it."""
+        start, end = dates(self.catalog.entities[qid])
+        first, last = self.catalog.years(qid)
+        if (start is not None and start > last) or (end is not None and end < first):
+            return True
+        return (start is None or years[1] >= start) and (end is None or years[0] <= end)
+
     def _years_within(self, qid: str, years: tuple[int, int]) -> int:
         first, last = self.catalog.years(qid)
         return max(0, min(years[1], last) - max(years[0], first))
@@ -398,9 +408,10 @@ class FigureBuilder:
         places and opening links, with no source saying the person belonged to it (an office, a category, citizenship
         or the Vital Articles section), counts only when no other civilization of theirs has more votes: otherwise a
         death under a foreign occupation, like Saddam Hussein's in Baghdad drawn as American, would place them there.
-        Holding a state's own head-of-state or head-of-government office confirms that state alone. The best supported
-        come first, a place of death counting half there since exiles die abroad, and among equals the one the person
-        lived in longest as an adult."""
+        Holding a state's own head-of-state or head-of-government office confirms that state alone. A state whose own
+        dates meet the person's adult life comes before one that had ended or not yet begun, as Tang before Sui for
+        Xuanzang; then the best supported, a place of death counting half there since exiles die abroad, and among
+        equals the one the person lived in longest as an adult."""
         person, adulthood = candidate.person, candidate.adulthood
         sources = {
             "office": self._offices(candidate),
@@ -417,7 +428,8 @@ class FigureBuilder:
         headed = self._headed(candidate)
         member = {qid for source in MEMBERSHIP_SOURCES for qid in sources[source]}
         best = max(votes.values(), default=0)
-        support = lambda qid: (-(votes[qid] - DEATH_DISCOUNT * (qid in sources["death"])),
+        support = lambda qid: (not self._in_own_dates(qid, adulthood),
+                               -(votes[qid] - DEATH_DISCOUNT * (qid in sources["death"])),
                                -self._years_within(qid, adulthood))
         confirmed = sorted((qid for qid in sorted(set(votes) | headed)
                             if (votes[qid] >= MIN_VOTES and (qid in member or votes[qid] == best)) or qid in headed),
