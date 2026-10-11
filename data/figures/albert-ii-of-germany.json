@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Austria",
   "civilizations": [
+    "Holy Roman Empire",
     "Kingdom of Bohemia",
     "Kingdom of Hungary"
   ],
@@ -28,6 +29,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Holy Roman Empire",
         "Kingdom of Bohemia",
         "Kingdom of Hungary"
       ],
@@ -38,6 +40,9 @@
         "Duchy of Luxembourg",
         "Kingdom of Bohemia",
         "Ottoman Empire"
+      ],
+      "citizenship": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Albert II (German: Albrecht II., 10 August 1397 – 27 October 1439) was King of the Romans and a member of the House of Habsburg. By inheritance he became Albert V, Duke of Austria. Through his wife Elizabeth of Luxembourg (jure uxoris), he also became King of Hungary, King of Croatia, King of Bohemia, and inherited a claim to the Duchy of Luxembourg.",

@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Mexico",
   "civilizations": [
+    "Tenochtitlan",
     "Aztec Triple Alliance"
   ],
   "related": [],
@@ -23,8 +24,14 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Tenochtitlan"
+      ],
       "death": [
         "Aztec Triple Alliance"
+      ],
+      "lead": [
+        "Tenochtitlan"
       ],
       "birthplace": [
         "Aztec Triple Alliance"

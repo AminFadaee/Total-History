@@ -1,0 +1,44 @@
+{
+  "id": "Q9130",
+  "slug": "erwin-schrodinger",
+  "name": "Erwin Schrödinger",
+  "wikipedia": "Erwin Schrödinger",
+  "role": "Austrian physicist",
+  "life": "1887–1961",
+  "lifetime": [
+    1887,
+    1961
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Austria-Hungary",
+    "Nazi Germany",
+    "Margraviate of Moravia",
+    "Kingdom of Bohemia",
+    "Duchy of Styria"
+  ],
+  "related": [],
+  "contribution": "An Austrian theoretical physicist who developed fundamental results in quantum theory.",
+  "image": "images/erwin-schrodinger.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "image_is_photo": true,
+  "photo": "images/erwin-schrodinger-photo.jpg",
+  "photo_credit": "Unknown authorUnknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "citizenship": [
+        "Margraviate of Moravia",
+        "Kingdom of Bohemia",
+        "Duchy of Styria",
+        "Nazi Germany"
+      ],
+      "birthplace": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Erwin Rudolf Josef Alexander Schrödinger (12 August 1887 – 4 January 1961), sometimes anglicised as Schroedinger or Schrodinger, was an Austrian theoretical physicist who developed fundamental results in quantum theory. In particular, he is recognized for devising the Schrödinger equation, an equation that provides a way to calculate the wave function of a system and how it changes dynamically in time. He coined the term \"quantum entanglement\" in 1935. Schrödinger shared the 1933 Nobel Prize in Physics with Paul Dirac \"for the discovery of new productive forms of atomic theory\".",
+    "image": "",
+    "photo": "model 0.90, portrait 0.96, captured 1933, during their lifetime"
+  }
+}

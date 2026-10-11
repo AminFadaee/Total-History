@@ -16,6 +16,8 @@
     "Kingdom of Bohemia"
   ],
   "related": [
+    "Kingdom of Poland",
+    "Grand Duchy of Lithuania",
     "Ottoman Empire"
   ],
   "contribution": "As the eldest son of Casimir IV Jagiellon, he was expected to inherit the Crown Kingdom of Poland and adjacent Grand Duchy of Lithuania",
@@ -27,6 +29,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Holy Roman Empire",
         "Kingdom of Bohemia",
         "Kingdom of Hungary"
       ],
@@ -34,6 +37,8 @@
         "Kingdom of Hungary"
       ],
       "lead": [
+        "Kingdom of Poland",
+        "Grand Duchy of Lithuania",
         "Ottoman Empire"
       ]
     },

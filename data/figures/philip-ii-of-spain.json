@@ -13,7 +13,12 @@
   "birth_country": "Spain",
   "civilizations": [
     "Kingdom of Portugal",
-    "Kingdom of Spain"
+    "Kingdom of Spain",
+    "Kingdom of Naples",
+    "Kingdom of Sicily",
+    "Kingdom of Aragon",
+    "Crown of Aragon",
+    "Crown of Castile"
   ],
   "related": [
     "Spanish Empire",
@@ -29,8 +34,13 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Crown of Castile",
         "Kingdom of Portugal",
-        "Kingdom of England"
+        "Kingdom of Aragon",
+        "Crown of Aragon",
+        "Kingdom of England",
+        "Kingdom of Naples",
+        "Kingdom of Sicily"
       ],
       "death": [
         "Iberian Union"

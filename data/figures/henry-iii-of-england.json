@@ -15,6 +15,7 @@
     "Kingdom of England"
   ],
   "related": [
+    "Angevin Empire",
     "Kingdom of Sicily"
   ],
   "contribution": "King of England, Lord of Ireland and Duke of Aquitaine from 1216 until his death in 1272.",
@@ -26,16 +27,21 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of England"
+        "Kingdom of England",
+        "Duchy of Normandy"
       ],
       "death": [
         "Kingdom of England"
       ],
       "lead": [
+        "Angevin Empire",
         "Kingdom of Sicily"
       ],
       "citizenship": [
         "Kingdom of England"
+      ],
+      "birthplace": [
+        "Angevin Empire"
       ]
     },
     "lead": "Henry III (1 October 1207 – 16 November 1272), also known as Henry of Winchester, was King of England, Lord of Ireland and Duke of Aquitaine from 1216 until his death in 1272.",

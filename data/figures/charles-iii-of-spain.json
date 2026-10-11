@@ -12,10 +12,11 @@
   "occupation": "Politician",
   "birth_country": "Spain",
   "civilizations": [
-    "Kingdom of Spain"
+    "Kingdom of Spain",
+    "Kingdom of Naples",
+    "Kingdom of Sicily"
   ],
   "related": [
-    "Kingdom of Naples",
     "Spanish Empire",
     "Kingdom of Portugal"
   ],
@@ -28,7 +29,9 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of Spain"
+        "Kingdom of Spain",
+        "Kingdom of Naples",
+        "Kingdom of Sicily"
       ],
       "category": [
         "Kingdom of Spain"
@@ -38,6 +41,7 @@
       ],
       "lead": [
         "Kingdom of Naples",
+        "Kingdom of Sicily",
         "Spanish Empire",
         "Kingdom of Portugal"
       ],

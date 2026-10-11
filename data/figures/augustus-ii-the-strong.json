@@ -13,7 +13,8 @@
   "birth_country": "Germany",
   "civilizations": [
     "Polish-Lithuanian Commonwealth",
-    "Electorate of Saxony"
+    "Electorate of Saxony",
+    "Holy Roman Empire"
   ],
   "related": [
     "Russian Empire"
@@ -27,6 +28,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Holy Roman Empire",
         "Polish-Lithuanian Commonwealth"
       ],
       "death": [
@@ -35,6 +37,7 @@
       "lead": [
         "Electorate of Saxony",
         "Polish-Lithuanian Commonwealth",
+        "Holy Roman Empire",
         "Russian Empire"
       ],
       "citizenship": [

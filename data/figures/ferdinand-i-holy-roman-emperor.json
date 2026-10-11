@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Spain",
   "civilizations": [
+    "Holy Roman Empire",
     "Kingdom of Hungary",
     "Kingdom of Bohemia"
   ],
@@ -27,6 +28,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Holy Roman Empire",
         "Kingdom of Bohemia",
         "Kingdom of Hungary"
       ],
@@ -35,6 +37,12 @@
       ],
       "lead": [
         "Ottoman Empire"
+      ],
+      "citizenship": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
+        "Crown of Castile"
       ]
     },
     "lead": "Ferdinand I (10 March 1503 – 25 July 1564) was Holy Roman Emperor from 1556, King of Bohemia, Hungary, and Croatia from 1526, and Archduke of Austria from 1521 until his death in 1564. Before his accession as emperor, he ruled the Austrian hereditary lands of the House of Habsburg in the name of his elder brother, Emperor Charles V, and often served as Charles' representative in developing encouraging relationships with German princes. In addition, Ferdinand also developed valuable relationships with the German banking house of Jakob Fugger and the Castillan bank of Palenzuela's Vienveniste Ha Levi Ha Kahana family.",

@@ -14,7 +14,9 @@
   "civilizations": [
     "Sultanate of Rum"
   ],
-  "related": [],
+  "related": [
+    "Eastern Roman Empire"
+  ],
   "contribution": "A 13th-century uch bey, who was the father of Osman I. Little is known about Ertuğrul's life.",
   "image": "images/ertugrul.jpg",
   "image_credit": "1616 artist · Public domain",
@@ -24,7 +26,8 @@
   "checks": {
     "civilization_votes": {
       "lead": [
-        "Sultanate of Rum"
+        "Sultanate of Rum",
+        "Eastern Roman Empire"
       ],
       "citizenship": [
         "Sultanate of Rum"

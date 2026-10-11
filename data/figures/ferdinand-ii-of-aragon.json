@@ -12,13 +12,18 @@
   "occupation": "Politician",
   "birth_country": "Spain",
   "civilizations": [
-    "Crown of Aragon"
+    "Crown of Aragon",
+    "Kingdom of Aragon",
+    "County of Ribagorza"
   ],
   "related": [
     "Kingdom of Spain",
     "Crown of Castile",
+    "Kingdom of Majorca",
+    "Kingdom of Sicily",
     "Emirate of Granada",
-    "Kingdom of Naples"
+    "Kingdom of Naples",
+    "Kingdom of Navarre"
   ],
   "contribution": "King of Aragon from 1479 until his death in 1516.",
   "image": "images/ferdinand-ii-of-aragon.jpg",
@@ -29,14 +34,20 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Crown of Aragon"
+        "Kingdom of Aragon",
+        "Crown of Aragon",
+        "County of Ribagorza"
       ],
       "lead": [
         "Kingdom of Spain",
         "Crown of Castile",
         "Crown of Aragon",
+        "Kingdom of Aragon",
+        "Kingdom of Majorca",
+        "Kingdom of Sicily",
         "Emirate of Granada",
-        "Kingdom of Naples"
+        "Kingdom of Naples",
+        "Kingdom of Navarre"
       ],
       "citizenship": [
         "Crown of Aragon"

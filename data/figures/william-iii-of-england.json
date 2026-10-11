@@ -13,9 +13,12 @@
   "birth_country": "Netherlands",
   "civilizations": [
     "Kingdom of England",
-    "Dutch Republic"
+    "Dutch Republic",
+    "Kingdom of Scotland"
   ],
-  "related": [],
+  "related": [
+    "County of Holland"
+  ],
   "contribution": "The sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from 1672, and King of England, Scotland, and Ireland from 1689 until his death in 1702.",
   "image": "images/william-iii-of-england.jpg",
   "image_credit": "Godfrey Kneller · Public domain",
@@ -25,14 +28,17 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of England"
+        "Kingdom of England",
+        "Kingdom of Scotland"
       ],
       "death": [
         "Kingdom of England"
       ],
       "lead": [
+        "County of Holland",
         "Dutch Republic",
-        "Kingdom of England"
+        "Kingdom of England",
+        "Kingdom of Scotland"
       ],
       "citizenship": [
         "Dutch Republic",

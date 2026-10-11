@@ -12,7 +12,9 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of England"
+    "Kingdom of England",
+    "County of Anjou",
+    "Duchy of Normandy"
   ],
   "related": [
     "Angevin Empire"
@@ -26,13 +28,17 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of England"
+        "Kingdom of England",
+        "Duchy of Normandy",
+        "County of Anjou"
       ],
       "death": [
         "Kingdom of England"
       ],
       "lead": [
-        "Angevin Empire"
+        "Duchy of Normandy",
+        "Angevin Empire",
+        "County of Anjou"
       ],
       "citizenship": [
         "Kingdom of England"

@@ -12,9 +12,14 @@
   "occupation": "Politician",
   "birth_country": "Austria",
   "civilizations": [
-    "Habsburg Monarchy"
+    "Holy Roman Empire",
+    "Habsburg Monarchy",
+    "Kingdom of Hungary",
+    "Kingdom of Bohemia"
   ],
-  "related": [],
+  "related": [
+    "Grand Duchy of Tuscany"
+  ],
   "contribution": "The penultimate Holy Roman Emperor, as well as King of Hungary, Croatia and Bohemia, and Archduke of Austria from 1790 to 1792, and Grand Duke of Tuscany from 1765 to 1790 as Leopold I. He was a son of Empress Maria Theresa and Emperor Francis I, and the brother of Queen Marie Antoinette of France, Queen Maria Carolina, Duchess Maria Amalia of Parma, and Emperor Joseph II. Leopold was a moderate proponent of enlightened absolutism like his brother Joseph II. He granted the Academy of Georgofili his protection.",
   "image": "images/leopold-ii-holy-roman-emperor.jpg",
   "image_credit": "Josef Kiss · Public domain",
@@ -23,8 +28,20 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Holy Roman Empire",
+        "Kingdom of Bohemia",
+        "Kingdom of Hungary",
+        "Duchy of Luxembourg"
+      ],
       "death": [
         "Habsburg Monarchy"
+      ],
+      "lead": [
+        "Grand Duchy of Tuscany"
+      ],
+      "citizenship": [
+        "Holy Roman Empire"
       ],
       "birthplace": [
         "Habsburg Monarchy"

@@ -1,0 +1,40 @@
+{
+  "id": "Q1500",
+  "slug": "jose-rizal",
+  "name": "José Rizal",
+  "wikipedia": "José Rizal",
+  "role": "Filipino nationalist, writer, and polymath",
+  "life": "1861–1896",
+  "lifetime": [
+    1861,
+    1896
+  ],
+  "occupation": "Social activist",
+  "birth_country": "Philippines",
+  "civilizations": [
+    "Spanish Empire"
+  ],
+  "related": [],
+  "contribution": "A Filipino nationalist, writer, and polymath active at the end of the Spanish colonial period of the Philippines.",
+  "image": "images/jose-rizal.jpg",
+  "image_credit": "unknown author · Public domain",
+  "image_is_photo": false,
+  "photo": "images/jose-rizal-photo.jpg",
+  "photo_credit": "Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of Spain"
+      ],
+      "lead": [
+        "Spanish Empire"
+      ],
+      "birthplace": [
+        "Spanish Empire"
+      ]
+    },
+    "lead": "José Protasio Rizal Mercado y Alonso Realonda (Spanish: [xoˈse riˈsal, -ˈθal], Tagalog: [hoˈse ɾiˈsal]; June 19, 1861 – December 30, 1896) was a Filipino nationalist, writer, and polymath active at the end of the Spanish colonial period of the Philippines. He is popularly considered to be a national hero of the Philippines. An ophthalmologist by profession, Rizal became a writer and a key member of the Filipino Propaganda Movement in the 1880s, which advocated political reforms for the colony under Spain.",
+    "image": "",
+    "photo": "model 0.94, portrait 0.99"
+  }
+}

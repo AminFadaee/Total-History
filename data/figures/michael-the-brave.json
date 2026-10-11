@@ -13,11 +13,11 @@
   "birth_country": "Romania",
   "civilizations": [
     "Principality of Moldavia",
-    "Principality of Transylvania",
-    "Ottoman Empire"
+    "Principality of Transylvania"
   ],
   "related": [
     "Principality of Wallachia",
+    "Ottoman Empire",
     "Habsburg Monarchy",
     "Polish-Lithuanian Commonwealth"
   ],
@@ -29,6 +29,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Principality of Moldavia"
+      ],
       "lead": [
         "Principality of Wallachia",
         "Principality of Moldavia",

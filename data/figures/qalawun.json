@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "",
   "civilizations": [
-    "Mamluk Sultanate"
+    "Mamluk Sultanate",
+    "Ayyubid Sultanate"
   ],
   "related": [
     "County of Tripoli"
@@ -26,6 +27,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Ayyubid Sultanate",
         "Mamluk Sultanate"
       ],
       "death": [

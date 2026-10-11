@@ -12,7 +12,8 @@
   "occupation": "Philosopher",
   "birth_country": "China",
   "civilizations": [
-    "Chu"
+    "Chu",
+    "Zhou Dynasty"
   ],
   "related": [],
   "contribution": "The name traditionally given to an ancient Chinese philosopher, also identified as Li Er or Lao Dan, who is regarded as the author or originating teacher associated with the Tao Te Ching, one of the foundational texts of Taoism.",
@@ -24,7 +25,11 @@
   "checks": {
     "civilization_votes": {
       "lead": [
-        "Chu"
+        "Chu",
+        "Zhou Dynasty"
+      ],
+      "citizenship": [
+        "Zhou Dynasty"
       ],
       "birthplace": [
         "Chu"

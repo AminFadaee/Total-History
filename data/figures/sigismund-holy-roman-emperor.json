@@ -13,6 +13,7 @@
   "birth_country": "Germany",
   "civilizations": [
     "Kingdom of Bohemia",
+    "Holy Roman Empire",
     "Kingdom of Hungary"
   ],
   "related": [
@@ -28,6 +29,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Holy Roman Empire",
         "Kingdom of Hungary",
         "Kingdom of Bohemia",
         "Duchy of Luxembourg"
@@ -40,6 +42,9 @@
         "Kingdom of Hungary",
         "Ottoman Empire",
         "Kingdom of Bohemia"
+      ],
+      "citizenship": [
+        "Holy Roman Empire"
       ],
       "birthplace": [
         "Electorate of Trier"

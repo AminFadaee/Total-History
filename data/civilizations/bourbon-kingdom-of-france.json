@@ -1,0 +1,72 @@
+{
+  "id": "Q207162",
+  "slug": "bourbon-kingdom-of-france",
+  "name": "Bourbon Kingdom of France",
+  "wikipedia": "Bourbon Restoration in France",
+  "map_year": 1820,
+  "period": {
+    "start": {
+      "earliest": 1815,
+      "latest": 1815,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1830,
+      "latest": 1830,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q71084",
+    "region": "France",
+    "name": "First French Empire"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "France"
+  ],
+  "borders": true,
+  "map": "maps/bourbon-kingdom-of-france.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Paris"
+      ],
+      "infobox": [
+        "Paris"
+      ]
+    },
+    "cliopatria_years": [
+      1815,
+      1847
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Paris",
+    "labelled": [
+      "Kingdom of Spain",
+      "German Confederation",
+      "Kingdom of Bavaria",
+      "Kingdom of Sardinia",
+      "Netherlands",
+      "Austrian Empire",
+      "United Kingdom of Great Britain and Ireland",
+      "Kingdom of the Two Sicilies",
+      "Kingdom of Portugal",
+      "Serbs",
+      "Papal States"
+    ]
+  }
+}

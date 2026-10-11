@@ -12,7 +12,8 @@
   "occupation": "",
   "birth_country": "",
   "civilizations": [
-    "Aztec Triple Alliance"
+    "Aztec Triple Alliance",
+    "Tenochtitlan"
   ],
   "related": [
     "Kingdom of Spain"
@@ -26,12 +27,14 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Tenochtitlan",
         "Aztec Triple Alliance"
       ],
       "death": [
         "Aztec Triple Alliance"
       ],
       "lead": [
+        "Tenochtitlan",
         "Kingdom of Spain"
       ],
       "citizenship": [

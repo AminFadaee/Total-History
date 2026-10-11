@@ -1,0 +1,70 @@
+{
+  "id": "Q752662",
+  "slug": "hafsid-dynasty",
+  "name": "Hafsid Dynasty",
+  "wikipedia": "Hafsid dynasty",
+  "map_year": 1344,
+  "period": {
+    "start": {
+      "earliest": 1229,
+      "latest": 1229,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1574,
+      "latest": 1574,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Tunis",
+      "location": [
+        10.18,
+        36.800833333333
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q199688",
+    "region": "Tunisia",
+    "name": "Almohad Caliphate"
+  },
+  "after": {
+    "id": "Q12560",
+    "region": "Tunisia",
+    "name": "Ottoman Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Tunisia",
+    "Algeria",
+    "Libya"
+  ],
+  "borders": true,
+  "map": "maps/hafsid-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tunis"
+      ],
+      "infobox": [
+        "Tunis"
+      ]
+    },
+    "cliopatria_years": [
+      1236,
+      1571
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Tunis",
+    "labelled": [
+      "Marinid Sultanate",
+      "Mamluk Sultanate",
+      "Kingdom of Sicily"
+    ]
+  }
+}

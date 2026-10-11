@@ -13,7 +13,9 @@
   "birth_country": "United Kingdom",
   "civilizations": [
     "Kingdom of Great Britain",
-    "United Kingdom of Great Britain and Ireland"
+    "United Kingdom of Great Britain and Ireland",
+    "Holy Roman Empire",
+    "Kingdom of Hanover"
   ],
   "related": [
     "Electorate of Hanover",
@@ -30,13 +32,16 @@
     "civilization_votes": {
       "office": [
         "Kingdom of Great Britain",
-        "United Kingdom of Great Britain and Ireland"
+        "United Kingdom of Great Britain and Ireland",
+        "Kingdom of Hanover",
+        "Holy Roman Empire"
       ],
       "death": [
         "United Kingdom of Great Britain and Ireland"
       ],
       "lead": [
         "Electorate of Hanover",
+        "Holy Roman Empire",
         "Kingdom of France",
         "Kingdom of Great Britain",
         "United Kingdom of Great Britain and Ireland",

@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "China",
   "civilizations": [
-    "Yuan Dynasty"
+    "Yuan Dynasty",
+    "Mongol Empire"
   ],
   "related": [],
   "contribution": "The last emperor of the Yuan dynasty and the first emperor of the Northern Yuan dynasty.",
@@ -23,6 +24,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Mongol Empire"
+      ],
       "death": [
         "Yuan Dynasty"
       ],
@@ -30,7 +34,11 @@
         "Yuan Dynasty"
       ],
       "citizenship": [
+        "Mongol Empire",
         "Yuan Dynasty"
+      ],
+      "vital_section": [
+        "Mongol Empire"
       ],
       "birthplace": [
         "Yuan Dynasty"

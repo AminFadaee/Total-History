@@ -1,0 +1,39 @@
+{
+  "id": "Q1268",
+  "slug": "frederic-chopin",
+  "name": "Frédéric Chopin",
+  "wikipedia": "Frédéric Chopin",
+  "role": "Polish composer and pianist",
+  "life": "1810–1849",
+  "lifetime": [
+    1810,
+    1849
+  ],
+  "occupation": "Composer",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Russian Empire",
+    "Bourbon Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A Polish composer and virtuoso pianist of the early Romantic period who wrote primarily for solo piano.",
+  "image": "images/frederic-chopin.jpg",
+  "image_credit": "Louis-Auguste Bisson · Public domain",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "French Second Republic"
+      ],
+      "citizenship": [
+        "Bourbon Kingdom of France",
+        "Russian Empire"
+      ]
+    },
+    "lead": "Frédéric François Chopin (born Fryderyk Franciszek Chopin; 1 March 1810 – 17 October 1849) was a Polish composer and virtuoso pianist of the early Romantic period who wrote primarily for solo piano. He has maintained worldwide renown as a leading composer of his era whose \"poetic genius was based on a professional technique that was without equal in his generation\".",
+    "image": "",
+    "photo": "no death year in or after 1860"
+  }
+}

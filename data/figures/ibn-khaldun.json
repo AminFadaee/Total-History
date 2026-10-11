@@ -1,0 +1,44 @@
+{
+  "id": "Q9294",
+  "slug": "ibn-khaldun",
+  "name": "Ibn Khaldun",
+  "wikipedia": "Ibn Khaldun",
+  "role": "Arab Islamic scholar, historian and philosopher",
+  "life": "1332–1406",
+  "lifetime": [
+    1332,
+    1406
+  ],
+  "occupation": "Historian",
+  "birth_country": "Tunisia",
+  "civilizations": [
+    "Hafsid Dynasty"
+  ],
+  "related": [
+    "Ottoman Empire",
+    "Timurid Empire"
+  ],
+  "contribution": "An Arab Tunisian scholar, historian, philosopher, and sociologist.",
+  "image": "images/ibn-khaldun.jpg",
+  "image_credit": "Reda Kerbush · CC BY-SA 4.0",
+  "image_is_photo": false,
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Mamluk Sultanate"
+      ],
+      "lead": [
+        "Ottoman Empire",
+        "Timurid Empire"
+      ],
+      "birthplace": [
+        "Hafsid Dynasty"
+      ]
+    },
+    "lead": "Ibn Khaldūn (27 May 1332 – 17 March 1406, 732–808 AH) was an Arab Tunisian scholar, historian, philosopher, and sociologist. He is widely acknowledged to be one of the greatest social scientists of the Middle Ages, and is considered by a number of scholars to be a major forerunner of historiography, sociology, economics, and demography studies.",
+    "image": "",
+    "photo": "no death year in or after 1860"
+  }
+}

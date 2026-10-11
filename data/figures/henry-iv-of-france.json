@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
-    "Kingdom of France"
+    "Kingdom of France",
+    "County of Foix"
   ],
   "related": [
     "Dutch Republic"
@@ -26,7 +27,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of France"
+        "Kingdom of France",
+        "County of Foix"
       ],
       "death": [
         "Kingdom of France"
@@ -36,6 +38,9 @@
       ],
       "citizenship": [
         "Kingdom of France"
+      ],
+      "birthplace": [
+        "County of Foix"
       ]
     },
     "lead": "Henry IV (French: Henri IV; 13 December 1553 – 14 May 1610), also known by the epithets Good King Henry (le Bon Roi Henri) or Henry the Great (Henri le Grand), was King of Navarre (as Henry III) from 1572 and King of France from 1589 to 1610. He was the first monarch of France from the House of Bourbon, a cadet branch of the Capetian dynasty. He pragmatically balanced the interests of the Catholic and Protestant parties in France, as well as among the European states. He was assassinated in Paris in 1610 by a Catholic zealot, and was succeeded by his son Louis XIII.",

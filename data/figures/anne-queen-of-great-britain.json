@@ -13,7 +13,8 @@
   "birth_country": "United Kingdom",
   "civilizations": [
     "Kingdom of England",
-    "Kingdom of Great Britain"
+    "Kingdom of Great Britain",
+    "Kingdom of Scotland"
   ],
   "related": [],
   "contribution": "Queen of England, Scotland, and Ireland from 8 March 1702, and Queen of Great Britain and Ireland following the ratification of the Acts of Union 1707 merging the kingdoms of England and Scotland, until her death in 1714.",
@@ -26,13 +27,15 @@
     "civilization_votes": {
       "office": [
         "Kingdom of England",
+        "Kingdom of Scotland",
         "Kingdom of Great Britain"
       ],
       "death": [
         "Kingdom of Great Britain"
       ],
       "lead": [
-        "Kingdom of England"
+        "Kingdom of England",
+        "Kingdom of Scotland"
       ],
       "citizenship": [
         "Kingdom of Great Britain"

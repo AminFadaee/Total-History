@@ -16,7 +16,8 @@
   ],
   "related": [
     "German Empire",
-    "Austria-Hungary"
+    "Austria-Hungary",
+    "Habsburg Monarchy"
   ],
   "contribution": "King of Italy from 29 July 1900 until his abdication on 9 May 1946.",
   "image": "images/victor-emmanuel-iii.jpg",
@@ -26,13 +27,17 @@
   "photo_credit": "Possibly Mario Nunes Vais · Public domain",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Ethiopian Empire"
+      ],
       "death": [
         "Kingdom of Egypt"
       ],
       "lead": [
         "Kingdom of Italy",
         "German Empire",
-        "Austria-Hungary"
+        "Austria-Hungary",
+        "Habsburg Monarchy"
       ],
       "citizenship": [
         "Republic of Italy",

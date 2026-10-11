@@ -12,10 +12,12 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "Holy Roman Empire"
+    "Holy Roman Empire",
+    "East Franks"
   ],
   "related": [
-    "Kingdom of Germany"
+    "Kingdom of Germany",
+    "Eastern Roman Empire"
   ],
   "contribution": "An East Frankish king from 936 and Holy Roman Emperor from 962 until his death in 973.",
   "image": "images/otto-the-great.jpg",
@@ -26,13 +28,16 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Holy Roman Empire"
+        "Holy Roman Empire",
+        "East Franks"
       ],
       "death": [
         "Holy Roman Empire"
       ],
       "lead": [
-        "Kingdom of Germany"
+        "East Franks",
+        "Kingdom of Germany",
+        "Eastern Roman Empire"
       ],
       "citizenship": [
         "Holy Roman Empire"

@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Mexico",
   "civilizations": [
-    "Aztec Triple Alliance"
+    "Aztec Triple Alliance",
+    "Tenochtitlan"
   ],
   "related": [],
   "contribution": "The sixth tlatoani of the altepetl of Tenochtitlan and Emperor of the Aztec Triple Alliance.",
@@ -24,12 +25,14 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Tenochtitlan",
         "Aztec Triple Alliance"
       ],
       "death": [
         "Aztec Triple Alliance"
       ],
       "lead": [
+        "Tenochtitlan",
         "Aztec Triple Alliance"
       ],
       "citizenship": [

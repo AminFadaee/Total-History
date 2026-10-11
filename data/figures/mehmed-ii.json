@@ -14,7 +14,9 @@
   "civilizations": [
     "Ottoman Empire"
   ],
-  "related": [],
+  "related": [
+    "Eastern Roman Empire"
+  ],
   "contribution": "The sultan of the Ottoman Empire twice, from August 1444 to September 1446 and again from February 1451 to May 1481.",
   "image": "images/mehmed-ii.jpg",
   "image_credit": "Gentile Bellini · Public domain",
@@ -25,6 +27,9 @@
     "civilization_votes": {
       "office": [
         "Ottoman Empire"
+      ],
+      "lead": [
+        "Eastern Roman Empire"
       ],
       "birthplace": [
         "Ottoman Empire"

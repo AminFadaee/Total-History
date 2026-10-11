@@ -14,7 +14,9 @@
   "civilizations": [
     "Kingdom of Spain"
   ],
-  "related": [],
+  "related": [
+    "Kingdom of Castile"
+  ],
   "contribution": "A president of the Consejo de Indias, humanist, jurist and lawyer.",
   "image": "images/gregorio-lopez-jurist.jpg",
   "image_credit": "Public domain",
@@ -25,6 +27,9 @@
     "civilization_votes": {
       "death": [
         "Kingdom of Spain"
+      ],
+      "lead": [
+        "Kingdom of Castile"
       ],
       "citizenship": [
         "Kingdom of Spain"

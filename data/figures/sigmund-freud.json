@@ -1,0 +1,45 @@
+{
+  "id": "Q9215",
+  "slug": "sigmund-freud",
+  "name": "Sigmund Freud",
+  "wikipedia": "Sigmund Freud",
+  "role": "Austrian neurologist and founder of psychoanalysis",
+  "life": "1856–1939",
+  "lifetime": [
+    1856,
+    1939
+  ],
+  "occupation": "Psychologist",
+  "birth_country": "Czechia",
+  "civilizations": [
+    "Republic of Austria",
+    "Nazi Germany",
+    "Margraviate of Moravia",
+    "Kingdom of Bohemia",
+    "Duchy of Styria"
+  ],
+  "related": [],
+  "contribution": "An Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies arising from conflicts in the psyche through dialogue between patient and psychoanalyst, and the distinctive theory of mind and human agency it posits.",
+  "image": "images/sigmund-freud.jpg",
+  "image_credit": "Max Halberstadt · Public domain",
+  "image_is_photo": true,
+  "photo": "images/sigmund-freud-photo.jpg",
+  "photo_credit": "Max Halberstadt · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "United Kingdom"
+      ],
+      "citizenship": [
+        "Margraviate of Moravia",
+        "Kingdom of Bohemia",
+        "Duchy of Styria",
+        "Republic of Austria",
+        "Nazi Germany"
+      ]
+    },
+    "lead": "Sigmund Freud (born Sigismund Schlomo Freud; 6 May 1856 – 23 September 1939) was an Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies arising from conflicts in the psyche through dialogue between patient and psychoanalyst, and the distinctive theory of mind and human agency it posits.",
+    "image": "",
+    "photo": "model 0.97, portrait 0.90, captured 1921, during their lifetime"
+  }
+}

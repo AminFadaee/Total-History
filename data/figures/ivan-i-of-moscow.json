@@ -13,7 +13,8 @@
   "birth_country": "Russia",
   "civilizations": [
     "Grand Principality of Moscow",
-    "Novgorod Republic"
+    "Novgorod Republic",
+    "Principality of Rostov-Suzdal"
   ],
   "related": [
     "Golden Horde"
@@ -28,18 +29,23 @@
     "civilization_votes": {
       "office": [
         "Grand Principality of Moscow",
-        "Novgorod Republic"
+        "Novgorod Republic",
+        "Principality of Rostov-Suzdal"
       ],
       "death": [
         "Grand Principality of Moscow"
       ],
       "lead": [
         "Grand Principality of Moscow",
-        "Golden Horde"
+        "Golden Horde",
+        "Principality of Rostov-Suzdal"
       ],
       "citizenship": [
         "Grand Principality of Moscow",
         "Novgorod Republic"
+      ],
+      "birthplace": [
+        "Mongol Empire"
       ]
     },
     "lead": "Ivan I Danilovich Kalita (Russian: Иван I Данилович Калита, lit. 'money bag'; c. 1288 – 31 March 1340) was Prince of Moscow from 1325 and Grand Prince of Vladimir from 1331 until his death in 1340.",

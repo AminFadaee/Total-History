@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Czechia",
   "civilizations": [
-    "Kingdom of Bohemia"
+    "Kingdom of Bohemia",
+    "Holy Roman Empire"
   ],
   "related": [],
   "contribution": "Holy Roman Emperor from 1355 until his death in 1378.",
@@ -24,13 +25,18 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Holy Roman Empire",
         "Kingdom of Bohemia"
       ],
       "death": [
         "Kingdom of Bohemia"
       ],
       "lead": [
+        "Holy Roman Empire",
         "Kingdom of Bohemia"
+      ],
+      "citizenship": [
+        "Holy Roman Empire"
       ],
       "birthplace": [
         "Kingdom of Bohemia"

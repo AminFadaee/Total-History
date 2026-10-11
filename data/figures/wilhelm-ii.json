@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "German Empire"
+    "German Empire",
+    "Kingdom of Prussia"
   ],
   "related": [
     "Austria-Hungary",
@@ -29,7 +30,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "German Empire"
+        "German Empire",
+        "Kingdom of Prussia"
       ],
       "death": [
         "Nazi Germany"
@@ -42,6 +44,7 @@
         "Weimar Republic"
       ],
       "citizenship": [
+        "Kingdom of Prussia",
         "German Empire"
       ]
     },

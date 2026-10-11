@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of England"
+    "Kingdom of England",
+    "Kingdom of Scotland"
   ],
   "related": [
     "Commonwealth of England"
@@ -26,6 +27,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Kingdom of Scotland",
         "Kingdom of England"
       ],
       "death": [
@@ -33,9 +35,11 @@
       ],
       "lead": [
         "Kingdom of England",
+        "Kingdom of Scotland",
         "Commonwealth of England"
       ],
       "citizenship": [
+        "Kingdom of Scotland",
         "Kingdom of England"
       ],
       "birthplace": [

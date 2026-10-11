@@ -1,0 +1,46 @@
+{
+  "id": "Q9358",
+  "slug": "friedrich-nietzsche",
+  "name": "Friedrich Nietzsche",
+  "wikipedia": "Friedrich Nietzsche",
+  "role": "German philosopher",
+  "life": "1844–1900",
+  "lifetime": [
+    1844,
+    1900
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Confederation",
+    "Kingdom of Prussia"
+  ],
+  "related": [
+    "Swiss Confederation"
+  ],
+  "contribution": "A German philosopher and writer who started his career as a classical philologist and turned to philosophy early in his academic career.",
+  "image": "images/friedrich-nietzsche.jpg",
+  "image_credit": "Friedrich Hermann Hartmann · Public domain",
+  "image_is_photo": true,
+  "photo": "images/friedrich-nietzsche-photo.jpg",
+  "photo_credit": "Friedrich Hermann Hartmann · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "German Empire"
+      ],
+      "lead": [
+        "Swiss Confederation"
+      ],
+      "citizenship": [
+        "Kingdom of Prussia"
+      ],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Friedrich Wilhelm Nietzsche (15 October 1844 – 25 August 1900) was a German philosopher and writer who started his career as a classical philologist and turned to philosophy early in his academic career. In 1869, at age 24, he was appointed Professor of Classical Philology at the University of Basel. Plagued by health problems for most of his life, he resigned from the university in 1879. He afterward lived as an independent writer, spending much of his life in relative solitude and financial insecurity while moving between Switzerland, Italy, and southern France in search of climates that might alleviate his condition, and in the following decade, he completed much of his core writing. In 1889, aged 44, he suffered a neurological collapse, and thereafter a complete loss of his mental faculties, with paralysis and vascular dementia; he lived out his remaining 11 years, first under the care of his mother, and later his sister, until his death. His works and his philosophy have fostered not only extensive scholarship but also much popular interest.",
+    "image": "",
+    "photo": "model 0.77, portrait 0.98, captured 1875, during their lifetime"
+  }
+}

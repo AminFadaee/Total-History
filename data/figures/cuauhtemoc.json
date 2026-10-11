@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Mexico",
   "civilizations": [
-    "Aztec Triple Alliance"
+    "Aztec Triple Alliance",
+    "Tenochtitlan"
   ],
   "related": [
     "Kingdom of Spain"
@@ -25,7 +26,11 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Tenochtitlan"
+      ],
       "lead": [
+        "Tenochtitlan",
         "Kingdom of Spain"
       ],
       "citizenship": [

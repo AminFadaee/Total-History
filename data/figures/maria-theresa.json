@@ -12,9 +12,12 @@
   "occupation": "Politician",
   "birth_country": "Austria",
   "civilizations": [
-    "Habsburg Monarchy"
+    "Habsburg Monarchy",
+    "Kingdom of Hungary",
+    "Kingdom of Bohemia"
   ],
   "related": [
+    "Duchy of Milan",
     "Electorate of Saxony",
     "Kingdom of Prussia",
     "Kingdom of France"
@@ -27,11 +30,18 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Holy Roman Empire",
+        "Kingdom of Bohemia",
+        "Kingdom of Hungary"
+      ],
       "death": [
         "Habsburg Monarchy"
       ],
       "lead": [
         "Habsburg Monarchy",
+        "Kingdom of Hungary",
+        "Duchy of Milan",
         "Electorate of Saxony",
         "Kingdom of Prussia",
         "Kingdom of France"

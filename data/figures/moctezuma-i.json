@@ -12,11 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Mexico",
   "civilizations": [
-    "Aztec Triple Alliance"
-  ],
-  "related": [
+    "Aztec Triple Alliance",
     "Tenochtitlan"
   ],
+  "related": [],
   "contribution": "The second Aztec emperor and fifth king of Tenochtitlan.",
   "image": "images/moctezuma-i.jpg",
   "image_credit": "Public domain",
@@ -26,6 +25,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Tenochtitlan",
         "Aztec Triple Alliance"
       ],
       "death": [

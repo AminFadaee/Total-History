@@ -12,11 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Mexico",
   "civilizations": [
-    "Aztec Triple Alliance"
-  ],
-  "related": [
+    "Aztec Triple Alliance",
     "Tenochtitlan"
   ],
+  "related": [],
   "contribution": "The eighth Aztec ruler, the Huey Tlatoani of the city of Tenochtitlan, son of princess Atotoztli II. His name literally means \"Water Thorny\" and was also applied to the otter.",
   "image": "images/ahuitzotl.jpg",
   "image_credit": "Public domain",
@@ -26,6 +25,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Tenochtitlan",
         "Aztec Triple Alliance"
       ],
       "death": [

@@ -14,7 +14,9 @@
   "civilizations": [
     "Roman Empire"
   ],
-  "related": [],
+  "related": [
+    "Mauretania"
+  ],
   "contribution": "He was Caesar from 285 to 286, then Augustus from 286 to 305",
   "image": "images/maximian.jpg",
   "image_credit": "PierreSelim · CC BY-SA 3.0",
@@ -25,6 +27,9 @@
     "civilization_votes": {
       "office": [
         "Roman Empire"
+      ],
+      "lead": [
+        "Mauretania"
       ],
       "citizenship": [
         "Roman Empire"

@@ -14,7 +14,8 @@
   "civilizations": [
     "Kievan Rus'",
     "Principality of Rostov-Suzdal",
-    "Novgorod Republic"
+    "Novgorod Republic",
+    "Principality of Kiev"
   ],
   "related": [],
   "contribution": "Political and military figure of Kievan Rus' (1246–1263).",
@@ -26,6 +27,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Principality of Kiev",
         "Novgorod Republic"
       ],
       "death": [

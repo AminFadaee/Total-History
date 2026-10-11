@@ -12,11 +12,10 @@
   "occupation": "",
   "birth_country": "",
   "civilizations": [
+    "Tenochtitlan",
     "Aztec Triple Alliance"
   ],
-  "related": [
-    "Tenochtitlan"
-  ],
+  "related": [],
   "contribution": "The tlatoani of the pre-Columbian altepetl of Culhuacan in the Valley of Mexico from 1440 to 1473.",
   "image": "images/xilomantzin.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
@@ -26,6 +25,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Tenochtitlan",
         "Aztec Triple Alliance"
       ],
       "death": [

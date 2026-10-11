@@ -1,0 +1,37 @@
+{
+  "id": "Q5685",
+  "slug": "anton-chekhov",
+  "name": "Anton Chekhov",
+  "wikipedia": "Anton Chekhov",
+  "role": "Russian dramatist and author",
+  "life": "1860–1904",
+  "lifetime": [
+    1860,
+    1904
+  ],
+  "occupation": "Writer",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "",
+  "image": "images/anton-chekhov.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "image_is_photo": false,
+  "photo": "images/anton-chekhov-photo.jpg",
+  "photo_credit": "Главархив Москвы · CC BY 4.0",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "German Empire"
+      ],
+      "citizenship": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Anton Pavlovich Chekhov (; Russian: Антон Павлович Чехов;",
+    "image": "",
+    "photo": "model 0.98, portrait 0.96"
+  }
+}

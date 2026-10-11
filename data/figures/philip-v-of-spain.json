@@ -13,7 +13,10 @@
   "birth_country": "France",
   "civilizations": [
     "Kingdom of France",
-    "Kingdom of Spain"
+    "Kingdom of Spain",
+    "Kingdom of Aragon",
+    "Crown of Aragon",
+    "Crown of Castile"
   ],
   "related": [
     "Spanish Empire"
@@ -27,7 +30,10 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of Spain"
+        "Kingdom of Spain",
+        "Kingdom of Aragon",
+        "Crown of Aragon",
+        "Crown of Castile"
       ],
       "death": [
         "Kingdom of Spain"

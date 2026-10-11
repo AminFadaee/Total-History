@@ -1,0 +1,65 @@
+{
+  "id": "Q40",
+  "slug": "republic-of-austria",
+  "name": "Republic of Austria",
+  "wikipedia": "Austria",
+  "map_year": 1919,
+  "period": {
+    "start": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Vienna",
+      "location": [
+        16.3725,
+        48.208333333333336
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q28513",
+    "region": "Austria",
+    "name": "Austria-Hungary"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Austria",
+    "Italy"
+  ],
+  "borders": true,
+  "map": "maps/republic-of-austria.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Vienna"
+      ],
+      "infobox": [
+        "Vienna"
+      ]
+    },
+    "cliopatria_years": [
+      1919,
+      1937
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Vienna",
+    "labelled": [
+      "German Empire",
+      "Yugoslavia",
+      "Kingdom of Italy",
+      "Czechoslovakia",
+      "Hungarian Republic",
+      "Swiss Confederation",
+      "Kingdom of Belgium"
+    ]
+  }
+}
