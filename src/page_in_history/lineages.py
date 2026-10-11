@@ -10,7 +10,7 @@ from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, Cliopa
 from page_in_history.sources.wikidata import Entity
 from page_in_history.sources.wikipedia import country_infobox, display_name
 
-OVERSHOOT_YEARS = 50
+OVERSHOOT_YEARS = 25
 HANDOVER_TOLERANCE_YEARS = 25
 FORWARD = ("P1366", "P156")
 BACKWARD = ("P1365", "P155")
@@ -32,11 +32,14 @@ class Handover:
 
 class Lineages:
     """Cliopatria sometimes keeps one name for a chain of states, such as the Kingdom of Great Britain to this day.
-    Where its years run more than 50 years past the dates Wikidata gives the state, the years beyond go to the
-    successor (or predecessor) that both Wikidata and the Wikipedia infobox name, whose own dates meet the handover
-    within 25 years and whose capital lies inside the borders it takes over; the chain continues from there. Years
-    without such a successor stay with the original name. A name whose years never meet its state's dates points at
-    the wrong state and is left alone."""
+    Where its years run more than 25 years past the dates Wikidata gives the state, the years beyond go to the
+    successor (or predecessor) that both Wikidata and the Wikipedia infobox name and whose capital lies inside the
+    borders it takes over; the chain continues from there. The successor's own dates must meet the handover within
+    25 years, or it must have begun while the state still stood and outlast the handover, as the Almohads did the
+    Almoravids. A successor that itself ended at the handover, like the short Duchy of Florence, is passed through to
+    its own successor, and one that is a period of a country rather than a state, like Sweden's Age of Liberty, hands
+    the years to that country. Years without such a successor stay with the original name. A name whose years never
+    meet its state's dates points at the wrong state and is left alone."""
 
     def __init__(self, catalog: PolityCatalog):
         self.catalog = catalog
@@ -82,27 +85,59 @@ class Lineages:
             current = successor
             first, last = (end + 1, last) if side == "after" else (first, start - 1)
 
-    def _successor(self, name: str, current: str, edge: int, first: int, last: int, side: str):
+    def _successor(self, name: str, current: str, edge: int, first: int, last: int, side: str, through: bool = True):
         """The state that took over at the edge, with the years it holds of the remaining stretch."""
         forward = FORWARD if side == "after" else BACKWARD
         entity = self.wikidata.entities([current]).get(current)
         options = set(entity.ids(*forward, preferred_only=False)) if entity else set()
         options |= self._infobox(current)[side == "after"]
-        best = None
+        own = dates(entity) if entity else (None, None)
+        best, ended = None, []
         for qid, option in self.wikidata.entities(sorted(options)).items():
-            if qid == current or not option.enwiki or not self._is_polity(option):
+            if qid == current or not option.enwiki or not self._confirmed(current, qid, side):
                 continue
+            state = qid if self._is_polity(option) else self._country_of_period(option, edge)
             start, end = dates(option)
             meeting = start if side == "after" else end
-            if meeting is None or abs(meeting - edge) > HANDOVER_TOLERANCE_YEARS:
+            if state is None or meeting is None:
                 continue
-            held = (edge, min(end, last) if end is not None else last) if side == "after" \
-                else (max(start, first) if start is not None else first, edge)
-            if held[0] > held[1] or not self._confirmed(current, qid, side) or not self._capital_inside(option, name, *held):
+            if side == "after" and end is not None and edge - HANDOVER_TOLERANCE_YEARS <= end < edge:
+                ended.append(qid)
+            distance = abs(meeting - edge)
+            if distance > HANDOVER_TOLERANCE_YEARS and not overlapping(own, (start, end), edge, side):
                 continue
-            if best is None or abs(meeting - edge) < best[0]:
-                best = (abs(meeting - edge), qid, *held)
-        return best[1:] if best else None
+            if state != qid:
+                held = (edge, last) if side == "after" else (first, edge)
+            else:
+                held = (edge, min(end, last) if end is not None else last) if side == "after" \
+                    else (max(start, first) if start is not None else first, edge)
+            state_entity = option if state == qid else self.wikidata.entities([state])[state]
+            if held[0] > held[1] or not self._capital_inside(state_entity, name, *held):
+                continue
+            rank = (distance > HANDOVER_TOLERANCE_YEARS, distance)
+            if best is None or rank < best[0]:
+                best = (rank, state, *held)
+        if best:
+            return best[1:]
+        if through:
+            return next((found for qid in ended
+                         if (found := self._successor(name, qid, edge, first, last, side, through=False))), None)
+        return None
+
+    def _country_of_period(self, period: Entity, edge: int) -> str | None:
+        """The catalogue state whose history includes the period, directly or through what the period is part of, and
+        which already stood at the edge: Sweden for its Age of Liberty, but not today's Egypt for the Second
+        Intermediate Period."""
+        histories = {period.id} | set(period.ids("P361", preferred_only=False))
+        found = [qid for qid in self.catalog.by_qid
+                 if histories & set(self.catalog.entities[qid].ids("P2184", preferred_only=False))]
+        for history in self.wikidata.entities(sorted(histories - {period.id})).values():
+            found += [state for state in history.ids("P1269", preferred_only=False) if state in self.catalog.by_qid]
+        for state in found:
+            start, end = dates(self.catalog.entities[state])
+            if start is not None and start <= edge and (end is None or end >= edge):
+                return state
+        return None
 
     def _confirmed(self, current: str, other: str, side: str) -> bool:
         forward, backward = (FORWARD, BACKWARD) if side == "after" else (BACKWARD, FORWARD)
@@ -165,6 +200,16 @@ class Lineages:
         before = rows[rows.FromYear < first].assign(ToYear=first - 1)
         after = rows[rows.ToYear > last].assign(FromYear=last + 1)
         self.frame = pd.concat([self.frame, inside, before, after], ignore_index=True)
+
+
+def overlapping(own: tuple[int | None, int | None], other: tuple[int | None, int | None], edge: int, side: str) -> bool:
+    """The other state stood at the edge and arose (after) or ended (before) within the state's own years."""
+    start, end = other
+    if start is None or start > edge or (end is not None and end < edge):
+        return False
+    if side == "after":
+        return own[0] is None or start >= own[0]
+    return end is not None and (own[1] is None or end <= own[1])
 
 
 def dates(entity: Entity) -> tuple[int | None, int | None]:
