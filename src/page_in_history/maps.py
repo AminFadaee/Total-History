@@ -26,13 +26,13 @@ from shapely.geometry import Point, box
 from shapely.ops import polylabel
 
 from page_in_history.naming import year_label
-from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA
+from page_in_history.regions import Region, home, regions
+from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES
 
 FIGURE_SIZE = (10, 5.625)
 DPI = 160
 PADDING = 0.35
 MIN_SPAN_METERS = 900_000
-REGION_GAP_METERS = 800_000
 MIN_PANEL_SHARE = 0.10
 MAX_PANELS = 3
 WORLD_SCALE_DEGREES = 120
@@ -169,33 +169,6 @@ def frame_around(bounds):
     half_height = half_width / aspect
     center_x, center_y = (left + right) / 2, (bottom + top) / 2
     return box(center_x - half_width, center_y - half_height, center_x + half_width, center_y + half_height)
-
-
-@dataclass(frozen=True)
-class Region:
-    geometry: object
-    share: float
-
-
-def regions(territory) -> list[Region]:
-    """The civilization's pieces grouped into regions of land lying within 800 km of each other, largest first, each
-    with its share of the territory."""
-    pieces = gpd.GeoSeries(list(getattr(territory, "geoms", [territory])), crs="EPSG:4326")
-    projected = pieces.to_crs(EQUAL_AREA)
-    clusters = projected.buffer(REGION_GAP_METERS / 2).union_all()
-    total = projected.area.sum()
-    found = []
-    for cluster in getattr(clusters, "geoms", [clusters]):
-        inside = projected.intersects(cluster)
-        found.append(Region(pieces[inside].union_all(), float(projected[inside].area.sum() / total)))
-    return sorted(found, key=lambda region: -region.share)
-
-
-def home(found: list[Region], capitals: list[tuple[float, float]]) -> Region:
-    """The region holding a capital, or the largest when none does: Cliopatria draws some colonial empires without
-    their homeland, which is a state of its own."""
-    return next((region for region in found for capital in capitals
-                 if region.geometry.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital))), found[0])
 
 
 class Scene:
