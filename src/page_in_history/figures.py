@@ -6,7 +6,7 @@ from dataclasses import asdict, dataclass, field
 
 from shapely.geometry import Point
 
-from page_in_history.dates import period_label
+from page_in_history.dates import century_label, period_label
 from page_in_history.naming import slugify
 from page_in_history.photos import PortraitFinder
 from page_in_history.lineages import dates
@@ -73,6 +73,7 @@ class Figure:
     civilizations: list[str]
     related: list[str]
     contribution: str
+    setting: str = ""
     image: str = ""
     image_credit: str = ""
     image_is_photo: bool = False
@@ -152,6 +153,15 @@ def contribution(paragraph: str, role_text: str, description: str | None) -> str
     return text
 
 
+def setting(civilizations: list[str], region: str, adulthood: tuple[int, int]) -> str:
+    """Where and when someone outside the deck's civilizations lived: their own state, or their region and the century
+    of the middle of their adult life ('Southern Europe, 4th century BC')."""
+    if civilizations:
+        return civilizations[0]
+    when = century_label((adulthood[0] + adulthood[1]) // 2)
+    return f"{region}, {when}" if region else when
+
+
 def words(text: str) -> set[str]:
     """The words that carry meaning, without years, which roles and articles write differently ('AD 69', '69')."""
     return set(re.findall(r"[a-z]+", text.lower())) - FILLER
@@ -166,6 +176,7 @@ class Candidate:
     score: float
     cell_rank: int | None
     core: bool = False
+    region: str = ""
 
     @property
     def adulthood(self) -> tuple[int, int]:
@@ -190,7 +201,9 @@ class FigureBuilder:
 
     def build(self, polity_names: set[str], start: int, end: int) -> list[Figure]:
         """Every candidate is placed against the whole catalog, so civilizations outside the selection can join
-        through their people; then each civilization's figures are chosen era by era."""
+        through their people; then each civilization's figures are chosen era by era. Everyone on Meta-Wiki's list of
+        1,000 articles is kept even when none of their civilizations is in the deck: under their own state, or by
+        region and century when no state can be found for them, as for Aristotle."""
         candidates = [candidate for candidate in self._candidates()
                       if candidate.lifetime[1] >= start and candidate.lifetime[0] <= end]
         self.prepare(candidates)
@@ -202,8 +215,10 @@ class FigureBuilder:
         self.extended = [{"id": candidate.person.id, "name": candidate.title,
                           "civilization": next(name for name in civilizations if name in deck)}
                          for candidate, civilizations, *_ in figures if candidate.person.id not in chosen]
-        logger.info("%d people placed in the deck's civilizations, %d chosen", len(figures), len(chosen))
-        return self._assemble([entry for entry in figures if entry[0].person.id in chosen])
+        outside = [entry for entry in placed if entry[0].core and not set(entry[1]) & deck]
+        logger.info("%d people placed in the deck's civilizations, %d chosen, and %d on Meta-Wiki's list outside them",
+                    len(figures), len(chosen), len(outside))
+        return self._assemble([entry for entry in figures if entry[0].person.id in chosen] + outside, deck)
 
     def people_backed(self, placed: list[tuple], polity_names: set[str]) -> list[str]:
         """Civilizations outside the selection that their people make notable: two people placed there among the
@@ -355,7 +370,9 @@ class FigureBuilder:
             if span and span[0] + ADULT_AGE < POST_WAR and span[1] >= span[0] + ADULT_AGE:
                 score = float(frame.score.get(qid, 0.0))
                 cell_rank = int(pool.cell_rank[qid]) if qid in pool.index else None
-                candidates.append(Candidate(person.enwiki, person, span, sections.get(qid, []), score, cell_rank, qid in core))
+                region = notable.region_name(frame.region.get(qid, notable.UNKNOWN_REGION))
+                candidates.append(Candidate(person.enwiki, person, span, sections.get(qid, []), score, cell_rank,
+                                            qid in core, region))
         return candidates
 
     def _vital_sections(self) -> dict[str, list[str]]:
@@ -499,7 +516,7 @@ class FigureBuilder:
         rows = rows[rows.geometry.contains(Point(location))]
         return [self.catalog.identities[name].qid for name in rows.Name if name in self.catalog.identities]
 
-    def _assemble(self, figures: list) -> list[Figure]:
+    def _assemble(self, figures: list, deck: set[str]) -> list[Figure]:
         """Each figure under its article's title without the disambiguator ('Fuzuli', not 'Fuzuli (poet)'), kept only
         when two figures would otherwise share a name (Francis Bacon and Francis Bacon (artist))."""
         introductions = self.wikipedia.introductions([candidate.title for candidate, *_ in figures])
@@ -525,6 +542,7 @@ class FigureBuilder:
                 civilizations=civilizations,
                 related=related,
                 contribution=contribution(paragraph, role_text, person.description),
+                setting="" if set(civilizations) & deck else setting(civilizations, candidate.region, candidate.adulthood),
                 image=image,
                 image_credit=credit,
                 image_is_photo=bool(photo) and photo.file == image,

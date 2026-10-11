@@ -140,7 +140,10 @@ update.
 7. **Figures.** Within each segment, people are ranked by the database's visibility score. Chosen are the candidates
    from step 3, the segment's best person even when they are not one, and anyone on Meta-Wiki's list, at most 25 a
    segment. Composers are capped at 20 across the deck.
-8. **The rest.** People placed in a deck civilization but not chosen are listed in `data/extended.json` and are not
+8. **Meta-Wiki's list.** Everyone on Meta-Wiki's list who passed step 3 is in the deck, even when none of their
+   civilizations is: their card names their own state (Mandela, South Africa), or, when no state can be found for
+   them, their region and the century of their adult life (Aristotle, Southern Europe, 4th century BC).
+9. **The rest.** People placed in a deck civilization but not chosen are listed in `data/extended.json` and are not
    in the deck.
 
 Both people sources lean towards Europe and, for the last two centuries, North America. Taking the same number of

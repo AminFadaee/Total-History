@@ -11,6 +11,9 @@ PERIODS = [(500, "before 500"), (1500, "500–1500"), (1750, "1500–1750"), (19
 EXCLUDED_DOMAINS = {"Sports/Games", "Missing"}
 EXCLUDED_FIELDS = {"Sports/Games", "Corporate/Executive/Business (large)", "Worker/Business (small)"}
 UNKNOWN_REGION = "Unknown"
+REGION_NAMES = {"Oceania Western World": "Oceania", "Oceania not Aus Nze": "Oceania", "SouthEast Asia": "Southeast Asia",
+                "South Asia incl. Indian Peninsula": "South Asia", "Western Asia (Middle East Caucasus)": "Western Asia",
+                UNKNOWN_REGION: ""}
 
 logger = logging.getLogger(__name__)
 
@@ -46,3 +49,8 @@ def pool(frame: pd.DataFrame, adult_before: int, adult_age: int, per_cell: int) 
                      & ~frame.level2_main_occ.isin(EXCLUDED_FIELDS)].copy()
     eligible["cell_rank"] = eligible.groupby(["region", "period"]).score.rank(ascending=False, method="first")
     return eligible[eligible.cell_rank <= per_cell]
+
+
+def region_name(region: str) -> str:
+    """The database's region as a reader would say it: 'Western Asia' for 'Western Asia (Middle East Caucasus)'."""
+    return REGION_NAMES.get(region, region)

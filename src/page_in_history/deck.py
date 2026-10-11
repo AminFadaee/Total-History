@@ -369,7 +369,7 @@ class DeckBuilder:
             "Name": escaped(document["name"]),
             "Role": escaped(document["role"]),
             "Life": escaped(document["life"]),
-            "Civilization": joined(civilizations),
+            "Civilization": joined(civilizations) or escaped(document.get("setting", "")),
             "CivilizationMap": self.media.image(maps[civilizations[0]]) if civilizations else "",
             "Contribution": escaped(document["contribution"]),
             "Image": self.media.image(document["image"]),
