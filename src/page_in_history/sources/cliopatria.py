@@ -27,9 +27,9 @@ class Spike:
 class Cliopatria:
     """Polity shapes by time step. Parenthesised groupings and alliances are left out."""
 
-    def __init__(self, frame: gpd.GeoDataFrame):
+    def __init__(self, frame: gpd.GeoDataFrame, spikes: list[Spike] | None = None):
         self.frame = frame
-        self.spikes = self._drop_spikes()
+        self.spikes = self._drop_spikes() if spikes is None else spikes
 
     @classmethod
     def load(cls, http: Http) -> "Cliopatria":

@@ -102,6 +102,12 @@ update.
 
 1. **Catalogue.** Every polity Cliopatria draws, tied to the Wikidata item of its Wikipedia article, plus states on the
    Vital Articles lists that Cliopatria does not draw, such as Classical Athens and Sparta (see *Civilizations* below).
+   Cliopatria sometimes keeps one name for a chain of states: its Kingdom of Great Britain runs to this day. Where a
+   name runs more than 50 years past the dates Wikidata gives the state, the years beyond go to the successor (or
+   predecessor) that both Wikidata and the Wikipedia infobox name, whose own dates meet the handover within 25 years
+   and whose capital lies inside the borders it takes over, and so on down the chain: the Kingdom of Great Britain
+   ends in 1801, the United Kingdom of Great Britain and Ireland follows until 1927, then the United Kingdom. Years
+   without such a successor stay with the original name.
 2. **Civilizations notable on their own.** Any one of: Vital Articles level 4 or above; a Wikipedia article in at least
    60 languages; Vital Articles level 5 with 45 languages or a peak of 1 million km²; a peak of 2 million km² without
    being a colony. A state that still exists qualifies only if Cliopatria draws it before 1900 and it reached 2 million

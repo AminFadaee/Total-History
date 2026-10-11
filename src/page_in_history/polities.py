@@ -210,10 +210,14 @@ class PolityCatalog:
         return int(rows.FromYear.min()), int(rows.ToYear.max())
 
     def add_mapless(self, identity: Identity, entity: Entity, years: tuple[int, int]) -> None:
+        self.add_drawn(identity, entity)
+        self.mapless[identity.qid] = years
+
+    def add_drawn(self, identity: Identity, entity: Entity) -> None:
         self.entities[identity.qid] = entity
         self.identities[identity.name] = identity
         self.by_qid[identity.qid] = identity
-        self.mapless[identity.qid] = years
+        self.qids[identity.name] = identity.qid
 
     def _by_name(self, failed: dict[str, tuple[str, int, int]]) -> dict[str, Identity]:
         """Cliopatria's link sometimes points at the wrong article, such as the island for the Kingdom of Great

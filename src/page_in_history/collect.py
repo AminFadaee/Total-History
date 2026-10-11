@@ -9,6 +9,7 @@ from PIL import Image
 
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
+from page_in_history.lineages import Lineages
 from page_in_history.maps import MapRenderer
 from page_in_history.photos import COMMONS_FILE, PhotoClassifier, PhotoMode, PortraitFinder, digest
 from page_in_history.polities import Polity, PolityBuilder, PolityCatalog
@@ -69,6 +70,9 @@ class Collector:
         wikipedia, wikidata = Wikipedia(self.http), Wikidata(self.http)
         countries = naturalearth.countries(self.http)
         catalog = PolityCatalog(cliopatria, wikipedia, wikidata, scope.start, scope.end)
+        lineages = Lineages(catalog)
+        lineages.apply()
+        cliopatria = catalog.cliopatria
         builder = PolityBuilder(catalog, countries)
         selected = (builder.select(scope.region, scope.start, scope.end) if scope.region
                     else builder.select_notable())
@@ -103,7 +107,7 @@ class Collector:
                 figure.image, figure.photo = "", ""
         self._write(polities, figures)
         write_json(self.paths.root / "extended.json", figure_builder.extended)
-        self._report(scope, catalog, cliopatria, polities, figures)
+        self._report(scope, catalog, cliopatria, lineages, polities, figures)
 
     def _draw(self, polity: Polity, renderer: MapRenderer) -> None:
         polity.map = f"maps/{polity.slug}.png"
@@ -127,7 +131,8 @@ class Collector:
             write_json(self.paths.figures / f"{figure.slug}.json", figure.to_json())
         logger.info("Wrote %d civilizations and %d figures", len(polities), len(figures))
 
-    def _report(self, scope: Slice, catalog: PolityCatalog, cliopatria: Cliopatria, polities, figures) -> None:
+    def _report(self, scope: Slice, catalog: PolityCatalog, cliopatria: Cliopatria, lineages: Lineages, polities,
+                figures) -> None:
         write_json(self.paths.report, {
             "slice": asdict(scope),
             "civilizations": len(polities),
@@ -135,6 +140,8 @@ class Collector:
             "failures": self.failures,
             "unresolved_polities": dict(sorted(catalog.unresolved.items())),
             "ignored_cliopatria_steps": [asdict(spike) for spike in cliopatria.spikes],
+            "lineage_handovers": [handover.to_json() for handover in lineages.handovers],
+            "names_not_matching_their_state": lineages.mismatched,
         })
 
 
