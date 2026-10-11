@@ -69,7 +69,7 @@ def slim(data: dict) -> dict:
 
 class Entity:
     def __init__(self, data: dict):
-        self.data = slim(data)
+        self.data = data
         self.id: str = data["id"]
 
     @property
@@ -149,8 +149,8 @@ class Wikidata:
         self.http = http
 
     def entities(self, ids: list[str]) -> dict[str, Entity]:
-        """Wikidata items, cached per item. They are read a few hundred at a time and slimmed, since whole items take
-        several gigabytes for the deck's people."""
+        """Wikidata items, cached per item and slimmed when fetched, since whole items take several gigabytes for the
+        deck's people and reading them back dominated a rerun. They are read a few hundred at a time."""
         unique = list(dict.fromkeys(qid for qid in ids if qid))
         found: dict[str, Entity] = {}
         for start in range(0, len(unique), ENTITY_CHUNK):
@@ -174,7 +174,7 @@ class Wikidata:
             data = self.http.json(API, params, namespace="wikidata")
             for qid, entity in data.get("entities", {}).items():
                 if "missing" not in entity:
-                    found[qid] = entity
+                    found[qid] = slim(entity)
         return found
 
     def exact_matches(self, name: str) -> list[str]:
