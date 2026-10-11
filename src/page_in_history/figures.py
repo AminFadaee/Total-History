@@ -45,7 +45,9 @@ MIN_JOINING_KM2 = 20_000
 DEATH_DISCOUNT = 0.5
 HEAD_OFFICES = ("P1906", "P1313")
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
-NAME_GLOSS = re.compile(r"^(?:also|commonly|better|often) (?:known|named|called)\b", re.IGNORECASE)
+NAME_GLOSS = re.compile(r"^(?:(?:also|commonly|better|often) (?:known|named|called)|"
+                        r"(?:his|her) (?:full |regnal |birth |personal )?(?:name|form of address|title)s?)\b", re.IGNORECASE)
+MIN_NEW_WORDS = 2
 FILLER = {"the", "a", "an", "of", "from", "to", "and", "in", "ad", "bc", "bce", "ce"}
 LEADING_CENTURY = re.compile(r"^(?:c\.\s*)?\d+(?:st|nd|rd|th)[- ]century(?:[- ](?:BCE?|AD|CE))?[- ]+", re.IGNORECASE)
 DATES_IN_PARENTHESES = re.compile(r"\s*\([^()]*\d[^()]*\)")
@@ -137,14 +139,15 @@ def predicate(paragraph: str) -> str:
 
 def contribution(paragraph: str, role_text: str, description: str | None) -> str:
     """What the person is known for: the opening sentence without its subject, or the next sentence that says more
-    than the role, when the opening one only repeats it ('Roman emperor from 69 to 79') or only glosses the name
-    ('Also known as …'); else Wikidata's description if it says more than the role; else nothing."""
+    than the role, at least two words it does not have, when the opening one only repeats it ('The tenth Mughal
+    emperor from 1713 to 1719') or only glosses the name ('Also known as …', 'His form of address was …'); else
+    Wikidata's description if it says that much more; else nothing."""
     sentences = [sentence.strip() for sentence in SENTENCE_END.split(PARENTHESES.sub("", paragraph)) if sentence.strip()]
     candidates = [predicate(paragraph)] + sentences[1:]
     text = next((candidate for candidate in candidates
                  if candidate and balanced(candidate) == candidate and not NAME_GLOSS.match(candidate)
-                 and words(candidate) - words(role_text)), "")
-    if not text and description and words(description) - words(role_text):
+                 and len(words(candidate) - words(role_text)) >= MIN_NEW_WORDS), "")
+    if not text and description and len(words(description) - words(role_text)) >= MIN_NEW_WORDS:
         text = description[:1].upper() + description[1:].rstrip(".") + "."
     return text
 
