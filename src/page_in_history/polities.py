@@ -417,9 +417,16 @@ class PolityBuilder:
         referenced = [self.catalog.entities[identity.qid].ids("P36") for identity in known]
         self.names = self.wikidata.entities([qid for ids in referenced for qid in ids] +
                                             [page.qid for page in self.pages.values() if page.qid])
-        capitals = sorted({qid for ids in referenced for qid in ids})
-        kinds = self.wikidata.kinds(capitals, {SETTLEMENT: "settlement", HERITAGE: "heritage", SITE: "site"})
-        self.settlements = {qid for qid, found in kinds.items() if found == {"settlement"}}
+        roots = {SETTLEMENT: "settlement", HERITAGE: "heritage", SITE: "site"}
+        capitals = sorted({qid for ids in referenced for qid in ids} |
+                          {qid for box in self.infoboxes.values() for qid in self._qids(box.capital)})
+        self.capital_kinds = self.wikidata.kinds(capitals, roots)
+        self.settlements = {qid for qid, found in self.capital_kinds.items() if found == {"settlement"}}
+        self.located = {qid: self.names[qid].ids("P131") for qid, found in self.capital_kinds.items()
+                        if "settlement" not in found and qid in self.names}
+        towns = sorted({town for ids in self.located.values() for town in ids})
+        self.names.update(self.wikidata.entities(towns))
+        self.towns = {qid for qid, found in self.wikidata.kinds(towns, roots).items() if "settlement" in found}
         return [self._polity(identity, self.infoboxes[identity.qid]) for identity in identities]
 
     def _stated(self, first: str, last: str) -> bool:
@@ -442,22 +449,30 @@ class PolityBuilder:
         """Capitals that Wikidata and the infobox both name: the same item, or two items for the same place within
         25 km, as when Wikidata names the prefecture Shuntian Fu and the infobox the city of Beijing. They are shown
         under the name of the place Wikidata lists, once per place (Bursa rather than the infobox's Prusa, Ayutthaya
-        rather than its historical park), or the infobox's name when Wikidata's item is wider than a place or is a heritage
-        or archaeological site (Historic City of Ayutthaya), and a
-        linked state is never a capital."""
+        rather than its historical park), or the infobox's name when Wikidata's item is wider than a place. An item that
+        is not a settlement, such as a historical park or an archaeological site (Ayutthaya Historical Park, Abbasid
+        Samarra), is shown as the town it lies in when that town is within 25 km. A state is never a capital, though a city that Wikidata also files as an administrative
+        unit, like Paris or Berlin, is."""
         listed = entity.ids("P36")
         places = [(qid, found.coordinates()) for qid, found in ((qid, self.names.get(qid)) for qid in listed)
                   if found and found.coordinates()]
         capitals = []
         for qid in self._qids(infobox.capital):
-            if qid in self.catalog.by_qid or (qid in self.names and self.catalog.is_polity(self.names[qid])):
+            if qid in self.catalog.by_qid or (qid in self.names and self.catalog.is_polity(self.names[qid])
+                                               and "settlement" not in self.capital_kinds.get(qid, set())):
                 continue
             capital = self._capital(qid)
             location = capital["location"]
             near = [place for place, coordinates in places if location and kilometres(location, coordinates) <= CAPITAL_MATCH_KM]
             nearby = bool(near)
+            source = qid
             if near and qid not in listed and near[0] in self.settlements:
-                capital = {**self._capital(near[0]), "location": location}
+                capital, source = {**self._capital(near[0]), "location": location}, near[0]
+            town = next((town for town in self.located.get(source, []) if town in self.towns and location
+                         and self.names[town].coordinates()
+                         and kilometres(location, self.names[town].coordinates()) <= CAPITAL_MATCH_KM), None)
+            if town:
+                capital = {**self._capital(town), "location": location}
             repeated = bool(location) and any(found["location"] and kilometres(location, found["location"]) <= CAPITAL_MATCH_KM
                                               for found in capitals)
             if (qid in listed or nearby) and not repeated and capital["name"] not in {found["name"] for found in capitals}:
