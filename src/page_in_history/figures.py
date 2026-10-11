@@ -28,7 +28,7 @@ ASSUMED_LIFESPAN = 70
 MAX_LIFE_YEARS = 120
 MIN_VOTES = 2
 MEMBERSHIP_SOURCES = ("office", "category", "citizenship", "vital_section")
-SINGLE_VOTE_SOURCES = ("office", "category", "vital_section")
+SINGLE_VOTE_SOURCES = ("office", "category", "vital_section", "citizenship", "birthplace")
 CORE_LIST = "Meta 1000"
 PER_CELL = 60
 STRONG_RANK, VERY_STRONG_RANK = 10, 3
@@ -371,11 +371,18 @@ class FigureBuilder:
         return found is not None and found.occupation in EXCLUDED_OCCUPATIONS
 
     def _active(self, qid: str, years: tuple[int, int]) -> bool:
+        """Whether the state existed during the years: on the map, or after the map stops drawing it until its own
+        Wikidata end, as for the Holy Roman Empire, which Cliopatria draws only until 1621. Never before the map
+        begins, since Wikidata dates many of today's countries far back."""
         if qid in self.catalog.mapless:
             first, last = self.catalog.mapless[qid]
             return first <= years[1] and last >= years[0]
         rows = self.cliopatria.rows(self.catalog.by_qid[qid].name)
-        return bool(((rows.ToYear >= years[0]) & (rows.FromYear <= years[1])).any())
+        if ((rows.ToYear >= years[0]) & (rows.FromYear <= years[1])).any():
+            return True
+        end = dates(self.catalog.entities[qid])[1]
+        first, last = int(rows.FromYear.min()), int(rows.ToYear.max())
+        return end is not None and last < end and years[0] <= end and years[1] >= first
 
     def _in_own_dates(self, qid: str, years: tuple[int, int]) -> bool:
         """Whether the state's own Wikidata dates meet the years. A name whose map years never meet those dates points
@@ -411,7 +418,9 @@ class FigureBuilder:
         places and opening links, with no source saying the person belonged to it (an office, a category, citizenship
         or the Vital Articles section), counts only when no other civilization of theirs has more votes: otherwise a
         death under a foreign occupation, like Saddam Hussein's in Baghdad drawn as American, would place them there.
-        Holding a state's own head-of-state or head-of-government office confirms that state alone. A state whose own
+        Holding a state's own head-of-state or head-of-government office confirms that state alone. Someone on Meta-Wiki's
+        list with none confirmed may rest on a single office, category, Vital Articles section, citizenship or
+        birthplace, never on a place of death or an opening link alone. A state whose own
         dates meet the person's adult life comes before one that had ended or not yet begun, as Tang before Sui for
         Xuanzang; then the best supported, a place of death counting half there since exiles die abroad; among equals
         the one the person lived in longest as an adult, then one they were a citizen of, then one whose office they
