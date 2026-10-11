@@ -154,13 +154,14 @@ class PhotoClassifier:
 
     def _picture(self, file: str) -> Image.Image | None:
         """The file at scoring size, downloaded again once if the cached copy is unreadable, as a truncated transfer
-        leaves it; None when it still cannot be read, which counts as neither a photograph nor a portrait."""
+        leaves it; None when it still cannot be read, which counts as neither a photograph nor a portrait. Pillow
+        reports some files it refuses, such as a PNG with oversized embedded text, as a ValueError."""
         url, name = COMMONS_FILE.format(quote(file), SCORE_WIDTH), f"commons-{digest(file)}-{SCORE_WIDTH}"
         for attempt in range(2):
             path = self.http.download(url, name)
             try:
                 return Image.open(path).convert("RGB")
-            except OSError:
+            except (OSError, ValueError):
                 logger.warning("Unreadable image %s (attempt %d)", file, attempt + 1)
                 path.unlink(missing_ok=True)
         return None
