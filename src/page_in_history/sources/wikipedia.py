@@ -15,6 +15,8 @@ NOTE_TEMPLATES = ("efn", "ref", "sfn", "refn", "notetag", "cn", "citation needed
 FLAG_TEMPLATES = ("flag", "flagcountry", "flagu", "flag country", "flagdeco")
 NON_ARTICLE = ("file:", "image:", "category:", "wikt:", ":category:")
 SECTION = re.compile(r"\n==[^=]")
+INFOBOX_START = re.compile(r"\{\{\s*infobox (?:former )?country\s*[|}]", re.IGNORECASE)
+BRACES = re.compile(r"\{\{|\}\}")
 DASH_TEMPLATES = ("snd", "ndash", "spaced ndash", "spnd", "sndash", "mdash", "spaced en dash", "en dash")
 DISAMBIGUATOR = re.compile(r"\s*\([^)]*\)$")
 
@@ -209,8 +211,22 @@ def bare_title(value: Wikicode) -> list[str]:
     return [title] if title else []
 
 
+def infobox_head(wikitext: str) -> str:
+    """The article up to the end of its first country infobox, which is all the parser needs and much shorter than the
+    article. The whole article when that infobox may sit inside another template."""
+    found = INFOBOX_START.search(wikitext)
+    if not found or wikitext.count("{{", 0, found.start()) != wikitext.count("}}", 0, found.start()):
+        return wikitext
+    depth = 0
+    for brace in BRACES.finditer(wikitext, found.start()):
+        depth += 1 if brace.group() == "{{" else -1
+        if depth == 0:
+            return wikitext[:brace.end()]
+    return wikitext
+
+
 def country_infobox(wikitext: str) -> Infobox | None:
-    for template in mw.parse(wikitext).filter_templates(recursive=False):
+    for template in mw.parse(infobox_head(wikitext)).filter_templates(recursive=False):
         if str(template.name).strip().lower() in INFOBOXES:
             fields = {str(param.name).strip(): param.value for param in template.params}
             start, end = infobox_years(fields)
