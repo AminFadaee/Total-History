@@ -1,0 +1,66 @@
+{
+  "id": "Q2042",
+  "slug": "charles-de-gaulle",
+  "name": "Charles de Gaulle",
+  "wikipedia": "Charles de Gaulle",
+  "role": "French general and statesman",
+  "life": "1890–1970",
+  "lifetime": [
+    1890,
+    1970
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "France",
+  "civilizations": [
+    "French Fifth Republic",
+    "Principality of Andorra"
+  ],
+  "related": [
+    "Free French",
+    "Nazi Germany",
+    "Vichy France",
+    "German Empire",
+    "United Kingdom",
+    "French Fourth Republic",
+    "French Africa",
+    "Union of Soviet Socialist Republics"
+  ],
+  "contribution": "A French general and statesman who led the Free French Forces against Nazi Germany and its puppet state of Vichy France in World War II and chaired the Provisional Government of the French Republic from 1944 to 1946 to restore democracy in France.",
+  "setting": "French Fifth Republic",
+  "image": "images/charles-de-gaulle.jpg",
+  "image_credit": "The National Archives UK · No restrictions",
+  "image_is_photo": true,
+  "photo": "images/charles-de-gaulle-photo.jpg",
+  "photo_credit": "The National Archives UK · No restrictions",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "French Fifth Republic",
+        "Principality of Andorra"
+      ],
+      "death": [
+        "French Fifth Republic"
+      ],
+      "lead": [
+        "Free French",
+        "Nazi Germany",
+        "Vichy France",
+        "French Fifth Republic",
+        "German Empire",
+        "United Kingdom",
+        "French Fourth Republic",
+        "French Africa",
+        "Union of Soviet Socialist Republics"
+      ],
+      "citizenship": [
+        "People's Democratic Republic of Algeria"
+      ],
+      "birthplace": [
+        "French Third Republic"
+      ]
+    },
+    "lead": "Charles André Joseph Marie de Gaulle (22 November 1890 – 9 November 1970) was a French general and statesman who led the Free French Forces against Nazi Germany and its puppet state of Vichy France in World War II and chaired the Provisional Government of the French Republic from 1944 to 1946 to restore democracy in France. Following the 1958 Algiers putsch, he came out of retirement at the request of President René Coty, who appointed him Prime Minister. He commissioned a new 1958 French constitution which was approved by voters in a swift majority, during a referendum, establishing the French Fifth Republic. He was subsequently elected the President of France later that year, a position he held until his resignation in 1969.",
+    "image": "",
+    "photo": "model 0.95, portrait 0.95, captured 1945, during their lifetime"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "Q6882",
+  "slug": "james-joyce",
+  "name": "James Joyce",
+  "wikipedia": "James Joyce",
+  "role": "Irish novelist and poet",
+  "life": "1882–1941",
+  "lifetime": [
+    1882,
+    1941
+  ],
+  "occupation": "Writer",
+  "birth_country": "Ireland",
+  "civilizations": [
+    "Éire"
+  ],
+  "related": [
+    "Austria-Hungary"
+  ],
+  "contribution": "An Irish novelist, poet, and literary critic.",
+  "setting": "Éire",
+  "image": "images/james-joyce.jpg",
+  "image_credit": "Public domain",
+  "image_is_photo": true,
+  "photo": "images/james-joyce-photo.jpg",
+  "photo_credit": "Public domain",
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "Éire"
+      ],
+      "death": [
+        "Swiss Confederation"
+      ],
+      "lead": [
+        "Austria-Hungary"
+      ],
+      "citizenship": [
+        "Éire",
+        "United Kingdom",
+        "French Third Republic"
+      ],
+      "birthplace": [
+        "United Kingdom of Great Britain and Ireland"
+      ]
+    },
+    "lead": "James Augustine Aloysius Joyce (born James Augusta Joyce; 2 February 1882 – 13 January 1941) was an Irish novelist, poet, and literary critic. He contributed to the modernist movement and is regarded among the most influential and important writers of the 20th century. Joyce's novel Ulysses (1922) is a landmark in which the episodes of Homer's Odyssey are paralleled in a variety of literary styles, particularly stream of consciousness. His other well-known works include the short-story collection Dubliners (1914) and the novels A Portrait of the Artist as a Young Man (1916) and Finnegans Wake (1939). His other writings include two books of poetry, a play, correspondence, and occasional journalism.",
+    "image": "main image is an object (coin, stamp, plate, crown, flag, tomb), calligraphy or missing",
+    "photo": "model 0.92, portrait 0.99"
+  }
+}
