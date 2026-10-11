@@ -12,6 +12,7 @@ from page_in_history.sources.wikipedia import country_infobox, display_name
 
 OVERSHOOT_YEARS = 25
 HANDOVER_TOLERANCE_YEARS = 25
+UNCLAIMED_YEARS = 50
 FORWARD = ("P1366", "P156")
 BACKWARD = ("P1365", "P155")
 
@@ -38,8 +39,10 @@ class Lineages:
     25 years, or it must have begun while the state still stood and outlast the handover, as the Almohads did the
     Almoravids. A successor that itself ended at the handover, like the short Duchy of Florence, is passed through to
     its own successor, and one that is a period of a country rather than a state, like Sweden's Age of Liberty, hands
-    the years to that country. Years without such a successor stay with the original name. A name whose years never
-    meet its state's dates points at the wrong state and is left alone."""
+    the years to that country. Years without such a successor stay with the original name, unless there are more than
+    50 of them: then the map has no state for them, as for Cliopatria's Tibet before 1912 or its Ngô dynasty after
+    965. A name whose years never meet its state's dates points at the wrong state and is identified again by name, or
+    leaves the catalogue."""
 
     def __init__(self, catalog: PolityCatalog):
         self.catalog = catalog
@@ -50,8 +53,10 @@ class Lineages:
         self.infoboxes: dict[str, tuple[set[str], set[str]]] = {}
         self.handovers: list[Handover] = []
         self.mismatched: list[str] = []
+        self.dropped: list[str] = []
 
     def apply(self) -> None:
+        spans = {}
         for name, identity in list(self.catalog.identities.items()):
             if identity.qid in self.catalog.mapless:
                 continue
@@ -60,11 +65,16 @@ class Lineages:
             start, end = dates(self.catalog.entities[identity.qid])
             if (start is not None and start > last) or (end is not None and end < first):
                 self.mismatched.append(name)
+                spans[name] = (first, last)
                 continue
             if end is not None and last - end > OVERSHOOT_YEARS:
                 self._hand_over(name, identity.qid, end + 1, last, "after")
             if start is not None and start - first > OVERSHOOT_YEARS:
                 self._hand_over(name, identity.qid, first, start - 1, "before")
+        for handover in self.handovers:
+            if handover.to is None and handover.end - handover.start + 1 > UNCLAIMED_YEARS:
+                self._relabel(handover.name, None, handover.start, handover.end)
+        self.dropped = self.catalog.reidentify(spans)
         frame = self.frame[self.frame.FromYear <= self.frame.ToYear].sort_values(["Name", "FromYear"])
         self.catalog.cliopatria = Cliopatria(frame.reset_index(drop=True), self.catalog.cliopatria.spikes)
         logger.info("Handed %d stretches of Cliopatria names to their successors; %d names do not match their state",
@@ -193,10 +203,12 @@ class Lineages:
     def _rows(self, name: str, first: int, last: int):
         return self.frame[(self.frame.Name == name) & (self.frame.ToYear >= first) & (self.frame.FromYear <= last)]
 
-    def _relabel(self, name: str, target: str, first: int, last: int) -> None:
+    def _relabel(self, name: str, target: str | None, first: int, last: int) -> None:
+        """The name's years from first to last drawn as the target, or as no state when there is none."""
         rows = self._rows(name, first, last)
         self.frame = self.frame.drop(index=rows.index)
         inside = rows.assign(Name=target, FromYear=rows.FromYear.clip(lower=first), ToYear=rows.ToYear.clip(upper=last))
+        inside = inside if target else inside.iloc[:0]
         before = rows[rows.FromYear < first].assign(ToYear=first - 1)
         after = rows[rows.ToYear > last].assign(FromYear=last + 1)
         self.frame = pd.concat([self.frame, inside, before, after], ignore_index=True)

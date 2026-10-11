@@ -145,6 +145,7 @@ class Collector:
             "ignored_cliopatria_steps": [asdict(spike) for spike in cliopatria.spikes],
             "lineage_handovers": [handover.to_json() for handover in lineages.handovers],
             "names_not_matching_their_state": lineages.mismatched,
+            "names_dropped_for_their_wrong_state": lineages.dropped,
         })
 
 

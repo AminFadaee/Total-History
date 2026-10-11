@@ -219,6 +219,22 @@ class PolityCatalog:
         self.by_qid[identity.qid] = identity
         self.qids[identity.name] = identity.qid
 
+    def reidentify(self, spans: dict[str, tuple[int, int]]) -> list[str]:
+        """Names whose item's dates never meet their map years point at the wrong state, such as the modern region
+        for Cliopatria's early-medieval Aquitaine. A Wikidata state named exactly like the polity, with dates that
+        overlap, stands in, as for a failed link; otherwise the name leaves the catalogue. Returns the names that left."""
+        found = self._by_name({name: (self.identities[name].qid, *years) for name, years in spans.items()})
+        dropped = []
+        for name in spans:
+            wrong = self.identities.pop(name)
+            self.by_qid.pop(wrong.qid, None)
+            self.qids.pop(name, None)
+            if name in found:
+                self.add_drawn(found[name], self.entities[found[name].qid])
+            else:
+                dropped.append(name)
+        return dropped
+
     def _by_name(self, failed: dict[str, tuple[str, int, int]]) -> dict[str, Identity]:
         """Cliopatria's link sometimes points at the wrong article, such as the island for the Kingdom of Great
         Britain. Then its own Wikidata id, or a Wikidata state named exactly like the Cliopatria polity (by label or
