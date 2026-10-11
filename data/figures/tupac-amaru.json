@@ -12,10 +12,11 @@
   "occupation": "Politician",
   "birth_country": "Peru",
   "civilizations": [
-    "Inca Empire",
     "Spanish Empire"
   ],
-  "related": [],
+  "related": [
+    "Neo-Inca State"
+  ],
   "contribution": "The last Sapa Inca of the Neo-Inca State, the final remaining independent part of the Inca Empire.",
   "image": "images/tupac-amaru.jpg",
   "image_credit": "Cuzco School / Unidentified painter · Public domain",
@@ -28,10 +29,7 @@
         "Spanish Empire"
       ],
       "lead": [
-        "Inca Empire"
-      ],
-      "vital_section": [
-        "Inca Empire"
+        "Neo-Inca State"
       ],
       "birthplace": [
         "Spanish Empire"

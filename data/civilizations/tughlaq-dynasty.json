@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Delhi",
+      "location": [
+        77.216666666667,
+        28.666666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q919071",
@@ -53,7 +61,7 @@
       1414
     ],
     "identity": "Wikipedia article with a country infobox",
-    "home": "the spot held longest",
+    "home": "Delhi",
     "labelled": [
       "Ilkhanate",
       "Chagatai Khanate",

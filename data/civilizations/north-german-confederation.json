@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q151624",
@@ -52,7 +60,7 @@
       1870
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Berlin",
     "labelled": [
       "Russian Empire",
       "Austria-Hungary",

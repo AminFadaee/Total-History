@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Pantikapaion",
+      "location": [
+        36.46861111,
+        45.35083333
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -42,7 +50,7 @@
       372
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Pantikapaion",
     "labelled": [
       "Caucasian Iberia",
       "Lazica"

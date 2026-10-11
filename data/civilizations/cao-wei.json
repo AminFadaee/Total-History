@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Luoyang",
+      "location": [
+        112.42447,
+        34.65867
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q7209",
@@ -51,7 +59,7 @@
       264
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Luoyang",
     "labelled": [
       "Eastern Wu",
       "Indo-Sasanian Empire",

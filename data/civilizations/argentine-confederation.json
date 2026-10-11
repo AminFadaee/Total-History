@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Paraná",
+      "location": [
+        -60.52972222222222,
+        -31.733055555555556
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -47,7 +55,7 @@
       1929
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Paraná",
     "labelled": [
       "Empire of Brazil",
       "Bolivia",

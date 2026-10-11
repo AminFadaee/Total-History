@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q43287",
@@ -60,7 +68,7 @@
       1935
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Berlin",
     "labelled": [
       "French Third Republic",
       "Second Polish Republic",

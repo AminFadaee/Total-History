@@ -12,7 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Sweden",
   "civilizations": [
-    "Swedish Empire"
+    "Kingdom of Sweden"
   ],
   "related": [],
   "contribution": "Queen of Sweden from 5 December 1718 until her abdication on 29 February 1720 in favour of Frederick, her husband.",
@@ -23,8 +23,14 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Kingdom of Sweden"
+      ],
       "death": [
-        "Swedish Empire"
+        "Kingdom of Sweden"
+      ],
+      "citizenship": [
+        "Kingdom of Sweden"
       ],
       "birthplace": [
         "Swedish Empire"

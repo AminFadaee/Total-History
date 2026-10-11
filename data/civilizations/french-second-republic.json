@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -46,7 +54,7 @@
       1852
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Paris",
     "labelled": [
       "Kingdom of Spain",
       "German Confederation",

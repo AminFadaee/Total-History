@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Alexandria",
+      "location": [
+        29.8925,
+        31.1975
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -49,7 +57,7 @@
       -28
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Alexandria",
     "labelled": [
       "Parthian Empire",
       "Roman Empire",

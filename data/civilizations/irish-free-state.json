@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Dublin",
+      "location": [
+        -6.260277777777778,
+        53.34972222222222
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q174193",
@@ -55,7 +63,7 @@
       1937
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Dublin",
     "labelled": [
       "United Kingdom of Great Britain and Ireland"
     ]

@@ -13,7 +13,15 @@
     "end": null,
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Seuthopolis",
+      "location": [
+        25.305556,
+        42.618056
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -45,7 +53,7 @@
       -338
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Seuthopolis",
     "labelled": [
       "Greek City-States",
       "Macedonian Empire",

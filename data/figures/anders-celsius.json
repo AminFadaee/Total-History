@@ -12,10 +12,10 @@
   "occupation": "Astronomer",
   "birth_country": "Sweden",
   "civilizations": [
-    "Swedish Empire"
+    "Kingdom of Sweden"
   ],
   "related": [],
-  "contribution": "A Swedish astronomer, physicist and mathematician.",
+  "contribution": "He was professor of astronomy at Uppsala University from 1730 to 1744, but traveled from 1732 to 1735 visiting notable observatories in Germany, Italy and France",
   "image": "images/anders-celsius.jpg",
   "image_credit": "Olof Arenius · Public domain",
   "image_is_photo": false,
@@ -24,7 +24,10 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Swedish Empire"
+        "Kingdom of Sweden"
+      ],
+      "citizenship": [
+        "Kingdom of Sweden"
       ],
       "birthplace": [
         "Swedish Empire"

@@ -13,7 +13,15 @@
     "end": null,
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Washington",
+      "location": [
+        -77.036666666667,
+        38.895
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -42,7 +50,7 @@
       2024
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Washington",
     "labelled": [
       "Canada",
       "Mexico",

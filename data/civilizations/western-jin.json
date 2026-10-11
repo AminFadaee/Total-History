@@ -17,9 +17,21 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Luoyang",
+      "location": [
+        112.42447,
+        34.65867
+      ]
+    }
+  ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q320930",
+    "region": "China",
+    "name": "Cao Wei"
+  },
   "after": {
     "id": "Q49697",
     "region": "China",
@@ -48,7 +60,7 @@
       425
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Luoyang",
     "labelled": [
       "Indo-Sasanian Empire",
       "Goguryeo",

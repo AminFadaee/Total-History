@@ -17,9 +17,21 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Shenyang",
+      "location": [
+        123.42805555555556,
+        41.8025
+      ]
+    }
+  ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q9903",
+    "region": "China",
+    "name": "Ming Dynasty"
+  },
   "after": {
     "id": "Q8733",
     "region": "China",
@@ -48,7 +60,7 @@
       1644
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Shenyang",
     "labelled": [
       "Golden Horde",
       "Ming Dynasty",

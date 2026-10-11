@@ -13,7 +13,15 @@
     },
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Vienna",
+      "location": [
+        16.3725,
+        48.208333333333336
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -49,7 +57,7 @@
       1805
     ],
     "identity": "Wikipedia item with overlapping dates",
-    "home": "the spot held longest",
+    "home": "Vienna",
     "labelled": [
       "Ottoman Empire",
       "Polish-Lithuanian Commonwealth",

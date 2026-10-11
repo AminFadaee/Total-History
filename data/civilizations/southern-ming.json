@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Nanjing",
+      "location": [
+        118.77888888888889,
+        32.060833333333335
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q9903",
@@ -53,7 +61,7 @@
       1682
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Nanjing",
     "labelled": [
       "Tibet",
       "Qing Dynasty",

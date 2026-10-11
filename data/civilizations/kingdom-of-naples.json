@@ -3,15 +3,19 @@
   "slug": "kingdom-of-naples",
   "name": "Kingdom of Naples",
   "wikipedia": "Kingdom of Naples",
-  "map_year": 1497,
+  "map_year": 1762,
   "period": {
     "start": {
       "earliest": 1282,
       "latest": 1282,
       "circa": false
     },
-    "end": null,
-    "confirmed": false
+    "end": {
+      "earliest": 1816,
+      "latest": 1816,
+      "circa": false
+    },
+    "confirmed": true
   },
   "capitals": [
     {
@@ -28,7 +32,11 @@
     "region": "Italy",
     "name": "Kingdom of Sicily"
   },
-  "after": {},
+  "after": {
+    "id": "Q48779892",
+    "region": "Italy",
+    "name": "Kingdom of Naples (Napoleonic)"
+  },
   "rulers": [],
   "modern_countries": [
     "Italy"
@@ -47,15 +55,17 @@
     },
     "cliopatria_years": [
       1285,
-      1501
+      1805
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Naples",
     "labelled": [
-      "Crown of Aragon",
+      "Habsburg Monarchy",
       "Papal States",
-      "Republic of Genoa",
-      "Republic of Florence"
+      "Regency of Algiers",
+      "Beylik of Tunis",
+      "Principality of Wallachia",
+      "Kingdom of Sardinia"
     ]
   }
 }

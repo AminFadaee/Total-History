@@ -34,7 +34,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q1069690",
+    "region": "China",
+    "name": "Chen"
+  },
   "after": {
     "id": "Q34756",
     "region": "China",
@@ -61,7 +65,7 @@
       ]
     },
     "cliopatria_years": [
-      -750,
+      -722,
       -224
     ],
     "identity": "same item in Cliopatria and Wikipedia",

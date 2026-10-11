@@ -31,10 +31,21 @@
         116.33333333333333,
         39.86666666666667
       ]
+    },
+    {
+      "name": "Kaifeng",
+      "location": [
+        114.345,
+        34.795
+      ]
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q7462",
+    "region": "China",
+    "name": "Northern Song"
+  },
   "after": {
     "id": "Q12557",
     "region": "China",
@@ -68,7 +79,7 @@
       1235
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Huiningfu",
+    "home": "Kaifeng",
     "labelled": [
       "Mongol Empire",
       "Southern Song",

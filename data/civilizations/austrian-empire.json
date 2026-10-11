@@ -17,16 +17,24 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Vienna",
+      "location": [
+        16.3725,
+        48.208333333333336
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q153136",
-    "region": "Slovakia",
+    "region": "Austria",
     "name": "Habsburg Monarchy"
   },
   "after": {
     "id": "Q28513",
-    "region": "Slovakia",
+    "region": "Austria",
     "name": "Austria-Hungary"
   },
   "rulers": [
@@ -71,7 +79,7 @@
       1867
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Vienna",
     "labelled": [
       "Russian Empire",
       "Ottoman Empire",

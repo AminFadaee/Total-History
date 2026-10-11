@@ -12,7 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Peru",
   "civilizations": [
-    "Inca Empire"
+    "Neo-Inca State"
   ],
   "related": [],
   "contribution": "An Inca ruler in Peru.",
@@ -23,14 +23,17 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Neo-Inca State"
+      ],
       "death": [
         "Spanish Empire"
       ],
       "lead": [
-        "Inca Empire"
+        "Neo-Inca State"
       ],
       "birthplace": [
-        "Inca Empire"
+        "Neo-Inca State"
       ]
     },
     "lead": "Sayri Túpac (1534/1535 – 1560) was an Inca ruler in Peru. He was a son of siblings Manco Inca Yupanqui and Cura Ocllo. After the death of his mother in 1539 and of his father in 1544, both at the hands of Spanish conquerors, he became the ruler of the Neo-Inca State in Vilcabamba. He ruled until his death in 1560.",

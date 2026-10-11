@@ -17,14 +17,40 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Maragheh",
+      "location": [
+        46.23916666666667,
+        37.39194444444445
+      ]
+    },
+    {
+      "name": "Tabriz",
+      "location": [
+        46.29611111111111,
+        38.07388888888889
+      ]
+    },
+    {
+      "name": "Soltaniyeh",
+      "location": [
+        48.7975,
+        36.434722
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q12557",
     "region": "Iran",
     "name": "Mongol Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q1089675",
+    "region": "Iran",
+    "name": "Chobanids"
+  },
   "rulers": [],
   "modern_countries": [
     "Iran",
@@ -57,7 +83,7 @@
       1343
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Maragheh",
     "labelled": [
       "Golden Horde",
       "Chagatai Khanate",

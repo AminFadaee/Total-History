@@ -10,8 +10,12 @@
       "latest": 1912,
       "circa": false
     },
-    "end": null,
-    "confirmed": false
+    "end": {
+      "earliest": 1949,
+      "latest": 1949,
+      "circa": false
+    },
+    "confirmed": true
   },
   "capitals": [
     {
@@ -19,6 +23,13 @@
       "location": [
         116.407526,
         39.90403
+      ]
+    },
+    {
+      "name": "Nanjing",
+      "location": [
+        118.77888888888889,
+        32.060833333333335
       ]
     },
     {
@@ -72,7 +83,7 @@
     },
     "cliopatria_years": [
       1912,
-      2024
+      1971
     ],
     "identity": "Wikipedia item with overlapping dates",
     "home": "Chongqing",
@@ -84,7 +95,7 @@
       "French Indochina",
       "Emirate of Afghanistan",
       "Ottoman Empire",
-      "Emirate of Nejd"
+      "Najd Sanjak"
     ]
   }
 }

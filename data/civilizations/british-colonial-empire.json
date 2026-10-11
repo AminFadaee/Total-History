@@ -13,7 +13,15 @@
     },
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "London",
+      "location": [
+        -0.1275,
+        51.507222222222
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},

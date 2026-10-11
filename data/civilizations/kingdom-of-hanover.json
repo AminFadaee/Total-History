@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Hanover",
+      "location": [
+        9.7386111111111,
+        52.374444444444
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q706018",
@@ -63,7 +71,7 @@
       1865
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Hanover",
     "labelled": [
       "German Confederation",
       "United Kingdom of Great Britain and Ireland",

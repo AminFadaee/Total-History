@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Prague",
+      "location": [
+        14.421388888888888,
+        50.0875
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -53,7 +61,7 @@
       1528
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Prague",
     "labelled": [
       "Holy Roman Empire Minor States",
       "Kingdom of Poland",

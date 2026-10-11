@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Manyakheta",
+      "location": [
+        77.160833333333,
+        17.195
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q1395011",
@@ -50,7 +58,7 @@
       989
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Manyakheta",
     "labelled": [
       "Pala Empire",
       "Late Pallava Empire",

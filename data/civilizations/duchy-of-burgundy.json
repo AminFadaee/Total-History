@@ -13,7 +13,15 @@
     },
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Dijon",
+      "location": [
+        5.0419444444444,
+        47.323055555556
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -46,7 +54,7 @@
       1481
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Dijon",
     "labelled": [
       "Holy Roman Empire Minor States",
       "Kingdom of France",

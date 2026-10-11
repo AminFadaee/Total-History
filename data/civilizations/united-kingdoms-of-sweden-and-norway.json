@@ -30,7 +30,11 @@
     "Kingdom of Sweden",
     "Old Kingdom of Norway"
   ],
-  "before": {},
+  "before": {
+    "id": "Q34",
+    "region": "Sweden",
+    "name": "Kingdom of Sweden"
+  },
   "after": {
     "id": "Q34",
     "region": "Sweden",

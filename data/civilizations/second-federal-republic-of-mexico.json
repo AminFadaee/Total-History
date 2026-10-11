@@ -1,0 +1,66 @@
+{
+  "id": "Q7443295",
+  "slug": "second-federal-republic-of-mexico",
+  "name": "Second Federal Republic of Mexico",
+  "wikipedia": "Second Federal Republic of Mexico",
+  "map_year": 1847,
+  "period": {
+    "start": {
+      "earliest": 1846,
+      "latest": 1846,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1863,
+      "latest": 1863,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Mexico City",
+      "location": [
+        -99.13589,
+        19.353773
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q5062192",
+    "region": "Mexico",
+    "name": "Centralist Mexico"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico",
+    "United States"
+  ],
+  "borders": true,
+  "map": "maps/second-federal-republic-of-mexico.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mexico City"
+      ],
+      "infobox": [
+        "Mexico City"
+      ]
+    },
+    "cliopatria_years": [
+      1847,
+      1863
+    ],
+    "identity": "successor on borders Cliopatria gives an earlier name",
+    "home": "Mexico City",
+    "labelled": [
+      "United States of America",
+      "Venezuela",
+      "Republic of New Granada",
+      "Honduras"
+    ]
+  }
+}

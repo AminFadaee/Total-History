@@ -12,10 +12,10 @@
   "occupation": "Chemist",
   "birth_country": "Germany",
   "civilizations": [
-    "Swedish Empire"
+    "Kingdom of Sweden"
   ],
   "related": [],
-  "contribution": "A German-Swedish pharmaceutical chemist.",
+  "contribution": "",
   "image": "images/carl-wilhelm-scheele.jpg",
   "image_credit": "Public domain",
   "image_is_photo": false,
@@ -24,10 +24,13 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Swedish Empire"
+        "Kingdom of Sweden"
+      ],
+      "citizenship": [
+        "Kingdom of Sweden"
       ],
       "birthplace": [
-        "Swedish Empire"
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Carl Wilhelm Scheele (German: [ˈʃeːlə], Swedish: [ˈɧêːlɛ]; 9 December 1742 – 21 May 1786) was a German-Swedish pharmaceutical chemist.",

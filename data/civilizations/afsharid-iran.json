@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Mashhad",
+      "location": [
+        59.60592305555556,
+        36.297494444444446
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q627449",
@@ -25,9 +33,9 @@
     "name": "Hotaki Dynasty"
   },
   "after": {
-    "id": "Q146597",
+    "id": "Q467627",
     "region": "Iran",
-    "name": "Zand Dynasty"
+    "name": "Durrani Empire"
   },
   "rulers": [],
   "modern_countries": [
@@ -57,7 +65,7 @@
       1756
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Mashhad",
     "labelled": [
       "Ottoman Empire",
       "Dzungar Khanate",

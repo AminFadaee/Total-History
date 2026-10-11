@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Tehran",
+      "location": [
+        51.389722222222225,
+        35.68888888888889
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q63158027",
@@ -55,7 +63,7 @@
       1978
     ],
     "identity": "the state named after Pahlavi dynasty",
-    "home": "the spot held longest",
+    "home": "Tehran",
     "labelled": [
       "British Raj",
       "Union of Soviet Socialist Republics",

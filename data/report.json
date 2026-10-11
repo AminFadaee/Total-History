@@ -4,7 +4,7 @@
     "start": -3400,
     "end": 2024
   },
-  "civilizations": 371,
+  "civilizations": 373,
   "figures": 1797,
   "failures": [],
   "unresolved_polities": {
@@ -627,7 +627,7 @@
         1270,
         1343
       ],
-      "to": null
+      "to": "Marinid Sultanate"
     },
     {
       "name": "Almoravid Dynasty",
@@ -636,7 +636,7 @@
         1148,
         1205
       ],
-      "to": null
+      "to": "Almohad Caliphate"
     },
     {
       "name": "Alodia",
@@ -662,6 +662,15 @@
       "years": [
         1557,
         1768
+      ],
+      "to": null
+    },
+    {
+      "name": "Bidar Sultanate",
+      "side": "before",
+      "years": [
+        1492,
+        1526
       ],
       "to": null
     },
@@ -693,6 +702,24 @@
       "to": null
     },
     {
+      "name": "Cao",
+      "side": "after",
+      "years": [
+        -486,
+        -451
+      ],
+      "to": null
+    },
+    {
+      "name": "Caucasian Albania",
+      "side": "after",
+      "years": [
+        462,
+        509
+      ],
+      "to": null
+    },
+    {
       "name": "Caucasian Albania",
       "side": "before",
       "years": [
@@ -700,6 +727,24 @@
         -2
       ],
       "to": null
+    },
+    {
+      "name": "Chen",
+      "side": "after",
+      "years": [
+        -478,
+        -451
+      ],
+      "to": null
+    },
+    {
+      "name": "Chu",
+      "side": "before",
+      "years": [
+        -750,
+        -723
+      ],
+      "to": "Chen"
     },
     {
       "name": "County of Besalú",
@@ -792,6 +837,15 @@
       "to": null
     },
     {
+      "name": "Emirate of Nejd",
+      "side": "after",
+      "years": [
+        1892,
+        1925
+      ],
+      "to": "Najd Sanjak"
+    },
+    {
       "name": "Empire of Haiti",
       "side": "after",
       "years": [
@@ -810,11 +864,56 @@
       "to": null
     },
     {
+      "name": "Estado Novo",
+      "side": "after",
+      "years": [
+        1975,
+        2024
+      ],
+      "to": null
+    },
+    {
       "name": "Ethiopia",
       "side": "before",
       "years": [
         1942,
         1994
+      ],
+      "to": null
+    },
+    {
+      "name": "Federated Republic of Mexico",
+      "side": "after",
+      "years": [
+        1836,
+        1846
+      ],
+      "to": "Centralist Mexico"
+    },
+    {
+      "name": "Federated Republic of Mexico",
+      "side": "after",
+      "years": [
+        1847,
+        1863
+      ],
+      "to": "Second Federal Republic of Mexico"
+    },
+    {
+      "name": "Federated Republic of Mexico",
+      "side": "after",
+      "years": [
+        1864,
+        1865
+      ],
+      "to": null
+    },
+    {
+      "name": "Fifteenth Dynasty of Egypt",
+      "side": "after",
+      "years": [
+        -1549,
+        -1501
       ],
       "to": null
     },
@@ -844,6 +943,15 @@
         1919
       ],
       "to": "West Prussia"
+    },
+    {
+      "name": "French Indochina",
+      "side": "before",
+      "years": [
+        1860,
+        1886
+      ],
+      "to": null
     },
     {
       "name": "Funan",
@@ -882,6 +990,15 @@
       "to": null
     },
     {
+      "name": "Habsburg Monarchy",
+      "side": "before",
+      "years": [
+        1487,
+        1525
+      ],
+      "to": null
+    },
+    {
       "name": "Hamdanid Emirates",
       "side": "after",
       "years": [
@@ -900,11 +1017,56 @@
       "to": null
     },
     {
+      "name": "Inca Empire",
+      "side": "after",
+      "years": [
+        1534,
+        1571
+      ],
+      "to": "Neo-Inca State"
+    },
+    {
       "name": "Janapada of Aśmaka",
       "side": "after",
       "years": [
         -424,
         -351
+      ],
+      "to": null
+    },
+    {
+      "name": "Janapada of Gandhāra",
+      "side": "after",
+      "years": [
+        -534,
+        -501
+      ],
+      "to": null
+    },
+    {
+      "name": "Janapada of Kāśī",
+      "side": "after",
+      "years": [
+        -500,
+        -451
+      ],
+      "to": null
+    },
+    {
+      "name": "Kadamba Empire",
+      "side": "after",
+      "years": [
+        526,
+        554
+      ],
+      "to": "Chalukya Dynasty"
+    },
+    {
+      "name": "Karkota Dynasty",
+      "side": "before",
+      "years": [
+        592,
+        624
       ],
       "to": null
     },
@@ -963,11 +1125,38 @@
       "to": null
     },
     {
+      "name": "Kingdom of Brittany",
+      "side": "before",
+      "years": [
+        825,
+        850
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Brycheiniog",
+      "side": "after",
+      "years": [
+        1055,
+        1084
+      ],
+      "to": null
+    },
+    {
       "name": "Kingdom of Castile",
       "side": "before",
       "years": [
         961,
         1064
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Denmark",
+      "side": "before",
+      "years": [
+        936,
+        964
       ],
       "to": null
     },
@@ -1044,6 +1233,42 @@
       "to": null
     },
     {
+      "name": "Kingdom of Morgannwg",
+      "side": "before",
+      "years": [
+        540,
+        579
+      ],
+      "to": null
+    },
+    {
+      "name": "Kingdom of Naples (Napoleonic)",
+      "side": "before",
+      "years": [
+        1762,
+        1805
+      ],
+      "to": "Kingdom of Naples"
+    },
+    {
+      "name": "Kingdom of Northumbria",
+      "side": "before",
+      "years": [
+        612,
+        652
+      ],
+      "to": "Kingdom of Deira"
+    },
+    {
+      "name": "Kingdom of Seisyllwg",
+      "side": "after",
+      "years": [
+        921,
+        959
+      ],
+      "to": "Deheubarth"
+    },
+    {
       "name": "Kingdom of Serbia",
       "side": "before",
       "years": [
@@ -1080,6 +1305,15 @@
       "to": null
     },
     {
+      "name": "Kingdom of Urartu",
+      "side": "after",
+      "years": [
+        -589,
+        -551
+      ],
+      "to": null
+    },
+    {
       "name": "Kingdom of the Iberians",
       "side": "before",
       "years": [
@@ -1098,11 +1332,29 @@
       "to": null
     },
     {
+      "name": "Lakhmid Kingdom",
+      "side": "after",
+      "years": [
+        603,
+        633
+      ],
+      "to": null
+    },
+    {
       "name": "Later Zhou",
       "side": "before",
       "years": [
         -750,
         950
+      ],
+      "to": null
+    },
+    {
+      "name": "Magna Frisia",
+      "side": "after",
+      "years": [
+        735,
+        771
       ],
       "to": null
     },
@@ -1114,6 +1366,24 @@
         2024
       ],
       "to": "Mali"
+    },
+    {
+      "name": "Maratha Empire",
+      "side": "after",
+      "years": [
+        1819,
+        1845
+      ],
+      "to": null
+    },
+    {
+      "name": "Maynila",
+      "side": "after",
+      "years": [
+        1572,
+        1599
+      ],
+      "to": null
     },
     {
       "name": "Middle Kingdom of Egypt",
@@ -1159,6 +1429,15 @@
         1953
       ],
       "to": "Colony of Curaçao and Dependencies"
+    },
+    {
+      "name": "New France",
+      "side": "after",
+      "years": [
+        1764,
+        1791
+      ],
+      "to": null
     },
     {
       "name": "New Kingdom of Egypt",
@@ -1215,6 +1494,51 @@
       "to": null
     },
     {
+      "name": "Papua New Guinea",
+      "side": "before",
+      "years": [
+        1949,
+        1974
+      ],
+      "to": "Territory of Papua and New Guinea"
+    },
+    {
+      "name": "Papua New Guinea",
+      "side": "before",
+      "years": [
+        1946,
+        1948
+      ],
+      "to": "Territory of New Guinea"
+    },
+    {
+      "name": "Peloponnesian League",
+      "side": "after",
+      "years": [
+        -365,
+        -338
+      ],
+      "to": null
+    },
+    {
+      "name": "Portuguese Ceylon",
+      "side": "after",
+      "years": [
+        1659,
+        1686
+      ],
+      "to": null
+    },
+    {
+      "name": "Principality of Bulgaria",
+      "side": "after",
+      "years": [
+        1909,
+        1944
+      ],
+      "to": "Kingdom of Bulgaria"
+    },
+    {
       "name": "Principality of Capua",
       "side": "before",
       "years": [
@@ -1260,11 +1584,47 @@
       "to": null
     },
     {
+      "name": "Principality of Theodoro",
+      "side": "before",
+      "years": [
+        1333,
+        1359
+      ],
+      "to": null
+    },
+    {
       "name": "Pskov Republic",
       "side": "before",
       "years": [
         1285,
         1347
+      ],
+      "to": null
+    },
+    {
+      "name": "Ptolemaic Kingdom",
+      "side": "before",
+      "years": [
+        -331,
+        -306
+      ],
+      "to": null
+    },
+    {
+      "name": "Qataban",
+      "side": "after",
+      "years": [
+        151,
+        183
+      ],
+      "to": null
+    },
+    {
+      "name": "Qatar Dynasty",
+      "side": "before",
+      "years": [
+        1820,
+        1869
       ],
       "to": null
     },
@@ -1275,7 +1635,7 @@
         1972,
         2024
       ],
-      "to": null
+      "to": "Taiwan"
     },
     {
       "name": "Republic of Florence",
@@ -1284,14 +1644,41 @@
         1570,
         1737
       ],
-      "to": null
+      "to": "Grand Duchy of Tuscany"
+    },
+    {
+      "name": "Roman Kingdom",
+      "side": "after",
+      "years": [
+        -508,
+        -481
+      ],
+      "to": "Roman Republic"
     },
     {
       "name": "Saadi Sultanate",
       "side": "after",
       "years": [
         1660,
+        1668
+      ],
+      "to": "Republic of Salé"
+    },
+    {
+      "name": "Saadi Sultanate",
+      "side": "after",
+      "years": [
+        1669,
         1740
+      ],
+      "to": null
+    },
+    {
+      "name": "Serbian Despots",
+      "side": "before",
+      "years": [
+        1375,
+        1401
       ],
       "to": null
     },
@@ -1301,6 +1688,24 @@
       "years": [
         1372,
         1458
+      ],
+      "to": null
+    },
+    {
+      "name": "Seventeenth Dynasty of Egypt",
+      "side": "after",
+      "years": [
+        -1549,
+        -1501
+      ],
+      "to": null
+    },
+    {
+      "name": "Shang Dynasty",
+      "side": "after",
+      "years": [
+        -1045,
+        -1001
       ],
       "to": null
     },
@@ -1359,13 +1764,22 @@
       "to": null
     },
     {
+      "name": "Sur Empire",
+      "side": "after",
+      "years": [
+        1557,
+        1594
+      ],
+      "to": null
+    },
+    {
       "name": "Swedish Empire",
       "side": "after",
       "years": [
         1722,
         1814
       ],
-      "to": null
+      "to": "Kingdom of Sweden"
     },
     {
       "name": "Swiss Confederation",
@@ -1440,11 +1854,47 @@
       "to": null
     },
     {
+      "name": "Unified Silla",
+      "side": "after",
+      "years": [
+        893,
+        918
+      ],
+      "to": "Taebong"
+    },
+    {
+      "name": "Unified Silla",
+      "side": "after",
+      "years": [
+        919,
+        935
+      ],
+      "to": null
+    },
+    {
+      "name": "United Principalities of Moldavia and Wallachia",
+      "side": "after",
+      "years": [
+        1882,
+        1916
+      ],
+      "to": "Kingdom of Romania"
+    },
+    {
       "name": "Vakataka Kingdom",
       "side": "after",
       "years": [
         501,
         554
+      ],
+      "to": null
+    },
+    {
+      "name": "Visigothic Kingdom",
+      "side": "before",
+      "years": [
+        426,
+        475
       ],
       "to": null
     },
@@ -1458,11 +1908,47 @@
       "to": null
     },
     {
+      "name": "Western Xia",
+      "side": "before",
+      "years": [
+        990,
+        1037
+      ],
+      "to": null
+    },
+    {
       "name": "Xu",
       "side": "after",
       "years": [
         -511,
         -285
+      ],
+      "to": null
+    },
+    {
+      "name": "Zhu",
+      "side": "before",
+      "years": [
+        -750,
+        -701
+      ],
+      "to": null
+    },
+    {
+      "name": "Đại Việt",
+      "side": "after",
+      "years": [
+        1806,
+        1833
+      ],
+      "to": null
+    },
+    {
+      "name": "Caliphate of Córdoba",
+      "side": "after",
+      "years": [
+        1032,
+        1071
       ],
       "to": null
     },

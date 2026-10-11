@@ -1,0 +1,77 @@
+{
+  "id": "Q10715354",
+  "slug": "neo-inca-state",
+  "name": "Neo-Inca State",
+  "wikipedia": "Neo-Inca State",
+  "map_year": 1534,
+  "period": {
+    "start": {
+      "earliest": 1537,
+      "latest": 1537,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1572,
+      "latest": 1572,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Vilcabamba",
+      "location": [
+        -73.205833333333,
+        -12.902777777778
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q28573",
+    "region": "Peru",
+    "name": "Inca Empire"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q332049",
+      "name": "Manco Inca Yupanqui"
+    },
+    {
+      "id": "Q467934",
+      "name": "Sayri Túpac"
+    },
+    {
+      "id": "Q381752",
+      "name": "Titu Cusi"
+    }
+  ],
+  "modern_countries": [
+    "Peru",
+    "Bolivia",
+    "Argentina",
+    "Chile",
+    "Ecuador"
+  ],
+  "borders": true,
+  "map": "maps/neo-inca-state.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Vilcabamba, Peru"
+      ],
+      "infobox": [
+        "Vilcabamba, Peru"
+      ]
+    },
+    "cliopatria_years": [
+      1534,
+      1571
+    ],
+    "identity": "successor on borders Cliopatria gives an earlier name",
+    "home": "Vilcabamba",
+    "labelled": []
+  }
+}

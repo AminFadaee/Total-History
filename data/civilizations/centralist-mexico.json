@@ -3,7 +3,7 @@
   "slug": "centralist-mexico",
   "name": "Centralist Mexico",
   "wikipedia": "Centralist Republic of Mexico",
-  "map_year": 1842,
+  "map_year": 1836,
   "period": {
     "start": {
       "earliest": 1835,
@@ -32,7 +32,11 @@
     "region": "Mexico",
     "name": "Federated Republic of Mexico"
   },
-  "after": {},
+  "after": {
+    "id": "Q7443295",
+    "region": "Mexico",
+    "name": "Second Federal Republic of Mexico"
+  },
   "rulers": [],
   "modern_countries": [
     "Mexico",
@@ -57,11 +61,11 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Mexico City",
     "labelled": [
-      "Federated Republic of Mexico",
       "United States of America",
-      "Republic of New Granada",
+      "United Provinces of Central America",
       "Republic of Texas",
-      "Honduras"
+      "Republic of New Granada",
+      "Venezuela"
     ]
   }
 }

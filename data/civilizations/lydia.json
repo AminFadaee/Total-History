@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Sardis",
+      "location": [
+        28.040278,
+        38.488333
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -55,7 +63,7 @@
       -541
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Sardis",
     "labelled": []
   }
 }

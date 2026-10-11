@@ -19,6 +19,20 @@
   },
   "capitals": [
     {
+      "name": "Montgomery",
+      "location": [
+        -86.3,
+        32.3675
+      ]
+    },
+    {
+      "name": "Richmond",
+      "location": [
+        -77.43666666666667,
+        37.54083333333333
+      ]
+    },
+    {
       "name": "Danville",
       "location": [
         -79.404404,
@@ -64,10 +78,10 @@
       1865
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Danville",
+    "home": "Montgomery",
     "labelled": [
       "United States of America",
-      "Federated Republic of Mexico",
+      "Second Federal Republic of Mexico",
       "Spanish Empire"
     ]
   }

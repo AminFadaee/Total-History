@@ -12,7 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Sweden",
   "civilizations": [
-    "Swedish Empire"
+    "Kingdom of Sweden"
   ],
   "related": [
     "Kingdom of Great Britain"
@@ -25,14 +25,20 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Kingdom of Sweden"
+      ],
       "death": [
-        "Swedish Empire"
+        "Kingdom of Sweden"
       ],
       "lead": [
         "Kingdom of Great Britain"
       ],
+      "citizenship": [
+        "Kingdom of Sweden"
+      ],
       "birthplace": [
-        "Swedish Empire"
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Gustav III (24 January [O.S. 13 January] 1746 – 29 March 1792), also called Gustavus III, was King of Sweden from 1771 until his assassination in 1792. He was the eldest son of King Adolf Frederick and Queen Louisa Ulrika of Sweden.",

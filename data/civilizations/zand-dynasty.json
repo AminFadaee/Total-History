@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Shiraz",
+      "location": [
+        52.53111111111111,
+        29.610277777777778
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q63149558",
@@ -52,7 +60,7 @@
       1793
     ],
     "identity": "the state named after Zand dynasty",
-    "home": "the spot held longest",
+    "home": "Shiraz",
     "labelled": [
       "Ottoman Empire",
       "Durrani Empire",

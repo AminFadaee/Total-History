@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Saint Petersburg",
+      "location": [
+        30.316666666667,
+        59.95
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q186096",
@@ -71,7 +79,7 @@
       1916
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Saint Petersburg",
     "labelled": [
       "Qing Dynasty",
       "Ottoman Empire",

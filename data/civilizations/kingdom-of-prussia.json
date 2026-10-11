@@ -17,12 +17,20 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {
-    "id": "Q12548",
-    "region": "Switzerland",
-    "name": "Holy Roman Empire"
+    "id": "Q157367",
+    "region": "Germany",
+    "name": "Brandenburg-Prussia"
   },
   "after": {},
   "rulers": [
@@ -57,12 +65,12 @@
       1863
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Berlin",
     "labelled": [
       "Russian Empire",
       "Austrian Empire",
       "First French Empire",
-      "Swedish Empire",
+      "Kingdom of Sweden",
       "Kingdom of Bavaria",
       "Kingdom of Saxony",
       "Batavian Republic",

@@ -12,6 +12,7 @@
   "occupation": "Military personnel",
   "birth_country": "China",
   "civilizations": [
+    "Taiwan",
     "Republic of China",
     "People's Republic of China",
     "Qing Dynasty"
@@ -26,17 +27,18 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Republic of China"
+        "Republic of China",
+        "Taiwan"
       ],
       "death": [
-        "Republic of China"
+        "Taiwan"
       ],
       "lead": [
         "Republic of China",
         "People's Republic of China"
       ],
       "citizenship": [
-        "Republic of China",
+        "Taiwan",
         "Qing Dynasty"
       ],
       "vital_section": [

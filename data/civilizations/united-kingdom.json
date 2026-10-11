@@ -13,7 +13,15 @@
     "end": null,
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "London",
+      "location": [
+        -0.1275,
+        51.507222222222
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q174193",
@@ -50,20 +58,20 @@
       2024
     ],
     "identity": "successor on borders Cliopatria gives an earlier name",
-    "home": "the spot held longest",
+    "home": "London",
     "labelled": [
-      "Kingdom of Saudi Arabia",
-      "Kingdom of Iraq",
-      "North Yemen",
-      "Republic of Sudan",
-      "Republic of India",
-      "Pahlavi Dynasty",
-      "Ethiopia",
-      "Republic of Egypt",
-      "Islamic Republic of Pakistan",
-      "Kingdom of Afghanistan",
-      "Second Syrian Republic",
-      "Kingdom of Jordan"
+      "French Fourth Republic",
+      "Union of Soviet Socialist Republics",
+      "United States of America",
+      "Éire",
+      "Republic of Poland",
+      "Kingdom of Sweden",
+      "Federal Republic of Germany",
+      "Kingdom of Norway",
+      "Czechoslovakia",
+      "Second Republic of Austria",
+      "Swiss Confederation",
+      "Kingdom of Belgium"
     ]
   }
 }

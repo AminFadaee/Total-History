@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Munich",
+      "location": [
+        11.575,
+        48.1375
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q47261",
@@ -73,7 +81,7 @@
       1870
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Munich",
     "labelled": [
       "Austrian Empire",
       "Italian Republic",

@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Ulaanbaatar",
+      "location": [
+        106.905515,
+        47.921357
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -46,7 +54,7 @@
       1991
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Ulaanbaatar",
     "labelled": [
       "Union of Soviet Socialist Republics",
       "Republic of China",

@@ -17,7 +17,29 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Tabriz",
+      "location": [
+        46.29611111111111,
+        38.07388888888889
+      ]
+    },
+    {
+      "name": "Qazvin",
+      "location": [
+        50.0041,
+        36.28543666666667
+      ]
+    },
+    {
+      "name": "Isfahan",
+      "location": [
+        51.67472222222222,
+        32.6525
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q555994",
@@ -68,7 +90,7 @@
       1737
     ],
     "identity": "the state named after Safavid dynasty",
-    "home": "the spot held longest",
+    "home": "Qazvin",
     "labelled": [
       "Mamluk Sultanate",
       "Ottoman Empire",

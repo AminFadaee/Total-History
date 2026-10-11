@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Dresden",
+      "location": [
+        13.7381437,
+        51.0493286
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q156199",
@@ -56,7 +64,7 @@
       1870
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Dresden",
     "labelled": [
       "First French Empire",
       "Austrian Empire",

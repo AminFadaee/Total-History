@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Moscow",
+      "location": [
+        37.6175,
+        55.75055555555556
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -51,7 +59,7 @@
       1546
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Moscow",
     "labelled": [
       "Khanate of Sibir",
       "House of Jagiellon",

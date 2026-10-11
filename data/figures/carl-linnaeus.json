@@ -12,7 +12,7 @@
   "occupation": "Biologist",
   "birth_country": "Sweden",
   "civilizations": [
-    "Swedish Empire"
+    "Kingdom of Sweden"
   ],
   "related": [],
   "contribution": "A Swedish biologist and physician who formalised binomial nomenclature, the modern system of naming organisms.",
@@ -24,10 +24,13 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Swedish Empire"
+        "Kingdom of Sweden"
       ],
-      "birthplace": [
-        "Swedish Empire"
+      "lead": [
+        "Kingdom of Sweden"
+      ],
+      "citizenship": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Carl Linnaeus (23 May 1707 – 10 January 1778), also known after ennoblement in 1761 as Carl von Linné, was a Swedish biologist and physician who formalised binomial nomenclature, the modern system of naming organisms. He is known as the \"father of modern taxonomy\". Many of his writings were in  Latin; his name is rendered in Latin as Carolus Linnæus and, after his 1761 ennoblement, as Carolus a Linné.",

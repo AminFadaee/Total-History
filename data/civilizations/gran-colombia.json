@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Bogotá",
+      "location": [
+        -74.08175,
+        4.60971
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -62,7 +70,7 @@
       1833
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Bogotá",
     "labelled": [
       "Empire of Brazil",
       "Republic of Peru",

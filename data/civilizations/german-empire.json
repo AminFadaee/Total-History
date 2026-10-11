@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -67,7 +75,7 @@
       1919
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Berlin",
     "labelled": [
       "Russian Republic",
       "Austria-Hungary",
@@ -77,7 +85,7 @@
       "Republic of Finland",
       "Kingdom of Norway",
       "Kingdom of Italy",
-      "Principality of Bulgaria",
+      "Kingdom of Bulgaria",
       "Georgia"
     ]
   }

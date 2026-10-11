@@ -3,7 +3,7 @@
   "slug": "satavahana-dynasty",
   "name": "Satavahana Dynasty",
   "wikipedia": "Satavahana dynasty",
-  "map_year": 106,
+  "map_year": -50,
   "period": {
     "start": {
       "earliest": -230,
@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Amaravati",
+      "location": [
+        80.358,
+        16.573
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q62943",
@@ -49,11 +57,10 @@
       223
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Amaravati",
     "labelled": [
-      "Western Satraps",
-      "Pyu City-States",
-      "Early Cholas"
+      "Kanva Dynasty",
+      "Indo-Scythians"
     ]
   }
 }

@@ -17,7 +17,22 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Amasya",
+      "location": [
+        35.833333333333,
+        40.65
+      ]
+    },
+    {
+      "name": "Sinop",
+      "location": [
+        35.15111111111111,
+        42.026666666666664
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -50,7 +65,7 @@
       67
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Amasya",
     "labelled": [
       "Roman Republic",
       "Kingdom of Armenia",

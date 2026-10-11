@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "London",
+      "location": [
+        -0.1275,
+        51.507222222222
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q161885",
@@ -65,14 +73,21 @@
       1927
     ],
     "identity": "successor on borders Cliopatria gives an earlier name",
-    "home": "the spot held longest",
+    "home": "London",
     "labelled": [
-      "Emirate of Nejd",
-      "North Yemen",
-      "Ethiopian Empire",
-      "Kingdom of Hejaz",
-      "Emirate of Jabal Shammar",
-      "Asir"
+      "Weimar Republic",
+      "Kingdom of Belgium",
+      "French Third Republic",
+      "Second Polish Republic",
+      "Kingdom of Sweden",
+      "Kingdom of Norway",
+      "Yugoslavia",
+      "Czechoslovakia",
+      "Hungarian Republic",
+      "Republic of Austria",
+      "Republic of Latvia",
+      "Kingdom of Lithuania",
+      "Estonia"
     ]
   }
 }

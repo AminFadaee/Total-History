@@ -19,6 +19,13 @@
   },
   "capitals": [
     {
+      "name": "Nanjing",
+      "location": [
+        118.77888888888889,
+        32.060833333333335
+      ]
+    },
+    {
       "name": "Beijing",
       "location": [
         116.407526,
@@ -33,9 +40,9 @@
     "name": "Yuan Dynasty"
   },
   "after": {
-    "id": "Q8733",
+    "id": "Q1198163",
     "region": "China",
-    "name": "Qing Dynasty"
+    "name": "Southern Ming"
   },
   "rulers": [],
   "modern_countries": [
@@ -61,7 +68,7 @@
       1644
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Beijing",
+    "home": "Nanjing",
     "labelled": [
       "Northern Yuan",
       "Tibet",

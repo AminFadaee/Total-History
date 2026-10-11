@@ -12,7 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Taiwan",
   "civilizations": [
-    "Republic of China",
+    "Taiwan",
     "Empire of Japan"
   ],
   "related": [],
@@ -25,14 +25,18 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Republic of China"
+        "Taiwan"
       ],
       "death": [
-        "Republic of China"
+        "Taiwan"
       ],
       "citizenship": [
         "Empire of Japan",
-        "Republic of China"
+        "Republic of China",
+        "Taiwan"
+      ],
+      "vital_section": [
+        "Taiwan"
       ],
       "birthplace": [
         "Empire of Japan"

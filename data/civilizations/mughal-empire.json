@@ -26,6 +26,13 @@
       ]
     },
     {
+      "name": "Delhi",
+      "location": [
+        77.216666666667,
+        28.666666666667
+      ]
+    },
+    {
       "name": "Fatehpur Sikri",
       "location": [
         77.661111111111,
@@ -46,7 +53,11 @@
     "region": "India",
     "name": "Lodi Dynasty"
   },
-  "after": {},
+  "after": {
+    "id": "Q129286",
+    "region": "India",
+    "name": "British Raj"
+  },
   "rulers": [
     {
       "id": "Q797848",
@@ -87,7 +98,7 @@
       1858
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Agra",
+    "home": "Delhi",
     "labelled": [
       "Safavid Dynasty",
       "Dzungar Khanate",

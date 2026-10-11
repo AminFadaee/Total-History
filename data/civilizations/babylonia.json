@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Babylon",
+      "location": [
+        44.42111111111111,
+        32.5425
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -43,7 +51,7 @@
       -601
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Babylon",
     "labelled": [
       "Mitanni",
       "Elam",
