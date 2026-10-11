@@ -3,6 +3,7 @@ from dataclasses import dataclass
 
 from page_in_history.naming import year_label
 
+MILLENNIUM = 1000
 CENTURY = re.compile(r"(\d{1,2})(?:st|nd|rd|th)[\s-]+century\s*(BCE|BC)?", re.IGNORECASE)
 ERA_FIRST = re.compile(r"\b(AD|CE)\s*(\d{1,4})\b")
 ERA_LAST = re.compile(r"\b(\d{1,4})\s*(BCE|BC|CE|AD)\b")
@@ -30,17 +31,29 @@ class Span:
     def label(self) -> str:
         if self.precise:
             return f"{'c. ' if self.circa else ''}{year_label(self.earliest)}"
+        if self.width >= MILLENNIUM - 1:
+            return millennium_label(self.earliest)
         return century_label(self.earliest)
 
     def overlaps(self, other: "Span", tolerance: int) -> bool:
         return self.earliest - tolerance <= other.latest and other.earliest - tolerance <= self.latest
 
 
+def millennium_label(year: int) -> str:
+    """'1st millennium BC', '2nd millennium'."""
+    millennium = (year - 1) // MILLENNIUM + 1 if year > 0 else (-year + MILLENNIUM - 1) // MILLENNIUM
+    return f"{ordinal(millennium)} millennium{' BC' if year <= 0 else ''}"
+
+
+def ordinal(number: int) -> str:
+    suffix = "th" if 10 <= number % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(number % 10, "th")
+    return f"{number}{suffix}"
+
+
 def century_label(year: int) -> str:
     """'3rd century', '6th century BC'."""
     century = (year - 1) // 100 + 1 if year > 0 else (-year + 99) // 100
-    suffix = "th" if 10 <= century % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(century % 10, "th")
-    return f"{century}{suffix} century{' BC' if year <= 0 else ''}"
+    return f"{ordinal(century)} century{' BC' if year <= 0 else ''}"
 
 
 def century(year: int) -> int:
