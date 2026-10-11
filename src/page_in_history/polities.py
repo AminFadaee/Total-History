@@ -31,6 +31,8 @@ LEVEL_5_PEAK_KM2 = 1_000_000
 MAX_DRAWN_SHARE = 0.5
 LATEST_START = 1945
 SETTLEMENT = "Q486972"
+HERITAGE = "Q9259"
+SITE = "Q839954"
 LARGE_PEAK_KM2 = 2_000_000
 LIVING_ON_MAP_BEFORE = 1900
 LIVING_PEAK_KM2 = 2_000_000
@@ -412,7 +414,8 @@ class PolityBuilder:
         self.names = self.wikidata.entities([qid for ids in referenced for qid in ids] +
                                             [page.qid for page in self.pages.values() if page.qid])
         capitals = sorted({qid for ids in referenced for qid in ids})
-        self.settlements = {qid for qid, kinds in self.wikidata.kinds(capitals, {SETTLEMENT: "settlement"}).items() if kinds}
+        kinds = self.wikidata.kinds(capitals, {SETTLEMENT: "settlement", HERITAGE: "heritage", SITE: "site"})
+        self.settlements = {qid for qid, found in kinds.items() if found == {"settlement"}}
         return [self._polity(identity, self.infoboxes[identity.qid]) for identity in identities]
 
     def _stated(self, first: str, last: str) -> bool:
@@ -435,7 +438,8 @@ class PolityBuilder:
         """Capitals that Wikidata and the infobox both name: the same item, or two items for the same place within
         25 km, as when Wikidata names the prefecture Shuntian Fu and the infobox the city of Beijing. They are shown
         under the name of the place Wikidata lists, once per place (Bursa rather than the infobox's Prusa, Ayutthaya
-        rather than its historical park), or the infobox's name when Wikidata's item is wider than a place, and a
+        rather than its historical park), or the infobox's name when Wikidata's item is wider than a place or is a heritage
+        or archaeological site (Historic City of Ayutthaya), and a
         linked state is never a capital."""
         listed = entity.ids("P36")
         places = [(qid, found.coordinates()) for qid, found in ((qid, self.names.get(qid)) for qid in listed)
