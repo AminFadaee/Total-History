@@ -916,24 +916,25 @@ class PolityBuilder:
                     "cliopatria": Span(clio_end, clio_end) if clio_end is not None else None},
                    tolerances(reference(clio_end, dissolution, infobox.end)))
         confirmed = start is not None and end is not None
-        return Period(start, end, confirmed, None if confirmed else self._agreed_core(entity, infobox, clio_start, clio_end))
+        return Period(start, end, confirmed, None if confirmed else self._agreed_core(entity, infobox))
 
     @staticmethod
-    def _agreed_core(entity: Entity, infobox: Infobox, clio_start: int | None, clio_end: int | None) -> list[int] | None:
-        """When the sources disagree on its dates, the years they all grant, rounded out to whole centuries: Wikidata's
-        dates (each a single value, known to the decade or better) within Cliopatria's drawn years and the infobox's,
-        "c. 1600–1400 BC" for the Minoans. Nothing when Wikidata lacks such dates or the sources share no years."""
+    def _agreed_core(entity: Entity, infobox: Infobox) -> list[int] | None:
+        """When the sources do not confirm its dates, Wikidata's (each a single value, known to the decade or better)
+        within the infobox's, rounded out to whole decades: "c. 60 BC – AD 940" for Silla. Cliopatria's drawn years
+        do not narrow it, since the map often stops drawing a state before it ended. Nothing when Wikidata lacks such
+        dates or the two share no years."""
         starts = entity.years("P571") + entity.years("P580")
         ends = entity.years("P576") + entity.years("P582")
-        if clio_start is None or clio_end is None or len({year.value for year in starts}) != 1 \
-                or len({year.value for year in ends}) != 1 or min(year.precision for year in starts + ends) < DECADE_PRECISION:
+        if len({year.value for year in starts}) != 1 or len({year.value for year in ends}) != 1 \
+                or min(year.precision for year in starts + ends) < DECADE_PRECISION:
             return None
-        first, last = max(starts[0].value, clio_start), min(ends[0].value, clio_end)
+        first, last = starts[0].value, ends[0].value
         if infobox.start and infobox.end:
             first, last = max(first, infobox.start.earliest), min(last, infobox.end.latest)
         if first > last:
             return None
-        return [math.floor(first / 100) * 100, math.ceil(last / 100) * 100]
+        return [math.floor(first / 10) * 10, math.ceil(last / 10) * 10]
 
     def assign_tiers(self, polities: list[Polity], figures: list) -> None:
         """Core for what every learner should meet: listed as vital (levels 1–5), an article in at least 50 Wikipedia
