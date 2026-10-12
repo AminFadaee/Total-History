@@ -200,6 +200,7 @@ class FigureBuilder:
         self.per_cell = PER_CELL
         self.head_offices: dict[str, set[str]] = {}
         self.languages: dict[str, int] = {}
+        self.country_regions: dict[str, str] | None = None
         for state in catalog.by_qid:
             for office in catalog.entities[state].ids(*HEAD_OFFICES, preferred_only=False):
                 self.head_offices.setdefault(office, set()).add(state)
@@ -235,6 +236,16 @@ class FigureBuilder:
         logger.info("%d people placed in the deck's civilizations, %d chosen, and %d on Meta-Wiki's list outside them",
                     len(figures), len(chosen), len(outside))
         return self._assemble([entry for entry in figures if entry[0].person.id in chosen] + outside, deck)
+
+    def _country_region(self, known) -> str:
+        """The region of the person's birth country by Pantheon, for those the database files under no region."""
+        if not known:
+            return ""
+        if self.country_regions is None:
+            self.country_regions = {country.name: notable.region_name(notable.SUBREGIONS[country.subregion])
+                                    for country in naturalearth.countries(self.http).itertuples()
+                                    if country.subregion in notable.SUBREGIONS}
+        return self.country_regions.get(known.birth_country, "")
 
     def _second_pass(self, empty: set[str], known: set[str], start: int, end: int) -> list[tuple]:
         """For civilizations still without a figure: the 30 people the database scores highest in the regions the
@@ -605,7 +616,8 @@ class FigureBuilder:
                 civilizations=civilizations,
                 related=related,
                 contribution=contribution(paragraph, role_text, person.description),
-                setting="" if set(civilizations) & deck else setting(civilizations, candidate.region, candidate.adulthood),
+                setting="" if set(civilizations) & deck else setting(
+                    civilizations, candidate.region or self._country_region(known), candidate.adulthood),
                 image=image,
                 image_credit=credit,
                 image_kind=image_kind or "",

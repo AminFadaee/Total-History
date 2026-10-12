@@ -149,7 +149,8 @@ update.
    Georgia).
 9. **Meta-Wiki's list.** Everyone on Meta-Wiki's list who passed step 3 is in the deck, even when none of their
    civilizations is: their card names their own state (Mandela, South Africa), or, when no state can be found for
-   them, their region and the century of their adult life (Aristotle, Southern Europe, 4th century BC).
+   them, their region and the century of their adult life (Aristotle, Southern Europe, 4th century BC). The region is
+   the database's, or that of their birth country by Pantheon when the database gives none (Jesus, Western Asia).
 10. **The rest.** People placed in a deck civilization but not chosen are listed in `data/extended.json` and are not
    in the deck.
 
