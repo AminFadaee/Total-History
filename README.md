@@ -53,13 +53,14 @@ and cut to today's coastline.
 | Subdeck | Question | Answer | Made only when |
 |---|---|---|---|
 | Figures | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for, their civilization and its map | always |
-| Photos | a photograph | the person | they died in 1860 or later and a photograph of them alone is found (see below) |
+| Photos | a portrait | the person | a photograph of them alone is found (they died in 1860 or later; see below), or their Who card picture is a portrait made in their lifetime |
 
-Only photographs are asked about. Other pictures are shown on the back of the Who card, labelled by kind: a photograph,
+Photographs and portraits made in the person's lifetime are asked about; the back of the card says which it is. The
+back of the Who card shows the person's picture labelled by kind: a photograph,
 a portrait from life (made in the person's lifetime, by its Commons date), a later depiction (dated long after their
-death: an artist's idea of someone who could not be painted from life), or a depiction when Commons gives no date. Statues, busts, reliefs and coins are never used.
+death: an artist's idea of someone who could not be painted from life), or a depiction when Commons gives no date. Depictions are never asked about, and statues, busts, reliefs and coins are never used.
 
-The Photo card does not have to use the same picture as the Who card. When someone's main Wikidata image is a painting,
+When a photograph is found it is also the Who card's picture. When someone's main Wikidata image is a painting,
 as it is for many rulers, the person's other Wikidata images and the files in their own Commons category are tried:
 first Wikidata's, then the files most used across Wikipedia's articles, up to ten. A file is accepted when an image
 model ([CLIP ViT-L/14](https://github.com/openai/CLIP), run locally on the CPU) sees a portrait of one person rather than

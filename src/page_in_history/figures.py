@@ -8,7 +8,7 @@ from shapely.geometry import Point
 
 from page_in_history.dates import century_label, period_label
 from page_in_history.naming import slugify
-from page_in_history.photos import PortraitFinder
+from page_in_history.photos import PictureKind, PortraitFinder
 from page_in_history.lineages import dates
 from page_in_history.polities import LIVING_ON_MAP_BEFORE, PolityCatalog
 from page_in_history.sources import naturalearth, notable, vital
@@ -602,6 +602,8 @@ class FigureBuilder:
             role_text = role(short_description or person.description)
             image, credit, image_kind, image_check = self.portraits.illustration(person)
             photo, photo_check = self.portraits.photograph(person)
+            if photo and image_kind is not PictureKind.PHOTOGRAPH:
+                image, credit, image_kind, image_check = photo.file, photo.credit, PictureKind.PHOTOGRAPH, ""
             known = self.pantheon.get(person.id)
             assembled.append(Figure(
                 id=person.id,

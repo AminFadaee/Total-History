@@ -10,6 +10,7 @@ from enum import StrEnum
 import genanki
 
 from page_in_history.dates import Span, centuries, period_label
+from page_in_history.photos import PictureKind
 
 DECK_NAME = "Page in History"
 CIVILIZATION_MODEL_ID = 1_812_604_221
@@ -19,6 +20,7 @@ MEDIA_PREFIX = "pih"
 TAG_UNSAFE = re.compile(r"[^\w-]+")
 MAX_MODERN_COUNTRIES = 10
 MAX_COUNTRY_TAGS = 3
+ASKED_KINDS = (PictureKind.PHOTOGRAPH, PictureKind.FROM_LIFE)
 
 logger = logging.getLogger(__name__)
 
@@ -76,6 +78,18 @@ def stable_id(name: str) -> int:
 
 UNKNOWN_ENTITY = '<div class="entity unknown">?</div>'
 UNKNOWN_VALUE = '<div class="value unknown">?</div>'
+
+
+def asked_picture(document: dict) -> tuple[str, str] | None:
+    """The picture the Portrait card asks about and its credit: the person's photograph, or else their Who card picture
+    when it is a photograph or a portrait made in their lifetime. Later depictions are never asked."""
+    if document["photo"]:
+        return document["photo"], document["photo_credit"]
+    if document["image"] and document.get("image_kind") in ASKED_KINDS:
+        credit = document["image_credit"] if document["image_kind"] == PictureKind.PHOTOGRAPH \
+            else f'{document["image_kind"]} · {document["image_credit"]}'
+        return document["image"], credit
+    return None
 
 
 def conditional(field: str, content: str) -> str:
@@ -147,8 +161,8 @@ FIGURE_TEMPLATES = (
              face(entity(FIGURE_TITLE), "Who", value("{{Role}}", answered=True)) + FIGURE_INFO + PORTRAIT
              + conditional("CivilizationMap", '<div class="thumbnail map">{{CivilizationMap}}</div>')),
     Template("Photo", Subdeck.PHOTOS, ("Photo",),
-             face(UNKNOWN_ENTITY, "Photo", PHOTO),
-             face(entity(FIGURE_TITLE, answered=True), "Photo", PHOTO_CREDITED) + FIGURE_INFO),
+             face(UNKNOWN_ENTITY, "Portrait", PHOTO),
+             face(entity(FIGURE_TITLE, answered=True), "Portrait", PHOTO_CREDITED) + FIGURE_INFO),
 )
 
 FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "Contribution", "Image", "ImageCredit",
@@ -365,6 +379,7 @@ class DeckBuilder:
     def add_figure(self, document: dict, maps: dict[str, str]) -> None:
         """Only civilizations in the deck are shown, so each one named has its own map and cards."""
         civilizations = [name for name in document["civilizations"] if name in maps]
+        asked = asked_picture(document)
         values = {
             "Id": document["id"],
             "Name": escaped(document["name"]),
@@ -376,8 +391,8 @@ class DeckBuilder:
             "Image": self.media.image(document["image"]),
             "ImageCredit": escaped(document["image_credit"]),
             "ImageKind": document.get("image_kind") or "Depiction",
-            "Photo": self.media.image(document["photo"]),
-            "PhotoCredit": escaped(document["photo_credit"]),
+            "Photo": self.media.image(asked[0]) if asked else "",
+            "PhotoCredit": escaped(asked[1]) if asked else "",
             "Related": joined([name for name in document["related"] if name in maps]),
         }
         tags = figure_tags(document, civilizations)
