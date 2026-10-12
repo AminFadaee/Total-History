@@ -250,9 +250,12 @@ class FigureBuilder:
         return self.country_regions.get(known.birth_country, "")
 
     def _second_pass(self, empty: set[str], known: set[str], start: int, end: int) -> list[tuple]:
-        """For civilizations still without a figure: the 30 people the database scores highest in the regions the
-        civilization covered at its largest (and those it files under no region) whose adult life overlaps its years,
-        placed by the same rules. Only those whose first civilization in the deck turns out to be that one are used."""
+        """For civilizations still without a figure: from the regions the civilization covered at its largest (and the
+        people the database files under no region), the 30 people the database scores highest whose adult life overlaps
+        its years, and in each of its eras of at most 300 years the 30 highest whose adult life (20 to 70) lies mostly
+        within that era, so a long-lived civilization is not left to the best known of one age (Kush). They are
+        placed by the same rules, and only those whose first civilization in the deck turns out to be that one are
+        used."""
         countries = naturalearth.countries(self.http)
         adults = notable.adults(self.frame, POST_WAR, ADULT_AGE)
         qids = []
@@ -260,9 +263,17 @@ class FigureBuilder:
             qid = self.catalog.identities[name].qid
             first, last = self.catalog.years(qid)
             regions = self._regions(name, qid, countries) | {notable.UNKNOWN_REGION}
-            pool = adults[adults.region.isin(regions) & (adults.birth + ADULT_AGE <= last)
-                          & (adults.birth + ASSUMED_LIFESPAN >= first)]
-            qids += [person for person in pool.nlargest(SECOND_PASS_PEOPLE, "score").index if person not in known]
+            local = adults[adults.region.isin(regions)]
+            pools = [local[(local.birth + ADULT_AGE <= last) & (local.birth + ASSUMED_LIFESPAN >= first)]]
+            eras = max(1, math.ceil((last - first + 1) / WINDOW_YEARS))
+            width = (last - first + 1) / eras
+            adult_from, adult_to = local.birth + ADULT_AGE, local.birth + ASSUMED_LIFESPAN
+            for era in range(eras):
+                low, high = first + era * width, first + (era + 1) * width - 1
+                inside = (adult_to.clip(upper=high) - adult_from.clip(lower=low)).clip(lower=0)
+                pools.append(local[inside * 2 >= adult_to - adult_from])
+            qids += [person for pool in pools for person in pool.nlargest(SECOND_PASS_PEOPLE, "score").index
+                     if person not in known]
         candidates = [candidate for candidate in self._people(list(dict.fromkeys(qids)), {}, set())
                       if candidate.lifetime[1] >= start and candidate.lifetime[0] <= end]
         self.prepare(candidates)

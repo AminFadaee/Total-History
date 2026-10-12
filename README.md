@@ -145,7 +145,9 @@ update.
    languages is left out unless they are on Meta-Wiki's list: such people are known mostly to specialists.
 8. **Civilizations still empty.** For each deck civilization with no figure after step 7, the database's 30
    highest-scored people from the regions under its largest extent (and those it files under no region), whose adult
-   life overlaps the civilization's years, are placed by the same rules. Those whose first deck civilization is that
+   life overlaps the civilization's years, and in each of its eras of at most 300 years the 30 highest whose adult life
+   lies mostly within that era (so Kush is not left to the best known of one age), are placed by the same rules.
+   Those whose first deck civilization is that
    one are added, the best of each segment, with the same language floor (Charles the Bald for the West Franks, Tamar for
    Georgia).
 9. **Meta-Wiki's list.** Everyone on Meta-Wiki's list who passed step 3 is in the deck, even when none of their
