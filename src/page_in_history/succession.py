@@ -37,8 +37,8 @@ class Anchor:
 class RegionalSuccession:
     """Who ruled a civilization's home region right before and right after it. The home is the capital it held
     longest, or without a confirmed capital the spot it held for the most years; the region is the modern country
-    around it. The neighbour is the next holder on Cliopatria's maps within 30 years, and Wikidata or the Wikipedia
-    infobox must also say it came before or after. Holders that stayed under five years, like a wartime occupation,
+    around it. The neighbour is the nearest holder on Cliopatria's maps within 30 years that Wikidata or the Wikipedia
+    infobox also says came before or after. Holders that stayed under five years, like a wartime occupation,
     are passed over, and an empire partitioned among three or more states has no single successor."""
 
     def __init__(self, frame: gpd.GeoDataFrame, qids: dict[str, str], countries: gpd.GeoDataFrame,
@@ -66,11 +66,11 @@ class RegionalSuccession:
     def _neighbour(self, others: list[Holding], moment: int, edge, pair, anchor: Anchor) -> dict:
         nearby = sorted((abs(edge(holding) - moment), holding.qid) for holding in others
                         if abs(edge(holding) - moment) <= WINDOW_YEARS)
-        if not nearby:
-            return {}
-        neighbour = nearby[0][1]
-        first, last = (neighbour, pair[1]) if pair[0] is None else (pair[0], neighbour)
-        return {"id": neighbour, "region": anchor.region} if self.stated(first, last) else {}
+        for _, neighbour in nearby:
+            first, last = (neighbour, pair[1]) if pair[0] is None else (pair[0], neighbour)
+            if self.stated(first, last):
+                return {"id": neighbour, "region": anchor.region}
+        return {}
 
     def _anchor(self, rows: gpd.GeoDataFrame, capitals: list[dict]) -> Anchor:
         held = []
