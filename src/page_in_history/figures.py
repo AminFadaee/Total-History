@@ -566,7 +566,7 @@ class FigureBuilder:
                             if (votes[qid] >= MIN_VOTES and (qid in member or votes[qid] == best)) or qid in headed),
                            key=support)
         if not confirmed and candidate.core:
-            confirmed = sorted({qid for source in SINGLE_VOTE_SOURCES for qid in sources[source]}, key=support)
+            confirmed = sorted(sorted({qid for source in SINGLE_VOTE_SOURCES for qid in sources[source]}), key=support)
         confirmed = self._rulers_first(confirmed, headed)
         related = [qid for qid in sources["lead"] if qid not in confirmed]
         names = self.catalog.by_qid
