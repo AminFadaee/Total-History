@@ -21,7 +21,7 @@ from page_in_history.sources.wikipedia import Wikipedia
 
 IMAGE_WIDTH = 480
 IMAGE_QUALITY = 85
-MAP_WORKERS = max(1, (os.cpu_count() or 2) // 2)
+MAP_WORKERS = max(1, min(4, (os.cpu_count() or 2) // 2))
 
 logger = logging.getLogger(__name__)
 

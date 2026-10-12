@@ -35,6 +35,7 @@ PADDING = 0.35
 MIN_SPAN_METERS = 900_000
 MIN_PANEL_SHARE = 0.10
 OUTSIDE_CAPITAL_MARGIN_DEGREES = 2
+MAPS_PER_WORKER = 25
 MAX_PANELS = 3
 WORLD_SCALE_DEGREES = 120
 RING_SHARE = 0.005
@@ -489,10 +490,10 @@ def draw(job: MapJob) -> list[str]:
 def render_all(jobs: list[MapJob], countries: gpd.GeoDataFrame, rivers: gpd.GeoDataFrame, font: pathlib.Path,
                workers: int) -> list[list[str] | Exception]:
     """Draws the maps side by side in separate processes; each map's result is the polities labelled on it, or the
-    error that stopped it."""
+    error that stopped it. A worker is replaced after 25 maps, since drawing slowly accumulates memory."""
     context = multiprocessing.get_context("spawn")
     with ProcessPoolExecutor(workers, mp_context=context, initializer=start_worker,
-                             initargs=(countries, rivers, font)) as pool:
+                             initargs=(countries, rivers, font), max_tasks_per_child=MAPS_PER_WORKER) as pool:
         futures = [pool.submit(draw, job) for job in jobs]
         results: list[list[str] | Exception] = []
         for future in futures:
