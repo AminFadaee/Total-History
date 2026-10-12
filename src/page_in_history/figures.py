@@ -43,6 +43,8 @@ POST_WAR = 1945
 LEGENDARY = "Q13002315"
 HUMAN = "Q5"
 POSITION = "Q4164871"
+HEAD_CLASSES = {"Q48352", "Q2285706", "Q116", "Q39018", "Q12097", "Q248577", "Q30461", "Q111840950"}  # head of state or government, monarch, emperor, king, president
+CLEARLY_LONGER = 1.5
 SUCCESSION_STEPS = 3
 MIN_JOINING_KM2 = 20_000
 DEATH_DISCOUNT = 0.5
@@ -345,6 +347,8 @@ class FigureBuilder:
         self.headings = self.wikipedia.resolve(list({heading for candidate in candidates for heading in candidate.section}))
         self.offices = self.wikidata.entities([qid for candidate in candidates
                                                for qid in candidate.person.ids("P39", preferred_only=False)])
+        self.head_kind = {qid for qid, office in self.offices.items()
+                          if HEAD_CLASSES & set(office.ids("P279", "P31", preferred_only=False))}
         facets = self.wikidata.entities([qid for office in self.offices.values() for qid in office.ids("P1269")])
         self.ex_officio = {qid for qid, office in self.offices.items()
                            if any(POSITION in facets[facet].ids("P31", preferred_only=False)
@@ -533,15 +537,28 @@ class FigureBuilder:
                                -(votes[qid] - DEATH_DISCOUNT * (qid in sources["death"])),
                                -self._years_within(qid, adulthood),
                                qid not in sources["citizenship"], qid not in sources["office"])
-        confirmed = sorted((qid for qid in sorted(set(votes) | headed)
+        confirmed = sorted((qid for qid in sorted(set(votes) | set(headed))
                             if (votes[qid] >= MIN_VOTES and (qid in member or votes[qid] == best)) or qid in headed),
                            key=support)
         if not confirmed and candidate.core:
             confirmed = sorted({qid for source in SINGLE_VOTE_SOURCES for qid in sources[source]}, key=support)
+        confirmed = self._rulers_first(confirmed, headed)
         related = [qid for qid in sources["lead"] if qid not in confirmed]
         names = self.catalog.by_qid
         readable = {source: [names[qid].name for qid in qids] for source, qids in sources.items() if qids}
         return [names[qid].name for qid in confirmed], [names[qid].name for qid in related], readable
+
+    @staticmethod
+    def _rulers_first(confirmed: list[str], headed: Counter) -> list[str]:
+        """States the person headed come first, so a ruler is filed under the state they ruled (Napoleon under the
+        First French Empire, not the Consulate before it); the one headed longest leads when it was headed at least
+        1.5 times as long as each other, otherwise they keep their order."""
+        ruled = [qid for qid in confirmed if headed[qid] > 0]
+        if ruled:
+            longest = max(ruled, key=lambda qid: headed[qid])
+            if all(headed[longest] >= CLEARLY_LONGER * headed[qid] for qid in ruled if qid != longest):
+                ruled = [longest] + [qid for qid in ruled if qid != longest]
+        return ruled + [qid for qid in confirmed if headed[qid] <= 0]
 
     def _terms(self, candidate: Candidate):
         """Each office the person held, with its term, or their adult life when Wikidata gives no dates. Offices held
@@ -555,19 +572,34 @@ class FigureBuilder:
             yield claim["mainsnak"]["datavalue"]["value"]["id"], term
 
     def _offices(self, candidate: Candidate) -> list[str]:
-        """States an office governs: its jurisdiction, or the state whose head-of-state or head-of-government office
-        it is, as long as the state existed during the term."""
+        """States an office governs: its jurisdiction, or the state it heads, as long as the state existed during
+        the term."""
         found = []
         for qid, term in self._terms(candidate):
             office = self.offices.get(qid)
             states = {state for state in office.ids("P1001", preferred_only=False) if state in self.catalog.by_qid} \
                 if office else set()
-            found += [state for state in sorted(states | self.head_offices.get(qid, set())) if self._active(state, term)]
+            found += [state for state in sorted(states) if self._active(state, term)]
+            found += sorted(self._head_states(qid, term) - states)
         return found
 
-    def _headed(self, candidate: Candidate) -> set[str]:
-        return {state for qid, term in self._terms(candidate)
-                for state in self.head_offices.get(qid, ()) if self._active(state, term)}
+    def _head_states(self, qid: str, term: tuple[int, int]) -> set[str]:
+        """The states an office heads during a term: those naming it as their head of state or government, and, for an
+        office Wikidata classes as a head of state or government, monarch, emperor, king or president, the states it
+        names as its jurisdiction or country (Emperor of the French for the First and Second Empires)."""
+        states = set(self.head_offices.get(qid, ()))
+        if qid in self.head_kind:
+            states |= {state for state in self.offices[qid].ids("P1001", "P17", preferred_only=False)
+                       if state in self.catalog.by_qid}
+        return {state for state in states if self._active(state, term)}
+
+    def _headed(self, candidate: Candidate) -> Counter:
+        """The states the person headed, with the years they headed each."""
+        years: Counter = Counter()
+        for qid, term in self._terms(candidate):
+            for state in self._head_states(qid, term):
+                years[state] += sum(1 for year in range(term[0], term[1] + 1) if self._active(state, (year, year)))
+        return years
 
     def _located(self, person: Entity, prop: str) -> list[str]:
         """The states whose Cliopatria territory held the place of death in the year of death."""
