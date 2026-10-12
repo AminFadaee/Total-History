@@ -835,10 +835,11 @@ class PolityBuilder:
         is not a settlement, such as a historical park or an archaeological site (Ayutthaya Historical Park, Abbasid
         Samarra), is shown as the town it lies in when that town is within 25 km. A state is never a capital, though a city that Wikidata also files as an administrative
         unit, like Paris, Berlin or Bucharest, is. When the two sources share none, a capital either names counts if it lies in the
-        civilization's own territory on the map (Hattusa, Susa, Gordion). A capital Wikidata dates only outside the
-        confirmed period is left out (Cairo, seat of the Abbasid caliphs after the fall of Baghdad)."""
+        civilization's own territory on the map (Hattusa, Susa, Gordion). Wikidata's capitals of every rank count, but
+        one it dates only outside the confirmed period (Cairo, seat of the Abbasid caliphs after the fall of
+        Baghdad) or only from 1945 on (Brasília) is left out."""
         outside = self._capitals_outside(entity, period)
-        listed = [qid for qid in entity.ids("P36") if qid not in outside]
+        listed = [qid for qid in entity.ids("P36", preferred_only=False) if qid not in outside]
         places = [(qid, found.coordinates()) for qid, found in ((qid, self.names.get(qid)) for qid in listed)
                   if found and found.coordinates()]
         capitals = []
@@ -875,15 +876,15 @@ class PolityBuilder:
 
     @staticmethod
     def _capitals_outside(entity: Entity, period: Period) -> set[str]:
-        if not period.confirmed:
-            return set()
-        start, end = period.start.earliest, period.end.latest
+        """Capitals Wikidata dates only outside the confirmed period, or only from 1945 on (Brasília)."""
+        start, end = (period.start.earliest, period.end.latest) if period.confirmed else (None, None)
         terms: dict[str, list[bool]] = {}
         for claim in entity.statements("P36", preferred_only=False):
             qid = claim["mainsnak"]["datavalue"]["value"].get("id")
             began, ended = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
-            dated = began is not None and ended is not None
-            terms.setdefault(qid, []).append(dated and (ended < start or began > end))
+            late = began is not None and began >= LATEST_START
+            dated = start is not None and began is not None and ended is not None and (ended < start or began > end)
+            terms.setdefault(qid, []).append(late or dated)
         return {qid for qid, outside in terms.items() if all(outside)}
 
     def _can_be_capital(self, qid: str) -> bool:
