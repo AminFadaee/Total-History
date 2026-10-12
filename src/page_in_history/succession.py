@@ -9,11 +9,12 @@ from shapely.geometry import Point
 from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES
 
 WINDOW_YEARS = 30
-MIN_HOLD_YEARS = 5
+MIN_HOLD_YEARS = 6
 HOLDING_GAP_YEARS = 5
 HEARTLAND_GRID = 60
 PARTITION_SHARE = 0.15
 PARTITION_HOLDERS = 3
+HOMELAND_DEGREES = 10
 
 
 @dataclass(frozen=True)
@@ -38,25 +39,32 @@ class RegionalSuccession:
     """Who ruled a civilization's home region right before and right after it. The home is the capital it held
     longest, or without a confirmed capital the spot it held for the most years; the region is the modern country
     around it. The neighbour is the nearest holder on Cliopatria's maps within 30 years that Wikidata or the Wikipedia
-    infobox also says came before or after. Holders that stayed under five years, like a wartime occupation,
-    are passed over, and an empire partitioned among three or more states has no single successor."""
+    infobox also says came before or after; failing that, the nearest whose succession they imply through a part of
+    it (Carthage was followed by the Roman province of Africa, part of the Roman Republic). Holders that stayed five
+    years or less, like a wartime occupation, are passed over, and an empire partitioned among three or more states
+    has no single successor."""
 
     def __init__(self, frame: gpd.GeoDataFrame, qids: dict[str, str], countries: gpd.GeoDataFrame,
-                 stated: Callable[[str, str], bool], equal_area: Callable):
+                 stated: Callable[[str, str], bool], implied: Callable[[str, str], bool], equal_area: Callable):
         self.frame = frame.assign(qid=frame.Name.map(qids)).dropna(subset=["qid"])
         self.countries = countries.to_crs(frame.crs)
         self.stated = stated
+        self.implied = implied
         self.equal_area = equal_area
 
     def neighbours(self, qid: str, capitals: list[dict], edges: tuple = (None, None),
                    fits: Callable[[str], bool] = lambda neighbour: True) -> tuple[dict, dict, str]:
         """Before and after, each judged at the capital held at that end when Wikidata dates the capitals (Ming's
         successor at Beijing, not at its first capital Nanjing), otherwise at the home. Only neighbours that fit (in
-        the deck, not named like the civilization) are taken."""
+        the deck, not named like the civilization) are taken. An empire drawn far from its capital, as Cliopatria
+        draws the British and Spanish Empires without Britain and Spain, has none: its home would be a colony."""
         rows = self.frame[self.frame.qid == qid]
         if rows.empty:
             return {}, {}, ""
         anchor = self._anchor(rows, capitals)
+        located = [Point(capital["location"]) for capital in capitals if capital["location"]]
+        if not anchor.place and located and anchor.point.distance(located[0]) > HOMELAND_DEGREES:
+            return {}, {}, ""
         before = self._side(qid, rows, edges[0], anchor, True, fits)
         after = {} if self._partitioned(rows) else self._side(qid, rows, edges[1], anchor, False, fits)
         return before, after, anchor.place
@@ -66,7 +74,7 @@ class RegionalSuccession:
         near = edge and (shapely.distance(edge_rows.geometry.values, Point(edge)) <= CAPITAL_TOLERANCE_DEGREES).any()
         point = Point(edge) if near else anchor.point
         at = anchor if point is anchor.point else Anchor(point, anchor.place, self._country(point))
-        holdings = self._holdings(point)
+        holdings = self._holdings(point, CAPITAL_TOLERANCE_DEGREES if near else 0)
         own = [holding for holding in holdings if holding.qid == qid]
         if not own:
             return {}
@@ -79,10 +87,11 @@ class RegionalSuccession:
     def _neighbour(self, others: list[Holding], moment: int, edge, pair, anchor: Anchor) -> dict:
         nearby = sorted((abs(edge(holding) - moment), holding.qid) for holding in others
                         if abs(edge(holding) - moment) <= WINDOW_YEARS)
-        for _, neighbour in nearby:
-            first, last = (neighbour, pair[1]) if pair[0] is None else (pair[0], neighbour)
-            if self.stated(first, last):
-                return {"id": neighbour, "region": anchor.region}
+        for confirmed in (self.stated, self.implied):
+            for _, neighbour in nearby:
+                first, last = (neighbour, pair[1]) if pair[0] is None else (pair[0], neighbour)
+                if confirmed(first, last):
+                    return {"id": neighbour, "region": anchor.region}
         return {}
 
     def _anchor(self, rows: gpd.GeoDataFrame, capitals: list[dict]) -> Anchor:
@@ -127,9 +136,11 @@ class RegionalSuccession:
         pick = best[np.argmin((xs[best] - middle_x) ** 2 + (ys[best] - middle_y) ** 2)]
         return Point(xs[pick], ys[pick])
 
-    def _holdings(self, point: Point) -> list[Holding]:
-        """Who held the point and when, with each holder's consecutive map snapshots joined into one stretch."""
-        rows = self.frame[self.frame.geometry.contains(point)]
+    def _holdings(self, point: Point, tolerance: float = 0) -> list[Holding]:
+        """Who held the point (or land within the tolerance of it, for a capital on a coast the maps draw roughly) and
+        when, with each holder's consecutive map snapshots joined into one stretch."""
+        rows = self.frame[shapely.distance(self.frame.geometry.values, point) <= tolerance] if tolerance \
+            else self.frame[self.frame.geometry.contains(point)]
         holdings = []
         for qid, group in rows.groupby("qid"):
             stretches: list[list[int]] = []

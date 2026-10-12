@@ -539,8 +539,10 @@ class PolityBuilder:
         self.wikipedia = catalog.wikipedia
         self.wikidata = catalog.wikidata
         self.countries = equal_area(countries)
-        self.succession = RegionalSuccession(self.cliopatria.frame, catalog.qids, countries, self._stated, equal_area)
+        self.succession = RegionalSuccession(self.cliopatria.frame, catalog.qids, countries, self._stated, self._implied,
+                                             equal_area)
         self.founded_early: set[str] = set()
+        self.parents: dict[str, set[str]] = {}
 
     def select(self, region: str, start: int, end: int) -> list[Identity]:
         area = self.countries[self.countries.name == region].geometry.union_all()
@@ -766,6 +768,31 @@ class PolityBuilder:
             or (first in self.infoboxes and last in self._qids(self.infoboxes[first].successors))
             or (last in self.infoboxes and first in self._qids(self.infoboxes[last].predecessors))
         )
+
+    def _implied(self, first: str, last: str) -> bool:
+        """The sources name a part of the second as following the first, or a part of the first as preceding the
+        second, by Wikidata's part of or country: Carthage was followed by the province of Africa, part of the Roman
+        Republic; the Aztecs by New Spain, part of the Spanish Empire. Never between a state and a part of itself
+        (the French Consulate in the First Republic)."""
+        if first in self._parents(last) or last in self._parents(first):
+            return False
+        return any(last in self._parents(qid) for qid in self._followers(first, later=True)) \
+            or any(first in self._parents(qid) for qid in self._followers(last, later=False))
+
+    def _followers(self, qid: str, later: bool) -> set[str]:
+        """The states Wikidata or the infobox say came after (or before) the civilization."""
+        entity = self.catalog.entities.get(qid)
+        found = set(entity.ids(*(("P1366", "P156") if later else ("P1365", "P155")))) if entity else set()
+        if qid in self.infoboxes:
+            infobox = self.infoboxes[qid]
+            found |= set(self._qids(infobox.successors if later else infobox.predecessors))
+        return found
+
+    def _parents(self, qid: str) -> set[str]:
+        if qid not in self.parents:
+            entity = self.catalog.entities.get(qid) or self.wikidata.entities([qid]).get(qid)
+            self.parents[qid] = set(entity.ids("P361", "P17", preferred_only=False)) if entity else set()
+        return self.parents[qid]
 
     def _qids(self, titles: list[str]) -> list[str]:
         return list(dict.fromkeys(self.pages[title].qid for title in titles if title in self.pages and self.pages[title].qid))
