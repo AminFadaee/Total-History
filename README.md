@@ -86,11 +86,12 @@ Notes are tagged so you can filter or suspend groups of them:
 - country: `PIH::Country::Iran`, the main modern countries of a civilization and its home region, or where a figure
   was born
 - occupation: `PIH::Occupation::Philosopher`, for figures
-- tier: `PIH::Tier::Core` for civilizations every learner should meet (Vital Articles level 4 or above, or level 5
-  with an article in at least 60 languages; an article in at least 70 languages, though a people such as the Goths
-  only with a capital, rulers or a confirmed period; or home to at least three of the deck's figures), about 290 of
-  them; `PIH::Tier::Extended` for the rest, which you may suspend, and for a people or dynasty the deck also has as
-  a state (the Vandals beside the Vandal Kingdom, the Seljuk dynasty beside the Great Seljuk Empire)
+- tier: `PIH::Tier::Essential` for the civilizations on Wikipedia's 1,000 vital articles (Vital Articles level 3), about
+  20, which also carry `PIH::Tier::Core`; `PIH::Tier::Core` for those on its 10,000 (level 4), about 200 with the
+  Essential ones; `PIH::Tier::Extended` for the rest, which you may suspend. A state counts as listed when a listed
+  dynasty is its own (the Safavid dynasty for Safavid Iran). Peoples without a capital, rulers or a confirmed period
+  (the Goths), a people or dynasty the deck also has as a state (the Vandals beside the Vandal Kingdom), and countries
+  that still exist (the United States, Mexico) are Extended
 
 To skip a kind of question, suspend its subdeck rather than deleting it: deleted cards come back when you import an
 update.

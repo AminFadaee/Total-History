@@ -313,7 +313,8 @@ def century_tag(number: int) -> str:
 
 
 def civilization_tags(document: dict) -> list[str]:
-    tags = [tag("Civilization", document["name"])] + ([tag("Tier", document["tier"])] if document.get("tier") else [])
+    tiers = [document["tier"]] + (["Core"] if document.get("tier") == "Essential" else []) if document.get("tier") else []
+    tags = [tag("Civilization", document["name"])] + [tag("Tier", tier) for tier in tiers]
     period = document["period"]
     if period["confirmed"]:
         tags += [century_tag(number) for number in centuries(period["start"]["earliest"], period["end"]["latest"])]

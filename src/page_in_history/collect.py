@@ -90,7 +90,7 @@ class Collector:
         builder.mark_repeated_maps(polities)
         builder.link_successions(polities, figures)
         builder.choose_rulers(polities, figures)
-        builder.assign_tiers(polities, figures)
+        builder.assign_tiers(polities)
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))
         self.failures: list[str] = []

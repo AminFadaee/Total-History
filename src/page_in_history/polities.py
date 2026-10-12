@@ -56,7 +56,7 @@ MIRROR_GAP_YEARS = 100
 SUCCESSION_SLOTS = 3
 SAME_PLACE_KM = 5
 STEM_LETTERS = 5
-CORE_LANGUAGES, CORE_VITAL_LANGUAGES, CORE_FIGURES = 70, 60, 3
+SOVEREIGN_STATE = "Q3624078"
 TIER_KINDS = {"Q41710": "people", "Q4204501": "people", "Q8432": "state", "Q2718886": "state", "Q3024240": "state",
               "Q7275": "state", "Q417175": "state", "Q48349": "state"}  # peoples; civilizations and states
 CENTURY_PRECISION, DECADE_PRECISION = 7, 8
@@ -142,6 +142,7 @@ class Period:
 
 
 class Tier(StrEnum):
+    ESSENTIAL = "Essential"
     CORE = "Core"
     EXTENDED = "Extended"
 
@@ -1117,31 +1118,39 @@ class PolityBuilder:
         step = 10 if min(start[1], end[1]) >= DECADE_PRECISION else 100
         return [math.floor(first / step) * step, math.ceil(last / step) * step]
 
-    def assign_tiers(self, polities: list[Polity], figures: list) -> None:
-        """Core for what every learner should meet: listed as vital at level 4 or above, or at level 5 with an article
-        in at least 60 Wikipedia languages; an article in at least 70 languages, though a people (the Goths, the
-        Saxons) only with a capital, rulers or a confirmed period (the Huns); or home to at least three of the deck's
-        figures. Extended for the rest (Chen, Shirvan, the Kingdom of Fiji), which a learner may suspend, and for a
-        people or dynasty the deck also has as a state: the people a deck state names as its own (the Vandals of the
-        Vandal Kingdom), or a dynasty whose jurisdiction is one (the Seljuk dynasty of the Great Seljuk Empire)."""
-        names = {polity.name for polity in polities}
-        deck = {polity.id for polity in polities}
-        peoples = {qid for polity in polities for qid in self.catalog.entities[polity.id].ids("P172", preferred_only=False)}
-        doubled = {polity.id for polity in polities if polity.id in peoples or
-                   set(self.catalog.entities[polity.id].ids("P1001", preferred_only=False)) & (deck - {polity.id})}
-        homes = Counter(next((name for name in figure.civilizations if name in names), None) for figure in figures)
+    def assign_tiers(self, polities: list[Polity]) -> None:
+        """Tiers from Wikipedia's Vital Articles: Essential for a state on its 1,000 articles (level 3), Core for one
+        on its 10,000 (level 4), Extended for the rest, which a learner may suspend. A state counts as listed when a
+        listed dynasty is its own, by being the state's country or the name the state is named after (the Safavid
+        dynasty for Safavid Iran). A people without a capital, rulers or a confirmed period (the Goths, the Saxons; not
+        the Hittites or the Huns), a people or dynasty the deck also has as a state
+        (the Vandals beside the Vandal Kingdom, the Seljuk dynasty beside the Great Seljuk Empire) and a country that
+        still exists, whose item is today's country (the Kingdom of Sweden, Mexico), are Extended."""
         qids = [polity.id for polity in polities]
-        editions = self.wikidata.language_editions(qids)
-        kinds = self.wikidata.kinds(qids, TIER_KINDS)
+        deck = set(qids)
+        levels = self.catalog.vital_levels
+        candidates = [qid for qid, level in levels.items() if level <= MAX_VITAL_LEVEL and qid not in deck]
+        dynasties = [qid for qid, found in self.wikidata.kinds(candidates, {DYNASTY: "dynasty"}).items() if found]
+        listed = self.wikidata.entities(dynasties)
+        through: dict[str, int] = {}
+        for qid, entity in listed.items():
+            for state in entity.ids("P17", preferred_only=False):
+                through[state] = min(levels[qid], through.get(state, levels[qid]))
+        kinds = self.wikidata.kinds(qids, TIER_KINDS | {SOVEREIGN_STATE: "sovereign"})
+        peoples = {qid for polity in polities for qid in self.catalog.entities[polity.id].ids("P172", preferred_only=False)}
         for polity in polities:
-            level = self.catalog.vital_levels.get(polity.id)
-            languages = editions.get(polity.id, 0)
-            only_people = kinds.get(polity.id, set()) == {"people"}
-            known = bool(polity.capitals or polity.rulers or polity.period.confirmed)
-            vital = level is not None and (level <= MAX_VITAL_LEVEL
-                                           or (level == MAX_VITAL_LEVEL + 1 and languages >= CORE_VITAL_LANGUAGES))
-            core = vital or homes[polity.name] >= CORE_FIGURES or (languages >= CORE_LANGUAGES and (known or not only_people))
-            polity.tier = Tier.CORE if core and polity.id not in doubled else Tier.EXTENDED
+            entity = self.catalog.entities[polity.id]
+            named = [levels[qid] for qid in entity.ids("P138", preferred_only=False) if qid in listed]
+            level = min([levels.get(polity.id, 9), through.get(polity.id, 9), *named])
+            found = kinds.get(polity.id, set())
+            ruled = bool(polity.capitals or polity.rulers or polity.period.confirmed)
+            people = (found - {"sovereign"} == {"people"} and not ruled) or polity.id in peoples \
+                or bool(set(entity.ids("P1001", preferred_only=False)) & (deck - {polity.id}))
+            present = "sovereign" in found and not entity.years("P576") + entity.years("P582")
+            if level > MAX_VITAL_LEVEL or people or present:
+                polity.tier = Tier.EXTENDED
+            else:
+                polity.tier = Tier.ESSENTIAL if level < MAX_VITAL_LEVEL else Tier.CORE
 
     def choose_rulers(self, polities: list[Polity], figures: list) -> None:
         """A civilization's notable rulers, once its figures are known: the best-known people (by the number of Wikipedia
