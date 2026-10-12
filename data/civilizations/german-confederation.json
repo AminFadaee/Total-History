@@ -25,7 +25,11 @@
     "region": "Poland",
     "name": "Confederation of the Rhine"
   },
-  "after": {},
+  "after": {
+    "id": "Q43287",
+    "region": "Poland",
+    "name": "German Empire"
+  },
   "rulers": [
     {
       "id": "Q130834",

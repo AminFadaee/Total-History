@@ -30,7 +30,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q8680",
+    "region": "Brunei",
+    "name": "British Empire"
+  },
   "rulers": [
     {
       "id": "Q2658398",
@@ -57,7 +61,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A Malay sultanate centred around Brunei on the northern coast of Borneo in Southeast Asia.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/sultanate-of-brunei.png",
   "map_asked": true,
   "checks": {

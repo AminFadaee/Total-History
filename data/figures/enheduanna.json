@@ -14,7 +14,9 @@
   "civilizations": [
     "Akkadian Empire"
   ],
-  "related": [],
+  "related": [
+    "Sumerian City-States"
+  ],
   "contribution": "The entu priestess of the moon god Nanna in the Sumerian city-state of Ur in the reign of her father, Sargon of Akkad.",
   "setting": "",
   "image": "",
@@ -24,6 +26,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "lead": [
+        "Sumerian City-States"
+      ],
       "citizenship": [
         "Akkadian Empire"
       ],

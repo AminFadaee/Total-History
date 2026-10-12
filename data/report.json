@@ -4,8 +4,8 @@
     "start": -3400,
     "end": 2024
   },
-  "civilizations": 494,
-  "figures": 2106,
+  "civilizations": 495,
+  "figures": 2109,
   "failures": [],
   "unresolved_polities": {
     "Ahi Republic": "Wikipedia link 'Ahis' is not a polity article",
@@ -57,7 +57,7 @@
     "Federated Republic of Brazil": "shares Q155 with 'Brazilian Republic'",
     "Fihrids": "Wikipedia link 'Fihrids' is not a polity article",
     "First Sealand Dynasty": "Wikipedia link 'First Sealand dynasty' is not a polity article",
-    "Free City of Bremen": "Wikipedia link 'History of Bremen (city)' is not a polity article",
+    "Free City of Bremen": "Q24879 from 'Bremen' disagrees with Q474779 and its dates don't overlap",
     "Freetown Colony": "Wikipedia link 'Freetown' is not a polity article",
     "French Louisiana": "Wikipedia link 'French Louisiana' is not a polity article",
     "Frisia": "Wikipedia link 'Frisia' is not a polity article",
@@ -183,8 +183,8 @@
     "Puebloans - Aztec Regional System": "shares Q478805 with 'Puebloans - Chaco Regional System'",
     "Qarlugs": "Wikipedia link 'Mongol campaigns in Central Asia' is not a polity article",
     "Qasimids": "Wikipedia link 'Rassid dynasty' is not a polity article",
-    "Qatar": "shares Q846 with 'Qatar Dynasty'",
-    "Qatar Protectorate": "Wikipedia link 'History of Qatar' is not a polity article",
+    "Qatar": "shares Q846 with 'Qatar Protectorate'",
+    "Qatar Dynasty": "shares Q846 with 'Qatar Protectorate'",
     "Republic of Azerbaijan": "shares Q227 with 'Azerbaijan Democratic Republic'",
     "Republic of Brazil": "shares Q155 with 'Brazilian Republic'",
     "Republic of Cuba": "shares Q241 with 'Communist Cuba'",
@@ -201,7 +201,7 @@
     "Sacred Band of Thebes": "Wikipedia link 'Thebes, Greece' is not a polity article",
     "Sai": "Wikipedia link 'Eighteen Kingdoms' is not a polity article",
     "Salian Franks": "Wikipedia link 'Salian Franks' is not a polity article",
-    "Second Republic of Austria": "Wikipedia link 'History of Austria' is not a polity article",
+    "Second Republic of Austria": "shares Q40 with 'Republic of Austria'",
     "Serbs": "Wikipedia link 'Serbs' is not a polity article",
     "Shaybanids": "Wikipedia link 'Shaybanids' is not a polity article",
     "Shunten Dynasty": "Wikipedia link 'Shunten dynasty' is not a polity article",
@@ -211,13 +211,12 @@
     "Southern Liang": "shares Q1069868 with 'Liang Dynasty'",
     "Spanish Nationalists": "Wikipedia link 'Nationalist faction (Spanish Civil War)' is not a polity article",
     "State of Kuwait": "shares Q817 with 'Kuwait'",
-    "State of Qatar": "shares Q846 with 'Qatar Dynasty'",
+    "State of Qatar": "shares Q846 with 'Qatar Protectorate'",
     "Sultan of Yogyakarta": "Wikipedia link 'Hamengkubuwono' is not a polity article",
     "Sultanate of Perak": "Wikipedia link 'Sultan of Perak' is not a polity article",
     "Sultanate of Sambaliung": "Wikipedia link 'id.wikipedia.org/wiki/Kesultanan_Sambaliung' has no Wikidata item",
     "Sultanate of Selangor": "Wikipedia link 'Sultan of Selangor' is not a polity article",
     "Sultanate of Terengganu": "Wikipedia link 'Sultan of Terengganu' is not a polity article",
-    "Sumerian City-States": "Wikipedia link 'History of Sumer' is not a polity article",
     "Swaziland": "shares Q1050 with 'Eswatini'",
     "Syria": "shares Q858 with \"Ba'athist Syria\"",
     "Taliban": "Wikipedia link 'Taliban' is not a polity article",
@@ -1548,15 +1547,6 @@
       "to": null
     },
     {
-      "name": "Qatar Dynasty",
-      "side": "before",
-      "years": [
-        1820,
-        1869
-      ],
-      "to": null
-    },
-    {
       "name": "Republic of China",
       "side": "after",
       "years": [
@@ -1692,6 +1682,15 @@
       "to": null
     },
     {
+      "name": "Sumerian City-States",
+      "side": "after",
+      "years": [
+        -1800,
+        -1761
+      ],
+      "to": null
+    },
+    {
       "name": "Sur Empire",
       "side": "after",
       "years": [
@@ -1778,6 +1777,15 @@
       "years": [
         367,
         449
+      ],
+      "to": null
+    },
+    {
+      "name": "Tibet",
+      "side": "before",
+      "years": [
+        1363,
+        1911
       ],
       "to": null
     },
@@ -1958,15 +1966,6 @@
       "years": [
         970,
         1881
-      ],
-      "to": null
-    },
-    {
-      "name": "Tibet",
-      "side": "before",
-      "years": [
-        1363,
-        1911
       ],
       "to": null
     }

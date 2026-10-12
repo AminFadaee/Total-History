@@ -30,7 +30,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q20",
+    "region": "Iceland",
+    "name": "Old Kingdom of Norway"
+  },
   "rulers": [
     {
       "id": "Q2427752",
@@ -55,7 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The political unit existing in Iceland between the establishment of the Althing in 930 and the pledge of fealty to the Norwegian king with the Old Covenant in 1262.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/icelandic-commonwealth.png",
   "map_asked": true,
   "checks": {

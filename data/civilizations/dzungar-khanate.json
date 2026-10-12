@@ -18,7 +18,16 @@
     "confirmed": true,
     "core": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Yining",
+      "location": [
+        81.316667,
+        43.916667
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -71,7 +80,7 @@
       1756
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Yining",
     "labelled": [
       "Qing Dynasty",
       "Tsardom of Russia",

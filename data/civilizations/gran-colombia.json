@@ -29,13 +29,21 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q80702",
+    "region": "Colombia",
+    "name": "Spanish Empire"
+  },
   "after": {
     "id": "Q630882",
     "region": "Colombia",
     "name": "Republic of New Granada"
   },
   "rulers": [
+    {
+      "id": "Q189779",
+      "name": "Antonio José de Sucre"
+    },
     {
       "id": "Q8605",
       "name": "Simón Bolívar"

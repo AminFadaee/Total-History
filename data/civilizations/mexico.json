@@ -21,13 +21,13 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q5062192",
+    "region": "Mexico",
+    "name": "Centralist Mexico"
+  },
   "after": {},
   "rulers": [
-    {
-      "id": "Q189145",
-      "name": "Antonio López de Santa Anna"
-    },
     {
       "id": "Q182276",
       "name": "Benito Juárez"
@@ -39,6 +39,10 @@
     {
       "id": "Q216766",
       "name": "Francisco I. Madero"
+    },
+    {
+      "id": "Q296718",
+      "name": "Lázaro Cárdenas"
     }
   ],
   "modern_countries": [

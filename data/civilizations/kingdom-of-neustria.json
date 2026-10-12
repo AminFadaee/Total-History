@@ -14,7 +14,16 @@
     "confirmed": false,
     "core": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Soissons",
+      "location": [
+        3.3225,
+        49.381111111111
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -30,7 +39,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The western part of the Kingdom of the Franks during the Early Middle Ages, in contrast to the eastern Frankish sub-kingdom, Austrasia.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-neustria.png",
   "map_asked": true,
   "checks": {
@@ -48,7 +57,7 @@
       731
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Soissons",
     "labelled": [
       "Francia",
       "Aquitaine",

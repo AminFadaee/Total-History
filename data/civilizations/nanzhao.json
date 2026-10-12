@@ -18,7 +18,16 @@
     "confirmed": true,
     "core": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Dali City",
+      "location": [
+        100.30027777777778,
+        25.68111111111111
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -40,6 +49,7 @@
         "Dali City"
       ],
       "infobox": [
+        "Taihe",
         "Dali City"
       ]
     },
@@ -48,7 +58,7 @@
       910
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Dali City",
     "labelled": [
       "Tang Dynasty",
       "Tibetan Empire",

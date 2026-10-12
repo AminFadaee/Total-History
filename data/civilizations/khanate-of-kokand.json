@@ -34,7 +34,11 @@
     "region": "Uzbekistan",
     "name": "Khanate of Bukhara"
   },
-  "after": {},
+  "after": {
+    "id": "Q34266",
+    "region": "Uzbekistan",
+    "name": "Russian Empire"
+  },
   "rulers": [
     {
       "id": "Q4521373",
@@ -61,7 +65,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An early modern state in the Fergana Valley of Central Asia.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/khanate-of-kokand.png",
   "map_asked": true,
   "checks": {

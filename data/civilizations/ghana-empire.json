@@ -12,7 +12,10 @@
       "circa": false
     },
     "confirmed": false,
-    "core": null
+    "core": [
+      300,
+      1200
+    ]
   },
   "capitals": [
     {

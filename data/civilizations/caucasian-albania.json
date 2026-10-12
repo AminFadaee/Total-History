@@ -12,7 +12,10 @@
     },
     "end": null,
     "confirmed": false,
-    "core": null
+    "core": [
+      -100,
+      500
+    ]
   },
   "capitals": [
     {

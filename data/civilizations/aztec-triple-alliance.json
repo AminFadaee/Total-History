@@ -27,7 +27,11 @@
     "region": "Mexico",
     "name": "Tenochtitlan"
   },
-  "after": {},
+  "after": {
+    "id": "Q80702",
+    "region": "Mexico",
+    "name": "Spanish Empire"
+  },
   "rulers": [
     {
       "id": "Q318072",

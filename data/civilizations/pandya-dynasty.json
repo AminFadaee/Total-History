@@ -9,8 +9,8 @@
     "end": null,
     "confirmed": false,
     "core": [
-      500,
-      1400
+      -300,
+      1620
     ]
   },
   "capitals": [
@@ -37,7 +37,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An ancient Tamil dynasty of South India, and among the four great kingdoms of Tamilakam, the other three being the Pallavas, the Cholas and the Cheras.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/pandya-dynasty.png",
   "map_asked": true,
   "checks": {

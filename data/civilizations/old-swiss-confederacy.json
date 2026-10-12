@@ -27,14 +27,16 @@
   "overseas_countries": [],
   "borders": false,
   "summary": "A loose confederation of independent small states, initially within the Holy Roman Empire.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "",
   "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
       "wikidata": [],
-      "infobox": []
+      "infobox": [
+        "None"
+      ]
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",

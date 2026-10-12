@@ -46,7 +46,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q30",
+    "region": "United States",
+    "name": "United States of America"
+  },
   "rulers": [
     {
       "id": "Q216547",
@@ -63,7 +67,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A short-lived sovereign country in North America from March 2, 1836, to February 19, 1846.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/republic-of-texas.png",
   "map_asked": true,
   "checks": {

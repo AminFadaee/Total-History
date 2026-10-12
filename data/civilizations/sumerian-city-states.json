@@ -1,0 +1,54 @@
+{
+  "id": "Q35355",
+  "slug": "sumerian-city-states",
+  "name": "Sumerian City-States",
+  "wikipedia": "Sumer",
+  "map_year": -2500,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false,
+    "core": [
+      -5500,
+      -1900
+    ]
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q47690",
+    "region": "Iraq",
+    "name": "Babylonia"
+  },
+  "rulers": [
+    {
+      "id": "Q316241",
+      "name": "Lugal-zage-si"
+    }
+  ],
+  "modern_countries": [
+    "Iraq",
+    "Iran"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "The earliest known civilization, located in the historical region of southern Mesopotamia, emerging during the Chalcolithic and early Bronze Ages between the 5th and 4th millennium BC.",
+  "tier": "Core",
+  "map": "maps/sumerian-city-states.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -3400,
+      -1761
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

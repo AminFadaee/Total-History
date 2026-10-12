@@ -34,22 +34,6 @@
         45.462907
       ],
       "founded": -600
-    },
-    {
-      "name": "Ravenna",
-      "location": [
-        12.201666666666666,
-        44.416111111111114
-      ],
-      "founded": null
-    },
-    {
-      "name": "Constantinople",
-      "location": [
-        28.976018,
-        41.01224
-      ],
-      "founded": 330
     }
   ],
   "parts": [],
@@ -58,7 +42,11 @@
     "region": "Italy",
     "name": "Roman Republic"
   },
-  "after": {},
+  "after": {
+    "id": "Q12544",
+    "region": "Turkey",
+    "name": "Byzantine Empire"
+  },
   "rulers": [
     {
       "id": "Q1405",

@@ -34,7 +34,11 @@
     "region": "China",
     "name": "Qing Dynasty"
   },
-  "after": {},
+  "after": {
+    "id": "Q148",
+    "region": "China",
+    "name": "People's Republic of China"
+  },
   "rulers": [
     {
       "id": "Q25238",
@@ -68,7 +72,7 @@
       1912,
       1952
     ],
-    "identity": "Wikidata state named like the Cliopatria polity",
+    "identity": "Wikipedia item with overlapping dates",
     "home": "Lhasa",
     "labelled": [
       "British Raj",

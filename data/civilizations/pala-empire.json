@@ -37,11 +37,7 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q5324",
-    "region": "India",
-    "name": "Gurjara-Pratihara Dynasty"
-  },
+  "before": {},
   "after": {},
   "rulers": [],
   "modern_countries": [
@@ -52,7 +48,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An early medieval Indian empire ruled by the Pāla dynasty.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/pala-empire.png",
   "map_asked": true,
   "checks": {
@@ -62,7 +58,8 @@
         "Pataliputra"
       ],
       "infobox": [
-        "Murshidabad"
+        "Murshidabad",
+        "Various"
       ]
     },
     "cliopatria_years": [

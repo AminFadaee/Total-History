@@ -20,6 +20,14 @@
   },
   "capitals": [
     {
+      "name": "Bucharest",
+      "location": [
+        26.09777777777778,
+        44.41336111111111
+      ],
+      "founded": 1459
+    },
+    {
       "name": "Iași",
       "location": [
         27.588888888889,
@@ -73,7 +81,7 @@
       1947
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Iași",
+    "home": "Bucharest",
     "labelled": [
       "Ukrainian People's Republic",
       "Yugoslavia",

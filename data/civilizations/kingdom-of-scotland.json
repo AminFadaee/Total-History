@@ -20,6 +20,14 @@
   },
   "capitals": [
     {
+      "name": "Scone",
+      "location": [
+        -3.40404,
+        56.4179
+      ],
+      "founded": null
+    },
+    {
       "name": "Edinburgh",
       "location": [
         -3.4616666666667,
@@ -75,7 +83,7 @@
       1608
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Edinburgh",
+    "home": "Scone",
     "labelled": [
       "Kingdom of England",
       "Dutch Republic"

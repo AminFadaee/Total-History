@@ -38,7 +38,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q15180",
+    "region": "Azerbaijan",
+    "name": "Union of Soviet Socialist Republics"
+  },
   "rulers": [
     {
       "id": "Q984384",
@@ -60,7 +64,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The first secular democratic republic in the Turkic and Muslim worlds.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/azerbaijan-democratic-republic.png",
   "map_asked": true,
   "checks": {

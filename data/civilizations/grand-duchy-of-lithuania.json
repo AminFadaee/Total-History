@@ -20,6 +20,14 @@
   },
   "capitals": [
     {
+      "name": "Kernavė",
+      "location": [
+        24.85,
+        54.88333333333333
+      ],
+      "founded": null
+    },
+    {
       "name": "Vilnius",
       "location": [
         24.966666666667,
@@ -37,8 +45,8 @@
       "name": "Mindaugas"
     },
     {
-      "id": "Q244852",
-      "name": "Gediminas"
+      "id": "Q54049",
+      "name": "Władysław II Jagiełło"
     },
     {
       "id": "Q218186",
@@ -79,7 +87,7 @@
       1449
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Vilnius",
+    "home": "Kernavė",
     "labelled": [
       "Blue Horde",
       "Novgorod Republic",

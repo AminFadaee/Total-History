@@ -26,6 +26,14 @@
         48.85666666666667
       ],
       "founded": -300
+    },
+    {
+      "name": "Laon",
+      "location": [
+        3.6205555555555557,
+        49.56444444444445
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -74,7 +82,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "It was created from the division of the Carolingian Empire following the death of Louis the Pious, with its neighbor East Francia eventually evolving into the Kingdom of Germany.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/west-franks.png",
   "map_asked": true,
   "checks": {

@@ -34,7 +34,11 @@
     "region": "South Korea",
     "name": "Joseon"
   },
-  "after": {},
+  "after": {
+    "id": "Q188712",
+    "region": "South Korea",
+    "name": "Empire of Japan"
+  },
   "rulers": [
     {
       "id": "Q257425",
@@ -52,7 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A Korean monarchical state proclaimed in October 1897 by King Gojong of the Joseon dynasty.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/korean-empire.png",
   "map_asked": false,
   "checks": {

@@ -45,7 +45,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q80702",
+    "region": "Guatemala",
+    "name": "Spanish Empire"
+  },
   "after": {},
   "rulers": [
     {
@@ -71,7 +75,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A sovereign state in Central America that existed between 1823 and 1839/1841.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/united-provinces-of-central-america.png",
   "map_asked": true,
   "checks": {

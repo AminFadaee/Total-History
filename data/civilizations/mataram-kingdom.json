@@ -46,7 +46,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A Javanese Hindu-Buddhist kingdom that flourished between the 8th and 11th centuries AD.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/mataram-kingdom.png",
   "map_asked": true,
   "checks": {
@@ -55,7 +55,9 @@
       "wikidata": [
         "Mamratipura"
       ],
-      "infobox": []
+      "infobox": [
+        "Medang Island"
+      ]
     },
     "cliopatria_years": [
       741,

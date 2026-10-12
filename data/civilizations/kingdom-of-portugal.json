@@ -37,7 +37,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q175276",
+    "region": "Portugal",
+    "name": "Kingdom of León"
+  },
   "after": {
     "id": "Q45",
     "region": "Portugal",
@@ -57,8 +61,8 @@
       "name": "Philip III of Spain"
     },
     {
-      "id": "Q151394",
-      "name": "António de Oliveira Salazar"
+      "id": "Q1060796",
+      "name": "John IV of Portugal"
     }
   ],
   "modern_countries": [

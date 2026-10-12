@@ -18,7 +18,16 @@
     "confirmed": true,
     "core": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Qufu",
+      "location": [
+        116.98333333333,
+        35.6
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -52,7 +61,7 @@
       -248
     ],
     "identity": "Wikipedia item with overlapping dates",
-    "home": "the spot held longest",
+    "home": "Qufu",
     "labelled": [
       "Qi",
       "Wu",

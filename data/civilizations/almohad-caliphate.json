@@ -49,6 +49,10 @@
   },
   "rulers": [
     {
+      "id": "Q307312",
+      "name": "Abd al-Mu'min"
+    },
+    {
       "id": "Q455739",
       "name": "Yaqub al-Mansur"
     }
@@ -63,7 +67,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A North African Muslim empire ruled by a Berber dynasty from 1130 to 1269, which at its height controlled much of the Maghreb and the Iberian Peninsula.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/almohad-caliphate.png",
   "map_asked": true,
   "checks": {

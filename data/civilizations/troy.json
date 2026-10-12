@@ -8,7 +8,10 @@
     "start": null,
     "end": null,
     "confirmed": false,
-    "core": null
+    "core": [
+      -3000,
+      500
+    ]
   },
   "capitals": [],
   "parts": [],

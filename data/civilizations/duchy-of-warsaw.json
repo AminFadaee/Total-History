@@ -34,7 +34,11 @@
     "region": "Poland",
     "name": "Polish-Lithuanian Commonwealth"
   },
-  "after": {},
+  "after": {
+    "id": "Q34266",
+    "region": "Poland",
+    "name": "Russian Empire"
+  },
   "rulers": [
     {
       "id": "Q53444",
@@ -47,7 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A French client state established by Napoleon Bonaparte in 1807, during the Napoleonic Wars.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/duchy-of-warsaw.png",
   "map_asked": true,
   "checks": {

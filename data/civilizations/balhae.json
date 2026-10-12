@@ -20,6 +20,14 @@
   },
   "capitals": [
     {
+      "name": "Helong",
+      "location": [
+        129.00388,
+        42.54036
+      ],
+      "founded": null
+    },
+    {
       "name": "Shangjing Longquanfu",
       "location": [
         129.14166667,
@@ -61,7 +69,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A multiethnic kingdom established in 698 by Tae Choyŏng.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/balhae.png",
   "map_asked": true,
   "checks": {
@@ -85,7 +93,7 @@
       925
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Shangjing Longquanfu",
+    "home": "Helong",
     "labelled": [
       "Liao Dynasty",
       "Goryeo",

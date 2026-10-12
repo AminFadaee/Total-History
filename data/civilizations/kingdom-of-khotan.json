@@ -13,11 +13,20 @@
     },
     "confirmed": false,
     "core": [
-      800,
-      1100
+      50,
+      1010
     ]
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Hotan",
+      "location": [
+        79.9327,
+        37.1012
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -33,7 +42,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An ancient Buddhist Saka kingdom located on the branch of the Silk Road that ran along the southern edge of the Taklamakan Desert in the Tarim Basin.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-khotan.png",
   "map_asked": true,
   "checks": {
@@ -51,7 +60,7 @@
       1009
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Hotan",
     "labelled": [
       "Qocho Kingdom",
       "Tibetans",

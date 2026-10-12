@@ -13,19 +13,11 @@
     },
     "confirmed": false,
     "core": [
-      -1200,
-      -500
+      -2000,
+      -60
     ]
   },
   "capitals": [
-    {
-      "name": "Byblos",
-      "location": [
-        35.65,
-        34.116666666667
-      ],
-      "founded": -8000
-    },
     {
       "name": "Sidon",
       "location": [
@@ -75,7 +67,10 @@
   "checks": {
     "infobox": true,
     "capital_sources": {
-      "wikidata": [],
+      "wikidata": [
+        "Sidon",
+        "Tyre, Lebanon"
+      ],
       "infobox": [
         "Byblos",
         "Sidon",
@@ -87,7 +82,7 @@
       -501
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Byblos",
+    "home": "Sidon",
     "labelled": [
       "Neo-Assyrian Empire"
     ]

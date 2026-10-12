@@ -13,8 +13,8 @@
     },
     "confirmed": false,
     "core": [
-      -1500,
-      -1200
+      -1600,
+      -1260
     ]
   },
   "capitals": [
@@ -29,7 +29,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q41137",
+    "region": "Syria",
+    "name": "Assyria"
+  },
   "rulers": [
     {
       "id": "Q317205",

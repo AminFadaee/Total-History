@@ -54,19 +54,23 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q12544",
+    "region": "Bulgaria",
+    "name": "Byzantine Empire"
+  },
   "rulers": [
     {
       "id": "Q192104",
       "name": "Krum"
     },
     {
-      "id": "Q270740",
-      "name": "Samuel of Bulgaria"
-    },
-    {
       "id": "Q192264",
       "name": "Simeon I of Bulgaria"
+    },
+    {
+      "id": "Q270740",
+      "name": "Samuel of Bulgaria"
     }
   ],
   "modern_countries": [

@@ -20,6 +20,14 @@
   },
   "capitals": [
     {
+      "name": "Vichy",
+      "location": [
+        3.4258333333333,
+        46.126944444444
+      ],
+      "founded": null
+    },
+    {
       "name": "Paris",
       "location": [
         2.352222222222222,
@@ -68,16 +76,12 @@
       1943
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Vichy",
     "labelled": [
       "Nazi Germany",
       "Francoist Spain",
       "Kingdom of Italy",
-      "Swiss Confederation",
-      "Yugoslavia",
-      "Hungarian Republic",
-      "Kingdom of Greece",
-      "Éire"
+      "Swiss Confederation"
     ]
   }
 }

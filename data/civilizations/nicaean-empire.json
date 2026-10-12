@@ -41,18 +41,6 @@
   },
   "rulers": [
     {
-      "id": "Q37086",
-      "name": "Theodore I Laskaris"
-    },
-    {
-      "id": "Q37072",
-      "name": "John III Doukas Vatatzes"
-    },
-    {
-      "id": "Q37082",
-      "name": "Theodore II Laskaris"
-    },
-    {
       "id": "Q37088",
       "name": "John IV Doukas Laskaris"
     }
@@ -66,7 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The largest of the three Greek rump states founded by the aristocracy of the Byzantine Empire that fled when Constantinople was occupied by Western European and Venetian armed forces during the Fourth Crusade, a military event known as the Sack of Constantinople; Latin Empire, was established by an army of Crusaders and Venice after the capture of Constantinople and the surrounding environs.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/nicaean-empire.png",
   "map_asked": true,
   "checks": {

@@ -30,11 +30,19 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q43287",
+    "region": "Germany",
+    "name": "German Empire"
+  },
   "rulers": [
     {
       "id": "Q53444",
       "name": "Frederick Augustus I of Saxony"
+    },
+    {
+      "id": "Q57320",
+      "name": "Frederick Augustus III of Saxony"
     }
   ],
   "modern_countries": [
@@ -44,7 +52,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A German monarchy in Central Europe between 1806 and 1918, the successor of the Electorate of Saxony.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-saxony.png",
   "map_asked": true,
   "checks": {

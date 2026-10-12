@@ -13,8 +13,8 @@
     },
     "confirmed": false,
     "core": [
-      -800,
-      400
+      -780,
+      350
     ]
   },
   "capitals": [
@@ -55,7 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An ancient kingdom in Nubia, centered along the Nile Valley in what is now northern Sudan and southern Egypt.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-kush.png",
   "map_asked": true,
   "checks": {

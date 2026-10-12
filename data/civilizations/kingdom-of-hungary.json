@@ -26,6 +26,46 @@
         47.498333333333
       ],
       "founded": 1873
+    },
+    {
+      "name": "Esztergom",
+      "location": [
+        18.740277777778,
+        47.785555555556
+      ],
+      "founded": null
+    },
+    {
+      "name": "Timișoara",
+      "location": [
+        21.23,
+        45.759722222222
+      ],
+      "founded": 1266
+    },
+    {
+      "name": "Visegrád",
+      "location": [
+        18.970245,
+        47.785782
+      ],
+      "founded": null
+    },
+    {
+      "name": "Bratislava",
+      "location": [
+        17.1093063,
+        48.1516988
+      ],
+      "founded": 907
+    },
+    {
+      "name": "Székesfehérvár",
+      "location": [
+        18.410811,
+        47.1910169
+      ],
+      "founded": 972
     }
   ],
   "parts": [],
@@ -94,7 +134,7 @@
       1546
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Budapest",
+    "home": "Timișoara",
     "labelled": [
       "House of Jagiellon",
       "Ottoman Empire",

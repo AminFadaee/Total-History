@@ -37,8 +37,16 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {},
+  "before": {
+    "id": "Q42834",
+    "region": "Italy",
+    "name": "Western Roman Empire"
+  },
+  "after": {
+    "id": "Q12544",
+    "region": "Italy",
+    "name": "Byzantine Empire"
+  },
   "rulers": [
     {
       "id": "Q105105",
@@ -72,7 +80,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A barbarian kingdom established by the Germanic Ostrogoths that controlled Italy and neighbouring areas between 493 and 553.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/ostrogothic-kingdom.png",
   "map_asked": true,
   "checks": {

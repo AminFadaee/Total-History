@@ -37,8 +37,16 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {},
+  "before": {
+    "id": "Q42834",
+    "region": "Algeria",
+    "name": "Western Roman Empire"
+  },
+  "after": {
+    "id": "Q12544",
+    "region": "Tunisia",
+    "name": "Byzantine Empire"
+  },
   "rulers": [
     {
       "id": "Q152127",
@@ -55,7 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A confederation of Vandals and Alans, and a barbarian kingdom established under Gaiseric, a Vandalic warlord.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/vandal-kingdom.png",
   "map_asked": true,
   "checks": {

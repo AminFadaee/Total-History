@@ -30,7 +30,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q43287",
+    "region": "Germany",
+    "name": "German Empire"
+  },
   "rulers": [
     {
       "id": "Q130586",
@@ -51,7 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "Established in October 1814 by the Congress of Vienna, with the restoration of George III to his Hanoverian territories after the Napoleonic era.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-hanover.png",
   "map_asked": true,
   "checks": {

@@ -18,10 +18,23 @@
     "confirmed": true,
     "core": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Arles",
+      "location": [
+        4.6286111111111,
+        43.676944444444
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q12548",
+    "region": "France",
+    "name": "Holy Roman Empire"
+  },
   "rulers": [
     {
       "id": "Q442257",
@@ -49,7 +62,8 @@
         "Arles"
       ],
       "infobox": [
-        "Arles"
+        "Arles",
+        "Wikipedia:No original research"
       ]
     },
     "cliopatria_years": [
@@ -57,7 +71,7 @@
       1384
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Arles",
     "labelled": [
       "West Franks",
       "Kingdom of Germany",

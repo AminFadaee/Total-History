@@ -42,7 +42,11 @@
     "region": "Italy",
     "name": "Roman Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q583038",
+    "region": "Italy",
+    "name": "Ostrogothic Kingdom"
+  },
   "rulers": [
     {
       "id": "Q309845",

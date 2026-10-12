@@ -12,7 +12,10 @@
       "circa": false
     },
     "confirmed": false,
-    "core": null
+    "core": [
+      1100,
+      1500
+    ]
   },
   "capitals": [
     {
@@ -33,16 +36,16 @@
       "name": "Iziaslav I of Kiev"
     },
     {
+      "id": "Q60928",
+      "name": "Vladimir II Monomakh"
+    },
+    {
       "id": "Q41514",
       "name": "Mstislav I of Kiev"
     },
     {
       "id": "Q275106",
       "name": "Yuri Dolgorukiy"
-    },
-    {
-      "id": "Q348689",
-      "name": "Vsevolod the Big Nest"
     }
   ],
   "modern_countries": [

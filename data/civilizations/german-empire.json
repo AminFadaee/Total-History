@@ -29,7 +29,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q151624",
+    "region": "Germany",
+    "name": "German Confederation"
+  },
   "after": {
     "id": "Q41304",
     "region": "Germany",

@@ -38,7 +38,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q38872",
+    "region": "Germany",
+    "name": "Prussia"
+  },
   "rulers": [],
   "modern_countries": [
     "Germany",
@@ -47,7 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A major principality of the Holy Roman Empire from 1157 to 1806.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/margraviate-of-brandenburg.png",
   "map_asked": true,
   "checks": {

@@ -34,15 +34,19 @@
     "region": "India",
     "name": "Mughal Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q8680",
+    "region": "India",
+    "name": "British Empire"
+  },
   "rulers": [
+    {
+      "id": "Q239505",
+      "name": "Shivaji"
+    },
     {
       "id": "Q2514706",
       "name": "Bajirao I"
-    },
-    {
-      "id": "Q3629888",
-      "name": "Balaji Baji Rao"
     }
   ],
   "modern_countries": [

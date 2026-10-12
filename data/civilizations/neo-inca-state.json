@@ -34,7 +34,11 @@
     "region": "Peru",
     "name": "Inca Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q80702",
+    "region": "Peru",
+    "name": "Spanish Empire"
+  },
   "rulers": [
     {
       "id": "Q332049",

@@ -36,19 +36,27 @@
     "Republic of Iceland"
   ],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q62651",
+    "region": "Denmark",
+    "name": "Denmark-Norway"
+  },
   "rulers": [
     {
       "id": "Q310433",
       "name": "Karl Knutsson"
     },
     {
-      "id": "Q58056",
-      "name": "Christopher of Bavaria"
-    },
-    {
       "id": "Q157776",
       "name": "Hans, King of Denmark"
+    },
+    {
+      "id": "Q157789",
+      "name": "Frederick I of Denmark"
+    },
+    {
+      "id": "Q154460",
+      "name": "Christian II of Denmark"
     }
   ],
   "modern_countries": [
