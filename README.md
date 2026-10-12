@@ -88,7 +88,8 @@ Notes are tagged so you can filter or suspend groups of them:
 - tier: `PIH::Tier::Core` for civilizations every learner should meet (Vital Articles level 4 or above, or level 5
   with an article in at least 60 languages; an article in at least 70 languages, though a people such as the Goths
   only with a capital, rulers or a confirmed period; or home to at least three of the deck's figures), about 290 of
-  them; `PIH::Tier::Extended` for the rest, which you may suspend
+  them; `PIH::Tier::Extended` for the rest, which you may suspend, and for a people or dynasty the deck also has as
+  a state (the Vandals beside the Vandal Kingdom, the Seljuk dynasty beside the Great Seljuk Empire)
 
 To skip a kind of question, suspend its subdeck rather than deleting it: deleted cards come back when you import an
 update.

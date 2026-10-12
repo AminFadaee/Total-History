@@ -1045,8 +1045,14 @@ class PolityBuilder:
         """Core for what every learner should meet: listed as vital at level 4 or above, or at level 5 with an article
         in at least 60 Wikipedia languages; an article in at least 70 languages, though a people (the Goths, the
         Saxons) only with a capital, rulers or a confirmed period (the Huns); or home to at least three of the deck's
-        figures. Extended for the rest (Chen, Shirvan, the Kingdom of Fiji), which a learner may suspend."""
+        figures. Extended for the rest (Chen, Shirvan, the Kingdom of Fiji), which a learner may suspend, and for a
+        people or dynasty the deck also has as a state: the people a deck state names as its own (the Vandals of the
+        Vandal Kingdom), or a dynasty whose jurisdiction is one (the Seljuk dynasty of the Great Seljuk Empire)."""
         names = {polity.name for polity in polities}
+        deck = {polity.id for polity in polities}
+        peoples = {qid for polity in polities for qid in self.catalog.entities[polity.id].ids("P172", preferred_only=False)}
+        doubled = {polity.id for polity in polities if polity.id in peoples or
+                   set(self.catalog.entities[polity.id].ids("P1001", preferred_only=False)) & (deck - {polity.id})}
         homes = Counter(next((name for name in figure.civilizations if name in names), None) for figure in figures)
         qids = [polity.id for polity in polities]
         editions = self.wikidata.language_editions(qids)
@@ -1059,7 +1065,7 @@ class PolityBuilder:
             vital = level is not None and (level <= MAX_VITAL_LEVEL
                                            or (level == MAX_VITAL_LEVEL + 1 and languages >= CORE_VITAL_LANGUAGES))
             core = vital or homes[polity.name] >= CORE_FIGURES or (languages >= CORE_LANGUAGES and (known or not only_people))
-            polity.tier = Tier.CORE if core else Tier.EXTENDED
+            polity.tier = Tier.CORE if core and polity.id not in doubled else Tier.EXTENDED
 
     def choose_rulers(self, polities: list[Polity], figures: list) -> None:
         """A civilization's notable rulers, once its figures are known: the best-known people (by the number of Wikipedia
