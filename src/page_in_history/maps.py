@@ -490,15 +490,18 @@ def draw(job: MapJob) -> list[str]:
 def render_all(jobs: list[MapJob], countries: gpd.GeoDataFrame, rivers: gpd.GeoDataFrame, font: pathlib.Path,
                workers: int) -> list[list[str] | Exception]:
     """Draws the maps side by side in separate processes; each map's result is the polities labelled on it, or the
-    error that stopped it. A worker is replaced after 25 maps, since drawing slowly accumulates memory."""
+    error that stopped it. The processes are started afresh for every batch of maps, since drawing slowly
+    accumulates memory."""
     context = multiprocessing.get_context("spawn")
-    with ProcessPoolExecutor(workers, mp_context=context, initializer=start_worker,
-                             initargs=(countries, rivers, font), max_tasks_per_child=MAPS_PER_WORKER) as pool:
-        futures = [pool.submit(draw, job) for job in jobs]
-        results: list[list[str] | Exception] = []
-        for future in futures:
-            try:
-                results.append(future.result())
-            except Exception as error:
-                results.append(error)
-        return results
+    results: list[list[str] | Exception] = []
+    batch = workers * MAPS_PER_WORKER
+    for start in range(0, len(jobs), batch):
+        with ProcessPoolExecutor(workers, mp_context=context, initializer=start_worker,
+                                 initargs=(countries, rivers, font)) as pool:
+            futures = [pool.submit(draw, job) for job in jobs[start:start + batch]]
+            for future in futures:
+                try:
+                    results.append(future.result())
+                except Exception as error:
+                    results.append(error)
+    return results
