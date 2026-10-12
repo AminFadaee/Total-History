@@ -69,6 +69,15 @@ class RegionalSuccession:
         after = {} if self._partitioned(rows) else self._side(qid, rows, edges[1], anchor, False, fits)
         return before, after, anchor.place
 
+    def home(self, qid: str, capitals: list[dict]) -> Anchor | None:
+        """The civilization's home, as its before and after are judged: its point and today's country there."""
+        rows = self.frame[self.frame.qid == qid]
+        return None if rows.empty else self._anchor(rows, capitals)
+
+    def held(self, qid: str, point: Point) -> bool:
+        """Whether the civilization ever held the point on the maps, or land within reach of it."""
+        return any(holding.qid == qid for holding in self._holdings(point, CAPITAL_TOLERANCE_DEGREES))
+
     def _side(self, qid: str, rows: gpd.GeoDataFrame, edge, anchor: Anchor, before: bool, fits) -> dict:
         edge_rows = rows[rows.FromYear == rows.FromYear.min()] if before else rows[rows.ToYear == rows.ToYear.max()]
         near = edge and (shapely.distance(edge_rows.geometry.values, Point(edge)) <= CAPITAL_TOLERANCE_DEGREES).any()

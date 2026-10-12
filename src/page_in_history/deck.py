@@ -324,13 +324,15 @@ def civilization_tags(document: dict) -> list[str]:
 
 
 def succession_fields(document: dict) -> dict[str, str]:
-    """A card per region before and after, and the back's list of them: 'Abbasid Caliphate (Iraq) · Kara-Khitans
-    (Kyrgyzstan)'."""
+    """A card per region before and after, the first for its home region, and the back's list of them: 'Abbasid
+    Caliphate (Iraq) · Kara-Khitans (Kyrgyzstan)'."""
     fields = {}
     for side in ("Before", "After"):
         edges = document[side.lower()]
+        home = [edge for edge in edges if edge.get("home")][:1]
+        slots = (home or [{}]) + [edge for edge in edges if not edge.get("home")]
         for number in range(1, SUCCESSION_SLOTS + 1):
-            edge = edges[number - 1] if number <= len(edges) else {}
+            edge = slots[number - 1] if number <= len(slots) else {}
             fields[slot(side, number)] = escaped(edge.get("name"))
             fields[f"{slot(side, number)}Region"] = escaped(edge.get("region"))
         fields[f"{side}List"] = joined([f"{edge['name']} ({edge['region']})" if edge.get("region") else edge["name"]

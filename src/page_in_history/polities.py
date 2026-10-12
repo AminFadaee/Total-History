@@ -18,7 +18,7 @@ from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country
                                                   ruler_succession)
 from page_in_history.regions import home, regions
 from page_in_history.sentences import contribution, first_paragraph
-from page_in_history.succession import RegionalSuccession
+from page_in_history.succession import WINDOW_YEARS, RegionalSuccession
 
 POLITY_ROOTS = {
     "Q7275",  # state
@@ -788,9 +788,11 @@ class PolityBuilder:
         ("before the Mongol Empire in Iraq: the Abbasid Caliphate; in Kyrgyzstan: the Kara-Khitans"). First the holder
         of its home on the map, which must be in the deck or well known (an article in at least 40 Wikipedia
         languages), else the nearest confirmed holder that is. Then the state its last (first) infobox leader's own
-        infobox names as successor (predecessor), when that person led exactly one other deck civilization, adjacent in
-        time (Timurid → Mughal through Babur). Then the same links seen from the other side (Achaemenid before the
-        Macedonian Empire). One civilization per region, the map's first, at most three a side."""
+        infobox names as successor (predecessor), when that person led exactly one other deck civilization, which began
+        within 30 years and held the civilization's home on the map (Timurid → Mughal through Babur; not Great Britain
+        before Hanover, a shared crown). Then the same links seen from the other side (Achaemenid
+        before the Macedonian Empire). One civilization per region, at most three a side. The first, asked as its own
+        card, is in its home region (today's country at its longest-held capital); the others are other regions."""
         deck = {polity.id for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
@@ -803,8 +805,13 @@ class PolityBuilder:
                 polity.before, polity.after = self._edges(before), self._edges(after)
         drawn_edges = {side: {polity.id for polity in polities if getattr(polity, side)} for side in ("before", "after")}
         by_id = {polity.id: polity for polity in polities}
+        anchors = {polity.id: self.succession.home(polity.id, polity.capitals) for polity in polities}
+        homes = {polity.id: anchors[polity.id].region if anchors[polity.id] else self._home_region(polity)
+                 for polity in polities}
         for polity, side, other in self._ruler_links(polities, figures):
-            self._link(polity, side, by_id[other], self._home_region(polity))
+            anchor = anchors[polity.id]
+            if anchor is None or not by_id[other].borders or self.succession.held(other, anchor.point):
+                self._link(polity, side, by_id[other], homes[polity.id], WINDOW_YEARS)
         for polity in polities:
             for edge in polity.after:
                 if edge["id"] in by_id:
@@ -821,9 +828,13 @@ class PolityBuilder:
                                                                           edge["name"])):
                     if edge["region"] not in closest and all(edge["region"] != own["region"] for own in mapped):
                         closest[edge["region"]] = edge
-                setattr(polity, side, (mapped + list(closest.values()))[:SUCCESSION_SLOTS])
+                others = list(closest.values())
+                home = mapped or [edge for edge in others if edge["region"] == homes[polity.id]][:1]
+                others = [edge for edge in others if edge not in home]
+                setattr(polity, side, [{**edge, "home": True} for edge in home]
+                        + [{**edge, "home": False} for edge in others][:SUCCESSION_SLOTS - 1])
 
-    def _link(self, polity: Polity, side: str, other: Polity, region: str) -> None:
+    def _link(self, polity: Polity, side: str, other: Polity, region: str, gap: int = MIRROR_GAP_YEARS) -> None:
         """Add the other civilization before or after this one in the region, unless it is listed already, the region
         is unknown, or they do not follow each other: the later one must begin after the earlier begins, within a
         century of its end, and end after it ends (not the Confederacy before the USA). The closest in time keeps a
@@ -832,7 +843,7 @@ class PolityBuilder:
         earlier, later = (other, polity) if side == "before" else (polity, other)
         first, second = self._ruled_years(earlier), self._ruled_years(later)
         if not region or not (first and second and first[0] < second[0] and first[1] < second[1]
-                              and abs(second[0] - first[1]) <= MIRROR_GAP_YEARS) or same_name(polity.name, other.name):
+                              and abs(second[0] - first[1]) <= gap) or same_name(polity.name, other.name):
             return
         if all(edge["id"] != other.id for edge in edges):
             edges.append({"id": other.id, "region": region, "name": other.name})
@@ -845,6 +856,7 @@ class PolityBuilder:
 
     @staticmethod
     def _home_region(polity: Polity) -> str:
+        """The region of the map's own answers, or else the first of today's countries on its territory."""
         own = [edge["region"] for edge in polity.before + polity.after if edge.get("region")]
         return own[0] if own else (polity.modern_countries[0] if polity.modern_countries else "")
 
@@ -1071,7 +1083,8 @@ class PolityBuilder:
     def _period(self, entity: Entity, infobox: Infobox, clio_start: int | None, clio_end: int | None) -> Period:
         """Each end needs two sources to agree. Wikidata's inception or start time and dissolution or end time all
         count. The infobox and Wikidata agree within a year for modern dates and within about 1% of a date's age for
-        older ones, since ancient chronologies differ by decades: 27 years at 700 BC, 47 at 2700 BC."""
+        older ones, since ancient chronologies differ by decades: 27 years at 700 BC, 47 at 2700 BC. An end too coarse to
+        follow the start (the 1st millennium BC after the 8th century BC) is no end."""
         inception = min(entity.years("P571") + entity.years("P580"), key=lambda year: year.earliest, default=None)
         dissolution = max(entity.years("P576") + entity.years("P582"), key=lambda year: year.latest, default=None)
         start = vote({"infobox": infobox.start, "wikidata": inception.as_span() if inception else None,
@@ -1080,6 +1093,8 @@ class PolityBuilder:
         end = vote({"infobox": infobox.end, "wikidata": dissolution.as_span() if dissolution else None,
                     "cliopatria": Span(clio_end, clio_end) if clio_end is not None else None},
                    tolerances(reference(clio_end, dissolution, infobox.end)))
+        if start is not None and end is not None and end.earliest < start.latest:
+            end = None
         confirmed = start is not None and end is not None
         return Period(start, end, confirmed, None if confirmed else self._agreed_core(entity, infobox),
                       None if confirmed else self._since(entity, start, clio_end))
