@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q146871",
-    "region": "Saudi Arabia",
-    "name": "Emirate of Diriyah"
-  },
-  "after": {
-    "id": "Q5362837",
-    "region": "Saudi Arabia",
-    "name": "Emirate of Jabal Shammar"
-  },
+  "before": [
+    {
+      "id": "Q146871",
+      "region": "Saudi Arabia",
+      "name": "Emirate of Diriyah"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q5362837",
+      "region": "Saudi Arabia",
+      "name": "Emirate of Jabal Shammar"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2460824",

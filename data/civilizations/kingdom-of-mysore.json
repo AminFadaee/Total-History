@@ -46,12 +46,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q167639",
-    "region": "India",
-    "name": "Vijayanagara Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q167639",
+      "region": "India",
+      "name": "Vijayanagara Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q1569078",

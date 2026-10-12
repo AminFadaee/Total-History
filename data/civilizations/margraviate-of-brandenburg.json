@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q38872",
-    "region": "Germany",
-    "name": "Prussia"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q38872",
+      "region": "Germany",
+      "name": "Prussia"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Germany",

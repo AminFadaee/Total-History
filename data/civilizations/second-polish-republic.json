@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q15180",
-    "region": "Poland",
-    "name": "Union of Soviet Socialist Republics"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q15180",
+      "region": "Poland",
+      "name": "Union of Soviet Socialist Republics"
+    }
+  ],
   "rulers": [
     {
       "id": "Q885",

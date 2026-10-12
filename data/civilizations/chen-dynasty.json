@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1069868",
-    "region": "China",
-    "name": "Liang Dynasty"
-  },
-  "after": {
-    "id": "Q7405",
-    "region": "China",
-    "name": "Sui Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q1069868",
+      "region": "China",
+      "name": "Liang Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q7405",
+      "region": "China",
+      "name": "Sui Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q712113",

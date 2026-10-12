@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1115291",
-    "region": "Thailand",
-    "name": "Thonburi Kingdom"
-  },
-  "after": {
-    "id": "Q869",
-    "region": "Thailand",
-    "name": "Kingdom of Thailand"
-  },
+  "before": [
+    {
+      "id": "Q1115291",
+      "region": "Thailand",
+      "name": "Thonburi Kingdom"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q869",
+      "region": "Thailand",
+      "name": "Kingdom of Thailand"
+    }
+  ],
   "rulers": [
     {
       "id": "Q310992",

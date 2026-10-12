@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q188836",
-    "region": "China",
-    "name": "Xiongnu"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q188836",
+      "region": "China",
+      "name": "Xiongnu"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q985907",

@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q79",
-    "region": "Egypt",
-    "name": "Republic of Egypt"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q79",
+      "region": "Egypt",
+      "name": "Republic of Egypt"
+    }
+  ],
   "rulers": [
     {
       "id": "Q311839",

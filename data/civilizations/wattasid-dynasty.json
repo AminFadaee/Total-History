@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q582861",
-    "region": "Morocco",
-    "name": "Marinid Sultanate"
-  },
-  "after": {
-    "id": "Q1136188",
-    "region": "Morocco",
-    "name": "Saadi Sultanate"
-  },
+  "before": [
+    {
+      "id": "Q582861",
+      "region": "Morocco",
+      "name": "Marinid Sultanate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1136188",
+      "region": "Morocco",
+      "name": "Saadi Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q508985",

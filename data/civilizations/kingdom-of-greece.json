@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q504081",
-    "region": "Greece",
-    "name": "Greek junta"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q504081",
+      "region": "Greece",
+      "name": "Greek junta"
+    }
+  ],
   "rulers": [
     {
       "id": "Q77067",

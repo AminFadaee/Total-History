@@ -54,16 +54,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q126936",
-    "region": "Spain",
-    "name": "Visigothic Kingdom"
-  },
-  "after": {
-    "id": "Q175276",
-    "region": "Spain",
-    "name": "Kingdom of León"
-  },
+  "before": [
+    {
+      "id": "Q126936",
+      "region": "Spain",
+      "name": "Visigothic Kingdom"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q175276",
+      "region": "Spain",
+      "name": "Kingdom of León"
+    }
+  ],
   "rulers": [
     {
       "id": "Q14655",

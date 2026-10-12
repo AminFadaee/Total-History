@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12544",
-    "region": "Turkey",
-    "name": "Byzantine Empire"
-  },
-  "after": {
-    "id": "Q282428",
-    "region": "Turkey",
-    "name": "Mamluk Sultanate"
-  },
+  "before": [
+    {
+      "id": "Q12544",
+      "region": "Turkey",
+      "name": "Byzantine Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q282428",
+      "region": "Turkey",
+      "name": "Mamluk Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q718640",

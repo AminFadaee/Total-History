@@ -32,16 +32,20 @@
   "parts": [
     "Wattasid dynasty"
   ],
-  "before": {
-    "id": "Q199688",
-    "region": "Morocco",
-    "name": "Almohad Caliphate"
-  },
-  "after": {
-    "id": "Q970799",
-    "region": "Morocco",
-    "name": "Wattasid dynasty"
-  },
+  "before": [
+    {
+      "id": "Q199688",
+      "region": "Morocco",
+      "name": "Almohad Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q970799",
+      "region": "Morocco",
+      "name": "Wattasid dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q335496",

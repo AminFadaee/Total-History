@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q93180",
-    "region": "Afghanistan",
-    "name": "Seleucid Empire"
-  },
-  "after": {
-    "id": "Q215643",
-    "region": "Pakistan",
-    "name": "Indo-Greeks"
-  },
+  "before": [
+    {
+      "id": "Q93180",
+      "region": "Afghanistan",
+      "name": "Seleucid Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q215643",
+      "region": "Pakistan",
+      "name": "Indo-Greeks"
+    }
+  ],
   "rulers": [
     {
       "id": "Q363368",

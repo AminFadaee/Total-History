@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q71092",
-    "region": "France",
-    "name": "Second French Empire"
-  },
-  "after": {
-    "id": "Q69808",
-    "region": "France",
-    "name": "Vichy France"
-  },
+  "before": [
+    {
+      "id": "Q71092",
+      "region": "France",
+      "name": "Second French Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q69808",
+      "region": "France",
+      "name": "Vichy France"
+    }
+  ],
   "rulers": [
     {
       "id": "Q441235",

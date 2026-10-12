@@ -62,16 +62,30 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q175211",
-    "region": "Germany",
-    "name": "Kingdom of Germany"
-  },
-  "after": {
-    "id": "Q20135",
-    "region": "Germany",
-    "name": "Grand Duchy of Hesse"
-  },
+  "before": [
+    {
+      "id": "Q175211",
+      "region": "Germany",
+      "name": "Kingdom of Germany"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q20135",
+      "region": "Germany",
+      "name": "Grand Duchy of Hesse"
+    },
+    {
+      "id": "Q131964",
+      "region": "Austria",
+      "name": "Austrian Empire"
+    },
+    {
+      "id": "Q151624",
+      "region": "Poland",
+      "name": "German Confederation"
+    }
+  ],
   "rulers": [
     {
       "id": "Q79789",

@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q105313",
-    "region": "United Kingdom",
-    "name": "Kingdom of Wessex"
-  },
-  "after": {
-    "id": "Q161885",
-    "region": "United Kingdom",
-    "name": "Kingdom of Great Britain"
-  },
+  "before": [
+    {
+      "id": "Q105313",
+      "region": "United Kingdom",
+      "name": "Kingdom of Wessex"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q161885",
+      "region": "United Kingdom",
+      "name": "Kingdom of Great Britain"
+    }
+  ],
   "rulers": [
     {
       "id": "Q37594",

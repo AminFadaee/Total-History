@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q174193",
-    "region": "Ireland",
-    "name": "United Kingdom of Great Britain and Ireland"
-  },
-  "after": {
-    "id": "Q27",
-    "region": "Ireland",
-    "name": "Éire"
-  },
+  "before": [
+    {
+      "id": "Q174193",
+      "region": "Ireland",
+      "name": "United Kingdom of Great Britain and Ireland"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q27",
+      "region": "Ireland",
+      "name": "Éire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q269412",

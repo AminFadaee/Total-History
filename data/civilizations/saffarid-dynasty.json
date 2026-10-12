@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12536",
-    "region": "Afghanistan",
-    "name": "Abbasid Caliphate"
-  },
-  "after": {
-    "id": "Q12150341",
-    "region": "Afghanistan",
-    "name": "Samanid Empire"
-  },
+  "before": [
+    {
+      "id": "Q12536",
+      "region": "Afghanistan",
+      "name": "Abbasid Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12150341",
+      "region": "Afghanistan",
+      "name": "Samanid Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q45261",

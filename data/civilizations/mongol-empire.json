@@ -43,16 +43,35 @@
     "Golden Horde",
     "Ilkhanate"
   ],
-  "before": {
-    "id": "Q862304",
-    "region": "Kyrgyzstan",
-    "name": "Kara-Khitans"
-  },
-  "after": {
-    "id": "Q7313",
-    "region": "China",
-    "name": "Yuan Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q862304",
+      "region": "Kyrgyzstan",
+      "name": "Kara-Khitans"
+    },
+    {
+      "id": "Q7427",
+      "region": "China",
+      "name": "Western Xia"
+    },
+    {
+      "id": "Q63134381",
+      "region": "Turkmenistan",
+      "name": "Khwarezmid Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q7313",
+      "region": "China",
+      "name": "Yuan Dynasty"
+    },
+    {
+      "id": "Q79965",
+      "region": "Russia",
+      "name": "Golden Horde"
+    }
+  ],
   "rulers": [
     {
       "id": "Q720",

@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q4807130",
-    "region": "South Africa",
-    "name": "Dutch Cape Colony"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q4807130",
+      "region": "South Africa",
+      "name": "Dutch Cape Colony"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q127318",

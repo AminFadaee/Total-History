@@ -37,12 +37,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q180568",
-    "region": "Lebanon",
-    "name": "New Kingdom of Egypt"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q180568",
+      "region": "Lebanon",
+      "name": "New Kingdom of Egypt"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q467115",

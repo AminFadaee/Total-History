@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q83958",
-    "region": "Turkey",
-    "name": "Macedonian Empire"
-  },
-  "after": {
-    "id": "Q17167",
-    "region": "Turkey",
-    "name": "Roman Republic"
-  },
+  "before": [
+    {
+      "id": "Q83958",
+      "region": "Turkey",
+      "name": "Macedonian Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q17167",
+      "region": "Turkey",
+      "name": "Roman Republic"
+    }
+  ],
   "rulers": [
     {
       "id": "Q312452",

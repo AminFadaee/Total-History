@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q58296",
-    "region": "France",
-    "name": "French First Republic"
-  },
-  "after": {
-    "id": "Q207162",
-    "region": "France",
-    "name": "Bourbon Kingdom of France"
-  },
+  "before": [
+    {
+      "id": "Q58296",
+      "region": "France",
+      "name": "French First Republic"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q207162",
+      "region": "France",
+      "name": "Bourbon Kingdom of France"
+    }
+  ],
   "rulers": [
     {
       "id": "Q517",

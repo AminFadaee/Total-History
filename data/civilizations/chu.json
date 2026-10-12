@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q7183",
-    "region": "China",
-    "name": "Qin dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q7183",
+      "region": "China",
+      "name": "Qin dynasty"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "China"

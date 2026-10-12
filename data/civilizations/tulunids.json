@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12536",
-    "region": "Egypt",
-    "name": "Abbasid Caliphate"
-  },
-  "after": {
-    "id": "Q12536",
-    "region": "Egypt",
-    "name": "Abbasid Caliphate"
-  },
+  "before": [
+    {
+      "id": "Q12536",
+      "region": "Egypt",
+      "name": "Abbasid Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12536",
+      "region": "Egypt",
+      "name": "Abbasid Caliphate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q374374",

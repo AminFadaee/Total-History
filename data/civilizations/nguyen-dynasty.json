@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q185682",
-    "region": "Vietnam",
-    "name": "French Indochina"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q185682",
+      "region": "Vietnam",
+      "name": "French Indochina"
+    }
+  ],
   "rulers": [
     {
       "id": "Q210417",

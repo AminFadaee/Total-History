@@ -29,12 +29,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q41137",
-    "region": "Syria",
-    "name": "Assyria"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q41137",
+      "region": "Syria",
+      "name": "Assyria"
+    }
+  ],
   "rulers": [
     {
       "id": "Q317205",

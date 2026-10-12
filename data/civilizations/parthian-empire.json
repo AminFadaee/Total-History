@@ -46,16 +46,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q93180",
-    "region": "Turkmenistan",
-    "name": "Seleucid Empire"
-  },
-  "after": {
-    "id": "Q83891",
-    "region": "Turkmenistan",
-    "name": "Sasanian Empire"
-  },
+  "before": [
+    {
+      "id": "Q93180",
+      "region": "Turkmenistan",
+      "name": "Seleucid Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q83891",
+      "region": "Turkmenistan",
+      "name": "Sasanian Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q313933",

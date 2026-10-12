@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12557",
-    "region": "China",
-    "name": "Mongol Empire"
-  },
-  "after": {
-    "id": "Q9903",
-    "region": "China",
-    "name": "Ming Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q12557",
+      "region": "China",
+      "name": "Mongol Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q9903",
+      "region": "China",
+      "name": "Ming Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q7523",

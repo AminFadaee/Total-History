@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q581741",
-    "region": "Peru",
-    "name": "Chimor"
-  },
-  "after": {
-    "id": "Q10715354",
-    "region": "Peru",
-    "name": "Neo-Inca State"
-  },
+  "before": [
+    {
+      "id": "Q581741",
+      "region": "Peru",
+      "name": "Chimor"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q10715354",
+      "region": "Peru",
+      "name": "Neo-Inca State"
+    }
+  ],
   "rulers": [
     {
       "id": "Q213758",

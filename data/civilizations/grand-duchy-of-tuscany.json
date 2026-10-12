@@ -30,8 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {},
+  "before": [
+    {
+      "id": "Q148540",
+      "region": "Italy",
+      "name": "Republic of Florence"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q48547",

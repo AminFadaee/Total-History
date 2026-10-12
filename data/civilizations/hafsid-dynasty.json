@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q199688",
-    "region": "Tunisia",
-    "name": "Almohad Caliphate"
-  },
-  "after": {
-    "id": "Q12560",
-    "region": "Tunisia",
-    "name": "Ottoman Empire"
-  },
+  "before": [
+    {
+      "id": "Q199688",
+      "region": "Tunisia",
+      "name": "Almohad Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12560",
+      "region": "Tunisia",
+      "name": "Ottoman Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q29480",

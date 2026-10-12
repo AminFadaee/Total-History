@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q958291",
-    "region": "Romania",
-    "name": "United Principalities of Moldavia and Wallachia"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q958291",
+      "region": "Romania",
+      "name": "United Principalities of Moldavia and Wallachia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q380330",

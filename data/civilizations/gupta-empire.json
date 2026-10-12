@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q25979",
-    "region": "Pakistan",
-    "name": "Kushan Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q25979",
+      "region": "Pakistan",
+      "name": "Kushan Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q849802",

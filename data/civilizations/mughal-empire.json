@@ -54,16 +54,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q229411",
-    "region": "India",
-    "name": "Delhi Sultanate"
-  },
-  "after": {
-    "id": "Q129286",
-    "region": "India",
-    "name": "British Raj"
-  },
+  "before": [
+    {
+      "id": "Q229411",
+      "region": "India",
+      "name": "Delhi Sultanate"
+    },
+    {
+      "id": "Q484195",
+      "region": "Afghanistan",
+      "name": "Timurid Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q129286",
+      "region": "India",
+      "name": "British Raj"
+    }
+  ],
   "rulers": [
     {
       "id": "Q797848",

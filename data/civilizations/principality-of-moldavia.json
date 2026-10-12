@@ -54,16 +54,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q79965",
-    "region": "Romania",
-    "name": "Golden Horde"
-  },
-  "after": {
-    "id": "Q958291",
-    "region": "Romania",
-    "name": "United Principalities of Moldavia and Wallachia"
-  },
+  "before": [
+    {
+      "id": "Q79965",
+      "region": "Romania",
+      "name": "Golden Horde"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q958291",
+      "region": "Romania",
+      "name": "United Principalities of Moldavia and Wallachia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q218134",

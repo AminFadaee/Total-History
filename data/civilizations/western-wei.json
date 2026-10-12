@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q875305",
-    "region": "China",
-    "name": "Northern Wei"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q875305",
+      "region": "China",
+      "name": "Northern Wei"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q2985487",

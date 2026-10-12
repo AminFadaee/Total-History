@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q175276",
-    "region": "Portugal",
-    "name": "Kingdom of León"
-  },
-  "after": {
-    "id": "Q45",
-    "region": "Portugal",
-    "name": "Portuguese Republic"
-  },
+  "before": [
+    {
+      "id": "Q175276",
+      "region": "Portugal",
+      "name": "Kingdom of León"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q45",
+      "region": "Portugal",
+      "name": "Portuguese Republic"
+    }
+  ],
   "rulers": [
     {
       "id": "Q587697",

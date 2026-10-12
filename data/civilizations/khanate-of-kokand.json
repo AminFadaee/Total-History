@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q577668",
-    "region": "Uzbekistan",
-    "name": "Khanate of Bukhara"
-  },
-  "after": {
-    "id": "Q34266",
-    "region": "Uzbekistan",
-    "name": "Russian Empire"
-  },
+  "before": [
+    {
+      "id": "Q577668",
+      "region": "Uzbekistan",
+      "name": "Khanate of Bukhara"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q34266",
+      "region": "Uzbekistan",
+      "name": "Russian Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q4521373",

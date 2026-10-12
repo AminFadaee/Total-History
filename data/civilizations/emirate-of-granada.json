@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q199688",
-    "region": "Spain",
-    "name": "Almohad Caliphate"
-  },
-  "after": {
-    "id": "Q217196",
-    "region": "Spain",
-    "name": "Crown of Castile"
-  },
+  "before": [
+    {
+      "id": "Q199688",
+      "region": "Spain",
+      "name": "Almohad Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q217196",
+      "region": "Spain",
+      "name": "Crown of Castile"
+    }
+  ],
   "rulers": [
     {
       "id": "Q510879",

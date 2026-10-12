@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q46370",
-    "region": "France",
-    "name": "West Franks"
-  },
-  "after": {
-    "id": "Q58296",
-    "region": "France",
-    "name": "French First Republic"
-  },
+  "before": [
+    {
+      "id": "Q46370",
+      "region": "France",
+      "name": "West Franks"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q58296",
+      "region": "France",
+      "name": "French First Republic"
+    }
+  ],
   "rulers": [
     {
       "id": "Q34428",

@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q484195",
-    "region": "Turkmenistan",
-    "name": "Timurid Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q484195",
+      "region": "Turkmenistan",
+      "name": "Timurid Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q336146",

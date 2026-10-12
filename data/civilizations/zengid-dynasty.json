@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q3708094",
-    "region": "Iraq",
-    "name": "Great Seljuk Empire"
-  },
-  "after": {
-    "id": "Q12557",
-    "region": "Iraq",
-    "name": "Mongol Empire"
-  },
+  "before": [
+    {
+      "id": "Q3708094",
+      "region": "Iraq",
+      "name": "Great Seljuk Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12557",
+      "region": "Iraq",
+      "name": "Mongol Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q312973",

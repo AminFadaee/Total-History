@@ -26,16 +26,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12557",
-    "region": "Russia",
-    "name": "Mongol Empire"
-  },
-  "after": {
-    "id": "Q210163",
-    "region": "Russia",
-    "name": "Astrakhan Khanate"
-  },
+  "before": [
+    {
+      "id": "Q12557",
+      "region": "Russia",
+      "name": "Mongol Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q210163",
+      "region": "Russia",
+      "name": "Astrakhan Khanate"
+    },
+    {
+      "id": "Q631210",
+      "region": "Kazakhstan",
+      "name": "Nogai Horde"
+    }
+  ],
   "rulers": [
     {
       "id": "Q735288",

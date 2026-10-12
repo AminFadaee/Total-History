@@ -26,16 +26,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q249578",
-    "region": "Afghanistan",
-    "name": "Ghaznavid Empire"
-  },
-  "after": {
-    "id": "Q63134381",
-    "region": "Afghanistan",
-    "name": "Khwarezmid Empire"
-  },
+  "before": [
+    {
+      "id": "Q249578",
+      "region": "Afghanistan",
+      "name": "Ghaznavid Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q63134381",
+      "region": "Afghanistan",
+      "name": "Khwarezmid Empire"
+    },
+    {
+      "id": "Q229411",
+      "region": "Pakistan",
+      "name": "Delhi Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1647182",

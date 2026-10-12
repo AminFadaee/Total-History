@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q7443295",
-    "region": "Mexico",
-    "name": "Second Federal Republic of Mexico"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q7443295",
+      "region": "Mexico",
+      "name": "Second Federal Republic of Mexico"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q84192",

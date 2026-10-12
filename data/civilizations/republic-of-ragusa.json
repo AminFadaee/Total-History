@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q131964",
-    "region": "Croatia",
-    "name": "Austrian Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q131964",
+      "region": "Croatia",
+      "name": "Austrian Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1764051",

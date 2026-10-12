@@ -16,12 +16,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q17167",
-    "region": "Italy",
-    "name": "Roman Republic"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q17167",
+      "region": "Italy",
+      "name": "Roman Republic"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Italy",

@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12544",
-    "region": "Bulgaria",
-    "name": "Byzantine Empire"
-  },
-  "after": {
-    "id": "Q12560",
-    "region": "Bulgaria",
-    "name": "Ottoman Empire"
-  },
+  "before": [
+    {
+      "id": "Q12544",
+      "region": "Bulgaria",
+      "name": "Byzantine Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12560",
+      "region": "Bulgaria",
+      "name": "Ottoman Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q313427",

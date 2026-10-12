@@ -46,16 +46,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q42834",
-    "region": "Germany",
-    "name": "Western Roman Empire"
-  },
-  "after": {
-    "id": "Q153080",
-    "region": "Germany",
-    "name": "East Franks"
-  },
+  "before": [
+    {
+      "id": "Q42834",
+      "region": "Germany",
+      "name": "Western Roman Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q153080",
+      "region": "Germany",
+      "name": "East Franks"
+    },
+    {
+      "id": "Q46370",
+      "region": "France",
+      "name": "West Franks"
+    }
+  ],
   "rulers": [
     {
       "id": "Q82339",

@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q8680",
-    "region": "Brunei",
-    "name": "British Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q8680",
+      "region": "Brunei",
+      "name": "British Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2658398",

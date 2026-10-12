@@ -46,16 +46,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12557",
-    "region": "Iran",
-    "name": "Mongol Empire"
-  },
-  "after": {
-    "id": "Q866716",
-    "region": "Iran",
-    "name": "Jalayirid Sultanate"
-  },
+  "before": [
+    {
+      "id": "Q12557",
+      "region": "Iran",
+      "name": "Mongol Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q866716",
+      "region": "Iran",
+      "name": "Jalayirid Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q335301",

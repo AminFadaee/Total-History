@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q668",
-    "region": "India",
-    "name": "Republic of India"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q668",
+      "region": "India",
+      "name": "Republic of India"
+    }
+  ],
   "rulers": [
     {
       "id": "Q29896",

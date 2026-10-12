@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q63149558",
-    "region": "Afghanistan",
-    "name": "Afsharid Iran"
-  },
-  "after": {
-    "id": "Q1335260",
-    "region": "Afghanistan",
-    "name": "Emirate of Afghanistan"
-  },
+  "before": [
+    {
+      "id": "Q63149558",
+      "region": "Afghanistan",
+      "name": "Afsharid Iran"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1335260",
+      "region": "Afghanistan",
+      "name": "Emirate of Afghanistan"
+    }
+  ],
   "rulers": [
     {
       "id": "Q46798",

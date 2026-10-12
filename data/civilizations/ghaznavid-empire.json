@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12150341",
-    "region": "Afghanistan",
-    "name": "Samanid Empire"
-  },
-  "after": {
-    "id": "Q199443",
-    "region": "Afghanistan",
-    "name": "Ghurid Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q12150341",
+      "region": "Afghanistan",
+      "name": "Samanid Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q199443",
+      "region": "Afghanistan",
+      "name": "Ghurid Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q189271",

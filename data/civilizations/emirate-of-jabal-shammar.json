@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q146862",
-    "region": "Saudi Arabia",
-    "name": "Emirate of Nejd"
-  },
-  "after": {
-    "id": "Q851",
-    "region": "Saudi Arabia",
-    "name": "Kingdom of Saudi Arabia"
-  },
+  "before": [
+    {
+      "id": "Q146862",
+      "region": "Saudi Arabia",
+      "name": "Emirate of Nejd"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q851",
+      "region": "Saudi Arabia",
+      "name": "Kingdom of Saudi Arabia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2820938",

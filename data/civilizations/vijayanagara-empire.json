@@ -54,16 +54,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q466581",
-    "region": "India",
-    "name": "Hoysala Kingdom"
-  },
-  "after": {
-    "id": "Q83821",
-    "region": "India",
-    "name": "Bijapur Sultanate"
-  },
+  "before": [
+    {
+      "id": "Q466581",
+      "region": "India",
+      "name": "Hoysala Kingdom"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q83821",
+      "region": "India",
+      "name": "Bijapur Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q121235",

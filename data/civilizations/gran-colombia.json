@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q80702",
-    "region": "Colombia",
-    "name": "Spanish Empire"
-  },
-  "after": {
-    "id": "Q630882",
-    "region": "Colombia",
-    "name": "Republic of New Granada"
-  },
+  "before": [
+    {
+      "id": "Q80702",
+      "region": "Colombia",
+      "name": "Spanish Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q630882",
+      "region": "Colombia",
+      "name": "Republic of New Granada"
+    }
+  ],
   "rulers": [
     {
       "id": "Q189779",

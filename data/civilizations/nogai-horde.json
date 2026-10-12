@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q79965",
-    "region": "Kazakhstan",
-    "name": "Golden Horde"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q79965",
+      "region": "Kazakhstan",
+      "name": "Golden Horde"
+    }
+  ],
+  "after": [],
   "rulers": [],
   "modern_countries": [
     "Kazakhstan",

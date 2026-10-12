@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q70802",
-    "region": "France",
-    "name": "French Third Republic"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q70802",
+      "region": "France",
+      "name": "French Third Republic"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q5721",

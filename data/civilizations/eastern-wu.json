@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q7209",
-    "region": "China",
-    "name": "Han Dynasty"
-  },
-  "after": {
-    "id": "Q7352",
-    "region": "China",
-    "name": "Western Jin"
-  },
+  "before": [
+    {
+      "id": "Q7209",
+      "region": "China",
+      "name": "Han Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q7352",
+      "region": "China",
+      "name": "Western Jin"
+    }
+  ],
   "rulers": [
     {
       "id": "Q313327",

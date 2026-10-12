@@ -29,16 +29,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q160307",
-    "region": "Egypt",
-    "name": "Fatimid Caliphate"
-  },
-  "after": {
-    "id": "Q282428",
-    "region": "Egypt",
-    "name": "Mamluk Sultanate"
-  },
+  "before": [
+    {
+      "id": "Q160307",
+      "region": "Egypt",
+      "name": "Fatimid Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q282428",
+      "region": "Egypt",
+      "name": "Mamluk Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q8581",

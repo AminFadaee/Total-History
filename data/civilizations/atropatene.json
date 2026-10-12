@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q83958",
-    "region": "Iran",
-    "name": "Macedonian Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q83958",
+      "region": "Iran",
+      "name": "Macedonian Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q2258574",

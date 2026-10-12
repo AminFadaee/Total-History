@@ -30,12 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q193292",
-    "region": "Japan",
-    "name": "Heian Japan"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q193292",
+      "region": "Japan",
+      "name": "Heian Japan"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1154406",
+      "region": "Japan",
+      "name": "Ashikaga Shogunate"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Japan"

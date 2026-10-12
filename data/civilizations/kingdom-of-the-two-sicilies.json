@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q173065",
-    "region": "Italy",
-    "name": "Kingdom of Naples"
-  },
-  "after": {
-    "id": "Q172579",
-    "region": "Italy",
-    "name": "Kingdom of Italy"
-  },
+  "before": [
+    {
+      "id": "Q173065",
+      "region": "Italy",
+      "name": "Kingdom of Naples"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q172579",
+      "region": "Italy",
+      "name": "Kingdom of Italy"
+    }
+  ],
   "rulers": [
     {
       "id": "Q332717",

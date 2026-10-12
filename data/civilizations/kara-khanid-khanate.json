@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q862304",
-    "region": "Kyrgyzstan",
-    "name": "Kara-Khitans"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q862304",
+      "region": "Kyrgyzstan",
+      "name": "Kara-Khitans"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "China",

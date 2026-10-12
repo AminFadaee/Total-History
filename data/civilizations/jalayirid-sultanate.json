@@ -46,16 +46,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q178084",
-    "region": "Iraq",
-    "name": "Ilkhanate"
-  },
-  "after": {
-    "id": "Q484195",
-    "region": "Iraq",
-    "name": "Timurid Empire"
-  },
+  "before": [
+    {
+      "id": "Q178084",
+      "region": "Iraq",
+      "name": "Ilkhanate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q484195",
+      "region": "Iraq",
+      "name": "Timurid Empire"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Iran",

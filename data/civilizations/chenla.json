@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q201705",
-    "region": "Laos",
-    "name": "Khmer Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q201705",
+      "region": "Laos",
+      "name": "Khmer Empire"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Cambodia",

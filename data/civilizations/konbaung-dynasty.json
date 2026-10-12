@@ -54,12 +54,19 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q519718",
-    "region": "Myanmar",
-    "name": "Toungoo dynasty"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q519718",
+      "region": "Myanmar",
+      "name": "Toungoo dynasty"
+    },
+    {
+      "id": "Q1059707",
+      "region": "Thailand",
+      "name": "Lanna Kingdom"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q470978",

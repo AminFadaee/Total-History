@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q201038",
-    "region": "Italy",
-    "name": "Roman Kingdom"
-  },
-  "after": {
-    "id": "Q2277",
-    "region": "Italy",
-    "name": "Roman Empire"
-  },
+  "before": [
+    {
+      "id": "Q201038",
+      "region": "Italy",
+      "name": "Roman Kingdom"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q2277",
+      "region": "Italy",
+      "name": "Roman Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1048",

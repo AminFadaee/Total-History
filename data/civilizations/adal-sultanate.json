@@ -46,12 +46,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q157727",
-    "region": "Ethiopia",
-    "name": "Ifat Sultanate"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q157727",
+      "region": "Ethiopia",
+      "name": "Ifat Sultanate"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q7396320",

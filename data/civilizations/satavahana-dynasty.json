@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q62943",
-    "region": "India",
-    "name": "Maurya Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q62943",
+      "region": "India",
+      "name": "Maurya Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q1568644",

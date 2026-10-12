@@ -32,12 +32,14 @@
   "parts": [
     "Portuguese Ceylon"
   ],
-  "before": {
-    "id": "Q46652",
-    "region": "Malaysia",
-    "name": "Sultanate of Malacca"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q46652",
+      "region": "Malaysia",
+      "name": "Sultanate of Malacca"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q154308",

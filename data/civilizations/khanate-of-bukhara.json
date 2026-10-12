@@ -30,12 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q696241",
-    "region": "Uzbekistan",
-    "name": "Khanate of Kokand"
-  },
+  "before": [
+    {
+      "id": "Q190513",
+      "region": "Turkmenistan",
+      "name": "Khanate of Sibir"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q696241",
+      "region": "Uzbekistan",
+      "name": "Khanate of Kokand"
+    }
+  ],
   "rulers": [
     {
       "id": "Q6689180",

@@ -30,16 +30,30 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q206411",
-    "region": "Azerbaijan",
-    "name": "Azerbaijan Democratic Republic"
-  },
-  "after": {
-    "id": "Q159",
-    "region": "Russia",
-    "name": "Russian Federation"
-  },
+  "before": [
+    {
+      "id": "Q206411",
+      "region": "Azerbaijan",
+      "name": "Azerbaijan Democratic Republic"
+    },
+    {
+      "id": "Q139319",
+      "region": "Russia",
+      "name": "Russian Republic"
+    },
+    {
+      "id": "Q207272",
+      "region": "Poland",
+      "name": "Second Polish Republic"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q159",
+      "region": "Russia",
+      "name": "Russian Federation"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1394",

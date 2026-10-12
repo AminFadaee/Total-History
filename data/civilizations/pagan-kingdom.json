@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1627675",
-    "region": "Myanmar",
-    "name": "Pyu City-States"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q1627675",
+      "region": "Myanmar",
+      "name": "Pyu City-States"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q45241",

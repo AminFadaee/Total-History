@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q449639",
-    "region": "Sudan",
-    "name": "Alodia"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q449639",
+      "region": "Sudan",
+      "name": "Alodia"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q4740071",

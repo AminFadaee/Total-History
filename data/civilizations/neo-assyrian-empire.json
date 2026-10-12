@@ -30,16 +30,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q41137",
-    "region": "Iraq",
-    "name": "Assyria"
-  },
-  "after": {
-    "id": "Q624887",
-    "region": "Iraq",
-    "name": "Neo-Babylonian Empire"
-  },
+  "before": [
+    {
+      "id": "Q41137",
+      "region": "Iraq",
+      "name": "Assyria"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q624887",
+      "region": "Iraq",
+      "name": "Neo-Babylonian Empire"
+    },
+    {
+      "id": "Q662410",
+      "region": "Egypt",
+      "name": "Twenty-sixth Dynasty of Egypt"
+    }
+  ],
   "rulers": [
     {
       "id": "Q311573",

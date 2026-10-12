@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q79965",
-    "region": "Russia",
-    "name": "Golden Horde"
-  },
-  "after": {
-    "id": "Q186096",
-    "region": "Russia",
-    "name": "Tsardom of Russia"
-  },
+  "before": [
+    {
+      "id": "Q79965",
+      "region": "Russia",
+      "name": "Golden Horde"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q186096",
+      "region": "Russia",
+      "name": "Tsardom of Russia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2039445",

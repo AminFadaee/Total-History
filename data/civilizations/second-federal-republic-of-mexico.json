@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q5062192",
-    "region": "Mexico",
-    "name": "Centralist Mexico"
-  },
-  "after": {
-    "id": "Q371334",
-    "region": "Mexico",
-    "name": "Second Mexican Empire"
-  },
+  "before": [
+    {
+      "id": "Q5062192",
+      "region": "Mexico",
+      "name": "Centralist Mexico"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q371334",
+      "region": "Mexico",
+      "name": "Second Mexican Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q182276",

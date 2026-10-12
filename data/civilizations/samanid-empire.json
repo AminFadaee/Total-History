@@ -38,16 +38,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12536",
-    "region": "Uzbekistan",
-    "name": "Abbasid Caliphate"
-  },
-  "after": {
-    "id": "Q494354",
-    "region": "Uzbekistan",
-    "name": "Kara-Khanid Khanate"
-  },
+  "before": [
+    {
+      "id": "Q12536",
+      "region": "Uzbekistan",
+      "name": "Abbasid Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q494354",
+      "region": "Uzbekistan",
+      "name": "Kara-Khanid Khanate"
+    },
+    {
+      "id": "Q249578",
+      "region": "Afghanistan",
+      "name": "Ghaznavid Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q862648",

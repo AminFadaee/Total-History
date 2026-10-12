@@ -20,16 +20,20 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {
-    "id": "Q8959",
-    "region": "China",
-    "name": "Northern Yuan"
-  },
-  "after": {
-    "id": "Q1923401",
-    "region": "China",
-    "name": "Dzungar Khanate"
-  },
+  "before": [
+    {
+      "id": "Q8959",
+      "region": "China",
+      "name": "Northern Yuan"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1923401",
+      "region": "China",
+      "name": "Dzungar Khanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q9263",

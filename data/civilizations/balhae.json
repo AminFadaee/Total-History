@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q4958",
-    "region": "China",
-    "name": "Liao Dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q4958",
+      "region": "China",
+      "name": "Liao Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q702079",

@@ -46,12 +46,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q9683",
-    "region": "China",
-    "name": "Tang Dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q9683",
+      "region": "China",
+      "name": "Tang Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q378502",

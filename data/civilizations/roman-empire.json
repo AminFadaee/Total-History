@@ -38,16 +38,30 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q17167",
-    "region": "Italy",
-    "name": "Roman Republic"
-  },
-  "after": {
-    "id": "Q12544",
-    "region": "Turkey",
-    "name": "Byzantine Empire"
-  },
+  "before": [
+    {
+      "id": "Q17167",
+      "region": "Italy",
+      "name": "Roman Republic"
+    },
+    {
+      "id": "Q309272",
+      "region": "Morocco",
+      "name": "Mauretania"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12544",
+      "region": "Turkey",
+      "name": "Byzantine Empire"
+    },
+    {
+      "id": "Q42834",
+      "region": "Italy",
+      "name": "Western Roman Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1405",

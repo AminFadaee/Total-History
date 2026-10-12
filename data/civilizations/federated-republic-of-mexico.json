@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q285658",
-    "region": "Mexico",
-    "name": "First Mexican Empire"
-  },
-  "after": {
-    "id": "Q5062192",
-    "region": "Mexico",
-    "name": "Centralist Mexico"
-  },
+  "before": [
+    {
+      "id": "Q285658",
+      "region": "Mexico",
+      "name": "First Mexican Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q5062192",
+      "region": "Mexico",
+      "name": "Centralist Mexico"
+    }
+  ],
   "rulers": [
     {
       "id": "Q315618",

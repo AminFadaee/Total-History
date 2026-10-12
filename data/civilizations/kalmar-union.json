@@ -36,12 +36,20 @@
     "Republic of Finland",
     "Republic of Iceland"
   ],
-  "before": {},
-  "after": {
-    "id": "Q62651",
-    "region": "Denmark",
-    "name": "Denmark-Norway"
-  },
+  "before": [
+    {
+      "id": "Q756617",
+      "region": "Denmark",
+      "name": "Kingdom of Denmark"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q62651",
+      "region": "Denmark",
+      "name": "Denmark-Norway"
+    }
+  ],
   "rulers": [
     {
       "id": "Q310433",

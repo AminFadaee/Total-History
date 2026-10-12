@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12548",
-    "region": "Italy",
-    "name": "Holy Roman Empire"
-  },
-  "after": {
-    "id": "Q148540",
-    "region": "Italy",
-    "name": "Republic of Florence"
-  },
+  "before": [
+    {
+      "id": "Q12548",
+      "region": "Italy",
+      "name": "Holy Roman Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q148540",
+      "region": "Italy",
+      "name": "Republic of Florence"
+    }
+  ],
   "rulers": [
     {
       "id": "Q16558276",

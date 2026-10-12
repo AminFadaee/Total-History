@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q174193",
-    "region": "United Kingdom",
-    "name": "United Kingdom of Great Britain and Ireland"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q174193",
+      "region": "United Kingdom",
+      "name": "United Kingdom of Great Britain and Ireland"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q269412",

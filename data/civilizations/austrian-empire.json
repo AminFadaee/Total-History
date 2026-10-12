@@ -30,16 +30,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q153136",
-    "region": "Austria",
-    "name": "Habsburg Monarchy"
-  },
-  "after": {
-    "id": "Q28513",
-    "region": "Austria",
-    "name": "Austria-Hungary"
-  },
+  "before": [
+    {
+      "id": "Q153136",
+      "region": "Austria",
+      "name": "Habsburg Monarchy"
+    },
+    {
+      "id": "Q208169",
+      "region": "Croatia",
+      "name": "Republic of Ragusa"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q28513",
+      "region": "Austria",
+      "name": "Austria-Hungary"
+    }
+  ],
   "rulers": [
     {
       "id": "Q130834",

@@ -37,16 +37,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q324470",
-    "region": "Turkey",
-    "name": "Qara Qoyunlu"
-  },
-  "after": {
-    "id": "Q18234383",
-    "region": "Iraq",
-    "name": "Safavid Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q324470",
+      "region": "Turkey",
+      "name": "Qara Qoyunlu"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q18234383",
+      "region": "Iraq",
+      "name": "Safavid Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q600829",

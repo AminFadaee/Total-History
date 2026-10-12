@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q374521",
-    "region": "India",
-    "name": "Bahmani Sultanate"
-  },
-  "after": {
-    "id": "Q33296",
-    "region": "India",
-    "name": "Mughal Empire"
-  },
+  "before": [
+    {
+      "id": "Q374521",
+      "region": "India",
+      "name": "Bahmani Sultanate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q33296",
+      "region": "India",
+      "name": "Mughal Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q24950832",

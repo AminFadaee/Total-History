@@ -26,12 +26,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1136188",
-    "region": "Morocco",
-    "name": "Saadi Sultanate"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q1136188",
+      "region": "Morocco",
+      "name": "Saadi Sultanate"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q276938",

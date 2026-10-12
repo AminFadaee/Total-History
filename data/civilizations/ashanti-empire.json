@@ -29,12 +29,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q503623",
-    "region": "Ghana",
-    "name": "British Gold Coast"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q503623",
+      "region": "Ghana",
+      "name": "British Gold Coast"
+    }
+  ],
   "rulers": [
     {
       "id": "Q713080",

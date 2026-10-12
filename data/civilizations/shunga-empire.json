@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q62943",
-    "region": "India",
-    "name": "Maurya Empire"
-  },
-  "after": {
-    "id": "Q784974",
-    "region": "India",
-    "name": "Kanva Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q62943",
+      "region": "India",
+      "name": "Maurya Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q784974",
+      "region": "India",
+      "name": "Kanva Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q119973",

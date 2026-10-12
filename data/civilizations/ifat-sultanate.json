@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q2365048",
-    "region": "Djibouti",
-    "name": "Adal Sultanate"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q2365048",
+      "region": "Djibouti",
+      "name": "Adal Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q7395425",

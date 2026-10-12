@@ -40,12 +40,14 @@
   "parts": [
     "Grand Duchy of Lithuania"
   ],
-  "before": {},
-  "after": {
-    "id": "Q152115",
-    "region": "Poland",
-    "name": "Duchy of Warsaw"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q152115",
+      "region": "Poland",
+      "name": "Duchy of Warsaw"
+    }
+  ],
   "rulers": [
     {
       "id": "Q52940",

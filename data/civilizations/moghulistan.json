@@ -29,12 +29,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q487829",
-    "region": "China",
-    "name": "Chagatai Khanate"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q487829",
+      "region": "China",
+      "name": "Chagatai Khanate"
+    }
+  ],
+  "after": [],
   "rulers": [],
   "modern_countries": [
     "China",

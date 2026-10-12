@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q199688",
-    "region": "Algeria",
-    "name": "Almohad Caliphate"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q199688",
+      "region": "Algeria",
+      "name": "Almohad Caliphate"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q335451",

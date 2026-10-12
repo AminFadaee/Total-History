@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q912043",
-    "region": "China",
-    "name": "Jin"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q912043",
+      "region": "China",
+      "name": "Jin"
+    }
+  ],
+  "after": [],
   "rulers": [],
   "modern_countries": [
     "China"

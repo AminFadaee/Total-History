@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q80702",
-    "region": "Mexico",
-    "name": "Spanish Empire"
-  },
-  "after": {
-    "id": "Q1109279",
-    "region": "Mexico",
-    "name": "Federated Republic of Mexico"
-  },
+  "before": [
+    {
+      "id": "Q80702",
+      "region": "Mexico",
+      "name": "Spanish Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1109279",
+      "region": "Mexico",
+      "name": "Federated Republic of Mexico"
+    }
+  ],
   "rulers": [
     {
       "id": "Q133808",

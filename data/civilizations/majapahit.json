@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q234197",
-    "region": "Indonesia",
-    "name": "Srivijaya"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q234197",
+      "region": "Indonesia",
+      "name": "Srivijaya"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q49334",

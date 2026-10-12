@@ -30,8 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {},
+  "before": [
+    {
+      "id": "Q736839",
+      "region": "Japan",
+      "name": "Kamakura Shogunate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q205662",
+      "region": "Japan",
+      "name": "Tokugawa Shogunate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q248381",

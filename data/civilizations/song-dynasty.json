@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q7313",
-    "region": "China",
-    "name": "Yuan Dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q7313",
+      "region": "China",
+      "name": "Yuan Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q7471",

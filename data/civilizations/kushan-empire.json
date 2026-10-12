@@ -54,16 +54,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1255614",
-    "region": "Pakistan",
-    "name": "Indo-Parthians"
-  },
-  "after": {
-    "id": "Q11774",
-    "region": "Pakistan",
-    "name": "Gupta Empire"
-  },
+  "before": [
+    {
+      "id": "Q1255614",
+      "region": "Pakistan",
+      "name": "Indo-Parthians"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q11774",
+      "region": "Pakistan",
+      "name": "Gupta Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q312544",

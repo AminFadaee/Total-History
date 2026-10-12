@@ -26,12 +26,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q28513",
-    "region": "Austria",
-    "name": "Austria-Hungary"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q28513",
+      "region": "Austria",
+      "name": "Austria-Hungary"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q84254",

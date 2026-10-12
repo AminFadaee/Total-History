@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q127861",
-    "region": "Sudan",
-    "name": "Khedivate of Egypt"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q127861",
+      "region": "Sudan",
+      "name": "Khedivate of Egypt"
+    }
+  ],
+  "after": [],
   "rulers": [],
   "modern_countries": [
     "Sudan",

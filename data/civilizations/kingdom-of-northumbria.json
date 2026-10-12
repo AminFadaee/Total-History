@@ -21,16 +21,20 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {
-    "id": "Q506008",
-    "region": "United Kingdom",
-    "name": "Kingdom of Deira"
-  },
-  "after": {
-    "id": "Q179876",
-    "region": "United Kingdom",
-    "name": "Kingdom of England"
-  },
+  "before": [
+    {
+      "id": "Q506008",
+      "region": "United Kingdom",
+      "name": "Kingdom of Deira"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q179876",
+      "region": "United Kingdom",
+      "name": "Kingdom of England"
+    }
+  ],
   "rulers": [
     {
       "id": "Q468847",

@@ -20,12 +20,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {
-    "id": "Q134178",
-    "region": "Greece",
-    "name": "Minoan civilization"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q134178",
+      "region": "Greece",
+      "name": "Minoan civilization"
+    }
+  ],
+  "after": [],
   "rulers": [],
   "modern_countries": [
     "Greece"

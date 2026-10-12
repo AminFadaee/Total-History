@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q178038",
-    "region": "Spain",
-    "name": "Second Spanish Republic"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q178038",
+      "region": "Spain",
+      "name": "Second Spanish Republic"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q29179",

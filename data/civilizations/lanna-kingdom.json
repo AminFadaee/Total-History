@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q1062422",
-    "region": "Thailand",
-    "name": "Konbaung Dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q1062422",
+      "region": "Thailand",
+      "name": "Konbaung Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q887732",

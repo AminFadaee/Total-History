@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q35355",
-    "region": "Iraq",
-    "name": "Sumerian City-States"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q35355",
+      "region": "Iraq",
+      "name": "Sumerian City-States"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q36359",

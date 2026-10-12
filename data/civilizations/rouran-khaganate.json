@@ -21,12 +21,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q15146034",
-    "region": "Mongolia",
-    "name": "Göktürk Khaganate"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q15146034",
+      "region": "Mongolia",
+      "name": "Göktürk Khaganate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q336094",

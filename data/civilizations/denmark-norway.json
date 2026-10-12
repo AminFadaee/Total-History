@@ -37,12 +37,14 @@
     "Old Kingdom of Norway",
     "Republic of Iceland"
   ],
-  "before": {
-    "id": "Q62623",
-    "region": "Denmark",
-    "name": "Kalmar Union"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q62623",
+      "region": "Norway",
+      "name": "Kalmar Union"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q154041",

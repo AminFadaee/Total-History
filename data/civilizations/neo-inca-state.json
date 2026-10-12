@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q28573",
-    "region": "Peru",
-    "name": "Inca Empire"
-  },
-  "after": {
-    "id": "Q80702",
-    "region": "Peru",
-    "name": "Spanish Empire"
-  },
+  "before": [
+    {
+      "id": "Q28573",
+      "region": "Peru",
+      "name": "Inca Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q80702",
+      "region": "Peru",
+      "name": "Spanish Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q332049",

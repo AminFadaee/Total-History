@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q20",
-    "region": "Iceland",
-    "name": "Old Kingdom of Norway"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q20",
+      "region": "Iceland",
+      "name": "Old Kingdom of Norway"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2427752",

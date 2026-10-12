@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q83891",
-    "region": "Georgia",
-    "name": "Sasanian Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q83891",
+      "region": "Georgia",
+      "name": "Sasanian Empire"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Georgia",

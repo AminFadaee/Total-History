@@ -23,12 +23,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q7209",
-    "region": "North Korea",
-    "name": "Han Dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q7209",
+      "region": "North Korea",
+      "name": "Han Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q711336",

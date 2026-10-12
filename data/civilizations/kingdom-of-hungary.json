@@ -70,12 +70,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q12560",
-    "region": "Hungary",
-    "name": "Ottoman Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q12560",
+      "region": "Hungary",
+      "name": "Ottoman Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q177903",

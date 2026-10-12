@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q155",
-    "region": "Brazil",
-    "name": "Brazilian Republic"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q155",
+      "region": "Brazil",
+      "name": "Brazilian Republic"
+    }
+  ],
   "rulers": [
     {
       "id": "Q939",

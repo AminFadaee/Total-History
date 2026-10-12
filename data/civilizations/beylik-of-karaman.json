@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q12560",
-    "region": "Turkey",
-    "name": "Ottoman Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q12560",
+      "region": "Turkey",
+      "name": "Ottoman Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q6368276",

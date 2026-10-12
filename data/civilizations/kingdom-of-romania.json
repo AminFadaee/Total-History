@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q958291",
-    "region": "Romania",
-    "name": "United Principalities of Moldavia and Wallachia"
-  },
-  "after": {
-    "id": "Q842794",
-    "region": "Romania",
-    "name": "Socialist Republic of Romania"
-  },
+  "before": [
+    {
+      "id": "Q958291",
+      "region": "Romania",
+      "name": "United Principalities of Moldavia and Wallachia"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q842794",
+      "region": "Romania",
+      "name": "Socialist Republic of Romania"
+    }
+  ],
   "rulers": [
     {
       "id": "Q930013",

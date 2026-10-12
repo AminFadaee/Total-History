@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q7405",
-    "region": "China",
-    "name": "Sui Dynasty"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q7405",
+      "region": "China",
+      "name": "Sui Dynasty"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q9701",

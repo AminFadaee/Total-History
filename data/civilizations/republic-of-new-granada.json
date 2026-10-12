@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q199821",
-    "region": "Colombia",
-    "name": "Gran Colombia"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q199821",
+      "region": "Colombia",
+      "name": "Gran Colombia"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q1369751",

@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q146597",
-    "region": "Iran",
-    "name": "Zand Dynasty"
-  },
-  "after": {
-    "id": "Q107258515",
-    "region": "Iran",
-    "name": "Pahlavi Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q146597",
+      "region": "Iran",
+      "name": "Zand Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q107258515",
+      "region": "Iran",
+      "name": "Pahlavi Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q324974",

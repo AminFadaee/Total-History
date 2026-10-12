@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q28179",
-    "region": "South Korea",
-    "name": "Joseon"
-  },
-  "after": {
-    "id": "Q188712",
-    "region": "South Korea",
-    "name": "Empire of Japan"
-  },
+  "before": [
+    {
+      "id": "Q28179",
+      "region": "South Korea",
+      "name": "Joseon"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q188712",
+      "region": "South Korea",
+      "name": "Empire of Japan"
+    }
+  ],
   "rulers": [
     {
       "id": "Q257425",

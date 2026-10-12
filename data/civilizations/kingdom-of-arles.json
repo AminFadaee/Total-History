@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q12548",
-    "region": "France",
-    "name": "Holy Roman Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q12548",
+      "region": "France",
+      "name": "Holy Roman Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q442257",

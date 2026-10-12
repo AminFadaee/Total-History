@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q237325",
-    "region": "Greece",
-    "name": "Antigonid dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q237325",
+      "region": "Greece",
+      "name": "Antigonid dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q130650",

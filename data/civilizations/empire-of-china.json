@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q13426199",
-    "region": "China",
-    "name": "Republic of China"
-  },
-  "after": {
-    "id": "Q13426199",
-    "region": "China",
-    "name": "Republic of China"
-  },
+  "before": [
+    {
+      "id": "Q13426199",
+      "region": "China",
+      "name": "Republic of China"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q13426199",
+      "region": "China",
+      "name": "Republic of China"
+    }
+  ],
   "rulers": [
     {
       "id": "Q210329",

@@ -22,12 +22,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q45670",
-    "region": "Portugal",
-    "name": "Kingdom of Portugal"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q45670",
+      "region": "Portugal",
+      "name": "Kingdom of Portugal"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q286764",

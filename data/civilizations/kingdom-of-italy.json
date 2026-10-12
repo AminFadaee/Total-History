@@ -46,16 +46,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q2577303",
-    "region": "Italy",
-    "name": "Kingdom of Sardinia"
-  },
-  "after": {
-    "id": "Q38",
-    "region": "Italy",
-    "name": "Republic of Italy"
-  },
+  "before": [
+    {
+      "id": "Q2577303",
+      "region": "Italy",
+      "name": "Kingdom of Sardinia"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q38",
+      "region": "Italy",
+      "name": "Republic of Italy"
+    }
+  ],
   "rulers": [
     {
       "id": "Q168691",

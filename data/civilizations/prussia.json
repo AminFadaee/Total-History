@@ -40,12 +40,14 @@
   "parts": [
     "Duchy of Prussia"
   ],
-  "before": {},
-  "after": {
-    "id": "Q151624",
-    "region": "Russia",
-    "name": "German Confederation"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q151624",
+      "region": "Russia",
+      "name": "German Confederation"
+    }
+  ],
   "rulers": [
     {
       "id": "Q33550",

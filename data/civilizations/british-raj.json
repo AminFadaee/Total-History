@@ -38,16 +38,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q33296",
-    "region": "India",
-    "name": "Mughal Empire"
-  },
-  "after": {
-    "id": "Q668",
-    "region": "India",
-    "name": "Republic of India"
-  },
+  "before": [
+    {
+      "id": "Q33296",
+      "region": "India",
+      "name": "Mughal Empire"
+    },
+    {
+      "id": "Q83572",
+      "region": "Pakistan",
+      "name": "Sikh Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q668",
+      "region": "India",
+      "name": "Republic of India"
+    }
+  ],
   "rulers": [
     {
       "id": "Q20875",

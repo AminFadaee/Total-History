@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q70972",
-    "region": "France",
-    "name": "Kingdom of France"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q70972",
+      "region": "France",
+      "name": "Kingdom of France"
+    }
+  ],
   "rulers": [
     {
       "id": "Q102140",

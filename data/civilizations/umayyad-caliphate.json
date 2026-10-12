@@ -38,16 +38,35 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12490507",
-    "region": "Syria",
-    "name": "Rashidun Caliphate"
-  },
-  "after": {
-    "id": "Q12536",
-    "region": "Syria",
-    "name": "Abbasid Caliphate"
-  },
+  "before": [
+    {
+      "id": "Q12490507",
+      "region": "Syria",
+      "name": "Rashidun Caliphate"
+    },
+    {
+      "id": "Q126936",
+      "region": "Spain",
+      "name": "Visigothic Kingdom"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12536",
+      "region": "Syria",
+      "name": "Abbasid Caliphate"
+    },
+    {
+      "id": "Q1337854",
+      "region": "Spain",
+      "name": "Emirate of Córdoba"
+    },
+    {
+      "id": "Q940123",
+      "region": "Algeria",
+      "name": "Rustamid dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q181154",

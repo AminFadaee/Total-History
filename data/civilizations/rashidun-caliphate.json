@@ -38,16 +38,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q733668",
-    "region": "Syria",
-    "name": "Ghassanids"
-  },
-  "after": {
-    "id": "Q8575586",
-    "region": "Iraq",
-    "name": "Umayyad Caliphate"
-  },
+  "before": [
+    {
+      "id": "Q733668",
+      "region": "Syria",
+      "name": "Ghassanids"
+    },
+    {
+      "id": "Q83891",
+      "region": "Iran",
+      "name": "Sasanian Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q8575586",
+      "region": "Iraq",
+      "name": "Umayyad Caliphate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q334923",

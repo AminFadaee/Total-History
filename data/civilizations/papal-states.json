@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12544",
-    "region": "Italy",
-    "name": "Byzantine Empire"
-  },
-  "after": {
-    "id": "Q172579",
-    "region": "Italy",
-    "name": "Kingdom of Italy"
-  },
+  "before": [
+    {
+      "id": "Q12544",
+      "region": "Italy",
+      "name": "Byzantine Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q172579",
+      "region": "Italy",
+      "name": "Kingdom of Italy"
+    }
+  ],
   "rulers": [
     {
       "id": "Q211789",

@@ -46,16 +46,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12536",
-    "region": "Iraq",
-    "name": "Abbasid Caliphate"
-  },
-  "after": {
-    "id": "Q3708094",
-    "region": "Iraq",
-    "name": "Great Seljuk Empire"
-  },
+  "before": [
+    {
+      "id": "Q12536",
+      "region": "Iraq",
+      "name": "Abbasid Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q3708094",
+      "region": "Iraq",
+      "name": "Great Seljuk Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2745237",

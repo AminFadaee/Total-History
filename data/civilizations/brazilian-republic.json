@@ -22,12 +22,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q217230",
-    "region": "Brazil",
-    "name": "Empire of Brazil"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q217230",
+      "region": "Brazil",
+      "name": "Empire of Brazil"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q200812",

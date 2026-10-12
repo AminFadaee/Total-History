@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q63149558",
-    "region": "Iran",
-    "name": "Afsharid Iran"
-  },
-  "after": {
-    "id": "Q63158027",
-    "region": "Iran",
-    "name": "Qajar Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q63149558",
+      "region": "Iran",
+      "name": "Afsharid Iran"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q63158027",
+      "region": "Iran",
+      "name": "Qajar Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q332583",

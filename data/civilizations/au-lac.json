@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q827040",
-    "region": "Vietnam",
-    "name": "Nanyue"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q827040",
+      "region": "Vietnam",
+      "name": "Nanyue"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1274690",

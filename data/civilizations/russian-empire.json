@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q186096",
-    "region": "Russia",
-    "name": "Tsardom of Russia"
-  },
-  "after": {
-    "id": "Q139319",
-    "region": "Russia",
-    "name": "Russian Republic"
-  },
+  "before": [
+    {
+      "id": "Q186096",
+      "region": "Russia",
+      "name": "Tsardom of Russia"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q139319",
+      "region": "Russia",
+      "name": "Russian Republic"
+    }
+  ],
   "rulers": [
     {
       "id": "Q8479",

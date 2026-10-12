@@ -46,12 +46,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1057118",
-    "region": "Cambodia",
-    "name": "Chenla"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q1057118",
+      "region": "Cambodia",
+      "name": "Chenla"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q379239",

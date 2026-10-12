@@ -21,16 +21,20 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {
-    "id": "Q189178",
-    "region": "Japan",
-    "name": "Nara Japan"
-  },
-  "after": {
-    "id": "Q736839",
-    "region": "Japan",
-    "name": "Kamakura Shogunate"
-  },
+  "before": [
+    {
+      "id": "Q189178",
+      "region": "Japan",
+      "name": "Nara Japan"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q736839",
+      "region": "Japan",
+      "name": "Kamakura Shogunate"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Japan"

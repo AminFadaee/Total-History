@@ -38,16 +38,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1986139",
-    "region": "Iran",
-    "name": "Parthian Empire"
-  },
-  "after": {
-    "id": "Q12490507",
-    "region": "Iran",
-    "name": "Rashidun Caliphate"
-  },
+  "before": [
+    {
+      "id": "Q1986139",
+      "region": "Iran",
+      "name": "Parthian Empire"
+    },
+    {
+      "id": "Q1255614",
+      "region": "Pakistan",
+      "name": "Indo-Parthians"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12490507",
+      "region": "Iran",
+      "name": "Rashidun Caliphate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q371319",

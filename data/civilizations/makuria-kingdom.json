@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q241790",
-    "region": "Sudan",
-    "name": "Kingdom of Kush"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q241790",
+      "region": "Sudan",
+      "name": "Kingdom of Kush"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q1691674",

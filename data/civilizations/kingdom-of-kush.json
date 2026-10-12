@@ -37,12 +37,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q829356",
-    "region": "Sudan",
-    "name": "Makuria Kingdom"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q829356",
+      "region": "Sudan",
+      "name": "Makuria Kingdom"
+    }
+  ],
   "rulers": [
     {
       "id": "Q315714",

@@ -23,16 +23,20 @@
   "parts": [
     "Tenochtitlan"
   ],
-  "before": {
-    "id": "Q13695",
-    "region": "Mexico",
-    "name": "Tenochtitlan"
-  },
-  "after": {
-    "id": "Q80702",
-    "region": "Mexico",
-    "name": "Spanish Empire"
-  },
+  "before": [
+    {
+      "id": "Q13695",
+      "region": "Mexico",
+      "name": "Tenochtitlan"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q80702",
+      "region": "Mexico",
+      "name": "Spanish Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q318072",

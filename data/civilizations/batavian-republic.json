@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q170072",
-    "region": "Netherlands",
-    "name": "Dutch Republic"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q170072",
+      "region": "Netherlands",
+      "name": "Dutch Republic"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q281640",

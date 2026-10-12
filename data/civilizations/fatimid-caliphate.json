@@ -54,16 +54,30 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q207600",
-    "region": "Tunisia",
-    "name": "Aghlabid Dynasty"
-  },
-  "after": {
-    "id": "Q180114",
-    "region": "Egypt",
-    "name": "Ayyubid Sultanate"
-  },
+  "before": [
+    {
+      "id": "Q207600",
+      "region": "Tunisia",
+      "name": "Aghlabid Dynasty"
+    },
+    {
+      "id": "Q940123",
+      "region": "Algeria",
+      "name": "Rustamid dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q180114",
+      "region": "Egypt",
+      "name": "Ayyubid Sultanate"
+    },
+    {
+      "id": "Q55502",
+      "region": "Palestine",
+      "name": "Kingdom of Jerusalem"
+    }
+  ],
   "rulers": [
     {
       "id": "Q307629",

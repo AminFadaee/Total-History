@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q370736",
-    "region": "South Africa",
-    "name": "British Cape Colony"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q370736",
+      "region": "South Africa",
+      "name": "British Cape Colony"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "South Africa"

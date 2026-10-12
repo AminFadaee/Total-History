@@ -40,12 +40,14 @@
   "parts": [
     "Kingdom of Spain"
   ],
-  "before": {
-    "id": "Q2608489",
-    "region": "Mexico",
-    "name": "Aztec Triple Alliance"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q2608489",
+      "region": "Mexico",
+      "name": "Aztec Triple Alliance"
+    }
+  ],
+  "after": [],
   "rulers": [],
   "modern_countries": [
     "Spain"

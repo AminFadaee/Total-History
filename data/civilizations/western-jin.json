@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q320930",
-    "region": "China",
-    "name": "Cao Wei"
-  },
-  "after": {
-    "id": "Q49697",
-    "region": "China",
-    "name": "Liu Song Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q320930",
+      "region": "China",
+      "name": "Cao Wei"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q49697",
+      "region": "China",
+      "name": "Liu Song Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q7356",

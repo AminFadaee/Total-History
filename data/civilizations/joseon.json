@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q28208",
-    "region": "South Korea",
-    "name": "Goryeo"
-  },
-  "after": {
-    "id": "Q28233",
-    "region": "South Korea",
-    "name": "Korean Empire"
-  },
+  "before": [
+    {
+      "id": "Q28208",
+      "region": "South Korea",
+      "name": "Goryeo"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q28233",
+      "region": "South Korea",
+      "name": "Korean Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q378483",

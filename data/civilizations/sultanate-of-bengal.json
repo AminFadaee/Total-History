@@ -54,16 +54,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q229411",
-    "region": "India",
-    "name": "Delhi Sultanate"
-  },
-  "after": {
-    "id": "Q373650",
-    "region": "India",
-    "name": "Sur Empire"
-  },
+  "before": [
+    {
+      "id": "Q229411",
+      "region": "India",
+      "name": "Delhi Sultanate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q373650",
+      "region": "India",
+      "name": "Sur Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q7487786",

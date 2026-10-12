@@ -21,12 +21,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q2608489",
-    "region": "Mexico",
-    "name": "Aztec Triple Alliance"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q2608489",
+      "region": "Mexico",
+      "name": "Aztec Triple Alliance"
+    }
+  ],
   "rulers": [
     {
       "id": "Q13702",

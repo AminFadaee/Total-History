@@ -37,12 +37,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q1069959",
-    "region": "Georgia",
-    "name": "Kingdom of Imereti"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q1069959",
+      "region": "Georgia",
+      "name": "Kingdom of Imereti"
+    }
+  ],
   "rulers": [
     {
       "id": "Q244007",

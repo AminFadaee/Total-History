@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q188586",
-    "region": "Italy",
-    "name": "Kingdom of Sicily"
-  },
-  "after": {
-    "id": "Q180393",
-    "region": "Italy",
-    "name": "Kingdom of the Two Sicilies"
-  },
+  "before": [
+    {
+      "id": "Q188586",
+      "region": "Italy",
+      "name": "Kingdom of Sicily"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q180393",
+      "region": "Italy",
+      "name": "Kingdom of the Two Sicilies"
+    }
+  ],
   "rulers": [
     {
       "id": "Q314331",

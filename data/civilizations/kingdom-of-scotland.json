@@ -38,8 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {},
+  "before": [],
+  "after": [
+    {
+      "id": "Q161885",
+      "region": "United Kingdom",
+      "name": "Kingdom of Great Britain"
+    }
+  ],
   "rulers": [
     {
       "id": "Q298263",

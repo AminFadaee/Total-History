@@ -13,12 +13,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {
-    "id": "Q321371",
-    "region": "Russia",
-    "name": "Cimmerian Bosporus"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q321371",
+      "region": "Russia",
+      "name": "Cimmerian Bosporus"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q36724",

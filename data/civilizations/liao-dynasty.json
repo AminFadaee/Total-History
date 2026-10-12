@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q28322",
-    "region": "China",
-    "name": "Balhae"
-  },
-  "after": {
-    "id": "Q5066",
-    "region": "China",
-    "name": "Great Jin"
-  },
+  "before": [
+    {
+      "id": "Q28322",
+      "region": "China",
+      "name": "Balhae"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q5066",
+      "region": "China",
+      "name": "Great Jin"
+    }
+  ],
   "rulers": [
     {
       "id": "Q4989",

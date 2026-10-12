@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q829356",
-    "region": "Egypt",
-    "name": "Makuria Kingdom"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q829356",
+      "region": "Egypt",
+      "name": "Makuria Kingdom"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2286259",

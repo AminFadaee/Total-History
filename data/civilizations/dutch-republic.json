@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q188553",
-    "region": "Netherlands",
-    "name": "Batavian Republic"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q188553",
+      "region": "Netherlands",
+      "name": "Batavian Republic"
+    }
+  ],
   "rulers": [
     {
       "id": "Q164062",

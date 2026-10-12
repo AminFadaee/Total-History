@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1109279",
-    "region": "Mexico",
-    "name": "Federated Republic of Mexico"
-  },
-  "after": {
-    "id": "Q7443295",
-    "region": "Mexico",
-    "name": "Second Federal Republic of Mexico"
-  },
+  "before": [
+    {
+      "id": "Q1109279",
+      "region": "Mexico",
+      "name": "Federated Republic of Mexico"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q7443295",
+      "region": "Mexico",
+      "name": "Second Federal Republic of Mexico"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1208732",

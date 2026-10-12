@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q841364",
-    "region": "Thailand",
-    "name": "Ayutthaya Kingdom"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q841364",
+      "region": "Thailand",
+      "name": "Ayutthaya Kingdom"
+    }
+  ],
   "rulers": [
     {
       "id": "Q887310",

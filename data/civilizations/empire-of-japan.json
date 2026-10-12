@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q205662",
-    "region": "Japan",
-    "name": "Tokugawa Shogunate"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q205662",
+      "region": "Japan",
+      "name": "Tokugawa Shogunate"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q174231",

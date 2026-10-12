@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q43287",
-    "region": "Germany",
-    "name": "German Empire"
-  },
-  "after": {
-    "id": "Q7318",
-    "region": "Germany",
-    "name": "Nazi Germany"
-  },
+  "before": [
+    {
+      "id": "Q43287",
+      "region": "Germany",
+      "name": "German Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q7318",
+      "region": "Germany",
+      "name": "Nazi Germany"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2646",

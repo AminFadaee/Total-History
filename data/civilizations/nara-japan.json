@@ -21,16 +21,20 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {
-    "id": "Q210688",
-    "region": "Japan",
-    "name": "Asuka Japan"
-  },
-  "after": {
-    "id": "Q193292",
-    "region": "Japan",
-    "name": "Heian Japan"
-  },
+  "before": [
+    {
+      "id": "Q210688",
+      "region": "Japan",
+      "name": "Asuka Japan"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q193292",
+      "region": "Japan",
+      "name": "Heian Japan"
+    }
+  ],
   "rulers": [
     {
       "id": "Q314846",

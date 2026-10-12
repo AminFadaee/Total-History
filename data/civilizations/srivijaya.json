@@ -29,12 +29,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q49326",
-    "region": "Indonesia",
-    "name": "Majapahit"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q49326",
+      "region": "Indonesia",
+      "name": "Majapahit"
+    }
+  ],
   "rulers": [
     {
       "id": "Q3176110",

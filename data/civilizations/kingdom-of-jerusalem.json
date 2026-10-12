@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q160307",
-    "region": "Palestine",
-    "name": "Fatimid Caliphate"
-  },
-  "after": {
-    "id": "Q180114",
-    "region": "Palestine",
-    "name": "Ayyubid Sultanate"
-  },
+  "before": [
+    {
+      "id": "Q160307",
+      "region": "Palestine",
+      "name": "Fatimid Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q180114",
+      "region": "Palestine",
+      "name": "Ayyubid Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q51717",

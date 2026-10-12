@@ -32,16 +32,20 @@
   "parts": [
     "Later Western Liang"
   ],
-  "before": {
-    "id": "Q62456",
-    "region": "China",
-    "name": "Southern Qi"
-  },
-  "after": {
-    "id": "Q62454",
-    "region": "China",
-    "name": "Chen Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q62456",
+      "region": "China",
+      "name": "Southern Qi"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q62454",
+      "region": "China",
+      "name": "Chen Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1059874",

@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q128938",
-    "region": "China",
-    "name": "Shang Dynasty"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q128938",
+      "region": "China",
+      "name": "Shang Dynasty"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q698909",

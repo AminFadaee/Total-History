@@ -38,16 +38,30 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q2277",
-    "region": "Italy",
-    "name": "Roman Empire"
-  },
-  "after": {
-    "id": "Q583038",
-    "region": "Italy",
-    "name": "Ostrogothic Kingdom"
-  },
+  "before": [
+    {
+      "id": "Q2277",
+      "region": "Italy",
+      "name": "Roman Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q583038",
+      "region": "Italy",
+      "name": "Ostrogothic Kingdom"
+    },
+    {
+      "id": "Q146246",
+      "region": "Germany",
+      "name": "Francia"
+    },
+    {
+      "id": "Q10416611",
+      "region": "Algeria",
+      "name": "Vandal Kingdom"
+    }
+  ],
   "rulers": [
     {
       "id": "Q309845",

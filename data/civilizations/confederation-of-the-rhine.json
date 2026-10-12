@@ -31,12 +31,14 @@
     "Kingdom of Württemberg",
     "Grand Duchy of Würzburg"
   ],
-  "before": {},
-  "after": {
-    "id": "Q151624",
-    "region": "Poland",
-    "name": "German Confederation"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q151624",
+      "region": "Poland",
+      "name": "German Confederation"
+    }
+  ],
   "rulers": [
     {
       "id": "Q517",

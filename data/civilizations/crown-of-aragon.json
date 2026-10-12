@@ -27,12 +27,14 @@
     "Kingdom of Sicily",
     "Duchy of Athens"
   ],
-  "before": {},
-  "after": {
-    "id": "Q29",
-    "region": "Spain",
-    "name": "Kingdom of Spain"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q29",
+      "region": "Spain",
+      "name": "Kingdom of Spain"
+    }
+  ],
   "rulers": [
     {
       "id": "Q12860",

@@ -25,12 +25,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q167639",
-    "region": "India",
-    "name": "Vijayanagara Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q167639",
+      "region": "India",
+      "name": "Vijayanagara Empire"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "India"

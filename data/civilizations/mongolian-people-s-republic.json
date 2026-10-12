@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q711",
-    "region": "Mongolia",
-    "name": "Mongolia"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q711",
+      "region": "Mongolia",
+      "name": "Mongolia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q311488",

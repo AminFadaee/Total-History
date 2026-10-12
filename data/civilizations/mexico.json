@@ -26,12 +26,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q5062192",
-    "region": "Mexico",
-    "name": "Centralist Mexico"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q5062192",
+      "region": "Mexico",
+      "name": "Centralist Mexico"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q182276",

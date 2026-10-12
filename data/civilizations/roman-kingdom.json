@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q17167",
-    "region": "Italy",
-    "name": "Roman Republic"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q17167",
+      "region": "Italy",
+      "name": "Roman Republic"
+    }
+  ],
   "rulers": [
     {
       "id": "Q200031",

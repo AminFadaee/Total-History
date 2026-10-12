@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q2899771",
-    "region": "Czechia",
-    "name": "Principality of Hungary"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q2899771",
+      "region": "Czechia",
+      "name": "Principality of Hungary"
+    }
+  ],
   "rulers": [
     {
       "id": "Q433975",

@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q8575586",
-    "region": "Spain",
-    "name": "Umayyad Caliphate"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q8575586",
+      "region": "Spain",
+      "name": "Umayyad Caliphate"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q29000",

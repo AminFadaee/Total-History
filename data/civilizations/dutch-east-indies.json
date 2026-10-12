@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q252",
-    "region": "Indonesia",
-    "name": "Republic of Indonesia"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q252",
+      "region": "Indonesia",
+      "name": "Republic of Indonesia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q768372",

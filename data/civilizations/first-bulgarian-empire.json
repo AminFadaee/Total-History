@@ -54,12 +54,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q12544",
-    "region": "Bulgaria",
-    "name": "Byzantine Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q12544",
+      "region": "Bulgaria",
+      "name": "Byzantine Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q192104",

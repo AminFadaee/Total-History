@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q970799",
-    "region": "Morocco",
-    "name": "Wattasid dynasty"
-  },
-  "after": {
-    "id": "Q1028",
-    "region": "Morocco",
-    "name": "Morocco"
-  },
+  "before": [
+    {
+      "id": "Q970799",
+      "region": "Morocco",
+      "name": "Wattasid dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1028",
+      "region": "Morocco",
+      "name": "Morocco"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1951892",

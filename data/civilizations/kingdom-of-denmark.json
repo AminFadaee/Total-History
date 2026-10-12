@@ -25,8 +25,14 @@
     "Denmark",
     "Greenland"
   ],
-  "before": {},
-  "after": {},
+  "before": [],
+  "after": [
+    {
+      "id": "Q62623",
+      "region": "Denmark",
+      "name": "Kalmar Union"
+    }
+  ],
   "rulers": [
     {
       "id": "Q201041",

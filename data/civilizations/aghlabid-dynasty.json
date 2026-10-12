@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12536",
-    "region": "Tunisia",
-    "name": "Abbasid Caliphate"
-  },
-  "after": {
-    "id": "Q160307",
-    "region": "Tunisia",
-    "name": "Fatimid Caliphate"
-  },
+  "before": [
+    {
+      "id": "Q12536",
+      "region": "Tunisia",
+      "name": "Abbasid Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q160307",
+      "region": "Tunisia",
+      "name": "Fatimid Caliphate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q207052",

@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q217196",
-    "region": "Spain",
-    "name": "Crown of Castile"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q217196",
+      "region": "Spain",
+      "name": "Crown of Castile"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q170467",

@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12548",
-    "region": "Italy",
-    "name": "Holy Roman Empire"
-  },
-  "after": {
-    "id": "Q659312",
-    "region": "Italy",
-    "name": "Ligurian Republic"
-  },
+  "before": [
+    {
+      "id": "Q12548",
+      "region": "Italy",
+      "name": "Holy Roman Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q659312",
+      "region": "Italy",
+      "name": "Ligurian Republic"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1974438",

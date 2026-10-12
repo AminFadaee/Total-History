@@ -16,12 +16,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q47690",
-    "region": "Iraq",
-    "name": "Babylonia"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q47690",
+      "region": "Iraq",
+      "name": "Babylonia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q316241",

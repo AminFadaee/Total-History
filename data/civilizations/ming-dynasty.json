@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q7313",
-    "region": "China",
-    "name": "Yuan Dynasty"
-  },
-  "after": {
-    "id": "Q8733",
-    "region": "China",
-    "name": "Qing Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q7313",
+      "region": "China",
+      "name": "Yuan Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q8733",
+      "region": "China",
+      "name": "Qing Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q9957",

@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q844910",
-    "region": "India",
-    "name": "Pandya dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q844910",
+      "region": "India",
+      "name": "Pandya dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q7929271",

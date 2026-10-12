@@ -46,12 +46,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q856691",
-    "region": "India",
-    "name": "Rashtrakuta Dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q856691",
+      "region": "India",
+      "name": "Rashtrakuta Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q6416224",

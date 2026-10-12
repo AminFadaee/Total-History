@@ -62,16 +62,30 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q249578",
-    "region": "Iran",
-    "name": "Ghaznavid Empire"
-  },
-  "after": {
-    "id": "Q63134381",
-    "region": "Iran",
-    "name": "Khwarezmid Empire"
-  },
+  "before": [
+    {
+      "id": "Q249578",
+      "region": "Iran",
+      "name": "Ghaznavid Empire"
+    },
+    {
+      "id": "Q273874",
+      "region": "Iraq",
+      "name": "Buyid Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q63134381",
+      "region": "Iran",
+      "name": "Khwarezmid Empire"
+    },
+    {
+      "id": "Q189545",
+      "region": "Iraq",
+      "name": "Zengid dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q144565",

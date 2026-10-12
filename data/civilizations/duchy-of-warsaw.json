@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q172107",
-    "region": "Poland",
-    "name": "Polish-Lithuanian Commonwealth"
-  },
-  "after": {
-    "id": "Q34266",
-    "region": "Poland",
-    "name": "Russian Empire"
-  },
+  "before": [
+    {
+      "id": "Q172107",
+      "region": "Poland",
+      "name": "Polish-Lithuanian Commonwealth"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q34266",
+      "region": "Poland",
+      "name": "Russian Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q53444",

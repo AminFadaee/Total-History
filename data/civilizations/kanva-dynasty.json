@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q651377",
-    "region": "India",
-    "name": "Shunga Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q651377",
+      "region": "India",
+      "name": "Shunga Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q7917015",

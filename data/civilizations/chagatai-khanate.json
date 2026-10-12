@@ -33,16 +33,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12557",
-    "region": "China",
-    "name": "Mongol Empire"
-  },
-  "after": {
-    "id": "Q1191125",
-    "region": "China",
-    "name": "Moghulistan"
-  },
+  "before": [
+    {
+      "id": "Q12557",
+      "region": "China",
+      "name": "Mongol Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1191125",
+      "region": "China",
+      "name": "Moghulistan"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "China",

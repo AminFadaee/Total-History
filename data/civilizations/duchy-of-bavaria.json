@@ -37,12 +37,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12548",
-    "region": "Germany",
-    "name": "Holy Roman Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q12548",
+      "region": "Germany",
+      "name": "Holy Roman Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q61467",

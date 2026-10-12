@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q389688",
-    "region": "Turkey",
-    "name": "Achaemenid Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q389688",
+      "region": "Turkey",
+      "name": "Achaemenid Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q434217",

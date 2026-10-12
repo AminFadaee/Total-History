@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12544",
-    "region": "Italy",
-    "name": "Byzantine Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q12544",
+      "region": "Italy",
+      "name": "Byzantine Empire"
+    }
+  ],
+  "after": [],
   "rulers": [],
   "modern_countries": [
     "Italy",

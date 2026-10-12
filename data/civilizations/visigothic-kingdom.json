@@ -46,16 +46,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q42834",
-    "region": "France",
-    "name": "Western Roman Empire"
-  },
-  "after": {
-    "id": "Q8575586",
-    "region": "Spain",
-    "name": "Umayyad Caliphate"
-  },
+  "before": [
+    {
+      "id": "Q42834",
+      "region": "France",
+      "name": "Western Roman Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q8575586",
+      "region": "Spain",
+      "name": "Umayyad Caliphate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1463732",

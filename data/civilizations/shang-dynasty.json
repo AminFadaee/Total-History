@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q35216",
-    "region": "China",
-    "name": "Zhou Dynasty"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q35216",
+      "region": "China",
+      "name": "Zhou Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q736654",

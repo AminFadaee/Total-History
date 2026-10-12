@@ -37,12 +37,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q15146034",
-    "region": "Afghanistan",
-    "name": "Göktürk Khaganate"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q15146034",
+      "region": "Afghanistan",
+      "name": "Göktürk Khaganate"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Pakistan",

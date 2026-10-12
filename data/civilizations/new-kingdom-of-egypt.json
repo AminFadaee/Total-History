@@ -54,16 +54,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q642301",
-    "region": "Egypt",
-    "name": "Seventeenth Dynasty of Egypt"
-  },
-  "after": {
-    "id": "Q41642",
-    "region": "Lebanon",
-    "name": "Phoenicia"
-  },
+  "before": [
+    {
+      "id": "Q642301",
+      "region": "Egypt",
+      "name": "Seventeenth Dynasty of Egypt"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q41642",
+      "region": "Lebanon",
+      "name": "Phoenicia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q81794",

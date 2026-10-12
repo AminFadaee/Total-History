@@ -29,12 +29,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q494354",
-    "region": "China",
-    "name": "Kara-Khanid Khanate"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q494354",
+      "region": "China",
+      "name": "Kara-Khanid Khanate"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "China",

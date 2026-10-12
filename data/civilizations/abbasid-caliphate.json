@@ -38,16 +38,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q8575586",
-    "region": "Iraq",
-    "name": "Umayyad Caliphate"
-  },
-  "after": {
-    "id": "Q12557",
-    "region": "Iraq",
-    "name": "Mongol Empire"
-  },
+  "before": [
+    {
+      "id": "Q8575586",
+      "region": "Iraq",
+      "name": "Umayyad Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12557",
+      "region": "Iraq",
+      "name": "Mongol Empire"
+    },
+    {
+      "id": "Q282428",
+      "region": "Egypt",
+      "name": "Mamluk Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q252087",

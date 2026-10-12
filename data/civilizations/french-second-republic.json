@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q71092",
-    "region": "France",
-    "name": "Second French Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q71092",
+      "region": "France",
+      "name": "Second French Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2309694",

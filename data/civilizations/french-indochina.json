@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q6500483",
-    "region": "Vietnam",
-    "name": "Nguyễn dynasty"
-  },
-  "after": {
-    "id": "Q881",
-    "region": "Vietnam",
-    "name": "Socialist Republic of Vietnam"
-  },
+  "before": [
+    {
+      "id": "Q6500483",
+      "region": "Vietnam",
+      "name": "Nguyễn dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q881",
+      "region": "Vietnam",
+      "name": "Socialist Republic of Vietnam"
+    }
+  ],
   "rulers": [
     {
       "id": "Q468758",

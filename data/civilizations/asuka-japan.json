@@ -21,12 +21,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q189178",
-    "region": "Japan",
-    "name": "Nara Japan"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q189178",
+      "region": "Japan",
+      "name": "Nara Japan"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Japan"

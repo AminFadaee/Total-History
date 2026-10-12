@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q10914393",
-    "region": "Egypt",
-    "name": "Neo-Assyrian Empire"
-  },
-  "after": {
-    "id": "Q389688",
-    "region": "Egypt",
-    "name": "Achaemenid Empire"
-  },
+  "before": [
+    {
+      "id": "Q10914393",
+      "region": "Egypt",
+      "name": "Neo-Assyrian Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q389688",
+      "region": "Egypt",
+      "name": "Achaemenid Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q125102",

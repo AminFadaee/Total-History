@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q190025",
-    "region": "Guatemala",
-    "name": "United Provinces of Central America"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q190025",
+      "region": "Guatemala",
+      "name": "United Provinces of Central America"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q365381",

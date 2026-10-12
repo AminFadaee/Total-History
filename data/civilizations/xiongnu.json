@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q861054",
-    "region": "Mongolia",
-    "name": "Xianbei"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q861054",
+      "region": "Mongolia",
+      "name": "Xianbei"
+    }
+  ],
   "rulers": [
     {
       "id": "Q382816",

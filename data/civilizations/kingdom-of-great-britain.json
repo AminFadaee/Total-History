@@ -30,16 +30,30 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q179876",
-    "region": "United Kingdom",
-    "name": "Kingdom of England"
-  },
-  "after": {
-    "id": "Q174193",
-    "region": "United Kingdom",
-    "name": "United Kingdom of Great Britain and Ireland"
-  },
+  "before": [
+    {
+      "id": "Q179876",
+      "region": "United Kingdom",
+      "name": "Kingdom of England"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q174193",
+      "region": "United Kingdom",
+      "name": "United Kingdom of Great Britain and Ireland"
+    },
+    {
+      "id": "Q370736",
+      "region": "South Africa",
+      "name": "British Cape Colony"
+    },
+    {
+      "id": "Q164079",
+      "region": "Germany",
+      "name": "Kingdom of Hanover"
+    }
+  ],
   "rulers": [
     {
       "id": "Q119702",

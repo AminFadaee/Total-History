@@ -38,16 +38,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q131964",
-    "region": "Hungary",
-    "name": "Austrian Empire"
-  },
-  "after": {
-    "id": "Q33946",
-    "region": "Czechia",
-    "name": "Czechoslovakia"
-  },
+  "before": [
+    {
+      "id": "Q131964",
+      "region": "Hungary",
+      "name": "Austrian Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q33946",
+      "region": "Czechia",
+      "name": "Czechoslovakia"
+    },
+    {
+      "id": "Q40",
+      "region": "Austria",
+      "name": "Republic of Austria"
+    }
+  ],
   "rulers": [
     {
       "id": "Q51056",

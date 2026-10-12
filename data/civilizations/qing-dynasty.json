@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1062546",
-    "region": "China",
-    "name": "Later Jin Dynasty"
-  },
-  "after": {
-    "id": "Q13426199",
-    "region": "China",
-    "name": "Republic of China"
-  },
+  "before": [
+    {
+      "id": "Q1062546",
+      "region": "China",
+      "name": "Later Jin Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q13426199",
+      "region": "China",
+      "name": "Republic of China"
+    }
+  ],
   "rulers": [
     {
       "id": "Q310453",

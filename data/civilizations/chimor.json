@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q28573",
-    "region": "Peru",
-    "name": "Inca Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q28573",
+      "region": "Peru",
+      "name": "Inca Empire"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Peru",

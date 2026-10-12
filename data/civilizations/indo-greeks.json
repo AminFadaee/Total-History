@@ -46,16 +46,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q488880",
-    "region": "Pakistan",
-    "name": "Greco-Bactrian Kingdom"
-  },
-  "after": {
-    "id": "Q240123",
-    "region": "Pakistan",
-    "name": "Indo-Scythians"
-  },
+  "before": [
+    {
+      "id": "Q488880",
+      "region": "Pakistan",
+      "name": "Greco-Bactrian Kingdom"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q240123",
+      "region": "Pakistan",
+      "name": "Indo-Scythians"
+    }
+  ],
   "rulers": [
     {
       "id": "Q577756",

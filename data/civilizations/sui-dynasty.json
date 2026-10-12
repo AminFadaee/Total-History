@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q62454",
-    "region": "China",
-    "name": "Chen Dynasty"
-  },
-  "after": {
-    "id": "Q9683",
-    "region": "China",
-    "name": "Tang Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q62454",
+      "region": "China",
+      "name": "Chen Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q9683",
+      "region": "China",
+      "name": "Tang Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q7419",

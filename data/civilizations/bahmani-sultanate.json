@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q229411",
-    "region": "India",
-    "name": "Delhi Sultanate"
-  },
-  "after": {
-    "id": "Q400998",
-    "region": "India",
-    "name": "Ahmadnagar Sultanate"
-  },
+  "before": [
+    {
+      "id": "Q229411",
+      "region": "India",
+      "name": "Delhi Sultanate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q400998",
+      "region": "India",
+      "name": "Ahmadnagar Sultanate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q3482078",

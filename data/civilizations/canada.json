@@ -26,12 +26,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q8680",
-    "region": "Canada",
-    "name": "British Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q8680",
+      "region": "Canada",
+      "name": "British Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q269412",

@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q949268",
-    "region": "India",
-    "name": "Nanda Empire"
-  },
-  "after": {
-    "id": "Q651377",
-    "region": "India",
-    "name": "Shunga Empire"
-  },
+  "before": [
+    {
+      "id": "Q949268",
+      "region": "India",
+      "name": "Nanda Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q651377",
+      "region": "India",
+      "name": "Shunga Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q188541",

@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q8733",
-    "region": "China",
-    "name": "Qing Dynasty"
-  },
-  "after": {
-    "id": "Q148",
-    "region": "China",
-    "name": "People's Republic of China"
-  },
+  "before": [
+    {
+      "id": "Q8733",
+      "region": "China",
+      "name": "Qing Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q148",
+      "region": "China",
+      "name": "People's Republic of China"
+    }
+  ],
   "rulers": [
     {
       "id": "Q25238",

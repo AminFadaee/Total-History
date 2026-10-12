@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1395011",
-    "region": "India",
-    "name": "Chalukya Dynasty"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q1395011",
+      "region": "India",
+      "name": "Chalukya Dynasty"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q3764262",

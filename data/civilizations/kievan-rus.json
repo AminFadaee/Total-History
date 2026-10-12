@@ -38,12 +38,14 @@
     "Principality of Halych",
     "Kingdom of Galicia–Volhynia"
   ],
-  "before": {},
-  "after": {
-    "id": "Q12557",
-    "region": "Ukraine",
-    "name": "Mongol Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q12557",
+      "region": "Ukraine",
+      "name": "Mongol Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1058572",

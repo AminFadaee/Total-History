@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q494354",
-    "region": "Kyrgyzstan",
-    "name": "Kara-Khanid Khanate"
-  },
-  "after": {
-    "id": "Q12557",
-    "region": "Kyrgyzstan",
-    "name": "Mongol Empire"
-  },
+  "before": [
+    {
+      "id": "Q494354",
+      "region": "Kyrgyzstan",
+      "name": "Kara-Khanid Khanate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12557",
+      "region": "Kyrgyzstan",
+      "name": "Mongol Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1330091",

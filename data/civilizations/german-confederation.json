@@ -21,16 +21,25 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {
-    "id": "Q154741",
-    "region": "Poland",
-    "name": "Confederation of the Rhine"
-  },
-  "after": {
-    "id": "Q43287",
-    "region": "Poland",
-    "name": "German Empire"
-  },
+  "before": [
+    {
+      "id": "Q154741",
+      "region": "Poland",
+      "name": "Confederation of the Rhine"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q43287",
+      "region": "Poland",
+      "name": "German Empire"
+    },
+    {
+      "id": "Q150981",
+      "region": "Germany",
+      "name": "North German Confederation"
+    }
+  ],
   "rulers": [
     {
       "id": "Q130834",

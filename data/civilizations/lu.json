@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q504759",
-    "region": "China",
-    "name": "Chu"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q504759",
+      "region": "China",
+      "name": "Chu"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "China"

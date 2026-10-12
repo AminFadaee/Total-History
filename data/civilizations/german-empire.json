@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q151624",
-    "region": "Germany",
-    "name": "German Confederation"
-  },
-  "after": {
-    "id": "Q41304",
-    "region": "Germany",
-    "name": "Weimar Republic"
-  },
+  "before": [
+    {
+      "id": "Q151624",
+      "region": "Germany",
+      "name": "German Confederation"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q41304",
+      "region": "Germany",
+      "name": "Weimar Republic"
+    }
+  ],
   "rulers": [
     {
       "id": "Q150652",

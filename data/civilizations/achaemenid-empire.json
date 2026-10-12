@@ -62,16 +62,35 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q620765",
-    "region": "Turkey",
-    "name": "Lydia"
-  },
-  "after": {
-    "id": "Q83958",
-    "region": "Iran",
-    "name": "Macedonian Empire"
-  },
+  "before": [
+    {
+      "id": "Q620765",
+      "region": "Turkey",
+      "name": "Lydia"
+    },
+    {
+      "id": "Q624887",
+      "region": "Iraq",
+      "name": "Neo-Babylonian Empire"
+    },
+    {
+      "id": "Q662410",
+      "region": "Egypt",
+      "name": "Twenty-sixth Dynasty of Egypt"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q83958",
+      "region": "Iran",
+      "name": "Macedonian Empire"
+    },
+    {
+      "id": "Q208404",
+      "region": "Armenia",
+      "name": "Kingdom of Armenia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q8423",

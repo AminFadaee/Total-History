@@ -46,16 +46,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q7183",
-    "region": "China",
-    "name": "Qin dynasty"
-  },
-  "after": {
-    "id": "Q320930",
-    "region": "China",
-    "name": "Cao Wei"
-  },
+  "before": [
+    {
+      "id": "Q7183",
+      "region": "China",
+      "name": "Qin dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q320930",
+      "region": "China",
+      "name": "Cao Wei"
+    }
+  ],
   "rulers": [
     {
       "id": "Q7210",

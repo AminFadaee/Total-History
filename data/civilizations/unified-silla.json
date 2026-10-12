@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q28456",
-    "region": "South Korea",
-    "name": "Silla"
-  },
-  "after": {
-    "id": "Q28208",
-    "region": "South Korea",
-    "name": "Goryeo"
-  },
+  "before": [
+    {
+      "id": "Q28456",
+      "region": "South Korea",
+      "name": "Silla"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q28208",
+      "region": "South Korea",
+      "name": "Goryeo"
+    }
+  ],
   "rulers": [
     {
       "id": "Q485818",

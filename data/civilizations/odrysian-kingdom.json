@@ -29,12 +29,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q83958",
-    "region": "Bulgaria",
-    "name": "Macedonian Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q83958",
+      "region": "Bulgaria",
+      "name": "Macedonian Empire"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Bulgaria",

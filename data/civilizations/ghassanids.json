@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q12490507",
-    "region": "Syria",
-    "name": "Rashidun Caliphate"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q12490507",
+      "region": "Syria",
+      "name": "Rashidun Caliphate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q2083483",

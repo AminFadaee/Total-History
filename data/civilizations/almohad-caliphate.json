@@ -38,16 +38,30 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q75613",
-    "region": "Morocco",
-    "name": "Almoravid Dynasty"
-  },
-  "after": {
-    "id": "Q582861",
-    "region": "Morocco",
-    "name": "Marinid Sultanate"
-  },
+  "before": [
+    {
+      "id": "Q75613",
+      "region": "Morocco",
+      "name": "Almoravid Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q582861",
+      "region": "Morocco",
+      "name": "Marinid Sultanate"
+    },
+    {
+      "id": "Q307697",
+      "region": "Algeria",
+      "name": "Zayyanid dynasty"
+    },
+    {
+      "id": "Q238445",
+      "region": "Spain",
+      "name": "Emirate of Granada"
+    }
+  ],
   "rulers": [
     {
       "id": "Q307312",

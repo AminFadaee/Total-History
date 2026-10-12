@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q231392",
-    "region": "Spain",
-    "name": "Kingdom of Asturias"
-  },
-  "after": {
-    "id": "Q217196",
-    "region": "Spain",
-    "name": "Crown of Castile"
-  },
+  "before": [
+    {
+      "id": "Q231392",
+      "region": "Spain",
+      "name": "Kingdom of Asturias"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q217196",
+      "region": "Spain",
+      "name": "Crown of Castile"
+    }
+  ],
   "rulers": [
     {
       "id": "Q235080",

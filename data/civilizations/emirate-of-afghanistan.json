@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q467627",
-    "region": "Afghanistan",
-    "name": "Durrani Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q467627",
+      "region": "Afghanistan",
+      "name": "Durrani Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q153620",

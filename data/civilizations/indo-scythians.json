@@ -46,16 +46,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q215643",
-    "region": "India",
-    "name": "Indo-Greeks"
-  },
-  "after": {
-    "id": "Q25979",
-    "region": "India",
-    "name": "Kushan Empire"
-  },
+  "before": [
+    {
+      "id": "Q215643",
+      "region": "India",
+      "name": "Indo-Greeks"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q25979",
+      "region": "India",
+      "name": "Kushan Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1911068",

@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q41642",
-    "region": "Tunisia",
-    "name": "Phoenicia"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q41642",
+      "region": "Tunisia",
+      "name": "Phoenicia"
+    }
+  ],
+  "after": [],
   "rulers": [],
   "modern_countries": [
     "Spain",

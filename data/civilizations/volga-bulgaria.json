@@ -37,12 +37,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q12557",
-    "region": "Russia",
-    "name": "Mongol Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q12557",
+      "region": "Russia",
+      "name": "Mongol Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q657805",

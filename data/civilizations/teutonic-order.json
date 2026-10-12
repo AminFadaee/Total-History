@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q153091",
-    "region": "Russia",
-    "name": "Duchy of Prussia"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q153091",
+      "region": "Russia",
+      "name": "Duchy of Prussia"
+    }
+  ],
   "rulers": [
     {
       "id": "Q57994",

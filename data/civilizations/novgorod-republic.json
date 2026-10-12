@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q170770",
-    "region": "Russia",
-    "name": "Grand Principality of Moscow"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q170770",
+      "region": "Russia",
+      "name": "Grand Principality of Moscow"
+    }
+  ],
   "rulers": [
     {
       "id": "Q174044",

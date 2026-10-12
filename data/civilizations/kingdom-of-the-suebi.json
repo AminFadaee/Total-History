@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q42834",
-    "region": "Portugal",
-    "name": "Western Roman Empire"
-  },
-  "after": {
-    "id": "Q126936",
-    "region": "Portugal",
-    "name": "Visigothic Kingdom"
-  },
+  "before": [
+    {
+      "id": "Q42834",
+      "region": "Portugal",
+      "name": "Western Roman Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q126936",
+      "region": "Portugal",
+      "name": "Visigothic Kingdom"
+    }
+  ],
   "rulers": [
     {
       "id": "Q364200",

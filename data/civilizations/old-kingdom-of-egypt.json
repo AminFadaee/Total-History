@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q187979",
-    "region": "Egypt",
-    "name": "Early Dynastic Period of Egypt"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q187979",
+      "region": "Egypt",
+      "name": "Early Dynastic Period of Egypt"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q174367",

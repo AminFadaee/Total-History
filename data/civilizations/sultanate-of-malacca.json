@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q49326",
-    "region": "Malaysia",
-    "name": "Majapahit"
-  },
-  "after": {
-    "id": "Q200464",
-    "region": "Malaysia",
-    "name": "Portuguese Empire"
-  },
+  "before": [
+    {
+      "id": "Q49326",
+      "region": "Malaysia",
+      "name": "Majapahit"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q200464",
+      "region": "Malaysia",
+      "name": "Portuguese Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q3363540",

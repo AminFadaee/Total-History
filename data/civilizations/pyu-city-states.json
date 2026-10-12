@@ -54,12 +54,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q888574",
-    "region": "Myanmar",
-    "name": "Pagan Kingdom"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q888574",
+      "region": "Myanmar",
+      "name": "Pagan Kingdom"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Myanmar"

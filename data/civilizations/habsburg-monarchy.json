@@ -29,12 +29,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q131964",
-    "region": "Austria",
-    "name": "Austrian Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q131964",
+      "region": "Austria",
+      "name": "Austrian Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q150966",

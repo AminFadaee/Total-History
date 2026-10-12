@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12536",
-    "region": "Syria",
-    "name": "Abbasid Caliphate"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q12536",
+      "region": "Syria",
+      "name": "Abbasid Caliphate"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q4164636",

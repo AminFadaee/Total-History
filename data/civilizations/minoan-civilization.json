@@ -13,12 +13,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q181264",
-    "region": "Greece",
-    "name": "Mycenaean Greece"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q181264",
+      "region": "Greece",
+      "name": "Mycenaean Greece"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Greece"

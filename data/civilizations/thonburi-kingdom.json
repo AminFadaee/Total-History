@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q841364",
-    "region": "Thailand",
-    "name": "Ayutthaya Kingdom"
-  },
-  "after": {
-    "id": "Q1155700",
-    "region": "Thailand",
-    "name": "Rattanakosin Kingdom"
-  },
+  "before": [
+    {
+      "id": "Q841364",
+      "region": "Thailand",
+      "name": "Ayutthaya Kingdom"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1155700",
+      "region": "Thailand",
+      "name": "Rattanakosin Kingdom"
+    }
+  ],
   "rulers": [
     {
       "id": "Q320097",

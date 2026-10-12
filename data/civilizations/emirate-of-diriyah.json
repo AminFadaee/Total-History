@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q146862",
-    "region": "Saudi Arabia",
-    "name": "Emirate of Nejd"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q146862",
+      "region": "Saudi Arabia",
+      "name": "Emirate of Nejd"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1319659",

@@ -29,12 +29,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q715257",
-    "region": "South Korea",
-    "name": "Unified Silla"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q715257",
+      "region": "South Korea",
+      "name": "Unified Silla"
+    }
+  ],
   "rulers": [
     {
       "id": "Q494525",

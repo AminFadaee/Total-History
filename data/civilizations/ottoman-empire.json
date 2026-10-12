@@ -54,16 +54,30 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q12544",
-    "region": "Turkey",
-    "name": "Byzantine Empire"
-  },
-  "after": {
-    "id": "Q43",
-    "region": "Turkey",
-    "name": "Republic of Turkey"
-  },
+  "before": [
+    {
+      "id": "Q12544",
+      "region": "Turkey",
+      "name": "Byzantine Empire"
+    },
+    {
+      "id": "Q12536",
+      "region": "Iraq",
+      "name": "Abbasid Caliphate"
+    },
+    {
+      "id": "Q420759",
+      "region": "Bulgaria",
+      "name": "Second Bulgarian Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q43",
+      "region": "Turkey",
+      "name": "Republic of Turkey"
+    }
+  ],
   "rulers": [
     {
       "id": "Q83100",

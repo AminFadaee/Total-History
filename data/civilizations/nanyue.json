@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q867227",
-    "region": "Vietnam",
-    "name": "Âu Lạc"
-  },
-  "after": {
-    "id": "Q7209",
-    "region": "China",
-    "name": "Han Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q867227",
+      "region": "Vietnam",
+      "name": "Âu Lạc"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q7209",
+      "region": "China",
+      "name": "Han Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q701895",

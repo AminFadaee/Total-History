@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q1475713",
-    "region": "Sudan",
-    "name": "Funj Sultanate"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q1475713",
+      "region": "Sudan",
+      "name": "Funj Sultanate"
+    }
+  ],
   "rulers": [],
   "modern_countries": [
     "Sudan"

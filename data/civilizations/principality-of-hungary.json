@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q193152",
-    "region": "Hungary",
-    "name": "Great Moravia"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q193152",
+      "region": "Hungary",
+      "name": "Great Moravia"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q606135",

@@ -46,16 +46,25 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q555994",
-    "region": "Iran",
-    "name": "Aq Qoyunlu"
-  },
-  "after": {
-    "id": "Q627449",
-    "region": "Iran",
-    "name": "Hotaki Dynasty"
-  },
+  "before": [
+    {
+      "id": "Q555994",
+      "region": "Iran",
+      "name": "Aq Qoyunlu"
+    },
+    {
+      "id": "Q484195",
+      "region": "Afghanistan",
+      "name": "Timurid Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q627449",
+      "region": "Iran",
+      "name": "Hotaki Dynasty"
+    }
+  ],
   "rulers": [
     {
       "id": "Q214559",

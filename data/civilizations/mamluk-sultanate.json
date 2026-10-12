@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q180114",
-    "region": "Egypt",
-    "name": "Ayyubid Sultanate"
-  },
-  "after": {
-    "id": "Q12560",
-    "region": "Egypt",
-    "name": "Ottoman Empire"
-  },
+  "before": [
+    {
+      "id": "Q180114",
+      "region": "Egypt",
+      "name": "Ayyubid Sultanate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12560",
+      "region": "Egypt",
+      "name": "Ottoman Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q464920",

@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q184536",
-    "region": "Mali",
-    "name": "Mali Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q184536",
+      "region": "Mali",
+      "name": "Mali Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q1771994",

@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q18234383",
-    "region": "Afghanistan",
-    "name": "Safavid Dynasty"
-  },
-  "after": {
-    "id": "Q63149558",
-    "region": "Afghanistan",
-    "name": "Afsharid Iran"
-  },
+  "before": [
+    {
+      "id": "Q18234383",
+      "region": "Afghanistan",
+      "name": "Safavid Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q63149558",
+      "region": "Afghanistan",
+      "name": "Afsharid Iran"
+    }
+  ],
   "rulers": [
     {
       "id": "Q558242",

@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q1143164",
-    "region": "China",
-    "name": "Western Wei"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q1143164",
+      "region": "China",
+      "name": "Western Wei"
+    }
+  ],
   "rulers": [
     {
       "id": "Q1149178",

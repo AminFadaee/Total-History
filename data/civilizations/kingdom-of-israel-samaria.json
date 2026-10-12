@@ -54,12 +54,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q10914393",
-    "region": "Palestine",
-    "name": "Neo-Assyrian Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q10914393",
+      "region": "Palestine",
+      "name": "Neo-Assyrian Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q313219",

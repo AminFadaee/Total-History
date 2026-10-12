@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q7352",
-    "region": "China",
-    "name": "Western Jin"
-  },
-  "after": {
-    "id": "Q62456",
-    "region": "China",
-    "name": "Southern Qi"
-  },
+  "before": [
+    {
+      "id": "Q7352",
+      "region": "China",
+      "name": "Western Jin"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q62456",
+      "region": "China",
+      "name": "Southern Qi"
+    }
+  ],
   "rulers": [
     {
       "id": "Q49702",

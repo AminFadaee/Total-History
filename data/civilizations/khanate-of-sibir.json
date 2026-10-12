@@ -38,12 +38,19 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q186096",
-    "region": "Russia",
-    "name": "Tsardom of Russia"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q186096",
+      "region": "Russia",
+      "name": "Tsardom of Russia"
+    },
+    {
+      "id": "Q577668",
+      "region": "Turkmenistan",
+      "name": "Khanate of Bukhara"
+    }
+  ],
   "rulers": [
     {
       "id": "Q138237",

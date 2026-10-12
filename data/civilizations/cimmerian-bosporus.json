@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q45813",
-    "region": "Russia",
-    "name": "Hunnic Empire"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q45813",
+      "region": "Russia",
+      "name": "Hunnic Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q3072504",

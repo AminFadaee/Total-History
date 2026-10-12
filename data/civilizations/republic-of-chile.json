@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q80702",
-    "region": "Chile",
-    "name": "Spanish Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q80702",
+      "region": "Chile",
+      "name": "Spanish Empire"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q28930",

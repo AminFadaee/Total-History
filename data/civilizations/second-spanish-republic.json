@@ -30,12 +30,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q13474305",
-    "region": "Spain",
-    "name": "Francoist Spain"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q13474305",
+      "region": "Spain",
+      "name": "Francoist Spain"
+    }
+  ],
   "rulers": [
     {
       "id": "Q313785",

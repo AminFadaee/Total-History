@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q2277",
-    "region": "Germany",
-    "name": "Roman Empire"
-  },
-  "after": {
-    "id": "Q2277",
-    "region": "Germany",
-    "name": "Roman Empire"
-  },
+  "before": [
+    {
+      "id": "Q2277",
+      "region": "Germany",
+      "name": "Roman Empire"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q2277",
+      "region": "Germany",
+      "name": "Roman Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q312672",

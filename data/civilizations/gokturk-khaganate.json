@@ -30,12 +30,19 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q26576",
-    "region": "Kyrgyzstan",
-    "name": "White Huns"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q26576",
+      "region": "Kyrgyzstan",
+      "name": "White Huns"
+    },
+    {
+      "id": "Q155361",
+      "region": "Mongolia",
+      "name": "Rouran Khaganate"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q2586994",

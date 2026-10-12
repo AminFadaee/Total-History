@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q627449",
-    "region": "Iran",
-    "name": "Hotaki Dynasty"
-  },
-  "after": {
-    "id": "Q467627",
-    "region": "Iran",
-    "name": "Durrani Empire"
-  },
+  "before": [
+    {
+      "id": "Q627449",
+      "region": "Iran",
+      "name": "Hotaki Dynasty"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q467627",
+      "region": "Iran",
+      "name": "Durrani Empire"
+    }
+  ],
   "rulers": [
     {
       "id": "Q192868",

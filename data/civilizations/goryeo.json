@@ -38,16 +38,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q715257",
-    "region": "North Korea",
-    "name": "Unified Silla"
-  },
-  "after": {
-    "id": "Q28179",
-    "region": "North Korea",
-    "name": "Joseon"
-  },
+  "before": [
+    {
+      "id": "Q715257",
+      "region": "North Korea",
+      "name": "Unified Silla"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q28179",
+      "region": "North Korea",
+      "name": "Joseon"
+    }
+  ],
   "rulers": [
     {
       "id": "Q334312",

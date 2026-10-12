@@ -30,12 +30,19 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q71084",
-    "region": "France",
-    "name": "First French Empire"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q71084",
+      "region": "France",
+      "name": "First French Empire"
+    },
+    {
+      "id": "Q154741",
+      "region": "Poland",
+      "name": "Confederation of the Rhine"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q7750",

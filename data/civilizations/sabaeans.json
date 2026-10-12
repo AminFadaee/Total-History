@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q289577",
-    "region": "Yemen",
-    "name": "Himyarite Kingdom"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q289577",
+      "region": "Yemen",
+      "name": "Himyarite Kingdom"
+    }
+  ],
   "rulers": [
     {
       "id": "Q16126069",

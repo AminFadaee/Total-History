@@ -30,16 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q8575586",
-    "region": "Algeria",
-    "name": "Umayyad Caliphate"
-  },
-  "after": {
-    "id": "Q160307",
-    "region": "Algeria",
-    "name": "Fatimid Caliphate"
-  },
+  "before": [
+    {
+      "id": "Q8575586",
+      "region": "Algeria",
+      "name": "Umayyad Caliphate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q160307",
+      "region": "Algeria",
+      "name": "Fatimid Caliphate"
+    }
+  ],
   "rulers": [
     {
       "id": "Q3147457",

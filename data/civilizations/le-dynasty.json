@@ -38,12 +38,14 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q9903",
-    "region": "Vietnam",
-    "name": "Ming Dynasty"
-  },
-  "after": {},
+  "before": [
+    {
+      "id": "Q9903",
+      "region": "Vietnam",
+      "name": "Ming Dynasty"
+    }
+  ],
+  "after": [],
   "rulers": [
     {
       "id": "Q1195391",

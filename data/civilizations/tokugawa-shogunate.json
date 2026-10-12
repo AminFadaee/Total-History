@@ -30,12 +30,20 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q188712",
-    "region": "Japan",
-    "name": "Empire of Japan"
-  },
+  "before": [
+    {
+      "id": "Q1154406",
+      "region": "Japan",
+      "name": "Ashikaga Shogunate"
+    }
+  ],
+  "after": [
+    {
+      "id": "Q188712",
+      "region": "Japan",
+      "name": "Empire of Japan"
+    }
+  ],
   "rulers": [
     {
       "id": "Q171977",

@@ -46,12 +46,14 @@
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q30",
-    "region": "United States",
-    "name": "United States of America"
-  },
+  "before": [],
+  "after": [
+    {
+      "id": "Q30",
+      "region": "United States",
+      "name": "United States of America"
+    }
+  ],
   "rulers": [
     {
       "id": "Q216547",
