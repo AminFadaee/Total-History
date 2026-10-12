@@ -8,7 +8,8 @@ MIN_NEW_WORDS = 2
 FILLER = {"the", "a", "an", "of", "from", "to", "and", "in", "ad", "bc", "bce", "ce"}
 COPULA = re.compile(r"\b(?:was|is|were)\s+", re.IGNORECASE)
 PARENTHESES = re.compile(r"\s*\([^()]*\)")
-SENTENCE_END = re.compile(r"(?:(?<=[a-z0-9\])])|(?<=\s[IVX]{2})|(?<=\s[IVX]{3})|(?<=\s[IVX]{4}))\.\s+(?=[A-Z])"
+SENTENCE_END = re.compile(r"(?:(?<=[a-z0-9\])])|(?<=\s[IVX]{2})|(?<=\s[IVX]{3})|(?<=\s[IVX]{4})|(?<=\s(?:AD|BC|CE))|(?<=\sBCE))"
+                          r"\.\s+(?=[A-Z])"
                           r"|(?<=\s[IVX])\.\s+(?=(?:He|She|His|Her|They|Their|The|In|After|During|It|As|Under)\b)")
 
 
