@@ -3,6 +3,7 @@ import math
 import re
 from collections import Counter
 from dataclasses import asdict, dataclass, field
+from enum import StrEnum
 
 import geopandas as gpd
 import shapely
@@ -15,6 +16,7 @@ from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_
 from page_in_history.sources.wikidata import Entity, Wikidata, entity_id, qualifier_year
 from page_in_history.sources.wikipedia import Infobox, Wikipedia, country_infobox, display_name, place_name
 from page_in_history.regions import home, regions
+from page_in_history.sentences import contribution, first_paragraph
 from page_in_history.succession import RegionalSuccession
 
 POLITY_ROOTS = {
@@ -45,12 +47,30 @@ LARGE_PEAK_KM2 = 2_000_000
 SHARED_TOLERANCE_YEARS = 25
 # head of state, monarch, emperor, king, president (two items)
 HEAD_OF_STATE_CLASSES = {"Q48352", "Q116", "Q39018", "Q12097", "Q248577", "Q30461", "Q111840950"}
-MIN_OFFICE_RULERS, SHOWN_RULERS = 3, 4
+SHOWN_RULERS, RULER_FAME_SHARE, ADULT_YEARS = 4, 3, 20
+KNOWN_NEIGHBOUR_LANGUAGES = 40
+SAME_PLACE_KM = 5
+STEM_LETTERS = 5
+CORE_LANGUAGES, CORE_FIGURES = 50, 3
+TIER_KINDS = {"Q41710": "people", "Q4204501": "people", "Q8432": "state", "Q2718886": "state", "Q3024240": "state",
+              "Q7275": "state", "Q417175": "state", "Q48349": "state"}  # peoples; civilizations and states
+DECADE_PRECISION = 8
+SAME_NAME_WORDS = {"dynasty", "of", "the", "kingdom", "crown", "electorate", "principality", "duchy", "grand", "emirate",
+                   "khanate", "caliphate", "sultanate"}
+RULING_TITLES = (r"king|queen|emperor|empress|sultan|sultana|shah|shahanshah|caliph|khan|khagan|qaghan|pharaoh|tsar|tsarina|czar"
+                 r"|president|shogun|shōgun|chanyu|mansa|emir|amir|negus|tlatoani|huey tlatoani|sapa inca|doge|grand duke"
+                 r"|grand prince|monarch|ruler of|leader of|founder of|dictator|raja|maharaja|nizam|peshwa|khedive|basileus"
+                 r"|duke of|prince of|archduke|elector|consul")
+RULING_ROLE = re.compile(rf"^(?:[\w'’.-]+\s+){{0,3}}?(?:{RULING_TITLES})\b", re.IGNORECASE)
+NOT_RULING = re.compile(r"\b(?:consort|regent|wife|mother|daughter|son of|heir|pretender|claimant|crown prince|spiritual"
+                        r"|religious|reformation|reformer|\w+ism|rebel\w*|uprising|revolt|revolution\w*|independence)\b",
+                        re.IGNORECASE)
+ROLE_YEAR = re.compile(r"\b(\d{3,4})\b(?!\s*BC)")
 REPEATED_MAP_YEARS, REPEATED_MAP_OVERLAP = 30, 0.85
 FOLD_VITAL_LEVEL = 4
 DYNASTY = "Q164950"
 GENERIC_WORDS = {"sultanate", "empire", "kingdom", "dynasty", "of", "the", "caliphate", "republic", "state"}
-LASTING_PEAK_KM2, LASTING_YEARS, LASTING_LANGUAGES = 250_000, 50, 30
+LASTING_AREA_YEARS, LASTING_LANGUAGES, COLONIAL_ERA = 12_500_000, 30, 1500
 LIVING_ON_MAP_BEFORE = 1930
 HUMAN = "Q5"
 ASSUMED_LIFESPAN = 70
@@ -101,6 +121,12 @@ class Period:
     start: Span | None
     end: Span | None
     confirmed: bool
+    core: list[int] | None = None
+
+
+class Tier(StrEnum):
+    CORE = "Core"
+    EXTENDED = "Extended"
 
 
 @dataclass
@@ -119,6 +145,8 @@ class Polity:
     modern_countries: list[str] = field(default_factory=list)
     overseas_countries: list[str] = field(default_factory=list)
     borders: bool = True
+    summary: str = ""
+    tier: str = ""
     map: str = ""
     map_asked: bool = True
     checks: dict = field(default_factory=dict)
@@ -144,11 +172,19 @@ def sparql_year(value: str | None) -> int | None:
     return (-1 if match.group(1) else 1) * int(match.group(2)) if match else None
 
 
+def stems(name: str) -> set[str]:
+    """The first five letters of each distinctive word of a name, without the kind of state and joining words, so
+    'Babylon' meets 'Babylonia' and 'Egyptian' meets 'Egypt': {'ottom'} for the Ottoman Empire."""
+    words = set(re.findall(r"\w+", name.lower())) - SAME_NAME_WORDS - {"empire", "republic", "state", "dynasty", "and", "from", "to"}
+    return {word[:STEM_LETTERS] for word in words if not word.isdigit()}
+
+
 def same_name(first: str, second: str) -> bool:
-    """The two names are the same once "dynasty" and brackets are set aside, as Qin and the Qin dynasty, or the
-    Kingdom of Naples and the Kingdom of Naples (Napoleonic), so asking one for the other gives the answer away. Words
-    for the kind of state stay, since they tell the Roman Republic from the Roman Empire."""
-    words = lambda name: set(re.findall(r"\w+", re.sub(r"\(.*?\)", "", name).lower())) - {"dynasty", "of", "the"}
+    """The two names are the same once "dynasty", a monarch's rank (kingdom, crown, electorate, principality, duchy,
+    emirate, khanate, caliphate, sultanate) and brackets are set aside, as Qin and the Qin dynasty, the Kingdom and
+    the Crown of Castile, or the Kingdom of Naples and the Kingdom of Naples (Napoleonic), so asking one for the other
+    gives the answer away. A change of form stays, since it tells the Roman Republic from the Roman Empire."""
+    words = lambda name: set(re.findall(r"\w+", re.sub(r"\(.*?\)", "", name).lower())) - SAME_NAME_WORDS
     return bool(words(first)) and words(first) == words(second)
 
 
@@ -451,6 +487,7 @@ class PolityBuilder:
         self.wikidata = catalog.wikidata
         self.countries = equal_area(countries)
         self.succession = RegionalSuccession(self.cliopatria.frame, catalog.qids, countries, self._stated, equal_area)
+        self.founded_early: set[str] = set()
 
     def select(self, region: str, start: int, end: int) -> list[Identity]:
         area = self.countries[self.countries.name == region].geometry.union_all()
@@ -476,6 +513,9 @@ class PolityBuilder:
         kinds = self.wikidata.kinds(qids, KINDS)
         selected = [identity for identity in identities
                     if self._notable(identity, editions.get(identity.qid, 0), levels.get(identity.qid), kinds[identity.qid])]
+        chosen = {identity.qid for identity in selected}
+        selected = [identity for identity in selected if identity.qid not in self.founded_early
+                    or not set(self.catalog.entities[identity.qid].ids("P1365", "P155", preferred_only=False)) & chosen]
         selected += self._mapless(levels, selected)
         selected = [identity for identity in selected if self.catalog.years(identity.qid)[0] < LATEST_START]
         return sorted(selected, key=lambda identity: self.catalog.years(identity.qid)[0])
@@ -530,11 +570,29 @@ class PolityBuilder:
                  for year in range(max(int(start), first), min(int(end), last) + 1)}
         return len(years) / (last - first + 1)
 
+    def _founded_early(self, identity: Identity, entity: Entity, rows: gpd.GeoDataFrame) -> bool:
+        """A state that still exists but that Cliopatria first draws after 1929 qualifies when Wikidata dates its
+        founding before 1930, Cliopatria draws it by 1945, the land around its capital reached 2 million km² and it
+        does not continue a state already chosen: Canada (1867) and Argentina (1816), not Denmark, which is that large
+        only with Greenland. The last test is made once all are chosen."""
+        founded = [year.earliest for year in entity.years("P571")]
+        if not founded or min(founded) >= LIVING_ON_MAP_BEFORE or rows.FromYear.min() > LATEST_START:
+            return False
+        largest = rows.loc[rows.Area.idxmax()].geometry
+        found = regions(largest)
+        location = entity.coordinates()
+        region = home(found, [location] if location else [])
+        if equal_area_shape(region.geometry, self.cliopatria.frame.crs).area / 1e6 < LIVING_PEAK_KM2:
+            return False
+        self.founded_early.add(identity.qid)
+        return True
+
     def _notable(self, identity: Identity, languages: int, level: int | None, kinds: set[str]) -> bool:
         """Listed as vital at level 4 or above, in at least 60 languages, at level 5 with 45 languages or a peak of
-        1 million km², at a peak of 2 million km² without being a colony, or a large and lasting state: a peak of
-        250,000 km² drawn for 50 years or more, in at least 30 languages and not a colony (the Kamakura shogunate,
-        Northern Wei, the Neo-Babylonian Empire). A sovereign state that still exists
+        1 million km², at a peak of 2 million km² without being a colony, or a large and lasting state: its drawn area
+        summed over its years reaching 12.5 million km²·years (250,000 km² for 50 years), with a peak of at least
+        50,000 km² and an article in at least 30 languages, not a colony (the Kamakura shogunate, Shu Han, Funan).
+        Wikidata's colony class counts only from 1500, since it also marks the Teutonic Order and the Ostrogoths. A sovereign state that still exists
         qualifies only if it was on the maps before 1930 and reached 2 million km², as the United States did. Any
         other polity without an end date must be filed as historical, since Cliopatria sometimes links an old polity
         to today's place, such as the island of Rhodes, and today's provinces and towns never qualify."""
@@ -545,29 +603,33 @@ class PolityBuilder:
             if "subdivision" in kinds or ("settlement" in kinds and "city-state" not in kinds):
                 return False
             if "sovereign state" in kinds:
-                if rows.FromYear.min() >= LIVING_ON_MAP_BEFORE or peak < LIVING_PEAK_KM2:
+                if rows.FromYear.min() < LIVING_ON_MAP_BEFORE:
+                    if peak < LIVING_PEAK_KM2:
+                        return False
+                elif not self._founded_early(identity, entity, rows):
                     return False
             elif "historical" not in kinds and identity.how != CULTURE:
                 return False
         level = level or MAX_VITAL_LEVEL + 2
+        colony = "colony" in kinds and rows.FromYear.min() >= COLONIAL_ERA
         return (level <= MAX_VITAL_LEVEL or languages >= MIN_LANGUAGE_EDITIONS
                 or (level == MAX_VITAL_LEVEL + 1 and (languages >= LEVEL_5_LANGUAGES or peak >= LEVEL_5_PEAK_KM2))
-                or (peak >= LARGE_PEAK_KM2 and "colony" not in kinds)
-                or (peak >= LASTING_PEAK_KM2 and rows.ToYear.max() - rows.FromYear.min() + 1 >= LASTING_YEARS
-                    and languages >= LASTING_LANGUAGES and "colony" not in kinds))
+                or (peak >= LARGE_PEAK_KM2 and not colony)
+                or (peak >= MIN_PEAK_AREA_KM2 and languages >= LASTING_LANGUAGES and not colony
+                    and float((rows.Area * (rows.ToYear - rows.FromYear + 1)).sum()) >= LASTING_AREA_YEARS))
 
     def mark_repeated_maps(self, polities: list[Polity]) -> None:
         """A short regime drawn almost exactly like a neighbouring one in time is not asked from its map, since only
         the year would tell them apart: France's Second Republic and Second Empire, Mexico's centralist and federal
         republics. It lasted 30 years or less, its largest shape and an adjacent civilization's overlap by 85% or
-        more (intersection over union), and the two lie within 30 years of each other."""
+        more (intersection over union) at their map years, and the two lie within 30 years of each other."""
         shapes = {}
         for polity in polities:
             rows = self.cliopatria.rows(polity.name)
-            if polity.borders and not rows.empty:
-                largest = rows.loc[rows.Area.idxmax()]
-                shapes[polity.name] = (equal_area_shape(largest.geometry, self.cliopatria.frame.crs).buffer(0),
-                                       int(rows.FromYear.min()), int(rows.ToYear.max()))
+            shown = rows[(rows.FromYear <= polity.map_year) & (rows.ToYear >= polity.map_year)]
+            if polity.borders and not shown.empty:
+                shapes[polity.name] = (equal_area_shape(shapely.union_all(shown.geometry.values), self.cliopatria.frame.crs)
+                                       .buffer(0), int(rows.FromYear.min()), int(rows.ToYear.max()))
         for polity in polities:
             if polity.name not in shapes:
                 continue
@@ -605,7 +667,14 @@ class PolityBuilder:
         towns = sorted({town for ids in self.located.values() for town in ids})
         self.names.update(self.wikidata.entities(towns))
         self.towns = {qid for qid, found in self.wikidata.kinds(towns, roots).items() if "settlement" in found}
+        self.introductions = self.wikipedia.introductions([identity.title for identity in identities])
         return [self._polity(identity, self.infoboxes[identity.qid]) for identity in identities]
+
+    def _summary(self, identity: Identity) -> str:
+        """What the civilization was: the opening sentence of its article without its subject, by the rule used for
+        what a figure is known for ("The third caliphate to succeed the Islamic prophet Muhammad.")."""
+        extract, description = self.introductions.get(identity.title, ("", None))
+        return contribution(first_paragraph(extract), identity.name, description)
 
     def _capital_edges(self, entity: Entity) -> tuple:
         """Where its first and last capitals stood, when Wikidata dates at least two of them."""
@@ -621,15 +690,18 @@ class PolityBuilder:
         return min(dated)[2], max(dated, key=lambda found: (found[1], found[0]))[2]
 
     def restrict_neighbours(self, polities: list[Polity]) -> None:
-        """Once the deck is known, a civilization before or after one must be in it, so every answer is one the
-        learner studies: the nearest confirmed holder in the deck is taken instead."""
+        """Once the deck is known, a civilization before or after one must be in it or be well known (an article in
+        at least 40 Wikipedia languages, as the Median Kingdom is), so no answer is obscure: otherwise the nearest
+        confirmed holder that is takes its place."""
         deck = {polity.id for polity in polities}
+        editions = self.wikidata.language_editions(list(self.catalog.by_qid))
+        known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
         for polity in polities:
-            if (polity.before and polity.before["id"] not in deck) or (polity.after and polity.after["id"] not in deck):
+            if (polity.before and not known(polity.before["id"])) or (polity.after and not known(polity.after["id"])):
                 entity = self.catalog.entities[polity.id]
                 before, after, _ = self.succession.neighbours(
                     polity.id, polity.capitals, self._capital_edges(entity),
-                    lambda other: other in deck and not same_name(polity.name, self._name(other)))
+                    lambda other: known(other) and not same_name(polity.name, self._name(other)))
                 polity.before, polity.after = self._named(before), self._named(after)
 
     def _stated(self, first: str, last: str) -> bool:
@@ -651,8 +723,8 @@ class PolityBuilder:
     def _capitals(self, entity: Entity, infobox: Infobox, rows) -> list[dict]:
         """Capitals that Wikidata and the infobox both name: the same item, or two items for the same place within
         25 km, as when Wikidata names the prefecture Shuntian Fu and the infobox the city of Beijing. They are shown
-        under the name of the place Wikidata lists, once per place (Bursa rather than the infobox's Prusa, Ayutthaya
-        rather than its historical park), or the infobox's name when Wikidata's item is wider than a place. An item that
+        under the name of the place Wikidata lists, once per place (Bursa rather than the infobox's Prusa, Ayutthaya rather
+        than its historical park); capitals 5 km or more apart are separate places, as Venice and Malamocco are, or the infobox's name when Wikidata's item is wider than a place. An item that
         is not a settlement, such as a historical park or an archaeological site (Ayutthaya Historical Park, Abbasid
         Samarra), is shown as the town it lies in when that town is within 25 km. A state is never a capital, though a city that Wikidata also files as an administrative
         unit, like Paris or Berlin, is. When the two sources share none, a capital either names counts if it lies in the
@@ -676,9 +748,10 @@ class PolityBuilder:
                          and kilometres(location, self.names[town].coordinates()) <= CAPITAL_MATCH_KM), None)
             if town:
                 capital = {**self._capital(town), "location": location}
-            repeated = bool(location) and any(found["location"] and kilometres(location, found["location"]) <= CAPITAL_MATCH_KM
-                                              for found in capitals)
-            if (qid in listed or nearby) and not repeated and capital["name"] not in {found["name"] for found in capitals}:
+            if not (qid in listed or nearby) or capital["name"] in {found["name"] for found in capitals}:
+                continue
+            if not any(location and found["location"] and kilometres(location, found["location"]) <= SAME_PLACE_KM
+                       for found in capitals):
                 capitals.append(capital)
         if capitals or rows.empty:
             return capitals
@@ -738,10 +811,11 @@ class PolityBuilder:
             parts=parts,
             before=self._named(before),
             after=self._named(after),
-            rulers=self._office_rulers(identity.qid, period, first, last) or self._rulers(identity.qid, self._qids(infobox.leaders)),
+            rulers=self._rulers(identity.qid, self._qids(infobox.leaders))[:SHOWN_RULERS],
             modern_countries=modern[0],
             overseas_countries=modern[1],
             borders=drawn,
+            summary=self._summary(identity),
         )
         polity.checks = {
             "infobox": bool(infobox.start or infobox.capital or infobox.leaders),
@@ -754,15 +828,20 @@ class PolityBuilder:
         return polity
 
     def _peak(self, name: str, parts: list[str], rows: gpd.GeoDataFrame, period: Period, capitals: list[dict]):
-        """The year of the largest extent, looking only inside the confirmed period when there is one, counted with the
-        parts Wikidata lists (Spain for the Spanish Empire) and preferring years when the civilization holds a capital,
-        so that a year of foreign occupation is not shown; with that year's territory."""
+        """The year of the largest extent, looking only inside the confirmed period when there is one (a map that begins
+        before it is shown from its first year) and up to 1945 where the civilization was drawn by then, counted with
+        the parts Wikidata lists (Spain for the Spanish Empire) and preferring years when the civilization holds a
+        capital, so that a year of foreign occupation is not shown; with that year's territory."""
+        first = None
         if period.confirmed:
             within = rows[(rows.ToYear >= period.start.earliest) & (rows.FromYear <= period.end.latest)]
-            rows = within if not within.empty else rows
+            if not within.empty:
+                rows, first = within, period.start.earliest
+        historical = rows[rows.FromYear <= LATEST_START]
+        rows = historical if not historical.empty else rows
         points = [Point(capital["location"]) for capital in capitals if capital["location"]]
         snapshots = []
-        for year in sorted({int(year) for year in rows.FromYear}):
+        for year in sorted({max(int(year), first) if first is not None else int(year) for year in rows.FromYear}):
             territory = self.cliopatria.at(year)
             territory = territory[territory.Name.isin([name, *parts])]
             shape = territory.geometry.union_all()
@@ -783,32 +862,141 @@ class PolityBuilder:
         end = vote({"infobox": infobox.end, "wikidata": dissolution.as_span() if dissolution else None,
                     "cliopatria": Span(clio_end, clio_end) if clio_end is not None else None},
                    tolerances(reference(clio_end, dissolution, infobox.end)))
-        return Period(start, end, start is not None and end is not None)
+        confirmed = start is not None and end is not None
+        return Period(start, end, confirmed, None if confirmed else self._agreed_core(entity, infobox, clio_start, clio_end))
 
-    def _office_rulers(self, polity_qid: str, period: Period, first: int, last: int) -> list[dict]:
-        """The four best-known holders of the state's head-of-state office (its own, or an office Wikidata classes as
-        head of state, monarch, emperor, king or president for it) whose term falls within its period and began before
-        1945, in order of their terms: Osman I, Mehmed II, Suleiman the Magnificent and Abdul Hamid II for the Ottomans.
-        Fewer than three such holders is too thin a record, and the infobox's leaders stand in."""
-        start = period.start.earliest if period.confirmed else first
-        end = min(period.end.latest if period.confirmed else last, LATEST_START - 1)
+    @staticmethod
+    def _agreed_core(entity: Entity, infobox: Infobox, clio_start: int | None, clio_end: int | None) -> list[int] | None:
+        """When the sources disagree on its dates, the years they all grant, rounded out to whole centuries: Wikidata's
+        dates (each a single value, known to the decade or better) within Cliopatria's drawn years and the infobox's,
+        "c. 1600–1400 BC" for the Minoans. Nothing when Wikidata lacks such dates or the sources share no years."""
+        starts = entity.years("P571") + entity.years("P580")
+        ends = entity.years("P576") + entity.years("P582")
+        if clio_start is None or clio_end is None or len({year.value for year in starts}) != 1 \
+                or len({year.value for year in ends}) != 1 or min(year.precision for year in starts + ends) < DECADE_PRECISION:
+            return None
+        first, last = max(starts[0].value, clio_start), min(ends[0].value, clio_end)
+        if infobox.start and infobox.end:
+            first, last = max(first, infobox.start.earliest), min(last, infobox.end.latest)
+        if first > last:
+            return None
+        return [math.floor(first / 100) * 100, math.ceil(last / 100) * 100]
+
+    def assign_tiers(self, polities: list[Polity], figures: list) -> None:
+        """Core for what every learner should meet: listed as vital (levels 1–5), an article in at least 50 Wikipedia
+        languages unless it is only a people (the Goths, the Saxons), or home to at least three of the deck's figures.
+        Extended for the rest (Chen, Shirvan, Mexico's interim republics), which a learner may suspend."""
+        names = {polity.name for polity in polities}
+        homes = Counter(next((name for name in figure.civilizations if name in names), None) for figure in figures)
+        qids = [polity.id for polity in polities]
+        editions = self.wikidata.language_editions(qids)
+        kinds = self.wikidata.kinds(qids, TIER_KINDS)
+        for polity in polities:
+            level = self.catalog.vital_levels.get(polity.id)
+            only_people = kinds.get(polity.id, set()) == {"people"}
+            core = (level is not None and level <= MAX_VITAL_LEVEL + 1) or homes[polity.name] >= CORE_FIGURES \
+                or (editions.get(polity.id, 0) >= CORE_LANGUAGES and not only_people)
+            polity.tier = Tier.CORE if core else Tier.EXTENDED
+
+    def choose_rulers(self, polities: list[Polity], figures: list) -> None:
+        """A civilization's notable rulers, once its figures are known: the best-known people (by the number of Wikipedia
+        languages) among those Wikidata records as its head of state (P35, within its period), members of the
+        dynasty it is (P53) who held an office, holders of its own head-of-state office, and its own figures
+        whose role begins with a ruling title (king, sultan, emperor, shogun…, not a consort, regent or rebel) and
+        either names the state or its main modern country, or goes with an office vote for it, so the president of
+        a breakaway state is not counted. All must have ruled or lived within its period and before 1945. Up to four, in
+        order of their time, dropping any known in fewer than a third as many languages as the best known.
+        Someone holding the head office of several states counts for the one they held it longest (Philip II for
+        Spain, not Portugal) unless the state itself names them as its head of state, and a figure whose role
+        dates their rule after 1944 not at all. The infobox's leaders stay when none of these is found."""
+        by_home: dict[str, list] = {}
+        names = {polity.name for polity in polities}
+        for figure in figures:
+            home = next((name for name in figure.civilizations if name in names), None)
+            role = figure.role or ""
+            year = ROLE_YEAR.search(role)
+            if home and RULING_ROLE.match(role) and not NOT_RULING.search(role) \
+                    and (not year or int(year.group(1)) < LATEST_START):
+                by_home.setdefault(home, []).append(figure)
+        held: dict[str, dict[str, int]] = {}
+        gathered: dict[str, dict[str, int]] = {}
+        named: dict[str, set[str]] = {}
+        for polity in polities:
+            entity = self.catalog.entities[polity.id]
+            first, last = self.catalog.years(polity.id) if polity.id in self.catalog.by_qid else (None, None)
+            start = polity.period.start.earliest if polity.period.confirmed else first
+            end = polity.period.end.latest if polity.period.confirmed else last
+            if start is None or end is None:
+                continue
+            end = min(end, LATEST_START - 1)
+            found: dict[str, int] = {}
+            for claim in entity.statements("P35", preferred_only=False):
+                person = claim["mainsnak"].get("datavalue", {}).get("value", {}).get("id")
+                began, ended = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
+                began, ended = began if began is not None else ended, ended if ended is not None else began
+                if person and began is not None and began <= end and ended >= start:
+                    found[person] = min(began, found.get(person, began))
+                    named.setdefault(polity.id, set()).add(person)
+            for person, (began, years) in self._office_terms(polity.id, start, end).items():
+                found[person] = min(began, found.get(person, began))
+                held.setdefault(person, {})[polity.id] = max(held.get(person, {}).get(polity.id, 0), years)
+            for person, began in self._dynasty_members(polity.id, start, end).items():
+                found.setdefault(person, began)
+            land = stems(polity.name) | stems(polity.modern_countries[0] if polity.modern_countries else "")
+            for figure in by_home.get(polity.name, []):
+                offices = (getattr(figure, "checks", {}) or {}).get("civilization_votes", {}).get("office", [])
+                if polity.name not in offices and not land & stems(figure.role):
+                    continue
+                adult = figure.lifetime[0] + ADULT_YEARS
+                if adult <= end and figure.lifetime[1] >= start and adult < LATEST_START:
+                    found.setdefault(figure.id, adult)
+            gathered[polity.id] = found
+        for polity in polities:
+            found = {person: began for person, began in gathered.get(polity.id, {}).items()
+                     if person in named.get(polity.id, ()) or person not in held or polity.id not in held[person]
+                     or held[person][polity.id] >= max(held[person].values())}
+            people = self.wikidata.entities([qid for qid in found if qid not in self.names])
+            self.names.update(people)
+            found = {qid: year for qid, year in found.items()
+                     if qid in self.names and HUMAN in self.names[qid].ids("P31", preferred_only=False)}
+            if not found:
+                continue
+            editions = self.wikidata.language_editions(list(found))
+            best = sorted(found, key=lambda qid: (-editions.get(qid, 0), qid))[:SHOWN_RULERS]
+            floor = editions.get(best[0], 0) / RULER_FAME_SHARE
+            best = [qid for qid in best if editions.get(qid, 0) >= floor]
+            polity.rulers = [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=lambda qid: found[qid])]
+
+    def _office_terms(self, polity_qid: str, start: int, end: int) -> dict[str, tuple[int, int]]:
+        """Holders of the state's own head-of-state office, or of an office Wikidata classes as head of state, monarch,
+        emperor, king or president whose jurisdiction is the state, with a term within the years: when the first
+        began, and how many years they held it."""
         rows = self.wikidata.query(f"""SELECT DISTINCT ?person ?start ?end WHERE {{
-          {{ wd:{polity_qid} wdt:P1906 ?office }} UNION {{ ?office wdt:P1001|wdt:P17 wd:{polity_qid} .
+          {{ wd:{polity_qid} wdt:P1906 ?office }} UNION {{ ?office wdt:P1001 wd:{polity_qid} .
              ?office wdt:P279 ?kind . VALUES ?kind {{ {" ".join(f"wd:{kind}" for kind in sorted(HEAD_OF_STATE_CLASSES))} }} }}
           ?person p:P39 ?held . ?held ps:P39 ?office .
           OPTIONAL {{ ?held pq:P580 ?start }} OPTIONAL {{ ?held pq:P582 ?end }} }}""")
-        terms: dict[str, list[int]] = {}
+        terms: dict[str, tuple[int, int]] = {}
         for row in rows:
             began, ended = sparql_year(row.get("start")), sparql_year(row.get("end"))
             began, ended = began if began is not None else ended, ended if ended is not None else began
             if began is not None and began <= end and ended >= start:
-                terms.setdefault(entity_id(row["person"]), []).append(began)
-        if len(terms) < MIN_OFFICE_RULERS:
-            return []
-        editions = self.wikidata.language_editions(list(terms))
-        best = sorted(terms, key=lambda qid: (-editions.get(qid, 0), qid))[:SHOWN_RULERS]
-        self.names.update(self.wikidata.entities([qid for qid in best if qid not in self.names]))
-        return [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=lambda qid: min(terms[qid]))]
+                person = entity_id(row["person"])
+                first, years = terms.get(person, (began, 0))
+                terms[person] = (min(first, began), years + ended - began + 1)
+        return terms
+
+    def _dynasty_members(self, polity_qid: str, start: int, end: int) -> dict[str, int]:
+        """Members of the family the item is (a dynasty such as the Zengids) who held an office and lived as adults
+        within the years: when their adult life began."""
+        rows = self.wikidata.query(f"""SELECT DISTINCT ?person ?born WHERE {{
+          ?person wdt:P53 wd:{polity_qid} ; wdt:P39 ?office . OPTIONAL {{ ?person wdt:P569 ?born }} }}""")
+        members: dict[str, int] = {}
+        for row in rows:
+            born = sparql_year(row.get("born"))
+            if born is not None and born + ADULT_YEARS <= end and born + ASSUMED_LIFESPAN >= start:
+                members[entity_id(row["person"])] = born + ADULT_YEARS
+        return members
 
     def _rulers(self, polity_qid: str, leaders: list[str]) -> list[dict]:
         """Infobox leaders that Wikidata also records as holding an office of the polity, or files as people who lived
@@ -831,7 +1019,8 @@ class PolityBuilder:
         """Today's countries in the territory, largest share first: those in the region around the capital (land
         within 800 km of it, as the map groups it; its Wikidata location when it has no capital, as for Phoenicia),
         then those only overseas, such as the protectorates Cliopatria draws as the United Kingdom. A dependency
-        counts as its sovereign at home but keeps its own name overseas (Greenland, Macao, New Caledonia)."""
+        counts as its sovereign at home but keeps its own name overseas (Greenland, Macao, New Caledonia). An empire
+        drawn without its homeland, its capital outside the territory (the British Empire), has no home to split off."""
         shape = equal_area_shape(geometry, self.cliopatria.frame.crs)
         found: dict[str, float] = {}
         units: dict[str, dict[str, float]] = {}
@@ -842,7 +1031,11 @@ class PolityBuilder:
                 units.setdefault(country.listed_as, {})[country.name] = overlap
         ranked = sorted(found, key=found.get, reverse=True)
         points = [capital["location"] for capital in capitals if capital["location"]] or ([location] if location else [])
-        home_region = equal_area_shape(home(regions(geometry), points).geometry, self.cliopatria.frame.crs)
+        found = regions(geometry)
+        if points and not any(region.geometry.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(point))
+                              for region in found for point in points):
+            return ranked, []
+        home_region = equal_area_shape(home(found, points).geometry, self.cliopatria.frame.crs)
         nearby = self.countries[self.countries.listed & self.countries.intersects(home_region)]
         at_home = [country for country in nearby.itertuples() if country.geometry.intersection(home_region).area > 0]
         sovereigns, names = {country.listed_as for country in at_home}, {country.name for country in at_home}

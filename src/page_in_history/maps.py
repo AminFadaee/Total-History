@@ -34,6 +34,7 @@ DPI = 160
 PADDING = 0.35
 MIN_SPAN_METERS = 900_000
 MIN_PANEL_SHARE = 0.10
+OUTSIDE_CAPITAL_MARGIN_DEGREES = 2
 MAX_PANELS = 3
 WORLD_SCALE_DEGREES = 120
 RING_SHARE = 0.005
@@ -231,13 +232,20 @@ class MapRenderer:
 
     def render(self, job: MapJob) -> list[str]:
         """Draws the civilization at its year, with the parts Wikidata lists for it, around its home region and with up
-        to three other large regions as panels beside it; capitals are starred only where it holds them that year.
+        to three other large regions as panels beside it; capitals are starred only where it holds them that year. An
+        empire Cliopatria draws without its homeland (the British Empire without Britain) is framed on the region
+        nearest its capital, widened to show the capital, which is starred.
         Returns the polities that got a label on the main map."""
         name, year, polities, parts = job.name, job.year, job.polities, job.parts
         territory = polities[polities.Name.isin([name, *parts])].geometry.union_all()
         capitals = [capital for capital in job.capitals if territory.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital))]
         found = regions(territory)
         main = home(found, capitals)
+        if not capitals and job.capitals:
+            capital = Point(job.capitals[0])
+            nearest = min(found, key=lambda region: region.geometry.distance(capital))
+            main = Region(nearest.geometry.union(capital.buffer(OUTSIDE_CAPITAL_MARGIN_DEGREES)), nearest.share)
+            capitals = [job.capitals[0]]
         panels = [region for region in found if region is not main and region.share >= MIN_PANEL_SHARE][:MAX_PANELS]
         image, labelled = self._draw(Scene(self, name, polities, main.geometry, territory, parts), year, capitals,
                                      panel=False)

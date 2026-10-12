@@ -86,6 +86,8 @@ class RegionalSuccession:
         return {}
 
     def _anchor(self, rows: gpd.GeoDataFrame, capitals: list[dict]) -> Anchor:
+        """The capital held longest, or the spot held for the most years when it holds none; an empire Cliopatria draws
+        without its homeland is still named by its capital's country ("in Spain", not "in Cuba")."""
         held = []
         for capital in capitals:
             if capital["location"]:
@@ -98,6 +100,9 @@ class RegionalSuccession:
             point = self._on_land(point, near)
         else:
             point, place = self._heartland(rows), ""
+            located = [Point(capital["location"]) for capital in capitals if capital["location"]]
+            if located:
+                return Anchor(point, place, self._country(located[0]))
         return Anchor(point, place, self._country(point))
 
     @staticmethod

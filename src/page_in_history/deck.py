@@ -92,6 +92,16 @@ def asked_picture(document: dict) -> tuple[str, str] | None:
     return None
 
 
+def period_text(period: dict) -> str:
+    """The confirmed period, or the centuries the sources agree on, marked as approximate."""
+    if period["confirmed"]:
+        return period_label(Span(**period["start"]), Span(**period["end"]))
+    if period.get("core"):
+        first, last = period["core"]
+        return period_label(Span(first, first, True), Span(last, last, True))
+    return ""
+
+
 def conditional(field: str, content: str) -> str:
     return f"{{{{#{field}}}}}{content}{{{{/{field}}}}}"
 
@@ -121,8 +131,8 @@ def info(*lines: tuple[str, str]) -> str:
 
 
 CIVILIZATION_TITLE = '{{Name}}<div class="subtitle">{{Period}}</div>'
-CIVILIZATION_INFO = info(("Capital", "Capital"), ("Notable rulers", "Rulers"), ("Before", "Before"),
-                         ("After", "After"), ("Today", "ModernCountries"))
+CIVILIZATION_INFO = info(("What", "Summary"), ("Capital", "Capital"), ("Notable rulers", "Rulers"),
+                         ("Before", "Before"), ("After", "After"), ("Today", "ModernCountries"))
 MAP_IMAGE = '<div class="image map">{{Map}}</div>'
 MAP_THUMBNAIL = '<div class="thumbnail map">{{Map}}</div>'
 
@@ -147,7 +157,7 @@ CIVILIZATION_TEMPLATES = (
 )
 
 CIVILIZATION_FIELDS = ("Id", "Name", "Map", "AskMap", "Period", "AskPeriod", "Capital", "Before", "BeforeRegion",
-                       "After", "AfterRegion", "Rulers", "ModernCountries")
+                       "After", "AfterRegion", "Rulers", "ModernCountries", "Summary")
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
@@ -289,7 +299,7 @@ def century_tag(number: int) -> str:
 
 
 def civilization_tags(document: dict) -> list[str]:
-    tags = [tag("Civilization", document["name"])]
+    tags = [tag("Civilization", document["name"])] + ([tag("Tier", document["tier"])] if document.get("tier") else [])
     period = document["period"]
     if period["confirmed"]:
         tags += [century_tag(number) for number in centuries(period["start"]["earliest"], period["end"]["latest"])]
@@ -363,14 +373,15 @@ class DeckBuilder:
             "Name": escaped(document["name"]),
             "Map": self.media.image(document["map"]),
             "AskMap": "yes" if document["map"] and document.get("map_asked", True) else "",
-            "Period": escaped(period_label(Span(**period["start"]), Span(**period["end"]))) if period["confirmed"] else "",
-            "AskPeriod": "yes" if period["confirmed"] else "",
+            "Period": escaped(period_text(period)),
+            "AskPeriod": "yes" if period_text(period) else "",
             "Capital": joined([capital["name"] for capital in document["capitals"]]),
             "Before": escaped(document["before"].get("name")),
             "BeforeRegion": escaped(document["before"].get("region")),
             "After": escaped(document["after"].get("name")),
             "AfterRegion": escaped(document["after"].get("region")),
-            "Rulers": joined([ruler["name"] for ruler in document["rulers"]]),
+            "Rulers": joined([ruler["name"] for ruler in document["rulers"]], " · "),
+            "Summary": escaped(document.get("summary", "")),
             "ModernCountries": countries(document["modern_countries"])
                                + (f" · overseas: {countries(document['overseas_countries'])}" if document.get("overseas_countries") else ""),
         }
