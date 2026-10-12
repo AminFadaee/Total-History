@@ -42,6 +42,7 @@ ADULT_AGE = 20
 POST_WAR = 1945
 LEGENDARY = "Q13002315"
 HUMAN = "Q5"
+POSITION = "Q4164871"
 SUCCESSION_STEPS = 3
 MIN_JOINING_KM2 = 20_000
 DEATH_DISCOUNT = 0.5
@@ -332,6 +333,10 @@ class FigureBuilder:
         self.headings = self.wikipedia.resolve(list({heading for candidate in candidates for heading in candidate.section}))
         self.offices = self.wikidata.entities([qid for candidate in candidates
                                                for qid in candidate.person.ids("P39", preferred_only=False)])
+        facets = self.wikidata.entities([qid for office in self.offices.values() for qid in office.ids("P1269")])
+        self.ex_officio = {qid for qid, office in self.offices.items()
+                           if any(POSITION in facets[facet].ids("P31", preferred_only=False)
+                                  for facet in office.ids("P1269") if facet in facets)}
         self.places = self.wikidata.entities([qid for candidate in candidates for qid in candidate.person.ids("P20")])
         self.categories = self._category_states(self.wikipedia.categories(titles))
         texts = self.wikipedia.wikitext(titles)
@@ -527,8 +532,11 @@ class FigureBuilder:
         return [names[qid].name for qid in confirmed], [names[qid].name for qid in related], readable
 
     def _terms(self, candidate: Candidate):
-        """Each office the person held, with its term, or their adult life when Wikidata gives no dates."""
+        """Each office the person held, with its term, or their adult life when Wikidata gives no dates. Offices held
+        by virtue of another (the French head of state as co-prince of Andorra) are left out."""
         for claim in candidate.person.statements("P39", preferred_only=False):
+            if claim["mainsnak"]["datavalue"]["value"]["id"] in self.ex_officio:
+                continue
             start, end = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
             term = (start if start is not None else candidate.adulthood[0],
                     end if end is not None else start if start is not None else candidate.adulthood[1])
