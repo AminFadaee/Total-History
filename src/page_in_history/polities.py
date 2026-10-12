@@ -800,21 +800,32 @@ class PolityBuilder:
         """A civilization the deck names as followed by another, which has no civilization before it, is that one's
         predecessor in the same region (Achaemenid before the Macedonian Empire), and the other way round, when the
         later one began after the earlier began, within a century of its end, and ended after it (not the
-        Confederacy before the USA)."""
+        Confederacy before the USA). Of several, the one whose end and start lie closest together."""
         by_id = {polity.id: polity for polity in polities}
 
         def later(first: Polity, second: Polity) -> bool:
             earlier, after = self._ruled_years(first), self._ruled_years(second)
             return bool(earlier and after) and earlier[0] < after[0] and earlier[1] < after[1] \
                 and abs(after[0] - earlier[1]) <= MIRROR_GAP_YEARS
+        gap = lambda first, second: abs(self._ruled_years(second)[0] - self._ruled_years(first)[1])
+        befores: dict[str, list[Polity]] = {}
         for polity in polities:
             following = by_id.get((polity.after or {}).get("id"))
             if following and not following.before and later(polity, following):
-                following.before = {"id": polity.id, "region": polity.after["region"], "name": polity.name}
+                befores.setdefault(following.id, []).append(polity)
+        afters: dict[str, list[Polity]] = {}
         for polity in polities:
             preceding = by_id.get((polity.before or {}).get("id"))
             if preceding and not preceding.after and later(preceding, polity):
-                preceding.after = {"id": polity.id, "region": polity.before["region"], "name": polity.name}
+                afters.setdefault(preceding.id, []).append(polity)
+        for qid, candidates in befores.items():
+            following = by_id[qid]
+            polity = min(candidates, key=lambda candidate: (gap(candidate, following), candidate.name))
+            following.before = {"id": polity.id, "region": polity.after["region"], "name": polity.name}
+        for qid, candidates in afters.items():
+            preceding = by_id[qid]
+            polity = min(candidates, key=lambda candidate: (gap(preceding, candidate), candidate.name))
+            preceding.after = {"id": polity.id, "region": polity.before["region"], "name": polity.name}
 
     def _stated(self, first: str, last: str) -> bool:
         """Wikidata or a Wikipedia infobox, on either civilization's side, says that the second followed the first."""
