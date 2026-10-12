@@ -136,6 +136,7 @@ class Period:
     end: Span | None
     confirmed: bool
     core: list[int] | None = None
+    since: Span | None = None
 
 
 class Tier(StrEnum):
@@ -562,6 +563,7 @@ class PolityBuilder:
         self.wikipedia = catalog.wikipedia
         self.wikidata = catalog.wikidata
         self.countries = equal_area(countries)
+        self.present = int(self.cliopatria.frame.ToYear.max())
         self.succession = RegionalSuccession(self.cliopatria.frame, catalog.qids, countries, self._stated, self._implied,
                                              equal_area)
         self.founded_early: set[str] = set()
@@ -1015,7 +1017,18 @@ class PolityBuilder:
                     "cliopatria": Span(clio_end, clio_end) if clio_end is not None else None},
                    tolerances(reference(clio_end, dissolution, infobox.end)))
         confirmed = start is not None and end is not None
-        return Period(start, end, confirmed, None if confirmed else self._agreed_core(entity, infobox))
+        return Period(start, end, confirmed, None if confirmed else self._agreed_core(entity, infobox),
+                      None if confirmed else self._since(entity, start, clio_end))
+
+    def _since(self, entity: Entity, start: Span | None, clio_end: int | None) -> Span | None:
+        """For a state that still exists (drawn to the map's last year, with no end date in Wikidata), its confirmed
+        start, or Wikidata's single founding year, asked as "since 1867" for Canada."""
+        if clio_end is None or clio_end < self.present or entity.years("P576") + entity.years("P582"):
+            return None
+        if start is not None:
+            return start
+        founded = entity.years("P571") + entity.years("P580")
+        return founded[0].as_span() if len({year.value for year in founded}) == 1 and not founded[0].approximate else None
 
     @staticmethod
     def _agreed_core(entity: Entity, infobox: Infobox) -> list[int] | None:

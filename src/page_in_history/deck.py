@@ -93,12 +93,15 @@ def asked_picture(document: dict) -> tuple[str, str] | None:
 
 
 def period_text(period: dict) -> str:
-    """The confirmed period, or the approximate years Wikidata gives, marked as such."""
+    """The confirmed period, the approximate years Wikidata gives, marked as such, or the start of a state that
+    still exists ("since 1867")."""
     if period["confirmed"]:
         return period_label(Span(**period["start"]), Span(**period["end"]))
     if period.get("core"):
         first, last = period["core"]
         return period_label(Span(first, first, True), Span(last, last, True))
+    if period.get("since"):
+        return f"since {Span(**period['since']).label()}"
     return ""
 
 
