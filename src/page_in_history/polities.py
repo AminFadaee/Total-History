@@ -807,6 +807,7 @@ class PolityBuilder:
             return []
         editions = self.wikidata.language_editions(list(terms))
         best = sorted(terms, key=lambda qid: (-editions.get(qid, 0), qid))[:SHOWN_RULERS]
+        self.names.update(self.wikidata.entities([qid for qid in best if qid not in self.names]))
         return [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=lambda qid: min(terms[qid]))]
 
     def _rulers(self, polity_qid: str, leaders: list[str]) -> list[dict]:
