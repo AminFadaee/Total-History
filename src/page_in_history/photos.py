@@ -13,6 +13,7 @@ from page_in_history.sources.wikidata import Entity
 
 logger = logging.getLogger(__name__)
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
 COMMONS_FILE = "https://commons.wikimedia.org/wiki/Special:FilePath/{}?width={}"
 PHOTO_ERA = 1860
 PHOTOGRAPHY_INVENTED = 1839
@@ -228,13 +229,14 @@ class PortraitFinder:
         tried best first by what Commons says before anything is downloaded: likely
         photographs, then pictures made in the person's lifetime, then within 50 years of their death, then the rest,
         the most used first, stopping once nothing later could do better. Without the model, the main image or a
-        portrait category named after the person stands in. Returns the file name, its credit, its kind, and why there
+        portrait category named after the person stands in. When nothing will do, the English Wikipedia article's lead
+        image, if the model sees one person in it clearly. Returns the file name, its credit, its kind, and why there
         is none when there is not."""
         born, died = life_span(person)
         main_titles = {"File:" + claim["mainsnak"]["datavalue"]["value"].replace("_", " ") for claim in person.statements("P18")}
         files = self._candidates(person)[:MAX_CANDIDATES]
         if not files:
-            return "", "", None, "no candidate image"
+            return self._lead_picture(person, born, died, "no candidate image")
         expected = {file.title: self._expected(file, person, born, died, file.title in main_titles) for file in files}
         main = next((file for file in files if file.title in main_titles), None)
         if main and self._shows_one_person(main, person, PORTRAIT):
@@ -257,8 +259,24 @@ class PortraitFinder:
             if best is not None and (not remaining or best[0] <= min(remaining)):
                 break
         if best is None:
-            return "", "", None, "no candidate shows one person"
+            return self._lead_picture(person, born, died, "no candidate shows one person")
         return best[1].name, best[1].credit, kind(best[1], best[0], made_year(best[1], died) is not None), ""
+
+    def _lead_picture(self, person: Entity, born: int, died: int, why: str) -> tuple[str, str, PictureKind | None, str]:
+        """The English Wikipedia article's lead image, which editors choose to show the person, when nothing else
+        will do: not filed as an object, and seen clearly as one person by the image model."""
+        if not self.classifier or not person.enwiki:
+            return "", "", None, why
+        data = self.http.json(WIKIPEDIA_API, {"action": "query", "prop": "pageimages", "piprop": "name", "pilicense": "any",
+                                              "titles": person.enwiki, "redirects": 1, "format": "json", "formatversion": 2},
+                              namespace="wikipedia")
+        name = next((page["pageimage"] for page in data.get("query", {}).get("pages", []) if page.get("pageimage")), None)
+        file = self._files(["File:" + name]).get("File:" + name.replace("_", " ")) if name else None
+        if not file or not file.portrait or not IMAGE_FILE.search(file.title) \
+                or not self._shows_one_person(file, person, CLEAR_PORTRAIT):
+            return "", "", None, why
+        rank = self._rank(file, person, born, died, False)
+        return file.name, file.credit, kind(file, rank, made_year(file, died) is not None), ""
 
     def _shows_one_person(self, file: CommonsFile, person: Entity, bar: float) -> bool:
         """One person to the image model; without the model, the main image or a portrait or painting category named
