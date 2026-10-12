@@ -14,7 +14,7 @@ from page_in_history.polities import LIVING_ON_MAP_BEFORE, PolityCatalog
 from page_in_history.sources import naturalearth, notable, vital
 from page_in_history.sources.pantheon import Person
 from page_in_history.sources.wikidata import Entity, Year, qualifier_year
-from page_in_history.sources.wikipedia import display_name, lead_links
+from page_in_history.sources.wikipedia import country_infobox, display_name, lead_links
 
 EXCLUDED_OCCUPATIONS = {
     "SOCCER PLAYER", "ACTOR", "ATHLETE", "SINGER", "MUSICIAN", "FILM DIRECTOR", "BASKETBALL PLAYER", "CYCLIST",
@@ -206,6 +206,20 @@ class FigureBuilder:
         for state in catalog.by_qid:
             for office in catalog.entities[state].ids(*HEAD_OFFICES, preferred_only=False):
                 self.head_offices.setdefault(office, set()).add(state)
+        self.led = self._infobox_leaders()
+
+    def _infobox_leaders(self) -> dict[str, set[str]]:
+        """The states whose Wikipedia infobox names each person among its leaders (leader1, leader2, …)."""
+        titles = {identity.title: identity.qid for identity in self.catalog.identities.values() if identity.title}
+        leaders = {titles[title]: box.leaders for title, text in self.wikipedia.wikitext(list(titles)).items()
+                   if (box := country_infobox(text))}
+        pages = self.wikipedia.resolve(sorted({name for names in leaders.values() for name in names}))
+        led: dict[str, set[str]] = {}
+        for state, names in leaders.items():
+            for name in names:
+                if name in pages and pages[name].qid and state in self.catalog.by_qid:
+                    led.setdefault(pages[name].qid, set()).add(state)
+        return led
 
     def build(self, polity_names: set[str], start: int, end: int) -> list[Figure]:
         """Every candidate is placed against the whole catalog, so civilizations outside the selection can join
@@ -584,7 +598,8 @@ class FigureBuilder:
 
     def _offices(self, candidate: Candidate) -> list[str]:
         """States an office governs: its jurisdiction, or the state it heads, as long as the state existed during
-        the term."""
+        the term; and states whose Wikipedia infobox names the person among its leaders (Askia Muhammad I for
+        Songhai, whose Wikidata offices name no state)."""
         found = []
         for qid, term in self._terms(candidate):
             office = self.offices.get(qid)
@@ -592,6 +607,7 @@ class FigureBuilder:
                 if office else set()
             found += [state for state in sorted(states) if self._active(state, term)]
             found += sorted(self._head_states(qid, term) - states)
+        found += [state for state in sorted(self.led.get(candidate.person.id, ())) if self._active(state, candidate.adulthood)]
         return found
 
     def _head_states(self, qid: str, term: tuple[int, int]) -> set[str]:
