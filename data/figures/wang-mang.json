@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "China",
   "civilizations": [
-    "Han Dynasty",
-    "Xin Dynasty"
+    "Xin Dynasty",
+    "Han Dynasty"
   ],
   "related": [],
   "contribution": "The founder and the only emperor of the short-lived Xin dynasty of imperial China.",
@@ -25,6 +25,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Xin Dynasty"
+      ],
       "death": [
         "Xin Dynasty"
       ],

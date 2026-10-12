@@ -13,11 +13,10 @@
   "birth_country": "Spain",
   "civilizations": [
     "Crown of Castile",
+    "Crown of Aragon",
     "Kingdom of Spain"
   ],
-  "related": [
-    "Crown of Aragon"
-  ],
+  "related": [],
   "contribution": "Queen of Castile from 1504 and Queen of Aragon from 1516 to her death in 1555.",
   "setting": "",
   "image": "images/joanna-of-castile.jpg",
@@ -28,7 +27,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Crown of Castile"
+        "Crown of Castile",
+        "Crown of Aragon"
       ],
       "death": [
         "Kingdom of Spain"

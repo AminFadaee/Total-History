@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Mexico",
   "civilizations": [
-    "Tenochtitlan",
-    "Aztec Triple Alliance"
+    "Aztec Triple Alliance",
+    "Tenochtitlan"
   ],
   "related": [],
   "contribution": "The fourth king of Tenochtitlan, and the founder of the Aztec Empire, ruling from 1427 to 1440.",
@@ -26,7 +26,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Tenochtitlan"
+        "Tenochtitlan",
+        "Aztec Triple Alliance"
       ],
       "death": [
         "Aztec Triple Alliance"

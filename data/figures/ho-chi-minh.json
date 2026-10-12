@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Vietnam",
   "civilizations": [
-    "French Indochina",
-    "Democratic Republic of Vietnam"
+    "Democratic Republic of Vietnam",
+    "French Indochina"
   ],
   "related": [
     "Union of Soviet Socialist Republics",
@@ -29,6 +29,9 @@
   "photo_credit": "Tăng Tuyết Minh · Public domain",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Democratic Republic of Vietnam"
+      ],
       "death": [
         "Democratic Republic of Vietnam"
       ],

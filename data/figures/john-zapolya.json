@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Hungary",
   "civilizations": [
-    "Kingdom of Hungary"
+    "Kingdom of Hungary",
+    "Eastern Hungarian Kingdom"
   ],
   "related": [
     "Ottoman Empire"
@@ -27,7 +28,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of Hungary"
+        "Kingdom of Hungary",
+        "Eastern Hungarian Kingdom"
       ],
       "death": [
         "Eastern Hungarian Kingdom"

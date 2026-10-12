@@ -15,7 +15,8 @@
     "Holy Roman Empire",
     "Crown of Aragon",
     "Crown of Castile",
-    "Kingdom of Aragon"
+    "Kingdom of Aragon",
+    "Habsburg Monarchy"
   ],
   "related": [
     "Kingdom of Germany",
@@ -36,10 +37,11 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of Aragon",
         "Crown of Aragon",
+        "Kingdom of Aragon",
         "Crown of Castile",
-        "Holy Roman Empire"
+        "Holy Roman Empire",
+        "Habsburg Monarchy"
       ],
       "death": [
         "Kingdom of Spain"

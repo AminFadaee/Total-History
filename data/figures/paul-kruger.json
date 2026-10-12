@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "South Africa",
   "civilizations": [
-    "South African Republic",
-    "British Cape Colony"
+    "South African Republic"
   ],
   "related": [
-    "Free Orange State"
+    "Free Orange State",
+    "British Cape Colony"
   ],
   "contribution": "He was one of the dominant political and military figures in 19th-century South Africa, and State President of the South African Republic from 1883 to 1900.",
   "setting": "",
@@ -27,6 +27,9 @@
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "South African Republic"
+      ],
       "death": [
         "Swiss Confederation"
       ],

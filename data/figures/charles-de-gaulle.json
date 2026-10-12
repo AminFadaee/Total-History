@@ -12,10 +12,10 @@
   "occupation": "Military personnel",
   "birth_country": "France",
   "civilizations": [
-    "French Fifth Republic"
+    "French Fifth Republic",
+    "Free French"
   ],
   "related": [
-    "Free French",
     "Nazi Germany",
     "Vichy France",
     "German Empire",
@@ -25,7 +25,7 @@
     "Union of Soviet Socialist Republics"
   ],
   "contribution": "A French general and statesman who led the Free French Forces against Nazi Germany and its puppet state of Vichy France in World War II and chaired the Provisional Government of the French Republic from 1944 to 1946 to restore democracy in France.",
-  "setting": "French Fifth Republic",
+  "setting": "",
   "image": "images/charles-de-gaulle.jpg",
   "image_credit": "The National Archives UK · No restrictions",
   "image_kind": "Photograph",
@@ -34,7 +34,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "French Fifth Republic"
+        "French Fifth Republic",
+        "Free French"
       ],
       "death": [
         "French Fifth Republic"

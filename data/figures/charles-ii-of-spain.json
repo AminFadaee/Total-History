@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Spain",
   "civilizations": [
-    "Kingdom of Spain",
     "Kingdom of Aragon",
     "Crown of Aragon",
-    "Crown of Castile"
+    "Crown of Castile",
+    "Kingdom of Spain"
   ],
   "related": [
     "Spanish Empire"
@@ -30,9 +30,10 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of Aragon",
         "Crown of Aragon",
-        "Crown of Castile"
+        "Kingdom of Aragon",
+        "Crown of Castile",
+        "Habsburg Monarchy"
       ],
       "death": [
         "Kingdom of Spain"

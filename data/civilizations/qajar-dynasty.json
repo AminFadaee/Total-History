@@ -1,0 +1,79 @@
+{
+  "id": "Q63158027",
+  "slug": "qajar-dynasty",
+  "name": "Qajar Dynasty",
+  "wikipedia": "Qajar Iran",
+  "map_year": 1800,
+  "period": {
+    "start": {
+      "earliest": 1789,
+      "latest": 1789,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1925,
+      "latest": 1925,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Tehran",
+      "location": [
+        51.389722222222225,
+        35.68888888888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q146597",
+    "region": "Iran",
+    "name": "Zand Dynasty"
+  },
+  "after": {
+    "id": "Q107258515",
+    "region": "Iran",
+    "name": "Pahlavi Dynasty"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Azerbaijan",
+    "Armenia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/qajar-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tehran"
+      ],
+      "infobox": [
+        "Tehran"
+      ]
+    },
+    "cliopatria_years": [
+      1788,
+      1923
+    ],
+    "identity": "the state named after Qajar dynasty",
+    "home": "Tehran",
+    "labelled": [
+      "Ottoman Empire",
+      "Durrani Empire",
+      "Khanate of Khiva",
+      "Emirate of Bukhara",
+      "Maratha Empire",
+      "Emirate of Diriyah",
+      "Mughal Empire",
+      "Kingdom of Nepal",
+      "Nawab of Awadh",
+      "Khanate of Kokand",
+      "Sikh Empire"
+    ]
+  }
+}

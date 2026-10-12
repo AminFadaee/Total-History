@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "China",
   "civilizations": [
-    "Yuan Dynasty",
-    "Mongol Empire"
+    "Mongol Empire",
+    "Yuan Dynasty"
   ],
   "related": [
     "Ilkhanate",
@@ -29,7 +29,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Mongol Empire"
+        "Mongol Empire",
+        "Yuan Dynasty"
       ],
       "death": [
         "Yuan Dynasty"

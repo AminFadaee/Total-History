@@ -1,0 +1,74 @@
+{
+  "id": "Q1115291",
+  "slug": "thonburi-kingdom",
+  "name": "Thonburi Kingdom",
+  "wikipedia": "Thonburi Kingdom",
+  "map_year": 1769,
+  "period": {
+    "start": {
+      "earliest": 1767,
+      "latest": 1767,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1782,
+      "latest": 1782,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bangkok",
+      "location": [
+        100.485833333,
+        13.725
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q841364",
+    "region": "Thailand",
+    "name": "Ayutthaya Kingdom"
+  },
+  "after": {
+    "id": "Q1155700",
+    "region": "Thailand",
+    "name": "Rattanakosin Kingdom"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Thailand"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/thonburi-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Thonburi"
+      ],
+      "infobox": [
+        "Thonburi"
+      ]
+    },
+    "cliopatria_years": [
+      1769,
+      1782
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bangkok",
+    "labelled": [
+      "Konbaung Dynasty",
+      "Vientiane",
+      "British Empire",
+      "Trịnh lords",
+      "Sultanate of Johor",
+      "Nguyễn lords",
+      "Cambodia",
+      "Sultanate of Aceh"
+    ]
+  }
+}

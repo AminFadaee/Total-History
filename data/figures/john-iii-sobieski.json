@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Ukraine",
   "civilizations": [
-    "Polish-Lithuanian Commonwealth"
+    "Polish-Lithuanian Commonwealth",
+    "Kingdom of Poland"
   ],
   "related": [
     "Ottoman Empire"
@@ -27,7 +28,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Polish-Lithuanian Commonwealth"
+        "Polish-Lithuanian Commonwealth",
+        "Kingdom of Poland"
       ],
       "death": [
         "Polish-Lithuanian Commonwealth"

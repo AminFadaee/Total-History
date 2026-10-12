@@ -12,8 +12,10 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
+    "First French Empire",
     "French Consulate",
-    "First French Empire"
+    "Kingdom of France",
+    "French Directory"
   ],
   "related": [
     "Habsburg Monarchy",
@@ -32,7 +34,11 @@
     "civilization_votes": {
       "office": [
         "First French Empire",
-        "French Consulate"
+        "French Consulate",
+        "French Directory",
+        "Kingdom of France",
+        "Confederation of the Rhine",
+        "Grand Duchy of Berg"
       ],
       "lead": [
         "Habsburg Monarchy",

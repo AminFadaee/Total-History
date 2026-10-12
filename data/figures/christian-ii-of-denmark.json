@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Denmark",
   "civilizations": [
-    "Kalmar Union",
-    "Kingdom of Sweden"
+    "Kingdom of Sweden",
+    "Kalmar Union"
   ],
   "related": [],
   "contribution": "A monarch under the Kalmar Union, reigning as King of Denmark and Norway from 1513 until 1523.",
@@ -27,7 +27,8 @@
     "civilization_votes": {
       "office": [
         "Kingdom of Sweden",
-        "Holy Roman Empire"
+        "Holy Roman Empire",
+        "Kalmar Union"
       ],
       "death": [
         "Denmark-Norway"

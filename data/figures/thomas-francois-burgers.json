@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "South Africa",
   "civilizations": [
-    "British Cape Colony",
-    "South African Republic"
+    "South African Republic",
+    "British Cape Colony"
   ],
   "related": [],
   "contribution": "A Boer politician and minister who served as the 4th president of the South African Republic from 1872 to 1877.",
@@ -25,6 +25,9 @@
   "photo_credit": "Offenberg Photographie, Damstraat, Amsterdam · Public domain",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "South African Republic"
+      ],
       "death": [
         "British Cape Colony"
       ],

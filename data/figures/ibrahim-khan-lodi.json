@@ -12,11 +12,10 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "Delhi Sultanate"
-  ],
-  "related": [
+    "Delhi Sultanate",
     "Lodi Dynasty"
   ],
+  "related": [],
   "contribution": "The last Sultan of the Delhi Sultanate, who became Sultan in 1517 after the death of his father Sikandar Khan.",
   "setting": "",
   "image": "",
@@ -27,7 +26,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Delhi Sultanate"
+        "Delhi Sultanate",
+        "Lodi Dynasty"
       ],
       "death": [
         "Timurid Empire"

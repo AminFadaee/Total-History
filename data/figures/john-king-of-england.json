@@ -14,11 +14,10 @@
   "civilizations": [
     "Kingdom of England",
     "County of Anjou",
+    "Angevin Empire",
     "Duchy of Normandy"
   ],
-  "related": [
-    "Angevin Empire"
-  ],
+  "related": [],
   "contribution": "King of England from 1199 until his death in 1216.",
   "setting": "",
   "image": "images/john-king-of-england.jpg",
@@ -31,7 +30,8 @@
       "office": [
         "Kingdom of England",
         "Duchy of Normandy",
-        "County of Anjou"
+        "County of Anjou",
+        "Angevin Empire"
       ],
       "death": [
         "Kingdom of England"

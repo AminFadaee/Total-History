@@ -1,0 +1,65 @@
+{
+  "id": "Q43",
+  "slug": "republic-of-turkey",
+  "name": "Republic of Turkey",
+  "wikipedia": "Turkey",
+  "map_year": 1939,
+  "period": {
+    "start": {
+      "earliest": 1923,
+      "latest": 1923,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Ankara",
+      "location": [
+        32.83869,
+        39.93576
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q12560",
+    "region": "Turkey",
+    "name": "Ottoman Empire"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Turkey"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/republic-of-turkey.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ankara"
+      ],
+      "infobox": [
+        "Ankara"
+      ]
+    },
+    "cliopatria_years": [
+      1924,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ankara",
+    "labelled": [
+      "Union of Soviet Socialist Republics",
+      "Pahlavi Dynasty",
+      "Kingdom of Iraq",
+      "French Mandate for Syria and Lebanon",
+      "Kingdom of Greece",
+      "Kingdom of Bulgaria",
+      "Yugoslavia"
+    ]
+  }
+}

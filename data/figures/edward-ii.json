@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of England"
+    "Kingdom of England",
+    "Principality of Wales"
   ],
   "related": [],
   "contribution": "King of England from 1307 until he was deposed in January 1327.",
@@ -25,7 +26,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of England"
+        "Kingdom of England",
+        "Principality of Wales"
       ],
       "death": [
         "Kingdom of England"

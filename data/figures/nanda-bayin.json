@@ -12,10 +12,10 @@
   "occupation": "",
   "birth_country": "",
   "civilizations": [
+    "First Toungoo Empire",
     "Ayutthaya Kingdom"
   ],
   "related": [
-    "First Toungoo Empire",
     "Kingdom of Mrauk U"
   ],
   "contribution": "He presided over the collapse of the First Toungoo Empire.",
@@ -27,6 +27,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "First Toungoo Empire"
+      ],
       "death": [
         "Ayutthaya Kingdom"
       ],

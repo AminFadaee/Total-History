@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
-    "Kingdom of France"
+    "Kingdom of France",
+    "New France"
   ],
   "related": [
-    "New France",
     "Duchy of Lorraine",
     "Corsican Republic"
   ],
@@ -29,7 +29,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of France"
+        "Kingdom of France",
+        "New France"
       ],
       "death": [
         "Kingdom of France"

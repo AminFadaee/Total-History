@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
-    "Kingdom of Jerusalem"
+    "Kingdom of Jerusalem",
+    "County of Edessa"
   ],
   "related": [
-    "County of Edessa",
     "Duchy of Normandy",
     "Great Seljuk Empire",
     "Republic of Genoa",
@@ -32,6 +32,10 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Kingdom of Jerusalem",
+        "County of Edessa"
+      ],
       "lead": [
         "County of Edessa",
         "Duchy of Normandy",

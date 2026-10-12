@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Hungary",
   "civilizations": [
+    "Kingdom of Poland",
     "Kingdom of Hungary"
   ],
   "related": [
-    "Kingdom of Poland",
     "Kingdom of Naples",
     "Serbian Empire",
     "Golden Horde",
@@ -34,6 +34,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Kingdom of Poland"
+      ],
       "death": [
         "Kingdom of Hungary"
       ],

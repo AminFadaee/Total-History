@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "Bulgaria",
   "civilizations": [
-    "First Bulgarian Empire"
+    "First Bulgarian Empire",
+    "Great Moravia",
+    "Principality of Serbia"
   ],
-  "related": [
-    "Great Moravia"
-  ],
+  "related": [],
   "contribution": "The ruler of the First Bulgarian Empire from 852 to 889.",
   "setting": "",
   "image": "images/boris-i-of-bulgaria.jpg",
@@ -26,6 +26,11 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Principality of Serbia",
+        "Great Moravia",
+        "First Bulgarian Empire"
+      ],
       "death": [
         "First Bulgarian Empire"
       ],

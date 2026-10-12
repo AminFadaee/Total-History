@@ -12,9 +12,9 @@
   "occupation": "Politician",
   "birth_country": "Austria",
   "civilizations": [
-    "Habsburg Monarchy",
     "Kingdom of Hungary",
-    "Kingdom of Bohemia"
+    "Kingdom of Bohemia",
+    "Habsburg Monarchy"
   ],
   "related": [
     "Duchy of Milan",
@@ -34,7 +34,8 @@
       "office": [
         "Holy Roman Empire",
         "Kingdom of Bohemia",
-        "Kingdom of Hungary"
+        "Kingdom of Hungary",
+        "Habsburg Monarchy"
       ],
       "death": [
         "Habsburg Monarchy"

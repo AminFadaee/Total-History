@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "West Franks"
+    "West Franks",
+    "Kingdom of the Franks"
   ],
   "related": [],
   "contribution": "King of West Francia, king of Italy and emperor of the Carolingian Empire.",
@@ -25,7 +26,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "West Franks"
+        "West Franks",
+        "Kingdom of the Franks"
       ],
       "death": [
         "West Franks"

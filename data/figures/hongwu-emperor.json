@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "China",
   "civilizations": [
-    "Yuan Dynasty",
-    "Ming Dynasty"
+    "Ming Dynasty",
+    "Yuan Dynasty"
   ],
   "related": [],
   "contribution": "The founding emperor of the Ming dynasty of China, reigning from 1368 to 1398.",
@@ -25,6 +25,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Ming Dynasty"
+      ],
       "death": [
         "Ming Dynasty"
       ],

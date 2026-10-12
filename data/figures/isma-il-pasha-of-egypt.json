@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Egypt",
   "civilizations": [
-    "Ottoman Empire"
+    "Ottoman Empire",
+    "Khedivate of Egypt"
   ],
   "related": [
-    "Khedivate of Egypt",
     "United Kingdom of Great Britain and Ireland",
     "French Third Republic"
   ],
@@ -28,6 +28,9 @@
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Khedivate of Egypt"
+      ],
       "lead": [
         "Khedivate of Egypt",
         "United Kingdom of Great Britain and Ireland",

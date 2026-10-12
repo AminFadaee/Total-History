@@ -13,8 +13,8 @@
   "birth_country": "Netherlands",
   "civilizations": [
     "Kingdom of England",
-    "Dutch Republic",
-    "Kingdom of Scotland"
+    "Kingdom of Scotland",
+    "Dutch Republic"
   ],
   "related": [
     "County of Holland"
@@ -30,7 +30,9 @@
     "civilization_votes": {
       "office": [
         "Kingdom of England",
-        "Kingdom of Scotland"
+        "Kingdom of Scotland",
+        "Dutch Republic",
+        "Principality of Orange"
       ],
       "death": [
         "Kingdom of England"

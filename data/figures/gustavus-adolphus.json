@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Sweden",
   "civilizations": [
-    "Swedish Empire",
-    "Kingdom of Sweden"
+    "Kingdom of Sweden",
+    "Swedish Empire"
   ],
   "related": [
     "Tsardom of Russia",
@@ -29,6 +29,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Swedish Empire"
+      ],
       "death": [
         "Swedish Empire"
       ],

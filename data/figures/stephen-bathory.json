@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Romania",
   "civilizations": [
-    "Polish-Lithuanian Commonwealth"
+    "Polish-Lithuanian Commonwealth",
+    "Kingdom of Poland"
   ],
   "related": [
     "Tsardom of Russia"
@@ -27,7 +28,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Polish-Lithuanian Commonwealth"
+        "Polish-Lithuanian Commonwealth",
+        "Kingdom of Poland"
       ],
       "death": [
         "Polish-Lithuanian Commonwealth"

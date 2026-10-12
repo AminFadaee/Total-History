@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "China",
   "civilizations": [
-    "Chu",
-    "Qin Dynasty",
-    "Han Dynasty"
+    "Han Dynasty",
+    "Qin Dynasty"
   ],
   "related": [
+    "Chu",
     "Xiongnu"
   ],
   "contribution": "",
@@ -28,6 +28,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Han Dynasty"
+      ],
       "death": [
         "Han Dynasty"
       ],

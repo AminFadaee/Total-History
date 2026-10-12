@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "Thailand",
   "civilizations": [
-    "Ayutthaya Kingdom",
     "Rattanakosin Kingdom"
   ],
   "related": [
     "Thonburi Kingdom",
+    "Ayutthaya Kingdom",
     "Konbaung Dynasty"
   ],
   "contribution": "The founder of the Rattanakosin Kingdom and the first King of Siam from the reigning Chakri dynasty.",
@@ -28,6 +28,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Rattanakosin Kingdom"
+      ],
       "death": [
         "Rattanakosin Kingdom"
       ],

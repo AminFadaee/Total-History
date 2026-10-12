@@ -12,8 +12,9 @@
   "occupation": "Politician",
   "birth_country": "Poland",
   "civilizations": [
-    "Grand Duchy of Lithuania",
-    "Kingdom of Hungary"
+    "Kingdom of Poland",
+    "Kingdom of Hungary",
+    "Grand Duchy of Lithuania"
   ],
   "related": [
     "Teutonic Order",
@@ -29,6 +30,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Kingdom of Poland",
         "Kingdom of Hungary"
       ],
       "lead": [

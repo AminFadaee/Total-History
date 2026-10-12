@@ -13,6 +13,7 @@
   "birth_country": "Germany",
   "civilizations": [
     "Polish-Lithuanian Commonwealth",
+    "Kingdom of Poland",
     "Electorate of Saxony",
     "Holy Roman Empire"
   ],
@@ -30,7 +31,8 @@
     "civilization_votes": {
       "office": [
         "Holy Roman Empire",
-        "Polish-Lithuanian Commonwealth"
+        "Polish-Lithuanian Commonwealth",
+        "Kingdom of Poland"
       ],
       "death": [
         "Polish-Lithuanian Commonwealth"

@@ -14,11 +14,11 @@
   "civilizations": [
     "Crown of Aragon",
     "Kingdom of Aragon",
-    "County of Ribagorza"
+    "County of Ribagorza",
+    "Crown of Castile"
   ],
   "related": [
     "Kingdom of Spain",
-    "Crown of Castile",
     "Kingdom of Majorca",
     "Kingdom of Sicily",
     "Emirate of Granada",
@@ -35,9 +35,10 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of Aragon",
         "Crown of Aragon",
-        "County of Ribagorza"
+        "Kingdom of Aragon",
+        "County of Ribagorza",
+        "Crown of Castile"
       ],
       "lead": [
         "Kingdom of Spain",

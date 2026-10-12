@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Sweden",
   "civilizations": [
-    "Swedish Empire",
-    "Denmark-Norway"
+    "Swedish Empire"
   ],
   "related": [
+    "Denmark-Norway",
     "Electorate of Saxony",
     "Polish-Lithuanian Commonwealth",
     "Tsardom of Russia",
@@ -30,6 +30,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Swedish Empire"
+      ],
       "death": [
         "Denmark-Norway"
       ],

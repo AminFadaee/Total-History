@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
+    "Beylik of Karaman",
     "Delhi Sultanate",
-    "Beylik of Karaman"
+    "Tughlaq Dynasty"
   ],
   "related": [
-    "Tughlaq Dynasty",
     "Kakatiya Dynasty"
   ],
   "contribution": "He reigned from February 1325 until his death in March 1351.",
@@ -29,7 +29,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Beylik of Karaman"
+        "Beylik of Karaman",
+        "Tughlaq Dynasty"
       ],
       "death": [
         "Sind-Samma Dynasty"

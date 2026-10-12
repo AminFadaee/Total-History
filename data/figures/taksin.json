@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Thailand",
   "civilizations": [
-    "Ayutthaya Kingdom",
     "Thonburi Kingdom"
   ],
   "related": [
+    "Ayutthaya Kingdom",
     "Konbaung Dynasty"
   ],
   "contribution": "A Thai Chinese general who became the only King of Thonburi that ruled Siam from 1767 to 1782.",
@@ -27,6 +27,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Thonburi Kingdom"
+      ],
       "death": [
         "Thonburi Kingdom"
       ],

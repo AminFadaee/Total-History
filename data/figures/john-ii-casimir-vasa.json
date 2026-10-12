@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Poland",
   "civilizations": [
-    "Polish-Lithuanian Commonwealth"
+    "Polish-Lithuanian Commonwealth",
+    "Kingdom of Poland"
   ],
   "related": [
     "Kingdom of Spain",
@@ -29,7 +30,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Polish-Lithuanian Commonwealth"
+        "Polish-Lithuanian Commonwealth",
+        "Kingdom of Poland"
       ],
       "death": [
         "Kingdom of France"

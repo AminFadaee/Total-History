@@ -12,7 +12,9 @@
   "occupation": "Politician",
   "birth_country": "Austria",
   "civilizations": [
-    "Holy Roman Empire"
+    "Holy Roman Empire",
+    "Duchy of Burgundy",
+    "Habsburg Monarchy"
   ],
   "related": [
     "Republic of Venice",
@@ -31,7 +33,8 @@
     "civilization_votes": {
       "office": [
         "Holy Roman Empire",
-        "Duchy of Burgundy"
+        "Duchy of Burgundy",
+        "Habsburg Monarchy"
       ],
       "death": [
         "Habsburg Monarchy"

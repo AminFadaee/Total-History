@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Czechia",
   "civilizations": [
+    "Kingdom of Poland",
     "Holy Roman Empire"
   ],
   "related": [],
@@ -24,6 +25,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Kingdom of Poland"
+      ],
       "death": [
         "Holy Roman Empire"
       ],

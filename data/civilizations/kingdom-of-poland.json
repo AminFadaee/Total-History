@@ -1,0 +1,88 @@
+{
+  "id": "Q8890160",
+  "slug": "kingdom-of-poland",
+  "name": "Kingdom of Poland",
+  "wikipedia": "Kingdom of Poland",
+  "map_year": 1003,
+  "period": {
+    "start": {
+      "earliest": 966,
+      "latest": 966,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1795,
+      "latest": 1795,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Gniezno",
+      "location": [
+        17.6,
+        52.533333333333
+      ]
+    },
+    {
+      "name": "Kraków",
+      "location": [
+        19.937222222222,
+        50.061388888889
+      ]
+    },
+    {
+      "name": "Warsaw",
+      "location": [
+        21.011111111111113,
+        52.23
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Poland",
+    "Czechia",
+    "Germany",
+    "Slovakia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/kingdom-of-poland.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kraków",
+        "Warsaw",
+        "Gniezno"
+      ],
+      "infobox": [
+        "Gniezno",
+        "Kraków",
+        "Warsaw"
+      ]
+    },
+    "cliopatria_years": [
+      962,
+      1449
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "Gniezno",
+    "labelled": [
+      "Kievan Rus'",
+      "Holy Roman Empire",
+      "Kingdom of Hungary",
+      "Kingdom of Arles",
+      "Kingdom of Denmark",
+      "Duchy of Burgundy",
+      "County of Champagne",
+      "County of Vermandois",
+      "County of Flanders"
+    ]
+  }
+}

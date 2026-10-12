@@ -12,12 +12,12 @@
   "occupation": "Politician",
   "birth_country": "Mexico",
   "civilizations": [
-    "Mexico"
-  ],
-  "related": [
-    "First Mexican Empire",
+    "Mexico",
     "Federated Republic of Mexico",
     "Centralist Mexico"
+  ],
+  "related": [
+    "First Mexican Empire"
   ],
   "contribution": "A Mexican general, politician, and caudillo who served as the eighth president of Mexico on multiple occasions between 1833 and 1855.",
   "setting": "",
@@ -28,6 +28,11 @@
   "photo_credit": "Meade Brothers · Public domain",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Federated Republic of Mexico",
+        "Centralist Mexico",
+        "Second Federal Republic of Mexico"
+      ],
       "death": [
         "Mexico"
       ],

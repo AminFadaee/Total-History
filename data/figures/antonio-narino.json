@@ -12,11 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Colombia",
   "civilizations": [
+    "Cundinamarca",
     "Gran Colombia"
   ],
-  "related": [
-    "Cundinamarca"
-  ],
+  "related": [],
   "contribution": "A Colombian ideological precursor of the independence movement in New Granada as well as one of its early political and military leaders.",
   "setting": "",
   "image": "images/antonio-narino.jpg",
@@ -26,6 +25,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Cundinamarca"
+      ],
       "death": [
         "Gran Colombia"
       ],

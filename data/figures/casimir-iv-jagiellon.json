@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Poland",
   "civilizations": [
-    "Grand Duchy of Lithuania"
+    "Grand Duchy of Lithuania",
+    "Kingdom of Poland"
   ],
   "related": [],
   "contribution": "Grand Duke of Lithuania from 1440 and King of Poland as Casimir IV from 1447 until his death in 1492.",
@@ -25,6 +26,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "Kingdom of Poland",
         "Grand Duchy of Lithuania"
       ],
       "citizenship": [

@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Poland",
   "civilizations": [
-    "Polish-Lithuanian Commonwealth"
+    "Polish-Lithuanian Commonwealth",
+    "Kingdom of Poland"
   ],
   "related": [],
   "contribution": "Queen of Poland and Grand Duchess of Lithuania from 1575 to 1587.",
@@ -25,7 +26,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Polish-Lithuanian Commonwealth"
+        "Polish-Lithuanian Commonwealth",
+        "Kingdom of Poland"
       ],
       "death": [
         "Polish-Lithuanian Commonwealth"

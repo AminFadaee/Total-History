@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Mexico",
   "civilizations": [
-    "Mexico"
+    "Mexico",
+    "Second Federal Republic of Mexico"
   ],
   "related": [
-    "Second Federal Republic of Mexico",
     "Second Mexican Empire"
   ],
   "contribution": "A Mexican politician, military officer, and lawyer who served as the 26th president of Mexico from 1858 until his death in 1872.",
@@ -28,7 +28,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Mexico"
+        "Mexico",
+        "Second Federal Republic of Mexico"
       ],
       "death": [
         "Mexico"

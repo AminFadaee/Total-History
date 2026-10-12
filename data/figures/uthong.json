@@ -12,11 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Thailand",
   "civilizations": [
-    "Ayutthaya Kingdom"
-  ],
-  "related": [
+    "Ayutthaya Kingdom",
     "Lavo Kingdom"
   ],
+  "related": [],
   "contribution": "The founder and first monarch of the Ayutthaya Kingdom, reigning from 1351 to 1369.",
   "setting": "",
   "image": "",
@@ -26,6 +25,10 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Lavo Kingdom",
+        "Ayutthaya Kingdom"
+      ],
       "category": [
         "Ayutthaya Kingdom"
       ],

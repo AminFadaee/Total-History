@@ -12,9 +12,9 @@
   "occupation": "Politician",
   "birth_country": "China",
   "civilizations": [
-    "Qing Dynasty",
     "Republic of China",
-    "Empire of China"
+    "Empire of China",
+    "Qing Dynasty"
   ],
   "related": [
     "Joseon"
@@ -29,7 +29,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Republic of China"
+        "Republic of China",
+        "Empire of China"
       ],
       "death": [
         "Empire of China"

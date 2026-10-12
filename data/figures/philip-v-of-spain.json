@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
-    "Kingdom of France",
     "Kingdom of Spain",
     "Kingdom of Aragon",
     "Crown of Aragon",
-    "Crown of Castile"
+    "Crown of Castile",
+    "Kingdom of France"
   ],
   "related": [
     "Spanish Empire"
@@ -32,8 +32,8 @@
     "civilization_votes": {
       "office": [
         "Kingdom of Spain",
-        "Kingdom of Aragon",
         "Crown of Aragon",
+        "Kingdom of Aragon",
         "Crown of Castile"
       ],
       "death": [

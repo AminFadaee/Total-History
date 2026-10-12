@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Vietnam",
   "civilizations": [
-    "French Indochina"
+    "French Indochina",
+    "Nguyễn dynasty"
   ],
   "related": [
-    "Nguyễn dynasty",
     "Vichy France",
     "United States of America"
   ],
@@ -28,6 +28,9 @@
   "photo_credit": "không rõ. The original uploader was Dongsonvh at Vietnamese Wikipedia. · Public domain",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Nguyễn dynasty"
+      ],
       "death": [
         "French Fifth Republic"
       ],

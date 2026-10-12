@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "South Africa",
   "civilizations": [
-    "British Cape Colony",
-    "Natalia Republic"
+    "Natalia Republic",
+    "British Cape Colony"
   ],
   "related": [],
   "contribution": "A leader of the Boers who was instrumental in the creation of the South African Republic, as well as the earlier but short-lived Natalia Republic, in present-day South Africa.",
@@ -25,6 +25,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Natalia Republic"
+      ],
       "lead": [
         "Natalia Republic"
       ],

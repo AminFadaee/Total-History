@@ -12,11 +12,10 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "Delhi Sultanate"
-  ],
-  "related": [
+    "Delhi Sultanate",
     "Mamluk Dynasty"
   ],
+  "related": [],
   "contribution": "The Sultan of the Delhi Sultanate from 1236 until her deposition in 1240.",
   "setting": "",
   "image": "",
@@ -27,7 +26,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Delhi Sultanate"
+        "Delhi Sultanate",
+        "Mamluk Dynasty"
       ],
       "death": [
         "Mamluk Dynasty"

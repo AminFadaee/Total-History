@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Iraq",
   "civilizations": [
-    "Neo-Assyrian Empire",
-    "Assyria"
+    "Assyria",
+    "Neo-Assyrian Empire"
   ],
   "related": [
     "Babylonia",
@@ -28,6 +28,10 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Assyria",
+        "Neo-Assyrian Empire"
+      ],
       "death": [
         "Neo-Assyrian Empire"
       ],

@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "",
   "civilizations": [
-    "Cao Wei",
-    "Western Jin"
+    "Western Jin",
+    "Cao Wei"
   ],
   "related": [
     "Eastern Wu"
@@ -27,6 +27,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Western Jin"
+      ],
       "death": [
         "Western Jin"
       ],

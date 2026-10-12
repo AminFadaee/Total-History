@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Iran",
   "civilizations": [
-    "Afsharid Iran",
-    "Safavid Dynasty"
+    "Safavid Dynasty",
+    "Afsharid Iran"
   ],
   "related": [
     "Hotaki Dynasty",
@@ -29,6 +29,10 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Safavid Dynasty",
+        "Afsharid Iran"
+      ],
       "death": [
         "Afsharid Iran"
       ],

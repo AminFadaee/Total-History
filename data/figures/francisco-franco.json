@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Spain",
   "civilizations": [
-    "Kingdom of Spain",
-    "Francoist Spain"
+    "Francoist Spain",
+    "Kingdom of Spain"
   ],
   "related": [
     "Second Spanish Republic",
@@ -29,6 +29,9 @@
   "photo_credit": "Unknown authorUnknown author · CC0",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Francoist Spain"
+      ],
       "death": [
         "Francoist Spain"
       ],

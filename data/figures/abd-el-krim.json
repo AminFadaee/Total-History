@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Morocco",
   "civilizations": [
-    "Morocco",
-    "Republic of the Rif"
+    "Republic of the Rif",
+    "Morocco"
   ],
   "related": [],
   "contribution": "A Moroccan revolutionary, religious, political and military leader and the president of the Republic of the Rif.",
@@ -25,6 +25,9 @@
   "photo_credit": "Unknown authorUnknown author · Public domain",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Republic of the Rif"
+      ],
       "category": [
         "Morocco"
       ],

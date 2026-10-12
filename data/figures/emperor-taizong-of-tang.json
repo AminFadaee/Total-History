@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "China",
   "civilizations": [
-    "Sui Dynasty",
-    "Tang Dynasty"
+    "Tang Dynasty",
+    "Sui Dynasty"
   ],
   "related": [],
   "contribution": "The second emperor of the Tang dynasty of China, ruling from 626 to 649.",
@@ -25,6 +25,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Tang Dynasty"
+      ],
       "lead": [
         "Tang Dynasty",
         "Sui Dynasty"

@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Mexico",
   "civilizations": [
-    "Spanish Empire"
+    "Spanish Empire",
+    "Federated Republic of Mexico"
   ],
   "related": [
-    "Federated Republic of Mexico",
     "First Mexican Empire",
     "United Provinces of Central America",
     "Gran Colombia",
@@ -30,6 +30,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Federated Republic of Mexico"
+      ],
       "death": [
         "Centralist Mexico"
       ],

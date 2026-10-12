@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Sweden",
   "civilizations": [
-    "Kingdom of Sweden"
+    "Kingdom of Sweden",
+    "United Kingdoms of Sweden and Norway"
   ],
   "related": [],
   "contribution": "King of Sweden from 1809 and King of Norway from 1814 to his death.",
@@ -25,7 +26,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of Sweden"
+        "Kingdom of Sweden",
+        "United Kingdoms of Sweden and Norway"
       ],
       "death": [
         "United Kingdoms of Sweden and Norway"

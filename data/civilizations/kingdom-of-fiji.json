@@ -1,0 +1,57 @@
+{
+  "id": "Q17515160",
+  "slug": "kingdom-of-fiji",
+  "name": "Kingdom of Fiji",
+  "wikipedia": "Kingdom of Fiji",
+  "map_year": 1873,
+  "period": {
+    "start": {
+      "earliest": 1871,
+      "latest": 1871,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1874,
+      "latest": 1874,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Levuka",
+      "location": [
+        178.84012777778,
+        -17.684013888889
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Fiji"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/kingdom-of-fiji.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Levuka"
+      ],
+      "infobox": [
+        "Levuka"
+      ]
+    },
+    "cliopatria_years": [
+      1871,
+      1876
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

@@ -13,11 +13,10 @@
   "birth_country": "Ukraine",
   "civilizations": [
     "Kievan Rus'",
-    "Principality of Kiev"
-  ],
-  "related": [
+    "Principality of Kiev",
     "Principality of Rostov-Suzdal"
   ],
+  "related": [],
   "contribution": "A Monomakhovichi prince of Rostov and Suzdal, acquiring the name Suzdalia during his reign.",
   "setting": "",
   "image": "images/yuri-dolgorukiy.jpg",
@@ -29,7 +28,8 @@
     "civilization_votes": {
       "office": [
         "Kievan Rus'",
-        "Principality of Kiev"
+        "Principality of Kiev",
+        "Principality of Rostov-Suzdal"
       ],
       "death": [
         "Kievan Rus'",

@@ -12,11 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Sweden",
   "civilizations": [
-    "Kingdom of Sweden"
-  ],
-  "related": [
+    "Kingdom of Sweden",
     "United Kingdoms of Sweden and Norway"
   ],
+  "related": [],
   "contribution": "King of Sweden from 1872 until his death in 1907 and King of Norway from 1872 to 1905.",
   "setting": "",
   "image": "images/oscar-ii.jpg",
@@ -27,7 +26,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of Sweden"
+        "Kingdom of Sweden",
+        "United Kingdoms of Sweden and Norway"
       ],
       "death": [
         "Kingdom of Sweden"

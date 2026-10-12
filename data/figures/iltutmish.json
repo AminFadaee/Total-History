@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "",
   "civilizations": [
-    "Delhi Sultanate"
+    "Delhi Sultanate",
+    "Mamluk Dynasty"
   ],
   "related": [
-    "Mamluk Dynasty",
     "Ghurid Dynasty",
     "Mongol Empire",
     "Paramara Dynasty",
@@ -31,7 +31,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Delhi Sultanate"
+        "Delhi Sultanate",
+        "Mamluk Dynasty"
       ],
       "death": [
         "Mamluk Dynasty"

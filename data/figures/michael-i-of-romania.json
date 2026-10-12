@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Romania",
   "civilizations": [
+    "Kingdom of Romania",
     "Romania",
     "Swiss Confederation",
-    "United Kingdom",
-    "Kingdom of Romania"
+    "United Kingdom"
   ],
   "related": [
     "Nazi Germany"
@@ -30,7 +30,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Romania"
+        "Romania",
+        "Kingdom of Romania"
       ],
       "category": [
         "Romania"

@@ -12,10 +12,10 @@
   "occupation": "Military personnel",
   "birth_country": "Uzbekistan",
   "civilizations": [
-    "Chagatai Khanate",
     "Timurid Empire"
   ],
   "related": [
+    "Chagatai Khanate",
     "Golden Horde",
     "Mamluk Sultanate",
     "Ottoman Empire",
@@ -32,6 +32,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Timurid Empire"
+      ],
       "death": [
         "Timurid Empire"
       ],

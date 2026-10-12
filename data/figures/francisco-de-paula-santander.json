@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Colombia",
   "civilizations": [
-    "Gran Colombia",
-    "Republic of New Granada"
+    "Republic of New Granada",
+    "Gran Colombia"
   ],
   "related": [
     "Cundinamarca"
@@ -28,7 +28,8 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Gran Colombia"
+        "Gran Colombia",
+        "Republic of New Granada"
       ],
       "death": [
         "Republic of New Granada"

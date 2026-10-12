@@ -12,9 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Denmark",
   "civilizations": [
+    "Old Kingdom of Norway",
+    "Kingdom of England",
     "North Sea Empire",
-    "Kingdom of Denmark",
-    "Old Kingdom of Norway"
+    "Kingdom of Denmark"
   ],
   "related": [
     "Holy Roman Empire"
@@ -30,7 +31,8 @@
     "civilization_votes": {
       "office": [
         "Kingdom of England",
-        "Old Kingdom of Norway"
+        "Old Kingdom of Norway",
+        "North Sea Empire"
       ],
       "death": [
         "North Sea Empire"

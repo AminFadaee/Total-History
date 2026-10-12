@@ -12,12 +12,11 @@
   "occupation": "Politician",
   "birth_country": "South Africa",
   "civilizations": [
-    "British Cape Colony",
-    "Free Orange State"
+    "Free Orange State",
+    "South African Republic",
+    "British Cape Colony"
   ],
-  "related": [
-    "South African Republic"
-  ],
+  "related": [],
   "contribution": "A South African political leader.",
   "setting": "",
   "image": "images/marthinus-wessel-pretorius.jpg",
@@ -28,6 +27,7 @@
   "checks": {
     "civilization_votes": {
       "office": [
+        "South African Republic",
         "Free Orange State"
       ],
       "lead": [

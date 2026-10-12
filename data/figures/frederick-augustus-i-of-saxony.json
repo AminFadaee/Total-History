@@ -12,13 +12,12 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
+    "Kingdom of Saxony",
     "Polish-Lithuanian Commonwealth",
-    "Kingdom of Saxony"
-  ],
-  "related": [
     "Electorate of Saxony",
     "Duchy of Warsaw"
   ],
+  "related": [],
   "contribution": "A member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 and as the first King of Saxony from 1806 to 1827.",
   "setting": "",
   "image": "images/frederick-augustus-i-of-saxony.jpg",
@@ -29,7 +28,10 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Holy Roman Empire"
+        "Holy Roman Empire",
+        "Kingdom of Saxony",
+        "Duchy of Warsaw",
+        "Electorate of Saxony"
       ],
       "death": [
         "Kingdom of Saxony"
