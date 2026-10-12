@@ -54,7 +54,7 @@ STEM_LETTERS = 5
 CORE_LANGUAGES, CORE_VITAL_LANGUAGES, CORE_FIGURES = 70, 60, 3
 TIER_KINDS = {"Q41710": "people", "Q4204501": "people", "Q8432": "state", "Q2718886": "state", "Q3024240": "state",
               "Q7275": "state", "Q417175": "state", "Q48349": "state"}  # peoples; civilizations and states
-DECADE_PRECISION = 8
+CENTURY_PRECISION, DECADE_PRECISION = 7, 8
 SAME_NAME_WORDS = {"dynasty", "of", "the", "kingdom", "crown", "electorate", "principality", "duchy", "grand", "emirate",
                    "khanate", "caliphate", "sultanate"}
 RULING_TITLES = (r"king|queen|emperor|empress|sultan|sultana|shah|shahanshah|caliph|khan|khagan|qaghan|pharaoh|tsar|tsarina|czar"
@@ -947,21 +947,27 @@ class PolityBuilder:
 
     @staticmethod
     def _agreed_core(entity: Entity, infobox: Infobox) -> list[int] | None:
-        """When the sources do not confirm its dates, Wikidata's (each a single value, known to the decade or better)
-        within the infobox's, rounded out to whole decades: "c. 60 BC – AD 940" for Silla. Cliopatria's drawn years
-        do not narrow it, since the map often stops drawing a state before it ended. Nothing when Wikidata lacks such
-        dates or the two share no years."""
-        starts = entity.years("P571") + entity.years("P580")
-        ends = entity.years("P576") + entity.years("P582")
-        if len({year.value for year in starts}) != 1 or len({year.value for year in ends}) != 1 \
-                or min(year.precision for year in starts + ends) < DECADE_PRECISION:
+        """When the sources do not confirm its dates, Wikidata's (each a single value, known to the century or better),
+        or the infobox's where Wikidata gives none, within the infobox's, rounded out to whole decades, or centuries
+        when Wikidata knows one only to the century: "c. 60 BC – AD 900" for Silla, "c. 510–320 BC" for Classical
+        Athens. Cliopatria's drawn years do not narrow it, since the map often stops drawing a state before it ended.
+        Nothing when an end is missing or the two share no years."""
+        def date(found: list, fallback: Span | None) -> tuple[int, int] | None:
+            if len({year.value for year in found}) == 1 and min(year.precision for year in found) >= CENTURY_PRECISION:
+                return found[0].value, min(year.precision for year in found)
+            return (fallback.earliest, DECADE_PRECISION) if not found and fallback else None
+
+        start = date(entity.years("P571") + entity.years("P580"), infobox.start)
+        end = date(entity.years("P576") + entity.years("P582"), infobox.end and Span(infobox.end.latest, infobox.end.latest))
+        if not start or not end:
             return None
-        first, last = starts[0].value, ends[0].value
+        first, last = start[0], end[0]
         if infobox.start and infobox.end:
             first, last = max(first, infobox.start.earliest), min(last, infobox.end.latest)
         if first > last:
             return None
-        return [math.floor(first / 10) * 10, math.ceil(last / 10) * 10]
+        step = 10 if min(start[1], end[1]) >= DECADE_PRECISION else 100
+        return [math.floor(first / step) * step, math.ceil(last / step) * step]
 
     def assign_tiers(self, polities: list[Polity], figures: list) -> None:
         """Core for what every learner should meet: listed as vital at level 4 or above, or at level 5 with an article
