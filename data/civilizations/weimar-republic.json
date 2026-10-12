@@ -34,14 +34,16 @@
     {
       "id": "Q43287",
       "region": "Germany",
-      "name": "German Empire"
+      "name": "German Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q7318",
       "region": "Germany",
-      "name": "Nazi Germany"
+      "name": "Nazi Germany",
+      "home": true
     }
   ],
   "rulers": [
@@ -61,7 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A historical period of the German state from 9 November 1918 to 23 March 1933, during which it was a constitutional republic for the first time in history.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/weimar-republic.png",
   "map_asked": true,
   "checks": {

@@ -42,7 +42,8 @@
     {
       "id": "Q15146034",
       "region": "Afghanistan",
-      "name": "Göktürk Khaganate"
+      "name": "Göktürk Khaganate",
+      "home": true
     }
   ],
   "rulers": [],
@@ -59,7 +60,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A people who lived in Central Asia during the 5th to 8th centuries CE, and were a part of what numismatist Robert Göbl calls Iranian Huns.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/white-huns.png",
   "map_asked": true,
   "checks": {

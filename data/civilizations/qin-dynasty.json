@@ -34,14 +34,16 @@
     {
       "id": "Q837855",
       "region": "China",
-      "name": "Qi"
+      "name": "Qi",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q7209",
       "region": "China",
-      "name": "Han Dynasty"
+      "name": "Han Dynasty",
+      "home": true
     }
   ],
   "rulers": [

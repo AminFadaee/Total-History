@@ -43,7 +43,8 @@
     {
       "id": "Q161885",
       "region": "United Kingdom",
-      "name": "Kingdom of Great Britain"
+      "name": "Kingdom of Great Britain",
+      "home": true
     }
   ],
   "rulers": [
@@ -70,7 +71,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A sovereign state in northwest Europe, traditionally said to have been founded in 843.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-scotland.png",
   "map_asked": true,
   "checks": {

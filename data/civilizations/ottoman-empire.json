@@ -58,24 +58,22 @@
     {
       "id": "Q12544",
       "region": "Turkey",
-      "name": "Byzantine Empire"
-    },
-    {
-      "id": "Q12536",
-      "region": "Iraq",
-      "name": "Abbasid Caliphate"
+      "name": "Byzantine Empire",
+      "home": true
     },
     {
       "id": "Q420759",
       "region": "Bulgaria",
-      "name": "Second Bulgarian Empire"
+      "name": "Second Bulgarian Empire",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q43",
       "region": "Turkey",
-      "name": "Republic of Turkey"
+      "name": "Republic of Turkey",
+      "home": true
     }
   ],
   "rulers": [
@@ -127,7 +125,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A state that spanned much of Southeastern Europe, West Asia, and North Africa from the 14th century to the early 20th century, centred in modern-day Turkey.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/ottoman-empire.png",
   "map_asked": true,
   "checks": {

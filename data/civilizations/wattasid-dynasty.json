@@ -34,14 +34,16 @@
     {
       "id": "Q582861",
       "region": "Morocco",
-      "name": "Marinid Sultanate"
+      "name": "Marinid Sultanate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q1136188",
       "region": "Morocco",
-      "name": "Saadi Sultanate"
+      "name": "Saadi Sultanate",
+      "home": true
     }
   ],
   "rulers": [

@@ -42,14 +42,16 @@
     {
       "id": "Q105313",
       "region": "United Kingdom",
-      "name": "Kingdom of Wessex"
+      "name": "Kingdom of Wessex",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q161885",
       "region": "United Kingdom",
-      "name": "Kingdom of Great Britain"
+      "name": "Kingdom of Great Britain",
+      "home": true
     }
   ],
   "rulers": [

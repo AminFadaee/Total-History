@@ -34,14 +34,16 @@
     {
       "id": "Q1069868",
       "region": "China",
-      "name": "Liang Dynasty"
+      "name": "Liang Dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q7405",
       "region": "China",
-      "name": "Sui Dynasty"
+      "name": "Sui Dynasty",
+      "home": true
     }
   ],
   "rulers": [

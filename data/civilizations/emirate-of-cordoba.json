@@ -34,7 +34,8 @@
     {
       "id": "Q8575586",
       "region": "Spain",
-      "name": "Umayyad Caliphate"
+      "name": "Umayyad Caliphate",
+      "home": true
     }
   ],
   "after": [],
@@ -64,7 +65,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An Arab Islamic state ruled by the Umayyad dynasty from 756 to 1031.",
-  "tier": "Extended",
+  "tier": "Core",
   "map": "maps/emirate-of-cordoba.png",
   "map_asked": true,
   "checks": {

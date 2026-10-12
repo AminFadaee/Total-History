@@ -58,14 +58,16 @@
     {
       "id": "Q1255614",
       "region": "Pakistan",
-      "name": "Indo-Parthians"
+      "name": "Indo-Parthians",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q11774",
       "region": "Pakistan",
-      "name": "Gupta Empire"
+      "name": "Gupta Empire",
+      "home": true
     }
   ],
   "rulers": [

@@ -34,14 +34,16 @@
     {
       "id": "Q58326",
       "region": "France",
-      "name": "French Second Republic"
+      "name": "French Second Republic",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q70802",
       "region": "France",
-      "name": "French Third Republic"
+      "name": "French Third Republic",
+      "home": true
     }
   ],
   "rulers": [
@@ -56,7 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The government of France from 1852 to 1870.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/second-french-empire.png",
   "map_asked": false,
   "checks": {

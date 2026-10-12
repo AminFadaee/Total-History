@@ -30,19 +30,22 @@
     {
       "id": "Q249578",
       "region": "Afghanistan",
-      "name": "Ghaznavid Empire"
+      "name": "Ghaznavid Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q63134381",
       "region": "Afghanistan",
-      "name": "Khwarezmid Empire"
+      "name": "Khwarezmid Empire",
+      "home": true
     },
     {
       "id": "Q229411",
       "region": "Pakistan",
-      "name": "Delhi Sultanate"
+      "name": "Delhi Sultanate",
+      "home": false
     }
   ],
   "rulers": [

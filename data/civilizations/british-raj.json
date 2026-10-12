@@ -42,19 +42,22 @@
     {
       "id": "Q33296",
       "region": "India",
-      "name": "Mughal Empire"
+      "name": "Mughal Empire",
+      "home": true
     },
     {
       "id": "Q83572",
       "region": "Pakistan",
-      "name": "Sikh Empire"
+      "name": "Sikh Empire",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q668",
       "region": "India",
-      "name": "Republic of India"
+      "name": "Republic of India",
+      "home": true
     }
   ],
   "rulers": [

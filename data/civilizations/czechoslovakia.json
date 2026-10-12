@@ -34,14 +34,16 @@
     {
       "id": "Q28513",
       "region": "Czechia",
-      "name": "Austria-Hungary"
+      "name": "Austria-Hungary",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q213",
       "region": "Czechia",
-      "name": "Czech Republic"
+      "name": "Czech Republic",
+      "home": true
     }
   ],
   "rulers": [

@@ -1,0 +1,95 @@
+{
+  "id": "Q212439",
+  "slug": "cossack-hetmanate",
+  "name": "Cossack Hetmanate",
+  "wikipedia": "Cossack Hetmanate",
+  "map_year": 1648,
+  "period": {
+    "start": {
+      "earliest": 1648,
+      "latest": 1648,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1764,
+      "latest": 1764,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
+    "since": null
+  },
+  "capitals": [
+    {
+      "name": "Chyhyryn",
+      "location": [
+        32.666666666667,
+        49.083333333333
+      ],
+      "founded": null
+    },
+    {
+      "name": "Baturyn",
+      "location": [
+        32.883333333333,
+        51.333333333333
+      ],
+      "founded": 1625
+    },
+    {
+      "name": "Hlukhiv",
+      "location": [
+        33.907781433829,
+        51.676457594263
+      ],
+      "founded": 992
+    }
+  ],
+  "parts": [],
+  "before": [],
+  "after": [],
+  "rulers": [
+    {
+      "id": "Q203808",
+      "name": "Bohdan Khmelnytsky"
+    },
+    {
+      "id": "Q561414",
+      "name": "Ivan Vyhovsky"
+    },
+    {
+      "id": "Q165419",
+      "name": "Ivan Mazepa"
+    },
+    {
+      "id": "Q966936",
+      "name": "Pylyp Orlyk"
+    }
+  ],
+  "modern_countries": [],
+  "overseas_countries": [],
+  "borders": false,
+  "summary": "A stratocratic state established by Registered Cossacks in Dnieper Ukraine.",
+  "tier": "Core",
+  "map": "",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chyhyryn",
+        "Baturyn",
+        "Hlukhiv",
+        "Hadiach"
+      ],
+      "infobox": [
+        "Chyhyryn",
+        "Baturyn",
+        "Hlukhiv"
+      ]
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

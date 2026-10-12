@@ -50,14 +50,16 @@
     {
       "id": "Q93180",
       "region": "Turkmenistan",
-      "name": "Seleucid Empire"
+      "name": "Seleucid Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q83891",
       "region": "Turkmenistan",
-      "name": "Sasanian Empire"
+      "name": "Sasanian Empire",
+      "home": true
     }
   ],
   "rulers": [

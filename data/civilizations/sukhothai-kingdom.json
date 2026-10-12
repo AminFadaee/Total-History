@@ -43,7 +43,8 @@
     {
       "id": "Q841364",
       "region": "Thailand",
-      "name": "Ayutthaya Kingdom"
+      "name": "Ayutthaya Kingdom",
+      "home": true
     }
   ],
   "rulers": [
@@ -64,7 +65,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A post-classical Siamese kingdom in Mainland Southeast Asia centred on the ancient city of Sukhothai in present-day north-central Thailand.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/sukhothai-kingdom.png",
   "map_asked": true,
   "checks": {

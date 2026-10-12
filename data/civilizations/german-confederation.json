@@ -25,19 +25,22 @@
     {
       "id": "Q154741",
       "region": "Poland",
-      "name": "Confederation of the Rhine"
+      "name": "Confederation of the Rhine",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q43287",
       "region": "Poland",
-      "name": "German Empire"
+      "name": "German Empire",
+      "home": true
     },
     {
       "id": "Q150981",
       "region": "Germany",
-      "name": "North German Confederation"
+      "name": "North German Confederation",
+      "home": false
     }
   ],
   "rulers": [

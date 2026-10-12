@@ -34,7 +34,8 @@
     {
       "id": "Q217196",
       "region": "Spain",
-      "name": "Crown of Castile"
+      "name": "Crown of Castile",
+      "home": true
     }
   ],
   "after": [],
@@ -70,7 +71,7 @@
   ],
   "borders": true,
   "summary": "A country in Southern and Western Europe with territories in North Africa.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-spain.png",
   "map_asked": true,
   "checks": {

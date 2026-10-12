@@ -34,14 +34,16 @@
     {
       "id": "Q193292",
       "region": "Japan",
-      "name": "Heian Japan"
+      "name": "Heian Japan",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q1154406",
       "region": "Japan",
-      "name": "Ashikaga Shogunate"
+      "name": "Ashikaga Shogunate",
+      "home": true
     }
   ],
   "rulers": [],
@@ -51,7 +53,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The feudal military government of Japan during the Kamakura period from 1185 to 1333.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kamakura-shogunate.png",
   "map_asked": true,
   "checks": {

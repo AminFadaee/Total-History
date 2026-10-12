@@ -42,19 +42,22 @@
     {
       "id": "Q733668",
       "region": "Syria",
-      "name": "Ghassanids"
+      "name": "Ghassanids",
+      "home": false
     },
     {
       "id": "Q83891",
       "region": "Iran",
-      "name": "Sasanian Empire"
+      "name": "Sasanian Empire",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q8575586",
       "region": "Iraq",
-      "name": "Umayyad Caliphate"
+      "name": "Umayyad Caliphate",
+      "home": true
     }
   ],
   "rulers": [
@@ -99,7 +102,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The early Islamic polity led by the first four successive caliphs: Abu Bakr, Umar, Uthman, and Ali, collectively known as the Rashidun, or \"Rightly Guided\" caliphs.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/rashidun-caliphate.png",
   "map_asked": true,
   "checks": {

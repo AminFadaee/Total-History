@@ -10,12 +10,8 @@
       "latest": -701,
       "circa": false
     },
-    "end": {
-      "earliest": -1000,
-      "latest": -1,
-      "circa": false
-    },
-    "confirmed": true,
+    "end": null,
+    "confirmed": false,
     "core": null,
     "since": null
   },

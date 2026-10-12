@@ -35,7 +35,8 @@
     {
       "id": "Q13474305",
       "region": "Spain",
-      "name": "Francoist Spain"
+      "name": "Francoist Spain",
+      "home": true
     }
   ],
   "rulers": [
@@ -58,7 +59,7 @@
   ],
   "borders": true,
   "summary": "The democratic government of Spain from 1931 to 1939.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/second-spanish-republic.png",
   "map_asked": false,
   "checks": {

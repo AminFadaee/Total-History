@@ -34,14 +34,16 @@
     {
       "id": "Q1154406",
       "region": "Japan",
-      "name": "Ashikaga Shogunate"
+      "name": "Ashikaga Shogunate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q188712",
       "region": "Japan",
-      "name": "Empire of Japan"
+      "name": "Empire of Japan",
+      "home": true
     }
   ],
   "rulers": [

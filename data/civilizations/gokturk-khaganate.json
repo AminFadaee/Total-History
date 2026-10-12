@@ -34,12 +34,14 @@
     {
       "id": "Q26576",
       "region": "Kyrgyzstan",
-      "name": "White Huns"
+      "name": "White Huns",
+      "home": true
     },
     {
       "id": "Q155361",
       "region": "Mongolia",
-      "name": "Rouran Khaganate"
+      "name": "Rouran Khaganate",
+      "home": false
     }
   ],
   "after": [],

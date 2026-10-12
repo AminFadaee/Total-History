@@ -34,14 +34,16 @@
     {
       "id": "Q180114",
       "region": "Egypt",
-      "name": "Ayyubid Sultanate"
+      "name": "Ayyubid Sultanate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q12560",
       "region": "Egypt",
-      "name": "Ottoman Empire"
+      "name": "Ottoman Empire",
+      "home": true
     }
   ],
   "rulers": [

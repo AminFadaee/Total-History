@@ -34,14 +34,16 @@
     {
       "id": "Q146871",
       "region": "Saudi Arabia",
-      "name": "Emirate of Diriyah"
+      "name": "Emirate of Diriyah",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q5362837",
       "region": "Saudi Arabia",
-      "name": "Emirate of Jabal Shammar"
+      "name": "Emirate of Jabal Shammar",
+      "home": true
     }
   ],
   "rulers": [

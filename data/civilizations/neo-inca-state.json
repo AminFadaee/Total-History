@@ -34,14 +34,16 @@
     {
       "id": "Q28573",
       "region": "Peru",
-      "name": "Inca Empire"
+      "name": "Inca Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q80702",
       "region": "Peru",
-      "name": "Spanish Empire"
+      "name": "Spanish Empire",
+      "home": true
     }
   ],
   "rulers": [
@@ -72,7 +74,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The Inca state established in 1537 at Vilcabamba by Manco Inca Yupanqui.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/neo-inca-state.png",
   "map_asked": true,
   "checks": {

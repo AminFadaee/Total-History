@@ -42,14 +42,16 @@
     {
       "id": "Q715257",
       "region": "North Korea",
-      "name": "Unified Silla"
+      "name": "Unified Silla",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q28179",
       "region": "North Korea",
-      "name": "Joseon"
+      "name": "Joseon",
+      "home": true
     }
   ],
   "rulers": [

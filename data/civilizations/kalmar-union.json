@@ -40,14 +40,16 @@
     {
       "id": "Q756617",
       "region": "Denmark",
-      "name": "Kingdom of Denmark"
+      "name": "Kingdom of Denmark",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q62651",
       "region": "Denmark",
-      "name": "Denmark-Norway"
+      "name": "Denmark-Norway",
+      "home": true
     }
   ],
   "rulers": [
@@ -79,7 +81,7 @@
   ],
   "borders": true,
   "summary": "A personal union in Scandinavia, agreed at Kalmar in Sweden as designed by Queen Margaret I of Denmark.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kalmar-union.png",
   "map_asked": true,
   "checks": {

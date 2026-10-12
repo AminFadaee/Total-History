@@ -42,14 +42,16 @@
     {
       "id": "Q93180",
       "region": "Afghanistan",
-      "name": "Seleucid Empire"
+      "name": "Seleucid Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q215643",
       "region": "Pakistan",
-      "name": "Indo-Greeks"
+      "name": "Indo-Greeks",
+      "home": false
     }
   ],
   "rulers": [

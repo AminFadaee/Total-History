@@ -34,14 +34,16 @@
     {
       "id": "Q28456",
       "region": "South Korea",
-      "name": "Silla"
+      "name": "Silla",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q28208",
       "region": "South Korea",
-      "name": "Goryeo"
+      "name": "Goryeo",
+      "home": true
     }
   ],
   "rulers": [

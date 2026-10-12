@@ -35,10 +35,15 @@
     {
       "id": "Q105313",
       "region": "United Kingdom",
-      "name": "Kingdom of Wessex"
+      "name": "Kingdom of Wessex",
+      "home": true
     }
   ],
   "rulers": [
+    {
+      "id": "Q499807",
+      "name": "Pybba of Mercia"
+    },
     {
       "id": "Q332123",
       "name": "Penda of Mercia"
@@ -50,10 +55,6 @@
     {
       "id": "Q233573",
       "name": "Offa of Mercia"
-    },
-    {
-      "id": "Q154934",
-      "name": "Ecgberht, King of Wessex"
     }
   ],
   "modern_countries": [

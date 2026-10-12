@@ -34,7 +34,8 @@
     {
       "id": "Q7405",
       "region": "China",
-      "name": "Sui Dynasty"
+      "name": "Sui Dynasty",
+      "home": true
     }
   ],
   "after": [],
@@ -68,7 +69,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/tang-dynasty.png",
   "map_asked": true,
   "checks": {

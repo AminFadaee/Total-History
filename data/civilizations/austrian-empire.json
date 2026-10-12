@@ -34,19 +34,22 @@
     {
       "id": "Q153136",
       "region": "Austria",
-      "name": "Habsburg Monarchy"
+      "name": "Habsburg Monarchy",
+      "home": true
     },
     {
       "id": "Q208169",
       "region": "Croatia",
-      "name": "Republic of Ragusa"
+      "name": "Republic of Ragusa",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q28513",
       "region": "Austria",
-      "name": "Austria-Hungary"
+      "name": "Austria-Hungary",
+      "home": true
     }
   ],
   "rulers": [

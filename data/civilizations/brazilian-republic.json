@@ -26,7 +26,8 @@
     {
       "id": "Q217230",
       "region": "Brazil",
-      "name": "Empire of Brazil"
+      "name": "Empire of Brazil",
+      "home": true
     }
   ],
   "after": [],
@@ -54,7 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The largest country in South America.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/brazilian-republic.png",
   "map_asked": true,
   "checks": {

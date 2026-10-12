@@ -41,7 +41,8 @@
     {
       "id": "Q180568",
       "region": "Lebanon",
-      "name": "New Kingdom of Egypt"
+      "name": "New Kingdom of Egypt",
+      "home": true
     }
   ],
   "after": [],
@@ -64,7 +65,7 @@
   ],
   "borders": true,
   "summary": "An ancient Semitic-speaking people who inhabited city-states in Canaan along the Levantine coast of the eastern Mediterranean, primarily in present-day Lebanon.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/phoenicia.png",
   "map_asked": true,
   "checks": {

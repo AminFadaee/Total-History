@@ -34,14 +34,16 @@
     {
       "id": "Q581741",
       "region": "Peru",
-      "name": "Chimor"
+      "name": "Chimor",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q10715354",
       "region": "Peru",
-      "name": "Neo-Inca State"
+      "name": "Neo-Inca State",
+      "home": true
     }
   ],
   "rulers": [
@@ -72,7 +74,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The largest empire in pre-Columbian America.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/inca-empire.png",
   "map_asked": true,
   "checks": {

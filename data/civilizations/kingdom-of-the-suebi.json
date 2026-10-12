@@ -34,14 +34,16 @@
     {
       "id": "Q42834",
       "region": "Portugal",
-      "name": "Western Roman Empire"
+      "name": "Western Roman Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q126936",
       "region": "Portugal",
-      "name": "Visigothic Kingdom"
+      "name": "Visigothic Kingdom",
+      "home": true
     }
   ],
   "rulers": [

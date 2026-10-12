@@ -50,14 +50,16 @@
     {
       "id": "Q42834",
       "region": "France",
-      "name": "Western Roman Empire"
+      "name": "Western Roman Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q8575586",
       "region": "Spain",
-      "name": "Umayyad Caliphate"
+      "name": "Umayyad Caliphate",
+      "home": true
     }
   ],
   "rulers": [

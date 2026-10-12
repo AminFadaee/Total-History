@@ -30,7 +30,8 @@
     {
       "id": "Q8680",
       "region": "Canada",
-      "name": "British Empire"
+      "name": "British Empire",
+      "home": true
     }
   ],
   "after": [],
@@ -54,7 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A country in North America.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/canada.png",
   "map_asked": true,
   "checks": {

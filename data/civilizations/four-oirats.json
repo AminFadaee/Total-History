@@ -24,14 +24,16 @@
     {
       "id": "Q8959",
       "region": "China",
-      "name": "Northern Yuan"
+      "name": "Northern Yuan",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q1923401",
       "region": "China",
-      "name": "Dzungar Khanate"
+      "name": "Dzungar Khanate",
+      "home": true
     }
   ],
   "rulers": [

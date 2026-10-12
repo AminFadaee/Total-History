@@ -42,14 +42,16 @@
     {
       "id": "Q12544",
       "region": "Turkey",
-      "name": "Byzantine Empire"
+      "name": "Byzantine Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q282428",
       "region": "Turkey",
-      "name": "Mamluk Sultanate"
+      "name": "Mamluk Sultanate",
+      "home": true
     }
   ],
   "rulers": [

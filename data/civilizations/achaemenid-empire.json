@@ -66,29 +66,28 @@
     {
       "id": "Q620765",
       "region": "Turkey",
-      "name": "Lydia"
+      "name": "Lydia",
+      "home": false
     },
     {
       "id": "Q624887",
       "region": "Iraq",
-      "name": "Neo-Babylonian Empire"
-    },
-    {
-      "id": "Q662410",
-      "region": "Egypt",
-      "name": "Twenty-sixth Dynasty of Egypt"
+      "name": "Neo-Babylonian Empire",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q83958",
       "region": "Iran",
-      "name": "Macedonian Empire"
+      "name": "Macedonian Empire",
+      "home": true
     },
     {
       "id": "Q208404",
       "region": "Armenia",
-      "name": "Kingdom of Armenia"
+      "name": "Kingdom of Armenia",
+      "home": false
     }
   ],
   "rulers": [
@@ -129,7 +128,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An ancient Iranian empire founded by Cyrus the Great of the Achaemenid dynasty in 550 BC.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/achaemenid-empire.png",
   "map_asked": true,
   "checks": {

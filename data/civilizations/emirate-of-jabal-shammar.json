@@ -34,14 +34,16 @@
     {
       "id": "Q146862",
       "region": "Saudi Arabia",
-      "name": "Emirate of Nejd"
+      "name": "Emirate of Nejd",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q851",
       "region": "Saudi Arabia",
-      "name": "Kingdom of Saudi Arabia"
+      "name": "Kingdom of Saudi Arabia",
+      "home": true
     }
   ],
   "rulers": [
@@ -59,7 +61,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "A state in the northern part of the Arabian Peninsula, including Najd, existing from the mid-nineteenth century to 1921.",
+  "summary": "A historical emirate in the northern part of the Arabian Peninsula, centred on Ha'il in Najd.",
   "tier": "Extended",
   "map": "maps/emirate-of-jabal-shammar.png",
   "map_asked": true,

@@ -34,14 +34,16 @@
     {
       "id": "Q12557",
       "region": "China",
-      "name": "Mongol Empire"
+      "name": "Mongol Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q9903",
       "region": "China",
-      "name": "Ming Dynasty"
+      "name": "Ming Dynasty",
+      "home": true
     }
   ],
   "rulers": [

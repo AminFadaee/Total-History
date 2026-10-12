@@ -34,7 +34,8 @@
     {
       "id": "Q3185305",
       "region": "Palestine",
-      "name": "Kingdom of Israel"
+      "name": "Kingdom of Israel",
+      "home": true
     }
   ],
   "after": [],
@@ -64,7 +65,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An Israelite kingdom of the Southern Levant during the Iron Age.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-judah.png",
   "map_asked": true,
   "checks": {

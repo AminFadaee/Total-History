@@ -34,14 +34,16 @@
     {
       "id": "Q160307",
       "region": "Palestine",
-      "name": "Fatimid Caliphate"
+      "name": "Fatimid Caliphate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q180114",
       "region": "Palestine",
-      "name": "Ayyubid Sultanate"
+      "name": "Ayyubid Sultanate",
+      "home": true
     }
   ],
   "rulers": [
@@ -64,7 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "One of the Crusader states established in the Levant immediately after the First Crusade.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-jerusalem.png",
   "map_asked": true,
   "checks": {

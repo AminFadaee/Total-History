@@ -34,14 +34,16 @@
     {
       "id": "Q627449",
       "region": "Iran",
-      "name": "Hotaki Dynasty"
+      "name": "Hotaki Dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q467627",
       "region": "Iran",
-      "name": "Durrani Empire"
+      "name": "Durrani Empire",
+      "home": true
     }
   ],
   "rulers": [

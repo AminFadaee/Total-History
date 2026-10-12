@@ -42,14 +42,16 @@
     {
       "id": "Q175276",
       "region": "Portugal",
-      "name": "Kingdom of León"
+      "name": "Kingdom of León",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q45",
       "region": "Portugal",
-      "name": "Portuguese Republic"
+      "name": "Portuguese Republic",
+      "home": true
     }
   ],
   "rulers": [

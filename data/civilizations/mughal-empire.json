@@ -58,19 +58,16 @@
     {
       "id": "Q229411",
       "region": "India",
-      "name": "Delhi Sultanate"
-    },
-    {
-      "id": "Q484195",
-      "region": "Afghanistan",
-      "name": "Timurid Empire"
+      "name": "Delhi Sultanate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q129286",
       "region": "India",
-      "name": "British Raj"
+      "name": "British Raj",
+      "home": true
     }
   ],
   "rulers": [
@@ -100,7 +97,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An early modern empire in South Asia.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/mughal-empire.png",
   "map_asked": true,
   "checks": {

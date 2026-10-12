@@ -42,14 +42,16 @@
     {
       "id": "Q173065",
       "region": "Italy",
-      "name": "Kingdom of Naples"
+      "name": "Kingdom of Naples",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q172579",
       "region": "Italy",
-      "name": "Kingdom of Italy"
+      "name": "Kingdom of Italy",
+      "home": true
     }
   ],
   "rulers": [
@@ -64,7 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A kingdom in Southern Italy from 1816 to 1861 under the control of the House of Bourbon-Two Sicilies, a cadet branch of the Bourbons.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-the-two-sicilies.png",
   "map_asked": true,
   "checks": {

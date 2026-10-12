@@ -34,14 +34,16 @@
     {
       "id": "Q188586",
       "region": "Italy",
-      "name": "Kingdom of Sicily"
+      "name": "Kingdom of Sicily",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q180393",
       "region": "Italy",
-      "name": "Kingdom of the Two Sicilies"
+      "name": "Kingdom of the Two Sicilies",
+      "home": true
     }
   ],
   "rulers": [
@@ -60,7 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A state that ruled the part of the Italian Peninsula south of the Papal States between 1282 and 1816.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-naples.png",
   "map_asked": true,
   "checks": {

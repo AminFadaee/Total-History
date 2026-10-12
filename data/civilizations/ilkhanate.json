@@ -50,14 +50,16 @@
     {
       "id": "Q12557",
       "region": "Iran",
-      "name": "Mongol Empire"
+      "name": "Mongol Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q866716",
       "region": "Iran",
-      "name": "Jalayirid Sultanate"
+      "name": "Jalayirid Sultanate",
+      "home": true
     }
   ],
   "rulers": [
@@ -79,7 +81,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A Mongol khanate founded in the southwestern territories of the Mongol Empire.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/ilkhanate.png",
   "map_asked": true,
   "checks": {

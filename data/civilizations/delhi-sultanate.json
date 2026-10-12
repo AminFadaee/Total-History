@@ -50,14 +50,16 @@
     {
       "id": "Q199443",
       "region": "Pakistan",
-      "name": "Ghurid Dynasty"
+      "name": "Ghurid Dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q33296",
       "region": "India",
-      "name": "Mughal Empire"
+      "name": "Mughal Empire",
+      "home": true
     }
   ],
   "rulers": [

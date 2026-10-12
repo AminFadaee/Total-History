@@ -35,7 +35,8 @@
     {
       "id": "Q188553",
       "region": "Netherlands",
-      "name": "Batavian Republic"
+      "name": "Batavian Republic",
+      "home": true
     }
   ],
   "rulers": [
@@ -65,7 +66,7 @@
   ],
   "borders": true,
   "summary": "A confederation and great power that existed from 1588 until the Batavian Revolution in 1795.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/dutch-republic.png",
   "map_asked": true,
   "checks": {

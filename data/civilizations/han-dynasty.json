@@ -50,14 +50,16 @@
     {
       "id": "Q7183",
       "region": "China",
-      "name": "Qin dynasty"
+      "name": "Qin dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q320930",
       "region": "China",
-      "name": "Cao Wei"
+      "name": "Cao Wei",
+      "home": true
     }
   ],
   "rulers": [
@@ -84,7 +86,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An imperial dynasty of China established by Liu Bang, and preceded by the short-lived Qin dynasty and the interregnum known as the Chu–Han Contention.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/han-dynasty.png",
   "map_asked": true,
   "checks": {

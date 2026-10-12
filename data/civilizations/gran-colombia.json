@@ -34,14 +34,16 @@
     {
       "id": "Q80702",
       "region": "Colombia",
-      "name": "Spanish Empire"
+      "name": "Spanish Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q630882",
       "region": "Colombia",
-      "name": "Republic of New Granada"
+      "name": "Republic of New Granada",
+      "home": true
     }
   ],
   "rulers": [

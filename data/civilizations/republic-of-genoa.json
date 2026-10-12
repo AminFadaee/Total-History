@@ -34,14 +34,16 @@
     {
       "id": "Q12548",
       "region": "Italy",
-      "name": "Holy Roman Empire"
+      "name": "Holy Roman Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q659312",
       "region": "Italy",
-      "name": "Ligurian Republic"
+      "name": "Ligurian Republic",
+      "home": true
     }
   ],
   "rulers": [

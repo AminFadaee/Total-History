@@ -50,19 +50,22 @@
     {
       "id": "Q555994",
       "region": "Iran",
-      "name": "Aq Qoyunlu"
+      "name": "Aq Qoyunlu",
+      "home": true
     },
     {
       "id": "Q484195",
       "region": "Afghanistan",
-      "name": "Timurid Empire"
+      "name": "Timurid Empire",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q627449",
       "region": "Iran",
-      "name": "Hotaki Dynasty"
+      "name": "Hotaki Dynasty",
+      "home": true
     }
   ],
   "rulers": [

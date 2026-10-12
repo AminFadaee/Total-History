@@ -42,14 +42,16 @@
     {
       "id": "Q170770",
       "region": "Russia",
-      "name": "Grand Principality of Moscow"
+      "name": "Grand Principality of Moscow",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q34266",
       "region": "Russia",
-      "name": "Russian Empire"
+      "name": "Russian Empire",
+      "home": true
     }
   ],
   "rulers": [

@@ -42,14 +42,16 @@
     {
       "id": "Q186096",
       "region": "Russia",
-      "name": "Tsardom of Russia"
+      "name": "Tsardom of Russia",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q139319",
       "region": "Russia",
-      "name": "Russian Republic"
+      "name": "Russian Republic",
+      "home": true
     }
   ],
   "rulers": [

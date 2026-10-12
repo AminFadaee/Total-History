@@ -34,14 +34,16 @@
     {
       "id": "Q1115291",
       "region": "Thailand",
-      "name": "Thonburi Kingdom"
+      "name": "Thonburi Kingdom",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q869",
       "region": "Thailand",
-      "name": "Kingdom of Thailand"
+      "name": "Kingdom of Thailand",
+      "home": true
     }
   ],
   "rulers": [
@@ -70,7 +72,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "Period of Thai history.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/rattanakosin-kingdom.png",
   "map_asked": true,
   "checks": {

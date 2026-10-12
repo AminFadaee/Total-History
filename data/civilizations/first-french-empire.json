@@ -34,14 +34,16 @@
     {
       "id": "Q58296",
       "region": "France",
-      "name": "French First Republic"
+      "name": "French First Republic",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q207162",
       "region": "France",
-      "name": "Bourbon Kingdom of France"
+      "name": "Bourbon Kingdom of France",
+      "home": true
     }
   ],
   "rulers": [
@@ -65,7 +67,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The empire ruled by Napoleon Bonaparte, who established French hegemony over much of continental Europe at the beginning of the 19th century.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/first-french-empire.png",
   "map_asked": true,
   "checks": {

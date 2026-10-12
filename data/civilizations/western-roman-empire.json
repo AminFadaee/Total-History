@@ -42,24 +42,28 @@
     {
       "id": "Q2277",
       "region": "Italy",
-      "name": "Roman Empire"
+      "name": "Roman Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q583038",
       "region": "Italy",
-      "name": "Ostrogothic Kingdom"
+      "name": "Ostrogothic Kingdom",
+      "home": true
     },
     {
       "id": "Q146246",
       "region": "Germany",
-      "name": "Francia"
+      "name": "Francia",
+      "home": false
     },
     {
       "id": "Q10416611",
       "region": "Algeria",
-      "name": "Vandal Kingdom"
+      "name": "Vandal Kingdom",
+      "home": false
     }
   ],
   "rulers": [

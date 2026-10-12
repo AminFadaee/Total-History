@@ -34,7 +34,8 @@
     {
       "id": "Q190025",
       "region": "Guatemala",
-      "name": "United Provinces of Central America"
+      "name": "United Provinces of Central America",
+      "home": true
     }
   ],
   "after": [],
@@ -62,7 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A country in northern Central America.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/guatemala.png",
   "map_asked": true,
   "checks": {

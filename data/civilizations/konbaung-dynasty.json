@@ -58,12 +58,14 @@
     {
       "id": "Q519718",
       "region": "Myanmar",
-      "name": "Toungoo dynasty"
+      "name": "Toungoo dynasty",
+      "home": true
     },
     {
       "id": "Q1059707",
       "region": "Thailand",
-      "name": "Lanna Kingdom"
+      "name": "Lanna Kingdom",
+      "home": false
     }
   ],
   "after": [],

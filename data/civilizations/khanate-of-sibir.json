@@ -43,12 +43,8 @@
     {
       "id": "Q186096",
       "region": "Russia",
-      "name": "Tsardom of Russia"
-    },
-    {
-      "id": "Q577668",
-      "region": "Turkmenistan",
-      "name": "Khanate of Bukhara"
+      "name": "Tsardom of Russia",
+      "home": true
     }
   ],
   "rulers": [
@@ -63,7 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A Siberian Tatar state in western Siberia.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/khanate-of-sibir.png",
   "map_asked": true,
   "checks": {

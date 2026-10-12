@@ -34,7 +34,8 @@
     {
       "id": "Q174193",
       "region": "United Kingdom",
-      "name": "United Kingdom of Great Britain and Ireland"
+      "name": "United Kingdom of Great Britain and Ireland",
+      "home": true
     }
   ],
   "after": [],
@@ -69,7 +70,7 @@
   ],
   "borders": true,
   "summary": "A country in Northwestern Europe, off the coast of the continental mainland.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/united-kingdom.png",
   "map_asked": true,
   "checks": {

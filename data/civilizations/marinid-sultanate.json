@@ -36,14 +36,16 @@
     {
       "id": "Q199688",
       "region": "Morocco",
-      "name": "Almohad Caliphate"
+      "name": "Almohad Caliphate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q970799",
       "region": "Morocco",
-      "name": "Wattasid dynasty"
+      "name": "Wattasid dynasty",
+      "home": true
     }
   ],
   "rulers": [

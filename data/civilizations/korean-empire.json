@@ -34,14 +34,16 @@
     {
       "id": "Q28179",
       "region": "South Korea",
-      "name": "Joseon"
+      "name": "Joseon",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q188712",
       "region": "South Korea",
-      "name": "Empire of Japan"
+      "name": "Empire of Japan",
+      "home": true
     }
   ],
   "rulers": [

@@ -30,19 +30,22 @@
     {
       "id": "Q12557",
       "region": "Russia",
-      "name": "Mongol Empire"
+      "name": "Mongol Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q210163",
       "region": "Russia",
-      "name": "Astrakhan Khanate"
+      "name": "Astrakhan Khanate",
+      "home": true
     },
     {
       "id": "Q631210",
       "region": "Kazakhstan",
-      "name": "Nogai Horde"
+      "name": "Nogai Horde",
+      "home": false
     }
   ],
   "rulers": [

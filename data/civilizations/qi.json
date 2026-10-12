@@ -35,7 +35,8 @@
     {
       "id": "Q7183",
       "region": "China",
-      "name": "Qin dynasty"
+      "name": "Qin dynasty",
+      "home": true
     }
   ],
   "rulers": [
@@ -54,7 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A regional state of the Zhou dynasty in ancient China, whose rulers held titles of Hou, then Gong, before declaring themselves independent Kings.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/qi.png",
   "map_asked": true,
   "checks": {

@@ -26,7 +26,8 @@
     {
       "id": "Q45670",
       "region": "Portugal",
-      "name": "Kingdom of Portugal"
+      "name": "Kingdom of Portugal",
+      "home": true
     }
   ],
   "after": [],
@@ -62,7 +63,7 @@
   ],
   "borders": true,
   "summary": "A country in Southwestern Europe.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/portuguese-republic.png",
   "map_asked": false,
   "checks": {

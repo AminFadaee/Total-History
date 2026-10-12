@@ -34,14 +34,16 @@
     {
       "id": "Q146246",
       "region": "Germany",
-      "name": "Francia"
+      "name": "Francia",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q175211",
       "region": "Germany",
-      "name": "Kingdom of Germany"
+      "name": "Kingdom of Germany",
+      "home": true
     }
   ],
   "rulers": [

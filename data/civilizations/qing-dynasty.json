@@ -34,14 +34,16 @@
     {
       "id": "Q1062546",
       "region": "China",
-      "name": "Later Jin Dynasty"
+      "name": "Later Jin Dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q13426199",
       "region": "China",
-      "name": "Republic of China"
+      "name": "Republic of China",
+      "home": true
     }
   ],
   "rulers": [

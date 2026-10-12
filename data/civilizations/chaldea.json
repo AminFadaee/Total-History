@@ -1,0 +1,39 @@
+{
+  "id": "Q200969",
+  "slug": "chaldea",
+  "name": "Chaldea",
+  "wikipedia": "Chaldea",
+  "map_year": -1000,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false,
+    "core": [
+      -1000,
+      -600
+    ],
+    "since": null
+  },
+  "capitals": [],
+  "parts": [],
+  "before": [],
+  "after": [],
+  "rulers": [],
+  "modern_countries": [],
+  "overseas_countries": [],
+  "borders": false,
+  "summary": "Small Semitic nation of ancient Mesopotamia.",
+  "tier": "Core",
+  "map": "",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [],
+    "identity": "Vital Articles state without Cliopatria borders",
+    "home": "the spot held longest"
+  }
+}

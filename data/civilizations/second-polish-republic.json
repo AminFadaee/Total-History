@@ -35,7 +35,8 @@
     {
       "id": "Q15180",
       "region": "Poland",
-      "name": "Union of Soviet Socialist Republics"
+      "name": "Union of Soviet Socialist Republics",
+      "home": true
     }
   ],
   "rulers": [
@@ -52,7 +53,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The Polish state that existed between 7 October 1918 and 6 October 1939 after being established in the final stage of World War I.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/second-polish-republic.png",
   "map_asked": true,
   "checks": {

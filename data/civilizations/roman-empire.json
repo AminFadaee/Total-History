@@ -42,24 +42,28 @@
     {
       "id": "Q17167",
       "region": "Italy",
-      "name": "Roman Republic"
+      "name": "Roman Republic",
+      "home": true
     },
     {
       "id": "Q309272",
       "region": "Morocco",
-      "name": "Mauretania"
+      "name": "Mauretania",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q12544",
       "region": "Turkey",
-      "name": "Byzantine Empire"
+      "name": "Byzantine Empire",
+      "home": true
     },
     {
       "id": "Q42834",
       "region": "Italy",
-      "name": "Western Roman Empire"
+      "name": "Western Roman Empire",
+      "home": false
     }
   ],
   "rulers": [

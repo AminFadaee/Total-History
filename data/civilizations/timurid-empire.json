@@ -42,19 +42,22 @@
     {
       "id": "Q866716",
       "region": "Iraq",
-      "name": "Jalayirid Sultanate"
+      "name": "Jalayirid Sultanate",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q18234383",
       "region": "Afghanistan",
-      "name": "Safavid Dynasty"
+      "name": "Safavid Dynasty",
+      "home": true
     },
     {
       "id": "Q491106",
       "region": "Turkmenistan",
-      "name": "Khanate of Khiva"
+      "name": "Khanate of Khiva",
+      "home": false
     }
   ],
   "rulers": [

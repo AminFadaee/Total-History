@@ -34,14 +34,16 @@
     {
       "id": "Q12536",
       "region": "Afghanistan",
-      "name": "Abbasid Caliphate"
+      "name": "Abbasid Caliphate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q12150341",
       "region": "Afghanistan",
-      "name": "Samanid Empire"
+      "name": "Samanid Empire",
+      "home": true
     }
   ],
   "rulers": [

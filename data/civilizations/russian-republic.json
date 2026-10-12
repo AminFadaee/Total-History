@@ -34,14 +34,16 @@
     {
       "id": "Q34266",
       "region": "Russia",
-      "name": "Russian Empire"
+      "name": "Russian Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q15180",
       "region": "Russia",
-      "name": "Union of Soviet Socialist Republics"
+      "name": "Union of Soviet Socialist Republics",
+      "home": true
     }
   ],
   "rulers": [

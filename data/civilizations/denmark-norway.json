@@ -40,8 +40,9 @@
   "before": [
     {
       "id": "Q62623",
-      "region": "Norway",
-      "name": "Kalmar Union"
+      "region": "Denmark",
+      "name": "Kalmar Union",
+      "home": true
     }
   ],
   "after": [],
@@ -73,7 +74,7 @@
   ],
   "borders": true,
   "summary": "A 16th-to-19th-century multi-national and multi-lingual real union consisting of the Kingdom of Denmark, the Kingdom of Norway, the Duchy of Schleswig, and the Duchy of Holstein.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/denmark-norway.png",
   "map_asked": true,
   "checks": {

@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Ukraine",
   "civilizations": [
+    "Cossack Hetmanate",
     "Polish-Lithuanian Commonwealth"
   ],
   "related": [
@@ -27,15 +28,20 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "office": [
+        "Cossack Hetmanate"
+      ],
       "death": [
         "Ottoman Empire"
       ],
       "lead": [
+        "Cossack Hetmanate",
         "Tsardom of Russia",
         "Principality of Moldavia"
       ],
       "citizenship": [
-        "Polish-Lithuanian Commonwealth"
+        "Polish-Lithuanian Commonwealth",
+        "Cossack Hetmanate"
       ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"

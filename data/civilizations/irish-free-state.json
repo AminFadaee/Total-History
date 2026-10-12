@@ -34,14 +34,16 @@
     {
       "id": "Q174193",
       "region": "Ireland",
-      "name": "United Kingdom of Great Britain and Ireland"
+      "name": "United Kingdom of Great Britain and Ireland",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q27",
       "region": "Ireland",
-      "name": "Éire"
+      "name": "Éire",
+      "home": true
     }
   ],
   "rulers": [

@@ -42,14 +42,16 @@
     {
       "id": "Q958291",
       "region": "Romania",
-      "name": "United Principalities of Moldavia and Wallachia"
+      "name": "United Principalities of Moldavia and Wallachia",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q842794",
       "region": "Romania",
-      "name": "Socialist Republic of Romania"
+      "name": "Socialist Republic of Romania",
+      "home": true
     }
   ],
   "rulers": [
@@ -66,7 +68,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A constitutional monarchy that existed from 25 March [O.S. 13 March] 1881 with the crowning of prince Karl of Hohenzollern-Sigmaringen as King Carol I, until 30 December 1947 with the abdication of King Michael I and the Romanian Parliament proclamation of the Romanian People's Republic.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-romania.png",
   "map_asked": true,
   "checks": {

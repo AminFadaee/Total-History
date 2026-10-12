@@ -42,14 +42,16 @@
     {
       "id": "Q42834",
       "region": "Algeria",
-      "name": "Western Roman Empire"
+      "name": "Western Roman Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q12544",
       "region": "Tunisia",
-      "name": "Byzantine Empire"
+      "name": "Byzantine Empire",
+      "home": true
     }
   ],
   "rulers": [

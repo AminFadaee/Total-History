@@ -34,14 +34,16 @@
     {
       "id": "Q12544",
       "region": "Italy",
-      "name": "Byzantine Empire"
+      "name": "Byzantine Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q172579",
       "region": "Italy",
-      "name": "Kingdom of Italy"
+      "name": "Kingdom of Italy",
+      "home": true
     }
   ],
   "rulers": [

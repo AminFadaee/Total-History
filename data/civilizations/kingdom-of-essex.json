@@ -1,0 +1,79 @@
+{
+  "id": "Q110888",
+  "slug": "kingdom-of-essex",
+  "name": "Kingdom of Essex",
+  "wikipedia": "Kingdom of Essex",
+  "map_year": 661,
+  "period": {
+    "start": {
+      "earliest": 527,
+      "latest": 527,
+      "circa": false
+    },
+    "end": {
+      "earliest": 825,
+      "latest": 825,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
+    "since": null
+  },
+  "capitals": [
+    {
+      "name": "London",
+      "location": [
+        -0.1275,
+        51.507222222222
+      ],
+      "founded": 47
+    }
+  ],
+  "parts": [],
+  "before": [],
+  "after": [],
+  "rulers": [
+    {
+      "id": "Q154934",
+      "name": "Ecgberht, King of Wessex"
+    }
+  ],
+  "modern_countries": [
+    "United Kingdom"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An early medieval English kingdom, constituting one of the seven traditional kingdoms of the Anglo-Saxon period.",
+  "tier": "Extended",
+  "map": "maps/kingdom-of-essex.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "London"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      534,
+      665
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "London",
+    "labelled": [
+      "Kingdom of Mercia",
+      "Kingdom of Wessex",
+      "Kingdom of Kent",
+      "Saxons",
+      "Frisia Kingdom",
+      "Kingdom of Northumbria",
+      "Duchy of Thuringia",
+      "Breton Kingdoms",
+      "Magna Frisia",
+      "Dumnonia",
+      "Brythons",
+      "Kingdom of Gwynedd"
+    ]
+  }
+}

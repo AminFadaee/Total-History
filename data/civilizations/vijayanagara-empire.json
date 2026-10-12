@@ -58,14 +58,16 @@
     {
       "id": "Q466581",
       "region": "India",
-      "name": "Hoysala Kingdom"
+      "name": "Hoysala Kingdom",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q83821",
       "region": "India",
-      "name": "Bijapur Sultanate"
+      "name": "Bijapur Sultanate",
+      "home": true
     }
   ],
   "rulers": [

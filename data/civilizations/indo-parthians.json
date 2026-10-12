@@ -34,14 +34,16 @@
     {
       "id": "Q240123",
       "region": "Pakistan",
-      "name": "Indo-Scythians"
+      "name": "Indo-Scythians",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q25979",
       "region": "Pakistan",
-      "name": "Kushan Empire"
+      "name": "Kushan Empire",
+      "home": true
     }
   ],
   "rulers": [

@@ -34,14 +34,16 @@
     {
       "id": "Q28322",
       "region": "China",
-      "name": "Balhae"
+      "name": "Balhae",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q5066",
       "region": "China",
-      "name": "Great Jin"
+      "name": "Great Jin",
+      "home": true
     }
   ],
   "rulers": [

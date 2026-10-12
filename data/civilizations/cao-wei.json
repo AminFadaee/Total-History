@@ -34,14 +34,16 @@
     {
       "id": "Q7209",
       "region": "China",
-      "name": "Han Dynasty"
+      "name": "Han Dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q7352",
       "region": "China",
-      "name": "Western Jin"
+      "name": "Western Jin",
+      "home": true
     }
   ],
   "rulers": [
@@ -60,7 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "One of the major dynastic states in China during the Three Kingdoms period.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/cao-wei.png",
   "map_asked": true,
   "checks": {

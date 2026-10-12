@@ -43,7 +43,8 @@
     {
       "id": "Q12560",
       "region": "Turkey",
-      "name": "Ottoman Empire"
+      "name": "Ottoman Empire",
+      "home": true
     }
   ],
   "rulers": [
@@ -58,7 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A Turkish sultanate founded by Karamanlu clan descended from the Oghuz Turks and originating from Salur tribe.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/beylik-of-karaman.png",
   "map_asked": true,
   "checks": {

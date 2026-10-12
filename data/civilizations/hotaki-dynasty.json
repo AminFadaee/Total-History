@@ -34,14 +34,16 @@
     {
       "id": "Q18234383",
       "region": "Afghanistan",
-      "name": "Safavid Dynasty"
+      "name": "Safavid Dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q63149558",
       "region": "Afghanistan",
-      "name": "Afsharid Iran"
+      "name": "Afsharid Iran",
+      "home": true
     }
   ],
   "rulers": [

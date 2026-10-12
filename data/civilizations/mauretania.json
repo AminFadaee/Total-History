@@ -43,7 +43,8 @@
     {
       "id": "Q2277",
       "region": "Morocco",
-      "name": "Roman Empire"
+      "name": "Roman Empire",
+      "home": true
     }
   ],
   "rulers": [
@@ -71,7 +72,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The Latin name for a region in the ancient Mediterranean Maghreb.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/mauretania.png",
   "map_asked": true,
   "checks": {

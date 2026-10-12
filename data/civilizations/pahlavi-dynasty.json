@@ -34,14 +34,16 @@
     {
       "id": "Q63158027",
       "region": "Iran",
-      "name": "Qajar Dynasty"
+      "name": "Qajar Dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q794",
       "region": "Iran",
-      "name": "Islamic Republic of Iran"
+      "name": "Islamic Republic of Iran",
+      "home": true
     }
   ],
   "rulers": [
@@ -60,7 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The Iranian state under the rule of the Pahlavi dynasty.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/pahlavi-dynasty.png",
   "map_asked": true,
   "checks": {

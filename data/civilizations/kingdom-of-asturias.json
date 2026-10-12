@@ -58,14 +58,16 @@
     {
       "id": "Q126936",
       "region": "Spain",
-      "name": "Visigothic Kingdom"
+      "name": "Visigothic Kingdom",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q175276",
       "region": "Spain",
-      "name": "Kingdom of León"
+      "name": "Kingdom of León",
+      "home": true
     }
   ],
   "rulers": [
@@ -93,7 +95,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A medieval monarchy in the Iberian Peninsula founded by the nobleman Pelagius.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-asturias.png",
   "map_asked": true,
   "checks": {

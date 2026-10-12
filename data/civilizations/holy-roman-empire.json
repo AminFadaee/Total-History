@@ -66,24 +66,28 @@
     {
       "id": "Q175211",
       "region": "Germany",
-      "name": "Kingdom of Germany"
+      "name": "Kingdom of Germany",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q20135",
       "region": "Germany",
-      "name": "Grand Duchy of Hesse"
+      "name": "Grand Duchy of Hesse",
+      "home": true
     },
     {
       "id": "Q131964",
       "region": "Austria",
-      "name": "Austrian Empire"
+      "name": "Austrian Empire",
+      "home": false
     },
     {
       "id": "Q151624",
       "region": "Poland",
-      "name": "German Confederation"
+      "name": "German Confederation",
+      "home": false
     }
   ],
   "rulers": [
@@ -121,7 +125,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A confederation comprising and controlling much of Central Europe and Western Europe, headed by the Holy Roman Emperor and characterized by a decentralized political structure.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/holy-roman-empire.png",
   "map_asked": true,
   "checks": {

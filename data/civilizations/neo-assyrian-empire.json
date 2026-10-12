@@ -34,19 +34,22 @@
     {
       "id": "Q41137",
       "region": "Iraq",
-      "name": "Assyria"
+      "name": "Assyria",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q624887",
       "region": "Iraq",
-      "name": "Neo-Babylonian Empire"
+      "name": "Neo-Babylonian Empire",
+      "home": true
     },
     {
       "id": "Q662410",
       "region": "Egypt",
-      "name": "Twenty-sixth Dynasty of Egypt"
+      "name": "Twenty-sixth Dynasty of Egypt",
+      "home": false
     }
   ],
   "rulers": [

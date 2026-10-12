@@ -34,14 +34,16 @@
     {
       "id": "Q12150341",
       "region": "Afghanistan",
-      "name": "Samanid Empire"
+      "name": "Samanid Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q199443",
       "region": "Afghanistan",
-      "name": "Ghurid Dynasty"
+      "name": "Ghurid Dynasty",
+      "home": true
     }
   ],
   "rulers": [

@@ -21,7 +21,8 @@
     {
       "id": "Q47690",
       "region": "Iraq",
-      "name": "Babylonia"
+      "name": "Babylonia",
+      "home": true
     }
   ],
   "rulers": [
@@ -37,7 +38,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The earliest known civilization, located in the historical region of southern Mesopotamia, emerging during the Chalcolithic and early Bronze Ages between the 5th and 4th millennium BC.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/sumerian-city-states.png",
   "map_asked": true,
   "checks": {

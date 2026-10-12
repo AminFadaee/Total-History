@@ -34,14 +34,16 @@
     {
       "id": "Q577668",
       "region": "Uzbekistan",
-      "name": "Khanate of Bukhara"
+      "name": "Khanate of Bukhara",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q34266",
       "region": "Uzbekistan",
-      "name": "Russian Empire"
+      "name": "Russian Empire",
+      "home": true
     }
   ],
   "rulers": [

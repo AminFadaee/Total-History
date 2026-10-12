@@ -35,7 +35,8 @@
     {
       "id": "Q79",
       "region": "Egypt",
-      "name": "Republic of Egypt"
+      "name": "Republic of Egypt",
+      "home": true
     }
   ],
   "rulers": [
@@ -54,7 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The legal form of the Egyptian state during the latter period of the Muhammad Ali dynasty's reign, from the United Kingdom's recognition of Egyptian independence in 1922 until the abolition of the monarchy of Egypt and the Sudan in 1953 following the Egyptian Revolution of 1952.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-egypt.png",
   "map_asked": true,
   "checks": {

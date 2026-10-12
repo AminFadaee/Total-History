@@ -34,14 +34,16 @@
     {
       "id": "Q231392",
       "region": "Spain",
-      "name": "Kingdom of Asturias"
+      "name": "Kingdom of Asturias",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q217196",
       "region": "Spain",
-      "name": "Crown of Castile"
+      "name": "Crown of Castile",
+      "home": true
     }
   ],
   "rulers": [
@@ -69,7 +71,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A medieval state situated in the northwest region of the Iberian Peninsula.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-leon.png",
   "map_asked": true,
   "checks": {

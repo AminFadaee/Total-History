@@ -30,7 +30,8 @@
     {
       "id": "Q1136188",
       "region": "Morocco",
-      "name": "Saadi Sultanate"
+      "name": "Saadi Sultanate",
+      "home": true
     }
   ],
   "after": [],
@@ -59,7 +60,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A country in the Maghreb region of North Africa.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/morocco.png",
   "map_asked": true,
   "checks": {

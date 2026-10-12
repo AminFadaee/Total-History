@@ -42,14 +42,16 @@
     {
       "id": "Q6500483",
       "region": "Vietnam",
-      "name": "Nguyễn dynasty"
+      "name": "Nguyễn dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q881",
       "region": "Vietnam",
-      "name": "Socialist Republic of Vietnam"
+      "name": "Socialist Republic of Vietnam",
+      "home": true
     }
   ],
   "rulers": [

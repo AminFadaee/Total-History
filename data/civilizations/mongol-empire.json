@@ -47,29 +47,28 @@
     {
       "id": "Q862304",
       "region": "Kyrgyzstan",
-      "name": "Kara-Khitans"
+      "name": "Kara-Khitans",
+      "home": false
     },
     {
       "id": "Q7427",
       "region": "China",
-      "name": "Western Xia"
-    },
-    {
-      "id": "Q63134381",
-      "region": "Turkmenistan",
-      "name": "Khwarezmid Empire"
+      "name": "Western Xia",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q7313",
       "region": "China",
-      "name": "Yuan Dynasty"
+      "name": "Yuan Dynasty",
+      "home": true
     },
     {
       "id": "Q79965",
       "region": "Russia",
-      "name": "Golden Horde"
+      "name": "Golden Horde",
+      "home": false
     }
   ],
   "rulers": [
@@ -113,7 +112,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The largest contiguous empire in history.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/mongol-empire.png",
   "map_asked": true,
   "checks": {

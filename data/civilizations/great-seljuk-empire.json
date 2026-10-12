@@ -66,24 +66,28 @@
     {
       "id": "Q249578",
       "region": "Iran",
-      "name": "Ghaznavid Empire"
+      "name": "Ghaznavid Empire",
+      "home": true
     },
     {
       "id": "Q273874",
       "region": "Iraq",
-      "name": "Buyid Dynasty"
+      "name": "Buyid Dynasty",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q63134381",
       "region": "Iran",
-      "name": "Khwarezmid Empire"
+      "name": "Khwarezmid Empire",
+      "home": true
     },
     {
       "id": "Q189545",
       "region": "Iraq",
-      "name": "Zengid dynasty"
+      "name": "Zengid dynasty",
+      "home": false
     }
   ],
   "rulers": [

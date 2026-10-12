@@ -42,19 +42,22 @@
     {
       "id": "Q1986139",
       "region": "Iran",
-      "name": "Parthian Empire"
+      "name": "Parthian Empire",
+      "home": true
     },
     {
       "id": "Q1255614",
       "region": "Pakistan",
-      "name": "Indo-Parthians"
+      "name": "Indo-Parthians",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q12490507",
       "region": "Iran",
-      "name": "Rashidun Caliphate"
+      "name": "Rashidun Caliphate",
+      "home": true
     }
   ],
   "rulers": [

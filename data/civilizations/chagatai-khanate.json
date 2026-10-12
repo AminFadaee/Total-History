@@ -37,14 +37,16 @@
     {
       "id": "Q12557",
       "region": "China",
-      "name": "Mongol Empire"
+      "name": "Mongol Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q1191125",
       "region": "China",
-      "name": "Moghulistan"
+      "name": "Moghulistan",
+      "home": true
     }
   ],
   "rulers": [],
@@ -60,7 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A Mongol khanate that comprised the lands ruled by Chagatai Khan, second son of Genghis Khan, and his descendants and successors.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/chagatai-khanate.png",
   "map_asked": true,
   "checks": {

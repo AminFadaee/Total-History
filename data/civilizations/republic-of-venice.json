@@ -50,14 +50,16 @@
     {
       "id": "Q12544",
       "region": "Italy",
-      "name": "Byzantine Empire"
+      "name": "Byzantine Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q153136",
       "region": "Italy",
-      "name": "Habsburg Monarchy"
+      "name": "Habsburg Monarchy",
+      "home": true
     }
   ],
   "rulers": [

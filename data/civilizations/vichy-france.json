@@ -42,7 +42,8 @@
     {
       "id": "Q70802",
       "region": "France",
-      "name": "French Third Republic"
+      "name": "French Third Republic",
+      "home": true
     }
   ],
   "after": [],
@@ -58,7 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A French rump state headed by Marshal Philippe Pétain during World War II, established as a result of German victory in the Battle of France.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/vichy-france.png",
   "map_asked": true,
   "checks": {

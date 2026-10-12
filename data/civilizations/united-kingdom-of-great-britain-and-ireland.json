@@ -34,19 +34,22 @@
     {
       "id": "Q161885",
       "region": "United Kingdom",
-      "name": "Kingdom of Great Britain"
+      "name": "Kingdom of Great Britain",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q145",
       "region": "United Kingdom",
-      "name": "United Kingdom"
+      "name": "United Kingdom",
+      "home": true
     },
     {
       "id": "Q31747",
       "region": "Ireland",
-      "name": "Irish Free State"
+      "name": "Irish Free State",
+      "home": false
     }
   ],
   "rulers": [
@@ -80,7 +83,7 @@
   ],
   "borders": true,
   "summary": "Established by the Acts of Union in 1801 that united the Kingdom of Great Britain and the Kingdom of Ireland into one unitary and sovereign state.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/united-kingdom-of-great-britain-and-ireland.png",
   "map_asked": true,
   "checks": {

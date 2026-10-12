@@ -34,14 +34,16 @@
     {
       "id": "Q172107",
       "region": "Poland",
-      "name": "Polish-Lithuanian Commonwealth"
+      "name": "Polish-Lithuanian Commonwealth",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q34266",
       "region": "Poland",
-      "name": "Russian Empire"
+      "name": "Russian Empire",
+      "home": true
     }
   ],
   "rulers": [

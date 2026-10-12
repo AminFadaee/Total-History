@@ -43,7 +43,8 @@
     {
       "id": "Q177819",
       "region": "Egypt",
-      "name": "Old Kingdom of Egypt"
+      "name": "Old Kingdom of Egypt",
+      "home": true
     }
   ],
   "rulers": [
@@ -58,7 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The era of ancient Egypt that immediately follows the unification of Upper and Lower Egypt in c. 3150 BC.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/early-dynastic-period-of-egypt.png",
   "map_asked": true,
   "checks": {

@@ -34,7 +34,8 @@
     {
       "id": "Q25979",
       "region": "Pakistan",
-      "name": "Kushan Empire"
+      "name": "Kushan Empire",
+      "home": false
     }
   ],
   "after": [],
@@ -64,7 +65,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An Indian empire during the classical period of the Indian subcontinent which existed from the mid 3rd century to mid 6th century CE.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/gupta-empire.png",
   "map_asked": true,
   "checks": {

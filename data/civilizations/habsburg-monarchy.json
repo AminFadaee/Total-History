@@ -34,7 +34,8 @@
     {
       "id": "Q131964",
       "region": "Austria",
-      "name": "Austrian Empire"
+      "name": "Austrian Empire",
+      "home": true
     }
   ],
   "rulers": [
@@ -72,7 +73,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The collection of empires, kingdoms, duchies, counties and other polities that were ruled by the House of Habsburg.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/habsburg-monarchy.png",
   "map_asked": true,
   "checks": {

@@ -58,14 +58,16 @@
     {
       "id": "Q229411",
       "region": "India",
-      "name": "Delhi Sultanate"
+      "name": "Delhi Sultanate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q373650",
       "region": "India",
-      "name": "Sur Empire"
+      "name": "Sur Empire",
+      "home": true
     }
   ],
   "rulers": [

@@ -34,14 +34,16 @@
     {
       "id": "Q83958",
       "region": "Turkey",
-      "name": "Macedonian Empire"
+      "name": "Macedonian Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q17167",
       "region": "Turkey",
-      "name": "Roman Republic"
+      "name": "Roman Republic",
+      "home": true
     }
   ],
   "rulers": [

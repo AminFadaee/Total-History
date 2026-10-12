@@ -30,7 +30,8 @@
     {
       "id": "Q28513",
       "region": "Austria",
-      "name": "Austria-Hungary"
+      "name": "Austria-Hungary",
+      "home": true
     }
   ],
   "after": [],
@@ -55,7 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A landlocked country in Central Europe, lying in the Eastern Alps.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/republic-of-austria.png",
   "map_asked": true,
   "checks": {

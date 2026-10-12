@@ -34,14 +34,16 @@
     {
       "id": "Q12548",
       "region": "Italy",
-      "name": "Holy Roman Empire"
+      "name": "Holy Roman Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q154849",
       "region": "Italy",
-      "name": "Grand Duchy of Tuscany"
+      "name": "Grand Duchy of Tuscany",
+      "home": true
     }
   ],
   "rulers": [
@@ -60,7 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A medieval and early modern state that was centered on the Italian city of Florence in Tuscany.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/republic-of-florence.png",
   "map_asked": true,
   "checks": {

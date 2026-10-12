@@ -32,26 +32,30 @@
   "parts": [],
   "before": [
     {
-      "id": "Q206411",
-      "region": "Azerbaijan",
-      "name": "Azerbaijan Democratic Republic"
-    },
-    {
       "id": "Q139319",
       "region": "Russia",
-      "name": "Russian Republic"
+      "name": "Russian Republic",
+      "home": true
+    },
+    {
+      "id": "Q206411",
+      "region": "Azerbaijan",
+      "name": "Azerbaijan Democratic Republic",
+      "home": false
     },
     {
       "id": "Q207272",
       "region": "Poland",
-      "name": "Second Polish Republic"
+      "name": "Second Polish Republic",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q159",
       "region": "Russia",
-      "name": "Russian Federation"
+      "name": "Russian Federation",
+      "home": true
     }
   ],
   "rulers": [
@@ -85,7 +89,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/union-of-soviet-socialist-republics.png",
   "map_asked": true,
   "checks": {

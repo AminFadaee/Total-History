@@ -34,14 +34,16 @@
     {
       "id": "Q5062192",
       "region": "Mexico",
-      "name": "Centralist Mexico"
+      "name": "Centralist Mexico",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q371334",
       "region": "Mexico",
-      "name": "Second Mexican Empire"
+      "name": "Second Mexican Empire",
+      "home": true
     }
   ],
   "rulers": [

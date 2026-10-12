@@ -34,14 +34,16 @@
     {
       "id": "Q10914393",
       "region": "Egypt",
-      "name": "Neo-Assyrian Empire"
+      "name": "Neo-Assyrian Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q389688",
       "region": "Egypt",
-      "name": "Achaemenid Empire"
+      "name": "Achaemenid Empire",
+      "home": true
     }
   ],
   "rulers": [

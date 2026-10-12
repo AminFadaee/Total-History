@@ -34,14 +34,16 @@
     {
       "id": "Q736839",
       "region": "Japan",
-      "name": "Kamakura Shogunate"
+      "name": "Kamakura Shogunate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q205662",
       "region": "Japan",
-      "name": "Tokugawa Shogunate"
+      "name": "Tokugawa Shogunate",
+      "home": true
     }
   ],
   "rulers": [
@@ -56,7 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The feudal military government of Japan during the Muromachi period from 1336 to 1573.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/ashikaga-shogunate.png",
   "map_asked": true,
   "checks": {

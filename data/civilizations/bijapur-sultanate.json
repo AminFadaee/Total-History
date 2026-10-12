@@ -34,14 +34,16 @@
     {
       "id": "Q374521",
       "region": "India",
-      "name": "Bahmani Sultanate"
+      "name": "Bahmani Sultanate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q33296",
       "region": "India",
-      "name": "Mughal Empire"
+      "name": "Mughal Empire",
+      "home": true
     }
   ],
   "rulers": [

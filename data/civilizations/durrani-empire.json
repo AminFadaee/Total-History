@@ -42,14 +42,16 @@
     {
       "id": "Q63149558",
       "region": "Afghanistan",
-      "name": "Afsharid Iran"
+      "name": "Afsharid Iran",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q1335260",
       "region": "Afghanistan",
-      "name": "Emirate of Afghanistan"
+      "name": "Emirate of Afghanistan",
+      "home": true
     }
   ],
   "rulers": [

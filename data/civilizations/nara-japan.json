@@ -25,14 +25,16 @@
     {
       "id": "Q210688",
       "region": "Japan",
-      "name": "Asuka Japan"
+      "name": "Asuka Japan",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q193292",
       "region": "Japan",
-      "name": "Heian Japan"
+      "name": "Heian Japan",
+      "home": true
     }
   ],
   "rulers": [

@@ -34,14 +34,16 @@
     {
       "id": "Q80702",
       "region": "Mexico",
-      "name": "Spanish Empire"
+      "name": "Spanish Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q1109279",
       "region": "Mexico",
-      "name": "Federated Republic of Mexico"
+      "name": "Federated Republic of Mexico",
+      "home": true
     }
   ],
   "rulers": [

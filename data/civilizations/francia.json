@@ -50,19 +50,22 @@
     {
       "id": "Q42834",
       "region": "Germany",
-      "name": "Western Roman Empire"
+      "name": "Western Roman Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q153080",
       "region": "Germany",
-      "name": "East Franks"
+      "name": "East Franks",
+      "home": true
     },
     {
       "id": "Q46370",
       "region": "France",
-      "name": "West Franks"
+      "name": "West Franks",
+      "home": false
     }
   ],
   "rulers": [

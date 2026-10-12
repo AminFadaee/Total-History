@@ -34,14 +34,16 @@
     {
       "id": "Q79965",
       "region": "Russia",
-      "name": "Golden Horde"
+      "name": "Golden Horde",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q186096",
       "region": "Russia",
-      "name": "Tsardom of Russia"
+      "name": "Tsardom of Russia",
+      "home": true
     }
   ],
   "rulers": [

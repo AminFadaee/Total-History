@@ -30,7 +30,8 @@
     {
       "id": "Q62623",
       "region": "Denmark",
-      "name": "Kalmar Union"
+      "name": "Kalmar Union",
+      "home": true
     }
   ],
   "rulers": [
@@ -61,7 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/kingdom-of-denmark.png",
   "map_asked": true,
   "checks": {

@@ -50,14 +50,16 @@
     {
       "id": "Q80702",
       "region": "Guatemala",
-      "name": "Spanish Empire"
+      "name": "Spanish Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q774",
       "region": "Guatemala",
-      "name": "Guatemala"
+      "name": "Guatemala",
+      "home": true
     }
   ],
   "rulers": [

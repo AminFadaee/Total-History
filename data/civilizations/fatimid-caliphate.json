@@ -58,24 +58,28 @@
     {
       "id": "Q207600",
       "region": "Tunisia",
-      "name": "Aghlabid Dynasty"
+      "name": "Aghlabid Dynasty",
+      "home": true
     },
     {
       "id": "Q940123",
       "region": "Algeria",
-      "name": "Rustamid dynasty"
+      "name": "Rustamid dynasty",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q180114",
       "region": "Egypt",
-      "name": "Ayyubid Sultanate"
+      "name": "Ayyubid Sultanate",
+      "home": true
     },
     {
       "id": "Q55502",
       "region": "Palestine",
-      "name": "Kingdom of Jerusalem"
+      "name": "Kingdom of Jerusalem",
+      "home": false
     }
   ],
   "rulers": [

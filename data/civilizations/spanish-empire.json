@@ -44,7 +44,8 @@
     {
       "id": "Q2608489",
       "region": "Mexico",
-      "name": "Aztec Triple Alliance"
+      "name": "Aztec Triple Alliance",
+      "home": false
     }
   ],
   "after": [],
@@ -77,7 +78,7 @@
   ],
   "borders": true,
   "summary": "A colonial empire that existed between 1492 and 1976.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/spanish-empire.png",
   "map_asked": true,
   "checks": {

@@ -25,14 +25,16 @@
     {
       "id": "Q189178",
       "region": "Japan",
-      "name": "Nara Japan"
+      "name": "Nara Japan",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q736839",
       "region": "Japan",
-      "name": "Kamakura Shogunate"
+      "name": "Kamakura Shogunate",
+      "home": true
     }
   ],
   "rulers": [],

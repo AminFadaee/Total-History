@@ -42,19 +42,22 @@
     {
       "id": "Q12536",
       "region": "Uzbekistan",
-      "name": "Abbasid Caliphate"
+      "name": "Abbasid Caliphate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q494354",
       "region": "Uzbekistan",
-      "name": "Kara-Khanid Khanate"
+      "name": "Kara-Khanid Khanate",
+      "home": true
     },
     {
       "id": "Q249578",
       "region": "Afghanistan",
-      "name": "Ghaznavid Empire"
+      "name": "Ghaznavid Empire",
+      "home": false
     }
   ],
   "rulers": [
@@ -75,7 +78,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A Persianate Sunni Muslim empire, ruled by a dynasty of Iranian dehqan origin, from 819 to 999.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/samanid-empire.png",
   "map_asked": true,
   "checks": {

@@ -34,14 +34,16 @@
     {
       "id": "Q33296",
       "region": "India",
-      "name": "Mughal Empire"
+      "name": "Mughal Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q8680",
       "region": "India",
-      "name": "British Empire"
+      "name": "British Empire",
+      "home": true
     }
   ],
   "rulers": [

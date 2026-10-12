@@ -34,14 +34,16 @@
     {
       "id": "Q199688",
       "region": "Spain",
-      "name": "Almohad Caliphate"
+      "name": "Almohad Caliphate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q217196",
       "region": "Spain",
-      "name": "Crown of Castile"
+      "name": "Crown of Castile",
+      "home": true
     }
   ],
   "rulers": [
@@ -68,7 +70,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An Islamic polity in the southern Iberian Peninsula during the Late Middle Ages, ruled  by the Arab Nasrid dynasty.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/emirate-of-granada.png",
   "map_asked": true,
   "checks": {

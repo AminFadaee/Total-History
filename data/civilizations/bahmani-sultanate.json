@@ -42,14 +42,16 @@
     {
       "id": "Q229411",
       "region": "India",
-      "name": "Delhi Sultanate"
+      "name": "Delhi Sultanate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q400998",
       "region": "India",
-      "name": "Ahmadnagar Sultanate"
+      "name": "Ahmadnagar Sultanate",
+      "home": true
     }
   ],
   "rulers": [

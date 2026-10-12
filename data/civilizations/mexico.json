@@ -30,7 +30,8 @@
     {
       "id": "Q5062192",
       "region": "Mexico",
-      "name": "Centralist Mexico"
+      "name": "Centralist Mexico",
+      "home": true
     }
   ],
   "after": [],
@@ -58,7 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "A country in North America.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/mexico.png",
   "map_asked": true,
   "checks": {

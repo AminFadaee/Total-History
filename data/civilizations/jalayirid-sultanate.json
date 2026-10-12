@@ -50,14 +50,16 @@
     {
       "id": "Q178084",
       "region": "Iraq",
-      "name": "Ilkhanate"
+      "name": "Ilkhanate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q484195",
       "region": "Iraq",
-      "name": "Timurid Empire"
+      "name": "Timurid Empire",
+      "home": true
     }
   ],
   "rulers": [],

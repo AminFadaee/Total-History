@@ -58,14 +58,16 @@
     {
       "id": "Q642301",
       "region": "Egypt",
-      "name": "Seventeenth Dynasty of Egypt"
+      "name": "Seventeenth Dynasty of Egypt",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q41642",
       "region": "Lebanon",
-      "name": "Phoenicia"
+      "name": "Phoenicia",
+      "home": false
     }
   ],
   "rulers": [

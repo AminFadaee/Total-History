@@ -34,14 +34,16 @@
     {
       "id": "Q201038",
       "region": "Italy",
-      "name": "Roman Kingdom"
+      "name": "Roman Kingdom",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q2277",
       "region": "Italy",
-      "name": "Roman Empire"
+      "name": "Roman Empire",
+      "home": true
     }
   ],
   "rulers": [

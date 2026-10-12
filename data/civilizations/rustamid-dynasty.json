@@ -34,14 +34,16 @@
     {
       "id": "Q8575586",
       "region": "Algeria",
-      "name": "Umayyad Caliphate"
+      "name": "Umayyad Caliphate",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q160307",
       "region": "Algeria",
-      "name": "Fatimid Caliphate"
+      "name": "Fatimid Caliphate",
+      "home": true
     }
   ],
   "rulers": [

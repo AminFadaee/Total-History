@@ -34,14 +34,16 @@
     {
       "id": "Q146597",
       "region": "Iran",
-      "name": "Zand Dynasty"
+      "name": "Zand Dynasty",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q107258515",
       "region": "Iran",
-      "name": "Pahlavi Dynasty"
+      "name": "Pahlavi Dynasty",
+      "home": true
     }
   ],
   "rulers": [
@@ -70,7 +72,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The Iranian state under the rule of the Qajar dynasty, which lasted from 1789 to 1925.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/qajar-dynasty.png",
   "map_asked": true,
   "checks": {

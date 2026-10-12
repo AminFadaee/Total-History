@@ -34,14 +34,16 @@
     {
       "id": "Q841364",
       "region": "Thailand",
-      "name": "Ayutthaya Kingdom"
+      "name": "Ayutthaya Kingdom",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q1155700",
       "region": "Thailand",
-      "name": "Rattanakosin Kingdom"
+      "name": "Rattanakosin Kingdom",
+      "home": true
     }
   ],
   "rulers": [

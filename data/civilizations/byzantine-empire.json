@@ -34,14 +34,16 @@
     {
       "id": "Q2277",
       "region": "Turkey",
-      "name": "Roman Empire"
+      "name": "Roman Empire",
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q12560",
       "region": "Turkey",
-      "name": "Ottoman Empire"
+      "name": "Ottoman Empire",
+      "home": true
     }
   ],
   "rulers": [
@@ -87,7 +89,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The continuation of the Eastern part of the Roman Empire centred on Constantinople during late antiquity and the Middle Ages.",
-  "tier": "Core",
+  "tier": "Essential",
   "map": "maps/byzantine-empire.png",
   "map_asked": true,
   "checks": {
