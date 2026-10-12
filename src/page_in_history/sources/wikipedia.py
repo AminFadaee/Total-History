@@ -42,8 +42,9 @@ def display_name(title: str) -> str:
 
 
 def place_name(title: str) -> str:
-    """'Nisa, Turkmenistan' -> 'Nisa': Wikipedia disambiguates places with a comma."""
-    return display_name(title).split(",")[0]
+    """'Nisa, Turkmenistan' -> 'Nisa': Wikipedia disambiguates places with a comma; Wikidata labels some city items
+    'Madrid city', but 'Mexico City' is a name."""
+    return re.sub(r" city$", "", display_name(title).split(",")[0])
 
 
 class Wikipedia:

@@ -43,6 +43,9 @@ HERITAGE = "Q9259"
 SITE = "Q839954"
 LARGE_PEAK_KM2 = 2_000_000
 SHARED_TOLERANCE_YEARS = 25
+# head of state, monarch, emperor, king, president (two items)
+HEAD_OF_STATE_CLASSES = {"Q48352", "Q116", "Q39018", "Q12097", "Q248577", "Q30461", "Q111840950"}
+MIN_OFFICE_RULERS, SHOWN_RULERS = 3, 4
 REPEATED_MAP_YEARS, REPEATED_MAP_OVERLAP = 30, 0.85
 FOLD_VITAL_LEVEL = 4
 DYNASTY = "Q164950"
@@ -133,6 +136,12 @@ def equal_area(frame):
 
 def equal_area_shape(geometry, crs):
     return equal_area(gpd.GeoSeries([geometry], crs=crs)).iloc[0]
+
+
+def sparql_year(value: str | None) -> int | None:
+    """The year of a SPARQL date such as '1453-05-29T00:00:00Z' or '-0549-01-01T00:00:00Z'."""
+    match = re.match(r"(-?)(\d+)-", value or "")
+    return (-1 if match.group(1) else 1) * int(match.group(2)) if match else None
 
 
 def same_name(first: str, second: str) -> bool:
@@ -696,7 +705,8 @@ class PolityBuilder:
     def _capital(self, qid: str) -> dict:
         entity = self.names.get(qid)
         location = entity.coordinates() if entity else None
-        return {"name": place_name(self._name(qid)), "location": list(location) if location else None}
+        founded = min((year.earliest for year in entity.years("P571")), default=None) if entity else None
+        return {"name": place_name(self._name(qid)), "location": list(location) if location else None, "founded": founded}
 
     def _name(self, qid: str) -> str:
         if qid in self.catalog.by_qid:
@@ -728,7 +738,7 @@ class PolityBuilder:
             parts=parts,
             before=self._named(before),
             after=self._named(after),
-            rulers=self._rulers(identity.qid, self._qids(infobox.leaders)),
+            rulers=self._office_rulers(identity.qid, period, first, last) or self._rulers(identity.qid, self._qids(infobox.leaders)),
             modern_countries=modern[0],
             overseas_countries=modern[1],
             borders=drawn,
@@ -774,6 +784,30 @@ class PolityBuilder:
                     "cliopatria": Span(clio_end, clio_end) if clio_end is not None else None},
                    tolerances(reference(clio_end, dissolution, infobox.end)))
         return Period(start, end, start is not None and end is not None)
+
+    def _office_rulers(self, polity_qid: str, period: Period, first: int, last: int) -> list[dict]:
+        """The four best-known holders of the state's head-of-state office (its own, or an office Wikidata classes as
+        head of state, monarch, emperor, king or president for it) whose term falls within its period and began before
+        1945, in order of their terms: Osman I, Mehmed II, Suleiman the Magnificent and Abdul Hamid II for the Ottomans.
+        Fewer than three such holders is too thin a record, and the infobox's leaders stand in."""
+        start = period.start.earliest if period.confirmed else first
+        end = min(period.end.latest if period.confirmed else last, LATEST_START - 1)
+        rows = self.wikidata.query(f"""SELECT DISTINCT ?person ?start ?end WHERE {{
+          {{ wd:{polity_qid} wdt:P1906 ?office }} UNION {{ ?office wdt:P1001|wdt:P17 wd:{polity_qid} .
+             ?office wdt:P279 ?kind . VALUES ?kind {{ {" ".join(f"wd:{kind}" for kind in sorted(HEAD_OF_STATE_CLASSES))} }} }}
+          ?person p:P39 ?held . ?held ps:P39 ?office .
+          OPTIONAL {{ ?held pq:P580 ?start }} OPTIONAL {{ ?held pq:P582 ?end }} }}""")
+        terms: dict[str, list[int]] = {}
+        for row in rows:
+            began, ended = sparql_year(row.get("start")), sparql_year(row.get("end"))
+            began, ended = began if began is not None else ended, ended if ended is not None else began
+            if began is not None and began <= end and ended >= start:
+                terms.setdefault(entity_id(row["person"]), []).append(began)
+        if len(terms) < MIN_OFFICE_RULERS:
+            return []
+        editions = self.wikidata.language_editions(list(terms))
+        best = sorted(terms, key=lambda qid: (-editions.get(qid, 0), qid))[:SHOWN_RULERS]
+        return [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=lambda qid: min(terms[qid]))]
 
     def _rulers(self, polity_qid: str, leaders: list[str]) -> list[dict]:
         """Infobox leaders that Wikidata also records as holding an office of the polity, or files as people who lived

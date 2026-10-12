@@ -107,7 +107,8 @@ class Collector:
 
     def _draw(self, polities: list[Polity], cliopatria: Cliopatria, countries) -> None:
         jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
-                       [capital["location"] for capital in polity.capitals if capital["location"]],
+                       [capital["location"] for capital in polity.capitals if capital["location"]
+                        and (capital.get("founded") is None or capital["founded"] <= polity.map_year)],
                        self.paths.root / "maps" / f"{polity.slug}.png", polity.parts)
                 for polity in polities]
         results = render_all(jobs, countries, naturalearth.rivers(self.http), fonts.inter(self.http), MAP_WORKERS)
