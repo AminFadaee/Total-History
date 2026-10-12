@@ -135,17 +135,25 @@ def info(*lines: tuple[str, str]) -> str:
 
 CIVILIZATION_TITLE = '{{Name}}<div class="subtitle">{{Period}}</div>'
 CIVILIZATION_INFO = info(("What", "Summary"), ("Capital", "Capital"), ("Notable rulers", "Rulers"),
-                         ("Before", "Before"), ("After", "After"), ("Today", "ModernCountries"))
+                         ("Before", "BeforeList"), ("After", "AfterList"), ("Today", "ModernCountries"))
+SUCCESSION_SLOTS = 3
 MAP_IMAGE = '<div class="image map">{{Map}}</div>'
 MAP_THUMBNAIL = '<div class="thumbnail map">{{Map}}</div>'
 
 
-def neighbour_template(side: str) -> Template:
-    """Who ruled the civilization's home region right before or after it, e.g. 'Before it in Iraq'."""
-    label = f"{side} it in {{{{{side}Region}}}}"
-    return Template(side, Subdeck.SUCCESSION, (side,),
+def slot(side: str, number: int) -> str:
+    """The field for a side's numbered succession card: Before, Before2, Before3."""
+    return side if number == 1 else f"{side}{number}"
+
+
+def neighbour_template(side: str, number: int = 1) -> Template:
+    """Who ruled a region right before or after the civilization, e.g. 'Before it in Iraq'. The first card is its
+    home region's; the others are other regions it took over or handed on."""
+    field = slot(side, number)
+    label = f"{side} it in {{{{{field}Region}}}}"
+    return Template(field, Subdeck.SUCCESSION, (field,),
                     face(entity(CIVILIZATION_TITLE), label, UNKNOWN_VALUE),
-                    face(entity(CIVILIZATION_TITLE), label, value(f"{{{{{side}}}}}", answered=True)) + MAP_THUMBNAIL)
+                    face(entity(CIVILIZATION_TITLE), label, value(f"{{{{{field}}}}}", answered=True)) + MAP_THUMBNAIL)
 
 
 CIVILIZATION_TEMPLATES = (
@@ -157,10 +165,13 @@ CIVILIZATION_TEMPLATES = (
     Template("Period", Subdeck.PERIODS, ("AskPeriod",),
              face(entity("{{Name}}"), "When", UNKNOWN_VALUE),
              face(entity("{{Name}}"), "When", value("{{Period}}", answered=True)) + MAP_THUMBNAIL),
+    *(neighbour_template(side, number) for side in ("Before", "After") for number in range(2, SUCCESSION_SLOTS + 1)),
 )
 
 CIVILIZATION_FIELDS = ("Id", "Name", "Map", "AskMap", "Period", "AskPeriod", "Capital", "Before", "BeforeRegion",
-                       "After", "AfterRegion", "Rulers", "ModernCountries", "Summary")
+                       "After", "AfterRegion", "Rulers", "ModernCountries", "Summary", "BeforeList", "AfterList",
+                       *(f"{slot(side, number)}{part}" for side in ("Before", "After")
+                         for number in range(2, SUCCESSION_SLOTS + 1) for part in ("", "Region")))
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
@@ -307,8 +318,23 @@ def civilization_tags(document: dict) -> list[str]:
     if period["confirmed"]:
         tags += [century_tag(number) for number in centuries(period["start"]["earliest"], period["end"]["latest"])]
     countries = document["modern_countries"][:MAX_COUNTRY_TAGS]
-    countries += [document[side].get("region", "") for side in ("before", "after")]
+    countries += [edge.get("region", "") for side in ("before", "after") for edge in document[side]]
     return tags + [tag("Country", country) for country in countries if country]
+
+
+def succession_fields(document: dict) -> dict[str, str]:
+    """A card per region before and after, and the back's list of them: 'Abbasid Caliphate (Iraq) · Kara-Khitans
+    (Kyrgyzstan)'."""
+    fields = {}
+    for side in ("Before", "After"):
+        edges = document[side.lower()]
+        for number in range(1, SUCCESSION_SLOTS + 1):
+            edge = edges[number - 1] if number <= len(edges) else {}
+            fields[slot(side, number)] = escaped(edge.get("name"))
+            fields[f"{slot(side, number)}Region"] = escaped(edge.get("region"))
+        fields[f"{side}List"] = joined([f"{edge['name']} ({edge['region']})" if edge.get("region") else edge["name"]
+                                        for edge in edges], " · ")
+    return fields
 
 
 def figure_tags(document: dict, civilizations: list[str]) -> list[str]:
@@ -379,10 +405,7 @@ class DeckBuilder:
             "Period": escaped(period_text(period)),
             "AskPeriod": "yes" if period_text(period) else "",
             "Capital": joined([capital["name"] for capital in document["capitals"]]),
-            "Before": escaped(document["before"].get("name")),
-            "BeforeRegion": escaped(document["before"].get("region")),
-            "After": escaped(document["after"].get("name")),
-            "AfterRegion": escaped(document["after"].get("region")),
+            **succession_fields(document),
             "Rulers": joined([ruler["name"] for ruler in document["rulers"]], " · "),
             "Summary": escaped(document.get("summary", "")),
             "ModernCountries": countries(document["modern_countries"])

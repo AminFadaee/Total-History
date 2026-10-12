@@ -248,6 +248,17 @@ def infobox_head(wikitext: str) -> str:
     return wikitext
 
 
+def ruler_succession(wikitext: str) -> dict[str, list[str]]:
+    """The predecessor and successor a person's infobox names (the first of each numbered set, for the title the
+    infobox leads with)."""
+    for template in mw.parse(SECTION.split(wikitext, maxsplit=1)[0]).filter_templates(recursive=False):
+        if str(template.name).strip().lower().startswith("infobox"):
+            fields = {str(param.name).strip(): param.value for param in template.params}
+            return {key: next((link_targets(fields[name]) for name in (key, f"{key}1") if name in fields
+                               and link_targets(fields[name])), []) for key in ("predecessor", "successor")}
+    return {"predecessor": [], "successor": []}
+
+
 def country_infobox(wikitext: str) -> Infobox | None:
     for template in mw.parse(infobox_head(wikitext)).filter_templates(recursive=False):
         if str(template.name).strip().lower() in INFOBOXES:

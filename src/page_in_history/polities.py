@@ -14,7 +14,8 @@ from page_in_history.naming import slugify
 from page_in_history.sources import vital
 from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
 from page_in_history.sources.wikidata import Entity, Wikidata, entity_id, qualifier_year
-from page_in_history.sources.wikipedia import Infobox, Page, Wikipedia, country_infobox, display_name, place_name
+from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country_infobox, display_name, place_name,
+                                                  ruler_succession)
 from page_in_history.regions import home, regions
 from page_in_history.sentences import contribution, first_paragraph
 from page_in_history.succession import RegionalSuccession
@@ -52,6 +53,7 @@ SHOWN_RULERS, RULER_FAME_SHARE, ADULT_YEARS = 4, 3, 20
 SPREAD_SHARE = 0.5
 KNOWN_NEIGHBOUR_LANGUAGES = 40
 MIRROR_GAP_YEARS = 100
+SUCCESSION_SLOTS = 3
 SAME_PLACE_KM = 5
 STEM_LETTERS = 5
 CORE_LANGUAGES, CORE_VITAL_LANGUAGES, CORE_FIGURES = 70, 60, 3
@@ -154,8 +156,8 @@ class Polity:
     period: Period
     capitals: list[dict] = field(default_factory=list)
     parts: list[str] = field(default_factory=list)
-    before: dict = field(default_factory=dict)
-    after: dict = field(default_factory=dict)
+    before: list[dict] = field(default_factory=list)
+    after: list[dict] = field(default_factory=list)
     rulers: list[dict] = field(default_factory=list)
     modern_countries: list[str] = field(default_factory=list)
     overseas_countries: list[str] = field(default_factory=list)
@@ -780,52 +782,102 @@ class PolityBuilder:
             return None, None
         return min(dated)[2], max(dated, key=lambda found: (found[1], found[0]))[2]
 
-    def restrict_neighbours(self, polities: list[Polity]) -> None:
-        """Once the deck is known, a civilization before or after one must be in it or be well known (an article in
-        at least 40 Wikipedia languages, as the Median Kingdom is), so no answer is obscure: otherwise the nearest
-        confirmed holder that is takes its place."""
+    def link_successions(self, polities: list[Polity], figures: list) -> None:
+        """Once the deck and its figures are known, the civilizations before and after each one, each in a region
+        ("before the Mongol Empire in Iraq: the Abbasid Caliphate; in Kyrgyzstan: the Kara-Khitans"). First the holder
+        of its home on the map, which must be in the deck or well known (an article in at least 40 Wikipedia
+        languages), else the nearest confirmed holder that is. Then the state its last (first) infobox leader's own
+        infobox names as successor (predecessor), when that person led exactly one other deck civilization, adjacent in
+        time (Timurid → Mughal through Babur). Then the same links seen from the other side (Achaemenid before the
+        Macedonian Empire). One civilization per region, the map's first, at most three a side."""
         deck = {polity.id for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
         for polity in polities:
-            if (polity.before and not known(polity.before["id"])) or (polity.after and not known(polity.after["id"])):
+            if any(not known(edge["id"]) for edge in polity.before + polity.after):
                 entity = self.catalog.entities[polity.id]
                 before, after, _ = self.succession.neighbours(
                     polity.id, polity.capitals, self._capital_edges(entity),
                     lambda other: known(other) and not same_name(polity.name, self._name(other)))
-                polity.before, polity.after = self._named(before), self._named(after)
-        self._mirror_neighbours(polities)
-
-    def _mirror_neighbours(self, polities: list[Polity]) -> None:
-        """A civilization the deck names as followed by another, which has no civilization before it, is that one's
-        predecessor in the same region (Achaemenid before the Macedonian Empire), and the other way round, when the
-        later one began after the earlier began, within a century of its end, and ended after it (not the
-        Confederacy before the USA). Of several, the one whose end and start lie closest together."""
+                polity.before, polity.after = self._edges(before), self._edges(after)
+        drawn_edges = {side: {polity.id for polity in polities if getattr(polity, side)} for side in ("before", "after")}
         by_id = {polity.id: polity for polity in polities}
+        for polity, side, other in self._ruler_links(polities, figures):
+            self._link(polity, side, by_id[other], self._home_region(polity))
+        for polity in polities:
+            for edge in polity.after:
+                if edge["id"] in by_id:
+                    self._link(by_id[edge["id"]], "before", polity, edge["region"])
+            for edge in polity.before:
+                if edge["id"] in by_id:
+                    self._link(by_id[edge["id"]], "after", polity, edge["region"])
+        for polity in polities:
+            for side in ("before", "after"):
+                edges = getattr(polity, side)
+                mapped = edges[:1] if polity.id in drawn_edges.get(side, set()) else []
+                closest: dict[str, dict] = {}
+                for edge in sorted(edges[len(mapped):], key=lambda edge: (self._gap(polity, by_id.get(edge["id"]), side),
+                                                                          edge["name"])):
+                    if edge["region"] not in closest and all(edge["region"] != own["region"] for own in mapped):
+                        closest[edge["region"]] = edge
+                setattr(polity, side, (mapped + list(closest.values()))[:SUCCESSION_SLOTS])
 
-        def later(first: Polity, second: Polity) -> bool:
-            earlier, after = self._ruled_years(first), self._ruled_years(second)
-            return bool(earlier and after) and earlier[0] < after[0] and earlier[1] < after[1] \
-                and abs(after[0] - earlier[1]) <= MIRROR_GAP_YEARS
-        gap = lambda first, second: abs(self._ruled_years(second)[0] - self._ruled_years(first)[1])
-        befores: dict[str, list[Polity]] = {}
-        for polity in polities:
-            following = by_id.get((polity.after or {}).get("id"))
-            if following and not following.before and later(polity, following):
-                befores.setdefault(following.id, []).append(polity)
-        afters: dict[str, list[Polity]] = {}
-        for polity in polities:
-            preceding = by_id.get((polity.before or {}).get("id"))
-            if preceding and not preceding.after and later(preceding, polity):
-                afters.setdefault(preceding.id, []).append(polity)
-        for qid, candidates in befores.items():
-            following = by_id[qid]
-            polity = min(candidates, key=lambda candidate: (gap(candidate, following), candidate.name))
-            following.before = {"id": polity.id, "region": polity.after["region"], "name": polity.name}
-        for qid, candidates in afters.items():
-            preceding = by_id[qid]
-            polity = min(candidates, key=lambda candidate: (gap(preceding, candidate), candidate.name))
-            preceding.after = {"id": polity.id, "region": polity.before["region"], "name": polity.name}
+    def _link(self, polity: Polity, side: str, other: Polity, region: str) -> None:
+        """Add the other civilization before or after this one in the region, unless it is listed already, the region
+        is unknown, or they do not follow each other: the later one must begin after the earlier begins, within a
+        century of its end, and end after it ends (not the Confederacy before the USA). The closest in time keeps a
+        region that several share."""
+        edges = getattr(polity, side)
+        earlier, later = (other, polity) if side == "before" else (polity, other)
+        first, second = self._ruled_years(earlier), self._ruled_years(later)
+        if not region or not (first and second and first[0] < second[0] and first[1] < second[1]
+                              and abs(second[0] - first[1]) <= MIRROR_GAP_YEARS) or same_name(polity.name, other.name):
+            return
+        if all(edge["id"] != other.id for edge in edges):
+            edges.append({"id": other.id, "region": region, "name": other.name})
+
+    def _gap(self, polity: Polity, other: Polity | None, side: str) -> int:
+        if other is None or not self._ruled_years(polity) or not self._ruled_years(other):
+            return MIRROR_GAP_YEARS
+        earlier, later = (other, polity) if side == "before" else (polity, other)
+        return abs(self._ruled_years(later)[0] - self._ruled_years(earlier)[1])
+
+    @staticmethod
+    def _home_region(polity: Polity) -> str:
+        own = [edge["region"] for edge in polity.before + polity.after if edge.get("region")]
+        return own[0] if own else (polity.modern_countries[0] if polity.modern_countries else "")
+
+    def _ruler_links(self, polities: list[Polity], figures: list) -> list[tuple[Polity, str, str]]:
+        """Successions the rulers' own infoboxes give: the first and last leaders a civilization's infobox lists,
+        and the predecessor and successor each one's infobox names, when that person led exactly one other deck
+        civilization (named among its infobox leaders, or a deck figure filed under it)."""
+        led: dict[str, set[str]] = {}
+        leaders = {polity.id: self.infoboxes[polity.id].leaders for polity in polities if polity.id in self.infoboxes}
+        pages = self.wikipedia.resolve(sorted({title for titles in leaders.values() for title in titles}))
+        for qid, titles in leaders.items():
+            for title in titles:
+                if title in pages and pages[title].qid:
+                    led.setdefault(pages[title].qid, set()).add(qid)
+        names = {polity.name: polity.id for polity in polities}
+        for figure in figures:
+            home = next((names[name] for name in figure.civilizations if name in names), None)
+            if home:
+                led.setdefault(figure.id, set()).add(home)
+        ends = sorted({titles[index] for titles in leaders.values() if titles for index in (0, -1)})
+        texts = self.wikipedia.wikitext([pages[title].title for title in ends if title in pages])
+        named = {title: ruler_succession(texts.get(pages[title].title, "")) for title in ends if title in pages}
+        linked = self.wikipedia.resolve(sorted({other for found in named.values() for side in found.values() for other in side}))
+        links = []
+        by_id = {polity.id: polity for polity in polities}
+        for qid, titles in leaders.items():
+            if not titles:
+                continue
+            for side, title, key in (("before", titles[0], "predecessor"), ("after", titles[-1], "successor")):
+                people = [linked[other].qid for other in named.get(title, {}).get(key, []) if other in linked and linked[other].qid]
+                states = set().union(set(), *(led.get(person, set()) for person in people))
+                if len(states) == 1 and qid not in states:
+                    links.append((by_id[qid], side, states.pop()))
+        return links
 
     def _stated(self, first: str, last: str) -> bool:
         """Wikidata or a Wikipedia infobox, on either civilization's side, says that the second followed the first."""
@@ -865,8 +917,8 @@ class PolityBuilder:
     def _qids(self, titles: list[str]) -> list[str]:
         return list(dict.fromkeys(self.pages[title].qid for title in titles if title in self.pages and self.pages[title].qid))
 
-    def _named(self, neighbour: dict) -> dict:
-        return {**neighbour, "name": self._name(neighbour["id"])} if neighbour else {}
+    def _edges(self, neighbour: dict) -> list[dict]:
+        return [{**neighbour, "name": self._name(neighbour["id"])}] if neighbour else []
 
     def _capitals(self, entity: Entity, infobox: Infobox, rows, period: Period) -> list[dict]:
         """Capitals that Wikidata and the infobox both name: the same item, or two items for the same place within
@@ -974,8 +1026,8 @@ class PolityBuilder:
             period=period,
             capitals=capitals,
             parts=parts,
-            before=self._named(before),
-            after=self._named(after),
+            before=self._edges(before),
+            after=self._edges(after),
             rulers=self._rulers(identity.qid, self._qids(infobox.leaders))[:SHOWN_RULERS],
             modern_countries=modern[0],
             overseas_countries=modern[1],

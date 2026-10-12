@@ -88,7 +88,7 @@ class Collector:
         figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
         polities += builder.build([catalog.identities[name] for name in figure_builder.joined])
         builder.mark_repeated_maps(polities)
-        builder.restrict_neighbours(polities)
+        builder.link_successions(polities, figures)
         builder.choose_rulers(polities, figures)
         builder.assign_tiers(polities, figures)
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
