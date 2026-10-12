@@ -89,9 +89,11 @@ Notes are tagged so you can filter or suspend groups of them:
 - tier: `PIH::Tier::Essential` for the civilizations on Wikipedia's 1,000 vital articles (Vital Articles level 3), about
   20, which also carry `PIH::Tier::Core`; `PIH::Tier::Core` for those on its 10,000 (level 4), about 200 with the
   Essential ones; `PIH::Tier::Extended` for the rest, which you may suspend. A state counts as listed when a listed
-  dynasty is its own (the Safavid dynasty for Safavid Iran). Peoples without a capital, rulers or a confirmed period
-  (the Goths), a people or dynasty the deck also has as a state (the Vandals beside the Vandal Kingdom), and countries
-  that still exist (the United States, Mexico) are Extended
+  dynasty is its own (the Safavid dynasty for Safavid Iran), or when it is part of a listed civilization the deck
+  does not have itself (the Roman Republic and Empire of Ancient Rome). Peoples without a capital, rulers or a confirmed period
+  (the Goths), a people or dynasty the deck also has as a state (the Vandals beside the Vandal Kingdom), countries
+  that still exist (the United States, Mexico), and eras without a capital, rulers or confirmed period (the Viking
+  Age) are Extended
 
 To skip a kind of question, suspend its subdeck rather than deleting it: deleted cards come back when you import an
 update.

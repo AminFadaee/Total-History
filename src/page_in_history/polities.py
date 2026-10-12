@@ -57,6 +57,7 @@ SUCCESSION_SLOTS = 3
 SAME_PLACE_KM = 5
 STEM_LETTERS = 5
 SOVEREIGN_STATE = "Q3624078"
+PERIOD = "Q11514315"
 TIER_KINDS = {"Q41710": "people", "Q4204501": "people", "Q8432": "state", "Q2718886": "state", "Q3024240": "state",
               "Q7275": "state", "Q417175": "state", "Q48349": "state"}  # peoples; civilizations and states
 CENTURY_PRECISION, DECADE_PRECISION = 7, 8
@@ -1158,10 +1159,12 @@ class PolityBuilder:
         """Tiers from Wikipedia's Vital Articles: Essential for a state on its 1,000 articles (level 3), Core for one
         on its 10,000 (level 4), Extended for the rest, which a learner may suspend. A state counts as listed when a
         listed dynasty is its own, by being the state's country or the name the state is named after (the Safavid
-        dynasty for Safavid Iran). A people without a capital, rulers or a confirmed period (the Goths, the Saxons; not
+        dynasty for Safavid Iran), or when it is a part of a listed civilization that is not in the deck itself (the
+        Roman Republic and Empire of Ancient Rome). A people without a capital, rulers or a confirmed period (the Goths, the Saxons; not
         the Hittites or the Huns), a people or dynasty the deck also has as a state
         (the Vandals beside the Vandal Kingdom, the Seljuk dynasty beside the Great Seljuk Empire) and a country that
-        still exists, whose item is today's country (the Kingdom of Sweden, Mexico), are Extended."""
+        still exists, whose item is today's country (the Kingdom of Sweden, Mexico), and an era with no capital, rulers
+        or confirmed period (the Viking Age) are Extended."""
         qids = [polity.id for polity in polities]
         deck = set(qids)
         levels = self.catalog.vital_levels
@@ -1172,7 +1175,15 @@ class PolityBuilder:
         for qid, entity in listed.items():
             for state in entity.ids("P17", preferred_only=False):
                 through[state] = min(levels[qid], through.get(state, levels[qid]))
-        kinds = self.wikidata.kinds(qids, TIER_KINDS | {SOVEREIGN_STATE: "sovereign"})
+        topics = [qid for qid, found in self.wikidata.kinds(candidates, TIER_KINDS).items() if "state" in found]
+        for qid, entity in self.wikidata.entities(topics).items():
+            for part in entity.ids("P527", preferred_only=False):
+                through[part] = min(levels[qid], through.get(part, levels[qid]))
+        for polity in polities:
+            for whole in self.catalog.entities[polity.id].ids("P361", preferred_only=False):
+                if whole in topics:
+                    through[polity.id] = min(levels[whole], through.get(polity.id, levels[whole]))
+        kinds = self.wikidata.kinds(qids, TIER_KINDS | {SOVEREIGN_STATE: "sovereign", PERIOD: "period"})
         peoples = {qid for polity in polities for qid in self.catalog.entities[polity.id].ids("P172", preferred_only=False)}
         for polity in polities:
             entity = self.catalog.entities[polity.id]
@@ -1180,7 +1191,8 @@ class PolityBuilder:
             level = min([levels.get(polity.id, 9), through.get(polity.id, 9), *named])
             found = kinds.get(polity.id, set())
             ruled = bool(polity.capitals or polity.rulers or polity.period.confirmed)
-            people = (found - {"sovereign"} == {"people"} and not ruled) or polity.id in peoples \
+            people = (found - {"sovereign"} in ({"people"}, {"period"}, {"people", "period"}) and not ruled) \
+                or polity.id in peoples \
                 or bool(set(entity.ids("P1001", preferred_only=False)) & (deck - {polity.id}))
             present = "sovereign" in found and not entity.years("P576") + entity.years("P582")
             if level > MAX_VITAL_LEVEL or people or present:
