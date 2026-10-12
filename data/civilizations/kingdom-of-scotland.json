@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -41,20 +42,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q131412",
-      "name": "Mary, Queen of Scots"
+      "id": "Q298263",
+      "name": "Kenneth MacAlpin"
     },
     {
-      "id": "Q79972",
-      "name": "James VI and I"
+      "id": "Q211109",
+      "name": "Alexander III of Scotland"
+    },
+    {
+      "id": "Q187312",
+      "name": "Robert the Bruce"
     },
     {
       "id": "Q81506",
       "name": "Charles I of England"
-    },
-    {
-      "id": "Q119702",
-      "name": "Anne, Queen of Great Britain"
     }
   ],
   "modern_countries": [

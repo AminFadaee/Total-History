@@ -16,7 +16,8 @@
       "circa": true
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -42,7 +43,11 @@
     "region": "Afghanistan",
     "name": "Seleucid Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q215643",
+    "region": "Pakistan",
+    "name": "Indo-Greeks"
+  },
   "rulers": [
     {
       "id": "Q363368",

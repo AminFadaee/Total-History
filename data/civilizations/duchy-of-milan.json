@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -33,10 +34,6 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q357539",
-      "name": "Gian Galeazzo Visconti"
-    },
-    {
       "id": "Q310536",
       "name": "Francesco I Sforza"
     },
@@ -47,6 +44,10 @@
     {
       "id": "Q236853",
       "name": "Ludovico Sforza"
+    },
+    {
+      "id": "Q378739",
+      "name": "Maximilian Sforza"
     }
   ],
   "modern_countries": [

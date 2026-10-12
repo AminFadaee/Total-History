@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -37,7 +38,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q128938",
+    "region": "China",
+    "name": "Shang Dynasty"
+  },
   "after": {},
   "rulers": [
     {
@@ -45,16 +50,16 @@
       "name": "King Wen of Zhou"
     },
     {
-      "id": "Q388766",
-      "name": "King Cheng of Zhou"
-    },
-    {
-      "id": "Q1193439",
-      "name": "King Mu of Zhou"
-    },
-    {
       "id": "Q1193397",
       "name": "King You of Zhou"
+    },
+    {
+      "id": "Q887580",
+      "name": "King Ling of Zhou"
+    },
+    {
+      "id": "Q482655",
+      "name": "King An of Zhou"
     }
   ],
   "modern_countries": [

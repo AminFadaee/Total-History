@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -30,7 +31,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q1143164",
+    "region": "China",
+    "name": "Western Wei"
+  },
   "rulers": [
     {
       "id": "Q1149178",

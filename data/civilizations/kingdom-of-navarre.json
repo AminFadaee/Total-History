@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -45,12 +46,12 @@
       "name": "Philip V of France"
     },
     {
-      "id": "Q8404",
-      "name": "John I of France"
-    },
-    {
       "id": "Q174964",
       "name": "Charles IV of France"
+    },
+    {
+      "id": "Q233865",
+      "name": "Blanche I of Navarre"
     }
   ],
   "modern_countries": [

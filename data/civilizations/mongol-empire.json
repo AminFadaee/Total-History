@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -42,7 +43,11 @@
     "Golden Horde",
     "Ilkhanate"
   ],
-  "before": {},
+  "before": {
+    "id": "Q862304",
+    "region": "Kyrgyzstan",
+    "name": "Kara-Khitans"
+  },
   "after": {
     "id": "Q7313",
     "region": "China",

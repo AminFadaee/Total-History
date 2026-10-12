@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -30,7 +31,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q696241",
+    "region": "Uzbekistan",
+    "name": "Khanate of Kokand"
+  },
   "rulers": [
     {
       "id": "Q6689180",

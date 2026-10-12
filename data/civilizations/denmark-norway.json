@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -36,7 +37,11 @@
     "Old Kingdom of Norway",
     "Republic of Iceland"
   ],
-  "before": {},
+  "before": {
+    "id": "Q62623",
+    "region": "Denmark",
+    "name": "Kalmar Union"
+  },
   "after": {},
   "rulers": [
     {

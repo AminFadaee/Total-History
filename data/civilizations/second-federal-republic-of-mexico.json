@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -34,7 +35,11 @@
     "region": "Mexico",
     "name": "Centralist Mexico"
   },
-  "after": {},
+  "after": {
+    "id": "Q371334",
+    "region": "Mexico",
+    "name": "Second Mexican Empire"
+  },
   "rulers": [
     {
       "id": "Q182276",
@@ -47,7 +52,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "It would last up until the Second French intervention in Mexico led to the proclamation of the Second Mexican Empire in 1863.",
+  "summary": "Period of Mexican history from 1846 to 1863.",
   "tier": "Extended",
   "map": "maps/second-federal-republic-of-mexico.png",
   "map_asked": false,

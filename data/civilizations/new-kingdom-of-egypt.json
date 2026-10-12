@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -58,15 +59,15 @@
     "region": "Egypt",
     "name": "Seventeenth Dynasty of Egypt"
   },
-  "after": {},
+  "after": {
+    "id": "Q41642",
+    "region": "Lebanon",
+    "name": "Phoenicia"
+  },
   "rulers": [
     {
       "id": "Q81794",
       "name": "Akhenaten"
-    },
-    {
-      "id": "Q42606",
-      "name": "Amenhotep III"
     },
     {
       "id": "Q157918",
@@ -75,6 +76,10 @@
     {
       "id": "Q1523",
       "name": "Ramesses II"
+    },
+    {
+      "id": "Q1528",
+      "name": "Ramesses III"
     }
   ],
   "modern_countries": [

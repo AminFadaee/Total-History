@@ -16,7 +16,8 @@
       "circa": true
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -65,16 +66,16 @@
       "name": "Jeroboam"
     },
     {
-      "id": "Q313224",
-      "name": "Baasha of Israel"
-    },
-    {
-      "id": "Q313221",
-      "name": "Omri"
-    },
-    {
       "id": "Q235901",
       "name": "Ahab"
+    },
+    {
+      "id": "Q313232",
+      "name": "Jeroboam II"
+    },
+    {
+      "id": "Q319038",
+      "name": "Hoshea"
     }
   ],
   "modern_countries": [

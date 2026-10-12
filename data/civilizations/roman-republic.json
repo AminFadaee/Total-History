@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -29,7 +30,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q201038",
+    "region": "Italy",
+    "name": "Roman Kingdom"
+  },
   "after": {
     "id": "Q2277",
     "region": "Italy",

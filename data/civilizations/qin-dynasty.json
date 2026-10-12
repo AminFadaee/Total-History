@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -29,7 +30,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q837855",
+    "region": "China",
+    "name": "Qi"
+  },
   "after": {
     "id": "Q7209",
     "region": "China",

@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -29,7 +30,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q285658",
+    "region": "Mexico",
+    "name": "First Mexican Empire"
+  },
   "after": {
     "id": "Q5062192",
     "region": "Mexico",
@@ -51,7 +56,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "It was a federated republic, established by the Constitution of 1824, the first constitution of independent Mexico, and  officially designated the United Mexican States.",
+  "summary": "Period of Mexican history from 1824 to 1835.",
   "tier": "Extended",
   "map": "maps/federated-republic-of-mexico.png",
   "map_asked": true,

@@ -8,7 +8,8 @@
     "start": null,
     "end": null,
     "confirmed": false,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -27,16 +28,16 @@
   "after": {},
   "rulers": [
     {
+      "id": "Q310152",
+      "name": "Saint Erik"
+    },
+    {
+      "id": "Q153940",
+      "name": "Christian I of Denmark"
+    },
+    {
       "id": "Q52938",
       "name": "Gustavus Adolphus"
-    },
-    {
-      "id": "Q52937",
-      "name": "Christina, Queen of Sweden"
-    },
-    {
-      "id": "Q52934",
-      "name": "Charles XII of Sweden"
     },
     {
       "id": "Q52927",

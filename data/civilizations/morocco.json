@@ -8,7 +8,12 @@
     "start": null,
     "end": null,
     "confirmed": false,
-    "core": null
+    "core": null,
+    "since": {
+      "earliest": 789,
+      "latest": 789,
+      "circa": false
+    }
   },
   "capitals": [
     {

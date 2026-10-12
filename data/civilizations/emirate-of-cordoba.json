@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -41,16 +42,16 @@
       "name": "Abd al-Rahman I"
     },
     {
-      "id": "Q348593",
-      "name": "Hisham I of Córdoba"
-    },
-    {
-      "id": "Q284558",
-      "name": "Al-Hakam I"
-    },
-    {
       "id": "Q307412",
       "name": "Abd ar-Rahman II"
+    },
+    {
+      "id": "Q356624",
+      "name": "Muhammad I of Córdoba"
+    },
+    {
+      "id": "Q307680",
+      "name": "Abdullah of Córdoba"
     }
   ],
   "modern_countries": [

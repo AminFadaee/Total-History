@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -39,7 +40,11 @@
   "parts": [
     "Kingdom of Spain"
   ],
-  "before": {},
+  "before": {
+    "id": "Q2608489",
+    "region": "Mexico",
+    "name": "Aztec Triple Alliance"
+  },
   "after": {},
   "rulers": [],
   "modern_countries": [

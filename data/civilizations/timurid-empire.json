@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -37,7 +38,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q866716",
+    "region": "Iraq",
+    "name": "Jalayirid Sultanate"
+  },
   "after": {
     "id": "Q18234383",
     "region": "Afghanistan",

@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -45,16 +46,16 @@
       "name": "Idris II of Morocco"
     },
     {
-      "id": "Q2746373",
-      "name": "Ali ibn Muhammad"
-    },
-    {
       "id": "Q681523",
       "name": "Yahya ibn Muhammad"
     },
     {
       "id": "Q2836401",
       "name": "Ali ibn Umar"
+    },
+    {
+      "id": "Q253605",
+      "name": "Al-Hasan ibn al-Qasim Jannun"
     }
   ],
   "modern_countries": [

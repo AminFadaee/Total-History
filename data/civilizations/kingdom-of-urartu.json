@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -49,16 +50,16 @@
       "name": "Arame of Urartu"
     },
     {
-      "id": "Q381947",
-      "name": "Menua"
-    },
-    {
       "id": "Q317030",
       "name": "Argišti I"
     },
     {
-      "id": "Q353497",
-      "name": "Sarduri II"
+      "id": "Q380815",
+      "name": "Argišti II"
+    },
+    {
+      "id": "Q1060531",
+      "name": "Sarduri III"
     }
   ],
   "modern_countries": [

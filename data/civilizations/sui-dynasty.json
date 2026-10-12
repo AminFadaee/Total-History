@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -29,7 +30,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q62454",
+    "region": "China",
+    "name": "Chen Dynasty"
+  },
   "after": {
     "id": "Q9683",
     "region": "China",

@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -45,7 +46,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q4958",
+    "region": "China",
+    "name": "Liao Dynasty"
+  },
   "after": {
     "id": "Q12557",
     "region": "China",
@@ -61,12 +66,12 @@
       "name": "Emperor Taizong of Jin"
     },
     {
-      "id": "Q5071",
-      "name": "Emperor Xizong of Jin"
-    },
-    {
       "id": "Q5072",
       "name": "Wanyan Liang"
+    },
+    {
+      "id": "Q5076",
+      "name": "Wanyan Yongji"
     }
   ],
   "modern_countries": [

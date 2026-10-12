@@ -15,7 +15,8 @@
     "core": [
       1240,
       1510
-    ]
+    ],
+    "since": null
   },
   "capitals": [
     {
@@ -30,7 +31,11 @@
     "region": "Russia",
     "name": "Mongol Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q210163",
+    "region": "Russia",
+    "name": "Astrakhan Khanate"
+  },
   "rulers": [
     {
       "id": "Q735288",

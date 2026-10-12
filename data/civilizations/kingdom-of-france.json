@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -49,20 +50,20 @@
   },
   "rulers": [
     {
+      "id": "Q34428",
+      "name": "Philip II of France"
+    },
+    {
+      "id": "Q346",
+      "name": "Louis IX of France"
+    },
+    {
       "id": "Q936976",
       "name": "Henry IV of France"
     },
     {
       "id": "Q7742",
       "name": "Louis XIV"
-    },
-    {
-      "id": "Q7738",
-      "name": "Louis XV"
-    },
-    {
-      "id": "Q7732",
-      "name": "Louis XVI"
     }
   ],
   "modern_countries": [

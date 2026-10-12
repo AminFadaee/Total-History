@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -64,7 +65,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "It was founded in 1782 with the establishment of Rattanakosin, which replaced the city of Thonburi as the capital of Siam.",
+  "summary": "Period of Thai history.",
   "tier": "Core",
   "map": "maps/rattanakosin-kingdom.png",
   "map_asked": true,

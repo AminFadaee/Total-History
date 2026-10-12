@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -45,10 +46,6 @@
   },
   "rulers": [
     {
-      "id": "Q6131983",
-      "name": "Oleg the Wise"
-    },
-    {
       "id": "Q1058572",
       "name": "Sviatoslav I"
     },
@@ -59,6 +56,10 @@
     {
       "id": "Q188943",
       "name": "Yaroslav the Wise"
+    },
+    {
+      "id": "Q275106",
+      "name": "Yuri Dolgorukiy"
     }
   ],
   "modern_countries": [

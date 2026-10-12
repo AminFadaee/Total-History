@@ -8,7 +8,12 @@
     "start": null,
     "end": null,
     "confirmed": false,
-    "core": null
+    "core": null,
+    "since": {
+      "earliest": 1816,
+      "latest": 1816,
+      "circa": false
+    }
   },
   "capitals": [
     {

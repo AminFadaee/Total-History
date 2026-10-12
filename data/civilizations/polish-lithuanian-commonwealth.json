@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -40,7 +41,11 @@
     "Grand Duchy of Lithuania"
   ],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q152115",
+    "region": "Poland",
+    "name": "Duchy of Warsaw"
+  },
   "rulers": [
     {
       "id": "Q52940",

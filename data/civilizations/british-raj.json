@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -37,7 +38,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q33296",
+    "region": "India",
+    "name": "Mughal Empire"
+  },
   "after": {
     "id": "Q668",
     "region": "India",

@@ -15,7 +15,8 @@
     "core": [
       1000,
       1400
-    ]
+    ],
+    "since": null
   },
   "capitals": [],
   "parts": [],
@@ -40,7 +41,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An Oghuz Turkic, Sunni Muslim dynasty that culturally became Persianate and contributed to Turco-Persian culture.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "maps/seljuk-dynasty.png",
   "map_asked": true,
   "checks": {

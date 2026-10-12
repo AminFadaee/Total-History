@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -41,10 +42,6 @@
   },
   "rulers": [
     {
-      "id": "Q283561",
-      "name": "Alfonso V of León"
-    },
-    {
       "id": "Q235080",
       "name": "Alfonso VI of León and Castile"
     },
@@ -55,6 +52,10 @@
     {
       "id": "Q312767",
       "name": "Alfonso VII of León and Castile"
+    },
+    {
+      "id": "Q316768",
+      "name": "Ferdinand II of León"
     }
   ],
   "modern_countries": [

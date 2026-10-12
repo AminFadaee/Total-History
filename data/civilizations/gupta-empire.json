@@ -16,7 +16,8 @@
       "circa": true
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -29,16 +30,16 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q25979",
+    "region": "Pakistan",
+    "name": "Kushan Empire"
+  },
   "after": {},
   "rulers": [
     {
       "id": "Q849802",
       "name": "Chandragupta I"
-    },
-    {
-      "id": "Q844536",
-      "name": "Chandragupta II"
     },
     {
       "id": "Q1133363",
@@ -47,6 +48,10 @@
     {
       "id": "Q470715",
       "name": "Kumaragupta I"
+    },
+    {
+      "id": "Q1275876",
+      "name": "Skandagupta"
     }
   ],
   "modern_countries": [

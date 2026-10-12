@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -31,7 +32,11 @@
   "parts": [
     "Portuguese Ceylon"
   ],
-  "before": {},
+  "before": {
+    "id": "Q46652",
+    "region": "Malaysia",
+    "name": "Sultanate of Malacca"
+  },
   "after": {},
   "rulers": [
     {

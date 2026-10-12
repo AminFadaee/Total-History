@@ -8,11 +8,16 @@
     "start": null,
     "end": null,
     "confirmed": false,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q321371",
+    "region": "Russia",
+    "name": "Cimmerian Bosporus"
+  },
   "after": {},
   "rulers": [
     {

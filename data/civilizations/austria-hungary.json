@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -42,7 +43,11 @@
     "region": "Hungary",
     "name": "Austrian Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q33946",
+    "region": "Czechia",
+    "name": "Czechoslovakia"
+  },
   "rulers": [
     {
       "id": "Q51056",

@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -50,7 +51,11 @@
     "region": "Germany",
     "name": "Western Roman Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q153080",
+    "region": "Germany",
+    "name": "East Franks"
+  },
   "rulers": [
     {
       "id": "Q82339",

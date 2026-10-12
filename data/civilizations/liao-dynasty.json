@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -29,7 +30,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q28322",
+    "region": "China",
+    "name": "Balhae"
+  },
   "after": {
     "id": "Q5066",
     "region": "China",
@@ -41,16 +46,16 @@
       "name": "Abaoji"
     },
     {
-      "id": "Q4991",
-      "name": "Emperor Taizong of Liao"
+      "id": "Q5000",
+      "name": "Emperor Shengzong of Liao"
     },
     {
-      "id": "Q4993",
-      "name": "Emperor Muzong of Liao"
+      "id": "Q5007",
+      "name": "Emperor Daozong of Liao"
     },
     {
-      "id": "Q4997",
-      "name": "Emperor Jingzong of Liao"
+      "id": "Q5009",
+      "name": "Emperor Tianzuo of Liao"
     }
   ],
   "modern_countries": [

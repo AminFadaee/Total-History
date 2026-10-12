@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -42,7 +43,11 @@
     "region": "India",
     "name": "Delhi Sultanate"
   },
-  "after": {},
+  "after": {
+    "id": "Q400998",
+    "region": "India",
+    "name": "Ahmadnagar Sultanate"
+  },
   "rulers": [
     {
       "id": "Q3482078",

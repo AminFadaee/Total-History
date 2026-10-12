@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -50,7 +51,11 @@
     "region": "Guatemala",
     "name": "Spanish Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q774",
+    "region": "Guatemala",
+    "name": "Guatemala"
+  },
   "rulers": [
     {
       "id": "Q715279",

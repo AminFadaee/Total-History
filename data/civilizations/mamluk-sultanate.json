@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -45,16 +46,16 @@
       "name": "Shajar al-Durr"
     },
     {
-      "id": "Q249121",
-      "name": "Qalawun"
-    },
-    {
       "id": "Q336471",
       "name": "Qutuz"
     },
     {
       "id": "Q192960",
       "name": "Baybars"
+    },
+    {
+      "id": "Q248996",
+      "name": "Barquq"
     }
   ],
   "modern_countries": [

@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -61,7 +62,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q620765",
+    "region": "Turkey",
+    "name": "Lydia"
+  },
   "after": {
     "id": "Q83958",
     "region": "Iran",

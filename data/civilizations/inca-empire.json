@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -29,7 +30,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q581741",
+    "region": "Peru",
+    "name": "Chimor"
+  },
   "after": {
     "id": "Q10715354",
     "region": "Peru",

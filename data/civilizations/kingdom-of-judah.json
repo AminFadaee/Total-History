@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -37,12 +38,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q30914",
-      "name": "Ahaz"
+      "id": "Q127170",
+      "name": "Hazael"
     },
     {
-      "id": "Q313423",
-      "name": "Amon of Judah"
+      "id": "Q30914",
+      "name": "Ahaz"
     },
     {
       "id": "Q319034",

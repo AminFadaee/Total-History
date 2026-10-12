@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -34,7 +35,11 @@
     "region": "France",
     "name": "Second French Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q69808",
+    "region": "France",
+    "name": "Vichy France"
+  },
   "rulers": [
     {
       "id": "Q441235",

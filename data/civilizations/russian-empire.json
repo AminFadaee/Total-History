@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -42,7 +43,11 @@
     "region": "Russia",
     "name": "Tsardom of Russia"
   },
-  "after": {},
+  "after": {
+    "id": "Q139319",
+    "region": "Russia",
+    "name": "Russian Republic"
+  },
   "rulers": [
     {
       "id": "Q8479",

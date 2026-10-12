@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -41,20 +42,20 @@
   },
   "rulers": [
     {
-      "id": "Q46696",
-      "name": "Theodosius I"
-    },
-    {
-      "id": "Q159369",
-      "name": "Arcadius"
-    },
-    {
       "id": "Q41866",
       "name": "Justinian I"
     },
     {
-      "id": "Q41852",
-      "name": "Heraclius"
+      "id": "Q31755",
+      "name": "Leo III the Isaurian"
+    },
+    {
+      "id": "Q41610",
+      "name": "Manuel I Komnenos"
+    },
+    {
+      "id": "Q37142",
+      "name": "Constantine XI Palaiologos"
     }
   ],
   "modern_countries": [

@@ -16,7 +16,8 @@
       "circa": false
     },
     "confirmed": true,
-    "core": null
+    "core": null,
+    "since": null
   },
   "capitals": [
     {
@@ -69,16 +70,16 @@
       "name": "Abd Allah al-Mahdi Billah"
     },
     {
-      "id": "Q335443",
-      "name": "Al-Mu'izz li-Din Allah"
-    },
-    {
       "id": "Q342137",
       "name": "Al-Hakim bi-Amr Allah"
     },
     {
-      "id": "Q284619",
-      "name": "Al-Mustansir Billah"
+      "id": "Q285668",
+      "name": "Al-Musta'li"
+    },
+    {
+      "id": "Q286460",
+      "name": "Al-Adid"
     }
   ],
   "modern_countries": [
