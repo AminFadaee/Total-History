@@ -4,6 +4,7 @@ from collections import Counter
 from dataclasses import asdict, dataclass, field
 
 import geopandas as gpd
+import shapely
 from shapely.geometry import Point
 
 from page_in_history.dates import Span
@@ -463,21 +464,21 @@ class PolityBuilder:
     def _named(self, neighbour: dict) -> dict:
         return {**neighbour, "name": self._name(neighbour["id"])} if neighbour else {}
 
-    def _capitals(self, entity: Entity, infobox: Infobox) -> list[dict]:
+    def _capitals(self, entity: Entity, infobox: Infobox, rows) -> list[dict]:
         """Capitals that Wikidata and the infobox both name: the same item, or two items for the same place within
         25 km, as when Wikidata names the prefecture Shuntian Fu and the infobox the city of Beijing. They are shown
         under the name of the place Wikidata lists, once per place (Bursa rather than the infobox's Prusa, Ayutthaya
         rather than its historical park), or the infobox's name when Wikidata's item is wider than a place. An item that
         is not a settlement, such as a historical park or an archaeological site (Ayutthaya Historical Park, Abbasid
         Samarra), is shown as the town it lies in when that town is within 25 km. A state is never a capital, though a city that Wikidata also files as an administrative
-        unit, like Paris or Berlin, is."""
+        unit, like Paris or Berlin, is. When the two sources share none, a capital either names counts if it lies in the
+        civilization's own territory on the map (Hattusa, Susa, Gordion)."""
         listed = entity.ids("P36")
         places = [(qid, found.coordinates()) for qid, found in ((qid, self.names.get(qid)) for qid in listed)
                   if found and found.coordinates()]
         capitals = []
         for qid in self._qids(infobox.capital):
-            if qid in self.catalog.by_qid or (qid in self.names and self.catalog.is_polity(self.names[qid])
-                                               and "settlement" not in self.capital_kinds.get(qid, set())):
+            if not self._can_be_capital(qid):
                 continue
             capital = self._capital(qid)
             location = capital["location"]
@@ -495,7 +496,27 @@ class PolityBuilder:
                                               for found in capitals)
             if (qid in listed or nearby) and not repeated and capital["name"] not in {found["name"] for found in capitals}:
                 capitals.append(capital)
+        if capitals or rows.empty:
+            return capitals
+        territory = shapely.union_all(rows.geometry.values).buffer(CAPITAL_TOLERANCE_DEGREES)
+        for qid in dict.fromkeys(listed + self._qids(infobox.capital)):
+            location = self._capital(qid)["location"]
+            if self._can_be_capital(qid) and location and territory.contains(Point(location)):
+                capital = self._shown(qid, location)
+                if capital["name"] not in {found["name"] for found in capitals}:
+                    capitals.append(capital)
         return capitals
+
+    def _can_be_capital(self, qid: str) -> bool:
+        return not (qid in self.catalog.by_qid or (qid in self.names and self.catalog.is_polity(self.names[qid])
+                                                   and "settlement" not in self.capital_kinds.get(qid, set())))
+
+    def _shown(self, qid: str, location) -> dict:
+        """A capital under its own name, or the town it lies in when it is a site rather than a settlement."""
+        town = next((town for town in self.located.get(qid, []) if town in self.towns
+                     and self.names[town].coordinates()
+                     and kilometres(location, self.names[town].coordinates()) <= CAPITAL_MATCH_KM), None)
+        return {**self._capital(town), "location": location} if town else self._capital(qid)
 
     def _capital(self, qid: str) -> dict:
         entity = self.names.get(qid)
@@ -514,7 +535,7 @@ class PolityBuilder:
         drawn = not rows.empty
         first, last = self.catalog.years(identity.qid)
         period = self._period(entity, infobox, first if drawn else None, last if drawn else None)
-        capitals = self._capitals(entity, infobox)
+        capitals = self._capitals(entity, infobox, rows)
         parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
                  if qid in self.catalog.by_qid and qid != identity.qid]
         map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
