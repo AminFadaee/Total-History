@@ -23,7 +23,8 @@
       "location": [
         106.28419,
         38.47323
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -53,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/western-xia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

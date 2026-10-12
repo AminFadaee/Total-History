@@ -23,14 +23,16 @@
       "location": [
         32.610277777777775,
         25.720555555555556
-      ]
+      ],
+      "founded": -3200
     },
     {
       "name": "Itjtawy",
       "location": [
         31.231111111111,
         29.570277777778
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -43,6 +45,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/middle-kingdom-of-egypt.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -62,7 +65,6 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Thebes",
     "labelled": [
-      "Hyksos",
       "Elam",
       "Sumerian City-States"
     ]

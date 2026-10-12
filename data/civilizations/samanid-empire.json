@@ -23,14 +23,16 @@
       "location": [
         66.97583333333333,
         39.65472222222222
-      ]
+      ],
+      "founded": -800
     },
     {
       "name": "Bukhara",
       "location": [
         64.428611111111,
         39.774722222222
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -42,7 +44,7 @@
   "after": {
     "id": "Q494354",
     "region": "Uzbekistan",
-    "name": "Kara-Khanids"
+    "name": "Kara-Khanid Khanate"
   },
   "rulers": [
     {
@@ -62,6 +64,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/samanid-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -84,7 +87,7 @@
       "Abbasid Caliphate",
       "Kimek-Kipchak confederation",
       "Oghuz Turks",
-      "Kara-Khanids",
+      "Kara-Khanid Khanate",
       "Kingdom of Khotan",
       "Kashmir",
       "Tibetans",

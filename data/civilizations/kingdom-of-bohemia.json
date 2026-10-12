@@ -23,7 +23,8 @@
       "location": [
         14.421388888888888,
         50.0875
-      ]
+      ],
+      "founded": 701
     }
   ],
   "parts": [],
@@ -31,12 +32,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q312938",
-      "name": "Ottokar I of Bohemia"
+      "id": "Q155669",
+      "name": "Charles IV, Holy Roman Emperor"
     },
     {
-      "id": "Q51068",
-      "name": "Charles I of Austria"
+      "id": "Q131706",
+      "name": "Maria Theresa"
+    },
+    {
+      "id": "Q130834",
+      "name": "Francis II, Holy Roman Emperor"
+    },
+    {
+      "id": "Q51056",
+      "name": "Franz Joseph I"
     }
   ],
   "modern_countries": [
@@ -47,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-bohemia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -64,7 +74,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Prague",
     "labelled": [
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Kingdom of Poland",
       "Kingdom of Hungary",
       "Duchy of Bavaria",

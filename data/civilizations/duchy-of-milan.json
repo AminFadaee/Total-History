@@ -23,7 +23,8 @@
       "location": [
         9.19,
         45.466944444444
-      ]
+      ],
+      "founded": -600
     }
   ],
   "parts": [],
@@ -33,6 +34,18 @@
     {
       "id": "Q357539",
       "name": "Gian Galeazzo Visconti"
+    },
+    {
+      "id": "Q310536",
+      "name": "Francesco I Sforza"
+    },
+    {
+      "id": "Q314514",
+      "name": "Gian Galeazzo Sforza"
+    },
+    {
+      "id": "Q236853",
+      "name": "Ludovico Sforza"
     }
   ],
   "modern_countries": [
@@ -42,6 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/duchy-of-milan.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -59,7 +73,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Milan",
     "labelled": [
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Kingdom of France",
       "House of Habsburg",
       "Duchy of Savoy",

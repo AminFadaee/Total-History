@@ -1,0 +1,78 @@
+{
+  "id": "Q940123",
+  "slug": "rustamid-dynasty",
+  "name": "Rustamid dynasty",
+  "wikipedia": "Rustamid dynasty",
+  "map_year": 900,
+  "period": {
+    "start": {
+      "earliest": 777,
+      "latest": 777,
+      "circa": false
+    },
+    "end": {
+      "earliest": 909,
+      "latest": 909,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Tiaret",
+      "location": [
+        1.3166666666667,
+        35.366666666667
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q8575586",
+    "region": "Algeria",
+    "name": "Umayyad Caliphate"
+  },
+  "after": {
+    "id": "Q160307",
+    "region": "Algeria",
+    "name": "Fatimid Caliphate"
+  },
+  "rulers": [
+    {
+      "id": "Q3147457",
+      "name": "Abd al-Rahman ibn Rustam"
+    }
+  ],
+  "modern_countries": [
+    "Algeria",
+    "Libya",
+    "Tunisia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/rustamid-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tiaret"
+      ],
+      "infobox": [
+        "Tiaret"
+      ]
+    },
+    "cliopatria_years": [
+      778,
+      910
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Tiaret",
+    "labelled": [
+      "Aghlabid Dynasty",
+      "Idrisids",
+      "Emirate of Sicily"
+    ]
+  }
+}

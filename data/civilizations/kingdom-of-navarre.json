@@ -23,21 +23,35 @@
       "location": [
         -1.65,
         42.816666666667
-      ]
+      ],
+      "founded": -74
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q2295939",
-    "region": "Spain",
-    "name": "Duchy of Gascony"
-  },
+  "before": {},
   "after": {
     "id": "Q204920",
     "region": "Spain",
     "name": "Crown of Aragon"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q8384",
+      "name": "Louis X of France"
+    },
+    {
+      "id": "Q8433",
+      "name": "Philip V of France"
+    },
+    {
+      "id": "Q8404",
+      "name": "John I of France"
+    },
+    {
+      "id": "Q174964",
+      "name": "Charles IV of France"
+    }
+  ],
   "modern_countries": [
     "Spain",
     "France"
@@ -45,6 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-navarre.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

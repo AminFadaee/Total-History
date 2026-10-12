@@ -1,0 +1,70 @@
+{
+  "id": "Q1154406",
+  "slug": "ashikaga-shogunate",
+  "name": "Ashikaga Shogunate",
+  "wikipedia": "Ashikaga shogunate",
+  "map_year": 1459,
+  "period": {
+    "start": {
+      "earliest": 1336,
+      "latest": 1336,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1573,
+      "latest": 1573,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Heian-kyō",
+      "location": [
+        135.76666667,
+        35
+      ],
+      "founded": 794
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q471885",
+      "name": "Emperor Kōgon"
+    },
+    {
+      "id": "Q334076",
+      "name": "Emperor Ōgimachi"
+    }
+  ],
+  "modern_countries": [
+    "Japan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/ashikaga-shogunate.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Heian-kyō"
+      ],
+      "infobox": [
+        "Heian-kyō"
+      ]
+    },
+    "cliopatria_years": [
+      1344,
+      1571
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Heian-kyō",
+    "labelled": [
+      "Joseon"
+    ]
+  }
+}

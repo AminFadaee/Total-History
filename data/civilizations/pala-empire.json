@@ -23,14 +23,16 @@
       "location": [
         85.144,
         25.611
-      ]
+      ],
+      "founded": -490
     },
     {
       "name": "Murshidabad",
       "location": [
         88.27,
         24.18
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -49,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/pala-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

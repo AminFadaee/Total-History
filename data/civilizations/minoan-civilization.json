@@ -1,0 +1,44 @@
+{
+  "id": "Q134178",
+  "slug": "minoan-civilization",
+  "name": "Minoan civilization",
+  "wikipedia": "Minoan civilization",
+  "map_year": -1500,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q181264",
+    "region": "Greece",
+    "name": "Mycenaean Greece"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Greece"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/minoan-civilization.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -1600,
+      -1401
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Mycenaean Greece"
+    ]
+  }
+}

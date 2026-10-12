@@ -23,21 +23,24 @@
       "location": [
         5.233888888888889,
         13.062222222222223
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Birni-N'Konni",
       "location": [
         5.2508333333333,
         13.791111111111
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Bodinga",
       "location": [
         5.16667,
         12.8833
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -61,6 +64,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/sokoto-caliphate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -79,7 +83,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Sokoto",
     "labelled": [
-      "Bornu Empire",
+      "Kanem–Bornu Empire",
       "Wadai Empire",
       "Ashanti Empire",
       "Massina Empire"

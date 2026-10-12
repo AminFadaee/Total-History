@@ -23,16 +23,13 @@
       "location": [
         106.905515,
         47.921357
-      ]
+      ],
+      "founded": 1639
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q711",
-    "region": "Mongolia",
-    "name": "Mongolia"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q311488",
@@ -61,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mongolian-people-s-republic.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

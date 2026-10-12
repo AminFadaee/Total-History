@@ -23,20 +23,13 @@
       "location": [
         112.366667,
         -7.55
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q2060657",
-    "region": "Indonesia",
-    "name": "Singhasari"
-  },
-  "after": {
-    "id": "Q287996",
-    "region": "Indonesia",
-    "name": "Blambangan Kingdom"
-  },
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q49334",
@@ -71,6 +64,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/majapahit.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

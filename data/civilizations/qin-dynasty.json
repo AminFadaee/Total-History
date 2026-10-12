@@ -1,7 +1,7 @@
 {
   "id": "Q7183",
   "slug": "qin-dynasty",
-  "name": "Qin Dynasty",
+  "name": "Qin dynasty",
   "wikipedia": "Qin dynasty",
   "map_year": -210,
   "period": {
@@ -23,15 +23,12 @@
       "location": [
         108.857778,
         34.413889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q34756",
-    "region": "China",
-    "name": "Qin"
-  },
+  "before": {},
   "after": {
     "id": "Q7209",
     "region": "China",
@@ -53,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/qin-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -65,7 +63,7 @@
     },
     "cliopatria_years": [
       -218,
-      -209
+      -204
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Xianyang",

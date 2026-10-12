@@ -23,7 +23,8 @@
       "location": [
         19.040833333333,
         47.498333333333
-      ]
+      ],
+      "founded": 1873
     }
   ],
   "parts": [],
@@ -39,12 +40,20 @@
   },
   "rulers": [
     {
-      "id": "Q177903",
-      "name": "Stephen I of Hungary"
+      "id": "Q150665",
+      "name": "Charles VI, Holy Roman Emperor"
     },
     {
-      "id": "Q51068",
-      "name": "Charles I of Austria"
+      "id": "Q131706",
+      "name": "Maria Theresa"
+    },
+    {
+      "id": "Q130834",
+      "name": "Francis II, Holy Roman Emperor"
+    },
+    {
+      "id": "Q51056",
+      "name": "Franz Joseph I"
     }
   ],
   "modern_countries": [
@@ -60,6 +69,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-hungary.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -93,7 +103,7 @@
       "Principality of Wallachia",
       "Kingdom of Bohemia",
       "House of Habsburg",
-      "Electorate of Brandenburg",
+      "Margraviate of Brandenburg",
       "Republic of Venice",
       "Duchy of Bavaria",
       "Kingdom of France",

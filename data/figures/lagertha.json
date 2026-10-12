@@ -14,7 +14,9 @@
   "civilizations": [
     "Old Kingdom of Norway"
   ],
-  "related": [],
+  "related": [
+    "Viking settlements"
+  ],
   "contribution": "A Viking ruler and shield-maiden from what is now Norway, and the onetime wife of the famous Viking Ragnar Lodbrok.",
   "setting": "",
   "image": "",
@@ -25,6 +27,7 @@
   "checks": {
     "civilization_votes": {
       "lead": [
+        "Viking settlements",
         "Old Kingdom of Norway"
       ],
       "citizenship": [

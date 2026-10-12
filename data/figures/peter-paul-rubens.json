@@ -11,12 +11,12 @@
   ],
   "occupation": "Painter",
   "birth_country": "Germany",
-  "civilizations": [],
-  "related": [
+  "civilizations": [
     "Holy Roman Empire"
   ],
+  "related": [],
   "contribution": "He is considered the most influential artist of the Flemish Baroque tradition.",
-  "setting": "Western Europe, 17th century",
+  "setting": "",
   "image": "images/peter-paul-rubens.jpg",
   "image_credit": "Peter Paul Rubens · Public domain",
   "image_kind": "Portrait from life",
@@ -28,6 +28,9 @@
         "Kingdom of Spain"
       ],
       "lead": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
         "Holy Roman Empire"
       ]
     },

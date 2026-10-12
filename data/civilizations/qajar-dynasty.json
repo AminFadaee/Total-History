@@ -23,7 +23,8 @@
       "location": [
         51.389722222222225,
         35.68888888888889
-      ]
+      ],
+      "founded": 1794
     }
   ],
   "parts": [],
@@ -55,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/qajar-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

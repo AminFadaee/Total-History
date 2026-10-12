@@ -39,6 +39,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/rouran-khaganate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

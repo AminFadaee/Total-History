@@ -1,0 +1,78 @@
+{
+  "id": "Q662410",
+  "slug": "twenty-sixth-dynasty-of-egypt",
+  "name": "Twenty-sixth Dynasty of Egypt",
+  "wikipedia": "Twenty-sixth Dynasty of Egypt",
+  "map_year": -530,
+  "period": {
+    "start": {
+      "earliest": -664,
+      "latest": -664,
+      "circa": false
+    },
+    "end": {
+      "earliest": -525,
+      "latest": -525,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Sais",
+      "location": [
+        30.768333333333,
+        30.964722222222
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q10914393",
+    "region": "Egypt",
+    "name": "Neo-Assyrian Empire"
+  },
+  "after": {
+    "id": "Q389688",
+    "region": "Egypt",
+    "name": "Achaemenid Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q328763",
+      "name": "Psamtik I"
+    },
+    {
+      "id": "Q316278",
+      "name": "Psamtik III"
+    }
+  ],
+  "modern_countries": [
+    "Egypt",
+    "Cyprus"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/twenty-sixth-dynasty-of-egypt.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Sais, Egypt"
+      ]
+    },
+    "cliopatria_years": [
+      -615,
+      -501
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "Sais",
+    "labelled": [
+      "Achaemenid Empire",
+      "Kingdom of Kush"
+    ]
+  }
+}

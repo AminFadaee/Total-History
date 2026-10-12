@@ -48,6 +48,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/confederation-of-the-rhine.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

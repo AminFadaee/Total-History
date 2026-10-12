@@ -15,7 +15,8 @@
       "location": [
         -47.882777777778,
         -15.793888888889
-      ]
+      ],
+      "founded": 1960
     }
   ],
   "parts": [],
@@ -25,13 +26,31 @@
     "name": "Empire of Brazil"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q200812",
+      "name": "Deodoro da Fonseca"
+    },
+    {
+      "id": "Q238688",
+      "name": "Floriano Peixoto"
+    },
+    {
+      "id": "Q310230",
+      "name": "Prudente de Morais"
+    },
+    {
+      "id": "Q156844",
+      "name": "Getúlio Vargas"
+    }
+  ],
   "modern_countries": [
     "Brazil"
   ],
   "overseas_countries": [],
   "borders": true,
   "map": "maps/brazilian-republic.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

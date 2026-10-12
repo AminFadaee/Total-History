@@ -19,19 +19,38 @@
       "location": [
         -70.65,
         -33.4375
-      ]
+      ],
+      "founded": 1541
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q28930",
+      "name": "Bernardo O'Higgins"
+    },
+    {
+      "id": "Q1331",
+      "name": "Manuel Blanco Encalada"
+    },
+    {
+      "id": "Q1322",
+      "name": "José Manuel Balmaceda"
+    },
+    {
+      "id": "Q848",
+      "name": "Arturo Alessandri"
+    }
+  ],
   "modern_countries": [
     "Chile"
   ],
   "overseas_countries": [],
   "borders": true,
   "map": "maps/republic-of-chile.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

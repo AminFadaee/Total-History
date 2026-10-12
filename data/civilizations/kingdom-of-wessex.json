@@ -23,15 +23,12 @@
       "location": [
         -1.3086111111111,
         51.063333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q676184",
-    "region": "United Kingdom",
-    "name": "Kingdom of Sussex"
-  },
+  "before": {},
   "after": {
     "id": "Q179876",
     "region": "United Kingdom",
@@ -39,28 +36,20 @@
   },
   "rulers": [
     {
-      "id": "Q366048",
-      "name": "Cerdic of Wessex"
-    },
-    {
-      "id": "Q451580",
-      "name": "Ine of Wessex"
-    },
-    {
       "id": "Q154934",
       "name": "Ecgberht, King of Wessex"
     },
     {
+      "id": "Q272326",
+      "name": "Æthelwulf, King of Wessex"
+    },
+    {
+      "id": "Q272233",
+      "name": "Æthelred I of Wessex"
+    },
+    {
       "id": "Q83476",
       "name": "Alfred the Great"
-    },
-    {
-      "id": "Q187114",
-      "name": "Edward the Elder"
-    },
-    {
-      "id": "Q170017",
-      "name": "Æthelstan"
     }
   ],
   "modern_countries": [
@@ -69,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-wessex.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

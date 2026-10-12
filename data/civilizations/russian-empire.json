@@ -23,7 +23,8 @@
       "location": [
         30.316666666667,
         59.95
-      ]
+      ],
+      "founded": 1703
     }
   ],
   "parts": [],
@@ -37,6 +38,14 @@
     {
       "id": "Q8479",
       "name": "Peter the Great"
+    },
+    {
+      "id": "Q36450",
+      "name": "Catherine the Great"
+    },
+    {
+      "id": "Q15193",
+      "name": "Alexander I of Russia"
     },
     {
       "id": "Q40787",
@@ -64,6 +73,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/russian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -85,7 +95,7 @@
       "Qing Dynasty",
       "Ottoman Empire",
       "British Raj",
-      "French Africa",
+      "French colonial empire",
       "Ethiopian Empire",
       "Sokoto Caliphate"
     ]

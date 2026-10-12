@@ -23,22 +23,20 @@
       "location": [
         7.75,
         36.8825
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Carthage",
       "location": [
         10.323461,
         36.852558
-      ]
+      ],
+      "founded": -801
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q42834",
-    "region": "Algeria",
-    "name": "Western Roman Empire"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -48,14 +46,6 @@
     {
       "id": "Q81140",
       "name": "Huneric"
-    },
-    {
-      "id": "Q312604",
-      "name": "Gunthamund"
-    },
-    {
-      "id": "Q311888",
-      "name": "Thrasamund"
     },
     {
       "id": "Q310962",
@@ -76,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/vandal-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -95,7 +86,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Hippo Regius",
     "labelled": [
-      "Eastern Roman Empire",
+      "Byzantine Empire",
       "Western Roman Empire",
       "Visigothic Kingdom",
       "Ostrogoths",

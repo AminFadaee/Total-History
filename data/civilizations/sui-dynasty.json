@@ -23,15 +23,12 @@
       "location": [
         108.85833333333333,
         34.30833333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q551067",
-    "region": "China",
-    "name": "Northern Zhou"
-  },
+  "before": {},
   "after": {
     "id": "Q9683",
     "region": "China",
@@ -57,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/sui-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -75,10 +73,10 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Chang'an",
     "labelled": [
-      "Eastern Göktürks",
+      "Göktürks",
       "Tuyuhun",
       "Goguryeo",
-      "Western Göktürks",
+      "Göktürks",
       "Harsha's Empire",
       "Chalukya Dynasty",
       "Asuka Japan",

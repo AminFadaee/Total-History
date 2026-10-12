@@ -12,9 +12,11 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
-    "Kingdom of the Franks"
+    "Francia"
   ],
-  "related": [],
+  "related": [
+    "Saxons"
+  ],
   "contribution": "The Merovingian king of Metz, Rheims, or Austrasia—as it is variously called—from 511 to 534.",
   "setting": "",
   "image": "",
@@ -25,7 +27,10 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of the Franks"
+        "Francia"
+      ],
+      "lead": [
+        "Saxons"
       ],
       "birthplace": [
         "Kingdom of Alamannia"

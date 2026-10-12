@@ -23,15 +23,12 @@
       "location": [
         3.0586111111111,
         36.776388888889
-      ]
+      ],
+      "founded": 944
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q3045696",
-    "region": "Algeria",
-    "name": "Regency of Algiers"
-  },
+  "before": {},
   "after": {},
   "rulers": [],
   "modern_countries": [
@@ -40,6 +37,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/french-algeria.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

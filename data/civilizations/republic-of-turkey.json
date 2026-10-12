@@ -19,7 +19,8 @@
       "location": [
         32.83869,
         39.93576
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -36,6 +37,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/republic-of-turkey.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

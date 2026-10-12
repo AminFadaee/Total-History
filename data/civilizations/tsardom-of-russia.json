@@ -23,14 +23,16 @@
       "location": [
         37.6175,
         55.75055555555556
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Saint Petersburg",
       "location": [
         30.316666666667,
         59.95
-      ]
+      ],
+      "founded": 1703
     }
   ],
   "parts": [],
@@ -63,6 +65,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/tsardom-of-russia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

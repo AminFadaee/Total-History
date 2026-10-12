@@ -23,7 +23,8 @@
       "location": [
         100.485833333,
         13.725
-      ]
+      ],
+      "founded": 1782
     }
   ],
   "parts": [],
@@ -49,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/thonburi-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

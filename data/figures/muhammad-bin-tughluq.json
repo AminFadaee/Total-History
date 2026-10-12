@@ -13,8 +13,7 @@
   "birth_country": "India",
   "civilizations": [
     "Beylik of Karaman",
-    "Delhi Sultanate",
-    "Tughlaq Dynasty"
+    "Delhi Sultanate"
   ],
   "related": [
     "Kakatiya Dynasty"
@@ -29,20 +28,21 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Beylik of Karaman",
-        "Tughlaq Dynasty"
+        "Beylik of Karaman"
       ],
       "death": [
         "Sind-Samma Dynasty"
       ],
       "lead": [
-        "Tughlaq Dynasty",
         "Kakatiya Dynasty"
       ],
       "citizenship": [
         "Delhi Sultanate"
       ],
       "vital_section": [
+        "Delhi Sultanate"
+      ],
+      "birthplace": [
         "Delhi Sultanate"
       ]
     },

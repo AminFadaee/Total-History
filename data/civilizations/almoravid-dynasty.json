@@ -23,26 +23,33 @@
       "location": [
         -13.105472222222222,
         20.566194444444445
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Aghmat",
       "location": [
         -7.8011111111111,
         31.4225
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Marrakesh",
       "location": [
         -7.98108,
         31.62947
-      ]
+      ],
+      "founded": 1065
     }
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q199688",
+    "region": "Morocco",
+    "name": "Almohad Caliphate"
+  },
   "rulers": [
     {
       "id": "Q971532",
@@ -59,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/almoravid-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

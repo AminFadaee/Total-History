@@ -19,22 +19,20 @@
       "location": [
         68.856944444444,
         36.728888888889
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Balkh",
       "location": [
         66.898888888889,
         36.758055555556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q26996",
-    "region": "Afghanistan",
-    "name": "Kidarites"
-  },
+  "before": {},
   "after": {
     "id": "Q15146034",
     "region": "Afghanistan",
@@ -54,6 +52,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/white-huns.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -78,7 +77,7 @@
       "Sasanian Empire",
       "Gupta Empire",
       "Vakataka Kingdom",
-      "Eastern Roman Empire",
+      "Byzantine Empire",
       "Tuyuhun",
       "Himyarite Kingdom",
       "Lakhmid Kingdom",

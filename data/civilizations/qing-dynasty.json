@@ -23,14 +23,15 @@
       "location": [
         116.407526,
         39.90403
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {
-    "id": "Q9903",
+    "id": "Q1062546",
     "region": "China",
-    "name": "Ming Dynasty"
+    "name": "Later Jin Dynasty"
   },
   "after": {
     "id": "Q13426199",
@@ -57,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/qing-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -86,7 +88,8 @@
       "Khanate of Khiva",
       "Habsburg Monarchy",
       "Emirate of Diriyah",
-      "Mughal Empire"
+      "Mughal Empire",
+      "Prussia"
     ]
   }
 }

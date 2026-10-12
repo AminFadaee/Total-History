@@ -23,28 +23,32 @@
       "location": [
         12.482777777778,
         41.893055555556
-      ]
+      ],
+      "founded": -753
     },
     {
       "name": "Milan",
       "location": [
         9.185321,
         45.462907
-      ]
+      ],
+      "founded": -600
     },
     {
       "name": "Ravenna",
       "location": [
         12.201666666666666,
         44.416111111111114
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Constantinople",
       "location": [
         28.976018,
         41.01224
-      ]
+      ],
+      "founded": 330
     }
   ],
   "parts": [],
@@ -53,12 +57,25 @@
     "region": "Italy",
     "name": "Roman Republic"
   },
-  "after": {
-    "id": "Q42834",
-    "region": "Italy",
-    "name": "Western Roman Empire"
-  },
-  "rulers": [],
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q1405",
+      "name": "Augustus"
+    },
+    {
+      "id": "Q1409",
+      "name": "Caligula"
+    },
+    {
+      "id": "Q1430",
+      "name": "Marcus Aurelius"
+    },
+    {
+      "id": "Q8413",
+      "name": "Constantine the Great"
+    }
+  ],
   "modern_countries": [
     "Turkey",
     "Egypt",
@@ -99,6 +116,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/roman-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -111,7 +129,7 @@
       ],
       "infobox": [
         "Rome",
-        "Eastern Roman Empire",
+        "Byzantine Empire",
         "Western Roman Empire",
         "Dorling Kindersley",
         "Mediolanum",

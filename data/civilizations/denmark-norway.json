@@ -23,7 +23,8 @@
       "location": [
         12.568888888889,
         55.676111111111
-      ]
+      ],
+      "founded": 1167
     }
   ],
   "parts": [
@@ -64,6 +65,7 @@
   ],
   "borders": true,
   "map": "maps/denmark-norway.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -84,7 +86,8 @@
     "labelled": [
       "Tsardom of Russia",
       "Swedish Empire",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
+      "Prussia",
       "Polish-Lithuanian Commonwealth",
       "Kingdom of France",
       "Habsburg Monarchy",

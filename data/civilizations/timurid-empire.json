@@ -23,22 +23,20 @@
       "location": [
         66.97583333333333,
         39.65472222222222
-      ]
+      ],
+      "founded": -800
     },
     {
       "name": "Herat",
       "location": [
         62.203056,
         34.341944
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1734616",
-    "region": "Afghanistan",
-    "name": "Kartids"
-  },
+  "before": {},
   "after": {
     "id": "Q18234383",
     "region": "Afghanistan",
@@ -69,6 +67,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/timurid-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -91,7 +90,7 @@
       "Chagatai Khanate",
       "Mamluk Sultanate",
       "Ottoman Empire",
-      "Tughlaq Dynasty",
+      "Delhi Sultanate",
       "Kashmiri Sultanate",
       "Beylik of Karaman",
       "Golden Horde",

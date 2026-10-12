@@ -12,7 +12,6 @@
   "occupation": "Mathematician",
   "birth_country": "Switzerland",
   "civilizations": [
-    "Kingdom of Prussia",
     "Russian Empire"
   ],
   "related": [],
@@ -28,13 +27,12 @@
       "death": [
         "Russian Empire"
       ],
-      "lead": [
-        "Kingdom of Prussia"
-      ],
       "citizenship": [
         "Old Swiss Confederacy",
-        "Russian Empire",
-        "Kingdom of Prussia"
+        "Russian Empire"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Leonhard Euler ( OY-lər; 15 April 1707 – 18 September 1783) was a Swiss polymath who was active as a mathematician, physicist, astronomer, logician, geographer, music theorist and engineer. He founded the studies of graph theory and topology and made influential discoveries in many other branches of mathematics, such as analytic number theory, complex analysis, and infinitesimal calculus. He also introduced much of modern mathematical terminology and notation, including the notion of a mathematical function. He is known for his work in mechanics, fluid dynamics, optics, astronomy, and music theory. Euler has been called a \"universal genius\" who \"was fully equipped with almost unlimited powers of imagination, intellectual gifts and extraordinary memory\". He spent most of his adult life in Saint Petersburg, Russia, and in Berlin, then the capital of Prussia.",

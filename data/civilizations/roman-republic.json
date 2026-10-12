@@ -23,7 +23,8 @@
       "location": [
         12.482777777778,
         41.893055555556
-      ]
+      ],
+      "founded": -753
     }
   ],
   "parts": [],
@@ -71,6 +72,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/roman-republic.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

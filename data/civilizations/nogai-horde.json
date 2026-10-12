@@ -1,0 +1,75 @@
+{
+  "id": "Q631210",
+  "slug": "nogai-horde",
+  "name": "Nogai Horde",
+  "wikipedia": "Nogai Horde",
+  "map_year": 1512,
+  "period": {
+    "start": {
+      "earliest": 1440,
+      "latest": 1440,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1634,
+      "latest": 1634,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Saray-Jük",
+      "location": [
+        51.73333333,
+        47.5
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q79965",
+    "region": "Kazakhstan",
+    "name": "Golden Horde"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Kazakhstan",
+    "Russia",
+    "Uzbekistan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/nogai-horde.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Saray-Jük"
+      ],
+      "infobox": [
+        "Saray-Jük"
+      ]
+    },
+    "cliopatria_years": [
+      1450,
+      1563
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Saray-Jük",
+    "labelled": [
+      "Kazakh Khanate",
+      "Khanate of Kazan",
+      "Astrakhan Khanate",
+      "Khanate of Khiva",
+      "House of Jagiellon",
+      "Ottoman Empire",
+      "Crimean Khanate",
+      "Principality of Moldavia",
+      "Shirvan"
+    ]
+  }
+}

@@ -23,15 +23,12 @@
       "location": [
         107.58333333333333,
         16.466666666666665
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1034173",
-    "region": "Vietnam",
-    "name": "Tây Sơn dynasty"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -49,6 +46,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/nguyen-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

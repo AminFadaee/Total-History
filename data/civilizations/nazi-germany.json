@@ -23,7 +23,8 @@
       "location": [
         13.383333333333,
         52.516666666667
-      ]
+      ],
+      "founded": 1244
     }
   ],
   "parts": [],
@@ -71,6 +72,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/nazi-germany.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -89,17 +91,19 @@
     "home": "Berlin",
     "labelled": [
       "Union of Soviet Socialist Republics",
-      "French Africa",
+      "French colonial empire",
       "Italian Africa",
       "British Africa",
       "Francoist Spain",
       "Republic of Turkey",
       "United Kingdom",
+      "British Empire",
       "British Raj",
       "Republic of China",
       "Kingdom of Saudi Arabia",
       "Mongolian People's Republic",
       "Pahlavi Dynasty",
+      "Kingdom of Egypt",
       "Tibet"
     ]
   }

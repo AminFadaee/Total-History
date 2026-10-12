@@ -19,7 +19,8 @@
       "location": [
         40.068694444444,
         36.840027777778
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -43,6 +44,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mitanni.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -61,7 +63,6 @@
     "home": "Ras al-Ayn",
     "labelled": [
       "Hittites",
-      "Hyksos",
       "Assyria",
       "Babylonia"
     ]

@@ -19,15 +19,12 @@
       "location": [
         7.676111111111111,
         45.079166666666666
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1232887",
-    "region": "France",
-    "name": "County of Savoy"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -43,6 +40,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/duchy-of-savoy.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -63,7 +61,7 @@
     "home": "the spot held longest",
     "labelled": [
       "Kingdom of France",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "House of Valois-Anjou",
       "Duchy of Burgundy",
       "Duchy of Milan",

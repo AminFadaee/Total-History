@@ -1,0 +1,44 @@
+{
+  "id": "Q28567",
+  "slug": "maya-civilization",
+  "name": "Maya civilization",
+  "wikipedia": "Maya civilization",
+  "map_year": 840,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1521,
+      "latest": 1521,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico",
+    "Guatemala",
+    "Belize"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/maya-civilization.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -247,
+      1546
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

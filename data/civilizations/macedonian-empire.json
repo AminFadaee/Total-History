@@ -23,36 +23,22 @@
       "location": [
         22.3227596,
         40.4779658
-      ]
+      ],
+      "founded": -750
     },
     {
       "name": "Pella",
       "location": [
         22.525642,
         40.760033
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q237325",
-    "region": "Greece",
-    "name": "Antigonid Macedonia"
-  },
+  "after": {},
   "rulers": [
-    {
-      "id": "Q297086",
-      "name": "Alexander I of Macedon"
-    },
-    {
-      "id": "Q318426",
-      "name": "Perdiccas II of Macedon"
-    },
-    {
-      "id": "Q26846",
-      "name": "Archelaus of Macedon"
-    },
     {
       "id": "Q130650",
       "name": "Philip II of Macedon"
@@ -62,36 +48,12 @@
       "name": "Alexander the Great"
     },
     {
-      "id": "Q207183",
-      "name": "Cassander"
-    },
-    {
-      "id": "Q59734",
-      "name": "Demetrius I Poliorcetes"
+      "id": "Q207847",
+      "name": "Alexander IV of Macedon"
     },
     {
       "id": "Q172353",
       "name": "Pyrrhus of Epirus"
-    },
-    {
-      "id": "Q32133",
-      "name": "Lysimachus"
-    },
-    {
-      "id": "Q241386",
-      "name": "Antigonus II Gonatas"
-    },
-    {
-      "id": "Q108816",
-      "name": "Antigonus III Doson"
-    },
-    {
-      "id": "Q237248",
-      "name": "Philip V of Macedon"
-    },
-    {
-      "id": "Q207363",
-      "name": "Perseus of Macedon"
     }
   ],
   "modern_countries": [
@@ -108,6 +70,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/macedonian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

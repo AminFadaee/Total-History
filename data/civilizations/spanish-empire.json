@@ -19,18 +19,20 @@
   },
   "capitals": [
     {
-      "name": "Madrid city",
+      "name": "Madrid",
       "location": [
         -3.703333333333333,
         40.41694444444445
-      ]
+      ],
+      "founded": 1083
     },
     {
-      "name": "Valladolid city",
+      "name": "Valladolid",
       "location": [
         -4.7285611111111,
         41.651980555556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [
@@ -71,6 +73,7 @@
   ],
   "borders": true,
   "map": "maps/spanish-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

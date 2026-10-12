@@ -1,0 +1,102 @@
+{
+  "id": "Q866716",
+  "slug": "jalayirid-sultanate",
+  "name": "Jalayirid Sultanate",
+  "wikipedia": "Jalayirid Sultanate",
+  "map_year": 1363,
+  "period": {
+    "start": {
+      "earliest": 1335,
+      "latest": 1335,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1432,
+      "latest": 1432,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Baghdad",
+      "location": [
+        44.36611111111111,
+        33.31527777777778
+      ],
+      "founded": 762
+    },
+    {
+      "name": "Tabriz",
+      "location": [
+        46.29611111111111,
+        38.07388888888889
+      ],
+      "founded": null
+    },
+    {
+      "name": "Basra",
+      "location": [
+        47.81,
+        30.515
+      ],
+      "founded": 638
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q178084",
+    "region": "Iraq",
+    "name": "Ilkhanate"
+  },
+  "after": {
+    "id": "Q484195",
+    "region": "Iraq",
+    "name": "Timurid Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Iraq"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/jalayirid-sultanate.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Baghdad",
+        "Tabriz",
+        "Basra"
+      ],
+      "infobox": [
+        "Baghdad",
+        "Tabriz",
+        "Hillah",
+        "Basra"
+      ]
+    },
+    "cliopatria_years": [
+      1344,
+      1401
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Baghdad",
+    "labelled": [
+      "Mamluk Sultanate",
+      "Sarbadars",
+      "Muzaffarids",
+      "Germiyanids",
+      "Kingdom of Georgia",
+      "Shirvan",
+      "Kartids",
+      "Ottoman Empire",
+      "Beylik of Karaman",
+      "Candar dynasty",
+      "Byzantine Empire",
+      "Beylik of Teke"
+    ]
+  }
+}

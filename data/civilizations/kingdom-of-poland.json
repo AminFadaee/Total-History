@@ -23,27 +23,47 @@
       "location": [
         17.6,
         52.533333333333
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Kraków",
       "location": [
         19.937222222222,
         50.061388888889
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Warsaw",
       "location": [
         21.011111111111113,
         52.23
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q54049",
+      "name": "Władysław II Jagiełło"
+    },
+    {
+      "id": "Q53448",
+      "name": "Henry III of France"
+    },
+    {
+      "id": "Q52940",
+      "name": "Sigismund III Vasa"
+    },
+    {
+      "id": "Q53454",
+      "name": "John III Sobieski"
+    }
+  ],
   "modern_countries": [
     "Poland",
     "Czechia",
@@ -53,6 +73,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-poland.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

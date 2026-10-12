@@ -3,21 +3,59 @@
   "slug": "chola-dynasty",
   "name": "Chola dynasty",
   "wikipedia": "Chola dynasty",
-  "map_year": -300,
+  "map_year": 1028,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false
+    "start": {
+      "earliest": -300,
+      "latest": -300,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1279,
+      "latest": 1279,
+      "circa": false
+    },
+    "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Puhar",
+      "location": [
+        79.855,
+        11.144
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
-  "modern_countries": [],
+  "rulers": [
+    {
+      "id": "Q7929271",
+      "name": "Vijayalaya Chola"
+    },
+    {
+      "id": "Q3535800",
+      "name": "Aditya I"
+    },
+    {
+      "id": "Q2128757",
+      "name": "Rajaraja I"
+    },
+    {
+      "id": "Q211483",
+      "name": "Rajendra I"
+    }
+  ],
+  "modern_countries": [
+    "India",
+    "Sri Lanka"
+  ],
   "overseas_countries": [],
-  "borders": false,
-  "map": "",
+  "borders": true,
+  "map": "maps/chola-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": false,
     "capital_sources": {
@@ -26,8 +64,15 @@
       ],
       "infobox": []
     },
-    "cliopatria_years": [],
-    "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "cliopatria_years": [
+      -291,
+      1259
+    ],
+    "identity": "state drawn through its dynasties",
+    "home": "Puhar",
+    "labelled": [
+      "Western Chalukya Empire",
+      "Pagan Kingdom"
+    ]
   }
 }

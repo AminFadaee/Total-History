@@ -19,7 +19,8 @@
       "location": [
         -90.51333333333334,
         14.641666666666667
-      ]
+      ],
+      "founded": 1524
     }
   ],
   "parts": [],
@@ -29,13 +30,31 @@
     "name": "United Provinces of Central America"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q365381",
+      "name": "Rafael Carrera"
+    },
+    {
+      "id": "Q879169",
+      "name": "Manuel Estrada Cabrera"
+    },
+    {
+      "id": "Q885550",
+      "name": "José María Orellana"
+    },
+    {
+      "id": "Q549431",
+      "name": "Jorge Ubico"
+    }
+  ],
   "modern_countries": [
     "Guatemala"
   ],
   "overseas_countries": [],
   "borders": true,
   "map": "maps/guatemala.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -55,7 +74,7 @@
     "labelled": [
       "Honduras",
       "Republic of El Salvador",
-      "British Colonial Empire",
+      "British Empire",
       "Republic of Nicaragua"
     ]
   }

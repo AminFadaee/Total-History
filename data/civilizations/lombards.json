@@ -1,0 +1,47 @@
+{
+  "id": "Q130900",
+  "slug": "lombards",
+  "name": "Lombards",
+  "wikipedia": "Lombards",
+  "map_year": 567,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Hungary",
+    "Bosnia and Herzegovina",
+    "Austria",
+    "Croatia",
+    "Serbia",
+    "Slovenia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/lombards.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      480,
+      586
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Byzantine Empire",
+      "Avar Khaganate",
+      "Bavarians"
+    ]
+  }
+}

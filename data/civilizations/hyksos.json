@@ -1,0 +1,56 @@
+{
+  "id": "Q192319",
+  "slug": "hyksos",
+  "name": "Hyksos",
+  "wikipedia": "Hyksos",
+  "map_year": -1600,
+  "period": {
+    "start": {
+      "earliest": -1659,
+      "latest": -1650,
+      "circa": false
+    },
+    "end": {
+      "earliest": -1559,
+      "latest": -1550,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Egypt",
+    "Jordan",
+    "Syria",
+    "Israel",
+    "Lebanon",
+    "Palestine"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/hyksos.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -1659,
+      -1550
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Fifteenth Dynasty of Egypt",
+      "Babylonia",
+      "Assyria",
+      "Seventeenth Dynasty of Egypt"
+    ]
+  }
+}

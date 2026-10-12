@@ -23,14 +23,16 @@
       "location": [
         65.71588,
         31.62068
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Kabul",
       "location": [
         69.165833333333,
         34.532777777778
-      ]
+      ],
+      "founded": 1200
     }
   ],
   "parts": [],
@@ -59,6 +61,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/durrani-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

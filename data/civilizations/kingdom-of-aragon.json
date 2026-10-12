@@ -23,41 +23,58 @@
       "location": [
         -0.55,
         42.55
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Huesca",
       "location": [
         -0.40889722222222,
         42.1401
-      ]
+      ],
+      "founded": 1096
     },
     {
       "name": "Zaragoza",
       "location": [
         -0.88333333333333,
         41.65
-      ]
+      ],
+      "founded": 1118
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1297894",
-    "region": "Spain",
-    "name": "County of Ribagorza"
-  },
+  "before": {},
   "after": {
     "id": "Q204920",
     "region": "Spain",
     "name": "Crown of Aragon"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q12860",
+      "name": "Ferdinand II of Aragon"
+    },
+    {
+      "id": "Q32500",
+      "name": "Charles V, Holy Roman Emperor"
+    },
+    {
+      "id": "Q34417",
+      "name": "Philip II of Spain"
+    },
+    {
+      "id": "Q36174",
+      "name": "Charles II of Spain"
+    }
+  ],
   "modern_countries": [
     "Spain"
   ],
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-aragon.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

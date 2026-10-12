@@ -23,29 +23,28 @@
       "location": [
         126.974,
         45.501
-      ]
+      ],
+      "founded": 1124
     },
     {
       "name": "Zhongdu",
       "location": [
         116.33333333333333,
         39.86666666666667
-      ]
+      ],
+      "founded": 1153
     },
     {
       "name": "Kaifeng",
       "location": [
         114.345,
         34.795
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q7462",
-    "region": "China",
-    "name": "Northern Song"
-  },
+  "before": {},
   "after": {
     "id": "Q12557",
     "region": "China",
@@ -69,6 +68,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/great-jin.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -92,7 +92,7 @@
     "home": "Kaifeng",
     "labelled": [
       "Mongol Empire",
-      "Southern Song",
+      "Song dynasty",
       "Western Xia",
       "Goryeo",
       "Tibetans",

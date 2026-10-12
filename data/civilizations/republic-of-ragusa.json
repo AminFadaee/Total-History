@@ -23,13 +23,31 @@
       "location": [
         18.108333333333,
         42.640277777778
-      ]
+      ],
+      "founded": 601
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q31198595",
+      "name": "Damjan Beneša"
+    },
+    {
+      "id": "Q1764051",
+      "name": "Nikola Vitov Gučetić"
+    },
+    {
+      "id": "Q1637923",
+      "name": "Ivan Bunić Vučić"
+    },
+    {
+      "id": "Q23889301",
+      "name": "Giunio Resti"
+    }
+  ],
   "modern_countries": [
     "Bosnia and Herzegovina",
     "Croatia"
@@ -37,6 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/republic-of-ragusa.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

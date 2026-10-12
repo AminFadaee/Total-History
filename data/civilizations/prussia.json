@@ -1,0 +1,86 @@
+{
+  "id": "Q38872",
+  "slug": "prussia",
+  "name": "Prussia",
+  "wikipedia": "Prussia",
+  "map_year": 1806,
+  "period": {
+    "start": {
+      "earliest": 1525,
+      "latest": 1525,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1947,
+      "latest": 1947,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Königsberg",
+      "location": [
+        20.509305555555557,
+        54.71147222222222
+      ],
+      "founded": 1255
+    },
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ],
+      "founded": 1244
+    }
+  ],
+  "parts": [
+    "Duchy of Prussia"
+  ],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q151826",
+      "name": "Frederick I of Prussia"
+    }
+  ],
+  "modern_countries": [
+    "Poland",
+    "Germany"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/prussia.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Berlin",
+        "Königsberg"
+      ],
+      "infobox": [
+        "Königsberg",
+        "Berlin"
+      ]
+    },
+    "cliopatria_years": [
+      1619,
+      1863
+    ],
+    "identity": "state drawn through its dynasties",
+    "home": "Königsberg",
+    "labelled": [
+      "Russian Empire",
+      "Austrian Empire",
+      "First French Empire",
+      "Kingdom of Sweden",
+      "Kingdom of Bavaria",
+      "Kingdom of Saxony",
+      "Batavian Republic",
+      "Grand Duchy of Hesse"
+    ]
+  }
+}

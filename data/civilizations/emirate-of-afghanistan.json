@@ -1,0 +1,85 @@
+{
+  "id": "Q1335260",
+  "slug": "emirate-of-afghanistan",
+  "name": "Emirate of Afghanistan",
+  "wikipedia": "Emirate of Afghanistan",
+  "map_year": 1828,
+  "period": {
+    "start": {
+      "earliest": 1823,
+      "latest": 1823,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1926,
+      "latest": 1926,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kabul",
+      "location": [
+        69.165833333333,
+        34.532777777778
+      ],
+      "founded": 1200
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q467627",
+    "region": "Afghanistan",
+    "name": "Durrani Empire"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q334869",
+      "name": "Habibullah Khan"
+    },
+    {
+      "id": "Q153620",
+      "name": "Amanullah Khan"
+    }
+  ],
+  "modern_countries": [
+    "Afghanistan",
+    "Pakistan",
+    "India"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/emirate-of-afghanistan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kabul"
+      ],
+      "infobox": [
+        "Kabul",
+        "Ghazni"
+      ]
+    },
+    "cliopatria_years": [
+      1828,
+      1925
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kabul",
+    "labelled": [
+      "Qing Dynasty",
+      "Qajar Dynasty",
+      "Khanate of Khiva",
+      "Talpur Dynasty",
+      "Emirate of Bukhara",
+      "Sikh Empire",
+      "Mughal Empire",
+      "Kingdom of Nepal",
+      "Maratha Empire"
+    ]
+  }
+}

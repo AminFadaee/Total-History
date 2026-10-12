@@ -1,0 +1,89 @@
+{
+  "id": "Q373650",
+  "slug": "sur-empire",
+  "name": "Sur Empire",
+  "wikipedia": "Sur Empire",
+  "map_year": 1547,
+  "period": {
+    "start": {
+      "earliest": 1538,
+      "latest": 1538,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1555,
+      "latest": 1555,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Delhi",
+      "location": [
+        77.216666666667,
+        28.666666666667
+      ],
+      "founded": -509
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q33296",
+    "region": "India",
+    "name": "Mughal Empire"
+  },
+  "after": {
+    "id": "Q33296",
+    "region": "India",
+    "name": "Mughal Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q83680",
+      "name": "Sher Shah Suri"
+    },
+    {
+      "id": "Q3348692",
+      "name": "Muhammad Adil Shah Suri"
+    }
+  ],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Bangladesh"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/sur-empire.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Delhi"
+      ],
+      "infobox": [
+        "Sasaram",
+        "Delhi"
+      ]
+    },
+    "cliopatria_years": [
+      1540,
+      1594
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Delhi",
+    "labelled": [
+      "Kashmiri Sultanate",
+      "Eastern Moghulistan",
+      "Shan States",
+      "Mughal Empire",
+      "Toungoo dynasty",
+      "Berar Sultanate",
+      "Ahmadnagar Sultanate",
+      "Lanna Kingdom",
+      "Golconda Sultanate"
+    ]
+  }
+}

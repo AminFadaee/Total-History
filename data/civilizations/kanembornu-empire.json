@@ -1,0 +1,67 @@
+{
+  "id": "Q1139762",
+  "slug": "kanembornu-empire",
+  "name": "Kanem–Bornu Empire",
+  "wikipedia": "Kanem–Bornu Empire",
+  "map_year": 1579,
+  "period": {
+    "start": {
+      "earliest": 1001,
+      "latest": 1100,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1902,
+      "latest": 1902,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Njimi",
+      "location": null,
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Chad",
+    "Nigeria",
+    "Niger",
+    "Cameroon"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/kanembornu-empire.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Njimi"
+      ],
+      "infobox": [
+        "Njimi",
+        "Bilala people",
+        "Ngazargamu",
+        "Fula jihads",
+        "Dunama IX Lefiami",
+        "Kafela",
+        "Muhammad IX Ngileruma",
+        "Kukawa",
+        "Dikwa"
+      ]
+    },
+    "cliopatria_years": [
+      1072,
+      1894
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

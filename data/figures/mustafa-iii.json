@@ -14,7 +14,9 @@
   "civilizations": [
     "Ottoman Empire"
   ],
-  "related": [],
+  "related": [
+    "Prussia"
+  ],
   "contribution": "He was a son of Sultan Ahmed III, and his consort Mihrişah Kadın.",
   "setting": "",
   "image": "images/mustafa-iii.jpg",
@@ -26,6 +28,9 @@
     "civilization_votes": {
       "office": [
         "Ottoman Empire"
+      ],
+      "lead": [
+        "Prussia"
       ],
       "citizenship": [
         "Ottoman Empire"

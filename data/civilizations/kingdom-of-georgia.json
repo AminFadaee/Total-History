@@ -19,23 +19,21 @@
       "location": [
         42.705555555555556,
         42.27166666666667
-      ]
+      ],
+      "founded": -300
     },
     {
       "name": "Tbilisi",
       "location": [
         44.7925,
         41.7225
-      ]
+      ],
+      "founded": 455
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q195972",
-    "region": "Georgia",
-    "name": "Kingdom of Kartli"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q467266",
@@ -59,6 +57,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-georgia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

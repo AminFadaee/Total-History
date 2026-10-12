@@ -15,19 +15,38 @@
       "location": [
         -99.13589,
         19.353773
-      ]
+      ],
+      "founded": 1521
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q182276",
+      "name": "Benito Juárez"
+    },
+    {
+      "id": "Q150688",
+      "name": "Porfirio Díaz"
+    },
+    {
+      "id": "Q216766",
+      "name": "Francisco I. Madero"
+    },
+    {
+      "id": "Q296718",
+      "name": "Lázaro Cárdenas"
+    }
+  ],
   "modern_countries": [
     "Mexico"
   ],
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mexico.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

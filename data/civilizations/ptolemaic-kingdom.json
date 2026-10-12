@@ -23,7 +23,8 @@
       "location": [
         29.8925,
         31.1975
-      ]
+      ],
+      "founded": -331
     }
   ],
   "parts": [],
@@ -56,6 +57,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ptolemaic-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

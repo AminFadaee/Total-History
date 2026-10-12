@@ -23,14 +23,16 @@
       "location": [
         42,
         39.2
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Tushpa",
       "location": [
         43.3425,
         38.5
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -46,18 +48,6 @@
       "name": "Arame of Urartu"
     },
     {
-      "id": "Q766247",
-      "name": "Lutipri"
-    },
-    {
-      "id": "Q363475",
-      "name": "Sarduri I"
-    },
-    {
-      "id": "Q369780",
-      "name": "Ishpuini"
-    },
-    {
       "id": "Q381947",
       "name": "Menua"
     },
@@ -68,34 +58,6 @@
     {
       "id": "Q353497",
       "name": "Sarduri II"
-    },
-    {
-      "id": "Q352690",
-      "name": "Rusa I"
-    },
-    {
-      "id": "Q380815",
-      "name": "Argišti II"
-    },
-    {
-      "id": "Q460078",
-      "name": "Rusa II"
-    },
-    {
-      "id": "Q1060531",
-      "name": "Sarduri III"
-    },
-    {
-      "id": "Q541989",
-      "name": "Rusa III"
-    },
-    {
-      "id": "Q1060828",
-      "name": "Sarduri IV"
-    },
-    {
-      "id": "Q673022",
-      "name": "Rusa IV"
     }
   ],
   "modern_countries": [
@@ -106,6 +68,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-urartu.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

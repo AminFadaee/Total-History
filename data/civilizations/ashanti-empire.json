@@ -19,16 +19,13 @@
       "location": [
         -1.625,
         6.7
-      ]
+      ],
+      "founded": 1680
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q503623",
-    "region": "Ghana",
-    "name": "British Gold Coast"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q713080",
@@ -50,6 +47,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ashanti-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

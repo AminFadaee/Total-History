@@ -15,7 +15,8 @@
       "location": [
         -5.051,
         50.26
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -28,6 +29,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/cornwall.png",
+  "map_asked": true,
   "checks": {
     "infobox": false,
     "capital_sources": {

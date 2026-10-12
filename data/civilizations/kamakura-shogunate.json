@@ -1,0 +1,73 @@
+{
+  "id": "Q736839",
+  "slug": "kamakura-shogunate",
+  "name": "Kamakura Shogunate",
+  "wikipedia": "Kamakura shogunate",
+  "map_year": 1326,
+  "period": {
+    "start": {
+      "earliest": 1192,
+      "latest": 1192,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1333,
+      "latest": 1333,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kamakura",
+      "location": [
+        139.54722222222222,
+        35.31916666666667
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q193292",
+    "region": "Japan",
+    "name": "Heian Japan"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q316658",
+      "name": "Emperor Go-Toba"
+    },
+    {
+      "id": "Q313942",
+      "name": "Emperor Go-Daigo"
+    }
+  ],
+  "modern_countries": [
+    "Japan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/kamakura-shogunate.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kamakura"
+      ],
+      "infobox": [
+        "Heian-kyō",
+        "Kamakura"
+      ]
+    },
+    "cliopatria_years": [
+      1188,
+      1332
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kamakura",
+    "labelled": []
+  }
+}

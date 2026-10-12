@@ -1,0 +1,99 @@
+{
+  "id": "Q624887",
+  "slug": "neo-babylonian-empire",
+  "name": "Neo-Babylonian Empire",
+  "wikipedia": "Neo-Babylonian Empire",
+  "map_year": -600,
+  "period": {
+    "start": {
+      "earliest": -626,
+      "latest": -626,
+      "circa": false
+    },
+    "end": {
+      "earliest": -539,
+      "latest": -539,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Babylon",
+      "location": [
+        44.42111111111111,
+        32.5425
+      ],
+      "founded": -3000
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q10914393",
+    "region": "Iraq",
+    "name": "Neo-Assyrian Empire"
+  },
+  "after": {
+    "id": "Q389688",
+    "region": "Iraq",
+    "name": "Achaemenid Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q12591",
+      "name": "Nebuchadnezzar II"
+    },
+    {
+      "id": "Q313234",
+      "name": "Amel-Marduk"
+    },
+    {
+      "id": "Q379716",
+      "name": "Neriglissar"
+    },
+    {
+      "id": "Q906677",
+      "name": "Labashi-Marduk"
+    },
+    {
+      "id": "Q239414",
+      "name": "Nabonidus"
+    }
+  ],
+  "modern_countries": [
+    "Iraq",
+    "Turkey",
+    "Syria",
+    "Iran",
+    "Israel",
+    "Lebanon",
+    "Palestine"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/neo-babylonian-empire.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Babylon"
+      ],
+      "infobox": [
+        "Babylon"
+      ]
+    },
+    "cliopatria_years": [
+      -600,
+      -531
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Babylon",
+    "labelled": [
+      "Median Kingdom",
+      "Twenty-sixth Dynasty of Egypt",
+      "Kingdom of Urartu",
+      "Lydia"
+    ]
+  }
+}

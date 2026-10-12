@@ -23,7 +23,8 @@
       "location": [
         20.456944444444446,
         44.81777777777778
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [
@@ -44,6 +45,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/yugoslavia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

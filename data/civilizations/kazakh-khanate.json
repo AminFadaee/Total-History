@@ -23,35 +23,40 @@
       "location": [
         68.475,
         44.140277777778
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Sighnaq",
       "location": [
         66.963888888889,
         44.156666666667
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Saray-Jük",
       "location": [
         51.73333333,
         47.5
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Turkistan",
       "location": [
         68.26916666666666,
         43.301944444444445
-      ]
+      ],
+      "founded": 302
     },
     {
       "name": "Tashkent",
       "location": [
         69.27972222222222,
         41.31111111111111
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -61,6 +66,14 @@
     {
       "id": "Q3826541",
       "name": "Kerei Khan"
+    },
+    {
+      "id": "Q2658842",
+      "name": "Janibek Khan"
+    },
+    {
+      "id": "Q2467956",
+      "name": "Kasym Khan"
     },
     {
       "id": "Q322100",
@@ -74,6 +87,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kazakh-khanate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

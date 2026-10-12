@@ -23,7 +23,8 @@
       "location": [
         85.144,
         25.611
-      ]
+      ],
+      "founded": -490
     }
   ],
   "parts": [],
@@ -53,26 +54,6 @@
     {
       "id": "Q538082",
       "name": "Dasharatha Maurya"
-    },
-    {
-      "id": "Q12455672",
-      "name": "Samprati"
-    },
-    {
-      "id": "Q911425",
-      "name": "Shalishuka"
-    },
-    {
-      "id": "Q1563766",
-      "name": "Devavarman"
-    },
-    {
-      "id": "Q1563790",
-      "name": "Shatadhanvan"
-    },
-    {
-      "id": "Q24405",
-      "name": "Brihadratha Maurya"
     }
   ],
   "modern_countries": [
@@ -84,6 +65,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/maurya-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

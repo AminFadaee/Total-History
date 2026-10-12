@@ -12,7 +12,7 @@
   "occupation": "Philosopher",
   "birth_country": "Russia",
   "civilizations": [
-    "Kingdom of Prussia"
+    "Prussia"
   ],
   "related": [],
   "contribution": "Born in Königsberg in the Kingdom of Prussia, he is considered one of the central thinkers of the Enlightenment.",
@@ -25,16 +25,10 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Kingdom of Prussia"
-      ],
-      "lead": [
-        "Kingdom of Prussia"
-      ],
-      "citizenship": [
-        "Kingdom of Prussia"
+        "Prussia"
       ],
       "birthplace": [
-        "Kingdom of Prussia"
+        "Prussia"
       ]
     },
     "lead": "Immanuel Kant (born Emanuel Kant; 22 April 1724 – 12 February 1804) was a German philosopher. Born in Königsberg in the Kingdom of Prussia, he is considered one of the central thinkers of the Enlightenment. His comprehensive and systematic works in epistemology, metaphysics, logic, ethics, aesthetics, political theory, and philosophy of religion have made him one of the most influential and highly discussed figures in modern Western philosophy.",

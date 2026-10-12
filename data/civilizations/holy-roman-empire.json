@@ -23,35 +23,40 @@
       "location": [
         6.083788,
         50.776207
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Prague",
       "location": [
         14.421388888888888,
         50.0875
-      ]
+      ],
+      "founded": 701
     },
     {
       "name": "Vienna",
       "location": [
         16.3725,
         48.208333333333336
-      ]
+      ],
+      "founded": -100
     },
     {
       "name": "Regensburg",
       "location": [
         12.083333333333334,
         49.016666666666666
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Wetzlar",
       "location": [
         8.5,
         50.56666666666667
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -60,31 +65,23 @@
     "region": "Germany",
     "name": "Kingdom of Germany"
   },
-  "after": {
-    "id": "Q20135",
-    "region": "Germany",
-    "name": "Grand Duchy of Hesse"
-  },
+  "after": {},
   "rulers": [
-    {
-      "id": "Q3044",
-      "name": "Charlemagne"
-    },
     {
       "id": "Q43915",
       "name": "Otto the Great"
     },
     {
-      "id": "Q150966",
-      "name": "Frederick III, Holy Roman Emperor"
+      "id": "Q79789",
+      "name": "Frederick Barbarossa"
+    },
+    {
+      "id": "Q130221",
+      "name": "Frederick II, Holy Roman Emperor"
     },
     {
       "id": "Q32500",
       "name": "Charles V, Holy Roman Emperor"
-    },
-    {
-      "id": "Q130834",
-      "name": "Francis II, Holy Roman Emperor"
     }
   ],
   "modern_countries": [
@@ -104,6 +101,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/holy-roman-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -118,7 +116,7 @@
     },
     "cliopatria_years": [
       962,
-      1621
+      1806
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Wetzlar",

@@ -23,14 +23,16 @@
       "location": [
         -5.5536111111111,
         34.071111111111
-      ]
+      ],
+      "founded": -400
     },
     {
       "name": "Fez",
       "location": [
         -5.003333333333333,
         34.04333333333334
-      ]
+      ],
+      "founded": 789
     }
   ],
   "parts": [],
@@ -49,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/idrisids.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

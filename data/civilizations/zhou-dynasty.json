@@ -23,14 +23,16 @@
       "location": [
         112.41452,
         34.66768
-      ]
+      ],
+      "founded": -1021
     },
     {
       "name": "Luoyang",
       "location": [
         112.42447,
         34.65867
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -52,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/zhou-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

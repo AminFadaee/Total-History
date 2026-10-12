@@ -23,7 +23,8 @@
       "location": [
         21.011111111111113,
         52.23
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -59,6 +60,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/second-polish-republic.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

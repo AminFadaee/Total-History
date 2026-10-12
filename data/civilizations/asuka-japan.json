@@ -1,0 +1,48 @@
+{
+  "id": "Q210688",
+  "slug": "asuka-japan",
+  "name": "Asuka Japan",
+  "wikipedia": "Asuka period",
+  "map_year": 705,
+  "period": {
+    "start": {
+      "earliest": 538,
+      "latest": 538,
+      "circa": false
+    },
+    "end": {
+      "earliest": 710,
+      "latest": 710,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Japan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/asuka-japan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      540,
+      709
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Unified Silla"
+    ]
+  }
+}

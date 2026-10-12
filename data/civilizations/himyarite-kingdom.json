@@ -23,7 +23,8 @@
       "location": [
         44.40287441,
         14.21389794
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -58,6 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/himyarite-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

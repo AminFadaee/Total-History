@@ -23,14 +23,16 @@
       "location": [
         -3.703333333333333,
         40.41694444444445
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Valladolid",
       "location": [
         -4.7285611111111,
         41.651980555556
-      ]
+      ],
+      "founded": 1072
     }
   ],
   "parts": [
@@ -46,16 +48,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q243122",
-      "name": "Ferdinand III of Castile"
-    },
-    {
       "id": "Q45859",
       "name": "Isabella I of Castile"
     },
     {
-      "id": "Q12860",
-      "name": "Ferdinand II of Aragon"
+      "id": "Q32500",
+      "name": "Charles V, Holy Roman Emperor"
+    },
+    {
+      "id": "Q34417",
+      "name": "Philip II of Spain"
+    },
+    {
+      "id": "Q36174",
+      "name": "Charles II of Spain"
     }
   ],
   "modern_countries": [
@@ -69,6 +75,7 @@
   ],
   "borders": true,
   "map": "maps/crown-of-castile.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

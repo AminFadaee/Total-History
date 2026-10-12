@@ -1,0 +1,57 @@
+{
+  "id": "Q1045322",
+  "slug": "nanzhao",
+  "name": "Nanzhao",
+  "wikipedia": "Nanzhao",
+  "map_year": 830,
+  "period": {
+    "start": {
+      "earliest": 738,
+      "latest": 738,
+      "circa": false
+    },
+    "end": {
+      "earliest": 902,
+      "latest": 902,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Vietnam"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/nanzhao.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Dali City"
+      ],
+      "infobox": [
+        "Dali City"
+      ]
+    },
+    "cliopatria_years": [
+      741,
+      910
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Tang Dynasty",
+      "Tibetan Empire",
+      "Pyu City-States",
+      "Haripuñjaya",
+      "Kamarupa Kingdom"
+    ]
+  }
+}

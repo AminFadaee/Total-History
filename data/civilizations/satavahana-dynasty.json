@@ -23,7 +23,8 @@
       "location": [
         80.358,
         16.573
-      ]
+      ],
+      "founded": -300
     }
   ],
   "parts": [],
@@ -45,6 +46,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/satavahana-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

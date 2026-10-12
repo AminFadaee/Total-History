@@ -23,7 +23,8 @@
       "location": [
         109.07507,
         13.92869
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -36,6 +37,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/champa.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,21 +23,24 @@
       "location": [
         -86.3,
         32.3675
-      ]
+      ],
+      "founded": 1817
     },
     {
       "name": "Richmond",
       "location": [
         -77.43666666666667,
         37.54083333333333
-      ]
+      ],
+      "founded": 1607
     },
     {
       "name": "Danville",
       "location": [
         -79.404404,
         36.587238
-      ]
+      ],
+      "founded": 1792
     }
   ],
   "parts": [],
@@ -59,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/confederate-states-of-america.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -37,20 +37,20 @@
   },
   "rulers": [
     {
-      "id": "Q299156",
-      "name": "Alfonso II of Aragon"
-    },
-    {
       "id": "Q12860",
       "name": "Ferdinand II of Aragon"
     },
     {
-      "id": "Q170467",
-      "name": "Philip V of Spain"
+      "id": "Q32500",
+      "name": "Charles V, Holy Roman Emperor"
     },
     {
-      "id": "Q150665",
-      "name": "Charles VI, Holy Roman Emperor"
+      "id": "Q34417",
+      "name": "Philip II of Spain"
+    },
+    {
+      "id": "Q36174",
+      "name": "Charles II of Spain"
     }
   ],
   "modern_countries": [
@@ -62,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/crown-of-aragon.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -88,7 +89,7 @@
       "Principality of Wallachia",
       "Germiyanids",
       "Kingdom of Bosnia",
-      "Beylik of Isfendiyar",
+      "Candar dynasty",
       "Duchy of Burgundy",
       "Duchy of Bavaria",
       "Duchy of Savoy",

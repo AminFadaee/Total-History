@@ -1,0 +1,44 @@
+{
+  "id": "Q187897",
+  "slug": "toltec",
+  "name": "Toltec",
+  "wikipedia": "Toltec",
+  "map_year": 1177,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1168,
+      "latest": 1168,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/toltec.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      875,
+      1187
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Classic Veracruz Culture"
+    ]
+  }
+}

@@ -23,7 +23,8 @@
       "location": [
         -0.1275,
         51.507222222222
-      ]
+      ],
+      "founded": 47
     }
   ],
   "parts": [],
@@ -45,6 +46,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/commonwealth-of-england.png",
+  "map_asked": true,
   "checks": {
     "infobox": false,
     "capital_sources": {
@@ -63,7 +65,8 @@
       "Habsburg Monarchy",
       "Kingdom of France",
       "Denmark-Norway",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
+      "Prussia",
       "Duchy of Bavaria",
       "Electorate of Saxony",
       "House of Savoy"

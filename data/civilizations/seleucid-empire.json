@@ -23,27 +23,30 @@
       "location": [
         44.42111111111111,
         32.5425
-      ]
+      ],
+      "founded": -3000
     },
     {
       "name": "Seleucia",
       "location": [
         44.52,
         33.1
-      ]
+      ],
+      "founded": -305
     },
     {
       "name": "Antioch",
       "location": [
         36.181666666666665,
         36.20472222222222
-      ]
+      ],
+      "founded": -300
     }
   ],
   "parts": [],
   "before": {
     "id": "Q83958",
-    "region": "Turkey",
+    "region": "Iraq",
     "name": "Macedonian Empire"
   },
   "after": {},
@@ -53,8 +56,16 @@
       "name": "Seleucus I Nicator"
     },
     {
-      "id": "Q315776",
-      "name": "Philip II Philoromaeus"
+      "id": "Q211488",
+      "name": "Antiochus I Soter"
+    },
+    {
+      "id": "Q3365",
+      "name": "Antiochus III the Great"
+    },
+    {
+      "id": "Q3356",
+      "name": "Antiochus IV Epiphanes"
     }
   ],
   "modern_countries": [
@@ -67,6 +78,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/seleucid-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

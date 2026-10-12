@@ -23,14 +23,16 @@
       "location": [
         29.7195,
         40.429
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Konya",
       "location": [
         32.49213888888889,
         37.872769444444444
-      ]
+      ],
+      "founded": -700
     }
   ],
   "parts": [],
@@ -50,24 +52,12 @@
       "name": "Kilij Arslan I"
     },
     {
-      "id": "Q58810",
-      "name": "Mesud I"
-    },
-    {
-      "id": "Q58982",
-      "name": "Kilij Arslan II"
-    },
-    {
       "id": "Q61591",
       "name": "Kaykhusraw I"
     },
     {
       "id": "Q61964",
       "name": "Kayqubad I"
-    },
-    {
-      "id": "Q370032",
-      "name": "Mesud II"
     }
   ],
   "modern_countries": [
@@ -76,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/sultanate-of-rum.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

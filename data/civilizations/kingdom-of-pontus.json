@@ -23,14 +23,16 @@
       "location": [
         35.833333333333,
         40.65
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Sinop",
       "location": [
         35.15111111111111,
         42.026666666666664
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -105,6 +107,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-pontus.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

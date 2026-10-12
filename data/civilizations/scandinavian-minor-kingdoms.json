@@ -1,0 +1,50 @@
+{
+  "id": "Q213649",
+  "slug": "scandinavian-minor-kingdoms",
+  "name": "Scandinavian minor kingdoms",
+  "wikipedia": "Viking Age",
+  "map_year": 825,
+  "period": {
+    "start": {
+      "earliest": 793,
+      "latest": 793,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Norway",
+    "Sweden",
+    "Denmark"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/scandinavian-minor-kingdoms.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      793,
+      1002
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Francia",
+      "Khazaria",
+      "Dál Riata",
+      "Volga Bulgaria",
+      "Kingdom of Mercia"
+    ]
+  }
+}

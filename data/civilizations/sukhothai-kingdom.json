@@ -23,14 +23,16 @@
       "location": [
         99.81666667,
         17
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Phitsanulok",
       "location": [
         100.26361111111,
         16.815833333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -58,6 +60,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/sukhothai-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,14 +23,16 @@
       "location": [
         36.291944444444,
         33.513055555556
-      ]
+      ],
+      "founded": -2000
     },
     {
       "name": "Harran",
       "location": [
         39.025,
         36.87083333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -50,8 +52,16 @@
       "name": "Mu'awiya I"
     },
     {
-      "id": "Q128371",
-      "name": "Marwan II"
+      "id": "Q217442",
+      "name": "Yazid I"
+    },
+    {
+      "id": "Q36788",
+      "name": "Abd al-Malik ibn Marwan"
+    },
+    {
+      "id": "Q298403",
+      "name": "Umar ibn Abd al-Aziz"
     }
   ],
   "modern_countries": [
@@ -85,6 +95,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/umayyad-caliphate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -107,7 +118,7 @@
       "Türgesh",
       "Tibetan Empire",
       "Khazaria",
-      "Kingdom of the Franks",
+      "Francia",
       "Byzantine Empire",
       "Tang Dynasty",
       "Chalukya Dynasty",

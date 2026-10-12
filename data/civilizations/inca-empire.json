@@ -23,7 +23,8 @@
       "location": [
         -71.9786111111111,
         -13.516944444444444
-      ]
+      ],
+      "founded": 1201
     }
   ],
   "parts": [],
@@ -37,10 +38,6 @@
     {
       "id": "Q213758",
       "name": "Pachacuti"
-    },
-    {
-      "id": "Q311415",
-      "name": "Topa Inca Yupanqui"
     },
     {
       "id": "Q311433",
@@ -65,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/inca-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

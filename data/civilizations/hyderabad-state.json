@@ -23,23 +23,21 @@
       "location": [
         75.32,
         19.88
-      ]
+      ],
+      "founded": 1592
     },
     {
       "name": "Hyderabad",
       "location": [
         78.47472222222223,
         17.361666666666668
-      ]
+      ],
+      "founded": 1592
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q668",
-    "region": "India",
-    "name": "Republic of India"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q29896",
@@ -56,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/hyderabad-state.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,7 +23,8 @@
       "location": [
         28.188055555556,
         -25.746388888889
-      ]
+      ],
+      "founded": 1855
     }
   ],
   "parts": [],
@@ -31,16 +32,16 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q440141",
-      "name": "Marthinus Wessel Pretorius"
-    },
-    {
-      "id": "Q661420",
-      "name": "Stephanus Schoeman"
-    },
-    {
       "id": "Q659988",
       "name": "Willem Cornelis Janse van Rensburg"
+    },
+    {
+      "id": "Q220408",
+      "name": "Thomas François Burgers"
+    },
+    {
+      "id": "Q244407",
+      "name": "Paul Kruger"
     }
   ],
   "modern_countries": [
@@ -50,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/south-african-republic.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

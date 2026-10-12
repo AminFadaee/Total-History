@@ -12,7 +12,8 @@
   "occupation": "Social activist",
   "birth_country": "Czechia",
   "civilizations": [
-    "Kingdom of Bohemia"
+    "Kingdom of Bohemia",
+    "Holy Roman Empire"
   ],
   "related": [
     "Margraviate of Moravia"
@@ -26,6 +27,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "death": [
+        "Holy Roman Empire"
+      ],
       "lead": [
         "Kingdom of Bohemia",
         "Margraviate of Moravia"

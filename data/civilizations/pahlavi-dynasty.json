@@ -23,7 +23,8 @@
       "location": [
         51.389722222222225,
         35.68888888888889
-      ]
+      ],
+      "founded": 1794
     }
   ],
   "parts": [],
@@ -32,11 +33,7 @@
     "region": "Iran",
     "name": "Qajar Dynasty"
   },
-  "after": {
-    "id": "Q794",
-    "region": "Iran",
-    "name": "Islamic Republic of Iran"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q182921",
@@ -53,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/pahlavi-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

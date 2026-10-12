@@ -23,14 +23,15 @@
       "location": [
         2.352222222222222,
         48.85666666666667
-      ]
+      ],
+      "founded": -300
     }
   ],
   "parts": [],
   "before": {
     "id": "Q146246",
     "region": "France",
-    "name": "Kingdom of the Franks"
+    "name": "Francia"
   },
   "after": {
     "id": "Q70972",
@@ -43,8 +44,16 @@
       "name": "Charles the Bald"
     },
     {
-      "id": "Q205289",
-      "name": "Louis V of France"
+      "id": "Q182840",
+      "name": "Louis the Stammerer"
+    },
+    {
+      "id": "Q150712",
+      "name": "Charles the Fat"
+    },
+    {
+      "id": "Q187519",
+      "name": "Charles the Simple"
     }
   ],
   "modern_countries": [
@@ -64,6 +73,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/west-franks.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

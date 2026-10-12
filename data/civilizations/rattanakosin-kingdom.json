@@ -23,7 +23,8 @@
       "location": [
         100.51666666667,
         13.75
-      ]
+      ],
+      "founded": 1782
     }
   ],
   "parts": [],
@@ -32,11 +33,7 @@
     "region": "Thailand",
     "name": "Thonburi Kingdom"
   },
-  "after": {
-    "id": "Q869",
-    "region": "Thailand",
-    "name": "Kingdom of Thailand"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q310992",
@@ -75,6 +72,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/rattanakosin-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -96,6 +94,7 @@
       "Qing Dynasty",
       "French Indochina",
       "Kingdom of Luang Phrabang",
+      "British Empire",
       "Kingdom of Spain",
       "Sultanate of Aceh"
     ]

@@ -3,7 +3,7 @@
   "slug": "delhi-sultanate",
   "name": "Delhi Sultanate",
   "wikipedia": "Delhi Sultanate",
-  "map_year": 1206,
+  "map_year": 1333,
   "period": {
     "start": {
       "earliest": 1206,
@@ -23,40 +23,64 @@
       "location": [
         74.343611111111,
         31.549722222222
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Budaun",
       "location": [
         79.12,
         28.05
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Delhi",
       "location": [
         77.216666666667,
         28.666666666667
-      ]
+      ],
+      "founded": -509
     }
   ],
   "parts": [],
-  "before": {},
-  "after": {},
+  "before": {
+    "id": "Q199443",
+    "region": "Pakistan",
+    "name": "Ghurid Dynasty"
+  },
+  "after": {
+    "id": "Q33296",
+    "region": "India",
+    "name": "Mughal Empire"
+  },
   "rulers": [
     {
       "id": "Q311151",
       "name": "Qutb ud-Din Aibak"
     },
     {
+      "id": "Q336312",
+      "name": "Iltutmish"
+    },
+    {
+      "id": "Q465076",
+      "name": "Razia Sultan"
+    },
+    {
       "id": "Q381754",
       "name": "Ibrahim Khan Lodi"
     }
   ],
-  "modern_countries": [],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Bangladesh"
+  ],
   "overseas_countries": [],
-  "borders": false,
-  "map": "",
+  "borders": true,
+  "map": "maps/delhi-sultanate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -73,8 +97,20 @@
         "Agra"
       ]
     },
-    "cliopatria_years": [],
-    "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "cliopatria_years": [
+      1210,
+      1528
+    ],
+    "identity": "state drawn through its dynasties",
+    "home": "Delhi",
+    "labelled": [
+      "Ilkhanate",
+      "Chagatai Khanate",
+      "Kashmir",
+      "Khmer Empire",
+      "Rasulid Dynasty",
+      "Shan States",
+      "Malaya"
+    ]
   }
 }

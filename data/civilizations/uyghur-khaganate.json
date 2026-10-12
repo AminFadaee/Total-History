@@ -23,7 +23,8 @@
       "location": [
         102.659444,
         47.431111
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -45,6 +46,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/uyghur-khaganate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,7 +23,8 @@
       "location": [
         118.337908,
         36.889756
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -31,7 +32,7 @@
   "after": {
     "id": "Q7183",
     "region": "China",
-    "name": "Qin Dynasty"
+    "name": "Qin dynasty"
   },
   "rulers": [
     {
@@ -49,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/qi.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

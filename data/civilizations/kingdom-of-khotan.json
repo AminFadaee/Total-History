@@ -1,0 +1,55 @@
+{
+  "id": "Q914898",
+  "slug": "kingdom-of-khotan",
+  "name": "Kingdom of Khotan",
+  "wikipedia": "Kingdom of Khotan",
+  "map_year": 888,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1006,
+      "latest": 1006,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q494354",
+    "region": "China",
+    "name": "Kara-Khanid Khanate"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Kyrgyzstan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/kingdom-of-khotan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Hotan"
+      ],
+      "infobox": [
+        "Hotan"
+      ]
+    },
+    "cliopatria_years": [
+      888,
+      1009
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Qocho Kingdom",
+      "Tibetans",
+      "Samanid Empire"
+    ]
+  }
+}

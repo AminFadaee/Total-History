@@ -19,7 +19,8 @@
       "location": [
         14.25,
         -6.2666666666667
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -27,12 +28,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q6702512",
-      "name": "Lukeni lua Nimi"
+      "id": "Q1522957",
+      "name": "João I of Kongo"
     },
     {
-      "id": "Q16930601",
-      "name": "Manuel III of Kongo"
+      "id": "Q383455",
+      "name": "Afonso I of Kongo"
+    },
+    {
+      "id": "Q2412791",
+      "name": "Pedro I of Kongo"
+    },
+    {
+      "id": "Q2840567",
+      "name": "Álvaro III of Kongo"
     }
   ],
   "modern_countries": [
@@ -42,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-kongo.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

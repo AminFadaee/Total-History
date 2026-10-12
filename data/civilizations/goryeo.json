@@ -23,22 +23,20 @@
       "location": [
         126.55277777777778,
         37.971666666666664
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Ganghwa Island",
       "location": [
         126.44,
         37.71
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q699871",
-    "region": "North Korea",
-    "name": "Taebong"
-  },
+  "before": {},
   "after": {
     "id": "Q28179",
     "region": "North Korea",
@@ -61,6 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/goryeo.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

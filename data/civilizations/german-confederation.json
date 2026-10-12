@@ -47,6 +47,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/german-confederation.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

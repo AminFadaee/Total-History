@@ -1,0 +1,78 @@
+{
+  "id": "Q1255614",
+  "slug": "indo-parthians",
+  "name": "Indo-Parthians",
+  "wikipedia": "Indo-Parthian kingdom",
+  "map_year": 14,
+  "period": {
+    "start": {
+      "earliest": 19,
+      "latest": 19,
+      "circa": false
+    },
+    "end": {
+      "earliest": 226,
+      "latest": 226,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Taxila",
+      "location": [
+        72.7875,
+        33.745833333333
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q240123",
+    "region": "Pakistan",
+    "name": "Indo-Scythians"
+  },
+  "after": {
+    "id": "Q25979",
+    "region": "Pakistan",
+    "name": "Kushan Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q1397542",
+      "name": "Gondophares"
+    }
+  ],
+  "modern_countries": [
+    "Pakistan",
+    "Afghanistan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/indo-parthians.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Taxila"
+      ],
+      "infobox": [
+        "Taxila"
+      ]
+    },
+    "cliopatria_years": [
+      1,
+      90
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Taxila",
+    "labelled": [
+      "Parthian Empire",
+      "Indo-Scythians",
+      "Yuezhi",
+      "Satavahana Dynasty"
+    ]
+  }
+}

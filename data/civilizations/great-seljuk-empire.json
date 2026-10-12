@@ -23,35 +23,40 @@
       "location": [
         58.795833333333334,
         36.21333333333333
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Ray",
       "location": [
         51.434444444444445,
         35.5975
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Isfahan",
       "location": [
         51.67472222222222,
         32.6525
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Merv",
       "location": [
         62.1925,
         37.662777777778
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Hamadan",
       "location": [
         48.516666666667,
         34.8
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -67,12 +72,20 @@
   },
   "rulers": [
     {
-      "id": "Q293626",
-      "name": "Al-Qa'im"
+      "id": "Q144565",
+      "name": "Tughril I"
     },
     {
-      "id": "Q284750",
-      "name": "Al-Nasir"
+      "id": "Q200193",
+      "name": "Alp Arslan"
+    },
+    {
+      "id": "Q311482",
+      "name": "Malik-Shah I"
+    },
+    {
+      "id": "Q337506",
+      "name": "Ahmad Sanjar"
     }
   ],
   "modern_countries": [
@@ -94,6 +107,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/great-seljuk-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -122,12 +136,12 @@
       "Kimek-Kipchak confederation",
       "Ghaznavid Empire",
       "Fatimid Caliphate",
-      "Eastern Kara-Khanids",
+      "Kara-Khanid Khanate",
       "Lohara Dynasty",
       "Tibetans",
       "Qocho Kingdom",
       "Western Chalukya Empire",
-      "Chola Empire",
+      "Chola dynasty",
       "Kingdom of Hungary",
       "Gahadavala Dynasty",
       "Makuria",

@@ -43,6 +43,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/aztec-triple-alliance.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -61,7 +62,7 @@
     "home": "the spot held longest",
     "labelled": [
       "Michoacán",
-      "Later Mayan City-States"
+      "Maya civilization"
     ]
   }
 }

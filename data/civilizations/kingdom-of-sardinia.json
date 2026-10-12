@@ -23,14 +23,16 @@
       "location": [
         7.676111111111111,
         45.079166666666666
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Metropolitan City of Cagliari",
       "location": [
         9.1166666666667,
         39.216666666667
-      ]
+      ],
+      "founded": 2016
     }
   ],
   "parts": [],
@@ -46,6 +48,14 @@
       "name": "Victor Amadeus II"
     },
     {
+      "id": "Q312670",
+      "name": "Charles Emmanuel III"
+    },
+    {
+      "id": "Q181261",
+      "name": "Charles Albert of Sardinia"
+    },
+    {
       "id": "Q168691",
       "name": "Victor Emmanuel II"
     }
@@ -57,6 +67,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-sardinia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -76,7 +87,7 @@
       "Austrian Empire",
       "Second French Empire",
       "Kingdom of Spain",
-      "French Africa",
+      "French colonial empire",
       "United Principalities of Moldavia and Wallachia",
       "Beylik of Tunis",
       "Kingdom of Bavaria",

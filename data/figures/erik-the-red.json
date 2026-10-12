@@ -14,7 +14,9 @@
   "civilizations": [
     "Old Kingdom of Norway"
   ],
-  "related": [],
+  "related": [
+    "Viking settlements"
+  ],
   "contribution": "A Norse explorer, described in medieval and Icelandic saga sources as having founded the first European settlement in Greenland.",
   "setting": "",
   "image": "images/erik-the-red.jpg",
@@ -24,6 +26,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "lead": [
+        "Viking settlements"
+      ],
       "citizenship": [
         "Old Kingdom of Norway"
       ],

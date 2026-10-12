@@ -23,14 +23,15 @@
       "location": [
         75.248425,
         42.74759
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {
     "id": "Q494354",
     "region": "Kyrgyzstan",
-    "name": "Kara-Khanids"
+    "name": "Kara-Khanid Khanate"
   },
   "after": {
     "id": "Q12557",
@@ -73,6 +74,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kara-khitans.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

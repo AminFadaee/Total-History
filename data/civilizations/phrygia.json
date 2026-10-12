@@ -19,7 +19,8 @@
       "location": [
         31.9784831,
         39.6504791
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -41,6 +42,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/phrygia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

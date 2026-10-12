@@ -1,0 +1,41 @@
+{
+  "id": "Q172613",
+  "slug": "teotihuacan",
+  "name": "Teotihuacan",
+  "wikipedia": "Teotihuacan",
+  "map_year": 692,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/teotihuacan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -50,
+      704
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Zapotec Civilization",
+      "Classic Veracruz Culture"
+    ]
+  }
+}

@@ -26,6 +26,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/white-horde.png",
+  "map_asked": true,
   "checks": {
     "infobox": false,
     "capital_sources": {

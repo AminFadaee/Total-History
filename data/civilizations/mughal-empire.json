@@ -23,35 +23,39 @@
       "location": [
         78.02,
         27.18
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Delhi",
       "location": [
         77.216666666667,
         28.666666666667
-      ]
+      ],
+      "founded": -509
     },
     {
       "name": "Fatehpur Sikri",
       "location": [
         77.661111111111,
         27.091111111111
-      ]
+      ],
+      "founded": 1569
     },
     {
       "name": "Lahore",
       "location": [
         74.343611111111,
         31.549722222222
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {
-    "id": "Q11709",
+    "id": "Q229411",
     "region": "India",
-    "name": "Lodi Dynasty"
+    "name": "Delhi Sultanate"
   },
   "after": {
     "id": "Q129286",
@@ -77,6 +81,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mughal-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -106,6 +111,7 @@
       "Khanate of Bukhara",
       "Qing Dynasty",
       "Ottoman Empire",
+      "Toungoo dynasty",
       "Ethiopian Empire",
       "Ayutthaya Kingdom",
       "Khanate of Khiva",

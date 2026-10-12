@@ -19,13 +19,31 @@
       "location": [
         7.44743,
         46.94798
-      ]
+      ],
+      "founded": 1191
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q380083",
+      "name": "Jonas Furrer"
+    },
+    {
+      "id": "Q115592",
+      "name": "Gustave Ador"
+    },
+    {
+      "id": "Q115803",
+      "name": "Marcel Pilet-Golaz"
+    },
+    {
+      "id": "Q532343",
+      "name": "Philipp Etter"
+    }
+  ],
   "modern_countries": [
     "Switzerland",
     "Liechtenstein"
@@ -33,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/swiss-confederation.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

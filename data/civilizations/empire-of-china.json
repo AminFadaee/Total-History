@@ -23,7 +23,8 @@
       "location": [
         116.407526,
         39.90403
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -49,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/empire-of-china.png",
+  "map_asked": false,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -65,6 +67,7 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Beijing",
+    "map_like": "Republic of China",
     "labelled": [
       "Russian Empire",
       "British Raj",

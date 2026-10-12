@@ -23,7 +23,8 @@
       "location": [
         127.11683888888888,
         37.530625
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -53,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/baekje.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -1,0 +1,93 @@
+{
+  "id": "Q189545",
+  "slug": "zengid-dynasty",
+  "name": "Zengid dynasty",
+  "wikipedia": "Zengid dynasty",
+  "map_year": 1152,
+  "period": {
+    "start": {
+      "earliest": 1127,
+      "latest": 1127,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1250,
+      "latest": 1250,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Mosul",
+      "location": [
+        43.12916666666667,
+        36.34166666666667
+      ],
+      "founded": null
+    },
+    {
+      "name": "Damascus",
+      "location": [
+        36.291944444444,
+        33.513055555556
+      ],
+      "founded": -2000
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q3708094",
+    "region": "Iraq",
+    "name": "Great Seljuk Empire"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q337506",
+      "name": "Ahmad Sanjar"
+    },
+    {
+      "id": "Q280697",
+      "name": "Tughril III"
+    }
+  ],
+  "modern_countries": [
+    "Syria",
+    "Turkey",
+    "Iraq"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/zengid-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mosul",
+        "Damascus",
+        "Aleppo"
+      ],
+      "infobox": [
+        "Mosul",
+        "Damascus"
+      ]
+    },
+    "cliopatria_years": [
+      1139,
+      1259
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Mosul",
+    "labelled": [
+      "Great Seljuk Empire",
+      "Danishmendids",
+      "Kingdom of Jerusalem",
+      "Armenian Kingdom of Cilicia",
+      "Sultanate of Rum",
+      "Kingdom of Georgia",
+      "Shirvan"
+    ]
+  }
+}

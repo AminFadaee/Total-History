@@ -23,28 +23,32 @@
       "location": [
         26.2169,
         47.4203
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Siret",
       "location": [
         26.06,
         47.95
-      ]
+      ],
+      "founded": 1326
     },
     {
       "name": "Suceava",
       "location": [
         26.255555555556,
         47.651388888889
-      ]
+      ],
+      "founded": 1388
     },
     {
       "name": "Iași",
       "location": [
         27.588888888889,
         47.162222222222
-      ]
+      ],
+      "founded": 1408
     }
   ],
   "parts": [],
@@ -53,11 +57,7 @@
     "region": "Romania",
     "name": "Golden Horde"
   },
-  "after": {
-    "id": "Q958291",
-    "region": "Romania",
-    "name": "United Principalities of Moldavia and Wallachia"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q654356",
@@ -76,6 +76,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/principality-of-moldavia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

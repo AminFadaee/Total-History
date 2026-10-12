@@ -23,14 +23,16 @@
       "location": [
         37.466666666667,
         12.6
-      ]
+      ],
+      "founded": 1635
     },
     {
       "name": "Addis Ababa",
       "location": [
         38.7525,
         9.035833333333333
-      ]
+      ],
+      "founded": 1886
     }
   ],
   "parts": [],
@@ -56,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ethiopian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -83,7 +86,7 @@
     "labelled": [
       "British Africa",
       "Italian Africa",
-      "French Africa",
+      "French colonial empire",
       "North Yemen"
     ]
   }

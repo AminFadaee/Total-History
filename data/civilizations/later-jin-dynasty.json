@@ -23,7 +23,8 @@
       "location": [
         123.42805555555556,
         41.8025
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -53,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/later-jin-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

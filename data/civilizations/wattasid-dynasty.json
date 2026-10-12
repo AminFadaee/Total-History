@@ -1,0 +1,81 @@
+{
+  "id": "Q970799",
+  "slug": "wattasid-dynasty",
+  "name": "Wattasid dynasty",
+  "wikipedia": "Wattasid dynasty",
+  "map_year": 1468,
+  "period": {
+    "start": {
+      "earliest": 1472,
+      "latest": 1472,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1554,
+      "latest": 1554,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Fez",
+      "location": [
+        -5.003333333333333,
+        34.04333333333334
+      ],
+      "founded": 789
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q582861",
+    "region": "Morocco",
+    "name": "Marinid Sultanate"
+  },
+  "after": {
+    "id": "Q1136188",
+    "region": "Morocco",
+    "name": "Saadi Sultanate"
+  },
+  "rulers": [
+    {
+      "id": "Q508985",
+      "name": "Abu Abd Allah al-Sheikh Muhammad ibn Yahya"
+    },
+    {
+      "id": "Q3141245",
+      "name": "Nasir ad-Din al-Qasri Muhammad ibn Ahmad"
+    }
+  ],
+  "modern_countries": [
+    "Morocco",
+    "Algeria"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/wattasid-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Fez, Morocco"
+      ],
+      "infobox": [
+        "Fez, Morocco"
+      ]
+    },
+    "cliopatria_years": [
+      1468,
+      1555
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Fez",
+    "labelled": [
+      "Zayyanid dynasty",
+      "Kingdom of Portugal",
+      "Emirate of Granada"
+    ]
+  }
+}

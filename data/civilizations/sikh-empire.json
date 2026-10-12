@@ -23,22 +23,20 @@
       "location": [
         74.183333333333,
         32.15
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Lahore",
       "location": [
         74.343611111111,
         31.549722222222
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q2578028",
-    "region": "Pakistan",
-    "name": "Sikh Confederacy"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -57,6 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/sikh-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

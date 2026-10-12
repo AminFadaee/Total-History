@@ -23,35 +23,39 @@
       "location": [
         30.181388888889,
         40.018611111111
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Bursa",
       "location": [
         29.061495,
         40.184818
-      ]
+      ],
+      "founded": 202
     },
     {
       "name": "Edirne",
       "location": [
         26.555555555555557,
         41.676944444444445
-      ]
+      ],
+      "founded": 125
     },
     {
       "name": "Constantinople",
       "location": [
         28.976018,
         41.01224
-      ]
+      ],
+      "founded": 330
     }
   ],
   "parts": [],
   "before": {
     "id": "Q12544",
     "region": "Turkey",
-    "name": "Eastern Roman Empire"
+    "name": "Byzantine Empire"
   },
   "after": {
     "id": "Q43",
@@ -64,8 +68,16 @@
       "name": "Osman I"
     },
     {
-      "id": "Q162543",
-      "name": "Mehmed VI"
+      "id": "Q34503",
+      "name": "Mehmed II"
+    },
+    {
+      "id": "Q8474",
+      "name": "Suleiman the Magnificent"
+    },
+    {
+      "id": "Q134817",
+      "name": "Abdul Hamid II"
     }
   ],
   "modern_countries": [
@@ -99,6 +111,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ottoman-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -140,8 +153,7 @@
       "Eastern Moghulistan",
       "Iberian Union",
       "Kingdom of France",
-      "Tümed",
-      "Bornu Empire"
+      "Tümed"
     ]
   }
 }

@@ -23,7 +23,8 @@
       "location": [
         126.99,
         37.56
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -50,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/korean-empire.png",
+  "map_asked": false,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -67,6 +69,7 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Hanseongbu",
+    "map_like": "Joseon",
     "labelled": [
       "Qing Dynasty",
       "Russian Empire",

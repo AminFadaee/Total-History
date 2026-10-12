@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "China",
   "civilizations": [
-    "Chu",
-    "Qin Dynasty"
+    "Qin dynasty",
+    "Chu"
   ],
   "related": [
     "Qin"
@@ -27,13 +27,16 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "death": [
+        "Qin dynasty"
+      ],
       "lead": [
-        "Qin Dynasty",
+        "Qin dynasty",
         "Qin"
       ],
       "citizenship": [
         "Chu",
-        "Qin Dynasty"
+        "Qin dynasty"
       ],
       "birthplace": [
         "Chu"

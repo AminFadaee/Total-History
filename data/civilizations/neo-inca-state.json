@@ -23,7 +23,8 @@
       "location": [
         -73.205833333333,
         -12.902777777778
-      ]
+      ],
+      "founded": 1539
     }
   ],
   "parts": [],
@@ -45,10 +46,6 @@
     {
       "id": "Q381752",
       "name": "Titu Cusi"
-    },
-    {
-      "id": "Q296269",
-      "name": "Túpac Amaru"
     }
   ],
   "modern_countries": [
@@ -61,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/neo-inca-state.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -12,11 +12,12 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "Kingdom of the Franks"
+    "Francia"
   ],
   "related": [
+    "Saxons",
     "Abbasid Caliphate",
-    "Eastern Roman Empire"
+    "Byzantine Empire"
   ],
   "contribution": "King of the Franks from 768, King of the Lombards from 774, and Emperor of what is now known as the Carolingian Empire from 800.",
   "setting": "",
@@ -28,20 +29,21 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Kingdom of the Franks"
+        "Francia"
       ],
       "death": [
-        "Kingdom of the Franks"
+        "Francia"
       ],
       "lead": [
+        "Saxons",
         "Abbasid Caliphate",
-        "Eastern Roman Empire"
+        "Byzantine Empire"
       ],
       "citizenship": [
-        "Kingdom of the Franks"
+        "Francia"
       ],
       "birthplace": [
-        "Kingdom of the Franks"
+        "Francia"
       ]
     },
     "lead": "Charlemagne ( SHAR-lə-mayn; 2 April 748 – 28 January 814) was King of the Franks from 768, King of the Lombards from 774, and Emperor of what is now known as the Carolingian Empire from 800. He united most of Western and Central Europe and was the first recognised emperor to rule from the west after the fall of the Western Roman Empire approximately three centuries earlier. Charlemagne's reign was marked by political and social changes that had lasting influence on Europe throughout the Middle Ages.",

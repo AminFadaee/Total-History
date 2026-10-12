@@ -23,7 +23,8 @@
       "location": [
         46.575555555556,
         24.733333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -61,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/emirate-of-diriyah.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

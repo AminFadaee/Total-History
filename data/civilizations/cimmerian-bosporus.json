@@ -23,12 +23,17 @@
       "location": [
         36.46861111,
         45.35083333
-      ]
+      ],
+      "founded": -600
     }
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q45813",
+    "region": "Russia",
+    "name": "Hunnic Empire"
+  },
   "rulers": [
     {
       "id": "Q3429323",
@@ -41,6 +46,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/cimmerian-bosporus.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

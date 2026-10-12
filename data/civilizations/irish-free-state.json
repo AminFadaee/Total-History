@@ -23,7 +23,8 @@
       "location": [
         -6.260277777777778,
         53.34972222222222
-      ]
+      ],
+      "founded": 841
     }
   ],
   "parts": [],
@@ -32,11 +33,7 @@
     "region": "Ireland",
     "name": "United Kingdom of Great Britain and Ireland"
   },
-  "after": {
-    "id": "Q27",
-    "region": "Ireland",
-    "name": "Éire"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q269412",
@@ -57,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/irish-free-state.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

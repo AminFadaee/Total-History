@@ -1,0 +1,44 @@
+{
+  "id": "Q181264",
+  "slug": "mycenaean-greece",
+  "name": "Mycenaean Greece",
+  "wikipedia": "Mycenaean Greece",
+  "map_year": -1220,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": -1100,
+      "latest": -1100,
+      "circa": true
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Greece"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/mycenaean-greece.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -1500,
+      -1101
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Hittites"
+    ]
+  }
+}

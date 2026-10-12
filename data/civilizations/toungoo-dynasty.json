@@ -1,0 +1,118 @@
+{
+  "id": "Q519718",
+  "slug": "toungoo-dynasty",
+  "name": "Toungoo dynasty",
+  "wikipedia": "Toungoo dynasty",
+  "map_year": 1579,
+  "period": {
+    "start": {
+      "earliest": 1510,
+      "latest": 1510,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1752,
+      "latest": 1752,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Taungoo",
+      "location": [
+        96.43333333,
+        18.93333333
+      ],
+      "founded": 1510
+    },
+    {
+      "name": "Bago",
+      "location": [
+        96.498055555556,
+        17.343333333333
+      ],
+      "founded": null
+    },
+    {
+      "name": "Inwa",
+      "location": [
+        95.985,
+        21.857777777777777
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q1062422",
+    "region": "Myanmar",
+    "name": "Konbaung Dynasty"
+  },
+  "rulers": [
+    {
+      "id": "Q1396459",
+      "name": "Mingyi Nyo"
+    },
+    {
+      "id": "Q981475",
+      "name": "Tabinshwehti"
+    },
+    {
+      "id": "Q470984",
+      "name": "Bayinnaung"
+    },
+    {
+      "id": "Q3056673",
+      "name": "Nyaungyan Min"
+    },
+    {
+      "id": "Q488485",
+      "name": "Anaukpetlun"
+    },
+    {
+      "id": "Q3056671",
+      "name": "Mahadhammaraza Dipadi"
+    }
+  ],
+  "modern_countries": [
+    "Myanmar",
+    "Thailand",
+    "Laos",
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/toungoo-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Taungoo",
+        "Bago, Myanmar",
+        "Inwa"
+      ],
+      "infobox": [
+        "Taungoo",
+        "Bago, Myanmar",
+        "Inwa"
+      ]
+    },
+    "cliopatria_years": [
+      1502,
+      1756
+    ],
+    "identity": "state drawn through its dynasties",
+    "home": "Taungoo",
+    "labelled": [
+      "Ming Dynasty",
+      "Đại Việt",
+      "Mughal Empire",
+      "Bijapur Sultanate",
+      "Sultanate of Brunei",
+      "Kashmiri Sultanate"
+    ]
+  }
+}

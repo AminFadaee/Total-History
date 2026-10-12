@@ -12,11 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Türkiye",
   "civilizations": [
-    "Sultanate of Rum"
+    "Sultanate of Rum",
+    "Byzantine Empire"
   ],
-  "related": [
-    "Eastern Roman Empire"
-  ],
+  "related": [],
   "contribution": "A 13th-century uch bey, who was the father of Osman I. Little is known about Ertuğrul's life.",
   "setting": "",
   "image": "images/ertugrul.jpg",
@@ -26,9 +25,12 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "death": [
+        "Byzantine Empire"
+      ],
       "lead": [
         "Sultanate of Rum",
-        "Eastern Roman Empire"
+        "Byzantine Empire"
       ],
       "citizenship": [
         "Sultanate of Rum"

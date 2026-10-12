@@ -1,0 +1,74 @@
+{
+  "id": "Q205466",
+  "slug": "gokturks",
+  "name": "Göktürks",
+  "wikipedia": "Göktürks",
+  "map_year": 629,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 657,
+      "latest": 657,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Ordu-Baliq",
+      "location": [
+        102.659444,
+        47.431111
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Kazakhstan",
+    "China",
+    "Mongolia",
+    "Russia",
+    "Uzbekistan",
+    "Kyrgyzstan",
+    "Tajikistan",
+    "Azerbaijan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/gokturks.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [
+        "Ordu-Baliq"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      587,
+      660
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ordu-Baliq",
+    "labelled": [
+      "Tang Dynasty",
+      "Sasanian Empire",
+      "Byzantine Empire",
+      "Tuyuhun",
+      "Yenisei Kyrgyz",
+      "Tibetan Empire",
+      "Harsha's Empire",
+      "Avar Khaganate",
+      "Goguryeo",
+      "Ghassanids",
+      "Lakhmid Kingdom",
+      "Samo's Empire",
+      "Kamarupa Kingdom"
+    ]
+  }
+}

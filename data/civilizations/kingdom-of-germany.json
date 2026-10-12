@@ -15,7 +15,8 @@
       "location": [
         12.083333333333334,
         49.016666666666666
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [
@@ -47,6 +48,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-germany.png",
+  "map_asked": true,
   "checks": {
     "infobox": false,
     "capital_sources": {

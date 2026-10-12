@@ -50,6 +50,11 @@
     "civilization": "Spanish Empire"
   },
   {
+    "id": "Q108278",
+    "name": "Michael Praetorius",
+    "civilization": "Holy Roman Empire"
+  },
+  {
     "id": "Q1087887",
     "name": "Ryōtarō Shiba",
     "civilization": "Empire of Japan"
@@ -130,6 +135,11 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q120180",
+    "name": "Alexander III of Russia",
+    "civilization": "Russian Empire"
+  },
+  {
     "id": "Q12238749",
     "name": "Mutal Burhonov",
     "civilization": "Union of Soviet Socialist Republics"
@@ -183,11 +193,6 @@
     "id": "Q12496067",
     "name": "Maghan III",
     "civilization": "Mali Empire"
-  },
-  {
-    "id": "Q1270250",
-    "name": "Celer (magister officiorum)",
-    "civilization": "Eastern Roman Empire"
   },
   {
     "id": "Q1273998",
@@ -1540,6 +1545,11 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q316832",
+    "name": "Philipp Christoph von Sötern",
+    "civilization": "Holy Roman Empire"
+  },
+  {
     "id": "Q316915",
     "name": "Antonius Felix",
     "civilization": "Roman Empire"
@@ -1898,6 +1908,11 @@
     "id": "Q365409",
     "name": "Francisco León de la Barra",
     "civilization": "Mexico"
+  },
+  {
+    "id": "Q3658945",
+    "name": "Charles Albert II of Hohenlohe-Waldenburg-Schillingsfürst",
+    "civilization": "Holy Roman Empire"
   },
   {
     "id": "Q36591",
@@ -2435,6 +2450,11 @@
     "civilization": "British Raj"
   },
   {
+    "id": "Q4679883",
+    "name": "Adam Tas",
+    "civilization": "Dutch Cape Colony"
+  },
+  {
     "id": "Q46837",
     "name": "Hostilian",
     "civilization": "Roman Empire"
@@ -2562,7 +2582,7 @@
   {
     "id": "Q5080991",
     "name": "Charles Mitchell (colonial administrator)",
-    "civilization": "British Colonial Empire"
+    "civilization": "British Empire"
   },
   {
     "id": "Q509698",
@@ -2598,6 +2618,11 @@
     "id": "Q5243001",
     "name": "Daya Mata",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q5290683",
+    "name": "Dominic of Prussia",
+    "civilization": "Holy Roman Empire"
   },
   {
     "id": "Q53068",
@@ -3365,11 +3390,6 @@
     "civilization": "Kingdom of Asturias"
   },
   {
-    "id": "Q298945",
-    "name": "Lothair II",
-    "civilization": "West Franks"
-  },
-  {
     "id": "Q132984",
     "name": "Shota Rustaveli",
     "civilization": "Kingdom of Georgia"
@@ -3405,6 +3425,16 @@
     "civilization": "Cimmerian Bosporus"
   },
   {
+    "id": "Q296863",
+    "name": "Ferdinand I of León",
+    "civilization": "Kingdom of León"
+  },
+  {
+    "id": "Q284531",
+    "name": "Al-Hakam II",
+    "civilization": "Caliphate of Córdoba"
+  },
+  {
     "id": "Q334496",
     "name": "Ghazan",
     "civilization": "Ilkhanate"
@@ -3413,6 +3443,16 @@
     "id": "Q197461",
     "name": "Zhao Mengfu",
     "civilization": "Yuan Dynasty"
+  },
+  {
+    "id": "Q461614",
+    "name": "Gudfred",
+    "civilization": "Scandinavian minor kingdoms"
+  },
+  {
+    "id": "Q242395",
+    "name": "Thyra",
+    "civilization": "Scandinavian minor kingdoms"
   },
   {
     "id": "Q30914",
@@ -3433,11 +3473,6 @@
     "id": "Q127170",
     "name": "Hazael",
     "civilization": "Kingdom of Judah"
-  },
-  {
-    "id": "Q296863",
-    "name": "Ferdinand I of León",
-    "civilization": "Kingdom of León"
   },
   {
     "id": "Q200031",
@@ -3470,6 +3505,16 @@
     "civilization": "Roman Kingdom"
   },
   {
+    "id": "Q294439",
+    "name": "Kaloyan of Bulgaria",
+    "civilization": "Second Bulgarian Empire"
+  },
+  {
+    "id": "Q1611385",
+    "name": "Adikavi Pampa",
+    "civilization": "Rashtrakuta Dynasty"
+  },
+  {
     "id": "Q1285773",
     "name": "Yan Zhitui",
     "civilization": "Liang Dynasty"
@@ -3478,21 +3523,6 @@
     "id": "Q712113",
     "name": "Emperor Wen of Chen",
     "civilization": "Liang Dynasty"
-  },
-  {
-    "id": "Q316115",
-    "name": "Alfonso IX of León",
-    "civilization": "Kingdom of León"
-  },
-  {
-    "id": "Q170335",
-    "name": "Constance I of Sicily",
-    "civilization": "Kingdom of Sicily"
-  },
-  {
-    "id": "Q294439",
-    "name": "Kaloyan of Bulgaria",
-    "civilization": "Second Bulgarian Empire"
   },
   {
     "id": "Q122610",
@@ -3508,6 +3538,16 @@
     "id": "Q290506",
     "name": "Al-Allama al-Hilli",
     "civilization": "Ilkhanate"
+  },
+  {
+    "id": "Q391572",
+    "name": "Shilhaha",
+    "civilization": "Elam"
+  },
+  {
+    "id": "Q537742",
+    "name": "Alexios III of Trebizond",
+    "civilization": "Empire of Trebizond"
   },
   {
     "id": "Q187519",
@@ -3565,9 +3605,19 @@
     "civilization": "Kingdom of Kush"
   },
   {
+    "id": "Q316278",
+    "name": "Psamtik III",
+    "civilization": "Twenty-sixth Dynasty of Egypt"
+  },
+  {
     "id": "Q434547",
     "name": "Shebitku",
     "civilization": "Kingdom of Kush"
+  },
+  {
+    "id": "Q316115",
+    "name": "Alfonso IX of León",
+    "civilization": "Kingdom of León"
   },
   {
     "id": "Q160714",
@@ -3593,11 +3643,6 @@
     "id": "Q271527",
     "name": "Astyages",
     "civilization": "Kingdom of Judah"
-  },
-  {
-    "id": "Q391572",
-    "name": "Shilhaha",
-    "civilization": "Elam"
   },
   {
     "id": "Q2290815",
@@ -3660,6 +3705,11 @@
     "civilization": "Liu Song Dynasty"
   },
   {
+    "id": "Q271398",
+    "name": "Ælla of Northumbria",
+    "civilization": "Kingdom of Northumbria"
+  },
+  {
     "id": "Q19248",
     "name": "Senusret III",
     "civilization": "Middle Kingdom of Egypt"
@@ -3685,9 +3735,9 @@
     "civilization": "Second Bulgarian Empire"
   },
   {
-    "id": "Q1611385",
-    "name": "Adikavi Pampa",
-    "civilization": "Rashtrakuta Dynasty"
+    "id": "Q242832",
+    "name": "Lothair of France",
+    "civilization": "West Franks"
   },
   {
     "id": "Q748091",
@@ -3698,6 +3748,16 @@
     "id": "Q497601",
     "name": "Geunchogo of Baekje",
     "civilization": "Baekje"
+  },
+  {
+    "id": "Q504518",
+    "name": "Cuthbert",
+    "civilization": "Kingdom of Northumbria"
+  },
+  {
+    "id": "Q332123",
+    "name": "Penda of Mercia",
+    "civilization": "Kingdom of Mercia"
   },
   {
     "id": "Q470072",
@@ -3768,11 +3828,6 @@
     "id": "Q350749",
     "name": "Mithridates IV of Pontus",
     "civilization": "Kingdom of Pontus"
-  },
-  {
-    "id": "Q150712",
-    "name": "Charles the Fat",
-    "civilization": "West Franks"
   },
   {
     "id": "Q1209245",

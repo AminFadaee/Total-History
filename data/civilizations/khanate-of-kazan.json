@@ -23,7 +23,8 @@
       "location": [
         49.114444444444,
         55.790833333333
-      ]
+      ],
+      "founded": 1005
     }
   ],
   "parts": [],
@@ -53,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/khanate-of-kazan.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

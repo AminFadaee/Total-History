@@ -23,21 +23,24 @@
       "location": [
         -96.153541666667,
         30.323986111111
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Houston",
       "location": [
         -95.2776,
         29.7162
-      ]
+      ],
+      "founded": 1836
     },
     {
       "name": "Austin",
       "location": [
         -97.733333333333,
         30.3
-      ]
+      ],
+      "founded": 1835
     }
   ],
   "parts": [],
@@ -45,12 +48,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q1780964",
-      "name": "David G. Burnet"
-    },
-    {
       "id": "Q216547",
       "name": "Sam Houston"
+    },
+    {
+      "id": "Q1780964",
+      "name": "David G. Burnet"
     },
     {
       "id": "Q456633",
@@ -67,6 +70,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/republic-of-texas.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

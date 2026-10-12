@@ -19,7 +19,8 @@
       "location": [
         23.728055555555557,
         37.98416666666667
-      ]
+      ],
+      "founded": -7000
     }
   ],
   "parts": [],
@@ -35,6 +36,7 @@
   "overseas_countries": [],
   "borders": false,
   "map": "",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

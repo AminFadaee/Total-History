@@ -15,19 +15,38 @@
       "location": [
         -6.841388888888889,
         34.02111111111111
-      ]
+      ],
+      "founded": 1146
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q276938",
+      "name": "Ismail Ibn Sharif"
+    },
+    {
+      "id": "Q307132",
+      "name": "Abdelaziz of Morocco"
+    },
+    {
+      "id": "Q276937",
+      "name": "Yusef of Morocco"
+    },
+    {
+      "id": "Q193874",
+      "name": "Muhammad V of Morocco"
+    }
+  ],
   "modern_countries": [
     "Morocco"
   ],
   "overseas_countries": [],
   "borders": true,
   "map": "maps/morocco.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

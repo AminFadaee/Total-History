@@ -23,14 +23,16 @@
       "location": [
         65.51555555555555,
         57.153333333333336
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Qashliq",
       "location": [
         68.52048,
         58.14942
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -56,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/khanate-of-sibir.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -84,10 +87,9 @@
       "Ottoman Empire",
       "Golden Horde",
       "Kingdom of Hungary",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Khanate of Kazan",
       "Astrakhan Khanate",
-      "Eastern Chagatai Khanate",
       "Kingdom of Bohemia"
     ]
   }

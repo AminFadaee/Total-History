@@ -23,7 +23,8 @@
       "location": [
         18.068611111111,
         59.329444444444
-      ]
+      ],
+      "founded": 1187
     }
   ],
   "parts": [],
@@ -68,6 +69,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/swedish-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

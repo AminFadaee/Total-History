@@ -19,7 +19,8 @@
       "location": [
         104.76444444444,
         -2.9833333333333
-      ]
+      ],
+      "founded": 683
     }
   ],
   "parts": [],
@@ -40,6 +41,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/srivijaya.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,20 +23,17 @@
       "location": [
         21.011111111111113,
         52.23
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {
-    "id": "Q27306",
+    "id": "Q172107",
     "region": "Poland",
-    "name": "Kingdom of Prussia"
+    "name": "Polish-Lithuanian Commonwealth"
   },
-  "after": {
-    "id": "Q27306",
-    "region": "Poland",
-    "name": "Kingdom of Prussia"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q53444",
@@ -49,6 +46,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/duchy-of-warsaw.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

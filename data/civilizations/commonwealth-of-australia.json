@@ -19,7 +19,8 @@
       "location": [
         149.12694444444,
         -35.293055555556
-      ]
+      ],
+      "founded": 1913
     }
   ],
   "parts": [],
@@ -33,6 +34,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/commonwealth-of-australia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

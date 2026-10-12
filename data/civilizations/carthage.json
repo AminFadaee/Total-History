@@ -23,7 +23,8 @@
       "location": [
         10.323461,
         36.852558
-      ]
+      ],
+      "founded": -801
     }
   ],
   "parts": [],
@@ -43,6 +44,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/carthage.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -61,7 +63,7 @@
     "home": "Carthage",
     "labelled": [
       "Roman Republic",
-      "Antigonid Macedonia"
+      "Antigonid dynasty"
     ]
   }
 }

@@ -23,7 +23,8 @@
       "location": [
         139.69166666666666,
         35.68944444444445
-      ]
+      ],
+      "founded": 1868
     }
   ],
   "parts": [],
@@ -68,6 +69,7 @@
   ],
   "borders": true,
   "map": "maps/empire-of-japan.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

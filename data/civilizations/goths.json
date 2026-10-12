@@ -1,0 +1,43 @@
+{
+  "id": "Q42193",
+  "slug": "goths",
+  "name": "Goths",
+  "wikipedia": "Goths",
+  "map_year": 43,
+  "period": {
+    "start": {
+      "earliest": 1,
+      "latest": 100,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Sweden",
+    "Poland"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/goths.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      30,
+      206
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

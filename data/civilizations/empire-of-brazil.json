@@ -23,7 +23,8 @@
       "location": [
         -43.205555555555556,
         -22.91111111111111
-      ]
+      ],
+      "founded": 1565
     }
   ],
   "parts": [],
@@ -39,6 +40,10 @@
       "name": "Pedro I of Brazil"
     },
     {
+      "id": "Q676301",
+      "name": "John VI of Portugal"
+    },
+    {
       "id": "Q156774",
       "name": "Pedro II of Brazil"
     }
@@ -49,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/empire-of-brazil.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

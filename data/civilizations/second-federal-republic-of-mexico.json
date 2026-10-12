@@ -23,7 +23,8 @@
       "location": [
         -99.13589,
         19.353773
-      ]
+      ],
+      "founded": 1521
     }
   ],
   "parts": [],
@@ -82,6 +83,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/second-federal-republic-of-mexico.png",
+  "map_asked": false,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -98,6 +100,7 @@
     ],
     "identity": "successor on borders Cliopatria gives an earlier name",
     "home": "Mexico City",
+    "map_like": "Federated Republic of Mexico",
     "labelled": [
       "United States of America",
       "Venezuela",

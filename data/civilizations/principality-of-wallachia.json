@@ -23,16 +23,13 @@
       "location": [
         25.05,
         45.275
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q958291",
-    "region": "Romania",
-    "name": "United Principalities of Moldavia and Wallachia"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q1093958",
@@ -49,6 +46,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/principality-of-wallachia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -74,7 +72,7 @@
       "Principality of Moldavia",
       "Despotate of Vidin",
       "Kingdom of Bosnia",
-      "Beylik of Isfendiyar",
+      "Candar dynasty",
       "Serbian Despots"
     ]
   }

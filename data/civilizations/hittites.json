@@ -23,21 +23,24 @@
       "location": [
         34.615277777778,
         40.019722222222
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Šamuḫa",
       "location": [
         36.52815016083427,
         39.61967189070262
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Tarḫuntašša",
       "location": [
         33.16666667,
         36.86666667
-      ]
+      ],
+      "founded": -1295
     }
   ],
   "parts": [],
@@ -60,6 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/hittites.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

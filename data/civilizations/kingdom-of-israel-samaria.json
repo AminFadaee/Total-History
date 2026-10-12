@@ -23,22 +23,20 @@
       "location": [
         35.28953611,
         32.05570278
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Tirzah",
       "location": [
         35.3378,
         32.2874
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q3185305",
-    "region": "Palestine",
-    "name": "Kingdom of Israel"
-  },
+  "before": {},
   "after": {
     "id": "Q10914393",
     "region": "Palestine",
@@ -50,8 +48,16 @@
       "name": "Jeroboam"
     },
     {
-      "id": "Q319038",
-      "name": "Hoshea"
+      "id": "Q313224",
+      "name": "Baasha of Israel"
+    },
+    {
+      "id": "Q313221",
+      "name": "Omri"
+    },
+    {
+      "id": "Q235901",
+      "name": "Ahab"
     }
   ],
   "modern_countries": [
@@ -63,6 +69,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-israel-samaria.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

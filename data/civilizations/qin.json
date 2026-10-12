@@ -1,0 +1,63 @@
+{
+  "id": "Q34756",
+  "slug": "qin",
+  "name": "Qin",
+  "wikipedia": "Qin (state)",
+  "map_year": -222,
+  "period": {
+    "start": {
+      "earliest": -905,
+      "latest": -905,
+      "circa": false
+    },
+    "end": {
+      "earliest": -207,
+      "latest": -207,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Xianyang",
+      "location": [
+        108.857778,
+        34.413889
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/qin.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Xianyang"
+      ],
+      "infobox": [
+        "Yueyang",
+        "Xianyang"
+      ]
+    },
+    "cliopatria_years": [
+      -750,
+      -219
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "Xianyang",
+    "labelled": [
+      "Minyue",
+      "Qi"
+    ]
+  }
+}

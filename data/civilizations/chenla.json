@@ -1,0 +1,77 @@
+{
+  "id": "Q1057118",
+  "slug": "chenla",
+  "name": "Chenla",
+  "wikipedia": "Chenla",
+  "map_year": 641,
+  "period": {
+    "start": {
+      "earliest": 550,
+      "latest": 550,
+      "circa": false
+    },
+    "end": {
+      "earliest": 706,
+      "latest": 706,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Sambor Prei Kuk",
+      "location": [
+        105.040025,
+        12.867283
+      ],
+      "founded": null
+    },
+    {
+      "name": "Vat Phou",
+      "location": [
+        105.81572222222222,
+        14.848916666666666
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q201705",
+    "region": "Laos",
+    "name": "Khmer Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Cambodia",
+    "Vietnam",
+    "Thailand",
+    "Laos"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/chenla.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Sambor Prei Kuk"
+      ],
+      "infobox": [
+        "Vat Phou",
+        "Isanapura"
+      ]
+    },
+    "cliopatria_years": [
+      555,
+      717
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Vat Phou",
+    "labelled": [
+      "Lavo Kingdom"
+    ]
+  }
+}

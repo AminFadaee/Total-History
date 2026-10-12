@@ -19,7 +19,8 @@
       "location": [
         47.845833333333,
         40.981388888889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -33,6 +34,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/caucasian-albania.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

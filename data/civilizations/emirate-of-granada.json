@@ -23,7 +23,8 @@
       "location": [
         -3.6,
         37.175
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -43,8 +44,16 @@
       "name": "Muhammad I of Granada"
     },
     {
-      "id": "Q312763",
-      "name": "Muhammad XI of Granada"
+      "id": "Q972278",
+      "name": "Muhammad II of Granada"
+    },
+    {
+      "id": "Q704786",
+      "name": "Muhammad III of Granada"
+    },
+    {
+      "id": "Q321060",
+      "name": "Nasr of Granada"
     }
   ],
   "modern_countries": [
@@ -53,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/emirate-of-granada.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

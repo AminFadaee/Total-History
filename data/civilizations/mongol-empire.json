@@ -23,14 +23,16 @@
       "location": [
         109.15277777777777,
         47.09444444444444
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Karakorum",
       "location": [
         102.82379,
         47.19753
-      ]
+      ],
+      "founded": 1220
     }
   ],
   "parts": [
@@ -42,22 +44,10 @@
   "before": {},
   "after": {
     "id": "Q7313",
-    "region": "Mongolia",
+    "region": "China",
     "name": "Yuan Dynasty"
   },
   "rulers": [
-    {
-      "id": "Q720",
-      "name": "Genghis Khan"
-    },
-    {
-      "id": "Q7519",
-      "name": "Ögedei Khan"
-    },
-    {
-      "id": "Q7520",
-      "name": "Güyük Khan"
-    },
     {
       "id": "Q7521",
       "name": "Möngke Khan"
@@ -65,6 +55,14 @@
     {
       "id": "Q7523",
       "name": "Kublai Khan"
+    },
+    {
+      "id": "Q8468",
+      "name": "Temür Khan"
+    },
+    {
+      "id": "Q8666",
+      "name": "Toghon Temür"
     }
   ],
   "modern_countries": [
@@ -94,6 +92,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mongol-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

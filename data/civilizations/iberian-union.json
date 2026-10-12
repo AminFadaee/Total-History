@@ -1,0 +1,96 @@
+{
+  "id": "Q377350",
+  "slug": "iberian-union",
+  "name": "Iberian Union",
+  "wikipedia": "Iberian Union",
+  "map_year": 1632,
+  "period": {
+    "start": {
+      "earliest": 1580,
+      "latest": 1580,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1640,
+      "latest": 1640,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [
+    "Crown of Castile",
+    "Crown of Aragon",
+    "Kingdom of Portugal",
+    "Spanish Empire",
+    "Portuguese Empire"
+  ],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q34417",
+      "name": "Philip II of Spain"
+    },
+    {
+      "id": "Q34464",
+      "name": "Philip III of Spain"
+    },
+    {
+      "id": "Q691402",
+      "name": "Philip IV of Spain"
+    }
+  ],
+  "modern_countries": [
+    "Mexico",
+    "Argentina",
+    "Brazil",
+    "Peru",
+    "Bolivia",
+    "Colombia",
+    "Venezuela",
+    "Chile",
+    "Ecuador",
+    "Cuba",
+    "Honduras",
+    "Guatemala",
+    "Nicaragua",
+    "Panama",
+    "Costa Rica",
+    "Dominican Republic",
+    "Haiti",
+    "El Salvador",
+    "Jamaica",
+    "United States",
+    "Trinidad and Tobago",
+    "Netherlands"
+  ],
+  "overseas_countries": [
+    "Spain",
+    "Philippines",
+    "Portugal",
+    "Sri Lanka",
+    "Belgium",
+    "Cabo Verde",
+    "Luxembourg",
+    "São Tomé and Principe",
+    "Macao"
+  ],
+  "borders": true,
+  "map": "maps/iberian-union.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1582,
+      1639
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

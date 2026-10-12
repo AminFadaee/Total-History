@@ -19,7 +19,8 @@
       "location": [
         34.410583333333335,
         47.49219444444444
-      ]
+      ],
+      "founded": 1957
     }
   ],
   "parts": [],
@@ -53,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/scythia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,21 +23,24 @@
       "location": [
         -5.1305,
         43.35041666666667
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "San Martín del Rey Aurelio",
       "location": [
         -5.6137777628,
         43.27501905
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Pravia",
       "location": [
         -6.1138664,
         43.4896744
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -57,8 +60,16 @@
       "name": "Pelagius of Asturias"
     },
     {
-      "id": "Q333603",
-      "name": "Fruela II of Asturias"
+      "id": "Q333609",
+      "name": "Alfonso I of Asturias"
+    },
+    {
+      "id": "Q360388",
+      "name": "Alfonso II of Asturias"
+    },
+    {
+      "id": "Q311138",
+      "name": "Alfonso III of Asturias"
     }
   ],
   "modern_countries": [
@@ -68,6 +79,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-asturias.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

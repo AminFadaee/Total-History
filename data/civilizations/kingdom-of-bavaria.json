@@ -23,15 +23,12 @@
       "location": [
         11.575,
         48.1375
-      ]
+      ],
+      "founded": 1158
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q47261",
-    "region": "Germany",
-    "name": "Duchy of Bavaria"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -49,14 +46,6 @@
     {
       "id": "Q44039",
       "name": "Ludwig II of Bavaria"
-    },
-    {
-      "id": "Q44825",
-      "name": "Otto, King of Bavaria"
-    },
-    {
-      "id": "Q44393",
-      "name": "Ludwig III of Bavaria"
     }
   ],
   "modern_countries": [
@@ -67,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-bavaria.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

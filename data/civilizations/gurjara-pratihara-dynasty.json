@@ -1,0 +1,69 @@
+{
+  "id": "Q5324",
+  "slug": "gurjara-pratihara-dynasty",
+  "name": "Gurjara-Pratihara Dynasty",
+  "wikipedia": "Pratihara dynasty",
+  "map_year": 783,
+  "period": {
+    "start": {
+      "earliest": 730,
+      "latest": 730,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1036,
+      "latest": 1036,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kannauj",
+      "location": [
+        79.92201944444444,
+        27.031336111111113
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q6958307",
+      "name": "Nagabhata I"
+    }
+  ],
+  "modern_countries": [
+    "India"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/gurjara-pratihara-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kannauj"
+      ],
+      "infobox": [
+        "Ujjain",
+        "Kannauj"
+      ]
+    },
+    "cliopatria_years": [
+      732,
+      1039
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kannauj",
+    "labelled": [
+      "Rashtrakuta Dynasty",
+      "Pala Empire",
+      "Kamarupa Kingdom"
+    ]
+  }
+}

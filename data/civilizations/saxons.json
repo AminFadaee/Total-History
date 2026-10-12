@@ -1,0 +1,46 @@
+{
+  "id": "Q101985",
+  "slug": "saxons",
+  "name": "Saxons",
+  "wikipedia": "Saxons",
+  "map_year": 455,
+  "period": {
+    "start": {
+      "earliest": 401,
+      "latest": 500,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Germany"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/saxons.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      401,
+      799
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Ripuarian Franks",
+      "Anglo-Saxon England",
+      "Salian Franks"
+    ]
+  }
+}

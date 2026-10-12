@@ -1,0 +1,81 @@
+{
+  "id": "Q26472",
+  "slug": "kingdom-of-dali",
+  "name": "Kingdom of Dali",
+  "wikipedia": "Dali Kingdom",
+  "map_year": 947,
+  "period": {
+    "start": {
+      "earliest": 937,
+      "latest": 937,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1253,
+      "latest": 1253,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Dali Town",
+      "location": [
+        100.15425944084755,
+        25.705518423973352
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q12557",
+    "region": "China",
+    "name": "Mongol Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q832433",
+      "name": "Duan Zhengchun"
+    },
+    {
+      "id": "Q1929156",
+      "name": "Duan Zhixing"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/kingdom-of-dali.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Dali City"
+      ],
+      "infobox": [
+        "Dali Town, Yunnan"
+      ]
+    },
+    "cliopatria_years": [
+      947,
+      1259
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Dali Town",
+    "labelled": [
+      "Later Shu",
+      "Southern Chu",
+      "Southern Han",
+      "Pyu City-States",
+      "Kamarupa Kingdom",
+      "Chandra Dynasty",
+      "Ngô Dynasty",
+      "Pagan Kingdom"
+    ]
+  }
+}

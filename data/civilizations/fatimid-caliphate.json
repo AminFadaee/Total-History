@@ -23,28 +23,31 @@
       "location": [
         10.0569,
         35.596243
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Mahdia",
       "location": [
         11.062222222222,
         35.504722222222
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Cairo",
       "location": [
         31.235833333333332,
         30.044444444444444
-      ]
+      ],
+      "founded": 969
     }
   ],
   "parts": [],
   "before": {
-    "id": "Q12536",
-    "region": "Egypt",
-    "name": "Abbasid Caliphate"
+    "id": "Q207600",
+    "region": "Tunisia",
+    "name": "Aghlabid Dynasty"
   },
   "after": {
     "id": "Q180114",
@@ -57,8 +60,16 @@
       "name": "Abd Allah al-Mahdi Billah"
     },
     {
-      "id": "Q286460",
-      "name": "Al-Adid"
+      "id": "Q335443",
+      "name": "Al-Mu'izz li-Din Allah"
+    },
+    {
+      "id": "Q342137",
+      "name": "Al-Hakim bi-Amr Allah"
+    },
+    {
+      "id": "Q284619",
+      "name": "Al-Mustansir Billah"
     }
   ],
   "modern_countries": [
@@ -76,6 +87,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/fatimid-caliphate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

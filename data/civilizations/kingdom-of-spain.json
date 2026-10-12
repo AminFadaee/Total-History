@@ -19,13 +19,31 @@
       "location": [
         -3.703333333333333,
         40.41694444444445
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q170467",
+      "name": "Philip V of Spain"
+    },
+    {
+      "id": "Q183085",
+      "name": "Isabella II"
+    },
+    {
+      "id": "Q127349",
+      "name": "José Echegaray"
+    },
+    {
+      "id": "Q29179",
+      "name": "Francisco Franco"
+    }
+  ],
   "modern_countries": [
     "Spain",
     "Morocco",
@@ -40,6 +58,7 @@
   ],
   "borders": true,
   "map": "maps/kingdom-of-spain.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -60,11 +79,10 @@
       "French Third Republic",
       "Morocco",
       "Ottoman Tripolitania",
-      "French Africa",
+      "French colonial empire",
       "Austria-Hungary",
       "Kingdom of Italy",
       "Wadai Empire",
-      "Bornu Empire",
       "Serbs"
     ]
   }

@@ -1,0 +1,125 @@
+{
+  "id": "Q239502",
+  "slug": "kingdom-of-galiciavolhynia",
+  "name": "Kingdom of Galicia–Volhynia",
+  "wikipedia": "Kingdom of Galicia–Volhynia",
+  "map_year": 1199,
+  "period": {
+    "start": {
+      "earliest": 1199,
+      "latest": 1199,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1349,
+      "latest": 1349,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Volodymyr",
+      "location": [
+        24.322222,
+        50.848056
+      ],
+      "founded": null
+    },
+    {
+      "name": "Halych",
+      "location": [
+        24.721666666667,
+        49.112777777778
+      ],
+      "founded": null
+    },
+    {
+      "name": "Chełm",
+      "location": [
+        23.483333333333,
+        51.133333333333
+      ],
+      "founded": 1237
+    },
+    {
+      "name": "Lviv",
+      "location": [
+        24.0315921,
+        49.841952
+      ],
+      "founded": 1256
+    }
+  ],
+  "parts": [
+    "Principality of Halych",
+    "Principality of Volhynia"
+  ],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q497773",
+      "name": "Roman the Great"
+    },
+    {
+      "id": "Q2310836",
+      "name": "Liubartas"
+    },
+    {
+      "id": "Q53457",
+      "name": "Casimir III the Great"
+    }
+  ],
+  "modern_countries": [
+    "Ukraine",
+    "Romania",
+    "Poland",
+    "Moldova",
+    "Belarus"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/kingdom-of-galiciavolhynia.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Halych",
+        "Chełm",
+        "Lviv",
+        "Volodymyr, Ukraine"
+      ],
+      "infobox": [
+        "Volodymyr, Ukraine",
+        "Halych",
+        "Chełm",
+        "Lviv"
+      ]
+    },
+    "cliopatria_years": [
+      1199,
+      1351
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Volodymyr",
+    "labelled": [
+      "Kimek-Kipchak confederation",
+      "Kievan Rus'",
+      "Kingdom of Hungary",
+      "Byzantine Empire",
+      "Duchy of Sandomierz",
+      "Second Bulgarian Empire",
+      "Principality of Pereyaslavl",
+      "Principality of Minsk",
+      "Holy Roman Empire",
+      "Principality of Smolensk",
+      "Kingdom of Georgia",
+      "Kingdom of Denmark",
+      "Volga Bulgaria",
+      "Duchy of Silesia",
+      "Banate of Bosnia"
+    ]
+  }
+}

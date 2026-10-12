@@ -1,0 +1,70 @@
+{
+  "id": "Q5362837",
+  "slug": "emirate-of-jabal-shammar",
+  "name": "Emirate of Jabal Shammar",
+  "wikipedia": "Emirate of Jabal Shammar",
+  "map_year": 1895,
+  "period": {
+    "start": {
+      "earliest": 1836,
+      "latest": 1836,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1921,
+      "latest": 1921,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Hail",
+      "location": [
+        41.683333333333,
+        27.516666666667
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q2820938",
+      "name": "Abdullah bin Ali Al Rashid"
+    },
+    {
+      "id": "Q12240160",
+      "name": "Muhammad bin Talal Al Rashid"
+    }
+  ],
+  "modern_countries": [
+    "Saudi Arabia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/emirate-of-jabal-shammar.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Hail"
+      ],
+      "infobox": [
+        "Hail"
+      ]
+    },
+    "cliopatria_years": [
+      1825,
+      1921
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Hail",
+    "labelled": [
+      "Ottoman Empire"
+    ]
+  }
+}

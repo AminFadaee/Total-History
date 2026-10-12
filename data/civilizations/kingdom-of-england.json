@@ -23,14 +23,16 @@
       "location": [
         -1.3086111111111,
         51.063333333333
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "London",
       "location": [
         -0.1275,
         51.507222222222
-      ]
+      ],
+      "founded": 47
     }
   ],
   "parts": [],
@@ -46,12 +48,20 @@
   },
   "rulers": [
     {
-      "id": "Q170017",
-      "name": "Æthelstan"
+      "id": "Q37594",
+      "name": "William the Conqueror"
     },
     {
-      "id": "Q119702",
-      "name": "Anne, Queen of Great Britain"
+      "id": "Q42305",
+      "name": "Richard I of England"
+    },
+    {
+      "id": "Q38370",
+      "name": "Henry VIII"
+    },
+    {
+      "id": "Q7207",
+      "name": "Elizabeth I"
     }
   ],
   "modern_countries": [
@@ -61,6 +71,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-england.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -82,7 +93,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Winchester",
     "labelled": [
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Crown of Castile",
       "Kalmar Union",
       "Crown of Aragon",

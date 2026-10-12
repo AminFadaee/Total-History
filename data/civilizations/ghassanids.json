@@ -23,7 +23,8 @@
       "location": [
         35.996667,
         32.918889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -48,6 +49,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ghassanids.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -65,7 +67,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Eastern Roman Empire",
+      "Byzantine Empire",
       "Sasanian Empire",
       "Lakhmid Kingdom"
     ]

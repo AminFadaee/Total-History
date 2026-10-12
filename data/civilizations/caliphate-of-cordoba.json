@@ -19,7 +19,8 @@
       "location": [
         -4.78,
         37.89
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -29,7 +30,24 @@
     "name": "Emirate of Córdoba"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q190418",
+      "name": "Abd al-Rahman III"
+    },
+    {
+      "id": "Q284531",
+      "name": "Al-Hakam II"
+    },
+    {
+      "id": "Q169640",
+      "name": "Hisham II of Córdoba"
+    },
+    {
+      "id": "Q919199",
+      "name": "Sulayman ibn al-Hakam"
+    }
+  ],
   "modern_countries": [
     "Spain",
     "Morocco",
@@ -38,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/caliphate-of-cordoba.png",
+  "map_asked": true,
   "checks": {
     "infobox": false,
     "capital_sources": {

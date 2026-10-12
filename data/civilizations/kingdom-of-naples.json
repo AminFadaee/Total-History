@@ -23,7 +23,8 @@
       "location": [
         14.248611111111112,
         40.83583333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -33,18 +34,26 @@
     "name": "Kingdom of Sicily"
   },
   "after": {
-    "id": "Q48779892",
+    "id": "Q180393",
     "region": "Italy",
-    "name": "Kingdom of Naples (Napoleonic)"
+    "name": "Kingdom of the Two Sicilies"
   },
   "rulers": [
     {
-      "id": "Q203829",
-      "name": "Charles I of Anjou"
+      "id": "Q314331",
+      "name": "Charles II of Naples"
     },
     {
-      "id": "Q312325",
-      "name": "Ferdinand I of the Two Sicilies"
+      "id": "Q311861",
+      "name": "Charles III of Naples"
+    },
+    {
+      "id": "Q36234",
+      "name": "Charles III of Spain"
+    },
+    {
+      "id": "Q7726",
+      "name": "Joseph Bonaparte"
     }
   ],
   "modern_countries": [
@@ -53,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-naples.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

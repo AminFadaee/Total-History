@@ -1,0 +1,83 @@
+{
+  "id": "Q83821",
+  "slug": "bijapur-sultanate",
+  "name": "Bijapur Sultanate",
+  "wikipedia": "Bijapur Sultanate",
+  "map_year": 1653,
+  "period": {
+    "start": {
+      "earliest": 1490,
+      "latest": 1490,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1686,
+      "latest": 1686,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bijapur",
+      "location": [
+        75.71537,
+        16.82442
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q374521",
+    "region": "India",
+    "name": "Bahmani Sultanate"
+  },
+  "after": {
+    "id": "Q33296",
+    "region": "India",
+    "name": "Mughal Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q961890",
+      "name": "Yusuf Adil Shah"
+    },
+    {
+      "id": "Q7513543",
+      "name": "Sikandar Adil Shah"
+    }
+  ],
+  "modern_countries": [
+    "India"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/bijapur-sultanate.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bijapur district, Karnataka",
+        "Bijapur"
+      ],
+      "infobox": [
+        "Bijapur"
+      ]
+    },
+    "cliopatria_years": [
+      1492,
+      1686
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bijapur",
+    "labelled": [
+      "Mughal Empire",
+      "Golconda Sultanate",
+      "Kingdom of Mysore",
+      "Nayaks of Madurai",
+      "Nayaks of Thanjavur"
+    ]
+  }
+}

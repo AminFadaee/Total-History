@@ -23,28 +23,32 @@
       "location": [
         59.1530707,
         42.3261336
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Samarkand",
       "location": [
         66.97583333333333,
         39.65472222222222
-      ]
+      ],
+      "founded": -800
     },
     {
       "name": "Ghazni",
       "location": [
         68.423333333333,
         33.549166666667
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Tabriz",
       "location": [
         46.29611111111111,
         38.07388888888889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -77,6 +81,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/khwarezmid-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -97,7 +102,7 @@
     "labelled": [
       "Kimek-Kipchak confederation",
       "Kara-Khitans",
-      "Mamluk Dynasty",
+      "Delhi Sultanate",
       "Lohara Dynasty",
       "Kingdom of Georgia",
       "Kashmir",

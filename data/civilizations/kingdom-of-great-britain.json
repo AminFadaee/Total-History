@@ -23,7 +23,8 @@
       "location": [
         -0.1275,
         51.507222222222
-      ]
+      ],
+      "founded": 47
     }
   ],
   "parts": [],
@@ -62,6 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-great-britain.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -79,9 +81,9 @@
     "labelled": [
       "Habsburg Monarchy",
       "French First Republic",
-      "Kingdom of Prussia",
+      "Prussia",
       "Denmark-Norway",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Duchy of Bavaria",
       "Electorate of Saxony"
     ]

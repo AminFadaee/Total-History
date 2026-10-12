@@ -23,21 +23,24 @@
       "location": [
         75.777222222222,
         23.182777777778
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Mathura",
       "location": [
         77.673673,
         27.4924134
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Taxila",
       "location": [
         72.7875,
         33.745833333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -65,6 +68,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/indo-scythians.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

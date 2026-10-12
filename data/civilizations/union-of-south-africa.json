@@ -23,21 +23,24 @@
       "location": [
         18.42388888888889,
         -33.92527777777778
-      ]
+      ],
+      "founded": 1652
     },
     {
       "name": "Pretoria",
       "location": [
         28.188055555556,
         -25.746388888889
-      ]
+      ],
+      "founded": 1855
     },
     {
       "name": "Bloemfontein",
       "location": [
         26.216666666667,
         -29.1
-      ]
+      ],
+      "founded": 1846
     }
   ],
   "parts": [],
@@ -65,6 +68,7 @@
   "overseas_countries": [],
   "borders": false,
   "map": "",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

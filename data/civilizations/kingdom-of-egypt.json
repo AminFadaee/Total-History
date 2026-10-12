@@ -23,16 +23,13 @@
       "location": [
         31.235833333333332,
         30.044444444444444
-      ]
+      ],
+      "founded": 969
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q79",
-    "region": "Egypt",
-    "name": "Republic of Egypt"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q213001",
@@ -53,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-egypt.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

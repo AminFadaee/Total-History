@@ -23,15 +23,12 @@
       "location": [
         9.7386111111111,
         52.374444444444
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q706018",
-    "region": "Germany",
-    "name": "Electorate of Hanover"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -49,10 +46,6 @@
     {
       "id": "Q162302",
       "name": "Ernest Augustus, King of Hanover"
-    },
-    {
-      "id": "Q57428",
-      "name": "George V of Hanover"
     }
   ],
   "modern_countries": [
@@ -61,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-hanover.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

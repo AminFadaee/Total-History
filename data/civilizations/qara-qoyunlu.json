@@ -23,21 +23,24 @@
       "location": [
         43.359722222222,
         39.031111111111
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Mosul",
       "location": [
         43.12916666666667,
         36.34166666666667
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Tabriz",
       "location": [
         46.29611111111111,
         38.07388888888889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -67,6 +70,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/qara-qoyunlu.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -97,7 +101,7 @@
       "Shirvan",
       "Mamluk Sultanate",
       "Beylik of Karaman",
-      "Beylik of Isfendiyar",
+      "Candar dynasty",
       "Beylik of Dulkadir"
     ]
   }

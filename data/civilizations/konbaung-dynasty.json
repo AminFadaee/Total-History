@@ -23,18 +23,24 @@
       "location": [
         95.7,
         22.56666667
-      ]
+      ],
+      "founded": 1752
     },
     {
       "name": "Inwa",
       "location": [
         95.98166666666667,
         21.88
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q519718",
+    "region": "Myanmar",
+    "name": "Toungoo dynasty"
+  },
   "after": {},
   "rulers": [
     {
@@ -60,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/konbaung-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

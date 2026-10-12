@@ -29,6 +29,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kimek-kipchak-confederation.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -49,7 +50,7 @@
     "labelled": [
       "Great Seljuk Empire",
       "Kievan Rus'",
-      "Eastern Kara-Khanids",
+      "Kara-Khanid Khanate",
       "Tibetans",
       "Qocho Kingdom",
       "Byzantine Empire",

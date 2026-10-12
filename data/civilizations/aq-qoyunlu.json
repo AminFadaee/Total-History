@@ -19,14 +19,16 @@
       "location": [
         40.236666666667,
         37.910833333333
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Tabriz",
       "location": [
         46.29611111111111,
         38.07388888888889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -37,7 +39,7 @@
   },
   "after": {
     "id": "Q18234383",
-    "region": "Turkey",
+    "region": "Iraq",
     "name": "Safavid Dynasty"
   },
   "rulers": [
@@ -59,6 +61,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/aq-qoyunlu.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -90,7 +93,7 @@
       "Ottoman Empire",
       "Shirvan",
       "Kazakh Khanate",
-      "Lodi Dynasty",
+      "Delhi Sultanate",
       "Makuria Kingdom",
       "Sind-Samma Dynasty",
       "Kapisa"

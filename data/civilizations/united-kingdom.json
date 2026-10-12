@@ -19,7 +19,8 @@
       "location": [
         -0.1275,
         51.507222222222
-      ]
+      ],
+      "founded": 47
     }
   ],
   "parts": [],
@@ -29,7 +30,20 @@
     "name": "United Kingdom of Great Britain and Ireland"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q269412",
+      "name": "George V"
+    },
+    {
+      "id": "Q280856",
+      "name": "George VI"
+    },
+    {
+      "id": "Q590227",
+      "name": "Edward VIII"
+    }
+  ],
   "modern_countries": [
     "United Kingdom"
   ],
@@ -45,6 +59,7 @@
   ],
   "borders": true,
   "map": "maps/united-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

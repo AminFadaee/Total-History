@@ -23,14 +23,16 @@
       "location": [
         118.77888888888889,
         32.060833333333335
-      ]
+      ],
+      "founded": -495
     },
     {
       "name": "Beijing",
       "location": [
         116.407526,
         39.90403
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -40,9 +42,9 @@
     "name": "Yuan Dynasty"
   },
   "after": {
-    "id": "Q1198163",
+    "id": "Q8733",
     "region": "China",
-    "name": "Southern Ming"
+    "name": "Qing Dynasty"
   },
   "rulers": [
     {
@@ -61,6 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ming-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

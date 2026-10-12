@@ -23,7 +23,8 @@
       "location": [
         -5.5669444444444,
         42.598888888889
-      ]
+      ],
+      "founded": -29
     }
   ],
   "parts": [],
@@ -39,12 +40,20 @@
   },
   "rulers": [
     {
-      "id": "Q333699",
-      "name": "García I of León"
+      "id": "Q235080",
+      "name": "Alfonso VI of León and Castile"
     },
     {
-      "id": "Q316115",
-      "name": "Alfonso IX of León"
+      "id": "Q317905",
+      "name": "Sancho II of Castile and León"
+    },
+    {
+      "id": "Q128701",
+      "name": "Urraca of León and Castile"
+    },
+    {
+      "id": "Q312767",
+      "name": "Alfonso VII of León and Castile"
     }
   ],
   "modern_countries": [
@@ -54,6 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-leon.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

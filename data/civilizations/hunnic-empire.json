@@ -1,0 +1,89 @@
+{
+  "id": "Q45813",
+  "slug": "hunnic-empire",
+  "name": "Hunnic Empire",
+  "wikipedia": "Huns",
+  "map_year": 451,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q810006",
+      "name": "Basich"
+    },
+    {
+      "id": "Q250444",
+      "name": "Charaton"
+    },
+    {
+      "id": "Q1085718",
+      "name": "Octar"
+    },
+    {
+      "id": "Q334273",
+      "name": "Rugila"
+    },
+    {
+      "id": "Q36724",
+      "name": "Attila"
+    },
+    {
+      "id": "Q313490",
+      "name": "Bleda"
+    },
+    {
+      "id": "Q530617",
+      "name": "Dengizich"
+    },
+    {
+      "id": "Q554423",
+      "name": "Ernak"
+    }
+  ],
+  "modern_countries": [
+    "Ukraine",
+    "Russia",
+    "Germany",
+    "Romania",
+    "Poland",
+    "Hungary",
+    "Czechia",
+    "Slovakia",
+    "Moldova",
+    "Luxembourg"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/hunnic-empire.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      426,
+      673
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Byzantine Empire",
+      "Western Roman Empire",
+      "Sasanian Empire",
+      "Kingdom of the Suebi",
+      "Vandal Kingdom",
+      "Lakhmid Kingdom",
+      "Sasanian Armenia",
+      "Caucasian Albania"
+    ]
+  }
+}

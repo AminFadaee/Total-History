@@ -25,6 +25,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/etruscans.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

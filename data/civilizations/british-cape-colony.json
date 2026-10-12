@@ -23,7 +23,8 @@
       "location": [
         18.42388888888889,
         -33.92527777777778
-      ]
+      ],
+      "founded": 1652
     }
   ],
   "parts": [],
@@ -63,6 +64,7 @@
   ],
   "borders": true,
   "map": "maps/british-cape-colony.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

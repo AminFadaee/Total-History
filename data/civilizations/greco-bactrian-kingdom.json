@@ -1,0 +1,104 @@
+{
+  "id": "Q488880",
+  "slug": "greco-bactrian-kingdom",
+  "name": "Greco-Bactrian Kingdom",
+  "wikipedia": "Greco-Bactrian Kingdom",
+  "map_year": -170,
+  "period": {
+    "start": {
+      "earliest": -256,
+      "latest": -256,
+      "circa": false
+    },
+    "end": {
+      "earliest": -120,
+      "latest": -120,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Balkh",
+      "location": [
+        66.898888888889,
+        36.758055555556
+      ],
+      "founded": null
+    },
+    {
+      "name": "Ai-Khanoum",
+      "location": [
+        69.41083333333333,
+        37.16638888888889
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q93180",
+    "region": "Afghanistan",
+    "name": "Seleucid Empire"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q335032",
+      "name": "Diodotus I"
+    },
+    {
+      "id": "Q347916",
+      "name": "Demetrius I of Bactria"
+    },
+    {
+      "id": "Q381819",
+      "name": "Eucratides I"
+    },
+    {
+      "id": "Q180766",
+      "name": "Heliocles I"
+    }
+  ],
+  "modern_countries": [
+    "Pakistan",
+    "Afghanistan",
+    "India",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Tajikistan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/greco-bactrian-kingdom.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Balkh",
+        "Ai-Khanoum"
+      ],
+      "infobox": [
+        "Balkh",
+        "Ai-Khanoum"
+      ]
+    },
+    "cliopatria_years": [
+      -247,
+      -127
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Balkh",
+    "labelled": [
+      "Seleucid Empire",
+      "Mahameghavahana Dynasty",
+      "Shunga Empire",
+      "Parthian Empire",
+      "Yuezhi",
+      "Wusun",
+      "Kingdom of Armenia",
+      "Atropatene"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "Q2365048",
+  "slug": "adal-sultanate",
+  "name": "Adal Sultanate",
+  "wikipedia": "Adal Sultanate",
+  "map_year": 1534,
+  "period": {
+    "start": {
+      "earliest": 1415,
+      "latest": 1415,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1577,
+      "latest": 1577,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Zeila",
+      "location": [
+        43.473888888889,
+        11.353888888889
+      ],
+      "founded": null
+    },
+    {
+      "name": "Harar",
+      "location": [
+        42.127777777778,
+        9.3111111111111
+      ],
+      "founded": null
+    },
+    {
+      "name": "Asaita",
+      "location": [
+        41.43333333333333,
+        11.566666666666666
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q7396320",
+      "name": "Sabr ad-Din III"
+    },
+    {
+      "id": "Q119187290",
+      "name": "Muhammad Gasa"
+    }
+  ],
+  "modern_countries": [
+    "Ethiopia",
+    "Eritrea",
+    "Djibouti"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/adal-sultanate.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Zeila"
+      ],
+      "infobox": [
+        "Dakkar",
+        "Harar",
+        "Asaita"
+      ]
+    },
+    "cliopatria_years": [
+      1415,
+      1578
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Harar",
+    "labelled": [
+      "Ethiopian Empire",
+      "Funj Sultanate"
+    ]
+  }
+}

@@ -23,7 +23,8 @@
       "location": [
         43.2625,
         35.456666666667
-      ]
+      ],
+      "founded": -2500
     }
   ],
   "parts": [],
@@ -86,6 +87,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/neo-assyrian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

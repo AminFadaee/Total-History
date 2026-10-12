@@ -23,7 +23,8 @@
       "location": [
         -71.224167,
         46.816111
-      ]
+      ],
+      "founded": 1608
     }
   ],
   "parts": [],
@@ -49,6 +50,7 @@
   ],
   "borders": true,
   "map": "maps/new-france.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -65,6 +67,8 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Quebec City",
-    "labelled": []
+    "labelled": [
+      "British Empire"
+    ]
   }
 }

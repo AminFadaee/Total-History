@@ -23,16 +23,13 @@
       "location": [
         -74.08175,
         4.60971
-      ]
+      ],
+      "founded": 1538
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q630882",
-    "region": "Colombia",
-    "name": "Republic of New Granada"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q8605",
@@ -43,16 +40,8 @@
       "name": "Domingo Caycedo"
     },
     {
-      "id": "Q5848815",
-      "name": "Estanislao Vergara"
-    },
-    {
-      "id": "Q1367274",
-      "name": "Joaquín Mosquera"
-    },
-    {
-      "id": "Q471325",
-      "name": "Rafael Urdaneta"
+      "id": "Q10966309",
+      "name": "Jerónimo de Mendoza Galavís"
     }
   ],
   "modern_countries": [
@@ -69,6 +58,7 @@
   ],
   "borders": true,
   "map": "maps/gran-colombia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

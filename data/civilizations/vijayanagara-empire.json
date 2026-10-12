@@ -23,36 +23,36 @@
       "location": [
         76.465,
         15.325
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Penukonda",
       "location": [
         77.5966537,
         14.0846808
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Chandragiri",
       "location": [
         79.3167,
         13.5833
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Vellore",
       "location": [
         79.133333333333,
         12.933333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q466581",
-    "region": "India",
-    "name": "Hoysala Kingdom"
-  },
+  "before": {},
   "after": {
     "id": "Q83821",
     "region": "India",
@@ -94,6 +94,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/vijayanagara-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

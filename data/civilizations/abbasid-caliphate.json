@@ -23,21 +23,24 @@
       "location": [
         44.36611111111111,
         33.31527777777778
-      ]
+      ],
+      "founded": 762
     },
     {
       "name": "Samarra",
       "location": [
         43.801944444444445,
         34.361666666666665
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Cairo",
       "location": [
         31.235833333333332,
         30.044444444444444
-      ]
+      ],
+      "founded": 969
     }
   ],
   "parts": [],
@@ -57,16 +60,16 @@
       "name": "Al-Saffah"
     },
     {
-      "id": "Q293454",
-      "name": "Al-Musta'sim"
+      "id": "Q31066",
+      "name": "Al-Mansur"
     },
     {
-      "id": "Q1417881",
-      "name": "Al-Mustansir II"
+      "id": "Q131002",
+      "name": "Harun al-Rashid"
     },
     {
-      "id": "Q210489",
-      "name": "Al-Mutawakkil III"
+      "id": "Q61056",
+      "name": "Al-Ma'mun"
     }
   ],
   "modern_countries": [
@@ -96,6 +99,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/abbasid-caliphate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -121,10 +125,11 @@
     "labelled": [
       "Uyghur Khaganate",
       "Tibetan Empire",
-      "Kingdom of the Franks",
+      "Francia",
       "Khazaria",
       "Byzantine Empire",
       "Oghuz Turks",
+      "Emirate of Córdoba",
       "Tang Dynasty",
       "Kimek-Kipchak confederation",
       "Rashtrakuta Dynasty",

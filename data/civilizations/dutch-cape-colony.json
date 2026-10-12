@@ -1,0 +1,70 @@
+{
+  "id": "Q4807130",
+  "slug": "dutch-cape-colony",
+  "name": "Dutch Cape Colony",
+  "wikipedia": "Dutch Cape Colony",
+  "map_year": 1805,
+  "period": {
+    "start": {
+      "earliest": 1652,
+      "latest": 1652,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1806,
+      "latest": 1806,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "City of Cape Town",
+      "location": [
+        18.427725,
+        -33.925908
+      ],
+      "founded": 1839
+    },
+    {
+      "name": "Cape Town",
+      "location": [
+        18.42388888888889,
+        -33.92527777777778
+      ],
+      "founded": 1652
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q370736",
+    "region": "South Africa",
+    "name": "British Cape Colony"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "South Africa"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/dutch-cape-colony.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Castle of Good Hope",
+        "Cape Town"
+      ]
+    },
+    "cliopatria_years": [
+      1653,
+      1805
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "City of Cape Town",
+    "labelled": []
+  }
+}

@@ -23,7 +23,8 @@
       "location": [
         26.216666666667,
         -29.1
-      ]
+      ],
+      "founded": 1846
     }
   ],
   "parts": [],
@@ -65,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/free-orange-state.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

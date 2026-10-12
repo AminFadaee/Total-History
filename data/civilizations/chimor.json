@@ -1,0 +1,66 @@
+{
+  "id": "Q581741",
+  "slug": "chimor",
+  "name": "Chimor",
+  "wikipedia": "Chimor",
+  "map_year": 1375,
+  "period": {
+    "start": {
+      "earliest": 900,
+      "latest": 900,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1470,
+      "latest": 1470,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Chan Chan",
+      "location": [
+        -79.075,
+        -8.1105555555556
+      ],
+      "founded": 850
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q28573",
+    "region": "Peru",
+    "name": "Inca Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Peru",
+    "Ecuador"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/chimor.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chan Chan"
+      ],
+      "infobox": [
+        "Chan Chan"
+      ]
+    },
+    "cliopatria_years": [
+      911,
+      1481
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Chan Chan",
+    "labelled": [
+      "Cuzco"
+    ]
+  }
+}

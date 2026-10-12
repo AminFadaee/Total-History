@@ -23,13 +23,26 @@
       "location": [
         47.525,
         -18.91
-      ]
+      ],
+      "founded": 1625
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
   "rulers": [
+    {
+      "id": "Q218622",
+      "name": "Andrianampoinimerina"
+    },
+    {
+      "id": "Q169794",
+      "name": "Ranavalona I"
+    },
+    {
+      "id": "Q240168",
+      "name": "Ranavalona II"
+    },
     {
       "id": "Q233326",
       "name": "Ranavalona III"
@@ -41,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/merina-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

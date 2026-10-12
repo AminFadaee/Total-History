@@ -19,16 +19,13 @@
       "location": [
         -7.971444444444445,
         15.75613888888889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q13099593",
-    "region": "Mauritania",
-    "name": "Sosso Empire"
-  },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Mali",
@@ -37,6 +34,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ghana-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

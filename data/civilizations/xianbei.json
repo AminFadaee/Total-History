@@ -23,7 +23,8 @@
       "location": [
         113.9695,
         41.0775
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -47,6 +48,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/xianbei.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

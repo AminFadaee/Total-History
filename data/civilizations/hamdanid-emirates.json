@@ -1,0 +1,82 @@
+{
+  "id": "Q837187",
+  "slug": "hamdanid-emirates",
+  "name": "Hamdanid Emirates",
+  "wikipedia": "Hamdanid dynasty",
+  "map_year": 947,
+  "period": {
+    "start": {
+      "earliest": 890,
+      "latest": 890,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1004,
+      "latest": 1004,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Aleppo",
+      "location": [
+        37.16,
+        36.2
+      ],
+      "founded": -5000
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q12536",
+    "region": "Syria",
+    "name": "Abbasid Caliphate"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q16199373",
+      "name": "Hamdan ibn Hamdun"
+    }
+  ],
+  "modern_countries": [
+    "Syria",
+    "Turkey",
+    "Iraq",
+    "Iran"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/hamdanid-emirates.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Aleppo"
+      ],
+      "infobox": [
+        "Mardin",
+        "Mosul",
+        "Aleppo"
+      ]
+    },
+    "cliopatria_years": [
+      936,
+      1004
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Aleppo",
+    "labelled": [
+      "Byzantine Empire",
+      "Abbasid Caliphate",
+      "Abbasid Caliphate",
+      "Khazaria",
+      "Georgia",
+      "Bagratid Armenia",
+      "Shirvan",
+      "Ziyarid dynasty"
+    ]
+  }
+}

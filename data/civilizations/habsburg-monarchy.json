@@ -19,7 +19,8 @@
       "location": [
         16.3725,
         48.208333333333336
-      ]
+      ],
+      "founded": -100
     }
   ],
   "parts": [],
@@ -84,6 +85,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/habsburg-monarchy.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -104,7 +106,8 @@
       "Ottoman Empire",
       "Polish-Lithuanian Commonwealth",
       "Kingdom of France",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
+      "Prussia",
       "Morocco",
       "Kingdom of Great Britain",
       "Regency of Algiers",

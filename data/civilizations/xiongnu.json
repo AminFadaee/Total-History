@@ -23,7 +23,8 @@
       "location": [
         102.5606,
         48.103
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -60,6 +61,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/xiongnu.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,7 +23,8 @@
       "location": [
         -99.13589,
         19.353773
-      ]
+      ],
+      "founded": 1521
     }
   ],
   "parts": [],
@@ -62,6 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/federated-republic-of-mexico.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

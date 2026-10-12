@@ -19,14 +19,16 @@
       "location": [
         49.054257,
         54.977391
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Bilär",
       "location": [
         50.40348,
         54.97203
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -52,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/volga-bulgaria.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

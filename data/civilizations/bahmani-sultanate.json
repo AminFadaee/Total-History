@@ -1,0 +1,92 @@
+{
+  "id": "Q374521",
+  "slug": "bahmani-sultanate",
+  "name": "Bahmani Sultanate",
+  "wikipedia": "Bahmani Kingdom",
+  "map_year": 1352,
+  "period": {
+    "start": {
+      "earliest": 1347,
+      "latest": 1347,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1527,
+      "latest": 1527,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kalaburagi",
+      "location": [
+        76.833333333333,
+        17.333333333333
+      ],
+      "founded": null
+    },
+    {
+      "name": "Bidar",
+      "location": [
+        77.55,
+        17.9
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q229411",
+    "region": "India",
+    "name": "Delhi Sultanate"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q2749271",
+      "name": "Ala-ud-Din Bahman Shah"
+    },
+    {
+      "id": "Q3327500",
+      "name": "Mohammed Shah I"
+    },
+    {
+      "id": "Q16579566",
+      "name": "Mujahid Shah"
+    },
+    {
+      "id": "Q3017007",
+      "name": "Daud Shah Bahmani"
+    }
+  ],
+  "modern_countries": [
+    "India"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/bahmani-sultanate.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kalaburagi",
+        "Bidar"
+      ],
+      "infobox": [
+        "Kalaburagi",
+        "Bidar"
+      ]
+    },
+    "cliopatria_years": [
+      1352,
+      1491
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kalaburagi",
+    "labelled": [
+      "Vijayanagara Empire"
+    ]
+  }
+}

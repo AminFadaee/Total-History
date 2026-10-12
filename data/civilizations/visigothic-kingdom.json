@@ -23,27 +23,30 @@
       "location": [
         1.4433333333333334,
         43.60444444444445
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Barcelona",
       "location": [
         2.1769444444444,
         41.3825
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Toledo",
       "location": [
         -4.0333333333333,
         39.866666666667
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {
     "id": "Q42834",
-    "region": "Spain",
+    "region": "France",
     "name": "Western Roman Empire"
   },
   "after": {
@@ -61,52 +64,12 @@
       "name": "Theodoric I"
     },
     {
-      "id": "Q217620",
-      "name": "Euric"
-    },
-    {
       "id": "Q110884",
       "name": "Alaric II"
     },
     {
-      "id": "Q313065",
-      "name": "Liuvigild"
-    },
-    {
-      "id": "Q313057",
-      "name": "Reccared I"
-    },
-    {
-      "id": "Q350656",
-      "name": "Sisebut"
-    },
-    {
-      "id": "Q312913",
-      "name": "Suintila"
-    },
-    {
-      "id": "Q315447",
-      "name": "Recceswinth"
-    },
-    {
-      "id": "Q350672",
-      "name": "Wittiza"
-    },
-    {
       "id": "Q243573",
       "name": "Roderic"
-    },
-    {
-      "id": "Q639737",
-      "name": "Ardo"
-    },
-    {
-      "id": "Q313192",
-      "name": "Gesalec"
-    },
-    {
-      "id": "Q105105",
-      "name": "Theodoric the Great"
     }
   ],
   "modern_countries": [
@@ -118,6 +81,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/visigothic-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -145,7 +109,8 @@
       "Kingdom of the Suebi",
       "Vandal Kingdom",
       "Kingdom of Alamannia",
-      "Kingdom of Thuringia"
+      "Kingdom of Thuringia",
+      "Francia"
     ]
   }
 }

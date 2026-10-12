@@ -23,14 +23,16 @@
       "location": [
         106.70194444444445,
         10.775555555555556
-      ]
+      ],
+      "founded": 1862
     },
     {
       "name": "Hanoi",
       "location": [
         105.84117,
         21.0245
-      ]
+      ],
+      "founded": 1010
     }
   ],
   "parts": [],
@@ -57,6 +59,7 @@
   ],
   "borders": true,
   "map": "maps/french-indochina.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

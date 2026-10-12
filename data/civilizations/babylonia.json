@@ -23,7 +23,8 @@
       "location": [
         44.42111111111111,
         32.5425
-      ]
+      ],
+      "founded": -3000
     }
   ],
   "parts": [],
@@ -37,6 +38,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/babylonia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

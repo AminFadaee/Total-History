@@ -23,7 +23,8 @@
       "location": [
         -5.47892312327,
         56.0857322756
-      ]
+      ],
+      "founded": 501
     }
   ],
   "parts": [],
@@ -33,6 +34,14 @@
     {
       "id": "Q558767",
       "name": "Fergus Mór"
+    },
+    {
+      "id": "Q375287",
+      "name": "Gabrán mac Domangairt"
+    },
+    {
+      "id": "Q378755",
+      "name": "Áedán mac Gabráin"
     },
     {
       "id": "Q298263",
@@ -45,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/dal-riata.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

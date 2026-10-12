@@ -1,0 +1,113 @@
+{
+  "id": "Q12544",
+  "slug": "byzantine-empire",
+  "name": "Byzantine Empire",
+  "wikipedia": "Byzantine Empire",
+  "map_year": 561,
+  "period": {
+    "start": {
+      "earliest": 395,
+      "latest": 395,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1453,
+      "latest": 1453,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Constantinople",
+      "location": [
+        28.976018,
+        41.01224
+      ],
+      "founded": 330
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q2277",
+    "region": "Turkey",
+    "name": "Roman Empire"
+  },
+  "after": {
+    "id": "Q12560",
+    "region": "Turkey",
+    "name": "Ottoman Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q46696",
+      "name": "Theodosius I"
+    },
+    {
+      "id": "Q159369",
+      "name": "Arcadius"
+    },
+    {
+      "id": "Q41866",
+      "name": "Justinian I"
+    },
+    {
+      "id": "Q41852",
+      "name": "Heraclius"
+    }
+  ],
+  "modern_countries": [
+    "Turkey",
+    "Egypt",
+    "Italy",
+    "Libya",
+    "Syria",
+    "Greece",
+    "Bulgaria",
+    "Tunisia",
+    "Serbia",
+    "Albania",
+    "North Macedonia",
+    "Israel",
+    "Montenegro",
+    "Kosovo",
+    "Lebanon",
+    "Palestine",
+    "Cyprus",
+    "Malta",
+    "San Marino",
+    "Vatican"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/byzantine-empire.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Constantinople"
+      ],
+      "infobox": [
+        "Constantinople"
+      ]
+    },
+    "cliopatria_years": [
+      395,
+      1474
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Constantinople",
+    "labelled": [
+      "Sasanian Empire",
+      "Francia",
+      "Avar Khaganate",
+      "Visigothic Kingdom",
+      "Nobatia",
+      "Lakhmid Kingdom",
+      "Alodia",
+      "Saxons",
+      "Makuria"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "Q12567",
+  "slug": "viking-settlements",
+  "name": "Viking settlements",
+  "wikipedia": "Vikings",
+  "map_year": 876,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "United Kingdom",
+    "Germany",
+    "Netherlands",
+    "Denmark"
+  ],
+  "overseas_countries": [
+    "Russia",
+    "Iceland"
+  ],
+  "borders": true,
+  "map": "maps/viking-settlements.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      793,
+      1332
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "East Franks",
+      "West Franks",
+      "Scandinavian minor kingdoms",
+      "Kingdom of Wessex",
+      "Magyars",
+      "First Bulgarian Empire",
+      "Great Moravia",
+      "Old Kingdom of Norway"
+    ]
+  }
+}

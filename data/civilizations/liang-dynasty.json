@@ -23,7 +23,8 @@
       "location": [
         118.79647,
         32.05837
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [
@@ -34,11 +35,7 @@
     "region": "China",
     "name": "Southern Qi"
   },
-  "after": {
-    "id": "Q62454",
-    "region": "China",
-    "name": "Chen Dynasty"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q736726",
@@ -63,6 +60,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/liang-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

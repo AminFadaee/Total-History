@@ -12,10 +12,11 @@
   "occupation": "Military personnel",
   "birth_country": "China",
   "civilizations": [
-    "Great Jin",
-    "Northern Song"
+    "Song dynasty"
   ],
-  "related": [],
+  "related": [
+    "Great Jin"
+  ],
   "contribution": "A Chinese military general of the Song dynasty and is remembered as a patriotic national hero, known for leading its forces in the wars in the 12th century between Southern Song and the Jurchen-led Jin dynasty in northern China.",
   "setting": "",
   "image": "images/yue-fei.jpg",
@@ -25,12 +26,15 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "death": [
+        "Song dynasty"
+      ],
       "lead": [
-        "Northern Song",
+        "Song dynasty",
         "Great Jin"
       ],
       "citizenship": [
-        "Northern Song"
+        "Song dynasty"
       ],
       "birthplace": [
         "Great Jin"

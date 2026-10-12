@@ -23,43 +23,44 @@
       "location": [
         44.42111111111111,
         32.5425
-      ]
+      ],
+      "founded": -3000
     },
     {
       "name": "Pasargadae",
       "location": [
         53.179444444444,
         30.2
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Ecbatana",
       "location": [
         48.516247,
         34.8065
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Susa",
       "location": [
         48.25611111111111,
         32.18944444444445
-      ]
+      ],
+      "founded": -4395
     },
     {
       "name": "Persepolis",
       "location": [
         52.89,
         29.935
-      ]
+      ],
+      "founded": -519
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1183338",
-    "region": "Iran",
-    "name": "Median Kingdom"
-  },
+  "before": {},
   "after": {
     "id": "Q83958",
     "region": "Iran",
@@ -71,48 +72,12 @@
       "name": "Cyrus the Great"
     },
     {
-      "id": "Q182483",
-      "name": "Cambyses II"
-    },
-    {
-      "id": "Q242267",
-      "name": "Bardiya"
-    },
-    {
       "id": "Q44387",
       "name": "Darius the Great"
     },
     {
       "id": "Q129165",
       "name": "Xerxes I"
-    },
-    {
-      "id": "Q189689",
-      "name": "Artaxerxes I"
-    },
-    {
-      "id": "Q272043",
-      "name": "Xerxes II"
-    },
-    {
-      "id": "Q298631",
-      "name": "Sogdianus"
-    },
-    {
-      "id": "Q202236",
-      "name": "Darius II"
-    },
-    {
-      "id": "Q188472",
-      "name": "Artaxerxes II"
-    },
-    {
-      "id": "Q192867",
-      "name": "Artaxerxes III"
-    },
-    {
-      "id": "Q260783",
-      "name": "Arses of Persia"
     },
     {
       "id": "Q102865",
@@ -139,6 +104,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/achaemenid-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

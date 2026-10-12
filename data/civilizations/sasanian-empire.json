@@ -23,14 +23,16 @@
       "location": [
         52.909444444444,
         29.981666666667
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Ctesiphon",
       "location": [
         44.580833,
         33.093611
-      ]
+      ],
+      "founded": -129
     }
   ],
   "parts": [],
@@ -50,8 +52,16 @@
       "name": "Ardashir I"
     },
     {
-      "id": "Q208463",
-      "name": "Yazdegerd III"
+      "id": "Q191455",
+      "name": "Shapur I"
+    },
+    {
+      "id": "Q234860",
+      "name": "Shapur II"
+    },
+    {
+      "id": "Q207381",
+      "name": "Khosrow I"
     }
   ],
   "modern_countries": [
@@ -78,6 +88,7 @@
   ],
   "borders": true,
   "map": "maps/sasanian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -97,8 +108,8 @@
     "identity": "Wikipedia item with overlapping dates",
     "home": "Istakhr",
     "labelled": [
-      "Western Göktürks",
-      "Eastern Roman Empire",
+      "Göktürks",
+      "Byzantine Empire",
       "Nobatia",
       "Turk Shahis",
       "Karkota Dynasty",

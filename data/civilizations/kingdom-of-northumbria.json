@@ -19,23 +19,37 @@
   },
   "capitals": [],
   "parts": [],
-  "before": {
-    "id": "Q506008",
-    "region": "United Kingdom",
-    "name": "Kingdom of Deira"
-  },
+  "before": {},
   "after": {
     "id": "Q179876",
     "region": "United Kingdom",
     "name": "Kingdom of England"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q468847",
+      "name": "Oswiu"
+    },
+    {
+      "id": "Q453676",
+      "name": "Ecgfrith of Northumbria"
+    },
+    {
+      "id": "Q271398",
+      "name": "Ælla of Northumbria"
+    },
+    {
+      "id": "Q213791",
+      "name": "Eric Bloodaxe"
+    }
+  ],
   "modern_countries": [
     "United Kingdom"
   ],
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-northumbria.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -53,7 +67,7 @@
       "Kingdom of East Anglia",
       "Brythons",
       "Kingdom of Gwynedd",
-      "Kingdom of the Franks",
+      "Francia",
       "Saxons",
       "Magna Frisia",
       "Dumnonia",

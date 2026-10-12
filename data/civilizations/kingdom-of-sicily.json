@@ -23,7 +23,8 @@
       "location": [
         13.361261944444445,
         38.115658055555556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -31,8 +32,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q193901",
-      "name": "Roger II of Sicily"
+      "id": "Q130221",
+      "name": "Frederick II, Holy Roman Emperor"
+    },
+    {
+      "id": "Q312311",
+      "name": "Peter III of Aragon"
+    },
+    {
+      "id": "Q209579",
+      "name": "Victor Amadeus II"
+    },
+    {
+      "id": "Q36234",
+      "name": "Charles III of Spain"
     }
   ],
   "modern_countries": [
@@ -42,6 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-sicily.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

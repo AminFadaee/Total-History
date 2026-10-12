@@ -23,14 +23,16 @@
       "location": [
         -8.2284722222222,
         30.984638888889
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Marrakesh",
       "location": [
         -7.98108,
         31.62947
-      ]
+      ],
+      "founded": 1065
     }
   ],
   "parts": [],
@@ -55,6 +57,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/almohad-caliphate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

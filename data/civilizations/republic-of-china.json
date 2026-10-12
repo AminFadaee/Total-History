@@ -23,21 +23,24 @@
       "location": [
         116.407526,
         39.90403
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Nanjing",
       "location": [
         118.77888888888889,
         32.060833333333335
-      ]
+      ],
+      "founded": -495
     },
     {
       "name": "Chongqing",
       "location": [
         106.50694444444,
         29.55
-      ]
+      ],
+      "founded": 1929
     }
   ],
   "parts": [],
@@ -46,19 +49,23 @@
     "region": "China",
     "name": "Qing Dynasty"
   },
-  "after": {
-    "id": "Q148",
-    "region": "China",
-    "name": "People's Republic of China"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q8573",
       "name": "Sun Yat-sen"
     },
     {
-      "id": "Q699698",
-      "name": "Yan Xishan"
+      "id": "Q210329",
+      "name": "Yuan Shikai"
+    },
+    {
+      "id": "Q16574",
+      "name": "Chiang Kai-shek"
+    },
+    {
+      "id": "Q704276",
+      "name": "Chen Gongbo"
     }
   ],
   "modern_countries": [
@@ -67,6 +74,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/republic-of-china.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,7 +23,8 @@
       "location": [
         30.523611111111,
         50.45
-      ]
+      ],
+      "founded": 482
     }
   ],
   "parts": [
@@ -33,7 +34,7 @@
     "Principality of Chernigov",
     "Principality of Pereyaslavl",
     "Principality of Halych",
-    "Halych-Volhynia occupation"
+    "Kingdom of Galicia–Volhynia"
   ],
   "before": {},
   "after": {
@@ -45,6 +46,18 @@
     {
       "id": "Q6131983",
       "name": "Oleg the Wise"
+    },
+    {
+      "id": "Q1058572",
+      "name": "Sviatoslav I"
+    },
+    {
+      "id": "Q14974",
+      "name": "Vladimir the Great"
+    },
+    {
+      "id": "Q188943",
+      "name": "Yaroslav the Wise"
     }
   ],
   "modern_countries": [
@@ -55,6 +68,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kievan-rus.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

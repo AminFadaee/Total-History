@@ -23,7 +23,8 @@
       "location": [
         -3.703333333333333,
         40.41694444444445
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -57,6 +58,7 @@
   ],
   "borders": true,
   "map": "maps/second-spanish-republic.png",
+  "map_asked": false,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -74,8 +76,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Madrid",
+    "map_like": "Francoist Spain",
     "labelled": [
-      "French Africa",
+      "French colonial empire",
       "French Third Republic",
       "Italian Africa",
       "Kingdom of Egypt",

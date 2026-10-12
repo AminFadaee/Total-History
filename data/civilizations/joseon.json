@@ -23,7 +23,8 @@
       "location": [
         126.99,
         37.56
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -43,6 +44,14 @@
       "name": "Taejo of Joseon"
     },
     {
+      "id": "Q37682",
+      "name": "Sejong the Great"
+    },
+    {
+      "id": "Q334308",
+      "name": "Sejo of Joseon"
+    },
+    {
       "id": "Q257425",
       "name": "Gojong of Korea"
     }
@@ -54,6 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/joseon.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,7 +23,8 @@
       "location": [
         118.77888888888889,
         32.060833333333335
-      ]
+      ],
+      "founded": -495
     }
   ],
   "parts": [],
@@ -61,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/southern-ming.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -82,6 +84,7 @@
     "home": "Nanjing",
     "labelled": [
       "Qing Dynasty",
+      "Toungoo dynasty",
       "Lan Xang",
       "Trịnh lords",
       "Tümed",

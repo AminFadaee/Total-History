@@ -23,21 +23,24 @@
       "location": [
         125.411667,
         41.326667
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Gungnae",
       "location": [
         126.17861111,
         41.12083333
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Pyongyang",
       "location": [
         125.7475,
         39.016666666666666
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -77,6 +80,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/goguryeo.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

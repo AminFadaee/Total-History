@@ -1,0 +1,65 @@
+{
+  "id": "Q1322662",
+  "slug": "principality-of-chernigov",
+  "name": "Principality of Chernigov",
+  "wikipedia": "Principality of Chernigov",
+  "map_year": 1072,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1402,
+      "latest": 1402,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Chernihiv",
+      "location": [
+        31.294722222222223,
+        51.49388888888889
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Russia",
+    "Ukraine"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/principality-of-chernigov.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chernihiv"
+      ],
+      "infobox": [
+        "Chernihiv"
+      ]
+    },
+    "cliopatria_years": [
+      1056,
+      1240
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Chernihiv",
+    "labelled": [
+      "Kimek-Kipchak confederation",
+      "Principality of Kiev",
+      "Principality of Smolensk",
+      "Principality of Polotsky",
+      "Principality of Pereyaslavl",
+      "Principality of Volhynia",
+      "Principality of Peremyshl",
+      "Volga Bulgaria"
+    ]
+  }
+}

@@ -19,7 +19,8 @@
       "location": [
         38.733333333333334,
         14.116666666666667
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -27,8 +28,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q2919812",
-      "name": "Dil Na'od"
+      "id": "Q2736541",
+      "name": "Zoskales"
+    },
+    {
+      "id": "Q379898",
+      "name": "Ezana of Axum"
+    },
+    {
+      "id": "Q705378",
+      "name": "Kaleb of Axum"
+    },
+    {
+      "id": "Q676801",
+      "name": "Najashi"
     }
   ],
   "modern_countries": [
@@ -40,6 +53,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-axum.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

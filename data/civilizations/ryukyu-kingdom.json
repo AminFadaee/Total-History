@@ -23,15 +23,12 @@
       "location": [
         127.71942222222,
         26.217005555556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q55521",
-    "region": "Japan",
-    "name": "Chüzan"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -57,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ryukyu-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

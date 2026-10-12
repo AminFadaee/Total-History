@@ -23,7 +23,8 @@
       "location": [
         10.18,
         36.800833333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -55,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/hafsid-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

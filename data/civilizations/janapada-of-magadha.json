@@ -15,7 +15,8 @@
       "location": [
         85.42,
         25.03
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -28,6 +29,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/janapada-of-magadha.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

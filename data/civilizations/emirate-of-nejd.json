@@ -1,0 +1,80 @@
+{
+  "id": "Q146862",
+  "slug": "emirate-of-nejd",
+  "name": "Emirate of Nejd",
+  "wikipedia": "Second Saudi state",
+  "map_year": 1853,
+  "period": {
+    "start": {
+      "earliest": 1824,
+      "latest": 1824,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1891,
+      "latest": 1891,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Riyadh",
+      "location": [
+        46.71,
+        24.65
+      ],
+      "founded": 1746
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q146871",
+    "region": "Saudi Arabia",
+    "name": "Emirate of Diriyah"
+  },
+  "after": {
+    "id": "Q5362837",
+    "region": "Saudi Arabia",
+    "name": "Emirate of Jabal Shammar"
+  },
+  "rulers": [
+    {
+      "id": "Q2460824",
+      "name": "Turki bin Abdullah Al Saud"
+    },
+    {
+      "id": "Q317421",
+      "name": "Abdul Rahman bin Faisal Al Saud"
+    }
+  ],
+  "modern_countries": [
+    "Saudi Arabia",
+    "United Arab Emirates"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/emirate-of-nejd.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Riyadh"
+      ],
+      "infobox": [
+        "Riyadh"
+      ]
+    },
+    "cliopatria_years": [
+      1824,
+      1891
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Riyadh",
+    "labelled": [
+      "Ottoman Empire",
+      "Muhammad Ali dynasty"
+    ]
+  }
+}

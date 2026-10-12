@@ -23,7 +23,8 @@
       "location": [
         91.1175,
         29.65388888888889
-      ]
+      ],
+      "founded": 633
     }
   ],
   "parts": [],
@@ -31,20 +32,20 @@
   "after": {},
   "rulers": [
     {
+      "id": "Q2187385",
+      "name": "Mé Aktsom"
+    },
+    {
       "id": "Q366661",
       "name": "Trisong Detsen"
     },
     {
+      "id": "Q1910177",
+      "name": "Sadnalegs"
+    },
+    {
       "id": "Q558271",
       "name": "Langdarma"
-    },
-    {
-      "id": "Q320122",
-      "name": "Songtsen Gampo"
-    },
-    {
-      "id": "Q2353150",
-      "name": "Ralpachen"
     }
   ],
   "modern_countries": [
@@ -53,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/tibetan-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

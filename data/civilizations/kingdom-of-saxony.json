@@ -23,7 +23,8 @@
       "location": [
         13.7381437,
         51.0493286
-      ]
+      ],
+      "founded": 1206
     }
   ],
   "parts": [],
@@ -50,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-saxony.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

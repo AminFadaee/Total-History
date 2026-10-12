@@ -23,14 +23,16 @@
       "location": [
         12.6484,
         51.8671
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Dresden",
       "location": [
         13.7381437,
         51.0493286
-      ]
+      ],
+      "founded": 1206
     }
   ],
   "parts": [],
@@ -61,6 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/electorate-of-saxony.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -81,8 +84,8 @@
     "home": "Wittenberg",
     "labelled": [
       "Habsburg Monarchy",
-      "Holy Roman Empire Minor States",
-      "Brandenburg-Prussia",
+      "Holy Roman Empire",
+      "Prussia",
       "Duchy of Bavaria",
       "Duchy of Lorraine"
     ]

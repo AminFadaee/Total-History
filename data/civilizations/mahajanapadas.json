@@ -29,6 +29,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mahajanapadas.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

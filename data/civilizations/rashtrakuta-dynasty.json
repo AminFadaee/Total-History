@@ -23,7 +23,8 @@
       "location": [
         77.160833333333,
         17.195
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -32,11 +33,7 @@
     "region": "India",
     "name": "Chalukya Dynasty"
   },
-  "after": {
-    "id": "Q14624218",
-    "region": "India",
-    "name": "Western Chalukya Empire"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q3764262",
@@ -53,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/rashtrakuta-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -77,7 +75,7 @@
       "Lavo Kingdom",
       "Pyu City-States",
       "Kamarupa Kingdom",
-      "Pandya Dynasty",
+      "Pandya dynasty",
       "Kashmir"
     ]
   }

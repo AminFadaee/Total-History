@@ -23,14 +23,16 @@
       "location": [
         76.65305555555555,
         12.30861111111111
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Bengaluru",
       "location": [
         77.5912997,
         12.9791198
-      ]
+      ],
+      "founded": 1537
     }
   ],
   "parts": [],
@@ -64,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-mysore.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

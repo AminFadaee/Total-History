@@ -23,7 +23,8 @@
       "location": [
         12.568888888889,
         55.676111111111
-      ]
+      ],
+      "founded": 1167
     }
   ],
   "parts": [
@@ -34,11 +35,7 @@
     "Republic of Iceland"
   ],
   "before": {},
-  "after": {
-    "id": "Q62651",
-    "region": "Denmark",
-    "name": "Denmark-Norway"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q161958",
@@ -60,6 +57,7 @@
   ],
   "borders": true,
   "map": "maps/kalmar-union.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -83,7 +81,7 @@
     "home": "Copenhagen",
     "labelled": [
       "Grand Principality of Moscow",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Kingdom of England",
       "Khanate of Sibir",
       "House of Jagiellon",

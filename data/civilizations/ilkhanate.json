@@ -23,21 +23,24 @@
       "location": [
         46.23916666666667,
         37.39194444444445
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Tabriz",
       "location": [
         46.29611111111111,
         38.07388888888889
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Soltaniyeh",
       "location": [
         48.7975,
         36.434722
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -47,9 +50,9 @@
     "name": "Mongol Empire"
   },
   "after": {
-    "id": "Q1089675",
+    "id": "Q866716",
     "region": "Iran",
-    "name": "Chobanids"
+    "name": "Jalayirid Sultanate"
   },
   "rulers": [
     {
@@ -70,6 +73,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ilkhanate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -94,7 +98,7 @@
       "Golden Horde",
       "Chagatai Khanate",
       "Mamluk Sultanate",
-      "Khalji Dynasty",
+      "Delhi Sultanate",
       "Byzantine Empire",
       "Yadava Dynasty",
       "Kakatiya Dynasty",

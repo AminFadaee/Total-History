@@ -23,23 +23,21 @@
       "location": [
         88.37,
         22.5675
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "New Delhi",
       "location": [
         77.20900569444444,
         28.61389538888889
-      ]
+      ],
+      "founded": 1911
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q668",
-    "region": "India",
-    "name": "Republic of India"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q9439",
@@ -52,10 +50,6 @@
     {
       "id": "Q269412",
       "name": "George V"
-    },
-    {
-      "id": "Q590227",
-      "name": "Edward VIII"
     },
     {
       "id": "Q280856",
@@ -72,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/british-raj.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

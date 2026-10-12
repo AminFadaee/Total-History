@@ -23,14 +23,16 @@
       "location": [
         105.84117,
         21.0245
-      ]
+      ],
+      "founded": 1010
     },
     {
       "name": "Thọ Xuân district",
       "location": [
         105.52088611111111,
         19.931344444444445
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -60,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/le-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -84,7 +87,7 @@
       "Ava Kingdom",
       "Kingdom of Mrauk U",
       "Hanthawaddy Kingdom",
-      "Lan Na Kingdom"
+      "Lanna Kingdom"
     ]
   }
 }

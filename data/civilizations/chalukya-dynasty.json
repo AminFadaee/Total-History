@@ -23,29 +23,28 @@
       "location": [
         77.160833333333,
         17.195
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Basavakalyan",
       "location": [
         76.95,
         17.87
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Badami",
       "location": [
         75.68027778,
         15.92027778
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1479952",
-    "region": "India",
-    "name": "Kadamba Empire"
-  },
+  "before": {},
   "after": {
     "id": "Q856691",
     "region": "India",
@@ -67,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/chalukya-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -89,7 +89,7 @@
       "Maitraka Dynasty",
       "Late Pallava Empire",
       "Pyu City-States",
-      "Pandya Dynasty"
+      "Pandya dynasty"
     ]
   }
 }

@@ -1,0 +1,53 @@
+{
+  "id": "Q193292",
+  "slug": "heian-japan",
+  "name": "Heian Japan",
+  "wikipedia": "Heian period",
+  "map_year": 1177,
+  "period": {
+    "start": {
+      "earliest": 794,
+      "latest": 794,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1185,
+      "latest": 1185,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q736839",
+    "region": "Japan",
+    "name": "Kamakura Shogunate"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Japan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/heian-japan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      793,
+      1187
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Northern Fujiwara",
+      "Goryeo"
+    ]
+  }
+}

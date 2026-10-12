@@ -12,9 +12,11 @@
   "occupation": "Religious figure",
   "birth_country": "Italy",
   "civilizations": [
-    "Eastern Roman Empire"
+    "Byzantine Empire"
   ],
-  "related": [],
+  "related": [
+    "Lombards"
+  ],
   "contribution": "The 64th Bishop of Rome from 3 September 590 until his death on 12 March 604.",
   "setting": "",
   "image": "images/pope-gregory-i.jpg",
@@ -25,10 +27,13 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Eastern Roman Empire"
+        "Byzantine Empire"
+      ],
+      "lead": [
+        "Lombards"
       ],
       "birthplace": [
-        "Eastern Roman Empire"
+        "Byzantine Empire"
       ]
     },
     "lead": "Pope Gregory I (Latin: Gregorius I; Gregorio I; c. 540 – 12 March 604), commonly known as Saint Gregory the Great (Latin: Sanctus Gregorius Magnus; Italian: San Gregorio Magno), was the 64th Bishop of Rome from 3 September 590 until his death on 12 March 604.",

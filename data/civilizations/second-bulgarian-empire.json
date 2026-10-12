@@ -23,7 +23,8 @@
       "location": [
         25.628291,
         43.078652
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -53,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/second-bulgarian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -74,7 +76,7 @@
     "home": "Veliko Tarnovo",
     "labelled": [
       "Kingdom of Hungary",
-      "Halych-Volhynia occupation",
+      "Kingdom of Galicia–Volhynia",
       "Latin Empire",
       "Despotate of Epirus",
       "Banate of Bosnia",

@@ -23,7 +23,8 @@
       "location": [
         24.966666666667,
         54.616666666667
-      ]
+      ],
+      "founded": 1102
     }
   ],
   "parts": [],
@@ -35,8 +36,16 @@
       "name": "Mindaugas"
     },
     {
-      "id": "Q54019",
-      "name": "Stanisław August Poniatowski"
+      "id": "Q174044",
+      "name": "Alexander Nevsky"
+    },
+    {
+      "id": "Q218186",
+      "name": "Vytautas the Great"
+    },
+    {
+      "id": "Q53438",
+      "name": "Augustus III of Poland"
     }
   ],
   "modern_countries": [
@@ -48,6 +57,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/grand-duchy-of-lithuania.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -74,7 +84,7 @@
       "Grand Principality of Moscow",
       "Teutonic Order",
       "Principality of Moldavia",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Kingdom of Hungary",
       "Kingdom of Sweden",
       "Kingdom of Bohemia",

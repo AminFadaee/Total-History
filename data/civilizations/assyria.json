@@ -23,28 +23,32 @@
       "location": [
         43.2625,
         35.456666666667
-      ]
+      ],
+      "founded": -2500
     },
     {
       "name": "Nimrud",
       "location": [
         43.328888888889,
         36.098055555556
-      ]
+      ],
+      "founded": -1300
     },
     {
       "name": "Dur-Sharrukin",
       "location": [
         43.22931,
         36.50953
-      ]
+      ],
+      "founded": -706
     },
     {
       "name": "Harran",
       "location": [
         39.025,
         36.87083333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -52,64 +56,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q2493427",
-      "name": "Puzur-Ashur I"
-    },
-    {
-      "id": "Q720814",
-      "name": "Erishum I"
-    },
-    {
-      "id": "Q254523",
-      "name": "Shamshi-Adad I"
-    },
-    {
-      "id": "Q4881698",
-      "name": "Bel-bani"
-    },
-    {
-      "id": "Q299468",
-      "name": "Ashur-uballit I"
-    },
-    {
-      "id": "Q299013",
-      "name": "Tukulti-Ninurta I"
-    },
-    {
-      "id": "Q296295",
-      "name": "Tiglath-Pileser I"
-    },
-    {
-      "id": "Q193290",
-      "name": "Ashurnasirpal II"
-    },
-    {
       "id": "Q210074",
       "name": "Tiglath-Pileser III"
+    },
+    {
+      "id": "Q208336",
+      "name": "Sargon II"
     },
     {
       "id": "Q207140",
       "name": "Sennacherib"
     },
     {
-      "id": "Q193912",
-      "name": "Esarhaddon"
-    },
-    {
       "id": "Q171191",
       "name": "Ashurbanipal"
-    },
-    {
-      "id": "Q362680",
-      "name": "Aššur-etil-ilāni"
-    },
-    {
-      "id": "Q318708",
-      "name": "Sîn-šar-iškun"
-    },
-    {
-      "id": "Q316221",
-      "name": "Ashur-uballit II"
     }
   ],
   "modern_countries": [
@@ -121,6 +81,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/assyria.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

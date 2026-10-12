@@ -23,7 +23,8 @@
       "location": [
         16.3725,
         48.208333333333336
-      ]
+      ],
+      "founded": -100
     }
   ],
   "parts": [],
@@ -65,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/austrian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

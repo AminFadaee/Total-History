@@ -23,7 +23,8 @@
       "location": [
         12.482777777778,
         41.893055555556
-      ]
+      ],
+      "founded": -753
     }
   ],
   "parts": [],
@@ -51,6 +52,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/papal-states.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -72,7 +74,7 @@
       "Kingdom of Spain",
       "Republic of Venice",
       "Grand Duchy of Tuscany",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "House of Savoy",
       "Republic of Genoa"
     ]

@@ -23,15 +23,12 @@
       "location": [
         102.63,
         17.98
-      ]
+      ],
+      "founded": 1560
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q201705",
-    "region": "Laos",
-    "name": "Khmer Empire"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -39,8 +36,8 @@
       "name": "Fa Ngum"
     },
     {
-      "id": "Q888948",
-      "name": "Samsenethai"
+      "id": "Q456990",
+      "name": "Nang Keo Phimpha"
     },
     {
       "id": "Q732557",
@@ -49,10 +46,6 @@
     {
       "id": "Q888712",
       "name": "Sourigna Vongsa"
-    },
-    {
-      "id": "Q461226",
-      "name": "Setthathirath II"
     }
   ],
   "modern_countries": [
@@ -63,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/lan-xang.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -87,7 +81,7 @@
       "Khmer Empire",
       "Chámpa",
       "Sukhothai Kingdom",
-      "Lan Na Kingdom",
+      "Lanna Kingdom",
       "Ava Kingdom",
       "Hanthawaddy Kingdom",
       "Lavo Kingdom"

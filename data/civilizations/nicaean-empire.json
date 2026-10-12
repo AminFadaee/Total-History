@@ -23,19 +23,20 @@
       "location": [
         29.7195,
         40.429
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {
     "id": "Q12544",
     "region": "Turkey",
-    "name": "Eastern Roman Empire"
+    "name": "Byzantine Empire"
   },
   "after": {
     "id": "Q12544",
     "region": "Turkey",
-    "name": "Eastern Roman Empire"
+    "name": "Byzantine Empire"
   },
   "rulers": [
     {
@@ -49,14 +50,6 @@
     {
       "id": "Q37082",
       "name": "Theodore II Laskaris"
-    },
-    {
-      "id": "Q37088",
-      "name": "John IV Doukas Laskaris"
-    },
-    {
-      "id": "Q200033",
-      "name": "Michael VIII Palaiologos"
     }
   ],
   "modern_countries": [
@@ -68,6 +61,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/nicaean-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

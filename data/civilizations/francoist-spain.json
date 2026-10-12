@@ -23,15 +23,12 @@
       "location": [
         -3.703333333333333,
         40.41694444444445
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q178038",
-    "region": "Spain",
-    "name": "Second Spanish Republic"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -53,6 +50,7 @@
   ],
   "borders": true,
   "map": "maps/francoist-spain.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -71,7 +69,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Madrid",
     "labelled": [
-      "French Africa",
+      "French colonial empire",
       "French Fourth Republic",
       "Kingdom of Egypt",
       "Republic of Turkey",

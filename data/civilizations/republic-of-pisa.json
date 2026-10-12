@@ -23,7 +23,8 @@
       "location": [
         10.4,
         43.716666666667
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -46,6 +47,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/republic-of-pisa.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -63,7 +65,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Pisa",
     "labelled": [
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Republic of Florence",
       "Kingdom of Sicily",
       "Crown of Aragon",

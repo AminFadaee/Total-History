@@ -23,14 +23,16 @@
       "location": [
         34.9,
         36.916666666667
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Kozan",
       "location": [
         35.8103,
         37.4444
-      ]
+      ],
+      "founded": -3000
     }
   ],
   "parts": [],
@@ -47,6 +49,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/armenian-kingdom-of-cilicia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

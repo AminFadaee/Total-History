@@ -23,21 +23,24 @@
       "location": [
         -157.82861111111,
         21.276666666667
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Kailua-Kona",
       "location": [
         -155.99416666667,
         19.65
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Lahaina",
       "location": [
         -156.67472222222,
         20.886111111111
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -59,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-hawai-i.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

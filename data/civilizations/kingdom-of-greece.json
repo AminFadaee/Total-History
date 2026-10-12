@@ -23,14 +23,16 @@
       "location": [
         22.8,
         37.56583333333333
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Athens",
       "location": [
         23.728055555555557,
         37.98416666666667
-      ]
+      ],
+      "founded": -7000
     }
   ],
   "parts": [],
@@ -46,8 +48,12 @@
       "name": "George I of Greece"
     },
     {
-      "id": "Q151773",
-      "name": "Constantine II of Greece"
+      "id": "Q152099",
+      "name": "Constantine I of Greece"
+    },
+    {
+      "id": "Q152935",
+      "name": "George II of Greece"
     }
   ],
   "modern_countries": [
@@ -57,6 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-greece.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

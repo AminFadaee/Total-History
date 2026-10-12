@@ -23,14 +23,16 @@
       "location": [
         46.360555555556,
         40.682777777778
-      ]
+      ],
+      "founded": 660
     },
     {
       "name": "Baku",
       "location": [
         49.835183333333,
         40.366655555556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -57,6 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/azerbaijan-democratic-republic.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -80,7 +83,7 @@
       "Russian Republic",
       "Qajar Dynasty",
       "Georgia",
-      "British Colonial Empire",
+      "British Empire",
       "Armenia"
     ]
   }

@@ -23,28 +23,32 @@
       "location": [
         27.125411,
         43.362015
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Veliki Preslav",
       "location": [
         26.811977,
         43.160509
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Skopje",
       "location": [
         21.431666666666665,
         41.99611111111111
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Ohrid",
       "location": [
         20.801944444444,
         41.116944444444
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -52,44 +56,16 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q189450",
-      "name": "Asparuh of Bulgaria"
+      "id": "Q10925624",
+      "name": "Vikrantavarman II"
     },
     {
-      "id": "Q311506",
-      "name": "Tervel of Bulgaria"
+      "id": "Q255646",
+      "name": "Telerig"
     },
     {
-      "id": "Q438637",
-      "name": "Kardam of Bulgaria"
-    },
-    {
-      "id": "Q192104",
-      "name": "Krum"
-    },
-    {
-      "id": "Q276527",
-      "name": "Omurtag of Bulgaria"
-    },
-    {
-      "id": "Q311057",
-      "name": "Boris I of Bulgaria"
-    },
-    {
-      "id": "Q192264",
-      "name": "Simeon I of Bulgaria"
-    },
-    {
-      "id": "Q334283",
-      "name": "Peter I of Bulgaria"
-    },
-    {
-      "id": "Q270740",
-      "name": "Samuel of Bulgaria"
-    },
-    {
-      "id": "Q381288",
-      "name": "Ivan Vladislav of Bulgaria"
+      "id": "Q462772",
+      "name": "Malamir of Bulgaria"
     }
   ],
   "modern_countries": [
@@ -104,6 +80,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/first-bulgarian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

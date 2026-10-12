@@ -12,8 +12,7 @@
   "occupation": "Religious figure",
   "birth_country": "Germany",
   "civilizations": [
-    "Holy Roman Empire",
-    "Electorate of Saxony"
+    "Holy Roman Empire"
   ],
   "related": [],
   "contribution": "A German priest, theologian, author, hymnwriter, professor, and former Augustinian friar.",
@@ -25,9 +24,15 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "death": [
+        "Holy Roman Empire"
+      ],
       "citizenship": [
         "Holy Roman Empire",
         "Electorate of Saxony"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Martin Luther ( LOO-thər; German: [ˈmaʁtiːn ˈlʊtɐ] ; 10 November 1483 – 18 February 1546) was a German priest, theologian, author, hymnwriter, professor, and former Augustinian friar. Luther was the seminal figure of the Protestant Reformation, and his theological beliefs form the basis of Lutheranism. He is considered one of the most influential figures in Western and Christian history.",

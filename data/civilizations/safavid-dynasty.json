@@ -23,21 +23,24 @@
       "location": [
         46.29611111111111,
         38.07388888888889
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Qazvin",
       "location": [
         50.0041,
         36.28543666666667
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Isfahan",
       "location": [
         51.67472222222222,
         32.6525
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -47,9 +50,9 @@
     "name": "Aq Qoyunlu"
   },
   "after": {
-    "id": "Q627449",
+    "id": "Q63149558",
     "region": "Iran",
-    "name": "Hotaki Dynasty"
+    "name": "Afsharid Iran"
   },
   "rulers": [
     {
@@ -57,8 +60,16 @@
       "name": "Ismail I"
     },
     {
-      "id": "Q281336",
-      "name": "Abbas III"
+      "id": "Q298410",
+      "name": "Tahmasp I"
+    },
+    {
+      "id": "Q171349",
+      "name": "Abbas the Great"
+    },
+    {
+      "id": "Q192868",
+      "name": "Nader Shah"
     }
   ],
   "modern_countries": [
@@ -72,6 +83,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/safavid-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -98,7 +110,7 @@
       "Khanate of Khiva",
       "Shirvan",
       "Moghulistan",
-      "Lodi Dynasty",
+      "Delhi Sultanate",
       "Makuria Kingdom",
       "Kashmiri Sultanate",
       "Astrakhan Khanate",

@@ -19,7 +19,8 @@
       "location": [
         5.0419444444444,
         47.323055555556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -56,6 +57,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/duchy-of-burgundy.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -73,7 +75,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Dijon",
     "labelled": [
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Kingdom of France",
       "Kingdom of England",
       "House of Habsburg",
@@ -81,7 +83,7 @@
       "House of Bourbon",
       "Kingdom of Hungary",
       "Kingdom of Bohemia",
-      "Electorate of Brandenburg",
+      "Margraviate of Brandenburg",
       "Republic of Venice",
       "Duchy of Bavaria",
       "Duchy of Milan",

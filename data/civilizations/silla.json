@@ -19,20 +19,13 @@
       "location": [
         129.21666666667,
         35.85
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q701273",
-    "region": "South Korea",
-    "name": "Jinhan"
-  },
-  "after": {
-    "id": "Q715257",
-    "region": "South Korea",
-    "name": "Unified Silla"
-  },
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q492831",
@@ -58,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/silla.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

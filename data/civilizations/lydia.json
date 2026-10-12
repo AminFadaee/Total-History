@@ -23,7 +23,8 @@
       "location": [
         28.040278,
         38.488333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -61,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/lydia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

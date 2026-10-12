@@ -23,21 +23,24 @@
       "location": [
         69.3106,
         34.9925
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Sirkap",
       "location": [
         72.82916667,
         33.75611111
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Sagala",
       "location": [
         74.534166666667,
         32.505277777778
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -69,6 +72,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/indo-greeks.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

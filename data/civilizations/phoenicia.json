@@ -19,21 +19,24 @@
       "location": [
         35.65,
         34.116666666667
-      ]
+      ],
+      "founded": -8000
     },
     {
       "name": "Sidon",
       "location": [
         35.37583333333333,
         33.56055555555555
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Tyre",
       "location": [
         35.2,
         33.266666666667
-      ]
+      ],
+      "founded": -2750
     }
   ],
   "parts": [],
@@ -62,6 +65,7 @@
   ],
   "borders": true,
   "map": "maps/phoenicia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,22 +23,27 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q394074",
-      "name": "Agis I"
-    },
-    {
       "id": "Q44228",
       "name": "Leonidas I"
     },
     {
-      "id": "Q312689",
-      "name": "Nabis of Sparta"
+      "id": "Q313731",
+      "name": "Archidamus II"
+    },
+    {
+      "id": "Q433408",
+      "name": "Pausanias"
+    },
+    {
+      "id": "Q299479",
+      "name": "Agis IV"
     }
   ],
   "modern_countries": [],
   "overseas_countries": [],
   "borders": false,
   "map": "",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

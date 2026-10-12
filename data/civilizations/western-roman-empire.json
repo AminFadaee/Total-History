@@ -23,14 +23,16 @@
       "location": [
         9.185321,
         45.462907
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Ravenna",
       "location": [
         12.201666666666666,
         44.416111111111114
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -87,6 +89,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/western-roman-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -110,7 +113,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Ravenna",
     "labelled": [
-      "Eastern Roman Empire",
+      "Byzantine Empire",
       "Huns",
       "Lakhmid Kingdom",
       "Makuria"

@@ -29,6 +29,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-neustria.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -46,7 +47,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Kingdom of the Franks",
+      "Francia",
       "Aquitaine",
       "Breton Kingdoms",
       "Kingdom of Alamannia",

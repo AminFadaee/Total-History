@@ -23,7 +23,8 @@
       "location": [
         -9.139016,
         38.708042
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [
@@ -31,17 +32,25 @@
   ],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q154308",
+      "name": "Manuel II of Portugal"
+    }
+  ],
   "modern_countries": [
     "Brazil",
     "Uruguay"
   ],
   "overseas_countries": [
+    "East Timor",
     "Cabo Verde",
-    "São Tomé and Principe"
+    "São Tomé and Principe",
+    "Macao"
   ],
   "borders": true,
   "map": "maps/portuguese-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -55,7 +64,7 @@
     },
     "cliopatria_years": [
       1502,
-      1823
+      1910
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",

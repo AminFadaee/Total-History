@@ -23,21 +23,24 @@
       "location": [
         7.676111111111111,
         45.079166666666666
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Florence",
       "location": [
         11.254166666667,
         43.771388888889
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Rome",
       "location": [
         12.482777777778,
         41.893055555556
-      ]
+      ],
+      "founded": -753
     }
   ],
   "parts": [],
@@ -46,27 +49,23 @@
     "region": "Italy",
     "name": "Kingdom of Sardinia"
   },
-  "after": {
-    "id": "Q38",
-    "region": "Italy",
-    "name": "Republic of Italy"
-  },
+  "after": {},
   "rulers": [
     {
-      "id": "Q168691",
-      "name": "Victor Emmanuel II"
+      "id": "Q131098512",
+      "name": "Giuseppe Gatti"
     },
     {
-      "id": "Q153688",
-      "name": "Umberto I of Italy"
+      "id": "Q141595025",
+      "name": "Giocondo Giuntoli"
     },
     {
-      "id": "Q150642",
-      "name": "Victor Emmanuel III"
+      "id": "Q61914136",
+      "name": "Giuseppe Cerutti"
     },
     {
-      "id": "Q187149",
-      "name": "Umberto II of Italy"
+      "id": "Q141440569",
+      "name": "Ignazio Genuardi"
     }
   ],
   "modern_countries": [
@@ -82,6 +81,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-italy.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

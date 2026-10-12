@@ -23,14 +23,16 @@
       "location": [
         13.05,
         -5.85
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Kinshasa",
       "location": [
         15.311944444444444,
         -4.321944444444444
-      ]
+      ],
+      "founded": 1881
     }
   ],
   "parts": [],
@@ -62,6 +64,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/belgian-congo.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -82,7 +85,7 @@
     "home": "Boma",
     "labelled": [
       "British Africa",
-      "French Africa",
+      "French colonial empire",
       "Portuguese Republic",
       "British Gold Coast",
       "Ethiopian Empire"

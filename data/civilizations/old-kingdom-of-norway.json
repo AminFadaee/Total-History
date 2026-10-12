@@ -19,13 +19,31 @@
       "location": [
         10.738888888888889,
         59.913333333333334
-      ]
+      ],
+      "founded": 1048
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q206123",
+      "name": "Harald Fairhair"
+    },
+    {
+      "id": "Q181896",
+      "name": "Swein Forkbeard"
+    },
+    {
+      "id": "Q134128",
+      "name": "Cnut"
+    },
+    {
+      "id": "Q202266",
+      "name": "Margaret I of Denmark"
+    }
+  ],
   "modern_countries": [
     "Norway",
     "Sweden",
@@ -35,6 +53,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/old-kingdom-of-norway.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

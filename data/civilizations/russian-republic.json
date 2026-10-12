@@ -23,7 +23,8 @@
       "location": [
         30.316666666667,
         59.95
-      ]
+      ],
+      "founded": 1703
     }
   ],
   "parts": [],
@@ -59,6 +60,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/russian-republic.png",
+  "map_asked": false,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -75,11 +77,12 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Saint Petersburg",
+    "map_like": "Russian Empire",
     "labelled": [
       "Kuomintang",
       "Great Mongol State",
       "Qajar Dynasty",
-      "French Africa",
+      "French colonial empire",
       "British Raj",
       "Italian Africa",
       "British Gold Coast",

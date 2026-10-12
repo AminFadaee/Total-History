@@ -23,15 +23,12 @@
       "location": [
         85.144,
         25.611
-      ]
+      ],
+      "founded": -490
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q972165",
-    "region": "India",
-    "name": "Magadha - Shaishunaga dynasty"
-  },
+  "before": {},
   "after": {
     "id": "Q62943",
     "region": "India",
@@ -51,6 +48,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/nanda-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -15,19 +15,38 @@
       "location": [
         -10.804722222222,
         6.3105555555556
-      ]
+      ],
+      "founded": 1822
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q360164",
+      "name": "Joseph Jenkins Roberts"
+    },
+    {
+      "id": "Q718220",
+      "name": "Stephen Allen Benson"
+    },
+    {
+      "id": "Q730622",
+      "name": "Charles D. B. King"
+    },
+    {
+      "id": "Q301707",
+      "name": "William Tubman"
+    }
+  ],
   "modern_countries": [
     "Liberia"
   ],
   "overseas_countries": [],
   "borders": true,
   "map": "maps/republic-of-liberia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

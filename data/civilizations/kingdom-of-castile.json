@@ -23,7 +23,8 @@
       "location": [
         -3.6997222222222,
         42.340833333333
-      ]
+      ],
+      "founded": 884
     }
   ],
   "parts": [],
@@ -35,8 +36,16 @@
   },
   "rulers": [
     {
-      "id": "Q317905",
-      "name": "Sancho II of Castile and León"
+      "id": "Q235080",
+      "name": "Alfonso VI of León and Castile"
+    },
+    {
+      "id": "Q312767",
+      "name": "Alfonso VII of León and Castile"
+    },
+    {
+      "id": "Q295268",
+      "name": "Alfonso VIII of Castile"
     },
     {
       "id": "Q243122",
@@ -50,6 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-castile.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

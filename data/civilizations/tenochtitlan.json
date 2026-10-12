@@ -25,13 +25,31 @@
     "region": "Mexico",
     "name": "Aztec Triple Alliance"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q257811",
+      "name": "Chimalpopoca"
+    },
+    {
+      "id": "Q13702",
+      "name": "Moctezuma I"
+    },
+    {
+      "id": "Q351751",
+      "name": "Axayacatl"
+    },
+    {
+      "id": "Q351758",
+      "name": "Ahuitzotl"
+    }
+  ],
   "modern_countries": [
     "Mexico"
   ],
   "overseas_countries": [],
   "borders": true,
   "map": "maps/tenochtitlan.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

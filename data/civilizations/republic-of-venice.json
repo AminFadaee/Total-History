@@ -23,23 +23,21 @@
       "location": [
         12.683333333333,
         45.583333333333
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Malamocco",
       "location": [
         12.3383,
         45.3717
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q153136",
-    "region": "Italy",
-    "name": "Habsburg Monarchy"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q336023",
@@ -58,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/republic-of-venice.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -82,7 +81,7 @@
       "Ottoman Empire",
       "Habsburg Monarchy",
       "Kingdom of Spain",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Papal States",
       "Kingdom of France",
       "Principality of Transylvania",

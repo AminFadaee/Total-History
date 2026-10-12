@@ -23,7 +23,8 @@
       "location": [
         112.42447,
         34.65867
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -65,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/cao-wei.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -87,7 +89,7 @@
       "Indo-Sasanian Empire",
       "Goguryeo",
       "Wusun",
-      "Eastern Kushans",
+      "Kushan Empire",
       "Vakataka Kingdom",
       "Western Satraps"
     ]

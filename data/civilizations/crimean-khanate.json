@@ -23,7 +23,8 @@
       "location": [
         33.92446667,
         44.74102778
-      ]
+      ],
+      "founded": 401
     }
   ],
   "parts": [],
@@ -50,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/crimean-khanate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

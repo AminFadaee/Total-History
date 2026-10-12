@@ -23,7 +23,8 @@
       "location": [
         52.53111111111111,
         29.610277777777778
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -53,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/zand-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

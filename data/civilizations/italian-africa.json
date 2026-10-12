@@ -23,7 +23,8 @@
       "location": [
         12.482777777778,
         41.893055555556
-      ]
+      ],
+      "founded": -753
     }
   ],
   "parts": [],
@@ -53,6 +54,7 @@
   ],
   "borders": true,
   "map": "maps/italian-africa.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -71,7 +73,7 @@
     "home": "the spot held longest",
     "labelled": [
       "British Africa",
-      "French Africa",
+      "French colonial empire",
       "Kingdom of Egypt",
       "Belgian Congo",
       "Free French",

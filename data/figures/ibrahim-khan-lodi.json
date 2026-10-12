@@ -12,8 +12,7 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "Delhi Sultanate",
-    "Lodi Dynasty"
+    "Delhi Sultanate"
   ],
   "related": [],
   "contribution": "The last Sultan of the Delhi Sultanate, who became Sultan in 1517 after the death of his father Sikandar Khan.",
@@ -26,15 +25,16 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Delhi Sultanate",
-        "Lodi Dynasty"
+        "Delhi Sultanate"
       ],
       "death": [
         "Timurid Empire"
       ],
       "lead": [
-        "Delhi Sultanate",
-        "Lodi Dynasty"
+        "Delhi Sultanate"
+      ],
+      "birthplace": [
+        "Delhi Sultanate"
       ]
     },
     "lead": "Ibrahim Khan Lodi (Persian: ابراهیم خان لودی; 1480 – 21 April 1526) was the last Sultan of the Delhi Sultanate, who became Sultan in 1517 after the death of his father Sikandar Khan. He was the last ruler of the Lodi dynasty, reigning for nine years until 1526, when he was defeated and killed at the Battle of Panipat by Babur's invading army, giving way to the emergence of the Mughal Empire in India.",

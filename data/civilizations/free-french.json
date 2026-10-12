@@ -23,21 +23,24 @@
       "location": [
         -0.1275,
         51.507222222222
-      ]
+      ],
+      "founded": 47
     },
     {
       "name": "Brazzaville",
       "location": [
         15.27111111111111,
         -4.269444444444445
-      ]
+      ],
+      "founded": 1880
     },
     {
       "name": "Algiers",
       "location": [
         3.0586111111111,
         36.776388888889
-      ]
+      ],
+      "founded": 944
     }
   ],
   "parts": [],
@@ -61,6 +64,7 @@
   ],
   "borders": true,
   "map": "maps/free-french.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -84,7 +88,7 @@
     "identity": "Wikipedia article with a country infobox",
     "home": "Brazzaville",
     "labelled": [
-      "French Africa",
+      "French colonial empire",
       "British Africa",
       "Belgian Congo",
       "British Gold Coast",

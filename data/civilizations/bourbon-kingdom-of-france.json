@@ -23,7 +23,8 @@
       "location": [
         2.352222222222222,
         48.85666666666667
-      ]
+      ],
+      "founded": -300
     }
   ],
   "parts": [],
@@ -49,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/bourbon-kingdom-of-france.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

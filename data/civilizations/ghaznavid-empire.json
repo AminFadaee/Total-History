@@ -23,7 +23,8 @@
       "location": [
         68.423333333333,
         33.549166666667
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -39,12 +40,20 @@
   },
   "rulers": [
     {
-      "id": "Q140973",
-      "name": "Khusrau Malik"
+      "id": "Q32617",
+      "name": "Ismail of Ghazni"
     },
     {
-      "id": "Q32853",
-      "name": "Sabuktigin"
+      "id": "Q189271",
+      "name": "Mahmud of Ghazni"
+    },
+    {
+      "id": "Q936594",
+      "name": "Masʽud I"
+    },
+    {
+      "id": "Q32627",
+      "name": "Muhammad of Ghazni"
     }
   ],
   "modern_countries": [
@@ -56,6 +65,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ghaznavid-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -74,7 +84,7 @@
     "identity": "Wikipedia item with overlapping dates",
     "home": "Ghazni",
     "labelled": [
-      "Kara-Khanids",
+      "Kara-Khanid Khanate",
       "Buyid Dynasty",
       "Oghuz Turks",
       "Seljuk Dynasty",

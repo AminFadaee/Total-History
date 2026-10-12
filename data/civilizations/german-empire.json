@@ -23,7 +23,8 @@
       "location": [
         13.383333333333,
         52.516666666667
-      ]
+      ],
+      "founded": 1244
     }
   ],
   "parts": [],
@@ -39,12 +40,12 @@
       "name": "Wilhelm I"
     },
     {
-      "id": "Q58600",
-      "name": "Frederick III, German Emperor"
-    },
-    {
       "id": "Q2677",
       "name": "Wilhelm II"
+    },
+    {
+      "id": "Q58600",
+      "name": "Frederick III, German Emperor"
     }
   ],
   "modern_countries": [
@@ -61,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/german-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

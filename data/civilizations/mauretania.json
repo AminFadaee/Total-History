@@ -23,14 +23,16 @@
       "location": [
         -5.5536111111111,
         34.071111111111
-      ]
+      ],
+      "founded": -400
     },
     {
       "name": "Cherchell",
       "location": [
         2.19,
         36.6075
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -69,6 +71,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mauretania.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

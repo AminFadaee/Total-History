@@ -23,7 +23,8 @@
       "location": [
         103.966667,
         13.333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -72,6 +73,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/khmer-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

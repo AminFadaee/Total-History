@@ -23,7 +23,8 @@
       "location": [
         64.428611111111,
         39.774722222222
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -65,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/khanate-of-bukhara.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -12,8 +12,7 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "Delhi Sultanate",
-    "Mamluk Dynasty"
+    "Delhi Sultanate"
   ],
   "related": [],
   "contribution": "The ninth Mamluk sultan of Delhi.",
@@ -26,14 +25,12 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Delhi Sultanate",
-        "Mamluk Dynasty"
+        "Delhi Sultanate"
       ],
       "death": [
-        "Mamluk Dynasty"
+        "Delhi Sultanate"
       ],
       "lead": [
-        "Mamluk Dynasty",
         "Delhi Sultanate"
       ]
     },

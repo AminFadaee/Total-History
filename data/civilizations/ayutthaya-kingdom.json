@@ -23,15 +23,12 @@
       "location": [
         100.5575086,
         14.351626
-      ]
+      ],
+      "founded": 1350
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1332305",
-    "region": "Thailand",
-    "name": "Lavo Kingdom"
-  },
+  "before": {},
   "after": {
     "id": "Q1115291",
     "region": "Thailand",
@@ -54,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ayutthaya-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -74,7 +72,8 @@
     "home": "Phra Nakhon Si Ayutthaya",
     "labelled": [
       "Lan Xang",
-      "Lan Na",
+      "Toungoo dynasty",
+      "Lanna Kingdom",
       "Trịnh lords",
       "Nguyễn lords",
       "Sultanate of Aceh"

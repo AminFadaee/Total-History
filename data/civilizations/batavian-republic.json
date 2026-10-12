@@ -23,7 +23,8 @@
       "location": [
         4.31,
         52.08
-      ]
+      ],
+      "founded": 1102
     }
   ],
   "parts": [],
@@ -51,6 +52,7 @@
   ],
   "borders": true,
   "map": "maps/batavian-republic.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -68,9 +70,9 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "The Hague",
     "labelled": [
-      "French Directory",
-      "Kingdom of Prussia",
-      "Holy Roman Empire Minor States",
+      "French First Republic",
+      "Prussia",
+      "Holy Roman Empire",
       "Kingdom of Great Britain",
       "Electorate of Saxony",
       "Electorate of Hanover",

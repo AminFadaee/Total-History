@@ -23,14 +23,16 @@
       "location": [
         40.448888888889,
         56.421111111111
-      ]
+      ],
+      "founded": 1024
     },
     {
       "name": "Vladimir",
       "location": [
         40.405833333333334,
         56.12861111111111
-      ]
+      ],
+      "founded": 990
     }
   ],
   "parts": [],
@@ -56,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/principality-of-rostov-suzdal.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -84,7 +87,7 @@
       "Livonian Brothers of the Sword",
       "Grand Duchy of Lithuania",
       "Volga Bulgaria",
-      "Principality of Turov and Pinsk",
+      "Principality of Turov",
       "Principality of Polotsky"
     ]
   }

@@ -19,14 +19,16 @@
       "location": [
         3.9360555555556,
         7.8436111111111
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Igboho",
       "location": [
         3.75,
         8.83333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -51,6 +53,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/oyo-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

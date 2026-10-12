@@ -15,7 +15,8 @@
       "location": [
         -9.139016,
         38.708042
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -25,7 +26,24 @@
     "name": "Kingdom of Portugal"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q286764",
+      "name": "Manuel de Arriaga"
+    },
+    {
+      "id": "Q345926",
+      "name": "Teófilo Braga"
+    },
+    {
+      "id": "Q455317",
+      "name": "Bernardino Machado"
+    },
+    {
+      "id": "Q356691",
+      "name": "Sidónio Pais"
+    }
+  ],
   "modern_countries": [
     "Portugal"
   ],
@@ -40,6 +58,7 @@
   ],
   "borders": true,
   "map": "maps/portuguese-republic.png",
+  "map_asked": false,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -56,6 +75,7 @@
     ],
     "identity": "Wikipedia item with overlapping dates",
     "home": "Lisbon",
+    "map_like": "Kingdom of Portugal",
     "labelled": [
       "Kingdom of Spain"
     ]

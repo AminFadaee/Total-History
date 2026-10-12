@@ -15,7 +15,8 @@
       "location": [
         48.25611111111111,
         32.18944444444445
-      ]
+      ],
+      "founded": -4395
     }
   ],
   "parts": [],
@@ -29,6 +30,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/elam.png",
+  "map_asked": true,
   "checks": {
     "infobox": false,
     "capital_sources": {

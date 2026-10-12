@@ -23,7 +23,8 @@
       "location": [
         33.6,
         13.55
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -35,8 +36,16 @@
       "name": "Amara Dunqas"
     },
     {
-      "id": "Q4840914",
-      "name": "Badi VII"
+      "id": "Q4683264",
+      "name": "Adlan I"
+    },
+    {
+      "id": "Q3632772",
+      "name": "Badi II"
+    },
+    {
+      "id": "Q4683265",
+      "name": "Adlan II"
     }
   ],
   "modern_countries": [
@@ -45,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/funj-sultanate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,7 +23,8 @@
       "location": [
         35.234156,
         31.776679
-      ]
+      ],
+      "founded": -4000
     }
   ],
   "parts": [],
@@ -39,12 +40,20 @@
   },
   "rulers": [
     {
-      "id": "Q76721",
-      "name": "Godfrey of Bouillon"
+      "id": "Q51717",
+      "name": "Baldwin I of Jerusalem"
     },
     {
-      "id": "Q546497",
-      "name": "Henry II of Cyprus"
+      "id": "Q169329",
+      "name": "Conrad of Montferrat"
+    },
+    {
+      "id": "Q130221",
+      "name": "Frederick II, Holy Roman Emperor"
+    },
+    {
+      "id": "Q158246",
+      "name": "Conradin"
     }
   ],
   "modern_countries": [
@@ -57,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-jerusalem.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

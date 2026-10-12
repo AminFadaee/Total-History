@@ -23,7 +23,8 @@
       "location": [
         61.86,
         30.96
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -53,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/saffarid-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -79,7 +81,7 @@
       "Qocho Kingdom",
       "Kingdom of Khotan",
       "Oghuz Turks",
-      "Kara-Khanids",
+      "Kara-Khanid Khanate",
       "Pala Empire",
       "Bagratid Armenia",
       "Georgia",

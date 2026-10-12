@@ -23,7 +23,8 @@
       "location": [
         13.361261944444445,
         38.115658055555556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -37,6 +38,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/emirate-of-sicily.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

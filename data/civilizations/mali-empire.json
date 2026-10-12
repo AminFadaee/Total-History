@@ -23,7 +23,8 @@
       "location": [
         -8.4166666666667,
         11.933333333333
-      ]
+      ],
+      "founded": 1050
     }
   ],
   "parts": [],
@@ -54,6 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mali-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

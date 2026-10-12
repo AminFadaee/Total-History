@@ -23,7 +23,8 @@
       "location": [
         11.254166666667,
         43.771388888889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -49,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/republic-of-florence.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -68,7 +70,7 @@
     "labelled": [
       "Kingdom of Spain",
       "Papal States",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "House of Bourbon",
       "Republic of Venice",
       "Republic of Genoa"

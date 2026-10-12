@@ -1,0 +1,43 @@
+{
+  "id": "Q150412",
+  "slug": "burgundians",
+  "name": "Burgundians",
+  "wikipedia": "Burgundians",
+  "map_year": 407,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Germany"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/burgundians.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      154,
+      409
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Western Roman Empire",
+      "Vandals",
+      "Ripuarian Franks",
+      "Salian Franks"
+    ]
+  }
+}

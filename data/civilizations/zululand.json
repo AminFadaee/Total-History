@@ -23,7 +23,8 @@
       "location": [
         31.267583333333,
         -28.435888888889
-      ]
+      ],
+      "founded": 1873
     }
   ],
   "parts": [],
@@ -57,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/zululand.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

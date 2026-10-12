@@ -14,7 +14,9 @@
   "civilizations": [
     "Western Roman Empire"
   ],
-  "related": [],
+  "related": [
+    "Hunnic Empire"
+  ],
   "contribution": "A consecrated virgin, and is one of the  patron saints of Paris in the Catholic Church, and she is also venerated in the Eastern Orthodox Church.",
   "setting": "",
   "image": "images/genevieve.jpg",
@@ -24,6 +26,9 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
+      "lead": [
+        "Hunnic Empire"
+      ],
       "citizenship": [
         "Western Roman Empire"
       ],

@@ -27,6 +27,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/seljuk-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": false,
     "capital_sources": {
@@ -41,7 +42,7 @@
     "home": "the spot held longest",
     "labelled": [
       "Ghaznavid Empire",
-      "Kara-Khanids",
+      "Kara-Khanid Khanate",
       "Kimek-Kipchak confederation",
       "Oghuz Turks",
       "Buyid Dynasty",

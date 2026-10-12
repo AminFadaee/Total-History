@@ -23,7 +23,8 @@
       "location": [
         17.051058436611,
         48.816445716431
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -65,6 +66,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/great-moravia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

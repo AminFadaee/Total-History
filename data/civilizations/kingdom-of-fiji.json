@@ -23,7 +23,8 @@
       "location": [
         178.84012777778,
         -17.684013888889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -41,6 +42,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-fiji.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

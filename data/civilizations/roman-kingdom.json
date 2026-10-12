@@ -23,7 +23,8 @@
       "location": [
         12.482777777778,
         41.893055555556
-      ]
+      ],
+      "founded": -753
     }
   ],
   "parts": [],
@@ -35,24 +36,12 @@
   },
   "rulers": [
     {
-      "id": "Q2186",
-      "name": "Romulus"
-    },
-    {
       "id": "Q200031",
       "name": "Numa Pompilius"
     },
     {
       "id": "Q200859",
       "name": "Tullus Hostilius"
-    },
-    {
-      "id": "Q206741",
-      "name": "Ancus Marcius"
-    },
-    {
-      "id": "Q212671",
-      "name": "Lucius Tarquinius Priscus"
     },
     {
       "id": "Q192998",
@@ -70,6 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/roman-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

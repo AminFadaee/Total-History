@@ -1,0 +1,38 @@
+{
+  "id": "Q478805",
+  "slug": "puebloans-chaco-regional-system",
+  "name": "Puebloans - Chaco Regional System",
+  "wikipedia": "Ancestral Puebloans",
+  "map_year": 1147,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "United States"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/puebloans-chaco-regional-system.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      850,
+      1151
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

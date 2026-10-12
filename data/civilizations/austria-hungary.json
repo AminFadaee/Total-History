@@ -23,14 +23,16 @@
       "location": [
         16.3725,
         48.208333333333336
-      ]
+      ],
+      "founded": -100
     },
     {
       "name": "Budapest",
       "location": [
         19.040833333333,
         47.498333333333
-      ]
+      ],
+      "founded": 1873
     }
   ],
   "parts": [],
@@ -69,6 +71,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/austria-hungary.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

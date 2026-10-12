@@ -23,7 +23,8 @@
       "location": [
         139.77444444444444,
         35.68388888888889
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -50,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/tokugawa-shogunate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

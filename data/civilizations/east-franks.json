@@ -1,0 +1,108 @@
+{
+  "id": "Q153080",
+  "slug": "east-franks",
+  "name": "East Franks",
+  "wikipedia": "East Francia",
+  "map_year": 896,
+  "period": {
+    "start": {
+      "earliest": 843,
+      "latest": 843,
+      "circa": false
+    },
+    "end": {
+      "earliest": 962,
+      "latest": 962,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Frankfurt",
+      "location": [
+        8.682222222222222,
+        50.11055555555556
+      ],
+      "founded": 1
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q146246",
+    "region": "Germany",
+    "name": "Francia"
+  },
+  "after": {
+    "id": "Q175211",
+    "region": "Germany",
+    "name": "Kingdom of Germany"
+  },
+  "rulers": [
+    {
+      "id": "Q150712",
+      "name": "Charles the Fat"
+    },
+    {
+      "id": "Q154936",
+      "name": "Arnulf of Carinthia"
+    },
+    {
+      "id": "Q150620",
+      "name": "Henry the Fowler"
+    },
+    {
+      "id": "Q43915",
+      "name": "Otto the Great"
+    }
+  ],
+  "modern_countries": [
+    "Germany",
+    "Italy",
+    "Austria",
+    "France",
+    "Hungary",
+    "Netherlands",
+    "Croatia",
+    "Belgium",
+    "Switzerland",
+    "Slovenia",
+    "Luxembourg",
+    "Liechtenstein",
+    "San Marino"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/east-franks.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Frankfurt"
+      ],
+      "infobox": [
+        "Frankfurt",
+        "Regensburg"
+      ]
+    },
+    "cliopatria_years": [
+      850,
+      910
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Frankfurt",
+    "labelled": [
+      "First Bulgarian Empire",
+      "West Franks",
+      "Scandinavian minor kingdoms",
+      "Great Moravia",
+      "Kievan Rus'",
+      "Byzantine Empire",
+      "Magyars",
+      "Emirate of Córdoba",
+      "Kingdom of Asturias",
+      "Kingdom of Wessex"
+    ]
+  }
+}

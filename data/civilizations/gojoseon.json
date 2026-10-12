@@ -16,7 +16,8 @@
   "capitals": [
     {
       "name": "Wanggeom-seong",
-      "location": null
+      "location": null,
+      "founded": null
     }
   ],
   "parts": [],
@@ -43,6 +44,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/gojoseon.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

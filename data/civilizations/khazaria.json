@@ -20,7 +20,8 @@
   "capitals": [
     {
       "name": "Balanjar",
-      "location": null
+      "location": null,
+      "founded": null
     }
   ],
   "parts": [],
@@ -52,6 +53,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/khazaria.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

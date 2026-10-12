@@ -23,14 +23,16 @@
       "location": [
         31.9,
         26.333333333333
-      ]
+      ],
+      "founded": -4000
     },
     {
       "name": "Memphis",
       "location": [
         31.250917,
         29.844667
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -52,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/early-dynastic-period-of-egypt.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -20,7 +20,8 @@
   "capitals": [
     {
       "name": "Akkad",
-      "location": null
+      "location": null,
+      "founded": null
     }
   ],
   "parts": [],
@@ -41,6 +42,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/akkadian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

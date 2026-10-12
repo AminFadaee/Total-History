@@ -23,15 +23,12 @@
       "location": [
         35.234156,
         31.776679
-      ]
+      ],
+      "founded": -4000
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q3185305",
-    "region": "Palestine",
-    "name": "Kingdom of Israel"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -39,8 +36,16 @@
       "name": "Rehoboam"
     },
     {
-      "id": "Q184273",
-      "name": "Zedekiah"
+      "id": "Q313415",
+      "name": "Asa of Judah"
+    },
+    {
+      "id": "Q244912",
+      "name": "Hezekiah"
+    },
+    {
+      "id": "Q313228",
+      "name": "Josiah"
     }
   ],
   "modern_countries": [
@@ -51,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-judah.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

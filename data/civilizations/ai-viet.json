@@ -19,28 +19,32 @@
       "location": [
         105.95416667,
         20.25527778
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Hanoi",
       "location": [
         105.84117,
         21.0245
-      ]
+      ],
+      "founded": 1010
     },
     {
       "name": "Citadel of the Hồ Dynasty",
       "location": [
         105.60472222222,
         20.078055555556
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Phú Xuân",
       "location": [
         107.58333333333333,
         16.466666666666665
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -58,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/ai-viet.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -84,8 +89,8 @@
       "Ayutthaya Kingdom",
       "Kingdom of Mrauk U",
       "Hanthawaddy Kingdom",
-      "First Toungoo Empire",
-      "Lan Na Kingdom",
+      "Toungoo dynasty",
+      "Lanna Kingdom",
       "Prome Kingdom"
     ]
   }

@@ -23,7 +23,8 @@
       "location": [
         -3.4616666666667,
         56.071388888889
-      ]
+      ],
+      "founded": 502
     }
   ],
   "parts": [],
@@ -31,8 +32,16 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q298263",
-      "name": "Kenneth MacAlpin"
+      "id": "Q131412",
+      "name": "Mary, Queen of Scots"
+    },
+    {
+      "id": "Q79972",
+      "name": "James VI and I"
+    },
+    {
+      "id": "Q81506",
+      "name": "Charles I of England"
     },
     {
       "id": "Q119702",
@@ -45,6 +54,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-scotland.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

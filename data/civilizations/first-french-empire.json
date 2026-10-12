@@ -23,14 +23,15 @@
       "location": [
         2.352222222222222,
         48.85666666666667
-      ]
+      ],
+      "founded": -300
     }
   ],
   "parts": [],
   "before": {
-    "id": "Q877619",
+    "id": "Q58296",
     "region": "France",
-    "name": "French Consulate"
+    "name": "French First Republic"
   },
   "after": {
     "id": "Q207162",
@@ -62,6 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/first-french-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

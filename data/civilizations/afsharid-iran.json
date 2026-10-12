@@ -23,14 +23,15 @@
       "location": [
         59.60592305555556,
         36.297494444444446
-      ]
+      ],
+      "founded": 818
     }
   ],
   "parts": [],
   "before": {
-    "id": "Q627449",
+    "id": "Q18234383",
     "region": "Iran",
-    "name": "Hotaki Dynasty"
+    "name": "Safavid Dynasty"
   },
   "after": {
     "id": "Q467627",
@@ -68,6 +69,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/afsharid-iran.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

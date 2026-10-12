@@ -23,7 +23,8 @@
       "location": [
         85.144,
         25.611
-      ]
+      ],
+      "founded": -490
     }
   ],
   "parts": [],
@@ -32,11 +33,7 @@
     "region": "India",
     "name": "Maurya Empire"
   },
-  "after": {
-    "id": "Q784974",
-    "region": "India",
-    "name": "Kanva Dynasty"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q119973",
@@ -51,8 +48,8 @@
       "name": "Vasumitra"
     },
     {
-      "id": "Q3878846",
-      "name": "Devabhuti"
+      "id": "Q854679",
+      "name": "Bhagabhadra"
     }
   ],
   "modern_countries": [
@@ -63,6 +60,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/shunga-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

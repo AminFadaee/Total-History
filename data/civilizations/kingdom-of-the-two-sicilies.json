@@ -23,21 +23,23 @@
       "location": [
         13.361261944444445,
         38.115658055555556
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Naples",
       "location": [
         14.248611111111112,
         40.83583333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {
-    "id": "Q48779892",
+    "id": "Q173065",
     "region": "Italy",
-    "name": "Kingdom of Naples (Napoleonic)"
+    "name": "Kingdom of Naples"
   },
   "after": {
     "id": "Q172579",
@@ -68,6 +70,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-the-two-sicilies.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

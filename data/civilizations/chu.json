@@ -23,22 +23,20 @@
       "location": [
         119.6012702,
         32.0109736
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Ying",
       "location": [
         112.173333,
         30.422778
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1069690",
-    "region": "China",
-    "name": "Chen"
-  },
+  "before": {},
   "after": {
     "id": "Q34756",
     "region": "China",
@@ -51,6 +49,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/chu.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

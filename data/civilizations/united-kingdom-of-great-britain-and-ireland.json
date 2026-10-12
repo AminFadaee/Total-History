@@ -23,7 +23,8 @@
       "location": [
         -0.1275,
         51.507222222222
-      ]
+      ],
+      "founded": 47
     }
   ],
   "parts": [],
@@ -43,6 +44,14 @@
       "name": "George III"
     },
     {
+      "id": "Q9439",
+      "name": "Queen Victoria"
+    },
+    {
+      "id": "Q20875",
+      "name": "Edward VII"
+    },
+    {
       "id": "Q269412",
       "name": "George V"
     }
@@ -60,6 +69,7 @@
   ],
   "borders": true,
   "map": "maps/united-kingdom-of-great-britain-and-ireland.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

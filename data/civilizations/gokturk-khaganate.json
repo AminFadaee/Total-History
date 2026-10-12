@@ -23,7 +23,8 @@
       "location": [
         75.2667,
         42.8
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -51,6 +52,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/gokturk-khaganate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -74,7 +76,7 @@
       "Avar Khaganate",
       "Tuyuhun",
       "Yenisei Kyrgyz",
-      "Eastern Roman Empire",
+      "Byzantine Empire",
       "Chen Dynasty",
       "Maukhari Dynasty",
       "Goguryeo",

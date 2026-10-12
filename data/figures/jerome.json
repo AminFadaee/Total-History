@@ -13,7 +13,7 @@
   "birth_country": "Serbia",
   "civilizations": [
     "Roman Empire",
-    "Eastern Roman Empire"
+    "Byzantine Empire"
   ],
   "related": [],
   "contribution": "An early Christian priest, confessor, theologian, translator, and historian; he is commonly known as Saint Jerome.",
@@ -26,10 +26,10 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Eastern Roman Empire"
+        "Byzantine Empire"
       ],
       "citizenship": [
-        "Eastern Roman Empire",
+        "Byzantine Empire",
         "Roman Empire"
       ],
       "birthplace": [

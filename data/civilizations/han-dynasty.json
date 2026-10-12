@@ -23,28 +23,31 @@
       "location": [
         108.85833333333333,
         34.30833333333333
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Luoyang",
       "location": [
         112.42447,
         34.65867
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Xuchang",
       "location": [
         113.82014,
         34.02444
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {
     "id": "Q7183",
     "region": "China",
-    "name": "Qin Dynasty"
+    "name": "Qin dynasty"
   },
   "after": {
     "id": "Q320930",
@@ -79,6 +82,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/han-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -103,7 +107,7 @@
       "Kushan Empire",
       "Xiongnu",
       "Xianbei",
-      "Southern Xiongnu",
+      "Xiongnu",
       "Goguryeo",
       "Parthian Empire",
       "Satavahana Dynasty",

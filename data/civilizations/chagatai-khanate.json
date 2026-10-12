@@ -15,14 +15,16 @@
       "location": [
         80.53305556,
         44.24
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Qarshi",
       "location": [
         65.8,
         38.866666666667
-      ]
+      ],
+      "founded": 1926
     }
   ],
   "parts": [],
@@ -49,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/chagatai-khanate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -71,7 +74,7 @@
       "Yuan Dynasty",
       "Ilkhanate",
       "Golden Horde",
-      "Khalji Dynasty",
+      "Delhi Sultanate",
       "Kashmir"
     ]
   }

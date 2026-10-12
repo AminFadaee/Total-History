@@ -19,13 +19,31 @@
       "location": [
         4.883333333333333,
         52.36666666666667
-      ]
+      ],
+      "founded": 1300
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q2079957",
+      "name": "William I of the Netherlands"
+    },
+    {
+      "id": "Q154287",
+      "name": "William II of the Netherlands"
+    },
+    {
+      "id": "Q125649",
+      "name": "William III of the Netherlands"
+    },
+    {
+      "id": "Q150747",
+      "name": "Wilhelmina of the Netherlands"
+    }
+  ],
   "modern_countries": [
     "Netherlands",
     "Belgium",
@@ -34,6 +52,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/netherlands.png",
+  "map_asked": true,
   "checks": {
     "infobox": false,
     "capital_sources": {

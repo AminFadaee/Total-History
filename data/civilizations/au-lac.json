@@ -23,7 +23,8 @@
       "location": [
         105.873206,
         21.113408
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -46,6 +47,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/au-lac.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

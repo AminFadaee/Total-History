@@ -23,13 +23,27 @@
       "location": [
         3.2241666666666666,
         51.208888888888886
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q469598",
+      "name": "Baldwin V of Hainaut"
+    },
+    {
+      "id": "Q298896",
+      "name": "Baldwin I, Latin Emperor"
+    },
+    {
+      "id": "Q466311",
+      "name": "Joan, Countess of Flanders"
+    }
+  ],
   "modern_countries": [
     "France",
     "Belgium"
@@ -37,6 +51,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/county-of-flanders.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

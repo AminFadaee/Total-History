@@ -23,14 +23,16 @@
       "location": [
         19.937222222222,
         50.061388888889
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Warsaw",
       "location": [
         21.011111111111113,
         52.23
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [
@@ -40,12 +42,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q54058",
-      "name": "Sigismund II Augustus"
+      "id": "Q53448",
+      "name": "Henry III of France"
     },
     {
-      "id": "Q54019",
-      "name": "Stanisław August Poniatowski"
+      "id": "Q52940",
+      "name": "Sigismund III Vasa"
+    },
+    {
+      "id": "Q53454",
+      "name": "John III Sobieski"
+    },
+    {
+      "id": "Q53437",
+      "name": "Augustus II the Strong"
     }
   ],
   "modern_countries": [
@@ -60,6 +70,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/polish-lithuanian-commonwealth.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -83,7 +94,7 @@
       "Tsardom of Russia",
       "Swedish Empire",
       "Habsburg Monarchy",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Principality of Transylvania",
       "Kingdom of France",
       "Kingdom of England",

@@ -23,7 +23,8 @@
       "location": [
         2.352222222222222,
         48.85666666666667
-      ]
+      ],
+      "founded": -300
     }
   ],
   "parts": [],
@@ -57,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/french-second-republic.png",
+  "map_asked": false,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -73,6 +75,7 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Paris",
+    "map_like": "Second French Empire",
     "labelled": [
       "Kingdom of Spain",
       "German Confederation",

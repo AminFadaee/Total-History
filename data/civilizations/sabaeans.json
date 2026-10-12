@@ -23,14 +23,16 @@
       "location": [
         45.32581,
         15.46253
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Sanaa",
       "location": [
         44.2,
         15.35
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -53,6 +55,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/sabaeans.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

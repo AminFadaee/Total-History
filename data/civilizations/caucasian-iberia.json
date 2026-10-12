@@ -23,7 +23,8 @@
       "location": [
         44.72166,
         41.83763
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -33,7 +34,24 @@
     "region": "Georgia",
     "name": "Sasanian Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q372698",
+      "name": "Pharnavaz I"
+    },
+    {
+      "id": "Q1854466",
+      "name": "Sauromaces I"
+    },
+    {
+      "id": "Q1262514",
+      "name": "Artaxias I of Iberia"
+    },
+    {
+      "id": "Q2553009",
+      "name": "Pharasmanes I"
+    }
+  ],
   "modern_countries": [
     "Georgia",
     "Russia"
@@ -41,6 +59,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/caucasian-iberia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

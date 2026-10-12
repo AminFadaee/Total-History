@@ -23,7 +23,8 @@
       "location": [
         -0.05,
         16.266666666667
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -80,6 +81,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/songhai-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

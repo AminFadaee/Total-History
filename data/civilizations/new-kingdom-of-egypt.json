@@ -23,28 +23,32 @@
       "location": [
         32.610277777777775,
         25.720555555555556
-      ]
+      ],
+      "founded": -3200
     },
     {
       "name": "Amarna",
       "location": [
         30.905555555556,
         27.661666666667
-      ]
+      ],
+      "founded": -1353
     },
     {
       "name": "Pi-Ramesses",
       "location": [
         31.834217,
         30.79937
-      ]
+      ],
+      "founded": -1278
     },
     {
       "name": "Memphis",
       "location": [
         31.250917,
         29.844667
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -66,6 +70,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/new-kingdom-of-egypt.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

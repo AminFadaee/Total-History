@@ -1,0 +1,70 @@
+{
+  "id": "Q1191125",
+  "slug": "moghulistan",
+  "name": "Moghulistan",
+  "wikipedia": "Moghulistan",
+  "map_year": 1492,
+  "period": {
+    "start": {
+      "earliest": 1347,
+      "latest": 1347,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Almaliq",
+      "location": [
+        80.53305556,
+        44.24
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q487829",
+    "region": "China",
+    "name": "Chagatai Khanate"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "China",
+    "Kazakhstan",
+    "Kyrgyzstan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/moghulistan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Aksu City",
+        "Almaliq, Xinjiang",
+        "Kashgar",
+        "Turpan"
+      ],
+      "infobox": [
+        "Almaliq, Xinjiang"
+      ]
+    },
+    "cliopatria_years": [
+      1463,
+      1518
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Almaliq",
+    "labelled": [
+      "Mongol Khanate",
+      "Kazakh Khanate",
+      "Timurid Empire",
+      "Kashmiri Sultanate",
+      "Kapisa"
+    ]
+  }
+}

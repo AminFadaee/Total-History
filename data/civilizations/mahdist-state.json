@@ -23,15 +23,12 @@
       "location": [
         32.462887,
         15.683517
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q127861",
-    "region": "Sudan",
-    "name": "Khedivate of Egypt"
-  },
+  "before": {},
   "after": {},
   "rulers": [],
   "modern_countries": [
@@ -41,6 +38,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mahdist-state.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -64,7 +62,7 @@
       "Wadai Empire",
       "Sokoto Caliphate",
       "Emirate of Jabal Shammar",
-      "Bornu Empire",
+      "Kanem–Bornu Empire",
       "Emirate of Nejd",
       "Sultanate of Hobyo",
       "Trucial States"

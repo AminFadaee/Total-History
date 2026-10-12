@@ -23,14 +23,16 @@
       "location": [
         114.88418,
         30.39724
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Nanjing",
       "location": [
         118.79647,
         32.05837
-      ]
+      ],
+      "founded": -495
     }
   ],
   "parts": [],
@@ -69,6 +71,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/eastern-wu.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

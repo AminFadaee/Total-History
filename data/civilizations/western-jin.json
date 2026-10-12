@@ -23,7 +23,8 @@
       "location": [
         112.42447,
         34.65867
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -57,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/western-jin.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -81,7 +83,7 @@
       "Sasanian Empire",
       "Western Satraps",
       "Vakataka Kingdom",
-      "Eastern Kushans",
+      "Kushan Empire",
       "Funan"
     ]
   }

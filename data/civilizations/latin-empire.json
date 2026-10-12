@@ -23,19 +23,20 @@
       "location": [
         28.976018,
         41.01224
-      ]
+      ],
+      "founded": 330
     }
   ],
   "parts": [],
   "before": {
     "id": "Q12544",
     "region": "Turkey",
-    "name": "Eastern Roman Empire"
+    "name": "Byzantine Empire"
   },
   "after": {
     "id": "Q12544",
     "region": "Turkey",
-    "name": "Eastern Roman Empire"
+    "name": "Byzantine Empire"
   },
   "rulers": [
     {
@@ -71,6 +72,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/latin-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

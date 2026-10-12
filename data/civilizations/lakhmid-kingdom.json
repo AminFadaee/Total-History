@@ -1,0 +1,63 @@
+{
+  "id": "Q943191",
+  "slug": "lakhmid-kingdom",
+  "name": "Lakhmid Kingdom",
+  "wikipedia": "Lakhmid kingdom",
+  "map_year": 490,
+  "period": {
+    "start": {
+      "earliest": 293,
+      "latest": 293,
+      "circa": true
+    },
+    "end": {
+      "earliest": 602,
+      "latest": 602,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Al-Hira",
+      "location": [
+        44.39,
+        31.98
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Saudi Arabia",
+    "Iraq",
+    "Kuwait"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/lakhmid-kingdom.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Al-Hira"
+      ],
+      "infobox": [
+        "Al-Hira"
+      ]
+    },
+    "cliopatria_years": [
+      270,
+      633
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "Al-Hira",
+    "labelled": [
+      "Sasanian Empire"
+    ]
+  }
+}

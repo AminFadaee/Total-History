@@ -23,21 +23,24 @@
       "location": [
         44.580833,
         33.093611
-      ]
+      ],
+      "founded": -129
     },
     {
       "name": "Qumis",
       "location": [
         54.103672,
         35.953053
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Nisa",
       "location": [
         58.212408333333,
         37.951147222222
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -75,6 +78,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/parthian-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

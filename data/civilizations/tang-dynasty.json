@@ -23,7 +23,8 @@
       "location": [
         108.85833333333333,
         34.30833333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -32,11 +33,7 @@
     "region": "China",
     "name": "Sui Dynasty"
   },
-  "after": {
-    "id": "Q571453",
-    "region": "China",
-    "name": "Former Shu"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q9701",
@@ -67,6 +64,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/tang-dynasty.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

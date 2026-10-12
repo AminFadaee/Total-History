@@ -23,7 +23,8 @@
       "location": [
         73.445463,
         18.235352
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -49,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/maratha-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -23,7 +23,8 @@
       "location": [
         37.6175,
         55.75055555555556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -35,12 +36,20 @@
   },
   "rulers": [
     {
-      "id": "Q295186",
-      "name": "Daniel of Moscow"
+      "id": "Q185316",
+      "name": "Ivan I of Moscow"
     },
     {
-      "id": "Q7996",
-      "name": "Ivan the Terrible"
+      "id": "Q188995",
+      "name": "Dmitry Donskoy"
+    },
+    {
+      "id": "Q171185",
+      "name": "Ivan III of Russia"
+    },
+    {
+      "id": "Q49686",
+      "name": "Vasili III of Russia"
     }
   ],
   "modern_countries": [
@@ -49,6 +58,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/grand-principality-of-moscow.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -74,7 +84,7 @@
       "Denmark-Norway",
       "Kingdom of France",
       "Nogai Horde",
-      "Holy Roman Empire Minor States",
+      "Holy Roman Empire",
       "Astrakhan Khanate",
       "Kingdom of England",
       "Crimean Khanate",

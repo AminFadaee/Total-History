@@ -1,0 +1,111 @@
+{
+  "id": "Q875305",
+  "slug": "northern-wei",
+  "name": "Northern Wei",
+  "wikipedia": "Northern Wei",
+  "map_year": 397,
+  "period": {
+    "start": {
+      "earliest": 386,
+      "latest": 386,
+      "circa": false
+    },
+    "end": {
+      "earliest": 535,
+      "latest": 535,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Datong",
+      "location": [
+        113.29138888889,
+        40.093611111111
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q1149178",
+      "name": "Emperor Daowu of Northern Wei"
+    },
+    {
+      "id": "Q1071591",
+      "name": "Emperor Mingyuan of Northern Wei"
+    },
+    {
+      "id": "Q1194963",
+      "name": "Emperor Taiwu of Northern Wei"
+    },
+    {
+      "id": "Q1074798",
+      "name": "Emperor Wencheng of Northern Wei"
+    },
+    {
+      "id": "Q1071582",
+      "name": "Emperor Xianwen of Northern Wei"
+    },
+    {
+      "id": "Q1327614",
+      "name": "Emperor Xiaowen of Northern Wei"
+    },
+    {
+      "id": "Q1194968",
+      "name": "Emperor Xuanwu of Northern Wei"
+    },
+    {
+      "id": "Q1074789",
+      "name": "Emperor Xiaozhuang of Northern Wei"
+    },
+    {
+      "id": "Q1071537",
+      "name": "Emperor Xiaowu of Northern Wei"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/northern-wei.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pingcheng District"
+      ],
+      "infobox": [
+        "Shengle",
+        "Dai",
+        "Hohhot",
+        "Datong",
+        "Luoyang",
+        "Chang'an"
+      ]
+    },
+    "cliopatria_years": [
+      387,
+      533
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Datong",
+    "labelled": [
+      "Later Yan",
+      "Later Qin",
+      "Goguryeo",
+      "Tuyuhun",
+      "Western Qin",
+      "Later Liang",
+      "Northern Liang",
+      "Baekje",
+      "Byeonhan"
+    ]
+  }
+}

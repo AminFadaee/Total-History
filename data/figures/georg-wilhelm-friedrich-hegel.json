@@ -12,11 +12,12 @@
   "occupation": "Philosopher",
   "birth_country": "Germany",
   "civilizations": [
-    "Kingdom of Württemberg"
+    "Kingdom of Württemberg",
+    "Holy Roman Empire"
   ],
   "related": [],
   "contribution": "A German philosopher and a major figure in the tradition of German idealism.",
-  "setting": "Kingdom of Württemberg",
+  "setting": "",
   "image": "images/georg-wilhelm-friedrich-hegel.jpg",
   "image_credit": "Jakob Schlesinger · Public domain",
   "image_kind": "Portrait from life",
@@ -29,6 +30,9 @@
       ],
       "citizenship": [
         "Kingdom of Württemberg"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Georg Wilhelm Friedrich Hegel (27 August 1770 – 14 November 1831) was a German philosopher and a major figure in the tradition of German idealism. His influence on Western philosophy extends across a wide range of topics—from metaphysical issues in epistemology and ontology, to political philosophy, to philosophy of art and philosophy of religion.",

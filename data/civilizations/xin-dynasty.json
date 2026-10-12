@@ -23,7 +23,8 @@
       "location": [
         108.85833333333333,
         34.30833333333333
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -49,6 +50,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/xin-dynasty.png",
+  "map_asked": false,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -65,6 +67,7 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Chang'an",
+    "map_like": "Han Dynasty",
     "labelled": [
       "Xiongnu",
       "Yuezhi",

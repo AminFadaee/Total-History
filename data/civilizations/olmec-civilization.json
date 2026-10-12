@@ -1,0 +1,38 @@
+{
+  "id": "Q135364",
+  "slug": "olmec-civilization",
+  "name": "Olmec Civilization",
+  "wikipedia": "Olmecs",
+  "map_year": -650,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/olmec-civilization.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -650,
+      -351
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

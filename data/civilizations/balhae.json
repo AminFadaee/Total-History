@@ -23,7 +23,8 @@
       "location": [
         129.14166667,
         44.13055556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -63,6 +64,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/balhae.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

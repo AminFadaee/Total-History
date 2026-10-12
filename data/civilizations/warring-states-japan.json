@@ -1,0 +1,49 @@
+{
+  "id": "Q204023",
+  "slug": "warring-states-japan",
+  "name": "Warring States Japan",
+  "wikipedia": "Sengoku period",
+  "map_year": 1588,
+  "period": {
+    "start": {
+      "earliest": 1467,
+      "latest": 1467,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1590,
+      "latest": 1590,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Japan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/warring-states-japan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1468,
+      1601
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Mongol Khanate",
+      "Joseon"
+    ]
+  }
+}

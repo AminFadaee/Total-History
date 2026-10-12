@@ -23,14 +23,15 @@
       "location": [
         39.7225,
         41.005
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {
     "id": "Q12544",
     "region": "Turkey",
-    "name": "Eastern Roman Empire"
+    "name": "Byzantine Empire"
   },
   "after": {
     "id": "Q12560",
@@ -43,16 +44,12 @@
       "name": "Alexios I of Trebizond"
     },
     {
+      "id": "Q303302",
+      "name": "John I of Trebizond"
+    },
+    {
       "id": "Q366036",
       "name": "Manuel I of Trebizond"
-    },
-    {
-      "id": "Q452041",
-      "name": "John II of Trebizond"
-    },
-    {
-      "id": "Q537742",
-      "name": "Alexios III of Trebizond"
     },
     {
       "id": "Q503069",
@@ -65,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/empire-of-trebizond.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -84,7 +82,7 @@
     "labelled": [
       "Sultanate of Rum",
       "Kingdom of Georgia",
-      "Halych-Volhynia occupation",
+      "Kingdom of Galicia–Volhynia",
       "Nicaean Empire"
     ]
   }

@@ -23,7 +23,8 @@
       "location": [
         94.86,
         21.1725
-      ]
+      ],
+      "founded": 101
     }
   ],
   "parts": [],
@@ -61,6 +62,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/pagan-kingdom.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -80,11 +82,11 @@
     "labelled": [
       "Sukhothai Kingdom",
       "Haripuñjaya",
-      "Mamluk Dynasty",
+      "Delhi Sultanate",
       "Khmer Empire",
       "Yadava Dynasty",
       "Kakatiya Dynasty",
-      "Pandya Empire",
+      "Pandya dynasty",
       "Eastern Ganga Kingdom",
       "Chámpa",
       "Chandela Kingdom",

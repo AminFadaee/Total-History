@@ -1,0 +1,107 @@
+{
+  "id": "Q4083686",
+  "slug": "sultanate-of-bengal",
+  "name": "Sultanate of Bengal",
+  "wikipedia": "Bengal Sultanate",
+  "map_year": 1502,
+  "period": {
+    "start": {
+      "earliest": 1352,
+      "latest": 1352,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1576,
+      "latest": 1576,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Pandua",
+      "location": [
+        88.16,
+        25.13
+      ],
+      "founded": null
+    },
+    {
+      "name": "Sonargaon",
+      "location": [
+        90.616666666667,
+        23.65
+      ],
+      "founded": null
+    },
+    {
+      "name": "Gauḍa",
+      "location": [
+        88.12802887,
+        24.88288116
+      ],
+      "founded": null
+    },
+    {
+      "name": "Tanda",
+      "location": [
+        86.358962,
+        23.476401
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q229411",
+    "region": "India",
+    "name": "Delhi Sultanate"
+  },
+  "after": {
+    "id": "Q373650",
+    "region": "India",
+    "name": "Sur Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q7487786",
+      "name": "Shamsuddin Ilyas Shah"
+    },
+    {
+      "id": "Q5227852",
+      "name": "Daud Khan Karrani"
+    }
+  ],
+  "modern_countries": [
+    "India",
+    "Bangladesh"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/sultanate-of-bengal.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Pandua, Malda",
+        "Sonargaon",
+        "Gauḍa",
+        "Tanda, Bengal"
+      ]
+    },
+    "cliopatria_years": [
+      1344,
+      1533
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Pandua",
+    "labelled": [
+      "Delhi Sultanate",
+      "Ava Kingdom",
+      "Kingdom of Mrauk U",
+      "Toungoo dynasty"
+    ]
+  }
+}

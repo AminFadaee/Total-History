@@ -1,0 +1,93 @@
+{
+  "id": "Q2899771",
+  "slug": "principality-of-hungary",
+  "name": "Principality of Hungary",
+  "wikipedia": "Principality of Hungary",
+  "map_year": 922,
+  "period": {
+    "start": {
+      "earliest": 895,
+      "latest": 895,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1000,
+      "latest": 1000,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Esztergom",
+      "location": [
+        18.740277777778,
+        47.785555555556
+      ],
+      "founded": null
+    },
+    {
+      "name": "Székesfehérvár",
+      "location": [
+        18.410811,
+        47.1910169
+      ],
+      "founded": 972
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q193152",
+    "region": "Hungary",
+    "name": "Great Moravia"
+  },
+  "after": {
+    "id": "Q171150",
+    "region": "Hungary",
+    "name": "Kingdom of Hungary"
+  },
+  "rulers": [
+    {
+      "id": "Q606135",
+      "name": "Kurszán"
+    }
+  ],
+  "modern_countries": [
+    "Hungary",
+    "Romania",
+    "Austria",
+    "Slovakia",
+    "Serbia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/principality-of-hungary.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Esztergom",
+        "Székesfehérvár"
+      ],
+      "infobox": [
+        "Esztergom",
+        "Székesfehérvár"
+      ]
+    },
+    "cliopatria_years": [
+      900,
+      999
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Esztergom",
+    "labelled": [
+      "First Bulgarian Empire",
+      "Kingdom of Germany",
+      "Upper Burgundy and Italy",
+      "Principality of Serbia",
+      "Duchy of Bohemia",
+      "Duchy of Croatia"
+    ]
+  }
+}

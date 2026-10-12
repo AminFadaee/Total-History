@@ -1,0 +1,91 @@
+{
+  "id": "Q1337854",
+  "slug": "emirate-of-cordoba",
+  "name": "Emirate of Córdoba",
+  "wikipedia": "Umayyad state of Córdoba",
+  "map_year": 757,
+  "period": {
+    "start": {
+      "earliest": 756,
+      "latest": 756,
+      "circa": false
+    },
+    "end": {
+      "earliest": 929,
+      "latest": 929,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Córdoba",
+      "location": [
+        -4.78,
+        37.89
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q8575586",
+    "region": "Spain",
+    "name": "Umayyad Caliphate"
+  },
+  "after": {
+    "id": "Q171740",
+    "region": "Spain",
+    "name": "Caliphate of Córdoba"
+  },
+  "rulers": [
+    {
+      "id": "Q29000",
+      "name": "Abd al-Rahman I"
+    },
+    {
+      "id": "Q348593",
+      "name": "Hisham I of Córdoba"
+    },
+    {
+      "id": "Q307412",
+      "name": "Abd ar-Rahman II"
+    },
+    {
+      "id": "Q190418",
+      "name": "Abd al-Rahman III"
+    }
+  ],
+  "modern_countries": [
+    "Spain",
+    "Portugal",
+    "Andorra"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/emirate-of-cordoba.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Córdoba, Spain"
+      ],
+      "infobox": [
+        "Córdoba, Spain"
+      ]
+    },
+    "cliopatria_years": [
+      757,
+      935
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Córdoba",
+    "labelled": [
+      "Aquitaine",
+      "Francia",
+      "Kharijites",
+      "Kingdom of Asturias"
+    ]
+  }
+}

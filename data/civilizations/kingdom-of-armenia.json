@@ -23,23 +23,21 @@
       "location": [
         44.57943,
         39.886613
-      ]
+      ],
+      "founded": 1828
     },
     {
       "name": "Tigranocerta",
       "location": [
         41.00138889,
         38.14222222
-      ]
+      ],
+      "founded": -78
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q2571688",
-    "region": "Armenia",
-    "name": "Sasanian Armenia"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q1342141",
@@ -84,6 +82,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-armenia.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

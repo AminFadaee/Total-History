@@ -23,24 +23,29 @@
       "location": [
         37.6175,
         55.75055555555556
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q159",
-    "region": "Russia",
-    "name": "Russian Federation"
-  },
+  "after": {},
   "rulers": [
     {
-      "id": "Q1394",
-      "name": "Vladimir Lenin"
+      "id": "Q2620906",
+      "name": "Grigory Petrovsky"
     },
     {
-      "id": "Q30487",
-      "name": "Mikhail Gorbachev"
+      "id": "Q855",
+      "name": "Joseph Stalin"
+    },
+    {
+      "id": "Q229828",
+      "name": "Mikhail Kalinin"
+    },
+    {
+      "id": "Q1285663",
+      "name": "Justas Paleckis"
     }
   ],
   "modern_countries": [
@@ -71,6 +76,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/union-of-soviet-socialist-republics.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -92,13 +98,12 @@
       "Mongolian People's Republic",
       "Pahlavi Dynasty",
       "Republic of Turkey",
-      "French Africa",
+      "French colonial empire",
       "British Raj",
       "British Africa",
       "Denmark",
       "Kingdom of Saudi Arabia",
       "British Gold Coast",
-      "Kingdom of Egypt",
       "Tibet"
     ]
   }

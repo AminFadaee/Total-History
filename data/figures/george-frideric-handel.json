@@ -12,6 +12,7 @@
   "occupation": "Composer",
   "birth_country": "Germany",
   "civilizations": [
+    "Holy Roman Empire",
     "Kingdom of Great Britain"
   ],
   "related": [],
@@ -28,8 +29,11 @@
         "Kingdom of Great Britain"
       ],
       "citizenship": [
-        "Brandenburg-Prussia",
+        "Margraviate of Brandenburg",
         "Kingdom of Great Britain",
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
         "Holy Roman Empire"
       ]
     },

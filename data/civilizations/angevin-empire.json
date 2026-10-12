@@ -23,7 +23,8 @@
       "location": [
         -0.55555555555556,
         47.472777777778
-      ]
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -59,6 +60,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/angevin-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -84,7 +86,7 @@
       "Kingdom of León",
       "Kingdom of Sicily",
       "Second Bulgarian Empire",
-      "Principality of Turov and Pinsk",
+      "Principality of Turov",
       "Principality of Minsk",
       "Duchy of Masovia",
       "Duchy of Silesia",

@@ -23,7 +23,8 @@
       "location": [
         31.235833333333332,
         30.044444444444444
-      ]
+      ],
+      "founded": 969
     }
   ],
   "parts": [],
@@ -69,6 +70,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/mamluk-sultanate.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -94,8 +96,8 @@
       "Kingdom of Spain",
       "Khanate of Bukhara",
       "Ethiopian Empire",
-      "Lodi Dynasty",
-      "Bornu Empire",
+      "Delhi Sultanate",
+      "Kanem–Bornu Empire",
       "Timurid Empire",
       "Kashmiri Sultanate",
       "Khanate of Khiva"

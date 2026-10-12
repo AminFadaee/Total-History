@@ -23,7 +23,8 @@
       "location": [
         2.352222222222222,
         48.85666666666667
-      ]
+      ],
+      "founded": -300
     }
   ],
   "parts": [],
@@ -35,16 +36,24 @@
   "after": {
     "id": "Q58296",
     "region": "France",
-    "name": "French Directory"
+    "name": "French First Republic"
   },
   "rulers": [
     {
-      "id": "Q7758",
-      "name": "Charles X of France"
+      "id": "Q936976",
+      "name": "Henry IV of France"
     },
     {
-      "id": "Q159575",
-      "name": "Hugh Capet"
+      "id": "Q7742",
+      "name": "Louis XIV"
+    },
+    {
+      "id": "Q7738",
+      "name": "Louis XV"
+    },
+    {
+      "id": "Q7732",
+      "name": "Louis XVI"
     }
   ],
   "modern_countries": [
@@ -56,6 +65,7 @@
   ],
   "borders": true,
   "map": "maps/kingdom-of-france.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -76,8 +86,8 @@
     "labelled": [
       "Habsburg Monarchy",
       "Kingdom of Spain",
-      "Holy Roman Empire Minor States",
-      "Kingdom of Prussia",
+      "Holy Roman Empire",
+      "Prussia",
       "Kingdom of Sardinia",
       "Duchy of Bavaria",
       "Kingdom of Great Britain",
@@ -85,7 +95,8 @@
       "Kingdom of Portugal",
       "Republic of Venice",
       "Papal States",
-      "Electorate of Saxony"
+      "Electorate of Saxony",
+      "Electorate of Hanover"
     ]
   }
 }

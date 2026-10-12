@@ -23,20 +23,29 @@
       "location": [
         85.144,
         25.611
-      ]
+      ],
+      "founded": -490
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q12448145",
-    "region": "India",
-    "name": "Maukhari Dynasty"
-  },
+  "after": {},
   "rulers": [
     {
-      "id": "Q4664626",
-      "name": "Gupta"
+      "id": "Q849802",
+      "name": "Chandragupta I"
+    },
+    {
+      "id": "Q1133363",
+      "name": "Samudragupta"
+    },
+    {
+      "id": "Q844536",
+      "name": "Chandragupta II"
+    },
+    {
+      "id": "Q470715",
+      "name": "Kumaragupta I"
     }
   ],
   "modern_countries": [
@@ -47,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/gupta-empire.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

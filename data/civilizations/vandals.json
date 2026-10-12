@@ -1,0 +1,44 @@
+{
+  "id": "Q42211",
+  "slug": "vandals",
+  "name": "Vandals",
+  "wikipedia": "Vandals",
+  "map_year": 414,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Spain"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/vandals.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [
+        "Carthage"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      337,
+      438
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Alans",
+      "Kingdom of the Suebi",
+      "Visigoths"
+    ]
+  }
+}

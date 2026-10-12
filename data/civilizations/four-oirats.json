@@ -39,6 +39,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/four-oirats.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -56,7 +57,7 @@
       "Chagatai Khanate",
       "Joseon",
       "Kashmiri Sultanate",
-      "Sayyid Dynasty"
+      "Delhi Sultanate"
     ]
   }
 }

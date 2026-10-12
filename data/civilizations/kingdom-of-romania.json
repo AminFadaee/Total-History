@@ -23,36 +23,29 @@
       "location": [
         27.588888888889,
         47.162222222222
-      ]
+      ],
+      "founded": 1408
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q958291",
-    "region": "Romania",
-    "name": "United Principalities of Moldavia and Wallachia"
-  },
-  "after": {
-    "id": "Q842794",
-    "region": "Romania",
-    "name": "Socialist Republic of Romania"
-  },
+  "before": {},
+  "after": {},
   "rulers": [
     {
-      "id": "Q57146",
-      "name": "Carol I of Romania"
+      "id": "Q755315",
+      "name": "Elek Köblös"
     },
     {
-      "id": "Q57165",
-      "name": "Ferdinand I of Romania"
+      "id": "Q838826",
+      "name": "Ștefan Foriș"
     },
     {
-      "id": "Q930013",
-      "name": "Michael I of Romania"
+      "id": "Q294072",
+      "name": "Gheorghe Gheorghiu-Dej"
     },
     {
-      "id": "Q212897",
-      "name": "Carol II of Romania"
+      "id": "Q466114",
+      "name": "Emil Bodnăraș"
     }
   ],
   "modern_countries": [
@@ -63,6 +56,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-romania.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {

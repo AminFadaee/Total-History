@@ -19,23 +19,21 @@
       "location": [
         31.81666667,
         18.53333333
-      ]
+      ],
+      "founded": null
     },
     {
       "name": "Meroë",
       "location": [
         33.75075,
         16.935138888889
-      ]
+      ],
+      "founded": -2500
     }
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q829356",
-    "region": "Sudan",
-    "name": "Makuria Kingdom"
-  },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Egypt",
@@ -44,6 +42,7 @@
   "overseas_countries": [],
   "borders": true,
   "map": "maps/kingdom-of-kush.png",
+  "map_asked": true,
   "checks": {
     "infobox": true,
     "capital_sources": {
