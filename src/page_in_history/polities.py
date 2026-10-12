@@ -770,6 +770,25 @@ class PolityBuilder:
             summary = contribution("", identity.name, description)
         return summary
 
+    def _capital_terms(self, entity: Entity, period: Period, capitals: list[dict]) -> list[dict]:
+        """The capitals with the years Wikidata dates them as capital within the period, an open term running to its
+        start or end (Berlin 1701–1947 for Prussia); a capital is matched to Wikidata's by being within 25 km."""
+        start, end = (period.start.earliest, period.end.latest) if period.confirmed else (None, None)
+        terms = []
+        for claim in entity.statements("P36", preferred_only=False):
+            place = self.names.get(claim["mainsnak"]["datavalue"]["value"].get("id"))
+            began, ended = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
+            if place and place.coordinates() and (began is not None or ended is not None):
+                began = began if began is not None else start
+                ended = ended if ended is not None else end
+                if began is not None and ended is not None:
+                    if start is not None:
+                        began, ended = max(began, start), min(ended, end)
+                    terms.append((place.coordinates(), max(0, ended - began)))
+        return [{**capital, "years": sum(years for location, years in terms if capital["location"]
+                                         and kilometres(capital["location"], location) <= CAPITAL_MATCH_KM)}
+                for capital in capitals]
+
     def _capital_edges(self, entity: Entity) -> tuple:
         """Where its first and last capitals stood, when Wikidata dates at least two of them."""
         dated = []
@@ -800,12 +819,14 @@ class PolityBuilder:
             if any(not known(edge["id"]) for edge in polity.before + polity.after):
                 entity = self.catalog.entities[polity.id]
                 before, after, _ = self.succession.neighbours(
-                    polity.id, polity.capitals, self._capital_edges(entity),
+                    polity.id, self._capital_terms(entity, polity.period, polity.capitals), self._capital_edges(entity),
                     lambda other: known(other) and not same_name(polity.name, self._name(other)))
                 polity.before, polity.after = self._edges(before), self._edges(after)
         drawn_edges = {side: {polity.id for polity in polities if getattr(polity, side)} for side in ("before", "after")}
         by_id = {polity.id: polity for polity in polities}
-        anchors = {polity.id: self.succession.home(polity.id, polity.capitals) for polity in polities}
+        anchors = {polity.id: self.succession.home(polity.id, self._capital_terms(self.catalog.entities[polity.id],
+                                                                                  polity.period, polity.capitals))
+                   for polity in polities}
         homes = {polity.id: anchors[polity.id].region if anchors[polity.id] else self._home_region(polity)
                  for polity in polities}
         for polity, side, other in self._ruler_links(polities, figures):
@@ -1028,7 +1049,7 @@ class PolityBuilder:
                  if qid in self.catalog.by_qid and qid != identity.qid]
         map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
         before, after, home_place = self.succession.neighbours(
-            identity.qid, capitals, self._capital_edges(entity), lambda other: not same_name(identity.name, self._name(other)))
+            identity.qid, self._capital_terms(entity, period, capitals), self._capital_edges(entity), lambda other: not same_name(identity.name, self._name(other)))
         modern = self._modern_countries(extent, capitals, entity.coordinates()) if drawn else ([], [])
         polity = Polity(
             id=identity.qid,
