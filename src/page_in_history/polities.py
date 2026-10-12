@@ -49,6 +49,7 @@ SHARED_TOLERANCE_YEARS = 25
 # head of state, monarch, emperor, king, president (two items)
 HEAD_OF_STATE_CLASSES = {"Q48352", "Q116", "Q39018", "Q12097", "Q248577", "Q30461", "Q111840950"}
 SHOWN_RULERS, RULER_FAME_SHARE, ADULT_YEARS = 4, 3, 20
+SPREAD_SHARE = 0.5
 KNOWN_NEIGHBOUR_LANGUAGES = 40
 MIRROR_GAP_YEARS = 100
 SAME_PLACE_KM = 5
@@ -1106,10 +1107,33 @@ class PolityBuilder:
                         re.IGNORECASE)]
                 continue
             editions = self.wikidata.language_editions(list(found))
-            best = sorted(found, key=lambda qid: (-editions.get(qid, 0), qid))[:SHOWN_RULERS]
-            floor = editions.get(best[0], 0) / RULER_FAME_SHARE
-            best = [qid for qid in best if editions.get(qid, 0) >= floor]
+            ranked = sorted(found, key=lambda qid: (-editions.get(qid, 0), qid))
+            floor = editions.get(ranked[0], 0) / RULER_FAME_SHARE
+            ranked = [qid for qid in ranked if editions.get(qid, 0) >= floor]
+            best = self._spread(ranked, found, editions, spans[polity.id])
             polity.rulers = [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=lambda qid: found[qid])]
+
+    @staticmethod
+    def _spread(ranked: list[str], began: dict[str, int], editions: dict[str, int], years: tuple[int, int]) -> list[str]:
+        """The four best known, unless their rule began within under half the civilization's years: then the best
+        known whose rule began in each quarter of them, if known in at least half as many languages as the best known,
+        then the best known of the rest (Stephen I and Matthias Corvinus for Hungary, not only its Habsburgs). A rule
+        that began before the civilization counts in its first quarter."""
+        start, end = years
+        best = ranked[:SHOWN_RULERS]
+        starts = [began[qid] for qid in best]
+        if not best or max(starts) - min(starts) >= SPREAD_SHARE * (end - start):
+            return best
+        floor = editions.get(ranked[0], 0) * SPREAD_SHARE
+        step = (end - start + 1) / SHOWN_RULERS
+        chosen = []
+        for quarter in range(SHOWN_RULERS):
+            first, last = start + quarter * step, start + (quarter + 1) * step
+            found = next((qid for qid in ranked if first <= min(max(began[qid], start), end) < last
+                          and editions.get(qid, 0) >= floor), None)
+            if found and found not in chosen:
+                chosen.append(found)
+        return chosen + [qid for qid in ranked if qid not in chosen][:SHOWN_RULERS - len(chosen)]
 
     def _ruled_years(self, polity: Polity) -> tuple[int, int] | None:
         """The years a civilization's rulers must fall in: its confirmed period, else the years it is drawn."""
