@@ -37,7 +37,16 @@
     "region": "Thailand",
     "name": "Thonburi Kingdom"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q718191",
+      "name": "Uthong"
+    },
+    {
+      "id": "Q779323",
+      "name": "Ekkathat"
+    }
+  ],
   "modern_countries": [
     "Thailand",
     "Myanmar"

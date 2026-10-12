@@ -37,7 +37,16 @@
     "region": "China",
     "name": "Ming Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q7523",
+      "name": "Kublai Khan"
+    },
+    {
+      "id": "Q8666",
+      "name": "Toghon Temür"
+    }
+  ],
   "modern_countries": [
     "China",
     "Russia",

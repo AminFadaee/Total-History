@@ -17,7 +17,22 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Pataliputra",
+      "location": [
+        85.144,
+        25.611
+      ]
+    },
+    {
+      "name": "Murshidabad",
+      "location": [
+        88.27,
+        24.18
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q5324",
@@ -49,7 +64,7 @@
       1168
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Pataliputra",
     "labelled": [
       "Rashtrakuta Dynasty",
       "Gurjara-Pratihara Dynasty",

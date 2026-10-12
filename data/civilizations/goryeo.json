@@ -44,7 +44,16 @@
     "region": "North Korea",
     "name": "Joseon"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q334312",
+      "name": "Taejo of Goryeo"
+    },
+    {
+      "id": "Q485590",
+      "name": "Gongyang of Goryeo"
+    }
+  ],
   "modern_countries": [
     "North Korea",
     "South Korea"

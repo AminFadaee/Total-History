@@ -32,8 +32,17 @@
     "region": "Poland",
     "name": "Kingdom of Prussia"
   },
-  "after": {},
-  "rulers": [],
+  "after": {
+    "id": "Q27306",
+    "region": "Poland",
+    "name": "Kingdom of Prussia"
+  },
+  "rulers": [
+    {
+      "id": "Q53444",
+      "name": "Frederick Augustus I of Saxony"
+    }
+  ],
   "modern_countries": [
     "Poland"
   ],

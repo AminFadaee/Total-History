@@ -1,0 +1,94 @@
+{
+  "id": "Q538677",
+  "slug": "angevin-empire",
+  "name": "Angevin Empire",
+  "wikipedia": "Angevin Empire",
+  "map_year": 1202,
+  "period": {
+    "start": {
+      "earliest": 1154,
+      "latest": 1154,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1214,
+      "latest": 1214,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Angers",
+      "location": [
+        -0.55555555555556,
+        47.472777777778
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q70972",
+    "region": "France",
+    "name": "Kingdom of France"
+  },
+  "rulers": [
+    {
+      "id": "Q102140",
+      "name": "Henry II of England"
+    },
+    {
+      "id": "Q42305",
+      "name": "Richard I of England"
+    },
+    {
+      "id": "Q178525",
+      "name": "Eleanor of Aquitaine"
+    },
+    {
+      "id": "Q129308",
+      "name": "John, King of England"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "United Kingdom",
+    "Ireland"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/angevin-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Angers",
+        "Chinon"
+      ]
+    },
+    "cliopatria_years": [
+      1147,
+      1209
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Angers",
+    "labelled": [
+      "Holy Roman Empire",
+      "Kingdom of Castile",
+      "Kingdom of Alba",
+      "Kingdom of Hungary",
+      "Kingdom of Denmark",
+      "Kingdom of Sweden",
+      "Kingdom of León",
+      "Kingdom of Sicily",
+      "Second Bulgarian Empire",
+      "Principality of Turov and Pinsk",
+      "Principality of Minsk",
+      "Duchy of Masovia",
+      "Duchy of Silesia",
+      "Banate of Bosnia"
+    ]
+  }
+}

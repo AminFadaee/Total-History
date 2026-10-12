@@ -17,19 +17,53 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Konye-Urgench",
+      "location": [
+        59.1530707,
+        42.3261336
+      ]
+    },
+    {
+      "name": "Samarkand",
+      "location": [
+        66.97583333333333,
+        39.65472222222222
+      ]
+    },
+    {
+      "name": "Ghazni",
+      "location": [
+        68.423333333333,
+        33.549166666667
+      ]
+    },
+    {
+      "name": "Tabriz",
+      "location": [
+        46.29611111111111,
+        38.07388888888889
+      ]
+    }
+  ],
   "parts": [],
-  "before": {
-    "id": "Q3708094",
-    "region": "Iran",
-    "name": "Great Seljuk Empire"
-  },
+  "before": {},
   "after": {
     "id": "Q12557",
-    "region": "Iran",
+    "region": "Turkmenistan",
     "name": "Mongol Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q520090",
+      "name": "Muhammad II of Khwarazm"
+    },
+    {
+      "id": "Q559416",
+      "name": "Jalal al-Din Mangburni"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Afghanistan",
@@ -59,7 +93,7 @@
       1235
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Konye-Urgench",
     "labelled": [
       "Kimek-Kipchak confederation",
       "Kara-Khitans",

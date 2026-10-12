@@ -40,7 +40,28 @@
     "region": "Sweden",
     "name": "Kingdom of Sweden"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q52928",
+      "name": "Charles XIII"
+    },
+    {
+      "id": "Q52927",
+      "name": "Charles XIV John"
+    },
+    {
+      "id": "Q52926",
+      "name": "Oscar I of Sweden"
+    },
+    {
+      "id": "Q52925",
+      "name": "Charles XV"
+    },
+    {
+      "id": "Q52924",
+      "name": "Oscar II"
+    }
+  ],
   "modern_countries": [
     "Sweden",
     "Norway"

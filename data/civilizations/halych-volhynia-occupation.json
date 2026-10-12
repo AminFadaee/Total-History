@@ -57,7 +57,12 @@
     "name": "Principality of Volhynia"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q497773",
+      "name": "Roman the Great"
+    }
+  ],
   "modern_countries": [
     "Ukraine",
     "Romania",

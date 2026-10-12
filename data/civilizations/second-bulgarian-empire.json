@@ -33,7 +33,16 @@
     "region": "Bulgaria",
     "name": "Ottoman Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q905368",
+      "name": "Peter II of Bulgaria"
+    },
+    {
+      "id": "Q1060107",
+      "name": "Constantine II of Bulgaria"
+    }
+  ],
   "modern_countries": [
     "Bulgaria",
     "Romania",

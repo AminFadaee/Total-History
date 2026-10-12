@@ -44,7 +44,16 @@
     "region": "Afghanistan",
     "name": "Safavid Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q8462",
+      "name": "Timur"
+    },
+    {
+      "id": "Q1136595",
+      "name": "Badi' al-Zaman Mirza"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Afghanistan",

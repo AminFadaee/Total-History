@@ -17,9 +17,21 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Winchester",
+      "location": [
+        -1.3086111111111,
+        51.063333333333
+      ]
+    }
+  ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q676184",
+    "region": "United Kingdom",
+    "name": "Kingdom of Sussex"
+  },
   "after": {
     "id": "Q179876",
     "region": "United Kingdom",
@@ -41,6 +53,14 @@
     {
       "id": "Q83476",
       "name": "Alfred the Great"
+    },
+    {
+      "id": "Q187114",
+      "name": "Edward the Elder"
+    },
+    {
+      "id": "Q170017",
+      "name": "Æthelstan"
     }
   ],
   "modern_countries": [
@@ -62,7 +82,7 @@
       935
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Winchester",
     "labelled": [
       "Kingdom of Northumbria",
       "Kingdom of Brittany",

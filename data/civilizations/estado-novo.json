@@ -29,7 +29,20 @@
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q314022",
+      "name": "Óscar Carmona"
+    },
+    {
+      "id": "Q359362",
+      "name": "Francisco Craveiro Lopes"
+    },
+    {
+      "id": "Q371840",
+      "name": "Américo Tomás"
+    }
+  ],
   "modern_countries": [
     "Portugal"
   ],
@@ -40,7 +53,7 @@
     "East Timor",
     "Cabo Verde",
     "São Tomé and Principe",
-    "China"
+    "Macao"
   ],
   "borders": true,
   "map": "maps/estado-novo.png",

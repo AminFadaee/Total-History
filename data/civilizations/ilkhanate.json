@@ -51,7 +51,12 @@
     "region": "Iran",
     "name": "Chobanids"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q335301",
+      "name": "Abu Sa'id Bahadur Khan"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Turkey",

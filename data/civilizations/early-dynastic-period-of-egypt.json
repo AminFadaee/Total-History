@@ -17,7 +17,22 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Thinis",
+      "location": [
+        31.9,
+        26.333333333333
+      ]
+    },
+    {
+      "name": "Memphis",
+      "location": [
+        31.250917,
+        29.844667
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -25,7 +40,12 @@
     "region": "Egypt",
     "name": "Old Kingdom of Egypt"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q294266",
+      "name": "Khasekhemwy"
+    }
+  ],
   "modern_countries": [
     "Egypt"
   ],
@@ -46,7 +66,7 @@
       -2686
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Thinis",
     "labelled": []
   }
 }

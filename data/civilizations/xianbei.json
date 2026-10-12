@@ -17,11 +17,28 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Shangyi County",
+      "location": [
+        113.9695,
+        41.0775
+      ]
+    }
+  ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q188836",
+    "region": "China",
+    "name": "Xiongnu"
+  },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q985907",
+      "name": "Tanshihuai"
+    }
+  ],
   "modern_countries": [
     "China",
     "Mongolia",
@@ -44,7 +61,7 @@
       237
     ],
     "identity": "Wikipedia article with a country infobox",
-    "home": "the spot held longest",
+    "home": "Shangyi County",
     "labelled": [
       "Han Dynasty",
       "Kushan Empire",

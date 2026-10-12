@@ -33,7 +33,12 @@
     "name": "Russian Empire"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q48211",
+      "name": "Alexander Kerensky"
+    }
+  ],
   "modern_countries": [
     "Russia",
     "Kazakhstan",

@@ -25,7 +25,40 @@
     "region": "China",
     "name": "Qing Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q743749",
+      "name": "Erdeni Batur"
+    },
+    {
+      "id": "Q865752",
+      "name": "Sengge"
+    },
+    {
+      "id": "Q1395045",
+      "name": "Galdan Boshugtu Khan"
+    },
+    {
+      "id": "Q1398132",
+      "name": "Tsewang Rabtan Khan"
+    },
+    {
+      "id": "Q981162",
+      "name": "Galdan Tseren Khan"
+    },
+    {
+      "id": "Q5359620",
+      "name": "Tsewang Dorji Namjal"
+    },
+    {
+      "id": "Q4253444",
+      "name": "Lama Dorji"
+    },
+    {
+      "id": "Q1047025",
+      "name": "Dawachi"
+    }
+  ],
   "modern_countries": [
     "China",
     "Mongolia",

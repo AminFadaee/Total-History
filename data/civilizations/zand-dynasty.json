@@ -37,7 +37,16 @@
     "region": "Iran",
     "name": "Qajar Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q332583",
+      "name": "Karim Khan Zand"
+    },
+    {
+      "id": "Q15859",
+      "name": "Lotf Ali Khan"
+    }
+  ],
   "modern_countries": [
     "Iran"
   ],

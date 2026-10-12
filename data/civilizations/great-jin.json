@@ -51,7 +51,16 @@
     "region": "China",
     "name": "Mongol Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q5073",
+      "name": "Emperor Shizong of Jin"
+    },
+    {
+      "id": "Q5069",
+      "name": "Emperor Mo of Jin"
+    }
+  ],
   "modern_countries": [
     "China",
     "Russia",

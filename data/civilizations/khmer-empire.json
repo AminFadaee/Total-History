@@ -33,7 +33,36 @@
     "name": "Chenla"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q379239",
+      "name": "Jayavarman II"
+    },
+    {
+      "id": "Q313298",
+      "name": "Suryavarman II"
+    },
+    {
+      "id": "Q335273",
+      "name": "Jayavarman VII"
+    },
+    {
+      "id": "Q3163289",
+      "name": "Jayavarman IX"
+    },
+    {
+      "id": "Q3337600",
+      "name": "Trasak Paem"
+    },
+    {
+      "id": "Q3525738",
+      "name": "Thommasaok Reachea"
+    },
+    {
+      "id": "Q1385871",
+      "name": "Ponhea Yat"
+    }
+  ],
   "modern_countries": [
     "Thailand",
     "Laos",

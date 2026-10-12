@@ -33,7 +33,12 @@
     "name": "Maurya Empire"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q1568644",
+      "name": "Simuka"
+    }
+  ],
   "modern_countries": [
     "India"
   ],

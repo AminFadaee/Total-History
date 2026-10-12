@@ -37,7 +37,16 @@
     "region": "Iran",
     "name": "Pahlavi Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q324974",
+      "name": "Agha Mohammad Khan Qajar"
+    },
+    {
+      "id": "Q317799",
+      "name": "Ahmad Shah Qajar"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Azerbaijan",

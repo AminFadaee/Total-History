@@ -37,7 +37,20 @@
     "region": "China",
     "name": "Tang Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q7418",
+      "name": "Emperor Wen of Sui"
+    },
+    {
+      "id": "Q7419",
+      "name": "Emperor Yang of Sui"
+    },
+    {
+      "id": "Q7420",
+      "name": "Yang You"
+    }
+  ],
   "modern_countries": [
     "China"
   ],

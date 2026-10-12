@@ -37,7 +37,32 @@
     "region": "Mexico",
     "name": "Second Federal Republic of Mexico"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q1208732",
+      "name": "Miguel Barragán"
+    },
+    {
+      "id": "Q1208264",
+      "name": "José Justo Corro"
+    },
+    {
+      "id": "Q354678",
+      "name": "Anastasio Bustamante"
+    },
+    {
+      "id": "Q189145",
+      "name": "Antonio López de Santa Anna"
+    },
+    {
+      "id": "Q373622",
+      "name": "José Joaquín de Herrera"
+    },
+    {
+      "id": "Q440461",
+      "name": "Mariano Paredes"
+    }
+  ],
   "modern_countries": [
     "Mexico",
     "United States"

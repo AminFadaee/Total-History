@@ -33,7 +33,28 @@
     "region": "Mongolia",
     "name": "Mongolia"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q311488",
+      "name": "Khorloogiin Choibalsan"
+    },
+    {
+      "id": "Q275025",
+      "name": "Yumjaagiin Tsedenbal"
+    },
+    {
+      "id": "Q4154389",
+      "name": "Dashiin Damba"
+    },
+    {
+      "id": "Q558706",
+      "name": "Jambyn Batmönkh"
+    },
+    {
+      "id": "Q9346959",
+      "name": "Gombojavyn Ochirbat"
+    }
+  ],
   "modern_countries": [
     "Mongolia"
   ],

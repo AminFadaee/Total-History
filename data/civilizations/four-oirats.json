@@ -25,7 +25,12 @@
     "region": "China",
     "name": "Dzungar Khanate"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q9263",
+      "name": "Esen Taishi"
+    }
+  ],
   "modern_countries": [
     "Mongolia",
     "China",

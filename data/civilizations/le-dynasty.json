@@ -17,19 +17,43 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Hanoi",
+      "location": [
+        105.84117,
+        21.0245
+      ]
+    },
+    {
+      "name": "Thọ Xuân district",
+      "location": [
+        105.52088611111111,
+        19.931344444444445
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q9903",
     "region": "Vietnam",
     "name": "Ming Dynasty"
   },
-  "after": {
-    "id": "Q2301908",
-    "region": "Vietnam",
-    "name": "Nguyễn lords"
-  },
-  "rulers": [],
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q1195391",
+      "name": "Lê Lợi"
+    },
+    {
+      "id": "Q6506833",
+      "name": "Lê Cung Hoàng"
+    },
+    {
+      "id": "Q6802344",
+      "name": "Lê Trang Tông"
+    }
+  ],
   "modern_countries": [
     "Vietnam"
   ],
@@ -51,7 +75,7 @@
       1571
     ],
     "identity": "Wikipedia article with a country infobox",
-    "home": "the spot held longest",
+    "home": "Thọ Xuân district",
     "labelled": [
       "Ming Dynasty",
       "Lan Xang",

@@ -37,7 +37,16 @@
     "region": "India",
     "name": "Western Chalukya Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q3764262",
+      "name": "Dantidurga"
+    },
+    {
+      "id": "Q6026805",
+      "name": "Indra IV"
+    }
+  ],
   "modern_countries": [
     "India"
   ],

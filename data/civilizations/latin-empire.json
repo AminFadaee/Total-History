@@ -37,7 +37,32 @@
     "region": "Turkey",
     "name": "Eastern Roman Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q269235",
+      "name": "Henry of Flanders"
+    },
+    {
+      "id": "Q354672",
+      "name": "Peter II of Courtenay"
+    },
+    {
+      "id": "Q232147",
+      "name": "Yolanda of Flanders"
+    },
+    {
+      "id": "Q365620",
+      "name": "Robert of Courtenay"
+    },
+    {
+      "id": "Q332704",
+      "name": "John of Brienne"
+    },
+    {
+      "id": "Q269573",
+      "name": "Baldwin II, Latin Emperor"
+    }
+  ],
   "modern_countries": [
     "Turkey",
     "Bulgaria",

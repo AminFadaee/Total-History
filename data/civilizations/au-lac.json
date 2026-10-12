@@ -33,7 +33,12 @@
     "region": "Vietnam",
     "name": "Nanyue"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q1274690",
+      "name": "An Dương Vương"
+    }
+  ],
   "modern_countries": [
     "Vietnam",
     "China"

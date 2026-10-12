@@ -33,7 +33,28 @@
     "name": "Dutch Cape Colony"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q127318",
+      "name": "George III"
+    },
+    {
+      "id": "Q130586",
+      "name": "George IV"
+    },
+    {
+      "id": "Q130822",
+      "name": "William IV"
+    },
+    {
+      "id": "Q9439",
+      "name": "Queen Victoria"
+    },
+    {
+      "id": "Q20875",
+      "name": "Edward VII"
+    }
+  ],
   "modern_countries": [
     "South Africa"
   ],

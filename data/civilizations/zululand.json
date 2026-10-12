@@ -29,7 +29,28 @@
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q27695",
+      "name": "Shaka"
+    },
+    {
+      "id": "Q470145",
+      "name": "Dingane"
+    },
+    {
+      "id": "Q737703",
+      "name": "Mpande kaSenzangakhona"
+    },
+    {
+      "id": "Q380403",
+      "name": "Cetshwayo"
+    },
+    {
+      "id": "Q888215",
+      "name": "Dinuzulu KaCetshwayo"
+    }
+  ],
   "modern_countries": [
     "South Africa"
   ],

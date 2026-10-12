@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Tamworth",
+      "location": [
+        -1.695,
+        52.63388888888889
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -61,6 +69,10 @@
     {
       "id": "Q852077",
       "name": "Burgred of Mercia"
+    },
+    {
+      "id": "Q880596",
+      "name": "Ceolwulf II of Mercia"
     }
   ],
   "modern_countries": [
@@ -82,7 +94,7 @@
       925
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Tamworth",
     "labelled": [
       "Kingdom of Northumbria",
       "Breton Kingdoms",

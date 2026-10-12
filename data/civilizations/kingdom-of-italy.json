@@ -51,7 +51,24 @@
     "region": "Italy",
     "name": "Republic of Italy"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q168691",
+      "name": "Victor Emmanuel II"
+    },
+    {
+      "id": "Q153688",
+      "name": "Umberto I of Italy"
+    },
+    {
+      "id": "Q150642",
+      "name": "Victor Emmanuel III"
+    },
+    {
+      "id": "Q187149",
+      "name": "Umberto II of Italy"
+    }
+  ],
   "modern_countries": [
     "Italy",
     "Greece",

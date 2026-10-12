@@ -29,7 +29,12 @@
     "name": "County of Savoy"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q312636",
+      "name": "Amadeus VIII of Savoy"
+    }
+  ],
   "modern_countries": [
     "France",
     "Italy",

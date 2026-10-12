@@ -17,7 +17,22 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Turin",
+      "location": [
+        7.676111111111111,
+        45.079166666666666
+      ]
+    },
+    {
+      "name": "Metropolitan City of Cagliari",
+      "location": [
+        9.1166666666667,
+        39.216666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -56,7 +71,7 @@
       1861
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Turin",
     "labelled": [
       "Austrian Empire",
       "Second French Empire",

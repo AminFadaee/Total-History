@@ -37,7 +37,24 @@
     "region": "Iran",
     "name": "Durrani Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q192868",
+      "name": "Nader Shah"
+    },
+    {
+      "id": "Q197881",
+      "name": "Adel Shah"
+    },
+    {
+      "id": "Q197731",
+      "name": "Ebrahim Afshar"
+    },
+    {
+      "id": "Q197884",
+      "name": "Shahrokh Shah"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Afghanistan",

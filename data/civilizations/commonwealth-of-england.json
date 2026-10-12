@@ -1,0 +1,72 @@
+{
+  "id": "Q330362",
+  "slug": "commonwealth-of-england",
+  "name": "Commonwealth of England",
+  "wikipedia": "Commonwealth of England",
+  "map_year": 1653,
+  "period": {
+    "start": {
+      "earliest": 1649,
+      "latest": 1649,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1660,
+      "latest": 1660,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "London",
+      "location": [
+        -0.1275,
+        51.507222222222
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q179876",
+    "region": "United Kingdom",
+    "name": "Kingdom of England"
+  },
+  "after": {
+    "id": "Q179876",
+    "region": "United Kingdom",
+    "name": "Kingdom of England"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "United Kingdom",
+    "Ireland"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/commonwealth-of-england.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [
+        "London"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1645,
+      1661
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "London",
+    "labelled": [
+      "Habsburg Monarchy",
+      "Kingdom of France",
+      "Denmark-Norway",
+      "Holy Roman Empire Minor States",
+      "Duchy of Bavaria",
+      "Electorate of Saxony",
+      "House of Savoy"
+    ]
+  }
+}

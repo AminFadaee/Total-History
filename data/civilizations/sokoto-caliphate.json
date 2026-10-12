@@ -17,11 +17,42 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Sokoto",
+      "location": [
+        5.233888888888889,
+        13.062222222222223
+      ]
+    },
+    {
+      "name": "Birni-N'Konni",
+      "location": [
+        5.2508333333333,
+        13.791111111111
+      ]
+    },
+    {
+      "name": "Bodinga",
+      "location": [
+        5.16667,
+        12.8833
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q380452",
+      "name": "Usman dan Fodio"
+    },
+    {
+      "id": "Q6932914",
+      "name": "Muhammadu Attahiru I"
+    }
+  ],
   "modern_countries": [
     "Nigeria",
     "Niger",
@@ -46,7 +77,7 @@
       1904
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Sokoto",
     "labelled": [
       "Bornu Empire",
       "Wadai Empire",

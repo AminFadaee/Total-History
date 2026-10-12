@@ -13,11 +13,36 @@
     },
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Kamianka-Dniprovska",
+      "location": [
+        34.410583333333335,
+        47.49219444444444
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q4205685",
+      "name": "Išpakāya"
+    },
+    {
+      "id": "Q809224",
+      "name": "Bartatua"
+    },
+    {
+      "id": "Q1150588",
+      "name": "Madyes"
+    },
+    {
+      "id": "Q754977",
+      "name": "Ateas"
+    }
+  ],
   "modern_countries": [
     "Russia",
     "Ukraine",
@@ -41,7 +66,7 @@
       -224
     ],
     "identity": "Wikipedia article with a country infobox",
-    "home": "the spot held longest",
+    "home": "Kamianka-Dniprovska",
     "labelled": [
       "Lydia"
     ]

@@ -25,7 +25,12 @@
     "region": "Mongolia",
     "name": "Göktürk Khaganate"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q336094",
+      "name": "Yujiulü Dengshuzi"
+    }
+  ],
   "modern_countries": [
     "China",
     "Mongolia",

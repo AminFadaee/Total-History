@@ -37,7 +37,32 @@
     "region": "Indonesia",
     "name": "Blambangan Kingdom"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q49334",
+      "name": "Raden Wijaya"
+    },
+    {
+      "id": "Q6167549",
+      "name": "Jayanegara"
+    },
+    {
+      "id": "Q3631722",
+      "name": "Tribhuwana Wijayatunggadewi"
+    },
+    {
+      "id": "Q29085",
+      "name": "Hayam Wuruk"
+    },
+    {
+      "id": "Q12452603",
+      "name": "Vikramavardhana"
+    },
+    {
+      "id": "Q12443070",
+      "name": "Girindrawardhana"
+    }
+  ],
   "modern_countries": [
     "Indonesia",
     "Malaysia",

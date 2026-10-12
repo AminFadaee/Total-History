@@ -33,7 +33,44 @@
     "region": "Iraq",
     "name": "Neo-Babylonian Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q311573",
+      "name": "Adad-nirari II"
+    },
+    {
+      "id": "Q193290",
+      "name": "Ashurnasirpal II"
+    },
+    {
+      "id": "Q211928",
+      "name": "Shalmaneser III"
+    },
+    {
+      "id": "Q210074",
+      "name": "Tiglath-Pileser III"
+    },
+    {
+      "id": "Q208336",
+      "name": "Sargon II"
+    },
+    {
+      "id": "Q207140",
+      "name": "Sennacherib"
+    },
+    {
+      "id": "Q193912",
+      "name": "Esarhaddon"
+    },
+    {
+      "id": "Q171191",
+      "name": "Ashurbanipal"
+    },
+    {
+      "id": "Q316221",
+      "name": "Ashur-uballit II"
+    }
+  ],
   "modern_countries": [
     "Egypt",
     "Turkey",

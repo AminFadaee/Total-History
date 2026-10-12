@@ -28,8 +28,29 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
-  "rulers": [],
+  "after": {
+    "id": "Q146862",
+    "region": "Saudi Arabia",
+    "name": "Emirate of Nejd"
+  },
+  "rulers": [
+    {
+      "id": "Q1319659",
+      "name": "Muhammad bin Saud Al Muqrin"
+    },
+    {
+      "id": "Q307187",
+      "name": "Abdulaziz bin Muhammad Al Saud"
+    },
+    {
+      "id": "Q2227089",
+      "name": "Saud bin Abdulaziz Al Saud"
+    },
+    {
+      "id": "Q307587",
+      "name": "Abdullah bin Saud Al Saud"
+    }
+  ],
   "modern_countries": [
     "Saudi Arabia",
     "Yemen",

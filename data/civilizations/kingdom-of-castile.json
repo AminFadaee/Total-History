@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Burgos",
+      "location": [
+        -3.6997222222222,
+        42.340833333333
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -55,7 +63,7 @@
       1235
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Burgos",
     "labelled": [
       "Almoravid Dynasty",
       "Duchy of Aquitaine",

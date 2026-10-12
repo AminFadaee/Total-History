@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Kangaba",
+      "location": [
+        -8.4166666666667,
+        11.933333333333
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -59,7 +67,7 @@
       1611
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Kangaba",
     "labelled": []
   }
 }

@@ -40,7 +40,16 @@
     "region": "Russia",
     "name": "Tsardom of Russia"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q2360773",
+      "name": "Ibak Khan"
+    },
+    {
+      "id": "Q138237",
+      "name": "Kuchum Khan"
+    }
+  ],
   "modern_countries": [
     "Russia"
   ],

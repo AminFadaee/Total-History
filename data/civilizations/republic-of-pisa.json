@@ -1,0 +1,79 @@
+{
+  "id": "Q1365493",
+  "slug": "republic-of-pisa",
+  "name": "Republic of Pisa",
+  "wikipedia": "Republic of Pisa",
+  "map_year": 1260,
+  "period": {
+    "start": {
+      "earliest": 1000,
+      "latest": 1000,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1406,
+      "latest": 1406,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Pisa",
+      "location": [
+        10.4,
+        43.716666666667
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q148540",
+    "region": "Italy",
+    "name": "Republic of Florence"
+  },
+  "rulers": [
+    {
+      "id": "Q16558276",
+      "name": "Gabriele Maria Visconti"
+    }
+  ],
+  "modern_countries": [
+    "Italy",
+    "France"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/republic-of-pisa.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pisa"
+      ],
+      "infobox": [
+        "Pisa"
+      ]
+    },
+    "cliopatria_years": [
+      1010,
+      1401
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Pisa",
+    "labelled": [
+      "Holy Roman Empire Minor States",
+      "Republic of Florence",
+      "Kingdom of Sicily",
+      "Crown of Aragon",
+      "Capetian House of Anjou",
+      "Banate of Bosnia",
+      "Papal States",
+      "County of Auvergne",
+      "County of Périgord",
+      "County of Savoy",
+      "County of Armagnac"
+    ]
+  }
+}

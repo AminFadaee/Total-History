@@ -37,7 +37,16 @@
     "region": "China",
     "name": "Han Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q7192",
+      "name": "Qin Shi Huang"
+    },
+    {
+      "id": "Q7196",
+      "name": "Qin Er Shi"
+    }
+  ],
   "modern_countries": [
     "China"
   ],

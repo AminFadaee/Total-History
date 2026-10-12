@@ -27,13 +27,22 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q13426199",
+    "region": "China",
+    "name": "Republic of China"
+  },
   "after": {
     "id": "Q13426199",
     "region": "China",
     "name": "Republic of China"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q210329",
+      "name": "Yuan Shikai"
+    }
+  ],
   "modern_countries": [
     "China"
   ],

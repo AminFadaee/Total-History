@@ -37,7 +37,16 @@
     "region": "China",
     "name": "Republic of China"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q310453",
+      "name": "Shunzhi Emperor"
+    },
+    {
+      "id": "Q185152",
+      "name": "Puyi"
+    }
+  ],
   "modern_countries": [
     "China",
     "Mongolia",

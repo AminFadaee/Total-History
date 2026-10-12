@@ -36,7 +36,20 @@
     "region": "Georgia",
     "name": "Kingdom of Kartli"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q467266",
+      "name": "Bagrat III of Georgia"
+    },
+    {
+      "id": "Q2914978",
+      "name": "George VIII"
+    },
+    {
+      "id": "Q2663461",
+      "name": "Constantine II of Georgia"
+    }
+  ],
   "modern_countries": [
     "Georgia",
     "Azerbaijan",

@@ -13,7 +13,22 @@
     },
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Oyo-Ile",
+      "location": [
+        3.9360555555556,
+        7.8436111111111
+      ]
+    },
+    {
+      "name": "Igboho",
+      "location": [
+        3.75,
+        8.83333333
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -52,7 +67,7 @@
       1835
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Oyo-Ile",
     "labelled": [
       "Ashanti Empire"
     ]

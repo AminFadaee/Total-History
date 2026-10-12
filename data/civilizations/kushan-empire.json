@@ -17,7 +17,36 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Bagram",
+      "location": [
+        69.23333333333333,
+        34.93333333333333
+      ]
+    },
+    {
+      "name": "Pushkalavati",
+      "location": [
+        71.736,
+        34.168
+      ]
+    },
+    {
+      "name": "Mathura",
+      "location": [
+        77.673673,
+        27.4924134
+      ]
+    },
+    {
+      "name": "Taxila",
+      "location": [
+        72.7875,
+        33.745833333333
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q1255614",
@@ -29,7 +58,12 @@
     "region": "Pakistan",
     "name": "Gupta Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q560157",
+      "name": "Kujula Kadphises"
+    }
+  ],
   "modern_countries": [
     "India",
     "Pakistan",
@@ -60,7 +94,7 @@
       237
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Taxila",
     "labelled": [
       "Parthian Empire",
       "Xianbei",

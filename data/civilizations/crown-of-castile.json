@@ -1,0 +1,103 @@
+{
+  "id": "Q217196",
+  "slug": "crown-of-castile",
+  "name": "Crown of Castile",
+  "wikipedia": "Crown of Castile",
+  "map_year": 1512,
+  "period": {
+    "start": {
+      "earliest": 1230,
+      "latest": 1230,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1716,
+      "latest": 1716,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Madrid",
+      "location": [
+        -3.703333333333333,
+        40.41694444444445
+      ]
+    },
+    {
+      "name": "Valladolid",
+      "location": [
+        -4.7285611111111,
+        41.651980555556
+      ]
+    }
+  ],
+  "parts": [
+    "Kingdom of Castile",
+    "Kingdom of León",
+    "Kingdom of Galicia"
+  ],
+  "before": {
+    "id": "Q179293",
+    "region": "Spain",
+    "name": "Kingdom of Castile"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q243122",
+      "name": "Ferdinand III of Castile"
+    },
+    {
+      "id": "Q45859",
+      "name": "Isabella I of Castile"
+    },
+    {
+      "id": "Q12860",
+      "name": "Ferdinand II of Aragon"
+    }
+  ],
+  "modern_countries": [
+    "Spain"
+  ],
+  "overseas_countries": [
+    "Dominican Republic",
+    "Haiti",
+    "Jamaica",
+    "Puerto Rico"
+  ],
+  "borders": true,
+  "map": "maps/crown-of-castile.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Valladolid",
+        "Madrid"
+      ],
+      "infobox": [
+        "Madrid",
+        "Valladolid"
+      ]
+    },
+    "cliopatria_years": [
+      1236,
+      1515
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Madrid",
+    "labelled": [
+      "Hafsid Dynasty",
+      "Kingdom of France",
+      "Crown of Aragon",
+      "Wattasid dynasty",
+      "Zayyanid dynasty",
+      "Kingdom of Portugal",
+      "County of Foix",
+      "House of Bourbon",
+      "Papal States",
+      "Duchy of Savoy"
+    ]
+  }
+}

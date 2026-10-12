@@ -37,7 +37,28 @@
     "region": "China",
     "name": "Southern Qi"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q49702",
+      "name": "Emperor Wen of Song"
+    },
+    {
+      "id": "Q718246",
+      "name": "Emperor Xiaowu of Song"
+    },
+    {
+      "id": "Q718195",
+      "name": "Emperor Ming of Song"
+    },
+    {
+      "id": "Q717946",
+      "name": "Latter Deposed Emperor of Liu Song"
+    },
+    {
+      "id": "Q718210",
+      "name": "Emperor Shun of Song"
+    }
+  ],
   "modern_countries": [
     "China"
   ],

@@ -39,7 +39,11 @@
     "region": "Palestine",
     "name": "Kingdom of Israel"
   },
-  "after": {},
+  "after": {
+    "id": "Q10914393",
+    "region": "Palestine",
+    "name": "Neo-Assyrian Empire"
+  },
   "rulers": [
     {
       "id": "Q313219",

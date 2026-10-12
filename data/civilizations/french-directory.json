@@ -32,7 +32,11 @@
     "region": "France",
     "name": "Kingdom of France"
   },
-  "after": {},
+  "after": {
+    "id": "Q71084",
+    "region": "France",
+    "name": "First French Empire"
+  },
   "rulers": [
     {
       "id": "Q517",

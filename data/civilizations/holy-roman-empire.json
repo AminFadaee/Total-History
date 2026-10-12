@@ -17,14 +17,54 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Aachen",
+      "location": [
+        6.083788,
+        50.776207
+      ]
+    },
+    {
+      "name": "Prague",
+      "location": [
+        14.421388888888888,
+        50.0875
+      ]
+    },
+    {
+      "name": "Vienna",
+      "location": [
+        16.3725,
+        48.208333333333336
+      ]
+    },
+    {
+      "name": "Regensburg",
+      "location": [
+        12.083333333333334,
+        49.016666666666666
+      ]
+    },
+    {
+      "name": "Wetzlar",
+      "location": [
+        8.5,
+        50.56666666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q175211",
     "region": "Germany",
     "name": "Kingdom of Germany"
   },
-  "after": {},
+  "after": {
+    "id": "Q20135",
+    "region": "Germany",
+    "name": "Grand Duchy of Hesse"
+  },
   "rulers": [
     {
       "id": "Q3044",
@@ -81,7 +121,7 @@
       1621
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Wetzlar",
     "labelled": [
       "Angevin Empire",
       "Kingdom of Hungary",

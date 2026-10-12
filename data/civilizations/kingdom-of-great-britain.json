@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "London",
+      "location": [
+        -0.1275,
+        51.507222222222
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q179876",
@@ -67,7 +75,7 @@
       1801
     ],
     "identity": "Wikidata state named like the Cliopatria polity",
-    "home": "the spot held longest",
+    "home": "London",
     "labelled": [
       "Habsburg Monarchy",
       "French First Republic",

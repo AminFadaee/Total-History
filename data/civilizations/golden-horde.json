@@ -26,7 +26,20 @@
     "name": "Mongol Empire"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q309585",
+      "name": "Tokhtamysh"
+    },
+    {
+      "id": "Q541678",
+      "name": "Mahmud bin Küchük"
+    },
+    {
+      "id": "Q368887",
+      "name": "Sheikh Ahmed"
+    }
+  ],
   "modern_countries": [
     "Kazakhstan",
     "Russia",

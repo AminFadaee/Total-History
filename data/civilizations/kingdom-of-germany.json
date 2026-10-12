@@ -9,7 +9,15 @@
     "end": null,
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Regensburg",
+      "location": [
+        12.083333333333334,
+        49.016666666666666
+      ]
+    }
+  ],
   "parts": [
     "Duchy of Lorraine",
     "Duchy of Bavaria"
@@ -52,7 +60,7 @@
       961
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Regensburg",
     "labelled": [
       "West Franks",
       "Principality of Hungary",

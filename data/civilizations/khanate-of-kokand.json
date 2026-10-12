@@ -33,7 +33,28 @@
     "name": "Khanate of Bukhara"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q4521373",
+      "name": "Shahrukh of Kokand"
+    },
+    {
+      "id": "Q4054629",
+      "name": "Abd al-Rahim Biy"
+    },
+    {
+      "id": "Q20102266",
+      "name": "Shir Ali Khan"
+    },
+    {
+      "id": "Q6402843",
+      "name": "Muhammad Khudayar Khan"
+    },
+    {
+      "id": "Q11938431",
+      "name": "Nasruddin Khan"
+    }
+  ],
   "modern_countries": [
     "Kazakhstan",
     "Kyrgyzstan",

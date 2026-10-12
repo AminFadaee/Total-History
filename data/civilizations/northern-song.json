@@ -39,8 +39,21 @@
     "region": "China",
     "name": "Wuyue"
   },
-  "after": {},
-  "rulers": [],
+  "after": {
+    "id": "Q7313",
+    "region": "China",
+    "name": "Yuan Dynasty"
+  },
+  "rulers": [
+    {
+      "id": "Q7471",
+      "name": "Emperor Taizu of Song"
+    },
+    {
+      "id": "Q7489",
+      "name": "Emperor Gaozong of Song"
+    }
+  ],
   "modern_countries": [
     "China"
   ],

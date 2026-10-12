@@ -33,7 +33,28 @@
     "name": "Pyu City-States"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q45241",
+      "name": "Anawrahta"
+    },
+    {
+      "id": "Q887132",
+      "name": "Kyansittha"
+    },
+    {
+      "id": "Q887114",
+      "name": "Alaungsithu"
+    },
+    {
+      "id": "Q3182709",
+      "name": "Narapatisithu"
+    },
+    {
+      "id": "Q574724",
+      "name": "Narathihapate"
+    }
+  ],
   "modern_countries": [
     "Myanmar"
   ],

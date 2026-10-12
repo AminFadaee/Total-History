@@ -51,7 +51,28 @@
     "region": "China",
     "name": "Cao Wei"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q7210",
+      "name": "Emperor Gaozu of Han"
+    },
+    {
+      "id": "Q7225",
+      "name": "Emperor Wu of Han"
+    },
+    {
+      "id": "Q7230",
+      "name": "Emperor Xuan of Han"
+    },
+    {
+      "id": "Q7268",
+      "name": "Emperor Guangwu of Han"
+    },
+    {
+      "id": "Q7316",
+      "name": "Emperor Xian of Han"
+    }
+  ],
   "modern_countries": [
     "China"
   ],

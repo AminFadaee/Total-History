@@ -37,7 +37,24 @@
     "region": "China",
     "name": "Qing Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q1352743",
+      "name": "Hongguang Emperor"
+    },
+    {
+      "id": "Q45697",
+      "name": "Longwu Emperor"
+    },
+    {
+      "id": "Q1046002",
+      "name": "Shaowu Emperor"
+    },
+    {
+      "id": "Q1326844",
+      "name": "Yongli Emperor"
+    }
+  ],
   "modern_countries": [
     "China"
   ],

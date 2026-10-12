@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Guangzhou",
+      "location": [
+        113.26,
+        23.13
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
@@ -25,7 +33,28 @@
     "region": "China",
     "name": "Han Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q701895",
+      "name": "Zhao Tuo"
+    },
+    {
+      "id": "Q888526",
+      "name": "Zhao Mo"
+    },
+    {
+      "id": "Q839134",
+      "name": "Zhao Yingqi"
+    },
+    {
+      "id": "Q839161",
+      "name": "Zhao Xing"
+    },
+    {
+      "id": "Q839130",
+      "name": "Zhao Jiande"
+    }
+  ],
   "modern_countries": [
     "China",
     "Vietnam"
@@ -48,7 +77,7 @@
       -111
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Guangzhou",
     "labelled": [
       "Han Dynasty"
     ]

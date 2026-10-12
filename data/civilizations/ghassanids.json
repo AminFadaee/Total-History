@@ -33,7 +33,12 @@
     "region": "Saudi Arabia",
     "name": "Rashidun Caliphate"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q2083483",
+      "name": "Jabala ibn al-Ayham"
+    }
+  ],
   "modern_countries": [
     "Saudi Arabia",
     "Jordan",

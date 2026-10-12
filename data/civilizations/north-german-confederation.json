@@ -37,7 +37,12 @@
     "region": "Germany",
     "name": "German Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q150652",
+      "name": "Wilhelm I"
+    }
+  ],
   "modern_countries": [
     "Germany",
     "Poland",

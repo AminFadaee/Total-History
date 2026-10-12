@@ -17,7 +17,29 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Manyakheta",
+      "location": [
+        77.160833333333,
+        17.195
+      ]
+    },
+    {
+      "name": "Basavakalyan",
+      "location": [
+        76.95,
+        17.87
+      ]
+    },
+    {
+      "name": "Badami",
+      "location": [
+        75.68027778,
+        15.92027778
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q1479952",
@@ -29,7 +51,16 @@
     "region": "India",
     "name": "Rashtrakuta Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q7259171",
+      "name": "Pulakeshin I"
+    },
+    {
+      "id": "Q707430",
+      "name": "Kirtivarman II"
+    }
+  ],
   "modern_countries": [
     "India"
   ],
@@ -52,7 +83,7 @@
       756
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Badami",
     "labelled": [
       "Harsha's Empire",
       "Maitraka Dynasty",

@@ -44,7 +44,12 @@
     "region": "Afghanistan",
     "name": "Emirate of Afghanistan"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q46798",
+      "name": "Ahmad Shah Durrani"
+    }
+  ],
   "modern_countries": [
     "Pakistan",
     "Afghanistan",

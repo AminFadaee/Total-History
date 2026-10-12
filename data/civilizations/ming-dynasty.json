@@ -44,7 +44,16 @@
     "region": "China",
     "name": "Southern Ming"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q9957",
+      "name": "Hongwu Emperor"
+    },
+    {
+      "id": "Q10069",
+      "name": "Chongzhen Emperor"
+    }
+  ],
   "modern_countries": [
     "China",
     "Russia"

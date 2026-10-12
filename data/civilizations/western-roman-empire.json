@@ -40,7 +40,32 @@
     "name": "Roman Empire"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q159798",
+      "name": "Honorius"
+    },
+    {
+      "id": "Q170026",
+      "name": "Valentinian III"
+    },
+    {
+      "id": "Q191956",
+      "name": "Majorian"
+    },
+    {
+      "id": "Q211772",
+      "name": "Anthemius"
+    },
+    {
+      "id": "Q103860",
+      "name": "Julius Nepos"
+    },
+    {
+      "id": "Q130601",
+      "name": "Romulus Augustulus"
+    }
+  ],
   "modern_countries": [
     "France",
     "Spain",

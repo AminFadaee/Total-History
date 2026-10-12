@@ -44,7 +44,12 @@
     "region": "Uzbekistan",
     "name": "Kara-Khanids"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q307293",
+      "name": "Abd al-Malik II"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Afghanistan",

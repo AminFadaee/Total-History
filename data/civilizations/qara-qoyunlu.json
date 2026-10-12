@@ -47,7 +47,16 @@
     "region": "Turkey",
     "name": "Aq Qoyunlu"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q1703437",
+      "name": "Bayram Khwaja"
+    },
+    {
+      "id": "Q611383",
+      "name": "Hasan Ali"
+    }
+  ],
   "modern_countries": [
     "Iraq",
     "Iran",

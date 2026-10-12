@@ -37,7 +37,16 @@
     "region": "Russia",
     "name": "Tsardom of Russia"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q2039445",
+      "name": "Ulugh Muhammad"
+    },
+    {
+      "id": "Q2640696",
+      "name": "Yadegar Mokhammad of Kazan"
+    }
+  ],
   "modern_countries": [
     "Russia"
   ],

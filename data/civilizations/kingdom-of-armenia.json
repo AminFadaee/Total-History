@@ -35,8 +35,45 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
-  "rulers": [],
+  "after": {
+    "id": "Q2571688",
+    "region": "Armenia",
+    "name": "Sasanian Armenia"
+  },
+  "rulers": [
+    {
+      "id": "Q1342141",
+      "name": "Orontes III"
+    },
+    {
+      "id": "Q319478",
+      "name": "Artaxias I"
+    },
+    {
+      "id": "Q201303",
+      "name": "Tigranes the Great"
+    },
+    {
+      "id": "Q363394",
+      "name": "Artavasdes II of Armenia"
+    },
+    {
+      "id": "Q317042",
+      "name": "Tiridates I of Armenia"
+    },
+    {
+      "id": "Q172520",
+      "name": "Tiridates III of Armenia"
+    },
+    {
+      "id": "Q196217",
+      "name": "Vramshapuh"
+    },
+    {
+      "id": "Q2632689",
+      "name": "Artaxias IV"
+    }
+  ],
   "modern_countries": [
     "Turkey",
     "Syria",

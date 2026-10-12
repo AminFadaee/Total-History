@@ -17,11 +17,33 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Tournai",
+      "location": [
+        3.388055555555556,
+        50.605555555555554
+      ]
+    },
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    },
+    {
+      "name": "Aachen",
+      "location": [
+        6.083788,
+        50.776207
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q42834",
-    "region": "Belgium",
+    "region": "Germany",
     "name": "Western Roman Empire"
   },
   "after": {},
@@ -29,6 +51,18 @@
     {
       "id": "Q82339",
       "name": "Clovis I"
+    },
+    {
+      "id": "Q150735",
+      "name": "Lothair I"
+    },
+    {
+      "id": "Q152463",
+      "name": "Louis the German"
+    },
+    {
+      "id": "Q71231",
+      "name": "Charles the Bald"
     }
   ],
   "modern_countries": [
@@ -64,7 +98,7 @@
       849
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Aachen",
     "labelled": [
       "Emirate of Córdoba",
       "First Bulgarian Empire",

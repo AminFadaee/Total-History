@@ -37,7 +37,12 @@
     "region": "Morocco",
     "name": "Republic of Salé"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q9592784",
+      "name": "Ahmad al-Abbas"
+    }
+  ],
   "modern_countries": [
     "Morocco",
     "Mali",

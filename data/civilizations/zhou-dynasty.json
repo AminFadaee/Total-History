@@ -17,15 +17,35 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Wangcheng",
+      "location": [
+        112.41452,
+        34.66768
+      ]
+    },
+    {
+      "name": "Luoyang",
+      "location": [
+        112.42447,
+        34.65867
+      ]
+    }
+  ],
   "parts": [],
-  "before": {
-    "id": "Q128938",
-    "region": "China",
-    "name": "Shang Dynasty"
-  },
+  "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q1193397",
+      "name": "King You of Zhou"
+    },
+    {
+      "id": "Q1193546",
+      "name": "King Ping of Zhou"
+    }
+  ],
   "modern_countries": [
     "China"
   ],
@@ -49,7 +69,7 @@
       -751
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Wangcheng",
     "labelled": []
   }
 }

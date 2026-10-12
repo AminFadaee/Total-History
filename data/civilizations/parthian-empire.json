@@ -51,7 +51,16 @@
     "region": "Turkmenistan",
     "name": "Sasanian Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q315913",
+      "name": "Arsaces I of Parthia"
+    },
+    {
+      "id": "Q316067",
+      "name": "Artabanus IV of Parthia"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Turkmenistan",

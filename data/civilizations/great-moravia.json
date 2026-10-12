@@ -17,10 +17,22 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Mikulčice",
+      "location": [
+        17.051058436611,
+        48.816445716431
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q2899771",
+    "region": "Czechia",
+    "name": "Principality of Hungary"
+  },
   "rulers": [
     {
       "id": "Q433975",
@@ -37,6 +49,10 @@
     {
       "id": "Q551716",
       "name": "Mojmir II of Moravia"
+    },
+    {
+      "id": "Q1354477",
+      "name": "Slavomir of Moravia"
     }
   ],
   "modern_countries": [
@@ -65,7 +81,7 @@
       910
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Mikulčice",
     "labelled": [
       "East Franks",
       "Magyars",

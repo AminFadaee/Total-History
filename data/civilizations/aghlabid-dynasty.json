@@ -37,7 +37,16 @@
     "region": "Tunisia",
     "name": "Fatimid Caliphate"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q692718",
+      "name": "Ibrahim I ibn al-Aghlab"
+    },
+    {
+      "id": "Q207019",
+      "name": "Ziyadat Allah III of Ifriqiya"
+    }
+  ],
   "modern_countries": [
     "Tunisia",
     "Libya",

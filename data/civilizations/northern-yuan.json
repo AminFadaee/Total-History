@@ -33,7 +33,20 @@
     "region": "Mongolia",
     "name": "Four Oirats"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q8916",
+      "name": "Biligtü Khan Ayushiridara"
+    },
+    {
+      "id": "Q8937",
+      "name": "Uskhal Khan Tögüs Temür"
+    },
+    {
+      "id": "Q9263",
+      "name": "Esen Taishi"
+    }
+  ],
   "modern_countries": [
     "Mongolia",
     "Russia",

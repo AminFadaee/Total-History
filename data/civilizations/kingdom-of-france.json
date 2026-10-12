@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q46370",
@@ -33,6 +41,10 @@
     {
       "id": "Q7758",
       "name": "Charles X of France"
+    },
+    {
+      "id": "Q159575",
+      "name": "Hugh Capet"
     }
   ],
   "modern_countries": [
@@ -60,7 +72,7 @@
       1791
     ],
     "identity": "Wikipedia item with overlapping dates",
-    "home": "the spot held longest",
+    "home": "Paris",
     "labelled": [
       "Habsburg Monarchy",
       "Kingdom of Spain",

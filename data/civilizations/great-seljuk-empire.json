@@ -65,7 +65,16 @@
     "region": "Iran",
     "name": "Khwarezmid Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q293626",
+      "name": "Al-Qa'im"
+    },
+    {
+      "id": "Q284750",
+      "name": "Al-Nasir"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Turkey",

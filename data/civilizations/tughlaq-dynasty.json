@@ -37,7 +37,16 @@
     "region": "India",
     "name": "Sayyid Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q381830",
+      "name": "Muhammad bin Tughluq"
+    },
+    {
+      "id": "Q455442",
+      "name": "Firuz Shah Tughlaq"
+    }
+  ],
   "modern_countries": [
     "India",
     "Pakistan",

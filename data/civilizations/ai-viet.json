@@ -13,15 +13,45 @@
     },
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Hoa Lư Ancient Capital",
+      "location": [
+        105.95416667,
+        20.25527778
+      ]
+    },
+    {
+      "name": "Hanoi",
+      "location": [
+        105.84117,
+        21.0245
+      ]
+    },
+    {
+      "name": "Citadel of the Hồ Dynasty",
+      "location": [
+        105.60472222222,
+        20.078055555556
+      ]
+    },
+    {
+      "name": "Phú Xuân",
+      "location": [
+        107.58333333333333,
+        16.466666666666665
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q6500483",
-    "region": "Vietnam",
-    "name": "Nguyễn dynasty"
-  },
-  "rulers": [],
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q210417",
+      "name": "Gia Long"
+    }
+  ],
   "modern_countries": [
     "Vietnam"
   ],
@@ -46,7 +76,7 @@
       1833
     ],
     "identity": "Wikipedia item with overlapping dates",
-    "home": "the spot held longest",
+    "home": "Hoa Lư Ancient Capital",
     "labelled": [
       "Ming Dynasty",
       "Lan Xang",

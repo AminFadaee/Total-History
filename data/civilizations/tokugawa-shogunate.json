@@ -33,7 +33,16 @@
     "region": "Japan",
     "name": "Empire of Japan"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q349440",
+      "name": "Emperor Go-Yōzei"
+    },
+    {
+      "id": "Q174231",
+      "name": "Emperor Meiji"
+    }
+  ],
   "modern_countries": [
     "Japan",
     "Russia"

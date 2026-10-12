@@ -37,7 +37,36 @@
     "region": "Thailand",
     "name": "Kingdom of Thailand"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q310992",
+      "name": "Rama I"
+    },
+    {
+      "id": "Q319675",
+      "name": "Rama II"
+    },
+    {
+      "id": "Q319669",
+      "name": "Rama III"
+    },
+    {
+      "id": "Q312849",
+      "name": "Mongkut"
+    },
+    {
+      "id": "Q158861",
+      "name": "Chulalongkorn"
+    },
+    {
+      "id": "Q161389",
+      "name": "Vajiravudh"
+    },
+    {
+      "id": "Q313124",
+      "name": "Prajadhipok"
+    }
+  ],
   "modern_countries": [
     "Thailand",
     "Laos",

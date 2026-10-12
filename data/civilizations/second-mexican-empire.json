@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Mexico City",
+      "location": [
+        -99.13589,
+        19.353773
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q7443295",
@@ -50,7 +58,7 @@
       1867
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Mexico City",
     "labelled": [
       "United States of America",
       "Confederate States of America",

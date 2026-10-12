@@ -40,7 +40,16 @@
     "name": "Sikh Confederacy"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q332620",
+      "name": "Ranjit Singh"
+    },
+    {
+      "id": "Q333140",
+      "name": "Duleep Singh"
+    }
+  ],
   "modern_countries": [
     "Pakistan",
     "India"

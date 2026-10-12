@@ -30,7 +30,12 @@
     "region": "Afghanistan",
     "name": "Khwarezmid Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q5662009",
+      "name": "Zia al-Din Ali"
+    }
+  ],
   "modern_countries": [
     "Pakistan",
     "India",

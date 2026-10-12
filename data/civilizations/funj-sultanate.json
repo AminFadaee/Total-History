@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Sennar",
+      "location": [
+        33.6,
+        13.55
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -50,7 +58,7 @@
       1821
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Sennar",
     "labelled": [
       "Makuria Kingdom",
       "Ethiopian Empire",

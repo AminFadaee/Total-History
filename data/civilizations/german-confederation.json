@@ -25,7 +25,20 @@
     "name": "Confederation of the Rhine"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q130834",
+      "name": "Francis II, Holy Roman Emperor"
+    },
+    {
+      "id": "Q183579",
+      "name": "Ferdinand I of Austria"
+    },
+    {
+      "id": "Q51056",
+      "name": "Franz Joseph I"
+    }
+  ],
   "modern_countries": [
     "Germany",
     "Poland",

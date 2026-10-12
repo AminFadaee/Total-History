@@ -33,7 +33,16 @@
     "name": "Tây Sơn dynasty"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q210417",
+      "name": "Gia Long"
+    },
+    {
+      "id": "Q465598",
+      "name": "Hiệp Hòa"
+    }
+  ],
   "modern_countries": [
     "Vietnam"
   ],

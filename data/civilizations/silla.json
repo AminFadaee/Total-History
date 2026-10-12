@@ -13,7 +13,15 @@
     "end": null,
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Gyeongju",
+      "location": [
+        129.21666666667,
+        35.85
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q701273",
@@ -25,7 +33,24 @@
     "region": "South Korea",
     "name": "Unified Silla"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q492831",
+      "name": "Naemul of Silla"
+    },
+    {
+      "id": "Q488385",
+      "name": "Jinheung of Silla"
+    },
+    {
+      "id": "Q494525",
+      "name": "Muyeol of Silla"
+    },
+    {
+      "id": "Q494532",
+      "name": "Munmu of Silla"
+    }
+  ],
   "modern_countries": [
     "South Korea",
     "North Korea"
@@ -48,7 +73,7 @@
       681
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Gyeongju",
     "labelled": [
       "Tang Dynasty",
       "Asuka Japan"

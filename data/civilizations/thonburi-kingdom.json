@@ -37,7 +37,12 @@
     "region": "Thailand",
     "name": "Rattanakosin Kingdom"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q320097",
+      "name": "Taksin"
+    }
+  ],
   "modern_countries": [
     "Thailand"
   ],

@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Dunadd",
+      "location": [
+        -5.47892312327,
+        56.0857322756
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -50,7 +58,7 @@
       843
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Dunadd",
     "labelled": [
       "Kingdom of Northumbria"
     ]

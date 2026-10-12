@@ -27,9 +27,22 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q83958",
+    "region": "Egypt",
+    "name": "Macedonian Empire"
+  },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q168261",
+      "name": "Ptolemy I Soter"
+    },
+    {
+      "id": "Q635",
+      "name": "Cleopatra"
+    }
+  ],
   "modern_countries": [
     "Egypt",
     "Turkey",

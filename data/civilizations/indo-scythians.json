@@ -17,15 +17,46 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Ujjain",
+      "location": [
+        75.777222222222,
+        23.182777777778
+      ]
+    },
+    {
+      "name": "Mathura",
+      "location": [
+        77.673673,
+        27.4924134
+      ]
+    },
+    {
+      "name": "Taxila",
+      "location": [
+        72.7875,
+        33.745833333333
+      ]
+    }
+  ],
   "parts": [],
-  "before": {},
-  "after": {
-    "id": "Q83891",
-    "region": "Afghanistan",
-    "name": "Sasanian Empire"
+  "before": {
+    "id": "Q215643",
+    "region": "India",
+    "name": "Indo-Greeks"
   },
-  "rulers": [],
+  "after": {
+    "id": "Q25979",
+    "region": "India",
+    "name": "Kushan Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q1911068",
+      "name": "Maues"
+    }
+  ],
   "modern_countries": [
     "India",
     "Pakistan",
@@ -51,7 +82,7 @@
       282
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Mathura",
     "labelled": [
       "Parthian Empire",
       "Kanva Dynasty",

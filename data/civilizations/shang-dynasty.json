@@ -33,7 +33,20 @@
     "region": "China",
     "name": "Zhou Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q471820",
+      "name": "Tang of Shang"
+    },
+    {
+      "id": "Q369159",
+      "name": "Wu Ding"
+    },
+    {
+      "id": "Q470072",
+      "name": "Di Xin"
+    }
+  ],
   "modern_countries": [
     "China"
   ],

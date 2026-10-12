@@ -39,7 +39,16 @@
     "region": "Denmark",
     "name": "Denmark-Norway"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q161958",
+      "name": "Erik of Pomerania"
+    },
+    {
+      "id": "Q154460",
+      "name": "Christian II of Denmark"
+    }
+  ],
   "modern_countries": [
     "Sweden",
     "Norway",

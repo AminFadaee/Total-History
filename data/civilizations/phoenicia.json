@@ -13,7 +13,29 @@
     },
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Byblos",
+      "location": [
+        35.65,
+        34.116666666667
+      ]
+    },
+    {
+      "name": "Sidon",
+      "location": [
+        35.37583333333333,
+        33.56055555555555
+      ]
+    },
+    {
+      "name": "Tyre",
+      "location": [
+        35.2,
+        33.266666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q180568",
@@ -21,17 +43,22 @@
     "name": "New Kingdom of Egypt"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q467115",
+      "name": "Hiram I"
+    }
+  ],
   "modern_countries": [
+    "Lebanon",
+    "Syria"
+  ],
+  "overseas_countries": [
     "Italy",
     "Libya",
     "Spain",
     "Morocco",
     "Malta"
-  ],
-  "overseas_countries": [
-    "Lebanon",
-    "Syria"
   ],
   "borders": true,
   "map": "maps/phoenicia.png",
@@ -50,9 +77,9 @@
       -501
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Byblos",
     "labelled": [
-      "Etruscans"
+      "Neo-Assyrian Empire"
     ]
   }
 }

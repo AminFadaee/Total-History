@@ -37,7 +37,12 @@
     "region": "India",
     "name": "Maurya Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q3267658",
+      "name": "Mahapadma Nanda"
+    }
+  ],
   "modern_countries": [
     "India",
     "Pakistan",

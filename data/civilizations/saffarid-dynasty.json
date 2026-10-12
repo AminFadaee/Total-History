@@ -37,7 +37,12 @@
     "region": "Afghanistan",
     "name": "Samanid Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q45261",
+      "name": "Ya'qub ibn al-Layth al-Saffar"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Afghanistan",

@@ -33,7 +33,28 @@
     "region": "Uzbekistan",
     "name": "Emirate of Bukhara"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q317649",
+      "name": "Abdullah Khan II"
+    },
+    {
+      "id": "Q4075881",
+      "name": "Baqi Muhammad Khan"
+    },
+    {
+      "id": "Q3656289",
+      "name": "Vali Muhammad Khan"
+    },
+    {
+      "id": "Q3658808",
+      "name": "Imam Quli Khan of Bukhara"
+    },
+    {
+      "id": "Q4311972",
+      "name": "Nadr Muhammad Khan"
+    }
+  ],
   "modern_countries": [
     "Turkmenistan",
     "Uzbekistan",

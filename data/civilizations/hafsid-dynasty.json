@@ -37,7 +37,16 @@
     "region": "Tunisia",
     "name": "Ottoman Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q29480",
+      "name": "Abu Zakariya Yahya"
+    },
+    {
+      "id": "Q2822167",
+      "name": "Abu Abdallah Muhammad VI ibn al-Hasan"
+    }
+  ],
   "modern_countries": [
     "Tunisia",
     "Algeria",

@@ -17,14 +17,26 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q146246",
     "region": "France",
     "name": "Kingdom of the Franks"
   },
-  "after": {},
+  "after": {
+    "id": "Q70972",
+    "region": "France",
+    "name": "Kingdom of France"
+  },
   "rulers": [
     {
       "id": "Q71231",
@@ -67,7 +79,7 @@
       989
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Paris",
     "labelled": [
       "First Bulgarian Empire",
       "Great Moravia",

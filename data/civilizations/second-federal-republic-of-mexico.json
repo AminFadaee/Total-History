@@ -33,7 +33,48 @@
     "name": "Centralist Mexico"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q1837971",
+      "name": "José Mariano Salas"
+    },
+    {
+      "id": "Q358534",
+      "name": "Valentín Gómez Farías"
+    },
+    {
+      "id": "Q189145",
+      "name": "Antonio López de Santa Anna"
+    },
+    {
+      "id": "Q2208980",
+      "name": "Pedro María de Anaya"
+    },
+    {
+      "id": "Q561564",
+      "name": "Manuel de la Peña y Peña"
+    },
+    {
+      "id": "Q373622",
+      "name": "José Joaquín de Herrera"
+    },
+    {
+      "id": "Q431576",
+      "name": "Mariano Arista"
+    },
+    {
+      "id": "Q460776",
+      "name": "Juan Álvarez"
+    },
+    {
+      "id": "Q449399",
+      "name": "Ignacio Comonfort"
+    },
+    {
+      "id": "Q182276",
+      "name": "Benito Juárez"
+    }
+  ],
   "modern_countries": [
     "Mexico",
     "United States"

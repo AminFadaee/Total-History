@@ -33,7 +33,24 @@
     "region": "France",
     "name": "Second French Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q2309694",
+      "name": "Jacques-Charles Dupont de l'Eure"
+    },
+    {
+      "id": "Q154353",
+      "name": "François Arago"
+    },
+    {
+      "id": "Q379702",
+      "name": "Louis-Eugène Cavaignac"
+    },
+    {
+      "id": "Q7721",
+      "name": "Napoleon III"
+    }
+  ],
   "modern_countries": [
     "France"
   ],

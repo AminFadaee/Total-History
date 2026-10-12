@@ -1,0 +1,79 @@
+{
+  "id": "Q837855",
+  "slug": "qi",
+  "name": "Qi",
+  "wikipedia": "Qi (state)",
+  "map_year": -284,
+  "period": {
+    "start": {
+      "earliest": -1046,
+      "latest": -1046,
+      "circa": false
+    },
+    "end": {
+      "earliest": -221,
+      "latest": -221,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Ancient Linzi",
+      "location": [
+        118.337908,
+        36.889756
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q7183",
+    "region": "China",
+    "name": "Qin Dynasty"
+  },
+  "rulers": [
+    {
+      "id": "Q470108",
+      "name": "Duke Huan of Qi"
+    },
+    {
+      "id": "Q709736",
+      "name": "Duke Jing of Qi"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/qi.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ancient Linzi"
+      ],
+      "infobox": [
+        "Pugu",
+        "Ancient Linzi"
+      ]
+    },
+    "cliopatria_years": [
+      -750,
+      -204
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "Ancient Linzi",
+    "labelled": [
+      "Chu",
+      "Wei",
+      "Yan",
+      "Zhao",
+      "Han",
+      "Wey",
+      "Lu"
+    ]
+  }
+}

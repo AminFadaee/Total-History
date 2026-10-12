@@ -33,7 +33,16 @@
     "region": "Russia",
     "name": "Grand Principality of Moscow"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q2635189",
+      "name": "Sviatoslav Olgovich"
+    },
+    {
+      "id": "Q171185",
+      "name": "Ivan III of Russia"
+    }
+  ],
   "modern_countries": [
     "Russia"
   ],

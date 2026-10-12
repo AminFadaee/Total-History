@@ -1,0 +1,62 @@
+{
+  "id": "Q774",
+  "slug": "guatemala",
+  "name": "Guatemala",
+  "wikipedia": "Guatemala",
+  "map_year": 1913,
+  "period": {
+    "start": {
+      "earliest": 1821,
+      "latest": 1821,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Guatemala City",
+      "location": [
+        -90.51333333333334,
+        14.641666666666667
+      ]
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q190025",
+    "region": "Guatemala",
+    "name": "United Provinces of Central America"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Guatemala"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "map": "maps/guatemala.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Guatemala City"
+      ],
+      "infobox": [
+        "Guatemala City"
+      ]
+    },
+    "cliopatria_years": [
+      1840,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Guatemala City",
+    "labelled": [
+      "Honduras",
+      "Republic of El Salvador",
+      "British Colonial Empire",
+      "Republic of Nicaragua"
+    ]
+  }
+}

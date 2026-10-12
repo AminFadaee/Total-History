@@ -33,7 +33,20 @@
     "region": "Italy",
     "name": "Roman Empire"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q353188",
+      "name": "Lucius Tarquinius Collatinus"
+    },
+    {
+      "id": "Q1405",
+      "name": "Augustus"
+    },
+    {
+      "id": "Q48174",
+      "name": "Marcus Vipsanius Agrippa"
+    }
+  ],
   "modern_countries": [
     "France",
     "Spain",

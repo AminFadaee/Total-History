@@ -33,7 +33,12 @@
     "name": "White Huns"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q154891",
+      "name": "Tardu"
+    }
+  ],
   "modern_countries": [
     "Kazakhstan",
     "Mongolia",

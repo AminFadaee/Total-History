@@ -40,7 +40,12 @@
     "name": "Timurid Empire"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q11947892",
+      "name": "Sayid Abdullah"
+    }
+  ],
   "modern_countries": [
     "Turkmenistan",
     "Uzbekistan",

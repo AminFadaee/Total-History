@@ -13,7 +13,15 @@
     "end": null,
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Amsterdam",
+      "location": [
+        4.883333333333333,
+        52.36666666666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -39,7 +47,7 @@
       2024
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Amsterdam",
     "labelled": [
       "German Confederation",
       "Bourbon Kingdom of France",

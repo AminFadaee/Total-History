@@ -17,11 +17,42 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Hattusa",
+      "location": [
+        34.615277777778,
+        40.019722222222
+      ]
+    },
+    {
+      "name": "Šamuḫa",
+      "location": [
+        36.52815016083427,
+        39.61967189070262
+      ]
+    },
+    {
+      "name": "Tarḫuntašša",
+      "location": [
+        33.16666667,
+        36.86666667
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q313312",
+      "name": "Labarna I"
+    },
+    {
+      "id": "Q316078",
+      "name": "Šuppiluliuma II"
+    }
+  ],
   "modern_countries": [
     "Turkey",
     "Syria"
@@ -46,7 +77,7 @@
       -1151
     ],
     "identity": "Wikipedia article with a country infobox",
-    "home": "the spot held longest",
+    "home": "Hattusa",
     "labelled": [
       "Mitanni",
       "New Kingdom of Egypt",

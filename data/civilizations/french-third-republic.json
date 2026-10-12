@@ -33,7 +33,16 @@
     "name": "Second French Empire"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q441235",
+      "name": "Louis-Jules Trochu"
+    },
+    {
+      "id": "Q158749",
+      "name": "Albert Lebrun"
+    }
+  ],
   "modern_countries": [
     "France"
   ],

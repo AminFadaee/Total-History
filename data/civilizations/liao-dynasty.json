@@ -33,7 +33,44 @@
     "region": "China",
     "name": "Great Jin"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q4989",
+      "name": "Abaoji"
+    },
+    {
+      "id": "Q4991",
+      "name": "Emperor Taizong of Liao"
+    },
+    {
+      "id": "Q4992",
+      "name": "Emperor Shizong of Liao"
+    },
+    {
+      "id": "Q4993",
+      "name": "Emperor Muzong of Liao"
+    },
+    {
+      "id": "Q4997",
+      "name": "Emperor Jingzong of Liao"
+    },
+    {
+      "id": "Q5000",
+      "name": "Emperor Shengzong of Liao"
+    },
+    {
+      "id": "Q5005",
+      "name": "Emperor Xingzong of Liao"
+    },
+    {
+      "id": "Q5007",
+      "name": "Emperor Daozong of Liao"
+    },
+    {
+      "id": "Q5009",
+      "name": "Emperor Tianzuo of Liao"
+    }
+  ],
   "modern_countries": [
     "China",
     "Mongolia",

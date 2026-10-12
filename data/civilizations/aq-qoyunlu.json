@@ -40,7 +40,16 @@
     "region": "Turkey",
     "name": "Safavid Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q600829",
+      "name": "Qara Yuluk Uthman Beg"
+    },
+    {
+      "id": "Q16374330",
+      "name": "Sultan Murad"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Iraq",

@@ -40,7 +40,16 @@
     "region": "Thailand",
     "name": "Ayutthaya Kingdom"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q887310",
+      "name": "Si Inthrathit"
+    },
+    {
+      "id": "Q6581485",
+      "name": "Maha Thammaracha IV"
+    }
+  ],
   "modern_countries": [
     "Thailand",
     "Laos",

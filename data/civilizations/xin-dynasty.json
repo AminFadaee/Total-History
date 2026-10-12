@@ -37,7 +37,12 @@
     "region": "China",
     "name": "Han Dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q7250",
+      "name": "Wang Mang"
+    }
+  ],
   "modern_countries": [
     "China"
   ],

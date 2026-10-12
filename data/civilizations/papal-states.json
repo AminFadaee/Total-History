@@ -33,7 +33,16 @@
     "region": "Italy",
     "name": "Kingdom of Italy"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q211789",
+      "name": "Pope Stephen II"
+    },
+    {
+      "id": "Q43720",
+      "name": "Pope Pius IX"
+    }
+  ],
   "modern_countries": [
     "Italy",
     "San Marino",

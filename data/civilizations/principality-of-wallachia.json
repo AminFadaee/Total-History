@@ -33,7 +33,16 @@
     "region": "Romania",
     "name": "United Principalities of Moldavia and Wallachia"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q1093958",
+      "name": "Radu Negru"
+    },
+    {
+      "id": "Q294832",
+      "name": "Alexandru Ioan Cuza"
+    }
+  ],
   "modern_countries": [
     "Romania"
   ],

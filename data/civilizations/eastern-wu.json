@@ -44,7 +44,24 @@
     "region": "China",
     "name": "Western Jin"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q313327",
+      "name": "Sun Quan"
+    },
+    {
+      "id": "Q470034",
+      "name": "Sun Liang"
+    },
+    {
+      "id": "Q468767",
+      "name": "Sun Xiu"
+    },
+    {
+      "id": "Q470030",
+      "name": "Sun Hao"
+    }
+  ],
   "modern_countries": [
     "China",
     "Vietnam"

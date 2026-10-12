@@ -39,7 +39,12 @@
     "region": "Morocco",
     "name": "Wattasid dynasty"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q307564",
+      "name": "Abd al-Haqq II"
+    }
+  ],
   "modern_countries": [
     "Morocco",
     "Algeria",

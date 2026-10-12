@@ -17,18 +17,38 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Longcheng",
+      "location": [
+        102.5606,
+        48.103
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {
     "id": "Q861054",
-    "region": "Kazakhstan",
+    "region": "Mongolia",
     "name": "Xianbei"
   },
   "rulers": [
     {
       "id": "Q382816",
       "name": "Modu Chanyu"
+    },
+    {
+      "id": "Q719747",
+      "name": "Touman"
+    },
+    {
+      "id": "Q2593729",
+      "name": "Laoshang"
+    },
+    {
+      "id": "Q4469233",
+      "name": "Wudadihou"
     }
   ],
   "modern_countries": [
@@ -55,7 +75,7 @@
       153
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Longcheng",
     "labelled": [
       "Han Dynasty",
       "Yuezhi",

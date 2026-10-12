@@ -40,7 +40,20 @@
     "region": "Germany",
     "name": "Kingdom of Saxony"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q651898",
+      "name": "Albert III of Saxe-Wittenberg"
+    },
+    {
+      "id": "Q704939",
+      "name": "Frederick I, Elector of Saxony"
+    },
+    {
+      "id": "Q53444",
+      "name": "Frederick Augustus I of Saxony"
+    }
+  ],
   "modern_countries": [
     "Germany",
     "Poland"

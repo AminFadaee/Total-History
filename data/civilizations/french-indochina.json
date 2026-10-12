@@ -36,14 +36,24 @@
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q1934639",
+      "name": "Jean Antoine Ernest Constans"
+    },
+    {
+      "id": "Q3131283",
+      "name": "Henri Hoppenot"
+    }
+  ],
   "modern_countries": [
     "Vietnam",
     "Laos",
     "Cambodia"
   ],
   "overseas_countries": [
-    "France"
+    "New Caledonia",
+    "French Southern and Antarctic Lands"
   ],
   "borders": true,
   "map": "maps/french-indochina.png",

@@ -17,7 +17,15 @@
     },
     "confirmed": true
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Memphis",
+      "location": [
+        31.250917,
+        29.844667
+      ]
+    }
+  ],
   "parts": [],
   "before": {
     "id": "Q187979",
@@ -25,7 +33,16 @@
     "name": "Early Dynastic Period of Egypt"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q174367",
+      "name": "Djoser"
+    },
+    {
+      "id": "Q455506",
+      "name": "Netjerkare Siptah"
+    }
+  ],
   "modern_countries": [
     "Egypt"
   ],
@@ -45,7 +62,7 @@
       -2201
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Memphis",
     "labelled": []
   }
 }

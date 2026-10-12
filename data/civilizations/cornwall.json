@@ -9,7 +9,15 @@
     "end": null,
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Truro",
+      "location": [
+        -5.051,
+        50.26
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
@@ -33,7 +41,7 @@
       946
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Truro",
     "labelled": [
       "Kingdom of England",
       "Viking settlements",

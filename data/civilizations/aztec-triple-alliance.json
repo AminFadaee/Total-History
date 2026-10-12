@@ -27,7 +27,16 @@
     "name": "Tenochtitlan"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q318072",
+      "name": "Itzcoatl"
+    },
+    {
+      "id": "Q297050",
+      "name": "Cuauhtémoc"
+    }
+  ],
   "modern_countries": [
     "Mexico"
   ],

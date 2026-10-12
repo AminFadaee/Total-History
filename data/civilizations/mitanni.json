@@ -13,11 +13,28 @@
     },
     "confirmed": false
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Ras al-Ayn",
+      "location": [
+        40.068694444444,
+        36.840027777778
+      ]
+    }
+  ],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q747416",
+      "name": "Kirta"
+    },
+    {
+      "id": "Q1060266",
+      "name": "Shattuara II"
+    }
+  ],
   "modern_countries": [
     "Syria",
     "Iraq",
@@ -41,7 +58,7 @@
       -1241
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Ras al-Ayn",
     "labelled": [
       "Hittites",
       "Hyksos",

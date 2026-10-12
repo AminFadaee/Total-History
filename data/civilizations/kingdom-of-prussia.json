@@ -32,7 +32,11 @@
     "region": "Germany",
     "name": "Brandenburg-Prussia"
   },
-  "after": {},
+  "after": {
+    "id": "Q151624",
+    "region": "Germany",
+    "name": "German Confederation"
+  },
   "rulers": [
     {
       "id": "Q151826",
