@@ -14,7 +14,7 @@ from page_in_history.naming import slugify
 from page_in_history.sources import vital
 from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
 from page_in_history.sources.wikidata import Entity, Wikidata, entity_id, qualifier_year
-from page_in_history.sources.wikipedia import Infobox, Wikipedia, country_infobox, display_name, place_name
+from page_in_history.sources.wikipedia import Infobox, Page, Wikipedia, country_infobox, display_name, place_name
 from page_in_history.regions import home, regions
 from page_in_history.sentences import contribution, first_paragraph
 from page_in_history.succession import RegionalSuccession
@@ -310,7 +310,7 @@ class PolityCatalog:
         rows = cliopatria.active(start - IDENTITY_PADDING_YEARS, end + IDENTITY_PADDING_YEARS)
         links = {name: Counter(zip(group.Wikipedia, group.Wikidata)).most_common(1)[0][0]
                  for name, group in rows.groupby("Name")}
-        pages = wikipedia.resolve([title for title, _ in links.values()])
+        pages = self._subjects(wikipedia.resolve([title for title, _ in links.values()]))
         self.entities = wikidata.entities([page.qid for page in pages.values()])
         self.entities.update(wikidata.entities([qid for entity in self.entities.values() for qid in entity.ids("P17")]))
         classes = {qid for entity in self.entities.values() for qid in entity.ids("P31", preferred_only=False)}
@@ -340,6 +340,23 @@ class PolityCatalog:
         self.folded: dict[str, list[str]] = {}
         self.vital_levels = self._vital_levels()
         self._fold_dynasties()
+
+    def _subjects(self, pages: dict[str, Page]) -> dict[str, Page]:
+        """An article on the history of a civilization, not itself a state, stands for the civilization when Wikidata
+        links the two both ways (History of Sumer is a facet of Sumer, whose history it is), so Cliopatria's Sumerian
+        city-states are Sumer."""
+        found = self.wikidata.entities([page.qid for page in pages.values() if page.qid])
+        polities = self.wikidata.subclass_of(sorted({qid for entity in found.values()
+                                                     for qid in entity.ids("P31", preferred_only=False)}), POLITY_ROOTS)
+        facets = {qid: entity.ids("P1269") for qid, entity in found.items()
+                  if not set(entity.ids("P31", preferred_only=False)) & polities}
+        subjects = self.wikidata.entities([subject for ids in facets.values() for subject in ids])
+        swapped = {}
+        for title, page in pages.items():
+            subject = next((subjects[qid] for qid in facets.get(page.qid, []) if qid in subjects
+                            and page.qid in subjects[qid].ids("P2184") and subjects[qid].enwiki), None)
+            swapped[title] = Page(subject.enwiki, subject.id) if subject else page
+        return swapped
 
     def years(self, qid: str) -> tuple[int, int]:
         """When a civilization existed: Cliopatria's first and last year, or Wikidata's dates for one it does not draw."""

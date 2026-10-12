@@ -113,7 +113,9 @@ update.
    A drawn shape whose article Wikidata files as a civilization, an archaeological culture, a historical period, a
    historical people or an archaeological site rather than a state counts too, when the article is in at least 40
    languages and the shape is drawn for 50 years or more before 1900: the Maya, the Indus Valley, the Minoans, Heian
-   Japan, the Huns, Teotihuacan. Shapes tied to a person, a city, a region, a dynasty, a modern people or movement, a
+   Japan, the Huns, Teotihuacan. A shape tied to an article on a civilization's history stands for the civilization
+   when Wikidata links the two both ways (Cliopatria's Sumerian city-states, linked to History of Sumer, are Sumer).
+   Shapes tied to a person, a city, a region, a dynasty, a modern people or movement, a
    war or a treaty do not. Names that share one item and are drawn within its dates are one civilization under the
    name of its article: Cliopatria's Northern and Southern Song are the Song dynasty, its two Maya shapes the Maya
    civilization, its Eastern Roman and Byzantine Empire the Byzantine Empire. A state on the Vital Articles lists
