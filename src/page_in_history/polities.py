@@ -43,6 +43,7 @@ HERITAGE = "Q9259"
 SITE = "Q839954"
 LARGE_PEAK_KM2 = 2_000_000
 SHARED_TOLERANCE_YEARS = 25
+REPEATED_MAP_YEARS, REPEATED_MAP_OVERLAP = 30, 0.85
 FOLD_VITAL_LEVEL = 4
 DYNASTY = "Q164950"
 GENERIC_WORDS = {"sultanate", "empire", "kingdom", "dynasty", "of", "the", "caliphate", "republic", "state"}
@@ -116,6 +117,7 @@ class Polity:
     overseas_countries: list[str] = field(default_factory=list)
     borders: bool = True
     map: str = ""
+    map_asked: bool = True
     checks: dict = field(default_factory=dict)
 
     def to_json(self) -> dict:
@@ -536,6 +538,33 @@ class PolityBuilder:
                 or (peak >= LARGE_PEAK_KM2 and "colony" not in kinds)
                 or (peak >= LASTING_PEAK_KM2 and rows.ToYear.max() - rows.FromYear.min() + 1 >= LASTING_YEARS
                     and languages >= LASTING_LANGUAGES and "colony" not in kinds))
+
+    def mark_repeated_maps(self, polities: list[Polity]) -> None:
+        """A short regime drawn almost exactly like a neighbouring one in time is not asked from its map, since only
+        the year would tell them apart: France's Second Republic and Second Empire, Mexico's centralist and federal
+        republics. It lasted 30 years or less, its largest shape and an adjacent civilization's overlap by 85% or
+        more (intersection over union), and the two lie within 30 years of each other."""
+        shapes = {}
+        for polity in polities:
+            rows = self.cliopatria.rows(polity.name)
+            if polity.borders and not rows.empty:
+                largest = rows.loc[rows.Area.idxmax()]
+                shapes[polity.name] = (equal_area_shape(largest.geometry, self.cliopatria.frame.crs).buffer(0),
+                                       int(rows.FromYear.min()), int(rows.ToYear.max()))
+        for polity in polities:
+            if polity.name not in shapes:
+                continue
+            shape, first, last = shapes[polity.name]
+            if last - first + 1 > REPEATED_MAP_YEARS:
+                continue
+            for other, (other_shape, other_first, other_last) in shapes.items():
+                if other == polity.name or other_first > last + REPEATED_MAP_YEARS or first > other_last + REPEATED_MAP_YEARS:
+                    continue
+                if shape.intersects(other_shape) and \
+                        shape.intersection(other_shape).area >= REPEATED_MAP_OVERLAP * shape.union(other_shape).area:
+                    polity.map_asked = False
+                    polity.checks["map_like"] = other
+                    break
 
     def build(self, identities: list[Identity]) -> list[Polity]:
         """Notes for the selected civilizations. A civilization before or after one of them may come from outside

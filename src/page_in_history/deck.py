@@ -136,7 +136,7 @@ def neighbour_template(side: str) -> Template:
 
 
 CIVILIZATION_TEMPLATES = (
-    Template("Map", Subdeck.CIVILIZATIONS, ("Map",),
+    Template("Map", Subdeck.CIVILIZATIONS, ("AskMap",),
              face(UNKNOWN_ENTITY, "Map", MAP_IMAGE),
              face(entity(CIVILIZATION_TITLE, answered=True), "Map", MAP_IMAGE) + CIVILIZATION_INFO),
     neighbour_template("Before"),
@@ -146,8 +146,8 @@ CIVILIZATION_TEMPLATES = (
              face(entity("{{Name}}"), "When", value("{{Period}}", answered=True)) + MAP_THUMBNAIL),
 )
 
-CIVILIZATION_FIELDS = ("Id", "Name", "Map", "Period", "AskPeriod", "Capital", "Before", "BeforeRegion", "After",
-                       "AfterRegion", "Rulers", "ModernCountries")
+CIVILIZATION_FIELDS = ("Id", "Name", "Map", "AskMap", "Period", "AskPeriod", "Capital", "Before", "BeforeRegion",
+                       "After", "AfterRegion", "Rulers", "ModernCountries")
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
@@ -362,6 +362,7 @@ class DeckBuilder:
             "Id": document["id"],
             "Name": escaped(document["name"]),
             "Map": self.media.image(document["map"]),
+            "AskMap": "yes" if document["map"] and document.get("map_asked", True) else "",
             "Period": escaped(period_label(Span(**period["start"]), Span(**period["end"]))) if period["confirmed"] else "",
             "AskPeriod": "yes" if period["confirmed"] else "",
             "Capital": joined([capital["name"] for capital in document["capitals"]]),

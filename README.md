@@ -20,7 +20,7 @@ one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neig
 
 | Subdeck | Question | Answer | Made only when |
 |---|---|---|---|
-| Civilizations | the map, with every neighbour labelled | the civilization and its period | Cliopatria draws its borders |
+| Civilizations | the map, with every neighbour labelled | the civilization and its period | Cliopatria draws its borders, unless it is a regime of 30 years or less drawn almost exactly like an adjacent one (France's Second Republic and Second Empire), which only the year would tell apart |
 | Succession | Abbasid Caliphate, after it in Iraq: ? | Mongol Empire | the next ruler of its home region is confirmed (see below) |
 | Succession | Sasanian Empire, before it in Iran: ? | Parthian Empire | the previous ruler of its home region is confirmed |
 | Periods | When: Achaemenid Empire | 550–330 BC | the period is confirmed |

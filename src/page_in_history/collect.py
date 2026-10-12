@@ -87,6 +87,7 @@ class Collector:
         figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http, PortraitFinder(self.http, classifier))
         figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
         polities += builder.build([catalog.identities[name] for name in figure_builder.joined])
+        builder.mark_repeated_maps(polities)
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))
         self.failures: list[str] = []
