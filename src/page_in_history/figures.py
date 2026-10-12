@@ -57,7 +57,8 @@ DATES_IN_PARENTHESES = re.compile(r"\s*\([^()]*\d[^()]*\)")
 TRAILING_YEAR = re.compile(r",\s*(?:c\.\s*)?\d{1,4}\s*(?:BCE?|AD|CE)?\s*$")
 COPULA = re.compile(r"\b(?:was|is|were)\s+", re.IGNORECASE)
 PARENTHESES = re.compile(r"\s*\([^()]*\)")
-SENTENCE_END = re.compile(r"(?<=[a-z0-9\])])\.\s+(?=[A-Z])")
+SENTENCE_END = re.compile(r"(?:(?<=[a-z0-9\])])|(?<=\s[IVX]{2})|(?<=\s[IVX]{3})|(?<=\s[IVX]{4}))\.\s+(?=[A-Z])"
+                          r"|(?<=\s[IVX])\.\s+(?=(?:He|She|His|Her|They|Their|The|In|After|During|It|As|Under)\b)")
 
 logger = logging.getLogger(__name__)
 
@@ -152,8 +153,8 @@ def contribution(paragraph: str, role_text: str, description: str | None) -> str
                  if candidate and balanced(candidate) == candidate and not NAME_GLOSS.match(candidate)
                  and len(words(candidate) - words(role_text)) >= MIN_NEW_WORDS), "")
     if not text and description and len(words(description) - words(role_text)) >= MIN_NEW_WORDS:
-        text = description[:1].upper() + description[1:].rstrip(".") + "."
-    return text
+        text = description[:1].upper() + description[1:]
+    return text if not text or text[-1] in ".!?\"”" else text + "."
 
 
 def setting(civilizations: list[str], region: str, adulthood: tuple[int, int]) -> str:
