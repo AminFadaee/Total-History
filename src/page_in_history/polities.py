@@ -12,7 +12,7 @@ from page_in_history.dates import Span
 from page_in_history.naming import slugify
 from page_in_history.sources import vital
 from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
-from page_in_history.sources.wikidata import Entity, Wikidata, entity_id
+from page_in_history.sources.wikidata import Entity, Wikidata, entity_id, qualifier_year
 from page_in_history.sources.wikipedia import Infobox, Wikipedia, country_infobox, display_name, place_name
 from page_in_history.regions import home, regions
 from page_in_history.succession import RegionalSuccession
@@ -133,6 +133,14 @@ def equal_area(frame):
 
 def equal_area_shape(geometry, crs):
     return equal_area(gpd.GeoSeries([geometry], crs=crs)).iloc[0]
+
+
+def same_name(first: str, second: str) -> bool:
+    """The two names are the same once "dynasty" and brackets are set aside, as Qin and the Qin dynasty, or the
+    Kingdom of Naples and the Kingdom of Naples (Napoleonic), so asking one for the other gives the answer away. Words
+    for the kind of state stay, since they tell the Roman Republic from the Roman Empire."""
+    words = lambda name: set(re.findall(r"\w+", re.sub(r"\(.*?\)", "", name).lower())) - {"dynasty", "of", "the"}
+    return bool(words(first)) and words(first) == words(second)
 
 
 def lived_during(person: Entity, start: int, end: int) -> bool:
@@ -590,6 +598,31 @@ class PolityBuilder:
         self.towns = {qid for qid, found in self.wikidata.kinds(towns, roots).items() if "settlement" in found}
         return [self._polity(identity, self.infoboxes[identity.qid]) for identity in identities]
 
+    def _capital_edges(self, entity: Entity) -> tuple:
+        """Where its first and last capitals stood, when Wikidata dates at least two of them."""
+        dated = []
+        for claim in entity.statements("P36", preferred_only=False):
+            value = claim["mainsnak"].get("datavalue", {}).get("value", {})
+            place = self.names.get(value.get("id")) if isinstance(value, dict) else None
+            start, end = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
+            if place and place.coordinates() and (start is not None or end is not None):
+                dated.append((start if start is not None else end, end if end is not None else start, place.coordinates()))
+        if len(dated) < 2:
+            return None, None
+        return min(dated)[2], max(dated, key=lambda found: (found[1], found[0]))[2]
+
+    def restrict_neighbours(self, polities: list[Polity]) -> None:
+        """Once the deck is known, a civilization before or after one must be in it, so every answer is one the
+        learner studies: the nearest confirmed holder in the deck is taken instead."""
+        deck = {polity.id for polity in polities}
+        for polity in polities:
+            if (polity.before and polity.before["id"] not in deck) or (polity.after and polity.after["id"] not in deck):
+                entity = self.catalog.entities[polity.id]
+                before, after, _ = self.succession.neighbours(
+                    polity.id, polity.capitals, self._capital_edges(entity),
+                    lambda other: other in deck and not same_name(polity.name, self._name(other)))
+                polity.before, polity.after = self._named(before), self._named(after)
+
     def _stated(self, first: str, last: str) -> bool:
         """Wikidata or a Wikipedia infobox, on either civilization's side, says that the second followed the first."""
         earlier, later = self.catalog.entities.get(first), self.catalog.entities.get(last)
@@ -681,7 +714,8 @@ class PolityBuilder:
         parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
                  if qid in self.catalog.by_qid and qid != identity.qid]
         map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
-        before, after, home_place = self.succession.neighbours(identity.qid, capitals)
+        before, after, home_place = self.succession.neighbours(
+            identity.qid, capitals, self._capital_edges(entity), lambda other: not same_name(identity.name, self._name(other)))
         modern = self._modern_countries(extent, capitals, entity.coordinates()) if drawn else ([], [])
         polity = Polity(
             id=identity.qid,

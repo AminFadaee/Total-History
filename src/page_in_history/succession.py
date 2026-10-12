@@ -48,20 +48,33 @@ class RegionalSuccession:
         self.stated = stated
         self.equal_area = equal_area
 
-    def neighbours(self, qid: str, capitals: list[dict]) -> tuple[dict, dict, str]:
+    def neighbours(self, qid: str, capitals: list[dict], edges: tuple = (None, None),
+                   fits: Callable[[str], bool] = lambda neighbour: True) -> tuple[dict, dict, str]:
+        """Before and after, each judged at the capital held at that end when Wikidata dates the capitals (Ming's
+        successor at Beijing, not at its first capital Nanjing), otherwise at the home. Only neighbours that fit (in
+        the deck, not named like the civilization) are taken."""
         rows = self.frame[self.frame.qid == qid]
         if rows.empty:
             return {}, {}, ""
         anchor = self._anchor(rows, capitals)
-        holdings = self._holdings(anchor.point)
+        before = self._side(qid, rows, edges[0], anchor, True, fits)
+        after = {} if self._partitioned(rows) else self._side(qid, rows, edges[1], anchor, False, fits)
+        return before, after, anchor.place
+
+    def _side(self, qid: str, rows: gpd.GeoDataFrame, edge, anchor: Anchor, before: bool, fits) -> dict:
+        edge_rows = rows[rows.FromYear == rows.FromYear.min()] if before else rows[rows.ToYear == rows.ToYear.max()]
+        near = edge and (shapely.distance(edge_rows.geometry.values, Point(edge)) <= CAPITAL_TOLERANCE_DEGREES).any()
+        point = Point(edge) if near else anchor.point
+        at = anchor if point is anchor.point else Anchor(point, anchor.place, self._country(point))
+        holdings = self._holdings(point)
         own = [holding for holding in holdings if holding.qid == qid]
         if not own:
-            return {}, {}, anchor.place
-        others = [holding for holding in holdings if holding.qid != qid and holding.years >= MIN_HOLD_YEARS]
-        before = self._neighbour(others, own[0].start, lambda holding: holding.end, (None, qid), anchor)
-        after = {} if self._partitioned(rows) else \
-            self._neighbour(others, own[-1].end, lambda holding: holding.start, (qid, None), anchor)
-        return before, after, anchor.place
+            return {}
+        others = [holding for holding in holdings if holding.qid != qid and holding.years >= MIN_HOLD_YEARS
+                  and fits(holding.qid)]
+        if before:
+            return self._neighbour(others, own[0].start, lambda holding: holding.end, (None, qid), at)
+        return self._neighbour(others, own[-1].end, lambda holding: holding.start, (qid, None), at)
 
     def _neighbour(self, others: list[Holding], moment: int, edge, pair, anchor: Anchor) -> dict:
         nearby = sorted((abs(edge(holding) - moment), holding.qid) for holding in others
