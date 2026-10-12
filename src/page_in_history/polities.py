@@ -60,7 +60,7 @@ SOVEREIGN_STATE = "Q3624078"
 PERIOD = "Q11514315"
 TIER_KINDS = {"Q41710": "people", "Q4204501": "people", "Q8432": "state", "Q2718886": "state", "Q3024240": "state",
               "Q7275": "state", "Q417175": "state", "Q48349": "state"}  # peoples; civilizations and states
-CENTURY_PRECISION, DECADE_PRECISION = 7, 8
+CENTURY_PRECISION, DECADE_PRECISION, YEAR_PRECISION = 7, 8, 9
 SAME_NAME_WORDS = {"dynasty", "of", "the", "kingdom", "crown", "electorate", "principality", "duchy", "grand", "emirate",
                    "khanate", "caliphate", "sultanate"}
 RULING_TITLES = (r"king|queen|emperor|empress|sultan|sultana|shah|shahanshah|caliph|khan|khagan|qaghan|pharaoh|tsar|tsarina|czar"
@@ -1134,14 +1134,16 @@ class PolityBuilder:
     @staticmethod
     def _agreed_core(entity: Entity, infobox: Infobox) -> list[int] | None:
         """When the sources do not confirm its dates, Wikidata's (each a single value, known to the century or better),
-        or the infobox's where Wikidata gives none, within the infobox's, rounded out to whole decades, or centuries
-        when Wikidata knows one only to the century: "c. 60 BC – AD 900" for Silla, "c. 510–320 BC" for Classical
-        Athens. Cliopatria's drawn years do not narrow it, since the map often stops drawing a state before it ended.
+        or the infobox's where Wikidata gives none, within the infobox's, rounded out only as far as Wikidata's own
+        precision (to the decade or century when it knows no more): "c. 929–1031" for the Caliphate of Córdoba,
+        "c. 900–1500" when only the centuries are known. Cliopatria's drawn years do not narrow it, since the map often stops drawing a state before it ended.
         Nothing when an end is missing or the two share no years."""
         def date(found: list, fallback: Span | None) -> tuple[int, int] | None:
             if len({year.value for year in found}) == 1 and min(year.precision for year in found) >= CENTURY_PRECISION:
                 return found[0].value, min(year.precision for year in found)
-            return (fallback.earliest, DECADE_PRECISION) if not found and fallback else None
+            if found or not fallback:
+                return None
+            return fallback.earliest, YEAR_PRECISION if fallback.earliest == fallback.latest else DECADE_PRECISION
 
         start = date(entity.years("P571") + entity.years("P580"), infobox.start)
         end = date(entity.years("P576") + entity.years("P582"), infobox.end and Span(infobox.end.latest, infobox.end.latest))
@@ -1152,7 +1154,7 @@ class PolityBuilder:
             first, last = max(first, infobox.start.earliest), min(last, infobox.end.latest)
         if first > last:
             return None
-        step = 10 if min(start[1], end[1]) >= DECADE_PRECISION else 100
+        step = {YEAR_PRECISION: 1, DECADE_PRECISION: 10}.get(min(start[1], end[1], YEAR_PRECISION), 100)
         return [math.floor(first / step) * step, math.ceil(last / step) * step]
 
     def assign_tiers(self, polities: list[Polity]) -> None:
