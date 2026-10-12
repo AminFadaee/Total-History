@@ -51,7 +51,7 @@ SHOWN_RULERS, RULER_FAME_SHARE, ADULT_YEARS = 4, 3, 20
 KNOWN_NEIGHBOUR_LANGUAGES = 40
 SAME_PLACE_KM = 5
 STEM_LETTERS = 5
-CORE_LANGUAGES, CORE_FIGURES = 50, 3
+CORE_LANGUAGES, CORE_VITAL_LANGUAGES, CORE_FIGURES = 70, 60, 3
 TIER_KINDS = {"Q41710": "people", "Q4204501": "people", "Q8432": "state", "Q2718886": "state", "Q3024240": "state",
               "Q7275": "state", "Q417175": "state", "Q48349": "state"}  # peoples; civilizations and states
 DECADE_PRECISION = 8
@@ -964,9 +964,10 @@ class PolityBuilder:
         return [math.floor(first / 10) * 10, math.ceil(last / 10) * 10]
 
     def assign_tiers(self, polities: list[Polity], figures: list) -> None:
-        """Core for what every learner should meet: listed as vital (levels 1–5), an article in at least 50 Wikipedia
-        languages unless it is only a people (the Goths, the Saxons), or home to at least three of the deck's figures.
-        Extended for the rest (Chen, Shirvan, Mexico's interim republics), which a learner may suspend."""
+        """Core for what every learner should meet: listed as vital at level 4 or above, or at level 5 with an article
+        in at least 60 Wikipedia languages; an article in at least 70 languages, though a people (the Goths, the
+        Saxons) only with a capital, rulers or a confirmed period (the Huns); or home to at least three of the deck's
+        figures. Extended for the rest (Chen, Shirvan, the Kingdom of Fiji), which a learner may suspend."""
         names = {polity.name for polity in polities}
         homes = Counter(next((name for name in figure.civilizations if name in names), None) for figure in figures)
         qids = [polity.id for polity in polities]
@@ -974,9 +975,12 @@ class PolityBuilder:
         kinds = self.wikidata.kinds(qids, TIER_KINDS)
         for polity in polities:
             level = self.catalog.vital_levels.get(polity.id)
+            languages = editions.get(polity.id, 0)
             only_people = kinds.get(polity.id, set()) == {"people"}
-            core = (level is not None and level <= MAX_VITAL_LEVEL + 1) or homes[polity.name] >= CORE_FIGURES \
-                or (editions.get(polity.id, 0) >= CORE_LANGUAGES and not only_people)
+            known = bool(polity.capitals or polity.rulers or polity.period.confirmed)
+            vital = level is not None and (level <= MAX_VITAL_LEVEL
+                                           or (level == MAX_VITAL_LEVEL + 1 and languages >= CORE_VITAL_LANGUAGES))
+            core = vital or homes[polity.name] >= CORE_FIGURES or (languages >= CORE_LANGUAGES and (known or not only_people))
             polity.tier = Tier.CORE if core else Tier.EXTENDED
 
     def choose_rulers(self, polities: list[Polity], figures: list) -> None:
