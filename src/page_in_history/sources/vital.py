@@ -9,7 +9,7 @@ STATE_PAGE_PREFIXES = ("Vital articles/Level 3", "Vital articles/Level 4/History
                        "Vital articles/Level 5/History", "Vital articles/Level 5/Geography")
 PROJECT_NAMESPACE = 4
 HEADING = re.compile(r"^(=+)\s*(.*?)\s*=+\s*$")
-ENTRY = re.compile(r"^#\s*(?:\{\{Icon\|[^}]*\}\}\s*)*'*\[\[([^\]|#]+)")
+ENTRY = re.compile(r"^[#*]+\s*(?:\{\{Icon\|[^}]*\}\}\s*)*'*\[\[([^\]|#]+)")
 
 
 META_API = "https://meta.wikimedia.org/w/api.php"
