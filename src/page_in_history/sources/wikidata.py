@@ -88,9 +88,10 @@ class Entity:
 
     def statements(self, prop: str, preferred_only: bool = True) -> list[dict]:
         """Non-deprecated statements, by default keeping only preferred ones when any exist."""
-        found = [claim for claim in self.data.get("claims", {}).get(prop, []) if claim["rank"] != "deprecated"]
+        found = [claim for claim in self.data.get("claims", {}).get(prop, [])
+                 if claim["rank"] != "deprecated" and claim["mainsnak"].get("datavalue")]
         preferred = [claim for claim in found if claim["rank"] == "preferred"] if preferred_only else []
-        return [claim for claim in preferred or found if claim["mainsnak"].get("datavalue")]
+        return preferred or found
 
     def ids(self, *props: str, preferred_only: bool = True) -> list[str]:
         return list(dict.fromkeys(
