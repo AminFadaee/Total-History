@@ -81,6 +81,8 @@ DYNASTY = "Q164950"
 GENERIC_WORDS = {"sultanate", "empire", "kingdom", "dynasty", "of", "the", "caliphate", "republic", "state"}
 LASTING_AREA_YEARS, LASTING_LANGUAGES, COLONIAL_ERA = 12_500_000, 30, 1500
 LIVING_ON_MAP_BEFORE = 1930
+PRESENT_DESCRIPTION_FROM = 1900
+PRESENT_OR_PAST = re.compile(r"\b(is|are|was|were)\b")
 HUMAN = "Q5"
 ASSUMED_LIFESPAN = 70
 LIVING_PEAK_KM2 = 2_000_000
@@ -743,10 +745,17 @@ class PolityBuilder:
         self.introductions = self.wikipedia.introductions([identity.title for identity in identities])
         return [self._polity(identity, self.infoboxes[identity.qid]) for identity in identities]
 
-    def _summary(self, identity: Identity) -> str:
+    def _summary(self, identity: Identity, entity: Entity, last_drawn: int | None) -> str:
         """What the civilization was: the opening sentence of its article without its subject, by the rule used for
-        what a figure is known for ("The third caliphate to succeed the Islamic prophet Muhammad.")."""
+        what a figure is known for ("The third caliphate to succeed the Islamic prophet Muhammad."). None when the
+        item still exists and its article speaks in the present tense, but the map stops drawing it long before
+        today, since the article then describes the present (medieval Norway as "a Nordic country comprising …
+        Svalbard")."""
         extract, description = self.introductions.get(identity.title, ("", None))
+        tense = PRESENT_OR_PAST.search(first_paragraph(extract))
+        if last_drawn is not None and last_drawn < PRESENT_DESCRIPTION_FROM and tense and tense.group(1) in ("is", "are") \
+                and not entity.years("P576") + entity.years("P582"):
+            return ""
         return contribution(first_paragraph(extract), identity.name, description)
 
     def _capital_edges(self, entity: Entity) -> tuple:
@@ -929,7 +938,7 @@ class PolityBuilder:
             modern_countries=modern[0],
             overseas_countries=modern[1],
             borders=drawn,
-            summary=self._summary(identity),
+            summary=self._summary(identity, entity, last if drawn else None),
         )
         polity.checks = {
             "infobox": bool(infobox.start or infobox.capital or infobox.leaders),

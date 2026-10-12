@@ -25,8 +25,9 @@ one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neig
 | Succession | Sasanian Empire, before it in Iran: ? | Parthian Empire | the previous ruler of its home region is confirmed |
 | Periods | When: Achaemenid Empire | 550–330 BC | the period is confirmed, or Wikidata gives it as approximate (c. 60 BC – AD 900 for Silla) |
 
-The back of each card also shows what the civilization was (the opening sentence of its Wikipedia article), the
-capital, notable rulers, the civilizations before and after, and the modern countries on its territory.
+The back of each card also shows what the civilization was (the opening sentence of its Wikipedia article, left out
+when the article describes a place as it is today though the map stops drawing it before 1900, as for medieval
+Norway), the capital, notable rulers, the civilizations before and after, and the modern countries on its territory.
 
 Historians use "succession" in several ways: legal succession of modern states, claims of legitimate descent, and
 the sequence of rulers of a region. The deck asks only the last, which is a matter of record: who ruled the
