@@ -37,6 +37,8 @@ HERITAGE = "Q9259"
 SITE = "Q839954"
 LARGE_PEAK_KM2 = 2_000_000
 LIVING_ON_MAP_BEFORE = 1930
+HUMAN = "Q5"
+ASSUMED_LIFESPAN = 70
 LIVING_PEAK_KM2 = 2_000_000
 STATE_KINDS = {"state", "historical country", "city-state", "empire", "kingdom"}
 MAPLESS_KINDS = {
@@ -118,6 +120,16 @@ def equal_area(frame):
 
 def equal_area_shape(geometry, crs):
     return equal_area(gpd.GeoSeries([geometry], crs=crs)).iloc[0]
+
+
+def lived_during(person: Entity, start: int, end: int) -> bool:
+    """A person, by Wikidata, whose birth or death dates put part of their life within the years."""
+    births, deaths = person.years("P569"), person.years("P570")
+    if HUMAN not in person.ids("P31", preferred_only=False) or not (births or deaths):
+        return False
+    born = min(year.earliest for year in births) if births else min(year.earliest for year in deaths) - ASSUMED_LIFESPAN
+    died = max(year.latest for year in deaths) if deaths else max(year.latest for year in births) + ASSUMED_LIFESPAN
+    return born <= end and died >= start
 
 
 def years_overlap(entity: Entity, start: int, end: int) -> bool:
@@ -600,7 +612,8 @@ class PolityBuilder:
         return Period(start, end, start is not None and end is not None)
 
     def _rulers(self, polity_qid: str, leaders: list[str]) -> list[dict]:
-        """Infobox leaders that Wikidata also records as holding an office of the polity."""
+        """Infobox leaders that Wikidata also records as holding an office of the polity, or files as people who lived
+        during its years (the Askias of Songhai, whose offices Wikidata ties to no state)."""
         if not leaders:
             return []
         query = f"""SELECT DISTINCT ?person WHERE {{
@@ -609,7 +622,11 @@ class PolityBuilder:
           ?person wdt:P39 ?office .
         }}"""
         holders = {entity_id(row["person"]) for row in self.wikidata.query(query)}
-        return [{"id": qid, "name": self._name(qid)} for qid in leaders if qid in holders]
+        first, last = self.catalog.years(polity_qid)
+        people = self.wikidata.entities([qid for qid in leaders if qid not in holders])
+        lived = {qid for qid, person in people.items() if lived_during(person, first, last)}
+        return [{"id": qid, "name": self._name(qid)} for qid in leaders if qid in holders] + \
+            [{"id": qid, "name": self._name(qid)} for qid in leaders if qid in lived]
 
     def _modern_countries(self, geometry, capitals: list[dict], location) -> tuple[list[str], list[str]]:
         """Today's countries in the territory, largest share first: those in the region around the capital (land

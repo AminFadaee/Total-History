@@ -10,7 +10,7 @@ from page_in_history.dates import century_label, period_label
 from page_in_history.naming import slugify
 from page_in_history.photos import PictureKind, PortraitFinder
 from page_in_history.lineages import dates
-from page_in_history.polities import LIVING_ON_MAP_BEFORE, PolityCatalog
+from page_in_history.polities import ASSUMED_LIFESPAN, HUMAN, LIVING_ON_MAP_BEFORE, PolityCatalog
 from page_in_history.sources import naturalearth, notable, vital
 from page_in_history.sources.pantheon import Person
 from page_in_history.sources.wikidata import Entity, Year, qualifier_year
@@ -24,7 +24,6 @@ EXCLUDED_OCCUPATIONS = {
     "CRICKETER", "TABLE TENNIS PLAYER", "DANCER", "BASEBALL PLAYER", "COMEDIAN", "GOLFER", "GAME DESIGNER", "SNOOKER",
     "AMERICAN FOOTBALL PLAYER", "YOUTUBER", "POKER PLAYER", "MAGICIAN", "GAMER", "BULLFIGHTER", "GO PLAYER",
 }
-ASSUMED_LIFESPAN = 70
 MAX_LIFE_YEARS = 120
 MIN_VOTES = 2
 MEMBERSHIP_SOURCES = ("office", "category", "citizenship", "vital_section")
@@ -42,7 +41,6 @@ COMPOSER = "COMPOSER"
 ADULT_AGE = 20
 POST_WAR = 1945
 LEGENDARY = "Q13002315"
-HUMAN = "Q5"
 POSITION = "Q4164871"
 HEAD_CLASSES = {"Q48352", "Q2285706", "Q116", "Q39018", "Q12097", "Q248577", "Q30461", "Q111840950"}  # head of state or government, monarch, emperor, king, president
 CLEARLY_LONGER = 1.5
