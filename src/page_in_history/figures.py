@@ -35,6 +35,7 @@ STRONG_RANK, VERY_STRONG_RANK = 10, 3
 WINDOW_YEARS = 300
 MAX_PER_SEGMENT = 25
 MIN_LANGUAGES = 10
+RENOWNED_LANGUAGES = 90
 SECOND_PASS_PEOPLE = 30
 MAX_COMPOSERS = 20
 COMPOSER = "COMPOSER"
@@ -183,6 +184,13 @@ class Candidate:
     cell_rank: int | None
     core: bool = False
     region: str = ""
+    renowned: bool = False
+
+    @property
+    def essential(self) -> bool:
+        """On Meta-Wiki's list, or known in at least 90 Wikipedia languages and among the first 60 of their region
+        and period."""
+        return self.core or self.renowned
 
     @property
     def adulthood(self) -> tuple[int, int]:
@@ -224,8 +232,9 @@ class FigureBuilder:
     def build(self, polity_names: set[str], start: int, end: int) -> list[Figure]:
         """Every candidate is placed against the whole catalog, so civilizations outside the selection can join
         through their people; then each civilization's figures are chosen era by era. Everyone on Meta-Wiki's list of
-        1,000 articles is kept even when none of their civilizations is in the deck: under their own state, or by
-        region and century when no state can be found for them, as for Aristotle."""
+        1,000 articles, and everyone renowned (known in 90 languages and among the first 60 of their region and period),
+        is kept even when none of their civilizations is in the deck: under their own state, or by region and century
+        when no state can be found for them, as for Aristotle and Herodotus."""
         candidates = [candidate for candidate in self._candidates()
                       if candidate.lifetime[1] >= start and candidate.lifetime[0] <= end]
         self.prepare(candidates)
@@ -248,8 +257,8 @@ class FigureBuilder:
         self.extended = [{"id": candidate.person.id, "name": candidate.title,
                           "civilization": next(name for name in civilizations if name in deck)}
                          for candidate, civilizations, *_ in figures if candidate.person.id not in chosen]
-        outside = [entry for entry in placed if entry[0].core and not set(entry[1]) & deck]
-        logger.info("%d people placed in the deck's civilizations, %d chosen, and %d on Meta-Wiki's list outside them",
+        outside = [entry for entry in placed if entry[0].essential and not set(entry[1]) & deck]
+        logger.info("%d people placed in the deck's civilizations, %d chosen, and %d essential people outside them",
                     len(figures), len(chosen), len(outside))
         return self._assemble([entry for entry in figures if entry[0].person.id in chosen] + outside, deck)
 
@@ -311,7 +320,7 @@ class FigureBuilder:
     def people_backed(self, placed: list[tuple], polity_names: set[str]) -> list[str]:
         """Civilizations outside the selection that their people make notable: two people placed there among the
         first 10 of their region and period, or one among the first 3, as Confucius is for Lu, or one on Meta-Wiki's
-        list of 1,000 articles, as Laozi is for Chu. A civilization must
+        list of 1,000 articles or renowned, as Laozi is for Chu and Isabella I for Castile. A civilization must
         have begun before 1930 and reached 20,000 km², so modern republics, a co-prince of Andorra or a free city do
         not bring in their state."""
         strong: Counter = Counter()
@@ -320,7 +329,7 @@ class FigureBuilder:
             if civilizations and civilizations[0] not in polity_names:
                 rank = candidate.cell_rank or PER_CELL + 1
                 strong[civilizations[0]] += rank <= STRONG_RANK
-                very_strong[civilizations[0]] += rank <= VERY_STRONG_RANK or candidate.core
+                very_strong[civilizations[0]] += rank <= VERY_STRONG_RANK or candidate.essential
         return sorted(name for name in strong
                       if (strong[name] >= 2 or very_strong[name] >= 1) and self._can_join(name))
 
@@ -455,7 +464,9 @@ class FigureBuilder:
         core = {entry.qid for entry in vital.essential_people(self.http) if entry.list == CORE_LIST}
         self.sections = self._vital_sections()
         ranks = {qid: int(rank) for qid, rank in pool.cell_rank.items()}
-        return self._people(list(dict.fromkeys(list(pool.index) + sorted(core))), ranks, core)
+        qids = list(dict.fromkeys(list(pool.index) + sorted(core)))
+        self.languages.update(self.wikidata.language_editions(qids))
+        return self._people(qids, ranks, core)
 
     def _people(self, qids: list[str], ranks: dict[str, int], core: set[str]) -> list[Candidate]:
         people = self.wikidata.entities(qids)
@@ -471,8 +482,9 @@ class FigureBuilder:
             if span and span[0] + ADULT_AGE < POST_WAR and span[1] >= span[0] + ADULT_AGE:
                 score = float(self.frame.score.get(qid, 0.0))
                 region = notable.region_name(self.frame.region.get(qid, notable.UNKNOWN_REGION))
+                renowned = qid not in core and qid in ranks and self.languages.get(qid, 0) >= RENOWNED_LANGUAGES
                 candidates.append(Candidate(person.enwiki, person, span, self.sections.get(qid, []), score,
-                                            ranks.get(qid), qid in core, region))
+                                            ranks.get(qid), qid in core, region, renowned))
         return candidates
 
     def _vital_sections(self) -> dict[str, list[str]]:
@@ -536,7 +548,7 @@ class FigureBuilder:
         or the Vital Articles section), counts only when no other civilization of theirs has more votes: otherwise a
         death under a foreign occupation, like Saddam Hussein's in Baghdad drawn as American, would place them there.
         Holding a state's own head-of-state or head-of-government office confirms that state alone. Someone on Meta-Wiki's
-        list with none confirmed may rest on a single office, category, Vital Articles section, citizenship or
+        list or renowned with none confirmed may rest on a single office, category, Vital Articles section, citizenship or
         birthplace, never on a place of death or an opening link alone. A state whose own
         dates meet the person's adult life comes before one that had ended or not yet begun, as Tang before Sui for
         Xuanzang; then the best supported, a place of death counting half there since exiles die abroad; among equals
@@ -565,7 +577,7 @@ class FigureBuilder:
         confirmed = sorted((qid for qid in sorted(set(votes) | set(headed))
                             if (votes[qid] >= MIN_VOTES and (qid in member or votes[qid] == best)) or qid in headed),
                            key=support)
-        if not confirmed and candidate.core:
+        if not confirmed and candidate.essential:
             confirmed = sorted(sorted({qid for source in SINGLE_VOTE_SOURCES for qid in sources[source]}), key=support)
         confirmed = self._rulers_first(confirmed, headed)
         related = [qid for qid in sources["lead"] if qid not in confirmed]
