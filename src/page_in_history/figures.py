@@ -576,12 +576,12 @@ class FigureBuilder:
     @staticmethod
     def _rulers_first(confirmed: list[str], headed: Counter) -> list[str]:
         """States the person headed come first, so a ruler is filed under the state they ruled (Napoleon under the
-        First French Empire, not the Consulate before it); the one headed longest leads when it was headed at least
+        First French Empire, not the Consulate before it); the one headed longest leads when it was headed more than
         1.5 times as long as each other, otherwise they keep their order."""
         ruled = [qid for qid in confirmed if headed[qid] > 0]
         if ruled:
             longest = max(ruled, key=lambda qid: headed[qid])
-            if all(headed[longest] >= CLEARLY_LONGER * headed[qid] for qid in ruled if qid != longest):
+            if all(headed[longest] > CLEARLY_LONGER * headed[qid] for qid in ruled if qid != longest):
                 ruled = [longest] + [qid for qid in ruled if qid != longest]
         return ruled + [qid for qid in confirmed if headed[qid] <= 0]
 
@@ -622,11 +622,12 @@ class FigureBuilder:
 
     def _headed(self, candidate: Candidate) -> Counter:
         """The states the person headed, with the years they headed each."""
-        years: Counter = Counter()
+        years: dict[str, set[int]] = {}
         for qid, term in self._terms(candidate):
             for state in self._head_states(qid, term):
-                years[state] += sum(1 for year in range(term[0], term[1] + 1) if self._active(state, (year, year)))
-        return years
+                years.setdefault(state, set()).update(
+                    year for year in range(term[0], term[1] + 1) if self._active(state, (year, year)))
+        return Counter({state: len(held) for state, held in years.items()})
 
     def _located(self, person: Entity, prop: str) -> list[str]:
         """The states whose Cliopatria territory held the place of death in the year of death."""
