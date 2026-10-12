@@ -519,7 +519,7 @@ class PolityBuilder:
                  if qid in self.catalog.by_qid and qid != identity.qid]
         map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
         before, after, home_place = self.succession.neighbours(identity.qid, capitals)
-        modern = self._modern_countries(extent, capitals) if drawn else ([], [])
+        modern = self._modern_countries(extent, capitals, entity.coordinates()) if drawn else ([], [])
         polity = Polity(
             id=identity.qid,
             slug=slugify(identity.name),
@@ -590,20 +590,25 @@ class PolityBuilder:
         holders = {entity_id(row["person"]) for row in self.wikidata.query(query)}
         return [{"id": qid, "name": self._name(qid)} for qid in leaders if qid in holders]
 
-    def _modern_countries(self, geometry, capitals: list[dict]) -> tuple[list[str], list[str]]:
+    def _modern_countries(self, geometry, capitals: list[dict], location) -> tuple[list[str], list[str]]:
         """Today's countries in the territory, largest share first: those in the region around the capital (land
-        within 800 km of it, as the map groups it), then those only overseas, such as the protectorates Cliopatria
-        draws as the United Kingdom."""
+        within 800 km of it, as the map groups it; its Wikidata location when it has no capital, as for Phoenicia),
+        then those only overseas, such as the protectorates Cliopatria draws as the United Kingdom. A dependency
+        counts as its sovereign at home but keeps its own name overseas (Greenland, Macao, New Caledonia)."""
         shape = equal_area_shape(geometry, self.cliopatria.frame.crs)
         found: dict[str, float] = {}
+        units: dict[str, dict[str, float]] = {}
         for country in self.countries[self.countries.listed & self.countries.intersects(shape)].itertuples():
             overlap = country.geometry.intersection(shape).area
             if overlap / shape.area >= MODERN_SHARE_OF_POLITY or overlap / country.geometry.area >= MODERN_SHARE_OF_COUNTRY:
                 found[country.listed_as] = found.get(country.listed_as, 0) + overlap
+                units.setdefault(country.listed_as, {})[country.name] = overlap
         ranked = sorted(found, key=found.get, reverse=True)
-        home_region = equal_area_shape(home(regions(geometry), [c["location"] for c in capitals if c["location"]]).geometry,
-                                       self.cliopatria.frame.crs)
+        points = [capital["location"] for capital in capitals if capital["location"]] or ([location] if location else [])
+        home_region = equal_area_shape(home(regions(geometry), points).geometry, self.cliopatria.frame.crs)
         nearby = self.countries[self.countries.listed & self.countries.intersects(home_region)]
-        at_home = {country.listed_as for country in nearby.itertuples()
-                   if country.geometry.intersection(home_region).area > 0}
-        return [name for name in ranked if name in at_home], [name for name in ranked if name not in at_home]
+        at_home = [country for country in nearby.itertuples() if country.geometry.intersection(home_region).area > 0]
+        sovereigns, names = {country.listed_as for country in at_home}, {country.name for country in at_home}
+        overseas = [unit for name in ranked if name not in sovereigns
+                    for unit in sorted(units[name], key=units[name].get, reverse=True) if unit not in names]
+        return [name for name in ranked if name in sovereigns], list(dict.fromkeys(overseas))
