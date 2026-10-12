@@ -32,6 +32,11 @@ LEVEL_5_LANGUAGES = 45
 LEVEL_5_PEAK_KM2 = 1_000_000
 MAX_DRAWN_SHARE = 0.5
 LATEST_START = 1945
+# civilization (two items), ancient civilization, archaeological culture, historical period, historical ethnic group,
+# indigenous people, archaeological site
+CULTURE_CLASSES = {"Q8432", "Q2718886", "Q28171280", "Q465299", "Q11514315", "Q4204501", "Q103817", "Q839954"}
+CULTURE_LANGUAGES, CULTURE_MIN_YEARS, CULTURE_BEFORE = 40, 50, 1900
+CULTURE = "culture or period Cliopatria draws"
 SETTLEMENT = "Q486972"
 HERITAGE = "Q9259"
 SITE = "Q839954"
@@ -209,7 +214,8 @@ class PolityCatalog:
                 candidates[name] = found
             else:
                 self.unresolved[name] = found
-        candidates |= self._by_name({name: (links[name][1], *years[name]) for name in self.unresolved})
+        candidates |= self._cultures(rows, pages, links)
+        candidates |= self._by_name({name: (links[name][1], *years[name]) for name in self.unresolved if name not in candidates})
         for name in candidates:
             self.unresolved.pop(name, None)
         self.qids = {name: identity.qid for name, identity in candidates.items()}
@@ -269,6 +275,24 @@ class PolityCatalog:
                 self.entities[entity.id] = entity
                 found[name] = Identity(name, entity.enwiki, entity.id, "Wikidata state named like the Cliopatria polity")
         return found
+
+    def _cultures(self, rows, pages: dict, links: dict) -> dict[str, Identity]:
+        """Cliopatria also draws civilizations whose article Wikidata files as a civilization, an archaeological culture,
+        a historical period, a historical people or an archaeological site rather than a state: the Maya, the Indus
+        Valley, the Minoans, Heian Japan, the Huns, Teotihuacan. They count when the article is known in at least 40
+        languages and the shape is drawn for 50 years or more, beginning before 1900."""
+        drawn = {name: (int(group.FromYear.min()), int((group.ToYear - group.FromYear + 1).sum()))
+                 for name, group in rows.groupby("Name")}
+        options = {}
+        for name, reason in self.unresolved.items():
+            page = pages.get(links[name][0])
+            entity = self.entities.get(page.qid) if page and page.qid else None
+            if entity and "not a polity" in reason and CULTURE_CLASSES & set(entity.ids("P31", preferred_only=False)) \
+                    and drawn[name][0] < CULTURE_BEFORE and drawn[name][1] >= CULTURE_MIN_YEARS:
+                options[name] = (page.title, entity)
+        editions = self.wikidata.language_editions([entity.id for _, entity in options.values()])
+        return {name: Identity(name, entity.enwiki or title, entity.id, CULTURE)
+                for name, (title, entity) in options.items() if editions.get(entity.id, 0) >= CULTURE_LANGUAGES}
 
     def is_polity(self, entity: Entity) -> bool:
         return bool(set(entity.ids("P31", preferred_only=False)) & self.polity_classes)
@@ -429,7 +453,7 @@ class PolityBuilder:
             if "sovereign state" in kinds:
                 if rows.FromYear.min() >= LIVING_ON_MAP_BEFORE or peak < LIVING_PEAK_KM2:
                     return False
-            elif "historical" not in kinds:
+            elif "historical" not in kinds and identity.how != CULTURE:
                 return False
         level = level or MAX_VITAL_LEVEL + 2
         return (level <= MAX_VITAL_LEVEL or languages >= MIN_LANGUAGE_EDITIONS

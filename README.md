@@ -104,6 +104,11 @@ update.
 
 1. **Catalogue.** Every polity Cliopatria draws, tied to the Wikidata item of its Wikipedia article, plus states on the
    Vital Articles lists that Cliopatria does not draw, such as Classical Athens and Sparta (see *Civilizations* below).
+   A drawn shape whose article Wikidata files as a civilization, an archaeological culture, a historical period, a
+   historical people or an archaeological site rather than a state counts too, when the article is in at least 40
+   languages and the shape is drawn for 50 years or more before 1900: the Maya, the Indus Valley, the Minoans, Heian
+   Japan, the Huns, Teotihuacan. Shapes tied to a person, a city, a region, a dynasty, a modern people or movement, a
+   war or a treaty do not.
    Cliopatria sometimes keeps one name for a chain of states: its Kingdom of Great Britain runs to this day. Where a
    name runs more than 25 years past the dates Wikidata gives the state, the years beyond go to the successor (or
    predecessor) that both Wikidata and the Wikipedia infobox name and whose capital lies inside the borders it takes
