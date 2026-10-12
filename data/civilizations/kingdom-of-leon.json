@@ -15,7 +15,8 @@
       "latest": 1833,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,12 +41,12 @@
   },
   "rulers": [
     {
-      "id": "Q235080",
-      "name": "Alfonso VI of León and Castile"
+      "id": "Q283561",
+      "name": "Alfonso V of León"
     },
     {
-      "id": "Q317905",
-      "name": "Sancho II of Castile and León"
+      "id": "Q235080",
+      "name": "Alfonso VI of León and Castile"
     },
     {
       "id": "Q128701",
@@ -62,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A medieval state situated in the northwest region of the Iberian Peninsula.",
+  "tier": "Core",
   "map": "maps/kingdom-of-leon.png",
   "map_asked": true,
   "checks": {

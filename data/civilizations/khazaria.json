@@ -15,7 +15,8 @@
       "latest": 969,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,6 +53,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A semi-nomadic Turkic people who established a major commercial empire in the late 6th century CE spanning the south of modern European Russia, southern Ukraine, and western Kazakhstan.",
+  "tier": "Core",
   "map": "maps/khazaria.png",
   "map_asked": true,
   "checks": {

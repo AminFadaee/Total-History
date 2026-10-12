@@ -15,7 +15,8 @@
       "latest": -30,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,6 +41,10 @@
       "name": "Ptolemy I Soter"
     },
     {
+      "id": "Q39576",
+      "name": "Ptolemy II Philadelphus"
+    },
+    {
       "id": "Q635",
       "name": "Cleopatra"
     }
@@ -56,6 +61,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient Greek polity based in Egypt during the Hellenistic period.",
+  "tier": "Core",
   "map": "maps/ptolemaic-kingdom.png",
   "map_asked": true,
   "checks": {

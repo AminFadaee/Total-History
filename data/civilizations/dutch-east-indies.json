@@ -15,7 +15,8 @@
       "latest": 1949,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,15 +30,27 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q252",
+    "region": "Indonesia",
+    "name": "Republic of Indonesia"
+  },
   "rulers": [
     {
-      "id": "Q2625370",
-      "name": "Augustijn Gerhard Besier"
+      "id": "Q768372",
+      "name": "Dirk Fock"
     },
     {
-      "id": "Q1820715",
-      "name": "Carel de Vos van Steenwijk"
+      "id": "Q510497",
+      "name": "Andries Cornelis Dirk de Graeff"
+    },
+    {
+      "id": "Q4942013",
+      "name": "Bonifacius Cornelis de Jonge"
+    },
+    {
+      "id": "Q457517",
+      "name": "Alidius Tjarda van Starkenborgh Stachouwer"
     }
   ],
   "modern_countries": [
@@ -45,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A colony of the Dutch Empire, established in 1800 when the Batavian Republic took control of the Dutch East India Company.",
+  "tier": "Core",
   "map": "maps/dutch-east-indies.png",
   "map_asked": true,
   "checks": {

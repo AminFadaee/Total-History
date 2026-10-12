@@ -15,7 +15,8 @@
       "latest": 1874,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -41,6 +42,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A short-lived monarchy in Fiji.",
+  "tier": "Core",
   "map": "maps/kingdom-of-fiji.png",
   "map_asked": true,
   "checks": {

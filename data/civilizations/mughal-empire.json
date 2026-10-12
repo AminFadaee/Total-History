@@ -15,7 +15,8 @@
       "latest": 1857,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -68,8 +69,16 @@
       "name": "Babur"
     },
     {
-      "id": "Q127369",
-      "name": "Bahadur Shah Zafar"
+      "id": "Q8597",
+      "name": "Akbar"
+    },
+    {
+      "id": "Q83672",
+      "name": "Shah Jahan"
+    },
+    {
+      "id": "Q485547",
+      "name": "Aurangzeb"
     }
   ],
   "modern_countries": [
@@ -80,6 +89,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An early modern empire in South Asia.",
+  "tier": "Core",
   "map": "maps/mughal-empire.png",
   "map_asked": true,
   "checks": {

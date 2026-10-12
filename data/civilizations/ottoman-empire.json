@@ -15,7 +15,8 @@
       "latest": 1923,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -110,6 +111,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A state that spanned much of Southeastern Europe, West Asia, and North Africa from the 14th century to the early 20th century, centred in modern-day Turkey.",
+  "tier": "Core",
   "map": "maps/ottoman-empire.png",
   "map_asked": true,
   "checks": {

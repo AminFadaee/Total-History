@@ -15,7 +15,8 @@
       "latest": 766,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -46,6 +47,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Turkic tribal confederation.",
+  "tier": "Extended",
   "map": "maps/turgesh.png",
   "map_asked": true,
   "checks": {

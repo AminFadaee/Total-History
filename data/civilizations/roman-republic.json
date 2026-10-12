@@ -15,7 +15,8 @@
       "latest": -27,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,16 +37,8 @@
   },
   "rulers": [
     {
-      "id": "Q353188",
-      "name": "Lucius Tarquinius Collatinus"
-    },
-    {
-      "id": "Q1405",
-      "name": "Augustus"
-    },
-    {
-      "id": "Q48174",
-      "name": "Marcus Vipsanius Agrippa"
+      "id": "Q1048",
+      "name": "Julius Caesar"
     }
   ],
   "modern_countries": [
@@ -71,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The era of classical Roman civilisation beginning with the overthrow of the Roman Kingdom and ending in 27 BC with the establishment of the Roman Empire following the War of Actium.",
+  "tier": "Core",
   "map": "maps/roman-republic.png",
   "map_asked": true,
   "checks": {

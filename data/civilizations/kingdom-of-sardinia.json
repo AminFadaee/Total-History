@@ -15,7 +15,8 @@
       "latest": 1861,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -66,6 +67,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "From 1720 to 1847, only the island of Sardinia proper was part of the Kingdom of Sardinia, while the other mainland possessions were held by the House of Savoy in their own right, hence forming a composite monarchy and a personal union, which was formally referred to as the \"States of His Majesty the King of Sardinia\". This situation was changed by the Perfect Fusion act of 1847, which created a unitary kingdom.",
+  "tier": "Core",
   "map": "maps/kingdom-of-sardinia.png",
   "map_asked": true,
   "checks": {

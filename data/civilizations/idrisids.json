@@ -15,7 +15,8 @@
       "latest": 974,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,8 +41,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q253605",
-      "name": "Al-Hasan ibn al-Qasim Jannun"
+      "id": "Q922653",
+      "name": "Idris II of Morocco"
+    },
+    {
+      "id": "Q2746373",
+      "name": "Ali ibn Muhammad"
+    },
+    {
+      "id": "Q681523",
+      "name": "Yahya ibn Muhammad"
+    },
+    {
+      "id": "Q2836401",
+      "name": "Ali ibn Umar"
     }
   ],
   "modern_countries": [
@@ -50,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Arab Muslim dynasty from 788 to 974, ruling most of present-day Morocco and parts of present-day western Algeria.",
+  "tier": "Core",
   "map": "maps/idrisids.png",
   "map_asked": true,
   "checks": {

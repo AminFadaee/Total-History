@@ -15,7 +15,8 @@
       "latest": 1846,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -54,14 +55,6 @@
     {
       "id": "Q189145",
       "name": "Antonio López de Santa Anna"
-    },
-    {
-      "id": "Q373622",
-      "name": "José Joaquín de Herrera"
-    },
-    {
-      "id": "Q440461",
-      "name": "Mariano Paredes"
     }
   ],
   "modern_countries": [
@@ -70,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A unitary political regime established in Mexico on 23 October 1835, under a new constitution known as the Siete Leyes after conservatives repealed the federalist Constitution of 1824 and ended the First Mexican Republic.",
+  "tier": "Extended",
   "map": "maps/centralist-mexico.png",
   "map_asked": false,
   "checks": {

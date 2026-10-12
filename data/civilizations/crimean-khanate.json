@@ -15,7 +15,8 @@
       "latest": 1783,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -25,6 +26,14 @@
         44.74102778
       ],
       "founded": 401
+    },
+    {
+      "name": "Bakhchysarai",
+      "location": [
+        33.860833333333,
+        44.752777777778
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -36,12 +45,20 @@
   },
   "rulers": [
     {
-      "id": "Q379718",
-      "name": "Haji I Giray"
+      "id": "Q379724",
+      "name": "Meñli I Giray"
     },
     {
-      "id": "Q2947626",
-      "name": "Şahin Giray"
+      "id": "Q2996427",
+      "name": "Mehmed II Giray"
+    },
+    {
+      "id": "Q2469212",
+      "name": "Mehmed IV Giray"
+    },
+    {
+      "id": "Q1206956",
+      "name": "Devlet II Giray"
     }
   ],
   "modern_countries": [
@@ -50,6 +67,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Crimean Tatar state established by Hacı I Giray existing from 1441 to 1783.",
+  "tier": "Core",
   "map": "maps/crimean-khanate.png",
   "map_asked": true,
   "checks": {

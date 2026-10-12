@@ -15,7 +15,8 @@
       "latest": 1526,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -79,6 +80,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A late medieval empire primarily based in Delhi that stretched over large parts of the Indian subcontinent for more than three centuries.",
+  "tier": "Core",
   "map": "maps/delhi-sultanate.png",
   "map_asked": true,
   "checks": {

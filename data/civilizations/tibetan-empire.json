@@ -15,7 +15,8 @@
       "latest": 842,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,8 +33,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q2187385",
-      "name": "Mé Aktsom"
+      "id": "Q320122",
+      "name": "Songtsen Gampo"
     },
     {
       "id": "Q366661",
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "Centered on the Tibetan Plateau and formed as a result of expansions under the Yarlung dynasty's 33rd king, Songtsen Gampo, in the 7th century.",
+  "tier": "Core",
   "map": "maps/tibetan-empire.png",
   "map_asked": true,
   "checks": {

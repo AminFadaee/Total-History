@@ -15,7 +15,8 @@
       "latest": 907,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,20 +37,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q9701",
-      "name": "Emperor Taizong of Tang"
-    },
-    {
       "id": "Q9700",
       "name": "Emperor Gaozu of Tang"
     },
     {
-      "id": "Q9746",
-      "name": "Emperor Xuanzong of Tang"
+      "id": "Q9701",
+      "name": "Emperor Taizong of Tang"
     },
     {
-      "id": "Q9892",
-      "name": "Emperor Ai of Tang"
+      "id": "Q9738",
+      "name": "Wu Zetian"
+    },
+    {
+      "id": "Q9746",
+      "name": "Emperor Xuanzong of Tang"
     }
   ],
   "modern_countries": [
@@ -63,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705.",
+  "tier": "Core",
   "map": "maps/tang-dynasty.png",
   "map_asked": true,
   "checks": {

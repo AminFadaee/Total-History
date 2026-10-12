@@ -11,7 +11,8 @@
       "latest": 1500,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -25,6 +26,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "One of the uluses within the Mongol Empire formed around 1225, after the death of Jochi when his son, Orda, inherited his father's appanage by the Jaxartes.",
+  "tier": "Extended",
   "map": "maps/white-horde.png",
   "map_asked": true,
   "checks": {

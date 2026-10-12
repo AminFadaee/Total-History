@@ -15,7 +15,8 @@
       "latest": 1782,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A major Siamese kingdom which existed in Southeast Asia from 1767 to 1782, centred on the city of Thonburi, in Siam or present-day Thailand.",
+  "tier": "Extended",
   "map": "maps/thonburi-kingdom.png",
   "map_asked": true,
   "checks": {

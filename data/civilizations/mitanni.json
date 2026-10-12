@@ -11,7 +11,11 @@
       "latest": -1260,
       "circa": true
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      -1500,
+      -1200
+    ]
   },
   "capitals": [
     {
@@ -28,12 +32,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q747416",
-      "name": "Kirta"
-    },
-    {
-      "id": "Q1060266",
-      "name": "Shattuara II"
+      "id": "Q317205",
+      "name": "Tushratta"
     }
   ],
   "modern_countries": [
@@ -43,6 +43,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Hurrian-speaking kingdom in northern Syria and southeast Anatolia with Indo-Aryan linguistic and political influences.",
+  "tier": "Core",
   "map": "maps/mitanni.png",
   "map_asked": true,
   "checks": {

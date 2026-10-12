@@ -15,7 +15,8 @@
       "latest": 1465,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,8 +43,20 @@
   },
   "rulers": [
     {
-      "id": "Q307564",
-      "name": "Abd al-Haqq II"
+      "id": "Q335496",
+      "name": "Abu Yusuf Yaqub ibn Abd al-Haqq"
+    },
+    {
+      "id": "Q335476",
+      "name": "Abu Yaqub Yusuf an-Nasr"
+    },
+    {
+      "id": "Q335620",
+      "name": "Abu al-Hasan Ali ibn Uthman"
+    },
+    {
+      "id": "Q336990",
+      "name": "Abu Inan Faris"
     }
   ],
   "modern_countries": [
@@ -54,6 +67,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Berber Zenata dynasty that ruled much of the Maghreb, chiefly present-day Morocco, from the mid-13th to the 15th century.",
+  "tier": "Core",
   "map": "maps/marinid-sultanate.png",
   "map_asked": true,
   "checks": {

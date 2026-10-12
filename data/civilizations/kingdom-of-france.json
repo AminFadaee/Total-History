@@ -15,7 +15,8 @@
       "latest": 1791,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -64,6 +65,8 @@
     "Mauritius"
   ],
   "borders": true,
+  "summary": "The historiographical name or umbrella term given to various political entities of France in the medieval and early modern period.",
+  "tier": "Core",
   "map": "maps/kingdom-of-france.png",
   "map_asked": true,
   "checks": {

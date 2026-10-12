@@ -15,7 +15,8 @@
       "latest": 1893,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -61,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An archipelagic country from 1795 to 1893, which eventually encompassed all of the inhabited Hawaiian Islands.",
+  "tier": "Core",
   "map": "maps/kingdom-of-hawai-i.png",
   "map_asked": true,
   "checks": {

@@ -1,0 +1,88 @@
+{
+  "id": "Q466581",
+  "slug": "hoysala-kingdom",
+  "name": "Hoysala Kingdom",
+  "wikipedia": "Hoysala Kingdom",
+  "map_year": 1111,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1346,
+      "latest": 1346,
+      "circa": false
+    },
+    "confirmed": false,
+    "core": [
+      1100,
+      1400
+    ]
+  },
+  "capitals": [
+    {
+      "name": "Halebidu",
+      "location": [
+        75.864722222222,
+        13.164166666667
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q167639",
+    "region": "India",
+    "name": "Vijayanagara Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q731884",
+      "name": "Vishnuvardhana"
+    },
+    {
+      "id": "Q3870387",
+      "name": "Narasimha I"
+    },
+    {
+      "id": "Q2318607",
+      "name": "Veera Ballala II"
+    },
+    {
+      "id": "Q3632884",
+      "name": "Veera Ballala III"
+    }
+  ],
+  "modern_countries": [
+    "India"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A prominent South Indian dynasty that ruled most of what is now Karnataka, as well as parts of Tamil Nadu and southwestern Telangana, between the 11th and 14th centuries CE. The capital was initially located at Belur and was later moved to Halebidu.",
+  "tier": "Core",
+  "map": "maps/hoysala-kingdom.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Halebidu"
+      ],
+      "infobox": [
+        "Angadi",
+        "Belur, Karnataka",
+        "Halebidu",
+        "Tiruvannamalai"
+      ]
+    },
+    "cliopatria_years": [
+      1111,
+      1351
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Halebidu",
+    "labelled": [
+      "Chola dynasty",
+      "Western Chalukya Empire"
+    ]
+  }
+}

@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -30,12 +31,27 @@
     "name": "Ottoman Empire"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q151735",
+      "name": "Celâl Bayar"
+    },
+    {
+      "id": "Q5152",
+      "name": "Mustafa Kemal Atatürk"
+    },
+    {
+      "id": "Q183297",
+      "name": "İsmet İnönü"
+    }
+  ],
   "modern_countries": [
     "Turkey"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country mainly located in Anatolia in West Asia, with a smaller part called East Thrace in Southeast Europe.",
+  "tier": "Core",
   "map": "maps/republic-of-turkey.png",
   "map_asked": true,
   "checks": {

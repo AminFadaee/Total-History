@@ -15,7 +15,8 @@
       "latest": 1902,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -27,7 +28,12 @@
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q2030595",
+      "name": "Idris Alooma"
+    }
+  ],
   "modern_countries": [
     "Chad",
     "Nigeria",
@@ -36,6 +42,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An empire based around Lake Chad that once ruled areas which are now part of Nigeria, Niger, Cameroon, Libya, Algeria, Sudan, and Chad.",
+  "tier": "Core",
   "map": "maps/kanembornu-empire.png",
   "map_asked": true,
   "checks": {

@@ -3,7 +3,7 @@
   "slug": "wattasid-dynasty",
   "name": "Wattasid dynasty",
   "wikipedia": "Wattasid dynasty",
-  "map_year": 1468,
+  "map_year": 1472,
   "period": {
     "start": {
       "earliest": 1472,
@@ -15,7 +15,8 @@
       "latest": 1554,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,12 +41,20 @@
   },
   "rulers": [
     {
-      "id": "Q508985",
-      "name": "Abu Abd Allah al-Sheikh Muhammad ibn Yahya"
+      "id": "Q997320",
+      "name": "Ali Abu Hassun"
     },
     {
-      "id": "Q3141245",
-      "name": "Nasir ad-Din al-Qasri Muhammad ibn Ahmad"
+      "id": "Q307599",
+      "name": "Abu Abd Allah al-Burtuqali Muhammad ibn Muhammad"
+    },
+    {
+      "id": "Q335546",
+      "name": "Abu al-Abbas Ahmad ibn Muhammad"
+    },
+    {
+      "id": "Q4299447",
+      "name": "Sayyida al Hurra"
     }
   ],
   "modern_countries": [
@@ -54,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A ruling dynasty of Morocco.",
+  "tier": "Extended",
   "map": "maps/wattasid-dynasty.png",
   "map_asked": true,
   "checks": {

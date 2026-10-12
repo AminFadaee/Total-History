@@ -15,7 +15,8 @@
       "latest": 1871,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -51,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A confederated state that united the region of Germany north of the Main river from July 1867 to December 1870.",
+  "tier": "Core",
   "map": "maps/north-german-confederation.png",
   "map_asked": true,
   "checks": {

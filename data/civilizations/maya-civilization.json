@@ -11,7 +11,8 @@
       "latest": 1521,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -25,6 +26,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Mesoamerican civilization that existed from antiquity to the early modern period.",
+  "tier": "Core",
   "map": "maps/maya-civilization.png",
   "map_asked": true,
   "checks": {

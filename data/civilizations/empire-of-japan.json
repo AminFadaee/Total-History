@@ -15,7 +15,8 @@
       "latest": 1947,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -68,6 +69,8 @@
     "Guam"
   ],
   "borders": true,
+  "summary": "The period of Japanese history spanning 79 years, starting with the Meiji Restoration on 3 January 1868, and ending with ratification of the Constitution of Japan on 3 May 1947.",
+  "tier": "Core",
   "map": "maps/empire-of-japan.png",
   "map_asked": true,
   "checks": {

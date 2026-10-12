@@ -15,7 +15,8 @@
       "latest": 962,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -73,6 +74,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A successor state of the Carolingian Empire ruled by the Carolingian dynasty until 911.",
+  "tier": "Core",
   "map": "maps/east-franks.png",
   "map_asked": true,
   "checks": {

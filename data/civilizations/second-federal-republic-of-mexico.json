@@ -15,7 +15,8 @@
       "latest": 1863,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,44 +37,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q1837971",
-      "name": "José Mariano Salas"
-    },
-    {
-      "id": "Q358534",
-      "name": "Valentín Gómez Farías"
-    },
-    {
-      "id": "Q189145",
-      "name": "Antonio López de Santa Anna"
-    },
-    {
-      "id": "Q2208980",
-      "name": "Pedro María de Anaya"
-    },
-    {
-      "id": "Q561564",
-      "name": "Manuel de la Peña y Peña"
-    },
-    {
-      "id": "Q373622",
-      "name": "José Joaquín de Herrera"
-    },
-    {
-      "id": "Q431576",
-      "name": "Mariano Arista"
-    },
-    {
-      "id": "Q460776",
-      "name": "Juan Álvarez"
-    },
-    {
       "id": "Q449399",
       "name": "Ignacio Comonfort"
-    },
-    {
-      "id": "Q182276",
-      "name": "Benito Juárez"
     }
   ],
   "modern_countries": [
@@ -82,6 +47,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "It would last up until the Second French intervention in Mexico led to the proclamation of the Second Mexican Empire in 1863.",
+  "tier": "Extended",
   "map": "maps/second-federal-republic-of-mexico.png",
   "map_asked": false,
   "checks": {

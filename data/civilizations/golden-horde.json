@@ -11,7 +11,11 @@
       "latest": 1502,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1200,
+      1600
+    ]
   },
   "capitals": [
     {
@@ -29,16 +33,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q309585",
-      "name": "Tokhtamysh"
-    },
-    {
-      "id": "Q541678",
-      "name": "Mahmud bin Küchük"
-    },
-    {
-      "id": "Q368887",
-      "name": "Sheikh Ahmed"
+      "id": "Q735288",
+      "name": "Jani Beg"
     }
   ],
   "modern_countries": [
@@ -50,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "Originally a Mongol and later Turkicized khanate established in the 13th century, originating from the northwestern part of the Mongol Empire.",
+  "tier": "Core",
   "map": "maps/golden-horde.png",
   "map_asked": true,
   "checks": {

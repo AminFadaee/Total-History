@@ -15,7 +15,8 @@
       "latest": -1550,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -32,6 +33,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The kings of the Fifteenth Dynasty of Egypt.",
+  "tier": "Core",
   "map": "maps/hyksos.png",
   "map_asked": true,
   "checks": {

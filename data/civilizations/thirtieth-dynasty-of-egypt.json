@@ -1,0 +1,77 @@
+{
+  "id": "Q386303",
+  "slug": "thirtieth-dynasty-of-egypt",
+  "name": "Thirtieth Dynasty of Egypt",
+  "wikipedia": "Thirtieth Dynasty of Egypt",
+  "map_year": -350,
+  "period": {
+    "start": {
+      "earliest": -380,
+      "latest": -380,
+      "circa": false
+    },
+    "end": {
+      "earliest": -343,
+      "latest": -343,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Samannud",
+      "location": [
+        31.2425,
+        30.96222222
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q175775",
+      "name": "Nectanebo I"
+    },
+    {
+      "id": "Q313126",
+      "name": "Nectanebo II"
+    },
+    {
+      "id": "Q198688",
+      "name": "Teos of Egypt"
+    }
+  ],
+  "modern_countries": [
+    "Egypt",
+    "Libya"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "Usually classified as the fifth Dynasty of the Late Period of ancient Egypt.",
+  "tier": "Extended",
+  "map": "maps/thirtieth-dynasty-of-egypt.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Samannud"
+      ]
+    },
+    "cliopatria_years": [
+      -383,
+      -338
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "Samannud",
+    "labelled": [
+      "Achaemenid Empire",
+      "Kingdom of Kush"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": 1866,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -31,10 +32,6 @@
   "before": {},
   "after": {},
   "rulers": [
-    {
-      "id": "Q127318",
-      "name": "George III"
-    },
     {
       "id": "Q130586",
       "name": "George IV"
@@ -53,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "Established in October 1814 by the Congress of Vienna, with the restoration of George III to his Hanoverian territories after the Napoleonic era.",
+  "tier": "Core",
   "map": "maps/kingdom-of-hanover.png",
   "map_asked": true,
   "checks": {

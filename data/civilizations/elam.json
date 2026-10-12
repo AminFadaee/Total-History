@@ -7,7 +7,11 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      -2100,
+      -600
+    ]
   },
   "capitals": [
     {
@@ -22,13 +26,24 @@
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q392729",
+      "name": "Shutruk-Nakhunte"
+    },
+    {
+      "id": "Q2391697",
+      "name": "Tammaritu II"
+    }
+  ],
   "modern_countries": [
     "Iran",
     "Iraq"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient civilization centered in the far west and southwest of Iran, stretching from the lowlands of Ilam and Khuzestan as well as a small part of modern-day southern Iraq.",
+  "tier": "Core",
   "map": "maps/elam.png",
   "map_asked": true,
   "checks": {

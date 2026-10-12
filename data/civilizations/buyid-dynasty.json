@@ -15,7 +15,8 @@
       "latest": 1062,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -56,12 +57,20 @@
   },
   "rulers": [
     {
-      "id": "Q912259",
-      "name": "Imad al-Dawla"
+      "id": "Q2745237",
+      "name": "Mu'izz al-Dawla"
     },
     {
-      "id": "Q371378",
-      "name": "Abu Mansur Fulad Sutun"
+      "id": "Q506243",
+      "name": "'Adud al-Dawla"
+    },
+    {
+      "id": "Q2745454",
+      "name": "Izz al-Dawla"
+    },
+    {
+      "id": "Q288822",
+      "name": "Abu Kalijar"
     }
   ],
   "modern_countries": [
@@ -71,6 +80,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Zaydi and later Twelver Shi'a dynasty of Daylamite origin.",
+  "tier": "Core",
   "map": "maps/buyid-dynasty.png",
   "map_asked": true,
   "checks": {

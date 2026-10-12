@@ -15,7 +15,8 @@
       "latest": 909,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -25,6 +26,14 @@
         35.68333333333333
       ],
       "founded": 670
+    },
+    {
+      "name": "Raqqada",
+      "location": [
+        10.0569,
+        35.596243
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -40,12 +49,20 @@
   },
   "rulers": [
     {
-      "id": "Q692718",
-      "name": "Ibrahim I ibn al-Aghlab"
+      "id": "Q207052",
+      "name": "Ziyadat Allah I of Ifriqiya"
     },
     {
-      "id": "Q207019",
-      "name": "Ziyadat Allah III of Ifriqiya"
+      "id": "Q336991",
+      "name": "Ibrahim II of Ifriqiya"
+    },
+    {
+      "id": "Q335607",
+      "name": "Muhammad II of Ifriqiya"
+    },
+    {
+      "id": "Q335545",
+      "name": "Abdallah II of Ifriqiya"
     }
   ],
   "modern_countries": [
@@ -55,6 +72,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Arab dynasty that ruled Ifriqiya from 800 to 909, nominally as vassals of the Abbasid Caliphate.",
+  "tier": "Core",
   "map": "maps/aghlabid-dynasty.png",
   "map_asked": true,
   "checks": {

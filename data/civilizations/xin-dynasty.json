@@ -3,7 +3,7 @@
   "slug": "xin-dynasty",
   "name": "Xin Dynasty",
   "wikipedia": "Xin dynasty",
-  "map_year": 6,
+  "map_year": 9,
   "period": {
     "start": {
       "earliest": 9,
@@ -15,7 +15,8 @@
       "latest": 23,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A short-lived Chinese imperial dynasty which lasted from 9 to 23 AD, established by the Han dynasty consort kin Wang Mang, who usurped the throne of the Emperor Ping of Han and the infant \"crown prince\" Liu Ying.",
+  "tier": "Core",
   "map": "maps/xin-dynasty.png",
   "map_asked": false,
   "checks": {

@@ -1,0 +1,78 @@
+{
+  "id": "Q307069",
+  "slug": "eastern-wei",
+  "name": "Eastern Wei",
+  "wikipedia": "Eastern Wei",
+  "map_year": 546,
+  "period": {
+    "start": {
+      "earliest": 534,
+      "latest": 534,
+      "circa": false
+    },
+    "end": {
+      "earliest": 550,
+      "latest": 550,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Luoyang",
+      "location": [
+        112.42447,
+        34.65867
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q875305",
+    "region": "China",
+    "name": "Northern Wei"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q1149239",
+      "name": "Emperor Xiaojing of Eastern Wei"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An imperial dynasty of China that followed the disintegration of the Northern Wei dynasty.",
+  "tier": "Extended",
+  "map": "maps/eastern-wei.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Luoyang"
+      ],
+      "infobox": [
+        "Luoyang",
+        "Ye"
+      ]
+    },
+    "cliopatria_years": [
+      534,
+      554
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Luoyang",
+    "labelled": [
+      "Rouran Khaganate",
+      "Western Wei",
+      "Liang Dynasty",
+      "Goguryeo",
+      "Baekje"
+    ]
+  }
+}

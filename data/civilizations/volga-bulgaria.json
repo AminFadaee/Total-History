@@ -11,7 +11,8 @@
       "latest": 1240,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A historical Bulgar state that existed between the 9th and 13th centuries around the confluence of the Volga and Kama River, in what is now European Russia.",
+  "tier": "Core",
   "map": "maps/volga-bulgaria.png",
   "map_asked": true,
   "checks": {

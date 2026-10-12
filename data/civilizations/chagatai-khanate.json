@@ -7,7 +7,11 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1200,
+      1500
+    ]
   },
   "capitals": [
     {
@@ -50,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Mongol khanate that comprised the lands ruled by Chagatai Khan, second son of Genghis Khan, and his descendants and successors.",
+  "tier": "Core",
   "map": "maps/chagatai-khanate.png",
   "map_asked": true,
   "checks": {

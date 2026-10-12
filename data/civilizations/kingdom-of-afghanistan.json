@@ -1,0 +1,81 @@
+{
+  "id": "Q1138904",
+  "slug": "kingdom-of-afghanistan",
+  "name": "Kingdom of Afghanistan",
+  "wikipedia": "Kingdom of Afghanistan",
+  "map_year": 1943,
+  "period": {
+    "start": {
+      "earliest": 1926,
+      "latest": 1926,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1973,
+      "latest": 1973,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Kabul",
+      "location": [
+        69.165833333333,
+        34.532777777778
+      ],
+      "founded": 1200
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q153620",
+      "name": "Amanullah Khan"
+    },
+    {
+      "id": "Q473247",
+      "name": "Habibullah Kalakani"
+    },
+    {
+      "id": "Q355610",
+      "name": "Mohammad Nadir Shah"
+    }
+  ],
+  "modern_countries": [
+    "Afghanistan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A monarchy operating under a unitary state in Central Asia that was established in 1926 as a successor state to the Emirate of Afghanistan.",
+  "tier": "Extended",
+  "map": "maps/kingdom-of-afghanistan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kabul"
+      ],
+      "infobox": [
+        "Kabul",
+        "Jalalabad"
+      ]
+    },
+    "cliopatria_years": [
+      1926,
+      1972
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kabul",
+    "labelled": [
+      "British Raj",
+      "Pahlavi Dynasty",
+      "Union of Soviet Socialist Republics",
+      "Republic of China"
+    ]
+  }
+}

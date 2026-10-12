@@ -15,7 +15,8 @@
       "latest": 428,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,36 +41,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q1342141",
-      "name": "Orontes III"
-    },
-    {
-      "id": "Q319478",
-      "name": "Artaxias I"
-    },
-    {
       "id": "Q201303",
       "name": "Tigranes the Great"
-    },
-    {
-      "id": "Q363394",
-      "name": "Artavasdes II of Armenia"
-    },
-    {
-      "id": "Q317042",
-      "name": "Tiridates I of Armenia"
-    },
-    {
-      "id": "Q172520",
-      "name": "Tiridates III of Armenia"
-    },
-    {
-      "id": "Q196217",
-      "name": "Vramshapuh"
-    },
-    {
-      "id": "Q2632689",
-      "name": "Artaxias IV"
     }
   ],
   "modern_countries": [
@@ -81,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Armenian kingdom in the Ancient Near East which existed from 331 BC to 428 AD. Its history is divided into the successive reigns of three royal dynasties: Orontid, Artaxiad, and Arsacid.",
+  "tier": "Core",
   "map": "maps/kingdom-of-armenia.png",
   "map_asked": true,
   "checks": {

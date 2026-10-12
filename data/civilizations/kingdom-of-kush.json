@@ -11,7 +11,11 @@
       "latest": 350,
       "circa": true
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      -800,
+      400
+    ]
   },
   "capitals": [
     {
@@ -33,14 +37,25 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
-  "rulers": [],
+  "after": {
+    "id": "Q829356",
+    "region": "Sudan",
+    "name": "Makuria Kingdom"
+  },
+  "rulers": [
+    {
+      "id": "Q315714",
+      "name": "Taharqa"
+    }
+  ],
   "modern_countries": [
     "Egypt",
     "Sudan"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient kingdom in Nubia, centered along the Nile Valley in what is now northern Sudan and southern Egypt.",
+  "tier": "Core",
   "map": "maps/kingdom-of-kush.png",
   "map_asked": true,
   "checks": {

@@ -1,0 +1,85 @@
+{
+  "id": "Q307697",
+  "slug": "zayyanid-dynasty",
+  "name": "Zayyanid dynasty",
+  "wikipedia": "Zayyanid dynasty",
+  "map_year": 1363,
+  "period": {
+    "start": {
+      "earliest": 1236,
+      "latest": 1236,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1556,
+      "latest": 1556,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Tlemcen",
+      "location": [
+        -1.3166666666667,
+        34.882777777778
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q199688",
+    "region": "Algeria",
+    "name": "Almohad Caliphate"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q335451",
+      "name": "Yaghmurasen ibn Zyan"
+    },
+    {
+      "id": "Q335327",
+      "name": "Abu Sa'id Uthman I, Abd al-Wadid"
+    },
+    {
+      "id": "Q324772",
+      "name": "Abu Hammu Musa I"
+    },
+    {
+      "id": "Q335416",
+      "name": "Abu Tashfin Abd al-Rahman I"
+    }
+  ],
+  "modern_countries": [
+    "Algeria"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Berber Zenata dynasty that ruled the Kingdom of Tlemcen, mainly in modern Algeria centered on the town of Tlemcen in northwest Algeria.",
+  "tier": "Extended",
+  "map": "maps/zayyanid-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [
+        "Tlemcen"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1236,
+      1555
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Tlemcen",
+    "labelled": [
+      "Marinid Sultanate",
+      "Hafsid Dynasty",
+      "Emirate of Granada"
+    ]
+  }
+}

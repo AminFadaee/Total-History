@@ -1,0 +1,86 @@
+{
+  "id": "Q887803",
+  "slug": "sultanate-of-brunei",
+  "name": "Sultanate of Brunei",
+  "wikipedia": "Sultanate of Brunei (1368–1888)",
+  "map_year": 1512,
+  "period": {
+    "start": {
+      "earliest": 1368,
+      "latest": 1368,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1888,
+      "latest": 1888,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Mukim Kota Batu",
+      "location": [
+        114.96352777778,
+        4.8830833333333
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q2658398",
+      "name": "Muhammad Shah of Brunei"
+    },
+    {
+      "id": "Q29089",
+      "name": "Sharif Ali"
+    },
+    {
+      "id": "Q31800",
+      "name": "Bolkiah"
+    },
+    {
+      "id": "Q31875",
+      "name": "Muhammad Hasan of Brunei"
+    }
+  ],
+  "modern_countries": [
+    "Philippines",
+    "Malaysia",
+    "Brunei"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Malay sultanate centred around Brunei on the northern coast of Borneo in Southeast Asia.",
+  "tier": "Core",
+  "map": "maps/sultanate-of-brunei.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mukim Kota Batu"
+      ],
+      "infobox": [
+        "Mukim Kota Batu",
+        "Bandar Seri Begawan",
+        "Kampong Ayer"
+      ]
+    },
+    "cliopatria_years": [
+      1363,
+      1888
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Mukim Kota Batu",
+    "labelled": [
+      "Ayutthaya Kingdom",
+      "Lan Xang"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": 1911,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,8 +45,16 @@
       "name": "Shunzhi Emperor"
     },
     {
-      "id": "Q185152",
-      "name": "Puyi"
+      "id": "Q17790",
+      "name": "Kangxi Emperor"
+    },
+    {
+      "id": "Q19133",
+      "name": "Qianlong Emperor"
+    },
+    {
+      "id": "Q299710",
+      "name": "Guangxu Emperor"
     }
   ],
   "modern_countries": [
@@ -57,6 +66,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Manchu-led imperial dynasty of China and an early modern empire in East Asia which existed from 1636/1644 to 1912.",
+  "tier": "Core",
   "map": "maps/qing-dynasty.png",
   "map_asked": true,
   "checks": {

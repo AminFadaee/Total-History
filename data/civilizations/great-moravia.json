@@ -15,7 +15,8 @@
       "latest": 907,
       "circa": true
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,10 +51,6 @@
     {
       "id": "Q551716",
       "name": "Mojmir II of Moravia"
-    },
-    {
-      "id": "Q1354477",
-      "name": "Slavomir of Moravia"
     }
   ],
   "modern_countries": [
@@ -65,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The first major state that was predominantly West Slavic to emerge in the area of Central Europe, possibly including territories which are today part of the Czech Republic, Slovakia, Hungary, Austria, Germany, Poland, Romania, Croatia, Serbia, Ukraine and Slovenia.",
+  "tier": "Core",
   "map": "maps/great-moravia.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1925,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,8 +41,16 @@
   },
   "rulers": [
     {
-      "id": "Q324974",
-      "name": "Agha Mohammad Khan Qajar"
+      "id": "Q175299",
+      "name": "Fath-Ali Shah Qajar"
+    },
+    {
+      "id": "Q159416",
+      "name": "Naser al-Din Shah Qajar"
+    },
+    {
+      "id": "Q182921",
+      "name": "Reza Shah"
     },
     {
       "id": "Q317799",
@@ -55,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Iranian state under the rule of the Qajar dynasty, which lasted from 1789 to 1925.",
+  "tier": "Core",
   "map": "maps/qajar-dynasty.png",
   "map_asked": true,
   "checks": {

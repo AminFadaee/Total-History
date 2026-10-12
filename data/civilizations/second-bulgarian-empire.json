@@ -15,7 +15,8 @@
       "latest": 1396,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,12 +37,8 @@
   },
   "rulers": [
     {
-      "id": "Q905368",
-      "name": "Peter II of Bulgaria"
-    },
-    {
-      "id": "Q1060107",
-      "name": "Constantine II of Bulgaria"
+      "id": "Q313427",
+      "name": "Ivan Asen II"
     }
   ],
   "modern_countries": [
@@ -53,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A medieval Bulgarian state that existed between 1185 and 1396.",
+  "tier": "Core",
   "map": "maps/second-bulgarian-empire.png",
   "map_asked": true,
   "checks": {

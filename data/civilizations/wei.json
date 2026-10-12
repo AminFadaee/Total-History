@@ -1,0 +1,75 @@
+{
+  "id": "Q912052",
+  "slug": "wei",
+  "name": "Wei",
+  "wikipedia": "Wei (state)",
+  "map_year": -291,
+  "period": {
+    "start": {
+      "earliest": -403,
+      "latest": -403,
+      "circa": false
+    },
+    "end": {
+      "earliest": -225,
+      "latest": -225,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Daliang",
+      "location": [
+        114.345,
+        34.795
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q912043",
+    "region": "China",
+    "name": "Jin"
+  },
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "One of the seven major states during the Warring States period of ancient China.",
+  "tier": "Extended",
+  "map": "maps/wei.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Daliang"
+      ],
+      "infobox": [
+        "Kaifeng"
+      ]
+    },
+    "cliopatria_years": [
+      -404,
+      -204
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "the spot held longest",
+    "labelled": [
+      "Qin",
+      "Qi",
+      "Yan",
+      "Zhao",
+      "Chu",
+      "Song",
+      "Han",
+      "Lu"
+    ]
+  }
+}

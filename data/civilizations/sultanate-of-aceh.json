@@ -1,0 +1,77 @@
+{
+  "id": "Q1061057",
+  "slug": "sultanate-of-aceh",
+  "name": "Sultanate of Aceh",
+  "wikipedia": "Aceh Sultanate",
+  "map_year": 1626,
+  "period": {
+    "start": {
+      "earliest": 1496,
+      "latest": 1496,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1904,
+      "latest": 1904,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Banda Aceh",
+      "location": [
+        95.3175,
+        5.55
+      ],
+      "founded": 1205
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q188161",
+    "region": "Indonesia",
+    "name": "Dutch East Indies"
+  },
+  "rulers": [
+    {
+      "id": "Q375774",
+      "name": "Iskandar Muda"
+    }
+  ],
+  "modern_countries": [
+    "Indonesia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A sultanate centered in the modern-day province of Aceh of Indonesia.",
+  "tier": "Core",
+  "map": "maps/sultanate-of-aceh.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Banda Aceh"
+      ],
+      "infobox": [
+        "Banda Aceh",
+        "Indrapuri, Aceh Besar"
+      ]
+    },
+    "cliopatria_years": [
+      1516,
+      1903
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Banda Aceh",
+    "labelled": [
+      "Sultanate of Johor",
+      "Sultanate of Palembang",
+      "Sultanate of Banten",
+      "Patani Kingdom"
+    ]
+  }
+}

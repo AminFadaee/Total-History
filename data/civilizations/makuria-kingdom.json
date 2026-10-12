@@ -1,0 +1,76 @@
+{
+  "id": "Q829356",
+  "slug": "makuria-kingdom",
+  "name": "Makuria Kingdom",
+  "wikipedia": "Makuria",
+  "map_year": 1516,
+  "period": {
+    "start": {
+      "earliest": 401,
+      "latest": 500,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1518,
+      "latest": 1518,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Old Dongola",
+      "location": [
+        30.743888888889,
+        18.223055555556
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q241790",
+    "region": "Sudan",
+    "name": "Kingdom of Kush"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q1691674",
+      "name": "Joel of Makuria"
+    }
+  ],
+  "modern_countries": [
+    "Sudan",
+    "Egypt"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A medieval Nubian kingdom in what is today northern Sudan and southern Egypt.",
+  "tier": "Core",
+  "map": "maps/makuria-kingdom.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Old Dongola"
+      ],
+      "infobox": [
+        "Old Dongola",
+        "Gebel Adda"
+      ]
+    },
+    "cliopatria_years": [
+      1415,
+      1518
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Mamluk Sultanate",
+      "Funj Sultanate"
+    ]
+  }
+}

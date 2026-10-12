@@ -15,7 +15,8 @@
       "latest": -25,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,48 +37,8 @@
       "name": "Masinissa"
     },
     {
-      "id": "Q54223",
-      "name": "Micipsa"
-    },
-    {
-      "id": "Q376669",
-      "name": "Gulussa"
-    },
-    {
-      "id": "Q94621",
-      "name": "Mastanabal"
-    },
-    {
-      "id": "Q523301",
-      "name": "Hiempsal I"
-    },
-    {
-      "id": "Q356616",
-      "name": "Adherbal"
-    },
-    {
       "id": "Q156173",
       "name": "Jugurtha"
-    },
-    {
-      "id": "Q340116",
-      "name": "Gauda"
-    },
-    {
-      "id": "Q638676",
-      "name": "Hiempsal II"
-    },
-    {
-      "id": "Q3297782",
-      "name": "Masinissa II"
-    },
-    {
-      "id": "Q379277",
-      "name": "Juba I of Numidia"
-    },
-    {
-      "id": "Q2859362",
-      "name": "Arabio"
     }
   ],
   "modern_countries": [
@@ -87,6 +48,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The ancient Libyan kingdom of the indigenous Numidian Berbers in Northwest Africa during the Hellenistic period.",
+  "tier": "Core",
   "map": "maps/kingdom-of-numidia.png",
   "map_asked": true,
   "checks": {

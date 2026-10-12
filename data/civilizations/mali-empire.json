@@ -15,7 +15,8 @@
       "latest": 1610,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -38,10 +39,6 @@
     {
       "id": "Q309333",
       "name": "Mansa Musa"
-    },
-    {
-      "id": "Q6734486",
-      "name": "Mahmud IV"
     }
   ],
   "modern_countries": [
@@ -54,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An empire in West Africa from c. 1235 to 1610.",
+  "tier": "Core",
   "map": "maps/mali-empire.png",
   "map_asked": true,
   "checks": {

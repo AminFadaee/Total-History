@@ -1,0 +1,69 @@
+{
+  "id": "Q449639",
+  "slug": "alodia",
+  "name": "Alodia",
+  "wikipedia": "Alodia",
+  "map_year": 602,
+  "period": {
+    "start": {
+      "earliest": 501,
+      "latest": 600,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1500,
+      "latest": 1500,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Soba",
+      "location": [
+        32.68094444,
+        15.52397222
+      ],
+      "founded": 301
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q1475713",
+    "region": "Sudan",
+    "name": "Funj Sultanate"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Sudan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A medieval kingdom in what is now central Sudan.",
+  "tier": "Core",
+  "map": "maps/alodia.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Soba"
+      ],
+      "infobox": [
+        "Soba"
+      ]
+    },
+    "cliopatria_years": [
+      501,
+      1506
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Soba",
+    "labelled": [
+      "Makuria",
+      "Kingdom of Axum"
+    ]
+  }
+}

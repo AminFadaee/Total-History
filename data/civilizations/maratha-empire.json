@@ -15,7 +15,8 @@
       "latest": 1818,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,12 +37,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q239505",
-      "name": "Shivaji"
+      "id": "Q2514706",
+      "name": "Bajirao I"
     },
     {
-      "id": "Q13117237",
-      "name": "Pratap Singh of Satara"
+      "id": "Q3629888",
+      "name": "Balaji Baji Rao"
     }
   ],
   "modern_countries": [
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An early modern polity in the Indian subcontinent.",
+  "tier": "Core",
   "map": "maps/maratha-empire.png",
   "map_asked": true,
   "checks": {

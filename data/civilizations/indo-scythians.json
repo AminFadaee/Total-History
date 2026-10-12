@@ -15,7 +15,8 @@
       "latest": 400,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -67,6 +68,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A group of nomadic people of Iranic Scythian origin who migrated from Central Asia southward into the present-day regions of Afghanistan, eastern Iran and the northwestern Indian subcontinent.",
+  "tier": "Core",
   "map": "maps/indo-scythians.png",
   "map_asked": true,
   "checks": {

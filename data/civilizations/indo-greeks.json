@@ -15,7 +15,8 @@
       "latest": 10,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -71,6 +72,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "Hellenistic-era Greek kingdoms in the northwestern part of the Indian subcontinent covering most of modern-day Pakistan, parts of northwestern India and some eastern parts of Afghanistan.",
+  "tier": "Core",
   "map": "maps/indo-greeks.png",
   "map_asked": true,
   "checks": {

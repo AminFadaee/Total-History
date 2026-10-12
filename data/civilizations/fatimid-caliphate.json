@@ -15,7 +15,8 @@
       "latest": 1171,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -33,6 +34,14 @@
         35.504722222222
       ],
       "founded": null
+    },
+    {
+      "name": "Mansouria",
+      "location": [
+        10.113888888889,
+        35.658055555556
+      ],
+      "founded": 946
     },
     {
       "name": "Cairo",
@@ -86,6 +95,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A caliphate that existed from the tenth to the twelfth centuries CE under the rule of the Fatimids, an Isma'ili Shi'a dynasty.",
+  "tier": "Core",
   "map": "maps/fatimid-caliphate.png",
   "map_asked": true,
   "checks": {

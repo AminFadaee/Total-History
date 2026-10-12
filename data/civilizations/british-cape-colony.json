@@ -15,7 +15,8 @@
       "latest": 1910,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,10 +51,6 @@
     {
       "id": "Q9439",
       "name": "Queen Victoria"
-    },
-    {
-      "id": "Q20875",
-      "name": "Edward VII"
     }
   ],
   "modern_countries": [
@@ -63,6 +60,8 @@
     "Sierra Leone"
   ],
   "borders": true,
+  "summary": "A British colony in present-day South Africa named after the Cape of Good Hope.",
+  "tier": "Core",
   "map": "maps/british-cape-colony.png",
   "map_asked": true,
   "checks": {

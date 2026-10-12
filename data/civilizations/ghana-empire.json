@@ -11,7 +11,8 @@
       "latest": 1300,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -33,6 +34,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient western-Sahelian empire based in the modern-day southeast of Mauritania and western Mali.",
+  "tier": "Core",
   "map": "maps/ghana-empire.png",
   "map_asked": true,
   "checks": {

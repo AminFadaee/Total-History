@@ -15,7 +15,8 @@
       "latest": 1950,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -23,6 +24,14 @@
       "location": [
         76.65305555555555,
         12.30861111111111
+      ],
+      "founded": null
+    },
+    {
+      "name": "Srirangapatna",
+      "location": [
+        76.694722222222,
+        12.418055555556
       ],
       "founded": null
     },
@@ -44,20 +53,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q15845075",
-      "name": "Yaduraya Wodeyar"
-    },
-    {
-      "id": "Q1391321",
-      "name": "Jayachamarajendra Wadiyar"
+      "id": "Q1569078",
+      "name": "Hyder Ali"
     },
     {
       "id": "Q10088",
       "name": "Tipu Sultan"
-    },
-    {
-      "id": "Q1569078",
-      "name": "Hyder Ali"
     }
   ],
   "modern_countries": [
@@ -65,6 +66,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A geopolitical realm in southern India founded in around 1399 in the vicinity of the modern-day city of Mysuru.",
+  "tier": "Core",
   "map": "maps/kingdom-of-mysore.png",
   "map_asked": true,
   "checks": {

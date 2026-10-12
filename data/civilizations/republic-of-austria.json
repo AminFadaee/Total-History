@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -30,13 +31,20 @@
     "name": "Austria-Hungary"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q9215",
+      "name": "Sigmund Freud"
+    }
+  ],
   "modern_countries": [
     "Austria",
     "Italy"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A landlocked country in Central Europe, lying in the Eastern Alps.",
+  "tier": "Core",
   "map": "maps/republic-of-austria.png",
   "map_asked": true,
   "checks": {

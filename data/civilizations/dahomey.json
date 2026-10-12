@@ -11,7 +11,8 @@
       "circa": true
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -32,13 +33,19 @@
       "name": "Do-Aklin"
     },
     {
-      "id": "Q337606",
-      "name": "Agoli-agbo"
+      "id": "Q880285",
+      "name": "Ghezo"
+    },
+    {
+      "id": "Q2366953",
+      "name": "Béhanzin"
     }
   ],
   "modern_countries": [],
   "overseas_countries": [],
   "borders": false,
+  "summary": "A West African kingdom located within the present-day Republic of Benin that existed from approximately 1600 until 1904.",
+  "tier": "Core",
   "map": "",
   "map_asked": true,
   "checks": {

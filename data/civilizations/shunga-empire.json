@@ -15,7 +15,8 @@
       "latest": -73,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -33,7 +34,11 @@
     "region": "India",
     "name": "Maurya Empire"
   },
-  "after": {},
+  "after": {
+    "id": "Q784974",
+    "region": "India",
+    "name": "Kanva Dynasty"
+  },
   "rulers": [
     {
       "id": "Q119973",
@@ -59,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A ruling entity centred around Magadha and controlled most of the northern Indian subcontinent from around 187 to 75 BCE. The dynasty was established by Pushyamitra, after taking the throne of Magadha from the Mauryas.",
+  "tier": "Core",
   "map": "maps/shunga-empire.png",
   "map_asked": true,
   "checks": {

@@ -3,7 +3,7 @@
   "slug": "dominican-republic",
   "name": "Dominican Republic",
   "wikipedia": "Dominican Republic",
-  "map_year": 2024,
+  "map_year": 1924,
   "period": {
     "start": {
       "earliest": 1844,
@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -32,12 +33,8 @@
       "name": "Ulises Heureaux"
     },
     {
-      "id": "Q887594",
-      "name": "Ramón Cáceres"
-    },
-    {
-      "id": "Q436482",
-      "name": "Horacio Vásquez"
+      "id": "Q147989",
+      "name": "Joaquín Balaguer"
     },
     {
       "id": "Q152474",
@@ -49,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An island country on the eastern part of the Caribbean island of Hispaniola in the Greater Antilles of the Caribbean Sea in the North Atlantic Ocean.",
+  "tier": "Core",
   "map": "maps/dominican-republic.png",
   "map_asked": true,
   "checks": {
@@ -68,7 +67,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Santo Domingo",
     "labelled": [
-      "Republic of Haiti"
+      "United States of America"
     ]
   }
 }

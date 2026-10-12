@@ -15,7 +15,8 @@
       "latest": -1200,
       "circa": true
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -48,12 +49,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q313312",
-      "name": "Labarna I"
+      "id": "Q222536",
+      "name": "Mursili I"
     },
     {
-      "id": "Q316078",
-      "name": "Šuppiluliuma II"
+      "id": "Q268887",
+      "name": "Puduḫepa"
     }
   ],
   "modern_countries": [
@@ -62,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Anatolian Indo-European people who formed one of the first major civilizations of the Bronze Age in West Asia.",
+  "tier": "Core",
   "map": "maps/hittites.png",
   "map_asked": true,
   "checks": {

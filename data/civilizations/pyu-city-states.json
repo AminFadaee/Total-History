@@ -15,7 +15,8 @@
       "latest": 1050,
       "circa": true
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -64,6 +65,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A group of city-states that existed from about the 2nd century BCE to the mid-11th century in present-day Upper Myanmar.",
+  "tier": "Core",
   "map": "maps/pyu-city-states.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": -590,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -67,6 +68,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient civilization and Iron Age kingdom centered on the Armenian highlands between Lake Van, Lake Urmia, and Lake Sevan.",
+  "tier": "Core",
   "map": "maps/kingdom-of-urartu.png",
   "map_asked": true,
   "checks": {

@@ -1,0 +1,76 @@
+{
+  "id": "Q422065",
+  "slug": "sultanate-of-sulu",
+  "name": "Sultanate of Sulu",
+  "wikipedia": "Sultanate of Sulu",
+  "map_year": 1748,
+  "period": {
+    "start": {
+      "earliest": 1457,
+      "latest": 1457,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1915,
+      "latest": 1915,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Maimbung",
+      "location": [
+        120.96666666667,
+        6
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q7489673",
+      "name": "Sharif ul-Hāshim of Sulu"
+    },
+    {
+      "id": "Q21004570",
+      "name": "Jamalul Kiram II"
+    }
+  ],
+  "modern_countries": [
+    "Malaysia",
+    "Indonesia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Sunni Muslim Tausūg state that ruled the Sulu Archipelago, coastal areas of Zamboanga City, and certain portions of Palawan in today's Philippines, alongside parts of present-day Sabah,North Kalimantan and in north eastern parts of Borneo and Berau.",
+  "tier": "Extended",
+  "map": "maps/sultanate-of-sulu.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Maimbung"
+      ],
+      "infobox": [
+        "Indanan",
+        "Maimbung",
+        "Palawan"
+      ]
+    },
+    "cliopatria_years": [
+      1459,
+      1879
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Maimbung",
+    "labelled": [
+      "Sultanate of Brunei"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": 1846,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,16 +53,8 @@
       "name": "Sam Houston"
     },
     {
-      "id": "Q1780964",
-      "name": "David G. Burnet"
-    },
-    {
       "id": "Q456633",
       "name": "Mirabeau B. Lamar"
-    },
-    {
-      "id": "Q569983",
-      "name": "Anson Jones"
     }
   ],
   "modern_countries": [
@@ -69,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A short-lived sovereign country in North America from March 2, 1836, to February 19, 1846.",
+  "tier": "Core",
   "map": "maps/republic-of-texas.png",
   "map_asked": true,
   "checks": {

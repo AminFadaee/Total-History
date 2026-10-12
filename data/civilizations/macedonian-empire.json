@@ -15,7 +15,8 @@
       "latest": -168,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -37,7 +38,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q237325",
+    "region": "Greece",
+    "name": "Antigonid dynasty"
+  },
   "rulers": [
     {
       "id": "Q130650",
@@ -46,10 +51,6 @@
     {
       "id": "Q8409",
       "name": "Alexander the Great"
-    },
-    {
-      "id": "Q207847",
-      "name": "Alexander IV of Macedon"
     },
     {
       "id": "Q172353",
@@ -69,6 +70,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient kingdom on the periphery of Archaic and Classical Greece, which later became the dominant state of Hellenistic Greece.",
+  "tier": "Core",
   "map": "maps/macedonian-empire.png",
   "map_asked": true,
   "checks": {

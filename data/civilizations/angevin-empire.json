@@ -15,7 +15,8 @@
       "latest": 1214,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,14 +43,6 @@
     {
       "id": "Q42305",
       "name": "Richard I of England"
-    },
-    {
-      "id": "Q178525",
-      "name": "Eleanor of Aquitaine"
-    },
-    {
-      "id": "Q129308",
-      "name": "John, King of England"
     }
   ],
   "modern_countries": [
@@ -59,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The collection of territories held by the House of Plantagenet during the 12th and 13th centuries, when they ruled over an area covering roughly all of present-day England, half of France, and parts of Ireland and Wales, and claiming overlordship and some influence over the remaining parts of Wales, Scotland and Ireland.",
+  "tier": "Extended",
   "map": "maps/angevin-empire.png",
   "map_asked": true,
   "checks": {

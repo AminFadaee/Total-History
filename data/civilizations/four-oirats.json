@@ -11,7 +11,11 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1400,
+      1500
+    ]
   },
   "capitals": [],
   "parts": [],
@@ -38,6 +42,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The confederation of the Oirat tribes which marked the rise of the Western Mongols in the history of the Mongolian Plateau.",
+  "tier": "Extended",
   "map": "maps/four-oirats.png",
   "map_asked": true,
   "checks": {

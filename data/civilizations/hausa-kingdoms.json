@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -17,6 +18,8 @@
   "modern_countries": [],
   "overseas_countries": [],
   "borders": false,
+  "summary": "A collection of states ruled by the Hausa people, before the Fulani jihads.",
+  "tier": "Core",
   "map": "",
   "map_asked": true,
   "checks": {

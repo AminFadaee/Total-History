@@ -15,18 +15,25 @@
       "latest": 710,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q189178",
+    "region": "Japan",
+    "name": "Nara Japan"
+  },
   "rulers": [],
   "modern_countries": [
     "Japan"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A period in the history of Japan lasting from 538 to 710, although its beginning could be said to overlap with the preceding Kofun period.",
+  "tier": "Core",
   "map": "maps/asuka-japan.png",
   "map_asked": true,
   "checks": {

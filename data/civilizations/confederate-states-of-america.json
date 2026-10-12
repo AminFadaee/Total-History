@@ -15,7 +15,8 @@
       "latest": 1865,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -61,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A republic in the Southern United States from 1861 to 1865, unrecognized as a sovereign nation by either foreign governments or the United States.",
+  "tier": "Core",
   "map": "maps/confederate-states-of-america.png",
   "map_asked": true,
   "checks": {

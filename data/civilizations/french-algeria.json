@@ -15,7 +15,8 @@
       "latest": 1962,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,6 +37,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A colony and later an integral part of France.",
+  "tier": "Core",
   "map": "maps/french-algeria.png",
   "map_asked": true,
   "checks": {

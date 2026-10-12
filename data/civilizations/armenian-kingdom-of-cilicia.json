@@ -15,7 +15,8 @@
       "latest": 1375,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,12 +43,19 @@
     "region": "Turkey",
     "name": "Mamluk Sultanate"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q718640",
+      "name": "Leo V of Armenia"
+    }
+  ],
   "modern_countries": [
     "Turkey"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Armenian state formed during the High Middle Ages by Armenian refugees fleeing the Seljuk invasion of Armenia.",
+  "tier": "Core",
   "map": "maps/armenian-kingdom-of-cilicia.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": -120,
       "circa": true
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,20 +45,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q335032",
-      "name": "Diodotus I"
-    },
-    {
-      "id": "Q347916",
-      "name": "Demetrius I of Bactria"
+      "id": "Q363368",
+      "name": "Diodotus II"
     },
     {
       "id": "Q381819",
       "name": "Eucratides I"
-    },
-    {
-      "id": "Q180766",
-      "name": "Heliocles I"
     }
   ],
   "modern_countries": [
@@ -70,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Greek kingdom during the Hellenistic period located in Central Asia and Afghanistan.",
+  "tier": "Core",
   "map": "maps/greco-bactrian-kingdom.png",
   "map_asked": true,
   "checks": {

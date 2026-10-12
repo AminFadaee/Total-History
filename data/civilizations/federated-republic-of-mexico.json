@@ -15,7 +15,8 @@
       "latest": 1835,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,24 +37,8 @@
   },
   "rulers": [
     {
-      "id": "Q311425",
-      "name": "Guadalupe Victoria"
-    },
-    {
       "id": "Q315618",
       "name": "Vicente Guerrero"
-    },
-    {
-      "id": "Q354678",
-      "name": "Anastasio Bustamante"
-    },
-    {
-      "id": "Q358534",
-      "name": "Valentín Gómez Farías"
-    },
-    {
-      "id": "Q189145",
-      "name": "Antonio López de Santa Anna"
     }
   ],
   "modern_countries": [
@@ -62,6 +47,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "It was a federated republic, established by the Constitution of 1824, the first constitution of independent Mexico, and  officially designated the United Mexican States.",
+  "tier": "Extended",
   "map": "maps/federated-republic-of-mexico.png",
   "map_asked": true,
   "checks": {

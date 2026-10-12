@@ -15,7 +15,8 @@
       "latest": 1795,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,10 +43,6 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q53448",
-      "name": "Henry III of France"
-    },
-    {
       "id": "Q52940",
       "name": "Sigismund III Vasa"
     },
@@ -56,6 +53,10 @@
     {
       "id": "Q53437",
       "name": "Augustus II the Strong"
+    },
+    {
+      "id": "Q54019",
+      "name": "Stanisław August Poniatowski"
     }
   ],
   "modern_countries": [
@@ -69,6 +70,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A federative real union between the Kingdom of Poland and the Grand Duchy of Lithuania, existing from 1569 to 1795.",
+  "tier": "Core",
   "map": "maps/polish-lithuanian-commonwealth.png",
   "map_asked": true,
   "checks": {

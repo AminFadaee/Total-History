@@ -3,7 +3,7 @@
   "slug": "united-kingdom",
   "name": "United Kingdom",
   "wikipedia": "United Kingdom",
-  "map_year": 1956,
+  "map_year": 1936,
   "period": {
     "start": {
       "earliest": 1921,
@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -48,16 +49,20 @@
     "United Kingdom"
   ],
   "overseas_countries": [
-    "Oman",
     "Yemen",
+    "Jordan",
     "United Arab Emirates",
+    "Israel",
     "Kuwait",
     "Qatar",
+    "Palestine",
     "Cyprus",
     "Bahrain",
     "Malta"
   ],
   "borders": true,
+  "summary": "A country in Northwestern Europe, off the coast of the continental mainland.",
+  "tier": "Core",
   "map": "maps/united-kingdom.png",
   "map_asked": true,
   "checks": {
@@ -77,16 +82,16 @@
     "identity": "successor on borders Cliopatria gives an earlier name",
     "home": "London",
     "labelled": [
-      "French Fourth Republic",
-      "Union of Soviet Socialist Republics",
-      "United States of America",
-      "Éire",
-      "Republic of Poland",
+      "Nazi Germany",
+      "Irish Free State",
       "Kingdom of Sweden",
-      "Federal Republic of Germany",
+      "Second Polish Republic",
       "Kingdom of Norway",
       "Czechoslovakia",
-      "Second Republic of Austria",
+      "Republic of Austria",
+      "Kingdom of Lithuania",
+      "Republic of Latvia",
+      "Estonia",
       "Swiss Confederation",
       "Kingdom of Belgium"
     ]

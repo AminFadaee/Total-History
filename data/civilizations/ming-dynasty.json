@@ -15,7 +15,8 @@
       "latest": 1644,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,8 +53,16 @@
       "name": "Hongwu Emperor"
     },
     {
-      "id": "Q10069",
-      "name": "Chongzhen Emperor"
+      "id": "Q9965",
+      "name": "Yongle Emperor"
+    },
+    {
+      "id": "Q10011",
+      "name": "Jiajing Emperor"
+    },
+    {
+      "id": "Q10061",
+      "name": "Wanli Emperor"
     }
   ],
   "modern_countries": [
@@ -62,6 +71,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An imperial dynasty of China that ruled from 1368 to 1644, following the collapse of the Mongol-led Yuan dynasty.",
+  "tier": "Core",
   "map": "maps/ming-dynasty.png",
   "map_asked": true,
   "checks": {

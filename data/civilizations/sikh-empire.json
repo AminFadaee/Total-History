@@ -15,7 +15,8 @@
       "latest": 1849,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,10 +43,6 @@
     {
       "id": "Q332620",
       "name": "Ranjit Singh"
-    },
-    {
-      "id": "Q333140",
-      "name": "Duleep Singh"
     }
   ],
   "modern_countries": [
@@ -54,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A regional power based in the Punjab region of South Asia.",
+  "tier": "Core",
   "map": "maps/sikh-empire.png",
   "map_asked": true,
   "checks": {

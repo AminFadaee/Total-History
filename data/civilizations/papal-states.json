@@ -15,7 +15,8 @@
       "latest": 1870,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -51,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A conglomeration of territories on the Italian Peninsula under the direct sovereign rule of the pope from 756 to 1870.",
+  "tier": "Core",
   "map": "maps/papal-states.png",
   "map_asked": true,
   "checks": {

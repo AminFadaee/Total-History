@@ -15,7 +15,8 @@
       "latest": 1868,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,8 +41,12 @@
       "name": "Emperor Go-Yōzei"
     },
     {
-      "id": "Q174231",
-      "name": "Emperor Meiji"
+      "id": "Q171977",
+      "name": "Tokugawa Ieyasu"
+    },
+    {
+      "id": "Q314464",
+      "name": "Tokugawa Hidetada"
     }
   ],
   "modern_countries": [
@@ -50,6 +55,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The military government of Japan during the Edo period from 1603 to 1868.",
+  "tier": "Core",
   "map": "maps/tokugawa-shogunate.png",
   "map_asked": true,
   "checks": {

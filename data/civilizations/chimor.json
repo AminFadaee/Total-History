@@ -15,7 +15,8 @@
       "latest": 1470,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -41,6 +42,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The political grouping of the Chimú culture.",
+  "tier": "Core",
   "map": "maps/chimor.png",
   "map_asked": true,
   "checks": {

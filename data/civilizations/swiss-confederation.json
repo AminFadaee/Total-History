@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -50,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A landlocked country located at the intersection of Central, Western, and Southern Europe.",
+  "tier": "Core",
   "map": "maps/swiss-confederation.png",
   "map_asked": true,
   "checks": {

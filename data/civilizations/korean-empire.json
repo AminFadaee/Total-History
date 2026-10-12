@@ -15,7 +15,8 @@
       "latest": 1910,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Korean monarchical state proclaimed in October 1897 by King Gojong of the Joseon dynasty.",
+  "tier": "Core",
   "map": "maps/korean-empire.png",
   "map_asked": false,
   "checks": {

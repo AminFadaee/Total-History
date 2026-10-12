@@ -15,7 +15,8 @@
       "latest": 1573,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,12 +33,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q471885",
-      "name": "Emperor Kōgon"
-    },
-    {
-      "id": "Q334076",
-      "name": "Emperor Ōgimachi"
+      "id": "Q248381",
+      "name": "Ashikaga Yoshimitsu"
     }
   ],
   "modern_countries": [
@@ -45,6 +42,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The feudal military government of Japan during the Muromachi period from 1336 to 1573.",
+  "tier": "Core",
   "map": "maps/ashikaga-shogunate.png",
   "map_asked": true,
   "checks": {

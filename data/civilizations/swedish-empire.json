@@ -15,7 +15,8 @@
       "latest": 1721,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,16 +33,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q52938",
-      "name": "Gustavus Adolphus"
-    },
-    {
       "id": "Q52937",
       "name": "Christina, Queen of Sweden"
-    },
-    {
-      "id": "Q52936",
-      "name": "Charles X Gustav"
     },
     {
       "id": "Q52935",
@@ -50,14 +43,6 @@
     {
       "id": "Q52934",
       "name": "Charles XII of Sweden"
-    },
-    {
-      "id": "Q52933",
-      "name": "Ulrika Eleonora of Sweden"
-    },
-    {
-      "id": "Q52932",
-      "name": "Frederick I of Sweden"
     }
   ],
   "modern_countries": [
@@ -68,6 +53,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The period in Swedish history spanning much of the 17th and early 18th centuries during which Sweden was a European great power that exercised territorial control over much of the Baltic region.",
+  "tier": "Core",
   "map": "maps/swedish-empire.png",
   "map_asked": true,
   "checks": {

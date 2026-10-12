@@ -15,7 +15,8 @@
       "latest": 1767,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,6 +41,14 @@
       "name": "Uthong"
     },
     {
+      "id": "Q515704",
+      "name": "Naresuan"
+    },
+    {
+      "id": "Q718197",
+      "name": "Narai"
+    },
+    {
       "id": "Q779323",
       "name": "Ekkathat"
     }
@@ -50,6 +59,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Thai kingdom that existed in Southeast Asia from 1351 to 1767, centered around the city of Ayutthaya, in Siam, or present-day Thailand.",
+  "tier": "Core",
   "map": "maps/ayutthaya-kingdom.png",
   "map_asked": true,
   "checks": {

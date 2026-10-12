@@ -15,7 +15,8 @@
       "latest": 1839,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A short-lived state that existed in South America between 1836 and 1839.",
+  "tier": "Extended",
   "map": "maps/peru-bolivian-confederation.png",
   "map_asked": true,
   "checks": {

@@ -11,7 +11,8 @@
       "latest": 960,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -52,6 +53,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A kingdom in the Horn of Africa and South Arabia from classical antiquity to the Middle Ages, based in what is now Eritrea and Northern Ethiopia, and spanning present-day Djibouti, Sudan, Yemen and Saudi Arabia.",
+  "tier": "Core",
   "map": "maps/kingdom-of-axum.png",
   "map_asked": true,
   "checks": {

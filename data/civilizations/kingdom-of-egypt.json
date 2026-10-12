@@ -15,7 +15,8 @@
       "latest": 1953,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,19 +30,19 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q79",
+    "region": "Egypt",
+    "name": "Republic of Egypt"
+  },
   "rulers": [
-    {
-      "id": "Q213001",
-      "name": "Farouk of Egypt"
-    },
-    {
-      "id": "Q311796",
-      "name": "Fuad II of Egypt"
-    },
     {
       "id": "Q311839",
       "name": "Fuad I of Egypt"
+    },
+    {
+      "id": "Q213001",
+      "name": "Farouk of Egypt"
     }
   ],
   "modern_countries": [
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The legal form of the Egyptian state during the latter period of the Muhammad Ali dynasty's reign, from the United Kingdom's recognition of Egyptian independence in 1922 until the abolition of the monarchy of Egypt and the Sudan in 1953 following the Egyptian Revolution of 1952.",
+  "tier": "Core",
   "map": "maps/kingdom-of-egypt.png",
   "map_asked": true,
   "checks": {

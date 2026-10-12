@@ -11,7 +11,11 @@
       "circa": true
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      600,
+      1100
+    ]
   },
   "capitals": [
     {
@@ -40,6 +44,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Buddhist thalassocratic empire based on the island of Sumatra that influenced much of Southeast Asia.",
+  "tier": "Core",
   "map": "maps/srivijaya.png",
   "map_asked": true,
   "checks": {

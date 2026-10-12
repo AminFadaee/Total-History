@@ -1,0 +1,92 @@
+{
+  "id": "Q148499",
+  "slug": "margraviate-of-brandenburg",
+  "name": "Margraviate of Brandenburg",
+  "wikipedia": "Margraviate of Brandenburg",
+  "map_year": 1344,
+  "period": {
+    "start": {
+      "earliest": 1157,
+      "latest": 1157,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1806,
+      "latest": 1806,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Brandenburg an der Havel",
+      "location": [
+        12.554083333333333,
+        52.414138888888886
+      ],
+      "founded": null
+    },
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ],
+      "founded": 1244
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Germany",
+    "Poland"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A major principality of the Holy Roman Empire from 1157 to 1806.",
+  "tier": "Core",
+  "map": "maps/margraviate-of-brandenburg.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Brandenburg an der Havel",
+        "Berlin"
+      ],
+      "infobox": [
+        "Brandenburg an der Havel",
+        "Berlin"
+      ]
+    },
+    "cliopatria_years": [
+      1260,
+      1618
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Brandenburg an der Havel",
+    "labelled": [
+      "Holy Roman Empire",
+      "Kingdom of Bohemia",
+      "Kingdom of Poland",
+      "House of Habsburg",
+      "Teutonic Order",
+      "House of Ascania",
+      "Kingdom of Hungary",
+      "Grand Duchy of Lithuania",
+      "Kingdom of France",
+      "Kingdom of England",
+      "Principality of Wallachia",
+      "Kingdom of Denmark",
+      "Duchy of Masovia",
+      "County of Flanders",
+      "Kingdom of Arles",
+      "County of Auvergne",
+      "House of Bourbon",
+      "County of Savoy"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": 638,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -31,7 +32,7 @@
   "before": {},
   "after": {
     "id": "Q12490507",
-    "region": "Saudi Arabia",
+    "region": "Syria",
     "name": "Rashidun Caliphate"
   },
   "rulers": [
@@ -48,6 +49,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Arab Christian kingdom.",
+  "tier": "Core",
   "map": "maps/ghassanids.png",
   "map_asked": true,
   "checks": {

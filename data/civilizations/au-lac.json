@@ -15,7 +15,8 @@
       "latest": -207,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -46,6 +47,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A supposed polity that covered parts of modern-day Guangxi and northern Vietnam.",
+  "tier": "Extended",
   "map": "maps/au-lac.png",
   "map_asked": true,
   "checks": {

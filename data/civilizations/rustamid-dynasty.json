@@ -15,7 +15,8 @@
       "latest": 909,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,6 +43,14 @@
     {
       "id": "Q3147457",
       "name": "Abd al-Rahman ibn Rustam"
+    },
+    {
+      "id": "Q12224124",
+      "name": "Abd al-Wahhab ibn Abd al-Rahman"
+    },
+    {
+      "id": "Q6825132",
+      "name": "Aflah ibn Abd al-Wahhab"
     }
   ],
   "modern_countries": [
@@ -51,6 +60,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Ibadi dynasty of Persian origin which ruled a state that was centered in present-day Algeria.",
+  "tier": "Extended",
   "map": "maps/rustamid-dynasty.png",
   "map_asked": true,
   "checks": {

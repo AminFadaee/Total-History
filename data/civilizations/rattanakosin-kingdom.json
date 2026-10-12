@@ -15,7 +15,8 @@
       "latest": 1932,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -33,19 +34,15 @@
     "region": "Thailand",
     "name": "Thonburi Kingdom"
   },
-  "after": {},
+  "after": {
+    "id": "Q869",
+    "region": "Thailand",
+    "name": "Kingdom of Thailand"
+  },
   "rulers": [
     {
       "id": "Q310992",
       "name": "Rama I"
-    },
-    {
-      "id": "Q319675",
-      "name": "Rama II"
-    },
-    {
-      "id": "Q319669",
-      "name": "Rama III"
     },
     {
       "id": "Q312849",
@@ -54,10 +51,6 @@
     {
       "id": "Q158861",
       "name": "Chulalongkorn"
-    },
-    {
-      "id": "Q161389",
-      "name": "Vajiravudh"
     },
     {
       "id": "Q313124",
@@ -71,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "It was founded in 1782 with the establishment of Rattanakosin, which replaced the city of Thonburi as the capital of Siam.",
+  "tier": "Core",
   "map": "maps/rattanakosin-kingdom.png",
   "map_asked": true,
   "checks": {

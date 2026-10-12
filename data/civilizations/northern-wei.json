@@ -15,7 +15,8 @@
       "latest": 535,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -46,26 +47,6 @@
     {
       "id": "Q1074798",
       "name": "Emperor Wencheng of Northern Wei"
-    },
-    {
-      "id": "Q1071582",
-      "name": "Emperor Xianwen of Northern Wei"
-    },
-    {
-      "id": "Q1327614",
-      "name": "Emperor Xiaowen of Northern Wei"
-    },
-    {
-      "id": "Q1194968",
-      "name": "Emperor Xuanwu of Northern Wei"
-    },
-    {
-      "id": "Q1074789",
-      "name": "Emperor Xiaozhuang of Northern Wei"
-    },
-    {
-      "id": "Q1071537",
-      "name": "Emperor Xiaowu of Northern Wei"
     }
   ],
   "modern_countries": [
@@ -73,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An imperial dynasty of China ruled by the Tuoba clan of the Xianbei.",
+  "tier": "Extended",
   "map": "maps/northern-wei.png",
   "map_asked": true,
   "checks": {

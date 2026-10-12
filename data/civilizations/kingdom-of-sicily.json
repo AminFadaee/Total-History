@@ -15,7 +15,8 @@
       "latest": 1816,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,20 +33,16 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q130221",
-      "name": "Frederick II, Holy Roman Emperor"
+      "id": "Q193901",
+      "name": "Roger II of Sicily"
     },
     {
-      "id": "Q312311",
-      "name": "Peter III of Aragon"
+      "id": "Q367226",
+      "name": "Frederick III of Sicily"
     },
     {
-      "id": "Q209579",
-      "name": "Victor Amadeus II"
-    },
-    {
-      "id": "Q36234",
-      "name": "Charles III of Spain"
+      "id": "Q468616",
+      "name": "Martin I of Sicily"
     }
   ],
   "modern_countries": [
@@ -54,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A state that existed in Sicily and the southern Italian Peninsula as well as, for a time, in North Africa, from its founding by Roger II of Sicily in 1130 until 1816.",
+  "tier": "Core",
   "map": "maps/kingdom-of-sicily.png",
   "map_asked": true,
   "checks": {

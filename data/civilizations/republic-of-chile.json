@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country in the Southern Cone of southwestern South America.",
+  "tier": "Core",
   "map": "maps/republic-of-chile.png",
   "map_asked": true,
   "checks": {

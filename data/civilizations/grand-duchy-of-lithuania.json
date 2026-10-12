@@ -15,7 +15,8 @@
       "latest": 1795,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,16 +37,16 @@
       "name": "Mindaugas"
     },
     {
-      "id": "Q174044",
-      "name": "Alexander Nevsky"
+      "id": "Q244852",
+      "name": "Gediminas"
     },
     {
       "id": "Q218186",
       "name": "Vytautas the Great"
     },
     {
-      "id": "Q53438",
-      "name": "Augustus III of Poland"
+      "id": "Q53459",
+      "name": "Casimir IV Jagiellon"
     }
   ],
   "modern_countries": [
@@ -56,6 +57,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A sovereign state in northeastern Europe that existed from the 13th century, succeeding the Kingdom of Lithuania, to the late 18th century, when the territory was suppressed during the 1795 partitions of Poland–Lithuania.",
+  "tier": "Core",
   "map": "maps/grand-duchy-of-lithuania.png",
   "map_asked": true,
   "checks": {

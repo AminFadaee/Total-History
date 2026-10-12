@@ -15,7 +15,8 @@
       "latest": 1511,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,16 +37,20 @@
   "after": {},
   "rulers": [
     {
+      "id": "Q3363540",
+      "name": "Parameswara of Malacca"
+    },
+    {
+      "id": "Q4259660",
+      "name": "Megat Iskandar Shah of Malacca"
+    },
+    {
+      "id": "Q4260752",
+      "name": "Muhammad Shah of Malacca"
+    },
+    {
       "id": "Q4260059",
       "name": "Muzaffar Shah of Malacca"
-    },
-    {
-      "id": "Q1015747",
-      "name": "Mansur Shah of Malacca"
-    },
-    {
-      "id": "Q4708854",
-      "name": "Alauddin Riayat Shah of Malacca"
     }
   ],
   "modern_countries": [
@@ -54,6 +59,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Malay sultanate based in the modern-day state of Malacca, Malaysia.",
+  "tier": "Core",
   "map": "maps/sultanate-of-malacca.png",
   "map_asked": true,
   "checks": {
@@ -75,7 +82,9 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Majapahit"
+      "Majapahit",
+      "Samudera Pasai Sultanate",
+      "Sultanate of Kedah"
     ]
   }
 }

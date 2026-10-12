@@ -15,7 +15,8 @@
       "latest": 927,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -28,7 +29,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q676184",
+    "region": "United Kingdom",
+    "name": "Kingdom of Sussex"
+  },
   "after": {
     "id": "Q179876",
     "region": "United Kingdom",
@@ -36,16 +41,8 @@
   },
   "rulers": [
     {
-      "id": "Q154934",
-      "name": "Ecgberht, King of Wessex"
-    },
-    {
-      "id": "Q272326",
-      "name": "Æthelwulf, King of Wessex"
-    },
-    {
-      "id": "Q272233",
-      "name": "Æthelred I of Wessex"
+      "id": "Q366048",
+      "name": "Cerdic of Wessex"
     },
     {
       "id": "Q83476",
@@ -57,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Anglo-Saxon kingdom in the south of Great Britain, from around 519 until around 927.",
+  "tier": "Core",
   "map": "maps/kingdom-of-wessex.png",
   "map_asked": true,
   "checks": {

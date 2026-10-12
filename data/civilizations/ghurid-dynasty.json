@@ -11,7 +11,11 @@
       "latest": 1215,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1100,
+      1300
+    ]
   },
   "capitals": [
     {
@@ -33,8 +37,8 @@
   },
   "rulers": [
     {
-      "id": "Q5662009",
-      "name": "Zia al-Din Ali"
+      "id": "Q1647182",
+      "name": "Muhammad of Ghor"
     }
   ],
   "modern_countries": [
@@ -45,6 +49,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A culturally Persianate dynasty of eastern Iranian Tajik origin, which ruled from the 8th-century in the region of Ghor, and became an Empire from 1175 to 1215.",
+  "tier": "Core",
   "map": "maps/ghurid-dynasty.png",
   "map_asked": true,
   "checks": {

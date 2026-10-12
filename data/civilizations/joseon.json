@@ -15,7 +15,8 @@
       "latest": 1897,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -62,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A dynastic kingdom of Korea that existed for 505 years.",
+  "tier": "Core",
   "map": "maps/joseon.png",
   "map_asked": true,
   "checks": {

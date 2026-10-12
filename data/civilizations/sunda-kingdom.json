@@ -1,0 +1,66 @@
+{
+  "id": "Q1469742",
+  "slug": "sunda-kingdom",
+  "name": "Sunda Kingdom",
+  "wikipedia": "Sunda Kingdom",
+  "map_year": 732,
+  "period": {
+    "start": {
+      "earliest": 669,
+      "latest": 669,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1579,
+      "latest": 1579,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Pakuan Pajajaran",
+      "location": null,
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q23907566",
+      "name": "Niskala Wastu Kancana"
+    }
+  ],
+  "modern_countries": [
+    "Indonesia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Sundanese Hindu kingdom located in the western portion of the island of Java from 932 AD to around 1579, covering the area of present-day Banten, Jakarta, West Java, Lampung, and the western part of Central Java.",
+  "tier": "Core",
+  "map": "maps/sunda-kingdom.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pakuan Pajajaran",
+        "Kawali"
+      ],
+      "infobox": [
+        "Pakuan Pajajaran",
+        "Galuh Kingdom"
+      ]
+    },
+    "cliopatria_years": [
+      674,
+      1578
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

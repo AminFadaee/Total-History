@@ -15,7 +15,8 @@
       "latest": 1945,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,16 +37,16 @@
   "after": {},
   "rulers": [
     {
+      "id": "Q43067",
+      "name": "Heinrich Himmler"
+    },
+    {
       "id": "Q2667",
       "name": "Paul von Hindenburg"
     },
     {
       "id": "Q352",
       "name": "Adolf Hitler"
-    },
-    {
-      "id": "Q76437",
-      "name": "Karl Dönitz"
     }
   ],
   "modern_countries": [
@@ -71,6 +72,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The German state between 1933 and 1945, when Adolf Hitler and the Nazi Party controlled the country, transforming it into a totalitarian dictatorship.",
+  "tier": "Core",
   "map": "maps/nazi-germany.png",
   "map_asked": true,
   "checks": {

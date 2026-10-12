@@ -15,7 +15,8 @@
       "latest": 1918,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -70,6 +71,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A multi-national empire in Central Europe under a constitutional dual monarchy that existed between 1867 and 1918.",
+  "tier": "Core",
   "map": "maps/austria-hungary.png",
   "map_asked": true,
   "checks": {

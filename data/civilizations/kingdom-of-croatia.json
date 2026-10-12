@@ -1,0 +1,100 @@
+{
+  "id": "Q858841",
+  "slug": "kingdom-of-croatia",
+  "name": "Kingdom of Croatia",
+  "wikipedia": "Kingdom of Croatia (925–1102)",
+  "map_year": 990,
+  "period": {
+    "start": {
+      "earliest": 925,
+      "latest": 925,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1102,
+      "latest": 1102,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Nin",
+      "location": [
+        15.181111111111,
+        44.239722222222
+      ],
+      "founded": null
+    },
+    {
+      "name": "Biograd na Moru",
+      "location": [
+        15.433333333333,
+        43.933333333333
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q319638",
+      "name": "Tomislav, King of Croatia"
+    },
+    {
+      "id": "Q589567",
+      "name": "Michael Krešimir II"
+    },
+    {
+      "id": "Q370256",
+      "name": "Stephen Držislav"
+    },
+    {
+      "id": "Q470647",
+      "name": "Demetrius Zvonimir"
+    }
+  ],
+  "modern_countries": [
+    "Bosnia and Herzegovina",
+    "Croatia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A medieval kingdom in Southern Europe comprising most of what is today Croatia, as well as most of the modern-day Bosnia and Herzegovina.",
+  "tier": "Core",
+  "map": "maps/kingdom-of-croatia.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Nin, Croatia",
+        "Biograd na Moru",
+        "Šibenik"
+      ],
+      "infobox": [
+        "Nin, Croatia",
+        "Biograd na Moru",
+        "Solin",
+        "Knin"
+      ]
+    },
+    "cliopatria_years": [
+      926,
+      1098
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Biograd na Moru",
+    "labelled": [
+      "Holy Roman Empire",
+      "First Bulgarian Empire",
+      "Principality of Hungary",
+      "Byzantine Empire",
+      "Papal States",
+      "Duchy of Benevento"
+    ]
+  }
+}

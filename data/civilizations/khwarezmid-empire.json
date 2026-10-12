@@ -15,7 +15,8 @@
       "latest": 1231,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -62,10 +63,6 @@
     {
       "id": "Q520090",
       "name": "Muhammad II of Khwarazm"
-    },
-    {
-      "id": "Q559416",
-      "name": "Jalal al-Din Mangburni"
     }
   ],
   "modern_countries": [
@@ -80,6 +77,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A culturally Persianate, Sunni Muslim empire of Turkic mamluk origin, ruled by the Anushtegin dynasty.",
+  "tier": "Core",
   "map": "maps/khwarezmid-empire.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1161,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An early medieval Indian empire ruled by the Pāla dynasty.",
+  "tier": "Core",
   "map": "maps/pala-empire.png",
   "map_asked": true,
   "checks": {

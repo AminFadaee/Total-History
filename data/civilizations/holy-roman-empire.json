@@ -15,7 +15,8 @@
       "latest": 1806,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -65,12 +66,12 @@
     "region": "Germany",
     "name": "Kingdom of Germany"
   },
-  "after": {},
+  "after": {
+    "id": "Q20135",
+    "region": "Germany",
+    "name": "Grand Duchy of Hesse"
+  },
   "rulers": [
-    {
-      "id": "Q43915",
-      "name": "Otto the Great"
-    },
     {
       "id": "Q79789",
       "name": "Frederick Barbarossa"
@@ -80,8 +81,12 @@
       "name": "Frederick II, Holy Roman Emperor"
     },
     {
-      "id": "Q32500",
-      "name": "Charles V, Holy Roman Emperor"
+      "id": "Q150726",
+      "name": "Maximilian I, Holy Roman Emperor"
+    },
+    {
+      "id": "Q150665",
+      "name": "Charles VI, Holy Roman Emperor"
     }
   ],
   "modern_countries": [
@@ -100,6 +105,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A confederation comprising and controlling much of Central Europe and Western Europe, headed by the Holy Roman Emperor and characterized by a decentralized political structure.",
+  "tier": "Core",
   "map": "maps/holy-roman-empire.png",
   "map_asked": true,
   "checks": {

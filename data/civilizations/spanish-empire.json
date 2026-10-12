@@ -15,7 +15,8 @@
       "latest": 1976,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -41,7 +42,7 @@
   "before": {},
   "after": {
     "id": "Q29",
-    "region": "Cuba",
+    "region": "Spain",
     "name": "Kingdom of Spain"
   },
   "rulers": [],
@@ -72,6 +73,8 @@
     "Guam"
   ],
   "borders": true,
+  "summary": "A colonial empire that existed between 1492 and 1976.",
+  "tier": "Core",
   "map": "maps/spanish-empire.png",
   "map_asked": true,
   "checks": {

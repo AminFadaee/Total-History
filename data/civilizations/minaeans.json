@@ -1,0 +1,69 @@
+{
+  "id": "Q1177379",
+  "slug": "minaeans",
+  "name": "Minaeans",
+  "wikipedia": "Ma'in",
+  "map_year": -164,
+  "period": {
+    "start": {
+      "earliest": -800,
+      "latest": -701,
+      "circa": false
+    },
+    "end": {
+      "earliest": -1000,
+      "latest": -1,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Qarnawu",
+      "location": [
+        44.81527778,
+        16.12805556
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Saudi Arabia",
+    "Yemen"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An ancient South Arabian kingdom in modern-day Yemen.",
+  "tier": "Extended",
+  "map": "maps/minaeans.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Qarnawu"
+      ],
+      "infobox": [
+        "Qarnawu"
+      ]
+    },
+    "cliopatria_years": [
+      -383,
+      -26
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "Qarnawu",
+    "labelled": [
+      "Nabataeans",
+      "Sabaeans",
+      "Ptolemaic Kingdom",
+      "Kingdom of Kush",
+      "Hadhramaut"
+    ]
+  }
+}

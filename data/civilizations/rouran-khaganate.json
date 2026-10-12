@@ -15,7 +15,8 @@
       "latest": 555,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -38,6 +39,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A tribal confederation and later state.",
+  "tier": "Core",
   "map": "maps/rouran-khaganate.png",
   "map_asked": true,
   "checks": {

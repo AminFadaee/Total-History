@@ -11,7 +11,11 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1300,
+      1500
+    ]
   },
   "capitals": [
     {
@@ -26,22 +30,18 @@
   "parts": [],
   "before": {
     "id": "Q7313",
-    "region": "Mongolia",
+    "region": "China",
     "name": "Yuan Dynasty"
   },
   "after": {
     "id": "Q4332415",
-    "region": "Mongolia",
+    "region": "China",
     "name": "Four Oirats"
   },
   "rulers": [
     {
       "id": "Q8916",
       "name": "Biligtü Khan Ayushiridara"
-    },
-    {
-      "id": "Q8937",
-      "name": "Uskhal Khan Tögüs Temür"
     },
     {
       "id": "Q9263",
@@ -55,6 +55,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A dynastic state  ruled by the Mongol Borjigin clan based in the Mongolian Plateau.",
+  "tier": "Core",
   "map": "maps/northern-yuan.png",
   "map_asked": true,
   "checks": {

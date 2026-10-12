@@ -1,0 +1,80 @@
+{
+  "id": "Q320925",
+  "slug": "shu-han",
+  "name": "Shu Han",
+  "wikipedia": "Shu Han",
+  "map_year": 224,
+  "period": {
+    "start": {
+      "earliest": 221,
+      "latest": 221,
+      "circa": false
+    },
+    "end": {
+      "earliest": 263,
+      "latest": 263,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Chengdu",
+      "location": [
+        104.06333333333333,
+        30.66
+      ],
+      "founded": -311
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q7209",
+    "region": "China",
+    "name": "Han Dynasty"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q245315",
+      "name": "Liu Bei"
+    },
+    {
+      "id": "Q468780",
+      "name": "Liu Shan"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A dynastic state of China and one of the three major states that competed for supremacy over China in the Three Kingdoms period.",
+  "tier": "Extended",
+  "map": "maps/shu-han.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chengdu"
+      ],
+      "infobox": [
+        "Chengdu"
+      ]
+    },
+    "cliopatria_years": [
+      224,
+      262
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Chengdu",
+    "labelled": [
+      "Cao Wei",
+      "Han Dynasty",
+      "Eastern Wu",
+      "Pyu City-States"
+    ]
+  }
+}

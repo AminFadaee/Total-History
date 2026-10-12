@@ -15,7 +15,8 @@
       "latest": 1308,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -65,6 +66,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A culturally Turco-Persian, Sunni Muslim state established over conquered Byzantine territories and peoples of Anatolia by the Seljuk Turks following their entry into Anatolia after the Battle of Manzikert in 1071.",
+  "tier": "Core",
   "map": "maps/sultanate-of-rum.png",
   "map_asked": true,
   "checks": {

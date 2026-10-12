@@ -11,7 +11,11 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      700,
+      1100
+    ]
   },
   "capitals": [],
   "parts": [],
@@ -25,6 +29,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The period during the Middle Ages when Norsemen known as Vikings undertook large-scale raiding, colonising, conquest, and trading throughout Europe and reached North America.",
+  "tier": "Core",
   "map": "maps/scandinavian-minor-kingdoms.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1815,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,9 +30,9 @@
   ],
   "parts": [],
   "before": {
-    "id": "Q58296",
+    "id": "Q877619",
     "region": "France",
-    "name": "French First Republic"
+    "name": "French Consulate"
   },
   "after": {
     "id": "Q207162",
@@ -42,10 +43,6 @@
     {
       "id": "Q517",
       "name": "Napoleon"
-    },
-    {
-      "id": "Q7723",
-      "name": "Napoleon II"
     }
   ],
   "modern_countries": [
@@ -62,6 +59,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The empire ruled by Napoleon Bonaparte, who established French hegemony over much of continental Europe at the beginning of the 19th century.",
+  "tier": "Core",
   "map": "maps/first-french-empire.png",
   "map_asked": true,
   "checks": {

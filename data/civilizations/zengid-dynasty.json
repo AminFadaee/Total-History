@@ -15,7 +15,8 @@
       "latest": 1250,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,12 +45,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q337506",
-      "name": "Ahmad Sanjar"
-    },
-    {
-      "id": "Q280697",
-      "name": "Tughril III"
+      "id": "Q312973",
+      "name": "Nur al-Din Zengi"
     }
   ],
   "modern_countries": [
@@ -59,6 +56,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Turkoman Sunni Muslim dynasty in the Middle East.",
+  "tier": "Extended",
   "map": "maps/zengid-dynasty.png",
   "map_asked": true,
   "checks": {

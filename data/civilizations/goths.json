@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -24,6 +25,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Germanic people who played a major role in the fall of the Western Roman Empire and the emergence of medieval Europe.",
+  "tier": "Extended",
   "map": "maps/goths.png",
   "map_asked": true,
   "checks": {

@@ -1,0 +1,105 @@
+{
+  "id": "Q1469100",
+  "slug": "beylik-of-karaman",
+  "name": "Beylik of Karaman",
+  "wikipedia": "Karamanids",
+  "map_year": 1363,
+  "period": {
+    "start": {
+      "earliest": 1255,
+      "latest": 1255,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1487,
+      "latest": 1487,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Karaman",
+      "location": [
+        33.216666666667,
+        37.183333333333
+      ],
+      "founded": null
+    },
+    {
+      "name": "Konya",
+      "location": [
+        32.49213888888889,
+        37.872769444444444
+      ],
+      "founded": -700
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q12560",
+    "region": "Turkey",
+    "name": "Ottoman Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q335362",
+      "name": "Alauddin Khalji"
+    },
+    {
+      "id": "Q381830",
+      "name": "Muhammad bin Tughluq"
+    },
+    {
+      "id": "Q455442",
+      "name": "Firuz Shah Tughlaq"
+    }
+  ],
+  "modern_countries": [
+    "Turkey"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Turkish sultanate founded by Karamanlu clan descended from the Oghuz Turks and originating from Salur tribe.",
+  "tier": "Core",
+  "map": "maps/beylik-of-karaman.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Karaman",
+        "Konya"
+      ],
+      "infobox": [
+        "Karaman",
+        "Ermenek",
+        "Konya",
+        "Mut, Mersin",
+        "Ereğli, Konya"
+      ]
+    },
+    "cliopatria_years": [
+      1305,
+      1467
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Karaman",
+    "labelled": [
+      "Ottoman Empire",
+      "Germiyanids",
+      "Mamluk Sultanate",
+      "Beylik of Teke",
+      "Armenian Kingdom of Cilicia",
+      "Candar dynasty",
+      "Beylik of Dulkadir",
+      "Empire of Trebizond",
+      "Beylik of Saruhan",
+      "Kingdom of Cyprus",
+      "Beylik of Aydin",
+      "Beylik of Menteshe"
+    ]
+  }
+}

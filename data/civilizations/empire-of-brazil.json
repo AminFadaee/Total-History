@@ -15,7 +15,8 @@
       "latest": 1889,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,12 +41,12 @@
       "name": "Pedro I of Brazil"
     },
     {
-      "id": "Q676301",
-      "name": "John VI of Portugal"
-    },
-    {
       "id": "Q156774",
       "name": "Pedro II of Brazil"
+    },
+    {
+      "id": "Q209353",
+      "name": "Teresa Cristina of the Two Sicilies"
     }
   ],
   "modern_countries": [
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A 19th-century state that broadly comprised the territories which form modern Brazil and Uruguay until the latter achieved independence in 1828.",
+  "tier": "Core",
   "map": "maps/empire-of-brazil.png",
   "map_asked": true,
   "checks": {

@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -24,6 +25,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "After adjacent lands had been conquered, its territory covered, at its greatest extent, roughly what is now Tuscany, western Umbria and northern Lazio, as well as what are now the Po Valley, Emilia-Romagna, south-eastern Lombardy, southern Veneto and western Campania.",
+  "tier": "Core",
   "map": "maps/etruscans.png",
   "map_asked": true,
   "checks": {

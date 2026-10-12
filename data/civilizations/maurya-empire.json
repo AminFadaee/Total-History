@@ -15,7 +15,8 @@
       "latest": -185,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,16 +45,8 @@
       "name": "Chandragupta Maurya"
     },
     {
-      "id": "Q315526",
-      "name": "Bindusara"
-    },
-    {
       "id": "Q8589",
       "name": "Ashoka"
-    },
-    {
-      "id": "Q538082",
-      "name": "Dasharatha Maurya"
     }
   ],
   "modern_countries": [
@@ -64,6 +57,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A geographically extensive Iron Age historical power in South Asia with its power base in Magadha.",
+  "tier": "Core",
   "map": "maps/maurya-empire.png",
   "map_asked": true,
   "checks": {

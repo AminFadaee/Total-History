@@ -1,0 +1,93 @@
+{
+  "id": "Q912043",
+  "slug": "jin",
+  "name": "Jin",
+  "wikipedia": "Jin (Chinese state)",
+  "map_year": -550,
+  "period": {
+    "start": {
+      "earliest": -1100,
+      "latest": -1001,
+      "circa": false
+    },
+    "end": {
+      "earliest": -369,
+      "latest": -369,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Taiyuan",
+      "location": [
+        112.54245,
+        37.87326
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q35216",
+    "region": "China",
+    "name": "Zhou Dynasty"
+  },
+  "after": {
+    "id": "Q912052",
+    "region": "China",
+    "name": "Wei"
+  },
+  "rulers": [
+    {
+      "id": "Q1136357",
+      "name": "Duke Xian of Jin"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A major state during the middle part of the Zhou dynasty, based near the centre of what was then China, on the lands attributed to the legendary Xia dynasty: the southern part of modern Shanxi.",
+  "tier": "Extended",
+  "map": "maps/jin.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Taiyuan"
+      ],
+      "infobox": [
+        "Taiyuan",
+        "Quwo County",
+        "Yicheng County",
+        "Houma, Shanxi"
+      ]
+    },
+    "cliopatria_years": [
+      -750,
+      -405
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "the spot held longest",
+    "labelled": [
+      "Chu",
+      "Qi",
+      "Qin",
+      "Yan",
+      "Lu",
+      "Song",
+      "Wey",
+      "Zheng",
+      "Cao",
+      "Zhu",
+      "Chen",
+      "Xu",
+      "Teng",
+      "Cai"
+    ]
+  }
+}

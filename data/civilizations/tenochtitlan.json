@@ -15,7 +15,8 @@
       "latest": 1521,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -27,20 +28,20 @@
   },
   "rulers": [
     {
-      "id": "Q257811",
-      "name": "Chimalpopoca"
-    },
-    {
       "id": "Q13702",
       "name": "Moctezuma I"
     },
     {
-      "id": "Q351751",
-      "name": "Axayacatl"
+      "id": "Q141791",
+      "name": "Moctezuma II"
     },
     {
-      "id": "Q351758",
-      "name": "Ahuitzotl"
+      "id": "Q315628",
+      "name": "Cuitláhuac"
+    },
+    {
+      "id": "Q297050",
+      "name": "Cuauhtémoc"
     }
   ],
   "modern_countries": [
@@ -48,6 +49,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A large Mexican altepetl in what is now the historic center of Mexico City.",
+  "tier": "Core",
   "map": "maps/tenochtitlan.png",
   "map_asked": true,
   "checks": {

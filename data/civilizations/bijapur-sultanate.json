@@ -15,7 +15,8 @@
       "latest": 1686,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An early modern sultanate located in the southwestern Deccan, ruled by the Adil Shahi dynasty.",
+  "tier": "Extended",
   "map": "maps/bijapur-sultanate.png",
   "map_asked": true,
   "checks": {

@@ -11,7 +11,11 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1100,
+      1300
+    ]
   },
   "capitals": [
     {
@@ -40,36 +44,8 @@
       "name": "Saladin"
     },
     {
-      "id": "Q249058",
-      "name": "Al-Aziz Uthman"
-    },
-    {
-      "id": "Q294031",
-      "name": "Al-Mansur Nasir al-Din Muhammad"
-    },
-    {
-      "id": "Q285133",
-      "name": "Al-Adil I"
-    },
-    {
-      "id": "Q293464",
-      "name": "Al-Kamil"
-    },
-    {
-      "id": "Q294314",
-      "name": "Al-Adil II"
-    },
-    {
-      "id": "Q293559",
-      "name": "As-Salih Ayyub"
-    },
-    {
-      "id": "Q464920",
-      "name": "Shajar al-Durr"
-    },
-    {
-      "id": "Q309461",
-      "name": "Al-Ashraf Musa, Sultan of Egypt"
+      "id": "Q192960",
+      "name": "Baybars"
     }
   ],
   "modern_countries": [
@@ -86,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Sunni Muslim dynasty of Kurdish origin that founded the medieval Sultanate of Egypt, which was established by Saladin in 1171, following his abolition of the Fatimid Caliphate.",
+  "tier": "Core",
   "map": "maps/ayyubid-sultanate.png",
   "map_asked": true,
   "checks": {

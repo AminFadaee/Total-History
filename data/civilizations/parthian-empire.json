@@ -15,7 +15,8 @@
       "latest": 224,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -56,12 +57,16 @@
   },
   "rulers": [
     {
-      "id": "Q315913",
-      "name": "Arsaces I of Parthia"
+      "id": "Q313933",
+      "name": "Orodes II"
     },
     {
-      "id": "Q316067",
-      "name": "Artabanus IV of Parthia"
+      "id": "Q467466",
+      "name": "Musa of Parthia"
+    },
+    {
+      "id": "Q1397542",
+      "name": "Gondophares"
     }
   ],
   "modern_countries": [
@@ -77,6 +82,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A major Iranian political and cultural power centered in ancient Iran from 247 BC to 224 AD. Its latter name comes from its founder, Arsaces I, who led the Parni tribe in conquering the region of Parthia in Iran's northeast, then a satrapy under Andragoras, who was rebelling against the Seleucid Empire.",
+  "tier": "Core",
   "map": "maps/parthian-empire.png",
   "map_asked": true,
   "checks": {

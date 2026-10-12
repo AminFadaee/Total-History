@@ -11,7 +11,11 @@
       "latest": -64,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      -1200,
+      -500
+    ]
   },
   "capitals": [
     {
@@ -64,6 +68,8 @@
     "Malta"
   ],
   "borders": true,
+  "summary": "An ancient Semitic-speaking people who inhabited city-states in Canaan along the Levantine coast of the eastern Mediterranean, primarily in present-day Lebanon.",
+  "tier": "Core",
   "map": "maps/phoenicia.png",
   "map_asked": true,
   "checks": {

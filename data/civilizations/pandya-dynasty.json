@@ -1,0 +1,68 @@
+{
+  "id": "Q844910",
+  "slug": "pandya-dynasty",
+  "name": "Pandya dynasty",
+  "wikipedia": "Pandya dynasty",
+  "map_year": 1250,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false,
+    "core": [
+      500,
+      1400
+    ]
+  },
+  "capitals": [
+    {
+      "name": "Madurai",
+      "location": [
+        78.119394444444,
+        9.9196611111111
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q167639",
+    "region": "India",
+    "name": "Vijayanagara Empire"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "India"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An ancient Tamil dynasty of South India, and among the four great kingdoms of Tamilakam, the other three being the Pallavas, the Cholas and the Cheras.",
+  "tier": "Core",
+  "map": "maps/pandya-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Madurai"
+      ],
+      "infobox": [
+        "Korkai",
+        "Madurai",
+        "Tenkasi"
+      ]
+    },
+    "cliopatria_years": [
+      592,
+      1325
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Madurai",
+    "labelled": [
+      "Hoysala Kingdom",
+      "Chola dynasty",
+      "Ceylon",
+      "Kingdom of Polonnaruwa"
+    ]
+  }
+}

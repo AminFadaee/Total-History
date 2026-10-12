@@ -15,7 +15,8 @@
       "latest": -1069,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -56,8 +57,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q313121",
-      "name": "Ramesses XI"
+      "id": "Q81794",
+      "name": "Akhenaten"
+    },
+    {
+      "id": "Q42606",
+      "name": "Amenhotep III"
+    },
+    {
+      "id": "Q157918",
+      "name": "Seti I"
+    },
+    {
+      "id": "Q1523",
+      "name": "Ramesses II"
     }
   ],
   "modern_countries": [
@@ -69,6 +82,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "Through radiocarbon dating, the establishment of the New Kingdom has been placed between 1570 and 1544 BC. The New Kingdom followed the Second Intermediate Period and was succeeded by the Third Intermediate Period.",
+  "tier": "Core",
   "map": "maps/new-kingdom-of-egypt.png",
   "map_asked": true,
   "checks": {

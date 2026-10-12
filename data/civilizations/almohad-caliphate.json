@@ -15,7 +15,8 @@
       "latest": 1269,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -46,7 +47,12 @@
     "region": "Morocco",
     "name": "Marinid Sultanate"
   },
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q455739",
+      "name": "Yaqub al-Mansur"
+    }
+  ],
   "modern_countries": [
     "Morocco",
     "Algeria",
@@ -56,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A North African Muslim empire ruled by a Berber dynasty from 1130 to 1269, which at its height controlled much of the Maghreb and the Iberian Peninsula.",
+  "tier": "Core",
   "map": "maps/almohad-caliphate.png",
   "map_asked": true,
   "checks": {

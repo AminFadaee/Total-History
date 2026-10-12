@@ -15,7 +15,8 @@
       "latest": -539,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,22 +43,6 @@
     {
       "id": "Q12591",
       "name": "Nebuchadnezzar II"
-    },
-    {
-      "id": "Q313234",
-      "name": "Amel-Marduk"
-    },
-    {
-      "id": "Q379716",
-      "name": "Neriglissar"
-    },
-    {
-      "id": "Q906677",
-      "name": "Labashi-Marduk"
-    },
-    {
-      "id": "Q239414",
-      "name": "Nabonidus"
     }
   ],
   "modern_countries": [
@@ -71,6 +56,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The last polity ruled by monarchs native to ancient Mesopotamia.",
+  "tier": "Core",
   "map": "maps/neo-babylonian-empire.png",
   "map_asked": true,
   "checks": {

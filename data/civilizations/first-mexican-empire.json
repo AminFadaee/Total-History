@@ -15,7 +15,8 @@
       "latest": 1823,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -51,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A constitutional monarchy and the first independent government of Mexico.",
+  "tier": "Core",
   "map": "maps/first-mexican-empire.png",
   "map_asked": false,
   "checks": {

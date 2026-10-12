@@ -15,7 +15,8 @@
       "latest": 280,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,18 +51,6 @@
     {
       "id": "Q313327",
       "name": "Sun Quan"
-    },
-    {
-      "id": "Q470034",
-      "name": "Sun Liang"
-    },
-    {
-      "id": "Q468767",
-      "name": "Sun Xiu"
-    },
-    {
-      "id": "Q470030",
-      "name": "Sun Hao"
     }
   ],
   "modern_countries": [
@@ -70,6 +59,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A dynastic state of China and one of the three major states that competed for supremacy over China during the Three Kingdoms period.",
+  "tier": "Core",
   "map": "maps/eastern-wu.png",
   "map_asked": true,
   "checks": {

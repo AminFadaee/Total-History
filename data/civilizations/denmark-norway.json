@@ -15,7 +15,8 @@
       "latest": 1814,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -39,8 +40,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q154998",
-      "name": "Christian III of Denmark"
+      "id": "Q154041",
+      "name": "Frederick II of Denmark"
     },
     {
       "id": "Q153586",
@@ -51,8 +52,8 @@
       "name": "Frederick III of Denmark"
     },
     {
-      "id": "Q155002",
-      "name": "Frederick VI of Denmark"
+      "id": "Q156572",
+      "name": "Christian VII"
     }
   ],
   "modern_countries": [
@@ -64,6 +65,8 @@
     "Iceland"
   ],
   "borders": true,
+  "summary": "A 16th-to-19th-century multi-national and multi-lingual real union consisting of the Kingdom of Denmark, the Kingdom of Norway, the Duchy of Schleswig, and the Duchy of Holstein.",
+  "tier": "Core",
   "map": "maps/denmark-norway.png",
   "map_asked": true,
   "checks": {

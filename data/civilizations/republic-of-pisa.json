@@ -15,7 +15,8 @@
       "latest": 1406,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -46,6 +47,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An independent state existing from the 11th to the 15th century, centered on the Tuscan city of Pisa.",
+  "tier": "Extended",
   "map": "maps/republic-of-pisa.png",
   "map_asked": true,
   "checks": {

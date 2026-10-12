@@ -15,7 +15,8 @@
       "latest": 1918,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -55,6 +56,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A German state that succeeded the former Electorate of Bavaria in 1806 and continued to exist until 1918.",
+  "tier": "Core",
   "map": "maps/kingdom-of-bavaria.png",
   "map_asked": true,
   "checks": {

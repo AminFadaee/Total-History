@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -50,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Nordic country in Northern Europe.",
+  "tier": "Core",
   "map": "maps/republic-of-finland.png",
   "map_asked": true,
   "checks": {

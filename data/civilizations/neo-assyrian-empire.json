@@ -15,7 +15,8 @@
       "latest": -609,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,26 +51,6 @@
     {
       "id": "Q210074",
       "name": "Tiglath-Pileser III"
-    },
-    {
-      "id": "Q208336",
-      "name": "Sargon II"
-    },
-    {
-      "id": "Q207140",
-      "name": "Sennacherib"
-    },
-    {
-      "id": "Q193912",
-      "name": "Esarhaddon"
-    },
-    {
-      "id": "Q171191",
-      "name": "Ashurbanipal"
-    },
-    {
-      "id": "Q316221",
-      "name": "Ashur-uballit II"
     }
   ],
   "modern_countries": [
@@ -86,6 +67,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The fourth and penultimate stage of ancient Assyrian history.",
+  "tier": "Core",
   "map": "maps/neo-assyrian-empire.png",
   "map_asked": true,
   "checks": {

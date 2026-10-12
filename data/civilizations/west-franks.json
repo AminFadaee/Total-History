@@ -15,7 +15,8 @@
       "latest": 987,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -48,12 +49,12 @@
       "name": "Louis the Stammerer"
     },
     {
-      "id": "Q150712",
-      "name": "Charles the Fat"
-    },
-    {
       "id": "Q187519",
       "name": "Charles the Simple"
+    },
+    {
+      "id": "Q208082",
+      "name": "Robert I of France"
     }
   ],
   "modern_countries": [
@@ -72,6 +73,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "It was created from the division of the Carolingian Empire following the death of Louis the Pious, with its neighbor East Francia eventually evolving into the Kingdom of Germany.",
+  "tier": "Core",
   "map": "maps/west-franks.png",
   "map_asked": true,
   "checks": {

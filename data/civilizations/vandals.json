@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -19,6 +20,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A group of Germanic peoples who were first mentioned in passing by a small number of Roman writers in the first and second centuries, but became more prominent starting in the late second century during the tumultuous Marcomannic Wars of the Romans against many of the Germanic peoples north of the Danube, when Hasdingi-led Vandals took the side of the Romans, in exchange for territory in or near Dacia.",
+  "tier": "Core",
   "map": "maps/vandals.png",
   "map_asked": true,
   "checks": {

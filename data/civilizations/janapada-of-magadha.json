@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -28,6 +29,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A region and kingdom in ancient India, based in the eastern Ganges Plain.",
+  "tier": "Core",
   "map": "maps/janapada-of-magadha.png",
   "map_asked": true,
   "checks": {
@@ -52,7 +55,6 @@
       "Janapada of Anga",
       "Janapada of Malla",
       "Janapada of Vajji",
-      "Janapada of Surasena",
       "Janapada of Kāśī",
       "Janapada of Kosala",
       "Janapada of Pañcāla",

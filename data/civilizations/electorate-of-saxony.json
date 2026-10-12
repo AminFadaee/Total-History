@@ -15,7 +15,8 @@
       "latest": 1806,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -37,23 +38,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q153015",
-    "region": "Germany",
-    "name": "Kingdom of Saxony"
-  },
+  "after": {},
   "rulers": [
     {
-      "id": "Q651898",
-      "name": "Albert III of Saxe-Wittenberg"
-    },
-    {
-      "id": "Q704939",
-      "name": "Frederick I, Elector of Saxony"
-    },
-    {
-      "id": "Q53444",
-      "name": "Frederick Augustus I of Saxony"
+      "id": "Q77233",
+      "name": "Frederick III of Saxony"
     }
   ],
   "modern_countries": [
@@ -62,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Electorate of the Holy Roman Empire.",
+  "tier": "Extended",
   "map": "maps/electorate-of-saxony.png",
   "map_asked": true,
   "checks": {

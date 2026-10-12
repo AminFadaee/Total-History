@@ -15,7 +15,8 @@
       "latest": 226,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -34,12 +35,19 @@
     "name": "Macedonian Empire"
   },
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q2258574",
+      "name": "Ariobarzanes II of Atropatene"
+    }
+  ],
   "modern_countries": [
     "Iran"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient Iranian kingdom established in c. 323 BC by the Persian satrap Atropates.",
+  "tier": "Core",
   "map": "maps/atropatene.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 840,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,8 +33,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q137022",
-      "name": "Enian Qaghan"
+      "id": "Q1799031",
+      "name": "Bayanchur Khan"
     }
   ],
   "modern_countries": [
@@ -45,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Turkic empire that existed for about a century between the mid 8th and 9th centuries.",
+  "tier": "Core",
   "map": "maps/uyghur-khaganate.png",
   "map_asked": true,
   "checks": {

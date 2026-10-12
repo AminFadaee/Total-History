@@ -15,7 +15,8 @@
       "latest": 502,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,14 +43,6 @@
     {
       "id": "Q1194981",
       "name": "Emperor Gao of Southern Qi"
-    },
-    {
-      "id": "Q940037",
-      "name": "Emperor Wu of Southern Qi"
-    },
-    {
-      "id": "Q1190420",
-      "name": "Emperor He of Southern Qi"
     }
   ],
   "modern_countries": [
@@ -57,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Chinese imperial dynasty and the second of the four Southern dynasties during the Northern and Southern dynasties era.",
+  "tier": "Extended",
   "map": "maps/southern-qi.png",
   "map_asked": false,
   "checks": {

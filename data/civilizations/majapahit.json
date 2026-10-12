@@ -15,7 +15,8 @@
       "latest": 1527,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,8 +37,8 @@
       "name": "Raden Wijaya"
     },
     {
-      "id": "Q6167549",
-      "name": "Jayanegara"
+      "id": "Q49329",
+      "name": "Gajah Mada"
     },
     {
       "id": "Q3631722",
@@ -46,14 +47,6 @@
     {
       "id": "Q29085",
       "name": "Hayam Wuruk"
-    },
-    {
-      "id": "Q12452603",
-      "name": "Vikramavardhana"
-    },
-    {
-      "id": "Q12443070",
-      "name": "Girindrawardhana"
     }
   ],
   "modern_countries": [
@@ -63,6 +56,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Javanese Hindu-Buddhist thalassocratic empire in Southeast Asia based on the island of Java.",
+  "tier": "Core",
   "map": "maps/majapahit.png",
   "map_asked": true,
   "checks": {

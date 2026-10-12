@@ -15,7 +15,8 @@
       "latest": 1918,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -59,6 +60,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The short-lived Russian state which controlled, de jure, the territory of the former Russian Empire after its proclamation by the Russian Provisional Government on 1 September 1917 in a decree signed by Alexander Kerensky as Minister-Chairman and Alexander Zarudny as Minister of Justice.",
+  "tier": "Core",
   "map": "maps/russian-republic.png",
   "map_asked": false,
   "checks": {

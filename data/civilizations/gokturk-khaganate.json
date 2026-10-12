@@ -15,7 +15,8 @@
       "latest": 603,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,8 +37,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q154891",
-      "name": "Tardu"
+      "id": "Q2586994",
+      "name": "Muqan Qaghan"
     }
   ],
   "modern_countries": [
@@ -51,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Turkic khaganate established by the Ashina clan of the Göktürks in medieval Inner Asia under the leadership of Bumin Qaghan and his brother Istämi.",
+  "tier": "Core",
   "map": "maps/gokturk-khaganate.png",
   "map_asked": true,
   "checks": {

@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -33,6 +34,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country comprising the mainland of the Australian continent, the island of Tasmania and numerous smaller islands.",
+  "tier": "Core",
   "map": "maps/commonwealth-of-australia.png",
   "map_asked": true,
   "checks": {

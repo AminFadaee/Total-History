@@ -15,7 +15,8 @@
       "latest": 929,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -33,11 +34,7 @@
     "region": "Spain",
     "name": "Umayyad Caliphate"
   },
-  "after": {
-    "id": "Q171740",
-    "region": "Spain",
-    "name": "Caliphate of Córdoba"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q29000",
@@ -48,12 +45,12 @@
       "name": "Hisham I of Córdoba"
     },
     {
-      "id": "Q307412",
-      "name": "Abd ar-Rahman II"
+      "id": "Q284558",
+      "name": "Al-Hakam I"
     },
     {
-      "id": "Q190418",
-      "name": "Abd al-Rahman III"
+      "id": "Q307412",
+      "name": "Abd ar-Rahman II"
     }
   ],
   "modern_countries": [
@@ -63,6 +60,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Arab Islamic state ruled by the Umayyad dynasty from 756 to 1031.",
+  "tier": "Core",
   "map": "maps/emirate-of-cordoba.png",
   "map_asked": true,
   "checks": {

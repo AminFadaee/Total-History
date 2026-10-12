@@ -15,7 +15,8 @@
       "latest": -249,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -31,6 +32,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A vassal state during the Zhou dynasty of ancient China located around modern southwest Shandong.",
+  "tier": "Extended",
   "map": "maps/lu.png",
   "map_asked": true,
   "checks": {

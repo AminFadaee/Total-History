@@ -15,7 +15,8 @@
       "latest": 1789,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -48,12 +49,12 @@
       "name": "Lê Lợi"
     },
     {
-      "id": "Q6506833",
-      "name": "Lê Cung Hoàng"
+      "id": "Q1771050",
+      "name": "Lê Thánh Tông"
     },
     {
-      "id": "Q6802344",
-      "name": "Lê Trang Tông"
+      "id": "Q6506724",
+      "name": "Lê Chiêu Thống"
     }
   ],
   "modern_countries": [
@@ -61,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The longest-ruling Vietnamese dynasty, having ruled Đại Việt from 1428 to 1789 with an interregnum between 1527 and 1533.",
+  "tier": "Core",
   "map": "maps/le-dynasty.png",
   "map_asked": true,
   "checks": {

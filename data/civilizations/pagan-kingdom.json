@@ -15,7 +15,8 @@
       "latest": 1297,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,16 +45,12 @@
       "name": "Kyansittha"
     },
     {
+      "id": "Q1395934",
+      "name": "Saw Lu"
+    },
+    {
       "id": "Q887114",
       "name": "Alaungsithu"
-    },
-    {
-      "id": "Q3182709",
-      "name": "Narapatisithu"
-    },
-    {
-      "id": "Q574724",
-      "name": "Narathihapate"
     }
   ],
   "modern_countries": [
@@ -61,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The first Burmese kingdom to unify the regions that would later constitute modern-day Myanmar.",
+  "tier": "Core",
   "map": "maps/pagan-kingdom.png",
   "map_asked": true,
   "checks": {

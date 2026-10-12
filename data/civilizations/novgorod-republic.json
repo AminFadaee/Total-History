@@ -15,7 +15,8 @@
       "latest": 1478,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -38,18 +39,6 @@
     {
       "id": "Q174044",
       "name": "Alexander Nevsky"
-    },
-    {
-      "id": "Q297295",
-      "name": "Yury of Moscow"
-    },
-    {
-      "id": "Q185316",
-      "name": "Ivan I of Moscow"
-    },
-    {
-      "id": "Q210162",
-      "name": "Ivan II of Moscow"
     }
   ],
   "modern_countries": [
@@ -57,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A city-state that existed from the 12th to 15th centuries in northwestern Russia, stretching from the Gulf of Finland in the west to the Ural Mountains in the east.",
+  "tier": "Core",
   "map": "maps/novgorod-republic.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1569,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,16 +33,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q3105288",
-      "name": "Giano della Bella"
-    },
-    {
       "id": "Q48544",
       "name": "Cosimo de' Medici"
     },
     {
-      "id": "Q378232",
-      "name": "Alessandro de' Medici, Duke of Florence"
+      "id": "Q177854",
+      "name": "Lorenzo de' Medici"
     }
   ],
   "modern_countries": [
@@ -49,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A medieval and early modern state that was centered on the Italian city of Florence in Tuscany.",
+  "tier": "Core",
   "map": "maps/republic-of-florence.png",
   "map_asked": true,
   "checks": {

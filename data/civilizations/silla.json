@@ -11,7 +11,11 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      300,
+      700
+    ]
   },
   "capitals": [
     {
@@ -25,23 +29,15 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q715257",
+    "region": "South Korea",
+    "name": "Unified Silla"
+  },
   "rulers": [
-    {
-      "id": "Q492831",
-      "name": "Naemul of Silla"
-    },
-    {
-      "id": "Q488385",
-      "name": "Jinheung of Silla"
-    },
     {
       "id": "Q494525",
       "name": "Muyeol of Silla"
-    },
-    {
-      "id": "Q494532",
-      "name": "Munmu of Silla"
     }
   ],
   "modern_countries": [
@@ -50,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Korean kingdom that existed between 57 BCE and 935 CE and was located on the southern and central parts of the Korean Peninsula.",
+  "tier": "Core",
   "map": "maps/silla.png",
   "map_asked": true,
   "checks": {

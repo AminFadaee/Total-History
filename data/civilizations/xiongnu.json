@@ -15,7 +15,8 @@
       "latest": 200,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -38,18 +39,6 @@
     {
       "id": "Q382816",
       "name": "Modu Chanyu"
-    },
-    {
-      "id": "Q719747",
-      "name": "Touman"
-    },
-    {
-      "id": "Q2593729",
-      "name": "Laoshang"
-    },
-    {
-      "id": "Q4469233",
-      "name": "Wudadihou"
     }
   ],
   "modern_countries": [
@@ -60,6 +49,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A tribal confederation of nomadic peoples who, according to ancient Chinese sources, inhabited the eastern Eurasian Steppe from the 3rd century BC to the late 1st century AD. Modu Chanyu, the supreme leader after 209 BC, founded the Xiongnu Empire.",
+  "tier": "Core",
   "map": "maps/xiongnu.png",
   "map_asked": true,
   "checks": {

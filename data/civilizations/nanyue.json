@@ -15,7 +15,8 @@
       "latest": -111,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,10 +51,6 @@
     {
       "id": "Q839161",
       "name": "Zhao Xing"
-    },
-    {
-      "id": "Q839130",
-      "name": "Zhao Jiande"
     }
   ],
   "modern_countries": [
@@ -62,6 +59,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient kingdom founded in 204 BC by the Chinese general Zhao Tuo, whose family continued to rule until 111 BC. Nanyue's geographical expanse covered the modern Chinese subdivisions of Guangdong, Guangxi, Hainan, Hong Kong, Macau, southern Fujian and central to northern Vietnam.",
+  "tier": "Core",
   "map": "maps/nanyue.png",
   "map_asked": true,
   "checks": {

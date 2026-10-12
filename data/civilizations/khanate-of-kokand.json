@@ -15,7 +15,8 @@
       "latest": 1876,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,10 +51,6 @@
     {
       "id": "Q6402843",
       "name": "Muhammad Khudayar Khan"
-    },
-    {
-      "id": "Q11938431",
-      "name": "Nasruddin Khan"
     }
   ],
   "modern_countries": [
@@ -63,6 +60,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An early modern state in the Fergana Valley of Central Asia.",
+  "tier": "Core",
   "map": "maps/khanate-of-kokand.png",
   "map_asked": true,
   "checks": {

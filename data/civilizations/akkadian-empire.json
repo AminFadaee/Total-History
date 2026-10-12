@@ -15,7 +15,8 @@
       "latest": -2083,
       "circa": true
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -31,6 +32,10 @@
     {
       "id": "Q199461",
       "name": "Sargon of Akkad"
+    },
+    {
+      "id": "Q297506",
+      "name": "Naram-Sin of Akkad"
     }
   ],
   "modern_countries": [
@@ -41,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient kingdom established around 2300 BCE, often seen as the first empire in world history, succeeding and unifying the long-lived city-states of the Early Dynastic period.",
+  "tier": "Core",
   "map": "maps/akkadian-empire.png",
   "map_asked": true,
   "checks": {

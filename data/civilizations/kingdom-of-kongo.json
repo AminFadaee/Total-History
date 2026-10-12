@@ -11,7 +11,11 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1400,
+      1700
+    ]
   },
   "capitals": [
     {
@@ -50,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A kingdom in Central Africa.",
+  "tier": "Core",
   "map": "maps/kingdom-of-kongo.png",
   "map_asked": true,
   "checks": {

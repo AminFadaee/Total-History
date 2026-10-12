@@ -15,7 +15,8 @@
       "latest": 1992,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,6 +45,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country in Central Europe and the Balkans that existed from 1918 to 1992.",
+  "tier": "Core",
   "map": "maps/yugoslavia.png",
   "map_asked": true,
   "checks": {

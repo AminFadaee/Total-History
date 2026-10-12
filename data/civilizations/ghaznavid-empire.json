@@ -15,7 +15,8 @@
       "latest": 1186,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,20 +41,12 @@
   },
   "rulers": [
     {
-      "id": "Q32617",
-      "name": "Ismail of Ghazni"
-    },
-    {
       "id": "Q189271",
       "name": "Mahmud of Ghazni"
     },
     {
       "id": "Q936594",
       "name": "Masʽud I"
-    },
-    {
-      "id": "Q32627",
-      "name": "Muhammad of Ghazni"
     }
   ],
   "modern_countries": [
@@ -64,6 +57,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A culturally Persianate, Sunni Muslim state of Turkic Karluk origin.",
+  "tier": "Core",
   "map": "maps/ghaznavid-empire.png",
   "map_asked": true,
   "checks": {

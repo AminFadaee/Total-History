@@ -15,7 +15,8 @@
       "latest": 1523,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -38,12 +39,16 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q161958",
-      "name": "Erik of Pomerania"
+      "id": "Q310433",
+      "name": "Karl Knutsson"
     },
     {
-      "id": "Q154460",
-      "name": "Christian II of Denmark"
+      "id": "Q58056",
+      "name": "Christopher of Bavaria"
+    },
+    {
+      "id": "Q157776",
+      "name": "Hans, King of Denmark"
     }
   ],
   "modern_countries": [
@@ -56,6 +61,8 @@
     "Iceland"
   ],
   "borders": true,
+  "summary": "A personal union in Scandinavia, agreed at Kalmar in Sweden as designed by Queen Margaret I of Denmark.",
+  "tier": "Core",
   "map": "maps/kalmar-union.png",
   "map_asked": true,
   "checks": {

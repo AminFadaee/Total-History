@@ -15,11 +15,16 @@
       "latest": 1185,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q189178",
+    "region": "Japan",
+    "name": "Nara Japan"
+  },
   "after": {
     "id": "Q736839",
     "region": "Japan",
@@ -31,6 +36,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The last division of classical Japanese history, running from 794 to 1185.",
+  "tier": "Core",
   "map": "maps/heian-japan.png",
   "map_asked": true,
   "checks": {

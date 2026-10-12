@@ -15,7 +15,8 @@
       "latest": -539,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -30,13 +31,20 @@
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q36359",
+      "name": "Hammurabi"
+    }
+  ],
   "modern_countries": [
     "Iraq",
     "Iran"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient Akkadian-speaking state and cultural area based on the city of Babylon in central-southern Mesopotamia.",
+  "tier": "Core",
   "map": "maps/babylonia.png",
   "map_asked": true,
   "checks": {

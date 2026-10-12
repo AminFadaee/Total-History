@@ -15,7 +15,8 @@
       "latest": 224,
       "circa": true
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -45,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient Indian dynasty.",
+  "tier": "Core",
   "map": "maps/satavahana-dynasty.png",
   "map_asked": true,
   "checks": {

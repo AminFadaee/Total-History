@@ -11,7 +11,11 @@
       "latest": 1503,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1400,
+      1600
+    ]
   },
   "capitals": [
     {
@@ -48,8 +52,8 @@
       "name": "Qara Yuluk Uthman Beg"
     },
     {
-      "id": "Q16374330",
-      "name": "Sultan Murad"
+      "id": "Q374468",
+      "name": "Uzun Hasan"
     }
   ],
   "modern_countries": [
@@ -60,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Turkoman, culturally Persianate, Sunni Muslim tribal confederation.",
+  "tier": "Core",
   "map": "maps/aq-qoyunlu.png",
   "map_asked": true,
   "checks": {

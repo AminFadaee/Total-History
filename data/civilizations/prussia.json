@@ -15,7 +15,8 @@
       "latest": 1947,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,8 +43,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q151826",
-      "name": "Frederick I of Prussia"
+      "id": "Q33550",
+      "name": "Frederick the Great"
     }
   ],
   "modern_countries": [
@@ -52,6 +53,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A German state centred on the North European Plain.",
+  "tier": "Core",
   "map": "maps/prussia.png",
   "map_asked": true,
   "checks": {

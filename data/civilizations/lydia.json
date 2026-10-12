@@ -15,7 +15,8 @@
       "latest": -546,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,24 +37,12 @@
   },
   "rulers": [
     {
+      "id": "Q434217",
+      "name": "Candaules"
+    },
+    {
       "id": "Q312537",
       "name": "Gyges of Lydia"
-    },
-    {
-      "id": "Q184462",
-      "name": "Croesus"
-    },
-    {
-      "id": "Q640203",
-      "name": "Ardys of Lydia"
-    },
-    {
-      "id": "Q374756",
-      "name": "Sadyattes"
-    },
-    {
-      "id": "Q299551",
-      "name": "Alyattes"
     }
   ],
   "modern_countries": [
@@ -61,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A powerful Iron Age civilization prominent in western Anatolia in the 8th to 6th centuries BCE. Its capital and only city at Sardis.",
+  "tier": "Core",
   "map": "maps/lydia.png",
   "map_asked": true,
   "checks": {

@@ -1,0 +1,84 @@
+{
+  "id": "Q784974",
+  "slug": "kanva-dynasty",
+  "name": "Kanva Dynasty",
+  "wikipedia": "Kanva dynasty",
+  "map_year": -50,
+  "period": {
+    "start": {
+      "earliest": -73,
+      "latest": -73,
+      "circa": false
+    },
+    "end": {
+      "earliest": -28,
+      "latest": -28,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Pataliputra",
+      "location": [
+        85.144,
+        25.611
+      ],
+      "founded": -490
+    },
+    {
+      "name": "Vidisha",
+      "location": [
+        77.8061,
+        23.5239
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q651377",
+    "region": "India",
+    "name": "Shunga Empire"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q7917015",
+      "name": "Vasudeva Kanva"
+    }
+  ],
+  "modern_countries": [
+    "India",
+    "Nepal",
+    "Bangladesh"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A ruling dynasty of Magadha, established after Vasudeva Kanva overthrew the preceding Shunga dynasty and ruled from 73 BCE to 28 BCE.",
+  "tier": "Extended",
+  "map": "maps/kanva-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Pataliputra",
+        "Vidisha"
+      ]
+    },
+    "cliopatria_years": [
+      -66,
+      -28
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "Pataliputra",
+    "labelled": [
+      "Satavahana Dynasty",
+      "Indo-Scythians",
+      "Indo-Greeks"
+    ]
+  }
+}

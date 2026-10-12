@@ -15,7 +15,8 @@
       "latest": 822,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -51,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A confederation of Eurasian nomads.",
+  "tier": "Core",
   "map": "maps/avar-khaganate.png",
   "map_asked": true,
   "checks": {

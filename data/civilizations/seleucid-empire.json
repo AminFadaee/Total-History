@@ -15,7 +15,8 @@
       "latest": -63,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -77,6 +78,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Greek state in West Asia during the Hellenistic period.",
+  "tier": "Core",
   "map": "maps/seleucid-empire.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1241,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -27,6 +28,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A tribal confederation in the western part of the Eurasian Steppe, between the 10th and 13th centuries.",
+  "tier": "Core",
   "map": "maps/cuman-kipchak-confederation.png",
   "map_asked": true,
   "checks": {

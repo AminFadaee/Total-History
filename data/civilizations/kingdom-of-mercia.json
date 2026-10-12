@@ -15,7 +15,8 @@
       "latest": 918,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -57,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An early medieval Anglo-Saxon kingdom, one of the seven kingdoms of the Anglo-Saxon period.",
+  "tier": "Core",
   "map": "maps/kingdom-of-mercia.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1798,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -25,6 +26,8 @@
   "modern_countries": [],
   "overseas_countries": [],
   "borders": false,
+  "summary": "A loose confederation of independent small states, initially within the Holy Roman Empire.",
+  "tier": "Core",
   "map": "",
   "map_asked": true,
   "checks": {

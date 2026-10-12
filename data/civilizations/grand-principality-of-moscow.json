@@ -15,7 +15,8 @@
       "latest": 1547,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -57,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A late medieval Russian monarchy.",
+  "tier": "Core",
   "map": "maps/grand-principality-of-moscow.png",
   "map_asked": true,
   "checks": {

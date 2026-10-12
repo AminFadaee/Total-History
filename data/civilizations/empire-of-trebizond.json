@@ -15,7 +15,8 @@
       "latest": 1461,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,18 +41,6 @@
   },
   "rulers": [
     {
-      "id": "Q314442",
-      "name": "Alexios I of Trebizond"
-    },
-    {
-      "id": "Q303302",
-      "name": "John I of Trebizond"
-    },
-    {
-      "id": "Q366036",
-      "name": "Manuel I of Trebizond"
-    },
-    {
       "id": "Q503069",
       "name": "David of Trebizond"
     }
@@ -61,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "One of the three Byzantine rump states of the Byzantine Empire that existed during the 13th through to the 15th century.",
+  "tier": "Core",
   "map": "maps/empire-of-trebizond.png",
   "map_asked": true,
   "checks": {

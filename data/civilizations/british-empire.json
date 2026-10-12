@@ -11,7 +11,11 @@
       "latest": 1997,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1700,
+      2000
+    ]
   },
   "capitals": [
     {
@@ -29,33 +33,33 @@
   "rulers": [],
   "modern_countries": [
     "Australia",
-    "Solomon Islands"
-  ],
-  "overseas_countries": [
     "Canada",
     "Malaysia",
     "New Zealand",
     "Guyana",
     "Belize",
+    "Solomon Islands",
     "Fiji",
     "Jamaica",
     "Falkland Islands",
     "Bahamas",
     "Brunei",
     "Trinidad and Tobago",
-    "South Georgia and the Islands",
-    "Bermuda",
+    "United Kingdom",
     "Mauritius",
-    "Hong Kong",
+    "China",
     "Dominica",
     "Singapore",
     "Saint Lucia",
     "Barbados",
     "Grenada",
     "Saint Vincent and the Grenadines",
-    "United States Virgin Islands"
+    "United States"
   ],
+  "overseas_countries": [],
   "borders": true,
+  "summary": "It began with the overseas possessions and trading posts established by England in the late 16th and early 17th centuries, and colonisation attempts by Scotland during the 17th century.",
+  "tier": "Core",
   "map": "maps/british-empire.png",
   "map_asked": true,
   "checks": {
@@ -75,7 +79,12 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Dutch East Indies"
+      "United States of America",
+      "Mexico",
+      "Russian Empire",
+      "French colonial empire",
+      "Sokoto Caliphate",
+      "German Empire"
     ]
   }
 }

@@ -15,7 +15,8 @@
       "latest": -221,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A regional state of the Zhou dynasty in ancient China, whose rulers held titles of Hou, then Gong, before declaring themselves independent Kings.",
+  "tier": "Core",
   "map": "maps/qi.png",
   "map_asked": true,
   "checks": {

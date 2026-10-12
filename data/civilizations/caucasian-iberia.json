@@ -15,7 +15,8 @@
       "latest": 580,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -25,6 +26,14 @@
         41.83763
       ],
       "founded": null
+    },
+    {
+      "name": "Tbilisi",
+      "location": [
+        44.7925,
+        41.7225
+      ],
+      "founded": 455
     }
   ],
   "parts": [],
@@ -34,30 +43,15 @@
     "region": "Georgia",
     "name": "Sasanian Empire"
   },
-  "rulers": [
-    {
-      "id": "Q372698",
-      "name": "Pharnavaz I"
-    },
-    {
-      "id": "Q1854466",
-      "name": "Sauromaces I"
-    },
-    {
-      "id": "Q1262514",
-      "name": "Artaxias I of Iberia"
-    },
-    {
-      "id": "Q2553009",
-      "name": "Pharasmanes I"
-    }
-  ],
+  "rulers": [],
   "modern_countries": [
     "Georgia",
     "Russia"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An exonym for the Georgian kingdom of Kartli, known after its core province.",
+  "tier": "Core",
   "map": "maps/caucasian-iberia.png",
   "map_asked": true,
   "checks": {

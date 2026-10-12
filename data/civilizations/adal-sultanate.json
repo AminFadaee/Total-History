@@ -15,7 +15,8 @@
       "latest": 1577,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,7 +45,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q157727",
+    "region": "Ethiopia",
+    "name": "Ifat Sultanate"
+  },
   "after": {},
   "rulers": [
     {
@@ -63,6 +68,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A medieval Sunni Muslim empire which was located in the Horn of Africa.",
+  "tier": "Core",
   "map": "maps/adal-sultanate.png",
   "map_asked": true,
   "checks": {

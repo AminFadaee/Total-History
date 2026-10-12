@@ -15,7 +15,8 @@
       "latest": 1794,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Iranian state under the rule of the Zand dynasty.",
+  "tier": "Extended",
   "map": "maps/zand-dynasty.png",
   "map_asked": true,
   "checks": {

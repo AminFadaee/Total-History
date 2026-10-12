@@ -15,7 +15,8 @@
       "latest": 300,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -47,6 +48,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient nomadic people who inhabited parts of present-day northeastern China, Inner Mongolia, and the eastern Eurasian steppe.",
+  "tier": "Core",
   "map": "maps/xianbei.png",
   "map_asked": true,
   "checks": {

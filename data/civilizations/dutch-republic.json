@@ -15,7 +15,8 @@
       "latest": 1795,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,14 +51,6 @@
     {
       "id": "Q129987",
       "name": "William III of England"
-    },
-    {
-      "id": "Q380949",
-      "name": "William IV, Prince of Orange"
-    },
-    {
-      "id": "Q312215",
-      "name": "William V, Prince of Orange"
     }
   ],
   "modern_countries": [
@@ -68,6 +61,8 @@
     "Sri Lanka"
   ],
   "borders": true,
+  "summary": "A confederation and great power that existed from 1588 until the Batavian Revolution in 1795.",
+  "tier": "Core",
   "map": "maps/dutch-republic.png",
   "map_asked": true,
   "checks": {

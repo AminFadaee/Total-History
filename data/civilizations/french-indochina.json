@@ -15,7 +15,8 @@
       "latest": 1954,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,12 +41,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q1934639",
-      "name": "Jean Antoine Ernest Constans"
+      "id": "Q468758",
+      "name": "Khải Định"
     },
     {
-      "id": "Q3131283",
-      "name": "Henri Hoppenot"
+      "id": "Q223771",
+      "name": "Bảo Đại"
     }
   ],
   "modern_countries": [
@@ -58,6 +59,8 @@
     "French Southern and Antarctic Lands"
   ],
   "borders": true,
+  "summary": "A group of French-dependent territories in Southeast Asia from 1887 to 1954.",
+  "tier": "Core",
   "map": "maps/french-indochina.png",
   "map_asked": true,
   "checks": {

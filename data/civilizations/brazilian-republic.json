@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The largest country in South America.",
+  "tier": "Core",
   "map": "maps/brazilian-republic.png",
   "map_asked": true,
   "checks": {

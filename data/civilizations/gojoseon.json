@@ -11,7 +11,8 @@
       "latest": -108,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -43,6 +44,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The first kingdom on the Korean Peninsula.",
+  "tier": "Core",
   "map": "maps/gojoseon.png",
   "map_asked": true,
   "checks": {

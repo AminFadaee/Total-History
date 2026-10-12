@@ -15,7 +15,8 @@
       "latest": 1004,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,8 +37,16 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q16199373",
-      "name": "Hamdan ibn Hamdun"
+      "id": "Q4164636",
+      "name": "Nasir al-Dawla"
+    },
+    {
+      "id": "Q2544585",
+      "name": "Sayf al-Dawla"
+    },
+    {
+      "id": "Q3460374",
+      "name": "Sa'd al-Dawla of Aleppo"
     }
   ],
   "modern_countries": [
@@ -48,6 +57,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Shia Muslim Arab dynasty that ruled Upper Mesopotamia and Syria.",
+  "tier": "Extended",
   "map": "maps/hamdanid-emirates.png",
   "map_asked": true,
   "checks": {

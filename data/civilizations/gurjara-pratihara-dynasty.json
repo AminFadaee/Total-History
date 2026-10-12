@@ -15,7 +15,8 @@
       "latest": 1036,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -41,6 +42,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A prominent medieval Indian dynasty which initially ruled the Gurjaradesa until its victory in the Tripartite Struggle in 816 in which Pratiharas secured the throne of Kannauj.",
+  "tier": "Core",
   "map": "maps/gurjara-pratihara-dynasty.png",
   "map_asked": true,
   "checks": {

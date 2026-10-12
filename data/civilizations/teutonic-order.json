@@ -1,0 +1,110 @@
+{
+  "id": "Q156020",
+  "slug": "teutonic-order",
+  "name": "Teutonic Order",
+  "wikipedia": "State of the Teutonic Order",
+  "map_year": 1402,
+  "period": {
+    "start": {
+      "earliest": 1226,
+      "latest": 1226,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1525,
+      "latest": 1525,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Malbork",
+      "location": [
+        19.04435,
+        54.02846
+      ],
+      "founded": 1102
+    },
+    {
+      "name": "Königsberg",
+      "location": [
+        20.509305555555557,
+        54.71147222222222
+      ],
+      "founded": 1255
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q153091",
+    "region": "Russia",
+    "name": "Duchy of Prussia"
+  },
+  "rulers": [
+    {
+      "id": "Q57994",
+      "name": "Hermann von Salza"
+    },
+    {
+      "id": "Q330895",
+      "name": "Ulrich von Jungingen"
+    },
+    {
+      "id": "Q508965",
+      "name": "Konrad von Jungingen"
+    },
+    {
+      "id": "Q40433",
+      "name": "Albert, Duke of Prussia"
+    }
+  ],
+  "modern_countries": [
+    "Poland",
+    "Latvia",
+    "Lithuania",
+    "Estonia",
+    "Russia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A theocratic state located along the southeastern shore of the Baltic Sea in northern Europe.",
+  "tier": "Extended",
+  "map": "maps/teutonic-order.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Malbork Castle",
+        "Malbork",
+        "Königsberg"
+      ],
+      "infobox": [
+        "Malbork",
+        "Königsberg"
+      ]
+    },
+    "cliopatria_years": [
+      1236,
+      1525
+    ],
+    "identity": "the state named after Teutonic Order",
+    "home": "Königsberg",
+    "labelled": [
+      "Grand Duchy of Lithuania",
+      "Holy Roman Empire",
+      "Novgorod Republic",
+      "Kingdom of Poland",
+      "Margraviate of Brandenburg",
+      "Pskov Republic",
+      "Kalmar Union",
+      "Grand Principality of Moscow",
+      "Principality of Smolensk",
+      "Kingdom of Bohemia",
+      "Tver"
+    ]
+  }
+}

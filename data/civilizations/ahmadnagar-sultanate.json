@@ -1,0 +1,88 @@
+{
+  "id": "Q400998",
+  "slug": "ahmadnagar-sultanate",
+  "name": "Ahmadnagar Sultanate",
+  "wikipedia": "Ahmadnagar Sultanate",
+  "map_year": 1579,
+  "period": {
+    "start": {
+      "earliest": 1490,
+      "latest": 1490,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1636,
+      "latest": 1636,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Ahmednagar",
+      "location": [
+        74.733333333333,
+        19.083333333333
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q374521",
+    "region": "India",
+    "name": "Bahmani Sultanate"
+  },
+  "after": {
+    "id": "Q33296",
+    "region": "India",
+    "name": "Mughal Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q24950832",
+      "name": "Ahmad Nizam Shah"
+    },
+    {
+      "id": "Q6939725",
+      "name": "Murtaza Nizam Shah III"
+    }
+  ],
+  "modern_countries": [
+    "India"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An early modern sultanate located in the northwestern Deccan, ruled by the Nizam Shahi dynasty.",
+  "tier": "Extended",
+  "map": "maps/ahmadnagar-sultanate.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ahmednagar"
+      ],
+      "infobox": [
+        "Junnar",
+        "Ahmednagar",
+        "Daulatabad Fort",
+        "Paranda",
+        "Aurangabad"
+      ]
+    },
+    "cliopatria_years": [
+      1492,
+      1652
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ahmednagar",
+    "labelled": [
+      "Mughal Empire",
+      "Bijapur Sultanate",
+      "Golconda Sultanate",
+      "Bidar Sultanate"
+    ]
+  }
+}

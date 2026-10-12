@@ -15,7 +15,8 @@
       "latest": 1715,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [
@@ -25,11 +26,7 @@
     "Kingdom of Sicily",
     "Duchy of Athens"
   ],
-  "before": {
-    "id": "Q199442",
-    "region": "Spain",
-    "name": "Kingdom of Aragon"
-  },
+  "before": {},
   "after": {
     "id": "Q29",
     "region": "Spain",
@@ -61,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A composite monarchy ruled by one king, originated by the dynastic union of the Kingdom of Aragon and the County of Barcelona and ended as a consequence of the War of the Spanish Succession.",
+  "tier": "Core",
   "map": "maps/crown-of-aragon.png",
   "map_asked": true,
   "checks": {

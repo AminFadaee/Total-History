@@ -15,7 +15,8 @@
       "latest": 1939,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,10 +41,6 @@
       "name": "Niceto Alcalá-Zamora"
     },
     {
-      "id": "Q518982",
-      "name": "Diego Martínez Barrio"
-    },
-    {
       "id": "Q203708",
       "name": "Manuel Azaña"
     }
@@ -57,6 +54,8 @@
     "Equatorial Guinea"
   ],
   "borders": true,
+  "summary": "The democratic government of Spain from 1931 to 1939.",
+  "tier": "Core",
   "map": "maps/second-spanish-republic.png",
   "map_asked": false,
   "checks": {

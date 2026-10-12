@@ -15,7 +15,8 @@
       "latest": 1212,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,6 +53,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Karluk Turkic khanate that ruled Central Asia from the 9th to the early 13th century.",
+  "tier": "Core",
   "map": "maps/kara-khanid-khanate.png",
   "map_asked": true,
   "checks": {

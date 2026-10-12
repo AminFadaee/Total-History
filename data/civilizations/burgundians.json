@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -19,6 +20,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Germanic people of the Roman imperial era, who established the powerful Kingdom of the Burgundians within the Roman empire in what is now western Switzerland and south-eastern France.",
+  "tier": "Extended",
   "map": "maps/burgundians.png",
   "map_asked": true,
   "checks": {

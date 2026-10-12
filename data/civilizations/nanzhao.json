@@ -15,7 +15,8 @@
       "latest": 902,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -28,6 +29,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A dynastic kingdom that flourished in what is now southwestern China and northern Southeast Asia during the 8th and 9th centuries, during the mid/late Tang dynasty.",
+  "tier": "Extended",
   "map": "maps/nanzhao.png",
   "map_asked": true,
   "checks": {

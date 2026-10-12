@@ -15,7 +15,8 @@
       "latest": 750,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -94,6 +95,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The second Islamic caliphate, ruled by the Umayyad dynasty from 661 to 750.",
+  "tier": "Core",
   "map": "maps/umayyad-caliphate.png",
   "map_asked": true,
   "checks": {

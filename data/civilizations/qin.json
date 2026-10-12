@@ -15,7 +15,8 @@
       "latest": -207,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -30,12 +31,31 @@
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q553245",
+      "name": "Duke Xiao of Qin"
+    },
+    {
+      "id": "Q564282",
+      "name": "King Huiwen of Qin"
+    },
+    {
+      "id": "Q564288",
+      "name": "King Wu of Qin"
+    },
+    {
+      "id": "Q553240",
+      "name": "King Zhaoxiang of Qin"
+    }
+  ],
   "modern_countries": [
     "China"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient Chinese state during the Zhou dynasty.",
+  "tier": "Extended",
   "map": "maps/qin.png",
   "map_asked": true,
   "checks": {

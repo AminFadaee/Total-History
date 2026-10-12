@@ -15,7 +15,8 @@
       "latest": -525,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,8 +41,16 @@
   },
   "rulers": [
     {
+      "id": "Q125102",
+      "name": "Necho II"
+    },
+    {
       "id": "Q328763",
       "name": "Psamtik I"
+    },
+    {
+      "id": "Q312045",
+      "name": "Amasis II"
     },
     {
       "id": "Q316278",
@@ -54,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The last native dynasty of ancient Egypt before the Persian conquest in 525 BC. The dynasty's reign is also called the Saite Period after the city of Sais, where its pharaohs had their capital, and marks the beginning of the Late Period of ancient Egypt.",
+  "tier": "Extended",
   "map": "maps/twenty-sixth-dynasty-of-egypt.png",
   "map_asked": true,
   "checks": {

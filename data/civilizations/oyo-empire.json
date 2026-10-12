@@ -11,7 +11,11 @@
       "latest": 1836,
       "circa": true
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1600,
+      1900
+    ]
   },
   "capitals": [
     {
@@ -52,6 +56,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Yoruba empire in West Africa.",
+  "tier": "Core",
   "map": "maps/oyo-empire.png",
   "map_asked": true,
   "checks": {

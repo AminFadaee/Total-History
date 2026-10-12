@@ -1,0 +1,47 @@
+{
+  "id": "Q638064",
+  "slug": "shirvan",
+  "name": "Shirvan",
+  "wikipedia": "Shirvan",
+  "map_year": 825,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false,
+    "core": null
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Azerbaijan",
+    "Armenia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A historical Iranian region in the eastern Caucasus, as known both during the pre-Islamic Sasanian Era and the early Islamic period.",
+  "tier": "Extended",
+  "map": "maps/shirvan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      825,
+      1539
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Abbasid Caliphate",
+      "Khazaria",
+      "Principality of Iberia",
+      "Georgia"
+    ]
+  }
+}

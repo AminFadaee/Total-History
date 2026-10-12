@@ -15,7 +15,8 @@
       "latest": 1552,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,10 +43,6 @@
     {
       "id": "Q2039445",
       "name": "Ulugh Muhammad"
-    },
-    {
-      "id": "Q2640696",
-      "name": "Yadegar Mokhammad of Kazan"
     }
   ],
   "modern_countries": [
@@ -53,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Tatar state on the Middle Volga, in the territory of the former Volga Bulgaria, from the mid-15th century until 1552.",
+  "tier": "Core",
   "map": "maps/khanate-of-kazan.png",
   "map_asked": true,
   "checks": {

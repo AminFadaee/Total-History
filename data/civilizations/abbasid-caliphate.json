@@ -15,7 +15,8 @@
       "latest": 1258,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -98,6 +99,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The third Islamic caliphate, ruled by the Abbasid dynasty.",
+  "tier": "Core",
   "map": "maps/abbasid-caliphate.png",
   "map_asked": true,
   "checks": {

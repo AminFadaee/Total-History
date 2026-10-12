@@ -11,7 +11,11 @@
       "latest": 1477,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1000,
+      1500
+    ]
   },
   "capitals": [
     {
@@ -42,10 +46,6 @@
     {
       "id": "Q239337",
       "name": "Philip the Good"
-    },
-    {
-      "id": "Q151120",
-      "name": "Charles the Bold"
     }
   ],
   "modern_countries": [
@@ -56,6 +56,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A medieval and early modern feudal polity in north-western regions of historical Burgundy.",
+  "tier": "Core",
   "map": "maps/duchy-of-burgundy.png",
   "map_asked": true,
   "checks": {

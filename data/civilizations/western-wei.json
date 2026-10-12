@@ -1,0 +1,90 @@
+{
+  "id": "Q1143164",
+  "slug": "western-wei",
+  "name": "Western Wei",
+  "wikipedia": "Western Wei",
+  "map_year": 555,
+  "period": {
+    "start": {
+      "earliest": 535,
+      "latest": 535,
+      "circa": false
+    },
+    "end": {
+      "earliest": 557,
+      "latest": 557,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Chang'an",
+      "location": [
+        108.85833333333333,
+        34.30833333333333
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q875305",
+    "region": "China",
+    "name": "Northern Wei"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q2985487",
+      "name": "Emperor Wen of Western Wei"
+    },
+    {
+      "id": "Q2660296",
+      "name": "Emperor Fei of Western Wei"
+    },
+    {
+      "id": "Q2665689",
+      "name": "Emperor Gong of Western Wei"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An imperial dynasty of China that followed the disintegration of the Northern Wei.",
+  "tier": "Extended",
+  "map": "maps/western-wei.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chang'an"
+      ],
+      "infobox": [
+        "Chang'an"
+      ]
+    },
+    "cliopatria_years": [
+      534,
+      560
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Chang'an",
+    "labelled": [
+      "Liang Dynasty",
+      "Göktürk Khaganate",
+      "Northern Qi",
+      "Tuyuhun",
+      "Maukhari Dynasty",
+      "Protectorate of the Western Regions",
+      "Goguryeo",
+      "Kamarupa Kingdom",
+      "Silla",
+      "Baekje"
+    ]
+  }
+}

@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -24,6 +25,10 @@
   "after": {},
   "rulers": [
     {
+      "id": "Q189145",
+      "name": "Antonio López de Santa Anna"
+    },
+    {
       "id": "Q182276",
       "name": "Benito Juárez"
     },
@@ -34,10 +39,6 @@
     {
       "id": "Q216766",
       "name": "Francisco I. Madero"
-    },
-    {
-      "id": "Q296718",
-      "name": "Lázaro Cárdenas"
     }
   ],
   "modern_countries": [
@@ -45,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country in North America.",
+  "tier": "Core",
   "map": "maps/mexico.png",
   "map_asked": true,
   "checks": {

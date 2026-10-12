@@ -15,7 +15,8 @@
       "latest": 1695,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -25,6 +26,8 @@
   "modern_countries": [],
   "overseas_countries": [],
   "borders": false,
+  "summary": "A Muslim empire in the Horn of Africa that thrived from the late medieval and early modern period.",
+  "tier": "Core",
   "map": "",
   "map_asked": true,
   "checks": {

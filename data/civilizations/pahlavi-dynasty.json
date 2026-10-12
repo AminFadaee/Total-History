@@ -15,7 +15,8 @@
       "latest": 1979,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -33,12 +34,12 @@
     "region": "Iran",
     "name": "Qajar Dynasty"
   },
-  "after": {},
+  "after": {
+    "id": "Q794",
+    "region": "Iran",
+    "name": "Islamic Republic of Iran"
+  },
   "rulers": [
-    {
-      "id": "Q182921",
-      "name": "Reza Shah"
-    },
     {
       "id": "Q128245",
       "name": "Mohammad Reza Pahlavi"
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Iranian state under the rule of the Pahlavi dynasty.",
+  "tier": "Core",
   "map": "maps/pahlavi-dynasty.png",
   "map_asked": true,
   "checks": {

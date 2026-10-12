@@ -15,7 +15,8 @@
       "latest": 1707,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -45,11 +46,7 @@
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q204920",
-    "region": "Spain",
-    "name": "Crown of Aragon"
-  },
+  "after": {},
   "rulers": [
     {
       "id": "Q12860",
@@ -73,6 +70,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A medieval and early modern kingdom on the Iberian Peninsula, corresponding to the modern-day autonomous community of Aragon, in Spain.",
+  "tier": "Core",
   "map": "maps/kingdom-of-aragon.png",
   "map_asked": true,
   "checks": {

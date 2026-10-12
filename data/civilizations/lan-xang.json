@@ -15,7 +15,8 @@
       "latest": 1707,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -55,6 +56,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Lao kingdom that held the area of present-day Laos from 1353 to 1707.",
+  "tier": "Core",
   "map": "maps/lan-xang.png",
   "map_asked": true,
   "checks": {

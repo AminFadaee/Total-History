@@ -1,0 +1,74 @@
+{
+  "id": "Q414",
+  "slug": "argentine-republic",
+  "name": "Argentine Republic",
+  "wikipedia": "Argentina",
+  "map_year": 1930,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Buenos Aires",
+      "location": [
+        -58.381944444444,
+        -34.599722222222
+      ],
+      "founded": 1580
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q93330",
+      "name": "Juan Perón"
+    },
+    {
+      "id": "Q270368",
+      "name": "Arturo Umberto Illia"
+    },
+    {
+      "id": "Q297134",
+      "name": "Hipólito Yrigoyen"
+    },
+    {
+      "id": "Q346658",
+      "name": "Arturo Frondizi"
+    }
+  ],
+  "modern_countries": [
+    "Argentina"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A country in the far south of South America.",
+  "tier": "Core",
+  "map": "maps/argentine-republic.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Buenos Aires"
+      ],
+      "infobox": [
+        "Buenos Aires"
+      ]
+    },
+    "cliopatria_years": [
+      1930,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Buenos Aires",
+    "labelled": [
+      "Brazilian Republic",
+      "Bolivia"
+    ]
+  }
+}

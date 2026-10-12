@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -54,6 +55,8 @@
     "Palau"
   ],
   "borders": true,
+  "summary": "A country primarily located in North America.",
+  "tier": "Core",
   "map": "maps/united-states-of-america.png",
   "map_asked": true,
   "checks": {

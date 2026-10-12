@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -19,6 +20,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient Native American culture of Pueblo peoples spanning the present-day Four Corners region of the United States, comprising southeastern Utah, northeastern Arizona, northwestern New Mexico, and southwestern Colorado.",
+  "tier": "Core",
   "map": "maps/puebloans-chaco-regional-system.png",
   "map_asked": true,
   "checks": {

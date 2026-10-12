@@ -15,7 +15,8 @@
       "latest": 721,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -80,6 +81,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A barbarian kingdom that occupied what is now southwestern France and the Iberian Peninsula from the 5th to the 8th century.",
+  "tier": "Core",
   "map": "maps/visigothic-kingdom.png",
   "map_asked": true,
   "checks": {

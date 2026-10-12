@@ -1,0 +1,70 @@
+{
+  "id": "Q237234",
+  "slug": "kingdom-of-osroene",
+  "name": "Kingdom of Osroene",
+  "wikipedia": "Osroene",
+  "map_year": 165,
+  "period": {
+    "start": {
+      "earliest": -132,
+      "latest": -132,
+      "circa": false
+    },
+    "end": {
+      "earliest": 214,
+      "latest": 214,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Edessa",
+      "location": [
+        38.7825,
+        37.15
+      ],
+      "founded": -302
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Syria",
+    "Turkey"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An ancient kingdom and region in Upper Mesopotamia.",
+  "tier": "Extended",
+  "map": "maps/kingdom-of-osroene.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Edessa"
+      ],
+      "infobox": [
+        "Edessa",
+        "Urfa"
+      ]
+    },
+    "cliopatria_years": [
+      -63,
+      214
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Edessa",
+    "labelled": [
+      "Roman Empire",
+      "Parthian Empire",
+      "Kingdom of Gordyene",
+      "Kingdom of Adiabene",
+      "Kingdom of Armenia"
+    ]
+  }
+}

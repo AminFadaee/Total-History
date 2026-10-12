@@ -15,7 +15,8 @@
       "latest": 1659,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,8 +37,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q9592784",
-      "name": "Ahmad al-Abbas"
+      "id": "Q1951892",
+      "name": "Mohammed al-Shaykh"
+    },
+    {
+      "id": "Q334768",
+      "name": "Abu Abdallah Muhammad II Saadi"
+    },
+    {
+      "id": "Q335118",
+      "name": "Abu Marwan Abd al-Malik I Saadi"
+    },
+    {
+      "id": "Q400911",
+      "name": "Ahmad al-Mansur"
     }
   ],
   "modern_countries": [
@@ -47,6 +60,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A state which ruled present-day Morocco and parts of Northwest Africa in the 16th and 17th centuries.",
+  "tier": "Core",
   "map": "maps/saadi-sultanate.png",
   "map_asked": true,
   "checks": {

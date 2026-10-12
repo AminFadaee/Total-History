@@ -15,7 +15,8 @@
       "latest": 1662,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,16 +41,16 @@
   },
   "rulers": [
     {
-      "id": "Q1352743",
-      "name": "Hongguang Emperor"
-    },
-    {
       "id": "Q45697",
       "name": "Longwu Emperor"
     },
     {
       "id": "Q1046002",
       "name": "Shaowu Emperor"
+    },
+    {
+      "id": "Q1352743",
+      "name": "Hongguang Emperor"
     },
     {
       "id": "Q1326844",
@@ -61,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An imperial dynasty of China and a series of rump states of the Ming dynasty that came into existence following the Jiashen Incident of 1644.",
+  "tier": "Extended",
   "map": "maps/southern-ming.png",
   "map_asked": true,
   "checks": {

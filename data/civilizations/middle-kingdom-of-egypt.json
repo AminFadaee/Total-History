@@ -15,7 +15,8 @@
       "latest": -1782,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -38,12 +39,19 @@
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q18771",
+      "name": "Amenemhat I"
+    }
+  ],
   "modern_countries": [
     "Egypt"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The period in the history of ancient Egypt following a period of political division known as the First Intermediate Period.",
+  "tier": "Core",
   "map": "maps/middle-kingdom-of-egypt.png",
   "map_asked": true,
   "checks": {

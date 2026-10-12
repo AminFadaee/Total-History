@@ -15,7 +15,8 @@
       "latest": 1948,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -37,15 +38,15 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q668",
+    "region": "India",
+    "name": "Republic of India"
+  },
   "rulers": [
     {
       "id": "Q29896",
       "name": "Nizam-ul-Mulk, Asaf Jah I"
-    },
-    {
-      "id": "Q468298",
-      "name": "Mir Osman Ali Khan"
     }
   ],
   "modern_countries": [
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A princely state in the Deccan region of south-central India with its capital at the city of Hyderabad.",
+  "tier": "Core",
   "map": "maps/hyderabad-state.png",
   "map_asked": true,
   "checks": {

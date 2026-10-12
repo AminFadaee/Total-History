@@ -15,7 +15,8 @@
       "latest": -256,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,12 +41,20 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q1193397",
-      "name": "King You of Zhou"
+      "id": "Q698909",
+      "name": "King Wen of Zhou"
     },
     {
-      "id": "Q1193546",
-      "name": "King Ping of Zhou"
+      "id": "Q388766",
+      "name": "King Cheng of Zhou"
+    },
+    {
+      "id": "Q1193439",
+      "name": "King Mu of Zhou"
+    },
+    {
+      "id": "Q1193397",
+      "name": "King You of Zhou"
     }
   ],
   "modern_countries": [
@@ -53,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A royal dynasty of China that existed for 790 years from c. 1046 BC until 256 BC, the longest span of any dynasty in Chinese history.",
+  "tier": "Core",
   "map": "maps/zhou-dynasty.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1333,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,10 +37,6 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q316658",
-      "name": "Emperor Go-Toba"
-    },
-    {
       "id": "Q313942",
       "name": "Emperor Go-Daigo"
     }
@@ -49,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The feudal military government of Japan during the Kamakura period from 1185 to 1333.",
+  "tier": "Core",
   "map": "maps/kamakura-shogunate.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1816,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -46,14 +47,6 @@
     {
       "id": "Q311861",
       "name": "Charles III of Naples"
-    },
-    {
-      "id": "Q36234",
-      "name": "Charles III of Spain"
-    },
-    {
-      "id": "Q7726",
-      "name": "Joseph Bonaparte"
     }
   ],
   "modern_countries": [
@@ -61,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A state that ruled the part of the Italian Peninsula south of the Papal States between 1282 and 1816.",
+  "tier": "Core",
   "map": "maps/kingdom-of-naples.png",
   "map_asked": true,
   "checks": {

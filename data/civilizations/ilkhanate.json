@@ -15,7 +15,8 @@
       "latest": 1335,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -72,6 +73,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Mongol khanate founded in the southwestern territories of the Mongol Empire.",
+  "tier": "Core",
   "map": "maps/ilkhanate.png",
   "map_asked": true,
   "checks": {

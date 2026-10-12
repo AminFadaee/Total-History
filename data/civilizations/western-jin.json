@@ -15,7 +15,8 @@
       "latest": 420,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,14 +43,6 @@
     {
       "id": "Q7356",
       "name": "Emperor Wu of Jin"
-    },
-    {
-      "id": "Q7392",
-      "name": "Emperor Yuan of Jin"
-    },
-    {
-      "id": "Q7404",
-      "name": "Emperor Gong of Jin"
     }
   ],
   "modern_countries": [
@@ -57,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An imperial dynasty in China that existed from 266 to 420 CE. It was founded by Sima Yan, posthumously known as Emperor Wu of Jin, who previously served as the regent of the Cao Wei dynasty.",
+  "tier": "Core",
   "map": "maps/western-jin.png",
   "map_asked": true,
   "checks": {

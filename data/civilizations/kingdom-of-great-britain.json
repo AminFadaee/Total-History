@@ -15,7 +15,8 @@
       "latest": 1800,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -62,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A sovereign state in Western Europe from 1707 to the end of 1800.",
+  "tier": "Core",
   "map": "maps/kingdom-of-great-britain.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1960,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -63,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Belgian colony in Central Africa from 1908 until independence in 1960.",
+  "tier": "Core",
   "map": "maps/belgian-congo.png",
   "map_asked": true,
   "checks": {

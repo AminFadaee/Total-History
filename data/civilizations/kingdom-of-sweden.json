@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -48,6 +49,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Nordic country located on the Scandinavian Peninsula in Northern Europe.",
+  "tier": "Core",
   "map": "maps/kingdom-of-sweden.png",
   "map_asked": true,
   "checks": {

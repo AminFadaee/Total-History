@@ -15,7 +15,8 @@
       "latest": 1368,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -49,20 +50,16 @@
   },
   "rulers": [
     {
-      "id": "Q7521",
-      "name": "Möngke Khan"
+      "id": "Q720",
+      "name": "Genghis Khan"
+    },
+    {
+      "id": "Q7519",
+      "name": "Ögedei Khan"
     },
     {
       "id": "Q7523",
       "name": "Kublai Khan"
-    },
-    {
-      "id": "Q8468",
-      "name": "Temür Khan"
-    },
-    {
-      "id": "Q8666",
-      "name": "Toghon Temür"
     }
   ],
   "modern_countries": [
@@ -91,6 +88,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The largest contiguous empire in history.",
+  "tier": "Core",
   "map": "maps/mongol-empire.png",
   "map_asked": true,
   "checks": {

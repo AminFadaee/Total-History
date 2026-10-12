@@ -15,7 +15,8 @@
       "latest": 651,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -87,6 +88,8 @@
     "Yemen"
   ],
   "borders": true,
+  "summary": "An Iranian empire that was founded and ruled by the House of Sasan from 224 to 651 AD. Lasting for over four centuries, the length of the Sasanian dynasty's reign over ancient Iran was second only to that of the Arsacid dynasty of Parthia which immediately preceded it.",
+  "tier": "Core",
   "map": "maps/sasanian-empire.png",
   "map_asked": true,
   "checks": {

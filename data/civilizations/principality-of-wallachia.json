@@ -15,7 +15,8 @@
       "latest": 1862,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,15 +30,19 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q958291",
+    "region": "Romania",
+    "name": "United Principalities of Moldavia and Wallachia"
+  },
   "rulers": [
     {
-      "id": "Q1093958",
-      "name": "Radu Negru"
+      "id": "Q380330",
+      "name": "Vlad II Dracul"
     },
     {
-      "id": "Q294832",
-      "name": "Alexandru Ioan Cuza"
+      "id": "Q43715",
+      "name": "Vlad the Impaler"
     }
   ],
   "modern_countries": [
@@ -45,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A geographical region of modern-day Romania, as well as one of the two historical Romanian principalities that laid the foundation for the establishment of the modern Romanian state.",
+  "tier": "Core",
   "map": "maps/principality-of-wallachia.png",
   "map_asked": true,
   "checks": {

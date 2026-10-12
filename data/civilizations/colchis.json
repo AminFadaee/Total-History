@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -29,6 +30,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An exonym for the Georgian polity of Egrisi located on the eastern coast of the Black Sea, centered in present-day western Georgia also including the region of Abkhazia.",
+  "tier": "Core",
   "map": "maps/colchis.png",
   "map_asked": true,
   "checks": {

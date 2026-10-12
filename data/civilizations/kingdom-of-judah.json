@@ -15,7 +15,8 @@
       "latest": -587,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -28,24 +29,28 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q3185305",
+    "region": "Palestine",
+    "name": "Kingdom of Israel"
+  },
   "after": {},
   "rulers": [
     {
-      "id": "Q211663",
-      "name": "Rehoboam"
+      "id": "Q30914",
+      "name": "Ahaz"
     },
     {
-      "id": "Q313415",
-      "name": "Asa of Judah"
+      "id": "Q313423",
+      "name": "Amon of Judah"
     },
     {
-      "id": "Q244912",
-      "name": "Hezekiah"
+      "id": "Q319034",
+      "name": "Jehoiakim"
     },
     {
-      "id": "Q313228",
-      "name": "Josiah"
+      "id": "Q319049",
+      "name": "Jeconiah"
     }
   ],
   "modern_countries": [
@@ -55,6 +60,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Israelite kingdom of the Southern Levant during the Iron Age.",
+  "tier": "Core",
   "map": "maps/kingdom-of-judah.png",
   "map_asked": true,
   "checks": {

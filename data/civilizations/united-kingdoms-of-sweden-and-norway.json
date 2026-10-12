@@ -15,7 +15,8 @@
       "latest": 1905,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -43,24 +44,12 @@
   },
   "rulers": [
     {
-      "id": "Q52928",
-      "name": "Charles XIII"
-    },
-    {
-      "id": "Q52927",
-      "name": "Charles XIV John"
-    },
-    {
       "id": "Q52926",
       "name": "Oscar I of Sweden"
     },
     {
       "id": "Q52925",
       "name": "Charles XV"
-    },
-    {
-      "id": "Q52924",
-      "name": "Oscar II"
     }
   ],
   "modern_countries": [
@@ -69,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A personal union of the separate kingdoms of Sweden and Norway under a common monarch and common foreign policy that lasted from 1814 until its peaceful dissolution in 1905.",
+  "tier": "Core",
   "map": "maps/united-kingdoms-of-sweden-and-norway.png",
   "map_asked": true,
   "checks": {

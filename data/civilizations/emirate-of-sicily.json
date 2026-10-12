@@ -15,7 +15,8 @@
       "latest": 1091,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -37,6 +38,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "Under Islamic rule from the late ninth to the late eleventh centuries.",
+  "tier": "Core",
   "map": "maps/emirate-of-sicily.png",
   "map_asked": true,
   "checks": {

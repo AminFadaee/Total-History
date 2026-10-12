@@ -15,7 +15,8 @@
       "latest": 1946,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -49,23 +50,27 @@
     "region": "Italy",
     "name": "Kingdom of Sardinia"
   },
-  "after": {},
+  "after": {
+    "id": "Q38",
+    "region": "Italy",
+    "name": "Republic of Italy"
+  },
   "rulers": [
     {
-      "id": "Q131098512",
-      "name": "Giuseppe Gatti"
+      "id": "Q168691",
+      "name": "Victor Emmanuel II"
     },
     {
-      "id": "Q141595025",
-      "name": "Giocondo Giuntoli"
+      "id": "Q153688",
+      "name": "Umberto I of Italy"
     },
     {
-      "id": "Q61914136",
-      "name": "Giuseppe Cerutti"
+      "id": "Q150642",
+      "name": "Victor Emmanuel III"
     },
     {
-      "id": "Q141440569",
-      "name": "Ignazio Genuardi"
+      "id": "Q23559",
+      "name": "Benito Mussolini"
     }
   ],
   "modern_countries": [
@@ -80,6 +85,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A unitary state that existed from 17 March 1861, when Victor Emmanuel II, King of Sardinia, was proclaimed King of Italy, until 18 June 1946, when the monarchy was abolished, following civil discontent that led to an institutional referendum on 2 June, resulting in the establishment of the modern Italian Republic.",
+  "tier": "Core",
   "map": "maps/kingdom-of-italy.png",
   "map_asked": true,
   "checks": {

@@ -1,0 +1,84 @@
+{
+  "id": "Q273025",
+  "slug": "gallic-empire",
+  "name": "Gallic Empire",
+  "wikipedia": "Gallic Empire",
+  "map_year": 270,
+  "period": {
+    "start": {
+      "earliest": 260,
+      "latest": 260,
+      "circa": false
+    },
+    "end": {
+      "earliest": 274,
+      "latest": 274,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Colonia Claudia Ara Agrippinensium",
+      "location": [
+        6.9569444444444,
+        50.938055555556
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q2277",
+    "region": "Germany",
+    "name": "Roman Empire"
+  },
+  "after": {
+    "id": "Q2277",
+    "region": "Germany",
+    "name": "Roman Empire"
+  },
+  "rulers": [
+    {
+      "id": "Q312672",
+      "name": "Tetricus I"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "United Kingdom",
+    "Belgium",
+    "Luxembourg"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "It originated during the Crisis of the Third Century, when a series of Roman military leaders and aristocrats declared themselves emperors and took control of Gaul and adjacent provinces without attempting to conquer Italy or otherwise seize the central Roman administrative apparatus.",
+  "tier": "Core",
+  "map": "maps/gallic-empire.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Cologne"
+      ],
+      "infobox": [
+        "Colonia Claudia Ara Agrippinensium",
+        "Cologne",
+        "Augusta Treverorum",
+        "Trier"
+      ]
+    },
+    "cliopatria_years": [
+      261,
+      282
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Colonia Claudia Ara Agrippinensium",
+    "labelled": [
+      "Roman Empire",
+      "Gothia"
+    ]
+  }
+}

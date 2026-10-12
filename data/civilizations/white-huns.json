@@ -11,7 +11,11 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      400,
+      600
+    ]
   },
   "capitals": [
     {
@@ -51,6 +55,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A people who lived in Central Asia during the 5th to 8th centuries CE, and were a part of what numismatist Robert Göbl calls Iranian Huns.",
+  "tier": "Core",
   "map": "maps/white-huns.png",
   "map_asked": true,
   "checks": {

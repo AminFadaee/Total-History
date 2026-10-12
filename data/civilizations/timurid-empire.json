@@ -15,7 +15,8 @@
       "latest": 1507,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,12 +45,12 @@
   },
   "rulers": [
     {
-      "id": "Q8462",
-      "name": "Timur"
+      "id": "Q486088",
+      "name": "Ulugh Beg"
     },
     {
-      "id": "Q1136595",
-      "name": "Badi' al-Zaman Mirza"
+      "id": "Q1192519",
+      "name": "Abu Sa'id Mirza"
     }
   ],
   "modern_countries": [
@@ -66,6 +67,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A late medieval Turco-Mongol, culturally Persianate, Muslim empire that dominated Greater Iran in the early 15th century, comprising modern-day Iran, Iraq, Afghanistan, much of Central Asia, the South Caucasus, and parts of contemporary Pakistan, North India, and Turkey.",
+  "tier": "Core",
   "map": "maps/timurid-empire.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 706,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -51,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Chinese designation for the vassal of the kingdom of Funan preceding the Khmer Empire that existed from around the late 6th to the early 9th century in Indochina.",
+  "tier": "Core",
   "map": "maps/chenla.png",
   "map_asked": true,
   "checks": {

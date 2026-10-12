@@ -15,7 +15,8 @@
       "latest": 924,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -39,6 +40,14 @@
       "location": [
         -6.1138664,
         43.4896744
+      ],
+      "founded": null
+    },
+    {
+      "name": "Oviedo",
+      "location": [
+        -5.8502777777778,
+        43.3625
       ],
       "founded": null
     }
@@ -78,6 +87,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A medieval monarchy in the Iberian Peninsula founded by the nobleman Pelagius.",
+  "tier": "Core",
   "map": "maps/kingdom-of-asturias.png",
   "map_asked": true,
   "checks": {

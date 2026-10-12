@@ -15,7 +15,8 @@
       "latest": 897,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,6 +37,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The dynasty rose to prominence after the downfall of the Satavahana Empire, whom they had formerly served as feudatories.",
+  "tier": "Core",
   "map": "maps/late-pallava-empire.png",
   "map_asked": true,
   "checks": {

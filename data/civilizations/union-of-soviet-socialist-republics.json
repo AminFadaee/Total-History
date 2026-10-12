@@ -3,7 +3,7 @@
   "slug": "union-of-soviet-socialist-republics",
   "name": "Union of Soviet Socialist Republics",
   "wikipedia": "Soviet Union",
-  "map_year": 1946,
+  "map_year": 1940,
   "period": {
     "start": {
       "earliest": 1922,
@@ -15,7 +15,8 @@
       "latest": 1991,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,23 +30,19 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q159",
+    "region": "Russia",
+    "name": "Russian Federation"
+  },
   "rulers": [
     {
-      "id": "Q2620906",
-      "name": "Grigory Petrovsky"
+      "id": "Q1394",
+      "name": "Vladimir Lenin"
     },
     {
       "id": "Q855",
       "name": "Joseph Stalin"
-    },
-    {
-      "id": "Q229828",
-      "name": "Mikhail Kalinin"
-    },
-    {
-      "id": "Q1285663",
-      "name": "Justas Paleckis"
     }
   ],
   "modern_countries": [
@@ -55,26 +52,21 @@
     "Ukraine",
     "Turkmenistan",
     "Uzbekistan",
-    "Poland",
-    "Romania",
     "Belarus",
     "Kyrgyzstan",
     "Tajikistan",
-    "North Korea",
-    "Bulgaria",
-    "Hungary",
     "Azerbaijan",
-    "Czechia",
     "Georgia",
-    "Lithuania",
     "Latvia",
-    "Slovakia",
+    "Lithuania",
     "Estonia",
     "Moldova",
     "Armenia"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991.",
+  "tier": "Core",
   "map": "maps/union-of-soviet-socialist-republics.png",
   "map_asked": true,
   "checks": {
@@ -94,17 +86,18 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Moscow",
     "labelled": [
+      "British Raj",
       "Republic of China",
-      "Mongolian People's Republic",
+      "Empire of Japan",
       "Pahlavi Dynasty",
+      "Mongolian People's Republic",
+      "Nazi Germany",
       "Republic of Turkey",
       "French colonial empire",
-      "British Raj",
-      "British Africa",
-      "Denmark",
+      "Italian Africa",
       "Kingdom of Saudi Arabia",
-      "British Gold Coast",
-      "Tibet"
+      "Greenland",
+      "British Gold Coast"
     ]
   }
 }

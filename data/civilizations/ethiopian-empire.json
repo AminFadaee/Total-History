@@ -15,7 +15,8 @@
       "latest": 1974,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,8 +45,16 @@
   },
   "rulers": [
     {
-      "id": "Q888003",
-      "name": "Yekuno Amlak"
+      "id": "Q262589",
+      "name": "Tewodros II"
+    },
+    {
+      "id": "Q244748",
+      "name": "Menelik II"
+    },
+    {
+      "id": "Q148524",
+      "name": "Zewditu"
     },
     {
       "id": "Q41178",
@@ -57,6 +66,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country that encompassed the present-day territories of Ethiopia and Eritrea.",
+  "tier": "Core",
   "map": "maps/ethiopian-empire.png",
   "map_asked": true,
   "checks": {

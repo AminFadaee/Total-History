@@ -15,7 +15,8 @@
       "latest": 375,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -64,8 +65,8 @@
   },
   "rulers": [
     {
-      "id": "Q560157",
-      "name": "Kujula Kadphises"
+      "id": "Q312544",
+      "name": "Kanishka"
     }
   ],
   "modern_countries": [
@@ -78,6 +79,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A syncretic empire formed by the Yuezhi in the early 1st century CE. Initially based in the Bactrian territories, it spread to encompass much of what is now Afghanistan, India, Pakistan, Tajikistan, Turkmenistan and Uzbekistan.",
+  "tier": "Core",
   "map": "maps/kushan-empire.png",
   "map_asked": true,
   "checks": {

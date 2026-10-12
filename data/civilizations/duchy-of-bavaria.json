@@ -1,0 +1,111 @@
+{
+  "id": "Q47261",
+  "slug": "duchy-of-bavaria",
+  "name": "Duchy of Bavaria",
+  "wikipedia": "Duchy of Bavaria",
+  "map_year": 1352,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1805,
+      "latest": 1805,
+      "circa": false
+    },
+    "confirmed": false,
+    "core": [
+      1200,
+      1900
+    ]
+  },
+  "capitals": [
+    {
+      "name": "Regensburg",
+      "location": [
+        12.083333333333334,
+        49.016666666666666
+      ],
+      "founded": null
+    },
+    {
+      "name": "Munich",
+      "location": [
+        11.575,
+        48.1375
+      ],
+      "founded": 1158
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q61467",
+      "name": "Louis II, Duke of Bavaria"
+    },
+    {
+      "id": "Q60907",
+      "name": "Albert V of Bavaria"
+    },
+    {
+      "id": "Q60568",
+      "name": "William V of Bavaria"
+    },
+    {
+      "id": "Q57206",
+      "name": "Maximilian I, Elector of Bavaria"
+    }
+  ],
+  "modern_countries": [
+    "Germany",
+    "Poland",
+    "Austria",
+    "Italy"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A frontier region in the southeastern part of the Merovingian kingdom from the sixth through the eighth century.",
+  "tier": "Extended",
+  "map": "maps/duchy-of-bavaria.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Regensburg",
+        "Munich"
+      ],
+      "infobox": [
+        "Regensburg",
+        "Munich"
+      ]
+    },
+    "cliopatria_years": [
+      1260,
+      1805
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Munich",
+    "labelled": [
+      "Holy Roman Empire",
+      "Kingdom of Poland",
+      "Kingdom of Bohemia",
+      "House of Habsburg",
+      "Teutonic Order",
+      "House of Ascania",
+      "Kingdom of Hungary",
+      "Grand Duchy of Lithuania",
+      "Kingdom of France",
+      "Kingdom of England",
+      "Principality of Wallachia",
+      "Kingdom of Denmark",
+      "Banate of Bosnia",
+      "Duchy of Brittany",
+      "Capetian House of Anjou",
+      "County of Flanders",
+      "Kingdom of Arles",
+      "House of Bourbon",
+      "County of Savoy"
+    ]
+  }
+}

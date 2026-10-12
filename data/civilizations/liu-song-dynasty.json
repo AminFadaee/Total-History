@@ -15,7 +15,8 @@
       "latest": 479,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -54,10 +55,6 @@
     {
       "id": "Q717946",
       "name": "Latter Deposed Emperor of Liu Song"
-    },
-    {
-      "id": "Q718210",
-      "name": "Emperor Shun of Song"
     }
   ],
   "modern_countries": [
@@ -65,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An imperial dynasty of China and the first of the four Southern dynasties during the Northern and Southern dynasties period.",
+  "tier": "Extended",
   "map": "maps/liu-song-dynasty.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1949,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -49,7 +50,11 @@
     "region": "China",
     "name": "Qing Dynasty"
   },
-  "after": {},
+  "after": {
+    "id": "Q148",
+    "region": "China",
+    "name": "People's Republic of China"
+  },
   "rulers": [
     {
       "id": "Q8573",
@@ -62,10 +67,6 @@
     {
       "id": "Q16574",
       "name": "Chiang Kai-shek"
-    },
-    {
-      "id": "Q704276",
-      "name": "Chen Gongbo"
     }
   ],
   "modern_countries": [
@@ -73,6 +74,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Beiyang government in Beijing was the internationally recognized government of the ROC from 1912 to 1928, with regional warlords occupying parts of the country after the death of Beiyang leader Yuan Shikai in 1916.",
+  "tier": "Core",
   "map": "maps/republic-of-china.png",
   "map_asked": true,
   "checks": {

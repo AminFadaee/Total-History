@@ -15,7 +15,8 @@
       "latest": 1879,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,20 +33,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q1372130",
-      "name": "Shō Hashi"
-    },
-    {
       "id": "Q907317",
       "name": "Shō Nei"
     },
     {
       "id": "Q1372454",
       "name": "Shō Tai"
-    },
-    {
-      "id": "Q281765",
-      "name": "Shō Shin"
     }
   ],
   "modern_countries": [
@@ -53,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A kingdom in the Ryukyu Islands from 1429 until 1872, when it was reorganized as the Ryukyu Domain, before being fully abolished in 1879.",
+  "tier": "Core",
   "map": "maps/ryukyu-kingdom.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1758,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -41,22 +42,6 @@
     {
       "id": "Q1398132",
       "name": "Tsewang Rabtan Khan"
-    },
-    {
-      "id": "Q981162",
-      "name": "Galdan Tseren Khan"
-    },
-    {
-      "id": "Q5359620",
-      "name": "Tsewang Dorji Namjal"
-    },
-    {
-      "id": "Q4253444",
-      "name": "Lama Dorji"
-    },
-    {
-      "id": "Q1047025",
-      "name": "Dawachi"
     }
   ],
   "modern_countries": [
@@ -67,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The last nomadic empire of Oirat origin.",
+  "tier": "Core",
   "map": "maps/dzungar-khanate.png",
   "map_asked": true,
   "checks": {

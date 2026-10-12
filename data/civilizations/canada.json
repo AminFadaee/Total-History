@@ -1,0 +1,69 @@
+{
+  "id": "Q16",
+  "slug": "canada",
+  "name": "Canada",
+  "wikipedia": "Canada",
+  "map_year": 1932,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Ottawa",
+      "location": [
+        -75.695,
+        45.424722222222
+      ],
+      "founded": 1855
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q269412",
+      "name": "George V"
+    },
+    {
+      "id": "Q280856",
+      "name": "George VI"
+    },
+    {
+      "id": "Q590227",
+      "name": "Edward VIII"
+    }
+  ],
+  "modern_countries": [
+    "Canada"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A country in North America.",
+  "tier": "Core",
+  "map": "maps/canada.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ottawa"
+      ],
+      "infobox": [
+        "Ottawa"
+      ]
+    },
+    "cliopatria_years": [
+      1932,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ottawa",
+    "labelled": [
+      "United States of America"
+    ]
+  }
+}

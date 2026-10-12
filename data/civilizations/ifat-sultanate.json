@@ -1,0 +1,75 @@
+{
+  "id": "Q157727",
+  "slug": "ifat-sultanate",
+  "name": "Ifat Sultanate",
+  "wikipedia": "Sultanate of Ifat",
+  "map_year": 1285,
+  "period": {
+    "start": {
+      "earliest": 1275,
+      "latest": 1275,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1403,
+      "latest": 1403,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Zeila",
+      "location": [
+        43.473888888889,
+        11.353888888889
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q2365048",
+    "region": "Djibouti",
+    "name": "Adal Sultanate"
+  },
+  "rulers": [
+    {
+      "id": "Q7395425",
+      "name": "Sa'ad ad-Din II"
+    }
+  ],
+  "modern_countries": [
+    "Ethiopia",
+    "Djibouti"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A medieval Sunni Muslim state in the eastern regions of the Horn of Africa between the late 13th century and early 15th century.",
+  "tier": "Extended",
+  "map": "maps/ifat-sultanate.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Zeila"
+      ],
+      "infobox": [
+        "Ifat",
+        "Zeila"
+      ]
+    },
+    "cliopatria_years": [
+      1285,
+      1414
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Zeila",
+    "labelled": [
+      "Ethiopian Empire"
+    ]
+  }
+}

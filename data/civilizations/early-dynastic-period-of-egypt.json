@@ -15,7 +15,8 @@
       "latest": -2686,
       "circa": true
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The era of ancient Egypt that immediately follows the unification of Upper and Lower Egypt in c. 3150 BC. It is generally taken to include the First Dynasty and the Second Dynasty, lasting from the end of the archaeological culture of Naqada III until c. 2686 BC, or the beginning of the Old Kingdom.",
+  "tier": "Core",
   "map": "maps/early-dynastic-period-of-egypt.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1806,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -48,6 +49,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A colony of the Dutch East India Company and Batavian Republic in Southern Africa.",
+  "tier": "Core",
   "map": "maps/dutch-cape-colony.png",
   "map_asked": true,
   "checks": {

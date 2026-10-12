@@ -15,11 +15,16 @@
       "latest": 954,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q506008",
+    "region": "United Kingdom",
+    "name": "Kingdom of Deira"
+  },
   "after": {
     "id": "Q179876",
     "region": "United Kingdom",
@@ -48,6 +53,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An early medieval English kingdom, existing between 654 and 1066 AD, at its height spanning modern-day Northern England and Southern Scotland.",
+  "tier": "Core",
   "map": "maps/kingdom-of-northumbria.png",
   "map_asked": true,
   "checks": {

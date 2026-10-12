@@ -1,0 +1,68 @@
+{
+  "id": "Q7703611",
+  "slug": "duchy-of-aquitaine",
+  "name": "Duchy of Aquitaine",
+  "wikipedia": "Duchy of Aquitaine",
+  "map_year": 1085,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1453,
+      "latest": 1453,
+      "circa": false
+    },
+    "confirmed": false,
+    "core": [
+      900,
+      1500
+    ]
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q178525",
+      "name": "Eleanor of Aquitaine"
+    }
+  ],
+  "modern_countries": [
+    "France"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A historical fiefdom located in the western, central, and southern areas of present-day France, south of the river Loire.",
+  "tier": "Extended",
+  "map": "maps/duchy-of-aquitaine.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Toulouse"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      990,
+      1439
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "Holy Roman Empire",
+      "Kingdom of Castile",
+      "County of Toulouse",
+      "Duchy of Brittany",
+      "County of Blôis",
+      "Kingdom of Aragon",
+      "Kingdom of Arles",
+      "County of Anjou",
+      "Taifa of Zaragoza",
+      "Republic of Pisa",
+      "County of Barcelona",
+      "County of Rosellón"
+    ]
+  }
+}

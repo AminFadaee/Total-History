@@ -15,7 +15,8 @@
       "latest": 1921,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -45,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A state in the northern part of the Arabian Peninsula, including Najd, existing from the mid-nineteenth century to 1921.",
+  "tier": "Extended",
   "map": "maps/emirate-of-jabal-shammar.png",
   "map_asked": true,
   "checks": {

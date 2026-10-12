@@ -15,7 +15,8 @@
       "latest": 1752,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -56,24 +57,16 @@
       "name": "Mingyi Nyo"
     },
     {
-      "id": "Q981475",
-      "name": "Tabinshwehti"
-    },
-    {
       "id": "Q470984",
       "name": "Bayinnaung"
     },
     {
-      "id": "Q3056673",
-      "name": "Nyaungyan Min"
+      "id": "Q981475",
+      "name": "Tabinshwehti"
     },
     {
       "id": "Q488485",
       "name": "Anaukpetlun"
-    },
-    {
-      "id": "Q3056671",
-      "name": "Mahadhammaraza Dipadi"
     }
   ],
   "modern_countries": [
@@ -84,6 +77,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The ruling dynasty of Burma from the mid-16th century to 1752.",
+  "tier": "Core",
   "map": "maps/toungoo-dynasty.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1903,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,8 +53,8 @@
       "name": "Usman dan Fodio"
     },
     {
-      "id": "Q6932914",
-      "name": "Muhammadu Attahiru I"
+      "id": "Q608989",
+      "name": "Muhammed Bello"
     }
   ],
   "modern_countries": [
@@ -63,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Sunni Muslim caliphate in West Africa.",
+  "tier": "Core",
   "map": "maps/sokoto-caliphate.png",
   "map_asked": true,
   "checks": {

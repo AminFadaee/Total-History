@@ -15,7 +15,8 @@
       "latest": 1999,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,15 +41,16 @@
   ],
   "modern_countries": [
     "Brazil",
-    "Uruguay"
-  ],
-  "overseas_countries": [
+    "Uruguay",
     "East Timor",
     "Cabo Verde",
     "São Tomé and Principe",
-    "Macao"
+    "China"
   ],
+  "overseas_countries": [],
   "borders": true,
+  "summary": "The first and longest lasting of the European colonial empires.",
+  "tier": "Core",
   "map": "maps/portuguese-empire.png",
   "map_asked": true,
   "checks": {
@@ -69,9 +71,14 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Spanish Empire",
-      "Río de la Plata",
-      "New Granada"
+      "Bourbon Kingdom of France",
+      "Sokoto Caliphate",
+      "Kingdom of Spain",
+      "Morocco",
+      "Austrian Empire",
+      "Wadai Empire",
+      "Regency of Algiers",
+      "Ashanti Empire"
     ]
   }
 }

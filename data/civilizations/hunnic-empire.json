@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -15,36 +16,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q810006",
-      "name": "Basich"
-    },
-    {
-      "id": "Q250444",
-      "name": "Charaton"
-    },
-    {
-      "id": "Q1085718",
-      "name": "Octar"
-    },
-    {
-      "id": "Q334273",
-      "name": "Rugila"
-    },
-    {
       "id": "Q36724",
       "name": "Attila"
-    },
-    {
-      "id": "Q313490",
-      "name": "Bleda"
-    },
-    {
-      "id": "Q530617",
-      "name": "Dengizich"
-    },
-    {
-      "id": "Q554423",
-      "name": "Ernak"
     }
   ],
   "modern_countries": [
@@ -61,6 +34,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A nomadic people who lived in Central Asia, the Caucasus, and Eastern Europe between the 4th and 6th centuries CE. According to European tradition, they were first reported living east of the Volga River, in an area that was part of Scythia at the time.",
+  "tier": "Extended",
   "map": "maps/hunnic-empire.png",
   "map_asked": true,
   "checks": {

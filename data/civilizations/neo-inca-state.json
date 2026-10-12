@@ -3,7 +3,7 @@
   "slug": "neo-inca-state",
   "name": "Neo-Inca State",
   "wikipedia": "Neo-Inca State",
-  "map_year": 1534,
+  "map_year": 1537,
   "period": {
     "start": {
       "earliest": 1537,
@@ -15,7 +15,8 @@
       "latest": 1572,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -46,6 +47,10 @@
     {
       "id": "Q381752",
       "name": "Titu Cusi"
+    },
+    {
+      "id": "Q296269",
+      "name": "Túpac Amaru"
     }
   ],
   "modern_countries": [
@@ -57,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Inca state established in 1537 at Vilcabamba by Manco Inca Yupanqui.",
+  "tier": "Core",
   "map": "maps/neo-inca-state.png",
   "map_asked": true,
   "checks": {

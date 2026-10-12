@@ -1,0 +1,75 @@
+{
+  "id": "Q568523",
+  "slug": "nobatia",
+  "name": "Nobatia",
+  "wikipedia": "Nobatia",
+  "map_year": 647,
+  "period": {
+    "start": {
+      "earliest": 400,
+      "latest": 400,
+      "circa": true
+    },
+    "end": {
+      "earliest": 650,
+      "latest": 650,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Faras",
+      "location": [
+        31.46,
+        22.2
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q829356",
+    "region": "Egypt",
+    "name": "Makuria Kingdom"
+  },
+  "rulers": [
+    {
+      "id": "Q2286259",
+      "name": "Silko"
+    }
+  ],
+  "modern_countries": [
+    "Sudan",
+    "Egypt"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A late antique kingdom in Lower Nubia, modern day southern Egypt.",
+  "tier": "Extended",
+  "map": "maps/nobatia.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Faras"
+      ],
+      "infobox": [
+        "Faras"
+      ]
+    },
+    "cliopatria_years": [
+      400,
+      655
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Faras",
+    "labelled": [
+      "Rashidun Caliphate",
+      "Makuria"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": 1933,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -54,6 +55,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A historical period of the German state from 9 November 1918 to 23 March 1933, during which it was a constitutional republic for the first time in history.",
+  "tier": "Core",
   "map": "maps/weimar-republic.png",
   "map_asked": true,
   "checks": {

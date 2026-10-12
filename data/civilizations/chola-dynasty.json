@@ -15,7 +15,8 @@
       "latest": 1279,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,7 +30,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q844910",
+    "region": "India",
+    "name": "Pandya dynasty"
+  },
   "rulers": [
     {
       "id": "Q7929271",
@@ -54,6 +59,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Tamil dynasty originating from Southern India.",
+  "tier": "Core",
   "map": "maps/chola-dynasty.png",
   "map_asked": true,
   "checks": {

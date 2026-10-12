@@ -12,8 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Netherlands",
   "civilizations": [
-    "South Africa",
-    "Union of South Africa"
+    "South Africa"
   ],
   "related": [],
   "contribution": "A Dutch-born South African politician, academic, and newspaper editor who served as Prime Minister of South Africa from 1958 until his assassination in 1966.",
@@ -26,14 +25,10 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Union of South Africa",
         "South Africa"
       ],
       "death": [
         "South Africa"
-      ],
-      "lead": [
-        "Union of South Africa"
       ],
       "citizenship": [
         "South Africa"

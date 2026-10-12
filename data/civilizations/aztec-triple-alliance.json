@@ -15,7 +15,8 @@
       "latest": 1521,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [
@@ -33,6 +34,14 @@
       "name": "Itzcoatl"
     },
     {
+      "id": "Q13702",
+      "name": "Moctezuma I"
+    },
+    {
+      "id": "Q379964",
+      "name": "Nezahualcoyotl"
+    },
+    {
       "id": "Q297050",
       "name": "Cuauhtémoc"
     }
@@ -42,6 +51,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An alliance of three Nahua city-states: Mexico-Tenochtitlan, Tetzcoco, and Tlacopan.",
+  "tier": "Core",
   "map": "maps/aztec-triple-alliance.png",
   "map_asked": true,
   "checks": {

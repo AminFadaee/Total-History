@@ -15,7 +15,8 @@
       "latest": 1806,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -51,6 +52,8 @@
     "Indonesia"
   ],
   "borders": true,
+  "summary": "The successor state to the Republic of the Seven United Netherlands.",
+  "tier": "Core",
   "map": "maps/batavian-republic.png",
   "map_asked": true,
   "checks": {

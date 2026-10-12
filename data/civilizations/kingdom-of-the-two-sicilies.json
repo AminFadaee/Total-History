@@ -15,7 +15,8 @@
       "latest": 1861,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,18 +51,6 @@
     {
       "id": "Q332717",
       "name": "Ferdinand II of the Two Sicilies"
-    },
-    {
-      "id": "Q312325",
-      "name": "Ferdinand I of the Two Sicilies"
-    },
-    {
-      "id": "Q312305",
-      "name": "Francis I of the Two Sicilies"
-    },
-    {
-      "id": "Q206223",
-      "name": "Francis II of the Two Sicilies"
     }
   ],
   "modern_countries": [
@@ -69,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A kingdom in Southern Italy from 1816 to 1861 under the control of the House of Bourbon-Two Sicilies, a cadet branch of the Bourbons.",
+  "tier": "Core",
   "map": "maps/kingdom-of-the-two-sicilies.png",
   "map_asked": true,
   "checks": {

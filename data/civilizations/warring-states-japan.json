@@ -15,18 +15,26 @@
       "latest": 1590,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q187550",
+      "name": "Toyotomi Hideyoshi"
+    }
+  ],
   "modern_countries": [
     "Japan"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The period in Japanese history in which civil wars and social upheavals took place almost continuously in the 15th and 16th centuries.",
+  "tier": "Core",
   "map": "maps/warring-states-japan.png",
   "map_asked": true,
   "checks": {

@@ -1,0 +1,88 @@
+{
+  "id": "Q630882",
+  "slug": "republic-of-new-granada",
+  "name": "Republic of New Granada",
+  "wikipedia": "Republic of New Granada",
+  "map_year": 1834,
+  "period": {
+    "start": {
+      "earliest": 1831,
+      "latest": 1831,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1858,
+      "latest": 1858,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Bogotá",
+      "location": [
+        -74.08175,
+        4.60971
+      ],
+      "founded": 1538
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q199821",
+    "region": "Colombia",
+    "name": "Gran Colombia"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q1369751",
+      "name": "Domingo Caycedo"
+    },
+    {
+      "id": "Q452017",
+      "name": "Francisco de Paula Santander"
+    },
+    {
+      "id": "Q2838427",
+      "name": "Mariano Ospina Rodríguez"
+    }
+  ],
+  "modern_countries": [
+    "Colombia",
+    "Brazil",
+    "Panama"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A centralist unitary republic consisting primarily of present-day Colombia and Panama with smaller portions of today's Costa Rica, Ecuador, Venezuela, Peru and Brazil that existed from 1831 to 1858.",
+  "tier": "Extended",
+  "map": "maps/republic-of-new-granada.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bogotá"
+      ],
+      "infobox": [
+        "Bogotá"
+      ]
+    },
+    "cliopatria_years": [
+      1834,
+      1858
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bogotá",
+    "labelled": [
+      "Empire of Brazil",
+      "Venezuela",
+      "Republic of Peru",
+      "United Provinces of Central America",
+      "Republic of Ecuador",
+      "Colony of Curaçao and Dependencies"
+    ]
+  }
+}

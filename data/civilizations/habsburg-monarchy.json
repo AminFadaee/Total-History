@@ -11,7 +11,11 @@
       "latest": 1918,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1500,
+      1900
+    ]
   },
   "capitals": [
     {
@@ -46,26 +50,6 @@
     {
       "id": "Q34417",
       "name": "Philip II of Spain"
-    },
-    {
-      "id": "Q150611",
-      "name": "Ferdinand I, Holy Roman Emperor"
-    },
-    {
-      "id": "Q36174",
-      "name": "Charles II of Spain"
-    },
-    {
-      "id": "Q131706",
-      "name": "Maria Theresa"
-    },
-    {
-      "id": "Q76555",
-      "name": "Joseph II, Holy Roman Emperor"
-    },
-    {
-      "id": "Q130834",
-      "name": "Francis II, Holy Roman Emperor"
     }
   ],
   "modern_countries": [
@@ -84,6 +68,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The collection of empires, kingdoms, duchies, counties and other polities that were ruled by the House of Habsburg.",
+  "tier": "Core",
   "map": "maps/habsburg-monarchy.png",
   "map_asked": true,
   "checks": {

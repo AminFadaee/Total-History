@@ -15,7 +15,8 @@
       "latest": 1917,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -72,6 +73,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An empire that extended across northern Eurasia from 1721 until the proclamation of the Russian Republic in 1917, forming the final era of Tsarist Russia and the wider Russian monarchy.",
+  "tier": "Core",
   "map": "maps/russian-empire.png",
   "map_asked": true,
   "checks": {

@@ -1,0 +1,76 @@
+{
+  "id": "Q1078602",
+  "slug": "kingdom-of-nepal",
+  "name": "Kingdom of Nepal",
+  "wikipedia": "Kingdom of Nepal",
+  "map_year": 1814,
+  "period": {
+    "start": {
+      "earliest": 1768,
+      "latest": 1768,
+      "circa": false
+    },
+    "end": {
+      "earliest": 2008,
+      "latest": 2008,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q574450",
+      "name": "Prithvi Narayan Shah"
+    },
+    {
+      "id": "Q2714575",
+      "name": "Rana Bahadur Shah"
+    },
+    {
+      "id": "Q886987",
+      "name": "Prithvi Bir Bikram Shah"
+    },
+    {
+      "id": "Q381928",
+      "name": "Tribhuvan of Nepal"
+    }
+  ],
+  "modern_countries": [
+    "Nepal",
+    "India"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Hindu monarchy in South Asia that existed from 1768 to 2008.",
+  "tier": "Extended",
+  "map": "maps/kingdom-of-nepal.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kathmandu"
+      ],
+      "infobox": [
+        "Kathmandu"
+      ]
+    },
+    "cliopatria_years": [
+      1775,
+      2007
+    ],
+    "identity": "successor on borders Cliopatria gives an earlier name",
+    "home": "the spot held longest",
+    "labelled": [
+      "Qing Dynasty",
+      "British Empire",
+      "Mughal Empire",
+      "Sikh Empire"
+    ]
+  }
+}

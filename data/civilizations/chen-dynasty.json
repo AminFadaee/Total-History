@@ -1,0 +1,82 @@
+{
+  "id": "Q62454",
+  "slug": "chen-dynasty",
+  "name": "Chen Dynasty",
+  "wikipedia": "Chen dynasty",
+  "map_year": 587,
+  "period": {
+    "start": {
+      "earliest": 557,
+      "latest": 557,
+      "circa": false
+    },
+    "end": {
+      "earliest": 589,
+      "latest": 589,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Jiankang",
+      "location": [
+        118.79647,
+        32.05837
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q1069868",
+    "region": "China",
+    "name": "Liang Dynasty"
+  },
+  "after": {
+    "id": "Q7405",
+    "region": "China",
+    "name": "Sui Dynasty"
+  },
+  "rulers": [
+    {
+      "id": "Q712113",
+      "name": "Emperor Wen of Chen"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Chinese imperial dynasty and the fourth and last of the Southern dynasties during the Northern and Southern dynasties period.",
+  "tier": "Extended",
+  "map": "maps/chen-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Jiankang"
+      ],
+      "infobox": [
+        "Jiankang"
+      ]
+    },
+    "cliopatria_years": [
+      561,
+      591
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Jiankang",
+    "labelled": [
+      "Sui Dynasty",
+      "Early Lý Dynasty",
+      "Chenla",
+      "Kamarupa Kingdom",
+      "Asuka Japan",
+      "Pyu City-States"
+    ]
+  }
+}

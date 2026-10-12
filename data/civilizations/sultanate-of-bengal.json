@@ -15,7 +15,8 @@
       "latest": 1576,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -78,6 +79,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A late medieval sultanate based in the Bengal region in eastern South Asia between the 14th and 16th centuries.",
+  "tier": "Core",
   "map": "maps/sultanate-of-bengal.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1646,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,7 +53,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q466581",
+    "region": "India",
+    "name": "Hoysala Kingdom"
+  },
   "after": {
     "id": "Q83821",
     "region": "India",
@@ -60,32 +65,8 @@
   },
   "rulers": [
     {
-      "id": "Q2726068",
-      "name": "Harihara I"
-    },
-    {
-      "id": "Q2484694",
-      "name": "Bukka Raya I"
-    },
-    {
-      "id": "Q2336381",
-      "name": "Deva Raya II"
-    },
-    {
-      "id": "Q1452391",
-      "name": "Saluva Narasimha Deva Raya"
-    },
-    {
       "id": "Q121235",
       "name": "Krishnadevaraya"
-    },
-    {
-      "id": "Q2336272",
-      "name": "Achyuta Deva Raya"
-    },
-    {
-      "id": "Q3535867",
-      "name": "Sriranga III"
     }
   ],
   "modern_countries": [
@@ -93,6 +74,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A late medieval Hindu empire that ruled much of Southern India.",
+  "tier": "Core",
   "map": "maps/vijayanagara-empire.png",
   "map_asked": true,
   "checks": {

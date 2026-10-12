@@ -15,7 +15,8 @@
       "latest": 1432,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -61,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Mongol dynasty which ruled over modern-day Iraq and western Iran after the breakup of the Ilkhanate in the 1330s.",
+  "tier": "Extended",
   "map": "maps/jalayirid-sultanate.png",
   "map_asked": true,
   "checks": {

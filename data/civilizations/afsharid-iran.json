@@ -15,7 +15,8 @@
       "latest": 1796,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,9 +30,9 @@
   ],
   "parts": [],
   "before": {
-    "id": "Q18234383",
+    "id": "Q627449",
     "region": "Iran",
-    "name": "Safavid Dynasty"
+    "name": "Hotaki Dynasty"
   },
   "after": {
     "id": "Q467627",
@@ -39,18 +40,6 @@
     "name": "Durrani Empire"
   },
   "rulers": [
-    {
-      "id": "Q192868",
-      "name": "Nader Shah"
-    },
-    {
-      "id": "Q197881",
-      "name": "Adel Shah"
-    },
-    {
-      "id": "Q197731",
-      "name": "Ebrahim Afshar"
-    },
     {
       "id": "Q197884",
       "name": "Shahrokh Shah"
@@ -68,6 +57,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Iranian empire established by the Turkoman Afshar tribe in Iran's north-eastern province of Khorasan, the Afsharid dynasty would rule over Iran during the mid 18th century.",
+  "tier": "Core",
   "map": "maps/afsharid-iran.png",
   "map_asked": true,
   "checks": {

@@ -12,8 +12,7 @@
   "occupation": "Politician",
   "birth_country": "South Africa",
   "civilizations": [
-    "South Africa",
-    "Union of South Africa"
+    "South Africa"
   ],
   "related": [],
   "contribution": "A South African politician who served as the fifth prime minister of South Africa from 1954 until his death in 1958.",
@@ -26,14 +25,10 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Union of South Africa",
         "South Africa"
       ],
       "death": [
         "South Africa"
-      ],
-      "lead": [
-        "Union of South Africa"
       ],
       "citizenship": [
         "South Africa"

@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -33,6 +34,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A modern exonym for a former state located in ancient times in the Caucasus, mostly overlapping the region of present-day Azerbaijan.",
+  "tier": "Core",
   "map": "maps/caucasian-albania.png",
   "map_asked": true,
   "checks": {

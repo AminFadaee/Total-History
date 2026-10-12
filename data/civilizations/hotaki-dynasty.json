@@ -1,0 +1,93 @@
+{
+  "id": "Q627449",
+  "slug": "hotaki-dynasty",
+  "name": "Hotaki Dynasty",
+  "wikipedia": "Hotak dynasty",
+  "map_year": 1727,
+  "period": {
+    "start": {
+      "earliest": 1709,
+      "latest": 1709,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1738,
+      "latest": 1738,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Kandahar",
+      "location": [
+        65.71588,
+        31.62068
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q18234383",
+    "region": "Afghanistan",
+    "name": "Safavid Dynasty"
+  },
+  "after": {
+    "id": "Q63149558",
+    "region": "Afghanistan",
+    "name": "Afsharid Iran"
+  },
+  "rulers": [
+    {
+      "id": "Q558242",
+      "name": "Mirwais Hotak"
+    },
+    {
+      "id": "Q31494",
+      "name": "Mahmud Hotak"
+    },
+    {
+      "id": "Q562502",
+      "name": "Ashraf Hotak"
+    }
+  ],
+  "modern_countries": [
+    "Iran",
+    "Afghanistan",
+    "Pakistan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An Afghan dynasty founded by Ghilji Pashtuns that briefly ruled parts of Iran and Afghanistan during the 1720s.",
+  "tier": "Extended",
+  "map": "maps/hotaki-dynasty.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kandahar"
+      ],
+      "infobox": [
+        "Kandahar",
+        "Isfahan"
+      ]
+    },
+    "cliopatria_years": [
+      1709,
+      1737
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kandahar",
+    "labelled": [
+      "Mughal Empire",
+      "Ottoman Empire",
+      "Khanate of Bukhara",
+      "Khanate of Khiva",
+      "Yarubid dynasty",
+      "Khanate of Kokand"
+    ]
+  }
+}

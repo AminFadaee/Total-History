@@ -15,7 +15,8 @@
       "latest": -206,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -38,10 +39,6 @@
     {
       "id": "Q7192",
       "name": "Qin Shi Huang"
-    },
-    {
-      "id": "Q7196",
-      "name": "Qin Er Shi"
     }
   ],
   "modern_countries": [
@@ -49,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The first imperial dynasty of China.",
+  "tier": "Core",
   "map": "maps/qin-dynasty.png",
   "map_asked": true,
   "checks": {

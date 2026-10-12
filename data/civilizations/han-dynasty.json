@@ -15,7 +15,8 @@
       "latest": 220,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -64,16 +65,12 @@
       "name": "Emperor Wu of Han"
     },
     {
-      "id": "Q7230",
-      "name": "Emperor Xuan of Han"
-    },
-    {
       "id": "Q7268",
       "name": "Emperor Guangwu of Han"
     },
     {
-      "id": "Q7316",
-      "name": "Emperor Xian of Han"
+      "id": "Q245315",
+      "name": "Liu Bei"
     }
   ],
   "modern_countries": [
@@ -81,6 +78,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An imperial dynasty of China established by Liu Bang, and preceded by the short-lived Qin dynasty and the interregnum known as the Chu–Han Contention.",
+  "tier": "Core",
   "map": "maps/han-dynasty.png",
   "map_asked": true,
   "checks": {

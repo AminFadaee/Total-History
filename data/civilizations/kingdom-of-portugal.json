@@ -15,7 +15,8 @@
       "latest": 1910,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,20 +45,20 @@
   },
   "rulers": [
     {
-      "id": "Q34417",
-      "name": "Philip II of Spain"
+      "id": "Q587697",
+      "name": "Afonso I of Portugal"
+    },
+    {
+      "id": "Q191231",
+      "name": "Manuel I of Portugal"
     },
     {
       "id": "Q34464",
       "name": "Philip III of Spain"
     },
     {
-      "id": "Q691402",
-      "name": "Philip IV of Spain"
-    },
-    {
-      "id": "Q939",
-      "name": "Pedro I of Brazil"
+      "id": "Q151394",
+      "name": "António de Oliveira Salazar"
     }
   ],
   "modern_countries": [
@@ -71,6 +72,8 @@
     "São Tomé and Principe"
   ],
   "borders": true,
+  "summary": "A monarchy in the western Iberian Peninsula and the predecessor of the modern Portuguese Republic.",
+  "tier": "Core",
   "map": "maps/kingdom-of-portugal.png",
   "map_asked": true,
   "checks": {

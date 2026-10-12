@@ -1,0 +1,47 @@
+{
+  "id": "Q849967",
+  "slug": "brythons",
+  "name": "Brythons",
+  "wikipedia": "Celtic Britons",
+  "map_year": 439,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false,
+    "core": null
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "United Kingdom",
+    "France"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "The Celtic people who inhabited Great Britain from at least the British Iron Age until the High Middle Ages, at which point they diverged into the Welsh, Cornish, and Bretons.",
+  "tier": "Extended",
+  "map": "maps/brythons.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      439,
+      1235
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Western Roman Empire",
+      "Salian Franks",
+      "Ripuarian Franks",
+      "Visigothic Kingdom"
+    ]
+  }
+}

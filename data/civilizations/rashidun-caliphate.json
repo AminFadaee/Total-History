@@ -15,7 +15,8 @@
       "latest": 661,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,12 +53,12 @@
       "name": "Umar"
     },
     {
-      "id": "Q39619",
-      "name": "Ali"
+      "id": "Q37731",
+      "name": "Uthman"
     },
     {
-      "id": "Q182914",
-      "name": "Hasan ibn Ali"
+      "id": "Q39619",
+      "name": "Ali"
     }
   ],
   "modern_countries": [
@@ -83,6 +84,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The early Islamic polity led by the first four successive caliphs: Abu Bakr, Umar, Uthman, and Ali, collectively known as the Rashidun, or \"Rightly Guided\" caliphs.",
+  "tier": "Core",
   "map": "maps/rashidun-caliphate.png",
   "map_asked": true,
   "checks": {

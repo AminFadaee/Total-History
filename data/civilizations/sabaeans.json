@@ -15,7 +15,8 @@
       "latest": 275,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -54,6 +55,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient South Arabian kingdom that existed in Yemen before 275 CE. It likely began its existence between c. 1000 BCE and c. 800 BCE. Its inhabitants were the Sabaeans, who, as a people, were indissociable from the kingdom itself for much of the 1st millennium BCE. Modern historians agree that the heartland of the Sabaean civilization was located in the region around Marib and Sirwah.",
+  "tier": "Core",
   "map": "maps/sabaeans.png",
   "map_asked": true,
   "checks": {

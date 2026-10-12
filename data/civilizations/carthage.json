@@ -15,7 +15,8 @@
       "latest": -146,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -43,6 +44,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient civilization based in North Africa.",
+  "tier": "Core",
   "map": "maps/carthage.png",
   "map_asked": true,
   "checks": {

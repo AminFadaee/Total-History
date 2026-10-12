@@ -1,0 +1,73 @@
+{
+  "id": "Q912068",
+  "slug": "wu",
+  "name": "Wu",
+  "wikipedia": "Wu (state)",
+  "map_year": -550,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": -473,
+      "latest": -473,
+      "circa": false
+    },
+    "confirmed": false,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Suzhou",
+      "location": [
+        120.61944444444444,
+        31.3
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A state during the Western Zhou dynasty and the Spring and Autumn period, outside the Zhou cultural sphere.",
+  "tier": "Extended",
+  "map": "maps/wu.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Wu County"
+      ],
+      "infobox": [
+        "Wuxi",
+        "Suzhou",
+        "Jiangsu"
+      ]
+    },
+    "cliopatria_years": [
+      -750,
+      -451
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "home": "Suzhou",
+    "labelled": [
+      "Chu",
+      "Lu",
+      "Song",
+      "Xu",
+      "Qin",
+      "Wey",
+      "Zhu",
+      "Zheng",
+      "Chen",
+      "Teng",
+      "Cao",
+      "Cai"
+    ]
+  }
+}

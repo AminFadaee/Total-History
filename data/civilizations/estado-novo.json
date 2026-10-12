@@ -3,7 +3,7 @@
   "slug": "estado-novo",
   "name": "Estado Novo",
   "wikipedia": "Estado Novo (Portugal)",
-  "map_year": 1958,
+  "map_year": 1933,
   "period": {
     "start": {
       "earliest": 1933,
@@ -15,7 +15,8 @@
       "latest": 1974,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -57,6 +58,8 @@
     "Macao"
   ],
   "borders": true,
+  "summary": "The corporatist Portuguese state installed in 1933.",
+  "tier": "Core",
   "map": "maps/estado-novo.png",
   "map_asked": true,
   "checks": {
@@ -76,7 +79,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Lisbon",
     "labelled": [
-      "Francoist Spain"
+      "Second Spanish Republic"
     ]
   }
 }

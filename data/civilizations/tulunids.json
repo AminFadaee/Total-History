@@ -1,0 +1,96 @@
+{
+  "id": "Q726798",
+  "slug": "tulunids",
+  "name": "Tulunids",
+  "wikipedia": "Tulunids",
+  "map_year": 900,
+  "period": {
+    "start": {
+      "earliest": 868,
+      "latest": 868,
+      "circa": false
+    },
+    "end": {
+      "earliest": 905,
+      "latest": 905,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Al-Qata'i",
+      "location": [
+        31.233333333333,
+        30.016666666667
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q12536",
+    "region": "Egypt",
+    "name": "Abbasid Caliphate"
+  },
+  "after": {
+    "id": "Q12536",
+    "region": "Egypt",
+    "name": "Abbasid Caliphate"
+  },
+  "rulers": [
+    {
+      "id": "Q374374",
+      "name": "Ahmad ibn Tulun"
+    },
+    {
+      "id": "Q1039329",
+      "name": "Khumarawayh ibn Ahmad ibn Tulun"
+    },
+    {
+      "id": "Q707691",
+      "name": "Harun ibn Khumarawayh"
+    }
+  ],
+  "modern_countries": [
+    "Egypt",
+    "Libya",
+    "Syria",
+    "Israel",
+    "Lebanon",
+    "Palestine"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Mamluk dynasty of Turkic origin who ruled Egypt on behalf of the Abbasid Caliphate.",
+  "tier": "Core",
+  "map": "maps/tulunids.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Al-Qata'i"
+      ],
+      "infobox": [
+        "Al-Qata'i"
+      ]
+    },
+    "cliopatria_years": [
+      875,
+      910
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "Al-Qata'i",
+    "labelled": [
+      "Abbasid Caliphate",
+      "Aghlabid Dynasty",
+      "Makuria",
+      "Byzantine Empire",
+      "Rustamid dynasty",
+      "Bagratid Armenia",
+      "Sajid Dynasty"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": -609,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -43,6 +44,14 @@
       "founded": -706
     },
     {
+      "name": "Nineveh",
+      "location": [
+        43.15,
+        36.366667
+      ],
+      "founded": null
+    },
+    {
       "name": "Harran",
       "location": [
         39.025,
@@ -56,20 +65,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q210074",
-      "name": "Tiglath-Pileser III"
-    },
-    {
-      "id": "Q208336",
-      "name": "Sargon II"
-    },
-    {
       "id": "Q207140",
       "name": "Sennacherib"
-    },
-    {
-      "id": "Q171191",
-      "name": "Ashurbanipal"
     }
   ],
   "modern_countries": [
@@ -80,6 +77,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A major ancient Mesopotamian civilization that existed from the 21st to the 7th century BCE which conquered and administered most of West Asia from the Assyrian heartland in Upper Mesopotamia.",
+  "tier": "Core",
   "map": "maps/assyria.png",
   "map_asked": true,
   "checks": {

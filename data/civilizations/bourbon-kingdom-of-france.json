@@ -15,7 +15,8 @@
       "latest": 1830,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The period of French history during which the House of Bourbon returned to power after the fall of Napoleon Bonaparte in 1814 and 1815.",
+  "tier": "Core",
   "map": "maps/bourbon-kingdom-of-france.png",
   "map_asked": true,
   "checks": {

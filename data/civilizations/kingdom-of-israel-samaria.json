@@ -15,7 +15,8 @@
       "latest": -720,
       "circa": true
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -27,10 +28,26 @@
       "founded": null
     },
     {
+      "name": "Shechem",
+      "location": [
+        35.28194444,
+        32.21361111
+      ],
+      "founded": null
+    },
+    {
       "name": "Tirzah",
       "location": [
         35.3378,
         32.2874
+      ],
+      "founded": null
+    },
+    {
+      "name": "Samaria",
+      "location": [
+        35.195,
+        32.276111
       ],
       "founded": null
     }
@@ -68,6 +85,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Israelite kingdom that existed in the Southern Levant during the Iron Age.",
+  "tier": "Core",
   "map": "maps/kingdom-of-israel-samaria.png",
   "map_asked": true,
   "checks": {

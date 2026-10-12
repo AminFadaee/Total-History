@@ -15,7 +15,8 @@
       "latest": 926,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,10 +51,6 @@
     {
       "id": "Q706413",
       "name": "Sŏn of Balhae"
-    },
-    {
-      "id": "Q706397",
-      "name": "Tae Insŏn"
     }
   ],
   "modern_countries": [
@@ -63,6 +60,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A multiethnic kingdom established in 698 by Tae Choyŏng.",
+  "tier": "Core",
   "map": "maps/balhae.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1002,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,6 +43,18 @@
     {
       "id": "Q45261",
       "name": "Ya'qub ibn al-Layth al-Saffar"
+    },
+    {
+      "id": "Q45212",
+      "name": "Amr ibn al-Layth"
+    },
+    {
+      "id": "Q4561714",
+      "name": "Abu Ja'far Ahmad ibn Muhammad"
+    },
+    {
+      "id": "Q4562131",
+      "name": "Khalaf ibn Ahmad"
     }
   ],
   "modern_countries": [
@@ -53,6 +66,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A culturally Persianate dynasty of eastern Iranian origin that ruled over parts of Persia, Khorasan, and eastern Makran from 861 to 1002.",
+  "tier": "Core",
   "map": "maps/saffarid-dynasty.png",
   "map_asked": true,
   "checks": {

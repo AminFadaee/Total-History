@@ -13,10 +13,9 @@
   "birth_country": "South Africa",
   "civilizations": [
     "South Africa",
-    "Union of South Africa"
+    "British Cape Colony"
   ],
   "related": [
-    "British Cape Colony",
     "South African Republic",
     "Free Orange State"
   ],
@@ -30,7 +29,6 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Union of South Africa",
         "United Kingdom",
         "South Africa"
       ],
@@ -38,13 +36,9 @@
         "South Africa"
       ],
       "lead": [
-        "Union of South Africa",
         "British Cape Colony",
         "South African Republic",
         "Free Orange State"
-      ],
-      "citizenship": [
-        "Union of South Africa"
       ],
       "birthplace": [
         "British Cape Colony"

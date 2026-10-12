@@ -15,7 +15,8 @@
       "latest": 1234,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,12 +53,20 @@
   },
   "rulers": [
     {
-      "id": "Q5073",
-      "name": "Emperor Shizong of Jin"
+      "id": "Q5060",
+      "name": "Emperor Taizu of Jin"
     },
     {
-      "id": "Q5069",
-      "name": "Emperor Mo of Jin"
+      "id": "Q5070",
+      "name": "Emperor Taizong of Jin"
+    },
+    {
+      "id": "Q5071",
+      "name": "Emperor Xizong of Jin"
+    },
+    {
+      "id": "Q5072",
+      "name": "Wanyan Liang"
     }
   ],
   "modern_countries": [
@@ -67,6 +76,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Jurchen-led imperial dynasty of China and empire ruled by the Wanyan clan that existed between 1115 and 1234.",
+  "tier": "Core",
   "map": "maps/great-jin.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1993,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -33,7 +34,11 @@
     "region": "Czechia",
     "name": "Austria-Hungary"
   },
-  "after": {},
+  "after": {
+    "id": "Q213",
+    "region": "Czechia",
+    "name": "Czech Republic"
+  },
   "rulers": [
     {
       "id": "Q78492",
@@ -55,6 +60,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country in Central Europe.",
+  "tier": "Core",
   "map": "maps/czechoslovakia.png",
   "map_asked": true,
   "checks": {

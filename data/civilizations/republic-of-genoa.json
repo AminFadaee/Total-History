@@ -15,7 +15,8 @@
       "latest": 1815,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -30,9 +31,9 @@
   "parts": [],
   "before": {},
   "after": {
-    "id": "Q2577303",
+    "id": "Q659312",
     "region": "Italy",
-    "name": "Kingdom of Sardinia"
+    "name": "Ligurian Republic"
   },
   "rulers": [
     {
@@ -52,6 +53,8 @@
     "Russia"
   ],
   "borders": true,
+  "summary": "A medieval and early modern maritime republic from the years 1099 to 1797 in Liguria on the northwestern Italian coast.",
+  "tier": "Core",
   "map": "maps/republic-of-genoa.png",
   "map_asked": true,
   "checks": {

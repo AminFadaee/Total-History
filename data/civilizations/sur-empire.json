@@ -15,7 +15,8 @@
       "latest": 1555,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -42,10 +43,6 @@
     {
       "id": "Q83680",
       "name": "Sher Shah Suri"
-    },
-    {
-      "id": "Q3348692",
-      "name": "Muhammad Adil Shah Suri"
     }
   ],
   "modern_countries": [
@@ -55,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An empire ruled by the Afghan-origin Sur dynasty in northern India for nearly 16 or 18 years, between 1538/1540 and 1556, with Sasaram serving as its capital.",
+  "tier": "Extended",
   "map": "maps/sur-empire.png",
   "map_asked": true,
   "checks": {

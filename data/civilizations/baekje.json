@@ -15,7 +15,8 @@
       "latest": 660,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,20 +33,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q497601",
-      "name": "Geunchogo of Baekje"
+      "id": "Q497878",
+      "name": "Muryeong of Baekje"
     },
     {
       "id": "Q497911",
       "name": "Seong of Baekje"
-    },
-    {
-      "id": "Q498007",
-      "name": "Mu of Baekje"
-    },
-    {
-      "id": "Q498030",
-      "name": "Uija of Baekje"
     }
   ],
   "modern_countries": [
@@ -53,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Korean kingdom located in southwestern Korea from 18 BCE to 660 CE. It was one of the Three Kingdoms of Korea, together with Goguryeo and Silla.",
+  "tier": "Core",
   "map": "maps/baekje.png",
   "map_asked": true,
   "checks": {

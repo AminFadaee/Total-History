@@ -15,7 +15,8 @@
       "latest": 1721,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,8 +53,16 @@
       "name": "Ivan the Terrible"
     },
     {
-      "id": "Q8479",
-      "name": "Peter the Great"
+      "id": "Q170172",
+      "name": "Boris Godunov"
+    },
+    {
+      "id": "Q181915",
+      "name": "Michael of Russia"
+    },
+    {
+      "id": "Q7731",
+      "name": "Alexis of Russia"
     }
   ],
   "modern_countries": [
@@ -64,6 +73,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The centralized Russian state from the assumption of the title of tsar by Ivan IV in 1547 until the foundation of the Russian Empire by Peter the Great in 1721.",
+  "tier": "Core",
   "map": "maps/tsardom-of-russia.png",
   "map_asked": true,
   "checks": {

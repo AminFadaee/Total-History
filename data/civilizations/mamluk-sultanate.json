@@ -15,7 +15,8 @@
       "latest": 1517,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,20 +41,20 @@
   },
   "rulers": [
     {
-      "id": "Q1417881",
-      "name": "Al-Mustansir II"
+      "id": "Q464920",
+      "name": "Shajar al-Durr"
     },
     {
-      "id": "Q284627",
-      "name": "Al-Hakim I"
+      "id": "Q336471",
+      "name": "Qutuz"
     },
     {
-      "id": "Q210445",
-      "name": "Al-Musta'in"
+      "id": "Q249121",
+      "name": "Qalawun"
     },
     {
-      "id": "Q210489",
-      "name": "Al-Mutawakkil III"
+      "id": "Q392815",
+      "name": "Al-Ashraf Khalil"
     }
   ],
   "modern_countries": [
@@ -69,6 +70,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A state that ruled Egypt, the Levant and the Hejaz from the mid-13th to early 16th centuries, with Cairo as its capital.",
+  "tier": "Core",
   "map": "maps/mamluk-sultanate.png",
   "map_asked": true,
   "checks": {

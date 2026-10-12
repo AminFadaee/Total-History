@@ -1,0 +1,87 @@
+{
+  "id": "Q1059707",
+  "slug": "lanna-kingdom",
+  "name": "Lanna Kingdom",
+  "wikipedia": "Lanna Kingdom",
+  "map_year": 1344,
+  "period": {
+    "start": {
+      "earliest": 1296,
+      "latest": 1296,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1775,
+      "latest": 1775,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Chiang Saen",
+      "location": [
+        100.08348,
+        20.27694
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {
+    "id": "Q1062422",
+    "region": "Thailand",
+    "name": "Konbaung Dynasty"
+  },
+  "rulers": [
+    {
+      "id": "Q887732",
+      "name": "Mangrai"
+    },
+    {
+      "id": "Q586326",
+      "name": "Tilokaraj"
+    },
+    {
+      "id": "Q1740556",
+      "name": "Ong Kham"
+    }
+  ],
+  "modern_countries": [
+    "Thailand",
+    "Laos"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A kingdom centered in present-day Northern Thailand which existed from the 13th to 18th centuries.",
+  "tier": "Core",
+  "map": "maps/lanna-kingdom.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chiang Saen"
+      ],
+      "infobox": [
+        "Chiangmai"
+      ]
+    },
+    "cliopatria_years": [
+      1294,
+      1761
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Chiang Saen",
+    "labelled": [
+      "Sukhothai Kingdom",
+      "Shan States",
+      "Yuan Dynasty",
+      "Hanthawaddy Kingdom",
+      "Kingdom of Pinya",
+      "Sagaing Kingdom"
+    ]
+  }
+}

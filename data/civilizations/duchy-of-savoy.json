@@ -11,7 +11,11 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1400,
+      1600
+    ]
   },
   "capitals": [
     {
@@ -39,6 +43,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A territorial entity of the Savoyard state that existed from 1416 until 1847 and was a possession of the House of Savoy.",
+  "tier": "Core",
   "map": "maps/duchy-of-savoy.png",
   "map_asked": true,
   "checks": {
@@ -68,15 +74,15 @@
       "House of Bourbon",
       "Republic of Genoa",
       "House of Habsburg",
+      "Crown of Aragon",
       "Papal States",
       "Duchy of Bavaria",
-      "Duchy of Brittany",
       "Republic of Venice",
       "County of Armagnac",
       "Republic of Florence",
       "County of Foix",
-      "Kingdom of Navarre",
       "Duchy of Aquitaine",
+      "Kingdom of Navarre",
       "Patriarchate of Aquileia",
       "County of Béarn"
     ]

@@ -1,0 +1,49 @@
+{
+  "id": "Q220594",
+  "slug": "nabataeans",
+  "name": "Nabataeans",
+  "wikipedia": "Nabataeans",
+  "map_year": -126,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false,
+    "core": null
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Egypt",
+    "Saudi Arabia",
+    "Jordan",
+    "Israel"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An ancient Arab people who inhabited the southern Levant and northern Arabia.",
+  "tier": "Extended",
+  "map": "maps/nabataeans.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -164,
+      105
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Ptolemaic Kingdom",
+      "Seleucid Empire",
+      "Minaeans",
+      "Judea"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Q1483430",
+  "slug": "principality-of-kiev",
+  "name": "Principality of Kiev",
+  "wikipedia": "Principality of Kiev",
+  "map_year": 1111,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1471,
+      "latest": 1471,
+      "circa": false
+    },
+    "confirmed": false,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Kyiv",
+      "location": [
+        30.523611111111,
+        50.45
+      ],
+      "founded": 482
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q332516",
+      "name": "Iziaslav I of Kiev"
+    },
+    {
+      "id": "Q41514",
+      "name": "Mstislav I of Kiev"
+    },
+    {
+      "id": "Q275106",
+      "name": "Yuri Dolgorukiy"
+    },
+    {
+      "id": "Q348689",
+      "name": "Vsevolod the Big Nest"
+    }
+  ],
+  "modern_countries": [
+    "Ukraine",
+    "Belarus"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A medieval principality centered on the city of Kiev.",
+  "tier": "Extended",
+  "map": "maps/principality-of-kiev.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kyiv"
+      ],
+      "infobox": [
+        "Kyiv"
+      ]
+    },
+    "cliopatria_years": [
+      1056,
+      1240
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kyiv",
+    "labelled": [
+      "Principality of Chernigov",
+      "Principality of Pereyaslavl",
+      "Principality of Volhynia",
+      "Principality of Smolensk",
+      "Principality of Terebovlia",
+      "Principality of Peremyshl",
+      "Principality of Minsk",
+      "Kingdom of Poland"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": 1920,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -28,20 +29,12 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q577668",
-    "region": "Uzbekistan",
-    "name": "Khanate of Bukhara"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
-      "id": "Q4521263",
-      "name": "Shah Murad"
-    },
-    {
-      "id": "Q558626",
-      "name": "Sayyid Mir Muhammad Alim Khan"
+      "id": "Q3870512",
+      "name": "Nasrullah Khan"
     }
   ],
   "modern_countries": [
@@ -51,6 +44,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Uzbek absolute monarchy in Central Asia that existed from 1785 to 1920 in what is now parts of Tajikistan, Uzbekistan, Turkmenistan and Kazakhstan.",
+  "tier": "Core",
   "map": "maps/emirate-of-bukhara.png",
   "map_asked": true,
   "checks": {

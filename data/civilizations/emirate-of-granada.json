@@ -15,7 +15,8 @@
       "latest": 1492,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -52,8 +53,8 @@
       "name": "Muhammad III of Granada"
     },
     {
-      "id": "Q321060",
-      "name": "Nasr of Granada"
+      "id": "Q312763",
+      "name": "Muhammad XI of Granada"
     }
   ],
   "modern_countries": [
@@ -61,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Islamic polity in the southern Iberian Peninsula during the Late Middle Ages, ruled  by the Arab Nasrid dynasty.",
+  "tier": "Core",
   "map": "maps/emirate-of-granada.png",
   "map_asked": true,
   "checks": {

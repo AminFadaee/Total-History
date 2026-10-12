@@ -15,7 +15,8 @@
       "latest": 1866,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -46,6 +47,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An association of 39 predominantly German-speaking sovereign states in Central Europe from 1815 to 1866.",
+  "tier": "Core",
   "map": "maps/german-confederation.png",
   "map_asked": true,
   "checks": {

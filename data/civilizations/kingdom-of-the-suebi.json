@@ -1,0 +1,92 @@
+{
+  "id": "Q1048918",
+  "slug": "kingdom-of-the-suebi",
+  "name": "Kingdom of the Suebi",
+  "wikipedia": "Kingdom of the Suebi",
+  "map_year": 441,
+  "period": {
+    "start": {
+      "earliest": 409,
+      "latest": 409,
+      "circa": false
+    },
+    "end": {
+      "earliest": 585,
+      "latest": 585,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Braga",
+      "location": [
+        -8.4166666666667,
+        41.533333333333
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q42834",
+    "region": "Portugal",
+    "name": "Western Roman Empire"
+  },
+  "after": {
+    "id": "Q126936",
+    "region": "Portugal",
+    "name": "Visigothic Kingdom"
+  },
+  "rulers": [
+    {
+      "id": "Q364200",
+      "name": "Hermeric"
+    },
+    {
+      "id": "Q364161",
+      "name": "Rechila"
+    },
+    {
+      "id": "Q364260",
+      "name": "Rechiar"
+    },
+    {
+      "id": "Q887358",
+      "name": "Miro"
+    }
+  ],
+  "modern_countries": [
+    "Spain",
+    "Portugal"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Germanic post-Roman kingdom that was one of the first to separate from the Roman Empire.",
+  "tier": "Extended",
+  "map": "maps/kingdom-of-the-suebi.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Braga"
+      ],
+      "infobox": [
+        "Braga"
+      ]
+    },
+    "cliopatria_years": [
+      414,
+      586
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Braga",
+    "labelled": [
+      "Western Roman Empire",
+      "Vandal Kingdom",
+      "Visigothic Kingdom"
+    ]
+  }
+}

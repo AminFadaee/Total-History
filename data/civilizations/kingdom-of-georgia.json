@@ -11,7 +11,11 @@
       "circa": true
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1000,
+      1500
+    ]
   },
   "capitals": [
     {
@@ -33,19 +37,15 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q1069959",
+    "region": "Georgia",
+    "name": "Kingdom of Imereti"
+  },
   "rulers": [
     {
-      "id": "Q467266",
-      "name": "Bagrat III of Georgia"
-    },
-    {
-      "id": "Q2914978",
-      "name": "George VIII"
-    },
-    {
-      "id": "Q2663461",
-      "name": "Constantine II of Georgia"
+      "id": "Q244007",
+      "name": "Tamar of Georgia"
     }
   ],
   "modern_countries": [
@@ -56,6 +56,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A medieval Eurasian monarchy that was founded in c. 1008 AD. It reached its Golden Age of political and economic strength during the reign of King David IV and Queen Tamar the Great from the 11th to 13th centuries.",
+  "tier": "Core",
   "map": "maps/kingdom-of-georgia.png",
   "map_asked": true,
   "checks": {

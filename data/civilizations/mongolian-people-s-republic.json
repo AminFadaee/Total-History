@@ -3,7 +3,7 @@
   "slug": "mongolian-people-s-republic",
   "name": "Mongolian People's Republic",
   "wikipedia": "Mongolian People's Republic",
-  "map_year": 1946,
+  "map_year": 1932,
   "period": {
     "start": {
       "earliest": 1924,
@@ -15,7 +15,8 @@
       "latest": 1992,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,7 +30,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q711",
+    "region": "Mongolia",
+    "name": "Mongolia"
+  },
   "rulers": [
     {
       "id": "Q311488",
@@ -46,10 +51,6 @@
     {
       "id": "Q558706",
       "name": "Jambyn Batmönkh"
-    },
-    {
-      "id": "Q9346959",
-      "name": "Gombojavyn Ochirbat"
     }
   ],
   "modern_countries": [
@@ -57,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Mongolian communist state that existed from 1924 to 1992 that self-designated first as a people's democratic state and later as a socialist state.",
+  "tier": "Core",
   "map": "maps/mongolian-people-s-republic.png",
   "map_asked": true,
   "checks": {
@@ -76,10 +79,9 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Ulaanbaatar",
     "labelled": [
-      "Union of Soviet Socialist Republics",
       "Republic of China",
-      "East Turkestan Republic",
-      "Communist Party of China"
+      "Union of Soviet Socialist Republics",
+      "Empire of Japan"
     ]
   }
 }

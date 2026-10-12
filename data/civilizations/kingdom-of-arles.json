@@ -1,0 +1,71 @@
+{
+  "id": "Q3271735",
+  "slug": "kingdom-of-arles",
+  "name": "Kingdom of Arles",
+  "wikipedia": "Kingdom of Arles",
+  "map_year": 936,
+  "period": {
+    "start": {
+      "earliest": 933,
+      "latest": 933,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1378,
+      "latest": 1378,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q442257",
+      "name": "Rudolph II of Burgundy"
+    },
+    {
+      "id": "Q57124",
+      "name": "Sigismund, Holy Roman Emperor"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "Switzerland"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A realm established in 933 by the unification of Lower Burgundy with the Upper Burgundy.",
+  "tier": "Extended",
+  "map": "maps/kingdom-of-arles.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Arles"
+      ],
+      "infobox": [
+        "Arles"
+      ]
+    },
+    "cliopatria_years": [
+      936,
+      1384
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": [
+      "West Franks",
+      "Kingdom of Germany",
+      "Upper Burgundy",
+      "Kingdom of Croatia",
+      "Viking settlements",
+      "Duchy of Normandy",
+      "County of Ribagorza"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": 1599,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -40,36 +41,12 @@
   },
   "rulers": [
     {
-      "id": "Q945436",
-      "name": "Sonni Ali"
-    },
-    {
-      "id": "Q7561966",
-      "name": "Sonni Baru"
-    },
-    {
       "id": "Q1771994",
       "name": "Askia Muhammad I"
     },
     {
-      "id": "Q2866684",
-      "name": "Askia Musa"
-    },
-    {
-      "id": "Q2866685",
-      "name": "Askia Mohammad Benkan"
-    },
-    {
-      "id": "Q2866677",
-      "name": "Askia Isma'il"
-    },
-    {
-      "id": "Q775560",
-      "name": "Askia Ishaq I"
-    },
-    {
-      "id": "Q2866678",
-      "name": "Askia Daoud"
+      "id": "Q945436",
+      "name": "Sonni Ali"
     }
   ],
   "modern_countries": [
@@ -80,6 +57,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A state located in the western part of the Sahel during the 15th and 16th centuries.",
+  "tier": "Core",
   "map": "maps/songhai-empire.png",
   "map_asked": true,
   "checks": {

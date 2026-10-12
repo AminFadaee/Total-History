@@ -15,7 +15,8 @@
       "latest": 1262,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -46,10 +47,6 @@
     {
       "id": "Q2717045",
       "name": "Gissur Þorvaldsson"
-    },
-    {
-      "id": "Q553947",
-      "name": "Sturla Þórðarson"
     }
   ],
   "modern_countries": [
@@ -57,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The political unit existing in Iceland between the establishment of the Althing in 930 and the pledge of fealty to the Norwegian king with the Old Covenant in 1262.",
+  "tier": "Core",
   "map": "maps/icelandic-commonwealth.png",
   "map_asked": true,
   "checks": {

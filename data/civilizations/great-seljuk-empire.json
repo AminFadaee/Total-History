@@ -15,7 +15,8 @@
       "latest": 1194,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -106,6 +107,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A high medieval, culturally Turco-Persian empire established and ruled by the Qïnïq branch of Oghuz Turks.",
+  "tier": "Core",
   "map": "maps/great-seljuk-empire.png",
   "map_asked": true,
   "checks": {

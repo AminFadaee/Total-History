@@ -1,0 +1,86 @@
+{
+  "id": "Q2022162",
+  "slug": "kingdom-of-pergamon",
+  "name": "Kingdom of Pergamon",
+  "wikipedia": "Kingdom of Pergamon",
+  "map_year": -144,
+  "period": {
+    "start": {
+      "earliest": -282,
+      "latest": -282,
+      "circa": false
+    },
+    "end": {
+      "earliest": -129,
+      "latest": -129,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Pergamon",
+      "location": [
+        27.18412,
+        39.12947
+      ],
+      "founded": -800
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q83958",
+    "region": "Turkey",
+    "name": "Macedonian Empire"
+  },
+  "after": {
+    "id": "Q17167",
+    "region": "Turkey",
+    "name": "Roman Republic"
+  },
+  "rulers": [
+    {
+      "id": "Q312452",
+      "name": "Philetaerus"
+    }
+  ],
+  "modern_countries": [
+    "Turkey"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Greek state during the Hellenistic period that ruled much of the Western part of Asia Minor from its capital city of Pergamon.",
+  "tier": "Core",
+  "map": "maps/kingdom-of-pergamon.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pergamon"
+      ],
+      "infobox": [
+        "Pergamon",
+        "Bergama",
+        "İzmir Province",
+        "Republic of Turkey"
+      ]
+    },
+    "cliopatria_years": [
+      -279,
+      -127
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Pergamon",
+    "labelled": [
+      "Roman Republic",
+      "Kingdom of Cappadocia",
+      "Greek City-States",
+      "Galatia",
+      "Kingdom of Bithynia",
+      "Kingdom of Pontus",
+      "Paphlagonia"
+    ]
+  }
+}

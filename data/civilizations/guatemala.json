@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -40,8 +41,8 @@
       "name": "Manuel Estrada Cabrera"
     },
     {
-      "id": "Q885550",
-      "name": "José María Orellana"
+      "id": "Q881158",
+      "name": "Juan José Arévalo"
     },
     {
       "id": "Q549431",
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country in northern Central America.",
+  "tier": "Core",
   "map": "maps/guatemala.png",
   "map_asked": true,
   "checks": {

@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -36,8 +37,8 @@
       "name": "Isabella II"
     },
     {
-      "id": "Q127349",
-      "name": "José Echegaray"
+      "id": "Q18363",
+      "name": "Alfonso XIII"
     },
     {
       "id": "Q29179",
@@ -57,6 +58,8 @@
     "Palau"
   ],
   "borders": true,
+  "summary": "A country in Southern and Western Europe with territories in North Africa.",
+  "tier": "Core",
   "map": "maps/kingdom-of-spain.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1833,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,15 +30,15 @@
   ],
   "parts": [],
   "before": {},
-  "after": {
-    "id": "Q217196",
-    "region": "Spain",
-    "name": "Crown of Castile"
-  },
+  "after": {},
   "rulers": [
     {
-      "id": "Q235080",
-      "name": "Alfonso VI of León and Castile"
+      "id": "Q43958",
+      "name": "El Cid"
+    },
+    {
+      "id": "Q317905",
+      "name": "Sancho II of Castile and León"
     },
     {
       "id": "Q312767",
@@ -46,10 +47,6 @@
     {
       "id": "Q295268",
       "name": "Alfonso VIII of Castile"
-    },
-    {
-      "id": "Q243122",
-      "name": "Ferdinand III of Castile"
     }
   ],
   "modern_countries": [
@@ -58,6 +55,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A polity in the Iberian Peninsula during the Middle Ages.",
+  "tier": "Core",
   "map": "maps/kingdom-of-castile.png",
   "map_asked": true,
   "checks": {

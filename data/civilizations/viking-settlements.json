@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -25,6 +26,8 @@
     "Iceland"
   ],
   "borders": true,
+  "summary": "A seafaring people originally from Scandinavia, who from the late 8th to the late 11th centuries raided, pirated, traded, and settled throughout parts of Europe.",
+  "tier": "Extended",
   "map": "maps/viking-settlements.png",
   "map_asked": true,
   "checks": {

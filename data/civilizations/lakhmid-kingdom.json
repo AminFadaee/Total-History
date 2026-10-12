@@ -15,7 +15,8 @@
       "latest": 602,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -30,7 +31,12 @@
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q220605",
+      "name": "Al-Mundhir III ibn al-Nu'man"
+    }
+  ],
   "modern_countries": [
     "Saudi Arabia",
     "Iraq",
@@ -38,6 +44,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Arab kingdom that ruled parts of Southern Mesopotamia and northeastern Arabia from the late 3rd century until 602 CE. Governed by the Nasrid dynasty of the Banu Lakhm tribe, the kingdom was centered on Al-Hira, which served as its capital and political base.",
+  "tier": "Core",
   "map": "maps/lakhmid-kingdom.png",
   "map_asked": true,
   "checks": {

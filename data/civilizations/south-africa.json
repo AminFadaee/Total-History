@@ -1,0 +1,87 @@
+{
+  "id": "Q258",
+  "slug": "south-africa",
+  "name": "South Africa",
+  "wikipedia": "South Africa",
+  "map_year": 1932,
+  "period": {
+    "start": {
+      "earliest": 1910,
+      "latest": 1910,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Pretoria",
+      "location": [
+        28.188055555556,
+        -25.746388888889
+      ],
+      "founded": 1855
+    },
+    {
+      "name": "Cape Town",
+      "location": [
+        18.42388888888889,
+        -33.92527777777778
+      ],
+      "founded": 1652
+    },
+    {
+      "name": "Bloemfontein",
+      "location": [
+        26.216666666667,
+        -29.1
+      ],
+      "founded": 1846
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q121885",
+      "name": "Robert Sobukwe"
+    }
+  ],
+  "modern_countries": [
+    "South Africa",
+    "Namibia"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "The southernmost country in Africa.",
+  "tier": "Core",
+  "map": "maps/south-africa.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pretoria",
+        "Bloemfontein",
+        "Cape Town"
+      ],
+      "infobox": [
+        "Pretoria",
+        "Cape Town",
+        "Bloemfontein"
+      ]
+    },
+    "cliopatria_years": [
+      1932,
+      2024
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Pretoria",
+    "labelled": [
+      "British Africa",
+      "Estado Novo"
+    ]
+  }
+}

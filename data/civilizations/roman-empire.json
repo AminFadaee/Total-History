@@ -15,7 +15,8 @@
       "latest": 395,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -115,6 +116,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A state that dominated the Mediterranean and much of Europe, Western Asia, and North Africa during the classical period.",
+  "tier": "Core",
   "map": "maps/roman-empire.png",
   "map_asked": true,
   "checks": {

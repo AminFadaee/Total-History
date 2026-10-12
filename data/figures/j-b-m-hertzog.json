@@ -12,8 +12,7 @@
   "occupation": "Politician",
   "birth_country": "South Africa",
   "civilizations": [
-    "South Africa",
-    "Union of South Africa"
+    "South Africa"
   ],
   "related": [],
   "contribution": "He was a Boer commander during the Second Boer War who served as the third prime minister of the Union of South Africa from 1924 to 1939.",
@@ -26,14 +25,10 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Union of South Africa",
         "South Africa"
       ],
       "death": [
         "South Africa"
-      ],
-      "lead": [
-        "Union of South Africa"
       ],
       "citizenship": [
         "South Africa"

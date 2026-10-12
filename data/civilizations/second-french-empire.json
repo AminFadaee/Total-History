@@ -15,7 +15,8 @@
       "latest": 1870,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -49,6 +50,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The government of France from 1852 to 1870.",
+  "tier": "Core",
   "map": "maps/second-french-empire.png",
   "map_asked": false,
   "checks": {
@@ -67,7 +70,7 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Paris",
-    "map_like": "French Second Republic",
+    "map_like": "Bourbon Kingdom of France",
     "labelled": [
       "Kingdom of Spain",
       "Kingdom of Italy",

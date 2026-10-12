@@ -1,0 +1,87 @@
+{
+  "id": "Q1143126",
+  "slug": "later-tang",
+  "name": "Later Tang",
+  "wikipedia": "Later Tang",
+  "map_year": 926,
+  "period": {
+    "start": {
+      "earliest": 923,
+      "latest": 923,
+      "circa": false
+    },
+    "end": {
+      "earliest": 937,
+      "latest": 937,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Daming County",
+      "location": [
+        115.142,
+        36.28532
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q706815",
+      "name": "Li Cunxu"
+    },
+    {
+      "id": "Q708431",
+      "name": "Li Conghou"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A short-lived imperial dynasty of China and the second of the Five Dynasties during the Five Dynasties and Ten Kingdoms period in Chinese history.",
+  "tier": "Extended",
+  "map": "maps/later-tang.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Daming County"
+      ],
+      "infobox": [
+        "Daming County",
+        "Luoyang"
+      ]
+    },
+    "cliopatria_years": [
+      926,
+      935
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Daming County",
+    "labelled": [
+      "Liao Dynasty",
+      "Tibetans",
+      "Southern Chu",
+      "Southern Wu",
+      "Qocho Kingdom",
+      "Pala Empire",
+      "Ganzhou Kingdom",
+      "Southern Han",
+      "Heian Japan",
+      "Wuyue",
+      "Min",
+      "Kamarupa Kingdom",
+      "Goryeo",
+      "Pyu City-States"
+    ]
+  }
+}

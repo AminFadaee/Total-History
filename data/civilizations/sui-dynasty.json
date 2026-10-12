@@ -15,7 +15,8 @@
       "latest": 618,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,16 +37,8 @@
   },
   "rulers": [
     {
-      "id": "Q7418",
-      "name": "Emperor Wen of Sui"
-    },
-    {
       "id": "Q7419",
       "name": "Emperor Yang of Sui"
-    },
-    {
-      "id": "Q7420",
-      "name": "Yang You"
     }
   ],
   "modern_countries": [
@@ -53,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Chinese imperial dynasty that ruled from 581 to 618 AD. The re-unification of China proper under the Sui brought the Northern and Southern dynasties era to a close, ending a prolonged period of political division since the War of the Eight Princes.",
+  "tier": "Core",
   "map": "maps/sui-dynasty.png",
   "map_asked": true,
   "checks": {

@@ -1,0 +1,50 @@
+{
+  "id": "Q1796223",
+  "slug": "kingdom-of-lunda",
+  "name": "Kingdom of Lunda",
+  "wikipedia": "Lunda Empire",
+  "map_year": 1709,
+  "period": {
+    "start": {
+      "earliest": 1665,
+      "latest": 1665,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1887,
+      "latest": 1887,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Angola",
+    "Democratic Republic of the Congo"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A confederation or commonwealth of states in what is now the Democratic Republic of Congo, north-eastern Angola, and north-western Zambia.",
+  "tier": "Core",
+  "map": "maps/kingdom-of-lunda.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1709,
+      1889
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
+    "labelled": []
+  }
+}

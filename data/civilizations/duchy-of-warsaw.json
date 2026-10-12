@@ -15,7 +15,8 @@
       "latest": 1815,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -45,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A French client state established by Napoleon Bonaparte in 1807, during the Napoleonic Wars.",
+  "tier": "Core",
   "map": "maps/duchy-of-warsaw.png",
   "map_asked": true,
   "checks": {

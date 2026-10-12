@@ -15,7 +15,8 @@
       "latest": 1533,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -61,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The largest empire in pre-Columbian America.",
+  "tier": "Core",
   "map": "maps/inca-empire.png",
   "map_asked": true,
   "checks": {

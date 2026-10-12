@@ -15,7 +15,8 @@
       "latest": 843,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -85,6 +86,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The largest post-Roman kingdom in Western Europe.",
+  "tier": "Core",
   "map": "maps/francia.png",
   "map_asked": true,
   "checks": {

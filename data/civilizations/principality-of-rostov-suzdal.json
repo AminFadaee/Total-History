@@ -15,7 +15,8 @@
       "latest": 1389,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -57,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "Its capital was the city of Vladimir.",
+  "tier": "Core",
   "map": "maps/principality-of-rostov-suzdal.png",
   "map_asked": true,
   "checks": {

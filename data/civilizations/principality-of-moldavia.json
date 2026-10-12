@@ -15,7 +15,8 @@
       "latest": 1862,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -57,15 +58,19 @@
     "region": "Romania",
     "name": "Golden Horde"
   },
-  "after": {},
+  "after": {
+    "id": "Q958291",
+    "region": "Romania",
+    "name": "United Principalities of Moldavia and Wallachia"
+  },
   "rulers": [
     {
-      "id": "Q654356",
-      "name": "Dragoș, Voivode of Moldavia"
+      "id": "Q218134",
+      "name": "Stephen the Great"
     },
     {
-      "id": "Q294832",
-      "name": "Alexandru Ioan Cuza"
+      "id": "Q118755",
+      "name": "Michael the Brave"
     }
   ],
   "modern_countries": [
@@ -75,6 +80,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A historical region and former principality in Eastern Europe, corresponding to the territory between the Eastern Carpathians and the Dniester River.",
+  "tier": "Core",
   "map": "maps/principality-of-moldavia.png",
   "map_asked": true,
   "checks": {

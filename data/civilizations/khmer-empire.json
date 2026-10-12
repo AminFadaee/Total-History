@@ -15,7 +15,8 @@
       "latest": 1431,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -23,6 +24,14 @@
       "location": [
         103.966667,
         13.333333
+      ],
+      "founded": null
+    },
+    {
+      "name": "Angkor",
+      "location": [
+        103.83333333333,
+        13.433333333333
       ],
       "founded": null
     }
@@ -40,28 +49,16 @@
       "name": "Jayavarman II"
     },
     {
+      "id": "Q559810",
+      "name": "Yasovarman I"
+    },
+    {
       "id": "Q313298",
       "name": "Suryavarman II"
     },
     {
       "id": "Q335273",
       "name": "Jayavarman VII"
-    },
-    {
-      "id": "Q3163289",
-      "name": "Jayavarman IX"
-    },
-    {
-      "id": "Q3337600",
-      "name": "Trasak Paem"
-    },
-    {
-      "id": "Q3525738",
-      "name": "Thommasaok Reachea"
-    },
-    {
-      "id": "Q1385871",
-      "name": "Ponhea Yat"
     }
   ],
   "modern_countries": [
@@ -72,6 +69,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An empire in mainland Southeast Asia, centred on hydraulic cities in what is now northern Cambodia.",
+  "tier": "Core",
   "map": "maps/khmer-empire.png",
   "map_asked": true,
   "checks": {

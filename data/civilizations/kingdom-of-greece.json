@@ -15,7 +15,8 @@
       "latest": 1973,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -37,7 +38,11 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q504081",
+    "region": "Greece",
+    "name": "Greek junta"
+  },
   "rulers": [
     {
       "id": "Q77067",
@@ -62,6 +67,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Greek state established in 1832 by the Treaty of Constantinople, which formally recognised Greece as an independent state and established it as a monarchy, following the Greek War of Independence.",
+  "tier": "Core",
   "map": "maps/kingdom-of-greece.png",
   "map_asked": true,
   "checks": {

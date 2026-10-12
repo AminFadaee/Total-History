@@ -11,7 +11,8 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -51,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country in Northwestern Europe, with overseas territories in the Caribbean.",
+  "tier": "Core",
   "map": "maps/netherlands.png",
   "map_asked": true,
   "checks": {

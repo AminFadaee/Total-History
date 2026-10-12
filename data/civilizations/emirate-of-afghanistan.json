@@ -15,7 +15,8 @@
       "latest": 1926,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -51,6 +52,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An emirate in Central Asia that encompassed present-day Afghanistan, as well as parts of present-day Iran, Pakistan, Turkmenistan and Tajikistan.",
+  "tier": "Extended",
   "map": "maps/emirate-of-afghanistan.png",
   "map_asked": true,
   "checks": {

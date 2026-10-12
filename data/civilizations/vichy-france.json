@@ -15,7 +15,8 @@
       "latest": 1944,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -45,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A French rump state headed by Marshal Philippe Pétain during World War II, established as a result of German victory in the Battle of France.",
+  "tier": "Core",
   "map": "maps/vichy-france.png",
   "map_asked": true,
   "checks": {
@@ -70,7 +73,11 @@
       "Nazi Germany",
       "Francoist Spain",
       "Kingdom of Italy",
-      "Swiss Confederation"
+      "Swiss Confederation",
+      "Yugoslavia",
+      "Hungarian Republic",
+      "Kingdom of Greece",
+      "Éire"
     ]
   }
 }

@@ -11,7 +11,11 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      900,
+      1100
+    ]
   },
   "capitals": [
     {
@@ -24,11 +28,7 @@
     }
   ],
   "parts": [],
-  "before": {
-    "id": "Q1337854",
-    "region": "Spain",
-    "name": "Emirate of Córdoba"
-  },
+  "before": {},
   "after": {},
   "rulers": [
     {
@@ -55,6 +55,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "",
+  "tier": "Core",
   "map": "maps/caliphate-of-cordoba.png",
   "map_asked": true,
   "checks": {

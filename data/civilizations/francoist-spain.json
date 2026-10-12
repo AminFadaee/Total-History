@@ -15,7 +15,8 @@
       "latest": 1975,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,10 +33,6 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q4714655",
-      "name": "Alejandro Rodríguez de Valcárcel"
-    },
-    {
       "id": "Q29179",
       "name": "Francisco Franco"
     }
@@ -49,6 +46,8 @@
     "Equatorial Guinea"
   ],
   "borders": true,
+  "summary": "A state established in Nationalist-held territories of Spain ruled by Francisco Franco during the Spanish Civil War from 1936 to 1939 and then comprising the whole of Spain from 1939 until Franco's death in 1975.",
+  "tier": "Core",
   "map": "maps/francoist-spain.png",
   "map_asked": true,
   "checks": {

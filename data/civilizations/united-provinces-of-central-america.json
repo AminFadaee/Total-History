@@ -15,7 +15,8 @@
       "latest": 1839,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -58,10 +59,6 @@
     {
       "id": "Q332111",
       "name": "Francisco Morazán"
-    },
-    {
-      "id": "Q328323",
-      "name": "José Francisco Barrundia"
     }
   ],
   "modern_countries": [
@@ -73,6 +70,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A sovereign state in Central America that existed between 1823 and 1839/1841.",
+  "tier": "Core",
   "map": "maps/united-provinces-of-central-america.png",
   "map_asked": true,
   "checks": {

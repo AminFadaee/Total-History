@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -45,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country on the West African coast.",
+  "tier": "Core",
   "map": "maps/republic-of-liberia.png",
   "map_asked": true,
   "checks": {

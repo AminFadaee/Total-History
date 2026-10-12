@@ -15,7 +15,8 @@
       "latest": 1867,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -45,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A constitutional monarchy established in Mexico by Mexican monarchists with the support of the Second French Empire.",
+  "tier": "Core",
   "map": "maps/second-mexican-empire.png",
   "map_asked": false,
   "checks": {

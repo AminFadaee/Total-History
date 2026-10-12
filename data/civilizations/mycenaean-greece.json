@@ -11,7 +11,11 @@
       "latest": -1100,
       "circa": true
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      -1500,
+      -1100
+    ]
   },
   "capitals": [],
   "parts": [],
@@ -23,6 +27,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The last phase of the Bronze Age in ancient Greece, spanning the period from approximately 1750 to 1050 BC. It represents the first advanced and distinctively Greek civilization in mainland Greece with its palatial states, urban organization, works of art, and writing system.",
+  "tier": "Core",
   "map": "maps/mycenaean-greece.png",
   "map_asked": true,
   "checks": {

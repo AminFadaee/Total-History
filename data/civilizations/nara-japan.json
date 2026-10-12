@@ -1,0 +1,64 @@
+{
+  "id": "Q189178",
+  "slug": "nara-japan",
+  "name": "Nara Japan",
+  "wikipedia": "Nara period",
+  "map_year": 788,
+  "period": {
+    "start": {
+      "earliest": 710,
+      "latest": 710,
+      "circa": false
+    },
+    "end": {
+      "earliest": 794,
+      "latest": 794,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [],
+  "parts": [],
+  "before": {
+    "id": "Q210688",
+    "region": "Japan",
+    "name": "Asuka Japan"
+  },
+  "after": {
+    "id": "Q193292",
+    "region": "Japan",
+    "name": "Heian Japan"
+  },
+  "rulers": [
+    {
+      "id": "Q314846",
+      "name": "Emperor Kanmu"
+    }
+  ],
+  "modern_countries": [
+    "Japan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "It succeeded the Asuka period and is followed by the Heian period.",
+  "tier": "Core",
+  "map": "maps/nara-japan.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      710,
+      792
+    ],
+    "identity": "culture or period Cliopatria draws",
+    "home": "the spot held longest",
+    "labelled": [
+      "Unified Silla"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": 1826,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -50,6 +51,10 @@
     {
       "id": "Q46798",
       "name": "Ahmad Shah Durrani"
+    },
+    {
+      "id": "Q167283",
+      "name": "Timur Shah Durrani"
     }
   ],
   "modern_countries": [
@@ -60,6 +65,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Afghan empire founded in 1747 by Ahmad Shah Durrani, of the Pashtun Durrani tribe.",
+  "tier": "Core",
   "map": "maps/durrani-empire.png",
   "map_asked": true,
   "checks": {

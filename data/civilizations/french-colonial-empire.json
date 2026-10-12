@@ -3,7 +3,7 @@
   "slug": "french-colonial-empire",
   "name": "French colonial empire",
   "wikipedia": "French colonial empire",
-  "map_year": 1946,
+  "map_year": 1945,
   "period": {
     "start": {
       "earliest": 1534,
@@ -15,7 +15,8 @@
       "latest": 1980,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -41,6 +42,7 @@
     "Mauritania",
     "Central African Republic",
     "Libya",
+    "Madagascar",
     "Cameroon",
     "Morocco",
     "Republic of the Congo",
@@ -51,14 +53,14 @@
     "Senegal",
     "Tunisia",
     "Benin",
-    "Togo"
-  ],
-  "overseas_countries": [
-    "Madagascar",
+    "Togo",
     "Djibouti",
     "Comoros"
   ],
+  "overseas_countries": [],
   "borders": true,
+  "summary": "A distinction is generally made between the \"first French colonial empire\", that existed until 1814, by which time most of it had been lost or sold, and the \"second French colonial empire\", which began with the conquest of Algiers in 1830.",
+  "tier": "Core",
   "map": "maps/french-colonial-empire.png",
   "map_asked": true,
   "checks": {
@@ -82,14 +84,19 @@
       "Belgian Congo",
       "Estado Novo",
       "British Gold Coast",
-      "Brazilian Republic",
+      "Unitary State of Brazil",
+      "Republic of China",
       "British Raj",
       "Kingdom of Saudi Arabia",
+      "Mexico",
+      "Republic of Peru",
       "Pahlavi Dynasty",
+      "Republic of Colombia",
+      "Bolivia",
       "Kingdom of Egypt",
+      "Tibet",
       "Republic of Turkey",
-      "French Fourth Republic",
-      "Tibet"
+      "French Fourth Republic"
     ]
   }
 }

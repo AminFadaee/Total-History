@@ -15,7 +15,8 @@
       "latest": 1598,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,10 +45,6 @@
   },
   "rulers": [
     {
-      "id": "Q2360773",
-      "name": "Ibak Khan"
-    },
-    {
       "id": "Q138237",
       "name": "Kuchum Khan"
     }
@@ -57,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Siberian Tatar state in western Siberia.",
+  "tier": "Core",
   "map": "maps/khanate-of-sibir.png",
   "map_asked": true,
   "checks": {

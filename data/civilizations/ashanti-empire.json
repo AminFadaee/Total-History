@@ -11,7 +11,11 @@
       "latest": 1902,
       "circa": false
     },
-    "confirmed": false
+    "confirmed": false,
+    "core": [
+      1700,
+      1900
+    ]
   },
   "capitals": [
     {
@@ -25,19 +29,15 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q503623",
+    "region": "Ghana",
+    "name": "British Gold Coast"
+  },
   "rulers": [
     {
       "id": "Q713080",
       "name": "Osei Kofi Tutu I"
-    },
-    {
-      "id": "Q437100",
-      "name": "Prempeh I"
-    },
-    {
-      "id": "Q2108713",
-      "name": "Osei Tutu Agyeman Prempeh II"
     }
   ],
   "modern_countries": [
@@ -46,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Akan state that lasted from 1701 to 1902, in what is now modern-day Ghana.",
+  "tier": "Core",
   "map": "maps/ashanti-empire.png",
   "map_asked": true,
   "checks": {

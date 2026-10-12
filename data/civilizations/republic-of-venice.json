@@ -15,7 +15,8 @@
       "latest": 1797,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -33,6 +34,14 @@
         45.3717
       ],
       "founded": null
+    },
+    {
+      "name": "Venice",
+      "location": [
+        12.331944444444,
+        45.439722222222
+      ],
+      "founded": 421
     }
   ],
   "parts": [],
@@ -55,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A maritime republic with its capital in Venice, on the northeastern coast of Italy.",
+  "tier": "Core",
   "map": "maps/republic-of-venice.png",
   "map_asked": true,
   "checks": {

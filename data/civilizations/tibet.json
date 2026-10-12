@@ -1,0 +1,78 @@
+{
+  "id": "Q2444884",
+  "slug": "tibet",
+  "name": "Tibet",
+  "wikipedia": "Tibet (1912–1951)",
+  "map_year": 1927,
+  "period": {
+    "start": {
+      "earliest": 1912,
+      "latest": 1912,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1951,
+      "latest": 1951,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Lhasa",
+      "location": [
+        91.1175,
+        29.65388888888889
+      ],
+      "founded": 633
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q8733",
+    "region": "China",
+    "name": "Qing Dynasty"
+  },
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q25238",
+      "name": "13th Dalai Lama"
+    },
+    {
+      "id": "Q17293",
+      "name": "14th Dalai Lama"
+    }
+  ],
+  "modern_countries": [
+    "China"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A de facto independent state in East Asia that lasted from the collapse of the Qing dynasty in 1912 until its annexation by the People's Republic of China in 1951.",
+  "tier": "Extended",
+  "map": "maps/tibet.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Lhasa"
+      ],
+      "infobox": [
+        "Lhasa"
+      ]
+    },
+    "cliopatria_years": [
+      1912,
+      1952
+    ],
+    "identity": "Wikidata state named like the Cliopatria polity",
+    "home": "Lhasa",
+    "labelled": [
+      "British Raj",
+      "Kingdom of Nepal"
+    ]
+  }
+}

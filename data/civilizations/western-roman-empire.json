@@ -15,7 +15,8 @@
       "latest": 476,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,28 +45,8 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q159798",
-      "name": "Honorius"
-    },
-    {
-      "id": "Q170026",
-      "name": "Valentinian III"
-    },
-    {
-      "id": "Q191956",
-      "name": "Majorian"
-    },
-    {
-      "id": "Q211772",
-      "name": "Anthemius"
-    },
-    {
-      "id": "Q103860",
-      "name": "Julius Nepos"
-    },
-    {
-      "id": "Q130601",
-      "name": "Romulus Augustulus"
+      "id": "Q309845",
+      "name": "Ricimer"
     }
   ],
   "modern_countries": [
@@ -88,6 +69,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Roman Empire's western provinces collectively during any period in which they were administered separately from the eastern provinces by a separate, independent imperial court.",
+  "tier": "Core",
   "map": "maps/western-roman-empire.png",
   "map_asked": true,
   "checks": {

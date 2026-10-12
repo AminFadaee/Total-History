@@ -15,7 +15,8 @@
       "latest": 1574,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,8 +45,16 @@
       "name": "Abu Zakariya Yahya"
     },
     {
-      "id": "Q2822167",
-      "name": "Abu Abdallah Muhammad VI ibn al-Hasan"
+      "id": "Q1951858",
+      "name": "Muhammad I al-Mustansir"
+    },
+    {
+      "id": "Q1514121",
+      "name": "Yahya II al-Wathiq"
+    },
+    {
+      "id": "Q324785",
+      "name": "Abu Yahya Abu Bakr II"
     }
   ],
   "modern_countries": [
@@ -55,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Sunni Muslim dynasty of Berber descent that ruled Ifriqiya from 1229 to 1574.",
+  "tier": "Extended",
   "map": "maps/hafsid-dynasty.png",
   "map_asked": true,
   "checks": {

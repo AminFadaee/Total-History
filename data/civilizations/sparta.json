@@ -15,7 +15,8 @@
       "latest": -188,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -31,8 +32,8 @@
       "name": "Archidamus II"
     },
     {
-      "id": "Q433408",
-      "name": "Pausanias"
+      "id": "Q312689",
+      "name": "Nabis of Sparta"
     },
     {
       "id": "Q299479",
@@ -42,6 +43,8 @@
   "modern_countries": [],
   "overseas_countries": [],
   "borders": false,
+  "summary": "A prominent ancient Greek polis in Laconia.",
+  "tier": "Core",
   "map": "",
   "map_asked": true,
   "checks": {

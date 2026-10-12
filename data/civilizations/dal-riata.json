@@ -15,7 +15,8 @@
       "latest": 850,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,14 +37,6 @@
       "name": "Fergus Mór"
     },
     {
-      "id": "Q375287",
-      "name": "Gabrán mac Domangairt"
-    },
-    {
-      "id": "Q378755",
-      "name": "Áedán mac Gabráin"
-    },
-    {
       "id": "Q298263",
       "name": "Kenneth MacAlpin"
     }
@@ -53,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Gaelic kingdom that encompassed the western seaboard of Scotland and northeastern Ireland, on each side of the North Channel.",
+  "tier": "Core",
   "map": "maps/dal-riata.png",
   "map_asked": true,
   "checks": {

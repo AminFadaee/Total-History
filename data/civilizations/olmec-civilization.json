@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -19,6 +20,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An early major Mesoamerican civilization, flourishing in the modern-day Mexican states of Veracruz and Tabasco from roughly 1200 to 400 BC during Mesoamerica's formative period.",
+  "tier": "Core",
   "map": "maps/olmec-civilization.png",
   "map_asked": true,
   "checks": {

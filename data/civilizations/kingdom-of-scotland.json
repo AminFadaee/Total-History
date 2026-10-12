@@ -15,7 +15,8 @@
       "latest": 1707,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A sovereign state in northwest Europe, traditionally said to have been founded in 843.",
+  "tier": "Core",
   "map": "maps/kingdom-of-scotland.png",
   "map_asked": true,
   "checks": {

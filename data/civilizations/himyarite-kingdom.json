@@ -15,7 +15,8 @@
       "latest": 525,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -46,10 +47,6 @@
     {
       "id": "Q323363",
       "name": "Abraha"
-    },
-    {
-      "id": "Q252170",
-      "name": "Saif ibn Dhi Yazan"
     }
   ],
   "modern_countries": [
@@ -58,6 +55,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A South Arabian kingdom whose original heartland lay in the southern highlands of present-day Yemen.",
+  "tier": "Core",
   "map": "maps/himyarite-kingdom.png",
   "map_asked": true,
   "checks": {

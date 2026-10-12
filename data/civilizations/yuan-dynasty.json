@@ -15,7 +15,8 @@
       "latest": 1368,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -57,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Mongol-led imperial dynasty of China and a successor state to the Mongol Empire after its division.",
+  "tier": "Core",
   "map": "maps/yuan-dynasty.png",
   "map_asked": true,
   "checks": {

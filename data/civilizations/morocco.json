@@ -3,11 +3,12 @@
   "slug": "morocco",
   "name": "Morocco",
   "wikipedia": "Morocco",
-  "map_year": 1969,
+  "map_year": 1846,
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [
     {
@@ -41,10 +42,13 @@
     }
   ],
   "modern_countries": [
-    "Morocco"
+    "Morocco",
+    "Algeria"
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A country in the Maghreb region of North Africa.",
+  "tier": "Core",
   "map": "maps/morocco.png",
   "map_asked": true,
   "checks": {
@@ -64,8 +68,8 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Rabat",
     "labelled": [
-      "French Fifth Republic",
-      "Francoist Spain"
+      "French Algeria",
+      "Kingdom of Spain"
     ]
   }
 }

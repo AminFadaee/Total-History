@@ -1,0 +1,86 @@
+{
+  "id": "Q210163",
+  "slug": "astrakhan-khanate",
+  "name": "Astrakhan Khanate",
+  "wikipedia": "Astrakhan Khanate",
+  "map_year": 1502,
+  "period": {
+    "start": {
+      "earliest": 1466,
+      "latest": 1466,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1556,
+      "latest": 1556,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Xacitarxan",
+      "location": [
+        48.035,
+        46.35
+      ],
+      "founded": 1151
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q79965",
+    "region": "Russia",
+    "name": "Golden Horde"
+  },
+  "after": {
+    "id": "Q186096",
+    "region": "Russia",
+    "name": "Tsardom of Russia"
+  },
+  "rulers": [
+    {
+      "id": "Q541678",
+      "name": "Mahmud bin Küchük"
+    },
+    {
+      "id": "Q1991895",
+      "name": "Dervish Ali Astrakhani"
+    }
+  ],
+  "modern_countries": [
+    "Russia",
+    "Kazakhstan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A Tatar rump state of the Golden Horde.",
+  "tier": "Core",
+  "map": "maps/astrakhan-khanate.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Xacitarxan"
+      ],
+      "infobox": [
+        "Astrakhan",
+        "Xacitarxan"
+      ]
+    },
+    "cliopatria_years": [
+      1468,
+      1555
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Xacitarxan",
+    "labelled": [
+      "Nogai Horde",
+      "Crimean Khanate",
+      "Principality of Mingrelia",
+      "Kingdom of Imereti"
+    ]
+  }
+}

@@ -15,7 +15,8 @@
       "latest": 370,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,8 +37,8 @@
   },
   "rulers": [
     {
-      "id": "Q3429323",
-      "name": "Rhescuporis VI"
+      "id": "Q3072504",
+      "name": "Paerisades II"
     }
   ],
   "modern_countries": [
@@ -45,6 +46,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An ancient Greco-Scythian state located in eastern Crimea and the Taman Peninsula on the shores of the Cimmerian Bosporus, centered in the present-day Strait of Kerch.",
+  "tier": "Core",
   "map": "maps/cimmerian-bosporus.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": -1046,
       "circa": true
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,12 +37,16 @@
   },
   "rulers": [
     {
-      "id": "Q471820",
-      "name": "Tang of Shang"
+      "id": "Q736654",
+      "name": "Pan Geng"
     },
     {
       "id": "Q369159",
       "name": "Wu Ding"
+    },
+    {
+      "id": "Q735420",
+      "name": "Di Yi"
     },
     {
       "id": "Q470072",
@@ -53,6 +58,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Chinese royal dynasty that ruled in the Yellow River valley during the 2nd millennium BC, traditionally succeeding the Xia dynasty and followed by the Western Zhou dynasty.",
+  "tier": "Core",
   "map": "maps/shang-dynasty.png",
   "map_asked": true,
   "checks": {

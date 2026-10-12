@@ -1,0 +1,73 @@
+{
+  "id": "Q844750",
+  "slug": "zapotec-civilization",
+  "name": "Zapotec Civilization",
+  "wikipedia": "Zapotec civilization",
+  "map_year": 510,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Monte Albán",
+      "location": [
+        -96.767777777778,
+        17.043888888889
+      ],
+      "founded": null
+    },
+    {
+      "name": "Mitla",
+      "location": [
+        -96.4,
+        16.91666667
+      ],
+      "founded": null
+    },
+    {
+      "name": "Zaachila",
+      "location": [
+        -96.74883333333334,
+        16.952666666666666
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "An indigenous pre-Columbian civilization that flourished in the Valley of Oaxaca in Mesoamerica.",
+  "tier": "Extended",
+  "map": "maps/zapotec-civilization.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Monte Albán",
+        "Mitla",
+        "Zaachila"
+      ]
+    },
+    "cliopatria_years": [
+      -500,
+      895
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "home": "Monte Albán",
+    "labelled": [
+      "Maya civilization",
+      "Teotihuacan"
+    ]
+  }
+}

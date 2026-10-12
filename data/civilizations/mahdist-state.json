@@ -15,7 +15,8 @@
       "latest": 1899,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -28,7 +29,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q127861",
+    "region": "Sudan",
+    "name": "Khedivate of Egypt"
+  },
   "after": {},
   "rulers": [],
   "modern_countries": [
@@ -37,6 +42,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A state based on a religious and political movement launched in 1881 by Muhammad Ahmad against the Khedivate of Egypt, which had ruled Sudan since 1821.",
+  "tier": "Core",
   "map": "maps/mahdist-state.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 668,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -54,22 +55,6 @@
     {
       "id": "Q378502",
       "name": "Dongmyeong of Goguryeo"
-    },
-    {
-      "id": "Q498791",
-      "name": "Gwanggaeto the Great"
-    },
-    {
-      "id": "Q498810",
-      "name": "Jangsu of Goguryeo"
-    },
-    {
-      "id": "Q498927",
-      "name": "Yeongyang of Goguryeo"
-    },
-    {
-      "id": "Q498974",
-      "name": "Bojang of Goguryeo"
     }
   ],
   "modern_countries": [
@@ -79,6 +64,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Korean kingdom which was located on the northern and central parts of the Korean Peninsula and the southern and central parts of modern-day Northeast China.",
+  "tier": "Core",
   "map": "maps/goguryeo.png",
   "map_asked": true,
   "checks": {

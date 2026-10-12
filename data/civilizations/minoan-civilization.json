@@ -7,7 +7,8 @@
   "period": {
     "start": null,
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
@@ -23,6 +24,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Bronze Age culture centered on the island of Crete.",
+  "tier": "Core",
   "map": "maps/minoan-civilization.png",
   "map_asked": true,
   "checks": {

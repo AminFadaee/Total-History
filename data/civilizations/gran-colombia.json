@@ -15,7 +15,8 @@
       "latest": 1831,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -29,19 +30,15 @@
   ],
   "parts": [],
   "before": {},
-  "after": {},
+  "after": {
+    "id": "Q630882",
+    "region": "Colombia",
+    "name": "Republic of New Granada"
+  },
   "rulers": [
     {
       "id": "Q8605",
       "name": "Simón Bolívar"
-    },
-    {
-      "id": "Q1369751",
-      "name": "Domingo Caycedo"
-    },
-    {
-      "id": "Q10966309",
-      "name": "Jerónimo de Mendoza Galavís"
     }
   ],
   "modern_countries": [
@@ -57,6 +54,8 @@
     "Paraguay"
   ],
   "borders": true,
+  "summary": "The Colombian state that encompassed much of northern South America and parts of Central America from 1819 to 1831.",
+  "tier": "Core",
   "map": "maps/gran-colombia.png",
   "map_asked": true,
   "checks": {

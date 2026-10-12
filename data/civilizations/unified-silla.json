@@ -1,0 +1,87 @@
+{
+  "id": "Q715257",
+  "slug": "unified-silla",
+  "name": "Unified Silla",
+  "wikipedia": "Unified Silla",
+  "map_year": 682,
+  "period": {
+    "start": {
+      "earliest": 668,
+      "latest": 668,
+      "circa": false
+    },
+    "end": {
+      "earliest": 935,
+      "latest": 935,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Gyeongju",
+      "location": [
+        129.21666666667,
+        35.85
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {
+    "id": "Q28456",
+    "region": "South Korea",
+    "name": "Silla"
+  },
+  "after": {
+    "id": "Q28208",
+    "region": "South Korea",
+    "name": "Goryeo"
+  },
+  "rulers": [
+    {
+      "id": "Q485818",
+      "name": "Sinmun of Silla"
+    },
+    {
+      "id": "Q484705",
+      "name": "Jinseong of Silla"
+    },
+    {
+      "id": "Q485578",
+      "name": "Gyeongsun of Silla"
+    }
+  ],
+  "modern_countries": [
+    "South Korea",
+    "North Korea"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "The name often applied to the historical period of the Korean kingdom of Silla after its conquest of Goguryeo in 668 AD, which marked the end of the Three Kingdoms period.",
+  "tier": "Extended",
+  "map": "maps/unified-silla.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Gyeongju"
+      ],
+      "infobox": [
+        "History of Gyeongju"
+      ]
+    },
+    "cliopatria_years": [
+      682,
+      935
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Gyeongju",
+    "labelled": [
+      "Tang Dynasty",
+      "Asuka Japan"
+    ]
+  }
+}

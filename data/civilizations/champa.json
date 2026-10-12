@@ -15,7 +15,8 @@
       "latest": 1832,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,6 +37,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A collection of independent Cham polities that extended across the coast of what is present-day central and southern Vietnam from approximately 2nd century AD until 1832.",
+  "tier": "Core",
   "map": "maps/champa.png",
   "map_asked": true,
   "checks": {

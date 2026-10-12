@@ -1,0 +1,108 @@
+{
+  "id": "Q583038",
+  "slug": "ostrogothic-kingdom",
+  "name": "Ostrogothic Kingdom",
+  "wikipedia": "Ostrogothic Kingdom",
+  "map_year": 534,
+  "period": {
+    "start": {
+      "earliest": 493,
+      "latest": 493,
+      "circa": false
+    },
+    "end": {
+      "earliest": 553,
+      "latest": 553,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null
+  },
+  "capitals": [
+    {
+      "name": "Ravenna",
+      "location": [
+        12.201666666666666,
+        44.416111111111114
+      ],
+      "founded": null
+    },
+    {
+      "name": "Pavia",
+      "location": [
+        9.155,
+        45.185280555556
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": {},
+  "after": {},
+  "rulers": [
+    {
+      "id": "Q105105",
+      "name": "Theodoric the Great"
+    },
+    {
+      "id": "Q110895",
+      "name": "Athalaric"
+    },
+    {
+      "id": "Q312601",
+      "name": "Theodahad"
+    },
+    {
+      "id": "Q159707",
+      "name": "Totila"
+    }
+  ],
+  "modern_countries": [
+    "Italy",
+    "Austria",
+    "Bosnia and Herzegovina",
+    "Croatia",
+    "Hungary",
+    "Germany",
+    "France",
+    "Slovenia",
+    "San Marino",
+    "Vatican"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A barbarian kingdom established by the Germanic Ostrogoths that controlled Italy and neighbouring areas between 493 and 553.",
+  "tier": "Core",
+  "map": "maps/ostrogothic-kingdom.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ravenna",
+        "Pavia",
+        "Ravenna"
+      ],
+      "infobox": [
+        "Ravenna",
+        "Pavia"
+      ]
+    },
+    "cliopatria_years": [
+      500,
+      560
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ravenna",
+    "labelled": [
+      "Byzantine Empire",
+      "Francia",
+      "Visigothic Kingdom",
+      "Kingdom of the Gepids",
+      "Lombards",
+      "Kingdom of the Suebi",
+      "Saxons",
+      "Brythons"
+    ]
+  }
+}

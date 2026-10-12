@@ -15,7 +15,8 @@
       "latest": 1918,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -61,6 +62,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The period of the German Reich from the unification of Germany in 1871 until the November Revolution in 1918, when Germany changed its form of government to a republic.",
+  "tier": "Core",
   "map": "maps/german-empire.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 1821,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -53,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Islamic kingdom in what is now Sudan, northwestern Eritrea and western Ethiopia.",
+  "tier": "Core",
   "map": "maps/funj-sultanate.png",
   "map_asked": true,
   "checks": {

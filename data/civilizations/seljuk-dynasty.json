@@ -11,13 +11,23 @@
       "circa": false
     },
     "end": null,
-    "confirmed": false
+    "confirmed": false,
+    "core": null
   },
   "capitals": [],
   "parts": [],
   "before": {},
   "after": {},
-  "rulers": [],
+  "rulers": [
+    {
+      "id": "Q144565",
+      "name": "Tughril I"
+    },
+    {
+      "id": "Q5670642",
+      "name": "Seljuk"
+    }
+  ],
   "modern_countries": [
     "Turkmenistan",
     "Uzbekistan",
@@ -26,6 +36,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An Oghuz Turkic, Sunni Muslim dynasty that culturally became Persianate and contributed to Turco-Persian culture.",
+  "tier": "Core",
   "map": "maps/seljuk-dynasty.png",
   "map_asked": true,
   "checks": {

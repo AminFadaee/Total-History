@@ -15,7 +15,8 @@
       "latest": 1945,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,8 +37,16 @@
       "name": "Gia Long"
     },
     {
-      "id": "Q465598",
-      "name": "Hiệp Hòa"
+      "id": "Q434419",
+      "name": "Minh Mạng"
+    },
+    {
+      "id": "Q192502",
+      "name": "Ngo Dinh Diem"
+    },
+    {
+      "id": "Q223771",
+      "name": "Bảo Đại"
     }
   ],
   "modern_countries": [
@@ -45,6 +54,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The last Vietnamese dynasty, preceded by the Nguyễn lords and ruling unified Vietnam independently from 1802 until the start of the French protectorate in 1883.",
+  "tier": "Core",
   "map": "maps/nguyen-dynasty.png",
   "map_asked": true,
   "checks": {

@@ -15,7 +15,8 @@
       "latest": 44,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -44,24 +45,16 @@
       "name": "Bocchus I"
     },
     {
-      "id": "Q2347534",
-      "name": "Bogud"
-    },
-    {
-      "id": "Q962956",
-      "name": "Bocchus II"
-    },
-    {
       "id": "Q315670",
       "name": "Juba II"
     },
     {
-      "id": "Q526000",
-      "name": "Ptolemy of Mauretania"
+      "id": "Q40058",
+      "name": "Cleopatra Selene II"
     },
     {
-      "id": "Q2825506",
-      "name": "Aedemon"
+      "id": "Q526000",
+      "name": "Ptolemy of Mauretania"
     }
   ],
   "modern_countries": [
@@ -70,6 +63,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "The Latin name for a region in the ancient Mediterranean Maghreb.",
+  "tier": "Core",
   "map": "maps/mauretania.png",
   "map_asked": true,
   "checks": {

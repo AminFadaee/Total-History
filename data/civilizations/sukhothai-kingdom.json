@@ -15,7 +15,8 @@
       "latest": 1438,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -48,8 +49,8 @@
       "name": "Si Inthrathit"
     },
     {
-      "id": "Q6581485",
-      "name": "Maha Thammaracha IV"
+      "id": "Q349249",
+      "name": "Ramkhamhaeng"
     }
   ],
   "modern_countries": [
@@ -59,6 +60,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A post-classical Siamese kingdom in Mainland Southeast Asia centred on the ancient city of Sukhothai in present-day north-central Thailand.",
+  "tier": "Core",
   "map": "maps/sukhothai-kingdom.png",
   "map_asked": true,
   "checks": {

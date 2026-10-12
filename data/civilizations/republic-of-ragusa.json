@@ -15,7 +15,8 @@
       "latest": 1808,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -32,20 +33,12 @@
   "after": {},
   "rulers": [
     {
-      "id": "Q31198595",
-      "name": "Damjan Beneša"
-    },
-    {
       "id": "Q1764051",
       "name": "Nikola Vitov Gučetić"
     },
     {
       "id": "Q1637923",
       "name": "Ivan Bunić Vučić"
-    },
-    {
-      "id": "Q23889301",
-      "name": "Giunio Resti"
     }
   ],
   "modern_countries": [
@@ -54,6 +47,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "An aristocratic maritime republic centered on the city of Dubrovnik in South Dalmatia in Southern Europe.",
+  "tier": "Core",
   "map": "maps/republic-of-ragusa.png",
   "map_asked": true,
   "checks": {

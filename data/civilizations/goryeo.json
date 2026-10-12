@@ -15,7 +15,8 @@
       "latest": 1392,
       "circa": false
     },
-    "confirmed": true
+    "confirmed": true,
+    "core": null
   },
   "capitals": [
     {
@@ -36,7 +37,11 @@
     }
   ],
   "parts": [],
-  "before": {},
+  "before": {
+    "id": "Q715257",
+    "region": "North Korea",
+    "name": "Unified Silla"
+  },
   "after": {
     "id": "Q28179",
     "region": "North Korea",
@@ -48,8 +53,12 @@
       "name": "Taejo of Goryeo"
     },
     {
-      "id": "Q485590",
-      "name": "Gongyang of Goryeo"
+      "id": "Q469387",
+      "name": "Gwangjong of Goryeo"
+    },
+    {
+      "id": "Q494074",
+      "name": "Gongmin of Goryeo"
     }
   ],
   "modern_countries": [
@@ -58,6 +67,8 @@
   ],
   "overseas_countries": [],
   "borders": true,
+  "summary": "A Korean state founded in 918, during a time of national division called the Later Three Kingdoms period, that unified and ruled the Korean Peninsula until the establishment of Joseon in 1392.",
+  "tier": "Core",
   "map": "maps/goryeo.png",
   "map_asked": true,
   "checks": {
