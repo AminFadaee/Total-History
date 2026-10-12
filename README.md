@@ -114,9 +114,10 @@ update.
    short-lived Duchy to the Grand Duchy of Tuscany), and one that is a period of a country rather than a state hands
    the years to that country, if it already stood then (Sweden after its Age of Liberty). Years without such a
    successor stay with the original name, unless there are more than 50 of them: then no state is drawn there
-   (Cliopatria's Tibet before 1912, its Ngô dynasty after 965). A name whose years never meet its Wikidata item's
-   dates points at the wrong state (the modern region for early-medieval Aquitaine): a Wikidata state named exactly
-   like it with overlapping dates stands in, or it leaves the catalogue.
+   (Cliopatria's Tibet before 1912, its Ngô dynasty after 965). A name whose years miss its Wikidata item's
+   dates by more than five years points at the wrong state (the modern region for early-medieval Aquitaine): a Wikidata state named exactly
+   like it with overlapping dates stands in, or it leaves the catalogue. A nearer miss is the same state (the Palmyrene
+   Empire, drawn until 269 and dated from 270).
 2. **Civilizations notable on their own.** Any one of: Vital Articles level 4 or above; a Wikipedia article in at least
    60 languages; Vital Articles level 5 with 45 languages or a peak of 1 million km²; a peak of 2 million km² without
    being a colony. A state that still exists qualifies only if Cliopatria draws it before 1930 and it reached 2 million

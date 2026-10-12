@@ -13,6 +13,7 @@ from page_in_history.sources.wikipedia import country_infobox, display_name
 OVERSHOOT_YEARS = 25
 HANDOVER_TOLERANCE_YEARS = 25
 UNCLAIMED_YEARS = 50
+MISMATCH_YEARS = 5
 FORWARD = ("P1366", "P156")
 BACKWARD = ("P1365", "P155")
 
@@ -41,8 +42,9 @@ class Lineages:
     its own successor, and one that is a period of a country rather than a state, like Sweden's Age of Liberty, hands
     the years to that country. Years without such a successor stay with the original name, unless there are more than
     50 of them: then the map has no state for them, as for Cliopatria's Tibet before 1912 or its Ngô dynasty after
-    965. A name whose years never meet its state's dates points at the wrong state and is identified again by name, or
-    leaves the catalogue."""
+    965. A name whose years miss its state's dates by more than five years points at the wrong state and is identified
+    again by name, or leaves the catalogue; a nearer miss, like the Palmyrene Empire drawn until 269 and dated from 270,
+    is the same state."""
 
     def __init__(self, catalog: PolityCatalog):
         self.catalog = catalog
@@ -63,7 +65,7 @@ class Lineages:
             rows = self.frame[self.frame.Name == name]
             first, last = int(rows.FromYear.min()), int(rows.ToYear.max())
             start, end = dates(self.catalog.entities[identity.qid])
-            if (start is not None and start > last) or (end is not None and end < first):
+            if (start is not None and start > last + MISMATCH_YEARS) or (end is not None and end < first - MISMATCH_YEARS):
                 self.mismatched.append(name)
                 spans[name] = (first, last)
                 continue
