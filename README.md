@@ -236,7 +236,9 @@ uv run page-in-history samples   # render sample cards into docs/samples/
 
 `collect` builds the whole world by default. `--region` (a modern country as named by Natural Earth), `--start` and
 `--end` (negative years are BC) limit it to one slice, such as `--region Iran --start -1000 --end 1000`. Downloads
-and API responses are cached in `cache/`, so later runs work offline.
+and API responses are cached in `cache/`, so later runs work offline. Maps are cached there too, under a fingerprint of
+everything drawn on them (the year's shapes, capitals, parts, base map, font and drawing code), so a later collect
+redraws only the maps that changed.
 
 Photographs are recognised with an image model by default. It needs the optional `ml` extra (`onnxruntime` and
 `tokenizers`) and downloads about 800 MB of model files into `cache/` on first use. `--photos metadata` skips the model

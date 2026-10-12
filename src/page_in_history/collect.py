@@ -113,7 +113,8 @@ class Collector:
                         and (capital.get("founded") is None or capital["founded"] <= polity.map_year)],
                        self.paths.root / "maps" / f"{polity.slug}.png", polity.parts)
                 for polity in polities]
-        results = render_all(jobs, countries, naturalearth.rivers(self.http), fonts.inter(self.http), MAP_WORKERS)
+        results = render_all(jobs, countries, naturalearth.rivers(self.http), fonts.inter(self.http), MAP_WORKERS,
+                             self.cache_dir / "maps")
         for polity, result in zip(polities, results):
             if isinstance(result, Exception):
                 logger.error("Could not draw %s", polity.name, exc_info=result)

@@ -1,6 +1,8 @@
 import hashlib
 import io
 import itertools
+import json
+import logging
 import math
 import multiprocessing
 import pathlib
@@ -35,7 +37,9 @@ PADDING = 0.35
 MIN_SPAN_METERS = 900_000
 MIN_PANEL_SHARE = 0.10
 OUTSIDE_CAPITAL_MARGIN_DEGREES = 2
+logger = logging.getLogger(__name__)
 MAPS_PER_WORKER = 25
+RENDERER_MODULES = ("maps.py", "regions.py", "naming.py")
 MAX_PANELS = 3
 WORLD_SCALE_DEGREES = 120
 RING_SHARE = 0.005
@@ -487,21 +491,57 @@ def draw(job: MapJob) -> list[str]:
     return worker.render(job)
 
 
+def fingerprint(job: MapJob, setting: str) -> str:
+    """Everything a map is drawn from: the job (its year's shapes, capitals and parts) and the setting (the drawing
+    code, the base map and the font), so an unchanged map can be reused rather than drawn again."""
+    shapes = job.polities.sort_values("Name")
+    content = hashlib.sha256(setting.encode())
+    content.update(repr((job.name, job.year, job.capitals, job.parts)).encode())
+    content.update(shapes.drop(columns=shapes.geometry.name).to_csv(index=False).encode())
+    for geometry in shapes.geometry:
+        content.update(geometry.wkb if geometry is not None else b"")
+    return content.hexdigest()
+
+
+def setting_digest(countries: gpd.GeoDataFrame, rivers: gpd.GeoDataFrame, font: pathlib.Path) -> str:
+    content = hashlib.sha256()
+    for module in RENDERER_MODULES:
+        content.update((pathlib.Path(__file__).parent / module).read_bytes())
+    for frame in (countries, rivers):
+        content.update(frame.drop(columns=frame.geometry.name).to_csv(index=False).encode())
+        content.update(b"".join(geometry.wkb for geometry in frame.geometry if geometry is not None))
+    content.update(font.read_bytes())
+    return content.hexdigest()
+
+
 def render_all(jobs: list[MapJob], countries: gpd.GeoDataFrame, rivers: gpd.GeoDataFrame, font: pathlib.Path,
-               workers: int) -> list[list[str] | Exception]:
+               workers: int, cache: pathlib.Path) -> list[list[str] | Exception]:
     """Draws the maps side by side in separate processes; each map's result is the polities labelled on it, or the
-    error that stopped it. The processes are started afresh for every batch of maps, since drawing slowly
-    accumulates memory."""
+    error that stopped it. A map drawn before from the same inputs is copied from the cache instead. The processes
+    are started afresh for every batch of maps, since drawing slowly accumulates memory."""
+    cache.mkdir(parents=True, exist_ok=True)
+    setting = setting_digest(countries, rivers, font)
+    keys = [fingerprint(job, setting) for job in jobs]
+    results: dict[int, list[str] | Exception] = {}
+    for index, (job, key) in enumerate(zip(jobs, keys)):
+        image, labels = cache / f"{key}.png", cache / f"{key}.json"
+        if image.exists() and labels.exists():
+            job.output.write_bytes(image.read_bytes())
+            results[index] = json.loads(labels.read_text())
+    missing = [index for index in range(len(jobs)) if index not in results]
+    logger.info("Reusing %d maps, drawing %d", len(results), len(missing))
     context = multiprocessing.get_context("spawn")
-    results: list[list[str] | Exception] = []
     batch = workers * MAPS_PER_WORKER
-    for start in range(0, len(jobs), batch):
+    for start in range(0, len(missing), batch):
         with ProcessPoolExecutor(workers, mp_context=context, initializer=start_worker,
                                  initargs=(countries, rivers, font)) as pool:
-            futures = [pool.submit(draw, job) for job in jobs[start:start + batch]]
-            for future in futures:
+            futures = {index: pool.submit(draw, jobs[index]) for index in missing[start:start + batch]}
+            for index, future in futures.items():
                 try:
-                    results.append(future.result())
+                    results[index] = future.result()
                 except Exception as error:
-                    results.append(error)
-    return results
+                    results[index] = error
+                    continue
+                (cache / f"{keys[index]}.png").write_bytes(jobs[index].output.read_bytes())
+                (cache / f"{keys[index]}.json").write_text(json.dumps(results[index]))
+    return [results[index] for index in range(len(jobs))]
