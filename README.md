@@ -108,7 +108,12 @@ update.
    historical people or an archaeological site rather than a state counts too, when the article is in at least 40
    languages and the shape is drawn for 50 years or more before 1900: the Maya, the Indus Valley, the Minoans, Heian
    Japan, the Huns, Teotihuacan. Shapes tied to a person, a city, a region, a dynasty, a modern people or movement, a
-   war or a treaty do not.
+   war or a treaty do not. Names that share one item and are drawn within its dates are one civilization under the
+   name of its article: Cliopatria's Northern and Southern Song are the Song dynasty, its two Maya shapes the Maya
+   civilization, its Eastern Roman and Byzantine Empire the Byzantine Empire. A state on the Vital Articles lists
+   (levels 1–4) that Cliopatria draws only through its dynasties takes their shapes when they held its capital, lie
+   within its dates and cover at least half of its years: the Delhi Sultanate from its five dynasties, the Chola
+   dynasty from its Early and medieval Cholas.
    Cliopatria sometimes keeps one name for a chain of states: its Kingdom of Great Britain runs to this day. Where a
    name runs more than 25 years past the dates Wikidata gives the state, the years beyond go to the successor (or
    predecessor) that both Wikidata and the Wikipedia infobox name and whose capital lies inside the borders it takes
@@ -125,7 +130,8 @@ update.
    Empire, drawn until 269 and dated from 270).
 2. **Civilizations notable on their own.** Any one of: Vital Articles level 4 or above; a Wikipedia article in at least
    60 languages; Vital Articles level 5 with 45 languages or a peak of 1 million km²; a peak of 2 million km² without
-   being a colony. A state that still exists qualifies only if Cliopatria draws it before 1930 and it reached 2 million
+   being a colony; or a large and lasting state: a peak of 250,000 km² drawn for 50 years or more, with an article in
+   at least 30 languages (the Kamakura shogunate, Northern Wei, the Neo-Babylonian Empire). A state that still exists qualifies only if Cliopatria draws it before 1930 and it reached 2 million
    km² (the United States, Mexico, Brazil). A civilization that began in 1945 or later is left out, as the
    deck's figures are.
 3. **Candidate people.** The database of notable people is split into cells: one of its 20 world regions (such as

@@ -1,5 +1,6 @@
 import logging
 import math
+import re
 from collections import Counter
 from dataclasses import asdict, dataclass, field
 
@@ -41,6 +42,11 @@ SETTLEMENT = "Q486972"
 HERITAGE = "Q9259"
 SITE = "Q839954"
 LARGE_PEAK_KM2 = 2_000_000
+SHARED_TOLERANCE_YEARS = 25
+FOLD_VITAL_LEVEL = 4
+DYNASTY = "Q164950"
+GENERIC_WORDS = {"sultanate", "empire", "kingdom", "dynasty", "of", "the", "caliphate", "republic", "state"}
+LASTING_PEAK_KM2, LASTING_YEARS, LASTING_LANGUAGES = 250_000, 50, 30
 LIVING_ON_MAP_BEFORE = 1930
 HUMAN = "Q5"
 ASSUMED_LIFESPAN = 70
@@ -222,6 +228,9 @@ class PolityCatalog:
         self.identities = self._without_duplicates(candidates)
         self.by_qid = {identity.qid: identity for identity in self.identities.values()}
         self.mapless: dict[str, tuple[int, int]] = {}
+        self.folded: dict[str, list[str]] = {}
+        self.vital_levels = self._vital_levels()
+        self._fold_dynasties()
 
     def years(self, qid: str) -> tuple[int, int]:
         """When a civilization existed: Cliopatria's first and last year, or Wikidata's dates for one it does not draw."""
@@ -233,6 +242,58 @@ class PolityCatalog:
     def add_mapless(self, identity: Identity, entity: Entity, years: tuple[int, int]) -> None:
         self.add_drawn(identity, entity)
         self.mapless[identity.qid] = years
+
+    def _vital_levels(self) -> dict[str, int]:
+        """Each item's highest level on Wikipedia's Vital Articles lists."""
+        levels = vital.article_levels(self.wikipedia.http, self.wikipedia)
+        found: dict[str, int] = {}
+        for title, page in self.wikipedia.resolve(list(levels)).items():
+            if page and page.qid:
+                found[page.qid] = min(levels[title], found.get(page.qid, levels[title]))
+        return found
+
+    def _fold_dynasties(self) -> None:
+        """A state on the Vital Articles lists (levels 1–4) that Cliopatria draws only through its dynasties or periods
+        takes their shapes: the Delhi Sultanate from its Mamluk, Khalji, Tughlaq, Sayyid and Lodi dynasties, the Chola
+        dynasty from Cliopatria's Early Cholas and Chola Empire. A shape folds when it held the state's capital, lies
+        within the state's own dates and is a dynasty or carries the state's name; together they must cover at least
+        half of its years."""
+        entities = self.wikidata.entities([qid for qid, level in self.vital_levels.items()
+                                           if level <= FOLD_VITAL_LEVEL and qid not in self.by_qid])
+        kinds = self.wikidata.kinds(list(entities), MAPLESS_KINDS)
+        dynasties = {qid for qid, found in self.wikidata.kinds(list(self.by_qid), {DYNASTY: "dynasty"}).items() if found}
+        capitals = self.wikidata.entities([capital for entity in entities.values() for capital in entity.ids("P36")])
+        frame = self.cliopatria.frame
+        renamed: dict[str, str] = {}
+        for qid, entity in entities.items():
+            starts = [year.earliest for year in entity.years("P571") + entity.years("P580")]
+            ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
+            if not (kinds.get(qid, set()) & STATE_KINDS) or not entity.enwiki or not starts or not ends:
+                continue
+            first, last = min(starts), max(ends)
+            point = next((capitals[c].coordinates() for c in entity.ids("P36") if c in capitals and capitals[c].coordinates()),
+                         None) or entity.coordinates()
+            if not point:
+                continue
+            word = next((part for part in re.findall(r"\w+", display_name(entity.enwiki).lower()) if part not in GENERIC_WORDS), "")
+            held = frame[frame.geometry.contains(Point(point)) & (frame.ToYear >= first) & (frame.FromYear <= last)]
+            parts = [name for name in sorted(set(held.Name)) if name in self.identities and name not in renamed
+                     and (self.identities[name].qid in dynasties or (word and word in name.lower()))
+                     and self.cliopatria.rows(name).FromYear.min() >= first - SHARED_TOLERANCE_YEARS
+                     and self.cliopatria.rows(name).ToYear.max() <= last + SHARED_TOLERANCE_YEARS]
+            covered = sum(int(self.cliopatria.rows(name).ToYear.max() - self.cliopatria.rows(name).FromYear.min() + 1)
+                          for name in parts)
+            if parts and covered * 2 >= last - first + 1:
+                name = display_name(entity.enwiki)
+                renamed.update({part: name for part in parts})
+                self.folded[name] = parts
+                for part in parts:
+                    old = self.identities.pop(part)
+                    self.by_qid.pop(old.qid, None)
+                    self.qids.pop(part, None)
+                self.add_drawn(Identity(name, entity.enwiki, qid, "state drawn through its dynasties"), entity)
+        if renamed:
+            self.cliopatria = Cliopatria(frame.assign(Name=frame.Name.replace(renamed)), self.cliopatria.spikes)
 
     def add_drawn(self, identity: Identity, entity: Entity) -> None:
         self.entities[identity.qid] = entity
@@ -327,18 +388,40 @@ class PolityCatalog:
         return years_overlap(entity, start, end)
 
     def _without_duplicates(self, candidates: dict[str, Identity]) -> dict[str, Identity]:
-        """When several Cliopatria names share one item, the one with the largest territory keeps it."""
+        """When several Cliopatria names share one item, the one with the largest territory keeps it. Those drawn
+        within the item's own dates are the same civilization in another stretch, as Northern and Southern Song are
+        the Song dynasty: their shapes join it under the name of the item's article. Names outside the item's dates,
+        often a wrong link (a 1912 "Great Mongol State" for the Yuan dynasty), or of a state that still exists, are
+        left out."""
         by_qid: dict[str, list[Identity]] = {}
         for identity in candidates.values():
             by_qid.setdefault(identity.qid, []).append(identity)
-        kept = {}
+        kept, renamed = {}, {}
         for identities in by_qid.values():
             largest = max(identities, key=lambda identity: self.cliopatria.rows(identity.name).Area.max())
-            kept[largest.name] = largest
+            joining = [other for other in identities if other is not largest and self._within_dates(other, largest.qid)]
             for other in identities:
-                if other is not largest:
+                if other is not largest and other not in joining:
                     self.unresolved[other.name] = f"shares {largest.qid} with {largest.name!r}"
+            if joining:
+                name = display_name(largest.title)
+                renamed.update({identity.name: name for identity in [largest, *joining]})
+                kept[name] = Identity(name, largest.title, largest.qid, largest.how)
+            else:
+                kept[largest.name] = largest
+        if renamed:
+            frame = self.cliopatria.frame.assign(Name=self.cliopatria.frame.Name.replace(renamed))
+            self.cliopatria = Cliopatria(frame, self.cliopatria.spikes)
+            self.qids = {renamed.get(name, name): qid for name, qid in self.qids.items()}
         return kept
+
+    def _within_dates(self, identity: Identity, qid: str) -> bool:
+        entity = self.entities[qid]
+        starts = [year.earliest for year in entity.years("P571") + entity.years("P580")]
+        ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
+        rows = self.cliopatria.rows(identity.name)
+        return bool(starts and ends) and rows.FromYear.min() >= min(starts) - SHARED_TOLERANCE_YEARS \
+            and rows.ToYear.max() <= max(ends) + SHARED_TOLERANCE_YEARS
 
 
 class PolityBuilder:
@@ -370,7 +453,7 @@ class PolityBuilder:
         identities = list(self.catalog.identities.values())
         qids = [identity.qid for identity in identities]
         editions = self.wikidata.language_editions(qids)
-        levels = self._vital_levels()
+        levels = self.catalog.vital_levels
         kinds = self.wikidata.kinds(qids, KINDS)
         selected = [identity for identity in identities
                     if self._notable(identity, editions.get(identity.qid, 0), levels.get(identity.qid), kinds[identity.qid])]
@@ -428,19 +511,11 @@ class PolityBuilder:
                  for year in range(max(int(start), first), min(int(end), last) + 1)}
         return len(years) / (last - first + 1)
 
-    def _vital_levels(self) -> dict[str, int]:
-        levels = vital.article_levels(self.wikipedia.http, self.wikipedia)
-        pages = self.wikipedia.resolve(list(levels))
-        found: dict[str, int] = {}
-        for title, level in levels.items():
-            page = pages.get(title)
-            if page and page.qid:
-                found[page.qid] = min(level, found.get(page.qid, level))
-        return found
-
     def _notable(self, identity: Identity, languages: int, level: int | None, kinds: set[str]) -> bool:
         """Listed as vital at level 4 or above, in at least 60 languages, at level 5 with 45 languages or a peak of
-        1 million km², or at a peak of 2 million km² without being a colony. A sovereign state that still exists
+        1 million km², at a peak of 2 million km² without being a colony, or a large and lasting state: a peak of
+        250,000 km² drawn for 50 years or more, in at least 30 languages and not a colony (the Kamakura shogunate,
+        Northern Wei, the Neo-Babylonian Empire). A sovereign state that still exists
         qualifies only if it was on the maps before 1930 and reached 2 million km², as the United States did. Any
         other polity without an end date must be filed as historical, since Cliopatria sometimes links an old polity
         to today's place, such as the island of Rhodes, and today's provinces and towns never qualify."""
@@ -458,7 +533,9 @@ class PolityBuilder:
         level = level or MAX_VITAL_LEVEL + 2
         return (level <= MAX_VITAL_LEVEL or languages >= MIN_LANGUAGE_EDITIONS
                 or (level == MAX_VITAL_LEVEL + 1 and (languages >= LEVEL_5_LANGUAGES or peak >= LEVEL_5_PEAK_KM2))
-                or (peak >= LARGE_PEAK_KM2 and "colony" not in kinds))
+                or (peak >= LARGE_PEAK_KM2 and "colony" not in kinds)
+                or (peak >= LASTING_PEAK_KM2 and rows.ToYear.max() - rows.FromYear.min() + 1 >= LASTING_YEARS
+                    and languages >= LASTING_LANGUAGES and "colony" not in kinds))
 
     def build(self, identities: list[Identity]) -> list[Polity]:
         """Notes for the selected civilizations. A civilization before or after one of them may come from outside
