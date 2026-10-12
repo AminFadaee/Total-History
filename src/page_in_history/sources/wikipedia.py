@@ -7,6 +7,9 @@ from mwparserfromhell.wikicode import Wikicode
 from page_in_history.dates import Span, parse, parse_range
 from page_in_history.http import Http
 
+LINE_BREAK = re.compile(r"\n|<br\s*/?>", re.IGNORECASE)
+LIST_MARKUP = re.compile(r"^[*#:\s]+|\{\{\s*(?:plainlist|ubl|unbulleted list|flatlist)\s*\|?|\}\}", re.IGNORECASE)
+PLACE_NAME = re.compile(r"[A-Z][\w'’.-]*(?: [A-Z][\w'’.-]*){0,3}")
 API = "https://en.wikipedia.org/w/api.php"
 BATCH = 50
 EXTRACT_BATCH = 20
@@ -156,6 +159,25 @@ def link_targets(code: Wikicode | None) -> list[str]:
     return [target for target in dict.fromkeys(targets) if target and not target.lower().startswith(NON_ARTICLE)]
 
 
+def place_targets(code: Wikicode | None) -> list[str]:
+    """Places a field lists, one per line: the linked article, or a line's unlinked name ('* Paris (987–1682)' in the
+    Kingdom of France's list of capitals, beside a linked Versailles)."""
+    if code is None:
+        return []
+    found = []
+    for line in LINE_BREAK.split(str(without_notes(code))):
+        parsed = mw.parse(line)
+        linked = link_targets(parsed)
+        if linked:
+            found += linked
+            continue
+        text = LIST_MARKUP.sub("", parsed.strip_code()).strip()
+        name = re.split(r"\s*[(,;]", text)[0].strip()
+        if PLACE_NAME.fullmatch(name):
+            found.append(name)
+    return list(dict.fromkeys(found))
+
+
 def lead_links(wikitext: str) -> list[str]:
     """Articles linked from the prose of the lead section, ignoring infoboxes and other templates."""
     lead = mw.parse(SECTION.split(wikitext, maxsplit=1)[0])
@@ -234,7 +256,7 @@ def country_infobox(wikitext: str) -> Infobox | None:
             return Infobox(
                 start=start,
                 end=end,
-                capital=link_targets(fields.get("capital")),
+                capital=place_targets(fields.get("capital")),
                 predecessors=numbered(fields, "p"),
                 successors=numbered(fields, "s"),
                 leaders=numbered(fields, "leader"),
