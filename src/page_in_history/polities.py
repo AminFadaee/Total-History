@@ -50,6 +50,7 @@ SHARED_TOLERANCE_YEARS = 25
 HEAD_OF_STATE_CLASSES = {"Q48352", "Q116", "Q39018", "Q12097", "Q248577", "Q30461", "Q111840950"}
 SHOWN_RULERS, RULER_FAME_SHARE, ADULT_YEARS = 4, 3, 20
 KNOWN_NEIGHBOUR_LANGUAGES = 40
+MIRROR_GAP_YEARS = 100
 SAME_PLACE_KM = 5
 STEM_LETTERS = 5
 CORE_LANGUAGES, CORE_VITAL_LANGUAGES, CORE_FIGURES = 70, 60, 3
@@ -785,6 +786,27 @@ class PolityBuilder:
                     polity.id, polity.capitals, self._capital_edges(entity),
                     lambda other: known(other) and not same_name(polity.name, self._name(other)))
                 polity.before, polity.after = self._named(before), self._named(after)
+        self._mirror_neighbours(polities)
+
+    def _mirror_neighbours(self, polities: list[Polity]) -> None:
+        """A civilization the deck names as followed by another, which has no civilization before it, is that one's
+        predecessor in the same region (Achaemenid before the Macedonian Empire), and the other way round, when the
+        later one began after the earlier began, within a century of its end, and ended after it (not the
+        Confederacy before the USA)."""
+        by_id = {polity.id: polity for polity in polities}
+
+        def later(first: Polity, second: Polity) -> bool:
+            earlier, after = self._ruled_years(first), self._ruled_years(second)
+            return bool(earlier and after) and earlier[0] < after[0] and earlier[1] < after[1] \
+                and abs(after[0] - earlier[1]) <= MIRROR_GAP_YEARS
+        for polity in polities:
+            following = by_id.get((polity.after or {}).get("id"))
+            if following and not following.before and later(polity, following):
+                following.before = {"id": polity.id, "region": polity.after["region"], "name": polity.name}
+        for polity in polities:
+            preceding = by_id.get((polity.before or {}).get("id"))
+            if preceding and not preceding.after and later(preceding, polity):
+                preceding.after = {"id": polity.id, "region": polity.before["region"], "name": polity.name}
 
     def _stated(self, first: str, last: str) -> bool:
         """Wikidata or a Wikipedia infobox, on either civilization's side, says that the second followed the first."""
