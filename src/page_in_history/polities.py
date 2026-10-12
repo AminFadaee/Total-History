@@ -84,6 +84,7 @@ GENERIC_WORDS = {"sultanate", "empire", "kingdom", "dynasty", "of", "the", "cali
 LASTING_AREA_YEARS, LASTING_LANGUAGES, COLONIAL_ERA = 12_500_000, 30, 1500
 LIVING_ON_MAP_BEFORE = 1930
 PRESENT_DESCRIPTION_FROM = 1900
+MID_THOUGHT = re.compile(r"(?:It|Its|They|Their|The dynasty|Under)\b")
 PRESENT_OR_PAST = re.compile(r"\b(is|are|was|were)\b")
 HUMAN = "Q5"
 ASSUMED_LIFESPAN = 70
@@ -749,7 +750,8 @@ class PolityBuilder:
 
     def _summary(self, identity: Identity, entity: Entity, last_drawn: int | None) -> str:
         """What the civilization was: the opening sentence of its article without its subject, by the rule used for
-        what a figure is known for ("The third caliphate to succeed the Islamic prophet Muhammad."). None when the
+        what a figure is known for ("The third caliphate to succeed the Islamic prophet Muhammad."), or the article's
+        short description when that sentence carries on from an opening the rule cannot read ("It began with …"). None when the
         item still exists and its article speaks in the present tense, but the map stops drawing it long before
         today, since the article then describes the present (medieval Norway as "a Nordic country comprising …
         Svalbard")."""
@@ -758,7 +760,10 @@ class PolityBuilder:
         if last_drawn is not None and last_drawn < PRESENT_DESCRIPTION_FROM and tense and tense.group(1) in ("is", "are") \
                 and not entity.years("P576") + entity.years("P582"):
             return ""
-        return contribution(first_paragraph(extract), identity.name, description)
+        summary = contribution(first_paragraph(extract), identity.name, description)
+        if MID_THOUGHT.match(summary):
+            summary = contribution("", identity.name, description)
+        return summary
 
     def _capital_edges(self, entity: Entity) -> tuple:
         """Where its first and last capitals stood, when Wikidata dates at least two of them."""
