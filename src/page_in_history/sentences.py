@@ -52,6 +52,7 @@ def contribution(paragraph: str, role_text: str, description: str | None) -> str
                  and len(words(candidate) - words(role_text)) >= MIN_NEW_WORDS), "")
     if not text and description and len(words(description) - words(role_text)) >= MIN_NEW_WORDS:
         text = description[:1].upper() + description[1:]
+    text = re.sub(r"\s{2,}", " ", text)
     return text if not text or text[-1] in ".!?\"”" else text + "."
 
 

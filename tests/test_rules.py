@@ -5,6 +5,7 @@ from page_in_history.dates import centuries, parse, parse_range, period_label
 from page_in_history.deck import century_tag
 from page_in_history.figures import lifetime
 from page_in_history.polities import RulingRole, row_years, same_name
+from page_in_history.sentences import contribution
 from page_in_history.sources.wikidata import YEAR_PRECISION, Year
 
 
@@ -72,3 +73,8 @@ def test_parse_labels(text, label):
 def test_period_label_across_the_era():
     start, end = parse_range("27 BC – AD 14")
     assert period_label(start, end) == "27 BC – AD 14"
+
+
+def test_contribution_spaces_words_once():
+    paragraph = "Ugarit (/uːˈɡɑːrɪt/) was an ancient city in what is today northern Syria, at a site known in  Arabic as Ras Shamra."
+    assert "  " not in contribution(paragraph, "Ugarit", None)
