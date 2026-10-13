@@ -1,35 +1,20 @@
 # Answers that break a soft rule, accepted for now. A new break fails the run, and so does a listed one that is gone.
 
 successor_ends_first = [
-  ["Assyria", "Neo-Assyrian Empire"],
   ["Chagatai Khanate", "Moghulistan"],
   ["Etruscans", "Roman Republic"],
   ["Habsburg Monarchy", "Austrian Empire"],
-  ["Holy Roman Empire", "French First Republic"],
-  ["Indo-Scythians", "Kushan Empire"],
-  ["Kingdom of Germany", "Holy Roman Empire"],
-  ["Kingdom of Hungary", "Ottoman Empire"],
-  ["Kingdom of León", "Crown of Castile"],
-  ["Kingdom of Navarre", "Crown of Aragon"],
-  ["Kingdom of Saxony", "German Empire"],
-  ["Mongol Empire", "Yuan Dynasty"],
   ["Northern Yuan", "Four Oirats"],
   ["Odrysian Kingdom", "Macedonian Empire"],
-  ["Prussia", "German Confederation"],
-  ["Saffarid Dynasty", "Samanid Empire"],
-  ["Sultanate of Bengal", "Sur Empire"],
-  ["Tenochtitlan", "Aztec Triple Alliance"],
   ["White Huns", "Göktürk Khaganate"],
 ]
 
 predecessor_begins_later = [
   ["Duchy of Bavaria", "Holy Roman Empire"],
   ["Guatemala", "United Provinces of Central America"],
-  ["Jin", "Zhou Dynasty"],
   ["Kingdom of Germany", "East Franks"],
   ["Mexico", "Centralist Mexico"],
   ["Morocco", "Saadi Sultanate"],
-  ["Mycenaean Greece", "Minoan civilization"],
   ["Phoenicia", "New Kingdom of Egypt"],
 ]
 
@@ -38,14 +23,11 @@ succession_gap = [
 ]
 
 before_and_after = [
-  ["Commonwealth of England", "Kingdom of England"],
-  ["Empire of China", "Republic of China"],
   ["Gallic Empire", "Roman Empire"],
   ["Latin Empire", "Byzantine Empire"],
   ["Nicaean Empire", "Byzantine Empire"],
   ["Sur Empire", "Mughal Empire"],
   ["Tulunids", "Abbasid Caliphate"],
-  ["United Kingdoms of Sweden and Norway", "Kingdom of Sweden"],
   ["Xin Dynasty", "Han Dynasty"],
 ]
 
@@ -71,7 +53,4 @@ capital_founded_after_end = [
 ]
 
 what_line_spacing = [
-  ["Emirate of Granada"],
-  ["Northern Yuan"],
-  ["Ugarit"],
 ]
