@@ -234,7 +234,11 @@ uv run page-in-history collect   # select civilizations and figures, render maps
 uv run page-in-history check     # what was confirmed, what was left out and why
 uv run page-in-history deck      # build build/page_in_history.apkg
 uv run page-in-history samples   # render sample cards into docs/samples/
+uv run pytest                    # check the data against its invariants and the cases outside reviews raised
 ```
+
+The tests read `data/`: invariants every civilization must meet, and facts outside reviews checked. Cases still open are
+marked as expected failures, so fixing one makes the run fail until its mark is removed.
 
 `collect` builds the whole world by default. `--region` (a modern country as named by Natural Earth), `--start` and
 `--end` (negative years are BC) limit it to one slice, such as `--region Iran --start -1000 --end 1000`. Downloads
