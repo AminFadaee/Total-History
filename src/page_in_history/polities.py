@@ -1053,13 +1053,30 @@ class PolityBuilder:
 
     def _implied(self, first: str, last: str) -> bool:
         """The sources name a part of the second as following the first, or a part of the first as preceding the
-        second, by Wikidata's part of or country: Carthage was followed by the province of Africa, part of the Roman
-        Republic; the Aztecs by New Spain, part of the Spanish Empire. Never between a state and a part of itself
-        (the French Consulate in the First Republic)."""
+        second, by Wikidata's part of or country: the Aztecs were followed by New Spain, part of the Spanish Empire.
+        Never between a state and a part of itself (the French Consulate in the First Republic)."""
         if first in self._parents(last) or last in self._parents(first):
             return False
-        return any(last in self._parents(qid) for qid in self._followers(first, later=True)) \
-            or any(first in self._parents(qid) for qid in self._followers(last, later=False))
+        return any(self._part_of(qid, last, first, later=True) for qid in self._followers(first, later=True)) \
+            or any(self._part_of(qid, first, last, later=False) for qid in self._followers(last, later=False))
+
+    def _part_of(self, part: str, state: str, other: str, later: bool) -> bool:
+        """Whether the part belongs to the state: Wikidata files it under the state, or under a country that lists
+        the state among its phases, when the part began (ended) within 30 years of the other civilization's end
+        (start). Carthage was followed in 146 BC by the province of Africa, whose country Ancient Rome lists the
+        Roman Republic. A part of a group of states (the Five Dynasties) is not a part of its neighbours."""
+        if state in self._parents(part):
+            return True
+        entity = self.catalog.entities.get(part) or self.wikidata.entities([part]).get(part)
+        span = self._span(other)
+        if not entity or not span:
+            return False
+        starts = [year.earliest for year in entity.years("P571") + entity.years("P580")]
+        ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
+        moment = min(starts, default=None) if later else max(ends, default=None)
+        countries = set(entity.ids("P17", preferred_only=False)) - {part}
+        return moment is not None and abs(moment - (span[1] if later else span[0])) <= WINDOW_YEARS \
+            and any(state in self._members(country) for country in countries)
 
     def _followers(self, qid: str, later: bool) -> set[str]:
         """The states Wikidata or the infobox say came after (or before) the civilization."""

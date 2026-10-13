@@ -56,7 +56,7 @@ class RegionalSuccession:
     longest, or without a confirmed capital the spot it held for the most years; the region is the modern country
     around it. The neighbour is the nearest holder on Cliopatria's maps within 30 years that Wikidata or the Wikipedia
     infobox also says came before or after; failing that, the nearest whose succession they imply through a part of
-    it (Carthage was followed by the Roman province of Africa, part of the Roman Republic). The 30 years run from the
+    it (Carthage was followed by the Roman province of Africa, whose country Ancient Rome lists the Roman Republic). The 30 years run from the
     end the maps draw or the end of its period, whichever is nearer. Failing those, a deck state both sides name as
     each other's neighbour, within 30 years and drawn within 2 degrees of the home; then a deck state the sources name
     that held the home up to a century away with no other deck state holding it in between. Holders that stayed five
