@@ -14,7 +14,7 @@ REPOSITORY = f"https://huggingface.co/Xenova/bart-large-mnli/resolve/{REVISION}/
 MAX_TOKENS = 256
 PAD_ID = 1
 PROGRESS_EVERY = 100
-RULER, CONSORT = 0, 1
+RULER, CONSORT, SERVANT = 0, 1, 2
 HYPOTHESES = (
     "{name} reigned as the monarch or was the head of state or supreme leader of {civilization}.",
     "{name} was only the spouse or consort of a ruler of {civilization}.",

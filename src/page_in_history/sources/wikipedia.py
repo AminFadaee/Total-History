@@ -9,6 +9,7 @@ from page_in_history.http import Http
 
 LINE_BREAK = re.compile(r"\n|<br\s*/?>", re.IGNORECASE)
 LIST_MARKUP = re.compile(r"^[*#:\s]+|\{\{\s*(?:plainlist|ubl|unbulleted list|flatlist)\s*\|?|\}\}", re.IGNORECASE)
+OFFICE_ROW = re.compile(r"(leader|deputy|representative)(\d+)")
 TITLE_FIELD = re.compile(r"(?:succession|title|office|order|reign-type)\d*")
 PLACE_NAME = re.compile(r"[A-Z][\w'’.-]*(?: [A-Z][\w'’.-]*){0,3}")
 API = "https://en.wikipedia.org/w/api.php"
@@ -32,6 +33,16 @@ class Page:
 
 
 @dataclass
+class OfficeRow:
+    """One holder row of a state's infobox: leader, deputy or representative, with its title and years as written."""
+    kind: str
+    people: list[str]
+    title: str
+    title_links: list[str]
+    years: str
+
+
+@dataclass
 class Infobox:
     start: Span | None = None
     end: Span | None = None
@@ -39,6 +50,7 @@ class Infobox:
     predecessors: list[str] = field(default_factory=list)
     successors: list[str] = field(default_factory=list)
     leaders: list[str] = field(default_factory=list)
+    rows: list[OfficeRow] = field(default_factory=list)
 
 
 def display_name(title: str) -> str:
@@ -282,5 +294,21 @@ def country_infobox(wikitext: str) -> Infobox | None:
                 predecessors=numbered(fields, "p"),
                 successors=numbered(fields, "s"),
                 leaders=numbered(fields, "leader"),
+                rows=office_rows(fields),
             )
     return None
+
+
+def office_rows(fields: dict[str, Wikicode]) -> list[OfficeRow]:
+    """The leader, deputy and representative rows, each with the title its kind is given (title_leader) and the years
+    written beside it (year_leader1)."""
+    rows = []
+    for key, value in fields.items():
+        match = OFFICE_ROW.fullmatch(key)
+        if match and str(value).strip():
+            kind, number = match.groups()
+            title = fields.get(f"title_{kind}")
+            rows.append(OfficeRow(kind, link_targets(value) or bare_title(value), title.strip_code().strip() if title else "",
+                                  link_targets(title) if title else [],
+                                  fields[f"year_{kind}{number}"].strip_code().strip() if f"year_{kind}{number}" in fields else ""))
+    return rows
