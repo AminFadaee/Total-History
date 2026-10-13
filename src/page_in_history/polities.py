@@ -266,13 +266,14 @@ def fold(text: str) -> str:
 def row_years(text: str) -> tuple[int, int] | None:
     """The years an infobox row gives, as '1192–1199', '1192' or '27 BC – AD 14'; a year without an era takes the era of
     the year after it, as in '550–530 BC'."""
-    found = ROW_YEAR.findall(re.sub(r"\{\{[^|}]*\|", "", text))[:2]
+    found = ROW_YEAR.findall(re.sub(r"\{\{[^|}]*\|", "", text))
     if not found:
         return None
     years, bc = [], False
     for ad, year, before_christ in reversed(found):
         bc = bool(before_christ) or (bc and not ad)
         years.insert(0, -int(year) if bc else int(year))
+    years = years[:2]
     return (years[0], years[-1]) if years[-1] >= years[0] else (years[0], years[0])
 
 

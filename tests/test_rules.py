@@ -12,7 +12,7 @@ from page_in_history.sources.wikidata import YEAR_PRECISION, Year
 @pytest.mark.parametrize("text, years", [
     ("1192–1199", (1192, 1199)), ("1192", (1192, 1192)), ("r. 1192-1199", (1192, 1199)), ("{{reign|1192|1199}}", (1192, 1199)),
     ("c. 550 – 530 BC", (-550, -530)), ("560 BCE", (-560, -560)), ("27 BC – AD 14", (-27, 14)), ("AD 14 – 37", (14, 37)),
-    ("1199–1192", (1199, 1199)), ("no years", None),
+    ("1199–1192", (1199, 1199)), ("165/155–130 BC", (-165, -155)), ("no years", None),
 ])
 def test_row_years(text, years):
     assert row_years(text) == years
