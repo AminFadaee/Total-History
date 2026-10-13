@@ -40,7 +40,14 @@
   "parts": [
     "Duchy of Prussia"
   ],
-  "before": [],
+  "before": [
+    {
+      "id": "Q148499",
+      "region": "Germany",
+      "name": "Margraviate of Brandenburg",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q151624",
@@ -61,6 +68,10 @@
     {
       "id": "Q33550",
       "name": "Frederick the Great"
+    },
+    {
+      "id": "Q2646",
+      "name": "Friedrich Ebert"
     }
   ],
   "modern_countries": [

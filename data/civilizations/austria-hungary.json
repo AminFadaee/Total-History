@@ -41,22 +41,22 @@
   "before": [
     {
       "id": "Q131964",
-      "region": "Hungary",
+      "region": "Austria",
       "name": "Austrian Empire",
       "home": true
     }
   ],
   "after": [
     {
-      "id": "Q33946",
-      "region": "Czechia",
-      "name": "Czechoslovakia",
-      "home": false
-    },
-    {
       "id": "Q40",
       "region": "Austria",
       "name": "Republic of Austria",
+      "home": true
+    },
+    {
+      "id": "Q33946",
+      "region": "Czechia",
+      "name": "Czechoslovakia",
       "home": false
     }
   ],
@@ -116,7 +116,7 @@
       1918
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Budapest",
+    "home": "Vienna",
     "labelled": [
       "German Empire",
       "Kingdom of Italy",

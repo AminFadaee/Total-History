@@ -54,15 +54,15 @@
   ],
   "after": [
     {
-      "id": "Q12544",
-      "region": "Turkey",
-      "name": "Byzantine Empire",
-      "home": true
-    },
-    {
       "id": "Q42834",
       "region": "Italy",
       "name": "Western Roman Empire",
+      "home": true
+    },
+    {
+      "id": "Q12544",
+      "region": "Turkey",
+      "name": "Byzantine Empire",
       "home": false
     }
   ],

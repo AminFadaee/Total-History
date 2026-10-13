@@ -22,7 +22,12 @@
   "parts": [],
   "before": [],
   "after": [],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q504932",
+      "name": "Halfdan the Black"
+    }
+  ],
   "modern_countries": [
     "Norway",
     "Sweden",
@@ -31,7 +36,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "The period during the Middle Ages when Norsemen known as Vikings undertook large-scale raiding, colonising, conquest, and trading throughout Europe and reached North America.",
-  "tier": "Extended",
+  "tier": "Essential",
   "map": "maps/scandinavian-minor-kingdoms.png",
   "map_asked": true,
   "checks": {

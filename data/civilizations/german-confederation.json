@@ -23,35 +23,27 @@
   "parts": [],
   "before": [
     {
+      "id": "Q12548",
+      "region": "Germany",
+      "name": "Holy Roman Empire",
+      "home": true
+    },
+    {
       "id": "Q154741",
       "region": "Poland",
       "name": "Confederation of the Rhine",
-      "home": true
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q43287",
-      "region": "Poland",
+      "region": "Germany",
       "name": "German Empire",
       "home": true
-    },
-    {
-      "id": "Q150981",
-      "region": "Germany",
-      "name": "North German Confederation",
-      "home": false
     }
   ],
   "key_figures": [
-    {
-      "id": "Q130834",
-      "name": "Francis II, Holy Roman Emperor"
-    },
-    {
-      "id": "Q183579",
-      "name": "Ferdinand I of Austria"
-    },
     {
       "id": "Q51056",
       "name": "Franz Joseph I"

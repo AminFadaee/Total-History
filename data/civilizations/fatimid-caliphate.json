@@ -56,10 +56,16 @@
   "parts": [],
   "before": [
     {
+      "id": "Q12536",
+      "region": "Egypt",
+      "name": "Abbasid Caliphate",
+      "home": true
+    },
+    {
       "id": "Q207600",
       "region": "Tunisia",
       "name": "Aghlabid Dynasty",
-      "home": true
+      "home": false
     },
     {
       "id": "Q940123",

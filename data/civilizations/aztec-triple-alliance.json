@@ -23,14 +23,7 @@
   "parts": [
     "Tenochtitlan"
   ],
-  "before": [
-    {
-      "id": "Q13695",
-      "region": "Mexico",
-      "name": "Tenochtitlan",
-      "home": true
-    }
-  ],
+  "before": [],
   "after": [
     {
       "id": "Q80702",
@@ -41,16 +34,16 @@
   ],
   "key_figures": [
     {
-      "id": "Q318072",
-      "name": "Itzcoatl"
-    },
-    {
       "id": "Q13702",
       "name": "Moctezuma I"
     },
     {
       "id": "Q379964",
       "name": "Nezahualcoyotl"
+    },
+    {
+      "id": "Q141791",
+      "name": "Moctezuma II"
     },
     {
       "id": "Q297050",
