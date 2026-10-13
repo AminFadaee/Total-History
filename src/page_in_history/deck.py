@@ -134,7 +134,7 @@ def info(*lines: tuple[str, str]) -> str:
 
 
 CIVILIZATION_TITLE = '{{Name}}<div class="subtitle">{{Period}}</div>'
-CIVILIZATION_INFO = info(("What", "Summary"), ("Capital", "Capital"), ("Notable rulers", "Rulers"),
+CIVILIZATION_INFO = info(("What", "Summary"), ("Capital", "Capital"), ("Key figures", "Rulers"),
                          ("Before", "BeforeList"), ("After", "AfterList"), ("Today", "ModernCountries"))
 SUCCESSION_SLOTS = 3
 MAP_IMAGE = '<div class="image map">{{Map}}</div>'
@@ -409,7 +409,7 @@ class DeckBuilder:
             "AskPeriod": "yes" if period_text(period) else "",
             "Capital": joined([capital["name"] for capital in document["capitals"]]),
             **succession_fields(document),
-            "Rulers": joined([ruler["name"] for ruler in document["rulers"]], " · "),
+            "Rulers": joined([figure["name"] for figure in document["key_figures"]], " · "),
             "Summary": escaped(document.get("summary", "")),
             "ModernCountries": countries(document["modern_countries"])
                                + (f" · overseas: {countries(document['overseas_countries'])}" if document.get("overseas_countries") else ""),

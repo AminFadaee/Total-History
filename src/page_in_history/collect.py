@@ -13,6 +13,7 @@ from page_in_history.http import Http
 from page_in_history.lineages import Lineages
 from page_in_history.maps import MapJob, render_all
 from page_in_history.photos import COMMONS_FILE, PhotoClassifier, PhotoMode, PortraitFinder, digest
+from page_in_history.power import PowerScores
 from page_in_history.polities import Polity, PolityBuilder, PolityCatalog
 from page_in_history.sources import fonts, naturalearth, pantheon
 from page_in_history.sources.cliopatria import Cliopatria
@@ -89,7 +90,9 @@ class Collector:
         polities += builder.build([catalog.identities[name] for name in figure_builder.joined])
         builder.mark_repeated_maps(polities)
         builder.link_successions(polities, figures)
-        builder.choose_rulers(polities, figures)
+        scores = PowerScores(self.paths.root / "ruler_scores.json", self.http)
+        builder.choose_key_figures(polities, figures, scores)
+        scores.save()
         builder.assign_tiers(polities)
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))

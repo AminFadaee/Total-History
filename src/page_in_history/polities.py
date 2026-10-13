@@ -14,10 +14,11 @@ from page_in_history.naming import slugify
 from page_in_history.sources import vital
 from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
 from page_in_history.sources.wikidata import Entity, Wikidata, entity_id, qualifier_year
-from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country_infobox, display_name, place_name,
-                                                  ruler_succession)
+from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country_infobox, display_name, person_titles,
+                                                  place_name, ruler_succession)
 from page_in_history.regions import home, regions
 from page_in_history.sentences import contribution, first_paragraph
+from page_in_history.power import CONSORT, RULER, PowerScores
 from page_in_history.succession import WINDOW_YEARS, RegionalSuccession
 
 POLITY_ROOTS = {
@@ -50,6 +51,7 @@ SHARED_TOLERANCE_YEARS = 25
 # head of state, monarch, emperor, king, president (two items)
 HEAD_OF_STATE_CLASSES = {"Q48352", "Q116", "Q39018", "Q12097", "Q248577", "Q30461", "Q111840950"}
 SHOWN_RULERS, RULER_FAME_SHARE, ADULT_YEARS = 4, 3, 20
+RULER_SCORE = 0.5
 SPREAD_SHARE = 0.5
 KNOWN_NEIGHBOUR_LANGUAGES = 40
 MIRROR_GAP_YEARS = 100
@@ -160,7 +162,7 @@ class Polity:
     parts: list[str] = field(default_factory=list)
     before: list[dict] = field(default_factory=list)
     after: list[dict] = field(default_factory=list)
-    rulers: list[dict] = field(default_factory=list)
+    key_figures: list[dict] = field(default_factory=list)
     modern_countries: list[str] = field(default_factory=list)
     overseas_countries: list[str] = field(default_factory=list)
     borders: bool = True
@@ -1063,7 +1065,7 @@ class PolityBuilder:
             parts=parts,
             before=self._edges(before),
             after=self._edges(after),
-            rulers=self._rulers(identity.qid, self._qids(infobox.leaders))[:SHOWN_RULERS],
+            key_figures=self._rulers(identity.qid, self._qids(infobox.leaders))[:SHOWN_RULERS],
             modern_countries=modern[0],
             overseas_countries=modern[1],
             borders=drawn,
@@ -1192,7 +1194,7 @@ class PolityBuilder:
             named = [levels[qid] for qid in entity.ids("P138", preferred_only=False) if qid in listed]
             level = min([levels.get(polity.id, 9), through.get(polity.id, 9), *named])
             found = kinds.get(polity.id, set())
-            ruled = bool(polity.capitals or polity.rulers or polity.period.confirmed)
+            ruled = bool(polity.capitals or polity.key_figures or polity.period.confirmed)
             people = (found - {"sovereign"} in ({"people"}, {"period"}, {"people", "period"}) and not ruled) \
                 or polity.id in peoples \
                 or bool(set(entity.ids("P1001", preferred_only=False)) & (deck - {polity.id}))
@@ -1202,20 +1204,24 @@ class PolityBuilder:
             else:
                 polity.tier = Tier.ESSENTIAL if level < MAX_VITAL_LEVEL else Tier.CORE
 
-    def choose_rulers(self, polities: list[Polity], figures: list) -> None:
-        """A civilization's notable rulers, once its figures are known: the best-known people (by the number of Wikipedia
-        languages) among those Wikidata records as its head of state (P35, within its period), members of the
-        dynasty it is (P53) who took an office before 1945, holders of its own head-of-state office, and the figures
-        whose role says they ruled it (see _ruled). All must have ruled or lived within its period and before 1945.
-        Up to four, in order of their time, dropping any known in fewer than a third as many languages as the best
-        known. Someone holding the head office of several states counts for the one they held it longest (Philip II
-        for Spain, not Portugal) unless the state itself names them as its head of state. The infobox's leaders stay
-        when none of these is found, except emperors listed for a shogunate."""
+    def choose_key_figures(self, polities: list[Polity], figures: list, scores: PowerScores) -> None:
+        """A civilization's key figures, once its figures are known. The candidates: those Wikidata records as its head
+        of state (P35, within its period), holders of its own head-of-state office, members of the dynasty it is (P53)
+        who took an office before 1945, the figures whose role says they ruled it (see _ruled), and the leaders its
+        infobox lists who lived then. Someone holding the head office of several states counts for the one they held it
+        longest (Philip II for Spain, not Portugal) unless the state itself names them as its head of state. They are
+        ranked: first its rulers, by fame (Wikipedia languages): those the sources tie to its head office (its head of
+        state, office holders, infobox leaders) unless a model reading their own descriptions and titles (see
+        PowerModel) takes them for a consort, and those the model judges its sovereign or supreme leader; then the
+        rest, by fame. Infobox leaders count only if their adult life began before 1945. Anyone known in fewer than a third as
+        many languages as the best known is left out. Up to four, spread over its history (see _spread), in order of
+        their time."""
         spans = {polity.id: span for polity in polities if (span := self._ruled_years(polity))}
         ruled = self._ruled(polities, figures, spans)
         held: dict[str, dict[str, int]] = {}
         gathered: dict[str, dict[str, int]] = {}
         named: dict[str, set[str]] = {}
+        tied: dict[str, set[str]] = {}
         for polity in polities:
             if polity.id not in spans:
                 continue
@@ -1236,6 +1242,11 @@ class PolityBuilder:
                 found.setdefault(person, began)
             for person, began in ruled.get(polity.id, {}).items():
                 found.setdefault(person, began)
+            for person, began in self._listed_leaders(polity.id, start, end).items():
+                found.setdefault(person, began)
+                tied.setdefault(polity.id, set()).add(person)
+            tied.setdefault(polity.id, set()).update(named.get(polity.id, set()) | {
+                person for person, states in held.items() if polity.id in states})
             gathered[polity.id] = found
         for polity in polities:
             found = {person: began for person, began in gathered.get(polity.id, {}).items()
@@ -1245,19 +1256,45 @@ class PolityBuilder:
             self.names.update(people)
             found = {qid: year for qid, year in found.items()
                      if qid in self.names and HUMAN in self.names[qid].ids("P31", preferred_only=False)}
+            if found:
+                gathered[polity.id] = found
+        candidates = {qid for found in gathered.values() for qid in found}
+        pages = {qid: self.names[qid].enwiki for qid in candidates if self.names[qid].enwiki}
+        texts = self.wikipedia.wikitext(sorted(set(pages.values())))
+        for polity in polities:
+            found = gathered.get(polity.id)
             if not found:
-                if "shogunate" in polity.name.lower():
-                    leaders = self.wikidata.entities([ruler["id"] for ruler in polity.rulers])
-                    polity.rulers = [ruler for ruler in polity.rulers if not re.search(
-                        r"\b(?:emperor|empress)\b", leaders[ruler["id"]].description or "" if ruler["id"] in leaders else "",
-                        re.IGNORECASE)]
                 continue
             editions = self.wikidata.language_editions(list(found))
-            ranked = sorted(found, key=lambda qid: (-editions.get(qid, 0), qid))
-            floor = editions.get(ranked[0], 0) / RULER_FAME_SHARE
+
+            def standing(qid: str) -> int:
+                person = self.names[qid]
+                text = ". ".join(part for part in (self._name(qid), person.description or "",
+                                                   "; ".join(person_titles(texts.get(pages.get(qid, ""), "")))) if part)
+                shares = scores.shares(polity.name, self._name(qid), text)
+                consort = max(range(len(shares)), key=shares.__getitem__) == CONSORT
+                return int(shares[RULER] >= RULER_SCORE or (qid in tied.get(polity.id, ()) and not consort))
+
+            ranks = {qid: standing(qid) for qid in found}
+            ranked = sorted(found, key=lambda qid: (-ranks[qid], -editions.get(qid, 0), qid))
+            floor = max(editions.get(qid, 0) for qid in found) / RULER_FAME_SHARE
             ranked = [qid for qid in ranked if editions.get(qid, 0) >= floor]
             best = self._spread(ranked, found, editions, spans[polity.id])
-            polity.rulers = [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=lambda qid: found[qid])]
+            polity.key_figures = [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=lambda qid: found[qid])]
+
+    def _listed_leaders(self, polity_qid: str, start: int, end: int) -> dict[str, int]:
+        """The leaders the civilization's infobox lists who lived within its years: when their adult life began."""
+        leaders = self._qids(self.infoboxes[polity_qid].leaders) if polity_qid in self.infoboxes else []
+        people = self.wikidata.entities([qid for qid in leaders if qid not in self.names])
+        self.names.update(people)
+        found = {}
+        for qid in leaders:
+            person = self.names.get(qid)
+            births = person.years("P569") if person else []
+            began = (min(year.earliest for year in births) + ADULT_YEARS) if births else start
+            if person and lived_during(person, start, end) and began < LATEST_START:
+                found[qid] = began
+        return found
 
     @staticmethod
     def _spread(ranked: list[str], began: dict[str, int], editions: dict[str, int], years: tuple[int, int]) -> list[str]:
@@ -1349,9 +1386,11 @@ class PolityBuilder:
     def _office_terms(self, polity_qid: str, start: int, end: int) -> dict[str, tuple[int, int]]:
         """Holders of the state's own head-of-state office, or of an office Wikidata classes as head of state, monarch,
         emperor, king or president whose jurisdiction is the state, with a term within the years: when the first
-        began, and how many years they held it."""
+        began, and how many years they held it. A state whose own office is one of those classes itself (Judah's is
+        "king") would take every king, so such an office does not count."""
+        generic = ", ".join(f"wd:{kind}" for kind in sorted(HEAD_OF_STATE_CLASSES))
         rows = self.wikidata.query(f"""SELECT DISTINCT ?person ?start ?end WHERE {{
-          {{ wd:{polity_qid} wdt:P1906 ?office }} UNION {{ ?office wdt:P1001 wd:{polity_qid} .
+          {{ wd:{polity_qid} wdt:P1906 ?office FILTER(?office NOT IN ({generic})) }} UNION {{ ?office wdt:P1001 wd:{polity_qid} .
              ?office wdt:P279 ?kind . VALUES ?kind {{ {" ".join(f"wd:{kind}" for kind in sorted(HEAD_OF_STATE_CLASSES))} }} }}
           ?person p:P39 ?held . ?held ps:P39 ?office .
           OPTIONAL {{ ?held pq:P580 ?start }} OPTIONAL {{ ?held pq:P582 ?end }} }}""")

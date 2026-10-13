@@ -22,13 +22,13 @@ def report(paths: DataPaths) -> str:
         coverage("Ruled after card", sum(bool(c["after"]) for c in civilizations), total),
         coverage("Capital (context)", sum(bool(c["capitals"]) for c in civilizations), total),
         coverage("Period card (2 of 3 sources agree)", sum(c["period"]["confirmed"] for c in civilizations), total),
-        coverage("Notable rulers", sum(bool(c["rulers"]) for c in civilizations), total),
+        coverage("Key figures", sum(bool(c["key_figures"]) for c in civilizations), total),
     ]
     for civilization in civilizations:
         missing = [name for name, present in (
             ("period", civilization["period"]["confirmed"]), ("capital", civilization["capitals"]),
             ("before", civilization["before"]), ("after", civilization["after"]),
-            ("rulers", civilization["rulers"]),
+            ("key figures", civilization["key_figures"]),
         ) if not present]
         if missing:
             lines.append(f"    {civilization['name']}: no confirmed {', '.join(missing)}")

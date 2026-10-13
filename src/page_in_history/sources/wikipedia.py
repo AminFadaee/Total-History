@@ -9,6 +9,7 @@ from page_in_history.http import Http
 
 LINE_BREAK = re.compile(r"\n|<br\s*/?>", re.IGNORECASE)
 LIST_MARKUP = re.compile(r"^[*#:\s]+|\{\{\s*(?:plainlist|ubl|unbulleted list|flatlist)\s*\|?|\}\}", re.IGNORECASE)
+TITLE_FIELD = re.compile(r"(?:succession|title|office|order|reign-type)\d*")
 PLACE_NAME = re.compile(r"[A-Z][\w'’.-]*(?: [A-Z][\w'’.-]*){0,3}")
 API = "https://en.wikipedia.org/w/api.php"
 BATCH = 50
@@ -257,6 +258,16 @@ def ruler_succession(wikitext: str) -> dict[str, list[str]]:
             return {key: next((link_targets(fields[name]) for name in (key, f"{key}1") if name in fields
                                and link_targets(fields[name])), []) for key in ("predecessor", "successor")}
     return {"predecessor": [], "successor": []}
+
+
+def person_titles(wikitext: str) -> list[str]:
+    """The titles and offices a person's infobox gives ("Empress of Russia", "Mahapatih of the Majapahit Empire"), as
+    plain text, in the order the infobox lists them."""
+    for template in mw.parse(SECTION.split(wikitext, maxsplit=1)[0]).filter_templates(recursive=False):
+        if str(template.name).strip().lower().startswith("infobox"):
+            return [text for param in template.params if TITLE_FIELD.fullmatch(str(param.name).strip())
+                    and (text := param.value.strip_code().strip())]
+    return []
 
 
 def country_infobox(wikitext: str) -> Infobox | None:
