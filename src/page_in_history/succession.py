@@ -15,6 +15,8 @@ HEARTLAND_GRID = 60
 PARTITION_SHARE = 0.15
 PARTITION_HOLDERS = 3
 HOMELAND_DEGREES = 10
+WIDE_YEARS = 100
+NEAR_DEGREES = 2
 
 
 @dataclass(frozen=True)
@@ -29,6 +31,20 @@ class Holding:
 
 
 @dataclass(frozen=True)
+class Judge:
+    """What the deck knows of the states around a civilization: which may be asked as its neighbour (in the deck or well
+    known, not named like it), which is named like it and so leaves the side unasked, whether one can have followed the
+    other, their years (and core years), the deck, and the states the sources say came after (or before) one."""
+    asked: Callable[[str], bool]
+    blocking: Callable[[str], bool]
+    follows: Callable[[str, str, bool], bool]
+    years: Callable[[str], tuple[int, int] | None]
+    spans: Callable[[str], list[tuple[int, int]]]
+    in_deck: Callable[[str], bool]
+    followers: Callable[[str, bool], set[str]]
+
+
+@dataclass(frozen=True)
 class Anchor:
     point: Point
     place: str
@@ -40,9 +56,13 @@ class RegionalSuccession:
     longest, or without a confirmed capital the spot it held for the most years; the region is the modern country
     around it. The neighbour is the nearest holder on Cliopatria's maps within 30 years that Wikidata or the Wikipedia
     infobox also says came before or after; failing that, the nearest whose succession they imply through a part of
-    it (Carthage was followed by the Roman province of Africa, part of the Roman Republic). Holders that stayed five
-    years or less, like a wartime occupation, are passed over, and an empire partitioned among three or more states
-    has no single successor."""
+    it (Carthage was followed by the Roman province of Africa, part of the Roman Republic). The 30 years run from the
+    end the maps draw or the end of its period, whichever is nearer. Failing those, a deck state both sides name as
+    each other's neighbour, within 30 years and drawn within 2 degrees of the home; then a deck state the sources name
+    that held the home up to a century away with no other deck state holding it in between. Holders that stayed five
+    years or less, like a wartime occupation, are passed over, so are those that cannot have followed it, and an empire
+    partitioned among three or more states has no single successor. When the nearest confirmed holder is named like
+    the civilization (the Kingdom and the Crown of Castile), the side is left unasked."""
 
     def __init__(self, frame: gpd.GeoDataFrame, qids: dict[str, str], countries: gpd.GeoDataFrame,
                  stated: Callable[[str, str], bool], implied: Callable[[str, str], bool], equal_area: Callable):
@@ -52,14 +72,14 @@ class RegionalSuccession:
         self.implied = implied
         self.equal_area = equal_area
 
-    def neighbours(self, qid: str, capitals: list[dict], edges: tuple = (None, None),
-                   fits: Callable[[str], bool] = lambda neighbour: True, years: tuple | None = None,
+    def neighbours(self, qid: str, capitals: list[dict], edges: tuple, judge: Judge, years: tuple | None = None,
                    places: tuple = ()) -> tuple[list[dict], list[dict], str]:
         """Before and after, the main answer judged at the civilization's home and named by its country. When Wikidata
         dates the capitals, a side is judged at the capital held at that end if it lies in the same country (Ming's
         successor at Beijing, not at its first capital Nanjing); one in another country gives an answer for that
-        country beside the main one (the Roman Empire's at Constantinople). Only neighbours that fit (in the deck, not
-        named like the civilization) are taken. An empire drawn far from its capital, as Cliopatria draws the British
+        country beside the main one (the Roman Empire's at Constantinople). A side whose nearest confirmed holder is
+        named like the civilization comes back as blocked. Each answer says how it was found: on the map, mutually
+        stated, or across a wide window. An empire drawn far from its capital, as Cliopatria draws the British
         and Spanish Empires without Britain and Spain, has none: its home would be a colony."""
         rows = self.frame[self.frame.qid == qid]
         if rows.empty:
@@ -68,8 +88,8 @@ class RegionalSuccession:
         located = [Point(capital["location"]) for capital in capitals if capital["location"]]
         if not anchor.place and located and anchor.point.distance(located[0]) > HOMELAND_DEGREES:
             return [], [], ""
-        before = self._sides(qid, rows, edges[0], anchor, True, fits)
-        after = [] if self._partitioned(rows) else self._sides(qid, rows, edges[1], anchor, False, fits)
+        before = self._sides(qid, rows, edges[0], anchor, True, judge)
+        after = [] if self._partitioned(rows) else self._sides(qid, rows, edges[1], anchor, False, judge)
         return before, after, anchor.place
 
     def home(self, qid: str, capitals: list[dict], years: tuple | None = None, places: tuple = ()) -> Anchor | None:
@@ -81,42 +101,75 @@ class RegionalSuccession:
         """Whether the civilization ever held the point on the maps, or land within reach of it."""
         return any(holding.qid == qid for holding in self._holdings(point, CAPITAL_TOLERANCE_DEGREES))
 
-    def _sides(self, qid: str, rows: gpd.GeoDataFrame, edge, anchor: Anchor, before: bool, fits) -> list[dict]:
+    def near(self, qid: str, moment: int, point: Point) -> bool:
+        """Whether the civilization held land within 2 degrees of the point within 30 years of the moment."""
+        rows = self.frame[(self.frame.qid == qid) & (self.frame.ToYear >= moment - WINDOW_YEARS)
+                          & (self.frame.FromYear <= moment + WINDOW_YEARS)]
+        return not rows.empty and shapely.distance(rows.geometry.values, point).min() <= NEAR_DEGREES
+
+    def drawn(self, qid: str) -> bool:
+        return bool((self.frame.qid == qid).any())
+
+    def _sides(self, qid: str, rows: gpd.GeoDataFrame, edge, anchor: Anchor, before: bool, judge: Judge) -> list[dict]:
         """The main answer, and one at an end capital in another country. An answer at the end capital that repeats
         the main one is not asked again but keeps its country, so no other answer is asked there."""
         edge_rows = rows[rows.FromYear == rows.FromYear.min()] if before else rows[rows.ToYear == rows.ToYear.max()]
         near = edge and (shapely.distance(edge_rows.geometry.values, Point(edge)) <= CAPITAL_TOLERANCE_DEGREES).any()
         if not near or self._country(Point(edge)) == anchor.region:
-            found = self._side(qid, rows, edge if near else None, anchor, before, fits)
-            return [{**found, "main": True}] if found else []
-        main = self._side(qid, rows, None, anchor, before, fits)
-        at_edge = self._side(qid, rows, edge, anchor, before, fits)
-        sides = [{**main, "main": True}] if main else []
-        if at_edge:
-            sides.append({**at_edge, "reserved": bool(main) and at_edge["id"] == main["id"]})
+            found = self._side(qid, edge if near else None, anchor, before, judge)
+            return [found if found.get("blocked") else {**found, "main": True}] if found else []
+        main = self._side(qid, None, anchor, before, judge)
+        at_edge = self._side(qid, edge, anchor, before, judge)
+        sides = [main if main.get("blocked") else {**main, "main": True}] if main else []
+        if at_edge and not at_edge.get("blocked"):
+            sides.append({**at_edge, "reserved": bool(main) and at_edge["id"] == main.get("id")})
         return sides
 
-    def _side(self, qid: str, rows: gpd.GeoDataFrame, edge, anchor: Anchor, before: bool, fits) -> dict:
+    def _side(self, qid: str, edge, anchor: Anchor, before: bool, judge: Judge) -> dict:
         point = Point(edge) if edge else anchor.point
         at = anchor if point is anchor.point else Anchor(point, anchor.place, self._country(point))
         holdings = self._holdings(point, CAPITAL_TOLERANCE_DEGREES if edge else 0)
         own = [holding for holding in holdings if holding.qid == qid]
         if not own:
             return {}
+        span = judge.years(qid)
+        drawn_end = own[0].start if before else own[-1].end
+        moments = [drawn_end] + ([span[0] if before else span[1]] if span else [])
+        pair = (lambda other: (other, qid)) if before else (lambda other: (qid, other))
+        their_end = (lambda holding: holding.end) if before else (lambda holding: holding.start)
+        distance = lambda holding: min(abs(their_end(holding) - moment) for moment in moments)
         others = [holding for holding in holdings if holding.qid != qid and holding.years >= MIN_HOLD_YEARS
-                  and fits(holding.qid)]
-        if before:
-            return self._neighbour(others, own[0].start, lambda holding: holding.end, (None, qid), at)
-        return self._neighbour(others, own[-1].end, lambda holding: holding.start, (qid, None), at)
-
-    def _neighbour(self, others: list[Holding], moment: int, edge, pair, anchor: Anchor) -> dict:
-        nearby = sorted((abs(edge(holding) - moment), holding.qid) for holding in others
-                        if abs(edge(holding) - moment) <= WINDOW_YEARS)
+                  and judge.follows(*pair(holding.qid), before)]
+        nearby = sorted((holding for holding in others if distance(holding) <= WINDOW_YEARS),
+                        key=lambda holding: (abs(their_end(holding) - drawn_end), holding.qid))
         for confirmed in (self.stated, self.implied):
-            for _, neighbour in nearby:
-                first, last = (neighbour, pair[1]) if pair[0] is None else (pair[0], neighbour)
-                if confirmed(first, last):
-                    return {"id": neighbour, "region": anchor.region}
+            for holding in nearby:
+                if confirmed(*pair(holding.qid)):
+                    if judge.asked(holding.qid):
+                        return {"id": holding.qid, "region": at.region, "how": "map"}
+                    if judge.blocking(holding.qid):
+                        return {"blocked": True}
+        if span:
+            moment = span[0] if before else span[1]
+            for other in sorted(judge.followers(qid, not before)):
+                theirs = judge.years(other)
+                if judge.in_deck(other) and judge.asked(other) and judge.follows(*pair(other), before) \
+                        and qid in judge.followers(other, before) and theirs \
+                        and abs((theirs[1] if before else theirs[0]) - moment) <= WINDOW_YEARS and self.near(other, moment, point):
+                    return {"id": other, "region": at.region, "how": "mutual"}
+        wide = sorted((holding for holding in others if WINDOW_YEARS < distance(holding) <= WIDE_YEARS
+                       and judge.in_deck(holding.qid) and (holding.start < own[0].start if before else holding.end > own[-1].end)),
+                      key=lambda holding: (distance(holding), holding.qid))
+        for holding in wide:
+            if not self.stated(*pair(holding.qid)) or not judge.asked(holding.qid):
+                continue
+            low, high = sorted((holding.end, own[0].start) if before else (own[-1].end, holding.start))
+            gaps = [(mine[0] - theirs[1]) if before else (theirs[0] - mine[1])
+                    for mine in judge.spans(qid) for theirs in judge.spans(holding.qid)]
+            between = [other for other in holdings if judge.in_deck(other.qid) and other.qid not in (holding.qid, qid)
+                       and other.years >= MIN_HOLD_YEARS and other.start < high and other.end > low]
+            if all(gap <= WIDE_YEARS for gap in gaps) and not between:
+                return {"id": holding.qid, "region": at.region, "how": "wide"}
         return {}
 
     def _anchor(self, rows: gpd.GeoDataFrame, capitals: list[dict], years: tuple | None = None,

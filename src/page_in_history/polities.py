@@ -20,7 +20,7 @@ from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country
 from page_in_history.regions import home, regions
 from page_in_history.sentences import contribution, first_paragraph
 from page_in_history.power import CONSORT, RULER, SERVANT, PowerScores
-from page_in_history.succession import WINDOW_YEARS, RegionalSuccession
+from page_in_history.succession import WINDOW_YEARS, Judge, RegionalSuccession
 
 POLITY_ROOTS = {
     "Q7275",  # state
@@ -57,6 +57,7 @@ RULER_RANK, OTHER_FIGURES = 2, 2
 SPREAD_SHARE = 0.5
 KNOWN_NEIGHBOUR_LANGUAGES = 40
 MIRROR_GAP_YEARS = 100
+HOME_OVERLAP_YEARS = 5
 SUCCESSION_SLOTS = 3
 SAME_PLACE_KM = 5
 STEM_LETTERS = 5
@@ -595,6 +596,8 @@ class PolityBuilder:
                                              equal_area)
         self.founded_early: set[str] = set()
         self.parents: dict[str, set[str]] = {}
+        self.members: dict[str, set[str]] = {}
+        self.deck_polities: dict[str, Polity] = {}
         self.office_spans: dict[str, dict[str, list[tuple[int, int]]]] = {}
         self.deck: dict[str, str] = {}
 
@@ -861,54 +864,123 @@ class PolityBuilder:
         infobox names as successor (predecessor), when that person led exactly one other deck civilization, which began
         within 30 years and held the civilization's home on the map (Timurid → Mughal through Babur; not Great Britain
         before Hanover, a shared crown). Then the same links seen from the other side (Achaemenid
-        before the Macedonian Empire). One civilization per region, at most three a side. The first, asked as its own
-        card, is in its home region (today's country at its longest-held capital); the others are other regions."""
-        deck = {polity.id for polity in polities}
+        before the Macedonian Empire), except for answers found only by both naming each other or across a wide
+        window. Every answer must be able to have followed: a predecessor began before the civilization, a successor
+        ended after it, neither was a part the other absorbed nor a phase of it under the same name. One civilization
+        per region, at most three a side. The first, asked as its own card, is in its home region (today's country at
+        its longest-held capital); the others are other regions. An answer from the other side or a leader fills the
+        home only when the two overlap by five years at most, or by 30 when it held land near the home at the change."""
+        deck = self.deck_polities = {polity.id: polity for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
         homes_from = {polity.id: self._home(self.catalog.entities[polity.id], polity.period, polity.capitals)
                       for polity in polities}
+        blocked, weak = set(), set()
         for polity in polities:
-            if any(not known(edge["id"]) for edge in polity.before + polity.after):
-                entity = self.catalog.entities[polity.id]
-                before, after, _ = self.succession.neighbours(
-                    polity.id, homes_from[polity.id]["capitals"], self._capital_edges(entity, polity.period),
-                    lambda other: known(other) and not same_name(polity.name, self._name(other)),
-                    homes_from[polity.id]["years"], homes_from[polity.id]["places"])
-                polity.before, polity.after = self._edges(before), self._edges(after)
-        by_id = {polity.id: polity for polity in polities}
+            judge = Judge(asked=lambda other, name=polity.name: known(other) and not same_name(name, self._name(other)),
+                          blocking=lambda other, name=polity.name: known(other) and same_name(name, self._name(other)),
+                          follows=self._follows, years=self._span, spans=self._spans, in_deck=deck.__contains__,
+                          followers=self._followers)
+            before, after, _ = self.succession.neighbours(
+                polity.id, homes_from[polity.id]["capitals"], self._capital_edges(self.catalog.entities[polity.id], polity.period),
+                judge, homes_from[polity.id]["years"], homes_from[polity.id]["places"])
+            for side, found in (("before", before), ("after", after)):
+                blocked |= {(polity.id, side) for edge in found if edge.get("blocked")}
+                weak |= {(polity.id, side, edge["id"]) for edge in found if edge.get("how") in ("mutual", "wide")}
+                setattr(polity, side, self._edges([{key: value for key, value in edge.items() if key != "how"}
+                                                   for edge in found if "id" in edge]))
         anchors = {polity.id: self.succession.home(polity.id, **homes_from[polity.id]) for polity in polities}
         homes = {polity.id: anchors[polity.id].region if anchors[polity.id] else self._home_region(polity)
                  for polity in polities}
         for polity, side, other in self._ruler_links(polities, figures):
             anchor = anchors[polity.id]
-            if anchor is None or not by_id[other].borders or self.succession.held(other, anchor.point):
-                self._link(polity, side, by_id[other], homes[polity.id], WINDOW_YEARS)
+            if anchor is None or not deck[other].borders or self.succession.held(other, anchor.point):
+                self._link(polity, side, deck[other], homes[polity.id], WINDOW_YEARS)
         for polity in polities:
-            for edge in list(polity.after):
-                if edge["id"] in by_id and not edge.get("reserved"):
-                    self._link(by_id[edge["id"]], "before", polity, edge["region"])
-            for edge in list(polity.before):
-                if edge["id"] in by_id and not edge.get("reserved"):
-                    self._link(by_id[edge["id"]], "after", polity, edge["region"])
+            for side, mirror in (("after", "before"), ("before", "after")):
+                for edge in list(getattr(polity, side)):
+                    if edge["id"] in deck and not edge.get("reserved") and (polity.id, side, edge["id"]) not in weak:
+                        self._link(deck[edge["id"]], mirror, polity, edge["region"])
         for polity in polities:
             for side in ("before", "after"):
-                edges = getattr(polity, side)
+                before = side == "before"
+                pair = (lambda other: (other, polity.id)) if before else (lambda other: (polity.id, other))
+                edges = [edge for edge in getattr(polity, side) if edge.get("reserved") or self._follows(*pair(edge["id"]), before)]
                 reserved = {edge["region"] for edge in edges if edge.get("reserved")}
                 edges = [edge for edge in edges if not edge.get("reserved")]
                 mapped = [edge for edge in edges if edge.get("main")][:1]
+                fallback = [edge for edge in mapped if (polity.id, side, edge["id"]) in weak]
+                home = [] if fallback else mapped
                 closest: dict[str, dict] = {}
                 for edge in sorted((edge for edge in edges if edge not in mapped),
-                                   key=lambda edge: (self._gap(polity, by_id.get(edge["id"]), side), edge["name"])):
+                                   key=lambda edge: (self._gap(polity, deck.get(edge["id"]), side), edge["name"])):
                     if edge["region"] not in closest and edge["region"] not in reserved \
-                            and all(edge["region"] != own["region"] and edge["id"] != own["id"] for own in mapped):
+                            and all(edge["region"] != own["region"] and edge["id"] != own["id"] for own in home):
                         closest[edge["region"]] = edge
                 others = list(closest.values())
-                home = mapped or [edge for edge in others if edge["region"] == homes[polity.id]][:1]
+                if not home:
+                    region = fallback[0]["region"] if fallback else homes[polity.id]
+                    anchor = anchors[polity.id]
+                    home = [] if (polity.id, side) in blocked else \
+                        [edge for edge in others if edge["region"] == region
+                         and (anchor is None or self._fills_home(polity, edge["id"], side, anchor.point))][:1] or fallback
+                    others = [edge for edge in others if edge["region"] != region]
                 others = [edge for edge in others if edge not in home]
                 plain = lambda edge: {key: value for key, value in edge.items() if key not in ("main", "reserved")}
                 setattr(polity, side, [{**plain(edge), "home": True} for edge in home]
                         + [{**plain(edge), "home": False} for edge in others][:SUCCESSION_SLOTS - 1])
+
+    def _fills_home(self, polity: Polity, other: str, side: str, point) -> bool:
+        """An answer from the other side or a leader may stand in the home region when the two overlap by five years at
+        most, or by 30 when it held land within 2 degrees of the home at the change."""
+        if self._apart(polity.id, other, side, HOME_OVERLAP_YEARS):
+            return True
+        if not self._apart(polity.id, other, side, WINDOW_YEARS):
+            return False
+        span = self._span(polity.id)
+        if not self.succession.drawn(other) or not span:
+            return self.succession.drawn(other) or other not in self.deck_polities or not self.deck_polities[other].borders
+        return self.succession.near(other, span[0] if side == "before" else span[1], point)
+
+    def _apart(self, qid: str, other: str, side: str, tolerance: int) -> bool:
+        mine, theirs = self._span(qid), self._span(other)
+        if not mine or not theirs:
+            return True
+        return theirs[1] <= mine[0] + tolerance if side == "before" else theirs[0] >= mine[1] - tolerance
+
+    def _follows(self, first: str, last: str, earlier_asked: bool) -> bool:
+        """Whether the second can have followed the first: the predecessor asked began before the civilization, the
+        successor asked ended after it (Assyria is not followed by the Neo-Assyrian Empire, which ended first); the
+        first was not a part absorbed by the second (Wikidata's part of, or the second's parts); and they are not
+        phases of one state under a shared name, one period within the other (Qi and Qin)."""
+        earlier, later = self._span(first), self._span(last)
+        if earlier and later and not (earlier[0] < later[0] if earlier_asked else later[1] > earlier[1]):
+            return False
+        if last in self._parents(first) or first in self._members(last):
+            return False
+        return not (earlier and later and stems(self._name(first)) & stems(self._name(last))
+                    and (earlier[0] <= later[0] and earlier[1] >= later[1] or later[0] <= earlier[0] and later[1] >= earlier[1]))
+
+    def _span(self, qid: str) -> tuple[int, int] | None:
+        """A state's years: a deck civilization's confirmed period, else the years the maps draw it, else Wikidata's."""
+        polity = self.deck_polities.get(qid)
+        if polity and polity.period.confirmed:
+            return polity.period.start.earliest, polity.period.end.latest
+        if qid in self.catalog.by_qid:
+            return self.catalog.years(qid)
+        rows = self.succession.frame[self.succession.frame.qid == qid]
+        return (int(rows.FromYear.min()), int(rows.ToYear.max())) if not rows.empty else None
+
+    def _spans(self, qid: str) -> list[tuple[int, int]]:
+        polity = self.deck_polities.get(qid)
+        core = [tuple(polity.period.core)] if polity and not polity.period.confirmed and polity.period.core else []
+        return [span for span in [self._span(qid)] + core if span]
+
+    def _members(self, qid: str) -> set[str]:
+        if qid not in self.members:
+            entity = self.catalog.entities.get(qid) or self.wikidata.entities([qid]).get(qid)
+            self.members[qid] = set(entity.ids("P527", preferred_only=False)) if entity else set()
+        return self.members[qid]
 
     def _link(self, polity: Polity, side: str, other: Polity, region: str, gap: int = MIRROR_GAP_YEARS) -> None:
         """Add the other civilization before or after this one in the region, unless it is listed already, the region
@@ -1104,9 +1176,7 @@ class PolityBuilder:
                  if qid in self.catalog.by_qid and qid != identity.qid]
         map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
         home = self._home(entity, period, capitals)
-        before, after, home_place = self.succession.neighbours(
-            identity.qid, home["capitals"], self._capital_edges(entity, period),
-            lambda other: not same_name(identity.name, self._name(other)), home["years"], home["places"])
+        anchor = self.succession.home(identity.qid, **home)
         modern = self._modern_countries(extent, capitals, entity.coordinates()) if drawn else ([], [])
         polity = Polity(
             id=identity.qid,
@@ -1117,8 +1187,8 @@ class PolityBuilder:
             period=period,
             capitals=capitals,
             parts=parts,
-            before=self._edges(before),
-            after=self._edges(after),
+            before=[],
+            after=[],
             key_figures=self._rulers(identity.qid, self._qids(infobox.leaders))[:SHOWN_RULERS],
             modern_countries=modern[0],
             overseas_countries=modern[1],
@@ -1131,7 +1201,7 @@ class PolityBuilder:
                                 "infobox": [self._name(q) for q in self._qids(infobox.capital)]},
             "cliopatria_years": [first, last] if drawn else [],
             "identity": identity.how,
-            "home": home_place or "the spot held longest",
+            "home": (anchor.place if anchor else "") or "the spot held longest",
         }
         return polity
 
