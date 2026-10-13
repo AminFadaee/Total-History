@@ -4,10 +4,10 @@
 figure_absent = [
   { civilization = "Republic of Austria", people = { Q9215 = "Sigmund Freud" } },
   { civilization = "South Africa", people = { Q121885 = "Robert Sobukwe" } },
-  { civilization = "Beylik of Karaman", people = { Q335362 = "Alauddin Khalji" }, open = true },
+  { civilization = "Beylik of Karaman", people = { Q335362 = "Alauddin Khalji" } },
   { civilization = "Beylik of Karaman", people = { Q381830 = "Muhammad bin Tughluq" } },
-  { civilization = "Beylik of Karaman", people = { Q174791 = "Mahmud II" }, open = true },
-  { civilization = "Avar Khaganate", people = { Q1371679 = "Theodore Abu Qurrah" }, open = true },
+  { civilization = "Beylik of Karaman", people = { Q174791 = "Mahmud II" } },
+  { civilization = "Avar Khaganate", people = { Q1371679 = "Theodore Abu Qurrah" } },
   { civilization = "Nguyễn dynasty", people = { Q192502 = "Ngo Dinh Diem" } },
   { civilization = "Kingdom of Portugal", people = { Q151394 = "António de Oliveira Salazar" } },
   { civilization = "Kingdom of Castile", people = { Q43958 = "El Cid" } },
@@ -17,7 +17,7 @@ figure_absent = [
   { civilization = "Kingdom of Judah", people = { Q127170 = "Hazael" } },
   { civilization = "Majapahit", people = { Q49329 = "Gajah Mada" } },
   { civilization = "Western Roman Empire", people = { Q309845 = "Ricimer" } },
-  { civilization = "Empire of Brazil", people = { Q209353 = "Teresa Cristina of the Two Sicilies" }, open = true },
+  { civilization = "Empire of Brazil", people = { Q209353 = "Teresa Cristina of the Two Sicilies" } },
   { civilization = "Zengid dynasty", people = { Q337506 = "Ahmad Sanjar" } },
   { civilization = "Tokugawa Shogunate", people = { Q349440 = "Emperor Go-Yōzei" } },
   { civilization = "Tokugawa Shogunate", people = { Q174231 = "Emperor Meiji" } },
@@ -30,12 +30,12 @@ figure_absent = [
   { civilization = "Ashanti Empire", people = { Q2108713 = "Prempeh II" } },
   { civilization = "Kingdom of Navarre", people = { Q737533 = "Louis XIII" } },
   { civilization = "Kingdom of Bohemia", people = { Q130834 = "Francis II, Holy Roman Emperor" } },
-  { civilization = "Kingdom of Sweden", people = { Q153940 = "Christian I of Denmark" }, open = true },
-  { civilization = "Habsburg Monarchy", people = { Q34417 = "Philip II of Spain" }, open = true },
-  { civilization = "Kingdom of Galicia–Volhynia", people = { Q53457 = "Casimir III the Great" }, open = true },
-  { civilization = "Kingdom of Hungary", people = { Q156473 = "Ferenc Szálasi" }, open = true },
-  { civilization = "Prussia", people = { Q2646 = "Friedrich Ebert" }, open = true },
-  { civilization = "Sultanate of Rum", people = { Q243245 = "Ertuğrul" }, open = true },
+  { civilization = "Kingdom of Sweden", people = { Q153940 = "Christian I of Denmark" } },
+  { civilization = "Habsburg Monarchy", people = { Q34417 = "Philip II of Spain" } },
+  { civilization = "Kingdom of Galicia–Volhynia", people = { Q53457 = "Casimir III the Great" } },
+  { civilization = "Kingdom of Hungary", people = { Q156473 = "Ferenc Szálasi" } },
+  { civilization = "Prussia", people = { Q2646 = "Friedrich Ebert" } },
+  { civilization = "Sultanate of Rum", people = { Q243245 = "Ertuğrul" } },
   { civilization = "United States of America", people = { Q9960 = "Ronald Reagan" } },
   { civilization = "United States of America", people = { Q76 = "Barack Obama" } },
 ]
@@ -76,13 +76,13 @@ figure_present = [
   { civilization = "Classical Athens", people = { Q80398 = "Pericles" } },
   { civilization = "Carthage", people = { Q36456 = "Hannibal" } },
   { civilization = "Maya civilization", people = { Q371384 = "Kʼinich Janaabʼ Pakal" } },
-  { civilization = "Golden Horde", people = { Q175138 = "Batu Khan", Q335097 = "Özbeg Khan" }, open = true },
+  { civilization = "Golden Horde", people = { Q175138 = "Batu Khan", Q335097 = "Özbeg Khan" } },
   { civilization = "Ilkhanate", people = { Q177320 = "Hulegu Khan", Q334496 = "Ghazan" } },
-  { civilization = "British Raj", people = { Q9439 = "Queen Victoria" }, open = true },
-  { civilization = "Spanish Empire", people = { Q34417 = "Philip II of Spain", Q32500 = "Charles V, Holy Roman Emperor" }, open = true },
-  { civilization = "Yugoslavia", people = { Q207384 = "Alexander I of Yugoslavia" }, open = true },
+  { civilization = "British Raj", people = { Q9439 = "Queen Victoria" } },
+  { civilization = "Spanish Empire", people = { Q34417 = "Philip II of Spain", Q32500 = "Charles V, Holy Roman Emperor" } },
+  { civilization = "Yugoslavia", people = { Q207384 = "Alexander I of Yugoslavia" } },
   { civilization = "Göktürks", people = { Q29001 = "Bumin Qaghan", Q381125 = "Bilge Qaghan" }, open = true },
-  { civilization = "Holy Roman Empire", people = { Q43915 = "Otto the Great", Q32500 = "Charles V, Holy Roman Emperor" }, open = true },
+  { civilization = "Holy Roman Empire", people = { Q43915 = "Otto the Great", Q32500 = "Charles V, Holy Roman Emperor" } },
 ]
 
 succession_absent = [
@@ -119,13 +119,13 @@ succession_present = [
 ]
 
 succession_answered = [
-  { civilization = "Carthage", side = "after", open = true },
+  { civilization = "Carthage", side = "after" },
   { civilization = "Tang Dynasty", side = "after", open = true },
   { civilization = "Song dynasty", side = "before", open = true },
   { civilization = "Babylonia", side = "after" },
   { civilization = "Zhou Dynasty", side = "after", open = true },
-  { civilization = "Seleucid Empire", side = "after", open = true },
-  { civilization = "Ptolemaic Kingdom", side = "after", open = true },
+  { civilization = "Seleucid Empire", side = "after" },
+  { civilization = "Ptolemaic Kingdom", side = "after" },
   { civilization = "Gupta Empire", side = "before" },
 ]
 
