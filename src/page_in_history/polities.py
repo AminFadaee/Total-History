@@ -95,6 +95,9 @@ DYNASTY = "Q164950"
 GENERIC_WORDS = {"sultanate", "empire", "kingdom", "dynasty", "of", "the", "caliphate", "republic", "state"}
 LASTING_AREA_YEARS, LASTING_LANGUAGES, COLONIAL_ERA = 12_500_000, 30, 1500
 CORE_AREA_YEARS = 150_000_000
+EVENT_KINDS = {"Q198", "Q178561", "Q180684", "Q10931", "Q131569"}
+EVENT_LANGUAGES = 30
+CORE_EVENTS = 15
 LIVING_ON_MAP_BEFORE = 1930
 PRESENT_DESCRIPTION_FROM = 1900
 MID_THOUGHT = re.compile(r"(?:It|Its|They|Their|The dynasty|Under)\b")
@@ -1374,16 +1377,17 @@ class PolityBuilder:
         """Tiers from Wikipedia's Vital Articles: Essential for a state on its 1,000 articles (level 3), Core for one on
         its 10,000 (level 4) or for one on its 50,000 (level 5) that was vast and lasting: its drawn area summed over
         its years reaching 150 million km²·years, a million km² for 150 years, not a colony (the Rashidun Caliphate, the
-        Ilkhanate). Extended for the rest, which a learner may suspend. A state counts as listed when a listed dynasty
-        is its own, by being the state's country or the name the state is named after (the Safavid dynasty for Safavid
-        Iran), when its name is that of a listed people or order once the kind of state is set aside (the Aztecs for the
-        Aztec Empire, the Teutonic Order for its state), when the catalogue left out a listed people as its own (the
-        Göktürks for the Göktürk Khaganate), or when it is a part of a listed civilization that is not in the deck
-        itself (the Roman Republic and Empire of Ancient Rome) or of a listed era that names it among its parts (Shu Han
-        of the Three Kingdoms). A people without a capital, rulers or a confirmed period (the Goths, the Saxons; not the
-        Hittites or the Huns), a country that still exists, whose item is today's country (the Kingdom of Sweden,
-        Mexico), and an era with no capital or confirmed period, whatever figures it has (the Viking Age), are
-        Extended."""
+        Ilkhanate), or for any other state that took part in, or was the country of, at least 15 wars, battles,
+        revolutions or treaties known in 30 Wikipedia languages (the Dutch Republic, the First French Empire). Extended
+        for the rest, which a learner may suspend. A state counts as listed when a listed dynasty is its own, by being
+        the state's country or the name the state is named after (the Safavid dynasty for Safavid Iran), when its name
+        is that of a listed people or order once the kind of state is set aside (the Aztecs for the Aztec Empire, the
+        Teutonic Order for its state), when the catalogue left out a listed people as its own (the Göktürks for the
+        Göktürk Khaganate), or when it is a part of a listed civilization that is not in the deck itself (the Roman
+        Republic and Empire of Ancient Rome) or of a listed era that names it among its parts (Shu Han of the Three
+        Kingdoms). A people without a capital, rulers or a confirmed period (the Goths, the Saxons; not the Hittites or
+        the Huns), a country that still exists, whose item is today's country (the Kingdom of Sweden, Mexico), and an
+        era with no capital or confirmed period, whatever figures it has (the Viking Age), are Extended."""
         qids = [polity.id for polity in polities]
         deck = set(qids)
         levels = self.catalog.vital_levels
@@ -1413,6 +1417,7 @@ class PolityBuilder:
                     through[polity.id] = min(levels[whole], through.get(polity.id, levels[whole]))
         kinds = self.wikidata.kinds(qids, TIER_KINDS | {SOVEREIGN_STATE: "sovereign", PERIOD: "period"})
         colonies = self.wikidata.kinds(qids, KINDS)
+        lesser = []
         for polity in polities:
             entity = self.catalog.entities[polity.id]
             named = [levels[qid] for qid in entity.ids("P138", preferred_only=False) if qid in listed]
@@ -1431,8 +1436,15 @@ class PolityBuilder:
             present = "sovereign" in found and not entity.years("P576") + entity.years("P582")
             if level > MAX_VITAL_LEVEL or people or present:
                 polity.tier = Tier.EXTENDED
+                if not (people or present):
+                    lesser.append(polity)
             else:
                 polity.tier = Tier.ESSENTIAL if level < MAX_VITAL_LEVEL else Tier.CORE
+        events = self.wikidata.events([polity.id for polity in lesser], EVENT_KINDS)
+        editions = self.wikidata.language_editions(list(set().union(*events.values())))
+        for polity in lesser:
+            if sum(editions.get(event, 0) >= EVENT_LANGUAGES for event in events[polity.id]) >= CORE_EVENTS:
+                polity.tier = Tier.CORE
 
     def choose_key_figures(self, polities: list[Polity], figures: list, scores: PowerScores) -> None:
         """A civilization's key figures, once its figures are known: up to four people, in order of their time.

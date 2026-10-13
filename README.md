@@ -89,15 +89,17 @@ Notes are tagged so you can filter or suspend groups of them:
 - tier: `PIH::Tier::Essential` for the civilizations on Wikipedia's 1,000 vital articles (Vital Articles level 3), about
   20, which also carry `PIH::Tier::Core`; `PIH::Tier::Core` for those on its 10,000 (level 4), and for those on
   its 50,000 (level 5) that were vast and lasting, their drawn area summed over their years reaching 150 million
-  km²·years, a million km² for 150 years, without being colonies (the Rashidun Caliphate, the Ilkhanate), about 230 with
-  the Essential ones; `PIH::Tier::Extended` for the rest, which you may suspend. A state counts as listed when a listed
-  dynasty is its own (the Safavid dynasty for Safavid Iran), when it bears the name of a listed people or order (the
-  Aztecs for the Aztec Empire, the Teutonic Order for its state), when it stands for a listed people the catalogue
-  leaves out as its own (the Göktürks for the Göktürk Khaganate), or when it is part of a listed civilization the deck
-  does not have itself (the Roman Republic and Empire of Ancient Rome) or of a listed era that names it among its
-  parts (Shu Han of the Three Kingdoms). Peoples without a capital, key figures or a confirmed period (the Goths),
-  countries that still exist (the United States, Mexico), and eras without a capital or confirmed period, whatever
-  figures they have (the Viking Age), are Extended
+  km²·years, a million km² for 150 years, without being colonies (the Rashidun Caliphate, the Ilkhanate), and for any
+  other state that took part in, or was the country of, at least 15 wars, battles, revolutions or treaties known in 30
+  or more Wikipedia languages (the Dutch Republic, the First French Empire), about 235 with the Essential ones;
+  `PIH::Tier::Extended` for the rest, which you may suspend. A state counts as listed when a listed dynasty is its own
+  (the Safavid dynasty for Safavid Iran), when it bears the name of a listed people or order (the Aztecs for the Aztec
+  Empire, the Teutonic Order for its state), when it stands for a listed people the catalogue leaves out as its own
+  (the Göktürks for the Göktürk Khaganate), or when it is part of a listed civilization the deck does not have itself
+  (the Roman Republic and Empire of Ancient Rome) or of a listed era that names it among its parts (Shu Han of the
+  Three Kingdoms). Peoples without a capital, key figures or a confirmed period (the Goths), countries that still
+  exist (the United States, Mexico), and eras without a capital or confirmed period, whatever figures they have (the
+  Viking Age), are Extended
 
 To skip a kind of question, suspend its subdeck rather than deleting it: deleted cards come back when you import an
 update.

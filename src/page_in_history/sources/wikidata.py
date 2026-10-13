@@ -8,6 +8,7 @@ SPARQL = "https://query.wikidata.org/sparql"
 BATCH = 20
 ENTITY_CHUNK = 500
 KIND_BATCH = 150
+EVENT_BATCH = 10
 CIRCA = "Q5727902"
 SOURCING_CIRCUMSTANCES = "P1480"
 YEAR_PRECISION = 9
@@ -227,6 +228,21 @@ class Wikidata:
                               "?item wdt:P31/wdt:P279* ?root }")
             for row in rows:
                 found[entity_id(row["item"])].add(roots[entity_id(row["root"])])
+        return found
+
+    def events(self, ids: list[str], roots: set[str]) -> dict[str, set[str]]:
+        """The events of the root kinds, through any chain of subclasses, that each item took part in (P710, P1344) or
+        was the country of (P17)."""
+        unique = sorted(set(ids))
+        found: dict[str, set[str]] = {qid: set() for qid in unique}
+        values = " ".join(f"wd:{root}" for root in sorted(roots))
+        for start in range(0, len(unique), EVENT_BATCH):
+            items = " ".join(f"wd:{qid}" for qid in unique[start : start + EVENT_BATCH])
+            rows = self.query(f"SELECT DISTINCT ?item ?event WHERE {{ VALUES ?item {{ {items} }} "
+                              f"VALUES ?root {{ {values} }} {{ ?event wdt:P710 ?item }} UNION {{ ?item wdt:P1344 ?event }} "
+                              "UNION { ?event wdt:P17 ?item } ?event wdt:P31/wdt:P279* ?root }")
+            for row in rows:
+                found[entity_id(row["item"])].add(entity_id(row["event"]))
         return found
 
     def query(self, sparql: str) -> list[dict]:
