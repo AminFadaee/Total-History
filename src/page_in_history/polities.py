@@ -386,6 +386,7 @@ class PolityCatalog:
             self.unresolved.pop(name, None)
         self.qids = {name: identity.qid for name, identity in candidates.items()}
         self.identities = self._without_duplicates(candidates)
+        self.peoples = self._without_peoples()
         self.by_qid = {identity.qid: identity for identity in self.identities.values()}
         self.mapless: dict[str, tuple[int, int]] = {}
         self.folded: dict[str, list[str]] = {}
@@ -595,6 +596,55 @@ class PolityCatalog:
             self.qids = {renamed.get(name, name): qid for name, qid in self.qids.items()}
         return kept
 
+    def _without_peoples(self) -> dict[str, set[str]]:
+        """A people or dynasty drawn beside its own state would be asked twice: the Vandals beside the Vandal Kingdom,
+        the Seljuk dynasty beside the Great Seljuk Empire, the Göktürks beside the Göktürk Khaganate. A name whose
+        article has no country infobox is the people of a state whose article has one when the state gives it as its
+        people (P172), when it gives the state as where it applies (P1001), or when it has ended and the state is the
+        only one named like it once the kind of state (kingdom, khaganate…) is set aside whose dates overlap its own by
+        more than 25 years and whose land meets its own. The people leaves the catalogue and its shapes stay on the
+        maps under its own name. Returns each people's item with the items of its states."""
+        forms = stems(" ".join(OFFICE_STATES))
+        names = lambda name: {frozenset(found) for title in (name, display_name(self.identities[name].title))
+                              if (found := stems(title) - forms)}
+        by_qid = {identity.qid: name for name, identity in self.identities.items()}
+        spans, ended, named, peoples_of = {}, set(), {}, {}
+        for name, identity in self.identities.items():
+            entity, rows = self.entities[identity.qid], self.cliopatria.rows(name)
+            starts = [year.earliest for year in entity.years("P571") + entity.years("P580")]
+            ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
+            spans[name] = (min(starts, default=int(rows.FromYear.min())), max(ends, default=int(rows.ToYear.max())))
+            if ends:
+                ended.add(name)
+            for found in names(name):
+                named.setdefault(found, set()).add(name)
+            for people in entity.ids("P172", preferred_only=False):
+                peoples_of.setdefault(people, set()).add(name)
+        candidates = {}
+        for name, identity in self.identities.items():
+            applies = self.entities[identity.qid].ids("P1001", preferred_only=False)
+            states = peoples_of.get(identity.qid, set()) | {by_qid[qid] for qid in applies if qid in by_qid}
+            alike = {other for found in names(name) for other in named[found] if other != name
+                     and min(spans[name][1], spans[other][1]) - max(spans[name][0], spans[other][0]) > SHARED_TOLERANCE_YEARS}
+            if name in ended and len(alike) == 1 and self._shape(name).intersects(self._shape(next(iter(alike)))):
+                states |= alike
+            if states - {name}:
+                candidates[name] = states - {name}
+        titles = {name: self.identities[name].title for name in candidates.keys() | set().union(*candidates.values())}
+        texts = self.wikipedia.wikitext(sorted(set(titles.values())))
+        filed = {name: bool(country_infobox(texts.get(title, ""))) for name, title in titles.items()}
+        found = {name: kept for name, states in candidates.items()
+                 if not filed[name] and (kept := sorted(state for state in states if filed[state]))}
+        peoples = {self.identities[name].qid: {self.identities[state].qid for state in states} for name, states in found.items()}
+        for name, states in found.items():
+            del self.identities[name]
+            self.qids.pop(name, None)
+            self.unresolved[name] = f"the people of {', '.join(states)}"
+        return peoples
+
+    def _shape(self, name: str):
+        return shapely.union_all(self.cliopatria.rows(name).geometry.values)
+
     def _within_dates(self, identity: Identity, qid: str) -> bool:
         entity = self.entities[qid]
         starts = [year.earliest for year in entity.years("P571") + entity.years("P580")]
@@ -660,7 +710,7 @@ class PolityBuilder:
         since the drawn states stand in for them, and a state whose capital, or its own location, lies inside drawn
         civilizations of the deck for most of its years: London for the United Kingdom of Great Britain and Ireland,
         or the city of Babylon inside Babylonia. They get no map; figures can belong to them."""
-        qids = [qid for qid in levels if qid not in self.catalog.by_qid]
+        qids = [qid for qid in levels if qid not in self.catalog.by_qid and qid not in self.catalog.peoples]
         entities = self.wikidata.entities(qids)
         kinds = self.wikidata.kinds(list(entities), MAPLESS_KINDS)
         editions = self.wikidata.language_editions(list(entities))
@@ -1327,13 +1377,13 @@ class PolityBuilder:
         Ilkhanate). Extended for the rest, which a learner may suspend. A state counts as listed when a listed dynasty
         is its own, by being the state's country or the name the state is named after (the Safavid dynasty for Safavid
         Iran), when its name is that of a listed people or order once the kind of state is set aside (the Aztecs for the
-        Aztec Empire, the Teutonic Order for its state), or when it is a part of a listed civilization that is not in
-        the deck itself (the Roman Republic and Empire of Ancient Rome) or of a listed era that names it among its parts
-        (Shu Han of the Three Kingdoms). A people without a capital, rulers or a confirmed period (the Goths, the
-        Saxons; not the Hittites or the Huns), a people or dynasty the deck also has as a state (the Vandals beside the
-        Vandal Kingdom, the Seljuk dynasty beside the Great Seljuk Empire) and a country that still exists, whose item
-        is today's country (the Kingdom of Sweden, Mexico), and an era with no capital or confirmed period, whatever
-        figures it has (the Viking Age), are Extended."""
+        Aztec Empire, the Teutonic Order for its state), when the catalogue left out a listed people as its own (the
+        Göktürks for the Göktürk Khaganate), or when it is a part of a listed civilization that is not in the deck
+        itself (the Roman Republic and Empire of Ancient Rome) or of a listed era that names it among its parts (Shu Han
+        of the Three Kingdoms). A people without a capital, rulers or a confirmed period (the Goths, the Saxons; not the
+        Hittites or the Huns), a country that still exists, whose item is today's country (the Kingdom of Sweden,
+        Mexico), and an era with no capital or confirmed period, whatever figures it has (the Viking Age), are
+        Extended."""
         qids = [polity.id for polity in polities]
         deck = set(qids)
         levels = self.catalog.vital_levels
@@ -1363,12 +1413,12 @@ class PolityBuilder:
                     through[polity.id] = min(levels[whole], through.get(polity.id, levels[whole]))
         kinds = self.wikidata.kinds(qids, TIER_KINDS | {SOVEREIGN_STATE: "sovereign", PERIOD: "period"})
         colonies = self.wikidata.kinds(qids, KINDS)
-        peoples = {qid for polity in polities for qid in self.catalog.entities[polity.id].ids("P172", preferred_only=False)}
         for polity in polities:
             entity = self.catalog.entities[polity.id]
             named = [levels[qid] for qid in entity.ids("P138", preferred_only=False) if qid in listed]
             named += [levels[qid] for name in (polity.name, entity.enwiki)
                       if name and (qid := named_for.get(frozenset(stems(name))))]
+            named += [levels[qid] for qid, states in self.catalog.peoples.items() if polity.id in states and qid in levels]
             level = min([levels.get(polity.id, 9), through.get(polity.id, 9), *named])
             rows = self.cliopatria.rows(polity.name)
             if level == MAX_VITAL_LEVEL + 1 and area_years(rows) >= CORE_AREA_YEARS \
@@ -1377,9 +1427,7 @@ class PolityBuilder:
             found = kinds.get(polity.id, set())
             era = "period" in found and "state" not in found
             ruled = bool(polity.capitals or polity.period.confirmed or (polity.key_figures and not era))
-            people = (found - {"sovereign"} in ({"people"}, {"period"}, {"people", "period"}) and not ruled) \
-                or polity.id in peoples \
-                or bool(set(entity.ids("P1001", preferred_only=False)) & (deck - {polity.id}))
+            people = found - {"sovereign"} in ({"people"}, {"period"}, {"people", "period"}) and not ruled
             present = "sovereign" in found and not entity.years("P576") + entity.years("P582")
             if level > MAX_VITAL_LEVEL or people or present:
                 polity.tier = Tier.EXTENDED

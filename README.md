@@ -92,12 +92,12 @@ Notes are tagged so you can filter or suspend groups of them:
   km²·years, a million km² for 150 years, without being colonies (the Rashidun Caliphate, the Ilkhanate), about 230 with
   the Essential ones; `PIH::Tier::Extended` for the rest, which you may suspend. A state counts as listed when a listed
   dynasty is its own (the Safavid dynasty for Safavid Iran), when it bears the name of a listed people or order (the
-  Aztecs for the Aztec Empire, the Teutonic Order for its state), or when it is part of a listed civilization the deck
+  Aztecs for the Aztec Empire, the Teutonic Order for its state), when it stands for a listed people the catalogue
+  leaves out as its own (the Göktürks for the Göktürk Khaganate), or when it is part of a listed civilization the deck
   does not have itself (the Roman Republic and Empire of Ancient Rome) or of a listed era that names it among its
-  parts (Shu Han of the Three Kingdoms). Peoples without a capital, key figures or a confirmed period (the Goths), a
-  people or dynasty the deck also has as a state (the Vandals beside the Vandal Kingdom), countries that still exist
-  (the United States, Mexico), and eras without a capital or confirmed period, whatever figures they have (the Viking
-  Age), are Extended
+  parts (Shu Han of the Three Kingdoms). Peoples without a capital, key figures or a confirmed period (the Goths),
+  countries that still exist (the United States, Mexico), and eras without a capital or confirmed period, whatever
+  figures they have (the Viking Age), are Extended
 
 To skip a kind of question, suspend its subdeck rather than deleting it: deleted cards come back when you import an
 update.
@@ -132,7 +132,14 @@ update.
    civilization, its Eastern Roman and Byzantine Empire the Byzantine Empire. A state on the Vital Articles lists
    (levels 1–4) that Cliopatria draws only through its dynasties takes their shapes when they held its capital, lie
    within its dates and cover at least half of its years: the Delhi Sultanate from its five dynasties, the Chola
-   dynasty from its Early and medieval Cholas.
+   dynasty from its Early and medieval Cholas. A people or dynasty drawn beside its own state is left out, so one
+   thing is not asked twice: the Vandals beside the Vandal Kingdom, the Seljuk dynasty beside the Great Seljuk Empire,
+   the Göktürks beside the Göktürk Khaganate. It is the state's people when its article has no country infobox and
+   the state's has one, and the state gives it as its people, or it gives the state as where it applies, or it has
+   ended and the state is the only one named like it once the kind of state is set aside whose dates overlap its own
+   by more than 25 years and whose land meets its own. Its shapes stay on the other maps under its own name. Phases
+   and parts of one state are not peoples and stay: the Emirate and Caliphate of Córdoba, Silla and Unified Silla,
+   Tenochtitlan and the Aztec Triple Alliance.
    Cliopatria sometimes keeps one name for a chain of states: its Kingdom of Great Britain runs to this day. Where a
    name runs more than 25 years past the dates Wikidata gives the state, the years beyond go to the successor (or
    predecessor) that both Wikidata and the Wikipedia infobox name and whose capital lies inside the borders it takes
