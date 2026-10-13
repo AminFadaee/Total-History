@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q28513",
+      "region": "Poland",
+      "name": "Austria-Hungary",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q15180",

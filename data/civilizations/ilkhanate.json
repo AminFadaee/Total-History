@@ -52,6 +52,12 @@
       "region": "Iran",
       "name": "Mongol Empire",
       "home": true
+    },
+    {
+      "id": "Q975405",
+      "region": "Turkey",
+      "name": "Sultanate of Rum",
+      "home": false
     }
   ],
   "after": [
@@ -60,6 +66,12 @@
       "region": "Iran",
       "name": "Jalayirid Sultanate",
       "home": true
+    },
+    {
+      "id": "Q484195",
+      "region": "Afghanistan",
+      "name": "Timurid Empire",
+      "home": false
     }
   ],
   "key_figures": [

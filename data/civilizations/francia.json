@@ -46,7 +46,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q42834",
+      "region": "France",
+      "name": "Western Roman Empire",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q46370",

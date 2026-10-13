@@ -32,8 +32,22 @@
   "parts": [
     "Socialist Federal Republic of Yugoslavia"
   ],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q241748",
+      "region": "Serbia",
+      "name": "Kingdom of Serbia",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q37024",
+      "region": "Serbia",
+      "name": "Serbia-Montenegro",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Serbia",

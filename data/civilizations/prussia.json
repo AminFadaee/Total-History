@@ -46,16 +46,15 @@
       "region": "Germany",
       "name": "Margraviate of Brandenburg",
       "home": true
-    }
-  ],
-  "after": [
+    },
     {
-      "id": "Q151624",
-      "region": "Germany",
-      "name": "German Confederation",
-      "home": true
+      "id": "Q156020",
+      "region": "Russia",
+      "name": "Teutonic Order",
+      "home": false
     }
   ],
+  "after": [],
   "key_figures": [
     {
       "id": "Q40433",

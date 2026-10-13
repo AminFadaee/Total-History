@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q846025",
+      "region": "Nepal",
+      "name": "Mahajanapadas",
+      "home": false
+    }
+  ],
   "after": [
     {
       "id": "Q62943",

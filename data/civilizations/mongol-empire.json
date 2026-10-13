@@ -59,10 +59,16 @@
   ],
   "after": [
     {
-      "id": "Q7313",
+      "id": "Q8959",
       "region": "Mongolia",
-      "name": "Yuan Dynasty",
+      "name": "Northern Yuan",
       "home": true
+    },
+    {
+      "id": "Q9903",
+      "region": "China",
+      "name": "Ming Dynasty",
+      "home": false
     },
     {
       "id": "Q79965",

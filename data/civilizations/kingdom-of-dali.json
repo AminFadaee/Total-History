@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q1045322",
+      "region": "China",
+      "name": "Nanzhao",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q12557",

@@ -35,6 +35,12 @@
       "region": "China",
       "name": "Yuan Dynasty",
       "home": true
+    },
+    {
+      "id": "Q12557",
+      "region": "Mongolia",
+      "name": "Mongol Empire",
+      "home": false
     }
   ],
   "after": [
@@ -66,7 +72,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "A dynastic state  ruled by the Mongol Borjigin clan based in the Mongolian Plateau.",
+  "summary": "A dynastic state ruled by the Mongol Borjigin clan based in the Mongolian Plateau.",
   "tier": "Extended",
   "map": "maps/northern-yuan.png",
   "map_asked": true,
