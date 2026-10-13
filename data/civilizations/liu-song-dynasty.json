@@ -46,7 +46,11 @@
       "home": true
     }
   ],
-  "rulers": [
+  "key_figures": [
+    {
+      "id": "Q49699",
+      "name": "Emperor Wu of Song"
+    },
     {
       "id": "Q49702",
       "name": "Emperor Wen of Song"
@@ -58,10 +62,6 @@
     {
       "id": "Q718195",
       "name": "Emperor Ming of Song"
-    },
-    {
-      "id": "Q717946",
-      "name": "Latter Deposed Emperor of Liu Song"
     }
   ],
   "modern_countries": [

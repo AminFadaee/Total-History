@@ -39,7 +39,11 @@
     }
   ],
   "after": [],
-  "rulers": [
+  "key_figures": [
+    {
+      "id": "Q9700",
+      "name": "Emperor Gaozu of Tang"
+    },
     {
       "id": "Q9701",
       "name": "Emperor Taizong of Tang"
@@ -47,10 +51,6 @@
     {
       "id": "Q9738",
       "name": "Wu Zetian"
-    },
-    {
-      "id": "Q9703",
-      "name": "Emperor Gaozong of Tang"
     },
     {
       "id": "Q9746",

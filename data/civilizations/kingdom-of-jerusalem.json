@@ -46,7 +46,11 @@
       "home": true
     }
   ],
-  "rulers": [
+  "key_figures": [
+    {
+      "id": "Q76721",
+      "name": "Godfrey of Bouillon"
+    },
     {
       "id": "Q51717",
       "name": "Baldwin I of Jerusalem"
@@ -54,6 +58,10 @@
     {
       "id": "Q311808",
       "name": "Amalric of Jerusalem"
+    },
+    {
+      "id": "Q546497",
+      "name": "Henry II of Cyprus"
     }
   ],
   "modern_countries": [

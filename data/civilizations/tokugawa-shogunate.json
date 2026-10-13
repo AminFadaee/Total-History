@@ -46,7 +46,11 @@
       "home": true
     }
   ],
-  "rulers": [
+  "key_figures": [
+    {
+      "id": "Q349440",
+      "name": "Emperor Go-Yōzei"
+    },
     {
       "id": "Q171977",
       "name": "Tokugawa Ieyasu"
@@ -54,6 +58,10 @@
     {
       "id": "Q314464",
       "name": "Tokugawa Hidetada"
+    },
+    {
+      "id": "Q174231",
+      "name": "Emperor Meiji"
     }
   ],
   "modern_countries": [
