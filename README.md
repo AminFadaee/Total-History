@@ -87,8 +87,10 @@ Notes are tagged so you can filter or suspend groups of them:
   was born
 - occupation: `PIH::Occupation::Philosopher`, for figures
 - tier: `PIH::Tier::Essential` for the civilizations on Wikipedia's 1,000 vital articles (Vital Articles level 3), about
-  20, which also carry `PIH::Tier::Core`; `PIH::Tier::Core` for those on its 10,000 (level 4), about 200 with the
-  Essential ones; `PIH::Tier::Extended` for the rest, which you may suspend. A state counts as listed when a listed
+  20, which also carry `PIH::Tier::Core`; `PIH::Tier::Core` for those on its 10,000 (level 4), and for those on
+  its 50,000 (level 5) that were vast and lasting, their drawn area summed over their years reaching 150 million
+  km²·years, a million km² for 150 years, without being colonies (the Rashidun Caliphate, the Ilkhanate), about 230 with
+  the Essential ones; `PIH::Tier::Extended` for the rest, which you may suspend. A state counts as listed when a listed
   dynasty is its own (the Safavid dynasty for Safavid Iran), when it bears the name of a listed people or order (the
   Aztecs for the Aztec Empire, the Teutonic Order for its state), or when it is part of a listed civilization the deck
   does not have itself (the Roman Republic and Empire of Ancient Rome) or of a listed era that names it among its

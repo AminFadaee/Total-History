@@ -94,6 +94,7 @@ FOLD_VITAL_LEVEL = 4
 DYNASTY = "Q164950"
 GENERIC_WORDS = {"sultanate", "empire", "kingdom", "dynasty", "of", "the", "caliphate", "republic", "state"}
 LASTING_AREA_YEARS, LASTING_LANGUAGES, COLONIAL_ERA = 12_500_000, 30, 1500
+CORE_AREA_YEARS = 150_000_000
 LIVING_ON_MAP_BEFORE = 1930
 PRESENT_DESCRIPTION_FROM = 1900
 MID_THOUGHT = re.compile(r"(?:It|Its|They|Their|The dynasty|Under)\b")
@@ -193,6 +194,17 @@ def equal_area(frame):
 
 def equal_area_shape(geometry, crs):
     return equal_area(gpd.GeoSeries([geometry], crs=crs)).iloc[0]
+
+
+def area_years(rows: gpd.GeoDataFrame) -> float:
+    """The drawn area summed over the years drawn, in km²·years."""
+    return float((rows.Area * (rows.ToYear - rows.FromYear + 1)).sum())
+
+
+def colonial(kinds: set[str], rows: gpd.GeoDataFrame) -> bool:
+    """Filed as a colony by Wikidata and drawn from 1500, since the class also marks the Teutonic Order and the
+    Ostrogoths."""
+    return "colony" in kinds and rows.FromYear.min() >= COLONIAL_ERA
 
 
 def sparql_year(value: str | None) -> int | None:
@@ -712,10 +724,10 @@ class PolityBuilder:
         1 million km², at a peak of 2 million km² without being a colony, or a large and lasting state: its drawn area
         summed over its years reaching 12.5 million km²·years (250,000 km² for 50 years), with a peak of at least
         50,000 km² and an article in at least 30 languages, not a colony (the Kamakura shogunate, Shu Han, Funan).
-        Wikidata's colony class counts only from 1500, since it also marks the Teutonic Order and the Ostrogoths. A sovereign state that still exists
-        qualifies only if it was on the maps before 1930 and reached 2 million km², as the United States did. Any
-        other polity without an end date must be filed as historical, since Cliopatria sometimes links an old polity
-        to today's place, such as the island of Rhodes, and today's provinces and towns never qualify."""
+        A sovereign state that still exists qualifies only if it was on the maps before 1930 and reached 2 million
+        km², as the United States did. Any other polity without an end date must be filed as historical, since
+        Cliopatria sometimes links an old polity to today's place, such as the island of Rhodes, and today's provinces
+        and towns never qualify."""
         entity = self.catalog.entities[identity.qid]
         rows = self.cliopatria.rows(identity.name)
         peak = rows.Area.max()
@@ -731,12 +743,12 @@ class PolityBuilder:
             elif "historical" not in kinds and identity.how != CULTURE:
                 return False
         level = level or MAX_VITAL_LEVEL + 2
-        colony = "colony" in kinds and rows.FromYear.min() >= COLONIAL_ERA
+        colony = colonial(kinds, rows)
         return (level <= MAX_VITAL_LEVEL or languages >= MIN_LANGUAGE_EDITIONS
                 or (level == MAX_VITAL_LEVEL + 1 and (languages >= LEVEL_5_LANGUAGES or peak >= LEVEL_5_PEAK_KM2))
                 or (peak >= LARGE_PEAK_KM2 and not colony)
                 or (peak >= MIN_PEAK_AREA_KM2 and languages >= LASTING_LANGUAGES and not colony
-                    and float((rows.Area * (rows.ToYear - rows.FromYear + 1)).sum()) >= LASTING_AREA_YEARS))
+                    and area_years(rows) >= LASTING_AREA_YEARS))
 
     def mark_repeated_maps(self, polities: list[Polity]) -> None:
         """A short regime drawn almost exactly like a neighbouring one in time is not asked from its map, since only
@@ -1309,17 +1321,19 @@ class PolityBuilder:
         return [math.floor(first / step) * step, math.ceil(last / step) * step]
 
     def assign_tiers(self, polities: list[Polity]) -> None:
-        """Tiers from Wikipedia's Vital Articles: Essential for a state on its 1,000 articles (level 3), Core for one
-        on its 10,000 (level 4), Extended for the rest, which a learner may suspend. A state counts as listed when a
-        listed dynasty is its own, by being the state's country or the name the state is named after (the Safavid
-        dynasty for Safavid Iran), when its name is that of a listed people or order once the kind of state is set
-        aside (the Aztecs for the Aztec Empire, the Teutonic Order for its state), or when it is a part of a listed
-        civilization that is not in the deck itself (the Roman Republic and Empire of Ancient Rome) or of a listed era
-        that names it among its parts (Shu Han of the Three Kingdoms). A people without a capital, rulers or a confirmed
-        period (the Goths, the Saxons; not the Hittites or the Huns), a people or dynasty the deck also has as a state
-        (the Vandals beside the Vandal Kingdom, the Seljuk dynasty beside the Great Seljuk Empire) and a country that
-        still exists, whose item is today's country (the Kingdom of Sweden, Mexico), and an era with no capital or
-        confirmed period, whatever figures it has (the Viking Age), are Extended."""
+        """Tiers from Wikipedia's Vital Articles: Essential for a state on its 1,000 articles (level 3), Core for one on
+        its 10,000 (level 4) or for one on its 50,000 (level 5) that was vast and lasting: its drawn area summed over
+        its years reaching 150 million km²·years, a million km² for 150 years, not a colony (the Rashidun Caliphate, the
+        Ilkhanate). Extended for the rest, which a learner may suspend. A state counts as listed when a listed dynasty
+        is its own, by being the state's country or the name the state is named after (the Safavid dynasty for Safavid
+        Iran), when its name is that of a listed people or order once the kind of state is set aside (the Aztecs for the
+        Aztec Empire, the Teutonic Order for its state), or when it is a part of a listed civilization that is not in
+        the deck itself (the Roman Republic and Empire of Ancient Rome) or of a listed era that names it among its parts
+        (Shu Han of the Three Kingdoms). A people without a capital, rulers or a confirmed period (the Goths, the
+        Saxons; not the Hittites or the Huns), a people or dynasty the deck also has as a state (the Vandals beside the
+        Vandal Kingdom, the Seljuk dynasty beside the Great Seljuk Empire) and a country that still exists, whose item
+        is today's country (the Kingdom of Sweden, Mexico), and an era with no capital or confirmed period, whatever
+        figures it has (the Viking Age), are Extended."""
         qids = [polity.id for polity in polities]
         deck = set(qids)
         levels = self.catalog.vital_levels
@@ -1348,6 +1362,7 @@ class PolityBuilder:
                 if whole in topics:
                     through[polity.id] = min(levels[whole], through.get(polity.id, levels[whole]))
         kinds = self.wikidata.kinds(qids, TIER_KINDS | {SOVEREIGN_STATE: "sovereign", PERIOD: "period"})
+        colonies = self.wikidata.kinds(qids, KINDS)
         peoples = {qid for polity in polities for qid in self.catalog.entities[polity.id].ids("P172", preferred_only=False)}
         for polity in polities:
             entity = self.catalog.entities[polity.id]
@@ -1355,6 +1370,10 @@ class PolityBuilder:
             named += [levels[qid] for name in (polity.name, entity.enwiki)
                       if name and (qid := named_for.get(frozenset(stems(name))))]
             level = min([levels.get(polity.id, 9), through.get(polity.id, 9), *named])
+            rows = self.cliopatria.rows(polity.name)
+            if level == MAX_VITAL_LEVEL + 1 and area_years(rows) >= CORE_AREA_YEARS \
+                    and not colonial(colonies.get(polity.id, set()), rows):
+                level = MAX_VITAL_LEVEL
             found = kinds.get(polity.id, set())
             era = "period" in found and "state" not in found
             ruled = bool(polity.capitals or polity.period.confirmed or (polity.key_figures and not era))
