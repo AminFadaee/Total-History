@@ -84,8 +84,11 @@ class Figure:
 
 
 def lifetime(birth: list[Year], death: list[Year]) -> tuple[int, int] | None:
+    """The years a person lived; a birth that would make the life longer than 120 years is set aside, as life_label does."""
     if not birth and not death:
         return None
+    if birth and death and max(year.latest for year in death) - min(year.earliest for year in birth) > MAX_LIFE_YEARS:
+        return lifetime([], death)
     start = min(year.earliest for year in birth) if birth else min(year.earliest for year in death) - ASSUMED_LIFESPAN
     end = max(year.latest for year in death) if death else max(year.latest for year in birth) + ASSUMED_LIFESPAN
     return start, end

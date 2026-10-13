@@ -95,6 +95,7 @@ MID_THOUGHT = re.compile(r"(?:It|Its|They|Their|The dynasty|Under)\b")
 PRESENT_OR_PAST = re.compile(r"\b(is|are|was|were)\b")
 HUMAN = "Q5"
 ASSUMED_LIFESPAN = 70
+ROW_YEAR = re.compile(r"(\bAD\s*)?(\d{1,4})(\s*BCE?\b)?")
 LIVING_PEAK_KM2 = 2_000_000
 STATE_KINDS = {"state", "historical country", "city-state", "empire", "kingdom"}
 MAPLESS_KINDS = {
@@ -262,13 +263,16 @@ def fold(text: str) -> str:
 
 
 def row_years(text: str) -> tuple[int, int] | None:
-    """The years an infobox row gives, as '1192–1199' or '1192' (BC when it says so)."""
-    found = [int(year) for year in re.findall(r"\d{1,4}", re.sub(r"\{\{[^|}]*\|", "", text))][:2]
+    """The years an infobox row gives, as '1192–1199', '1192' or '27 BC – AD 14'; a year without an era takes the era of
+    the year after it, as in '550–530 BC'."""
+    found = ROW_YEAR.findall(re.sub(r"\{\{[^|}]*\|", "", text))[:2]
     if not found:
         return None
-    if re.search(r"\bBCE?\b", text):
-        found = [-year for year in found]
-    return (found[0], found[-1]) if found[-1] >= found[0] else (found[0], found[0])
+    years, bc = [], False
+    for ad, year, before_christ in reversed(found):
+        bc = bool(before_christ) or (bc and not ad)
+        years.insert(0, -int(year) if bc else int(year))
+    return (years[0], years[-1]) if years[-1] >= years[0] else (years[0], years[0])
 
 
 def lived_during(person: Entity, start: int, end: int) -> bool:
