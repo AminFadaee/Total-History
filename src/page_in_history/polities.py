@@ -775,32 +775,57 @@ class PolityBuilder:
 
     def _capital_terms(self, entity: Entity, period: Period, capitals: list[dict]) -> list[dict]:
         """The capitals with the years Wikidata dates them as capital within the period, an open term running to its
-        start or end (Berlin 1701–1947 for Prussia); a capital is matched to Wikidata's by being within 25 km."""
+        start or end (Berlin 1701–1947 for Prussia), whether Wikidata dates them at all, and how many of the period's
+        years the dated capitals cover between them; a capital is matched to Wikidata's by being within 25 km."""
         start, end = (period.start.earliest, period.end.latest) if period.confirmed else (None, None)
-        terms = []
+        terms, spans = [], []
         for claim in entity.statements("P36", preferred_only=False):
             place = self.names.get(claim["mainsnak"]["datavalue"]["value"].get("id"))
             began, ended = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
             if place and place.coordinates() and (began is not None or ended is not None):
                 began = began if began is not None else start
                 ended = ended if ended is not None else end
+                years = 0
                 if began is not None and ended is not None:
                     if start is not None:
                         began, ended = max(began, start), min(ended, end)
-                    terms.append((place.coordinates(), max(0, ended - began)))
-        return [{**capital, "years": sum(years for location, years in terms if capital["location"]
-                                         and kilometres(capital["location"], location) <= CAPITAL_MATCH_KM)}
+                    years = max(0, ended - began)
+                    if years:
+                        spans.append((began, ended))
+                terms.append((place.coordinates(), years))
+        covered, reach = 0, None
+        for began, ended in sorted(spans):
+            began = began if reach is None else max(began, reach)
+            covered += max(0, ended - began)
+            reach = ended if reach is None else max(reach, ended)
+        near = lambda capital, location: capital["location"] and kilometres(capital["location"], location) <= CAPITAL_MATCH_KM
+        return [{**capital, "years": sum(years for location, years in terms if near(capital, location)),
+                 "dated": any(near(capital, location) for location, _ in terms), "covered": covered}
                 for capital in capitals]
 
-    def _capital_edges(self, entity: Entity) -> tuple:
-        """Where its first and last capitals stood, when Wikidata dates at least two of them."""
+    def _home(self, entity: Entity, period: Period, capitals: list[dict]) -> dict:
+        """What the home is found from: the capitals and their years, the years to weigh them in, and the places
+        Wikidata gives as its capital or location, for a civilization with no capital in hand."""
+        places = [Point(self.names[qid].coordinates()) for qid in entity.ids("P36", preferred_only=False)
+                  if qid in self.names and self.names[qid].coordinates()]
+        if entity.coordinates():
+            places.append(Point(entity.coordinates()))
+        years = (period.start.earliest, period.end.latest) if period.confirmed else None
+        return {"capitals": self._capital_terms(entity, period, capitals), "years": years, "places": tuple(places)}
+
+    def _capital_edges(self, entity: Entity, period: Period) -> tuple:
+        """Where its first and last capitals stood, when Wikidata dates at least two of them within its confirmed period
+        (not Constantinople for the Roman Empire, dated from 476)."""
+        start, end = (period.start.earliest, period.end.latest) if period.confirmed else (None, None)
         dated = []
         for claim in entity.statements("P36", preferred_only=False):
             value = claim["mainsnak"].get("datavalue", {}).get("value", {})
             place = self.names.get(value.get("id")) if isinstance(value, dict) else None
-            start, end = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
-            if place and place.coordinates() and (start is not None or end is not None):
-                dated.append((start if start is not None else end, end if end is not None else start, place.coordinates()))
+            began, ended = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
+            if place and place.coordinates() and (began is not None or ended is not None):
+                began, ended = began if began is not None else ended, ended if ended is not None else began
+                if start is None or (began <= end and ended >= start):
+                    dated.append((began, ended, place.coordinates()))
         if len(dated) < 2:
             return None, None
         return min(dated)[2], max(dated, key=lambda found: (found[1], found[0]))[2]
@@ -818,18 +843,18 @@ class PolityBuilder:
         deck = {polity.id for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
+        homes_from = {polity.id: self._home(self.catalog.entities[polity.id], polity.period, polity.capitals)
+                      for polity in polities}
         for polity in polities:
             if any(not known(edge["id"]) for edge in polity.before + polity.after):
                 entity = self.catalog.entities[polity.id]
                 before, after, _ = self.succession.neighbours(
-                    polity.id, self._capital_terms(entity, polity.period, polity.capitals), self._capital_edges(entity),
-                    lambda other: known(other) and not same_name(polity.name, self._name(other)))
+                    polity.id, homes_from[polity.id]["capitals"], self._capital_edges(entity, polity.period),
+                    lambda other: known(other) and not same_name(polity.name, self._name(other)),
+                    homes_from[polity.id]["years"], homes_from[polity.id]["places"])
                 polity.before, polity.after = self._edges(before), self._edges(after)
-        drawn_edges = {side: {polity.id for polity in polities if getattr(polity, side)} for side in ("before", "after")}
         by_id = {polity.id: polity for polity in polities}
-        anchors = {polity.id: self.succession.home(polity.id, self._capital_terms(self.catalog.entities[polity.id],
-                                                                                  polity.period, polity.capitals))
-                   for polity in polities}
+        anchors = {polity.id: self.succession.home(polity.id, **homes_from[polity.id]) for polity in polities}
         homes = {polity.id: anchors[polity.id].region if anchors[polity.id] else self._home_region(polity)
                  for polity in polities}
         for polity, side, other in self._ruler_links(polities, figures):
@@ -837,26 +862,30 @@ class PolityBuilder:
             if anchor is None or not by_id[other].borders or self.succession.held(other, anchor.point):
                 self._link(polity, side, by_id[other], homes[polity.id], WINDOW_YEARS)
         for polity in polities:
-            for edge in polity.after:
-                if edge["id"] in by_id:
+            for edge in list(polity.after):
+                if edge["id"] in by_id and not edge.get("reserved"):
                     self._link(by_id[edge["id"]], "before", polity, edge["region"])
-            for edge in polity.before:
-                if edge["id"] in by_id:
+            for edge in list(polity.before):
+                if edge["id"] in by_id and not edge.get("reserved"):
                     self._link(by_id[edge["id"]], "after", polity, edge["region"])
         for polity in polities:
             for side in ("before", "after"):
                 edges = getattr(polity, side)
-                mapped = edges[:1] if polity.id in drawn_edges.get(side, set()) else []
+                reserved = {edge["region"] for edge in edges if edge.get("reserved")}
+                edges = [edge for edge in edges if not edge.get("reserved")]
+                mapped = [edge for edge in edges if edge.get("main")][:1]
                 closest: dict[str, dict] = {}
-                for edge in sorted(edges[len(mapped):], key=lambda edge: (self._gap(polity, by_id.get(edge["id"]), side),
-                                                                          edge["name"])):
-                    if edge["region"] not in closest and all(edge["region"] != own["region"] for own in mapped):
+                for edge in sorted((edge for edge in edges if edge not in mapped),
+                                   key=lambda edge: (self._gap(polity, by_id.get(edge["id"]), side), edge["name"])):
+                    if edge["region"] not in closest and edge["region"] not in reserved \
+                            and all(edge["region"] != own["region"] and edge["id"] != own["id"] for own in mapped):
                         closest[edge["region"]] = edge
                 others = list(closest.values())
                 home = mapped or [edge for edge in others if edge["region"] == homes[polity.id]][:1]
                 others = [edge for edge in others if edge not in home]
-                setattr(polity, side, [{**edge, "home": True} for edge in home]
-                        + [{**edge, "home": False} for edge in others][:SUCCESSION_SLOTS - 1])
+                plain = lambda edge: {key: value for key, value in edge.items() if key not in ("main", "reserved")}
+                setattr(polity, side, [{**plain(edge), "home": True} for edge in home]
+                        + [{**plain(edge), "home": False} for edge in others][:SUCCESSION_SLOTS - 1])
 
     def _link(self, polity: Polity, side: str, other: Polity, region: str, gap: int = MIRROR_GAP_YEARS) -> None:
         """Add the other civilization before or after this one in the region, unless it is listed already, the region
@@ -954,8 +983,8 @@ class PolityBuilder:
     def _qids(self, titles: list[str]) -> list[str]:
         return list(dict.fromkeys(self.pages[title].qid for title in titles if title in self.pages and self.pages[title].qid))
 
-    def _edges(self, neighbour: dict) -> list[dict]:
-        return [{**neighbour, "name": self._name(neighbour["id"])}] if neighbour else []
+    def _edges(self, neighbours: list[dict]) -> list[dict]:
+        return [{**neighbour, "name": self._name(neighbour["id"])} for neighbour in neighbours]
 
     def _capitals(self, entity: Entity, infobox: Infobox, rows, period: Period) -> list[dict]:
         """Capitals that Wikidata and the infobox both name: the same item, or two items for the same place within
@@ -1051,8 +1080,10 @@ class PolityBuilder:
         parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
                  if qid in self.catalog.by_qid and qid != identity.qid]
         map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
+        home = self._home(entity, period, capitals)
         before, after, home_place = self.succession.neighbours(
-            identity.qid, self._capital_terms(entity, period, capitals), self._capital_edges(entity), lambda other: not same_name(identity.name, self._name(other)))
+            identity.qid, home["capitals"], self._capital_edges(entity, period),
+            lambda other: not same_name(identity.name, self._name(other)), home["years"], home["places"])
         modern = self._modern_countries(extent, capitals, entity.coordinates()) if drawn else ([], [])
         polity = Polity(
             id=identity.qid,
