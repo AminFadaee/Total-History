@@ -237,8 +237,14 @@ uv run page-in-history samples   # render sample cards into docs/samples/
 uv run pytest                    # check the data against its invariants and the cases outside reviews raised
 ```
 
-The tests read `data/`: invariants every civilization must meet, and facts outside reviews checked. Cases still open are
-marked as expected failures, so fixing one makes the run fail until its mark is removed.
+The tests cover three things:
+
+- **Rules:** the pure rules that read source text, such as infobox years, names and roles, lifetimes and century tags.
+- **Invariants:** properties every civilization in `data/` must have. Softer rules, such as a successor ending after the
+  civilization it follows, keep their accepted exceptions in `tests/accepted.toml`. A new exception fails the run, and so
+  does a listed one that has gone, so every change to the answers is either clean or accepted on purpose.
+- **Review cases:** facts outside reviews checked, kept in `tests/review_cases.toml`, with people matched by their
+  Wikidata id. Cases still open run as expected failures, so fixing one fails the run until its `open` mark is removed.
 
 `collect` builds the whole world by default. `--region` (a modern country as named by Natural Earth), `--start` and
 `--end` (negative years are BC) limit it to one slice, such as `--region Iran --start -1000 --end 1000`. Downloads
