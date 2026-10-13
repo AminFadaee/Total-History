@@ -1308,12 +1308,14 @@ class PolityBuilder:
         """Tiers from Wikipedia's Vital Articles: Essential for a state on its 1,000 articles (level 3), Core for one
         on its 10,000 (level 4), Extended for the rest, which a learner may suspend. A state counts as listed when a
         listed dynasty is its own, by being the state's country or the name the state is named after (the Safavid
-        dynasty for Safavid Iran), or when it is a part of a listed civilization that is not in the deck itself (the
-        Roman Republic and Empire of Ancient Rome). A people without a capital, rulers or a confirmed period (the Goths, the Saxons; not
-        the Hittites or the Huns), a people or dynasty the deck also has as a state
+        dynasty for Safavid Iran), when its name is that of a listed people or order once the kind of state is set
+        aside (the Aztecs for the Aztec Empire, the Teutonic Order for its state), or when it is a part of a listed
+        civilization that is not in the deck itself (the Roman Republic and Empire of Ancient Rome) or of a listed era
+        that names it among its parts (Shu Han of the Three Kingdoms). A people without a capital, rulers or a confirmed
+        period (the Goths, the Saxons; not the Hittites or the Huns), a people or dynasty the deck also has as a state
         (the Vandals beside the Vandal Kingdom, the Seljuk dynasty beside the Great Seljuk Empire) and a country that
-        still exists, whose item is today's country (the Kingdom of Sweden, Mexico), and an era with no capital, rulers
-        or confirmed period (the Viking Age) are Extended."""
+        still exists, whose item is today's country (the Kingdom of Sweden, Mexico), and an era with no capital or
+        confirmed period, whatever figures it has (the Viking Age), are Extended."""
         qids = [polity.id for polity in polities]
         deck = set(qids)
         levels = self.catalog.vital_levels
@@ -1324,10 +1326,19 @@ class PolityBuilder:
         for qid, entity in listed.items():
             for state in entity.ids("P17", preferred_only=False):
                 through[state] = min(levels[qid], through.get(state, levels[qid]))
-        topics = [qid for qid, found in self.wikidata.kinds(candidates, TIER_KINDS).items() if "state" in found]
+        listed_kinds = self.wikidata.kinds(candidates, TIER_KINDS | {PERIOD: "period"})
+        topics = [qid for qid, found in listed_kinds.items() if "state" in found]
         for qid, entity in self.wikidata.entities(topics).items():
             for part in entity.ids("P527", preferred_only=False):
                 through[part] = min(levels[qid], through.get(part, levels[qid]))
+        eras = [qid for qid, found in listed_kinds.items() if found == {"period"}]
+        for qid, entity in self.wikidata.entities(eras).items():
+            for part in entity.ids("P527", preferred_only=False):
+                if part in deck and qid in self.catalog.entities[part].ids("P361", preferred_only=False):
+                    through[part] = min(levels[qid], through.get(part, levels[qid]))
+        peoples_listed = self.wikidata.entities([qid for qid, found in listed_kinds.items() if "people" in found])
+        named_for = {frozenset(stems(name)): qid for qid, entity in peoples_listed.items()
+                     for name in (entity.label, entity.enwiki) if name and stems(name)}
         for polity in polities:
             for whole in self.catalog.entities[polity.id].ids("P361", preferred_only=False):
                 if whole in topics:
@@ -1337,9 +1348,12 @@ class PolityBuilder:
         for polity in polities:
             entity = self.catalog.entities[polity.id]
             named = [levels[qid] for qid in entity.ids("P138", preferred_only=False) if qid in listed]
+            named += [levels[qid] for name in (polity.name, entity.enwiki)
+                      if name and (qid := named_for.get(frozenset(stems(name))))]
             level = min([levels.get(polity.id, 9), through.get(polity.id, 9), *named])
             found = kinds.get(polity.id, set())
-            ruled = bool(polity.capitals or polity.key_figures or polity.period.confirmed)
+            era = "period" in found and "state" not in found
+            ruled = bool(polity.capitals or polity.period.confirmed or (polity.key_figures and not era))
             people = (found - {"sovereign"} in ({"people"}, {"period"}, {"people", "period"}) and not ruled) \
                 or polity.id in peoples \
                 or bool(set(entity.ids("P1001", preferred_only=False)) & (deck - {polity.id}))
