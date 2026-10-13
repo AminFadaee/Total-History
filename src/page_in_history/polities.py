@@ -47,6 +47,7 @@ SETTLEMENT = "Q486972"
 STATE, FORMER_OR_CURRENT_STATE = "Q7275", "Q96196009"
 HERITAGE = "Q9259"
 SITE = "Q839954"
+LIST_ARTICLE = "Q13406463"
 LARGE_PEAK_KM2 = 2_000_000
 SHARED_TOLERANCE_YEARS = 25
 # head of state, monarch, emperor, king, president (two items)
@@ -483,8 +484,9 @@ class PolityCatalog:
 
     def _by_name(self, failed: dict[str, tuple[str, int, int]]) -> dict[str, Identity]:
         """Cliopatria's link sometimes points at the wrong article, such as the island for the Kingdom of Great
-        Britain. Then its own Wikidata id, or a Wikidata state named exactly like the Cliopatria polity (by label or
-        alias), stands in when its dates overlap and it is the only such state."""
+        Britain, or at a list, such as the Median dynasty's kings for the Median kingdom. Then its own Wikidata id, or
+        a Wikidata state named exactly like the Cliopatria polity (by label or alias), stands in when its dates
+        overlap and it is the only such state."""
         options = {name: [cliopatria_qid] + self.wikidata.exact_matches(name)
                    for name, (cliopatria_qid, _, _) in failed.items()}
         entities = self.wikidata.entities([qid for qids in options.values() for qid in qids])
@@ -526,6 +528,8 @@ class PolityCatalog:
                   start: int, end: int) -> Identity | str:
         if entity is None:
             return f"Wikipedia link {title!r} has no Wikidata item"
+        if LIST_ARTICLE in entity.ids("P31", preferred_only=False):
+            return f"Wikipedia link {title!r} is a list article"
         if self.is_polity(entity):
             if entity.id == cliopatria_qid:
                 return Identity(name, entity.enwiki or title, entity.id, "same item in Cliopatria and Wikipedia")
