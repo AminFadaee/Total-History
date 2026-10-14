@@ -69,7 +69,6 @@ figure_present = [
   { civilization = "Kingdom of Hungary", people = { Q177903 = "Stephen I of Hungary", Q188634 = "Matthias Corvinus" } },
   { civilization = "Neo-Assyrian Empire", people = { Q207140 = "Sennacherib", Q171191 = "Ashurbanipal", Q208336 = "Sargon II" } },
   { civilization = "Crown of Aragon", people = { Q212052 = "James I of Aragon" } },
-  { civilization = "Kingdom of Aragon", people = { Q212052 = "James I of Aragon" } },
   { civilization = "Crown of Castile", people = { Q45859 = "Isabella I of Castile" } },
   { civilization = "Zengid dynasty", people = { Q189550 = "Imad al-Din Zengi" } },
   { civilization = "Old Kingdom of Egypt", people = { Q161904 = "Khufu", Q174367 = "Djoser" } },
@@ -100,7 +99,8 @@ succession_absent = [
   { civilization = "Prussia", side = "after", other = "German Confederation" },
   { civilization = "Inca Empire", side = "before", other = "Chimor" },
   { civilization = "Sui Dynasty", side = "before", other = "Chen Dynasty" },
-  { civilization = "Majapahit", side = "before", other = "Srivijaya", open = true },
+  { civilization = "Majapahit", side = "before", other = "Srivijaya" },
+  { civilization = "Denmark-Norway", side = "after", other = "United Kingdoms of Sweden and Norway" },
   { civilization = "Phoenicia", side = "before", other = "New Kingdom of Egypt", open = true },
 ]
 
@@ -116,6 +116,8 @@ succession_present = [
   { civilization = "Shang Dynasty", side = "after", other = "Zhou Dynasty" },
   { civilization = "Prussia", side = "before", other = "Margraviate of Brandenburg" },
   { civilization = "Austria-Hungary", side = "before", other = "Austrian Empire" },
+  { civilization = "Sui Dynasty", side = "before", other = "Northern Zhou" },
+  { civilization = "Dzungar Khanate", side = "before", other = "Four Oirats" },
 ]
 
 succession_answered = [
@@ -175,6 +177,7 @@ in_deck = [
   { civilization = "Olmec Civilization" },
   { civilization = "Sumerian City-States" },
   { civilization = "Median Kingdom" },
+  { civilization = "Jin dynasty" },
   { civilization = "Benin Empire", open = true },
   { civilization = "Great Zimbabwe", open = true },
   { civilization = "Serbian Empire", open = true },
@@ -194,7 +197,7 @@ tier = [
 ]
 
 period_ends_by = [
-  { civilization = "Western Jin", year = 320, open = true },
+  { civilization = "Silla", year = 700 },
   { civilization = "Kingdom of Castile", year = 1250 },
   { civilization = "Kingdom of León", year = 1250 },
 ]
