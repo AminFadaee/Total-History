@@ -4,8 +4,8 @@ import pytest
 from page_in_history.dates import centuries, parse, parse_range, period_label
 from page_in_history.deck import century_tag
 from page_in_history.figures import lifetime
-from page_in_history.polities import RulingRole, row_years, same_name
-from page_in_history.sentences import contribution
+from page_in_history.polities import DATED, RulingRole, row_years, same_name
+from page_in_history.sentences import contribution, first_paragraph
 from page_in_history.sources.wikidata import YEAR_PRECISION, Year
 
 
@@ -78,3 +78,57 @@ def test_period_label_across_the_era():
 def test_contribution_spaces_words_once():
     paragraph = "Ugarit (/uːˈɡɑːrɪt/) was an ancient city in what is today northern Syria, at a site known in  Arabic as Ras Shamra."
     assert "  " not in contribution(paragraph, "Ugarit", None)
+
+
+@pytest.mark.parametrize("paragraph, text", [
+    ("The British Empire comprised the dominions, colonies and protectorates ruled by the United Kingdom.",
+     "The dominions, colonies and protectorates ruled by the United Kingdom."),
+    ("The New Kingdom, also called the Egyptian Empire, refers to ancient Egypt between the 16th century BC and the 11th "
+     "century BC.", "Ancient Egypt between the 16th century BC and the 11th century BC."),
+    ("The Dutch Republic, also referred to as the United Provinces, was a confederation and great power.", "A confederation and great power."),
+])
+def test_contribution_cuts_the_subject_at_its_verb(paragraph, text):
+    assert contribution(paragraph, "", None) == text
+
+
+@pytest.mark.parametrize("paragraph, text", [
+    ("Shenouda III was the 117th Pope of Alexandria and Patriarch of the See of St. Mark. His papacy lasted 40 years.",
+     "The 117th Pope of Alexandria and Patriarch of the See of St. Mark."),
+    ("John was a monk. He was born in Damascus c. AD 675; he died in 749.", "He was born in Damascus c. AD 675; he died in 749."),
+    ('Ibsen was a playwright. He is often referred to as "the father of modern drama". He pioneered realism.',
+     'He is often referred to as "the father of modern drama".'),
+    ('Yukawa was a physicist who received the Nobel Prize "for his prediction of mesons." He taught at Kyoto.',
+     'A physicist who received the Nobel Prize "for his prediction of mesons."'),
+])
+def test_contribution_ends_the_sentence_where_it_ends(paragraph, text):
+    assert contribution(paragraph, "Monk" if "monk" in paragraph else "", None) == text
+
+
+def test_contribution_passes_over_a_sentence_left_hanging():
+    paragraph = "Ambrósio I was a mwenekongo of the Kingdom of Kongo who ruled from (March 1626 to March 7, 1631.)"
+    assert contribution(paragraph, "Manikongo", "Ruler of the Kingdom of Kongo") == "Ruler of the Kingdom of Kongo."
+
+
+def test_contribution_takes_fewer_new_words_when_asked():
+    paragraph = "The Grand Principality of Vladimir was a Russian principality."
+    assert contribution(paragraph, "Principality of Rostov-Suzdal", None) == ""
+    assert contribution(paragraph, "Principality of Rostov-Suzdal", None, 1) == "A Russian principality."
+
+
+@pytest.mark.parametrize("extract, paragraph", [
+    ("Anton Chekhov (; Russian: Антон Чехов;\n29 January 1860 – 15 July 1904) was a playwright.\nHe was a physician.",
+     "Anton Chekhov (; Russian: Антон Чехов; 29 January 1860 – 15 July 1904) was a playwright."),
+    ("Note: names are in simplified characters.\nWu Yun was a general.\nHe died in 484 BC.", "Wu Yun was a general."),
+    ("\nUgarit was a city.\nIt was found in 1928.", "Ugarit was a city."),
+])
+def test_first_paragraph(extract, paragraph):
+    assert first_paragraph(extract) == paragraph
+
+
+@pytest.mark.parametrize("description, dated", [
+    ("Ancient Mesoamerican city", True), ("Principality of Romania from 1330 to 1862", True),
+    ("Historical Iranian region in Azerbaijan", True), ("Pre-Roman civilization of Etruria (9th–1st century BC)", True),
+    ("Country in Northern Europe", False), ("Ceremonial county in England", False), ("Sovereign state", False),
+])
+def test_dated_descriptions(description, dated):
+    assert bool(DATED.search(description)) == dated

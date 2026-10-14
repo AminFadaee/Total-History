@@ -18,7 +18,7 @@ from page_in_history.sources.wikidata import Entity, Wikidata, entity_id, qualif
 from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country_infobox, display_name, person_titles,
                                                   place_name, ruler_succession)
 from page_in_history.regions import home, regions
-from page_in_history.sentences import contribution, first_paragraph
+from page_in_history.sentences import contribution, first_paragraph, opening
 from page_in_history.power import CONSORT, OTHER_STATE, PRIVATE, RULER, SERVANT, PowerScores
 from page_in_history.succession import WINDOW_YEARS, Judge, RegionalSuccession
 
@@ -100,7 +100,9 @@ EVENT_LANGUAGES = 30
 CORE_EVENTS = 15
 LIVING_ON_MAP_BEFORE = 1930
 PRESENT_DESCRIPTION_FROM = 1900
-MID_THOUGHT = re.compile(r"(?:It|Its|They|Their|The dynasty|Under)\b")
+CIRCUMSTANCE = re.compile(r"Under\b")
+DATED = re.compile(r"\d|\b(?:ancient|historical|historic|former|medieval|prehistoric|pre-\w+)\b", re.IGNORECASE)
+MIN_WORDS_BEYOND_NAME = 1
 PRESENT_OR_PAST = re.compile(r"\b(is|are|was|were)\b")
 HUMAN = "Q5"
 ASSUMED_LIFESPAN = 70
@@ -857,19 +859,22 @@ class PolityBuilder:
 
     def _summary(self, identity: Identity, entity: Entity, last_drawn: int | None) -> str:
         """What the civilization was: the opening sentence of its article without its subject, by the rule used for
-        what a figure is known for ("The third caliphate to succeed the Islamic prophet Muhammad."), or the article's
-        short description when that sentence carries on from an opening the rule cannot read ("It began with …"). None when the
-        item still exists and its article speaks in the present tense, but the map stops drawing it long before
-        today, since the article then describes the present (medieval Norway as "a Nordic country comprising …
-        Svalbard")."""
+        what a figure is known for ("The third caliphate to succeed the Islamic prophet Muhammad."), where one word
+        beyond the name is enough ("A Russian principality."); or the article's short description when that sentence
+        cannot be cut ("The Etruscans created a civilization …") or tells a circumstance ("Under Islamic rule …").
+        When the item still exists and that sentence speaks in the present tense, but the map stops drawing it long
+        before today, the sentence describes the present (medieval Norway as "a Nordic country comprising …
+        Svalbard"), so only a short description that dates itself is taken ("Ancient Mesoamerican city"), else none."""
         extract, description = self.introductions.get(identity.title, ("", None))
-        tense = PRESENT_OR_PAST.search(first_paragraph(extract))
-        if last_drawn is not None and last_drawn < PRESENT_DESCRIPTION_FROM and tense and tense.group(1) in ("is", "are") \
-                and not entity.years("P576") + entity.years("P582"):
+        sentence = opening(first_paragraph(extract))
+        tense = PRESENT_OR_PAST.search(sentence)
+        present = last_drawn is not None and last_drawn < PRESENT_DESCRIPTION_FROM and tense and tense.group(1) in ("is", "are") \
+            and not entity.years("P576") + entity.years("P582")
+        if present and not (description and DATED.search(description)):
             return ""
-        summary = contribution(first_paragraph(extract), identity.name, description)
-        if MID_THOUGHT.match(summary):
-            summary = contribution("", identity.name, description)
+        summary = contribution("" if present else sentence, identity.name, description, MIN_WORDS_BEYOND_NAME)
+        if CIRCUMSTANCE.match(summary):
+            summary = contribution("", identity.name, description, MIN_WORDS_BEYOND_NAME)
         return summary
 
     def _capital_terms(self, entity: Entity, period: Period, capitals: list[dict]) -> list[dict]:
