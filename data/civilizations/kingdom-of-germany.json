@@ -6,7 +6,11 @@
   "map_year": 961,
   "period": {
     "start": null,
-    "end": null,
+    "end": {
+      "earliest": 962,
+      "latest": 962,
+      "circa": false
+    },
     "confirmed": false,
     "core": [
       843,

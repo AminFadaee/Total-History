@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Frankfurt",
+      "location": [
+        8.682222222222222,
+        50.11055555555556
+      ],
+      "founded": 1
+    }
+  ],
   "parts": [
     "Grand Duchy of Baden",
     "Kingdom of Bavaria",
@@ -35,7 +44,7 @@
   "after": [
     {
       "id": "Q151624",
-      "region": "Poland",
+      "region": "Germany",
       "name": "German Confederation",
       "home": true
     }

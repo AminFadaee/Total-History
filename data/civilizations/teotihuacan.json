@@ -6,9 +6,16 @@
   "map_year": 692,
   "period": {
     "start": null,
-    "end": null,
+    "end": {
+      "earliest": 700,
+      "latest": 700,
+      "circa": false
+    },
     "confirmed": false,
-    "core": null,
+    "core": [
+      1,
+      700
+    ],
     "since": null
   },
   "capitals": [],
@@ -21,7 +28,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "",
+  "summary": "Ancient Mesoamerican city.",
   "tier": "Core",
   "map": "maps/teotihuacan.png",
   "map_asked": true,

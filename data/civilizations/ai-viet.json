@@ -12,7 +12,10 @@
       "circa": false
     },
     "confirmed": false,
-    "core": null,
+    "core": [
+      968,
+      1804
+    ],
     "since": null
   },
   "capitals": [
@@ -60,6 +63,10 @@
     }
   ],
   "key_figures": [
+    {
+      "id": "Q1184365",
+      "name": "Đinh Bộ Lĩnh"
+    },
     {
       "id": "Q210417",
       "name": "Gia Long"

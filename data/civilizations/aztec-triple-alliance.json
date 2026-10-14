@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Tenochtitlan",
+      "location": [
+        -99.13138889,
+        19.435
+      ],
+      "founded": 1325
+    }
+  ],
   "parts": [
     "Tenochtitlan"
   ],
@@ -74,7 +83,7 @@
       1520
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Tenochtitlan",
     "labelled": [
       "Michoacán",
       "Maya civilization"

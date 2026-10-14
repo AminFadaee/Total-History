@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Kathmandu",
+      "location": [
+        85.32,
+        27.71
+      ],
+      "founded": 723
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [],
@@ -66,7 +75,7 @@
       2007
     ],
     "identity": "successor on borders Cliopatria gives an earlier name",
-    "home": "the spot held longest",
+    "home": "Kathmandu",
     "labelled": [
       "Qing Dynasty",
       "British Empire",

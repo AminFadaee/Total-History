@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Sparta",
+      "location": [
+        22.429444444444446,
+        37.07388888888889
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [],

@@ -8,7 +8,10 @@
     "start": null,
     "end": null,
     "confirmed": false,
-    "core": null,
+    "core": [
+      370,
+      470
+    ],
     "since": null
   },
   "capitals": [],
@@ -56,7 +59,7 @@
       426,
       673
     ],
-    "identity": "culture or period Cliopatria draws",
+    "identity": "Wikipedia article with a country infobox",
     "home": "the spot held longest",
     "labelled": [
       "Byzantine Empire",

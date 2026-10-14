@@ -11,8 +11,8 @@
       "circa": false
     },
     "end": {
-      "earliest": 1833,
-      "latest": 1833,
+      "earliest": 1230,
+      "latest": 1230,
       "circa": false
     },
     "confirmed": true,
@@ -38,15 +38,22 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q45670",
+      "region": "Portugal",
+      "name": "Kingdom of Portugal",
+      "home": false
+    }
+  ],
   "key_figures": [
+    {
+      "id": "Q333676",
+      "name": "Ordoño II of León"
+    },
     {
       "id": "Q235080",
       "name": "Alfonso VI of León and Castile"
-    },
-    {
-      "id": "Q128701",
-      "name": "Urraca of León and Castile"
     },
     {
       "id": "Q312767",
