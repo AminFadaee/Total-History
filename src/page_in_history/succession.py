@@ -33,15 +33,18 @@ class Holding:
 @dataclass(frozen=True)
 class Judge:
     """What the deck knows of the states around a civilization: which may be asked as its neighbour (in the deck or well
-    known, not named like it), which is named like it and so leaves the side unasked, whether one can have followed the
-    other, their years (and core years), the deck, and the states the sources say came after (or before) one."""
+    known, not named like it), which is less known but may stand in when the sources and the maps agree, which is named
+    like it and so leaves the side unasked, whether one can have followed the other, their years (and core years), the
+    deck, the states the sources say came after (or before) one, and the country of a deck state's home."""
     asked: Callable[[str], bool]
+    less_known: Callable[[str], bool]
     blocking: Callable[[str], bool]
     follows: Callable[[str, str, bool], bool]
     years: Callable[[str], tuple[int, int] | None]
     spans: Callable[[str], list[tuple[int, int]]]
     in_deck: Callable[[str], bool]
     followers: Callable[[str, bool], set[str]]
+    home: Callable[[str], str | None]
 
 
 @dataclass(frozen=True)
@@ -57,9 +60,12 @@ class RegionalSuccession:
     around it. The neighbour is the nearest holder on Cliopatria's maps within 30 years that Wikidata or the Wikipedia
     infobox also says came before or after; failing that, the nearest whose succession they imply through a part of
     it (Carthage was followed by the Roman province of Africa, whose country Ancient Rome lists the Roman Republic). The 30 years run from the
-    end the maps draw or the end of its period, whichever is nearer. Failing those, a deck state both sides name as
-    each other's neighbour, within 30 years and drawn within 2 degrees of the home; then a deck state the sources name
-    that held the home up to a century away with no other deck state holding it in between. Holders that stayed five
+    end the maps draw or the end of its period, whichever is nearer. Failing those, a less known holder the sources
+    name, when it also took the largest share of the civilization's last (first) land (Northern Zhou before Sui); then a
+    deck state both sides name as each other's neighbour, within 30 years and drawn within 2 degrees of the home, that
+    held the home on the maps or has its own home in the same country (not Sweden-Norway after Denmark-Norway, drawn
+    across the strait from Copenhagen); then a deck state the sources name that held the
+    home up to a century away with no other deck state holding it in between. Holders that stayed five
     years or less, like a wartime occupation, are passed over, so are those that cannot have followed it, and an empire
     partitioned among three or more states has no single successor. When the nearest confirmed holder is named like
     the civilization (the Kingdom and the Crown of Castile), the side is left unasked."""
@@ -78,9 +84,9 @@ class RegionalSuccession:
         dates the capitals, a side is judged at the capital held at that end if it lies in the same country (Ming's
         successor at Beijing, not at its first capital Nanjing); one in another country gives an answer for that
         country beside the main one (the Roman Empire's at Constantinople). A side whose nearest confirmed holder is
-        named like the civilization comes back as blocked. Each answer says how it was found: on the map, mutually
-        stated, or across a wide window. An empire drawn far from its capital, as Cliopatria draws the British
-        and Spanish Empires without Britain and Spain, has none: its home would be a colony."""
+        named like the civilization comes back as blocked. Each answer says how it was found: on the map, less known,
+        mutually stated, or across a wide window. An empire drawn far from its capital, as Cliopatria draws the
+        British and Spanish Empires without Britain and Spain, has none: its home would be a colony."""
         rows = self.frame[self.frame.qid == qid]
         if rows.empty:
             return [], [], ""
@@ -97,9 +103,9 @@ class RegionalSuccession:
         rows = self.frame[self.frame.qid == qid]
         return None if rows.empty else self._anchor(rows, capitals, years, places)
 
-    def held(self, qid: str, point: Point) -> bool:
+    def held(self, qid: str, point: Point, tolerance: float = CAPITAL_TOLERANCE_DEGREES) -> bool:
         """Whether the civilization ever held the point on the maps, or land within reach of it."""
-        return any(holding.qid == qid for holding in self._holdings(point, CAPITAL_TOLERANCE_DEGREES))
+        return any(holding.qid == qid for holding in self._holdings(point, tolerance))
 
     def near(self, qid: str, moment: int, point: Point) -> bool:
         """Whether the civilization held land within 2 degrees of the point within 30 years of the moment."""
@@ -149,13 +155,17 @@ class RegionalSuccession:
                         return {"id": holding.qid, "region": at.region, "how": "map"}
                     if judge.blocking(holding.qid):
                         return {"blocked": True}
+        less_known = {holding.qid for holding in nearby if judge.less_known(holding.qid) and self.stated(*pair(holding.qid))}
+        if less_known and (heir := self._heir(qid, before)) in less_known:
+            return {"id": heir, "region": at.region, "how": "less known"}
         if span:
             moment = span[0] if before else span[1]
             for other in sorted(judge.followers(qid, not before)):
                 theirs = judge.years(other)
                 if judge.in_deck(other) and judge.asked(other) and judge.follows(*pair(other), before) \
                         and qid in judge.followers(other, before) and theirs \
-                        and abs((theirs[1] if before else theirs[0]) - moment) <= WINDOW_YEARS and self.near(other, moment, point):
+                        and abs((theirs[1] if before else theirs[0]) - moment) <= WINDOW_YEARS and self.near(other, moment, point) \
+                        and (judge.home(other) == at.region or self.held(other, point, 0)):
                     return {"id": other, "region": at.region, "how": "mutual"}
         wide = sorted((holding for holding in others if WINDOW_YEARS < distance(holding) <= WIDE_YEARS
                        and judge.in_deck(holding.qid) and (holding.start < own[0].start if before else holding.end > own[-1].end)),
@@ -243,6 +253,19 @@ class RegionalSuccession:
                     stretches.append([start, end])
             holdings += [Holding(qid, int(start), int(end)) for start, end in stretches]
         return sorted(holdings, key=lambda holding: holding.start)
+
+    def _heir(self, qid: str, before: bool) -> str | None:
+        """The state that held the largest share of the civilization's first land the year before it, or of its last
+        land the year after."""
+        rows = self.frame[self.frame.qid == qid]
+        edge = rows.loc[rows.FromYear.idxmin()] if before else rows.loc[rows.ToYear.idxmax()]
+        shape = self.equal_area(gpd.GeoSeries([edge.geometry], crs=rows.crs)).iloc[0]
+        year = edge.FromYear - 1 if before else edge.ToYear + 1
+        others = self.frame[(self.frame.FromYear <= year) & (self.frame.ToYear >= year)
+                            & (self.frame.qid != qid) & self.frame.geometry.intersects(edge.geometry)]
+        shares = {other: max(geometry.intersection(shape).area for geometry in group.geometry)
+                  for other, group in self.equal_area(others).groupby("qid")}
+        return max(shares, key=shares.get) if shares else None
 
     def _partitioned(self, rows: gpd.GeoDataFrame) -> bool:
         """The year after it ended, its final territory was held in large parts by three or more states, as

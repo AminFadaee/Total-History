@@ -59,6 +59,7 @@ MIN_REIGN_YEARS = 3
 COLONY_KINDS = {"Q1790360", "Q133156", "Q1351282"}
 SPREAD_SHARE = 0.5
 KNOWN_NEIGHBOUR_LANGUAGES = 40
+LESS_KNOWN_NEIGHBOUR_LANGUAGES = 20
 MIRROR_GAP_YEARS = 100
 HOME_OVERLAP_YEARS = 5
 SUCCESSION_SLOTS = 3
@@ -942,36 +943,39 @@ class PolityBuilder:
         """Once the deck and its figures are known, the civilizations before and after each one, each in a region
         ("before the Mongol Empire in Iraq: the Abbasid Caliphate; in Kyrgyzstan: the Kara-Khitans"). First the holder
         of its home on the map, which must be in the deck or well known (an article in at least 40 Wikipedia
-        languages), else the nearest confirmed holder that is. Then the state its last (first) infobox leader's own
+        languages), else the nearest confirmed holder that is, else a holder known in at least 20 languages that the
+        sources name and that took the largest share of its land. Then the state its last (first) infobox leader's own
         infobox names as successor (predecessor), when that person led exactly one other deck civilization, which began
         within 30 years and held the civilization's home on the map (Timurid → Mughal through Babur; not Great Britain
-        before Hanover, a shared crown). Then the same links seen from the other side (Achaemenid
-        before the Macedonian Empire), except for answers found only by both naming each other or across a wide
-        window. Every answer must be able to have followed: a predecessor began before the civilization, a successor
-        ended after it, neither was a part the other absorbed nor a phase of it under the same name. One civilization
-        per region, at most three a side. The first, asked as its own card, is in its home region (today's country at
+        before Hanover, a shared crown). Then the same links seen from the other side (Achaemenid before the
+        Macedonian Empire). Every answer must be able to have followed: a predecessor began before the civilization, a
+        successor ended after it, neither was a part the other absorbed nor a phase of it under the same name. One
+        civilization per region, at most three a side. The first, asked as its own card, is in its home region (today's country at
         its longest-held capital); the others are other regions. An answer from the other side or a leader fills the
-        home only when the two overlap by five years at most, or by 30 when it held land near the home at the change."""
+        home only when the two overlap by five years at most, or by 30 when it held land near the home at the change,
+        and, when both are on the maps, it held the home point at some time."""
         deck = self.deck_polities = {polity.id: polity for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
         homes_from = {polity.id: self._home(self.catalog.entities[polity.id], polity.period, polity.capitals)
                       for polity in polities}
+        anchors = {polity.id: self.succession.home(polity.id, **homes_from[polity.id]) for polity in polities}
         blocked, weak = set(), set()
         for polity in polities:
             judge = Judge(asked=lambda other, name=polity.name: known(other) and not same_name(name, self._name(other)),
+                          less_known=lambda other, name=polity.name: editions.get(other, 0) >= LESS_KNOWN_NEIGHBOUR_LANGUAGES
+                          and not same_name(name, self._name(other)),
                           blocking=lambda other, name=polity.name: known(other) and same_name(name, self._name(other)),
                           follows=self._follows, years=self._span, spans=self._spans, in_deck=deck.__contains__,
-                          followers=self._followers)
+                          followers=self._followers, home=lambda other: anchors[other].region if anchors.get(other) else None)
             before, after, _ = self.succession.neighbours(
                 polity.id, homes_from[polity.id]["capitals"], self._capital_edges(self.catalog.entities[polity.id], polity.period),
                 judge, homes_from[polity.id]["years"], homes_from[polity.id]["places"])
             for side, found in (("before", before), ("after", after)):
                 blocked |= {(polity.id, side) for edge in found if edge.get("blocked")}
-                weak |= {(polity.id, side, edge["id"]) for edge in found if edge.get("how") in ("mutual", "wide")}
+                weak |= {(polity.id, side, edge["id"]) for edge in found if edge.get("how") in ("mutual", "wide", "less known")}
                 setattr(polity, side, self._edges([{key: value for key, value in edge.items() if key != "how"}
                                                    for edge in found if "id" in edge]))
-        anchors = {polity.id: self.succession.home(polity.id, **homes_from[polity.id]) for polity in polities}
         homes = {polity.id: anchors[polity.id].region if anchors[polity.id] else self._home_region(polity)
                  for polity in polities}
         for polity, side, other in self._ruler_links(polities, figures):
@@ -981,7 +985,7 @@ class PolityBuilder:
         for polity in polities:
             for side, mirror in (("after", "before"), ("before", "after")):
                 for edge in list(getattr(polity, side)):
-                    if edge["id"] in deck and not edge.get("reserved") and (polity.id, side, edge["id"]) not in weak:
+                    if edge["id"] in deck and not edge.get("reserved"):
                         self._link(deck[edge["id"]], mirror, polity, edge["region"])
         for polity in polities:
             for side in ("before", "after"):
@@ -1014,7 +1018,10 @@ class PolityBuilder:
 
     def _fills_home(self, polity: Polity, other: str, side: str, point) -> bool:
         """An answer from the other side or a leader may stand in the home region when the two overlap by five years at
-        most, or by 30 when it held land within 2 degrees of the home at the change."""
+        most, or by 30 when it held land within 2 degrees of the home at the change; when both are on the maps, only if
+        it held the home point at some time (not Srivijaya, which never held Majapahit's Trowulan, before Majapahit)."""
+        if self.succession.drawn(polity.id) and self.succession.drawn(other) and not self.succession.held(other, point, 0):
+            return False
         if self._apart(polity.id, other, side, HOME_OVERLAP_YEARS):
             return True
         if not self._apart(polity.id, other, side, WINDOW_YEARS):
@@ -1067,13 +1074,16 @@ class PolityBuilder:
     def _link(self, polity: Polity, side: str, other: Polity, region: str, gap: int = MIRROR_GAP_YEARS) -> None:
         """Add the other civilization before or after this one in the region, unless it is listed already, the region
         is unknown, or they do not follow each other: the later one must begin after the earlier begins, within a
-        century of its end, and end after it ends (not the Confederacy before the USA). The closest in time keeps a
-        region that several share."""
+        century of its end, and end after it ends (not the Confederacy before the USA), by their periods or, for one
+        unconfirmed, its core years (the Four Oirats before the Dzungar Khanate). The closest in time keeps a region
+        that several share."""
         edges = getattr(polity, side)
         earlier, later = (other, polity) if side == "before" else (polity, other)
-        first, second = self._ruled_years(earlier), self._ruled_years(later)
-        if not region or not (first and second and first[0] < second[0] and first[1] < second[1]
-                              and abs(second[0] - first[1]) <= gap) or same_name(polity.name, other.name):
+        fits = lambda first, second: first and second and first[0] < second[0] and first[1] < second[1] \
+            and abs(second[0] - first[1]) <= gap
+        if not region or same_name(polity.name, other.name) or not any(
+                fits(self._ruled_years(earlier, core), self._ruled_years(later, other_core))
+                for core in (False, True) for other_core in (False, True)):
             return
         if all(edge["id"] != other.id for edge in edges):
             edges.append({"id": other.id, "region": region, "name": other.name})
