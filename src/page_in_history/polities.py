@@ -1183,8 +1183,10 @@ class PolityBuilder:
         than its historical park); capitals 5 km or more apart are separate places, as Venice and Malamocco are, or the infobox's name when Wikidata's item is wider than a place. An item that
         is not a settlement, such as a historical park or an archaeological site (Ayutthaya Historical Park, Abbasid
         Samarra), is shown as the town it lies in when that town is within 25 km. A state is never a capital, though a city that Wikidata also files as an administrative
-        unit, like Paris, Berlin or Bucharest, is. When the two sources share none, a capital either names counts if it lies in the
-        civilization's own territory on the map (Hattusa, Susa, Gordion). Wikidata's capitals of every rank count, but
+        unit or a state, like Paris, Bucharest or Tenochtitlan, is; a state one source names stands for the settlement the other
+        names within 25 km (the Free City of Frankfurt for Frankfurt). When the two sources share none, a capital either names counts if it lies in the
+        civilization's own territory on the map (Hattusa, Susa, Gordion), or, for a civilization without a map, within 25 km of
+        where Wikidata places it (Sparta). Wikidata's capitals of every rank count, but
         one it dates only outside the confirmed period (Cairo, seat of the Abbasid caliphs after the fall of
         Baghdad) or only from 1945 on (Brasília) is left out."""
         outside = self._capitals_outside(entity, period)
@@ -1193,7 +1195,9 @@ class PolityBuilder:
                   if found and found.coordinates()]
         capitals = []
         for qid in self._qids(infobox.capital):
-            if not self._can_be_capital(qid) or qid in outside:
+            if not self._can_be_capital(qid):
+                qid = self._settlement_at(qid, places)
+            if not qid or qid in outside:
                 continue
             capital = self._capital(qid)
             location = capital["location"]
@@ -1212,12 +1216,17 @@ class PolityBuilder:
             if not any(location and found["location"] and kilometres(location, found["location"]) <= SAME_PLACE_KM
                        for found in capitals):
                 capitals.append(capital)
-        if capitals or rows.empty:
+        if capitals:
             return capitals
-        territory = shapely.union_all(rows.geometry.values).buffer(CAPITAL_TOLERANCE_DEGREES)
+        if rows.empty:
+            home = entity.coordinates()
+            holds = lambda location: home is not None and kilometres(location, home) <= CAPITAL_MATCH_KM
+        else:
+            territory = shapely.union_all(rows.geometry.values).buffer(CAPITAL_TOLERANCE_DEGREES)
+            holds = lambda location: territory.contains(Point(location))
         for qid in dict.fromkeys(listed + self._qids(infobox.capital)):
             location = self._capital(qid)["location"]
-            if self._can_be_capital(qid) and qid not in outside and location and territory.contains(Point(location)):
+            if self._can_be_capital(qid) and qid not in outside and location and holds(location):
                 capital = self._shown(qid, location)
                 if capital["name"] not in {found["name"] for found in capitals}:
                     capitals.append(capital)
@@ -1237,9 +1246,16 @@ class PolityBuilder:
         return {qid for qid, outside in terms.items() if all(outside)}
 
     def _can_be_capital(self, qid: str) -> bool:
-        """Any place but a state: a municipality like Bucharest is one, a kingdom named as a capital is not."""
+        """Any place but a state: a municipality like Bucharest is one, and so is a city that is also a state, even one
+        Cliopatria draws (Tenochtitlan, Kathmandu); a kingdom named as a capital is not."""
         kinds = self.capital_kinds.get(qid, set())
-        return qid not in self.catalog.by_qid and ("state" not in kinds or "settlement" in kinds)
+        return "settlement" in kinds or (qid not in self.catalog.by_qid and "state" not in kinds)
+
+    def _settlement_at(self, qid: str, places: list) -> str | None:
+        """The settlement Wikidata names as a capital where a state the infobox names as one lies."""
+        location = self._capital(qid)["location"]
+        return next((place for place, coordinates in places if place in self.settlements and self._can_be_capital(place)
+                     and location and kilometres(location, coordinates) <= CAPITAL_MATCH_KM), None)
 
     def _shown(self, qid: str, location) -> dict:
         """A capital under its own name, or the town it lies in when it is a site rather than a settlement."""
@@ -1252,11 +1268,14 @@ class PolityBuilder:
         entity = self.names.get(qid)
         location = entity.coordinates() if entity else None
         founded = min((year.earliest for year in entity.years("P571")), default=None) if entity else None
-        return {"name": place_name(self._name(qid)), "location": list(location) if location else None, "founded": founded}
+        return {"name": place_name(self._own_name(qid)), "location": list(location) if location else None, "founded": founded}
 
     def _name(self, qid: str) -> str:
-        if qid in self.catalog.by_qid:
-            return self.catalog.by_qid[qid].name
+        return self.catalog.by_qid[qid].name if qid in self.catalog.by_qid else self._own_name(qid)
+
+    def _own_name(self, qid: str) -> str:
+        """The item's own name, so that a city Cliopatria also draws as a state is named as the city (Luang Prabang,
+        not the Kingdom of Luang Phrabang)."""
         entity = self.names.get(qid)
         return display_name(entity.enwiki) if entity and entity.enwiki else (entity.label if entity and entity.label else qid)
 
