@@ -5,7 +5,7 @@ import pandas as pd
 import shapely
 from shapely.geometry import Point
 
-from page_in_history.polities import POLITY_ROOTS, Identity, PolityCatalog
+from page_in_history.polities import POLITY_ROOTS, Identity, PolityCatalog, dates
 from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, Cliopatria
 from page_in_history.sources.wikidata import Entity
 from page_in_history.sources.wikipedia import country_infobox, display_name
@@ -224,10 +224,3 @@ def overlapping(own: tuple[int | None, int | None], other: tuple[int | None, int
     if side == "after":
         return own[0] is None or start >= own[0]
     return end is not None and (own[1] is None or end <= own[1])
-
-
-def dates(entity: Entity) -> tuple[int | None, int | None]:
-    """A state's first and last year by Wikidata: inception or start time, dissolution or end time."""
-    starts = [year.earliest for year in entity.years("P571") + entity.years("P580")]
-    ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
-    return min(starts, default=None), max(ends, default=None)

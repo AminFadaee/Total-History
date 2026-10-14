@@ -59,7 +59,6 @@ MIN_REIGN_YEARS = 3
 COLONY_KINDS = {"Q1790360", "Q133156", "Q1351282"}
 SPREAD_SHARE = 0.5
 KNOWN_NEIGHBOUR_LANGUAGES = 40
-LESS_KNOWN_NEIGHBOUR_LANGUAGES = 20
 MIRROR_GAP_YEARS = 100
 HOME_OVERLAP_YEARS = 5
 SUCCESSION_SLOTS = 3
@@ -317,6 +316,13 @@ def years_overlap(entity: Entity, start: int, end: int) -> bool:
     return bool(inception) and min(inception) <= end and (not dissolution or max(dissolution) >= start)
 
 
+def dates(entity: Entity) -> tuple[int | None, int | None]:
+    """A state's first and last year by Wikidata: inception or start time, dissolution or end time."""
+    starts = [year.earliest for year in entity.years("P571") + entity.years("P580")]
+    ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
+    return min(starts, default=None), max(ends, default=None)
+
+
 def kilometres(first: tuple[float, float], second: tuple[float, float]) -> float:
     """Great-circle distance between two longitude and latitude points."""
     (lon1, lat1), (lon2, lat2) = (map(math.radians, point) for point in (first, second))
@@ -393,6 +399,7 @@ class PolityCatalog:
             self.unresolved.pop(name, None)
         self.qids = {name: identity.qid for name, identity in candidates.items()}
         self.identities = self._without_duplicates(candidates)
+        self._name_as_whole()
         self.peoples = self._without_peoples()
         self.by_qid = {identity.qid: identity for identity in self.identities.values()}
         self.mapless: dict[str, tuple[int, int]] = {}
@@ -602,6 +609,46 @@ class PolityCatalog:
             self.cliopatria = Cliopatria(frame, self.cliopatria.spikes)
             self.qids = {renamed.get(name, name): qid for name, qid in self.qids.items()}
         return kept
+
+    def _name_as_whole(self) -> None:
+        """Cliopatria sometimes names a whole state after one stretch of it: its Western Jin is the Jin dynasty, Eastern
+        Jin included, and its Macedonian Empire the ancient kingdom from the 7th century BC. When a state that has ended
+        lists a part named like the polity, or another state carries the polity's name as label or alias, within the
+        item's dates (give or take 25 years) and spanning at most half the years Cliopatria draws, the polity takes the
+        name of the item's article. A country that still exists keeps the name of its present form (the Republic of
+        Austria)."""
+        named = {}
+        for name, identity in self.identities.items():
+            whole, entity = display_name(identity.title), self.entities[identity.qid]
+            if self.is_polity(entity) and dates(entity)[1] is not None and not same_name(name, whole) \
+                    and not same_name(name, entity.label or "") and whole not in self.identities \
+                    and self._names_stretch(name, entity):
+                named[name] = whole
+        for name, whole in named.items():
+            identity = self.identities.pop(name)
+            self.identities[whole] = Identity(whole, identity.title, identity.qid, identity.how)
+            self.qids[whole] = self.qids.pop(name)
+        if named:
+            self.cliopatria = Cliopatria(self.cliopatria.frame.assign(Name=self.cliopatria.frame.Name.replace(named)),
+                                         self.cliopatria.spikes)
+
+    def _names_stretch(self, name: str, entity: Entity) -> bool:
+        start, end = dates(entity)
+        rows = self.cliopatria.rows(name)
+        drawn = int(rows.ToYear.max() - rows.FromYear.min())
+        parts = self.wikidata.entities(entity.ids("P527", preferred_only=False))
+        others = self.wikidata.entities([qid for qid in self.wikidata.exact_matches(name) if qid != entity.id])
+        classes = {qid for other in others.values() for qid in other.ids("P31", preferred_only=False)}
+        self.polity_classes |= self.wikidata.subclass_of(sorted(classes - self.polity_classes), POLITY_ROOTS)
+        stretches = [part for part in parts.values() if any(same_name(name, label) for label in
+                                                            (part.label, part.enwiki and display_name(part.enwiki)) if label)]
+        stretches += [other for other in others.values() if self.is_polity(other)]
+        for stretch in stretches:
+            first, last = dates(stretch)
+            if first is not None and last is not None and start is not None and 2 * (last - first) <= drawn \
+                    and start - SHARED_TOLERANCE_YEARS <= first and last <= end + SHARED_TOLERANCE_YEARS:
+                return True
+        return False
 
     def _without_peoples(self) -> dict[str, set[str]]:
         """A people or dynasty drawn beside its own state would be asked twice: the Vandals beside the Vandal Kingdom,
@@ -943,39 +990,36 @@ class PolityBuilder:
         """Once the deck and its figures are known, the civilizations before and after each one, each in a region
         ("before the Mongol Empire in Iraq: the Abbasid Caliphate; in Kyrgyzstan: the Kara-Khitans"). First the holder
         of its home on the map, which must be in the deck or well known (an article in at least 40 Wikipedia
-        languages), else the nearest confirmed holder that is, else a holder known in at least 20 languages that the
-        sources name and that took the largest share of its land. Then the state its last (first) infobox leader's own
+        languages), else the nearest confirmed holder that is. Then the state its last (first) infobox leader's own
         infobox names as successor (predecessor), when that person led exactly one other deck civilization, which began
         within 30 years and held the civilization's home on the map (Timurid → Mughal through Babur; not Great Britain
-        before Hanover, a shared crown). Then the same links seen from the other side (Achaemenid before the
-        Macedonian Empire). Every answer must be able to have followed: a predecessor began before the civilization, a
-        successor ended after it, neither was a part the other absorbed nor a phase of it under the same name. One
-        civilization per region, at most three a side. The first, asked as its own card, is in its home region (today's country at
+        before Hanover, a shared crown). Then the same links seen from the other side (Achaemenid
+        before the Macedonian Empire), except for answers found only by both naming each other or across a wide
+        window. Every answer must be able to have followed: a predecessor began before the civilization, a successor
+        ended after it, neither was a part the other absorbed nor a phase of it under the same name. One civilization
+        per region, at most three a side. The first, asked as its own card, is in its home region (today's country at
         its longest-held capital); the others are other regions. An answer from the other side or a leader fills the
-        home only when the two overlap by five years at most, or by 30 when it held land near the home at the change,
-        and, when both are on the maps, it held the home point at some time."""
+        home only when the two overlap by five years at most, or by 30 when it held land near the home at the change."""
         deck = self.deck_polities = {polity.id: polity for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
         homes_from = {polity.id: self._home(self.catalog.entities[polity.id], polity.period, polity.capitals)
                       for polity in polities}
-        anchors = {polity.id: self.succession.home(polity.id, **homes_from[polity.id]) for polity in polities}
         blocked, weak = set(), set()
         for polity in polities:
             judge = Judge(asked=lambda other, name=polity.name: known(other) and not same_name(name, self._name(other)),
-                          less_known=lambda other, name=polity.name: editions.get(other, 0) >= LESS_KNOWN_NEIGHBOUR_LANGUAGES
-                          and not same_name(name, self._name(other)),
                           blocking=lambda other, name=polity.name: known(other) and same_name(name, self._name(other)),
                           follows=self._follows, years=self._span, spans=self._spans, in_deck=deck.__contains__,
-                          followers=self._followers, home=lambda other: anchors[other].region if anchors.get(other) else None)
+                          followers=self._followers)
             before, after, _ = self.succession.neighbours(
                 polity.id, homes_from[polity.id]["capitals"], self._capital_edges(self.catalog.entities[polity.id], polity.period),
                 judge, homes_from[polity.id]["years"], homes_from[polity.id]["places"])
             for side, found in (("before", before), ("after", after)):
                 blocked |= {(polity.id, side) for edge in found if edge.get("blocked")}
-                weak |= {(polity.id, side, edge["id"]) for edge in found if edge.get("how") in ("mutual", "wide", "less known")}
+                weak |= {(polity.id, side, edge["id"]) for edge in found if edge.get("how") in ("mutual", "wide")}
                 setattr(polity, side, self._edges([{key: value for key, value in edge.items() if key != "how"}
                                                    for edge in found if "id" in edge]))
+        anchors = {polity.id: self.succession.home(polity.id, **homes_from[polity.id]) for polity in polities}
         homes = {polity.id: anchors[polity.id].region if anchors[polity.id] else self._home_region(polity)
                  for polity in polities}
         for polity, side, other in self._ruler_links(polities, figures):
@@ -985,7 +1029,7 @@ class PolityBuilder:
         for polity in polities:
             for side, mirror in (("after", "before"), ("before", "after")):
                 for edge in list(getattr(polity, side)):
-                    if edge["id"] in deck and not edge.get("reserved"):
+                    if edge["id"] in deck and not edge.get("reserved") and (polity.id, side, edge["id"]) not in weak:
                         self._link(deck[edge["id"]], mirror, polity, edge["region"])
         for polity in polities:
             for side in ("before", "after"):
@@ -1018,10 +1062,7 @@ class PolityBuilder:
 
     def _fills_home(self, polity: Polity, other: str, side: str, point) -> bool:
         """An answer from the other side or a leader may stand in the home region when the two overlap by five years at
-        most, or by 30 when it held land within 2 degrees of the home at the change; when both are on the maps, only if
-        it held the home point at some time (not Srivijaya, which never held Majapahit's Trowulan, before Majapahit)."""
-        if self.succession.drawn(polity.id) and self.succession.drawn(other) and not self.succession.held(other, point, 0):
-            return False
+        most, or by 30 when it held land within 2 degrees of the home at the change."""
         if self._apart(polity.id, other, side, HOME_OVERLAP_YEARS):
             return True
         if not self._apart(polity.id, other, side, WINDOW_YEARS):
@@ -1074,16 +1115,13 @@ class PolityBuilder:
     def _link(self, polity: Polity, side: str, other: Polity, region: str, gap: int = MIRROR_GAP_YEARS) -> None:
         """Add the other civilization before or after this one in the region, unless it is listed already, the region
         is unknown, or they do not follow each other: the later one must begin after the earlier begins, within a
-        century of its end, and end after it ends (not the Confederacy before the USA), by their periods or, for one
-        unconfirmed, its core years (the Four Oirats before the Dzungar Khanate). The closest in time keeps a region
-        that several share."""
+        century of its end, and end after it ends (not the Confederacy before the USA). The closest in time keeps a
+        region that several share."""
         edges = getattr(polity, side)
         earlier, later = (other, polity) if side == "before" else (polity, other)
-        fits = lambda first, second: first and second and first[0] < second[0] and first[1] < second[1] \
-            and abs(second[0] - first[1]) <= gap
-        if not region or same_name(polity.name, other.name) or not any(
-                fits(self._ruled_years(earlier, core), self._ruled_years(later, other_core))
-                for core in (False, True) for other_core in (False, True)):
+        first, second = self._ruled_years(earlier), self._ruled_years(later)
+        if not region or not (first and second and first[0] < second[0] and first[1] < second[1]
+                              and abs(second[0] - first[1]) <= gap) or same_name(polity.name, other.name):
             return
         if all(edge["id"] != other.id for edge in edges):
             edges.append({"id": other.id, "region": region, "name": other.name})
@@ -1361,7 +1399,8 @@ class PolityBuilder:
         count. The infobox and Wikidata agree within a year for modern dates and within about 1% of a date's age for
         older ones, since ancient chronologies differ by decades: 27 years at 700 BC, 47 at 2700 BC. An end too coarse to
         follow the start (the 1st millennium BC after the 8th century BC) is no end. A state that became part of its
-        successor (the Kingdom of Castile of the Crown of Castile) ends when it joined, if the map stops drawing it then."""
+        successor (the Kingdom of Castile of the Crown of Castile), or was followed by a later phase under its own name
+        (Silla by Unified Silla), ends when it joined or the phase began, if the map stops drawing it then."""
         inception = min(entity.years("P571") + entity.years("P580"), key=lambda year: year.earliest, default=None)
         dissolution = max(entity.years("P576") + entity.years("P582"), key=lambda year: year.latest, default=None)
         ending = dissolution.as_span() if dissolution else None
@@ -1389,7 +1428,9 @@ class PolityBuilder:
 
     def _joined(self, entity: Entity) -> Span | None:
         """When Wikidata names a drawn state as both its successor and what it is part of, the year it joined: the
-        part-of start, the succession's date, or else the successor's single inception."""
+        part-of start, the succession's date, or else the successor's single inception. A drawn successor named like the
+        state itself, stated on either side, is its later phase: the state ends when that began (Silla at Unified Silla,
+        the Kingdom of Aragon at the Crown of Aragon)."""
         successors = [claim for prop in ("P156", "P1366") for claim in entity.statements(prop, preferred_only=False)]
         for claim in entity.statements("P361", preferred_only=False):
             whole = claim["mainsnak"]["datavalue"]["value"].get("id")
@@ -1400,10 +1441,28 @@ class PolityBuilder:
                      if year is not None]
             if dated:
                 return Span(dated[0], dated[0])
-            founded = self.catalog.entities[whole].years("P571") + self.catalog.entities[whole].years("P580")
-            if len({year.value for year in founded}) == 1:
-                return founded[0].as_span()
+            if founded := self._founded(whole):
+                return founded
+        return self._later_phase(entity)
+
+    def _later_phase(self, entity: Entity) -> Span | None:
+        own = self.catalog.by_qid.get(entity.id)
+        start, end = dates(entity)
+        if own is None or start is None or end is None or not stems(own.name):
+            return None
+        stated = set(entity.ids("P156", "P1366", preferred_only=False)) | \
+            {qid for qid in self.catalog.by_qid
+             if entity.id in self.catalog.entities[qid].ids("P155", "P1365", preferred_only=False)}
+        for qid in sorted(stated & self.catalog.by_qid.keys() - {entity.id}):
+            founded = self._founded(qid)
+            if founded and start < founded.earliest and founded.latest < end \
+                    and stems(own.name) <= stems(self.catalog.by_qid[qid].name):
+                return founded
         return None
+
+    def _founded(self, qid: str) -> Span | None:
+        founded = self.catalog.entities[qid].years("P571") + self.catalog.entities[qid].years("P580")
+        return founded[0].as_span() if len({year.value for year in founded}) == 1 else None
 
     def _since(self, entity: Entity, start: Span | None, clio_end: int | None) -> Span | None:
         """For a state that still exists (drawn to the map's last year, with no end date in Wikidata), its confirmed

@@ -10,8 +10,7 @@ from page_in_history.dates import century_label, period_label
 from page_in_history.naming import slugify
 from page_in_history.photos import PictureKind, PortraitFinder
 from page_in_history.sentences import balanced, contribution, first_paragraph
-from page_in_history.lineages import dates
-from page_in_history.polities import ASSUMED_LIFESPAN, HUMAN, LIVING_ON_MAP_BEFORE, PolityCatalog
+from page_in_history.polities import ASSUMED_LIFESPAN, HUMAN, LIVING_ON_MAP_BEFORE, PolityCatalog, dates
 from page_in_history.sources import naturalearth, notable, vital
 from page_in_history.sources.pantheon import Person
 from page_in_history.sources.wikidata import Entity, Year, qualifier_year
