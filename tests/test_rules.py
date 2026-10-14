@@ -1,7 +1,7 @@
 """The pure rules the pipeline applies to source text, each on the cases that once went wrong or easily could."""
 import pytest
 
-from page_in_history.dates import centuries, parse, parse_range, period_label
+from page_in_history.dates import Span, centuries, parse, parse_range, period_label
 from page_in_history.deck import century_tag
 from page_in_history.figures import lifetime
 from page_in_history.polities import DATED, RulingRole, row_years, same_name
@@ -68,6 +68,14 @@ def test_centuries_cross_the_era():
 @pytest.mark.parametrize("text, label", [("1643", "1643"), ("202 BC", "202 BC")])
 def test_parse_labels(text, label):
     assert parse(text).label() == label
+
+
+@pytest.mark.parametrize("text, span", [
+    ("370s", Span(370, 379)), ("c. 1430s", Span(1430, 1439, True)), ("370s BC", Span(-379, -370)),
+    ("4 September 476", Span(476, 476)), ("April 13, 1375", Span(1375, 1375)),
+])
+def test_parse_decades_and_days(text, span):
+    assert parse(text) == span
 
 
 def test_period_label_across_the_era():

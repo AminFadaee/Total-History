@@ -134,6 +134,7 @@ INFOBOX_TOLERANCE_YEARS = 1
 AGE_TOLERANCE_SHARE = 0.01
 PRESENT_YEAR = 2000
 CLIOPATRIA_TOLERANCE_YEARS = 25
+DATES = ("P571", "P580", "P576", "P582")
 CAPITAL_MATCH_KM = 25
 MODERN_SHARE_OF_POLITY = 0.05
 MODERN_SHARE_OF_COUNTRY = 0.5
@@ -836,7 +837,7 @@ class PolityBuilder:
         """Notes for the selected civilizations. A civilization before or after one of them may come from outside
         the deck, as any resolved civilization can be the answer."""
         known = list(self.catalog.identities.values())
-        texts = self.wikipedia.wikitext([identity.title for identity in known])
+        texts = self.wikipedia.wikitext([identity.title for identity in known], follow=True)
         self.infoboxes = {identity.qid: country_infobox(texts.get(identity.title, "")) or Infobox() for identity in known}
         linked = [title for box in self.infoboxes.values()
                   for title in box.capital + box.predecessors + box.successors + box.leaders]
@@ -855,6 +856,9 @@ class PolityBuilder:
         self.names.update(self.wikidata.entities(towns))
         self.towns = {qid for qid, found in self.wikidata.kinds(towns, roots).items() if "settlement" in found}
         self.introductions = self.wikipedia.introductions([identity.title for identity in identities])
+        undated = [self.catalog.entities[identity.qid] for identity in identities]
+        self.cultures = self.wikidata.entities([qid for entity in undated if not any(entity.years(prop) for prop in DATES)
+                                                for qid in entity.ids("P2596")])
         return [self._polity(identity, self.infoboxes[identity.qid]) for identity in identities]
 
     def _summary(self, identity: Identity, entity: Entity, last_drawn: int | None) -> str:
@@ -1284,7 +1288,7 @@ class PolityBuilder:
         rows = self.cliopatria.rows(identity.name)
         drawn = not rows.empty
         first, last = self.catalog.years(identity.qid)
-        period = self._period(entity, infobox, first if drawn else None, last if drawn else None)
+        period = self._period(self._dated(entity), infobox, first if drawn else None, last if drawn else None)
         capitals = self._capitals(entity, infobox, rows, period)
         parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
                  if qid in self.catalog.by_qid and qid != identity.qid]
@@ -1346,13 +1350,19 @@ class PolityBuilder:
         """Each end needs two sources to agree. Wikidata's inception or start time and dissolution or end time all
         count. The infobox and Wikidata agree within a year for modern dates and within about 1% of a date's age for
         older ones, since ancient chronologies differ by decades: 27 years at 700 BC, 47 at 2700 BC. An end too coarse to
-        follow the start (the 1st millennium BC after the 8th century BC) is no end."""
+        follow the start (the 1st millennium BC after the 8th century BC) is no end. A state that became part of its
+        successor (the Kingdom of Castile of the Crown of Castile) ends when it joined, if the map stops drawing it then."""
         inception = min(entity.years("P571") + entity.years("P580"), key=lambda year: year.earliest, default=None)
         dissolution = max(entity.years("P576") + entity.years("P582"), key=lambda year: year.latest, default=None)
+        ending = dissolution.as_span() if dissolution else None
+        joined = self._joined(entity)
+        if joined and clio_end is not None and joined.overlaps(
+                Span(clio_end, clio_end), tolerances(clio_end)[frozenset(("wikidata", "cliopatria"))]):
+            ending = joined
         start = vote({"infobox": infobox.start, "wikidata": inception.as_span() if inception else None,
                       "cliopatria": Span(clio_start, clio_start) if clio_start is not None else None},
                      tolerances(reference(clio_start, inception, infobox.start)))
-        end = vote({"infobox": infobox.end, "wikidata": dissolution.as_span() if dissolution else None,
+        end = vote({"infobox": infobox.end, "wikidata": ending,
                     "cliopatria": Span(clio_end, clio_end) if clio_end is not None else None},
                    tolerances(reference(clio_end, dissolution, infobox.end)))
         if start is not None and end is not None and end.earliest < start.latest:
@@ -1360,6 +1370,30 @@ class PolityBuilder:
         confirmed = start is not None and end is not None
         return Period(start, end, confirmed, None if confirmed else self._agreed_core(entity, infobox),
                       None if confirmed else self._since(entity, start, clio_end))
+
+    def _dated(self, entity: Entity) -> Entity:
+        """The item, or for a site or people Wikidata gives no dates, the culture it names for it (Teotihuacan)."""
+        if any(entity.years(prop) for prop in DATES):
+            return entity
+        return next((self.cultures[qid] for qid in entity.ids("P2596") if qid in self.cultures), entity)
+
+    def _joined(self, entity: Entity) -> Span | None:
+        """When Wikidata names a drawn state as both its successor and what it is part of, the year it joined: the
+        part-of start, the succession's date, or else the successor's single inception."""
+        successors = [claim for prop in ("P156", "P1366") for claim in entity.statements(prop, preferred_only=False)]
+        for claim in entity.statements("P361", preferred_only=False):
+            whole = claim["mainsnak"]["datavalue"]["value"].get("id")
+            named = [other for other in successors if other["mainsnak"]["datavalue"]["value"].get("id") == whole]
+            if not named or whole not in self.catalog.by_qid:
+                continue
+            dated = [year for year in [qualifier_year(claim, "P580"), *(qualifier_year(other, "P585") for other in named)]
+                     if year is not None]
+            if dated:
+                return Span(dated[0], dated[0])
+            founded = self.catalog.entities[whole].years("P571") + self.catalog.entities[whole].years("P580")
+            if len({year.value for year in founded}) == 1:
+                return founded[0].as_span()
+        return None
 
     def _since(self, entity: Entity, start: Span | None, clio_end: int | None) -> Span | None:
         """For a state that still exists (drawn to the map's last year, with no end date in Wikidata), its confirmed
@@ -1374,14 +1408,15 @@ class PolityBuilder:
     @staticmethod
     def _agreed_core(entity: Entity, infobox: Infobox) -> list[int] | None:
         """When the sources do not confirm its dates, Wikidata's (each a single value, known to the century or better),
-        or the infobox's where Wikidata gives none, within the infobox's, rounded out only as far as Wikidata's own
-        precision (to the decade or century when it knows no more): "c. 929–1031" for the Caliphate of Córdoba,
-        "c. 900–1500" when only the centuries are known. Cliopatria's drawn years do not narrow it, since the map often stops drawing a state before it ended.
+        or the infobox's where Wikidata gives none or several, within the infobox's, rounded out only as far as
+        Wikidata's own precision (to the decade or century when it knows no more): "c. 508–322 BC" for Classical
+        Athens, "c. 900–1500" when only the centuries are known. Cliopatria's drawn years do not narrow it, since the map often stops drawing a state before it ended.
         Nothing when an end is missing or the two share no years."""
         def date(found: list, fallback: Span | None) -> tuple[int, int] | None:
-            if len({year.value for year in found}) == 1 and min(year.precision for year in found) >= CENTURY_PRECISION:
+            single = len({year.value for year in found}) == 1
+            if single and min(year.precision for year in found) >= CENTURY_PRECISION:
                 return found[0].value, min(year.precision for year in found)
-            if found or not fallback:
+            if single or not fallback:
                 return None
             return fallback.earliest, YEAR_PRECISION if fallback.earliest == fallback.latest else DECADE_PRECISION
 

@@ -22,6 +22,7 @@ NON_ARTICLE = ("file:", "image:", "category:", "wikt:", ":category:")
 SECTION = re.compile(r"\n==[^=]")
 INFOBOX_START = re.compile(r"\{\{\s*infobox (?:former )?country\s*[|}]", re.IGNORECASE)
 BRACES = re.compile(r"\{\{|\}\}")
+REDIRECT = re.compile(r"\s*#REDIRECT\s*\[\[([^\]|#]+)\]\]", re.IGNORECASE)
 DASH_TEMPLATES = ("snd", "ndash", "spaced ndash", "spnd", "sndash", "mdash", "spaced en dash", "en dash")
 DISAMBIGUATOR = re.compile(r"\s*\([^)]*\)$")
 
@@ -93,9 +94,15 @@ class Wikipedia:
                     found[title] = [target, page.get("pageprops", {}).get("wikibase_item")]
         return found
 
-    def wikitext(self, titles: list[str]) -> dict[str, str]:
-        """The source text of each article, cached per title."""
-        return self.http.per_key("wikitext-by-title", titles, self._fetch_wikitext)
+    def wikitext(self, titles: list[str], follow: bool = False) -> dict[str, str]:
+        """The source text of each article, cached per title; with follow, a redirect to a whole article gives that
+        article's text (the Caliphate of Córdoba, now part of the Umayyad state of Córdoba)."""
+        texts = self.http.per_key("wikitext-by-title", titles, self._fetch_wikitext)
+        if not follow:
+            return texts
+        targets = {title: match.group(1).strip() for title, text in texts.items() if (match := REDIRECT.match(text))}
+        followed = self.http.per_key("wikitext-by-title", list(targets.values()), self._fetch_wikitext)
+        return texts | {title: followed[target] for title, target in targets.items() if target in followed}
 
     def _fetch_wikitext(self, titles: list[str]) -> dict[str, str]:
         unique = sorted(set(titles))

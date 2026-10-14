@@ -8,6 +8,10 @@ CENTURY = re.compile(r"(\d{1,2})(?:st|nd|rd|th)[\s-]+century\s*(BCE|BC)?", re.IG
 ERA_FIRST = re.compile(r"\b(AD|CE)\s*(\d{1,4})\b")
 ERA_LAST = re.compile(r"\b(\d{1,4})\s*(BCE|BC|CE|AD)\b")
 BARE = re.compile(r"\b(\d{1,4})\b")
+DECADE = re.compile(r"\b(\d{1,3}0)s\b")
+MONTH = r"(January|February|March|April|May|June|July|August|September|October|November|December)"
+DAY_FIRST = re.compile(rf"\b\d{{1,2}}\s+{MONTH}\b", re.IGNORECASE)
+DAY_LAST = re.compile(rf"\b{MONTH}\s+\d{{1,2}},", re.IGNORECASE)
 CIRCA = re.compile(r"\b(c\.|ca\.|circa)", re.IGNORECASE)
 RANGE_SEPARATOR = re.compile(r"\s*[–—]\s*|\s+-\s+|\s+to\s+")
 
@@ -70,7 +74,9 @@ def century_span(century: int, before_christ: bool) -> Span:
 
 
 def parse(text: str, before_christ: bool = False) -> Span | None:
-    """One date as written in an infobox: '1894 BC', 'c. 550 BC', '7th century BC', 'AD 395', '224'."""
+    """One date as written in an infobox: '1894 BC', 'c. 550 BC', '7th century BC', 'AD 395', '224', '370s', '4 September
+    476'."""
+    text = DAY_LAST.sub(r"\1", DAY_FIRST.sub(r"\1", text))
     circa = bool(CIRCA.search(text))
     if match := CENTURY.search(text):
         return century_span(int(match.group(1)), bool(match.group(2)) or before_christ)
@@ -81,6 +87,9 @@ def parse(text: str, before_christ: bool = False) -> Span | None:
         year = int(match.group(1))
         year = -year if match.group(2).upper() in ("BC", "BCE") else year
         return Span(year, year, circa)
+    if match := DECADE.search(text):
+        year = int(match.group(1))
+        return Span(-year - 9, -year, circa) if before_christ or re.search(r"\bBCE?\b", text) else Span(year, year + 9, circa)
     if match := BARE.search(text):
         year = -int(match.group(1)) if before_christ else int(match.group(1))
         return Span(year, year, circa)
