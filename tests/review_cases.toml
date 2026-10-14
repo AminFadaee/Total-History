@@ -153,7 +153,8 @@ capital_present = [
   { civilization = "Roman Empire", capitals = ["Rome"] },
   { civilization = "Abbasid Caliphate", capitals = ["Baghdad"] },
   { civilization = "Kingdom of France", capitals = ["Paris"] },
-  { civilization = "Aztec Triple Alliance", capitals = ["Tenochtitlan"], open = true },
+  { civilization = "Aztec Triple Alliance", capitals = ["Tenochtitlan"] },
+  { civilization = "Kingdom of Nepal", capitals = ["Kathmandu"] },
   { civilization = "Heian Japan", capitals = ["Heian-kyō", "Kyoto"], open = true },
 ]
 
@@ -194,23 +195,23 @@ tier = [
 
 period_ends_by = [
   { civilization = "Western Jin", year = 320, open = true },
-  { civilization = "Kingdom of Castile", year = 1250, open = true },
-  { civilization = "Kingdom of León", year = 1250, open = true },
+  { civilization = "Kingdom of Castile", year = 1250 },
+  { civilization = "Kingdom of León", year = 1250 },
 ]
 
 period_present = [
   { civilization = "Maya civilization", open = true },
   { civilization = "Minoan civilization", open = true },
   { civilization = "Olmec Civilization", open = true },
-  { civilization = "Teotihuacan", open = true },
-  { civilization = "Hunnic Empire", open = true },
+  { civilization = "Teotihuacan" },
+  { civilization = "Hunnic Empire" },
   { civilization = "Classical Athens" },
 ]
 
 what_present = [
-  { civilization = "British Empire", open = true },
-  { civilization = "Etruscans", open = true },
-  { civilization = "Teotihuacan", open = true },
-  { civilization = "Principality of Wallachia", open = true },
-  { civilization = "Principality of Rostov-Suzdal", open = true },
+  { civilization = "British Empire" },
+  { civilization = "Etruscans" },
+  { civilization = "Teotihuacan" },
+  { civilization = "Principality of Wallachia" },
+  { civilization = "Principality of Rostov-Suzdal" },
 ]
