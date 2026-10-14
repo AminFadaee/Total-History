@@ -81,7 +81,7 @@ figure_present = [
   { civilization = "British Raj", people = { Q9439 = "Queen Victoria" } },
   { civilization = "Spanish Empire", people = { Q34417 = "Philip II of Spain", Q32500 = "Charles V, Holy Roman Emperor" } },
   { civilization = "Yugoslavia", people = { Q207384 = "Alexander I of Yugoslavia" } },
-  { civilization = "Göktürks", people = { Q29001 = "Bumin Qaghan", Q381125 = "Bilge Qaghan" }, open = true },
+  { civilization = "Göktürk Khaganate", people = { Q29001 = "Bumin Qaghan" } },
   { civilization = "Holy Roman Empire", people = { Q43915 = "Otto the Great", Q32500 = "Charles V, Holy Roman Emperor" } },
 ]
 
@@ -139,7 +139,7 @@ home_region = [
 capital_absent = [
   { civilization = "Abbasid Caliphate", capital = "Cairo" },
   { civilization = "Maurya Empire", capital = "Patna" },
-  { civilization = "Göktürks", capital = "Ordu-Baliq", open = true },
+  { civilization = "Göktürk Khaganate", capital = "Ordu-Baliq" },
   { civilization = "Pala Empire", capital = "Murshidabad", open = true },
   { civilization = "Brazilian Republic", capital = "Brasília" },
 ]
@@ -173,7 +173,7 @@ in_deck = [
   { civilization = "Teotihuacan" },
   { civilization = "Olmec Civilization" },
   { civilization = "Sumerian City-States" },
-  { civilization = "Median Empire", open = true },
+  { civilization = "Median Kingdom" },
   { civilization = "Benin Empire", open = true },
   { civilization = "Great Zimbabwe", open = true },
   { civilization = "Serbian Empire", open = true },
@@ -183,12 +183,11 @@ tier = [
   { civilization = "Roman Empire", tier = "Essential" },
   { civilization = "Achaemenid Empire", tier = "Essential" },
   { civilization = "Classical Athens", tier = "Essential" },
-  { civilization = "Aztec Triple Alliance", tier = "Essential", open = true },
+  { civilization = "Aztec Triple Alliance", tier = "Essential" },
   { civilization = "Hunnic Empire", tier = "Core" },
-  { civilization = "Rashidun Caliphate", tier = "Core", open = true },
-  { civilization = "Ilkhanate", tier = "Core", open = true },
-  { civilization = "Scandinavian minor kingdoms", tier = "Extended", open = true },
-  { civilization = "Vandals", tier = "Extended" },
+  { civilization = "Rashidun Caliphate", tier = "Core" },
+  { civilization = "Ilkhanate", tier = "Core" },
+  { civilization = "Scandinavian minor kingdoms", tier = "Extended" },
   { civilization = "Kingdom of Fiji", tier = "Extended" },
   { civilization = "Cornwall", tier = "Extended" },
 ]
