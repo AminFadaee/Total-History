@@ -1,7 +1,7 @@
 {
   "id": "Q7352",
-  "slug": "western-jin",
-  "name": "Western Jin",
+  "slug": "jin-dynasty",
+  "name": "Jin dynasty",
   "wikipedia": "Jin dynasty (266–420)",
   "map_year": 283,
   "period": {
@@ -67,7 +67,7 @@
   "borders": true,
   "summary": "An imperial dynasty in China that existed from 266 to 420 CE.",
   "tier": "Core",
-  "map": "maps/western-jin.png",
+  "map": "maps/jin-dynasty.png",
   "map_asked": true,
   "checks": {
     "infobox": true,

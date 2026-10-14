@@ -11,8 +11,8 @@
       "circa": false
     },
     "end": {
-      "earliest": 1707,
-      "latest": 1707,
+      "earliest": 1162,
+      "latest": 1162,
       "circa": false
     },
     "confirmed": true,
@@ -50,20 +50,20 @@
   "after": [],
   "key_figures": [
     {
+      "id": "Q344802",
+      "name": "Sancho Ramírez"
+    },
+    {
       "id": "Q81833",
       "name": "Alfonso the Battler"
     },
     {
-      "id": "Q212052",
-      "name": "James I of Aragon"
+      "id": "Q316194",
+      "name": "Ramiro II of Aragon"
     },
     {
-      "id": "Q312311",
-      "name": "Peter III of Aragon"
-    },
-    {
-      "id": "Q12860",
-      "name": "Ferdinand II of Aragon"
+      "id": "Q235409",
+      "name": "Petronilla of Aragon"
     }
   ],
   "modern_countries": [
@@ -94,7 +94,7 @@
       1168
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Zaragoza",
+    "home": "Jaca City",
     "labelled": [
       "Almoravid Dynasty",
       "Kingdom of Castile",

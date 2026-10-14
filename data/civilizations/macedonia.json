@@ -1,7 +1,7 @@
 {
   "id": "Q83958",
-  "slug": "macedonian-empire",
-  "name": "Macedonian Empire",
+  "slug": "macedonia",
+  "name": "Macedonia",
   "wikipedia": "Macedonia (ancient kingdom)",
   "map_year": -318,
   "period": {
@@ -76,7 +76,7 @@
   "borders": true,
   "summary": "An ancient kingdom on the periphery of Archaic and Classical Greece, which later became the dominant state of Hellenistic Greece.",
   "tier": "Core",
-  "map": "maps/macedonian-empire.png",
+  "map": "maps/macedonia.png",
   "map_asked": true,
   "checks": {
     "infobox": true,

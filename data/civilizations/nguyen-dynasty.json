@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q1034173",
+      "region": "Vietnam",
+      "name": "Tây Sơn dynasty",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q180573",
