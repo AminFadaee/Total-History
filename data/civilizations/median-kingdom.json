@@ -1,0 +1,93 @@
+{
+  "id": "Q20437507",
+  "slug": "median-kingdom",
+  "name": "Median Kingdom",
+  "wikipedia": "Median kingdom",
+  "map_year": -600,
+  "period": {
+    "start": {
+      "earliest": -678,
+      "latest": -678,
+      "circa": true
+    },
+    "end": {
+      "earliest": -550,
+      "latest": -550,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
+    "since": null
+  },
+  "capitals": [
+    {
+      "name": "Ecbatana",
+      "location": [
+        48.516247,
+        34.8065
+      ],
+      "founded": null
+    }
+  ],
+  "parts": [],
+  "before": [],
+  "after": [
+    {
+      "id": "Q389688",
+      "region": "Iran",
+      "name": "Achaemenid Empire",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q332578",
+      "name": "Deioces"
+    },
+    {
+      "id": "Q332557",
+      "name": "Phraortes"
+    },
+    {
+      "id": "Q297855",
+      "name": "Cyaxares"
+    },
+    {
+      "id": "Q271527",
+      "name": "Astyages"
+    }
+  ],
+  "modern_countries": [
+    "Iran",
+    "Afghanistan",
+    "Turkmenistan"
+  ],
+  "overseas_countries": [],
+  "borders": true,
+  "summary": "A polity centered in Ecbatana that existed from the 7th century BCE until the mid-6th century BCE, and is believed to have dominated a significant portion of the Iranian plateau, preceding the powerful Achaemenid Empire.",
+  "tier": "Extended",
+  "map": "maps/median-kingdom.png",
+  "map_asked": true,
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ecbatana"
+      ],
+      "infobox": [
+        "Ecbatana"
+      ]
+    },
+    "cliopatria_years": [
+      -615,
+      -551
+    ],
+    "identity": "Wikidata state named like the Cliopatria polity",
+    "home": "Ecbatana",
+    "labelled": [
+      "Neo-Babylonian Empire",
+      "Kingdom of Urartu",
+      "Lydia"
+    ]
+  }
+}
