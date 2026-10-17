@@ -97,7 +97,7 @@ class Collector:
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))
         self.failures: list[str] = []
-        self._draw([polity for polity in polities if polity.borders], cliopatria, countries)
+        self._draw([polity for polity in polities if polity.borders], cliopatria, countries, builder)
         for figure in figures:
             try:
                 figure.image = self._image(figure.image, figure.slug)
@@ -110,11 +110,11 @@ class Collector:
         write_json(self.paths.root / "extended.json", figure_builder.extended)
         self._report(scope, catalog, cliopatria, lineages, polities, figures)
 
-    def _draw(self, polities: list[Polity], cliopatria: Cliopatria, countries) -> None:
+    def _draw(self, polities: list[Polity], cliopatria: Cliopatria, countries, builder: PolityBuilder) -> None:
         jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
                        [capital["location"] for capital in polity.capitals if capital["location"]
                         and (capital.get("founded") is None or capital["founded"] <= polity.map_year)],
-                       self.paths.root / "maps" / f"{polity.slug}.png", polity.parts)
+                       self.paths.root / "maps" / f"{polity.slug}.png", polity.parts, builder.colonial_power(polity.id))
                 for polity in polities]
         results = render_all(jobs, countries, naturalearth.rivers(self.http), fonts.inter(self.http), MAP_WORKERS,
                              self.cache_dir / "maps")

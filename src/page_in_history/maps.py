@@ -36,6 +36,7 @@ DPI = 160
 PADDING = 0.35
 MIN_SPAN_METERS = 900_000
 MIN_PANEL_SHARE = 0.10
+LONE_PANEL_SHARE = 0.25
 OUTSIDE_CAPITAL_MARGIN_DEGREES = 2
 logger = logging.getLogger(__name__)
 MAPS_PER_WORKER = 25
@@ -224,6 +225,7 @@ class MapJob:
     capitals: list[tuple[float, float]]
     output: pathlib.Path
     parts: list[str]
+    colonial: bool = False
 
 
 class MapRenderer:
@@ -237,9 +239,12 @@ class MapRenderer:
 
     def render(self, job: MapJob) -> list[str]:
         """Draws the civilization at its year, with the parts Wikidata lists for it, around its home region and with up
-        to three other large regions as panels beside it; capitals are starred only where it holds them that year. An
-        empire Cliopatria draws without its homeland (the British Empire without Britain) is framed on the region
-        nearest its capital, widened to show the capital, which is starred.
+        to three other large regions as panels beside it, except that a state that is not a colonial power gets none
+        for a lone region under a quarter of its territory holding no capital, beside a home region that holds one
+        (French Guiana for the French regimes, which would suggest it was all they held overseas); capitals are
+        starred only where it holds them that year. An empire Cliopatria draws without its homeland (the British
+        Empire without Britain) is framed on the region nearest its capital, widened to show the capital, which is
+        starred.
         Returns the polities that got a label on the main map."""
         name, year, polities, parts = job.name, job.year, job.polities, job.parts
         territory = polities[polities.Name.isin([name, *parts])].geometry.union_all()
@@ -252,6 +257,9 @@ class MapRenderer:
             main = Region(nearest.geometry.union(capital.buffer(OUTSIDE_CAPITAL_MARGIN_DEGREES)), nearest.share)
             capitals = [job.capitals[0]]
         panels = [region for region in found if region is not main and region.share >= MIN_PANEL_SHARE][:MAX_PANELS]
+        if capitals and len(panels) == 1 and not job.colonial and panels[0].share < LONE_PANEL_SHARE and not any(
+                panels[0].geometry.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital)) for capital in capitals):
+            panels = []
         image, labelled = self._draw(Scene(self, name, polities, main.geometry, territory, parts), year, capitals,
                                      panel=False)
         images = [self._draw(Scene(self, name, polities, region.geometry, territory, parts), year, capitals, panel=True)[0]
@@ -496,7 +504,7 @@ def fingerprint(job: MapJob, setting: str) -> str:
     code, the base map and the font), so an unchanged map can be reused rather than drawn again."""
     shapes = job.polities.sort_values("Name")
     content = hashlib.sha256(setting.encode())
-    content.update(repr((job.name, job.year, job.capitals, job.parts)).encode())
+    content.update(repr((job.name, job.year, job.capitals, job.parts, job.colonial)).encode())
     content.update(shapes.drop(columns=shapes.geometry.name).to_csv(index=False).encode())
     for geometry in shapes.geometry:
         content.update(geometry.wkb if geometry is not None else b"")

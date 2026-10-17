@@ -47,6 +47,7 @@ SETTLEMENT = "Q486972"
 STATE, FORMER_OR_CURRENT_STATE = "Q7275", "Q96196009"
 HERITAGE = "Q9259"
 SITE = "Q839954"
+FIRST_LEVEL_DIVISION, SECOND_LEVEL_DIVISION = "Q10864048", "Q13220204"
 LIST_ARTICLE = "Q13406463"
 LARGE_PEAK_KM2 = 2_000_000
 SHARED_TOLERANCE_YEARS = 25
@@ -140,6 +141,7 @@ PRESENT_YEAR = 2000
 CLIOPATRIA_TOLERANCE_YEARS = 25
 DATES = ("P571", "P580", "P576", "P582")
 CAPITAL_MATCH_KM = 25
+TRANSITION_GROWTH = 1.2
 MODERN_SHARE_OF_POLITY = 0.05
 MODERN_SHARE_OF_COUNTRY = 0.5
 
@@ -908,11 +910,12 @@ class PolityBuilder:
             list(self.capital_of.values()) + list(self.lead_capitals.values())
         self.names = self.wikidata.entities([qid for ids in referenced for qid in ids] +
                                             [page.qid for page in self.pages.values() if page.qid])
-        roots = {SETTLEMENT: "settlement", HERITAGE: "heritage", SITE: "site", STATE: "state", FORMER_OR_CURRENT_STATE: "state"}
+        roots = {SETTLEMENT: "settlement", HERITAGE: "heritage", SITE: "site", STATE: "state", FORMER_OR_CURRENT_STATE: "state",
+                 FIRST_LEVEL_DIVISION: "division", SECOND_LEVEL_DIVISION: "division"}
         capitals = sorted({qid for ids in referenced for qid in ids} |
                           {qid for box in self.infoboxes.values() for qid in self._qids(box.capital)})
         self.capital_kinds = self.wikidata.kinds(capitals, roots)
-        self.settlements = {qid for qid, found in self.capital_kinds.items() if found - {"state"} == {"settlement"}}
+        self.settlements = {qid for qid, found in self.capital_kinds.items() if found - {"state", "division"} == {"settlement"}}
         self.located = {qid: self.names[qid].ids("P131") for qid, found in self.capital_kinds.items()
                         if "settlement" not in found and qid in self.names}
         towns = sorted({town for ids in self.located.values() for town in ids})
@@ -1340,9 +1343,7 @@ class PolityBuilder:
             source = qid
             if near and qid not in listed and near[0] in self.settlements:
                 capital, source = {**self._capital(near[0]), "location": location}, near[0]
-            town = next((town for town in self.located.get(source, []) if town in self.towns and location
-                         and self.names[town].coordinates()
-                         and kilometres(location, self.names[town].coordinates()) <= CAPITAL_MATCH_KM), None)
+            town = self._town_of(source, location)
             if town:
                 capital = {**self._capital(town), "location": location}
             if not (qid in listed or nearby) or capital["name"] in {found["name"] for found in capitals}:
@@ -1401,9 +1402,10 @@ class PolityBuilder:
 
     def _can_be_capital(self, qid: str) -> bool:
         """Any place but a state: a municipality like Bucharest is one, and so is a city that is also a state, even one
-        Cliopatria draws (Tenochtitlan, Kathmandu); a kingdom named as a capital is not."""
+        Cliopatria draws (Tenochtitlan, Kathmandu); a kingdom named as a capital is not, nor is a province or county
+        an infobox lists beside its city (Phitsanulok province for Ayutthaya)."""
         kinds = self.capital_kinds.get(qid, set())
-        return "settlement" in kinds or (qid not in self.catalog.by_qid and "state" not in kinds)
+        return "settlement" in kinds or (qid not in self.catalog.by_qid and not kinds & {"state", "division"})
 
     def _settlement_at(self, qid: str, places: list) -> str | None:
         """The settlement Wikidata names as a capital where a state the infobox names as one lies."""
@@ -1413,10 +1415,19 @@ class PolityBuilder:
 
     def _shown(self, qid: str, location) -> dict:
         """A capital under its own name, or the town it lies in when it is a site rather than a settlement."""
-        town = next((town for town in self.located.get(qid, []) if town in self.towns
-                     and self.names[town].coordinates()
-                     and kilometres(location, self.names[town].coordinates()) <= CAPITAL_MATCH_KM), None)
+        town = self._town_of(qid, location)
         return {**self._capital(town), "location": location} if town else self._capital(qid)
+
+    def _town_of(self, qid: str, location) -> str | None:
+        """The town within 25 km that a place which is not itself a settlement lies in. An archaeological site
+        keeps its own name unless that is the town's with a description added (Gordion, not the modern Polatlı;
+        Abbasid Samarra as Samarra)."""
+        found = next((town for town in self.located.get(qid, []) if town in self.towns and location
+                      and self.names[town].coordinates()
+                      and kilometres(location, self.names[town].coordinates()) <= CAPITAL_MATCH_KM), None)
+        if found and self.capital_kinds.get(qid, set()) == {"site"} and self._own_name(found) not in self._own_name(qid):
+            return None
+        return found
 
     def _capital(self, qid: str) -> dict:
         entity = self.names.get(qid)
@@ -1448,7 +1459,9 @@ class PolityBuilder:
             extent = self._territory([identity.name, *parts], map_year).geometry.union_all()
         home = self._home(entity, period, capitals)
         anchor = self.succession.home(identity.qid, **home)
-        modern = self._modern_countries(extent, capitals, entity.coordinates()) if drawn else ([], [])
+        modern = self._modern_countries(extent, capitals, entity.coordinates()) if drawn \
+            else (self._country_at([capital["location"] for capital in capitals if capital["location"]]
+                                   or [entity.coordinates()]), [])
         polity = Polity(
             id=identity.qid,
             slug=slugify(identity.name),
@@ -1485,11 +1498,14 @@ class PolityBuilder:
         colonial empire)."""
         shown = self.cliopatria.at(year)
         members = self.cliopatria.members(identity.qid, year)
-        if not set(self.catalog.entities[identity.qid].ids("P31", preferred_only=False)) & COLONIAL_POWERS:
+        if not self.colonial_power(identity.qid):
             own = self._territory([identity.name, *parts], year).geometry.union_all().buffer(BORDER_DEGREES)
             members = [name for name in members if shown[shown.Name == name].geometry.intersects(own).any()]
         found = members + [name for name in self.wholes.get(identity.qid, []) if name in set(shown.Name)]
         return [name for name in dict.fromkeys(found) if name not in (identity.name, *parts)]
+
+    def colonial_power(self, qid: str) -> bool:
+        return bool(set(self.catalog.entities[qid].ids("P31", preferred_only=False)) & COLONIAL_POWERS)
 
     def _territory(self, names: list[str], year: int) -> gpd.GeoDataFrame:
         territory = self.cliopatria.at(year)
@@ -1500,7 +1516,9 @@ class PolityBuilder:
         before it is shown from its first year) and up to 1945 where the civilization was drawn by then, counted with
         the parts Wikidata lists (Spain for the Spanish Empire) and preferring years when the civilization holds more
         of its capitals, so that a year of foreign occupation is not shown, nor one when its homeland is drawn as
-        another state (Macedon under Polyperchon in 318 BC); with that year's territory."""
+        another state (Macedon under Polyperchon in 318 BC). A last step that begins when the period ends and is a fifth
+        or more larger than the one before it is the successor's shape, not the state's (the German Confederation
+        at the Prussian annexations of 1866, Sardinia as Italy in 1861), and is passed over; with that year's territory."""
         first = None
         if period.confirmed:
             within = rows[(rows.ToYear >= period.start.earliest) & (rows.FromYear <= period.end.latest)]
@@ -1515,6 +1533,9 @@ class PolityBuilder:
             shape = territory.geometry.union_all()
             held = sum(shape.buffer(CAPITAL_TOLERANCE_DEGREES).contains(point) for point in points)
             snapshots.append((held, float(territory.Area.sum()), year, shape))
+        if len(snapshots) > 1 and period.confirmed and snapshots[-1][2] >= period.end.earliest \
+                and snapshots[-1][1] > TRANSITION_GROWTH * snapshots[-2][1]:
+            snapshots.pop()
         _, _, year, shape = max(snapshots, key=lambda snapshot: snapshot[:3])
         return year, shape
 
@@ -1525,8 +1546,8 @@ class PolityBuilder:
         follow the start (the 1st millennium BC after the 8th century BC) is no end. A state that became part of its
         successor (the Kingdom of Castile of the Crown of Castile), or was followed by a later phase under its own name
         (Silla by Unified Silla), ends when it joined or the phase began, if the map stops drawing it then."""
-        inception = min(entity.years("P571") + entity.years("P580"), key=lambda year: year.earliest, default=None)
-        dissolution = max(entity.years("P576") + entity.years("P582"), key=lambda year: year.latest, default=None)
+        inception = self._dated_as(entity.years("P571") + entity.years("P580"), infobox.start, min, "earliest")
+        dissolution = self._dated_as(entity.years("P576") + entity.years("P582"), infobox.end, max, "latest")
         ending = dissolution.as_span() if dissolution else None
         joined = self._joined(entity)
         if joined and clio_end is not None and joined.overlaps(
@@ -1543,6 +1564,14 @@ class PolityBuilder:
         confirmed = start is not None and end is not None
         return Period(start, end, confirmed, None if confirmed else self._agreed_core(entity, infobox),
                       None if confirmed else self._since(entity, start, clio_end))
+
+    @staticmethod
+    def _dated_as(years: list, stated: Span | None, pick, side: str):
+        """The earliest inception or latest dissolution Wikidata gives, or the one the infobox states when Wikidata
+        gives several (the Akkadian Empire's fall in 2154 BC, not the later 2083 BC)."""
+        agreeing = [year for year in years if stated is not None and year.as_span().overlaps(
+            stated, tolerances(reference(year))[frozenset(("infobox", "wikidata"))])]
+        return pick(agreeing or years, key=lambda year: getattr(year, side), default=None)
 
     def _dated(self, entity: Entity) -> Entity:
         """The item, or for a site or people Wikidata gives no dates, the culture it names for it (Teotihuacan)."""
@@ -2121,6 +2150,14 @@ class PolityBuilder:
         lived = {qid for qid, person in people.items() if lived_during(person, first, last)}
         return [{"id": qid, "name": self._name(qid)} for qid in leaders if qid in holders] + \
             [{"id": qid, "name": self._name(qid)} for qid in leaders if qid in lived]
+
+    def _country_at(self, points: list) -> list[str]:
+        """The countries holding the places Wikidata gives for a civilization the map does not draw: its capitals, or
+        else its location (Greece for Sparta)."""
+        held = [country.listed_as for point in points if point for country in
+                self.countries[self.countries.listed & self.countries.intersects(
+                    equal_area_shape(Point(point), self.cliopatria.frame.crs))].itertuples()]
+        return list(dict.fromkeys(held))
 
     def _modern_countries(self, geometry, capitals: list[dict], location) -> tuple[list[str], list[str]]:
         """Today's countries in the territory, largest share first: those in the region around the capital (land
