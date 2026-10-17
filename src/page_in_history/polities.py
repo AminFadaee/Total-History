@@ -110,6 +110,10 @@ DATED = re.compile(r"\d|\b(?:ancient|historical|historic|former|medieval|prehist
 MIN_WORDS_BEYOND_NAME = 1
 PRESENT_OR_PAST = re.compile(r"\b(is|are|was|were)\b")
 HUMAN = "Q5"
+ALSO_ROLE = re.compile(rf"\b(?:{RULING_TITLES}|statesman|statesmen|politician|general|minister|chancellor|commander|strategist"
+                       r"|admiral|adviser|advisor|vizier)\b", re.IGNORECASE)
+PRIME_YEARS, ACCESSION_YEARS = 50, 35
+FEW_CANDIDATES = 2
 ASSUMED_LIFESPAN = 70
 ROW_YEAR = re.compile(r"(\bAD\s*)?(\d{1,4})(\s*BCE?\b)?")
 LIVING_PEAK_KM2 = 2_000_000
@@ -1806,7 +1810,14 @@ class PolityBuilder:
         (Pericles, Hannibal), not private people. Within each group by fame (Wikipedia languages), lowered for a union
         ruler by the share of their rule spent elsewhere and for a reign under three years by its length; anyone known
         in under a third as many languages as its best-known ruler is left out, and the rulers are spread over its
-        history when the best known cluster in one part of it (see _spread)."""
+        history when the best known cluster in one part of it (see _spread).
+
+        Also candidates: the office a state's P35 names (the Doge of Venice), the deck figures filed first under a
+        neighbouring state whose role names a ruler, statesman or general (Zhuge Liang for Shu Han, filed under Han), the
+        heads of its country for a sovereign state with none of its own (the presidents of France for the Third
+        Republic), and, for a state with hardly any candidates, its citizens (P27) who held a head office. A person
+        whose rule Wikidata or the infobox dates is placed by when it began, else a ruler by thirty-five and anyone else
+        by fifty years from birth, so the list keeps the order of their time."""
         spans = {polity.id: span for polity in polities if (span := self._ruled_years(polity))}
         ruled = self._ruled(polities, figures, spans)
         spans = {polity.id: span for polity in polities if (span := self._ruled_years(polity, core=True))}
@@ -1818,13 +1829,20 @@ class PolityBuilder:
         self.stand_ins: dict[str, list[str]] = {}
         self.row_titles: dict[str, dict[str, set[str]]] = {}
         homes: dict[str, set[str]] = {}
+        alsos: dict[str, set[str]] = {}
         lifetimes = {figure.id: figure.lifetime for figure in figures}
         for figure in figures:
             if figure.civilizations and figure.civilizations[0] in names:
-                homes.setdefault(names[figure.civilizations[0]], set()).add(figure.id)
+                first = names[figure.civilizations[0]]
+                homes.setdefault(first, set()).add(figure.id)
+                for name in figure.civilizations[1:]:
+                    if name in names and ALSO_ROLE.search(figure.role or "") \
+                            and (first in self.neighbours[names[name]] or names[name] in self.neighbours[first]):
+                        alsos.setdefault(names[name], set()).add(figure.id)
         held: dict[str, dict[str, int]] = {}
         sources: dict[str, dict[str, set[str]]] = {}
         began_at: dict[str, dict[str, int]] = {}
+        reigned: dict[str, dict[str, int]] = {}
         terms: dict[str, dict[str, tuple[int, int]]] = {}
         named: dict[str, set[str]] = {}
         for polity in polities:
@@ -1834,9 +1852,12 @@ class PolityBuilder:
             entity = self.catalog.entities[polity.id]
             found: dict[str, int] = {}
             source: dict[str, set[str]] = {}
+            reigns: dict[str, int] = {}
 
-            def add(person: str, began: int, kind: str) -> None:
+            def add(person: str, began: int, kind: str, dated: bool = False) -> None:
                 found[person] = min(began, found.get(person, began))
+                if dated:
+                    reigns[person] = min(began, reigns.get(person, began))
                 source.setdefault(person, set()).add(kind)
 
             for claim in entity.statements("P35", preferred_only=False):
@@ -1844,31 +1865,44 @@ class PolityBuilder:
                 began, ended = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
                 began, ended = began if began is not None else ended, ended if ended is not None else began
                 if person and began is not None and began <= end and ended >= start:
-                    add(person, began, "head")
+                    add(person, began, "head", True)
                     named.setdefault(polity.id, set()).add(person)
             for person, (began, years) in self._office_terms(polity.id, start, end).items():
-                add(person, began, "office")
+                add(person, began, "office", True)
                 held.setdefault(person, {})[polity.id] = years
             for person, began in self._dynasty_members(polity.id, start, end).items():
                 add(person, began, "dynasty")
-            for person, began in ruled.get(polity.id, {}).items():
-                add(person, began, "ruled")
+            for person, (began, dated) in ruled.get(polity.id, {}).items():
+                add(person, began, "ruled", dated)
             for person, (kind, began, term) in self._row_people(polity, start, end).items():
-                add(person, began, kind)
+                add(person, began, kind, bool(term))
                 if term:
                     terms.setdefault(polity.id, {})[person] = term
             if not any(kinds & {"head", "office"} for kinds in source.values()):
                 self.stand_ins[polity.id] = self._stand_ins(entity)
                 for other in self.stand_ins[polity.id]:
                     for person, (began, years) in self._office_terms(other, start, end).items():
-                        add(person, began, "office")
+                        add(person, began, "office", True)
                         held.setdefault(person, {})[polity.id] = max(held.get(person, {}).get(polity.id, 0), years)
                         self.office_spans[person].setdefault(polity.id, []).extend(self.office_spans[person][other])
-            for person in homes.get(polity.id, ()):
-                life = lifetimes[person]
-                if life[0] + ADULT_YEARS <= end and life[1] >= start and life[0] + 2 * ADULT_YEARS < LATEST_START:
-                    add(person, life[0] + ADULT_YEARS, "home")
+            if self._sole_state_of_country(polity, entity, source):
+                for country in entity.ids("P17", preferred_only=False):
+                    for person, (began, years) in self._office_terms(country, start, end).items():
+                        add(person, began, "office", True)
+                        held.setdefault(person, {})[polity.id] = years
+                        self.office_spans[person].setdefault(polity.id, []).extend(self.office_spans[person][country])
+            for kind, people in (("home", homes), ("also", alsos)):
+                for person in people.get(polity.id, ()):
+                    life = lifetimes[person]
+                    if life[0] + ADULT_YEARS <= end and life[1] >= start and life[0] + 2 * ADULT_YEARS < LATEST_START:
+                        add(person, life[0] + ADULT_YEARS, kind)
+            if sum(bool(kinds & {"head", "office", "leader", "dynasty", "ruled"}) for kinds in source.values()) < FEW_CANDIDATES \
+                    and sum(bool(kinds & {"home", "also"}) for kinds in source.values()) < FEW_CANDIDATES:
+                for person, began in self._citizen_heads(polity.id, start, end).items():
+                    add(person, began, "citizen")
             began_at[polity.id], sources[polity.id] = found, source
+            reigned[polity.id] = {person: reigns[person] if person in reigns else self._prime(lifetimes.get(person), source[person]) or began
+                                  for person, began in found.items()}
         people = self.wikidata.entities([qid for found in began_at.values() for qid in found if qid not in self.names])
         self.names.update(people)
         pages = {qid: self.names[qid].enwiki for found in began_at.values() for qid in found
@@ -1890,10 +1924,10 @@ class PolityBuilder:
                 shares = scores.shares(polity.name, self._name(person), text)
                 standing[person] = self._standing(polity, person, source[person], shares, terms.get(polity.id, {}).get(person),
                                                   (start, end), lifetimes.get(person), editions.get(person, 0), text)
-            tied = {person for person in found if standing[person] and source[person] & {"head", "office", "leader"}}
+            tied = {person for person in found if standing[person] and source[person] & {"head", "office", "leader", "citizen"}}
             for person in found:
                 years = held.get(person, {}).get(polity.id)
-                if not standing[person] or source[person] & {"head", "office", "leader"}:
+                if not standing[person] or source[person] & {"head", "office", "leader", "citizen"}:
                     if standing[person] and years is not None and not source[person] & {"head", "leader"} \
                             and years < MIN_REIGN_YEARS:
                         standing[person] = (standing[person][0], standing[person][1] * years / MIN_REIGN_YEARS)
@@ -1912,7 +1946,7 @@ class PolityBuilder:
             best = self._spread(top, found, {person: standing[person][1] for person in ranked}, (start, end))
             best += [person for person in ranked if person not in best and (standing[person][0] >= RULER_RANK
                                                                              or person in others)][:SHOWN_RULERS - len(best)]
-            polity.key_figures = [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=lambda qid: found[qid])]
+            polity.key_figures = [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=reigned[polity.id].get)]
 
     def _standing(self, polity: Polity, person: str, source: set[str], shares: list[float], term: tuple | None,
                   years: tuple[int, int], lifetime, editions: int, text: str) -> tuple[int, float] | None:
@@ -1921,15 +1955,15 @@ class PolityBuilder:
         reading = max(range(len(shares)), key=shares.__getitem__)
         if "foreign" in source and not source & {"head", "office", "ruled", "dynasty"}:
             return None
-        if not source & {"head", "office", "ruled", "dynasty", "home"} and self._misplaced_row(polity, person, reading, text):
+        if not source & {"head", "office", "ruled", "dynasty", "home", "also", "citizen"} and self._misplaced_row(polity, person, reading, text):
             return None
-        tied = bool(source & {"head", "office", "leader"}) and reading != CONSORT
-        own_only = source <= {"home", "deputy", "representative"}
-        if own_only and "home" in source:
+        tied = bool(source & {"head", "office", "leader", "citizen"}) and reading != CONSORT
+        own_only = source <= {"home", "also", "deputy", "representative"}
+        if own_only and source & {"home", "also"}:
             if self._rules_elsewhere(polity, person, [self.roles.get(person, "")]):
                 return None
             ended = lifetime[1] if lifetime else None
-            ruler = shares[RULER] >= RULER_SCORE and ended is not None and ended <= years[1] + ADULT_YEARS \
+            ruler = "home" in source and shares[RULER] >= RULER_SCORE and ended is not None and ended <= years[1] + ADULT_YEARS \
                 and bool(HOME_RULER_ROLE.search(self.roles.get(person, "")))
         else:
             ruler = tied or (shares[RULER] >= RULER_SCORE and not own_only)
@@ -1938,7 +1972,7 @@ class PolityBuilder:
             return (RULER_RANK + 1 if share > 0.5 else RULER_RANK), editions * min(1.0, 2 * share)
         if source & {"deputy", "representative"} and not tied:
             return 1, editions
-        if "home" in source:
+        if source & {"home", "also"}:
             return (1, editions * (shares[RULER] + shares[SERVANT])) if reading in (RULER, SERVANT) else None
         return 1, editions
 
@@ -1948,6 +1982,8 @@ class PolityBuilder:
         another deck state they headed or one of their time that is neither its predecessor nor its successor
         (Christian I of Denmark for Sweden), 1 when their role names it (Otto the Great, Holy Roman Emperor);
         otherwise the share of their head-office years that were its own."""
+        if "head" in source:
+            return 1.0
         title = re.search(r"(?: of |, )(.+)$", self._name(person))
         words = stems(title.group(1)) if title else set()
         own = stems(polity.name)
@@ -1960,8 +1996,6 @@ class PolityBuilder:
             return 0.0
         role = self.roles.get(person, "")
         if RulingRole.read(role) and stems(re.split(r"\s+from\b|[,;]", role)[0]) & own:
-            return 1.0
-        if "head" in source:
             return 1.0
         elsewhere = [spans for state, spans in offices.items() if not self._related(polity.id, state)]
         mine = offices.get(polity.id) or ([term] if term else None)
@@ -2096,7 +2130,7 @@ class PolityBuilder:
             start, end = polity.period.core
         return None if start is None or end is None else (start, min(end, LATEST_START - 1))
 
-    def _ruled(self, polities: list[Polity], figures: list, spans: dict[str, tuple[int, int]]) -> dict[str, dict[str, int]]:
+    def _ruled(self, polities: list[Polity], figures: list, spans: dict[str, tuple[int, int]]) -> dict[str, dict[str, tuple[int, bool]]]:
         """Figures whose role says they ruled one of their civilizations, with when their rule began. The role must
         open with a ruling title, not as a consort, regent or rebel. A place it names ('Sultan of Egypt and Syria')
         must be the state, a country of its territory or its capital; a place that is another state counts only
@@ -2104,13 +2138,14 @@ class PolityBuilder:
         an unknown one (Asante for the Ashanti Empire) only with an office there. A ruler, leader or founder needs
         the place itself ('founder of psychoanalysis' is not a rule). Without a place, the role must name the state
         or its main country, or the person must hold an office of it. A dated reign must overlap the state's years,
-        and goes to the state it names, then the one it overlaps most (Baybars to the Mamluks, not the Ayyubids)."""
+        and goes to the state it names, then the one it overlaps most (Baybars to the Mamluks, not the Ayyubids). Each is
+        returned with when their rule began and whether the role gives its years."""
         by_name = {polity.name: polity for polity in polities}
         lands = {polity.name: stems(polity.name) | set().union(*(stems(country) for country in polity.modern_countries))
                  | set().union(*(stems(capital["name"]) for capital in polity.capitals)) for polity in polities}
         states = {name: found for name in set(self.catalog.identities) | set(by_name) if (found := stems(name))}
         countries = {country: found for polity in polities for country in polity.modern_countries if (found := stems(country))}
-        ruled: dict[str, dict[str, int]] = {}
+        ruled: dict[str, dict[str, tuple[int, bool]]] = {}
         for figure in figures:
             role = RulingRole.read(figure.role or "")
             year = ROLE_YEAR.search(figure.role or "")
@@ -2151,7 +2186,7 @@ class PolityBuilder:
                 began = figure.lifetime[0] + ADULT_YEARS
                 if not (began <= end and figure.lifetime[1] >= start):
                     continue
-            ruled.setdefault(polity.id, {}).setdefault(figure.id, began)
+            ruled.setdefault(polity.id, {}).setdefault(figure.id, (began, bool(role.reign)))
         return ruled
 
     def _office_terms(self, polity_qid: str, start: int, end: int) -> dict[str, tuple[int, int]]:
@@ -2162,7 +2197,8 @@ class PolityBuilder:
         an office does not count."""
         generic = ", ".join(f"wd:{kind}" for kind in sorted(HEAD_OF_STATE_CLASSES))
         rows = self.wikidata.query(f"""SELECT DISTINCT ?person ?start ?end WHERE {{
-          {{ wd:{polity_qid} wdt:P1906 ?office FILTER(?office NOT IN ({generic})) }} UNION {{ ?office wdt:P1001 wd:{polity_qid} .
+          {{ wd:{polity_qid} wdt:P1906 ?office FILTER(?office NOT IN ({generic})) }}
+          UNION {{ wd:{polity_qid} wdt:P35 ?office FILTER(?office NOT IN ({generic})) }} UNION {{ ?office wdt:P1001 wd:{polity_qid} .
              ?office wdt:P279 ?kind . VALUES ?kind {{ {" ".join(f"wd:{kind}" for kind in sorted(HEAD_OF_STATE_CLASSES))} }} }}
           ?person p:P39 ?held . ?held ps:P39 ?office .
           OPTIONAL {{ ?held pq:P580 ?start }} OPTIONAL {{ ?held pq:P582 ?end }} }}""")
@@ -2176,6 +2212,47 @@ class PolityBuilder:
                 terms[person] = (min(first, began), years + ended - began + 1)
                 self.office_spans.setdefault(person, {}).setdefault(polity_qid, []).append((began, ended))
         return terms
+
+    def _sole_state_of_country(self, polity: Polity, entity: Entity, source: dict[str, set[str]]) -> bool:
+        """A sovereign state with no head of its own, one country today and under three leaders (the French Third
+        Republic), which takes the heads of that country in its years."""
+        return SOVEREIGN_STATE in entity.ids("P31", preferred_only=False) and len(polity.modern_countries) == 1 \
+            and not any(kinds & {"head", "office"} for kinds in source.values()) \
+            and sum(bool(kinds & {"leader"}) for kinds in source.values()) < SHOWN_RULERS - 1
+
+    def _citizen_heads(self, polity_qid: str, start: int, end: int) -> dict[str, int]:
+        """Citizens (P27) of the state who held an office Wikidata classes as head of state, monarch, emperor, king or
+        president: when the office began, else when their adult life did."""
+        kinds = ", ".join(f"wd:{kind}" for kind in sorted(HEAD_OF_STATE_CLASSES))
+        try:
+            rows = self.wikidata.query(f"""SELECT DISTINCT ?person ?born ?began ?ended WHERE {{
+              ?person wdt:P27 wd:{polity_qid} ; p:P39 ?held . ?held ps:P39 ?office . ?office wdt:P279 ?kind . FILTER(?kind IN ({kinds}))
+              OPTIONAL {{ ?held pq:P580 ?began }} OPTIONAL {{ ?held pq:P582 ?ended }} OPTIONAL {{ ?person wdt:P569 ?born }} }}""")
+        except ValueError:
+            return {}
+        heads: dict[str, int] = {}
+        for row in rows:
+            born, began, ended = (sparql_year(row.get(key)) for key in ("born", "began", "ended"))
+            first, last = (began if began is not None else ended), (ended if ended is not None else began)
+            if first is None and born is not None:
+                first = last = born + ADULT_YEARS
+                if born + ASSUMED_LIFESPAN < start:
+                    continue
+            if first is not None and first <= end and last >= start and first < LATEST_START:
+                person = entity_id(row["person"])
+                heads[person] = min(first, heads.get(person, first))
+        return heads
+
+    @staticmethod
+    def _prime(lifetime, source: set[str]) -> int | None:
+        """When someone with no dated term is placed among rulers: a minister or general counts from the year they reached
+        fifty (or died), so Tojo follows Hirohito, who came to the throne young; a ruler from thirty-five, a usual age
+        at accession."""
+        if not lifetime:
+            return None
+        if source <= {"home", "also", "deputy", "representative"}:
+            return min(lifetime[0] + PRIME_YEARS, lifetime[1])
+        return lifetime[0] + ACCESSION_YEARS
 
     def _dynasty_members(self, polity_qid: str, start: int, end: int) -> dict[str, int]:
         """Members of the family the item is (a dynasty such as the Zengids) who took an office before 1945 and lived
