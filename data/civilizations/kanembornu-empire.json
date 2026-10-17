@@ -24,11 +24,50 @@
       "name": "Njimi",
       "location": null,
       "founded": null
+    },
+    {
+      "name": "Ngazargamu",
+      "location": [
+        12.227777777778,
+        13.047222222222
+      ],
+      "founded": null
+    },
+    {
+      "name": "Kafela",
+      "location": [
+        13.74984,
+        12.50359
+      ],
+      "founded": null
+    },
+    {
+      "name": "Kukawa",
+      "location": [
+        13.566111111111,
+        12.924722222222
+      ],
+      "founded": null
+    },
+    {
+      "name": "Dikwa",
+      "location": [
+        13.9158,
+        12.0239
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q600524",
+      "region": "Nigeria",
+      "name": "Sokoto Caliphate",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q2030595",
@@ -67,7 +106,7 @@
       1894
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Ngazargamu",
     "labelled": []
   }
 }

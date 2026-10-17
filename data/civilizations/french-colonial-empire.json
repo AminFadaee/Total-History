@@ -30,7 +30,9 @@
     }
   ],
   "parts": [
-    "New France"
+    "New France",
+    "French Indochina",
+    "French Mandate for Syria and Lebanon"
   ],
   "before": [],
   "after": [],
@@ -59,19 +61,23 @@
     "Niger",
     "Mauritania",
     "Central African Republic",
-    "Libya",
     "Madagascar",
     "Cameroon",
     "Morocco",
     "Republic of the Congo",
     "Ivory Coast",
+    "Vietnam",
     "Burkina Faso",
     "Gabon",
     "Guinea",
+    "Laos",
     "Senegal",
+    "Syria",
+    "Cambodia",
     "Tunisia",
     "Benin",
     "Togo",
+    "France",
     "Djibouti",
     "Comoros"
   ],
@@ -99,12 +105,13 @@
     "home": "the spot held longest",
     "labelled": [
       "British Africa",
+      "Republic of China",
+      "British Raj",
       "Belgian Congo",
       "Estado Novo",
       "British Gold Coast",
+      "Republic of Turkey",
       "Unitary State of Brazil",
-      "Republic of China",
-      "British Raj",
       "Kingdom of Saudi Arabia",
       "Mexico",
       "Republic of Peru",
@@ -113,7 +120,6 @@
       "Bolivia",
       "Kingdom of Egypt",
       "Tibet",
-      "Republic of Turkey",
       "French Fourth Republic"
     ]
   }

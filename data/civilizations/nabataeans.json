@@ -11,7 +11,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Petra",
+      "location": [
+        35.440277777778,
+        30.328888888889
+      ],
+      "founded": -800
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [],
@@ -39,7 +48,7 @@
       105
     ],
     "identity": "culture or period Cliopatria draws",
-    "home": "the spot held longest",
+    "home": "Petra",
     "labelled": [
       "Ptolemaic Kingdom",
       "Seleucid Empire",

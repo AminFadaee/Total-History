@@ -3,7 +3,7 @@
   "slug": "macedonia",
   "name": "Macedonia",
   "wikipedia": "Macedonia (ancient kingdom)",
-  "map_year": -318,
+  "map_year": -323,
   "period": {
     "start": {
       "earliest": -700,
@@ -37,13 +37,16 @@
       "founded": null
     }
   ],
-  "parts": [],
+  "parts": [
+    "Laomedon",
+    "Perdiccas"
+  ],
   "before": [],
   "after": [
     {
-      "id": "Q237325",
+      "id": "Q17167",
       "region": "Greece",
-      "name": "Antigonid dynasty",
+      "name": "Roman Republic",
       "home": true
     }
   ],
@@ -67,7 +70,10 @@
     "Afghanistan",
     "Egypt",
     "Turkey",
+    "Iraq",
     "Syria",
+    "North Macedonia",
+    "Albania",
     "Israel",
     "Lebanon",
     "Palestine"
@@ -98,13 +104,11 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Aegae",
     "labelled": [
-      "Maurya Empire",
+      "Nanda Empire",
       "Kingdom of Kush",
       "Kingdom of Armenia",
-      "Kingdom of Lysimachus",
       "Yuezhi",
       "Scythia",
-      "Kalinga",
       "Hadhramaut"
     ]
   }

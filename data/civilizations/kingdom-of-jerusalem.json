@@ -27,18 +27,34 @@
         31.776679
       ],
       "founded": -4000
+    },
+    {
+      "name": "Tyre",
+      "location": [
+        35.2,
+        33.266666666667
+      ],
+      "founded": -2750
+    },
+    {
+      "name": "Acre",
+      "location": [
+        35.083888888889,
+        32.926111111111
+      ],
+      "founded": -1500
     }
   ],
   "parts": [],
-  "before": [
+  "before": [],
+  "after": [
     {
-      "id": "Q160307",
-      "region": "Palestine",
-      "name": "Fatimid Caliphate",
+      "id": "Q282428",
+      "region": "Israel",
+      "name": "Mamluk Sultanate",
       "home": true
     }
   ],
-  "after": [],
   "key_figures": [
     {
       "id": "Q51717",
@@ -87,7 +103,7 @@
       1293
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Jerusalem",
+    "home": "Acre",
     "labelled": [
       "Fatimid Caliphate",
       "Great Seljuk Empire"

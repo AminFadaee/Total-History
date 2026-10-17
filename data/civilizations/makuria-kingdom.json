@@ -27,15 +27,29 @@
         18.223055555556
       ],
       "founded": null
+    },
+    {
+      "name": "Gebel Adda",
+      "location": [
+        31.636884,
+        22.29709
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": [
     {
+      "id": "Q568523",
+      "region": "Egypt",
+      "name": "Nobatia",
+      "home": true
+    },
+    {
       "id": "Q241790",
       "region": "Sudan",
       "name": "Kingdom of Kush",
-      "home": true
+      "home": false
     }
   ],
   "after": [],
@@ -75,7 +89,7 @@
       1518
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Gebel Adda",
     "labelled": [
       "Mamluk Sultanate",
       "Funj Sultanate"

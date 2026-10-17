@@ -43,6 +43,22 @@
         28.666666666667
       ],
       "founded": -509
+    },
+    {
+      "name": "Daulatabad Fort",
+      "location": [
+        75.21718662,
+        19.94454277
+      ],
+      "founded": null
+    },
+    {
+      "name": "Agra",
+      "location": [
+        78.02,
+        27.18
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -112,7 +128,7 @@
       1528
     ],
     "identity": "state drawn through its dynasties",
-    "home": "Delhi",
+    "home": "Agra",
     "labelled": [
       "Ilkhanate",
       "Chagatai Khanate",

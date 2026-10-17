@@ -67,10 +67,33 @@
         47.1910169
       ],
       "founded": 972
+    },
+    {
+      "name": "Vienna",
+      "location": [
+        16.3725,
+        48.208333333333336
+      ],
+      "founded": -100
+    },
+    {
+      "name": "Debrecen",
+      "location": [
+        21.639166666667,
+        47.53
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q2899771",
+      "region": "Hungary",
+      "name": "Principality of Hungary",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {

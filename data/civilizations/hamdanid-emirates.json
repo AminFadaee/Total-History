@@ -27,13 +27,29 @@
         36.2
       ],
       "founded": -5000
+    },
+    {
+      "name": "Mardin",
+      "location": [
+        40.735,
+        37.31305555555556
+      ],
+      "founded": null
+    },
+    {
+      "name": "Mosul",
+      "location": [
+        43.12916666666667,
+        36.34166666666667
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": [
     {
       "id": "Q12536",
-      "region": "Syria",
+      "region": "Turkey",
       "name": "Abbasid Caliphate",
       "home": true
     }
@@ -86,7 +102,7 @@
       1004
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Aleppo",
+    "home": "Mardin",
     "labelled": [
       "Byzantine Empire",
       "Abbasid Caliphate",

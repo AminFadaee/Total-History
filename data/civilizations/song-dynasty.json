@@ -35,6 +35,30 @@
         30.266666666666666
       ],
       "founded": 1129
+    },
+    {
+      "name": "Shangqiu",
+      "location": [
+        115.64673,
+        34.42592
+      ],
+      "founded": null
+    },
+    {
+      "name": "Yangzhou",
+      "location": [
+        119.43625,
+        32.39117
+      ],
+      "founded": null
+    },
+    {
+      "name": "Nanjing",
+      "location": [
+        118.77888888888889,
+        32.060833333333335
+      ],
+      "founded": -495
     }
   ],
   "parts": [],
@@ -94,7 +118,7 @@
       1278
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Lin'an Prefecture",
+    "home": "Yangzhou",
     "labelled": [
       "Tibetans",
       "Great Jin",

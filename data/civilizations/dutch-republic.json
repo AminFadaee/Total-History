@@ -29,7 +29,11 @@
       "founded": 1102
     }
   ],
-  "parts": [],
+  "parts": [
+    "Dutch Cape Colony",
+    "Dutch Ceylon",
+    "Dutch Gold Coast"
+  ],
   "before": [],
   "after": [
     {
@@ -62,6 +66,7 @@
   ],
   "overseas_countries": [
     "Indonesia",
+    "South Africa",
     "Sri Lanka"
   ],
   "borders": true,

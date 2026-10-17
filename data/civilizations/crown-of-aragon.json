@@ -27,7 +27,14 @@
     "Kingdom of Sicily",
     "Duchy of Athens"
   ],
-  "before": [],
+  "before": [
+    {
+      "id": "Q199442",
+      "region": "Spain",
+      "name": "Kingdom of Aragon",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q29",

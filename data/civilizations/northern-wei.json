@@ -3,7 +3,7 @@
   "slug": "northern-wei",
   "name": "Northern Wei",
   "wikipedia": "Northern Wei",
-  "map_year": 397,
+  "map_year": 476,
   "period": {
     "start": {
       "earliest": 386,
@@ -27,6 +27,30 @@
         40.093611111111
       ],
       "founded": null
+    },
+    {
+      "name": "Shengle",
+      "location": [
+        111.757194,
+        40.475959
+      ],
+      "founded": null
+    },
+    {
+      "name": "Luoyang",
+      "location": [
+        112.42447,
+        34.65867
+      ],
+      "founded": null
+    },
+    {
+      "name": "Chang'an",
+      "location": [
+        108.85833333333333,
+        34.30833333333333
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -40,9 +64,9 @@
   ],
   "after": [
     {
-      "id": "Q307069",
+      "id": "Q1143164",
       "region": "China",
-      "name": "Eastern Wei",
+      "name": "Western Wei",
       "home": true
     }
   ],
@@ -93,17 +117,15 @@
       533
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Datong",
+    "home": "Chang'an",
     "labelled": [
-      "Later Yan",
-      "Later Qin",
-      "Goguryeo",
+      "Rouran Khaganate",
+      "Liu Song Dynasty",
       "Tuyuhun",
-      "Western Qin",
-      "Later Liang",
-      "Northern Liang",
-      "Baekje",
-      "Byeonhan"
+      "Goguryeo",
+      "Protectorate of the Western Regions",
+      "Kamarupa Kingdom",
+      "Baekje"
     ]
   }
 }

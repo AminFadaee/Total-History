@@ -26,27 +26,29 @@
         42.358021111111114
       ],
       "founded": null
+    },
+    {
+      "name": "Karakorum",
+      "location": [
+        102.82379,
+        47.19753
+      ],
+      "founded": 1220
     }
   ],
   "parts": [],
   "before": [
     {
       "id": "Q7313",
-      "region": "China",
+      "region": "Mongolia",
       "name": "Yuan Dynasty",
       "home": true
-    },
-    {
-      "id": "Q12557",
-      "region": "Mongolia",
-      "name": "Mongol Empire",
-      "home": false
     }
   ],
   "after": [
     {
       "id": "Q4332415",
-      "region": "China",
+      "region": "Mongolia",
       "name": "Four Oirats",
       "home": true
     }
@@ -97,7 +99,7 @@
       1439
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Karakorum",
     "labelled": [
       "Ming Dynasty",
       "Chagatai Khanate",

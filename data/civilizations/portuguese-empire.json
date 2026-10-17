@@ -30,7 +30,8 @@
     }
   ],
   "parts": [
-    "Portuguese Ceylon"
+    "Portuguese Ceylon",
+    "Kingdom of Portugal"
   ],
   "before": [
     {
@@ -60,14 +61,16 @@
     }
   ],
   "modern_countries": [
+    "Portugal"
+  ],
+  "overseas_countries": [
     "Brazil",
     "Uruguay",
     "East Timor",
     "Cabo Verde",
     "São Tomé and Principe",
-    "China"
+    "Macao"
   ],
-  "overseas_countries": [],
   "borders": true,
   "summary": "The first and longest lasting of the European colonial empires.",
   "tier": "Core",
@@ -91,14 +94,7 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "Bourbon Kingdom of France",
-      "Sokoto Caliphate",
-      "Kingdom of Spain",
-      "Morocco",
-      "Austrian Empire",
-      "Wadai Empire",
-      "Regency of Algiers",
-      "Ashanti Empire"
+      "Kingdom of Spain"
     ]
   }
 }

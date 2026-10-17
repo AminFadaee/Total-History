@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Heian-kyō",
+      "location": [
+        135.76666667,
+        35
+      ],
+      "founded": 794
+    }
+  ],
   "parts": [],
   "before": [
     {
@@ -71,7 +80,7 @@
       1187
     ],
     "identity": "culture or period Cliopatria draws",
-    "home": "the spot held longest",
+    "home": "Heian-kyō",
     "labelled": [
       "Northern Fujiwara",
       "Goryeo"

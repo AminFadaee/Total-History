@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Heijō-kyō",
+      "location": [
+        135.79472222,
+        34.69111111
+      ],
+      "founded": 710
+    }
+  ],
   "parts": [],
   "before": [
     {
@@ -63,7 +72,7 @@
       792
     ],
     "identity": "culture or period Cliopatria draws",
-    "home": "the spot held longest",
+    "home": "Heijō-kyō",
     "labelled": [
       "Unified Silla"
     ]

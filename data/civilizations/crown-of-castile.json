@@ -42,7 +42,14 @@
     "Kingdom of León",
     "Kingdom of Galicia"
   ],
-  "before": [],
+  "before": [
+    {
+      "id": "Q179293",
+      "region": "Spain",
+      "name": "Kingdom of Castile",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q29",

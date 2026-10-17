@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q156199",
+      "region": "Germany",
+      "name": "Electorate of Saxony",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q41304",

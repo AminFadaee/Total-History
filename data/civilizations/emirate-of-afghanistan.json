@@ -27,6 +27,14 @@
         34.532777777778
       ],
       "founded": 1200
+    },
+    {
+      "name": "Ghazni",
+      "location": [
+        68.423333333333,
+        33.549166666667
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -38,7 +46,14 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q1138904",
+      "region": "Afghanistan",
+      "name": "Kingdom of Afghanistan",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q153620",

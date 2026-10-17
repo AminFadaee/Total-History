@@ -27,14 +27,30 @@
         34.65867
       ],
       "founded": null
+    },
+    {
+      "name": "Chang'an",
+      "location": [
+        108.85833333333333,
+        34.30833333333333
+      ],
+      "founded": null
+    },
+    {
+      "name": "Jiankang",
+      "location": [
+        118.79647,
+        32.05837
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": [
     {
-      "id": "Q320930",
+      "id": "Q274488",
       "region": "China",
-      "name": "Cao Wei",
+      "name": "Eastern Wu",
       "home": true
     }
   ],
@@ -86,7 +102,7 @@
       425
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Luoyang",
+    "home": "Jiankang",
     "labelled": [
       "Indo-Sasanian Empire",
       "Goguryeo",

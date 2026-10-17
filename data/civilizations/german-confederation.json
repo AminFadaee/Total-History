@@ -19,8 +19,21 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
-  "parts": [],
+  "capitals": [
+    {
+      "name": "Frankfurt",
+      "location": [
+        8.682222222222222,
+        50.11055555555556
+      ],
+      "founded": 1
+    }
+  ],
+  "parts": [
+    "Duchy of Brunswick",
+    "Electorate of Hesse",
+    "Grand Duchy of Baden"
+  ],
   "before": [
     {
       "id": "Q12548",
@@ -69,16 +82,16 @@
       1867
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "the spot held longest",
+    "home": "Frankfurt",
     "labelled": [
       "Russian Empire",
       "Austrian Empire",
       "Second French Empire",
       "Kingdom of Bavaria",
+      "Swiss Confederation",
       "Kingdom of Belgium",
       "United Kingdom of Great Britain and Ireland",
-      "United Principalities of Moldavia and Wallachia",
-      "Swiss Confederation"
+      "United Principalities of Moldavia and Wallachia"
     ]
   }
 }

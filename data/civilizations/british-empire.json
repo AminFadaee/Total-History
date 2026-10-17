@@ -28,7 +28,12 @@
       "founded": 47
     }
   ],
-  "parts": [],
+  "parts": [
+    "British Africa",
+    "British Gold Coast",
+    "British Raj",
+    "United Kingdom of Great Britain and Ireland"
+  ],
   "before": [],
   "after": [],
   "key_figures": [
@@ -50,31 +55,57 @@
     }
   ],
   "modern_countries": [
+    "United Kingdom",
+    "Ireland"
+  ],
+  "overseas_countries": [
     "Australia",
     "Canada",
+    "India",
+    "Sudan",
+    "South Africa",
+    "Egypt",
+    "Pakistan",
+    "Zambia",
+    "Myanmar",
+    "South Sudan",
+    "Kenya",
+    "Botswana",
+    "Zimbabwe",
+    "Yemen",
     "Malaysia",
     "New Zealand",
+    "Ghana",
+    "Uganda",
     "Guyana",
+    "Bangladesh",
+    "Malawi",
+    "Sierra Leone",
+    "United Arab Emirates",
+    "Sri Lanka",
+    "Lesotho",
     "Belize",
     "Solomon Islands",
     "Fiji",
     "Jamaica",
     "Falkland Islands",
     "Bahamas",
+    "Gambia",
+    "Cyprus",
     "Brunei",
     "Trinidad and Tobago",
-    "United Kingdom",
     "Mauritius",
-    "China",
+    "Hong Kong",
     "Dominica",
+    "Bahrain",
     "Singapore",
     "Saint Lucia",
     "Barbados",
     "Grenada",
     "Saint Vincent and the Grenadines",
-    "United States"
+    "Malta",
+    "United States Virgin Islands"
   ],
-  "overseas_countries": [],
   "borders": true,
   "summary": "The dominions, colonies, protectorates, mandates, and other territories ruled or administered by the United Kingdom and its predecessor states.",
   "tier": "Essential",
@@ -97,12 +128,11 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
     "labelled": [
-      "United States of America",
-      "Mexico",
-      "Russian Empire",
-      "French colonial empire",
-      "Sokoto Caliphate",
-      "German Empire"
+      "German Empire",
+      "Austria-Hungary",
+      "United Kingdoms of Sweden and Norway",
+      "French Third Republic",
+      "Kingdom of Belgium"
     ]
   }
 }

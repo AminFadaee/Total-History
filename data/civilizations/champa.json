@@ -27,11 +27,50 @@
         13.92869
       ],
       "founded": null
+    },
+    {
+      "name": "Huế",
+      "location": [
+        107.58666666666667,
+        16.46388888888889
+      ],
+      "founded": null
+    },
+    {
+      "name": "Trà Kiệu",
+      "location": [
+        108.23194444444445,
+        15.821666666666667
+      ],
+      "founded": null
+    },
+    {
+      "name": "Ninh Phước district",
+      "location": [
+        108.92666667,
+        11.52583333
+      ],
+      "founded": null
+    },
+    {
+      "name": "Indrapura",
+      "location": [
+        108.38305555555556,
+        15.666944444444445
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q6500483",
+      "region": "Vietnam",
+      "name": "Nguyễn dynasty",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Vietnam"
@@ -62,7 +101,7 @@
       1652
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Vijaya",
+    "home": "Ninh Phước district",
     "labelled": [
       "Khmer Empire",
       "Haripuñjaya",
