@@ -15,8 +15,8 @@ from page_in_history.naming import slugify
 from page_in_history.sources import vital
 from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
 from page_in_history.sources.wikidata import Entity, Wikidata, entity_id, qualifier_year
-from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country_infobox, display_name, person_titles,
-                                                  place_name, ruler_succession)
+from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country_infobox, display_name,
+                                                  lead_capital_links, person_titles, place_name, ruler_succession)
 from page_in_history.regions import home, regions
 from page_in_history.sentences import contribution, first_paragraph, opening
 from page_in_history.power import CONSORT, OTHER_STATE, PRIVATE, RULER, SERVANT, PowerScores
@@ -891,7 +891,14 @@ class PolityBuilder:
         linked = [title for box in self.infoboxes.values()
                   for title in box.capital + box.predecessors + box.successors + box.leaders]
         self.pages = self.wikipedia.resolve(linked)
-        referenced = [self.catalog.entities[identity.qid].ids("P36") for identity in known]
+        leads = {identity.qid: lead_capital_links(texts.get(identity.title, "")) for identity in identities}
+        lead_pages = self.wikipedia.resolve([title for titles in leads.values() for title in titles])
+        self.lead_capitals = {qid: list(dict.fromkeys(lead_pages[title].qid for title in titles
+                                                      if title in lead_pages and lead_pages[title].qid))
+                              for qid, titles in leads.items()}
+        self.capital_of = self.wikidata.subjects("P1376", [identity.qid for identity in identities])
+        referenced = [self.catalog.entities[identity.qid].ids("P36") for identity in known] + \
+            list(self.capital_of.values()) + list(self.lead_capitals.values())
         self.names = self.wikidata.entities([qid for ids in referenced for qid in ids] +
                                             [page.qid for page in self.pages.values() if page.qid])
         roots = {SETTLEMENT: "settlement", HERITAGE: "heritage", SITE: "site", STATE: "state", FORMER_OR_CURRENT_STATE: "state"}
@@ -1246,19 +1253,25 @@ class PolityBuilder:
         is not a settlement, such as a historical park or an archaeological site (Ayutthaya Historical Park, Abbasid
         Samarra), is shown as the town it lies in when that town is within 25 km. A state is never a capital, though a city that Wikidata also files as an administrative
         unit or a state, like Paris, Bucharest or Tenochtitlan, is; a state one source names stands for the settlement the other
-        names within 25 km (the Free City of Frankfurt for Frankfurt). When the two sources share none, a capital either names counts if it lies in the
-        civilization's own territory on the map (Hattusa, Susa, Gordion), or, for a civilization without a map, within 25 km of
-        where Wikidata places it (Sparta). Wikidata's capitals of every rank count, but
+        names, or that Wikidata files as the civilization's capital, within 25 km (the Free City of Frankfurt for Frankfurt).
+        Once the two agree on one, the infobox's others count too when it dates them within the civilization's years and
+        they lie in its territory (Nimrud and Nineveh beside Assur). When the two sources share none, a capital either
+        names counts if it lies in the civilization's own territory on the map (Hattusa, Susa, Gordion), or, for a
+        civilization without a map, within 25 km of where Wikidata places it (Sparta); failing both, a settlement or site
+        linked in the first sentence of the article's lead that speaks of a capital, by the same test (Heian-kyō for
+        Heian Japan). Wikidata's capitals of every rank count, but
         one it dates only outside the confirmed period (Cairo, seat of the Abbasid caliphs after the fall of
         Baghdad) or only from 1945 on (Brasília) is left out."""
         outside = self._capitals_outside(entity, period)
         listed = [qid for qid in entity.ids("P36", preferred_only=False) if qid not in outside]
         places = [(qid, found.coordinates()) for qid, found in ((qid, self.names.get(qid)) for qid in listed)
                   if found and found.coordinates()]
+        stand_ins = places + [(qid, self.names[qid].coordinates()) for qid in self.capital_of.get(entity.id, [])
+                              if qid in self.names and self.names[qid].coordinates()]
         capitals = []
         for qid in self._qids(infobox.capital):
             if not self._can_be_capital(qid):
-                qid = self._settlement_at(qid, places)
+                qid = self._settlement_at(qid, stand_ins)
             if not qid or qid in outside:
                 continue
             capital = self._capital(qid)
@@ -1278,21 +1291,41 @@ class PolityBuilder:
             if not any(location and found["location"] and kilometres(location, found["location"]) <= SAME_PLACE_KM
                        for found in capitals):
                 capitals.append(capital)
-        if capitals:
-            return capitals
         if rows.empty:
             home = entity.coordinates()
             holds = lambda location: home is not None and kilometres(location, home) <= CAPITAL_MATCH_KM
         else:
             territory = shapely.union_all(rows.geometry.values).buffer(CAPITAL_TOLERANCE_DEGREES)
             holds = lambda location: territory.contains(Point(location))
-        for qid in dict.fromkeys(listed + self._qids(infobox.capital)):
+        if capitals:
+            self._add_held(capitals, self._dated_capitals(infobox, period), holds, outside)
+            return capitals
+        self._add_held(capitals, list(dict.fromkeys(listed + self._qids(infobox.capital))), holds, outside)
+        if not capitals:
+            lead = [qid for qid in self.lead_capitals.get(entity.id, [])
+                    if self.capital_kinds.get(qid, set()) & {"settlement", "site"}]
+            self._add_held(capitals, lead, holds, outside)
+        return capitals
+
+    def _add_held(self, capitals: list[dict], candidates: list[str], holds, outside: set[str]) -> None:
+        """Adds the candidates that lie in the civilization's territory, once per place."""
+        for qid in candidates:
             location = self._capital(qid)["location"]
             if self._can_be_capital(qid) and qid not in outside and location and holds(location):
                 capital = self._shown(qid, location)
-                if capital["name"] not in {found["name"] for found in capitals}:
+                if capital["name"] not in {found["name"] for found in capitals} and not any(
+                        found["location"] and kilometres(location, found["location"]) <= SAME_PLACE_KM for found in capitals):
                     capitals.append(capital)
-        return capitals
+
+    def _dated_capitals(self, infobox: Infobox, period: Period) -> list[str]:
+        """The infobox's capitals with years written beside them that fall within the confirmed period, or any years
+        when the period is not confirmed."""
+        found = []
+        for title, (first, last) in infobox.capital_years.items():
+            if title in self.pages and self.pages[title].qid and (not period.confirmed or (
+                    first <= period.end.latest and last >= period.start.earliest)):
+                found.append(self.pages[title].qid)
+        return list(dict.fromkeys(found))
 
     @staticmethod
     def _capitals_outside(entity: Entity, period: Period) -> set[str]:

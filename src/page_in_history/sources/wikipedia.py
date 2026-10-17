@@ -12,6 +12,13 @@ LIST_MARKUP = re.compile(r"^[*#:\s]+|\{\{\s*(?:plainlist|ubl|unbulleted list|fla
 OFFICE_ROW = re.compile(r"(leader|deputy|representative)(\d+)")
 TITLE_FIELD = re.compile(r"(?:succession|title|office|order|reign-type)\d*")
 PLACE_NAME = re.compile(r"[A-Z][\w'’.-]*(?: [A-Z][\w'’.-]*){0,3}")
+WIKILINK = re.compile(r"(\[\[[^\]]*\]\])")
+YEAR = re.compile(r"\b\d{1,4}\b")
+MONTH = "January|February|March|April|May|June|July|August|September|October|November|December"
+DAY = re.compile(rf"\b\d{{1,2}}\s+(?:{MONTH})\b|\b(?:{MONTH})\s+\d{{1,2}}\b")
+BEFORE_CHRIST = re.compile(r"\bBCE?\b")
+SENTENCE_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z\[])")
+CAPITAL_WORD = re.compile(r"\bcapital\b", re.IGNORECASE)
 API = "https://en.wikipedia.org/w/api.php"
 BATCH = 50
 EXTRACT_BATCH = 20
@@ -48,6 +55,7 @@ class Infobox:
     start: Span | None = None
     end: Span | None = None
     capital: list[str] = field(default_factory=list)
+    capital_years: dict[str, tuple[int, int]] = field(default_factory=dict)
     predecessors: list[str] = field(default_factory=list)
     successors: list[str] = field(default_factory=list)
     leaders: list[str] = field(default_factory=list)
@@ -198,6 +206,41 @@ def place_targets(code: Wikicode | None) -> list[str]:
     return list(dict.fromkeys(found))
 
 
+def dated_links(code: Wikicode | None) -> dict[str, tuple[int, int]]:
+    """The first and last year written after each linked place, up to the next link: 879 and 706 BC for
+    '[[Nimrud]] (879–706 BCE)', 1185 and 1393 for '[[Veliko Tarnovo|Tarnovo]]<br />{{small|(1185–1393)}}'. Notes,
+    coordinates and days of the month are no years."""
+    if code is None:
+        return {}
+    code = without_notes(mw.parse(str(code)))
+    for template in code.filter_templates():
+        if str(template.name).strip().lower().startswith(NOTE_TEMPLATES + ("coord",)):
+            remove(code, template)
+    pieces = WIKILINK.split(DAY.sub("", str(code)))
+    found: dict[str, tuple[int, int]] = {}
+    for link, text in zip(pieces[1::2], pieces[2::2]):
+        targets = link_targets(mw.parse(link))
+        sign = -1 if BEFORE_CHRIST.search(text) else 1
+        years = [sign * int(year) for year in YEAR.findall(text)]
+        if targets and years:
+            found.setdefault(targets[0], (min(years), max(years)))
+    return found
+
+
+def lead_capital_links(wikitext: str) -> list[str]:
+    """Articles linked from the first sentence of the lead's prose that speaks of a capital (Heian-kyō in "Emperor
+    Kammu moved the capital of Japan to Heian-kyō")."""
+    lead = mw.parse(SECTION.split(wikitext, maxsplit=1)[0])
+    for template in lead.filter_templates(recursive=False):
+        remove(lead, template)
+    for paragraph in str(lead).splitlines():
+        for sentence in SENTENCE_END.split(paragraph):
+            parsed = mw.parse(sentence)
+            if CAPITAL_WORD.search(parsed.strip_code()):
+                return link_targets(parsed)
+    return []
+
+
 def lead_links(wikitext: str) -> list[str]:
     """Articles linked from the prose of the lead section, ignoring infoboxes and other templates."""
     lead = mw.parse(SECTION.split(wikitext, maxsplit=1)[0])
@@ -298,6 +341,7 @@ def country_infobox(wikitext: str) -> Infobox | None:
                 start=start,
                 end=end,
                 capital=place_targets(fields.get("capital")),
+                capital_years=dated_links(fields.get("capital")),
                 predecessors=numbered(fields, "p"),
                 successors=numbered(fields, "s"),
                 leaders=numbered(fields, "leader"),

@@ -245,6 +245,16 @@ class Wikidata:
                 found[entity_id(row["item"])].add(entity_id(row["event"]))
         return found
 
+    def subjects(self, prop: str, ids: list[str]) -> dict[str, list[str]]:
+        """The items whose property names each of the ids, as the cities Wikidata files as capital of (P1376) a state."""
+        unique = sorted(set(ids))
+        found: dict[str, list[str]] = {qid: [] for qid in unique}
+        for start in range(0, len(unique), KIND_BATCH):
+            items = " ".join(f"wd:{qid}" for qid in unique[start : start + KIND_BATCH])
+            for row in self.query(f"SELECT ?item ?subject WHERE {{ VALUES ?item {{ {items} }} ?subject wdt:{prop} ?item }}"):
+                found[entity_id(row["item"])].append(entity_id(row["subject"]))
+        return found
+
     def query(self, sparql: str) -> list[dict]:
         data = self.http.json(SPARQL, {"query": sparql, "format": "json"}, namespace="sparql")
         return [{key: value["value"] for key, value in row.items()} for row in data["results"]["bindings"]]
