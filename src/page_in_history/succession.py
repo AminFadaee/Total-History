@@ -68,7 +68,8 @@ class RegionalSuccession:
     home up to a century away with no other deck state holding it in between. Holders that stayed five
     years or less, like a wartime occupation, are passed over, so are those that cannot have followed it, and an empire
     partitioned among three or more states has no single successor. When the nearest confirmed holder is named like
-    the civilization (the Kingdom and the Crown of Castile), the side is left unasked."""
+    the civilization (Qin and the Qin dynasty), the side is left unasked, unless the two are consecutive states (the
+    Kingdom and the Crown of Castile)."""
 
     def __init__(self, frame: gpd.GeoDataFrame, qids: dict[str, str], countries: gpd.GeoDataFrame,
                  stated: Callable[[str, str], bool], implied: Callable[[str, str], bool], equal_area: Callable):

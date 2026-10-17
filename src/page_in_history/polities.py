@@ -64,6 +64,7 @@ KNOWN_NEIGHBOUR_LANGUAGES = 40
 LESS_KNOWN_NEIGHBOUR_LANGUAGES = 20
 MIRROR_GAP_YEARS = 100
 HOME_OVERLAP_YEARS = 5
+CONSECUTIVE_YEARS = 5
 SUCCESSION_SLOTS = 3
 SAME_PLACE_KM = 5
 STEM_LETTERS = 5
@@ -232,8 +233,7 @@ def stems(name: str) -> set[str]:
 def same_name(first: str, second: str) -> bool:
     """The two names are the same once "dynasty", a monarch's rank (kingdom, crown, electorate, principality, duchy,
     emirate, khanate, caliphate, sultanate) and brackets are set aside, as Qin and the Qin dynasty, the Kingdom and
-    the Crown of Castile, or the Kingdom of Naples and the Kingdom of Naples (Napoleonic), so asking one for the other
-    gives the answer away. A change of form stays, since it tells the Roman Republic from the Roman Empire."""
+    the Crown of Castile, or the Kingdom of Naples and the Kingdom of Naples (Napoleonic). A change of form stays, since it tells the Roman Republic from the Roman Empire."""
     words = lambda name: set(re.findall(r"\w+", re.sub(r"\(.*?\)", "", name).lower())) - SAME_NAME_WORDS
     return bool(words(first)) and words(first) == words(second)
 
@@ -1015,7 +1015,9 @@ class PolityBuilder:
         civilization per region, at most three a side. The first, asked as its own card, is in its home region (today's country at
         its longest-held capital); the others are other regions. An answer from the other side or a leader fills the
         home only when the two overlap by five years at most, or by 30 when it held land near the home at the change,
-        and, when both are on the maps, it held the home point at some time."""
+        and, when both are on the maps, it held the home point at some time. A home still empty takes a state both
+        Wikidata and the infobox name, known in 40 languages and not on the maps, that ended (began) within five years
+        of its start (end)."""
         deck = self.deck_polities = {polity.id: polity for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
@@ -1024,10 +1026,10 @@ class PolityBuilder:
         anchors = {polity.id: self.succession.home(polity.id, **homes_from[polity.id]) for polity in polities}
         blocked, weak = set(), set()
         for polity in polities:
-            judge = Judge(asked=lambda other, name=polity.name: known(other) and not same_name(name, self._name(other)),
-                          less_known=lambda other, name=polity.name: editions.get(other, 0) >= LESS_KNOWN_NEIGHBOUR_LANGUAGES
-                          and not same_name(name, self._name(other)),
-                          blocking=lambda other, name=polity.name: known(other) and same_name(name, self._name(other)),
+            judge = Judge(asked=lambda other, qid=polity.id: known(other) and not self._renamed(qid, other),
+                          less_known=lambda other, qid=polity.id: editions.get(other, 0) >= LESS_KNOWN_NEIGHBOUR_LANGUAGES
+                          and not self._renamed(qid, other),
+                          blocking=lambda other, qid=polity.id: known(other) and self._renamed(qid, other),
                           follows=self._follows, years=self._span, spans=self._spans, in_deck=deck.__contains__,
                           followers=self._followers, home=lambda other: anchors[other].region if anchors.get(other) else None)
             before, after, _ = self.succession.neighbours(
@@ -1049,6 +1051,8 @@ class PolityBuilder:
                 for edge in list(getattr(polity, side)):
                     if edge["id"] in deck and not edge.get("reserved"):
                         self._link(deck[edge["id"]], mirror, polity, edge["region"])
+        named = self.wikidata.language_editions(sorted({other for polity in polities for later in (False, True)
+                                                        for other in self._followers(polity.id, later)}))
         for polity in polities:
             for side in ("before", "after"):
                 before = side == "before"
@@ -1073,10 +1077,37 @@ class PolityBuilder:
                         [edge for edge in others if edge["region"] == region
                          and (anchor is None or self._fills_home(polity, edge["id"], side, anchor.point))][:1] or fallback
                     others = [edge for edge in others if edge["region"] != region]
+                if not home and (polity.id, side) not in blocked:
+                    home = self._named_neighbour(polity, side, homes[polity.id], named)
                 others = [edge for edge in others if edge not in home]
                 plain = lambda edge: {key: value for key, value in edge.items() if key not in ("main", "reserved")}
                 setattr(polity, side, [{**plain(edge), "home": True} for edge in home]
                         + [{**plain(edge), "home": False} for edge in others][:SUCCESSION_SLOTS - 1])
+
+    def _named_neighbour(self, polity: Polity, side: str, region: str, editions: dict[str, int]) -> list[dict]:
+        """For a home side left empty, the state that both Wikidata and the infobox name before (after) it, known in
+        40 languages, not drawn on the maps and in no other way the deck's, that ended (began) within five years of its
+        start (end): the First Intermediate Period after the Old Kingdom of Egypt."""
+        before = side == "before"
+        span, entity = self._span(polity.id), self.catalog.entities.get(polity.id)
+        if not span or not entity or not region or polity.id not in self.infoboxes:
+            return []
+        infobox = self.infoboxes[polity.id]
+        named = set(entity.ids(*(("P1365", "P155") if before else ("P1366", "P156")))) \
+            & set(self._qids(infobox.predecessors if before else infobox.successors))
+        moment = span[0] if before else span[1]
+        found = []
+        for other in named:
+            item = self.names.get(other)
+            if not item or editions.get(other, 0) < KNOWN_NEIGHBOUR_LANGUAGES or other in self.deck_polities \
+                    or self.succession.drawn(other) or self._renamed(polity.id, other) \
+                    or not self._follows(*((other, polity.id) if before else (polity.id, other)), before):
+                continue
+            start, end = dates(item)
+            change = end if before else start
+            if change is not None and abs(change - moment) <= CONSECUTIVE_YEARS:
+                found.append((abs(change - moment), self._name(other), other))
+        return [{"id": other, "region": region, "name": name} for _, name, other in sorted(found)[:1]]
 
     def _fills_home(self, polity: Polity, other: str, side: str, point) -> bool:
         """An answer from the other side or a leader may stand in the home region when the two overlap by five years at
@@ -1102,15 +1133,36 @@ class PolityBuilder:
     def _follows(self, first: str, last: str, earlier_asked: bool) -> bool:
         """Whether the second can have followed the first: the predecessor asked began before the civilization, the
         successor asked ended after it (Assyria is not followed by the Neo-Assyrian Empire, which ended first); the
-        first was not a part absorbed by the second (Wikidata's part of, or the second's parts); and they are not
-        phases of one state under a shared name, one period within the other (Qi and Qin)."""
+        first was not a part absorbed by the second (Wikidata's part of, or the second's parts), unless it ended within
+        five years of the second's start (the Kingdom of Castile in the Crown of Castile); the answer is not a part of
+        the civilization, by its country or part of, that ended with it (the Antigonid dynasty of Macedonia); and they
+        are not phases of one state under a shared name, one period within the other (Qi and Qin)."""
         earlier, later = self._span(first), self._span(last)
         if earlier and later and not (earlier[0] < later[0] if earlier_asked else later[1] > earlier[1]):
             return False
-        if last in self._parents(first) or first in self._members(last):
+        joined = earlier and later and abs(later[0] - earlier[1]) <= CONSECUTIVE_YEARS
+        if (last in self._parents(first) or first in self._members(last)) and not joined:
+            return False
+        answer, state = (first, last) if earlier_asked else (last, first)
+        entity = self.catalog.entities.get(answer) or self.names.get(answer)
+        if earlier and later and abs(earlier[1] - later[1]) <= CONSECUTIVE_YEARS and entity \
+                and state in entity.ids("P17", "P361", preferred_only=False):
             return False
         return not (earlier and later and stems(self._name(first)) & stems(self._name(last))
                     and (earlier[0] <= later[0] and earlier[1] >= later[1] or later[0] <= earlier[0] and later[1] >= earlier[1]))
+
+    def _renamed(self, qid: str, other: str) -> bool:
+        """The two are named alike and are not consecutive states: the later began within five years of the earlier's
+        end, and both began and ended more than five years apart (the Kingdom and the Crown of Castile, but not Qin and
+        the Qin dynasty, which began inside it)."""
+        if not same_name(self._name(qid), self._name(other)):
+            return False
+        mine, theirs = self._span(qid), self._span(other)
+        if not mine or not theirs:
+            return True
+        earlier, later = sorted((mine, theirs))
+        return not (abs(later[0] - earlier[1]) <= CONSECUTIVE_YEARS and later[0] - earlier[0] > CONSECUTIVE_YEARS
+                    and later[1] - earlier[1] > CONSECUTIVE_YEARS)
 
     def _span(self, qid: str) -> tuple[int, int] | None:
         """A state's years: a deck civilization's confirmed period, else the years the maps draw it, else Wikidata's."""
@@ -1143,7 +1195,7 @@ class PolityBuilder:
         earlier, later = (other, polity) if side == "before" else (polity, other)
         fits = lambda first, second: first and second and first[0] < second[0] and first[1] < second[1] \
             and abs(second[0] - first[1]) <= gap
-        if not region or same_name(polity.name, other.name) or not any(
+        if not region or self._renamed(polity.id, other.id) or not any(
                 fits(self._ruled_years(earlier, core), self._ruled_years(later, other_core))
                 for core in (False, True) for other_core in (False, True)):
             return
