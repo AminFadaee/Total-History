@@ -73,6 +73,13 @@ figure_present = [
   { civilization = "Zengid dynasty", people = { Q189550 = "Imad al-Din Zengi" } },
   { civilization = "Old Kingdom of Egypt", people = { Q161904 = "Khufu", Q174367 = "Djoser" } },
   { civilization = "Classical Athens", people = { Q80398 = "Pericles" } },
+  { civilization = "Republic of Venice", people = { Q205688 = "Enrico Dandolo" } },
+  { civilization = "French Third Republic", people = { Q5738 = "Adolphe Thiers", Q191974 = "Raymond Poincaré" } },
+  { civilization = "Shu Han", people = { Q198211 = "Zhuge Liang" } },
+  { civilization = "Heian Japan", people = { Q314846 = "Emperor Kanmu" } },
+  { civilization = "Caucasian Iberia", people = { Q372698 = "Pharnavaz I" } },
+  { civilization = "Janapada of Magadha", people = { Q379242 = "Ajatashatru" } },
+  { civilization = "Austrian Empire", people = { Q130834 = "Francis II, Holy Roman Emperor" } },
   { civilization = "Carthage", people = { Q36456 = "Hannibal" } },
   { civilization = "Maya civilization", people = { Q371384 = "Kʼinich Janaabʼ Pakal" } },
   { civilization = "Golden Horde", people = { Q175138 = "Batu Khan", Q335097 = "Özbeg Khan" } },
@@ -104,6 +111,12 @@ succession_absent = [
   { civilization = "Phoenicia", side = "before", other = "New Kingdom of Egypt", open = true },
   { civilization = "Macedonia", side = "after", other = "Antigonid dynasty" },
   { civilization = "Qin dynasty", side = "before", other = "Qin" },
+  { civilization = "Inca Empire", side = "after", other = "Neo-Inca State", open = true },
+  { civilization = "Kushan Empire", side = "after", other = "Gupta Empire", open = true },
+  { civilization = "Kingdom of Wessex", side = "before", other = "Kingdom of Sussex", open = true },
+  { civilization = "Second Polish Republic", side = "after", other = "Union of Soviet Socialist Republics", open = true },
+  { civilization = "Jalayirid Sultanate", side = "after", other = "Timurid Empire", open = true },
+  { civilization = "Nguyễn dynasty", side = "after", other = "Republic of Vietnam", open = true },
 ]
 
 succession_present = [
@@ -128,14 +141,34 @@ succession_present = [
   { civilization = "Macedonia", side = "after", other = "Roman Republic" },
   { civilization = "Old Kingdom of Egypt", side = "after", other = "First Intermediate Period of Egypt" },
   { civilization = "Middle Kingdom of Egypt", side = "before", other = "First Intermediate Period of Egypt" },
+  { civilization = "Jin dynasty", side = "before", other = "Cao Wei" },
+  { civilization = "Shu Han", side = "after", other = "Cao Wei" },
+  { civilization = "Zhou Dynasty", side = "after", other = "Qin" },
+  { civilization = "Tang Dynasty", side = "after", other = "Later Liang Dynasty" },
+  { civilization = "Inca Empire", side = "before", other = "Kingdom of Cusco" },
+  { civilization = "Dutch Republic", side = "before", other = "Seventeen Provinces" },
+  { civilization = "Polish-Lithuanian Commonwealth", side = "before", other = "Kingdom of Poland" },
+  { civilization = "Ethiopian Empire", side = "before", other = "Zagwe dynasty" },
+  { civilization = "Majapahit", side = "before", other = "Singhasari" },
+  { civilization = "Nazi Germany", side = "after", other = "Allied-occupied Germany", open = true },
+  { civilization = "Empire of Japan", side = "after", other = "Occupied Japan", open = true },
+  { civilization = "Song dynasty", side = "before", other = "Later Zhou", open = true },
+  { civilization = "Mongol Empire", side = "before", other = "Khamag Mongol", open = true },
+  { civilization = "Phoenicia", side = "after", other = "Achaemenid Empire", open = true },
+  { civilization = "Classical Athens", side = "after", other = "Macedonia", open = true },
+  { civilization = "Denmark-Norway", side = "after", other = "Kingdom of Denmark", open = true },
+  { civilization = "Commonwealth of England", side = "before", other = "Kingdom of England", open = true },
+  { civilization = "Commonwealth of England", side = "after", other = "Kingdom of England", open = true },
+  { civilization = "Akkadian Empire", side = "before", other = "Sumerian City-States", open = true },
+  { civilization = "Aztec Triple Alliance", side = "before", other = "Tepanecs", open = true },
 ]
 
 succession_answered = [
   { civilization = "Carthage", side = "after" },
-  { civilization = "Tang Dynasty", side = "after", open = true },
-  { civilization = "Song dynasty", side = "before", open = true },
+  { civilization = "Tang Dynasty", side = "after" },
+  { civilization = "Song dynasty", side = "before" },
   { civilization = "Babylonia", side = "after" },
-  { civilization = "Zhou Dynasty", side = "after", open = true },
+  { civilization = "Zhou Dynasty", side = "after" },
   { civilization = "Seleucid Empire", side = "after" },
   { civilization = "Ptolemaic Kingdom", side = "after" },
   { civilization = "Gupta Empire", side = "before" },
@@ -146,6 +179,9 @@ home_region = [
   { civilization = "Austria-Hungary", region = "Austria" },
   { civilization = "German Confederation", region = "Germany" },
   { civilization = "Prussia", region = "Germany" },
+  { civilization = "Sasanian Empire", region = "Iraq" },
+  { civilization = "Joseon", region = "South Korea" },
+  { civilization = "Khanate of Khiva", region = "Uzbekistan" },
 ]
 
 capital_absent = [
@@ -154,6 +190,9 @@ capital_absent = [
   { civilization = "Göktürk Khaganate", capital = "Ordu-Baliq" },
   { civilization = "Pala Empire", capital = "Murshidabad", open = true },
   { civilization = "Brazilian Republic", capital = "Brasília" },
+  { civilization = "Phrygia", capital = "Polatlı" },
+  { civilization = "Ayutthaya Kingdom", capital = "Phitsanulok province" },
+  { civilization = "Ayutthaya Kingdom", capital = "Lopburi province" },
 ]
 
 capital_present = [
@@ -171,6 +210,7 @@ capital_present = [
   { civilization = "German Confederation", capitals = ["Frankfurt"] },
   { civilization = "Neo-Assyrian Empire", capitals = ["Nineveh"] },
   { civilization = "Maratha Empire", capitals = ["Satara"] },
+  { civilization = "Phrygia", capitals = ["Gordion"] },
 ]
 
 in_deck = [
@@ -213,6 +253,7 @@ period_ends_by = [
   { civilization = "Silla", year = 700 },
   { civilization = "Kingdom of Castile", year = 1250 },
   { civilization = "Kingdom of León", year = 1250 },
+  { civilization = "Akkadian Empire", year = -2154 },
 ]
 
 period_present = [
@@ -245,4 +286,6 @@ map_leaves_out = [
 
 map_year_within = [
   { civilization = "Macedonia", years = [-336, -319] },
+  { civilization = "German Confederation", years = [1815, 1865] },
+  { civilization = "Kingdom of Sardinia", years = [1720, 1860] },
 ]
