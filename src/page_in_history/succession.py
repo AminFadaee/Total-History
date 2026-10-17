@@ -66,16 +66,20 @@ class RegionalSuccession:
     held the home on the maps or has its own home in the same country (not Sweden-Norway after Denmark-Norway, drawn
     across the strait from Copenhagen); then a deck state the sources name that held the
     home up to a century away with no other deck state holding it in between. Holders that stayed five
-    years or less, like a wartime occupation, are passed over, so are those that cannot have followed it, and an empire
-    partitioned among three or more states has no single successor. When the nearest confirmed holder is named like
+    years or less, like a wartime occupation, are passed over unless Wikidata and the infobox both name them, they
+    lasted longer, and nothing longer-held answers (Cao Wei after Shu Han); so are those that cannot have followed it,
+    and an empire partitioned among three or more states has no single successor, unless it outlasted its last map by
+    over a century (the Zhou). When the nearest confirmed holder is named like
     the civilization (Qin and the Qin dynasty), the side is left unasked, unless the two are consecutive states (the
     Kingdom and the Crown of Castile)."""
 
     def __init__(self, frame: gpd.GeoDataFrame, qids: dict[str, str], countries: gpd.GeoDataFrame,
-                 stated: Callable[[str, str], bool], implied: Callable[[str, str], bool], equal_area: Callable):
+                 stated: Callable[[str, str], bool], corroborated: Callable[[str, str], bool],
+                 implied: Callable[[str, str], bool], equal_area: Callable):
         self.frame = frame.assign(qid=frame.Name.map(qids)).dropna(subset=["qid"])
         self.countries = countries.to_crs(frame.crs)
         self.stated = stated
+        self.corroborated = corroborated
         self.implied = implied
         self.equal_area = equal_area
 
@@ -96,13 +100,22 @@ class RegionalSuccession:
         if not anchor.place and located and anchor.point.distance(located[0]) > HOMELAND_DEGREES:
             return [], [], ""
         before = self._sides(qid, rows, edges[0], anchor, True, judge)
-        after = [] if self._partitioned(rows) else self._sides(qid, rows, edges[1], anchor, False, judge)
+        after = [] if self.partitioned(qid, judge.years(qid)) else self._sides(qid, rows, edges[1], anchor, False, judge)
         return before, after, anchor.place
 
     def home(self, qid: str, capitals: list[dict], years: tuple | None = None, places: tuple = ()) -> Anchor | None:
         """The civilization's home, as its before and after are judged: its point and today's country there."""
         rows = self.frame[self.frame.qid == qid]
         return None if rows.empty else self._anchor(rows, capitals, years, places)
+
+    def partitioned(self, qid: str, span: tuple | None) -> bool:
+        """Whether the year after its last map its land was held in large parts by three or more states, unless it
+        lasted over a century longer than that map (the Zhou, drawn until 751 BC, reigned to 256 BC)."""
+        rows = self.frame[self.frame.qid == qid]
+        return not rows.empty and not (span and span[1] - int(rows.ToYear.max()) > WIDE_YEARS) and self._partitioned(rows)
+
+    def country(self, location) -> str:
+        return self._country(Point(location))
 
     def held(self, qid: str, point: Point, tolerance: float = CAPITAL_TOLERANCE_DEGREES) -> bool:
         """Whether the civilization ever held the point on the maps, or land within reach of it."""
@@ -156,6 +169,12 @@ class RegionalSuccession:
                         return {"id": holding.qid, "region": at.region, "how": "map"}
                     if judge.blocking(holding.qid):
                         return {"blocked": True}
+        brief = sorted((holding for holding in holdings if holding.qid != qid and holding.years < MIN_HOLD_YEARS
+                        and distance(holding) <= WINDOW_YEARS and judge.asked(holding.qid) and self._lasted(judge, holding.qid)
+                        and judge.follows(*pair(holding.qid), before) and self.corroborated(*pair(holding.qid))),
+                       key=lambda holding: (abs(their_end(holding) - drawn_end), holding.qid))
+        if brief:
+            return {"id": brief[0].qid, "region": at.region, "how": "map"}
         less_known = {holding.qid for holding in nearby if judge.less_known(holding.qid) and self.stated(*pair(holding.qid))}
         if less_known and (heir := self._heir(qid, before)) in less_known:
             return {"id": heir, "region": at.region, "how": "less known"}
@@ -182,6 +201,11 @@ class RegionalSuccession:
             if all(gap <= WIDE_YEARS for gap in gaps) and not between:
                 return {"id": holding.qid, "region": at.region, "how": "wide"}
         return {}
+
+    @staticmethod
+    def _lasted(judge: Judge, qid: str) -> bool:
+        years = judge.years(qid)
+        return bool(years) and years[1] - years[0] + 1 >= MIN_HOLD_YEARS
 
     def _anchor(self, rows: gpd.GeoDataFrame, capitals: list[dict], years: tuple | None = None,
                 places: tuple = ()) -> Anchor:

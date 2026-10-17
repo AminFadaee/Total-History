@@ -20,7 +20,7 @@ from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country
 from page_in_history.regions import home, regions
 from page_in_history.sentences import contribution, first_paragraph, opening
 from page_in_history.power import CONSORT, OTHER_STATE, PRIVATE, RULER, SERVANT, PowerScores
-from page_in_history.succession import WINDOW_YEARS, Judge, RegionalSuccession
+from page_in_history.succession import WINDOW_YEARS, Anchor, Judge, RegionalSuccession
 
 POLITY_ROOTS = {
     "Q7275",  # state
@@ -119,6 +119,7 @@ MAPLESS_KINDS = {
     "Q417175": "kingdom", "Q486972": "settlement", "Q10864048": "subdivision", "Q11514315": "period",
     "Q164950": "dynasty", "Q41710": "ethnic group", "Q8432": "civilization",
 }
+NEIGHBOUR_ROOTS = {**MAPLESS_KINDS, "Q2577883": "occupied territory", **dict.fromkeys(EVENT_KINDS, "event")}
 NOT_MAPLESS = {"subdivision", "period", "dynasty", "ethnic group", "civilization"}
 KINDS = {
     "Q3624078": "sovereign state",
@@ -721,8 +722,8 @@ class PolityBuilder:
         self.wikidata = catalog.wikidata
         self.countries = equal_area(countries)
         self.present = int(self.cliopatria.frame.ToYear.max())
-        self.succession = RegionalSuccession(self.cliopatria.frame, catalog.qids, countries, self._stated, self._implied,
-                                             equal_area)
+        self.succession = RegionalSuccession(self.cliopatria.frame, catalog.qids, countries, self._stated, self._corroborated,
+                                             self._implied, equal_area)
         self.founded_early: set[str] = set()
         self.parents: dict[str, set[str]] = {}
         self.members: dict[str, set[str]] = {}
@@ -948,25 +949,29 @@ class PolityBuilder:
         return summary
 
     def _capital_terms(self, entity: Entity, period: Period, capitals: list[dict]) -> list[dict]:
-        """The capitals with the years Wikidata dates them as capital within the period, an open term running to its
-        start or end (Berlin 1701–1947 for Prussia), whether Wikidata dates them at all, and how many of the period's
-        years the dated capitals cover between them; a capital is matched to Wikidata's by being within 25 km."""
+        """The capitals with the years Wikidata or the infobox dates them as capital within the period, an open term
+        running to its start or end (Berlin 1701–1947 for Prussia), whether either dates them at all, and how many of
+        the period's years the dated capitals cover between them; a capital is matched to theirs by being within 25 km."""
         start, end = (period.start.earliest, period.end.latest) if period.confirmed else (None, None)
-        terms, spans = [], []
+        dated = []
         for claim in entity.statements("P36", preferred_only=False):
             place = self.names.get(claim["mainsnak"]["datavalue"]["value"].get("id"))
             began, ended = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
             if place and place.coordinates() and (began is not None or ended is not None):
-                began = began if began is not None else start
-                ended = ended if ended is not None else end
-                years = 0
-                if began is not None and ended is not None:
-                    if start is not None:
-                        began, ended = max(began, start), min(ended, end)
-                    years = max(0, ended - began)
-                    if years:
-                        spans.append((began, ended))
-                terms.append((place.coordinates(), years))
+                dated.append((place.coordinates(), began if began is not None else start, ended if ended is not None else end))
+        for location, began, ended in self._infobox_capital_years(entity):
+            if not any(kilometres(location, other[0]) <= CAPITAL_MATCH_KM for other in dated):
+                dated.append((location, began, ended))
+        terms, spans = [], []
+        for location, began, ended in dated:
+            years = 0
+            if began is not None and ended is not None:
+                if start is not None:
+                    began, ended = max(began, start), min(ended, end)
+                years = max(0, ended - began)
+                if years:
+                    spans.append((began, ended))
+            terms.append((location, years))
         covered, reach = 0, None
         for began, ended in sorted(spans):
             began = began if reach is None else max(began, reach)
@@ -976,6 +981,17 @@ class PolityBuilder:
         return [{**capital, "years": sum(years for location, years in terms if near(capital, location)),
                  "dated": any(near(capital, location) for location, _ in terms), "covered": covered}
                 for capital in capitals]
+
+    def _infobox_capital_years(self, entity: Entity) -> list[tuple]:
+        """Where the infobox's capitals with years written beside them stood, and those years."""
+        infobox = self.infoboxes.get(entity.id)
+        found = []
+        for title, (first, last) in (infobox.capital_years.items() if infobox else []):
+            page = self.pages.get(title)
+            location = self._capital(page.qid)["location"] if page and page.qid else None
+            if location:
+                found.append((tuple(location), first, last))
+        return found
 
     def _home(self, entity: Entity, period: Period, capitals: list[dict]) -> dict:
         """What the home is found from: the capitals and their years, the years to weigh them in, and the places
@@ -988,8 +1004,8 @@ class PolityBuilder:
         return {"capitals": self._capital_terms(entity, period, capitals), "years": years, "places": tuple(places)}
 
     def _capital_edges(self, entity: Entity, period: Period) -> tuple:
-        """Where its first and last capitals stood, when Wikidata dates at least two of them within its confirmed period
-        (not Constantinople for the Roman Empire, dated from 476)."""
+        """Where its first and last capitals stood, when Wikidata or the infobox dates at least two of them within its
+        confirmed period (not Constantinople for the Roman Empire, dated from 476; Bianjing and Lin'an for the Song)."""
         start, end = (period.start.earliest, period.end.latest) if period.confirmed else (None, None)
         dated = []
         for claim in entity.statements("P36", preferred_only=False):
@@ -1000,6 +1016,10 @@ class PolityBuilder:
                 began, ended = began if began is not None else ended, ended if ended is not None else began
                 if start is None or (began <= end and ended >= start):
                     dated.append((began, ended, place.coordinates()))
+        for location, began, ended in self._infobox_capital_years(entity):
+            if (start is None or (began <= end and ended >= start)) \
+                    and not any(kilometres(location, other[2]) <= CAPITAL_MATCH_KM for other in dated):
+                dated.append((began, ended, location))
         if len(dated) < 2:
             return None, None
         return min(dated)[2], max(dated, key=lambda found: (found[1], found[0]))[2]
@@ -1018,9 +1038,8 @@ class PolityBuilder:
         civilization per region, at most three a side. The first, asked as its own card, is in its home region (today's country at
         its longest-held capital); the others are other regions. An answer from the other side or a leader fills the
         home only when the two overlap by five years at most, or by 30 when it held land near the home at the change,
-        and, when both are on the maps, it held the home point at some time. A home still empty takes a state both
-        Wikidata and the infobox name, known in 40 languages and not on the maps, that ended (began) within five years
-        of its start (end)."""
+        and, when both are on the maps, it held the home point at some time. A home still empty takes a state outside the
+        deck that the sources name and that the maps or its place put at the home (see _stated_neighbour)."""
         deck = self.deck_polities = {polity.id: polity for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
@@ -1056,6 +1075,7 @@ class PolityBuilder:
                         self._link(deck[edge["id"]], mirror, polity, edge["region"])
         named = self.wikidata.language_editions(sorted({other for polity in polities for later in (False, True)
                                                         for other in self._followers(polity.id, later)}))
+        edges_of = {polity.id: self._capital_edges(self.catalog.entities[polity.id], polity.period) for polity in polities}
         for polity in polities:
             for side in ("before", "after"):
                 before = side == "before"
@@ -1080,37 +1100,67 @@ class PolityBuilder:
                         [edge for edge in others if edge["region"] == region
                          and (anchor is None or self._fills_home(polity, edge["id"], side, anchor.point))][:1] or fallback
                     others = [edge for edge in others if edge["region"] != region]
-                if not home and (polity.id, side) not in blocked:
-                    home = self._named_neighbour(polity, side, homes[polity.id], named)
+                if not home and (polity.id, side) not in blocked \
+                        and not (side == "after" and self.succession.partitioned(polity.id, self._span(polity.id))):
+                    home = self._stated_neighbour(polity, side, homes[polity.id], anchors[polity.id],
+                                                  edges_of[polity.id][side == "after"], named)
                 others = [edge for edge in others if edge not in home]
                 plain = lambda edge: {key: value for key, value in edge.items() if key not in ("main", "reserved")}
                 setattr(polity, side, [{**plain(edge), "home": True} for edge in home]
                         + [{**plain(edge), "home": False} for edge in others][:SUCCESSION_SLOTS - 1])
 
-    def _named_neighbour(self, polity: Polity, side: str, region: str, editions: dict[str, int]) -> list[dict]:
-        """For a home side left empty, the state that both Wikidata and the infobox name before (after) it, known in
-        40 languages, not drawn on the maps and in no other way the deck's, that ended (began) within five years of its
-        start (end): the First Intermediate Period after the Old Kingdom of Egypt."""
+    def _stated_neighbour(self, polity: Polity, side: str, region: str, anchor: Anchor | None, edge,
+                          editions: dict[str, int]) -> list[dict]:
+        """For a home side left empty, the state outside the deck that the sources name before (after) it, known in at
+        least 20 languages, that ended (began) within 30 years of its start (end) and is not a city, a subdivision, an
+        event or a mere occupation zone. The sources are the civilization's Wikidata and infobox and the state's own
+        Wikidata. Drawn on the maps, it must have held land within 2 degrees of the home at that change (Singhasari
+        before Majapahit), or at some time the home itself when two sources name it; off the maps, two sources must
+        name it (the First Intermediate Period after the Old Kingdom of Egypt, the Seventeen Provinces before the Dutch
+        Republic). The most named, then one whose place lies in the home country, then the closest in time, stands."""
         before = side == "before"
-        span, entity = self._span(polity.id), self.catalog.entities.get(polity.id)
-        if not span or not entity or not region or polity.id not in self.infoboxes:
+        span, entity, infobox = self._span(polity.id), self.catalog.entities.get(polity.id), self.infoboxes.get(polity.id)
+        if not span or not entity or not region:
             return []
-        infobox = self.infoboxes[polity.id]
-        named = set(entity.ids(*(("P1365", "P155") if before else ("P1366", "P156")))) \
-            & set(self._qids(infobox.predecessors if before else infobox.successors))
         moment = span[0] if before else span[1]
+        point = anchor and (Point(edge) if edge and self.succession.country(edge) == region else anchor.point)
+        named = set(entity.ids(*(("P1365", "P155") if before else ("P1366", "P156"))))
+        boxed = set(self._qids((infobox.predecessors if before else infobox.successors) if infobox else []))
+        candidates = [other for other in sorted(named | boxed)
+                      if other not in self.deck_polities and editions.get(other, 0) >= LESS_KNOWN_NEIGHBOUR_LANGUAGES
+                      and not self._renamed(polity.id, other)
+                      and self._follows(*((other, polity.id) if before else (polity.id, other)), before)]
+        items = self.wikidata.entities(candidates)
+        self.names.update({other: item for other, item in items.items() if other not in self.names})
         found = []
-        for other in named:
-            item = self.names.get(other)
-            if not item or editions.get(other, 0) < KNOWN_NEIGHBOUR_LANGUAGES or other in self.deck_polities \
-                    or self.succession.drawn(other) or self._renamed(polity.id, other) \
-                    or not self._follows(*((other, polity.id) if before else (polity.id, other)), before):
+        for other in candidates:
+            item, years = items.get(other), self._span(other)
+            if not item:
                 continue
             start, end = dates(item)
             change = end if before else start
-            if change is not None and abs(change - moment) <= CONSECUTIVE_YEARS:
-                found.append((abs(change - moment), self._name(other), other))
-        return [{"id": other, "region": region, "name": name} for _, name, other in sorted(found)[:1]]
+            if change is None and years:
+                change = years[1 if before else 0]
+            if change is None or abs(change - moment) > WINDOW_YEARS:
+                continue
+            votes = (other in named) + (other in boxed) + (polity.id in item.ids(*(("P1366", "P156") if before else ("P1365", "P155"))))
+            abroad = False
+            if point is None or not self.succession.drawn(other):
+                place = item.coordinates() or next((self.names[capital].coordinates() for capital in item.ids("P36", preferred_only=False)
+                                                    if capital in self.names and self.names[capital].coordinates()), None)
+                abroad = point is not None and place is not None and self.succession.country(place) != region
+                fits = votes >= 2
+            else:
+                fits = self.succession.near(other, moment, point) or (votes >= 2 and self.succession.held(other, point, 0))
+            if fits and self._is_state(other):
+                found.append((-votes, abroad, abs(change - moment), self._name(other), other))
+        return [{"id": other, "region": region, "name": name} for _, _, _, name, other in sorted(found)[:1]]
+
+    def _is_state(self, qid: str) -> bool:
+        """Anything but a subdivision, an event, a territory that is only occupied or a city that is not also a city-state."""
+        kinds = self.wikidata.kinds([qid], NEIGHBOUR_ROOTS)[qid]
+        return not kinds & {"subdivision", "event"} and not ("occupied territory" in kinds and not kinds & STATE_KINDS) \
+            and not ("settlement" in kinds and "city-state" not in kinds)
 
     def _fills_home(self, polity: Polity, other: str, side: str, point) -> bool:
         """An answer from the other side or a leader may stand in the home region when the two overlap by five years at
@@ -1251,13 +1301,19 @@ class PolityBuilder:
 
     def _stated(self, first: str, last: str) -> bool:
         """Wikidata or a Wikipedia infobox, on either civilization's side, says that the second followed the first."""
+        return self._wikidata_says(first, last) or self._infobox_says(first, last)
+
+    def _corroborated(self, first: str, last: str) -> bool:
+        """Wikidata and a Wikipedia infobox both say that the second followed the first."""
+        return self._wikidata_says(first, last) and self._infobox_says(first, last)
+
+    def _wikidata_says(self, first: str, last: str) -> bool:
         earlier, later = self.catalog.entities.get(first), self.catalog.entities.get(last)
-        return bool(
-            (earlier and last in earlier.ids("P1366", "P156"))
-            or (later and first in later.ids("P1365", "P155"))
-            or (first in self.infoboxes and last in self._qids(self.infoboxes[first].successors))
-            or (last in self.infoboxes and first in self._qids(self.infoboxes[last].predecessors))
-        )
+        return bool((earlier and last in earlier.ids("P1366", "P156")) or (later and first in later.ids("P1365", "P155")))
+
+    def _infobox_says(self, first: str, last: str) -> bool:
+        return bool((first in self.infoboxes and last in self._qids(self.infoboxes[first].successors))
+                    or (last in self.infoboxes and first in self._qids(self.infoboxes[last].predecessors)))
 
     def _implied(self, first: str, last: str) -> bool:
         """The sources name a part of the second as following the first, or a part of the first as preceding the
