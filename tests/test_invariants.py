@@ -14,7 +14,11 @@ SIDES = ("before", "after")
 PRESENT = 2026
 CENTURY = 100
 MAP_YEAR_SLACK = 25
+CONSECUTIVE_YEARS = 5
+STATED_YEAR_SLACK = 25
 MID_THOUGHT = re.compile(r"(?:It|Its|They|Their|The dynasty|Under)\b")
+YEAR = r"(\d{1,4})(?:\s*(BCE|BC|CE|AD))?"
+STATED_YEARS = re.compile(rf"(?:between|from)\s+(?:the\s+years\s+)?{YEAR}\s+(?:and|to|until)\s+{YEAR}|{YEAR}\s*[–-]\s*{YEAR}")
 
 
 def test_periods_run_forwards(civilizations):
@@ -107,13 +111,30 @@ def test_maps_exist_and_show_a_year_cliopatria_draws(civilizations):
             assert years[0] <= civilization["map_year"] <= years[1], name
 
 
+def consecutive(first: tuple[int, int] | None, second: tuple[int, int] | None) -> bool:
+    """One began within five years of the other's end, and both began and ended more than five years apart."""
+    if not first or not second:
+        return False
+    earlier, later = sorted((first, second))
+    return abs(later[0] - earlier[1]) <= CONSECUTIVE_YEARS and later[0] - earlier[0] > CONSECUTIVE_YEARS \
+        and later[1] - earlier[1] > CONSECUTIVE_YEARS
+
+
 def test_successions_use_deck_names(civilizations):
+    """Answers carry their deck names, and one named like the civilization is its consecutive state (the Kingdom and
+    the Crown of Castile), never a phase within it (Qin and the Qin dynasty)."""
     names = {civilization["id"]: name for name, civilization in civilizations.items()}
+    outside = set()
     for name, civilization in civilizations.items():
         for side in SIDES:
             for edge in civilization[side]:
                 assert names.get(edge["id"], edge["name"]) == edge["name"], (name, side, edge["name"])
-                assert not same_name(name, edge["name"]), (name, side, edge["name"])
+                if same_name(name, edge["name"]):
+                    if edge["name"] in civilizations:
+                        assert consecutive(span(civilization), span(civilizations[edge["name"]])), (name, side, edge["name"])
+                    else:
+                        outside.add((name, edge["name"]))
+    accepted("namesake_outside_deck", outside)
 
 
 def test_home_region_is_the_same_on_both_sides(civilizations):
@@ -205,3 +226,21 @@ def test_capitals_were_founded_before_the_end(civilizations):
 
 def test_what_lines_are_spaced_once(civilizations):
     accepted("what_line_spacing", {(name,) for name, civilization in civilizations.items() if "  " in (civilization.get("summary") or "")})
+
+
+def stated_years(text: str) -> tuple[int, int] | None:
+    """The first span of years a What line gives ("between 57 BCE and 935 CE"); an era given only at the end counts
+    for both years."""
+    if not (match := STATED_YEARS.search(text)):
+        return None
+    first, first_era, last, last_era = match.groups()[:4] if match.group(1) else match.groups()[4:]
+    sign = lambda era: -1 if (era or "").startswith("BC") else 1
+    return sign(first_era or last_era) * int(first), sign(last_era) * int(last)
+
+
+def test_what_lines_keep_to_the_period(civilizations):
+    accepted("what_line_outside_period", {
+        (name,) for name, civilization in civilizations.items()
+        if (said := stated_years(civilization.get("summary") or "")) and said[0] <= said[1]
+        and (years := span(civilization, cliopatria=False))
+        and (said[0] < years[0] - STATED_YEAR_SLACK or said[1] > years[1] + STATED_YEAR_SLACK)})

@@ -102,6 +102,8 @@ succession_absent = [
   { civilization = "Majapahit", side = "before", other = "Srivijaya" },
   { civilization = "Denmark-Norway", side = "after", other = "United Kingdoms of Sweden and Norway" },
   { civilization = "Phoenicia", side = "before", other = "New Kingdom of Egypt", open = true },
+  { civilization = "Macedonia", side = "after", other = "Antigonid dynasty" },
+  { civilization = "Qin dynasty", side = "before", other = "Qin" },
 ]
 
 succession_present = [
@@ -118,6 +120,14 @@ succession_present = [
   { civilization = "Austria-Hungary", side = "before", other = "Austrian Empire" },
   { civilization = "Sui Dynasty", side = "before", other = "Northern Zhou" },
   { civilization = "Dzungar Khanate", side = "before", other = "Four Oirats" },
+  { civilization = "Kingdom of Castile", side = "after", other = "Crown of Castile" },
+  { civilization = "Crown of Aragon", side = "before", other = "Kingdom of Aragon" },
+  { civilization = "Kingdom of Hungary", side = "before", other = "Principality of Hungary" },
+  { civilization = "Emirate of Córdoba", side = "after", other = "Caliphate of Córdoba" },
+  { civilization = "Khanate of Bukhara", side = "after", other = "Emirate of Bukhara" },
+  { civilization = "Macedonia", side = "after", other = "Roman Republic" },
+  { civilization = "Old Kingdom of Egypt", side = "after", other = "First Intermediate Period of Egypt" },
+  { civilization = "Middle Kingdom of Egypt", side = "before", other = "First Intermediate Period of Egypt" },
 ]
 
 succession_answered = [
@@ -157,7 +167,10 @@ capital_present = [
   { civilization = "Kingdom of France", capitals = ["Paris"] },
   { civilization = "Aztec Triple Alliance", capitals = ["Tenochtitlan"] },
   { civilization = "Kingdom of Nepal", capitals = ["Kathmandu"] },
-  { civilization = "Heian Japan", capitals = ["Heian-kyō", "Kyoto"], open = true },
+  { civilization = "Heian Japan", capitals = ["Heian-kyō", "Kyoto"] },
+  { civilization = "German Confederation", capitals = ["Frankfurt"] },
+  { civilization = "Neo-Assyrian Empire", capitals = ["Nineveh"] },
+  { civilization = "Maratha Empire", capitals = ["Satara"] },
 ]
 
 in_deck = [
@@ -217,4 +230,19 @@ what_present = [
   { civilization = "Teotihuacan" },
   { civilization = "Principality of Wallachia" },
   { civilization = "Principality of Rostov-Suzdal" },
+]
+
+map_paints = [
+  { civilization = "British Empire", states = ["British Raj", "British Africa", "United Kingdom of Great Britain and Ireland"] },
+  { civilization = "Portuguese Empire", states = ["Kingdom of Portugal"] },
+  { civilization = "French colonial empire", states = ["French Indochina"] },
+]
+
+map_leaves_out = [
+  { civilization = "French Third Republic", states = ["French colonial empire", "French Indochina"] },
+  { civilization = "Vichy France", states = ["French colonial empire", "French Indochina"] },
+]
+
+map_year_within = [
+  { civilization = "Macedonia", years = [-336, -319] },
 ]

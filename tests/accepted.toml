@@ -4,6 +4,7 @@ successor_ends_first = [
   ["Chagatai Khanate", "Moghulistan"],
   ["Etruscans", "Roman Republic"],
   ["Habsburg Monarchy", "Austrian Empire"],
+  ["Kingdom of Germany", "Holy Roman Empire"],
   ["Northern Yuan", "Four Oirats"],
   ["Odrysian Kingdom", "Macedonia"],
   ["White Huns", "Göktürk Khaganate"],
@@ -45,6 +46,7 @@ map_year_outside_period = [
 capital_founded_after_end = [
   ["Chagatai Khanate", "Qarshi"],
   ["Dutch Cape Colony", "City of Cape Town"],
+  ["Goryeo", "Seoul"],
   ["Icelandic Commonwealth", "Þingvellir"],
   ["Kingdom of Armenia", "Artashat"],
   ["Kingdom of Sardinia", "Metropolitan City of Cagliari"],
@@ -53,4 +55,16 @@ capital_founded_after_end = [
 ]
 
 what_line_spacing = [
+]
+
+namesake_outside_deck = [
+  ["Kingdom of Croatia", "Duchy of Croatia"],
+  ["Kingdom of Nepal", "Nepal"],
+]
+
+what_line_outside_period = [
+  ["Emirate of Córdoba"],
+  ["Indus Valley Civilization"],
+  ["Kingdom of Northumbria"],
+  ["Silla"],
 ]

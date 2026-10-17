@@ -11,13 +11,15 @@ FIELDS = {"figure_absent": ("civilization", "people"), "figure_present": ("civil
           "succession_answered": ("civilization", "side"), "home_region": ("civilization", "region"),
           "capital_absent": ("civilization", "capital"), "capital_present": ("civilization", "capitals"),
           "in_deck": ("civilization",), "tier": ("civilization", "tier"), "period_ends_by": ("civilization", "year"),
-          "period_present": ("civilization",), "what_present": ("civilization",)}
+          "period_present": ("civilization",), "what_present": ("civilization",),
+          "map_paints": ("civilization", "states"), "map_leaves_out": ("civilization", "states"),
+          "map_year_within": ("civilization", "years")}
 
 
 def label(value) -> str:
     if isinstance(value, dict):
         return "|".join(value.values())
-    return "|".join(value) if isinstance(value, list) else str(value)
+    return "|".join(map(str, value)) if isinstance(value, list) else str(value)
 
 
 def cases(kind: str) -> list:
@@ -125,3 +127,18 @@ def test_period_present(civilizations, civilization):
 @pytest.mark.parametrize("civilization", cases("what_present"))
 def test_what_line_present(civilizations, civilization):
     assert civilizations[civilization].get("summary")
+
+
+@pytest.mark.parametrize("civilization, states", cases("map_paints"))
+def test_map_paints(civilizations, civilization, states):
+    assert set(states) <= set(civilizations[civilization]["parts"])
+
+
+@pytest.mark.parametrize("civilization, states", cases("map_leaves_out"))
+def test_map_leaves_out(civilizations, civilization, states):
+    assert not set(states) & set(civilizations[civilization]["parts"])
+
+
+@pytest.mark.parametrize("civilization, years", cases("map_year_within"))
+def test_map_year_within(civilizations, civilization, years):
+    assert years[0] <= civilizations[civilization]["map_year"] <= years[1]
