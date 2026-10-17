@@ -3,7 +3,7 @@
   "slug": "german-empire",
   "name": "German Empire",
   "wikipedia": "German Empire",
-  "map_year": 1918,
+  "map_year": 1917,
   "period": {
     "start": {
       "earliest": 1871,
@@ -44,16 +44,22 @@
       "region": "Germany",
       "name": "Weimar Republic",
       "home": true
+    },
+    {
+      "id": "Q207272",
+      "region": "Poland",
+      "name": "Second Polish Republic",
+      "home": false
     }
   ],
   "key_figures": [
     {
-      "id": "Q8442",
-      "name": "Otto von Bismarck"
-    },
-    {
       "id": "Q150652",
       "name": "Wilhelm I"
+    },
+    {
+      "id": "Q8442",
+      "name": "Otto von Bismarck"
     },
     {
       "id": "Q2677",
@@ -65,13 +71,9 @@
     }
   ],
   "modern_countries": [
-    "Ukraine",
     "Germany",
     "Poland",
-    "Belarus",
     "Lithuania",
-    "Latvia",
-    "Estonia",
     "Belgium",
     "Luxembourg"
   ],
@@ -103,11 +105,7 @@
       "French Third Republic",
       "United Kingdom of Great Britain and Ireland",
       "Kingdom of Sweden",
-      "Republic of Finland",
-      "Kingdom of Norway",
-      "Kingdom of Italy",
-      "Kingdom of Bulgaria",
-      "Georgia"
+      "Kingdom of Norway"
     ]
   }
 }

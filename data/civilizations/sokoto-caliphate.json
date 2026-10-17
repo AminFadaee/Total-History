@@ -47,7 +47,20 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q585408",
+      "region": "Nigeria",
+      "name": "Northern Nigeria Protectorate",
+      "home": true
+    },
+    {
+      "id": "Q179023",
+      "region": "Niger",
+      "name": "French colonial empire",
+      "home": false
+    }
+  ],
   "key_figures": [
     {
       "id": "Q380452",

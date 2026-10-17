@@ -41,7 +41,7 @@
   "before": [
     {
       "id": "Q1986139",
-      "region": "Iran",
+      "region": "Iraq",
       "name": "Parthian Empire",
       "home": true
     },
@@ -55,19 +55,19 @@
   "after": [
     {
       "id": "Q12490507",
-      "region": "Iran",
+      "region": "Iraq",
       "name": "Rashidun Caliphate",
       "home": true
     }
   ],
   "key_figures": [
     {
-      "id": "Q191455",
-      "name": "Shapur I"
-    },
-    {
       "id": "Q371319",
       "name": "Ardashir I"
+    },
+    {
+      "id": "Q191455",
+      "name": "Shapur I"
     },
     {
       "id": "Q234860",
@@ -122,7 +122,7 @@
       643
     ],
     "identity": "Wikipedia item with overlapping dates",
-    "home": "Istakhr",
+    "home": "Ctesiphon",
     "labelled": [
       "Göktürks",
       "Byzantine Empire",

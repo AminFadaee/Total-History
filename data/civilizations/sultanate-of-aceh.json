@@ -38,7 +38,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q3284315",
+      "region": "Indonesia",
+      "name": "Samudera Pasai Sultanate",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q188161",

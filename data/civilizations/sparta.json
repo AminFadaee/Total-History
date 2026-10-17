@@ -42,15 +42,17 @@
       "name": "Archidamus II"
     },
     {
-      "id": "Q312689",
-      "name": "Nabis of Sparta"
-    },
-    {
       "id": "Q299479",
       "name": "Agis IV"
+    },
+    {
+      "id": "Q312689",
+      "name": "Nabis of Sparta"
     }
   ],
-  "modern_countries": [],
+  "modern_countries": [
+    "Greece"
+  ],
   "overseas_countries": [],
   "borders": false,
   "summary": "A prominent ancient Greek polis in Laconia.",

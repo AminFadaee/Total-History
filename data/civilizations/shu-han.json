@@ -38,7 +38,14 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q320930",
+      "region": "China",
+      "name": "Cao Wei",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q197481",
@@ -51,6 +58,10 @@
     {
       "id": "Q468780",
       "name": "Liu Shan"
+    },
+    {
+      "id": "Q198211",
+      "name": "Zhuge Liang"
     }
   ],
   "modern_countries": [

@@ -26,16 +26,23 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q544630",
+      "region": "Liberia",
+      "name": "Republic of Maryland",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
-      "id": "Q718220",
-      "name": "Stephen Allen Benson"
-    },
-    {
       "id": "Q360164",
       "name": "Joseph Jenkins Roberts"
+    },
+    {
+      "id": "Q718220",
+      "name": "Stephen Allen Benson"
     },
     {
       "id": "Q730622",

@@ -57,7 +57,14 @@
     "Principality of Halych",
     "Principality of Volhynia"
   ],
-  "before": [],
+  "before": [
+    {
+      "id": "Q3403551",
+      "region": "Ukraine",
+      "name": "Principality of Halych",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {

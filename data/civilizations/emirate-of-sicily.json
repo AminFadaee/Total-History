@@ -38,8 +38,32 @@
       "home": true
     }
   ],
-  "after": [],
-  "key_figures": [],
+  "after": [
+    {
+      "id": "Q1917014",
+      "region": "Italy",
+      "name": "County of Sicily",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q335628",
+      "name": "Abu'l-Qasim Ali ibn al-Hasan al-Kalbi"
+    },
+    {
+      "id": "Q13195326",
+      "name": "Abd Allah ibn Muhammad"
+    },
+    {
+      "id": "Q13195336",
+      "name": "Thiqat al-Dawla"
+    },
+    {
+      "id": "Q15109151",
+      "name": "Jaʿfar II al-Kalbī"
+    }
+  ],
   "modern_countries": [
     "Italy",
     "Malta"

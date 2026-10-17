@@ -31,19 +31,26 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q1142179",
+      "region": "South Africa",
+      "name": "Orange River Colony",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q440141",
       "name": "Marthinus Wessel Pretorius"
     },
     {
-      "id": "Q726327",
-      "name": "Francis William Reitz"
-    },
-    {
       "id": "Q1390594",
       "name": "Johannes Brand"
+    },
+    {
+      "id": "Q726327",
+      "name": "Francis William Reitz"
     },
     {
       "id": "Q2355196",

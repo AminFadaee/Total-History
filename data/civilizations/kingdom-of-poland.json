@@ -3,11 +3,11 @@
   "slug": "kingdom-of-poland",
   "name": "Kingdom of Poland",
   "wikipedia": "Kingdom of Poland",
-  "map_year": 1003,
+  "map_year": 1025,
   "period": {
     "start": {
-      "earliest": 966,
-      "latest": 966,
+      "earliest": 1025,
+      "latest": 1025,
       "circa": false
     },
     "end": {
@@ -75,9 +75,7 @@
   ],
   "modern_countries": [
     "Poland",
-    "Czechia",
-    "Germany",
-    "Slovakia"
+    "Czechia"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -104,17 +102,12 @@
       1449
     ],
     "identity": "Wikipedia item with overlapping dates",
-    "home": "Kraków",
+    "home": "Gniezno",
     "labelled": [
       "Kievan Rus'",
       "Holy Roman Empire",
       "Kingdom of Hungary",
-      "Kingdom of Arles",
-      "Kingdom of Denmark",
-      "Duchy of Burgundy",
-      "County of Champagne",
-      "County of Vermandois",
-      "County of Flanders"
+      "Kingdom of Arles"
     ]
   }
 }

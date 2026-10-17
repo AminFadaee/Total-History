@@ -40,7 +40,14 @@
   "parts": [
     "Grand Duchy of Lithuania"
   ],
-  "before": [],
+  "before": [
+    {
+      "id": "Q1649871",
+      "region": "Poland",
+      "name": "Kingdom of Poland",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q152115",

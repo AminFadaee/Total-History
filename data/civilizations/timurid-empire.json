@@ -50,6 +50,12 @@
       "region": "Iraq",
       "name": "Jalayirid Sultanate",
       "home": false
+    },
+    {
+      "id": "Q487829",
+      "region": "Uzbekistan",
+      "name": "Chagatai Khanate",
+      "home": false
     }
   ],
   "after": [
@@ -61,14 +67,8 @@
     },
     {
       "id": "Q491106",
-      "region": "Turkmenistan",
-      "name": "Khanate of Khiva",
-      "home": false
-    },
-    {
-      "id": "Q577668",
       "region": "Uzbekistan",
-      "name": "Khanate of Bukhara",
+      "name": "Khanate of Khiva",
       "home": false
     }
   ],

@@ -46,7 +46,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q160307",
+      "region": "Palestine",
+      "name": "Fatimid Caliphate",
+      "home": false
+    }
+  ],
   "after": [
     {
       "id": "Q282428",
@@ -57,12 +64,12 @@
   ],
   "key_figures": [
     {
-      "id": "Q51717",
-      "name": "Baldwin I of Jerusalem"
-    },
-    {
       "id": "Q76721",
       "name": "Godfrey of Bouillon"
+    },
+    {
+      "id": "Q51717",
+      "name": "Baldwin I of Jerusalem"
     },
     {
       "id": "Q311808",

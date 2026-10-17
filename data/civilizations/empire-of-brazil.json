@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q903779",
+      "region": "Brazil",
+      "name": "United Kingdom of Portugal, Brazil and the Algarves",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q155",

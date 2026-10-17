@@ -3,7 +3,7 @@
   "slug": "german-confederation",
   "name": "German Confederation",
   "wikipedia": "German Confederation",
-  "map_year": 1866,
+  "map_year": 1815,
   "period": {
     "start": {
       "earliest": 1813,
@@ -32,7 +32,8 @@
   "parts": [
     "Duchy of Brunswick",
     "Electorate of Hesse",
-    "Grand Duchy of Baden"
+    "Grand Duchy of Baden",
+    "Principality of Hohenzollern-Sigmaringen"
   ],
   "before": [
     {
@@ -58,8 +59,7 @@
   ],
   "modern_countries": [
     "Germany",
-    "Poland",
-    "Czechia"
+    "Poland"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -86,12 +86,11 @@
     "labelled": [
       "Russian Empire",
       "Austrian Empire",
-      "Second French Empire",
+      "Bourbon Kingdom of France",
       "Kingdom of Bavaria",
-      "Swiss Confederation",
-      "Kingdom of Belgium",
       "United Kingdom of Great Britain and Ireland",
-      "United Principalities of Moldavia and Wallachia"
+      "Principality of Wallachia",
+      "Principality of Moldavia"
     ]
   }
 }

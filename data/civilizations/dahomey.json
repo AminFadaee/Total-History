@@ -30,7 +30,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q797505",
+      "region": "Benin",
+      "name": "French Dahomey",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q104548",
@@ -45,7 +52,9 @@
       "name": "Béhanzin"
     }
   ],
-  "modern_countries": [],
+  "modern_countries": [
+    "Benin"
+  ],
   "overseas_countries": [],
   "borders": false,
   "summary": "A West African kingdom located within the present-day Republic of Benin that existed from approximately 1600 until 1904.",

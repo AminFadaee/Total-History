@@ -22,9 +22,18 @@
   "capitals": [],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q206696",
+      "region": "Switzerland",
+      "name": "Helvetic Republic",
+      "home": true
+    }
+  ],
   "key_figures": [],
-  "modern_countries": [],
+  "modern_countries": [
+    "Switzerland"
+  ],
   "overseas_countries": [],
   "borders": false,
   "summary": "A loose confederation of independent small states, initially within the Holy Roman Empire.",

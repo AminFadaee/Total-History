@@ -68,12 +68,6 @@
       "region": "Iran",
       "name": "Ghaznavid Empire",
       "home": true
-    },
-    {
-      "id": "Q273874",
-      "region": "Iraq",
-      "name": "Buyid Dynasty",
-      "home": false
     }
   ],
   "after": [
@@ -85,7 +79,7 @@
     },
     {
       "id": "Q189545",
-      "region": "Iraq",
+      "region": "Syria",
       "name": "Zengid dynasty",
       "home": false
     }
@@ -153,7 +147,7 @@
       1201
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Ray",
+    "home": "Hamadan",
     "labelled": [
       "Kimek-Kipchak confederation",
       "Ghaznavid Empire",
