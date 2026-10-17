@@ -6,7 +6,7 @@ import shapely
 from shapely.geometry import Point
 
 from page_in_history.polities import POLITY_ROOTS, Identity, PolityCatalog, dates
-from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, Cliopatria
+from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES
 from page_in_history.sources.wikidata import Entity
 from page_in_history.sources.wikipedia import country_infobox, display_name
 
@@ -78,7 +78,7 @@ class Lineages:
                 self._relabel(handover.name, None, handover.start, handover.end)
         self.dropped = self.catalog.reidentify(spans)
         frame = self.frame[self.frame.FromYear <= self.frame.ToYear].sort_values(["Name", "FromYear"])
-        self.catalog.cliopatria = Cliopatria(frame.reset_index(drop=True), self.catalog.cliopatria.spikes)
+        self.catalog.cliopatria = self.catalog.cliopatria.with_frame(frame.reset_index(drop=True))
         logger.info("Handed %d stretches of Cliopatria names to their successors; %d names do not match their state",
                     sum(handover.to is not None for handover in self.handovers), len(self.mismatched))
 

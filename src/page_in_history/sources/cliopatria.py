@@ -25,11 +25,13 @@ class Spike:
 
 
 class Cliopatria:
-    """Polity shapes by time step. Parenthesised groupings and alliances are left out."""
+    """Polity shapes by time step. Parenthesised groupings and alliances are left out as shapes; the groupings are kept
+    by name with the Wikidata item each stands for, so their members can be found ("(British Empire)": Q8680)."""
 
-    def __init__(self, frame: gpd.GeoDataFrame, spikes: list[Spike] | None = None):
+    def __init__(self, frame: gpd.GeoDataFrame, spikes: list[Spike] | None = None, groups: dict[str, str] | None = None):
         self.frame = frame
         self.spikes = self._drop_spikes() if spikes is None else spikes
+        self.groups = groups or {}
         self.by_name = dict(tuple(self.frame.groupby("Name", sort=False)))
 
     @classmethod
@@ -38,11 +40,17 @@ class Cliopatria:
         with zipfile.ZipFile(archive) as zipped:
             member = next(name for name in zipped.namelist() if name.endswith(".geojson"))
         frame = gpd.read_file(f"zip://{archive}!{member}")
-        frame = frame[(frame.Type == "POLITY") & ~frame.Name.str.startswith("(")].copy()
+        grouping = (frame.Type == "POLITY") & frame.Name.str.startswith("(")
+        groups = dict(zip(frame.Name[grouping], frame.Wikidata[grouping]))
+        frame = frame[(frame.Type == "POLITY") & ~grouping].copy()
         frame["geometry"] = frame.geometry.apply(make_valid).buffer(0)
         frame["FromYear"] = frame.FromYear.astype(int)
         frame["ToYear"] = frame.ToYear.astype(int)
-        return cls(frame.sort_values(["Name", "FromYear"]).reset_index(drop=True))
+        return cls(frame.sort_values(["Name", "FromYear"]).reset_index(drop=True), groups=groups)
+
+    def with_frame(self, frame: gpd.GeoDataFrame) -> "Cliopatria":
+        """The same source over a changed frame, such as one with polities renamed."""
+        return Cliopatria(frame, self.spikes, self.groups)
 
     def active(self, start: int, end: int) -> gpd.GeoDataFrame:
         return self.frame[(self.frame.ToYear >= start) & (self.frame.FromYear <= end)]
@@ -52,6 +60,14 @@ class Cliopatria:
 
     def rows(self, name: str) -> gpd.GeoDataFrame:
         return self.by_name.get(name, self.frame.iloc[:0])
+
+    def members(self, qid: str, year: int) -> list[str]:
+        """The polities Cliopatria files that year under a grouping it links to the item, such as the British Raj,
+        British Africa and Britain itself under its British Empire."""
+        groups = {name for name, item in self.groups.items() if item == qid}
+        shown = self.at(year)
+        within = shown.MemberOf.fillna("").str.split(";").map(lambda found: bool(groups.intersection(found)))
+        return sorted(set(shown.Name[within]))
 
     def _drop_spikes(self) -> list[Spike]:
         """A single time step far larger than both neighbours is a mislabelled shape, not a conquest."""

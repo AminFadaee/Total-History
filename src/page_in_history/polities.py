@@ -57,6 +57,8 @@ RULER_SCORE = 0.5
 RULER_RANK, OTHER_FIGURES = 2, 2
 MIN_REIGN_YEARS = 3
 COLONY_KINDS = {"Q1790360", "Q133156", "Q1351282"}
+COLONIAL_POWERS = {"Q1790360", "Q20181813"}  # colonial empire, colonial power
+BORDER_DEGREES = 0.1
 SPREAD_SHARE = 0.5
 KNOWN_NEIGHBOUR_LANGUAGES = 40
 LESS_KNOWN_NEIGHBOUR_LANGUAGES = 20
@@ -486,7 +488,7 @@ class PolityCatalog:
                     self.qids.pop(part, None)
                 self.add_drawn(Identity(name, entity.enwiki, qid, "state drawn through its dynasties"), entity)
         if renamed:
-            self.cliopatria = Cliopatria(frame.assign(Name=frame.Name.replace(renamed)), self.cliopatria.spikes)
+            self.cliopatria = self.cliopatria.with_frame(frame.assign(Name=frame.Name.replace(renamed)))
 
     def add_drawn(self, identity: Identity, entity: Entity) -> None:
         self.entities[identity.qid] = entity
@@ -607,7 +609,7 @@ class PolityCatalog:
                 kept[largest.name] = largest
         if renamed:
             frame = self.cliopatria.frame.assign(Name=self.cliopatria.frame.Name.replace(renamed))
-            self.cliopatria = Cliopatria(frame, self.cliopatria.spikes)
+            self.cliopatria = self.cliopatria.with_frame(frame)
             self.qids = {renamed.get(name, name): qid for name, qid in self.qids.items()}
         return kept
 
@@ -630,8 +632,8 @@ class PolityCatalog:
             self.identities[whole] = Identity(whole, identity.title, identity.qid, identity.how)
             self.qids[whole] = self.qids.pop(name)
         if named:
-            self.cliopatria = Cliopatria(self.cliopatria.frame.assign(Name=self.cliopatria.frame.Name.replace(named)),
-                                         self.cliopatria.spikes)
+            frame = self.cliopatria.frame
+            self.cliopatria = self.cliopatria.with_frame(frame.assign(Name=frame.Name.replace(named)))
 
     def _names_stretch(self, name: str, entity: Entity) -> bool:
         start, end = dates(entity)
@@ -725,6 +727,11 @@ class PolityBuilder:
         self.deck_polities: dict[str, Polity] = {}
         self.office_spans: dict[str, dict[str, list[tuple[int, int]]]] = {}
         self.deck: dict[str, str] = {}
+        self.wholes: dict[str, list[str]] = {}
+        for name, identity in catalog.identities.items():
+            entity = catalog.entities.get(identity.qid)
+            for whole in entity.ids("P361", preferred_only=False) if entity else []:
+                self.wholes.setdefault(whole, []).append(name)
 
     def select(self, region: str, start: int, end: int) -> list[Identity]:
         area = self.countries[self.countries.name == region].geometry.union_all()
@@ -1384,6 +1391,9 @@ class PolityBuilder:
         parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
                  if qid in self.catalog.by_qid and qid != identity.qid]
         map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
+        if drawn and (pieces := self._pieces(identity, map_year, parts)):
+            parts += pieces
+            extent = self._territory([identity.name, *parts], map_year).geometry.union_all()
         home = self._home(entity, period, capitals)
         anchor = self.succession.home(identity.qid, **home)
         modern = self._modern_countries(extent, capitals, entity.coordinates()) if drawn else ([], [])
@@ -1414,11 +1424,31 @@ class PolityBuilder:
         }
         return polity
 
+    def _pieces(self, identity: Identity, year: int, parts: list[str]) -> list[str]:
+        """What the map paints with the civilization in its year besides the parts Wikidata lists: the polities
+        Cliopatria files under its grouping for the same item, all of them for a colonial empire or power by its
+        Wikidata kind (the British Raj, British Africa and Britain itself in the British Empire, Portugal in the
+        Portuguese Empire) and otherwise those bordering its own territory, so a French regime does not repaint the
+        French colonial empire; and those whose item Wikidata files as part of it (French Indochina in the French
+        colonial empire)."""
+        shown = self.cliopatria.at(year)
+        members = self.cliopatria.members(identity.qid, year)
+        if not set(self.catalog.entities[identity.qid].ids("P31", preferred_only=False)) & COLONIAL_POWERS:
+            own = self._territory([identity.name, *parts], year).geometry.union_all().buffer(BORDER_DEGREES)
+            members = [name for name in members if shown[shown.Name == name].geometry.intersects(own).any()]
+        found = members + [name for name in self.wholes.get(identity.qid, []) if name in set(shown.Name)]
+        return [name for name in dict.fromkeys(found) if name not in (identity.name, *parts)]
+
+    def _territory(self, names: list[str], year: int) -> gpd.GeoDataFrame:
+        territory = self.cliopatria.at(year)
+        return territory[territory.Name.isin(names)]
+
     def _peak(self, name: str, parts: list[str], rows: gpd.GeoDataFrame, period: Period, capitals: list[dict]):
         """The year of the largest extent, looking only inside the confirmed period when there is one (a map that begins
         before it is shown from its first year) and up to 1945 where the civilization was drawn by then, counted with
-        the parts Wikidata lists (Spain for the Spanish Empire) and preferring years when the civilization holds a
-        capital, so that a year of foreign occupation is not shown; with that year's territory."""
+        the parts Wikidata lists (Spain for the Spanish Empire) and preferring years when the civilization holds more
+        of its capitals, so that a year of foreign occupation is not shown, nor one when its homeland is drawn as
+        another state (Macedon under Polyperchon in 318 BC); with that year's territory."""
         first = None
         if period.confirmed:
             within = rows[(rows.ToYear >= period.start.earliest) & (rows.FromYear <= period.end.latest)]
@@ -1429,11 +1459,10 @@ class PolityBuilder:
         points = [Point(capital["location"]) for capital in capitals if capital["location"]]
         snapshots = []
         for year in sorted({max(int(year), first) if first is not None else int(year) for year in rows.FromYear}):
-            territory = self.cliopatria.at(year)
-            territory = territory[territory.Name.isin([name, *parts])]
+            territory = self._territory([name, *parts], year)
             shape = territory.geometry.union_all()
-            holds = any(shape.buffer(CAPITAL_TOLERANCE_DEGREES).contains(point) for point in points)
-            snapshots.append((holds, float(territory.Area.sum()), year, shape))
+            held = sum(shape.buffer(CAPITAL_TOLERANCE_DEGREES).contains(point) for point in points)
+            snapshots.append((held, float(territory.Area.sum()), year, shape))
         _, _, year, shape = max(snapshots, key=lambda snapshot: snapshot[:3])
         return year, shape
 
@@ -2046,7 +2075,8 @@ class PolityBuilder:
         within 800 km of it, as the map groups it; its Wikidata location when it has no capital, as for Phoenicia),
         then those only overseas, such as the protectorates Cliopatria draws as the United Kingdom. A dependency
         counts as its sovereign at home but keeps its own name overseas (Greenland, Macao, New Caledonia). An empire
-        drawn without its homeland, its capital outside the territory (the British Empire), has no home to split off."""
+        drawn without its homeland, its capital outside the territory (the French colonial empire), has no home to split
+        off."""
         shape = equal_area_shape(geometry, self.cliopatria.frame.crs)
         found: dict[str, float] = {}
         units: dict[str, dict[str, float]] = {}
