@@ -32,22 +32,8 @@
     "Duchy of Lorraine",
     "Duchy of Bavaria"
   ],
-  "before": [
-    {
-      "id": "Q153080",
-      "region": "Germany",
-      "name": "East Franks",
-      "home": true
-    }
-  ],
-  "after": [
-    {
-      "id": "Q12548",
-      "region": "Germany",
-      "name": "Holy Roman Empire",
-      "home": true
-    }
-  ],
+  "before": [],
+  "after": [],
   "key_figures": [],
   "modern_countries": [
     "Germany",

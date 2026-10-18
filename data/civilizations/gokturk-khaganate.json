@@ -32,23 +32,23 @@
   "parts": [],
   "before": [
     {
-      "id": "Q26576",
-      "region": "Kyrgyzstan",
-      "name": "White Huns",
-      "home": true
-    },
-    {
       "id": "Q155361",
       "region": "Mongolia",
       "name": "Rouran Khaganate",
+      "home": true
+    },
+    {
+      "id": "Q26576",
+      "region": "Afghanistan",
+      "name": "White Huns",
       "home": false
     }
   ],
   "after": [
     {
-      "id": "Q874357",
-      "region": "Kyrgyzstan",
-      "name": "Western Turkic Khaganate",
+      "id": "Q2607292",
+      "region": "Mongolia",
+      "name": "Eastern Turkic Khaganate",
       "home": true
     }
   ],
@@ -97,7 +97,7 @@
       586
     ],
     "identity": "same item in Cliopatria and Wikipedia",
-    "home": "Suyab",
+    "home": "the spot held longest",
     "labelled": [
       "Sasanian Empire",
       "Northern Zhou",
