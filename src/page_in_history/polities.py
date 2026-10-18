@@ -10,6 +10,7 @@ import geopandas as gpd
 import shapely
 from shapely.geometry import Point
 
+from page_in_history.badged import BadgedInfoboxes
 from page_in_history.dates import Span
 from page_in_history.naming import slugify
 from page_in_history.sources import vital
@@ -63,6 +64,7 @@ BORDER_DEGREES = 0.1
 SPREAD_SHARE = 0.5
 KNOWN_NEIGHBOUR_LANGUAGES = 40
 LESS_KNOWN_NEIGHBOUR_LANGUAGES = 20
+BADGED_LANGUAGES = 2
 SUCCESSION_GAP_YEARS = 100
 HOME_OVERLAP_YEARS = 5
 CONSECUTIVE_YEARS = 5
@@ -724,6 +726,7 @@ class PolityBuilder:
         self.cliopatria = catalog.cliopatria
         self.wikipedia = catalog.wikipedia
         self.wikidata = catalog.wikidata
+        self.badged = BadgedInfoboxes(self.wikipedia, self.wikidata)
         self.countries = equal_area(countries)
         self.present = int(self.cliopatria.frame.ToYear.max())
         self.succession = RegionalSuccession(self.cliopatria.frame, catalog.qids, countries, self._stated, self._corroborated,
@@ -1048,7 +1051,8 @@ class PolityBuilder:
         other regions. An answer from the other side or a leader fills the
         home only when the two overlap by five years at most, or by 30 when it held land near the home at the change,
         and, when both are on the maps, it held the home point at some time. A home still empty takes a state outside the
-        deck that the sources name and that the maps or its place put at the home (see _stated_neighbour)."""
+        deck that the sources name and that the maps or its place put at the home (see _stated_neighbour); failing
+        that, the state the quality-badged articles on it agree on (see _badged_neighbours)."""
         deck = self.deck_polities = {polity.id: polity for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
@@ -1085,6 +1089,7 @@ class PolityBuilder:
         named = self.wikidata.language_editions(sorted({other for polity in polities for later in (False, True)
                                                         for other in self._followers(polity.id, later)}))
         edges_of = {polity.id: self._capital_edges(self.catalog.entities[polity.id], polity.period) for polity in polities}
+        unanswered: list[tuple[Polity, str]] = []
         for polity in polities:
             for side in ("before", "after"):
                 before = side == "before"
@@ -1114,10 +1119,13 @@ class PolityBuilder:
                         and not (side == "after" and self.succession.partitioned(polity.id, self._span(polity.id))):
                     home = self._stated_neighbour(polity, side, homes[polity.id], anchors[polity.id],
                                                   edges_of[polity.id][side == "after"], named)
+                    unanswered += [] if home else [(polity, side)]
                 others = [edge for edge in others if edge not in home]
                 plain = lambda edge: {key: value for key, value in edge.items() if key not in ("main", "reserved")}
                 setattr(polity, side, [{**plain(edge), "home": True} for edge in home]
                         + [{**plain(edge), "home": False} for edge in others][:SUCCESSION_SLOTS - 1])
+        for (qid, side), edge in self._badged_neighbours(unanswered, anchors, homes).items():
+            setattr(deck[qid], side, [{**edge, "home": True}] + getattr(deck[qid], side))
 
     def _stated_neighbour(self, polity: Polity, side: str, region: str, anchor: Anchor | None, edge,
                           editions: dict[str, int]) -> list[dict]:
@@ -1168,10 +1176,54 @@ class PolityBuilder:
         return [{"id": other, "region": region, "name": name} for _, _, _, name, other in sorted(found)[:1]]
 
     def _is_state(self, qid: str) -> bool:
+        return self._stateful(self.wikidata.kinds([qid], NEIGHBOUR_ROOTS)[qid])
+
+    @staticmethod
+    def _stateful(kinds: set[str]) -> bool:
         """Anything but a subdivision, an event, a territory that is only occupied or a city that is not also a city-state."""
-        kinds = self.wikidata.kinds([qid], NEIGHBOUR_ROOTS)[qid]
         return not kinds & {"subdivision", "event"} and not ("occupied territory" in kinds and not kinds & STATE_KINDS) \
             and not ("settlement" in kinds and "city-state" not in kinds)
+
+    def _state_like(self, qid: str, kinds: set[str]) -> bool:
+        """A state by its kinds, or in the deck, and not a subdivision, an event or a city (not a period, a culture or
+        a people, which Wikidata gives no state kind)."""
+        return self._stateful(kinds) and (bool(kinds & STATE_KINDS) or qid in self.deck_polities)
+
+    def _badged_neighbours(self, sides: list[tuple[Polity, str]], anchors: dict[str, Anchor | None],
+                           homes: dict[str, str]) -> dict[tuple[str, str], dict]:
+        """For home sides still empty, the state that the civilization's quality-badged Wikipedia articles name first as
+        its predecessor (successor) in their infoboxes, when at least two languages agree on it and no other such state
+        does as often (see BadgedInfoboxes). It must be in the deck or known in at least 20 languages, a state by its
+        kinds, able to have followed it (see _follows), not named like it, and not yet an answer on that side; drawn on
+        the maps, it must have its own home in the region or have held the civilization's home."""
+        votes = self.badged.votes(sorted({polity.id for polity, _ in sides}))
+        named = {(polity.id, side): {other: languages for other, languages in votes[polity.id][side].items()
+                                     if len(languages) >= BADGED_LANGUAGES} for polity, side in sides}
+        chosen = sorted({other for found in named.values() for other in found})
+        items = self.wikidata.entities(chosen)
+        self.names.update({other: item for other, item in items.items() if other not in self.names})
+        editions, kinds = self.wikidata.language_editions(chosen), self.wikidata.kinds(chosen, NEIGHBOUR_ROOTS)
+        agreed = {}
+        for polity, side in sides:
+            before, answered = side == "before", {edge["id"] for edge in getattr(polity, side)}
+            pair = lambda other: (other, polity.id) if before else (polity.id, other)
+            fitting = {other: languages for other, languages in named[polity.id, side].items()
+                       if homes[polity.id] and other in items and other not in answered
+                       and (other in self.deck_polities or editions.get(other, 0) >= LESS_KNOWN_NEIGHBOUR_LANGUAGES)
+                       and self._state_like(other, kinds[other]) and not self._renamed(polity.id, other)
+                       and self._in_order(*pair(other), before) and self._follows(*pair(other), before)
+                       and self._at_home(other, homes[polity.id], anchors[polity.id], anchors)}
+            ranked = sorted(fitting, key=lambda other: -len(fitting[other]))
+            if ranked and (len(ranked) == 1 or len(fitting[ranked[0]]) > len(fitting[ranked[1]])):
+                agreed[polity.id, side] = {"id": ranked[0], "region": homes[polity.id], "name": self._name(ranked[0])}
+        return agreed
+
+    def _at_home(self, other: str, region: str, anchor: Anchor | None, anchors: dict[str, Anchor | None]) -> bool:
+        """A deck state drawn on the maps may stand in the region when its own home is there or it held the
+        civilization's home (not Sweden-Norway after Denmark-Norway)."""
+        if other not in self.deck_polities or not self.succession.drawn(other):
+            return True
+        return bool(anchors.get(other) and anchors[other].region == region) or bool(anchor and self.succession.held(other, anchor.point, 0))
 
     def _fills_home(self, polity: Polity, other: str, side: str, point) -> bool:
         """An answer from the other side or a leader may stand in the home region when the two overlap by five years at

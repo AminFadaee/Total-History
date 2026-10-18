@@ -13,6 +13,7 @@ CIRCA = "Q5727902"
 SOURCING_CIRCUMSTANCES = "P1480"
 YEAR_PRECISION = 9
 NOT_WIKIPEDIAS = {"commonswiki", "specieswiki", "metawiki", "wikidatawiki", "mediawikiwiki", "sourceswiki"}
+QUALITY_BADGES = {"Q17437796", "Q17437798", "Q17559452", "Q17506997", "Q51759403"}
 
 
 @dataclass(frozen=True)
@@ -199,6 +200,22 @@ class Wikidata:
             for qid, entity in self.http.json(API, params, namespace="sitelinks").get("entities", {}).items():
                 found[qid] = sum(1 for site in entity.get("sitelinks", {}) if site.endswith("wiki")
                                  and site not in NOT_WIKIPEDIAS)
+        return found
+
+    def quality_articles(self, ids: list[str]) -> dict[str, dict[str, str]]:
+        """The Wikipedia articles on each item that carry a quality badge (featured, good or recommended article, featured
+        or good list), as the title in each language edition, cached per item."""
+        return self.http.per_key("quality-articles", ids, self._fetch_quality_articles)
+
+    def _fetch_quality_articles(self, ids: list[str]) -> dict[str, dict[str, str]]:
+        unique = sorted(set(ids))
+        found: dict[str, dict[str, str]] = {}
+        for start in range(0, len(unique), 50):
+            params = {"action": "wbgetentities", "ids": "|".join(unique[start : start + 50]), "props": "sitelinks",
+                      "format": "json"}
+            for qid, entity in self.http.json(API, params, namespace="sitelinks").get("entities", {}).items():
+                found[qid] = {site.removesuffix("wiki"): link["title"] for site, link in entity.get("sitelinks", {}).items()
+                              if site.endswith("wiki") and site not in NOT_WIKIPEDIAS and QUALITY_BADGES & set(link.get("badges", []))}
         return found
 
     def subclass_of(self, classes: list[str], roots: set[str], depth: int = 12) -> set[str]:

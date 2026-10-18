@@ -20,6 +20,8 @@ BEFORE_CHRIST = re.compile(r"\bBCE?\b")
 SENTENCE_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z\[])")
 CAPITAL_WORD = re.compile(r"\bcapital\b", re.IGNORECASE)
 API = "https://en.wikipedia.org/w/api.php"
+EDITION_API = "https://{}.wikipedia.org/w/api.php"
+EDITION_HOSTS = {"be_x_old": "be-tarask"}
 BATCH = 50
 EXTRACT_BATCH = 20
 INFOBOXES = ("infobox country", "infobox former country")
@@ -32,6 +34,27 @@ BRACES = re.compile(r"\{\{|\}\}")
 REDIRECT = re.compile(r"\s*#REDIRECT\s*\[\[([^\]|#]+)\]\]", re.IGNORECASE)
 DASH_TEMPLATES = ("snd", "ndash", "spaced ndash", "spnd", "sndash", "mdash", "spaced en dash", "en dash")
 DISAMBIGUATOR = re.compile(r"\s*\([^)]*\)$")
+SUCCESSION_FIELDS = (r"p\d+", r"s\d+")
+EDITION_SUCCESSION_FIELDS = {
+    "ar": (r"بلد سابق\d+", r"بلد لاحق\d+"),
+    "arz": (r"بلد سابق\d+", r"بلد لاحق\d+"),
+    "cs": (r"před \d+", r"po \d+"),
+    "de": (r"vorgänger", r"nachfolger"),
+    "eo": (r"antaŭ \d+", r"post \d+"),
+    "et": (r"eelnes", r"järgnes"),
+    "eu": (r"a\d+", r"o\d+"),
+    "fi": (r"edeltäjät", r"seuraajat"),
+    "hu": (r"előd ?\d+|elődállamok", r"utód ?\d+|utódállamok"),
+    "hy": (r"նախորդ\d+", r"հաջորդ\d+"),
+    "it": (r"stato precedente", r"stato successivo"),
+    "ja": (r"先代\d+", r"次代\d+"),
+    "nl": (r"voor\d+", r"na\d+"),
+    "no": (r"f\d+|foregående", r"e\d+|etterfølgende"),
+    "sk": (r"před \d+", r"po \d+"),
+    "sr": (r"претходник\d+", r"следбеник\d+"),
+    "sv": (r"tidigare\d+", r"senare\d+"),
+    "zh": (r"前\d+", r"後\d+"),
+}
 
 
 @dataclass(frozen=True)
@@ -72,25 +95,31 @@ def place_name(title: str) -> str:
     return re.sub(r" city$", "", display_name(title).split(",")[0])
 
 
+def edition_api(language: str) -> str:
+    """The API of a language edition, from Wikidata's site code (zh_classical, be_x_old)."""
+    return API if language == "en" else EDITION_API.format(EDITION_HOSTS.get(language, language.replace("_", "-")))
+
+
 class Wikipedia:
     def __init__(self, http: Http):
         self.http = http
 
-    def resolve(self, titles: list[str]) -> dict[str, Page]:
+    def resolve(self, titles: list[str], language: str = "en") -> dict[str, Page]:
         """Follow normalisation and redirects; map each requested title to its article and Wikidata item. Cached per
-        title."""
+        title, in a language edition if given."""
         wanted = [title for title in titles if title and "|" not in title]
-        found = self.http.per_key("page-by-title", wanted, self._fetch_pages)
+        namespace = "page-by-title" if language == "en" else f"page-by-title-{language}"
+        found = self.http.per_key(namespace, wanted, lambda missing: self._fetch_pages(missing, edition_api(language)))
         return {title: Page(*page) for title, page in found.items()}
 
-    def _fetch_pages(self, titles: list[str]) -> dict[str, list]:
+    def _fetch_pages(self, titles: list[str], url: str = API) -> dict[str, list]:
         unique = sorted(set(titles))
         found: dict[str, list] = {}
         for start in range(0, len(unique), BATCH):
             batch = unique[start : start + BATCH]
             params = {"action": "query", "titles": "|".join(batch), "prop": "pageprops", "ppprop": "wikibase_item",
                       "redirects": 1, "format": "json", "formatversion": 2}
-            query = self.http.json(API, params, namespace="wikipedia")["query"]
+            query = self.http.json(url, params, namespace="wikipedia")["query"]
             normalized = {item["from"]: item["to"] for item in query.get("normalized", [])}
             redirects = {item["from"]: item["to"] for item in query.get("redirects", [])}
             pages = {page["title"]: page for page in query.get("pages", [])}
@@ -121,6 +150,31 @@ class Wikipedia:
             for page in self.http.json(API, params, namespace="wikipedia")["query"]["pages"]:
                 if "revisions" in page:
                     found[page["title"]] = page["revisions"][0]["slots"]["main"]["content"]
+        return found
+
+    def leads(self, titles: list[str], language: str) -> dict[str, str]:
+        """The source text of each article's opening section, where its infobox is, in a language edition; cached per
+        title, a redirect followed."""
+        namespace = f"lead-by-title-{language}"
+        return self.http.per_key(namespace, titles, lambda missing: self._fetch_leads(missing, edition_api(language)))
+
+    def _fetch_leads(self, titles: list[str], url: str) -> dict[str, str]:
+        unique = sorted(set(titles))
+        found: dict[str, str] = {}
+        for start in range(0, len(unique), EXTRACT_BATCH):
+            batch = unique[start : start + EXTRACT_BATCH]
+            params = {"action": "query", "titles": "|".join(batch), "prop": "revisions", "rvprop": "content",
+                      "rvslots": "main", "rvsection": 0, "redirects": 1, "format": "json", "formatversion": 2}
+            query = self.http.json(url, params, namespace="wikipedia")["query"]
+            moved = {item["from"]: item["to"] for item in query.get("normalized", [])}
+            moved |= {item["from"]: item["to"] for item in query.get("redirects", [])}
+            pages = {page["title"]: page["revisions"][0]["slots"]["main"]["content"]
+                     for page in query["pages"] if "revisions" in page}
+            for title in batch:
+                target = moved.get(title, title)
+                text = pages.get(moved.get(target, target))
+                if text is not None:
+                    found[title] = text
         return found
 
     def categories(self, titles: list[str]) -> dict[str, list[str]]:
@@ -320,6 +374,28 @@ def ruler_succession(wikitext: str) -> dict[str, list[str]]:
             return {key: next((link_targets(fields[name]) for name in (key, f"{key}1") if name in fields
                                and link_targets(fields[name])), []) for key in ("predecessor", "successor")}
     return {"predecessor": [], "successor": []}
+
+
+def lead_succession(wikitext: str, language: str) -> tuple[str | None, str | None]:
+    """The first predecessor and the first successor listed by the country infobox in the opening section of an article
+    in a language edition: the lowest-numbered field of each kind, which holds a link or the bare title the infobox
+    links itself, and of several links the first. The field names are those the edition's former-country infoboxes
+    use, beside the English p1 and s1 that most share."""
+    patterns = [re.compile("|".join(filter(None, pair))) for pair in
+                zip(SUCCESSION_FIELDS, EDITION_SUCCESSION_FIELDS.get(language, ("", "")))]
+    for template in mw.parse(wikitext).filter_templates(recursive=False):
+        fields = {re.sub(r"[\s_]+", " ", str(param.name).strip().casefold()): param.value for param in template.params}
+        found = tuple(first_listed(fields, pattern) for pattern in patterns)
+        if any(found):
+            return found
+    return None, None
+
+
+def first_listed(fields: dict[str, Wikicode], pattern: re.Pattern) -> str | None:
+    for key in sorted((key for key in fields if pattern.fullmatch(key)), key=lambda key: int(re.sub(r"\D", "", key) or 0)):
+        if targets := link_targets(fields[key]) or bare_title(fields[key]):
+            return targets[0]
+    return None
 
 
 def person_titles(wikitext: str) -> list[str]:
