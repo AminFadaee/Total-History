@@ -1235,17 +1235,23 @@ class PolityBuilder:
                        and (other in self.deck_polities or editions.get(other, 0) >= LESS_KNOWN_NEIGHBOUR_LANGUAGES)
                        and self._state_like(other, kinds[other]) and not self._renamed(polity.id, other)
                        and self._in_order(*pair(other), before) and self._follows(*pair(other), before)
-                       and self._at_home(other, homes[polity.id], anchors[polity.id], anchors)}
+                       and self._at_home(other, homes[polity.id], anchors[polity.id], anchors,
+                                      (self._span(polity.id) or (None, None))[0 if before else 1])}
             ranked = sorted(fitting, key=lambda other: -len(fitting[other]))
             if ranked and (len(ranked) == 1 or len(fitting[ranked[0]]) > len(fitting[ranked[1]])):
                 agreed[polity.id, side] = {"id": ranked[0], "region": homes[polity.id], "name": self._name(ranked[0])}
         return agreed
 
-    def _at_home(self, other: str, region: str, anchor: Anchor | None, anchors: dict[str, Anchor | None]) -> bool:
+    def _at_home(self, other: str, region: str, anchor: Anchor | None, anchors: dict[str, Anchor | None], moment: int | None) -> bool:
         """A deck state drawn on the maps may stand in the region when its own home is there or it held the
-        civilization's home (not Sweden-Norway after Denmark-Norway)."""
-        if other not in self.deck_polities or not self.succession.drawn(other):
+        civilization's home (not Sweden-Norway after Denmark-Norway). A state outside the deck drawn on the maps must
+        have held the home or land within 2 degrees of it within 30 years of the moment (not the Taifa of Granada
+        before the Almoravids in Morocco)."""
+        if not self.succession.drawn(other):
             return True
+        if other not in self.deck_polities:
+            return anchor is None or moment is None or self.succession.held(other, anchor.point, 0) \
+                or self.succession.near(other, moment, anchor.point)
         return bool(anchors.get(other) and anchors[other].region == region) or bool(anchor and self.succession.held(other, anchor.point, 0))
 
     def _agreed_neighbours(self, sides: list[tuple[Polity, str]], anchors: dict[str, Anchor | None], homes: dict[str, str],
@@ -1282,7 +1288,8 @@ class PolityBuilder:
             candidates = [other for other in sorted({other for others in found.values() for other in others})
                           if span and homes[polity.id] and other != polity.id and other not in answered and usable(other)
                           and not self._renamed(polity.id, other) and self._in_order(*pair(other), before)
-                          and self._follows(*pair(other), before) and self._at_home(other, homes[polity.id], anchors[polity.id], anchors)]
+                          and self._follows(*pair(other), before)
+                          and self._at_home(other, homes[polity.id], anchors[polity.id], anchors, span[0 if before else 1])]
             states = self._one_state_each(candidates, items, editions)
             votes = self._votes(polity, side, states, found, items, anchors[polity.id], span, texts) if states else []
             if chosen := agreed(votes, len(states)):

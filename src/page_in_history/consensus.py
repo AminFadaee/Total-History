@@ -5,6 +5,7 @@ MIN_SUPPORT = 0.3
 MIN_VOTES = 3
 MIN_LEAD = 2
 STRONG_SUPPORT = 0.5
+STATEMENT_VOTERS = 3
 
 
 def ballot(support: dict[str, float]) -> dict[str, Fraction]:
@@ -17,10 +18,12 @@ def ballot(support: dict[str, float]) -> dict[str, Fraction]:
 
 def agreed(supports: list[dict[str, float]], candidates: int) -> str | None:
     """The candidate at least three voters put first, and, among several candidates, by at least two votes more than
-    the runner-up; at least one voter must back it with half of its support or more, not three weak signals."""
+    the runner-up; at least one voter must back it with half of its support or more, not three weak signals, and one
+    of the voters after the statements (the first three, which restate one Wikidata or infobox link) must back it too."""
     votes = Counter()
     for support in supports:
         votes.update(ballot(support))
     (best, top), (_, second) = (votes.most_common(2) + [(None, 0)] * 2)[:2]
     strong = any(support.get(best, 0) >= STRONG_SUPPORT for support in supports)
-    return best if top >= MIN_VOTES and strong and (candidates < 2 or top - second >= MIN_LEAD) else None
+    checked = best in {candidate for support in supports[STATEMENT_VOTERS:] for candidate in ballot(support)}
+    return best if top >= MIN_VOTES and strong and checked and (candidates < 2 or top - second >= MIN_LEAD) else None
