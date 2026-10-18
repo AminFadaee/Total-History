@@ -107,6 +107,7 @@ DYNASTY = "Q164950"
 GENERIC_WORDS = {"sultanate", "empire", "kingdom", "dynasty", "of", "the", "caliphate", "republic", "state"}
 LASTING_AREA_YEARS, LASTING_LANGUAGES, COLONIAL_ERA = 12_500_000, 30, 1500
 CORE_AREA_YEARS = 150_000_000
+HOUSE_WORDS = {"house", "of", "the", "dynasty"}
 EVENT_KINDS = {"Q198", "Q178561", "Q180684", "Q10931", "Q131569"}
 EVENT_LANGUAGES = 30
 CORE_EVENTS = 15
@@ -242,6 +243,20 @@ def stems(name: str) -> set[str]:
     'Babylon' meets 'Babylonia' and 'Egyptian' meets 'Egypt': {'ottom'} for the Ottoman Empire."""
     words = set(re.findall(r"\w+", name.lower())) - SAME_NAME_WORDS - {"empire", "republic", "state", "dynasty", "and", "from", "to"}
     return {word[:STEM_LETTERS] for word in words if not word.isdigit()}
+
+
+def name_words(name: str | None) -> set[str]:
+    return set(re.findall(r"\w+", (name or "").lower()))
+
+
+def lifespan(entity) -> tuple[int, int] | None:
+    starts = [year.earliest for year in entity.years("P571") + entity.years("P580")]
+    ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
+    return (min(starts), max(ends)) if starts and ends else None
+
+
+def overlap(first: tuple[int, int] | None, second: tuple[int, int] | None) -> bool:
+    return bool(first and second and max(first[0], second[0]) <= min(first[1], second[1]))
 
 
 def same_name(first: str, second: str) -> bool:
@@ -1897,12 +1912,15 @@ class PolityBuilder:
         for the rest, which a learner may suspend. A state counts as listed when a listed dynasty is its own, by being
         the state's country or the name the state is named after (the Safavid dynasty for Safavid Iran), when its name
         is that of a listed people or order once the kind of state is set aside (the Aztecs for the Aztec Empire, the
-        Teutonic Order for its state), when the catalogue left out a listed people as its own (the Göktürks for the
+        Teutonic Order for its state), when its name holds that of a listed dynasty that lived at the same time (the House of Habsburg for the
+        Habsburg Monarchy), when the catalogue left out a listed people as its own (the Göktürks for the
         Göktürk Khaganate), or when it is a part of a listed civilization that is not in the deck itself (the Roman
         Republic and Empire of Ancient Rome) or of a listed era that names it among its parts (Shu Han of the Three
-        Kingdoms). A people without a capital, rulers or a confirmed period (the Goths, the Saxons; not the Hittites or
-        the Huns), a country that still exists, whose item is today's country (the Kingdom of Sweden, Mexico), and an
-        era with no capital or confirmed period, whatever figures it has (the Viking Age), are Extended."""
+        Kingdoms). A people, or a civilization with no map, without a capital, rulers or a confirmed period (the Goths,
+        the Saxons, Troy; not the Hittites or the Huns), a country that still exists, whose item is today's country (the Kingdom of Sweden, Mexico), and an
+        era with no capital or confirmed period, whatever figures it has (the Viking Age), are Extended. An Extended state whose neighbouring phase, the one before or after it in Wikidata
+        under the same name once the kind of state is set aside, is Core or Essential becomes Core (the Caliphate of
+        Córdoba beside the Emirate of Córdoba), unless it is one of those excluded above."""
         qids = [polity.id for polity in polities]
         deck = set(qids)
         levels = self.catalog.vital_levels
@@ -1930,6 +1948,8 @@ class PolityBuilder:
             for whole in self.catalog.entities[polity.id].ids("P361", preferred_only=False):
                 if whole in topics:
                     through[polity.id] = min(levels[whole], through.get(polity.id, levels[whole]))
+        houses = {qid: (words, lifespan(entity)) for qid, entity in listed.items()
+                  if (words := name_words(entity.label) - HOUSE_WORDS)}
         kinds = self.wikidata.kinds(qids, TIER_KINDS | {SOVEREIGN_STATE: "sovereign", PERIOD: "period"})
         colonies = self.wikidata.kinds(qids, KINDS)
         lesser = []
@@ -1939,6 +1959,8 @@ class PolityBuilder:
             named += [levels[qid] for name in (polity.name, entity.enwiki)
                       if name and (qid := named_for.get(frozenset(stems(name))))]
             named += [levels[qid] for qid, states in self.catalog.peoples.items() if polity.id in states and qid in levels]
+            named += [levels[qid] for qid, (words, span) in houses.items()
+                      if words <= name_words(polity.name) | name_words(entity.enwiki) and overlap(span, lifespan(entity))]
             level = min([levels.get(polity.id, 9), through.get(polity.id, 9), *named])
             rows = self.cliopatria.rows(polity.name)
             if level == MAX_VITAL_LEVEL + 1 and area_years(rows) >= CORE_AREA_YEARS \
@@ -1947,7 +1969,7 @@ class PolityBuilder:
             found = kinds.get(polity.id, set())
             era = "period" in found and "state" not in found
             ruled = bool(polity.capitals or polity.period.confirmed or (polity.key_figures and not era))
-            people = found - {"sovereign"} in ({"people"}, {"period"}, {"people", "period"}) and not ruled
+            people = not ruled and (not polity.borders or found - {"sovereign"} in ({"people"}, {"period"}, {"people", "period"}))
             present = "sovereign" in found and not entity.years("P576") + entity.years("P582")
             if level > MAX_VITAL_LEVEL or people or present:
                 polity.tier = Tier.EXTENDED
@@ -1960,6 +1982,21 @@ class PolityBuilder:
         for polity in lesser:
             if sum(editions.get(event, 0) >= EVENT_LANGUAGES for event in events[polity.id]) >= CORE_EVENTS:
                 polity.tier = Tier.CORE
+        self.promote_sibling_phases(polities, {polity.id for polity in polities if polity.tier is Tier.EXTENDED and polity not in lesser})
+
+    def promote_sibling_phases(self, polities: list[Polity], excluded: set[str]) -> None:
+        by_id = {polity.id: polity for polity in polities}
+        neighbours: dict[str, set[str]] = {qid: set() for qid in by_id}
+        for polity in polities:
+            for prop in ("P155", "P156", "P1365", "P1366"):
+                for other in self.catalog.entities[polity.id].ids(prop, preferred_only=False):
+                    if other in by_id:
+                        neighbours[polity.id].add(other)
+                        neighbours[other].add(polity.id)
+        core = {qid for qid, polity in by_id.items() if polity.tier is not Tier.EXTENDED}
+        for qid in neighbours.keys() - core - excluded:
+            if any(stems(by_id[qid].name) == stems(by_id[other].name) for other in neighbours[qid] & core):
+                by_id[qid].tier = Tier.CORE
 
     def choose_key_figures(self, polities: list[Polity], figures: list, scores: PowerScores) -> None:
         """A civilization's key figures, once its figures are known: up to four people, in order of their time.
