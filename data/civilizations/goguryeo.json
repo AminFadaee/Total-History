@@ -46,7 +46,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q28511",
+      "region": "China",
+      "name": "Buyeo",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q9683",

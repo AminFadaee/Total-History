@@ -34,8 +34,22 @@
     "British Raj",
     "United Kingdom of Great Britain and Ireland"
   ],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q179876",
+      "region": "United Kingdom",
+      "name": "Kingdom of England",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q145",
+      "region": "United Kingdom",
+      "name": "United Kingdom",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q7207",
