@@ -84,7 +84,7 @@ class RegionalSuccession:
         self.equal_area = equal_area
 
     def neighbours(self, qid: str, capitals: list[dict], edges: tuple, judge: Judge, years: tuple | None = None,
-                   places: tuple = ()) -> tuple[list[dict], list[dict], str]:
+                   places: tuple = (), unplaced: bool = False) -> tuple[list[dict], list[dict], str]:
         """Before and after, the main answer judged at the civilization's home and named by its country. When Wikidata
         dates the capitals, a side is judged at the capital held at that end if it lies in the same country (Ming's
         successor at Beijing, not at its first capital Nanjing); one in another country gives an answer for that
@@ -95,18 +95,20 @@ class RegionalSuccession:
         rows = self.frame[self.frame.qid == qid]
         if rows.empty:
             return [], [], ""
-        anchor = self._anchor(rows, capitals, years, places)
+        anchor = self._anchor(rows, capitals, years, places, unplaced)
         located = [Point(capital["location"]) for capital in capitals if capital["location"]]
-        if not anchor.place and located and anchor.point.distance(located[0]) > HOMELAND_DEGREES:
+        if not anchor.place and located and anchor.region == self._country(located[0]) \
+                and anchor.point.distance(located[0]) > HOMELAND_DEGREES:
             return [], [], ""
         before = self._sides(qid, rows, edges[0], anchor, True, judge)
         after = [] if self.partitioned(qid, judge.years(qid)) else self._sides(qid, rows, edges[1], anchor, False, judge)
         return before, after, anchor.place
 
-    def home(self, qid: str, capitals: list[dict], years: tuple | None = None, places: tuple = ()) -> Anchor | None:
+    def home(self, qid: str, capitals: list[dict], years: tuple | None = None, places: tuple = (),
+             unplaced: bool = False) -> Anchor | None:
         """The civilization's home, as its before and after are judged: its point and today's country there."""
         rows = self.frame[self.frame.qid == qid]
-        return None if rows.empty else self._anchor(rows, capitals, years, places)
+        return None if rows.empty else self._anchor(rows, capitals, years, places, unplaced)
 
     def partitioned(self, qid: str, span: tuple | None) -> bool:
         """Whether the year after its last map its land was held in large parts by three or more states, unless it
@@ -208,13 +210,16 @@ class RegionalSuccession:
         return bool(years) and years[1] - years[0] + 1 >= MIN_HOLD_YEARS
 
     def _anchor(self, rows: gpd.GeoDataFrame, capitals: list[dict], years: tuple | None = None,
-                places: tuple = ()) -> Anchor:
+                places: tuple = (), unplaced: bool = False) -> Anchor:
         """The capital it held longest within its years: one Wikidata dates by the years of its terms (Székesfehérvár for
         Hungary, not Timișoara, capital for eight years), one it does not by the years the maps show it held, but no more
         than the years the dated ones leave (Vienna for Austria-Hungary). Without a capital held, the first place
         Wikidata gives as its capital within reach of its territory (Frankfurt for the German Confederation), else the
         spot held for the most years; an empire Cliopatria draws without its homeland is still named by its capital's
-        country ("in Spain", not "in Cuba")."""
+        country ("in Spain", not "in Cuba"). When no capital is dated and the infobox names first one that no source
+        places, the one held is a later seat: if it lies in another country than the spot held for the most years and
+        over 10 degrees from it, the home is that spot (the Göktürk Khaganate in Mongolia, not at Suyab, seat of its
+        western half)."""
         first, last = years if years else (int(rows.FromYear.min()), int(rows.ToYear.max()))
         held = []
         for capital in capitals:
@@ -229,6 +234,10 @@ class RegionalSuccession:
         if held:
             _, place, point, near = max(held, key=lambda found: found[0])
             point = self._on_land(point, near)
+            if unplaced and not any(capital.get("dated") for capital in capitals):
+                heartland = self._heartland(rows)
+                if point.distance(heartland) > HOMELAND_DEGREES and self._country(point) != self._country(heartland):
+                    return Anchor(heartland, "", self._country(heartland))
             return Anchor(point, place, self._country(point))
         located = [Point(capital["location"]) for capital in capitals if capital["location"]]
         if located:

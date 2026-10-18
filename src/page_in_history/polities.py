@@ -63,7 +63,7 @@ BORDER_DEGREES = 0.1
 SPREAD_SHARE = 0.5
 KNOWN_NEIGHBOUR_LANGUAGES = 40
 LESS_KNOWN_NEIGHBOUR_LANGUAGES = 20
-MIRROR_GAP_YEARS = 100
+SUCCESSION_GAP_YEARS = 100
 HOME_OVERLAP_YEARS = 5
 CONSECUTIVE_YEARS = 5
 SUCCESSION_SLOTS = 3
@@ -998,14 +998,18 @@ class PolityBuilder:
         return found
 
     def _home(self, entity: Entity, period: Period, capitals: list[dict]) -> dict:
-        """What the home is found from: the capitals and their years, the years to weigh them in, and the places
-        Wikidata gives as its capital or location, for a civilization with no capital in hand."""
+        """What the home is found from: the capitals and their years, the years to weigh them in, the places Wikidata
+        gives as its capital or location, for a civilization with no capital in hand, and whether the infobox names
+        first a capital no source places."""
         places = [Point(self.names[qid].coordinates()) for qid in entity.ids("P36", preferred_only=False)
                   if qid in self.names and self.names[qid].coordinates()]
         if entity.coordinates():
             places.append(Point(entity.coordinates()))
         years = (period.start.earliest, period.end.latest) if period.confirmed else None
-        return {"capitals": self._capital_terms(entity, period, capitals), "years": years, "places": tuple(places)}
+        infobox = self.infoboxes.get(entity.id)
+        first = next(iter(self._qids(infobox.capital)), None) if infobox else None
+        return {"capitals": self._capital_terms(entity, period, capitals), "years": years, "places": tuple(places),
+                "unplaced": first is not None and not self._capital(first)["location"]}
 
     def _capital_edges(self, entity: Entity, period: Period) -> tuple:
         """Where its first and last capitals stood, when Wikidata or the infobox dates at least two of them within its
@@ -1038,9 +1042,10 @@ class PolityBuilder:
         within 30 years and held the civilization's home on the map (Timurid → Mughal through Babur; not Great Britain
         before Hanover, a shared crown). Then the same links seen from the other side (Achaemenid before
         Macedonia). Every answer must be able to have followed: a predecessor began before the civilization, a
-        successor ended after it, neither was a part the other absorbed nor a phase of it under the same name. One
-        civilization per region, at most three a side. The first, asked as its own card, is in its home region (today's country at
-        its longest-held capital); the others are other regions. An answer from the other side or a leader fills the
+        successor ended after it, the later began within a century of the earlier's end, neither was a part the other
+        absorbed nor a phase of it under the same name. One civilization per region, at most three a side. The first,
+        asked as its own card, is in its home region (today's country at its longest-held capital); the others are
+        other regions. An answer from the other side or a leader fills the
         home only when the two overlap by five years at most, or by 30 when it held land near the home at the change,
         and, when both are on the maps, it held the home point at some time. A home still empty takes a state outside the
         deck that the sources name and that the maps or its place put at the home (see _stated_neighbour)."""
@@ -1060,7 +1065,7 @@ class PolityBuilder:
                           followers=self._followers, home=lambda other: anchors[other].region if anchors.get(other) else None)
             before, after, _ = self.succession.neighbours(
                 polity.id, homes_from[polity.id]["capitals"], self._capital_edges(self.catalog.entities[polity.id], polity.period),
-                judge, homes_from[polity.id]["years"], homes_from[polity.id]["places"])
+                judge, homes_from[polity.id]["years"], homes_from[polity.id]["places"], homes_from[polity.id]["unplaced"])
             for side, found in (("before", before), ("after", after)):
                 blocked |= {(polity.id, side) for edge in found if edge.get("blocked")}
                 weak |= {(polity.id, side, edge["id"]) for edge in found if edge.get("how") in ("mutual", "wide", "less known")}
@@ -1084,7 +1089,8 @@ class PolityBuilder:
             for side in ("before", "after"):
                 before = side == "before"
                 pair = (lambda other: (other, polity.id)) if before else (lambda other: (polity.id, other))
-                edges = [edge for edge in getattr(polity, side) if edge.get("reserved") or self._follows(*pair(edge["id"]), before)]
+                edges = [edge for edge in getattr(polity, side) if self._in_order(*pair(edge["id"]), before)
+                         and (edge.get("reserved") or self._follows(*pair(edge["id"]), before))]
                 reserved = {edge["region"] for edge in edges if edge.get("reserved")}
                 edges = [edge for edge in edges if not edge.get("reserved")]
                 mapped = [edge for edge in edges if edge.get("main")][:1]
@@ -1133,6 +1139,7 @@ class PolityBuilder:
         candidates = [other for other in sorted(named | boxed)
                       if other not in self.deck_polities and editions.get(other, 0) >= LESS_KNOWN_NEIGHBOUR_LANGUAGES
                       and not self._renamed(polity.id, other)
+                      and self._in_order(*((other, polity.id) if before else (polity.id, other)), before)
                       and self._follows(*((other, polity.id) if before else (polity.id, other)), before)]
         items = self.wikidata.entities(candidates)
         self.names.update({other: item for other, item in items.items() if other not in self.names})
@@ -1208,6 +1215,26 @@ class PolityBuilder:
         return not (earlier and later and stems(self._name(first)) & stems(self._name(last))
                     and (earlier[0] <= later[0] and earlier[1] >= later[1] or later[0] <= earlier[0] and later[1] >= earlier[1]))
 
+    def _in_order(self, first: str, last: str, earlier_asked: bool) -> bool:
+        """Whether the second can have followed the first in time: the predecessor asked began before the civilization,
+        the successor asked ended after it, and the later began within a century of the earlier's end. The years are the
+        confirmed period, else the core its sources agree on, else the years since it began or the years it is drawn."""
+        earlier, later = self._period_years(first), self._period_years(last)
+        if not earlier or not later:
+            return True
+        return (earlier[0] < later[0] if earlier_asked else later[1] > earlier[1]) and later[0] - earlier[1] <= SUCCESSION_GAP_YEARS
+
+    def _period_years(self, qid: str) -> tuple[int, int] | None:
+        polity = self.deck_polities.get(qid)
+        period = polity.period if polity else None
+        if period and period.confirmed:
+            return period.start.earliest, period.end.latest
+        if period and period.core:
+            return tuple(period.core)
+        if period and period.since:
+            return period.since.earliest, PRESENT_YEAR
+        return self._span(qid)
+
     def _renamed(self, qid: str, other: str) -> bool:
         """The two are named alike and are not consecutive states: the later began within five years of the earlier's
         end, and both began and ended more than five years apart (the Kingdom and the Crown of Castile, but not Qin and
@@ -1242,7 +1269,7 @@ class PolityBuilder:
             self.members[qid] = set(entity.ids("P527", preferred_only=False)) if entity else set()
         return self.members[qid]
 
-    def _link(self, polity: Polity, side: str, other: Polity, region: str, gap: int = MIRROR_GAP_YEARS) -> None:
+    def _link(self, polity: Polity, side: str, other: Polity, region: str, gap: int = SUCCESSION_GAP_YEARS) -> None:
         """Add the other civilization before or after this one in the region, unless it is listed already, the region
         is unknown, or they do not follow each other: the later one must begin after the earlier begins, within a
         century of its end, and end after it ends (not the Confederacy before the USA), by their periods or, for one
@@ -1261,7 +1288,7 @@ class PolityBuilder:
 
     def _gap(self, polity: Polity, other: Polity | None, side: str) -> int:
         if other is None or not self._ruled_years(polity) or not self._ruled_years(other):
-            return MIRROR_GAP_YEARS
+            return SUCCESSION_GAP_YEARS
         earlier, later = (other, polity) if side == "before" else (polity, other)
         return abs(self._ruled_years(later)[0] - self._ruled_years(earlier)[1])
 
