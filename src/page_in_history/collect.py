@@ -19,6 +19,7 @@ from page_in_history.sources import fonts, naturalearth, pantheon
 from page_in_history.sources.cliopatria import Cliopatria
 from page_in_history.sources.wikidata import Wikidata
 from page_in_history.sources.wikipedia import Wikipedia
+from page_in_history.succession_text import SuccessionScores
 
 IMAGE_WIDTH = 480
 IMAGE_QUALITY = 85
@@ -89,7 +90,9 @@ class Collector:
         figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
         polities += builder.build([catalog.identities[name] for name in figure_builder.joined])
         builder.mark_repeated_maps(polities)
-        builder.link_successions(polities, figures)
+        texts = SuccessionScores(self.paths.root / "succession_scores.json", self.http)
+        builder.link_successions(polities, figures, texts)
+        texts.save()
         scores = PowerScores(self.paths.root / "ruler_scores.json", self.http)
         builder.choose_key_figures(polities, figures, scores)
         scores.save()

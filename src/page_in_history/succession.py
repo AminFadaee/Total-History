@@ -17,6 +17,7 @@ PARTITION_HOLDERS = 3
 HOMELAND_DEGREES = 10
 WIDE_YEARS = 100
 NEAR_DEGREES = 2
+BACKING_FULL = 2.25
 
 
 @dataclass(frozen=True)
@@ -131,6 +132,35 @@ class RegionalSuccession:
 
     def drawn(self, qid: str) -> bool:
         return bool((self.frame.qid == qid).any())
+
+    def backing(self, qid: str, others: list[str], before: bool, anchor: Anchor, span: tuple | None) -> dict[str, float]:
+        """How far the maps back each state as the one that came before (after) the civilization at its home, up to 1:
+        the share of the civilization's first (last) shape it held within 30 years of the change, plus one if it held
+        the home point within 30 years of the change or half of one if it held land within 2 degrees of the home, plus
+        a quarter if it was ever drawn within 2 degrees of it, out of 2.25. A state not on the maps has none."""
+        rows = self.frame[self.frame.qid == qid]
+        edge = rows.loc[rows.FromYear.idxmin()] if before else rows.loc[rows.ToYear.idxmax()]
+        change = int(edge.FromYear if before else edge.ToYear)
+        moments = [change] + ([span[0] if before else span[1]] if span else [])
+        shape = self.equal_area(gpd.GeoSeries([edge.geometry], crs=rows.crs)).iloc[0]
+        held = self._holdings(anchor.point)
+        year = change - 1 if before else change + 1
+        found = {}
+        for other in others:
+            theirs = self.frame[self.frame.qid == other]
+            if theirs.empty or other == qid:
+                found[other] = 0.0
+                continue
+            gaps = [min(abs((holding.end if before else holding.start) - moment) for moment in moments)
+                    for holding in held if holding.qid == other]
+            around = theirs[(theirs.FromYear <= year + WINDOW_YEARS) & (theirs.ToYear >= year - WINDOW_YEARS)]
+            around = around[around.geometry.intersects(edge.geometry)]
+            share = max(geometry.intersection(shape).area for geometry in self.equal_area(around).geometry) / shape.area \
+                if not around.empty else 0.0
+            holds = 1.0 if gaps and min(gaps) <= WINDOW_YEARS else 0.5 * self.near(other, change, anchor.point)
+            nearest = shapely.distance(theirs.geometry.values, anchor.point).min() <= NEAR_DEGREES
+            found[other] = (share + holds + 0.25 * nearest) / BACKING_FULL
+        return found
 
     def _sides(self, qid: str, rows: gpd.GeoDataFrame, edge, anchor: Anchor, before: bool, judge: Judge) -> list[dict]:
         """The main answer, and one at an end capital in another country. An answer at the end capital that repeats

@@ -59,16 +59,22 @@ class Http:
         digest = hashlib.sha256(key.encode()).hexdigest()
         return self.cache_dir / namespace / digest[:2] / f"{digest}.json"
 
-    def download(self, url: str, name: str) -> pathlib.Path:
+    def download(self, url: str, name: str, sha256: str | None = None) -> pathlib.Path:
+        """A file kept on disk, fetched once; with a checksum, a download that does not match it is refused."""
         path = self.cache_dir / "downloads" / name
         if path.exists():
             return path
         path.parent.mkdir(parents=True, exist_ok=True)
         logger.info("Downloading %s", url)
         partial = path.with_suffix(path.suffix + ".part")
+        digest = hashlib.sha256()
         with self._get(url, None, stream=True) as response, partial.open("wb") as file:
             for chunk in response.iter_content(1 << 20):
                 file.write(chunk)
+                digest.update(chunk)
+        if sha256 and digest.hexdigest() != sha256:
+            partial.unlink()
+            raise ValueError(f"{url} does not match its checksum")
         partial.rename(path)
         return path
 

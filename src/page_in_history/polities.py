@@ -21,7 +21,9 @@ from page_in_history.sources.wikipedia import (Infobox, Page, Wikipedia, country
 from page_in_history.regions import home, regions
 from page_in_history.sentences import contribution, first_paragraph, opening
 from page_in_history.power import CONSORT, OTHER_STATE, PRIVATE, RULER, SERVANT, PowerScores
+from page_in_history.consensus import agreed
 from page_in_history.succession import WINDOW_YEARS, Anchor, Judge, RegionalSuccession
+from page_in_history.succession_text import Article, SuccessionScores, text_score
 
 POLITY_ROOTS = {
     "Q7275",  # state
@@ -69,6 +71,9 @@ SUCCESSION_GAP_YEARS = 100
 HOME_OVERLAP_YEARS = 5
 CONSECUTIVE_YEARS = 5
 SUCCESSION_SLOTS = 3
+DATE_WINDOWS = {"before": (-40, 30), "after": (-30, 40)}
+DATE_DECAY_YEARS = 40
+SUCCESSION_PROPERTIES = ("P155", "P156", "P1365", "P1366")
 SAME_PLACE_KM = 5
 STEM_LETTERS = 5
 SOVEREIGN_STATE = "Q3624078"
@@ -1035,7 +1040,7 @@ class PolityBuilder:
             return None, None
         return min(dated)[2], max(dated, key=lambda found: (found[1], found[0]))[2]
 
-    def link_successions(self, polities: list[Polity], figures: list) -> None:
+    def link_successions(self, polities: list[Polity], figures: list, texts: SuccessionScores) -> None:
         """Once the deck and its figures are known, the civilizations before and after each one, each in a region
         ("before the Mongol Empire in Iraq: the Abbasid Caliphate; in Kyrgyzstan: the Kara-Khitans"). First the holder
         of its home on the map, which must be in the deck or well known (an article in at least 40 Wikipedia
@@ -1052,7 +1057,8 @@ class PolityBuilder:
         home only when the two overlap by five years at most, or by 30 when it held land near the home at the change,
         and, when both are on the maps, it held the home point at some time. A home still empty takes a state outside the
         deck that the sources name and that the maps or its place put at the home (see _stated_neighbour); failing
-        that, the state the quality-badged articles on it agree on (see _badged_neighbours)."""
+        that, the state the quality-badged articles on it agree on (see _badged_neighbours); failing that, the state
+        three of the independent voters agree on (see _agreed_neighbours)."""
         deck = self.deck_polities = {polity.id: polity for polity in polities}
         editions = self.wikidata.language_editions(list(self.catalog.by_qid))
         known = lambda other: other in deck or editions.get(other, 0) >= KNOWN_NEIGHBOUR_LANGUAGES
@@ -1124,7 +1130,9 @@ class PolityBuilder:
                 plain = lambda edge: {key: value for key, value in edge.items() if key not in ("main", "reserved")}
                 setattr(polity, side, [{**plain(edge), "home": True} for edge in home]
                         + [{**plain(edge), "home": False} for edge in others][:SUCCESSION_SLOTS - 1])
-        for (qid, side), edge in self._badged_neighbours(unanswered, anchors, homes).items():
+        badged = self._badged_neighbours(unanswered, anchors, homes)
+        unanswered = [(polity, side) for polity, side in unanswered if (polity.id, side) not in badged]
+        for (qid, side), edge in {**badged, **self._agreed_neighbours(unanswered, anchors, homes, texts)}.items():
             setattr(deck[qid], side, [{**edge, "home": True}] + getattr(deck[qid], side))
 
     def _stated_neighbour(self, polity: Polity, side: str, region: str, anchor: Anchor | None, edge,
@@ -1224,6 +1232,93 @@ class PolityBuilder:
         if other not in self.deck_polities or not self.succession.drawn(other):
             return True
         return bool(anchors.get(other) and anchors[other].region == region) or bool(anchor and self.succession.held(other, anchor.point, 0))
+
+    def _agreed_neighbours(self, sides: list[tuple[Polity, str]], anchors: dict[str, Anchor | None], homes: dict[str, str],
+                           texts: SuccessionScores) -> dict[tuple[str, str], dict]:
+        """For home sides still empty, the state the sources agree on. The candidates are those Wikidata names on the
+        civilization's side, Wikidata's items that name the civilization, and its infobox, when known in the deck or in
+        at least 20 languages, a state by its kinds (not a war, battle, city, period or archaeological culture), able to
+        have followed it (see _follows) and not yet an answer; items of one state count once. Each voter puts forward its
+        first candidate (tied candidates share the vote; a voter whose best has less than 0.3 of support backs none): the
+        civilization's own Wikidata statements, the items naming it, the infobox's order, the date the state ended (began)
+        against the civilization's start (end), the maps' holding of the home, and, among several candidates, a
+        language-inference model reading the civilization's article. A candidate is filled when three voters put it first
+        and, among several, it leads the runner-up by two votes."""
+        ids = sorted({polity.id for polity, _ in sides})
+        converse = {prop: self.wikidata.subjects(prop, ids) for prop in SUCCESSION_PROPERTIES}
+        named = {}
+        for polity, side in sides:
+            before, infobox = side == "before", self.infoboxes.get(polity.id)
+            named[polity.id, side] = {
+                "own": self.catalog.entities[polity.id].ids(*(("P1365", "P155") if before else ("P1366", "P156"))),
+                "converse": [other for prop in (("P156", "P1366") if before else ("P155", "P1365")) for other in converse[prop][polity.id]],
+                "boxed": self._qids((infobox.predecessors if before else infobox.successors) if infobox else [])}
+        every = sorted({other for found in named.values() for others in found.values() for other in others})
+        items = self.wikidata.entities(every)
+        self.names.update({other: item for other, item in items.items() if other not in self.names})
+        editions, kinds = self.wikidata.language_editions(every), self.wikidata.kinds(every, NEIGHBOUR_ROOTS)
+        usable = lambda other: other in items and (other in self.deck_polities or editions.get(other, 0) >= LESS_KNOWN_NEIGHBOUR_LANGUAGES) \
+            and self._state_like(other, kinds[other])
+        agreement = {}
+        for polity, side in sides:
+            before, span = side == "before", self._span(polity.id)
+            pair = (lambda other: (other, polity.id)) if before else (lambda other: (polity.id, other))
+            found, answered = named[polity.id, side], {edge["id"] for edge in getattr(polity, side)}
+            candidates = [other for other in sorted({other for others in found.values() for other in others})
+                          if span and homes[polity.id] and other != polity.id and other not in answered and usable(other)
+                          and not self._renamed(polity.id, other) and self._in_order(*pair(other), before)
+                          and self._follows(*pair(other), before) and self._at_home(other, homes[polity.id], anchors[polity.id], anchors)]
+            states = self._one_state_each(candidates, items, editions)
+            votes = self._votes(polity, side, states, found, items, anchors[polity.id], span, texts) if states else []
+            if chosen := agreed(votes, len(states)):
+                agreement[polity.id, side] = {"id": chosen, "region": homes[polity.id], "name": self._name(chosen)}
+        return agreement
+
+    def _votes(self, polity: Polity, side: str, states: dict[str, set[str]], found: dict[str, list[str]],
+               items: dict[str, Entity], anchor: Anchor | None, span: tuple[int, int], texts: SuccessionScores) -> list[dict]:
+        """The support each voter gives for the candidate states, each state with the items that stand for it."""
+        before = side == "before"
+        best = lambda support: {state: max((support(other) for other in members), default=0.0) for state, members in states.items()}
+        support = [best(lambda other: float(other in found["own"])),
+                   best(lambda other: float(other in found["converse"])),
+                   best(lambda other: 1 / (1 + found["boxed"].index(other)) if other in found["boxed"] else 0.0),
+                   best(lambda other: self._date_support(items[other], other, span, side))]
+        if anchor:
+            backing = self.succession.backing(polity.id, sorted(set().union(*states.values())), before, anchor, span)
+            support.append(best(backing.get))
+        if len(states) > 1:
+            civilization = self._article(polity.wikipedia)
+            support.append(best(lambda other: text_score(side, texts, civilization, polity.name, self._article(items[other].enwiki),
+                                                         items[other].label or other)))
+        return support
+
+    def _article(self, title: str | None) -> Article:
+        return Article.read(title or "", self.wikipedia.wikitext([title], follow=True).get(title, "") if title else "")
+
+    def _one_state_each(self, candidates: list[str], items: dict[str, Entity], editions: dict[str, int]) -> dict[str, set[str]]:
+        """The candidates grouped by state, those named alike or one said to be the same as the other (P460) together,
+        under the best known: in the deck, then in most languages."""
+        groups: list[set[str]] = []
+        for other in candidates:
+            same = [group for group in groups if any(self._renamed(other, member) or member in items[other].ids("P460", preferred_only=False)
+                                                     or other in items[member].ids("P460", preferred_only=False) for member in group)]
+            groups = [group for group in groups if group not in same] + [{other}.union(*same)]
+        best = lambda group: max(sorted(group), key=lambda member: (member in self.deck_polities, editions.get(member, 0)))
+        return {best(group): group for group in groups}
+
+    def _date_support(self, item: Entity, other: str, span: tuple[int, int], side: str) -> float:
+        """1 when the state ended (began) within 40 years before to 30 after the civilization's start (30 before to 40 after
+        its end), falling off over 40 years beyond that; 0 when its date is unknown."""
+        before = side == "before"
+        start, end = dates(item)
+        change, years = end if before else start, self._span(other)
+        if change is None and years:
+            change = years[1 if before else 0]
+        if change is None:
+            return 0.0
+        low, high = DATE_WINDOWS[side]
+        offset = change - span[0 if before else 1]
+        return math.exp(-max(0, low - offset, offset - high) / DATE_DECAY_YEARS)
 
     def _fills_home(self, polity: Polity, other: str, side: str, point) -> bool:
         """An answer from the other side or a leader may stand in the home region when the two overlap by five years at
