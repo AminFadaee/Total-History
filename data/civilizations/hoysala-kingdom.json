@@ -29,7 +29,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q14624218",
+      "region": "India",
+      "name": "Western Chalukya Empire",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q167639",

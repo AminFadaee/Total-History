@@ -41,7 +41,14 @@
     "Grand Duchy of Würzburg",
     "Principality of Hohenzollern-Sigmaringen"
   ],
-  "before": [],
+  "before": [
+    {
+      "id": "Q12548",
+      "region": "Germany",
+      "name": "Holy Roman Empire",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q151624",

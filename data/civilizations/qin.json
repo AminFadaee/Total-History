@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q35216",
+      "region": "China",
+      "name": "Zhou Dynasty",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
@@ -56,7 +63,7 @@
   "overseas_countries": [],
   "borders": true,
   "summary": "An ancient Chinese state during the Zhou dynasty.",
-  "tier": "Extended",
+  "tier": "Core",
   "map": "maps/qin.png",
   "map_asked": true,
   "checks": {

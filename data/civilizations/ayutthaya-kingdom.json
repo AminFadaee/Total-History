@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q863279",
+      "region": "Thailand",
+      "name": "Sukhothai Kingdom",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q1115291",

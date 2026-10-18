@@ -38,7 +38,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q693562",
+      "region": "Germany",
+      "name": "Saxe-Wittenberg",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q153015",

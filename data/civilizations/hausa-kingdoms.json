@@ -17,7 +17,14 @@
   "capitals": [],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q600524",
+      "region": "Nigeria",
+      "name": "Sokoto Caliphate",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Nigeria"
@@ -25,7 +32,7 @@
   "overseas_countries": [],
   "borders": false,
   "summary": "A collection of states ruled by the Hausa people, before the Fulani jihads.",
-  "tier": "Core",
+  "tier": "Extended",
   "map": "",
   "map_asked": true,
   "checks": {
