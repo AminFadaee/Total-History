@@ -83,7 +83,7 @@ TIER_KINDS = {"Q41710": "people", "Q4204501": "people", "Q8432": "state", "Q2718
 CENTURY_PRECISION, DECADE_PRECISION, YEAR_PRECISION = 7, 8, 9
 SAME_NAME_WORDS = {"dynasty", "of", "the", "kingdom", "crown", "electorate", "principality", "duchy", "grand", "emirate",
                    "khanate", "caliphate", "sultanate"}
-RULING_TITLES = (r"king|queen|emperor|empress|sultan|sultana|shah|shahanshah|caliph|khan|khagan|qaghan|pharaoh|tsar|tsarina|czar"
+RULING_TITLES = (r"king|queen|emperor|tlatoani|tlahtoāni|tlahtoani|empress|sultan|sultana|shah|shahanshah|caliph|khan|khagan|qaghan|pharaoh|tsar|tsarina|czar"
                  r"|president|shogun|shōgun|chanyu|mansa|emir|amir|negus|tlatoani|huey tlatoani|sapa inca|doge|grand duke"
                  r"|grand prince|monarch|dictator|raja|maharaja|nizam|peshwa|khedive|basileus|chhatrapati"
                  r"|duke of|prince of|archduke|elector|consul|ruler|leader|founder")
@@ -1990,8 +1990,10 @@ class PolityBuilder:
         neighbouring state whose role names a ruler, statesman or general (Zhuge Liang for Shu Han, filed under Han), the
         heads of its country for a sovereign state with none of its own (the presidents of France for the Third
         Republic), and, for a state with hardly any candidates, its citizens (P27) who held a head office. A person
-        whose rule Wikidata or the infobox dates is placed by when it began, else a ruler by thirty-five and anyone else
-        by fifty years from birth, so the list keeps the order of their time."""
+        whose rule Wikidata or the infobox dates is placed by when it began, else by when they first took an office of a
+        head-of-state class, else a ruler by thirty-five and anyone else by fifty years from birth, so the list keeps
+        the order of their time; two beginning in one year go by which term ended first (Frederick III before
+        Wilhelm II)."""
         spans = {polity.id: span for polity in polities if (span := self._ruled_years(polity))}
         ruled = self._ruled(polities, figures, spans)
         spans = {polity.id: span for polity in polities if (span := self._ruled_years(polity, core=True))}
@@ -2017,6 +2019,8 @@ class PolityBuilder:
         sources: dict[str, dict[str, set[str]]] = {}
         began_at: dict[str, dict[str, int]] = {}
         reigned: dict[str, dict[str, int]] = {}
+        datings: dict[str, set[str]] = {}
+        ends: dict[str, dict[str, int]] = {}
         terms: dict[str, dict[str, tuple[int, int]]] = {}
         named: dict[str, set[str]] = {}
         for polity in polities:
@@ -2074,7 +2078,8 @@ class PolityBuilder:
                     and sum(bool(kinds & {"home", "also"}) for kinds in source.values()) < FEW_CANDIDATES:
                 for person, began in self._citizen_heads(polity.id, start, end).items():
                     add(person, began, "citizen")
-            began_at[polity.id], sources[polity.id] = found, source
+            began_at[polity.id], sources[polity.id], datings[polity.id] = found, source, set(reigns)
+            ends[polity.id] = {}
             reigned[polity.id] = {person: reigns[person] if person in reigns else self._prime(lifetimes.get(person), source[person]) or began
                                   for person, began in found.items()}
         people = self.wikidata.entities([qid for found in began_at.values() for qid in found if qid not in self.names])
@@ -2082,7 +2087,18 @@ class PolityBuilder:
         pages = {qid: self.names[qid].enwiki for found in began_at.values() for qid in found
                  if qid in self.names and self.names[qid].enwiki}
         texts = self.wikipedia.wikitext(sorted(set(pages.values())))
+        first_offices = self._first_offices([person for polity_id, found in began_at.items() for person in found
+                                             if person not in datings[polity_id]])
         for polity in polities:
+            if polity.id in began_at:
+                start, end = spans[polity.id]
+                for person in began_at[polity.id]:
+                    if person not in datings[polity.id] and start <= first_offices.get(person, start - 1) <= end:
+                        reigned[polity.id][person] = first_offices[person]
+                        datings[polity.id].add(person)
+                    mine = self.office_spans.get(person, {}).get(polity.id)
+                    if mine:
+                        ends[polity.id][person] = min(mine)[1]
             found = {person: began for person, began in began_at.get(polity.id, {}).items()
                      if person in self.names and HUMAN in self.names[person].ids("P31", preferred_only=False)}
             if not found:
@@ -2120,7 +2136,8 @@ class PolityBuilder:
             best = self._spread(top, found, {person: standing[person][1] for person in ranked}, (start, end))
             best += [person for person in ranked if person not in best and (standing[person][0] >= RULER_RANK
                                                                              or person in others)][:SHOWN_RULERS - len(best)]
-            polity.key_figures = [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=reigned[polity.id].get)]
+            order = lambda person: (reigned[polity.id][person], ends[polity.id].get(person, reigned[polity.id][person]))
+            polity.key_figures = [{"id": qid, "name": self._name(qid)} for qid in sorted(best, key=order)]
 
     def _standing(self, polity: Polity, person: str, source: set[str], shares: list[float], term: tuple | None,
                   years: tuple[int, int], lifetime, editions: int, text: str) -> tuple[int, float] | None:
@@ -2362,6 +2379,22 @@ class PolityBuilder:
                     continue
             ruled.setdefault(polity.id, {}).setdefault(figure.id, (began, bool(role.reign)))
         return ruled
+
+    def _first_offices(self, people: list[str]) -> dict[str, int]:
+        """When each person first took an office of a head-of-state class (monarch, emperor, king, president...) with a
+        dated start."""
+        generic = " ".join(f"wd:{kind}" for kind in sorted(HEAD_OF_STATE_CLASSES))
+        first: dict[str, int] = {}
+        for at in range(0, len(people), 200):
+            rows = self.wikidata.query(f"""SELECT ?person ?start WHERE {{
+              VALUES ?person {{ {" ".join(f"wd:{qid}" for qid in people[at:at + 200])} }}
+              ?person p:P39 ?held . ?held ps:P39 ?office ; pq:P580 ?start .
+              ?office wdt:P279* ?kind . VALUES ?kind {{ {generic} }} }}""")
+            for row in rows:
+                if (year := sparql_year(row.get("start"))) is not None:
+                    person = entity_id(row["person"])
+                    first[person] = min(year, first.get(person, year))
+        return first
 
     def _office_terms(self, polity_qid: str, start: int, end: int) -> dict[str, tuple[int, int]]:
         """Holders of the state's own head-of-state office, or of an office Wikidata classes as head of state, monarch,
