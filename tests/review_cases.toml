@@ -92,6 +92,9 @@ figure_present = [
 ]
 
 succession_absent = [
+  { civilization = "Almoravid Dynasty", side = "before", other = "Taifa of Granada" },
+  { civilization = "Cossack Hetmanate", side = "after", other = "Zaporozhian Sich" },
+  { civilization = "Later Tang", side = "after", other = "Later Shu" },
   { civilization = "Lanna Kingdom", side = "after", other = "Konbaung Dynasty", open = true },
   { civilization = "Saadi Sultanate", side = "after", other = "Republic of Salé" },
   { civilization = "Tang Dynasty", side = "after", other = "Former Shu" },
