@@ -1,6 +1,8 @@
 # Answers that break a soft rule, accepted for now. A new break fails the run, and so does a listed one that is gone.
 
 successor_ends_first = [
+  ["Mali Empire", "Songhai Empire"],
+  ["Minoan civilization", "Mycenaean Greece"],
 ]
 
 predecessor_begins_later = [

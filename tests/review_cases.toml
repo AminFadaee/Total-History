@@ -137,7 +137,7 @@ succession_present = [
   { civilization = "Kingdom of Kush", side = "after", other = "Makuria", open = true },
   { civilization = "Sasanian Empire", side = "before", other = "Parthian Empire" },
   { civilization = "Roman Empire", side = "after", other = "Western Roman Empire" },
-  { civilization = "Mali Empire", side = "after", other = "Songhai Empire", open = true },
+  { civilization = "Mali Empire", side = "after", other = "Songhai Empire" },
   { civilization = "Shang Dynasty", side = "after", other = "Zhou Dynasty" },
   { civilization = "Prussia", side = "before", other = "Margraviate of Brandenburg" },
   { civilization = "Austria-Hungary", side = "before", other = "Austrian Empire" },
@@ -291,8 +291,8 @@ period_ends_by = [
 
 period_present = [
   { civilization = "Maya civilization", open = true },
-  { civilization = "Minoan civilization", open = true },
-  { civilization = "Olmec Civilization", open = true },
+  { civilization = "Minoan civilization" },
+  { civilization = "Olmec Civilization" },
   { civilization = "Teotihuacan" },
   { civilization = "Hunnic Empire" },
   { civilization = "Classical Athens" },
