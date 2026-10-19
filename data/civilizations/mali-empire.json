@@ -32,13 +32,26 @@
   "parts": [],
   "before": [
     {
+      "id": "Q13099593",
+      "region": "Mali",
+      "name": "Soso Empire",
+      "home": true
+    },
+    {
       "id": "Q206789",
       "region": "Mauritania",
       "name": "Ghana Empire",
       "home": false
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q202687",
+      "region": "Mali",
+      "name": "Songhai Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q175772",

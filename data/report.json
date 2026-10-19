@@ -64,6 +64,188 @@
       "value": "Muqan Qaghan"
     }
   ],
+  "overrides_applied": [
+    {
+      "civilization": "Chola dynasty",
+      "field": "capital",
+      "value": "Thanjavur"
+    },
+    {
+      "civilization": "Chola dynasty",
+      "field": "capital",
+      "value": "Gangaikonda Cholapuram"
+    },
+    {
+      "civilization": "Lombards",
+      "field": "period_start",
+      "value": 568
+    },
+    {
+      "civilization": "Lombards",
+      "field": "period_end",
+      "value": 774
+    },
+    {
+      "civilization": "Lombards",
+      "field": "capital",
+      "value": "Pavia"
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "period_start",
+      "value": -1200
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "period_end",
+      "value": -400
+    },
+    {
+      "civilization": "Minoan civilization",
+      "field": "period_start",
+      "value": -3000
+    },
+    {
+      "civilization": "Minoan civilization",
+      "field": "period_end",
+      "value": -1100
+    },
+    {
+      "civilization": "Elam",
+      "field": "period_start",
+      "value": -3200
+    },
+    {
+      "civilization": "Elam",
+      "field": "period_end",
+      "value": -539
+    },
+    {
+      "civilization": "Elam",
+      "field": "after",
+      "value": "Achaemenid Empire"
+    },
+    {
+      "civilization": "Kingdom of Kush",
+      "field": "period_start",
+      "value": -1069
+    },
+    {
+      "civilization": "Kingdom of Kush",
+      "field": "before",
+      "value": "New Kingdom of Egypt"
+    },
+    {
+      "civilization": "Aztec Triple Alliance",
+      "field": "before",
+      "value": "Tepanec"
+    },
+    {
+      "civilization": "Mali Empire",
+      "field": "before",
+      "value": "Sosso Empire"
+    },
+    {
+      "civilization": "Mali Empire",
+      "field": "after",
+      "value": "Songhai Empire"
+    },
+    {
+      "civilization": "Gupta Empire",
+      "field": "after",
+      "value": "Pushyabhuti dynasty"
+    },
+    {
+      "civilization": "Akkadian Empire",
+      "field": "after",
+      "value": "Gutian dynasty of Sumer"
+    },
+    {
+      "civilization": "Qin dynasty",
+      "field": "before",
+      "value": "Zhou dynasty"
+    },
+    {
+      "civilization": "Uyghur Khaganate",
+      "field": "after",
+      "value": "Kyrgyz Khaganate"
+    },
+    {
+      "civilization": "Tenochtitlan",
+      "field": "after",
+      "value": "New Spain"
+    },
+    {
+      "civilization": "Nazi Germany",
+      "field": "after",
+      "value": "Allied-occupied Germany"
+    },
+    {
+      "civilization": "Empire of Japan",
+      "field": "after",
+      "value": "Occupation of Japan"
+    },
+    {
+      "civilization": "Ethiopian Empire",
+      "field": "after",
+      "value": "Derg"
+    },
+    {
+      "civilization": "Khazaria",
+      "field": "before",
+      "value": "Western Turkic Khaganate"
+    },
+    {
+      "civilization": "Spanish Empire",
+      "field": "before",
+      "value": "Crown of Castile"
+    },
+    {
+      "civilization": "Kingdom of Germany",
+      "field": "key_figure",
+      "value": "Henry the Fowler"
+    },
+    {
+      "civilization": "Kingdom of Germany",
+      "field": "key_figure",
+      "value": "Otto I"
+    },
+    {
+      "civilization": "White Huns",
+      "field": "key_figure",
+      "value": "Toramana"
+    },
+    {
+      "civilization": "White Huns",
+      "field": "key_figure",
+      "value": "Mihirakula"
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "key_figure",
+      "value": "Vachagan III"
+    },
+    {
+      "civilization": "Sabaeans",
+      "field": "key_figure",
+      "value": "Karib'il Watar"
+    },
+    {
+      "civilization": "Chimor",
+      "field": "key_figure",
+      "value": "Taycanamo"
+    },
+    {
+      "civilization": "Chimor",
+      "field": "key_figure",
+      "value": "Minchançaman"
+    },
+    {
+      "civilization": "Yugoslavia",
+      "field": "key_figure",
+      "value": "Josip Broz Tito"
+    }
+  ],
   "unresolved_polities": {
     "Ahi Republic": "Wikipedia link 'Ahis' is not a polity article",
     "Alans": "Wikipedia link 'Alans' is not a polity article",

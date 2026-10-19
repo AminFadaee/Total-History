@@ -5,9 +5,17 @@
   "wikipedia": "Olmecs",
   "map_year": -650,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": -1200,
+      "latest": -1200,
+      "circa": true
+    },
+    "end": {
+      "earliest": -400,
+      "latest": -400,
+      "circa": true
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },

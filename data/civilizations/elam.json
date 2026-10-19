@@ -5,13 +5,18 @@
   "wikipedia": "Elam",
   "map_year": -1800,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -2700,
-      -539
-    ],
+    "start": {
+      "earliest": -3200,
+      "latest": -3200,
+      "circa": true
+    },
+    "end": {
+      "earliest": -539,
+      "latest": -539,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -26,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q389688",
+      "region": "Iran",
+      "name": "Achaemenid Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q392729",

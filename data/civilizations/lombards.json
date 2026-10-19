@@ -5,13 +5,30 @@
   "wikipedia": "Lombards",
   "map_year": 567,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": 568,
+      "latest": 568,
+      "circa": false
+    },
+    "end": {
+      "earliest": 774,
+      "latest": 774,
+      "circa": false
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Pavia",
+      "location": [
+        9.155,
+        45.185280555556
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [],
@@ -50,7 +67,8 @@
     "labelled": [
       "Byzantine Empire",
       "Avar Khaganate",
-      "Bavarians"
+      "Bavarians",
+      "Francia"
     ]
   }
 }

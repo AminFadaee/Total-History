@@ -5,9 +5,17 @@
   "wikipedia": "Minoan civilization",
   "map_year": -1500,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": -3000,
+      "latest": -3000,
+      "circa": true
+    },
+    "end": {
+      "earliest": -1100,
+      "latest": -1100,
+      "circa": true
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
