@@ -7,6 +7,63 @@
   "civilizations": 496,
   "figures": 2109,
   "failures": [],
+  "errata_dropped": [
+    {
+      "civilization": "Golden Horde",
+      "field": "after",
+      "value": "Khanate of Kazan"
+    },
+    {
+      "civilization": "Timurid Empire",
+      "field": "before",
+      "value": "Ilkhanate"
+    },
+    {
+      "civilization": "Dutch East Indies",
+      "field": "before",
+      "value": "Sultanate of Banten"
+    },
+    {
+      "civilization": "Kanem–Bornu Empire",
+      "field": "after",
+      "value": "Sokoto Caliphate"
+    },
+    {
+      "civilization": "Sumerian City-States",
+      "field": "after",
+      "value": "Babylonia"
+    },
+    {
+      "civilization": "Qing Dynasty",
+      "field": "before",
+      "value": "Later Jin Dynasty"
+    },
+    {
+      "civilization": "Netherlands",
+      "field": "before",
+      "value": "United Kingdom of the Netherlands"
+    },
+    {
+      "civilization": "Kushan Empire",
+      "field": "after",
+      "value": "Gupta Empire"
+    },
+    {
+      "civilization": "Chu",
+      "field": "key_figures",
+      "value": "Li Si"
+    },
+    {
+      "civilization": "Shu Han",
+      "field": "key_figures",
+      "value": "Zhao Yun"
+    },
+    {
+      "civilization": "Göktürk Khaganate",
+      "field": "key_figures",
+      "value": "Muqan Qaghan"
+    }
+  ],
   "unresolved_polities": {
     "Ahi Republic": "Wikipedia link 'Ahis' is not a polity article",
     "Alans": "Wikipedia link 'Alans' is not a polity article",
