@@ -1773,6 +1773,23 @@ class PolityBuilder:
         found = members + [name for name in self.wholes.get(identity.qid, []) if name in set(shown.Name)]
         return [name for name in dict.fromkeys(found) if name not in (identity.name, *parts)]
 
+    def follow_map_years(self, polities: list[Polity], overrides: list) -> None:
+        """Redraws a civilization whose map year an override set: its parts follow the new year, and so do its modern
+        countries unless an override sets them too."""
+        years = {o.civilization_id for o in overrides if o.field == "map_year" and o.action == "set"}
+        countries = {o.civilization_id for o in overrides if o.field == "modern_countries" and o.action == "set"}
+        for polity in polities:
+            if polity.id not in years or not polity.borders:
+                continue
+            identity = self.catalog.identities[polity.name]
+            listed = [self.catalog.by_qid[qid].name for qid in self.catalog.entities[identity.qid].ids("P527", preferred_only=False)
+                      if qid in self.catalog.by_qid and qid != identity.qid]
+            polity.parts = listed + self._pieces(identity, polity.map_year, listed)
+            extent = self._territory([identity.name, *polity.parts], polity.map_year).geometry.union_all()
+            if polity.id not in countries and not extent.is_empty:
+                polity.modern_countries, polity.overseas_countries = self._modern_countries(
+                    extent, polity.capitals, self.catalog.entities[identity.qid].coordinates())
+
     def colonial_power(self, qid: str) -> bool:
         return bool(set(self.catalog.entities[qid].ids("P31", preferred_only=False)) & COLONIAL_POWERS)
 

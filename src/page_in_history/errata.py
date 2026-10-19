@@ -1,3 +1,4 @@
+import datetime
 import logging
 import pathlib
 import tomllib
@@ -16,6 +17,10 @@ class Erratum:
     field: str
     value: str
     reason: str
+    source: str = ""
+    quote: str = ""
+    retrieved: datetime.date | None = None
+    needs_verification: bool = False
 
     def to_json(self) -> dict:
         return {"civilization": self.civilization, "field": self.field, "value": self.value}

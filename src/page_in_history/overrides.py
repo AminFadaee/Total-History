@@ -9,8 +9,12 @@ from page_in_history.polities import Polity
 from page_in_history.sources.wikidata import Wikidata
 
 SIDES = ("before", "after")
-PERIOD_ENDS = {"period_start": "start", "period_end": "end"}
-LIST_FIELDS = {"before": "before", "after": "after", "capital": "capitals", "key_figure": "key_figures"}
+LIST_FIELDS = {"before": "before", "after": "after", "capital": "capitals", "key_figures": "key_figures",
+               "modern_countries": "modern_countries"}
+FIELDS = (*LIST_FIELDS, "period", "map_year", "summary")
+ACTIONS = ("add", "set", "none")
+ADDABLE = ("before", "after", "capital", "key_figures")
+PERIOD_KEYS = {"start", "end", "since", "circa"}
 MAX_KEY_FIGURES = 4
 
 
@@ -19,84 +23,145 @@ class Override:
     civilization: str
     civilization_id: str
     field: str
-    value: str | int
-    source: str
-    quote: str
-    retrieved: datetime.date
-    value_id: str = ""
+    action: str
+    value: str | int | list | dict = ""
+    value_id: str | list = ""
     region: str = ""
-    circa: bool = False
+    source: str = ""
+    quote: str = ""
+    retrieved: datetime.date | None = None
+    needs_verification: bool = False
     note: str = ""
 
+    @property
+    def value_ids(self) -> list[str]:
+        return self.value_id if isinstance(self.value_id, list) else [self.value_id] if self.value_id else []
+
+    @property
+    def values(self) -> list:
+        return self.value if isinstance(self.value, list) else [self.value]
+
     def to_json(self) -> dict:
-        return {"civilization": self.civilization, "field": self.field, "value": self.value}
+        return {"civilization": self.civilization, "field": self.field, "action": self.action, "value": self.value}
 
 
 def load_overrides(path: pathlib.Path) -> list[Override]:
     entries = tomllib.loads(path.read_text()).get("override", []) if path.exists() else []
     overrides = [Override(**entry) for entry in entries]
     for override in overrides:
-        if override.field not in PERIOD_ENDS and override.field not in LIST_FIELDS:
-            raise ValueError(f"{override.civilization}: {override.field} is not a field that overrides may set")
-        if override.field in SIDES and not override.region:
-            raise ValueError(f"{override.civilization}: the {override.field} override needs a region")
+        _validate(override)
     return overrides
+
+
+def _validate(override: Override) -> None:
+    who = f"{override.civilization}, {override.field}"
+    if override.field not in FIELDS:
+        raise ValueError(f"{who}: not a field that overrides may change")
+    if override.action not in ACTIONS:
+        raise ValueError(f"{who}: the action must be one of {', '.join(ACTIONS)}")
+    if override.action == "none":
+        if not override.note.strip():
+            raise ValueError(f"{who}: a not-applicable entry needs its reason in the note")
+        return
+    if override.action == "add" and override.field not in ADDABLE:
+        raise ValueError(f"{who}: only {', '.join(ADDABLE)} can be added to")
+    if override.field in SIDES and not override.region:
+        raise ValueError(f"{who}: the {override.field} override needs a region")
+    if override.field in ("capital", "key_figures", *SIDES) and len(override.value_ids) != len(override.values):
+        raise ValueError(f"{who}: every value needs its Wikidata id")
+    if override.field == "period" and (not isinstance(override.value, dict) or set(override.value) - PERIOD_KEYS):
+        raise ValueError(f"{who}: a period is a table of {', '.join(sorted(PERIOD_KEYS))}")
+    if override.field in ("map_year", "summary") and override.action == "add":
+        raise ValueError(f"{who}: {override.field} can only be set")
+    if override.action == "set" and override.field in LIST_FIELDS and not isinstance(override.value, list) \
+            and override.field not in SIDES:
+        raise ValueError(f"{who}: setting a list needs the whole list")
 
 
 def check_against_errata(overrides: list[Override], errata: list[Erratum]) -> None:
     removed = {(erratum.civilization, erratum.field, erratum.value) for erratum in errata}
     for override in overrides:
-        key = (override.civilization, LIST_FIELDS.get(override.field), override.value)
-        if key in removed:
-            raise ValueError(f"Override and erratum contradict each other: {override.civilization}, {override.field}, "
-                             f"{override.value}")
+        if override.field not in LIST_FIELDS or override.action == "none":
+            continue
+        for value in override.values:
+            if (override.civilization, LIST_FIELDS[override.field], value) in removed:
+                raise ValueError(f"Override and erratum contradict each other: {override.civilization}, "
+                                 f"{override.field}, {value}")
 
 
 def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata: Wikidata) -> list[Override]:
     by_id = {polity.id: polity for polity in polities}
-    entities = wikidata.entities([override.value_id for override in overrides if override.value_id])
+    entities = wikidata.entities([qid for override in overrides for qid in override.value_ids])
+
+    def name_of(qid: str) -> str:
+        return by_id[qid].name if qid in by_id else entities[qid].label
+
     for override in overrides:
         polity = by_id.get(override.civilization_id)
         if polity is None or polity.name != override.civilization:
             raise ValueError(f"Override names a civilization that is not in the deck: {override.civilization}")
-        if override.field in PERIOD_ENDS:
+        if override.action == "none":
+            polity.checks.setdefault("not_applicable", {})[override.field] = override.note
+        elif override.field == "period":
             _set_period(polity, override)
         elif override.field in SIDES:
-            name = by_id[override.value_id].name if override.value_id in by_id else entities[override.value_id].label
-            _fill_home(polity, override, name, {o.value_id for o in overrides if o.field == override.field})
+            _fill_home(polity, override, name_of(override.value_id), {o.value_id for o in overrides if o.field == override.field})
         elif override.field == "capital":
-            _add_capital(polity, override, entities[override.value_id])
+            _fill_capitals(polity, override, entities)
+        elif override.field == "key_figures":
+            _fill_key_figures(polity, override, name_of)
+        elif override.field == "modern_countries":
+            polity.modern_countries = list(override.value)
+        elif override.field == "map_year":
+            polity.map_year = override.value
         else:
-            name = by_id[override.value_id].name if override.value_id in by_id else entities[override.value_id].label
-            _add_key_figure(polity, override, name)
+            polity.summary = override.value
     for polity in polities:
-        if any(o.civilization_id == polity.id and o.field in PERIOD_ENDS for o in overrides) and not polity.period.confirmed:
+        if any(o.civilization_id == polity.id and o.field == "period" and o.action != "none" for o in overrides) \
+                and not (polity.period.confirmed or polity.period.since):
             raise ValueError(f"{polity.name}: the period overrides leave one end open")
     return overrides
 
 
 def _set_period(polity: Polity, override: Override) -> None:
-    period = polity.period
-    setattr(period, PERIOD_ENDS[override.field], Span(override.value, override.value, override.circa))
-    period.confirmed, period.core, period.since = bool(period.start and period.end), None, None
+    period, value = polity.period, override.value
+    circa = value.get("circa", False)
+    for end in ("start", "end", "since"):
+        if end in value:
+            setattr(period, end, Span(value[end], value[end], circa))
+    if "since" in value:
+        period.start = period.start or period.since
+        period.end = None
+    period.confirmed, period.core = bool(period.start and period.end), None
+    if period.end:
+        period.since = None
 
 
 def _fill_home(polity: Polity, override: Override, name: str, overridden: set[str]) -> None:
     side = getattr(polity, override.field)
     homes = [item for item in side if item["home"]]
-    if any(item["id"] not in overridden for item in homes):
+    if override.action == "set":
+        side[:] = [item for item in side if not item["home"]]
+        homes = []
+    elif any(item["id"] not in overridden for item in homes):
         raise ValueError(f"{polity.name}: the {override.field} side already has a home, so {name} cannot take it")
     side.insert(len(homes), {"id": override.value_id, "region": override.region, "name": name, "home": True})
 
 
-def _add_capital(polity: Polity, override: Override, entity) -> None:
+def _fill_capitals(polity: Polity, override: Override, entities: dict) -> None:
+    capitals = [_capital(name, entities[qid]) for name, qid in zip(override.values, override.value_ids)]
+    polity.capitals[:] = polity.capitals + capitals if override.action == "add" else capitals
+
+
+def _capital(name: str, entity) -> dict:
     founded = min((year.earliest for year in entity.years("P571")), default=None)
     location = entity.coordinates()
-    polity.capitals.append({"name": override.value, "location": list(location) if location else None,
-                            "founded": founded})
+    return {"name": name, "location": list(location) if location else None, "founded": founded}
 
 
-def _add_key_figure(polity: Polity, override: Override, name: str) -> None:
-    if len(polity.key_figures) >= MAX_KEY_FIGURES:
-        raise ValueError(f"{polity.name}: no room for the key figure {name}")
-    polity.key_figures.append({"id": override.value_id, "name": name})
+def _fill_key_figures(polity: Polity, override: Override, name_of) -> None:
+    figures = [{"id": qid, "name": name_of(qid)} for qid in override.value_ids]
+    kept = polity.key_figures if override.action == "add" else []
+    if len(kept) + len(figures) > MAX_KEY_FIGURES:
+        raise ValueError(f"{polity.name}: no room for the key figures {[figure['name'] for figure in figures]}")
+    polity.key_figures[:] = kept + figures

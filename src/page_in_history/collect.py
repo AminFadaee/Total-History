@@ -111,6 +111,7 @@ class Collector:
         check_against_errata(overrides, errata)
         dropped = apply_errata(polities, errata)
         applied = apply_overrides(polities, overrides, wikidata)
+        builder.follow_map_years(polities, applied)
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))
         self.failures: list[str] = []
@@ -169,6 +170,7 @@ class Collector:
             "failures": self.failures,
             "errata_dropped": [erratum.to_json() for erratum in dropped],
             "overrides_applied": [override.to_json() for override in applied],
+            "needs_verification": [override.to_json() for override in applied if override.needs_verification],
             "unresolved_polities": dict(sorted(catalog.unresolved.items())),
             "ignored_cliopatria_steps": [asdict(spike) for spike in cliopatria.spikes],
             "lineage_handovers": [handover.to_json() for handover in lineages.handovers],

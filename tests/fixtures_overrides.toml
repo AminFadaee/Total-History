@@ -1,0 +1,81 @@
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "period"
+action = "set"
+value = { start = 1000, end = 1200, circa = true }
+source = "https://example.org/period"
+quote = "from 1000 to 1200"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "capital"
+action = "add"
+value = "Newtown"
+value_id = "Q3"
+source = "https://example.org/capital"
+quote = "Newtown was its capital"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "key_figures"
+action = "set"
+value = ["Ruler B", "Ruler A"]
+value_id = ["Q5", "Q4"]
+source = "https://example.org/rulers"
+quote = "Ruler B then Ruler A"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "before"
+action = "add"
+value = "Oldland"
+value_id = "Q2"
+region = "Testregion"
+source = "https://example.org/before"
+quote = "Oldland came before"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "after"
+action = "none"
+note = "still exists"
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "map_year"
+action = "set"
+value = 1100
+source = ""
+quote = ""
+needs_verification = true
+note = "check the peak year"
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "modern_countries"
+action = "set"
+value = ["Testia", "Otheria"]
+source = "https://example.org/countries"
+quote = "Testia and Otheria"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "summary"
+action = "set"
+value = "A test state."
+source = "https://example.org/summary"
+quote = "A test state"
+retrieved = 2026-10-20

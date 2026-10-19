@@ -68,184 +68,248 @@
     {
       "civilization": "Chola dynasty",
       "field": "capital",
+      "action": "add",
       "value": "Thanjavur"
     },
     {
       "civilization": "Chola dynasty",
       "field": "capital",
+      "action": "add",
       "value": "Gangaikonda Cholapuram"
     },
     {
       "civilization": "Lombards",
-      "field": "period_start",
-      "value": 568
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 568,
+        "circa": false
+      }
     },
     {
       "civilization": "Lombards",
-      "field": "period_end",
-      "value": 774
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 774,
+        "circa": false
+      }
     },
     {
       "civilization": "Lombards",
       "field": "capital",
+      "action": "add",
       "value": "Pavia"
     },
     {
       "civilization": "Olmec Civilization",
-      "field": "period_start",
-      "value": -1200
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1200,
+        "circa": true
+      }
     },
     {
       "civilization": "Olmec Civilization",
-      "field": "period_end",
-      "value": -400
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": -400,
+        "circa": true
+      }
     },
     {
       "civilization": "Minoan civilization",
-      "field": "period_start",
-      "value": -3000
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -3000,
+        "circa": true
+      }
     },
     {
       "civilization": "Minoan civilization",
-      "field": "period_end",
-      "value": -1100
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": -1100,
+        "circa": true
+      }
     },
     {
       "civilization": "Elam",
-      "field": "period_start",
-      "value": -3200
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -3200,
+        "circa": true
+      }
     },
     {
       "civilization": "Elam",
-      "field": "period_end",
-      "value": -539
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": -539,
+        "circa": true
+      }
     },
     {
       "civilization": "Elam",
       "field": "after",
+      "action": "add",
       "value": "Achaemenid Empire"
     },
     {
       "civilization": "Kingdom of Kush",
-      "field": "period_start",
-      "value": -1069
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1069,
+        "circa": true
+      }
     },
     {
       "civilization": "Kingdom of Kush",
       "field": "before",
+      "action": "add",
       "value": "New Kingdom of Egypt"
     },
     {
       "civilization": "Aztec Triple Alliance",
       "field": "before",
+      "action": "add",
       "value": "Tepanec"
     },
     {
       "civilization": "Mali Empire",
       "field": "before",
+      "action": "add",
       "value": "Sosso Empire"
     },
     {
       "civilization": "Mali Empire",
       "field": "after",
+      "action": "add",
       "value": "Songhai Empire"
     },
     {
       "civilization": "Gupta Empire",
       "field": "after",
+      "action": "add",
       "value": "Pushyabhuti dynasty"
     },
     {
       "civilization": "Akkadian Empire",
       "field": "after",
+      "action": "add",
       "value": "Gutian dynasty of Sumer"
     },
     {
       "civilization": "Qin dynasty",
       "field": "before",
+      "action": "add",
       "value": "Zhou dynasty"
     },
     {
       "civilization": "Uyghur Khaganate",
       "field": "after",
+      "action": "add",
       "value": "Kyrgyz Khaganate"
     },
     {
       "civilization": "Tenochtitlan",
       "field": "after",
+      "action": "add",
       "value": "New Spain"
     },
     {
       "civilization": "Nazi Germany",
       "field": "after",
+      "action": "add",
       "value": "Allied-occupied Germany"
     },
     {
       "civilization": "Empire of Japan",
       "field": "after",
+      "action": "add",
       "value": "Occupation of Japan"
     },
     {
       "civilization": "Ethiopian Empire",
       "field": "after",
+      "action": "add",
       "value": "Derg"
     },
     {
       "civilization": "Khazaria",
       "field": "before",
+      "action": "add",
       "value": "Western Turkic Khaganate"
     },
     {
       "civilization": "Spanish Empire",
       "field": "before",
+      "action": "add",
       "value": "Crown of Castile"
     },
     {
       "civilization": "Kingdom of Germany",
-      "field": "key_figure",
+      "field": "key_figures",
+      "action": "add",
       "value": "Henry the Fowler"
     },
     {
       "civilization": "Kingdom of Germany",
-      "field": "key_figure",
+      "field": "key_figures",
+      "action": "add",
       "value": "Otto I"
     },
     {
       "civilization": "White Huns",
-      "field": "key_figure",
+      "field": "key_figures",
+      "action": "add",
       "value": "Toramana"
     },
     {
       "civilization": "White Huns",
-      "field": "key_figure",
+      "field": "key_figures",
+      "action": "add",
       "value": "Mihirakula"
     },
     {
       "civilization": "Caucasian Albania",
-      "field": "key_figure",
+      "field": "key_figures",
+      "action": "add",
       "value": "Vachagan III"
     },
     {
       "civilization": "Sabaeans",
-      "field": "key_figure",
+      "field": "key_figures",
+      "action": "add",
       "value": "Karib'il Watar"
     },
     {
       "civilization": "Chimor",
-      "field": "key_figure",
+      "field": "key_figures",
+      "action": "add",
       "value": "Taycanamo"
     },
     {
       "civilization": "Chimor",
-      "field": "key_figure",
+      "field": "key_figures",
+      "action": "add",
       "value": "Minchançaman"
     },
     {
       "civilization": "Yugoslavia",
-      "field": "key_figure",
+      "field": "key_figures",
+      "action": "add",
       "value": "Josip Broz Tito"
     }
   ],
+  "needs_verification": [],
   "unresolved_polities": {
     "Ahi Republic": "Wikipedia link 'Ahis' is not a polity article",
     "Alans": "Wikipedia link 'Alans' is not a polity article",

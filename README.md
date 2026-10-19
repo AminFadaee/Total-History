@@ -287,11 +287,18 @@ civilization's successor, predecessor, key figure or capital to drop, each with 
 nothing is ever added or changed by hand. `collect` applies it last, records what it dropped in `data/report.json`, and a
 test fails on an entry that no longer matches anything.
 
-`data/overrides.toml` is the reverse: a reviewed, sourced list of facts the automated sources miss or get wrong, such as
-a missing predecessor, successor, capital or key figure, or a period the sources leave open. Each entry cites its
-source page, quotes the passage and gives the date it was read. `collect` applies the list after the errata, only ever
-adding or setting, records it in `data/report.json`, and fails if an override contradicts an erratum or a test finds one
-missing from the data.
+`data/overrides.toml` is the reverse: a reviewed, sourced list of facts the automated sources miss or get wrong. An
+entry names a civilization, one field (`before`, `after`, `period`, `capital`, `key_figures`, `map_year`,
+`modern_countries` or `summary`) and an action: `add` appends to a list, `set` replaces the field (the whole list for
+capitals, key figures and modern countries; `{ start, end, circa }` or `{ since }` for a period) and `none` records that
+the field does not apply, with the reason, in the civilization's `checks.not_applicable`, so a deliberate gap can be told
+from a missing one. Setting `map_year` redraws the map at that year, and the parts and modern countries follow it unless
+an override sets them as well. Each entry cites its source page, quotes the passage and gives the date it was read; an
+entry flagged `needs_verification` is applied too but may leave the source empty, and is listed under
+`needs_verification` in `data/report.json` for a manual check. `collect` applies the list after the errata, records it in
+`data/report.json`, and fails if an override contradicts an erratum or a test finds one missing from the data. Errata
+entries carry the same source, quote and flag. A test lists every civilization with a field neither filled nor marked not
+applicable.
 
 Two language-inference models read texts for the successions and the key figures (DeBERTa, about 740 MB, and BART,
 about 1.6 GB). They come with the same extra, are downloaded into `cache/` the first time a text is new to them, and their
