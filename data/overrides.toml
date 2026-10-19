@@ -1,0 +1,388 @@
+# Reviewed, sourced facts the automated sources miss or get wrong. Every entry cites its source and quotes the passage.
+
+[[override]]
+civilization = "Chola dynasty"
+civilization_id = "Q151148"
+field = "capital"
+value = "Thanjavur"
+value_id = "Q41496"
+source = "https://www.worldhistory.org/Tanjavur/"
+quote = "Thanjavur was the capital of the great Chola (Cola) king Rajaraja I"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Chola dynasty"
+civilization_id = "Q151148"
+field = "capital"
+value = "Gangaikonda Cholapuram"
+value_id = "Q1493439"
+source = "https://www.worldhistory.org/article/1992/chola-art--architecture/"
+quote = "Rajendra Chola I (r. 1012–1044) who constructed the monumental Brihadisvara temple at Gangaikondacholisvaram in his new capital city (for a brief period)"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Lombards"
+civilization_id = "Q130900"
+field = "period_start"
+value = 568
+circa = false
+source = "https://www.worldhistory.org/Lombards/"
+quote = "In 568 CE they left Pannonia en masse and invaded Italy, setting up the Lombard Kingdom under their king Alboin"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Lombards"
+civilization_id = "Q130900"
+field = "period_end"
+value = 774
+circa = false
+source = "https://www.worldhistory.org/Lombards/"
+quote = "it lasted until 774 CE when they were defeated by the Franks"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Lombards"
+civilization_id = "Q130900"
+field = "capital"
+value = "Pavia"
+value_id = "Q6259"
+source = "https://www.worldhistory.org/Lombards/"
+quote = "establishing his capital at Verona until Pavia had been taken"
+retrieved = 2026-10-20
+note = "source: Verona first, then Pavia; Pavia is the later capital"
+
+[[override]]
+civilization = "Olmec Civilization"
+civilization_id = "Q135364"
+field = "period_start"
+value = -1200
+circa = true
+source = "https://www.worldhistory.org/Olmec_Civilization/"
+quote = "prospered in Pre-Classical (Formative) Mesoamerica from c. 1200 BCE to c. 400 BCE"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Olmec Civilization"
+civilization_id = "Q135364"
+field = "period_end"
+value = -400
+circa = true
+source = "https://www.worldhistory.org/Olmec_Civilization/"
+quote = "prospered in Pre-Classical (Formative) Mesoamerica from c. 1200 BCE to c. 400 BCE"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Minoan civilization"
+civilization_id = "Q134178"
+field = "period_start"
+value = -3000
+circa = true
+source = "https://www.worldhistory.org/Minoan_Civilization/"
+quote = "Early Bronze Age or Early Minoan (EM): 3000-2100 BCE"
+retrieved = 2026-10-20
+note = "the same page headlines c. 2000 - c. 1450 BCE as the flourishing (palatial) phase; the full Early-to-Late Minoan span is 3000-1100 BCE"
+
+[[override]]
+civilization = "Minoan civilization"
+civilization_id = "Q134178"
+field = "period_end"
+value = -1100
+circa = true
+source = "https://www.worldhistory.org/Minoan_Civilization/"
+quote = "Late Bronze Age or Late Minoan (LM): 1600-1100 BCE"
+retrieved = 2026-10-20
+note = "see period_start note; headline flourishing ends c. 1450 BCE"
+
+[[override]]
+civilization = "Elam"
+civilization_id = "Q128904"
+field = "period_start"
+value = -3200
+circa = true
+source = "https://www.worldhistory.org/elam/"
+quote = "Proto-Elamite Period (c. 3200 to c. 2700 BCE)"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Elam"
+civilization_id = "Q128904"
+field = "period_end"
+value = -539
+circa = true
+source = "https://www.worldhistory.org/elam/"
+quote = "Neo-Elamite Period (c. 1100 to c. 539 BCE)"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Elam"
+civilization_id = "Q128904"
+field = "after"
+value = "Achaemenid Empire"
+value_id = "Q389688"
+region = "Iran"
+source = "https://www.worldhistory.org/elam/"
+quote = "after the region was conquered by the first Achaemenid king, Cyrus II (the Great, reign circa 550-530 BCE)"
+retrieved = 2026-10-20
+note = "region Iran: source speaks of the conquered region (Susa/Elam), not a country"
+
+[[override]]
+civilization = "Kingdom of Kush"
+civilization_id = "Q241790"
+field = "period_start"
+value = -1069
+circa = true
+source = "https://www.worldhistory.org/Kush/"
+quote = "the Kingdom of Kush flourished between c. 1069 BCE and 350 CE"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Kingdom of Kush"
+civilization_id = "Q241790"
+field = "before"
+value = "New Kingdom of Egypt"
+value_id = "Q180568"
+region = "Sudan"
+source = "https://www.worldhistory.org/Kush/"
+quote = "The New Kingdom of Egypt (c. 1570-1069 BCE) was in the final stages of decline c. 1069 BCE, which empowered the Kushite city-state of Napata."
+retrieved = 2026-10-20
+note = "region is Kush's own home region, as the data keeps one home region per civilization; the predecessor itself was Egyptian"
+
+[[override]]
+civilization = "Aztec Triple Alliance"
+civilization_id = "Q2608489"
+field = "before"
+value = "Tepanec"
+value_id = "Q1537180"
+region = "Mexico"
+source = "https://www.worldhistory.org/Aztec_Civilization/"
+quote = "Azcapotzalco, capital of the Tepanec. These two empires came face to face in 1428 with the Tepanec War . The Azcapotzalco forces were defeated by an alliance of Texcoco"
+retrieved = 2026-10-20
+note = "Wikidata has only the Tepanec people item (no Tepanec Empire item found)"
+
+[[override]]
+civilization = "Mali Empire"
+civilization_id = "Q184536"
+field = "before"
+value = "Sosso Empire"
+value_id = "Q13099593"
+region = "Mali"
+source = "https://www.worldhistory.org/Mali_Empire/"
+quote = "founded by Sundiata Keita (r. 1230-1255) following his victory over the kingdom of Sosso (c. 1180-1235)"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Mali Empire"
+civilization_id = "Q184536"
+field = "after"
+value = "Songhai Empire"
+value_id = "Q202687"
+region = "Mali"
+source = "https://www.worldhistory.org/Songhai_Empire/"
+quote = "It replaced the Mali Empire (1240-1645) as the most important state in West Africa."
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Gupta Empire"
+civilization_id = "Q11774"
+field = "after"
+value = "Pushyabhuti dynasty"
+value_id = "Q28109312"
+region = "India"
+source = "https://www.worldhistory.org/Pushyabhuti_Dynasty/"
+quote = "rose after the downfall of the Gupta Empire (3rd century CE - 6th century CE) in the 6th century CE in northern India"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Akkadian Empire"
+civilization_id = "Q4461035"
+field = "after"
+value = "Gutian dynasty of Sumer"
+value_id = "Q1064034"
+region = "Iraq"
+source = "https://www.worldhistory.org/Gutians/"
+quote = "After the fall of the Akkadian Empire, the Gutians claimed succession and ruled in Sumer"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Qin dynasty"
+civilization_id = "Q7183"
+field = "before"
+value = "Zhou dynasty"
+value_id = "Q35216"
+region = "China"
+source = "https://www.worldhistory.org/Zhou_Dynasty/"
+quote = "It followed the Shang Dynasty (c. 1600-1046 BCE), and preceded the Qin Dynasty (221-206 BCE"
+retrieved = 2026-10-20
+note = "Zhou -> Qin dynasty; the Qin state (slug qin) is the more exact predecessor but this source names Zhou"
+
+[[override]]
+civilization = "Uyghur Khaganate"
+civilization_id = "Q831218"
+field = "after"
+value = "Kyrgyz Khaganate"
+value_id = "Q2047076"
+region = "Mongolia"
+source = "https://www.worldhistory.org/Emperor_Wuzong_of_Tang/"
+quote = "having lost much of their territory to the Kyrgyz nomadic confederation"
+retrieved = 2026-10-20
+note = "source names the Kyrgyz confederation but not its location or the name Yenisei; region Mongolia is not stated by the source"
+
+[[override]]
+civilization = "Tenochtitlan"
+civilization_id = "Q13695"
+field = "after"
+value = "New Spain"
+value_id = "Q170603"
+region = "Mexico"
+source = "https://www.worldhistory.org/Tenochtitlan/"
+quote = "What was left of the city was made into the capital of New Spain, as the Spanish called their new colony."
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Nazi Germany"
+civilization_id = "Q7318"
+field = "after"
+value = "Allied-occupied Germany"
+value_id = "Q2415901"
+region = "Germany"
+source = "https://history.state.gov/milestones/1937-1945/potsdam-conf"
+quote = "the negotiators confirmed the status of a demilitarized and disarmed Germany under four zones of Allied occupation"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Empire of Japan"
+civilization_id = "Q188712"
+field = "after"
+value = "Occupation of Japan"
+value_id = "Q696251"
+region = "Japan"
+source = "https://history.state.gov/milestones/1945-1952/japan-reconstruction"
+quote = "The occupation of Japan can be divided into three phases"
+retrieved = 2026-10-20
+note = "Wikidata item is the event Occupation of Japan; no separate Allied-occupied Japan state item found"
+
+[[override]]
+civilization = "Ethiopian Empire"
+civilization_id = "Q207521"
+field = "after"
+value = "Derg"
+value_id = "Q828005"
+region = "Ethiopia"
+source = "https://history.state.gov/historicaldocuments/frus1977-80v17p1/d2"
+quote = "The Derg, which means"
+retrieved = 2026-10-20
+note = "also https://history.state.gov/milestones/1977-1980/horn-of-africa : \"arrested and deposed Haile Selassie in September 1974\""
+
+[[override]]
+civilization = "Khazaria"
+civilization_id = "Q173282"
+field = "before"
+value = "Western Turkic Khaganate"
+value_id = "Q874357"
+region = "Russia"
+source = "https://www.iranicaonline.org/articles/khazars/"
+quote = "which followed the fall of the Western Turkic Qaḡanate in 659"
+retrieved = 2026-10-20
+note = "source does not name the home region; region Russia (Khazar core) is from our data, not the source"
+
+[[override]]
+civilization = "Spanish Empire"
+civilization_id = "Q80702"
+field = "before"
+value = "Crown of Castile"
+value_id = "Q217196"
+region = "Spain"
+source = "https://www.worldhistory.org/Isabella_I_of_Castile/"
+quote = "was Queen of Castile (r. 1474-1504) and of Aragon (r. 1479-1504) alongside her husband Ferdinand II of Aragon"
+retrieved = 2026-10-20
+note = "supports the union of the two crowns that preceded the Spanish Empire; does not use the word predecessor"
+
+[[override]]
+civilization = "Kingdom of Germany"
+civilization_id = "Q175211"
+field = "key_figure"
+value = "Henry the Fowler"
+value_id = "Q150620"
+source = "https://www.worldhistory.org/Carolingian_Dynasty/"
+quote = "then to Henry the Fowler (r. 919-936), the Saxon patriarch of the Ottonian Dynasty"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Kingdom of Germany"
+civilization_id = "Q175211"
+field = "key_figure"
+value = "Otto I"
+value_id = "Q43915"
+source = "https://www.worldhistory.org/Holy_Roman_Empire/"
+quote = "Otto I, King of Germany (r. 936-973) and Holy Roman Emperor (r. 962-973)"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "White Huns"
+civilization_id = "Q26576"
+field = "key_figure"
+value = "Toramana"
+value_id = "Q2588669"
+source = "https://www.worldhistory.org/White_Huns_(Hephthalites)/"
+quote = "Toramana ; Son of Tunjina. 484-515"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "White Huns"
+civilization_id = "Q26576"
+field = "key_figure"
+value = "Mihirakula"
+value_id = "Q2573564"
+source = "https://www.worldhistory.org/White_Huns_(Hephthalites)/"
+quote = "Mihirakula ; Son of Toramana. 515-533"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Caucasian Albania"
+civilization_id = "Q177076"
+field = "key_figure"
+value = "Vachagan III"
+value_id = "Q1809709"
+source = "https://www.iranicaonline.org/articles/albania-iranian-aran-arm/"
+quote = "It was the Sasanian Balāš (r. 484-88) who decided to reestablish the Albanian monarchy in the person of Vačagan, son of Yazdegerd"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Sabaeans"
+civilization_id = "Q216068"
+field = "key_figure"
+value = "Karib'il Watar"
+value_id = "Q1250005"
+source = "https://www.worldhistory.org/Kingdom_of_Saba/"
+quote = "the man considered the greatest of the Sabean monarchs, Karib'il Watar (7th/6th century BCE)"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Chimor"
+civilization_id = "Q581741"
+field = "key_figure"
+value = "Taycanamo"
+value_id = "Q6137880"
+source = "https://www.worldhistory.org/Chimu_Civilization/"
+quote = "The traditional founding ruler of the Chimú was Taycanamo"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Chimor"
+civilization_id = "Q581741"
+field = "key_figure"
+value = "Minchançaman"
+value_id = "Q9033295"
+source = "https://www.worldhistory.org/Chimu_Civilization/"
+quote = "the 11th known Chimú ruler Minchançaman c. 1470 CE"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Yugoslavia"
+civilization_id = "Q36704"
+field = "key_figure"
+value = "Josip Broz Tito"
+value_id = "Q9161"
+source = "https://history.state.gov/countries/kingdom-of-yugoslavia"
+quote = "under its long-time president Josip Tito, Yugoslavia balanced relations between East and West"
+retrieved = 2026-10-20

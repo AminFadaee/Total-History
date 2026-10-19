@@ -287,6 +287,12 @@ civilization's successor, predecessor, key figure or capital to drop, each with 
 nothing is ever added or changed by hand. `collect` applies it last, records what it dropped in `data/report.json`, and a
 test fails on an entry that no longer matches anything.
 
+`data/overrides.toml` is the reverse: a reviewed, sourced list of facts the automated sources miss or get wrong, such as
+a missing predecessor, successor, capital or key figure, or a period the sources leave open. Each entry cites its
+source page, quotes the passage and gives the date it was read. `collect` applies the list after the errata, only ever
+adding or setting, records it in `data/report.json`, and fails if an override contradicts an erratum or a test finds one
+missing from the data.
+
 Two language-inference models read texts for the successions and the key figures (DeBERTa, about 740 MB, and BART,
 about 1.6 GB). They come with the same extra, are downloaded into `cache/` the first time a text is new to them, and their
 readings are kept in `data/succession_scores.json` and `data/ruler_scores.json`, so a collect on the committed data
