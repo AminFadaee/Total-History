@@ -119,7 +119,7 @@ succession_absent = [
   { civilization = "Kingdom of Wessex", side = "before", other = "Kingdom of Sussex", open = true },
   { civilization = "Second Polish Republic", side = "after", other = "Union of Soviet Socialist Republics", open = true },
   { civilization = "Jalayirid Sultanate", side = "after", other = "Timurid Empire", open = true },
-  { civilization = "Nguyễn dynasty", side = "after", other = "Republic of Vietnam", open = true },
+  { civilization = "Nguyễn dynasty", side = "after", other = "Republic of Vietnam" },
   { civilization = "Northern Yuan", side = "after", other = "Four Oirats" },
   { civilization = "Odrysian Kingdom", side = "after", other = "Macedonia" },
   { civilization = "Srivijaya", side = "after", other = "Majapahit" },
