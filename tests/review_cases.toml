@@ -115,7 +115,7 @@ succession_absent = [
   { civilization = "Macedonia", side = "after", other = "Antigonid dynasty" },
   { civilization = "Qin dynasty", side = "before", other = "Qin" },
   { civilization = "Inca Empire", side = "after", other = "Neo-Inca State", open = true },
-  { civilization = "Kushan Empire", side = "after", other = "Gupta Empire", open = true },
+  { civilization = "Kushan Empire", side = "after", other = "Gupta Empire" },
   { civilization = "Kingdom of Wessex", side = "before", other = "Kingdom of Sussex", open = true },
   { civilization = "Second Polish Republic", side = "after", other = "Union of Soviet Socialist Republics", open = true },
   { civilization = "Jalayirid Sultanate", side = "after", other = "Timurid Empire", open = true },

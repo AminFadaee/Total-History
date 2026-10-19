@@ -244,3 +244,14 @@ def test_what_lines_keep_to_the_period(civilizations):
         if (said := stated_years(civilization.get("summary") or "")) and said[0] <= said[1]
         and (years := span(civilization, cliopatria=False))
         and (said[0] < years[0] - STATED_YEAR_SLACK or said[1] > years[1] + STATED_YEAR_SLACK)})
+
+
+def test_every_erratum_matched_something_in_the_last_collect(civilizations):
+    errata = tomllib.loads((DATA / "errata.toml").read_text())["remove"]
+    dropped = json.loads((DATA / "report.json").read_text())["errata_dropped"]
+    fields = ("civilization", "field", "value")
+    stale = [entry for entry in errata if not any(all(entry[key] == found[key] for key in fields) for found in dropped)]
+    assert not stale, stale
+    for entry in errata:
+        answers = civilizations[entry["civilization"]][entry["field"]]
+        assert entry["value"] not in [answer["name"] for answer in answers], entry
