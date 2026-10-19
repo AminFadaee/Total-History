@@ -8,6 +8,7 @@ from urllib.parse import quote
 
 from PIL import Image
 
+from page_in_history.errata import apply_errata, load_errata
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
 from page_in_history.lineages import Lineages
@@ -58,6 +59,10 @@ class DataPaths:
         return self.root / "images"
 
     @property
+    def errata(self) -> pathlib.Path:
+        return self.root / "errata.toml"
+
+    @property
     def report(self) -> pathlib.Path:
         return self.root / "report.json"
 
@@ -97,6 +102,7 @@ class Collector:
         builder.choose_key_figures(polities, figures, scores)
         scores.save()
         builder.assign_tiers(polities)
+        dropped = apply_errata(polities, load_errata(self.paths.errata))
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))
         self.failures: list[str] = []
@@ -111,7 +117,7 @@ class Collector:
                 figure.image, figure.photo = "", ""
         self._write(polities, figures)
         write_json(self.paths.root / "extended.json", figure_builder.extended)
-        self._report(scope, catalog, cliopatria, lineages, polities, figures)
+        self._report(scope, catalog, cliopatria, lineages, polities, figures, dropped)
 
     def _draw(self, polities: list[Polity], cliopatria: Cliopatria, countries, builder: PolityBuilder) -> None:
         jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
@@ -147,12 +153,13 @@ class Collector:
         logger.info("Wrote %d civilizations and %d figures", len(polities), len(figures))
 
     def _report(self, scope: Slice, catalog: PolityCatalog, cliopatria: Cliopatria, lineages: Lineages, polities,
-                figures) -> None:
+                figures, dropped) -> None:
         write_json(self.paths.report, {
             "slice": asdict(scope),
             "civilizations": len(polities),
             "figures": len(figures),
             "failures": self.failures,
+            "errata_dropped": [erratum.to_json() for erratum in dropped],
             "unresolved_polities": dict(sorted(catalog.unresolved.items())),
             "ignored_cliopatria_steps": [asdict(spike) for spike in cliopatria.spikes],
             "lineage_handovers": [handover.to_json() for handover in lineages.handovers],

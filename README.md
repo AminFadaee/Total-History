@@ -282,6 +282,11 @@ Photographs are recognised with an image model by default. It needs the optional
 `tokenizers`) and downloads about 800 MB of model files into `cache/` on first use. `--photos metadata` skips the model
 and relies on Commons categories alone.
 
+`data/errata.toml` lists answers the sources give correctly but the rules pick wrongly, as found by outside reviews: a
+civilization's successor, predecessor, key figure or capital to drop, each with the review's reason. It only removes;
+nothing is ever added or changed by hand. `collect` applies it last, records what it dropped in `data/report.json`, and a
+test fails on an entry that no longer matches anything.
+
 Two language-inference models read texts for the successions and the key figures (DeBERTa, about 740 MB, and BART,
 about 1.6 GB). They come with the same extra, are downloaded into `cache/` the first time a text is new to them, and their
 readings are kept in `data/succession_scores.json` and `data/ruler_scores.json`, so a collect on the committed data

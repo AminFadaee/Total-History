@@ -1070,7 +1070,9 @@ class PolityBuilder:
         asked as its own card, is in its home region (today's country at its longest-held capital); the others are
         other regions. An answer from the other side or a leader fills the
         home only when the two overlap by five years at most, or by 30 when it held land near the home at the change,
-        and, when both are on the maps, it held the home point at some time. A home still empty takes a state outside the
+        and, when both are on the maps, it held the home point at some time. A map answer outside the deck that changed
+        more than five years late gives way to a stated state that changed within five years after (North Vietnam, not
+        South Vietnam, after the Nguyễn dynasty). A home still empty takes a state outside the
         deck that the sources name and that the maps or its place put at the home (see _stated_neighbour); failing
         that, the state the quality-badged articles on it agree on (see _badged_neighbours); failing that, the state
         three of the independent voters agree on (see _agreed_neighbours)."""
@@ -1136,6 +1138,9 @@ class PolityBuilder:
                         [edge for edge in others if edge["region"] == region
                          and (anchor is None or self._fills_home(polity, edge["id"], side, anchor.point))][:1] or fallback
                     others = [edge for edge in others if edge["region"] != region]
+                if home and home[0]["id"] not in deck and self._begins_late(polity, side, home[0]["id"]):
+                    home = self._stated_neighbour(polity, side, homes[polity.id], anchors[polity.id],
+                                                  edges_of[polity.id][side == "after"], named, meeting=True) or home
                 if not home and (polity.id, side) not in blocked \
                         and not (side == "after" and self.succession.partitioned(polity.id, self._span(polity.id))):
                     home = self._stated_neighbour(polity, side, homes[polity.id], anchors[polity.id],
@@ -1150,8 +1155,14 @@ class PolityBuilder:
         for (qid, side), edge in {**badged, **self._agreed_neighbours(unanswered, anchors, homes, texts)}.items():
             setattr(deck[qid], side, [{**edge, "home": True}] + getattr(deck[qid], side))
 
+    def _begins_late(self, polity: Polity, side: str, other: str) -> bool:
+        """Whether the answer outside the deck began (ended) more than five years after (before) the civilization ended
+        (began)."""
+        mine, theirs = self._span(polity.id), self._span(other)
+        return bool(mine and theirs) and (theirs[0] - mine[1] if side == "after" else mine[0] - theirs[1]) > CONSECUTIVE_YEARS
+
     def _stated_neighbour(self, polity: Polity, side: str, region: str, anchor: Anchor | None, edge,
-                          editions: dict[str, int]) -> list[dict]:
+                          editions: dict[str, int], meeting: bool = False) -> list[dict]:
         """For a home side left empty, the state outside the deck that the sources name before (after) it, known in at
         least 20 languages, that ended (began) within 30 years of its start (end) and is not a city, a subdivision, an
         event or a mere occupation zone. The sources are the civilization's Wikidata and infobox and the state's own
@@ -1184,6 +1195,8 @@ class PolityBuilder:
             if change is None and years:
                 change = years[1 if before else 0]
             if change is None or abs(change - moment) > WINDOW_YEARS:
+                continue
+            if meeting and not 0 <= (moment - change if before else change - moment) <= CONSECUTIVE_YEARS:
                 continue
             votes = (other in named) + (other in boxed) + (polity.id in item.ids(*(("P1366", "P156") if before else ("P1365", "P155"))))
             abroad = False

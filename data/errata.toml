@@ -1,0 +1,65 @@
+[[remove]]
+civilization = "Golden Horde"
+field = "after"
+value = "Khanate of Kazan"
+reason = "Outside review: Kazan broke away while the Golden Horde still stood, it did not follow it."
+
+[[remove]]
+civilization = "Timurid Empire"
+field = "before"
+value = "Ilkhanate"
+reason = "Outside review: the Ilkhanate fell in 1335, 35 years before Timur; the Jalayirids and the Chagatai Khanate came between."
+
+[[remove]]
+civilization = "Dutch East Indies"
+field = "before"
+value = "Sultanate of Banten"
+reason = "Outside review: Banten was one of the states the colony absorbed, not the state that came before it."
+
+[[remove]]
+civilization = "Kanem–Bornu Empire"
+field = "after"
+value = "Sokoto Caliphate"
+reason = "Outside review: the Sokoto Caliphate was a neighbour in its last century, Bornu did not pass to it."
+
+[[remove]]
+civilization = "Sumerian City-States"
+field = "after"
+value = "Babylonia"
+reason = "Outside review: Babylonia rose centuries later, after Akkad and the Third Dynasty of Ur."
+
+[[remove]]
+civilization = "Qing Dynasty"
+field = "before"
+value = "Later Jin Dynasty"
+reason = "Outside review: the Later Jin was the same state as the Qing under its earlier name."
+
+[[remove]]
+civilization = "Netherlands"
+field = "before"
+value = "United Kingdom of the Netherlands"
+reason = "Outside review: the United Kingdom of the Netherlands was the same kingdom in its earlier form, not another state."
+
+[[remove]]
+civilization = "Kushan Empire"
+field = "after"
+value = "Gupta Empire"
+reason = "Outside review: the Gupta Empire rose in the Ganges plain, not in the Kushan home; the Kushano-Sasanians followed."
+
+[[remove]]
+civilization = "Chu"
+field = "key_figures"
+value = "Li Si"
+reason = "Outside review: Li Si was born in Chu but served Qin."
+
+[[remove]]
+civilization = "Shu Han"
+field = "key_figures"
+value = "Zhao Yun"
+reason = "Outside review: a general listed out of order, with no dates, among the rulers."
+
+[[remove]]
+civilization = "Göktürk Khaganate"
+field = "key_figures"
+value = "Muqan Qaghan"
+reason = "Outside review: listed before Bumin Qaghan, out of order."

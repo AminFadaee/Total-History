@@ -1,0 +1,45 @@
+import logging
+import pathlib
+import tomllib
+from dataclasses import dataclass
+
+from page_in_history.polities import Polity
+
+REMOVABLE_FIELDS = ("before", "after", "key_figures", "capitals")
+
+logger = logging.getLogger(__name__)
+
+
+@dataclass(frozen=True)
+class Erratum:
+    civilization: str
+    field: str
+    value: str
+    reason: str
+
+    def to_json(self) -> dict:
+        return {"civilization": self.civilization, "field": self.field, "value": self.value}
+
+
+def load_errata(path: pathlib.Path) -> list[Erratum]:
+    entries = tomllib.loads(path.read_text()).get("remove", []) if path.exists() else []
+    errata = [Erratum(**entry) for entry in entries]
+    for erratum in errata:
+        if erratum.field not in REMOVABLE_FIELDS:
+            raise ValueError(f"{erratum.civilization}: {erratum.field} is not a list that errata may remove from")
+    return errata
+
+
+def apply_errata(polities: list[Polity], errata: list[Erratum]) -> list[Erratum]:
+    """Drops each listed answer from its civilization and returns the entries that matched something."""
+    by_name = {polity.name: polity for polity in polities}
+    dropped = []
+    for erratum in errata:
+        items = getattr(by_name[erratum.civilization], erratum.field) if erratum.civilization in by_name else []
+        kept = [item for item in items if item["name"] != erratum.value]
+        if len(kept) < len(items):
+            items[:] = kept
+            dropped.append(erratum)
+        else:
+            logger.warning("Errata entry matches nothing: %s, %s, %s", erratum.civilization, erratum.field, erratum.value)
+    return dropped
