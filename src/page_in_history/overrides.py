@@ -71,6 +71,11 @@ def _validate(override: Override) -> None:
         raise ValueError(f"{who}: every value needs its Wikidata id")
     if override.field == "period" and (not isinstance(override.value, dict) or set(override.value) - PERIOD_KEYS):
         raise ValueError(f"{who}: a period is a table of {', '.join(sorted(PERIOD_KEYS))}")
+    if override.field == "map_year" and not isinstance(override.value, int):
+        raise ValueError(f"{who}: a map year is a whole number")
+    if override.field == "period" and any(not isinstance(year, int) for key, year in override.value.items()
+                                           if key in ("start", "end", "since") and year is not None):
+        raise ValueError(f"{who}: period years are whole numbers")
     if override.field in ("map_year", "summary") and override.action == "add":
         raise ValueError(f"{who}: {override.field} can only be set")
     if override.action == "set" and override.field in LIST_FIELDS and not isinstance(override.value, list) \
