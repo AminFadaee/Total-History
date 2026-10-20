@@ -5,13 +5,18 @@
   "wikipedia": "Magadha",
   "map_year": -530,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -1200,
-      -300
-    ],
+    "start": {
+      "earliest": -600,
+      "latest": -600,
+      "circa": true
+    },
+    "end": {
+      "earliest": -345,
+      "latest": -345,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -26,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q949268",
+      "region": "India",
+      "name": "Nanda Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q379242",
@@ -68,6 +80,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "before": "earliest janapada of the eastern Ganges plain; check"
+    },
     "labelled": [
       "Janapada of Anga",
       "Janapada of Malla",

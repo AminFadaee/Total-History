@@ -3,7 +3,7 @@
   "slug": "ajuran-sultanate",
   "name": "Ajuran Sultanate",
   "wikipedia": "Ajuran Sultanate",
-  "map_year": 1102,
+  "map_year": 1500,
   "period": {
     "start": {
       "earliest": 1201,
@@ -19,10 +19,33 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Qelafo",
+      "location": [
+        44.205555555555556,
+        5.591666666666667
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q861784",
+      "region": "Somalia",
+      "name": "Sultanate of Mogadishu",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q862518",
+      "region": "Somalia",
+      "name": "Geledi Sultanate",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Somalia"
@@ -46,6 +69,9 @@
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "home": "the spot held longest",
+    "not_applicable": {
+      "key_figures": "no individual ruler of the Garen/Ajuran state is named in the accessible reference pages; check a specialist source (Cassanelli)"
+    }
   }
 }

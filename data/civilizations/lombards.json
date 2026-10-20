@@ -3,7 +3,7 @@
   "slug": "lombards",
   "name": "Lombards",
   "wikipedia": "Lombards",
-  "map_year": 567,
+  "map_year": 580,
   "period": {
     "start": {
       "earliest": 568,
@@ -30,21 +30,42 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q583038",
+      "region": "Italy",
+      "name": "Ostrogothic Kingdom",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q146246",
+      "region": "Italy",
+      "name": "Francia",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q152877",
       "name": "Alboin"
+    },
+    {
+      "id": "Q315276",
+      "name": "Agilulf"
+    },
+    {
+      "id": "Q251836",
+      "name": "Liutprand, King of the Lombards"
+    },
+    {
+      "id": "Q297520",
+      "name": "Desiderius"
     }
   ],
   "modern_countries": [
-    "Hungary",
-    "Bosnia and Herzegovina",
-    "Austria",
-    "Croatia",
-    "Serbia",
-    "Slovenia"
+    "Italy"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -65,10 +86,12 @@
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
     "labelled": [
-      "Byzantine Empire",
+      "Francia",
       "Avar Khaganate",
+      "Byzantine Empire",
       "Bavarians",
-      "Francia"
+      "Duchy of Tuscia",
+      "Duchy of Spoleto"
     ]
   }
 }

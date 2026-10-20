@@ -3,7 +3,7 @@
   "slug": "danish-overseas-colonies",
   "name": "Danish overseas colonies",
   "wikipedia": "Danish overseas colonies",
-  "map_year": 1536,
+  "map_year": 1800,
   "period": {
     "start": {
       "earliest": 1537,
@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Copenhagen",
+      "location": [
+        12.568888888889,
+        55.676111111111
+      ],
+      "founded": 1167
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [],
@@ -41,7 +50,11 @@
       "name": "Christian X"
     }
   ],
-  "modern_countries": [],
+  "modern_countries": [
+    "Greenland",
+    "Ghana",
+    "India"
+  ],
   "overseas_countries": [],
   "borders": false,
   "summary": "The colonies that Denmark–Norway possessed from 1537 until 1953.",
@@ -58,6 +71,10 @@
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "home": "the spot held longest",
+    "not_applicable": {
+      "before": "Denmark-Norway founded the colonies itself; no earlier state",
+      "after": "Greenland was incorporated into Denmark in 1953 and the other colonies were sold or handed over earlier, so there is no single successor; the Wikipedia sentence carries no citation, check against a reference book"
+    }
   }
 }

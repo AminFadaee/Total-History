@@ -65,18 +65,20 @@
     }
   ],
   "modern_countries": [
-    "Iran",
-    "Pakistan",
-    "Afghanistan",
-    "Egypt",
-    "Turkey",
-    "Iraq",
-    "Syria",
+    "Greece",
     "North Macedonia",
+    "Bulgaria",
     "Albania",
-    "Israel",
+    "Turkey",
+    "Syria",
     "Lebanon",
-    "Palestine"
+    "Israel",
+    "Palestine",
+    "Egypt",
+    "Iraq",
+    "Iran",
+    "Afghanistan",
+    "Pakistan"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -103,6 +105,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Pella",
+    "not_applicable": {
+      "before": "earliest state of Macedon, grown out of Temenid tribal kingship; no preceding state"
+    },
     "labelled": [
       "Nanda Empire",
       "Kingdom of Kush",

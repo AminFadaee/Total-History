@@ -65,12 +65,12 @@
       "name": "Ferdinand II of Aragon"
     },
     {
-      "id": "Q34417",
-      "name": "Philip II of Spain"
+      "id": "Q32500",
+      "name": "Charles V"
     },
     {
-      "id": "Q29179",
-      "name": "Francisco Franco"
+      "id": "Q34417",
+      "name": "Philip II of Spain"
     }
   ],
   "modern_countries": [
@@ -124,6 +124,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "after": "Spain, the home state of the empire, still exists"
+    },
     "labelled": [
       "First French Empire",
       "Morocco",

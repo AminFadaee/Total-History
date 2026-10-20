@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q435583",
+      "region": "Switzerland",
+      "name": "Old Swiss Confederacy",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
@@ -77,6 +84,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Bern",
+    "not_applicable": {
+      "after": "Switzerland still exists as a federal state, so no later state follows"
+    },
     "labelled": [
       "French Third Republic",
       "Austria-Hungary",

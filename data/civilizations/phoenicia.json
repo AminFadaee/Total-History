@@ -5,17 +5,18 @@
   "wikipedia": "Phoenicia",
   "map_year": -615,
   "period": {
-    "start": null,
-    "end": {
-      "earliest": -64,
-      "latest": -64,
-      "circa": false
+    "start": {
+      "earliest": -1500,
+      "latest": -1500,
+      "circa": true
     },
-    "confirmed": false,
-    "core": [
-      -2000,
-      -64
-    ],
+    "end": {
+      "earliest": -332,
+      "latest": -332,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -38,11 +39,26 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q83958",
+      "region": "Lebanon",
+      "name": "Macedonia",
+      "home": true
+    }
+  ],
   "key_figures": [
+    {
+      "id": "Q400275",
+      "name": "Ahiram"
+    },
     {
       "id": "Q467115",
       "name": "Hiram I"
+    },
+    {
+      "id": "Q1879787",
+      "name": "Pygmalion of Tyre"
     }
   ],
   "modern_countries": [
@@ -80,6 +96,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Sidon",
+    "not_applicable": {
+      "before": "grew from the Canaanite coastal cities; no preceding state"
+    },
     "labelled": [
       "Neo-Assyrian Empire"
     ]

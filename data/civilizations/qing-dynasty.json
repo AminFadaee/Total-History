@@ -11,8 +11,8 @@
       "circa": false
     },
     "end": {
-      "earliest": 1911,
-      "latest": 1911,
+      "earliest": 1912,
+      "latest": 1912,
       "circa": false
     },
     "confirmed": true,
@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q9903",
+      "region": "China",
+      "name": "Ming Dynasty",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q13426199",

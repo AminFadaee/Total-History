@@ -34,6 +34,11 @@
       "value": "Babylonia"
     },
     {
+      "civilization": "Babylonia",
+      "field": "before",
+      "value": "Sumerian City-States"
+    },
+    {
       "civilization": "Qing Dynasty",
       "field": "before",
       "value": "Later Jin Dynasty"
@@ -62,6 +67,61 @@
       "civilization": "Göktürk Khaganate",
       "field": "key_figures",
       "value": "Muqan Qaghan"
+    },
+    {
+      "civilization": "Chalukya Dynasty",
+      "field": "capitals",
+      "value": "Manyakheta"
+    },
+    {
+      "civilization": "Chalukya Dynasty",
+      "field": "capitals",
+      "value": "Basavakalyan"
+    },
+    {
+      "civilization": "Jin",
+      "field": "capitals",
+      "value": "Taiyuan"
+    },
+    {
+      "civilization": "Kingdom of Sardinia",
+      "field": "capitals",
+      "value": "Metropolitan City of Cagliari"
+    },
+    {
+      "civilization": "Kingdom of Wessex",
+      "field": "before",
+      "value": "Kingdom of Sussex"
+    },
+    {
+      "civilization": "Margraviate of Brandenburg",
+      "field": "key_figures",
+      "value": "Frederick William III"
+    },
+    {
+      "civilization": "Pala Empire",
+      "field": "capitals",
+      "value": "Murshidabad"
+    },
+    {
+      "civilization": "Republic of Finland",
+      "field": "before",
+      "value": "Kingdom of Finland"
+    },
+    {
+      "civilization": "Republic of Liberia",
+      "field": "before",
+      "value": "Republic of Maryland"
+    },
+    {
+      "civilization": "Rustamid dynasty",
+      "field": "before",
+      "value": "Umayyad Caliphate"
+    },
+    {
+      "civilization": "Viking settlements",
+      "field": "key_figures",
+      "value": "Brian Boru"
     }
   ],
   "overrides_applied": [
@@ -237,12 +297,6 @@
       "value": "Occupation of Japan"
     },
     {
-      "civilization": "Ethiopian Empire",
-      "field": "after",
-      "action": "add",
-      "value": "Derg"
-    },
-    {
       "civilization": "Khazaria",
       "field": "before",
       "action": "add",
@@ -307,9 +361,7320 @@
       "field": "key_figures",
       "action": "add",
       "value": "Josip Broz Tito"
+    },
+    {
+      "civilization": "Ethiopian Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Derg"
+    },
+    {
+      "civilization": "Abbasid Caliphate",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Iraq",
+        "Iran",
+        "Syria",
+        "Jordan",
+        "Israel",
+        "Palestine",
+        "Lebanon",
+        "Saudi Arabia",
+        "Kuwait",
+        "Bahrain",
+        "Qatar",
+        "United Arab Emirates",
+        "Oman",
+        "Yemen",
+        "Egypt",
+        "Libya",
+        "Tunisia",
+        "Afghanistan",
+        "Pakistan",
+        "Turkmenistan",
+        "Uzbekistan",
+        "Tajikistan",
+        "Azerbaijan",
+        "Armenia",
+        "Georgia"
+      ]
+    },
+    {
+      "civilization": "Đại Việt",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 968
+      }
+    },
+    {
+      "civilization": "Đại Việt",
+      "field": "before",
+      "action": "add",
+      "value": "Jinghai Jiedushi"
+    },
+    {
+      "civilization": "Đại Việt",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Đinh Bộ Lĩnh",
+        "Lý Thái Tổ",
+        "Lê Lợi",
+        "Lê Thánh Tông"
+      ]
+    },
+    {
+      "civilization": "Ajuran Sultanate",
+      "field": "capital",
+      "action": "add",
+      "value": "Qelafo"
+    },
+    {
+      "civilization": "Ajuran Sultanate",
+      "field": "after",
+      "action": "add",
+      "value": "Geledi Sultanate"
+    },
+    {
+      "civilization": "Ajuran Sultanate",
+      "field": "before",
+      "action": "add",
+      "value": "Sultanate of Mogadishu"
+    },
+    {
+      "civilization": "Ajuran Sultanate",
+      "field": "map_year",
+      "action": "set",
+      "value": 1500
+    },
+    {
+      "civilization": "Akkadian Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Sumerian City-States"
+    },
+    {
+      "civilization": "Almoravid Dynasty",
+      "field": "before",
+      "action": "add",
+      "value": "Barghawata"
+    },
+    {
+      "civilization": "Angevin Empire",
+      "field": "before",
+      "action": "add",
+      "value": "County of Anjou"
+    },
+    {
+      "civilization": "Aq Qoyunlu",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1378
+      }
+    },
+    {
+      "civilization": "Ashanti Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1701
+      }
+    },
+    {
+      "civilization": "Ashanti Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Denkyira"
+    },
+    {
+      "civilization": "Assyria",
+      "field": "before",
+      "action": "add",
+      "value": "Third Dynasty of Ur"
+    },
+    {
+      "civilization": "Atropatene",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Atropates",
+        "Ariobarzanes II of Atropatene"
+      ]
+    },
+    {
+      "civilization": "Avar Khaganate",
+      "field": "after",
+      "action": "add",
+      "value": "Francia"
+    },
+    {
+      "civilization": "Caliphate of Córdoba",
+      "field": "summary",
+      "action": "set",
+      "value": "A Muslim state in the Iberian Peninsula ruled by the Umayyad dynasty from 929 to 1031."
+    },
+    {
+      "civilization": "Caliphate of Córdoba",
+      "field": "after",
+      "action": "add",
+      "value": "taifa"
+    },
+    {
+      "civilization": "Chagatai Khanate",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1226,
+        "end": 1347
+      }
+    },
+    {
+      "civilization": "Chagatai Khanate",
+      "field": "after",
+      "action": "add",
+      "value": "Moghulistan"
+    },
+    {
+      "civilization": "Chámpa",
+      "field": "before",
+      "action": "add",
+      "value": "Sa Huỳnh culture"
+    },
+    {
+      "civilization": "Chámpa",
+      "field": "after",
+      "action": "add",
+      "value": "Nguyễn dynasty"
+    },
+    {
+      "civilization": "Chimor",
+      "field": "before",
+      "action": "add",
+      "value": "Sican culture"
+    },
+    {
+      "civilization": "Chu",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "King Wu of Chu",
+        "King Zhuang of Chu",
+        "Qu Yuan"
+      ]
+    },
+    {
+      "civilization": "Chu",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -508,
+        "end": -322
+      }
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "after",
+      "action": "add",
+      "value": "Macedonia"
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "map_year",
+      "action": "set",
+      "value": -450
+    },
+    {
+      "civilization": "Cossack Hetmanate",
+      "field": "before",
+      "action": "add",
+      "value": "Polish–Lithuanian Commonwealth"
+    },
+    {
+      "civilization": "Cossack Hetmanate",
+      "field": "after",
+      "action": "add",
+      "value": "Russian Empire"
+    },
+    {
+      "civilization": "Cossack Hetmanate",
+      "field": "map_year",
+      "action": "set",
+      "value": 1670
+    },
+    {
+      "civilization": "Crown of Aragon",
+      "field": "capital",
+      "action": "add",
+      "value": "Zaragoza"
+    },
+    {
+      "civilization": "Crown of Aragon",
+      "field": "capital",
+      "action": "add",
+      "value": "Barcelona"
+    },
+    {
+      "civilization": "Chola dynasty",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Dutch East Indies",
+      "field": "before",
+      "action": "add",
+      "value": "Dutch East India Company"
+    },
+    {
+      "civilization": "Elam",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Empire of China",
+      "field": "before",
+      "action": "add",
+      "value": "Republic of China"
+    },
+    {
+      "civilization": "Empire of China",
+      "field": "after",
+      "action": "add",
+      "value": "Beiyang Government"
+    },
+    {
+      "civilization": "Etruscans",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Etruscans",
+      "field": "before",
+      "action": "add",
+      "value": "Proto-Villanovan culture"
+    },
+    {
+      "civilization": "Etruscans",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -900,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Etruscans",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Tarquinius Priscus",
+        "Lars Porsena",
+        "Tarquinius Superbus"
+      ]
+    },
+    {
+      "civilization": "French colonial empire",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "French colonial empire",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "French First Republic",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Georges Danton",
+        "Maximilien Robespierre",
+        "Napoleon"
+      ]
+    },
+    {
+      "civilization": "Funj Sultanate",
+      "field": "after",
+      "action": "add",
+      "value": "Turkish Sudan"
+    },
+    {
+      "civilization": "German Confederation",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1815
+      }
+    },
+    {
+      "civilization": "German Confederation",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Germany",
+        "Austria",
+        "Czechia",
+        "Poland",
+        "Luxembourg",
+        "Liechtenstein",
+        "Slovenia",
+        "Netherlands",
+        "Denmark",
+        "Italy"
+      ]
+    },
+    {
+      "civilization": "German Confederation",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Klemens von Metternich",
+        "Frederick William IV of Prussia",
+        "Franz Joseph I",
+        "Otto von Bismarck"
+      ]
+    },
+    {
+      "civilization": "Ghana Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 300,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Ghana Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Kaya Maghan Cissé",
+        "Ghana Bassi",
+        "Tunka Manin"
+      ]
+    },
+    {
+      "civilization": "Gojoseon",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -2333,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Gojoseon",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Golden Horde",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1242
+      }
+    },
+    {
+      "civilization": "Golden Horde",
+      "field": "after",
+      "action": "add",
+      "value": "Astrakhan Khanate"
+    },
+    {
+      "civilization": "Grand Duchy of Lithuania",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Great Moravia",
+      "field": "before",
+      "action": "add",
+      "value": "Avar Khaganate"
+    },
+    {
+      "civilization": "Habsburg Monarchy",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1526
+      }
+    },
+    {
+      "civilization": "Habsburg Monarchy",
+      "field": "after",
+      "action": "add",
+      "value": "Republic of Austria"
+    },
+    {
+      "civilization": "Hittites",
+      "field": "before",
+      "action": "add",
+      "value": "Kussara"
+    },
+    {
+      "civilization": "Hittites",
+      "field": "after",
+      "action": "add",
+      "value": "Syro-Hittite states"
+    },
+    {
+      "civilization": "Hunnic Empire",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Hunnic Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 370,
+        "end": 469,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Hunnic Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Alans"
+    },
+    {
+      "civilization": "Hunnic Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of the Gepids"
+    },
+    {
+      "civilization": "Hunnic Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Uldin",
+        "Rugila",
+        "Bleda",
+        "Attila"
+      ]
+    },
+    {
+      "civilization": "Iberian Union",
+      "field": "capital",
+      "action": "add",
+      "value": "Madrid"
+    },
+    {
+      "civilization": "Iberian Union",
+      "field": "before",
+      "action": "add",
+      "value": "Crown of Castile"
+    },
+    {
+      "civilization": "Iberian Union",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of Portugal"
+    },
+    {
+      "civilization": "Iberian Union",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Spain",
+        "Portugal",
+        "Brazil",
+        "Mexico",
+        "Argentina",
+        "Peru",
+        "Bolivia",
+        "Colombia",
+        "Venezuela",
+        "Chile",
+        "Ecuador",
+        "Cuba",
+        "Philippines",
+        "Italy",
+        "Belgium",
+        "Netherlands",
+        "Angola",
+        "Mozambique",
+        "India",
+        "United States"
+      ]
+    },
+    {
+      "civilization": "Indus Valley Civilization",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Indus Valley Civilization",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Indus Valley Civilization",
+      "field": "before",
+      "action": "add",
+      "value": "Mehrgarh"
+    },
+    {
+      "civilization": "Indus Valley Civilization",
+      "field": "after",
+      "action": "add",
+      "value": "Cemetery H culture"
+    },
+    {
+      "civilization": "Janapada of Magadha",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -600,
+        "end": -345,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Janapada of Magadha",
+      "field": "after",
+      "action": "add",
+      "value": "Nanda Empire"
+    },
+    {
+      "civilization": "Janapada of Magadha",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kanem–Bornu Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Rabih az-Zubayr"
+    },
+    {
+      "civilization": "Kanem–Bornu Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Sao civilization"
+    },
+    {
+      "civilization": "Kazakh Khanate",
+      "field": "before",
+      "action": "add",
+      "value": "Golden Horde"
+    },
+    {
+      "civilization": "Khanate of Sibir",
+      "field": "before",
+      "action": "add",
+      "value": "Golden Horde"
+    },
+    {
+      "civilization": "Khazaria",
+      "field": "after",
+      "action": "add",
+      "value": "Kievan Rus'"
+    },
+    {
+      "civilization": "Khmer Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Ayutthaya Kingdom"
+    },
+    {
+      "civilization": "Kievan Rus'",
+      "field": "before",
+      "action": "add",
+      "value": "Rus' Khaganate"
+    },
+    {
+      "civilization": "Kingdom of Axum",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Kingdom of Axum",
+      "field": "before",
+      "action": "add",
+      "value": "Dʿmt"
+    },
+    {
+      "civilization": "Kingdom of Bohemia",
+      "field": "before",
+      "action": "add",
+      "value": "Duchy of Bohemia"
+    },
+    {
+      "civilization": "Kingdom of Castile",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of León"
+    },
+    {
+      "civilization": "Kingdom of Aragon",
+      "field": "before",
+      "action": "add",
+      "value": "County of Aragon"
+    },
+    {
+      "civilization": "Kingdom of Galicia–Volhynia",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Roman the Great",
+        "Daniel of Galicia",
+        "Leo I of Galicia",
+        "Liubartas"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Galicia–Volhynia",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of Poland"
+    },
+    {
+      "civilization": "Kingdom of Germany",
+      "field": "before",
+      "action": "add",
+      "value": "East Francia"
+    },
+    {
+      "civilization": "Kingdom of Germany",
+      "field": "after",
+      "action": "add",
+      "value": "Holy Roman Empire"
+    },
+    {
+      "civilization": "Kingdom of Germany",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 911
+      }
+    },
+    {
+      "civilization": "Kingdom of Kongo",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1914
+      }
+    },
+    {
+      "civilization": "Kingdom of Kongo",
+      "field": "before",
+      "action": "add",
+      "value": "Mpemba Kasi"
+    },
+    {
+      "civilization": "Kingdom of Kongo",
+      "field": "after",
+      "action": "add",
+      "value": "Portuguese Angola"
+    },
+    {
+      "civilization": "Kingdom of Kush",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Alara",
+        "Piye",
+        "Shabaka",
+        "Taharqa"
+      ]
+    },
+    {
+      "civilization": "Etruscans",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": -27
+      }
+    },
+    {
+      "civilization": "Etruscans",
+      "field": "after",
+      "action": "add",
+      "value": "Roman Republic"
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 705
+      }
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "after",
+      "action": "add",
+      "value": "Umayyad Caliphate"
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Caucasian Iberia",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Duchy of Aquitaine",
+      "field": "capital",
+      "action": "add",
+      "value": "Bordeaux"
+    },
+    {
+      "civilization": "Duchy of Aquitaine",
+      "field": "capital",
+      "action": "add",
+      "value": "Poitiers"
+    },
+    {
+      "civilization": "Duchy of Aquitaine",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of France"
+    },
+    {
+      "civilization": "Duchy of Aquitaine",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 602
+      }
+    },
+    {
+      "civilization": "Duchy of Burgundy",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1032
+      }
+    },
+    {
+      "civilization": "Duchy of Burgundy",
+      "field": "before",
+      "action": "add",
+      "value": "Burgundians"
+    },
+    {
+      "civilization": "Duchy of Burgundy",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of France"
+    },
+    {
+      "civilization": "Denmark-Norway",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of Denmark"
+    },
+    {
+      "civilization": "Göktürk Khaganate",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Ötüken"
+      ]
+    },
+    {
+      "civilization": "Göktürk Khaganate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Bumin Qaghan",
+        "Istämi",
+        "Taspar Qaghan",
+        "Tardu"
+      ]
+    },
+    {
+      "civilization": "Ajuran Sultanate",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "British Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1583
+      }
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "before",
+      "action": "add",
+      "value": "Pisistratides"
+    },
+    {
+      "civilization": "Ghana Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Tichitt culture"
+    },
+    {
+      "civilization": "Gupta Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Kushan Empire"
+    },
+    {
+      "civilization": "Habsburg Monarchy",
+      "field": "before",
+      "action": "add",
+      "value": "Duchy of Austria"
+    },
+    {
+      "civilization": "Ahmadnagar Sultanate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ahmad Nizam Shah I",
+        "Hussain Nizam Shah I",
+        "Chand Bibi",
+        "Malik Ambar"
+      ]
+    },
+    {
+      "civilization": "Akkadian Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Sargon of Akkad",
+        "Manishtushu",
+        "Naram-Sin of Akkad",
+        "Shar-Kali-Sharri"
+      ]
+    },
+    {
+      "civilization": "Carthage",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Dido",
+        "Hamilcar Barca",
+        "Hasdrubal the Fair",
+        "Hannibal"
+      ]
+    },
+    {
+      "civilization": "Chagatai Khanate",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Kebek",
+        "Tughlugh Timur"
+      ]
+    },
+    {
+      "civilization": "Gran Colombia",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Simón Bolívar",
+        "Francisco de Paula Santander",
+        "Antonio José de Sucre",
+        "José Antonio Páez"
+      ]
+    },
+    {
+      "civilization": "Habsburg Monarchy",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ferdinand I, Holy Roman Emperor",
+        "Leopold I, Holy Roman Emperor",
+        "Maria Theresa",
+        "Franz Joseph I"
+      ]
+    },
+    {
+      "civilization": "Ilkhanate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Hulegu Khan",
+        "Abaqa Khan",
+        "Ghazan",
+        "Abu Sa'id Bahadur Khan"
+      ]
+    },
+    {
+      "civilization": "Indo-Scythians",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Maues",
+        "Azes I",
+        "Azilises",
+        "Rajuvula"
+      ]
+    },
+    {
+      "civilization": "Hittites",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Labarna I",
+        "Mursili I",
+        "Suppiluliuma I",
+        "Puduḫepa"
+      ]
+    },
+    {
+      "civilization": "Khazaria",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Irbis",
+        "Bulan",
+        "Obadiah",
+        "Joseph"
+      ]
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Cleisthenes",
+        "Themistocles",
+        "Pericles",
+        "Aristophanes"
+      ]
+    },
+    {
+      "civilization": "Babylonia",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Nebuchadnezzar II"
+      ]
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Javanshir"
+      ]
+    },
+    {
+      "civilization": "Kanem–Bornu Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Dunama Dabbalemi",
+        "Idris Alooma",
+        "Muhammad al-Amin al-Kanemi"
+      ]
+    },
+    {
+      "civilization": "Avar Khaganate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Bayan I",
+        "Bayan II"
+      ]
+    },
+    {
+      "civilization": "Khanate of Kazan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ulugh Muhammad",
+        "Ibrahim of Kazan",
+        "Yadegar Mokhammad of Kazan"
+      ]
+    },
+    {
+      "civilization": "Elam",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Untash-Napirisha",
+        "Shutruk-Nakhunte",
+        "Tammaritu II"
+      ]
+    },
+    {
+      "civilization": "Lombards",
+      "field": "map_year",
+      "action": "set",
+      "value": 580
+    },
+    {
+      "civilization": "Lombards",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Italy"
+      ]
+    },
+    {
+      "civilization": "Lombards",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Alboin",
+        "Agilulf",
+        "Liutprand",
+        "Desiderius"
+      ]
+    },
+    {
+      "civilization": "Lombards",
+      "field": "before",
+      "action": "add",
+      "value": "Ostrogothic Kingdom"
+    },
+    {
+      "civilization": "Lombards",
+      "field": "after",
+      "action": "add",
+      "value": "Francia"
+    },
+    {
+      "civilization": "Ptolemaic Kingdom",
+      "field": "map_year",
+      "action": "set",
+      "value": -150
+    },
+    {
+      "civilization": "Ptolemaic Kingdom",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Egypt",
+        "Libya",
+        "Cyprus"
+      ]
+    },
+    {
+      "civilization": "Qing Dynasty",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1912
+      }
+    },
+    {
+      "civilization": "Qing Dynasty",
+      "field": "before",
+      "action": "add",
+      "value": "Ming Dynasty"
+    },
+    {
+      "civilization": "Sumerian City-States",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -4000,
+        "end": -2334,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Sumerian City-States",
+      "field": "after",
+      "action": "add",
+      "value": "Akkadian Empire"
+    },
+    {
+      "civilization": "Sumerian City-States",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Sumerian City-States",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gilgamesh",
+        "Eannatum",
+        "Urukagina",
+        "Lugal-zage-si"
+      ]
+    },
+    {
+      "civilization": "Sumerian City-States",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Qin",
+      "field": "after",
+      "action": "add",
+      "value": "Qin dynasty"
+    },
+    {
+      "civilization": "Qin",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": -221
+      }
+    },
+    {
+      "civilization": "Maya civilization",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -2000,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Maya civilization",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1697
+      }
+    },
+    {
+      "civilization": "Maya civilization",
+      "field": "after",
+      "action": "add",
+      "value": "New Spain"
+    },
+    {
+      "civilization": "Maya civilization",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Maya civilization",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Middle Kingdom of Egypt",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Mentuhotep II",
+        "Amenemhat I",
+        "Senusret III",
+        "Amenemhat III"
+      ]
+    },
+    {
+      "civilization": "Minoan civilization",
+      "field": "capital",
+      "action": "add",
+      "value": "Knossos"
+    },
+    {
+      "civilization": "Minoan civilization",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Minoan civilization",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Mitanni",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1475,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Mitanni",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Sparta",
+      "field": "map_year",
+      "action": "set",
+      "value": -431
+    },
+    {
+      "civilization": "Sparta",
+      "field": "after",
+      "action": "add",
+      "value": "Achaean League"
+    },
+    {
+      "civilization": "Sparta",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Zapotec Civilization",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -500,
+        "end": 900,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Zapotec Civilization",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Sicily",
+      "field": "before",
+      "action": "add",
+      "value": "County of Sicily"
+    },
+    {
+      "civilization": "Liao Dynasty",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Mycenaean Greece",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1700,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Mycenaean Greece",
+      "field": "capital",
+      "action": "add",
+      "value": "Mycenae"
+    },
+    {
+      "civilization": "Mycenaean Greece",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Mycenaean Greece",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kushan Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Kujula Kadphises",
+        "Vima Kadphises",
+        "Kanishka",
+        "Huvishka"
+      ]
+    },
+    {
+      "civilization": "Kushan Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Indo-Sassanids"
+    },
+    {
+      "civilization": "Mutapa Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1760
+      }
+    },
+    {
+      "civilization": "Mutapa Empire",
+      "field": "capital",
+      "action": "add",
+      "value": "Mount Fura"
+    },
+    {
+      "civilization": "Mutapa Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of Zimbabwe"
+    },
+    {
+      "civilization": "Mutapa Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Rozwi Empire"
+    },
+    {
+      "civilization": "Mutapa Empire",
+      "field": "map_year",
+      "action": "set",
+      "value": 1500
+    },
+    {
+      "civilization": "Spanish Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Isabella I of Castile",
+        "Ferdinand II of Aragon",
+        "Charles V",
+        "Philip II of Spain"
+      ]
+    },
+    {
+      "civilization": "Spanish Empire",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Macedonia",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Greece",
+        "North Macedonia",
+        "Bulgaria",
+        "Albania",
+        "Turkey",
+        "Syria",
+        "Lebanon",
+        "Israel",
+        "Palestine",
+        "Egypt",
+        "Iraq",
+        "Iran",
+        "Afghanistan",
+        "Pakistan"
+      ]
+    },
+    {
+      "civilization": "Macedonia",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Urartu",
+      "field": "before",
+      "action": "add",
+      "value": "Nairi"
+    },
+    {
+      "civilization": "Netherlands",
+      "field": "before",
+      "action": "add",
+      "value": "Dutch Republic"
+    },
+    {
+      "civilization": "Netherlands",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Northern Yuan",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1635
+      }
+    },
+    {
+      "civilization": "Northern Yuan",
+      "field": "after",
+      "action": "add",
+      "value": "Qing Dynasty"
+    },
+    {
+      "civilization": "Odrysian Kingdom",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 46
+      }
+    },
+    {
+      "civilization": "Odrysian Kingdom",
+      "field": "after",
+      "action": "add",
+      "value": "Roman Empire"
+    },
+    {
+      "civilization": "Odrysian Kingdom",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "after",
+      "action": "add",
+      "value": "Epi-Olmec culture"
+    },
+    {
+      "civilization": "Oyo Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Ife Empire"
+    },
+    {
+      "civilization": "Oyo Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Sokoto Caliphate"
+    },
+    {
+      "civilization": "Oyo Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1400,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Pagan Kingdom",
+      "field": "after",
+      "action": "add",
+      "value": "Myinsaing Kingdom"
+    },
+    {
+      "civilization": "Parthian Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Arsaces I of Parthia",
+        "Mithridates I of Parthia",
+        "Mithridates II of Parthia",
+        "Orodes II"
+      ]
+    },
+    {
+      "civilization": "Phoenicia",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1500,
+        "end": -332,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Phoenicia",
+      "field": "after",
+      "action": "add",
+      "value": "Macedonia"
+    },
+    {
+      "civilization": "Phoenicia",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Phoenicia",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ahiram",
+        "Hiram I",
+        "Pygmalion of Tyre"
+      ]
+    },
+    {
+      "civilization": "Phrygia",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1200,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Phrygia",
+      "field": "before",
+      "action": "add",
+      "value": "Hittites"
+    },
+    {
+      "civilization": "Portuguese Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of Portugal"
+    },
+    {
+      "civilization": "Portuguese Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Portuguese Republic"
+    },
+    {
+      "civilization": "Principality of Hungary",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Árpád",
+        "Taksony of Hungary",
+        "Géza",
+        "Stephen I of Hungary"
+      ]
+    },
+    {
+      "civilization": "Principality of Rostov-Suzdal",
+      "field": "before",
+      "action": "add",
+      "value": "Kievan Rus'"
+    },
+    {
+      "civilization": "Principality of Rostov-Suzdal",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Yuri Dolgorukiy",
+        "Andrey Bogolyubsky",
+        "Vsevolod the Big Nest",
+        "Alexander Nevsky"
+      ]
+    },
+    {
+      "civilization": "Principality of Rostov-Suzdal",
+      "field": "capital",
+      "action": "add",
+      "value": "Rostov"
+    },
+    {
+      "civilization": "Principality of Wallachia",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of Hungary"
+    },
+    {
+      "civilization": "Prussia",
+      "field": "after",
+      "action": "add",
+      "value": "Allied-occupied Germany"
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 850,
+        "end": 1250,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Pyu City-States",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Pyu City-States",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Qara Qoyunlu",
+      "field": "before",
+      "action": "add",
+      "value": "Jalayirid Sultanate"
+    },
+    {
+      "civilization": "Qara Qoyunlu",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Qara Yusuf",
+        "Jahan Shah",
+        "Hasan Ali"
+      ]
+    },
+    {
+      "civilization": "Rashidun Caliphate",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Rashtrakuta Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Dantidurga",
+        "Krishna I",
+        "Govinda III",
+        "Amoghavarsha I"
+      ]
+    },
+    {
+      "civilization": "Republic of Genoa",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Simone Boccanegra",
+        "Andrea Doria",
+        "Giacomo Maria Brignole"
+      ]
+    },
+    {
+      "civilization": "Roman Empire",
+      "field": "capital",
+      "action": "add",
+      "value": "Constantinople"
+    },
+    {
+      "civilization": "Roman Kingdom",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Romulus",
+        "Numa Pompilius",
+        "Servius Tullius",
+        "Lucius Tarquinius Superbus"
+      ]
+    },
+    {
+      "civilization": "Roman Kingdom",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Rouran Khaganate",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Rouran Khaganate",
+      "field": "before",
+      "action": "add",
+      "value": "Xianbei"
+    },
+    {
+      "civilization": "Sabaeans",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Satavahana Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Simuka",
+        "Gautamiputra Satakarni",
+        "Vasishthiputra Pulumavi",
+        "Yajna Sri Satakarni"
+      ]
+    },
+    {
+      "civilization": "Scythia",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -700,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Scythia",
+      "field": "before",
+      "action": "add",
+      "value": "Cimmerians"
+    },
+    {
+      "civilization": "Scythia",
+      "field": "after",
+      "action": "add",
+      "value": "Sarmatians"
+    },
+    {
+      "civilization": "Srivijaya",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Dapunta Hyang Sri Jayanasa",
+        "Balaputra"
+      ]
+    },
+    {
+      "civilization": "Srivijaya",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1377,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Srivijaya",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Srivijaya",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Tenochtitlan",
+      "field": "capital",
+      "action": "add",
+      "value": "Tenochtitlan"
+    },
+    {
+      "civilization": "Tenochtitlan",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "capital",
+      "action": "add",
+      "value": "Teotihuacan"
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -100,
+        "end": 650,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "after",
+      "action": "add",
+      "value": "Toltec"
+    },
+    {
+      "civilization": "Teutonic Order",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Tibetan Empire",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Timurid Empire",
+      "field": "before",
+      "action": "set",
+      "value": "Chagatai Khanate"
+    },
+    {
+      "civilization": "Timurid Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Timur",
+        "Shah Rukh",
+        "Ulugh Beg",
+        "Husayn Bayqara"
+      ]
+    },
+    {
+      "civilization": "Volga Bulgaria",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 700,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Volga Bulgaria",
+      "field": "map_year",
+      "action": "set",
+      "value": 1000
+    },
+    {
+      "civilization": "Volga Bulgaria",
+      "field": "before",
+      "action": "add",
+      "value": "Old Great Bulgaria"
+    },
+    {
+      "civilization": "White Huns",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 560,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "White Huns",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Xianbei",
+      "field": "after",
+      "action": "add",
+      "value": "Rouran Khaganate"
+    },
+    {
+      "civilization": "Zapotec Civilization",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Zapotec Civilization",
+      "field": "after",
+      "action": "add",
+      "value": "New Spain"
+    },
+    {
+      "civilization": "Adal Sultanate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Sabr ad-Din III",
+        "Ahmad ibn Ibrahim al-Ghazi",
+        "Nur ibn Mujahid"
+      ]
+    },
+    {
+      "civilization": "Adal Sultanate",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Ethiopia",
+        "Somalia",
+        "Djibouti",
+        "Eritrea"
+      ]
+    },
+    {
+      "civilization": "Afsharid Iran",
+      "field": "after",
+      "action": "set",
+      "value": "Qajar Iran"
+    },
+    {
+      "civilization": "Almohad Caliphate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ibn Tumart",
+        "Abd al-Mu'min",
+        "Yaqub al-Mansur"
+      ]
+    },
+    {
+      "civilization": "Alodia",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Alodia",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of Kush"
+    },
+    {
+      "civilization": "Argentine Republic",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Hipólito Yrigoyen",
+        "Juan Perón",
+        "Arturo Frondizi",
+        "Arturo Umberto Illia"
+      ]
+    },
+    {
+      "civilization": "Argentine Republic",
+      "field": "before",
+      "action": "add",
+      "value": "Viceroyalty of the Río de la Plata"
+    },
+    {
+      "civilization": "Armenian Kingdom of Cilicia",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ruben I, Prince of Armenia",
+        "Leo I, King of Armenia",
+        "Hethum I",
+        "Leo V of Armenia"
+      ]
+    },
+    {
+      "civilization": "Asuka Japan",
+      "field": "capital",
+      "action": "add",
+      "value": "Fujiwara-kyō"
+    },
+    {
+      "civilization": "Ayyubid Sultanate",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1171,
+        "end": 1260,
+        "circa": false
+      }
+    },
+    {
+      "civilization": "Bahmani Sultanate",
+      "field": "after",
+      "action": "add",
+      "value": "Bidar Sultanate"
+    },
+    {
+      "civilization": "Bourbon Kingdom of France",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Louis XVIII",
+        "Charles X of France"
+      ]
+    },
+    {
+      "civilization": "Brazilian Republic",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1889
+      }
+    },
+    {
+      "civilization": "Brazilian Republic",
+      "field": "capital",
+      "action": "add",
+      "value": "Brasília"
+    },
+    {
+      "civilization": "Adal Sultanate",
+      "field": "after",
+      "action": "set",
+      "value": "Sultanate of Aussa"
+    },
+    {
+      "civilization": "Argentine Republic",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Âu Lạc",
+      "field": "before",
+      "action": "set",
+      "value": "Văn Lang"
+    },
+    {
+      "civilization": "Belgian Congo",
+      "field": "after",
+      "action": "set",
+      "value": "First Congolese Republic"
+    },
+    {
+      "civilization": "Canada",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Brazilian Republic",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Brythons",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Brythons",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Brythons",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Brythons",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Brythons",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -800,
+        "end": 1100,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Burgundians",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Worms, Germany"
+      ]
+    },
+    {
+      "civilization": "Burgundians",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gunther",
+        "Gondioc",
+        "Gundobad",
+        "Sigismund of Burgundy"
+      ]
+    },
+    {
+      "civilization": "Burgundians",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 411,
+        "end": 534
+      }
+    },
+    {
+      "civilization": "Burgundians",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Burgundians",
+      "field": "after",
+      "action": "set",
+      "value": "Francia"
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Byzas"
+      ]
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -657,
+        "end": 330,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "after",
+      "action": "set",
+      "value": "Byzantine Empire"
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Turkey"
+      ]
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "map_year",
+      "action": "set",
+      "value": -500
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Marduk-apla-iddina II",
+        "Nabopolassar",
+        "Nebuchadnezzar II"
+      ]
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "after",
+      "action": "set",
+      "value": "Neo-Babylonian Empire"
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Iraq",
+        "Kuwait"
+      ]
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -900,
+        "end": -539,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "map_year",
+      "action": "set",
+      "value": -700
+    },
+    {
+      "civilization": "Chenla",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Cimmerian Bosporus",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Colchis",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1300,
+        "end": -66,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Colchis",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Colchis",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Colchis",
+      "field": "after",
+      "action": "set",
+      "value": "Lazica"
+    },
+    {
+      "civilization": "Commonwealth of Australia",
+      "field": "before",
+      "action": "set",
+      "value": "British Empire"
+    },
+    {
+      "civilization": "Commonwealth of Australia",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Commonwealth of England",
+      "field": "before",
+      "action": "set",
+      "value": "Kingdom of England"
+    },
+    {
+      "civilization": "Commonwealth of England",
+      "field": "after",
+      "action": "set",
+      "value": "Kingdom of England"
+    },
+    {
+      "civilization": "Confederate States of America",
+      "field": "before",
+      "action": "set",
+      "value": "United States"
+    },
+    {
+      "civilization": "Confederate States of America",
+      "field": "after",
+      "action": "set",
+      "value": "United States"
+    },
+    {
+      "civilization": "Cornwall",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Geraint of Dumnonia",
+        "Æthelstan"
+      ]
+    },
+    {
+      "civilization": "Cornwall",
+      "field": "after",
+      "action": "set",
+      "value": "Kingdom of England"
+    },
+    {
+      "civilization": "Cornwall",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "County of Flanders",
+      "field": "before",
+      "action": "set",
+      "value": "West Francia"
+    },
+    {
+      "civilization": "County of Flanders",
+      "field": "after",
+      "action": "set",
+      "value": "Duchy of Burgundy"
+    },
+    {
+      "civilization": "Cuman-Kipchak Confederation",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Cuman-Kipchak Confederation",
+      "field": "after",
+      "action": "set",
+      "value": "Golden Horde"
+    },
+    {
+      "civilization": "Dahomey",
+      "field": "before",
+      "action": "set",
+      "value": "Kingdom of Allada"
+    },
+    {
+      "civilization": "Dahomey",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1904
+      }
+    },
+    {
+      "civilization": "Dahomey",
+      "field": "map_year",
+      "action": "set",
+      "value": 1800
+    },
+    {
+      "civilization": "Dominican Republic",
+      "field": "before",
+      "action": "set",
+      "value": "Haiti"
+    },
+    {
+      "civilization": "Dominican Republic",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Duchy of Bavaria",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 555,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Duchy of Bavaria",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Duchy of Milan",
+      "field": "before",
+      "action": "set",
+      "value": "Lordship of Milan"
+    },
+    {
+      "civilization": "Duchy of Savoy",
+      "field": "after",
+      "action": "set",
+      "value": "Kingdom of Sardinia"
+    },
+    {
+      "civilization": "Duchy of Savoy",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1847
+      }
+    },
+    {
+      "civilization": "Duchy of Savoy",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Amadeus VIII of Savoy",
+        "Emmanuel Philibert, Duke of Savoy",
+        "Charles Emmanuel I, Duke of Savoy",
+        "Victor Amadeus II of Sardinia"
+      ]
+    },
+    {
+      "civilization": "Dutch Cape Colony",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Dutch Cape Colony",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Jan van Riebeeck"
+      ]
+    },
+    {
+      "civilization": "Early Dynastic Period of Egypt",
+      "field": "before",
+      "action": "set",
+      "value": "Naqada III"
+    },
+    {
+      "civilization": "Emirate of Diriyah",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Estado Novo",
+      "field": "before",
+      "action": "set",
+      "value": "Ditadura Nacional"
+    },
+    {
+      "civilization": "Estado Novo",
+      "field": "after",
+      "action": "set",
+      "value": "Third Portuguese Republic"
+    },
+    {
+      "civilization": "Estado Novo",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Óscar Carmona",
+        "António de Oliveira Salazar",
+        "Marcelo Caetano"
+      ]
+    },
+    {
+      "civilization": "Four Oirats",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Four Oirats",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1634
+      }
+    },
+    {
+      "civilization": "Free French",
+      "field": "before",
+      "action": "set",
+      "value": "French Third Republic"
+    },
+    {
+      "civilization": "Free French",
+      "field": "after",
+      "action": "set",
+      "value": "Provisional Government of the French Republic"
+    },
+    {
+      "civilization": "Free Orange State",
+      "field": "before",
+      "action": "set",
+      "value": "Orange River Sovereignty"
+    },
+    {
+      "civilization": "Funan",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Ghassanids",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Ghurid Dynasty",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1150,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Goths",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Goths",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ermanaric",
+        "Alaric I",
+        "Theodoric the Great"
+      ]
+    },
+    {
+      "civilization": "Goths",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Goths",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Goths",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 711,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Greco-Bactrian Kingdom",
+      "field": "after",
+      "action": "set",
+      "value": "Kushan Empire"
+    },
+    {
+      "civilization": "Guatemala",
+      "field": "before",
+      "action": "set",
+      "value": "Federal Republic of Central America"
+    },
+    {
+      "civilization": "Guatemala",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Gurjara-Pratihara Dynasty",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Hamdanid Emirates",
+      "field": "after",
+      "action": "set",
+      "value": "Uqaylid dynasty"
+    },
+    {
+      "civilization": "Hausa Kingdoms",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Hausa Kingdoms",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Muhammad Rumfa",
+        "Amina of Zazzau"
+      ]
+    },
+    {
+      "civilization": "Hausa Kingdoms",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Hausa Kingdoms",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1000,
+        "end": 1808,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Himyarite Kingdom",
+      "field": "after",
+      "action": "set",
+      "value": "Kingdom of Aksum"
+    },
+    {
+      "civilization": "Hoysala Kingdom",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1026,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Hyderabad State",
+      "field": "before",
+      "action": "set",
+      "value": "Mughal Empire"
+    },
+    {
+      "civilization": "Hyksos",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Avaris"
+      ]
+    },
+    {
+      "civilization": "Hyksos",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Salitis",
+        "Khyan",
+        "Apepi"
+      ]
+    },
+    {
+      "civilization": "Hyksos",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Hyksos",
+      "field": "after",
+      "action": "set",
+      "value": "New Kingdom of Egypt"
+    },
+    {
+      "civilization": "Icelandic Commonwealth",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Idrisids",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Ifat Sultanate",
+      "field": "before",
+      "action": "set",
+      "value": "Sultanate of Shewa"
+    },
+    {
+      "civilization": "Italian Africa",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Benito Mussolini",
+        "Victor Emmanuel III of Italy",
+        "Italo Balbo"
+      ]
+    },
+    {
+      "civilization": "Italian Africa",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Italian Africa",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Jin",
+      "field": "before",
+      "action": "set",
+      "value": "Western Zhou"
+    },
+    {
+      "civilization": "Judea",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Jerusalem"
+      ]
+    },
+    {
+      "civilization": "Judea",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -140,
+        "end": -37,
+        "circa": false
+      }
+    },
+    {
+      "civilization": "Judea",
+      "field": "before",
+      "action": "set",
+      "value": "Seleucid Empire"
+    },
+    {
+      "civilization": "Judea",
+      "field": "after",
+      "action": "set",
+      "value": "Herodian kingdom"
+    },
+    {
+      "civilization": "Judea",
+      "field": "summary",
+      "action": "set",
+      "value": "A historical region of the Land of Israel around Jerusalem, ruled by the Hasmonean dynasty in the last two centuries BC."
+    },
+    {
+      "civilization": "Kanva Dynasty",
+      "field": "after",
+      "action": "set",
+      "value": "Satavahana dynasty"
+    },
+    {
+      "civilization": "Khanate of Khiva",
+      "field": "after",
+      "action": "set",
+      "value": "Khorezm People's Soviet Republic"
+    },
+    {
+      "civilization": "Kimek-Kipchak confederation",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kimek-Kipchak confederation",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kimek-Kipchak confederation",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kimek-Kipchak confederation",
+      "field": "after",
+      "action": "set",
+      "value": "Cuman-Kipchak Confederation"
+    },
+    {
+      "civilization": "Kingdom of Denmark",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 936,
+        "end": 1397,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Kingdom of Denmark",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Denmark",
+      "field": "summary",
+      "action": "set",
+      "value": "The oldest monarchy in Europe, founded by the Viking kings Gorm the Old and Harald Bluetooth."
+    },
+    {
+      "civilization": "Kingdom of Egypt",
+      "field": "before",
+      "action": "set",
+      "value": "Sultanate of Egypt"
+    },
+    {
+      "civilization": "Kingdom of Essex",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Fiji",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Fiji",
+      "field": "after",
+      "action": "set",
+      "value": "Colony of Fiji"
+    },
+    {
+      "civilization": "Kingdom of Georgia",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1490
+      }
+    },
+    {
+      "civilization": "Kingdom of Hanover",
+      "field": "before",
+      "action": "set",
+      "value": "Electorate of Hanover"
+    },
+    {
+      "civilization": "Kingdom of Hanover",
+      "field": "after",
+      "action": "set",
+      "value": "Kingdom of Prussia"
+    },
+    {
+      "civilization": "Kingdom of Hawaï'i",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Hawaï'i",
+      "field": "after",
+      "action": "set",
+      "value": "Republic of Hawaii"
+    },
+    {
+      "civilization": "Kingdom of Hawaï'i",
+      "field": "capital",
+      "action": "add",
+      "value": "Honolulu"
+    },
+    {
+      "civilization": "Kingdom of Hawaï'i",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Kamehameha I",
+        "Kamehameha III",
+        "Kalākaua",
+        "Liliʻuokalani"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Israel (Samaria)",
+      "field": "before",
+      "action": "set",
+      "value": "Kingdom of Israel (united monarchy)"
+    },
+    {
+      "civilization": "Kingdom of Jerusalem",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Khotan",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -250,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Kingdom of Khotan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Viśa' Saṃbhava"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Khotan",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Lunda",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Musumba"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Lunda",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Tshibinda Ilunga"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Lunda",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Lunda",
+      "field": "after",
+      "action": "set",
+      "value": "Chokwe Kingdom"
+    },
+    {
+      "civilization": "Kingdom of Mercia",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Cornwall",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 710,
+        "end": 936,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Cornwall",
+      "field": "summary",
+      "action": "set",
+      "value": "A ceremonial county in South West England that was once a Brittonic kingdom and later a duchy."
+    },
+    {
+      "civilization": "Cuman-Kipchak Confederation",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Köten"
+      ]
+    },
+    {
+      "civilization": "Cuman-Kipchak Confederation",
+      "field": "before",
+      "action": "set",
+      "value": "Kimek-Kipchak confederation"
+    },
+    {
+      "civilization": "Dál Riata",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Danish overseas colonies",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Copenhagen"
+      ]
+    },
+    {
+      "civilization": "Danish overseas colonies",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Danish overseas colonies",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Danish overseas colonies",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Greenland",
+        "Ghana",
+        "India"
+      ]
+    },
+    {
+      "civilization": "Ayyubid Sultanate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Saladin",
+        "Al-Adil I",
+        "Al-Kamil",
+        "As-Salih Ayyub"
+      ]
+    },
+    {
+      "civilization": "Jin",
+      "field": "capital",
+      "action": "add",
+      "value": "Xintian"
+    },
+    {
+      "civilization": "Kingdom of Arles",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Rudolph II of Burgundy",
+        "Conrad I of Burgundy",
+        "Rudolph III of Burgundy",
+        "Frederick Barbarossa"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Navarre",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Sancho VI of Navarre",
+        "Charles II of Navarre",
+        "Joan I of Navarre",
+        "Henry IV of France"
+      ]
+    },
+    {
+      "civilization": "Emirate of Afghanistan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Dost Mohammad Khan",
+        "Sher Ali Khan",
+        "Abdur Rahman Khan",
+        "Amanullah Khan"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Afghanistan",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Mohammed Zahir Shah"
+      ]
+    },
+    {
+      "civilization": "Duchy of Milan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gian Galeazzo Visconti",
+        "Filippo Maria Visconti",
+        "Francesco I Sforza",
+        "Ludovico Sforza"
+      ]
+    },
+    {
+      "civilization": "French Second Republic",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "François Arago",
+        "Louis-Eugène Cavaignac",
+        "Napoleon III"
+      ]
+    },
+    {
+      "civilization": "French Algeria",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Thomas Robert Bugeaud",
+        "Napoleon III",
+        "Charles de Gaulle"
+      ]
+    },
+    {
+      "civilization": "Gurjara-Pratihara Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Nagabhata I",
+        "Vatsaraja",
+        "Nagabhata II",
+        "Mihira Bhoja"
+      ]
+    },
+    {
+      "civilization": "Ghassanids",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Al-Harith ibn Jabalah",
+        "Al-Mundhir III ibn al-Harith",
+        "Jabala ibn al-Ayham"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Mysore",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Chikka Devaraja",
+        "Hyder Ali",
+        "Tipu Sultan",
+        "Krishna Raja Wadiyar IV"
+      ]
+    },
+    {
+      "civilization": "Jalayirid Sultanate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Hasan Buzurg",
+        "Shaykh Uways Jalayir"
+      ]
+    },
+    {
+      "civilization": "Kamakura Shogunate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Minamoto no Yoritomo",
+        "Hōjō Tokimasa",
+        "Hōjō Tokimune",
+        "Ashikaga Takauji"
+      ]
+    },
+    {
+      "civilization": "Eastern Wei",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gao Huan",
+        "Emperor Xiaojing of Eastern Wei"
+      ]
+    },
+    {
+      "civilization": "Duchy of Warsaw",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Józef Poniatowski"
+      ]
+    },
+    {
+      "civilization": "Durrani Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ahmad Shah Durrani",
+        "Timur Shah Durrani",
+        "Zaman Shah Durrani",
+        "Shuja Shah Durrani"
+      ]
+    },
+    {
+      "civilization": "Idrisids",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Idris I of Morocco",
+        "Idris II of Morocco",
+        "Yahya ibn Muhammad",
+        "Al-Hasan ibn al-Qasim Jannun"
+      ]
+    },
+    {
+      "civilization": "Gurjara-Pratihara Dynasty",
+      "field": "map_year",
+      "action": "set",
+      "value": 850
+    },
+    {
+      "civilization": "Funan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Kaundinya",
+        "Kulaprabhavati",
+        "Rudravarman"
+      ]
+    },
+    {
+      "civilization": "Confederation of the Rhine",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Karl Theodor Anton Maria von Dalberg"
+      ]
+    },
+    {
+      "civilization": "Danish overseas colonies",
+      "field": "map_year",
+      "action": "set",
+      "value": 1800
+    },
+    {
+      "civilization": "Kingdom of Nepal",
+      "field": "before",
+      "action": "add",
+      "value": "Gorkha Kingdom"
+    },
+    {
+      "civilization": "Kingdom of Neustria",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of Soissons"
+    },
+    {
+      "civilization": "Kingdom of Neustria",
+      "field": "after",
+      "action": "add",
+      "value": "Francia"
+    },
+    {
+      "civilization": "Kingdom of Neustria",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 511,
+        "end": 751
+      }
+    },
+    {
+      "civilization": "Kingdom of Neustria",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Chilperic I",
+        "Clothar II",
+        "Ebroin",
+        "Childeric III"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Northumbria",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "York",
+        "Bamburgh"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Numidia",
+      "field": "after",
+      "action": "add",
+      "value": "Roman Republic"
+    },
+    {
+      "civilization": "Kingdom of Osroene",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Abgar V of Edessa",
+        "Abgar VIII"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Poland",
+      "field": "before",
+      "action": "add",
+      "value": "Duchy of Poland"
+    },
+    {
+      "civilization": "Kingdom of Pontus",
+      "field": "before",
+      "action": "add",
+      "value": "Antigonid dynasty"
+    },
+    {
+      "civilization": "Kingdom of Pontus",
+      "field": "after",
+      "action": "add",
+      "value": "Roman Empire"
+    },
+    {
+      "civilization": "Kingdom of Romania",
+      "field": "summary",
+      "action": "set",
+      "value": "A constitutional monarchy in southeastern Europe, ruled by the Hohenzollern-Sigmaringen dynasty from 1881 to 1947."
+    },
+    {
+      "civilization": "Kingdom of Sardinia",
+      "field": "capital",
+      "action": "add",
+      "value": "Cagliari"
+    },
+    {
+      "civilization": "Kingdom of Sardinia",
+      "field": "before",
+      "action": "add",
+      "value": "Duchy of Savoy"
+    },
+    {
+      "civilization": "Kingdom of Saxony",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Frederick Augustus I of Saxony",
+        "Frederick Augustus II of Saxony",
+        "Albert of Saxony",
+        "Frederick Augustus III of Saxony"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Scotland",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Kenneth MacAlpin",
+        "Alexander III of Scotland",
+        "Robert the Bruce",
+        "James IV of Scotland"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Serbia",
+      "field": "before",
+      "action": "add",
+      "value": "Principality of Serbia"
+    },
+    {
+      "civilization": "Kingdom of Spain",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Sweden",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 995,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Kingdom of Sweden",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Sweden",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of the Two Sicilies",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1816,
+        "end": 1861
+      }
+    },
+    {
+      "civilization": "Kingdom of Wessex",
+      "field": "before",
+      "action": "set",
+      "value": "Sub-Roman Britain"
+    },
+    {
+      "civilization": "Lakhmid Kingdom",
+      "field": "after",
+      "action": "add",
+      "value": "Sasanian Empire"
+    },
+    {
+      "civilization": "Lakhmid Kingdom",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Amr ibn Adi",
+        "Al-Mundhir III ibn al-Nu'man",
+        "Al-Nu'man III ibn al-Mundhir"
+      ]
+    },
+    {
+      "civilization": "Lakhmid Kingdom",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -2500,
+        "end": -980,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Eritrea"
+      ]
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Late Pallava Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Mahendravarman I",
+        "Narasimhavarman I",
+        "Nandivarman II",
+        "Aparajitavarman"
+      ]
+    },
+    {
+      "civilization": "Later Jin Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Nurhaci",
+        "Hong Taiji"
+      ]
+    },
+    {
+      "civilization": "Later Tang",
+      "field": "after",
+      "action": "add",
+      "value": "Later Jin (Five Dynasties)"
+    },
+    {
+      "civilization": "Lu",
+      "field": "before",
+      "action": "add",
+      "value": "Shang Dynasty"
+    },
+    {
+      "civilization": "Mahajanapadas",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Mahajanapadas",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Bimbisara",
+        "Prasenajit",
+        "Ajatashatru"
+      ]
+    },
+    {
+      "civilization": "Mahajanapadas",
+      "field": "before",
+      "action": "add",
+      "value": "Kuru Kingdom"
+    },
+    {
+      "civilization": "Makuria Kingdom",
+      "field": "after",
+      "action": "add",
+      "value": "Funj Sultanate"
+    },
+    {
+      "civilization": "Margraviate of Brandenburg",
+      "field": "before",
+      "action": "add",
+      "value": "Northern March"
+    },
+    {
+      "civilization": "Margraviate of Brandenburg",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Albert the Bear",
+        "Frederick I of Brandenburg",
+        "Frederick William, the Great Elector"
+      ]
+    },
+    {
+      "civilization": "Mataram Kingdom",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Mataram Kingdom",
+      "field": "before",
+      "action": "add",
+      "value": "Kalingga Kingdom"
+    },
+    {
+      "civilization": "Mataram Kingdom",
+      "field": "after",
+      "action": "add",
+      "value": "Kahuripan"
+    },
+    {
+      "civilization": "Mataram Kingdom",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Sanjaya of Mataram",
+        "Rakai Pikatan",
+        "Mpu Sindok",
+        "Dharmawangsa"
+      ]
+    },
+    {
+      "civilization": "Mauretania",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Median Kingdom",
+      "field": "before",
+      "action": "add",
+      "value": "Neo-Assyrian Empire"
+    },
+    {
+      "civilization": "Merina Kingdom",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Merina Kingdom",
+      "field": "after",
+      "action": "add",
+      "value": "French Madagascar"
+    },
+    {
+      "civilization": "Mexico",
+      "field": "before",
+      "action": "add",
+      "value": "New Spain"
+    },
+    {
+      "civilization": "Mexico",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Minaeans",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -750,
+        "end": 100,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Minaeans",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Minaeans",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Minaeans",
+      "field": "after",
+      "action": "add",
+      "value": "Himyarite Kingdom"
+    },
+    {
+      "civilization": "Moghulistan",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1347,
+        "end": 1514
+      }
+    },
+    {
+      "civilization": "Moghulistan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Tughlugh Timur",
+        "Khizr Khoja",
+        "Esen Buqa II",
+        "Yunus Khan"
+      ]
+    },
+    {
+      "civilization": "Moghulistan",
+      "field": "after",
+      "action": "add",
+      "value": "Yarkent Khanate"
+    },
+    {
+      "civilization": "Mongolian People's Republic",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Khorloogiin Choibalsan",
+        "Yumjaagiin Tsedenbal",
+        "Jambyn Batmönkh"
+      ]
+    },
+    {
+      "civilization": "Morocco",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Morocco",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Nabataeans",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -312,
+        "end": 106
+      }
+    },
+    {
+      "civilization": "Nabataeans",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Aretas III",
+        "Obodas I",
+        "Aretas IV Philopatris",
+        "Rabbel II Soter"
+      ]
+    },
+    {
+      "civilization": "Nabataeans",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Nabataeans",
+      "field": "after",
+      "action": "add",
+      "value": "Roman Empire"
+    },
+    {
+      "civilization": "Nanzhao",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Piluoge"
+      ]
+    },
+    {
+      "civilization": "Nanzhao",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Nara Japan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Empress Genmei",
+        "Emperor Shōmu",
+        "Empress Kōken",
+        "Emperor Kanmu"
+      ]
+    },
+    {
+      "civilization": "New France",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "New France",
+      "field": "after",
+      "action": "add",
+      "value": "Province of Quebec (1763–1791)"
+    },
+    {
+      "civilization": "Nicaean Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Theodore I Laskaris",
+        "John III Doukas Vatatzes",
+        "Theodore II Laskaris",
+        "Michael VIII Palaiologos"
+      ]
+    },
+    {
+      "civilization": "Nicaean Empire",
+      "field": "summary",
+      "action": "set",
+      "value": "A Byzantine successor state in western Anatolia, founded after the Fourth Crusade, whose rulers retook Constantinople in 1261."
+    },
+    {
+      "civilization": "Nogai Horde",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Edigu"
+      ]
+    },
+    {
+      "civilization": "Nogai Horde",
+      "field": "after",
+      "action": "add",
+      "value": "Kalmyk Khanate"
+    },
+    {
+      "civilization": "Old Kingdom of Norway",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 872,
+        "end": 1397
+      }
+    },
+    {
+      "civilization": "Old Kingdom of Norway",
+      "field": "summary",
+      "action": "set",
+      "value": "The medieval kingdom of Norway, united under Harald Fairhair about 872 and lasting until the Kalmar Union of 1397."
+    },
+    {
+      "civilization": "Old Kingdom of Norway",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Old Swiss Confederacy",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Old Swiss Confederacy",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Niklaus von Flüe",
+        "Huldrych Zwingli"
+      ]
+    },
+    {
+      "civilization": "Old Swiss Confederacy",
+      "field": "before",
+      "action": "add",
+      "value": "Holy Roman Empire"
+    },
+    {
+      "civilization": "Pala Empire",
+      "field": "capital",
+      "action": "add",
+      "value": "Gauda"
+    },
+    {
+      "civilization": "Pala Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gopala I",
+        "Dharmapala",
+        "Devapala",
+        "Mahipala I"
+      ]
+    },
+    {
+      "civilization": "Pala Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Khadga dynasty"
+    },
+    {
+      "civilization": "Pala Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Sena dynasty"
+    },
+    {
+      "civilization": "Peru-Bolivian Confederation",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Peru",
+        "Bolivia"
+      ]
+    },
+    {
+      "civilization": "Peru-Bolivian Confederation",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Peru-Bolivian Confederation",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Portuguese Republic",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1910
+      }
+    },
+    {
+      "civilization": "Portuguese Republic",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Principality of Chernigov",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1024,
+        "end": 1402
+      }
+    },
+    {
+      "civilization": "Principality of Chernigov",
+      "field": "before",
+      "action": "add",
+      "value": "Kievan Rus'"
+    },
+    {
+      "civilization": "Principality of Chernigov",
+      "field": "after",
+      "action": "add",
+      "value": "Grand Duchy of Lithuania"
+    },
+    {
+      "civilization": "Principality of Chernigov",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Mstislav of Chernigov",
+        "Sviatoslav Yaroslavich",
+        "Oleg Svyatoslavich",
+        "Michael of Chernigov"
+      ]
+    },
+    {
+      "civilization": "Principality of Kiev",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1132,
+        "end": 1471
+      }
+    },
+    {
+      "civilization": "Principality of Kiev",
+      "field": "before",
+      "action": "add",
+      "value": "Kievan Rus'"
+    },
+    {
+      "civilization": "Principality of Kiev",
+      "field": "after",
+      "action": "add",
+      "value": "Grand Duchy of Lithuania"
+    },
+    {
+      "civilization": "Qi",
+      "field": "before",
+      "action": "add",
+      "value": "Pugu (state)"
+    },
+    {
+      "civilization": "Qi",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Jiang Ziya",
+        "Duke Huan of Qi",
+        "Duke Jing of Qi",
+        "Sun Bin"
+      ]
+    },
+    {
+      "civilization": "Republic of Austria",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1918
+      }
+    },
+    {
+      "civilization": "Republic of Austria",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Austria"
+      ]
+    },
+    {
+      "civilization": "Republic of Austria",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Republic of Chile",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Republic of Finland",
+      "field": "before",
+      "action": "set",
+      "value": "Grand Duchy of Finland"
+    },
+    {
+      "civilization": "Republic of Finland",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Republic of Florence",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Cosimo de' Medici",
+        "Lorenzo de' Medici",
+        "Girolamo Savonarola",
+        "Niccolò Machiavelli"
+      ]
+    },
+    {
+      "civilization": "Republic of Liberia",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1847
+      }
+    },
+    {
+      "civilization": "Republic of Liberia",
+      "field": "before",
+      "action": "set",
+      "value": "Colony of Liberia"
+    },
+    {
+      "civilization": "Republic of Liberia",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Republic of Texas",
+      "field": "before",
+      "action": "add",
+      "value": "Centralist Mexico"
+    },
+    {
+      "civilization": "Republic of Texas",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "David G. Burnet",
+        "Sam Houston",
+        "Mirabeau B. Lamar",
+        "Anson Jones"
+      ]
+    },
+    {
+      "civilization": "Republic of Turkey",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Republic of Turkey",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Mustafa Kemal Atatürk",
+        "İsmet İnönü",
+        "Celâl Bayar",
+        "Cemal Gürsel"
+      ]
+    },
+    {
+      "civilization": "Rustamid dynasty",
+      "field": "before",
+      "action": "set",
+      "value": "Abbasid Caliphate"
+    },
+    {
+      "civilization": "Rustamid dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Abd al-Rahman ibn Rustam",
+        "Abd al-Wahhab ibn Abd al-Rahman",
+        "Aflah ibn Abd al-Wahhab"
+      ]
+    },
+    {
+      "civilization": "Ryukyu Kingdom",
+      "field": "before",
+      "action": "add",
+      "value": "Sanzan period"
+    },
+    {
+      "civilization": "Saffarid Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ya'qub ibn al-Layth al-Saffar",
+        "Amr ibn al-Layth",
+        "Abu Ja'far Ahmad ibn Muhammad",
+        "Khalaf ibn Ahmad"
+      ]
+    },
+    {
+      "civilization": "Saxons",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 300,
+        "end": 804,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Saxons",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Saxons",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Widukind"
+      ]
+    },
+    {
+      "civilization": "Saxons",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Saxons",
+      "field": "after",
+      "action": "add",
+      "value": "Duchy of Saxony"
+    },
+    {
+      "civilization": "Scandinavian minor kingdoms",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 793,
+        "end": 1066
+      }
+    },
+    {
+      "civilization": "Scandinavian minor kingdoms",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Scandinavian minor kingdoms",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Scandinavian minor kingdoms",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Scandinavian minor kingdoms",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Halfdan the Black",
+        "Harald Fairhair",
+        "Gorm the Old",
+        "Harald Bluetooth"
+      ]
+    },
+    {
+      "civilization": "Second Mexican Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Restored Republic"
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 861,
+        "end": 1538
+      }
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Shamakhi",
+        "Baku"
+      ]
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Haytham ibn Khalid",
+        "Ibrahim I of Shirvan"
+      ]
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "before",
+      "action": "add",
+      "value": "Abbasid Caliphate"
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "after",
+      "action": "add",
+      "value": "Safavid Iran"
+    },
+    {
+      "civilization": "South Africa",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "South Africa",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Jan Smuts",
+        "D. F. Malan",
+        "Hendrik Verwoerd",
+        "Nelson Mandela"
+      ]
+    },
+    {
+      "civilization": "South African Republic",
+      "field": "before",
+      "action": "add",
+      "value": "Klein Vrystaat"
+    },
+    {
+      "civilization": "Sukhothai Kingdom",
+      "field": "before",
+      "action": "add",
+      "value": "Khmer Empire"
+    },
+    {
+      "civilization": "Sultanate of Brunei",
+      "field": "before",
+      "action": "add",
+      "value": "Majapahit"
+    },
+    {
+      "civilization": "Swedish Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of Sweden"
+    },
+    {
+      "civilization": "Swedish Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of Sweden"
+    },
+    {
+      "civilization": "Swedish Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gustavus Adolphus",
+        "Christina, Queen of Sweden",
+        "Charles X Gustav",
+        "Charles XII"
+      ]
+    },
+    {
+      "civilization": "Swiss Confederation",
+      "field": "before",
+      "action": "add",
+      "value": "Old Swiss Confederacy"
+    },
+    {
+      "civilization": "Swiss Confederation",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Thonburi Kingdom",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Thonburi"
+      ]
+    },
+    {
+      "civilization": "Toltec",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Tula (Mesoamerican site)"
+      ]
+    },
+    {
+      "civilization": "Toltec",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 950,
+        "end": 1150,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Toltec",
+      "field": "map_year",
+      "action": "set",
+      "value": 1100
+    },
+    {
+      "civilization": "Toltec",
+      "field": "before",
+      "action": "add",
+      "value": "Teotihuacan"
+    },
+    {
+      "civilization": "Toltec",
+      "field": "after",
+      "action": "add",
+      "value": "Tepanec"
+    },
+    {
+      "civilization": "Troy",
+      "field": "capital",
+      "action": "add",
+      "value": "Troy"
+    },
+    {
+      "civilization": "Troy",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -3000,
+        "end": 500,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Troy",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Alaksandu"
+      ]
+    },
+    {
+      "civilization": "Troy",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Troy",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Türgesh",
+      "field": "after",
+      "action": "add",
+      "value": "Karluk Yabghu State"
+    },
+    {
+      "civilization": "Twenty-second Dynasty of Egypt",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Bubastis",
+        "Tanis"
+      ]
+    },
+    {
+      "civilization": "Twenty-second Dynasty of Egypt",
+      "field": "after",
+      "action": "add",
+      "value": "Twenty-third Dynasty of Egypt"
+    },
+    {
+      "civilization": "Ugarit",
+      "field": "capital",
+      "action": "add",
+      "value": "Ugarit"
+    },
+    {
+      "civilization": "Ugarit",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1450,
+        "end": -1185,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Ugarit",
+      "field": "map_year",
+      "action": "set",
+      "value": -1300
+    },
+    {
+      "civilization": "Ugarit",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Niqmaddu II",
+        "Niqmepa",
+        "Ammurapi"
+      ]
+    },
+    {
+      "civilization": "Ugarit",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Ugarit",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "United Kingdom",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "George V",
+        "Edward VIII",
+        "George VI",
+        "Winston Churchill"
+      ]
+    },
+    {
+      "civilization": "United Kingdom",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "United Kingdoms of Sweden and Norway",
+      "field": "before",
+      "action": "add",
+      "value": "Denmark-Norway"
+    },
+    {
+      "civilization": "United Kingdoms of Sweden and Norway",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of Sweden"
+    },
+    {
+      "civilization": "United States of America",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1776
+      }
+    },
+    {
+      "civilization": "United States of America",
+      "field": "before",
+      "action": "add",
+      "value": "Thirteen Colonies"
+    },
+    {
+      "civilization": "United States of America",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Viking settlements",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 793,
+        "end": 1066
+      }
+    },
+    {
+      "civilization": "Viking settlements",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Viking settlements",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ivar the Boneless",
+        "Rollo",
+        "Erik the Red",
+        "Leif Erikson"
+      ]
+    },
+    {
+      "civilization": "Viking settlements",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Viking settlements",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Warring States Japan",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Kyoto"
+      ]
+    },
+    {
+      "civilization": "Warring States Japan",
+      "field": "before",
+      "action": "add",
+      "value": "Muromachi period"
+    },
+    {
+      "civilization": "Warring States Japan",
+      "field": "after",
+      "action": "add",
+      "value": "Azuchi–Momoyama period"
+    },
+    {
+      "civilization": "Wei",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Marquess Wen of Wei",
+        "King Hui of Wei",
+        "Wei Wuji"
+      ]
+    },
+    {
+      "civilization": "Western Xia",
+      "field": "before",
+      "action": "add",
+      "value": "Dingnan Jiedushi"
+    },
+    {
+      "civilization": "White Horde",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Sighnaq"
+      ]
+    },
+    {
+      "civilization": "White Horde",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1226,
+        "end": 1428,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "White Horde",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Orda Khan",
+        "Urus Khan",
+        "Barak Khan"
+      ]
+    },
+    {
+      "civilization": "White Horde",
+      "field": "before",
+      "action": "add",
+      "value": "Mongol Empire"
+    },
+    {
+      "civilization": "White Horde",
+      "field": "after",
+      "action": "add",
+      "value": "Uzbek Khanate"
+    },
+    {
+      "civilization": "Wu",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1200,
+        "end": -473,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Wu",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Helü of Wu",
+        "Sun Tzu",
+        "Wu Zixu",
+        "Fuchai of Wu"
+      ]
+    },
+    {
+      "civilization": "Wu",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Xin Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Wang Mang",
+        "Gengshi Emperor"
+      ]
+    },
+    {
+      "civilization": "Zayyanid dynasty",
+      "field": "after",
+      "action": "add",
+      "value": "Regency of Algiers"
+    },
+    {
+      "civilization": "Zululand",
+      "field": "before",
+      "action": "add",
+      "value": "Mthethwa Paramountcy"
+    },
+    {
+      "civilization": "Zululand",
+      "field": "after",
+      "action": "add",
+      "value": "Colony of Natal"
+    },
+    {
+      "civilization": "Zululand",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Shaka",
+        "Dingane",
+        "Mpande",
+        "Cetshwayo"
+      ]
+    },
+    {
+      "civilization": "Pandya dynasty",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -400,
+        "end": 1618,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Pandya dynasty",
+      "field": "capital",
+      "action": "add",
+      "value": "Korkai"
+    },
+    {
+      "civilization": "Pandya dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Nedunjeliyan I",
+        "Kadungon",
+        "Jatavarman Sundara Pandyan I",
+        "Maravarman Kulasekara Pandyan I"
+      ]
+    },
+    {
+      "civilization": "Pandya dynasty",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Lanna Kingdom",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Mangrai",
+        "Tilokarat",
+        "Setthathirath",
+        "Mekuti"
+      ]
+    },
+    {
+      "civilization": "Avar Khaganate",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Xiongnu",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Babylonia",
+      "field": "before",
+      "action": "none",
+      "value": ""
     }
   ],
-  "needs_verification": [],
+  "needs_verification": [
+    {
+      "civilization": "Abbasid Caliphate",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Iraq",
+        "Iran",
+        "Syria",
+        "Jordan",
+        "Israel",
+        "Palestine",
+        "Lebanon",
+        "Saudi Arabia",
+        "Kuwait",
+        "Bahrain",
+        "Qatar",
+        "United Arab Emirates",
+        "Oman",
+        "Yemen",
+        "Egypt",
+        "Libya",
+        "Tunisia",
+        "Afghanistan",
+        "Pakistan",
+        "Turkmenistan",
+        "Uzbekistan",
+        "Tajikistan",
+        "Azerbaijan",
+        "Armenia",
+        "Georgia"
+      ]
+    },
+    {
+      "civilization": "Đại Việt",
+      "field": "before",
+      "action": "add",
+      "value": "Jinghai Jiedushi"
+    },
+    {
+      "civilization": "Đại Việt",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Đinh Bộ Lĩnh",
+        "Lý Thái Tổ",
+        "Lê Lợi",
+        "Lê Thánh Tông"
+      ]
+    },
+    {
+      "civilization": "Ajuran Sultanate",
+      "field": "before",
+      "action": "add",
+      "value": "Sultanate of Mogadishu"
+    },
+    {
+      "civilization": "Ajuran Sultanate",
+      "field": "map_year",
+      "action": "set",
+      "value": 1500
+    },
+    {
+      "civilization": "Chagatai Khanate",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1226,
+        "end": 1347
+      }
+    },
+    {
+      "civilization": "Chimor",
+      "field": "before",
+      "action": "add",
+      "value": "Sican culture"
+    },
+    {
+      "civilization": "Chu",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "King Wu of Chu",
+        "King Zhuang of Chu",
+        "Qu Yuan"
+      ]
+    },
+    {
+      "civilization": "Chu",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -508,
+        "end": -322
+      }
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "after",
+      "action": "add",
+      "value": "Macedonia"
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "map_year",
+      "action": "set",
+      "value": -450
+    },
+    {
+      "civilization": "Cossack Hetmanate",
+      "field": "map_year",
+      "action": "set",
+      "value": 1670
+    },
+    {
+      "civilization": "Crown of Aragon",
+      "field": "capital",
+      "action": "add",
+      "value": "Zaragoza"
+    },
+    {
+      "civilization": "Empire of China",
+      "field": "before",
+      "action": "add",
+      "value": "Republic of China"
+    },
+    {
+      "civilization": "Etruscans",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -900,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Etruscans",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Tarquinius Priscus",
+        "Lars Porsena",
+        "Tarquinius Superbus"
+      ]
+    },
+    {
+      "civilization": "French colonial empire",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "French colonial empire",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "French First Republic",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Georges Danton",
+        "Maximilien Robespierre",
+        "Napoleon"
+      ]
+    },
+    {
+      "civilization": "German Confederation",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Germany",
+        "Austria",
+        "Czechia",
+        "Poland",
+        "Luxembourg",
+        "Liechtenstein",
+        "Slovenia",
+        "Netherlands",
+        "Denmark",
+        "Italy"
+      ]
+    },
+    {
+      "civilization": "German Confederation",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Klemens von Metternich",
+        "Frederick William IV of Prussia",
+        "Franz Joseph I",
+        "Otto von Bismarck"
+      ]
+    },
+    {
+      "civilization": "Ghana Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 300,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Golden Horde",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1242
+      }
+    },
+    {
+      "civilization": "Grand Duchy of Lithuania",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Habsburg Monarchy",
+      "field": "after",
+      "action": "add",
+      "value": "Republic of Austria"
+    },
+    {
+      "civilization": "Hunnic Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of the Gepids"
+    },
+    {
+      "civilization": "Hunnic Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Uldin",
+        "Rugila",
+        "Bleda",
+        "Attila"
+      ]
+    },
+    {
+      "civilization": "Iberian Union",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of Portugal"
+    },
+    {
+      "civilization": "Iberian Union",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Spain",
+        "Portugal",
+        "Brazil",
+        "Mexico",
+        "Argentina",
+        "Peru",
+        "Bolivia",
+        "Colombia",
+        "Venezuela",
+        "Chile",
+        "Ecuador",
+        "Cuba",
+        "Philippines",
+        "Italy",
+        "Belgium",
+        "Netherlands",
+        "Angola",
+        "Mozambique",
+        "India",
+        "United States"
+      ]
+    },
+    {
+      "civilization": "Janapada of Magadha",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -600,
+        "end": -345,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Janapada of Magadha",
+      "field": "after",
+      "action": "add",
+      "value": "Nanda Empire"
+    },
+    {
+      "civilization": "Janapada of Magadha",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kanem–Bornu Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Sao civilization"
+    },
+    {
+      "civilization": "Kievan Rus'",
+      "field": "before",
+      "action": "add",
+      "value": "Rus' Khaganate"
+    },
+    {
+      "civilization": "Kingdom of Aragon",
+      "field": "before",
+      "action": "add",
+      "value": "County of Aragon"
+    },
+    {
+      "civilization": "Kingdom of Galicia–Volhynia",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Roman the Great",
+        "Daniel of Galicia",
+        "Leo I of Galicia",
+        "Liubartas"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Germany",
+      "field": "before",
+      "action": "add",
+      "value": "East Francia"
+    },
+    {
+      "civilization": "Kingdom of Germany",
+      "field": "after",
+      "action": "add",
+      "value": "Holy Roman Empire"
+    },
+    {
+      "civilization": "Kingdom of Kush",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Alara",
+        "Piye",
+        "Shabaka",
+        "Taharqa"
+      ]
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 705
+      }
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "after",
+      "action": "add",
+      "value": "Umayyad Caliphate"
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Caucasian Iberia",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Duchy of Aquitaine",
+      "field": "capital",
+      "action": "add",
+      "value": "Bordeaux"
+    },
+    {
+      "civilization": "Duchy of Aquitaine",
+      "field": "capital",
+      "action": "add",
+      "value": "Poitiers"
+    },
+    {
+      "civilization": "Duchy of Aquitaine",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 602
+      }
+    },
+    {
+      "civilization": "Duchy of Burgundy",
+      "field": "before",
+      "action": "add",
+      "value": "Burgundians"
+    },
+    {
+      "civilization": "Göktürk Khaganate",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Ötüken"
+      ]
+    },
+    {
+      "civilization": "Ajuran Sultanate",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "British Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1583
+      }
+    },
+    {
+      "civilization": "Ahmadnagar Sultanate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ahmad Nizam Shah I",
+        "Hussain Nizam Shah I",
+        "Chand Bibi",
+        "Malik Ambar"
+      ]
+    },
+    {
+      "civilization": "Carthage",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Dido",
+        "Hamilcar Barca",
+        "Hasdrubal the Fair",
+        "Hannibal"
+      ]
+    },
+    {
+      "civilization": "Chagatai Khanate",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Kebek",
+        "Tughlugh Timur"
+      ]
+    },
+    {
+      "civilization": "Habsburg Monarchy",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ferdinand I, Holy Roman Emperor",
+        "Leopold I, Holy Roman Emperor",
+        "Maria Theresa",
+        "Franz Joseph I"
+      ]
+    },
+    {
+      "civilization": "Ilkhanate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Hulegu Khan",
+        "Abaqa Khan",
+        "Ghazan",
+        "Abu Sa'id Bahadur Khan"
+      ]
+    },
+    {
+      "civilization": "Hittites",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Labarna I",
+        "Mursili I",
+        "Suppiluliuma I",
+        "Puduḫepa"
+      ]
+    },
+    {
+      "civilization": "Khazaria",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Irbis",
+        "Bulan",
+        "Obadiah",
+        "Joseph"
+      ]
+    },
+    {
+      "civilization": "Babylonia",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Nebuchadnezzar II"
+      ]
+    },
+    {
+      "civilization": "Kanem–Bornu Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Dunama Dabbalemi",
+        "Idris Alooma",
+        "Muhammad al-Amin al-Kanemi"
+      ]
+    },
+    {
+      "civilization": "Khanate of Kazan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ulugh Muhammad",
+        "Ibrahim of Kazan",
+        "Yadegar Mokhammad of Kazan"
+      ]
+    },
+    {
+      "civilization": "Elam",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Untash-Napirisha",
+        "Shutruk-Nakhunte",
+        "Tammaritu II"
+      ]
+    },
+    {
+      "civilization": "Maya civilization",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Minoan civilization",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Mitanni",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Sparta",
+      "field": "map_year",
+      "action": "set",
+      "value": -431
+    },
+    {
+      "civilization": "Sparta",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Zapotec Civilization",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Liao Dynasty",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Mycenaean Greece",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Mycenaean Greece",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kushan Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Kujula Kadphises",
+        "Vima Kadphises",
+        "Kanishka",
+        "Huvishka"
+      ]
+    },
+    {
+      "civilization": "Kushan Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Indo-Sassanids"
+    },
+    {
+      "civilization": "Mutapa Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1760
+      }
+    },
+    {
+      "civilization": "Mutapa Empire",
+      "field": "map_year",
+      "action": "set",
+      "value": 1500
+    },
+    {
+      "civilization": "Macedonia",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Urartu",
+      "field": "before",
+      "action": "add",
+      "value": "Nairi"
+    },
+    {
+      "civilization": "Netherlands",
+      "field": "before",
+      "action": "add",
+      "value": "Dutch Republic"
+    },
+    {
+      "civilization": "Northern Yuan",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1635
+      }
+    },
+    {
+      "civilization": "Northern Yuan",
+      "field": "after",
+      "action": "add",
+      "value": "Qing Dynasty"
+    },
+    {
+      "civilization": "Odrysian Kingdom",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Olmec Civilization",
+      "field": "after",
+      "action": "add",
+      "value": "Epi-Olmec culture"
+    },
+    {
+      "civilization": "Oyo Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Sokoto Caliphate"
+    },
+    {
+      "civilization": "Oyo Empire",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1400,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Phoenicia",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Phrygia",
+      "field": "before",
+      "action": "add",
+      "value": "Hittites"
+    },
+    {
+      "civilization": "Portuguese Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of Portugal"
+    },
+    {
+      "civilization": "Portuguese Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Portuguese Republic"
+    },
+    {
+      "civilization": "Principality of Hungary",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Árpád",
+        "Taksony of Hungary",
+        "Géza",
+        "Stephen I of Hungary"
+      ]
+    },
+    {
+      "civilization": "Principality of Rostov-Suzdal",
+      "field": "before",
+      "action": "add",
+      "value": "Kievan Rus'"
+    },
+    {
+      "civilization": "Principality of Rostov-Suzdal",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Yuri Dolgorukiy",
+        "Andrey Bogolyubsky",
+        "Vsevolod the Big Nest",
+        "Alexander Nevsky"
+      ]
+    },
+    {
+      "civilization": "Principality of Rostov-Suzdal",
+      "field": "capital",
+      "action": "add",
+      "value": "Rostov"
+    },
+    {
+      "civilization": "Principality of Wallachia",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of Hungary"
+    },
+    {
+      "civilization": "Prussia",
+      "field": "after",
+      "action": "add",
+      "value": "Allied-occupied Germany"
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 850,
+        "end": 1250,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Puebloans - Chaco Regional System",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Pyu City-States",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Pyu City-States",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Qara Qoyunlu",
+      "field": "before",
+      "action": "add",
+      "value": "Jalayirid Sultanate"
+    },
+    {
+      "civilization": "Qara Qoyunlu",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Qara Yusuf",
+        "Jahan Shah",
+        "Hasan Ali"
+      ]
+    },
+    {
+      "civilization": "Rashidun Caliphate",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Republic of Genoa",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Simone Boccanegra",
+        "Andrea Doria",
+        "Giacomo Maria Brignole"
+      ]
+    },
+    {
+      "civilization": "Roman Empire",
+      "field": "capital",
+      "action": "add",
+      "value": "Constantinople"
+    },
+    {
+      "civilization": "Roman Kingdom",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Rouran Khaganate",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Rouran Khaganate",
+      "field": "before",
+      "action": "add",
+      "value": "Xianbei"
+    },
+    {
+      "civilization": "Sabaeans",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Satavahana Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Simuka",
+        "Gautamiputra Satakarni",
+        "Vasishthiputra Pulumavi",
+        "Yajna Sri Satakarni"
+      ]
+    },
+    {
+      "civilization": "Scythia",
+      "field": "before",
+      "action": "add",
+      "value": "Cimmerians"
+    },
+    {
+      "civilization": "Scythia",
+      "field": "after",
+      "action": "add",
+      "value": "Sarmatians"
+    },
+    {
+      "civilization": "Srivijaya",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Dapunta Hyang Sri Jayanasa",
+        "Balaputra"
+      ]
+    },
+    {
+      "civilization": "Srivijaya",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1377,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Srivijaya",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Srivijaya",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Tenochtitlan",
+      "field": "capital",
+      "action": "add",
+      "value": "Tenochtitlan"
+    },
+    {
+      "civilization": "Tenochtitlan",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "capital",
+      "action": "add",
+      "value": "Teotihuacan"
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -100,
+        "end": 650,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "after",
+      "action": "add",
+      "value": "Toltec"
+    },
+    {
+      "civilization": "Teutonic Order",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Tibetan Empire",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Timurid Empire",
+      "field": "before",
+      "action": "set",
+      "value": "Chagatai Khanate"
+    },
+    {
+      "civilization": "Timurid Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Timur",
+        "Shah Rukh",
+        "Ulugh Beg",
+        "Husayn Bayqara"
+      ]
+    },
+    {
+      "civilization": "Volga Bulgaria",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 700,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Volga Bulgaria",
+      "field": "map_year",
+      "action": "set",
+      "value": 1000
+    },
+    {
+      "civilization": "Volga Bulgaria",
+      "field": "before",
+      "action": "add",
+      "value": "Old Great Bulgaria"
+    },
+    {
+      "civilization": "White Huns",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 560,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "White Huns",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Xianbei",
+      "field": "after",
+      "action": "add",
+      "value": "Rouran Khaganate"
+    },
+    {
+      "civilization": "Zapotec Civilization",
+      "field": "key_figures",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Zapotec Civilization",
+      "field": "after",
+      "action": "add",
+      "value": "New Spain"
+    },
+    {
+      "civilization": "Adal Sultanate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Sabr ad-Din III",
+        "Ahmad ibn Ibrahim al-Ghazi",
+        "Nur ibn Mujahid"
+      ]
+    },
+    {
+      "civilization": "Afsharid Iran",
+      "field": "after",
+      "action": "set",
+      "value": "Qajar Iran"
+    },
+    {
+      "civilization": "Alodia",
+      "field": "before",
+      "action": "add",
+      "value": "Kingdom of Kush"
+    },
+    {
+      "civilization": "Argentine Republic",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Hipólito Yrigoyen",
+        "Juan Perón",
+        "Arturo Frondizi",
+        "Arturo Umberto Illia"
+      ]
+    },
+    {
+      "civilization": "Asuka Japan",
+      "field": "capital",
+      "action": "add",
+      "value": "Fujiwara-kyō"
+    },
+    {
+      "civilization": "Ayyubid Sultanate",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1171,
+        "end": 1260,
+        "circa": false
+      }
+    },
+    {
+      "civilization": "Bourbon Kingdom of France",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Louis XVIII",
+        "Charles X of France"
+      ]
+    },
+    {
+      "civilization": "Brazilian Republic",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1889
+      }
+    },
+    {
+      "civilization": "Brazilian Republic",
+      "field": "capital",
+      "action": "add",
+      "value": "Brasília"
+    },
+    {
+      "civilization": "Belgian Congo",
+      "field": "after",
+      "action": "set",
+      "value": "First Congolese Republic"
+    },
+    {
+      "civilization": "Brythons",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -800,
+        "end": 1100,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -657,
+        "end": 330,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "after",
+      "action": "set",
+      "value": "Byzantine Empire"
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "map_year",
+      "action": "set",
+      "value": -500
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Marduk-apla-iddina II",
+        "Nabopolassar",
+        "Nebuchadnezzar II"
+      ]
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Iraq",
+        "Kuwait"
+      ]
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "map_year",
+      "action": "set",
+      "value": -700
+    },
+    {
+      "civilization": "Commonwealth of Australia",
+      "field": "before",
+      "action": "set",
+      "value": "British Empire"
+    },
+    {
+      "civilization": "Commonwealth of England",
+      "field": "before",
+      "action": "set",
+      "value": "Kingdom of England"
+    },
+    {
+      "civilization": "Commonwealth of England",
+      "field": "after",
+      "action": "set",
+      "value": "Kingdom of England"
+    },
+    {
+      "civilization": "Confederate States of America",
+      "field": "after",
+      "action": "set",
+      "value": "United States"
+    },
+    {
+      "civilization": "County of Flanders",
+      "field": "before",
+      "action": "set",
+      "value": "West Francia"
+    },
+    {
+      "civilization": "County of Flanders",
+      "field": "after",
+      "action": "set",
+      "value": "Duchy of Burgundy"
+    },
+    {
+      "civilization": "Cuman-Kipchak Confederation",
+      "field": "after",
+      "action": "set",
+      "value": "Golden Horde"
+    },
+    {
+      "civilization": "Dahomey",
+      "field": "before",
+      "action": "set",
+      "value": "Kingdom of Allada"
+    },
+    {
+      "civilization": "Dahomey",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1904
+      }
+    },
+    {
+      "civilization": "Dahomey",
+      "field": "map_year",
+      "action": "set",
+      "value": 1800
+    },
+    {
+      "civilization": "Dominican Republic",
+      "field": "before",
+      "action": "set",
+      "value": "Haiti"
+    },
+    {
+      "civilization": "Duchy of Bavaria",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 555,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Duchy of Savoy",
+      "field": "after",
+      "action": "set",
+      "value": "Kingdom of Sardinia"
+    },
+    {
+      "civilization": "Duchy of Savoy",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1847
+      }
+    },
+    {
+      "civilization": "Duchy of Savoy",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Amadeus VIII of Savoy",
+        "Emmanuel Philibert, Duke of Savoy",
+        "Charles Emmanuel I, Duke of Savoy",
+        "Victor Amadeus II of Sardinia"
+      ]
+    },
+    {
+      "civilization": "Estado Novo",
+      "field": "before",
+      "action": "set",
+      "value": "Ditadura Nacional"
+    },
+    {
+      "civilization": "Estado Novo",
+      "field": "after",
+      "action": "set",
+      "value": "Third Portuguese Republic"
+    },
+    {
+      "civilization": "Four Oirats",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1634
+      }
+    },
+    {
+      "civilization": "Free French",
+      "field": "before",
+      "action": "set",
+      "value": "French Third Republic"
+    },
+    {
+      "civilization": "Free French",
+      "field": "after",
+      "action": "set",
+      "value": "Provisional Government of the French Republic"
+    },
+    {
+      "civilization": "Goths",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 711,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Greco-Bactrian Kingdom",
+      "field": "after",
+      "action": "set",
+      "value": "Kushan Empire"
+    },
+    {
+      "civilization": "Guatemala",
+      "field": "before",
+      "action": "set",
+      "value": "Federal Republic of Central America"
+    },
+    {
+      "civilization": "Hamdanid Emirates",
+      "field": "after",
+      "action": "set",
+      "value": "Uqaylid dynasty"
+    },
+    {
+      "civilization": "Hausa Kingdoms",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Muhammad Rumfa",
+        "Amina of Zazzau"
+      ]
+    },
+    {
+      "civilization": "Hoysala Kingdom",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1026,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Hyderabad State",
+      "field": "before",
+      "action": "set",
+      "value": "Mughal Empire"
+    },
+    {
+      "civilization": "Hyksos",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Salitis",
+        "Khyan",
+        "Apepi"
+      ]
+    },
+    {
+      "civilization": "Hyksos",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Ifat Sultanate",
+      "field": "before",
+      "action": "set",
+      "value": "Sultanate of Shewa"
+    },
+    {
+      "civilization": "Jin",
+      "field": "before",
+      "action": "set",
+      "value": "Western Zhou"
+    },
+    {
+      "civilization": "Judea",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Jerusalem"
+      ]
+    },
+    {
+      "civilization": "Judea",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -140,
+        "end": -37,
+        "circa": false
+      }
+    },
+    {
+      "civilization": "Judea",
+      "field": "before",
+      "action": "set",
+      "value": "Seleucid Empire"
+    },
+    {
+      "civilization": "Judea",
+      "field": "after",
+      "action": "set",
+      "value": "Herodian kingdom"
+    },
+    {
+      "civilization": "Judea",
+      "field": "summary",
+      "action": "set",
+      "value": "A historical region of the Land of Israel around Jerusalem, ruled by the Hasmonean dynasty in the last two centuries BC."
+    },
+    {
+      "civilization": "Khanate of Khiva",
+      "field": "after",
+      "action": "set",
+      "value": "Khorezm People's Soviet Republic"
+    },
+    {
+      "civilization": "Kimek-Kipchak confederation",
+      "field": "after",
+      "action": "set",
+      "value": "Cuman-Kipchak Confederation"
+    },
+    {
+      "civilization": "Kingdom of Egypt",
+      "field": "before",
+      "action": "set",
+      "value": "Sultanate of Egypt"
+    },
+    {
+      "civilization": "Kingdom of Fiji",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Fiji",
+      "field": "after",
+      "action": "set",
+      "value": "Colony of Fiji"
+    },
+    {
+      "civilization": "Kingdom of Hanover",
+      "field": "before",
+      "action": "set",
+      "value": "Electorate of Hanover"
+    },
+    {
+      "civilization": "Kingdom of Hanover",
+      "field": "after",
+      "action": "set",
+      "value": "Kingdom of Prussia"
+    },
+    {
+      "civilization": "Kingdom of Hawaï'i",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Hawaï'i",
+      "field": "after",
+      "action": "set",
+      "value": "Republic of Hawaii"
+    },
+    {
+      "civilization": "Kingdom of Hawaï'i",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Kamehameha I",
+        "Kamehameha III",
+        "Kalākaua",
+        "Liliʻuokalani"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Israel (Samaria)",
+      "field": "before",
+      "action": "set",
+      "value": "Kingdom of Israel (united monarchy)"
+    },
+    {
+      "civilization": "Kingdom of Khotan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Viśa' Saṃbhava"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Lunda",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Tshibinda Ilunga"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Lunda",
+      "field": "after",
+      "action": "set",
+      "value": "Chokwe Kingdom"
+    },
+    {
+      "civilization": "Cuman-Kipchak Confederation",
+      "field": "before",
+      "action": "set",
+      "value": "Kimek-Kipchak confederation"
+    },
+    {
+      "civilization": "Danish overseas colonies",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Copenhagen"
+      ]
+    },
+    {
+      "civilization": "Danish overseas colonies",
+      "field": "after",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Kingdom of Navarre",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Sancho VI of Navarre",
+        "Charles II of Navarre",
+        "Joan I of Navarre",
+        "Henry IV of France"
+      ]
+    },
+    {
+      "civilization": "Emirate of Afghanistan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Dost Mohammad Khan",
+        "Sher Ali Khan",
+        "Abdur Rahman Khan",
+        "Amanullah Khan"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Afghanistan",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Mohammed Zahir Shah"
+      ]
+    },
+    {
+      "civilization": "Duchy of Milan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gian Galeazzo Visconti",
+        "Filippo Maria Visconti",
+        "Francesco I Sforza",
+        "Ludovico Sforza"
+      ]
+    },
+    {
+      "civilization": "French Second Republic",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "François Arago",
+        "Louis-Eugène Cavaignac",
+        "Napoleon III"
+      ]
+    },
+    {
+      "civilization": "French Algeria",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Thomas Robert Bugeaud",
+        "Napoleon III",
+        "Charles de Gaulle"
+      ]
+    },
+    {
+      "civilization": "Gurjara-Pratihara Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Nagabhata I",
+        "Vatsaraja",
+        "Nagabhata II",
+        "Mihira Bhoja"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Mysore",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Chikka Devaraja",
+        "Hyder Ali",
+        "Tipu Sultan",
+        "Krishna Raja Wadiyar IV"
+      ]
+    },
+    {
+      "civilization": "Kamakura Shogunate",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Minamoto no Yoritomo",
+        "Hōjō Tokimasa",
+        "Hōjō Tokimune",
+        "Ashikaga Takauji"
+      ]
+    },
+    {
+      "civilization": "Eastern Wei",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gao Huan",
+        "Emperor Xiaojing of Eastern Wei"
+      ]
+    },
+    {
+      "civilization": "Duchy of Warsaw",
+      "field": "key_figures",
+      "action": "add",
+      "value": [
+        "Józef Poniatowski"
+      ]
+    },
+    {
+      "civilization": "Durrani Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ahmad Shah Durrani",
+        "Timur Shah Durrani",
+        "Zaman Shah Durrani",
+        "Shuja Shah Durrani"
+      ]
+    },
+    {
+      "civilization": "Gurjara-Pratihara Dynasty",
+      "field": "map_year",
+      "action": "set",
+      "value": 850
+    },
+    {
+      "civilization": "Funan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Kaundinya",
+        "Kulaprabhavati",
+        "Rudravarman"
+      ]
+    },
+    {
+      "civilization": "Danish overseas colonies",
+      "field": "map_year",
+      "action": "set",
+      "value": 1800
+    },
+    {
+      "civilization": "Kingdom of Nepal",
+      "field": "before",
+      "action": "add",
+      "value": "Gorkha Kingdom"
+    },
+    {
+      "civilization": "Kingdom of Neustria",
+      "field": "after",
+      "action": "add",
+      "value": "Francia"
+    },
+    {
+      "civilization": "Kingdom of Neustria",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 511,
+        "end": 751
+      }
+    },
+    {
+      "civilization": "Kingdom of Neustria",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Chilperic I",
+        "Clothar II",
+        "Ebroin",
+        "Childeric III"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Numidia",
+      "field": "after",
+      "action": "add",
+      "value": "Roman Republic"
+    },
+    {
+      "civilization": "Kingdom of Pontus",
+      "field": "before",
+      "action": "add",
+      "value": "Antigonid dynasty"
+    },
+    {
+      "civilization": "Kingdom of Romania",
+      "field": "summary",
+      "action": "set",
+      "value": "A constitutional monarchy in southeastern Europe, ruled by the Hohenzollern-Sigmaringen dynasty from 1881 to 1947."
+    },
+    {
+      "civilization": "Kingdom of Sardinia",
+      "field": "capital",
+      "action": "add",
+      "value": "Cagliari"
+    },
+    {
+      "civilization": "Kingdom of Sardinia",
+      "field": "before",
+      "action": "add",
+      "value": "Duchy of Savoy"
+    },
+    {
+      "civilization": "Kingdom of Saxony",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Frederick Augustus I of Saxony",
+        "Frederick Augustus II of Saxony",
+        "Albert of Saxony",
+        "Frederick Augustus III of Saxony"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Scotland",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Kenneth MacAlpin",
+        "Alexander III of Scotland",
+        "Robert the Bruce",
+        "James IV of Scotland"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Serbia",
+      "field": "before",
+      "action": "add",
+      "value": "Principality of Serbia"
+    },
+    {
+      "civilization": "Kingdom of Sweden",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 995,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Kingdom of the Two Sicilies",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1816,
+        "end": 1861
+      }
+    },
+    {
+      "civilization": "Kingdom of Wessex",
+      "field": "before",
+      "action": "set",
+      "value": "Sub-Roman Britain"
+    },
+    {
+      "civilization": "Lakhmid Kingdom",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Amr ibn Adi",
+        "Al-Mundhir III ibn al-Nu'man",
+        "Al-Nu'man III ibn al-Mundhir"
+      ]
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -2500,
+        "end": -980,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Eritrea"
+      ]
+    },
+    {
+      "civilization": "Late Pallava Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Mahendravarman I",
+        "Narasimhavarman I",
+        "Nandivarman II",
+        "Aparajitavarman"
+      ]
+    },
+    {
+      "civilization": "Later Jin Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Nurhaci",
+        "Hong Taiji"
+      ]
+    },
+    {
+      "civilization": "Lu",
+      "field": "before",
+      "action": "add",
+      "value": "Shang Dynasty"
+    },
+    {
+      "civilization": "Mahajanapadas",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Bimbisara",
+        "Prasenajit",
+        "Ajatashatru"
+      ]
+    },
+    {
+      "civilization": "Mahajanapadas",
+      "field": "before",
+      "action": "add",
+      "value": "Kuru Kingdom"
+    },
+    {
+      "civilization": "Margraviate of Brandenburg",
+      "field": "before",
+      "action": "add",
+      "value": "Northern March"
+    },
+    {
+      "civilization": "Margraviate of Brandenburg",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Albert the Bear",
+        "Frederick I of Brandenburg",
+        "Frederick William, the Great Elector"
+      ]
+    },
+    {
+      "civilization": "Mataram Kingdom",
+      "field": "before",
+      "action": "add",
+      "value": "Kalingga Kingdom"
+    },
+    {
+      "civilization": "Mataram Kingdom",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Sanjaya of Mataram",
+        "Rakai Pikatan",
+        "Mpu Sindok",
+        "Dharmawangsa"
+      ]
+    },
+    {
+      "civilization": "Median Kingdom",
+      "field": "before",
+      "action": "add",
+      "value": "Neo-Assyrian Empire"
+    },
+    {
+      "civilization": "Merina Kingdom",
+      "field": "after",
+      "action": "add",
+      "value": "French Madagascar"
+    },
+    {
+      "civilization": "Mexico",
+      "field": "before",
+      "action": "add",
+      "value": "New Spain"
+    },
+    {
+      "civilization": "Minaeans",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -750,
+        "end": 100,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Minaeans",
+      "field": "after",
+      "action": "add",
+      "value": "Himyarite Kingdom"
+    },
+    {
+      "civilization": "Moghulistan",
+      "field": "after",
+      "action": "add",
+      "value": "Yarkent Khanate"
+    },
+    {
+      "civilization": "Nabataeans",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -312,
+        "end": 106
+      }
+    },
+    {
+      "civilization": "Nara Japan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Empress Genmei",
+        "Emperor Shōmu",
+        "Empress Kōken",
+        "Emperor Kanmu"
+      ]
+    },
+    {
+      "civilization": "Nicaean Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Theodore I Laskaris",
+        "John III Doukas Vatatzes",
+        "Theodore II Laskaris",
+        "Michael VIII Palaiologos"
+      ]
+    },
+    {
+      "civilization": "Nicaean Empire",
+      "field": "summary",
+      "action": "set",
+      "value": "A Byzantine successor state in western Anatolia, founded after the Fourth Crusade, whose rulers retook Constantinople in 1261."
+    },
+    {
+      "civilization": "Old Kingdom of Norway",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 872,
+        "end": 1397
+      }
+    },
+    {
+      "civilization": "Old Kingdom of Norway",
+      "field": "summary",
+      "action": "set",
+      "value": "The medieval kingdom of Norway, united under Harald Fairhair about 872 and lasting until the Kalmar Union of 1397."
+    },
+    {
+      "civilization": "Old Swiss Confederacy",
+      "field": "before",
+      "action": "add",
+      "value": "Holy Roman Empire"
+    },
+    {
+      "civilization": "Pala Empire",
+      "field": "capital",
+      "action": "add",
+      "value": "Gauda"
+    },
+    {
+      "civilization": "Pala Empire",
+      "field": "before",
+      "action": "add",
+      "value": "Khadga dynasty"
+    },
+    {
+      "civilization": "Peru-Bolivian Confederation",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Peru",
+        "Bolivia"
+      ]
+    },
+    {
+      "civilization": "Portuguese Republic",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1910
+      }
+    },
+    {
+      "civilization": "Principality of Chernigov",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1024,
+        "end": 1402
+      }
+    },
+    {
+      "civilization": "Principality of Chernigov",
+      "field": "before",
+      "action": "add",
+      "value": "Kievan Rus'"
+    },
+    {
+      "civilization": "Principality of Chernigov",
+      "field": "after",
+      "action": "add",
+      "value": "Grand Duchy of Lithuania"
+    },
+    {
+      "civilization": "Principality of Kiev",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1132,
+        "end": 1471
+      }
+    },
+    {
+      "civilization": "Principality of Kiev",
+      "field": "before",
+      "action": "add",
+      "value": "Kievan Rus'"
+    },
+    {
+      "civilization": "Principality of Kiev",
+      "field": "after",
+      "action": "add",
+      "value": "Grand Duchy of Lithuania"
+    },
+    {
+      "civilization": "Qi",
+      "field": "before",
+      "action": "add",
+      "value": "Pugu (state)"
+    },
+    {
+      "civilization": "Qi",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Jiang Ziya",
+        "Duke Huan of Qi",
+        "Duke Jing of Qi",
+        "Sun Bin"
+      ]
+    },
+    {
+      "civilization": "Republic of Austria",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1918
+      }
+    },
+    {
+      "civilization": "Republic of Austria",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Austria"
+      ]
+    },
+    {
+      "civilization": "Republic of Finland",
+      "field": "before",
+      "action": "set",
+      "value": "Grand Duchy of Finland"
+    },
+    {
+      "civilization": "Republic of Liberia",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1847
+      }
+    },
+    {
+      "civilization": "Republic of Texas",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "David G. Burnet",
+        "Sam Houston",
+        "Mirabeau B. Lamar",
+        "Anson Jones"
+      ]
+    },
+    {
+      "civilization": "Republic of Turkey",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Mustafa Kemal Atatürk",
+        "İsmet İnönü",
+        "Celâl Bayar",
+        "Cemal Gürsel"
+      ]
+    },
+    {
+      "civilization": "Saxons",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 300,
+        "end": 804,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Saxons",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Widukind"
+      ]
+    },
+    {
+      "civilization": "Saxons",
+      "field": "after",
+      "action": "add",
+      "value": "Duchy of Saxony"
+    },
+    {
+      "civilization": "Scandinavian minor kingdoms",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 793,
+        "end": 1066
+      }
+    },
+    {
+      "civilization": "Scandinavian minor kingdoms",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Halfdan the Black",
+        "Harald Fairhair",
+        "Gorm the Old",
+        "Harald Bluetooth"
+      ]
+    },
+    {
+      "civilization": "Second Mexican Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Restored Republic"
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 861,
+        "end": 1538
+      }
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Shamakhi",
+        "Baku"
+      ]
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "before",
+      "action": "add",
+      "value": "Abbasid Caliphate"
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "after",
+      "action": "add",
+      "value": "Safavid Iran"
+    },
+    {
+      "civilization": "South Africa",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Jan Smuts",
+        "D. F. Malan",
+        "Hendrik Verwoerd",
+        "Nelson Mandela"
+      ]
+    },
+    {
+      "civilization": "South African Republic",
+      "field": "before",
+      "action": "add",
+      "value": "Klein Vrystaat"
+    },
+    {
+      "civilization": "Sultanate of Brunei",
+      "field": "before",
+      "action": "add",
+      "value": "Majapahit"
+    },
+    {
+      "civilization": "Swedish Empire",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of Sweden"
+    },
+    {
+      "civilization": "Swedish Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gustavus Adolphus",
+        "Christina, Queen of Sweden",
+        "Charles X Gustav",
+        "Charles XII"
+      ]
+    },
+    {
+      "civilization": "Swiss Confederation",
+      "field": "before",
+      "action": "add",
+      "value": "Old Swiss Confederacy"
+    },
+    {
+      "civilization": "Toltec",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Tula (Mesoamerican site)"
+      ]
+    },
+    {
+      "civilization": "Toltec",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 950,
+        "end": 1150,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Toltec",
+      "field": "map_year",
+      "action": "set",
+      "value": 1100
+    },
+    {
+      "civilization": "Toltec",
+      "field": "before",
+      "action": "add",
+      "value": "Teotihuacan"
+    },
+    {
+      "civilization": "Toltec",
+      "field": "after",
+      "action": "add",
+      "value": "Tepanec"
+    },
+    {
+      "civilization": "Troy",
+      "field": "capital",
+      "action": "add",
+      "value": "Troy"
+    },
+    {
+      "civilization": "Troy",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -3000,
+        "end": 500,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Troy",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Alaksandu"
+      ]
+    },
+    {
+      "civilization": "Twenty-second Dynasty of Egypt",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Bubastis",
+        "Tanis"
+      ]
+    },
+    {
+      "civilization": "Twenty-second Dynasty of Egypt",
+      "field": "after",
+      "action": "add",
+      "value": "Twenty-third Dynasty of Egypt"
+    },
+    {
+      "civilization": "Ugarit",
+      "field": "map_year",
+      "action": "set",
+      "value": -1300
+    },
+    {
+      "civilization": "United Kingdom",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "George V",
+        "Edward VIII",
+        "George VI",
+        "Winston Churchill"
+      ]
+    },
+    {
+      "civilization": "United Kingdoms of Sweden and Norway",
+      "field": "before",
+      "action": "add",
+      "value": "Denmark-Norway"
+    },
+    {
+      "civilization": "United Kingdoms of Sweden and Norway",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of Sweden"
+    },
+    {
+      "civilization": "United States of America",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1776
+      }
+    },
+    {
+      "civilization": "Viking settlements",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 793,
+        "end": 1066
+      }
+    },
+    {
+      "civilization": "Warring States Japan",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Kyoto"
+      ]
+    },
+    {
+      "civilization": "Warring States Japan",
+      "field": "before",
+      "action": "add",
+      "value": "Muromachi period"
+    },
+    {
+      "civilization": "Warring States Japan",
+      "field": "after",
+      "action": "add",
+      "value": "Azuchi–Momoyama period"
+    },
+    {
+      "civilization": "Western Xia",
+      "field": "before",
+      "action": "add",
+      "value": "Dingnan Jiedushi"
+    },
+    {
+      "civilization": "White Horde",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 1226,
+        "end": 1428,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "White Horde",
+      "field": "after",
+      "action": "add",
+      "value": "Uzbek Khanate"
+    },
+    {
+      "civilization": "Wu",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -1200,
+        "end": -473,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Wu",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Helü of Wu",
+        "Sun Tzu",
+        "Wu Zixu",
+        "Fuchai of Wu"
+      ]
+    },
+    {
+      "civilization": "Zululand",
+      "field": "before",
+      "action": "add",
+      "value": "Mthethwa Paramountcy"
+    },
+    {
+      "civilization": "Zululand",
+      "field": "after",
+      "action": "add",
+      "value": "Colony of Natal"
+    },
+    {
+      "civilization": "Lanna Kingdom",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Mangrai",
+        "Tilokarat",
+        "Setthathirath",
+        "Mekuti"
+      ]
+    },
+    {
+      "civilization": "Avar Khaganate",
+      "field": "capital",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Xiongnu",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Babylonia",
+      "field": "before",
+      "action": "none",
+      "value": ""
+    }
+  ],
   "unresolved_polities": {
     "Ahi Republic": "Wikipedia link 'Ahis' is not a polity article",
     "Alans": "Wikipedia link 'Alans' is not a polity article",

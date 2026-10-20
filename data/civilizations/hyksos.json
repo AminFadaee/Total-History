@@ -19,11 +19,40 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Avaris",
+      "location": [
+        31.82253,
+        30.786228
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [],
-  "after": [],
-  "key_figures": [],
+  "after": [
+    {
+      "id": "Q180568",
+      "region": "Egypt",
+      "name": "New Kingdom of Egypt",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q509679",
+      "name": "Salitis"
+    },
+    {
+      "id": "Q440496",
+      "name": "Khyan"
+    },
+    {
+      "id": "Q322169",
+      "name": "Apepi"
+    }
+  ],
   "modern_countries": [
     "Egypt",
     "Jordan",
@@ -50,6 +79,9 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "before": "no source names a state before the Hyksos; the Middle Kingdom ended over a century earlier"
+    },
     "labelled": [
       "Fifteenth Dynasty of Egypt",
       "Babylonia",

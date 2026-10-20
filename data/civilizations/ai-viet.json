@@ -5,17 +5,18 @@
   "wikipedia": "Đại Việt",
   "map_year": 1529,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 968,
+      "latest": 968,
+      "circa": false
+    },
     "end": {
       "earliest": 1804,
       "latest": 1804,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      968,
-      1804
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -53,7 +54,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q6666168",
+      "region": "Vietnam",
+      "name": "Jinghai Jiedushi",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q6500483",
@@ -68,8 +76,16 @@
       "name": "Đinh Bộ Lĩnh"
     },
     {
-      "id": "Q210417",
-      "name": "Gia Long"
+      "id": "Q716945",
+      "name": "Ly Thai To"
+    },
+    {
+      "id": "Q1195391",
+      "name": "Lê Thái Tổ"
+    },
+    {
+      "id": "Q1771050",
+      "name": "Lê Thánh Tông"
     }
   ],
   "modern_countries": [

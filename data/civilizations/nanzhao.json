@@ -39,7 +39,12 @@
       "home": true
     }
   ],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q19840568",
+      "name": "Piluoge"
+    }
+  ],
   "modern_countries": [
     "China",
     "Vietnam"
@@ -67,6 +72,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Dali City",
+    "not_applicable": {
+      "before": "the Six Zhaos (Mengshe, Yuexi, Langqiong, Dengtan, Shilang, Mengsui) were the rival chiefdoms Piluoge united; none has a Wikidata item to link"
+    },
     "labelled": [
       "Tang Dynasty",
       "Tibetan Empire",

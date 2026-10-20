@@ -5,17 +5,18 @@
   "wikipedia": "Duchy of Bavaria",
   "map_year": 1352,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 555,
+      "latest": 555,
+      "circa": true
+    },
     "end": {
       "earliest": 1805,
       "latest": 1805,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      907,
-      1805
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -94,6 +95,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Munich",
+    "not_applicable": {
+      "before": "The duchy arose from the Bavarii on former Roman Raetia and Noricum under Frankish overlordship; no earlier state of its own"
+    },
     "labelled": [
       "Holy Roman Empire",
       "Kingdom of Poland",

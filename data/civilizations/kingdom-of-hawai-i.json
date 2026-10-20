@@ -43,15 +43,23 @@
         20.886111111111
       ],
       "founded": null
+    },
+    {
+      "name": "Honolulu",
+      "location": [
+        -157.85722222222222,
+        21.30472222222222
+      ],
+      "founded": null
     }
   ],
   "parts": [],
   "before": [],
   "after": [
     {
-      "id": "Q30",
+      "id": "Q1057542",
       "region": "United States",
-      "name": "United States of America",
+      "name": "Republic of Hawaii",
       "home": true
     }
   ],
@@ -59,6 +67,14 @@
     {
       "id": "Q214910",
       "name": "Kamehameha I"
+    },
+    {
+      "id": "Q455795",
+      "name": "Kamehameha III"
+    },
+    {
+      "id": "Q163080",
+      "name": "Kalākaua"
     },
     {
       "id": "Q107288",
@@ -98,6 +114,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Waikīkī",
+    "not_applicable": {
+      "before": "Founded by Kamehameha I, who unified the Hawaiian islands; no earlier state; the Wikipedia sentence carries no citation, check against a reference book"
+    },
     "labelled": []
   }
 }

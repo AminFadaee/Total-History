@@ -10,12 +10,13 @@
       "latest": 1171,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      1171,
-      1341
-    ],
+    "end": {
+      "earliest": 1260,
+      "latest": 1260,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -67,8 +68,16 @@
       "name": "Saladin"
     },
     {
-      "id": "Q192960",
-      "name": "Baybars"
+      "id": "Q285133",
+      "name": "Al-Adil I"
+    },
+    {
+      "id": "Q293464",
+      "name": "Al-Kamil"
+    },
+    {
+      "id": "Q293559",
+      "name": "As-Salih Najm al-din Ayyub"
     }
   ],
   "modern_countries": [

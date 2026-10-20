@@ -5,17 +5,18 @@
   "wikipedia": "Kingdom of Germany",
   "map_year": 961,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 911,
+      "latest": 911,
+      "circa": false
+    },
     "end": {
       "earliest": 962,
       "latest": 962,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      843,
-      1806
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -32,8 +33,22 @@
     "Duchy of Lorraine",
     "Duchy of Bavaria"
   ],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q153080",
+      "region": "Germany",
+      "name": "East Franks",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12548",
+      "region": "Germany",
+      "name": "Holy Roman Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q150620",

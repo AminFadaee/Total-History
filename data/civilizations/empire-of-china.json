@@ -30,8 +30,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q13426199",
+      "region": "China",
+      "name": "Republic of China",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q814959",
+      "region": "China",
+      "name": "Beiyang Government",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q210329",

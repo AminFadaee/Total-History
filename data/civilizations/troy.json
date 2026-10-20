@@ -5,20 +5,39 @@
   "wikipedia": "Troy",
   "map_year": -3000,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -3000,
-      500
-    ],
+    "start": {
+      "earliest": -3000,
+      "latest": -3000,
+      "circa": true
+    },
+    "end": {
+      "earliest": 500,
+      "latest": 500,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Troy",
+      "location": [
+        26.238888888889,
+        39.9575
+      ],
+      "founded": -3000
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q575219",
+      "name": "Alaksandu"
+    }
+  ],
   "modern_countries": [
     "Turkey"
   ],
@@ -36,6 +55,10 @@
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "home": "the spot held longest",
+    "not_applicable": {
+      "before": "a settlement that grew into a city; no earlier state existed",
+      "after": "the city declined into a village with no successor state; Roman Ilium and the Byzantine town were the same site"
+    }
   }
 }

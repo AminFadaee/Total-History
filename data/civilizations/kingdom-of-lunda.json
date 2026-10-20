@@ -19,11 +19,32 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Musumba",
+      "location": [
+        22.6825,
+        -8.55916667
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [],
-  "after": [],
-  "key_figures": [],
+  "after": [
+    {
+      "id": "Q1075883",
+      "region": "Democratic Republic of the Congo",
+      "name": "Chokwe people",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q7849616",
+      "name": "Tshibinda Ilunga"
+    }
+  ],
   "modern_countries": [
     "Angola",
     "Democratic Republic of the Congo"
@@ -46,6 +67,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "before": "Grew out of the Lunda culture of the Kasai; no earlier state"
+    },
     "labelled": []
   }
 }

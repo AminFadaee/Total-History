@@ -5,13 +5,17 @@
   "wikipedia": "Liberia",
   "map_year": 1848,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1847,
+      "latest": 1847,
+      "circa": false
+    },
     "end": null,
     "confirmed": false,
     "core": null,
     "since": {
-      "earliest": 1822,
-      "latest": 1822,
+      "earliest": 1847,
+      "latest": 1847,
       "circa": false
     }
   },
@@ -28,9 +32,9 @@
   "parts": [],
   "before": [
     {
-      "id": "Q544630",
+      "id": "Q104830524",
       "region": "Liberia",
-      "name": "Republic of Maryland",
+      "name": "Colony of Liberia",
       "home": true
     }
   ],
@@ -78,6 +82,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Monrovia",
+    "not_applicable": {
+      "after": "Liberia still exists as a republic, so no later state follows"
+    },
     "labelled": [
       "British Cape Colony"
     ]

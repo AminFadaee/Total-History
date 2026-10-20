@@ -21,7 +21,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q1068408",
+      "region": "Nepal",
+      "name": "Kuru Kingdom",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q949268",
@@ -30,7 +37,20 @@
       "home": true
     }
   ],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q317765",
+      "name": "Bimbisara"
+    },
+    {
+      "id": "Q3055324",
+      "name": "Prasenajit"
+    },
+    {
+      "id": "Q379242",
+      "name": "Ajatasatru"
+    }
+  ],
   "modern_countries": [
     "Nepal",
     "India"
@@ -53,6 +73,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "sixteen separate kingdoms and republics, each with its own capital; there is no single capital"
+    },
     "labelled": [
       "Magadha - Haryanka dynasty",
       "Janapada of Malla",

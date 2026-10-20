@@ -5,20 +5,52 @@
   "wikipedia": "Etruscan civilization",
   "map_year": -530,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -900,
-      -27
-    ],
+    "start": {
+      "earliest": -900,
+      "latest": -900,
+      "circa": true
+    },
+    "end": {
+      "earliest": -27,
+      "latest": -27,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
   "parts": [],
-  "before": [],
-  "after": [],
-  "key_figures": [],
+  "before": [
+    {
+      "id": "Q2588933",
+      "region": "Italy",
+      "name": "Proto-Villanovan culture",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q17167",
+      "region": "Italy",
+      "name": "Roman Republic",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q212671",
+      "name": "Lucius Tarquinius Priscus"
+    },
+    {
+      "id": "Q346588",
+      "name": "Lars Porsena"
+    },
+    {
+      "id": "Q193047",
+      "name": "Lucius Tarquinius Superbus"
+    }
+  ],
   "modern_countries": [
     "Italy",
     "France"
@@ -41,6 +73,9 @@
     ],
     "identity": "Wikipedia article with a country infobox",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "a league of independent city-states (Veii, Tarquinia, Caere, Clusium and others); no capital"
+    },
     "labelled": []
   }
 }

@@ -5,20 +5,30 @@
   "wikipedia": "Mycenaean Greece",
   "map_year": -1220,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -1700,
+      "latest": -1700,
+      "circa": true
+    },
     "end": {
       "earliest": -1100,
       "latest": -1100,
       "circa": true
     },
-    "confirmed": false,
-    "core": [
-      -1600,
-      -1100
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Mycenae",
+      "location": [
+        22.756111111111,
+        37.730833333333
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [
@@ -51,6 +61,10 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "key_figures": "no ruler known by name; Agamemnon is legendary",
+      "before": "first palace states on the Greek mainland; none preceded them"
+    },
     "labelled": [
       "Hittites"
     ]

@@ -21,8 +21,22 @@
   },
   "capitals": [],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q242148",
+      "region": "Pakistan",
+      "name": "Mehrgarh",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q2364797",
+      "region": "Pakistan",
+      "name": "Cemetery H culture",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Pakistan",
@@ -46,6 +60,10 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "no capital identified; Mohenjo-daro and Harappa were large cities of a society without a known central state",
+      "key_figures": "no ruler or individual is known; the script is undeciphered"
+    },
     "labelled": [
       "Elam"
     ]

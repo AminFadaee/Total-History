@@ -5,17 +5,18 @@
   "wikipedia": "Hoysala Kingdom",
   "map_year": 1111,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1026,
+      "latest": 1026,
+      "circa": true
+    },
     "end": {
       "earliest": 1346,
       "latest": 1346,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      1026,
-      1343
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [

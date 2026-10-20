@@ -30,12 +30,19 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q706018",
+      "region": "Germany",
+      "name": "Electorate of Hanover",
+      "home": true
+    }
+  ],
   "after": [
     {
-      "id": "Q43287",
+      "id": "Q27306",
       "region": "Germany",
-      "name": "German Empire",
+      "name": "Kingdom of Prussia",
       "home": true
     }
   ],

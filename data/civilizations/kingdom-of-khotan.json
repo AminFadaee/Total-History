@@ -5,17 +5,18 @@
   "wikipedia": "Kingdom of Khotan",
   "map_year": 888,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -250,
+      "latest": -250,
+      "circa": true
+    },
     "end": {
       "earliest": 1006,
       "latest": 1006,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      56,
-      1006
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -38,7 +39,12 @@
       "home": true
     }
   ],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q11097833",
+      "name": "Viśa' Saṃbhava"
+    }
+  ],
   "modern_countries": [
     "China",
     "Kyrgyzstan"
@@ -65,6 +71,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Hotan",
+    "not_applicable": {
+      "before": "Founded as the oasis state of Khotan; no earlier state; cited in Wikipedia, footnote 3"
+    },
     "labelled": [
       "Qocho Kingdom",
       "Tibetans",

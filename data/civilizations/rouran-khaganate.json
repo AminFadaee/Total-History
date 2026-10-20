@@ -21,7 +21,14 @@
   },
   "capitals": [],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q861054",
+      "region": "Mongolia",
+      "name": "Xianbei",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q15146034",
@@ -66,6 +73,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "nomadic confederation with a mobile court; no fixed capital"
+    },
     "labelled": [
       "Protectorate of the Western Regions",
       "Later Qin",

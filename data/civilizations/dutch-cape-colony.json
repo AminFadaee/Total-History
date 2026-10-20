@@ -39,7 +39,12 @@
       "home": true
     }
   ],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q294769",
+      "name": "Jan van Riebeeck"
+    }
+  ],
   "modern_countries": [
     "South Africa"
   ],
@@ -64,6 +69,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "City of Cape Town",
+    "not_applicable": {
+      "before": "Founded by the Dutch East India Company in 1652 on Khoikhoi land; no earlier state"
+    },
     "labelled": []
   }
 }

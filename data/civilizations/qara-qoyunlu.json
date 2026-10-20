@@ -46,7 +46,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q866716",
+      "region": "Turkey",
+      "name": "Jalayirid Sultanate",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q555994",
@@ -56,6 +63,10 @@
     }
   ],
   "key_figures": [
+    {
+      "id": "Q730299",
+      "name": "Qara Yusuf"
+    },
     {
       "id": "Q561219",
       "name": "Jahan Shah"

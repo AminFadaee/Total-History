@@ -26,7 +26,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q210551",
+      "region": "Argentina",
+      "name": "Viceroyalty of the Río de la Plata",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
@@ -38,12 +45,12 @@
       "name": "Juan Perón"
     },
     {
-      "id": "Q270368",
-      "name": "Arturo Umberto Illia"
-    },
-    {
       "id": "Q346658",
       "name": "Arturo Frondizi"
+    },
+    {
+      "id": "Q270368",
+      "name": "Arturo Umberto Illia"
     }
   ],
   "modern_countries": [
@@ -71,6 +78,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Buenos Aires",
+    "not_applicable": {
+      "after": "Argentina still exists"
+    },
     "labelled": [
       "Brazilian Republic",
       "Bolivia"

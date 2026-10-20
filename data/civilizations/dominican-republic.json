@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q790",
+      "region": "Dominican Republic",
+      "name": "Haiti",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
@@ -75,6 +82,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Santo Domingo",
+    "not_applicable": {
+      "after": "The Dominican Republic still exists"
+    },
     "labelled": [
       "United States of America"
     ]

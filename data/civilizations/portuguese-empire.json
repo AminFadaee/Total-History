@@ -35,13 +35,26 @@
   ],
   "before": [
     {
+      "id": "Q45670",
+      "region": "Portugal",
+      "name": "Kingdom of Portugal",
+      "home": true
+    },
+    {
       "id": "Q46652",
       "region": "Malaysia",
       "name": "Sultanate of Malacca",
       "home": false
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q45",
+      "region": "Portugal",
+      "name": "Portuguese Republic",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q191231",

@@ -5,17 +5,18 @@
   "wikipedia": "Ghana Empire",
   "map_year": 1192,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 300,
+      "latest": 300,
+      "circa": true
+    },
     "end": {
       "earliest": 1201,
       "latest": 1300,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      300,
-      1200
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -29,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q107008575",
+      "region": "Mauritania",
+      "name": "Tichitt culture",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q184536",
@@ -40,8 +48,16 @@
   ],
   "key_figures": [
     {
+      "id": "Q3194384",
+      "name": "Kaya Magan Cissé"
+    },
+    {
       "id": "Q5555334",
       "name": "Ghana Bassi"
+    },
+    {
+      "id": "Q7853230",
+      "name": "Tunka Manin"
     }
   ],
   "modern_countries": [

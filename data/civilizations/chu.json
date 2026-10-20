@@ -57,6 +57,14 @@
   ],
   "key_figures": [
     {
+      "id": "Q796039",
+      "name": "King Wu of Chu"
+    },
+    {
+      "id": "Q198154",
+      "name": "King Zhuang of Chu"
+    },
+    {
       "id": "Q313330",
       "name": "Qu Yuan"
     }
@@ -91,6 +99,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Ying",
+    "not_applicable": {
+      "before": "Chu arose as a vassal state of the Zhou; no predecessor state"
+    },
     "labelled": [
       "Qin",
       "Minyue",

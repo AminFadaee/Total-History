@@ -5,13 +5,18 @@
   "wikipedia": "Chagatai Khanate",
   "map_year": 1294,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      1225,
-      1687
-    ],
+    "start": {
+      "earliest": 1226,
+      "latest": 1226,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1347,
+      "latest": 1347,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -41,7 +46,14 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q1191125",
+      "region": "China",
+      "name": "Moghulistan",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q487543",
@@ -50,6 +62,14 @@
     {
       "id": "Q1341135",
       "name": "Duwa"
+    },
+    {
+      "id": "Q29039",
+      "name": "Kebek"
+    },
+    {
+      "id": "Q1194934",
+      "name": "Tughlugh Timur"
     }
   ],
   "modern_countries": [

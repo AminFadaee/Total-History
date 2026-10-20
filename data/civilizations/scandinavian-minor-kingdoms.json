@@ -10,12 +10,13 @@
       "latest": 793,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      793,
-      1066
-    ],
+    "end": {
+      "earliest": 1066,
+      "latest": 1066,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
@@ -26,6 +27,18 @@
     {
       "id": "Q504932",
       "name": "Halfdan the Black"
+    },
+    {
+      "id": "Q206123",
+      "name": "Harald Fairhair"
+    },
+    {
+      "id": "Q314490",
+      "name": "Gorm the Old"
+    },
+    {
+      "id": "Q201041",
+      "name": "Harald Bluetooth"
     }
   ],
   "modern_countries": [
@@ -51,6 +64,11 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "many small kingdoms with separate seats; there is no single capital",
+      "before": "the earliest Scandinavian kingdoms of the Viking Age, without a single earlier state",
+      "after": "the small kingdoms merged into three successors (Denmark, Norway, Sweden), not one"
+    },
     "labelled": [
       "Francia",
       "Khazaria",

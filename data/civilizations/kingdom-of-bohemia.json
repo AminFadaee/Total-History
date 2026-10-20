@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q2162698",
+      "region": "Czechia",
+      "name": "Duchy of Bohemia",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q33946",

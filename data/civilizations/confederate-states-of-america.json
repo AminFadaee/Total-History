@@ -54,8 +54,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q30",
+      "region": "United States",
+      "name": "United States of America",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q30",
+      "region": "United States",
+      "name": "United States of America",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q162269",

@@ -3,23 +3,51 @@
   "slug": "chaldea",
   "name": "Chaldea",
   "wikipedia": "Chaldea",
-  "map_year": -1000,
+  "map_year": -700,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -1000,
-      -600
-    ],
+    "start": {
+      "earliest": -900,
+      "latest": -900,
+      "circa": true
+    },
+    "end": {
+      "earliest": -539,
+      "latest": -539,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
   "parts": [],
   "before": [],
-  "after": [],
-  "key_figures": [],
-  "modern_countries": [],
+  "after": [
+    {
+      "id": "Q624887",
+      "region": "Iraq",
+      "name": "Neo-Babylonian Empire",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q356505",
+      "name": "Marduk-apla-iddina II"
+    },
+    {
+      "id": "Q273514",
+      "name": "Nabopolassar"
+    },
+    {
+      "id": "Q12591",
+      "name": "Nebuchadnezzar II"
+    }
+  ],
+  "modern_countries": [
+    "Iraq",
+    "Kuwait"
+  ],
   "overseas_countries": [],
   "borders": false,
   "summary": "A region probably located in the marshy land of southern Mesopotamia.",
@@ -34,6 +62,10 @@
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "A region and tribal land of southern Mesopotamia, not a state with a capital",
+      "before": "A region of tribes that settled in Babylonia; no earlier state"
+    }
   }
 }

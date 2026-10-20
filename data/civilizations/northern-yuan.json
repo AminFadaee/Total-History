@@ -10,12 +10,13 @@
       "latest": 1368,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      1368,
-      1635
-    ],
+    "end": {
+      "earliest": 1635,
+      "latest": 1635,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -45,7 +46,14 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q8733",
+      "region": "Mongolia",
+      "name": "Qing Dynasty",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q8666",

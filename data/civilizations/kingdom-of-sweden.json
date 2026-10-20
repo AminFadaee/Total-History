@@ -5,11 +5,19 @@
   "wikipedia": "Sweden",
   "map_year": 1722,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 995,
+      "latest": 995,
+      "circa": true
+    },
     "end": null,
     "confirmed": false,
     "core": null,
-    "since": null
+    "since": {
+      "earliest": 995,
+      "latest": 995,
+      "circa": true
+    }
   },
   "capitals": [
     {
@@ -70,6 +78,10 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Stockholm",
+    "not_applicable": {
+      "before": "earliest unified Swedish kingdom; it grew from the Svear and Götar peoples, not from an earlier state",
+      "after": "Sweden still exists as a kingdom, so no later state follows"
+    },
     "labelled": [
       "Russian Empire",
       "Holy Roman Empire",

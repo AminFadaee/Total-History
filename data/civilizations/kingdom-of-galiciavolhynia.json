@@ -65,15 +65,30 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q8890160",
+      "region": "Ukraine",
+      "name": "Kingdom of Poland",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q497773",
       "name": "Roman the Great"
     },
     {
+      "id": "Q58607",
+      "name": "Daniel of Galicia"
+    },
+    {
+      "id": "Q156357",
+      "name": "Lev I of Galicia"
+    },
+    {
       "id": "Q2310836",
-      "name": "Liubartas"
+      "name": "Lubart"
     }
   ],
   "modern_countries": [

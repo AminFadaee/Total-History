@@ -31,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q251668",
+      "region": "Canada",
+      "name": "Province of Quebec",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q936976",
@@ -83,6 +90,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Quebec City",
+    "not_applicable": {
+      "before": "first French colony in the region; the land was held by Indigenous nations, not by an earlier state"
+    },
     "labelled": [
       "British Empire"
     ]

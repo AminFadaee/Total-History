@@ -5,17 +5,18 @@
   "wikipedia": "Mitanni",
   "map_year": -1500,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -1475,
+      "latest": -1475,
+      "circa": true
+    },
     "end": {
       "earliest": -1260,
       "latest": -1260,
       "circa": true
     },
-    "confirmed": false,
-    "core": [
-      -1600,
-      -1260
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -79,6 +80,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Tell Fekheriye",
+    "not_applicable": {
+      "before": "earliest known Hurrian kingdom of northern Mesopotamia; no preceding state named by the sources"
+    },
     "labelled": [
       "Hittites",
       "Assyria",

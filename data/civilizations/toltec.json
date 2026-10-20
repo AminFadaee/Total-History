@@ -3,25 +3,49 @@
   "slug": "toltec",
   "name": "Toltec",
   "wikipedia": "Toltec",
-  "map_year": 1177,
+  "map_year": 1100,
   "period": {
-    "start": null,
-    "end": {
-      "earliest": 1168,
-      "latest": 1168,
-      "circa": false
+    "start": {
+      "earliest": 950,
+      "latest": 950,
+      "circa": true
     },
-    "confirmed": false,
-    "core": [
-      650,
-      1170
-    ],
+    "end": {
+      "earliest": 1150,
+      "latest": 1150,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Tula (Mesoamerican site)",
+      "location": [
+        -99.341138888889,
+        20.063472222222
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q172613",
+      "region": "Mexico",
+      "name": "Teotihuacan",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1537180",
+      "region": "Mexico",
+      "name": "Tepanec",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q557769",
@@ -49,8 +73,6 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
-    "labelled": [
-      "Classic Veracruz Culture"
-    ]
+    "labelled": []
   }
 }

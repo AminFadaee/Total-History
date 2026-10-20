@@ -6,8 +6,8 @@
   "map_year": 1815,
   "period": {
     "start": {
-      "earliest": 1813,
-      "latest": 1813,
+      "earliest": 1815,
+      "latest": 1815,
       "circa": false
     },
     "end": {
@@ -53,13 +53,33 @@
   ],
   "key_figures": [
     {
+      "id": "Q45662",
+      "name": "Klemens von Metternich"
+    },
+    {
+      "id": "Q57180",
+      "name": "Frederick William IV of Prussia"
+    },
+    {
       "id": "Q51056",
-      "name": "Franz Joseph I"
+      "name": "Franz Joseph I of Austria"
+    },
+    {
+      "id": "Q8442",
+      "name": "Otto von Bismarck"
     }
   ],
   "modern_countries": [
     "Germany",
-    "Poland"
+    "Austria",
+    "Czechia",
+    "Poland",
+    "Luxembourg",
+    "Liechtenstein",
+    "Slovenia",
+    "Netherlands",
+    "Denmark",
+    "Italy"
   ],
   "overseas_countries": [],
   "borders": true,

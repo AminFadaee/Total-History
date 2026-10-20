@@ -21,11 +21,8 @@
   },
   "capitals": [
     {
-      "name": "Suyab",
-      "location": [
-        75.2667,
-        42.8
-      ],
+      "name": "Ötüken",
+      "location": null,
       "founded": null
     }
   ],
@@ -56,6 +53,14 @@
     {
       "id": "Q29001",
       "name": "Bumin Qaghan"
+    },
+    {
+      "id": "Q632026",
+      "name": "Istämi"
+    },
+    {
+      "id": "Q2670239",
+      "name": "Taspar Qaghan"
     },
     {
       "id": "Q154891",

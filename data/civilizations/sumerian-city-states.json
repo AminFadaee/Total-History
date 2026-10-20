@@ -5,23 +5,43 @@
   "wikipedia": "Sumer",
   "map_year": -2500,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -5500,
-      -1900
-    ],
+    "start": {
+      "earliest": -4000,
+      "latest": -4000,
+      "circa": true
+    },
+    "end": {
+      "earliest": -2334,
+      "latest": -2334,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q4461035",
+      "region": "Iraq",
+      "name": "Akkadian Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
-      "id": "Q351543",
-      "name": "Enmerkar"
+      "id": "Q159709",
+      "name": "Gilgamesh"
+    },
+    {
+      "id": "Q352544",
+      "name": "Eannatum"
+    },
+    {
+      "id": "Q315698",
+      "name": "Urukagina"
     },
     {
       "id": "Q316241",
@@ -50,6 +70,10 @@
     ],
     "identity": "Wikipedia item with overlapping dates",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "independent city-states (Ur, Uruk, Lagash, Kish, Eridu) with no single capital",
+      "before": "earliest known state in Mesopotamia"
+    },
     "labelled": []
   }
 }

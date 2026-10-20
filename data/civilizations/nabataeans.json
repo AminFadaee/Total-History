@@ -5,9 +5,17 @@
   "wikipedia": "Nabataeans",
   "map_year": -126,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": -312,
+      "latest": -312,
+      "circa": false
+    },
+    "end": {
+      "earliest": 106,
+      "latest": 106,
+      "circa": false
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
@@ -23,8 +31,32 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
-  "key_figures": [],
+  "after": [
+    {
+      "id": "Q2277",
+      "region": "Jordan",
+      "name": "Roman Empire",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q558770",
+      "name": "Aretas III"
+    },
+    {
+      "id": "Q2620458",
+      "name": "Obodas I"
+    },
+    {
+      "id": "Q302986",
+      "name": "Aretas IV Philopatris"
+    },
+    {
+      "id": "Q887060",
+      "name": "Rabbel II Soter"
+    }
+  ],
   "modern_countries": [
     "Egypt",
     "Saudi Arabia",
@@ -49,6 +81,9 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "Petra",
+    "not_applicable": {
+      "before": "Arab tribal people with no earlier state; first recorded in 312 BC as nomads"
+    },
     "labelled": [
       "Ptolemaic Kingdom",
       "Seleucid Empire",

@@ -5,17 +5,65 @@
   "wikipedia": "Shirvan",
   "map_year": 825,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": 861,
+      "latest": 861,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1538,
+      "latest": 1538,
+      "circa": false
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Shamakhi",
+      "location": [
+        48.639166666667,
+        40.633888888889
+      ],
+      "founded": null
+    },
+    {
+      "name": "Baku",
+      "location": [
+        49.835183333333,
+        40.366655555556
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
-  "before": [],
-  "after": [],
-  "key_figures": [],
+  "before": [
+    {
+      "id": "Q12536",
+      "region": "Azerbaijan",
+      "name": "Abbasid Caliphate",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q18234383",
+      "region": "Azerbaijan",
+      "name": "Safavid Dynasty",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q4494854",
+      "name": "Haytham ibn Khalid"
+    },
+    {
+      "id": "Q2637299",
+      "name": "Ibrahim I of Shirvan"
+    }
+  ],
   "modern_countries": [
     "Azerbaijan",
     "Armenia"

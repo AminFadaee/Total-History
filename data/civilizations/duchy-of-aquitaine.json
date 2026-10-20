@@ -5,20 +5,38 @@
   "wikipedia": "Duchy of Aquitaine",
   "map_year": 1085,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 602,
+      "latest": 602,
+      "circa": false
+    },
     "end": {
       "earliest": 1453,
       "latest": 1453,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      841,
-      1449
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Bordeaux",
+      "location": [
+        -0.57944444444444,
+        44.837777777778
+      ],
+      "founded": -500
+    },
+    {
+      "name": "Poitiers",
+      "location": [
+        0.33527777777778,
+        46.581111111111
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [
     {
@@ -28,7 +46,14 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q70972",
+      "region": "France",
+      "name": "Kingdom of France",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q462896",

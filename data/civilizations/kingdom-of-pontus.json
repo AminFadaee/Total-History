@@ -38,8 +38,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q237325",
+      "region": "Turkey",
+      "name": "Antigonid dynasty",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q2277",
+      "region": "Turkey",
+      "name": "Roman Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q359215",

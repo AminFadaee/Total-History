@@ -54,17 +54,33 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q791787",
+      "region": "Djibouti",
+      "name": "Aussa Sultanate",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q7396320",
-      "name": "Sabr ad-Din III"
+      "name": "Sabr ad-Din II"
+    },
+    {
+      "id": "Q335728",
+      "name": "Ahmad ibn Ibrahim al-Ghazi"
+    },
+    {
+      "id": "Q2593986",
+      "name": "Nur ibn Mujahid"
     }
   ],
   "modern_countries": [
     "Ethiopia",
-    "Eritrea",
-    "Djibouti"
+    "Somalia",
+    "Djibouti",
+    "Eritrea"
   ],
   "overseas_countries": [],
   "borders": true,

@@ -3,25 +3,46 @@
   "slug": "mutapa-empire",
   "name": "Mutapa Empire",
   "wikipedia": "Mutapa Empire",
-  "map_year": 1430,
+  "map_year": 1500,
   "period": {
     "start": {
       "earliest": 1430,
       "latest": 1430,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      1430,
-      1760
-    ],
+    "end": {
+      "earliest": 1760,
+      "latest": 1760,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Mount Fura",
+      "location": null,
+      "founded": null
+    }
+  ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q596092",
+      "region": "Zimbabwe",
+      "name": "Kingdom of Zimbabwe",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q986822",
+      "region": "Zimbabwe",
+      "name": "Rozwi Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q17635890",

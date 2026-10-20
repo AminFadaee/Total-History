@@ -5,13 +5,18 @@
   "wikipedia": "Colchis",
   "map_year": -301,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -1300,
-      -100
-    ],
+    "start": {
+      "earliest": -1300,
+      "latest": -1300,
+      "circa": true
+    },
+    "end": {
+      "earliest": -66,
+      "latest": -66,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -26,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q136884",
+      "region": "Georgia",
+      "name": "Lazica",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Georgia",
@@ -54,6 +66,10 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Kutaisi",
+    "not_applicable": {
+      "key_figures": "Only the mythical king Aeetes is named; no historical Colchian ruler is known by name",
+      "before": "Colchian tribes consolidated into the earliest Georgian formation; no earlier state"
+    },
     "labelled": [
       "Kingdom of Armenia"
     ]

@@ -57,20 +57,20 @@
   ],
   "key_figures": [
     {
+      "id": "Q438601",
+      "name": "Idris Ibn Abdallah"
+    },
+    {
       "id": "Q922653",
-      "name": "Idris II of Morocco"
+      "name": "Idris II"
     },
     {
       "id": "Q681523",
       "name": "Yahya ibn Muhammad"
     },
     {
-      "id": "Q2836401",
-      "name": "Ali ibn Umar"
-    },
-    {
       "id": "Q253605",
-      "name": "Al-Hasan ibn al-Qasim Jannun"
+      "name": "Al-Hasan ibn Kannun"
     }
   ],
   "modern_countries": [
@@ -102,6 +102,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Volubilis",
+    "not_applicable": {
+      "before": "Founded by Idris I among the Awraba Berbers of Volubilis; no earlier state in the region; cited in Wikipedia, footnote 20"
+    },
     "labelled": [
       "Rustamid dynasty",
       "Barghawata Conference"

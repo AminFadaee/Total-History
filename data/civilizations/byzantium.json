@@ -3,23 +3,42 @@
   "slug": "byzantium",
   "name": "Byzantium",
   "wikipedia": "Byzantium",
-  "map_year": -667,
+  "map_year": -500,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -667,
-      330
-    ],
+    "start": {
+      "earliest": -657,
+      "latest": -657,
+      "circa": true
+    },
+    "end": {
+      "earliest": 330,
+      "latest": 330,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
   "parts": [],
   "before": [],
-  "after": [],
-  "key_figures": [],
-  "modern_countries": [],
+  "after": [
+    {
+      "id": "Q12544",
+      "region": "Turkey",
+      "name": "Byzantine Empire",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q863859",
+      "name": "Byzas"
+    }
+  ],
+  "modern_countries": [
+    "Turkey"
+  ],
   "overseas_countries": [],
   "borders": false,
   "summary": "An ancient Greek city in classical antiquity that became known as Constantinople in late antiquity and Istanbul in modern times.",
@@ -34,6 +53,10 @@
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "A single Greek city-state; the city itself is the polity",
+      "before": "Founded as a Megarian Greek colony; no earlier state"
+    }
   }
 }

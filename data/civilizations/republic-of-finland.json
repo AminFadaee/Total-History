@@ -32,9 +32,9 @@
   "parts": [],
   "before": [
     {
-      "id": "Q615902",
+      "id": "Q62633",
       "region": "Finland",
-      "name": "Kingdom of Finland",
+      "name": "Grand Duchy of Finland",
       "home": true
     }
   ],
@@ -83,6 +83,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Helsinki",
+    "not_applicable": {
+      "after": "Finland still exists as a republic, so no later state follows"
+    },
     "labelled": [
       "Union of Soviet Socialist Republics",
       "Nazi Germany",

@@ -6,12 +6,16 @@
   "map_year": 1395,
   "period": {
     "start": {
-      "earliest": 801,
-      "latest": 900,
+      "earliest": 872,
+      "latest": 872,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
+    "end": {
+      "earliest": 1397,
+      "latest": 1397,
+      "circa": false
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
@@ -61,7 +65,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "",
+  "summary": "The medieval kingdom of Norway, united under Harald Fairhair about 872 and lasting until the Kalmar Union of 1397.",
   "tier": "Extended",
   "map": "maps/old-kingdom-of-norway.png",
   "map_asked": true,
@@ -81,6 +85,9 @@
     ],
     "identity": "Wikipedia item with overlapping dates",
     "home": "Oslo",
+    "not_applicable": {
+      "before": "first unified Norwegian kingdom, founded about 872 by Harald Fairhair out of small regional kingdoms"
+    },
     "labelled": [
       "Kingdom of Sweden",
       "Novgorod Republic",

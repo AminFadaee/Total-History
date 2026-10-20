@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q241790",
+      "region": "Sudan",
+      "name": "Kingdom of Kush",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q1475713",
@@ -65,6 +72,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Soba",
+    "not_applicable": {
+      "key_figures": "Kings Eusebius and David are named in the sources but have no Wikidata item to link"
+    },
     "labelled": [
       "Makuria",
       "Kingdom of Axum"

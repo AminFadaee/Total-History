@@ -38,8 +38,20 @@
       "home": true
     }
   ],
-  "after": [],
-  "key_figures": [],
+  "after": [
+    {
+      "id": "Q4210248",
+      "region": "Kazakhstan",
+      "name": "Kalmyk Khanate",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q559146",
+      "name": "Edigu"
+    }
+  ],
   "modern_countries": [
     "Kazakhstan",
     "Russia",

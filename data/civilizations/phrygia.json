@@ -5,17 +5,18 @@
   "wikipedia": "Phrygia",
   "map_year": -700,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -1200,
+      "latest": -1200,
+      "circa": true
+    },
     "end": {
       "earliest": -675,
       "latest": -675,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      -1200,
-      -675
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -29,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q5406",
+      "region": "Turkey",
+      "name": "Hittites",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q620765",

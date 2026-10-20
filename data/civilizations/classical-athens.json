@@ -3,19 +3,20 @@
   "slug": "classical-athens",
   "name": "Classical Athens",
   "wikipedia": "Classical Athens",
-  "map_year": -508,
+  "map_year": -450,
   "period": {
     "start": {
       "earliest": -508,
       "latest": -508,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -508,
-      -322
-    ],
+    "end": {
+      "earliest": -322,
+      "latest": -322,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -29,12 +30,30 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q2382657",
+      "region": "Greece",
+      "name": "Pisistratides",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q83958",
+      "region": "Greece",
+      "name": "Macedonia",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q207634",
       "name": "Cleisthenes"
+    },
+    {
+      "id": "Q179552",
+      "name": "Themistocles"
     },
     {
       "id": "Q80398",

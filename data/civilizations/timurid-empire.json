@@ -40,15 +40,15 @@
   "parts": [],
   "before": [
     {
+      "id": "Q487829",
+      "region": "Afghanistan",
+      "name": "Chagatai Khanate",
+      "home": true
+    },
+    {
       "id": "Q866716",
       "region": "Iraq",
       "name": "Jalayirid Sultanate",
-      "home": false
-    },
-    {
-      "id": "Q487829",
-      "region": "Uzbekistan",
-      "name": "Chagatai Khanate",
       "home": false
     }
   ],
@@ -72,8 +72,16 @@
       "name": "Timur"
     },
     {
+      "id": "Q553204",
+      "name": "Shah Rukh"
+    },
+    {
       "id": "Q486088",
       "name": "Ulugh Beg"
+    },
+    {
+      "id": "Q537570",
+      "name": "Husayn Bayqarah"
     }
   ],
   "modern_countries": [

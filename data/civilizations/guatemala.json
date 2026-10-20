@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q190025",
+      "region": "Guatemala",
+      "name": "Federal Republic of Central America",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
@@ -75,6 +82,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Guatemala City",
+    "not_applicable": {
+      "after": "Guatemala still exists"
+    },
     "labelled": [
       "Honduras",
       "Republic of El Salvador",

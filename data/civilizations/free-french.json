@@ -46,8 +46,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q70802",
+      "region": "France",
+      "name": "French Third Republic",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q783684",
+      "region": "France",
+      "name": "Provisional Government of the French Republic",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q2042",

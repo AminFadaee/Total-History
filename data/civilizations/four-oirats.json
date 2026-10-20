@@ -10,12 +10,13 @@
       "latest": 1399,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      1399,
-      1628
-    ],
+    "end": {
+      "earliest": 1634,
+      "latest": 1634,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
@@ -65,6 +66,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "A nomadic confederation of Oirat tribes without a fixed capital"
+    },
     "labelled": [
       "Ming Dynasty",
       "Chagatai Khanate",

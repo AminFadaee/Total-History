@@ -31,11 +31,26 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q83891",
+      "region": "Iraq",
+      "name": "Sasanian Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
+    {
+      "id": "Q1260321",
+      "name": "'Amr ibn Adi"
+    },
     {
       "id": "Q220605",
       "name": "Al-Mundhir III ibn al-Nu'man"
+    },
+    {
+      "id": "Q1283070",
+      "name": "Al-Nu'man III ibn al-Mundhir"
     }
   ],
   "modern_countries": [
@@ -65,6 +80,9 @@
     ],
     "identity": "Wikipedia article with a country infobox",
     "home": "Al-Hira",
+    "not_applicable": {
+      "before": "the Lakhmids arose as Arab tribal rulers of al-Hira under the Parthians and Sasanians without succeeding a named state; the founder Amr ibn Adi appears as a Sasanian vassal in the late 3rd century"
+    },
     "labelled": [
       "Sasanian Empire"
     ]

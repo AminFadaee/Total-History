@@ -3,19 +3,49 @@
   "slug": "ugarit",
   "name": "Ugarit",
   "wikipedia": "Ugarit",
-  "map_year": -6000,
+  "map_year": -1300,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": -1450,
+      "latest": -1450,
+      "circa": true
+    },
+    "end": {
+      "earliest": -1185,
+      "latest": -1185,
+      "circa": true
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Ugarit",
+      "location": [
+        35.785556,
+        35.601944
+      ],
+      "founded": -6000
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q365876",
+      "name": "Niqmaddu II"
+    },
+    {
+      "id": "Q365686",
+      "name": "Niqmepa"
+    },
+    {
+      "id": "Q11513",
+      "name": "Ammurapi"
+    }
+  ],
   "modern_countries": [
     "Syria"
   ],
@@ -33,6 +63,10 @@
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "home": "the spot held longest",
+    "not_applicable": {
+      "before": "a Bronze Age city-state with no earlier state recorded in the Wikipedia article",
+      "after": "destroyed about 1185 BC in the Late Bronze Age collapse with no successor state"
+    }
   }
 }

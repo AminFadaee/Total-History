@@ -6,12 +6,16 @@
   "map_year": -164,
   "period": {
     "start": {
-      "earliest": -800,
-      "latest": -701,
-      "circa": false
+      "earliest": -750,
+      "latest": -750,
+      "circa": true
     },
-    "end": null,
-    "confirmed": false,
+    "end": {
+      "earliest": 100,
+      "latest": 100,
+      "circa": true
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
@@ -27,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q289577",
+      "region": "Yemen",
+      "name": "Himyarite Kingdom",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Saudi Arabia",
@@ -55,6 +66,10 @@
     ],
     "identity": "Wikipedia article with a country infobox",
     "home": "Qarnawu",
+    "not_applicable": {
+      "key_figures": "no Minaean king has a Wikidata item to link",
+      "before": "earliest known state of its valley (Wadi al-Jawf); it grew from a city-state in the 8th to 7th century BC"
+    },
     "labelled": [
       "Nabataeans",
       "Sabaeans",

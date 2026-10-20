@@ -3,7 +3,7 @@
   "slug": "gurjara-pratihara-dynasty",
   "name": "Gurjara-Pratihara Dynasty",
   "wikipedia": "Pratihara dynasty",
-  "map_year": 783,
+  "map_year": 850,
   "period": {
     "start": {
       "earliest": 730,
@@ -43,6 +43,18 @@
     {
       "id": "Q6958307",
       "name": "Nagabhata I"
+    },
+    {
+      "id": "Q7917182",
+      "name": "Vatsaraja"
+    },
+    {
+      "id": "Q6958310",
+      "name": "Nagabhata II"
+    },
+    {
+      "id": "Q1279558",
+      "name": "Mihira Bhoja"
     }
   ],
   "modern_countries": [
@@ -71,10 +83,12 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Kannauj",
+    "not_applicable": {
+      "before": "Arose among the Gurjara clans of Rajasthan after the fall of Harsha's empire; no direct predecessor state"
+    },
     "labelled": [
       "Rashtrakuta Dynasty",
-      "Pala Empire",
-      "Kamarupa Kingdom"
+      "Pala Empire"
     ]
   }
 }

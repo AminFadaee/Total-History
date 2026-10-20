@@ -10,12 +10,13 @@
       "latest": 1008,
       "circa": true
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      1008,
-      1466
-    ],
+    "end": {
+      "earliest": 1490,
+      "latest": 1490,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [

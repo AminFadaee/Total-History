@@ -46,9 +46,7 @@
   ],
   "modern_countries": [
     "Peru",
-    "Bolivia",
-    "Brazil",
-    "Paraguay"
+    "Bolivia"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -72,6 +70,10 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Tacna",
+    "not_applicable": {
+      "before": "two earlier republics, Peru and Bolivia, merged into it; neither has a deck state or Wikidata item as a single predecessor",
+      "after": "the confederation split back into the Republic of Peru and Bolivia, with no single successor"
+    },
     "labelled": [
       "Empire of Brazil",
       "Argentine Confederation",

@@ -44,7 +44,14 @@
       "home": false
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q217177",
+      "region": "Spain",
+      "name": "taifa",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q190418",
@@ -70,7 +77,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "",
+  "summary": "A Muslim state in the Iberian Peninsula ruled by the Umayyad dynasty from 929 to 1031.",
   "tier": "Core",
   "map": "maps/caliphate-of-cordoba.png",
   "map_asked": true,

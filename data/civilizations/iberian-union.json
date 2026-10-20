@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Madrid",
+      "location": [
+        -3.703333333333333,
+        40.41694444444445
+      ],
+      "founded": null
+    }
+  ],
   "parts": [
     "Crown of Castile",
     "Crown of Aragon",
@@ -27,8 +36,22 @@
     "Spanish Empire",
     "Portuguese Empire"
   ],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q217196",
+      "region": "Spain",
+      "name": "Crown of Castile",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q45670",
+      "region": "Spain",
+      "name": "Kingdom of Portugal",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q34417",
@@ -44,9 +67,11 @@
     }
   ],
   "modern_countries": [
+    "Spain",
+    "Portugal",
+    "Brazil",
     "Mexico",
     "Argentina",
-    "Brazil",
     "Peru",
     "Bolivia",
     "Colombia",
@@ -54,18 +79,14 @@
     "Chile",
     "Ecuador",
     "Cuba",
-    "Honduras",
-    "Guatemala",
-    "Nicaragua",
-    "Panama",
-    "Costa Rica",
-    "Dominican Republic",
-    "Haiti",
-    "El Salvador",
-    "Jamaica",
-    "United States",
-    "Trinidad and Tobago",
-    "Netherlands"
+    "Philippines",
+    "Italy",
+    "Belgium",
+    "Netherlands",
+    "Angola",
+    "Mozambique",
+    "India",
+    "United States"
   ],
   "overseas_countries": [
     "Spain",
@@ -95,6 +116,14 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
-    "labelled": []
+    "labelled": [
+      "Ottoman Empire",
+      "Kingdom of France",
+      "Saadi Sultanate",
+      "Swedish Empire",
+      "Polish-Lithuanian Commonwealth",
+      "Kingdom of England",
+      "Small Horde"
+    ]
   }
 }

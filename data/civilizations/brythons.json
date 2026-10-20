@@ -5,9 +5,17 @@
   "wikipedia": "Celtic Britons",
   "map_year": 439,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": -800,
+      "latest": -800,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1100,
+      "latest": 1100,
+      "circa": true
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
@@ -38,6 +46,12 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "A people of many British kingdoms, not one state with a capital",
+      "key_figures": "A people of many separate kingdoms; no single ruler or leader stands for them",
+      "before": "The Britons are the native Iron Age population of Britain; no earlier state preceded them",
+      "after": "The Britons diverged into the Welsh, Cornish and Bretons rather than being followed by one state"
+    },
     "labelled": [
       "Western Roman Empire",
       "Salian Franks",

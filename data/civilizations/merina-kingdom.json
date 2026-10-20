@@ -31,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q5501842",
+      "region": "Madagascar",
+      "name": "French Madagascar",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q218622",
@@ -75,6 +82,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Antananarivo",
+    "not_applicable": {
+      "before": "earliest kingdom of the central highlands of Madagascar; it rose among local Vazimba chiefdoms"
+    },
     "labelled": [
       "South African Republic",
       "Free Orange State",

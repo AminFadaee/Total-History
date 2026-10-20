@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q26961315",
+      "region": "China",
+      "name": "Pugu",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q7183",
@@ -40,6 +47,10 @@
     }
   ],
   "key_figures": [
+    {
+      "id": "Q701488",
+      "name": "Jiang Ziya"
+    },
     {
       "id": "Q470108",
       "name": "Duke Huan of Qi"

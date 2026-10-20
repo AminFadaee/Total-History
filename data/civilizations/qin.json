@@ -11,8 +11,8 @@
       "circa": false
     },
     "end": {
-      "earliest": -207,
-      "latest": -207,
+      "earliest": -221,
+      "latest": -221,
       "circa": false
     },
     "confirmed": true,
@@ -38,7 +38,14 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q7183",
+      "region": "China",
+      "name": "Qin dynasty",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q553245",

@@ -26,7 +26,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q170603",
+      "region": "Mexico",
+      "name": "New Spain",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
@@ -71,6 +78,9 @@
     ],
     "identity": "Wikipedia item with overlapping dates",
     "home": "Mexico City",
+    "not_applicable": {
+      "after": "Mexico still exists as a country, so no later state follows"
+    },
     "labelled": [
       "United States of America",
       "Spanish Empire",

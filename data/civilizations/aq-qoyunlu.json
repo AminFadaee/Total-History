@@ -5,17 +5,18 @@
   "wikipedia": "Aq Qoyunlu",
   "map_year": 1475,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1378,
+      "latest": 1378,
+      "circa": false
+    },
     "end": {
       "earliest": 1503,
       "latest": 1503,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      1378,
-      1503
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [

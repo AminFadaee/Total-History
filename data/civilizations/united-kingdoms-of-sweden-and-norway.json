@@ -33,8 +33,22 @@
     "Kingdom of Sweden",
     "Old Kingdom of Norway"
   ],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q62651",
+      "region": "Sweden",
+      "name": "Denmark-Norway",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q34",
+      "region": "Sweden",
+      "name": "Kingdom of Sweden",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q52927",

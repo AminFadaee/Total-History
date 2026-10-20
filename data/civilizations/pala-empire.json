@@ -29,21 +29,47 @@
       "founded": -490
     },
     {
-      "name": "Murshidabad",
+      "name": "Gauda",
       "location": [
-        88.27,
-        24.18
+        88.12802887,
+        24.88288116
       ],
       "founded": null
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q6398879",
+      "region": "India",
+      "name": "Khadga dynasty",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q2428714",
+      "region": "India",
+      "name": "Sena dynasty",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q3352284",
-      "name": "Gopala I"
+      "name": "Gopala"
+    },
+    {
+      "id": "Q3183804",
+      "name": "Dharmapala"
+    },
+    {
+      "id": "Q15649142",
+      "name": "Devapala"
+    },
+    {
+      "id": "Q16863944",
+      "name": "Mahipala I"
     }
   ],
   "modern_countries": [

@@ -10,12 +10,13 @@
       "latest": 1347,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      1347,
-      1462
-    ],
+    "end": {
+      "earliest": 1514,
+      "latest": 1514,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -37,8 +38,32 @@
       "home": true
     }
   ],
-  "after": [],
-  "key_figures": [],
+  "after": [
+    {
+      "id": "Q1188459",
+      "region": "China",
+      "name": "Yarkent Khanate",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q1194934",
+      "name": "Tughlugh Timur"
+    },
+    {
+      "id": "Q4497525",
+      "name": "Khizr Khoja"
+    },
+    {
+      "id": "Q987896",
+      "name": "Esen Buqa II"
+    },
+    {
+      "id": "Q477140",
+      "name": "Yunus Khan"
+    }
+  ],
   "modern_countries": [
     "China",
     "Kazakhstan",

@@ -5,17 +5,18 @@
   "wikipedia": "Wu (state)",
   "map_year": -550,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -1200,
+      "latest": -1200,
+      "circa": true
+    },
     "end": {
       "earliest": -473,
       "latest": -473,
-      "circa": false
+      "circa": true
     },
-    "confirmed": false,
-    "core": [
-      -900,
-      -400
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -41,11 +42,19 @@
   "key_figures": [
     {
       "id": "Q1279924",
-      "name": "Helü of Wu"
+      "name": "Helü"
+    },
+    {
+      "id": "Q37151",
+      "name": "Sun Tzu"
     },
     {
       "id": "Q1268609",
       "name": "Wu Zixu"
+    },
+    {
+      "id": "Q1269349",
+      "name": "Fuchai"
     }
   ],
   "modern_countries": [
@@ -75,6 +84,9 @@
     ],
     "identity": "Wikipedia item with overlapping dates",
     "home": "Suzhou",
+    "not_applicable": {
+      "before": "Wu grew from a Zhou-era lower Yangtze polity founded by Taibo; no earlier state precedes it"
+    },
     "labelled": [
       "Chu",
       "Lu",

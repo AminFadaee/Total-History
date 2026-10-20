@@ -5,13 +5,18 @@
   "wikipedia": "Zapotec civilization",
   "map_year": 510,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -700,
-      1300
-    ],
+    "start": {
+      "earliest": -500,
+      "latest": -500,
+      "circa": true
+    },
+    "end": {
+      "earliest": 900,
+      "latest": 900,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -42,7 +47,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q170603",
+      "region": "Mexico",
+      "name": "New Spain",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Mexico"
@@ -69,6 +81,10 @@
     ],
     "identity": "Wikipedia article with a country infobox",
     "home": "Mitla",
+    "not_applicable": {
+      "before": "first state of the Oaxaca valley; none preceded it",
+      "key_figures": "no ruler known by name before the Postclassic"
+    },
     "labelled": [
       "Maya civilization",
       "Teotihuacan"

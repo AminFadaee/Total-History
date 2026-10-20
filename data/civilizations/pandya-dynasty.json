@@ -5,13 +5,18 @@
   "wikipedia": "Pandya dynasty",
   "map_year": 1250,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -300,
-      1618
-    ],
+    "start": {
+      "earliest": -400,
+      "latest": -400,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1618,
+      "latest": 1618,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -30,6 +35,14 @@
         8.96666667
       ],
       "founded": null
+    },
+    {
+      "name": "Korkai",
+      "location": [
+        78.066666666667,
+        8.6333333333333
+      ],
+      "founded": null
     }
   ],
   "parts": [],
@@ -45,15 +58,19 @@
   "key_figures": [
     {
       "id": "Q6986387",
-      "name": "Netunceliyan I"
+      "name": "Nedunj Cheliyan I"
     },
     {
       "id": "Q6345779",
-      "name": "Kadunkon"
+      "name": "Kadungon"
     },
     {
-      "id": "Q1385918",
-      "name": "Manikkavacakar"
+      "id": "Q3536291",
+      "name": "Sadayavarman Sundara Pandyan I"
+    },
+    {
+      "id": "Q6755090",
+      "name": "Maravarman Kulasekara Pandyan I"
     }
   ],
   "modern_countries": [
@@ -83,6 +100,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Tenkasi",
+    "not_applicable": {
+      "before": "one of the earliest recorded Tamil dynasties (Megasthenes and Ashokan edicts); no earlier state is known"
+    },
     "labelled": [
       "Hoysala Kingdom",
       "Chola dynasty",

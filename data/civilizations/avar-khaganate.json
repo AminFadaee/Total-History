@@ -29,11 +29,22 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q146246",
+      "region": "Romania",
+      "name": "Francia",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q45115",
       "name": "Bayan I"
+    },
+    {
+      "id": "Q4874280",
+      "name": "Bayan II"
     }
   ],
   "modern_countries": [
@@ -64,6 +75,9 @@
     ],
     "identity": "Wikipedia article with a country infobox",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "no source in the data names a capital"
+    },
     "labelled": [
       "Byzantine Empire",
       "Bavarians",

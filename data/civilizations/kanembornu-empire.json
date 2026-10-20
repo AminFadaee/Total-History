@@ -59,12 +59,34 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q500502",
+      "region": "Chad",
+      "name": "Sao civilization",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q932368",
+      "region": "Chad",
+      "name": "Rabih az-Zubayr",
+      "home": true
+    }
+  ],
   "key_figures": [
+    {
+      "id": "Q3038134",
+      "name": "Dunama Dabbalemi"
+    },
     {
       "id": "Q2030595",
       "name": "Idris Alooma"
+    },
+    {
+      "id": "Q341882",
+      "name": "Muhammad al-Kanemi"
     }
   ],
   "modern_countries": [

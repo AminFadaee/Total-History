@@ -5,20 +5,31 @@
   "wikipedia": "Maya civilization",
   "map_year": 840,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -2000,
+      "latest": -2000,
+      "circa": true
+    },
     "end": {
-      "earliest": 1521,
-      "latest": 1521,
+      "earliest": 1697,
+      "latest": 1697,
       "circa": false
     },
-    "confirmed": false,
+    "confirmed": true,
     "core": null,
     "since": null
   },
   "capitals": [],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q170603",
+      "region": "Mexico",
+      "name": "New Spain",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q371384",
@@ -60,6 +71,10 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "a civilization of independent city-states (Tikal, Calakmul, Copan, Chichen Itza and others) with no single capital",
+      "before": "no state preceded it in the Maya lands; it grew from Archaic farming villages"
+    },
     "labelled": []
   }
 }

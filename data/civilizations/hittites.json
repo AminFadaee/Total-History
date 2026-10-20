@@ -46,20 +46,38 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
-  "key_figures": [
+  "before": [
     {
-      "id": "Q222536",
-      "name": "Mursili I"
-    },
+      "id": "Q372292",
+      "region": "Turkey",
+      "name": "Kussara",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q770281",
+      "region": "Turkey",
+      "name": "Neo-Hittite states",
+      "home": true
+    }
+  ],
+  "key_figures": [
     {
       "id": "Q313312",
       "name": "Labarna I"
     },
     {
+      "id": "Q222536",
+      "name": "Mursili I"
+    },
+    {
+      "id": "Q354903",
+      "name": "Suppiluliuma I"
+    },
+    {
       "id": "Q268887",
-      "name": "Puduḫepa"
+      "name": "Puduhepa"
     }
   ],
   "modern_countries": [

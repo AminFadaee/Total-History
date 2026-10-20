@@ -5,17 +5,18 @@
   "wikipedia": "Principality of Kiev",
   "map_year": 1111,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1132,
+      "latest": 1132,
+      "circa": false
+    },
     "end": {
       "earliest": 1471,
       "latest": 1471,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      1100,
-      1500
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -29,8 +30,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q1108445",
+      "region": "Ukraine",
+      "name": "Kievan Rus'",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q49683",
+      "region": "Ukraine",
+      "name": "Grand Duchy of Lithuania",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q60928",

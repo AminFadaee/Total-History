@@ -5,27 +5,51 @@
   "wikipedia": "Huns",
   "map_year": 451,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      370,
-      470
-    ],
+    "start": {
+      "earliest": 370,
+      "latest": 370,
+      "circa": true
+    },
+    "end": {
+      "earliest": 469,
+      "latest": 469,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
   "parts": [],
   "before": [
     {
-      "id": "Q321371",
+      "id": "Q178054",
       "region": "Russia",
-      "name": "Cimmerian Bosporus",
-      "home": false
+      "name": "Alans",
+      "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q201706",
+      "region": "Russia",
+      "name": "Gepids",
+      "home": true
+    }
+  ],
   "key_figures": [
+    {
+      "id": "Q353054",
+      "name": "Uldin"
+    },
+    {
+      "id": "Q334273",
+      "name": "Rugila"
+    },
+    {
+      "id": "Q313490",
+      "name": "Bleda"
+    },
     {
       "id": "Q36724",
       "name": "Attila"
@@ -61,6 +85,9 @@
     ],
     "identity": "Wikipedia article with a country infobox",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "royal court (Attila's court) on the Hungarian plain, no named capital"
+    },
     "labelled": [
       "Byzantine Empire",
       "Western Roman Empire",

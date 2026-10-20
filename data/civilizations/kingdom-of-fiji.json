@@ -31,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q5148320",
+      "region": "Fiji",
+      "name": "Colony of Fiji",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q681408",
@@ -63,6 +70,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "before": "The first unified Fijian state, so no earlier state; the Wikipedia sentence carries no citation, check against a reference book"
+    },
     "labelled": []
   }
 }

@@ -19,7 +19,24 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Zaragoza",
+      "location": [
+        -0.88333333333333,
+        41.65
+      ],
+      "founded": null
+    },
+    {
+      "name": "Barcelona",
+      "location": [
+        2.1769444444444,
+        41.3825
+      ],
+      "founded": null
+    }
+  ],
   "parts": [
     "Kingdom of Aragon",
     "Kingdom of Majorca",

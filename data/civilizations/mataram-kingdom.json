@@ -21,16 +21,30 @@
   },
   "capitals": [],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q11237141",
+      "region": "Indonesia",
+      "name": "Heling",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q12491034",
+      "region": "Indonesia",
+      "name": "Kahuripan",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q3107477",
       "name": "Sanjaya of Mataram"
     },
     {
-      "id": "Q12418309",
-      "name": "Lokapala"
+      "id": "Q7286535",
+      "name": "Rakai Pikatan"
     },
     {
       "id": "Q47684",
@@ -66,6 +80,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "the capital moved between Medang (Mdang) in Central Java, Poh Pitu, Tamwlang, Watugaluh and Wwatan in East Java; none of these sites has been securely located"
+    },
     "labelled": [
       "Galuh Kingdom",
       "Sunda Kingdom",

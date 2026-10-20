@@ -5,13 +5,17 @@
   "wikipedia": "Old Chosŏn",
   "map_year": -110,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": -2333,
+      "latest": -2333,
+      "circa": true
+    },
     "end": {
       "earliest": -108,
       "latest": -108,
       "circa": false
     },
-    "confirmed": false,
+    "confirmed": true,
     "core": null,
     "since": null
   },
@@ -74,6 +78,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "before": "earliest known state on the Korean Peninsula"
+    },
     "labelled": [
       "Han Dynasty",
       "Korean Jin"

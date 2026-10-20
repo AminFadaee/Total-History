@@ -5,17 +5,18 @@
   "wikipedia": "Neustria",
   "map_year": 724,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 511,
+      "latest": 511,
+      "circa": false
+    },
     "end": {
       "earliest": 751,
       "latest": 751,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      511,
-      751
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -29,9 +30,35 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q1247508",
+      "region": "France",
+      "name": "Romain-Gaul domain of Soissons",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q146246",
+      "region": "France",
+      "name": "Francia",
+      "home": true
+    }
+  ],
   "key_figures": [
+    {
+      "id": "Q243118",
+      "name": "Chilperic I"
+    },
+    {
+      "id": "Q209118",
+      "name": "Chlothar II"
+    },
+    {
+      "id": "Q458841",
+      "name": "Ebroin"
+    },
     {
       "id": "Q295157",
       "name": "Childeric III"

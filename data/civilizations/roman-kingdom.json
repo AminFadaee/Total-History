@@ -41,12 +41,12 @@
   ],
   "key_figures": [
     {
-      "id": "Q200031",
-      "name": "Numa Pompilius"
+      "id": "Q2186",
+      "name": "Romulus"
     },
     {
-      "id": "Q200859",
-      "name": "Tullus Hostilius"
+      "id": "Q200031",
+      "name": "Numa Pompilius"
     },
     {
       "id": "Q192998",
@@ -84,6 +84,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Rome",
+    "not_applicable": {
+      "before": "earliest state of Rome"
+    },
     "labelled": [
       "Etruscans"
     ]

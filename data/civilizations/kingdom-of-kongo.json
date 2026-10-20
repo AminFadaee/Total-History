@@ -10,12 +10,13 @@
       "latest": 1390,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      1395,
-      1888
-    ],
+    "end": {
+      "earliest": 1914,
+      "latest": 1914,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -29,8 +30,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q55623968",
+      "region": "Angola",
+      "name": "Mpemba Kasi",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q2826232",
+      "region": "Angola",
+      "name": "Portuguese Angola",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q1522957",

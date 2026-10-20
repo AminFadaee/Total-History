@@ -30,8 +30,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q46370",
+      "region": "Belgium",
+      "name": "West Franks",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q4712",
+      "region": "Belgium",
+      "name": "Duchy of Burgundy",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q378271",

@@ -5,17 +5,18 @@
   "wikipedia": "Habsburg monarchy",
   "map_year": 1721,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1526,
+      "latest": 1526,
+      "circa": false
+    },
     "end": {
       "earliest": 1918,
       "latest": 1918,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      1526,
-      1918
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -29,16 +30,38 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q3624335",
+      "region": "Austria",
+      "name": "Duchy of Austria",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q40",
+      "region": "Austria",
+      "name": "Republic of Austria",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
+      "id": "Q150611",
+      "name": "Ferdinand I, Holy Roman Emperor"
+    },
+    {
+      "id": "Q150494",
+      "name": "Leopold I, Holy Roman Emperor"
+    },
+    {
       "id": "Q131706",
-      "name": "Maria Theresa"
+      "name": "Maria Theresa of Austria"
     },
     {
       "id": "Q51056",
-      "name": "Franz Joseph I"
+      "name": "Franz Joseph I of Austria"
     }
   ],
   "modern_countries": [

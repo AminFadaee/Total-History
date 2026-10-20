@@ -13,7 +13,11 @@
     "end": null,
     "confirmed": false,
     "core": null,
-    "since": null
+    "since": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    }
   },
   "capitals": [
     {
@@ -50,8 +54,7 @@
     }
   ],
   "modern_countries": [
-    "Austria",
-    "Italy"
+    "Austria"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -75,6 +78,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Vienna",
+    "not_applicable": {
+      "after": "Austria still exists as a republic, so no later state follows"
+    },
     "labelled": [
       "German Empire",
       "Yugoslavia",

@@ -35,11 +35,30 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q1108445",
+      "region": "Russia",
+      "name": "Kievan Rus'",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q3801857",
       "name": "Irbis"
+    },
+    {
+      "id": "Q2914836",
+      "name": "Bulan"
+    },
+    {
+      "id": "Q2365306",
+      "name": "Obadiah"
+    },
+    {
+      "id": "Q4202883",
+      "name": "Joseph"
     }
   ],
   "modern_countries": [

@@ -5,16 +5,47 @@
   "wikipedia": "Judea",
   "map_year": -77,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": -140,
+      "latest": -140,
+      "circa": false
+    },
+    "end": {
+      "earliest": -37,
+      "latest": -37,
+      "circa": false
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Jerusalem",
+      "location": [
+        35.234156,
+        31.776679
+      ],
+      "founded": -4000
+    }
+  ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q93180",
+      "region": "Israel",
+      "name": "Seleucid Empire",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q16000109",
+      "region": "Israel",
+      "name": "Herodian Kingdom of Judea",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q319107",
@@ -40,7 +71,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "",
+  "summary": "A historical region of the Land of Israel around Jerusalem, ruled by the Hasmonean dynasty in the last two centuries BC.",
   "tier": "Extended",
   "map": "maps/judea.png",
   "map_asked": true,

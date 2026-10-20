@@ -58,19 +58,19 @@
   "key_figures": [
     {
       "id": "Q214321",
-      "name": "Jan Smuts"
+      "name": "Jan Christiaan Smuts"
     },
     {
       "id": "Q317449",
-      "name": "D. F. Malan"
-    },
-    {
-      "id": "Q212955",
-      "name": "Albert Luthuli"
+      "name": "Daniel François Malan"
     },
     {
       "id": "Q297000",
-      "name": "Hendrik Verwoerd"
+      "name": "Hendrik Frensch Verwoerd"
+    },
+    {
+      "id": "Q8023",
+      "name": "Nelson Mandela"
     }
   ],
   "modern_countries": [
@@ -103,6 +103,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Pretoria",
+    "not_applicable": {
+      "after": "South Africa still exists as a republic, so no later state follows"
+    },
     "labelled": [
       "British Africa",
       "Estado Novo"

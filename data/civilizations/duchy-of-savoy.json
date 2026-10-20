@@ -10,12 +10,13 @@
       "latest": 1416,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      1416,
-      1847
-    ],
+    "end": {
+      "earliest": 1847,
+      "latest": 1847,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -45,15 +46,30 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q2577303",
+      "region": "France",
+      "name": "Kingdom of Sardinia",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q312636",
       "name": "Amadeus VIII of Savoy"
     },
     {
-      "id": "Q181261",
-      "name": "Charles Albert of Sardinia"
+      "id": "Q76508",
+      "name": "Emanuele Filiberto I, Duke of Savoy"
+    },
+    {
+      "id": "Q318091",
+      "name": "Carlo Emanuele I, Duke of Savoy"
+    },
+    {
+      "id": "Q209579",
+      "name": "Victor Amadeus II of Savoy"
     }
   ],
   "modern_countries": [

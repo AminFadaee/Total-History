@@ -30,12 +30,34 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q2729197",
+      "region": "Portugal",
+      "name": "Ditadura Nacional",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1259200",
+      "region": "Portugal",
+      "name": "Third Portuguese Republic",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q314022",
       "name": "Óscar Carmona"
+    },
+    {
+      "id": "Q151394",
+      "name": "António de Oliveira Salazar"
+    },
+    {
+      "id": "Q310870",
+      "name": "Marcelo Caetano"
     }
   ],
   "modern_countries": [

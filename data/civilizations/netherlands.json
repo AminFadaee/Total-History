@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q170072",
+      "region": "Netherlands",
+      "name": "Dutch Republic",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
@@ -75,6 +82,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Amsterdam",
+    "not_applicable": {
+      "after": "the kingdom still exists"
+    },
     "labelled": [
       "German Confederation",
       "Bourbon Kingdom of France",

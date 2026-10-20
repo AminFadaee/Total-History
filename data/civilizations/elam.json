@@ -41,12 +41,16 @@
   ],
   "key_figures": [
     {
+      "id": "Q878671",
+      "name": "Untash-Napirisha"
+    },
+    {
       "id": "Q392729",
-      "name": "Shutruk-Nakhunte"
+      "name": "Shutruk-Nahhunte"
     },
     {
       "id": "Q2391697",
-      "name": "Tammaritu II"
+      "name": "Tammaritu"
     }
   ],
   "modern_countries": [
@@ -74,6 +78,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Susa",
+    "not_applicable": {
+      "before": "Proto-Elamite phase is the beginning of Elam itself (start -3200); earliest known state in Iran"
+    },
     "labelled": [
       "Assyria",
       "Sumerian City-States"

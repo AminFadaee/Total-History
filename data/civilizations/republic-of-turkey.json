@@ -41,16 +41,16 @@
   "after": [],
   "key_figures": [
     {
-      "id": "Q151735",
-      "name": "Celâl Bayar"
-    },
-    {
       "id": "Q5152",
       "name": "Mustafa Kemal Atatürk"
     },
     {
       "id": "Q183297",
       "name": "İsmet İnönü"
+    },
+    {
+      "id": "Q151735",
+      "name": "Celâl Bayar"
     },
     {
       "id": "Q159161",
@@ -82,6 +82,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Ankara",
+    "not_applicable": {
+      "after": "Turkey still exists as a republic, so no later state follows"
+    },
     "labelled": [
       "Union of Soviet Socialist Republics",
       "Pahlavi Dynasty",

@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Knossos",
+      "location": [
+        25.163155555556,
+        35.297961111111
+      ],
+      "founded": -7000
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [
@@ -52,6 +61,10 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "key_figures": "no ruler is known by name; Minos is legendary",
+      "before": "earliest civilization of Crete and the Aegean; no state preceded it"
+    },
     "labelled": [
       "Mycenaean Greece"
     ]

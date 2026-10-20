@@ -22,7 +22,14 @@
   "capitals": [],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q1122052",
+      "region": "Kazakhstan",
+      "name": "Cuman-Kipchak Confederation",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Kazakhstan",
@@ -51,6 +58,11 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "A nomadic tribal confederation without a fixed capital",
+      "key_figures": "Sources name no individual ruler of the Kimek-Kipchak confederation",
+      "before": "A steppe confederation that formed from Turkic tribes after the Western Turkic Khaganate; no single predecessor state is named"
+    },
     "labelled": [
       "Great Seljuk Empire",
       "Kievan Rus'",

@@ -5,17 +5,18 @@
   "wikipedia": "Duchy of Burgundy",
   "map_year": 1475,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1032,
+      "latest": 1032,
+      "circa": false
+    },
     "end": {
       "earliest": 1477,
       "latest": 1477,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      918,
-      1477
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -29,8 +30,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q150412",
+      "region": "France",
+      "name": "Burgundians",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q70972",
+      "region": "France",
+      "name": "Kingdom of France",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q346934",

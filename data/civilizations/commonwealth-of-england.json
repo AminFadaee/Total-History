@@ -30,8 +30,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q179876",
+      "region": "United Kingdom",
+      "name": "Kingdom of England",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q179876",
+      "region": "United Kingdom",
+      "name": "Kingdom of England",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q44279",

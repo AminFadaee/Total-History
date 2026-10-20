@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q15890801",
+      "region": "Italy",
+      "name": "Signoria of Milan",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q729481",
@@ -41,20 +48,20 @@
   ],
   "key_figures": [
     {
+      "id": "Q357539",
+      "name": "Gian Galeazzo Visconti"
+    },
+    {
+      "id": "Q289285",
+      "name": "Filippo Maria Visconti"
+    },
+    {
       "id": "Q310536",
       "name": "Francesco I Sforza"
     },
     {
-      "id": "Q314514",
-      "name": "Gian Galeazzo Sforza"
-    },
-    {
       "id": "Q236853",
       "name": "Ludovico Sforza"
-    },
-    {
-      "id": "Q378739",
-      "name": "Maximilian Sforza"
     }
   ],
   "modern_countries": [

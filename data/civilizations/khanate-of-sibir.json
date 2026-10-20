@@ -38,7 +38,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q79965",
+      "region": "Russia",
+      "name": "Golden Horde",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q186096",

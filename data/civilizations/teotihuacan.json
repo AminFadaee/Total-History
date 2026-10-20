@@ -5,23 +5,40 @@
   "wikipedia": "Teotihuacan",
   "map_year": 692,
   "period": {
-    "start": null,
-    "end": {
-      "earliest": 700,
-      "latest": 700,
-      "circa": false
+    "start": {
+      "earliest": -100,
+      "latest": -100,
+      "circa": true
     },
-    "confirmed": false,
-    "core": [
-      1,
-      700
-    ],
+    "end": {
+      "earliest": 650,
+      "latest": 650,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Teotihuacan",
+      "location": [
+        -98.843888888889,
+        19.6925
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q187897",
+      "region": "Mexico",
+      "name": "Toltec",
+      "home": true
+    }
+  ],
   "key_figures": [],
   "modern_countries": [
     "Mexico"
@@ -44,6 +61,10 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "key_figures": "no ruler known by name from the city itself",
+      "before": "earliest state of the Valley of Mexico"
+    },
     "labelled": [
       "Zapotec Civilization",
       "Classic Veracruz Culture"

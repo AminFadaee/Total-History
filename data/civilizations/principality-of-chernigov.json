@@ -5,17 +5,18 @@
   "wikipedia": "Principality of Chernigov",
   "map_year": 1072,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1024,
+      "latest": 1024,
+      "circa": false
+    },
     "end": {
       "earliest": 1402,
       "latest": 1402,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      1024,
-      1402
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -29,12 +30,38 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q1108445",
+      "region": "Ukraine",
+      "name": "Kievan Rus'",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q49683",
+      "region": "Ukraine",
+      "name": "Grand Duchy of Lithuania",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q2350272",
       "name": "Mstislav of Chernigov"
+    },
+    {
+      "id": "Q469731",
+      "name": "Sviatoslav II of Kiev"
+    },
+    {
+      "id": "Q2992005",
+      "name": "Oleg I of Chernigov"
+    },
+    {
+      "id": "Q497962",
+      "name": "Mychailo of Chernigiv"
     }
   ],
   "modern_countries": [

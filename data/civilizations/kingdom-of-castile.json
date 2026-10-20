@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q175276",
+      "region": "Spain",
+      "name": "Kingdom of León",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q217196",

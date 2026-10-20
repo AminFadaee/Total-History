@@ -30,12 +30,38 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q600562",
+      "region": "South Africa",
+      "name": "Mthethwa Paramountcy",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q1301901",
+      "region": "South Africa",
+      "name": "Colony of Natal",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q27695",
-      "name": "Shaka"
+      "name": "Shaka Zulu"
+    },
+    {
+      "id": "Q470145",
+      "name": "Dingane kaSenzangakhona"
+    },
+    {
+      "id": "Q737703",
+      "name": "Mpande kaSenzangakhona"
+    },
+    {
+      "id": "Q380403",
+      "name": "Cetshwayo kaMpande"
     }
   ],
   "modern_countries": [

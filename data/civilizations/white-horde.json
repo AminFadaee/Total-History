@@ -5,27 +5,59 @@
   "wikipedia": "White Horde",
   "map_year": 1375,
   "period": {
-    "start": null,
-    "end": {
-      "earliest": 1401,
-      "latest": 1500,
-      "circa": false
+    "start": {
+      "earliest": 1226,
+      "latest": 1226,
+      "circa": true
     },
-    "confirmed": false,
-    "core": [
-      1200,
-      1500
-    ],
+    "end": {
+      "earliest": 1428,
+      "latest": 1428,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Sighnaq",
+      "location": [
+        66.963888888889,
+        44.156666666667
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q12557",
+      "region": "Kazakhstan",
+      "name": "Mongol Empire",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q15535871",
+      "region": "Kazakhstan",
+      "name": "Uzbek Khanate",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
-      "id": "Q175138",
-      "name": "Batu Khan"
+      "id": "Q380393",
+      "name": "Orda Khan"
+    },
+    {
+      "id": "Q1374159",
+      "name": "Urus Khan"
+    },
+    {
+      "id": "Q1067312",
+      "name": "Barak Khan"
     }
   ],
   "modern_countries": [

@@ -5,11 +5,19 @@
   "wikipedia": "Brazil",
   "map_year": 1905,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1889,
+      "latest": 1889,
+      "circa": false
+    },
     "end": null,
     "confirmed": false,
     "core": null,
-    "since": null
+    "since": {
+      "earliest": 1889,
+      "latest": 1889,
+      "circa": false
+    }
   },
   "capitals": [
     {
@@ -19,6 +27,14 @@
         -22.91111111111111
       ],
       "founded": 1565
+    },
+    {
+      "name": "Brasília",
+      "location": [
+        -47.882777777778,
+        -15.793888888889
+      ],
+      "founded": 1960
     }
   ],
   "parts": [],
@@ -74,6 +90,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Rio de Janeiro",
+    "not_applicable": {
+      "after": "Brazil still exists"
+    },
     "labelled": [
       "Bolivia",
       "Republic of Peru",

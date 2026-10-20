@@ -5,17 +5,18 @@
   "wikipedia": "Golden Horde",
   "map_year": 1294,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1242,
+      "latest": 1242,
+      "circa": false
+    },
     "end": {
       "earliest": 1502,
       "latest": 1502,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      1243,
-      1502
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -35,6 +36,12 @@
     }
   ],
   "after": [
+    {
+      "id": "Q210163",
+      "region": "Russia",
+      "name": "Astrakhan Khanate",
+      "home": true
+    },
     {
       "id": "Q631210",
       "region": "Kazakhstan",

@@ -5,17 +5,18 @@
   "wikipedia": "British Empire",
   "map_year": 1900,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1583,
+      "latest": 1583,
+      "circa": false
+    },
     "end": {
       "earliest": 1997,
       "latest": 1997,
       "circa": false
     },
-    "confirmed": false,
-    "core": [
-      1583,
-      1997
-    ],
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [

@@ -5,9 +5,17 @@
   "wikipedia": "Cornwall",
   "map_year": 936,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": 710,
+      "latest": 710,
+      "circa": true
+    },
+    "end": {
+      "earliest": 936,
+      "latest": 936,
+      "circa": true
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
@@ -23,14 +31,30 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
-  "key_figures": [],
+  "after": [
+    {
+      "id": "Q179876",
+      "region": "United Kingdom",
+      "name": "Kingdom of England",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q3761244",
+      "name": "Gerren"
+    },
+    {
+      "id": "Q170017",
+      "name": "Æthelstan"
+    }
+  ],
   "modern_countries": [
     "United Kingdom"
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "",
+  "summary": "A ceremonial county in South West England that was once a Brittonic kingdom and later a duchy.",
   "tier": "Extended",
   "map": "maps/cornwall.png",
   "map_asked": true,
@@ -48,6 +72,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Truro",
+    "not_applicable": {
+      "before": "A Brittonic territory within Roman Britain and Dumnonia; no earlier state"
+    },
     "labelled": [
       "Kingdom of England",
       "Viking settlements",

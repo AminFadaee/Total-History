@@ -10,12 +10,13 @@
       "latest": -480,
       "circa": true
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -460,
-      -30
-    ],
+    "end": {
+      "earliest": 46,
+      "latest": 46,
+      "circa": false
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [
@@ -30,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q2277",
+      "region": "Bulgaria",
+      "name": "Roman Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q610906",
@@ -77,6 +85,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Seuthopolis",
+    "not_applicable": {
+      "before": "earliest Thracian state, formed by Teres I from the Thracian tribes"
+    },
     "labelled": [
       "Greek City-States",
       "Macedonia",

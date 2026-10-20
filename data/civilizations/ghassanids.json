@@ -41,8 +41,16 @@
   ],
   "key_figures": [
     {
+      "id": "Q643275",
+      "name": "Al-Harith ibn Jabalah"
+    },
+    {
+      "id": "Q2829247",
+      "name": "Al-Mundhir III ibn al-Harith"
+    },
+    {
       "id": "Q2083483",
-      "name": "Jabala ibn al-Ayham"
+      "name": "Jabalah ibn al-Aiham"
     }
   ],
   "modern_countries": [
@@ -73,6 +81,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "before": "An Arab tribe that migrated north and became Roman clients; no earlier state of its own"
+    },
     "labelled": [
       "Byzantine Empire",
       "Sasanian Empire",

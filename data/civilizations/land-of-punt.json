@@ -5,13 +5,18 @@
   "wikipedia": "Land of Punt",
   "map_year": -2400,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      -2400,
-      -1000
-    ],
+    "start": {
+      "earliest": -2500,
+      "latest": -2500,
+      "circa": true
+    },
+    "end": {
+      "earliest": -980,
+      "latest": -980,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
@@ -19,7 +24,9 @@
   "before": [],
   "after": [],
   "key_figures": [],
-  "modern_countries": [],
+  "modern_countries": [
+    "Eritrea"
+  ],
   "overseas_countries": [],
   "borders": false,
   "summary": "An ancient kingdom known from Ancient Egyptian trade records.",
@@ -34,6 +41,12 @@
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "no capital is known; the location of Punt itself is disputed and Egyptian records name no royal city",
+      "key_figures": "the only rulers named are King Parahu and Queen Ati on the Hatshepsut reliefs; neither has a Wikidata item to link",
+      "before": "first known state of its region; known only from Egyptian records",
+      "after": "no successor state is known; Punt drops out of the Egyptian records"
+    }
   }
 }

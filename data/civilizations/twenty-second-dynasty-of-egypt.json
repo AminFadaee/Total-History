@@ -19,7 +19,24 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Bubastis",
+      "location": [
+        31.51,
+        30.572777777778
+      ],
+      "founded": null
+    },
+    {
+      "name": "Tanis",
+      "location": [
+        31.88,
+        30.976944444444
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [
     {
@@ -29,7 +46,14 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q748170",
+      "region": "Egypt",
+      "name": "Twenty-third Dynasty of Egypt",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q311811",

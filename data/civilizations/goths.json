@@ -10,19 +10,33 @@
       "latest": 100,
       "circa": false
     },
-    "end": null,
-    "confirmed": false,
-    "core": [
-      100,
-      1500
-    ],
+    "end": {
+      "earliest": 711,
+      "latest": 711,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
   "parts": [],
   "before": [],
   "after": [],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q28987",
+      "name": "Ermanaric"
+    },
+    {
+      "id": "Q102371",
+      "name": "Alaric I"
+    },
+    {
+      "id": "Q105105",
+      "name": "Theodoric the Great"
+    }
+  ],
   "modern_countries": [
     "Sweden",
     "Poland"
@@ -45,6 +59,11 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "A migrating people in several kingdoms, not a state with a capital",
+      "before": "A Germanic people of the Baltic coast; no earlier state",
+      "after": "The Goths split into the Visigoths and the Ostrogoths, two kingdoms, so no single successor state"
+    },
     "labelled": []
   }
 }

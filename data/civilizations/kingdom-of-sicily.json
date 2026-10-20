@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q1917014",
+      "region": "Italy",
+      "name": "County of Sicily",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q180393",

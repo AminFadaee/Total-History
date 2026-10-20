@@ -54,7 +54,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q171150",
+      "region": "Romania",
+      "name": "Kingdom of Hungary",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q958291",

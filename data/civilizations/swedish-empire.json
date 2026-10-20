@@ -30,16 +30,38 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q34",
+      "region": "Sweden",
+      "name": "Kingdom of Sweden",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q34",
+      "region": "Sweden",
+      "name": "Kingdom of Sweden",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q52938",
-      "name": "Gustavus Adolphus"
+      "name": "Gustavus Adolphus of Sweden"
+    },
+    {
+      "id": "Q52937",
+      "name": "Christina of Sweden"
     },
     {
       "id": "Q52936",
-      "name": "Charles X Gustav"
+      "name": "Charles X Gustav of Sweden"
+    },
+    {
+      "id": "Q52934",
+      "name": "Carl XII of Sweden"
     }
   ],
   "modern_countries": [

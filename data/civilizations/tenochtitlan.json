@@ -19,7 +19,16 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Tenochtitlan",
+      "location": [
+        -99.13138889,
+        19.435
+      ],
+      "founded": 1325
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [
@@ -71,6 +80,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "before": "city founded in 1325 by the Mexica; no preceding state"
+    },
     "labelled": [
       "Michoacán"
     ]

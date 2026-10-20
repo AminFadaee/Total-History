@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q8680",
+      "region": "Australia",
+      "name": "British Empire",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
@@ -72,6 +79,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Canberra",
+    "not_applicable": {
+      "after": "Australia still exists"
+    },
     "labelled": [
       "Empire of Japan"
     ]

@@ -62,15 +62,30 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q1661685",
+      "region": "Pakistan",
+      "name": "Indo-Sassanids",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q560157",
       "name": "Kujula Kadphises"
     },
     {
+      "id": "Q1275140",
+      "name": "Vima Kadphises"
+    },
+    {
       "id": "Q312544",
       "name": "Kanishka"
+    },
+    {
+      "id": "Q1396420",
+      "name": "Huvishka"
     }
   ],
   "modern_countries": [

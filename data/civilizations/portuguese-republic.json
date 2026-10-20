@@ -5,11 +5,19 @@
   "wikipedia": "Portugal",
   "map_year": 1924,
   "period": {
-    "start": null,
+    "start": {
+      "earliest": 1910,
+      "latest": 1910,
+      "circa": false
+    },
     "end": null,
     "confirmed": false,
     "core": null,
-    "since": null
+    "since": {
+      "earliest": 1910,
+      "latest": 1910,
+      "circa": false
+    }
   },
   "capitals": [
     {
@@ -83,6 +91,9 @@
     "identity": "Wikipedia item with overlapping dates",
     "home": "Lisbon",
     "map_like": "Kingdom of Portugal",
+    "not_applicable": {
+      "after": "Portugal still exists as a republic, so no later state follows"
+    },
     "labelled": [
       "Kingdom of Spain"
     ]

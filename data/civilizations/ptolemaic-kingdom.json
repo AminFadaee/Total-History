@@ -3,7 +3,7 @@
   "slug": "ptolemaic-kingdom",
   "name": "Ptolemaic Kingdom",
   "wikipedia": "Ptolemaic Kingdom",
-  "map_year": -31,
+  "map_year": -150,
   "period": {
     "start": {
       "earliest": -305,
@@ -62,12 +62,7 @@
   ],
   "modern_countries": [
     "Egypt",
-    "Turkey",
     "Libya",
-    "Greece",
-    "Syria",
-    "North Macedonia",
-    "Lebanon",
     "Cyprus"
   ],
   "overseas_countries": [],
@@ -93,13 +88,14 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Alexandria",
     "labelled": [
-      "Parthian Empire",
-      "Roman Empire",
+      "Seleucid Empire",
+      "Kingdom of Numidia",
       "Kingdom of Kush",
-      "Kingdom of Cappadocia",
-      "Thracian Kingdom",
+      "Kingdom of Pergamon",
+      "Minaeans",
       "Kingdom of Armenia",
-      "Himyarite Kingdom"
+      "Greek City-States",
+      "Kingdom of Cappadocia"
     ]
   }
 }

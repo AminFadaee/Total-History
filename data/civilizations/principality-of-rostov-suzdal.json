@@ -35,10 +35,25 @@
         56.12861111111111
       ],
       "founded": 990
+    },
+    {
+      "name": "Rostov",
+      "location": [
+        39.416666666666664,
+        57.18333333333333
+      ],
+      "founded": null
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q1108445",
+      "region": "Russia",
+      "name": "Kievan Rus'",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q170770",
@@ -53,12 +68,16 @@
       "name": "Yuri Dolgorukiy"
     },
     {
-      "id": "Q174044",
-      "name": "Alexander Nevsky"
+      "id": "Q315191",
+      "name": "Andrey Bogolyubsky"
     },
     {
-      "id": "Q188995",
-      "name": "Dmitry Donskoy"
+      "id": "Q348689",
+      "name": "Vsevolod III the Big Nest"
+    },
+    {
+      "id": "Q174044",
+      "name": "Alexander Nevsky"
     }
   ],
   "modern_countries": [

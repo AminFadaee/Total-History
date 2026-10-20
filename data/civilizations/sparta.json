@@ -3,7 +3,7 @@
   "slug": "sparta",
   "name": "Sparta",
   "wikipedia": "Sparta",
-  "map_year": -909,
+  "map_year": -431,
   "period": {
     "start": {
       "earliest": -900,
@@ -31,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q244796",
+      "region": "Greece",
+      "name": "Achaean League",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q44228",
@@ -69,6 +76,9 @@
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "home": "the spot held longest",
+    "not_applicable": {
+      "before": "founded about 900 BC by Dorians after the Mycenaean collapse; no preceding Spartan state"
+    }
   }
 }

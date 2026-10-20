@@ -5,13 +5,18 @@
   "wikipedia": "Hausa Kingdoms",
   "map_year": 801,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
-    "core": [
-      900,
-      1900
-    ],
+    "start": {
+      "earliest": 1000,
+      "latest": 1000,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1808,
+      "latest": 1808,
+      "circa": true
+    },
+    "confirmed": true,
+    "core": null,
     "since": null
   },
   "capitals": [],
@@ -25,7 +30,16 @@
       "home": true
     }
   ],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q6932682",
+      "name": "Muhammad Rumfa"
+    },
+    {
+      "id": "Q2843390",
+      "name": "Queen Amina"
+    }
+  ],
   "modern_countries": [
     "Nigeria"
   ],
@@ -43,6 +57,10 @@
     },
     "cliopatria_years": [],
     "identity": "Vital Articles state without Cliopatria borders",
-    "home": "the spot held longest"
+    "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "A group of independent city-states (Kano, Katsina, Zazzau, Gobir and others), not one state with a capital",
+      "before": "The Hausa states are the earliest known states of the region; no earlier state"
+    }
   }
 }

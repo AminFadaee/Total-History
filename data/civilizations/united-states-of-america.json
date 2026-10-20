@@ -14,8 +14,8 @@
     "confirmed": false,
     "core": null,
     "since": {
-      "earliest": 1784,
-      "latest": 1784,
+      "earliest": 1776,
+      "latest": 1776,
       "circa": false
     }
   },
@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q179997",
+      "region": "United States",
+      "name": "Thirteen Colonies",
+      "home": true
+    }
+  ],
   "after": [],
   "key_figures": [
     {
@@ -80,6 +87,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Washington",
+    "not_applicable": {
+      "after": "the United States still exists, so no later state follows"
+    },
     "labelled": [
       "Canada",
       "Mexico",

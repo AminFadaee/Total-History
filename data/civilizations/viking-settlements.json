@@ -5,9 +5,17 @@
   "wikipedia": "Vikings",
   "map_year": 876,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": 793,
+      "latest": 793,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1066,
+      "latest": 1066,
+      "circa": false
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
@@ -17,8 +25,20 @@
   "after": [],
   "key_figures": [
     {
-      "id": "Q272498",
-      "name": "Brian Boru"
+      "id": "Q350321",
+      "name": "Ivar Ragnarsson"
+    },
+    {
+      "id": "Q273773",
+      "name": "Rollo"
+    },
+    {
+      "id": "Q172345",
+      "name": "Erik the Red"
+    },
+    {
+      "id": "Q42838",
+      "name": "Leif Erikson"
     }
   ],
   "modern_countries": [
@@ -48,6 +68,11 @@
     ],
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "scattered settlements and trading posts in several lands; there was no capital",
+      "before": "settlements founded by Norse seafarers from Scandinavia, with no earlier state in the settled lands",
+      "after": "the settlements were absorbed by the Kingdoms of England, Scotland, Ireland, France and Russia, not a single successor"
+    },
     "labelled": [
       "East Franks",
       "West Franks",

@@ -21,9 +21,28 @@
   },
   "capitals": [],
   "parts": [],
-  "before": [],
-  "after": [],
-  "key_figures": [],
+  "before": [
+    {
+      "id": "Q2477776",
+      "region": "Ukraine",
+      "name": "Kimek-Kipchak confederation",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q79965",
+      "region": "Ukraine",
+      "name": "Golden Horde",
+      "home": true
+    }
+  ],
+  "key_figures": [
+    {
+      "id": "Q2995122",
+      "name": "Köten"
+    }
+  ],
   "modern_countries": [
     "Ukraine"
   ],
@@ -47,6 +66,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "capital": "A nomadic tribal confederation without a fixed capital"
+    },
     "labelled": [
       "Kievan Rus'",
       "Principality of Peremyshl",

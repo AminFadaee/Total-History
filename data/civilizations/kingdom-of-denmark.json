@@ -5,9 +5,17 @@
   "wikipedia": "Danish Realm",
   "map_year": 1220,
   "period": {
-    "start": null,
-    "end": null,
-    "confirmed": false,
+    "start": {
+      "earliest": 936,
+      "latest": 936,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1397,
+      "latest": 1397,
+      "circa": true
+    },
+    "confirmed": true,
     "core": null,
     "since": null
   },
@@ -61,7 +69,7 @@
   ],
   "overseas_countries": [],
   "borders": true,
-  "summary": "",
+  "summary": "The oldest monarchy in Europe, founded by the Viking kings Gorm the Old and Harald Bluetooth.",
   "tier": "Extended",
   "map": "maps/kingdom-of-denmark.png",
   "map_asked": true,
@@ -81,6 +89,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Copenhagen",
+    "not_applicable": {
+      "before": "Denmark is the oldest monarchy in Europe, founded by Gorm the Old; no earlier state; cited in Wikipedia, footnote 1"
+    },
     "labelled": [
       "Kievan Rus'",
       "Novgorod Republic",

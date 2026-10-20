@@ -3,7 +3,7 @@
   "slug": "cossack-hetmanate",
   "name": "Cossack Hetmanate",
   "wikipedia": "Cossack Hetmanate",
-  "map_year": 1648,
+  "map_year": 1670,
   "period": {
     "start": {
       "earliest": 1648,
@@ -46,8 +46,22 @@
     }
   ],
   "parts": [],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q172107",
+      "region": "Ukraine",
+      "name": "Polish-Lithuanian Commonwealth",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q34266",
+      "region": "Ukraine",
+      "name": "Russian Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q203808",
