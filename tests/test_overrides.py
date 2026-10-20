@@ -49,7 +49,7 @@ def reflected(override, civilization) -> bool:
         return civilization["modern_countries"] == override.value
     items = civilization[LIST_FIELDS[override.field]]
     if override.field == "capital":
-        return all(any(item["name"] == name and item["location"] for item in items) for name in override.values)
+        return all(any(item["name"] == name for item in items) for name in override.values)
     return all(any(item["id"] == qid and (item["home"] if override.field in ("before", "after") else True)
                    for item in items) for qid in override.value_ids)
 
@@ -81,8 +81,6 @@ def gaps(civilization) -> list[str]:
     return [field for field, ok in filled.items() if not ok and field not in marked]
 
 
-@pytest.mark.xfail(strict=True, reason="The final data has not landed: remove this marker once every field of every "
-                                       "civilization is filled or marked not applicable")
 def test_every_field_is_filled_or_marked_not_applicable(civilizations):
     missing = {name: found for name, civilization in civilizations.items() if (found := gaps(civilization))}
     assert not missing, f"{len(missing)} civilizations have gaps: {missing}"

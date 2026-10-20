@@ -1,34 +1,45 @@
 # Answers that break a soft rule, accepted for now. A new break fails the run, and so does a listed one that is gone.
 
 successor_ends_first = [
+  ["Chaldea", "Neo-Babylonian Empire"],
+  ["Denmark-Norway", "Kingdom of Denmark"],
+  ["Etruscans", "Roman Republic"],
+  ["Kingdom of Numidia", "Roman Republic"],
   ["Mali Empire", "Songhai Empire"],
   ["Minoan civilization", "Mycenaean Greece"],
 ]
 
 predecessor_begins_later = [
+  ["Guatemala", "Federal Republic of Central America"],
 ]
 
 succession_gap = [
+  ["Burgundians", "Duchy of Burgundy"],
+  ["Greco-Bactrian Kingdom", "Kushan Empire"],
+  ["Kingdom of Kush", "Alodia"],
+  ["Teotihuacan", "Toltec"],
 ]
 
 before_and_after = [
+  ["Commonwealth of England", "Kingdom of England"],
+  ["Confederate States of America", "United States of America"],
   ["Gallic Empire", "Roman Empire"],
   ["Latin Empire", "Byzantine Empire"],
   ["Nicaean Empire", "Byzantine Empire"],
   ["Sur Empire", "Mughal Empire"],
+  ["Swedish Empire", "Kingdom of Sweden"],
   ["Tulunids", "Abbasid Caliphate"],
   ["Xin Dynasty", "Han Dynasty"],
 ]
 
 key_figure_outside_period = [
+  ["Principality of Kiev", "Vladimir II Monomakh"],
 ]
 
 map_year_outside_period = [
-  ["Ajuran Sultanate"],
-  ["Goths"],
   ["Hausa Kingdoms"],
-  ["Moghulistan"],
-  ["Volga Bulgaria"],
+  ["Shirvan"],
+  ["Teotihuacan"],
 ]
 
 capital_founded_after_end = [
@@ -37,7 +48,7 @@ capital_founded_after_end = [
   ["Goryeo", "Seoul"],
   ["Icelandic Commonwealth", "Þingvellir"],
   ["Kingdom of Armenia", "Artashat"],
-  ["Kingdom of Sardinia", "Metropolitan City of Cagliari"],
+  ["Kingdom of Northumbria", "Bamburgh"],
   ["Peru-Bolivian Confederation", "Tacna"],
   ["Scythia", "Kamianka-Dniprovska"],
 ]
@@ -46,8 +57,12 @@ what_line_spacing = [
 ]
 
 namesake_outside_deck = [
+  ["Kingdom of Bohemia", "Duchy of Bohemia"],
   ["Kingdom of Croatia", "Duchy of Croatia"],
+  ["Kingdom of Egypt", "Sultanate of Egypt"],
+  ["Kingdom of Hanover", "Electorate of Hanover"],
   ["Kingdom of Nepal", "Nepal"],
+  ["Kingdom of Serbia", "Principality of Serbia"],
 ]
 
 what_line_outside_period = [

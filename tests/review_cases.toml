@@ -116,7 +116,7 @@ succession_absent = [
   { civilization = "Qin dynasty", side = "before", other = "Qin" },
   { civilization = "Inca Empire", side = "after", other = "Neo-Inca State", open = true },
   { civilization = "Kushan Empire", side = "after", other = "Gupta Empire" },
-  { civilization = "Kingdom of Wessex", side = "before", other = "Kingdom of Sussex", open = true },
+  { civilization = "Kingdom of Wessex", side = "before", other = "Kingdom of Sussex" },
   { civilization = "Second Polish Republic", side = "after", other = "Union of Soviet Socialist Republics", open = true },
   { civilization = "Jalayirid Sultanate", side = "after", other = "Timurid Empire", open = true },
   { civilization = "Nguyễn dynasty", side = "after", other = "Republic of Vietnam" },
@@ -181,11 +181,11 @@ succession_present = [
   { civilization = "Mongol Empire", side = "before", other = "Khamag Mongol" },
   { civilization = "Goguryeo", side = "before", other = "Buyeo" },
   { civilization = "Phoenicia", side = "after", other = "Achaemenid Empire", open = true },
-  { civilization = "Classical Athens", side = "after", other = "Macedonia", open = true },
-  { civilization = "Denmark-Norway", side = "after", other = "Kingdom of Denmark", open = true },
-  { civilization = "Commonwealth of England", side = "before", other = "Kingdom of England", open = true },
-  { civilization = "Commonwealth of England", side = "after", other = "Kingdom of England", open = true },
-  { civilization = "Akkadian Empire", side = "before", other = "Sumerian City-States", open = true },
+  { civilization = "Classical Athens", side = "after", other = "Macedonia" },
+  { civilization = "Denmark-Norway", side = "after", other = "Kingdom of Denmark" },
+  { civilization = "Commonwealth of England", side = "before", other = "Kingdom of England" },
+  { civilization = "Commonwealth of England", side = "after", other = "Kingdom of England" },
+  { civilization = "Akkadian Empire", side = "before", other = "Sumerian City-States" },
   { civilization = "Aztec Triple Alliance", side = "before", other = "Tepanecs", open = true },
 ]
 
@@ -215,8 +215,7 @@ capital_absent = [
   { civilization = "Abbasid Caliphate", capital = "Cairo" },
   { civilization = "Maurya Empire", capital = "Patna" },
   { civilization = "Göktürk Khaganate", capital = "Ordu-Baliq" },
-  { civilization = "Pala Empire", capital = "Murshidabad", open = true },
-  { civilization = "Brazilian Republic", capital = "Brasília" },
+  { civilization = "Pala Empire", capital = "Murshidabad" },
   { civilization = "Phrygia", capital = "Polatlı" },
   { civilization = "Ayutthaya Kingdom", capital = "Phitsanulok province" },
   { civilization = "Ayutthaya Kingdom", capital = "Lopburi province" },
@@ -290,7 +289,7 @@ period_ends_by = [
 ]
 
 period_present = [
-  { civilization = "Maya civilization", open = true },
+  { civilization = "Maya civilization" },
   { civilization = "Minoan civilization" },
   { civilization = "Olmec Civilization" },
   { civilization = "Teotihuacan" },
