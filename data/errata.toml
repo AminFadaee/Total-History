@@ -63,3 +63,113 @@ civilization = "Göktürk Khaganate"
 field = "key_figures"
 value = "Muqan Qaghan"
 reason = "Outside review: listed before Bumin Qaghan, out of order."
+
+[[remove]]
+civilization = "Chalukya Dynasty"
+field = "capitals"
+value = "Manyakheta"
+reason = "The capital of the Rashtrakutas, who replaced the Chalukyas in 753"
+source = "https://en.wikipedia.org/wiki/Rashtrakuta_dynasty"
+quote = "This clan came to be known as the Rashtrakutas of Manyakheta, rising to power in South India in 753 AD."
+retrieved = "2026-10-20"
+needs_verification = true
+
+[[remove]]
+civilization = "Chalukya Dynasty"
+field = "capitals"
+value = "Basavakalyan"
+reason = "The capital of the Western Chalukyas, two centuries after the 543-753 span of this card"
+source = "https://en.wikipedia.org/wiki/Western_Chalukya_Empire"
+quote = "This Kannada dynasty is sometimes called the Kalyani Chalukya after its regal capital at Kalyani, today's Basavakalyan in the modern Bidar district of Karnataka state"
+retrieved = "2026-10-20"
+needs_verification = true
+
+[[remove]]
+civilization = "Jin"
+field = "capitals"
+value = "Taiyuan"
+reason = "Taiyuan was not a capital of Jin: it moved from Tang to E, Jiang and Xintian"
+source = "https://en.wikipedia.org/wiki/Jin_%28Chinese_state%29"
+quote = "The capital was later moved to E ( 鄂 ), then Jiang ( 絳 ), then Xintian (新田)."
+retrieved = "2026-10-20"
+needs_verification = false
+
+[[remove]]
+civilization = "Kingdom of Sardinia"
+field = "capitals"
+value = "Metropolitan City of Cagliari"
+reason = "Cagliari was the legal capital of the island, but the Metropolitan City of Cagliari is a 2016 administrative body, not a capital of the kingdom; the city itself replaces it.; cited in Wikipedia, footnote 6"
+source = "https://en.wikipedia.org/wiki/Metropolitan_City_of_Cagliari"
+quote = "It was established by law in 2016 and replaced the province of Cagliari"
+retrieved = "2026-10-20"
+needs_verification = false
+
+[[remove]]
+civilization = "Kingdom of Wessex"
+field = "before"
+value = "Kingdom of Sussex"
+reason = "Sussex was a neighbouring kingdom that Wessex annexed, not the state Wessex grew out of; Wessex rose after the Roman withdrawal from Britain.; cited in Wikipedia, footnote 3"
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Sussex"
+quote = "Sussex regained its independence but was annexed by Wessex around 827 and was fully absorbed into the kingdom of Wessex in 860."
+retrieved = "2026-10-20"
+needs_verification = false
+
+[[remove]]
+civilization = "Margraviate of Brandenburg"
+field = "key_figures"
+value = "Frederick William III"
+reason = "He was King of Prussia (1797-1840), listed only because the infobox names him the last Margrave; the margraviate had long been part of the Kingdom of Prussia.; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://en.wikipedia.org/wiki/Margraviate_of_Brandenburg"
+quote = "Frederick William's son, Frederick III, was allowed to elevate Prussia to the status of a kingdom."
+retrieved = "2026-10-20"
+needs_verification = true
+
+[[remove]]
+civilization = "Pala Empire"
+field = "capitals"
+value = "Murshidabad"
+reason = "Murshidabad was founded in the 18th century as the Nawabs of Bengal capital; the Pala capitals were Pataliputra, Gauda, Munger and Ramavati."
+source = ""
+quote = ""
+retrieved = "2026-10-20"
+needs_verification = true
+
+[[remove]]
+civilization = "Republic of Finland"
+field = "before"
+value = "Kingdom of Finland"
+reason = "The Kingdom of Finland (1918) was a short-lived monarchy that was never realised; the state came out of the Grand Duchy of Finland.; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://en.wikipedia.org/wiki/Finland"
+quote = "Finland's position as a Grand Duchy under the rule of the Russian Empire was questioned."
+retrieved = "2026-10-20"
+needs_verification = true
+
+[[remove]]
+civilization = "Republic of Liberia"
+field = "before"
+value = "Republic of Maryland"
+reason = "The Republic of Maryland was a separate state that Liberia annexed in 1857, so it did not come before it.; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://en.wikipedia.org/wiki/Liberia"
+quote = "and the Republic of Maryland, which Liberia later annexed."
+retrieved = "2026-10-20"
+needs_verification = true
+
+[[remove]]
+civilization = "Rustamid dynasty"
+field = "before"
+value = "Umayyad Caliphate"
+reason = "The Umayyads fell in 750; the Ibadi imamate of Tahert (777) rose against the Abbasid governors of Ifriqiya.; cited in Wikipedia, footnote 22"
+source = "https://en.wikipedia.org/wiki/Rustamid_dynasty"
+quote = "which lasted until the Abbasid Caliphate dispatched Muhammad ibn al-Ash'ath al-Khuza'i to suppress it in 761."
+retrieved = "2026-10-20"
+needs_verification = false
+
+[[remove]]
+civilization = "Viking settlements"
+field = "key_figures"
+value = "Brian Boru"
+reason = "Brian Boru was the Irish High King who fought the Vikings at Clontarf (1014); he was not a Viking leader.; cited in Wikipedia, footnote 39"
+source = "https://en.wikipedia.org/wiki/Brian_Boru"
+quote = "The most common accounts attribute the killing of Brian Boru to the Viking mercenary Brodir of the Isle of Man"
+retrieved = "2026-10-20"
+needs_verification = false
