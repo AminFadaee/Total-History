@@ -150,6 +150,7 @@ def _fill_home(polity: Polity, override: Override, name: str, overridden: set[st
         homes = []
     elif any(item["id"] not in overridden for item in homes):
         raise ValueError(f"{polity.name}: the {override.field} side already has a home, so {name} cannot take it")
+    side[:] = [item for item in side if item["home"] or item["id"] != override.value_id and item["region"] != override.region]
     side.insert(len(homes), {"id": override.value_id, "region": override.region, "name": name, "home": True})
 
 
