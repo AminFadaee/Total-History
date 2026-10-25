@@ -2,7 +2,6 @@
 
 successor_ends_first = [
   ["Chaldea", "Neo-Babylonian Empire"],
-  ["Denmark-Norway", "Kingdom of Denmark"],
   ["Etruscans", "Roman Republic"],
   ["Kingdom of Numidia", "Roman Republic"],
   ["Mali Empire", "Songhai Empire"],
@@ -14,7 +13,6 @@ predecessor_begins_later = [
 ]
 
 succession_gap = [
-  ["Burgundians", "Duchy of Burgundy"],
   ["Greco-Bactrian Kingdom", "Kushan Empire"],
   ["Kingdom of Kush", "Alodia"],
   ["Teotihuacan", "Toltec"],
@@ -29,6 +27,7 @@ before_and_after = [
   ["Sur Empire", "Mughal Empire"],
   ["Swedish Empire", "Kingdom of Sweden"],
   ["Tulunids", "Abbasid Caliphate"],
+  ["United Kingdoms of Sweden and Norway", "Kingdom of Sweden"],
   ["Xin Dynasty", "Han Dynasty"],
 ]
 
@@ -38,8 +37,6 @@ key_figure_outside_period = [
 
 map_year_outside_period = [
   ["Hausa Kingdoms"],
-  ["Shirvan"],
-  ["Teotihuacan"],
 ]
 
 capital_founded_after_end = [
@@ -57,6 +54,7 @@ what_line_spacing = [
 ]
 
 namesake_outside_deck = [
+  ["Grand Duchy of Lithuania", "Kingdom of Lithuania"],
   ["Kingdom of Bohemia", "Duchy of Bohemia"],
   ["Kingdom of Croatia", "Duchy of Croatia"],
   ["Kingdom of Egypt", "Sultanate of Egypt"],
@@ -66,7 +64,6 @@ namesake_outside_deck = [
 ]
 
 what_line_outside_period = [
-  ["Emirate of Córdoba"],
   ["Indus Valley Civilization"],
   ["Kingdom of Northumbria"],
   ["Silla"],

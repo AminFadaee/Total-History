@@ -75,6 +75,7 @@ def gaps(civilization) -> list[str]:
         "before": any(item["home"] for item in civilization["before"]),
         "after": any(item["home"] for item in civilization["after"]),
         "map_year": bool(civilization["map_year"]),
+        "map": bool(civilization["map"]),
         "modern_countries": bool(civilization["modern_countries"]),
         "summary": bool(civilization["summary"]),
     }
@@ -114,6 +115,6 @@ def test_apply_every_field_and_action():
     assert [c["name"] for c in polity.capitals] == ["Newtown"] and polity.capitals[0]["location"] == [1.0, 2.0]
     assert [f["name"] for f in polity.key_figures] == ["Ruler B", "Ruler A"]
     assert polity.before == [{"id": "Q2", "region": "Testregion", "name": "Oldland", "home": True}]
-    assert polity.after == [] and polity.checks["not_applicable"] == {"after": "still exists"}
+    assert polity.after == [] and polity.checks["not_applicable"] == {"after": "still exists", "map": "not drawn in Cliopatria"}
     assert polity.map_year == 1100 and polity.modern_countries == ["Testia", "Otheria"]
     assert polity.summary == "A test state."

@@ -79,3 +79,10 @@ value = "A test state."
 source = "https://example.org/summary"
 quote = "A test state"
 retrieved = 2026-10-20
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "map"
+action = "none"
+note = "not drawn in Cliopatria"

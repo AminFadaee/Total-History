@@ -182,7 +182,7 @@ succession_present = [
   { civilization = "Goguryeo", side = "before", other = "Buyeo" },
   { civilization = "Phoenicia", side = "after", other = "Achaemenid Empire", open = true },
   { civilization = "Classical Athens", side = "after", other = "Macedonia" },
-  { civilization = "Denmark-Norway", side = "after", other = "Kingdom of Denmark" },
+  { civilization = "Denmark-Norway", side = "after", other = "Denmark" },
   { civilization = "Commonwealth of England", side = "before", other = "Kingdom of England" },
   { civilization = "Commonwealth of England", side = "after", other = "Kingdom of England" },
   { civilization = "Akkadian Empire", side = "before", other = "Sumerian City-States" },
