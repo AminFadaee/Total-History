@@ -499,11 +499,11 @@ action = "add"
 value = "Sultanate of Mogadishu"
 value_id = "Q861784"
 region = "Somalia"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Ajuran_Sultanate"
+quote = "It also utilized the Mogadishan currency originally minted by the Sultanate of Mogadishu, which later became incorporated into the Ajuran Empire."
 retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox lists the Mogadishu Sultanate as predecessor; Wikidata item to check"
+needs_verification = false
+note = "Stanley, Bruce (2007). \"Mogadishu\". In Dumper, Michael; Stanley, Bruce E. (eds.). Cities of the Middle East and North Africa: A Historical Encyclopedia. ABC-CLIO. p. 253. ISBN 978-1-57607-919-5."
 
 [[override]]
 civilization = "Ajuran Sultanate"
@@ -939,11 +939,11 @@ civilization_id = "Q17161"
 field = "period"
 action = "set"
 value = { start = -900, circa = true }
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Etruscan_civilization"
+quote = "The earliest evidence of a culture that is identifiably Etruscan dates from about 900 BC."
 retrieved = 2026-10-20
-needs_verification = true
-note = "Villanovan phase c. 900 BC"
+needs_verification = false
+note = ".mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/common"
 
 [[override]]
 civilization = "Etruscans"
@@ -1166,11 +1166,11 @@ action = "add"
 value = "Republic of Austria"
 value_id = "Q40"
 region = "Austria"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Austria"
+quote = "At least since the 1970s, a few decades after the fall of the Habsburg monarchy and the transformation of Austria into a federal republic, there has been a continuous decline of Christianity (with the exception of Orthodox churches) and a proliferation of other religions, a process which has been particularly pronounced in Vienna, with its large foreign and immigrant populations."
 retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox lists German-Austria, Hungary, Czechoslovakia, Yugoslavia"
+needs_verification = false
+note = "Potančoková, Michaela; Berghammer, Caroline (2012). \"Urban Faith: Religious Change in Vienna and Austria, 1986–2013\" (PDF). In Hödl, Hans Gerald; Pokorny, Lukas (eds.). Religion in Austria. Vol. 2. Praesens Verlag. pp. 219, 230. ISBN 978-3-7069-0763-7. Archived from the original (PDF) on 7 January 2"
 
 [[override]]
 civilization = "Hittites"
@@ -1554,10 +1554,10 @@ action = "add"
 value = "County of Aragon"
 value_id = "Q1235737"
 region = "Spain"
-source = ""
-quote = ""
+source = "https://web.archive.org/web/20260926193325id_/https://www.britannica.com/place/Kingdom-of-Aragon"
+quote = "This principality had its origins in 1035, when Sancho III (the Great) of Navarre left to his third son, Ramiro I, the small Pyrenean county of Aragon and established it as an independent kingdom."
 retrieved = 2026-10-20
-needs_verification = true
+needs_verification = false
 note = "Wikipedia infobox predecessor"
 
 [[override]]
@@ -1594,11 +1594,11 @@ action = "add"
 value = "East Francia"
 value_id = "Q153080"
 region = "Germany"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/East_Francia"
+quote = "The east–west division with the Treaty of Verdun, enforced by the Germanic-Latin language split, \"gradually hardened into the establishment of separate kingdoms\", with East Francia becoming (or being) the Kingdom of Germany, and West Francia becoming the Kingdom of France."
 retrieved = 2026-10-20
-needs_verification = true
-note = "Wikidata: East Francia is the predecessor of the Kingdom of Germany"
+needs_verification = false
+note = "Goldberg 2006, 6: \"Louis [the German's] kingship laid the foundations for an east Frankish kingdom that, in the eleventh century, was transformed into the medieval Kingdom of Germany\". || Reuter 2006, p. 270."
 
 [[override]]
 civilization = "Kingdom of Germany"
@@ -2096,11 +2096,11 @@ field = "key_figures"
 action = "add"
 value = ["Nebuchadnezzar II"]
 value_id = ["Q12591"]
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Babylonia"
+quote = "Nabopolassar was followed by his son Nebuchadnezzar II (605–562 BC), whose reign of 43 years made Babylon once more the ruler of much of the civilized world, taking over portions of the former Assyrian Empire, with the eastern and northeastern portion being taken by the Medes and the far north by the Scythians."
 retrieved = 2026-10-20
-needs_verification = true
-note = "appended after Nabopolassar"
+needs_verification = false
+note = "Sayce 1911, p. 105."
 
 [[override]]
 civilization = "Caucasian Albania"
@@ -2410,11 +2410,11 @@ civilization = "Maya civilization"
 civilization_id = "Q28567"
 field = "before"
 action = "none"
-source = "https://www.worldhistory.org/Maya_Civilization/"
-quote = "The Archaic Period: 7000-2000 BCE"
+source = "https://en.wikipedia.org/wiki/Maya_civilization"
+quote = "These were preceded by the Archaic Period, during which the first settled villages and early developments in agriculture emerged."
 retrieved = 2026-10-20
-needs_verification = true
-note = "no state preceded it in the Maya lands; it grew from Archaic farming villages"
+needs_verification = false
+note = "Sharer and Traxler 2006, p. 98. Estrada-Belli 2011, p. 38."
 
 [[override]]
 civilization = "Middle Kingdom of Egypt"
@@ -2527,10 +2527,10 @@ field = "period"
 action = "set"
 value = { start = -500, end = 1521, circa = true }
 source = "https://en.wikipedia.org/wiki/Zapotec_civilization"
-quote = ""
+quote = "On November 25, 1521, Francisco de Orozco arrived in Valley of Oaxaca, with both the Zapotecs and Mixtecs in the area soon submitting to the rule of Hernan Cortes."
 retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox: about 700 BC to the Spanish conquest in AD 1521; the earlier end 900 contradicted New Spain as the state after"
+needs_verification = false
+note = "Schmal, John P. \"The Mixtecs And Zapotecs: Two Enduring Cultures of Oaxaca\". Houston Institute for Culture. Retrieved October 2, 2024."
 
 [[override]]
 civilization = "Zapotec Civilization"
@@ -2797,11 +2797,11 @@ civilization_id = "Q8959"
 field = "period"
 action = "set"
 value = { end = 1635 }
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Northern_Yuan"
+quote = "The regime that existed between 1368 and 1635 is known by various names, including the Northern Yuan (dynasty)."
 retrieved = 2026-10-20
-needs_verification = true
-note = "conquered by the Jurchen-led Later Jin/Qing in 1635 (surrender of Ejei Khan)"
+needs_verification = false
+note = "Jae-un Kang, Suzanne Lee, Sook Pyo Lee, \"The Land of Scholars: Two Thousand Years of Korean Confucianism\""
 
 [[override]]
 civilization = "Northern Yuan"
@@ -2811,11 +2811,11 @@ action = "add"
 value = "Qing Dynasty"
 value_id = "Q8733"
 region = "Mongolia"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Northern_Yuan"
+quote = "His son, Ejei Khan, surrendered to the Qing dynasty and was said to give the Imperial Seal of the Mongols to Qing emperor Hong Taiji the next year (February 1635), ending the Kublaid descent ruled Northern Yuan."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Mongol clans submitted to Hong Taiji, Qing, in 1635-36"
+needs_verification = false
+note = "Ann Heirman, Stephan Peter Bumbacher. The spread of Buddhism, p. 395."
 
 [[override]]
 civilization = "Odrysian Kingdom"
@@ -3108,11 +3108,11 @@ field = "capital"
 action = "add"
 value = "Rostov"
 value_id = "Q193342"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Rostov_Veliky"
+quote = "From the late 11th to the mid-12th century, Rostov was the capital of the Rostov-Suzdal principality, and it subsequently became part of the Grand Principality of Vladimir, a major Russian principality."
 retrieved = 2026-10-20
-needs_verification = true
-note = "first capital before Suzdal and Vladimir"
+needs_verification = false
+note = "Leontyev & Pavlinov 2015, p. 689."
 
 [[override]]
 civilization = "Principality of Wallachia"
@@ -3228,10 +3228,10 @@ action = "add"
 value = "Jalayirid Sultanate"
 value_id = "Q866716"
 region = "Turkey"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Jalayirid_Sultanate"
+quote = "The Jalayirids were finally eliminated by the Qara Qoyunlu in 1432."
 retrieved = 2026-10-20
-needs_verification = true
+needs_verification = false
 
 [[override]]
 civilization = "Qara Qoyunlu"
@@ -3399,10 +3399,10 @@ action = "add"
 value = "Sarmatians"
 value_id = "Q162858"
 region = "Ukraine"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Sarmatians"
+quote = "Pressured by the Sakā and Dahā in the east, and taking advantage of the decline of Scythian power, the Sarmatians began crossing the Don river and invaded Scythia; they also migrated south into the North Caucasus."
 retrieved = 2026-10-20
-needs_verification = true
+needs_verification = false
 
 [[override]]
 civilization = "Srivijaya"
@@ -3626,11 +3626,11 @@ civilization_id = "Q26576"
 field = "period"
 action = "set"
 value = { end = 560, circa = true }
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Hephthalites"
+quote = "The Hephthalites continued to occupy the Tarim Basin until the end of their Empire, circa 560 CE."
 retrieved = 2026-10-20
-needs_verification = true
-note = "destroyed by the Sasanians and the Gokturks about 560-567"
+needs_verification = false
+note = "Millward 2007, pp. 30–31. || Millward 2007, p. 375."
 
 [[override]]
 civilization = "White Huns"
@@ -3676,10 +3676,10 @@ action = "add"
 value = "New Spain"
 value_id = "Q170603"
 region = "Mexico"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Zapotec_civilization"
+quote = "After 1526, the Zapotec territory became part of the Marquessate of the Valley of Oaxaca of the Viceroyalty of New Spain, under the control of Hernan Cortéz."
 retrieved = 2026-10-20
-needs_verification = true
+needs_verification = false
 
 [[override]]
 civilization = "Adal Sultanate"
@@ -3856,11 +3856,11 @@ civilization_id = "Q155"
 field = "period"
 action = "set"
 value = { since = 1889 }
-source = "https://en.wikipedia.org/wiki/First_Brazilian_Republic"
-quote = "The Old Republic began with a coup d'état led by Deodoro da Fonseca that deposed Emperor Pedro II in 1889"
+source = "https://en.wikipedia.org/wiki/Brazil"
+quote = "Although there was no desire among the majority of Brazilians to change the country's form of government, on 15 November 1889, in disagreement with the majority of the Imperial Army officers, as well as with rural and financial elites, the monarchy was overthrown by a military coup."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "Smallman, Shawn C. (2002). \"The Overthrow of the Empire\". Fear in Memory in the Brazilian Army and Society. University of North Carolina Press. pp. 16–18. ISBN 978-0-8078-5359-7."
 
 [[override]]
 civilization = "Brazilian Republic"
@@ -3869,11 +3869,11 @@ field = "capital"
 action = "add"
 value = "Brasília"
 value_id = "Q2844"
-source = "https://en.wikipedia.org/wiki/Brasilia"
-quote = "it was founded by President Juscelino Kubitschek on 21 April 1960, to replace Rio de Janeiro as the national capital."
+source = "https://en.wikipedia.org/wiki/Brazil"
+quote = "The economy and industrial sector grew remarkably, but his greatest achievement was the construction of the new capital city of Brasília, inaugurated in 1960."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "Skidmore, pp. 204–205"
 
 [[override]]
 civilization = "Adal Sultanate"
@@ -4247,10 +4247,10 @@ value = "Kingdom of Funan"
 value_id = "Q867782"
 region = "Cambodia"
 source = "https://en.wikipedia.org/wiki/Chenla"
-quote = ""
+quote = "The transition from Funan to Chenla is not clearly understood, but by the 6th century CE, the Kingdom of Chenla was established, with Chinese sources suggesting a people speaking the Khmer language conquered Funan and founded Chenla."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Kingdom of Funan preceded Chenla; its home in Cambodia (Sambor Prei Kuk)"
+needs_verification = false
+note = "Steadman 2016, p. 234."
 
 [[override]]
 civilization = "Cimmerian Bosporus"
@@ -4591,11 +4591,11 @@ action = "set"
 value = "Kingdom of Sardinia"
 value_id = "Q2577303"
 region = "France"
-source = "https://en.wikipedia.org/wiki/Duchy_of_Savoy"
-quote = "Under the 1847 Perfect Fusion , the duchy was merged with the other parts of the Savoyard state into the unitary Kingdom of Sardinia."
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+quote = "From 1720 to 1847, only the island of Sardinia proper was part of the Kingdom of Sardinia, while the other mainland possessions (principally the Duchy of Savoy, Principality of Piedmont, County of Nice, Duchy of Genoa, and others) were held by the House of Savoy in their own right, hence forming a composite monarchy and a personal union, which was formally referred to as the \"States of His Majesty the King of Sardinia\"."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "Stobbs, Christopher (2000). \"Savoyard diplomacy in the eighteenth century (1684-1798)\". In Belton, Adrian; Frigo, Daniela (eds.). Politics and Diplomacy in Early Modern Italy: The Structure of Diplomatic Practice, 1450–1800. Cambridge Studies in Italian History and Culture. Cambridge: Cambridge Univ"
 
 [[override]]
 civilization = "Duchy of Savoy"
@@ -4890,11 +4890,11 @@ action = "set"
 value = "Federal Republic of Central America"
 value_id = "Q190025"
 region = "Guatemala"
-source = "https://en.wikipedia.org/wiki/Guatemala"
-quote = "From 1823 to 1841, it was part of the Federal Republic of Central America ."
+source = "https://en.wikipedia.org/wiki/Federal_Republic_of_Central_America"
+quote = "On 17 April, Guatemalan President Rafael Carrera issued a decree dissolving the Federal Republic of Central America; the Federal Congress accepted his decree on 14 July."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "Marure 1895, p. 114."
 
 [[override]]
 civilization = "Guatemala"
@@ -5014,10 +5014,10 @@ value = "Mughal Empire"
 value_id = "Q33296"
 region = "India"
 source = "https://en.wikipedia.org/wiki/Hyderabad_State"
-quote = "In 1724, following the Battle of Shakar Kheda , he resumed rule from the Mughal provincial capital of Aurangabad , under the title of Asaf Jah (granted by Mughal Emperor Muhammad Shah )."
+quote = "By the end of his rule, the Nizam had become independent from the Mughals, and had founded the Asaf Jahi dynasty."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "\"Hyderabad\". Encyclopædia Britannica. Britannica. Archived from the original on 10 April 2020. Retrieved 8 October 2016. || Heitzman, James (31 March 2008), \"Emporiums, empire, and the early colonial presence\", The City in South Asia, Routledge, p. 102, doi:10.4324/9780203483282-9, ISBN 9780203483282, archived from the original on 7 February 2024, retrieved 30 December 2021"
 
 [[override]]
 civilization = "Hyksos"
@@ -5099,11 +5099,11 @@ action = "set"
 value = "Sultanate of Shewa"
 value_id = "Q7636800"
 region = "Djibouti"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Sultanate_of_Ifat"
+quote = "Ifat first emerged when Umar ibn Dunya-huz, later to be known as Sultan Umar Walasma, carved out his own kingdom and conquered the Sultanate of Shewa located in northern Hararghe."
 retrieved = 2026-10-20
-needs_verification = true
-note = "no precise source found; from general knowledge"
+needs_verification = false
+note = "Østebø, Terje (30 September 2011). Localising Salafism: Religious Change Among Oromo Muslims in Bale, Ethiopia. BRILL. p. 56. ISBN 978-9004184787."
 
 [[override]]
 civilization = "Italian Africa"
@@ -5187,11 +5187,11 @@ action = "set"
 value = "Seleucid Empire"
 value_id = "Q93180"
 region = "Israel"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Judea"
+quote = "Judea remained under Persian rule until the conquest of Alexander the Great in 332 BCE, eventually falling under the rule of the Hellenistic Seleucid Empire until the revolt of Judas Maccabeus resulted in the Hasmonean dynasty of kings who ruled in Judea for over a century."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Hasmoneans broke away from Seleucid rule"
+needs_verification = false
+note = "\"Palestine – The Hasmonean priest-princes\". www.britannica.com. Retrieved 26 June 2022."
 
 [[override]]
 civilization = "Judea"
@@ -5201,11 +5201,11 @@ action = "set"
 value = "Herodian kingdom"
 value_id = "Q16000109"
 region = "Israel"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Herodian_kingdom"
+quote = "The Herodian kingdom of Judea was a client state of the Roman Republic, later Roman Empire, ruled from 37 to 4 BCE by Herod the Great, who was appointed \"King of the Jews\" by the Roman Senate."
 retrieved = 2026-10-20
-needs_verification = true
-note = "Herod took Judea from the last Hasmonean in 37 BC"
+needs_verification = false
+note = "Jewish War 1 Archived 26 October 2019 at the Wayback Machine.14.4: Mark Antony \" ...then resolved to get him made king of the Jews ... told them that it was for their advantage in the Parthian war that Herod should be king; so they all gave their votes for it. And when the senate was separated, Anto"
 
 [[override]]
 civilization = "Judea"
@@ -5337,11 +5337,11 @@ action = "set"
 value = "Sultanate of Egypt"
 value_id = "Q370173"
 region = "Egypt"
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Egypt"
+quote = "With nationalist sentiment rising, Britain formally recognised Egyptian independence in February 1922, and Hussein Kamel's successor, Sultan Ahmed Fuad I, substituted the title of King for Sultan, becoming King Fuad I of Egypt and Sudan."
 retrieved = 2026-10-20
-needs_verification = true
-note = "no precise source found; from general knowledge"
+needs_verification = false
+note = "Michael T. Thornhill, \"Informal Empire, Independent Egypt and the Accession of King Farouk.\" Journal of Imperial and Commonwealth History 38#2 (2010): 279-302."
 
 [[override]]
 civilization = "Kingdom of Essex"
@@ -5517,11 +5517,11 @@ field = "key_figures"
 action = "set"
 value = ["Viśa' Saṃbhava"]
 value_id = ["Q11097833"]
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Vi%C5%9Ba%27_Sa%E1%B9%83bhava"
+quote = "Viśa' Saṃbhava (Khotanese: Viśa' Saṃbhava; in traditional Chinese: 尉遲僧烏波; simplified Chinese: 尉迟僧乌波; pinyin: Yùchí Sēngwūbō; Wade–Giles: Yü-ch῾ih Sêng-wu-p῾o; Chinese name: Li Shengtian, traditional Chinese: 李聖天; simplified Chinese: 李圣天; pinyin: Lǐ Shèngtiān; Wade–Giles: Li Shêng-t῾ien; died 962, 966 or 967) was the king of Khotan from 912 to 962, 966 or 967."
 retrieved = 2026-10-20
-needs_verification = true
-note = "an early Khotanese king (Li Shengtian in Chinese sources); check the ruler list in a history of Khotan"
+needs_verification = false
+note = ".mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/common || Mair, Victor; Skjærvø, Prods Oktor (15 December 1991). \"CHINESE TURKESTAN ii. In Pre-Islamic Times\". Encyclopædia Iranica. New York: Encyclopædia Iranica Foundation, Brill. Retrieved 24 March 2022."
 
 [[override]]
 civilization = "Kingdom of Khotan"
@@ -5554,11 +5554,11 @@ field = "key_figures"
 action = "set"
 value = ["Tshibinda Ilunga"]
 value_id = ["Q7849616"]
-source = ""
-quote = ""
+source = "https://en.wikipedia.org/wiki/Tshibinda_Ilunga"
+quote = "Tshibinda Ilunga introduces the more advanced Luba hunting technologies and ideas of government this allowed the Lunda to expand into a great kingdom."
 retrieved = 2026-10-20
-needs_verification = true
-note = "Chibinda Ilunga, the hunter-prince of Lunda tradition who founded the royal line; check the list of Mwata Yamvo"
+needs_verification = false
+note = ".mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/common"
 
 [[override]]
 civilization = "Kingdom of Lunda"
@@ -6170,11 +6170,11 @@ action = "add"
 value = "Duchy of Savoy"
 value_id = "Q426025"
 region = "Italy"
-source = "https://en.wikipedia.org/wiki/Duchy_of_Savoy"
-quote = "By the Treaty of London, Victor Amadeus II reluctantly exchanged Sicily for Sardinia in 1720."
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_%281720%E2%80%931861%29"
+quote = "From 1720 to 1847, only the island of Sardinia proper was part of the Kingdom of Sardinia, while the other mainland possessions (principally the Duchy of Savoy, Principality of Piedmont, County of Nice, Duchy of Genoa, and others) were held by the House of Savoy in their own right, hence forming a composite monarchy and a personal union, which was formally referred to as the \"States of His Majesty the King of Sardinia\"."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "Stobbs, Christopher (2000). \"Savoyard diplomacy in the eighteenth century (1684-1798)\". In Belton, Adrian; Frigo, Daniela (eds.). Politics and Diplomacy in Early Modern Italy: The Structure of Diplomatic Practice, 1450–1800. Cambridge Studies in Italian History and Culture. Cambridge: Cambridge Univ"
 
 [[override]]
 civilization = "Kingdom of Saxony"
@@ -6268,10 +6268,10 @@ field = "period"
 action = "set"
 value = { start = 1816, end = 1861 }
 source = "https://en.wikipedia.org/wiki/Kingdom_of_the_Two_Sicilies"
-quote = "Founded 8 December 1816"
+quote = "The Kingdom of the Two Sicilies (Italian: Regno delle Due Sicilie) was a kingdom in Southern Italy from 1816 to 1861 under the control of the House of Bourbon-Two Sicilies, a cadet branch of the Bourbons."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the kingdom was formed by the merger of Naples and Sicily on 8 December 1816 (Wikipedia infobox, uncited); data had 1815, the Congress of Vienna year; the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "De Sangro, Michele (2003). I Borboni nel Regno delle Due Sicilie (in Italian). Lecce: Edizioni Caponi."
 
 [[override]]
 civilization = "Kingdom of Wessex"
@@ -6734,11 +6734,11 @@ action = "add"
 value = "Yarkent Khanate"
 value_id = "Q1188459"
 region = "China"
-source = "https://en.wikipedia.org/wiki/Moghulistan"
-quote = "The khanate was split into the Turpan Khanate based on the city of Turpan, and the Yarkent Khanate based on the city of Yarkent, until the Dzungar Khanate conquered the region by the early 18th century."
+source = "https://en.wikipedia.org/wiki/Yarkent_Khanate"
+quote = "It was founded by Sultan Said Khan in 1514 after he took Kashgar, Yarkent and Hotan from the Dughlat ruler Mirza Abu Bakr Dughlat, establishing a new state out of the western territories of Moghulistan, the eastern continuation of the Chagatai Khanate."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "Jackson, Peter (15 December 1991). \"Chaghatayid Dynasty\". Encyclopædia Iranica. Vol. V. pp. 343–346. Retrieved 30 August 2026."
 
 [[override]]
 civilization = "Mongolian People's Republic"
@@ -6782,10 +6782,10 @@ field = "period"
 action = "set"
 value = { start = -312, end = 106 }
 source = "https://en.wikipedia.org/wiki/Nabataeans"
-quote = "The first mention of the Nabataeans dates from 312/311 BC"
+quote = "The kingdom was a bulwark between Rome and the wild hordes of the desert except in the time of Trajan, who reduced Petra and converted the Nabataean client state into the Roman province of Arabia Petraea in 105."
 retrieved = 2026-10-20
-needs_verification = true
-note = "312 BC is the first mention (a people, not yet a kingdom); 106 AD is the Roman annexation as Arabia Petraea (Wikipedia: Trajan converted the client state into the province in 105/106); the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "One or more of the preceding sentences incorporates text from a publication now in the public domain: Smith, William Robertson (1911). \"Nabataeans\". In Chisholm, Hugh (ed.). Encyclopædia Britannica. Vol. 19 (11th ed.). Cambridge University Press. pp. 146–147."
 
 [[override]]
 civilization = "Nabataeans"
@@ -7107,10 +7107,10 @@ field = "period"
 action = "set"
 value = { since = 1910 }
 source = "https://en.wikipedia.org/wiki/Portugal"
-quote = "Republic 5 October 1910"
+quote = "In 1910, the monarchy was replaced with a republic."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Portuguese Republic was proclaimed on 5 October 1910 and still exists (First Republic 1910-1926, the card lists its first presidents); the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "Corrêa da Silva (2019), p. 84. || Pires (2017), pp. 331–354."
 
 [[override]]
 civilization = "Portuguese Republic"
@@ -7833,10 +7833,10 @@ field = "period"
 action = "set"
 value = { start = 950, end = 1150, circa = true }
 source = "https://en.wikipedia.org/wiki/Toltec"
-quote = "reaching prominence from 950 to 1150 AD"
+quote = "The Toltec culture (/ˈtɒltɛk/) was a pre-Columbian Mesoamerican culture that ruled a state centered in Tula, Hidalgo, Mexico, during the Epiclassic and the early Post-Classic period of Mesoamerican chronology, reaching prominence from 950 to 1150 AD."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the dates Wikipedia gives for the Toltec state at its prominence (the lead of the article); the earlier 650 and later 1170 were rough edges of the culture; cited in Wikipedia, footnote 1"
+needs_verification = false
+note = ".mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/common"
 
 [[override]]
 civilization = "Toltec"
@@ -7910,11 +7910,11 @@ field = "key_figures"
 action = "set"
 value = ["Alaksandu"]
 value_id = ["Q575219"]
-source = "https://en.wikipedia.org/wiki/Troy"
-quote = "The Alaksandu Treaty required King Alaksandu to read its text publicly three times a year, while the Milawata letter mentions that the deposed King Walmu was still in possession of wooden investiture tablets."
+source = "https://en.wikipedia.org/wiki/Alaksandu"
+quote = "Alaksandu (Hittite: 𒀀𒆷𒀝𒊭𒀭𒁺𒍑 Alakšanduš), alternatively called Alakasandu or Alaksandus, was a king of Wilusa who sealed a treaty with Hittite king Muwatalli II ca. 1280 BC."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "Hittite treaty between Muwattalli II of Hatti and Alakšandu of Wiluša. Found in Bogazköy. Acquisition date: 1913. British Museum BM 1913,1011.22"
 
 [[override]]
 civilization = "Troy"
@@ -8110,10 +8110,10 @@ field = "period"
 action = "set"
 value = { since = 1776 }
 source = "https://en.wikipedia.org/wiki/United_States"
-quote = "Declaration July 4, 1776"
+quote = "Two days after the Second Continental Congress passed the Lee Resolution to create an independent, sovereign nation, the Declaration was adopted on July 4, 1776."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Declaration of Independence is the usual start; the treaty recognising it came in 1783; cited in Wikipedia, footnote 13"
+needs_verification = false
+note = "Young, Nash & Raphael 2011, pp. 4–7."
 
 [[override]]
 civilization = "United States of America"
@@ -8146,11 +8146,11 @@ civilization_id = "Q12567"
 field = "period"
 action = "set"
 value = { start = 793, end = 1066 }
-source = "https://en.wikipedia.org/wiki/Viking_Age"
-quote = "The beginning of the Viking Age in the British Isles is often set at 793."
+source = "https://en.wikipedia.org/wiki/Vikings"
+quote = "The Viking Age in Scandinavian history is taken to have been the period from the earliest recorded raids by Norsemen in 793 until the Norman conquest of England in 1066."
 retrieved = 2026-10-20
-needs_verification = true
-note = "793 (Lindisfarne) to 1066 (Stamford Bridge); the end is the usual date of the Viking Age; cited in Wikipedia, footnote 9"
+needs_verification = false
+note = "Peter Sawyer, The Viking Expansion, The Cambridge History of Scandinavia, Issue 1 Archived 22 October 2015 at the Wayback Machine (Knut Helle, ed., 2003), p. 105."
 
 [[override]]
 civilization = "Viking settlements"
@@ -8403,11 +8403,11 @@ action = "add"
 value = "Mthethwa Paramountcy"
 value_id = "Q600562"
 region = "South Africa"
-source = "https://en.wikipedia.org/wiki/Zulu_Kingdom"
-quote = "Shaka fought as a warrior under Dingiswayo, leader of the Mthethwa Paramountcy."
+source = "https://en.wikipedia.org/wiki/Mthethwa_Kingdom"
+quote = "Unlike its successor, the Zulu Kingdom, the Mthethwa Paramountcy was a confederation."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+needs_verification = false
+note = "Morris, page 42"
 
 [[override]]
 civilization = "Zululand"
@@ -8626,11 +8626,11 @@ action = "set"
 value = "Golden Horde"
 value_id = "Q79965"
 region = "Ukraine"
-source = "https://en.wikipedia.org/wiki/Crimean_Khanate"
-quote = ""
+source = "https://en.wikipedia.org/wiki/Golden_Horde"
+quote = "The Crimean Khanate considered its state as the heir and legal successor of the Golden Horde and Desht-i Kipchak, called themselves khans of \"the Great Horde, the Great State and the Throne of the Crimea\"."
 retrieved = 2026-10-20
-needs_verification = true
-note = "home Crimea is in Ukraine; the data gave Russia"
+needs_verification = false
+note = "Documents of the Crimean khanate from the collection of Huseyn Feyzkhanov / comp. and the transliteration. R. R. Abdujalilov; scientific. edited by I. Mingaleev. – Simferopol: LLC \"Konstanta\". 2017. 816 p. ISBN 978-5-906952-38-7 || Sagit Faizov. Letters of khans Islam Giray III and Muhammad Giray IV to Tsar Alexey Mikhailovich and king Jan Kazimir, 1654–1658: Crimean Tatar diplomacy in polit. post-Pereyaslav context. time. Moscow: Humanitarii, 2003. 166 p. ISBN 5-89221-075-8"
 
 [[override]]
 civilization = "Crimean Khanate"
@@ -8655,10 +8655,10 @@ value = "Kingdom of Pamplona"
 value_id = "Q3446210"
 region = "Spain"
 source = "https://en.wikipedia.org/wiki/Kingdom_of_Navarre"
-quote = ""
+quote = "The Kingdom of Navarre (/nəˈvɑːr/ nə-VAR), originally the Kingdom of Pamplona, was a historical Iberian polity which occupied lands on both sides of the western Pyrenees, with its northernmost areas originally reaching the Atlantic Ocean (Bay of Biscay), between present-day Spain and France."
 retrieved = 2026-10-20
-needs_verification = true
-note = "the Kingdom of Pamplona was renamed Navarre in the twelfth century"
+needs_verification = false
+note = "Middleton, John (2015-06-01). World Monarchies and Dynasties. Routledge. ISBN 978-1-317-45158-7.; NA, NA (2016-04-30). Medieval Queenship. Springer. ISBN 978-1-137-08859-8.; Collins, Roger (2012-05-07). Caliphs and Kings: Spain, 796-1031. John Wiley & Sons. ISBN 978-0-631-18184-2.; Trask 1997. || Encyclopedia Britannica. \"Kingdom of Navarre\". Retrieved 27 October 2022."
 
 [[override]]
 civilization = "Mahajanapadas"
@@ -8721,10 +8721,10 @@ value = "Khmer Empire"
 value_id = "Q201705"
 region = "Cambodia"
 source = "https://en.wikipedia.org/wiki/Chenla"
-quote = ""
+quote = "Land Chenla maintained its integrity under Jayavarman II, who proclaimed the Khmer Empire in 802."
 retrieved = 2026-10-20
-needs_verification = true
-note = "home Sambor Prei Kuk lies in Cambodia"
+needs_verification = false
+note = "\"Chenla - 550-800\". Global Security. Retrieved 13 July 2015."
 
 [[override]]
 civilization = "Emirate of Córdoba"
