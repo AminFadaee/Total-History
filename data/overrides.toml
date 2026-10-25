@@ -830,11 +830,11 @@ field = "capital"
 action = "add"
 value = "Zaragoza"
 value_id = "Q10305"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the crown had no fixed capital; Zaragoza and Barcelona were the main seats"
+source = "https://www.britannica.com/place/Zaragoza-Spain"
+quote = "Captured by King Alfonso I of Aragon in 1118, Zaragoza enjoyed prosperity as the capital of Aragon for three and a half centuries."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Crown of Aragon"
@@ -980,11 +980,11 @@ action = "set"
 value = "French Union"
 value_id = "Q848478"
 region = "France"
-source = "https://en.wikipedia.org/wiki/French_colonial_empire"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox lists the French Union as the successor; check"
+source = "https://www.britannica.com/topic/French-Union"
+quote = "It replaced the French colonial empire with a semifederal entity that absorbed the colonies"
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "French First Republic"
@@ -1242,11 +1242,11 @@ action = "set"
 value = "Gepids"
 value_id = "Q201706"
 region = "Hungary"
-source = "https://en.wikipedia.org/wiki/Hunnic_Empire"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox lists the Gepids as a successor; the Gepids held the Hungarian plain and Transylvania, not Russia"
+source = "https://www.britannica.com/topic/Gepidae"
+quote = "In 454 they and other Germanic tribes decisively defeated the Huns on the unlocated Nedao (Nedad) River in Pannonia, a province south and west of the Danube."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Hunnic Empire"
@@ -1381,10 +1381,10 @@ action = "add"
 value = "Nanda Empire"
 value_id = "Q949268"
 region = "India"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/place/Magadha"
+quote = "The supremacy of Magadha continued under the Nanda (4th century bce) and Mauryan (4th–2nd century bce) dynasties; under the Mauryan dynasty the empire included almost the entire subcontinent of India."
+retrieved = 2026-10-25
+needs_verification = false
 
 [[override]]
 civilization = "Janapada of Magadha"
@@ -1475,11 +1475,11 @@ action = "set"
 value = "Post-Angkor Cambodia"
 value_id = "Q4919413"
 region = "Cambodia"
-source = "https://en.wikipedia.org/wiki/Post-Angkor_period"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Khmer state continued in Cambodia after the fall of Angkor in 1431 (Longvek, Oudong); Ayutthaya only sacked Angkor"
+source = "https://www.britannica.com/place/Khmer-empire"
+quote = "The Khmer capital moved to Lovek in 1431 after the Tai army sacked Angkor."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Kievan Rus'"
@@ -1845,11 +1845,11 @@ action = "set"
 value = "Denmark"
 value_id = "Q35"
 region = "Denmark"
-source = "https://en.wikipedia.org/wiki/Denmark%E2%80%93Norway"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the union ended in 1814 with the Treaty of Kiel; Denmark continued; the medieval Kingdom of Denmark in the deck ended in 1397"
+source = "https://www.britannica.com/topic/Treaty-of-Kiel"
+quote = "By the treaty, Denmark ceded Norway to Sweden, thus ending the union initiated in 1380 and further reducing Denmark’s status as a Baltic and European power."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Göktürk Khaganate"
@@ -2854,10 +2854,10 @@ civilization = "Olmec Civilization"
 civilization_id = "Q135364"
 field = "capital"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/topic/Olmec"
+quote = "San Lorenzo, La Venta, Laguna de los Cerros, and Tres Zapotes are the main Olmec sites."
+retrieved = 2026-10-25
+needs_verification = false
 note = "ceremonial centres in succession (San Lorenzo, La Venta, Tres Zapotes), not a capital"
 
 [[override]]
@@ -3119,11 +3119,11 @@ action = "add"
 value = "Kingdom of Hungary"
 value_id = "Q171150"
 region = "Romania"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Basarab I won independence from Hungary at Posada in 1330"
+source = "https://www.britannica.com/place/Walachia"
+quote = "defeated the Hungarian king Charles Robert in 1330 and secured Walachian independence."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Prussia"
@@ -3133,11 +3133,11 @@ action = "add"
 value = "Allied-occupied Germany"
 value_id = "Q2415901"
 region = "Germany"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Prussia was abolished by Allied Control Council Law No. 46 in 1947"
+source = "https://www.britannica.com/place/Prussia"
+quote = "On February 25, 1947, the Allied Control Council formally abolished Prussia."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Puebloans - Chaco Regional System"
@@ -3383,10 +3383,10 @@ action = "add"
 value = "Cimmerians"
 value_id = "Q192730"
 region = "Ukraine"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/topic/Scythian"
+quote = "They migrated from Central Asia, leading to conflict with the Cimmerians, whom they eventually displaced to rule an empire stretching from Persia to Egypt."
+retrieved = 2026-10-25
+needs_verification = false
 
 [[override]]
 civilization = "Scythia"
@@ -3455,11 +3455,11 @@ field = "capital"
 action = "add"
 value = "Tenochtitlan"
 value_id = "Q13695"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the city is itself the capital of the Mexica state"
+source = "https://www.britannica.com/place/Tenochtitlan"
+quote = "Tenochtitlán, ancient capital of the Aztec empire."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Tenochtitlan"
@@ -3527,10 +3527,10 @@ action = "add"
 value = "Toltec"
 value_id = "Q187897"
 region = "Mexico"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/topic/Toltec"
+quote = "The Toltecs sacked and burned the great city of Teotihuacán about 900 ce."
+retrieved = 2026-10-25
+needs_verification = false
 
 [[override]]
 civilization = "Teutonic Order"
@@ -3841,11 +3841,11 @@ field = "key_figures"
 action = "add"
 value = ["Louis XVIII", "Charles X of France"]
 value_id = ["Q7750", "Q7758"]
-source = "https://en.wikipedia.org/wiki/Bourbon_Restoration_in_France"
-quote = "Louis XVIII died in September 1824 and was succeeded by his brother, who reigned as Charles X ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/event/Bourbon-Restoration"
+quote = "Louis XVIII was succeeded by his brother, Charles X."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Brazilian Republic"
@@ -3919,11 +3919,11 @@ action = "set"
 value = "First Congolese Republic"
 value_id = "Q618399"
 region = "Democratic Republic of the Congo"
-source = "https://en.wikipedia.org/wiki/Belgian_Congo"
-quote = "In 1960, as the result of a widespread and increasingly radical pro-independence movement , the Belgian Congo achieved independence, becoming the First Congolese Republic under Prime Minister Patrice Lumumba and President Joseph Kasa-Vubu ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/Belgian-Congo"
+quote = "The Congo became an independent republic on June 30, 1960."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Canada"
@@ -4383,11 +4383,11 @@ action = "set"
 value = "United States"
 value_id = "Q30"
 region = "United States"
-source = "https://en.wikipedia.org/wiki/Confederate_States_of_America"
-quote = "After the war, during the Reconstruction era , the Confederate states were readmitted to Congress after each ratified the Thirteenth Amendment to the U.S."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/topic/Confederate-States-of-America"
+quote = "By 1870, all former Confederate states were readmitted to the Union."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Cornwall"
@@ -4488,11 +4488,11 @@ action = "set"
 value = "Kingdom of Allada"
 value_id = "Q640010"
 region = "Benin"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Dahomey"
-quote = "Main articles: History of the Kingdom of Dahomey and Kings of Dahomey The Kingdom of Dahomey was established around 1600 as an offshoot of the royal dynasty of the Kingdom of Allada ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/Dahomey-historical-kingdom-Africa"
+quote = "Originally a dependency of Allada, Dahomey became an independent state in the 17th century under Wegbaja."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Dahomey"
@@ -4947,11 +4947,11 @@ field = "key_figures"
 action = "set"
 value = ["Muhammad Rumfa", "Amina of Zazzau"]
 value_id = ["Q6932682", "Q2843390"]
-source = "https://en.wikipedia.org/wiki/Hausa_Kingdoms"
-quote = "Muhammad Rumfa (1463–99) built mosques and madrassahs."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/Hausa-states"
+quote = "certain non-Muslim practices, as did Muḥammad Rumfa (ruled 1463–99) in the Hausa city-state of Kano"
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Hausa Kingdoms"
@@ -5238,11 +5238,11 @@ action = "set"
 value = "Khorezm People's Soviet Republic"
 value_id = "Q61291"
 region = "Uzbekistan"
-source = "https://en.wikipedia.org/wiki/Khanate_of_Khiva"
-quote = "Following the Russian Revolution of 1917 , Khiva had a revolution too, and in 1920 the Khanate was replaced by the Khorezm People's Soviet Republic ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/khanate-of-Khiva"
+quote = "After the Russian Revolution of 1917, the khanate was abolished and replaced by the Khorezm People’s Soviet"
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Kimek-Kipchak confederation"
@@ -5410,11 +5410,11 @@ action = "set"
 value = "Kingdom of Prussia"
 value_id = "Q27306"
 region = "Germany"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Hanover"
-quote = "As he backed the losing side in the Austro-Prussian War , his kingdom was conquered by Prussia in 1866 and ceased to exist as an independent kingdom, becoming the Prussian Province of Hanover ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "replaces the German Empire: Hanover was annexed by Prussia in 1866, five years before the Empire; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/Hanover-historical-state-Germany"
+quote = "The kingdom was then annexed by Prussia (September 20, 1866) and accorded limited self-government."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Kingdom of Hawaï'i"
@@ -5903,11 +5903,11 @@ field = "key_figures"
 action = "add"
 value = ["Józef Poniatowski"]
 value_id = ["Q154382"]
-source = "https://en.wikipedia.org/wiki/Duchy_of_Warsaw"
-quote = "Józef Poniatowski , the commander-in-chief of the Duchy of Warsaw's army The area of the duchy had already been liberated by a popular uprising that had escalated from anti-conscription rioting in 1806."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/biography/Jozef-Antoni-Poniatowski"
+quote = "Poniatowski retired in 1795, after the Third Partition of Poland, but he was named commander in chief of the Duchy of Warsaw by Napoleon in 1807."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Durrani Empire"
@@ -7294,11 +7294,11 @@ action = "set"
 value = "Grand Duchy of Finland"
 value_id = "Q62633"
 region = "Finland"
-source = "https://en.wikipedia.org/wiki/Finland"
-quote = "As an autonomous Grand Duchy under Russia from 1809 to 1917, Finland retained the Lutheran State Church system, and the Evangelical Lutheran Church of Finland was established."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/Finland"
+quote = "Finland was part of Sweden from the 12th century to 1809 and a Russian grand duchy until 1917, when it declared independence."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Republic of Finland"
@@ -7330,11 +7330,11 @@ civilization_id = "Q1014"
 field = "period"
 action = "set"
 value = { since = 1847 }
-source = "https://en.wikipedia.org/wiki/Liberia"
-quote = "Led by the Americo-Liberians, Liberia declared independence on July 26, 1847, which the U.S. did not recognize until February 5, 1862."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/Liberia"
+quote = "Liberia became an independent republic in 1847."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Republic of Liberia"
@@ -7817,11 +7817,11 @@ field = "capital"
 action = "set"
 value = ["Tula (Mesoamerican site)"]
 value_id = ["Q568672"]
-source = "https://en.wikipedia.org/wiki/Toltec"
-quote = "Désiré Charnay, the first archaeologist to work at Tula, Hidalgo, defended the historicist views based on his impression of the Toltec capital"
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia notes recent scholarship doubts that Tula was the Toltec capital of the Aztec accounts; it remains the Toltec centre; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/Tula-ancient-city-Mexico"
+quote = "Tula, ancient capital of the Toltecs in Mexico, it was primarily important from approximately 850 to 1150 ce."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Toltec"
@@ -7882,11 +7882,11 @@ field = "capital"
 action = "add"
 value = "Troy"
 value_id = "Q22647"
-source = "https://en.wikipedia.org/wiki/Troy"
-quote = "Troy or Ilion was an ancient city located in present-day Çanakkale, Turkey."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the city was its own capital; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/Troy-ancient-city-Turkey"
+quote = "An expedition by the University of Cincinnati concluded that Troy VIIa was likely King Priam’s capital, as described in Homer’s Iliad."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Troy"
@@ -8637,11 +8637,11 @@ action = "set"
 value = "Russian Empire"
 value_id = "Q34266"
 region = "Ukraine"
-source = "https://en.wikipedia.org/wiki/Crimean_Khanate"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Russia annexed the khanate in 1783; the home Crimea is in Ukraine"
+source = "https://www.britannica.com/place/Crimea"
+quote = "Annexed by Russia in 1783, Crimea became an autonomous republic within the Soviet Union."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Kingdom of Navarre"
