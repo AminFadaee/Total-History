@@ -1769,8 +1769,8 @@
     {
       "civilization": "Spanish Empire",
       "field": "after",
-      "action": "set",
-      "value": "Spain"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Macedonia",
@@ -5548,21 +5548,6 @@
     },
     {
       "civilization": "Classical Athens",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -508,
-        "end": -322
-      }
-    },
-    {
-      "civilization": "Classical Athens",
-      "field": "after",
-      "action": "add",
-      "value": "Macedonia"
-    },
-    {
-      "civilization": "Classical Athens",
       "field": "map_year",
       "action": "set",
       "value": -450
@@ -6045,12 +6030,6 @@
       "value": 1500
     },
     {
-      "civilization": "Spanish Empire",
-      "field": "after",
-      "action": "set",
-      "value": "Spain"
-    },
-    {
       "civilization": "Macedonia",
       "field": "before",
       "action": "none",
@@ -6248,18 +6227,6 @@
         "Andrea Doria",
         "Giacomo Maria Brignole"
       ]
-    },
-    {
-      "civilization": "Roman Empire",
-      "field": "capital",
-      "action": "add",
-      "value": "Constantinople"
-    },
-    {
-      "civilization": "Roman Kingdom",
-      "field": "before",
-      "action": "none",
-      "value": ""
     },
     {
       "civilization": "Rouran Khaganate",
@@ -7741,12 +7708,6 @@
       "field": "map_year",
       "action": "set",
       "value": 450
-    },
-    {
-      "civilization": "Union of Soviet Socialist Republics",
-      "field": "before",
-      "action": "set",
-      "value": "Russian Socialist Federative Soviet Republic"
     },
     {
       "civilization": "Union of Soviet Socialist Republics",

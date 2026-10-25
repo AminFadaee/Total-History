@@ -54,14 +54,7 @@
       "home": false
     }
   ],
-  "after": [
-    {
-      "id": "Q29",
-      "region": "Spain",
-      "name": "Kingdom of Spain",
-      "home": true
-    }
-  ],
+  "after": [],
   "key_figures": [
     {
       "id": "Q45859",
@@ -131,6 +124,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
+    "not_applicable": {
+      "after": "the empire ended as a phase of Spain's history, not by giving way to another state in Spain"
+    },
     "labelled": [
       "First French Empire",
       "Morocco",
