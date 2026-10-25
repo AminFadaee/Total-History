@@ -179,3 +179,11 @@ source = "https://en.wikipedia.org/wiki/Brian_Boru"
 quote = "The most common accounts attribute the killing of Brian Boru to the Viking mercenary Brodir of the Isle of Man"
 retrieved = 2026-10-20
 needs_verification = false
+
+[[remove]]
+civilization = "Kingdom of Israel (Samaria)"
+field = "capitals"
+value = "Shiloh"
+reason = "Final review: Shiloh was the cult centre of the tribes before the monarchy, not a capital of the northern kingdom, whose seats were Shechem, Tirzah and Samaria; Wikipedia lists it among four capitals without a citation."
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)"
+needs_verification = true

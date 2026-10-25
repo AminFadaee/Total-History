@@ -623,15 +623,15 @@ note = "founder Atropates first"
 civilization = "Avar Khaganate"
 civilization_id = "Q68962"
 field = "after"
-action = "add"
-value = "Francia"
-value_id = "Q146246"
+action = "set"
+value = "First Bulgarian Empire"
+value_id = "Q203817"
 region = "Romania"
-source = "https://en.wikipedia.org/wiki/Avar_Khaganate"
-quote = "the defeat of the Avars by the Franks under Charlemagne in 799 or 802–803"
+source = "https://en.wikipedia.org/wiki/Avars_(Eurasian_nomads)"
+quote = ""
 retrieved = 2026-10-20
-needs_verification = false
-note = "region kept as the existing home edge (Romania); the Avar heartland itself was Pannonia (Hungary)"
+needs_verification = true
+note = "the Bulgars under Krum destroyed the Avar khaganate in the early ninth century; region Romania is the home edge kept in the data; check"
 
 [[override]]
 civilization = "Caliphate of Córdoba"
@@ -962,23 +962,29 @@ note = "Etruscan kings of Rome and the king of Clusium, in time order"
 civilization = "French colonial empire"
 civilization_id = "Q179023"
 field = "before"
-action = "none"
-source = ""
+action = "set"
+value = "Kingdom of France"
+value_id = "Q70972"
+region = "France"
+source = "https://en.wikipedia.org/wiki/French_colonial_empire"
 quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "the empire began under the Kingdom of France; no distinct predecessor state"
+note = "the first French colonies were founded under the Kingdom of France; check"
 
 [[override]]
 civilization = "French colonial empire"
 civilization_id = "Q179023"
 field = "after"
-action = "none"
-source = ""
+action = "set"
+value = "French Union"
+value_id = "Q848478"
+region = "France"
+source = "https://en.wikipedia.org/wiki/French_colonial_empire"
 quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "no successor state; the last colonies became independent or overseas territories of France"
+note = "Wikipedia infobox lists the French Union as the successor; check"
 
 [[override]]
 civilization = "French First Republic"
@@ -1119,12 +1125,13 @@ note = "Sarai lay in the Astrakhan region; the Great Horde remnant was destroyed
 civilization = "Grand Duchy of Lithuania"
 civilization_id = "Q49683"
 field = "before"
-action = "none"
-source = ""
-quote = ""
+action = "set"
+value = "Kingdom of Lithuania"
+value_id = "Q1656775"
+region = "Lithuania"
+source = "https://en.wikipedia.org/wiki/Grand_Duchy_of_Lithuania"
+quote = "succeeding the Kingdom of Lithuania"
 retrieved = 2026-10-20
-needs_verification = true
-note = "state formed from the Lithuanian tribes; check"
 
 [[override]]
 civilization = "Great Moravia"
@@ -1221,7 +1228,7 @@ field = "before"
 action = "add"
 value = "Alans"
 value_id = "Q178054"
-region = "Russia"
+region = "Hungary"
 source = "https://en.wikipedia.org/wiki/Hunnic_Empire"
 quote = "The Huns conquered the Alans, most of the Greuthungi or Eastern Goths, and then most of the Thervingi or Western Goths"
 retrieved = 2026-10-20
@@ -1231,15 +1238,15 @@ needs_verification = false
 civilization = "Hunnic Empire"
 civilization_id = "Q45813"
 field = "after"
-action = "add"
-value = "Kingdom of the Gepids"
+action = "set"
+value = "Gepids"
 value_id = "Q201706"
-region = "Russia"
-source = ""
+region = "Hungary"
+source = "https://en.wikipedia.org/wiki/Hunnic_Empire"
 quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Wikipedia infobox lists the Ostrogothic Kingdom and the Gepids; region is the home region of the Huns as the data keeps one home region per civilization, not where the Gepids lived"
+note = "Wikipedia infobox lists the Gepids as a successor; the Gepids held the Hungarian plain and Transylvania, not Russia"
 
 [[override]]
 civilization = "Hunnic Empire"
@@ -1283,15 +1290,15 @@ note = "Wikipedia infobox: Kingdom of Portugal, Crown of Castile, Crown of Arago
 civilization = "Iberian Union"
 civilization_id = "Q377350"
 field = "after"
-action = "add"
-value = "Kingdom of Portugal"
-value_id = "Q45670"
+action = "set"
+value = "Spanish Empire"
+value_id = "Q80702"
 region = "Spain"
-source = ""
+source = "https://en.wikipedia.org/wiki/Iberian_Union"
 quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "restored by the Portuguese Restoration War, 1640; region is the Union's home (Madrid), as the data keeps one home region per civilization"
+note = "the union ended in 1640 when Portugal rebelled; Madrid, the home, stayed with the Spanish Empire; check"
 
 [[override]]
 civilization = "Iberian Union"
@@ -1383,12 +1390,15 @@ needs_verification = true
 civilization = "Janapada of Magadha"
 civilization_id = "Q234009"
 field = "before"
-action = "none"
-source = ""
+action = "set"
+value = "Kikata Kingdom"
+value_id = "Q6406219"
+region = "India"
+source = "https://en.wikipedia.org/wiki/Magadha"
 quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "earliest janapada of the eastern Ganges plain; check"
+note = "Wikipedia infobox lists the Kikata kingdom as predecessor; check"
 
 [[override]]
 civilization = "Kanem–Bornu Empire"
@@ -1461,14 +1471,15 @@ needs_verification = false
 civilization = "Khmer Empire"
 civilization_id = "Q201705"
 field = "after"
-action = "add"
-value = "Ayutthaya Kingdom"
-value_id = "Q841364"
+action = "set"
+value = "Post-Angkor Cambodia"
+value_id = "Q4919413"
 region = "Cambodia"
-source = "https://en.wikipedia.org/wiki/Khmer_Empire"
-quote = "the end of the Khmer Empire has traditionally been marked with the fall of Angkor to the Siamese Ayutthaya Kingdom in 1431 AD"
+source = "https://en.wikipedia.org/wiki/Post-Angkor_period"
+quote = ""
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
+note = "the Khmer state continued in Cambodia after the fall of Angkor in 1431 (Longvek, Oudong); Ayutthaya only sacked Angkor"
 
 [[override]]
 civilization = "Kievan Rus'"
@@ -1802,15 +1813,15 @@ needs_verification = false
 civilization = "Duchy of Burgundy"
 civilization_id = "Q4712"
 field = "before"
-action = "add"
-value = "Burgundians"
-value_id = "Q150412"
+action = "set"
+value = "West Francia"
+value_id = "Q46370"
 region = "France"
-source = ""
+source = "https://en.wikipedia.org/wiki/West_Francia"
 quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Wikipedia infobox predecessor: Kingdom of the Burgundians"
+note = "the Burgundians were a people of the fifth century, not the state before the duchy; the Wikipedia infobox names the Kingdom of the Burgundians; West Francia (843-987) held Burgundy before the Capetian duchy; check"
 
 [[override]]
 civilization = "Duchy of Burgundy"
@@ -1830,14 +1841,15 @@ note = "the duchy passed to the French crown in 1477"
 civilization = "Denmark-Norway"
 civilization_id = "Q62651"
 field = "after"
-action = "add"
-value = "Kingdom of Denmark"
-value_id = "Q756617"
+action = "set"
+value = "Denmark"
+value_id = "Q35"
 region = "Denmark"
 source = "https://en.wikipedia.org/wiki/Denmark%E2%80%93Norway"
-quote = "The Dano-Norwegian union lasted until 1814, when the Treaty of Kiel decreed that Norway (except for the Faroe Islands, Iceland, and Greenland) be ceded to Sweden."
+quote = ""
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
+note = "the union ended in 1814 with the Treaty of Kiel; Denmark continued; the medieval Kingdom of Denmark in the deck ended in 1397"
 
 [[override]]
 civilization = "Göktürk Khaganate"
@@ -2513,11 +2525,12 @@ civilization = "Zapotec Civilization"
 civilization_id = "Q844750"
 field = "period"
 action = "set"
-value = { start = -500, end = 900, circa = true }
-source = "https://www.worldhistory.org/Zapotec_Civilization/"
-quote = "late Preclassic period to the end of the Classic period (500 BCE - 900 CE)"
+value = { start = -500, end = 1521, circa = true }
+source = "https://en.wikipedia.org/wiki/Zapotec_civilization"
+quote = ""
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
+note = "Wikipedia infobox: about 700 BC to the Spanish conquest in AD 1521; the earlier end 900 contradicted New Spain as the state after"
 
 [[override]]
 civilization = "Zapotec Civilization"
@@ -2706,12 +2719,15 @@ note = "Francisco Franco removed: he ruled after the empire had shrunk to a few 
 civilization = "Spanish Empire"
 civilization_id = "Q80702"
 field = "after"
-action = "none"
-source = ""
+action = "set"
+value = "Spain"
+value_id = "Q29"
+region = "Spain"
+source = "https://en.wikipedia.org/wiki/Spanish_Empire"
 quote = ""
 retrieved = 2026-10-20
-needs_verification = false
-note = "Spain, the home state of the empire, still exists"
+needs_verification = true
+note = "the empire ended in 1976; its home state continues as Spain; check"
 
 [[override]]
 civilization = "Macedonia"
@@ -3488,12 +3504,12 @@ civilization = "Teotihuacan"
 civilization_id = "Q172613"
 field = "period"
 action = "set"
-value = { start = -100, end = 650, circa = true }
-source = ""
-quote = ""
+value = { start = -100, end = 550, circa = true }
+source = "https://en.wikipedia.org/wiki/Teotihuacan"
+quote = "its major monuments were sacked and systematically burned around 550 CE"
 retrieved = 2026-10-20
 needs_verification = true
-note = "Cliopatria draws -50 to 704; the city grew from about 100 BC and declined by about 650 AD"
+note = "the end is sourced; check the start (the city grew from about 100 BC; Wikipedia says religious center from the first century CE)"
 
 [[override]]
 civilization = "Teotihuacan"
@@ -4226,12 +4242,15 @@ note = "old year -1000 precedes the tribes holding power in Babylonia; 700 BC is
 civilization = "Chenla"
 civilization_id = "Q1057118"
 field = "before"
-action = "none"
-source = ""
+action = "set"
+value = "Kingdom of Funan"
+value_id = "Q867782"
+region = "Cambodia"
+source = "https://en.wikipedia.org/wiki/Chenla"
 quote = ""
 retrieved = 2026-10-20
-needs_verification = false
-note = "Funan, the predecessor, is already listed under Cambodia; the home site Vat Phou in Laos has no earlier state"
+needs_verification = true
+note = "the Kingdom of Funan preceded Chenla; its home in Cambodia (Sambor Prei Kuk)"
 
 [[override]]
 civilization = "Cimmerian Bosporus"
@@ -5029,12 +5048,13 @@ note = "no precise source found; from general knowledge"
 civilization = "Hyksos"
 civilization_id = "Q192319"
 field = "before"
-action = "none"
-source = ""
-quote = ""
+action = "set"
+value = "Thirteenth Dynasty of Egypt"
+value_id = "Q721807"
+region = "Egypt"
+source = "https://en.wikipedia.org/wiki/Hyksos"
+quote = "may have seceded from the crumbling and unstable Egyptian control at some point during the Thirteenth Dynasty"
 retrieved = 2026-10-20
-needs_verification = true
-note = "no source names a state before the Hyksos; the Middle Kingdom ended over a century earlier"
 
 [[override]]
 civilization = "Hyksos"
@@ -5468,12 +5488,15 @@ note = "the Wikipedia sentence carries no citation, check against a reference bo
 civilization = "Kingdom of Jerusalem"
 civilization_id = "Q55502"
 field = "before"
-action = "none"
+action = "set"
+value = "Fatimid Caliphate"
+value_id = "Q160307"
+region = "Israel"
 source = "https://en.wikipedia.org/wiki/Kingdom_of_Jerusalem"
-quote = "The Fatimids, under the nominal rule of caliph al-Musta'li but actually controlled by vizier al-Afdal Shahanshah , had lost Jerusalem to the Seljuks in 1073; they recaptured it in 1098 from the Artuqids"
+quote = ""
 retrieved = 2026-10-20
-needs_verification = false
-note = "The predecessor, the Fatimid Caliphate, is already listed under Palestine; the home site Acre has no other earlier state; cited in Wikipedia, footnote 12"
+needs_verification = true
+note = "the Crusaders took the coast and Jerusalem from the Fatimids in 1099; home Acre lies in Israel"
 
 [[override]]
 civilization = "Kingdom of Khotan"
@@ -5656,8 +5679,7 @@ action = "none"
 source = ""
 quote = ""
 retrieved = 2026-10-20
-needs_verification = false
-note = "Denmark-Norway founded the colonies itself; no earlier state"
+note = "Denmark-Norway founded the colonies in the same year the card begins (1537), so it cannot precede them; no earlier state"
 
 [[override]]
 civilization = "Danish overseas colonies"
@@ -6453,15 +6475,15 @@ note = "the Wikipedia sentence carries no citation, check against a reference bo
 civilization = "Mahajanapadas"
 civilization_id = "Q846025"
 field = "before"
-action = "add"
+action = "set"
 value = "Kuru Kingdom"
 value_id = "Q1068408"
-region = "Nepal"
+region = "India"
 source = "https://en.wikipedia.org/wiki/Mahajanapadas"
 quote = "This refers to the Kasis, Kosalas, Kurus, Panchalas, Vatsyas and other neo-Vedic tribes of the east Panjab of whom nothing was ever heard except in the legend and poetry. (The Nandas usurped the throne of Shishunaga dynasty c. 345 BCE, thus founding the Nanda Empire.)"
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Mahajanapadas followed the late Vedic janapadas, of which the Kuru kingdom was the leading one; cited in Wikipedia, footnote 59"
+note = "the Mahajanapadas followed the late Vedic janapadas, of which the Kuru kingdom was the leading one; cited in Wikipedia, footnote 59; region India (the home point lies there, not in Nepal)"
 
 [[override]]
 civilization = "Makuria Kingdom"
@@ -8057,15 +8079,15 @@ note = "the United Kingdom still exists, so no later state follows"
 civilization = "United Kingdoms of Sweden and Norway"
 civilization_id = "Q62589"
 field = "before"
-action = "add"
-value = "Denmark-Norway"
-value_id = "Q62651"
+action = "set"
+value = "Kingdom of Sweden"
+value_id = "Q34"
 region = "Sweden"
 source = "https://en.wikipedia.org/wiki/Union_between_Sweden_and_Norway"
-quote = "By the 1814 Treaty of Kiel, the King of Denmark-Norway was forced to cede Norway to the King of Sweden, but Norway refused to submit to the treaty provisions, declared independence, and convoked a constituent assembly at Eidsvoll in early 1814."
+quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+note = "Wikipedia infobox lists Sweden, Denmark-Norway and the Kingdom of Norway (1814) as predecessors; Sweden holds the home, Stockholm"
 
 [[override]]
 civilization = "United Kingdoms of Sweden and Norway"
@@ -8508,3 +8530,409 @@ quote = ""
 retrieved = 2026-10-20
 needs_verification = true
 note = "the outside review removed the Sumerian City-States, which fell centuries earlier; no source names a state immediately before"
+[[override]]
+civilization = "Teotihuacan"
+civilization_id = "Q172613"
+field = "map_year"
+action = "set"
+value = 450
+source = ""
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "the map year 692 lay after the end of the city; 450 is near its height; check Cliopatria covers the year"
+
+[[override]]
+civilization = "Union of Soviet Socialist Republics"
+civilization_id = "Q15180"
+field = "before"
+action = "set"
+value = "Russian Socialist Federative Soviet Republic"
+value_id = "Q2305208"
+region = "Russia"
+source = "https://en.wikipedia.org/wiki/Russian_Soviet_Federative_Socialist_Republic"
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "the Russian SFSR (1918-1922) joined the Soviet Union at its creation in 1922 and stayed its largest republic"
+
+[[override]]
+civilization = "Union of Soviet Socialist Republics"
+civilization_id = "Q15180"
+field = "modern_countries"
+action = "set"
+value = ["Russia", "Ukraine", "Belarus", "Kazakhstan", "Uzbekistan", "Turkmenistan", "Kyrgyzstan", "Tajikistan", "Azerbaijan", "Georgia", "Armenia", "Moldova", "Latvia", "Lithuania", "Estonia"]
+source = ""
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "the fifteen union republics; China was never part of the USSR; check"
+
+[[override]]
+civilization = "Russian Republic"
+civilization_id = "Q139319"
+field = "after"
+action = "set"
+value = "Russian Socialist Federative Soviet Republic"
+value_id = "Q2305208"
+region = "Russia"
+source = "https://en.wikipedia.org/wiki/Russian_Republic"
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "the Russian SFSR followed the Russian Republic in 1917-1918"
+
+[[override]]
+civilization = "Netherlands"
+civilization_id = "Q55"
+field = "period"
+action = "set"
+value = { since = 1815 }
+source = "https://en.wikipedia.org/wiki/Netherlands"
+quote = "proclaimed himself as King William I in 1815"
+retrieved = 2026-10-20
+note = "the kingdom, not the Batavian Republic of 1795, is the Netherlands of this card"
+
+[[override]]
+civilization = "Khazaria"
+civilization_id = "Q173282"
+field = "capital"
+action = "set"
+value = ["Atil"]
+value_id = ["Q913429"]
+source = "https://en.wikipedia.org/wiki/Atil"
+quote = "Atil, also Itil, was the capital of the Khazar Khaganate from the mid-8th century to the late 10th century"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Great Moravia"
+civilization_id = "Q193152"
+field = "after"
+action = "set"
+value = "Duchy of Bohemia"
+value_id = "Q2162698"
+region = "Czechia"
+source = "https://en.wikipedia.org/wiki/Great_Moravia"
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "Wikipedia infobox successor: Duchy of Bohemia (and the Principality of Hungary); the Bohemian duchy took the Moravian heartland"
+
+[[override]]
+civilization = "Crimean Khanate"
+civilization_id = "Q160440"
+field = "before"
+action = "set"
+value = "Golden Horde"
+value_id = "Q79965"
+region = "Ukraine"
+source = "https://en.wikipedia.org/wiki/Crimean_Khanate"
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "home Crimea is in Ukraine; the data gave Russia"
+
+[[override]]
+civilization = "Crimean Khanate"
+civilization_id = "Q160440"
+field = "after"
+action = "set"
+value = "Russian Empire"
+value_id = "Q34266"
+region = "Ukraine"
+source = "https://en.wikipedia.org/wiki/Crimean_Khanate"
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "Russia annexed the khanate in 1783; the home Crimea is in Ukraine"
+
+[[override]]
+civilization = "Kingdom of Navarre"
+civilization_id = "Q200262"
+field = "before"
+action = "set"
+value = "Kingdom of Pamplona"
+value_id = "Q3446210"
+region = "Spain"
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Navarre"
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "the Kingdom of Pamplona was renamed Navarre in the twelfth century"
+
+[[override]]
+civilization = "Mahajanapadas"
+civilization_id = "Q846025"
+field = "after"
+action = "set"
+value = "Nanda Empire"
+value_id = "Q949268"
+region = "India"
+source = "https://en.wikipedia.org/wiki/Nanda_Empire"
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "Nanda Empire rose from Magadha and absorbed the Mahajanapadas; the home is in India"
+
+[[override]]
+civilization = "Kingdom of Denmark"
+civilization_id = "Q756617"
+field = "capital"
+action = "set"
+value = ["Jelling", "Roskilde"]
+value_id = ["Q835708", "Q26563"]
+source = "https://en.wikipedia.org/wiki/Roskilde"
+quote = "From the 11th century until 1443, it was the capital of Denmark"
+retrieved = 2026-10-20
+needs_verification = true
+note = "Roskilde is sourced; Jelling as the royal seat of Gorm and Harald Bluetooth is to check; Copenhagen became capital in 1443"
+
+[[override]]
+civilization = "Shirvan"
+civilization_id = "Q638064"
+field = "map_year"
+action = "set"
+value = 1000
+source = ""
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "the map year 825 lay before the Shirvanshahs (861); 1000 is within the period; check the Cliopatria polygon"
+
+[[override]]
+civilization = "Chenla"
+civilization_id = "Q1057118"
+field = "capital"
+action = "set"
+value = ["Sambor Prei Kuk"]
+value_id = ["Q1818746"]
+source = "https://en.wikipedia.org/wiki/Sambor_Prei_Kuk"
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "Isanapura, the capital of Isanavarman I, is Sambor Prei Kuk in Cambodia; Vat Phou in Laos was an upper Chenla centre"
+
+[[override]]
+civilization = "Chenla"
+civilization_id = "Q1057118"
+field = "after"
+action = "set"
+value = "Khmer Empire"
+value_id = "Q201705"
+region = "Cambodia"
+source = "https://en.wikipedia.org/wiki/Chenla"
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "home Sambor Prei Kuk lies in Cambodia"
+
+[[override]]
+civilization = "Emirate of Córdoba"
+civilization_id = "Q1337854"
+field = "summary"
+action = "set"
+value = "An Arab Islamic state in the Iberian Peninsula ruled by the Umayyad dynasty from 756 to 929, when Abd al-Rahman III proclaimed the Caliphate of Córdoba."
+source = "https://en.wikipedia.org/wiki/Emirate_of_C%C3%B3rdoba"
+quote = "The Emirate of Córdoba, and from 929, the Caliphate of Córdoba"
+retrieved = 2026-10-20
+
+[[override]]
+civilization = "Russian Empire"
+civilization_id = "Q34266"
+field = "modern_countries"
+action = "set"
+value = ["Russia", "Ukraine", "Belarus", "Poland", "Finland", "Estonia", "Latvia", "Lithuania", "Moldova", "Georgia", "Armenia", "Azerbaijan", "Kazakhstan", "Uzbekistan", "Turkmenistan", "Tajikistan", "Kyrgyzstan"]
+source = ""
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "Poland (Congress Poland) was missing; check Alaska and Turkey's Kars"
+
+[[override]]
+civilization = "Seleucid Empire"
+civilization_id = "Q93180"
+field = "modern_countries"
+action = "set"
+value = ["Syria", "Turkey", "Lebanon", "Iraq", "Iran", "Turkmenistan", "Afghanistan", "Uzbekistan", "Tajikistan"]
+source = ""
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "Anatolia, Syria and Lebanon were missing; check the extent after Ipsus (301 BC)"
+
+[[override]]
+civilization = "Songhai Empire"
+civilization_id = "Q202687"
+field = "modern_countries"
+action = "set"
+value = ["Mali", "Niger", "Burkina Faso", "Nigeria", "Mauritania", "Senegal", "Gambia"]
+source = ""
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "Niger, Burkina Faso and northern Nigeria were missing; check the extent at 1564"
+
+[[override]]
+civilization = "Austria-Hungary"
+civilization_id = "Q28513"
+field = "map_year"
+action = "set"
+value = 1914
+source = ""
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "the map year 1918 showed wartime occupations (Ukraine, Albania, Montenegro, Kosovo)"
+
+[[override]]
+civilization = "Austria-Hungary"
+civilization_id = "Q28513"
+field = "modern_countries"
+action = "set"
+value = ["Austria", "Hungary", "Czechia", "Slovakia", "Slovenia", "Croatia", "Bosnia and Herzegovina", "Poland", "Ukraine", "Romania", "Serbia", "Italy"]
+source = ""
+quote = ""
+retrieved = 2026-10-20
+needs_verification = true
+note = "the lands of the monarchy in 1914; the 1918 occupations are out; check Montenegro (Bay of Kotor)"
+
+[[override]]
+civilization = "Ajuran Sultanate"
+civilization_id = "Q862532"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Byzantium"
+civilization_id = "Q23725"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Chaldea"
+civilization_id = "Q200969"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Classical Athens"
+civilization_id = "Q844930"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Cossack Hetmanate"
+civilization_id = "Q212439"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Dahomey"
+civilization_id = "Q468814"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Danish overseas colonies"
+civilization_id = "Q302132"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Hausa Kingdoms"
+civilization_id = "Q1591030"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Land of Punt"
+civilization_id = "Q282350"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Mutapa Empire"
+civilization_id = "Q854468"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Old Swiss Confederacy"
+civilization_id = "Q435583"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Sparta"
+civilization_id = "Q5690"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Troy"
+civilization_id = "Q22647"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Ugarit"
+civilization_id = "Q191369"
+field = "map"
+action = "none"
+source = ""
+quote = ""
+retrieved = 2026-10-20
+note = "not drawn in Cliopatria"
+
