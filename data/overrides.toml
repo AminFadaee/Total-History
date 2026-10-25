@@ -1997,11 +1997,11 @@ field = "key_figures"
 action = "add"
 value = ["Kebek", "Tughlugh Timur"]
 value_id = ["Q29039", "Q1194934"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "appended after Chagatai Khan and Duwa"
+source = "https://www.worldhistory.org/Chagatai_Khanate/"
+quote = "the reign of Kebek (r. 1318-1327 CE) at least brought some economic prosperity again … the last khan, Tughlugh Timur (r. 1347-1363 CE), could not prevent the disintegration of the khanate"
+retrieved = 2026-10-25
+needs_verification = false
+note = "World History Encyclopedia"
 
 [[override]]
 civilization = "Gran Colombia"
@@ -7472,11 +7472,11 @@ civilization_id = "Q101985"
 field = "period"
 action = "set"
 value = { start = 300, end = 804, circa = true }
-source = "https://en.wikipedia.org/wiki/Saxons"
-quote = "Charlemagne conquered all the Saxons after winning the long Saxon Wars (772–804 AD)"
-retrieved = 2026-10-20
-needs_verification = true
-note = "end 804: conquest by Charlemagne; the start (4th century, when Roman sources name the Saxons) is approximate and unsourced here; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.worldhistory.org/Saxons/"
+quote = "on the continent from the 4th century to 804 (from their first mention in writing to their defeat in the Saxon Wars)"
+retrieved = 2026-10-25
+needs_verification = false
+note = "World History Encyclopedia"
 
 [[override]]
 civilization = "Saxons"
@@ -8202,11 +8202,11 @@ field = "capital"
 action = "set"
 value = ["Kyoto"]
 value_id = ["Q34600"]
-source = "https://en.wikipedia.org/wiki/Kyoto"
-quote = "After becoming the capital of Japan at the start of the Heian period (794–1185)"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the imperial capital of the nominal central government; the daimyo ruled from their own castle towns; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.worldhistory.org/Sengoku_Period/"
+quote = "The period falls within the Muromachi period (Muromachi Jidai, 1333-1573 CE) of Japanese medieval history when the Ashikaga shogun capital was located in the Muromachi area of Heiankyo (Kyoto)."
+retrieved = 2026-10-25
+needs_verification = false
+note = "World History Encyclopedia"
 
 [[override]]
 civilization = "Warring States Japan"

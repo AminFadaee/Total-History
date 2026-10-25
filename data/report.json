@@ -5832,15 +5832,6 @@
       ]
     },
     {
-      "civilization": "Chagatai Khanate",
-      "field": "key_figures",
-      "action": "add",
-      "value": [
-        "Kebek",
-        "Tughlugh Timur"
-      ]
-    },
-    {
       "civilization": "Habsburg Monarchy",
       "field": "key_figures",
       "action": "set",
@@ -7220,16 +7211,6 @@
     },
     {
       "civilization": "Saxons",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 300,
-        "end": 804,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Saxons",
       "field": "after",
       "action": "add",
       "value": "Duchy of Saxony"
@@ -7407,14 +7388,6 @@
       "field": "after",
       "action": "add",
       "value": "Kingdom of Sweden"
-    },
-    {
-      "civilization": "Warring States Japan",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "Kyoto"
-      ]
     },
     {
       "civilization": "Warring States Japan",
