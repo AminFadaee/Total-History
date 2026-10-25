@@ -11,7 +11,7 @@ from page_in_history.sources.wikidata import Wikidata
 SIDES = ("before", "after")
 LIST_FIELDS = {"before": "before", "after": "after", "capital": "capitals", "key_figures": "key_figures",
                "modern_countries": "modern_countries"}
-FIELDS = (*LIST_FIELDS, "period", "map_year", "summary")
+FIELDS = (*LIST_FIELDS, "period", "map_year", "summary", "map")
 ACTIONS = ("add", "set", "none")
 ADDABLE = ("before", "after", "capital", "key_figures")
 PERIOD_KEYS = {"start", "end", "since", "circa"}
@@ -63,6 +63,8 @@ def _validate(override: Override) -> None:
         if not override.note.strip():
             raise ValueError(f"{who}: a not-applicable entry needs its reason in the note")
         return
+    if override.field == "map":
+        raise ValueError(f"{who}: a map can only be marked not applicable")
     if override.action == "add" and override.field not in ADDABLE:
         raise ValueError(f"{who}: only {', '.join(ADDABLE)} can be added to")
     if override.field in SIDES and not override.region:
