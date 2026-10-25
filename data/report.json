@@ -6025,12 +6025,6 @@
     },
     {
       "civilization": "Olmec Civilization",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Olmec Civilization",
       "field": "after",
       "action": "add",
       "value": "Epi-Olmec culture"
@@ -6281,12 +6275,6 @@
     },
     {
       "civilization": "Timurid Empire",
-      "field": "before",
-      "action": "set",
-      "value": "Chagatai Khanate"
-    },
-    {
-      "civilization": "Timurid Empire",
       "field": "key_figures",
       "action": "set",
       "value": [
@@ -6403,12 +6391,6 @@
         "end": 330,
         "circa": true
       }
-    },
-    {
-      "civilization": "Byzantium",
-      "field": "after",
-      "action": "set",
-      "value": "Byzantine Empire"
     },
     {
       "civilization": "Byzantium",
@@ -6565,12 +6547,6 @@
         "end": 711,
         "circa": true
       }
-    },
-    {
-      "civilization": "Greco-Bactrian Kingdom",
-      "field": "after",
-      "action": "set",
-      "value": "Kushan Empire"
     },
     {
       "civilization": "Hamdanid Emirates",
@@ -7146,15 +7122,6 @@
       "value": "Khadga dynasty"
     },
     {
-      "civilization": "Peru-Bolivian Confederation",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Peru",
-        "Bolivia"
-      ]
-    },
-    {
       "civilization": "Principality of Chernigov",
       "field": "period",
       "action": "set",
@@ -7260,14 +7227,6 @@
         "end": 804,
         "circa": true
       }
-    },
-    {
-      "civilization": "Saxons",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Widukind"
-      ]
     },
     {
       "civilization": "Saxons",

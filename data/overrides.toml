@@ -2876,10 +2876,10 @@ civilization = "Olmec Civilization"
 civilization_id = "Q135364"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/topic/Olmec"
+quote = "The Olmec were the first major civilization in Mesoamerica (c. 1200–400 BCE)."
+retrieved = 2026-10-25
+needs_verification = false
 note = "earliest civilization of Mesoamerica, the mother culture"
 
 [[override]]
@@ -3562,11 +3562,11 @@ action = "set"
 value = "Chagatai Khanate"
 value_id = "Q487829"
 region = "Afghanistan"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Timur rose in the Chagatai Khanate of Transoxiana; the home edge was missing; region is the Timurid home (Herat), as the data keeps one home region per civilization"
+source = "https://www.britannica.com/biography/Timur"
+quote = "Timur thus grew up in what was known as the Chagatai khanate."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Timurid Empire"
@@ -4120,11 +4120,11 @@ action = "set"
 value = "Byzantine Empire"
 value_id = "Q12544"
 region = "Turkey"
-source = "https://en.wikipedia.org/wiki/Byzantium"
-quote = "The strategic and highly defensible (due to being surrounded by water on almost all sides) location of Byzantium attracted Roman Emperor Constantine I who, in AD 330, refounded it as an imperial residence inspired by Rome itself, known as Nova Roma ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/place/Istanbul"
+quote = "Originally Byzantium, the city was rebuilt by Roman emperor Septimius Severus in 196 CE and later became Constantinople, the capital of the Byzantine Empire, in 330 CE under Constantine the Great."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Byzantium"
@@ -4873,11 +4873,11 @@ action = "set"
 value = "Kushan Empire"
 value_id = "Q25979"
 region = "Afghanistan"
-source = "https://en.wikipedia.org/wiki/Greco-Bactrian_Kingdom"
-quote = "The Yuezhi invaders settled in Bactria and became Hellenized ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/topic/Kushan-dynasty"
+quote = "The Yuezhi conquered Bactria in the 2nd century bce and divided the country into five chiefdoms, one of which was that of the Kushans (Guishuang)."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Guatemala"
@@ -7069,11 +7069,11 @@ civilization_id = "Q899706"
 field = "modern_countries"
 action = "set"
 value = ["Peru", "Bolivia"]
-source = "https://en.wikipedia.org/wiki/Peru–Bolivian_Confederation"
-quote = "thought of uniting Peru and Bolivia in a single country"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the confederation joined North Peru, South Peru and Bolivia; Brazil and Paraguay in the data are not part of it; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/topic/Peruvian-Bolivian-Confederation"
+quote = "Peruvian–Bolivian Confederation, transitory union of Peru and Bolivia (1836–39)."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Peru-Bolivian Confederation"
@@ -7496,11 +7496,11 @@ field = "key_figures"
 action = "set"
 value = ["Widukind"]
 value_id = ["Q320348"]
-source = "https://en.wikipedia.org/wiki/Saxons"
-quote = "The political history of these continental Saxons is unclear until the 8th century and the conflict between their semi-legendary hero Widukind and the Frankish emperor Charlemagne."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/biography/Widukind"
+quote = "Widukind was a Saxon leader who led a prolonged resistance against the Frankish expansion under Charlemagne."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Saxons"
