@@ -5559,12 +5559,6 @@
       "value": 1670
     },
     {
-      "civilization": "Crown of Aragon",
-      "field": "capital",
-      "action": "add",
-      "value": "Zaragoza"
-    },
-    {
       "civilization": "Empire of China",
       "field": "before",
       "action": "add",
@@ -5585,12 +5579,6 @@
       "field": "before",
       "action": "set",
       "value": "Kingdom of France"
-    },
-    {
-      "civilization": "French colonial empire",
-      "field": "after",
-      "action": "set",
-      "value": "French Union"
     },
     {
       "civilization": "French First Republic",
@@ -5649,12 +5637,6 @@
     },
     {
       "civilization": "Hunnic Empire",
-      "field": "after",
-      "action": "set",
-      "value": "Gepids"
-    },
-    {
-      "civilization": "Hunnic Empire",
       "field": "key_figures",
       "action": "set",
       "value": [
@@ -5709,12 +5691,6 @@
     },
     {
       "civilization": "Janapada of Magadha",
-      "field": "after",
-      "action": "add",
-      "value": "Nanda Empire"
-    },
-    {
-      "civilization": "Janapada of Magadha",
       "field": "before",
       "action": "set",
       "value": "Kikata Kingdom"
@@ -5724,12 +5700,6 @@
       "field": "before",
       "action": "add",
       "value": "Sao civilization"
-    },
-    {
-      "civilization": "Khmer Empire",
-      "field": "after",
-      "action": "set",
-      "value": "Post-Angkor Cambodia"
     },
     {
       "civilization": "Kievan Rus'",
@@ -5816,12 +5786,6 @@
       "field": "before",
       "action": "set",
       "value": "West Francia"
-    },
-    {
-      "civilization": "Denmark-Norway",
-      "field": "after",
-      "action": "set",
-      "value": "Denmark"
     },
     {
       "civilization": "Göktürk Khaganate",
@@ -6055,12 +6019,6 @@
     },
     {
       "civilization": "Olmec Civilization",
-      "field": "capital",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Olmec Civilization",
       "field": "key_figures",
       "action": "none",
       "value": ""
@@ -6143,18 +6101,6 @@
         "Vsevolod the Big Nest",
         "Alexander Nevsky"
       ]
-    },
-    {
-      "civilization": "Principality of Wallachia",
-      "field": "before",
-      "action": "add",
-      "value": "Kingdom of Hungary"
-    },
-    {
-      "civilization": "Prussia",
-      "field": "after",
-      "action": "add",
-      "value": "Allied-occupied Germany"
     },
     {
       "civilization": "Puebloans - Chaco Regional System",
@@ -6258,12 +6204,6 @@
       ]
     },
     {
-      "civilization": "Scythia",
-      "field": "before",
-      "action": "add",
-      "value": "Cimmerians"
-    },
-    {
       "civilization": "Srivijaya",
       "field": "key_figures",
       "action": "set",
@@ -6292,12 +6232,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Tenochtitlan",
-      "field": "capital",
-      "action": "add",
-      "value": "Tenochtitlan"
     },
     {
       "civilization": "Tenochtitlan",
@@ -6332,12 +6266,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Teotihuacan",
-      "field": "after",
-      "action": "add",
-      "value": "Toltec"
     },
     {
       "civilization": "Teutonic Order",
@@ -6457,21 +6385,6 @@
       }
     },
     {
-      "civilization": "Bourbon Kingdom of France",
-      "field": "key_figures",
-      "action": "add",
-      "value": [
-        "Louis XVIII",
-        "Charles X of France"
-      ]
-    },
-    {
-      "civilization": "Belgian Congo",
-      "field": "after",
-      "action": "set",
-      "value": "First Congolese Republic"
-    },
-    {
       "civilization": "Brythons",
       "field": "period",
       "action": "set",
@@ -6547,12 +6460,6 @@
       "value": "Kingdom of England"
     },
     {
-      "civilization": "Confederate States of America",
-      "field": "after",
-      "action": "set",
-      "value": "United States"
-    },
-    {
       "civilization": "County of Flanders",
       "field": "before",
       "action": "set",
@@ -6569,12 +6476,6 @@
       "field": "after",
       "action": "set",
       "value": "Golden Horde"
-    },
-    {
-      "civilization": "Dahomey",
-      "field": "before",
-      "action": "set",
-      "value": "Kingdom of Allada"
     },
     {
       "civilization": "Dahomey",
@@ -6678,15 +6579,6 @@
       "value": "Uqaylid dynasty"
     },
     {
-      "civilization": "Hausa Kingdoms",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Muhammad Rumfa",
-        "Amina of Zazzau"
-      ]
-    },
-    {
       "civilization": "Hoysala Kingdom",
       "field": "period",
       "action": "set",
@@ -6736,12 +6628,6 @@
       "value": "A historical region of the Land of Israel around Jerusalem, ruled by the Hasmonean dynasty in the last two centuries BC."
     },
     {
-      "civilization": "Khanate of Khiva",
-      "field": "after",
-      "action": "set",
-      "value": "Khorezm People's Soviet Republic"
-    },
-    {
       "civilization": "Kimek-Kipchak confederation",
       "field": "after",
       "action": "set",
@@ -6764,12 +6650,6 @@
       "field": "before",
       "action": "set",
       "value": "Electorate of Hanover"
-    },
-    {
-      "civilization": "Kingdom of Hanover",
-      "field": "after",
-      "action": "set",
-      "value": "Kingdom of Prussia"
     },
     {
       "civilization": "Kingdom of Hawaï'i",
@@ -6933,14 +6813,6 @@
       "value": [
         "Gao Huan",
         "Emperor Xiaojing of Eastern Wei"
-      ]
-    },
-    {
-      "civilization": "Duchy of Warsaw",
-      "field": "key_figures",
-      "action": "add",
-      "value": [
-        "Józef Poniatowski"
       ]
     },
     {
@@ -7358,20 +7230,6 @@
       ]
     },
     {
-      "civilization": "Republic of Finland",
-      "field": "before",
-      "action": "set",
-      "value": "Grand Duchy of Finland"
-    },
-    {
-      "civilization": "Republic of Liberia",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "since": 1847
-      }
-    },
-    {
       "civilization": "Republic of Texas",
       "field": "key_figures",
       "action": "set",
@@ -7521,14 +7379,6 @@
     },
     {
       "civilization": "Toltec",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "Tula (Mesoamerican site)"
-      ]
-    },
-    {
-      "civilization": "Toltec",
       "field": "map_year",
       "action": "set",
       "value": 1100
@@ -7544,12 +7394,6 @@
       "field": "after",
       "action": "add",
       "value": "Tepanec"
-    },
-    {
-      "civilization": "Troy",
-      "field": "capital",
-      "action": "add",
-      "value": "Troy"
     },
     {
       "civilization": "Troy",
@@ -7742,12 +7586,6 @@
       "field": "after",
       "action": "set",
       "value": "Duchy of Bohemia"
-    },
-    {
-      "civilization": "Crimean Khanate",
-      "field": "after",
-      "action": "set",
-      "value": "Russian Empire"
     },
     {
       "civilization": "Mahajanapadas",
