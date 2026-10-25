@@ -5505,12 +5505,6 @@
     },
     {
       "civilization": "Ajuran Sultanate",
-      "field": "before",
-      "action": "add",
-      "value": "Sultanate of Mogadishu"
-    },
-    {
-      "civilization": "Ajuran Sultanate",
       "field": "map_year",
       "action": "set",
       "value": 1500
@@ -5593,15 +5587,6 @@
     },
     {
       "civilization": "Etruscans",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -900,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Etruscans",
       "field": "key_figures",
       "action": "set",
       "value": [
@@ -5676,12 +5661,6 @@
       "value": {
         "start": 1242
       }
-    },
-    {
-      "civilization": "Habsburg Monarchy",
-      "field": "after",
-      "action": "add",
-      "value": "Republic of Austria"
     },
     {
       "civilization": "Hunnic Empire",
@@ -5774,12 +5753,6 @@
       "value": "Rus' Khaganate"
     },
     {
-      "civilization": "Kingdom of Aragon",
-      "field": "before",
-      "action": "add",
-      "value": "County of Aragon"
-    },
-    {
       "civilization": "Kingdom of Galicia–Volhynia",
       "field": "key_figures",
       "action": "set",
@@ -5789,12 +5762,6 @@
         "Leo I of Galicia",
         "Liubartas"
       ]
-    },
-    {
-      "civilization": "Kingdom of Germany",
-      "field": "before",
-      "action": "add",
-      "value": "East Francia"
     },
     {
       "civilization": "Kingdom of Germany",
@@ -5969,14 +5936,6 @@
       ]
     },
     {
-      "civilization": "Babylonia",
-      "field": "key_figures",
-      "action": "add",
-      "value": [
-        "Nebuchadnezzar II"
-      ]
-    },
-    {
       "civilization": "Kanem–Bornu Empire",
       "field": "key_figures",
       "action": "set",
@@ -6007,12 +5966,6 @@
       ]
     },
     {
-      "civilization": "Maya civilization",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Minoan civilization",
       "field": "before",
       "action": "none",
@@ -6035,16 +5988,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Zapotec Civilization",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -500,
-        "end": 1521,
-        "circa": true
-      }
     },
     {
       "civilization": "Zapotec Civilization",
@@ -6124,20 +6067,6 @@
       "field": "before",
       "action": "add",
       "value": "Dutch Republic"
-    },
-    {
-      "civilization": "Northern Yuan",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 1635
-      }
-    },
-    {
-      "civilization": "Northern Yuan",
-      "field": "after",
-      "action": "add",
-      "value": "Qing Dynasty"
     },
     {
       "civilization": "Odrysian Kingdom",
@@ -6237,12 +6166,6 @@
       ]
     },
     {
-      "civilization": "Principality of Rostov-Suzdal",
-      "field": "capital",
-      "action": "add",
-      "value": "Rostov"
-    },
-    {
       "civilization": "Principality of Wallachia",
       "field": "before",
       "action": "add",
@@ -6299,12 +6222,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Qara Qoyunlu",
-      "field": "before",
-      "action": "add",
-      "value": "Jalayirid Sultanate"
     },
     {
       "civilization": "Qara Qoyunlu",
@@ -6378,12 +6295,6 @@
       "field": "before",
       "action": "add",
       "value": "Cimmerians"
-    },
-    {
-      "civilization": "Scythia",
-      "field": "after",
-      "action": "add",
-      "value": "Sarmatians"
     },
     {
       "civilization": "Srivijaya",
@@ -6513,15 +6424,6 @@
     },
     {
       "civilization": "White Huns",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 560,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "White Huns",
       "field": "after",
       "action": "none",
       "value": ""
@@ -6537,12 +6439,6 @@
       "field": "key_figures",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Zapotec Civilization",
-      "field": "after",
-      "action": "add",
-      "value": "New Spain"
     },
     {
       "civilization": "Adal Sultanate",
@@ -6601,20 +6497,6 @@
         "Louis XVIII",
         "Charles X of France"
       ]
-    },
-    {
-      "civilization": "Brazilian Republic",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "since": 1889
-      }
-    },
-    {
-      "civilization": "Brazilian Republic",
-      "field": "capital",
-      "action": "add",
-      "value": "Brasília"
     },
     {
       "civilization": "Belgian Congo",
@@ -6678,12 +6560,6 @@
       "field": "map_year",
       "action": "set",
       "value": -700
-    },
-    {
-      "civilization": "Chenla",
-      "field": "before",
-      "action": "set",
-      "value": "Kingdom of Funan"
     },
     {
       "civilization": "Commonwealth of Australia",
@@ -6764,12 +6640,6 @@
     },
     {
       "civilization": "Duchy of Savoy",
-      "field": "after",
-      "action": "set",
-      "value": "Kingdom of Sardinia"
-    },
-    {
-      "civilization": "Duchy of Savoy",
       "field": "period",
       "action": "set",
       "value": {
@@ -6835,12 +6705,6 @@
       "value": "Kushan Empire"
     },
     {
-      "civilization": "Guatemala",
-      "field": "before",
-      "action": "set",
-      "value": "Federal Republic of Central America"
-    },
-    {
       "civilization": "Hamdanid Emirates",
       "field": "after",
       "action": "set",
@@ -6865,12 +6729,6 @@
       }
     },
     {
-      "civilization": "Hyderabad State",
-      "field": "before",
-      "action": "set",
-      "value": "Mughal Empire"
-    },
-    {
       "civilization": "Hyksos",
       "field": "key_figures",
       "action": "set",
@@ -6879,12 +6737,6 @@
         "Khyan",
         "Apepi"
       ]
-    },
-    {
-      "civilization": "Ifat Sultanate",
-      "field": "before",
-      "action": "set",
-      "value": "Sultanate of Shewa"
     },
     {
       "civilization": "Jin",
@@ -6912,18 +6764,6 @@
     },
     {
       "civilization": "Judea",
-      "field": "before",
-      "action": "set",
-      "value": "Seleucid Empire"
-    },
-    {
-      "civilization": "Judea",
-      "field": "after",
-      "action": "set",
-      "value": "Herodian kingdom"
-    },
-    {
-      "civilization": "Judea",
       "field": "summary",
       "action": "set",
       "value": "A historical region of the Land of Israel around Jerusalem, ruled by the Hasmonean dynasty in the last two centuries BC."
@@ -6939,12 +6779,6 @@
       "field": "after",
       "action": "set",
       "value": "Cuman-Kipchak Confederation"
-    },
-    {
-      "civilization": "Kingdom of Egypt",
-      "field": "before",
-      "action": "set",
-      "value": "Sultanate of Egypt"
     },
     {
       "civilization": "Kingdom of Fiji",
@@ -7004,22 +6838,6 @@
       "field": "before",
       "action": "set",
       "value": "Fatimid Caliphate"
-    },
-    {
-      "civilization": "Kingdom of Khotan",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Viśa' Saṃbhava"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Lunda",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Tshibinda Ilunga"
-      ]
     },
     {
       "civilization": "Kingdom of Lunda",
@@ -7248,12 +7066,6 @@
       "value": "Cagliari"
     },
     {
-      "civilization": "Kingdom of Sardinia",
-      "field": "before",
-      "action": "add",
-      "value": "Duchy of Savoy"
-    },
-    {
       "civilization": "Kingdom of Saxony",
       "field": "key_figures",
       "action": "set",
@@ -7288,15 +7100,6 @@
       "value": {
         "since": 995,
         "circa": true
-      }
-    },
-    {
-      "civilization": "Kingdom of the Two Sicilies",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 1816,
-        "end": 1861
       }
     },
     {
@@ -7443,21 +7246,6 @@
       "value": "Himyarite Kingdom"
     },
     {
-      "civilization": "Moghulistan",
-      "field": "after",
-      "action": "add",
-      "value": "Yarkent Khanate"
-    },
-    {
-      "civilization": "Nabataeans",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -312,
-        "end": 106
-      }
-    },
-    {
       "civilization": "Nara Japan",
       "field": "key_figures",
       "action": "set",
@@ -7526,14 +7314,6 @@
         "Peru",
         "Bolivia"
       ]
-    },
-    {
-      "civilization": "Portuguese Republic",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "since": 1910
-      }
     },
     {
       "civilization": "Principality of Chernigov",
@@ -7782,16 +7562,6 @@
     },
     {
       "civilization": "Toltec",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 950,
-        "end": 1150,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Toltec",
       "field": "map_year",
       "action": "set",
       "value": 1100
@@ -7823,14 +7593,6 @@
         "end": 500,
         "circa": true
       }
-    },
-    {
-      "civilization": "Troy",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Alaksandu"
-      ]
     },
     {
       "civilization": "Twenty-second Dynasty of Egypt",
@@ -7875,23 +7637,6 @@
       "field": "after",
       "action": "add",
       "value": "Kingdom of Sweden"
-    },
-    {
-      "civilization": "United States of America",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "since": 1776
-      }
-    },
-    {
-      "civilization": "Viking settlements",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 793,
-        "end": 1066
-      }
     },
     {
       "civilization": "Warring States Japan",
@@ -7955,12 +7700,6 @@
         "Wu Zixu",
         "Fuchai of Wu"
       ]
-    },
-    {
-      "civilization": "Zululand",
-      "field": "before",
-      "action": "add",
-      "value": "Mthethwa Paramountcy"
     },
     {
       "civilization": "Zululand",
@@ -8045,21 +7784,9 @@
     },
     {
       "civilization": "Crimean Khanate",
-      "field": "before",
-      "action": "set",
-      "value": "Golden Horde"
-    },
-    {
-      "civilization": "Crimean Khanate",
       "field": "after",
       "action": "set",
       "value": "Russian Empire"
-    },
-    {
-      "civilization": "Kingdom of Navarre",
-      "field": "before",
-      "action": "set",
-      "value": "Kingdom of Pamplona"
     },
     {
       "civilization": "Mahajanapadas",
@@ -8089,12 +7816,6 @@
       "value": [
         "Sambor Prei Kuk"
       ]
-    },
-    {
-      "civilization": "Chenla",
-      "field": "after",
-      "action": "set",
-      "value": "Khmer Empire"
     },
     {
       "civilization": "Russian Empire",
