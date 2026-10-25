@@ -3,7 +3,7 @@
   "slug": "teotihuacan",
   "name": "Teotihuacan",
   "wikipedia": "Teotihuacan",
-  "map_year": 692,
+  "map_year": 450,
   "period": {
     "start": {
       "earliest": -100,
@@ -11,8 +11,8 @@
       "circa": true
     },
     "end": {
-      "earliest": 650,
-      "latest": 650,
+      "earliest": 550,
+      "latest": 550,
       "circa": true
     },
     "confirmed": true,
@@ -66,8 +66,7 @@
       "before": "earliest state of the Valley of Mexico"
     },
     "labelled": [
-      "Zapotec Civilization",
-      "Classic Veracruz Culture"
+      "Zapotec Civilization"
     ]
   }
 }

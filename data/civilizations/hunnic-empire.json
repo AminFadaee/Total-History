@@ -24,15 +24,21 @@
   "before": [
     {
       "id": "Q178054",
-      "region": "Russia",
+      "region": "Hungary",
       "name": "Alans",
       "home": true
+    },
+    {
+      "id": "Q321371",
+      "region": "Russia",
+      "name": "Cimmerian Bosporus",
+      "home": false
     }
   ],
   "after": [
     {
       "id": "Q201706",
-      "region": "Russia",
+      "region": "Hungary",
       "name": "Gepids",
       "home": true
     }

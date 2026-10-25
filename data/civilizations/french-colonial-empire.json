@@ -34,8 +34,22 @@
     "French Indochina",
     "French Mandate for Syria and Lebanon"
   ],
-  "before": [],
-  "after": [],
+  "before": [
+    {
+      "id": "Q70972",
+      "region": "France",
+      "name": "Kingdom of France",
+      "home": true
+    }
+  ],
+  "after": [
+    {
+      "id": "Q848478",
+      "region": "France",
+      "name": "French Union",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q7721",
@@ -103,10 +117,6 @@
     ],
     "identity": "the state named after French Colonial Africa",
     "home": "the spot held longest",
-    "not_applicable": {
-      "before": "the empire began under the Kingdom of France; no distinct predecessor state",
-      "after": "no successor state; the last colonies became independent or overseas territories of France"
-    },
     "labelled": [
       "British Africa",
       "Republic of China",

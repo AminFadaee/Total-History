@@ -21,12 +21,20 @@
   },
   "capitals": [
     {
-      "name": "Copenhagen",
+      "name": "Jelling",
       "location": [
-        12.568888888889,
-        55.676111111111
+        9.4194,
+        55.7558
       ],
-      "founded": 1167
+      "founded": null
+    },
+    {
+      "name": "Roskilde",
+      "location": [
+        12.080833333333,
+        55.641666666667
+      ],
+      "founded": null
     }
   ],
   "parts": [

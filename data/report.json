@@ -122,6 +122,11 @@
       "civilization": "Viking settlements",
       "field": "key_figures",
       "value": "Brian Boru"
+    },
+    {
+      "civilization": "Kingdom of Israel (Samaria)",
+      "field": "capitals",
+      "value": "Shiloh"
     }
   ],
   "overrides_applied": [
@@ -507,8 +512,8 @@
     {
       "civilization": "Avar Khaganate",
       "field": "after",
-      "action": "add",
-      "value": "Francia"
+      "action": "set",
+      "value": "First Bulgarian Empire"
     },
     {
       "civilization": "Caliphate of Córdoba",
@@ -686,14 +691,14 @@
     {
       "civilization": "French colonial empire",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "Kingdom of France"
     },
     {
       "civilization": "French colonial empire",
       "field": "after",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "French Union"
     },
     {
       "civilization": "French First Republic",
@@ -798,8 +803,8 @@
     {
       "civilization": "Grand Duchy of Lithuania",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "Kingdom of Lithuania"
     },
     {
       "civilization": "Great Moravia",
@@ -858,8 +863,8 @@
     {
       "civilization": "Hunnic Empire",
       "field": "after",
-      "action": "add",
-      "value": "Kingdom of the Gepids"
+      "action": "set",
+      "value": "Gepids"
     },
     {
       "civilization": "Hunnic Empire",
@@ -887,8 +892,8 @@
     {
       "civilization": "Iberian Union",
       "field": "after",
-      "action": "add",
-      "value": "Kingdom of Portugal"
+      "action": "set",
+      "value": "Spanish Empire"
     },
     {
       "civilization": "Iberian Union",
@@ -960,8 +965,8 @@
     {
       "civilization": "Janapada of Magadha",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "Kikata Kingdom"
     },
     {
       "civilization": "Kanem–Bornu Empire",
@@ -996,8 +1001,8 @@
     {
       "civilization": "Khmer Empire",
       "field": "after",
-      "action": "add",
-      "value": "Ayutthaya Kingdom"
+      "action": "set",
+      "value": "Post-Angkor Cambodia"
     },
     {
       "civilization": "Kievan Rus'",
@@ -1183,8 +1188,8 @@
     {
       "civilization": "Duchy of Burgundy",
       "field": "before",
-      "action": "add",
-      "value": "Burgundians"
+      "action": "set",
+      "value": "West Francia"
     },
     {
       "civilization": "Duchy of Burgundy",
@@ -1195,8 +1200,8 @@
     {
       "civilization": "Denmark-Norway",
       "field": "after",
-      "action": "add",
-      "value": "Kingdom of Denmark"
+      "action": "set",
+      "value": "Denmark"
     },
     {
       "civilization": "Göktürk Khaganate",
@@ -1652,7 +1657,7 @@
       "action": "set",
       "value": {
         "start": -500,
-        "end": 900,
+        "end": 1521,
         "circa": true
       }
     },
@@ -1764,8 +1769,8 @@
     {
       "civilization": "Spanish Empire",
       "field": "after",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "Spain"
     },
     {
       "civilization": "Macedonia",
@@ -2235,7 +2240,7 @@
       "action": "set",
       "value": {
         "start": -100,
-        "end": 650,
+        "end": 550,
         "circa": true
       }
     },
@@ -2672,8 +2677,8 @@
     {
       "civilization": "Chenla",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "Kingdom of Funan"
     },
     {
       "civilization": "Cimmerian Bosporus",
@@ -3109,8 +3114,8 @@
     {
       "civilization": "Hyksos",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "Thirteenth Dynasty of Egypt"
     },
     {
       "civilization": "Hyksos",
@@ -3340,8 +3345,8 @@
     {
       "civilization": "Kingdom of Jerusalem",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "Fatimid Caliphate"
     },
     {
       "civilization": "Kingdom of Khotan",
@@ -3959,7 +3964,7 @@
     {
       "civilization": "Mahajanapadas",
       "field": "before",
-      "action": "add",
+      "action": "set",
       "value": "Kuru Kingdom"
     },
     {
@@ -4893,8 +4898,8 @@
     {
       "civilization": "United Kingdoms of Sweden and Norway",
       "field": "before",
-      "action": "add",
-      "value": "Denmark-Norway"
+      "action": "set",
+      "value": "Kingdom of Sweden"
     },
     {
       "civilization": "United Kingdoms of Sweden and Norway",
@@ -5162,6 +5167,290 @@
       "field": "before",
       "action": "none",
       "value": ""
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "map_year",
+      "action": "set",
+      "value": 450
+    },
+    {
+      "civilization": "Union of Soviet Socialist Republics",
+      "field": "before",
+      "action": "set",
+      "value": "Russian Socialist Federative Soviet Republic"
+    },
+    {
+      "civilization": "Union of Soviet Socialist Republics",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Russia",
+        "Ukraine",
+        "Belarus",
+        "Kazakhstan",
+        "Uzbekistan",
+        "Turkmenistan",
+        "Kyrgyzstan",
+        "Tajikistan",
+        "Azerbaijan",
+        "Georgia",
+        "Armenia",
+        "Moldova",
+        "Latvia",
+        "Lithuania",
+        "Estonia"
+      ]
+    },
+    {
+      "civilization": "Russian Republic",
+      "field": "after",
+      "action": "set",
+      "value": "Russian Socialist Federative Soviet Republic"
+    },
+    {
+      "civilization": "Netherlands",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "since": 1815
+      }
+    },
+    {
+      "civilization": "Khazaria",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Atil"
+      ]
+    },
+    {
+      "civilization": "Great Moravia",
+      "field": "after",
+      "action": "set",
+      "value": "Duchy of Bohemia"
+    },
+    {
+      "civilization": "Crimean Khanate",
+      "field": "before",
+      "action": "set",
+      "value": "Golden Horde"
+    },
+    {
+      "civilization": "Crimean Khanate",
+      "field": "after",
+      "action": "set",
+      "value": "Russian Empire"
+    },
+    {
+      "civilization": "Kingdom of Navarre",
+      "field": "before",
+      "action": "set",
+      "value": "Kingdom of Pamplona"
+    },
+    {
+      "civilization": "Mahajanapadas",
+      "field": "after",
+      "action": "set",
+      "value": "Nanda Empire"
+    },
+    {
+      "civilization": "Kingdom of Denmark",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Jelling",
+        "Roskilde"
+      ]
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "map_year",
+      "action": "set",
+      "value": 1000
+    },
+    {
+      "civilization": "Chenla",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Sambor Prei Kuk"
+      ]
+    },
+    {
+      "civilization": "Chenla",
+      "field": "after",
+      "action": "set",
+      "value": "Khmer Empire"
+    },
+    {
+      "civilization": "Emirate of Córdoba",
+      "field": "summary",
+      "action": "set",
+      "value": "An Arab Islamic state in the Iberian Peninsula ruled by the Umayyad dynasty from 756 to 929, when Abd al-Rahman III proclaimed the Caliphate of Córdoba."
+    },
+    {
+      "civilization": "Russian Empire",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Russia",
+        "Ukraine",
+        "Belarus",
+        "Poland",
+        "Finland",
+        "Estonia",
+        "Latvia",
+        "Lithuania",
+        "Moldova",
+        "Georgia",
+        "Armenia",
+        "Azerbaijan",
+        "Kazakhstan",
+        "Uzbekistan",
+        "Turkmenistan",
+        "Tajikistan",
+        "Kyrgyzstan"
+      ]
+    },
+    {
+      "civilization": "Seleucid Empire",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Syria",
+        "Turkey",
+        "Lebanon",
+        "Iraq",
+        "Iran",
+        "Turkmenistan",
+        "Afghanistan",
+        "Uzbekistan",
+        "Tajikistan"
+      ]
+    },
+    {
+      "civilization": "Songhai Empire",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Mali",
+        "Niger",
+        "Burkina Faso",
+        "Nigeria",
+        "Mauritania",
+        "Senegal",
+        "Gambia"
+      ]
+    },
+    {
+      "civilization": "Austria-Hungary",
+      "field": "map_year",
+      "action": "set",
+      "value": 1914
+    },
+    {
+      "civilization": "Austria-Hungary",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Austria",
+        "Hungary",
+        "Czechia",
+        "Slovakia",
+        "Slovenia",
+        "Croatia",
+        "Bosnia and Herzegovina",
+        "Poland",
+        "Ukraine",
+        "Romania",
+        "Serbia",
+        "Italy"
+      ]
+    },
+    {
+      "civilization": "Ajuran Sultanate",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Cossack Hetmanate",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Dahomey",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Danish overseas colonies",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Hausa Kingdoms",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Mutapa Empire",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Old Swiss Confederacy",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Sparta",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Troy",
+      "field": "map",
+      "action": "none",
+      "value": ""
+    },
+    {
+      "civilization": "Ugarit",
+      "field": "map",
+      "action": "none",
+      "value": ""
     }
   ],
   "needs_verification": [
@@ -5225,6 +5514,12 @@
       "field": "map_year",
       "action": "set",
       "value": 1500
+    },
+    {
+      "civilization": "Avar Khaganate",
+      "field": "after",
+      "action": "set",
+      "value": "First Bulgarian Empire"
     },
     {
       "civilization": "Chagatai Khanate",
@@ -5318,14 +5613,14 @@
     {
       "civilization": "French colonial empire",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "Kingdom of France"
     },
     {
       "civilization": "French colonial empire",
       "field": "after",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "French Union"
     },
     {
       "civilization": "French First Republic",
@@ -5383,12 +5678,6 @@
       }
     },
     {
-      "civilization": "Grand Duchy of Lithuania",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Habsburg Monarchy",
       "field": "after",
       "action": "add",
@@ -5397,8 +5686,8 @@
     {
       "civilization": "Hunnic Empire",
       "field": "after",
-      "action": "add",
-      "value": "Kingdom of the Gepids"
+      "action": "set",
+      "value": "Gepids"
     },
     {
       "civilization": "Hunnic Empire",
@@ -5414,8 +5703,8 @@
     {
       "civilization": "Iberian Union",
       "field": "after",
-      "action": "add",
-      "value": "Kingdom of Portugal"
+      "action": "set",
+      "value": "Spanish Empire"
     },
     {
       "civilization": "Iberian Union",
@@ -5463,14 +5752,20 @@
     {
       "civilization": "Janapada of Magadha",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": "Kikata Kingdom"
     },
     {
       "civilization": "Kanem–Bornu Empire",
       "field": "before",
       "action": "add",
       "value": "Sao civilization"
+    },
+    {
+      "civilization": "Khmer Empire",
+      "field": "after",
+      "action": "set",
+      "value": "Post-Angkor Cambodia"
     },
     {
       "civilization": "Kievan Rus'",
@@ -5567,8 +5862,14 @@
     {
       "civilization": "Duchy of Burgundy",
       "field": "before",
-      "action": "add",
-      "value": "Burgundians"
+      "action": "set",
+      "value": "West Francia"
+    },
+    {
+      "civilization": "Denmark-Norway",
+      "field": "after",
+      "action": "set",
+      "value": "Denmark"
     },
     {
       "civilization": "Göktürk Khaganate",
@@ -5737,6 +6038,16 @@
     },
     {
       "civilization": "Zapotec Civilization",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -500,
+        "end": 1521,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Zapotec Civilization",
       "field": "before",
       "action": "none",
       "value": ""
@@ -5789,6 +6100,12 @@
       "field": "map_year",
       "action": "set",
       "value": 1500
+    },
+    {
+      "civilization": "Spanish Empire",
+      "field": "after",
+      "action": "set",
+      "value": "Spain"
     },
     {
       "civilization": "Macedonia",
@@ -6128,7 +6445,7 @@
       "action": "set",
       "value": {
         "start": -100,
-        "end": 650,
+        "end": 550,
         "circa": true
       }
     },
@@ -6363,6 +6680,12 @@
       "value": -700
     },
     {
+      "civilization": "Chenla",
+      "field": "before",
+      "action": "set",
+      "value": "Kingdom of Funan"
+    },
+    {
       "civilization": "Commonwealth of Australia",
       "field": "before",
       "action": "set",
@@ -6558,12 +6881,6 @@
       ]
     },
     {
-      "civilization": "Hyksos",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Ifat Sultanate",
       "field": "before",
       "action": "set",
@@ -6681,6 +6998,12 @@
       "field": "before",
       "action": "set",
       "value": "Kingdom of Israel (united monarchy)"
+    },
+    {
+      "civilization": "Kingdom of Jerusalem",
+      "field": "before",
+      "action": "set",
+      "value": "Fatimid Caliphate"
     },
     {
       "civilization": "Kingdom of Khotan",
@@ -7049,7 +7372,7 @@
     {
       "civilization": "Mahajanapadas",
       "field": "before",
-      "action": "add",
+      "action": "set",
       "value": "Kuru Kingdom"
     },
     {
@@ -7544,8 +7867,8 @@
     {
       "civilization": "United Kingdoms of Sweden and Norway",
       "field": "before",
-      "action": "add",
-      "value": "Denmark-Norway"
+      "action": "set",
+      "value": "Kingdom of Sweden"
     },
     {
       "civilization": "United Kingdoms of Sweden and Norway",
@@ -7673,6 +7996,184 @@
       "field": "before",
       "action": "none",
       "value": ""
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "map_year",
+      "action": "set",
+      "value": 450
+    },
+    {
+      "civilization": "Union of Soviet Socialist Republics",
+      "field": "before",
+      "action": "set",
+      "value": "Russian Socialist Federative Soviet Republic"
+    },
+    {
+      "civilization": "Union of Soviet Socialist Republics",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Russia",
+        "Ukraine",
+        "Belarus",
+        "Kazakhstan",
+        "Uzbekistan",
+        "Turkmenistan",
+        "Kyrgyzstan",
+        "Tajikistan",
+        "Azerbaijan",
+        "Georgia",
+        "Armenia",
+        "Moldova",
+        "Latvia",
+        "Lithuania",
+        "Estonia"
+      ]
+    },
+    {
+      "civilization": "Russian Republic",
+      "field": "after",
+      "action": "set",
+      "value": "Russian Socialist Federative Soviet Republic"
+    },
+    {
+      "civilization": "Great Moravia",
+      "field": "after",
+      "action": "set",
+      "value": "Duchy of Bohemia"
+    },
+    {
+      "civilization": "Crimean Khanate",
+      "field": "before",
+      "action": "set",
+      "value": "Golden Horde"
+    },
+    {
+      "civilization": "Crimean Khanate",
+      "field": "after",
+      "action": "set",
+      "value": "Russian Empire"
+    },
+    {
+      "civilization": "Kingdom of Navarre",
+      "field": "before",
+      "action": "set",
+      "value": "Kingdom of Pamplona"
+    },
+    {
+      "civilization": "Mahajanapadas",
+      "field": "after",
+      "action": "set",
+      "value": "Nanda Empire"
+    },
+    {
+      "civilization": "Kingdom of Denmark",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Jelling",
+        "Roskilde"
+      ]
+    },
+    {
+      "civilization": "Shirvan",
+      "field": "map_year",
+      "action": "set",
+      "value": 1000
+    },
+    {
+      "civilization": "Chenla",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Sambor Prei Kuk"
+      ]
+    },
+    {
+      "civilization": "Chenla",
+      "field": "after",
+      "action": "set",
+      "value": "Khmer Empire"
+    },
+    {
+      "civilization": "Russian Empire",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Russia",
+        "Ukraine",
+        "Belarus",
+        "Poland",
+        "Finland",
+        "Estonia",
+        "Latvia",
+        "Lithuania",
+        "Moldova",
+        "Georgia",
+        "Armenia",
+        "Azerbaijan",
+        "Kazakhstan",
+        "Uzbekistan",
+        "Turkmenistan",
+        "Tajikistan",
+        "Kyrgyzstan"
+      ]
+    },
+    {
+      "civilization": "Seleucid Empire",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Syria",
+        "Turkey",
+        "Lebanon",
+        "Iraq",
+        "Iran",
+        "Turkmenistan",
+        "Afghanistan",
+        "Uzbekistan",
+        "Tajikistan"
+      ]
+    },
+    {
+      "civilization": "Songhai Empire",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Mali",
+        "Niger",
+        "Burkina Faso",
+        "Nigeria",
+        "Mauritania",
+        "Senegal",
+        "Gambia"
+      ]
+    },
+    {
+      "civilization": "Austria-Hungary",
+      "field": "map_year",
+      "action": "set",
+      "value": 1914
+    },
+    {
+      "civilization": "Austria-Hungary",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Austria",
+        "Hungary",
+        "Czechia",
+        "Slovakia",
+        "Slovenia",
+        "Croatia",
+        "Bosnia and Herzegovina",
+        "Poland",
+        "Ukraine",
+        "Romania",
+        "Serbia",
+        "Italy"
+      ]
     }
   ],
   "unresolved_polities": {

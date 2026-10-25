@@ -32,9 +32,9 @@
   "parts": [],
   "before": [
     {
-      "id": "Q139319",
+      "id": "Q2305208",
       "region": "Russia",
-      "name": "Russian Republic",
+      "name": "Russian Socialist Federative Soviet Republic",
       "home": true
     },
     {
@@ -78,21 +78,20 @@
   ],
   "modern_countries": [
     "Russia",
-    "Kazakhstan",
-    "China",
     "Ukraine",
-    "Turkmenistan",
-    "Uzbekistan",
     "Belarus",
+    "Kazakhstan",
+    "Uzbekistan",
+    "Turkmenistan",
     "Kyrgyzstan",
     "Tajikistan",
     "Azerbaijan",
     "Georgia",
+    "Armenia",
+    "Moldova",
     "Latvia",
     "Lithuania",
-    "Estonia",
-    "Moldova",
-    "Armenia"
+    "Estonia"
   ],
   "overseas_countries": [],
   "borders": true,

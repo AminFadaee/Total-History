@@ -3,7 +3,7 @@
   "slug": "austria-hungary",
   "name": "Austria-Hungary",
   "wikipedia": "Austria-Hungary",
-  "map_year": 1918,
+  "map_year": 1914,
   "period": {
     "start": {
       "earliest": 1867,
@@ -71,20 +71,18 @@
     }
   ],
   "modern_countries": [
-    "Romania",
-    "Hungary",
     "Austria",
-    "Ukraine",
+    "Hungary",
     "Czechia",
-    "Serbia",
-    "Bosnia and Herzegovina",
-    "Croatia",
     "Slovakia",
-    "Moldova",
     "Slovenia",
-    "Albania",
-    "Montenegro",
-    "Kosovo"
+    "Croatia",
+    "Bosnia and Herzegovina",
+    "Poland",
+    "Ukraine",
+    "Romania",
+    "Serbia",
+    "Italy"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -118,15 +116,18 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Vienna",
     "labelled": [
+      "Russian Empire",
       "German Empire",
       "Kingdom of Italy",
-      "Kingdom of Bulgaria",
+      "Kingdom of Romania",
+      "Serbs",
       "Swiss Confederation",
-      "Serbia",
-      "Ottoman Empire",
       "French Third Republic",
+      "Kingdom of Bulgaria",
       "Kingdom of Greece",
-      "Kingdom of Belgium"
+      "Netherlands",
+      "Kingdom of Belgium",
+      "Albania"
     ]
   }
 }

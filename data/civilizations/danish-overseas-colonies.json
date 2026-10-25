@@ -73,8 +73,9 @@
     "identity": "Vital Articles state without Cliopatria borders",
     "home": "the spot held longest",
     "not_applicable": {
-      "before": "Denmark-Norway founded the colonies itself; no earlier state",
-      "after": "Greenland was incorporated into Denmark in 1953 and the other colonies were sold or handed over earlier, so there is no single successor; the Wikipedia sentence carries no citation, check against a reference book"
+      "before": "Denmark-Norway founded the colonies in the same year the card begins (1537), so it cannot precede them; no earlier state",
+      "after": "Greenland was incorporated into Denmark in 1953 and the other colonies were sold or handed over earlier, so there is no single successor; the Wikipedia sentence carries no citation, check against a reference book",
+      "map": "not drawn in Cliopatria"
     }
   }
 }

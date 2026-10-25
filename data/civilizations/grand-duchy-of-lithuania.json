@@ -38,7 +38,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q1656775",
+      "region": "Lithuania",
+      "name": "Kingdom of Lithuania",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q34266",
@@ -96,9 +103,6 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Vilnius",
-    "not_applicable": {
-      "before": "state formed from the Lithuanian tribes; check"
-    },
     "labelled": [
       "Blue Horde",
       "Novgorod Republic",

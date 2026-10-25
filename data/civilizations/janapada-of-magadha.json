@@ -30,7 +30,14 @@
     }
   ],
   "parts": [],
-  "before": [],
+  "before": [
+    {
+      "id": "Q6406219",
+      "region": "India",
+      "name": "Kikata Kingdom",
+      "home": true
+    }
+  ],
   "after": [
     {
       "id": "Q949268",
@@ -80,9 +87,6 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
-    "not_applicable": {
-      "before": "earliest janapada of the eastern Ganges plain; check"
-    },
     "labelled": [
       "Janapada of Anga",
       "Janapada of Malla",

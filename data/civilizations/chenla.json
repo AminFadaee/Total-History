@@ -27,14 +27,6 @@
         12.867283
       ],
       "founded": null
-    },
-    {
-      "name": "Vat Phou",
-      "location": [
-        105.81572222222222,
-        14.848916666666666
-      ],
-      "founded": null
     }
   ],
   "parts": [],
@@ -43,13 +35,13 @@
       "id": "Q867782",
       "region": "Cambodia",
       "name": "Funan",
-      "home": false
+      "home": true
     }
   ],
   "after": [
     {
       "id": "Q201705",
-      "region": "Laos",
+      "region": "Cambodia",
       "name": "Khmer Empire",
       "home": true
     }
@@ -93,9 +85,6 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Vat Phou",
-    "not_applicable": {
-      "before": "Funan, the predecessor, is already listed under Cambodia; the home site Vat Phou in Laos has no earlier state"
-    },
     "labelled": [
       "Lavo Kingdom"
     ]
