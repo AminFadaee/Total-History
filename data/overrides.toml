@@ -753,10 +753,10 @@ civilization_id = "Q844930"
 field = "period"
 action = "set"
 value = { start = -508, end = -322 }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/biography/Cleisthenes-of-Athens"
+quote = "Cleisthenes allied with the popular Assembly against the nobles (508) and imposed democratic reform."
+retrieved = 2026-10-25
+needs_verification = false
 
 [[override]]
 civilization = "Classical Athens"
@@ -766,11 +766,11 @@ action = "add"
 value = "Macedonia"
 value_id = "Q83958"
 region = "Greece"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Athens came under Macedonian control after the Lamian War, 322 BC"
+source = "https://www.britannica.com/event/Lamian-War"
+quote = "Lamian War , conflict in which Athenian independence was lost despite efforts by Athens and its Aetolian allies to free themselves from Macedonian domination after the death of Alexander the Great ."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica (archived copy, web.archive.org 2026-01-25)"
 
 [[override]]
 civilization = "Classical Athens"
@@ -2719,15 +2719,12 @@ note = "Francisco Franco removed: he ruled after the empire had shrunk to a few 
 civilization = "Spanish Empire"
 civilization_id = "Q80702"
 field = "after"
-action = "set"
-value = "Spain"
-value_id = "Q29"
-region = "Spain"
-source = "https://en.wikipedia.org/wiki/Spanish_Empire"
+action = "none"
+source = ""
 quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the empire ended in 1976; its home state continues as Spain; check"
+retrieved = 2026-10-25
+needs_verification = false
+note = "the empire ended as a phase of Spain's history, not by giving way to another state in Spain"
 
 [[override]]
 civilization = "Macedonia"
@@ -3290,11 +3287,11 @@ field = "capital"
 action = "add"
 value = "Constantinople"
 value_id = "Q16869"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "capital from 330 AD under Constantine; the empire lasted to 395"
+source = "https://www.britannica.com/place/Istanbul"
+quote = "In 330 CE, when Constantine the Great dedicated the city as his capital, he called it New Rome."
+retrieved = 2026-10-25
+needs_verification = false
+note = "Britannica"
 
 [[override]]
 civilization = "Roman Kingdom"
@@ -3313,10 +3310,10 @@ civilization = "Roman Kingdom"
 civilization_id = "Q201038"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/place/ancient-Rome"
+quote = "According to tradition, Romulus was Rome’s first king."
+retrieved = 2026-10-25
+needs_verification = false
 note = "earliest state of Rome"
 
 [[override]]
@@ -8550,11 +8547,11 @@ action = "set"
 value = "Russian Socialist Federative Soviet Republic"
 value_id = "Q2305208"
 region = "Russia"
-source = "https://en.wikipedia.org/wiki/Russian_Soviet_Federative_Socialist_Republic"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Russian SFSR (1918-1922) joined the Soviet Union at its creation in 1922 and stayed its largest republic"
+source = "https://en.wikipedia.org/wiki/Treaty_on_the_Creation_of_the_Union_of_Soviet_Socialist_Republics"
+quote = "The Treaty, along with the Declaration of the Creation of the USSR was approved on 30 December 1922 by a conference of delegations from the Russian SFSR, the Transcaucasian SFSR, the Ukrainian SSR and the Byelorussian SSR."
+retrieved = 2026-10-25
+needs_verification = false
+note = "cited in Wikipedia (footnotes 1-2)"
 
 [[override]]
 civilization = "Union of Soviet Socialist Republics"
