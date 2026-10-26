@@ -1720,11 +1720,13 @@ action = "add"
 value = "Umayyad Caliphate"
 value_id = "Q8575586"
 region = "Azerbaijan"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Arab conquest of Albania in the 7th century; Wikipedia: Sassanids ruled until the Arab invasions"
+sources = [
+  { fact = "Umayyad Caliphate took over the land or people of Caucasian Albania when it ended (around 705)", source = "https://en.wikipedia.org/wiki/Umayyad_Caliphate", quote = "By 705, Armenia was annexed by the Caliphate along with the principalities of Caucasian Albania and Iberia" },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "Caucasian Albania"
@@ -1985,10 +1987,15 @@ field = "key_figures"
 action = "set"
 value = ["Dido", "Hamilcar Barca", "Hasdrubal the Fair", "Hannibal"]
 value_id = ["Q905162", "Q185101", "Q311598", "Q36456"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
+sources = [
+  { fact = "Dido was a ruler or leading figure of Carthage", source = "https://www.worldhistory.org/Dido/", quote = "she founded the city of Carthage c. 813 BCE" },
+  { fact = "Hamilcar Barca was a ruler or leading figure of Carthage", source = "https://www.worldhistory.org/Hamilcar_Barca/", quote = "was a Carthaginian general active in the First Punic War" },
+  { fact = "Hasdrubal the Fair was a ruler or leading figure of Carthage", source = "https://en.wikipedia.org/wiki/Hasdrubal_the_Fair", quote = "was a Carthaginian military leader and politician, governor in Iberia after Hamilcar Barca's death" },
+  { fact = "Hannibal was a ruler or leading figure of Carthage", source = "https://www.worldhistory.org/hannibal/", quote = "Hannibal (also known as Hannibal Barca, l. 247-183 BCE) was a Carthaginian general" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Chagatai Khanate"
@@ -2620,11 +2627,16 @@ field = "key_figures"
 action = "set"
 value = ["Kujula Kadphises", "Vima Kadphises", "Kanishka", "Huvishka"]
 value_id = ["Q560157", "Q1275140", "Q312544", "Q1396420"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "from the standard list of Kushan emperors; source to check"
+sources = [
+  { fact = "Kujula Kadphises was a ruler or leading figure of Kushan Empire", source = "https://en.wikipedia.org/wiki/Kujula_Kadphises", quote = "He is considered the founder of the Kushan Empire." },
+  { fact = "Vima Kadphises was a ruler or leading figure of Kushan Empire", source = "https://en.wikipedia.org/wiki/Kushan_Empire", quote = "Vima Kadphises (Kushan script: Οοημο Καδφισης) was a Kushan emperor from around AD 95–127" },
+  { fact = "Kanishka was a ruler or leading figure of Kushan Empire", source = "https://en.wikipedia.org/wiki/Kanishka", quote = "Kanishka I, also known as Kanishka the Great, was an emperor of the Kushan dynasty, under whose reign (c. 127–150 CE) the empire reached its zenith" },
+  { fact = "Huvishka was a ruler or leading figure of Kushan Empire", source = "https://en.wikipedia.org/wiki/Huvishka", quote = "moving the centre of the Kushan Empire to the southern capital city of Mathura" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Kushan Empire"
@@ -3274,11 +3286,15 @@ field = "key_figures"
 action = "set"
 value = ["Simone Boccanegra", "Andrea Doria", "Giacomo Maria Brignole"]
 value_id = ["Q1974438", "Q156521", "Q1061644"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Andrea Doria (1466-1560) restored the republic in 1528 and is missing"
+sources = [
+  { fact = "Simone Boccanegra was a ruler or leading figure of Republic of Genoa", source = "https://www.treccani.it/enciclopedia/simone-boccanegra/", quote = "Primo doge di Genova" },
+  { fact = "Andrea Doria was a ruler or leading figure of Republic of Genoa", source = "https://www.treccani.it/enciclopedia/andrea-doria/", quote = "è stato un condottiero e ammiraglio della repubblica di Genova" },
+  { fact = "Giacomo Maria Brignole was a ruler or leading figure of Republic of Genoa", source = "https://en.wikipedia.org/wiki/Republic_of_Genoa", quote = "Genoese Jacobins, aided by French volunteers, moved to overthrow Doge Giacomo Maria Brignole" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Roman Empire"
@@ -3358,11 +3374,16 @@ field = "key_figures"
 action = "set"
 value = ["Simuka", "Gautamiputra Satakarni", "Vasishthiputra Pulumavi", "Yajna Sri Satakarni"]
 value_id = ["Q1568644", "Q1276014", "Q7916834", "Q3764500"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "rulers in order of time"
+sources = [
+  { fact = "Simuka was a ruler or leading figure of Satavahana Dynasty", source = "https://en.wikipedia.org/wiki/Simuka", quote = "He is mentioned as the first king in a list of royals in a Satavahana inscription at Nanaghat." },
+  { fact = "Gautamiputra Satakarni was a ruler or leading figure of Satavahana Dynasty", source = "https://en.wikipedia.org/wiki/Satavahana_dynasty", quote = "The Satavahana power was revived by Gautamiputra Satakarni, who is considered the greatest of the Satavahana rulers." },
+  { fact = "Vasishthiputra Pulumavi was a ruler or leading figure of Satavahana Dynasty", source = "https://en.wikipedia.org/wiki/Vasishthiputra_Pulumavi", quote = "was a Satavahana king, and the son of Gautamiputra Satakarni" },
+  { fact = "Yajna Sri Satakarni was a ruler or leading figure of Satavahana Dynasty", source = "https://en.wikipedia.org/wiki/Satavahana_dynasty", quote = "Later Satavahana kings like Gauthamiputra Satakarni, Vastistiputra pulamovi and Yajna Satakarni" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Scythia"
@@ -3685,11 +3706,15 @@ field = "key_figures"
 action = "set"
 value = ["Sabr ad-Din III", "Ahmad ibn Ibrahim al-Ghazi", "Nur ibn Mujahid"]
 value_id = ["Q7396320", "Q335728", "Q2593986"]
-source = "https://en.wikipedia.org/wiki/Adal_Sultanate"
-quote = "In the 16th century under the leadership of Imam Ahmed ibn Ibrahim al-Ghazi and his successor Nur ibn Mujahid, Adal embarked on the Conquest of Abyssinia"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Sabr ad-Din III was a ruler or leading figure of Adal Sultanate", source = "https://en.wikipedia.org/wiki/Adal_Sultanate", quote = "It was founded by Sabr ad-Din III on the Harar plateau in Adal" },
+  { fact = "Ahmad ibn Ibrahim al-Ghazi was a ruler or leading figure of Adal Sultanate", source = "https://en.wikipedia.org/wiki/Ahmad_ibn_Ibrahim_al-Ghazi", quote = "was the Imam of the Adal Sultanate from 1527 to 1543" },
+  { fact = "Nur ibn Mujahid was a ruler or leading figure of Adal Sultanate", source = "https://en.wikipedia.org/wiki/Nur_ibn_Mujahid", quote = "was an Emir of Harar who ruled over the Adal Sultanate" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Adal Sultanate"
@@ -4449,11 +4474,13 @@ action = "set"
 value = "Duchy of Burgundy"
 value_id = "Q4712"
 region = "Belgium"
-source = "https://en.wikipedia.org/wiki/County_of_Flanders"
-quote = "From 1384, the county was politically united to the Duchy of Burgundy , and it formed the starting point for more acquisitions in the area by the duchy, and the eventual creation of the Burgundian Netherlands ."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Duchy of Burgundy took over the land or people of County of Flanders when it ended (around 1384)", source = "https://en.wikipedia.org/wiki/Duchy_of_Burgundy", quote = "served to bring the wealthy counties of Flanders, Nevers and Rethel under the control of the dukes" },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "Cuman-Kipchak Confederation"
@@ -5396,11 +5423,13 @@ action = "set"
 value = "Electorate of Hanover"
 value_id = "Q706018"
 region = "Germany"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Hanover"
-quote = "It succeeded the former Electorate of Hanover , and joined 38 other sovereign states in the German Confederation in June 1815."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Kingdom of Hanover arose from, replaced or took over from Electorate of Hanover (around 1814)", source = "https://en.wikipedia.org/wiki/Electorate_of_Hanover", quote = "it was re-established as the Kingdom of Hanover in 1814" },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "Kingdom of Hanover"
@@ -5475,11 +5504,13 @@ action = "set"
 value = "Kingdom of Israel (united monarchy)"
 value_id = "Q3185305"
 region = "Palestine"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Israel_%28Samaria%29"
-quote = "For the biblical Israelite kingdom that is described as preceding this one, see Kingdom of Israel (united monarchy) ."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Kingdom of Israel (Samaria) arose from, replaced or took over from Kingdom of Israel (united monarchy) (around -930)", source = "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(united_monarchy)", quote = "in about 930 BCE (there are differences of opinion as to the actual year), the Kingdom of Israel and Judah splits into two kingdoms: the northern Kingdom of Israel" },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "Kingdom of Jerusalem"
@@ -5773,11 +5804,13 @@ field = "key_figures"
 action = "add"
 value = ["Mohammed Zahir Shah"]
 value_id = ["Q152265"]
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Afghanistan"
-quote = "He was succeeded by his son, Mohammad Zahir Shah , whose rule started in 1933 and lasted for 39 years."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Mohammed Zahir Shah was a ruler or leading figure of Kingdom of Afghanistan", source = "https://en.wikipedia.org/wiki/Mohammad_Zahir_Shah", quote = "was the last king of Afghanistan, reigning from 8 November 1933 until he was deposed on 17 July 1973" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Duchy of Milan"
@@ -5993,11 +6026,13 @@ action = "add"
 value = "Gorkha Kingdom"
 value_id = "Q3332217"
 region = "Nepal"
-source = "https://en.wikipedia.org/wiki/Gorkha_Kingdom"
-quote = "Dravya Shah's descendants eventually unified much of what is now Nepal under the leadership of Prithvi Narayan Shah, initiating the unification of Nepal in the 18th century."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Kingdom of Nepal arose from, replaced or took over from Gorkha Kingdom (around 1768)", source = "https://en.wikipedia.org/wiki/Gorkha_kingdom", quote = "the kingdom was renamed to the Kingdom of Nepal in 1768 CE" },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "Kingdom of Neustria"
@@ -7659,11 +7694,13 @@ action = "add"
 value = "Safavid Iran"
 value_id = "Q18234383"
 region = "Azerbaijan"
-source = "https://en.wikipedia.org/wiki/Shirvanshah"
-quote = "This ended in 1538 when Shah Tahmasp I"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Safavid Iran took over the land or people of Shirvan when it ended (around 1538)", source = "https://en.wikipedia.org/wiki/Shirvan", quote = "When the Shirvanshah Shah dynasty was ended by the Safavid Shah Tahmasp I, Shirwan formed a province of the Safavids" },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "South Africa"
@@ -7956,11 +7993,14 @@ field = "capital"
 action = "set"
 value = ["Bubastis", "Tanis"]
 value_id = ["Q603841", "Q210598"]
-source = "https://en.wikipedia.org/wiki/Twenty-second_Dynasty_of_Egypt"
-quote = "It is also known as the Bubastite Dynasty as the pharaohs originally ruled from the city of Bubastis."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "from the Wikipedia infobox: Bubastis, Tanis; cited in Wikipedia, footnote 2"
+sources = [
+  { fact = "Bubastis was a capital of Twenty-second Dynasty of Egypt", source = "https://en.wikipedia.org/wiki/Twenty-second_Dynasty_of_Egypt", quote = "the pharaohs originally ruled from the city of Bubastis" },
+  { fact = "Tanis was a capital of Twenty-second Dynasty of Egypt", source = "https://en.wikipedia.org/wiki/Tanis", quote = "Tanis was the capital of the Egyptian Kingdom in its 21st and 22nd Dynasties." },
+]
+derivation = "every listed capital is named a capital or seat of the state"
 
 [[override]]
 civilization = "Twenty-second Dynasty of Egypt"

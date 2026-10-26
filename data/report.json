@@ -5745,12 +5745,6 @@
     },
     {
       "civilization": "Caucasian Albania",
-      "field": "after",
-      "action": "add",
-      "value": "Umayyad Caliphate"
-    },
-    {
-      "civilization": "Caucasian Albania",
       "field": "before",
       "action": "none",
       "value": ""
@@ -5818,17 +5812,6 @@
         "Hussain Nizam Shah I",
         "Chand Bibi",
         "Malik Ambar"
-      ]
-    },
-    {
-      "civilization": "Carthage",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Dido",
-        "Hamilcar Barca",
-        "Hasdrubal the Fair",
-        "Hannibal"
       ]
     },
     {
@@ -5952,17 +5935,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Kushan Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Kujula Kadphises",
-        "Vima Kadphises",
-        "Kanishka",
-        "Huvishka"
-      ]
     },
     {
       "civilization": "Kushan Empire",
@@ -6150,16 +6122,6 @@
       "value": ""
     },
     {
-      "civilization": "Republic of Genoa",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Simone Boccanegra",
-        "Andrea Doria",
-        "Giacomo Maria Brignole"
-      ]
-    },
-    {
       "civilization": "Rouran Khaganate",
       "field": "capital",
       "action": "none",
@@ -6176,17 +6138,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Satavahana Dynasty",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Simuka",
-        "Gautamiputra Satakarni",
-        "Vasishthiputra Pulumavi",
-        "Yajna Sri Satakarni"
-      ]
     },
     {
       "civilization": "Srivijaya",
@@ -6315,16 +6266,6 @@
       "value": ""
     },
     {
-      "civilization": "Adal Sultanate",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Sabr ad-Din III",
-        "Ahmad ibn Ibrahim al-Ghazi",
-        "Nur ibn Mujahid"
-      ]
-    },
-    {
       "civilization": "Afsharid Iran",
       "field": "after",
       "action": "set",
@@ -6427,12 +6368,6 @@
       "field": "before",
       "action": "set",
       "value": "West Francia"
-    },
-    {
-      "civilization": "County of Flanders",
-      "field": "after",
-      "action": "set",
-      "value": "Duchy of Burgundy"
     },
     {
       "civilization": "Cuman-Kipchak Confederation",
@@ -6603,12 +6538,6 @@
       "value": "Colony of Fiji"
     },
     {
-      "civilization": "Kingdom of Hanover",
-      "field": "before",
-      "action": "set",
-      "value": "Electorate of Hanover"
-    },
-    {
       "civilization": "Kingdom of Hawaï'i",
       "field": "before",
       "action": "none",
@@ -6630,12 +6559,6 @@
         "Kalākaua",
         "Liliʻuokalani"
       ]
-    },
-    {
-      "civilization": "Kingdom of Israel (Samaria)",
-      "field": "before",
-      "action": "set",
-      "value": "Kingdom of Israel (united monarchy)"
     },
     {
       "civilization": "Kingdom of Jerusalem",
@@ -6689,14 +6612,6 @@
         "Sher Ali Khan",
         "Abdur Rahman Khan",
         "Amanullah Khan"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Afghanistan",
-      "field": "key_figures",
-      "action": "add",
-      "value": [
-        "Mohammed Zahir Shah"
       ]
     },
     {
@@ -6804,12 +6719,6 @@
       "field": "map_year",
       "action": "set",
       "value": 1800
-    },
-    {
-      "civilization": "Kingdom of Nepal",
-      "field": "before",
-      "action": "add",
-      "value": "Gorkha Kingdom"
     },
     {
       "civilization": "Kingdom of Neustria",
@@ -7256,12 +7165,6 @@
       "value": "Abbasid Caliphate"
     },
     {
-      "civilization": "Shirvan",
-      "field": "after",
-      "action": "add",
-      "value": "Safavid Iran"
-    },
-    {
       "civilization": "South Africa",
       "field": "key_figures",
       "action": "set",
@@ -7334,15 +7237,6 @@
         "end": 500,
         "circa": true
       }
-    },
-    {
-      "civilization": "Twenty-second Dynasty of Egypt",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "Bubastis",
-        "Tanis"
-      ]
     },
     {
       "civilization": "Twenty-second Dynasty of Egypt",
