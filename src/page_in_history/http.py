@@ -27,7 +27,15 @@ class Http:
         path = self.cache_dir / namespace / key[:2] / f"{key}.json"
         if path.exists():
             return json.loads(path.read_text())
-        data = self._get(url, params, accept="application/json").json()
+        for attempt in range(RETRIES):
+            try:
+                data = self._get(url, params, accept="application/json").json()
+                break
+            except requests.JSONDecodeError:
+                if attempt == RETRIES - 1:
+                    raise
+                logger.warning("Retrying %s after a cut-off response", url)
+                time.sleep(BACKOFF_SECONDS * (attempt + 1))
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(data))
         return data
