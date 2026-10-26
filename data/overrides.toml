@@ -459,11 +459,16 @@ field = "key_figures"
 action = "set"
 value = ["Đinh Bộ Lĩnh", "Lý Thái Tổ", "Lê Lợi", "Lê Thánh Tông"]
 value_id = ["Q1184365", "Q716945", "Q1195391", "Q1771050"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "rulers in time order; check"
+sources = [
+  { fact = "Đinh Bộ Lĩnh was a ruler or leading figure of Đại Việt", source = "https://en.wikipedia.org/wiki/Đại_Việt", quote = "Đại Cồ Việt was the name chosen by Đinh Bộ Lĩnh for his realm when he declared himself emperor in 966." },
+  { fact = "Lý Thái Tổ was a ruler or leading figure of Đại Việt", source = "https://www.britannica.com/biography/Ly-Thai-To", quote = "Dai Viet, was established by Ly Thai To in the Red River Delta area of present northern Vietnam" },
+  { fact = "Lê Lợi was a ruler or leading figure of Đại Việt", source = "https://www.britannica.com/biography/Le-Loi", quote = "was a Vietnamese general and emperor who won back independence for Vietnam from China in 1428" },
+  { fact = "Lê Thánh Tông was a ruler or leading figure of Đại Việt", source = "https://www.britannica.com/biography/Le-Thanh-Tong", quote = "was the greatest ruler of the Later Le dynasty (q.v.; 1428–1788) in Vietnam" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Ajuran Sultanate"
@@ -2065,11 +2070,16 @@ field = "key_figures"
 action = "set"
 value = ["Labarna I", "Mursili I", "Suppiluliuma I", "Puduḫepa"]
 value_id = ["Q313312", "Q222536", "Q354903", "Q268887"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Labarna I came before Mursili I, which the old order had reversed"
+sources = [
+  { fact = "Labarna I was a ruler or leading figure of Hittites", source = "https://en.wikipedia.org/wiki/Labarna_I", quote = "He was the traditional founder of the Hittite Old Kingdom." },
+  { fact = "Mursili I was a ruler or leading figure of Hittites", source = "https://www.britannica.com/biography/Mursilis-I", quote = "was a Hittite king during the Old Kingdom" },
+  { fact = "Suppiluliuma I was a ruler or leading figure of Hittites", source = "https://www.worldhistory.org/Suppiluliuma_I/", quote = "Suppiluliuma I (1344-1322 BCE) is considered the most powerful and impressive king of the Hittite Empire." },
+  { fact = "Puduḫepa was a ruler or leading figure of Hittites", source = "https://www.britannica.com/biography/Puduhepa", quote = "The powerful Hittite queen Puduhepa" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Khazaria"
@@ -4640,11 +4650,16 @@ field = "key_figures"
 action = "set"
 value = ["Amadeus VIII of Savoy", "Emmanuel Philibert, Duke of Savoy", "Charles Emmanuel I, Duke of Savoy", "Victor Amadeus II of Sardinia"]
 value_id = ["Q312636", "Q76508", "Q318091", "Q209579"]
-source = "https://en.wikipedia.org/wiki/Duchy_of_Savoy"
-quote = "By the Treaty of London , Victor Amadeus II reluctantly exchanged Sicily for Sardinia in 1720."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "replaces Charles Albert of Sardinia, a nineteenth-century king of the later kingdom; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Amadeus VIII of Savoy was a ruler or leading figure of Duchy of Savoy", source = "https://www.britannica.com/biography/Amadeus-VIII", quote = "was the count (1391–1416) and duke (1416–40) of Savoy" },
+  { fact = "Emmanuel Philibert, Duke of Savoy was a ruler or leading figure of Duchy of Savoy", source = "https://www.britannica.com/biography/Emmanuel-Philibert", quote = "was the duke of Savoy who recovered most of the lands his father Charles III had lost to France and Spain" },
+  { fact = "Charles Emmanuel I, Duke of Savoy was a ruler or leading figure of Duchy of Savoy", source = "https://www.britannica.com/biography/Charles-Emmanuel-I", quote = "was the duke of Savoy who alternated alliances with France and Spain" },
+  { fact = "Victor Amadeus II of Sardinia was a ruler or leading figure of Duchy of Savoy", source = "https://www.britannica.com/biography/Victor-Amadeus-II", quote = "was the duke of Savoy who through his diplomacy became the first king of Sardinia-Piedmont" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Dutch Cape Colony"
@@ -4950,11 +4965,13 @@ action = "set"
 value = "Uqaylid dynasty"
 value_id = "Q1760404"
 region = "Iraq"
-source = "https://en.wikipedia.org/wiki/Hamdanid_dynasty"
-quote = "After this, their area of control in northern Iraq was divided between the Uqaylids and the Marwanids ."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Uqaylid dynasty took over the land or people of Hamdanid Emirates when it ended (around 1004)", source = "https://www.britannica.com/topic/Uqaylid-Dynasty", quote = "eventually succeeded the Ḥamdānids as emir of Mosul" },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "Hausa Kingdoms"
@@ -5490,11 +5507,16 @@ field = "key_figures"
 action = "set"
 value = ["Kamehameha I", "Kamehameha III", "Kalākaua", "Liliʻuokalani"]
 value_id = ["Q214910", "Q455795", "Q163080", "Q107288"]
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Hawaii"
-quote = "Two major dynastic families ruled the kingdom, the House of Kamehameha and the House of Kalākaua ."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Kamehameha I was a ruler or leading figure of Kingdom of Hawaï'i", source = "https://www.britannica.com/biography/Kamehameha-I", quote = "was a Hawaiian conqueror and king who, by 1810, had united all the Hawaiian islands" },
+  { fact = "Kamehameha III was a ruler or leading figure of Kingdom of Hawaï'i", source = "https://www.britannica.com/biography/Kamehameha-III", quote = "was the king of Hawaii from 1825 to 1854" },
+  { fact = "Kalākaua was a ruler or leading figure of Kingdom of Hawaï'i", source = "https://www.britannica.com/biography/Kalakaua", quote = "was the king of Hawaii from 1874 to 1891" },
+  { fact = "Liliʻuokalani was a ruler or leading figure of Kingdom of Hawaï'i", source = "https://www.britannica.com/biography/Liliuokalani", quote = "was the first and only reigning Hawaiian queen" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Kingdom of Israel (Samaria)"
@@ -5778,11 +5800,16 @@ field = "key_figures"
 action = "set"
 value = ["Sancho VI of Navarre", "Charles II of Navarre", "Joan I of Navarre", "Henry IV of France"]
 value_id = ["Q318258", "Q43082", "Q229189", "Q936976"]
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Navarre"
-quote = "After the death of his mother (1349), King Charles II assumed the reins of government (1349–87)."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "replaces Isabella II, the nineteenth-century queen of Spain in whose reign the kingdom lost its status; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Sancho VI of Navarre was a ruler or leading figure of Kingdom of Navarre", source = "https://www.britannica.com/biography/Sancho-VI", quote = "was the king of Navarre (Pamplona) from 1150" },
+  { fact = "Charles II of Navarre was a ruler or leading figure of Kingdom of Navarre", source = "https://www.britannica.com/biography/Charles-II-king-of-Navarre", quote = "was the king of Navarre from 1349" },
+  { fact = "Joan I of Navarre was a ruler or leading figure of Kingdom of Navarre", source = "https://en.wikipedia.org/wiki/Joan_I_of_Navarre", quote = "she became Countess of Champagne and Queen of Navarre" },
+  { fact = "Henry IV of France was a ruler or leading figure of Kingdom of Navarre", source = "https://www.britannica.com/biography/Henry-IV-king-of-France", quote = "was the king of Navarre (as Henry III, 1572–89)" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Emirate of Afghanistan"
@@ -5791,11 +5818,16 @@ field = "key_figures"
 action = "set"
 value = ["Dost Mohammad Khan", "Sher Ali Khan", "Abdur Rahman Khan", "Amanullah Khan"]
 value_id = ["Q32027", "Q40427", "Q31649", "Q153620"]
-source = "https://en.wikipedia.org/wiki/Emirate_of_Afghanistan"
-quote = "Upon the death of Dost Mohammad in 1863, he was succeeded by his son, Sher Ali Khan ."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Dost Mohammad Khan was a ruler or leading figure of Emirate of Afghanistan", source = "https://en.wikipedia.org/wiki/Dost_Mohammad_Khan", quote = "he succeeded his brother Sultan Mohammad Khan, and became the Emir of Afghanistan in 1826" },
+  { fact = "Sher Ali Khan was a ruler or leading figure of Emirate of Afghanistan", source = "https://www.britannica.com/biography/Shir-Ali-Khan", quote = "was the emir of Afghanistan from 1863 to 1879" },
+  { fact = "Abdur Rahman Khan was a ruler or leading figure of Emirate of Afghanistan", source = "https://en.wikipedia.org/wiki/Abdur_Rahman_Khan", quote = "was Emir of Afghanistan from 11 August 1880 until his death on 1 October 1901" },
+  { fact = "Amanullah Khan was a ruler or leading figure of Emirate of Afghanistan", source = "https://en.wikipedia.org/wiki/Emirate_of_Afghanistan", quote = "was crowned 1926 Padshah (king) of Afghanistan" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Kingdom of Afghanistan"
@@ -5819,11 +5851,16 @@ field = "key_figures"
 action = "set"
 value = ["Gian Galeazzo Visconti", "Filippo Maria Visconti", "Francesco I Sforza", "Ludovico Sforza"]
 value_id = ["Q357539", "Q289285", "Q310536", "Q236853"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the founder Gian Galeazzo Visconti and the last Visconti duke come before the Sforza; replaces Gian Galeazzo Sforza and Maximilian Sforza, minor dukes"
+sources = [
+  { fact = "Gian Galeazzo Visconti was a ruler or leading figure of Duchy of Milan", source = "https://en.wikipedia.org/wiki/Duchy_of_Milan", quote = "was a state in Northern Italy, created in 1395 by Gian Galeazzo Visconti, then the lord of Milan" },
+  { fact = "Filippo Maria Visconti was a ruler or leading figure of Duchy of Milan", source = "https://www.britannica.com/biography/Filippo-Maria-Visconti", quote = "In the 1420s, under Filippo Maria, Milan began to expand again" },
+  { fact = "Francesco I Sforza was a ruler or leading figure of Duchy of Milan", source = "https://www.britannica.com/biography/Francesco-Sforza-duke-of-Milan-1401-1466", quote = "as duke of Milan, founded a dynasty that ruled for nearly a century" },
+  { fact = "Ludovico Sforza was a ruler or leading figure of Duchy of Milan", source = "https://www.britannica.com/biography/Ludovico-Sforza", quote = "duke of Milan (1494–98)" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "French Second Republic"
@@ -5858,11 +5895,16 @@ field = "key_figures"
 action = "set"
 value = ["Nagabhata I", "Vatsaraja", "Nagabhata II", "Mihira Bhoja"]
 value_id = ["Q6958307", "Q7917182", "Q6958310", "Q1279558"]
-source = "https://en.wikipedia.org/wiki/Gurjara-Pratihara_dynasty"
-quote = "Vatsaraja was succeeded by Nagabhata II (805–833), who was initially defeated by the Rashtrakuta ruler Govinda III (793–814), but later recovered Malwa from the Rashtrakutas, conquered Kannauj and the Indo-Gangetic Plain as far as Bihar from the Palas, and again checked the Muslims in the west."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Nagabhata I was a ruler or leading figure of Gurjara-Pratihara Dynasty", source = "https://en.wikipedia.org/wiki/Nagabhata_I", quote = "Nagabhata has been named as the founder of the imperial Pratihara dynasty" },
+  { fact = "Vatsaraja was a ruler or leading figure of Gurjara-Pratihara Dynasty", source = "https://www.britannica.com/biography/Vatsaraja", quote = "a Pratihara ruler who came to the throne about 778" },
+  { fact = "Nagabhata II was a ruler or leading figure of Gurjara-Pratihara Dynasty", source = "https://en.wikipedia.org/wiki/Nagabhata_II", quote = "He ascended the Pratihara throne after his father Vatsraja." },
+  { fact = "Mihira Bhoja was a ruler or leading figure of Gurjara-Pratihara Dynasty", source = "https://www.britannica.com/topic/Gurjara-Pratihara-dynasty", quote = "Under Bhoja and his successor Mahendrapala (reigned c. 890–910), the Pratihara empire reached its peak of prosperity and power" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Ghassanids"
@@ -5884,11 +5926,16 @@ field = "key_figures"
 action = "set"
 value = ["Chikka Devaraja", "Hyder Ali", "Tipu Sultan", "Krishna Raja Wadiyar IV"]
 value_id = ["Q5097433", "Q1569078", "Q10088", "Q2429324"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "adds the Wodeyar kings before and after Hyder Ali and Tipu"
+sources = [
+  { fact = "Chikka Devaraja was a ruler or leading figure of Kingdom of Mysore", source = "https://en.wikipedia.org/wiki/Chikka_Devaraja", quote = "was the fourteenth maharaja of the Kingdom of Mysore from 1673 to 1704" },
+  { fact = "Hyder Ali was a ruler or leading figure of Kingdom of Mysore", source = "https://en.wikipedia.org/wiki/Kingdom_of_Mysore", quote = "real power lay in the hands of Hyder Ali and his son Tipu" },
+  { fact = "Tipu Sultan was a ruler or leading figure of Kingdom of Mysore", source = "https://www.britannica.com/biography/Tipu-Sultan", quote = "was the sultan (king) of the Kingdom of Mysore, who reigned from December 1782 until his death in 1799" },
+  { fact = "Krishna Raja Wadiyar IV was a ruler or leading figure of Kingdom of Mysore", source = "https://en.wikipedia.org/wiki/Krishna_Raja_Wadiyar_IV", quote = "The yuvaraja was invested as the Maharaja of Mysore, with full ruling powers" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Jalayirid Sultanate"
@@ -6228,11 +6275,16 @@ field = "key_figures"
 action = "set"
 value = ["Kenneth MacAlpin", "Alexander III of Scotland", "Robert the Bruce", "James IV of Scotland"]
 value_id = ["Q298263", "Q211109", "Q187312", "Q137906"]
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Scotland"
-quote = "Under James IV the legal functions of the council were rationalised, with Court of Session meeting daily in Edinburgh."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "James IV replaces Charles I of England, who ruled Scotland only as a second crown; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Kenneth MacAlpin was a ruler or leading figure of Kingdom of Scotland", source = "https://www.britannica.com/biography/Kenneth-I", quote = "was the first king of the united Scots of Dalriada and the Picts and so of Scotland" },
+  { fact = "Alexander III of Scotland was a ruler or leading figure of Kingdom of Scotland", source = "https://www.worldhistory.org/Alexander_III_of_Scotland/", quote = "Alexander III of Scotland reigned from 1249 to 1286 CE." },
+  { fact = "Robert the Bruce was a ruler or leading figure of Kingdom of Scotland", source = "https://www.worldhistory.org/Robert_the_Bruce/", quote = "reigned as King of Scotland from 1306 to 1329 CE" },
+  { fact = "James IV of Scotland was a ruler or leading figure of Kingdom of Scotland", source = "https://www.worldhistory.org/James_IV_of_Scotland/", quote = "James IV of Scotland ruled as king from 1488 to 1513." },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Kingdom of Serbia"
@@ -6445,11 +6497,14 @@ field = "key_figures"
 action = "set"
 value = ["Nurhaci", "Hong Taiji"]
 value_id = ["Q311189", "Q296367"]
-source = "https://en.wikipedia.org/wiki/Later_Jin_(1616–1636)"
-quote = "He died a few months later and was succeeded by his eighth son, Hong Taiji, who emerged after a short political struggle amongst other potential contenders as the new khan."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Nurhaci was a ruler or leading figure of Later Jin Dynasty", source = "https://en.wikipedia.org/wiki/Nurhaci", quote = "was the founding khan of the Jurchen-led Later Jin dynasty" },
+  { fact = "Hong Taiji was a ruler or leading figure of Later Jin Dynasty", source = "https://www.britannica.com/biography/Abahai", quote = "Abahai changed his dynastic name from Jin to Qing" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Later Tang"
@@ -6552,11 +6607,15 @@ field = "key_figures"
 action = "set"
 value = ["Albert the Bear", "Frederick I of Brandenburg", "Frederick William, the Great Elector"]
 value_id = ["Q156041", "Q61336", "Q152727"]
-source = "https://en.wikipedia.org/wiki/Margraviate_of_Brandenburg"
-quote = "With bloody victories on 11 June 1157, Albert the Bear was able to reconquer Brandenburg, exile Jaxa, and found a new lordship."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "replaces Frederick William III, who was King of Prussia; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Albert the Bear was a ruler or leading figure of Margraviate of Brandenburg", source = "https://www.britannica.com/biography/Albert-I-margrave-of-Brandenburg", quote = "was the first margrave of Brandenburg and founder of the Ascanian dynasties" },
+  { fact = "Frederick I of Brandenburg was a ruler or leading figure of Margraviate of Brandenburg", source = "https://www.britannica.com/biography/Frederick-I-elector-of-Brandenburg", quote = "was the elector of Brandenburg from 1417" },
+  { fact = "Frederick William, the Great Elector was a ruler or leading figure of Margraviate of Brandenburg", source = "https://www.britannica.com/biography/Frederick-William-elector-of-Brandenburg", quote = "was the elector of Brandenburg (1640–88)" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Mataram Kingdom"
@@ -6926,11 +6985,16 @@ field = "key_figures"
 action = "set"
 value = ["Theodore I Laskaris", "John III Doukas Vatatzes", "Theodore II Laskaris", "Michael VIII Palaiologos"]
 value_id = ["Q37086", "Q37072", "Q37082", "Q200033"]
-source = "https://en.wikipedia.org/wiki/Empire_of_Nicaea"
-quote = "1204–1222 Theodore I Laskaris"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "adds the founder Theodore I and drops John IV, a child emperor deposed after a few months; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Theodore I Laskaris was a ruler or leading figure of Nicaean Empire", source = "https://www.britannica.com/biography/Theodore-I-Lascaris", quote = "was the first emperor of Nicaea" },
+  { fact = "John III Doukas Vatatzes was a ruler or leading figure of Nicaean Empire", source = "https://www.worldhistory.org/Empire_of_Nicaea/", quote = "who became the most important Nicaean emperor" },
+  { fact = "Theodore II Laskaris was a ruler or leading figure of Nicaean Empire", source = "https://www.britannica.com/biography/Theodore-II-Lascaris", quote = "was a Byzantine emperor of Nicaea" },
+  { fact = "Michael VIII Palaiologos was a ruler or leading figure of Nicaean Empire", source = "https://en.wikipedia.org/wiki/Michael_VIII_Palaiologos", quote = "transformed the Empire of Nicaea into a restored Byzantine Empire" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Nicaean Empire"
@@ -7441,11 +7505,16 @@ field = "key_figures"
 action = "set"
 value = ["Mustafa Kemal Atatürk", "İsmet İnönü", "Celâl Bayar", "Cemal Gürsel"]
 value_id = ["Q5152", "Q183297", "Q151735", "Q159161"]
-source = "https://en.wikipedia.org/wiki/List_of_presidents_of_Turkey"
-quote = "Cemal Gürsel 4 years and 153 days"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "reordered by time: Atatürk 1923, Inonu 1938, Bayar 1950, Gursel 1960; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Mustafa Kemal Atatürk was a ruler or leading figure of Republic of Turkey", source = "https://www.britannica.com/biography/Kemal-Ataturk", quote = "was the founder and first president (1923–38) of the Republic of Turkey" },
+  { fact = "İsmet İnönü was a ruler or leading figure of Republic of Turkey", source = "https://en.wikipedia.org/wiki/İsmet_İnönü", quote = "served as the president of Turkey from 1938 to 1950" },
+  { fact = "Celâl Bayar was a ruler or leading figure of Republic of Turkey", source = "https://en.wikipedia.org/wiki/Celâl_Bayar", quote = "parliament elected him as president of Turkey on 22 May 1950" },
+  { fact = "Cemal Gürsel was a ruler or leading figure of Republic of Turkey", source = "https://www.treccani.it/enciclopedia/cemal-gursel/", quote = "si trovava alla testa della giunta militare (Comitato d'unione nazionale) che il 27 maggio abbatteva il regime Menderes e assumeva il governo del paese" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Rustamid dynasty"
@@ -7653,11 +7722,14 @@ field = "capital"
 action = "set"
 value = ["Shamakhi", "Baku"]
 value_id = ["Q388224", "Q9248"]
-source = "https://en.wikipedia.org/wiki/Shirvanshah"
-quote = "The Shirvanshahs, throughout their history, made persistent efforts to also control Layzan, Quba, Maskat and Bab al-Abwab (Darband) to the north, and Baku to the south."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "seats of the Shirvanshahs: Shamakhi until the 16th century earthquakes, Baku after 1191 and 1500s; cited in Wikipedia, footnote 6"
+sources = [
+  { fact = "Shamakhi was a capital of Shirvan", source = "https://en.wikipedia.org/wiki/Shamakhi", quote = "the capital of Shirvan was transferred to Baku twice" },
+  { fact = "Baku was a capital of Shirvan", source = "https://www.britannica.com/place/Baku", quote = "Baku was in the possession of the Shīrvān-Shāhs, who made it their capital in the 12th century" },
+]
+derivation = "every listed capital is named a capital or seat of the state"
 
 [[override]]
 civilization = "Shirvan"
@@ -7720,11 +7792,16 @@ field = "key_figures"
 action = "set"
 value = ["Jan Smuts", "D. F. Malan", "Hendrik Verwoerd", "Nelson Mandela"]
 value_id = ["Q214321", "Q317449", "Q297000", "Q8023"]
-source = "https://en.wikipedia.org/wiki/Nelson_Mandela"
-quote = "Mandela and de Klerk negotiated an end to apartheid and organised the 1994 multiracial general election in which Mandela led the ANC to victory and became President."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Nelson Mandela replaces Albert Luthuli, an ANC leader who was never head of government; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Jan Smuts was a ruler or leading figure of South Africa", source = "https://www.britannica.com/biography/Jan-Smuts", quote = "was a South African statesman, soldier, and prime minister (1919–24, 1939–48)" },
+  { fact = "D. F. Malan was a ruler or leading figure of South Africa", source = "https://www.britannica.com/biography/Daniel-F-Malan", quote = "formed South Africa’s first exclusively Afrikaner government" },
+  { fact = "Hendrik Verwoerd was a ruler or leading figure of South Africa", source = "https://www.britannica.com/biography/Hendrik-Frensch-Verwoerd", quote = "as prime minister (1958–66), rigorously developed and applied the policy of apartheid" },
+  { fact = "Nelson Mandela was a ruler or leading figure of South Africa", source = "https://www.britannica.com/biography/Nelson-Mandela", quote = "was a Black nationalist and the first Black president of South Africa (1994–99)" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "South African Republic"
@@ -7803,11 +7880,16 @@ field = "key_figures"
 action = "set"
 value = ["Gustavus Adolphus", "Christina, Queen of Sweden", "Charles X Gustav", "Charles XII"]
 value_id = ["Q52938", "Q52937", "Q52936", "Q52934"]
-source = "https://en.wikipedia.org/wiki/Swedish_Empire"
-quote = "Although the reign of Charles XII would see initial Swedish victories in the Peace of Travendal (1700) and the Treaty of Altranstädt (1706), he would go on to lead a campaign in Russia that would end in a decisive defeat at the Battle of Poltava."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Gustavus Adolphus was a ruler or leading figure of Swedish Empire", source = "https://www.britannica.com/biography/Gustav-II-Adolf", quote = "was the king of Sweden (1611–32)" },
+  { fact = "Christina, Queen of Sweden was a ruler or leading figure of Swedish Empire", source = "https://en.wikipedia.org/wiki/Christina,_Queen_of_Sweden", quote = "was Queen of Sweden from 1632 until her abdication in 1654" },
+  { fact = "Charles X Gustav was a ruler or leading figure of Swedish Empire", source = "https://en.wikipedia.org/wiki/Swedish_Empire", quote = "under the rule of Charles X Gustav (1654–1660)" },
+  { fact = "Charles XII was a ruler or leading figure of Swedish Empire", source = "https://www.britannica.com/biography/Charles-XII", quote = "was the king of Sweden (1697–1718)" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Swiss Confederation"
@@ -8095,11 +8177,16 @@ field = "key_figures"
 action = "set"
 value = ["George V", "Edward VIII", "George VI", "Winston Churchill"]
 value_id = ["Q269412", "Q590227", "Q280856", "Q8016"]
-source = "https://en.wikipedia.org/wiki/George_V"
-quote = "George V (George Frederick Ernest Albert; 3 June 1865"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "reordered by time: George V 1910, Edward VIII 1936, George VI 1936, Churchill from 1940; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "George V was a ruler or leading figure of United Kingdom", source = "https://www.britannica.com/biography/George-V-king-of-United-Kingdom", quote = "was the king of the United Kingdom from 1910 to 1936" },
+  { fact = "Edward VIII was a ruler or leading figure of United Kingdom", source = "https://en.wikipedia.org/wiki/Edward_VIII", quote = "was King of the United Kingdom and the British Dominions, and Emperor of India, from 20 January 1936 until his abdication in December of the same year" },
+  { fact = "George VI was a ruler or leading figure of United Kingdom", source = "https://www.britannica.com/biography/George-VI", quote = "was the king of the United Kingdom from 1936 to 1952" },
+  { fact = "Winston Churchill was a ruler or leading figure of United Kingdom", source = "https://www.britannica.com/biography/Winston-Churchill", quote = "as prime minister (1940–45, 1951–55) rallied the British people during World War II" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "United Kingdom"
@@ -8599,11 +8686,27 @@ civilization_id = "Q15180"
 field = "modern_countries"
 action = "set"
 value = ["Russia", "Ukraine", "Belarus", "Kazakhstan", "Uzbekistan", "Turkmenistan", "Kyrgyzstan", "Tajikistan", "Azerbaijan", "Georgia", "Armenia", "Moldova", "Latvia", "Lithuania", "Estonia"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the fifteen union republics; China was never part of the USSR; check"
+sources = [
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Russia", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Ukraine", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Belarus", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Kazakhstan", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Uzbekistan", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Turkmenistan", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Kyrgyzstan", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Tajikistan", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Azerbaijan", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Georgia", source = "https://www.treccani.it/enciclopedia/urss/", quote = "come unione di RSFSR, Ucraina, Bielorussia e Federazione transcaucasica (Armenia, Georgia e Azerbaigian)" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Armenia", source = "https://www.treccani.it/enciclopedia/urss/", quote = "come unione di RSFSR, Ucraina, Bielorussia e Federazione transcaucasica (Armenia, Georgia e Azerbaigian)" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Moldova", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Latvia", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Lithuania", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+  { fact = "Union of Soviet Socialist Republics territory included part of present-day Estonia", source = "https://www.britannica.com/place/Soviet-Union", quote = "consisting of 15 Soviet Socialist Republics (S.S.R.’s): Armenia, Azerbaijan, Belorussia (now Belarus), Estonia, Georgia, Kazakhstan, Kirgiziya (now Kyrgyzstan), Latvia, Lithuania, Moldavia (now Moldova), Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan" },
+]
+derivation = "One sub-fact per country: Union of Soviet Socialist Republics included part of each present-day country"
 
 [[override]]
 civilization = "Russian Republic"
