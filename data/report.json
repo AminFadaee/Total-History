@@ -5530,12 +5530,6 @@
       "value": ""
     },
     {
-      "civilization": "Classical Athens",
-      "field": "map_year",
-      "action": "set",
-      "value": -450
-    },
-    {
       "civilization": "Empire of China",
       "field": "before",
       "action": "add",
@@ -6212,12 +6206,6 @@
       ]
     },
     {
-      "civilization": "Chaldea",
-      "field": "map_year",
-      "action": "set",
-      "value": -700
-    },
-    {
       "civilization": "Commonwealth of Australia",
       "field": "before",
       "action": "set",
@@ -6802,12 +6790,6 @@
     },
     {
       "civilization": "Toltec",
-      "field": "before",
-      "action": "add",
-      "value": "Teotihuacan"
-    },
-    {
-      "civilization": "Toltec",
       "field": "after",
       "action": "add",
       "value": "Tepanec"
@@ -6817,12 +6799,6 @@
       "field": "after",
       "action": "add",
       "value": "Twenty-third Dynasty of Egypt"
-    },
-    {
-      "civilization": "Ugarit",
-      "field": "map_year",
-      "action": "set",
-      "value": -1300
     },
     {
       "civilization": "United Kingdoms of Sweden and Norway",

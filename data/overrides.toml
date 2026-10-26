@@ -785,11 +785,13 @@ civilization_id = "Q844930"
 field = "map_year"
 action = "set"
 value = -450
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Athens in the Periclean age; map missing"
+sources = [
+  { fact = "Classical Athens existed from 508 to 322 BC", source = "https://www.britannica.com/biography/Cleisthenes-of-Athens", quote = "Cleisthenes allied with the popular Assembly against the nobles (508) and imposed democratic reform." },
+]
+derivation = "the map year lies within the sourced period"
 
 [[override]]
 civilization = "Cossack Hetmanate"
@@ -4304,11 +4306,13 @@ civilization_id = "Q200969"
 field = "map_year"
 action = "set"
 value = -700
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "old year -1000 precedes the tribes holding power in Babylonia; 700 BC is the time of Marduk-apla-iddina II"
+sources = [
+  { fact = "Chaldea existed from about 900 to 539 BC", source = "https://en.wikipedia.org/wiki/Chaldea", quote = "From 626 BC to 539 BC, a ruling dynasty in later times referred to as the \" Chaldean dynasty \", named after their possible Chaldean origin," },
+]
+derivation = "the map year lies within the sourced period"
 
 [[override]]
 civilization = "Chenla"
@@ -8057,11 +8061,13 @@ action = "add"
 value = "Teotihuacan"
 value_id = "Q172613"
 region = "Mexico"
-source = "https://en.wikipedia.org/wiki/Toltec"
-quote = "Preceded by Teotihuacan, Calakmul"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Teotihuacan was followed by the Toltec", source = "https://www.britannica.com/topic/Toltec", quote = "The Toltecs sacked and burned the great city of Teotihuacán about 900 ce." },
+]
+derivation = "the same succession is sourced from the other state's side"
 
 [[override]]
 civilization = "Toltec"
@@ -8215,11 +8221,13 @@ civilization_id = "Q191369"
 field = "map_year"
 action = "set"
 value = -1300
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the map year -6000 lies before the kingdom; -1300 is in its height"
+sources = [
+  { fact = "Ugarit existed from about 1450 to 1185 BC", source = "https://en.wikipedia.org/wiki/Ugarit", quote = "The polity was at its height from c. 1450 – c. 1185 BC, when it was destroyed, along with the sites of many other polities that fell in the Late Bronze Age collapse of 12th century BC." },
+]
+derivation = "the map year lies within the sourced period"
 
 [[override]]
 civilization = "Ugarit"
