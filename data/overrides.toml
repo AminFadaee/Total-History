@@ -1260,10 +1260,15 @@ field = "key_figures"
 action = "set"
 value = ["Uldin", "Rugila", "Bleda", "Attila"]
 value_id = ["Q353054", "Q334273", "Q313490", "Q36724"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
+sources = [
+  { fact = "Uldin was a ruler or leading figure of Hunnic Empire", source = "https://www.worldhistory.org/Huns/", quote = "the chief of one group of Huns, Uldin" },
+  { fact = "Rugila was a ruler or leading figure of Hunnic Empire", source = "https://www.britannica.com/topic/Hun-people", quote = "By 432 the leadership of the various groups of Huns had been centralized under a single king, Rua, or Rugila" },
+  { fact = "Bleda was a ruler or leading figure of Hunnic Empire", source = "https://en.wikipedia.org/wiki/Bleda", quote = "Bleda (/ˈblɛdə, ˈbleɪdə/) was a Hunnic ruler, the brother of Attila the Hun" },
+  { fact = "Attila was a ruler or leading figure of Hunnic Empire", source = "https://www.worldhistory.org/Attila_the_Hun/", quote = "ruler of the Hunnic Empire, which he established" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Iberian Union"
@@ -1675,11 +1680,16 @@ field = "key_figures"
 action = "set"
 value = ["Alara", "Piye", "Shabaka", "Taharqa"]
 value_id = ["Q533610", "Q315695", "Q365929", "Q315714"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Alara first known king (quote on Wikipedia Kingdom of Kush)"
+sources = [
+  { fact = "Alara was a ruler or leading figure of Kingdom of Kush", source = "https://www.worldhistory.org/Kush/", quote = "the first Kushite king known by name, Alara, unified the kingdom" },
+  { fact = "Piye was a ruler or leading figure of Kingdom of Kush", source = "https://en.wikipedia.org/wiki/Piye", quote = "was an ancient Kushite king and founder of the Twenty-fifth Dynasty of Egypt, who ruled Egypt during 744–714 BC" },
+  { fact = "Shabaka was a ruler or leading figure of Kingdom of Kush", source = "https://www.britannica.com/biography/Shabaka", quote = "was a Kushite king who conquered Egypt and founded its 25th (Kushite) dynasty" },
+  { fact = "Taharqa was a ruler or leading figure of Kingdom of Kush", source = "https://www.worldhistory.org/Kush/", quote = "Kushite king Taharqa" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Etruscans"
@@ -2176,11 +2186,15 @@ field = "key_figures"
 action = "set"
 value = ["Untash-Napirisha", "Shutruk-Nakhunte", "Tammaritu II"]
 value_id = ["Q878671", "Q392729", "Q2391697"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Untash-Napirisha (builder of Chogha Zanbil, c. 1275 BC) added before Shutruk-Nakhunte"
+sources = [
+  { fact = "Untash-Napirisha was a ruler or leading figure of Elam", source = "https://www.worldhistory.org/elam/", quote = "Among the most famous kings of the Elamites were Untash-Napirisha (reign c. 1275-1240 BCE)" },
+  { fact = "Shutruk-Nakhunte was a ruler or leading figure of Elam", source = "https://www.worldhistory.org/elam/", quote = "their greatest king, Shutruk-Nakhunte" },
+  { fact = "Tammaritu II was a ruler or leading figure of Elam", source = "https://en.wikipedia.org/wiki/Tammaritu_II", quote = "Tammaritu II was the ruler of Elam from 652" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Lombards"
@@ -2578,11 +2592,14 @@ civilization = "Liao Dynasty"
 civilization_id = "Q4958"
 field = "before"
 action = "none"
-source = "https://www.worldhistory.org/Khitan/"
-quote = "The Khitan people formed the Liao dynasty"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "grew out of the Khitan tribal confederation; no preceding state"
+sources = [
+  { fact = "The Liao dynasty was founded by Abaoji of the Khitan tribes in 916", source = "https://en.wikipedia.org/wiki/Abaoji", quote = "was a Khitan leader and the first emperor of the Khitan Empire, ruling from 916 to 926" },
+  { fact = "The Khitans were a tribal confederation before the Liao", source = "https://www.worldhistory.org/Khitan/", quote = "Yelu Abaoji (872-926 CE) who formed a confederation of eight to ten tribes" },
+]
+derivation = "Grew from a tribal confederation, not a state"
 
 [[override]]
 civilization = "Mycenaean Greece"
@@ -2765,11 +2782,14 @@ civilization = "Macedonia"
 civilization_id = "Q83958"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "earliest state of Macedon, grown out of Temenid tribal kingship; no preceding state"
+sources = [
+  { fact = "The kingdom of Macedon was founded by the Argead dynasty in the 7th century BC", source = "https://www.britannica.com/topic/Argead-dynasty", quote = "ruling house of ancient Macedonia from about 700 to about 311 bc; under their leadership the Macedonian kingdom was created" },
+  { fact = "Before the Argeads the Macedonians were tribes without a unified state", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "in previous ages, Macedonia was divided into small tribal regions, each having its own petty king" },
+]
+derivation = "Earliest Macedonian state grew from tribal kingship"
 
 [[override]]
 civilization = "Kingdom of Urartu"
@@ -5079,11 +5099,15 @@ field = "key_figures"
 action = "set"
 value = ["Salitis", "Khyan", "Apepi"]
 value_id = ["Q509679", "Q440496", "Q322169"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "no precise source found; from general knowledge"
+sources = [
+  { fact = "Salitis was a ruler or leading figure of Hyksos", source = "https://www.britannica.com/biography/Salitis", quote = "Salitis, the first Hyksos king of Egypt and founder of the 15th dynasty" },
+  { fact = "Khyan was a ruler or leading figure of Hyksos", source = "https://www.worldhistory.org/Hyksos/", quote = "Only a few Hyksos kings are known by name from inscriptions found at Avaris and beyond: Sakir-Har, Khyan, Khamudi, and the best known, Apepi." },
+  { fact = "Apepi was a ruler or leading figure of Hyksos", source = "https://www.britannica.com/biography/Apopis-king-of-Egypt", quote = "Apopis, Hyksos king of ancient Egypt" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Hyksos"
@@ -6392,11 +6416,15 @@ field = "key_figures"
 action = "set"
 value = ["Amr ibn Adi", "Al-Mundhir III ibn al-Nu'man", "Al-Nu'man III ibn al-Mundhir"]
 value_id = ["Q1260321", "Q220605", "Q1283070"]
-source = "https://en.wikipedia.org/wiki/Lakhmids"
-quote = "The founder of the Lakhmids' kingdom was Amr ibn Adi, who is identified as the 'Amr ibn Lakhm' in two inscriptions: the Paikuli inscription, written in Pahlavi / Parthian, and a second Coptic inscription."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Amr ibn Adi was a ruler or leading figure of Lakhmid Kingdom", source = "https://www.iranicaonline.org/articles/lakhmids/", quote = "the Lakhmid family had only recently come to prominence at the end of the third century, when ʿAmr b. ʿAdi made Ḥira his capital" },
+  { fact = "Al-Mundhir III ibn al-Nu'man was a ruler or leading figure of Lakhmid Kingdom", source = "https://en.wikipedia.org/wiki/Lakhmid_kingdom", quote = "The most successful Lakhimd king, in this regards, was Al-Mundhir III ibn al-Nu'man, who reigned for around fifty years" },
+  { fact = "Al-Nu'man III ibn al-Mundhir was a ruler or leading figure of Lakhmid Kingdom", source = "https://en.wikipedia.org/wiki/Lakhmid_kingdom", quote = "the final Lakhmid king, al-Nu'man III ibn al-Mundhir" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Lakhmid Kingdom"
@@ -7002,11 +7030,15 @@ civilization_id = "Q181254"
 field = "summary"
 action = "set"
 value = "A Byzantine successor state in western Anatolia, founded after the Fourth Crusade, whose rulers retook Constantinople in 1261."
-source = "https://en.wikipedia.org/wiki/Empire_of_Nicaea"
-quote = "Rump and Successor state of the Byzantine Empire"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "replaces a long sentence that wrongly mixed in the Latin Empire; cited in Wikipedia, footnote 2"
+sources = [
+  { fact = "The Nicaean Empire was a Byzantine successor state founded after the Fourth Crusade", source = "https://www.britannica.com/place/empire-of-Nicaea", quote = "Theodore fled to Anatolia with other Byzantine leaders after the Latin crusaders’ conquest of Constantinople in 1204, establishing himself at Nicaea" },
+  { fact = "It was located in western Anatolia", source = "https://www.worldhistory.org/Empire_of_Nicaea/", quote = "the Empire of Nicaea, centered on the ancient city of Nicaea and controlling northwestern Anatolia" },
+  { fact = "Michael VIII Palaiologos retook Constantinople in 1261", source = "https://www.worldhistory.org/Empire_of_Nicaea/", quote = "When the forces of Michael VIII Palaiologos recaptured Constantinople in 1261 CE" },
+]
+derivation = "Each element of the sentence is stated"
 
 [[override]]
 civilization = "Nogai Horde"
@@ -7041,11 +7073,14 @@ civilization_id = "Q20"
 field = "period"
 action = "set"
 value = { start = 872, end = 1397 }
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Norway_(872–1397)"
-quote = "Norway, whose expansionism starts from the very foundation of the Kingdom in 872, reached the peak of its power in the years between 1240 and 1319."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "end 1397: the Kalmar Union, per the article title; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Old Kingdom of Norway began in about 872", source = "https://en.wikipedia.org/wiki/Norway", quote = "Harald Fairhair unified them into one in 872" },
+  { fact = "Old Kingdom of Norway ended in about 1397", source = "https://www.treccani.it/enciclopedia/norvegia/", quote = "Nel 1397 si costituì fra Svezia, Danimarca e N. l’Unione di Kalmar" },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Old Kingdom of Norway"
@@ -8013,11 +8048,14 @@ civilization_id = "Q22647"
 field = "period"
 action = "set"
 value = { start = -3000, end = 500, circa = true }
-source = "https://en.wikipedia.org/wiki/Troy"
-quote = "Troy was first settled around 3600 BC and grew into a small fortified city around 3000 BC (Troy I)."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "from the fortified city of Troy I to the end of Troy IX (about 500 AD); the data core was -3000 to 500; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Troy began in about -3000", source = "https://www.worldhistory.org/troy/", quote = "Inhabited from the Early Bronze Age (3000 BCE)" },
+  { fact = "Troy ended in about 500", source = "https://en.wikipedia.org/wiki/Troy", quote = "A series of earthquakes devastated the city around 500 AD" },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Troy"

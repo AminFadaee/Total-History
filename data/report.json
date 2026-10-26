@@ -5625,17 +5625,6 @@
       }
     },
     {
-      "civilization": "Hunnic Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Uldin",
-        "Rugila",
-        "Bleda",
-        "Attila"
-      ]
-    },
-    {
       "civilization": "Iberian Union",
       "field": "after",
       "action": "set",
@@ -5712,17 +5701,6 @@
       "field": "after",
       "action": "add",
       "value": "Holy Roman Empire"
-    },
-    {
-      "civilization": "Kingdom of Kush",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Alara",
-        "Piye",
-        "Shabaka",
-        "Taharqa"
-      ]
     },
     {
       "civilization": "Caucasian Albania",
@@ -5857,16 +5835,6 @@
       ]
     },
     {
-      "civilization": "Elam",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Untash-Napirisha",
-        "Shutruk-Nakhunte",
-        "Tammaritu II"
-      ]
-    },
-    {
       "civilization": "Minoan civilization",
       "field": "before",
       "action": "none",
@@ -5892,12 +5860,6 @@
     },
     {
       "civilization": "Zapotec Civilization",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Liao Dynasty",
       "field": "before",
       "action": "none",
       "value": ""
@@ -5933,12 +5895,6 @@
       "field": "map_year",
       "action": "set",
       "value": 1500
-    },
-    {
-      "civilization": "Macedonia",
-      "field": "before",
-      "action": "none",
-      "value": ""
     },
     {
       "civilization": "Kingdom of Urartu",
@@ -6441,16 +6397,6 @@
       }
     },
     {
-      "civilization": "Hyksos",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Salitis",
-        "Khyan",
-        "Apepi"
-      ]
-    },
-    {
       "civilization": "Jin",
       "field": "before",
       "action": "set",
@@ -6698,16 +6644,6 @@
       "value": "Sub-Roman Britain"
     },
     {
-      "civilization": "Lakhmid Kingdom",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Amr ibn Adi",
-        "Al-Mundhir III ibn al-Nu'man",
-        "Al-Nu'man III ibn al-Mundhir"
-      ]
-    },
-    {
       "civilization": "Land of Punt",
       "field": "period",
       "action": "set",
@@ -6825,21 +6761,6 @@
         "Empress Kōken",
         "Emperor Kanmu"
       ]
-    },
-    {
-      "civilization": "Nicaean Empire",
-      "field": "summary",
-      "action": "set",
-      "value": "A Byzantine successor state in western Anatolia, founded after the Fourth Crusade, whose rulers retook Constantinople in 1261."
-    },
-    {
-      "civilization": "Old Kingdom of Norway",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 872,
-        "end": 1397
-      }
     },
     {
       "civilization": "Old Kingdom of Norway",
@@ -7039,16 +6960,6 @@
       "field": "after",
       "action": "add",
       "value": "Tepanec"
-    },
-    {
-      "civilization": "Troy",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -3000,
-        "end": 500,
-        "circa": true
-      }
     },
     {
       "civilization": "Twenty-second Dynasty of Egypt",
