@@ -2893,11 +2893,13 @@ civilization = "Odrysian Kingdom"
 civilization_id = "Q870517"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "earliest Thracian state, formed by Teres I from the Thracian tribes"
+sources = [
+  { fact = "Odrysian Kingdom formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://en.wikipedia.org/wiki/Odrysian_kingdom", quote = "In conclusion, the Odrysians were the first to supersede the Thracian tribal system and establish a large state in the eastern Balkans." },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Olmec Civilization"
@@ -3241,11 +3243,13 @@ civilization = "Puebloans - Chaco Regional System"
 civilization_id = "Q478805"
 field = "after"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the system dissolved and its people dispersed to Mesa Verde, Aztec and the Rio Grande pueblos; no single successor state"
+sources = [
+  { fact = "Puebloans - Chaco Regional System dissolved or broke up without a single state taking it over", source = "https://en.wikipedia.org/wiki/Ancestral_Puebloans", quote = "The Chacoans abandoned the canyon, probably due to climate change beginning with a 50-year drought starting in 1130." },
+]
+derivation = "no source consulted names a successor; the quoted sentence describes the state's dissolution"
 
 [[override]]
 civilization = "Pyu City-States"
@@ -3401,11 +3405,13 @@ civilization = "Sabaeans"
 civilization_id = "Q216068"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "earliest known state of South Arabia"
+sources = [
+  { fact = "Sabaeans formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://en.wikipedia.org/wiki/Sheba", quote = "Very early, at the beginning of the 1st millennium BC, the political leaders of this tribal community managed to create a huge commonwealth of shaʿbs occupying most of South Arabian territory and took on the title \"Mukarrib of the Sabaeans\"." },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Satavahana Dynasty"
@@ -3609,11 +3615,13 @@ civilization = "Tibetan Empire"
 civilization_id = "Q2431480"
 field = "after"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "followed by the Era of Fragmentation, a period with no state to name"
+sources = [
+  { fact = "Tibetan Empire dissolved or broke up without a single state taking it over", source = "https://en.wikipedia.org/wiki/Tibetan_Empire", quote = "His undertakings correspond to the subsequent dissolution of the unified empire period, after which semi-autonomous polities of chieftains, minor kings and queens, and those surviving Tibetan Buddhist polities evolved once again into autonomous independent polities, similar to those polities also documented in the Tibetan Empire's nearer frontier region of Do Kham (Amdo and Kham)." },
+]
+derivation = "no source consulted names a successor; the quoted sentence describes the state's dissolution"
 
 [[override]]
 civilization = "Timurid Empire"
@@ -7371,11 +7379,13 @@ action = "add"
 value = "Grand Duchy of Lithuania"
 value_id = "Q49683"
 region = "Ukraine"
-source = "https://en.wikipedia.org/wiki/Principality_of_Kiev"
-quote = "After the Battle of Irpen in 1321, Kiev was the object of desire for the Lithuanian Grand Duke Gediminas, and it was incorporated into the Grand Duchy of Lithuania in 1362."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Grand Duchy of Lithuania replaced or took over Principality of Kiev", source = "https://en.wikipedia.org/wiki/Kyiv", quote = "Finally, as a result of the Battle of Blue Waters in 1362, Algirdas, Grand Duke of Lithuania, incorporated Kyiv and surrounding areas into the Grand Duchy of Lithuania." },
+]
+derivation = "a source states with a verb of succession that the successor took the state over (undated)"
 
 [[override]]
 civilization = "Qi"
