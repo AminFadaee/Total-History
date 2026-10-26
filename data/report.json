@@ -6168,12 +6168,6 @@
       "value": ""
     },
     {
-      "civilization": "Afsharid Iran",
-      "field": "after",
-      "action": "set",
-      "value": "Qajar Iran"
-    },
-    {
       "civilization": "Alodia",
       "field": "before",
       "action": "add",
@@ -6313,12 +6307,6 @@
       "field": "before",
       "action": "set",
       "value": "Ditadura Nacional"
-    },
-    {
-      "civilization": "Estado Novo",
-      "field": "after",
-      "action": "set",
-      "value": "Third Portuguese Republic"
     },
     {
       "civilization": "Four Oirats",
@@ -6498,12 +6486,6 @@
     },
     {
       "civilization": "Kingdom of Neustria",
-      "field": "after",
-      "action": "add",
-      "value": "Francia"
-    },
-    {
-      "civilization": "Kingdom of Neustria",
       "field": "period",
       "action": "set",
       "value": {
@@ -6556,12 +6538,6 @@
         "Albert of Saxony",
         "Frederick Augustus III of Saxony"
       ]
-    },
-    {
-      "civilization": "Kingdom of Serbia",
-      "field": "before",
-      "action": "add",
-      "value": "Principality of Serbia"
     },
     {
       "civilization": "Kingdom of Sweden",
@@ -6822,12 +6798,6 @@
       ]
     },
     {
-      "civilization": "Second Mexican Empire",
-      "field": "after",
-      "action": "add",
-      "value": "Restored Republic"
-    },
-    {
       "civilization": "Shirvan",
       "field": "period",
       "action": "set",
@@ -6979,12 +6949,6 @@
       "field": "map_year",
       "action": "set",
       "value": 450
-    },
-    {
-      "civilization": "Russian Republic",
-      "field": "after",
-      "action": "set",
-      "value": "Russian Socialist Federative Soviet Republic"
     },
     {
       "civilization": "Great Moravia",

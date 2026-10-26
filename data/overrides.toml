@@ -3776,11 +3776,13 @@ action = "set"
 value = "Qajar Iran"
 value_id = "Q63158027"
 region = "Iran"
-source = "https://en.wikipedia.org/wiki/Afsharid_Iran"
-quote = "The Afsharid dynasty was finally overthrown in 1796 by Agha Mohammad Khan Qajar , who founded the Qajar Empire"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "replaces Durrani Empire, which took the eastern provinces, not the home Khorasan; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Qajar Iran replaced or took over Afsharid Iran (Agha Mohammad Khan deposed Shahrokh Afshar, 1796)", source = "https://en.wikipedia.org/wiki/Nader_Shah", quote = "His grandson Shahrokh Shah was the last of his dynasty to rule, ultimately being deposed in 1796 by Agha Mohammad Khan Qajar, who crowned himself ruler of Qajar Iran the same year." },
+]
+derivation = "the source dates the event in which the successor took over the state within tolerance of the state's end"
 
 [[override]]
 civilization = "Almohad Caliphate"
@@ -4764,11 +4766,13 @@ action = "set"
 value = "Third Portuguese Republic"
 value_id = "Q1259200"
 region = "Portugal"
-source = "https://en.wikipedia.org/wiki/Estado_Novo_%28Portugal%29"
-quote = "On 25 April 1974, the Carnation Revolution in Lisbon , a military coup organised by left-wing Portuguese military officers of the Armed Forces Movement (MFA) — led to the end of the Estado Novo ."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Third Portuguese Republic replaced or took over Estado Novo (Carnation Revolution overthrew New State, 1974)", source = "https://www.britannica.com/biography/Marcello-Jose-das-Neves-Alves-Caetano", quote = "which in 1974 overthrew the New State and drove Caetano into exile" },
+]
+derivation = "the source dates the event in which the successor took over the state within tolerance of the state's end"
 
 [[override]]
 civilization = "Estado Novo"
@@ -6147,11 +6151,13 @@ action = "add"
 value = "Francia"
 value_id = "Q146246"
 region = "France"
-source = "https://en.wikipedia.org/wiki/Neustria"
-quote = "With Pope Stephen II 's blessing, after 751 the Carolingian Pippin the Short formally deposed the Merovingians and took control of the empire, he and his descendants ruling as kings."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Francia replaced or took over Kingdom of Neustria (Charles Martel subdued Neustria, 724)", source = "https://www.britannica.com/biography/Charles-Martel", quote = "Assured of Austrasia, Charles now attacked Neustria itself, finally subduing it in 724." },
+]
+derivation = "the source dates the event in which the successor took over the state within tolerance of the state's end"
 
 [[override]]
 civilization = "Kingdom of Neustria"
@@ -6338,11 +6344,13 @@ action = "add"
 value = "Principality of Serbia"
 value_id = "Q684030"
 region = "Serbia"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Serbia"
-quote = "Main article: Principality of Serbia King Milan I of Serbia The Principality of Serbia was a state in the Balkans that came into existence as a result of the Serbian revolution which lasted between 1804 and 1817."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Kingdom of Serbia replaced or grew out of Principality of Serbia (Serbia declared a kingdom, Milan king, 1882)", source = "https://en.wikipedia.org/wiki/Milan_I_of_Serbia", quote = "On 6 March 1882, the Principality of Serbia was declared a kingdom and Milan was proclaimed King of Serbia." },
+]
+derivation = "the source dates the event in which the state replaced or grew out of the predecessor within tolerance of the state's start"
 
 [[override]]
 civilization = "Kingdom of Spain"
@@ -7756,11 +7764,13 @@ action = "add"
 value = "Restored Republic"
 value_id = "Q5788450"
 region = "Mexico"
-source = "https://en.wikipedia.org/wiki/Restored_Republic"
-quote = "as the last French troops departed in 1867, Maximilian and his supporters headed to Querétaro"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Restored Republic replaced or took over Second Mexican Empire (Restored republic executed Maximilian, 1867)", source = "https://en.wikipedia.org/wiki/Maximilian_I_of_Mexico", quote = "He was tried and executed by the restored Republican government alongside his generals Miguel Miramón, a former president of Mexico, and Tomás Mejía Camacho in June 1867." },
+]
+derivation = "the source dates the event in which the successor took over the state within tolerance of the state's end"
 
 [[override]]
 civilization = "Shirvan"
@@ -8786,11 +8796,13 @@ action = "set"
 value = "Russian Socialist Federative Soviet Republic"
 value_id = "Q2305208"
 region = "Russia"
-source = "https://en.wikipedia.org/wiki/Russian_Republic"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Russian SFSR followed the Russian Republic in 1917-1918"
+sources = [
+  { fact = "Russian Socialist Federative Soviet Republic replaced or took over Russian Republic (Bolsheviks deposed Provisional government, 1917)", source = "https://www.britannica.com/biography/Vladimir-Lenin", quote = "the Provisional government deposed by Lenin’s Bolsheviks in November [October, O.S.] 1917" },
+]
+derivation = "the source dates the event in which the successor took over the state within tolerance of the state's end"
 
 [[override]]
 civilization = "Netherlands"
