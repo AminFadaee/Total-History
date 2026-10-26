@@ -30,14 +30,7 @@
     }
   ],
   "parts": [],
-  "before": [
-    {
-      "id": "Q10914393",
-      "region": "Iran",
-      "name": "Neo-Assyrian Empire",
-      "home": true
-    }
-  ],
+  "before": [],
   "after": [
     {
       "id": "Q389688",
@@ -91,6 +84,9 @@
     ],
     "identity": "Wikidata state named like the Cliopatria polity",
     "home": "Ecbatana",
+    "not_applicable": {
+      "before": "Neo-Assyrian Empire dropped: the Medes helped destroy Assyria in 612-609 BC, long after Media began (https://www.britannica.com/biography/Cyaxares); no predecessor sourced yet"
+    },
     "labelled": [
       "Neo-Babylonian Empire",
       "Kingdom of Urartu",

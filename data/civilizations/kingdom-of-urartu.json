@@ -38,14 +38,7 @@
     }
   ],
   "parts": [],
-  "before": [
-    {
-      "id": "Q560342",
-      "region": "Turkey",
-      "name": "Nairi",
-      "home": true
-    }
-  ],
+  "before": [],
   "after": [
     {
       "id": "Q389688",
@@ -102,6 +95,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Arzashkun",
+    "not_applicable": {
+      "before": "Nairi dropped: it was absorbed by Assyria and Urartu decades after Urartu was established (https://en.wikipedia.org/wiki/Nairi); no predecessor sourced yet"
+    },
     "labelled": [
       "Neo-Assyrian Empire"
     ]

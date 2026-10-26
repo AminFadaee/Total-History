@@ -638,7 +638,7 @@ source = "https://en.wikipedia.org/wiki/Avars_(Eurasian_nomads)"
 quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Bulgars under Krum destroyed the Avar khaganate in the early ninth century; region Romania is the home edge kept in the data; check"
+note = "undecided: Britannica says the Avar state survived until 805 when it submitted to Charlemagne (Francia, in Hungary), while the home region Romania went to the Bulgars; see the conflicts list"
 
 [[override]]
 civilization = "Caliphate of Córdoba"
@@ -719,15 +719,10 @@ needs_verification = false
 civilization = "Chimor"
 civilization_id = "Q581741"
 field = "before"
-action = "add"
-value = "Sican culture"
-value_id = "Q175801"
-region = "Peru"
-source = ""
-quote = ""
-retrieved = 2026-10-20
+action = "none"
+retrieved = 2026-10-26
 needs_verification = true
-note = "Wikipedia infobox lists the Wari Empire and the Sican culture as predecessors; Sican (Lambayeque) is the local one"
+note = "Sican culture dropped: the Chimú conquered the Lambayeque (Sican) in 1375, long after Chimor began (https://www.worldhistory.org/Chan_Chan/); Wikipedia's infobox also lists the Wari Empire; no predecessor sourced yet"
 
 [[override]]
 civilization = "Chu"
@@ -2805,15 +2800,10 @@ derivation = "Earliest Macedonian state grew from tribal kingship"
 civilization = "Kingdom of Urartu"
 civilization_id = "Q185068"
 field = "before"
-action = "add"
-value = "Nairi"
-value_id = "Q560342"
-region = "Turkey"
-source = ""
-quote = ""
-retrieved = 2026-10-20
+action = "none"
+retrieved = 2026-10-26
 needs_verification = true
-note = "Urartu arose from the Nairi tribal confederation of the Armenian Highlands"
+note = "Nairi dropped: it was absorbed by Assyria and Urartu decades after Urartu was established (https://en.wikipedia.org/wiki/Nairi); no predecessor sourced yet"
 
 [[override]]
 civilization = "Netherlands"
@@ -3044,11 +3034,13 @@ civilization = "Phoenicia"
 civilization_id = "Q41642"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "grew from the Canaanite coastal cities; no preceding state"
+sources = [
+  { fact = "Phoenicia formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://www.worldhistory.org/phoenicia/", quote = "Phoenician city-states began to take form c. 3200 BCE and were firmly established by c. 2750 BCE." },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Phoenicia"
@@ -3705,11 +3697,14 @@ civilization = "White Huns"
 civilization_id = "Q26576"
 field = "after"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "outside review: the Göktürk Khaganate was a neighbour that helped destroy the White Huns, not their successor; no source names one"
+sources = [
+  { fact = "The Hephthalites were defeated by Sasanians and Göktürks about 560", source = "https://en.wikipedia.org/wiki/Hephthalites", quote = "to 560 CE, when combined forces from the First Turkic Khaganate and the Sasanian Empire defeated them" },
+  { fact = "Their lands were divided between those powers", source = "https://www.iranicaonline.org/articles/hephthalites/", quote = "the two powers were finally able to crush the Hephthalites in an epic battle near Bukhara, dividing their territories along the line of the Oxus (Amu Daryā)" },
+]
+derivation = "No state named as successor"
 
 [[override]]
 civilization = "Xianbei"
@@ -6752,15 +6747,10 @@ note = "first kingdom of the Mauri people in the region; Wikipedia gives its sta
 civilization = "Median Kingdom"
 civilization_id = "Q20437507"
 field = "before"
-action = "add"
-value = "Neo-Assyrian Empire"
-value_id = "Q10914393"
-region = "Iran"
-source = "https://en.wikipedia.org/wiki/Median_kingdom"
-quote = "Scholars generally view this agreement as a \"vassal treaty\" imposed by the Assyrian administration on recently subdued vassals."
-retrieved = 2026-10-20
+action = "none"
+retrieved = 2026-10-26
 needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+note = "Neo-Assyrian Empire dropped: the Medes helped destroy Assyria in 612-609 BC, long after Media began (https://www.britannica.com/biography/Cyaxares); no predecessor sourced yet"
 
 [[override]]
 civilization = "Merina Kingdom"

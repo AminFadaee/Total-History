@@ -557,8 +557,8 @@
     {
       "civilization": "Chimor",
       "field": "before",
-      "action": "add",
-      "value": "Sican culture"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Chu",
@@ -1802,8 +1802,8 @@
     {
       "civilization": "Kingdom of Urartu",
       "field": "before",
-      "action": "add",
-      "value": "Nairi"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Netherlands",
@@ -4027,8 +4027,8 @@
     {
       "civilization": "Median Kingdom",
       "field": "before",
-      "action": "add",
-      "value": "Neo-Assyrian Empire"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Merina Kingdom",
@@ -5510,8 +5510,8 @@
     {
       "civilization": "Chimor",
       "field": "before",
-      "action": "add",
-      "value": "Sican culture"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Chu",
@@ -5867,8 +5867,8 @@
     {
       "civilization": "Kingdom of Urartu",
       "field": "before",
-      "action": "add",
-      "value": "Nairi"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Netherlands",
@@ -5902,12 +5902,6 @@
         "start": 1400,
         "circa": true
       }
-    },
-    {
-      "civilization": "Phoenicia",
-      "field": "before",
-      "action": "none",
-      "value": ""
     },
     {
       "civilization": "Portuguese Empire",
@@ -6118,12 +6112,6 @@
       "field": "before",
       "action": "add",
       "value": "Old Great Bulgaria"
-    },
-    {
-      "civilization": "White Huns",
-      "field": "after",
-      "action": "none",
-      "value": ""
     },
     {
       "civilization": "Xianbei",
@@ -6595,8 +6583,8 @@
     {
       "civilization": "Median Kingdom",
       "field": "before",
-      "action": "add",
-      "value": "Neo-Assyrian Empire"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Mexico",

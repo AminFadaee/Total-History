@@ -30,14 +30,7 @@
     }
   ],
   "parts": [],
-  "before": [
-    {
-      "id": "Q175801",
-      "region": "Peru",
-      "name": "Sican culture",
-      "home": true
-    }
-  ],
+  "before": [],
   "after": [
     {
       "id": "Q28573",
@@ -82,6 +75,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Chan Chan",
+    "not_applicable": {
+      "before": "Sican culture dropped: the Chimú conquered the Lambayeque (Sican) in 1375, long after Chimor began (https://www.worldhistory.org/Chan_Chan/); Wikipedia's infobox also lists the Wari Empire; no predecessor sourced yet"
+    },
     "labelled": [
       "Cuzco"
     ]
