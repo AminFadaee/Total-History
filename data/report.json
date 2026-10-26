@@ -5605,14 +5605,6 @@
       }
     },
     {
-      "civilization": "Golden Horde",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 1242
-      }
-    },
-    {
       "civilization": "Iberian Union",
       "field": "after",
       "action": "set",
@@ -5928,12 +5920,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Phrygia",
-      "field": "before",
-      "action": "add",
-      "value": "Hittites"
     },
     {
       "civilization": "Portuguese Empire",
@@ -6280,12 +6266,6 @@
       "value": "Kingdom of England"
     },
     {
-      "civilization": "County of Flanders",
-      "field": "before",
-      "action": "set",
-      "value": "West Francia"
-    },
-    {
       "civilization": "Cuman-Kipchak Confederation",
       "field": "after",
       "action": "set",
@@ -6370,15 +6350,6 @@
       }
     },
     {
-      "civilization": "Hoysala Kingdom",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 1026,
-        "circa": true
-      }
-    },
-    {
       "civilization": "Jin",
       "field": "before",
       "action": "set",
@@ -6419,12 +6390,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Kingdom of Fiji",
-      "field": "after",
-      "action": "set",
-      "value": "Colony of Fiji"
     },
     {
       "civilization": "Kingdom of Hawaï'i",
@@ -6896,12 +6861,6 @@
       "value": "Kingdom of Sweden"
     },
     {
-      "civilization": "Swiss Confederation",
-      "field": "before",
-      "action": "add",
-      "value": "Old Swiss Confederacy"
-    },
-    {
       "civilization": "Toltec",
       "field": "before",
       "action": "add",
@@ -6936,12 +6895,6 @@
       "field": "after",
       "action": "add",
       "value": "Kingdom of Sweden"
-    },
-    {
-      "civilization": "Warring States Japan",
-      "field": "before",
-      "action": "add",
-      "value": "Muromachi period"
     },
     {
       "civilization": "Warring States Japan",
@@ -6991,12 +6944,6 @@
         "Wu Zixu",
         "Fuchai of Wu"
       ]
-    },
-    {
-      "civilization": "Zululand",
-      "field": "after",
-      "action": "add",
-      "value": "Colony of Natal"
     },
     {
       "civilization": "Lanna Kingdom",

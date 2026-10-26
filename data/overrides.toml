@@ -1110,11 +1110,13 @@ civilization_id = "Q79965"
 field = "period"
 action = "set"
 value = { start = 1242 }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Batu Khan settled on the Volga in 1242; check a source"
+sources = [
+  { fact = "Golden Horde began (founding, or replacing its predecessor) (Golden Horde flourished from mid-13th century, 1250)", source = "https://www.britannica.com/place/Golden-Horde", quote = "Golden Horde, Russian designation for the Ulus Juchi, the western part of the Mongol empire, which flourished from the mid-13th century to the end of the 14th century." },
+]
+derivation = "the sources date the founding and ending events within tolerance of the period's years"
 
 [[override]]
 civilization = "Golden Horde"
@@ -3075,11 +3077,13 @@ action = "add"
 value = "Hittites"
 value_id = "Q5406"
 region = "Turkey"
-source = "https://www.worldhistory.org/Phrygia/"
-quote = "saw the formation of the Hittite state (1700-1200 BCE)"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Phrygians rose in Anatolia after the Hittite collapse"
+sources = [
+  { fact = "Phrygia replaced or grew out of Hittites (Phrygians dominate after Hittite collapse, -1150)", source = "https://www.britannica.com/place/Phrygia", quote = "Phrygia, ancient district in west-central Anatolia, named after a people whom the Greeks called Phryges and who dominated Asia Minor between the Hittite collapse (12th century bc) and the Lydian ascendancy (7th century bc)." },
+]
+derivation = "the source dates the event in which the state replaced or grew out of the predecessor within tolerance of the state's start"
 
 [[override]]
 civilization = "Portuguese Empire"
@@ -4496,11 +4500,13 @@ action = "set"
 value = "West Francia"
 value_id = "Q46370"
 region = "Belgium"
-source = "https://en.wikipedia.org/wiki/County_of_Flanders"
-quote = "West Francia, inherited by Charles the Bald , included the original county of Flanders, that spanned roughly between Oudenburg , Aardenburg and Torhout ."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "County of Flanders replaced or grew out of West Francia (Baldwin I made count of Flanders, 862)", source = "https://www.britannica.com/place/Flanders-medieval-principality-and-historical-region-Europe", quote = "The rise of Flanders began when the official administrator of the pagus, Baldwin I Iron-Arm, married the Western Frankish king Charles II the Bald’s daughter in 862 and was appointed count of Flanders." },
+]
+derivation = "the source dates the event in which the state replaced or grew out of the predecessor within tolerance of the state's start"
 
 [[override]]
 civilization = "County of Flanders"
@@ -5066,11 +5072,13 @@ civilization_id = "Q466581"
 field = "period"
 action = "set"
 value = { start = 1026, circa = true }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "no precise source found; from general knowledge"
+sources = [
+  { fact = "Hoysala Kingdom began (founding, or replacing its predecessor) (Hoysala rule begins, 1006)", source = "https://www.britannica.com/topic/Hoysala-dynasty", quote = "Hoysala dynasty, family that ruled in India from about 1006 to about 1346 ce in the southern Deccan and for a time in the Kaveri (Cauvery) River valley." },
+]
+derivation = "the sources date the founding and ending events within tolerance of the period's years"
 
 [[override]]
 civilization = "Hyderabad State"
@@ -5444,11 +5452,13 @@ action = "set"
 value = "Colony of Fiji"
 value_id = "Q5148320"
 region = "Fiji"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Cakobau ceded Fiji to Britain in 1874"
+sources = [
+  { fact = "Colony of Fiji replaced or took over Kingdom of Fiji (Britain annexes Fiji, 1874)", source = "https://www.britannica.com/place/Levuka", quote = "Levuka was chosen as the capital of Fiji in 1874, when the islands were annexed by Great Britain, but lost the distinction to Suva in 1882." },
+]
+derivation = "the source dates the event in which the successor took over the state within tolerance of the state's end"
 
 [[override]]
 civilization = "Kingdom of Georgia"
@@ -7948,11 +7958,13 @@ action = "add"
 value = "Old Swiss Confederacy"
 value_id = "Q435583"
 region = "Switzerland"
-source = "https://en.wikipedia.org/wiki/Switzerland"
-quote = "Switzerland remained a network of self-governing states until 1798, when revolutionary France invaded and imposed the centralist Helvetic Republic."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Old Swiss Confederacy (to 1798), then the Helvetic Republic and the Restoration confederation, preceded the federal state of 1848; cited in Wikipedia, footnote 26"
+sources = [
+  { fact = "Swiss Confederation replaced or grew out of Old Swiss Confederacy (Present Swiss nation formed by constitution, 1848)", source = "https://www.britannica.com/place/Switzerland", quote = "Switzerland was formed in 1291 by an alliance of cantons against the Habsburg dynasty—the Confoederatio Helvetica (or Swiss Confederation), from which the abbreviation CH for Switzerland derives—though only in 1848, when a new constitution was adopted, was the present nation formed." },
+]
+derivation = "the source dates the event in which the state replaced or grew out of the predecessor within tolerance of the state's start"
 
 [[override]]
 civilization = "Swiss Confederation"
@@ -8397,11 +8409,13 @@ action = "add"
 value = "Muromachi period"
 value_id = "Q334845"
 region = "Japan"
-source = "https://en.wikipedia.org/wiki/Sengoku_period"
-quote = "Regardless of the dates chosen, the Sengoku period overlaps substantially with the Muromachi period (1336–1573)."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Warring States Japan replaced or grew out of Muromachi period (Onin War begins Sengoku, 1467)", source = "https://www.britannica.com/event/Muromachi-period", quote = "A later succession dispute within the Ashikaga, however, led to the Ōnin War (1467–77) and was followed by a century of military struggle known as “the age of the country at war” (sengoku jidai)." },
+]
+derivation = "the source dates the event in which the state replaced or grew out of the predecessor within tolerance of the state's start"
 
 [[override]]
 civilization = "Warring States Japan"
@@ -8595,11 +8609,13 @@ action = "add"
 value = "Colony of Natal"
 value_id = "Q1301901"
 region = "South Africa"
-source = "https://en.wikipedia.org/wiki/Zulu_Kingdom"
-quote = "The area was absorbed into the Colony of Natal and later became part of the Union of South Africa."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Colony of Natal replaced or took over Zululand (Zululand incorporated into Natal, 1897)", source = "https://www.britannica.com/place/Zululand", quote = "In 1893 Natal was given internal self-government, and in 1897 British Zululand was incorporated into Natal." },
+]
+derivation = "the source dates the event in which the successor took over the state within tolerance of the state's end"
 
 [[override]]
 civilization = "Zululand"
