@@ -516,11 +516,13 @@ civilization_id = "Q862532"
 field = "map_year"
 action = "set"
 value = 1500
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "no Cliopatria polygon; year inside the period"
+sources = [
+  { fact = "Ajuran Sultanate existed in the year 1500 (Ajurans active 16th-17th centuries, [1500, 1700])", source = "https://en.wikipedia.org/wiki/Ajuran_Sultanate", quote = "Throughout the 16th and 17th centuries the Ajurans successively defied Portuguese hegemony on the Indian Ocean by employing a new coinage which followed the Ottoman pattern, thus proclaiming an attitude of economic independence in regard to the Portuguese." },
+]
+derivation = "the source shows the state existing at the map year"
 
 [[override]]
 civilization = "Akkadian Empire"
@@ -822,11 +824,13 @@ civilization_id = "Q212439"
 field = "map_year"
 action = "set"
 value = 1670
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "inside 1648-1764; map missing"
+sources = [
+  { fact = "Cossack Hetmanate existed in the year 1670 (Ottomans declared war over Hetmanate, 1672)", source = "https://en.wikipedia.org/wiki/Cossack_Hetmanate", quote = "When the Commonwealth attempted to unseat Doroshenko and take over the Hetmanate, the Ottomans declared war in 1672 and marched north on Kamianets-Podilskyi, with Doroshenko's Cossacks and the Crimean Tatars on their side." },
+]
+derivation = "the source shows the state existing at the map year"
 
 [[override]]
 civilization = "Crown of Aragon"
@@ -2735,11 +2739,13 @@ civilization_id = "Q854468"
 field = "map_year"
 action = "set"
 value = 1500
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "no map exists yet; 1500 is under Matope, when the empire was largest"
+sources = [
+  { fact = "Mutapa Empire existed in the year 1500 (Mutapa flourished mid-15th to mid-17th century, [1450, 1650])", source = "https://www.worldhistory.org/Mutapa/", quote = "flourished between the mid-15th and mid-17th century CE" },
+]
+derivation = "the source shows the state existing at the map year"
 
 [[override]]
 civilization = "Spanish Empire"
@@ -6045,11 +6051,13 @@ civilization_id = "Q5324"
 field = "map_year"
 action = "set"
 value = 850
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the old year 783 precedes the capture of Kannauj around 816; 850 shows the dynasty at its capital"
+sources = [
+  { fact = "Gurjara-Pratihara Dynasty existed in the year 850 (Pratiharas held sway 8th-11th century, [750, 1050])", source = "https://www.worldhistory.org/Gurjara-Pratihara_Empire/", quote = "The Gurjara-Pratiharas, or simply, the Pratiharas (8th century CE - 11th century CE) held their sway over western and northern India." },
+]
+derivation = "the source shows the state existing at the map year"
 
 [[override]]
 civilization = "Funan"
@@ -6083,11 +6091,13 @@ civilization_id = "Q302132"
 field = "map_year"
 action = "set"
 value = 1800
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the old year 1536 precedes the period (1537); around 1800 Denmark held the Gold Coast, Tranquebar, the Virgin Islands and Greenland"
+sources = [
+  { fact = "Danish overseas colonies existed in the year 1800 (Danish colonies in India 17th-19th century, [1650, 1850])", source = "https://en.wikipedia.org/wiki/Danish_overseas_colonies", quote = "Denmark maintained a scattering of small colonies and trading posts throughout the Indian sub-continent from the 17th to 19th centuries" },
+]
+derivation = "the source shows the state existing at the map year"
 
 [[override]]
 civilization = "Kingdom of Nepal"
@@ -6741,11 +6751,13 @@ action = "add"
 value = "French Madagascar"
 value_id = "Q5501842"
 region = "Madagascar"
-source = "https://en.wikipedia.org/wiki/Imerina"
-quote = "France invaded again in 1894 and conquered the kingdom, making it a French colony, in what became known as the Franco-Hova Wars."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "French Madagascar replaced or took over Merina Kingdom (France annexed Madagascar, ending Merina, 1897)", source = "https://en.wikipedia.org/wiki/Imerina", quote = "In 1896, the Merina Kingdom was put under French protection as the Malagasy Protectorate and in 1897 the French Parliament voted to annex the island as a colony, effectively ending Merina sovereignty." },
+]
+derivation = "the source dates the event in which the successor took over the state within tolerance of the state's end"
 
 [[override]]
 civilization = "Mexico"
@@ -7660,11 +7672,13 @@ action = "add"
 value = "Duchy of Saxony"
 value_id = "Q164092"
 region = "Germany"
-source = "https://en.wikipedia.org/wiki/Saxons"
-quote = "Charlemagne conquered all the Saxons after winning the long Saxon Wars (772–804 AD) and forced them to convert to Christianity, annexing Saxony into the Carolingian domain."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Duchy of Saxony replaced or took over Saxons (Saxony became a Carolingian stem duchy, 804)", source = "https://en.wikipedia.org/wiki/Saxons", quote = "which became a Carolingian \"stem duchy\" in 804" },
+]
+derivation = "the source dates the event in which the successor took over the state within tolerance of the state's end"
 
 [[override]]
 civilization = "Scandinavian minor kingdoms"
@@ -7995,11 +8009,13 @@ civilization_id = "Q187897"
 field = "map_year"
 action = "set"
 value = 1100
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the map year 1177 fell after the end of the period; 1100 lies in the Toltec height and inside the 875-1187 span that the map source draws"
+sources = [
+  { fact = "Toltec existed in the year 1100 (Toltec prominence 950-1150, [950, 1150])", source = "https://en.wikipedia.org/wiki/Toltec", quote = "reaching prominence from 950 to 1150 AD" },
+]
+derivation = "the source shows the state existing at the map year"
 
 [[override]]
 civilization = "Toltec"
@@ -8956,11 +8972,13 @@ civilization_id = "Q28513"
 field = "map_year"
 action = "set"
 value = 1914
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the map year 1918 showed wartime occupations (Ukraine, Albania, Montenegro, Kosovo)"
+sources = [
+  { fact = "Austria-Hungary existed in the year 1914 (Bosnia annexed by Austria-Hungary, 1908)", source = "https://en.wikipedia.org/wiki/Austria-Hungary", quote = "After 1878, Bosnia and Herzegovina came under Austro-Hungarian military and civilian rule until it was fully annexed in 1908, provoking the Bosnian crisis with the Great Powers and Austria-Hungary's Balkan neighbors, Serbia and Montenegro." },
+]
+derivation = "the source shows the state existing at the map year"
 
 [[override]]
 civilization = "Austria-Hungary"
