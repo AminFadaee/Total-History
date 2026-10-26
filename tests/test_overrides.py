@@ -19,8 +19,11 @@ def test_every_override_cites_its_source():
         if override.action == "none" or override.needs_verification:
             assert override.source == "" or override.source.startswith("https://"), override
             continue
-        assert override.source.startswith("https://"), override
-        assert override.quote.strip(), override
+        if override.sources:
+            assert all(cited["quote"].strip() for cited in override.sources), override
+        else:
+            assert override.source.startswith("https://"), override
+            assert override.quote.strip(), override
         assert isinstance(override.retrieved, datetime.date), override
 
 
@@ -118,3 +121,24 @@ def test_apply_every_field_and_action():
     assert polity.after == [] and polity.checks["not_applicable"] == {"after": "still exists", "map": "not drawn in Cliopatria"}
     assert polity.map_year == 1100 and polity.modern_countries == ["Testia", "Otheria"]
     assert polity.summary == "A test state."
+
+
+def test_derived_entries_name_their_rule_and_each_source(tmp_path):
+    entry = '''[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "summary"
+action = "set"
+value = "A test state."
+retrieved = 2026-10-26
+sources = [{ fact = "Testland was a state", source = "https://example.org/a", quote = "Testland was a state." }]
+'''
+    path = tmp_path / "overrides.toml"
+    path.write_text(entry)
+    with pytest.raises(ValueError, match="rule"):
+        load_overrides(path)
+    path.write_text(entry + 'derivation = "direct"\n')
+    assert load_overrides(path)[0].sources[0]["fact"] == "Testland was a state"
+    path.write_text(entry.replace(', quote = "Testland was a state."', "") + 'derivation = "direct"\n')
+    with pytest.raises(ValueError, match="each source"):
+        load_overrides(path)

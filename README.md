@@ -8,8 +8,9 @@ to the Samanids, the Ottoman and Qing empires and the United States, and the peo
 within each civilization. Most of today's countries are left to a geography deck. How everything is chosen is set out
 step by step in [How the deck is chosen](#how-the-deck-is-chosen).
 
-Every value comes from public sources through code. There are no hand-written overrides: a field is filled only when
-independent sources agree, and is left empty otherwise.
+Every value comes from public sources through code: a field is filled only when independent sources agree, and is left
+empty otherwise. A reviewed list of sourced overrides fills or corrects what the automated sources miss (see
+[Building it yourself](#building-it-yourself)).
 
 ## The deck
 
@@ -293,8 +294,10 @@ entry names a civilization, one field (`before`, `after`, `period`, `capital`, `
 capitals, key figures and modern countries; `{ start, end, circa }` or `{ since }` for a period) and `none` records that
 the field does not apply, with the reason, in the civilization's `checks.not_applicable`, so a deliberate gap can be told
 from a missing one. Setting `map_year` redraws the map at that year, and the parts and modern countries follow it unless
-an override sets them as well. Each entry cites its source page, quotes the passage and gives the date it was read; an
-entry flagged `needs_verification` is applied too but may leave the source empty, and is listed under
+an override sets them as well. Each entry cites its source page, quotes the passage and gives the date it was read. A
+fact no single page states is built from smaller ones: the entry lists `sources`, each the fact it supports, its page
+and the quote, and names in `derivation` the rule that combines them (every listed person's own biography names them a
+ruler of the state; the conquest that ended it falls within 30 years of its end). An entry flagged `needs_verification` is applied too but may leave the source empty, and is listed under
 `needs_verification` in `data/report.json` for a manual check. `collect` applies the list after the errata, records it in
 `data/report.json`, and fails if an override contradicts an erratum or a test finds one missing from the data. Errata
 entries carry the same source, quote and flag. A test lists every civilization with a field neither filled nor marked not

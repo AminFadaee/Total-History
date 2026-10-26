@@ -1,7 +1,7 @@
 import datetime
 import pathlib
 import tomllib
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from page_in_history.dates import Span
 from page_in_history.errata import Erratum
@@ -32,6 +32,8 @@ class Override:
     retrieved: datetime.date | None = None
     needs_verification: bool = False
     note: str = ""
+    sources: list[dict] = field(default_factory=list)
+    derivation: str = ""
 
     @property
     def value_ids(self) -> list[str]:
@@ -55,6 +57,11 @@ def load_overrides(path: pathlib.Path) -> list[Override]:
 
 def _validate(override: Override) -> None:
     who = f"{override.civilization}, {override.field}"
+    if override.sources and not override.derivation.strip():
+        raise ValueError(f"{who}: an entry drawn from several sources names the rule that combines them")
+    for cited in override.sources:
+        if set(cited) != {"fact", "source", "quote"} or not cited["source"].startswith("https://"):
+            raise ValueError(f"{who}: each source gives the fact it supports, its https page and the quote")
     if override.field not in FIELDS:
         raise ValueError(f"{who}: not a field that overrides may change")
     if override.action not in ACTIONS:
