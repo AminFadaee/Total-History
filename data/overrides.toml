@@ -3814,11 +3814,11 @@ civilization_id = "Q180114"
 field = "period"
 action = "set"
 value = { start = 1171, end = 1260, circa = false }
-source = "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
-quote = "The Ayyubids controlled the Levant until 1260 despite losing Egypt to the Mamluks in 1250."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.worldhistory.org/Kingdom_of_Jerusalem/"
+quote = "the Egyptian Ayyubid Dynasty (1171-1260 CE)"
+retrieved = 2026-10-25
+needs_verification = false
+note = "World History Encyclopedia"
 
 [[override]]
 civilization = "Bahmani Sultanate"

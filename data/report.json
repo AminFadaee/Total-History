@@ -6354,16 +6354,6 @@
       "value": "Fujiwara-kyō"
     },
     {
-      "civilization": "Ayyubid Sultanate",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 1171,
-        "end": 1260,
-        "circa": false
-      }
-    },
-    {
       "civilization": "Brythons",
       "field": "period",
       "action": "set",
