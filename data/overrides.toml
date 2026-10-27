@@ -1878,11 +1878,13 @@ field = "capital"
 action = "set"
 value = ["Ötüken"]
 value_id = ["Q2122026"]
-source = "https://en.wikipedia.org/wiki/First_Turkic_Khaganate"
-quote = "Having excelled both in battle and diplomacy, Bumin declared himself Illig Khagan of the new Khaganate at Ötüken"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Suyab was the capital of the western khaganate only; Wikidata Q2122026 (Ötüken) has no coordinates, so a location has to come from elsewhere"
+sources = [
+  { fact = "Ötüken was a capital of Göktürk Khaganate", source = "https://en.wikipedia.org/wiki/First_Turkic_Khaganate", quote = "The eastern part, still ruled from Ötüken, remained in the orbit of the Sui and retained the name Göktürk." },
+]
+derivation = "every listed capital is named a capital or seat of the state"
 
 [[override]]
 civilization = "Göktürk Khaganate"
@@ -2059,10 +2061,15 @@ field = "key_figures"
 action = "set"
 value = ["Hulegu Khan", "Abaqa Khan", "Ghazan", "Abu Sa'id Bahadur Khan"]
 value_id = ["Q177320", "Q223239", "Q334496", "Q335301"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
+sources = [
+  { fact = "Hulegu Khan was a ruler or leading figure of Ilkhanate", source = "https://www.treccani.it/enciclopedia/hulagu/", quote = "fondatore della dinastia degli Īlkhān" },
+  { fact = "Abaqa Khan was a ruler or leading figure of Ilkhanate", source = "https://www.treccani.it/enciclopedia/abaqa/", quote = "Sultano (dal 1265) di Persia, della dinastia degli Īlkhān" },
+  { fact = "Ghazan was a ruler or leading figure of Ilkhanate", source = "https://www.britannica.com/biography/Mahmud-Ghazan", quote = "was the most prominent of the Il-Khans (subordinate khāns) to rule the Mongol dynasty in Iran" },
+  { fact = "Abu Sa'id Bahadur Khan was a ruler or leading figure of Ilkhanate", source = "https://en.wikipedia.org/wiki/Ilkhanate", quote = "Öljaitü's son, the last ilkhan, Abu Sa'id Bahadur Khan, was enthroned in 1316." },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Indo-Scythians"
@@ -2688,11 +2695,13 @@ civilization_id = "Q854468"
 field = "period"
 action = "set"
 value = { end = 1760 }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Wikipedia dates the end of the first Mutapa state to the civil war about 1760; the source found does not state it"
+sources = [
+  { fact = "Mutapa Empire ended in about 1760", source = "https://en.wikipedia.org/wiki/Mutapa_Empire", quote = "Around 1760, Mupunzagutu was assassinated by his brother Zindove, after which the state is said to have disintegrated into principalities." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Mutapa Empire"
@@ -3128,10 +3137,12 @@ action = "add"
 value = "Kievan Rus'"
 value_id = "Q1108445"
 region = "Russia"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
+sources = [
+  { fact = "Principality of Rostov-Suzdal arose from, replaced or took over from Kievan Rus' (around 1125)", source = "https://en.wikipedia.org/wiki/Vladimir-Suzdal", quote = "It was originally established during the disintegration of Kievan Rus'." },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "Principality of Rostov-Suzdal"
@@ -3287,11 +3298,15 @@ field = "key_figures"
 action = "set"
 value = ["Qara Yusuf", "Jahan Shah", "Hasan Ali"]
 value_id = ["Q730299", "Q561219", "Q611383"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "adds the founder-era sultan Qara Yusuf in order of time"
+sources = [
+  { fact = "Qara Yusuf was a ruler or leading figure of Qara Qoyunlu", source = "https://www.britannica.com/topic/Kara-Koyunlu", quote = "The federation secured its independence with the seizure of Tabrīz (which became its capital) by Kara Yūsuf (reigned 1390–1400; 1406–20)" },
+  { fact = "Jahan Shah was a ruler or leading figure of Qara Qoyunlu", source = "https://www.britannica.com/biography/Jahan-Shah", quote = "was the leader (c. 1438–67) of the Turkmen Kara Koyunlu" },
+  { fact = "Hasan Ali was a ruler or leading figure of Qara Qoyunlu", source = "https://en.wikipedia.org/wiki/Hasan_Ali_(Qara_Qoyunlu)", quote = "was the last sultan of the Qara Qoyunlu state" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Rashidun Caliphate"
@@ -3389,10 +3404,12 @@ action = "add"
 value = "Xianbei"
 value_id = "Q861054"
 region = "Mongolia"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
+sources = [
+  { fact = "Rouran Khaganate arose from, replaced or took over from Xianbei (around 330)", source = "https://en.wikipedia.org/wiki/Xianbei", quote = "the Xianbei who remained behind in the northern grassland evolved into or were absorbed by tribes of the Rouran Khaganate" },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "Sabaeans"
@@ -3469,11 +3486,14 @@ field = "key_figures"
 action = "set"
 value = ["Dapunta Hyang Sri Jayanasa", "Balaputra"]
 value_id = ["Q12480888", "Q4199265"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Samaratungga was a Sailendra king of Java, not Srivijaya"
+sources = [
+  { fact = "Dapunta Hyang Sri Jayanasa was a ruler or leading figure of Srivijaya", source = "https://en.wikipedia.org/wiki/Srivijaya", quote = "Under the leadership of Dapunta Hyang Sri Jayanasa, the Melayu Kingdom became the first kingdom to be integrated into Srivijaya." },
+  { fact = "Balaputra was a ruler or leading figure of Srivijaya", source = "https://en.wikipedia.org/wiki/Balaputra", quote = "Balaputradewa was the maharaja of Srivijaya in the 9th century CE" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Srivijaya"
@@ -3527,11 +3547,13 @@ civilization = "Tenochtitlan"
 civilization_id = "Q13695"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "city founded in 1325 by the Mexica; no preceding state"
+sources = [
+  { fact = "Tenochtitlan formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://en.wikipedia.org/wiki/Tenochtitlan", quote = "Tenochtitlan was the capital of the Mexican civilization of the Mexica people, founded in 1325." },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Teotihuacan"
@@ -3638,10 +3660,15 @@ field = "key_figures"
 action = "set"
 value = ["Timur", "Shah Rukh", "Ulugh Beg", "Husayn Bayqara"]
 value_id = ["Q8462", "Q553204", "Q486088", "Q537570"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
+sources = [
+  { fact = "Timur was a ruler or leading figure of Timurid Empire", source = "https://en.wikipedia.org/wiki/Timur", quote = "Timur was the last of the major nomadic conquerors of the Eurasian Steppe, and his empire set the stage" },
+  { fact = "Shah Rukh was a ruler or leading figure of Timurid Empire", source = "https://www.britannica.com/biography/Shah-Rokh-Timurid-ruler-of-Iran-and-Turkistan", quote = "was a Timurid ruler of much of Central Asia" },
+  { fact = "Ulugh Beg was a ruler or leading figure of Timurid Empire", source = "https://www.britannica.com/biography/Ulugh-Beg", quote = "Under his brief rule the Timurid dynasty of Iran reached its cultural peak" },
+  { fact = "Husayn Bayqara was a ruler or leading figure of Timurid Empire", source = "https://en.wikipedia.org/wiki/Sultan_Husayn_Bayqara", quote = "was the Timurid ruler of Herat from 1469 until May 4, 1506" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Volga Bulgaria"
@@ -3661,11 +3688,13 @@ civilization_id = "Q185488"
 field = "map_year"
 action = "set"
 value = 1000
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the current map year 682 predates the state"
+sources = [
+  { fact = "Volga Bulgaria existed in 1000", source = "https://en.wikipedia.org/wiki/Volga_Bulgaria", quote = "was a historical Bulgar state that existed between the 9th and 13th centuries" },
+]
+derivation = "Map year lies in the sourced period"
 
 [[override]]
 civilization = "Volga Bulgaria"
@@ -3834,11 +3863,16 @@ field = "key_figures"
 action = "set"
 value = ["Hipólito Yrigoyen", "Juan Perón", "Arturo Frondizi", "Arturo Umberto Illia"]
 value_id = ["Q297134", "Q93330", "Q346658", "Q270368"]
-source = "https://en.wikipedia.org/wiki/List_of_presidents_of_Argentina"
-quote = "Arturo Umberto Illia (1900–1983) 12 October 1963"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Frondizi (1958-62) came before Illia (1963-66); the list gives both terms; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Hipólito Yrigoyen was a ruler or leading figure of Argentine Republic", source = "https://www.britannica.com/biography/Hipolito-Irigoyen", quote = "was an Argentine statesman who became his country’s first president elected by broad popular suffrage" },
+  { fact = "Juan Perón was a ruler or leading figure of Argentine Republic", source = "https://www.britannica.com/biography/Juan-Peron", quote = "was an army colonel who became president of Argentina (1946–52, 1952–55, 1973–74)" },
+  { fact = "Arturo Frondizi was a ruler or leading figure of Argentine Republic", source = "https://en.wikipedia.org/wiki/Arturo_Frondizi", quote = "This makes him the only Argentine president known to have competed as a registered football player in official AFA competition." },
+  { fact = "Arturo Umberto Illia was a ruler or leading figure of Argentine Republic", source = "https://en.wikipedia.org/wiki/Arturo_Umberto_Illia", quote = "was President of Argentina from 1963 until his overthrow in 1966." },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Argentine Republic"
@@ -4415,11 +4449,13 @@ action = "set"
 value = "Kingdom of England"
 value_id = "Q179876"
 region = "United Kingdom"
-source = "https://en.wikipedia.org/wiki/Commonwealth_of_England"
-quote = "Including Third English Civil War British Interregnum The Protectorate (1653–1659) Lord Protector Oliver Cromwell (1653–1658) Richard Cromwell (1658–1659) The Commonwealth of England , enlarged in 1653 as the Commonwealth of England, Scotland and Ireland , was the political structure during the period from 1649 to 1660 when the Kingdom of England was"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Commonwealth of England arose from, replaced or took over from Kingdom of England (around 1649)", source = "https://en.wikipedia.org/wiki/Kingdom_of_England", quote = "the Rump Parliament passed an act declaring England to be a Commonwealth on 19 May 1649." },
+]
+derivation = "a source states the takeover, replacement or origin at the state's start or end"
 
 [[override]]
 civilization = "Commonwealth of England"
@@ -4604,11 +4640,13 @@ action = "set"
 value = "Haiti"
 value_id = "Q790"
 region = "Dominican Republic"
-source = "https://en.wikipedia.org/wiki/Dominican_Republic"
-quote = "On February 27, 1844, the members of La Trinitaria declared independence from Haiti."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Dominican Republic replaced or grew out of Haiti (Santo Domingo independent from Haiti, 1844)", source = "https://en.wikipedia.org/wiki/Santo_Domingo", quote = "On 27 February 1844, Santo Domingo was again the capital of a free nation, when it gained its independence from Haiti, led by Dominican nationalist Juan Pablo Duarte." },
+]
+derivation = "the source dates the event in which the state replaced or grew out of the predecessor within tolerance of the state's start"
 
 [[override]]
 civilization = "Dominican Republic"
@@ -4944,11 +4982,13 @@ civilization_id = "Q42193"
 field = "period"
 action = "set"
 value = { end = 711, circa = true }
-source = "https://en.wikipedia.org/wiki/Goths"
-quote = "A smaller group of Goths were the Crimean Goths , who remained in Crimea and maintained their Gothic identity well into the 18th century."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Gothic kingdoms ended with the Ostrogoths in 552 and the Visigoths in 711; the Crimean Goths lasted much longer, so the end is a choice to check; cited in Wikipedia, footnote 183"
+sources = [
+  { fact = "Goths ended in about 711", source = "https://en.wikipedia.org/wiki/Goths", quote = "Their kingdom fell and was progressively conquered by the Umayyad Caliphate from 711" },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Greco-Bactrian Kingdom"
@@ -5593,11 +5633,13 @@ action = "set"
 value = "Fatimid Caliphate"
 value_id = "Q160307"
 region = "Israel"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Jerusalem"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Crusaders took the coast and Jerusalem from the Fatimids in 1099; home Acre lies in Israel"
+sources = [
+  { fact = "Kingdom of Jerusalem replaced or grew out of Fatimid Caliphate (Crusaders captured Jerusalem from Fatimids, 1099)", source = "https://en.wikipedia.org/wiki/Fatimid_Caliphate", quote = "Following this, the crusaders crossed into Fatimid territory and captured Jerusalem in July 1099 while al-Afdal was leading a relief army trying to reach the city." },
+]
+derivation = "the source dates the event in which the state replaced or grew out of the predecessor within tolerance of the state's start"
 
 [[override]]
 civilization = "Kingdom of Khotan"
@@ -5787,11 +5829,15 @@ civilization = "Danish overseas colonies"
 civilization_id = "Q302132"
 field = "after"
 action = "none"
-source = "https://en.wikipedia.org/wiki/Danish_colonial_empire"
-quote = "Following a period of increasing integration in the 19th century, Greenland was incorporated into Denmark in 1953 with the implementation of the Danish constitution."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "Greenland was incorporated into Denmark in 1953 and the other colonies were sold or handed over earlier, so there is no single successor; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "The Danish West Indies were sold to the United States in 1917", source = "https://en.wikipedia.org/wiki/Danish_West_Indies", quote = "Danish administration ended on 31 March 1917, when the United States took formal possession of the territory" },
+  { fact = "Danish Gold Coast was sold to Britain in 1850", source = "https://en.wikipedia.org/wiki/Danish_Gold_Coast", quote = "On 30 March 1850 all of Denmark's Danish Gold Coast Territorial Settlements and forts of the Kingdom of Denmark were sold to Britain" },
+  { fact = "Greenland was integrated into Denmark in 1953", source = "https://en.wikipedia.org/wiki/Greenland", quote = "The 1953 Constitution of Denmark ended Greenland's status as a colony, integrating it fully into the Danish state." },
+]
+derivation = "Colonies were sold or handed over to different states"
 
 [[override]]
 civilization = "Danish overseas colonies"
@@ -6087,11 +6133,15 @@ field = "key_figures"
 action = "set"
 value = ["Kaundinya", "Kulaprabhavati", "Rudravarman"]
 value_id = ["Q2708070", "Q19684432", "Q4399749"]
-source = "https://en.wikipedia.org/wiki/Funan"
-quote = "According to the epigraphic and Chinese texts, it was founded by legendary monarchs Soma and Kaundinya who are held to be the first kings of Cambodia ."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "replaces \"Pham Dang Thang\", who is not a ruler of Funan; Kaundinya is the founder, Kulaprabhavati the queen of c. 500 and Rudravarman the last king (514-550); the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Kaundinya was a ruler or leading figure of Funan", source = "https://en.wikipedia.org/wiki/Funan", quote = "another Indianised ruler Chiao Chen-ju (Kaundinya) in the fifth century" },
+  { fact = "Kulaprabhavati was a ruler or leading figure of Funan", source = "https://en.wikipedia.org/wiki/Kulaprabhavati", quote = "was a queen regnant of Funan (in present-day Cambodia) from 514 to 517" },
+  { fact = "Rudravarman was a ruler or leading figure of Funan", source = "https://en.wikipedia.org/wiki/Funan", quote = "became the last king of Funan" },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Confederation of the Rhine"
@@ -6292,11 +6342,13 @@ field = "capital"
 action = "add"
 value = "Cagliari"
 value_id = "Q1897"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_(1720–1861)"
-quote = "While the capital of the island of Sardinia and the seat of its viceroys had always been Cagliari by law (de jure), it was the Piedmontese city of Turin, the capital of Savoy since the mid 16th century, which was the de facto seat of power."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Cagliari was a capital of Kingdom of Sardinia", source = "https://en.wikipedia.org/wiki/Cagliari", quote = "Cagliari was the capital of the Kingdom of Sardinia from 1324 to 1848" },
+]
+derivation = "every listed capital is named a capital or seat of the state"
 
 [[override]]
 civilization = "Kingdom of Sardinia"
@@ -6547,11 +6599,16 @@ field = "key_figures"
 action = "set"
 value = ["Mahendravarman I", "Narasimhavarman I", "Nandivarman II", "Aparajitavarman"]
 value_id = ["Q3537043", "Q3537058", "Q707740", "Q4779124"]
-source = "https://en.wikipedia.org/wiki/Pallava_dynasty"
-quote = "The Pallavas became a major southern Indian power during the reign of Mahendravarman I (600–630) and Narasimhavarman I (630–668), and for about six centuries dominated the southern Telugu region and the northern parts of the Tamil region, until the end of the 9th century."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Mahendravarman I was a ruler or leading figure of Late Pallava Empire", source = "https://en.wikipedia.org/wiki/Pallava_dynasty", quote = "A number of rock-cut cave temples bear the inscription of the Pallava king, Mahendravarman I and his successors." },
+  { fact = "Narasimhavarman I was a ruler or leading figure of Late Pallava Empire", source = "https://en.wikipedia.org/wiki/Narasimhavarman_I", quote = "Narasimhavarman I was a Pallava emperor who reigned from 630 to 668." },
+  { fact = "Nandivarman II was a ruler or leading figure of Late Pallava Empire", source = "https://en.wikipedia.org/wiki/Nandivarman_II", quote = "he was crowned King of the Pallavas under the name Nandivarman" },
+  { fact = "Aparajitavarman was a ruler or leading figure of Late Pallava Empire", source = "https://en.wikipedia.org/wiki/Aparajita_Varman", quote = "was a king of the Pallava dynasty." },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Later Jin Dynasty"
@@ -6726,11 +6783,16 @@ field = "key_figures"
 action = "set"
 value = ["Sanjaya of Mataram", "Rakai Pikatan", "Mpu Sindok", "Dharmawangsa"]
 value_id = ["Q3107477", "Q7286535", "Q47684", "Q3276813"]
-source = "https://en.wikipedia.org/wiki/Medang_Kingdom"
-quote = "His successor was Princess Pramodhawardhani that betrothed to Shaivite Rakai Pikatan"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "replaces Lokapala, an obscure later king, with Rakai Pikatan who built Prambanan; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Sanjaya of Mataram was a ruler or leading figure of Mataram Kingdom", source = "https://en.wikipedia.org/wiki/Sanjaya_of_Mataram", quote = "Sanjaya is known as the founder and first king of the Mataram Kingdom." },
+  { fact = "Rakai Pikatan was a ruler or leading figure of Mataram Kingdom", source = "https://en.wikipedia.org/wiki/Mataram_kingdom", quote = "The rule of Shaivite Rakai Pikatan (r. 838–850 AD)" },
+  { fact = "Mpu Sindok was a ruler or leading figure of Mataram Kingdom", source = "https://en.wikipedia.org/wiki/Mpu_Sindok", quote = "Sindok moved the seat of power of the Mataram kingdom from Central Java to East Java in 929 AD" },
+  { fact = "Dharmawangsa was a ruler or leading figure of Mataram Kingdom", source = "https://en.wikipedia.org/wiki/Mataram_kingdom", quote = "the reigning king Dharmawangsa Teguh was attacked by the vassal king of Wurawari, leading to the breakup of the Mataram state." },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Mauretania"
@@ -7120,11 +7182,14 @@ civilization_id = "Q20"
 field = "summary"
 action = "set"
 value = "The medieval kingdom of Norway, united under Harald Fairhair about 872 and lasting until the Kalmar Union of 1397."
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Norway_(872–1397)"
-quote = "Kingdom of Norway (872–1397)"
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the entry had no summary; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Harald Fairhair united Norway around 872", source = "https://en.wikipedia.org/wiki/Harald_Fairhair", quote = "In 872, after a great victory at Hafrsfjord near Stavanger against Kjotve the Rich, Harald found himself king over the whole country" },
+  { fact = "The kingdom lasted until the Kalmar Union of 1397", source = "https://www.britannica.com/place/Kalmar-Union", quote = "formed at Kalmar, Sweden, in June 1397 that brought the kingdoms of Norway, Sweden, and Denmark together under a single monarch until 1523" },
+]
+derivation = "Each element of the sentence is stated"
 
 [[override]]
 civilization = "Old Kingdom of Norway"
@@ -7825,11 +7890,13 @@ action = "add"
 value = "Abbasid Caliphate"
 value_id = "Q12536"
 region = "Azerbaijan"
-source = "https://en.wikipedia.org/wiki/Shirvanshah"
-quote = "The family became established in the eastern Caucasus through successive Abbasid governorships and acquired hereditary possessions in the region before the weakening of effective Abbasid authority in 861 allowed Haytham ibn Khalid to rule Shirvan autonomously as Shirvanshah."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-26
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Shirvan replaced or grew out of Abbasid Caliphate (Shirvanshahs de facto independent of Abbasids, 861)", source = "https://en.wikipedia.org/wiki/Haytham_ibn_Khalid", quote = "A member of the Shaybanid family that had governed Arminiya for the Abbasid Caliphate, he held Shirvan as its lord and bore the title of Shirvanshah, and after the murder of the caliph al-Mutawakkil in 861 he and his heirs ruled as de facto independent emirs." },
+]
+derivation = "the source dates the event in which the state replaced or grew out of the predecessor within tolerance of the state's start"
 
 [[override]]
 civilization = "Shirvan"

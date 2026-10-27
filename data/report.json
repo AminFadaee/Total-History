@@ -5723,14 +5723,6 @@
       "value": "West Francia"
     },
     {
-      "civilization": "Göktürk Khaganate",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "Ötüken"
-      ]
-    },
-    {
       "civilization": "Ajuran Sultanate",
       "field": "key_figures",
       "action": "none",
@@ -5764,17 +5756,6 @@
         "Leopold I, Holy Roman Emperor",
         "Maria Theresa",
         "Franz Joseph I"
-      ]
-    },
-    {
-      "civilization": "Ilkhanate",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Hulegu Khan",
-        "Abaqa Khan",
-        "Ghazan",
-        "Abu Sa'id Bahadur Khan"
       ]
     },
     {
@@ -5857,14 +5838,6 @@
       "value": "Indo-Sassanids"
     },
     {
-      "civilization": "Mutapa Empire",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 1760
-      }
-    },
-    {
       "civilization": "Kingdom of Urartu",
       "field": "before",
       "action": "none",
@@ -5928,12 +5901,6 @@
     },
     {
       "civilization": "Principality of Rostov-Suzdal",
-      "field": "before",
-      "action": "add",
-      "value": "Kievan Rus'"
-    },
-    {
-      "civilization": "Principality of Rostov-Suzdal",
       "field": "key_figures",
       "action": "set",
       "value": [
@@ -5984,16 +5951,6 @@
       "value": ""
     },
     {
-      "civilization": "Qara Qoyunlu",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Qara Yusuf",
-        "Jahan Shah",
-        "Hasan Ali"
-      ]
-    },
-    {
       "civilization": "Rashidun Caliphate",
       "field": "before",
       "action": "none",
@@ -6004,21 +5961,6 @@
       "field": "capital",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Rouran Khaganate",
-      "field": "before",
-      "action": "add",
-      "value": "Xianbei"
-    },
-    {
-      "civilization": "Srivijaya",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Dapunta Hyang Sri Jayanasa",
-        "Balaputra"
-      ]
     },
     {
       "civilization": "Srivijaya",
@@ -6037,12 +5979,6 @@
     },
     {
       "civilization": "Srivijaya",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Tenochtitlan",
       "field": "before",
       "action": "none",
       "value": ""
@@ -6082,17 +6018,6 @@
       "value": ""
     },
     {
-      "civilization": "Timurid Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Timur",
-        "Shah Rukh",
-        "Ulugh Beg",
-        "Husayn Bayqara"
-      ]
-    },
-    {
       "civilization": "Volga Bulgaria",
       "field": "period",
       "action": "set",
@@ -6100,12 +6025,6 @@
         "start": 700,
         "circa": true
       }
-    },
-    {
-      "civilization": "Volga Bulgaria",
-      "field": "map_year",
-      "action": "set",
-      "value": 1000
     },
     {
       "civilization": "Volga Bulgaria",
@@ -6130,17 +6049,6 @@
       "field": "before",
       "action": "add",
       "value": "Kingdom of Kush"
-    },
-    {
-      "civilization": "Argentine Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Hipólito Yrigoyen",
-        "Juan Perón",
-        "Arturo Frondizi",
-        "Arturo Umberto Illia"
-      ]
     },
     {
       "civilization": "Asuka Japan",
@@ -6201,12 +6109,6 @@
     },
     {
       "civilization": "Commonwealth of England",
-      "field": "before",
-      "action": "set",
-      "value": "Kingdom of England"
-    },
-    {
-      "civilization": "Commonwealth of England",
       "field": "after",
       "action": "set",
       "value": "Kingdom of England"
@@ -6230,12 +6132,6 @@
       "field": "map_year",
       "action": "set",
       "value": 1800
-    },
-    {
-      "civilization": "Dominican Republic",
-      "field": "before",
-      "action": "set",
-      "value": "Haiti"
     },
     {
       "civilization": "Duchy of Bavaria",
@@ -6279,15 +6175,6 @@
       "field": "after",
       "action": "set",
       "value": "Provisional Government of the French Republic"
-    },
-    {
-      "civilization": "Goths",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 711,
-        "circa": true
-      }
     },
     {
       "civilization": "Jin",
@@ -6344,12 +6231,6 @@
       "value": "Republic of Hawaii"
     },
     {
-      "civilization": "Kingdom of Jerusalem",
-      "field": "before",
-      "action": "set",
-      "value": "Fatimid Caliphate"
-    },
-    {
       "civilization": "Kingdom of Lunda",
       "field": "after",
       "action": "set",
@@ -6368,12 +6249,6 @@
       "value": [
         "Copenhagen"
       ]
-    },
-    {
-      "civilization": "Danish overseas colonies",
-      "field": "after",
-      "action": "none",
-      "value": ""
     },
     {
       "civilization": "French Second Republic",
@@ -6427,16 +6302,6 @@
       ]
     },
     {
-      "civilization": "Funan",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Kaundinya",
-        "Kulaprabhavati",
-        "Rudravarman"
-      ]
-    },
-    {
       "civilization": "Kingdom of Neustria",
       "field": "period",
       "action": "set",
@@ -6473,12 +6338,6 @@
       "field": "summary",
       "action": "set",
       "value": "A constitutional monarchy in southeastern Europe, ruled by the Hohenzollern-Sigmaringen dynasty from 1881 to 1947."
-    },
-    {
-      "civilization": "Kingdom of Sardinia",
-      "field": "capital",
-      "action": "add",
-      "value": "Cagliari"
     },
     {
       "civilization": "Kingdom of Saxony",
@@ -6525,17 +6384,6 @@
       ]
     },
     {
-      "civilization": "Late Pallava Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Mahendravarman I",
-        "Narasimhavarman I",
-        "Nandivarman II",
-        "Aparajitavarman"
-      ]
-    },
-    {
       "civilization": "Lu",
       "field": "before",
       "action": "add",
@@ -6568,17 +6416,6 @@
       "field": "before",
       "action": "add",
       "value": "Kalingga Kingdom"
-    },
-    {
-      "civilization": "Mataram Kingdom",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Sanjaya of Mataram",
-        "Rakai Pikatan",
-        "Mpu Sindok",
-        "Dharmawangsa"
-      ]
     },
     {
       "civilization": "Median Kingdom",
@@ -6618,12 +6455,6 @@
         "Empress Kōken",
         "Emperor Kanmu"
       ]
-    },
-    {
-      "civilization": "Old Kingdom of Norway",
-      "field": "summary",
-      "action": "set",
-      "value": "The medieval kingdom of Norway, united under Harald Fairhair about 872 and lasting until the Kalmar Union of 1397."
     },
     {
       "civilization": "Old Swiss Confederacy",
@@ -6751,12 +6582,6 @@
         "start": 861,
         "end": 1538
       }
-    },
-    {
-      "civilization": "Shirvan",
-      "field": "before",
-      "action": "add",
-      "value": "Abbasid Caliphate"
     },
     {
       "civilization": "South African Republic",
