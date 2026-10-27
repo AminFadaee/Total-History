@@ -2907,7 +2907,6 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Óscar Carmona",
         "António de Oliveira Salazar",
         "Marcelo Caetano"
       ]
@@ -3599,7 +3598,6 @@
       "value": [
         "Minamoto no Yoritomo",
         "Hōjō Tokimasa",
-        "Hōjō Tokimune",
         "Ashikaga Takauji"
       ]
     },
@@ -6060,16 +6058,6 @@
       "value": "Ditadura Nacional"
     },
     {
-      "civilization": "Estado Novo",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Óscar Carmona",
-        "António de Oliveira Salazar",
-        "Marcelo Caetano"
-      ]
-    },
-    {
       "civilization": "Four Oirats",
       "field": "period",
       "action": "set",
@@ -6158,44 +6146,12 @@
       ]
     },
     {
-      "civilization": "French Algeria",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Thomas Robert Bugeaud",
-        "Napoleon III",
-        "Charles de Gaulle"
-      ]
-    },
-    {
-      "civilization": "Kamakura Shogunate",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Minamoto no Yoritomo",
-        "Hōjō Tokimasa",
-        "Hōjō Tokimune",
-        "Ashikaga Takauji"
-      ]
-    },
-    {
       "civilization": "Eastern Wei",
       "field": "key_figures",
       "action": "set",
       "value": [
         "Gao Huan",
         "Emperor Xiaojing of Eastern Wei"
-      ]
-    },
-    {
-      "civilization": "Idrisids",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Idris I of Morocco",
-        "Idris II of Morocco",
-        "Yahya ibn Muhammad",
-        "Al-Hasan ibn al-Qasim Jannun"
       ]
     },
     {

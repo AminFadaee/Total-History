@@ -4976,16 +4976,15 @@ civilization = "Estado Novo"
 civilization_id = "Q824489"
 field = "key_figures"
 action = "set"
-value = ["Óscar Carmona", "António de Oliveira Salazar", "Marcelo Caetano"]
-value_id = ["Q314022", "Q151394", "Q310870"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Óscar Carmona"
-sources = [
-  { fact = "António de Oliveira Salazar was a ruler or leading figure of Estado Novo", source = "https://en.wikipedia.org/wiki/Estado_Novo_%28Portugal%29", quote = "A new constitution was drafted by a group of lawyers, businessmen, clerics, and university professors, with Salazar as the leading spirit and Marcelo Caetano also playing a major role." },
-  { fact = "Marcelo Caetano was a ruler or leading figure of Estado Novo", source = "https://en.wikipedia.org/wiki/Estado_Novo_%28Portugal%29", quote = "A new constitution was drafted by a group of lawyers, businessmen, clerics, and university professors, with Salazar as the leading spirit and Marcelo Caetano also playing a major role." },
-]
+needs_verification = false
+value = ["António de Oliveira Salazar", "Marcelo Caetano"]
+value_id = ["Q151394", "Q310870"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "António de Oliveira Salazar", source = "https://en.wikipedia.org/wiki/Estado_Novo_(Portugal)", quote = "With fascist organisations being popular and widely supported across many countries (like Italian Fascism and National Socialism) as an antagonist of communist ideologies, António de Oliveira Salazar developed the Estado Novo as an alternative: a conservative authoritarian regime that was neither fascist nor totalitarian." },
+  { fact = "Marcelo Caetano", source = "https://en.wikipedia.org/wiki/Estado_Novo_(Portugal)", quote = "His report was printed a week before the Portuguese prime minister, Marcelo Caetano, was due to visit Britain to celebrate the 600th anniversary of the Anglo-Portuguese Alliance." },
+]
 
 [[override]]
 civilization = "Four Oirats"
@@ -6155,16 +6154,16 @@ civilization = "French Algeria"
 civilization_id = "Q218272"
 field = "key_figures"
 action = "set"
+needs_verification = false
 value = ["Thomas Robert Bugeaud", "Napoleon III", "Charles de Gaulle"]
 value_id = ["Q349167", "Q7721", "Q2042"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Charles de Gaulle was a ruler or leading figure of French Algeria"
-sources = [
-  { fact = "Thomas Robert Bugeaud was a ruler or leading figure of French Algeria", source = "https://en.wikipedia.org/wiki/Thomas_Robert_Bugeaud", quote = "Bugeaud assumed the governor-generalship" },
-  { fact = "Napoleon III was a ruler or leading figure of French Algeria", source = "https://en.wikipedia.org/wiki/French_Algeria", quote = "After a trip to Algiers in 1860, the French emperor Napoleon III became keen on establishing a client kingdom there which he would rule in a personal union, expanding freedoms for the indigenous population and limiting colonisation." },
-]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Thomas Robert Bugeaud", source = "https://en.wikipedia.org/wiki/French_Algeria", quote = "As French rule in Algeria expanded, particularly under Thomas-Robert Bugeaud (1841–48), discriminatory governance became increasingly formalised." },
+  { fact = "Napoleon III", source = "https://en.wikipedia.org/wiki/French_Algeria", quote = "After a trip to Algiers in 1860, the French emperor Napoleon III became keen on establishing a client kingdom there which he would rule in a personal union, expanding freedoms for the indigenous population and limiting colonisation." },
+  { fact = "Charles de Gaulle", source = "https://en.wikipedia.org/wiki/French_Algeria", quote = "In 1958, Charles de Gaulle's return to power in response to a military coup in Algiers in May was supposed to keep Algeria's status quo as departments of France as hinted by his speeches delivered in Oran and Mostaganem on 6 June 1958, in which he exclaimed \"Vive l'Algérie française!\" (lit." },
+]
 
 [[override]]
 civilization = "Gurjara-Pratihara Dynasty"
@@ -6236,15 +6235,16 @@ civilization = "Kamakura Shogunate"
 civilization_id = "Q736839"
 field = "key_figures"
 action = "set"
-value = ["Minamoto no Yoritomo", "Hōjō Tokimasa", "Hōjō Tokimune", "Ashikaga Takauji"]
-value_id = ["Q242800", "Q589811", "Q430964", "Q297107"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Hōjō Tokimasa was a ruler or leading figure of Kamakura Shogunate; Hōjō Tokimune was a ruler or leading figure of Kamakura Shogunate; Ashikaga Takauji was a ruler or leading figure of Kamakura Shogunate"
-sources = [
-  { fact = "Minamoto no Yoritomo was a ruler or leading figure of Kamakura Shogunate", source = "https://en.wikipedia.org/wiki/Kamakura_shogunate", quote = "The Kamakura shogunate was established by Minamoto no Yoritomo after victory in the Genpei War and appointing himself as shōgun." },
-]
+needs_verification = false
+value = ["Minamoto no Yoritomo", "Hōjō Tokimasa", "Ashikaga Takauji"]
+value_id = ["Q242800", "Q589811", "Q297107"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Minamoto no Yoritomo", source = "https://en.wikipedia.org/wiki/Kamakura_shogunate", quote = "The Kamakura shogunate was established by Minamoto no Yoritomo after victory in the Genpei War and appointing himself as shōgun." },
+  { fact = "Hōjō Tokimasa", source = "https://en.wikipedia.org/wiki/Kamakura_shogunate", quote = "Hōjō Tokimasa, the father of Yoritomo's widow, Hōjō Masako, and former guardian and protector of Yoritomo, claimed the title of regent (shikken) to Yoritomo's son Minamoto no Yoriie, eventually making that claim hereditary to the Hōjō clan." },
+  { fact = "Ashikaga Takauji", source = "https://en.wikipedia.org/wiki/Kamakura_shogunate", quote = "A warlord then went to the exiled emperor's rescue, and in response the Hōjō sent forces again commanded by Takauji to attack Kyoto." },
+]
 
 [[override]]
 civilization = "Eastern Wei"
@@ -6295,17 +6295,17 @@ civilization = "Idrisids"
 civilization_id = "Q431575"
 field = "key_figures"
 action = "set"
+needs_verification = false
 value = ["Idris I of Morocco", "Idris II of Morocco", "Yahya ibn Muhammad", "Al-Hasan ibn al-Qasim Jannun"]
 value_id = ["Q438601", "Q922653", "Q681523", "Q253605"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Al-Hasan ibn al-Qasim Jannun"
-sources = [
-  { fact = "Idris I of Morocco was a ruler or leading figure of Idrisids", source = "https://en.wikipedia.org/wiki/Idrisid_dynasty", quote = "Agadir (later Tlemcen) was left under the control of Muhammad Ibn Sulayman, Idris II's cousin and the son of Sulayman , the brother of Idris I whom the latter had left in charge of the city, constituting the Sulaymanid dynasty ." },
-  { fact = "Idris II of Morocco was a ruler or leading figure of Idrisids", source = "https://en.wikipedia.org/wiki/Idrisid_dynasty", quote = "Agadir (later Tlemcen) was left under the control of Muhammad Ibn Sulayman, Idris II's cousin and the son of Sulayman , the brother of Idris I whom the latter had left in charge of the city, constituting the Sulaymanid dynasty ." },
-  { fact = "Yahya ibn Muhammad was a ruler or leading figure of Idrisids", source = "https://en.wikipedia.org/wiki/Idrisid_dynasty", quote = "Agadir (later Tlemcen) was left under the control of Muhammad Ibn Sulayman, Idris II's cousin and the son of Sulayman , the brother of Idris I whom the latter had left in charge of the city, constituting the Sulaymanid dynasty ." },
-]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Idris I of Morocco", source = "https://en.wikipedia.org/wiki/Idris_I_of_Morocco", quote = "Idris I conquered large parts of northern Morocco and founded the city of Fez." },
+  { fact = "Idris II of Morocco", source = "https://en.wikipedia.org/wiki/Idris_II_of_Morocco", quote = "Consequently, the Arabization of Morocco began throughout Idris II's reign, during which Fez became predominantly Arabic-speaking." },
+  { fact = "Yahya ibn Muhammad", source = "https://en.wikipedia.org/wiki/Idrisid_dynasty", quote = "After his death in 849 he was succeeded by his brother Yahya ibn Muhammad (or Yahya I), who also enjoyed a peaceful reign." },
+  { fact = "Al-Hasan ibn al-Qasim Jannun", source = "https://en.wikipedia.org/wiki/Idrisid_dynasty", quote = "He eventually left for Al-Andalus, leaving his brother Hasan ibn al-Qasim al-Gannun as the new leader in 954." },
+]
 
 [[override]]
 civilization = "Gurjara-Pratihara Dynasty"
