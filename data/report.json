@@ -5892,12 +5892,6 @@
     },
     {
       "civilization": "Mycenaean Greece",
-      "field": "key_figures",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Mycenaean Greece",
       "field": "before",
       "action": "none",
       "value": ""
@@ -6709,12 +6703,6 @@
         "start": 1024,
         "end": 1402
       }
-    },
-    {
-      "civilization": "Principality of Chernigov",
-      "field": "before",
-      "action": "add",
-      "value": "Kievan Rus'"
     },
     {
       "civilization": "Principality of Chernigov",
