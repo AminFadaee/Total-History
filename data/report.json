@@ -1375,8 +1375,7 @@
       "value": [
         "Cleisthenes",
         "Themistocles",
-        "Pericles",
-        "Aristophanes"
+        "Pericles"
       ]
     },
     {
@@ -5784,17 +5783,6 @@
       ]
     },
     {
-      "civilization": "Classical Athens",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Cleisthenes",
-        "Themistocles",
-        "Pericles",
-        "Aristophanes"
-      ]
-    },
-    {
       "civilization": "Kanem–Bornu Empire",
       "field": "key_figures",
       "action": "set",
@@ -5952,16 +5940,6 @@
         "start": 1400,
         "circa": true
       }
-    },
-    {
-      "civilization": "Phoenicia",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ahiram",
-        "Hiram I",
-        "Pygmalion of Tyre"
-      ]
     },
     {
       "civilization": "Portuguese Empire",

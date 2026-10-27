@@ -2161,17 +2161,16 @@ civilization = "Classical Athens"
 civilization_id = "Q844930"
 field = "key_figures"
 action = "set"
-value = ["Cleisthenes", "Themistocles", "Pericles", "Aristophanes"]
-value_id = ["Q207634", "Q179552", "Q80398", "Q43353"]
-retrieved = 2026-10-20
-needs_verification = true
+value = ["Cleisthenes", "Themistocles", "Pericles"]
+value_id = ["Q207634", "Q179552", "Q80398"]
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Cleisthenes was a ruler or leading figure of Classical Athens", source = "https://www.worldhistory.org/Cleisthenes/", quote = "was an Athenian statesman who famously reformed the political structure and processes of Athens" },
   { fact = "Themistocles was a ruler or leading figure of Classical Athens", source = "https://en.wikipedia.org/wiki/Classical_Athens", quote = "was soon rebuilt under the administration of Themistocles, and was adorned with public buildings by Cimon and especially by Pericles" },
   { fact = "Pericles was a ruler or leading figure of Classical Athens", source = "https://en.wikipedia.org/wiki/Classical_Athens", quote = "was soon rebuilt under the administration of Themistocles, and was adorned with public buildings by Cimon and especially by Pericles" },
 ]
 derivation = "every listed item has its own source"
-note = "partly sourced: no source yet for Aristophanes"
 
 [[override]]
 civilization = "Babylonia"
@@ -3147,14 +3146,14 @@ field = "key_figures"
 action = "set"
 value = ["Ahiram", "Hiram I", "Pygmalion of Tyre"]
 value_id = ["Q400275", "Q467115", "Q1879787"]
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Ahiram was a ruler or leading figure of Phoenicia", source = "https://www.worldhistory.org/Phoenicia/", quote = "c. 1000 BCE Ahiram becomes king of Sidon." },
   { fact = "Hiram I was a ruler or leading figure of Phoenicia", source = "https://en.wikipedia.org/wiki/Hiram_I", quote = "was a Phoenician king of Tyre" },
+  { fact = "Pygmalion of Tyre was a ruler or leading figure of Phoenicia", source = "https://en.wikipedia.org/wiki/Pygmalion_of_Tyre", quote = "Josephus, citing Menander, says that \"in the seventh year of [Pygmalion's] reign, his sister fled away from him, and built the city of Carthage in Libya\" (Against Apion i:18)." },
 ]
 derivation = "every listed item has its own source"
-note = "partly sourced: no source yet for Pygmalion of Tyre"
 
 [[override]]
 civilization = "Phrygia"
