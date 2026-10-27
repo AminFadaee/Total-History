@@ -3946,8 +3946,7 @@
       "action": "set",
       "value": [
         "Bimbisara",
-        "Prasenajit",
-        "Ajatashatru"
+        "Prasenajit"
       ]
     },
     {
@@ -4390,8 +4389,7 @@
       "value": [
         "Jiang Ziya",
         "Duke Huan of Qi",
-        "Duke Jing of Qi",
-        "Sun Bin"
+        "Duke Jing of Qi"
       ]
     },
     {
@@ -5045,7 +5043,6 @@
       "action": "set",
       "value": [
         "Helü of Wu",
-        "Sun Tzu",
         "Wu Zixu",
         "Fuchai of Wu"
       ]
@@ -6245,16 +6242,6 @@
     },
     {
       "civilization": "Mahajanapadas",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Bimbisara",
-        "Prasenajit",
-        "Ajatashatru"
-      ]
-    },
-    {
-      "civilization": "Mahajanapadas",
       "field": "before",
       "action": "set",
       "value": "Kuru Kingdom"
@@ -6282,27 +6269,6 @@
       "field": "after",
       "action": "add",
       "value": "Himyarite Kingdom"
-    },
-    {
-      "civilization": "Moghulistan",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Tughlugh Timur",
-        "Khizr Khoja",
-        "Esen Buqa II",
-        "Yunus Khan"
-      ]
-    },
-    {
-      "civilization": "Mongolian People's Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Khorloogiin Choibalsan",
-        "Yumjaagiin Tsedenbal",
-        "Jambyn Batmönkh"
-      ]
     },
     {
       "civilization": "Nara Japan",
@@ -6376,17 +6342,6 @@
       "field": "before",
       "action": "add",
       "value": "Pugu (state)"
-    },
-    {
-      "civilization": "Qi",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Jiang Ziya",
-        "Duke Huan of Qi",
-        "Duke Jing of Qi",
-        "Sun Bin"
-      ]
     },
     {
       "civilization": "Republic of Austria",
@@ -6553,17 +6508,6 @@
         "end": -473,
         "circa": true
       }
-    },
-    {
-      "civilization": "Wu",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Helü of Wu",
-        "Sun Tzu",
-        "Wu Zixu",
-        "Fuchai of Wu"
-      ]
     },
     {
       "civilization": "Xin Dynasty",

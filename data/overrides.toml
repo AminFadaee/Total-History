@@ -6876,16 +6876,15 @@ civilization = "Mahajanapadas"
 civilization_id = "Q846025"
 field = "key_figures"
 action = "set"
-value = ["Bimbisara", "Prasenajit", "Ajatashatru"]
-value_id = ["Q317765", "Q3055324", "Q379242"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Prasenajit"
-sources = [
-  { fact = "Bimbisara was a ruler or leading figure of Mahajanapadas", source = "https://en.wikipedia.org/wiki/Bimbisara", quote = "was the King of Magadha" },
-  { fact = "Ajatashatru was a ruler or leading figure of Mahajanapadas", source = "https://en.wikipedia.org/wiki/Ajatashatru", quote = "Ajatashatru's reign as c. 405 to 373 BCE" },
-]
+needs_verification = false
+value = ["Bimbisara", "Prasenajit"]
+value_id = ["Q317765", "Q3055324"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Bimbisara", source = "https://en.wikipedia.org/wiki/Mahajanapadas", quote = "King Pukkusati or Pushkarasarin of Gandhara in the middle of the 6th century BCE was the contemporary of king Bimbisara of Magadha." },
+  { fact = "Prasenajit", source = "https://en.wikipedia.org/wiki/Mahajanapadas", quote = "Pasenadi or Prasenajit (Pali: पसेनदि, romanized: Pasenadi; Sanskrit: प्रसेनजित्, romanized: Prasenajit;) was a 6th or 5th century BCE Aikṣvāka ruler of Kosala, where Shravasti was his capital." },
+]
 
 [[override]]
 civilization = "Mahajanapadas"
@@ -7144,17 +7143,17 @@ civilization = "Moghulistan"
 civilization_id = "Q1191125"
 field = "key_figures"
 action = "set"
+needs_verification = false
 value = ["Tughlugh Timur", "Khizr Khoja", "Esen Buqa II", "Yunus Khan"]
 value_id = ["Q1194934", "Q4497525", "Q987896", "Q477140"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Khizr Khoja"
-sources = [
-  { fact = "Tughlugh Timur was a ruler or leading figure of Moghulistan", source = "https://en.wikipedia.org/wiki/Moghulistan", quote = "Despite that, the first Khan of Moghulistan, Tughlugh Timur, became Muslim in 1354 alongside 160,000 followers." },
-  { fact = "Esen Buqa II was a ruler or leading figure of Moghulistan", source = "https://en.wikipedia.org/wiki/Esen_Buqa_II", quote = "was Khan of Moghulistan from 1429 until his death" },
-  { fact = "Yunus Khan was a ruler or leading figure of Moghulistan", source = "https://en.wikipedia.org/wiki/Yunus_Khan", quote = "was Khan of Moghulistan from 1462 until his death in 1487" },
-]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Tughlugh Timur", source = "https://en.wikipedia.org/wiki/Moghulistan", quote = "Moghulistan, which had formed the eastern portion of the Chagatai Khanate, became independent in 1347 under the Chagatayid named Tughlugh Timur." },
+  { fact = "Khizr Khoja", source = "https://en.wikipedia.org/wiki/Moghulistan", quote = "A Chagatayid restoration occurred in the 1380s, when the Dughlats enthroned the surviving Chagatayid heir Khizr Khoja, but the Dughlats retained an important position within the khanate; for the next forty years they installed several khans of their own choosing." },
+  { fact = "Esen Buqa II", source = "https://en.wikipedia.org/wiki/Moghulistan", quote = "Esen Buqa II (Chagatai: اسن بوقا ثانی; died 1462) was Khan of Moghulistan from 1429 until his death." },
+  { fact = "Yunus Khan", source = "https://en.wikipedia.org/wiki/Moghulistan", quote = "Late in his reign Esen Buqa was contested by his brother Yunus Khan (1462–1487), who had been raised to the khanship by the Timurids in an attempt to counter Esen Buqa." },
+]
 
 [[override]]
 civilization = "Moghulistan"
@@ -7175,16 +7174,16 @@ civilization = "Mongolian People's Republic"
 civilization_id = "Q212056"
 field = "key_figures"
 action = "set"
+needs_verification = false
 value = ["Khorloogiin Choibalsan", "Yumjaagiin Tsedenbal", "Jambyn Batmönkh"]
 value_id = ["Q311488", "Q275025", "Q558706"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Jambyn Batmönkh"
-sources = [
-  { fact = "Khorloogiin Choibalsan was a ruler or leading figure of Mongolian People's Republic", source = "https://en.wikipedia.org/wiki/Mongolian_People's_Republic", quote = "Yumjaagiin Tsedenbal, MPRP general secretary and second to Choibalsan, rose to prominence, inspecting aid deliveries and touring the Eastern Front as a Mongolian People's Army (MPA) lieutenant general." },
-  { fact = "Yumjaagiin Tsedenbal was a ruler or leading figure of Mongolian People's Republic", source = "https://en.wikipedia.org/wiki/Mongolian_People's_Republic", quote = "Yumjaagiin Tsedenbal, MPRP general secretary and second to Choibalsan, rose to prominence, inspecting aid deliveries and touring the Eastern Front as a Mongolian People's Army (MPA) lieutenant general." },
-]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Khorloogiin Choibalsan", source = "https://en.wikipedia.org/wiki/Mongolian_People's_Republic", quote = "In March 1939, Choibalsan, Stalin's close ally, became premier, led a Stalinist dictatorship, and initiated further episodes of repression during his tenure." },
+  { fact = "Yumjaagiin Tsedenbal", source = "https://en.wikipedia.org/wiki/Mongolian_People's_Republic", quote = "Choibalsan died of cancer in Moscow in 1952, and was replaced as prime minister by Tsedenbal." },
+  { fact = "Jambyn Batmönkh", source = "https://en.wikipedia.org/wiki/Mongolian_People's_Republic", quote = "Tsedenbal was expelled from office by Batmönkh and the MPRP Politburo in August 1984, on the pretext of \"old age and mental incapacity\" in a move with full Soviet backing, and he retired to Moscow; Batmönkh took over as the party leader and head of state." },
+]
 
 [[override]]
 civilization = "Morocco"
@@ -7704,16 +7703,16 @@ civilization = "Qi"
 civilization_id = "Q837855"
 field = "key_figures"
 action = "set"
-value = ["Jiang Ziya", "Duke Huan of Qi", "Duke Jing of Qi", "Sun Bin"]
-value_id = ["Q701488", "Q470108", "Q709736", "Q334090"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Duke Huan of Qi, Sun Bin"
-sources = [
-  { fact = "Duke Jing of Qi was a ruler or leading figure of Qi", source = "https://en.wikipedia.org/wiki/Duke_Jing_of_Qi", quote = "Duke Jing of Qi (Chinese: 齊景公; pinyin: Qí Jǐng Gōng), personal name Lü Chujiu, was ruler of the Qi state from 547 BC to 490 BC." },
-  { fact = "Jiang Ziya was a ruler or leading figure of Qi", source = "https://en.wikipedia.org/wiki/Jiang_Ziya", quote = "The first ruler of Qi bore the given name Shang." },
-]
+needs_verification = false
+value = ["Jiang Ziya", "Duke Huan of Qi", "Duke Jing of Qi"]
+value_id = ["Q701488", "Q470108", "Q709736"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Jiang Ziya", source = "https://en.wikipedia.org/wiki/Qi_(state)", quote = "Its first monarch was Jiang Ziya (Lord Tai; r. 1046–1015 BCE), minister of King Wen and a legendary figure in Chinese culture." },
+  { fact = "Duke Huan of Qi", source = "https://en.wikipedia.org/wiki/Qi_(state)", quote = "Under this new geopolitical situation, Qi rose to prominence under Duke Huan of Qi (r. 685–643 BCE)." },
+  { fact = "Duke Jing of Qi", source = "https://en.wikipedia.org/wiki/Duke_Jing_of_Qi", quote = "Duke Jing of Qi (Chinese: 齊景公; pinyin: Qí Jǐng Gōng), personal name Lü Chujiu, was ruler of the Qi state from 547 BC to 490 BC." },
+]
 
 [[override]]
 civilization = "Republic of Austria"
@@ -8895,16 +8894,16 @@ civilization = "Wu"
 civilization_id = "Q912068"
 field = "key_figures"
 action = "set"
-value = ["Helü of Wu", "Sun Tzu", "Wu Zixu", "Fuchai of Wu"]
-value_id = ["Q1279924", "Q37151", "Q1268609", "Q1269349"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Wu Zixu, Fuchai of Wu"
-sources = [
-  { fact = "Helü of Wu was a ruler or leading figure of Wu", source = "https://en.wikipedia.org/wiki/Wu_(state)", quote = "After the successful assassination of King Liao, Prince Guang ascended the throne and became known as King Helü of Wu." },
-  { fact = "Sun Tzu was a ruler or leading figure of Wu", source = "https://en.wikipedia.org/wiki/Sun_Tzu", quote = "placed him as a minister to King Helü of Wu" },
-]
+needs_verification = false
+value = ["Helü of Wu", "Wu Zixu", "Fuchai of Wu"]
+value_id = ["Q1279924", "Q1268609", "Q1269349"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Helü of Wu", source = "https://en.wikipedia.org/wiki/Wu_(state)", quote = "After the successful assassination of King Liao, Prince Guang ascended the throne and became known as King Helü of Wu." },
+  { fact = "Wu Zixu", source = "https://en.wikipedia.org/wiki/Wu_(state)", quote = "Wu Zixu later became a trusted advisor of Prince Guang and helped him assassinate his cousin King Liao of Wu in order to usurp the throne." },
+  { fact = "Fuchai of Wu", source = "https://en.wikipedia.org/wiki/Fuchai_of_Wu", quote = "In 482 BC, Fuchai successfully challenged the duke of Jin for the status of hegemon in the regional lords' conference in Huangchi." },
+]
 
 [[override]]
 civilization = "Wu"
