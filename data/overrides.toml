@@ -2068,17 +2068,16 @@ civilization = "Gran Colombia"
 civilization_id = "Q199821"
 field = "key_figures"
 action = "set"
-value = ["Simón Bolívar", "Francisco de Paula Santander", "Antonio José de Sucre", "José Antonio Páez"]
-value_id = ["Q8605", "Q452017", "Q189779", "Q304900"]
-retrieved = 2026-10-20
-needs_verification = true
-sources = [
-  { fact = "Simón Bolívar was a ruler or leading figure of Gran Colombia", source = "https://en.wikipedia.org/wiki/Gran_Colombia", quote = "The faction that favored constitutional rule coalesced around Vice-President Francisco de Paula Santander, while those who supported the creation of a stronger presidency were led by President Simón Bolívar." },
-  { fact = "Francisco de Paula Santander was a ruler or leading figure of Gran Colombia", source = "https://en.wikipedia.org/wiki/Gran_Colombia", quote = "The faction that favored constitutional rule coalesced around Vice-President Francisco de Paula Santander, while those who supported the creation of a stronger presidency were led by President Simón Bolívar." },
-  { fact = "José Antonio Páez was a ruler or leading figure of Gran Colombia", source = "https://en.wikipedia.org/wiki/Gran_Colombia", quote = "who now allied themselves with the conservative Commandant General of the Department of Venezuela, José Antonio Páez, against the central government." },
-]
+needs_verification = false
+value = ["Simón Bolívar", "Francisco de Paula Santander", "José Antonio Páez"]
+value_id = ["Q8605", "Q452017", "Q304900"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
-note = "partly sourced: no source yet for Antonio José de Sucre (the Battle of Pichincha sentence has no footnote)"
+sources = [
+  { fact = "Simón Bolívar", source = "https://en.wikipedia.org/wiki/Gran_Colombia", quote = "Since President Bolívar was absent from Gran Colombia for the early years of its existence, executive power was wielded by the vice president, Santander." },
+  { fact = "Francisco de Paula Santander", source = "https://en.wikipedia.org/wiki/Gran_Colombia", quote = "Since President Bolívar was absent from Gran Colombia for the early years of its existence, executive power was wielded by the vice president, Santander." },
+  { fact = "José Antonio Páez", source = "https://en.wikipedia.org/wiki/Gran_Colombia", quote = "The strongest calls for a federal arrangement instead came from Venezuela, where there was strong federalist sentiment among the region's liberals, many of whom had not fought in the war of independence but had supported Spanish liberalism in the previous decade and who now allied themselves with the conservative Commandant General of the Department of Venezuela, José Antonio Páez, against the central government." },
+]
 
 [[override]]
 civilization = "Habsburg Monarchy"
@@ -2119,16 +2118,16 @@ civilization = "Indo-Scythians"
 civilization_id = "Q240123"
 field = "key_figures"
 action = "set"
-value = ["Maues", "Azes I", "Azilises", "Rajuvula"]
-value_id = ["Q1911068", "Q793703", "Q793770", "Q11221830"]
-retrieved = 2026-10-20
-needs_verification = true
-sources = [
-  { fact = "Maues was a ruler or leading figure of Indo-Scythians", source = "https://en.wikipedia.org/wiki/Indo-Scythians", quote = "The first Saka king in the Indian subcontinent was Maues" },
-  { fact = "Rajuvula was a ruler or leading figure of Indo-Scythians", source = "https://en.wikipedia.org/wiki/Rajuvula", quote = "Indo-Scythian Great Satrap (Mahākṣatrapa), one of the \"Northern Satraps\" who ruled in the area of Mathura" },
-]
+needs_verification = false
+value = ["Maues", "Rajuvula", "Rudrasimha III"]
+value_id = ["Q1911068", "Q11221830", "Q7377529"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
-note = "partly sourced: no source yet for Azes I, Azilises"
+sources = [
+  { fact = "Maues", source = "https://en.wikipedia.org/wiki/Indo-Scythian_Kingdom", quote = "The first rulers of the Indo-Scythian kingdom were Maues (c. 85–60 BCE) and Vonones (c. 75–65 BCE)." },
+  { fact = "Rajuvula", source = "https://en.wikipedia.org/wiki/Indo-Scythian_Kingdom", quote = "The inscriptions refer to Kharahostes and Queen Ayasia, the \"chief queen of the Indo-Scythian ruler of Mathura, satrap Rajuvula.\" Kharahostes was the son of Arta, as attested by his own coins." },
+  { fact = "Rudrasimha III", source = "https://en.wikipedia.org/wiki/Indo-Scythian_Kingdom", quote = "Indo-Scythian rule in the northwestern subcontinent ended when the last Western Satrap, Rudrasimha III, was defeated by the Gupta emperor Chandragupta II in 395 CE." },
+]
 
 [[override]]
 civilization = "Hittites"
@@ -2153,17 +2152,16 @@ civilization = "Khazaria"
 civilization_id = "Q173282"
 field = "key_figures"
 action = "set"
-value = ["Irbis", "Bulan", "Obadiah", "Joseph"]
-value_id = ["Q3801857", "Q2914836", "Q2365306", "Q4202883"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Obadiah"
-sources = [
-  { fact = "Irbis was a ruler or leading figure of Khazaria", source = "https://en.wikipedia.org/wiki/Irbis_(Khazar)", quote = "the founder of the Khazar Khaganate" },
-  { fact = "Bulan was a ruler or leading figure of Khazaria", source = "https://en.wikipedia.org/wiki/Bulan_(Khazar)", quote = "It is also not settled whether if Bulan was a Bek (military leader) or Khagan (supreme chief and spiritual leader) of the Khazars" },
-  { fact = "Joseph was a ruler or leading figure of Khazaria", source = "https://en.wikipedia.org/wiki/Joseph_(Khazar)", quote = "Joseph ben Aaron was king of the Khazars during the 950s and 960s" },
-]
+needs_verification = false
+value = ["Bulan", "Joseph", "Georgius Tzul"]
+value_id = ["Q2914836", "Q4202883", "Q1963202"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Bulan", source = "https://en.wikipedia.org/wiki/Khazars", quote = "Bulan is then said to have convened a royal debate between exponents of the three Abrahamic religions." },
+  { fact = "Joseph", source = "https://en.wikipedia.org/wiki/Khazars", quote = "In the early 960s, Khazar ruler Joseph wrote to Hasdai ibn Shaprut about the deterioration of Khazar relations with the Rus': \"I protect the mouth of the river (Itil-Volga) and prevent the Rus arriving in their ships from setting off by sea against the Ishmaelites and (equally) all (their) enemies from setting off by land to Bab.\"" },
+  { fact = "Georgius Tzul", source = "https://en.wikipedia.org/wiki/Khazars", quote = "Kedrenos mentions a joint Rus'-Byzantine attack on Khazaria in 1016, which defeated its ruler Georgius Tzul." },
+]
 
 [[override]]
 civilization = "Classical Athens"
@@ -2536,17 +2534,17 @@ civilization = "Middle Kingdom of Egypt"
 civilization_id = "Q191324"
 field = "key_figures"
 action = "set"
+needs_verification = false
 value = ["Mentuhotep II", "Amenemhat I", "Senusret III", "Amenemhat III"]
 value_id = ["Q296439", "Q18771", "Q19248", "Q19244"]
-retrieved = 2026-10-20
-needs_verification = true
-sources = [
-  { fact = "Mentuhotep II was a ruler or leading figure of Middle Kingdom of Egypt", source = "https://en.wikipedia.org/wiki/Mentuhotep_II", quote = "becoming the first pharaoh of the Middle Kingdom" },
-  { fact = "Senusret III was a ruler or leading figure of Middle Kingdom of Egypt", source = "https://www.worldhistory.org/Middle_Kingdom_of_Egypt/", quote = "Senusret II was succeeded by Senusret III" },
-  { fact = "Amenemhat III was a ruler or leading figure of Middle Kingdom of Egypt", source = "https://www.britannica.com/biography/Amenemhet-III", quote = "Amenemhet III, was a king of ancient Egypt of the 12th dynasty, who brought Middle Kingdom Egypt to a peak of economic prosperity" },
-]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
-note = "partly sourced: no source yet for Amenemhat I"
+sources = [
+  { fact = "Mentuhotep II", source = "https://en.wikipedia.org/wiki/Middle_Kingdom_of_Egypt", quote = "For this reason, Mentuhotep II is regarded as the founder of the Middle Kingdom." },
+  { fact = "Amenemhat I", source = "https://en.wikipedia.org/wiki/Middle_Kingdom_of_Egypt", quote = "Early in his reign, Amenemhet I was compelled to campaign in the Delta region, which had not received as much attention as Upper Egypt during the 11th Dynasty." },
+  { fact = "Senusret III", source = "https://en.wikipedia.org/wiki/Middle_Kingdom_of_Egypt", quote = "Senusret III was a warrior-king, often taking to the field himself." },
+  { fact = "Amenemhat III", source = "https://en.wikipedia.org/wiki/Middle_Kingdom_of_Egypt", quote = "The reign of Amenemhat III was the height of the Middle Kingdom's economic prosperity." },
+]
 
 [[override]]
 civilization = "Minoan civilization"
@@ -3228,15 +3226,15 @@ civilization = "Principality of Hungary"
 civilization_id = "Q2899771"
 field = "key_figures"
 action = "set"
-value = ["Árpád", "Taksony of Hungary", "Géza", "Stephen I of Hungary"]
-value_id = ["Q210207", "Q347935", "Q298298", "Q177903"]
-retrieved = 2026-10-20
-needs_verification = true
-sources = [
-  { fact = "Taksony of Hungary was a ruler or leading figure of Principality of Hungary", source = "https://en.wikipedia.org/wiki/Taksony_of_Hungary", quote = "Zoltán abdicated in favor of Taksony in 947" },
-]
+needs_verification = false
+value = ["Árpád", "Géza"]
+value_id = ["Q210207", "Q298298"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
-note = "partly sourced: no source yet for Árpád, Géza, Stephen I of Hungary"
+sources = [
+  { fact = "Árpád", source = "https://en.wikipedia.org/wiki/Principality_of_Hungary", quote = "The Hungarians, a semi-nomadic people, formed a tribal alliance led by Árpád (founder of the Árpád dynasty) who arrived from Etelköz, their earlier principality east of the Carpathians." },
+  { fact = "Géza", source = "https://en.wikipedia.org/wiki/Principality_of_Hungary", quote = "The first Hungarian Benedictine monastery was founded in 996 by Prince Géza." },
+]
 
 [[override]]
 civilization = "Principality of Rostov-Suzdal"
@@ -7492,17 +7490,17 @@ civilization = "Pala Empire"
 civilization_id = "Q668412"
 field = "key_figures"
 action = "set"
-value = ["Gopala I", "Dharmapala", "Devapala", "Mahipala I"]
-value_id = ["Q3352284", "Q3183804", "Q15649142", "Q16863944"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Mahipala I"
-sources = [
-  { fact = "Gopala I was a ruler or leading figure of Pala Empire", source = "https://en.wikipedia.org/wiki/Gopala_I", quote = "was the founder of the Pala dynasty" },
-  { fact = "Dharmapala was a ruler or leading figure of Pala Empire", source = "https://en.wikipedia.org/wiki/Pala_Empire", quote = "At its zenith under emperors Dharmapala and Devapala in the early ninth century, the Pala Empire was the dominant power in northern India, with its territory stretching across the Gangetic Plain down to the Vindhya Range and may have extended to Goalpara in Assam." },
-  { fact = "Devapala was a ruler or leading figure of Pala Empire", source = "https://en.wikipedia.org/wiki/Pala_Empire", quote = "At its zenith under emperors Dharmapala and Devapala in the early ninth century, the Pala Empire was the dominant power in northern India, with its territory stretching across the Gangetic Plain down to the Vindhya Range and may have extended to Goalpara in Assam." },
-]
+needs_verification = false
+value = ["Dharmapala", "Devapala", "Mahipala I", "Ramapala"]
+value_id = ["Q3183804", "Q15649142", "Q6734077", "Q7289004"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Dharmapala", source = "https://en.wikipedia.org/wiki/Pala_Empire", quote = "Dharmapala was succeeded by his son Devapala, who is regarded as the most powerful Pala Emperor." },
+  { fact = "Devapala", source = "https://en.wikipedia.org/wiki/Pala_Empire", quote = "Dharmapala was succeeded by his son Devapala, who is regarded as the most powerful Pala Emperor." },
+  { fact = "Mahipala I", source = "https://en.wikipedia.org/wiki/Pala_Empire", quote = "Mahipala I recovered northern and eastern Bengal within three years of ascending the throne in 978 CE." },
+  { fact = "Ramapala", source = "https://en.wikipedia.org/wiki/Pala_Empire", quote = "Ramapala was the last strong Pala emperor who held control of Kamarupa and Kalinga." },
+]
 
 [[override]]
 civilization = "Pala Empire"
@@ -9056,17 +9054,17 @@ civilization = "Lanna Kingdom"
 civilization_id = "Q1059707"
 field = "key_figures"
 action = "set"
-value = ["Mangrai", "Tilokarat", "Setthathirath", "Mekuti"]
-value_id = ["Q887732", "Q586326", "Q732557", "Q8061177"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Tilokarat"
-sources = [
-  { fact = "Mekuti was a ruler or leading figure of Lanna Kingdom", source = "https://en.wikipedia.org/wiki/Lanna", quote = "The nobles then chose Mekuti, the Shan saopha of Mong Nai whose family was related to Mangrai, to be the new king of Lanna." },
-  { fact = "Mangrai was a ruler or leading figure of Lanna Kingdom", source = "https://en.wikipedia.org/wiki/Mangrai", quote = "was the 25th king of Ngoenyang (r. 1261–1292) and the first king of Lan Na (r. 1292–1311)" },
-  { fact = "Setthathirath was a ruler or leading figure of Lanna Kingdom", source = "https://en.wikipedia.org/wiki/Setthathirath", quote = "High-ranking officials and Buddhist monks therefore agreed unanimously to assign the Lan Na throne to Prince Setthathirath in 1546" },
-]
+needs_verification = false
+value = ["Mangrai", "Phayu", "Tilokarat", "Mekuti"]
+value_id = ["Q887732", "Q889437", "Q586326", "Q8061177"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Mangrai", source = "https://en.wikipedia.org/wiki/Lanna_Kingdom", quote = "In 1262, Mangrai moved the capital from Ngoenyang to the newly founded Chiang Rai, naming the city after himself." },
+  { fact = "Phayu", source = "https://en.wikipedia.org/wiki/Lanna_Kingdom", quote = "His son Khamfu reigned only a few years and was succeeded by his own son Phayu, who returned the capital to Chiang Mai, fortified the city and built Wat Phra Singh." },
+  { fact = "Tilokarat", source = "https://en.wikipedia.org/wiki/Tilokarat", quote = "The ministers crowned Thao Lok as king on Friday, March 24, 1443." },
+  { fact = "Mekuti", source = "https://en.wikipedia.org/wiki/Lanna_Kingdom", quote = "The nobles then chose Mekuti, the Shan saopha of Mong Nai whose family was related to Mangrai, to be the new king of Lanna." },
+]
 
 [[override]]
 civilization = "Avar Khaganate"

@@ -1309,7 +1309,6 @@
       "value": [
         "Simón Bolívar",
         "Francisco de Paula Santander",
-        "Antonio José de Sucre",
         "José Antonio Páez"
       ]
     },
@@ -1341,9 +1340,8 @@
       "action": "set",
       "value": [
         "Maues",
-        "Azes I",
-        "Azilises",
-        "Rajuvula"
+        "Rajuvula",
+        "Rudrasimha III"
       ]
     },
     {
@@ -1362,10 +1360,9 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Irbis",
         "Bulan",
-        "Obadiah",
-        "Joseph"
+        "Joseph",
+        "Georgius Tzul"
       ]
     },
     {
@@ -1977,9 +1974,7 @@
       "action": "set",
       "value": [
         "Árpád",
-        "Taksony of Hungary",
-        "Géza",
-        "Stephen I of Hungary"
+        "Géza"
       ]
     },
     {
@@ -4281,10 +4276,10 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Gopala I",
         "Dharmapala",
         "Devapala",
-        "Mahipala I"
+        "Mahipala I",
+        "Ramapala"
       ]
     },
     {
@@ -5143,8 +5138,8 @@
       "action": "set",
       "value": [
         "Mangrai",
+        "Phayu",
         "Tilokarat",
-        "Setthathirath",
         "Mekuti"
       ]
     },
@@ -5719,39 +5714,6 @@
       ]
     },
     {
-      "civilization": "Gran Colombia",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Simón Bolívar",
-        "Francisco de Paula Santander",
-        "Antonio José de Sucre",
-        "José Antonio Páez"
-      ]
-    },
-    {
-      "civilization": "Indo-Scythians",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Maues",
-        "Azes I",
-        "Azilises",
-        "Rajuvula"
-      ]
-    },
-    {
-      "civilization": "Khazaria",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Irbis",
-        "Bulan",
-        "Obadiah",
-        "Joseph"
-      ]
-    },
-    {
       "civilization": "Kanem–Bornu Empire",
       "field": "key_figures",
       "action": "set",
@@ -5779,17 +5741,6 @@
         "Egypt",
         "Libya",
         "Cyprus"
-      ]
-    },
-    {
-      "civilization": "Middle Kingdom of Egypt",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Mentuhotep II",
-        "Amenemhat I",
-        "Senusret III",
-        "Amenemhat III"
       ]
     },
     {
@@ -5899,17 +5850,6 @@
       "field": "after",
       "action": "add",
       "value": "Portuguese Republic"
-    },
-    {
-      "civilization": "Principality of Hungary",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Árpád",
-        "Taksony of Hungary",
-        "Géza",
-        "Stephen I of Hungary"
-      ]
     },
     {
       "civilization": "Principality of Rostov-Suzdal",
@@ -6486,17 +6426,6 @@
     },
     {
       "civilization": "Pala Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Gopala I",
-        "Dharmapala",
-        "Devapala",
-        "Mahipala I"
-      ]
-    },
-    {
-      "civilization": "Pala Empire",
       "field": "before",
       "action": "add",
       "value": "Khadga dynasty"
@@ -6732,17 +6661,6 @@
       "value": [
         "Wang Mang",
         "Gengshi Emperor"
-      ]
-    },
-    {
-      "civilization": "Lanna Kingdom",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Mangrai",
-        "Tilokarat",
-        "Setthathirath",
-        "Mekuti"
       ]
     },
     {
