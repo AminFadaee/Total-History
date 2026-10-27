@@ -706,8 +706,7 @@
       "action": "set",
       "value": [
         "Georges Danton",
-        "Maximilien Robespierre",
-        "Napoleon"
+        "Maximilien Robespierre"
       ]
     },
     {
@@ -1049,9 +1048,7 @@
       "action": "set",
       "value": [
         "Roman the Great",
-        "Daniel of Galicia",
-        "Leo I of Galicia",
-        "Liubartas"
+        "Daniel of Galicia"
       ]
     },
     {
@@ -5526,16 +5523,6 @@
       "value": "Kingdom of France"
     },
     {
-      "civilization": "French First Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Georges Danton",
-        "Maximilien Robespierre",
-        "Napoleon"
-      ]
-    },
-    {
       "civilization": "German Confederation",
       "field": "modern_countries",
       "action": "set",
@@ -5634,17 +5621,6 @@
       "value": "Rus' Khaganate"
     },
     {
-      "civilization": "Kingdom of Galicia–Volhynia",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Roman the Great",
-        "Daniel of Galicia",
-        "Leo I of Galicia",
-        "Liubartas"
-      ]
-    },
-    {
       "civilization": "Kingdom of Germany",
       "field": "after",
       "action": "add",
@@ -5711,16 +5687,6 @@
         "Hussain Nizam Shah I",
         "Chand Bibi",
         "Malik Ambar"
-      ]
-    },
-    {
-      "civilization": "Kanem–Bornu Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Dunama Dabbalemi",
-        "Idris Alooma",
-        "Muhammad al-Amin al-Kanemi"
       ]
     },
     {
@@ -5850,17 +5816,6 @@
       "field": "after",
       "action": "add",
       "value": "Portuguese Republic"
-    },
-    {
-      "civilization": "Principality of Rostov-Suzdal",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Yuri Dolgorukiy",
-        "Andrey Bogolyubsky",
-        "Vsevolod the Big Nest",
-        "Alexander Nevsky"
-      ]
     },
     {
       "civilization": "Puebloans - Chaco Regional System",

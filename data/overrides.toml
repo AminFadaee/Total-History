@@ -1006,16 +1006,15 @@ civilization = "French First Republic"
 civilization_id = "Q58296"
 field = "key_figures"
 action = "set"
-value = ["Georges Danton", "Maximilien Robespierre", "Napoleon"]
-value_id = ["Q184623", "Q44197", "Q517"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Napoleon"
-sources = [
-  { fact = "Georges Danton was a ruler or leading figure of French First Republic", source = "https://en.wikipedia.org/wiki/Georges_Danton", quote = "following the overthrow of the monarchy on 10 August 1792, was appointed Minister of Justice" },
-  { fact = "Maximilien Robespierre was a ruler or leading figure of French First Republic", source = "https://en.wikipedia.org/wiki/Maximilien_Robespierre", quote = "in July 1793, he was appointed a member of the Committee of Public Safety" },
-]
+needs_verification = false
+value = ["Georges Danton", "Maximilien Robespierre"]
+value_id = ["Q184623", "Q44197"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Georges Danton", source = "https://en.wikipedia.org/wiki/Georges_Danton", quote = "A relatively obscure lawyer before the Revolution, he became a prominent orator of the Cordeliers Club and, following the overthrow of the monarchy on 10 August 1792, was appointed Minister of Justice." },
+  { fact = "Maximilien Robespierre", source = "https://en.wikipedia.org/wiki/Maximilien_Robespierre", quote = "A radical Jacobin leader, Robespierre was elected as a deputy to the National Convention in September 1792, and in July 1793, he was appointed a member of the Committee of Public Safety." },
+]
 
 [[override]]
 civilization = "Funj Sultanate"
@@ -1594,17 +1593,15 @@ civilization = "Kingdom of Galicia–Volhynia"
 civilization_id = "Q239502"
 field = "key_figures"
 action = "set"
-value = ["Roman the Great", "Daniel of Galicia", "Leo I of Galicia", "Liubartas"]
-value_id = ["Q497773", "Q58607", "Q156357", "Q2310836"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Leo I of Galicia was a ruler or leading figure of Kingdom of Galicia–Volhynia"
-sources = [
-  { fact = "Roman the Great was a ruler or leading figure of Kingdom of Galicia–Volhynia", source = "https://en.wikipedia.org/wiki/Roman_the_Great", quote = "In 1199, after the death of Prince Volodymyr Yaroslavych of Halych, Roman captured the Galician throne for the second time, creating the Principality of Galicia-Volhynia." },
-  { fact = "Liubartas was a ruler or leading figure of Kingdom of Galicia–Volhynia", source = "https://en.wikipedia.org/wiki/Liubartas", quote = "He was poisoned by rebellious nobles, who invited Liubartas to become the ruler for both Galicia and Volhynia." },
-  { fact = "Daniel of Galicia was a ruler or leading figure of Kingdom of Galicia–Volhynia", source = "https://www.britannica.com/biography/Daniel-Romanovich", quote = "Daniel Romanovich (born 1201—died 1264) was the ruler of the principalities of Galicia and Volhynia (now in Poland and Ukraine, respectively), who became one of the most powerful princes in east-central Europe." },
-]
+needs_verification = false
+value = ["Roman the Great", "Daniel of Galicia"]
+value_id = ["Q497773", "Q58607"]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Roman the Great", source = "https://en.wikipedia.org/wiki/Kingdom_of_Galicia%E2%80%93Volhynia", quote = "Roman the Great united the principalities of Galicia and Volhynia at the turn of the 13th century." },
+  { fact = "Daniel of Galicia", source = "https://en.wikipedia.org/wiki/Kingdom_of_Galicia%E2%80%93Volhynia", quote = "In 1253 Daniel was crowned King of Ruthenia by the Pope in an attempt to create an anti-Mongol alliance." },
+]
 
 [[override]]
 civilization = "Kingdom of Galicia–Volhynia"
@@ -2210,16 +2207,16 @@ civilization = "Kanem–Bornu Empire"
 civilization_id = "Q1139762"
 field = "key_figures"
 action = "set"
+needs_verification = false
 value = ["Dunama Dabbalemi", "Idris Alooma", "Muhammad al-Amin al-Kanemi"]
 value_id = ["Q3038134", "Q2030595", "Q341882"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Muhammad al-Amin al-Kanemi was a ruler or leading figure of Kanem–Bornu Empire"
-sources = [
-  { fact = "Dunama Dabbalemi was a ruler or leading figure of Kanem–Bornu Empire", source = "https://en.wikipedia.org/wiki/Dunama_Dabbalemi", quote = "Dunama II (Dunama bin ʿAbd al-Jalīl), called Dunama Dibalemi and Dunama Selmami, was mai (ruler) of the Kanem–Bornu Empire in the early-to-mid 13th century, ruling approximately 1221–1259." },
-  { fact = "Idris Alooma was a ruler or leading figure of Kanem–Bornu Empire", source = "https://en.wikipedia.org/wiki/Idris_Alooma", quote = "al-Ḥājj Idris IV (Idrīs bin ʿAlī), called Idris Alooma and Idris Amsami, was mai (ruler) of the Kanem–Bornu Empire in the mid-to-late 16th century and early 17th century, ruling approximately 1570–1603." },
-]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Dunama Dabbalemi", source = "https://en.wikipedia.org/wiki/Dunama_Dabbalemi", quote = "Dunama II (Dunama bin ʿAbd al-Jalīl), called Dunama Dibalemi and Dunama Selmami, was mai (ruler) of the Kanem–Bornu Empire in the early-to-mid 13th century, ruling approximately 1221–1259." },
+  { fact = "Idris Alooma", source = "https://en.wikipedia.org/wiki/Idris_Alooma", quote = "al-Ḥājj Idris IV (Idrīs bin ʿAlī), called Idris Alooma and Idris Amsami, was mai (ruler) of the Kanem–Bornu Empire in the mid-to-late 16th century and early 17th century, ruling approximately 1570–1603." },
+  { fact = "Muhammad al-Amin al-Kanemi", source = "https://en.wikipedia.org/wiki/Kanem%E2%80%93Bornu_Empire", quote = "Al-Kanemi became the de facto ruler of the empire and centralised power under himself." },
+]
 
 [[override]]
 civilization = "Avar Khaganate"
@@ -3256,16 +3253,17 @@ civilization = "Principality of Rostov-Suzdal"
 civilization_id = "Q83546"
 field = "key_figures"
 action = "set"
+needs_verification = false
 value = ["Yuri Dolgorukiy", "Andrey Bogolyubsky", "Vsevolod the Big Nest", "Alexander Nevsky"]
 value_id = ["Q275106", "Q315191", "Q348689", "Q174044"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Vsevolod the Big Nest was a ruler or leading figure of Principality of Rostov-Suzdal; Alexander Nevsky was a ruler or leading figure of Principality of Rostov-Suzdal"
-sources = [
-  { fact = "Andrey Bogolyubsky was a ruler or leading figure of Principality of Rostov-Suzdal", source = "https://en.wikipedia.org/wiki/Andrey_Bogolyubsky", quote = "Andrey ousted his younger brothers Mikhail \"Mikhalko\" Yurievich and Vsevolod \"the Big Nest\" from Rostov and Suzdal in 1162, thus uniting his father's patrimony in Vladimir-Suzdal under his sole rule" },
-  { fact = "Yuri Dolgorukiy was a ruler or leading figure of Principality of Rostov-Suzdal", source = "https://en.wikipedia.org/wiki/Vladimir-Suzdal", quote = "Prince Yury Dolgoruky (reigned</span>\"}]]}'>r. 1125–1157) moved his capital from Rostov to Suzdal in 1125, following the death of his father, Vladimir Monomakh." },
-]
+retrieved = 2026-10-27
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Yuri Dolgorukiy", source = "https://en.wikipedia.org/wiki/Vladimir-Suzdal", quote = "Prince Yury Dolgoruky (r. 1125–1157) moved his capital from Rostov to Suzdal in 1125, following the death of his father, Vladimir Monomakh." },
+  { fact = "Andrey Bogolyubsky", source = "https://en.wikipedia.org/wiki/Vladimir-Suzdal", quote = "Yuri's son, Andrey (r. 1157–1176), succeeded him and moved the capital to Vladimir at the start of his reign; according to some sources, at that point, he assumed the title of grand prince, though other sources state that it was his younger brother, Vsevolod (r. 1176–1212), who was the first prince to officially adopt the title." },
+  { fact = "Vsevolod the Big Nest", source = "https://en.wikipedia.org/wiki/Vladimir-Suzdal", quote = "Vsevolod's long reign was marked by a significant increase in territory." },
+  { fact = "Alexander Nevsky", source = "https://en.wikipedia.org/wiki/Vladimir-Suzdal", quote = "Alexander Nevsky (r. 1252–1263) was the last prince to reign directly in Vladimir." },
+]
 
 [[override]]
 civilization = "Principality of Rostov-Suzdal"
