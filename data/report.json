@@ -4261,8 +4261,7 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Niklaus von Flüe",
-        "Huldrych Zwingli"
+        "Niklaus von Flüe"
       ]
     },
     {
@@ -5514,16 +5513,6 @@
     },
     {
       "civilization": "Chu",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "King Wu of Chu",
-        "King Zhuang of Chu",
-        "Qu Yuan"
-      ]
-    },
-    {
-      "civilization": "Chu",
       "field": "before",
       "action": "none",
       "value": ""
@@ -5750,17 +5739,6 @@
       ]
     },
     {
-      "civilization": "Habsburg Monarchy",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ferdinand I, Holy Roman Emperor",
-        "Leopold I, Holy Roman Emperor",
-        "Maria Theresa",
-        "Franz Joseph I"
-      ]
-    },
-    {
       "civilization": "Indo-Scythians",
       "field": "key_figures",
       "action": "set",
@@ -5810,17 +5788,6 @@
         "Egypt",
         "Libya",
         "Cyprus"
-      ]
-    },
-    {
-      "civilization": "Sumerian City-States",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Gilgamesh",
-        "Eannatum",
-        "Urukagina",
-        "Lugal-zage-si"
       ]
     },
     {
@@ -5875,17 +5842,6 @@
       "field": "after",
       "action": "add",
       "value": "Indo-Sassanids"
-    },
-    {
-      "civilization": "Spanish Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Isabella I of Castile",
-        "Ferdinand II of Aragon",
-        "Charles V",
-        "Philip II of Spain"
-      ]
     },
     {
       "civilization": "Macedonia",
@@ -6260,25 +6216,6 @@
       "value": "Provisional Government of the French Republic"
     },
     {
-      "civilization": "Hausa Kingdoms",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Muhammad Rumfa",
-        "Amina of Zazzau"
-      ]
-    },
-    {
-      "civilization": "Italian Africa",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Benito Mussolini",
-        "Victor Emmanuel III of Italy",
-        "Italo Balbo"
-      ]
-    },
-    {
       "civilization": "Jin",
       "field": "before",
       "action": "set",
@@ -6581,8 +6518,7 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Niklaus von Flüe",
-        "Huldrych Zwingli"
+        "Niklaus von Flüe"
       ]
     },
     {
@@ -6675,17 +6611,6 @@
       "action": "set",
       "value": [
         "Austria"
-      ]
-    },
-    {
-      "civilization": "Republic of Florence",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Cosimo de' Medici",
-        "Lorenzo de' Medici",
-        "Girolamo Savonarola",
-        "Niccolò Machiavelli"
       ]
     },
     {
@@ -6864,17 +6789,6 @@
       "value": [
         "Wang Mang",
         "Gengshi Emperor"
-      ]
-    },
-    {
-      "civilization": "Zululand",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Shaka",
-        "Dingane",
-        "Mpande",
-        "Cetshwayo"
       ]
     },
     {

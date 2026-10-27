@@ -733,12 +733,12 @@ field = "key_figures"
 action = "set"
 value = ["King Wu of Chu", "King Zhuang of Chu", "Qu Yuan"]
 value_id = ["Q796039", "Q198154", "Q313330"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for King Wu of Chu was a ruler or leading figure of Chu"
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "King Zhuang of Chu was a ruler or leading figure of Chu", source = "https://en.wikipedia.org/wiki/King_Zhuang_of_Chu", quote = "King Zhuang of Chu (Chinese: 楚莊王; pinyin: Chǔ Zhuāng Wáng), personal name Xiong Lü, was a monarch of the Chu state." },
   { fact = "Qu Yuan was a ruler or leading figure of Chu", source = "https://en.wikipedia.org/wiki/Qu_Yuan", quote = "During the early days of King Huai's reign, Qu Yuan was serving the State of Chu as its Left Minister." },
+  { fact = "King Wu of Chu was a ruler or leading figure of Chu", source = "https://en.wikipedia.org/wiki/King_Wu_of_Chu", quote = "With the power of Chu growing by the day, King Wu became dissatisfied with the title of Viscount (子)" },
 ]
 derivation = "every listed item has its own source"
 
@@ -1006,11 +1006,14 @@ field = "key_figures"
 action = "set"
 value = ["Georges Danton", "Maximilien Robespierre", "Napoleon"]
 value_id = ["Q184623", "Q44197", "Q517"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "leaders in time order"
+note = "partly sourced: no source yet for Napoleon"
+sources = [
+  { fact = "Georges Danton was a ruler or leading figure of French First Republic", source = "https://en.wikipedia.org/wiki/Georges_Danton", quote = "following the overthrow of the monarchy on 10 August 1792, was appointed Minister of Justice" },
+  { fact = "Maximilien Robespierre was a ruler or leading figure of French First Republic", source = "https://en.wikipedia.org/wiki/Maximilien_Robespierre", quote = "in July 1793, he was appointed a member of the Committee of Public Safety" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Funj Sultanate"
@@ -2082,15 +2085,15 @@ field = "key_figures"
 action = "set"
 value = ["Ferdinand I, Holy Roman Emperor", "Leopold I, Holy Roman Emperor", "Maria Theresa", "Franz Joseph I"]
 value_id = ["Q150611", "Q150494", "Q131706", "Q51056"]
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Leopold I, Holy Roman Emperor was a ruler or leading figure of Habsburg Monarchy", source = "https://www.habsburger.net/en/persons/habsburg-emperor/leopold-i", quote = "Ruler of the Habsburg Monarchy from 1657, emperor of the Holy Roman Empire from 1658 until his death in 1705" },
   { fact = "Maria Theresa was a ruler or leading figure of Habsburg Monarchy", source = "https://www.worldhistory.org/Maria_Theresa/", quote = "Maria Theresa (1717-1780) was the ruler of the Habsburg Monarchy, a sprawling empire that included Austria, Hungary, Bohemia, and other territories spread out across Italy, the Netherlands, and Central Europe." },
   { fact = "Franz Joseph I was a ruler or leading figure of Habsburg Monarchy", source = "https://en.wikipedia.org/wiki/Francis_Joseph_I", quote = "Franz Joseph I or Francis Joseph I (German: Franz Joseph Karl [fʁants ˈjoːzɛf ˈkaʁl]; Hungarian: Ferenc József Károly [ˈfɛrɛnt͡s ˈjoːʒɛf ˈkaːroj]; 18 August 1830 – 21 November 1916) was Emperor of Austria, King of Hungary, and the ruler of the other states of the Habsburg monarchy from 2 December 1848 until his death in 1916." },
+  { fact = "Ferdinand I, Holy Roman Emperor was a ruler or leading figure of Habsburg Monarchy", source = "https://en.wikipedia.org/wiki/Ferdinand_I,_Holy_Roman_Emperor", quote = "Holy Roman Emperor from 1556, King of Bohemia, Hungary, and Croatia from 1526, and Archduke of Austria from 1521" },
 ]
 derivation = "every listed item has its own source"
-note = "partly sourced: no source yet for Ferdinand I, Holy Roman Emperor was a ruler or leading figure of Habsburg Monarchy"
 
 [[override]]
 civilization = "Ilkhanate"
@@ -2150,11 +2153,15 @@ field = "key_figures"
 action = "set"
 value = ["Irbis", "Bulan", "Obadiah", "Joseph"]
 value_id = ["Q3801857", "Q2914836", "Q2365306", "Q4202883"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Irbis (7th c.), Bulan (c. 8th c.), Obadiah (reformer, c. 800), Joseph (10th-century king of the Cordoban letter)"
+note = "partly sourced: no source yet for Obadiah"
+sources = [
+  { fact = "Irbis was a ruler or leading figure of Khazaria", source = "https://en.wikipedia.org/wiki/Irbis_(Khazar)", quote = "the founder of the Khazar Khaganate" },
+  { fact = "Bulan was a ruler or leading figure of Khazaria", source = "https://en.wikipedia.org/wiki/Bulan_(Khazar)", quote = "It is also not settled whether if Bulan was a Bek (military leader) or Khagan (supreme chief and spiritual leader) of the Khazars" },
+  { fact = "Joseph was a ruler or leading figure of Khazaria", source = "https://en.wikipedia.org/wiki/Joseph_(Khazar)", quote = "Joseph ben Aaron was king of the Khazars during the 950s and 960s" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Classical Athens"
@@ -2418,13 +2425,13 @@ field = "key_figures"
 action = "set"
 value = ["Gilgamesh", "Eannatum", "Urukagina", "Lugal-zage-si"]
 value_id = ["Q159709", "Q352544", "Q315698", "Q316241"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Urukagina was a ruler or leading figure of Sumerian City-States"
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Eannatum was a ruler or leading figure of Sumerian City-States", source = "https://en.wikipedia.org/wiki/Sumer", quote = "one of the first empires known to history was that of Eannatum of Lagash, who annexed practically all of Sumer" },
   { fact = "Lugal-zage-si was a ruler or leading figure of Sumerian City-States", source = "https://en.wikipedia.org/wiki/Lugal-zage-si", quote = "he then united Sumer briefly as a single kingdom" },
   { fact = "Gilgamesh was a ruler or leading figure of Sumerian City-States", source = "https://en.wikipedia.org/wiki/Gilgamesh", quote = "Most historians generally agree that Gilgamesh was a historical king of the Sumerian city-state of Uruk, who probably ruled sometime during the early part of the Early Dynastic Period (c. 2900–2350 BC)." },
+  { fact = "Urukagina was a ruler or leading figure of Sumerian City-States", source = "https://en.wikipedia.org/wiki/Urukagina", quote = "ruled in the 24th century BC as King of the city-states of Lagash and Girsu in Mesopotamia" },
 ]
 derivation = "every listed item has its own source"
 
@@ -2835,12 +2842,13 @@ field = "key_figures"
 action = "set"
 value = ["Isabella I of Castile", "Ferdinand II of Aragon", "Charles V", "Philip II of Spain"]
 value_id = ["Q45859", "Q12860", "Q32500", "Q34417"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Isabella I of Castile, Ferdinand II of Aragon"
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Charles V was a ruler or leading figure of Spanish Empire", source = "https://www.britannica.com/biography/Charles-V-Holy-Roman-emperor", quote = "king of Spain (as Charles I; 1516–56)" },
   { fact = "Philip II of Spain was a ruler or leading figure of Spanish Empire", source = "https://www.worldhistory.org/Spanish_Armada/", quote = "King Philip II of Spain (r. 1556-1598)" },
+  { fact = "Isabella I of Castile was a ruler or leading figure of Spanish Empire", source = "https://en.wikipedia.org/wiki/Isabella_I_of_Castile", quote = "Reigning together over a dynastically unified Spain, Isabella and Ferdinand are known as the Catholic Monarchs." },
+  { fact = "Ferdinand II of Aragon was a ruler or leading figure of Spanish Empire", source = "https://en.wikipedia.org/wiki/Ferdinand_II_of_Aragon", quote = "He reigned jointly with Isabella over a dynastically unified Spain; together, they are known as the Catholic Monarchs." },
 ]
 derivation = "every listed item has its own source"
 
@@ -3216,10 +3224,13 @@ field = "key_figures"
 action = "set"
 value = ["Árpád", "Taksony of Hungary", "Géza", "Stephen I of Hungary"]
 value_id = ["Q210207", "Q347935", "Q298298", "Q177903"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
+sources = [
+  { fact = "Taksony of Hungary was a ruler or leading figure of Principality of Hungary", source = "https://en.wikipedia.org/wiki/Taksony_of_Hungary", quote = "Zoltán abdicated in favor of Taksony in 947" },
+]
+derivation = "every listed item has its own source"
+note = "partly sourced: no source yet for Árpád, Géza, Stephen I of Hungary"
 
 [[override]]
 civilization = "Principality of Rostov-Suzdal"
@@ -3243,11 +3254,13 @@ field = "key_figures"
 action = "set"
 value = ["Yuri Dolgorukiy", "Andrey Bogolyubsky", "Vsevolod the Big Nest", "Alexander Nevsky"]
 value_id = ["Q275106", "Q315191", "Q348689", "Q174044"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Dmitry Donskoy ruled Moscow and Vladimir after the principality had split"
+note = "partly sourced: no source yet for Yuri Dolgorukiy, Vsevolod the Big Nest, Alexander Nevsky"
+sources = [
+  { fact = "Andrey Bogolyubsky was a ruler or leading figure of Principality of Rostov-Suzdal", source = "https://en.wikipedia.org/wiki/Andrey_Bogolyubsky", quote = "Andrey ousted his younger brothers Mikhail \"Mikhalko\" Yurievich and Vsevolod \"the Big Nest\" from Rostov and Suzdal in 1162, thus uniting his father's patrimony in Vladimir-Suzdal under his sole rule" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Principality of Rostov-Suzdal"
@@ -5215,11 +5228,11 @@ field = "key_figures"
 action = "set"
 value = ["Muhammad Rumfa", "Amina of Zazzau"]
 value_id = ["Q6932682", "Q2843390"]
-retrieved = 2026-10-25
-needs_verification = true
-note = "partly sourced: no source yet for Amina of Zazzau"
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Muhammad Rumfa was a ruler or leading figure of Hausa Kingdoms", source = "https://www.britannica.com/place/Hausa-states", quote = "certain non-Muslim practices, as did Muḥammad Rumfa (ruled 1463–99) in the Hausa city-state of Kano" },
+  { fact = "Amina of Zazzau was a ruler or leading figure of Hausa Kingdoms", source = "https://en.wikipedia.org/wiki/Amina_of_Zazzau", quote = "Official/palace tradition has her having reigned as queen (sarauniya)" },
 ]
 derivation = "every listed item has its own source"
 
@@ -5385,12 +5398,12 @@ field = "key_figures"
 action = "set"
 value = ["Benito Mussolini", "Victor Emmanuel III of Italy", "Italo Balbo"]
 value_id = ["Q23559", "Q150642", "Q1056"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Italo Balbo"
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Benito Mussolini was a ruler or leading figure of Italian Africa", source = "https://en.wikipedia.org/wiki/Italian_Empire", quote = "On 9 May 1936 Mussolini proclaimed the establishment of the Italian Empire in East Africa (\"l'Impero\"), with King Victor Emmanuel III as Emperor of Ethiopia ." },
   { fact = "Victor Emmanuel III of Italy was a ruler or leading figure of Italian Africa", source = "https://en.wikipedia.org/wiki/Italian_Empire", quote = "On 9 May 1936 Mussolini proclaimed the establishment of the Italian Empire in East Africa (\"l'Impero\"), with King Victor Emmanuel III as Emperor of Ethiopia ." },
+  { fact = "Italo Balbo was a ruler or leading figure of Italian Africa", source = "https://en.wikipedia.org/wiki/Italo_Balbo", quote = "he was given the task of governing Italian Libya" },
 ]
 derivation = "every listed item has its own source"
 
@@ -6554,10 +6567,11 @@ value = ["Frederick Augustus I of Saxony", "Frederick Augustus II of Saxony", "A
 value_id = ["Q53444", "Q57986", "Q168657", "Q57320"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Albert of Saxony was a ruler or leading figure of Kingdom of Saxony; Frederick Augustus III of Saxony was a ruler or leading figure of Kingdom of Saxony"
+note = "partly sourced: no source yet for Frederick Augustus III of Saxony"
 sources = [
   { fact = "Frederick Augustus I of Saxony was a ruler or leading figure of Kingdom of Saxony", source = "https://www.britannica.com/biography/Frederick-Augustus-I", quote = "Frederick Augustus I (born Dec. 23, 1750, Dresden, Saxony—died May 5, 1827, Dresden) was the first king of Saxony and duke of Warsaw, who became one of Napoleon’s most loyal allies and lost much of his kingdom to Prussia at the Congress of Vienna." },
   { fact = "Frederick Augustus II of Saxony was a ruler or leading figure of Kingdom of Saxony", source = "https://www.britannica.com/biography/Frederick-Augustus-II", quote = "Frederick Augustus II (born May 18, 1797, Dresden, Saxony—died Aug. 9, 1854, the Tirol, Austria) was a reform-minded king of Saxony and nephew of Frederick Augustus I, who favoured German unification but was frightened into a reactionary policy by the revolutions of 1848–49." },
+  { fact = "Albert of Saxony was a ruler or leading figure of Kingdom of Saxony", source = "https://en.wikipedia.org/wiki/Albert,_King_of_Saxony", quote = "Albert died at his Sibyllenort Palace on 19 June 1902 and was succeeded as king by his brother George" },
 ]
 derivation = "every listed item has its own source"
 
@@ -6856,11 +6870,14 @@ field = "key_figures"
 action = "set"
 value = ["Bimbisara", "Prasenajit", "Ajatashatru"]
 value_id = ["Q317765", "Q3055324", "Q379242"]
-source = "https://en.wikipedia.org/wiki/Mahajanapadas"
-quote = "Anga was annexed by Magadha in the time of Bimbisara."
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Prasenajit"
+sources = [
+  { fact = "Bimbisara was a ruler or leading figure of Mahajanapadas", source = "https://en.wikipedia.org/wiki/Bimbisara", quote = "was the King of Magadha" },
+  { fact = "Ajatashatru was a ruler or leading figure of Mahajanapadas", source = "https://en.wikipedia.org/wiki/Ajatashatru", quote = "Ajatashatru's reign as c. 405 to 373 BCE" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Mahajanapadas"
@@ -7269,9 +7286,11 @@ value = ["Empress Genmei", "Emperor Shōmu", "Empress Kōken", "Emperor Kanmu"]
 value_id = ["Q233224", "Q349263", "Q232955", "Q314846"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Emperor Shōmu was a ruler or leading figure of Nara Japan; Empress Kōken was a ruler or leading figure of Nara Japan; Emperor Kanmu was a ruler or leading figure of Nara Japan"
+note = "partly sourced: no source yet for Empress Kōken"
 sources = [
   { fact = "Empress Genmei was a ruler or leading figure of Nara Japan", source = "https://en.wikipedia.org/wiki/Empress_Genmei", quote = "After Empress Genmei transferred the seat of her government to Nara, this mountain location remained the capital throughout the succeeding seven reigns." },
+  { fact = "Emperor Shōmu was a ruler or leading figure of Nara Japan", source = "https://en.wikipedia.org/wiki/Emperor_Shōmu", quote = "was the 45th emperor of Japan" },
+  { fact = "Emperor Kanmu was a ruler or leading figure of Nara Japan", source = "https://en.wikipedia.org/wiki/Emperor_Kanmu", quote = "was the 50th emperor of Japan" },
 ]
 derivation = "every listed item has its own source"
 
@@ -7418,11 +7437,11 @@ civilization = "Old Swiss Confederacy"
 civilization_id = "Q435583"
 field = "key_figures"
 action = "set"
-value = ["Niklaus von Flüe", "Huldrych Zwingli"]
-value_id = ["Q115550", "Q123034"]
+value = ["Niklaus von Flüe"]
+value_id = ["Q115550"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Niklaus von Flüe, Huldrych Zwingli"
+note = "partly sourced: no source yet for Niklaus von Flüe"
 sources = [
 ]
 derivation = "every listed item has its own source"
@@ -7679,9 +7698,10 @@ value = ["Jiang Ziya", "Duke Huan of Qi", "Duke Jing of Qi", "Sun Bin"]
 value_id = ["Q701488", "Q470108", "Q709736", "Q334090"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Jiang Ziya was a ruler or leading figure of Qi; Duke Huan of Qi was a ruler or leading figure of Qi; Sun Bin was a ruler or leading figure of Qi"
+note = "partly sourced: no source yet for Duke Huan of Qi, Sun Bin"
 sources = [
   { fact = "Duke Jing of Qi was a ruler or leading figure of Qi", source = "https://en.wikipedia.org/wiki/Duke_Jing_of_Qi", quote = "Duke Jing of Qi (Chinese: 齊景公; pinyin: Qí Jǐng Gōng), personal name Lü Chujiu, was ruler of the Qi state from 547 BC to 490 BC." },
+  { fact = "Jiang Ziya was a ruler or leading figure of Qi", source = "https://en.wikipedia.org/wiki/Jiang_Ziya", quote = "The first ruler of Qi bore the given name Shang." },
 ]
 derivation = "every listed item has its own source"
 
@@ -7763,13 +7783,13 @@ field = "key_figures"
 action = "set"
 value = ["Cosimo de' Medici", "Lorenzo de' Medici", "Girolamo Savonarola", "Niccolò Machiavelli"]
 value_id = ["Q48544", "Q177854", "Q164823", "Q1399"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Niccolò Machiavelli"
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Cosimo de' Medici was a ruler or leading figure of Republic of Florence", source = "https://www.britannica.com/biography/Cosimo-de-Medici", quote = "was the founder of one of the main lines of the Medici family that ruled Florence from 1434 to 1537" },
   { fact = "Lorenzo de' Medici was a ruler or leading figure of Republic of Florence", source = "https://en.wikipedia.org/wiki/Republic_of_Florence", quote = "Lorenzo the Magnificent was Piero's eldest son by his wife Lucrezia Tornabuoni." },
   { fact = "Girolamo Savonarola was a ruler or leading figure of Republic of Florence", source = "https://en.wikipedia.org/wiki/Republic_of_Florence", quote = "After the fall of the Medici, Girolamo Savonarola ruled the state." },
+  { fact = "Niccolò Machiavelli was a ruler or leading figure of Republic of Florence", source = "https://en.wikipedia.org/wiki/Niccolò_Machiavelli", quote = "For many years he served as a senior official in the Florentine Republic" },
 ]
 derivation = "every listed item has its own source"
 
@@ -8041,11 +8061,14 @@ field = "key_figures"
 action = "set"
 value = ["Halfdan the Black", "Harald Fairhair", "Gorm the Old", "Harald Bluetooth"]
 value_id = ["Q504932", "Q206123", "Q314490", "Q201041"]
-source = "https://en.wikipedia.org/wiki/Viking_Age"
-quote = "Harald I of Norway (\"Harald Fairhair\") had united Norway around this time and displaced many peoples."
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Harald Fairhair, Harald Bluetooth"
+sources = [
+  { fact = "Halfdan the Black was a ruler or leading figure of Scandinavian minor kingdoms", source = "https://en.wikipedia.org/wiki/Halfdan_the_Black", quote = "was a king of Vestfold" },
+  { fact = "Gorm the Old was a ruler or leading figure of Scandinavian minor kingdoms", source = "https://en.wikipedia.org/wiki/Gorm_the_Old", quote = "was ruler of Denmark, reigning from c. 936" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Second Mexican Empire"
@@ -8863,9 +8886,10 @@ value = ["Helü of Wu", "Sun Tzu", "Wu Zixu", "Fuchai of Wu"]
 value_id = ["Q1279924", "Q37151", "Q1268609", "Q1269349"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Sun Tzu was a ruler or leading figure of Wu; Wu Zixu was a ruler or leading figure of Wu; Fuchai of Wu was a ruler or leading figure of Wu"
+note = "partly sourced: no source yet for Wu Zixu, Fuchai of Wu"
 sources = [
   { fact = "Helü of Wu was a ruler or leading figure of Wu", source = "https://en.wikipedia.org/wiki/Wu_(state)", quote = "After the successful assassination of King Liao, Prince Guang ascended the throne and became known as King Helü of Wu." },
+  { fact = "Sun Tzu was a ruler or leading figure of Wu", source = "https://en.wikipedia.org/wiki/Sun_Tzu", quote = "placed him as a minister to King Helü of Wu" },
 ]
 derivation = "every listed item has its own source"
 
@@ -8946,12 +8970,13 @@ field = "key_figures"
 action = "set"
 value = ["Shaka", "Dingane", "Mpande", "Cetshwayo"]
 value_id = ["Q27695", "Q470145", "Q737703", "Q380403"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Shaka was a ruler or leading figure of Zululand; Dingane was a ruler or leading figure of Zululand"
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Mpande was a ruler or leading figure of Zululand", source = "https://en.wikipedia.org/wiki/Zulu_Kingdom", quote = "One exception to these purges was Mpande, another half-brother, who was considered too weak to be a threat at the time." },
   { fact = "Cetshwayo was a ruler or leading figure of Zululand", source = "https://www.britannica.com/biography/Cetshwayo", quote = "was the last great king of the independent Zulus (reigned 1872–79)" },
+  { fact = "Shaka was a ruler or leading figure of Zululand", source = "https://en.wikipedia.org/wiki/Shaka", quote = "King Shaka refined the ibutho military system" },
+  { fact = "Dingane was a ruler or leading figure of Zululand", source = "https://en.wikipedia.org/wiki/Dingane", quote = "Dingane came to power in 1828 after assassinating his half-brother Shaka" },
 ]
 derivation = "every listed item has its own source"
 
@@ -9018,9 +9043,11 @@ value = ["Mangrai", "Tilokarat", "Setthathirath", "Mekuti"]
 value_id = ["Q887732", "Q586326", "Q732557", "Q8061177"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Mangrai was a ruler or leading figure of Lanna Kingdom; Tilokarat was a ruler or leading figure of Lanna Kingdom; Setthathirath was a ruler or leading figure of Lanna Kingdom"
+note = "partly sourced: no source yet for Tilokarat"
 sources = [
   { fact = "Mekuti was a ruler or leading figure of Lanna Kingdom", source = "https://en.wikipedia.org/wiki/Lanna", quote = "The nobles then chose Mekuti, the Shan saopha of Mong Nai whose family was related to Mangrai, to be the new king of Lanna." },
+  { fact = "Mangrai was a ruler or leading figure of Lanna Kingdom", source = "https://en.wikipedia.org/wiki/Mangrai", quote = "was the 25th king of Ngoenyang (r. 1261–1292) and the first king of Lan Na (r. 1292–1311)" },
+  { fact = "Setthathirath was a ruler or leading figure of Lanna Kingdom", source = "https://en.wikipedia.org/wiki/Setthathirath", quote = "High-ranking officials and Buddhist monks therefore agreed unanimously to assign the Lan Na throne to Prince Setthathirath in 1546" },
 ]
 derivation = "every listed item has its own source"
 
