@@ -609,9 +609,9 @@ value = "Third Dynasty of Ur"
 value_id = "Q723587"
 region = "Iraq"
 source = "https://en.wikipedia.org/wiki/Assyria"
-quote = "Assur, the first Assyrian capital, was founded c. 2600 BCE, but there is no evidence that the city was independent until the collapse of the Third Dynasty of Ur, in the 21st century BCE, when a line of independent kings starting with Puzur-Ashur I began ruling the city."
-retrieved = 2026-10-20
-needs_verification = true
+quote = "In c. 2025 BC, due to the collapse of the Third Dynasty of Ur, Assur became an independent city-state under Puzur-Ashur I."
+retrieved = 2026-10-27
+needs_verification = false
 
 [[override]]
 civilization = "Atropatene"
@@ -6214,11 +6214,16 @@ field = "key_figures"
 action = "set"
 value = ["Ahmad Shah Durrani", "Timur Shah Durrani", "Zaman Shah Durrani", "Shuja Shah Durrani"]
 value_id = ["Q46798", "Q167283", "Q145401", "Q457944"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 note = "adds the two sons who followed Timur Shah"
+sources = [
+  { fact = "Ahmad Shah Durrani was a ruler or leading figure of Durrani Empire", source = "https://en.wikipedia.org/wiki/Ahmad_Shah_Durrani", quote = "Ahmad Shah Durrani (born Ahmad Khan Abdali; c. 1720–1722 – 16–23 October 1772) was the first ruler and founder of the Durrani Empire." },
+  { fact = "Timur Shah Durrani was a ruler or leading figure of Durrani Empire", source = "https://en.wikipedia.org/wiki/Timur_Shah_Durrani", quote = "was the second ruler of the Afghan Durrani Empire, from November 1772 until his death in 1793" },
+  { fact = "Zaman Shah Durrani was a ruler or leading figure of Durrani Empire", source = "https://en.wikipedia.org/wiki/Durrani_Empire", quote = "Mahmud Shah ordered the lancing of Zaman Shah's eyes, and had succeeded Zaman Shah on the throne of the Durrani Empire." },
+  { fact = "Shuja Shah Durrani was a ruler or leading figure of Durrani Empire", source = "https://en.wikipedia.org/wiki/Shuja_Shah_Durrani", quote = "He became the fifth King of the Durrani Empire." },
+]
+derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
 civilization = "Idrisids"

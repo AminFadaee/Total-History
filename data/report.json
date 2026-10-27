@@ -5493,12 +5493,6 @@
       "value": "Jinghai Jiedushi"
     },
     {
-      "civilization": "Assyria",
-      "field": "before",
-      "action": "add",
-      "value": "Third Dynasty of Ur"
-    },
-    {
       "civilization": "Avar Khaganate",
       "field": "after",
       "action": "set",
@@ -6448,17 +6442,6 @@
       "value": [
         "Gao Huan",
         "Emperor Xiaojing of Eastern Wei"
-      ]
-    },
-    {
-      "civilization": "Durrani Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ahmad Shah Durrani",
-        "Timur Shah Durrani",
-        "Zaman Shah Durrani",
-        "Shuja Shah Durrani"
       ]
     },
     {
