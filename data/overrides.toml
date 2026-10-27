@@ -421,11 +421,13 @@ civilization_id = "Q12536"
 field = "modern_countries"
 action = "set"
 value = ["Iraq", "Iran", "Syria", "Jordan", "Israel", "Palestine", "Lebanon", "Saudi Arabia", "Kuwait", "Bahrain", "Qatar", "United Arab Emirates", "Oman", "Yemen", "Egypt", "Libya", "Tunisia", "Afghanistan", "Pakistan", "Turkmenistan", "Uzbekistan", "Tajikistan", "Azerbaijan", "Armenia", "Georgia"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "check against the AD 778 map: Transoxiana (Uzbekistan), Sindh (Pakistan) and Libya are red there but were missing from the list"
+note = "partly sourced: no source yet for Abbasid Caliphate territory included part of present-day Iran; Abbasid Caliphate territory included part of present-day Syria; Abbasid Caliphate territory included part of present-day Jordan; Abbasid Caliphate territory included part of present-day Israel; Abbasid Caliphate territory included part of present-day Palestine; Abbasid Caliphate territory included part of present-day Lebanon; Abbasid Caliphate territory included part of present-day Saudi Arabia; Abbasid Caliphate territory included part of present-day Kuwait; Abbasid Caliphate territory included part of present-day Bahrain; Abbasid Caliphate territory included part of present-day Qatar; Abbasid Caliphate territory included part of present-day United Arab Emirates; Abbasid Caliphate territory included part of present-day Oman; Abbasid Caliphate territory included part of present-day Yemen; Abbasid Caliphate territory included part of present-day Egypt; Abbasid Caliphate territory included part of present-day Libya; Abbasid Caliphate territory included part of present-day Tunisia; Abbasid Caliphate territory included part of present-day Afghanistan; Abbasid Caliphate territory included part of present-day Pakistan; Abbasid Caliphate territory included part of present-day Turkmenistan; Abbasid Caliphate territory included part of present-day Uzbekistan; Abbasid Caliphate territory included part of present-day Tajikistan; Abbasid Caliphate territory included part of present-day Azerbaijan; Abbasid Caliphate territory included part of present-day Armenia; Abbasid Caliphate territory included part of present-day Georgia"
+sources = [
+  { fact = "Abbasid Caliphate territory included part of present-day Iraq", source = "https://en.wikipedia.org/wiki/Abbasid_Caliphate", quote = "The Abbasids first centered their government in Kufa, Iraq, but in 762 the second caliph al-Mansur founded the city of Baghdad and made it the capital." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Đại Việt"
@@ -670,11 +672,11 @@ civilization_id = "Q487829"
 field = "period"
 action = "set"
 value = { start = 1226, end = 1347 }
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Chagatai Khanate began in 1226"
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Chagatai Khanate ended in 1347", source = "https://www.worldhistory.org/Chagatai_Khanate/", quote = "The Chagatai Khanate (also Chaghatai, Jagatai, Chaghatay or Ca'adai, c. 1227-1363 CE) was that part of the Mongol Empire (1206-1368 CE) which covered what is today mostly Uzbekistan, southern Kazakhstan, and western Tajikistan." },
+  { fact = "Chagatai Khanate began in 1226 (infobox: • Chagatai Khan inherited part of Mongol)", source = "https://en.wikipedia.org/wiki/Chagatai_Khanate", quote = "1227" },
 ]
 derivation = "each end of the period is stated by a source"
 
@@ -2731,11 +2733,13 @@ civilization = "Mycenaean Greece"
 civilization_id = "Q181264"
 field = "before"
 action = "none"
-source = "https://www.worldhistory.org/Mycenaean_Civilization/"
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "first palace states on the Greek mainland; none preceded them"
+note = "held for review"
+sources = [
+  { fact = "Mycenaean Greece formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://en.wikipedia.org/wiki/Mycenaean_Greece", quote = "The Mycenaeans were mainland Greek peoples who were likely stimulated by their contact with insular Minoan Crete and other Mediterranean cultures to develop a more sophisticated sociopolitical culture of their own" },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Kushan Empire"
@@ -2763,11 +2767,13 @@ action = "add"
 value = "Indo-Sassanids"
 value_id = "Q1661685"
 region = "Pakistan"
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Kushano-Sasanians took the Kushan lands from about 230 AD"
+note = "held for review"
+sources = [
+  { fact = "Indo-Sassanids took over or replaced Kushan Empire when it ended", source = "https://en.wikipedia.org/wiki/Kushano-Sasanian_Kingdom", quote = "The Sasanian Empire captured the provinces of Sogdia, Bactria and Gandhara from the declining Kushan Empire following a series of wars in 225 CE." },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "Mutapa Empire"
@@ -3256,9 +3262,10 @@ value = ["Yuri Dolgorukiy", "Andrey Bogolyubsky", "Vsevolod the Big Nest", "Alex
 value_id = ["Q275106", "Q315191", "Q348689", "Q174044"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Yuri Dolgorukiy, Vsevolod the Big Nest, Alexander Nevsky"
+note = "partly sourced: no source yet for Vsevolod the Big Nest was a ruler or leading figure of Principality of Rostov-Suzdal; Alexander Nevsky was a ruler or leading figure of Principality of Rostov-Suzdal"
 sources = [
   { fact = "Andrey Bogolyubsky was a ruler or leading figure of Principality of Rostov-Suzdal", source = "https://en.wikipedia.org/wiki/Andrey_Bogolyubsky", quote = "Andrey ousted his younger brothers Mikhail \"Mikhalko\" Yurievich and Vsevolod \"the Big Nest\" from Rostov and Suzdal in 1162, thus uniting his father's patrimony in Vladimir-Suzdal under his sole rule" },
+  { fact = "Yuri Dolgorukiy was a ruler or leading figure of Principality of Rostov-Suzdal", source = "https://en.wikipedia.org/wiki/Vladimir-Suzdal", quote = "Prince Yury Dolgoruky (reigned</span>\"}]]}'>r. 1125–1157) moved his capital from Rostov to Suzdal in 1125, following the death of his father, Vladimir Monomakh." },
 ]
 derivation = "every listed item has its own source"
 
@@ -4390,11 +4397,12 @@ civilization_id = "Q23725"
 field = "map_year"
 action = "set"
 value = -500
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the old year -667 falls before the foundation of the city (traditionally 657 BC); 500 BC shows it within its period"
+retrieved = 2026-10-27
+needs_verification = false
+sources = [
+  { fact = "Byzantium existed in the year 500 BC", source = "https://en.wikipedia.org/wiki/Byzantium", quote = "Byzantium was colonised by Greeks from Megara in the 7th century BC and remained primarily Greek-speaking until its conquest by the Ottoman Empire in 1453" },
+]
+derivation = "the source shows the state existing at the map year"
 
 [[override]]
 civilization = "Chaldea"
@@ -4735,11 +4743,12 @@ action = "set"
 value = "Golden Horde"
 value_id = "Q79965"
 region = "Ukraine"
-source = "https://en.wikipedia.org/wiki/Cumania"
-quote = "In 1223, Jebe and Subutai defeated the Cumans and their Rus' allies at the Battle of Kalka (in modern Ukraine), and the final blow came in 1241, when the Cuman confederacy ceased to exist as a political entity, with the remaining Cuman tribes being dispersed, either becoming subjects of the Mongol conquerors as part of what was to be known as the Golden"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-10-27
+needs_verification = false
+sources = [
+  { fact = "Golden Horde took over or replaced Cuman-Kipchak Confederation when it ended", source = "https://en.wikipedia.org/wiki/Golden_Horde", quote = "replaced the earlier, less organized Cuman–Kipchak confederation" },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "Dahomey"
@@ -6136,11 +6145,12 @@ field = "key_figures"
 action = "set"
 value = ["François Arago", "Louis-Eugène Cavaignac", "Napoleon III"]
 value_id = ["Q154353", "Q379702", "Q7721"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for François Arago was a ruler or leading figure of French Second Republic; Louis-Eugène Cavaignac was a ruler or leading figure of French Second Republic"
+retrieved = 2026-10-27
+needs_verification = false
 sources = [
   { fact = "Napoleon III was a ruler or leading figure of French Second Republic", source = "https://www.britannica.com/biography/Napoleon-III-emperor-of-France", quote = "Napoleon III (born April 20, 1808, Paris—died January 9, 1873, Chislehurst, Kent, England) was the nephew of Napoleon I, president of the Second Republic of France (1850–52), and then emperor of the French (1852–70)." },
+  { fact = "François Arago was a ruler or leading figure of French Second Republic (infobox: • May–June 1848)", source = "https://en.wikipedia.org/wiki/French_Second_Republic", quote = "François Arago" },
+  { fact = "Louis-Eugène Cavaignac was a ruler or leading figure of French Second Republic (infobox: • June–December 1848)", source = "https://en.wikipedia.org/wiki/French_Second_Republic", quote = "Louis-Eugène Cavaignac" },
 ]
 derivation = "every listed item has its own source"
 
@@ -6153,9 +6163,10 @@ value = ["Thomas Robert Bugeaud", "Napoleon III", "Charles de Gaulle"]
 value_id = ["Q349167", "Q7721", "Q2042"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Napoleon III was a ruler or leading figure of French Algeria; Charles de Gaulle was a ruler or leading figure of French Algeria"
+note = "partly sourced: no source yet for Charles de Gaulle was a ruler or leading figure of French Algeria"
 sources = [
   { fact = "Thomas Robert Bugeaud was a ruler or leading figure of French Algeria", source = "https://en.wikipedia.org/wiki/Thomas_Robert_Bugeaud", quote = "Bugeaud assumed the governor-generalship" },
+  { fact = "Napoleon III was a ruler or leading figure of French Algeria", source = "https://en.wikipedia.org/wiki/French_Algeria", quote = "After a trip to Algiers in 1860, the French emperor Napoleon III became keen on establishing a client kingdom there which he would rule in a personal union, expanding freedoms for the indigenous population and limiting colonisation." },
 ]
 derivation = "every listed item has its own source"
 
@@ -6762,11 +6773,12 @@ civilization_id = "Q282350"
 field = "modern_countries"
 action = "set"
 value = ["Eritrea"]
-source = "https://en.wikipedia.org/wiki/Land_of_Punt"
-quote = "Recent evidence locates it in northwestern Eritrea."
-retrieved = 2026-10-20
-needs_verification = true
-note = "scholars disagree: other proposals are Sudan, Ethiopia, Djibouti and Somalia (see the same article); Eritrea is the recent-evidence position; cited in Wikipedia, footnote 3"
+retrieved = 2026-10-27
+needs_verification = false
+sources = [
+  { fact = "Land of Punt territory included part of present-day Eritrea", source = "https://en.wikipedia.org/wiki/Land_of_Punt", quote = "Recent evidence locates it in northwestern Eritrea." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Land of Punt"
@@ -7075,11 +7087,13 @@ civilization_id = "Q1177379"
 field = "period"
 action = "set"
 value = { start = -750, end = 100, circa = true }
-source = "https://en.wikipedia.org/wiki/Ma'in"
-quote = "The kingdom appears in the historical record in the 8th century BCE"
-retrieved = 2026-10-20
-needs_verification = true
-note = "infobox of Wikipedia gives 8th century BCE to the 1st centuries CE; the end is not cited; cited in Wikipedia, footnote 1"
+retrieved = 2026-10-27
+needs_verification = false
+sources = [
+  { fact = "Minaeans began in 750 BC (infobox: • Established)", source = "https://en.wikipedia.org/wiki/Ma'in", quote = "8th century BCE" },
+  { fact = "Minaeans ended in 100", source = "https://en.wikipedia.org/wiki/Ma'in", quote = "places its demise in the 1st century CE" },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Minaeans"
@@ -7723,11 +7737,12 @@ civilization_id = "Q40"
 field = "modern_countries"
 action = "set"
 value = ["Austria"]
-source = "https://en.wikipedia.org/wiki/Austria"
-quote = "First Republic 10 September 1919"
-retrieved = 2026-10-20
-needs_verification = true
-note = "Italy removed: South Tyrol went to Italy at Saint-Germain in 1919 and was never held by the republic; cited in Wikipedia, footnote 8"
+retrieved = 2026-10-27
+needs_verification = false
+sources = [
+  { fact = "Republic of Austria territory included part of present-day Austria", source = "https://en.wikipedia.org/wiki/Austria", quote = "The area of today's Austria" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Republic of Austria"
@@ -8815,11 +8830,13 @@ civilization_id = "Q2553863"
 field = "period"
 action = "set"
 value = { start = 1226, end = 1428, circa = true }
-source = "https://en.wikipedia.org/wiki/White_Horde"
-quote = "The White Horde (Chagatai: آق اۉردو; Kazakh: Ақ Орда, romanized: Aq Orda), or more appropriately, the left wing of the Jochid ulus, was one of the uluses within the Mongol Empire formed around 1225, after the death of Jochi"
 retrieved = 2026-10-20
 needs_verification = true
-note = "from about 1225 after Jochi death; end 1428 is the rise of the Uzbek Khanate (Abu al-Khayr); check; cited in Wikipedia, footnote 1"
+note = "partly sourced: no source yet for White Horde ended in 1428"
+sources = [
+  { fact = "White Horde began in 1226", source = "https://en.wikipedia.org/wiki/White_Horde", quote = "formed around 1225" },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "White Horde"
@@ -9067,10 +9084,12 @@ civilization = "Xiongnu"
 civilization_id = "Q188836"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
+sources = [
+  { fact = "Xiongnu formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://en.wikipedia.org/wiki/Xiongnu", quote = "Modu Chanyu, the supreme leader after 209 BC, founded the Xiongnu Empire." },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 note = "no earlier state in the data; a steppe confederation"
 
 [[override]]
@@ -9078,11 +9097,14 @@ civilization = "Babylonia"
 civilization_id = "Q47690"
 field = "before"
 action = "none"
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "the outside review removed the Sumerian City-States, which fell centuries earlier; no source names a state immediately before"
+note = "held for review"
+sources = [
+  { fact = "Babylonia formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://en.wikipedia.org/wiki/Babylonia", quote = "It emerged as an Akkadian-populated but Amorite-ruled state c. 1894 BC" },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
+
 [[override]]
 civilization = "Teotihuacan"
 civilization_id = "Q172613"
@@ -9279,11 +9301,13 @@ field = "capital"
 action = "set"
 value = ["Sambor Prei Kuk"]
 value_id = ["Q1818746"]
-source = "https://en.wikipedia.org/wiki/Sambor_Prei_Kuk"
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Isanapura, the capital of Isanavarman I, is Sambor Prei Kuk in Cambodia; Vat Phou in Laos was an upper Chenla centre"
+note = "held for review"
+sources = [
+  { fact = "Sambor Prei Kuk was a capital of Chenla", source = "https://en.wikipedia.org/wiki/Sambor_Prei_Kuk", quote = "The now ruined complex dates back to the Pre-Angkorian Chenla Kingdom (late 6th to 9th century), established by king Isanavarman I as central royal sanctuary and capital, known then as \"Isanapura\" (Khmer: ឦសានបុរៈ, Eisanbŏreă [ʔəjsaːnɓoreaʔ])." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Chenla"

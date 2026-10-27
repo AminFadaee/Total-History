@@ -5497,15 +5497,6 @@
       "value": "First Bulgarian Empire"
     },
     {
-      "civilization": "Chagatai Khanate",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 1226,
-        "end": 1347
-      }
-    },
-    {
       "civilization": "Chimor",
       "field": "before",
       "action": "none",
@@ -6097,12 +6088,6 @@
       }
     },
     {
-      "civilization": "Byzantium",
-      "field": "map_year",
-      "action": "set",
-      "value": -500
-    },
-    {
       "civilization": "Chaldea",
       "field": "key_figures",
       "action": "set",
@@ -6141,12 +6126,6 @@
         "Geraint of Dumnonia",
         "Æthelstan"
       ]
-    },
-    {
-      "civilization": "Cuman-Kipchak Confederation",
-      "field": "after",
-      "action": "set",
-      "value": "Golden Horde"
     },
     {
       "civilization": "Dahomey",
@@ -6284,16 +6263,6 @@
       ]
     },
     {
-      "civilization": "French Second Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "François Arago",
-        "Louis-Eugène Cavaignac",
-        "Napoleon III"
-      ]
-    },
-    {
       "civilization": "French Algeria",
       "field": "key_figures",
       "action": "set",
@@ -6418,14 +6387,6 @@
       }
     },
     {
-      "civilization": "Land of Punt",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Eritrea"
-      ]
-    },
-    {
       "civilization": "Lu",
       "field": "before",
       "action": "add",
@@ -6464,16 +6425,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Minaeans",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -750,
-        "end": 100,
-        "circa": true
-      }
     },
     {
       "civilization": "Minaeans",
@@ -6604,14 +6555,6 @@
       "value": {
         "since": 1918
       }
-    },
-    {
-      "civilization": "Republic of Austria",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Austria"
-      ]
     },
     {
       "civilization": "Republic of Texas",
@@ -6805,12 +6748,6 @@
     {
       "civilization": "Avar Khaganate",
       "field": "capital",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Xiongnu",
-      "field": "before",
       "action": "none",
       "value": ""
     },
