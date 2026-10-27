@@ -3743,11 +3743,13 @@ action = "add"
 value = "Rouran Khaganate"
 value_id = "Q155361"
 region = "China"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 note = "region is the Xianbei home (Shangyi County), as the data keeps one home region per civilization, not where the Rouran lived"
+sources = [
+  { fact = "Rouran Khaganate arose from, replaced or took over from Xianbei (around 330)", source = "https://en.wikipedia.org/wiki/Xianbei", quote = "the Xianbei who remained behind in the northern grassland evolved into or were absorbed by tribes of the Rouran Khaganate" },
+]
+derivation = "the same succession is sourced from the other state's side"
 
 [[override]]
 civilization = "Zapotec Civilization"
