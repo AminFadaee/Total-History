@@ -1936,11 +1936,11 @@ civilization_id = "Q8680"
 field = "period"
 action = "set"
 value = { start = 1583 }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Humphrey Gilbert claimed Newfoundland in 1583 (start of English overseas possessions); other sources start at Cabot 1497 or 1707"
+source = "https://en.wikipedia.org/wiki/British_Empire"
+quote = "In 1583 he embarked on a second attempt. On this occasion, he formally claimed the harbour of the island of Newfoundland, although no settlers were left behind."
+retrieved = 2026-10-27
+needs_verification = false
+note = "start: Humphrey Gilbert's formal claim of Newfoundland in 1583, the date the article gives for the first English overseas possessions; cited in Wikipedia (Gilbert's 1583 voyage, footnoted); other conventions start at Cabot 1497 or 1607"
 
 [[override]]
 civilization = "Classical Athens"
