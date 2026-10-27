@@ -5493,6 +5493,12 @@
       "value": "Jinghai Jiedushi"
     },
     {
+      "civilization": "Assyria",
+      "field": "before",
+      "action": "add",
+      "value": "Third Dynasty of Ur"
+    },
+    {
       "civilization": "Avar Khaganate",
       "field": "after",
       "action": "set",
@@ -5748,6 +5754,17 @@
       ]
     },
     {
+      "civilization": "Gran Colombia",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Simón Bolívar",
+        "Francisco de Paula Santander",
+        "Antonio José de Sucre",
+        "José Antonio Páez"
+      ]
+    },
+    {
       "civilization": "Habsburg Monarchy",
       "field": "key_figures",
       "action": "set",
@@ -5759,6 +5776,17 @@
       ]
     },
     {
+      "civilization": "Indo-Scythians",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Maues",
+        "Azes I",
+        "Azilises",
+        "Rajuvula"
+      ]
+    },
+    {
       "civilization": "Khazaria",
       "field": "key_figures",
       "action": "set",
@@ -5767,6 +5795,17 @@
         "Bulan",
         "Obadiah",
         "Joseph"
+      ]
+    },
+    {
+      "civilization": "Classical Athens",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Cleisthenes",
+        "Themistocles",
+        "Pericles",
+        "Aristophanes"
       ]
     },
     {
@@ -5787,6 +5826,38 @@
         "Ulugh Muhammad",
         "Ibrahim of Kazan",
         "Yadegar Mokhammad of Kazan"
+      ]
+    },
+    {
+      "civilization": "Ptolemaic Kingdom",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Egypt",
+        "Libya",
+        "Cyprus"
+      ]
+    },
+    {
+      "civilization": "Sumerian City-States",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gilgamesh",
+        "Eannatum",
+        "Urukagina",
+        "Lugal-zage-si"
+      ]
+    },
+    {
+      "civilization": "Middle Kingdom of Egypt",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Mentuhotep II",
+        "Amenemhat I",
+        "Senusret III",
+        "Amenemhat III"
       ]
     },
     {
@@ -5838,6 +5909,38 @@
       "value": "Indo-Sassanids"
     },
     {
+      "civilization": "Spanish Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Isabella I of Castile",
+        "Ferdinand II of Aragon",
+        "Charles V",
+        "Philip II of Spain"
+      ]
+    },
+    {
+      "civilization": "Macedonia",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Greece",
+        "North Macedonia",
+        "Bulgaria",
+        "Albania",
+        "Turkey",
+        "Syria",
+        "Lebanon",
+        "Israel",
+        "Palestine",
+        "Egypt",
+        "Iraq",
+        "Iran",
+        "Afghanistan",
+        "Pakistan"
+      ]
+    },
+    {
       "civilization": "Kingdom of Urartu",
       "field": "before",
       "action": "none",
@@ -5875,6 +5978,16 @@
         "start": 1400,
         "circa": true
       }
+    },
+    {
+      "civilization": "Phoenicia",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ahiram",
+        "Hiram I",
+        "Pygmalion of Tyre"
+      ]
     },
     {
       "civilization": "Portuguese Empire",
@@ -6039,6 +6152,17 @@
       "value": ""
     },
     {
+      "civilization": "Adal Sultanate",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Ethiopia",
+        "Somalia",
+        "Djibouti",
+        "Eritrea"
+      ]
+    },
+    {
       "civilization": "Alodia",
       "field": "before",
       "action": "add",
@@ -6108,6 +6232,15 @@
       "value": "Kingdom of England"
     },
     {
+      "civilization": "Cornwall",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Geraint of Dumnonia",
+        "Æthelstan"
+      ]
+    },
+    {
       "civilization": "Cuman-Kipchak Confederation",
       "field": "after",
       "action": "set",
@@ -6151,6 +6284,16 @@
       "value": "Ditadura Nacional"
     },
     {
+      "civilization": "Estado Novo",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Óscar Carmona",
+        "António de Oliveira Salazar",
+        "Marcelo Caetano"
+      ]
+    },
+    {
       "civilization": "Four Oirats",
       "field": "period",
       "action": "set",
@@ -6169,6 +6312,25 @@
       "field": "after",
       "action": "set",
       "value": "Provisional Government of the French Republic"
+    },
+    {
+      "civilization": "Hausa Kingdoms",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Muhammad Rumfa",
+        "Amina of Zazzau"
+      ]
+    },
+    {
+      "civilization": "Italian Africa",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Benito Mussolini",
+        "Victor Emmanuel III of Italy",
+        "Italo Balbo"
+      ]
     },
     {
       "civilization": "Jin",
@@ -6245,6 +6407,16 @@
       ]
     },
     {
+      "civilization": "Danish overseas colonies",
+      "field": "modern_countries",
+      "action": "set",
+      "value": [
+        "Greenland",
+        "Ghana",
+        "India"
+      ]
+    },
+    {
       "civilization": "French Second Republic",
       "field": "key_figures",
       "action": "set",
@@ -6296,6 +6468,17 @@
       ]
     },
     {
+      "civilization": "Idrisids",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Idris I of Morocco",
+        "Idris II of Morocco",
+        "Yahya ibn Muhammad",
+        "Al-Hasan ibn al-Qasim Jannun"
+      ]
+    },
+    {
       "civilization": "Kingdom of Neustria",
       "field": "period",
       "action": "set",
@@ -6313,6 +6496,15 @@
         "Clothar II",
         "Ebroin",
         "Childeric III"
+      ]
+    },
+    {
+      "civilization": "Kingdom of Northumbria",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "York",
+        "Bamburgh"
       ]
     },
     {
@@ -6440,6 +6632,27 @@
       "value": "Himyarite Kingdom"
     },
     {
+      "civilization": "Moghulistan",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Tughlugh Timur",
+        "Khizr Khoja",
+        "Esen Buqa II",
+        "Yunus Khan"
+      ]
+    },
+    {
+      "civilization": "Mongolian People's Republic",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Khorloogiin Choibalsan",
+        "Yumjaagiin Tsedenbal",
+        "Jambyn Batmönkh"
+      ]
+    },
+    {
       "civilization": "Nara Japan",
       "field": "key_figures",
       "action": "set",
@@ -6448,6 +6661,15 @@
         "Emperor Shōmu",
         "Empress Kōken",
         "Emperor Kanmu"
+      ]
+    },
+    {
+      "civilization": "Old Swiss Confederacy",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Niklaus von Flüe",
+        "Huldrych Zwingli"
       ]
     },
     {
@@ -6461,6 +6683,17 @@
       "field": "capital",
       "action": "add",
       "value": "Gauda"
+    },
+    {
+      "civilization": "Pala Empire",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Gopala I",
+        "Dharmapala",
+        "Devapala",
+        "Mahipala I"
+      ]
     },
     {
       "civilization": "Pala Empire",
@@ -6538,6 +6771,17 @@
       ]
     },
     {
+      "civilization": "Republic of Florence",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Cosimo de' Medici",
+        "Lorenzo de' Medici",
+        "Girolamo Savonarola",
+        "Niccolò Machiavelli"
+      ]
+    },
+    {
       "civilization": "Republic of Texas",
       "field": "key_figures",
       "action": "set",
@@ -6546,6 +6790,17 @@
         "Sam Houston",
         "Mirabeau B. Lamar",
         "Anson Jones"
+      ]
+    },
+    {
+      "civilization": "Saffarid Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ya'qub ibn al-Layth al-Saffar",
+        "Amr ibn al-Layth",
+        "Abu Ja'far Ahmad ibn Muhammad",
+        "Khalaf ibn Ahmad"
       ]
     },
     {
@@ -6584,6 +6839,12 @@
       "value": "Klein Vrystaat"
     },
     {
+      "civilization": "Sukhothai Kingdom",
+      "field": "before",
+      "action": "add",
+      "value": "Khmer Empire"
+    },
+    {
       "civilization": "Sultanate of Brunei",
       "field": "before",
       "action": "add",
@@ -6608,6 +6869,16 @@
       "value": "Twenty-third Dynasty of Egypt"
     },
     {
+      "civilization": "Ugarit",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Niqmaddu II",
+        "Niqmepa",
+        "Ammurapi"
+      ]
+    },
+    {
       "civilization": "United Kingdoms of Sweden and Norway",
       "field": "before",
       "action": "set",
@@ -6618,6 +6889,17 @@
       "field": "after",
       "action": "add",
       "value": "Kingdom of Sweden"
+    },
+    {
+      "civilization": "Viking settlements",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Ivar the Boneless",
+        "Rollo",
+        "Erik the Red",
+        "Leif Erikson"
+      ]
     },
     {
       "civilization": "Warring States Japan",
@@ -6640,6 +6922,16 @@
         "end": 1428,
         "circa": true
       }
+    },
+    {
+      "civilization": "White Horde",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Orda Khan",
+        "Urus Khan",
+        "Barak Khan"
+      ]
     },
     {
       "civilization": "White Horde",
@@ -6666,6 +6958,26 @@
         "Sun Tzu",
         "Wu Zixu",
         "Fuchai of Wu"
+      ]
+    },
+    {
+      "civilization": "Xin Dynasty",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Wang Mang",
+        "Gengshi Emperor"
+      ]
+    },
+    {
+      "civilization": "Zululand",
+      "field": "key_figures",
+      "action": "set",
+      "value": [
+        "Shaka",
+        "Dingane",
+        "Mpande",
+        "Cetshwayo"
       ]
     },
     {

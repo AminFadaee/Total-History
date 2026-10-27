@@ -611,7 +611,7 @@ region = "Iraq"
 source = "https://en.wikipedia.org/wiki/Assyria"
 quote = "Assur, the first Assyrian capital, was founded c. 2600 BCE, but there is no evidence that the city was independent until the collapse of the Third Dynasty of Ur, in the 21st century BCE, when a line of independent kings starting with Puzur-Ashur I began ruling the city."
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
 
 [[override]]
 civilization = "Atropatene"
@@ -1073,10 +1073,14 @@ field = "key_figures"
 action = "set"
 value = ["Kaya Maghan Cissé", "Ghana Bassi", "Tunka Manin"]
 value_id = ["Q3194384", "Q5555334", "Q7853230"]
-source = "https://en.wikipedia.org/wiki/Ghana_Empire"
-quote = "At this time the ruler of Ghana was Tunka Manin, who had succeeded Ghana Bassi in 1063."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
+sources = [
+  { fact = "Kaya Maghan Cissé was a ruler or leading figure of Ghana Empire", source = "https://en.wikipedia.org/wiki/Kaya_Magan_Cissé", quote = "was the possibly legendary Soninke founder of Wagadou, also known as the Ghana Empire" },
+  { fact = "Ghana Bassi was a ruler or leading figure of Ghana Empire", source = "https://en.wikipedia.org/wiki/Ghana_Empire", quote = "At this time the ruler of Ghana was Tunka Manin, who had succeeded Ghana Bassi in 1063." },
+  { fact = "Tunka Manin was a ruler or leading figure of Ghana Empire", source = "https://en.wikipedia.org/wiki/Ghana_Empire", quote = "At this time the ruler of Ghana was Tunka Manin, who had succeeded Ghana Bassi in 1063." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Gojoseon"
@@ -1893,11 +1897,16 @@ field = "key_figures"
 action = "set"
 value = ["Bumin Qaghan", "Istämi", "Taspar Qaghan", "Tardu"]
 value_id = ["Q29001", "Q632026", "Q2670239", "Q154891"]
-source = "https://en.wikipedia.org/wiki/First_Turkic_Khaganate"
-quote = "When the fourth ruler of the khaganate, Taspar Qaghan, died in 581, the realm split in two over his succession."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "Muqan Qaghan stays out (removed by erratum); Istämi was Yabghu of the West, d. 576"
+sources = [
+  { fact = "Bumin Qaghan was a ruler or leading figure of Göktürk Khaganate", source = "https://en.wikipedia.org/wiki/First_Turkic_Khaganate", quote = "When the fourth ruler of the khaganate, Taspar Qaghan, died in 581, the realm split in two over his succession." },
+  { fact = "Istämi was a ruler or leading figure of Göktürk Khaganate", source = "https://en.wikipedia.org/wiki/Istämi", quote = "ruled the western part of the territory of the Göktürks, which became the Western Turkic Khaganate" },
+  { fact = "Taspar Qaghan was a ruler or leading figure of Göktürk Khaganate", source = "https://en.wikipedia.org/wiki/First_Turkic_Khaganate", quote = "When the fourth ruler of the khaganate, Taspar Qaghan, died in 581, the realm split in two over his succession." },
+  { fact = "Tardu was a ruler or leading figure of Göktürk Khaganate", source = "https://en.wikipedia.org/wiki/Tardu", quote = "was ninth and last Qaghan of the First Turkic Khaganate" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Ajuran Sultanate"
@@ -1995,10 +2004,15 @@ field = "key_figures"
 action = "set"
 value = ["Sargon of Akkad", "Manishtushu", "Naram-Sin of Akkad", "Shar-Kali-Sharri"]
 value_id = ["Q199461", "Q61054", "Q297506", "Q349653"]
-source = "https://en.wikipedia.org/wiki/Akkadian_Empire"
-quote = "Sargon and his successors, especially his grandson Naram-Sin, consolidated the empire through military conquest"
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
+sources = [
+  { fact = "Sargon of Akkad was a ruler or leading figure of Akkadian Empire", source = "https://en.wikipedia.org/wiki/Akkadian_Empire", quote = "Sargon and his successors, especially his grandson Naram-Sin, consolidated the empire through military conquest" },
+  { fact = "Manishtushu was a ruler or leading figure of Akkadian Empire", source = "https://en.wikipedia.org/wiki/Manishtushu", quote = "was the third king of the Akkadian Empire" },
+  { fact = "Naram-Sin of Akkad was a ruler or leading figure of Akkadian Empire", source = "https://en.wikipedia.org/wiki/Akkadian_Empire", quote = "Sargon and his successors, especially his grandson Naram-Sin, consolidated the empire through military conquest" },
+  { fact = "Shar-Kali-Sharri was a ruler or leading figure of Akkadian Empire", source = "https://en.wikipedia.org/wiki/Shar-Kali-Sharri", quote = "reigned c. 2218–2193 BC (middle chronology) as the ruler of Akkad" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Carthage"
@@ -2037,10 +2051,14 @@ field = "key_figures"
 action = "set"
 value = ["Simón Bolívar", "Francisco de Paula Santander", "Antonio José de Sucre", "José Antonio Páez"]
 value_id = ["Q8605", "Q452017", "Q189779", "Q304900"]
-source = "https://en.wikipedia.org/wiki/Gran_Colombia"
-quote = "The faction that favored constitutional rule coalesced around Vice-President Francisco de Paula Santander, while those who supported the creation of a stronger presidency were led by President Simón Bolívar."
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
+sources = [
+  { fact = "Simón Bolívar was a ruler or leading figure of Gran Colombia", source = "https://en.wikipedia.org/wiki/Gran_Colombia", quote = "The faction that favored constitutional rule coalesced around Vice-President Francisco de Paula Santander, while those who supported the creation of a stronger presidency were led by President Simón Bolívar." },
+  { fact = "Francisco de Paula Santander was a ruler or leading figure of Gran Colombia", source = "https://en.wikipedia.org/wiki/Gran_Colombia", quote = "The faction that favored constitutional rule coalesced around Vice-President Francisco de Paula Santander, while those who supported the creation of a stronger presidency were led by President Simón Bolívar." },
+]
+derivation = "every listed item has its own source"
+note = "partly sourced: no source yet for Antonio José de Sucre, José Antonio Páez"
 
 [[override]]
 civilization = "Habsburg Monarchy"
@@ -2078,10 +2096,14 @@ field = "key_figures"
 action = "set"
 value = ["Maues", "Azes I", "Azilises", "Rajuvula"]
 value_id = ["Q1911068", "Q793703", "Q793770", "Q11221830"]
-source = "https://en.wikipedia.org/wiki/Indo-Scythians"
-quote = "The first Saka king in the Indian subcontinent was Maues"
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
+sources = [
+  { fact = "Maues was a ruler or leading figure of Indo-Scythians", source = "https://en.wikipedia.org/wiki/Indo-Scythians", quote = "The first Saka king in the Indian subcontinent was Maues" },
+  { fact = "Rajuvula was a ruler or leading figure of Indo-Scythians", source = "https://en.wikipedia.org/wiki/Rajuvula", quote = "Indo-Scythian Great Satrap (Mahākṣatrapa), one of the \"Northern Satraps\" who ruled in the area of Mathura" },
+]
+derivation = "every listed item has its own source"
+note = "partly sourced: no source yet for Azes I, Azilises"
 
 [[override]]
 civilization = "Hittites"
@@ -2121,10 +2143,15 @@ field = "key_figures"
 action = "set"
 value = ["Cleisthenes", "Themistocles", "Pericles", "Aristophanes"]
 value_id = ["Q207634", "Q179552", "Q80398", "Q43353"]
-source = "https://en.wikipedia.org/wiki/Classical_Athens"
-quote = "was soon rebuilt under the administration of Themistocles, and was adorned with public buildings by Cimon and especially by Pericles"
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
+sources = [
+  { fact = "Cleisthenes was a ruler or leading figure of Classical Athens", source = "https://www.worldhistory.org/Cleisthenes/", quote = "was an Athenian statesman who famously reformed the political structure and processes of Athens" },
+  { fact = "Themistocles was a ruler or leading figure of Classical Athens", source = "https://en.wikipedia.org/wiki/Classical_Athens", quote = "was soon rebuilt under the administration of Themistocles, and was adorned with public buildings by Cimon and especially by Pericles" },
+  { fact = "Pericles was a ruler or leading figure of Classical Athens", source = "https://en.wikipedia.org/wiki/Classical_Athens", quote = "was soon rebuilt under the administration of Themistocles, and was adorned with public buildings by Cimon and especially by Pericles" },
+]
+derivation = "every listed item has its own source"
+note = "partly sourced: no source yet for Aristophanes"
 
 [[override]]
 civilization = "Babylonia"
@@ -2236,10 +2263,15 @@ field = "key_figures"
 action = "set"
 value = ["Alboin", "Agilulf", "Liutprand", "Desiderius"]
 value_id = ["Q152877", "Q315276", "Q251836", "Q297520"]
-source = "https://www.worldhistory.org/Lombards/"
-quote = "Liutprand is generally regarded as the greatest Lombard king since Alboin."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
+sources = [
+  { fact = "Alboin was a ruler or leading figure of Lombards", source = "https://www.worldhistory.org/Lombards/", quote = "Liutprand is generally regarded as the greatest Lombard king since Alboin." },
+  { fact = "Agilulf was a ruler or leading figure of Lombards", source = "https://en.wikipedia.org/wiki/Agilulf", quote = "his formal investiture—being raised on a shield by Lombard warriors—took place in Milan in May 591" },
+  { fact = "Liutprand was a ruler or leading figure of Lombards", source = "https://www.worldhistory.org/Lombards/", quote = "Liutprand is generally regarded as the greatest Lombard king since Alboin." },
+  { fact = "Desiderius was a ruler or leading figure of Lombards", source = "https://en.wikipedia.org/wiki/Desiderius", quote = "was king of the Lombards in Northern Italy, ruling from 756 to 774" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Lombards"
@@ -2285,11 +2317,14 @@ civilization_id = "Q2320005"
 field = "modern_countries"
 action = "set"
 value = ["Egypt", "Libya", "Cyprus"]
-source = "https://www.worldhistory.org/Ptolemaic_Dynasty/"
-quote = "Ptolemy VI and Cleopatra II ruled Egypt and Cyprus, while Ptolemy VIII ruled Cyrene"
 retrieved = 2026-10-20
-needs_verification = false
-note = "countries covered at the map year -150"
+needs_verification = true
+note = "partly sourced: no source yet for Libya"
+sources = [
+  { fact = "Ptolemaic Kingdom territory included part of present-day Egypt", source = "https://www.worldhistory.org/Ptolemaic_Dynasty/", quote = "Ptolemy VI and Cleopatra II ruled Egypt and Cyprus, while Ptolemy VIII ruled Cyrene" },
+  { fact = "Ptolemaic Kingdom territory included part of present-day Cyprus", source = "https://www.worldhistory.org/Ptolemaic_Dynasty/", quote = "Ptolemy VI and Cleopatra II ruled Egypt and Cyprus, while Ptolemy VIII ruled Cyrene" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Qing Dynasty"
@@ -2358,10 +2393,14 @@ field = "key_figures"
 action = "set"
 value = ["Gilgamesh", "Eannatum", "Urukagina", "Lugal-zage-si"]
 value_id = ["Q159709", "Q352544", "Q315698", "Q316241"]
-source = "https://www.worldhistory.org/Sumer/"
-quote = "First Dynasty of Lagash under King Eannutum is first empire in Mesopotamia"
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
+sources = [
+  { fact = "Eannatum was a ruler or leading figure of Sumerian City-States", source = "https://en.wikipedia.org/wiki/Sumer", quote = "one of the first empires known to history was that of Eannatum of Lagash, who annexed practically all of Sumer" },
+  { fact = "Lugal-zage-si was a ruler or leading figure of Sumerian City-States", source = "https://en.wikipedia.org/wiki/Lugal-zage-si", quote = "he then united Sumer briefly as a single kingdom" },
+]
+derivation = "every listed item has its own source"
+note = "partly sourced: no source yet for Gilgamesh, Urukagina"
 
 [[override]]
 civilization = "Sumerian City-States"
@@ -2464,10 +2503,15 @@ field = "key_figures"
 action = "set"
 value = ["Mentuhotep II", "Amenemhat I", "Senusret III", "Amenemhat III"]
 value_id = ["Q296439", "Q18771", "Q19248", "Q19244"]
-source = "https://www.worldhistory.org/Middle_Kingdom_of_Egypt/"
-quote = "Senusret II was succeeded by Senusret III"
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
+sources = [
+  { fact = "Mentuhotep II was a ruler or leading figure of Middle Kingdom of Egypt", source = "https://en.wikipedia.org/wiki/Mentuhotep_II", quote = "becoming the first pharaoh of the Middle Kingdom" },
+  { fact = "Senusret III was a ruler or leading figure of Middle Kingdom of Egypt", source = "https://www.worldhistory.org/Middle_Kingdom_of_Egypt/", quote = "Senusret II was succeeded by Senusret III" },
+  { fact = "Amenemhat III was a ruler or leading figure of Middle Kingdom of Egypt", source = "https://www.britannica.com/biography/Amenemhet-III", quote = "Amenemhet III, was a king of ancient Egypt of the 12th dynasty, who brought Middle Kingdom Egypt to a peak of economic prosperity" },
+]
+derivation = "every listed item has its own source"
+note = "partly sourced: no source yet for Amenemhat I"
 
 [[override]]
 civilization = "Minoan civilization"
@@ -2762,11 +2806,14 @@ field = "key_figures"
 action = "set"
 value = ["Isabella I of Castile", "Ferdinand II of Aragon", "Charles V", "Philip II of Spain"]
 value_id = ["Q45859", "Q12860", "Q32500", "Q34417"]
-source = "https://www.worldhistory.org/Spanish_Armada/"
-quote = "King Philip II of Spain (r. 1556-1598)"
 retrieved = 2026-10-20
-needs_verification = false
-note = "Francisco Franco removed: he ruled after the empire had shrunk to a few African colonies, and the empire peaked under Charles V and Philip II; Charles V page: the rapid expansion of the Spanish Empire in the Americas coincided with his reign"
+needs_verification = true
+note = "partly sourced: no source yet for Isabella I of Castile, Ferdinand II of Aragon"
+sources = [
+  { fact = "Charles V was a ruler or leading figure of Spanish Empire", source = "https://www.britannica.com/biography/Charles-V-Holy-Roman-emperor", quote = "king of Spain (as Charles I; 1516–56)" },
+  { fact = "Philip II of Spain was a ruler or leading figure of Spanish Empire", source = "https://www.worldhistory.org/Spanish_Armada/", quote = "King Philip II of Spain (r. 1556-1598)" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Spanish Empire"
@@ -2785,11 +2832,16 @@ civilization_id = "Q83958"
 field = "modern_countries"
 action = "set"
 value = ["Greece", "North Macedonia", "Bulgaria", "Albania", "Turkey", "Syria", "Lebanon", "Israel", "Palestine", "Egypt", "Iraq", "Iran", "Afghanistan", "Pakistan"]
-source = "https://www.worldhistory.org/Macedonia/"
-quote = "Pella, the capital of the kingdom of Macedon (Northern Greece)"
 retrieved = 2026-10-20
-needs_verification = false
-note = "Greece, the Macedonian home, was missing; the others are the lands of Alexander's empire at the map year"
+needs_verification = true
+note = "partly sourced: no source yet for Turkey, Syria, Lebanon, Israel, Palestine, Egypt, Iraq, Iran, Afghanistan, Pakistan"
+sources = [
+  { fact = "Macedonia territory included part of present-day Greece", source = "https://www.worldhistory.org/Macedonia/", quote = "Pella, the capital of the kingdom of Macedon (Northern Greece)" },
+  { fact = "Macedonia territory included part of present-day North Macedonia", source = "https://www.worldhistory.org/Macedonia/", quote = "Pella, the capital of the kingdom of Macedon (Northern Greece)" },
+  { fact = "Macedonia territory included part of present-day Bulgaria", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "Philip II conquered a Thracian city in what is now Bulgaria and renamed it Philippopolis" },
+  { fact = "Macedonia territory included part of present-day Albania", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "briefly extended Macedonian control into Illyria as far as Epidamnos (modern Durrës, Albania)" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Macedonia"
@@ -3007,11 +3059,16 @@ field = "key_figures"
 action = "set"
 value = ["Arsaces I of Parthia", "Mithridates I of Parthia", "Mithridates II of Parthia", "Orodes II"]
 value_id = ["Q315913", "Q312442", "Q297763", "Q313933"]
-source = "https://www.worldhistory.org/Parthian_Empire/"
-quote = "Artabanus I and his son Mithridates II would play crucial roles"
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "Musa of Parthia, a queen consort, and Artabanus IV, an obscure late ruler, replaced by the great kings Mithridates I and II"
+sources = [
+  { fact = "Arsaces I of Parthia was a ruler or leading figure of Parthian Empire", source = "https://en.wikipedia.org/wiki/Arsaces_I_of_Parthia", quote = "was the first king of Parthia, ruling from 247 to 217 BC" },
+  { fact = "Mithridates I of Parthia was a ruler or leading figure of Parthian Empire", source = "https://www.worldhistory.org/Parthian_Empire/", quote = "Artabanus I and his son Mithridates II would play crucial roles" },
+  { fact = "Mithridates II of Parthia was a ruler or leading figure of Parthian Empire", source = "https://www.worldhistory.org/Parthian_Empire/", quote = "Artabanus I and his son Mithridates II would play crucial roles" },
+  { fact = "Orodes II was a ruler or leading figure of Parthian Empire", source = "https://www.britannica.com/biography/Orodes-II", quote = "Orodes II (died 37/36 bce) was the king of Parthia (reigned c. 55/54–37/36 bce)" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Phoenicia"
@@ -3058,10 +3115,14 @@ field = "key_figures"
 action = "set"
 value = ["Ahiram", "Hiram I", "Pygmalion of Tyre"]
 value_id = ["Q400275", "Q467115", "Q1879787"]
-source = "https://www.worldhistory.org/Phoenicia/"
-quote = "c. 1000 BCE Ahiram becomes king of Sidon."
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
+sources = [
+  { fact = "Ahiram was a ruler or leading figure of Phoenicia", source = "https://www.worldhistory.org/Phoenicia/", quote = "c. 1000 BCE Ahiram becomes king of Sidon." },
+  { fact = "Hiram I was a ruler or leading figure of Phoenicia", source = "https://en.wikipedia.org/wiki/Hiram_I", quote = "was a Phoenician king of Tyre" },
+]
+derivation = "every listed item has its own source"
+note = "partly sourced: no source yet for Pygmalion of Tyre"
 
 [[override]]
 civilization = "Phrygia"
@@ -3326,11 +3387,16 @@ field = "key_figures"
 action = "set"
 value = ["Dantidurga", "Krishna I", "Govinda III", "Amoghavarsha I"]
 value_id = ["Q3764262", "Q6437417", "Q3634713", "Q3630862"]
-source = "https://www.worldhistory.org/Rashtrakuta_Dynasty/"
-quote = "Govinda III (r. 793-814 CE) succeeded his father Dhruva"
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "Mahavira is a Jain teacher, not a Rashtrakuta ruler"
+sources = [
+  { fact = "Dantidurga was a ruler or leading figure of Rashtrakuta Dynasty", source = "https://en.wikipedia.org/wiki/Dantidurga", quote = "was the founder of the Rashtrakuta Empire of Manyakheta" },
+  { fact = "Krishna I was a ruler or leading figure of Rashtrakuta Dynasty", source = "https://en.wikipedia.org/wiki/Krishna_I", quote = "He took charge of the growing Rashtrakuta Empire" },
+  { fact = "Govinda III was a ruler or leading figure of Rashtrakuta Dynasty", source = "https://www.worldhistory.org/Rashtrakuta_Dynasty/", quote = "Govinda III (r. 793-814 CE) succeeded his father Dhruva" },
+  { fact = "Amoghavarsha I was a ruler or leading figure of Rashtrakuta Dynasty", source = "https://www.worldhistory.org/Rashtrakuta_Dynasty/", quote = "the greatest of all the Rashtrakuta kings, Govinda III's son, Amoghavarsha I" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Republic of Genoa"
@@ -3369,10 +3435,15 @@ field = "key_figures"
 action = "set"
 value = ["Romulus", "Numa Pompilius", "Servius Tullius", "Lucius Tarquinius Superbus"]
 value_id = ["Q2186", "Q200031", "Q192998", "Q193047"]
-source = "https://www.worldhistory.org/Rome/"
-quote = "According to legend, Ancient Rome was founded by the two brothers, and demigods, Romulus and Remus"
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
+sources = [
+  { fact = "Romulus was a ruler or leading figure of Roman Kingdom", source = "https://www.worldhistory.org/Rome/", quote = "According to legend, Ancient Rome was founded by the two brothers, and demigods, Romulus and Remus" },
+  { fact = "Numa Pompilius was a ruler or leading figure of Roman Kingdom", source = "https://www.treccani.it/enciclopedia/numa-pompilio/", quote = "Secondo re di Roma dal 715 al 673 a." },
+  { fact = "Servius Tullius was a ruler or leading figure of Roman Kingdom", source = "https://en.wikipedia.org/wiki/Servius_Tullius", quote = "was the legendary sixth king of Rome" },
+  { fact = "Lucius Tarquinius Superbus was a ruler or leading figure of Roman Kingdom", source = "https://en.wikipedia.org/wiki/Lucius_Tarquinius_Superbus", quote = "was the legendary seventh and final king of Rome" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Roman Kingdom"
@@ -3798,11 +3869,14 @@ civilization_id = "Q2365048"
 field = "modern_countries"
 action = "set"
 value = ["Ethiopia", "Somalia", "Djibouti", "Eritrea"]
-source = "https://en.wikipedia.org/wiki/Adal_Sultanate"
-quote = "At its height, the polity under Sultan Badlay controlled the territory stretching from Cape Guardafui in Somalia to the port city of Suakin in Sudan."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 6"
+needs_verification = true
+note = "partly sourced: no source yet for Ethiopia, Djibouti"
+sources = [
+  { fact = "Adal Sultanate territory included part of present-day Somalia", source = "https://en.wikipedia.org/wiki/Adal_Sultanate", quote = "At its height, the polity under Sultan Badlay controlled the territory stretching from Cape Guardafui in Somalia to the port city of Suakin in Sudan." },
+  { fact = "Adal Sultanate territory included part of present-day Eritrea", source = "https://en.wikipedia.org/wiki/Eritrea", quote = "Its coastal territories were also under the Adal Sultanate during the reign of Sultan Badlay" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Afsharid Iran"
@@ -3827,11 +3901,15 @@ field = "key_figures"
 action = "set"
 value = ["Ibn Tumart", "Abd al-Mu'min", "Yaqub al-Mansur"]
 value_id = ["Q455925", "Q307312", "Q455739"]
-source = "https://en.wikipedia.org/wiki/Almohad_Caliphate"
-quote = "After Ibn Tumart's death, his successor Abd al-Mu'min (r. 1130–1163) founded the Almohad caliphate"
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "adds the founder Ibn Tumart, the Mahdi of 1121, before Abd al-Mumin; cited in Wikipedia, footnote 22"
+sources = [
+  { fact = "Ibn Tumart was a ruler or leading figure of Almohad Caliphate", source = "https://en.wikipedia.org/wiki/Almohad_Caliphate", quote = "After Ibn Tumart's death, his successor Abd al-Mu'min (r. 1130–1163) founded the Almohad caliphate" },
+  { fact = "Abd al-Mu'min was a ruler or leading figure of Almohad Caliphate", source = "https://en.wikipedia.org/wiki/Almohad_Caliphate", quote = "After Ibn Tumart's death, his successor Abd al-Mu'min (r. 1130–1163) founded the Almohad caliphate" },
+  { fact = "Yaqub al-Mansur was a ruler or leading figure of Almohad Caliphate", source = "https://www.britannica.com/biography/Abu-Yusuf-Yaqub-al-Mansur", quote = "was the third ruler of the Muʾminid dynasty of Spain and North Africa" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Alodia"
@@ -3897,11 +3975,16 @@ field = "key_figures"
 action = "set"
 value = ["Ruben I, Prince of Armenia", "Leo I, King of Armenia", "Hethum I", "Leo V of Armenia"]
 value_id = ["Q2299851", "Q541848", "Q733854", "Q718640"]
-source = "https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia"
-quote = "In 1198, with the crowning of Leo I, King of Armenia of the Rubenid dynasty , Cilician Armenia became a kingdom."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "founder Ruben I, first king Leo I, Hethum I who began the Hethumid line, and Leo V the last king; replaces Thoros I and Smbat the Constable, who never held the throne; cited in Wikipedia, footnote 6"
+sources = [
+  { fact = "Ruben I, Prince of Armenia was a ruler or leading figure of Armenian Kingdom of Cilicia", source = "https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia", quote = "In 1198, with the crowning of Leo I, King of Armenia of the Rubenid dynasty , Cilician Armenia became a kingdom." },
+  { fact = "Leo I, King of Armenia was a ruler or leading figure of Armenian Kingdom of Cilicia", source = "https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia", quote = "In 1198, with the crowning of Leo I, King of Armenia of the Rubenid dynasty , Cilician Armenia became a kingdom." },
+  { fact = "Hethum I was a ruler or leading figure of Armenian Kingdom of Cilicia", source = "https://www.britannica.com/biography/Hayton", quote = "Hayton (died 1271) was the king of Little Armenia, now in Turkey, from 1224 to 1269." },
+  { fact = "Leo V of Armenia was a ruler or leading figure of Armenian Kingdom of Cilicia", source = "https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia", quote = "In 1198, with the crowning of Leo I, King of Armenia of the Rubenid dynasty , Cilician Armenia became a kingdom." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Asuka Japan"
@@ -4131,11 +4214,16 @@ field = "key_figures"
 action = "set"
 value = ["Gunther", "Gondioc", "Gundobad", "Sigismund of Burgundy"]
 value_id = ["Q339094", "Q437712", "Q364245", "Q318347"]
-source = "https://en.wikipedia.org/wiki/Burgundians"
-quote = "The Lex Burgundionum law code, issued under Gundobad, nonetheless invokes earlier kings back to Gundahar, and beyond."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "cited in Wikipedia, footnote 39"
+sources = [
+  { fact = "Gunther was a ruler or leading figure of Burgundians", source = "https://www.britannica.com/biography/Gunther-Burgundian-king", quote = "The historical Gunther led the Burgundians across the Rhine in the early 5th century" },
+  { fact = "Gondioc was a ruler or leading figure of Burgundians", source = "https://en.wikipedia.org/wiki/Gondioc", quote = "was a king of the Burgundians" },
+  { fact = "Gundobad was a ruler or leading figure of Burgundians", source = "https://en.wikipedia.org/wiki/Burgundians", quote = "The Lex Burgundionum law code, issued under Gundobad, nonetheless invokes earlier kings back to Gundahar, and beyond." },
+  { fact = "Sigismund of Burgundy was a ruler or leading figure of Burgundians", source = "https://en.wikipedia.org/wiki/Sigismund_of_Burgundy", quote = "was King of the Burgundians from 516 until his death" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Burgundians"
@@ -4508,11 +4596,13 @@ field = "key_figures"
 action = "set"
 value = ["Geraint of Dumnonia", "Æthelstan"]
 value_id = ["Q3761244", "Q170017"]
-source = "https://en.wikipedia.org/wiki/Cornwall"
-quote = "From the 7th century, the Britons in the South West increasingly came into conflict with the expanding Anglo-Saxon kingdom of Wessex , eventually being pushed west of the Tamar, where the boundary was set by King Æthelstan in 936."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 7"
+needs_verification = true
+note = "partly sourced: no source yet for Geraint of Dumnonia"
+sources = [
+  { fact = "Æthelstan was a ruler or leading figure of Cornwall", source = "https://en.wikipedia.org/wiki/Cornwall", quote = "From the 7th century, the Britons in the South West increasingly came into conflict with the expanding Anglo-Saxon kingdom of Wessex , eventually being pushed west of the Tamar, where the boundary was set by King Æthelstan in 936." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Cornwall"
@@ -4828,11 +4918,14 @@ field = "key_figures"
 action = "set"
 value = ["Óscar Carmona", "António de Oliveira Salazar", "Marcelo Caetano"]
 value_id = ["Q314022", "Q151394", "Q310870"]
-source = "https://en.wikipedia.org/wiki/Estado_Novo_%28Portugal%29"
-quote = "A new constitution was drafted by a group of lawyers, businessmen, clerics, and university professors, with Salazar as the leading spirit and Marcelo Caetano also playing a major role."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 21"
+needs_verification = true
+note = "partly sourced: no source yet for Óscar Carmona"
+sources = [
+  { fact = "António de Oliveira Salazar was a ruler or leading figure of Estado Novo", source = "https://en.wikipedia.org/wiki/Estado_Novo_%28Portugal%29", quote = "A new constitution was drafted by a group of lawyers, businessmen, clerics, and university professors, with Salazar as the leading spirit and Marcelo Caetano also playing a major role." },
+  { fact = "Marcelo Caetano was a ruler or leading figure of Estado Novo", source = "https://en.wikipedia.org/wiki/Estado_Novo_%28Portugal%29", quote = "A new constitution was drafted by a group of lawyers, businessmen, clerics, and university professors, with Salazar as the leading spirit and Marcelo Caetano also playing a major role." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Four Oirats"
@@ -4950,11 +5043,15 @@ field = "key_figures"
 action = "set"
 value = ["Ermanaric", "Alaric I", "Theodoric the Great"]
 value_id = ["Q28987", "Q102371", "Q105105"]
-source = "https://en.wikipedia.org/wiki/Goths"
-quote = "The Goths were briefly reunited under one crown in the early 6th century under Theodoric, who became regent of the Visigothic kingdom following the death of Alaric II at the Battle of Vouillé in 507."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "cited in Wikipedia, footnote 206"
+sources = [
+  { fact = "Ermanaric was a ruler or leading figure of Goths", source = "https://en.wikipedia.org/wiki/Ermanaric", quote = "was a Greuthungian king who before the Hunnic invasion ruled a sizable portion of Oium, the part of Scythia inhabited by the Goths" },
+  { fact = "Alaric I was a ruler or leading figure of Goths", source = "https://en.wikipedia.org/wiki/Goths", quote = "The Goths were briefly reunited under one crown in the early 6th century under Theodoric, who became regent of the Visigothic kingdom following the death of Alaric II at the Battle of Vouillé in 507." },
+  { fact = "Theodoric the Great was a ruler or leading figure of Goths", source = "https://en.wikipedia.org/wiki/Goths", quote = "The Goths were briefly reunited under one crown in the early 6th century under Theodoric, who became regent of the Visigothic kingdom following the death of Alaric II at the Battle of Vouillé in 507." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Goths"
@@ -5076,11 +5173,13 @@ field = "key_figures"
 action = "set"
 value = ["Muhammad Rumfa", "Amina of Zazzau"]
 value_id = ["Q6932682", "Q2843390"]
-source = "https://www.britannica.com/place/Hausa-states"
-quote = "certain non-Muslim practices, as did Muḥammad Rumfa (ruled 1463–99) in the Hausa city-state of Kano"
 retrieved = 2026-10-25
-needs_verification = false
-note = "Britannica"
+needs_verification = true
+note = "partly sourced: no source yet for Amina of Zazzau"
+sources = [
+  { fact = "Muhammad Rumfa was a ruler or leading figure of Hausa Kingdoms", source = "https://www.britannica.com/place/Hausa-states", quote = "certain non-Muslim practices, as did Muḥammad Rumfa (ruled 1463–99) in the Hausa city-state of Kano" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Hausa Kingdoms"
@@ -5244,11 +5343,14 @@ field = "key_figures"
 action = "set"
 value = ["Benito Mussolini", "Victor Emmanuel III of Italy", "Italo Balbo"]
 value_id = ["Q23559", "Q150642", "Q1056"]
-source = "https://en.wikipedia.org/wiki/Italian_Empire"
-quote = "On 9 May 1936 Mussolini proclaimed the establishment of the Italian Empire in East Africa (\"l'Impero\"), with King Victor Emmanuel III as Emperor of Ethiopia ."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 44"
+needs_verification = true
+note = "partly sourced: no source yet for Italo Balbo"
+sources = [
+  { fact = "Benito Mussolini was a ruler or leading figure of Italian Africa", source = "https://en.wikipedia.org/wiki/Italian_Empire", quote = "On 9 May 1936 Mussolini proclaimed the establishment of the Italian Empire in East Africa (\"l'Impero\"), with King Victor Emmanuel III as Emperor of Ethiopia ." },
+  { fact = "Victor Emmanuel III of Italy was a ruler or leading figure of Italian Africa", source = "https://en.wikipedia.org/wiki/Italian_Empire", quote = "On 9 May 1936 Mussolini proclaimed the establishment of the Italian Empire in East Africa (\"l'Impero\"), with King Victor Emmanuel III as Emperor of Ethiopia ." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Italian Africa"
@@ -5847,11 +5949,13 @@ civilization_id = "Q302132"
 field = "modern_countries"
 action = "set"
 value = ["Greenland", "Ghana", "India"]
-source = "https://en.wikipedia.org/wiki/Danish_overseas_colonies"
-quote = "Main article: Danish Gold Coast A contemporary depiction of Fort Christiansborg Denmark-Norway maintained several trading stations and four forts along the Gold Coast in West Africa, especially around modern day Ghana ."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 3"
+needs_verification = true
+note = "partly sourced: no source yet for Greenland, India"
+sources = [
+  { fact = "Danish overseas colonies territory included part of present-day Ghana", source = "https://en.wikipedia.org/wiki/Danish_overseas_colonies", quote = "Main article: Danish Gold Coast A contemporary depiction of Fort Christiansborg Denmark-Norway maintained several trading stations and four forts along the Gold Coast in West Africa, especially around modern day Ghana ." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Ayyubid Sultanate"
@@ -5860,11 +5964,16 @@ field = "key_figures"
 action = "set"
 value = ["Saladin", "Al-Adil I", "Al-Kamil", "As-Salih Ayyub"]
 value_id = ["Q8581", "Q285133", "Q293464", "Q293559"]
-source = "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
-quote = "Under al-Adil and al-Kamil, Damascus continued as an autonomous province whose ruler reserved the right to designate his own heir, but during as-Salih Ayyub's rule, military campaigns against Syria reduced Damascus to a vassal of Cairo."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "replaces Baybars, a Mamluk who fought the Ayyubids; cited in Wikipedia, footnote 139"
+sources = [
+  { fact = "Saladin was a ruler or leading figure of Ayyubid Sultanate", source = "https://www.worldhistory.org/Saladin/", quote = "was the Muslim Sultan of Egypt and Syria (r. 1174-1193)" },
+  { fact = "Al-Adil I was a ruler or leading figure of Ayyubid Sultanate", source = "https://en.wikipedia.org/wiki/Ayyubid_dynasty", quote = "Under al-Adil and al-Kamil, Damascus continued as an autonomous province whose ruler reserved the right to designate his own heir, but during as-Salih Ayyub's rule, military campaigns against Syria reduced Damascus to a vassal of Cairo." },
+  { fact = "Al-Kamil was a ruler or leading figure of Ayyubid Sultanate", source = "https://en.wikipedia.org/wiki/Ayyubid_dynasty", quote = "Under al-Adil and al-Kamil, Damascus continued as an autonomous province whose ruler reserved the right to designate his own heir, but during as-Salih Ayyub's rule, military campaigns against Syria reduced Damascus to a vassal of Cairo." },
+  { fact = "As-Salih Ayyub was a ruler or leading figure of Ayyubid Sultanate", source = "https://en.wikipedia.org/wiki/Ayyubid_dynasty", quote = "Under al-Adil and al-Kamil, Damascus continued as an autonomous province whose ruler reserved the right to designate his own heir, but during as-Salih Ayyub's rule, military campaigns against Syria reduced Damascus to a vassal of Cairo." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Jin"
@@ -6043,11 +6152,14 @@ field = "key_figures"
 action = "set"
 value = ["Hasan Buzurg", "Shaykh Uways Jalayir"]
 value_id = ["Q1194003", "Q1144809"]
-source = "https://en.wikipedia.org/wiki/Jalayirid_Sultanate"
-quote = "The dynasty was also called the \"Ilka dynasty\" or \"Ilkanids\" after Hasan Buzurg 's great-grandfather Ilka Noyan ."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "cited in Wikipedia, footnote 7"
+sources = [
+  { fact = "Hasan Buzurg was a ruler or leading figure of Jalayirid Sultanate", source = "https://en.wikipedia.org/wiki/Jalayirid_Sultanate", quote = "The dynasty was also called the \"Ilka dynasty\" or \"Ilkanids\" after Hasan Buzurg 's great-grandfather Ilka Noyan ." },
+  { fact = "Shaykh Uways Jalayir was a ruler or leading figure of Jalayirid Sultanate", source = "https://www.britannica.com/topic/Jalayirid", quote = "His son Uways I (reigned 1356–74) enlarged Jalāyirid domains" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Kamakura Shogunate"
@@ -6108,11 +6220,15 @@ field = "key_figures"
 action = "set"
 value = ["Idris I of Morocco", "Idris II of Morocco", "Yahya ibn Muhammad", "Al-Hasan ibn al-Qasim Jannun"]
 value_id = ["Q438601", "Q922653", "Q681523", "Q253605"]
-source = "https://en.wikipedia.org/wiki/Idrisid_dynasty"
-quote = "Agadir (later Tlemcen) was left under the control of Muhammad Ibn Sulayman, Idris II's cousin and the son of Sulayman , the brother of Idris I whom the latter had left in charge of the city, constituting the Sulaymanid dynasty ."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 7"
+needs_verification = true
+note = "partly sourced: no source yet for Al-Hasan ibn al-Qasim Jannun"
+sources = [
+  { fact = "Idris I of Morocco was a ruler or leading figure of Idrisids", source = "https://en.wikipedia.org/wiki/Idrisid_dynasty", quote = "Agadir (later Tlemcen) was left under the control of Muhammad Ibn Sulayman, Idris II's cousin and the son of Sulayman , the brother of Idris I whom the latter had left in charge of the city, constituting the Sulaymanid dynasty ." },
+  { fact = "Idris II of Morocco was a ruler or leading figure of Idrisids", source = "https://en.wikipedia.org/wiki/Idrisid_dynasty", quote = "Agadir (later Tlemcen) was left under the control of Muhammad Ibn Sulayman, Idris II's cousin and the son of Sulayman , the brother of Idris I whom the latter had left in charge of the city, constituting the Sulaymanid dynasty ." },
+  { fact = "Yahya ibn Muhammad was a ruler or leading figure of Idrisids", source = "https://en.wikipedia.org/wiki/Idrisid_dynasty", quote = "Agadir (later Tlemcen) was left under the control of Muhammad Ibn Sulayman, Idris II's cousin and the son of Sulayman , the brother of Idris I whom the latter had left in charge of the city, constituting the Sulaymanid dynasty ." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Gurjara-Pratihara Dynasty"
@@ -6250,11 +6366,13 @@ field = "capital"
 action = "set"
 value = ["York", "Bamburgh"]
 value_id = ["Q42462", "Q805983"]
-source = "https://en.wikipedia.org/wiki/York"
-quote = "It then became the capital of Britannia Inferior, a province of the Roman Empire, and was later the capital of the kingdoms of Deira, Northumbria, and Scandinavian York."
 retrieved = 2026-10-20
-needs_verification = false
-note = "York was the royal city of Deira and later Northumbria; Bamburgh the royal fortress of Bernicia; cited in Wikipedia, footnote 2"
+needs_verification = true
+note = "partly sourced: no source yet for Bamburgh"
+sources = [
+  { fact = "York was a capital of Kingdom of Northumbria", source = "https://en.wikipedia.org/wiki/York", quote = "It then became the capital of Britannia Inferior, a province of the Roman Empire, and was later the capital of the kingdoms of Deira, Northumbria, and Scandinavian York." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Kingdom of Numidia"
@@ -6935,11 +7053,15 @@ field = "key_figures"
 action = "set"
 value = ["Tughlugh Timur", "Khizr Khoja", "Esen Buqa II", "Yunus Khan"]
 value_id = ["Q1194934", "Q4497525", "Q987896", "Q477140"]
-source = "https://en.wikipedia.org/wiki/Moghulistan"
-quote = "Despite that, the first Khan of Moghulistan, Tughlugh Timur, became Muslim in 1354 alongside 160,000 followers."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 7"
+needs_verification = true
+note = "partly sourced: no source yet for Khizr Khoja"
+sources = [
+  { fact = "Tughlugh Timur was a ruler or leading figure of Moghulistan", source = "https://en.wikipedia.org/wiki/Moghulistan", quote = "Despite that, the first Khan of Moghulistan, Tughlugh Timur, became Muslim in 1354 alongside 160,000 followers." },
+  { fact = "Esen Buqa II was a ruler or leading figure of Moghulistan", source = "https://en.wikipedia.org/wiki/Esen_Buqa_II", quote = "was Khan of Moghulistan from 1429 until his death" },
+  { fact = "Yunus Khan was a ruler or leading figure of Moghulistan", source = "https://en.wikipedia.org/wiki/Yunus_Khan", quote = "was Khan of Moghulistan from 1462 until his death in 1487" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Moghulistan"
@@ -6962,11 +7084,14 @@ field = "key_figures"
 action = "set"
 value = ["Khorloogiin Choibalsan", "Yumjaagiin Tsedenbal", "Jambyn Batmönkh"]
 value_id = ["Q311488", "Q275025", "Q558706"]
-source = "https://en.wikipedia.org/wiki/Mongolian_People's_Republic"
-quote = "Yumjaagiin Tsedenbal, MPRP general secretary and second to Choibalsan, rose to prominence, inspecting aid deliveries and touring the Eastern Front as a Mongolian People's Army (MPA) lieutenant general."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 1"
+needs_verification = true
+note = "partly sourced: no source yet for Jambyn Batmönkh"
+sources = [
+  { fact = "Khorloogiin Choibalsan was a ruler or leading figure of Mongolian People's Republic", source = "https://en.wikipedia.org/wiki/Mongolian_People's_Republic", quote = "Yumjaagiin Tsedenbal, MPRP general secretary and second to Choibalsan, rose to prominence, inspecting aid deliveries and touring the Eastern Front as a Mongolian People's Army (MPA) lieutenant general." },
+  { fact = "Yumjaagiin Tsedenbal was a ruler or leading figure of Mongolian People's Republic", source = "https://en.wikipedia.org/wiki/Mongolian_People's_Republic", quote = "Yumjaagiin Tsedenbal, MPRP general secretary and second to Choibalsan, rose to prominence, inspecting aid deliveries and touring the Eastern Front as a Mongolian People's Army (MPA) lieutenant general." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Morocco"
@@ -7009,11 +7134,16 @@ field = "key_figures"
 action = "set"
 value = ["Aretas III", "Obodas I", "Aretas IV Philopatris", "Rabbel II Soter"]
 value_id = ["Q558770", "Q2620458", "Q302986", "Q887060"]
-source = "https://en.wikipedia.org/wiki/Nabataeans"
-quote = "They occupied Hauran, and in about 85 BC their king Aretas III became lord of Damascus and Coele-Syria."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "cited in Wikipedia, footnote 9"
+sources = [
+  { fact = "Aretas III was a ruler or leading figure of Nabataeans", source = "https://en.wikipedia.org/wiki/Nabataeans", quote = "They occupied Hauran, and in about 85 BC their king Aretas III became lord of Damascus and Coele-Syria." },
+  { fact = "Obodas I was a ruler or leading figure of Nabataeans", source = "https://en.wikipedia.org/wiki/Obodas_I", quote = "the Nabataean cities he ruled over in Palestine's Negev" },
+  { fact = "Aretas IV Philopatris was a ruler or leading figure of Nabataeans", source = "https://en.wikipedia.org/wiki/Nabataeans", quote = "They occupied Hauran, and in about 85 BC their king Aretas III became lord of Damascus and Coele-Syria." },
+  { fact = "Rabbel II Soter was a ruler or leading figure of Nabataeans", source = "https://en.wikipedia.org/wiki/Rabbel_II_Soter", quote = "was the last ruler of the Nabataean Kingdom, ruling from 70 to 106" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Nabataeans"
@@ -7222,11 +7352,12 @@ field = "key_figures"
 action = "set"
 value = ["Niklaus von Flüe", "Huldrych Zwingli"]
 value_id = ["Q115550", "Q123034"]
-source = "https://en.wikipedia.org/wiki/Nicholas_of_Flüe"
-quote = "Brother Klaus's counsel to the Diet of Stans (1481) helped prevent war between the Swiss cantons."
 retrieved = 2026-10-20
-needs_verification = false
-note = "no monarch existed; Flue (Diet of Stans 1481) and the reformer Huldrych Zwingli shaped the confederacy; cited in Wikipedia, footnote 2"
+needs_verification = true
+note = "partly sourced: no source yet for Niklaus von Flüe, Huldrych Zwingli"
+sources = [
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Old Swiss Confederacy"
@@ -7262,11 +7393,15 @@ field = "key_figures"
 action = "set"
 value = ["Gopala I", "Dharmapala", "Devapala", "Mahipala I"]
 value_id = ["Q3352284", "Q3183804", "Q15649142", "Q16863944"]
-source = "https://en.wikipedia.org/wiki/Pala_Empire"
-quote = "At its zenith under emperors Dharmapala and Devapala in the early ninth century, the Pala Empire was the dominant power in northern India, with its territory stretching across the Gangetic Plain down to the Vindhya Range and may have extended to Goalpara in Assam."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 17"
+needs_verification = true
+note = "partly sourced: no source yet for Mahipala I"
+sources = [
+  { fact = "Gopala I was a ruler or leading figure of Pala Empire", source = "https://en.wikipedia.org/wiki/Gopala_I", quote = "was the founder of the Pala dynasty" },
+  { fact = "Dharmapala was a ruler or leading figure of Pala Empire", source = "https://en.wikipedia.org/wiki/Pala_Empire", quote = "At its zenith under emperors Dharmapala and Devapala in the early ninth century, the Pala Empire was the dominant power in northern India, with its territory stretching across the Gangetic Plain down to the Vindhya Range and may have extended to Goalpara in Assam." },
+  { fact = "Devapala was a ruler or leading figure of Pala Empire", source = "https://en.wikipedia.org/wiki/Pala_Empire", quote = "At its zenith under emperors Dharmapala and Devapala in the early ninth century, the Pala Empire was the dominant power in northern India, with its territory stretching across the Gangetic Plain down to the Vindhya Range and may have extended to Goalpara in Assam." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Pala Empire"
@@ -7400,11 +7535,16 @@ field = "key_figures"
 action = "set"
 value = ["Mstislav of Chernigov", "Sviatoslav Yaroslavich", "Oleg Svyatoslavich", "Michael of Chernigov"]
 value_id = ["Q2350272", "Q469731", "Q2992005", "Q497962"]
-source = "https://en.wikipedia.org/wiki/Principality_of_Chernigov"
-quote = "After the death of Sviatoslav in 1076, it was decided at the Council of Liubech that the sons of Sviatoslav, Oleg and Davyd, and their descendants would secure the principality."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "cited in Wikipedia, footnote 5"
+sources = [
+  { fact = "Mstislav of Chernigov was a ruler or leading figure of Principality of Chernigov", source = "https://en.wikipedia.org/wiki/Principality_of_Chernigov", quote = "established rule over the principality of Chernigov" },
+  { fact = "Sviatoslav Yaroslavich was a ruler or leading figure of Principality of Chernigov", source = "https://en.wikipedia.org/wiki/Principality_of_Chernigov", quote = "After the death of Sviatoslav in 1076, it was decided at the Council of Liubech that the sons of Sviatoslav, Oleg and Davyd, and their descendants would secure the principality." },
+  { fact = "Oleg Svyatoslavich was a ruler or leading figure of Principality of Chernigov", source = "https://en.wikipedia.org/wiki/Principality_of_Chernigov", quote = "After the death of Sviatoslav in 1076, it was decided at the Council of Liubech that the sons of Sviatoslav, Oleg and Davyd, and their descendants would secure the principality." },
+  { fact = "Michael of Chernigov was a ruler or leading figure of Principality of Chernigov", source = "https://en.wikipedia.org/wiki/Michael_of_Chernigov", quote = "Chernigov (1223–1235; 1242–1246)" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Principality of Kiev"
@@ -7553,11 +7693,15 @@ field = "key_figures"
 action = "set"
 value = ["Cosimo de' Medici", "Lorenzo de' Medici", "Girolamo Savonarola", "Niccolò Machiavelli"]
 value_id = ["Q48544", "Q177854", "Q164823", "Q1399"]
-source = "https://en.wikipedia.org/wiki/Republic_of_Florence"
-quote = "Lorenzo the Magnificent was Piero's eldest son by his wife Lucrezia Tornabuoni."
 retrieved = 2026-10-20
-needs_verification = false
-note = "Lorenzo de Medici replaces Amerigo Vespucci, an explorer who did not shape the republic; cited in Wikipedia, footnote 33"
+needs_verification = true
+note = "partly sourced: no source yet for Niccolò Machiavelli"
+sources = [
+  { fact = "Cosimo de' Medici was a ruler or leading figure of Republic of Florence", source = "https://www.britannica.com/biography/Cosimo-de-Medici", quote = "was the founder of one of the main lines of the Medici family that ruled Florence from 1434 to 1537" },
+  { fact = "Lorenzo de' Medici was a ruler or leading figure of Republic of Florence", source = "https://en.wikipedia.org/wiki/Republic_of_Florence", quote = "Lorenzo the Magnificent was Piero's eldest son by his wife Lucrezia Tornabuoni." },
+  { fact = "Girolamo Savonarola was a ruler or leading figure of Republic of Florence", source = "https://en.wikipedia.org/wiki/Republic_of_Florence", quote = "After the fall of the Medici, Girolamo Savonarola ruled the state." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Republic of Liberia"
@@ -7700,11 +7844,15 @@ field = "key_figures"
 action = "set"
 value = ["Ya'qub ibn al-Layth al-Saffar", "Amr ibn al-Layth", "Abu Ja'far Ahmad ibn Muhammad", "Khalaf ibn Ahmad"]
 value_id = ["Q45261", "Q45212", "Q4561714", "Q4562131"]
-source = "https://en.wikipedia.org/wiki/Saffarid_dynasty"
-quote = "By the time of Ya'qub's death, he had conquered the Kabul Valley, Tokharistan, Makran, Kerman, Fars, Khorasan, and nearly reached Baghdad but then suffered a defeat by the Abbasids."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 5"
+needs_verification = true
+note = "partly sourced: no source yet for Abu Ja'far Ahmad ibn Muhammad"
+sources = [
+  { fact = "Ya'qub ibn al-Layth al-Saffar was a ruler or leading figure of Saffarid Dynasty", source = "https://en.wikipedia.org/wiki/Saffarid_dynasty", quote = "By the time of Ya'qub's death, he had conquered the Kabul Valley, Tokharistan, Makran, Kerman, Fars, Khorasan, and nearly reached Baghdad but then suffered a defeat by the Abbasids." },
+  { fact = "Amr ibn al-Layth was a ruler or leading figure of Saffarid Dynasty", source = "https://en.wikipedia.org/wiki/Amr_ibn_al-Layth", quote = "Amr managed to become the successor of the Saffarid throne" },
+  { fact = "Khalaf ibn Ahmad was a ruler or leading figure of Saffarid Dynasty", source = "https://en.wikipedia.org/wiki/Saffarid_dynasty", quote = "dethroned Khalaf ibn Ahmad and finally ended the Saffarid dynasty" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Saxons"
@@ -7970,8 +8118,8 @@ region = "Thailand"
 source = "https://en.wikipedia.org/wiki/Sukhothai_Kingdom"
 quote = "the events of 1238 marked Sukhothai's liberation from Khmer suzerainty and the establishment of an independent Tai kingdom."
 retrieved = 2026-10-20
-needs_verification = false
-note = "this is the older account; later scholarship questions an occupying Khmer garrison; cited in Wikipedia, footnote 8"
+needs_verification = true
+note = "the quoted sentence is no longer on the live page (checked 2026-10-27); find a current source"
 
 [[override]]
 civilization = "Sultanate of Brunei"
@@ -8295,11 +8443,14 @@ field = "key_figures"
 action = "set"
 value = ["Niqmaddu II", "Niqmepa", "Ammurapi"]
 value_id = ["Q365876", "Q365686", "Q11513"]
-source = "https://en.wikipedia.org/wiki/Ugarit"
-quote = "During the reign of his son Niqmaddu II (c. 1350 – c. 1315 BC) Ugarit became a vassal of the Hittite Empire, first under a viceroy in Karkemiš and then, with the Hititte collapse, directly under Karkemiš."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 17"
+needs_verification = true
+note = "partly sourced: no source yet for Ammurapi"
+sources = [
+  { fact = "Niqmaddu II was a ruler or leading figure of Ugarit", source = "https://en.wikipedia.org/wiki/Ugarit", quote = "During the reign of his son Niqmaddu II (c. 1350 – c. 1315 BC) Ugarit became a vassal of the Hittite Empire, first under a viceroy in Karkemiš and then, with the Hititte collapse, directly under Karkemiš." },
+  { fact = "Niqmepa was a ruler or leading figure of Ugarit", source = "https://en.wikipedia.org/wiki/Niqmepa", quote = "was the fifth-from-last King of Ugarit" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Ugarit"
@@ -8447,11 +8598,14 @@ field = "key_figures"
 action = "set"
 value = ["Ivar the Boneless", "Rollo", "Erik the Red", "Leif Erikson"]
 value_id = ["Q350321", "Q273773", "Q172345", "Q42838"]
-source = "https://en.wikipedia.org/wiki/Vikings"
-quote = "Vikings under Leif Erikson, heir to Erik the Red, reached North America and set up short-lived settlements in present-day L'Anse aux Meadows, Newfoundland, Canada."
 retrieved = 2026-10-20
-needs_verification = false
-note = "replaces Brian Boru; cited in Wikipedia, footnote 67"
+needs_verification = true
+note = "partly sourced: no source yet for Ivar the Boneless, Rollo"
+sources = [
+  { fact = "Erik the Red was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Vikings", quote = "Vikings under Leif Erikson, heir to Erik the Red, reached North America and set up short-lived settlements in present-day L'Anse aux Meadows, Newfoundland, Canada." },
+  { fact = "Leif Erikson was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Vikings", quote = "Vikings under Leif Erikson, heir to Erik the Red, reached North America and set up short-lived settlements in present-day L'Anse aux Meadows, Newfoundland, Canada." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Viking settlements"
@@ -8577,11 +8731,14 @@ field = "key_figures"
 action = "set"
 value = ["Orda Khan", "Urus Khan", "Barak Khan"]
 value_id = ["Q380393", "Q1374159", "Q1067312"]
-source = "https://en.wikipedia.org/wiki/White_Horde"
-quote = "In 1375, Urus Khan, the eighth khan of the White Horde, became a contested khan of both the Blue Horde and the White Horde."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 10"
+needs_verification = true
+note = "partly sourced: no source yet for Barak Khan"
+sources = [
+  { fact = "Orda Khan was a ruler or leading figure of White Horde", source = "https://www.britannica.com/biography/Orda-Mongol-prince", quote = "His eldest son, Orda, founded the White Horde" },
+  { fact = "Urus Khan was a ruler or leading figure of White Horde", source = "https://en.wikipedia.org/wiki/White_Horde", quote = "In 1375, Urus Khan, the eighth khan of the White Horde, became a contested khan of both the Blue Horde and the White Horde." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "White Horde"
@@ -8654,11 +8811,13 @@ field = "key_figures"
 action = "set"
 value = ["Wang Mang", "Gengshi Emperor"]
 value_id = ["Q7250", "Q7262"]
-source = "https://en.wikipedia.org/wiki/Xin_dynasty"
-quote = "In contrast, the Wang family grew powerful during the rule of Emperor Cheng of Han, and its leading member Wang Mang used his influence to act as regent for several young puppet emperors."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 3"
+needs_verification = true
+note = "partly sourced: no source yet for Gengshi Emperor"
+sources = [
+  { fact = "Wang Mang was a ruler or leading figure of Xin Dynasty", source = "https://en.wikipedia.org/wiki/Xin_dynasty", quote = "In contrast, the Wang family grew powerful during the rule of Emperor Cheng of Han, and its leading member Wang Mang used his influence to act as regent for several young puppet emperors." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Zayyanid dynasty"
@@ -8711,11 +8870,13 @@ field = "key_figures"
 action = "set"
 value = ["Shaka", "Dingane", "Mpande", "Cetshwayo"]
 value_id = ["Q27695", "Q470145", "Q737703", "Q380403"]
-source = "https://en.wikipedia.org/wiki/Zulu_Kingdom"
-quote = "One exception to these purges was Mpande, another half-brother, who was considered too weak to be a threat at the time."
 retrieved = 2026-10-20
-needs_verification = false
-note = "cited in Wikipedia, footnote 9"
+needs_verification = true
+note = "partly sourced: no source yet for Shaka, Dingane, Cetshwayo"
+sources = [
+  { fact = "Mpande was a ruler or leading figure of Zululand", source = "https://en.wikipedia.org/wiki/Zulu_Kingdom", quote = "One exception to these purges was Mpande, another half-brother, who was considered too weak to be a threat at the time." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Pandya dynasty"
@@ -8749,11 +8910,16 @@ field = "key_figures"
 action = "set"
 value = ["Nedunjeliyan I", "Kadungon", "Jatavarman Sundara Pandyan I", "Maravarman Kulasekara Pandyan I"]
 value_id = ["Q6986387", "Q6345779", "Q3536291", "Q6755090"]
-source = "https://en.wikipedia.org/wiki/Pandya_dynasty"
-quote = "In the second half of the 13th century under Jatavarman Sundara Pandyan I and Maravarman Kulasekara Pandyan I, the Pandyas ruled extensive territories including regions of present-day South India and northern Sri Lanka through vassal states subject to Madurai."
-retrieved = 2026-10-20
+retrieved = 2026-10-27
 needs_verification = false
 note = "replaces the poet-saint Manikkavacakar, who was a minister and not a ruler; cited in Wikipedia, footnote 10"
+sources = [
+  { fact = "Nedunjeliyan I was a ruler or leading figure of Pandya dynasty", source = "https://en.wikipedia.org/wiki/Netunceliyan_I", quote = "was an early Pandya king" },
+  { fact = "Kadungon was a ruler or leading figure of Pandya dynasty", source = "https://en.wikipedia.org/wiki/Kadunkon", quote = "was a Pandya king who revived the Pandya rule in South India in the 6th century CE" },
+  { fact = "Jatavarman Sundara Pandyan I was a ruler or leading figure of Pandya dynasty", source = "https://en.wikipedia.org/wiki/Pandya_dynasty", quote = "In the second half of the 13th century under Jatavarman Sundara Pandyan I and Maravarman Kulasekara Pandyan I, the Pandyas ruled extensive territories including regions of present-day South India and northern Sri Lanka through vassal states subject to Madurai." },
+  { fact = "Maravarman Kulasekara Pandyan I was a ruler or leading figure of Pandya dynasty", source = "https://en.wikipedia.org/wiki/Pandya_dynasty", quote = "In the second half of the 13th century under Jatavarman Sundara Pandyan I and Maravarman Kulasekara Pandyan I, the Pandyas ruled extensive territories including regions of present-day South India and northern Sri Lanka through vassal states subject to Madurai." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Pandya dynasty"
