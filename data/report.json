@@ -5947,12 +5947,6 @@
       "value": ""
     },
     {
-      "civilization": "Olmec Civilization",
-      "field": "after",
-      "action": "add",
-      "value": "Epi-Olmec culture"
-    },
-    {
       "civilization": "Oyo Empire",
       "field": "after",
       "action": "add",
@@ -6047,12 +6041,6 @@
     },
     {
       "civilization": "Pyu City-States",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Rashidun Caliphate",
       "field": "before",
       "action": "none",
       "value": ""
@@ -6357,12 +6345,6 @@
       "value": "Cuman-Kipchak Confederation"
     },
     {
-      "civilization": "Kingdom of Fiji",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Kingdom of Hawaï'i",
       "field": "before",
       "action": "none",
@@ -6392,16 +6374,6 @@
       "action": "set",
       "value": [
         "Copenhagen"
-      ]
-    },
-    {
-      "civilization": "Danish overseas colonies",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Greenland",
-        "Ghana",
-        "India"
       ]
     },
     {
@@ -6585,12 +6557,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Mexico",
-      "field": "before",
-      "action": "add",
-      "value": "New Spain"
     },
     {
       "civilization": "Minaeans",
@@ -6840,16 +6806,6 @@
       "value": "Twenty-third Dynasty of Egypt"
     },
     {
-      "civilization": "Ugarit",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Niqmaddu II",
-        "Niqmepa",
-        "Ammurapi"
-      ]
-    },
-    {
       "civilization": "United Kingdoms of Sweden and Norway",
       "field": "before",
       "action": "set",
@@ -6979,12 +6935,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Teotihuacan",
-      "field": "map_year",
-      "action": "set",
-      "value": 450
     },
     {
       "civilization": "Great Moravia",

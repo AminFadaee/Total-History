@@ -670,11 +670,13 @@ civilization_id = "Q487829"
 field = "period"
 action = "set"
 value = { start = 1226, end = 1347 }
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Wikidata: 1226-1347 for the Chagatai Khanate; the khanate split in 1347 and its west fell to Timur; the east (Moghulistan) lasted to 1487"
+note = "partly sourced: no source yet for Chagatai Khanate began in 1226"
+sources = [
+  { fact = "Chagatai Khanate ended in 1347", source = "https://www.worldhistory.org/Chagatai_Khanate/", quote = "The Chagatai Khanate (also Chaghatai, Jagatai, Chaghatay or Ca'adai, c. 1227-1363 CE) was that part of the Mongol Empire (1206-1368 CE) which covered what is today mostly Uzbekistan, southern Kazakhstan, and western Tajikistan." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Chagatai Khanate"
@@ -731,11 +733,14 @@ field = "key_figures"
 action = "set"
 value = ["King Wu of Chu", "King Zhuang of Chu", "Qu Yuan"]
 value_id = ["Q796039", "Q198154", "Q313330"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "rulers and poet in time order"
+note = "partly sourced: no source yet for King Wu of Chu was a ruler or leading figure of Chu"
+sources = [
+  { fact = "King Zhuang of Chu was a ruler or leading figure of Chu", source = "https://en.wikipedia.org/wiki/King_Zhuang_of_Chu", quote = "King Zhuang of Chu (Chinese: 楚莊王; pinyin: Chǔ Zhuāng Wáng), personal name Xiong Lü, was a monarch of the Chu state." },
+  { fact = "Qu Yuan was a ruler or leading figure of Chu", source = "https://en.wikipedia.org/wiki/Qu_Yuan", quote = "During the early days of King Huai's reign, Qu Yuan was serving the State of Chu as its Left Minister." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Chu"
@@ -958,11 +963,13 @@ field = "key_figures"
 action = "set"
 value = ["Tarquinius Priscus", "Lars Porsena", "Tarquinius Superbus"]
 value_id = ["Q212671", "Q346588", "Q193047"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Etruscan kings of Rome and the king of Clusium, in time order"
+note = "partly sourced: no source yet for Tarquinius Priscus was a ruler or leading figure of Etruscans; Tarquinius Superbus was a ruler or leading figure of Etruscans"
+sources = [
+  { fact = "Lars Porsena was a ruler or leading figure of Etruscans", source = "https://www.britannica.com/biography/Lars-Porsena", quote = "the Etruscan king Lars Porsena." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "French colonial empire"
@@ -1584,11 +1591,15 @@ field = "key_figures"
 action = "set"
 value = ["Roman the Great", "Daniel of Galicia", "Leo I of Galicia", "Liubartas"]
 value_id = ["Q497773", "Q58607", "Q156357", "Q2310836"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Daniel (king 1253) was missing"
+note = "partly sourced: no source yet for Leo I of Galicia was a ruler or leading figure of Kingdom of Galicia–Volhynia"
+sources = [
+  { fact = "Roman the Great was a ruler or leading figure of Kingdom of Galicia–Volhynia", source = "https://en.wikipedia.org/wiki/Roman_the_Great", quote = "In 1199, after the death of Prince Volodymyr Yaroslavych of Halych, Roman captured the Galician throne for the second time, creating the Principality of Galicia-Volhynia." },
+  { fact = "Liubartas was a ruler or leading figure of Kingdom of Galicia–Volhynia", source = "https://en.wikipedia.org/wiki/Liubartas", quote = "He was poisoned by rebellious nobles, who invited Liubartas to become the ruler for both Galicia and Volhynia." },
+  { fact = "Daniel of Galicia was a ruler or leading figure of Kingdom of Galicia–Volhynia", source = "https://www.britannica.com/biography/Daniel-Romanovich", quote = "Daniel Romanovich (born 1201—died 1264) was the ruler of the principalities of Galicia and Volhynia (now in Poland and Ukraine, respectively), who became one of the most powerful princes in east-central Europe." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Kingdom of Galicia–Volhynia"
@@ -1991,11 +2002,14 @@ field = "key_figures"
 action = "set"
 value = ["Ahmad Nizam Shah I", "Hussain Nizam Shah I", "Chand Bibi", "Malik Ambar"]
 value_id = ["Q24950832", "Q20639228", "Q468192", "Q1854686"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "founder, ruler 1553-65, regent defending Ahmednagar 1595-1600, regent-minister 1600-26"
+note = "partly sourced: no source yet for Ahmad Nizam Shah I was a ruler or leading figure of Ahmadnagar Sultanate; Chand Bibi was a ruler or leading figure of Ahmadnagar Sultanate"
+sources = [
+  { fact = "Hussain Nizam Shah I was a ruler or leading figure of Ahmadnagar Sultanate", source = "https://en.wikipedia.org/wiki/Hussain_Nizam_Shah_I", quote = "Hussain Nizam Shah I (Persian: حسین نظام شاه یکم; 1540 – 6 June 1565) was the Sultan of Ahmadnagar from 9 February 1554 until his death in 1565." },
+  { fact = "Malik Ambar was a ruler or leading figure of Ahmadnagar Sultanate", source = "https://en.wikipedia.org/wiki/Malik_Ambar", quote = "Malik Ambar (1548 – 14 May 1626) was a military leader and statesman who served as the Peshwa (Prime Minister) of the Ahmadnagar Sultanate and its de facto ruler from 1600 until his death in 1626." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Akkadian Empire"
@@ -2068,10 +2082,15 @@ field = "key_figures"
 action = "set"
 value = ["Ferdinand I, Holy Roman Emperor", "Leopold I, Holy Roman Emperor", "Maria Theresa", "Franz Joseph I"]
 value_id = ["Q150611", "Q150494", "Q131706", "Q51056"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
+sources = [
+  { fact = "Leopold I, Holy Roman Emperor was a ruler or leading figure of Habsburg Monarchy", source = "https://www.habsburger.net/en/persons/habsburg-emperor/leopold-i", quote = "Ruler of the Habsburg Monarchy from 1657, emperor of the Holy Roman Empire from 1658 until his death in 1705" },
+  { fact = "Maria Theresa was a ruler or leading figure of Habsburg Monarchy", source = "https://www.worldhistory.org/Maria_Theresa/", quote = "Maria Theresa (1717-1780) was the ruler of the Habsburg Monarchy, a sprawling empire that included Austria, Hungary, Bohemia, and other territories spread out across Italy, the Netherlands, and Central Europe." },
+  { fact = "Franz Joseph I was a ruler or leading figure of Habsburg Monarchy", source = "https://en.wikipedia.org/wiki/Francis_Joseph_I", quote = "Franz Joseph I or Francis Joseph I (German: Franz Joseph Karl [fʁants ˈjoːzɛf ˈkaʁl]; Hungarian: Ferenc József Károly [ˈfɛrɛnt͡s ˈjoːʒɛf ˈkaːroj]; 18 August 1830 – 21 November 1916) was Emperor of Austria, King of Hungary, and the ruler of the other states of the Habsburg monarchy from 2 December 1848 until his death in 1916." },
+]
+derivation = "every listed item has its own source"
+note = "partly sourced: no source yet for Ferdinand I, Holy Roman Emperor was a ruler or leading figure of Habsburg Monarchy"
 
 [[override]]
 civilization = "Ilkhanate"
@@ -2187,11 +2206,14 @@ field = "key_figures"
 action = "set"
 value = ["Dunama Dabbalemi", "Idris Alooma", "Muhammad al-Amin al-Kanemi"]
 value_id = ["Q3038134", "Q2030595", "Q341882"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Mai Dunama (13th c.), Idris Alooma (16th c.), al-Kanemi (early 19th c.)"
+note = "partly sourced: no source yet for Muhammad al-Amin al-Kanemi was a ruler or leading figure of Kanem–Bornu Empire"
+sources = [
+  { fact = "Dunama Dabbalemi was a ruler or leading figure of Kanem–Bornu Empire", source = "https://en.wikipedia.org/wiki/Dunama_Dabbalemi", quote = "Dunama II (Dunama bin ʿAbd al-Jalīl), called Dunama Dibalemi and Dunama Selmami, was mai (ruler) of the Kanem–Bornu Empire in the early-to-mid 13th century, ruling approximately 1221–1259." },
+  { fact = "Idris Alooma was a ruler or leading figure of Kanem–Bornu Empire", source = "https://en.wikipedia.org/wiki/Idris_Alooma", quote = "al-Ḥājj Idris IV (Idrīs bin ʿAlī), called Idris Alooma and Idris Amsami, was mai (ruler) of the Kanem–Bornu Empire in the mid-to-late 16th century and early 17th century, ruling approximately 1570–1603." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Avar Khaganate"
@@ -2399,12 +2421,13 @@ value = ["Gilgamesh", "Eannatum", "Urukagina", "Lugal-zage-si"]
 value_id = ["Q159709", "Q352544", "Q315698", "Q316241"]
 retrieved = 2026-10-20
 needs_verification = true
+note = "partly sourced: no source yet for Urukagina was a ruler or leading figure of Sumerian City-States"
 sources = [
   { fact = "Eannatum was a ruler or leading figure of Sumerian City-States", source = "https://en.wikipedia.org/wiki/Sumer", quote = "one of the first empires known to history was that of Eannatum of Lagash, who annexed practically all of Sumer" },
   { fact = "Lugal-zage-si was a ruler or leading figure of Sumerian City-States", source = "https://en.wikipedia.org/wiki/Lugal-zage-si", quote = "he then united Sumer briefly as a single kingdom" },
+  { fact = "Gilgamesh was a ruler or leading figure of Sumerian City-States", source = "https://en.wikipedia.org/wiki/Gilgamesh", quote = "Most historians generally agree that Gilgamesh was a historical king of the Sumerian city-state of Uruk, who probably ruled sometime during the early part of the Early Dynastic Period (c. 2900–2350 BC)." },
 ]
 derivation = "every listed item has its own source"
-note = "partly sourced: no source yet for Gilgamesh, Urukagina"
 
 [[override]]
 civilization = "Sumerian City-States"
@@ -3002,10 +3025,12 @@ action = "add"
 value = "Epi-Olmec culture"
 value_id = "Q2527515"
 region = "Mexico"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
+sources = [
+  { fact = "Epi-Olmec culture took over or replaced Olmec Civilization when it ended", source = "https://en.wikipedia.org/wiki/Epi-Olmec_culture", quote = "Epi-Olmec was a successor culture to the Olmec, hence the prefix \"epi-\" or \"post-\"." },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "Oyo Empire"
@@ -3272,11 +3297,13 @@ civilization_id = "Q478805"
 field = "period"
 action = "set"
 value = { start = 850, end = 1250, circa = true }
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "Chaco Canyon was the centre of the system c. 850-1250 (National Park Service)"
+note = "partly sourced: no source yet for Puebloans - Chaco Regional System began in 850"
+sources = [
+  { fact = "Puebloans - Chaco Regional System ended in 1250", source = "https://home.nps.gov/articles/chaco.htm", quote = "From 850 A.D. to approximately 1250 A.D, ancestral Puebloans constructed buildings and managed an extensive cultural system throughout this area." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Puebloans - Chaco Regional System"
@@ -3381,11 +3408,13 @@ civilization = "Rashidun Caliphate"
 civilization_id = "Q12490507"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 note = "succeeded the community of Muhammad at Medina; no state in the deck or on Wikidata to name"
+sources = [
+  { fact = "Rashidun Caliphate formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://www.worldhistory.org/Rashidun_Government/", quote = "After the death of the Prophet, his close friend, and companion, Abu Bakr (r. 632-634 CE) established the Rashidun Caliphate (632-661 CE); he was the first of many series of rulers to claim supreme authority over the Islamic world – the caliphs." },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Rashtrakuta Dynasty"
@@ -4298,11 +4327,13 @@ civilization_id = "Q23725"
 field = "period"
 action = "set"
 value = { start = -657, end = 330, circa = true }
-source = "https://en.wikipedia.org/wiki/Byzantium"
-quote = "Byzantium was colonised by Greeks from Megara in the 7th century BC"
 retrieved = 2026-10-20
 needs_verification = true
-note = "657 BC is the traditional foundation date; the end is Constantine refounding the city as Nova Roma in AD 330; cited in Wikipedia, footnote 3"
+note = "partly sourced: no source yet for Byzantium ended in 330"
+sources = [
+  { fact = "Byzantium began in 657 BC", source = "https://www.worldhistory.org/Byzantium/", quote = "The ancient city of Byzantium was founded by Greek colonists from Megara around 657 BCE." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Byzantium"
@@ -4371,11 +4402,14 @@ field = "key_figures"
 action = "set"
 value = ["Marduk-apla-iddina II", "Nabopolassar", "Nebuchadnezzar II"]
 value_id = ["Q356505", "Q273514", "Q12591"]
-source = "https://en.wikipedia.org/wiki/Chaldea"
-quote = "Nabopolassar , a previously obscure and unknown Chaldean chieftain, followed the opportunistic tactics laid down by previous Chaldean leaders to take advantage of the chaos and anarchy gripping Assyria and Babylonia and seized the city of Babylon in 620 BC with the help of its native Babylonian inhabitants."
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Marduk-apla-iddina II was a ruler or leading figure of Chaldea"
+sources = [
+  { fact = "Nebuchadnezzar II was a ruler or leading figure of Chaldea", source = "https://www.newworldencyclopedia.org/entry/Nebuchadrezzar_II", quote = "Nebuchadrezzar II (also Nebuchadnezzar; reigned 605-562 B.C.E.), is the best-known ruler of Babylonia in the Chaldean Dynasty." },
+  { fact = "Nabopolassar was a ruler or leading figure of Chaldea", source = "https://www.britannica.com/biography/Nabopolassar", quote = "eldest son and successor of Nabopolassar, founder of the Chaldean empire." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Chaldea"
@@ -4408,11 +4442,13 @@ civilization_id = "Q200969"
 field = "modern_countries"
 action = "set"
 value = ["Iraq", "Kuwait"]
-source = "https://en.wikipedia.org/wiki/Chaldea"
-quote = "These nomadic Chaldeans settled in the far southeastern portion of Babylonia, chiefly on the left bank of the Euphrates."
 retrieved = 2026-10-20
 needs_verification = true
-note = "southern Mesopotamia: Iraq and the Kuwait fringe; the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Chaldea territory included part of present-day Kuwait"
+sources = [
+  { fact = "Chaldea territory included part of present-day Iraq", source = "https://www.ancient-origins.net/ancient-places-asia/chaldean-dynasty-0019312", quote = "Chaldea was an ancient region located in the southern part of Mesopotamia, in what is now modern-day Iraq." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Chaldea"
@@ -5600,11 +5636,13 @@ civilization = "Kingdom of Fiji"
 civilization_id = "Q17515160"
 field = "before"
 action = "none"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Fiji"
-quote = "The Kingdom of Fiji was the first unified Fijian state, and it covered all of modern Fiji, except the island of Rotuma ."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 note = "The first unified Fijian state, so no earlier state; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Kingdom of Fiji formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://en.wikipedia.org/wiki/Seru_Epenisa_Cakobau", quote = "he finally succeeded in creating a united Fijian kingdom in 1871" },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Kingdom of Fiji"
@@ -5956,11 +5994,13 @@ civilization_id = "Q302132"
 field = "modern_countries"
 action = "set"
 value = ["Greenland", "Ghana", "India"]
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 note = "partly sourced: no source yet for Greenland, India"
 sources = [
   { fact = "Danish overseas colonies territory included part of present-day Ghana", source = "https://en.wikipedia.org/wiki/Danish_overseas_colonies", quote = "Main article: Danish Gold Coast A contemporary depiction of Fort Christiansborg Denmark-Norway maintained several trading stations and four forts along the Gold Coast in West Africa, especially around modern day Ghana ." },
+  { fact = "Danish overseas colonies territory included part of present-day Greenland", source = "https://en.wikipedia.org/wiki/Colony_of_Greenland", quote = "The colony of Greenland was a Danish colony created in 1950 with the union of North Greenland and South Greenland, and was ruled by one governor." },
+  { fact = "Danish overseas colonies territory included part of present-day India", source = "https://en.wikipedia.org/wiki/Danish_India", quote = "'Danish East India') was the name given to the forts and factories of Denmark–Norway (Denmark after 1814) in the Indian subcontinent, forming part of the Danish overseas colonies." },
 ]
 derivation = "every listed item has its own source"
 
@@ -6084,11 +6124,13 @@ field = "key_figures"
 action = "set"
 value = ["François Arago", "Louis-Eugène Cavaignac", "Napoleon III"]
 value_id = ["Q154353", "Q379702", "Q7721"]
-source = ""
-quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "reordered by time: Arago in the provisional government, Cavaignac in 1848, Louis-Napoleon from December 1848"
+note = "partly sourced: no source yet for François Arago was a ruler or leading figure of French Second Republic; Louis-Eugène Cavaignac was a ruler or leading figure of French Second Republic"
+sources = [
+  { fact = "Napoleon III was a ruler or leading figure of French Second Republic", source = "https://www.britannica.com/biography/Napoleon-III-emperor-of-France", quote = "Napoleon III (born April 20, 1808, Paris—died January 9, 1873, Chislehurst, Kent, England) was the nephew of Napoleon I, president of the Second Republic of France (1850–52), and then emperor of the French (1852–70)." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "French Algeria"
@@ -6097,11 +6139,13 @@ field = "key_figures"
 action = "set"
 value = ["Thomas Robert Bugeaud", "Napoleon III", "Charles de Gaulle"]
 value_id = ["Q349167", "Q7721", "Q2042"]
-source = "https://en.wikipedia.org/wiki/French_Algeria"
-quote = "Marshal Bugeaud , who became the first governor-general, headed the conquest."
 retrieved = 2026-10-20
 needs_verification = true
-note = "replaces Thiers, MacMahon and Poincare, who are not tied to Algeria; Napoleon III and de Gaulle were already listed or are the 1860 and 1958 figures; the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Napoleon III was a ruler or leading figure of French Algeria; Charles de Gaulle was a ruler or leading figure of French Algeria"
+sources = [
+  { fact = "Thomas Robert Bugeaud was a ruler or leading figure of French Algeria", source = "https://en.wikipedia.org/wiki/Thomas_Robert_Bugeaud", quote = "Bugeaud assumed the governor-generalship" },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Gurjara-Pratihara Dynasty"
@@ -6175,11 +6219,13 @@ field = "key_figures"
 action = "set"
 value = ["Minamoto no Yoritomo", "Hōjō Tokimasa", "Hōjō Tokimune", "Ashikaga Takauji"]
 value_id = ["Q242800", "Q589811", "Q430964", "Q297107"]
-source = "https://en.wikipedia.org/wiki/Kamakura_shogunate"
-quote = "Hōjō Tokimasa , the father of Yoritomo's widow, Hōjō Masako , and former guardian and protector of Yoritomo, claimed the title of regent ( shikken ) to Yoritomo's son Minamoto no Yoriie , eventually making that claim hereditary to the Hōjō clan ."
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Hōjō Tokimasa was a ruler or leading figure of Kamakura Shogunate; Hōjō Tokimune was a ruler or leading figure of Kamakura Shogunate; Ashikaga Takauji was a ruler or leading figure of Kamakura Shogunate"
+sources = [
+  { fact = "Minamoto no Yoritomo was a ruler or leading figure of Kamakura Shogunate", source = "https://en.wikipedia.org/wiki/Kamakura_shogunate", quote = "The Kamakura shogunate was established by Minamoto no Yoritomo after victory in the Genpei War and appointing himself as shōgun." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Eastern Wei"
@@ -6365,11 +6411,15 @@ field = "key_figures"
 action = "set"
 value = ["Chilperic I", "Clothar II", "Ebroin", "Childeric III"]
 value_id = ["Q243118", "Q209118", "Q458841", "Q295157"]
-source = "https://en.wikipedia.org/wiki/Neustria"
-quote = "The struggle for power continued with Queen Fredegund of Neustria, the widow of King Chilperic I (reigned 566–584) and the mother of the new king Clotaire II (reigned 584–628), unleashing a bitter war."
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Childeric III was a ruler or leading figure of Kingdom of Neustria"
+sources = [
+  { fact = "Chilperic I was a ruler or leading figure of Kingdom of Neustria", source = "https://www.worldhistory.org/Chilperic_I/", quote = "Chilperic I (r. 561-584) was a king of the Merovingian Dynasty, who ruled over the Frankish kingdom of Neustria." },
+  { fact = "Clothar II was a ruler or leading figure of Kingdom of Neustria", source = "https://en.wikipedia.org/wiki/Chlothar_II", quote = "Clothar's son Dagobert, who had been king of Austrasia, succeeded his father in Neustria and Burgundy." },
+  { fact = "Ebroin was a ruler or leading figure of Kingdom of Neustria", source = "https://en.wikipedia.org/wiki/Neustria", quote = "In 678, Neustria, under Mayor Ebroin, subdued the Austrasians for the last time." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Kingdom of Northumbria"
@@ -6503,11 +6553,14 @@ field = "key_figures"
 action = "set"
 value = ["Frederick Augustus I of Saxony", "Frederick Augustus II of Saxony", "Albert of Saxony", "Frederick Augustus III of Saxony"]
 value_id = ["Q53444", "Q57986", "Q168657", "Q57320"]
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Saxony"
-quote = "On 20 December 1806 Frederick Augustus III, the last elector of Saxony, became King Frederick Augustus I."
 retrieved = 2026-10-20
 needs_verification = true
-note = "adds the kings Frederick Augustus II (1836-54) and Albert (1873-1902) between the first and last; the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Albert of Saxony was a ruler or leading figure of Kingdom of Saxony; Frederick Augustus III of Saxony was a ruler or leading figure of Kingdom of Saxony"
+sources = [
+  { fact = "Frederick Augustus I of Saxony was a ruler or leading figure of Kingdom of Saxony", source = "https://www.britannica.com/biography/Frederick-Augustus-I", quote = "Frederick Augustus I (born Dec. 23, 1750, Dresden, Saxony—died May 5, 1827, Dresden) was the first king of Saxony and duke of Warsaw, who became one of Napoleon’s most loyal allies and lost much of his kingdom to Prussia at the Congress of Vienna." },
+  { fact = "Frederick Augustus II of Saxony was a ruler or leading figure of Kingdom of Saxony", source = "https://www.britannica.com/biography/Frederick-Augustus-II", quote = "Frederick Augustus II (born May 18, 1797, Dresden, Saxony—died Aug. 9, 1854, the Tirol, Austria) was a reform-minded king of Saxony and nephew of Frederick Augustus I, who favoured German unification but was frightened into a reactionary policy by the revolutions of 1848–49." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Kingdom of Scotland"
@@ -6981,11 +7034,13 @@ action = "add"
 value = "New Spain"
 value_id = "Q170603"
 region = "Mexico"
-source = "https://en.wikipedia.org/wiki/Mexico"
-quote = "After New Spain achieved independence from the Spanish Empire in 1821 and became a sovereign state, the Intendency came to be known as the State of Mexico, with the new country being named after its capital, Mexico City."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Mexico came after, replaced or grew out of New Spain", source = "https://en.wikipedia.org/wiki/New_Spain", quote = "In 1821, New Spain officially became the independent nation of Mexico, ending three centuries of Spanish colonial rule." },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "Mexico"
@@ -7213,11 +7268,13 @@ field = "key_figures"
 action = "set"
 value = ["Empress Genmei", "Emperor Shōmu", "Empress Kōken", "Emperor Kanmu"]
 value_id = ["Q233224", "Q349263", "Q232955", "Q314846"]
-source = "https://en.wikipedia.org/wiki/Nara_period"
-quote = "Empress Genmei established the capital of Heijō-kyō (present-day Nara)."
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Emperor Shōmu was a ruler or leading figure of Nara Japan; Empress Kōken was a ruler or leading figure of Nara Japan; Emperor Kanmu was a ruler or leading figure of Nara Japan"
+sources = [
+  { fact = "Empress Genmei was a ruler or leading figure of Nara Japan", source = "https://en.wikipedia.org/wiki/Empress_Genmei", quote = "After Empress Genmei transferred the seat of her government to Nara, this mountain location remained the capital throughout the succeeding seven reigns." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "New France"
@@ -7621,11 +7678,13 @@ field = "key_figures"
 action = "set"
 value = ["Jiang Ziya", "Duke Huan of Qi", "Duke Jing of Qi", "Sun Bin"]
 value_id = ["Q701488", "Q470108", "Q709736", "Q334090"]
-source = "https://en.wikipedia.org/wiki/Qi_(state)"
-quote = "Jiang Ziya was also called Lü Shang so the state of Qi is ruled by the Lü family of the Jiang clan and was commonly known as Jiang Qi."
 retrieved = 2026-10-20
 needs_verification = true
-note = "adds the founder Jiang Ziya before the dukes; the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Jiang Ziya was a ruler or leading figure of Qi; Duke Huan of Qi was a ruler or leading figure of Qi; Sun Bin was a ruler or leading figure of Qi"
+sources = [
+  { fact = "Duke Jing of Qi was a ruler or leading figure of Qi", source = "https://en.wikipedia.org/wiki/Duke_Jing_of_Qi", quote = "Duke Jing of Qi (Chinese: 齊景公; pinyin: Qí Jǐng Gōng), personal name Lü Chujiu, was ruler of the Qi state from 547 BC to 490 BC." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Republic of Austria"
@@ -7773,11 +7832,13 @@ field = "key_figures"
 action = "set"
 value = ["David G. Burnet", "Sam Houston", "Mirabeau B. Lamar", "Anson Jones"]
 value_id = ["Q1780964", "Q216547", "Q456633", "Q569983"]
-source = "https://en.wikipedia.org/wiki/Republic_of_Texas"
-quote = "1844–1846 Anson Jones"
 retrieved = 2026-10-20
 needs_verification = true
-note = "presidents in order, with the interim president Burnet first; the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for David G. Burnet was a ruler or leading figure of Republic of Texas; Sam Houston was a ruler or leading figure of Republic of Texas; Mirabeau B. Lamar was a ruler or leading figure of Republic of Texas"
+sources = [
+  { fact = "Anson Jones was a ruler or leading figure of Republic of Texas", source = "https://en.wikipedia.org/wiki/Anson_Jones", quote = "Anson Jones served as the fourth and last President of the Republic of Texas." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Republic of Turkey"
@@ -8455,12 +8516,13 @@ field = "key_figures"
 action = "set"
 value = ["Niqmaddu II", "Niqmepa", "Ammurapi"]
 value_id = ["Q365876", "Q365686", "Q11513"]
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 note = "partly sourced: no source yet for Ammurapi"
 sources = [
   { fact = "Niqmaddu II was a ruler or leading figure of Ugarit", source = "https://en.wikipedia.org/wiki/Ugarit", quote = "During the reign of his son Niqmaddu II (c. 1350 – c. 1315 BC) Ugarit became a vassal of the Hittite Empire, first under a viceroy in Karkemiš and then, with the Hititte collapse, directly under Karkemiš." },
   { fact = "Niqmepa was a ruler or leading figure of Ugarit", source = "https://en.wikipedia.org/wiki/Niqmepa", quote = "was the fifth-from-last King of Ugarit" },
+  { fact = "Ammurapi was a ruler or leading figure of Ugarit", source = "https://en.wikipedia.org/wiki/Ugarit", quote = "The last king of Ugarit, Ammurapi (c. 1215 – c. 1180 BC), was a contemporary of the last known Hittite king, Suppiluliuma II." },
 ]
 derivation = "every listed item has its own source"
 
@@ -8612,10 +8674,11 @@ value = ["Ivar the Boneless", "Rollo", "Erik the Red", "Leif Erikson"]
 value_id = ["Q350321", "Q273773", "Q172345", "Q42838"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Ivar the Boneless, Rollo"
+note = "partly sourced: no source yet for Ivar the Boneless was a ruler or leading figure of Viking settlements"
 sources = [
   { fact = "Erik the Red was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Vikings", quote = "Vikings under Leif Erikson, heir to Erik the Red, reached North America and set up short-lived settlements in present-day L'Anse aux Meadows, Newfoundland, Canada." },
   { fact = "Leif Erikson was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Vikings", quote = "Vikings under Leif Erikson, heir to Erik the Red, reached North America and set up short-lived settlements in present-day L'Anse aux Meadows, Newfoundland, Canada." },
+  { fact = "Rollo was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Rollo", quote = "Rollo is first recorded in a charter of 918 as the leader of a group of Viking settlers" },
 ]
 derivation = "every listed item has its own source"
 
@@ -8799,11 +8862,13 @@ field = "key_figures"
 action = "set"
 value = ["Helü of Wu", "Sun Tzu", "Wu Zixu", "Fuchai of Wu"]
 value_id = ["Q1279924", "Q37151", "Q1268609", "Q1269349"]
-source = "https://en.wikipedia.org/wiki/Wu_(state)"
-quote = "Although Wu won a majority of battles against the Yue and captured their king, Goujian, Wu failed to completely subjugate Yue, in part because of King Fuchai of Wu 's willingness to let King Goujian live in Wu as his servant."
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Sun Tzu was a ruler or leading figure of Wu; Wu Zixu was a ruler or leading figure of Wu; Fuchai of Wu was a ruler or leading figure of Wu"
+sources = [
+  { fact = "Helü of Wu was a ruler or leading figure of Wu", source = "https://en.wikipedia.org/wiki/Wu_(state)", quote = "After the successful assassination of King Liao, Prince Guang ascended the throne and became known as King Helü of Wu." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Wu"
@@ -8884,9 +8949,10 @@ value = ["Shaka", "Dingane", "Mpande", "Cetshwayo"]
 value_id = ["Q27695", "Q470145", "Q737703", "Q380403"]
 retrieved = 2026-10-20
 needs_verification = true
-note = "partly sourced: no source yet for Shaka, Dingane, Cetshwayo"
+note = "partly sourced: no source yet for Shaka was a ruler or leading figure of Zululand; Dingane was a ruler or leading figure of Zululand"
 sources = [
   { fact = "Mpande was a ruler or leading figure of Zululand", source = "https://en.wikipedia.org/wiki/Zulu_Kingdom", quote = "One exception to these purges was Mpande, another half-brother, who was considered too weak to be a threat at the time." },
+  { fact = "Cetshwayo was a ruler or leading figure of Zululand", source = "https://www.britannica.com/biography/Cetshwayo", quote = "was the last great king of the independent Zulus (reigned 1872–79)" },
 ]
 derivation = "every listed item has its own source"
 
@@ -8951,11 +9017,13 @@ field = "key_figures"
 action = "set"
 value = ["Mangrai", "Tilokarat", "Setthathirath", "Mekuti"]
 value_id = ["Q887732", "Q586326", "Q732557", "Q8061177"]
-source = "https://en.wikipedia.org/wiki/Lanna"
-quote = "Encouraged by Setthathirath, Mekuti revolted during the Burmese–Siamese War (1563–64)."
 retrieved = 2026-10-20
 needs_verification = true
-note = "Ong Kham was a king of Luang Prabang, not of Lanna; Mekuti, the Burmese-installed king of Lanna (1551-1564), replaces him; the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Mangrai was a ruler or leading figure of Lanna Kingdom; Tilokarat was a ruler or leading figure of Lanna Kingdom; Setthathirath was a ruler or leading figure of Lanna Kingdom"
+sources = [
+  { fact = "Mekuti was a ruler or leading figure of Lanna Kingdom", source = "https://en.wikipedia.org/wiki/Lanna", quote = "The nobles then chose Mekuti, the Shan saopha of Mong Nai whose family was related to Mangrai, to be the new king of Lanna." },
+]
+derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Avar Khaganate"
@@ -8995,11 +9063,13 @@ civilization_id = "Q172613"
 field = "map_year"
 action = "set"
 value = 450
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-10-27
+needs_verification = false
 note = "the map year 692 lay after the end of the city; 450 is near its height; check Cliopatria covers the year"
+sources = [
+  { fact = "Teotihuacan existed in the year 450", source = "https://en.wikipedia.org/wiki/Teotihuacan", quote = "At its zenith, perhaps in the first half of the first millennium (1 CE to 500 CE), Teotihuacan was the largest city in the Americas." },
+]
+derivation = "the source shows the state existing at the map year"
 
 [[override]]
 civilization = "Union of Soviet Socialist Republics"
