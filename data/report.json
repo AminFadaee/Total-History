@@ -381,28 +381,7 @@
         "Iraq",
         "Iran",
         "Syria",
-        "Jordan",
-        "Israel",
-        "Palestine",
-        "Lebanon",
-        "Saudi Arabia",
-        "Kuwait",
-        "Bahrain",
-        "Qatar",
-        "United Arab Emirates",
-        "Oman",
-        "Yemen",
-        "Egypt",
-        "Libya",
-        "Tunisia",
-        "Afghanistan",
-        "Pakistan",
-        "Turkmenistan",
-        "Uzbekistan",
-        "Tajikistan",
-        "Azerbaijan",
-        "Armenia",
-        "Georgia"
+        "Tunisia"
       ]
     },
     {
@@ -730,14 +709,9 @@
       "value": [
         "Germany",
         "Austria",
-        "Czechia",
-        "Poland",
         "Luxembourg",
         "Liechtenstein",
-        "Slovenia",
-        "Netherlands",
-        "Denmark",
-        "Italy"
+        "Netherlands"
       ]
     },
     {
@@ -901,24 +875,7 @@
       "value": [
         "Spain",
         "Portugal",
-        "Brazil",
-        "Mexico",
-        "Argentina",
-        "Peru",
-        "Bolivia",
-        "Colombia",
-        "Venezuela",
-        "Chile",
-        "Ecuador",
-        "Cuba",
-        "Philippines",
-        "Italy",
-        "Belgium",
-        "Netherlands",
-        "Angola",
-        "Mozambique",
-        "India",
-        "United States"
+        "Italy"
       ]
     },
     {
@@ -1771,19 +1728,14 @@
       "action": "set",
       "value": [
         "Greece",
-        "North Macedonia",
         "Bulgaria",
         "Albania",
         "Turkey",
-        "Syria",
         "Lebanon",
-        "Israel",
-        "Palestine",
         "Egypt",
         "Iraq",
         "Iran",
-        "Afghanistan",
-        "Pakistan"
+        "Afghanistan"
       ]
     },
     {
@@ -2346,9 +2298,7 @@
       "action": "set",
       "value": [
         "Ethiopia",
-        "Somalia",
-        "Djibouti",
-        "Eritrea"
+        "Somalia"
       ]
     },
     {
@@ -3713,8 +3663,7 @@
       "field": "capital",
       "action": "set",
       "value": [
-        "York",
-        "Bamburgh"
+        "York"
       ]
     },
     {
@@ -5281,21 +5230,12 @@
       "value": [
         "Russia",
         "Ukraine",
-        "Belarus",
         "Poland",
-        "Finland",
         "Estonia",
         "Latvia",
-        "Lithuania",
-        "Moldova",
         "Georgia",
         "Armenia",
-        "Azerbaijan",
-        "Kazakhstan",
-        "Uzbekistan",
-        "Turkmenistan",
-        "Tajikistan",
-        "Kyrgyzstan"
+        "Azerbaijan"
       ]
     },
     {
@@ -5305,13 +5245,9 @@
       "value": [
         "Syria",
         "Turkey",
-        "Lebanon",
         "Iraq",
         "Iran",
-        "Turkmenistan",
-        "Afghanistan",
-        "Uzbekistan",
-        "Tajikistan"
+        "Afghanistan"
       ]
     },
     {
@@ -5343,13 +5279,9 @@
         "Hungary",
         "Czechia",
         "Slovakia",
-        "Slovenia",
         "Croatia",
         "Bosnia and Herzegovina",
-        "Poland",
-        "Ukraine",
         "Romania",
-        "Serbia",
         "Italy"
       ]
     },
@@ -5440,38 +5372,6 @@
   ],
   "needs_verification": [
     {
-      "civilization": "Abbasid Caliphate",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Iraq",
-        "Iran",
-        "Syria",
-        "Jordan",
-        "Israel",
-        "Palestine",
-        "Lebanon",
-        "Saudi Arabia",
-        "Kuwait",
-        "Bahrain",
-        "Qatar",
-        "United Arab Emirates",
-        "Oman",
-        "Yemen",
-        "Egypt",
-        "Libya",
-        "Tunisia",
-        "Afghanistan",
-        "Pakistan",
-        "Turkmenistan",
-        "Uzbekistan",
-        "Tajikistan",
-        "Azerbaijan",
-        "Armenia",
-        "Georgia"
-      ]
-    },
-    {
       "civilization": "Đại Việt",
       "field": "before",
       "action": "add",
@@ -5519,23 +5419,6 @@
     },
     {
       "civilization": "German Confederation",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Germany",
-        "Austria",
-        "Czechia",
-        "Poland",
-        "Luxembourg",
-        "Liechtenstein",
-        "Slovenia",
-        "Netherlands",
-        "Denmark",
-        "Italy"
-      ]
-    },
-    {
-      "civilization": "German Confederation",
       "field": "key_figures",
       "action": "set",
       "value": [
@@ -5559,33 +5442,6 @@
       "field": "after",
       "action": "set",
       "value": "Spanish Empire"
-    },
-    {
-      "civilization": "Iberian Union",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Spain",
-        "Portugal",
-        "Brazil",
-        "Mexico",
-        "Argentina",
-        "Peru",
-        "Bolivia",
-        "Colombia",
-        "Venezuela",
-        "Chile",
-        "Ecuador",
-        "Cuba",
-        "Philippines",
-        "Italy",
-        "Belgium",
-        "Netherlands",
-        "Angola",
-        "Mozambique",
-        "India",
-        "United States"
-      ]
     },
     {
       "civilization": "Janapada of Magadha",
@@ -5695,16 +5551,6 @@
       ]
     },
     {
-      "civilization": "Ptolemaic Kingdom",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Egypt",
-        "Libya",
-        "Cyprus"
-      ]
-    },
-    {
       "civilization": "Minoan civilization",
       "field": "before",
       "action": "none",
@@ -5745,27 +5591,6 @@
       "field": "after",
       "action": "add",
       "value": "Indo-Sassanids"
-    },
-    {
-      "civilization": "Macedonia",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Greece",
-        "North Macedonia",
-        "Bulgaria",
-        "Albania",
-        "Turkey",
-        "Syria",
-        "Lebanon",
-        "Israel",
-        "Palestine",
-        "Egypt",
-        "Iraq",
-        "Iran",
-        "Afghanistan",
-        "Pakistan"
-      ]
     },
     {
       "civilization": "Kingdom of Urartu",
@@ -5935,17 +5760,6 @@
       "value": ""
     },
     {
-      "civilization": "Adal Sultanate",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Ethiopia",
-        "Somalia",
-        "Djibouti",
-        "Eritrea"
-      ]
-    },
-    {
       "civilization": "Alodia",
       "field": "before",
       "action": "add",
@@ -6082,14 +5896,6 @@
     },
     {
       "civilization": "Judea",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "Jerusalem"
-      ]
-    },
-    {
-      "civilization": "Judea",
       "field": "period",
       "action": "set",
       "value": {
@@ -6169,15 +5975,6 @@
         "Clothar II",
         "Ebroin",
         "Childeric III"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Northumbria",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "York",
-        "Bamburgh"
       ]
     },
     {
@@ -6294,12 +6091,6 @@
       "field": "before",
       "action": "add",
       "value": "Holy Roman Empire"
-    },
-    {
-      "civilization": "Pala Empire",
-      "field": "capital",
-      "action": "add",
-      "value": "Gauda"
     },
     {
       "civilization": "Pala Empire",
@@ -6566,46 +6357,6 @@
       ]
     },
     {
-      "civilization": "Russian Empire",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Russia",
-        "Ukraine",
-        "Belarus",
-        "Poland",
-        "Finland",
-        "Estonia",
-        "Latvia",
-        "Lithuania",
-        "Moldova",
-        "Georgia",
-        "Armenia",
-        "Azerbaijan",
-        "Kazakhstan",
-        "Uzbekistan",
-        "Turkmenistan",
-        "Tajikistan",
-        "Kyrgyzstan"
-      ]
-    },
-    {
-      "civilization": "Seleucid Empire",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Syria",
-        "Turkey",
-        "Lebanon",
-        "Iraq",
-        "Iran",
-        "Turkmenistan",
-        "Afghanistan",
-        "Uzbekistan",
-        "Tajikistan"
-      ]
-    },
-    {
       "civilization": "Songhai Empire",
       "field": "modern_countries",
       "action": "set",
@@ -6617,25 +6368,6 @@
         "Mauritania",
         "Senegal",
         "Gambia"
-      ]
-    },
-    {
-      "civilization": "Austria-Hungary",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Austria",
-        "Hungary",
-        "Czechia",
-        "Slovakia",
-        "Slovenia",
-        "Croatia",
-        "Bosnia and Herzegovina",
-        "Poland",
-        "Ukraine",
-        "Romania",
-        "Serbia",
-        "Italy"
       ]
     }
   ],

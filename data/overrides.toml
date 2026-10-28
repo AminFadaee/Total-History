@@ -420,14 +420,16 @@ civilization = "Abbasid Caliphate"
 civilization_id = "Q12536"
 field = "modern_countries"
 action = "set"
-value = ["Iraq", "Iran", "Syria", "Jordan", "Israel", "Palestine", "Lebanon", "Saudi Arabia", "Kuwait", "Bahrain", "Qatar", "United Arab Emirates", "Oman", "Yemen", "Egypt", "Libya", "Tunisia", "Afghanistan", "Pakistan", "Turkmenistan", "Uzbekistan", "Tajikistan", "Azerbaijan", "Armenia", "Georgia"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Abbasid Caliphate territory included part of present-day Iran; Abbasid Caliphate territory included part of present-day Syria; Abbasid Caliphate territory included part of present-day Jordan; Abbasid Caliphate territory included part of present-day Israel; Abbasid Caliphate territory included part of present-day Palestine; Abbasid Caliphate territory included part of present-day Lebanon; Abbasid Caliphate territory included part of present-day Saudi Arabia; Abbasid Caliphate territory included part of present-day Kuwait; Abbasid Caliphate territory included part of present-day Bahrain; Abbasid Caliphate territory included part of present-day Qatar; Abbasid Caliphate territory included part of present-day United Arab Emirates; Abbasid Caliphate territory included part of present-day Oman; Abbasid Caliphate territory included part of present-day Yemen; Abbasid Caliphate territory included part of present-day Egypt; Abbasid Caliphate territory included part of present-day Libya; Abbasid Caliphate territory included part of present-day Tunisia; Abbasid Caliphate territory included part of present-day Afghanistan; Abbasid Caliphate territory included part of present-day Pakistan; Abbasid Caliphate territory included part of present-day Turkmenistan; Abbasid Caliphate territory included part of present-day Uzbekistan; Abbasid Caliphate territory included part of present-day Tajikistan; Abbasid Caliphate territory included part of present-day Azerbaijan; Abbasid Caliphate territory included part of present-day Armenia; Abbasid Caliphate territory included part of present-day Georgia"
-sources = [
-  { fact = "Abbasid Caliphate territory included part of present-day Iraq", source = "https://en.wikipedia.org/wiki/Abbasid_Caliphate", quote = "The Abbasids first centered their government in Kufa, Iraq, but in 762 the second caliph al-Mansur founded the city of Baghdad and made it the capital." },
-]
+needs_verification = false
+value = ["Iraq", "Iran", "Syria", "Tunisia"]
+retrieved = 2026-10-28
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Iraq", source = "https://en.wikipedia.org/wiki/Abbasid_Caliphate", quote = "The Abbasids eventually regained control of Iraq during the reign of Caliph al-Muqtafi (r. 1136–1160) and extended their rule into Iran during the reign of Caliph al-Nasir (r. 1180–1225)." },
+  { fact = "Iran", source = "https://en.wikipedia.org/wiki/Abbasid_Caliphate", quote = "The Abbasids eventually regained control of Iraq during the reign of Caliph al-Muqtafi (r. 1136–1160) and extended their rule into Iran during the reign of Caliph al-Nasir (r. 1180–1225)." },
+  { fact = "Syria", source = "https://en.wikipedia.org/wiki/Abbasid_Caliphate", quote = "For a time, they even controlled Syria and parts of the Jazira (Upper Mesopotamia)." },
+  { fact = "Tunisia", source = "https://en.wikipedia.org/wiki/Abbasid_Caliphate", quote = "At the western end of the empire, Harun al-Rashid agreed to grant the province of Ifriqiya (centered in present-day Tunisia) as a hereditary emirate to Ibrahim ibn al-Aghlab, who founded the Aghlabid dynasty there." },
+]
 
 [[override]]
 civilization = "Đại Việt"
@@ -1046,12 +1048,18 @@ civilization = "German Confederation"
 civilization_id = "Q151624"
 field = "modern_countries"
 action = "set"
-value = ["Germany", "Austria", "Czechia", "Poland", "Luxembourg", "Liechtenstein", "Slovenia", "Netherlands", "Denmark", "Italy"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+needs_verification = false
 note = "member states included the Austrian Empire's German and Czech lands, Luxembourg, Limburg and Holstein; the red shape on the current map is Prussia only; membership sentences found for Luxembourg, Liechtenstein, Limburg (Netherlands) and Auschwitz (Poland); Denmark doubtful: Holstein and Lauenburg lie in today's Germany"
+value = ["Germany", "Austria", "Luxembourg", "Liechtenstein", "Netherlands"]
+retrieved = 2026-10-28
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Germany", source = "https://en.wikipedia.org/wiki/German_Confederation", quote = "Prussia was de facto the most important member state conducting the war for Germany." },
+  { fact = "Austria", source = "https://en.wikipedia.org/wiki/German_Confederation", quote = "The Convention was permanently presided over by the representative of Austria." },
+  { fact = "Luxembourg", source = "https://en.wikipedia.org/wiki/German_Confederation", quote = "The former Confederation states of Limberg, Liechtenstein and Luxembourg were not included." },
+  { fact = "Liechtenstein", source = "https://en.wikipedia.org/wiki/German_Confederation", quote = "The former Confederation states of Limberg, Liechtenstein and Luxembourg were not included." },
+  { fact = "Netherlands", source = "https://en.wikipedia.org/wiki/German_Confederation", quote = "In 1839, as compensation to the Netherlands for the loss of part of its province of Luxemburg to Belgium, the Duchy of Limburg was created and was admitted to the Confederation." },
+]
 
 [[override]]
 civilization = "German Confederation"
@@ -1333,12 +1341,16 @@ civilization = "Iberian Union"
 civilization_id = "Q377350"
 field = "modern_countries"
 action = "set"
-value = ["Spain", "Portugal", "Brazil", "Mexico", "Argentina", "Peru", "Bolivia", "Colombia", "Venezuela", "Chile", "Ecuador", "Cuba", "Philippines", "Italy", "Belgium", "Netherlands", "Angola", "Mozambique", "India", "United States"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+needs_verification = false
 note = "Spanish and Portuguese possessions at 1632; Spain and Portugal themselves were missing"
+value = ["Spain", "Portugal", "Italy"]
+retrieved = 2026-10-28
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Spain", source = "https://en.wikipedia.org/wiki/Iberian_Union", quote = "The Iberian Union, or the Hispanic Monarchy, describes the period from 1580 to 1640 in which the Monarchy of Spain under the Habsburg dynasty, then the personal union of the crowns of Castile and Aragon, brought in personal union also the Kingdom of Portugal." },
+  { fact = "Portugal", source = "https://en.wikipedia.org/wiki/Iberian_Union", quote = "The Iberian Union, or the Hispanic Monarchy, describes the period from 1580 to 1640 in which the Monarchy of Spain under the Habsburg dynasty, then the personal union of the crowns of Castile and Aragon, brought in personal union also the Kingdom of Portugal." },
+  { fact = "Italy", source = "https://en.wikipedia.org/wiki/Iberian_Union", quote = "The kings from the Spanish branch of the House of Habsburg were the only element that connected the multiple kingdoms and territories, ruled by the six separate government councils of Castile, Aragon, Portugal, Italy, Flanders-Burgundy, and the Indies." },
+]
 
 [[override]]
 civilization = "Indus Valley Civilization"
@@ -2345,15 +2357,15 @@ civilization = "Ptolemaic Kingdom"
 civilization_id = "Q2320005"
 field = "modern_countries"
 action = "set"
+needs_verification = false
 value = ["Egypt", "Libya", "Cyprus"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Libya"
-sources = [
-  { fact = "Ptolemaic Kingdom territory included part of present-day Egypt", source = "https://www.worldhistory.org/Ptolemaic_Dynasty/", quote = "Ptolemy VI and Cleopatra II ruled Egypt and Cyprus, while Ptolemy VIII ruled Cyrene" },
-  { fact = "Ptolemaic Kingdom territory included part of present-day Cyprus", source = "https://www.worldhistory.org/Ptolemaic_Dynasty/", quote = "Ptolemy VI and Cleopatra II ruled Egypt and Cyprus, while Ptolemy VIII ruled Cyrene" },
-]
+retrieved = 2026-10-28
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Egypt", source = "https://en.wikipedia.org/wiki/Ptolemaic_Kingdom", quote = "Ptolemy ruled Egypt from 323 BC, nominally in the name of the joint kings Philip III and Alexander IV." },
+  { fact = "Libya", source = "https://en.wikipedia.org/wiki/Ptolemaic_Kingdom", quote = "By the reign of Ptolemy III (246 to 222 BC), its role was more imperialistic, helping extend Ptolemaic control or influence over Cyrenaica, Coele-Syria, and Cyprus, as well as over cities in Anatolia, southern Thrace, the Aegean islands, and Crete." },
+  { fact = "Cyprus", source = "https://en.wikipedia.org/wiki/Ptolemaic_Kingdom", quote = "With territories and vassals spread across the eastern Mediterranean, including Cyprus, Crete, the Aegean islands, and Thrace, the Ptolemies required a large navy to defend against enemies like the Seleucids and Macedonians." },
+]
 
 [[override]]
 civilization = "Qing Dynasty"
@@ -2869,17 +2881,21 @@ civilization = "Macedonia"
 civilization_id = "Q83958"
 field = "modern_countries"
 action = "set"
-value = ["Greece", "North Macedonia", "Bulgaria", "Albania", "Turkey", "Syria", "Lebanon", "Israel", "Palestine", "Egypt", "Iraq", "Iran", "Afghanistan", "Pakistan"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Turkey, Syria, Lebanon, Israel, Palestine, Egypt, Iraq, Iran, Afghanistan, Pakistan"
-sources = [
-  { fact = "Macedonia territory included part of present-day Greece", source = "https://www.worldhistory.org/Macedonia/", quote = "Pella, the capital of the kingdom of Macedon (Northern Greece)" },
-  { fact = "Macedonia territory included part of present-day North Macedonia", source = "https://www.worldhistory.org/Macedonia/", quote = "Pella, the capital of the kingdom of Macedon (Northern Greece)" },
-  { fact = "Macedonia territory included part of present-day Bulgaria", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "Philip II conquered a Thracian city in what is now Bulgaria and renamed it Philippopolis" },
-  { fact = "Macedonia territory included part of present-day Albania", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "briefly extended Macedonian control into Illyria as far as Epidamnos (modern Durrës, Albania)" },
-]
+needs_verification = false
+value = ["Greece", "Bulgaria", "Albania", "Turkey", "Lebanon", "Egypt", "Iraq", "Iran", "Afghanistan"]
+retrieved = 2026-10-28
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Greece", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "Before the 4th century BC, the kingdom covered a region corresponding roughly to the western and central parts of the region of Macedonia in modern Greece." },
+  { fact = "Bulgaria", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "In 342 BC, Philip II conquered a Thracian city in what is now Bulgaria and renamed it Philippopolis (modern Plovdiv)." },
+  { fact = "Albania", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "Cassander married Philip II's daughter Thessalonike and briefly extended Macedonian control into Illyria as far as Epidamnos (modern Durrës, Albania)." },
+  { fact = "Turkey", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "By the end of his reign and military career in 323 BC, Alexander would rule over an empire consisting of mainland Greece, Asia Minor, the Levant, ancient Egypt, Mesopotamia, Persia, and much of Central and South Asia (i.e. modern Pakistan)." },
+  { fact = "Lebanon", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "While he and his army were stationed at Tyre (in modern-day Lebanon), Alexander had his generals act as judges not only for athletic contests but also for stage performances of Greek tragedies." },
+  { fact = "Egypt", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "By the end of his reign and military career in 323 BC, Alexander would rule over an empire consisting of mainland Greece, Asia Minor, the Levant, ancient Egypt, Mesopotamia, Persia, and much of Central and South Asia (i.e. modern Pakistan)." },
+  { fact = "Iraq", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "When his Macedonian troops threatened mutiny in 324 BC at Opis, Babylonia (near modern Baghdad, Iraq), Alexander offered Macedonian military titles and greater responsibilities to Persian officers and units instead, forcing his troops to seek forgiveness at a staged banquet of reconciliation between Persians and Macedonians." },
+  { fact = "Iran", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "By the end of his reign and military career in 323 BC, Alexander would rule over an empire consisting of mainland Greece, Asia Minor, the Levant, ancient Egypt, Mesopotamia, Persia, and much of Central and South Asia (i.e. modern Pakistan)." },
+  { fact = "Afghanistan", source = "https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)", quote = "The Macedonian king subsequently hunted down and executed Bessus in what is now Afghanistan, securing the region of Sogdia in the process." },
+]
 
 [[override]]
 civilization = "Macedonia"
@@ -3919,15 +3935,14 @@ civilization = "Adal Sultanate"
 civilization_id = "Q2365048"
 field = "modern_countries"
 action = "set"
-value = ["Ethiopia", "Somalia", "Djibouti", "Eritrea"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Ethiopia, Djibouti"
-sources = [
-  { fact = "Adal Sultanate territory included part of present-day Somalia", source = "https://en.wikipedia.org/wiki/Adal_Sultanate", quote = "At its height, the polity under Sultan Badlay controlled the territory stretching from Cape Guardafui in Somalia to the port city of Suakin in Sudan." },
-  { fact = "Adal Sultanate territory included part of present-day Eritrea", source = "https://en.wikipedia.org/wiki/Eritrea", quote = "Its coastal territories were also under the Adal Sultanate during the reign of Sultan Badlay" },
-]
+needs_verification = false
+value = ["Ethiopia", "Somalia"]
+retrieved = 2026-10-28
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "Ethiopia", source = "https://en.wikipedia.org/wiki/Adal_Sultanate", quote = "However, in the integral regions of the Ethiopian Empire, such as Bete Amhara, Tigray and Shewa, the local population bitterly resisted the Adalite occupation." },
+  { fact = "Somalia", source = "https://en.wikipedia.org/wiki/Adal_Sultanate", quote = "At its height, the polity under Sultan Badlay controlled the territory stretching from Cape Guardafui in Somalia to the port city of Suakin in Sudan." },
+]
 
 [[override]]
 civilization = "Afsharid Iran"
@@ -5452,13 +5467,15 @@ civilization = "Judea"
 civilization_id = "Q104028"
 field = "capital"
 action = "set"
+needs_verification = false
+note = "capital of Hasmonean Judea"
 value = ["Jerusalem"]
 value_id = ["Q1218"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "capital of Hasmonean Judea"
+retrieved = 2026-10-28
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Jerusalem", source = "https://en.wikipedia.org/wiki/Judea", quote = "Nor indeed is Judea destitute of such delights as come from the sea, since its maritime places extend as far as Ptolemais: it was parted into eleven portions, of which the royal city Jerusalem was the supreme, and presided over all the neighboring country, as the head does over the body." },
+]
 
 [[override]]
 civilization = "Judea"
@@ -6445,15 +6462,14 @@ civilization = "Kingdom of Northumbria"
 civilization_id = "Q107299"
 field = "capital"
 action = "set"
-value = ["York", "Bamburgh"]
-value_id = ["Q42462", "Q805983"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Bamburgh"
-sources = [
-  { fact = "York was a capital of Kingdom of Northumbria", source = "https://en.wikipedia.org/wiki/York", quote = "It then became the capital of Britannia Inferior, a province of the Roman Empire, and was later the capital of the kingdoms of Deira, Northumbria, and Scandinavian York." },
-]
+needs_verification = false
+value = ["York"]
+value_id = ["Q42462"]
+retrieved = 2026-10-28
 derivation = "every listed item has its own source"
+sources = [
+  { fact = "York", source = "https://en.wikipedia.org/wiki/York", quote = "It then became the capital of Britannia Inferior, a province of the Roman Empire, and was later the capital of the kingdoms of Deira, Northumbria, and Scandinavian York." },
+]
 
 [[override]]
 civilization = "Kingdom of Numidia"
@@ -7474,13 +7490,14 @@ civilization = "Pala Empire"
 civilization_id = "Q668412"
 field = "capital"
 action = "add"
+needs_verification = false
 value = "Gauda"
 value_id = "Q1496277"
-source = "https://en.wikipedia.org/wiki/Pala_Empire"
-quote = "He also recovered his capital, Gauda, which had been lost to he Kambojas."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-10-28
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Gauda", source = "https://en.wikipedia.org/wiki/Pala_Empire", quote = "He also recovered his capital, Gauda, which had been lost to he Kambojas." },
+]
 
 [[override]]
 civilization = "Pala Empire"
@@ -9333,24 +9350,37 @@ civilization = "Russian Empire"
 civilization_id = "Q34266"
 field = "modern_countries"
 action = "set"
-value = ["Russia", "Ukraine", "Belarus", "Poland", "Finland", "Estonia", "Latvia", "Lithuania", "Moldova", "Georgia", "Armenia", "Azerbaijan", "Kazakhstan", "Uzbekistan", "Turkmenistan", "Tajikistan", "Kyrgyzstan"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Poland (Congress Poland) was missing; check Alaska and Turkey's Kars"
+needs_verification = false
+value = ["Russia", "Ukraine", "Poland", "Estonia", "Latvia", "Georgia", "Armenia", "Azerbaijan"]
+retrieved = 2026-10-28
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Russia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "The administrative boundaries of European Russia, excluding Finland and Congress Poland, coincided approximately with the East European Plain." },
+  { fact = "Ukraine", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Much of Russia's expansion occurred in the 17th century, culminating in the first Russian colonization of the Pacific, the Russo-Polish War (1654–1667) which led to the incorporation of left-bank Ukraine, and the Russian conquest of Siberia." },
+  { fact = "Poland", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Russian emperors quelled two uprisings in their newly acquired Polish territories: the November Uprising in 1830 and the January Uprising in 1863." },
+  { fact = "Estonia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "The formerly Swedish-controlled Baltic provinces of Livonia and Estonia, along with the Duchy of Courland, were incorporated into the empire following the Great Northern War and the Third Partition of Poland." },
+  { fact = "Latvia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "The formerly Swedish-controlled Baltic provinces of Livonia and Estonia, along with the Duchy of Courland, were incorporated into the empire following the Great Northern War and the Third Partition of Poland." },
+  { fact = "Georgia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Following the incorporation of the Eastern Georgian Kingdom into the empire in 1801, Russian forces clashed with Persia over control of the Caucasus during the Russo-Persian War (1804–1813), and also became involved in the Caucasian War against the Caucasian Imamate." },
+  { fact = "Armenia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Despite losing almost all recently consolidated territories in the first year of the Russo-Persian War of 1826–1828, Russia managed to favorably bring an end to the war with the Treaty of Turkmenchay, including the formal acquisition of what are now Armenia, Azerbaijan, and Iğdır Province." },
+  { fact = "Azerbaijan", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "At the conclusion of the war, Persia irrevocably ceded what is now Dagestan, eastern Georgia, and most of Azerbaijan to Russia, under the Treaty of Gulistan." },
+]
 
 [[override]]
 civilization = "Seleucid Empire"
 civilization_id = "Q93180"
 field = "modern_countries"
 action = "set"
-value = ["Syria", "Turkey", "Lebanon", "Iraq", "Iran", "Turkmenistan", "Afghanistan", "Uzbekistan", "Tajikistan"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Anatolia, Syria and Lebanon were missing; check the extent after Ipsus (301 BC)"
+needs_verification = false
+value = ["Syria", "Turkey", "Iraq", "Iran", "Afghanistan"]
+retrieved = 2026-10-28
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Syria", source = "https://en.wikipedia.org/wiki/Seleucid_Empire", quote = "As a result, coastal regions under the Seleucids—Syria and Asia Minor—were quick to adopt the new standard." },
+  { fact = "Turkey", source = "https://en.wikipedia.org/wiki/Seleucid_Empire", quote = "Following losses of territory in Asia Minor during the Roman-Seleucid War, King Antiochus IV sponsored a new wave of immigration and settlements to replace them and maintain enough Greeks to staff the phalanxes seen at the military parade at Daphne in 166–165 BC." },
+  { fact = "Iraq", source = "https://en.wikipedia.org/wiki/Seleucid_Empire", quote = "Prices exceeding 370g silver per ton in Seleucid Mesopotamia was considered a sign of famine." },
+  { fact = "Iran", source = "https://en.wikipedia.org/wiki/Seleucid_Empire", quote = "Weakened economically, militarily and by loss of prestige, the Empire became vulnerable to rebels in the eastern areas of the empire, who began to further undermine the empire while the Parthians moved into the power vacuum to take over the old Persian lands." },
+  { fact = "Afghanistan", source = "https://en.wikipedia.org/wiki/Seleucid_Empire", quote = "Chandragupta received, formalized through a treaty, territory west of the Indus, including the Hindu Kush, modern day Afghanistan, and the eastern part of Balochistan province of Pakistan, bordering on the Indus." },
+]
 
 [[override]]
 civilization = "Songhai Empire"
@@ -9383,12 +9413,20 @@ civilization = "Austria-Hungary"
 civilization_id = "Q28513"
 field = "modern_countries"
 action = "set"
-value = ["Austria", "Hungary", "Czechia", "Slovakia", "Slovenia", "Croatia", "Bosnia and Herzegovina", "Poland", "Ukraine", "Romania", "Serbia", "Italy"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the lands of the monarchy in 1914; the 1918 occupations are out; check Montenegro (Bay of Kotor)"
+needs_verification = false
+value = ["Austria", "Hungary", "Czechia", "Slovakia", "Croatia", "Bosnia and Herzegovina", "Romania", "Italy"]
+retrieved = 2026-10-28
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Austria", source = "https://en.wikipedia.org/wiki/Austria-Hungary", quote = "Economic growth centered on Vienna and Budapest, the Austrian lands (areas of modern Austria), the Alpine region and the Bohemian lands." },
+  { fact = "Hungary", source = "https://en.wikipedia.org/wiki/Austria-Hungary", quote = "The Kingdom of Hungary became the world's second-largest flour exporter after the United States." },
+  { fact = "Czechia", source = "https://en.wikipedia.org/wiki/Austria-Hungary", quote = "By the \"Ordinance of 5 April 1897\", the Austrian Prime Minister Count Kasimir Felix Badeni gave Czech equal standing with German in the internal government of Bohemia; this led to a crisis because of nationalist German agitation throughout the empire." },
+  { fact = "Slovakia", source = "https://en.wikipedia.org/wiki/Austria-Hungary", quote = "The world's first institute of technology was founded in Selmecbánya, Kingdom of Hungary (since 1920 Banská Štiavnica, Slovakia) in 1735." },
+  { fact = "Croatia", source = "https://en.wikipedia.org/wiki/Austria-Hungary", quote = "A third component of the union was the Kingdom of Croatia-Slavonia, an autonomous region under the Hungarian crown, which negotiated the Croatian–Hungarian Settlement in 1868." },
+  { fact = "Bosnia and Herzegovina", source = "https://en.wikipedia.org/wiki/Austria-Hungary", quote = "After 1878, Bosnia and Herzegovina came under Austro-Hungarian joint military and civilian rule until it was fully annexed in 1908, provoking the Bosnian crisis." },
+  { fact = "Romania", source = "https://en.wikipedia.org/wiki/Austria-Hungary", quote = "The army conquered productive agricultural areas in Romania and elsewhere, but refused to allow food shipments to civilians back home." },
+  { fact = "Italy", source = "https://en.wikipedia.org/wiki/Austria-Hungary", quote = "The most important seaport was Trieste (today part of Italy), where the Austrian merchant marine was based." },
+]
 
 [[override]]
 civilization = "Ajuran Sultanate"
