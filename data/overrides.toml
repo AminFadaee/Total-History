@@ -5429,11 +5429,14 @@ action = "set"
 value = "Cuman-Kipchak Confederation"
 value_id = "Q1122052"
 region = "Kazakhstan"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "no precise source found; from general knowledge"
+retrieved = 2026-11-07
+note = "the source calls them the Kipchak federation; the Cumans are its western part (Polovtsy in Russian sources)"
+sources = [
+  { fact = "The Kipchak were a western branch of the Kimek confederation", source = "S. G. Agajanov, \"The States of the Oghuz, the Kimek and the Kïpchak\", in M. S. Asimov and C. E. Bosworth (eds.), History of Civilizations of Central Asia, Vol. IV, Part One, UNESCO Publishing, 1998", page = "69", quote = "These Kipchak, who put an end to the Syr Darya Yabghus, were a western branch of the Kimek tribal confederation." },
+  { fact = "The Kipchak took the Kazakh steppes by the mid-11th century", source = "S. G. Agajanov, \"The States of the Oghuz, the Kimek and the Kïpchak\", in M. S. Asimov and C. E. Bosworth (eds.), History of Civilizations of Central Asia, Vol. IV, Part One, UNESCO Publishing, 1998", page = "73", quote = "Initially, the K'ipchak were subject to the Kimek Kaghans, but gradually formed an independent ethno-political grouping. By the middle of the eleventh century, hegemony in the steppes of western Central Asia, Kazakhstan and the lower Volga region had passed to the K'ipchak after they defeated the Oghuz and seized their lands." },
+  { fact = "The Kimek state collapsed and the Kipchak federation absorbed the Kimek", source = "S. G. Agajanov, \"The States of the Oghuz, the Kimek and the Kïpchak\", in M. S. Asimov and C. E. Bosworth (eds.), History of Civilizations of Central Asia, Vol. IV, Part One, UNESCO Publishing, 1998", page = "73", quote = "The collapse of the Oghuz and Kimek states in the middle of the eleventh century contributed to the consolidation of the tribes within the K'ipchak federation" },
+]
+derivation = "the federation that took over the home region and absorbed the people when the state collapsed"
 
 [[override]]
 civilization = "Kingdom of Denmark"
@@ -5800,7 +5803,7 @@ source = ""
 quote = ""
 retrieved = 2026-10-20
 needs_verification = true
-note = "the Kipchaks rose out of the Kimek-Kipchak confederation of the Irtysh steppe"
+note = "the Kipchaks rose out of the Kimek-Kipchak confederation of the Irtysh steppe; Agajanov (HCCA IV.1, p. 73) has the Kipchak move west into the Black Sea steppes, so the Kimek did not hold Ukraine before them"
 
 [[override]]
 civilization = "Dál Riata"
