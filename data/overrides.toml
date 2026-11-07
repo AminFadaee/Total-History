@@ -9311,11 +9311,13 @@ civilization_id = "Q638064"
 field = "map_year"
 action = "set"
 value = 1000
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the map year 825 lay before the Shirvanshahs (861); 1000 is within the period; check the Cliopatria polygon"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Shirvan began in 861", source = "https://en.wikipedia.org/wiki/Shirvanshahs", quote = "The first Yazidi to use the title of Shirvanshah was Yazid's grandson Haytham ibn Khalid in 861, who was also the first Yazidi to specifically govern only Shirvan." },
+  { fact = "Shirvan ended in 1538", source = "https://en.wikipedia.org/wiki/Shirvanshahs", quote = "Although the Safavids and Shirvanshahs had a hostile relationship, Ismail I allowed them to continue their rule in Shirvan, albeit as vassals of Safavid Iran. This ended in 1538 when Shah Tahmasp I (r. 1524–1576) dismissed Shahrukh due to the latter's continuous disloyalty." },
+]
+derivation = "the sourced period 861-1538 contains the map year"
 
 [[override]]
 civilization = "Chenla"
