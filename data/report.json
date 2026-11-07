@@ -3704,7 +3704,7 @@
       "action": "set",
       "value": {
         "start": -2500,
-        "end": -980,
+        "end": -1154,
         "circa": true
       }
     },
@@ -4622,7 +4622,7 @@
       "civilization": "Twenty-second Dynasty of Egypt",
       "field": "after",
       "action": "add",
-      "value": "Twenty-third Dynasty of Egypt"
+      "value": "Twenty-fifth Dynasty of Egypt"
     },
     {
       "civilization": "Ugarit",
@@ -4834,9 +4834,8 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": -1200,
-        "end": -473,
-        "circa": true
+        "start": -585,
+        "end": -473
       }
     },
     {
@@ -5321,40 +5320,7 @@
       "value": "A territorial entity of the Savoyard state and a possession of the House of Savoy."
     }
   ],
-  "needs_verification": [
-    {
-      "civilization": "Puebloans - Chaco Regional System",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Land of Punt",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -2500,
-        "end": -980,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Twenty-second Dynasty of Egypt",
-      "field": "after",
-      "action": "add",
-      "value": "Twenty-third Dynasty of Egypt"
-    },
-    {
-      "civilization": "Wu",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -1200,
-        "end": -473,
-        "circa": true
-      }
-    }
-  ],
+  "needs_verification": [],
   "unresolved_polities": {
     "Ahi Republic": "Wikipedia link 'Ahis' is not a polity article",
     "Alans": "Wikipedia link 'Alans' is not a polity article",

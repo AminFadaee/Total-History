@@ -3250,11 +3250,11 @@ civilization = "Puebloans - Chaco Regional System"
 civilization_id = "Q478805"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "earliest regional system of the Ancestral Puebloans in the San Juan Basin"
+source = "Linda S. Cordell and Maxine E. McBrinn, Archaeology of the Southwest, 3rd ed., Left Coast Press, 2012"
+page = "185"
+quote = "A distinctive form of Ancestral Pueblo organization developed in Chaco Canyon, New Mexico, in the tenth century CE"
+retrieved = 2026-11-07
+note = "the Chaco system developed locally in Chaco Canyon, with no earlier regional polity"
 
 [[override]]
 civilization = "Puebloans - Chaco Regional System"
@@ -6570,12 +6570,15 @@ civilization = "Land of Punt"
 civilization_id = "Q282350"
 field = "period"
 action = "set"
-value = { start = -2500, end = -980, circa = true }
-source = "https://en.wikipedia.org/wiki/Land_of_Punt"
-quote = "Dates c. 2500–980 BCE"
-retrieved = 2026-10-20
-needs_verification = true
-note = "dates from the Wikipedia infobox, uncited; cited in Wikipedia, footnote 1"
+value = { start = -2500, end = -1154, circa = true }
+retrieved = 2026-11-07
+note = "Punt was a land Egypt traded with, not a dated state; replaces 980 BC"
+sources = [
+  { fact = "Egypt traded with Punt from about 2500 BC", source = "https://en.wikipedia.org/wiki/Land_of_Punt", quote = "These lands had traded with Egypt since 2500 BC or even before." },
+  { fact = "The last known Egyptian expedition to Punt was under Ramesses III", source = "Julien Cooper, Toponymy on the Periphery, Brill, 2020", page = "447", quote = "New Kingdom expeditions to Punt are known in Hatshepsut, Thutmosis III, Amenhotep III, Horemheb, Ramesses II, and Ramesses III." },
+  { fact = "Ramesses III reigned until 1154 BC", source = "https://en.wikipedia.org/wiki/Ramesses_III", quote = "Ramesses III is believed to have reigned from March 1185 to April 1154 BC." },
+]
+derivation = "from the first recorded trade to the end of the reign of the last king known to have sent an expedition"
 
 [[override]]
 civilization = "Land of Punt"
@@ -8265,14 +8268,16 @@ civilization = "Twenty-second Dynasty of Egypt"
 civilization_id = "Q737629"
 field = "after"
 action = "add"
-value = "Twenty-third Dynasty of Egypt"
-value_id = "Q748170"
+value = "Twenty-fifth Dynasty of Egypt"
+value_id = "Q737648"
 region = "Egypt"
-source = "https://en.wikipedia.org/wiki/Twenty-second_Dynasty_of_Egypt"
-quote = "Twenty-third Dynasty The so-called Twenty-third Dynasty was an offshoot of this dynasty perhaps based in Upper Egypt, though there is much debate concerning this issue."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+note = "replaces the Twenty-third Dynasty, which was contemporary with the Twenty-second"
+sources = [
+  { fact = "The last Tanite king, Osorkon IV, submitted to the Nubian conqueror Piye", source = "Robert K. Ritner, The Libyan Anarchy: Inscriptions from Egypt's Third Intermediate Period, Society of Biblical Literature, 2009", page = "412", quote = "The last mention of Osorkon is on the Piye Victory Stela of year 21, where the Tanite ruler is shown bowing in submission to the Nubian conqueror." },
+  { fact = "The Twenty-third Dynasty ruled at the same time as the Twenty-second", source = "Robert K. Ritner, The Libyan Anarchy: Inscriptions from Egypt's Third Intermediate Period, Society of Biblical Literature, 2009", page = "14", quote = "After a mere four reigns, Dynasty XXIII’s Osorkon III, contemporary of Sheshonq V" },
+]
+derivation = "the dynasty its last king submitted to; the Twenty-third ruled alongside it, not after it"
 
 [[override]]
 civilization = "Ugarit"
@@ -8646,12 +8651,14 @@ civilization = "Wu"
 civilization_id = "Q912068"
 field = "period"
 action = "set"
-value = { start = -1200, end = -473, circa = true }
-source = "https://en.wikipedia.org/wiki/Wu_(state)"
-quote = "Foundation by Taibo 12th century BC"
-retrieved = 2026-10-20
-needs_verification = true
-note = "traditional foundation by Taibo (12th century BC); the first dated ruler Shoumeng is from 585 BC; end 473 BC is the conquest by Yue; the Wikipedia sentence carries no citation, check against a reference book"
+value = { start = -585, end = -473 }
+retrieved = 2026-11-07
+note = "replaces c. 1200 BC, the undated founding legend of T'ai-po; the translator notes events in Wu are first recorded in 585 BC (p. 1)"
+sources = [
+  { fact = "Wu's first dated ruler, Shou-meng, came to the throne in 585 BC", source = "William H. Nienhauser Jr. (ed.), The Grand Scribe's Records, Vol. V.1: The Hereditary Houses of Pre-Han China, Part I, Indiana University Press, 2006", page = "4", quote = "his son Shou-meng 壽夢 (r. 585-561 B.C.) was invested. After the investiture of Shou-meng, the state of Wu began to grow larger" },
+  { fact = "Yüeh defeated Wu in 473 BC", source = "William H. Nienhauser Jr. (ed.), The Grand Scribe's Records, Vol. V.1: The Hereditary Houses of Pre-Han China, Part I, Indiana University Press, 2006", page = "24", quote = "On the ting-mao 丁卯 day of the eleventh month of the twenty-third year (5 November 473 B.C.), Yüeh defeated Wu." },
+]
+derivation = "from the first dated reign to the conquest"
 
 [[override]]
 civilization = "Wu"
