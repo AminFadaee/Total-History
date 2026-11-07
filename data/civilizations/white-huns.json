@@ -46,7 +46,14 @@
       "home": true
     }
   ],
-  "after": [],
+  "after": [
+    {
+      "id": "Q83891",
+      "region": "Afghanistan",
+      "name": "Sasanian Empire",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q2588669",
@@ -93,9 +100,6 @@
     ],
     "identity": "Wikipedia item with overlapping dates",
     "home": "Kunduz",
-    "not_applicable": {
-      "after": "outside review: the Göktürk Khaganate was a neighbour that helped destroy the White Huns, not their successor; no source names one"
-    },
     "labelled": [
       "Rouran Khaganate",
       "Sasanian Empire",

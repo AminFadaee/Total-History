@@ -11,9 +11,9 @@
       "circa": false
     },
     "end": {
-      "earliest": 705,
-      "latest": 705,
-      "circa": false
+      "earliest": 510,
+      "latest": 510,
+      "circa": true
     },
     "confirmed": true,
     "core": null,
@@ -33,9 +33,9 @@
   "before": [],
   "after": [
     {
-      "id": "Q8575586",
+      "id": "Q83891",
       "region": "Azerbaijan",
-      "name": "Umayyad Caliphate",
+      "name": "Sasanian Empire",
       "home": true
     }
   ],
@@ -59,7 +59,38 @@
   "tier": "Core",
   "map": "maps/caucasian-albania.png",
   "map_asked": true,
-  "disputes": [],
+  "disputes": [
+    {
+      "field": "after",
+      "values": [
+        {
+          "id": "Q83891",
+          "value": "Sasanian Empire",
+          "source": "https://en.wikipedia.org/wiki/Arran_(Caucasus)"
+        },
+        {
+          "id": "Q8575586",
+          "value": "Umayyad Caliphate",
+          "source": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+        }
+      ]
+    },
+    {
+      "field": "end",
+      "values": [
+        {
+          "value": 510,
+          "circa": true,
+          "source": "https://en.wikipedia.org/wiki/Arran_(Caucasus)"
+        },
+        {
+          "value": 705,
+          "circa": false,
+          "source": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+        }
+      ]
+    }
+  ],
   "checks": {
     "infobox": true,
     "capital_sources": {

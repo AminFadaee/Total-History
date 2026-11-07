@@ -70,6 +70,7 @@ what_line_outside_period = [
 
 # Fields emptied when a wrong value was removed, still to fill from a source.
 unfilled = [
+  ["Chaldea", "modern_countries"],
   ["Chimor", "before"],
   ["Duchy of Burgundy", "before"],
   ["Janapada of Magadha", "before"],

@@ -447,14 +447,14 @@ note = "start only; the end 1804 is kept"
 civilization = "Đại Việt"
 civilization_id = "Q430309"
 field = "before"
-action = "add"
-value = "Jinghai Jiedushi"
-value_id = "Q6666168"
+action = "set"
+value = "Ngô dynasty"
+value_id = "Q703919"
 region = "Vietnam"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Đại_Việt"
+quote = "After defeating the Southern Han invasion, Ngô Quyền proclaimed himself king over the principality in 939 and established a new dynasty centered in the old Âu Việt's fortress of Cổ Loa."
+retrieved = 2026-11-07
+note = "replaces Jinghai Jiedushi, which ended in 939; the Ngô dynasty ruled until the twelve warlords (965-968) before Đại Việt"
 
 [[override]]
 civilization = "Đại Việt"
@@ -638,11 +638,13 @@ action = "set"
 value = "First Bulgarian Empire"
 value_id = "Q203817"
 region = "Romania"
-source = "https://en.wikipedia.org/wiki/Avars_(Eurasian_nomads)"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "undecided: Britannica says the Avar state survived until 805 when it submitted to Charlemagne (Francia, in Hungary), while the home region Romania went to the Bulgars; see the conflicts list"
+retrieved = 2026-11-07
+note = "the Franks took the western lands (Pannonia, in Hungary); the home region went to Bulgaria"
+sources = [
+  { fact = "Bulgaria eliminated the Avar Khaganate in 804-806", source = "https://en.wikipedia.org/wiki/First_Bulgarian_Empire", quote = "Between 804 and 806 the Bulgarian armies thoroughly eliminated the Avar Khaganate, which had suffered a crippling blow by the Franks in 796, and a border with the Frankish Empire was established along the middle Danube or Tisza." },
+  { fact = "Bulgaria then held Transylvania, in Romania", source = "https://en.wikipedia.org/wiki/First_Bulgarian_Empire", quote = "After the destruction of the Avar Khaganate in the beginning of the 9th century, Bulgaria controlled the salt mines in Transylvania until they were overrun by the Magyars a century later." },
+]
+derivation = "the state that took the home region when the khaganate fell"
 
 [[override]]
 civilization = "Caliphate of Córdoba"
@@ -1066,12 +1068,10 @@ civilization = "Ghana Empire"
 civilization_id = "Q206789"
 field = "period"
 action = "set"
-value = { start = 300, circa = true }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "start date to check against a source"
+value = { start = "6th century" }
+source = "https://www.worldhistory.org/Ghana_Empire/"
+quote = "The Ghana Empire flourished in West Africa from at least the 6th to 13th century."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Ghana Empire"
@@ -1394,12 +1394,13 @@ civilization = "Janapada of Magadha"
 civilization_id = "Q234009"
 field = "period"
 action = "set"
-value = { start = -600, end = -345, circa = true }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "check against a source; the Nanda dynasty took Magadha c. 345 BC, and the Nanda Empire is the after answer"
+value = { start = -543, end = -345, circa = true }
+retrieved = 2026-11-07
+sources = [
+  { fact = "Magadha was ruled by the Haryanka dynasty from c. 543 BC", source = "https://en.wikipedia.org/wiki/Magadha", quote = "Based on Jain and Buddhist sources, it appears that Magadha was ruled by the Haryanka dynasty for some 130 years, c. 543 to 413 BCE, although dates are uncertain, and could be significantly later." },
+  { fact = "The Nanda dynasty followed in 345 BC", source = "https://en.wikipedia.org/wiki/Magadha", quote = "Buddhism and Jainism were the religions promoted by the early Magadhan kings, such as Srenika, Bimbisara and Ajatashatru, and the Nanda Dynasty (345–321 BCE) that followed was mostly Jain." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Janapada of Magadha"
@@ -1726,24 +1727,23 @@ civilization = "Caucasian Albania"
 civilization_id = "Q177076"
 field = "period"
 action = "set"
-value = { end = 705 }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "end of the kingdom under Arab rule, 7th-8th century; check a source for the exact year"
+value = { end = 510, circa = true }
+source = "https://en.wikipedia.org/wiki/Arran_(Caucasus)"
+quote = "The Sasanians abolished the local monarchy c. 510 AD."
+retrieved = 2026-11-07
+note = "replaces 705; Mihranid princes ruled Albania under the Sasanians and then the caliphate until 822"
 
 [[override]]
 civilization = "Caucasian Albania"
 civilization_id = "Q177076"
 field = "after"
-action = "add"
+action = "dispute"
 value = "Umayyad Caliphate"
 value_id = "Q8575586"
 region = "Azerbaijan"
 retrieved = 2026-10-26
 needs_verification = false
-note = "Arab conquest of Albania in the 7th century; Wikipedia: Sassanids ruled until the Arab invasions"
+note = "the caliphate annexed the remaining principality by 705; the kingdom itself ended c. 510"
 sources = [
   { fact = "Umayyad Caliphate took over the land or people of Caucasian Albania when it ended (around 705)", source = "https://en.wikipedia.org/wiki/Umayyad_Caliphate", quote = "By 705, Armenia was annexed by the Caliphate along with the principalities of Caucasian Albania and Iberia" },
 ]
@@ -2323,10 +2323,9 @@ civilization_id = "Q8733"
 field = "period"
 action = "set"
 value = { end = 1912 }
-source = "https://www.newworldencyclopedia.org/entry/Qing_dynasty"
-quote = "abdicated on behalf of the last emperor, Puyi, on February 12, 1912"
-retrieved = 2026-10-20
-needs_verification = false
+source = "https://en.wikipedia.org/wiki/Qing_dynasty"
+quote = "On 12 February 1912, Longyu issued the abdication of the child emperor Puyi, leading to the fall of the Qing dynasty under the pressure of Yuan Shikai's Beiyang army despite objections from conservatives and royalist reformers."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Qing Dynasty"
@@ -2447,10 +2446,9 @@ civilization_id = "Q28567"
 field = "period"
 action = "set"
 value = { end = 1697 }
-source = "https://www.timeshighereducation.com/node/91485"
-quote = "the Spanish capture and occupation of the Itzá capital, Nojpeten, in 1697"
-retrieved = 2026-10-20
-needs_verification = false
+source = "https://en.wikipedia.org/wiki/Maya_civilization"
+quote = "In 1697, Martín de Ursúa launched an assault on the Itza capital Nojpetén and the last independent Maya city fell to the Spanish."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Maya civilization"
@@ -2460,10 +2458,9 @@ action = "add"
 value = "New Spain"
 value_id = "Q170603"
 region = "Mexico"
-source = "https://www.timeshighereducation.com/node/91485"
-quote = "the Spanish capture and occupation of the Itzá capital, Nojpeten, in 1697"
-retrieved = 2026-10-20
-needs_verification = false
+source = "https://en.wikipedia.org/wiki/Maya_civilization"
+quote = "In 1697, Martín de Ursúa launched an assault on the Itza capital Nojpetén and the last independent Maya city fell to the Spanish."
+retrieved = 2026-11-07
 note = "the last independent Maya kingdom fell to the Spanish; Wikipedia names New Spain and the Captaincy General of Guatemala as successors"
 
 [[override]]
@@ -2568,9 +2565,8 @@ field = "map_year"
 action = "set"
 value = -431
 source = "https://www.worldhistory.org/Sparta/"
-quote = "Sparta, with some Persian help, finally won the conflict when Lysander destroyed the Athenian fleet at Aegospotami in 405 BCE"
-retrieved = 2026-10-20
-needs_verification = true
+quote = "From 480 to 460 BCE regional rivalries and revolts by the helots damaged Sparta and worse were to follow when rivalry with Athens developed into the Peloponnesian Wars from c. 460 to 446 BCE and again from 431 to 404 BCE."
+retrieved = 2026-11-07
 note = "current map year -909 lies before the polity drew a map; -431 is the start of the Peloponnesian War, at the height of Spartan power"
 
 [[override]]
@@ -2690,13 +2686,10 @@ civilization = "Mycenaean Greece"
 civilization_id = "Q181264"
 field = "before"
 action = "none"
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Mycenaean_Greece"
+quote = "The Mycenaeans were mainland Greek peoples who were likely stimulated by their contact with insular Minoan Crete and other Mediterranean cultures to develop a more sophisticated sociopolitical culture of their own."
+retrieved = 2026-11-07
 note = "first palace states on the Greek mainland; none preceded them"
-sources = [
-  { fact = "Mycenaean Greece formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://en.wikipedia.org/wiki/Mycenaean_Greece", quote = "The Mycenaeans were mainland Greek peoples who were likely stimulated by their contact with insular Minoan Crete and other Mediterranean cultures to develop a more sophisticated sociopolitical culture of their own" },
-]
-derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Kushan Empire"
@@ -2720,17 +2713,17 @@ derivation = "every listed person's own article or the state's names them a rule
 civilization = "Kushan Empire"
 civilization_id = "Q25979"
 field = "after"
-action = "add"
-value = "Indo-Sassanids"
-value_id = "Q1661685"
+action = "set"
+value = "Kidarites"
+value_id = "Q26996"
 region = "Pakistan"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Kushano-Sasanians took the Kushan lands from about 230 AD"
+retrieved = 2026-11-07
+note = "replaces the Indo-Sassanids, who took Bactria and Gandhara about 225 while the Kushans ruled on from Taxila"
 sources = [
-  { fact = "Indo-Sassanids took over or replaced Kushan Empire when it ended", source = "https://en.wikipedia.org/wiki/Kushano-Sasanian_Kingdom", quote = "The Sasanian Empire captured the provinces of Sogdia, Bactria and Gandhara from the declining Kushan Empire following a series of wars in 225 CE." },
+  { fact = "The last Kushans ruled from Taxila", source = "https://en.wikipedia.org/wiki/Kushan_Empire", quote = "Following territorial losses in the west (Bactria lost to the Kushano-Sasanians), and in the east (loss of Mathura to the Gupta Empire), several \"Little Kushans\" are known, who ruled locally in the area of Punjab with their capital at Taxila" },
+  { fact = "The Kidarites overthrew the remnants of the Kushan dynasty", source = "https://en.wikipedia.org/wiki/Kushan_Empire", quote = "In 360 a Kidarite Hun named Kidara overthrew the Kushano-Sasanians and remnants of the old Kushan dynasty, and established the Kidarite Kingdom." },
 ]
-derivation = "a source states the takeover, replacement or origin"
+derivation = "the state that overthrew the last of the dynasty in its home region"
 
 [[override]]
 civilization = "Mutapa Empire"
@@ -2756,7 +2749,8 @@ value_id = "Q24235825"
 source = "https://www.newworldencyclopedia.org/entry/Kingdom_of_Mutapa"
 quote = "a capital was established 350 km north of Great Zimbabwe at Mount Fura by the Zambezi"
 retrieved = 2026-10-20
-needs_verification = false
+note = "the only source was New World Encyclopedia; cited Wikipedia names Chitako-Changonya Hill as the first capital"
+needs_verification = true
 
 [[override]]
 civilization = "Mutapa Empire"
@@ -2766,10 +2760,9 @@ action = "add"
 value = "Kingdom of Zimbabwe"
 value_id = "Q596092"
 region = "Zimbabwe"
-source = "https://www.newworldencyclopedia.org/entry/Kingdom_of_Mutapa"
-quote = "the Torwa kingdom, the southern Shona state from which Mutota and his dynasty originated"
-retrieved = 2026-10-20
-needs_verification = false
+source = "https://www.worldhistory.org/Mutapa/"
+quote = "The Shona thus formed a new state, the kingdom of Mutapa, from around 1450 CE, although it may well have been a case of the Zimbabwe ruling elite changing capital rather than a general population movement from the south."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Mutapa Empire"
@@ -2782,7 +2775,8 @@ region = "Zimbabwe"
 source = "https://www.newworldencyclopedia.org/entry/Kingdom_of_Mutapa"
 quote = "In 1684, his forces encountered and decisively defeated those of Mwene"
 retrieved = 2026-10-20
-needs_verification = false
+note = "the only source was New World Encyclopedia; cited Wikipedia says only that the Rozvi took the gold regions in the 1690s"
+needs_verification = true
 
 [[override]]
 civilization = "Mutapa Empire"
@@ -3028,23 +3022,22 @@ action = "add"
 value = "Sokoto Caliphate"
 value_id = "Q600524"
 region = "Nigeria"
-source = "https://www.worldhistory.org/Oyo_Empire/"
-quote = "Ilorin, was conquered to become the Fulani Emirate of Ilorin"
-retrieved = 2026-10-20
-needs_verification = true
-note = "Ilorin passed to the Sokoto Caliphate; Oyo itself was broken into successor states (Ibadan and others)"
+retrieved = 2026-11-07
+sources = [
+  { fact = "Ilorin became part of the Sokoto Caliphate in 1823", source = "https://en.wikipedia.org/wiki/Oyo_Empire", quote = "In 1823, after Afonja had been killed by his erstwhile allies Shehu Alimi and Solagberu (who was himself later killed by Alimi's son), Ilorin became part of the Sokoto Caliphate." },
+  { fact = "Ilorin destroyed the capital Oyo-Ile in 1835", source = "https://en.wikipedia.org/wiki/Oyo_Empire", quote = "Ilorin then besieged Offa and started raiding, burning and pillaging villages in Oyo, eventually destroying the capital Oyo-Ile in 1835." },
+]
+derivation = "the capital fell to a part of the successor"
 
 [[override]]
 civilization = "Oyo Empire"
 civilization_id = "Q849623"
 field = "period"
 action = "set"
-value = { start = 1400, circa = true }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "traditional founding date; source to check"
+value = { start = "14th century" }
+source = "https://en.wikipedia.org/wiki/Oyo_Empire"
+quote = "Oyo had grown into a formidable inland power by the end of the 14th century."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Pagan Kingdom"
@@ -3054,10 +3047,9 @@ action = "add"
 value = "Myinsaing Kingdom"
 value_id = "Q3446205"
 region = "Myanmar"
-source = "https://www.fabriziomusacchio.com/weekend_stories/told/2025/2025-11-02-bagan_successors/"
-quote = "successor states that emerged in Upper Myanmar such as Myinsaing, Pinya, Sagaing, and Ava"
-retrieved = 2026-10-20
-needs_verification = false
+source = "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+quote = "On 17 December 1297, the three brothers overthrew Kyawswa and founded the Myinsaing Kingdom."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Parthian Empire"
@@ -3818,20 +3810,6 @@ needs_verification = false
 note = "Millward 2007, pp. 30–31. || Millward 2007, p. 375."
 
 [[override]]
-civilization = "White Huns"
-civilization_id = "Q26576"
-field = "after"
-action = "none"
-retrieved = 2026-10-26
-needs_verification = false
-note = "outside review: the Göktürk Khaganate was a neighbour that helped destroy the White Huns, not their successor; no source names one"
-sources = [
-  { fact = "The Hephthalites were defeated by Sasanians and Göktürks about 560", source = "https://en.wikipedia.org/wiki/Hephthalites", quote = "to 560 CE, when combined forces from the First Turkic Khaganate and the Sasanian Empire defeated them" },
-  { fact = "Their lands were divided between those powers", source = "https://www.iranicaonline.org/articles/hephthalites/", quote = "the two powers were finally able to crush the Hephthalites in an epic battle near Bukhara, dividing their territories along the line of the Oxus (Amu Daryā)" },
-]
-derivation = "No state named as successor"
-
-[[override]]
 civilization = "Xianbei"
 civilization_id = "Q861054"
 field = "after"
@@ -4376,16 +4354,15 @@ civilization = "Chaldea"
 civilization_id = "Q200969"
 field = "key_figures"
 action = "set"
-value = ["Marduk-apla-iddina II", "Nabopolassar", "Nebuchadnezzar II"]
-value_id = ["Q356505", "Q273514", "Q12591"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Marduk-apla-iddina II was a ruler or leading figure of Chaldea"
+value = ["Nabopolassar", "Nebuchadnezzar II"]
+value_id = ["Q273514", "Q12591"]
+retrieved = 2026-11-07
+note = "Marduk-apla-iddina II dropped: his cited sentences name only the Babylonian throne"
 sources = [
-  { fact = "Nebuchadnezzar II was a ruler or leading figure of Chaldea", source = "https://www.newworldencyclopedia.org/entry/Nebuchadrezzar_II", quote = "Nebuchadrezzar II (also Nebuchadnezzar; reigned 605-562 B.C.E.), is the best-known ruler of Babylonia in the Chaldean Dynasty." },
-  { fact = "Nabopolassar was a ruler or leading figure of Chaldea", source = "https://www.britannica.com/biography/Nabopolassar", quote = "eldest son and successor of Nabopolassar, founder of the Chaldean empire." },
+  { fact = "Nabopolassar founded the Chaldean dynasty", source = "https://en.wikipedia.org/wiki/Nabopolassar", quote = "Although no evidence conclusively confirms him as being of Chaldean origin, the term \"Chaldean dynasty\" is frequently used by modern historians for the royal family he founded" },
+  { fact = "Nebuchadnezzar II was Nabopolassar's son and successor as king", source = "https://en.wikipedia.org/wiki/Nebuchadnezzar_II", quote = "Nebuchadnezzar II, more faithfully spelled Nebuchadrezzar II, meaning \"Nabu, watch over my heir\", was the second king of the Neo-Babylonian Empire, ruling from the death of his father Nabopolassar in 605 BC to his own death in 562 BC." },
 ]
-derivation = "every listed item has its own source"
+derivation = "the kings of the family that historians call the Chaldean dynasty"
 
 [[override]]
 civilization = "Chaldea"
@@ -4411,20 +4388,6 @@ quote = ""
 retrieved = 2026-10-20
 needs_verification = false
 note = "A region of tribes that settled in Babylonia; no earlier state"
-
-[[override]]
-civilization = "Chaldea"
-civilization_id = "Q200969"
-field = "modern_countries"
-action = "set"
-value = ["Iraq", "Kuwait"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Chaldea territory included part of present-day Kuwait"
-sources = [
-  { fact = "Chaldea territory included part of present-day Iraq", source = "https://www.ancient-origins.net/ancient-places-asia/chaldean-dynasty-0019312", quote = "Chaldea was an ancient region located in the southern part of Mesopotamia, in what is now modern-day Iraq." },
-]
-derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Chaldea"
@@ -5261,10 +5224,9 @@ field = "capital"
 action = "set"
 value = ["Avaris"]
 value_id = ["Q309282"]
-source = "https://www.worldhistory.org/Hyksos/"
-quote = "Mark The Hyksos were a West Semitic-speaking people who gained a foothold in Egypt circa 1782 BCE at the city of Avaris in Lower Egypt, thus initiating the era known in Egyptian history as the Second Intermediate... 1780995590 --> ❯ Facebook Community Forum Membership No ads Hyksos The Rulers of Foreign Lands Who Transformed Egypt by Joshua J."
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Hyksos"
+quote = "Their capital city was Avaris at a fork on the now-dry Pelusiac branch of the Nile."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Hyksos"
@@ -5595,10 +5557,9 @@ civilization_id = "Q110888"
 field = "before"
 action = "none"
 source = "https://en.wikipedia.org/wiki/Kingdom_of_Essex"
-quote = "The territory included the remains of two provincial Roman capitals, Colchester and London ."
-retrieved = 2026-10-20
+quote = "The first recorded king, according to the East Saxon King List, was Æscwine, to which a date of 527 is given for the start of his reign"
+retrieved = 2026-11-07
 note = "Founded by Saxon settlers on the Roman Colchester-London territory; no earlier state; cited in Wikipedia, footnote 1"
-needs_verification = true
 
 [[override]]
 civilization = "Kingdom of Fiji"
@@ -5842,11 +5803,9 @@ action = "set"
 value = "Chokwe Kingdom"
 value_id = "Q1075883"
 region = "Democratic Republic of the Congo"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Lunda"
-quote = "Official languages Chilunda Ethnic groups Balunda Government Monarchy Mwaantayaav • 16th century Mwata Yamvo History • Established 17th century • Disestablished 1887 Preceded by Succeeded by Lunda culture Chokwe Kingdom Today part of Angola Democratic Republic of the Congo Zambia The Lunda Empire or Lunda Commonwealth was a confederation or commonwealth of"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://en.wikipedia.org/wiki/Chokwe_people"
+quote = "By 1900, the Chokwe had overthrown the Lunda kingdom (also called the Mwata Yanvo) altogether."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Kingdom of Mercia"
@@ -7220,15 +7179,14 @@ field = "key_figures"
 action = "set"
 value = ["Empress Genmei", "Emperor Shōmu", "Empress Kōken", "Emperor Kanmu"]
 value_id = ["Q233224", "Q349263", "Q232955", "Q314846"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Empress Kōken"
+retrieved = 2026-11-07
 sources = [
   { fact = "Empress Genmei was a ruler or leading figure of Nara Japan", source = "https://en.wikipedia.org/wiki/Empress_Genmei", quote = "After Empress Genmei transferred the seat of her government to Nara, this mountain location remained the capital throughout the succeeding seven reigns." },
   { fact = "Emperor Shōmu was a ruler or leading figure of Nara Japan", source = "https://en.wikipedia.org/wiki/Emperor_Shōmu", quote = "was the 45th emperor of Japan" },
+  { fact = "Empress Kōken was a ruler or leading figure of Nara Japan", source = "https://en.wikipedia.org/wiki/Empress_Kōken", quote = "Kōken reascended to the throne under a new name, Empress Shōtoku." },
   { fact = "Emperor Kanmu was a ruler or leading figure of Nara Japan", source = "https://en.wikipedia.org/wiki/Emperor_Kanmu", quote = "was the 50th emperor of Japan" },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person's own article names them a ruler"
 
 [[override]]
 civilization = "New France"
@@ -7563,12 +7521,14 @@ civilization = "Principality of Kiev"
 civilization_id = "Q1483430"
 field = "period"
 action = "set"
-value = { start = 1132, end = 1471 }
-source = "https://en.wikipedia.org/wiki/Principality_of_Kiev"
-quote = "Following the death of Mstislav I of Kiev in 1132, the semi-autonomous states were de facto independent and so led to the emergence of the Principality of Kiev as a separate state."
-retrieved = 2026-10-20
-needs_verification = true
-note = "end 1471: death of Simeon Olelkovich, the last prince, per the infobox; the Wikipedia sentence carries no citation, check against a reference book"
+value = { start = 1132, end = 1362 }
+retrieved = 2026-11-07
+note = "replaces 1471, the death of the last appanage prince under Lithuania, which no cited source gives"
+sources = [
+  { fact = "The Principality of Kiev emerged in 1132", source = "https://en.wikipedia.org/wiki/Principality_of_Kiev", quote = "Following the death of Mstislav I of Kiev in 1132, the semi-autonomous states were de facto independent and so led to the emergence of the Principality of Kiev as a separate state." },
+  { fact = "Lithuania incorporated Kyiv in 1362", source = "https://en.wikipedia.org/wiki/Kyiv", quote = "Finally, as a result of the Battle of Blue Waters in 1362, Algirdas, Grand Duke of Lithuania, incorporated Kyiv and surrounding areas into the Grand Duchy of Lithuania." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Principality of Kiev"
@@ -7592,13 +7552,9 @@ action = "add"
 value = "Grand Duchy of Lithuania"
 value_id = "Q49683"
 region = "Ukraine"
-retrieved = 2026-10-26
-needs_verification = false
-note = "the Wikipedia sentence carries no citation, check against a reference book"
-sources = [
-  { fact = "Grand Duchy of Lithuania replaced or took over Principality of Kiev", source = "https://en.wikipedia.org/wiki/Kyiv", quote = "Finally, as a result of the Battle of Blue Waters in 1362, Algirdas, Grand Duke of Lithuania, incorporated Kyiv and surrounding areas into the Grand Duchy of Lithuania." },
-]
-derivation = "a source states with a verb of succession that the successor took the state over (undated)"
+source = "https://en.wikipedia.org/wiki/Kyiv"
+quote = "Finally, as a result of the Battle of Blue Waters in 1362, Algirdas, Grand Duke of Lithuania, incorporated Kyiv and surrounding areas into the Grand Duchy of Lithuania."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Qi"
@@ -7779,13 +7735,14 @@ field = "key_figures"
 action = "set"
 value = ["David G. Burnet", "Sam Houston", "Mirabeau B. Lamar", "Anson Jones"]
 value_id = ["Q1780964", "Q216547", "Q456633", "Q569983"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for David G. Burnet was a ruler or leading figure of Republic of Texas; Sam Houston was a ruler or leading figure of Republic of Texas; Mirabeau B. Lamar was a ruler or leading figure of Republic of Texas"
+retrieved = 2026-11-07
 sources = [
+  { fact = "David G. Burnet was a ruler or leading figure of Republic of Texas", source = "https://en.wikipedia.org/wiki/David_G._Burnet", quote = "Burnet won, on a vote of 29–23, in the early hours of March 17, becoming the interim president of the new Republic of Texas." },
+  { fact = "Sam Houston was a ruler or leading figure of Republic of Texas", source = "https://en.wikipedia.org/wiki/Republic_of_Texas", quote = "Burnet declined to run for reelection, thereafter Sam Houston was elected as the new President of the Republic of Texas on September 5, 1836, with Burnet resigning." },
+  { fact = "Mirabeau B. Lamar was a ruler or leading figure of Republic of Texas", source = "https://en.wikipedia.org/wiki/Republic_of_Texas", quote = "When Lamar ascended to presidency in 1838 he reversed the Houston administration's policy towards the Native Americans." },
   { fact = "Anson Jones was a ruler or leading figure of Republic of Texas", source = "https://en.wikipedia.org/wiki/Anson_Jones", quote = "Anson Jones served as the fourth and last President of the Republic of Texas." },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a president of the state by a source"
 
 [[override]]
 civilization = "Republic of Turkey"
@@ -8994,19 +8951,6 @@ derivation = "no source consulted names a predecessor; the quoted sentence descr
 note = "no earlier state in the data; a steppe confederation"
 
 [[override]]
-civilization = "Babylonia"
-civilization_id = "Q47690"
-field = "before"
-action = "none"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the outside review removed the Sumerian City-States, which fell centuries earlier; no source names a state immediately before"
-sources = [
-  { fact = "Babylonia formed on its own (from tribes, settlements or a founder), not from an earlier state", source = "https://en.wikipedia.org/wiki/Babylonia", quote = "It emerged as an Akkadian-populated but Amorite-ruled state c. 1894 BC" },
-]
-derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
-
-[[override]]
 civilization = "Teotihuacan"
 civilization_id = "Q172613"
 field = "map_year"
@@ -9204,13 +9148,9 @@ field = "capital"
 action = "set"
 value = ["Sambor Prei Kuk"]
 value_id = ["Q1818746"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "Isanapura, the capital of Isanavarman I, is Sambor Prei Kuk in Cambodia; Vat Phou in Laos was an upper Chenla centre"
-sources = [
-  { fact = "Sambor Prei Kuk was a capital of Chenla", source = "https://en.wikipedia.org/wiki/Sambor_Prei_Kuk", quote = "The now ruined complex dates back to the Pre-Angkorian Chenla Kingdom (late 6th to 9th century), established by king Isanavarman I as central royal sanctuary and capital, known then as \"Isanapura\" (Khmer: ឦសានបុរៈ, Eisanbŏreă [ʔəjsaːnɓoreaʔ])." },
-]
-derivation = "every listed item has its own source"
+source = "https://en.wikipedia.org/wiki/Chenla"
+quote = "Isanavarman is the founder of a new capital - Isanapura north of the Tonlé Sap (the archaeological site of Sambor Prei Kuk)."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Chenla"
@@ -9559,3 +9499,65 @@ value = { start = -657, end = 337, circa = true }
 retrieved = 2026-11-07
 sources = [{ fact = "Byzantium began in 657 BC", source = "https://www.worldhistory.org/Byzantium/", quote = "The ancient city of Byzantium was founded by Greek colonists from Megara around 657 BCE." }, { fact = "Byzantium was renamed Constantinople in 337", source = "https://www.worldhistory.org/Byzantium/", quote = "Upon Constantine's death in 337 CE, the city would be renamed Constantinople in his honor." }]
 derivation = "each end of the period is stated by a source"
+
+[[override]]
+civilization = "Babylonia"
+civilization_id = "Q47690"
+field = "before"
+action = "add"
+value = "Kazallu"
+value_id = "Q2669395"
+region = "Iraq"
+retrieved = 2026-11-07
+sources = [
+  { fact = "Babylon had been a territory of the city-state of Kazallu", source = "https://en.wikipedia.org/wiki/Babylonia", quote = "Around 1894 BC, an Amorite chieftain named Sumu-abum appropriated a tract of land which included the then relatively small city of Babylon from the neighbouring minor city-state of Kazallu, of which it had initially been a territory" },
+  { fact = "Kazallu was a city-state before falling to Babylon", source = "https://en.wikipedia.org/wiki/Kazallu", quote = "Kazallu briefly became a city-state in its own right before falling to Babylon." },
+]
+derivation = "the state that held the capital before the civilization took it"
+
+[[override]]
+civilization = "White Huns"
+civilization_id = "Q26576"
+field = "after"
+action = "add"
+value = "Sasanian Empire"
+value_id = "Q83891"
+region = "Afghanistan"
+retrieved = 2026-11-07
+sources = [
+  { fact = "After 560 the lands south of the Oxus were under the Sasanians", source = "https://en.wikipedia.org/wiki/Hephthalites", quote = "After 560 CE, they established \"principalities\" in the area of Tokharistan, under the suzerainty of the Western Turks (in the areas north of the Oxus) and of the Sasanian Empire (in the areas south of the Oxus), before the Tokhara Yabghus took over in 625." },
+  { fact = "Balkh, the capital, held Sasanian soldiers", source = "https://en.wikipedia.org/wiki/Hephthalites", quote = "In 588, triggering the First Perso-Turkic War, the Turkic Khagan Bagha Qaghan (known as Sabeh/Saba in Persian sources), together with his Hephthalite subjects, invaded the Sasanian territories south of the Oxus, where they attacked and routed the Sasanian soldiers stationed in Balkh" },
+]
+derivation = "the power that held the home region, south of the Oxus, after the empire fell"
+
+[[override]]
+civilization = "Teotihuacan"
+civilization_id = "Q172613"
+field = "period"
+action = "dispute"
+value = { end = 750, circa = true }
+source = "https://www.britannica.com/place/Teotihuacan"
+quote = "About 750 CE central Teotihuacán burned, possibly during an insurrection or a civil war."
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Caucasian Albania"
+civilization_id = "Q177076"
+field = "after"
+action = "add"
+value = "Sasanian Empire"
+value_id = "Q83891"
+region = "Azerbaijan"
+source = "https://en.wikipedia.org/wiki/Arran_(Caucasus)"
+quote = "The Sasanians abolished the local monarchy c. 510 AD."
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Caucasian Albania"
+civilization_id = "Q177076"
+field = "period"
+action = "dispute"
+value = { end = 705 }
+source = "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+quote = "By 705, Armenia was annexed by the Caliphate along with the principalities of Caucasian Albania and Iberia"
+retrieved = 2026-11-07

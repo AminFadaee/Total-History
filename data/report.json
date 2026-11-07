@@ -94,11 +94,6 @@
       "value": "Kingdom of Sussex"
     },
     {
-      "civilization": "Margraviate of Brandenburg",
-      "field": "key_figures",
-      "value": "Frederick William III"
-    },
-    {
       "civilization": "Pala Empire",
       "field": "capitals",
       "value": "Murshidabad"
@@ -395,8 +390,8 @@
     {
       "civilization": "Đại Việt",
       "field": "before",
-      "action": "add",
-      "value": "Jinghai Jiedushi"
+      "action": "set",
+      "value": "Ngô dynasty"
     },
     {
       "civilization": "Đại Việt",
@@ -725,8 +720,7 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": 300,
-        "circa": true
+        "start": "6th century"
       }
     },
     {
@@ -902,7 +896,7 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": -600,
+        "start": -543,
         "end": -345,
         "circa": true
       }
@@ -1073,13 +1067,14 @@
       "field": "period",
       "action": "set",
       "value": {
-        "end": 705
+        "end": 510,
+        "circa": true
       }
     },
     {
       "civilization": "Caucasian Albania",
       "field": "after",
-      "action": "add",
+      "action": "dispute",
       "value": "Umayyad Caliphate"
     },
     {
@@ -1645,8 +1640,8 @@
     {
       "civilization": "Kushan Empire",
       "field": "after",
-      "action": "add",
-      "value": "Indo-Sassanids"
+      "action": "set",
+      "value": "Kidarites"
     },
     {
       "civilization": "Mutapa Empire",
@@ -1812,8 +1807,7 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": 1400,
-        "circa": true
+        "start": "14th century"
       }
     },
     {
@@ -2233,12 +2227,6 @@
       }
     },
     {
-      "civilization": "White Huns",
-      "field": "after",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Xianbei",
       "field": "after",
       "action": "add",
@@ -2537,7 +2525,6 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Marduk-apla-iddina II",
         "Nabopolassar",
         "Nebuchadnezzar II"
       ]
@@ -2553,15 +2540,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Chaldea",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Iraq",
-        "Kuwait"
-      ]
     },
     {
       "civilization": "Chaldea",
@@ -4246,7 +4224,7 @@
       "action": "set",
       "value": {
         "start": 1132,
-        "end": 1471
+        "end": 1362
       }
     },
     {
@@ -5026,12 +5004,6 @@
       "value": ""
     },
     {
-      "civilization": "Babylonia",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Teotihuacan",
       "field": "map_year",
       "action": "set",
@@ -5382,21 +5354,44 @@
         "end": 337,
         "circa": true
       }
+    },
+    {
+      "civilization": "Babylonia",
+      "field": "before",
+      "action": "add",
+      "value": "Kazallu"
+    },
+    {
+      "civilization": "White Huns",
+      "field": "after",
+      "action": "add",
+      "value": "Sasanian Empire"
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "end": 750,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "after",
+      "action": "add",
+      "value": "Sasanian Empire"
+    },
+    {
+      "civilization": "Caucasian Albania",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "end": 705
+      }
     }
   ],
   "needs_verification": [
-    {
-      "civilization": "Đại Việt",
-      "field": "before",
-      "action": "add",
-      "value": "Jinghai Jiedushi"
-    },
-    {
-      "civilization": "Avar Khaganate",
-      "field": "after",
-      "action": "set",
-      "value": "First Bulgarian Empire"
-    },
     {
       "civilization": "Chu",
       "field": "before",
@@ -5437,29 +5432,10 @@
       ]
     },
     {
-      "civilization": "Ghana Empire",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 300,
-        "circa": true
-      }
-    },
-    {
       "civilization": "Iberian Union",
       "field": "after",
       "action": "set",
       "value": "Spanish Empire"
-    },
-    {
-      "civilization": "Janapada of Magadha",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -600,
-        "end": -345,
-        "circa": true
-      }
     },
     {
       "civilization": "Kanem–Bornu Empire",
@@ -5478,14 +5454,6 @@
       "field": "after",
       "action": "add",
       "value": "Holy Roman Empire"
-    },
-    {
-      "civilization": "Caucasian Albania",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 705
-      }
     },
     {
       "civilization": "Caucasian Iberia",
@@ -5546,12 +5514,6 @@
     },
     {
       "civilization": "Sparta",
-      "field": "map_year",
-      "action": "set",
-      "value": -431
-    },
-    {
-      "civilization": "Sparta",
       "field": "before",
       "action": "none",
       "value": ""
@@ -5563,16 +5525,16 @@
       "value": ""
     },
     {
-      "civilization": "Mycenaean Greece",
-      "field": "before",
-      "action": "none",
-      "value": ""
+      "civilization": "Mutapa Empire",
+      "field": "capital",
+      "action": "add",
+      "value": "Mount Fura"
     },
     {
-      "civilization": "Kushan Empire",
+      "civilization": "Mutapa Empire",
       "field": "after",
       "action": "add",
-      "value": "Indo-Sassanids"
+      "value": "Rozwi Empire"
     },
     {
       "civilization": "Kingdom of Urartu",
@@ -5585,21 +5547,6 @@
       "field": "key_figures",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Oyo Empire",
-      "field": "after",
-      "action": "add",
-      "value": "Sokoto Caliphate"
-    },
-    {
-      "civilization": "Oyo Empire",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 1400,
-        "circa": true
-      }
     },
     {
       "civilization": "Portuguese Empire",
@@ -5721,25 +5668,6 @@
       }
     },
     {
-      "civilization": "Chaldea",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Marduk-apla-iddina II",
-        "Nabopolassar",
-        "Nebuchadnezzar II"
-      ]
-    },
-    {
-      "civilization": "Chaldea",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Iraq",
-        "Kuwait"
-      ]
-    },
-    {
       "civilization": "Commonwealth of Australia",
       "field": "before",
       "action": "set",
@@ -5801,14 +5729,6 @@
       "value": "Provisional Government of the French Republic"
     },
     {
-      "civilization": "Hyksos",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "Avaris"
-      ]
-    },
-    {
       "civilization": "Jin",
       "field": "before",
       "action": "set",
@@ -5837,22 +5757,10 @@
       "value": "Cuman-Kipchak Confederation"
     },
     {
-      "civilization": "Kingdom of Essex",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Kingdom of Hawaï'i",
       "field": "after",
       "action": "set",
       "value": "Republic of Hawaii"
-    },
-    {
-      "civilization": "Kingdom of Lunda",
-      "field": "after",
-      "action": "set",
-      "value": "Chokwe Kingdom"
     },
     {
       "civilization": "Cuman-Kipchak Confederation",
@@ -5970,17 +5878,6 @@
       "value": "Himyarite Kingdom"
     },
     {
-      "civilization": "Nara Japan",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Empress Genmei",
-        "Emperor Shōmu",
-        "Empress Kōken",
-        "Emperor Kanmu"
-      ]
-    },
-    {
       "civilization": "Old Swiss Confederacy",
       "field": "before",
       "action": "add",
@@ -6009,29 +5906,9 @@
     },
     {
       "civilization": "Principality of Kiev",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 1132,
-        "end": 1471
-      }
-    },
-    {
-      "civilization": "Principality of Kiev",
       "field": "before",
       "action": "add",
       "value": "Kievan Rus'"
-    },
-    {
-      "civilization": "Republic of Texas",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "David G. Burnet",
-        "Sam Houston",
-        "Mirabeau B. Lamar",
-        "Anson Jones"
-      ]
     },
     {
       "civilization": "Saffarid Dynasty",
@@ -6174,12 +6051,6 @@
       "value": ""
     },
     {
-      "civilization": "Babylonia",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Great Moravia",
       "field": "after",
       "action": "set",
@@ -6198,14 +6069,6 @@
       "value": [
         "Jelling",
         "Roskilde"
-      ]
-    },
-    {
-      "civilization": "Chenla",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "Sambor Prei Kuk"
       ]
     },
     {
