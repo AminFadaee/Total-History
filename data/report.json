@@ -5372,14 +5372,6 @@
       "value": "Ditadura Nacional"
     },
     {
-      "civilization": "Four Oirats",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 1634
-      }
-    },
-    {
       "civilization": "Free French",
       "field": "before",
       "action": "set",
