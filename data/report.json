@@ -1642,12 +1642,6 @@
     },
     {
       "civilization": "Mutapa Empire",
-      "field": "after",
-      "action": "add",
-      "value": "Rozwi Empire"
-    },
-    {
-      "civilization": "Mutapa Empire",
       "field": "map_year",
       "action": "set",
       "value": 1500
@@ -2089,8 +2083,8 @@
     {
       "civilization": "Srivijaya",
       "field": "after",
-      "action": "none",
-      "value": ""
+      "action": "add",
+      "value": "Melayu"
     },
     {
       "civilization": "Srivijaya",
@@ -2147,8 +2141,8 @@
     {
       "civilization": "Teutonic Order",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "add",
+      "value": "Old Prussians"
     },
     {
       "civilization": "Tibetan Empire",
@@ -3047,7 +3041,7 @@
       "civilization": "Judea",
       "field": "summary",
       "action": "set",
-      "value": "A historical region of the Land of Israel around Jerusalem, ruled by the Hasmonean dynasty in the last two centuries BC."
+      "value": "A mountainous region of the Levant, traditionally dominated by the city of Jerusalem."
     },
     {
       "civilization": "Kanva Dynasty",
@@ -3547,8 +3541,8 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": 511,
-        "end": 751
+        "start": "6th century",
+        "end": "8th century"
       }
     },
     {
@@ -3600,7 +3594,7 @@
       "civilization": "Kingdom of Romania",
       "field": "summary",
       "action": "set",
-      "value": "A constitutional monarchy in southeastern Europe, ruled by the Hohenzollern-Sigmaringen dynasty from 1881 to 1947."
+      "value": "A constitutional monarchy that existed from 1881 until 1947."
     },
     {
       "civilization": "Kingdom of Sardinia",
@@ -3907,7 +3901,7 @@
       "civilization": "Minaeans",
       "field": "after",
       "action": "add",
-      "value": "Himyarite Kingdom"
+      "value": "Sabaeans"
     },
     {
       "civilization": "Moghulistan",
@@ -4104,8 +4098,8 @@
     {
       "civilization": "Pala Empire",
       "field": "before",
-      "action": "add",
-      "value": "Khadga dynasty"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Pala Empire",
@@ -4578,7 +4572,7 @@
       "civilization": "Toltec",
       "field": "after",
       "action": "add",
-      "value": "Tepanec"
+      "value": "Chichimeca"
     },
     {
       "civilization": "Troy",
@@ -4948,12 +4942,6 @@
         "Tilokarat",
         "Mekuti"
       ]
-    },
-    {
-      "civilization": "Avar Khaganate",
-      "field": "capital",
-      "action": "none",
-      "value": ""
     },
     {
       "civilization": "Xiongnu",
@@ -5354,58 +5342,10 @@
       "value": "Poitiers"
     },
     {
-      "civilization": "Mitanni",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Sparta",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Mutapa Empire",
-      "field": "capital",
-      "action": "add",
-      "value": "Mount Fura"
-    },
-    {
-      "civilization": "Mutapa Empire",
-      "field": "after",
-      "action": "add",
-      "value": "Rozwi Empire"
-    },
-    {
       "civilization": "Puebloans - Chaco Regional System",
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Srivijaya",
-      "field": "after",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Srivijaya",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Teutonic Order",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Asuka Japan",
-      "field": "capital",
-      "action": "add",
-      "value": "Fujiwara-kyō"
     },
     {
       "civilization": "Brythons",
@@ -5458,12 +5398,6 @@
       "value": "Western Zhou"
     },
     {
-      "civilization": "Judea",
-      "field": "summary",
-      "action": "set",
-      "value": "A historical region of the Land of Israel around Jerusalem, ruled by the Hasmonean dynasty in the last two centuries BC."
-    },
-    {
       "civilization": "Kimek-Kipchak confederation",
       "field": "after",
       "action": "set",
@@ -5490,27 +5424,6 @@
       ]
     },
     {
-      "civilization": "Kingdom of Neustria",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 511,
-        "end": 751
-      }
-    },
-    {
-      "civilization": "Kingdom of Numidia",
-      "field": "after",
-      "action": "add",
-      "value": "Roman Republic"
-    },
-    {
-      "civilization": "Kingdom of Romania",
-      "field": "summary",
-      "action": "set",
-      "value": "A constitutional monarchy in southeastern Europe, ruled by the Hohenzollern-Sigmaringen dynasty from 1881 to 1947."
-    },
-    {
       "civilization": "Land of Punt",
       "field": "period",
       "action": "set",
@@ -5533,18 +5446,6 @@
       "value": "Kalingga Kingdom"
     },
     {
-      "civilization": "Minaeans",
-      "field": "after",
-      "action": "add",
-      "value": "Himyarite Kingdom"
-    },
-    {
-      "civilization": "Pala Empire",
-      "field": "before",
-      "action": "add",
-      "value": "Khadga dynasty"
-    },
-    {
       "civilization": "Principality of Chernigov",
       "field": "period",
       "action": "set",
@@ -5564,12 +5465,6 @@
       "field": "before",
       "action": "add",
       "value": "Majapahit"
-    },
-    {
-      "civilization": "Toltec",
-      "field": "after",
-      "action": "add",
-      "value": "Tepanec"
     },
     {
       "civilization": "Twenty-second Dynasty of Egypt",
@@ -5622,22 +5517,10 @@
       }
     },
     {
-      "civilization": "Avar Khaganate",
-      "field": "capital",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Great Moravia",
       "field": "after",
       "action": "set",
       "value": "Duchy of Bohemia"
-    },
-    {
-      "civilization": "Mahajanapadas",
-      "field": "after",
-      "action": "set",
-      "value": "Nanda Empire"
     }
   ],
   "unresolved_polities": {

@@ -31,7 +31,14 @@
   ],
   "parts": [],
   "before": [],
-  "after": [],
+  "after": [
+    {
+      "id": "Q3112053",
+      "region": "Indonesia",
+      "name": "Melayu",
+      "home": true
+    }
+  ],
   "key_figures": [
     {
       "id": "Q12480888",
@@ -72,7 +79,6 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Palembang",
     "not_applicable": {
-      "after": "outside review: Majapahit did not succeed Srivijaya, and no source names a state that did",
       "before": "earliest known state of Sumatra"
     },
     "labelled": [

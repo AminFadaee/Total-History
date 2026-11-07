@@ -2518,10 +2518,9 @@ civilization = "Mitanni"
 civilization_id = "Q178665"
 field = "before"
 action = "none"
-source = "https://www.worldhistory.org/Mitanni/"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/place/Mitanni"
+quote = "Mitanni was one of several kingdoms and small states (another being Hurri) founded by the Indo-Iranians in Mesopotamia and Syria."
+retrieved = 2026-11-07
 note = "earliest known Hurrian kingdom of northern Mesopotamia; no preceding state named by the sources"
 
 [[override]]
@@ -2553,10 +2552,9 @@ civilization = "Sparta"
 civilization_id = "Q5690"
 field = "before"
 action = "none"
-source = "https://www.worldhistory.org/Sparta/"
-quote = "c. 900 BCE Sparta is founded."
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/place/Sparta"
+quote = "Reputedly founded in the 9th century BCE with a rigid oligarchic constitution, the state of Sparta for centuries retained as lifetime corulers two kings who arbitrated in time of war."
+retrieved = 2026-11-07
 note = "founded about 900 BC by Dorians after the Mycenaean collapse; no preceding Spartan state"
 
 [[override]]
@@ -2711,11 +2709,10 @@ field = "capital"
 action = "add"
 value = "Mount Fura"
 value_id = "Q24235825"
-source = "https://www.newworldencyclopedia.org/entry/Kingdom_of_Mutapa"
-quote = "a capital was established 350 km north of Great Zimbabwe at Mount Fura by the Zambezi"
-retrieved = 2026-10-20
-note = "the only source was New World Encyclopedia; cited Wikipedia names Chitako-Changonya Hill as the first capital"
-needs_verification = true
+source = "https://www.britannica.com/place/Matapa-Southern-African-empire"
+quote = "During his reign the centre of the state was shifted from Zimbabwe north to Mount Fura on the Zambezi River."
+retrieved = 2026-11-07
+note = "Britannica names Mount Fura the centre of the state; cited Wikipedia names Chitako-Changonya Hill as the first capital"
 
 [[override]]
 civilization = "Mutapa Empire"
@@ -2728,20 +2725,6 @@ region = "Zimbabwe"
 source = "https://www.worldhistory.org/Mutapa/"
 quote = "The Shona thus formed a new state, the kingdom of Mutapa, from around 1450 CE, although it may well have been a case of the Zimbabwe ruling elite changing capital rather than a general population movement from the south."
 retrieved = 2026-11-07
-
-[[override]]
-civilization = "Mutapa Empire"
-civilization_id = "Q854468"
-field = "after"
-action = "add"
-value = "Rozwi Empire"
-value_id = "Q986822"
-region = "Zimbabwe"
-source = "https://www.newworldencyclopedia.org/entry/Kingdom_of_Mutapa"
-quote = "In 1684, his forces encountered and decisively defeated those of Mwene"
-retrieved = 2026-10-20
-note = "the only source was New World Encyclopedia; cited Wikipedia says only that the Rozvi took the gold regions in the 1690s"
-needs_verification = true
 
 [[override]]
 civilization = "Mutapa Empire"
@@ -3555,22 +3538,23 @@ derivation = "each end of the period is stated by a source"
 civilization = "Srivijaya"
 civilization_id = "Q234197"
 field = "after"
-action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "outside review: Majapahit did not succeed Srivijaya, and no source names a state that did"
+action = "add"
+value = "Melayu"
+value_id = "Q3112053"
+region = "Indonesia"
+source = "https://www.britannica.com/place/Srivijaya-empire"
+quote = "By the end of the 12th century Srivijaya had been reduced to a small kingdom, and its dominant role in Sumatra had been taken by Malayu (based in Jambi), a vassal of Java."
+retrieved = 2026-11-07
+note = "replaces \"no successor\": Britannica names Malayu"
 
 [[override]]
 civilization = "Srivijaya"
 civilization_id = "Q234197"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/place/Srivijaya-empire"
+quote = "The kingdom originated in Palembang on the island of Sumatra and soon extended its influence and controlled the Strait of Malacca."
+retrieved = 2026-11-07
 note = "earliest known state of Sumatra"
 
 [[override]]
@@ -3664,12 +3648,14 @@ needs_verification = false
 civilization = "Teutonic Order"
 civilization_id = "Q156020"
 field = "before"
-action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "founded as a hospital brotherhood in the Holy Land in 1190; no preceding state in Prussia"
+action = "add"
+value = "Old Prussians"
+value_id = "Q109073"
+region = "Poland"
+source = "https://www.britannica.com/topic/Teutonic-Order"
+quote = "By this charter, Frederick confirmed to Hermann and to the order not only the lands to be granted by Conrad but also those that the knights were to conquer from the Prussians."
+retrieved = 2026-11-07
+note = "replaces \"no predecessor\": the order conquered the land from the Prussians"
 
 [[override]]
 civilization = "Tibetan Empire"
@@ -3944,11 +3930,9 @@ field = "capital"
 action = "add"
 value = "Fujiwara-kyō"
 value_id = "Q1196381"
-source = "https://en.wikipedia.org/wiki/Asuka_period"
-quote = "Capital moved from Asuka to Fujiwara-kyō (694)"
-retrieved = 2026-10-20
-needs_verification = true
-note = "infobox timeline of the article; the capital stood in the Asuka region (Asuka-kyō) before 694; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.worldhistory.org/Asuka_Period/"
+quote = "In 645 CE the capital was moved to Naniwa, and between 694 and 710 CE it was at Fujiwarakyo."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Ayyubid Sultanate"
@@ -5367,12 +5351,14 @@ civilization = "Judea"
 civilization_id = "Q104028"
 field = "summary"
 action = "set"
-value = "A historical region of the Land of Israel around Jerusalem, ruled by the Hasmonean dynasty in the last two centuries BC."
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+value = "A mountainous region of the Levant, traditionally dominated by the city of Jerusalem."
+retrieved = 2026-11-07
 note = "the card had no summary"
+sources = [
+  { fact = "Judea is a mountainous region of the Levant", source = "https://en.wikipedia.org/wiki/Judea", quote = "is a mountainous region of the Levant" },
+  { fact = "It was traditionally dominated by Jerusalem", source = "https://en.wikipedia.org/wiki/Judea", quote = "Traditionally dominated by the city of Jerusalem, it is now part of Israel and the West Bank." },
+]
+derivation = "the opening two sentences, cut to what the region was"
 
 [[override]]
 civilization = "Kanva Dynasty"
@@ -6278,12 +6264,11 @@ civilization = "Kingdom of Neustria"
 civilization_id = "Q106577"
 field = "period"
 action = "set"
-value = { start = 511, end = 751 }
-source = "https://en.wikipedia.org/wiki/Neustria"
-quote = "Clovis I 481–511"
-retrieved = 2026-10-20
-needs_verification = true
-note = "Clovis died in 511 and the Frankish realm was divided among his sons, giving Neustria its first separate king (Chlodomer, Childebert I); end 751 is the deposition of Childeric III. Wikipedia lists the reigns without a citation; the Wikipedia sentence carries no citation, check against a reference book"
+value = { start = "6th century", end = "8th century" }
+source = "https://www.britannica.com/place/Neustria"
+quote = "Neustria, during the Merovingian period (6th–8th century) of early medieval Europe, the western Frankish kingdom, as distinct from Austrasia, the eastern kingdom."
+retrieved = 2026-11-07
+note = "replaces 511-751; the source gives centuries"
 
 [[override]]
 civilization = "Kingdom of Neustria"
@@ -6323,11 +6308,12 @@ action = "add"
 value = "Roman Republic"
 value_id = "Q17167"
 region = "Algeria"
-source = "https://en.wikipedia.org/wiki/Numidia"
-quote = "Caesar annexed eastern Numidia into the Roman province of Africa Nova, appointing his lieutenant Sallustius Crispus as governor."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+sources = [
+  { fact = "Caesar defeated Juba I, the last Numidian king, in 46 BC", source = "https://www.britannica.com/place/Numidia", quote = "The third and final attempt by a Numidian to found a powerful state was that of Juba I, between 49 and 46 BCE, ending with his defeat by Julius Caesar at Thapsus." },
+  { fact = "Numidia became a Roman province", source = "https://www.britannica.com/place/Numidia", quote = "Caesar formed a new province, Africa Nova, from Numidian territory, and Augustus united Africa Nova (“New Africa”) with Africa Vetus (“Old Africa,” the province surrounding Carthage), but a separate province of Numidia was formally created by Septimius Severus." },
+]
+derivation = "the state that conquered the kingdom and made it a province"
 
 [[override]]
 civilization = "Kingdom of Osroene"
@@ -6375,12 +6361,11 @@ civilization = "Kingdom of Romania"
 civilization_id = "Q203493"
 field = "summary"
 action = "set"
-value = "A constitutional monarchy in southeastern Europe, ruled by the Hohenzollern-Sigmaringen dynasty from 1881 to 1947."
+value = "A constitutional monarchy that existed from 1881 until 1947."
 source = "https://en.wikipedia.org/wiki/Kingdom_of_Romania"
-quote = "The Kingdom of Romania"
-retrieved = 2026-10-20
-needs_verification = true
-note = "shortens the date-heavy Wikipedia lead sentence to one plain sentence; the Wikipedia sentence carries no citation, check against a reference book"
+quote = "was a constitutional monarchy that existed from 25 March [O.S. 13 March] 1881 with the crowning of prince Karl of Hohenzollern-Sigmaringen as King Carol I (thus beginning the Romanian royal family), until 30 December 1947"
+retrieved = 2026-11-07
+note = "the opening sentence, cut to its subject and dates"
 
 [[override]]
 civilization = "Kingdom of Sardinia"
@@ -6948,14 +6933,13 @@ civilization = "Minaeans"
 civilization_id = "Q1177379"
 field = "after"
 action = "add"
-value = "Himyarite Kingdom"
-value_id = "Q289577"
+value = "Sabaeans"
+value_id = "Q216068"
 region = "Yemen"
-source = "https://en.wikipedia.org/wiki/Ma'in"
-quote = "Each of these had regional kingdoms in ancient Yemen, with the Minaeans in the north-west (in Wādī al-Jawf), the Sabaeans to the south-east of them, the Qatabānians to the south-east of the Sabaeans, and the Ḥaḑramites further east still."
-retrieved = 2026-10-20
-needs_verification = true
-note = "cited in Wikipedia, footnote 3"
+source = "https://www.britannica.com/place/Main-ancient-kingdom-Yemen"
+quote = "Maʿīn fell to the Sabaeans late in the 2nd century BCE."
+retrieved = 2026-11-07
+note = "replaces the Himyarite Kingdom"
 
 [[override]]
 civilization = "Moghulistan"
@@ -7306,15 +7290,11 @@ sources = [
 civilization = "Pala Empire"
 civilization_id = "Q668412"
 field = "before"
-action = "add"
-value = "Khadga dynasty"
-value_id = "Q6398879"
-region = "India"
-source = "https://en.wikipedia.org/wiki/Khadga_dynasty"
-quote = "the dynasty emerged as a powerful kingdom of Bengal between the fall of Gauda Kingdom and the rise of the Pala Empire"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+action = "none"
+source = "https://www.britannica.com/topic/Pala-dynasty"
+quote = "Its founder, Gopala, was a local chieftain who rose to power in the mid-8th century during a period of anarchy."
+retrieved = 2026-11-07
+note = "Gopala rose to power during a period of anarchy, after no single state"
 
 [[override]]
 civilization = "Pala Empire"
@@ -8182,14 +8162,13 @@ civilization = "Toltec"
 civilization_id = "Q187897"
 field = "after"
 action = "add"
-value = "Tepanec"
-value_id = "Q1537180"
+value = "Chichimeca"
+value_id = "Q1072137"
 region = "Mexico"
-source = "https://en.wikipedia.org/wiki/Toltec"
-quote = "Followed by League of Mayapan, Totonacapan, Azcapotzalco"
-retrieved = 2026-10-20
-needs_verification = true
-note = "Azcapotzalco was the Tepanec city state that rose in the same region; the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.britannica.com/topic/Toltec"
+quote = "Beginning in the 12th century, the invasion of the nomadic Chichimec destroyed the Toltec hegemony in central Mexico."
+retrieved = 2026-11-07
+note = "replaces the Tepanecs"
 
 [[override]]
 civilization = "Troy"
@@ -8855,17 +8834,6 @@ sources = [
 ]
 
 [[override]]
-civilization = "Avar Khaganate"
-civilization_id = "Q68962"
-field = "capital"
-action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "no source in the data names a capital"
-
-[[override]]
 civilization = "Xiongnu"
 civilization_id = "Q188836"
 field = "before"
@@ -9036,10 +9004,9 @@ action = "set"
 value = "Nanda Empire"
 value_id = "Q949268"
 region = "India"
-source = "https://en.wikipedia.org/wiki/Nanda_Empire"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://www.britannica.com/topic/Nanda-dynasty"
+quote = "The authenticity of the Puranic statement that he was the “destroyer of all Kshatriyas” and that he overthrew such disparately located powers as the Ikshvakus, Pancalas, Kashis, Haihayas, Kalingas, Ashmakas, Kurus, Maithilas, Shurasenas, and Vitihotras is borne out by independent evidence"
+retrieved = 2026-11-07
 note = "Nanda Empire rose from Magadha and absorbed the Mahajanapadas; the home is in India"
 
 [[override]]

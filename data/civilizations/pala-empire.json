@@ -38,14 +38,7 @@
     }
   ],
   "parts": [],
-  "before": [
-    {
-      "id": "Q6398879",
-      "region": "India",
-      "name": "Khadga dynasty",
-      "home": true
-    }
-  ],
+  "before": [],
   "after": [
     {
       "id": "Q2428714",
@@ -101,6 +94,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Pataliputra",
+    "not_applicable": {
+      "before": "Gopala rose to power during a period of anarchy, after no single state"
+    },
     "labelled": [
       "Rashtrakuta Dynasty",
       "Gurjara-Pratihara Dynasty",
