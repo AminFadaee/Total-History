@@ -8597,14 +8597,15 @@ civilization = "White Horde"
 civilization_id = "Q2553863"
 field = "period"
 action = "set"
-value = { start = 1226, end = 1428, circa = true }
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for White Horde ended in 1428"
+value = { start = 1225, end = 1428, circa = true }
+retrieved = 2026-11-07
+note = "start 1225 replaces 1226, as the source states; some historians see Abu'l-Khayr as continuing the Golden Horde rather than founding a new state"
 sources = [
-  { fact = "White Horde began in 1226", source = "https://en.wikipedia.org/wiki/White_Horde", quote = "formed around 1225" },
+  { fact = "The White Horde formed around 1225", source = "https://en.wikipedia.org/wiki/White_Horde", quote = "The White Horde (Chagatai: آق اۉردو; Kazakh: Ақ Орда, romanized: Aq Orda), or more appropriately, the left wing of the Jochid ulus, was one of the uluses within the Mongol Empire formed around 1225" },
+  { fact = "The Uzbek state arose out of the fragments of the White Horde", source = "K. Z. Ashrafyan, \"Central Asia under Timur from 1370 to the early fifteenth century\", in M. S. Asimov and C. E. Bosworth (eds.), History of Civilizations of Central Asia, Vol. IV, Part One, UNESCO Publishing, 1998", page = "343", quote = "A considerable threat was posed by the Uzbek nomads, whose state arose out of the fragments of the Golden and White Hordes" },
+  { fact = "The Uzbek state began in 1428", source = "https://en.wikipedia.org/wiki/Uzbek_Khanate", quote = "In 1428, Abulkhair Khan was proclaimed the ruler of a new political union of the Uzbeks, which in historical science is often referred to as the \"Khanate of Abulkhair\" or the \"State of the Nomadic Uzbeks\"." },
 ]
-derivation = "each end of the period is stated by a source"
+derivation = "the start is stated by a source; the end is the year the state that arose from its fragments began"
 
 [[override]]
 civilization = "White Horde"

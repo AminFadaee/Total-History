@@ -4810,7 +4810,7 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": 1226,
+        "start": 1225,
         "end": 1428,
         "circa": true
       }
@@ -5468,16 +5468,6 @@
       "field": "before",
       "action": "add",
       "value": "Dingnan Jiedushi"
-    },
-    {
-      "civilization": "White Horde",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 1226,
-        "end": 1428,
-        "circa": true
-      }
     },
     {
       "civilization": "Wu",
