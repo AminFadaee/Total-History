@@ -4694,14 +4694,14 @@
     {
       "civilization": "United Kingdoms of Sweden and Norway",
       "field": "before",
-      "action": "set",
-      "value": "Kingdom of Sweden"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "United Kingdoms of Sweden and Norway",
       "field": "after",
-      "action": "add",
-      "value": "Kingdom of Sweden"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "United States of America",
@@ -5367,18 +5367,6 @@
       "field": "after",
       "action": "add",
       "value": "Twenty-third Dynasty of Egypt"
-    },
-    {
-      "civilization": "United Kingdoms of Sweden and Norway",
-      "field": "before",
-      "action": "set",
-      "value": "Kingdom of Sweden"
-    },
-    {
-      "civilization": "United Kingdoms of Sweden and Norway",
-      "field": "after",
-      "action": "add",
-      "value": "Kingdom of Sweden"
     },
     {
       "civilization": "Wu",

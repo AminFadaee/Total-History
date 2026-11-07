@@ -8397,29 +8397,21 @@ note = "the United Kingdom still exists, so no later state follows"
 civilization = "United Kingdoms of Sweden and Norway"
 civilization_id = "Q62589"
 field = "before"
-action = "set"
-value = "Kingdom of Sweden"
-value_id = "Q34"
-region = "Sweden"
-source = "https://en.wikipedia.org/wiki/Union_between_Sweden_and_Norway"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox lists Sweden, Denmark-Norway and the Kingdom of Norway (1814) as predecessors; Sweden holds the home, Stockholm"
+action = "none"
+source = "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+quote = "Norway as a free and independent kingdom was united to Sweden under a common king"
+retrieved = 2026-11-07
+note = "a personal union of two kingdoms under one king; Sweden continued within it"
 
 [[override]]
 civilization = "United Kingdoms of Sweden and Norway"
 civilization_id = "Q62589"
 field = "after"
-action = "add"
-value = "Kingdom of Sweden"
-value_id = "Q34"
-region = "Sweden"
-source = "https://en.wikipedia.org/wiki/Union_between_Sweden_and_Norway"
-quote = "Norwegians of all political convictions had come to the conclusion that a fair solution to the conflict was impossible, and there was now a general consensus that the Union had to be dissolved."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the union ended in 1905; Sweden continued as a kingdom and Norway became independent; the Wikipedia sentence carries no citation, check against a reference book"
+action = "none"
+source = "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+quote = "Norway as a free and independent kingdom was united to Sweden under a common king"
+retrieved = 2026-11-07
+note = "a personal union of two kingdoms under one king; Sweden continued within it"
 
 [[override]]
 civilization = "United States of America"
