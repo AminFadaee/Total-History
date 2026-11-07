@@ -1744,11 +1744,11 @@ civilization = "Caucasian Iberia"
 civilization_id = "Q19083"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "earliest known state of Kartli; check"
+source = "Stephen H. Rapp Jr., Studies in Medieval Georgian Historiography: Early Texts and Eurasian Contexts, Peeters, 2003"
+page = "41"
+quote = "We have seen that traces of K‘art‘li’s ascendancy are evident already in the early Hellenistic age, soon after the death of Alexander “the Great,” when the first indigenous eastern Georgian monarchy was established at the city of Mc‘xet‘a (Mtskheta)."
+retrieved = 2026-11-07
+note = "the first indigenous eastern Georgian monarchy; the medieval chronicles put Alexander's governor Azon before it, a tradition, not an earlier state"
 
 [[override]]
 civilization = "Duchy of Aquitaine"
@@ -5800,14 +5800,16 @@ civilization = "Cuman-Kipchak Confederation"
 civilization_id = "Q1122052"
 field = "before"
 action = "set"
-value = "Kimek-Kipchak confederation"
-value_id = "Q2477776"
+value = "Oghuz Turks"
+value_id = "Q494462"
 region = "Ukraine"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Kipchaks rose out of the Kimek-Kipchak confederation of the Irtysh steppe; Agajanov (HCCA IV.1, p. 73) has the Kipchak move west into the Black Sea steppes, so the Kimek did not hold Ukraine before them"
+retrieved = 2026-11-07
+note = "replaces the Kimek-Kipchak confederation, which never held the Pontic steppes; diacritics as printed in Golden"
+sources = [
+  { fact = "The Western Oghuz replaced the Pechenegs in the Pontic steppes c. 1036-1050", source = "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Otto Harrassowitz, 1992", page = "269", quote = "The nomadic encampments of the Pečenegs in the eastern and central Pontic steppes had been replaced by those of the Western Oğuz, driven hither, ca. 1036-1050, by the Qıpčaqs." },
+  { fact = "The destruction of the Western Oghuz brought the Cuman-Kipchaks into the Pontic steppes", source = "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Otto Harrassowitz, 1992", page = "270", quote = "The virtual destruction of the Western Oğuz now brought the Quman-Qıpčaqs into the Pontic steppes." },
+]
+derivation = "the people who held the home region before the confederation moved in"
 
 [[override]]
 civilization = "Dál Riata"
@@ -6779,20 +6781,6 @@ quote = ""
 retrieved = 2026-10-20
 needs_verification = false
 note = "the capital moved between Medang (Mdang) in Central Java, Poh Pitu, Tamwlang, Watugaluh and Wwatan in East Java; none of these sites has been securely located"
-
-[[override]]
-civilization = "Mataram Kingdom"
-civilization_id = "Q402580"
-field = "before"
-action = "add"
-value = "Kalingga Kingdom"
-value_id = "Q11237141"
-region = "Indonesia"
-source = "https://en.wikipedia.org/wiki/Medang_Kingdom"
-quote = "The earlier kingdom linked as the predecessor of Mataram kingdom is Kalingga, located somewhere in Central Java northern coast."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
 
 [[override]]
 civilization = "Mataram Kingdom"

@@ -3270,7 +3270,7 @@
       "civilization": "Cuman-Kipchak Confederation",
       "field": "before",
       "action": "set",
-      "value": "Kimek-Kipchak confederation"
+      "value": "Oghuz Turks"
     },
     {
       "civilization": "Dál Riata",
@@ -3814,12 +3814,6 @@
       "field": "capital",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Mataram Kingdom",
-      "field": "before",
-      "action": "add",
-      "value": "Kalingga Kingdom"
     },
     {
       "civilization": "Mataram Kingdom",
@@ -5329,22 +5323,10 @@
   ],
   "needs_verification": [
     {
-      "civilization": "Caucasian Iberia",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Puebloans - Chaco Regional System",
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Cuman-Kipchak Confederation",
-      "field": "before",
-      "action": "set",
-      "value": "Kimek-Kipchak confederation"
     },
     {
       "civilization": "Land of Punt",
@@ -5355,12 +5337,6 @@
         "end": -980,
         "circa": true
       }
-    },
-    {
-      "civilization": "Mataram Kingdom",
-      "field": "before",
-      "action": "add",
-      "value": "Kalingga Kingdom"
     },
     {
       "civilization": "Twenty-second Dynasty of Egypt",
