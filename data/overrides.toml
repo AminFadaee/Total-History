@@ -976,10 +976,10 @@ value = "Kingdom of France"
 value_id = "Q70972"
 region = "France"
 source = "https://en.wikipedia.org/wiki/French_colonial_empire"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the first French colonies were founded under the Kingdom of France; check"
+quote = "France began to establish colonies in the Americas, the Caribbean, and India in the 16th century but lost most of its possessions after its defeat in the Seven Years' War."
+retrieved = 2026-11-07
+note = "the empire was France's own overseas realm, founded under the kingdom"
+same_state = true
 
 [[override]]
 civilization = "French colonial empire"
@@ -3122,10 +3122,14 @@ action = "add"
 value = "Kingdom of Portugal"
 value_id = "Q45670"
 region = "Portugal"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-11-07
+note = "the empire was the Kingdom of Portugal's overseas realm"
+sources = [
+  { fact = "The empire's history begins with the Kingdom of Portugal", source = "https://en.wikipedia.org/wiki/Portuguese_Empire", quote = "The origin of the Kingdom of Portugal lay in the Reconquista, the gradual reconquest of the Iberian Peninsula from the Moors." },
+  { fact = "The Portuguese state was the empire's home", source = "https://en.wikipedia.org/wiki/Portuguese_Empire", quote = "In 1815 Brazil was elevated to the status of kingdom, the Portuguese state officially becoming the United Kingdom of Portugal, Brazil and the Algarves (Reino Unido de Portugal, Brasil e Algarves), and the capital was transferred from Lisbon to Rio de Janeiro" },
+]
+derivation = "the empire was the overseas realm of the home state"
+same_state = true
 
 [[override]]
 civilization = "Portuguese Empire"
@@ -3135,11 +3139,14 @@ action = "add"
 value = "Portuguese Republic"
 value_id = "Q45"
 region = "Portugal"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the empire ended with the handover of Macau in 1999; the home state continues"
+retrieved = 2026-11-07
+note = "the empire ended with the handover of Macau in 1999; the home state continues as the Portuguese Republic"
+sources = [
+  { fact = "The empire ended with the handover of Macau in 1999", source = "https://en.wikipedia.org/wiki/Portuguese_Empire", quote = "The handover of Macau on 20 December 1999 officially marked the end of the Portuguese Empire and the end of colonialism in Asia." },
+  { fact = "Portugal itself handed Macau over", source = "https://en.wikipedia.org/wiki/Portuguese_Empire", quote = "Macau was returned to China on 20 December 1999, under the terms of an agreement negotiated between People's Republic of China and Portugal twelve years earlier." },
+]
+derivation = "the home state that remained when the empire ended"
+same_state = true
 
 [[override]]
 civilization = "Principality of Hungary"
@@ -8052,10 +8059,10 @@ value = "Kingdom of Sweden"
 value_id = "Q34"
 region = "Sweden"
 source = "https://en.wikipedia.org/wiki/Swedish_Empire"
-quote = "With his death, Swedish war efforts mostly came to a halt, although Russia continued to harass the civilian population of the Swedish coastal areas until the concluding Treaty of Nystad was finally signed in 1721."
-retrieved = 2026-10-20
-needs_verification = true
-note = "after 1721 Sweden continued as a kingdom in the Age of Liberty; the Wikipedia sentence carries no citation, check against a reference book"
+quote = "The Swedish Empire, referred to in Sweden as the Great Power Era (Swedish: stormaktstiden), was the period in Swedish history spanning much of the 17th and early 18th centuries during which Sweden was a European great power"
+retrieved = 2026-11-07
+note = "the Swedish Empire was Sweden in its great-power era"
+same_state = true
 
 [[override]]
 civilization = "Swedish Empire"

@@ -5336,12 +5336,6 @@
   ],
   "needs_verification": [
     {
-      "civilization": "French colonial empire",
-      "field": "before",
-      "action": "set",
-      "value": "Kingdom of France"
-    },
-    {
       "civilization": "Caucasian Iberia",
       "field": "before",
       "action": "none",
@@ -5382,18 +5376,6 @@
       "field": "after",
       "action": "add",
       "value": "Rozwi Empire"
-    },
-    {
-      "civilization": "Portuguese Empire",
-      "field": "before",
-      "action": "add",
-      "value": "Kingdom of Portugal"
-    },
-    {
-      "civilization": "Portuguese Empire",
-      "field": "after",
-      "action": "add",
-      "value": "Portuguese Republic"
     },
     {
       "civilization": "Puebloans - Chaco Regional System",
@@ -5582,12 +5564,6 @@
       "field": "before",
       "action": "add",
       "value": "Majapahit"
-    },
-    {
-      "civilization": "Swedish Empire",
-      "field": "after",
-      "action": "add",
-      "value": "Kingdom of Sweden"
     },
     {
       "civilization": "Toltec",
