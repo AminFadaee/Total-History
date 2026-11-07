@@ -1,11 +1,13 @@
 import argparse
 import logging
 import pathlib
+import sys
 
 from page_in_history import quality
 from page_in_history.collect import Collector, DataPaths, Slice, load_documents
 from page_in_history.deck import build_deck
 from page_in_history.photos import PhotoMode
+from page_in_history.review import check, review
 from page_in_history.samples import render_samples
 
 DATA_DIR = pathlib.Path("data")
@@ -44,6 +46,11 @@ def parse_args() -> argparse.Namespace:
     deck.add_argument("--data-dir", type=pathlib.Path, default=DATA_DIR)
     deck.add_argument("--output", type=pathlib.Path, default=DECK_FILE)
 
+    changes = commands.add_parser("review", help="review the changes a collect made to the fact files and approve them")
+    changes.add_argument("--data-dir", type=pathlib.Path, default=DATA_DIR)
+    changes.add_argument("--approve", action="store_true", help="approve every change without asking")
+    changes.add_argument("--check", action="store_true", help="fail if staged fact files were not approved (for the hook)")
+
     samples = commands.add_parser("samples", help="render sample cards from the built deck")
     samples.add_argument("--deck", type=pathlib.Path, default=DECK_FILE)
     samples.add_argument("--output", type=pathlib.Path, default=SAMPLES_DIR)
@@ -64,6 +71,9 @@ def main() -> None:
             paths = DataPaths(args.data_dir)
             build_deck(load_documents(paths.civilizations), load_documents(paths.figures), args.data_dir, BUILD_DIR,
                        args.output)
+        case "review":
+            raise SystemExit(check(args.data_dir) if args.check else
+                             review(args.data_dir, sys.stdin.isatty() and not args.approve, args.approve))
         case "samples":
             render_samples(args.deck, args.output)
 
