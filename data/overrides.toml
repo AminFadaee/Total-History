@@ -8643,11 +8643,10 @@ action = "add"
 value = "Uzbek Khanate"
 value_id = "Q15535871"
 region = "Kazakhstan"
-source = "https://en.wikipedia.org/wiki/White_Horde"
-quote = "Since then, families of Jochi's sons, Tuqa-Timur, Shiban and Orda, began to merge with each other, establishing the Uzbeg and Kazakh hordes."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "K. Z. Ashrafyan, \"Central Asia under Timur from 1370 to the early fifteenth century\", in M. S. Asimov and C. E. Bosworth (eds.), History of Civilizations of Central Asia, Vol. IV, Part One, UNESCO Publishing, 1998"
+page = "343"
+quote = "A considerable threat was posed by the Uzbek nomads, whose state arose out of the fragments of the Golden and White Hordes"
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Wu"
