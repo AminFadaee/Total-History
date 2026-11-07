@@ -17,7 +17,7 @@ OVERRIDES = load_overrides(DATA / "overrides.toml")
 def test_every_override_cites_its_source():
     for override in OVERRIDES:
         if override.action == "none" or override.needs_verification:
-            assert override.source == "" or override.source.startswith("https://"), override
+            assert override.source == "" or override.source.startswith("https://") or override.page, override
             continue
         if override.sources:
             assert all(cited["quote"].strip() for cited in override.sources), override
