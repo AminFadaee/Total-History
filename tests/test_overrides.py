@@ -6,7 +6,7 @@ from types import SimpleNamespace
 import pytest
 
 from page_in_history.dates import Span
-from page_in_history.overrides import FIELDS, LIST_FIELDS, apply_overrides, load_overrides
+from page_in_history.overrides import FIELDS, LIST_FIELDS, apply_overrides, load_overrides, period_span
 from page_in_history.polities import Period, Polity
 
 DATA = pathlib.Path(__file__).resolve().parents[1] / "data"
@@ -48,7 +48,7 @@ def reflected(override, civilization) -> bool:
         return override.field in civilization["checks"].get("not_applicable", {})
     if override.field == "period":
         period = civilization["period"]
-        return all(period[end] and (period[end]["earliest"], period[end]["latest"]) == (year, year)
+        return all(period[end] and Span(period[end]["earliest"], period[end]["latest"]) == period_span(year)
                    for end, year in override.value.items() if end != "circa")
     if override.field in ("map_year", "summary"):
         return civilization[override.field] == override.value
@@ -206,4 +206,16 @@ def test_a_dispute_cites_its_source_and_names_one_end(tmp_path):
         load_overrides(path)
     path.write_text(DISPUTES.replace("{ end = 750, circa = true }", "{ start = 1, end = 750 }"))
     with pytest.raises(ValueError, match="one end"):
+        load_overrides(path)
+
+
+def test_a_period_end_can_be_a_century(tmp_path):
+    path = tmp_path / "overrides.toml"
+    path.write_text(DISPUTES.split("\n\n[[override]]")[0].replace("{ end = 550, circa = true }", '{ start = "6th century" }'))
+    polity = Polity(id="Q1", slug="testland", name="Testland", wikipedia="Testland", map_year=900,
+                    period=Period(Span(300, 300), Span(1201, 1300), True))
+    apply_overrides([polity], load_overrides(path), FakeWikidata())
+    assert polity.period.start == Span(501, 600)
+    path.write_text(DISPUTES.split("\n\n[[override]]")[0].replace("{ end = 550, circa = true }", '{ start = "early" }'))
+    with pytest.raises(ValueError, match="written date"):
         load_overrides(path)

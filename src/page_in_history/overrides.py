@@ -3,7 +3,7 @@ import pathlib
 import tomllib
 from dataclasses import dataclass, field
 
-from page_in_history.dates import Span
+from page_in_history.dates import Span, parse
 from page_in_history.errata import Erratum
 from page_in_history.polities import Polity
 from page_in_history.sources.wikidata import Wikidata
@@ -95,9 +95,9 @@ def _validate(override: Override) -> None:
         raise ValueError(f"{who}: a period is a table of {', '.join(sorted(PERIOD_KEYS))}")
     if override.field == "map_year" and not isinstance(override.value, int):
         raise ValueError(f"{who}: a map year is a whole number")
-    if override.field == "period" and any(not isinstance(year, int) for key, year in override.value.items()
-                                           if key in ("start", "end", "since") and year is not None):
-        raise ValueError(f"{who}: period years are whole numbers")
+    if override.field == "period" and any(period_span(year) is None for key, year in override.value.items()
+                                           if key in ("start", "end", "since")):
+        raise ValueError(f"{who}: a period end is a year or a written date such as \"6th century\"")
     if override.field in ("map_year", "summary") and override.action == "add":
         raise ValueError(f"{who}: {override.field} can only be set")
     if override.action == "set" and override.field in LIST_FIELDS and not isinstance(override.value, list) \
@@ -190,12 +190,19 @@ def _disputes(polity: Polity, overrides: list[Override], name_of) -> list[dict]:
     return disputes
 
 
+def period_span(value: int | str, circa: bool = False) -> Span | None:
+    """A year, or a written date the sources give instead of one: "6th century", "6th century BC"."""
+    if isinstance(value, int):
+        return Span(value, value, circa)
+    return parse(value) if isinstance(value, str) and "century" in value else None
+
+
 def _set_period(polity: Polity, override: Override) -> None:
     period, value = polity.period, override.value
     circa = value.get("circa", False)
     for end in ("start", "end", "since"):
         if end in value:
-            setattr(period, end, Span(value[end], value[end], circa))
+            setattr(period, end, period_span(value[end], circa))
     if "since" in value:
         period.start = period.start or period.since
         period.end = None

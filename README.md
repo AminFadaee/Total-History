@@ -296,7 +296,8 @@ test fails on an entry that no longer matches anything.
 `data/overrides.toml` is the reverse: a reviewed, sourced list of facts the automated sources miss or get wrong. An
 entry names a civilization, one field (`before`, `after`, `period`, `capital`, `key_figures`, `map_year`,
 `modern_countries` or `summary`) and an action: `add` appends to a list, `set` replaces the field (the whole list for
-capitals, key figures and modern countries; `{ start, end, circa }` or `{ since }` for a period) and `none` records that
+capitals, key figures and modern countries; `{ start, end, circa }` or `{ since }` for a period, each a year or, when the source gives only that, a century such as
+`"6th century"`) and `none` records that
 the field does not apply, with the reason, in the civilization's `checks.not_applicable`, so a deliberate gap can be told
 from a missing one; `dispute` records another value a different source gives for a period's start or end, or for the
 home `before` or `after`, which the card shows beside the deck's own. Setting `map_year` redraws the map at that year, and the parts and modern countries follow it unless
