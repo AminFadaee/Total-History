@@ -70,12 +70,18 @@ what_line_outside_period = [
 
 # Fields emptied when a wrong value was removed, still to fill from a source.
 unfilled = [
+  ["Ajuran Sultanate", "key_figures"],
   ["Chaldea", "modern_countries"],
   ["Chimor", "before"],
   ["Duchy of Burgundy", "before"],
   ["Janapada of Magadha", "before"],
+  ["Kanem–Bornu Empire", "before"],
+  ["Kievan Rus'", "before"],
   ["Kingdom of Pontus", "before"],
   ["Lu", "before"],
+  ["Old Swiss Confederacy", "before"],
   ["Old Swiss Confederacy", "key_figures"],
+  ["Puebloans - Chaco Regional System", "key_figures"],
   ["South African Republic", "before"],
+  ["Zapotec Civilization", "key_figures"],
 ]

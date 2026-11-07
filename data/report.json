@@ -542,8 +542,8 @@
     {
       "civilization": "Chu",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "add",
+      "value": "Western Zhou"
     },
     {
       "civilization": "Classical Athens",
@@ -652,9 +652,7 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Tarquinius Priscus",
-        "Lars Porsena",
-        "Tarquinius Superbus"
+        "Lars Porsena"
       ]
     },
     {
@@ -709,10 +707,7 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Klemens von Metternich",
-        "Frederick William IV of Prussia",
-        "Franz Joseph I",
-        "Otto von Bismarck"
+        "Klemens von Metternich"
       ]
     },
     {
@@ -914,12 +909,6 @@
       "value": "Rabih az-Zubayr"
     },
     {
-      "civilization": "Kanem–Bornu Empire",
-      "field": "before",
-      "action": "add",
-      "value": "Sao civilization"
-    },
-    {
       "civilization": "Kazakh Khanate",
       "field": "before",
       "action": "add",
@@ -942,12 +931,6 @@
       "field": "after",
       "action": "set",
       "value": "Post-Angkor Cambodia"
-    },
-    {
-      "civilization": "Kievan Rus'",
-      "field": "before",
-      "action": "add",
-      "value": "Rus' Khaganate"
     },
     {
       "civilization": "Kingdom of Axum",
@@ -1147,12 +1130,6 @@
       ]
     },
     {
-      "civilization": "Ajuran Sultanate",
-      "field": "key_figures",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "British Empire",
       "field": "period",
       "action": "set",
@@ -1340,7 +1317,7 @@
       "action": "set",
       "value": [
         "Ulugh Muhammad",
-        "Ibrahim of Kazan",
+        "Mäxmüd of Kazan",
         "Yadegar Mokhammad of Kazan"
       ]
     },
@@ -1935,21 +1912,17 @@
       "action": "set",
       "value": {
         "start": 850,
-        "end": 1250,
+        "end": "12th century",
         "circa": true
       }
     },
     {
       "civilization": "Puebloans - Chaco Regional System",
       "field": "capital",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Puebloans - Chaco Regional System",
-      "field": "key_figures",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": [
+        "Chaco Canyon"
+      ]
     },
     {
       "civilization": "Puebloans - Chaco Regional System",
@@ -1966,8 +1939,10 @@
     {
       "civilization": "Pyu City-States",
       "field": "key_figures",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": [
+        "Duttabaung"
+      ]
     },
     {
       "civilization": "Pyu City-States",
@@ -2044,8 +2019,10 @@
     {
       "civilization": "Rouran Khaganate",
       "field": "capital",
-      "action": "none",
-      "value": ""
+      "action": "set",
+      "value": [
+        "Mumocheng"
+      ]
     },
     {
       "civilization": "Rouran Khaganate",
@@ -2201,8 +2178,7 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": 700,
-        "circa": true
+        "start": "9th century"
       }
     },
     {
@@ -2231,12 +2207,6 @@
       "field": "after",
       "action": "add",
       "value": "Rouran Khaganate"
-    },
-    {
-      "civilization": "Zapotec Civilization",
-      "field": "key_figures",
-      "action": "none",
-      "value": ""
     },
     {
       "civilization": "Zapotec Civilization",
@@ -3056,7 +3026,7 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": -140,
+        "start": -141,
         "end": -37,
         "circa": false
       }
@@ -3588,8 +3558,7 @@
       "value": [
         "Chilperic I",
         "Clothar II",
-        "Ebroin",
-        "Childeric III"
+        "Ebroin"
       ]
     },
     {
@@ -3684,8 +3653,7 @@
       "field": "period",
       "action": "set",
       "value": {
-        "since": 995,
-        "circa": true
+        "since": "10th century"
       }
     },
     {
@@ -3712,8 +3680,8 @@
     {
       "civilization": "Kingdom of Wessex",
       "field": "before",
-      "action": "set",
-      "value": "Sub-Roman Britain"
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Lakhmid Kingdom",
@@ -3886,8 +3854,8 @@
     {
       "civilization": "Median Kingdom",
       "field": "before",
-      "action": "none",
-      "value": ""
+      "action": "add",
+      "value": "Neo-Assyrian Empire"
     },
     {
       "civilization": "Merina Kingdom",
@@ -4115,12 +4083,6 @@
       "field": "capital",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Old Swiss Confederacy",
-      "field": "before",
-      "action": "add",
-      "value": "Holy Roman Empire"
     },
     {
       "civilization": "Pala Empire",
@@ -4462,9 +4424,7 @@
       "action": "set",
       "value": [
         "Halfdan the Black",
-        "Harald Fairhair",
-        "Gorm the Old",
-        "Harald Bluetooth"
+        "Gorm the Old"
       ]
     },
     {
@@ -4867,8 +4827,7 @@
       "action": "set",
       "value": [
         "Orda Khan",
-        "Urus Khan",
-        "Barak Khan"
+        "Urus Khan"
       ]
     },
     {
@@ -4914,8 +4873,7 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Wang Mang",
-        "Gengshi Emperor"
+        "Wang Mang"
       ]
     },
     {
@@ -5094,7 +5052,6 @@
       "field": "capital",
       "action": "set",
       "value": [
-        "Jelling",
         "Roskilde"
       ]
     },
@@ -5149,20 +5106,6 @@
         "Iraq",
         "Iran",
         "Afghanistan"
-      ]
-    },
-    {
-      "civilization": "Songhai Empire",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Mali",
-        "Niger",
-        "Burkina Faso",
-        "Nigeria",
-        "Mauritania",
-        "Senegal",
-        "Gambia"
       ]
     },
     {
@@ -5393,67 +5336,10 @@
   ],
   "needs_verification": [
     {
-      "civilization": "Chu",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Empire of China",
-      "field": "before",
-      "action": "add",
-      "value": "Republic of China"
-    },
-    {
-      "civilization": "Etruscans",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Tarquinius Priscus",
-        "Lars Porsena",
-        "Tarquinius Superbus"
-      ]
-    },
-    {
       "civilization": "French colonial empire",
       "field": "before",
       "action": "set",
       "value": "Kingdom of France"
-    },
-    {
-      "civilization": "German Confederation",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Klemens von Metternich",
-        "Frederick William IV of Prussia",
-        "Franz Joseph I",
-        "Otto von Bismarck"
-      ]
-    },
-    {
-      "civilization": "Iberian Union",
-      "field": "after",
-      "action": "set",
-      "value": "Spanish Empire"
-    },
-    {
-      "civilization": "Kanem–Bornu Empire",
-      "field": "before",
-      "action": "add",
-      "value": "Sao civilization"
-    },
-    {
-      "civilization": "Kievan Rus'",
-      "field": "before",
-      "action": "add",
-      "value": "Rus' Khaganate"
-    },
-    {
-      "civilization": "Kingdom of Germany",
-      "field": "after",
-      "action": "add",
-      "value": "Holy Roman Empire"
     },
     {
       "civilization": "Caucasian Iberia",
@@ -5474,39 +5360,6 @@
       "value": "Poitiers"
     },
     {
-      "civilization": "Ajuran Sultanate",
-      "field": "key_figures",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Ahmadnagar Sultanate",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ahmad Nizam Shah I",
-        "Hussain Nizam Shah I",
-        "Chand Bibi",
-        "Malik Ambar"
-      ]
-    },
-    {
-      "civilization": "Khanate of Kazan",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ulugh Muhammad",
-        "Ibrahim of Kazan",
-        "Yadegar Mokhammad of Kazan"
-      ]
-    },
-    {
-      "civilization": "Minoan civilization",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Mitanni",
       "field": "before",
       "action": "none",
@@ -5514,12 +5367,6 @@
     },
     {
       "civilization": "Sparta",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Zapotec Civilization",
       "field": "before",
       "action": "none",
       "value": ""
@@ -5537,18 +5384,6 @@
       "value": "Rozwi Empire"
     },
     {
-      "civilization": "Kingdom of Urartu",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Olmec Civilization",
-      "field": "key_figures",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Portuguese Empire",
       "field": "before",
       "action": "add",
@@ -5562,47 +5397,7 @@
     },
     {
       "civilization": "Puebloans - Chaco Regional System",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 850,
-        "end": 1250,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Puebloans - Chaco Regional System",
-      "field": "capital",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Puebloans - Chaco Regional System",
-      "field": "key_figures",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Puebloans - Chaco Regional System",
       "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Pyu City-States",
-      "field": "key_figures",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Pyu City-States",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Rouran Khaganate",
-      "field": "capital",
       "action": "none",
       "value": ""
     },
@@ -5619,35 +5414,8 @@
       "value": ""
     },
     {
-      "civilization": "Teotihuacan",
-      "field": "capital",
-      "action": "add",
-      "value": "Teotihuacan"
-    },
-    {
-      "civilization": "Teotihuacan",
-      "field": "key_figures",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Teutonic Order",
       "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
-      "civilization": "Volga Bulgaria",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 700,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Zapotec Civilization",
-      "field": "key_figures",
       "action": "none",
       "value": ""
     },
@@ -5666,33 +5434,6 @@
         "end": 1100,
         "circa": true
       }
-    },
-    {
-      "civilization": "Commonwealth of Australia",
-      "field": "before",
-      "action": "set",
-      "value": "British Empire"
-    },
-    {
-      "civilization": "Commonwealth of England",
-      "field": "after",
-      "action": "set",
-      "value": "Kingdom of England"
-    },
-    {
-      "civilization": "Cornwall",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Geraint of Dumnonia",
-        "Æthelstan"
-      ]
-    },
-    {
-      "civilization": "Dahomey",
-      "field": "map_year",
-      "action": "set",
-      "value": 1800
     },
     {
       "civilization": "Duchy of Savoy",
@@ -5736,16 +5477,6 @@
     },
     {
       "civilization": "Judea",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -140,
-        "end": -37,
-        "circa": false
-      }
-    },
-    {
-      "civilization": "Judea",
       "field": "summary",
       "action": "set",
       "value": "A historical region of the Land of Israel around Jerusalem, ruled by the Hasmonean dynasty in the last two centuries BC."
@@ -5777,15 +5508,6 @@
       ]
     },
     {
-      "civilization": "Eastern Wei",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Gao Huan",
-        "Emperor Xiaojing of Eastern Wei"
-      ]
-    },
-    {
       "civilization": "Kingdom of Neustria",
       "field": "period",
       "action": "set",
@@ -5793,17 +5515,6 @@
         "start": 511,
         "end": 751
       }
-    },
-    {
-      "civilization": "Kingdom of Neustria",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Chilperic I",
-        "Clothar II",
-        "Ebroin",
-        "Childeric III"
-      ]
     },
     {
       "civilization": "Kingdom of Numidia",
@@ -5816,32 +5527,6 @@
       "field": "summary",
       "action": "set",
       "value": "A constitutional monarchy in southeastern Europe, ruled by the Hohenzollern-Sigmaringen dynasty from 1881 to 1947."
-    },
-    {
-      "civilization": "Kingdom of Saxony",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Frederick Augustus I of Saxony",
-        "Frederick Augustus II of Saxony",
-        "Albert of Saxony",
-        "Frederick Augustus III of Saxony"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Sweden",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "since": 995,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Kingdom of Wessex",
-      "field": "before",
-      "action": "set",
-      "value": "Sub-Roman Britain"
     },
     {
       "civilization": "Land of Punt",
@@ -5866,22 +5551,10 @@
       "value": "Kalingga Kingdom"
     },
     {
-      "civilization": "Median Kingdom",
-      "field": "before",
-      "action": "none",
-      "value": ""
-    },
-    {
       "civilization": "Minaeans",
       "field": "after",
       "action": "add",
       "value": "Himyarite Kingdom"
-    },
-    {
-      "civilization": "Old Swiss Confederacy",
-      "field": "before",
-      "action": "add",
-      "value": "Holy Roman Empire"
     },
     {
       "civilization": "Pala Empire",
@@ -5903,43 +5576,6 @@
       "field": "after",
       "action": "add",
       "value": "Grand Duchy of Lithuania"
-    },
-    {
-      "civilization": "Principality of Kiev",
-      "field": "before",
-      "action": "add",
-      "value": "Kievan Rus'"
-    },
-    {
-      "civilization": "Saffarid Dynasty",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ya'qub ibn al-Layth al-Saffar",
-        "Amr ibn al-Layth",
-        "Abu Ja'far Ahmad ibn Muhammad",
-        "Khalaf ibn Ahmad"
-      ]
-    },
-    {
-      "civilization": "Scandinavian minor kingdoms",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 793,
-        "end": 1066
-      }
-    },
-    {
-      "civilization": "Scandinavian minor kingdoms",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Halfdan the Black",
-        "Harald Fairhair",
-        "Gorm the Old",
-        "Harald Bluetooth"
-      ]
     },
     {
       "civilization": "Sultanate of Brunei",
@@ -5978,22 +5614,6 @@
       "value": "Kingdom of Sweden"
     },
     {
-      "civilization": "Viking settlements",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ivar the Boneless",
-        "Rollo",
-        "Erik the Red"
-      ]
-    },
-    {
-      "civilization": "Warring States Japan",
-      "field": "after",
-      "action": "add",
-      "value": "Azuchi–Momoyama period"
-    },
-    {
       "civilization": "Western Xia",
       "field": "before",
       "action": "add",
@@ -6008,16 +5628,6 @@
         "end": 1428,
         "circa": true
       }
-    },
-    {
-      "civilization": "White Horde",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Orda Khan",
-        "Urus Khan",
-        "Barak Khan"
-      ]
     },
     {
       "civilization": "White Horde",
@@ -6036,15 +5646,6 @@
       }
     },
     {
-      "civilization": "Xin Dynasty",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Wang Mang",
-        "Gengshi Emperor"
-      ]
-    },
-    {
       "civilization": "Avar Khaganate",
       "field": "capital",
       "action": "none",
@@ -6061,29 +5662,6 @@
       "field": "after",
       "action": "set",
       "value": "Nanda Empire"
-    },
-    {
-      "civilization": "Kingdom of Denmark",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "Jelling",
-        "Roskilde"
-      ]
-    },
-    {
-      "civilization": "Songhai Empire",
-      "field": "modern_countries",
-      "action": "set",
-      "value": [
-        "Mali",
-        "Niger",
-        "Burkina Faso",
-        "Nigeria",
-        "Mauritania",
-        "Senegal",
-        "Gambia"
-      ]
     }
   ],
   "unresolved_polities": {

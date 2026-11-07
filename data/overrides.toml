@@ -740,13 +740,14 @@ derivation = "every listed item has its own source"
 civilization = "Chu"
 civilization_id = "Q504759"
 field = "before"
-action = "none"
+action = "add"
+value = "Western Zhou"
+value_id = "Q1069609"
 region = "China"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Chu arose as a vassal state of the Zhou; no predecessor state"
+source = "https://en.wikipedia.org/wiki/Chu_(state)"
+quote = "After the Zhou overthrew the Shang dynasty, King Cheng (r. 1042–1021 BC) enfeoffed Yuxiong's great-grandson Xiong Yi with the fiefdom of Chu in the Nanyang Basin and the hereditary title of zǐ (子; \"viscount\")."
+retrieved = 2026-11-07
+note = "replaces \"no predecessor\": Chu began as a fief granted by the Zhou king"
 
 [[override]]
 civilization = "Classical Athens"
@@ -896,10 +897,12 @@ action = "add"
 value = "Republic of China"
 value_id = "Q13426199"
 region = "China"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-11-07
+sources = [
+  { fact = "Yuan Shikai was president of the Republic of China", source = "https://en.wikipedia.org/wiki/Empire_of_China_(1915–1916)", quote = "After Yuan Shikai was installed as the second Provisional Great President of the Republic of China established by Sun Yat-sen, he took various steps to consolidate his power and remove opposition leaders from office." },
+  { fact = "The Republic was renamed the Empire of China", source = "https://en.wikipedia.org/wiki/Empire_of_China_(1915–1916)", quote = "Although the name of the country in Chinese was changed to the \"Empire of China\", or \"Hongxian\" for state matters, the country continued to be officially referred to as the \"Republic of China\" in English." },
+]
+derivation = "the state was renamed from its predecessor"
 
 [[override]]
 civilization = "Empire of China"
@@ -955,15 +958,14 @@ civilization = "Etruscans"
 civilization_id = "Q17161"
 field = "key_figures"
 action = "set"
-value = ["Tarquinius Priscus", "Lars Porsena", "Tarquinius Superbus"]
-value_id = ["Q212671", "Q346588", "Q193047"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Tarquinius Priscus was a ruler or leading figure of Etruscans; Tarquinius Superbus was a ruler or leading figure of Etruscans"
+value = ["Lars Porsena"]
+value_id = ["Q346588"]
+retrieved = 2026-11-07
+note = "Tarquinius Priscus and Tarquinius Superbus dropped: their sentences make them kings of Rome"
 sources = [
   { fact = "Lars Porsena was a ruler or leading figure of Etruscans", source = "https://www.britannica.com/biography/Lars-Porsena", quote = "the Etruscan king Lars Porsena." },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "French colonial empire"
@@ -1056,12 +1058,14 @@ civilization = "German Confederation"
 civilization_id = "Q151624"
 field = "key_figures"
 action = "set"
-value = ["Klemens von Metternich", "Frederick William IV of Prussia", "Franz Joseph I", "Otto von Bismarck"]
-value_id = ["Q45662", "Q57180", "Q51056", "Q8442"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+value = ["Klemens von Metternich"]
+value_id = ["Q45662"]
+retrieved = 2026-11-07
+note = "Frederick William IV, Franz Joseph I and Bismarck dropped: no cited sentence gives them an office in the Confederation"
+sources = [
+  { fact = "Klemens von Metternich was a ruler or leading figure of German Confederation", source = "https://en.wikipedia.org/wiki/German_Confederation", quote = "Metternich used the murder as a pretext to issue the Carlsbad Decrees of 1819, which dissolved the Burschenschaften, cracked down on the liberal press, and seriously restricted academic freedom." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Ghana Empire"
@@ -1318,11 +1322,13 @@ action = "set"
 value = "Spanish Empire"
 value_id = "Q80702"
 region = "Spain"
-source = "https://en.wikipedia.org/wiki/Iberian_Union"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-11-07
 note = "the union ended in 1640 when Portugal rebelled; Madrid, the home, stayed with the Spanish Empire; check"
+sources = [
+  { fact = "The union was the Monarchy of Spain holding Portugal from 1580 to 1640", source = "https://en.wikipedia.org/wiki/Iberian_Union", quote = "The Iberian Union, or the Hispanic Monarchy, describes the period from 1580 to 1640 in which the Monarchy of Spain under the Habsburg dynasty, then the personal union of the crowns of Castile and Aragon, brought in personal union also the Kingdom of Portugal" },
+  { fact = "Portugal broke away in 1640", source = "https://en.wikipedia.org/wiki/Iberian_Union", quote = "This situation culminated in a revolution by the nobility and high bourgeoisie on 1 December 1640, 60 years after the crowning of Philip I." },
+]
+derivation = "the home state that remained when the union ended"
 
 [[override]]
 civilization = "Iberian Union"
@@ -1430,20 +1436,6 @@ needs_verification = false
 note = "a warlord state, no separate Wikidata state item checked"
 
 [[override]]
-civilization = "Kanem–Bornu Empire"
-civilization_id = "Q1139762"
-field = "before"
-action = "add"
-value = "Sao civilization"
-value_id = "Q500502"
-region = "Chad"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "check; Sao were the earlier culture around Lake Chad"
-
-[[override]]
 civilization = "Kazakh Khanate"
 civilization_id = "Q1433867"
 field = "before"
@@ -1495,20 +1487,6 @@ quote = "The Khmer capital moved to Lovek in 1431 after the Tai army sacked Angk
 retrieved = 2026-10-25
 needs_verification = false
 note = "Britannica"
-
-[[override]]
-civilization = "Kievan Rus'"
-civilization_id = "Q1108445"
-field = "before"
-action = "add"
-value = "Rus' Khaganate"
-value_id = "Q1618896"
-region = "Ukraine"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox predecessor"
 
 [[override]]
 civilization = "Kingdom of Axum"
@@ -1625,10 +1603,9 @@ action = "add"
 value = "Holy Roman Empire"
 value_id = "Q12548"
 region = "Germany"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Germany"
+quote = "Distinct titles for Germany, Italy and Burgundy, which traditionally had their own courts, laws, and chanceries, gradually dropped from use as the King/Emperor's influence outside of Germany waned and the German kingdom came to be identified with the Holy Roman Empire."
+retrieved = 2026-11-07
 note = "Otto I crowned emperor 962"
 
 [[override]]
@@ -1884,17 +1861,6 @@ sources = [
 derivation = "every listed item has its own source"
 
 [[override]]
-civilization = "Ajuran Sultanate"
-civilization_id = "Q862532"
-field = "key_figures"
-action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "no individual ruler of the Garen/Ajuran state is named in the accessible reference pages; check a specialist source (Cassanelli)"
-
-[[override]]
 civilization = "British Empire"
 civilization_id = "Q8680"
 field = "period"
@@ -1966,14 +1932,14 @@ field = "key_figures"
 action = "set"
 value = ["Ahmad Nizam Shah I", "Hussain Nizam Shah I", "Chand Bibi", "Malik Ambar"]
 value_id = ["Q24950832", "Q20639228", "Q468192", "Q1854686"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Ahmad Nizam Shah I was a ruler or leading figure of Ahmadnagar Sultanate; Chand Bibi was a ruler or leading figure of Ahmadnagar Sultanate"
+retrieved = 2026-11-07
 sources = [
+  { fact = "Ahmad Nizam Shah I was a ruler or leading figure of Ahmadnagar Sultanate", source = "https://en.wikipedia.org/wiki/Ahmadnagar_Sultanate", quote = "Malik Ahmad Nizam Shah I who was the son of Nizam-ul-Mulk Malik Hasan Bahri established the kingdom." },
   { fact = "Hussain Nizam Shah I was a ruler or leading figure of Ahmadnagar Sultanate", source = "https://en.wikipedia.org/wiki/Hussain_Nizam_Shah_I", quote = "Hussain Nizam Shah I (Persian: حسین نظام شاه یکم; 1540 – 6 June 1565) was the Sultan of Ahmadnagar from 9 February 1554 until his death in 1565." },
+  { fact = "Chand Bibi was a ruler or leading figure of Ahmadnagar Sultanate", source = "https://en.wikipedia.org/wiki/Ahmadnagar_Sultanate", quote = "Following Burhan's death, a civil war broke out, which was eventually won by his sister, Chand Bibi." },
   { fact = "Malik Ambar was a ruler or leading figure of Ahmadnagar Sultanate", source = "https://en.wikipedia.org/wiki/Malik_Ambar", quote = "Malik Ambar (1548 – 14 May 1626) was a military leader and statesman who served as the Peshwa (Prime Minister) of the Ahmadnagar Sultanate and its de facto ruler from 1600 until his death in 1626." },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Akkadian Empire"
@@ -2197,15 +2163,16 @@ civilization = "Khanate of Kazan"
 civilization_id = "Q186537"
 field = "key_figures"
 action = "set"
-value = ["Ulugh Muhammad", "Ibrahim of Kazan", "Yadegar Mokhammad of Kazan"]
-value_id = ["Q2039445", "Q1960215", "Q2640696"]
-retrieved = 2026-10-20
-needs_verification = true
+value = ["Ulugh Muhammad", "Mäxmüd of Kazan", "Yadegar Mokhammad of Kazan"]
+value_id = ["Q2039445", "Q2429881", "Q2640696"]
+retrieved = 2026-11-07
+note = "Ibrahim of Kazan replaced by Mäxmüd: no cited sentence gives Ibrahim's reign"
 sources = [
+  { fact = "Ulugh Muhammad was a ruler or leading figure of Khanate of Kazan", source = "https://en.wikipedia.org/wiki/Khanate_of_Kazan", quote = "During the reign of Ulugh Muhammad and his son Maxmud, Kazan forces raided Muscovy and its subject lands several times." },
+  { fact = "Mäxmüd of Kazan was a ruler or leading figure of Khanate of Kazan", source = "https://en.wikipedia.org/wiki/Khanate_of_Kazan", quote = "In 1445 Maxmud and his brother Yakub defeated the army of Vasily II of Moscow near Suzdal and captured him." },
   { fact = "Yadegar Mokhammad of Kazan was a ruler or leading figure of Khanate of Kazan", source = "https://en.wikipedia.org/wiki/Khanate_of_Kazan", quote = "The Astrakhan Genghisid Yadegar Mokhammad became khan." },
 ]
-derivation = "every listed item has its own source"
-note = "partly sourced: no source yet for Ulugh Muhammad (the cited sentence sits in a paragraph flagged [citation needed]) and Ibrahim of Kazan (his reign sentence carries no footnote)"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Elam"
@@ -2530,10 +2497,9 @@ civilization = "Minoan civilization"
 civilization_id = "Q134178"
 field = "before"
 action = "none"
-source = "https://www.worldhistory.org/Minoan_Civilization/"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Minoan_civilization"
+quote = "Known for its monumental architecture and Minoan art, it is often regarded as the first civilization in Europe."
+retrieved = 2026-11-07
 note = "earliest civilization of Crete and the Aegean; no state preceded it"
 
 [[override]]
@@ -2610,10 +2576,9 @@ civilization = "Zapotec Civilization"
 civilization_id = "Q844750"
 field = "before"
 action = "none"
-source = "https://www.worldhistory.org/Zapotec_Civilization/"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Zapotec_civilization"
+quote = "Zapotec civilization originated in the Y-shaped Central Valleys of Oaxaca in the late 6th century BC."
+retrieved = 2026-11-07
 note = "first state of the Oaxaca valley; none preceded it"
 
 [[override]]
@@ -2860,8 +2825,9 @@ civilization = "Kingdom of Urartu"
 civilization_id = "Q185068"
 field = "before"
 action = "none"
-retrieved = 2026-10-26
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Urartu"
+quote = "The kingdom emerged in the mid-9th century BC and dominated the Armenian highlands in the 8th and 7th centuries BC."
+retrieved = 2026-11-07
 note = "Nairi dropped: it was absorbed by Assyria and Urartu decades after Urartu was established (https://en.wikipedia.org/wiki/Nairi); no predecessor sourced yet"
 
 [[override]]
@@ -2969,10 +2935,9 @@ civilization = "Olmec Civilization"
 civilization_id = "Q135364"
 field = "key_figures"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Olmec"
+quote = "Although it is assumed by most researchers that the colossal heads and several other sculptures represent rulers, nothing has been found like the Maya stelae which name specific rulers and provide the dates of their rule."
+retrieved = 2026-11-07
 note = "no ruler known by name"
 
 [[override]]
@@ -3269,12 +3234,12 @@ civilization = "Puebloans - Chaco Regional System"
 civilization_id = "Q478805"
 field = "period"
 action = "set"
-value = { start = 850, end = 1250, circa = true }
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Puebloans - Chaco Regional System began in 850"
+value = { start = 850, end = "12th century", circa = true }
+retrieved = 2026-11-07
+note = "replaces 1250; the source ends it in the 12th century"
 sources = [
-  { fact = "Puebloans - Chaco Regional System ended in 1250", source = "https://home.nps.gov/articles/chaco.htm", quote = "From 850 A.D. to approximately 1250 A.D, ancestral Puebloans constructed buildings and managed an extensive cultural system throughout this area." },
+  { fact = "Chacoans began building great houses c. 850", source = "https://www.worldhistory.org/Chaco_Canyon/", quote = "Early Settlement C. 850 CE, Chacoans began to construct \"great houses,\" colossal sandstone masonry structures which used thick walls to support multiple stories & hundreds of rooms." },
+  { fact = "The civilization flourished until the 12th century", source = "https://www.worldhistory.org/Chaco_Canyon/", quote = "Chaco Canyon was the center of a pre-Columbian civilization flourishing in the San Juan Basin of the American Southwest from the 9th to the 12th century CE." },
 ]
 derivation = "each end of the period is stated by a source"
 
@@ -3282,23 +3247,13 @@ derivation = "each end of the period is stated by a source"
 civilization = "Puebloans - Chaco Regional System"
 civilization_id = "Q478805"
 field = "capital"
-action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "a regional system of great houses around Chaco Canyon with no capital"
-
-[[override]]
-civilization = "Puebloans - Chaco Regional System"
-civilization_id = "Q478805"
-field = "key_figures"
-action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "no ruler known by name"
+action = "set"
+value = ["Chaco Canyon"]
+value_id = ["Q49786970"]
+source = "https://www.worldhistory.org/Chaco_Canyon/"
+quote = "Chaco Canyon was the center of a pre-Columbian civilization flourishing in the San Juan Basin of the American Southwest from the 9th to the 12th century CE."
+retrieved = 2026-11-07
+note = "replaces \"no capital\": the source calls Chaco Canyon the centre of the civilization"
 
 [[override]]
 civilization = "Puebloans - Chaco Regional System"
@@ -3328,22 +3283,22 @@ derivation = "no source consulted names a successor; the quoted sentence describ
 civilization = "Pyu City-States"
 civilization_id = "Q1627675"
 field = "key_figures"
-action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "no ruler known by name with dates; rulers are known only from chronicles of legend"
+action = "set"
+value = ["Duttabaung"]
+value_id = ["Q13068099"]
+source = "https://en.wikipedia.org/wiki/Pyu_city-states"
+quote = "The second dynasty was founded by King Duttabaung on 25 March 739 (11th waxing of Tagu 101 ME)."
+retrieved = 2026-11-07
+note = "replaces \"no ruler known\": the source names a king"
 
 [[override]]
 civilization = "Pyu City-States"
 civilization_id = "Q1627675"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Pyu_city-states"
+quote = "These city-states were founded as part of the migration of the Pyu people from Tibet to Mainland Southeast Asia by the Tibeto-Burman-speaking Pyu settlers, the earliest inhabitants of Burma of whom records are extant."
+retrieved = 2026-11-07
 note = "earliest known state in Myanmar"
 
 [[override]]
@@ -3469,12 +3424,13 @@ note = "earliest state of Rome"
 civilization = "Rouran Khaganate"
 civilization_id = "Q155361"
 field = "capital"
-action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "nomadic confederation with a mobile court; no fixed capital"
+action = "set"
+value = ["Mumocheng"]
+value_id = ["Q20552736"]
+source = "https://en.wikipedia.org/wiki/Rouran_Khaganate"
+quote = "Later the capital of the Rouran became the legendary town of Mumocheng, said to have been \"encircled with two walls constructed by Liang Shu\"."
+retrieved = 2026-11-07
+note = "replaces \"no fixed capital\": the source names a later capital"
 
 [[override]]
 civilization = "Rouran Khaganate"
@@ -3643,21 +3599,18 @@ field = "capital"
 action = "add"
 value = "Teotihuacan"
 value_id = "Q172613"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the city is itself the capital"
+source = "https://en.wikipedia.org/wiki/Teotihuacan"
+quote = "The city reached its peak in 450 CE when it was the center of a powerful culture whose influence extended through much of the Mesoamerican region."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Teotihuacan"
 civilization_id = "Q172613"
 field = "key_figures"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Teotihuacan"
+quote = "Evidence of a king or other authoritarian ruler is strikingly absent in Teotihuacan."
+retrieved = 2026-11-07
 note = "no ruler known by name from the city itself"
 
 [[override]]
@@ -3760,12 +3713,11 @@ civilization = "Volga Bulgaria"
 civilization_id = "Q185488"
 field = "period"
 action = "set"
-value = { start = 700, circa = true }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "state formed from the Bulgar migration after Old Great Bulgaria fell in 668"
+value = { start = "9th century" }
+source = "https://en.wikipedia.org/wiki/Volga_Bulgaria"
+quote = "Sometime in the late 9th century, unification processes started and the capital was established at Bolghar (also spelled Bulgar) city, 160 km south of modern Kazan."
+retrieved = 2026-11-07
+note = "replaces 700; the Bulgars reached the Volga in the 8th century and unified in the late 9th"
 
 [[override]]
 civilization = "Volga Bulgaria"
@@ -3824,17 +3776,6 @@ sources = [
   { fact = "Rouran Khaganate arose from, replaced or took over from Xianbei (around 330)", source = "https://en.wikipedia.org/wiki/Xianbei", quote = "the Xianbei who remained behind in the northern grassland evolved into or were absorbed by tribes of the Rouran Khaganate" },
 ]
 derivation = "the same succession is sourced from the other state's side"
-
-[[override]]
-civilization = "Zapotec Civilization"
-civilization_id = "Q844750"
-field = "key_figures"
-action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "no ruler known by name before the Postclassic"
 
 [[override]]
 civilization = "Zapotec Civilization"
@@ -4496,11 +4437,13 @@ action = "set"
 value = "British Empire"
 value_id = "Q8680"
 region = "Australia"
-source = "https://en.wikipedia.org/wiki/Federation_of_Australia"
-quote = "When the Constitution of Australia came into force, on 1 January 1901, the colonies collectively became states of the Commonwealth of Australia."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-11-07
 note = "the six self-governing British colonies that federated in 1901; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "The six colonies were part of the British Empire", source = "https://en.wikipedia.org/wiki/Australia", quote = "The six colonies individually gained responsible government between 1855 and 1890, managing most of their own affairs while remaining part of the British Empire." },
+  { fact = "They federated as the Commonwealth of Australia", source = "https://en.wikipedia.org/wiki/Australia", quote = "The name \"Commonwealth of Australia\" for the new federation of the six former colonies was formalised in the Commonwealth of Australia Constitution Act 1900 (UK)." },
+]
+derivation = "the state the federated colonies belonged to before"
 
 [[override]]
 civilization = "Commonwealth of Australia"
@@ -4538,9 +4481,8 @@ value = "Kingdom of England"
 value_id = "Q179876"
 region = "United Kingdom"
 source = "https://en.wikipedia.org/wiki/Commonwealth_of_England"
-quote = "After Cromwell's death, and following a brief period of rule under his son, Richard Cromwell , the Protectorate Parliament was dissolved in 1659 and the Rump Parliament recalled, starting a process that led to the restoration of the monarchy in 1660."
-retrieved = 2026-10-20
-needs_verification = true
+quote = "On 4 April 1660, in response to a secret message sent by Monck, Charles II issued the Declaration of Breda, which made known the conditions of his acceptance of the crown of England."
+retrieved = 2026-11-07
 note = "the Wikipedia sentence carries no citation, check against a reference book"
 
 [[override]]
@@ -4578,13 +4520,12 @@ field = "key_figures"
 action = "set"
 value = ["Geraint of Dumnonia", "Æthelstan"]
 value_id = ["Q3761244", "Q170017"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Geraint of Dumnonia"
+retrieved = 2026-11-07
 sources = [
+  { fact = "Geraint of Dumnonia was a ruler or leading figure of Cornwall", source = "https://en.wikipedia.org/wiki/Geraint_of_Dumnonia", quote = "Geraint (/ˈɡɛraɪnt/ GHERR-eyent; died 710), known in Latin as Gerontius, was a king of Dumnonia who ruled in the early 8th century." },
   { fact = "Æthelstan was a ruler or leading figure of Cornwall", source = "https://en.wikipedia.org/wiki/Cornwall", quote = "From the 7th century, the Britons in the South West increasingly came into conflict with the expanding Anglo-Saxon kingdom of Wessex , eventually being pushed west of the Tamar, where the boundary was set by King Æthelstan in 936." },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Cornwall"
@@ -4689,10 +4630,9 @@ civilization_id = "Q468814"
 field = "map_year"
 action = "set"
 value = 1800
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "https://en.wikipedia.org/wiki/Dahomey"
+quote = "Other Dahomey missions were sent to Portuguese colony of Brazil from 1795 to 1805 with the purpose of strengthening relations with Portuguese colonial authorities and slave buyers residing in Brazilian territory, ensuring that"
+retrieved = 2026-11-07
 note = "old year 1600 is the founding date, before Abomey became the capital; 1800 shows the kingdom after the conquest of Allada and Whydah"
 
 [[override]]
@@ -5378,11 +5318,11 @@ civilization = "Judea"
 civilization_id = "Q104028"
 field = "period"
 action = "set"
-value = { start = -140, end = -37, circa = false }
+value = { start = -141, end = -37, circa = false }
 retrieved = 2026-11-07
-needs_verification = true
-note = "partly sourced: no source yet for Judea began in -140 (cited Wikipedia dates Simon's reign from 142 or 141 BC)"
+note = "start 141 BC replaces 140"
 sources = [
+  { fact = "Judea began when Simon established the Hasmonean dynasty in 141 BC", source = "https://en.wikipedia.org/wiki/Hasmonean_dynasty", quote = "Simon Thassi established the dynasty in 141 BC, two decades after his brother Judah Maccabee (יהודה המכבי Yehudah HaMakabi) had defeated the Seleucid army during the Maccabean Revolt of 167 to 160 BC." },
   { fact = "Judea ended in 37 BC", source = "https://en.wikipedia.org/wiki/Herod's_siege_of_Jerusalem", quote = "Herod the Great's siege of Jerusalem (37 or 36 BC) was the final step in his campaign to secure the throne of Judea. Aided by Roman forces provided by Marcus Antonius (Mark Antony), Herod was able to capture the city and depose Antigonus II Mattathias, ending Hasmonean rule." },
 ]
 derivation = "each end of the period is stated by a source"
@@ -6167,11 +6107,12 @@ field = "key_figures"
 action = "set"
 value = ["Gao Huan", "Emperor Xiaojing of Eastern Wei"]
 value_id = ["Q718249", "Q1149239"]
-source = "https://en.wikipedia.org/wiki/Eastern_Wei"
-quote = "Gao Huan was the potentate of the eastern half of what was Northern Wei territory."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+sources = [
+  { fact = "Gao Huan was a ruler or leading figure of Eastern Wei", source = "https://en.wikipedia.org/wiki/Gao_Huan", quote = "The Eastern Wei enfeoffed the land of Bohai to Gao Huan, and he became \"Prince of Bohai\" or \"King of Bohai\"." },
+  { fact = "Emperor Xiaojing of Eastern Wei was a ruler or leading figure of Eastern Wei", source = "https://en.wikipedia.org/wiki/Emperor_Xiaojing_of_Eastern_Wei", quote = "Gao, who was in fact looking for a new emperor to replace Emperor Xiaowu, felt that Yuan Dan was inappropriate, and therefore, under the excuse that a cousin should not succeed another, chose Yuan Shanjian and declared him emperor (as Emperor Xiaojing)." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Duchy of Warsaw"
@@ -6342,17 +6283,16 @@ civilization = "Kingdom of Neustria"
 civilization_id = "Q106577"
 field = "key_figures"
 action = "set"
-value = ["Chilperic I", "Clothar II", "Ebroin", "Childeric III"]
-value_id = ["Q243118", "Q209118", "Q458841", "Q295157"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Childeric III was a ruler or leading figure of Kingdom of Neustria"
+value = ["Chilperic I", "Clothar II", "Ebroin"]
+value_id = ["Q243118", "Q209118", "Q458841"]
+retrieved = 2026-11-07
+note = "Childeric III dropped: his sentences call him king of the Franks, not of Neustria"
 sources = [
   { fact = "Chilperic I was a ruler or leading figure of Kingdom of Neustria", source = "https://www.worldhistory.org/Chilperic_I/", quote = "Chilperic I (r. 561-584) was a king of the Merovingian Dynasty, who ruled over the Frankish kingdom of Neustria." },
   { fact = "Clothar II was a ruler or leading figure of Kingdom of Neustria", source = "https://en.wikipedia.org/wiki/Chlothar_II", quote = "Clothar's son Dagobert, who had been king of Austrasia, succeeded his father in Neustria and Burgundy." },
   { fact = "Ebroin was a ruler or leading figure of Kingdom of Neustria", source = "https://en.wikipedia.org/wiki/Neustria", quote = "In 678, Neustria, under Mayor Ebroin, subdued the Austrasians for the last time." },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Kingdom of Northumbria"
@@ -6471,15 +6411,14 @@ field = "key_figures"
 action = "set"
 value = ["Frederick Augustus I of Saxony", "Frederick Augustus II of Saxony", "Albert of Saxony", "Frederick Augustus III of Saxony"]
 value_id = ["Q53444", "Q57986", "Q168657", "Q57320"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Frederick Augustus III of Saxony"
+retrieved = 2026-11-07
 sources = [
   { fact = "Frederick Augustus I of Saxony was a ruler or leading figure of Kingdom of Saxony", source = "https://www.britannica.com/biography/Frederick-Augustus-I", quote = "Frederick Augustus I (born Dec. 23, 1750, Dresden, Saxony—died May 5, 1827, Dresden) was the first king of Saxony and duke of Warsaw, who became one of Napoleon’s most loyal allies and lost much of his kingdom to Prussia at the Congress of Vienna." },
   { fact = "Frederick Augustus II of Saxony was a ruler or leading figure of Kingdom of Saxony", source = "https://www.britannica.com/biography/Frederick-Augustus-II", quote = "Frederick Augustus II (born May 18, 1797, Dresden, Saxony—died Aug. 9, 1854, the Tirol, Austria) was a reform-minded king of Saxony and nephew of Frederick Augustus I, who favoured German unification but was frightened into a reactionary policy by the revolutions of 1848–49." },
   { fact = "Albert of Saxony was a ruler or leading figure of Kingdom of Saxony", source = "https://en.wikipedia.org/wiki/Albert,_King_of_Saxony", quote = "Albert died at his Sibyllenort Palace on 19 June 1902 and was succeeded as king by his brother George" },
+  { fact = "Frederick Augustus III of Saxony was a ruler or leading figure of Kingdom of Saxony", source = "https://en.wikipedia.org/wiki/Kingdom_of_Saxony", quote = "King Frederick Augustus III of Saxony followed him into abdication when workers' and soldiers' councils were set up in the cities of Dresden, Chemnitz and Leipzig." },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Kingdom of Scotland"
@@ -6531,12 +6470,11 @@ civilization = "Kingdom of Sweden"
 civilization_id = "Q34"
 field = "period"
 action = "set"
-value = { since = 995, circa = true }
+value = { since = "10th century" }
 source = "https://en.wikipedia.org/wiki/Sweden"
-quote = "A unified Swedish kingdom established"
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia dates the unified kingdom to the late 10th century (about 995, Olof Skötkonung); check against a Swedish reference; the Wikipedia sentence carries no citation, check against a reference book"
+quote = "However, historians typically start the line of Swedish monarchs from when Svealand and Götaland were ruled under the same king, namely Erik the Victorious and his son Olof Skötkonung in the tenth century."
+retrieved = 2026-11-07
+note = "replaces 995; the source gives the tenth century"
 
 [[override]]
 civilization = "Kingdom of Sweden"
@@ -6576,15 +6514,11 @@ note = "De Sangro, Michele (2003). I Borboni nel Regno delle Due Sicilie (in Ita
 civilization = "Kingdom of Wessex"
 civilization_id = "Q105313"
 field = "before"
-action = "set"
-value = "Sub-Roman Britain"
-value_id = "Q977566"
-region = "United Kingdom"
+action = "none"
 source = "https://en.wikipedia.org/wiki/Wessex"
-quote = "In 508, Cerdic and Cynric slew British king Natanleod along with five thousand of his men (though the historicity of Natanleod has been disputed), and Cerdic became the first king of Wessex in 519."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia infobox names Sub-Roman Britain as the predecessor; Wessex began about 519 on former Roman Britain; cited in Wikipedia, footnote 12"
+quote = "The Chronicle then records subsequent Saxon arrivals, including that of Cerdic, the founder of Wessex, in 495."
+retrieved = 2026-11-07
+note = "founded by Cerdic's Saxons; no earlier state ruled the land as a kingdom"
 
 [[override]]
 civilization = "Lakhmid Kingdom"
@@ -6903,10 +6837,14 @@ note = "first kingdom of the Mauri people in the region; Wikipedia gives its sta
 civilization = "Median Kingdom"
 civilization_id = "Q20437507"
 field = "before"
-action = "none"
-retrieved = 2026-10-26
-needs_verification = true
-note = "Neo-Assyrian Empire dropped: the Medes helped destroy Assyria in 612-609 BC, long after Media began (https://www.britannica.com/biography/Cyaxares); no predecessor sourced yet"
+action = "add"
+value = "Neo-Assyrian Empire"
+value_id = "Q10914393"
+region = "Iran"
+source = "https://en.wikipedia.org/wiki/Median_kingdom"
+quote = "The extant sources available shows the continued Assyrian control over the provinces founded by Tiglath-Pileser and Sargon, at least until the reign of Esarhaddon."
+retrieved = 2026-11-07
+note = "replaces \"no predecessor\": Assyria held the Median provinces before the kingdom rose"
 
 [[override]]
 civilization = "Merina Kingdom"
@@ -7327,20 +7265,6 @@ needs_verification = false
 note = "a league of sovereign cantons with no capital; the Wikipedia infobox gives Capital: None"
 
 [[override]]
-civilization = "Old Swiss Confederacy"
-civilization_id = "Q435583"
-field = "before"
-action = "add"
-value = "Holy Roman Empire"
-value_id = "Q12548"
-region = "Switzerland"
-source = "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
-quote = "This formed a rare union of rural and urban communes, all of which enjoyed imperial immediacy in the Holy Roman Empire."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
-
-[[override]]
 civilization = "Pala Empire"
 civilization_id = "Q668412"
 field = "capital"
@@ -7538,11 +7462,13 @@ action = "add"
 value = "Kievan Rus'"
 value_id = "Q1108445"
 region = "Ukraine"
-source = "https://en.wikipedia.org/wiki/Principality_of_Kiev"
-quote = "Following the death of Mstislav I of Kiev in 1132, the semi-autonomous states were de facto independent and so led to the emergence of the Principality of Kiev as a separate state."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-11-07
 note = "the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "Kievan Rus' disintegrated", source = "https://en.wikipedia.org/wiki/Principality_of_Kiev", quote = "During the era of Kievan Rus', the princely clan was assumed to maintain the unity of the state under the reign of their senior who held the grand princely throne of Kiev; however, the state disintegrated due to rivalry between the clans." },
+  { fact = "The Principality of Kiev emerged from it in 1132", source = "https://en.wikipedia.org/wiki/Principality_of_Kiev", quote = "Following the death of Mstislav I of Kiev in 1132, the semi-autonomous states were de facto independent and so led to the emergence of the Principality of Kiev as a separate state." },
+]
+derivation = "the state it emerged from"
 
 [[override]]
 civilization = "Principality of Kiev"
@@ -7821,15 +7747,14 @@ field = "key_figures"
 action = "set"
 value = ["Ya'qub ibn al-Layth al-Saffar", "Amr ibn al-Layth", "Abu Ja'far Ahmad ibn Muhammad", "Khalaf ibn Ahmad"]
 value_id = ["Q45261", "Q45212", "Q4561714", "Q4562131"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Abu Ja'far Ahmad ibn Muhammad"
+retrieved = 2026-11-07
 sources = [
   { fact = "Ya'qub ibn al-Layth al-Saffar was a ruler or leading figure of Saffarid Dynasty", source = "https://en.wikipedia.org/wiki/Saffarid_dynasty", quote = "By the time of Ya'qub's death, he had conquered the Kabul Valley, Tokharistan, Makran, Kerman, Fars, Khorasan, and nearly reached Baghdad but then suffered a defeat by the Abbasids." },
   { fact = "Amr ibn al-Layth was a ruler or leading figure of Saffarid Dynasty", source = "https://en.wikipedia.org/wiki/Amr_ibn_al-Layth", quote = "Amr managed to become the successor of the Saffarid throne" },
+  { fact = "Abu Ja'far Ahmad ibn Muhammad was a ruler or leading figure of Saffarid Dynasty", source = "https://en.wikipedia.org/wiki/Saffarid_dynasty", quote = "Sistan passed briefly to Abbasid control, but became independent again under the Saffarid Abu Ja'far Ahmad ibn Muhammad; but now the dynasty was a minor power isolated in Sistan." },
   { fact = "Khalaf ibn Ahmad was a ruler or leading figure of Saffarid Dynasty", source = "https://en.wikipedia.org/wiki/Saffarid_dynasty", quote = "dethroned Khalaf ibn Ahmad and finally ended the Saffarid dynasty" },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Saxons"
@@ -7900,11 +7825,12 @@ civilization_id = "Q213649"
 field = "period"
 action = "set"
 value = { start = 793, end = 1066 }
-source = "https://en.wikipedia.org/wiki/Viking_Age"
-quote = "The beginning of the Viking Age in the British Isles is often set at 793."
-retrieved = 2026-10-20
-needs_verification = true
-note = "Viking Age 793 (Lindisfarne) to 1066 (Stamford Bridge); the end year is not in the quoted sentence; cited in Wikipedia, footnote 9"
+retrieved = 2026-11-07
+sources = [
+  { fact = "The Viking Age began with the raid on Lindisfarne in 793", source = "https://en.wikipedia.org/wiki/Viking_Age", quote = "In England, the Viking attack of 8 June 793 that destroyed the abbey on Lindisfarne, a centre of learning on an island off the north-east coast of England in Northumberland, is regarded as the beginning of the Viking Age." },
+  { fact = "It is taken to end in 1066", source = "https://en.wikipedia.org/wiki/Viking_Age", quote = "The death in the battle of King Harald Hardrada of Norway ended any hope of reviving Cnut's North Sea Empire, and it is because of this, rather than the Norman conquest, that 1066 is often taken as the end of the Viking Age." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Scandinavian minor kingdoms"
@@ -7944,16 +7870,15 @@ civilization = "Scandinavian minor kingdoms"
 civilization_id = "Q213649"
 field = "key_figures"
 action = "set"
-value = ["Halfdan the Black", "Harald Fairhair", "Gorm the Old", "Harald Bluetooth"]
-value_id = ["Q504932", "Q206123", "Q314490", "Q201041"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Harald Fairhair, Harald Bluetooth"
+value = ["Halfdan the Black", "Gorm the Old"]
+value_id = ["Q504932", "Q314490"]
+retrieved = 2026-11-07
+note = "Harald Fairhair and Harald Bluetooth dropped: their sentences make them the unifiers of Norway and Denmark, after the minor kingdoms"
 sources = [
   { fact = "Halfdan the Black was a ruler or leading figure of Scandinavian minor kingdoms", source = "https://en.wikipedia.org/wiki/Halfdan_the_Black", quote = "was a king of Vestfold" },
   { fact = "Gorm the Old was a ruler or leading figure of Scandinavian minor kingdoms", source = "https://en.wikipedia.org/wiki/Gorm_the_Old", quote = "was ruler of Denmark, reigning from c. 936" },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Second Mexican Empire"
@@ -8568,14 +8493,13 @@ field = "key_figures"
 action = "set"
 value = ["Ivar the Boneless", "Rollo", "Erik the Red"]
 value_id = ["Q350321", "Q273773", "Q172345"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Ivar the Boneless was a ruler or leading figure of Viking settlements"
+retrieved = 2026-11-07
 sources = [
-  { fact = "Erik the Red was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Vikings", quote = "Vikings under Leif Erikson, heir to Erik the Red, reached North America and set up short-lived settlements in present-day L'Anse aux Meadows, Newfoundland, Canada." },
+  { fact = "Ivar the Boneless was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Ivar_the_Boneless", quote = "Ivar the Boneless (Old Norse: Ívarr hinn Beinlausi [ˈiːˌwɑrː ˈhinː ˈbɛinˌlɔuse]; died c. 873), also known as Ivar Ragnarsson, was a Viking leader who led invasions into England and Ireland." },
   { fact = "Rollo was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Rollo", quote = "Rollo is first recorded in a charter of 918 as the leader of a group of Viking settlers" },
+  { fact = "Erik the Red was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Vikings", quote = "Vikings under Leif Erikson, heir to Erik the Red, reached North America and set up short-lived settlements in present-day L'Anse aux Meadows, Newfoundland, Canada." },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Viking settlements"
@@ -8637,9 +8561,8 @@ value = "Azuchi–Momoyama period"
 value_id = "Q319531"
 region = "Japan"
 source = "https://en.wikipedia.org/wiki/Sengoku_period"
-quote = "The Kyōtoku incident (1454), Ōnin War (1467), or Meiō incident (1493) are generally chosen as the period's start date, but there are many competing historiographies for its end date, ranging from 1568, the date of Oda Nobunaga's march on Kyoto, to the suppression of the Shimabara Rebellion in 1638, deep into what was traditionally considered the Edo period"
-retrieved = 2026-10-20
-needs_verification = true
+quote = "However, even if 1568 is the end date of the Sengoku period, there are also various theories about the beginning and end dates of the following Azuchi-Momoyama period."
+retrieved = 2026-11-07
 note = "cited in Wikipedia, footnote 2"
 
 [[override]]
@@ -8701,16 +8624,15 @@ civilization = "White Horde"
 civilization_id = "Q2553863"
 field = "key_figures"
 action = "set"
-value = ["Orda Khan", "Urus Khan", "Barak Khan"]
-value_id = ["Q380393", "Q1374159", "Q1067312"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Barak Khan"
+value = ["Orda Khan", "Urus Khan"]
+value_id = ["Q380393", "Q1374159"]
+retrieved = 2026-11-07
+note = "Barak Khan dropped: no cited sentence"
 sources = [
   { fact = "Orda Khan was a ruler or leading figure of White Horde", source = "https://www.britannica.com/biography/Orda-Mongol-prince", quote = "His eldest son, Orda, founded the White Horde" },
   { fact = "Urus Khan was a ruler or leading figure of White Horde", source = "https://en.wikipedia.org/wiki/White_Horde", quote = "In 1375, Urus Khan, the eighth khan of the White Horde, became a contested khan of both the Blue Horde and the White Horde." },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "White Horde"
@@ -8784,15 +8706,14 @@ civilization = "Xin Dynasty"
 civilization_id = "Q504769"
 field = "key_figures"
 action = "set"
-value = ["Wang Mang", "Gengshi Emperor"]
-value_id = ["Q7250", "Q7262"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Gengshi Emperor"
+value = ["Wang Mang"]
+value_id = ["Q7250"]
+retrieved = 2026-11-07
+note = "the Gengshi Emperor dropped: his sentences make him emperor of the restored Han"
 sources = [
   { fact = "Wang Mang was a ruler or leading figure of Xin Dynasty", source = "https://en.wikipedia.org/wiki/Xin_dynasty", quote = "In contrast, the Wang family grew powerful during the rule of Emperor Cheng of Han, and its leading member Wang Mang used his influence to act as regent for several young puppet emperors." },
 ]
-derivation = "every listed item has its own source"
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Zayyanid dynasty"
@@ -9119,13 +9040,12 @@ civilization = "Kingdom of Denmark"
 civilization_id = "Q756617"
 field = "capital"
 action = "set"
-value = ["Jelling", "Roskilde"]
-value_id = ["Q835708", "Q26563"]
+value = ["Roskilde"]
+value_id = ["Q26563"]
 source = "https://en.wikipedia.org/wiki/Roskilde"
 quote = "From the 11th century until 1443, it was the capital of Denmark"
-retrieved = 2026-10-20
-needs_verification = true
-note = "Roskilde is sourced; Jelling as the royal seat of Gorm and Harald Bluetooth is to check; Copenhagen became capital in 1443"
+retrieved = 2026-11-07
+note = "Jelling dropped: no cited sentence calls it a capital"
 
 [[override]]
 civilization = "Shirvan"
@@ -9212,18 +9132,6 @@ sources = [
   { fact = "Iran", source = "https://en.wikipedia.org/wiki/Seleucid_Empire", quote = "Weakened economically, militarily and by loss of prestige, the Empire became vulnerable to rebels in the eastern areas of the empire, who began to further undermine the empire while the Parthians moved into the power vacuum to take over the old Persian lands." },
   { fact = "Afghanistan", source = "https://en.wikipedia.org/wiki/Seleucid_Empire", quote = "Chandragupta received, formalized through a treaty, territory west of the Indus, including the Hindu Kush, modern day Afghanistan, and the eastern part of Balochistan province of Pakistan, bordering on the Indus." },
 ]
-
-[[override]]
-civilization = "Songhai Empire"
-civilization_id = "Q202687"
-field = "modern_countries"
-action = "set"
-value = ["Mali", "Niger", "Burkina Faso", "Nigeria", "Mauritania", "Senegal", "Gambia"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Niger, Burkina Faso and northern Nigeria were missing; check the extent at 1564"
 
 [[override]]
 civilization = "Austria-Hungary"

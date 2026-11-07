@@ -63,7 +63,12 @@
       "home": true
     }
   ],
-  "key_figures": [],
+  "key_figures": [
+    {
+      "id": "Q13068099",
+      "name": "Duttabaung"
+    }
+  ],
   "modern_countries": [
     "Myanmar"
   ],
@@ -93,7 +98,6 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Sri Ksetra kingdom",
     "not_applicable": {
-      "key_figures": "no ruler known by name with dates; rulers are known only from chronicles of legend",
       "before": "earliest known state in Myanmar"
     },
     "labelled": []

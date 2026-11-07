@@ -11,15 +11,24 @@
       "circa": true
     },
     "end": {
-      "earliest": 1250,
-      "latest": 1250,
-      "circa": true
+      "earliest": 1101,
+      "latest": 1200,
+      "circa": false
     },
     "confirmed": true,
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Chaco Canyon",
+      "location": [
+        -107.96694444444,
+        36.060277777778
+      ],
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [],
   "after": [],
@@ -47,8 +56,6 @@
     "identity": "culture or period Cliopatria draws",
     "home": "the spot held longest",
     "not_applicable": {
-      "capital": "a regional system of great houses around Chaco Canyon with no capital",
-      "key_figures": "no ruler known by name",
       "before": "earliest regional system of the Ancestral Puebloans in the San Juan Basin",
       "after": "the system dissolved and its people dispersed to Mesa Verde, Aztec and the Rio Grande pueblos; no single successor state"
     },

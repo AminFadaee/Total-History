@@ -19,7 +19,13 @@
     "core": null,
     "since": null
   },
-  "capitals": [],
+  "capitals": [
+    {
+      "name": "Mumocheng",
+      "location": null,
+      "founded": null
+    }
+  ],
   "parts": [],
   "before": [
     {
@@ -90,9 +96,6 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "the spot held longest",
-    "not_applicable": {
-      "capital": "nomadic confederation with a mobile court; no fixed capital"
-    },
     "labelled": [
       "Protectorate of the Western Regions",
       "Later Qin",

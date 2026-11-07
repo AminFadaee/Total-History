@@ -30,14 +30,7 @@
     }
   ],
   "parts": [],
-  "before": [
-    {
-      "id": "Q977566",
-      "region": "United Kingdom",
-      "name": "sub-Roman Britain",
-      "home": true
-    }
-  ],
+  "before": [],
   "after": [
     {
       "id": "Q179876",
@@ -88,6 +81,9 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Winchester",
+    "not_applicable": {
+      "before": "founded by Cerdic's Saxons; no earlier state ruled the land as a kingdom"
+    },
     "labelled": [
       "Kingdom of Northumbria",
       "Kingdom of Brittany",
