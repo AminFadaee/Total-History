@@ -4148,7 +4148,7 @@
       "action": "set",
       "value": {
         "start": 1024,
-        "end": 1402
+        "end": "14th century"
       }
     },
     {
@@ -5444,21 +5444,6 @@
       "field": "before",
       "action": "add",
       "value": "Kalingga Kingdom"
-    },
-    {
-      "civilization": "Principality of Chernigov",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 1024,
-        "end": 1402
-      }
-    },
-    {
-      "civilization": "Principality of Chernigov",
-      "field": "after",
-      "action": "add",
-      "value": "Grand Duchy of Lithuania"
     },
     {
       "civilization": "Sultanate of Brunei",

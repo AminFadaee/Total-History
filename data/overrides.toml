@@ -7372,12 +7372,12 @@ civilization = "Principality of Chernigov"
 civilization_id = "Q1322662"
 field = "period"
 action = "set"
-value = { start = 1024, end = 1402 }
+value = { start = 1024, end = "14th century" }
 retrieved = 2026-11-07
-needs_verification = true
-note = "partly sourced: no source yet for Principality of Chernigov ended in 1402"
+note = "replaces 1402; the source has it pass to Lithuania in the second half of the 14th century"
 sources = [
   { fact = "Principality of Chernigov began in 1024", source = "https://en.wikipedia.org/wiki/Principality_of_Chernigov", quote = "In 1024, Mstislav of Chernigov, son of Vladimir the Great arrived from Tmutarakan and established rule over the principality of Chernigov." },
+  { fact = "It became a vassal of Lithuania in the second half of the 14th century", source = "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CC%5CH%5CChernihivprincipality.htm", quote = "In the second half of the 14th century Chernihiv principality became a vassal of the Grand Duchy of Lithuania and was ruled, as were all the northern Rus’ principalities, by the Lithuanian princes of the Gediminas dynasty." },
 ]
 derivation = "each end of the period is stated by a source"
 
@@ -7403,11 +7403,9 @@ action = "add"
 value = "Grand Duchy of Lithuania"
 value_id = "Q49683"
 region = "Ukraine"
-source = "https://en.wikipedia.org/wiki/Principality_of_Chernigov"
-quote = "Principality within the Grand Duchy of Lithuania (1362–1402)"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CC%5CH%5CChernihivprincipality.htm"
+quote = "In the second half of the 14th century Chernihiv principality became a vassal of the Grand Duchy of Lithuania and was ruled, as were all the northern Rus’ principalities, by the Lithuanian princes of the Gediminas dynasty."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Principality of Chernigov"
