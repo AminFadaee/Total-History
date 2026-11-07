@@ -119,16 +119,6 @@ retrieved = 2026-10-20
 needs_verification = false
 
 [[remove]]
-civilization = "Margraviate of Brandenburg"
-field = "key_figures"
-value = "Frederick William III"
-reason = "He was King of Prussia (1797-1840), listed only because the infobox names him the last Margrave; the margraviate had long been part of the Kingdom of Prussia.; the Wikipedia sentence carries no citation, check against a reference book"
-source = "https://en.wikipedia.org/wiki/Margraviate_of_Brandenburg"
-quote = "Frederick William's son, Frederick III, was allowed to elevate Prussia to the status of a kingdom."
-retrieved = 2026-10-20
-needs_verification = true
-
-[[remove]]
 civilization = "Pala Empire"
 field = "capitals"
 value = "Murshidabad"
