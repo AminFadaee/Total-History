@@ -99,6 +99,7 @@
   "tier": "Essential",
   "map": "maps/union-of-soviet-socialist-republics.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -66,6 +66,7 @@
   "tier": "Extended",
   "map": "maps/korean-empire.png",
   "map_asked": false,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

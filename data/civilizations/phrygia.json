@@ -65,6 +65,23 @@
   "tier": "Core",
   "map": "maps/phrygia.png",
   "map_asked": true,
+  "disputes": [
+    {
+      "field": "end",
+      "values": [
+        {
+          "value": -675,
+          "circa": false,
+          "source": ""
+        },
+        {
+          "value": -625,
+          "circa": true,
+          "source": "https://www.worldhistory.org/phrygia/"
+        }
+      ]
+    }
+  ],
   "checks": {
     "infobox": true,
     "capital_sources": {

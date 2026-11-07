@@ -30,14 +30,7 @@
     }
   ],
   "parts": [],
-  "before": [
-    {
-      "id": "Q128938",
-      "region": "China",
-      "name": "Shang Dynasty",
-      "home": true
-    }
-  ],
+  "before": [],
   "after": [
     {
       "id": "Q504759",
@@ -61,6 +54,7 @@
   "tier": "Extended",
   "map": "maps/lu.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

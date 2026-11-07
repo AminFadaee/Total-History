@@ -49,10 +49,6 @@
   ],
   "key_figures": [
     {
-      "id": "Q400275",
-      "name": "Ahiram"
-    },
-    {
       "id": "Q467115",
       "name": "Hiram I"
     },
@@ -77,6 +73,7 @@
   "tier": "Essential",
   "map": "maps/phoenicia.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

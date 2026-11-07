@@ -69,6 +69,7 @@
   "tier": "Core",
   "map": "maps/empire-of-brazil.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

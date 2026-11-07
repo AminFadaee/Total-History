@@ -84,6 +84,7 @@
   "tier": "Extended",
   "map": "maps/gallic-empire.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -59,6 +59,7 @@
   "tier": "Core",
   "map": "maps/chimor.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {
@@ -75,9 +76,6 @@
     ],
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Chan Chan",
-    "not_applicable": {
-      "before": "Sican culture dropped: the Chimú conquered the Lambayeque (Sican) in 1375, long after Chimor began (https://www.worldhistory.org/Chan_Chan/); Wikipedia's infobox also lists the Wari Empire; no predecessor sourced yet"
-    },
     "labelled": [
       "Cuzco"
     ]

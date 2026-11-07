@@ -73,6 +73,7 @@
   "tier": "Extended",
   "map": "maps/warring-states-japan.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": false,
     "capital_sources": {

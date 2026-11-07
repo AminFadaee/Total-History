@@ -38,8 +38,8 @@
   ],
   "key_figures": [
     {
-      "id": "Q2708070",
-      "name": "Ājñātakauṇḍinya"
+      "id": "Q4217604",
+      "name": "Kaundinya II"
     },
     {
       "id": "Q19684432",
@@ -61,6 +61,23 @@
   "tier": "Extended",
   "map": "maps/funan.png",
   "map_asked": true,
+  "disputes": [
+    {
+      "field": "end",
+      "values": [
+        {
+          "value": 550,
+          "circa": false,
+          "source": ""
+        },
+        {
+          "value": 680,
+          "circa": false,
+          "source": "https://en.wikipedia.org/wiki/Funan"
+        }
+      ]
+    }
+  ],
   "checks": {
     "infobox": true,
     "capital_sources": {

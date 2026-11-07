@@ -85,6 +85,7 @@
   "tier": "Core",
   "map": "maps/jin-dynasty.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

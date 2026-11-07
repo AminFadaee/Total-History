@@ -83,6 +83,7 @@
   "tier": "Core",
   "map": "maps/lan-xang.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

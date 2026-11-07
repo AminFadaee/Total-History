@@ -73,6 +73,7 @@
   "tier": "Extended",
   "map": "maps/second-spanish-republic.png",
   "map_asked": false,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

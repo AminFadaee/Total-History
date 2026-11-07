@@ -511,8 +511,9 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": 1226,
-        "end": 1347
+        "start": 1227,
+        "end": 1363,
+        "circa": true
       }
     },
     {
@@ -532,12 +533,6 @@
       "field": "after",
       "action": "add",
       "value": "Nguyễn dynasty"
-    },
-    {
-      "civilization": "Chimor",
-      "field": "before",
-      "action": "none",
-      "value": ""
     },
     {
       "civilization": "Chu",
@@ -919,12 +914,6 @@
       "value": "Nanda Empire"
     },
     {
-      "civilization": "Janapada of Magadha",
-      "field": "before",
-      "action": "set",
-      "value": "Kikata Kingdom"
-    },
-    {
       "civilization": "Kanem–Bornu Empire",
       "field": "after",
       "action": "add",
@@ -1124,26 +1113,12 @@
       "value": "Kingdom of France"
     },
     {
-      "civilization": "Duchy of Aquitaine",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 602
-      }
-    },
-    {
       "civilization": "Duchy of Burgundy",
       "field": "period",
       "action": "set",
       "value": {
         "start": 1032
       }
-    },
-    {
-      "civilization": "Duchy of Burgundy",
-      "field": "before",
-      "action": "set",
-      "value": "West Francia"
     },
     {
       "civilization": "Duchy of Burgundy",
@@ -1885,7 +1860,6 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Ahiram",
         "Hiram I",
         "Pygmalion of Tyre"
       ]
@@ -2528,16 +2502,6 @@
     },
     {
       "civilization": "Byzantium",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -657,
-        "end": 330,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Byzantium",
       "field": "before",
       "action": "none",
       "value": ""
@@ -2741,14 +2705,6 @@
       "field": "before",
       "action": "set",
       "value": "Kingdom of Allada"
-    },
-    {
-      "civilization": "Dahomey",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 1904
-      }
     },
     {
       "civilization": "Dahomey",
@@ -3601,7 +3557,7 @@
       "field": "key_figures",
       "action": "set",
       "value": [
-        "Kaundinya",
+        "Kaundinya II",
         "Kulaprabhavati",
         "Rudravarman"
       ]
@@ -3686,12 +3642,6 @@
       "field": "before",
       "action": "add",
       "value": "Duchy of Poland"
-    },
-    {
-      "civilization": "Kingdom of Pontus",
-      "field": "before",
-      "action": "add",
-      "value": "Antigonid dynasty"
     },
     {
       "civilization": "Kingdom of Pontus",
@@ -3876,12 +3826,6 @@
       "field": "after",
       "action": "add",
       "value": "Later Jin (Five Dynasties)"
-    },
-    {
-      "civilization": "Lu",
-      "field": "before",
-      "action": "add",
-      "value": "Shang Dynasty"
     },
     {
       "civilization": "Mahajanapadas",
@@ -4193,14 +4137,6 @@
       "field": "capital",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Old Swiss Confederacy",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Niklaus von Flüe"
-      ]
     },
     {
       "civilization": "Old Swiss Confederacy",
@@ -4616,12 +4552,6 @@
       ]
     },
     {
-      "civilization": "South African Republic",
-      "field": "before",
-      "action": "add",
-      "value": "Klein Vrystaat"
-    },
-    {
       "civilization": "Sukhothai Kingdom",
       "field": "before",
       "action": "add",
@@ -4884,8 +4814,7 @@
       "value": [
         "Ivar the Boneless",
         "Rollo",
-        "Erik the Red",
-        "Leif Erikson"
+        "Erik the Red"
       ]
     },
     {
@@ -5368,6 +5297,91 @@
       "field": "map",
       "action": "none",
       "value": ""
+    },
+    {
+      "civilization": "Dahomey",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "end": 1894
+      }
+    },
+    {
+      "civilization": "Duchy of Aquitaine",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": 660,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Teotihuacan",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "end": 600,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Mutapa Empire",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "end": 1693
+      }
+    },
+    {
+      "civilization": "Funan",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "end": 680
+      }
+    },
+    {
+      "civilization": "Phrygia",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "end": -625,
+        "circa": true
+      }
+    },
+    {
+      "civilization": "Rouran Khaganate",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "start": 402
+      }
+    },
+    {
+      "civilization": "Holy Roman Empire",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "start": 800
+      }
+    },
+    {
+      "civilization": "Roman Empire",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "end": 476
+      }
+    },
+    {
+      "civilization": "Byzantium",
+      "field": "period",
+      "action": "set",
+      "value": {
+        "start": -657,
+        "end": 337,
+        "circa": true
+      }
     }
   ],
   "needs_verification": [
@@ -5382,12 +5396,6 @@
       "field": "after",
       "action": "set",
       "value": "First Bulgarian Empire"
-    },
-    {
-      "civilization": "Chimor",
-      "field": "before",
-      "action": "none",
-      "value": ""
     },
     {
       "civilization": "Chu",
@@ -5454,12 +5462,6 @@
       }
     },
     {
-      "civilization": "Janapada of Magadha",
-      "field": "before",
-      "action": "set",
-      "value": "Kikata Kingdom"
-    },
-    {
       "civilization": "Kanem–Bornu Empire",
       "field": "before",
       "action": "add",
@@ -5502,20 +5504,6 @@
       "field": "capital",
       "action": "add",
       "value": "Poitiers"
-    },
-    {
-      "civilization": "Duchy of Aquitaine",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 602
-      }
-    },
-    {
-      "civilization": "Duchy of Burgundy",
-      "field": "before",
-      "action": "set",
-      "value": "West Francia"
     },
     {
       "civilization": "Ajuran Sultanate",
@@ -5733,16 +5721,6 @@
       }
     },
     {
-      "civilization": "Byzantium",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -657,
-        "end": 330,
-        "circa": true
-      }
-    },
-    {
       "civilization": "Chaldea",
       "field": "key_figures",
       "action": "set",
@@ -5781,14 +5759,6 @@
         "Geraint of Dumnonia",
         "Æthelstan"
       ]
-    },
-    {
-      "civilization": "Dahomey",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 1904
-      }
     },
     {
       "civilization": "Dahomey",
@@ -5831,6 +5801,14 @@
       "value": "Provisional Government of the French Republic"
     },
     {
+      "civilization": "Hyksos",
+      "field": "capital",
+      "action": "set",
+      "value": [
+        "Avaris"
+      ]
+    },
+    {
       "civilization": "Jin",
       "field": "before",
       "action": "set",
@@ -5857,6 +5835,12 @@
       "field": "after",
       "action": "set",
       "value": "Cuman-Kipchak Confederation"
+    },
+    {
+      "civilization": "Kingdom of Essex",
+      "field": "before",
+      "action": "none",
+      "value": ""
     },
     {
       "civilization": "Kingdom of Hawaï'i",
@@ -5920,12 +5904,6 @@
       "value": "Roman Republic"
     },
     {
-      "civilization": "Kingdom of Pontus",
-      "field": "before",
-      "action": "add",
-      "value": "Antigonid dynasty"
-    },
-    {
       "civilization": "Kingdom of Romania",
       "field": "summary",
       "action": "set",
@@ -5968,12 +5946,6 @@
       }
     },
     {
-      "civilization": "Lu",
-      "field": "before",
-      "action": "add",
-      "value": "Shang Dynasty"
-    },
-    {
       "civilization": "Mahajanapadas",
       "field": "before",
       "action": "set",
@@ -6006,14 +5978,6 @@
         "Emperor Shōmu",
         "Empress Kōken",
         "Emperor Kanmu"
-      ]
-    },
-    {
-      "civilization": "Old Swiss Confederacy",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Niklaus von Flüe"
       ]
     },
     {
@@ -6101,12 +6065,6 @@
       ]
     },
     {
-      "civilization": "South African Republic",
-      "field": "before",
-      "action": "add",
-      "value": "Klein Vrystaat"
-    },
-    {
       "civilization": "Sultanate of Brunei",
       "field": "before",
       "action": "add",
@@ -6149,8 +6107,7 @@
       "value": [
         "Ivar the Boneless",
         "Rollo",
-        "Erik the Red",
-        "Leif Erikson"
+        "Erik the Red"
       ]
     },
     {

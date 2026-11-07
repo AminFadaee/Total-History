@@ -80,6 +80,7 @@
   "tier": "Core",
   "map": "maps/golden-horde.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

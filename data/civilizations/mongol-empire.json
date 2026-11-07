@@ -131,6 +131,7 @@
   "tier": "Essential",
   "map": "maps/mongol-empire.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

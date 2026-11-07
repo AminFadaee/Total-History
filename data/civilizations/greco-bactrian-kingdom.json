@@ -92,6 +92,7 @@
   "tier": "Extended",
   "map": "maps/greco-bactrian-kingdom.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -61,6 +61,7 @@
   "tier": "Extended",
   "map": "maps/toltec.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": false,
     "capital_sources": {

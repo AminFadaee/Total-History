@@ -73,6 +73,7 @@
   "tier": "Core",
   "map": "maps/scythia.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

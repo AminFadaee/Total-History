@@ -35,10 +35,6 @@
     {
       "id": "Q172345",
       "name": "Erik the Red"
-    },
-    {
-      "id": "Q42838",
-      "name": "Leif Erikson"
     }
   ],
   "modern_countries": [
@@ -56,6 +52,7 @@
   "tier": "Extended",
   "map": "maps/viking-settlements.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": false,
     "capital_sources": {

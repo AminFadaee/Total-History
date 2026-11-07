@@ -73,6 +73,7 @@
   "tier": "Extended",
   "map": "maps/zululand.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

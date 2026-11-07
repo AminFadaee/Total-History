@@ -58,6 +58,23 @@
   "tier": "Core",
   "map": "",
   "map_asked": true,
+  "disputes": [
+    {
+      "field": "end",
+      "values": [
+        {
+          "value": 1760,
+          "circa": false,
+          "source": "https://en.wikipedia.org/wiki/Mutapa_Empire"
+        },
+        {
+          "value": 1693,
+          "circa": false,
+          "source": "https://www.worldhistory.org/Mutapa/"
+        }
+      ]
+    }
+  ],
   "checks": {
     "infobox": true,
     "capital_sources": {

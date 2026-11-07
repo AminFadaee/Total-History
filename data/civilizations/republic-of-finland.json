@@ -67,6 +67,7 @@
   "tier": "Extended",
   "map": "maps/republic-of-finland.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -62,6 +62,7 @@
   "tier": "Extended",
   "map": "maps/mexico.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -6,14 +6,14 @@
   "map_year": 1294,
   "period": {
     "start": {
-      "earliest": 1226,
-      "latest": 1226,
-      "circa": false
+      "earliest": 1227,
+      "latest": 1227,
+      "circa": true
     },
     "end": {
-      "earliest": 1347,
-      "latest": 1347,
-      "circa": false
+      "earliest": 1363,
+      "latest": 1363,
+      "circa": true
     },
     "confirmed": true,
     "core": null,
@@ -87,6 +87,7 @@
   "tier": "Core",
   "map": "maps/chagatai-khanate.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

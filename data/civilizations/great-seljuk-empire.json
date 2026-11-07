@@ -124,6 +124,7 @@
   "tier": "Core",
   "map": "maps/great-seljuk-empire.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -97,6 +97,7 @@
   "tier": "Core",
   "map": "maps/northern-wei.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

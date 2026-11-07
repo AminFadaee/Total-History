@@ -30,14 +30,7 @@
     }
   ],
   "parts": [],
-  "before": [
-    {
-      "id": "Q46370",
-      "region": "France",
-      "name": "West Franks",
-      "home": true
-    }
-  ],
+  "before": [],
   "after": [
     {
       "id": "Q70972",
@@ -76,6 +69,7 @@
   "tier": "Core",
   "map": "maps/duchy-of-burgundy.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

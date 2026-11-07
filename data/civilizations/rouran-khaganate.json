@@ -58,6 +58,23 @@
   "tier": "Core",
   "map": "maps/rouran-khaganate.png",
   "map_asked": true,
+  "disputes": [
+    {
+      "field": "start",
+      "values": [
+        {
+          "value": 330,
+          "circa": false,
+          "source": ""
+        },
+        {
+          "value": 402,
+          "circa": false,
+          "source": "https://en.wikipedia.org/wiki/Rouran_Khaganate"
+        }
+      ]
+    }
+  ],
   "checks": {
     "infobox": true,
     "capital_sources": {

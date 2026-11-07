@@ -90,6 +90,7 @@
   "tier": "Core",
   "map": "maps/hittites.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

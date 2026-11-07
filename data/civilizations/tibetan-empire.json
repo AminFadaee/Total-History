@@ -66,6 +66,7 @@
   "tier": "Core",
   "map": "maps/tibetan-empire.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

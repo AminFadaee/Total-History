@@ -86,6 +86,7 @@
   "tier": "Core",
   "map": "maps/united-kingdom-of-great-britain-and-ireland.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

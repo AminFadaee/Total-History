@@ -45,6 +45,7 @@
   "tier": "Extended",
   "map": "maps/saxons.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": false,
     "capital_sources": {

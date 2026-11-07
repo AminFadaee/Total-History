@@ -6,9 +6,9 @@
   "map_year": 1085,
   "period": {
     "start": {
-      "earliest": 602,
-      "latest": 602,
-      "circa": false
+      "earliest": 660,
+      "latest": 660,
+      "circa": true
     },
     "end": {
       "earliest": 1453,
@@ -77,6 +77,7 @@
   "tier": "Core",
   "map": "maps/duchy-of-aquitaine.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

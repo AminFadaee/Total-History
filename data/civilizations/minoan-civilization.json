@@ -49,6 +49,7 @@
   "tier": "Core",
   "map": "maps/minoan-civilization.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": false,
     "capital_sources": {

@@ -75,6 +75,7 @@
   "tier": "Core",
   "map": "maps/russian-republic.png",
   "map_asked": false,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -141,6 +141,23 @@
   "tier": "Essential",
   "map": "maps/roman-empire.png",
   "map_asked": true,
+  "disputes": [
+    {
+      "field": "end",
+      "values": [
+        {
+          "value": 395,
+          "circa": false,
+          "source": ""
+        },
+        {
+          "value": 476,
+          "circa": false,
+          "source": "https://www.worldhistory.org/Roman_Empire/"
+        }
+      ]
+    }
+  ],
   "checks": {
     "infobox": true,
     "capital_sources": {

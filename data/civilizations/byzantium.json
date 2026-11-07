@@ -11,8 +11,8 @@
       "circa": true
     },
     "end": {
-      "earliest": 330,
-      "latest": 330,
+      "earliest": 337,
+      "latest": 337,
       "circa": true
     },
     "confirmed": true,
@@ -45,6 +45,7 @@
   "tier": "Extended",
   "map": "",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": false,
     "capital_sources": {

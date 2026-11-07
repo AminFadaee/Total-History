@@ -89,6 +89,7 @@
   "tier": "Core",
   "map": "maps/kingdom-of-aragon.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -80,6 +80,7 @@
   "tier": "Extended",
   "map": "maps/makuria-kingdom.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

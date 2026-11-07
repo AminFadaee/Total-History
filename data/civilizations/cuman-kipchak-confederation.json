@@ -52,6 +52,7 @@
   "tier": "Extended",
   "map": "maps/cuman-kipchak-confederation.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

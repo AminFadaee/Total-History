@@ -75,6 +75,7 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-numidia.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

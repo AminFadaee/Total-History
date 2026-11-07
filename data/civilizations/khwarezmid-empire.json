@@ -104,6 +104,7 @@
   "tier": "Core",
   "map": "maps/khwarezmid-empire.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -71,6 +71,7 @@
   "tier": "Extended",
   "map": "maps/united-states-of-america.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

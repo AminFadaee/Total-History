@@ -97,6 +97,7 @@
   "tier": "Core",
   "map": "maps/vijayanagara-empire.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

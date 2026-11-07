@@ -67,6 +67,7 @@
   "tier": "Extended",
   "map": "maps/first-mexican-empire.png",
   "map_asked": false,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

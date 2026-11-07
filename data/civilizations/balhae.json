@@ -99,6 +99,7 @@
   "tier": "Extended",
   "map": "maps/balhae.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

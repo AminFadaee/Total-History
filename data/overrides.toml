@@ -673,14 +673,11 @@ civilization = "Chagatai Khanate"
 civilization_id = "Q487829"
 field = "period"
 action = "set"
-value = { start = 1226, end = 1347 }
-retrieved = 2026-10-27
-needs_verification = false
-sources = [
-  { fact = "Chagatai Khanate ended in 1347", source = "https://www.worldhistory.org/Chagatai_Khanate/", quote = "The Chagatai Khanate (also Chaghatai, Jagatai, Chaghatay or Ca'adai, c. 1227-1363 CE) was that part of the Mongol Empire (1206-1368 CE) which covered what is today mostly Uzbekistan, southern Kazakhstan, and western Tajikistan." },
-  { fact = "Chagatai Khanate began in 1226 (infobox: • Chagatai Khan inherited part of Mongol)", source = "https://en.wikipedia.org/wiki/Chagatai_Khanate", quote = "1227" },
-]
-derivation = "each end of the period is stated by a source"
+value = { start = 1227, end = 1363, circa = true }
+source = "https://www.worldhistory.org/Chagatai_Khanate/"
+quote = "The Chagatai Khanate (also Chaghatai, Jagatai, Chaghatay or Ca'adai, c. 1227-1363 CE)"
+retrieved = 2026-11-07
+note = "1347 is the split, when the Dughlats enthroned Tughlugh Timur as khan of Moghulistan; the source ends the khanate with his death in 1363"
 
 [[override]]
 civilization = "Chagatai Khanate"
@@ -720,15 +717,6 @@ source = "https://en.wikipedia.org/wiki/Champa"
 quote = "The last remaining principality of Champa, Panduranga, survived until August 1832, when Minh Mang of Vietnam began his purge against rival Le Van Duyet's faction"
 retrieved = 2026-10-20
 needs_verification = false
-
-[[override]]
-civilization = "Chimor"
-civilization_id = "Q581741"
-field = "before"
-action = "none"
-retrieved = 2026-10-26
-needs_verification = true
-note = "Sican culture dropped: the Chimú conquered the Lambayeque (Sican) in 1375, long after Chimor began (https://www.worldhistory.org/Chan_Chan/); Wikipedia's infobox also lists the Wari Empire; no predecessor sourced yet"
 
 [[override]]
 civilization = "Chu"
@@ -1427,20 +1415,6 @@ retrieved = 2026-10-25
 needs_verification = false
 
 [[override]]
-civilization = "Janapada of Magadha"
-civilization_id = "Q234009"
-field = "before"
-action = "set"
-value = "Kikata Kingdom"
-value_id = "Q6406219"
-region = "India"
-source = "https://en.wikipedia.org/wiki/Magadha"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox lists the Kikata kingdom as predecessor; check"
-
-[[override]]
 civilization = "Kanem–Bornu Empire"
 civilization_id = "Q1139762"
 field = "after"
@@ -1838,18 +1812,6 @@ retrieved = 2026-10-20
 needs_verification = false
 
 [[override]]
-civilization = "Duchy of Aquitaine"
-civilization_id = "Q7703611"
-field = "period"
-action = "set"
-value = { start = 602 }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "check the start; Wikipedia treats the duchy from the Merovingian period"
-
-[[override]]
 civilization = "Duchy of Burgundy"
 civilization_id = "Q4712"
 field = "period"
@@ -1859,20 +1821,6 @@ source = "https://en.wikipedia.org/wiki/Duchy_of_Burgundy"
 quote = "In 1004, prince Henry of France, a son of king Robert II of France, inherited the Duchy, but later ceded it as an appanage to his younger brother Robert in 1032."
 retrieved = 2026-10-20
 needs_verification = false
-
-[[override]]
-civilization = "Duchy of Burgundy"
-civilization_id = "Q4712"
-field = "before"
-action = "set"
-value = "West Francia"
-value_id = "Q46370"
-region = "France"
-source = "https://en.wikipedia.org/wiki/West_Francia"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Burgundians were a people of the fifth century, not the state before the duchy; the Wikipedia infobox names the Kingdom of the Burgundians; West Francia (843-987) held Burgundy before the Capetian duchy; check"
 
 [[override]]
 civilization = "Duchy of Burgundy"
@@ -3172,12 +3120,11 @@ civilization = "Phoenicia"
 civilization_id = "Q41642"
 field = "key_figures"
 action = "set"
-value = ["Ahiram", "Hiram I", "Pygmalion of Tyre"]
-value_id = ["Q400275", "Q467115", "Q1879787"]
+value = ["Hiram I", "Pygmalion of Tyre"]
+value_id = ["Q467115", "Q1879787"]
 retrieved = 2026-10-27
 needs_verification = false
 sources = [
-  { fact = "Ahiram was a ruler or leading figure of Phoenicia", source = "https://www.worldhistory.org/Phoenicia/", quote = "c. 1000 BCE Ahiram becomes king of Sidon." },
   { fact = "Hiram I was a ruler or leading figure of Phoenicia", source = "https://en.wikipedia.org/wiki/Hiram_I", quote = "was a Phoenician king of Tyre" },
   { fact = "Pygmalion of Tyre was a ruler or leading figure of Phoenicia", source = "https://en.wikipedia.org/wiki/Pygmalion_of_Tyre", quote = "Josephus, citing Menander, says that \"in the seventh year of [Pygmalion's] reign, his sister fled away from him, and built the city of Carthage in Libya\" (Against Apion i:18)." },
 ]
@@ -4366,20 +4313,6 @@ note = "cited in Wikipedia, footnote 7"
 [[override]]
 civilization = "Byzantium"
 civilization_id = "Q23725"
-field = "period"
-action = "set"
-value = { start = -657, end = 330, circa = true }
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Byzantium ended in 330"
-sources = [
-  { fact = "Byzantium began in 657 BC", source = "https://www.worldhistory.org/Byzantium/", quote = "The ancient city of Byzantium was founded by Greek colonists from Megara around 657 BCE." },
-]
-derivation = "each end of the period is stated by a source"
-
-[[override]]
-civilization = "Byzantium"
-civilization_id = "Q23725"
 field = "before"
 action = "none"
 source = ""
@@ -4786,18 +4719,6 @@ quote = "Originally a dependency of Allada, Dahomey became an independent state 
 retrieved = 2026-10-25
 needs_verification = false
 note = "Britannica"
-
-[[override]]
-civilization = "Dahomey"
-civilization_id = "Q468814"
-field = "period"
-action = "set"
-value = { end = 1904 }
-source = "https://en.wikipedia.org/wiki/Dahomey"
-quote = "In 1904, the area became part of a French colony, French Dahomey ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
 
 [[override]]
 civilization = "Dahomey"
@@ -5343,7 +5264,7 @@ value_id = ["Q309282"]
 source = "https://www.worldhistory.org/Hyksos/"
 quote = "Mark The Hyksos were a West Semitic-speaking people who gained a foothold in Egypt circa 1782 BCE at the city of Avaris in Lower Egypt, thus initiating the era known in Egyptian history as the Second Intermediate... 1780995590 --> ❯ Facebook Community Forum Membership No ads Hyksos The Rulers of Foreign Lands Who Transformed Egypt by Joshua J."
 retrieved = 2026-10-20
-needs_verification = false
+needs_verification = true
 
 [[override]]
 civilization = "Hyksos"
@@ -5676,8 +5597,8 @@ action = "none"
 source = "https://en.wikipedia.org/wiki/Kingdom_of_Essex"
 quote = "The territory included the remains of two provincial Roman capitals, Colchester and London ."
 retrieved = 2026-10-20
-needs_verification = false
 note = "Founded by Saxon settlers on the Roman Colchester-London territory; no earlier state; cited in Wikipedia, footnote 1"
+needs_verification = true
 
 [[override]]
 civilization = "Kingdom of Fiji"
@@ -6360,13 +6281,13 @@ civilization = "Funan"
 civilization_id = "Q867782"
 field = "key_figures"
 action = "set"
-value = ["Kaundinya", "Kulaprabhavati", "Rudravarman"]
-value_id = ["Q2708070", "Q19684432", "Q4399749"]
+value = ["Kaundinya II", "Kulaprabhavati", "Rudravarman"]
+value_id = ["Q4217604", "Q19684432", "Q4399749"]
 retrieved = 2026-10-26
 needs_verification = false
 note = "replaces \"Pham Dang Thang\", who is not a ruler of Funan; Kaundinya is the founder, Kulaprabhavati the queen of c. 500 and Rudravarman the last king (514-550); the Wikipedia sentence carries no citation, check against a reference book"
 sources = [
-  { fact = "Kaundinya was a ruler or leading figure of Funan", source = "https://en.wikipedia.org/wiki/Funan", quote = "another Indianised ruler Chiao Chen-ju (Kaundinya) in the fifth century" },
+  { fact = "Kaundinya II was a ruler or leading figure of Funan", source = "https://en.wikipedia.org/wiki/Funan", quote = "another Indianised ruler Chiao Chen-ju (Kaundinya) in the fifth century" },
   { fact = "Kulaprabhavati was a ruler or leading figure of Funan", source = "https://en.wikipedia.org/wiki/Kulaprabhavati", quote = "was a queen regnant of Funan (in present-day Cambodia) from 514 to 517" },
   { fact = "Rudravarman was a ruler or leading figure of Funan", source = "https://en.wikipedia.org/wiki/Funan", quote = "became the last king of Funan" },
 ]
@@ -6528,20 +6449,6 @@ quote = "Crown of Bolesław I the Brave, along with royal regalia In 1025, Boles
 retrieved = 2026-10-20
 needs_verification = false
 note = "cited in Wikipedia, footnote 3"
-
-[[override]]
-civilization = "Kingdom of Pontus"
-civilization_id = "Q7380487"
-field = "before"
-action = "add"
-value = "Antigonid dynasty"
-value_id = "Q237325"
-region = "Turkey"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Pontus"
-quote = "Antigonus planned to kill Mithridates' son, also called Mithridates (later named Ktistes, 'founder') but Demetrius I warned him and he escaped to the east with six horsemen."
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox names the Antigonid dynasty as predecessor; the founder Mithridates Ktistes fled Antigonus to found Pontus in 281 BC; cited in Wikipedia, footnote 17"
 
 [[override]]
 civilization = "Kingdom of Pontus"
@@ -6878,20 +6785,6 @@ quote = "The dynasty’s final collapse came in 937 when Shi Jingtang, a rebelli
 retrieved = 2026-10-20
 needs_verification = false
 note = "cited in Wikipedia, footnote 4"
-
-[[override]]
-civilization = "Lu"
-civilization_id = "Q736936"
-field = "before"
-action = "add"
-value = "Shang Dynasty"
-value_id = "Q128938"
-region = "China"
-source = "https://en.wikipedia.org/wiki/Lu_(state)"
-quote = "The first duke was Boqin, a son of the Duke of Zhou, who was brother of King Wu of Zhou and regent to King Cheng of Zhou."
-retrieved = 2026-10-20
-needs_verification = true
-note = "Lu was a Zhou enfeoffment on former Shang land (the first duke Boqin was a son of the Duke of Zhou); the Shang are the state that held the region before; cited in Wikipedia, footnote 1"
 
 [[override]]
 civilization = "Mahajanapadas"
@@ -7474,20 +7367,6 @@ quote = ""
 retrieved = 2026-10-20
 needs_verification = false
 note = "a league of sovereign cantons with no capital; the Wikipedia infobox gives Capital: None"
-
-[[override]]
-civilization = "Old Swiss Confederacy"
-civilization_id = "Q435583"
-field = "key_figures"
-action = "set"
-value = ["Niklaus von Flüe"]
-value_id = ["Q115550"]
-retrieved = 2026-10-20
-needs_verification = true
-note = "partly sourced: no source yet for Niklaus von Flüe"
-sources = [
-]
-derivation = "every listed item has its own source"
 
 [[override]]
 civilization = "Old Swiss Confederacy"
@@ -8240,20 +8119,6 @@ sources = [
 derivation = "every listed person's own article or the state's names them a ruler or leading figure of it"
 
 [[override]]
-civilization = "South African Republic"
-civilization_id = "Q550374"
-field = "before"
-action = "add"
-value = "Klein Vrystaat"
-value_id = "Q1493843"
-region = "South Africa"
-source = "https://en.wikipedia.org/wiki/South_African_Republic"
-quote = "Preceded by Succeeded by Klein Vrystaat"
-retrieved = 2026-10-20
-needs_verification = true
-note = "infobox of Wikipedia, uncited; the Wikipedia sentence carries no citation, check against a reference book"
-
-[[override]]
 civilization = "Sukhothai Kingdom"
 civilization_id = "Q863279"
 field = "before"
@@ -8744,14 +8609,13 @@ civilization = "Viking settlements"
 civilization_id = "Q12567"
 field = "key_figures"
 action = "set"
-value = ["Ivar the Boneless", "Rollo", "Erik the Red", "Leif Erikson"]
-value_id = ["Q350321", "Q273773", "Q172345", "Q42838"]
+value = ["Ivar the Boneless", "Rollo", "Erik the Red"]
+value_id = ["Q350321", "Q273773", "Q172345"]
 retrieved = 2026-10-20
 needs_verification = true
 note = "partly sourced: no source yet for Ivar the Boneless was a ruler or leading figure of Viking settlements"
 sources = [
   { fact = "Erik the Red was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Vikings", quote = "Vikings under Leif Erikson, heir to Erik the Red, reached North America and set up short-lived settlements in present-day L'Anse aux Meadows, Newfoundland, Canada." },
-  { fact = "Leif Erikson was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Vikings", quote = "Vikings under Leif Erikson, heir to Erik the Red, reached North America and set up short-lived settlements in present-day L'Anse aux Meadows, Newfoundland, Canada." },
   { fact = "Rollo was a ruler or leading figure of Viking settlements", source = "https://en.wikipedia.org/wiki/Rollo", quote = "Rollo is first recorded in a charter of 918 as the leader of a group of Viking settlers" },
 ]
 derivation = "every listed item has its own source"
@@ -9595,3 +9459,103 @@ quote = ""
 retrieved = 2026-10-20
 note = "not drawn in Cliopatria"
 
+[[override]]
+civilization = "Dahomey"
+civilization_id = "Q468814"
+field = "period"
+action = "set"
+value = { end = 1894 }
+source = "https://en.wikipedia.org/wiki/Dahomey"
+quote = "The kingdom was reduced and made a French protectorate in 1894."
+retrieved = 2026-11-07
+note = "replaces 1904, when the area became part of the colony of French Dahomey; that sentence is uncited"
+
+[[override]]
+civilization = "Duchy of Aquitaine"
+civilization_id = "Q7703611"
+field = "period"
+action = "set"
+value = { start = 660, circa = true }
+source = "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+quote = "The first duke is on record under the name of Felix, and as having ruled from about 660."
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Teotihuacan"
+civilization_id = "Q172613"
+field = "period"
+action = "dispute"
+value = { end = 600, circa = true }
+source = "https://www.worldhistory.org/Teotihuacan/"
+quote = "Around 600 CE, the major buildings of the city were destroyed by fire, artworks were smashed and the city went into decline."
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Mutapa Empire"
+civilization_id = "Q854468"
+field = "period"
+action = "dispute"
+value = { end = 1693 }
+source = "https://www.worldhistory.org/Mutapa/"
+quote = "What remained of Mutapa territory was then taken over by Batua, a long-time rival Shona kingdom, in 1693 CE."
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Funan"
+civilization_id = "Q867782"
+field = "period"
+action = "dispute"
+value = { end = 680 }
+source = "https://en.wikipedia.org/wiki/Funan"
+quote = "According to British Historian Robert Nichol, When Funan kingdom collapsed under Khmer invasions, during the year 680"
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Phrygia"
+civilization_id = "Q32579"
+field = "period"
+action = "dispute"
+value = { end = -625, circa = true }
+source = "https://www.worldhistory.org/phrygia/"
+quote = "Phrygia was absorbed c. 625 BCE with Gordium conquered around 600 BCE."
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Rouran Khaganate"
+civilization_id = "Q155361"
+field = "period"
+action = "dispute"
+value = { start = 402 }
+source = "https://en.wikipedia.org/wiki/Rouran_Khaganate"
+quote = "However they remained politically fragmented until 402 AD when Shelun gained support of all the Rouran chieftains and united the Rouran under one banner."
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Holy Roman Empire"
+civilization_id = "Q12548"
+field = "period"
+action = "dispute"
+value = { start = 800 }
+source = "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+quote = "It developed in the Early Middle Ages (beginning in either 800 or 962), and lasted for a millennium until its dissolution in 1806 during the Napoleonic Wars."
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Roman Empire"
+civilization_id = "Q2277"
+field = "period"
+action = "dispute"
+value = { end = 476 }
+source = "https://www.worldhistory.org/Roman_Empire/"
+quote = "The empire began when Augustus Caesar (r. 27 BCE-14 CE) became the first emperor of Rome and ended, in the west, when the last Roman emperor, Romulus Augustulus (r. 475-476), was deposed by the Germanic King Odoacer (r. 476-493)."
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Byzantium"
+civilization_id = "Q23725"
+field = "period"
+action = "set"
+value = { start = -657, end = 337, circa = true }
+retrieved = 2026-11-07
+sources = [{ fact = "Byzantium began in 657 BC", source = "https://www.worldhistory.org/Byzantium/", quote = "The ancient city of Byzantium was founded by Greek colonists from Megara around 657 BCE." }, { fact = "Byzantium was renamed Constantinople in 337", source = "https://www.worldhistory.org/Byzantium/", quote = "Upon Constantine's death in 337 CE, the city would be renamed Constantinople in his honor." }]
+derivation = "each end of the period is stated by a source"

@@ -82,6 +82,7 @@
   "tier": "Core",
   "map": "maps/kingdom-of-england.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

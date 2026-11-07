@@ -67,3 +67,14 @@ what_line_outside_period = [
   ["Kingdom of Northumbria"],
   ["Silla"],
 ]
+
+# Fields emptied when a wrong value was removed, still to fill from a source.
+unfilled = [
+  ["Chimor", "before"],
+  ["Duchy of Burgundy", "before"],
+  ["Janapada of Magadha", "before"],
+  ["Kingdom of Pontus", "before"],
+  ["Lu", "before"],
+  ["Old Swiss Confederacy", "key_figures"],
+  ["South African Republic", "before"],
+]

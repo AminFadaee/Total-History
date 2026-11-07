@@ -55,6 +55,7 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-khotan.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

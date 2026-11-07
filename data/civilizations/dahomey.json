@@ -11,8 +11,8 @@
       "circa": true
     },
     "end": {
-      "earliest": 1904,
-      "latest": 1904,
+      "earliest": 1894,
+      "latest": 1894,
       "circa": false
     },
     "confirmed": true,
@@ -69,6 +69,7 @@
   "tier": "Extended",
   "map": "",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

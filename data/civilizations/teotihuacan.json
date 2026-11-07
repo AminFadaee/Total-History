@@ -49,6 +49,23 @@
   "tier": "Core",
   "map": "maps/teotihuacan.png",
   "map_asked": true,
+  "disputes": [
+    {
+      "field": "end",
+      "values": [
+        {
+          "value": 550,
+          "circa": true,
+          "source": "https://en.wikipedia.org/wiki/Teotihuacan"
+        },
+        {
+          "value": 600,
+          "circa": true,
+          "source": "https://www.worldhistory.org/Teotihuacan/"
+        }
+      ]
+    }
+  ],
   "checks": {
     "infobox": false,
     "capital_sources": {

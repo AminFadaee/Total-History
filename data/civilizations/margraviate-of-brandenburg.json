@@ -78,6 +78,7 @@
   "tier": "Extended",
   "map": "maps/margraviate-of-brandenburg.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

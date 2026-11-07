@@ -82,6 +82,7 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-greece.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

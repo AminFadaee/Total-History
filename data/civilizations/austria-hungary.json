@@ -86,6 +86,7 @@
   "tier": "Core",
   "map": "maps/austria-hungary.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

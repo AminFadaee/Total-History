@@ -111,6 +111,7 @@
   "tier": "Core",
   "map": "maps/first-bulgarian-empire.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

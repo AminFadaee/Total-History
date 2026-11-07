@@ -52,6 +52,7 @@
   "tier": "Extended",
   "map": "maps/scandinavian-minor-kingdoms.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": false,
     "capital_sources": {

@@ -66,6 +66,7 @@
   "tier": "Extended",
   "map": "maps/emirate-of-nejd.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

@@ -83,6 +83,7 @@
   "tier": "Core",
   "map": "maps/chola-dynasty.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": false,
     "capital_sources": {

@@ -67,6 +67,7 @@
   "tier": "Extended",
   "map": "maps/north-german-confederation.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

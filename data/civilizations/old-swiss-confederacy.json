@@ -37,12 +37,7 @@
       "home": true
     }
   ],
-  "key_figures": [
-    {
-      "id": "Q115550",
-      "name": "Nicholas of Flüe"
-    }
-  ],
+  "key_figures": [],
   "modern_countries": [
     "Switzerland"
   ],
@@ -52,6 +47,7 @@
   "tier": "Extended",
   "map": "",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {

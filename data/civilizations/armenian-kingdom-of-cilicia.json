@@ -81,6 +81,7 @@
   "tier": "Extended",
   "map": "maps/armenian-kingdom-of-cilicia.png",
   "map_asked": true,
+  "disputes": [],
   "checks": {
     "infobox": true,
     "capital_sources": {
