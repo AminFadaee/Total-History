@@ -5685,15 +5685,6 @@
     },
     {
       "civilization": "Srivijaya",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 1377,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Srivijaya",
       "field": "after",
       "action": "none",
       "value": ""
@@ -5715,16 +5706,6 @@
       "field": "key_figures",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Teotihuacan",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -100,
-        "end": 550,
-        "circa": true
-      }
     },
     {
       "civilization": "Teotihuacan",
@@ -5844,15 +5825,6 @@
       "field": "map_year",
       "action": "set",
       "value": 1800
-    },
-    {
-      "civilization": "Duchy of Bavaria",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": 555,
-        "circa": true
-      }
     },
     {
       "civilization": "Duchy of Savoy",
@@ -6133,14 +6105,6 @@
       "field": "before",
       "action": "add",
       "value": "Pugu (state)"
-    },
-    {
-      "civilization": "Republic of Austria",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "since": 1918
-      }
     },
     {
       "civilization": "Republic of Texas",
