@@ -2393,9 +2393,8 @@
       "field": "period",
       "action": "set",
       "value": {
-        "start": -800,
-        "end": 1100,
-        "circa": true
+        "start": "6th century BC",
+        "end": "11th century"
       }
     },
     {
@@ -5336,58 +5335,16 @@
       "value": ""
     },
     {
-      "civilization": "Duchy of Aquitaine",
-      "field": "capital",
-      "action": "add",
-      "value": "Poitiers"
-    },
-    {
       "civilization": "Puebloans - Chaco Regional System",
       "field": "before",
       "action": "none",
       "value": ""
     },
     {
-      "civilization": "Brythons",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "start": -800,
-        "end": 1100,
-        "circa": true
-      }
-    },
-    {
-      "civilization": "Estado Novo",
-      "field": "before",
-      "action": "set",
-      "value": "Ditadura Nacional"
-    },
-    {
-      "civilization": "Free French",
-      "field": "before",
-      "action": "set",
-      "value": "French Third Republic"
-    },
-    {
-      "civilization": "Free French",
-      "field": "after",
-      "action": "set",
-      "value": "Provisional Government of the French Republic"
-    },
-    {
       "civilization": "Cuman-Kipchak Confederation",
       "field": "before",
       "action": "set",
       "value": "Kimek-Kipchak confederation"
-    },
-    {
-      "civilization": "Danish overseas colonies",
-      "field": "capital",
-      "action": "set",
-      "value": [
-        "Copenhagen"
-      ]
     },
     {
       "civilization": "Land of Punt",
@@ -5432,12 +5389,6 @@
         "end": -473,
         "circa": true
       }
-    },
-    {
-      "civilization": "Great Moravia",
-      "field": "after",
-      "action": "set",
-      "value": "Duchy of Bohemia"
     }
   ],
   "unresolved_polities": {

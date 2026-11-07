@@ -6,14 +6,14 @@
   "map_year": 439,
   "period": {
     "start": {
-      "earliest": -800,
-      "latest": -800,
-      "circa": true
+      "earliest": -600,
+      "latest": -501,
+      "circa": false
     },
     "end": {
-      "earliest": 1100,
+      "earliest": 1001,
       "latest": 1100,
-      "circa": true
+      "circa": false
     },
     "confirmed": true,
     "core": null,

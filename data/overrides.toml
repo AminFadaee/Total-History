@@ -1769,10 +1769,11 @@ field = "capital"
 action = "add"
 value = "Poitiers"
 value_id = "Q6616"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+source = "Dan Jones, The Plantagenets: The Warrior Kings and Queens Who Made England, Viking, 2012"
+page = "chapter \"A Scandalous Wife\""
+quote = "In March 1152 she made a perilous journey through the Loire Valley from Beaugency to Poitiers, the principal seat of her duchy."
+retrieved = 2026-11-07
+note = "the principal seat of Eleanor of Aquitaine's duchy"
 
 [[override]]
 civilization = "Duchy of Aquitaine"
@@ -4121,12 +4122,14 @@ civilization = "Brythons"
 civilization_id = "Q849967"
 field = "period"
 action = "set"
-value = { start = -800, end = 1100, circa = true }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "from the British Iron Age until the High Middle Ages, when they diverged into the Welsh, Cornish and Bretons (the card summary); the years are approximate"
+value = { start = "6th century BC", end = "11th century" }
+retrieved = 2026-11-07
+note = "replaces c. 800 BC – 1100; p. 156 refers to the eleventh century, when Welsh and Bretons were still 'of one language and one people'"
+sources = [
+  { fact = "The first recorded names for Britain and its inhabitants date from the sixth century BC", source = "Christopher A. Snyder, The Britons, Blackwell, 2003", page = "12", quote = "The earliest appear in a periplus (‘circumnavigation’), or sailing manual, written by a mariner from Massilia (Marseilles) in the sixth century BC." },
+  { fact = "Welsh, Bretons and Cornish began to diverge in the eleventh century", source = "Christopher A. Snyder, The Britons, Blackwell, 2003", page = "156", quote = "It is not until this point that Old Breton and Cornish begin to evolve separately and no longer share a common orthography." },
+]
+derivation = "from the first record of the Britons to the century in which their languages split"
 
 [[override]]
 civilization = "Burgundians"
@@ -4790,11 +4793,10 @@ action = "set"
 value = "Ditadura Nacional"
 value_id = "Q2729197"
 region = "Portugal"
-source = "https://en.wikipedia.org/wiki/Estado_Novo_%28Portugal%29"
-quote = "For the period of military dictatorship that immediately preceded the Estado Novo, see Ditadura Nacional ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "Douglas L. Wheeler, \"The Changing Historiography of the First Portuguese Republic: A Brief Essay\", in Richard Herr and António Costa Pinto (eds.), The Portuguese Republic at One Hundred, University of California, Berkeley, 2012"
+page = "73"
+quote = "The dictatorship of 1926 to 1933 metamorphosed into the civilian-dominated Estado Novo (“The New State”)"
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Estado Novo"
@@ -4858,11 +4860,10 @@ action = "set"
 value = "French Third Republic"
 value_id = "Q70802"
 region = "France"
-source = "https://en.wikipedia.org/wiki/Free_France"
-quote = "Following the defeat of the Third Republic by Nazi Germany, Marshal Philippe Pétain negotiated an armistice and established a German client state known as Vichy France ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+source = "Julian Jackson, A Certain Idea of France: The Life of Charles de Gaulle, Allen Lane, 2018"
+page = "chapter 8, \"Inventing Gaullism\""
+quote = "If Vichy was illegal, the implication by default was that de Gaulle’s movement represented the continuity of the Third Republic abolished by Vichy."
+retrieved = 2026-11-07
 
 [[override]]
 civilization = "Free French"
@@ -4872,11 +4873,12 @@ action = "set"
 value = "Provisional Government of the French Republic"
 value_id = "Q783684"
 region = "France"
-source = "https://en.wikipedia.org/wiki/Free_France"
-quote = "By June 1944, the AFL numbered more than 500,000, and the CFLN was succeeded by the Provisional Government of the French Republic ( Gouvernement Provisoire de la République française , GPRF), which was established in anticipation of the liberation of France ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+sources = [
+  { fact = "De Gaulle merged his London National Committee into a single committee in Algiers", source = "Julian Jackson, A Certain Idea of France: The Life of Charles de Gaulle, Allen Lane, 2018", page = "chapter 11, \"Power Struggles\"", quote = "His plan was to establish a single committee merging the Giraudist administration in Algiers with his London National Committee." },
+  { fact = "The committee proclaimed itself the Provisional Government", source = "Julian Jackson, A Certain Idea of France: The Life of Charles de Gaulle, Allen Lane, 2018", page = "chapter 12, \"Building a State in Exile\"", quote = "At the same meeting, the CFLN proclaimed itself the ‘Provisional Government of the French Republic’ (Gouvernement Provisoire de la République Française – GPRF)." },
+]
+derivation = "Free France's committee merged into the CFLN, which proclaimed itself the Provisional Government"
 
 [[override]]
 civilization = "Free Orange State"
@@ -5825,11 +5827,13 @@ field = "capital"
 action = "set"
 value = ["Copenhagen"]
 value_id = ["Q1748"]
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the colonies were ruled from Copenhagen"
+retrieved = 2026-11-07
+note = "St. Croix was the local seat of the Danish West Indies; the empire as a whole was governed from Copenhagen"
+sources = [
+  { fact = "Copenhagen made the colonies' free-port decisions", source = "James S. Olson and Robert Shadle (eds.), Historical Dictionary of European Imperialism, Greenwood, 1991", page = "539", quote = "Illicit trade with British North America prospered when Copenhagen designated St. Thomas as a free port in 1764." },
+  { fact = "Copenhagen abolished slavery in the colonies", source = "James S. Olson and Robert Shadle (eds.), Historical Dictionary of European Imperialism, Greenwood, 1991", page = "535", quote = "It was not until 1847, however, that Copenhagen abolished the institution of slavery." },
+]
+derivation = "the colonies were governed from Copenhagen"
 
 [[override]]
 civilization = "Danish overseas colonies"
@@ -8957,11 +8961,13 @@ action = "set"
 value = "Duchy of Bohemia"
 value_id = "Q2162698"
 region = "Czechia"
-source = "https://en.wikipedia.org/wiki/Great_Moravia"
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox successor: Duchy of Bohemia (and the Principality of Hungary); the Bohemian duchy took the Moravian heartland"
+retrieved = 2026-11-07
+note = "no single state held Moravia for about a century after the collapse; Bohemia held it from 1029"
+sources = [
+  { fact = "Great Moravia collapsed under the Magyars in 907", source = "Florin Curta, Eastern Europe in the Middle Ages (500–1300), Brill, 2019", page = "125", quote = "When the Magyars inflicted a crushing defeat on the Bavarians at Bratislava (July 4, 907), the fate of Moravia was sealed as well." },
+  { fact = "Moravia was disputed for about a century and joined Bohemia in 1029", source = "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Moravia", quote = "For about a century the possession of this marchland was disputed by Hungary, Poland and Bohemia, but in 1029 it was finally incorporated with Bohemia, and so became an integral part of the German empire." },
+]
+derivation = "the next state to hold the home region: after the collapse of about 907 it was disputed until Bohemia took it in 1029"
 
 [[override]]
 civilization = "Crimean Khanate"
