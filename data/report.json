@@ -1076,7 +1076,7 @@
       "civilization": "Duchy of Aquitaine",
       "field": "capital",
       "action": "add",
-      "value": "Bordeaux"
+      "value": "Toulouse"
     },
     {
       "civilization": "Duchy of Aquitaine",
@@ -2698,7 +2698,7 @@
       "field": "period",
       "action": "set",
       "value": {
-        "end": 1847
+        "end": 1713
       }
     },
     {
@@ -3786,7 +3786,7 @@
       "civilization": "Mahajanapadas",
       "field": "before",
       "action": "set",
-      "value": "Kuru Kingdom"
+      "value": "Videha"
     },
     {
       "civilization": "Makuria Kingdom",
@@ -5320,6 +5320,12 @@
       "value": {
         "end": 705
       }
+    },
+    {
+      "civilization": "Duchy of Savoy",
+      "field": "summary",
+      "action": "set",
+      "value": "A territorial entity of the Savoyard state and a possession of the House of Savoy."
     }
   ],
   "needs_verification": [
@@ -5328,12 +5334,6 @@
       "field": "before",
       "action": "none",
       "value": ""
-    },
-    {
-      "civilization": "Duchy of Aquitaine",
-      "field": "capital",
-      "action": "add",
-      "value": "Bordeaux"
     },
     {
       "civilization": "Duchy of Aquitaine",
@@ -5358,14 +5358,6 @@
       }
     },
     {
-      "civilization": "Duchy of Savoy",
-      "field": "period",
-      "action": "set",
-      "value": {
-        "end": 1847
-      }
-    },
-    {
       "civilization": "Estado Novo",
       "field": "before",
       "action": "set",
@@ -5382,12 +5374,6 @@
       "field": "after",
       "action": "set",
       "value": "Provisional Government of the French Republic"
-    },
-    {
-      "civilization": "Kingdom of Hawaï'i",
-      "field": "after",
-      "action": "set",
-      "value": "Republic of Hawaii"
     },
     {
       "civilization": "Cuman-Kipchak Confederation",
@@ -5414,22 +5400,10 @@
       }
     },
     {
-      "civilization": "Mahajanapadas",
-      "field": "before",
-      "action": "set",
-      "value": "Kuru Kingdom"
-    },
-    {
       "civilization": "Mataram Kingdom",
       "field": "before",
       "action": "add",
       "value": "Kalingga Kingdom"
-    },
-    {
-      "civilization": "Sultanate of Brunei",
-      "field": "before",
-      "action": "add",
-      "value": "Majapahit"
     },
     {
       "civilization": "Twenty-second Dynasty of Egypt",

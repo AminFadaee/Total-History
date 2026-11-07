@@ -1755,13 +1755,12 @@ civilization = "Duchy of Aquitaine"
 civilization_id = "Q7703611"
 field = "capital"
 action = "add"
-value = "Bordeaux"
-value_id = "Q1479"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "seat of the dukes; Poitiers was the later seat of the Ramnulfid and Poitevin dukes"
+value = "Toulouse"
+value_id = "Q7880"
+source = "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Aquitaine"
+quote = "The first line of dukes began about 660 with one Felix, who, like his successor, Lupus, probably owned allegiance to the Frankish kings, and whose seat of government was Toulouse."
+retrieved = 2026-11-07
+note = "Encyclopaedia Britannica (1911); replaces Bordeaux, which the source does not name as a seat of the dukes"
 
 [[override]]
 civilization = "Duchy of Aquitaine"
@@ -4710,12 +4709,11 @@ civilization = "Duchy of Savoy"
 civilization_id = "Q426025"
 field = "period"
 action = "set"
-value = { end = 1847 }
-source = "https://en.wikipedia.org/wiki/Duchy_of_Savoy"
-quote = "Under the 1847 Perfect Fusion , the duchy was merged with the other parts of the Savoyard state into the unitary Kingdom of Sardinia."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+value = { end = 1713 }
+source = "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Savoy,_House_of"
+quote = "By the treaty, of Utrecht (1713) Victor received the long-coveted Montferrat and was made king of Sicily"
+retrieved = 2026-11-07
+note = "Encyclopaedia Britannica (1911); replaces 1847: the duke became king of Sicily in 1713 and exchanged it for Sardinia in 1718. Wikipedia counts Savoy as a territory of the Savoyard state until the merger of 1847"
 
 [[override]]
 civilization = "Duchy of Savoy"
@@ -5591,11 +5589,13 @@ action = "set"
 value = "Republic of Hawaii"
 value_id = "Q1057542"
 region = "United States"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Hawaii"
-quote = "The Committee of Safety dissolved the kingdom and established the Republic of Hawaii , intending for the U.S. to annex the islands, which it did on July 7, 1898, via the Newlands Resolution ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the republic of 1894 followed the kingdom; the United States annexed it in 1898; the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+note = "Encyclopaedia Britannica (1911); a provisional government ruled from January 1893 until the republic of July 1894"
+sources = [
+  { fact = "The monarchy was abrogated in January 1893", source = "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hawaii", quote = "On the 17th the Committee of Safety took possession of the government building, and issued a proclamation declaring a monarchy to be abrogated, and establishing a provisional government" },
+  { fact = "The Republic of Hawaii was proclaimed in 1894", source = "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hawaii", quote = "On the 30th of May 1894 a convention was held to frame a constitution for the republic of Hawaii, which was proclaimed on the 4th of July following" },
+]
+derivation = "the state proclaimed after the monarchy, following an 18-month provisional government"
 
 [[override]]
 civilization = "Kingdom of Hawaï'i"
@@ -6707,14 +6707,17 @@ civilization = "Mahajanapadas"
 civilization_id = "Q846025"
 field = "before"
 action = "set"
-value = "Kuru Kingdom"
-value_id = "Q1068408"
+value = "Videha"
+value_id = "Q3359147"
 region = "India"
-source = "https://en.wikipedia.org/wiki/Mahajanapadas"
-quote = "This refers to the Kasis, Kosalas, Kurus, Panchalas, Vatsyas and other neo-Vedic tribes of the east Panjab of whom nothing was ever heard except in the legend and poetry. (The Nandas usurped the throne of Shishunaga dynasty c. 345 BCE, thus founding the Nanda Empire.)"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Mahajanapadas followed the late Vedic janapadas, of which the Kuru kingdom was the leading one; cited in Wikipedia, footnote 59; region India (the home point lies there, not in Nepal)"
+retrieved = 2026-11-07
+note = "replaces the Kuru Kingdom, which the source has losing its importance before Videha's age"
+sources = [
+  { fact = "The Kurus lost their political importance before the age of Janaka of Videha", source = "Hemchandra Raychaudhuri, Political History of Ancient India, from the Accession of Parikshit to the Extinction of the Gupta Dynasty, University of Calcutta, 1923", page = "31", quote = "From this time the Kurus appear to have lost their political importance." },
+  { fact = "The Mahajanapadas arose after the fall of the Videhan monarchy", source = "Hemchandra Raychaudhuri, Political History of Ancient India, from the Accession of Parikshit to the Extinction of the Gupta Dynasty, University of Calcutta, 1923", page = "45", quote = "The Vedic texts do not throw much light on the political history of the period which elapsed from the fall of the Videhan monarchy to the rise of Kosala under Mahakosala, the father-in-law of Bimbisara." },
+  { fact = "Sixteen great states flourished in that period", source = "Hemchandra Raychaudhuri, Political History of Ancient India, from the Accession of Parikshit to the Extinction of the Gupta Dynasty, University of Calcutta, 1923", page = "45", quote = "But we know from the Buddhist Anguttara Nikaya that during this period there were sixteen states of considerable extent and power known as the Solasa Mahajanapada." },
+]
+derivation = "the leading state whose fall opened the period of the sixteen great states"
 
 [[override]]
 civilization = "Makuria Kingdom"
@@ -8013,11 +8016,10 @@ action = "add"
 value = "Majapahit"
 value_id = "Q49326"
 region = "Brunei"
-source = "https://en.wikipedia.org/wiki/Sultanate_of_Brunei"
-quote = "The Javanese manuscript Nagarakretagama, written by Prapanca in 1365, mentioned Barune as the vassal state of Majapahit"
-retrieved = 2026-10-20
-needs_verification = true
-note = "Brunei was a Majapahit vassal when the sultanate began; the Wikipedia infobox names Majapahit as predecessor; cited in Wikipedia, footnote 16"
+source = "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brunei"
+quote = "Brunei, at this time, was a dependency of Majapahit (Java), and paid a yearly tribute of a jar of areca juice obtained from the young green nuts of the areca palm, and of no monetary value."
+retrieved = 2026-11-07
+note = "Encyclopaedia Britannica (1911): Brunei was a dependency of Majapahit when its first sultan converted to Islam"
 
 [[override]]
 civilization = "Swedish Empire"
@@ -9450,3 +9452,14 @@ value = { end = 705 }
 source = "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
 quote = "By 705, Armenia was annexed by the Caliphate along with the principalities of Caucasian Albania and Iberia"
 retrieved = 2026-11-07
+
+[[override]]
+civilization = "Duchy of Savoy"
+civilization_id = "Q426025"
+field = "summary"
+action = "set"
+value = "A territorial entity of the Savoyard state and a possession of the House of Savoy."
+source = "https://en.wikipedia.org/wiki/Duchy_of_Savoy"
+quote = "was a territorial entity of the Savoyard state that existed from 1416 until 1847 and was a possession of the House of Savoy"
+retrieved = 2026-11-07
+note = "the opening sentence without its dates, which follow a wider definition than the card's period"
