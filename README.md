@@ -303,7 +303,7 @@ the field does not apply, with the reason, in the civilization's `checks.not_app
 from a missing one; `dispute` records another value a different source gives for a period's start or end, or for the
 home `before` or `after`, which the card shows beside the deck's own; `same_state = true` on an added `before` or `after` marks it as the same state
 under another name. Setting `map_year` redraws the map at that year, and the parts and modern countries follow it unless
-an override sets them as well. Each entry cites its source page, quotes the passage and gives the date it was read. A
+an override sets them as well. Each entry cites its source, a web page or a book with the page number, quotes the passage and gives the date it was read. A
 fact no single page states is built from smaller ones: the entry lists `sources`, each the fact it supports, its page
 and the quote, and names in `derivation` the rule that combines them (every listed person's own biography names them a
 ruler of the state; the conquest that ended it falls within 30 years of its end). An entry flagged `needs_verification` is applied too but may leave the source empty, and is listed under

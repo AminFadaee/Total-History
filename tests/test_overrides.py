@@ -22,7 +22,7 @@ def test_every_override_cites_its_source():
         if override.sources:
             assert all(cited["quote"].strip() for cited in override.sources), override
         else:
-            assert override.source.startswith("https://"), override
+            assert override.source.startswith("https://") or override.page, override
             assert override.quote.strip(), override
         assert isinstance(override.retrieved, datetime.date), override
 
@@ -234,3 +234,16 @@ def test_a_side_can_be_the_same_state_under_another_name(tmp_path):
     path.write_text(path.read_text().replace('field = "after"', 'field = "capital"'))
     with pytest.raises(ValueError, match="same state"):
         load_overrides(path)
+
+
+def test_a_book_is_cited_with_its_page(tmp_path):
+    from page_in_history.deck import source_name
+    book = "Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+    path = tmp_path / "overrides.toml"
+    entry = DISPUTES.split("\n\n[[override]]")[0].replace('"https://en.wikipedia.org/wiki/Testland"', f'"{book}"')
+    path.write_text(entry)
+    with pytest.raises(ValueError, match="book with its page"):
+        load_overrides(path)
+    path.write_text(entry.rstrip("\n") + '\npage = "202"\n')
+    assert load_overrides(path)[0].page == "202"
+    assert source_name(book) == "Golden"

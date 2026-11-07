@@ -37,6 +37,7 @@ class Override:
     sources: list[dict] = field(default_factory=list)
     derivation: str = ""
     same_state: bool = False
+    page: str = ""
 
     @property
     def value_ids(self) -> list[str]:
@@ -72,8 +73,10 @@ def _validate(override: Override) -> None:
     if override.sources and not override.derivation.strip():
         raise ValueError(f"{who}: an entry drawn from several sources names the rule that combines them")
     for cited in override.sources:
-        if set(cited) != {"fact", "source", "quote"} or not cited["source"].startswith("https://"):
-            raise ValueError(f"{who}: each source gives the fact it supports, its https page and the quote")
+        if set(cited) - {"page"} != {"fact", "source", "quote"} or not cites(cited["source"], cited.get("page", "")):
+            raise ValueError(f"{who}: each source gives the fact it supports, its https page or a book and page, and the quote")
+    if override.source and not cites(override.source, override.page):
+        raise ValueError(f"{who}: a source is an https page, or a book with its page")
     if override.field not in FIELDS:
         raise ValueError(f"{who}: not a field that overrides may change")
     if override.action not in ACTIONS:
@@ -106,6 +109,11 @@ def _validate(override: Override) -> None:
     if override.action == "set" and override.field in LIST_FIELDS and not isinstance(override.value, list) \
             and override.field not in SIDES:
         raise ValueError(f"{who}: setting a list needs the whole list")
+
+
+def cites(source: str, page: str) -> bool:
+    """A web page by its address, or a book by its full reference and the page the quote is on."""
+    return source.startswith("https://") or bool(source.strip() and page.strip())
 
 
 def _validate_dispute(override: Override, who: str) -> None:

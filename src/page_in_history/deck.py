@@ -110,6 +110,8 @@ def period_text(period: dict) -> str:
 
 
 def source_name(url: str) -> str:
+    if not url.startswith("https://"):
+        return url.split(",")[0]
     host = urlparse(url).hostname or ""
     return next((name for domain, name in SOURCE_NAMES.items() if host == domain or host.endswith(f".{domain}")),
                 host.removeprefix("www."))
