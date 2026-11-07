@@ -7607,11 +7607,13 @@ civilization_id = "Q1322662"
 field = "period"
 action = "set"
 value = { start = 1024, end = 1402 }
-source = "https://en.wikipedia.org/wiki/Principality_of_Chernigov"
-quote = "Principality within Kievan Rus' (1024–1240)"
-retrieved = 2026-10-20
+retrieved = 2026-11-07
 needs_verification = true
-note = "infobox: Established 1024, Disestablished 1402; the Wikipedia sentence carries no citation, check against a reference book"
+note = "partly sourced: no source yet for Principality of Chernigov ended in 1402"
+sources = [
+  { fact = "Principality of Chernigov began in 1024", source = "https://en.wikipedia.org/wiki/Principality_of_Chernigov", quote = "In 1024, Mstislav of Chernigov, son of Vladimir the Great arrived from Tmutarakan and established rule over the principality of Chernigov." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Principality of Chernigov"
@@ -8119,11 +8121,13 @@ civilization_id = "Q638064"
 field = "period"
 action = "set"
 value = { start = 861, end = 1538 }
-source = "https://en.wikipedia.org/wiki/Shirvanshah"
-quote = "The Shirvanshahs ruled from 861 to 1538, one of the most enduring dynasties of the Islamic world."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Shirvan began in 861", source = "https://en.wikipedia.org/wiki/Shirvanshahs", quote = "The first Yazidi to use the title of Shirvanshah was Yazid's grandson Haytham ibn Khalid in 861, who was also the first Yazidi to specifically govern only Shirvan." },
+  { fact = "Shirvan ended in 1538", source = "https://en.wikipedia.org/wiki/Shirvanshahs", quote = "Although the Safavids and Shirvanshahs had a hostile relationship, Ismail I allowed them to continue their rule in Shirvan, albeit as vassals of Safavid Iran. This ended in 1538 when Shah Tahmasp I (r. 1524–1576) dismissed Shahrukh due to the latter's continuous disloyalty." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Shirvan"
