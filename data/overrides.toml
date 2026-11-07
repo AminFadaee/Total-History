@@ -3639,11 +3639,12 @@ civilization_id = "Q234197"
 field = "period"
 action = "set"
 value = { end = 1377, circa = true }
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "conquered by Majapahit about 1377; Cliopatria draws it to 1293"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Srivijaya ended around 1377", source = "https://en.wikipedia.org/wiki/Majapahit", quote = "Subsequently, in 1377, a few years after the death of Gajah Mada, Majapahit sent a punitive naval attack against a rebellion in Palembang, contributing to the end of the Srivijayan successor kingdom." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Srivijaya"
@@ -3723,11 +3724,13 @@ civilization_id = "Q172613"
 field = "period"
 action = "set"
 value = { start = -100, end = 550, circa = true }
-source = "https://en.wikipedia.org/wiki/Teotihuacan"
-quote = "its major monuments were sacked and systematically burned around 550 CE"
-retrieved = 2026-10-20
-needs_verification = true
-note = "the end is sourced; check the start (the city grew from about 100 BC; Wikipedia says religious center from the first century CE)"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Teotihuacan began around 100 BCE", source = "https://en.wikipedia.org/wiki/Teotihuacan", quote = "The city is thought to have been established around 100 BCE, with major monuments continuously under construction until about 250 CE." },
+  { fact = "Teotihuacan ended around 550 CE", source = "https://en.wikipedia.org/wiki/Teotihuacan", quote = "its major monuments were sacked and systematically burned around 550 CE" },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Teotihuacan"
@@ -4832,11 +4835,12 @@ civilization_id = "Q47261"
 field = "period"
 action = "set"
 value = { start = 555, circa = true }
-source = "https://en.wikipedia.org/wiki/Duchy_of_Bavaria"
-quote = "The first documented duke was Garibald I , a scion of the Frankish Agilolfings , who ruled from 555 onward as a largely independent Merovingian vassal."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the origins of the duchy go back to 551/555; the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Duchy of Bavaria began in 555", source = "https://en.wikipedia.org/wiki/Garibald_I", quote = "Garibald I (also spelt Garivald; Latin: Garibaldus; born c. 540) was Duke (or king) of Bavaria from 555 until 591." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Duchy of Bavaria"
@@ -5483,11 +5487,13 @@ civilization_id = "Q104028"
 field = "period"
 action = "set"
 value = { start = -140, end = -37, circa = false }
-source = ""
-quote = ""
-retrieved = 2026-10-20
+retrieved = 2026-11-07
 needs_verification = true
-note = "the Hasmonean kingdom of Judea (140-37 BC), the rulers listed as its key figures; map year -77 lies within it"
+note = "partly sourced: no source yet for Judea began in -140 (cited Wikipedia dates Simon's reign from 142 or 141 BC)"
+sources = [
+  { fact = "Judea ended in 37 BC", source = "https://en.wikipedia.org/wiki/Herod's_siege_of_Jerusalem", quote = "Herod the Great's siege of Jerusalem (37 or 36 BC) was the final step in his campaign to secure the throne of Judea. Aided by Roman forces provided by Marcus Antonius (Mark Antony), Herod was able to capture the city and depose Antigonus II Mattathias, ending Hasmonean rule." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Judea"
@@ -7739,11 +7745,12 @@ civilization_id = "Q40"
 field = "period"
 action = "set"
 value = { since = 1918 }
-source = "https://en.wikipedia.org/wiki/Austria"
-quote = "First Republic 10 September 1919"
-retrieved = 2026-10-20
-needs_verification = true
-note = "German-Austria was proclaimed 12 November 1918 and became the Republic of Austria; the republic still exists (First Republic 1919-34, Second Republic since 1945); cited in Wikipedia, footnote 8"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Republic of Austria began in 1918", source = "https://en.wikipedia.org/wiki/Austria", quote = "On 12 November, German-Austria was declared a republic, and named Social Democrat Karl Renner as provisional chancellor." },
+]
+derivation = "each end of the period is stated by a source"
 
 [[override]]
 civilization = "Republic of Austria"
