@@ -1780,11 +1780,13 @@ civilization = "Caucasian Albania"
 civilization_id = "Q177076"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-11-07
+needs_verification = false
 note = "earliest known state in the eastern Caucasus; check"
+sources = [
+  { fact = "Caucasian Albania emerged with no earlier state named", source = "https://en.wikipedia.org/wiki/Caucasian_Albania", quote = "The kingdom of Albania emerged in the eastern Caucasus in 2nd or 1st century BC and along with the Georgians and Armenians formed one of the three nations of the Southern Caucasus." },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Caucasian Iberia"
@@ -3737,11 +3739,13 @@ civilization = "Teotihuacan"
 civilization_id = "Q172613"
 field = "before"
 action = "none"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-11-07
+needs_verification = false
 note = "earliest state of the Valley of Mexico"
+sources = [
+  { fact = "Teotihuacan was established around 100 BCE, no earlier state named", source = "https://en.wikipedia.org/wiki/Teotihuacan", quote = "The city is thought to have been established around 100 BCE, with major monuments continuously under construction until about 250 CE." },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Teotihuacan"
@@ -5750,11 +5754,13 @@ civilization = "Kingdom of Hawaï'i"
 civilization_id = "Q156418"
 field = "before"
 action = "none"
-source = "https://en.wikipedia.org/wiki/Kingdom_of_Hawaii"
-quote = "It was established in 1795 when Kamehameha I , then Aliʻi nui of Hawaii , conquered the islands of Oʻahu , Maui , Molokaʻi , and Lānaʻi , and unified them under one government."
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-11-07
+needs_verification = false
 note = "Founded by Kamehameha I, who unified the Hawaiian islands; no earlier state; the Wikipedia sentence carries no citation, check against a reference book"
+sources = [
+  { fact = "The Hawaiian Kingdom was established by Kamehameha, no earlier state named", source = "https://en.wikipedia.org/wiki/Hawaiian_Kingdom", quote = "He established the Hawaiian Kingdom in 1795 with the help of western weapons and advisors, such as John Young and Isaac Davis." },
+]
+derivation = "no source consulted names a predecessor; the quoted sentence describes the state's own origin"
 
 [[override]]
 civilization = "Kingdom of Hawaï'i"
