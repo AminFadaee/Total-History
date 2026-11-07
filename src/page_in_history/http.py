@@ -7,11 +7,20 @@ import time
 import requests
 
 USER_AGENT = "page-in-history/0.1 (https://github.com/AminFadaee; a.fadaee.94@gmail.com)"
-RETRIES = 4
+RETRIES = 6
 BACKOFF_SECONDS = 5
+LONGEST_WAIT_SECONDS = 300
 TIMEOUT_SECONDS = 180
 
 logger = logging.getLogger(__name__)
+
+
+def wait_before_retry(response: requests.Response | None, attempt: int) -> float:
+    """The server's own Retry-After when it throttles us, else a growing pause."""
+    asked = response.headers.get("Retry-After", "") if response is not None else ""
+    if asked.isdigit():
+        return min(int(asked), LONGEST_WAIT_SECONDS)
+    return BACKOFF_SECONDS * (attempt + 1)
 
 
 class Http:
@@ -95,9 +104,10 @@ class Http:
                     raise requests.HTTPError(f"{response.status_code} from {url}", response=response)
                 response.raise_for_status()
                 return response
-            except (requests.ConnectionError, requests.Timeout, requests.HTTPError) as error:
+            except (requests.ConnectionError, requests.Timeout, requests.HTTPError,
+                    requests.exceptions.ChunkedEncodingError) as error:
                 if attempt == RETRIES - 1 or (error.response is not None and 400 <= error.response.status_code < 429):
                     raise
                 logger.warning("Retrying %s after %s", url, error)
-                time.sleep(BACKOFF_SECONDS * (attempt + 1))
+                time.sleep(wait_before_retry(error.response, attempt))
         raise AssertionError("unreachable")

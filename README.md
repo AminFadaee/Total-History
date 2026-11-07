@@ -275,7 +275,8 @@ Every collect rewrites the fact files, `data/civilizations/` and `data/figures/`
 commit field by field, shows each change as old → new with the sources of any override behind it, and asks per
 civilization to accept, reject, accept all the rest or skip. Only a review that accepts every change approves the data,
 for exactly its current contents. The pre-commit hook in `hooks/` refuses a commit of fact files nobody approved; enable it
-once with `git config core.hooksPath hooks`. `review --approve` approves without asking.
+once with `git config core.hooksPath hooks`, and turn it off with `review = false` under `[tool.page-in-history]` in
+`pyproject.toml`. `review --approve` approves without asking.
 
 The tests cover three things:
 

@@ -158,8 +158,18 @@ def review(data_dir: pathlib.Path, interactive: bool, approve: bool) -> int:
     return 1
 
 
+def required() -> bool:
+    """Whether the pre-commit hook enforces the review: `[tool.page-in-history] review = false` in pyproject.toml turns
+    it off."""
+    pyproject = pathlib.Path(git("rev-parse", "--show-toplevel").strip()) / "pyproject.toml"
+    settings = tomllib.loads(pyproject.read_text()).get("tool", {}).get("page-in-history", {})
+    return settings.get("review", True)
+
+
 def check(data_dir: pathlib.Path) -> int:
     """For the pre-commit hook: staged fact files must be exactly the approved ones."""
+    if not required():
+        return 0
     folders = [str(data_dir / folder) for folder in FACT_DIRS]
     if not git("diff", "--cached", "--name-only", "--", *folders).strip():
         return 0

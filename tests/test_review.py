@@ -23,3 +23,12 @@ def test_changes_are_grouped_by_civilization_with_the_sources_behind_them():
                                  "  period.start.earliest: -1200 -> -585",
                                  "  period.start.latest: -1200 -> -585",
                                  "    source of period: The Grand Scribe's Records, Vol. V.1"]
+
+
+def test_a_throttled_request_waits_as_long_as_the_server_asks():
+    from types import SimpleNamespace
+
+    from page_in_history.http import LONGEST_WAIT_SECONDS, wait_before_retry
+    assert wait_before_retry(SimpleNamespace(headers={"Retry-After": "30"}), 0) == 30
+    assert wait_before_retry(SimpleNamespace(headers={"Retry-After": "9999"}), 0) == LONGEST_WAIT_SECONDS
+    assert wait_before_retry(None, 2) == 15
