@@ -6,6 +6,7 @@ import re
 from dataclasses import dataclass
 from datetime import date
 from enum import StrEnum
+from urllib.parse import urlparse
 
 import genanki
 
@@ -21,6 +22,9 @@ TAG_UNSAFE = re.compile(r"[^\w-]+")
 MAX_MODERN_COUNTRIES = 10
 MAX_COUNTRY_TAGS = 3
 ASKED_KINDS = (PictureKind.PHOTOGRAPH, PictureKind.FROM_LIFE)
+SOURCE_NAMES = {"wikipedia.org": "Wikipedia", "worldhistory.org": "World History Encyclopedia",
+                "britannica.com": "Britannica", "iranicaonline.org": "Encyclopaedia Iranica", "treccani.it": "Treccani",
+                "larousse.fr": "Larousse", "encyclopediaofukraine.com": "Encyclopedia of Ukraine"}
 
 logger = logging.getLogger(__name__)
 
@@ -105,6 +109,31 @@ def period_text(period: dict) -> str:
     return ""
 
 
+def source_name(url: str) -> str:
+    host = urlparse(url).hostname or ""
+    return next((name for domain, name in SOURCE_NAMES.items() if host == domain or host.endswith(f".{domain}")),
+                host.removeprefix("www."))
+
+
+def dispute_text(document: dict, disputed: str) -> str:
+    """'Sources differ on the end: AD 550 (Wikipedia) · AD 600 (World History Encyclopedia)', or for a side the
+    civilizations each source names."""
+    dispute = next((item for item in document.get("disputes", []) if item["field"] == disputed), None)
+    if dispute is None:
+        return ""
+    values = [Span(item["value"], item["value"], item["circa"]).label() if disputed in ("start", "end")
+              else item["value"] for item in dispute["values"]]
+    cited = [f"{value} ({source_name(item['source'])})" if item["source"] else value
+             for value, item in zip(values, dispute["values"])]
+    subject = f" on the {disputed}" if disputed in ("start", "end") else ""
+    return f"Sources differ{subject}: {' · '.join(cited)}"
+
+
+def disputed_names(document: dict, side: str) -> list[str]:
+    dispute = next((item for item in document.get("disputes", []) if item["field"] == side), None)
+    return [item["value"] for item in dispute["values"]] if dispute else []
+
+
 def conditional(field: str, content: str) -> str:
     return f"{{{{#{field}}}}}{content}{{{{/{field}}}}}"
 
@@ -139,6 +168,7 @@ CIVILIZATION_INFO = info(("What", "Summary"), ("Capital", "Capital"), ("Key figu
 SUCCESSION_SLOTS = 3
 MAP_IMAGE = '<div class="image map">{{Map}}</div>'
 MAP_THUMBNAIL = '<div class="thumbnail map">{{Map}}</div>'
+DISPUTED = '<div class="disputed">{{{{{}}}}}</div>'
 
 
 def slot(side: str, number: int) -> str:
@@ -151,9 +181,11 @@ def neighbour_template(side: str, number: int = 1) -> Template:
     home region's; the others are other regions it took over or handed on."""
     field = slot(side, number)
     label = f"{side} it in {{{{{field}Region}}}}"
+    disputed = conditional(f"{field}Disputed", DISPUTED.format(f"{field}Disputed")) if number == 1 else ""
     return Template(field, Subdeck.SUCCESSION, (field,),
                     face(entity(CIVILIZATION_TITLE), label, UNKNOWN_VALUE),
-                    face(entity(CIVILIZATION_TITLE), label, value(f"{{{{{field}}}}}", answered=True)) + MAP_THUMBNAIL)
+                    face(entity(CIVILIZATION_TITLE), label, value(f"{{{{{field}}}}}", answered=True)) + disputed
+                    + MAP_THUMBNAIL)
 
 
 CIVILIZATION_TEMPLATES = (
@@ -164,14 +196,16 @@ CIVILIZATION_TEMPLATES = (
     neighbour_template("After"),
     Template("Period", Subdeck.PERIODS, ("AskPeriod",),
              face(entity("{{Name}}"), "When", UNKNOWN_VALUE),
-             face(entity("{{Name}}"), "When", value("{{Period}}", answered=True)) + MAP_THUMBNAIL),
+             face(entity("{{Name}}"), "When", value("{{Period}}", answered=True))
+             + conditional("PeriodDisputed", DISPUTED.format("PeriodDisputed")) + MAP_THUMBNAIL),
     *(neighbour_template(side, number) for side in ("Before", "After") for number in range(2, SUCCESSION_SLOTS + 1)),
 )
 
 CIVILIZATION_FIELDS = ("Id", "Name", "Map", "AskMap", "Period", "AskPeriod", "Capital", "Before", "BeforeRegion",
                        "After", "AfterRegion", "Rulers", "ModernCountries", "Summary", "BeforeList", "AfterList",
                        *(f"{slot(side, number)}{part}" for side in ("Before", "After")
-                         for number in range(2, SUCCESSION_SLOTS + 1) for part in ("", "Region")))
+                         for number in range(2, SUCCESSION_SLOTS + 1) for part in ("", "Region")),
+                       "PeriodDisputed", "BeforeDisputed", "AfterDisputed")
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
@@ -220,6 +254,7 @@ CSS = """
 .portrait img { max-height: 260px; max-width: 100%; border-radius: 6px; }
 .photo img { max-height: 55vh; max-width: 100%; border-radius: 6px; }
 .credit { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.disputed { font-size: 14px; color: var(--muted); margin: 8px auto 0; max-width: 32em; }
 """
 
 
@@ -328,7 +363,9 @@ def succession_fields(document: dict) -> dict[str, str]:
     Caliphate (Iraq) · Kara-Khitans (Kyrgyzstan)'."""
     fields = {}
     for side in ("Before", "After"):
-        edges = document[side.lower()]
+        names = disputed_names(document, side.lower())
+        edges = [{**edge, "name": " or ".join(names)} if edge.get("home") and names else edge
+                 for edge in document[side.lower()]]
         home = [edge for edge in edges if edge.get("home")][:1]
         slots = (home or [{}]) + [edge for edge in edges if not edge.get("home")]
         for number in range(1, SUCCESSION_SLOTS + 1):
@@ -337,6 +374,7 @@ def succession_fields(document: dict) -> dict[str, str]:
             fields[f"{slot(side, number)}Region"] = escaped(edge.get("region"))
         fields[f"{side}List"] = joined([f"{edge['name']} ({edge['region']})" if edge.get("region") else edge["name"]
                                         for edge in edges], " · ")
+        fields[f"{side}Disputed"] = escaped(dispute_text(document, side.lower()))
     return fields
 
 
@@ -407,6 +445,7 @@ class DeckBuilder:
             "AskMap": "yes" if document["map"] and document.get("map_asked", True) else "",
             "Period": escaped(period_text(period)),
             "AskPeriod": "yes" if period_text(period) else "",
+            "PeriodDisputed": "<br>".join(escaped(text) for end in ("start", "end") if (text := dispute_text(document, end))),
             "Capital": joined([capital["name"] for capital in document["capitals"]]),
             **succession_fields(document),
             "Rulers": joined([figure["name"] for figure in document["key_figures"]], " · "),

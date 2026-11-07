@@ -40,6 +40,10 @@ def test_the_overrides_to_verify_are_counted(record_property, capsys):
 
 
 def reflected(override, civilization) -> bool:
+    if override.action == "dispute":
+        return any(dispute["field"] == override.disputed and
+                   any(item["source"] == override.cited for item in dispute["values"][1:])
+                   for dispute in civilization.get("disputes", []))
     if override.action == "none":
         return override.field in civilization["checks"].get("not_applicable", {})
     if override.field == "period":
@@ -141,4 +145,65 @@ sources = [{ fact = "Testland was a state", source = "https://example.org/a", qu
     assert load_overrides(path)[0].sources[0]["fact"] == "Testland was a state"
     path.write_text(entry.replace(', quote = "Testland was a state."', "") + 'derivation = "direct"\n')
     with pytest.raises(ValueError, match="each source"):
+        load_overrides(path)
+
+
+DISPUTES = '''[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "period"
+action = "set"
+value = { end = 550, circa = true }
+source = "https://en.wikipedia.org/wiki/Testland"
+quote = "it fell about 550"
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "period"
+action = "dispute"
+value = { end = 750, circa = true }
+source = "https://www.britannica.com/place/Testland"
+quote = "it burned about 750"
+retrieved = 2026-11-07
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "after"
+action = "dispute"
+value = "Newtown"
+value_id = "Q3"
+region = "Testregion"
+source = "https://www.worldhistory.org/Testland/"
+quote = "Newtown took over"
+retrieved = 2026-11-07
+'''
+
+
+def test_a_dispute_keeps_the_deck_value_and_lists_each_source(tmp_path):
+    from page_in_history.deck import dispute_text, succession_fields
+    path = tmp_path / "overrides.toml"
+    path.write_text(DISPUTES)
+    polity = Polity(id="Q1", slug="testland", name="Testland", wikipedia="Testland", map_year=500,
+                    period=Period(Span(-100, -100, True), Span(600, 600), True),
+                    after=[{"id": "Q2", "region": "Testregion", "name": "Oldland", "home": True}])
+    apply_overrides([polity], load_overrides(path), FakeWikidata())
+    assert polity.period.end == Span(550, 550, True) and polity.after[0]["name"] == "Oldland"
+    document = polity.to_json()
+    assert dispute_text(document, "end") == "Sources differ on the end: c. AD 550 (Wikipedia) · c. AD 750 (Britannica)"
+    fields = succession_fields(document)
+    assert fields["After"] == "Oldland or Newtown"
+    assert fields["AfterDisputed"] == "Sources differ: Oldland · Newtown (World History Encyclopedia)"
+
+
+def test_a_dispute_cites_its_source_and_names_one_end(tmp_path):
+    path = tmp_path / "overrides.toml"
+    unsourced = DISPUTES.split("\n\n[[override]]")[1].replace('quote = "it burned about 750"\n', "")
+    path.write_text("[[override]]" + unsourced)
+    with pytest.raises(ValueError, match="cites"):
+        load_overrides(path)
+    path.write_text(DISPUTES.replace("{ end = 750, circa = true }", "{ start = 1, end = 750 }"))
+    with pytest.raises(ValueError, match="one end"):
         load_overrides(path)

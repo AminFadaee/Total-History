@@ -204,6 +204,7 @@ class Polity:
     tier: str = ""
     map: str = ""
     map_asked: bool = True
+    disputes: list[dict] = field(default_factory=list)
     checks: dict = field(default_factory=dict)
 
     def to_json(self) -> dict:

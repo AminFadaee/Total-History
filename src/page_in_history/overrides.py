@@ -12,8 +12,10 @@ SIDES = ("before", "after")
 LIST_FIELDS = {"before": "before", "after": "after", "capital": "capitals", "key_figures": "key_figures",
                "modern_countries": "modern_countries"}
 FIELDS = (*LIST_FIELDS, "period", "map_year", "summary", "map")
-ACTIONS = ("add", "set", "none")
+ACTIONS = ("add", "set", "none", "dispute")
 ADDABLE = ("before", "after", "capital", "key_figures")
+DISPUTABLE = ("period", *SIDES)
+PERIOD_ENDS = ("start", "end")
 PERIOD_KEYS = {"start", "end", "since", "circa"}
 MAX_KEY_FIGURES = 4
 
@@ -42,6 +44,15 @@ class Override:
     @property
     def values(self) -> list:
         return self.value if isinstance(self.value, list) else [self.value]
+
+    @property
+    def cited(self) -> str:
+        return self.source or (self.sources[0]["source"] if self.sources else "")
+
+    @property
+    def disputed(self) -> str:
+        """What a dispute is about: 'start' or 'end' of the period, or a side."""
+        return next(end for end in PERIOD_ENDS if end in self.value) if self.field == "period" else self.field
 
     def to_json(self) -> dict:
         return {"civilization": self.civilization, "field": self.field, "action": self.action, "value": self.value}
@@ -72,6 +83,8 @@ def _validate(override: Override) -> None:
         return
     if override.field == "map":
         raise ValueError(f"{who}: a map can only be marked not applicable")
+    if override.action == "dispute":
+        _validate_dispute(override, who)
     if override.action == "add" and override.field not in ADDABLE:
         raise ValueError(f"{who}: only {', '.join(ADDABLE)} can be added to")
     if override.field in SIDES and not override.region:
@@ -90,6 +103,17 @@ def _validate(override: Override) -> None:
     if override.action == "set" and override.field in LIST_FIELDS and not isinstance(override.value, list) \
             and override.field not in SIDES:
         raise ValueError(f"{who}: setting a list needs the whole list")
+
+
+def _validate_dispute(override: Override, who: str) -> None:
+    if override.field not in DISPUTABLE:
+        raise ValueError(f"{who}: only {', '.join(DISPUTABLE)} can be disputed")
+    if override.needs_verification or not (override.source and override.quote or override.sources):
+        raise ValueError(f"{who}: a dispute cites the source that gives the other value")
+    if override.field == "period" and (not isinstance(override.value, dict)
+                                       or len(set(override.value) & set(PERIOD_ENDS)) != 1
+                                       or set(override.value) - {*PERIOD_ENDS, "circa"}):
+        raise ValueError(f"{who}: a period dispute gives one end, start or end")
 
 
 def check_against_errata(overrides: list[Override], errata: list[Erratum]) -> None:
@@ -116,6 +140,8 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
             raise ValueError(f"Override names a civilization that is not in the deck: {override.civilization}")
         if override.action == "none":
             polity.checks.setdefault("not_applicable", {})[override.field] = override.note
+        elif override.action == "dispute":
+            continue
         elif override.field == "period":
             _set_period(polity, override)
         elif override.field in SIDES:
@@ -134,7 +160,34 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
         if any(o.civilization_id == polity.id and o.field == "period" and o.action != "none" for o in overrides) \
                 and not (polity.period.confirmed or polity.period.since):
             raise ValueError(f"{polity.name}: the period overrides leave one end open")
+    for polity in polities:
+        polity.disputes = _disputes(polity, [o for o in overrides if o.civilization_id == polity.id], name_of)
     return overrides
+
+
+def _disputes(polity: Polity, overrides: list[Override], name_of) -> list[dict]:
+    """Each disputed value beside the deck's own, with the source of each: the deck's value first, cited by the
+    override that set it when there is one."""
+    disputes = []
+    for disputed in dict.fromkeys(o.disputed for o in overrides if o.action == "dispute"):
+        others = [o for o in overrides if o.action == "dispute" and o.disputed == disputed]
+        if disputed in PERIOD_ENDS:
+            own = getattr(polity.period, disputed)
+            if own is None:
+                raise ValueError(f"{polity.name}: a dispute over the period {disputed} needs a period {disputed}")
+            setter = next((o for o in overrides if o.field == "period" and o.action == "set" and disputed in o.value), None)
+            values = [{"value": own.earliest, "circa": own.circa, "source": setter.cited if setter else ""}]
+            values += [{"value": o.value[disputed], "circa": o.value.get("circa", False), "source": o.cited} for o in others]
+        else:
+            home = next((item for item in getattr(polity, disputed) if item["home"]), None)
+            if home is None or any(o.region != home["region"] for o in others):
+                raise ValueError(f"{polity.name}: a dispute over {disputed} names its home region, {home and home['region']}")
+            setter = next((o for o in overrides if o.field == disputed and o.action in ("add", "set")
+                           and o.value_id == home["id"]), None)
+            values = [{"id": home["id"], "value": home["name"], "source": setter.cited if setter else ""}]
+            values += [{"id": o.value_id, "value": name_of(o.value_id), "source": o.cited} for o in others]
+        disputes.append({"field": disputed, "values": values})
+    return disputes
 
 
 def _set_period(polity: Polity, override: Override) -> None:
