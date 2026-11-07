@@ -5283,11 +5283,13 @@ action = "set"
 value = "Western Zhou"
 value_id = "Q1069609"
 region = "China"
-source = "https://en.wikipedia.org/wiki/Jin_%28Chinese_state%29"
-quote = "King Cheng of Zhou , the second Zhou king, gave the land called Tang ( 唐 ), west of modern Yicheng County in Shanxi , to his younger brother, Tang Shuyu ( 唐叔虞 ) with the rank of a marquis ."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+note = "Sima Qian, Shiji, chapter 39 (Jin shijia, c. 94 BC): the Zhou destroyed the earlier Tang, then King Cheng granted Tang to Shu Yu, whose son became Marquis of Jin"
+sources = [
+  { fact = "The Duke of Zhou destroyed the earlier state of Tang under King Cheng", source = "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7039", quote = "武王崩，成王立，唐有亂，周公誅滅唐。" },
+  { fact = "King Cheng then enfeoffed Shu Yu, Jin's founder, with Tang", source = "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7039", quote = "於是遂封叔虞於唐。" },
+]
+derivation = "the state that destroyed the land's earlier ruler and granted it to the founder"
 
 [[override]]
 civilization = "Judea"
