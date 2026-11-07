@@ -37,7 +37,8 @@ on its territory.
 When reputable sources disagree on a period's start or end, or on what came before or after in the home region, the card
 shows every value with its source: "First Bulgarian Empire or Francia", or under a period "Sources differ on the end:
 c. AD 550 (Wikipedia) · c. AD 600 (World History Encyclopedia) · c. AD 750 (Britannica)". The map and the year it is
-drawn for follow the first of them.
+drawn for follow the first of them. When what came before or after is the same state under another name, such as the
+Portuguese Empire and the Portuguese Republic, the card says so.
 
 Historians use "succession" in several ways: legal succession of modern states, claims of legitimate descent, and
 the sequence of rulers of a region. The deck asks only the last, which is a matter of record: who ruled the
@@ -300,7 +301,8 @@ capitals, key figures and modern countries; `{ start, end, circa }` or `{ since 
 `"6th century"`) and `none` records that
 the field does not apply, with the reason, in the civilization's `checks.not_applicable`, so a deliberate gap can be told
 from a missing one; `dispute` records another value a different source gives for a period's start or end, or for the
-home `before` or `after`, which the card shows beside the deck's own. Setting `map_year` redraws the map at that year, and the parts and modern countries follow it unless
+home `before` or `after`, which the card shows beside the deck's own; `same_state = true` on an added `before` or `after` marks it as the same state
+under another name. Setting `map_year` redraws the map at that year, and the parts and modern countries follow it unless
 an override sets them as well. Each entry cites its source page, quotes the passage and gives the date it was read. A
 fact no single page states is built from smaller ones: the entry lists `sources`, each the fact it supports, its page
 and the quote, and names in `derivation` the rule that combines them (every listed person's own biography names them a

@@ -36,6 +36,7 @@ class Override:
     note: str = ""
     sources: list[dict] = field(default_factory=list)
     derivation: str = ""
+    same_state: bool = False
 
     @property
     def value_ids(self) -> list[str]:
@@ -85,6 +86,8 @@ def _validate(override: Override) -> None:
         raise ValueError(f"{who}: a map can only be marked not applicable")
     if override.action == "dispute":
         _validate_dispute(override, who)
+    if override.same_state and (override.field not in SIDES or override.action not in ("add", "set")):
+        raise ValueError(f"{who}: only a civilization added before or after can be the same state")
     if override.action == "add" and override.field not in ADDABLE:
         raise ValueError(f"{who}: only {', '.join(ADDABLE)} can be added to")
     if override.field in SIDES and not override.region:
@@ -220,7 +223,8 @@ def _fill_home(polity: Polity, override: Override, name: str, overridden: set[st
     elif any(item["id"] not in overridden for item in homes):
         raise ValueError(f"{polity.name}: the {override.field} side already has a home, so {name} cannot take it")
     side[:] = [item for item in side if item["home"] or item["id"] != override.value_id and item["region"] != override.region]
-    side.insert(len(homes), {"id": override.value_id, "region": override.region, "name": name, "home": True})
+    item = {"id": override.value_id, "region": override.region, "name": name, "home": True}
+    side.insert(len(homes), item | {"same_state": True} if override.same_state else item)
 
 
 def _fill_capitals(polity: Polity, override: Override, entities: dict) -> None:

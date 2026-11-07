@@ -195,7 +195,7 @@ def test_a_dispute_keeps_the_deck_value_and_lists_each_source(tmp_path):
     assert dispute_text(document, "end") == "Sources differ on the end: c. AD 550 (Wikipedia) · c. AD 750 (Britannica)"
     fields = succession_fields(document)
     assert fields["After"] == "Oldland or Newtown"
-    assert fields["AfterDisputed"] == "Sources differ: Oldland · Newtown (World History Encyclopedia)"
+    assert fields["AfterNote"] == "Sources differ: Oldland · Newtown (World History Encyclopedia)"
 
 
 def test_a_dispute_cites_its_source_and_names_one_end(tmp_path):
@@ -218,4 +218,19 @@ def test_a_period_end_can_be_a_century(tmp_path):
     assert polity.period.start == Span(501, 600)
     path.write_text(DISPUTES.split("\n\n[[override]]")[0].replace("{ end = 550, circa = true }", '{ start = "early" }'))
     with pytest.raises(ValueError, match="written date"):
+        load_overrides(path)
+
+
+def test_a_side_can_be_the_same_state_under_another_name(tmp_path):
+    from page_in_history.deck import succession_fields
+    path = tmp_path / "overrides.toml"
+    entry = "[[override]]" + DISPUTES.split("\n\n[[override]]")[2]
+    path.write_text(entry.replace('action = "dispute"', 'action = "add"') + "same_state = true\n")
+    polity = Polity(id="Q1", slug="testland", name="Testland", wikipedia="Testland", map_year=500,
+                    period=Period(Span(-100, -100), Span(600, 600), True))
+    apply_overrides([polity], load_overrides(path), FakeWikidata())
+    fields = succession_fields(polity.to_json())
+    assert fields["After"] == "Newtown" and fields["AfterNote"] == "The same state under another name."
+    path.write_text(path.read_text().replace('field = "after"', 'field = "capital"'))
+    with pytest.raises(ValueError, match="same state"):
         load_overrides(path)
