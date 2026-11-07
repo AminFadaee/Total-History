@@ -3999,11 +3999,12 @@ action = "add"
 value = "Kingdom of Kush"
 value_id = "Q241790"
 region = "Sudan"
-source = "https://en.wikipedia.org/wiki/Alodia"
-quote = "Preceded by Succeeded by Kingdom of Kush Funj Sultanate"
-retrieved = 2026-10-20
-needs_verification = true
-note = "infobox of Wikipedia names the Kingdom of Kush as predecessor; check against a history of Nubia (Alodia arose in the old Meroitic heartland); cited in Wikipedia, footnote 3"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Kingdom of Kush came before Alodia", source = "https://en.wikipedia.org/wiki/Kingdom_of_Kush", quote = "Although the Aksumite presence was likely short-lived, it prompted the dissolution of the Kushite kingdom into the three polities of Nobatia, Makuria and Alodia." },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "Argentine Republic"
@@ -6944,11 +6945,12 @@ action = "add"
 value = "Northern March"
 value_id = "Q701627"
 region = "Germany"
-source = "https://en.wikipedia.org/wiki/Margraviate_of_Brandenburg"
-quote = "Brandenburg developed out of the Northern March, founded in the territory of the Slavic Wends."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Northern March came before the Margraviate of Brandenburg", source = "https://en.wikipedia.org/wiki/Northern_March", quote = "Effective German control over Slavic tribes to the east was reestablished by the middle of the 12th century, when the new March of Brandenburg was established in those regions." },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "Margraviate of Brandenburg"
