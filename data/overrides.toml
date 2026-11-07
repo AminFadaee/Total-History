@@ -2930,11 +2930,12 @@ action = "add"
 value = "Dutch Republic"
 value_id = "Q170072"
 region = "Netherlands"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
-note = "the Batavian Republic of 1795 followed the Dutch Republic"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "The Dutch Republic's territories formed the new state of 1815", source = "https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands", quote = "The great powers of Europe, united against Napoleonic France, had decided in the secret treaty of the London Protocol to establish a single state in the territories that were previously the Dutch Republic/Batavian Republic/Kingdom of Holland, the Austrian Netherlands and the Prince-Bishopric of Liège, awarding rule over this to William Frederick, Prince of Orange and Nassau, the son of William V, the last stadholder of the Dutch Republic." },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "Netherlands"
@@ -8260,11 +8261,12 @@ action = "add"
 value = "Khmer Empire"
 value_id = "Q201705"
 region = "Thailand"
-source = "https://en.wikipedia.org/wiki/Sukhothai_Kingdom"
-quote = "the events of 1238 marked Sukhothai's liberation from Khmer suzerainty and the establishment of an independent Tai kingdom."
-retrieved = 2026-10-20
-needs_verification = true
-note = "the quoted sentence is no longer on the live page (checked 2026-10-27); find a current source"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Sukhothai arose by gaining independence from Khmer overlords", source = "https://www.worldhistory.org/Sukhothai/", quote = "A political vacuum in the region followed the death of Jayavarman VII (c. 1181-1218 CE), and the Tai quickly began to challenge Khmer political power in the region, asserting first autonomy and then complete independence from their Khmer overlords." },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "Sultanate of Brunei"
