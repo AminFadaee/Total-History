@@ -3845,10 +3845,13 @@ action = "add"
 value = "Old Great Bulgaria"
 value_id = "Q191484"
 region = "Russia"
-source = ""
-quote = ""
-retrieved = 2026-10-20
-needs_verification = true
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Old Great Bulgaria's Bulgars fled north up the Volga under Kotrag", source = "https://en.wikipedia.org/wiki/Old_Great_Bulgaria", quote = "After Kubrat's burial in Mala Pereshchepina, the Khazars, who had triumphed in the collapse of Onoguria, subjugated Kubrat's eldest son and heir Batbayan, forcing his other sons to flee north up the Volga (2nd son Kotrag) and west into the Balkans (4th son Kuber and 3rd son Asparukh) and Italy (5th son Alcek, Alzek)" },
+  { fact = "Kotrag founded Volga Bulgaria", source = "https://en.wikipedia.org/wiki/Kotrag", quote = "He is remembered as the founder of Volga Bulgaria." },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "White Huns"
@@ -7719,11 +7722,12 @@ action = "add"
 value = "Pugu (state)"
 value_id = "Q26961315"
 region = "China"
-source = "https://en.wikipedia.org/wiki/Qi_(state)"
-quote = "The Shang prince Wu Geng had joined the revolt along with the Dongyi polities of Yan [zh], Xu, and Pugu, located within the boundaries of Qi."
-retrieved = 2026-10-20
-needs_verification = true
-note = "Wikipedia infobox names Pugu, the Shang-era polity of the region; the Wikipedia sentence carries no citation, check against a reference book"
+retrieved = 2026-11-07
+needs_verification = false
+sources = [
+  { fact = "Pugu came before Qi", source = "https://en.wikipedia.org/wiki/Pugu_(state)", quote = "Pugu's area was granted to the minister Jiang Ziya as the fief of Qi." },
+]
+derivation = "a source states the takeover, replacement or origin"
 
 [[override]]
 civilization = "Qi"
