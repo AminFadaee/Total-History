@@ -8573,11 +8573,15 @@ action = "add"
 value = "Dingnan Jiedushi"
 value_id = "Q1054250"
 region = "China"
-source = "https://en.wikipedia.org/wiki/Western_Xia"
-quote = "Further information: Dingnan Jiedushi, Guiyi Circuit, and Ganzhou Uyghur Kingdom The Tanguts originally came from the Qinghai - Sichuan - Tibet region, whose home originally was in the highlands of western Sichuan."
-retrieved = 2026-10-20
-needs_verification = true
-note = "cited in Wikipedia, footnote 20"
+retrieved = 2026-11-07
+note = "the Cambridge History calls it Ting-nan (Wade-Giles)"
+sources = [
+  { fact = "Ting-nan was the Tangut ruling house's territory, which Li Chi-ch'ien reconquered from 985", source = "Ruth Dunnell, \"The Hsi Hsia\", in Herbert Franke and Denis Twitchett (eds.), The Cambridge History of China, Vol. 6: Alien Regimes and Border States, 907–1368, Cambridge University Press, 1994", page = "170", quote = "In 985, however, he retook Yin-chou, commencing the reconquest of traditional T'o-pa territories in Ting-nan." },
+  { fact = "Li Te-ming succeeded his father Li Chi-ch'ien in 1004", source = "Ruth Dunnell, \"The Hsi Hsia\", in Herbert Franke and Denis Twitchett (eds.), The Cambridge History of China, Vol. 6: Alien Regimes and Border States, 907–1368, Cambridge University Press, 1994", page = "176", quote = "Li Chi-ch'ien's eldest son, A-i (b. 989), succeeded his father in 1004 at the age of twenty-one and was known thereafter as Li Te-ming." },
+  { fact = "Li Yüan-hao was Li Te-ming's son and heir", source = "Ruth Dunnell, \"The Hsi Hsia\", in Herbert Franke and Denis Twitchett (eds.), The Cambridge History of China, Vol. 6: Alien Regimes and Border States, 907–1368, Cambridge University Press, 1994", page = "177", quote = "Li Te-ming's efforts to smooth relations succeeded to the extent that he acquired a royal Khitan bride for his son and heir, Li Yüan-hao, upon the accession of the new Liao emperor, Hsing-tsung, in 1031." },
+  { fact = "Li Yüan-hao proclaimed the state of Ta Hsia in 1038", source = "Denis Twitchett and Klaus-Peter Tietze, \"The Liao\", in Herbert Franke and Denis Twitchett (eds.), The Cambridge History of China, Vol. 6: Alien Regimes and Border States, 907–1368, Cambridge University Press, 1994", page = "121", quote = "In 1038 the Hsia king Li Yüan-hao proclaimed himself emperor of the state of Ta Hsia" },
+]
+derivation = "the territory and ruling house the state grew out of: the house that held Ting-nan proclaimed the Xia state"
 
 [[override]]
 civilization = "White Horde"
