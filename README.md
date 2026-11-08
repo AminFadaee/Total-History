@@ -204,15 +204,15 @@ cards rather than deleting them: deleted cards come back when you import an upda
    step 9), as Confucius is for Lu, Laozi for Chu and Isabella I for the Crown of Castile. It must have begun before 1930 and reached 20,000 km², so Finland and the United Kingdom
    join through their people but later republics do not.
 6. **Segments.** Each figure belongs to their first civilization in the deck. A civilization is split into eras of at
-   most 300 years, so the Ottomans of 1300–1600 and of 1600–1923 are separate segments and people compete only with
-   their contemporaries.
+   most 150 years, so the Ottomans' six centuries are five segments and the United States' two and a half centuries
+   two, and people compete only with their contemporaries.
 7. **Figures.** Within each segment, people are ranked by the database's visibility score. Chosen are the candidates
    from step 3, the segment's best person even when they are not one, and anyone on Meta-Wiki's list, at most 25 a
    segment. Composers are capped at 20 across the deck. Someone whose Wikipedia article exists in fewer than 10
    languages is left out unless they are on Meta-Wiki's list: such people are known mostly to specialists.
 8. **Civilizations still empty.** For each deck civilization with no figure after step 7, the database's 30
    highest-scored people from the regions under its largest extent (and those it files under no region), whose adult
-   life overlaps the civilization's years, and in each of its eras of at most 300 years the 30 highest whose adult life
+   life overlaps the civilization's years, and in each of its eras of at most 150 years the 30 highest whose adult life
    lies mostly within that era (so Kush is not left to the best known of one age), are placed by the same rules.
    Those whose first deck civilization is that
    one are added, the best of each segment, with the same language floor (Charles the Bald for the West Franks, Tamar for

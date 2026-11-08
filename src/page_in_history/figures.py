@@ -31,7 +31,7 @@ SINGLE_VOTE_SOURCES = ("office", "category", "vital_section", "citizenship", "bi
 CORE_LIST = "Meta 1000"
 PER_CELL = 60
 STRONG_RANK, VERY_STRONG_RANK = 10, 3
-WINDOW_YEARS = 300
+WINDOW_YEARS = 150
 MAX_PER_SEGMENT = 25
 MIN_LANGUAGES = 10
 RENOWNED_LANGUAGES = 90
@@ -227,7 +227,7 @@ class FigureBuilder:
     def _second_pass(self, empty: set[str], known: set[str], start: int, end: int) -> list[tuple]:
         """For civilizations still without a figure: from the regions the civilization covered at its largest (and the
         people the database files under no region), the 30 people the database scores highest whose adult life overlaps
-        its years, and in each of its eras of at most 300 years the 30 highest whose adult life (20 to 70) lies mostly
+        its years, and in each of its eras of at most 150 years the 30 highest whose adult life (20 to 70) lies mostly
         within that era, so a long-lived civilization is not left to the best known of one age (Kush). They are
         placed by the same rules, and only those whose first civilization in the deck turns out to be that one are
         used."""
@@ -293,7 +293,7 @@ class FigureBuilder:
 
     def select(self, placed: list[tuple[Candidate, list[str]]], deck: set[str], per_cell: int = PER_CELL) -> set[str]:
         """The figures for the deck. Each figure belongs to its first civilization in the deck, and each civilization
-        is split into eras of at most 300 years, so its people compete with their own contemporaries. In each such
+        is split into eras of at most 150 years, so its people compete with their own contemporaries. In each such
         segment people are ranked by the database's visibility score; chosen are those among the first 60 of their
         region and period, the segment's best person always, and anyone on Meta-Wiki's list of 1,000 articles, at most
         25 a segment. Composers are capped at 20 across the deck. Someone with a Wikipedia article in fewer than 10
