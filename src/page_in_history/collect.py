@@ -135,12 +135,12 @@ class Collector:
         scores = PowerScores(self.paths.root / "ruler_scores.json", self.http)
         builder.choose_key_figures(polities, figures, scores)
         scores.save()
+        builder.assign_tiers(polities)
         errata, overrides = load_errata(self.paths.errata), load_overrides(self.paths.overrides)
         check_against_errata(overrides, errata)
         dropped = apply_errata(polities, errata)
         applied = apply_overrides(polities, overrides, wikidata)
         builder.follow_map_years(polities, applied)
-        builder.assign_tiers(polities)
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))
         self.failures: list[str] = []
