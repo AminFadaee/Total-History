@@ -5,7 +5,6 @@ import pathlib
 import re
 from dataclasses import dataclass
 from datetime import date
-from enum import StrEnum
 from urllib.parse import urlparse
 
 import genanki
@@ -30,28 +29,9 @@ SOURCE_NAMES = {"wikipedia.org": "Wikipedia", "wikidata.org": "Wikidata",
 logger = logging.getLogger(__name__)
 
 
-class Subdeck(StrEnum):
-    CIVILIZATIONS = "Civilizations"
-    SUCCESSION = "Succession"
-    PERIODS = "Periods"
-    CAPITALS = "Capitals"
-    LOCATIONS = "Locations"
-    FIGURES = "Figures"
-    PHOTOS = "Photos"
-
-    @property
-    def full_name(self) -> str:
-        return f"{DECK_NAME}::{self.value}"
-
-    @property
-    def deck_id(self) -> int:
-        return stable_id(self.full_name)
-
-
 @dataclass(frozen=True)
 class Template:
     name: str
-    subdeck: Subdeck
     requires: tuple[str, ...]
     front: str
     back: str
@@ -60,23 +40,15 @@ class Template:
         return {"name": self.name, "qfmt": self.front + script, "afmt": self.back + script}
 
 
-class RoutedCard(genanki.Card):
-    def __init__(self, ord: int, deck_id: int):
-        super().__init__(ord)
-        self.deck_id = deck_id
-
-    def write_to_db(self, cursor, timestamp: float, deck_id, note_id, id_gen, due=0):
-        super().write_to_db(cursor, timestamp, self.deck_id, note_id, id_gen, due)
-
-
-class RoutedNote(genanki.Note):
-    def __init__(self, routed_cards: list[RoutedCard], **kwargs):
+class AskedNote(genanki.Note):
+    """A note with only the cards whose fields it has, rather than the ones genanki would infer."""
+    def __init__(self, asked: list[genanki.Card], **kwargs):
         super().__init__(**kwargs)
-        self.routed_cards = routed_cards
+        self.asked = asked
 
     @property
-    def cards(self) -> list[RoutedCard]:
-        return self.routed_cards
+    def cards(self) -> list[genanki.Card]:
+        return self.asked
 
 
 def stable_id(name: str) -> int:
@@ -143,6 +115,10 @@ def conditional(field: str, content: str) -> str:
     return f"{{{{#{field}}}}}{content}{{{{/{field}}}}}"
 
 
+def inverted(field: str, content: str) -> str:
+    return f"{{{{^{field}}}}}{content}{{{{/{field}}}}}"
+
+
 def guarded(fields: tuple[str, ...], content: str) -> str:
     for field in reversed(fields):
         content = conditional(field, content)
@@ -187,27 +163,30 @@ def neighbour_template(side: str, number: int = 1) -> Template:
     field = slot(side, number)
     label = f"{side} it in {{{{{field}Region}}}}"
     note = conditional(f"{field}Note", NOTE.format(f"{field}Note")) if number == 1 else ""
-    return Template(field, Subdeck.SUCCESSION, (field,),
+    return Template(field, (field,),
                     face(entity(CIVILIZATION_TITLE), label, UNKNOWN_VALUE),
                     face(entity(CIVILIZATION_TITLE), label, value(f"{{{{{field}}}}}", answered=True)) + note
                     + MAP_THUMBNAIL)
 
 
 CIVILIZATION_TEMPLATES = (
-    Template("Map", Subdeck.CIVILIZATIONS, ("AskMap",),
+    Template("Map", ("AskMap",),
              face(UNKNOWN_ENTITY, "Map", MAP_IMAGE),
              face(entity(CIVILIZATION_TITLE, answered=True), "Map", MAP_IMAGE) + CIVILIZATION_INFO),
     neighbour_template("Before"),
     neighbour_template("After"),
-    Template("Period", Subdeck.PERIODS, ("AskPeriod",),
+    Template("Period", ("AskPeriod",),
              face(entity("{{Name}}"), "When", UNKNOWN_VALUE),
              face(entity("{{Name}}"), "When", value("{{Period}}", answered=True))
              + conditional("PeriodNote", NOTE.format("PeriodNote")) + CIVILIZATION_INFO + MAP_THUMBNAIL),
     *(neighbour_template(side, number) for side in ("Before", "After") for number in range(2, SUCCESSION_SLOTS + 1)),
-    Template("Capital", Subdeck.CAPITALS, ("AskCapital",),
-             face(entity(CIVILIZATION_TITLE), "Capital", UNKNOWN_VALUE),
-             face(entity(CIVILIZATION_TITLE), "Capital", value("{{Capital}}", answered=True)) + MAP_THUMBNAIL),
-    Template("Where", Subdeck.LOCATIONS, ("AskMap",),
+    Template("Capital", ("AskCapital",),
+             face(entity(CIVILIZATION_TITLE), "Capital", UNKNOWN_VALUE)
+             + conditional("CapitalMap", '<div class="image map">{{CapitalMap}}</div>'),
+             face(entity(CIVILIZATION_TITLE), "Capital", value("{{Capital}}", answered=True))
+             + conditional("CapitalMapAnswer", '<div class="image map">{{CapitalMapAnswer}}</div>')
+             + inverted("CapitalMapAnswer", MAP_THUMBNAIL)),
+    Template("Where", ("AskMap",),
              face(entity(CIVILIZATION_TITLE), "Where", UNKNOWN_VALUE),
              face(entity(CIVILIZATION_TITLE), "Where", MAP_IMAGE) + CIVILIZATION_INFO),
 )
@@ -216,7 +195,7 @@ CIVILIZATION_FIELDS = ("Id", "Name", "Map", "AskMap", "Period", "AskPeriod", "Ca
                        "After", "AfterRegion", "Rulers", "ModernCountries", "Summary", "BeforeList", "AfterList",
                        *(f"{slot(side, number)}{part}" for side in ("Before", "After")
                          for number in range(2, SUCCESSION_SLOTS + 1) for part in ("", "Region")),
-                       "PeriodNote", "BeforeNote", "AfterNote", "AskCapital")
+                       "PeriodNote", "BeforeNote", "AfterNote", "AskCapital", "CapitalMap", "CapitalMapAnswer")
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
@@ -226,11 +205,11 @@ FIGURE_INFO = info(("Civilization", "Civilization"), ("Setting", "Setting"), ("K
                    ("Related", "Related"))
 
 FIGURE_TEMPLATES = (
-    Template("Who", Subdeck.FIGURES, ("Role",),
+    Template("Who", ("Role",),
              face(entity("{{Name}}"), "Who", UNKNOWN_VALUE),
              face(entity(FIGURE_TITLE), "Who", value("{{Role}}", answered=True)) + FIGURE_INFO + PORTRAIT
              + conditional("CivilizationMap", '<div class="thumbnail map">{{CivilizationMap}}</div>')),
-    Template("Photo", Subdeck.PHOTOS, ("Photo",),
+    Template("Photo", ("Photo",),
              face(UNKNOWN_ENTITY, "Portrait", PHOTO),
              face(entity(FIGURE_TITLE, answered=True), "Portrait", PHOTO_CREDITED) + FIGURE_INFO),
 )
@@ -345,8 +324,10 @@ MAP_ZOOM_SCRIPT = """
 def description() -> str:
     return f"""
 <p><b>{DECK_NAME}</b>: civilizations on the map and the people who shaped them.</p>
-<p>Each question type lives in its own subdeck. To skip a type, <b>suspend</b> its subdeck rather than deleting it,
-because deleted cards come back when you import an update.</p>
+<p>Everything is in one deck. To study one kind of question, make a filtered deck from a search such as
+<code>card:Capital</code>, <code>tag:PIH::Category::Figures</code> or <code>tag:PIH::Tier::Essential</code>. To skip
+a kind, search for it in the browser and <b>suspend</b> the cards rather than deleting them, because deleted cards
+come back when you import an update.</p>
 <p>Borders come from Cliopatria (Seshat Global History Databank, CC BY 4.0); facts from Wikidata (CC0) and Wikipedia
 (CC BY-SA); people lists from Wikipedia's Vital Articles and Pantheon (CC BY); modern borders from Natural Earth
 (public domain); portraits from Wikimedia Commons under the licence credited on each card. Built {date.today().isoformat()}.</p>
@@ -361,7 +342,7 @@ def century_tag(number: int) -> str:
 
 def civilization_tags(document: dict) -> list[str]:
     tiers = [document["tier"]] + (["Core"] if document.get("tier") == "Essential" else []) if document.get("tier") else []
-    tags = [tag("Civilization", document["name"])] + [tag("Tier", tier) for tier in tiers]
+    tags = [tag("Category", "Civilizations"), tag("Civilization", document["name"])] + [tag("Tier", tier) for tier in tiers]
     period = document["period"]
     if period["confirmed"]:
         tags += [century_tag(number) for number in centuries(period["start"]["earliest"], period["end"]["latest"])]
@@ -392,7 +373,7 @@ def succession_fields(document: dict) -> dict[str, str]:
 
 
 def figure_tags(document: dict, civilizations: list[str]) -> list[str]:
-    tags = [tag("Civilization", name) for name in civilizations]
+    tags = [tag("Category", "Figures")] + [tag("Civilization", name) for name in civilizations]
     tags += [century_tag(number) for number in centuries(*document["lifetime"])]
     tags += [tag("Country", document["birth_country"])] if document["birth_country"] else []
     tags += [tag("Occupation", document["occupation"])] if document["occupation"] else []
@@ -446,7 +427,6 @@ class DeckBuilder:
                                               CIVILIZATION_FIELDS, CIVILIZATION_TEMPLATES)
         self.figure_model = self._model(FIGURE_MODEL_ID, f"{DECK_NAME} figure", FIGURE_FIELDS, FIGURE_TEMPLATES)
         self.root = genanki.Deck(stable_id(DECK_NAME), DECK_NAME, description())
-        self.subdecks = [genanki.Deck(subdeck.deck_id, subdeck.full_name) for subdeck in Subdeck]
         self.notes = 0
 
     def add_civilization(self, document: dict) -> None:
@@ -461,6 +441,8 @@ class DeckBuilder:
             "PeriodNote": "<br>".join(escaped(text) for end in ("start", "end") if (text := dispute_text(document, end))),
             "Capital": joined([capital["name"] for capital in document["capitals"]]),
             "AskCapital": "yes" if document["capitals"] else "",
+            "CapitalMap": self.media.image(document.get("capital_map", "")),
+            "CapitalMapAnswer": self.media.image(document.get("capital_map_answer", "")),
             **succession_fields(document),
             "Rulers": joined([figure["name"] for figure in document["key_figures"]], " · "),
             "Summary": escaped(document.get("summary", "")),
@@ -497,16 +479,16 @@ class DeckBuilder:
         if self.media.missing:
             raise FileNotFoundError(f"{len(self.media.missing)} media files are missing, e.g. {self.media.missing[0]}")
         output.parent.mkdir(parents=True, exist_ok=True)
-        package = genanki.Package([self.root, *self.subdecks], media_files=sorted(self.media.files))
+        package = genanki.Package(self.root, media_files=sorted(self.media.files))
         package.write_to_file(str(output))
         logger.info("Wrote %d notes and %d media files to %s", self.notes, len(self.media.files), output)
 
     def _add(self, model, fields, templates, values, tags, identity: str) -> None:
-        cards = [RoutedCard(ord, template.subdeck.deck_id) for ord, template in enumerate(templates)
+        cards = [genanki.Card(ord) for ord, template in enumerate(templates)
                  if all(values[field] for field in template.requires)]
         if not cards:
             return
-        note = RoutedNote(cards, model=model, fields=[values[name] for name in fields], tags=sorted(set(tags)),
+        note = AskedNote(cards, model=model, fields=[values[name] for name in fields], tags=sorted(set(tags)),
                           guid=genanki.guid_for(identity))
         self.root.add_note(note)
         self.notes += 1
@@ -517,7 +499,7 @@ class DeckBuilder:
             model_id,
             name,
             fields=[{"name": field} for field in fields],
-            templates=[Template(t.name, t.subdeck, t.requires, guarded(t.requires, t.front), t.back)
+            templates=[Template(t.name, t.requires, guarded(t.requires, t.front), t.back)
                        .as_genanki(MAP_ZOOM_SCRIPT) for t in templates],
             css=CSS + MAP_ZOOM_CSS,
             sort_field_index=1,

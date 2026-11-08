@@ -14,20 +14,20 @@ empty otherwise. A reviewed list of sourced overrides fills or corrects what the
 
 ## The deck
 
-Two note types, with each kind of question in its own subdeck. The civilization is the hub and every figure links to
+One deck with two note types; each kind of question is its own card type. The civilization is the hub and every figure links to
 one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neighbours, what came before and after.
 
 ### Civilization notes
 
-| Subdeck | Question | Answer | Made only when |
+| Card | Question | Answer | Made only when |
 |---|---|---|---|
-| Civilizations | the map, with every neighbour labelled | the civilization and its period | Cliopatria draws its borders, unless it is a regime of 30 years or less drawn almost exactly like an adjacent one (France's Second Republic and Second Empire), which only the year would tell apart |
-| Succession | Abbasid Caliphate, after it in Iraq: ? | Mongol Empire | the next ruler of its home region is confirmed (see below) |
-| Succession | Sasanian Empire, before it in Iran: ? | Parthian Empire | the previous ruler of its home region is confirmed |
-| Succession | Mongol Empire, before it in Kyrgyzstan: ? | Kara-Khitans | another region it took over or handed on (up to three a side) |
-| Periods | When: Achaemenid Empire | 550–330 BC | the period is confirmed, or Wikidata gives it as approximate (c. 57 BC – AD 892 for Silla), or the state still exists (since 1867 for Canada) |
-| Capitals | Parthian Empire, capital: ? | Ctesiphon, Qumis, Nisa | it has a capital |
-| Locations | Where: Sasanian Empire | its map | it has a Map card |
+| Map | the map, with every neighbour labelled | the civilization and its period | Cliopatria draws its borders, unless it is a regime of 30 years or less drawn almost exactly like an adjacent one (France's Second Republic and Second Empire), which only the year would tell apart |
+| After | Abbasid Caliphate, after it in Iraq: ? | Mongol Empire | the next ruler of its home region is confirmed (see below) |
+| Before | Sasanian Empire, before it in Iran: ? | Parthian Empire | the previous ruler of its home region is confirmed |
+| Before2, Before3, After2, After3 | Mongol Empire, before it in Kyrgyzstan: ? | Kara-Khitans | another region it took over or handed on (up to three a side) |
+| Period | When: Achaemenid Empire | 550–330 BC | the period is confirmed, or Wikidata gives it as approximate (c. 57 BC – AD 892 for Silla), or the state still exists (since 1867 for Canada) |
+| Capital | Parthian Empire, capital: ?, on its map with the capitals dotted | Ctesiphon, Qumis, Nisa, named on the map | it has a capital; the map only when a capital's place is known |
+| Where | Where: Sasanian Empire | its map | it has a Map card |
 
 The backs of the Map, Period and Where cards also show what the civilization was (the opening sentence of its Wikipedia article without its
 subject, cut at "was", "refers to", "comprised" and the like; or its short description when that sentence cannot be cut
@@ -74,10 +74,10 @@ and cut to today's coastline.
 
 ### Figure notes
 
-| Subdeck | Question | Answer | Made only when |
+| Card | Question | Answer | Made only when |
 |---|---|---|---|
-| Figures | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for, their civilization and its map | always |
-| Photos | a portrait | the person | a photograph of them alone is found (they died in 1860 or later; see below), or their Who card picture is a portrait made in their lifetime |
+| Who | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for, their civilization and its map | always |
+| Photo | a portrait | the person | a photograph of them alone is found (they died in 1860 or later; see below), or their Who card picture is a portrait made in their lifetime |
 
 Photographs and portraits made in the person's lifetime are asked about; the back of the card says which it is. The
 back of the Who card shows the person's picture labelled by kind: a photograph,
@@ -100,6 +100,7 @@ which finds fewer photographs.
 
 Notes are tagged so you can filter or suspend groups of them:
 
+- category: `PIH::Category::Civilizations` or `PIH::Category::Figures`
 - civilization: `PIH::Civilization::Sasanian_Empire`, on the civilization and on every figure linked to it
 - century: `PIH::Century::BC::06th`, `PIH::Century::AD::03rd`, every century of a civilization's period or a figure's life
 - country: `PIH::Country::Iran`, the main modern countries of a civilization and its home region, or where a figure
@@ -122,8 +123,9 @@ Notes are tagged so you can filter or suspend groups of them:
   Viking Age), are Extended. A state whose neighbouring phase of the same name is Core or Essential is Core too (the
   Caliphate of Córdoba beside the Emirate of Córdoba)
 
-To skip a kind of question, suspend its subdeck rather than deleting it: deleted cards come back when you import an
-update.
+To study one kind of question, make a filtered deck from a search such as `card:Capital`,
+`tag:PIH::Category::Figures` or `tag:PIH::Tier::Essential`. To skip a kind, find it in the browser and suspend the
+cards rather than deleting them: deleted cards come back when you import an update.
 
 ## How the deck is chosen
 
