@@ -2,7 +2,7 @@
 civilization is known for."""
 import re
 
-NAME_GLOSS = re.compile(r"^(?:(?:also|commonly|better|often) (?:known|named|called)|"
+NAME_GLOSS = re.compile(r"^(?:(?:also|commonly|better|often) (?:known|named|called)|sometimes (?:he|she) is (?:known|called)|"
                         r"(?:his|her) (?:full |regnal |birth |personal )?(?:name|form of address|title)s?)\b", re.IGNORECASE)
 MIN_NEW_WORDS = 2
 FILLER = {"the", "a", "an", "of", "from", "to", "and", "in", "ad", "bc", "bce", "ce"}
@@ -15,6 +15,14 @@ SENTENCE_END = re.compile(r"(?:(?<=[a-z0-9\])\"”])|(?<=\s[IVX]{2})|(?<=\s[IVX]
                           r"|(?<=\s[IVX])\.\s+(?=(?:He|She|His|Her|They|Their|The|In|After|During|It|As|Under)\b)")
 ENDED = re.compile(r"[.!?][\"”]?$")
 DANGLING = re.compile(r"\b(?:the|a|an|of|and|or|to|from|in|by|with|for|at)\.$", re.IGNORECASE)
+LEANING = re.compile(r"^(?:Concurrently|Traditionally|However|Moreover|Furthermore|Additionally|In addition,|Also|"
+                     r"Meanwhile|Nevertheless|Subsequently|Thereafter|Likewise|Similarly|The two|Both|This|These|Those|"
+                     r"Such)\b")
+LINEAGE = re.compile(r"^(?:(?:He|She) (?:was|is|may have been) (?:still )?(?:the |a |an )?(?:\w+ )?(?:son|daughter|child|grandson|"
+                     r"granddaughter|great-grandson)\b|(?:He|She) (?:was|is) (?:born|numbered|of .* descent)\b|"
+                     r"(?:His|Her) (?:son|daughter|father|mother) was\b)"
+                     r"|\b(?:he|she) (?:is|was) (?:also |commonly |better |usually )(?:known|referred to|called) as\b"
+                     r"|\bsucceeded by\b", re.IGNORECASE)
 HATNOTE = re.compile(r"Note:")
 
 
@@ -69,13 +77,18 @@ def contribution(paragraph: str, role_text: str, description: str | None, min_ne
     """What the person is known for: the opening sentence without its subject, or the next sentence that says more
     than the role, at least two words it does not have, when the opening one only repeats it ('The tenth Mughal
     emperor from 1713 to 1719'), only glosses the name ('Also known as …', 'His form of address was …') or is left
-    hanging once its dates are cut ('… who ruled from'); else Wikidata's description if it says that much more; else
+    hanging once its dates are cut ('… who ruled from'), and skipping one that leans on the sentence before it
+    ('Concurrently, he was …'), or, past the opening one, opens on family, birth or a name ('He was son of …', 'He is
+    numbered as Olaf I') or tells who succeeded whom; else Wikidata's description if it says that much more; else
     nothing."""
-    candidates = [predicate(paragraph)] + sentences(paragraph)[1:]
-    text = next((candidate for candidate in candidates
+    candidates = [(predicate(paragraph), True)] + [(sentence, False) for sentence in sentences(paragraph)[1:]]
+    text = next((candidate for candidate, opening in candidates
                  if candidate and balanced(candidate) == candidate and not NAME_GLOSS.match(candidate)
-                 and not DANGLING.search(candidate) and len(words(candidate) - words(role_text)) >= min_new_words), "")
-    if not text and description and len(words(description) - words(role_text)) >= min_new_words:
+                 and not DANGLING.search(candidate) and not LEANING.match(candidate)
+                 and (opening or not LINEAGE.search(candidate))
+                 and len(words(candidate) - words(role_text)) >= min_new_words), "")
+    if not text and description and not LINEAGE.search(description) \
+            and len(words(description) - words(role_text)) >= min_new_words:
         text = description[:1].upper() + description[1:]
     text = re.sub(r"\s{2,}", " ", text)
     return text if not text or ENDED.search(text) else text + "."

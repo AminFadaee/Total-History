@@ -46,6 +46,9 @@ NOT_PHOTOGRAPHIC = re.compile(r"painting|drawing|lithograph|engraving|etching|wo
 PORTRAIT_CATEGORY = re.compile(r"portraits? of|paintings of|photographs of|depictions of|drawings of|engravings of", re.IGNORECASE)
 MACHINE_DATE = re.compile(r"QS:P\d*,\+(\d{3,4})-")
 HUMAN_YEAR = re.compile(r"(?<!\d)(\d{3,4})(?!\d)")
+FILE_NAME = re.compile(r"(?:^[^:*]*?\.(?:jpe?g|png|tiff?|gif|svg|webp):\s*|(?<=\s)\*?\S+?\.(?:jpe?g|png|tiff?|gif|svg|webp):\s*)+",
+                       re.IGNORECASE)
+FOOTNOTE = re.compile(r"\s*\[(?:\d+|r[ée]f[^\]]*|citation needed)\]", re.IGNORECASE)
 HIDDEN = re.compile(r"<(\w+)[^>]*display:\s*none[^>]*>.*?</\1>", re.IGNORECASE | re.DOTALL)
 
 
@@ -464,8 +467,14 @@ def plain(html: str) -> str:
 
 
 def visible(html: str) -> str:
-    """The text a reader sees: hidden copies ('Unknown author' twice) dropped and entities decoded."""
-    return markup.unescape(plain(HIDDEN.sub("", html)))
+    """The text a reader sees: hidden copies ('Unknown author' twice), footnote marks ('[1]') with a later clause citing
+    them ('unknown; according to [1] …'), links to a user's talk page and the file names of derivative works
+    ('Russell.jpg: …') dropped, and entities decoded."""
+    first, *rest = markup.unescape(plain(HIDDEN.sub("", html))).split(";")
+    text = ";".join([first, *(clause for clause in rest if not FOOTNOTE.search(clause))])
+    text = FILE_NAME.sub("", re.sub(r"\(\s*(?:talk|discuss)?\s*\)", "", FOOTNOTE.sub("", text)))
+    text = re.sub(r"([^\s()][^()]*?) \(\s*\1\s*\)", r"\1", re.sub(r"\bUser:", "", text))
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def life_span(person: Entity) -> tuple[int, int]:

@@ -7,7 +7,7 @@ from page_in_history.figures import lifetime
 from page_in_history.photos import visible
 from page_in_history.polities import DATED, RulingRole, row_years, same_name
 from page_in_history.sentences import contribution, first_paragraph
-from page_in_history.sources.wikidata import YEAR_PRECISION, Year
+from page_in_history.sources.wikidata import YEAR_PRECISION, Entity, Year
 
 
 @pytest.mark.parametrize("text, years", [
@@ -103,7 +103,7 @@ def test_contribution_cuts_the_subject_at_its_verb(paragraph, text):
 @pytest.mark.parametrize("paragraph, text", [
     ("Shenouda III was the 117th Pope of Alexandria and Patriarch of the See of St. Mark. His papacy lasted 40 years.",
      "The 117th Pope of Alexandria and Patriarch of the See of St. Mark."),
-    ("John was a monk. He was born in Damascus c. AD 675; he died in 749.", "He was born in Damascus c. AD 675; he died in 749."),
+    ("John was a monk. He taught in Damascus c. AD 675; he died in 749.", "He taught in Damascus c. AD 675; he died in 749."),
     ('Ibsen was a playwright. He is often referred to as "the father of modern drama". He pioneered realism.',
      'He is often referred to as "the father of modern drama".'),
     ('Yukawa was a physicist who received the Nobel Prize "for his prediction of mesons." He taught at Kyoto.',
@@ -146,3 +146,44 @@ def test_dated_descriptions(description, dated):
 def test_commons_credit_drops_hidden_copies():
     assert visible('Unknown author<span style="display: none;">Unknown author</span>') == "Unknown author"
     assert visible('<a href="x">Jane</a> &amp; Doe') == "Jane & Doe"
+
+
+def test_contribution_skips_a_sentence_that_leans_on_the_one_before():
+    paragraph = ("Edward I was King of England from 1272 to 1307. Concurrently, he was Lord of Ireland. "
+                 "He conquered Wales and fought the Scots.")
+    assert contribution(paragraph, "King of England from 1272 to 1307", None) == "He conquered Wales and fought the Scots."
+
+
+def test_commons_credit_drops_footnote_marks():
+    assert visible("Unknown author, restored by Khánh ([1])") == "Unknown author, restored by Khánh"
+    assert visible("unknown; according to [1] and [2] a portrait") == "unknown"
+    assert visible("derivative work: Snitty (<a>talk</a>) Maome.jpg: Unknown") == "derivative work: Snitty Unknown"
+    assert visible("A.Skromnitsky (<a>A.Skromnitsky</a> (<a>talk</a>))") == "A.Skromnitsky"
+    assert visible("User:-hax0r") == "-hax0r"
+
+
+@pytest.mark.parametrize("paragraph", [
+    "Muhammad Shah was Mughal emperor from 1719 to 1748. He was son of Khujista Akhtar.",
+    "Euric was King of the Visigoths from 466 to 484. Sometimes he is called Euric II.",
+    "Umar Shaikh Mirza was ruler of Fergana from 1469 to 1494. His son was Babur.",
+    "Igor was Prince of Kiev from 912 to 945. According to the Chronicle, Rurik was succeeded by Oleg.",
+    "Orodes was King of Parthia from 57 to 38 BC. The two brothers quickly fell out.",
+])
+def test_contribution_skips_parentage_and_name_notes(paragraph):
+    assert contribution(paragraph, paragraph.split(". ")[0].split(" was ")[1], None) == ""
+
+
+def test_contribution_keeps_a_sentence_that_only_opens_with_family():
+    paragraph = ("Abbas was Shah of Iran from 1588 to 1629. The third son of Shah Mohammad, he is considered the greatest "
+                 "ruler of the Safavid dynasty.")
+    assert contribution(paragraph, "Shah of Iran from 1588 to 1629", None).startswith("The third son")
+
+
+def test_label_falls_back_to_the_multilingual_one():
+    assert Entity({"id": "Q189145", "labels": {"mul": {"value": "Antonio López de Santa Anna"}}}).label == "Antonio López de Santa Anna"
+    assert Entity({"id": "Q484", "labels": {"en": {"value": "Babur"}, "mul": {"value": "Bābur"}}}).label == "Babur"
+
+
+def test_commons_credit_drops_file_names():
+    assert visible("Honourable Bertrand Russell.jpg: Photographer not identified") == "Photographer not identified"
+    assert visible("A_b.jpg: *A.jpg: Alex Ehrenzweig derivative work: RedAppleJack") == "Alex Ehrenzweig derivative work: RedAppleJack"

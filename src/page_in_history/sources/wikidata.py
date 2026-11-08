@@ -52,8 +52,9 @@ class Year:
 
 
 def slim(data: dict) -> dict:
-    """The parts of an item the pipeline reads: English label and description, the English Wikipedia title, and each
-    statement's rank, value and qualifier values. References and hashes make up most of an item and are dropped."""
+    """The parts of an item the pipeline reads: English (or multilingual) label and English description, the English
+    Wikipedia title, and each statement's rank, value and qualifier values. References and hashes make up most of an
+    item and are dropped."""
     def value(snak: dict) -> dict:
         return {"datavalue": snak["datavalue"]} if "datavalue" in snak else {}
     return {
@@ -78,7 +79,10 @@ class Entity:
 
     @property
     def label(self) -> str | None:
-        return self.data.get("labels", {}).get("en", {}).get("value")
+        """The English label, or the multilingual one Wikidata keeps instead when it is the same in every language
+        (Antonio López de Santa Anna)."""
+        labels = self.data.get("labels", {})
+        return (labels.get("en") or labels.get("mul") or {}).get("value")
 
     @property
     def description(self) -> str | None:
@@ -172,7 +176,7 @@ class Wikidata:
                 "action": "wbgetentities",
                 "ids": "|".join(batch),
                 "props": "labels|descriptions|claims|sitelinks",
-                "languages": "en",
+                "languages": "en|mul",
                 "sitefilter": "enwiki",
                 "format": "json",
             }
