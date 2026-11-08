@@ -61,11 +61,7 @@ namesake_outside_deck = [
   ["Kingdom of Serbia", "Principality of Serbia"],
 ]
 
-what_line_outside_period = [
-  ["Indus Valley Civilization"],
-  ["Kingdom of Northumbria"],
-  ["Silla"],
-]
+what_line_outside_period = []
 
 # Fields emptied when a wrong value was removed, still to fill from a source.
 unfilled = [
