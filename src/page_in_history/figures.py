@@ -11,7 +11,7 @@ from page_in_history.dates import century_label, period_label
 from page_in_history.naming import slugify
 from page_in_history.photos import PictureKind, PortraitFinder
 from page_in_history.sentences import balanced, contribution, first_paragraph
-from page_in_history.polities import ASSUMED_LIFESPAN, HUMAN, LIVING_ON_MAP_BEFORE, PolityCatalog, dates
+from page_in_history.polities import ASSUMED_LIFESPAN, HUMAN, LIVING_ON_MAP_BEFORE, PolityCatalog, RulingRole, dates, stems
 from page_in_history.sources import naturalearth, notable, vital
 from page_in_history.sources.pantheon import Person
 from page_in_history.sources.wikidata import Entity, Year, qualifier_year
@@ -572,7 +572,20 @@ class FigureBuilder:
         if confirmed and (confirmed[0] in sources["office"] or any(years > 0 for years in headed.values())
                           or self._same_land(confirmed[0], birth, candidate.adulthood)):
             return confirmed
+        found = list(dict.fromkeys(confirmed + [qid for qids in sources.values() for qid in qids]))
+        if ruled := self._ruled_by_role(candidate, found):
+            return [ruled] + [qid for qid in confirmed if qid != ruled]
         return born + [qid for qid in confirmed if qid not in born]
+
+    def _ruled_by_role(self, candidate: Candidate, states: list[str]) -> str | None:
+        """A state the sources tie the person to that their description says they ruled, named exactly (Vlad the
+        Impaler, 'Voivode of Wallachia', whose Wikidata offices name no state; not 'Shogun of Japan' for Warring
+        States Japan)."""
+        found = RulingRole.read(role(candidate.person.description))
+        if not found:
+            return None
+        return next((qid for qid in states if (own := stems(self.catalog.by_qid[qid].name))
+                     and any(place == own for place in found.places)), None)
 
     def _birth(self, candidate: Candidate) -> Birth | None:
         """Where and when the person was born, when Pantheon, Wikidata and the database of notable people agree on the
