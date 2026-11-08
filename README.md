@@ -277,7 +277,9 @@ uv run pytest                    # check the data against its invariants and the
 uv run page-in-history review    # review what a collect changed in the fact files and approve it
 ```
 
-Every collect rewrites the fact files, `data/civilizations/` and `data/figures/`. `review` compares them with the last
+Every collect rewrites the fact files, `data/civilizations/` and `data/figures/`. It writes into `data.partial/` and
+replaces the data's output only once the whole run has finished, so a collect that fails leaves `data/` as it was.
+`review` compares them with the last
 commit field by field, shows each change as old → new with the sources of any override behind it, and asks per
 civilization to accept, reject, accept all the rest or skip. Only a review that accepts every change approves the data,
 for exactly its current contents. The pre-commit hook in `hooks/` refuses a commit of fact files nobody approved; enable it

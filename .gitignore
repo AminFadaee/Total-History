@@ -13,6 +13,9 @@ build/
 # Downloaded source data and HTTP caches
 cache/
 
+# A collect's output until it has finished
+*.partial/
+
 # Local scratch and logs
 scratch/
 errors.log

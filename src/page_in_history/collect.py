@@ -23,6 +23,8 @@ from page_in_history.sources.wikidata import Wikidata
 from page_in_history.sources.wikipedia import Wikipedia
 from page_in_history.succession_text import SuccessionScores
 
+OUTPUT_DIRS = ("civilizations", "figures", "maps", "images")
+OUTPUT_FILES = ("extended.json", "report.json")
 IMAGE_WIDTH = 480
 IMAGE_QUALITY = 85
 MAP_WORKERS = max(1, min(4, (os.cpu_count() or 2) // 2))
@@ -71,6 +73,11 @@ class DataPaths:
     def report(self) -> pathlib.Path:
         return self.root / "report.json"
 
+    @property
+    def staging(self) -> "DataPaths":
+        """Where a collect writes, beside the data, until it has finished."""
+        return DataPaths(self.root.with_name(f"{self.root.name}.partial"))
+
 
 class Collector:
     def __init__(self, paths: DataPaths, cache_dir: pathlib.Path, photos: PhotoMode = PhotoMode.MODEL):
@@ -80,6 +87,24 @@ class Collector:
         self.photos = photos
 
     def run(self, scope: Slice) -> None:
+        """Collects into a staging folder and replaces the data's output only once everything is written, so a run
+        that fails leaves the data as it was. Overrides, errata and the saved model readings are read from the data."""
+        self.output = self.paths.staging
+        shutil.rmtree(self.output.root, ignore_errors=True)
+        for directory in OUTPUT_DIRS:
+            (self.output.root / directory).mkdir(parents=True)
+        self._collect(scope)
+        self._publish()
+
+    def _publish(self) -> None:
+        for directory in OUTPUT_DIRS:
+            shutil.rmtree(self.paths.root / directory, ignore_errors=True)
+            (self.output.root / directory).rename(self.paths.root / directory)
+        for name in OUTPUT_FILES:
+            (self.output.root / name).replace(self.paths.root / name)
+        self.output.root.rmdir()
+
+    def _collect(self, scope: Slice) -> None:
         cliopatria = Cliopatria.load(self.http)
         wikipedia, wikidata = Wikipedia(self.http), Wikidata(self.http)
         countries = naturalearth.countries(self.http)
@@ -92,9 +117,6 @@ class Collector:
                     else builder.select_notable())
         polities = builder.build(selected)
         logger.info("Selected %d civilizations: %s", len(polities), ", ".join(polity.name for polity in polities))
-        for directory in (self.paths.civilizations, self.paths.figures, self.paths.maps, self.paths.images):
-            shutil.rmtree(directory, ignore_errors=True)
-            directory.mkdir(parents=True)
         classifier = PhotoClassifier(self.http) if self.photos is PhotoMode.MODEL else None
         figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http, PortraitFinder(self.http, classifier))
         figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
@@ -125,7 +147,7 @@ class Collector:
                 self.failures.append(f"images of {figure.name}")
                 figure.image, figure.photo = "", ""
         self._write(polities, figures)
-        write_json(self.paths.root / "extended.json", figure_builder.extended)
+        write_json(self.output.root / "extended.json", figure_builder.extended)
         self._report(scope, catalog, cliopatria, lineages, polities, figures, dropped, applied)
 
     def _draw(self, polities: list[Polity], cliopatria: Cliopatria, countries, builder: PolityBuilder) -> None:
@@ -134,12 +156,12 @@ class Collector:
         jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
                        [capital["location"] for capital in polity.capitals if capital["location"]
                         and (capital.get("founded") is None or capital["founded"] <= polity.map_year)],
-                       self.paths.root / "maps" / f"{polity.slug}.png", polity.parts, builder.colonial_power(polity.id))
+                       self.output.maps / f"{polity.slug}.png", polity.parts, builder.colonial_power(polity.id))
                 for polity in polities]
         located = [polity for polity in polities if any(capital["location"] for capital in polity.capitals)]
         capital_jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
                                [tuple(capital["location"]) for capital in polity.capitals if capital["location"]],
-                               self.paths.root / "maps" / f"{polity.slug}-{style.value}.png", polity.parts,
+                               self.output.maps / f"{polity.slug}-{style.value}.png", polity.parts,
                                builder.colonial_power(polity.id), style,
                                tuple(capital["name"] for capital in polity.capitals if capital["location"]))
                         for polity in located for style in (MapStyle.CAPITAL, MapStyle.CAPITAL_ANSWER)]
@@ -169,20 +191,20 @@ class Collector:
             return ""
         url = COMMONS_FILE.format(quote(file), IMAGE_WIDTH)
         source = self.http.download(url, f"commons-{digest(file)}-{IMAGE_WIDTH}")
-        target = self.paths.images / f"{name}.jpg"
+        target = self.output.images / f"{name}.jpg"
         Image.open(source).convert("RGB").save(target, quality=IMAGE_QUALITY)
         return f"images/{target.name}"
 
     def _write(self, polities: list[Polity], figures: list[Figure]) -> None:
         for polity in polities:
-            write_json(self.paths.civilizations / f"{polity.slug}.json", polity.to_json())
+            write_json(self.output.civilizations / f"{polity.slug}.json", polity.to_json())
         for figure in figures:
-            write_json(self.paths.figures / f"{figure.slug}.json", figure.to_json())
+            write_json(self.output.figures / f"{figure.slug}.json", figure.to_json())
         logger.info("Wrote %d civilizations and %d figures", len(polities), len(figures))
 
     def _report(self, scope: Slice, catalog: PolityCatalog, cliopatria: Cliopatria, lineages: Lineages, polities,
                 figures, dropped, applied) -> None:
-        write_json(self.paths.report, {
+        write_json(self.output.report, {
             "slice": asdict(scope),
             "civilizations": len(polities),
             "figures": len(figures),
