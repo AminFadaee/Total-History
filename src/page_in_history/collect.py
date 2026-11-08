@@ -12,7 +12,7 @@ from page_in_history.errata import apply_errata, load_errata
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
 from page_in_history.lineages import Lineages
-from page_in_history.maps import MapJob, render_all
+from page_in_history.maps import MapJob, MapStyle, render_all
 from page_in_history.overrides import apply_overrides, check_against_errata, load_overrides
 from page_in_history.photos import COMMONS_FILE, PhotoClassifier, PhotoMode, PortraitFinder, digest
 from page_in_history.power import PowerScores
@@ -129,13 +129,22 @@ class Collector:
         self._report(scope, catalog, cliopatria, lineages, polities, figures, dropped, applied)
 
     def _draw(self, polities: list[Polity], cliopatria: Cliopatria, countries, builder: PolityBuilder) -> None:
+        """Each civilization's map, and for one whose capitals are placed its Capital card's maps: the capitals
+        dotted, then named."""
         jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
                        [capital["location"] for capital in polity.capitals if capital["location"]
                         and (capital.get("founded") is None or capital["founded"] <= polity.map_year)],
                        self.paths.root / "maps" / f"{polity.slug}.png", polity.parts, builder.colonial_power(polity.id))
                 for polity in polities]
-        results = render_all(jobs, countries, naturalearth.rivers(self.http), fonts.inter(self.http), MAP_WORKERS,
-                             self.cache_dir / "maps")
+        located = [polity for polity in polities if any(capital["location"] for capital in polity.capitals)]
+        capital_jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
+                               [tuple(capital["location"]) for capital in polity.capitals if capital["location"]],
+                               self.paths.root / "maps" / f"{polity.slug}-{style.value}.png", polity.parts,
+                               builder.colonial_power(polity.id), style,
+                               tuple(capital["name"] for capital in polity.capitals if capital["location"]))
+                        for polity in located for style in (MapStyle.CAPITAL, MapStyle.CAPITAL_ANSWER)]
+        results = render_all(jobs + capital_jobs, countries, naturalearth.rivers(self.http), fonts.inter(self.http),
+                             MAP_WORKERS, self.cache_dir / "maps")
         for polity, result in zip(polities, results):
             if isinstance(result, Exception):
                 logger.error("Could not draw %s", polity.name, exc_info=result)
@@ -144,6 +153,16 @@ class Collector:
             else:
                 polity.map = f"maps/{polity.slug}.png"
                 polity.checks["labelled"] = result
+        drawn = results[len(jobs):]
+        for index, polity in enumerate(located):
+            asked, answered = drawn[2 * index], drawn[2 * index + 1]
+            if isinstance(asked, Exception) or isinstance(answered, Exception):
+                logger.error("Could not draw the capital of %s", polity.name,
+                             exc_info=asked if isinstance(asked, Exception) else answered)
+                self.failures.append(f"drawing the capital of {polity.name}")
+                continue
+            polity.capital_map = f"maps/{polity.slug}-{MapStyle.CAPITAL.value}.png"
+            polity.capital_map_answer = f"maps/{polity.slug}-{MapStyle.CAPITAL_ANSWER.value}.png"
 
     def _image(self, file: str, name: str) -> str:
         if not file:

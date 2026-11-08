@@ -204,6 +204,8 @@ class Polity:
     tier: str = ""
     map: str = ""
     map_asked: bool = True
+    capital_map: str = ""
+    capital_map_answer: str = ""
     disputes: list[dict] = field(default_factory=list)
     checks: dict = field(default_factory=dict)
 

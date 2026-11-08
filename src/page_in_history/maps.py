@@ -63,6 +63,10 @@ MIN_OVERLAP_PIXELS = 4
 LOCAL_RIVER_RANK = 5
 CAPITAL_SIZE = 110
 CAPITAL_MERGE_PIXELS = 10
+CITY_DOT_SIZE = 40
+CITY_LABEL_SIZE = 10
+CITY_LABEL_OFFSET_PIXELS = 10
+CITY_MERGE_PIXELS = 28
 
 INSET_WIDTH = 0.2
 INSET_MARGIN = 0.015
@@ -94,6 +98,13 @@ class Color(StrEnum):
     INSET_LAND = "#c5c5c5"
     INSET_BACKGROUND = "#ffffff"
     INSET_FRAME = "#A6192E"
+
+
+class MapStyle(StrEnum):
+    """The civilization's own map, or its Capital card's: the capitals dotted, and named on the answer."""
+    CIVILIZATION = "civilization"
+    CAPITAL = "capital"
+    CAPITAL_ANSWER = "capital-answer"
 
 
 NEIGHBOUR_COLORS = ("#b5cc96", "#93c2b5", "#9db0d6", "#bca6d6", "#dba6c1", "#e2b088", "#d2c47c", "#c98f86")
@@ -226,6 +237,8 @@ class MapJob:
     output: pathlib.Path
     parts: list[str]
     colonial: bool = False
+    style: MapStyle = MapStyle.CIVILIZATION
+    capital_names: tuple[str, ...] = ()
 
 
 class MapRenderer:
@@ -248,26 +261,29 @@ class MapRenderer:
         Returns the polities that got a label on the main map."""
         name, year, polities, parts = job.name, job.year, job.polities, job.parts
         territory = polities[polities.Name.isin([name, *parts])].geometry.union_all()
-        capitals = [capital for capital in job.capitals if territory.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital))]
+        located = [tuple(capital) for capital in job.capitals]
+        named = dict(zip(located, job.capital_names))
+        capitals = [capital for capital in located if territory.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital))]
         found = regions(territory)
         main = home(found, capitals)
         if not capitals and job.capitals:
-            capital = Point(job.capitals[0])
+            capital = Point(located[0])
             nearest = min(found, key=lambda region: region.geometry.distance(capital))
             main = Region(nearest.geometry.union(capital.buffer(OUTSIDE_CAPITAL_MARGIN_DEGREES)), nearest.share)
-            capitals = [job.capitals[0]]
+            capitals = [located[0]]
         panels = [region for region in found if region is not main and region.share >= MIN_PANEL_SHARE][:MAX_PANELS]
         if capitals and len(panels) == 1 and not job.colonial and panels[0].share < LONE_PANEL_SHARE and not any(
                 panels[0].geometry.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital)) for capital in capitals):
             panels = []
-        image, labelled = self._draw(Scene(self, name, polities, main.geometry, territory, parts), year, capitals,
+        marks = Marks(job.style, capitals, [named.get(capital, "") for capital in capitals])
+        image, labelled = self._draw(Scene(self, name, polities, main.geometry, territory, parts), year, marks,
                                      panel=False)
-        images = [self._draw(Scene(self, name, polities, region.geometry, territory, parts), year, capitals, panel=True)[0]
+        images = [self._draw(Scene(self, name, polities, region.geometry, territory, parts), year, marks, panel=True)[0]
                   for region in panels]
         save(beside(image, images), job.output)
         return labelled
 
-    def _draw(self, scene: "Scene", year: int, capitals: list[tuple[float, float]], panel: bool) -> tuple[Image.Image, list[str]]:
+    def _draw(self, scene: "Scene", year: int, marks: "Marks", panel: bool) -> tuple[Image.Image, list[str]]:
         """One map; the main one gets the world inset, the year and labels, a panel only the land and its neighbours."""
         figure, axes = plt.subplots(figsize=FIGURE_SIZE, dpi=DPI)
         figure.subplots_adjust(0, 0, 1, 1)
@@ -286,15 +302,18 @@ class MapRenderer:
         for lines, color in ((scene.lines.difference(inner), Color.LINE),
                              (scene.lines.intersection(inner), Color.LINE_ON_FOCUS)):
             gpd.GeoSeries([lines], crs=scene.crs).plot(ax=axes, color=color, linewidth=LINE_WIDTH, zorder=3)
-        self._capitals(axes, scene, capitals)
         self._ring(axes, scene)
         left, bottom, right, top = scene.frame.bounds
         axes.set_xlim(left, right)
         axes.set_ylim(bottom, top)
-        labelled = []
+        labelled, reserved = [], []
+        if marks.style is MapStyle.CIVILIZATION:
+            self._capitals(axes, scene, marks.places)
+        else:
+            reserved = self._cities(figure, axes, scene, marks)
         if not panel:
             corners = sorted(CORNERS, key=lambda corner: crowding(scene, corner))
-            reserved = [self._inset(figure, scene, corners[0]), self._caption(figure, axes, year, corners[1])]
+            reserved += [self._inset(figure, scene, corners[0]), self._caption(figure, axes, year, corners[1])]
             labelled = self._labels(figure, axes, scene, colors, reserved)
         return rendered(figure), labelled
 
@@ -336,6 +355,36 @@ class MapRenderer:
         stars = merged(list(zip(points.x, points.y)), CAPITAL_MERGE_PIXELS * scene.pixel)
         axes.scatter([x for x, _ in stars], [y for _, y in stars], marker="*", s=CAPITAL_SIZE, color=Color.CAPITAL,
                      edgecolors=Color.LINE, linewidths=0.6, zorder=5)
+
+    def _cities(self, figure, axes, scene: Scene, marks: "Marks") -> list:
+        """Each capital as a dot, as the Geography decks mark a city, named on the answer; capitals closer than a name's
+        height share one dot and one name. Returns the space the names take, which neighbour labels keep clear of."""
+        points = gpd.GeoSeries([Point(place) for place in marks.places], crs="EPSG:4326").to_crs(scene.crs)
+        groups = grouped(list(zip(points.x, points.y)), list(marks.names), CITY_MERGE_PIXELS * scene.pixel)
+        xs, ys = [x for (x, _), _ in groups], [y for (_, y), _ in groups]
+        axes.scatter(xs, ys, s=CITY_DOT_SIZE, color=Color.TEXT, edgecolors=Color.HALO, linewidths=0.9, zorder=7)
+        if marks.style is not MapStyle.CAPITAL_ANSWER:
+            return []
+        renderer = figure.canvas.get_renderer()
+        offset = CITY_LABEL_OFFSET_PIXELS * scene.pixel
+        placed = []
+        for (x, y), names in groups:
+            label = ", ".join(name for name in names if name)
+            if not label:
+                continue
+            for dx, dy, ha, va in ((offset, 0, "left", "center"), (-offset, 0, "right", "center"),
+                                   (0, offset, "center", "bottom"), (0, -offset, "center", "top")):
+                text = axes.text(x + dx, y + dy, label, fontsize=CITY_LABEL_SIZE, family=self.font, weight="bold",
+                                 color=Color.HIGHLIGHT, ha=ha, va=va, zorder=8,
+                                 bbox={"boxstyle": "round,pad=0.25", "facecolor": Color.HALO,
+                                       "edgecolor": Color.HIGHLIGHT, "linewidth": 1})
+                extent = text.get_window_extent(renderer).expanded(1.15, 1.3)
+                if axes.bbox.contains(extent.x0, extent.y0) and axes.bbox.contains(extent.x1, extent.y1) \
+                        and not any(extent.overlaps(other) for other in placed):
+                    placed.append(extent)
+                    break
+                text.remove()
+        return placed
 
     def _inset(self, figure, scene: Scene, corner: Corner):
         """A small world map with the whole civilization in red and the frame outlined, in the least crowded corner."""
@@ -417,6 +466,23 @@ class MapRenderer:
                         return True
                     text.remove()
         return False
+
+
+@dataclass(frozen=True)
+class Marks:
+    style: MapStyle
+    places: list[tuple[float, float]]
+    names: list[str]
+
+
+def grouped(points: list[tuple[float, float]], names: list[str], distance: float) -> list[tuple[tuple[float, float], list[str]]]:
+    """Points closer than the distance as one point at their midpoint, with all their names."""
+    groups: list[list[int]] = []
+    for index, (x, y) in enumerate(points):
+        near = next((group for group in groups if any(math.dist((x, y), points[other]) < distance for other in group)), None)
+        (near.append(index) if near is not None else groups.append([index]))
+    return [((sum(points[i][0] for i in group) / len(group), sum(points[i][1] for i in group) / len(group)),
+             [names[i] for i in group]) for group in groups]
 
 
 def merged(points: list[tuple[float, float]], distance: float) -> list[tuple[float, float]]:
@@ -505,6 +571,8 @@ def fingerprint(job: MapJob, setting: str) -> str:
     shapes = job.polities.sort_values("Name")
     content = hashlib.sha256(setting.encode())
     content.update(repr((job.name, job.year, job.capitals, job.parts, job.colonial)).encode())
+    if job.style is not MapStyle.CIVILIZATION:
+        content.update(repr((job.style.value, job.capital_names)).encode())
     content.update(shapes.drop(columns=shapes.geometry.name).to_csv(index=False).encode())
     for geometry in shapes.geometry:
         content.update(geometry.wkb if geometry is not None else b"")
