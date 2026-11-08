@@ -8950,28 +8950,6 @@
   ],
   "needs_verification": [
     {
-      "civilization": "Dutch Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Maurice, Prince of Orange",
-        "Frederick Henry, Prince of Orange",
-        "William II of Orange",
-        "William V, Prince of Orange"
-      ]
-    },
-    {
-      "civilization": "East Franks",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Louis the German",
-        "Charles the Fat",
-        "Henry the Fowler",
-        "Otto the Great"
-      ]
-    },
-    {
       "civilization": "Eastern Wu",
       "field": "key_figures",
       "action": "set",
@@ -8980,39 +8958,6 @@
         "Sun Liang",
         "Sun Xiu",
         "Sun Hao"
-      ]
-    },
-    {
-      "civilization": "Electorate of Saxony",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Rudolf I of Saxe-Wittenberg",
-        "Frederick I, Elector of Saxony",
-        "Frederick III of Saxony",
-        "Frederick Augustus I of Saxony"
-      ]
-    },
-    {
-      "civilization": "Emirate of Córdoba",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Abd al-Rahman I",
-        "Hisham I of Córdoba",
-        "Abd ar-Rahman II",
-        "Abd al-Rahman III"
-      ]
-    },
-    {
-      "civilization": "Emirate of Granada",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Muhammad I of Granada",
-        "Muhammad II of Granada",
-        "Muhammad III of Granada",
-        "Muhammad XI of Granada"
       ]
     },
     {
@@ -9036,25 +8981,6 @@
       ]
     },
     {
-      "civilization": "Empire of Japan",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Emperor Meiji",
-        "Emperor Taishō",
-        "Hirohito",
-        "Hideki Tojo"
-      ]
-    },
-    {
-      "civilization": "Four Oirats",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Esen Taishi"
-      ]
-    },
-    {
       "civilization": "Free Orange State",
       "field": "key_figures",
       "action": "set",
@@ -9066,17 +8992,6 @@
       ]
     },
     {
-      "civilization": "French colonial empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Napoleon III",
-        "Adolphe Thiers",
-        "Patrice de MacMahon",
-        "Raymond Poincaré"
-      ]
-    },
-    {
       "civilization": "French Indochina",
       "field": "key_figures",
       "action": "set",
@@ -9084,17 +8999,6 @@
         "Raymond Poincaré",
         "Khải Định",
         "Bảo Đại",
-        "Albert Lebrun"
-      ]
-    },
-    {
-      "civilization": "French Third Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Adolphe Thiers",
-        "Patrice de MacMahon",
-        "Raymond Poincaré",
         "Albert Lebrun"
       ]
     },
@@ -9115,57 +9019,6 @@
         "Fatali Khan Khoyski",
         "Nasib bey Yusifbeyli",
         "Mammad Hasan Hajinski"
-      ]
-    },
-    {
-      "civilization": "Batavian Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Rutger Jan Schimmelpenninck"
-      ]
-    },
-    {
-      "civilization": "Belgian Congo",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Leopold II of Belgium",
-        "Albert I of Belgium",
-        "Leopold III of Belgium"
-      ]
-    },
-    {
-      "civilization": "Brazilian Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Deodoro da Fonseca",
-        "Floriano Peixoto",
-        "Prudente de Morais",
-        "Getúlio Vargas"
-      ]
-    },
-    {
-      "civilization": "British Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Elizabeth I",
-        "George III",
-        "Queen Victoria",
-        "Edward VII"
-      ]
-    },
-    {
-      "civilization": "Caliphate of Córdoba",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Abd al-Rahman III",
-        "Al-Hakam II",
-        "Hisham II of Córdoba",
-        "Sulayman ibn al-Hakam"
       ]
     },
     {
@@ -9233,27 +9086,6 @@
       ]
     },
     {
-      "civilization": "Dahomey",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Do-Aklin",
-        "Ghezo",
-        "Béhanzin"
-      ]
-    },
-    {
-      "civilization": "Danish overseas colonies",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Christian IV of Denmark",
-        "Christian IX",
-        "Frederick VIII of Denmark",
-        "Christian X"
-      ]
-    },
-    {
       "civilization": "Dominican Republic",
       "field": "key_figures",
       "action": "set",
@@ -9272,17 +9104,6 @@
         "William VIII of Aquitaine",
         "William X of Aquitaine",
         "Eleanor of Aquitaine"
-      ]
-    },
-    {
-      "civilization": "Duchy of Bavaria",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Henry I of Bavaria",
-        "Henry the Lion",
-        "Albert V of Bavaria",
-        "Maximilian I, Elector of Bavaria"
       ]
     },
     {
@@ -9339,33 +9160,12 @@
       ]
     },
     {
-      "civilization": "Inca Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Pachacuti",
-        "Huayna Capac",
-        "Huáscar",
-        "Atahualpa"
-      ]
-    },
-    {
       "civilization": "Irish Free State",
       "field": "key_figures",
       "action": "set",
       "value": [
         "George V",
         "George VI"
-      ]
-    },
-    {
-      "civilization": "Janapada of Magadha",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ajatashatru",
-        "Udayin",
-        "Shishunaga"
       ]
     },
     {
@@ -9376,27 +9176,6 @@
         "Emperor Wu of Jin",
         "Emperor Yuan of Jin",
         "Emperor Gong of Jin"
-      ]
-    },
-    {
-      "civilization": "Judea",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Alexander Jannaeus",
-        "Salome Alexandra",
-        "Aristobulus II",
-        "Antigonus II Mattathias"
-      ]
-    },
-    {
-      "civilization": "Kalmar Union",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Erik of Pomerania",
-        "Hans, King of Denmark",
-        "Christian II of Denmark"
       ]
     },
     {
@@ -9432,39 +9211,6 @@
       ]
     },
     {
-      "civilization": "Khwarezmid Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Muhammad I of Khwarazm",
-        "Ala al-Din Tekish",
-        "Muhammad II of Khwarazm",
-        "Jalal al-Din Mangburni"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Aragon",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Sancho Ramírez",
-        "Alfonso the Battler",
-        "Ramiro II of Aragon",
-        "Petronilla of Aragon"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Asturias",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Pelagius of Asturias",
-        "Alfonso I of Asturias",
-        "Alfonso II of Asturias",
-        "Alfonso III of Asturias"
-      ]
-    },
-    {
       "civilization": "Kingdom of Axum",
       "field": "key_figures",
       "action": "set",
@@ -9473,60 +9219,6 @@
         "Ezana of Axum",
         "Kaleb of Axum",
         "Najashi"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Bavaria",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Maximilian I Joseph of Bavaria",
-        "Ludwig I of Bavaria",
-        "Maximilian II of Bavaria",
-        "Ludwig II of Bavaria"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Bohemia",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "John of Bohemia",
-        "Charles IV, Holy Roman Emperor",
-        "George of Poděbrady",
-        "Rudolf II, Holy Roman Emperor"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Castile",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Alfonso VI of León and Castile",
-        "Alfonso VII of León and Castile",
-        "Alfonso VIII of Castile",
-        "Ferdinand III of Castile"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Egypt",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Saad Zaghloul",
-        "Fuad I of Egypt",
-        "Farouk of Egypt"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Greece",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Otto of Greece",
-        "George I of Greece",
-        "Constantine I of Greece",
-        "George II of Greece"
       ]
     },
     {
@@ -9552,28 +9244,6 @@
       ]
     },
     {
-      "civilization": "Kingdom of León",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ordoño II of León",
-        "Alfonso VI of León and Castile",
-        "Alfonso VII of León and Castile",
-        "Alfonso IX of León"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Naples",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Charles II of Naples",
-        "Charles III of Naples",
-        "Joseph Bonaparte",
-        "Ferdinand I of the Two Sicilies"
-      ]
-    },
-    {
       "civilization": "Kingdom of Nepal",
       "field": "key_figures",
       "action": "set",
@@ -9582,17 +9252,6 @@
         "Rana Bahadur Shah",
         "Prithvi Bir Bikram Shah",
         "Tribhuvan of Nepal"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Numidia",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Masinissa",
-        "Micipsa",
-        "Jugurtha",
-        "Juba I of Numidia"
       ]
     },
     {
@@ -9607,72 +9266,6 @@
       ]
     },
     {
-      "civilization": "Kingdom of Portugal",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Afonso I of Portugal",
-        "Manuel I of Portugal",
-        "John IV of Portugal",
-        "Carlos I of Portugal"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Romania",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Carol I of Romania",
-        "Ferdinand I of Romania",
-        "Michael I of Romania",
-        "Carol II of Romania"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Sardinia",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Victor Amadeus II",
-        "Charles Emmanuel III",
-        "Charles Albert of Sardinia",
-        "Victor Emmanuel II"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Spain",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Philip V of Spain",
-        "Isabella II",
-        "Alfonso XIII",
-        "Francisco Franco"
-      ]
-    },
-    {
-      "civilization": "Kingdom of Sweden",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Saint Erik",
-        "Karl Knutsson",
-        "Gustavus Adolphus",
-        "Charles XIV John"
-      ]
-    },
-    {
-      "civilization": "Kingdom of the Two Sicilies",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ferdinand I of the Two Sicilies",
-        "Francis I of the Two Sicilies",
-        "Ferdinand II of the Two Sicilies",
-        "Francis II of the Two Sicilies"
-      ]
-    },
-    {
       "civilization": "Kingdom of Urartu",
       "field": "key_figures",
       "action": "set",
@@ -9684,39 +9277,6 @@
       ]
     },
     {
-      "civilization": "Kingdom of Wessex",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ecgberht, King of Wessex",
-        "Alfred the Great",
-        "Edward the Elder",
-        "Æthelstan"
-      ]
-    },
-    {
-      "civilization": "Konbaung Dynasty",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Alaungpaya",
-        "Bodawpaya",
-        "Mindon Min",
-        "Thibaw Min"
-      ]
-    },
-    {
-      "civilization": "Lan Xang",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Fa Ngum",
-        "Samsenethai",
-        "Setthathirath",
-        "Sourigna Vongsa"
-      ]
-    },
-    {
       "civilization": "Later Tang",
       "field": "key_figures",
       "action": "set",
@@ -9725,17 +9285,6 @@
         "Li Siyuan",
         "Li Conghou",
         "Li Congke"
-      ]
-    },
-    {
-      "civilization": "Latin Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Baldwin I, Latin Emperor",
-        "Henry of Flanders",
-        "Peter II of Courtenay",
-        "John of Brienne"
       ]
     },
     {
@@ -9761,34 +9310,6 @@
       ]
     },
     {
-      "civilization": "Lu",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Confucius"
-      ]
-    },
-    {
-      "civilization": "Macedonia",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Philip II of Macedon",
-        "Alexander the Great",
-        "Pyrrhus of Epirus"
-      ]
-    },
-    {
-      "civilization": "Maratha Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Shivaji",
-        "Bajirao I",
-        "Ahilyabai Holkar"
-      ]
-    },
-    {
       "civilization": "Maya civilization",
       "field": "key_figures",
       "action": "set",
@@ -9800,25 +9321,6 @@
       ]
     },
     {
-      "civilization": "Mongol Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Genghis Khan",
-        "Ögedei Khan",
-        "Hulegu Khan",
-        "Kublai Khan"
-      ]
-    },
-    {
-      "civilization": "Mutapa Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Nyatsimba Mutota"
-      ]
-    },
-    {
       "civilization": "Neo-Inca State",
       "field": "key_figures",
       "action": "set",
@@ -9827,17 +9329,6 @@
         "Sayri Túpac",
         "Titu Cusi",
         "Túpac Amaru"
-      ]
-    },
-    {
-      "civilization": "Netherlands",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "William I of the Netherlands",
-        "William II of the Netherlands",
-        "William III of the Netherlands",
-        "Wilhelmina of the Netherlands"
       ]
     },
     {
@@ -9874,34 +9365,12 @@
       ]
     },
     {
-      "civilization": "Old Kingdom of Norway",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Harald Fairhair",
-        "Eric Bloodaxe",
-        "Olaf Haraldsson",
-        "Erik of Pomerania"
-      ]
-    },
-    {
       "civilization": "Oyo Empire",
       "field": "key_figures",
       "action": "set",
       "value": [
         "Ọranyan",
         "Adeyemi I Alowolodu"
-      ]
-    },
-    {
-      "civilization": "Papal States",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Pope Innocent III",
-        "Pope Alexander VI",
-        "Pope Julius II",
-        "Pope Pius VII"
       ]
     },
     {
@@ -9936,17 +9405,6 @@
       ]
     },
     {
-      "civilization": "Principality of Moldavia",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Dragoș, Voivode of Moldavia",
-        "Stephen the Great",
-        "Dimitrie Cantemir",
-        "Alexandru Ioan Cuza"
-      ]
-    },
-    {
       "civilization": "Qin",
       "field": "key_figures",
       "action": "set",
@@ -9955,16 +9413,6 @@
         "King Huiwen of Qin",
         "King Wu of Qin",
         "King Zhaoxiang of Qin"
-      ]
-    },
-    {
-      "civilization": "Republic of Austria",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Karl Seitz",
-        "Michael Hainisch",
-        "Wilhelm Miklas"
       ]
     },
     {
@@ -10028,17 +9476,6 @@
       ]
     },
     {
-      "civilization": "Roman Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Julius Caesar",
-        "Cicero",
-        "Mark Antony",
-        "Augustus"
-      ]
-    },
-    {
       "civilization": "Ryukyu Kingdom",
       "field": "key_figures",
       "action": "set",
@@ -10080,43 +9517,12 @@
       ]
     },
     {
-      "civilization": "Second Spanish Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Niceto Alcalá-Zamora",
-        "Diego Martínez Barrio",
-        "Manuel Azaña"
-      ]
-    },
-    {
-      "civilization": "Seleucid Empire",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Seleucus I Nicator",
-        "Antiochus I Soter",
-        "Antiochus III the Great",
-        "Antiochus IV Epiphanes"
-      ]
-    },
-    {
       "civilization": "Sokoto Caliphate",
       "field": "key_figures",
       "action": "set",
       "value": [
         "Usman dan Fodio",
         "Muhammed Bello"
-      ]
-    },
-    {
-      "civilization": "South African Republic",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Marthinus Wessel Pretorius",
-        "Paul Kruger",
-        "Piet Joubert"
       ]
     },
     {
@@ -10140,15 +9546,6 @@
       ]
     },
     {
-      "civilization": "Sukhothai Kingdom",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Si Inthrathit",
-        "Ramkhamhaeng"
-      ]
-    },
-    {
       "civilization": "Swiss Confederation",
       "field": "key_figures",
       "action": "set",
@@ -10157,17 +9554,6 @@
         "Gustave Ador",
         "Marcel Pilet-Golaz",
         "Philipp Etter"
-      ]
-    },
-    {
-      "civilization": "Tang Dynasty",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Emperor Gaozu of Tang",
-        "Emperor Taizong of Tang",
-        "Wu Zetian",
-        "Emperor Xuanzong of Tang"
       ]
     },
     {
@@ -10182,28 +9568,6 @@
       ]
     },
     {
-      "civilization": "Tokugawa Shogunate",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Tokugawa Ieyasu",
-        "Tokugawa Hidetada",
-        "Tokugawa Iemitsu",
-        "Tokugawa Yoshimune"
-      ]
-    },
-    {
-      "civilization": "Tulunids",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Ahmad ibn Tulun",
-        "Khumarawayh ibn Ahmad ibn Tulun",
-        "Harun ibn Khumarawayh",
-        "Shayban ibn Ahmad ibn Tulun"
-      ]
-    },
-    {
       "civilization": "Twenty-second Dynasty of Egypt",
       "field": "key_figures",
       "action": "set",
@@ -10211,39 +9575,6 @@
         "Shoshenq I",
         "Osorkon I",
         "Osorkon IV"
-      ]
-    },
-    {
-      "civilization": "Union of Soviet Socialist Republics",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Vladimir Lenin",
-        "Joseph Stalin",
-        "Leon Trotsky",
-        "Nikita Khrushchev"
-      ]
-    },
-    {
-      "civilization": "United Kingdom of Great Britain and Ireland",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "George III",
-        "Queen Victoria",
-        "Edward VII",
-        "George V"
-      ]
-    },
-    {
-      "civilization": "United States of America",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "George Washington",
-        "Thomas Jefferson",
-        "Abraham Lincoln",
-        "Franklin D. Roosevelt"
       ]
     },
     {
@@ -10267,17 +9598,6 @@
       ]
     },
     {
-      "civilization": "West Franks",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Charles the Bald",
-        "Charles the Simple",
-        "Louis IV of France",
-        "Louis V of France"
-      ]
-    },
-    {
       "civilization": "Western Wei",
       "field": "key_figures",
       "action": "set",
@@ -10296,15 +9616,6 @@
         "Emperor Jingzong of Western Xia",
         "Emperor Renzong of Western Xia",
         "Last Emperor of Western Xia"
-      ]
-    },
-    {
-      "civilization": "Zand Dynasty",
-      "field": "key_figures",
-      "action": "set",
-      "value": [
-        "Karim Khan Zand",
-        "Lotf Ali Khan"
       ]
     },
     {
