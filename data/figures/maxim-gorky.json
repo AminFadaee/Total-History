@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Russian and Soviet writer, journalist, and proponent of socialism.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/maxim-gorky.jpg",
   "image_credit": "Herman Mishkin · Public domain",
   "image_kind": "Portrait from life",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Alexei Maximovich Peshkov (Russian: Алексей Максимович Пешков; 28 March [O.S. 16 March] 1868 – 18 June 1936), popularly known as Maxim Gorky (; Максим Горький), was a Russian and Soviet writer, journalist, and proponent of socialism. He was nominated five times for the Nobel Prize in Literature. Before his success as an author, he travelled widely across the Russian Empire, changing jobs frequently; these experiences would later influence his writing. He associated with fellow Russian writers Leo Tolstoy and Anton Chekhov, both mentioned by Gorky in his memoirs.",
     "image": "",
-    "photo": "Maxim Gorky LOC Restored edit1.jpg: model 0.57, one person 0.97, in Category:Maxim Gorky in photography; Znanie 1.jpg: model 0.87, one person 0.00, captured 1904, during their lifetime; E. M. Lilien Ex Libris Gorki.jpg: model 0.05, one person 0.39, captured 1905, during their lifetime; Gorky Demons.jpg: model 0.85, one person 0.00, captured 1935, during their lifetime; Path to happiness is work (Gorky).jpg: model 0.64, one person 0.00, captured 1921, during their lifetime; Katalog-izdatelstva-Vsemirnaya-literatura.jpg: model 0.71, one person 0.00; Letopis 1915.jpg: model 0.54, one person 0.00, captured 1915, during their lifetime; Gershanik's portrait of Maxim Gorky.jpg: model 0.00, one person 0.96; Колхозонь эряф 1936-03 002стр (cropped).jpg: model 0.88, one person 0.00, captured 1936, during their lifetime; Bundesarchiv Bild 183-52607-0004, Berlin, Dynamo-Sporthalle, Vorhalle, Innenansicht.jpg: model 0.34, one person 0.06"
+    "photo": "Maxim Gorky LOC Restored edit1.jpg: model 0.57, one person 0.97, in Category:Maxim Gorky in photography; Znanie 1.jpg: model 0.87, one person 0.00, captured 1904, during their lifetime; E. M. Lilien Ex Libris Gorki.jpg: model 0.05, one person 0.39, captured 1905, during their lifetime; Gorky Demons.jpg: model 0.85, one person 0.00, captured 1935, during their lifetime; Path to happiness is work (Gorky).jpg: model 0.64, one person 0.00, captured 1921, during their lifetime; Katalog-izdatelstva-Vsemirnaya-literatura.jpg: model 0.71, one person 0.00; Letopis 1915.jpg: model 0.54, one person 0.00, captured 1915, during their lifetime; Gershanik's portrait of Maxim Gorky.jpg: model 0.00, one person 0.96; Колхозонь эряф 1936-03 002стр (cropped).jpg: model 0.88, one person 0.00, captured 1936, during their lifetime; Bundesarchiv Bild 183-52607-0004, Berlin, Dynamo-Sporthalle, Vorhalle, Innenansicht.jpg: model 0.34, one person 0.06",
+    "birth": {
+      "location": [
+        44.0075,
+        56.32694444
+      ],
+      "year": 1868
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Spanish novelist, poet, story writer and essayist associated with the Generation of '36 movement.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/camilo-jose-cela.jpg",
   "image_credit": "Unknown photographer · CC BY 4.0",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Camilo José Cela y Trulock, 1st Marquess of Iria Flavia (Spanish: [kamilo xoˈse ˈθela]; 11 May 1916 – 17 January 2002) was a Spanish novelist, poet, story writer and essayist associated with the Generation of '36 movement.",
     "image": "",
-    "photo": "model 0.99, one person 1.00"
+    "photo": "model 0.99, one person 1.00",
+    "birth": {
+      "location": [
+        -7.9,
+        42.5
+      ],
+      "year": 1916
+    }
   }
 }

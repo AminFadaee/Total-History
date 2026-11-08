@@ -19,6 +19,7 @@
   ],
   "contribution": "An Egyptian schoolteacher and imam, best known for founding the Muslim Brotherhood, one of the largest and most influential global Islamist movements, and for his death at the hands of the Egyptian government.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/hassan-al-banna.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,18 @@
       ],
       "citizenship": [
         "Kingdom of Egypt"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Hassan Ahmed Abd al-Rahman Muhammed al-Banna (Arabic: حسن أحمد عبد الرحمن محمد البنا; 14 October 1906 – 12 February 1949), known as Hassan al-Banna (Arabic: حسن البنا), was an Egyptian schoolteacher and imam, best known for founding the Muslim Brotherhood, one of the largest and most influential global Islamist movements, and for his death at the hands of the Egyptian government.",
     "image": "",
-    "photo": "model 0.97, one person 0.99"
+    "photo": "model 0.97, one person 0.99",
+    "birth": {
+      "location": [
+        30.76833344,
+        30.96472168
+      ],
+      "year": 1906
+    }
   }
 }

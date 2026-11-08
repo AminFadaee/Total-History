@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He was the first of a series of thirteen True Whig presidents who held uninterrupted power in Liberia from 1878 until 1980.",
   "setting": "",
+  "modern_country": "",
   "image": "images/anthony-w-gardner.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
     "lead": "Anthony William Gardner (January 24, 1820 – 1885), sometimes written as Gardiner, served as the ninth president of Liberia from 1878 until 1883. He was the first of a series of thirteen True Whig presidents who held uninterrupted power in Liberia from 1878 until 1980.",
     "image": "",
-    "photo": "Anthony W. Gardiner.jpg: model 0.26, one person 0.98"
+    "photo": "Anthony W. Gardiner.jpg: model 0.26, one person 0.98",
+    "birth": {
+      "location": [
+        -77.16055556,
+        36.77083333
+      ],
+      "year": 1820
+    }
   }
 }

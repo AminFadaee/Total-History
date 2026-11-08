@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Denmark and Norway from 1648 until his death in 1670.",
   "setting": "",
+  "modern_country": "Denmark",
   "image": "images/frederick-iii-of-denmark.jpg",
   "image_credit": "Paul Prieur · Public domain",
   "image_kind": "Portrait from life",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Denmark-Norway"
+      ],
+      "born_in": [
+        "Denmark-Norway"
       ]
     },
     "lead": "Frederick III (Danish: Frederik; 18 March 1609 – 9 February 1670) was King of Denmark and Norway from 1648 until his death in 1670. He also governed under the name Frederik II as diocesan administrator (colloquially referred to as prince-bishop) of the Prince-Bishopric of Verden (1623–29 and again 1634–44), and the Prince-Archbishopric of Bremen (1635–45).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        9.49194444,
+        55.24972222
+      ],
+      "year": 1609
+    }
   }
 }

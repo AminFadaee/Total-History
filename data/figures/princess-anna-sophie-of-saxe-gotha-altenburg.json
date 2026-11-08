@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A princess of Saxe-Gotha-Altenburg and Duchess in Saxony by birth, and by marriage a Princess of Schwarzburg-Rudolstadt.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/princess-anna-sophie-of-saxe-gotha-altenburg.jpg",
   "image_credit": "Unidentified painter · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Duchess Anna Sophie of Saxe-Gotha-Altenburg (22 December 1670 – 28 December 1728) was a princess of Saxe-Gotha-Altenburg and Duchess in Saxony by birth, and by marriage a Princess of Schwarzburg-Rudolstadt.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        10.705,
+        50.94916667
+      ],
+      "year": 1670
+    }
   }
 }

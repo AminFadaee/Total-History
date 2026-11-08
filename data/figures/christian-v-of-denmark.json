@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Denmark and Norway from 1670 until his death in 1699.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/christian-v-of-denmark.jpg",
   "image_credit": "Unidentified painter · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Denmark-Norway"
+      ],
+      "born_in": [
+        "Denmark-Norway"
       ]
     },
     "lead": "Christian V (15 April 1646 – 25 August 1699) was King of Denmark and Norway from 1670 until his death in 1699.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        9.43666667,
+        54.78194444
+      ],
+      "year": 1646
+    }
   }
 }

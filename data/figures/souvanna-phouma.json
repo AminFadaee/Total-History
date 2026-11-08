@@ -1,0 +1,57 @@
+{
+  "id": "Q469498",
+  "slug": "souvanna-phouma",
+  "name": "Souvanna Phouma",
+  "wikipedia": "Souvanna Phouma",
+  "role": "Laotian politician",
+  "life": "1901–1984",
+  "lifetime": [
+    1901,
+    1984
+  ],
+  "occupation": "Politician",
+  "birth_country": "Laos",
+  "civilizations": [
+    "Communist Laos"
+  ],
+  "related": [
+    "Kingdom of Laos"
+  ],
+  "contribution": "The leader of the neutralist faction and Prime Minister of the Kingdom of Laos several times.",
+  "setting": "Communist Laos",
+  "modern_country": "Laos",
+  "image": "images/souvanna-phouma.jpg",
+  "image_credit": "Marion S. Trikosko · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/souvanna-phouma-photo.jpg",
+  "photo_credit": "Marion S. Trikosko · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Communist Laos"
+      ],
+      "lead": [
+        "Kingdom of Laos"
+      ],
+      "citizenship": [
+        "Communist Laos"
+      ],
+      "birthplace": [
+        "French Indochina"
+      ],
+      "born_in": [
+        "French Indochina"
+      ]
+    },
+    "lead": "Prince Souvanna Phouma (Lao: ສຸວັນນະພູມາ; 7 October 1901 – 10 January 1984) was the leader of the neutralist faction and Prime Minister of the Kingdom of Laos several times (1951–1954, 1956–1958, 1960, and 1962–1975).",
+    "image": "",
+    "photo": "model 0.93, one person 0.99, captured 1969, during their lifetime",
+    "birth": {
+      "location": [
+        102.13472222,
+        19.89
+      ],
+      "year": 1901
+    }
+  }
+}

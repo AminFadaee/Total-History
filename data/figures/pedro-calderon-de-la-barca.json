@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Spanish dramatist, poet, and writer.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/pedro-calderon-de-la-barca.jpg",
   "image_credit": "Pedro de Villafranca · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Iberian Union"
+      ],
+      "born_in": [
+        "Iberian Union"
       ]
     },
     "lead": "Pedro Calderón de la Barca y Henao (UK: , US: ; Spanish: [ˈpeðɾo kaldeˈɾon de la ˈβaɾka]; 17 January 1600 – 25 May 1681) was a Spanish dramatist, poet, and writer. He is known as one of the most distinguished poets and writers of the Spanish Golden Age, especially for the many verse dramas he wrote for the theatre. Calderón has been termed \"the Spanish Shakespeare\", the national poet of Spain, and one of the greatest poets and playwrights in the history of world literature.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -3.70333333,
+        40.41694444
+      ],
+      "year": 1600
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The seventh Imam–caliph of the Fatimid dynasty.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Fatimid Caliphate"
+      ],
+      "born_in": [
+        "Fatimid Caliphate"
       ]
     },
     "lead": "Abū al-Ḥasan ʿAlī ibn al-Ḥākim (Arabic: أبو الحسن علي ابن الحاكم; 20 June 1005 – 13 June 1036), better known with his regnal name al-Ẓāhir li-Iʿzāz Dīn Allāh (Arabic: الظاهر لإعزاز دين الله, lit. 'He Who Appears Openly to Strengthen the Religion of God'), was the seventh Imam–caliph of the Fatimid dynasty (1021–1036). Al-Zahir assumed the caliphate after the disappearance of his father al-Hakim bi-Amr Allah.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        31.23583333,
+        30.04444444
+      ],
+      "year": 1005
+    }
   }
 }

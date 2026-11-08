@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "The 96th emperor of Japan, according to the traditional order of succession.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/emperor-go-daigo.jpg",
   "image_credit": "Monkan-bō Kōshin · Public domain",
   "image_kind": "Portrait from life",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kamakura Shogunate"
+      ],
+      "born_in": [
+        "Kamakura Shogunate"
       ]
     },
     "lead": "Emperor Go-Daigo (後醍醐天皇 Go-Daigo-tennō) (26 November 1288 – 19 September 1339) was the 96th emperor of Japan, according to the traditional order of succession. He successfully overthrew the Kamakura shogunate in 1333 and established the short-lived Kenmu Restoration to bring the Imperial House back into power. This was to be the last time the emperor had real power until the Meiji Restoration in 1868. The Kenmu restoration was in turn overthrown by Ashikaga Takauji in 1336, ushering in the Ashikaga shogunate. The overthrow split the imperial family into two opposing factions between the Ashikaga backed Northern Court situated in Kyoto and the Southern Court based in Yoshino. The Southern Court was led by Go-Daigo and his later successors.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        135.76666667,
+        35.0
+      ],
+      "year": 1288
+    }
   }
 }

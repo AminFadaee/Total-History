@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "His work has influenced contemporary architects visually and conceptually.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/luis-barragan.jpg",
   "image_credit": "Tomjc.55 · CC BY-SA 4.0",
   "image_kind": "Photograph",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "Mexico"
+      ],
+      "born_in": [
+        "Mexico"
       ]
     },
     "lead": "Luis Ramiro Barragán Morfín (March 9, 1902 – November 22, 1988) was a Mexican architect and engineer. His work has influenced contemporary architects visually and conceptually.  Barragán's buildings are frequently visited by international students and professors of architecture. He studied as an engineer in his home town, while undertaking the entirety of additional coursework to obtain the title of architect.",
     "image": "",
-    "photo": "model 0.91, one person 0.99"
+    "photo": "model 0.91, one person 0.99",
+    "birth": {
+      "location": [
+        -103.3475,
+        20.67666667
+      ],
+      "year": 1902
+    }
   }
 }

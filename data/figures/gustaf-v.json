@@ -19,6 +19,7 @@
   ],
   "contribution": "King of Sweden from 8 December 1907 until his death in 1950.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/gustaf-v.jpg",
   "image_credit": "Herrman Sylwander · Public domain",
   "image_kind": "Photograph",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "United Kingdoms of Sweden and Norway"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
     "lead": "Gustaf V (Oscar Gustaf Adolf; 16 June 1858 – 29 October 1950) was King of Sweden from 8 December 1907 until his death in 1950. He was the eldest son of King Oscar II and Sophia of Nassau, a half-sister of Adolphe, Grand Duke of Luxembourg. Reigning from the death of his father Oscar II in 1907 to his own death nearly 43 years later, he holds the record of being the oldest monarch of Sweden, dying at the age of 92. Gustaf also had the third-longest reign of a Swedish monarch after Magnus IV (1319–1364) and his own great-grandson, Carl XVI Gustaf (1973–present). He was also the last Swedish monarch to exercise his royal prerogatives, which largely died with him, although abolished only with the remaking of the Swedish constitution in 1974. He was the first Swedish king since the High Middle Ages not to have a coronation and so never wore the king's crown, a practice that has continued since.",
     "image": "",
-    "photo": "model 0.95, one person 0.97, in Category:Photographs of Gustaf V of Sweden"
+    "photo": "model 0.95, one person 0.97, in Category:Photographs of Gustaf V of Sweden",
+    "birth": {
+      "location": [
+        17.88611111,
+        59.32166667
+      ],
+      "year": 1858
+    }
   }
 }

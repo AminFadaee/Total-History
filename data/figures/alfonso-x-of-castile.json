@@ -24,6 +24,7 @@
   ],
   "contribution": "King of Castile, León and Galicia from 1 June 1252 until his death in 1284.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/alfonso-x-of-castile.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -50,10 +51,20 @@
       ],
       "birthplace": [
         "Kingdom of Castile"
+      ],
+      "born_in": [
+        "Kingdom of Castile"
       ]
     },
     "lead": "Alfonso X (also known as the Wise, Spanish: el Sabio; 23 November 1221 – 4 April 1284) was King of Castile, León and Galicia from 1 June 1252 until his death in 1284. During the election of 1257, a dissident faction chose him to be king of Germany on 1 April. He renounced his claim to Germany in 1275, and in creating an alliance with the Kingdom of England in 1254, his claim on the Duchy of Gascony as well.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.02444444,
+        39.85666667
+      ],
+      "year": 1221
+    }
   }
 }

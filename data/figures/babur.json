@@ -21,6 +21,7 @@
   ],
   "contribution": "The founder of the Mughal Empire in South Asia.",
   "setting": "",
+  "modern_country": "",
   "image": "images/babur.jpg",
   "image_credit": "c.1650 · Public domain",
   "image_kind": "Later depiction",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Timurid Empire"
+      ],
+      "born_in": [
+        "Timurid Empire"
       ]
     },
     "lead": "Babur (Persian: ببر, Persian: [bɑː.βuɾ]; 14 February 1483 – 26 December 1530; born Zahīr ud-Dīn Muhammad) was the founder of the Mughal Empire in South Asia. He was a descendant of Timur and Genghis Khan through his father and mother, respectively. He was also given the posthumous name of Firdaws Makani ('Dwelling in Paradise').",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        72.33333333,
+        40.78333333
+      ],
+      "year": 1483
+    }
   }
 }

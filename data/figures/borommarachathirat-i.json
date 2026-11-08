@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The third king of the Ayutthaya Kingdom.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "lead": [
         "Ayutthaya Kingdom"
+      ],
+      "born_in": [
+        "Sukhothai Kingdom"
       ]
     },
-    "lead": "King Borommarachathirat I (Thai: สมเด็จพระบรมราชาธิราชที่ ๑, romanized: RTGS: Somdet Phra Borommarachathirat Thi Nueng), also known as Khunluang Pha Ngua (Thai: ขุนหลวงพะงั่ว; \"King Pha Ngua\"; r. 1370–1388), was the third king of the Ayutthaya Kingdom. He was the elder brother of King Ramathibodi I's consort, and so his brother-in-law, and the maternal uncle of King Ramesuan. Before taking the throne at Ayutthaya he ruled Suphan Buri under Ramathibodi I. Less than a year after King Uthong's death, he forced King Ramesuan from power and seized the throne. After his death in 1388, his son Thong Lan reigned for only a week before Ramesuan, who had retreated to Lavo, returned and overthrew him. Ramesuan later reclaimed the throne for a second reign.",
+    "lead": "King Borommarachathirat I (Thai: สมเด็จพระบรมราชาธิราชที่ ๑, romanized: RTGS: Somdet Phra Borommarachathirat Thi Nueng), also known as Khunluang Pha Ngua (Thai: ขุนหลวงพะงั่ว; \"King Pha Ngua\"; r. 1370–1388), was the third king of the Ayutthaya Kingdom. He was the older brother of King Ramathibodi I's consort and the uncle of King Ramesuan. Prior to becoming king of Ayutthaya, Borommarachathirat I was the king of Suphannaphum (vassal to Ayutthaya). He was the brother-in-law of King Ramathibodi I, and the maternal uncle of King Ramesuan. Less than a year after King Uthong's death, he forced King Ramesuan from power and seized the throne. After his death in 1388, his son Thong Lan reigned for only a week before Ramesuan, who had retreated to Lavo, returned and overthrew him. Ramesuan later reclaimed the throne for a second reign.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        100.11694444444,
+        14.4675
+      ],
+      "year": 1307
+    }
   }
 }

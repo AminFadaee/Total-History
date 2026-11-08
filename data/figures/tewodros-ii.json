@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Emperor of Ethiopia from 1855 until his death in 1868.",
   "setting": "",
+  "modern_country": "Ethiopia",
   "image": "images/tewodros-ii.jpg",
   "image_credit": "Étienne Neurdein · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Ethiopian Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Tewodros II (Ge'ez: ዳግማዊ ቴዎድሮስ, once referred to by the English cognate Theodore; baptized as Kassa, c. 1818 – 15 April 1868) was Emperor of Ethiopia from 1855 until his death in 1868. His rule is often placed as the beginning of modern Ethiopia and brought an end to the decentralized Zemene Mesafint (Era of the Princes).",
     "image": "",
-    "photo": "Tewodros II of Ethiopia in the 1860s.jpg: model 0.02, one person 0.99, captured 1860, during their lifetime; Téwodros II - 2.jpg: model 0.04, one person 0.98; Seal tewodros.jpg: model 0.00, one person 0.24, captured 1868, during their lifetime; Emp Tewodros supervising crossing of the Blue Nile mod Pur.jpg: model 0.03, one person 0.94; The Cross of Emperor Tewodros II colour.jpg: model 0.58, one person 0.01; Téwodros II.jpg: model 0.04, one person 1.00, captured 1860, during their lifetime; King Tewodros II.png: model 0.03, one person 0.34; Tewodros II Sebastopol.jpg: model 0.02, one person 0.27; The death of Tewodros.jpg: model 0.03, one person 0.08, captured 1868, during their lifetime; Amharapeople.jpg: model 0.84, one person 0.05"
+    "photo": "Tewodros II of Ethiopia in the 1860s.jpg: model 0.02, one person 0.99, captured 1860, during their lifetime; Téwodros II - 2.jpg: model 0.04, one person 0.98; Seal tewodros.jpg: model 0.00, one person 0.24, captured 1868, during their lifetime; Emp Tewodros supervising crossing of the Blue Nile mod Pur.jpg: model 0.03, one person 0.94; The Cross of Emperor Tewodros II colour.jpg: model 0.58, one person 0.01; Téwodros II.jpg: model 0.04, one person 1.00, captured 1860, during their lifetime; King Tewodros II.png: model 0.03, one person 0.34; Tewodros II Sebastopol.jpg: model 0.02, one person 0.27; The death of Tewodros.jpg: model 0.03, one person 0.08, captured 1868, during their lifetime; Amharapeople.jpg: model 0.84, one person 0.05",
+    "birth": {
+      "location": [
+        35.8576,
+        12.25
+      ],
+      "year": 1818
+    }
   }
 }

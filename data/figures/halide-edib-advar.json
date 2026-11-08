@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "She was best known for her novels criticizing the low social status of Turkish women and what she observed as a lack of interest of most women in changing their situation.",
   "setting": "",
+  "modern_country": "",
   "image": "images/halide-edib-advar.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -30,10 +31,18 @@
       "citizenship": [
         "Ottoman Empire",
         "Republic of Turkey"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Halide Edip Adıvar (Ottoman Turkish: خالده اديب [hɑːliˈde eˈdib], sometimes spelled Halidé Edib in English; 11 June 1884 – 9 January 1964) was a Turkish novelist, teacher, and a nationalist and feminist intellectual. She was best known for her novels criticizing the low social status of Turkish women and what she observed as a lack of interest of most women in changing their situation. She was a Pan-Turkist and several of her novels advocated for the Turanism movement.",
     "image": "",
-    "photo": "model 0.96, one person 0.99, captured 1930, during their lifetime"
+    "photo": "model 0.96, one person 0.99, captured 1930, during their lifetime",
+    "birth": {
+      "location": [
+        28.98,
+        41.0125
+      ],
+      "year": 1884
+    }
   }
 }

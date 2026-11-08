@@ -1,0 +1,54 @@
+{
+  "id": "Q313424",
+  "slug": "ian-smith",
+  "name": "Ian Smith",
+  "wikipedia": "Ian Smith",
+  "role": "Prime Minister of Rhodesia from 1964 to 1979",
+  "life": "1919–2007",
+  "lifetime": [
+    1919,
+    2007
+  ],
+  "occupation": "Politician",
+  "birth_country": "Zimbabwe",
+  "civilizations": [
+    "Republic of Zimbabwe",
+    "Rhodesia"
+  ],
+  "related": [],
+  "contribution": "A Rhodesian and Zimbabwean politician, farmer and former Royal Air Force fighter pilot who served as Prime Minister of Rhodesia from 1964 to 1979.",
+  "setting": "Republic of Zimbabwe",
+  "modern_country": "Zimbabwe",
+  "image": "images/ian-smith.jpg",
+  "image_credit": "Colin Weyer, photographer · CC BY-SA 3.0",
+  "image_kind": "Photograph",
+  "photo": "images/ian-smith-photo.jpg",
+  "photo_credit": "Colin Weyer, photographer · CC BY-SA 3.0",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Rhodesia",
+        "Republic of Zimbabwe"
+      ],
+      "death": [
+        "South Africa"
+      ],
+      "citizenship": [
+        "United Kingdom",
+        "Rhodesia",
+        "Republic of Zimbabwe"
+      ],
+      "born_in": []
+    },
+    "lead": "Ian Douglas Smith (8 April 1919 – 20 November 2007) was a Rhodesian and Zimbabwean politician, farmer and former Royal Air Force fighter pilot who served as Prime Minister of Rhodesia from 1964 to 1979. As leader of the Rhodesian Front, he headed a white-minority government that resisted the introduction of majority rule in Southern Rhodesia. On 11 November 1965, his government issued a unilateral declaration of independence (UDI) from the United Kingdom. The declaration was not internationally recognised, and Smith's government subsequently faced United Nations economic sanctions and an increasingly protracted conflict with African nationalist movements.",
+    "image": "",
+    "photo": "model 0.93, one person 0.97, captured 1975, during their lifetime",
+    "birth": {
+      "location": [
+        30.0,
+        -19.66666667
+      ],
+      "year": 1919
+    }
+  }
+}

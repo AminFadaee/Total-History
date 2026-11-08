@@ -19,6 +19,7 @@
   ],
   "contribution": "He also later became King of Ruthenia in 1340, retaining the title throughout the Galicia–Volhynia Wars.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/casimir-iii-the-great.jpg",
   "image_credit": "Jan Matejko · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kingdom of Poland"
+      ],
+      "born_in": [
+        "Kingdom of Poland"
       ]
     },
     "lead": "Casimir III the Great (Polish: Kazimierz III Wielki; 30 April 1310 – 5 November 1370) reigned as the King of Poland from 1333 to 1370. He also later became King of Ruthenia in 1340, retaining the title throughout the Galicia–Volhynia Wars. He was the last Polish king from the Piast dynasty.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        19.145,
+        52.5325
+      ],
+      "year": 1310
+    }
   }
 }

@@ -12,11 +12,13 @@
   "occupation": "Writer",
   "birth_country": "Italy",
   "civilizations": [
+    "Kingdom of Italy",
     "French Third Republic"
   ],
   "related": [],
   "contribution": "A Polish-French poet, playwright, short story writer, novelist and art critic of Polish, Swiss and Italian descent.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/guillaume-apollinaire.jpg",
   "image_credit": "Unknown photographer · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +34,20 @@
       ],
       "birthplace": [
         "Kingdom of Italy"
+      ],
+      "born_in": [
+        "Kingdom of Italy"
       ]
     },
     "lead": "Guillaume Apollinaire ( ə-POL-in-AIR, French: [ɡijom apɔlinɛːʁ]; born Wilhelm Albert Włodzimierz Aleksander Apolinary Kostrowicki; 26 August 1880 – 9 November 1918) was a Polish-French poet, playwright, short story writer, novelist and art critic of Polish, Swiss and Italian descent.",
     "image": "",
-    "photo": "model 0.89, one person 0.99, in Category:Black and white portrait photographs of writers"
+    "photo": "model 0.89, one person 0.99, in Category:Black and white portrait photographs of writers",
+    "birth": {
+      "location": [
+        12.48277778,
+        41.89333333
+      ],
+      "year": 1880
+    }
   }
 }

@@ -12,11 +12,13 @@
   "occupation": "Religious figure",
   "birth_country": "Italy",
   "civilizations": [
+    "Papal States",
     "Republic of Florence"
   ],
   "related": [],
   "contribution": "An Italian ascetic Dominican friar from Ferrara and a preacher active in Renaissance Florence.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/girolamo-savonarola.jpg",
   "image_credit": "Fra Bartolomeo · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +37,20 @@
       ],
       "birthplace": [
         "Papal States"
+      ],
+      "born_in": [
+        "Papal States"
       ]
     },
     "lead": "Girolamo Savonarola, OP (UK: , US: ; Italian: [dʒiˈrɔːlamo savonaˈrɔːla]; 21 September 1452 – 23 May 1498), also referred to as Jerome Savonarola, was an Italian ascetic Dominican friar from Ferrara and a preacher active in Renaissance Florence. He became known for his prophecies of civic glory, his advocacy of the destruction of secular art and culture, and his calls for Christian renewal. He denounced clerical corruption, despotic rule, and the exploitation of the poor.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.61666667,
+        44.83333333
+      ],
+      "year": 1452
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An ancient Egyptian queen who lived during the 18th Dynasty of Egypt.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "New Kingdom of Egypt"
+      ],
+      "born_in": [
+        "New Kingdom of Egypt"
       ]
     },
     "lead": "Ankhesenamun (ˁnḫ-s-n-imn, \"Her Life Is of Amun\"; c. 1348 BCE or c. 1342 BCE – after 1322 BCE) was an ancient Egyptian queen who lived during the 18th Dynasty of Egypt. Born Ankhesenpaaten (ˁnḫ.s-n-pꜣ-itn, \"she lives for the Aten\"), she was the third of six known daughters of the Egyptian Pharaoh Akhenaten and his Great Royal Wife Nefertiti. She became the Great Royal Wife of Tutankhamun. The change in her name reflects the changes in ancient Egyptian religion during her lifetime after her father's death. Her youth is well documented in the ancient reliefs and paintings of the reign of her parents.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        32.61027778,
+        25.72055556
+      ],
+      "year": -1347
+    }
   }
 }

@@ -15,8 +15,9 @@
     "Kingdom of France"
   ],
   "related": [],
-  "contribution": "A French philosopher, mathematician, and scientist whose work was foundational to mathematics and modern philosophy.",
+  "contribution": "A French philosopher, mathematician, and scientist whose work was foundational to mathematics and modern philosophy, and influenced the development of early modern science.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/rene-descartes.jpg",
   "image_credit": "After Frans Hals · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of France"
+      ],
+      "born_in": [
+        "Kingdom of France"
       ]
     },
-    "lead": "René Descartes ( day-KART, also  DAY-kart; French: [ʁəne dekaʁt] ; 31 March 1596 – 11 February 1650) was a French philosopher, mathematician, and scientist whose work was foundational to mathematics and modern philosophy. He connected the previously separate fields of geometry and algebra into analytic geometry and introduced a systematic method of inquiry that became influential in early modern philosophy. He made major contributions to epistemology and philosophy of mind as well as metaphysics, and influenced the development of modern science.",
+    "lead": "René Descartes ( day-KART, also  DAY-kart; French: [ʁəne dekaʁt] ; 31 March 1596 – 11 February 1650) was a French philosopher, mathematician, and scientist whose work was foundational to mathematics and modern philosophy, and influenced the development of early modern science. He connected the previously separate fields of geometry and algebra into analytic geometry, introduced a systematic method of inquiry that became influential in early modern philosophy, and made major contributions to epistemology and philosophy of mind as well as metaphysics.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        0.6986,
+        46.9744
+      ],
+      "year": 1596
+    }
   }
 }

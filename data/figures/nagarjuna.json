@@ -13,17 +13,27 @@
   "birth_country": "India",
   "civilizations": [],
   "related": [],
-  "contribution": "An Indian scholar-monk, philosopher, and teacher of Mahayana Buddhism from south India.",
+  "contribution": "An Indian scholar-monk, philosopher, and teacher of Mahayana Buddhism from southern India.",
   "setting": "South Asia, 3rd century",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
   "photo": "",
   "photo_credit": "",
   "checks": {
-    "civilization_votes": {},
-    "lead": "Nāgārjuna (Sanskrit, from Nāga + Arjuna; Chn. Lóngshù 龍樹; Tib. Klu sgrub; c. 150 – c. 250 CE) was an Indian scholar-monk, philosopher, and teacher (acharya) of Mahayana Buddhism from south India. He is considered the founder of the Madhyamaka (Centrism, Middle Way) school.",
+    "civilization_votes": {
+      "born_in": []
+    },
+    "lead": "Nāgārjuna (Sanskrit, from Nāga + Arjuna; Chn. Lóngshù 龍樹; Tib. Klu sgrub; c. 150 – c. 250 CE) was an Indian scholar-monk, philosopher, and teacher (acharya) of Mahayana Buddhism from southern India. He is considered the founder of the Madhyamaka (Centrism, Middle Way) school.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        77,
+        13
+      ],
+      "year": 150
+    }
   }
 }

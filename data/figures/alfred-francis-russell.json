@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Americo-Liberian missionary, planter, and politician who served as the tenth president of Liberia from 1883 to 1884 after serving as vice-president under Anthony W. Gardner, whom he succeeded as president.",
   "setting": "",
+  "modern_country": "",
   "image": "images/alfred-francis-russell.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
     "lead": "Alfred Francis Russell (August 25, 1817 – April 4, 1884) was an Americo-Liberian missionary, planter, and politician who served as the tenth president of Liberia from 1883 to 1884 after serving as vice-president under Anthony W. Gardner, whom he succeeded as president.",
     "image": "",
-    "photo": "model 0.96, one person 0.99"
+    "photo": "model 0.96, one person 0.99",
+    "birth": {
+      "location": [
+        -84.49694444,
+        38.04638889
+      ],
+      "year": 1817
+    }
   }
 }

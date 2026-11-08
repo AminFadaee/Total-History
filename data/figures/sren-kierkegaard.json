@@ -15,15 +15,25 @@
   "related": [],
   "contribution": "A Danish philosopher, Christian theologian, poet, social critic, and religious author who is widely considered to be the first existentialist philosopher.",
   "setting": "Northern Europe, 19th century",
+  "modern_country": "",
   "image": "images/sren-kierkegaard.jpg",
   "image_credit": "La Biblioteca Real de Dinamarca · Public domain",
   "image_kind": "Portrait from life",
   "photo": "",
   "photo_credit": "",
   "checks": {
-    "civilization_votes": {},
+    "civilization_votes": {
+      "born_in": []
+    },
     "lead": "Søren Aabye Kierkegaard ( SORR-ən KEER-kə-gard, US also  -⁠gor; Danish: [ˈsɶːɐn ˈɔˀˌpyˀ ˈkʰiɐ̯kəˌkɒːˀ] ; 5 May 1813 – 11 November 1855) was a Danish philosopher, Christian theologian, poet, social critic, and religious author who is widely considered to be the first existentialist philosopher. He wrote critical texts on organized religion, Christianity, morality, ethics, psychology, love, and the philosophy of religion, displaying a fondness for metaphor, irony, and parables. Much of his philosophical work deals with the issues around how one lives as a \"single individual\", highlighting the importance of authenticity, personal choice and commitment, and the duty to love. Kierkegaard prioritized concrete human reality over abstract thinking.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.56833333,
+        55.67611111
+      ],
+      "year": 1813
+    }
   }
 }

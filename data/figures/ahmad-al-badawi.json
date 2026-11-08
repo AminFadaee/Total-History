@@ -12,11 +12,13 @@
   "occupation": "Religious figure",
   "birth_country": "Morocco",
   "civilizations": [
+    "Almohad Caliphate",
     "Mamluk Sultanate"
   ],
   "related": [],
   "contribution": "A 13th-century Arab Sufi Muslim mystic and spiritual adept, immensely revered in Egypt, who became famous as the founder of the Badawiyyah Sufi order.",
   "setting": "",
+  "modern_country": "Morocco",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +34,20 @@
       ],
       "birthplace": [
         "Almohad Caliphate"
+      ],
+      "born_in": [
+        "Almohad Caliphate"
       ]
     },
     "lead": "Aḥmad al-Badawī (Egyptian Arabic: أحمد البدوى, Egyptian Arabic pronunciation: [ˈæħmæd elˈbædæwi]), also known as al-Sayyid al-Badawī (السيد البدوى [esˈsæjjed elˈbædæwi]), was a 13th-century Arab Sufi Muslim mystic and spiritual adept, immensely revered in Egypt, who became famous as the founder of the Badawiyyah Sufi order. He was born in Fes, Morocco, into a Bedouin tribe originally from the Syrian Desert.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -5.00333333,
+        34.04333333
+      ],
+      "year": 1199
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "King of England from 1422 to 1461 and again from 1470 to 1471, and claimant to the French throne from 1422 to 1453 under the terms of the Treaty of Troyes.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/henry-vi-of-england.jpg",
   "image_credit": "anonymous · Public domain",
   "image_kind": "Later depiction",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Henry VI (6 December 1421 – 21 May 1471) was King of England from 1422 to 1461 and again from 1470 to 1471, and claimant to the French throne from 1422 to 1453 under the terms of the Treaty of Troyes. He became king of England at the age of nine months,  following the death of his father, Henry V, and inherited the French claim upon the death of his maternal grandfather, Charles VI of France.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.60416667,
+        51.48333333
+      ],
+      "year": 1421
+    }
   }
 }

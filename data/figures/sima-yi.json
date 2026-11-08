@@ -21,6 +21,7 @@
   ],
   "contribution": "A Chinese military general, politician, and regent of the state of Cao Wei during the Three Kingdoms period of China.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/sima-yi.jpg",
   "image_credit": "Ming Zhu Tianran · Public domain",
   "image_kind": "Depiction",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Han Dynasty"
+      ],
+      "born_in": [
+        "Han Dynasty"
       ]
     },
     "lead": "Sima Yi (; Chinese: 司馬懿; 179 CE – 7 September 251 CE), courtesy name Zhongda, was a Chinese military general, politician, and regent of the state of Cao Wei during the Three Kingdoms period of China.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        113.0807,
+        34.9397
+      ],
+      "year": 179
+    }
   }
 }

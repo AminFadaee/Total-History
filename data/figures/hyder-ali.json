@@ -19,6 +19,7 @@
   ],
   "contribution": "The sultan and de facto ruler of the Sultanate of Mysore in southern India.",
   "setting": "",
+  "modern_country": "",
   "image": "images/hyder-ali.jpg",
   "image_credit": "user:Anetode · Public domain",
   "image_kind": "Depiction",
@@ -37,10 +38,18 @@
       ],
       "citizenship": [
         "Kingdom of Mysore"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Hyder Ali (Haidar'alī; حيدرعلى; Kannada: [hɐi̯d̪ɐr ɐliː] c. 1720 – 7 December 1782), historical anglicized spelling Hyde Ally Cawn, was the sultan and de facto ruler of the Sultanate of Mysore in southern India. He distinguished himself as a soldier, eventually drawing the attention of Mysore's rulers. Rising to the post of Dalavayi (commander-in-chief) to Krishnaraja Wodeyar II, he came to dominate the titular monarch and the Mysore government. He became the de facto ruler of Mysore as Sarvadhikari (Chief Minister) by 1761, and served as its primary military leader in intermittent conflicts against the East India Company during the first and second Anglo-Mysore wars.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        78.13333333,
+        12.9
+      ],
+      "year": 1720
+    }
   }
 }

@@ -3,7 +3,7 @@
   "slug": "guglielmo-marconi",
   "name": "Guglielmo Marconi",
   "wikipedia": "Guglielmo Marconi",
-  "role": "Italian electrical engineer and inventor",
+  "role": "Italian radio-frequency engineer and inventor",
   "life": "1874–1937",
   "lifetime": [
     1874,
@@ -15,8 +15,9 @@
     "Kingdom of Italy"
   ],
   "related": [],
-  "contribution": "An Italian electrical engineer, inventor, and politician known for his creation of a practical radio wave-based wireless telegraph system.",
+  "contribution": "An Italian radio-frequency engineer, inventor, and politician known for his creation of a practical radio wave-based wireless telegraph system.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/guglielmo-marconi.jpg",
   "image_credit": "Pach Brothers · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Italy"
+      ],
+      "born_in": [
+        "Kingdom of Italy"
       ]
     },
-    "lead": "Guglielmo Giovanni Maria Marconi, 1st Marquess of Marconi (25 April 1874 – 20 July 1937), was an Italian electrical engineer, inventor, and politician known for his creation of a practical radio wave-based wireless telegraph system. This led to his being largely credited as the inventor of radio and sharing the 1909 Nobel Prize in Physics with Ferdinand Braun \"in recognition of their contributions to the development of wireless telegraphy.\"",
+    "lead": "Guglielmo Giovanni Maria Marconi, 1st Marquess (25 April 1874 – 20 July 1937), was an Italian radio-frequency engineer, inventor, and politician known for his creation of a practical radio wave-based wireless telegraph system. This led to his being largely credited as the inventor of radio and sharing the 1909 Nobel Prize in Physics with Ferdinand Braun \"in recognition of their contributions to the development of wireless telegraphy.\"",
     "image": "",
-    "photo": "model 0.98, one person 0.99, in Category:Black and white portrait photographs of male scientists"
+    "photo": "model 0.98, one person 0.99, in Category:Black and white portrait photographs of male scientists",
+    "birth": {
+      "location": [
+        11.34277778,
+        44.49388889
+      ],
+      "year": 1874
+    }
   }
 }

@@ -20,6 +20,7 @@
   ],
   "contribution": "The sixth Mughal emperor, reigning from 1658 until his death in 1707.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/aurangzeb.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Alamgir I (Muhi al-Din Muhammad; 3 November 1618 – 3 March 1707), commonly known by the title Aurangzeb, was the sixth Mughal emperor, reigning from 1658 until his death in 1707. Under his reign, the Mughal Empire reached its greatest extent, with territory spanning nearly the entirety of the Indian subcontinent.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        74.25555556,
+        22.83472222
+      ],
+      "year": 1618
+    }
   }
 }

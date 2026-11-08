@@ -19,6 +19,7 @@
   ],
   "contribution": "The ninth emperor of the Aztec Empire, reigning from 1502 or 1503 to 1520.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/moctezuma-ii.jpg",
   "image_credit": "attributed to Antonio Rodriguez (1636-1691) · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Aztec Triple Alliance"
+      ],
+      "born_in": [
+        "Aztec Triple Alliance"
       ]
     },
     "lead": "Moctezuma Xocoyotzin (c. 1466 – 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives, he was also the king consort of the altepetl.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -99.13333333,
+        19.43333333
+      ],
+      "year": 1466
+    }
   }
 }

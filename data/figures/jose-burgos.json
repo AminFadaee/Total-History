@@ -19,6 +19,7 @@
   ],
   "contribution": "A Filipino Catholic priest, accused of mutiny by the Spanish colonial authorities in the Philippines in the 19th century.",
   "setting": "",
+  "modern_country": "Philippines",
   "image": "images/jose-burgos.jpg",
   "image_credit": "Honorio Lopez · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "José Apolonio Burgos y García (February 9, 1837 – February 17, 1872) was a Filipino Catholic priest, accused of mutiny by the Spanish colonial authorities in the Philippines in the 19th century. He was tried and executed in Manila along with two other clergymen, Mariano Gomez and Jacinto Zamora, who are collectively known as the Gomburza.",
     "image": "",
-    "photo": "model 0.94, one person 0.95"
+    "photo": "model 0.94, one person 0.95",
+    "birth": {
+      "location": [
+        120.38694,
+        17.57472
+      ],
+      "year": 1837
+    }
   }
 }

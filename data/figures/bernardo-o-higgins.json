@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "A Chilean military officer, statesman and a major leader of Chile's successful struggle for independence from the Spanish Empire.",
   "setting": "",
+  "modern_country": "Chile",
   "image": "images/bernardo-o-higgins.jpg",
   "image_credit": "José Gil de Castro · Public domain",
   "image_kind": "Later depiction",
@@ -30,8 +31,8 @@
         "Republic of Chile"
       ],
       "death": [
-        "Republic of Peru",
-        "Spanish Empire"
+        "Spanish Empire",
+        "Republic of Peru"
       ],
       "lead": [
         "Spanish Empire"
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Bernardo O'Higgins Riquelme (Spanish pronunciation: [beɾˈnaɾðo oˈ(x)iɣins] ; 20 August 1778 – 24 October 1842) was a Chilean military officer, statesman and a major leader of Chile's successful struggle for independence from the Spanish Empire. He was the second Supreme Director of Chile from 1817 to 1823, the first holder of the title to head a fully independent Chilean state, and is considered one of Chile's founding fathers.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -72.11666667,
+        -36.6
+      ],
+      "year": 1778
+    }
   }
 }

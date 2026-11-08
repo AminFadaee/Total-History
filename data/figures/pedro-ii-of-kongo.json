@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Born around 1575 and died on April 13, 1624.",
   "setting": "",
+  "modern_country": "Angola",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "lead": [
         "Kingdom of Kongo"
+      ],
+      "born_in": [
+        "Kingdom of Kongo"
       ]
     },
     "lead": "Pedro II Nkanga a Mvika (Nkanga a Mbika lua Ntumba a Mwemba in Kikongo and D. Pedro II Afonso in Portuguese) was born around 1575 and died on April 13, 1624. He is a descendant of King Alfonso I of Kongo on his mother's side and reigned from 1622 to 1624. He is the first king of the Kongo kingdom of the Kanda Nkanga lineage in Mvika or Kinkanga known as the House of Nsundi. Pedro II was a ruler of the Kingdom of Kongo during the kingdom's first conflict with the Portuguese. He was succeeded by his son Garcia I, who was crowned in 1624.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        14.25,
+        -6.2666666666667
+      ],
+      "year": 1575
+    }
   }
 }

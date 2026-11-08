@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The king of the Zulu Kingdom from 1873 to 1884 and its Commander in Chief during the Anglo-Zulu War of 1879.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/cetshwayo.jpg",
   "image_credit": "Original uploader was Humansdorpie at en.wikipedia · Public domain",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Zululand"
+      ],
+      "born_in": [
+        "Zululand"
       ]
     },
-    "lead": "Cetshwayo kaMpande (; Zulu pronunciation: [ᵏǀétʃwajo kámpande]; c. 1826 – 8 February 1884) was the king of the Zulu Kingdom from 1873 to 1884 and its Commander in Chief during the Anglo-Zulu War of 1879. His name has been rendered as Cetywayo, Cetewayo or Cetshwayo. Cetshwayo consistently opposed the war and sought fruitlessly to make peace with the British and was defeated and exiled following the Zulu defeat in the war. He was later allowed to return to Zululand, where he died in 1884.",
+    "lead": "Cetshwayo kaMpande (; Zulu pronunciation: [ᵏǀétʃwajo kámpande]; c. 1826 – 8 February 1884) was the king of the Zulu Kingdom from 1873 to 1884 and its Commander in Chief during the Anglo-Zulu War of 1879. His name has been rendered as Cetywayo, Cetewayo or Cetshwayo. Cetshwayo consistently opposed the war, sought fruitlessly to make peace with the British, and was defeated and exiled following the Zulu defeat in the war. He was later allowed to return to Zululand, where he died in 1884.",
     "image": "",
-    "photo": "model 0.89, one person 0.93, in Category:Black and white photographs of men wearing hats"
+    "photo": "model 0.89, one person 0.93, in Category:Black and white photographs of men wearing hats",
+    "birth": {
+      "location": [
+        31.44833333,
+        -28.88833333
+      ],
+      "year": 1826
+    }
   }
 }

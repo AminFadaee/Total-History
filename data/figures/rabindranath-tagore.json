@@ -15,8 +15,9 @@
     "British Raj"
   ],
   "related": [],
-  "contribution": "A Bengali poet, author, playwright, musician, composer, philosopher, social reformer, painter, and one of the foremost figures of the Bengal Renaissance.",
+  "contribution": "A Bengali polymath - who worked as a poet, author, playwright, musician, composer, philosopher, social reformer, painter, and was one of the foremost figures of the Bengal Renaissance.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/rabindranath-tagore.jpg",
   "image_credit": "Generalstabens litografiska anstalt · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "British Raj"
+      ],
+      "born_in": [
+        "British Raj"
       ]
     },
-    "lead": "Rabindranath Tagore  (Bengali: [ˈrobind̪ɾonat̪ʰ ˈʈʰakuɾ] ; 7 May 1861 – 7 August 1941) was a Bengali poet, author, playwright, musician, composer, philosopher, social reformer, painter, and one of the foremost figures of the Bengal Renaissance. In 1913, Tagore became the first Indian and non-European to win a Nobel Prize in any category, and also the first lyricist to win the Nobel Prize in Literature. A significant moulder of culture within Bengal and the Indian subcontinent, he wrote and composed the national anthems of India and Bangladesh.",
+    "lead": "Rabindranath Tagore (Bengali: [ˈrobind̪ɾonat̪ʰ ˈʈʰakuɾ] ; 7 May 1861 – 7 August 1941) was a Bengali polymath - who worked as a poet, author, playwright, musician, composer, philosopher, social reformer, painter, and was one of the foremost figures of the Bengal Renaissance. In 1913, Tagore became the first Indian and non-European to win a Nobel Prize in any category, and also the first lyricist to win the Nobel Prize in Literature. A significant moulder of culture within Bengal and the Indian subcontinent, he wrote and composed the national anthems of India and Bangladesh.",
     "image": "",
-    "photo": "model 0.81, one person 0.98, captured 1909, during their lifetime"
+    "photo": "model 0.81, one person 0.98, captured 1909, during their lifetime",
+    "birth": {
+      "location": [
+        88.37,
+        22.5675
+      ],
+      "year": 1861
+    }
   }
 }

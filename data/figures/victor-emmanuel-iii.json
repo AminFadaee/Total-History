@@ -21,6 +21,7 @@
   ],
   "contribution": "King of Italy from 29 July 1900 until his abdication on 9 May 1946.",
   "setting": "",
+  "modern_country": "",
   "image": "images/victor-emmanuel-iii.jpg",
   "image_credit": "Mario Nunes Vais · Public domain",
   "image_kind": "Photograph",
@@ -45,10 +46,18 @@
       "citizenship": [
         "Republic of Italy",
         "Kingdom of Italy"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Victor Emmanuel III (Italian: Vittorio Emanuele Ferdinando Maria Gennaro di Savoia; 11 November 1869 – 28 December 1947) was King of Italy from 29 July 1900 until his abdication on 9 May 1946. A member of the House of Savoy, he also reigned as Emperor of Ethiopia from 1936 to 1941 and King of the Albanians from 1939 to 1943, following the Italian invasions of Ethiopia and Albania. During his reign of nearly 46 years, which began after the assassination of his father Umberto I, the Kingdom of Italy became involved in World War I and in World War II. His reign also encompassed the birth, rise, and fall of the Fascist regime.",
+    "lead": "Victor Emmanuel III (Italian: Vittorio Emanuele Ferdinando Maria Gennaro di Savoia; 11 November 1869 – 28 December 1947) was King of Italy from 29 July 1900 until his abdication on 9 May 1946. A member of the House of Savoy, he was also King-Emperor of Italian East Africa (status within Ethiopia disputed) from 1936 to 1941 following the Second Italo-Ethiopian War and King of the Albanians from 1939 to 1943 following the Italian invasion of Albania. During his reign of nearly 46 years, which began after the assassination of his father Umberto I, the Kingdom of Italy became involved in World War I and in World War II. His reign also encompassed the birth, rise, and fall of the Fascist regime.",
     "image": "",
-    "photo": "model 0.84, one person 0.93, in Category:Portrait photographs of Victor Emmanuel III of Italy"
+    "photo": "model 0.84, one person 0.93, in Category:Portrait photographs of Victor Emmanuel III of Italy",
+    "birth": {
+      "location": [
+        14.25,
+        40.83333333
+      ],
+      "year": 1869
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Chinese literatus, scholar-official, poet, writer, calligrapher, painter and gastronomist of the Song dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/su-shi.jpg",
   "image_credit": "Zhao Mengfu · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Song dynasty"
+      ],
+      "born_in": [
+        "Song dynasty"
       ]
     },
     "lead": "Su Shi (Chinese: 蘇軾; 8 January 1037 – 24 August 1101), courtesy name Zizhan (子瞻), art name Householder Dongpo (東坡居士), was a Chinese literatus, scholar-official, poet, writer, calligrapher, painter and gastronomist of the Song dynasty. Born into a prominent literary family in Meizhou, he was the son of Su Xun and brother of Su Zhe. Despite ambitions for high office, he became a repeated target in factional struggles between reformers and conservatives at the court, and he spent much of his career in exile, periods during which his literary output flourished.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        103.8484,
+        30.0771
+      ],
+      "year": 1037
+    }
   }
 }

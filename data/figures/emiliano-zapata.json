@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Mexican revolutionary and guerrilla leader.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/emiliano-zapata.jpg",
   "image_credit": "Agustín Casasola · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Mexico"
+      ],
+      "born_in": [
+        "Mexico"
       ]
     },
     "lead": "Emiliano Zapata Salazar (Latin American Spanish: [emiˈljano saˈpata]; 8 August 1879 – 10 April 1919) was a Mexican revolutionary and guerrilla leader. He was a leading figure in the Mexican Revolution of 1910–1920, the main leader of the people's revolution in the Mexican state of Morelos, and the inspiration of the agrarian movement called Zapatismo.",
     "image": "",
-    "photo": "model 0.93, one person 0.98, in Category:Black and white photographs of men looking at viewer"
+    "photo": "model 0.93, one person 0.98, in Category:Black and white photographs of men looking at viewer",
+    "birth": {
+      "location": [
+        -98.985,
+        18.77805556
+      ],
+      "year": 1879
+    }
   }
 }

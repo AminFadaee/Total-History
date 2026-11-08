@@ -15,8 +15,9 @@
     "Spanish Empire"
   ],
   "related": [],
-  "contribution": "A Peruvian lay brother of the Dominican Order who was beatified in 1837 by Pope Gregory XVI and canonized in 1962 by Pope John XXIII. He is the patron saint of Black people, mixed-race people, barbers, innkeepers, public health workers, all those seeking racial harmony, and animals.",
+  "contribution": "A Peruvian, pharmacist, barber, nurse and lay brother of the Dominican Order.",
   "setting": "",
+  "modern_country": "Peru",
   "image": "images/martin-de-porres.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
-    "lead": "Martín de Porras Velázquez  (9 December 1579 – 3 November 1639) was a Peruvian lay brother of the Dominican Order who was beatified in 1837 by Pope Gregory XVI and canonized in 1962 by Pope John XXIII. He is the patron saint of Black people, mixed-race people, barbers, innkeepers, public health workers, all those seeking racial harmony, and animals.",
+    "lead": "Martín de Porras Velázquez  (9 December 1579 – 3 November 1639) was a Peruvian, pharmacist, barber, nurse and lay brother of the Dominican Order. Born to a Spanish nobleman and formerly enslaved Black woman, he entered the Dominicans in 1603 and was known for his work on behalf of the poor, establishing an orphanage and a children's hospital. He also maintained an austere lifestyle, which included fasting and abstaining from meat.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -77.0375,
+        -12.06
+      ],
+      "year": 1579
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "",
   "setting": "",
+  "modern_country": "Afghanistan",
   "image": "images/abul-qasim-babur-mirza.jpg",
   "image_credit": "1552 artist · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Timurid Empire"
+      ],
+      "born_in": [
+        "Timurid Empire"
       ]
     },
     "lead": "Abul-Qasim Babur Mirza (Persian: ابوالقاسم بابر میرزا بن بایسنقر بیگ), was a Timurid ruler in Khurasan (1449–1457). He was the son of Ghiyath-ud-din Baysunghur ibn Shah Rukh Mirza, and thus a great-grandson of Amir Timur.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        62.20305556,
+        34.34194444
+      ],
+      "year": 1422
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "During his reign, Christian formed close ties between the church and the crown.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/christian-iii-of-denmark.jpg",
   "image_credit": "Not stated. · Public domain",
   "image_kind": "Depiction",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Kalmar Union"
+      ],
+      "born_in": [
+        "Kalmar Union"
       ]
     },
     "lead": "Christian III (12 August 1503 – 1 January 1559) reigned as King of Denmark from 1534 and King of Norway from 1537 until his death in 1559. During his reign, Christian formed close ties between the church and the crown. He  established Lutheranism  as the state religion within  his realms as part of the Protestant Reformation, and was the first King of Denmark–Norway.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        9.54138889,
+        54.51166667
+      ],
+      "year": 1503
+    }
   }
 }

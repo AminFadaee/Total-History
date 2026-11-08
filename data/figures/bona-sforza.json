@@ -20,6 +20,7 @@
   ],
   "contribution": "Queen of Poland and Grand Duchess of Lithuania as the second wife of Sigismund I the Old, and Duchess of Bari and Rossano in her own right.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/bona-sforza.jpg",
   "image_credit": "Lucas Cranach the Younger · Public domain",
   "image_kind": "Portrait from life",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Duchy of Milan"
+      ],
+      "born_in": [
+        "Duchy of Milan"
       ]
     },
     "lead": "Bona Sforza (2 February 1494 – 19 November 1557) was Queen of Poland and Grand Duchess of Lithuania as the second wife of Sigismund I the Old, and Duchess of Bari and Rossano in her own right. She was a surviving member of the powerful House of Sforza, which had ruled the Duchy of Milan since 1450.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        8.86666667,
+        45.31666667
+      ],
+      "year": 1494
+    }
   }
 }

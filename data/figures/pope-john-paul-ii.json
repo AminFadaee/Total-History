@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "The head of the Catholic Church and sovereign of Vatican City from 16 October 1978 until his death in 2005.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/pope-john-paul-ii.jpg",
   "image_credit": "Unknown author · CC BY 3.0 pl",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Second Polish Republic"
+      ],
+      "born_in": [
+        "Second Polish Republic"
       ]
     },
     "lead": "Pope John Paul II (born Karol Józef Wojtyła; 18 May 1920 – 2 April 2005) was the head of the Catholic Church and sovereign of Vatican City from 16 October 1978 until his death in 2005. He was the first non-Italian pope since Adrian VI in the 16th century, as well as the third longest-serving pope in history, after St. Peter and Pius IX. In addition to this, he was an important philosopher and theologian of the 20th century.",
     "image": "",
-    "photo": "Pope John Paul II smile.jpg: model 0.80, one person 0.99; Pope John Paul II funeral dignitaries.png: model 0.83, one person 0.00; John Paul II plaque Lodz.jpg: model 0.04, one person 0.81; EFTA00001346 - Wooden desk adorned with framed photographs and personal memorabilia showcasing cherished memories in a warmly lit room.jpg: model 0.85, one person 0.13, classified as a photograph on Commons; Lele Mora indossa giacca con polso gemello ''Modello Lele Mora''.jpg: model 0.31, one person 0.17; Папамобиль (Маяк Колумба).JPG: model 0.82, one person 0.02, classified as a photograph on Commons; Maria Wiadrowska.JPG: model 0.98, one person 0.23; A drizzly day for the vigil (2328666877).jpg: model 0.42, one person 0.41, classified as a photograph on Commons; Introd Croix de bouque.jpg: model 0.18, one person 0.17; Soszëca (1).jpg: model 0.07, one person 0.00"
+    "photo": "Pope John Paul II smile.jpg: model 0.80, one person 0.99; Pope John Paul II funeral dignitaries.png: model 0.83, one person 0.00; John Paul II plaque Lodz.jpg: model 0.04, one person 0.81; EFTA00001346 - Wooden desk adorned with framed photographs and personal memorabilia showcasing cherished memories in a warmly lit room.jpg: model 0.85, one person 0.13, classified as a photograph on Commons; Lele Mora indossa giacca con polso gemello ''Modello Lele Mora''.jpg: model 0.31, one person 0.17; Папамобиль (Маяк Колумба).JPG: model 0.82, one person 0.02, classified as a photograph on Commons; Maria Wiadrowska.JPG: model 0.98, one person 0.23; A drizzly day for the vigil (2328666877).jpg: model 0.42, one person 0.41, classified as a photograph on Commons; Introd Croix de bouque.jpg: model 0.18, one person 0.17; Soszëca (1).jpg: model 0.07, one person 0.00",
+    "birth": {
+      "location": [
+        19.5,
+        49.88333333
+      ],
+      "year": 1920
+    }
   }
 }

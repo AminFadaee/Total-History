@@ -20,6 +20,7 @@
   ],
   "contribution": "The Sultan of Hindustan also known by his title Sultan Adil, as the first Sur Emperor, from 1540 until his death in 1545.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/sher-shah-suri.jpg",
   "image_credit": "Court painters of Mughal emperor Akbar · Public domain",
   "image_kind": "Later depiction",
@@ -40,10 +41,18 @@
       ],
       "citizenship": [
         "Sur Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Farid al-Din Sher Shah (Farid Khan Sur; 1472/1486 – 22 May 1545), better known as Sher Shah Suri, was the Sultan of Hindustan also known by his title Sultan Adil (lit. 'the Just King'), as the first Sur Emperor, from 1540 until his death in 1545. Prior to his ascension, he also served as the regent, and later Sultan of Bihar (1530–1540) and Bengal (1538–1540). He established the Sur Empire after defeating the Mughal Empire and declaring Delhi his seat of power. The influence of his innovations and reforms extended far beyond his brief reign, being recognized as one of the greatest administrative rulers in India. Sher Shah is renowned as one of the most skillful Afghan generals in history, and by the end of his reign, his empire covered nearly all of Northern India.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        84.03,
+        24.95
+      ],
+      "year": 1486
+    }
   }
 }

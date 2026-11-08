@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian Dominican friar and priest, theologian, and philosopher.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/thomas-aquinas.jpg",
   "image_credit": "Carlo Crivelli · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Papal States"
+      ],
+      "born_in": [
+        "Papal States"
       ]
     },
-    "lead": "Thomas Aquinas  (  ə-KWY-nəs; Italian: Tommaso d'Aquino, lit. 'Thomas of Aquino'; c. 1225 – 7 March 1274) was an Italian Dominican friar and priest, theologian, and philosopher. He is considered one of the most influential thinkers in the history of Catholic theology and Western philosophy. He is the father of a school of thought (encompassing both theology and philosophy) known as Thomism.",
+    "lead": "Thomas Aquinas (  ə-KWY-nəs; Italian: Tommaso d'Aquino, lit. 'Thomas of Aquino'; c. 1225 – 7 March 1274) was an Italian Dominican friar and priest, theologian, and philosopher. He is considered one of the most influential thinkers in the history of Catholic theology and Western philosophy. He is the father of a school of thought (encompassing both theology and philosophy) known as Thomism.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.66666667,
+        41.55
+      ],
+      "year": 1225
+    }
   }
 }

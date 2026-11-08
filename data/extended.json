@@ -1,10 +1,5 @@
 [
   {
-    "id": "Q102105",
-    "name": "Pope Liberius",
-    "civilization": "Roman Empire"
-  },
-  {
     "id": "Q1045777",
     "name": "Alikhan Bukeikhanov",
     "civilization": "Union of Soviet Socialist Republics"
@@ -37,7 +32,7 @@
   {
     "id": "Q106615",
     "name": "Hermann Kallenbach",
-    "civilization": "South Africa"
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q107405",
@@ -95,6 +90,11 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q11270",
+    "name": "Fulgencio Batista",
+    "civilization": "United States of America"
+  },
+  {
     "id": "Q11338377",
     "name": "Homer Hoyt",
     "civilization": "United States of America"
@@ -110,9 +110,14 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q11813",
-    "name": "James Madison",
+    "id": "Q11682576",
+    "name": "Umbrella man (JFK assassination)",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q11754587",
+    "name": "Leonor De Ovando",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q11815",
@@ -120,19 +125,14 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q11816",
-    "name": "John Quincy Adams",
-    "civilization": "United States of America"
-  },
-  {
-    "id": "Q11817",
-    "name": "Andrew Jackson",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q11820",
     "name": "Martin Van Buren",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q11867310",
+    "name": "Juana de la Concepción",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q11869",
@@ -155,9 +155,9 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q120180",
-    "name": "Alexander III of Russia",
-    "civilization": "Russian Empire"
+    "id": "Q1220481",
+    "name": "Diego José Abad",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q12238749",
@@ -190,19 +190,14 @@
     "civilization": "Kingdom of Italy"
   },
   {
-    "id": "Q12419221",
-    "name": "Kamran Mirza",
-    "civilization": "Mughal Empire"
+    "id": "Q1234066",
+    "name": "Julián del Casal",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q1243799",
     "name": "Dorzhi Banzarov",
     "civilization": "Russian Empire"
-  },
-  {
-    "id": "Q1246390",
-    "name": "John Witherspoon",
-    "civilization": "United States of America"
   },
   {
     "id": "Q1247204",
@@ -215,14 +210,19 @@
     "civilization": "Mali Empire"
   },
   {
+    "id": "Q1264",
+    "name": "U Thant",
+    "civilization": "British Raj"
+  },
+  {
+    "id": "Q1271624",
+    "name": "Dudjom Lingpa",
+    "civilization": "Qing Dynasty"
+  },
+  {
     "id": "Q1273998",
     "name": "Norman Lindsay",
     "civilization": "Commonwealth of Australia"
-  },
-  {
-    "id": "Q127417",
-    "name": "Douglas MacArthur",
-    "civilization": "United States of America"
   },
   {
     "id": "Q12832310",
@@ -245,19 +245,19 @@
     "civilization": "South Africa"
   },
   {
+    "id": "Q1288566",
+    "name": "Len Lye",
+    "civilization": "British Empire"
+  },
+  {
+    "id": "Q129187",
+    "name": "Patrick White",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q13021",
     "name": "Vinoba Bhave",
     "civilization": "British Raj"
-  },
-  {
-    "id": "Q130734",
-    "name": "Nicholas I of Russia",
-    "civilization": "Russian Empire"
-  },
-  {
-    "id": "Q130752",
-    "name": "Elizabeth of Russia",
-    "civilization": "Russian Empire"
   },
   {
     "id": "Q130777",
@@ -275,18 +275,13 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
+    "id": "Q13175191",
+    "name": "Kasymbek Yeshmambetov",
+    "civilization": "Russian Empire"
+  },
+  {
     "id": "Q131805",
     "name": "John Dewey",
-    "civilization": "United States of America"
-  },
-  {
-    "id": "Q132524",
-    "name": "Ayn Rand",
-    "civilization": "United States of America"
-  },
-  {
-    "id": "Q132537",
-    "name": "J. Robert Oppenheimer",
     "civilization": "United States of America"
   },
   {
@@ -297,12 +292,17 @@
   {
     "id": "Q1327040",
     "name": "Ron Randell",
-    "civilization": "United States of America"
+    "civilization": "Commonwealth of Australia"
   },
   {
     "id": "Q132964",
     "name": "Vladimir Mayakovsky",
     "civilization": "Russian Empire"
+  },
+  {
+    "id": "Q1336397",
+    "name": "J. G. A. Pocock",
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q1340595",
@@ -365,16 +365,6 @@
     "civilization": "South Africa"
   },
   {
-    "id": "Q1373534",
-    "name": "Eugène Marais",
-    "civilization": "South Africa"
-  },
-  {
-    "id": "Q1375885",
-    "name": "Cornelis Jacobus Langenhoven",
-    "civilization": "South Africa"
-  },
-  {
     "id": "Q1378325",
     "name": "Juan O'Gorman",
     "civilization": "Mexico"
@@ -383,11 +373,6 @@
     "id": "Q137865",
     "name": "Adolfo de la Huerta",
     "civilization": "Mexico"
-  },
-  {
-    "id": "Q1379164",
-    "name": "Taqi ad-Din Muhammad ibn Ma'ruf",
-    "civilization": "Ottoman Empire"
   },
   {
     "id": "Q1382174",
@@ -405,6 +390,16 @@
     "civilization": "Commonwealth of Australia"
   },
   {
+    "id": "Q1389209",
+    "name": "Gregoria Apaza",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q1390901",
+    "name": "Leander Starr Jameson",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q1391934",
     "name": "Sobir Kamolov",
     "civilization": "Union of Soviet Socialist Republics"
@@ -418,6 +413,11 @@
     "id": "Q1395763",
     "name": "Lala Lajpat Rai",
     "civilization": "British Raj"
+  },
+  {
+    "id": "Q14174183",
+    "name": "Akali Phula Singh",
+    "civilization": "Durrani Empire"
   },
   {
     "id": "Q142582",
@@ -455,31 +455,6 @@
     "civilization": "Mexico"
   },
   {
-    "id": "Q150312",
-    "name": "Amrita Sher-Gil",
-    "civilization": "British Raj"
-  },
-  {
-    "id": "Q151781",
-    "name": "Ivan VI of Russia",
-    "civilization": "Russian Empire"
-  },
-  {
-    "id": "Q151789",
-    "name": "Peter III of Russia",
-    "civilization": "Russian Empire"
-  },
-  {
-    "id": "Q15189",
-    "name": "Paul I of Russia",
-    "civilization": "Russian Empire"
-  },
-  {
-    "id": "Q15208",
-    "name": "Catherine I of Russia",
-    "civilization": "Russian Empire"
-  },
-  {
     "id": "Q152293",
     "name": "Aram Khachaturian",
     "civilization": "Union of Soviet Socialist Republics"
@@ -490,19 +465,24 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q152441",
+    "name": "Janusz Korczak",
+    "civilization": "Russian Empire"
+  },
+  {
     "id": "Q152505",
     "name": "Leonard Bernstein",
     "civilization": "United States of America"
   },
   {
-    "id": "Q152524",
-    "name": "Robert Capa",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q1528405",
     "name": "Joh Bjelke-Petersen",
-    "civilization": "Commonwealth of Australia"
+    "civilization": "British Empire"
+  },
+  {
+    "id": "Q152880",
+    "name": "Iannis Xenakis",
+    "civilization": "Kingdom of Romania"
   },
   {
     "id": "Q153224",
@@ -510,24 +490,14 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
-    "id": "Q154232",
-    "name": "Alexander Suvorov",
-    "civilization": "Russian Empire"
-  },
-  {
-    "id": "Q154240",
-    "name": "Yemelyan Pugachev",
-    "civilization": "Russian Empire"
+    "id": "Q154423",
+    "name": "Maud of Wales",
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q15456368",
     "name": "Dominick Labino",
     "civilization": "United States of America"
-  },
-  {
-    "id": "Q154732",
-    "name": "Agrippina the Younger",
-    "civilization": "Roman Empire"
   },
   {
     "id": "Q15492494",
@@ -540,14 +510,14 @@
     "civilization": "British Raj"
   },
   {
+    "id": "Q15516821",
+    "name": "Lyman Wight",
+    "civilization": "United States of America"
+  },
+  {
     "id": "Q15545218",
     "name": "Shahverdi Sultan",
     "civilization": "Safavid Dynasty"
-  },
-  {
-    "id": "Q156026",
-    "name": "Alexander Danilovich Menshikov",
-    "civilization": "Russian Empire"
   },
   {
     "id": "Q156501",
@@ -565,14 +535,14 @@
     "civilization": "Kingdom of Kongo"
   },
   {
-    "id": "Q159651",
-    "name": "Anna Leopoldovna",
-    "civilization": "Russian Empire"
-  },
-  {
     "id": "Q15999639",
     "name": "Müşfika Kadın",
     "civilization": "Ottoman Empire"
+  },
+  {
+    "id": "Q16010139",
+    "name": "Heman Marion Sweatt",
+    "civilization": "United States of America"
   },
   {
     "id": "Q16010494",
@@ -580,24 +550,19 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q160165",
-    "name": "Anna of Russia",
-    "civilization": "Russian Empire"
-  },
-  {
     "id": "Q160534",
     "name": "Jack Kerouac",
     "civilization": "United States of America"
   },
   {
+    "id": "Q1607143",
+    "name": "Henry Parkes",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q16087368",
     "name": "Fatima Kuinova",
     "civilization": "United States of America"
-  },
-  {
-    "id": "Q161775",
-    "name": "Saint Stephen",
-    "civilization": "Roman Empire"
   },
   {
     "id": "Q1618",
@@ -610,19 +575,24 @@
     "civilization": "Kingdom of Italy"
   },
   {
+    "id": "Q16197490",
+    "name": "Billy Blue",
+    "civilization": "British Empire"
+  },
+  {
     "id": "Q16272732",
     "name": "Sabira Ataeva",
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
+    "id": "Q1634986",
+    "name": "Juan Bautista Pomar",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q16368790",
     "name": "Hossein Beg Laleh Shamlu",
     "civilization": "Safavid Dynasty"
-  },
-  {
-    "id": "Q164294",
-    "name": "Saint Anne",
-    "civilization": "Roman Empire"
   },
   {
     "id": "Q164396",
@@ -640,6 +610,21 @@
     "civilization": "Kingdom of Italy"
   },
   {
+    "id": "Q1650226",
+    "name": "Mateo Pumacahua",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q1650877",
+    "name": "Pedro de Oña",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q16527037",
+    "name": "Albert Barnes Steinberger",
+    "civilization": "United States of America"
+  },
+  {
     "id": "Q165448",
     "name": "Drusus Caesar",
     "civilization": "Roman Empire"
@@ -650,14 +635,9 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q165648",
-    "name": "Arshile Gorky",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q167073",
     "name": "Eero Saarinen",
-    "civilization": "United States of America"
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q1672181",
@@ -675,6 +655,11 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
+    "id": "Q1679327",
+    "name": "Jacob ben Aaron Sasportas",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q1679925",
     "name": "James Emman Kwegyir Aggrey",
     "civilization": "United States of America"
@@ -685,9 +670,14 @@
     "civilization": "Kingdom of Kongo"
   },
   {
-    "id": "Q169566",
-    "name": "H. P. Lovecraft",
-    "civilization": "United States of America"
+    "id": "Q16859569",
+    "name": "Arthur Bowes Smyth",
+    "civilization": "Kingdom of Great Britain"
+  },
+  {
+    "id": "Q170068",
+    "name": "Akseli Gallen-Kallela",
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q1700787",
@@ -705,9 +695,14 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
-    "id": "Q17135",
-    "name": "Soong Mei-ling",
+    "id": "Q1712338",
+    "name": "Julio Antonio Mella",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q172256",
+    "name": "Antonio Ruiz de Montoya",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q172911",
@@ -720,24 +715,14 @@
     "civilization": "Lanna Kingdom"
   },
   {
-    "id": "Q17455",
-    "name": "John von Neumann",
-    "civilization": "United States of America"
+    "id": "Q17579",
+    "name": "Tsutomu Yamaguchi",
+    "civilization": "Empire of Japan"
   },
   {
-    "id": "Q175811",
-    "name": "Amyntas IV",
-    "civilization": "Macedonia"
-  },
-  {
-    "id": "Q177980",
-    "name": "Aemilianus",
-    "civilization": "Roman Empire"
-  },
-  {
-    "id": "Q178698",
-    "name": "W. H. Auden",
-    "civilization": "United States of America"
+    "id": "Q1789869",
+    "name": "Chica da Silva",
+    "civilization": "Portuguese Empire"
   },
   {
     "id": "Q179277",
@@ -755,9 +740,9 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q182123",
-    "name": "Irenaeus",
-    "civilization": "Roman Empire"
+    "id": "Q18222035",
+    "name": "Edward James Glave",
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q18233214",
@@ -775,19 +760,14 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
-    "id": "Q184634",
-    "name": "Boudica",
-    "civilization": "Roman Empire"
+    "id": "Q18388891",
+    "name": "E. R. Moon",
+    "civilization": "United States of America"
   },
   {
-    "id": "Q185117",
-    "name": "Justin Martyr",
-    "civilization": "Roman Empire"
-  },
-  {
-    "id": "Q185801",
-    "name": "Mikhail Kutuzov",
-    "civilization": "Russian Empire"
+    "id": "Q184563",
+    "name": "Shin'ichirō Tomonaga",
+    "civilization": "Empire of Japan"
   },
   {
     "id": "Q185965",
@@ -802,6 +782,11 @@
   {
     "id": "Q187149",
     "name": "Umberto II of Italy",
+    "civilization": "Kingdom of Italy"
+  },
+  {
+    "id": "Q187336",
+    "name": "Giuseppe Mazzini",
     "civilization": "Kingdom of Italy"
   },
   {
@@ -845,14 +830,14 @@
     "civilization": "Russian Empire"
   },
   {
+    "id": "Q189766",
+    "name": "Luigi Boccherini",
+    "civilization": "Habsburg Monarchy"
+  },
+  {
     "id": "Q191789",
     "name": "Martha Washington",
     "civilization": "United States of America"
-  },
-  {
-    "id": "Q192712",
-    "name": "Kai Siegbahn",
-    "civilization": "Kingdom of Sweden"
   },
   {
     "id": "Q193018",
@@ -880,9 +865,19 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q198770",
-    "name": "Said Nursi",
-    "civilization": "Ottoman Empire"
+    "id": "Q1984024",
+    "name": "Jorge Barbosa (writer)",
+    "civilization": "Kingdom of Portugal"
+  },
+  {
+    "id": "Q1984040",
+    "name": "Chatral Sangye Dorje",
+    "civilization": "Republic of China"
+  },
+  {
+    "id": "Q19933181",
+    "name": "William Cunningham (lawyer)",
+    "civilization": "British Empire"
   },
   {
     "id": "Q19949721",
@@ -893,11 +888,6 @@
     "id": "Q199588",
     "name": "Carlo Collodi",
     "civilization": "Kingdom of Italy"
-  },
-  {
-    "id": "Q199825",
-    "name": "Osman III",
-    "civilization": "Ottoman Empire"
   },
   {
     "id": "Q201646",
@@ -930,14 +920,19 @@
     "civilization": "Mexico"
   },
   {
-    "id": "Q2042235",
-    "name": "Giorgi Saakadze",
-    "civilization": "Ottoman Empire"
+    "id": "Q2045258",
+    "name": "Emerico Lobo de Mesquita",
+    "civilization": "Portuguese Empire"
   },
   {
     "id": "Q20533099",
     "name": "Rahmonberdi Madazimov",
     "civilization": "Russian Empire"
+  },
+  {
+    "id": "Q2060582",
+    "name": "Francisco Javier Alegre",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q20751732",
@@ -965,6 +960,11 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q2126911",
+    "name": "Rafael Antonio Castellanos",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q212963",
     "name": "Samuel Adams",
     "civilization": "United States of America"
@@ -975,6 +975,11 @@
     "civilization": "Kingdom of Italy"
   },
   {
+    "id": "Q2150136",
+    "name": "Miguel Rangel (bishop)",
+    "civilization": "Kingdom of Portugal"
+  },
+  {
     "id": "Q21534199",
     "name": "Abdurrahim Hojibayev",
     "civilization": "Union of Soviet Socialist Republics"
@@ -983,11 +988,6 @@
     "id": "Q215562",
     "name": "Frederick Douglass",
     "civilization": "United States of America"
-  },
-  {
-    "id": "Q217470",
-    "name": "Alexander Radishchev",
-    "civilization": "Russian Empire"
   },
   {
     "id": "Q217771",
@@ -1005,6 +1005,11 @@
     "civilization": "Ottoman Empire"
   },
   {
+    "id": "Q2196457",
+    "name": "Mangkunegara IV",
+    "civilization": "Dutch East Indies"
+  },
+  {
     "id": "Q219797",
     "name": "Elbridge Gerry",
     "civilization": "United States of America"
@@ -1015,9 +1020,9 @@
     "civilization": "Kingdom of Italy"
   },
   {
-    "id": "Q221084",
-    "name": "Marija Gimbutas",
-    "civilization": "United States of America"
+    "id": "Q22090188",
+    "name": "Juxon Barton",
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q2218477",
@@ -1027,7 +1032,7 @@
   {
     "id": "Q2218738",
     "name": "Samuel Pallache",
-    "civilization": "Dutch Republic"
+    "civilization": "Wattasid dynasty"
   },
   {
     "id": "Q223542",
@@ -1052,7 +1057,7 @@
   {
     "id": "Q2270460",
     "name": "Martín Cortés, 2nd Marquess of the Valley of Oaxaca",
-    "civilization": "Kingdom of Spain"
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q230716",
@@ -1070,14 +1075,24 @@
     "civilization": "Kingdom of Sweden"
   },
   {
-    "id": "Q233578",
-    "name": "Bruttia Crispina",
-    "civilization": "Roman Empire"
+    "id": "Q233207",
+    "name": "Leonora Carrington",
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q23362",
     "name": "James Scullin",
     "civilization": "Commonwealth of Australia"
+  },
+  {
+    "id": "Q2336212",
+    "name": "Prince Aschwin of Lippe-Biesterfeld",
+    "civilization": "German Empire"
+  },
+  {
+    "id": "Q2337968",
+    "name": "Alvarenga Peixoto",
+    "civilization": "Portuguese Empire"
   },
   {
     "id": "Q23386",
@@ -1087,12 +1102,7 @@
   {
     "id": "Q234171",
     "name": "Princess Lilian, Duchess of Halland",
-    "civilization": "Kingdom of Sweden"
-  },
-  {
-    "id": "Q234311",
-    "name": "Sophia Magdalena of Denmark",
-    "civilization": "Kingdom of Sweden"
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q234701",
@@ -1100,19 +1110,14 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q235454",
-    "name": "K. R. Narayanan",
+    "id": "Q234898",
+    "name": "A. C. Bhaktivedanta Swami Prabhupada",
     "civilization": "British Raj"
   },
   {
-    "id": "Q2355593",
-    "name": "Abdul-Qādir Bēdil",
-    "civilization": "Mughal Empire"
-  },
-  {
-    "id": "Q235611",
-    "name": "Yekaterina Vorontsova-Dashkova",
-    "civilization": "Russian Empire"
+    "id": "Q235454",
+    "name": "K. R. Narayanan",
+    "civilization": "British Raj"
   },
   {
     "id": "Q2356932",
@@ -1125,14 +1130,19 @@
     "civilization": "Safavid Dynasty"
   },
   {
-    "id": "Q236936",
-    "name": "Faustina the Younger",
-    "civilization": "Roman Empire"
+    "id": "Q23619874",
+    "name": "Walatta Petros",
+    "civilization": "Ethiopian Empire"
   },
   {
     "id": "Q238001",
     "name": "Martha Jefferson",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q2381435",
+    "name": "Isatay Taymanuly",
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q2387926",
@@ -1160,11 +1170,6 @@
     "civilization": "Ayutthaya Kingdom"
   },
   {
-    "id": "Q240912",
-    "name": "Julia Pastrana",
-    "civilization": "Russian Empire"
-  },
-  {
     "id": "Q2409144",
     "name": "Chai of Lan Na",
     "civilization": "Lanna Kingdom"
@@ -1185,14 +1190,14 @@
     "civilization": "Roman Empire"
   },
   {
-    "id": "Q243201",
-    "name": "Grigory Potemkin",
-    "civilization": "Russian Empire"
-  },
-  {
     "id": "Q2447874",
     "name": "Bill Pickering (rocket scientist)",
-    "civilization": "United States of America"
+    "civilization": "British Empire"
+  },
+  {
+    "id": "Q24700984",
+    "name": "Peggy Schuyler",
+    "civilization": "British Empire"
   },
   {
     "id": "Q248029",
@@ -1205,9 +1210,14 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q2493613",
-    "name": "Ahmad Sirhindi",
-    "civilization": "Mughal Empire"
+    "id": "Q24901809",
+    "name": "Dorothy Handland",
+    "civilization": "Kingdom of England"
+  },
+  {
+    "id": "Q25409561",
+    "name": "Isabel Godin des Odonais",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q256286",
@@ -1255,44 +1265,14 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
-    "id": "Q2682334",
-    "name": "Handan Sultan",
-    "civilization": "Ottoman Empire"
-  },
-  {
     "id": "Q26925",
     "name": "James, brother of Jesus",
     "civilization": "Roman Empire"
   },
   {
-    "id": "Q270275",
-    "name": "Gavrila Derzhavin",
-    "civilization": "Russian Empire"
-  },
-  {
-    "id": "Q271421",
-    "name": "Torsten Wiesel",
-    "civilization": "Kingdom of Sweden"
-  },
-  {
-    "id": "Q2724440",
-    "name": "Mariam-uz-Zamani",
-    "civilization": "Mughal Empire"
-  },
-  {
     "id": "Q272774",
     "name": "John Hancock",
     "civilization": "United States of America"
-  },
-  {
-    "id": "Q273253",
-    "name": "Herennius Etruscus",
-    "civilization": "Roman Empire"
-  },
-  {
-    "id": "Q2745815",
-    "name": "Gülnuş Sultan",
-    "civilization": "Ottoman Empire"
   },
   {
     "id": "Q2745963",
@@ -1303,6 +1283,11 @@
     "id": "Q2747078",
     "name": "Etienne Leroux",
     "civilization": "South Africa"
+  },
+  {
+    "id": "Q275175",
+    "name": "Witold Gombrowicz",
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q275987",
@@ -1317,7 +1302,12 @@
   {
     "id": "Q278573",
     "name": "A. Bertram Chandler",
-    "civilization": "Commonwealth of Australia"
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
+    "id": "Q27948806",
+    "name": "Nina S. Gore",
+    "civilization": "United States of America"
   },
   {
     "id": "Q281203",
@@ -1325,9 +1315,29 @@
     "civilization": "South Africa"
   },
   {
+    "id": "Q2821390",
+    "name": "Abdoulaye Sadji",
+    "civilization": "French colonial empire"
+  },
+  {
     "id": "Q2821427",
     "name": "Ibn Ashir",
     "civilization": "Saadi Sultanate"
+  },
+  {
+    "id": "Q2827461",
+    "name": "Ahmad ibn Ajiba",
+    "civilization": "Morocco"
+  },
+  {
+    "id": "Q2830551",
+    "name": "Alan Marshal (actor)",
+    "civilization": "Commonwealth of Australia"
+  },
+  {
+    "id": "Q2837164",
+    "name": "Juan Correa",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q2839848",
@@ -1370,6 +1380,11 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q2857511",
+    "name": "Antonio de León y Gama",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q2865024",
     "name": "Arthur Boyd",
     "civilization": "Commonwealth of Australia"
@@ -1385,6 +1400,16 @@
     "civilization": "Songhai Empire"
   },
   {
+    "id": "Q2885655",
+    "name": "Tomás Katari",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q2889246",
+    "name": "Andrés de Tapia",
+    "civilization": "Crown of Castile"
+  },
+  {
     "id": "Q28928",
     "name": "Decebalus",
     "civilization": "Roman Empire"
@@ -1393,6 +1418,11 @@
     "id": "Q28987100",
     "name": "Mohammad Khan Tokhmaq Ustajlu",
     "civilization": "Safavid Dynasty"
+  },
+  {
+    "id": "Q2901098",
+    "name": "Isabel de Bobadilla",
+    "civilization": "Crown of Castile"
   },
   {
     "id": "Q290331",
@@ -1415,14 +1445,14 @@
     "civilization": "Ottoman Empire"
   },
   {
-    "id": "Q293551",
-    "name": "Ahmad al-Maqqari",
-    "civilization": "Ottoman Empire"
+    "id": "Q2920073",
+    "name": "Mentewab",
+    "civilization": "Ethiopian Empire"
   },
   {
-    "id": "Q294435",
-    "name": "Thomas Cromwell",
-    "civilization": "Kingdom of England"
+    "id": "Q29441057",
+    "name": "Maqsud Sultan Kangarlu",
+    "civilization": "Safavid Dynasty"
   },
   {
     "id": "Q295713",
@@ -1435,19 +1465,14 @@
     "civilization": "British Raj"
   },
   {
-    "id": "Q298045",
-    "name": "Arvid Carlsson",
-    "civilization": "Kingdom of Sweden"
-  },
-  {
     "id": "Q298237",
     "name": "Benedict Arnold",
     "civilization": "United States of America"
   },
   {
-    "id": "Q2991195",
-    "name": "Şehzade Mehmed",
-    "civilization": "Ottoman Empire"
+    "id": "Q299165",
+    "name": "Emílio Garrastazu Médici",
+    "civilization": "Brazilian Republic"
   },
   {
     "id": "Q299410",
@@ -1462,11 +1487,6 @@
   {
     "id": "Q2996747",
     "name": "Mustafa Shokay",
-    "civilization": "Russian Empire"
-  },
-  {
-    "id": "Q299687",
-    "name": "Francesco Bartolomeo Rastrelli",
     "civilization": "Russian Empire"
   },
   {
@@ -1505,6 +1525,11 @@
     "civilization": "Russian Empire"
   },
   {
+    "id": "Q305763",
+    "name": "Abba Gorgoryos",
+    "civilization": "Ethiopian Empire"
+  },
+  {
     "id": "Q3068761",
     "name": "Ahmed ibn Abi Mahalli",
     "civilization": "Saadi Sultanate"
@@ -1512,7 +1537,12 @@
   {
     "id": "Q3072011",
     "name": "Rosaleen Norton",
-    "civilization": "Commonwealth of Australia"
+    "civilization": "British Empire"
+  },
+  {
+    "id": "Q3072278",
+    "name": "Fily Dabo Sissoko",
+    "civilization": "French colonial empire"
   },
   {
     "id": "Q3084933",
@@ -1525,9 +1555,29 @@
     "civilization": "Kingdom of Kongo"
   },
   {
+    "id": "Q3102316",
+    "name": "Georges Biassou",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q310821",
+    "name": "Rabbi Akiva",
+    "civilization": "Roman Empire"
+  },
+  {
     "id": "Q310847",
     "name": "John Jay",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q3108470",
+    "name": "Mohammed al-Ifrani",
+    "civilization": "Morocco"
+  },
+  {
+    "id": "Q310896",
+    "name": "Niko Pirosmani",
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q311514",
@@ -1548,11 +1598,6 @@
     "id": "Q312557",
     "name": "V. V. Giri",
     "civilization": "British Raj"
-  },
-  {
-    "id": "Q312603",
-    "name": "Postumus",
-    "civilization": "Roman Empire"
   },
   {
     "id": "Q312701",
@@ -1585,19 +1630,9 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q314339",
-    "name": "Fyodor Ushakov",
-    "civilization": "Russian Empire"
-  },
-  {
     "id": "Q314394",
     "name": "Jyotirao Phule",
     "civilization": "British Raj"
-  },
-  {
-    "id": "Q3147445",
-    "name": "Ibn Hajar al-Haytami",
-    "civilization": "Ottoman Empire"
   },
   {
     "id": "Q3154145",
@@ -1620,11 +1655,6 @@
     "civilization": "South Africa"
   },
   {
-    "id": "Q315885",
-    "name": "Denis Fonvizin",
-    "civilization": "Russian Empire"
-  },
-  {
     "id": "Q316210",
     "name": "Sebastián Lerdo de Tejada",
     "civilization": "Mexico"
@@ -1633,6 +1663,11 @@
     "id": "Q31628",
     "name": "Sergei Yesenin",
     "civilization": "Russian Empire"
+  },
+  {
+    "id": "Q3166001",
+    "name": "Jean Félix-Tchicaya",
+    "civilization": "French colonial empire"
   },
   {
     "id": "Q316661",
@@ -1660,11 +1695,6 @@
     "civilization": "British Raj"
   },
   {
-    "id": "Q317499",
-    "name": "Prince George of Denmark",
-    "civilization": "Kingdom of England"
-  },
-  {
     "id": "Q317526",
     "name": "Abdulla Avloniy",
     "civilization": "Union of Soviet Socialist Republics"
@@ -1682,7 +1712,7 @@
   {
     "id": "Q318354",
     "name": "Percy Grainger",
-    "civilization": "United States of America"
+    "civilization": "British Empire"
   },
   {
     "id": "Q318441",
@@ -1695,6 +1725,16 @@
     "civilization": "Kingdom of Kongo"
   },
   {
+    "id": "Q3186155",
+    "name": "José Antonio de Alzate y Ramírez",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q3186165",
+    "name": "José Antonio Galán",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q3192002",
     "name": "Kaiser Matanzima",
     "civilization": "South Africa"
@@ -1702,12 +1742,12 @@
   {
     "id": "Q319396",
     "name": "Miklós Rózsa",
-    "civilization": "United States of America"
+    "civilization": "Austria-Hungary"
   },
   {
-    "id": "Q31966",
-    "name": "Mark the Evangelist",
-    "civilization": "Roman Empire"
+    "id": "Q319461",
+    "name": "Sait Faik Abasıyanık",
+    "civilization": "Ottoman Empire"
   },
   {
     "id": "Q3197271",
@@ -1718,6 +1758,11 @@
     "id": "Q319947",
     "name": "Longinus",
     "civilization": "Roman Empire"
+  },
+  {
+    "id": "Q320816",
+    "name": "Ron Grainer",
+    "civilization": "Commonwealth of Australia"
   },
   {
     "id": "Q323416",
@@ -1738,11 +1783,6 @@
     "id": "Q325906",
     "name": "Agrippa Postumus",
     "civilization": "Roman Empire"
-  },
-  {
-    "id": "Q326449",
-    "name": "Abram Petrovich Gannibal",
-    "civilization": "Russian Empire"
   },
   {
     "id": "Q327071",
@@ -1775,6 +1815,11 @@
     "civilization": "Mexico"
   },
   {
+    "id": "Q329122",
+    "name": "Manuel de Sumaya",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q330110",
     "name": "Abraham Isaac Kook",
     "civilization": "Russian Empire"
@@ -1788,6 +1833,11 @@
     "id": "Q332421",
     "name": "Silvestre Revueltas",
     "civilization": "Mexico"
+  },
+  {
+    "id": "Q3324986",
+    "name": "Mostefa Ben Boulaïd",
+    "civilization": "French colonial empire"
   },
   {
     "id": "Q333411",
@@ -1815,11 +1865,6 @@
     "civilization": "British Raj"
   },
   {
-    "id": "Q334990",
-    "name": "Bernard Freyberg, 1st Baron Freyberg",
-    "civilization": "United Kingdom"
-  },
-  {
     "id": "Q335003",
     "name": "Michael DeBakey",
     "civilization": "United States of America"
@@ -1845,24 +1890,19 @@
     "civilization": "British Raj"
   },
   {
-    "id": "Q3355",
-    "name": "Amelia Earhart",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q336231",
     "name": "Hammer DeRoburt",
     "civilization": "Commonwealth of Australia"
   },
   {
-    "id": "Q336803",
-    "name": "Hryhorii Skovoroda",
-    "civilization": "Russian Empire"
-  },
-  {
     "id": "Q336913",
     "name": "Neelam Sanjiva Reddy",
     "civilization": "British Raj"
+  },
+  {
+    "id": "Q3371821",
+    "name": "Paul McCobb",
+    "civilization": "United States of America"
   },
   {
     "id": "Q337500",
@@ -1890,26 +1930,6 @@
     "civilization": "United Kingdom"
   },
   {
-    "id": "Q347144",
-    "name": "Philip IV of Macedon",
-    "civilization": "Macedonia"
-  },
-  {
-    "id": "Q34836",
-    "name": "Ulysses S. Grant",
-    "civilization": "United States of America"
-  },
-  {
-    "id": "Q34981",
-    "name": "Isaac Asimov",
-    "civilization": "United States of America"
-  },
-  {
-    "id": "Q35041",
-    "name": "William McKinley",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q350915",
     "name": "Pedro Ramírez Vázquez",
     "civilization": "Mexico"
@@ -1925,19 +1945,9 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q35236",
-    "name": "Herbert Hoover",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q35286",
     "name": "Warren G. Harding",
     "civilization": "United States of America"
-  },
-  {
-    "id": "Q3538748",
-    "name": "Sailor Malan",
-    "civilization": "South Africa"
   },
   {
     "id": "Q354721",
@@ -1960,14 +1970,24 @@
     "civilization": "Commonwealth of Australia"
   },
   {
-    "id": "Q35648",
-    "name": "William Howard Taft",
-    "civilization": "United States of America"
+    "id": "Q3570637",
+    "name": "Xavier Coppolani",
+    "civilization": "Second French Empire"
   },
   {
     "id": "Q357326",
     "name": "Carlos Chávez",
     "civilization": "Mexico"
+  },
+  {
+    "id": "Q357792",
+    "name": "Edward John Eyre",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
+    "id": "Q359576",
+    "name": "Robert Broom",
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q360206",
@@ -1980,14 +2000,14 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q361261",
-    "name": "Prince Bertil, Duke of Halland",
-    "civilization": "Kingdom of Sweden"
+    "id": "Q3614773",
+    "name": "Américo Boavida",
+    "civilization": "Portuguese Republic"
   },
   {
-    "id": "Q3630505",
-    "name": "Man Singh I",
-    "civilization": "Mughal Empire"
+    "id": "Q3621870",
+    "name": "Vicente do Salvador",
+    "civilization": "Portuguese Empire"
   },
   {
     "id": "Q363114",
@@ -1995,9 +2015,9 @@
     "civilization": "Kingdom of Axum"
   },
   {
-    "id": "Q363965",
-    "name": "Robert T. A. Innes",
-    "civilization": "United Kingdom"
+    "id": "Q3633202",
+    "name": "Krushnaji Prabhakar Khadilkar",
+    "civilization": "British Raj"
   },
   {
     "id": "Q3642716",
@@ -2005,9 +2025,9 @@
     "civilization": "South Africa"
   },
   {
-    "id": "Q365124",
-    "name": "Horatio Gates",
-    "civilization": "United States of America"
+    "id": "Q3643386",
+    "name": "Siener van Rensburg",
+    "civilization": "South African Republic"
   },
   {
     "id": "Q365181",
@@ -2025,11 +2045,6 @@
     "civilization": "Holy Roman Empire"
   },
   {
-    "id": "Q36591",
-    "name": "Vladimir Nabokov",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q365930",
     "name": "Hussein Kamel of Egypt",
     "civilization": "Ottoman Empire"
@@ -2043,16 +2058,6 @@
     "id": "Q366213",
     "name": "Aga Khan III",
     "civilization": "British Raj"
-  },
-  {
-    "id": "Q367456",
-    "name": "Roy Welensky",
-    "civilization": "United Kingdom"
-  },
-  {
-    "id": "Q369691",
-    "name": "Saint Ursula",
-    "civilization": "Roman Empire"
   },
   {
     "id": "Q369907",
@@ -2085,6 +2090,11 @@
     "civilization": "Commonwealth of Australia"
   },
   {
+    "id": "Q3742938",
+    "name": "Fernando Miyares",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q3750823",
     "name": "La Quintrala",
     "civilization": "Spanish Empire"
@@ -2100,16 +2110,6 @@
     "civilization": "Kingdom of Spain"
   },
   {
-    "id": "Q37571",
-    "name": "Jackson Pollock",
-    "civilization": "United States of America"
-  },
-  {
-    "id": "Q37767",
-    "name": "T. S. Eliot",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q377881",
     "name": "Bankim Chandra Chatterjee",
     "civilization": "British Raj"
@@ -2120,19 +2120,14 @@
     "civilization": "British Raj"
   },
   {
+    "id": "Q379589",
+    "name": "Ananda Coomaraswamy",
+    "civilization": "British Raj"
+  },
+  {
     "id": "Q379781",
     "name": "Shoichi Yokoi",
     "civilization": "Empire of Japan"
-  },
-  {
-    "id": "Q379900",
-    "name": "Samuel Alexander",
-    "civilization": "United Kingdom"
-  },
-  {
-    "id": "Q380398",
-    "name": "C. R. Swart",
-    "civilization": "South Africa"
   },
   {
     "id": "Q380797",
@@ -2160,11 +2155,6 @@
     "civilization": "Morocco"
   },
   {
-    "id": "Q38203",
-    "name": "Helen Keller",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q3826399",
     "name": "Mohammed al-Qadiri",
     "civilization": "Morocco"
@@ -2180,9 +2170,19 @@
     "civilization": "Kazakh Khanate"
   },
   {
+    "id": "Q3826495",
+    "name": "Micaela Bastidas",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q3827268",
     "name": "Sayyid Muhammad (Khan of Khiva)",
     "civilization": "Khanate of Khiva"
+  },
+  {
+    "id": "Q382777",
+    "name": "Thomas Fyshe Palmer",
+    "civilization": "Kingdom of Great Britain"
   },
   {
     "id": "Q38392",
@@ -2190,34 +2190,29 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q3889529",
-    "name": "Alexandre de Gusmão",
-    "civilization": "Kingdom of Portugal"
+    "id": "Q3840428",
+    "name": "Luis de Santa María Nanacacipactzin",
+    "civilization": "Aztec Triple Alliance"
   },
   {
-    "id": "Q390123",
-    "name": "Kâtip Çelebi",
+    "id": "Q3882084",
+    "name": "Umar Makram",
     "civilization": "Ottoman Empire"
   },
   {
-    "id": "Q391591",
-    "name": "Roger Williams",
-    "civilization": "Kingdom of England"
-  },
-  {
-    "id": "Q39212",
-    "name": "John Steinbeck",
-    "civilization": "United States of America"
-  },
-  {
-    "id": "Q39246",
-    "name": "Richard Feynman",
-    "civilization": "United States of America"
+    "id": "Q3889529",
+    "name": "Alexandre de Gusmão",
+    "civilization": "Portuguese Empire"
   },
   {
     "id": "Q39459",
     "name": "John Carroll (archbishop of Baltimore)",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q3963507",
+    "name": "José Núñez de Cáceres",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q399318",
@@ -2255,6 +2250,21 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
+    "id": "Q4076987",
+    "name": "Baluan Sholak",
+    "civilization": "Russian Empire"
+  },
+  {
+    "id": "Q4093819",
+    "name": "Arkady Borisov",
+    "civilization": "Russian Empire"
+  },
+  {
+    "id": "Q4100458",
+    "name": "Bukhar-zhirau Kalmakanov",
+    "civilization": "Kazakh Khanate"
+  },
+  {
     "id": "Q41129",
     "name": "Germán Valdés",
     "civilization": "Mexico"
@@ -2272,17 +2282,17 @@
   {
     "id": "Q4132423",
     "name": "Rena Galibova",
-    "civilization": "United States of America"
-  },
-  {
-    "id": "Q41390",
-    "name": "Kurt Gödel",
-    "civilization": "United States of America"
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q41502",
     "name": "Henryk Sienkiewicz",
     "civilization": "Russian Empire"
+  },
+  {
+    "id": "Q4153066",
+    "name": "Pedro Gutiérrez de Santa Clara",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q4159866",
@@ -2300,9 +2310,9 @@
     "civilization": "Khanate of Bukhara"
   },
   {
-    "id": "Q41921",
-    "name": "Rosa Parks",
-    "civilization": "United States of America"
+    "id": "Q4195335",
+    "name": "Ibrahim Bek",
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q4206662",
@@ -2335,6 +2345,11 @@
     "civilization": "Russian Empire"
   },
   {
+    "id": "Q4250598",
+    "name": "Baken Kydykeyeva",
+    "civilization": "Union of Soviet Socialist Republics"
+  },
+  {
     "id": "Q4261861",
     "name": "Abu Bakr (mansa)",
     "civilization": "Mali Empire"
@@ -2365,9 +2380,19 @@
     "civilization": "South Africa"
   },
   {
+    "id": "Q434281",
+    "name": "Douglas Mawson",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q434306",
     "name": "Helen Joseph",
-    "civilization": "South Africa"
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
+    "id": "Q43440",
+    "name": "Giosuè Carducci",
+    "civilization": "Kingdom of Italy"
   },
   {
     "id": "Q435168",
@@ -2385,6 +2410,11 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
+    "id": "Q4391094",
+    "name": "Sabir Rakhimov",
+    "civilization": "Russian Empire"
+  },
+  {
     "id": "Q4402066",
     "name": "Turar Ryskulov",
     "civilization": "Union of Soviet Socialist Republics"
@@ -2395,24 +2425,19 @@
     "civilization": "Chagatai Khanate"
   },
   {
-    "id": "Q440558",
-    "name": "Cyril Lucaris",
-    "civilization": "Ottoman Empire"
-  },
-  {
     "id": "Q441056",
     "name": "Christina Stead",
     "civilization": "Commonwealth of Australia"
   },
   {
-    "id": "Q442535",
-    "name": "Stig Dagerman",
-    "civilization": "Kingdom of Sweden"
+    "id": "Q442516",
+    "name": "Germanus of Auxerre",
+    "civilization": "Roman Empire"
   },
   {
     "id": "Q4430044",
     "name": "Sofia Tuibayeva",
-    "civilization": "Union of Soviet Socialist Republics"
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q444072",
@@ -2427,7 +2452,7 @@
   {
     "id": "Q445960",
     "name": "Pedro Bermúdez",
-    "civilization": "Spanish Empire"
+    "civilization": "Kingdom of Spain"
   },
   {
     "id": "Q446437",
@@ -2445,19 +2470,24 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
-    "id": "Q447209",
-    "name": "Sigvard Bernadotte",
-    "civilization": "Kingdom of Sweden"
-  },
-  {
     "id": "Q4474921",
     "name": "Tursun Uljabayev",
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
+    "id": "Q4477781",
+    "name": "Usmon Nosir",
+    "civilization": "Russian Empire"
+  },
+  {
     "id": "Q4478718",
     "name": "Turdakun Usubaliev",
     "civilization": "Union of Soviet Socialist Republics"
+  },
+  {
+    "id": "Q448525",
+    "name": "Rita Montaner",
+    "civilization": "United States of America"
   },
   {
     "id": "Q449356",
@@ -2468,11 +2498,6 @@
     "id": "Q4493782",
     "name": "Francisco Antonio de Fuentes y Guzmán",
     "civilization": "Spanish Empire"
-  },
-  {
-    "id": "Q450317",
-    "name": "Chien-Shiung Wu",
-    "civilization": "United States of America"
   },
   {
     "id": "Q4517073",
@@ -2495,6 +2520,11 @@
     "civilization": "Khanate of Khiva"
   },
   {
+    "id": "Q453614",
+    "name": "Alba de Céspedes",
+    "civilization": "Kingdom of Italy"
+  },
+  {
     "id": "Q453890",
     "name": "Emily Kame Kngwarreye",
     "civilization": "Commonwealth of Australia"
@@ -2505,9 +2535,24 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q455072",
+    "name": "Kate Sheppard",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q455683",
     "name": "Pascual Ortiz Rubio",
     "civilization": "Mexico"
+  },
+  {
+    "id": "Q456768",
+    "name": "Micaela Villegas",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q45682",
+    "name": "Jean Sibelius",
+    "civilization": "Republic of Finland"
   },
   {
     "id": "Q457278",
@@ -2515,9 +2560,9 @@
     "civilization": "Commonwealth of Australia"
   },
   {
-    "id": "Q45765",
-    "name": "Jack London",
-    "civilization": "United States of America"
+    "id": "Q45789",
+    "name": "Satyendra Nath Bose",
+    "civilization": "British Raj"
   },
   {
     "id": "Q457933",
@@ -2525,14 +2570,9 @@
     "civilization": "British Raj"
   },
   {
-    "id": "Q457994",
-    "name": "Pausanias of Orestis",
-    "civilization": "Macedonia"
-  },
-  {
     "id": "Q45970",
     "name": "Czesław Miłosz",
-    "civilization": "United States of America"
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q460639",
@@ -2555,9 +2595,19 @@
     "civilization": "Mexico"
   },
   {
-    "id": "Q46599",
-    "name": "Mikhail Lermontov",
-    "civilization": "Russian Empire"
+    "id": "Q464104",
+    "name": "Yosano Akiko",
+    "civilization": "Empire of Japan"
+  },
+  {
+    "id": "Q4646819",
+    "name": "Ájiniyaz",
+    "civilization": "Khanate of Khiva"
+  },
+  {
+    "id": "Q465342",
+    "name": "Wifredo Lam",
+    "civilization": "United States of America"
   },
   {
     "id": "Q466009",
@@ -2585,19 +2635,19 @@
     "civilization": "Beylik of Karaman"
   },
   {
+    "id": "Q467694",
+    "name": "Lachlan Macquarie",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q4679883",
     "name": "Adam Tas",
-    "civilization": "Dutch Cape Colony"
+    "civilization": "Dutch Republic"
   },
   {
-    "id": "Q46837",
-    "name": "Hostilian",
-    "civilization": "Roman Empire"
-  },
-  {
-    "id": "Q46928",
-    "name": "Max Theiler",
-    "civilization": "United States of America"
+    "id": "Q4695346",
+    "name": "Ahmad Ibn al-Qadi",
+    "civilization": "Wattasid dynasty"
   },
   {
     "id": "Q4697021",
@@ -2637,7 +2687,7 @@
   {
     "id": "Q4712253",
     "name": "Alberto del Canto",
-    "civilization": "Spanish Empire"
+    "civilization": "Kingdom of Portugal"
   },
   {
     "id": "Q4739765",
@@ -2652,7 +2702,7 @@
   {
     "id": "Q4748618",
     "name": "Amram ben Diwan",
-    "civilization": "Morocco"
+    "civilization": "Ottoman Empire"
   },
   {
     "id": "Q4767781",
@@ -2660,14 +2710,29 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
+    "id": "Q4777073",
+    "name": "Antonio de Salazar (composer)",
+    "civilization": "Kingdom of Spain"
+  },
+  {
     "id": "Q479615",
     "name": "Abdylas Maldybaev",
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
+    "id": "Q4799997",
+    "name": "Arthur Pollen",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q4801775",
     "name": "Arturo O'Neill",
-    "civilization": "Kingdom of Spain"
+    "civilization": "Kingdom of Great Britain"
+  },
+  {
+    "id": "Q4821501",
+    "name": "Augustus Nathaniel Lushington",
+    "civilization": "British Empire"
   },
   {
     "id": "Q48226",
@@ -2685,9 +2750,9 @@
     "civilization": "Beylik of Karaman"
   },
   {
-    "id": "Q4849857",
-    "name": "Balaji Vishwanath",
-    "civilization": "Mughal Empire"
+    "id": "Q48872094",
+    "name": "Mercedes Blasco",
+    "civilization": "Kingdom of Portugal"
   },
   {
     "id": "Q48983",
@@ -2705,14 +2770,19 @@
     "civilization": "Kazakh Khanate"
   },
   {
+    "id": "Q4946554",
+    "name": "Borrah Minevitch",
+    "civilization": "Russian Empire"
+  },
+  {
+    "id": "Q4977794",
+    "name": "Bruce Kingsbury",
+    "civilization": "Commonwealth of Australia"
+  },
+  {
     "id": "Q4985",
     "name": "Herman Melville",
     "civilization": "United States of America"
-  },
-  {
-    "id": "Q503230",
-    "name": "Hegesippus (chronicler)",
-    "civilization": "Roman Empire"
   },
   {
     "id": "Q503324",
@@ -2720,9 +2790,24 @@
     "civilization": "Commonwealth of Australia"
   },
   {
+    "id": "Q5067822",
+    "name": "Chaim Pinto",
+    "civilization": "Morocco"
+  },
+  {
+    "id": "Q5076091",
+    "name": "Charles Capps",
+    "civilization": "United States of America"
+  },
+  {
     "id": "Q5080991",
     "name": "Charles Mitchell (colonial administrator)",
-    "civilization": "British Empire"
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
+    "id": "Q50825744",
+    "name": "Jean Dolores Schmidt",
+    "civilization": "United States of America"
   },
   {
     "id": "Q509698",
@@ -2765,9 +2850,24 @@
     "civilization": "British Raj"
   },
   {
+    "id": "Q5240703",
+    "name": "David Goodall (botanist)",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q5243001",
     "name": "Daya Mata",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q5290349",
+    "name": "Domingo Cabello y Robles",
+    "civilization": "Kingdom of Spain"
+  },
+  {
+    "id": "Q5290423",
+    "name": "Domingos Fernandes Calabar",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q5290683",
@@ -2775,9 +2875,14 @@
     "civilization": "Holy Roman Empire"
   },
   {
+    "id": "Q5298400",
+    "name": "Dorothy Eady",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q53068",
     "name": "Claudio Monteverdi",
-    "civilization": "Republic of Venice"
+    "civilization": "Kingdom of Spain"
   },
   {
     "id": "Q532329",
@@ -2790,14 +2895,14 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q53707",
-    "name": "Tage Erlander",
-    "civilization": "Kingdom of Sweden"
-  },
-  {
     "id": "Q53862617",
     "name": "Konstantin Makarevich",
     "civilization": "Union of Soviet Socialist Republics"
+  },
+  {
+    "id": "Q539930",
+    "name": "Peggy Cripps",
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q5400927",
@@ -2820,19 +2925,34 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q5438893",
+    "name": "Gregorio Funes",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q547929",
     "name": "Eben Dönges",
     "civilization": "South Africa"
   },
   {
-    "id": "Q5487536",
-    "name": "Frank Jay Haynes",
+    "id": "Q5482959",
+    "name": "Francisca Nuñez de Carabajal",
+    "civilization": "Kingdom of Portugal"
+  },
+  {
+    "id": "Q5483135",
+    "name": "Francisco Antonio de Guerrero y Torres",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q5484833",
+    "name": "Frank Richards (performer)",
     "civilization": "United States of America"
   },
   {
-    "id": "Q54945",
-    "name": "Hannes Alfvén",
-    "civilization": "Kingdom of Sweden"
+    "id": "Q5487536",
+    "name": "Frank Jay Haynes",
+    "civilization": "United States of America"
   },
   {
     "id": "Q5498379",
@@ -2850,6 +2970,11 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q5526527",
+    "name": "Gaspar Antonio Chi",
+    "civilization": "Maya civilization"
+  },
+  {
     "id": "Q5528370",
     "name": "Gavriel Mullokandov",
     "civilization": "Union of Soviet Socialist Republics"
@@ -2860,6 +2985,11 @@
     "civilization": "Mexico"
   },
   {
+    "id": "Q554259",
+    "name": "José Miguel Gómez",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q5543710",
     "name": "George Randolph Hearst",
     "civilization": "United States of America"
@@ -2868,6 +2998,11 @@
     "id": "Q557185",
     "name": "B. K. S. Iyengar",
     "civilization": "British Raj"
+  },
+  {
+    "id": "Q5573743",
+    "name": "Silvestre de Balboa",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q557600",
@@ -2895,11 +3030,6 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
-    "id": "Q560086",
-    "name": "Albert Namatjira",
-    "civilization": "Commonwealth of Australia"
-  },
-  {
     "id": "Q5606730",
     "name": "Gregorio López (jurist)",
     "civilization": "Kingdom of Spain"
@@ -2920,14 +3050,29 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q5646794",
+    "name": "Juan Díaz (conquistador)",
+    "civilization": "Crown of Castile"
+  },
+  {
     "id": "Q565495",
     "name": "Joseph Wolpe",
     "civilization": "United States of America"
   },
   {
-    "id": "Q57384",
-    "name": "Wernher von Braun",
+    "id": "Q5687456",
+    "name": "Haywood Patterson",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q5702756",
+    "name": "Helen Mar Kimball",
+    "civilization": "United States of America"
+  },
+  {
+    "id": "Q5717625",
+    "name": "Baltasar de Figueroa",
+    "civilization": "Iberian Union"
   },
   {
     "id": "Q574116",
@@ -2940,14 +3085,9 @@
     "civilization": "Russian Empire"
   },
   {
-    "id": "Q57626",
-    "name": "Princess Sibylla of Saxe-Coburg and Gotha",
-    "civilization": "Kingdom of Sweden"
-  },
-  {
-    "id": "Q579354",
-    "name": "Fakhr al-Din II",
-    "civilization": "Ottoman Empire"
+    "id": "Q5806828",
+    "name": "Diego de Torres y Moyachoque",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q5859989",
@@ -2955,9 +3095,9 @@
     "civilization": "Kingdom of Spain"
   },
   {
-    "id": "Q58720",
-    "name": "Mikhail Lomonosov",
-    "civilization": "Russian Empire"
+    "id": "Q590935",
+    "name": "Makonnen Endelkachew",
+    "civilization": "Ethiopian Empire"
   },
   {
     "id": "Q592004",
@@ -2965,9 +3105,19 @@
     "civilization": "South Africa"
   },
   {
+    "id": "Q5938619",
+    "name": "Juan de Almoguera",
+    "civilization": "Iberian Union"
+  },
+  {
     "id": "Q59478",
     "name": "George Gamow",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q5947910",
+    "name": "Juan Benito Díaz de Gamarra y Dávalos",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q595285",
@@ -2975,18 +3125,58 @@
     "civilization": "Ottoman Empire"
   },
   {
-    "id": "Q60025",
-    "name": "Hannah Arendt",
-    "civilization": "United States of America"
+    "id": "Q5953642",
+    "name": "Juan de los Barrios",
+    "civilization": "Crown of Castile"
+  },
+  {
+    "id": "Q5992965",
+    "name": "Manuel Fernández de Santa Cruz",
+    "civilization": "Iberian Union"
   },
   {
     "id": "Q600759",
     "name": "J. J. C. Smart",
-    "civilization": "Commonwealth of Australia"
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
+    "id": "Q6077273",
+    "name": "Isaac W. Sprague",
+    "civilization": "United States of America"
+  },
+  {
+    "id": "Q609119",
+    "name": "Amankeldı İmanov",
+    "civilization": "Russian Empire"
+  },
+  {
+    "id": "Q6145713",
+    "name": "James Wilson Robertson",
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q6149892",
     "name": "Jan Sherwood",
+    "civilization": "United States of America"
+  },
+  {
+    "id": "Q6152184",
+    "name": "Jane Manning James",
+    "civilization": "United States of America"
+  },
+  {
+    "id": "Q616880",
+    "name": "Francisca Josefa de la Concepción",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q6168884",
+    "name": "Jean-Baptiste Chavannes",
+    "civilization": "New France"
+  },
+  {
+    "id": "Q6172733",
+    "name": "Jedediah M. Grant",
     "civilization": "United States of America"
   },
   {
@@ -3005,19 +3195,39 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q625794",
-    "name": "John Money",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q6261855",
     "name": "John Vaughan, 3rd Earl of Carbery",
     "civilization": "Kingdom of England"
   },
   {
+    "id": "Q6293562",
+    "name": "José Nicolás de la Escalera",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q6294285",
     "name": "José de Cieza",
     "civilization": "Kingdom of Spain"
+  },
+  {
+    "id": "Q6294288",
+    "name": "José de Fontes Pereira",
+    "civilization": "Kingdom of Portugal"
+  },
+  {
+    "id": "Q6294309",
+    "name": "José de Oviedo y Baños",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q6299041",
+    "name": "Juan Bernardino",
+    "civilization": "Aztec Triple Alliance"
+  },
+  {
+    "id": "Q6378052",
+    "name": "Katsu Kokichi",
+    "civilization": "Tokugawa Shogunate"
   },
   {
     "id": "Q641101",
@@ -3050,14 +3260,19 @@
     "civilization": "Sukhothai Kingdom"
   },
   {
-    "id": "Q66107",
-    "name": "Henry Kissinger",
-    "civilization": "United States of America"
+    "id": "Q6584933",
+    "name": "Henrietta Litchfield",
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q665932",
     "name": "Beyers Naudé",
     "civilization": "South Africa"
+  },
+  {
+    "id": "Q669049",
+    "name": "Shigeru Mizuki",
+    "civilization": "Empire of Japan"
   },
   {
     "id": "Q6700720",
@@ -3070,14 +3285,14 @@
     "civilization": "South Africa"
   },
   {
-    "id": "Q6733",
-    "name": "Edward Teller",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q6734486",
     "name": "Mahmud IV (mansa)",
     "civilization": "Mali Empire"
+  },
+  {
+    "id": "Q6748247",
+    "name": "Mandume ya Ndemufayo",
+    "civilization": "Kingdom of Portugal"
   },
   {
     "id": "Q6751903",
@@ -3095,6 +3310,11 @@
     "civilization": "South Africa"
   },
   {
+    "id": "Q6844838",
+    "name": "Miguel Venegas",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q6874724",
     "name": "Mirtemir",
     "civilization": "Union of Soviet Socialist Republics"
@@ -3110,29 +3330,19 @@
     "civilization": "Songhai Empire"
   },
   {
-    "id": "Q690790",
-    "name": "Rufino Tamayo",
-    "civilization": "Mexico"
-  },
-  {
     "id": "Q6932863",
     "name": "Muhammad ibn Azhar ad-Din",
     "civilization": "Beylik of Karaman"
   },
   {
+    "id": "Q696402",
+    "name": "Kido Takayoshi",
+    "civilization": "Empire of Japan"
+  },
+  {
     "id": "Q699702",
     "name": "Jonas Mekas",
     "civilization": "United States of America"
-  },
-  {
-    "id": "Q70193",
-    "name": "Inge King",
-    "civilization": "Commonwealth of Australia"
-  },
-  {
-    "id": "Q705191",
-    "name": "Gregory V of Constantinople",
-    "civilization": "Ottoman Empire"
   },
   {
     "id": "Q7064427",
@@ -3143,11 +3353,6 @@
     "id": "Q7070303",
     "name": "Nur al-Din al-Raniri",
     "civilization": "Sultanate of Aceh"
-  },
-  {
-    "id": "Q707856",
-    "name": "Ronald Syme",
-    "civilization": "United Kingdom"
   },
   {
     "id": "Q7080145",
@@ -3162,7 +3367,7 @@
   {
     "id": "Q709012",
     "name": "Carter Brown",
-    "civilization": "Commonwealth of Australia"
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q709280",
@@ -3173,6 +3378,11 @@
     "id": "Q710627",
     "name": "Guillermo Haro",
     "civilization": "Mexico"
+  },
+  {
+    "id": "Q7110257",
+    "name": "Oude Ram Afrikaner",
+    "civilization": "Dutch Cape Colony"
   },
   {
     "id": "Q711237",
@@ -3195,6 +3405,11 @@
     "civilization": "Ethiopian Empire"
   },
   {
+    "id": "Q712098",
+    "name": "Jean Margéot",
+    "civilization": "British Empire"
+  },
+  {
     "id": "Q712262",
     "name": "Manuel Álvarez Bravo",
     "civilization": "Mexico"
@@ -3215,6 +3430,16 @@
     "civilization": "Kingdom of Axum"
   },
   {
+    "id": "Q7152065",
+    "name": "Paul Lomami-Tshibamba",
+    "civilization": "French colonial empire"
+  },
+  {
+    "id": "Q7159775",
+    "name": "Pedro Menéndez Márquez",
+    "civilization": "Crown of Castile"
+  },
+  {
     "id": "Q716585",
     "name": "Ngô Sĩ Liên",
     "civilization": "Lê Dynasty"
@@ -3222,12 +3447,17 @@
   {
     "id": "Q716596",
     "name": "Vladimir Tretchikoff",
-    "civilization": "South Africa"
+    "civilization": "Russian Empire"
   },
   {
-    "id": "Q717115",
-    "name": "Koca Sinan Pasha",
-    "civilization": "Ottoman Empire"
+    "id": "Q7173158",
+    "name": "Peter Cameron Scott",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
+    "id": "Q7183207",
+    "name": "Philip Bell (colonial administrator)",
+    "civilization": "Kingdom of England"
   },
   {
     "id": "Q718812",
@@ -3265,6 +3495,11 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
+    "id": "Q727486",
+    "name": "Blas Valera",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q729054",
     "name": "William Paterson (judge)",
     "civilization": "United States of America"
@@ -3300,11 +3535,6 @@
     "civilization": "Aztec Triple Alliance"
   },
   {
-    "id": "Q733598",
-    "name": "Moses ben Jacob Cordovero",
-    "civilization": "Ottoman Empire"
-  },
-  {
     "id": "Q734495",
     "name": "Bud Tingwell",
     "civilization": "Commonwealth of Australia"
@@ -3320,6 +3550,11 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q7349391",
+    "name": "Robert Ross (Royal Marines officer)",
+    "civilization": "Kingdom of Great Britain"
+  },
+  {
     "id": "Q7349430",
     "name": "Robert Russa Moton",
     "civilization": "United States of America"
@@ -3330,14 +3565,24 @@
     "civilization": "British Raj"
   },
   {
+    "id": "Q7380347",
+    "name": "Rupert Pole",
+    "civilization": "United States of America"
+  },
+  {
+    "id": "Q7383270",
+    "name": "Ruth Williams Khama",
+    "civilization": "United Kingdom of Great Britain and Ireland"
+  },
+  {
     "id": "Q744343",
     "name": "Opoku Ware I",
     "civilization": "Ashanti Empire"
   },
   {
-    "id": "Q750768",
-    "name": "Henry Cornelius",
-    "civilization": "United Kingdom"
+    "id": "Q7446003",
+    "name": "Sefanaia Sukanaivalu",
+    "civilization": "British Empire"
   },
   {
     "id": "Q7509502",
@@ -3345,14 +3590,14 @@
     "civilization": "Mexico"
   },
   {
-    "id": "Q76409",
-    "name": "Charles Bukowski",
-    "civilization": "United States of America"
+    "id": "Q7529842",
+    "name": "Sir William Young, 1st Baronet, of North Dean",
+    "civilization": "British Empire"
   },
   {
     "id": "Q7659954",
     "name": "Sydney Guilaroff",
-    "civilization": "United States of America"
+    "civilization": "United Kingdom of Great Britain and Ireland"
   },
   {
     "id": "Q770133",
@@ -3375,9 +3620,9 @@
     "civilization": "Union of Soviet Socialist Republics"
   },
   {
-    "id": "Q79822",
-    "name": "Adam Mickiewicz",
-    "civilization": "Russian Empire"
+    "id": "Q7925171",
+    "name": "Vicente Manuel de Céspedes",
+    "civilization": "Kingdom of Spain"
   },
   {
     "id": "Q79904",
@@ -3388,11 +3633,6 @@
     "id": "Q79969",
     "name": "Emma Goldman",
     "civilization": "Russian Empire"
-  },
-  {
-    "id": "Q80048",
-    "name": "Al Capone",
-    "civilization": "United States of America"
   },
   {
     "id": "Q8029735",
@@ -3415,6 +3655,21 @@
     "civilization": "United Kingdoms of Sweden and Norway"
   },
   {
+    "id": "Q8068104",
+    "name": "Zdzisław Broński",
+    "civilization": "Russian Empire"
+  },
+  {
+    "id": "Q8069367",
+    "name": "Zerai Deres",
+    "civilization": "Italian Africa"
+  },
+  {
+    "id": "Q8073959",
+    "name": "Zong Rinpoche",
+    "civilization": "Qing Dynasty"
+  },
+  {
     "id": "Q81438",
     "name": "Walt Whitman",
     "civilization": "United States of America"
@@ -3425,9 +3680,9 @@
     "civilization": "Ottoman Empire"
   },
   {
-    "id": "Q819320",
-    "name": "Lauri Törni",
-    "civilization": "United States of America"
+    "id": "Q82840",
+    "name": "Alvar Aalto",
+    "civilization": "Russian Empire"
   },
   {
     "id": "Q83038",
@@ -3442,7 +3697,7 @@
   {
     "id": "Q83326",
     "name": "Béla Bartók",
-    "civilization": "United States of America"
+    "civilization": "Austria-Hungary"
   },
   {
     "id": "Q83396",
@@ -3450,24 +3705,9 @@
     "civilization": "United States of America"
   },
   {
-    "id": "Q83794",
-    "name": "Khushal Khattak",
-    "civilization": "Mughal Empire"
-  },
-  {
     "id": "Q8427700",
     "name": "Lü Jia (Nanyue)",
     "civilization": "Nanyue"
-  },
-  {
-    "id": "Q852738",
-    "name": "Bâkî",
-    "civilization": "Ottoman Empire"
-  },
-  {
-    "id": "Q85669",
-    "name": "Harry Seidler",
-    "civilization": "Commonwealth of Australia"
   },
   {
     "id": "Q859895",
@@ -3475,14 +3715,24 @@
     "civilization": "South Africa"
   },
   {
-    "id": "Q8612",
-    "name": "Andrew Johnson",
-    "civilization": "United States of America"
-  },
-  {
     "id": "Q878687",
     "name": "John Dickinson",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q878826",
+    "name": "Mario García Menocal",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q879780",
+    "name": "Alfonso Oiterong",
+    "civilization": "Empire of Japan"
+  },
+  {
+    "id": "Q880250",
+    "name": "Alfredo Zayas y Alfonso",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q882753",
@@ -3537,7 +3787,17 @@
   {
     "id": "Q9013963",
     "name": "José Joaquín Palma",
-    "civilization": "Guatemala"
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q9015213",
+    "name": "Juan Bautista Aguirre",
+    "civilization": "Spanish Empire"
+  },
+  {
+    "id": "Q9025425",
+    "name": "Luis de Carvajal the Younger",
+    "civilization": "Kingdom of Spain"
   },
   {
     "id": "Q902703",
@@ -3565,14 +3825,24 @@
     "civilization": "United States of America"
   },
   {
+    "id": "Q926379",
+    "name": "Imru Haile Selassie",
+    "civilization": "Ethiopian Empire"
+  },
+  {
+    "id": "Q928353",
+    "name": "Michael Pate",
+    "civilization": "Commonwealth of Australia"
+  },
+  {
     "id": "Q93227",
     "name": "Nikolai Rimsky-Korsakov",
     "civilization": "Russian Empire"
   },
   {
-    "id": "Q93354",
-    "name": "F. Scott Fitzgerald",
-    "civilization": "United States of America"
+    "id": "Q935398",
+    "name": "Calixto García",
+    "civilization": "Spanish Empire"
   },
   {
     "id": "Q9391189",
@@ -3590,11 +3860,6 @@
     "civilization": "British Raj"
   },
   {
-    "id": "Q958587",
-    "name": "Frank Hurley",
-    "civilization": "Commonwealth of Australia"
-  },
-  {
     "id": "Q959019",
     "name": "Arcadius of Mauretania",
     "civilization": "Roman Empire"
@@ -3610,14 +3875,19 @@
     "civilization": "Mexico"
   },
   {
+    "id": "Q979746",
+    "name": "Andrés Cavo",
+    "civilization": "Spanish Empire"
+  },
+  {
     "id": "Q982266",
     "name": "D. J. Opperman",
     "civilization": "South Africa"
   },
   {
-    "id": "Q982653",
-    "name": "Todar Mal",
-    "civilization": "Mughal Empire"
+    "id": "Q983169",
+    "name": "Enoch Sontonga",
+    "civilization": "British Cape Colony"
   },
   {
     "id": "Q984",
@@ -3625,14 +3895,39 @@
     "civilization": "Commonwealth of Australia"
   },
   {
-    "id": "Q311138",
-    "name": "Alfonso III of Asturias",
-    "civilization": "Kingdom of Asturias"
+    "id": "Q529235",
+    "name": "Ibn Rajab",
+    "civilization": "Ilkhanate"
   },
   {
-    "id": "Q298945",
-    "name": "Lothair II",
-    "civilization": "West Franks"
+    "id": "Q1378353",
+    "name": "Kayqubad III",
+    "civilization": "Ilkhanate"
+  },
+  {
+    "id": "Q2373168",
+    "name": "Thang Tong Gyalpo",
+    "civilization": "Yuan Dynasty"
+  },
+  {
+    "id": "Q963733",
+    "name": "Muhammad ibn Tughj al-Ikhshid",
+    "civilization": "Buyid Dynasty"
+  },
+  {
+    "id": "Q336991",
+    "name": "Ibrahim II of Ifriqiya",
+    "civilization": "Aghlabid Dynasty"
+  },
+  {
+    "id": "Q481505",
+    "name": "Abu al-Misk Kafur",
+    "civilization": "Buyid Dynasty"
+  },
+  {
+    "id": "Q257745",
+    "name": "Badr al-Din al-Ayni",
+    "civilization": "Armenian Kingdom of Cilicia"
   },
   {
     "id": "Q132984",
@@ -3640,9 +3935,34 @@
     "civilization": "Kingdom of Georgia"
   },
   {
-    "id": "Q36760",
-    "name": "David IV",
-    "civilization": "Kingdom of Georgia"
+    "id": "Q37086",
+    "name": "Theodore I Laskaris",
+    "civilization": "Nicaean Empire"
+  },
+  {
+    "id": "Q37082",
+    "name": "Theodore II Laskaris",
+    "civilization": "Nicaean Empire"
+  },
+  {
+    "id": "Q729903",
+    "name": "Qutb al-Din al-Shirazi",
+    "civilization": "Ilkhanate"
+  },
+  {
+    "id": "Q37088",
+    "name": "John IV Doukas Laskaris",
+    "civilization": "Nicaean Empire"
+  },
+  {
+    "id": "Q290506",
+    "name": "Al-Allama al-Hilli",
+    "civilization": "Ilkhanate"
+  },
+  {
+    "id": "Q631972",
+    "name": "Safi-ad-Din Ardabili",
+    "civilization": "Ilkhanate"
   },
   {
     "id": "Q359014",
@@ -3660,9 +3980,69 @@
     "civilization": "Kingdom of Northumbria"
   },
   {
+    "id": "Q151908",
+    "name": "Pope Pelagius II",
+    "civilization": "Ostrogothic Kingdom"
+  },
+  {
+    "id": "Q159707",
+    "name": "Totila",
+    "civilization": "Ostrogothic Kingdom"
+  },
+  {
+    "id": "Q504518",
+    "name": "Cuthbert",
+    "civilization": "Kingdom of Northumbria"
+  },
+  {
+    "id": "Q103260",
+    "name": "Pope John III",
+    "civilization": "Ostrogothic Kingdom"
+  },
+  {
+    "id": "Q151902",
+    "name": "Pope Benedict I",
+    "civilization": "Ostrogothic Kingdom"
+  },
+  {
+    "id": "Q160714",
+    "name": "Willibrord",
+    "civilization": "Kingdom of Northumbria"
+  },
+  {
+    "id": "Q381292",
+    "name": "Cædmon",
+    "civilization": "Kingdom of Northumbria"
+  },
+  {
+    "id": "Q360388",
+    "name": "Alfonso II of Asturias",
+    "civilization": "Kingdom of Asturias"
+  },
+  {
     "id": "Q981888",
     "name": "Tao Hongjing",
     "civilization": "Liu Song Dynasty"
+  },
+  {
+    "id": "Q561165",
+    "name": "Shen Yue",
+    "civilization": "Liu Song Dynasty"
+  },
+  {
+    "id": "Q1149114",
+    "name": "Emperor Yuan of Liang",
+    "civilization": "Liang Dynasty"
+  },
+  {
+    "id": "Q197778",
+    "name": "Zhiyi",
+    "civilization": "Liang Dynasty"
+  },
+  {
+    "id": "Q885563",
+    "name": "Humban-haltash III",
+    "civilization": "Elam"
   },
   {
     "id": "Q1038423",
@@ -3675,9 +4055,24 @@
     "civilization": "Cimmerian Bosporus"
   },
   {
+    "id": "Q3143845",
+    "name": "Hygiaenon",
+    "civilization": "Cimmerian Bosporus"
+  },
+  {
+    "id": "Q313312",
+    "name": "Labarna I",
+    "civilization": "Hittites"
+  },
+  {
     "id": "Q296863",
     "name": "Ferdinand I of León",
     "civilization": "Kingdom of León"
+  },
+  {
+    "id": "Q317787",
+    "name": "Ibn Hazm",
+    "civilization": "Caliphate of Córdoba"
   },
   {
     "id": "Q284531",
@@ -3685,24 +4080,19 @@
     "civilization": "Caliphate of Córdoba"
   },
   {
-    "id": "Q334496",
-    "name": "Ghazan",
-    "civilization": "Ilkhanate"
-  },
-  {
-    "id": "Q197461",
-    "name": "Zhao Mengfu",
-    "civilization": "Yuan Dynasty"
-  },
-  {
-    "id": "Q885563",
-    "name": "Humban-haltash III",
-    "civilization": "Elam"
+    "id": "Q357771",
+    "name": "Paul of Samosata",
+    "civilization": "Kingdom of Osroene"
   },
   {
     "id": "Q1143326",
     "name": "Ardys I",
     "civilization": "Kingdom of Judah"
+  },
+  {
+    "id": "Q1066855",
+    "name": "Dugu Qieluo",
+    "civilization": "Liang Dynasty"
   },
   {
     "id": "Q1285773",
@@ -3715,28 +4105,43 @@
     "civilization": "Chen Dynasty"
   },
   {
+    "id": "Q983198",
+    "name": "Tróndur í Gøtu",
+    "civilization": "Viking settlements"
+  },
+  {
+    "id": "Q209138",
+    "name": "Ingólfr Arnarson",
+    "civilization": "Scandinavian minor kingdoms"
+  },
+  {
+    "id": "Q2628262",
+    "name": "Hastein",
+    "civilization": "Scandinavian minor kingdoms"
+  },
+  {
     "id": "Q461614",
     "name": "Gudfred",
     "civilization": "Scandinavian minor kingdoms"
   },
   {
-    "id": "Q242395",
-    "name": "Thyra",
+    "id": "Q4129948",
+    "name": "Witzan",
+    "civilization": "Saxons"
+  },
+  {
+    "id": "Q633681",
+    "name": "Björn Eriksson",
     "civilization": "Scandinavian minor kingdoms"
-  },
-  {
-    "id": "Q1149114",
-    "name": "Emperor Yuan of Liang",
-    "civilization": "Liang Dynasty"
-  },
-  {
-    "id": "Q1039198",
-    "name": "Xiao Tong",
-    "civilization": "Liang Dynasty"
   },
   {
     "id": "Q1140994",
     "name": "Emperor Jianwen of Liang",
+    "civilization": "Liang Dynasty"
+  },
+  {
+    "id": "Q545278",
+    "name": "Nanyue Huisi",
     "civilization": "Liang Dynasty"
   },
   {
@@ -3745,9 +4150,29 @@
     "civilization": "Kingdom of Judah"
   },
   {
+    "id": "Q2290815",
+    "name": "Siwe-Palar-Khuppak",
+    "civilization": "Elam"
+  },
+  {
     "id": "Q878671",
     "name": "Untash-Napirisha",
     "civilization": "Elam"
+  },
+  {
+    "id": "Q264523",
+    "name": "Piyassili",
+    "civilization": "Mitanni"
+  },
+  {
+    "id": "Q381947",
+    "name": "Menua",
+    "civilization": "Kingdom of Urartu"
+  },
+  {
+    "id": "Q816398",
+    "name": "Ben-Hadad III",
+    "civilization": "Kingdom of Judah"
   },
   {
     "id": "Q313423",
@@ -3755,13 +4180,23 @@
     "civilization": "Kingdom of Judah"
   },
   {
-    "id": "Q127170",
-    "name": "Hazael",
+    "id": "Q455594",
+    "name": "Necho I",
     "civilization": "Kingdom of Judah"
   },
   {
-    "id": "Q200031",
-    "name": "Numa Pompilius",
+    "id": "Q352690",
+    "name": "Rusa I",
+    "civilization": "Kingdom of Urartu"
+  },
+  {
+    "id": "Q206741",
+    "name": "Ancus Marcius",
+    "civilization": "Roman Kingdom"
+  },
+  {
+    "id": "Q200859",
+    "name": "Tullus Hostilius",
     "civilization": "Roman Kingdom"
   },
   {
@@ -3780,49 +4215,19 @@
     "civilization": "Roman Kingdom"
   },
   {
-    "id": "Q206741",
-    "name": "Ancus Marcius",
-    "civilization": "Roman Kingdom"
-  },
-  {
-    "id": "Q200859",
-    "name": "Tullus Hostilius",
-    "civilization": "Roman Kingdom"
-  },
-  {
-    "id": "Q497601",
-    "name": "Geunchogo of Baekje",
-    "civilization": "Baekje"
-  },
-  {
     "id": "Q294439",
     "name": "Kaloyan of Bulgaria",
     "civilization": "Second Bulgarian Empire"
   },
   {
-    "id": "Q1611385",
-    "name": "Adikavi Pampa",
-    "civilization": "Rashtrakuta Dynasty"
+    "id": "Q481384",
+    "name": "Miskawayh",
+    "civilization": "Buyid Dynasty"
   },
   {
-    "id": "Q1378353",
-    "name": "Kayqubad III",
-    "civilization": "Ilkhanate"
-  },
-  {
-    "id": "Q122610",
-    "name": "Ivan Alexander of Bulgaria",
-    "civilization": "Second Bulgarian Empire"
-  },
-  {
-    "id": "Q729903",
-    "name": "Qutb al-Din al-Shirazi",
-    "civilization": "Ilkhanate"
-  },
-  {
-    "id": "Q290506",
-    "name": "Al-Allama al-Hilli",
-    "civilization": "Ilkhanate"
+    "id": "Q367330",
+    "name": "Ibn Hawqal",
+    "civilization": "Hamdanid Emirates"
   },
   {
     "id": "Q352544",
@@ -3850,19 +4255,14 @@
     "civilization": "Jin"
   },
   {
-    "id": "Q1184862",
-    "name": "King Xiang of Zhou",
-    "civilization": "Zhou Dynasty"
-  },
-  {
     "id": "Q261333",
     "name": "King Xi of Zhou",
     "civilization": "Kingdom of Judah"
   },
   {
-    "id": "Q1269349",
-    "name": "Fuchai of Wu",
-    "civilization": "Wu"
+    "id": "Q1052199",
+    "name": "Duke Wu of Jin",
+    "civilization": "Jin"
   },
   {
     "id": "Q198154",
@@ -3870,14 +4270,24 @@
     "civilization": "Kingdom of Judah"
   },
   {
+    "id": "Q1184856",
+    "name": "King Jing of Zhou (Gui)",
+    "civilization": "Zhou Dynasty"
+  },
+  {
+    "id": "Q1184862",
+    "name": "King Xiang of Zhou",
+    "civilization": "Zhou Dynasty"
+  },
+  {
+    "id": "Q839166",
+    "name": "Duke Jing of Jin (Ju)",
+    "civilization": "Jin"
+  },
+  {
     "id": "Q1279924",
     "name": "Helü of Wu",
     "civilization": "Wu"
-  },
-  {
-    "id": "Q3101072",
-    "name": "Zhizhi",
-    "civilization": "Xiongnu"
   },
   {
     "id": "Q2986904",
@@ -3885,44 +4295,64 @@
     "civilization": "Xiongnu"
   },
   {
-    "id": "Q187519",
-    "name": "Charles the Simple",
-    "civilization": "West Franks"
+    "id": "Q333609",
+    "name": "Alfonso I of Asturias",
+    "civilization": "Kingdom of Asturias"
   },
   {
-    "id": "Q193658",
-    "name": "Louis IV of France",
-    "civilization": "West Franks"
+    "id": "Q553113",
+    "name": "Beatus of Liébana",
+    "civilization": "Kingdom of Asturias"
   },
   {
-    "id": "Q182840",
-    "name": "Louis the Stammerer",
-    "civilization": "West Franks"
+    "id": "Q351715",
+    "name": "Fruela I of Asturias",
+    "civilization": "Kingdom of Asturias"
   },
   {
-    "id": "Q208082",
-    "name": "Robert I of France",
-    "civilization": "West Franks"
+    "id": "Q379783",
+    "name": "Bermudo I of Asturias",
+    "civilization": "Kingdom of Asturias"
   },
   {
-    "id": "Q208086",
-    "name": "Odo of France",
-    "civilization": "West Franks"
+    "id": "Q351719",
+    "name": "Silo of Asturias",
+    "civilization": "Kingdom of Asturias"
   },
   {
-    "id": "Q317933",
-    "name": "Hugh the Great",
-    "civilization": "West Franks"
+    "id": "Q443034",
+    "name": "Fernán González of Castile",
+    "civilization": "Kingdom of Asturias"
   },
   {
-    "id": "Q273273",
-    "name": "Rudolph of France",
-    "civilization": "West Franks"
+    "id": "Q316115",
+    "name": "Alfonso IX of León",
+    "civilization": "Kingdom of León"
   },
   {
-    "id": "Q313017",
-    "name": "William Longsword",
-    "civilization": "West Franks"
+    "id": "Q164889",
+    "name": "Manfred, King of Sicily",
+    "civilization": "Kingdom of Sicily"
+  },
+  {
+    "id": "Q766247",
+    "name": "Lutipri",
+    "civilization": "Kingdom of Urartu"
+  },
+  {
+    "id": "Q1060366",
+    "name": "Zakkur",
+    "civilization": "Kingdom of Judah"
+  },
+  {
+    "id": "Q353497",
+    "name": "Sarduri II",
+    "civilization": "Kingdom of Urartu"
+  },
+  {
+    "id": "Q365929",
+    "name": "Shabaka",
+    "civilization": "Kingdom of Kush"
   },
   {
     "id": "Q546639",
@@ -3935,8 +4365,8 @@
     "civilization": "Kingdom of Kush"
   },
   {
-    "id": "Q365929",
-    "name": "Shabaka",
+    "id": "Q434547",
+    "name": "Shebitku",
     "civilization": "Kingdom of Kush"
   },
   {
@@ -3945,24 +4375,19 @@
     "civilization": "Twenty-sixth Dynasty of Egypt"
   },
   {
-    "id": "Q434547",
-    "name": "Shebitku",
-    "civilization": "Kingdom of Kush"
+    "id": "Q888572",
+    "name": "Idanthyrsus",
+    "civilization": "Kingdom of Judah"
   },
   {
-    "id": "Q316115",
-    "name": "Alfonso IX of León",
+    "id": "Q169640",
+    "name": "Hisham II of Córdoba",
+    "civilization": "Caliphate of Córdoba"
+  },
+  {
+    "id": "Q128701",
+    "name": "Urraca of León and Castile",
     "civilization": "Kingdom of León"
-  },
-  {
-    "id": "Q160714",
-    "name": "Willibrord",
-    "civilization": "Kingdom of Northumbria"
-  },
-  {
-    "id": "Q381292",
-    "name": "Cædmon",
-    "civilization": "Kingdom of Northumbria"
   },
   {
     "id": "Q272148",
@@ -3985,14 +4410,39 @@
     "civilization": "Kingdom of Judah"
   },
   {
+    "id": "Q380815",
+    "name": "Argišti II",
+    "civilization": "Kingdom of Urartu"
+  },
+  {
     "id": "Q105105",
     "name": "Theodoric the Great",
     "civilization": "Ostrogothic Kingdom"
   },
   {
-    "id": "Q2290815",
-    "name": "Siwe-Palar-Khuppak",
-    "civilization": "Elam"
+    "id": "Q168734",
+    "name": "Pope Vigilius",
+    "civilization": "Ostrogothic Kingdom"
+  },
+  {
+    "id": "Q170303",
+    "name": "Pope Pelagius I",
+    "civilization": "Ostrogothic Kingdom"
+  },
+  {
+    "id": "Q371670",
+    "name": "Amalasuintha",
+    "civilization": "Ostrogothic Kingdom"
+  },
+  {
+    "id": "Q44934",
+    "name": "Venantius Fortunatus",
+    "civilization": "Ostrogothic Kingdom"
+  },
+  {
+    "id": "Q312601",
+    "name": "Theodahad",
+    "civilization": "Ostrogothic Kingdom"
   },
   {
     "id": "Q1687831",
@@ -4000,19 +4450,14 @@
     "civilization": "Elam"
   },
   {
-    "id": "Q4695015",
-    "name": "Ahatmilku",
-    "civilization": "Ugarit"
-  },
-  {
     "id": "Q889393",
     "name": "Igi-Halki",
     "civilization": "Elam"
   },
   {
-    "id": "Q264523",
-    "name": "Piyassili",
-    "civilization": "Mitanni"
+    "id": "Q4695015",
+    "name": "Ahatmilku",
+    "civilization": "Ugarit"
   },
   {
     "id": "Q703646",
@@ -4023,11 +4468,6 @@
     "id": "Q4991",
     "name": "Emperor Taizong of Liao",
     "civilization": "Liao Dynasty"
-  },
-  {
-    "id": "Q561165",
-    "name": "Shen Yue",
-    "civilization": "Liu Song Dynasty"
   },
   {
     "id": "Q49702",
@@ -4050,18 +4490,8 @@
     "civilization": "Kingdom of Judah"
   },
   {
-    "id": "Q541989",
-    "name": "Rusa III",
-    "civilization": "Kingdom of Urartu"
-  },
-  {
     "id": "Q19248",
     "name": "Senusret III",
-    "civilization": "Middle Kingdom of Egypt"
-  },
-  {
-    "id": "Q228951",
-    "name": "Sobekneferu",
     "civilization": "Middle Kingdom of Egypt"
   },
   {
@@ -4075,6 +4505,16 @@
     "civilization": "Middle Kingdom of Egypt"
   },
   {
+    "id": "Q313052",
+    "name": "Pharnaces II of Pontus",
+    "civilization": "Kingdom of Pontus"
+  },
+  {
+    "id": "Q350749",
+    "name": "Mithridates IV of Pontus",
+    "civilization": "Kingdom of Pontus"
+  },
+  {
     "id": "Q373015",
     "name": "Mithridates V Euergetes",
     "civilization": "Kingdom of Pontus"
@@ -4085,29 +4525,14 @@
     "civilization": "Second Bulgarian Empire"
   },
   {
-    "id": "Q371670",
-    "name": "Amalasuintha",
-    "civilization": "Ostrogothic Kingdom"
-  },
-  {
-    "id": "Q242832",
-    "name": "Lothair of France",
-    "civilization": "West Franks"
-  },
-  {
     "id": "Q748091",
     "name": "Ivan Asen I",
     "civilization": "Second Bulgarian Empire"
   },
   {
-    "id": "Q504518",
-    "name": "Cuthbert",
-    "civilization": "Kingdom of Northumbria"
-  },
-  {
-    "id": "Q332123",
-    "name": "Penda of Mercia",
-    "civilization": "Kingdom of Mercia"
+    "id": "Q704558",
+    "name": "Liu Xie",
+    "civilization": "Liu Song Dynasty"
   },
   {
     "id": "Q470072",
@@ -4115,23 +4540,8 @@
     "civilization": "Shang Dynasty"
   },
   {
-    "id": "Q369159",
-    "name": "Wu Ding",
-    "civilization": "Shang Dynasty"
-  },
-  {
     "id": "Q270018",
     "name": "Fu Hao",
-    "civilization": "Shang Dynasty"
-  },
-  {
-    "id": "Q929178",
-    "name": "King Kang of Zhou",
-    "civilization": "Zhou Dynasty"
-  },
-  {
-    "id": "Q736654",
-    "name": "Pan Geng",
     "civilization": "Shang Dynasty"
   },
   {
@@ -4143,6 +4553,11 @@
     "id": "Q197807",
     "name": "Zhong Ding",
     "civilization": "Shang Dynasty"
+  },
+  {
+    "id": "Q1336699",
+    "name": "Liao Hua",
+    "civilization": "Shu Han"
   },
   {
     "id": "Q718195",
@@ -4160,6 +4575,11 @@
     "civilization": "Southern Qi"
   },
   {
+    "id": "Q3236824",
+    "name": "Jiang Yan (poet)",
+    "civilization": "Liu Song Dynasty"
+  },
+  {
     "id": "Q1282784",
     "name": "Xie He (artist)",
     "civilization": "Liu Song Dynasty"
@@ -4170,14 +4590,54 @@
     "civilization": "Sultanate of Malacca"
   },
   {
-    "id": "Q580120",
-    "name": "Gorgippus",
-    "civilization": "Cimmerian Bosporus"
+    "id": "Q976097",
+    "name": "Ximen Bao",
+    "civilization": "Wei"
   },
   {
-    "id": "Q350749",
-    "name": "Mithridates IV of Pontus",
-    "civilization": "Kingdom of Pontus"
+    "id": "Q477291",
+    "name": "King Hui of Wei",
+    "civilization": "Wei"
+  },
+  {
+    "id": "Q3773182",
+    "name": "Pang Juan",
+    "civilization": "Wei"
+  },
+  {
+    "id": "Q1140999",
+    "name": "Marquess Wen of Wei",
+    "civilization": "Wei"
+  },
+  {
+    "id": "Q887650",
+    "name": "King Xian of Zhou",
+    "civilization": "Zhou Dynasty"
+  },
+  {
+    "id": "Q482655",
+    "name": "King An of Zhou",
+    "civilization": "Zhou Dynasty"
+  },
+  {
+    "id": "Q218900",
+    "name": "Shi Shen",
+    "civilization": "Wei"
+  },
+  {
+    "id": "Q888530",
+    "name": "King Lie of Zhou",
+    "civilization": "Zhou Dynasty"
+  },
+  {
+    "id": "Q1279933",
+    "name": "King Nan of Zhou",
+    "civilization": "Zhou Dynasty"
+  },
+  {
+    "id": "Q497911",
+    "name": "Seong of Baekje",
+    "civilization": "Baekje"
   },
   {
     "id": "Q2985487",
@@ -4188,6 +4648,26 @@
     "id": "Q2660296",
     "name": "Emperor Fei of Western Wei",
     "civilization": "Western Wei"
+  },
+  {
+    "id": "Q565148",
+    "name": "Qiu Chuji",
+    "civilization": "Great Jin"
+  },
+  {
+    "id": "Q699485",
+    "name": "Liu Bowen",
+    "civilization": "Yuan Dynasty"
+  },
+  {
+    "id": "Q334496",
+    "name": "Ghazan",
+    "civilization": "Ilkhanate"
+  },
+  {
+    "id": "Q197461",
+    "name": "Zhao Mengfu",
+    "civilization": "Yuan Dynasty"
   },
   {
     "id": "Q1209245",

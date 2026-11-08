@@ -12,11 +12,13 @@
   "occupation": "",
   "birth_country": "",
   "civilizations": [
+    "Khanate of Kokand",
     "Qing Dynasty"
   ],
   "related": [],
   "contribution": "A member of the influential Afaqi khoja clan, who managed to wrest Kashgaria from the Qing Empire's power for a few years in the 1820s but was eventually defeated and executed.",
   "setting": "",
+  "modern_country": "Uzbekistan",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +34,20 @@
       ],
       "citizenship": [
         "Khanate of Kokand"
+      ],
+      "born_in": [
+        "Khanate of Kokand"
       ]
     },
     "lead": "Jahanghir Khoja, Jāhangīr Khwāja or Jihangir Khoja (Uyghur: جهانگیر خوجا, جهانگير خوجة; traditional Chinese: 張格爾; simplified Chinese: 张格尔; pinyin: Zhānggé'ěr; 1788 – 25 June 1828), was a member of the influential Afaqi khoja clan, who managed to wrest Kashgaria from the Qing Empire's power for a few years in the 1820s but was eventually defeated and executed.",
     "image": "no candidate shows one person",
-    "photo": "Battle at the River Honbasi.jpg: model 0.08, one person 0.00"
+    "photo": "Battle at the River Honbasi.jpg: model 0.08, one person 0.00",
+    "birth": {
+      "location": [
+        70.9425,
+        40.528611111111
+      ],
+      "year": 1788
+    }
   }
 }

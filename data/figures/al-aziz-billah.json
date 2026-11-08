@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The fifth caliph of the Fatimid dynasty, from 975 to his death in 996.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Fatimid Caliphate"
+      ],
+      "born_in": [
+        "Fatimid Caliphate"
       ]
     },
     "lead": "Abu Mansur Nizar (Arabic: أبو منصور نزار, romanized: Abū Manṣūr Nizār; 10 May 955 – 14 October 996), known by his regnal name as al-Aziz Billah (Arabic: العزيز بالله, romanized: al-ʿAzīz bi-l-Lāh, lit. 'the Mighty One through God'), was the fifth caliph of the Fatimid dynasty, from 975 to his death in 996. His reign saw the capture of Damascus and the Fatimid expansion into the Levant, which brought al-Aziz into conflict with the Byzantine emperor Basil II over control of Aleppo. During the course of this expansion, al-Aziz took into his service large numbers of Turkic and Daylamite slave-soldiers, thereby breaking the near-monopoly on Fatimid military power held until then by the Kutama Berbers.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.06666667,
+        35.5
+      ],
+      "year": 955
+    }
   }
 }

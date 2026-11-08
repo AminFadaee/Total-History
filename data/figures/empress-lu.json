@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The empress consort of Gaozu, the founding emperor of the Han dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/empress-lu.jpg",
   "image_credit": "鍾 惺, 1574-1624 · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Chu"
+      ],
+      "born_in": [
+        "Chu"
       ]
     },
     "lead": "Lü Zhi (241 BC – 18 August 180 BC), courtesy name Exu (娥姁), and commonly known as Empress Lü (traditional Chinese: 呂后; simplified Chinese: 吕后; pinyin: Lǚ Hòu) and formally Empress Gao of Han (漢高后; 汉高后; Hàn Gāo Hòu), was the empress consort of Gaozu, the founding emperor of the Han dynasty. They had two known children, Liu Ying (later Emperor Hui of Han) and Princess Yuan of Lu. Lü was the first woman to assume the title of \"empress of China\" and paramount power. After Gaozu's death, she was honored as empress dowager and ruled as regent during the short reigns of Emperor Hui and his successors Emperor Qianshao and Emperor Houshao.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        116.1065,
+        34.7797
+      ],
+      "year": -241
+    }
   }
 }

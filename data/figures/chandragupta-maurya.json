@@ -19,6 +19,7 @@
   ],
   "contribution": "The founder and the first emperor of the Maurya Empire, based in Magadha in the Indian subcontinent.",
   "setting": "",
+  "modern_country": "India",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "citizenship": [
         "Maurya Empire"
+      ],
+      "born_in": [
+        "Magadha - Shaishunaga dynasty"
       ]
     },
     "lead": "Chandragupta Maurya (reigned c. 320 BCE – c. 298 BCE) was the founder and the first emperor of the Maurya Empire, based in Magadha (present-day Bihar) in the Indian subcontinent.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        85.12833333,
+        25.6125
+      ],
+      "year": -340
+    }
   }
 }

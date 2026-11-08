@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "The penultimate Korean monarch.",
   "setting": "",
+  "modern_country": "South Korea",
   "image": "images/gojong-of-korea.jpg",
   "image_credit": "This photo was taken in 1907. · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Joseon"
+      ],
+      "born_in": [
+        "Joseon"
       ]
     },
     "lead": "Gojong (Korean: 고종; Hanja: 高宗; 8 September 1852 – 21 January 1919), personal name Yi Jaehwang, later changed to Yi Hui, also known as the Gwangmu Emperor, was the penultimate Korean monarch. He ruled Korea for 43 years, from 1864 until his forced abdication in 1907, initially as the 26th king of Joseon, and then as the first emperor of the Korean Empire. His wife, Queen Min (commonly known as Empress Myeongseong), played an active role in politics until her assassination carried out by the Japanese.",
     "image": "",
-    "photo": "model 0.92, one person 0.98, captured 1907, during their lifetime"
+    "photo": "model 0.92, one person 0.98, captured 1907, during their lifetime",
+    "birth": {
+      "location": [
+        126.9872332,
+        37.5761219
+      ],
+      "year": 1852
+    }
   }
 }

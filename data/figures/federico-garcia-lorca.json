@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "García Lorca achieved international recognition as an emblematic member of the Generation of '27, a group consisting mostly of poets who introduced the tenets of European movements into Spanish literature.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/federico-garcia-lorca.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
-    "lead": "Federico del Sagrado Corazón de Jesús García Lorca (5 June 1898 – 19 August 1936) was a Spanish poet, playwright, and theatre director. García Lorca achieved international recognition as an emblematic member of the Generation of '27, a group consisting mostly of poets who introduced the tenets of European movements (such as symbolism, futurism, and surrealism) into Spanish literature.",
+    "lead": "Federico del Sagrado Corazón de Jesús García Lorca (5 June 1898 – 18 August 1936) was a Spanish poet, playwright, and theatre director. García Lorca achieved international recognition as an emblematic member of the Generation of '27, a group consisting mostly of poets who introduced the tenets of European movements (such as symbolism, futurism, and surrealism) into Spanish literature.",
     "image": "",
-    "photo": "model 0.92, one person 0.96, in Category:1932 photographs of Spain"
+    "photo": "model 0.92, one person 0.96, in Category:1932 photographs of Spain",
+    "birth": {
+      "location": [
+        -3.78305556,
+        37.21666667
+      ],
+      "year": 1898
+    }
   }
 }

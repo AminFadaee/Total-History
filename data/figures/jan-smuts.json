@@ -21,6 +21,7 @@
   ],
   "contribution": "In addition to holding various military and cabinet posts, he served as Prime Minister of the Union of South Africa from 1919 to 1924 and 1939 to 1948.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/jan-smuts.jpg",
   "image_credit": "Harris & Ewing, photographer · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "British Cape Colony"
+      ],
+      "born_in": [
+        "British Cape Colony"
       ]
     },
     "lead": "Field Marshal Jan Christian Smuts (Afrikaans: [jan smœts]; baptismal name Jan Christiaan Smuts; 24 May 1870 – 11 September 1950) was a South African statesman, military officer and philosopher. In addition to holding various military and cabinet posts, he served as Prime Minister of the Union of South Africa from 1919 to 1924 and 1939 to 1948.",
     "image": "",
-    "photo": "model 0.89, one person 0.98, captured 1950, during their lifetime"
+    "photo": "model 0.89, one person 0.98, captured 1950, during their lifetime",
+    "birth": {
+      "location": [
+        18.86736667,
+        -33.35046944
+      ],
+      "year": 1870
+    }
   }
 }

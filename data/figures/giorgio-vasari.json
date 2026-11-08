@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An Italian Renaissance painter, architect, art historian, and biographer known for his work Lives of the Most Excellent Painters, Sculptors, and Architects, considered the ideological foundation of Western art-historical writing, and still much cited in modern biographies of the many Italian Renaissance artists he covers, including Leonardo da Vinci and Michelangelo, although he is since regarded as including many factual errors, especially when covering artists from before he was born.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/giorgio-vasari.jpg",
   "image_credit": "Attributed to Jacopo Zucchi · Public domain",
   "image_kind": "Portrait from life",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Republic of Florence"
+      ],
+      "born_in": [
+        "Republic of Florence"
       ]
     },
     "lead": "Giorgio Vasari (30 July 1511 – 27 June 1574) was an Italian Renaissance painter, architect, art historian, and biographer known for his work Lives of the Most Excellent Painters, Sculptors, and Architects, considered the ideological foundation of Western art-historical writing, and still much cited in modern biographies of the many Italian Renaissance artists he covers, including Leonardo da Vinci and Michelangelo, although he is since regarded as including many factual errors, especially when covering artists from before he was born.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.87833333,
+        43.46333333
+      ],
+      "year": 1511
+    }
   }
 }

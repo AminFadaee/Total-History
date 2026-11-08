@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Polish poet, essayist, translator, and recipient of the 1996 Nobel Prize in Literature.",
   "setting": "Republic of Poland",
+  "modern_country": "Poland",
   "image": "images/wisawa-szymborska.jpg",
   "image_credit": "Mariusz Kubik · CC BY 3.0",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Second Polish Republic"
+      ],
+      "born_in": [
+        "Second Polish Republic"
       ]
     },
     "lead": "Maria Wisława Anna Szymborska (Polish: [viˈswava ʂɨmˈbɔrska]; 2 July 1923 – 1 February 2012) was a Polish poet, essayist, translator, and recipient of the 1996 Nobel Prize in Literature. Born in Prowent (now part of Kórnik in west-central Poland), she resided in Kraków until the end of her life. In Poland, Szymborska's books have reached sales rivaling prominent prose authors, though she wrote in a poem, \"Some Like Poetry\" (\"Niektórzy lubią poezję\"), that \"perhaps\" two in a thousand people like poetry.",
     "image": "",
-    "photo": "model 0.96, one person 0.98, captured 2009, during their lifetime"
+    "photo": "model 0.96, one person 0.98, captured 2009, during their lifetime",
+    "birth": {
+      "location": [
+        17.09608056,
+        52.23133889
+      ],
+      "year": 1923
+    }
   }
 }

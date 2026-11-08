@@ -3,7 +3,7 @@
   "slug": "diponegoro",
   "name": "Diponegoro",
   "wikipedia": "Diponegoro",
-  "role": "Javanese prince who opposed Dutch colonialism",
+  "role": "Javanese prince",
   "life": "1785–1855",
   "lifetime": [
     1785,
@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Javanese prince who opposed the Dutch colonial rule.",
   "setting": "",
+  "modern_country": "Indonesia",
   "image": "images/diponegoro.jpg",
   "image_credit": "Lithograph by C. C. A. Last in 1835 to an original pencil drawing by A. J. Bik from 1830 · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Dutch East Indies"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Prince Diponegoro (Javanese: ꦢꦶꦥꦤꦼꦒꦫ, romanized: Dipånegårå; born Bendara Raden Mas Mustahar, ꦧꦼꦤ꧀ꦢꦫꦫꦢꦺꦤ꧀ꦩꦱ꧀ꦩꦸꦱ꧀ꦠꦲꦂ; later Bendara Raden Mas Antawirya, ꦧꦼꦤ꧀ꦢꦫꦫꦢꦺꦤ꧀ꦩꦱ꧀ꦲꦤ꧀ꦠꦮꦶꦂꦪ; 11 November 1785 – 8 January 1855), also known as Dipanegara and Dipa Negara, was a Javanese prince who opposed the Dutch colonial rule. The eldest son of the Yogyakarta Sultan Hamengkubuwono III, he played an important role in the Java War between 1825 and 1830. After his defeat and capture, he was exiled to Makassar, where he died at 69 years old.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        110.36444444,
+        -7.80138889
+      ],
+      "year": 1785
+    }
   }
 }

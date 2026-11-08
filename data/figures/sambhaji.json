@@ -21,6 +21,7 @@
   ],
   "contribution": "Second Maratha king of the Maratha Empire, also a writer, philosopher and successor of Shivaji (1657-1689).",
   "setting": "",
+  "modern_country": "India",
   "image": "images/sambhaji.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Bijapur Sultanate"
+      ],
+      "born_in": [
+        "Bijapur Sultanate"
       ]
     },
     "lead": "Sambhaji (Sambhajiraje Shivajiraje Bhonsle, Marathi pronunciation: [saːmˈbʱaːdʑiː ˈbʱos(ə)le]; 14 May 1657 – 11 March 1689), also known as Shambhuraje, ruled from 1681 to 1689 as the second king (Chhatrapati) of the Maratha Empire, a prominent state in early modern India. He was the eldest son of Shivaji, the founder of the Maratha Empire.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        73.98333333,
+        18.28333333
+      ],
+      "year": 1657
+    }
   }
 }

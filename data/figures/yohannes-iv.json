@@ -19,6 +19,7 @@
   ],
   "contribution": "Emperor of Ethiopia from 1871 to his death in 1889 at the Battle of Gallabat, and king of Tigray from 1869 to 1871.",
   "setting": "",
+  "modern_country": "Ethiopia",
   "image": "images/yohannes-iv.jpg",
   "image_credit": "Unknown but obviously dided 70 years ago · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Ethiopian Empire"
+      ],
+      "born_in": [
+        "Ethiopian Empire"
       ]
     },
     "lead": "Yohannes IV (Tigrinya: ዮሓንስ ፬ይ Rabaiy Yōḥānnes; horse name Abba Bezbiz also known as Kahśsai; born Lij Kahssai Mercha; 11 July 1837 – 10 March 1889) was Emperor of Ethiopia from 1871 to his death in 1889 at the Battle of Gallabat, and king of Tigray from 1869 to 1871. During his reign he successfully defended Ethiopia against a large-scale Egyptian invasion.",
     "image": "",
-    "photo": "model 0.93, one person 0.99, captured 1850, during their lifetime"
+    "photo": "model 0.93, one person 0.99, captured 1850, during their lifetime",
+    "birth": {
+      "location": [
+        39.1,
+        13.66666667
+      ],
+      "year": 1837
+    }
   }
 }

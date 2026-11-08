@@ -12,14 +12,15 @@
   "occupation": "Philosopher",
   "birth_country": "Algeria",
   "civilizations": [
-    "Byzantine Empire",
-    "Roman Empire"
+    "Roman Empire",
+    "Byzantine Empire"
   ],
   "related": [
     "Western Roman Empire"
   ],
   "contribution": "A Christian theologian and philosopher from Thagaste, Numidia Cirtensis and the Bishop of Hippo Regius.",
   "setting": "",
+  "modern_country": "Algeria",
   "image": "images/augustine-of-hippo.jpg",
   "image_credit": "Philippe de Champaigne · Public domain",
   "image_kind": "Later depiction",
@@ -33,10 +34,20 @@
       "citizenship": [
         "Byzantine Empire",
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
     "lead": "Augustine of Hippo ( aw-GUST-in, US also  AW-gə-steen; Latin: Aurelius Augustinus Hipponensis; 13 November 354 – 28 August 430), also well-known as Saint Augustine, was a Christian theologian and philosopher from Thagaste, Numidia Cirtensis and the Bishop of Hippo Regius. He is generally regarded as one of the most influential philosophers in the history of the Western world, and is viewed as one of the most important Church Fathers of the Latin Church in the Patristic Period.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        7.951111,
+        36.286389
+      ],
+      "year": 354
+    }
   }
 }

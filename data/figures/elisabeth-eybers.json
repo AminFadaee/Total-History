@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Her poetry was mainly in Afrikaans, although she translated some of her own work into English.",
   "setting": "",
+  "modern_country": "",
   "image": "images/elisabeth-eybers.jpg",
   "image_credit": "Leon Levson · Public domain",
   "image_kind": "Photograph",
@@ -30,10 +31,18 @@
       "citizenship": [
         "South Africa",
         "Netherlands"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Elisabeth Françoise Eybers (26 February 1915 – 1 December 2007) was a South African poet. Her poetry was mainly in Afrikaans, although she translated some of her own work (and those of others) into English.",
     "image": "",
-    "photo": "model 0.97, one person 0.97, captured 1956, during their lifetime"
+    "photo": "model 0.97, one person 0.97, captured 1956, during their lifetime",
+    "birth": {
+      "location": [
+        26.666666666667,
+        -26.866666666667
+      ],
+      "year": 1915
+    }
   }
 }

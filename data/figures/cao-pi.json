@@ -21,6 +21,7 @@
   ],
   "contribution": "The first emperor of the state of Cao Wei in the Three Kingdoms period of China.",
   "setting": "",
+  "modern_country": "",
   "image": "images/cao-pi.jpg",
   "image_credit": "Yan Li-pen · Public domain",
   "image_kind": "Later depiction",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Han Dynasty"
+      ],
+      "born_in": [
+        "Han Dynasty"
       ]
     },
     "lead": "Cao Pi () (c.late 187 – 29 June 226), courtesy name Zihuan, was the first emperor of the state of Cao Wei in the Three Kingdoms period of China. He was the second son of Cao Cao, a warlord who lived in the late Eastern Han dynasty, but the eldest son among all the children born to Cao Cao by his concubine (later wife), Lady Bian. According to some historical records, he was often in the presence of court officials in order to gain their support. He was mostly in charge of defence at the start of his career. After the defeat of Cao Cao's rival Yuan Shao at the Battle of Guandu, he took Yuan Xi's wife, Lady Zhen, as a concubine, but in 221 Lady Zhen died and Guo Nüwang became empress.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        115.7786,
+        33.8463
+      ],
+      "year": 187
+    }
   }
 }

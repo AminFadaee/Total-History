@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Sweden from 1751 until his death in 1771.",
   "setting": "",
+  "modern_country": "",
   "image": "images/adolf-frederick-of-sweden.jpg",
   "image_credit": "Gustaf Lundberg · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Adolf (or Adolph) Frederick (Swedish: Adolf Fredrik; German: Adolf Friedrich; 14 May 1710 – 12 February 1771) was King of Sweden from 1751 until his death in 1771. He was the son of Christian August of Holstein-Gottorp, Prince of Eutin, and Albertina Frederica of Baden-Durlach. He was an uncle of Catherine the Great and husband to Louisa Ulrika of Prussia.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        9.54138889,
+        54.51166667
+      ],
+      "year": 1710
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "President of Argentina from 1963 until his overthrow in 1966.",
   "setting": "",
+  "modern_country": "Argentina",
   "image": "images/arturo-umberto-illia.jpg",
   "image_credit": "Government House of Argentina · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Argentine Republic"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Arturo Umberto Illia (Spanish pronunciation: [aɾˈtuɾo wmˈbeɾto ilˈia]; 4 August 1900 – 18 January 1983) was President of Argentina from 1963 until his overthrow in 1966. He was part of the Radical Civic Union, and the People's Radical Civic Union during his presidency.",
     "image": "",
-    "photo": "model 0.93, one person 0.99, captured 1963, during their lifetime"
+    "photo": "model 0.93, one person 0.99, captured 1963, during their lifetime",
+    "birth": {
+      "location": [
+        -60.56666667,
+        -33.88333333
+      ],
+      "year": 1900
+    }
   }
 }

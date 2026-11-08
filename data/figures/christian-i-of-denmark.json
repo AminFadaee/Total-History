@@ -19,6 +19,7 @@
   ],
   "contribution": "A German noble and Scandinavian monarch under the Kalmar Union.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/christian-i-of-denmark.jpg",
   "image_credit": "Unknown artist · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Christian I (Christiern; February 1426 – 21 May 1481) was a German noble and Scandinavian monarch under the Kalmar Union. He was king of Denmark (1448–1481), Norway (1450–1481) and Sweden (1457–1464). From 1460 to 1481, he was also duke of Schleswig (within Denmark) and count (after 1474, duke) of Holstein (within the Holy Roman Empire). He was the first king of the House of Oldenburg.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        8.21388889,
+        53.14388889
+      ],
+      "year": 1426
+    }
   }
 }

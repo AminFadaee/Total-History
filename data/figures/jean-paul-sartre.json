@@ -12,11 +12,13 @@
   "occupation": "Writer",
   "birth_country": "France",
   "civilizations": [
+    "French Third Republic",
     "People's Democratic Republic of Algeria"
   ],
   "related": [],
   "contribution": "A French philosopher, political activist, and writer, considered a leading figure in 20th-century French philosophy and Marxism.",
-  "setting": "People's Democratic Republic of Algeria",
+  "setting": "",
+  "modern_country": "France",
   "image": "images/jean-paul-sartre.jpg",
   "image_credit": "Moshe Milner · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -35,10 +37,20 @@
       ],
       "birthplace": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "French Third Republic"
       ]
     },
     "lead": "Jean-Paul Charles Aymard Sartre (, US also ; French: [saʁtʁ]; 21 June 1905 – 15 April 1980) was a French philosopher, political activist, and writer, considered a leading figure in 20th-century French philosophy and Marxism. Sartre was one of the key figures in the philosophy of existentialism (and phenomenology) and was a proponent of Libertarian Marxism. His work has influenced sociology, critical theory, post-colonial theory, and literary studies. He was awarded the 1964 Nobel Prize in Literature despite attempting to refuse it, saying that he always declined official honors and that \"a writer should not allow himself to be turned into an institution\".",
     "image": "",
-    "photo": "model 0.99, one person 0.98, in Category:Photographs by Moshe Milner"
+    "photo": "model 0.99, one person 0.98, in Category:Photographs by Moshe Milner",
+    "birth": {
+      "location": [
+        2.35222222,
+        48.85666667
+      ],
+      "year": 1905
+    }
   }
 }

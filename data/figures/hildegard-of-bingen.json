@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A German Benedictine abbess and polymath, active during the High Middle Ages as a writer, composer, philosopher, mystic, visionary, and as a medical writer.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/hildegard-of-bingen.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Hildegard of Bingen (German: Hildegard von Bingen, pronounced [ˈhɪldəɡaʁt fɔn ˈbɪŋən]; Latin: Hildegardis Bingensis; c. 1098 – 17 September 1179), also known as the \"Sibyl of the Rhine\", was a German Benedictine abbess and polymath, active during the High Middle Ages as a writer, composer, philosopher, mystic, visionary, and as a medical writer. She is one of the best-known composers of sacred monophony, as well as the most recorded in modern history. A number of scholars have considered her to be the founder of scientific natural history in Germany.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        8.22361111,
+        49.68194444
+      ],
+      "year": 1098
+    }
   }
 }

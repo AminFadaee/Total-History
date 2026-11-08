@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A medical pioneer, writer and lawyer of indigenous origin in colonial Ecuador.",
   "setting": "",
+  "modern_country": "Ecuador",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Francisco Javier Eugenio de Santa Cruz y Espejo[a] (Royal Audiencia of Quito, February 21, 1747 – December 28, 1795) was a medical pioneer, writer and lawyer of indigenous origin in colonial Ecuador. Although he was a notable scientist and writer, he stands out as a polemicist who inspired the separatist movement in Quito. He is regarded as one of the most important figures in colonial Ecuador. He was Quito's first journalist and hygienist.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -78.5125,
+        -0.22
+      ],
+      "year": 1747
+    }
   }
 }

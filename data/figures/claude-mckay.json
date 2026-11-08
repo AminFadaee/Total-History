@@ -1,0 +1,46 @@
+{
+  "id": "Q1096967",
+  "slug": "claude-mckay",
+  "name": "Claude McKay",
+  "wikipedia": "Claude McKay",
+  "role": "Jamaican American writer and poet",
+  "life": "1889–1948",
+  "lifetime": [
+    1889,
+    1948
+  ],
+  "occupation": "Writer",
+  "birth_country": "Jamaica",
+  "civilizations": [
+    "British Empire"
+  ],
+  "related": [],
+  "contribution": "He was a central figure in the Harlem Renaissance.",
+  "setting": "",
+  "modern_country": "Jamaica",
+  "image": "images/claude-mckay.jpg",
+  "image_credit": "James L. Allen · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/claude-mckay-photo.jpg",
+  "photo_credit": "James L. Allen · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "birthplace": [
+        "British Empire"
+      ],
+      "born_in": [
+        "British Empire"
+      ]
+    },
+    "lead": "Festus Claudius \"Claude\" McKay  (September 15, 1890 – May 22, 1948) was a Jamaican-American writer and poet. He was a central figure in the Harlem Renaissance.",
+    "image": "",
+    "photo": "model 0.95, one person 1.00, in Category:Photographs of Claude McKay",
+    "birth": {
+      "location": [
+        -77.28333333,
+        18.0
+      ],
+      "year": 1889
+    }
+  }
+}

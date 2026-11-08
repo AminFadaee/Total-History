@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Roman theologian, statesman, preacher, and Bishop of Milan from 374 until his death.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/ambrose.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
     "lead": "Ambrose of Milan (Latin: Aurelius Ambrosius; c. 339 – 4 April 397), canonized as Saint Ambrose, was a Roman theologian, statesman, preacher, and Bishop of Milan from 374 until his death. Trained in rhetoric and law, he served as Roman civil governor of Aemilia-Liguria at Milan before being unexpectedly chosen as bishop by popular acclamation in 374. His preaching, ecclesiastical activity, and writings made him one of the most influential Christian figures of the 4th century.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        6.64138889,
+        49.75666667
+      ],
+      "year": 340
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Berzelius is considered, along with Robert Boyle, John Dalton, and Antoine Lavoisier, to be one of the founders of modern chemistry.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/jons-jacob-berzelius.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Jöns Jacob Berzelius (Swedish: [jœ̌ns ˈjɑ̂ːkɔb bæˈʂěːlɪɵs]; 20 August 1779 – 7 August 1848) was a Swedish chemist. Berzelius is considered, along with Robert Boyle, John Dalton, and Antoine Lavoisier, to be one of the founders of modern chemistry. Berzelius became a member of the Royal Swedish Academy of Sciences in 1808 and served from 1818 as its principal functionary. He is known in Sweden as the \"Father of Swedish Chemistry\". During his lifetime he did not customarily use his first given name, and was universally known simply as Jacob Berzelius.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        15.62527778,
+        58.41583333
+      ],
+      "year": 1779
+    }
   }
 }

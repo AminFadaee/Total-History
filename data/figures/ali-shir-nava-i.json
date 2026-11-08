@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Timurid poet, writer, statesman, linguist, Hanafi Maturidi mystic and painter who was the greatest representative of Chagatai literature.",
   "setting": "",
+  "modern_country": "Afghanistan",
   "image": "images/ali-shir-nava-i.jpg",
   "image_credit": "1486 artist, Herat · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Timurid Empire"
+      ],
+      "born_in": [
+        "Timurid Empire"
       ]
     },
     "lead": "Ali-Shir Nava'i (9 February 1441 – 3 January 1501), also known as Nizām-al-Din ʿAli-Shir Herawī  (Chagatai: نظام الدین علی شیر نوایی) was a Timurid poet, writer, statesman, linguist, Hanafi Maturidi mystic and painter who was the greatest representative of Chagatai literature.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        62.20305556,
+        34.34194444
+      ],
+      "year": 1441
+    }
   }
 }

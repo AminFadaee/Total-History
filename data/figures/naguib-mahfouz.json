@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "An Egyptian writer who won the 1988 Nobel Prize in Literature.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/naguib-mahfouz.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -30,10 +31,18 @@
         "Kingdom of Egypt",
         "United Arab Republic",
         "Republic of Egypt"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Naguib Mahfouz Abdelaziz Ibrahim Ahmed Al-Basha (11 December 1911 – 30 August 2006) was an Egyptian writer who won the 1988 Nobel Prize in Literature. In awarding the prize, the Swedish Academy described him as a writer \"who, through works rich in nuance – now clear-sightedly realistic, now evocatively ambiguous – has formed an Egyptian narrative art that applies to all mankind\".",
     "image": "",
-    "photo": "model 0.92, one person 0.99"
+    "photo": "model 0.92, one person 0.99",
+    "birth": {
+      "location": [
+        31.23583333,
+        30.04444444
+      ],
+      "year": 1911
+    }
   }
 }

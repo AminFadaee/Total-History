@@ -19,6 +19,7 @@
   ],
   "contribution": "The 64th Bishop of Rome from 3 September 590 until his death on 12 March 604.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/pope-gregory-i.jpg",
   "image_credit": "anonymous · Public domain",
   "image_kind": "Later depiction",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Byzantine Empire"
+      ],
+      "born_in": [
+        "Byzantine Empire"
       ]
     },
     "lead": "Pope Gregory I (Latin: Gregorius I; Gregorio I; c. 540 – 12 March 604), commonly known as Saint Gregory the Great (Latin: Sanctus Gregorius Magnus; Italian: San Gregorio Magno), was the 64th Bishop of Rome from 3 September 590 until his death on 12 March 604.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.48277778,
+        41.89333333
+      ],
+      "year": 540
+    }
   }
 }

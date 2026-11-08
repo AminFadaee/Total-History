@@ -19,6 +19,7 @@
   ],
   "contribution": "After usurping the imperial office he was faced with a collapsing empire and constant warfare throughout his reign.",
   "setting": "",
+  "modern_country": "",
   "image": "images/alexios-i-komnenos.jpg",
   "image_credit": "Unknown derivative work: Constantine ✍ · Public domain",
   "image_kind": "Depiction",
@@ -37,10 +38,18 @@
       ],
       "vital_section": [
         "Byzantine Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Alexios I Komnenos (Greek: Ἀλέξιος Κομνηνός, romanized: Aléxios Komnēnós, c. 1057 – 15 August 1118), Latinized as Alexius I Comnenus, was Byzantine emperor from 1081 to 1118. After usurping the imperial office he was faced with a collapsing empire and constant warfare throughout his reign. Alexios was able to curb the Byzantine decline and begin the military, financial, and territorial recovery known as the Komnenian restoration. His appeals to Western Europe for help against the Seljuk Turks were the catalyst that sparked the First Crusade. Although he was not the first emperor of the Komnenian dynasty, it was during his reign that the Komnenos family came to full power and initiated a hereditary succession to the throne.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        28.98,
+        41.0125
+      ],
+      "year": 1048
+    }
   }
 }

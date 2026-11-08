@@ -20,6 +20,7 @@
   ],
   "contribution": "A South Vietnamese politician and a senior general in the Army of the Republic of Vietnam and a politician during the presidency of Ngô Đình Diệm.",
   "setting": "",
+  "modern_country": "Vietnam",
   "image": "images/duong-van-minh.jpg",
   "image_credit": "The Republic of Vietnam · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "French Indochina"
+      ],
+      "born_in": [
+        "French Indochina"
       ]
     },
     "lead": "Dương Văn Minh (Vietnamese: [jɨəŋ van miŋ̟]  or [zɨəŋ van miŋ̟]; 16 February 1916 – 6 August 2001), popularly known as Big Minh, was a South Vietnamese politician and a senior general in the Army of the Republic of Vietnam (ARVN) and a politician during the presidency of Ngô Đình Diệm. In 1963, he became chief of a military junta after leading a coup in which Diệm was assassinated. Minh lasted only three months before being toppled by Nguyễn Khánh, but assumed power again as the fourth and last President of South Vietnam in April 1975, two days before surrendering to North Vietnamese forces. He earned his nickname \"Big Minh\", because he was approximately 1.83 m (6 ft) tall and weighed 90 kg (198 lb).",
     "image": "",
-    "photo": "model 0.90, one person 0.99, captured 1964, during their lifetime"
+    "photo": "model 0.90, one person 0.99, captured 1964, during their lifetime",
+    "birth": {
+      "location": [
+        106.16666667,
+        10.41666667
+      ],
+      "year": 1916
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A French painter and founder of Impressionism who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/claude-monet.jpg",
   "image_credit": "Nadar · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "Bourbon Kingdom of France"
       ]
     },
     "lead": "Oscar-Claude Monet (UK: , US: ; French: [klod mɔnɛ]; 14 November 1840 – 5 December 1926) was a French painter and founder of Impressionism who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it. During his long career, he was the most consistent and prolific practitioner of Impressionism's philosophy of expressing one's perceptions of nature, especially as applied to plein air (outdoor) landscape painting. The term \"Impressionism\" is derived from the title of his painting Impression, Sunrise (Impression, soleil levant), which was exhibited in 1874 at the First Impressionist Exhibition, initiated by Monet and a number of like-minded artists as an alternative to the Salon.",
     "image": "",
-    "photo": "model 0.86, one person 0.99, in Category:1899 black and white portrait photographs of men"
+    "photo": "model 0.86, one person 0.99, in Category:1899 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        2.35222222,
+        48.85666667
+      ],
+      "year": 1840
+    }
   }
 }

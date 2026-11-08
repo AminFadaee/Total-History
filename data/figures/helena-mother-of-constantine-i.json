@@ -15,8 +15,9 @@
     "Roman Empire"
   ],
   "related": [],
-  "contribution": "A Greek Augusta of the Roman Empire and mother of Emperor Constantine the Great as well as a Canonized saint in both Catholic and Orthodox Churches for her pivotal role in the spread of Christianity.",
+  "contribution": "An Augusta of the Roman Empire and mother of Emperor Constantine the Great as well as a canonized saint in both Catholic and Orthodox Churches for her pivotal role in the spread of Christianity.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
-    "lead": "Flavia Julia Helena (; Ancient Greek: Ἑλένη, Helénē; c. AD 246/248 – 330), also known as Helena of Constantinople and in Christianity as Saint Helena, was a Greek Augusta of the Roman Empire and mother of Emperor Constantine the Great as well as a Canonized saint in both Catholic and Orthodox Churches for her pivotal role in the spread of Christianity. She was born in the lower classes traditionally in the city of Drepanon, Bithynia, in Asia Minor, which was renamed Helenopolis.",
+    "lead": "Flavia Julia Helena (; Ancient Greek: Ἑλένη, Helénē; c. AD 246/248 – 330), also known as Helena of Constantinople and in Christianity as Saint Helena, was an Augusta of the Roman Empire and mother of Emperor Constantine the Great as well as a canonized saint in both Catholic and Orthodox Churches for her pivotal role in the spread of Christianity. She was born in the lower classes traditionally in the city of Drepanon, Bithynia, in Asia Minor, which was renamed Helenopolis.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        29.50224,
+        40.72339
+      ],
+      "year": 250
+    }
   }
 }

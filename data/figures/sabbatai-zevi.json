@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A former Jewish mystic and rabbi from Smyrna who converted to Islam.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/sabbatai-zevi.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Sabbatai Zevi (Hebrew: שַׁבְּתַי צְבִי, romanized: Šabbəṯay Ṣəḇī, August 1, 1626 – c. September 17, 1676), or Shabtai Tzvi, was a former Jewish mystic and rabbi from Smyrna who converted to Islam. His family were Romaniote Jews from Patras.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.13916667,
+        38.41861111
+      ],
+      "year": 1626
+    }
   }
 }

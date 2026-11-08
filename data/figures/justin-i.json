@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Born to a peasant family, he rose through the ranks of the army to become commander of the imperial guard and when Emperor Anastasius I Dicorus died, he out-maneouvered his rivals and was elected as his successor, in spite of being around 68 years old.",
   "setting": "",
+  "modern_country": "North Macedonia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Byzantine Empire"
+      ],
+      "born_in": [
+        "Byzantine Empire"
       ]
     },
     "lead": "Justin I (Latin: Iustinus; Ancient Greek: Ἰουστῖνος, romanized: Ioustînos; c. 450 – 1 August 527), also called Justin the Thracian (Latin: Iustinus Thrax; Ancient Greek: Ἰουστῖνος ὁ Θρᾷξ, romanized: Ioustînos ho Thrâix), was Eastern Roman emperor from 518 to 527. Born to a peasant family, he rose through the ranks of the army to become commander of the imperial guard and when Emperor Anastasius I Dicorus died, he out-maneouvered his rivals and was elected as his successor, in spite of being around 68 years old. His reign is significant for the founding of the Justinian dynasty that included his nephew, Justinian I, and three succeeding emperors. His consort was Empress Euphemia.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        21.61138889,
+        41.89805556
+      ],
+      "year": 450
+    }
   }
 }

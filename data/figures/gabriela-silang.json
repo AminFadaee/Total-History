@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Filipino military leader best known for her role as the female leader of the Ilocano independence movement from Spain.",
   "setting": "",
+  "modern_country": "Philippines",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Maria Josefa Gabriela Cariño Silang (Tagalog: [siˈlaŋ]; March 19, 1731 – September 20, 1763) was a Filipino military leader best known for her role as the female leader of the Ilocano independence movement from Spain. She took over from her second husband Diego Silang after his assassination in 1763, leading her people for four months before she was captured and executed by the colonial government of the Captaincy General of the Philippines.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        120.434444,
+        17.486042
+      ],
+      "year": 1731
+    }
   }
 }

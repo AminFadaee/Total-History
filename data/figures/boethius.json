@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Roman senator, consul, magister officiorum, polymath, historian, and philosopher of the Early Middle Ages.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/boethius.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,18 @@
       ],
       "citizenship": [
         "Ostrogothic Kingdom"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Anicius Manlius Severinus Boethius, commonly known simply as Boethius (; Latin: Boetius; c. 480 – 524 AD), was a Roman senator, consul, magister officiorum, polymath, historian, and philosopher of the Early Middle Ages. He was a central figure in the translation of the Greek classics into Latin, a precursor to the Scholastic movement, and, along with Cassiodorus, one of the two leading Christian scholars of the 6th century. The local cult of Boethius in the Diocese of Pavia was sanctioned by the Sacred Congregation of Rites in 1883, confirming the diocese's custom of honoring him on 23 October.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.48277778,
+        41.89333333
+      ],
+      "year": 480
+    }
   }
 }

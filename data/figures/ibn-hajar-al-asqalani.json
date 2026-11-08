@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A classic Islamic scholar \"whose life work constitutes the final summation of the science of hadith.\"",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Mamluk Sultanate"
+      ],
+      "born_in": [
+        "Mamluk Sultanate"
       ]
     },
     "lead": "Ibn Hajar al Asqalani ( full name: Abu al Fadl Ahmad ibn Ali ibn Muhammad al Kinani). (Arabic: ابن حجر العسقلاني; 18 February 1372 – 2 February 1449),  or simply ibn Ḥajar, was a classic Islamic scholar \"whose life work constitutes the final summation of the science of hadith.\" He authored some 150 works on hadith, history, biography, exegesis, poetry, and the Shafi'i school of jurisprudence, the most valued of which being his commentary of Sahih al-Bukhari, titled Fath al-Bari. He is known by the honorific epithets Hafiz al-Asr (lit. \"Hafiz of the Time\"), Shaykh al-Islam (\"Shaykh of Islam\"), and Amir al-Mu'minin fi al-Hadith (\"Commander of the Faithful in Hadith\").",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        31.23583333,
+        30.04444444
+      ],
+      "year": 1372
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Sharif, and a leader of the Jebala tribal confederacy in Morocco at the turn of the 20th century.",
   "setting": "",
+  "modern_country": "Morocco",
   "image": "images/mulai-ahmed-er-raisuni.jpg",
   "image_credit": "Frontispiz zu Raisuli Sultan der Berge · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Morocco"
+      ],
+      "born_in": [
+        "Morocco"
       ]
     },
     "lead": "Mulai Ahmed er Raisuni (Arabic: مولاي أحمد الريسوني, romanized: Mūlāy ʿAḥmad al-Raisūnī), known as Raisuli to most English speakers, also Raissoulli, Rais Uli, and Raysuni; 1871 – April 1925) was a Sharif (descendant of the Islamic prophet Muhammad), and a leader of the Jebala tribal confederacy in Morocco at the turn of the 20th century.",
     "image": "",
-    "photo": "model 0.95, one person 0.92, in Category:Black and white photographs of Morocco"
+    "photo": "model 0.95, one person 0.92, in Category:Black and white photographs of Morocco",
+    "birth": {
+      "location": [
+        -5.401753,
+        35.470837
+      ],
+      "year": 1871
+    }
   }
 }

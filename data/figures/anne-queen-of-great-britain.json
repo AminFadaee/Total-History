@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "Queen of England, Scotland, and Ireland from 8 March 1702, and Queen of Great Britain and Ireland following the ratification of the Acts of Union 1707 merging the kingdoms of England and Scotland, until her death in 1714.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/anne-queen-of-great-britain.jpg",
   "image_credit": "Michael Dahl · Public domain",
   "image_kind": "Portrait from life",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Anne (6 February 1665 – 1 August 1714) was Queen of England, Scotland, and Ireland from 8 March 1702, and Queen of Great Britain and Ireland following the ratification of the Acts of Union 1707 merging the kingdoms of England and Scotland, until her death in 1714.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.13777778,
+        51.50472222
+      ],
+      "year": 1665
+    }
   }
 }

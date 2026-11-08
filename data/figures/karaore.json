@@ -20,6 +20,7 @@
   ],
   "contribution": "A Serbian revolutionary leader who led a struggle against the Ottoman Empire during the First Serbian Uprising.",
   "setting": "",
+  "modern_country": "Serbia",
   "image": "images/karaore.jpg",
   "image_credit": "Vladimir Borovikovsky · Public domain",
   "image_kind": "Portrait from life",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Đorđe Petrović (pronounced [dʑôːrdʑe pětrovitɕ]; Serbian: Ђорђе Петровић; 14 November [O.S. 3 November] 1768 – 25 July [O.S. 13 July] 1817), known by the sobriquet Karađorđe (pronounced [kâradʑoːrdʑe]; Serbian: Карађорђе, lit. 'Black George'), was a Serbian revolutionary leader who led a struggle against the Ottoman Empire during the First Serbian Uprising. Karađorđe Petrović held the title of Grand Vožd of Serbia from 14 February 1804 to 3 October 1813.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        20.92111111,
+        44.25444444
+      ],
+      "year": 1768
+    }
   }
 }

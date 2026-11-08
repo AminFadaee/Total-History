@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Russian philosopher, novelist, short-story writer, essayist, and journalist.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/fyodor-dostoevsky.jpg",
   "image_credit": "Vasily Perov · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Fyodor Mikhailovich Dostoevsky (11 November [O.S. 30 October] 1821 – 9 February [O.S. 28 January] 1881) was a Russian philosopher, novelist, short-story writer, essayist, and journalist. He is regarded as one of the greatest novelists in both Russian and world literature, and many of his works are considered highly influential masterpieces. Dostoevsky's literary works explore the human condition in the troubled political, social and spiritual atmospheres of 19th-century Russia, and engage with a variety of philosophical and religious themes. His most acclaimed novels include Crime and Punishment (1866), The Idiot (1869), Demons (1872), The Adolescent (1875) and The Brothers Karamazov (1880). His Notes from Underground, a novella published in 1864, is considered one of the first works of existentialist literature.",
     "image": "",
-    "photo": "Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg: model 0.14, one person 0.98, captured 1872, during their lifetime; Initial J.png: model 0.12, one person 0.37; Thoughtful Shelf.jpg: model 0.73, one person 0.03; Спектакль «Достоевский FM», реж. Эдуард Терехов.png: model 0.86, one person 0.00; History of Russian writers by mos.ru 05.jpg: model 0.82, one person 0.00, captured 1881, during their lifetime; History of Russian writers by mos.ru 04.jpg: model 0.75, one person 0.00; Premiere of Bobok in Army Theatre 03.jpg: model 0.79, one person 0.13; Premiere of Bobok in Army Theatre 02.jpg: model 0.61, one person 0.00; Premiere of Bobok in Army Theatre 01.jpg: model 0.81, one person 0.00; Premiere of Bobok in Army Theatre 04.jpg: model 0.35, one person 0.07"
+    "photo": "Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg: model 0.14, one person 0.98, captured 1872, during their lifetime; Initial J.png: model 0.12, one person 0.37; Thoughtful Shelf.jpg: model 0.73, one person 0.03; Спектакль «Достоевский FM», реж. Эдуард Терехов.png: model 0.86, one person 0.00; History of Russian writers by mos.ru 05.jpg: model 0.82, one person 0.00, captured 1881, during their lifetime; History of Russian writers by mos.ru 04.jpg: model 0.75, one person 0.00; Premiere of Bobok in Army Theatre 03.jpg: model 0.79, one person 0.13; Premiere of Bobok in Army Theatre 02.jpg: model 0.61, one person 0.00; Premiere of Bobok in Army Theatre 01.jpg: model 0.81, one person 0.00; Premiere of Bobok in Army Theatre 04.jpg: model 0.35, one person 0.07",
+    "birth": {
+      "location": [
+        37.61722222,
+        55.75583333
+      ],
+      "year": 1821
+    }
   }
 }

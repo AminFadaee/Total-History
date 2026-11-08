@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Soviet military leader who served as a top commander during World War II and achieved the rank of Marshal of the Soviet Union.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/georgy-zhukov.jpg",
   "image_credit": "P. Bernstein / П. Бернштейн · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Georgy Konstantinovich Zhukov (1 December [O.S. 19 November] 1896 – 18 June 1974) was a Soviet military leader who served as a top commander during World War II and achieved the rank of Marshal of the Soviet Union. During World War II, Zhukov served as deputy commander-in-chief of the armed forces under leader Joseph Stalin, and oversaw some of the Red Army's most decisive victories. He also served at various points as Chief of the General Staff, Minister of Defence, and a member of the Presidium of the Central Committee of the Communist Party (Politburo).",
     "image": "",
-    "photo": "model 0.92, one person 0.93, captured 1941, during their lifetime"
+    "photo": "model 0.92, one person 0.93, captured 1941, during their lifetime",
+    "birth": {
+      "location": [
+        36.75,
+        55.03333333
+      ],
+      "year": 1896
+    }
   }
 }

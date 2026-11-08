@@ -20,6 +20,7 @@
   ],
   "contribution": "An Arab Tunisian scholar, historian, philosopher, and sociologist.",
   "setting": "",
+  "modern_country": "Tunisia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Hafsid Dynasty"
+      ],
+      "born_in": [
+        "Hafsid Dynasty"
       ]
     },
     "lead": "Ibn Khaldūn (27 May 1332 – 17 March 1406, 732–808 AH) was an Arab Tunisian scholar, historian, philosopher, and sociologist. He is widely acknowledged to be one of the greatest social scientists of the Middle Ages, and is considered by a number of scholars to be a major forerunner of historiography, sociology, economics, and demography studies.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        10.18166667,
+        36.80638889
+      ],
+      "year": 1332
+    }
   }
 }

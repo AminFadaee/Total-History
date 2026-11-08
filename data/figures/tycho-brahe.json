@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Danish astronomer known for his comprehensive and unprecedentedly accurate astronomical observations which helped to turn astronomy into the first modern science and launch the Scientific Revolution.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/tycho-brahe.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Denmark-Norway"
+      ],
+      "born_in": [
+        "Denmark-Norway"
       ]
     },
     "lead": "Tycho Brahe ( TY-koh BRAH-(h)ee, -⁠ BRAH(-hə); Danish: [ˈtsʰykʰo ˈpʁɑːə] ; born Tyge Ottesen Brahe, Danish: [ˈtsʰyːjə ˈʌtəsn̩ ˈpʁɑːə]; 14 December 1546 – 24 October 1601), generally called Tycho for short, was a Danish astronomer known for his comprehensive and unprecedentedly accurate astronomical observations which helped to turn astronomy into the first modern science and launch the Scientific Revolution. He was known during his lifetime as an astronomer, astrologer, and alchemist. He was the last major astronomer before the invention of the telescope and has been described as the greatest pre-telescopic astronomer.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.195,
+        55.70388889
+      ],
+      "year": 1546
+    }
   }
 }

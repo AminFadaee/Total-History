@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An official of the Qing dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/heshen.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Qing Dynasty"
+      ],
+      "born_in": [
+        "Qing Dynasty"
       ]
     },
-    "lead": "Heshen (Manchu: ᡥᡝᡧᡝᠨ, romanized: Hešen; Chinese: 和珅; pinyin: Héshēn; Wade–Giles: Ho2-shen1; 1 July 1750 – 22 February 1799) of the Manchu Niohuru clan, was an official of the Qing dynasty. Favored by the Qianlong Emperor, he was described as the most corrupt official in Chinese history, having acquired, at the very least, an estimated 60 million taels of silver during his career, roughly equivalent to one year of the Qing government's fiscal revenue. After the death of Qianlong, the Jiaqing Emperor confiscated Heshen's wealth and forced him to commit suicide. Heshen is remembered as one of the richest men in history.",
+    "lead": "Heshen (Manchu: ᡥᡝᡧᡝᠨ, romanized: Hešen; Chinese: 和珅; pinyin: Héshēn; Wade–Giles: Ho²-shen¹; 1 July 1750 – 22 February 1799) of the Manchu Niohuru clan, was an official of the Qing dynasty. Favored by the Qianlong Emperor, he was described as the most corrupt official in Chinese history, having acquired, at the very least, an estimated 60 million taels of silver during his career, roughly equivalent to one year of the Qing government's fiscal revenue. After the death of Qianlong, the Jiaqing Emperor confiscated Heshen's wealth and forced him to commit suicide. Heshen is remembered as one of the richest men in history.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        116.3975,
+        39.90666667
+      ],
+      "year": 1750
+    }
   }
 }

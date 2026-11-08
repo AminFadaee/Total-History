@@ -19,6 +19,7 @@
   ],
   "contribution": "Voivode of Wallachia from 1436 to 1442, and again from 1443 to 1447.",
   "setting": "",
+  "modern_country": "Romania",
   "image": "images/vlad-ii-dracul.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Principality of Wallachia"
+      ],
+      "born_in": [
+        "Principality of Wallachia"
       ]
     },
     "lead": "Vlad II (Romanian: Vlad al II-lea), also known as Vlad Dracul (Vlad al II-lea Dracul) or Vlad the Dragon (before 1395 – November 1447), was Voivode of Wallachia from 1436 to 1442, and again from 1443 to 1447. He is internationally known as the father of Vlad the Impaler, or Dracula. Born an illegitimate son of Mircea I of Wallachia, he spent his youth at the court of Sigismund of Luxembourg, who made him a member of the Order of the Dragon in 1431 (hence his sobriquet). Sigismund also recognized him as the lawful Voivode of Wallachia, allowing him to settle in nearby Transylvania. Vlad could not assert his claim during the life of his half-brother, Alexander I Aldea, who acknowledged the suzerainty of the Ottoman Sultan, Murad II.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        26.1,
+        44.43
+      ],
+      "year": 1395
+    }
   }
 }

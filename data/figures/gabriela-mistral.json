@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Chilean poet-diplomat, journalist and educator.",
   "setting": "",
+  "modern_country": "Chile",
   "image": "images/gabriela-mistral.jpg",
   "image_credit": "Anna Riwkin-Brick · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Republic of Chile"
+      ],
+      "born_in": [
+        "Republic of Chile"
       ]
     },
     "lead": "Lucila Godoy Alcayaga (Latin American Spanish: [luˈsila ɣoˈðoj alkaˈʝaɣa]; 7 April 1889 – 10 January 1957), known by her pseudonym Gabriela Mistral (Spanish: [ɡaˈβɾjela misˈtɾal]), was a Chilean poet-diplomat, journalist and educator. She read widely in theosophy, became a member of the secular or Third Franciscan order in 1925, but rarely attended mass. She was the first Latin American author to receive a Nobel Prize in Literature in 1945, \"for her lyric poetry which, inspired by powerful emotions, has made her name a symbol of the idealistic aspirations of the entire Latin American world\". Some central themes in her poems are nature, betrayal, love, a mother's love, sorrow and recovery, travel, and Latin American identity as formed from a mixture of Native American and European influences. She also wrote an immense body of prose, about 800 articles that circulated throughout the Spanish-speaking world, on a range of topics: geography, education, profiles of her fellow writers, politics, and more. Her image is featured on the 5,000 Chilean peso banknote.",
     "image": "",
-    "photo": "model 0.97, one person 0.99, in Category:Photographs by Anna Riwkin-Brick"
+    "photo": "model 0.97, one person 0.99, in Category:Photographs by Anna Riwkin-Brick",
+    "birth": {
+      "location": [
+        -70.71666667,
+        -30.03333333
+      ],
+      "year": 1889
+    }
   }
 }

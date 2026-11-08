@@ -19,6 +19,7 @@
   ],
   "contribution": "A Swedish statesman and Count of Södermöre.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/axel-oxenstierna.jpg",
   "image_credit": "After Michiel Jansz. van Mierevelt · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Axel Gustafsson Oxenstierna (Swedish: [ˈǎksɛl ˈʊ̂ksɛnˌɧæːɳa] ; 1583–1654) was a Swedish statesman and Count of Södermöre. He became a member of the Swedish Privy Council in 1609 and served as Lord High Chancellor of Sweden from 1612 until his death. He was a confidant of King Gustavus Adolphus and then Queen Christina, for whom he was at first regent.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        17.08333333,
+        59.63333333
+      ],
+      "year": 1583
+    }
   }
 }

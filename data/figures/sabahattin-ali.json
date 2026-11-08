@@ -12,11 +12,13 @@
   "occupation": "Writer",
   "birth_country": "Bulgaria",
   "civilizations": [
+    "Principality of Bulgaria",
     "Republic of Turkey"
   ],
   "related": [],
   "contribution": "",
   "setting": "",
+  "modern_country": "",
   "image": "images/sabahattin-ali.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +31,20 @@
       ],
       "citizenship": [
         "Republic of Turkey"
+      ],
+      "born_in": [
+        "Principality of Bulgaria"
       ]
     },
     "lead": "Sabahattin Ali (25 February 1907 – 2 April 1948) was a Turkish novelist, short-story writer, poet, and journalist.",
     "image": "",
-    "photo": "model 0.91, one person 0.99, captured 1940, during their lifetime"
+    "photo": "model 0.91, one person 0.99, captured 1940, during their lifetime",
+    "birth": {
+      "location": [
+        25.13333333,
+        41.58333333
+      ],
+      "year": 1907
+    }
   }
 }

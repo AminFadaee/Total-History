@@ -12,11 +12,13 @@
   "occupation": "Politician",
   "birth_country": "Egypt",
   "civilizations": [
+    "Ptolemaic Kingdom",
     "Mauretania"
   ],
   "related": [],
   "contribution": "A Ptolemaic princess, nominal Queen of Cyrenaica and Queen of Mauretania as co-ruler alongside her husband Juba II.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +31,20 @@
       ],
       "lead": [
         "Mauretania"
+      ],
+      "born_in": [
+        "Ptolemaic Kingdom"
       ]
     },
     "lead": "Cleopatra Selene II, also known as Cleopatra VIII (Greek: Κλεοπάτρα Σελήνη; summer 40 BC – c. 5 BC; the numeration is modern), was a Ptolemaic princess, nominal Queen of Cyrenaica (34 BC – 30 BC) and Queen of Mauretania (25 BC – 5 BC) as co-ruler alongside her husband Juba II. She was an important royal woman in the early Augustan age.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        29.8925,
+        31.1975
+      ],
+      "year": -40
+    }
   }
 }

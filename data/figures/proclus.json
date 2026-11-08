@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Greek Neoplatonic philosopher, one of the last major classical philosophers of late antiquity.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Byzantine Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Proclus Lycius (; 8 February 412 CE – 17 April 485 CE), called Proclus the Successor (Ancient Greek: Πρόκλος ὁ Διάδοχος, Próklos ho Diádokhos), was a Greek Neoplatonic philosopher, one of the last major classical philosophers of late antiquity. He set forth one of the most elaborate and fully developed systems of Neoplatonism and, through later interpreters and translators, exerted an influence on Byzantine philosophy, early Islamic philosophy, scholastic philosophy, and German idealism, especially G. W. F. Hegel, who called Proclus's Platonic Theology \"the true turning point or transition from ancient to modern times, from ancient philosophy to Christianity.\"",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        28.98,
+        41.0125
+      ],
+      "year": 412
+    }
   }
 }

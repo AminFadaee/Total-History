@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Either Tizoc or his successor Ahuitzotl was the first tlatoani of Tenochtitlan to assume the title Huey Tlatoani to make their superiority over the other cities in the Triple Alliance clear.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/tizoc.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,18 @@
       ],
       "lead": [
         "Aztec Triple Alliance"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Tizocic ([tiˈsosik]), or Tizocicatzin (Nahuatl pronunciation: [tisosiˈkat͡sin̥] ), usually known in English as Tizoc, was the seventh tlatoani of Tenochtitlan. His name means, \"He who makes sacrifices\" or \"He who does penance.\" Either Tizoc or his successor Ahuitzotl was the first tlatoani of Tenochtitlan to assume the title Huey Tlatoani (\"supreme tlatoani\") to make their superiority over the other cities in the Triple Alliance (Aztec Empire) clear.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -99.13333333,
+        19.43333333
+      ],
+      "year": 1436
+    }
   }
 }

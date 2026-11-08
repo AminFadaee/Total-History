@@ -21,6 +21,7 @@
   ],
   "contribution": "King of England and Lord of Ireland from his seizure of the crown on 22 August 1485 until his death in 1509.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/henry-vii-of-england.jpg",
   "image_credit": "anonymous · Public domain",
   "image_kind": "Portrait from life",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Henry VII (28 January 1457 – 21 April 1509), also known as Henry Tudor, was King of England and Lord of Ireland from his seizure of the crown on 22 August 1485 until his death in 1509. He was the first monarch of the House of Tudor.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.920694,
+        51.677678
+      ],
+      "year": 1457
+    }
   }
 }

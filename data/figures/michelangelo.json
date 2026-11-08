@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian sculptor, painter, architect, and poet of the High Renaissance.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/michelangelo.jpg",
   "image_credit": "Attributed to Daniele da Volterra · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Republic of Florence"
+      ],
+      "born_in": [
+        "Republic of Florence"
       ]
     },
     "lead": "Michelangelo di Lodovico Buonarroti Simoni (6 March 1475 – 18 February 1564), known mononymously as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance. He was born in the Republic of Florence but was mostly active in Rome from his 30s onwards. His work was inspired by models from classical antiquity and had a lasting influence on Western art. Michelangelo's creative abilities and mastery in a range of artistic arenas define him as an archetypal Renaissance man, along with his rival and elder contemporary, Leonardo da Vinci. Given the sheer volume of surviving correspondence, sketches, and reminiscences, Michelangelo is one of the best-documented artists of the 16th century.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.87833333,
+        43.46333333
+      ],
+      "year": 1475
+    }
   }
 }

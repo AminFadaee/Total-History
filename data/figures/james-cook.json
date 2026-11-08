@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A British Royal Navy officer, explorer, and cartographer who led three voyages of exploration to the Pacific and Southern Oceans between 1768 and 1779.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/james-cook.jpg",
   "image_credit": "Nathaniel Dance-Holland · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of Great Britain"
+      ],
+      "born_in": [
+        "Kingdom of Great Britain"
       ]
     },
     "lead": "Captain James Cook (7 November 1728 – 14 February 1779) was a British Royal Navy officer, explorer, and cartographer who led three voyages of exploration to the Pacific and Southern Oceans between 1768 and 1779. He completed the first recorded circumnavigation of the main islands of New Zealand, and led the first recorded visit by Europeans to the east coast of Australia and the Hawaiian Islands.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -1.2047,
+        54.5372
+      ],
+      "year": 1728
+    }
   }
 }

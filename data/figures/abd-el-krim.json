@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Moroccan revolutionary, religious, political and military leader and the president of the Republic of the Rif.",
   "setting": "",
+  "modern_country": "",
   "image": "images/abd-el-krim.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -40,10 +41,18 @@
       ],
       "citizenship": [
         "Republic of the Rif"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Mohammed ben Abdelkrim El Khattabi, better known as Abd el-Krim (12 January 1882 – 6 February 1963), was a Moroccan revolutionary, religious, political and military leader and the president of the Republic of the Rif. He and his brother M'Hammad led a large-scale revolt by a coalition of Riffian tribes against the Spanish and French Protectorates of the Rif and the rest of Morocco. His guerrilla tactics, which included the first-ever use of tunneling as a technique of modern warfare, directly influenced Ho Chi Minh, Mao Zedong and Che Guevara. He also became one of the major figures of Arab nationalism, which he supported during his stay in Cairo.",
     "image": "",
-    "photo": "model 0.92, one person 0.98, captured 1920, during their lifetime"
+    "photo": "model 0.92, one person 0.98, captured 1920, during their lifetime",
+    "birth": {
+      "location": [
+        -3.917,
+        35.2
+      ],
+      "year": 1882
+    }
   }
 }

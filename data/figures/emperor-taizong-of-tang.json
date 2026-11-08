@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "The second emperor of the Tang dynasty of China, ruling from 626 to 649.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/emperor-taizong-of-tang.jpg",
   "image_credit": "Unknown artist · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Sui Dynasty"
+      ],
+      "born_in": [
+        "Sui Dynasty"
       ]
     },
     "lead": "Emperor Taizong of Tang (28 January 598 – 10 July 649), previously Prince of Qin, personal name Li Shimin, was the second emperor of the Tang dynasty of China, ruling from 626 to 649. He is traditionally regarded as a co-founder of the dynasty for his role in encouraging his father Li Yuan (Emperor Gaozu) to rebel against the Sui dynasty at Jinyang in 617. Taizong subsequently played a pivotal role in defeating several of the dynasty's most dangerous opponents and solidifying its rule over China proper.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        108.10833333,
+        34.27222222
+      ],
+      "year": 598
+    }
   }
 }

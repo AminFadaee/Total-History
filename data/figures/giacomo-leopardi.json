@@ -15,8 +15,9 @@
     "Papal States"
   ],
   "related": [],
-  "contribution": "An Italian poet, philosopher, essayist, and philologist.",
+  "contribution": "An Italian philosopher, poet, essayist, and philologist.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/giacomo-leopardi.jpg",
   "image_credit": "Domenico Morelli · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Papal States"
+      ],
+      "born_in": [
+        "Papal States"
       ]
     },
-    "lead": "Count Giacomo Taldegardo Francesco Salesio Saverio Pietro Leopardi (29 June 1798 – 14 June 1837) was an Italian poet, philosopher, essayist, and philologist.",
+    "lead": "Count Giacomo Taldegardo Francesco Salesio Saverio Pietro Leopardi (29 June 1798 – 14 June 1837) was an Italian philosopher, poet, essayist, and philologist.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.54972222,
+        43.40361111
+      ],
+      "year": 1798
+    }
   }
 }

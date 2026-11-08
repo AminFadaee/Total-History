@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Arab physician, surgeon and chemist from al-Andalus.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/al-zahrawi.jpg",
   "image_credit": "Michel Bakni · CC BY-SA 4.0",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Caliphate of Córdoba"
+      ],
+      "born_in": [
+        "Caliphate of Córdoba"
       ]
     },
     "lead": "Abū al-Qāsim Khalaf ibn al-'Abbās al-Zahrāwī al-Ansari (c. 936–1013), popularly known as al-Zahrawi, Latinised as Albucasis or Abulcasis (from Arabic Abū al-Qāsim), was an Arab physician, surgeon and chemist from al-Andalus. He is considered one of the greatest surgeons of the Middle Ages.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.867,
+        37.888
+      ],
+      "year": 936
+    }
   }
 }

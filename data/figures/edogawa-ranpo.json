@@ -1,0 +1,51 @@
+{
+  "id": "Q347412",
+  "slug": "edogawa-ranpo",
+  "name": "Edogawa Ranpo",
+  "wikipedia": "Edogawa Ranpo",
+  "role": "Japanese author",
+  "life": "1894–1965",
+  "lifetime": [
+    1894,
+    1965
+  ],
+  "occupation": "",
+  "birth_country": "",
+  "civilizations": [
+    "Japan"
+  ],
+  "related": [],
+  "contribution": "In the pen name, the surname is Edogawa.",
+  "setting": "Japan",
+  "modern_country": "Japan",
+  "image": "images/edogawa-ranpo.jpg",
+  "image_credit": "Unknown author · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/edogawa-ranpo-photo.jpg",
+  "photo_credit": "Unknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Japan",
+        "United States of America"
+      ],
+      "citizenship": [
+        "Japan",
+        "Empire of Japan"
+      ],
+      "born_in": [
+        "Empire of Japan"
+      ]
+    },
+    "lead": "In this Japanese name, the surname is Hirai. In the pen name, the surname is Edogawa.",
+    "image": "",
+    "photo": "model 0.84, one person 0.97, captured 1954, during their lifetime",
+    "birth": {
+      "location": [
+        136.1083888888889,
+        34.627583333333334
+      ],
+      "year": 1894
+    }
+  }
+}

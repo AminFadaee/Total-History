@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "The ruler of the First Bulgarian Empire from 852 to 889.",
   "setting": "",
+  "modern_country": "Bulgaria",
   "image": "images/boris-i-of-bulgaria.jpg",
   "image_credit": "Constantine of Preslav · Public domain",
   "image_kind": "Depiction",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "First Bulgarian Empire"
+      ],
+      "born_in": [
+        "First Bulgarian Empire"
       ]
     },
     "lead": "Boris I (also Bogoris), venerated as Saint Boris I (Mihail) the Baptizer  (Church Slavonic: Борисъ / Борисъ-Михаилъ, Bulgarian: Борис I / Борис-Михаил; died 2 May 907), was the ruler (knyaz) of the First Bulgarian Empire from 852 to 889. Despite a number of military setbacks, the reign of Boris I was marked with significant events that shaped Bulgarian and European history. With the Christianization of Bulgaria in 864, paganism was abolished. A skillful diplomat, Boris I successfully exploited the conflict between the Patriarchate of Constantinople and the Papacy to secure an autocephalous Bulgarian Church, thus dealing with the nobility's concerns about Byzantine interference in Bulgaria's internal affairs.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.132,
+        43.387
+      ],
+      "year": 828
+    }
   }
 }

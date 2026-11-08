@@ -19,6 +19,7 @@
   ],
   "contribution": "The 12th emperor of the Nguyễn dynasty in Vietnam, reigning from 1916 to 1925.",
   "setting": "",
+  "modern_country": "Vietnam",
   "image": "images/khai-inh.jpg",
   "image_credit": "René Tetart, Huong-Ky · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "French Indochina"
+      ],
+      "born_in": [
+        "French Indochina"
       ]
     },
     "lead": "Khải Định (Vietnamese: [xa᷉ːj ɗîŋ̟ˀ]; chữ Hán: 啓定; born Nguyễn Phúc Bửu Đảo; 8 October 1885 – 6 November 1925) was the 12th emperor of the Nguyễn dynasty in Vietnam, reigning from 1916 to 1925. His name at birth was Prince Nguyễn Phúc Bửu Đảo. He was the son of Emperor Đồng Khánh, but he did not succeed him immediately.",
     "image": "",
-    "photo": "model 0.97, one person 0.77, captured 1922, during their lifetime"
+    "photo": "model 0.97, one person 0.77, captured 1922, during their lifetime",
+    "birth": {
+      "location": [
+        107.57777778,
+        16.46972222
+      ],
+      "year": 1885
+    }
   }
 }

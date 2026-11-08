@@ -1,0 +1,52 @@
+{
+  "id": "Q28480",
+  "slug": "max-brod",
+  "name": "Max Brod",
+  "wikipedia": "Max Brod",
+  "role": "Czech-Israeli author, composer, and journalist",
+  "life": "1884–1968",
+  "lifetime": [
+    1884,
+    1968
+  ],
+  "occupation": "Writer",
+  "birth_country": "Czechia",
+  "civilizations": [
+    "Austria-Hungary"
+  ],
+  "related": [],
+  "contribution": "An Israeli author, music critic, composer, and journalist, born as a German-speaking Czech.",
+  "setting": "",
+  "modern_country": "Czechia",
+  "image": "images/max-brod.jpg",
+  "image_credit": "Joost Evers / Anefo · CC0",
+  "image_kind": "Photograph",
+  "photo": "images/max-brod-photo.jpg",
+  "photo_credit": "Joost Evers / Anefo · CC0",
+  "checks": {
+    "civilization_votes": {
+      "citizenship": [
+        "State of Israel",
+        "Margraviate of Moravia",
+        "Kingdom of Bohemia",
+        "Duchy of Styria"
+      ],
+      "birthplace": [
+        "Austria-Hungary"
+      ],
+      "born_in": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Max Brod (Hebrew: מקס ברוד; 27 May 1884 – 20 December 1968) was an Israeli author, music critic, composer, and journalist, born as a German-speaking Czech. He is notable for promoting the work of writer Franz Kafka and composer Leoš Janáček.",
+    "image": "",
+    "photo": "model 0.98, one person 0.99, captured 1965, during their lifetime",
+    "birth": {
+      "location": [
+        14.42138889,
+        50.0875
+      ],
+      "year": 1884
+    }
+  }
+}

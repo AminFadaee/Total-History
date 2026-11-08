@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Born in Florence, he studied classical sculpture and used his knowledge to develop an Early Renaissance style of sculpture.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Republic of Florence"
+      ],
+      "born_in": [
+        "Republic of Florence"
       ]
     },
-    "lead": "Donato di Niccolò di Betto Bardi (c. 1386 – 13 December 1466), known mononymously as Donatello (English: ; Italian: [donaˈtɛllo]), was an Italian sculptor of the Renaissance period. Born in Florence, he studied classical sculpture and used his knowledge to develop an Early Renaissance style of sculpture. He spent time in other cities, where he worked on commissions and taught others; his periods in Rome, Padua, and Siena introduced to other parts of Italy the techniques he had developed in the course of a long and productive career.  His David was the first freestanding nude male sculpture since antiquity; like much of his work, it was commissioned by the Medici family.",
+    "lead": "Donato di Niccolò di Betto Bardi (c. 1386 – 13  December 1466), known mononymously as Donatello (English: ; Italian: [donaˈtɛllo]), was an Italian sculptor of the Renaissance period. Born in Florence, he studied classical sculpture and used his knowledge to develop an Early Renaissance style of sculpture. He spent time in other cities, where he worked on commissions and taught others; his periods in Rome, Padua, and Siena introduced to other parts of Italy the techniques he had developed in the course of a long and productive career.  His David was the first freestanding nude male sculpture since antiquity; like much of his work, it was commissioned by the Medici family.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.25611111,
+        43.76944444
+      ],
+      "year": 1386
+    }
   }
 }

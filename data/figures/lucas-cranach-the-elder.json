@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A German Renaissance painter and printmaker in woodcut and engraving.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/lucas-cranach-the-elder.jpg",
   "image_credit": "Lucas Cranach the Younger · Public domain",
   "image_kind": "Portrait from life",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Lucas Cranach the Elder (German: Lucas Cranach der Ältere [ˈluːkas ˈkʁaːnax deːɐ̯ ˈʔɛltəʁə]; c. 1472 – 16 October 1553) was a German Renaissance painter and printmaker in woodcut and engraving. He was court painter to the Electors of Saxony for most of his career, and is known for his portraits, both of German princes and  leaders of the Protestant Reformation, whose cause he embraced with enthusiasm. He was a close friend of Martin Luther, and eleven portraits of that reformer by him survive. Cranach also painted religious subjects, first in the Catholic tradition, and later trying to find new ways of conveying Lutheran religious concerns in art. He continued to paint nude subjects  from mythology and religion  throughout his career.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.32805556,
+        50.24111111
+      ],
+      "year": 1472
+    }
   }
 }

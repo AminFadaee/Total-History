@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A centre-left Mexican politician and lawyer who served as President of Mexico from 1958 to 1964.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/adolfo-lopez-mateos.jpg",
   "image_credit": "Harry Pot for Anefo ]] · CC BY-SA 3.0 nl",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Mexico"
+      ],
+      "born_in": [
+        "Mexico"
       ]
     },
     "lead": "Adolfo López Mateos (Spanish pronunciation: [aˈðolfo ˈlopes maˈteos] ; 26 May 1909 – 22 September 1969) was a centre-left Mexican politician and lawyer who served as President of Mexico from 1958 to 1964. Previously, he served as Secretary of Labor and Social Welfare from 1952 to 1957 and a Senator from the State of Mexico from 1946 to 1952.",
     "image": "",
-    "photo": "model 0.93, one person 0.97, captured 1963, during their lifetime"
+    "photo": "model 0.93, one person 0.97, captured 1963, during their lifetime",
+    "birth": {
+      "location": [
+        -99.28333333,
+        19.55
+      ],
+      "year": 1909
+    }
   }
 }

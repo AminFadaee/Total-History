@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An Egyptian military officer and revolutionary who served as the second president of Egypt from 1954 until his death in 1970.",
   "setting": "Republic of Egypt",
+  "modern_country": "Egypt",
   "image": "images/gamal-abdel-nasser.jpg",
   "image_credit": "Press · Public domain",
   "image_kind": "Photograph",
@@ -41,10 +42,18 @@
       ],
       "vital_section": [
         "Republic of Egypt"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Gamal Abdel Nasser Hussein (15 January 1918 – 28 September 1970) was an Egyptian military officer and revolutionary who served as the second president of Egypt from 1954 until his death in 1970. Nasser led the Egyptian revolution of 1952 and introduced far-reaching land reforms the following year. Following a 1954 assassination attempt by a Muslim Brotherhood member, he cracked down on the organization, put President Mohamed Naguib under house arrest and assumed executive office. He was formally elected president in June 1956.",
     "image": "",
-    "photo": "model 0.80, one person 0.98, captured 1964, during their lifetime"
+    "photo": "model 0.80, one person 0.98, captured 1964, during their lifetime",
+    "birth": {
+      "location": [
+        29.8925,
+        31.1975
+      ],
+      "year": 1918
+    }
   }
 }

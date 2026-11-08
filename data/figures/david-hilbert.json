@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A German mathematician and philosopher of mathematics and one of the most influential mathematicians of all time.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/david-hilbert.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -31,10 +32,20 @@
         "German Empire",
         "Weimar Republic",
         "Nazi Germany"
+      ],
+      "born_in": [
+        "German Confederation"
       ]
     },
     "lead": "David Hilbert  (; German: [ˈdaːvɪt ˈhɪlbɐt]; 23 January 1862 – 14 February 1943) was a German mathematician and philosopher of mathematics and one of the most influential mathematicians of all time.",
     "image": "",
-    "photo": "model 0.86, one person 0.99, in Category:Black and white portrait photographs of men with beards wearing glasses and hats"
+    "photo": "model 0.86, one person 0.99, in Category:Black and white portrait photographs of men with beards wearing glasses and hats",
+    "birth": {
+      "location": [
+        20.51666667,
+        54.71666667
+      ],
+      "year": 1862
+    }
   }
 }

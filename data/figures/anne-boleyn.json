@@ -19,6 +19,7 @@
   ],
   "contribution": "Queen of England from 1533 to 1536, as the second wife of King Henry VIII.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/anne-boleyn.jpg",
   "image_credit": "Unknown, English · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Anne Boleyn (; c. 1501 or 1507 – 19 May 1536) was Queen of England from 1533 to 1536, as the second wife of King Henry VIII. The circumstances of her marriage and execution, by beheading for treason, made her a key figure in the political and religious upheaval that marked the start of the English Reformation.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        1.2318,
+        52.8118
+      ],
+      "year": 1501
+    }
   }
 }

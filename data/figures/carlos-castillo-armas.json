@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Guatemalan military officer and politician who was the 28th president of Guatemala, serving from 1954 to 1957 after taking power in a coup d'état.",
   "setting": "",
+  "modern_country": "Guatemala",
   "image": "images/carlos-castillo-armas.jpg",
   "image_credit": "Associated Press for LIFE · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Guatemala"
+      ],
+      "born_in": [
+        "Guatemala"
       ]
     },
     "lead": "Carlos Castillo Armas (locally ['kaɾlos kas'tiʝo 'aɾmas]; 4 November 1914 – 26 July 1957) was a Guatemalan military officer and politician who was the 28th president of Guatemala, serving from 1954 to 1957 after taking power in a coup d'état. A member of the far-right National Liberation Movement (MLN) party, his authoritarian government was closely allied with the United States.",
     "image": "",
-    "photo": "model 0.92, one person 0.96, captured 1954, during their lifetime"
+    "photo": "model 0.92, one person 0.96, captured 1954, during their lifetime",
+    "birth": {
+      "location": [
+        -91.01666667,
+        14.35
+      ],
+      "year": 1914
+    }
   }
 }

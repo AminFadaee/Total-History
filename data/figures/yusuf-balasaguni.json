@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An 11th-century Central Asian Turkic poet, statesman, vizier, Maturidi theologian and philosopher from the city of Balasaghun, the capital of the Kara-Khanid Khanate in modern-day Kyrgyzstan.",
   "setting": "",
+  "modern_country": "Kyrgyzstan",
   "image": "images/yusuf-balasaguni.jpg",
   "image_credit": "The original uploader was Hux at English Wikipedia. · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kara-Khanid Khanate"
+      ],
+      "born_in": [
+        "Kara-Khanid Khanate"
       ]
     },
     "lead": "Yusuf Khass Hajib was an 11th-century Central Asian Turkic poet, statesman, vizier, Maturidi theologian and philosopher from the city of Balasaghun, the capital of the Kara-Khanid Khanate in modern-day Kyrgyzstan. He wrote the Kutadgu Bilig and most of what is known about him, comes from his own writings in this work. He is mostly referred to as Yūsuf Balasaguni, derived from his city of origin.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        75.24861111,
+        42.74694444
+      ],
+      "year": 1020
+    }
   }
 }

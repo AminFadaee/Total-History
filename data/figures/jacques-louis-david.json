@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A French painter in the Neoclassical style, considered to be the preeminent painter of the era.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/jacques-louis-david.jpg",
   "image_credit": "Jacques-Louis David · Public domain",
   "image_kind": "Portrait from life",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Kingdom of France"
+      ],
+      "born_in": [
+        "Kingdom of France"
       ]
     },
     "lead": "Jacques-Louis David (French: [ʒaklwi david]; 30 August 1748 – 29 December 1825) was a French painter in the Neoclassical style, considered to be the preeminent painter of the era. In the 1780s, his cerebral brand of history painting marked a change in taste away from Rococo frivolity toward classical austerity, severity, and heightened feeling, which harmonized with the moral climate of the final years of the Ancien Régime.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        2.35222222,
+        48.85666667
+      ],
+      "year": 1748
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Argentine politician of the Radical Civic Union who served as President of Argentina from 1916 to 1922 and again from 1928 until his overthrow in 1930.",
   "setting": "",
+  "modern_country": "",
   "image": "images/hipolito-yrigoyen.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Argentine Republic"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Juan Hipólito del Sagrado Corazón de Jesús Yrigoyen (12 July 1852 – 3 July 1933) was an Argentine politician of the Radical Civic Union who served as President of Argentina from 1916 to 1922 and again from 1928 until his overthrow in 1930. He was the first president elected democratically by means of the secret ballot and mandatory male suffrage established by the Sáenz Peña Law of 1912. His activism was the prime impetus behind the passage of that law in Argentina.",
     "image": "",
-    "photo": "model 0.95, one person 0.99, captured 1926, during their lifetime"
+    "photo": "model 0.95, one person 0.99, captured 1926, during their lifetime",
+    "birth": {
+      "location": [
+        -58.38166667,
+        -34.60333333
+      ],
+      "year": 1852
+    }
   }
 }

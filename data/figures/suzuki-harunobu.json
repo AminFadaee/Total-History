@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese designer of woodblock print art in the ukiyo-e style.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Tokugawa Shogunate"
+      ],
+      "born_in": [
+        "Tokugawa Shogunate"
       ]
     },
     "lead": "Suzuki Harunobu (Japanese: 鈴木 春信; c. 1725 – 8 July 1770) was a Japanese designer of woodblock print art in the ukiyo-e style. He was an innovator, the first to produce full-color prints (nishiki-e) in 1765, rendering obsolete the former modes of two- and three-color prints. Harunobu used many special techniques, and depicted a wide variety of subjects, from classical poems to contemporary beauties. Like many artists of his day, Harunobu also produced a number of shunga, or erotic images. During his lifetime and shortly afterwards, many artists imitated his style. A few, such as Harushige, even boasted of their ability to forge the work of the great master. Much about Harunobu's life is unknown.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        139.77444444,
+        35.68388889
+      ],
+      "year": 1725
+    }
   }
 }

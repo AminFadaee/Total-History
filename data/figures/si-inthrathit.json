@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The first king of the Sukhothai Kingdom, a historical polity in what is now Thailand.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Khmer Empire"
+      ],
+      "born_in": [
+        "Khmer Empire"
       ]
     },
-    "lead": "Si Inthrathit (Thai: ศรีอินทราทิตย์, pronounced [sǐː ʔīn.tʰrāː.tʰít]; also spelt Śrī Indrāditya) was the first king of the Sukhothai Kingdom, a historical polity in what is now Thailand. He reigned from 1238 until around 1270 and is credited as the founder of the Phra Ruang dynasty, regarded as the first historical Siamese dynasty.",
+    "lead": "Si Inthrathit (Thai: ศรีอินทราทิตย์, pronounced [sǐː ʔīn.tʰrāː.tʰít]; also spelt Śrī Indrāditya) was the first king of the Sukhothai Kingdom, a historical polity in what is now Thailand. He reigned from 1238 until around 1270 and is credited as the founder of the Phra Ruang dynasty, regarded as the first historical Siamese dynasty. His dynasty holds a dual claim to this distinction—having originated in the very region later designated by foreigners as \"Siam\", and for being the royal house that liberated the Thai principalities from the Khmer Empire.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        101.24222222,
+        16.77944444
+      ],
+      "year": 1188
+    }
   }
 }

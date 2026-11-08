@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese samurai, daimyo and the 15th and last shōgun of the Tokugawa shogunate.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/tokugawa-yoshinobu.jpg",
   "image_credit": "Frederick Sutton · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Tokugawa Shogunate"
+      ],
+      "born_in": [
+        "Tokugawa Shogunate"
       ]
     },
     "lead": "Prince Yoshinobu Tokugawa (Japanese: 德川 慶喜, Hepburn: Tokugawa Yoshinobu; 28 October 1837 – 22 November 1913) was a Japanese samurai, daimyo and the 15th and last shōgun of the Tokugawa shogunate. He was part of a movement which aimed to reform the aging shogunate, but was ultimately unsuccessful. He resigned his position as shogun in late 1867, while aiming at keeping some political influence. After these efforts failed following the defeat at the Battle of Toba–Fushimi in early 1868, he went into retirement, and largely avoided the public eye for the rest of his life. Despite his fall from power, he was later raised to a prince, the highest title of nobility in the new Japanese peerage.",
     "image": "",
-    "photo": "model 0.94, one person 0.97, in Category:Photographs of Tokugawa Yoshinobu"
+    "photo": "model 0.94, one person 0.97, in Category:Photographs of Tokugawa Yoshinobu",
+    "birth": {
+      "location": [
+        139.77444444,
+        35.68388889
+      ],
+      "year": 1837
+    }
   }
 }

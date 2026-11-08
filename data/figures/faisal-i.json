@@ -21,6 +21,7 @@
   ],
   "contribution": "A Hejazi statesman who served as the King of Iraq from 23 August 1921 until his death in 1933.",
   "setting": "",
+  "modern_country": "Saudi Arabia",
   "image": "images/faisal-i.jpg",
   "image_credit": "Vandyk photographic studio · Public domain",
   "image_kind": "Photograph",
@@ -46,10 +47,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Faisal I bin Hussein bin Ali al-Hashimi (Arabic: فيصل بن حسين بن علي الهاشمي, romanized: Fayṣal bin Ḥusayn bin ʻAlī al-Hāshimī; 20 May 1885 – 8 September 1933) was a Hejazi statesman who served as the King of Iraq from 23 August 1921 until his death in 1933. A member of the Hashemite family, he was a leader of the Great Arab Revolt during the First World War, and ruled as the unrecognized King of the Arab Kingdom of Syria from March to July 1920 when he was expelled by the French.",
     "image": "",
-    "photo": "model 0.96, one person 0.96, in Category:Portrait photographs in the Royal Collection of the United Kingdom"
+    "photo": "model 0.96, one person 0.96, in Category:Portrait photographs in the Royal Collection of the United Kingdom",
+    "birth": {
+      "location": [
+        39.82333333,
+        21.4225
+      ],
+      "year": 1885
+    }
   }
 }

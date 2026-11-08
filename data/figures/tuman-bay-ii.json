@@ -19,6 +19,7 @@
   ],
   "contribution": "The Mamluk Sultan of Egypt before the country's conquest by the Ottoman Empire in 1517.",
   "setting": "",
+  "modern_country": "Syria",
   "image": "images/tuman-bay-ii.jpg",
   "image_credit": "Paolo Giovio · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Mamluk Sultanate"
+      ],
+      "born_in": [
+        "Mamluk Sultanate"
       ]
     },
     "lead": "Al-Ashraf Abu Al-Nasr Tuman Bay (Arabic: الأشرف أبو النصر طومان باي), better known as Tuman Bay II and Tumanbay II (طومان باي; c. 1476 – 15 April 1517) was the Mamluk Sultan of Egypt before the country's conquest by the Ottoman Empire in 1517. He ascended to the sultanic throne during the final period of Mamluk rule in Egypt, after the defeat of Sultan Al-Ashraf Qansuh al-Ghawri by Ottoman Sultan Selim I at the Battle of Marj Dabiq the year prior. He was the last person to hold the title of Sultan of Egypt until the re-establishment of the sultanate 397 years later under Hussein Kamel in 1914.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        37.16,
+        36.2
+      ],
+      "year": 1474
+    }
   }
 }

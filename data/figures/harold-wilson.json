@@ -15,8 +15,9 @@
     "United Kingdom"
   ],
   "related": [],
-  "contribution": "He was Leader of the Labour Party from 1963 to 1976, Leader of the Opposition twice — from 1963 to 1964 and from 1970 to 1974 — and a Member of Parliament from 1945 to 1983.",
+  "contribution": "A British statesman who served as Prime Minister of the United Kingdom from 1964 to 1970 and from 1974 to 1976, the most recent person to serve in the position for two non-consecutive terms.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/harold-wilson.jpg",
   "image_credit": "Eric Koch for Anefo · CC0",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "United Kingdom"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
-    "lead": "James Harold Wilson, Baron Wilson of Rievaulx (11 March 1916 – 23 May 1995), was Prime Minister of the United Kingdom from 1964 to 1970 and from 1974 to 1976. He was Leader of the Labour Party from 1963 to 1976, Leader of the Opposition twice — from 1963 to 1964 and from 1970 to 1974 — and a Member of Parliament (MP) from 1945 to 1983. Wilson is the only Labour leader to have formed a government after a general election four separate times.",
+    "lead": "James Harold Wilson, Baron Wilson of Rievaulx (11 March 1916 – 23 May 1995), was a British statesman who served as Prime Minister of the United Kingdom from 1964 to 1970 and from 1974 to 1976, the most recent person to serve in the position for two non-consecutive terms. He was Leader of the Labour Party from 1963 to 1976, Leader of the Opposition twice — from 1963 to 1964 and from 1970 to 1974 — and a Member of Parliament (MP) from 1945 to 1983. Wilson is the only Labour leader to have formed a government after a general election four separate times.",
     "image": "",
-    "photo": "model 0.93, one person 1.00, in Category:Photographs by Eric Koch in The Hague (1967)"
+    "photo": "model 0.93, one person 1.00, in Category:Photographs by Eric Koch in The Hague (1967)",
+    "birth": {
+      "location": [
+        -1.7798,
+        53.645
+      ],
+      "year": 1916
+    }
   }
 }

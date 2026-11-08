@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He was a half-brother of Sigujana, Shaka and Dingane, who preceded him as Zulu kings.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/mpande-kasenzangakhona.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,18 @@
       ],
       "lead": [
         "Zululand"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Mpande kaSenzangakhona (c. 1798 – 18 October 1872) was the monarch of the Zulu Kingdom from 1840 to 1872. He was a half-brother of Sigujana, Shaka and Dingane, who preceded him as Zulu kings. He came to power after he had overthrown Dingane in 1840.",
     "image": "",
-    "photo": "Mpande.jpg: model 0.16, one person 0.94; Zulu soldiers of the army of King Umpande (Panda), 1847.png: model 0.02, one person 0.11; The uncivilized races of men in all countries of the world - being a comprehensive account of their manners and customs, and of their physical, social, mental, moral and religious characteristics (14770898934).jpg: model 0.01, one person 0.31"
+    "photo": "Mpande.jpg: model 0.16, one person 0.94; Zulu soldiers of the army of King Umpande (Panda), 1847.png: model 0.02, one person 0.11; The uncivilized races of men in all countries of the world - being a comprehensive account of their manners and customs, and of their physical, social, mental, moral and religious characteristics (14770898934).jpg: model 0.01, one person 0.31",
+    "birth": {
+      "location": [
+        31.41666667,
+        -28.31666667
+      ],
+      "year": 1798
+    }
   }
 }

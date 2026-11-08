@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "Caesar of Western Rome from 355 to 360 and Roman emperor from 361 to 363, as well as a notable philosopher and author in Greek.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -36,10 +37,18 @@
       ],
       "citizenship": [
         "Roman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Julian (Latin: Flavius Claudius Julianus; Ancient Greek: Ἰουλιανός Ioulianos; 331 – 26 June 363) was Caesar of Western Rome from 355 to 360 and Roman emperor from 361 to 363, as well as a notable philosopher and author in Greek. His rejection of Christianity, public conversion to paganism, and promotion of Neoplatonic Hellenism caused him to be remembered as Julian the Apostate in the Christian tradition.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        28.98,
+        41.0125
+      ],
+      "year": 331
+    }
   }
 }

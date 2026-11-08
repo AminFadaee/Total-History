@@ -21,6 +21,7 @@
   ],
   "contribution": "A Central American statesman, military officer, and caudillo who served as the president of the Federal Republic of Central America on three occasions between 1829 and 1839.",
   "setting": "",
+  "modern_country": "Honduras",
   "image": "images/francisco-morazan.jpg",
   "image_credit": "Frederich Van Dolvetz (source)Scanned by JVC3ETA · Public domain",
   "image_kind": "Portrait from life",
@@ -49,10 +50,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "José Francisco Morazán Quezada (3 October 1792 – 15 September 1842) was a Central American statesman, military officer, and caudillo who served as the president of the Federal Republic of Central America on three occasions between 1829 and 1839. He also served as the head of state of Honduras thrice between 1827 and 1830, the head of state of El Salvador twice in 1832 and 1839 to 1840, and the head of state of Costa Rica in 1842.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -87.20472222,
+        14.10583333
+      ],
+      "year": 1792
+    }
   }
 }

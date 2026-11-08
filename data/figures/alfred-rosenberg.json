@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "A Baltic German Nazi philosopher and convicted war criminal.",
   "setting": "",
+  "modern_country": "Estonia",
   "image": "images/alfred-rosenberg.jpg",
   "image_credit": "United States Army Signal Corps photographer · Public domain",
   "image_kind": "Photograph",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Alfred Ernst Rosenberg (12 January 1893 [O.S. 31 December 1892] – 16 October 1946) was a Baltic German Nazi philosopher and convicted war criminal.",
     "image": "",
-    "photo": "model 0.97, one person 0.99, captured 1945, during their lifetime"
+    "photo": "model 0.97, one person 0.99, captured 1945, during their lifetime",
+    "birth": {
+      "location": [
+        24.74527778,
+        59.43722222
+      ],
+      "year": 1893
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The king of the Ayutthaya Kingdom from 1688 to 1703 and the founder of the Ban Phlu Luang dynasty, the final ruling house of Ayutthaya.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "images/phetracha.jpg",
   "image_credit": "Gaspar Bouttats, (sr.) · Public domain",
   "image_kind": "Portrait from life",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Ayutthaya Kingdom"
+      ],
+      "born_in": [
+        "Ayutthaya Kingdom"
       ]
     },
     "lead": "Phetracha (alternative spellings: Bedraja, P'etraja, Petraja, Petratcha; also called Phra Phetracha; Thai: เพทราชา, pronounced [pʰêːt.rāː.t͡ɕʰāː]; 1632– 5 February 1703) or King Mahaburut Wisutdetchaudom (สมเด็จพระมหาบุรุษวิสุทธิเดชอุดม, RTGS: Somdet Phra Mahaburut Wisutdetchaudom) or Phra Song Tham (พระทรงธรรม์) or King Thadathibet (สมเด็จพระธาดาธิเบศร์) born Thongkham (ทองคำ), was the king of the Ayutthaya Kingdom from 1688 to 1703 and the founder of the Ban Phlu Luang dynasty, the final ruling house of Ayutthaya. Originally a high-ranking official and Director-General of the Royal Department of Elephants under King Narai, he rose to power by orchestrating the Siamese revolution of 1688. Upon Narai's death, Phetracha seized the throne, executed the late king's heirs, and consolidated his legitimacy by marrying Narai's only daughter. His reign marked a decisive shift in Siamese foreign policy; he moved to expel French influence from the kingdom, leading to the Siege of Bangkok and the withdrawal of French troops. Consequently, diplomatic ties with the West were significantly reduced for decades. Phetracha's rule, however, was frequently destabilized by internal rebellions and political unrest from factions remains loyal to the previous dynasty.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        100.11833333,
+        14.47444444
+      ],
+      "year": 1632
+    }
   }
 }

@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "Head of the Catholic Church and sovereign of the Papal States from 11 August 1492 until his death in 1503.",
   "setting": "",
+  "modern_country": "",
   "image": "images/pope-alexander-vi.jpg",
   "image_credit": "Attributed to Pedro Berruguete · Public domain",
   "image_kind": "Portrait from life",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Crown of Aragon"
+      ],
+      "born_in": [
+        "Crown of Aragon"
       ]
     },
-    "lead": "Pope Alexander VI (born Roderic de Borja y Llançol; c. 1431 – 18 August 1503) was head of the Catholic Church and sovereign of the Papal States from 11 August 1492 until his death in 1503.",
+    "lead": "Pope Alexander VI (born Roderic de Borja y Llançol; c. 1431 – 18 August 1503) was head of the Catholic Church and sovereign of the Papal States from 11 August 1492 until his death in 1503. A member of the House of Borgia, he is one of several popes alleged to have been sexually active during their papacy. Alexander reigned as pope during the High Renaissance, a period in which nepotism and simony were widespread among the clergy.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.37638889,
+        39.47
+      ],
+      "year": 1431
+    }
   }
 }

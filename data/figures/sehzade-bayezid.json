@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Ottoman prince and the son of Sultan Suleiman the Magnificent and Hürrem Sultan.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Ottoman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Şehzade Bayezid (Ottoman Turkish: شهزاده بايزيد‎; 1527 – 25 September 1561) was an Ottoman prince and the son of Sultan Suleiman the Magnificent and Hürrem Sultan.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        28.984,
+        41.013
+      ],
+      "year": 1525
+    }
   }
 }

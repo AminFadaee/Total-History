@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Mexican businessman, revolutionary, writer, politician, and statesman who served as the 37th president of Mexico from 1911 until he was deposed and assassinated in a coup d'état in February 1913.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/francisco-i-madero.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Mexico"
+      ],
+      "born_in": [
+        "Mexico"
       ]
     },
     "lead": "Francisco Ignacio Madero González (Spanish pronunciation: [fɾanˈsisko jɣˈnasjo maˈðeɾo ɣonˈsales]; 30 October 1873 – 22 February 1913) was a Mexican businessman, revolutionary, writer, politician, and statesman who served as the 37th president of Mexico from 1911 until he was deposed and assassinated in a coup d'état in February 1913. He came to prominence as an advocate for democracy and as an opponent of President and dictator Porfirio Díaz. After Díaz claimed to have won the fraudulent election of 1910 despite promising a return to democracy, Madero started the Mexican Revolution to oust Díaz. The Mexican revolution would continue until 1920, well after Madero and Díaz's deaths, with hundreds of thousands dead.",
     "image": "",
-    "photo": "Francisco I Madero.jpg: model 0.82, one person 0.99; Francisco I Madero-retouched.jpg: model 0.85, one person 0.96; Presidente Francisco I. Madero.jpg: model 0.40, one person 0.93, in Category:20th-century black and white portrait photographs of sitting men at three-quarter length; Corrido de Madero.png: model 0.82, one person 0.01, captured 1911, during their lifetime; MaderoArrivesDecenaTragica.JPG: model 0.89, one person 0.04; El presidente Francisco I. Madero y su estado mayor presidencial (c. 1911), de Agustín Víctor Casasola.tif: model 0.98, one person 0.00, captured 1911, during their lifetime; Roque Gonzalez y Madero.jpg: model 0.98, one person 0.02; Francisco I Madero and leaders.jpg: model 0.83, one person 0.00; FMadero.jpg: model 0.70, one person 0.93; Mr and Mrs Francisco I Madero cph.3b47072.jpg: model 0.86, one person 0.24, captured 1911, during their lifetime"
+    "photo": "Francisco I Madero.jpg: model 0.82, one person 0.99; Francisco I Madero-retouched.jpg: model 0.85, one person 0.96; Presidente Francisco I. Madero.jpg: model 0.40, one person 0.93, in Category:20th-century black and white portrait photographs of sitting men at three-quarter length; Corrido de Madero.png: model 0.82, one person 0.01, captured 1911, during their lifetime; MaderoArrivesDecenaTragica.JPG: model 0.89, one person 0.04; El presidente Francisco I. Madero y su estado mayor presidencial (c. 1911), de Agustín Víctor Casasola.tif: model 0.98, one person 0.00, captured 1911, during their lifetime; Roque Gonzalez y Madero.jpg: model 0.98, one person 0.02; Francisco I Madero and leaders.jpg: model 0.83, one person 0.00; FMadero.jpg: model 0.70, one person 0.93; Mr and Mrs Francisco I Madero cph.3b47072.jpg: model 0.86, one person 0.24, captured 1911, during their lifetime",
+    "birth": {
+      "location": [
+        -102.17916667,
+        25.44027778
+      ],
+      "year": 1873
+    }
   }
 }

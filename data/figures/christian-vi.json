@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The eldest surviving son of Frederick IV and Louise of Mecklenburg-Güstrow, he is considered one of Denmark–Norway's more anonymous kings, but he was a skilled politician, best known for his authoritarian regime.",
   "setting": "",
+  "modern_country": "",
   "image": "images/christian-vi.jpg",
   "image_credit": "Unidentified painter · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Denmark-Norway"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Christian VI (30 November 1699 – 6 August 1746) was King of Denmark and Norway from 1730 to 1746. The eldest surviving son of Frederick IV and Louise of Mecklenburg-Güstrow, he is considered one of Denmark–Norway's more anonymous kings, but he was a skilled politician, best known for his authoritarian regime. He was the first king of the Oldenburg dynasty to refrain from entering in any war. During his reign both compulsory confirmation (1736) and a public, nationwide school system (1739) were introduced. His chosen motto was  \"Deo et populo\" (for God and the people).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.58,
+        55.67722222
+      ],
+      "year": 1699
+    }
   }
 }

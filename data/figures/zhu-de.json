@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Chinese general, military strategist, politician and revolutionary in the Chinese Communist Party.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/zhu-de.jpg",
   "image_credit": "anonymous (Gov) · Public domain",
   "image_kind": "Photograph",
@@ -44,10 +45,20 @@
       ],
       "birthplace": [
         "Qing Dynasty"
+      ],
+      "born_in": [
+        "Qing Dynasty"
       ]
     },
     "lead": "Zhu De (1 December 1886 – 6 July 1976) was a Chinese general, military strategist, politician and revolutionary in the Chinese Communist Party (CCP).",
     "image": "",
-    "photo": "model 0.94, one person 0.98"
+    "photo": "model 0.94, one person 0.98",
+    "birth": {
+      "location": [
+        106.303,
+        31.272
+      ],
+      "year": 1886
+    }
   }
 }

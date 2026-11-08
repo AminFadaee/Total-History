@@ -1,0 +1,54 @@
+{
+  "id": "Q465277",
+  "slug": "duy-tan",
+  "name": "Duy Tân",
+  "wikipedia": "Duy Tân",
+  "role": "Emperor of Đại Nam under French protectorate of Annam and Tonkin",
+  "life": "1900–1945",
+  "lifetime": [
+    1900,
+    1945
+  ],
+  "occupation": "Politician",
+  "birth_country": "Vietnam",
+  "civilizations": [
+    "French Indochina"
+  ],
+  "related": [
+    "Nguyễn dynasty"
+  ],
+  "contribution": "The 11th emperor of the Nguyễn dynasty in Vietnam, who reigned for nine years between 1907 and 1916.",
+  "setting": "",
+  "modern_country": "Vietnam",
+  "image": "images/duy-tan.jpg",
+  "image_credit": "Charles Wattebled · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/duy-tan-photo.jpg",
+  "photo_credit": "Charles Wattebled · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "French colonial empire"
+      ],
+      "lead": [
+        "Nguyễn dynasty"
+      ],
+      "birthplace": [
+        "French Indochina"
+      ],
+      "born_in": [
+        "French Indochina"
+      ]
+    },
+    "lead": "Emperor Duy Tân (Hanoi: [zwi˧ tən˧], chữ Hán: 維新, lit. \"renovation\"; 19 September 1900 – 26 December 1945), born Nguyễn Phúc Vĩnh San, was the 11th emperor of the Nguyễn dynasty in Vietnam, who reigned for nine years between 1907 and 1916.",
+    "image": "",
+    "photo": "model 1.00, one person 0.99",
+    "birth": {
+      "location": [
+        107.57777778,
+        16.46972222
+      ],
+      "year": 1900
+    }
+  }
+}

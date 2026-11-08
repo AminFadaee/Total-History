@@ -15,8 +15,9 @@
     "Han Dynasty"
   ],
   "related": [],
-  "contribution": "A Chinese military general, politician, and warlord who lived in the late Eastern Han dynasty.",
+  "contribution": "A Chinese military general, politician and warlord who lived in the late Eastern Han dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/dong-zhuo.jpg",
   "image_credit": "The original uploader was Plastictv at English Wikipedia. · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Han Dynasty"
+      ],
+      "born_in": [
+        "Han Dynasty"
       ]
     },
-    "lead": "Dong Zhuo () (c. 140s – 22 May 192), courtesy name Zhongying, was a Chinese military general, politician, and warlord who lived in the late Eastern Han dynasty. At the end of the reign of the Eastern Han, Dong Zhuo was a general and powerful minister of the imperial government. Originally from Liang Province, Dong Zhuo seized control of the imperial capital Luoyang in 189 when it entered a state of turmoil following the death of Emperor Ling of Han and a massacre of the eunuch faction by the court officials.",
+    "lead": "Dong Zhuo () (c. 140s – 22 May 192), courtesy name Zhongying, was a Chinese military general, politician and warlord who lived in the late Eastern Han dynasty. At the end of the reign of the Eastern Han, Dong Zhuo was a general and powerful minister of the imperial government. Originally from Liang Province, Dong Zhuo seized control of the imperial capital Luoyang in 189 when it entered a state of turmoil following the death of Emperor Ling of Han and a massacre of the eunuch faction by the court officials.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        104.03027778,
+        34.43722222
+      ],
+      "year": 139
+    }
   }
 }

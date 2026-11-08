@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Dominican Republic politician and minister of the Armed Forces.",
   "setting": "",
+  "modern_country": "Dominican Republic",
   "image": "images/ramon-caceres.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,21 @@
       ],
       "citizenship": [
         "Dominican Republic"
+      ],
+      "born_in": [
+        "Dominican Republic",
+        "Spanish Empire"
       ]
     },
     "lead": "Ramón Arturo Cáceres Vasquez (December 15, 1866, Moca, Dominican Republic – November 19, 1911, Santo Domingo), nicknamed Mon Cáceres,  was a Dominican Republic politician and minister of the Armed Forces. He was the 31st president of the Dominican Republic (1906–1911). He served as vice president under Carlos Felipe Morales until assuming office in 1906. Cáceres was the leader of the right-wing Red Party.",
     "image": "",
-    "photo": "Ramón Cáceres 1910.jpg: model 0.70, one person 0.97, captured 1910, during their lifetime; Ramon Caceres.jpg: model 0.58, one person 0.97; The Guardia Republicana in Puerto Plata, c. 1910.jpg: model 0.92, one person 0.01"
+    "photo": "Ramón Cáceres 1910.jpg: model 0.70, one person 0.97, captured 1910, during their lifetime; Ramon Caceres.jpg: model 0.58, one person 0.97; The Guardia Republicana in Puerto Plata, c. 1910.jpg: model 0.92, one person 0.01",
+    "birth": {
+      "location": [
+        -70.516666666667,
+        19.383333333333
+      ],
+      "year": 1866
+    }
   }
 }

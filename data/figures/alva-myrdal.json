@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "She was a prominent leader of the disarmament movement.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/alva-myrdal.jpg",
   "image_credit": "Unknown author · CC BY-SA 3.0 nl",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
     "lead": "Alva Myrdal ( MUR-dahl, MEER-, Swedish: [ˈǎlːva ˈmy̌ːɖɑːl]; née Reimer; 31 January 1902 – 1 February 1986) was a Swedish sociologist, diplomat and politician. She was a prominent leader of the disarmament movement. She, along with Alfonso García Robles, received the Nobel Peace Prize in 1982. She married Gunnar Myrdal in 1924; he received the Nobel Memorial Prize in Economic Sciences in 1974, making them the fourth ever married couple to have won Nobel Prizes, and the first to win independent of each other (versus a shared Nobel Prize by scientist spouses).",
     "image": "",
-    "photo": "model 0.99, one person 0.95, captured 1966, during their lifetime"
+    "photo": "model 0.99, one person 0.95, captured 1966, during their lifetime",
+    "birth": {
+      "location": [
+        17.64472222,
+        59.85805556
+      ],
+      "year": 1902
+    }
   }
 }

@@ -20,6 +20,7 @@
   ],
   "contribution": "King of the United Kingdom and the British Dominions, and Emperor of India, from 22 January 1901 until his death in 1910.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/edward-vii.jpg",
   "image_credit": "W. & D. Downey · Public domain",
   "image_kind": "Photograph",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Edward VII (Albert Edward; 9 November 1841 – 6 May 1910) was King of the United Kingdom and the British Dominions, and Emperor of India, from 22 January 1901 until his death in 1910.",
     "image": "",
-    "photo": "model 0.85, one person 0.99, in Category:Photographs by W. & D. Downey"
+    "photo": "model 0.85, one person 0.99, in Category:Photographs by W. & D. Downey",
+    "birth": {
+      "location": [
+        -0.14194444,
+        51.50083333
+      ],
+      "year": 1841
+    }
   }
 }

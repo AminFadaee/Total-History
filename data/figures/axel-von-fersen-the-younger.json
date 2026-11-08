@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Swedish count, military officer, courtier, ambassador, Marshal and Lord of the Realm.",
   "setting": "",
+  "modern_country": "",
   "image": "images/axel-von-fersen-the-younger.jpg",
   "image_credit": "Carl Frederik von Breda · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Hans Axel von Fersen (Swedish: [hɑːns ˈǎksɛl fɔn ˈfæ̌ʂːɛn]; 4 September 1755 – 20 June 1810), also known as Axel von Fersen the Younger and as Axel de Fersen in France, was a Swedish count, military officer, courtier, ambassador, Marshal and Lord of the Realm. He gained international renown for his close association with Queen Marie Antoinette of France and his prominent involvement in the French Revolution.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.06861111,
+        59.32944444
+      ],
+      "year": 1755
+    }
   }
 }

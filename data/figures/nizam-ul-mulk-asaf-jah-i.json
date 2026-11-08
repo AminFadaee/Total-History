@@ -19,6 +19,7 @@
   ],
   "contribution": "18th-century Nizam of Hyderabad.",
   "setting": "",
+  "modern_country": "",
   "image": "images/nizam-ul-mulk-asaf-jah-i.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Mir Qamar-ud-din Khan Siddiqi  (11 August 1671 – 1 June 1748) also known as Chin Qilich Qamaruddin Khan, Nizam-ul-Mulk, Asaf Jah and Nizam I, was the first Nizam of Hyderabad.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        78.02,
+        27.18
+      ],
+      "year": 1671
+    }
   }
 }

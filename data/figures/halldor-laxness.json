@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Icelandic writer and winner of the 1955 Nobel Prize in Literature.",
   "setting": "Republic of Iceland",
+  "modern_country": "Iceland",
   "image": "images/halldor-laxness.jpg",
   "image_credit": "Nobel Foundation · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Republic of Iceland"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Halldór Kiljan Laxness (Icelandic: [ˈhaltour ˈcʰɪljan ˈlaxsnɛs] ; born Halldór Guðjónsson; 23 April 1902 – 8 February 1998) was an Icelandic writer and winner of the 1955 Nobel Prize in Literature. He wrote novels, poetry, newspaper articles, essays, plays, travelogues and short stories. Writers who influenced Laxness include August Strindberg, Sigmund Freud, Knut Hamsun, Sinclair Lewis, Upton Sinclair, Bertolt Brecht, and Ernest Hemingway.",
     "image": "",
-    "photo": "model 0.95, one person 1.00, classified as a photograph on Commons"
+    "photo": "model 0.95, one person 1.00, classified as a photograph on Commons",
+    "birth": {
+      "location": [
+        -21.94,
+        64.14666667
+      ],
+      "year": 1902
+    }
   }
 }

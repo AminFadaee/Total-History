@@ -20,6 +20,7 @@
   ],
   "contribution": "The pharaoh and basileus of the Ptolemaic Kingdom from 284 to 246 BC.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -34,10 +35,18 @@
         "Ptolemaic Kingdom",
         "Macedonia",
         "Seleucid Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Ptolemy II Philadelphus (Ancient Greek: Πτολεμαῖος Φιλάδελφος, Ptolemaîos Philádelphos, \"Ptolemy, sibling-lover\"; 309 – 28 January 246 BC) was the pharaoh and basileus of the Ptolemaic Kingdom from 284 to 246 BC. He was the son of Ptolemy I, the Macedonian general of Alexander the Great who founded the Ptolemaic Kingdom after the death of Alexander, and Queen Berenice I, originally from Macedon.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.23333333,
+        36.85
+      ],
+      "year": -308
+    }
   }
 }

@@ -12,12 +12,14 @@
   "occupation": "Politician",
   "birth_country": "Türkiye",
   "civilizations": [
+    "Ayyubid Sultanate",
     "Sultanate of Rum",
     "Byzantine Empire"
   ],
   "related": [],
   "contribution": "A 13th-century uch bey, who was the father of Osman I. Little is known about Ertuğrul's life.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/ertugrul.jpg",
   "image_credit": "1616 artist · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +39,20 @@
       ],
       "birthplace": [
         "Ayyubid Sultanate"
+      ],
+      "born_in": [
+        "Ayyubid Sultanate"
       ]
     },
     "lead": "Ertuğrul or Ertuğrul Ghazi (Ottoman Turkish: ارطغرل, romanized: Erṭoġrıl; died c. 1280/1281) was a 13th-century uch bey (marcher-lord), who was the father of Osman I. Little is known about Ertuğrul's life. According to Ottoman tradition, he was the son of Suleyman Shah, the leader of the Kayı tribe (a claim which has come under criticism from many historians) of the Oghuz Turks (then known as Turkomans), which fled from western Central Asia to Anatolia to escape the Mongol conquests; but according to contemporary numinastic evidence, he was the son of Gündüz Alp. According to the legend, after the death of his father, Ertuğrul and his followers entered the service of the Sultanate of Rum, for which he was rewarded with dominion over the town of Söğüt on the frontier with the Byzantine Empire. This set off the chain of events that would ultimately lead to the founding of the Ottoman Empire.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        42.49444444,
+        38.75277778
+      ],
+      "year": 1198
+    }
   }
 }

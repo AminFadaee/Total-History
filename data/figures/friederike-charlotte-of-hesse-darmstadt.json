@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A princess of Hesse-Darmstadt and through her marriage a princess of Hesse-Kassel.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/friederike-charlotte-of-hesse-darmstadt.jpg",
   "image_credit": "Johann Heinrich Tischbein · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Friederike Charlotte of Hessen-Darmstadt (8 September 1698 Darmstadt – 22 March 1777, Darmstadt) was a princess of Hesse-Darmstadt and through her marriage a princess of Hesse-Kassel.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        8.65277778,
+        49.87222222
+      ],
+      "year": 1698
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A South African politician who served as the last ceremonial State President of South Africa from 4 June 1979 until 3 September 1984.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/marais-viljoen.jpg",
   "image_credit": "Ons eerste halfeeu 1910 - 1960 · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "South Africa"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Marais Viljoen,  (2 December 1915 – 4 January 2007) was a South African politician who served as the last ceremonial State President of South Africa from 4 June 1979 until 3 September 1984. Viljoen became the last of the ceremonial presidents of South Africa when he was succeeded in 1984 by Prime Minister P. W. Botha, who combined the offices into an executive state presidency.",
     "image": "",
-    "photo": "model 0.96, one person 1.00, captured 1960, during their lifetime"
+    "photo": "model 0.96, one person 1.00, captured 1960, during their lifetime",
+    "birth": {
+      "location": [
+        19.88333333,
+        -33.8
+      ],
+      "year": 1915
+    }
   }
 }

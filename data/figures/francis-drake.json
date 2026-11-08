@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An English explorer and privateer known for making the second circumnavigation of the world in a single expedition between 1577 and 1580.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/francis-drake.jpg",
   "image_credit": "Marcus Gheeraerts the Younger · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Sir Francis Drake (c. 1540 – 28 January 1596) was an English explorer and privateer known for making the second circumnavigation of the world in a single expedition between 1577 and 1580 (being the first English expedition to accomplish this). He is also known for participating in the early English slaving voyages of his cousin, John Hawkins, and John Lovell. Having started as a simple seaman, in 1588 he was part of the fight against the Spanish Armada as a vice admiral.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.15,
+        50.545
+      ],
+      "year": 1540
+    }
   }
 }

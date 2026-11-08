@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Denmark and Norway from 1699 until his death.",
   "setting": "",
+  "modern_country": "",
   "image": "images/frederick-iv-of-denmark.jpg",
   "image_credit": "Balthasar Denner · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Denmark-Norway"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Frederick IV (Danish: Frederik; 11 October 1671 – 12 October 1730) was King of Denmark and Norway from 1699 until his death. Frederick was the son of Christian V of Denmark–Norway and his wife Charlotte Amalie of Hesse-Kassel.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.58,
+        55.67722222
+      ],
+      "year": 1671
+    }
   }
 }

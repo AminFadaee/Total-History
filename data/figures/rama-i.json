@@ -19,8 +19,9 @@
     "Ayutthaya Kingdom",
     "Konbaung Dynasty"
   ],
-  "contribution": "The founder of the Rattanakosin Kingdom and the first King of Siam from the reigning Chakri dynasty.",
+  "contribution": "The founder of the Rattanakosin Kingdom and the first king of Siam from the reigning Chakri dynasty.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "images/rama-i.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Ayutthaya Kingdom"
+      ],
+      "born_in": [
+        "Ayutthaya Kingdom"
       ]
     },
-    "lead": "Phutthayotfa Chulalok (born Thongduang; 20 March 1737 – 7 September 1809), posthumously honoured as King Phutthayotfa Chulalok the Great, also known by his regnal name Rama I, was the founder of the Rattanakosin Kingdom (now Thailand) and the first King of Siam from the reigning Chakri dynasty. He ascended the throne in 1782, following the deposition of King Taksin of Thonburi. He was also celebrated as the founder of Rattanakosin (now Bangkok) as the new capital of the reunited kingdom.",
+    "lead": "Phutthayotfa Chulalok (born Thongduang; 20 March 1737 – 7 September 1809), posthumously honoured as King Phutthayotfa Chulalok the Great, also known by his regnal name Rama I, was the founder of the Rattanakosin Kingdom (now Thailand) and the first king of Siam from the reigning Chakri dynasty. He ascended the throne in 1782, following the deposition of King Taksin of the Thonburi Kingdom. He was also celebrated as the founder of Rattanakosin (now Bangkok) as the new capital of the reunited kingdom.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        100.56055556,
+        14.34777778
+      ],
+      "year": 1736
+    }
   }
 }

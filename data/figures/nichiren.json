@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese Buddhist monk and philosopher of the Kamakura period.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Kamakura Shogunate"
+      ],
+      "born_in": [
+        "Kamakura Shogunate"
       ]
     },
     "lead": "Nichiren (日蓮; Japanese pronunciation: [ɲi.tɕiꜜ.ɾeɴ, ɲiꜜ.tɕi.ɾeɴ], 16 February 1222 – 13 October 1282) was a Japanese Buddhist monk and philosopher of the Kamakura period. His teachings form the basis of Nichiren Buddhism, a unique branch of Japanese Mahayana Buddhism based on the Lotus Sutra.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        140.12333333,
+        35.605
+      ],
+      "year": 1222
+    }
   }
 }

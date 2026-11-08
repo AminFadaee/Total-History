@@ -1,0 +1,57 @@
+{
+  "id": "Q159603",
+  "slug": "wadysaw-gomuka",
+  "name": "Władysław Gomułka",
+  "wikipedia": "Władysław Gomułka",
+  "role": "Leader of Poland",
+  "life": "1905–1982",
+  "lifetime": [
+    1905,
+    1982
+  ],
+  "occupation": "Politician",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Republic of Poland"
+  ],
+  "related": [
+    "Federal Republic of Germany"
+  ],
+  "contribution": "A Polish communist politician.",
+  "setting": "Republic of Poland",
+  "modern_country": "Poland",
+  "image": "images/wadysaw-gomuka.jpg",
+  "image_credit": "unknown-anonymous · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/wadysaw-gomuka-photo.jpg",
+  "photo_credit": "unknown-anonymous · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Republic of Poland"
+      ],
+      "death": [
+        "Republic of Poland"
+      ],
+      "lead": [
+        "Federal Republic of Germany"
+      ],
+      "citizenship": [
+        "Second Polish Republic"
+      ],
+      "born_in": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Władysław Gomułka (Polish: [vwaˈdɨswav ɡɔˈmuwka] ; 6 February 1905 – 1 September 1982) was a Polish communist politician. He was the de facto leader of post-war Poland from 1956 to 1970.",
+    "image": "",
+    "photo": "model 0.87, one person 0.99, captured 1960, during their lifetime",
+    "birth": {
+      "location": [
+        21.75,
+        49.68333333
+      ],
+      "year": 1905
+    }
+  }
+}

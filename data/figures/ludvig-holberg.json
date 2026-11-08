@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A writer, essayist, philosopher, historian and playwright born in Bergen, Norway, during the time of the Dano–Norwegian dual monarchy.",
   "setting": "",
+  "modern_country": "Norway",
   "image": "images/ludvig-holberg.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Denmark-Norway"
+      ],
+      "born_in": [
+        "Denmark-Norway"
       ]
     },
     "lead": "Ludvig Holberg, Baron of Holberg (3 December 1684 – 28 January 1754) was a writer, essayist, philosopher, historian and playwright born in Bergen, Norway, during the time of the Dano–Norwegian dual monarchy. He was influenced by Humanism, the Enlightenment and the Baroque. Holberg is considered the founder of modern Danish and Norwegian literature. He was also a prominent Neo-Latin author, known across Europe for his writing. He is best known for the comedies he wrote in 1722–1723 for the Lille Grønnegade Theatre in Copenhagen. Holberg's works about natural and common law were widely read by many Danish law students over two hundred years, from 1736 to 1936.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        5.33,
+        60.38944444
+      ],
+      "year": 1684
+    }
   }
 }

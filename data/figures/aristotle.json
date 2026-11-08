@@ -15,15 +15,25 @@
   "related": [],
   "contribution": "His writings span the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts.",
   "setting": "Southern Europe, 4th century BC",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
   "photo": "",
   "photo_credit": "",
   "checks": {
-    "civilization_votes": {},
+    "civilization_votes": {
+      "born_in": []
+    },
     "lead": "Aristotle (Ancient Greek: Ἀριστοτέλης, romanized: Aristotélēs; 384–322 BC) was an ancient Greek philosopher and polymath. His writings span the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in Athens, he began the wider Aristotelian tradition that followed, which set the groundwork for the development of modern science.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        23.79472222,
+        40.59166667
+      ],
+      "year": -384
+    }
   }
 }

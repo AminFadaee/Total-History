@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A monarch under the Kalmar Union, reigning as King of Denmark and Norway from 1513 until 1523.",
   "setting": "",
+  "modern_country": "",
   "image": "images/christian-ii-of-denmark.jpg",
   "image_credit": "Lucas Cranach the Elder · Public domain",
   "image_kind": "Portrait from life",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kalmar Union"
+      ],
+      "born_in": [
+        "Kalmar Union"
       ]
     },
     "lead": "Christian II (1 July 1481 – 25 January 1559) was a monarch under the Kalmar Union, reigning as King of Denmark and Norway from 1513 until 1523. He was briefly King of Sweden from 1520 until 1521. As king of Denmark, he was concurrently Duke of Schleswig and Holstein in joint rule with his uncle Frederick.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        10.78777778,
+        55.31388889
+      ],
+      "year": 1481
+    }
   }
 }

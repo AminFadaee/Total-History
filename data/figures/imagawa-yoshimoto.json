@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese samurai and daimyō of the Sengoku period.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/imagawa-yoshimoto.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Warring States Japan"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
     "lead": "Imagawa Yoshimoto (今川 義元; 1519 – June 12, 1560) was a Japanese samurai and daimyō (feudal lord) of the Sengoku period. Based in Suruga Province, he was known as The number one archer in the Tōkaidō (海道一の弓取り, Kaidō-ichi no Yumitori); he was one of the three daimyō that dominated the Tōkaidō region. He died in 1560 while marching to Kyoto. He was killed in the village of Dengakuhazama in Okehazama by Oda Nobunaga.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        138.38277778,
+        34.97555556
+      ],
+      "year": 1519
+    }
   }
 }

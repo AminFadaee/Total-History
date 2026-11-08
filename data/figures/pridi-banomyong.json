@@ -1,0 +1,55 @@
+{
+  "id": "Q714934",
+  "slug": "pridi-banomyong",
+  "name": "Pridi Banomyong",
+  "wikipedia": "Pridi Banomyong",
+  "role": "Prime Minister of Thailand in 1946",
+  "life": "1900–1983",
+  "lifetime": [
+    1900,
+    1983
+  ],
+  "occupation": "Politician",
+  "birth_country": "Thailand",
+  "civilizations": [
+    "Kingdom of Thailand"
+  ],
+  "related": [],
+  "contribution": "A Thai lawyer, professor, activist, politician, democratic socialist, and senior statesman.",
+  "setting": "Kingdom of Thailand",
+  "modern_country": "Thailand",
+  "image": "images/pridi-banomyong.jpg",
+  "image_credit": "Unknown author · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/pridi-banomyong-photo.jpg",
+  "photo_credit": "Unknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Thailand"
+      ],
+      "death": [
+        "French Fifth Republic"
+      ],
+      "citizenship": [
+        "Kingdom of Thailand"
+      ],
+      "birthplace": [
+        "Rattanakosin Kingdom"
+      ],
+      "born_in": [
+        "Rattanakosin Kingdom"
+      ]
+    },
+    "lead": "Pridi Banomyong (Thai: ปรีดี พนมยงค์, RTGS: Pridi Phanomyong, pronounced [prīː.dīː pʰā.nōm.jōŋ]; 11 May 1900 – 2 May 1983), also known by his noble title Luang Praditmanutham (Thai: หลวงประดิษฐ์มนูธรรม), was a Thai lawyer, professor, activist, politician, democratic socialist, and senior statesman. He served in multiple ministerial posts, as regent, and as prime minister in Thailand. He led the civilian wing of Khana Ratsadon, and helped found the University of Moral and Political Sciences and the Bank of Thailand.",
+    "image": "",
+    "photo": "model 0.96, one person 0.99",
+    "birth": {
+      "location": [
+        100.55944444,
+        14.34944444
+      ],
+      "year": 1900
+    }
+  }
+}

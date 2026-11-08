@@ -19,6 +19,7 @@
   ],
   "contribution": "Emperor of Magadha from c. 268 BCE until his death, and the third ruler of the Maurya Empire.",
   "setting": "",
+  "modern_country": "India",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Maurya Empire"
+      ],
+      "born_in": [
+        "Maurya Empire"
       ]
     },
     "lead": "Ashoka, also known as Asoka or Aśoka ( ə-SHOH-kə; Sanskrit: [ɐˈɕoːkɐ], IAST: Aśoka; c. 304 – 232 BCE), most commonly known as Ashoka the Great, was Emperor of Magadha from c. 268 BCE until his death, and the third ruler of the Maurya Empire. His empire covered a large part of the Indian subcontinent, stretching from present-day Afghanistan in the west to present-day Bangladesh in the east, with its capital at Pataliputra. A patron of Buddhism, he is credited with an important role in the spread of Buddhism across ancient Asia.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        85.12833333,
+        25.6125
+      ],
+      "year": -304
+    }
   }
 }

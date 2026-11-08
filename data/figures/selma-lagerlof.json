@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "She published her first novel, Gösta Berling's Saga, at the age of 33.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/selma-lagerlof.jpg",
   "image_credit": "Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United Kingdoms of Sweden and Norway"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
-    "lead": "Selma Ottilia Lovisa Lagerlöf (, US also , Swedish: [ˈsɛ̂lːma ˈlɑ̂ːɡɛˌɭøːv] ; 20 November 1858 – 16 March 1940) was a Swedish writer. She published her first novel, Gösta Berling's Saga, at the age of 33. She was the first woman to win the Nobel Prize in Literature, which she was awarded in 1909. In 1914, she was the first woman to be granted a membership of the Swedish Academy.",
+    "lead": "Selma Ottilia Lovisa Lagerlöf (, US also ; Swedish: [ˈsɛ̂lːma ˈlɑ̂ːɡɛˌɭøːv] ; 20 November 1858 – 16 March 1940) was a Swedish writer. She published her first novel, Gösta Berling's Saga, at the age of 33. She was the first woman to win the Nobel Prize in Literature, which she was awarded in 1909. In 1914, she was the first woman to be granted a membership of the Swedish Academy.",
     "image": "",
-    "photo": "model 0.88, one person 0.94, in Category:Portrait photographs of Selma Lagerlöf"
+    "photo": "model 0.88, one person 0.94, in Category:Portrait photographs of Selma Lagerlöf",
+    "birth": {
+      "location": [
+        13.23361111,
+        59.78111111
+      ],
+      "year": 1858
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 14th monarch of Joseon.",
   "setting": "",
+  "modern_country": "South Korea",
   "image": "images/seonjo-of-joseon.jpg",
   "image_credit": "朝鮮画师 · Public domain",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Joseon"
+      ],
+      "born_in": [
+        "Joseon"
       ]
     },
-    "lead": "Seonjo (Korean: 선조; Hanja: 宣祖; 6 December 1552 – 16 March 1608), personal name Yi Gyun, later changed to Yi Yeon, was the 14th monarch of Joseon. The youngest son of Prince Deokheung and a grandson of King Jungjong, he ascended to the throne at the age of 14, upon the death of his uncle, King Myeongjong. At the beginning of his reign, he promoted Confucianism and attempted reforms. However, he later gained infamy due the political discord and incompetent leadership during the Imjin War.",
+    "lead": "Seonjo (Korean: 선조; Hanja: 宣祖; 6 December 1552 – 16 March 1608), personal name Yi Gyun, later changed to Yi Yeon, was the 14th monarch of Joseon. The youngest son of Prince Deokheung and a grandson of King Jungjong, he acceded to the throne at the age of 14, upon the death of his uncle, King Myeongjong. At the beginning of his reign, he promoted Confucianism and attempted reforms. However, he later gained infamy due to the political discord and incompetent leadership during the Imjin War.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        126.99,
+        37.56
+      ],
+      "year": 1552
+    }
   }
 }

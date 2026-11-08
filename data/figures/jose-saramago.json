@@ -11,10 +11,13 @@
   ],
   "occupation": "Writer",
   "birth_country": "Portugal",
-  "civilizations": [],
+  "civilizations": [
+    "Portuguese Republic"
+  ],
   "related": [],
   "contribution": "He was the recipient of the 1998 Nobel Prize in Literature for his \"parables sustained by imagination, compassion and irony [with which he] continually enables us once again to apprehend an elusory reality.\"",
-  "setting": "Southern Europe, 20th century",
+  "setting": "",
+  "modern_country": "Portugal",
   "image": "images/jose-saramago.jpg",
   "image_credit": "Unknown author · CC BY 2.0",
   "image_kind": "Photograph",
@@ -24,10 +27,20 @@
     "civilization_votes": {
       "death": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Portuguese Republic"
       ]
     },
     "lead": "José de Sousa Saramago (European Portuguese: [ʒuˈzɛ ðɨ ˈso(w)zɐ sɐɾɐˈmaɣu]; 16 November 1922 – 18 June 2010) was a Portuguese writer. He was the recipient of the 1998 Nobel Prize in Literature for his \"parables sustained by imagination, compassion and irony [with which he] continually enables us once again to apprehend an elusory reality.\" His works, some of which can be seen as allegories, commonly present subversive perspectives on historic events, emphasizing the theopoetic human factor.",
     "image": "",
-    "photo": "model 0.79, one person 0.75, captured 2008, during their lifetime"
+    "photo": "model 0.79, one person 0.75, captured 2008, during their lifetime",
+    "birth": {
+      "location": [
+        -8.532,
+        39.347
+      ],
+      "year": 1922
+    }
   }
 }

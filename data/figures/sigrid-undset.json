@@ -17,6 +17,7 @@
   ],
   "contribution": "A Danish-born Norwegian novelist.",
   "setting": "Northern Europe, 20th century",
+  "modern_country": "",
   "image": "images/sigrid-undset.jpg",
   "image_credit": "Aage Remfeldt / Aage Rasmussen (1889-1983) · Public domain",
   "image_kind": "Photograph",
@@ -26,10 +27,18 @@
     "civilization_votes": {
       "lead": [
         "Nazi Germany"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Sigrid Undset (Norwegian pronunciation: [ˈsɪ̂ɡːɾiː ˈʉ̂nːseːt]; 20 May 1882 – 10 June 1949) was a Danish-born Norwegian novelist. She was awarded the 1928 Nobel Prize in Literature.",
+    "lead": "Sigrid Undset (Norwegian: [ˈsɪ̂ɡːɾiː ˈʉ̂nːseːt]; 20 May 1882 – 10 June 1949) was a Danish-born Norwegian novelist. She was awarded the 1928 Nobel Prize in Literature.",
     "image": "",
-    "photo": "model 0.98, one person 0.98, in Category:Black and white portrait photographs of women"
+    "photo": "model 0.98, one person 0.98, in Category:Black and white portrait photographs of women",
+    "birth": {
+      "location": [
+        11.085,
+        55.68138889
+      ],
+      "year": 1882
+    }
   }
 }

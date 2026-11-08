@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Scottish inventor, engineer and chemist who improved on Thomas Newcomen's 1712 Newcomen steam engine with his Watt steam engine in 1776, which was fundamental to the changes brought by the Industrial Revolution in both his native Great Britain and the rest of the world.",
   "setting": "",
+  "modern_country": "",
   "image": "images/james-watt.jpg",
   "image_credit": "Henry Howard · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Kingdom of Great Britain"
+      ],
+      "born_in": [
+        "Kingdom of Great Britain"
       ]
     },
     "lead": "James Watt (; 30 January 1736 (19 January 1736 OS) – 25 August 1819) was a Scottish inventor, engineer and chemist who improved on Thomas Newcomen's 1712 Newcomen steam engine with his Watt steam engine in 1776, which was fundamental to the changes brought by the Industrial Revolution in both his native Great Britain and the rest of the world.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.765,
+        55.95
+      ],
+      "year": 1736
+    }
   }
 }

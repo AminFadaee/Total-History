@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Colombian ideological precursor of the independence movement in New Granada as well as one of its early political and military leaders.",
   "setting": "",
+  "modern_country": "",
   "image": "images/antonio-narino.jpg",
   "image_credit": "Ricardo Acevedo Bernal · Public domain",
   "image_kind": "Later depiction",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Antonio Amador José de Nariño y Álvarez del Casal (April 9, 1765 – December 13, 1823) was a Colombian ideological precursor of the independence movement in New Granada (present-day Colombia) as well as one of its early political and military leaders. In 1793, he published the first French to Spanish translation of the Declaration of the Rights of Man and of the Citizen in Spain's American colonies.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -74.07222222,
+        4.71111111
+      ],
+      "year": 1765
+    }
   }
 }

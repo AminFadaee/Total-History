@@ -21,6 +21,7 @@
   ],
   "contribution": "The king of Jerusalem from 1163 until his death.",
   "setting": "",
+  "modern_country": "Palestine",
   "image": "images/amalric-of-jerusalem.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Kingdom of Jerusalem"
+      ],
+      "born_in": [
+        "Kingdom of Jerusalem"
       ]
     },
     "lead": "Amalric (French: Amaury; 1136 – 11 July 1174), formerly known in historiography as Amalric I, was the king of Jerusalem from 1163 until his death. His Muslim adversaries described him as the bravest and cleverest of the Crusader kings.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        35.21666667,
+        31.78333333
+      ],
+      "year": 1136
+    }
   }
 }

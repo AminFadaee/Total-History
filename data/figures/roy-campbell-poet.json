@@ -19,6 +19,7 @@
   ],
   "contribution": "A South African poet, literary critic, literary translator, war poet and satirist.",
   "setting": "",
+  "modern_country": "",
   "image": "images/roy-campbell-poet.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -37,10 +38,18 @@
       ],
       "citizenship": [
         "South Africa"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Ignatius Royston Dunnachie Campbell, better known as Roy Campbell (2 October 1901 – 23 April 1957), was a South African poet, literary critic, literary translator, war poet and satirist.  Most of his adult life was spent in Europe.",
     "image": "",
-    "photo": "model 0.95, one person 0.98, captured 1920, during their lifetime"
+    "photo": "model 0.95, one person 0.98, captured 1920, during their lifetime",
+    "birth": {
+      "location": [
+        31.025,
+        -29.858333333333
+      ],
+      "year": 1901
+    }
   }
 }

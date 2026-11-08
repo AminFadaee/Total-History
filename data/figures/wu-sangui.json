@@ -20,6 +20,7 @@
   ],
   "contribution": "A Chinese military leader who played a key role in the fall of the Ming dynasty and the founding of the Qing dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/wu-sangui.jpg",
   "image_credit": "Author in Qing Dynasty · Public domain",
   "image_kind": "Later depiction",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Ming Dynasty"
+      ],
+      "born_in": [
+        "Ming Dynasty"
       ]
     },
     "lead": "Wu Sangui (Chinese: 吳三桂; pinyin: Wú Sānguì; Wade–Giles: Wu San-kuei; 8 June 1612 – 2 October 1678), courtesy name Changbai (長白) or Changbo (長伯), was a Chinese military leader who played a key role in the fall of the Ming dynasty and the founding of the Qing dynasty. In Chinese folklore, Wu Sangui is regarded as a disreputable Han Chinese traitor for his defection over to the Manchu invaders, suppression of the Southern Ming resistance and execution of the Yongli Emperor. Wu eventually double-crossed both of his masters, the Ming and the Qing dynasties.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        120.35,
+        40.33333333
+      ],
+      "year": 1612
+    }
   }
 }

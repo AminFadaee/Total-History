@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Soviet physicist who made fundamental contributions to many areas of theoretical physics.",
   "setting": "",
+  "modern_country": "Azerbaijan",
   "image": "images/lev-landau.jpg",
   "image_credit": "Nobel foundation · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Union of Soviet Socialist Republics"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Lev Davidovich Landau (Russian: Лев Дави́дович Ланда́у; 22 January 1908 – 1 April 1968) was a Soviet physicist who made fundamental contributions to many areas of theoretical physics. He was considered as one of the last scientists who were universally well-versed and made seminal contributions to all branches of physics. He is credited with laying the foundations of twentieth century condensed matter physics, and is also considered arguably the greatest Soviet theoretical physicist.",
     "image": "",
-    "photo": "model 0.98, one person 1.00, captured 1962, during their lifetime"
+    "photo": "model 0.98, one person 1.00, captured 1962, during their lifetime",
+    "birth": {
+      "location": [
+        49.88222222,
+        40.39527778
+      ],
+      "year": 1908
+    }
   }
 }

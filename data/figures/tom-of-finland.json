@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Finnish artist who made stylized erotic art featuring suggestively hypermasculine male characters.",
   "setting": "",
+  "modern_country": "Finland",
   "image": "images/tom-of-finland.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Republic of Finland"
+      ],
+      "born_in": [
+        "Republic of Finland"
       ]
     },
     "lead": "Touko Valio Laaksonen (8 May 1920 – 7 November 1991), known by his pseudonym Tom of Finland, was a Finnish artist who made stylized erotic art featuring suggestively hypermasculine male characters. He worked primarily in pencil, producing drawings on paper and for publication in a variety of magazines and other formats. These works profoundly influenced late 20th-century gay culture and sexuality, their rise in popularity coinciding with gay law reform successes and the cultural and political emergence of LGBTQ+ communities from the 1960s onward. Tom of Finland has been called the \"most influential creator of gay pornographic images\" by cultural historian Joseph W. Slade. Over the course of four decades, he produced some 3,500 illustrations, mostly featuring men with exaggerated sexual traits, wearing tight or partially removed clothing. In 1984, he founded the Tom of Finland Foundation to preserve his catalogue of works and support erotic art generally; it continues to operate from TOM House in Los Angeles.",
     "image": "",
-    "photo": "model 0.96, one person 0.99, captured 1959, during their lifetime"
+    "photo": "model 0.96, one person 0.99, captured 1959, during their lifetime",
+    "birth": {
+      "location": [
+        22.36666667,
+        60.4
+      ],
+      "year": 1920
+    }
   }
 }

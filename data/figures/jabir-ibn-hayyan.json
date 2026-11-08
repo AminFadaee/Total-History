@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The purported author of a large number of works in Arabic, often called the Jabirian corpus.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/jabir-ibn-hayyan.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Umayyad Caliphate"
+      ],
+      "born_in": [
+        "Umayyad Caliphate"
       ]
     },
-    "lead": "Abū Mūsā Jābir ibn Ḥayyān (Arabic: أَبو موسى جابِر بِن حَيّان, variously called al-Ṣūfī, al-Azdī, al-Kūfī, or al-Ṭūsī), died c. 806−816, is the purported author of a large number of works in Arabic, often called the Jabirian corpus. The c. 215 treatises that survive today mainly deal with alchemy and chemistry, magic, and Shi'ite religious philosophy. However, the original scope of the corpus was vast, covering a wide range of topics ranging from cosmology, astronomy and astrology, over medicine, pharmacology, zoology and botany, to metaphysics, logic, and grammar.",
+    "lead": "Abū Mūsā Jābir ibn Ḥayyān (Arabic: أَبو موسى جابِر بِن حَيّان, variously called al-Ṣūfī, al-Azdī, al-Kūfī, or al-Ṭūsī), died c. 806−816, is the purported author of a large number of works in Arabic, often called the Jabirian corpus. The approximately 215 treatises that survive today mainly deal with alchemy and chemistry, magic, and Shi'ite religious philosophy. However, the original scope of the corpus was vast, covering a wide range of topics ranging from cosmology, astronomy and astrology, over medicine, pharmacology, zoology and botany, to metaphysics, logic, and grammar.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        59.50972222,
+        36.47916667
+      ],
+      "year": 721
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Spanish-Jewish astronomer, historian and philosopher born in Córdoba, Spain about 1110 who was said to have been killed for his religious beliefs in Toledo, Spain about 1180.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Almoravid Dynasty"
+      ],
+      "born_in": [
+        "Almoravid Dynasty"
       ]
     },
     "lead": "Abraham ibn Daud (Judeo-Arabic: אַבְרָהָם בֶּן־דָּוִד הַלֵּוִי אִבְּן דָּאוּד, romanized: ʾAvrāhām ben-Dāvid hal-Lēvi ibn Dāʾūd; Arabic: ابراهيم بن داود, romanized: ʾIbrāhīm ibn Daʾūd) was a Spanish-Jewish astronomer, historian and philosopher born in Córdoba, Spain about 1110 who was said to have been killed for his religious beliefs in Toledo, Spain about 1180. He is sometimes known by the abbreviation Rabad I or Ravad I or Ravaad I or Ra'avad I. His maternal grandfather was Isaac Albalia. Some scholars believe he was the Arabic-into-Latin translator known as Avendauth.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.7795675,
+        37.88450722
+      ],
+      "year": 1110
+    }
   }
 }

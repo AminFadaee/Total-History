@@ -18,8 +18,9 @@
   "related": [
     "Nazi Germany"
   ],
-  "contribution": "He was one of the most prominent figures in the Soviet government during the rule of his close ally, Joseph Stalin.",
+  "contribution": "He was one of the most prominent figures in the Soviet government during the rule of his benefactor, Joseph Stalin.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/vyacheslav-molotov.jpg",
   "image_credit": "G. Weil for TASS · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
-    "lead": "Vyacheslav Mikhaylovich Molotov (né Skryabin; 9 March [O.S. 25 February] 1890 – 8 November 1986) was a Soviet politician, diplomat, and revolutionary. He was one of the most prominent figures in the Soviet government during the rule of his close ally, Joseph Stalin. In addition to serving as Chairman of the Council of People's Commissars from 1930 to 1941, he held office as Minister of Foreign Affairs from 1939 to 1949 and again from 1953 to 1956. The Molotov cocktail was named for him.",
+    "lead": "Vyacheslav Mikhaylovich Molotov (né Skryabin; 9 March [O.S. 25 February] 1890 – 8 November 1986) was a Soviet politician, diplomat, and revolutionary. He was one of the most prominent figures in the Soviet government during the rule of his benefactor, Joseph Stalin. In addition to serving as Chairman of the Council of People's Commissars from 1930 to 1941, he held office as Minister of Foreign Affairs from 1939 to 1949 and again from 1953 to 1956. The Molotov cocktail was named for him.",
     "image": "",
-    "photo": "model 0.95, one person 1.00, captured 1947, during their lifetime"
+    "photo": "model 0.95, one person 1.00, captured 1947, during their lifetime",
+    "birth": {
+      "location": [
+        48.98333333,
+        57.58333333
+      ],
+      "year": 1890
+    }
   }
 }

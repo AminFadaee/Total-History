@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 12th prime minister of Australia, serving from 1939 to 1941 and from 1949 to 1966.",
   "setting": "",
+  "modern_country": "Australia",
   "image": "images/robert-menzies.jpg",
   "image_credit": "National Library of Australia · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "British Empire"
+      ],
+      "born_in": [
+        "British Empire"
       ]
     },
     "lead": "Sir Robert Gordon Menzies (20 December 1894 – 15 May 1978) was the 12th prime minister of Australia, serving from 1939 to 1941 and from 1949 to 1966. He held office as the leader of the United Australia Party (UAP) in his first term, and subsequently as the inaugural leader of the Liberal Party of Australia in his second. He was the member of parliament (MP) for the Victorian division of Kooyong from 1934 to 1966. With a combined term length of 18 years, 163 days, he is the longest-serving prime minister in Australian history.",
     "image": "",
-    "photo": "model 0.93, one person 1.00, captured 1950, during their lifetime"
+    "photo": "model 0.93, one person 1.00, captured 1950, during their lifetime",
+    "birth": {
+      "location": [
+        141.98333333,
+        -36.13333333
+      ],
+      "year": 1894
+    }
   }
 }

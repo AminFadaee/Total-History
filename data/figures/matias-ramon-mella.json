@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Dominican revolutionary, politician, and military general during the Dominican War of Independence.",
   "setting": "",
+  "modern_country": "Dominican Republic",
   "image": "images/matias-ramon-mella.jpg",
   "image_credit": "Unknown/Desconocido · Public domain",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "citizenship": [
         "Dominican Republic"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Matías Ramón Mella Castillo (25 February, 1816 – 4 June, 1864), known as Ramón Mella, was a Dominican revolutionary, politician, and military general during the Dominican War of Independence. He is known for being one of the three principal leaders of the independence movement, together with Juan Pablo Duarte and Francisco del Rosario Sánchez, and is one of the founding figures of the Dominican Republic.",
     "image": "",
-    "photo": "Ramon Matias Mella.jpg: model 0.08, one person 0.95; Los Padres de la Patria - Monumento a los Héroes de la Restauración.jpg: model 0.04, one person 0.07, classified as a photograph on Commons; Museo de Historia y Geografía - Retrato del General Mella.jpg: model 0.05, one person 0.75, classified as a photograph on Commons; José Alloza - Generales Duarte y Mella.jpg: model 0.02, one person 0.18; Los primeros magistrados.png: model 0.85, one person 0.01"
+    "photo": "Ramon Matias Mella.jpg: model 0.08, one person 0.95; Los Padres de la Patria - Monumento a los Héroes de la Restauración.jpg: model 0.04, one person 0.07, classified as a photograph on Commons; Museo de Historia y Geografía - Retrato del General Mella.jpg: model 0.05, one person 0.75, classified as a photograph on Commons; José Alloza - Generales Duarte y Mella.jpg: model 0.02, one person 0.18; Los primeros magistrados.png: model 0.85, one person 0.01",
+    "birth": {
+      "location": [
+        -69.93611111111112,
+        18.4625
+      ],
+      "year": 1816
+    }
   }
 }

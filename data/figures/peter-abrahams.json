@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A South African-born novelist, journalist and political commentator who in 1956 settled in Jamaica, where he lived for the rest of his life.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/peter-abrahams.jpg",
   "image_credit": "Carl Van Vechten · Public domain",
   "image_kind": "Photograph",
@@ -36,10 +37,18 @@
       ],
       "citizenship": [
         "South Africa"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Peter Henry Abrahams Deras (3 March 1919 – 18 January 2017), commonly known as Peter Abrahams, was a South African-born novelist, journalist and political commentator who in 1956 settled in Jamaica, where he lived for the rest of his life. His death at the age of 97 is considered to have been murder.",
     "image": "",
-    "photo": "model 0.95, one person 1.00, in Category:Photographs by Carl Van Vechten (flat list)"
+    "photo": "model 0.95, one person 1.00, in Category:Photographs by Carl Van Vechten (flat list)",
+    "birth": {
+      "location": [
+        28.017,
+        -26.194
+      ],
+      "year": 1919
+    }
   }
 }

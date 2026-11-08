@@ -15,8 +15,9 @@
     "Holy Roman Empire"
   ],
   "related": [],
-  "contribution": "He completed more than 800 works in his life—including outstanding examples of most of the genres of his time: symphonies, concertos, chamber music, opera and choral music—and is regarded as one of the greatest composers in the history of Western music.",
+  "contribution": "He completed more than 800 works in his life—including outstanding examples of most of the genres of his time: symphonies, concertos, chamber music, opera and choral music.",
   "setting": "",
+  "modern_country": "Austria",
   "image": "images/wolfgang-amadeus-mozart.jpg",
   "image_credit": "Barbara Krafft · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
-    "lead": "Wolfgang Amadeus Mozart (27 January 1756 – 5 December 1791) was a Classical composer and musician. He completed more than 800 works in his life—including outstanding examples of most of the genres of his time: symphonies, concertos, chamber music, opera and choral music—and is regarded as one of the greatest composers in the history of Western music.",
+    "lead": "Wolfgang Amadeus Mozart (27 January 1756 – 5 December 1791) was a Classical composer and musician. He completed more than 800 works in his life—including outstanding examples of most of the genres of his time: symphonies, concertos, chamber music, opera and choral music. He is regarded as one of the greatest composers in the history of Western music.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.04333333,
+        47.8
+      ],
+      "year": 1756
+    }
   }
 }

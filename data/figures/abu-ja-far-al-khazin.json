@@ -12,11 +12,13 @@
   "occupation": "Mathematician",
   "birth_country": "",
   "civilizations": [
+    "Samanid Empire",
     "Buyid Dynasty"
   ],
   "related": [],
   "contribution": "An Iranian Muslim astronomer and mathematician from Khorasan.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +31,20 @@
       ],
       "lead": [
         "Buyid Dynasty"
+      ],
+      "born_in": [
+        "Samanid Empire"
       ]
     },
     "lead": "Abu Jafar Muhammad ibn Husayn Khazin (Persian: ابوجعفر خازن خراسانی; 900–971), also called Al-Khazin, was an Iranian Muslim astronomer and mathematician from Khorasan. He worked on both astronomy and number theory.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        59.6,
+        36.3
+      ],
+      "year": 900
+    }
   }
 }

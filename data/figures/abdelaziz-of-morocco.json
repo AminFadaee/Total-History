@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Sultan of Morocco from 9 June 1894 to 21 August 1908, as a ruler of the 'Alawi dynasty.",
   "setting": "",
+  "modern_country": "Morocco",
   "image": "images/abdelaziz-of-morocco.jpg",
   "image_credit": "No photographer credited. · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Morocco"
+      ],
+      "born_in": [
+        "Morocco"
       ]
     },
     "lead": "Moulay Abd al-Aziz bin Hassan (Arabic: عبد العزيز بن الحسن, romanized: ʿAbd al-ʿAzīz ibn al-Ḥasan; 24 February 1878 – 10 June 1943) was sultan of Morocco from 9 June 1894 to 21 August 1908, as a ruler of the 'Alawi dynasty. He was proclaimed sultan at the age of sixteen after the death of his father Hassan I.",
     "image": "",
-    "photo": "model 0.91, one person 0.69, captured 1904, during their lifetime"
+    "photo": "model 0.91, one person 0.69, captured 1904, during their lifetime",
+    "birth": {
+      "location": [
+        -8.00888889,
+        31.63
+      ],
+      "year": 1878
+    }
   }
 }

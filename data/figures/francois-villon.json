@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The best known French poet of the Late Middle Ages.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/francois-villon.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "François Villon (; Modern French: [fʁɑ̃swa vijɔ̃]; Middle French: [frãːˈswɛ viˈlõː]; c. 1431 – after 1463) is the best known French poet of the Late Middle Ages. He was involved in criminal behavior and had multiple encounters with law enforcement authorities. Villon wrote about some of these experiences in his poems.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        2.35222222,
+        48.85666667
+      ],
+      "year": 1431
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The second Saadian sultan.",
   "setting": "",
+  "modern_country": "Morocco",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "lead": [
         "Saadi Sultanate"
+      ],
+      "born_in": [
+        "Wattasid dynasty"
       ]
     },
     "lead": "Abdallah al-Ghalib Billah (Arabic: عبد الله الغالب; 1517 – 22 January 1574, r. 1557–1574) was the second Saadian sultan. He succeeded his father Muhammad al-Shaykh.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -7.98108,
+        31.62947
+      ],
+      "year": 1517
+    }
   }
 }

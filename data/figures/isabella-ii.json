@@ -19,6 +19,7 @@
   ],
   "contribution": "Queen of Spain from 1833 until her deposition in 1868.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/isabella-ii.jpg",
   "image_credit": "Jean Laurent · Public domain",
   "image_kind": "Photograph",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Isabella II (Spanish: Isabel II, María Isabel Luisa de Borbón y Borbón-Dos Sicilias; 10 October 1830 – 9 April 1904) was Queen of Spain from 1833 until her deposition in 1868. She is the only queen regnant in the history of unified Spain.",
     "image": "",
-    "photo": "model 0.81, one person 0.89, in Category:Portrait photographs of Isabella II of Spain by Juan Laurent"
+    "photo": "model 0.81, one person 0.89, in Category:Portrait photographs of Isabella II of Spain by Juan Laurent",
+    "birth": {
+      "location": [
+        -3.71416667,
+        40.41805556
+      ],
+      "year": 1830
+    }
   }
 }

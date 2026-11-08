@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The first of the major mathematician-astronomers and early physicist from the classical age of Indian mathematics and Indian astronomy.",
   "setting": "",
+  "modern_country": "India",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Gupta Empire"
+      ],
+      "born_in": [
+        "Gupta Empire"
       ]
     },
     "lead": "Aryabhata (Sanskrit: आर्यभट, IAST: Āryabhaṭa) or Aryabhata I (476–550 CE) was the first of the major mathematician-astronomers  and early physicist  from the classical age of Indian mathematics and Indian astronomy. His works include the Āryabhaṭīya (which mentions that in 3600 Kali Yuga, 499 CE, he was 23 years old) and the Arya-siddhanta.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        85.12833333,
+        25.6125
+      ],
+      "year": 476
+    }
   }
 }

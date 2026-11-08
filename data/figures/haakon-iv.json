@@ -19,6 +19,7 @@
   ],
   "contribution": "His reign lasted for 46 years, longer than any Norwegian king since Harald Fairhair.",
   "setting": "",
+  "modern_country": "Norway",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Old Kingdom of Norway"
+      ],
+      "born_in": [
+        "Old Kingdom of Norway"
       ]
     },
     "lead": "Haakon IV Haakonsson (c. March/April 1204 – 16 December 1263; Old Norse: Hákon Hákonarson [ˈhɑːˌkon ˈhɑːˌkonɑrˌson]; Norwegian: Håkon Håkonsson), sometimes called Haakon the Old in contrast to his namesake son, was King of Norway from 1217 to 1263. His reign lasted for 46 years, longer than any Norwegian king since Harald Fairhair. Haakon was born into the troubled civil war era in Norway, but his reign eventually managed to put an end to the internal conflicts. At the start of his reign, during his minority, Earl Skule Bårdsson served as regent. As a king of the Birkebeiner faction, Haakon defeated the uprising of the final Bagler royal pretender, Sigurd Ribbung, in 1227. He put a definitive end to the civil war era when he had Skule Bårdsson killed in 1240, a year after Skule had himself proclaimed king in opposition to Haakon. Haakon thereafter formally appointed his own eldest son, Haakon the Young, as his co-regent.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.36027778,
+        59.53694444
+      ],
+      "year": 1204
+    }
   }
 }

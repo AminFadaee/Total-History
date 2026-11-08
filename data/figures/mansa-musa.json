@@ -20,6 +20,7 @@
   ],
   "contribution": "The ninth Mansa of the Mali Empire, which reached its territorial peak during his reign.",
   "setting": "",
+  "modern_country": "Mali",
   "image": "images/mansa-musa.jpg",
   "image_credit": "Cresques Abraham · Public domain",
   "image_kind": "Later depiction",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Mali Empire"
+      ],
+      "born_in": [
+        "Mali Empire"
       ]
     },
     "lead": "Mansa Musa (c. 1280 – c. 1337) was the ninth Mansa of the Mali Empire, which reached its territorial peak during his reign. Musa's reign is often regarded as the zenith of Mali's power and prestige, although he features less in Mandinka oral traditions than his predecessors.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.0,
+        17.0
+      ],
+      "year": 1280
+    }
   }
 }

@@ -20,6 +20,7 @@
   ],
   "contribution": "The second Rashidun caliph, ruling from August 634 until his assassination in 644.",
   "setting": "",
+  "modern_country": "Saudi Arabia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -40,10 +41,18 @@
       ],
       "citizenship": [
         "Rashidun Caliphate"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Umar ibn al-Khattab (Arabic: عُمَر بْن ٱلْخَطَّاب, romanized: ʿUmar ibn al-Khaṭṭāb; c. 584 – 644) was the second Rashidun caliph, ruling from August 634 until his assassination in 644. He succeeded Abu Bakr (r. 632–634) and is regarded as a senior companion and father-in-law of the Islamic prophet Muhammad.",
+    "lead": "Umar ibn al-Khattab (Arabic: عُمَر بْن ٱلْخَطَّاب, romanized: ʿUmar ibn al-Khaṭṭāb; c. 584 CE – 6 November 644 CE) was the second Rashidun caliph, ruling from August 634 until his assassination in 644. He succeeded Abu Bakr (r. 632–634) and is regarded as a senior companion and father-in-law of the Islamic prophet Muhammad.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        39.82333333,
+        21.4225
+      ],
+      "year": 585
+    }
   }
 }

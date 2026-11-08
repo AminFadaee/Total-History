@@ -20,6 +20,7 @@
   ],
   "contribution": "In 929, he elevated the emirate to the Caliphate of Córdoba, serving as its first caliph until his death.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -44,10 +45,20 @@
       ],
       "birthplace": [
         "Emirate of Córdoba"
+      ],
+      "born_in": [
+        "Emirate of Córdoba"
       ]
     },
     "lead": "ʿAbd al-Raḥmān ibn Muḥammad ibn ʿAbd Allāh ibn Muḥammad ibn ʿAbd al-Raḥmān ibn al-Ḥakam ibn Hishām ibn ʿAbd al-Raḥmān al-Marwānī al-Umawī al-Qurashī (Arabic: عبد الرحمن بن محمد بن عبد الله بن محمد بن عبد الرحمن بن الحكم بن هشام بن عبد الرحمن المرواني، الأموي، القرشي; 890–961), or simply ʿAbd al-Raḥmān III, was the eighth and final Emir of Córdoba from 912 to 929. In 929, he elevated the emirate to the Caliphate of Córdoba, serving as its first caliph until his death.  Abd al-Rahman won the laqab (sobriquet) al-Nāṣir li-Dīn Allāh (lit. 'the Defender of God's Faith') in his early 20s when he supported the Maghrawa Berbers in North Africa against Fatimid expansion and later claimed the title of Caliph for himself. His half-century reign was known for its religious tolerance.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.7795675,
+        37.88450722
+      ],
+      "year": 889
+    }
   }
 }

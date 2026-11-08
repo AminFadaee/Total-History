@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Portuguese Catholic priest and member of the Order of Friars Minor.",
   "setting": "",
+  "modern_country": "",
   "image": "images/anthony-of-padua.jpg",
   "image_credit": "Didier Descouens · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of Portugal"
+      ],
+      "born_in": [
+        "Kingdom of Portugal"
       ]
     },
     "lead": "Anthony of Padua or Anthony of Lisbon (born Fernando Martins de Bulhões; 15 August 1195 – 13 June 1231) was a Portuguese Catholic priest and member of the Order of Friars Minor.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -9.15,
+        38.72527778
+      ],
+      "year": 1195
+    }
   }
 }

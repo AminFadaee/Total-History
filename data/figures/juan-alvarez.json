@@ -19,6 +19,7 @@
   ],
   "contribution": "A Mexican general, federalist caudillo, a principal sponsor of the state of Guerrero and its first governor, and interim president of Mexico from 4 October to 11 December 1855.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/juan-alvarez.jpg",
   "image_credit": "Unidentified painter · CC BY-SA 3.0",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Juan Nepomuceno Álvarez Hurtado (27 January 1790 – 21 August 1867), generally known as Juan Álvarez, was a Mexican general, federalist caudillo, a principal sponsor of the state of Guerrero and its first governor, and interim president of Mexico from 4 October to 11 December 1855. In a military career of more than fifty years he fought from the Mexican War of Independence through the war against the French-backed Second Mexican Empire and was the last veteran of independence to occupy the presidency.",
     "image": "",
-    "photo": "General Juan Álvarez.jpg: model 0.02, one person 0.95; Juan Alvarez.PNG: model 0.09, one person 0.99; General Juan N. Álvarez Hurtado.jpg: model 0.05, one person 1.00, captured 1850, during their lifetime; Juan Nepomuceno Álvarez Hurtado.jpg: model 0.05, one person 0.99; JuanAlvareztombDoloresDF.JPG: model 0.09, one person 0.01, classified as a photograph on Commons"
+    "photo": "General Juan Álvarez.jpg: model 0.02, one person 0.95; Juan Alvarez.PNG: model 0.09, one person 0.99; General Juan N. Álvarez Hurtado.jpg: model 0.05, one person 1.00, captured 1850, during their lifetime; Juan Nepomuceno Álvarez Hurtado.jpg: model 0.05, one person 0.99; JuanAlvareztombDoloresDF.JPG: model 0.09, one person 0.01, classified as a photograph on Commons",
+    "birth": {
+      "location": [
+        -100.43333333,
+        17.2
+      ],
+      "year": 1790
+    }
   }
 }

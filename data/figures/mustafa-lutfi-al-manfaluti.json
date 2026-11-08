@@ -12,11 +12,13 @@
   "occupation": "",
   "birth_country": "",
   "civilizations": [
+    "Khedivate of Egypt",
     "Kingdom of Egypt"
   ],
   "related": [],
   "contribution": "An Egyptian writer, and poet who wrote a number of Arabic books.",
   "setting": "",
+  "modern_country": "",
   "image": "images/mustafa-lutfi-al-manfaluti.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -30,10 +32,20 @@
       "citizenship": [
         "Ottoman Empire",
         "Kingdom of Egypt"
+      ],
+      "born_in": [
+        "Khedivate of Egypt"
       ]
     },
     "lead": "Mustafa Lutfi el-Manfaluti (Arabic: مصطفى لطفي المنفلوطي, ALA-LC: Muṣtafá Luṭfī al-Manfalūṭī; 1876–1924) was an Egyptian writer, and poet who wrote a number of Arabic books. He was born in the Upper Egyptian city of Manfalut to an Egyptian father and a Turkish mother.",
     "image": "",
-    "photo": "model 0.85, one person 0.81, in Category:1916 black and white portrait photographs of men"
+    "photo": "model 0.85, one person 0.81, in Category:1916 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        30.970277777778,
+        27.312777777778
+      ],
+      "year": 1876
+    }
   }
 }

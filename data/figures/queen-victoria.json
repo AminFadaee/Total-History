@@ -20,6 +20,7 @@
   ],
   "contribution": "Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/queen-victoria.jpg",
   "image_credit": "Alexander Bassano · Public domain",
   "image_kind": "Photograph",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Victoria (Alexandrina Victoria; 24 May 1819 – 22 January 1901) was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901. Her reign of 63 years and 216 days, which was longer than those of any of her predecessors, constituted the Victorian era, a period of industrial, political, scientific, and military change within the United Kingdom marked by a great expansion of the British Empire. In 1876, the British parliament voted to grant her the additional title of Empress of India.",
     "image": "",
-    "photo": "model 0.90, one person 0.91, in Category:19th-century portrait photographs in the National Portrait Gallery, London"
+    "photo": "model 0.90, one person 0.91, in Category:19th-century portrait photographs in the National Portrait Gallery, London",
+    "birth": {
+      "location": [
+        -0.18833333,
+        51.50527778
+      ],
+      "year": 1819
+    }
   }
 }

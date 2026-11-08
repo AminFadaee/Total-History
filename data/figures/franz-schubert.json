@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Austrian composer of the late Classical and early Romantic eras.",
   "setting": "",
+  "modern_country": "Austria",
   "image": "images/franz-schubert.jpg",
   "image_credit": "Wilhelm August Rieder · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Habsburg Monarchy"
+      ],
+      "born_in": [
+        "Habsburg Monarchy"
       ]
     },
     "lead": "Franz Peter Schubert (; German: [fʁants ˈpeːtɐ ˈʃuːbɐt]; 31 January 1797 – 19 November 1828) was an Austrian composer of the late Classical and early Romantic eras. He was immensely prolific despite living a short life, leaving behind a vast oeuvre of more than 1,000 compositions, including over 600 Lieder (art song in German) and other vocal works, seven complete symphonies, sacred music, operas, incidental music, and a large body of piano and chamber music. Among these are the songs \"Gretchen am Spinnrade\", \"Erlkönig\" and \"Ave Maria\"; the Trout Quintet; the Symphony in B minor, \"Unfinished\"; the Symphony in C major, \"The Great\"; the String Quartet No. 14 in D minor (Death and the Maiden); the String Quintet in C major; the Impromptus for solo piano; the last three piano sonatas; the Fantasia in F minor for piano four hands; the incidental music to the play Rosamunde; the song cycles Die schöne Müllerin and Winterreise; and the song collection Schwanengesang.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        16.35694444,
+        48.22527778
+      ],
+      "year": 1797
+    }
   }
 }

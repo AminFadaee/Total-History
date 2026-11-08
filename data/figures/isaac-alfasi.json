@@ -12,11 +12,13 @@
   "occupation": "Writer",
   "birth_country": "Algeria",
   "civilizations": [
+    "Fatimid Caliphate",
     "Almoravid Dynasty"
   ],
   "related": [],
   "contribution": "A North African Maghrebi Talmudist, posek and codifier of Jewish law.",
   "setting": "",
+  "modern_country": "Algeria",
   "image": "images/isaac-alfasi.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +34,20 @@
       ],
       "birthplace": [
         "Fatimid Caliphate"
+      ],
+      "born_in": [
+        "Fatimid Caliphate"
       ]
     },
     "lead": "Isaac ben Jacob Alfasi (1013–1103) (Arabic: إسحاق الفاسي; Hebrew: ר׳ יצחק אלפסי), also known as Alfasi and by the Hebrew acronym Rif (Hebrew: רי״ף; Rabbi Isaac al-Fasi), was a North African Maghrebi Talmudist, posek (decider in matters of Halakha) and codifier of Jewish law. He is best known for his Sefer ha-Halakhot (\"Book of the Commandments\"), regarded as the first fundamental work of halakhic literature and the best-known code of Jewish law before Maimonides' Mishneh Torah (\"Second Law Code\").",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        4.79333333,
+        35.81388889
+      ],
+      "year": 1013
+    }
   }
 }

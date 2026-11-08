@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Mexican politician and military leader who served as the president of Mexico from 1940 to 1946.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/manuel-avila-camacho.jpg",
   "image_credit": "United States Federal Government · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Mexico"
+      ],
+      "born_in": [
+        "Mexico"
       ]
     },
     "lead": "Manuel Ávila Camacho (Spanish pronunciation: [maˈnwel ˈaβila kaˈmatʃo]; 24 April 1897 – 13 October 1955) was a Mexican politician and military leader who served as the president of Mexico from 1940 to 1946. Having participated in the Mexican Revolution and achieving a high rank, he came to the presidency of Mexico because of his direct connection to General Lázaro Cárdenas and served him as the Chief of his General Staff during the Mexican Revolution and afterwards. He was called affectionately by Mexicans \"The Gentleman President\" (\"El Presidente Caballero\"). As president, he pursued \"national policies of unity, adjustment, and moderation\". His administration completed the transition from military to civilian leadership, ended confrontational anticlericalism, reversed the push for socialist education, and restored a working relationship with the US during World War II.",
     "image": "",
-    "photo": "model 0.92, one person 0.97, in Category:Black and white portrait photographs of men"
+    "photo": "model 0.92, one person 0.97, in Category:Black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        -97.36666667,
+        19.81777778
+      ],
+      "year": 1897
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian astronomer, physicist, engineer and polymath.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/galileo-galilei.jpg",
   "image_credit": "Justus Sustermans · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Grand Duchy of Tuscany"
+      ],
+      "born_in": [
+        "Republic of Florence"
       ]
     },
     "lead": "Galileo di Vincenzo Bonaiuti de' Galilei (15 February 1564 – 8 January 1642), commonly referred to as Galileo Galilei or mononymously as Galileo, was an Italian astronomer, physicist, engineer and  polymath. He was born in Pisa, then part of the Duchy of Florence. Galileo has been called the father of observational astronomy, classical physics, the scientific method, and modern science.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        10.4,
+        43.71666667
+      ],
+      "year": 1564
+    }
   }
 }

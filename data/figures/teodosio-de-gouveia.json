@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Portuguese Cardinal of the Roman Catholic Church, who served as Archbishop of Lourenço Marques in Mozambique from 1940 until his death, and was elevated to the cardinalate in 1946 by Pope Pius XII.",
   "setting": "",
+  "modern_country": "Portugal",
   "image": "images/teodosio-de-gouveia.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -30,10 +31,20 @@
       "citizenship": [
         "Portuguese Republic",
         "Kingdom of Portugal"
+      ],
+      "born_in": [
+        "Kingdom of Portugal"
       ]
     },
     "lead": "Theodósio Clemente de Gouveia GCC GCIH (13 May 1889 – 6 February 1962) was a Portuguese Cardinal of the Roman Catholic Church, who served as Archbishop of Lourenço Marques in Mozambique from 1940 until his death, and was elevated to the cardinalate in 1946 by Pope Pius XII.",
     "image": "",
-    "photo": "model 0.95, one person 0.99, captured 1950, during their lifetime"
+    "photo": "model 0.95, one person 0.99, captured 1950, during their lifetime",
+    "birth": {
+      "location": [
+        -16.9,
+        32.816666666667
+      ],
+      "year": 1889
+    }
   }
 }

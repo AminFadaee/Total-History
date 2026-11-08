@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The third Mughal emperor, who reigned from 1556 to 1605.",
   "setting": "",
+  "modern_country": "Pakistan",
   "image": "images/akbar.jpg",
   "image_credit": "1605 artist · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,18 @@
       ],
       "lead": [
         "Mughal Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Akbar (Jalal-ud-Din Muhammad Akbar, (1542-10-15)15 October 1542 – (1605-10-27)27 October 1605), also known as Akbar the Great, was the third Mughal emperor, who reigned from 1556 to 1605. Akbar succeeded his father, Humayun, under a regent, Bairam Khan, who helped the young emperor expand and consolidate Mughal domains in the Indian subcontinent. He is generally considered one of the greatest Mughal emperors.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        69.7425,
+        25.36305556
+      ],
+      "year": 1542
+    }
   }
 }

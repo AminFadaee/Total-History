@@ -15,8 +15,9 @@
     "Federated Republic of Germany"
   ],
   "related": [],
-  "contribution": "A German politician and member of the Social Democratic Party of Germany, who served as the chancellor of West Germany from 1974 to 1982.",
+  "contribution": "A German politician and member of the Social Democratic Party of Germany, who served as Chancellor of West Germany from 1974 to 1982.",
   "setting": "Federated Republic of Germany",
+  "modern_country": "Germany",
   "image": "images/helmut-schmidt.jpg",
   "image_credit": "Hans Schafgans · CC BY-SA 2.0",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "vital_section": [
         "Federal Republic of Germany"
+      ],
+      "born_in": [
+        "German Empire"
       ]
     },
-    "lead": "Helmut Heinrich Waldemar Schmidt (German: [ˈhɛlmuːt ˈʃmɪt] ; 23 December 1918 – 10 November 2015) was a German politician and member of the Social Democratic Party of Germany (SPD), who served as the chancellor of West Germany from 1974 to 1982. He was the longest lived chancellor in German history and had the longest post-chancellorship, at over 33 years.",
+    "lead": "Helmut Heinrich Waldemar Schmidt (German: [ˈhɛlmuːt ˈʃmɪt] ; 23 December 1918 – 10 November 2015) was a German politician and member of the Social Democratic Party of Germany (SPD), who served as Chancellor of West Germany from 1974 to 1982. He was the longest lived chancellor in German history and had the longest post-chancellorship, at over 33 years. He was also the only chancellor to serve in the Wehrmacht during World War II.",
     "image": "",
-    "photo": "model 0.96, one person 1.00"
+    "photo": "model 0.96, one person 1.00",
+    "birth": {
+      "location": [
+        10.0,
+        53.55
+      ],
+      "year": 1918
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Afghan ruler from the Hotak sub-tribe of the Ghilji tribe of Pashtuns of Kandahar, Afghanistan, and the short-lived founder of the Hotak dynasty.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Mirwais Khan Hotak (c. 1673 – November 1715) was an Afghan ruler from the Hotak sub-tribe of the Ghilji tribe of Pashtuns of Kandahar, Afghanistan, and the short-lived founder of the Hotak dynasty.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        65.71583333,
+        31.62
+      ],
+      "year": 1673
+    }
   }
 }

@@ -20,6 +20,7 @@
   ],
   "contribution": "A Egyptian poet of the early 20th century.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/hafez-ibrahim.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Khedivate of Egypt"
+      ],
+      "born_in": [
+        "Khedivate of Egypt"
       ]
     },
     "lead": "Mohamed Hafez Ibrahim (Arabic: محمد حافظ إبراهيم, ALA-LC: Muḥammad Ḥāfiẓ Ibrāhīm; 1871–1932) was a Egyptian poet of the early 20th century. He was dubbed the \"Poet of the Nile\", and sometimes the \"Poet of the People\", for his political commitment to the poor. His poetry took on the concerns of the majority of ordinary Egyptians, including  women’s rights, poverty, education, as well as his criticism of the British Empire and foreign occupation.",
     "image": "",
-    "photo": "model 0.96, one person 1.00, captured 1932, during their lifetime"
+    "photo": "model 0.96, one person 1.00, captured 1932, during their lifetime",
+    "birth": {
+      "location": [
+        30.81666667,
+        27.56666667
+      ],
+      "year": 1872
+    }
   }
 }

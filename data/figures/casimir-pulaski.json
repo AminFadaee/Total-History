@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Polish nobleman, soldier, and military commander who has been called \"The Father of American cavalry\" or \"The Soldier of Liberty\".",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/casimir-pulaski.jpg",
   "image_credit": "Jan Styka · Public domain",
   "image_kind": "Later depiction",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"
+      ],
+      "born_in": [
+        "Polish-Lithuanian Commonwealth"
       ]
     },
     "lead": "Kazimierz Michał Władysław Wiktor Pułaski (Polish: [kaˈʑimjɛʂ puˈwaskʲi] ; March 4 or 6, 1745  –  October 11, 1779), anglicised as Casimir Pulaski ( KA-zi-meer pə-LAS-kee), was a Polish nobleman, soldier, and military commander who has been called \"The Father of American cavalry\" or \"The Soldier of Liberty\". Born in Warsaw and following in his father's footsteps, he became interested in politics at an early age. He soon became involved in the military and in revolutionary affairs in the Polish–Lithuanian Commonwealth. Pulaski was one of the leading military commanders for the Bar Confederation and fought against the Commonwealth's foreign domination. When this uprising failed, he was driven into exile.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        21.01111111,
+        52.23
+      ],
+      "year": 1745
+    }
   }
 }

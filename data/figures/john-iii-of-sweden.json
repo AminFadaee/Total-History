@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Sweden from 1569 until his death.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/john-iii-of-sweden.jpg",
   "image_credit": "After Johan Baptista van Uther · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "John III (Swedish: Johan III; 20 December 1537 – 17 November 1592) was King of Sweden from 1569 until his death. He ascended the Swedish throne after successfully rebelling against his older half-brother Erik XIV. He is mainly remembered for his attempts to close the gap between the newly established Lutheran Church of Sweden and the Catholic Church, as well as his conflict with and possible murder of his brother.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        16.59833333,
+        58.44166667
+      ],
+      "year": 1537
+    }
   }
 }

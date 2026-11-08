@@ -19,6 +19,7 @@
   ],
   "contribution": "A claimant to the Spanish throne as Juan III.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/infante-juan-count-of-barcelona.jpg",
   "image_credit": "Fotograaf Onbekend / Anefo. Copyright holder: Nationaal Archief · CC BY 4.0",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Infante Juan, Count of Barcelona (Juan Carlos Teresa Silverio Alfonso de Borbón y Battenberg; 20 June 1913 – 1 April 1993), was a claimant to the Spanish throne as Juan III. He was the third son and designated heir of King Alfonso XIII and Victoria Eugenie of Battenberg. His father was replaced by the Second Spanish Republic in 1931. Juan's son Juan Carlos I became King of Spain when Spain's constitutional monarchy was restored in 1975.",
     "image": "",
-    "photo": "model 0.98, one person 0.99, in Category:1946 black and white portrait photographs of men"
+    "photo": "model 0.98, one person 0.99, in Category:1946 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        -4.00444444,
+        40.8975
+      ],
+      "year": 1913
+    }
   }
 }

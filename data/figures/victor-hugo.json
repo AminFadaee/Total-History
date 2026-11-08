@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A French Romantic author, poet, essayist, playwright, journalist, human rights activist and politician.",
   "setting": "",
+  "modern_country": "France",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Bourbon Kingdom of France"
+      ],
+      "born_in": [
+        "French Consulate"
       ]
     },
     "lead": "Victor-Marie Hugo, vicomte Hugo (French: [viktɔʁ maʁi yɡo] ; 26 February 1802 – 22 May 1885) was a French Romantic author, poet, essayist, playwright, journalist, human rights activist and politician.",
     "image": "no candidate shows one person",
-    "photo": "Victor Hugo by Étienne Carjat 1876 - full.jpg: model 0.30, one person 0.44, in Category:1876 portrait photographs of men; Six personnages de Victor Hugo - Louis Boulanger.jpg: model 0.05, one person 0.00; HugoOdesBallades.jpg: model 0.03, one person 0.12, captured 1853, during their lifetime; Handtekeningen van meerdere franse auteurs (collage).jpg: model 0.25, one person 0.00; Victor Hugo à Jersey, sur le rocher dit \"des proscrits\" (c.1852).jpg: model 0.89, one person 0.30; Panneau Barricade du Fbg St Antoine.jpg: model 0.23, one person 0.01, classified as a photograph on Commons; Gare aux délégués (Petit Journal illustré 1904-12-11).jpg: model 0.01, one person 0.01; Ce siècle avait deux ans - Victor Hugo 01.jpg: model 0.59, one person 0.34, classified as a photograph on Commons; Le grand temple du Caodaïsme (Tay Ninh) (6575960371).jpg: model 0.05, one person 0.55, classified as a photograph on Commons; Hugo - le Y.jpg: model 0.90, one person 0.00"
+    "photo": "Victor Hugo by Étienne Carjat 1876 - full.jpg: model 0.30, one person 0.44, in Category:1876 portrait photographs of men; Six personnages de Victor Hugo - Louis Boulanger.jpg: model 0.05, one person 0.00; HugoOdesBallades.jpg: model 0.03, one person 0.12, captured 1853, during their lifetime; Handtekeningen van meerdere franse auteurs (collage).jpg: model 0.25, one person 0.00; Victor Hugo à Jersey, sur le rocher dit \"des proscrits\" (c.1852).jpg: model 0.89, one person 0.30; Panneau Barricade du Fbg St Antoine.jpg: model 0.23, one person 0.01, classified as a photograph on Commons; Gare aux délégués (Petit Journal illustré 1904-12-11).jpg: model 0.01, one person 0.01; Ce siècle avait deux ans - Victor Hugo 01.jpg: model 0.59, one person 0.34, classified as a photograph on Commons; Le grand temple du Caodaïsme (Tay Ninh) (6575960371).jpg: model 0.05, one person 0.55, classified as a photograph on Commons; Hugo - le Y.jpg: model 0.90, one person 0.00",
+    "birth": {
+      "location": [
+        6.02,
+        47.24
+      ],
+      "year": 1802
+    }
   }
 }

@@ -12,11 +12,13 @@
   "occupation": "Philosopher",
   "birth_country": "Austria",
   "civilizations": [
+    "Austria-Hungary",
     "United Kingdom"
   ],
   "related": [],
   "contribution": "An Austrian–British philosopher, academic and social commentator.",
   "setting": "",
+  "modern_country": "Austria",
   "image": "images/karl-popper.jpg",
   "image_credit": "Franz Barta · No restrictions",
   "image_kind": "Photograph",
@@ -31,10 +33,20 @@
         "Republic of Austria",
         "United Kingdom",
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "Austria-Hungary"
       ]
     },
     "lead": "Sir Karl Raimund Popper (28 July 1902 – 17 September 1994) was an Austrian–British philosopher, academic and social commentator. One of the 20th century's most influential philosophers of science, Popper is known for his rejection of the classical inductivist views on the scientific method in favour of empirical falsification made possible by his falsifiability criterion, and for founding the Department of Philosophy at the London School of Economics and Political Science. According to Popper, a theory in the empirical sciences can never be proven, but it can be falsified, meaning that it can (and should) be scrutinised with decisive experiments. Popper was opposed to the classical justificationist account of knowledge, which he replaced with \"the first non-justificational philosophy of criticism in the history of philosophy\", namely critical rationalism.",
     "image": "",
-    "photo": "model 0.96, one person 0.99, captured 1980, during their lifetime"
+    "photo": "model 0.96, one person 0.99, captured 1980, during their lifetime",
+    "birth": {
+      "location": [
+        16.3725,
+        48.20833333
+      ],
+      "year": 1902
+    }
   }
 }

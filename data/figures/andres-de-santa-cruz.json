@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "A Peruvian-Bolivian general and politician who served as interim president of Peru in 1827, the interim president of Peru from 1836 to 1838 and the sixth president of Bolivia from 1829 to 1839.",
   "setting": "",
+  "modern_country": "Bolivia",
   "image": "images/andres-de-santa-cruz.jpg",
   "image_credit": "Simon chara · Public domain",
   "image_kind": "Photograph",
@@ -44,10 +45,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Andrés de Santa Cruz y Calahumana (Spanish pronunciation: [anˈdɾes ðe ˈsanta ˈkɾus] ; 30 November 1792 – 25 September 1865) was a Peruvian-Bolivian general and politician who served as interim president of Peru in 1827, the interim president of Peru from 1836 to 1838 and the sixth president of Bolivia from 1829 to 1839. He also served as Supreme Protector of the short-lived Peru-Bolivian Confederation from 1836 to 1839, a political entity created mainly by his personal endeavors.",
     "image": "",
-    "photo": "model 0.72, one person 0.97, in Category:Daguerreotype portraits"
+    "photo": "model 0.72, one person 0.97, in Category:Daguerreotype portraits",
+    "birth": {
+      "location": [
+        -68.63333333,
+        -16.2
+      ],
+      "year": 1792
+    }
   }
 }

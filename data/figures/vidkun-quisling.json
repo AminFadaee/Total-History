@@ -1,0 +1,50 @@
+{
+  "id": "Q151364",
+  "slug": "vidkun-quisling",
+  "name": "Vidkun Quisling",
+  "wikipedia": "Vidkun Quisling",
+  "role": "Norwegian politician and Nazi collaborator",
+  "life": "1887–1945",
+  "lifetime": [
+    1887,
+    1945
+  ],
+  "occupation": "Politician",
+  "birth_country": "Norway",
+  "civilizations": [
+    "United Kingdoms of Sweden and Norway"
+  ],
+  "related": [
+    "Nazi Germany",
+    "Union of Soviet Socialist Republics"
+  ],
+  "contribution": "A Norwegian military officer, politician and Nazi collaborator who headed the puppet government of Norway during the country's occupation by Nazi Germany during World War II.",
+  "setting": "",
+  "modern_country": "Norway",
+  "image": "images/vidkun-quisling.jpg",
+  "image_credit": "Riksarkivet (National Archives of Norway) from Oslo, Norway · No restrictions",
+  "image_kind": "Photograph",
+  "photo": "images/vidkun-quisling-photo.jpg",
+  "photo_credit": "Riksarkivet (National Archives of Norway) from Oslo, Norway · No restrictions",
+  "checks": {
+    "civilization_votes": {
+      "lead": [
+        "Nazi Germany",
+        "Union of Soviet Socialist Republics"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
+      ]
+    },
+    "lead": "Vidkun Abraham Lauritz Jonssøn Quisling (; Norwegian: [ˈʋɪ̂dkʉn ˈkʋɪ̂slɪŋ] ; 18 July 1887 – 24 October 1945) was a Norwegian military officer, politician and Nazi collaborator who headed the puppet government of Norway during the country's occupation by Nazi Germany during World War II.",
+    "image": "",
+    "photo": "model 0.84, one person 0.99, captured 1930, during their lifetime",
+    "birth": {
+      "location": [
+        8.01972222,
+        59.16583333
+      ],
+      "year": 1887
+    }
+  }
+}

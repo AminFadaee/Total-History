@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Guatemalan poet-diplomat, novelist, playwright and journalist.",
   "setting": "",
+  "modern_country": "Guatemala",
   "image": "images/miguel-angel-asturias.jpg",
   "image_credit": "Dominique Roger · CC BY-SA 3.0 igo",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Guatemala"
+      ],
+      "born_in": [
+        "Guatemala"
       ]
     },
     "lead": "Miguel Ángel Asturias Rosales (Spanish: [mi(ˈ)ɣel ˈaŋxel asˈtuɾjas]; 19 October 1899 – 9 June 1974) was a Guatemalan poet-diplomat, novelist, playwright and journalist. Winning the Nobel Prize in Literature in 1967, his work helped bring attention to the importance of indigenous cultures, especially those of his native Guatemala.",
     "image": "",
-    "photo": "model 0.98, one person 0.99, captured 1968, during their lifetime"
+    "photo": "model 0.98, one person 0.99, captured 1968, during their lifetime",
+    "birth": {
+      "location": [
+        -90.53527778,
+        14.61333333
+      ],
+      "year": 1899
+    }
   }
 }

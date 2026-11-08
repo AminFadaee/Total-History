@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He came to the throne at the age of six after his father was overthrown in a coup.",
   "setting": "",
+  "modern_country": "",
   "image": "images/mehmed-iv.jpg",
   "image_credit": "Unidentified painter · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Ottoman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Mehmed IV (Ottoman Turkish: محمد رابع, romanized: Meḥmed-i rābi; Turkish: IV. Mehmed; 2 January 1642 – 6 January 1693), nicknamed as Mehmed the Hunter (Turkish: Avcı Mehmed), was the sultan of the Ottoman Empire from 1648 to 1687. He came to the throne at the age of six after his father was overthrown in a coup. Mehmed went on to become the second-longest-reigning sultan in Ottoman history after Suleiman the Magnificent. While the initial and final years of his reign were characterized by military defeat and political instability, during his middle years he oversaw the revival of the empire's fortunes associated with the Köprülü era. Mehmed IV was known by contemporaries as a particularly pious ruler, and was referred to as gazi, or \"holy warrior\" for his role in the many conquests carried out during his long reign.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        28.984,
+        41.013
+      ],
+      "year": 1642
+    }
   }
 }

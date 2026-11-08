@@ -21,6 +21,7 @@
   ],
   "contribution": "An East Frankish king from 936 and Holy Roman Emperor from 962 until his death in 973.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/otto-the-great.jpg",
   "image_credit": "Artwork: Creators of the Chronicle of Bishop Otto of Freising; Photo: AndreasPraefcke · Public domain",
   "image_kind": "Later depiction",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Kingdom of Germany"
+      ],
+      "born_in": [
+        "Kingdom of Germany"
       ]
     },
     "lead": "Otto I (23 November 912 – 7 May 973), known as Otto the Great (German: Otto der Große; Italian: Ottone il Grande) or Otto of Saxony (German: Otto von Sachsen; Italian: Ottone di Sassonia), was an East Frankish (German) king from 936 and Holy Roman Emperor from 962 until his death in 973. He was the eldest son of Henry the Fowler and Matilda of Ringelheim.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.20722222,
+        51.46083333
+      ],
+      "year": 912
+    }
   }
 }

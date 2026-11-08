@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Guatemalan politician and military general who served as President of Guatemala from 1873 to his death in 1885.",
   "setting": "",
+  "modern_country": "Guatemala",
   "image": "images/justo-rufino-barrios.jpg",
   "image_credit": "Cuba. Secretaría de Instrucción Pública y Bellas Artes. · CC0",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Guatemala"
+      ],
+      "born_in": [
+        "Federal Republic of Central America"
       ]
     },
     "lead": "Justo Rufino Barrios Auyón (19 July 1835 – 2 April 1885) was a Guatemalan politician and military general who served as President of Guatemala from 1873 to his death in 1885. He was known for his liberal reforms and his attempts to reunite Central America. During his rule, Guatemala had a close relationship with the United States.",
     "image": "",
-    "photo": "model 0.88, one person 0.99, captured 1875, during their lifetime"
+    "photo": "model 0.88, one person 0.99, captured 1875, during their lifetime",
+    "birth": {
+      "location": [
+        -91.73777778,
+        15.02111111
+      ],
+      "year": 1835
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The founder of the Qajar dynasty of Iran, ruling as Shah from 1789 to 1797, after reunifying the country and establishing Tehran as its capital.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/agha-mohammad-khan-qajar.jpg",
   "image_credit": "Sotheby's · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Afsharid Iran"
+      ],
+      "born_in": [
+        "Afsharid Iran"
       ]
     },
     "lead": "Agha Mohammad Khan Qajar (Persian: آقا محمد خان قاجار, romanized: Âqâ Mohammad Xân-e Qâjâr; 14 March 1742 – 17 June 1797), also known by his regnal name of Agha Mohammad Shah (آقامحمد شاه), was the founder of the Qajar dynasty of Iran, ruling as Shah from 1789 to 1797, after reunifying the country and establishing Tehran as its capital.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        54.44138889,
+        36.83777778
+      ],
+      "year": 1742
+    }
   }
 }

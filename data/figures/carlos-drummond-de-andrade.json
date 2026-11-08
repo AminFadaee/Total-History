@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Brazilian poet and writer, considered by some as the greatest Brazilian poet of all time.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/carlos-drummond-de-andrade.jpg",
   "image_credit": "Unknown · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Brazilian Republic"
+      ],
+      "born_in": [
+        "Brazilian Republic"
       ]
     },
-    "lead": "Carlos Drummond de Andrade (Portuguese pronunciation: [ˈkaʁluz dɾuˈmõ dʒi ɐ̃ˈdɾadʒi]) (October 31, 1902 – August 17, 1987) was a Brazilian poet and writer, considered by some as the greatest Brazilian poet of all time.",
+    "lead": "Carlos Drummond de Andrade (Brazilian Portuguese pronunciation: [ˈkaʁluz dɾuˈmõ dʒi ɐ̃ˈdɾadʒi]; October 31, 1902 – August 17, 1987) was a Brazilian poet and writer, considered by some as the greatest Brazilian poet of all time.",
     "image": "",
-    "photo": "model 0.91, one person 0.97, in Category:Photographs on arts in Arquivo Nacional (Brazil)"
+    "photo": "model 0.91, one person 0.97, in Category:Photographs on arts in Arquivo Nacional (Brazil)",
+    "birth": {
+      "location": [
+        -43.22694444,
+        -19.61888889
+      ],
+      "year": 1902
+    }
   }
 }

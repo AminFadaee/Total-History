@@ -20,6 +20,7 @@
   ],
   "contribution": "A Chinese calligrapher, philosopher, and official of the Qin dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Chu"
+      ],
+      "born_in": [
+        "Chu"
       ]
     },
     "lead": "Li Si ([lì sɹ̩́]; c. 280 – 208 BC) was a Chinese calligrapher, philosopher, and official of the Qin dynasty. He served as Qin state Chancellor from 246 to 208 BC, first under King Zheng — who later became Qin Shi Huang, the \"First Emperor\" of the Qin dynasty. He then served under Qin Er Shi, Qin Shi Huang's eighteenth son and second emperor. In the Shiji, Li Si is said to have admired and utilized the administrative ideas of Shen Buhai, repeatedly referring to the technique of Shen Buhai and Han Fei, but regarding law, he followed Shang Yang.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        114.264,
+        33.262
+      ],
+      "year": -280
+    }
   }
 }

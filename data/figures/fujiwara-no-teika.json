@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese anthologist, calligrapher, literary critic, novelist, poet, and scribe of the late Heian and early Kamakura periods.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/fujiwara-no-teika.jpg",
   "image_credit": "Fujiwara no Nobuzane · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Heian Japan"
+      ],
+      "born_in": [
+        "Heian Japan"
       ]
     },
-    "lead": "Fujiwara no Sadaie or Teika (藤原 定家; Japanese pronunciation: [ɸɯ.(d)ʑi.wa.ɾa no (|) sa.daꜜ.i.e, -teꜜi.ka, -teꜜː.ka], 1162 – September 26, 1241) was a Japanese anthologist, calligrapher, literary critic, novelist, poet, and scribe of the late Heian and early Kamakura periods. His influence was enormous, and he is counted as among the greatest of Japanese poets, and perhaps the greatest master of the waka form – an ancient poetic form consisting of five lines with a total of 31 syllables.",
+    "lead": "Fujiwara no Sadaie or Teika (藤原 定家; 1162 – September 26, 1241) was a Japanese anthologist, calligrapher, literary critic, novelist, poet, and scribe of the late Heian and early Kamakura periods. His influence was enormous, and he is counted as among the greatest of Japanese poets, and perhaps the greatest master of the waka form – an ancient poetic form consisting of five lines with a total of 31 syllables.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        135.76833333,
+        35.01166667
+      ],
+      "year": 1162
+    }
   }
 }

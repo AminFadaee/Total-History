@@ -21,6 +21,7 @@
   ],
   "contribution": "King of the Pagan dynasty of Burma from 1084 to 1112/13, and is considered one of the greatest Burmese monarchs.",
   "setting": "",
+  "modern_country": "Myanmar",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Pagan Kingdom"
+      ],
+      "born_in": [
+        "Pagan Kingdom"
       ]
     },
     "lead": "Kyansittha (Burmese: ကျန်စစ်သား, pronounced [tɕàɰ̃sɪʔθá]; also spelt as Kyanzittha or Hti-Hlaing Min (ထီးလှိုင်မင်း); 21 July 1030 – 1112/13) was king of the Pagan dynasty of Burma (Myanmar) from 1084 to 1112/13, and is considered one of the greatest Burmese monarchs. He continued the social, economic and cultural reforms begun by his father, King Anawrahta. Pagan became an internationally recognized power during his 28-year reign. The Burmese language and culture continued to gain ground.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        95.97861111,
+        21.88222222
+      ],
+      "year": 1030
+    }
   }
 }

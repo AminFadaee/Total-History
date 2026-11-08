@@ -17,8 +17,9 @@
   "related": [
     "Sasanian Empire"
   ],
-  "contribution": "Although his reign lasted only five years, it marked an unusually stable period during the crisis of the third century.",
+  "contribution": "Although his reign lasted only five years, it marked an unusually stable period during the Crisis of the Third Century.",
   "setting": "",
+  "modern_country": "Syria",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
-    "lead": "Philip I (Latin: Marcus Julius Philippus; c. 204 – September 249), commonly known as Philip the Arab, born in Shahba, Syria, was Roman Emperor from 244 to 249. Although his reign lasted only five years, it marked an unusually stable period during the crisis of the third century.",
+    "lead": "Philip I (Latin: Marcus Julius Philippus; c. 204 – September 249), commonly known as Philip the Arab, was the Roman emperor from 244 to 249. Although his reign lasted only five years, it marked an unusually stable period during the Crisis of the Third Century.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        36.62916667,
+        32.85416667
+      ],
+      "year": 204
+    }
   }
 }

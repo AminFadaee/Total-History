@@ -1,0 +1,52 @@
+{
+  "id": "Q156617",
+  "slug": "christian-x",
+  "name": "Christian X",
+  "wikipedia": "Christian X",
+  "role": "King of Denmark and Iceland",
+  "life": "1870–1947",
+  "lifetime": [
+    1870,
+    1947
+  ],
+  "occupation": "Politician",
+  "birth_country": "Denmark",
+  "civilizations": [
+    "Kingdom of Iceland",
+    "Denmark"
+  ],
+  "related": [
+    "Nazi Germany"
+  ],
+  "contribution": "King of Denmark from 1912 until his death in 1947, and the only King of Iceland as Kristján X, holding the title as a result of the personal union between Denmark and independent Iceland between 1918 and 1944.",
+  "setting": "Kingdom of Iceland",
+  "modern_country": "",
+  "image": "images/christian-x.jpg",
+  "image_credit": "{{https://www.loc.gov/pictures/related/?fi=name&q=Bain%20News%20Service; publisher; Bain News Service}} · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/christian-x-photo.jpg",
+  "photo_credit": "{{https://www.loc.gov/pictures/related/?fi=name&q=Bain%20News%20Service; publisher; Bain News Service}} · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Denmark",
+        "Kingdom of Iceland"
+      ],
+      "lead": [
+        "Kingdom of Iceland",
+        "Nazi Germany"
+      ],
+      "born_in": []
+    },
+    "lead": "Christian X (Danish: Christian Carl Frederik Albert Alexander Vilhelm; 26 September 1870 – 20 April 1947) was King of Denmark from 1912 until his death in 1947, and the only King of Iceland as Kristján X, holding the title as a result of the personal union between Denmark and independent Iceland between 1918 and 1944.",
+    "image": "",
+    "photo": "model 0.95, one person 0.95, in Category:Portrait photographs of Christian X of Denmark",
+    "birth": {
+      "location": [
+        12.58055556,
+        55.75027778
+      ],
+      "year": 1870
+    }
+  }
+}

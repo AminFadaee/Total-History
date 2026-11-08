@@ -21,6 +21,7 @@
   ],
   "contribution": "A Manchu prince and regent of the early Qing dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/dorgon.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -39,10 +40,18 @@
       ],
       "citizenship": [
         "Qing Dynasty"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Dorgon (17 November 1612 – 31 December 1650) was a Manchu prince and regent of the early Qing dynasty. Born in the House of Aisin-Gioro as the 14th son of Nurhaci (the founder of the Later Jin dynasty, which was the predecessor of the Qing), Dorgon started his career in military campaigns against the Mongols, the Koreans, and the Ming dynasty during the reign of Hong Taiji (his eighth brother) who succeeded their father.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        125.039,
+        41.728
+      ],
+      "year": 1612
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 41st president of the United States, serving from 1989 to 1993.",
   "setting": "",
+  "modern_country": "United States",
   "image": "images/george-h-w-bush.jpg",
   "image_credit": "David Valdez · Public domain",
   "image_kind": "Photograph",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
-    "lead": "George Herbert Walker Bush (June 12, 1924 – November 30, 2018) was the 41st president of the United States, serving from 1989 to 1993. A member of the Republican Party, he served as the 43rd vice president under President Ronald Reagan. His son, George W. Bush, was the 43rd president.",
+    "lead": "George Herbert Walker Bush (June 12, 1924 – November 30, 2018) was the 41st president of the United States from 1989 to 1993. A member of the Republican Party, he served as Ronald Reagan's vice president from 1981 to 1989. Bush was a pragmatist with myriad political experience, having previously held the offices of Director of Central Intelligence, Chair of the Republican National Committee, and U.S. Ambassador to China and the United Nations.",
     "image": "",
-    "photo": "model 0.84, one person 0.81, in Category:Official portrait photograph of George H. W. Bush, 1989"
+    "photo": "model 0.84, one person 0.81, in Category:Official portrait photograph of George H. W. Bush, 1989",
+    "birth": {
+      "location": [
+        -71.06666667,
+        42.25
+      ],
+      "year": 1924
+    }
   }
 }

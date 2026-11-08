@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "One of the most influential monarchs of the Zulu, he ordered wide-reaching reforms that reorganized the military into a formidable force.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/shaka.jpg",
   "image_credit": "James King · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Zululand"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Shaka kaSenzangakhona (c. 1787 – 24 September 1828), also known as Shaka Zulu (Zulu pronunciation: [ˈʃaːɠa]), Shaka the Zulu, and Sigidi kaSenzangakhona, was the king of the Zulu Kingdom from 1816 to 1828. One of the most influential monarchs of the Zulu, he ordered wide-reaching reforms that reorganized the military into a formidable force.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        31.84861111,
+        -28.515
+      ],
+      "year": 1787
+    }
   }
 }

@@ -21,6 +21,7 @@
   ],
   "contribution": "A Georgian monarch of the royal Bagrationi dynasty.",
   "setting": "",
+  "modern_country": "Georgia",
   "image": "images/vakhtang-vi.jpg",
   "image_credit": "This work was first published in Georgia and is now in the public domain because its copyright protection has expired by virtue of the Law of Georgia on Copyright and Neighboring Rights (details). The work meets one of the following criteria: It is an anonymous work or pseudonymous work and 70 years have passed since the date of its publication It is another kind of work, and 70 years have passed since the year of death of the author (or last-surviving author) It is one of \"official documents\" (legislative acts, court decisions, other texts of administrative and regulatory nature), as well as official translations thereof It is one of \"official state symbols\" (flags, coats-of-arms, anthems, reward, banknotes, other state symbols and insignia) · Public domain",
   "image_kind": "Portrait from life",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Safavid Dynasty"
+      ],
+      "born_in": [
+        "Safavid Dynasty"
       ]
     },
     "lead": "Vakhtang VI (Georgian: ვახტანგ VI, 15 September 1675 – 26 March 1737) was a Georgian monarch (mepe) of the royal Bagrationi dynasty. He ruled the East Georgian Kingdom of Kartli as a vassal of Safavid Persia from 1716 to 1724. One of the most important and extraordinary statesmen of early 18th-century Georgia, he is known as a notable legislator, scholar, critic, translator and poet. His reign was eventually terminated by the Ottoman invasion following the disintegration of Safavid Persia, which forced Vakhtang into exile in the Russian Empire. Vakhtang was unable to get the tsar's support for his kingdom and instead had to permanently stay with his northern neighbours for his own safety. On his way to a diplomatic mission sanctioned by Empress Anna, he fell ill and died in southern Russia in 1737, never reaching Georgia.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        44.7925,
+        41.7225
+      ],
+      "year": 1675
+    }
   }
 }

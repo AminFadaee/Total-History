@@ -19,6 +19,7 @@
   ],
   "contribution": "A Spanish Baroque painter, the leading artist in the court of King Philip IV of Spain and Portugal, and of the Spanish Golden Age.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/diego-velazquez.jpg",
   "image_credit": "Diego Velázquez · Public domain",
   "image_kind": "Portrait from life",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Iberian Union"
+      ],
+      "born_in": [
+        "Iberian Union"
       ]
     },
     "lead": "Diego Rodríguez de Silva y Velázquez (baptised 6 June 1599 – 6 August 1660) was a Spanish Baroque painter, the leading artist in the court of King Philip IV of Spain and Portugal, and of the Spanish Golden Age. He is generally considered one of the greatest artists in the history of Western art.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -5.99,
+        37.39
+      ],
+      "year": 1599
+    }
   }
 }

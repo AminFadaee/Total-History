@@ -20,6 +20,7 @@
   ],
   "contribution": "His rise to power began in 608, when he and his father, Heraclius the Elder, the Exarch of Africa, led a revolt against the unpopular emperor Phocas.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Byzantine Empire"
+      ],
+      "born_in": [
+        "Byzantine Empire"
       ]
     },
     "lead": "Heraclius (Greek: Ἡράκλειος, romanized: Hērákleios; c. 575 – 11 February 641) was Byzantine emperor from 610 to 641. His rise to power began in 608, when he and his father, Heraclius the Elder, the Exarch of Africa, led a revolt against the unpopular emperor Phocas.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        34.85361111,
+        38.65833333
+      ],
+      "year": 575
+    }
   }
 }

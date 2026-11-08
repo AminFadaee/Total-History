@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The father of King Ananda Mahidol and King Bhumibol Adulyadej of Thailand, and the paternal grandfather of King Vajiralongkorn.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "images/mahidol-adulyadej.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Rattanakosin Kingdom"
+      ],
+      "born_in": [
+        "Rattanakosin Kingdom"
       ]
     },
     "lead": "Mahitala Dhibesra Adulyadej Vikrom, the Prince Father (1 January 1892 – 24 September 1929), formerly Prince Mahidol Adulyadej, Prince of Songkhla or Mahidol Songkla, was the father of King Ananda Mahidol (Rama VIII) and King Bhumibol Adulyadej (Rama IX) of Thailand, and the paternal grandfather of King Vajiralongkorn (Rama X). He was also regarded as the father of modern medicine and public health in Thailand. He also founded the House of Mahidol or the present Royal Family of Thailand. His two sons reigned for more than eight decades, longer than the Ibn Saud siblings of Saudi Arabia, and the Nahyan siblings of Abu Dhabi.",
     "image": "",
-    "photo": "model 0.97, one person 1.00, captured 1929, during their lifetime"
+    "photo": "model 0.97, one person 1.00, captured 1929, during their lifetime",
+    "birth": {
+      "location": [
+        100.492,
+        13.7501
+      ],
+      "year": 1892
+    }
   }
 }

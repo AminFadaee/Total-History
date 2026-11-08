@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian banker and politician who became the de facto ruler of Florence during the Italian Renaissance, and was the first to establish the Medici family as its effective leaders for generations.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/cosimo-de-medici.jpg",
   "image_credit": "Pontormo · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Republic of Florence"
+      ],
+      "born_in": [
+        "Republic of Florence"
       ]
     },
     "lead": "Cosimo di Giovanni de' Medici (27 September 1389 – 1 August 1464) was an Italian banker and politician who became the de facto ruler of Florence during the Italian Renaissance, and was the first to establish the Medici family as its effective leaders for generations.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.25416667,
+        43.77138889
+      ],
+      "year": 1389
+    }
   }
 }

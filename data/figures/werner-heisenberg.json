@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A German theoretical physicist, one of the main pioneers of the theory of quantum mechanics and a principal scientist in the German nuclear program during World War II.",
   "setting": "Federal Republic of Germany",
+  "modern_country": "Germany",
   "image": "images/werner-heisenberg.jpg",
   "image_credit": "Unknown author · CC BY-SA 3.0 de",
   "image_kind": "Photograph",
@@ -31,10 +32,20 @@
         "Weimar Republic",
         "Nazi Germany",
         "Federal Republic of Germany"
+      ],
+      "born_in": [
+        "German Empire"
       ]
     },
     "lead": "Werner Karl Heisenberg (; German: [ˈvɛʁnɐ ˈhaɪzn̩bɛʁk] ; 5 December 1901 – 1 February 1976) was a German theoretical physicist, one of the main pioneers of the theory of quantum mechanics and a principal scientist in the German nuclear program during World War II.",
     "image": "",
-    "photo": "model 0.98, one person 0.98, in Category:Black and white portrait photographs of male scientists"
+    "photo": "model 0.98, one person 0.98, in Category:Black and white portrait photographs of male scientists",
+    "birth": {
+      "location": [
+        9.93333333,
+        49.78333333
+      ],
+      "year": 1901
+    }
   }
 }

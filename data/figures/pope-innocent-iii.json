@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The head of the Catholic Church and sovereign of the Papal States from 8 January 1198 until his death in 1216.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/pope-innocent-iii.jpg",
   "image_credit": "Carlo Raso · Public domain",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Papal States"
+      ],
+      "born_in": [
+        "Papal States"
       ]
     },
     "lead": "Pope Innocent III (Latin: Innocentius III; born Lotario de' Conti di Segni; 1160/1161 – 16 July 1216) was the head of the Catholic Church and sovereign of the Papal States from 8 January 1198 until his death in 1216.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.48277778,
+        41.89333333
+      ],
+      "year": 1160
+    }
   }
 }

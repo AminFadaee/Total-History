@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Sultan of Morocco from March 1728 to March 1729 and a member of the Alaouite dynasty.",
   "setting": "",
+  "modern_country": "Morocco",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "citizenship": [
         "Morocco"
+      ],
+      "born_in": [
+        "Morocco"
       ]
     },
     "lead": "Sultan Moulay Abdelmalik (Arabic: عبد الملك بن إسماعيل العلوي) (1675 – 2 March 1729) was Sultan of Morocco from March 1728 to March 1729 and a member of the Alaouite dynasty.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -5.55,
+        33.883333333333
+      ],
+      "year": 1696
+    }
   }
 }

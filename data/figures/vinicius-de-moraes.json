@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/vinicius-de-moraes.jpg",
   "image_credit": "Unknown · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Brazilian Republic"
+      ],
+      "born_in": [
+        "Brazilian Republic"
       ]
     },
     "lead": "Marcus Vinícius da Cruz e Mello Moraes (19 October 1913 – 9 July 1980), better known as Vinícius de Moraes (Brazilian Portuguese: [viˈnisjuz dʒi moˈɾajs]) and nicknamed \"O Poetinha\" (\"The Little Poet\"), was a Brazilian poet, diplomat, lyricist, essayist, musician, singer, and playwright. With his frequent and diverse musical partners, including Antônio Carlos Jobim, his lyrics and compositions were instrumental in the birth and introduction to the world of bossa nova music. He recorded numerous albums, many in collaboration with noted artists, and also served as a successful Brazilian career diplomat.",
     "image": "",
-    "photo": "model 0.83, one person 0.98, in Category:Photographs on arts in Arquivo Nacional (Brazil)"
+    "photo": "model 0.83, one person 0.98, in Category:Photographs on arts in Arquivo Nacional (Brazil)",
+    "birth": {
+      "location": [
+        -43.20555556,
+        -22.91111111
+      ],
+      "year": 1913
+    }
   }
 }

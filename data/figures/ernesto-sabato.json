@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Argentine novelist, essayist, painter and physicist.",
   "setting": "",
+  "modern_country": "Argentina",
   "image": "images/ernesto-sabato.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Argentine Republic"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Ernesto Sabato (Spanish: [ˈsaβaðo]; June 24, 1911 – April 30, 2011) was an Argentine novelist, essayist, painter and physicist. According to the BBC he \"won some of the most prestigious prizes in Hispanic literature\" and \"became very influential in the literary world throughout Latin America\". Upon his death El País dubbed him the \"last classic writer in Argentine literature\".",
     "image": "",
-    "photo": "model 0.92, one person 0.98, captured 2008, during their lifetime"
+    "photo": "model 0.92, one person 0.98, captured 2008, during their lifetime",
+    "birth": {
+      "location": [
+        -60.73333333,
+        -34.18333333
+      ],
+      "year": 1911
+    }
   }
 }

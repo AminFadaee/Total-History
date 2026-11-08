@@ -27,6 +27,7 @@
   ],
   "contribution": "King of Hungary and Croatia from 1342 and King of Poland from 1370 until his death in 1382.",
   "setting": "",
+  "modern_country": "",
   "image": "images/louis-i-of-hungary.jpg",
   "image_credit": "János Thuróczy · Public domain",
   "image_kind": "Later depiction",
@@ -53,10 +54,20 @@
       ],
       "birthplace": [
         "Kingdom of Hungary"
+      ],
+      "born_in": [
+        "Kingdom of Hungary"
       ]
     },
     "lead": "Louis I of Hungary, also known as Louis the Great (Hungarian: Nagy Lajos; Croatian: Ludovik Veliki; Slovak: Ľudovít Veľký) or Louis the Hungarian (Polish: Ludwik Węgierski, Italian: Luigi l'ungherese; 5 March 1326 – 10 September 1382), was King of Hungary and Croatia from 1342 and King of Poland from 1370 until his death in 1382. He was the first child of Charles I of Hungary and his wife, Elizabeth of Poland, to survive infancy. A 1338 treaty between his father and Casimir III of Poland, Louis's maternal uncle, confirmed Louis's right to inherit the Kingdom of Poland if his uncle died without a son. In exchange, Louis was obliged to assist his uncle in reoccupying the lands that Poland had lost in previous decades. He bore the title Duke of Transylvania between 1339 and 1342 but did not administer the province.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.97367,
+        47.78483
+      ],
+      "year": 1326
+    }
   }
 }

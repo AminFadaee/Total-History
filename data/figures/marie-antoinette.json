@@ -15,8 +15,9 @@
     "Habsburg Monarchy"
   ],
   "related": [],
-  "contribution": "Queen of France as the wife of Louis XVI from 10 May 1774 until the abolition of the French monarchy in 1792 during the French Revolution.",
+  "contribution": "The last queen of France before the abolition of the monarchy during the French Revolution.",
   "setting": "",
+  "modern_country": "Austria",
   "image": "images/marie-antoinette.jpg",
   "image_credit": "Élisabeth Louise Vigée Le Brun · Public domain",
   "image_kind": "Portrait from life",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Habsburg Monarchy"
+      ],
+      "born_in": [
+        "Habsburg Monarchy"
       ]
     },
-    "lead": "Marie Antoinette (Marie Antoinette Josèphe Jeanne; 2 November 1755 – 16 October 1793) was Queen of France as the wife of Louis XVI from 10 May 1774 until the abolition of the French monarchy in 1792 during the French Revolution.",
+    "lead": "Marie Antoinette (2 November 1755 – 16 October 1793) was the last queen of France before the abolition of the monarchy during the French Revolution. She served from 1774 to 1792, as the wife of King Louis XVI.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        16.36527778,
+        48.20638889
+      ],
+      "year": 1755
+    }
   }
 }

@@ -20,6 +20,7 @@
   ],
   "contribution": "An Italian explorer and navigator from the Republic of Florence after whom the Americas are named.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/amerigo-vespucci.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Republic of Florence"
+      ],
+      "born_in": [
+        "Republic of Florence"
       ]
     },
     "lead": "Amerigo Vespucci (9 March 1454 – 22 February 1512) was an Italian explorer and navigator from the Republic of Florence after whom the Americas are named.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.25611111,
+        43.76944444
+      ],
+      "year": 1454
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "A Macedonian Greek ruler who solidified the position of the Antigonid dynasty in Macedon after a long period defined by anarchy and chaos and acquired fame for his victory over the Gauls who had invaded the Balkans.",
   "setting": "",
+  "modern_country": "Greece",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -41,10 +42,18 @@
       ],
       "vital_section": [
         "Macedonia"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Antigonus II Gonatas (Ancient Greek: Ἀντίγονος Γονατᾶς, Antígonos; c. 320 – 239 BC) was a Macedonian Greek ruler who solidified the position of the Antigonid dynasty in Macedon after a long period defined by anarchy and chaos and acquired fame for his victory over the Gauls who had invaded the Balkans.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        22.46666667,
+        39.86666667
+      ],
+      "year": -319
+    }
   }
 }

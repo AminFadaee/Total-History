@@ -19,6 +19,7 @@
   ],
   "contribution": "A Greek general, satrap, and successor of Alexander the Great.",
   "setting": "",
+  "modern_country": "",
   "image": "images/eumenes.jpg",
   "image_credit": "Michael Burghers, late 17th century · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,18 @@
       ],
       "citizenship": [
         "Macedonia"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Eumenes (; Ancient Greek: Εὐμένης; fl. 361–315 BC) was a Greek general, satrap, and successor of Alexander the Great. He participated in the Wars of Alexander the Great, serving as Alexander's personal secretary and later on as a battlefield commander. Eumenes depicted himself as a lifelong loyalist of Alexander's dynasty and championed the cause of the Macedonian Argead royal house.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        26.74083333,
+        40.54722222
+      ],
+      "year": -362
+    }
   }
 }

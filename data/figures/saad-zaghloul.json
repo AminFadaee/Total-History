@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Egyptian revolutionary and statesman.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/saad-zaghloul.jpg",
   "image_credit": "W. Hanselman · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "lead": [
         "Kingdom of Egypt"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Saad Zaghloul Pasha (Arabic: سعد زغلول / ALA-LC: Saʻd Zaghlūl; also Sa'd Zaghloul Pasha ibn Ibrahim) (July 1857 – 23 August 1927) was an Egyptian revolutionary and statesman. He was the leader of Egypt's nationalist Wafd Party.",
     "image": "",
-    "photo": "model 0.92, one person 0.98"
+    "photo": "model 0.92, one person 0.98",
+    "birth": {
+      "location": [
+        30.93,
+        31.3
+      ],
+      "year": 1858
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "The 34th sultan of the Ottoman Empire, from 1876 to 1909, and the last sultan to exert effective control over the fracturing state.",
   "setting": "",
+  "modern_country": "",
   "image": "images/abdul-hamid-ii.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -34,10 +35,18 @@
       ],
       "citizenship": [
         "Ottoman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Abdülhamid II or Abdul Hamid II (Ottoman Turkish: عبد الحميد ثانی, romanized: Abd ul-Hamid-i s̱ānī; Turkish: II. Abdülhamid; 21 September 1842 – 10 February 1918) was the 34th sultan of the Ottoman Empire, from 1876 to 1909, and the last sultan to exert effective control over the fracturing state. He oversaw a period of decline with rebellions (particularly in the Balkans), and presided over an unsuccessful war with the Russian Empire (1877–78), the loss of Egypt, Cyprus, Bulgaria, Serbia, Montenegro, Tunisia, and Thessaly from Ottoman control (1877–1882), followed by a successful war against Greece in 1897, though Ottoman gains were tempered by subsequent Western European intervention.",
     "image": "",
-    "photo": "Sultan Abdul Hamid II in 1899.jpg: model 0.06, one person 0.96, classified as a photograph on Commons; World heads of state in 1889.jpg: model 0.96, one person 0.00, in Category:1889 black and white portrait photographs; Çarşaf fermanı.jpg: model 0.65, one person 0.00, captured 1902, during their lifetime; Abdul Hameed II Poetry.png: model 0.13, one person 0.00; Ii-abdulhamidin-hatti.jpg: model 0.70, one person 0.00, captured 1892, during their lifetime; Mahmoud Abu alshamat-Abdül Hamid II-1909-N2.png: model 0.58, one person 0.00, captured 1909, during their lifetime; Mahmoud Abu alshamat-Abdül Hamid II-1909.jpg: model 0.82, one person 0.00, captured 1909, during their lifetime; مديح السلطان عبد الحميد في ديوان الباروني.jpg: model 0.87, one person 0.00, captured 1908, during their lifetime; مجلة الجامعة العثمانية 1316هـ - 1899م.jpg: model 0.92, one person 0.00, captured 1899, during their lifetime; دعاء السلطان الأعظم.jpg: model 0.64, one person 0.00, captured 1882, during their lifetime"
+    "photo": "Sultan Abdul Hamid II in 1899.jpg: model 0.06, one person 0.96, classified as a photograph on Commons; World heads of state in 1889.jpg: model 0.96, one person 0.00, in Category:1889 black and white portrait photographs; Çarşaf fermanı.jpg: model 0.65, one person 0.00, captured 1902, during their lifetime; Abdul Hameed II Poetry.png: model 0.13, one person 0.00; Ii-abdulhamidin-hatti.jpg: model 0.70, one person 0.00, captured 1892, during their lifetime; Mahmoud Abu alshamat-Abdül Hamid II-1909-N2.png: model 0.58, one person 0.00, captured 1909, during their lifetime; Mahmoud Abu alshamat-Abdül Hamid II-1909.jpg: model 0.82, one person 0.00, captured 1909, during their lifetime; مديح السلطان عبد الحميد في ديوان الباروني.jpg: model 0.87, one person 0.00, captured 1908, during their lifetime; مجلة الجامعة العثمانية 1316هـ - 1899م.jpg: model 0.92, one person 0.00, captured 1899, during their lifetime; دعاء السلطان الأعظم.jpg: model 0.64, one person 0.00, captured 1882, during their lifetime",
+    "birth": {
+      "location": [
+        28.984,
+        41.013
+      ],
+      "year": 1842
+    }
   }
 }

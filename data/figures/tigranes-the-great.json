@@ -19,6 +19,7 @@
   ],
   "contribution": "A member of the Artaxiad dynasty, he ruled from 95 BC to 55 BC.",
   "setting": "",
+  "modern_country": "Armenia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kingdom of Armenia"
+      ],
+      "born_in": [
+        "Kingdom of Armenia"
       ]
     },
     "lead": "Tigranes II, more commonly known as Tigranes the Great (Tigran Mets in Armenian; 140–55 BC), was a king of Armenia. A member of the Artaxiad dynasty, he ruled from 95 BC to 55 BC. Under his reign, the Armenian kingdom expanded beyond its traditional boundaries and reached its peak, allowing Tigranes to claim the title Great King or King of Kings. His empire for a short time was the most powerful state to the east of the Roman Republic.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        44.55055556,
+        39.95388889
+      ],
+      "year": -140
+    }
   }
 }

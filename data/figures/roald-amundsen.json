@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He was a key figure of the period known as the Heroic Age of Antarctic Exploration.",
   "setting": "",
+  "modern_country": "Norway",
   "image": "images/roald-amundsen.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Photograph",
@@ -26,10 +27,20 @@
     "civilization_votes": {
       "birthplace": [
         "United Kingdoms of Sweden and Norway"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
     "lead": "Roald Engelbregt Gravning Amundsen (UK: , US: ; Norwegian: [ˈrùːɑɫ ˈɑ̂mʉnsən] ; 16 July 1872 – c. 18 June 1928) was a Norwegian explorer of polar regions. He was a key figure of the period known as the Heroic Age of Antarctic Exploration.",
     "image": "",
-    "photo": "model 0.96, one person 1.00, captured 1920, during their lifetime"
+    "photo": "model 0.96, one person 1.00, captured 1920, during their lifetime",
+    "birth": {
+      "location": [
+        11.0433,
+        59.2278
+      ],
+      "year": 1872
+    }
   }
 }

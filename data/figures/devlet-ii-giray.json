@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/devlet-ii-giray.jpg",
   "image_credit": "William Hogarth (1697-1764) · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Crimean Khanate"
+      ],
+      "born_in": [
+        "Crimean Khanate"
       ]
     },
     "lead": "Devlet II Giray (1648–1718) was Khan of the Crimean Khanate from 1699 to 1702 and from 1709 to 1713. He was the eldest son of Selim I Giray.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        34.4,
+        45.3
+      ],
+      "year": 1648
+    }
   }
 }

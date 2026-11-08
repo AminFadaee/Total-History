@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The sixth ruler of the Kingdom of Kongo from the Lukeni kanda dynasty and ruled in the first half of the 16th century.",
   "setting": "",
+  "modern_country": "Angola",
   "image": "images/afonso-i-of-kongo.jpg",
   "image_credit": "Affricoll9 · CC BY-SA 4.0",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kingdom of Kongo"
+      ],
+      "born_in": [
+        "Kingdom of Kongo"
       ]
     },
     "lead": "Mvemba a Nzinga, Nzinga Mbemba, Funsu Nzinga Mvemba or Dom Afonso (c. 1456 – 1542 or 1543), also known as King Afonso I, was the sixth ruler of the Kingdom of Kongo from the Lukeni kanda dynasty and ruled in the first half of the 16th century. He reigned over the Kongo Empire from 1509 to late 1542 or 1543.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        14.24805556,
+        -6.26777778
+      ],
+      "year": 1456
+    }
   }
 }

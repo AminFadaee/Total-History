@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The Duke of Savoy, King of Sardinia and ruler of the Savoyard states from 4 June 1802 until his reign ended in 1821 upon abdication due to a liberal revolution.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/victor-emmanuel-i.jpg",
   "image_credit": "Luigi Bernero · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of Sardinia"
+      ],
+      "born_in": [
+        "Kingdom of Sardinia"
       ]
     },
     "lead": "Victor Emmanuel I (Italian: Vittorio Emanuele; 24 July 1759 – 10 January 1824) was the Duke of Savoy, King of Sardinia and ruler of the Savoyard states from 4 June 1802 until his reign ended in 1821 upon abdication due to a liberal revolution. Shortly thereafter, his brother Charles Felix ascended the throne as the new king of Sardinia. Victor Emmanuel was the son of King Victor Amadeus III of Sardinia and Maria Antonia Ferdinanda of Spain. In 1789, he married Maria Theresa of Austria-Este, with whom he had seven children, including the future Empress of Austria. He was the King of Sardinia during the Napoleonic Wars, where he regained Piedmont after Napoleon's defeat in 1814.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        7.686,
+        45.0727
+      ],
+      "year": 1759
+    }
   }
 }

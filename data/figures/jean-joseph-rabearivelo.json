@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Malagasy poet who is widely considered to be Africa's first modern poet and the greatest literary artist of Madagascar.",
   "setting": "",
+  "modern_country": "Madagascar",
   "image": "images/jean-joseph-rabearivelo.jpg",
   "image_credit": "unknown · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "French colonial empire"
+      ],
+      "born_in": [
+        "French colonial empire"
       ]
     },
     "lead": "Jean-Joseph Rabearivelo (born Joseph-Casimir Rabearivelo; 4 March 1901 or 1903 – 22 June 1937) was a Malagasy poet who is widely considered to be Africa's first modern poet and the greatest literary artist of Madagascar. Part of the first Malagasy generation raised under French colonization, Rabearivelo grew up impoverished and failed to complete secondary education. His passion for French literature and traditional Malagasy oral poetry (hainteny) prompted him to read extensively and educate himself on a variety of subjects, including the French language and its poetic and prose traditions. He published his first poems as an adolescent in local literary reviews, soon obtaining employment at a publishing house where he worked as a proofreader and editor of its literary journals. He published numerous poetry anthologies in French and Malagasy as well as literary critiques, an opera, and two novels.",
     "image": "",
-    "photo": "model 0.97, one person 0.97, captured 1920, during their lifetime"
+    "photo": "model 0.97, one person 0.97, captured 1920, during their lifetime",
+    "birth": {
+      "location": [
+        47.525,
+        -18.91
+      ],
+      "year": 1901
+    }
   }
 }

@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "King of Bohemia, Duke of Cracow, and King of Poland.",
   "setting": "",
+  "modern_country": "Czechia",
   "image": "images/wenceslaus-ii-of-bohemia.jpg",
   "image_credit": "Master of the Codex Manesse (Additional Painter I) · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Bohemia"
+      ],
+      "born_in": [
+        "Kingdom of Bohemia"
       ]
     },
     "lead": "Wenceslaus II of Bohemia (Czech: Václav II.; Polish: Wacław II Czeski; 27 September 1271 – 21 June 1305) was King of Bohemia (1278–1305), Duke of Cracow (1291–1305), and King of Poland (1296–1305).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        14.42138889,
+        50.0875
+      ],
+      "year": 1271
+    }
   }
 }

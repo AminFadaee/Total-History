@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The twentieth and last Mughal emperor and an Urdu poet.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/bahadur-shah-zafar.jpg",
   "image_credit": "Ágoston Schoefft · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Bahadur Shah II (Abu Zafar Siraj-ud-din Muhammad; 24 October 1775 – 7 November 1862), also known by his poetic title Bahadur Shah Zafar (Persian: بهادر شاه ظفر; Zafar lit. 'Victory'), was the twentieth and last Mughal emperor and an Urdu poet. He was a titular emperor with his authority limited to the Walled City of Delhi, but was declared the Emperor of India by the forces opposing East India Company forces in parts of the Indian subcontinent during the Indian Rebellion of 1857. Zafar was exiled to Rangoon in British-controlled Burma in December 1857 by the East India Company after rebel defeat in the war, putting an end to the nearly 500-year long Timurid dynasty started by Timur.",
     "image": "",
-    "photo": "Bahadur Shah II.jpg: model 0.06, one person 0.92; Bahadur Shah II of India.jpg: model 0.07, one person 0.99, classified as a photograph on Commons; Bahadur Shah Zafar.jpg: model 0.51, one person 0.89, in Category:1858 portrait photographs; A panorama in 12 folds showing the procession of the Emperor Bahadur Shah to celebrate the feast of the 'Id., 1843.jpg: model 0.20, one person 0.01; Ghulam Murtaza Khan The Delhi Darbar of Akbar II.jpg: model 0.13, one person 0.09; The capture of the king of delhi by Captain Hodson.jpg: model 0.09, one person 0.27, captured 1860, during their lifetime; The Emperor Bahadur Shah II Enthroned.jpg: model 0.16, one person 0.17; One of six figures from the Mughal emperor's ceremonial procession on the occasion of the Id..jpg: model 0.36, one person 0.70; Portrait of Bahadur Shah II as calligrapher. Delhi, ca. 1850, Royal Ontario Museum, Toronto. - копия.jpg: model 0.44, one person 0.86; ResidentAssistantCommandantEscortingBahadurShahZafar.jpg: model 0.04, one person 0.01"
+    "photo": "Bahadur Shah II.jpg: model 0.06, one person 0.92; Bahadur Shah II of India.jpg: model 0.07, one person 0.99, classified as a photograph on Commons; Bahadur Shah Zafar.jpg: model 0.51, one person 0.89, in Category:1858 portrait photographs; A panorama in 12 folds showing the procession of the Emperor Bahadur Shah to celebrate the feast of the 'Id., 1843.jpg: model 0.20, one person 0.01; Ghulam Murtaza Khan The Delhi Darbar of Akbar II.jpg: model 0.13, one person 0.09; The capture of the king of delhi by Captain Hodson.jpg: model 0.09, one person 0.27, captured 1860, during their lifetime; The Emperor Bahadur Shah II Enthroned.jpg: model 0.16, one person 0.17; One of six figures from the Mughal emperor's ceremonial procession on the occasion of the Id..jpg: model 0.36, one person 0.70; Portrait of Bahadur Shah II as calligrapher. Delhi, ca. 1850, Royal Ontario Museum, Toronto. - копия.jpg: model 0.44, one person 0.86; ResidentAssistantCommandantEscortingBahadurShahZafar.jpg: model 0.04, one person 0.01",
+    "birth": {
+      "location": [
+        77.20888889,
+        28.61388889
+      ],
+      "year": 1775
+    }
   }
 }

@@ -3,7 +3,7 @@
   "slug": "henry-viii",
   "name": "Henry VIII",
   "wikipedia": "Henry VIII",
-  "role": "King of England from 1509 to 1547",
+  "role": "King of England and Ireland from 1509 to 1547",
   "life": "1491–1547",
   "lifetime": [
     1491,
@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of England and Ireland from 22 April 1509 until his death in 1547.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/henry-viii.jpg",
   "image_credit": "Hans Holbein the Younger · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
-    "lead": "Henry VIII (28 June 1491 – 28 January 1547) was King of England and Ireland from 22 April 1509 until his death in 1547.",
+    "lead": "Henry VIII (28 June 1491 – 28 January 1547) was King of England and Ireland  from 22 April 1509 until his death in 1547. He is known for his six marriages, his break with the Roman Catholic Church, and his establishment of the Church of England.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.00666667,
+        51.48222222
+      ],
+      "year": 1491
+    }
   }
 }

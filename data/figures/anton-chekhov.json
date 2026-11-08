@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Russian playwright, short story writer, and physician.",
   "setting": "",
+  "modern_country": "",
   "image": "images/anton-chekhov.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Russian Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Anton Pavlovich Chekhov (; Russian: Антон Павлович Чехов; 29 January [O.S. 17 January] 1860 – 15 July [O.S. 2 July] 1904) was a Russian playwright, short story writer, and physician. Widely considered one of the greatest writers of all time, his career as a playwright produced four classics, and his best short stories are held in high esteem by writers and critics. Along with Henrik Ibsen and August Strindberg, Chekhov is often referred to as one of the three seminal figures in the birth of early modernism in the theatre. Chekhov was a physician by profession. \"Medicine is my lawful wife,\" he once said, \"and literature is my mistress.\"",
     "image": "",
-    "photo": "model 0.98, one person 0.94"
+    "photo": "model 0.98, one person 0.94",
+    "birth": {
+      "location": [
+        38.91666667,
+        47.21666667
+      ],
+      "year": 1860
+    }
   }
 }

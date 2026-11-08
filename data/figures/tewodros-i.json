@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Emperor of Ethiopia from 1413 to 1414, and a member of the Solomonic dynasty.",
   "setting": "",
+  "modern_country": "Ethiopia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Ethiopian Empire"
+      ],
+      "born_in": [
+        "Ethiopian Empire"
       ]
     },
     "lead": "Tewodros I (Ge'ez: ቴዎድሮስ), throne name Walda Anbasa (Ge'ez: ወልደ ዐንበሳ; died 2 July 1414) was Emperor of Ethiopia from 1413 to 1414, and a member of the Solomonic dynasty. He was the son of Dawit I by Queen Seyon Mangasha.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        40,
+        9
+      ],
+      "year": 1380
+    }
   }
 }

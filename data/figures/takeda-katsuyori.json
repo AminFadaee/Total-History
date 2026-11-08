@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese daimyō of the Sengoku period, who was famed as the head of the Takeda clan and the successor to the legendary warlord Takeda Shingen.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/takeda-katsuyori.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "lead": [
         "Warring States Japan"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
     "lead": "Takeda Katsuyori (武田 勝頼; 1546 – 11 March 1582) was a Japanese daimyō (military lord) of the Sengoku period, who was famed as the head of the Takeda clan and the successor to the legendary warlord Takeda Shingen. He was son-in-law of Hojo Ujiyasu, daimyō of Hojo clan.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        138.62861111,
+        35.67861111
+      ],
+      "year": 1546
+    }
   }
 }

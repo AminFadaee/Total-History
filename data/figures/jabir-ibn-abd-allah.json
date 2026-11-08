@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A prominent companion of the Islamic prophet Muhammad and narrator of Hadith.",
   "setting": "",
+  "modern_country": "Saudi Arabia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -30,10 +31,18 @@
       "citizenship": [
         "Rashidun Caliphate",
         "Umayyad Caliphate"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Jābir ibn ʿAbd Allāh ibn ʿAmr ibn Ḥarām al-Anṣārī (Arabic: جابر بن عبدالله بن عمرو بن حرام الأنصاري, died 697 CE/78 AH), Abu Muhammad and Abu Abd al-Rahman also wrote his nickname, was a prominent companion of the Islamic prophet Muhammad and narrator of Hadith. Imami sources say Jabir was one of Ali's special and chosen companions and one of Hassan, Hussein, Zain al-Abidin and Muhammad Baqir's companions. Jabir narrated hadiths from Abu Bakr, Umar, Ammar ibn Yasir and Muadh ibn Jabal, and he narrated hadiths from young companions including Saʽid al-Khudri and Abu Hurayra.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        39.61,
+        24.47
+      ],
+      "year": 607
+    }
   }
 }

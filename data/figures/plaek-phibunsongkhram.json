@@ -3,7 +3,7 @@
   "slug": "plaek-phibunsongkhram",
   "name": "Plaek Phibunsongkhram",
   "wikipedia": "Plaek Phibunsongkhram",
-  "role": "Fascist Prime Minister of Thailand",
+  "role": "Prime Minister of Thailand",
   "life": "1897–1964",
   "lifetime": [
     1897,
@@ -21,6 +21,7 @@
   ],
   "contribution": "A Thai military officer and politician who served as the third prime minister of Thailand from 1938 to 1944 and again from 1948 to 1957.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "images/plaek-phibunsongkhram.jpg",
   "image_credit": "Ministry of Defence of Thailand · Public domain",
   "image_kind": "Photograph",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Rattanakosin Kingdom"
+      ],
+      "born_in": [
+        "Rattanakosin Kingdom"
       ]
     },
     "lead": "Plaek Phibunsongkhram (14 July 1897 – 11 June 1964), commonly known in English language sources as Phibun and as Chomphon Por in Thai, was a Thai military officer and politician who served as the third prime minister of Thailand from 1938 to 1944 and again from 1948 to 1957. He rose to power as a leading member of the Khana Ratsadon, becoming prime minister in 1938 and later consolidating his influence as a military dictator. His regime allied with the Empire of Japan during World War II, and his administration was marked by authoritarian policies and the promotion of Thai nationalism. He was closely involved in both domestic reforms and foreign policy during the war and played a central role in shaping modern Thai state ideology. Phibun's ideology has been described as fascist.",
     "image": "",
-    "photo": "model 0.89, one person 0.98, captured 1940, during their lifetime"
+    "photo": "model 0.89, one person 0.98, captured 1940, during their lifetime",
+    "birth": {
+      "location": [
+        100.51444444,
+        13.8625
+      ],
+      "year": 1897
+    }
   }
 }

@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An Italian and American librettist, poet and Roman Catholic priest.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/lorenzo-da-ponte.jpg",
   "image_credit": "Michele Pekenino (engraver, 19th century) after Nathaniel Rogers (American, 1788-1844) · Public domain",
   "image_kind": "Portrait from life",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Republic of Venice"
+      ],
+      "born_in": [
+        "Republic of Venice"
       ]
     },
     "lead": "Lorenzo Da Ponte (né Emanuele Conegliano; 10 March 1749 – 17 August 1838) was an Italian and American librettist, poet and Roman Catholic priest. He wrote the libretti for 28 operas by 11 composers, including three of Mozart's most celebrated operas: The Marriage of Figaro (1786), Don Giovanni (1787), and Così fan tutte (1790).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.3,
+        45.98333333
+      ],
+      "year": 1749
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese writer active in the Taishō period in Japan.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/ryunosuke-akutagawa.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Empire of Japan"
+      ],
+      "born_in": [
+        "Empire of Japan"
       ]
     },
     "lead": "Ryūnosuke Akutagawa (芥川 龍之介, Akutagawa Ryūnosuke; Japanese pronunciation: [ɾʲɯː.no.sɯ̥.ke], 1 March 1892 – 24 July 1927), art name Chōkōdō Shujin (澄江堂主人), was a Japanese writer active in the Taishō period in Japan. He is regarded as the \"father of the Japanese short story\", and Japan's premier literary award, the Akutagawa Prize, is named after him. He took his own life at the age of 35 through an overdose of barbital.",
     "image": "",
-    "photo": "model 0.96, one person 0.99, captured 1926, during their lifetime"
+    "photo": "model 0.96, one person 0.99, captured 1926, during their lifetime",
+    "birth": {
+      "location": [
+        139.69222222,
+        35.68972222
+      ],
+      "year": 1892
+    }
   }
 }

@@ -20,6 +20,7 @@
   ],
   "contribution": "An Italian painter active in Rome for a significant portion of his artistic life.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/caravaggio.jpg",
   "image_credit": "Ottavio Leoni · Public domain",
   "image_kind": "Later depiction",
@@ -33,10 +34,20 @@
       ],
       "citizenship": [
         "Duchy of Milan"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Michelangelo Merisi da Caravaggio (also Michele Angelo Merigi or Amerighi da Caravaggio; 29 September 1571 – 18 July 1610), known mononymously as Caravaggio, was an Italian painter active in Rome for a significant portion of his artistic life. He began his apprenticeship in Milan in 1584, and during the final four years of his life, he moved between Naples, Malta, and Sicily. His paintings have been characterized by art critics as combining a realistic observation of the human state, both physical and emotional, with a dramatic use of lighting, which had a formative influence on Baroque painting.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        9.19,
+        45.46694444
+      ],
+      "year": 1571
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese samurai and daimyō of the late Sengoku and Azuchi–Momoyama periods, regarded as the second \"Great Unifier\" of Japan.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/toyotomi-hideyoshi.jpg",
   "image_credit": "Kanō Mitsunobu · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Warring States Japan"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
-    "lead": "Toyotomi Hideyoshi (豊臣 秀吉; Japanese pronunciation: [to.jo.to.mʲi (|) çi.de(ꜜ).jo.ɕi], March 17, 1537 – September 18, 1598), otherwise known as Kinoshita Tōkichirō (木下 藤吉郎) and Hashiba Hideyoshi (羽柴 秀吉), was a Japanese samurai and daimyō (feudal lord) of the late Sengoku and Azuchi–Momoyama periods, regarded as the second \"Great Unifier\" of Japan. He rose to the rank and title of kampaku (関白, Imperial Regent) and daijō-daijin (太政大臣, Chancellor of the Realm), the highest offices at the imperial court. He was the first commoner to become kampaku. He then passed the position and title of kampaku to his nephew, Toyotomi Hidetsugu. He remained in power as Taikō (太閤), the title of a retired kampaku, until his death.",
+    "lead": "Toyotomi Hideyoshi (豊臣 秀吉; Japanese pronunciation: [tò̞.jó̞.tó̞.mʲí | çì.dé̞.jò̞.ɕì, -mʲí çí-, -jó̞.ɕí]; March 17, 1537 – September 18, 1598), otherwise known as Kinoshita Tōkichirō (木下 藤吉郎) and Hashiba Hideyoshi (羽柴 秀吉), was a Japanese samurai and daimyō (feudal lord) of the late Sengoku and Azuchi–Momoyama periods, regarded as the second \"Great Unifier\" of Japan. He rose to the rank and title of kampaku (関白, Imperial Regent) and daijō-daijin (太政大臣, Chancellor of the Realm), the highest offices at the imperial court. He was the first commoner to become kampaku. He then passed the position and title of kampaku to his nephew, Toyotomi Hidetsugu. He remained in power as Taikō (太閤), the title of a retired kampaku, until his death.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        136.87305556,
+        35.16861111
+      ],
+      "year": 1536
+    }
   }
 }

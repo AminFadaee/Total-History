@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Turkish poet, playwright, novelist, screenwriter, director, and memoirist.",
   "setting": "",
+  "modern_country": "Greece",
   "image": "images/nazm-hikmet.jpg",
   "image_credit": "Hans-Joachim Koch · CC BY-SA 4.0",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Mehmed Nâzım Ran (17 January 1902 – 3 June 1963), commonly known as Nâzım Hikmet (Turkish: [naːˈzɯm hicˈmet] ), was a Turkish poet, playwright, novelist, screenwriter, director, and memoirist. He was acclaimed for the \"lyrical flow of his statements\". Described as a \"romantic communist\" and a \"romantic revolutionary\", he was repeatedly arrested for his political beliefs and spent much of his adult life in prison or in exile. His poetry has been translated into more than 50 languages.",
     "image": "",
-    "photo": "model 0.97, one person 1.00, in Category:Photographs by Hans-Joachim Koch"
+    "photo": "model 0.97, one person 1.00, in Category:Photographs by Hans-Joachim Koch",
+    "birth": {
+      "location": [
+        22.93472222,
+        40.64027778
+      ],
+      "year": 1902
+    }
   }
 }

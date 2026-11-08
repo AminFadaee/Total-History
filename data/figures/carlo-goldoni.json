@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian playwright and librettist from the Republic of Venice.",
   "setting": "",
+  "modern_country": "",
   "image": "images/carlo-goldoni.jpg",
   "image_credit": "Didier Descouens · CC BY-SA 4.0",
   "image_kind": "Depiction",
@@ -33,10 +34,18 @@
       "citizenship": [
         "Republic of Venice",
         "Kingdom of France"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Carlo Osvaldo Goldoni (, also US: ; Italian: [ˈkarlo oˈzvaldo ɡolˈdoːni]; 25 February 1707 – 6 February 1793) was an Italian playwright and librettist from the Republic of Venice. His works include some of Italy's most famous and best-loved plays. Audiences have admired the plays of Goldoni for their ingenious mix of wit and honesty. His plays offered his contemporaries images of themselves, often dramatizing the lives, values, and conflicts of the emerging middle classes. Though he wrote in French and Italian, his plays make rich use of the Venetian language, regional vernacular, and colloquialisms. Goldoni also wrote under the pen name and title Polisseno Fegeio, Pastor Arcade, which he claimed in his memoirs the \"Arcadians of Rome\" bestowed on him.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.33583333,
+        45.4375
+      ],
+      "year": 1707
+    }
   }
 }

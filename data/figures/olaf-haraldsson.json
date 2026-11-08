@@ -19,6 +19,7 @@
   ],
   "contribution": "Son of Harald Grenske, a petty king in Vestfold, Norway, he was posthumously given the title Rex Perpetuus Norvegiae and canonized at Nidaros by Bishop Grimketel, one year after his death in the Battle of Stiklestad on 29 July 1030.",
   "setting": "",
+  "modern_country": "Norway",
   "image": "images/olaf-haraldsson.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -30,8 +31,8 @@
         "Old Kingdom of Norway"
       ],
       "death": [
-        "North Sea Empire",
-        "Old Kingdom of Norway"
+        "Old Kingdom of Norway",
+        "North Sea Empire"
       ],
       "lead": [
         "Viking settlements"
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Old Kingdom of Norway"
+      ],
+      "born_in": [
+        "Old Kingdom of Norway"
       ]
     },
     "lead": "Olaf Haraldsson (c. 995 – 29 July 1030), also called Saint Olaf, Olaf the Holy, Olaf II, and Olaf the Stout or \"Large\", was King of Norway from 1015 to 1028. Son of Harald Grenske, a petty king in Vestfold, Norway, he was posthumously given the title Rex Perpetuus Norvegiae (English: Eternal/Perpetual King of Norway) and canonized at Nidaros (Trondheim) by Bishop Grimketel, one year after his death in the Battle of Stiklestad on 29 July 1030. His remains were enshrined in Nidaros Cathedral, built over his burial site. His sainthood encouraged the widespread adoption of Christianity by Scandinavia's Vikings/Norsemen.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        10.0488,
+        60.2917
+      ],
+      "year": 993
+    }
   }
 }

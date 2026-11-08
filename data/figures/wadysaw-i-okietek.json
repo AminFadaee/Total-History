@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Poland from 1320 to 1333, and duke of several of the provinces and principalities in the preceding years.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/wadysaw-i-okietek.jpg",
   "image_credit": "Jan Matejko · Public domain",
   "image_kind": "Later depiction",
@@ -30,10 +31,18 @@
       ],
       "death": [
         "Kingdom of Poland"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Władysław I Łokietek, in English known as the \"Elbow-high\" or Ladislaus the Short (c. 1260/1261 – 2 March 1333), was King of Poland from 1320 to 1333, and duke of several of the provinces and principalities in the preceding years. He was a member of the royal Piast dynasty, the son of Duke Casimir I of Kuyavia, and great-grandson of High-Duke Casimir II the Just.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.55,
+        52.7
+      ],
+      "year": 1260
+    }
   }
 }

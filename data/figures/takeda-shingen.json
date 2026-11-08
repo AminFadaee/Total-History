@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese samurai and daimyō of the Sengoku period.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/takeda-shingen.jpg",
   "image_credit": "Unknown · Public domain",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Warring States Japan"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
     "lead": "Takeda Shingen (武田 信玄; December 1, 1521 – May 13, 1573) was a Japanese samurai and daimyō of the Sengoku period. Known as the \"Tiger of Kai\", he was one of the most powerful daimyō of the late Sengoku period and was credited with exceptional military prestige. Despite being based in Kai Province, a poor area with little arable land and no access to the sea, he became one of Japan's leading daimyō. His skills are highly esteemed and on par with Mōri Motonari.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        138.56822222,
+        35.66213889
+      ],
+      "year": 1521
+    }
   }
 }

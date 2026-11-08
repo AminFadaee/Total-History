@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Denmark from 1154 until his death in 1182.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Denmark"
+      ],
+      "born_in": [
+        "Kingdom of Denmark"
       ]
     },
     "lead": "Valdemar I Knudsen (14 January 1131 – 12 May 1182), also known as Valdemar the Great (Danish: Valdemar den Store), was King of Denmark from 1154 until his death in 1182. The reign of King Valdemar I saw the rise of Denmark, which reached its medieval zenith under his son King Valdemar II.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        9.56527778,
+        54.51861111
+      ],
+      "year": 1131
+    }
   }
 }

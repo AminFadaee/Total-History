@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Chinese astronomer, inventor, mathematician, politician, and writer during the Liu Song and Southern Qi dynasties.",
   "setting": "",
+  "modern_country": "China",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Liu Song Dynasty"
+      ],
+      "born_in": [
+        "Liu Song Dynasty"
       ]
     },
-    "lead": "Zu Chongzhi (Chinese: 祖沖之; 491–780), courtesy name Wenyuan (Chinese: 文遠), was a Chinese astronomer, inventor, mathematician, politician, and writer during the Liu Song and Southern Qi dynasties. He was most notable for calculating pi as between 3.1415926 and 3.1415927, a record in precision which would not be surpassed for nearly 900 years.",
+    "lead": "Zu Chongzhi (Chinese: 祖沖之; 429–500), courtesy name Wenyuan (Chinese: 文遠), was a Chinese astronomer, inventor, mathematician, politician, and writer during the Liu Song and Southern Qi dynasties. He was most notable for calculating pi as between 3.1415926 and 3.1415927, a record in precision which would not be surpassed for nearly 900 years.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        118.77888889,
+        32.06083333
+      ],
+      "year": 429
+    }
   }
 }

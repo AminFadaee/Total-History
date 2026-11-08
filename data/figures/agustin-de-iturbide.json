@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Mexican army officer and politician who served as the first Emperor of Mexico from 1822 until his abdication in 1823.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/agustin-de-iturbide.jpg",
   "image_credit": "Primitivo Miranda · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Agustín Cosme Damián de Iturbide y Arámburu (Spanish pronunciation: [aɣusˈtin de ituɾˈbiðe] ; 27 September 1783 – 19 July 1824), commonly known as Agustín de Iturbide and later by his regnal name Agustín I, was a Mexican army officer and politician who served as the first Emperor of Mexico from 1822 until his abdication in 1823.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -101.18944444,
+        19.76833333
+      ],
+      "year": 1783
+    }
   }
 }

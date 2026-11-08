@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Visigothic King of Hispania, from 642 until his death in 653.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/chindasuinth.jpg",
   "image_credit": "Upload by Basilio · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Visigothic Kingdom"
+      ],
+      "born_in": [
+        "Visigothic Kingdom"
       ]
     },
     "lead": "Chindasuinth (also spelled Chindaswinth, Chindaswind, Chindasuinto, Chindasvindo, or Khindaswinth; Latin: Chintasvintus, Cindasvintus; c. 563 – 30 September 653) was Visigothic King of Hispania, from 642 until his death in 653. He succeeded Tulga, from whom he took the throne in a coup. He was elected by the nobles and anointed by the bishops on April 30, 642.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.0,
+        40.5
+      ],
+      "year": 563
+    }
   }
 }

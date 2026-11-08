@@ -19,6 +19,7 @@
   ],
   "contribution": "The sultan of the Ottoman Empire from 1595 until his death in 1603.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/mehmed-iii.jpg",
   "image_credit": "1598 · Public domain",
   "image_kind": "Portrait from life",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Mehmed III (Ottoman Turkish: محمد ثالث, Meḥmed-i sālis; Turkish: III. Mehmed; 26 May 1566 – 22 December 1603) was the sultan of the Ottoman Empire from 1595 until his death in 1603.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.42916667,
+        38.61444444
+      ],
+      "year": 1566
+    }
   }
 }

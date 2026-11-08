@@ -20,8 +20,9 @@
   "related": [
     "Spanish Empire"
   ],
-  "contribution": "The last monarch from the House of Habsburg, which had ruled Spain since 1516, his death without children resulted in the 1701 to 1714 War of the Spanish Succession.",
+  "contribution": "The last member of the House of Habsburg to rule Spain, his death without children resulted in the 1701 to 1714 War of the Spanish Succession.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-ii-of-spain.jpg",
   "image_credit": "Juan Carreño de Miranda · Public domain",
   "image_kind": "Depiction",
@@ -46,10 +47,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
-    "lead": "Charles II (6 November 1661 – 1 November 1700) was King of Spain from 1665 to 1700. The last monarch from the House of Habsburg, which had ruled Spain since 1516, his death without children resulted in the 1701 to 1714 War of the Spanish Succession.",
+    "lead": "Charles II (6 November 1661 – 1 November 1700) was King of Spain from 1665 to 1700. The last member of the House of Habsburg to rule Spain, his death without children resulted in the 1701 to 1714 War of the Spanish Succession.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -3.71416667,
+        40.41805556
+      ],
+      "year": 1661
+    }
   }
 }

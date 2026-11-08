@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and whose legacy would later inspire movements for civil rights and freedom across the world.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/mahatma-gandhi.jpg",
   "image_credit": "Elliott & Fry · Public domain",
   "image_kind": "Photograph",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "British Raj"
+      ],
+      "born_in": [
+        "British Raj"
       ]
     },
     "lead": "Mohandas Karamchand Gandhi (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and whose legacy would later inspire movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: \"great-souled\", \"venerable\"), first applied to him in 1914 in South Africa, is now used throughout the world.",
     "image": "",
-    "photo": "model 0.85, one person 0.97, captured 1931, during their lifetime"
+    "photo": "model 0.85, one person 0.97, captured 1931, during their lifetime",
+    "birth": {
+      "location": [
+        69.62930556,
+        21.64166667
+      ],
+      "year": 1869
+    }
   }
 }

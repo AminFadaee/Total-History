@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A pioneering Egyptian feminist leader, suffragette, nationalist, and founder of the Egyptian Feminist Union.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/huda-sha-arawi.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Photograph",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "Khedivate of Egypt"
+      ],
+      "born_in": [
+        "Khedivate of Egypt"
       ]
     },
     "lead": "Huda Sha'arawi or Hoda Sha'rawi (Arabic: هدى شعراوي, ALA-LC: Hudá Sha‘rāwī; 23 June 1879 – 12 December 1947) was a pioneering Egyptian feminist leader, suffragette, nationalist, and founder of the Egyptian Feminist Union.",
     "image": "",
-    "photo": "model 0.99, one person 0.81, captured 1900, during their lifetime"
+    "photo": "model 0.99, one person 0.81, captured 1900, during their lifetime",
+    "birth": {
+      "location": [
+        30.74444444,
+        28.11944444
+      ],
+      "year": 1879
+    }
   }
 }

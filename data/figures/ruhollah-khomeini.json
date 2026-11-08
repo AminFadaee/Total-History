@@ -21,6 +21,7 @@
   ],
   "contribution": "An Iranian politician and Shia cleric who served as the first supreme leader of Iran from 1979 until his death in 1989.",
   "setting": "Islamic Republic of Iran",
+  "modern_country": "Iran",
   "image": "images/ruhollah-khomeini.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -47,10 +48,20 @@
       ],
       "birthplace": [
         "Qajar Dynasty"
+      ],
+      "born_in": [
+        "Qajar Dynasty"
       ]
     },
     "lead": "Ruhollah Mostafavi Khomeini (17 May 1900 –  3 June 1989) was an Iranian politician and Shia cleric who served as the first supreme leader of Iran from 1979 until his death in 1989. He was the leader of the Iranian Revolution, which overthrew Mohammad Reza Pahlavi, ended the Pahlavi era, and transformed the country into an Islamic republic. As supreme leader, he implemented policies that came to be known as Khomeinism.",
     "image": "",
-    "photo": "model 0.80, one person 0.95, captured 1980, during their lifetime"
+    "photo": "model 0.80, one person 0.95, captured 1980, during their lifetime",
+    "birth": {
+      "location": [
+        50.07888889,
+        33.64222222
+      ],
+      "year": 1902
+    }
   }
 }

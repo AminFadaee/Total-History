@@ -1,0 +1,46 @@
+{
+  "id": "Q180903",
+  "slug": "natsume-soseki",
+  "name": "Natsume Sōseki",
+  "wikipedia": "Natsume Sōseki",
+  "role": "Japanese novelist",
+  "life": "1867–1916",
+  "lifetime": [
+    1867,
+    1916
+  ],
+  "occupation": "Writer",
+  "birth_country": "Japan",
+  "civilizations": [
+    "Tokugawa Shogunate"
+  ],
+  "related": [],
+  "contribution": "A Japanese novelist, poet, and scholar.",
+  "setting": "",
+  "modern_country": "Japan",
+  "image": "images/natsume-soseki.jpg",
+  "image_credit": "Ogawa Kazumasa · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/natsume-soseki-photo.jpg",
+  "photo_credit": "Ogawa Kazumasa · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Empire of Japan"
+      ],
+      "born_in": [
+        "Tokugawa Shogunate"
+      ]
+    },
+    "lead": "Natsume Sōseki (; Japanese: 夏目 漱石; born Natsume Kinnosuke (夏目 金之助); 9 February 1867 – 9 December 1916) was a Japanese novelist, poet, and scholar. He is considered one of the greatest writers in modern Japanese history and is often called the first modern novelist of Japan. Sōseki's fiction explored themes of individualism, loneliness, and the conflict between traditional Japanese values and the rapid Westernization of the Meiji era. His major works include I Am a Cat (1905), Botchan (1906), Sanshirō (1908), Kokoro (1914), and his unfinished final novel Light and Dark (1916).",
+    "image": "",
+    "photo": "model 0.88, one person 0.98, in Category:Photographs by Ogawa Kazumasa",
+    "birth": {
+      "location": [
+        139.73613333,
+        35.70183056
+      ],
+      "year": 1867
+    }
+  }
+}

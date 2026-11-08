@@ -29,6 +29,7 @@
   ],
   "contribution": "Holy Roman Emperor and Archduke of Austria from 1519 to 1556, King of Spain from 1516 to 1556, King of Sicily and Naples from 1516 to 1554, and also Lord of the Netherlands and titular Duke of Burgundy from 1506 to 1555.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-v-holy-roman-emperor.jpg",
   "image_credit": "Attributed to Titian · Public domain",
   "image_kind": "Portrait from life",
@@ -63,10 +64,20 @@
       ],
       "birthplace": [
         "Habsburg Monarchy"
+      ],
+      "born_in": [
+        "Habsburg Monarchy"
       ]
     },
     "lead": "Charles V (24 February 1500 – 21 September 1558) was Holy Roman Emperor and Archduke of Austria from 1519 to 1556, King of Spain (as Charles I) from 1516 to 1556, King of Sicily and Naples from 1516 to 1554, and also Lord of the Netherlands and titular Duke of Burgundy (as Charles II) from 1506 to 1555. He was heir to and then head of the rising House of Habsburg. His dominions in Europe included the Holy Roman Empire, extending from Germany to northern Italy with rule over the Austrian hereditary lands and Burgundian Low Countries, and Spain with its possessions of the southern Italian kingdoms of Sicily, Naples, and Sardinia. In the Americas, he oversaw the continuation of Spanish colonisation and a short-lived German colonisation. The personal union of the European and American territories he ruled was the first collection of realms labelled \"the empire on which the sun never sets\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        3.71574,
+        51.0592
+      ],
+      "year": 1500
+    }
   }
 }

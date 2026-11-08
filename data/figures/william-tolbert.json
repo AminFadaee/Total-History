@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Liberian politician who served as the 20th president of Liberia from 1971 until his assassination in 1980.",
   "setting": "",
+  "modern_country": "Liberia",
   "image": "images/william-tolbert.jpg",
   "image_credit": "Kightlinger, Jack E., Photographer · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Republic of Liberia"
+      ],
+      "born_in": [
+        "Republic of Liberia"
       ]
     },
     "lead": "William Richard Tolbert Jr. (13 May 1913 – 12 April 1980) was a Liberian politician who served as the 20th president of Liberia from 1971 until his assassination in 1980.",
     "image": "",
-    "photo": "model 0.77, one person 0.98, captured 1978, during their lifetime"
+    "photo": "model 0.77, one person 0.98, captured 1978, during their lifetime",
+    "birth": {
+      "location": [
+        -10.60972222,
+        6.44555556
+      ],
+      "year": 1913
+    }
   }
 }

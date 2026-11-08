@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The fourth Fatimid caliph and the 14th Ismaili imam, reigning from 953 to 975.",
   "setting": "",
+  "modern_country": "",
   "image": "images/al-mu-izz-li-din-allah.jpg",
   "image_credit": "Walters Museum · Public domain",
   "image_kind": "Later depiction",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Fatimid Caliphate"
+      ],
+      "born_in": [
+        "Fatimid Caliphate"
       ]
     },
     "lead": "Abu Tamim Ma'ad al-Mu'izz li-Din Allah (Arabic: أبو تميم معد المعزّ لدين الله, romanized: Abū Tamīm Maʿad al-Muʿizz li-Dīn Allāh, lit. 'Glorifier of the Religion of God'; 26 September 932 – 19 December 975) was the fourth Fatimid caliph and the 14th Ismaili imam, reigning from 953 to 975. It was during his caliphate that the center of power of the Fatimid dynasty was moved from Ifriqiya (modern Tunisia) to Egypt. The Fatimids founded the city of Cairo (al-Qāhirah, \"the Victorious\") in 969 as the new capital of the Fatimid Caliphate in Egypt during his reign. The Al-Mu'izz Street in Cairo is named after him, it is considered to be the most important historical street in Cairo and it includes monumental buildings from the Fatimid era as well as the later Ayyubid, Memluk and Ottoman eras.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.06666667,
+        35.5
+      ],
+      "year": 931
+    }
   }
 }

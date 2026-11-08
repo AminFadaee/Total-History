@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Brazilian politician who served as the 24th president of Brazil from 1961 until a military coup d'état deposed him in 1964.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/joao-goulart.jpg",
   "image_credit": "Brazilian Government. Donated to the United States Government. · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Brazilian Republic"
+      ],
+      "born_in": [
+        "Brazilian Republic"
       ]
     },
     "lead": "João Belchior Marques Goulart (1 March 1919 – 6 December 1976), commonly known as Jango, was a Brazilian politician who served as the 24th president of Brazil from 1961 until a military coup d'état deposed him in 1964. He was considered the last left-wing president of Brazil until Luiz Inácio Lula da Silva took office in 2003.",
     "image": "",
-    "photo": "model 0.91, one person 0.99, captured 1961, during their lifetime"
+    "photo": "model 0.91, one person 0.99, captured 1961, during their lifetime",
+    "birth": {
+      "location": [
+        -56.00383889,
+        -28.66023333
+      ],
+      "year": 1918
+    }
   }
 }

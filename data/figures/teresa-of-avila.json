@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Carmelite nun, prominent Spanish mystic and spiritual reformer.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/teresa-of-avila.jpg",
   "image_credit": "Eduardo Balaca · Public domain",
   "image_kind": "Later depiction",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "Crown of Castile"
+      ],
+      "born_in": [
+        "Crown of Castile"
       ]
     },
     "lead": "Teresa of Ávila (born Teresa Sánchez de Cepeda Dávila y Ahumada; 28 March 1515 – 4 or 15 October 1582), religious name Teresa of Jesus, was a Carmelite nun, prominent Spanish mystic and spiritual reformer.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.68333333,
+        40.65
+      ],
+      "year": 1515
+    }
   }
 }

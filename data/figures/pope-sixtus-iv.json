@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Head of the Catholic Church and leader of the Papal States from 9 August 1471 until his death in 1484.",
   "setting": "",
+  "modern_country": "",
   "image": "images/pope-sixtus-iv.jpg",
   "image_credit": "Pedro Berruguete · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,18 @@
       ],
       "citizenship": [
         "Papal States"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Pope Sixtus IV (or Xystus IV, Italian: Sisto IV; born Francesco da Savona later della Rovere; (21 July 1414 – 12 August 1484) was head of the Catholic Church and leader of the Papal States from 9 August 1471 until his death in 1484. Sixtus IV's accomplishments as pope included the construction of the Sistine Chapel and the creation of the Vatican Library. A patron of the arts, he brought together the group of artists who ushered the early Renaissance into Rome with the first masterpieces of the city's new artistic age. Sixtus created the Spanish Inquisition through the Papal bull Exigit Sinceræ Devotionis (1478), and annulled the Pontifical decrees of the Council of Constance. He was noted for his nepotism and was personally involved in the Pazzi conspiracy, a plot to remove the Medici family from power in Florence. He died in August 1484 at the age of 70.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        8.93277778,
+        44.41111111
+      ],
+      "year": 1414
+    }
   }
 }

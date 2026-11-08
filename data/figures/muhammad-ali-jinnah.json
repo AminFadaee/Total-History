@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A barrister, statesman, and the founder of Pakistan.",
   "setting": "",
+  "modern_country": "Pakistan",
   "image": "images/muhammad-ali-jinnah.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "British Raj"
+      ],
+      "born_in": [
+        "British Raj"
       ]
     },
     "lead": "Muhammad Ali Jinnah (born Mahomedali Jinnahbhai; 25 December 1876 – 11 September 1948) was a barrister, statesman, and the founder of Pakistan. He served as the leader of the All-India Muslim League from 1913 until the independence of Pakistan on 14 August 1947, and then as the first Governor-General of Pakistan until his death a year later in 1948.",
     "image": "",
-    "photo": "model 0.78, one person 0.97, captured 1945, during their lifetime"
+    "photo": "model 0.78, one person 0.97, captured 1945, during their lifetime",
+    "birth": {
+      "location": [
+        67.01,
+        24.86
+      ],
+      "year": 1876
+    }
   }
 }

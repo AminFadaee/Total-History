@@ -16,8 +16,9 @@
     "United Kingdom of Great Britain and Ireland"
   ],
   "related": [],
-  "contribution": "An English economist whose writings are considered the basis for the school of thought known as Keynesian economics, as well as its various offshoots.",
+  "contribution": "His writings formed the basis for the school of thought known as Keynesian economics, as well as its various offshoots.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/john-maynard-keynes.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
-    "lead": "John Maynard Keynes, 1st Baron Keynes ( KAYNZ; 5 June 1883 – 21 April 1946), was an English economist whose writings are considered the basis for the school of thought known as Keynesian economics, as well as its various offshoots. Originally trained in mathematics, he built on and refined earlier work on the causes of business cycles. His ideas, further developed after his death as New Keynesianism, are seen as foundational to mainstream macroeconomics. He has been referred to as the \"father of macroeconomics\" and is considered one of the most influential economists of the 20th century.",
+    "lead": "John Maynard Keynes, 1st Baron Keynes ( KAYNZ; 5 June 1883 – 21 April 1946), was an English economist. His writings formed the basis for the school of thought known as Keynesian economics, as well as its various offshoots. Originally trained in mathematics, he built on and refined earlier work on the causes of business cycles. His ideas, further developed after his death as New Keynesianism, are seen as foundational to mainstream macroeconomics. He has been referred to as the \"father of macroeconomics\" and is considered one of the most influential economists of the 20th century.",
     "image": "",
-    "photo": "model 0.96, one person 0.99, captured 1933, during their lifetime"
+    "photo": "model 0.96, one person 0.99, captured 1933, during their lifetime",
+    "birth": {
+      "location": [
+        0.11916667,
+        52.20527778
+      ],
+      "year": 1883
+    }
   }
 }

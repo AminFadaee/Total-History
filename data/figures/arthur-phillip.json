@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Royal Navy officer who served as the first governor of the Colony of New South Wales.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/arthur-phillip.jpg",
   "image_credit": "Francis Wheatley · Public domain",
   "image_kind": "Portrait from life",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Kingdom of Great Britain"
+      ],
+      "born_in": [
+        "Kingdom of Great Britain"
       ]
     },
     "lead": "Arthur Phillip (11 October 1738 – 31 August 1814) was a Royal Navy officer who served as the first governor of the Colony of New South Wales.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.0937,
+        51.5141
+      ],
+      "year": 1738
+    }
   }
 }

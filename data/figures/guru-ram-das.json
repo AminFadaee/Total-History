@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The fourth of the ten Sikh gurus.",
   "setting": "",
+  "modern_country": "Pakistan",
   "image": "images/guru-ram-das.jpg",
   "image_credit": "Family workshop (or atelier) of Nainsukh of Guler · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Guru Ram Das (Gurmukhi: ਗੁਰੂ ਰਾਮ ਦਾਸ, pronunciation: [gʊɾuː ɾaːmᵊ d̯aːsᵊ]; 24 September 1534 – 1 September 1581), sometimes spelled as Guru Ramdas, was the fourth of the ten Sikh gurus. He was born to a family based in Lahore. His birth name was Jetha, and he was orphaned at age seven; he thereafter grew up with his maternal grandmother in a village.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        74.34361111,
+        31.54972222
+      ],
+      "year": 1534
+    }
   }
 }

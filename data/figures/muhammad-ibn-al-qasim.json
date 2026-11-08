@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Arab military commander in service of the Umayyad Caliphate who led the Muslim conquest of Sindh, inaugurating the Umayyad campaigns in India.",
   "setting": "",
+  "modern_country": "Saudi Arabia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Umayyad Caliphate"
+      ],
+      "born_in": [
+        "Umayyad Caliphate"
       ]
     },
     "lead": "Muḥammad ibn al-Qāsim al-Thaqafī (Arabic: مُحَمَّدُ بْنُ الْقَاسِمِ الثَّقَفِيِّ; (695-12-31)31 December 695–(715-07-18)18 July 715) was an Arab military commander in service of the Umayyad Caliphate who led the Muslim conquest of Sindh (and Punjab, part of ancient Sindh), inaugurating the Umayyad campaigns in India. His military exploits led to the establishment of the Islamic province of Sindh, and the takeover of the region from the Sindhi Brahman dynasty and its ruler, Raja Dahir, who was subsequently decapitated with his head sent to al-Hajjaj ibn Yusuf in Basra. With the capture of the then-capital of Aror by Arab forces, Muhammad ibn al-Qasim became the first Muslim to have successfully captured Indian land, which marked the beginning of Muslim rule in South Asia.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        40.40615556,
+        21.27509444
+      ],
+      "year": 695
+    }
   }
 }

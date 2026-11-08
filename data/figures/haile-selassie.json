@@ -19,6 +19,7 @@
   ],
   "contribution": "He rose to power as the Regent Plenipotentiary of Ethiopia under Empress Zewditu between 1916 and 1930.",
   "setting": "",
+  "modern_country": "Ethiopia",
   "image": "images/haile-selassie.jpg",
   "image_credit": "unknown · Public domain",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Ethiopian Empire"
+      ],
+      "born_in": [
+        "Ethiopian Empire"
       ]
     },
     "lead": "Haile Selassie I (born Tafari Makonnen or Lij Tafari; 23 July 1892 – 27 August 1975) was Emperor of Ethiopia from 1930 to 1974. He rose to power as the Regent Plenipotentiary of Ethiopia (Enderase) under Empress Zewditu between 1916 and 1930.",
     "image": "",
-    "photo": "model 0.71, one person 0.61, captured 1970, during their lifetime"
+    "photo": "model 0.71, one person 0.61, captured 1970, during their lifetime",
+    "birth": {
+      "location": [
+        42.23333333,
+        9.48333333
+      ],
+      "year": 1892
+    }
   }
 }

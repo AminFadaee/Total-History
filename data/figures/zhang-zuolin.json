@@ -16,8 +16,9 @@
     "Republic of China"
   ],
   "related": [],
-  "contribution": "A Chinese warlord who ruled Manchuria from 1916 until his assassination in 1928.",
+  "contribution": "A Chinese general, statesman, and warlord who ruled Manchuria from 1916 until his assassination in 1928.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/zhang-zuolin.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Qing Dynasty"
+      ],
+      "born_in": [
+        "Qing Dynasty"
       ]
     },
-    "lead": "Zhang Zuolin (March 19, 1875 – June 4, 1928) was a Chinese warlord who ruled Manchuria from 1916 until his assassination in 1928. He led the Fengtian clique, one of the most powerful factions during the Warlord Era. In 1927, he became the leader of the Beiyang government and was declared Generalissimo of the Republic of China.",
+    "lead": "Zhang Zuolin (March 19, 1875 – June 4, 1928) was a Chinese general, statesman, and warlord who ruled Manchuria from 1916 until his assassination in 1928. He led the Fengtian clique, one of the most powerful factions during the Warlord Era. In 1927, he became the leader of the Beiyang government and was declared Generalissimo of the Republic of China.",
     "image": "",
-    "photo": "model 0.80, one person 0.90, captured 1928, during their lifetime"
+    "photo": "model 0.80, one person 0.90, captured 1928, during their lifetime",
+    "birth": {
+      "location": [
+        122.6852,
+        40.8824
+      ],
+      "year": 1875
+    }
   }
 }

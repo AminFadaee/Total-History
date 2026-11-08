@@ -12,12 +12,14 @@
   "occupation": "Explorer",
   "birth_country": "Spain",
   "civilizations": [
+    "Crown of Castile",
     "Aztec Triple Alliance",
     "Kingdom of Spain"
   ],
   "related": [],
-  "contribution": "A Spanish conquistador, military commander, explorer, captain general, and writer who led an expedition that caused the fall of the Aztec Empire and brought large portions of what is now mainland Mexico under the rule of the King of Castile in the early 16th century.",
+  "contribution": "A Spanish conquistador, military commander, explorer, captain general, and writer, best known for his expedition that led to the Spanish conquest of the Aztec Empire and brought large portions of what is now mainland Mexico under the rule of the King of Castile in the early 16th century.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/hernan-cortes.jpg",
   "image_credit": "Unknown artist · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +39,20 @@
       ],
       "birthplace": [
         "Crown of Castile"
+      ],
+      "born_in": [
+        "Crown of Castile"
       ]
     },
-    "lead": "Hernán Cortés, 1st Marquis of the Valley of Oaxaca (c. 1485 – 2 December 1547) was a Spanish conquistador, military commander, explorer, captain general, and writer who led an expedition that caused the fall of the Aztec Empire and brought large portions of what is now mainland Mexico under the rule of the King of Castile in the early 16th century. Cortés was part of the generation of Spanish explorers and conquistadors who began the first phase of the Spanish colonization of the Americas.",
+    "lead": "Hernán Cortés, 1st Marquis of the Valley of Oaxaca (c. 1485 – 2 December 1547) was a Spanish conquistador, military commander, explorer, captain general, and writer, best known for his expedition that led to the Spanish conquest of the Aztec Empire and brought large portions of what is now mainland Mexico under the rule of the King of Castile in the early 16th century. Cortés had been part of the generation of Spanish explorers and conquistadors who began the first phase of the Spanish colonization of the Americas (the broader European colonization of the Americas).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -5.95777778,
+        38.96305556
+      ],
+      "year": 1485
+    }
   }
 }

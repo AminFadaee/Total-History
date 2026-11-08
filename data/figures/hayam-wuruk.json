@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Javanese Hindu emperor from the Rajasa dynasty and the 4th emperor of the Majapahit Empire.",
   "setting": "",
+  "modern_country": "Indonesia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "lead": [
         "Majapahit"
+      ],
+      "born_in": [
+        "Majapahit"
       ]
     },
     "lead": "Hayam Vuruk (Indonesian: Hayam Wuruk; Sanskrit: हयम् वुरुक्; Javanese: ꦲꦪꦩ꧀ꦮꦸꦫꦸꦏ꧀) (1334–1389), also called Rajasanagara, Pa-ta-na-pa-na-wu, or Bhatara Prabhu after 1350, was a Javanese Hindu emperor from the Rajasa dynasty and the 4th emperor of the Majapahit Empire. Together with his prime minister Gajah Mada, he reigned the empire at the time of its greatest power. During his reign, the Hindu epics, the Ramayana and the Mahabharata, became ingrained in the culture and worldview of the Javanese through the wayang kulit (leather puppets). He was preceded by Tribhuwana Wijayatunggadewi, and succeeded by his son-in-law Wikramawardhana.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        112.5,
+        -7.7
+      ],
+      "year": 1334
+    }
   }
 }

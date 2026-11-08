@@ -21,6 +21,7 @@
   ],
   "contribution": "A Carthaginian general and statesman who commanded the forces of Carthage in their battle against the Roman Republic during the Second Punic War.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -36,10 +37,18 @@
       ],
       "citizenship": [
         "Carthage"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Hannibal (; Punic: 𐤇𐤍𐤁𐤏𐤋; 247 – between 183 and 181 BC) was a Carthaginian general and statesman who commanded the forces of Carthage in their battle against the Roman Republic during the Second Punic War. Hannibal lived during a period of great tension in the Mediterranean Basin, triggered by the emergence of the Roman Republic as a great power with its defeat of Carthage in the First Punic War. Revanchism prevailed in Carthage, symbolized by the pledge that Hannibal made to his father to \"never be a friend of Rome\".",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        10.3233,
+        36.8528
+      ],
+      "year": -247
+    }
   }
 }

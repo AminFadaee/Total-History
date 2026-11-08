@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Chinese polymath, scientist, and statesman of the Northern Song dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Song dynasty"
+      ],
+      "born_in": [
+        "Song dynasty"
       ]
     },
     "lead": "Shen Kuo (Chinese: 沈括; 1031–1095) or Shen Gua, courtesy name Cunzhong (存中) and pseudonym Mengqi (now usually given as Mengxi) Weng (夢溪翁), was a Chinese polymath, scientist, and statesman of the Northern Song dynasty. Shen was a master in many fields of study including mathematics, optics, and horology. In his career as a civil servant, he became a finance minister, governmental state inspector, head official for the Bureau of Astronomy in the Song court, Assistant Minister of Imperial Hospitality, and also served as an academic chancellor. At court his political allegiance was to the Reformist faction known as the New Policies Group, headed by Chancellor Wang Anshi (1021–1085).",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        120.153,
+        30.267
+      ],
+      "year": 1031
+    }
   }
 }

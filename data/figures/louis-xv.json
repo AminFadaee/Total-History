@@ -21,6 +21,7 @@
   ],
   "contribution": "King of France from 1 September 1715 until his death in 1774.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/louis-xv.jpg",
   "image_credit": "Manner of Louis-Michel van Loo · Public domain",
   "image_kind": "Portrait from life",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Kingdom of France"
+      ],
+      "born_in": [
+        "Kingdom of France"
       ]
     },
     "lead": "Louis XV (15 February 1710 – 10 May 1774), known as Louis the Beloved (French: le Bien-Aimé), was King of France from 1 September 1715 until his death in 1774. He succeeded his great-grandfather Louis XIV at the age of five. Until he reached maturity (then defined as his 13th birthday) in 1723, the kingdom was ruled by his grand-uncle Philippe II, Duke of Orléans, as Regent of France. Cardinal Fleury was chief minister from 1726 until his death in 1743, at which time the king took sole control of the kingdom.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        2.12033333,
+        48.80480556
+      ],
+      "year": 1710
+    }
   }
 }

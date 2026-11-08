@@ -21,6 +21,7 @@
   ],
   "contribution": "His death following successive defeats by the Rashidun Caliphate marked the end of the last pre-Islamic Iranian empire after more than four centuries of rule.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Sasanian Empire"
+      ],
+      "born_in": [
+        "Sasanian Empire"
       ]
     },
     "lead": "Yazdegerd III (also Romanized as Yazdgerd, Yazdgird) was the last Sasanian King of Kings from 632 to 651. His death following successive defeats by the Rashidun Caliphate marked the end of the last pre-Islamic Iranian empire after more than four centuries of rule.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        52.90944444,
+        29.98083333
+      ],
+      "year": 624
+    }
   }
 }

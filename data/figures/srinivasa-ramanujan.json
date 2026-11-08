@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Indian mathematician who worked during the early 20th century.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/srinivasa-ramanujan.jpg",
   "image_credit": "Konrad Jacobs · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "British Raj"
+      ],
+      "born_in": [
+        "British Raj"
       ]
     },
     "lead": "Srinivasa Ramanujan Iyengar (22 December 1887 – 26 April 1920) was an Indian mathematician who worked during the early 20th century. He made substantial contributions to mathematical analysis, number theory, infinite series, and continued fractions, including solutions to mathematical problems then considered unsolvable.",
     "image": "",
-    "photo": "model 0.91, one person 0.89, in Category:Black and white portrait photographs of male scientists"
+    "photo": "model 0.91, one person 0.89, in Category:Black and white portrait photographs of male scientists",
+    "birth": {
+      "location": [
+        77.71711111,
+        11.34088889
+      ],
+      "year": 1887
+    }
   }
 }

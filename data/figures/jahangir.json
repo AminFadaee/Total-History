@@ -20,6 +20,7 @@
   ],
   "contribution": "The fourth Mughal emperor of the Mughal Empire, reigning from 1605 until his death in 1627.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/jahangir.jpg",
   "image_credit": "1605 artist · Public domain",
   "image_kind": "Portrait from life",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Nur ud-din Muhammad Salim (Persian: نورالدین محمد سلیم [ˈnuːrʊˌdɪn/ [mʊ.ɦɑmˈmad̪̚] /sə.liːm]; 31 August 1569 – 28 October 1627), known by his royal name Jahangir (Persian: جهانگیر, Persian pronunciation: [d͡ʒa.hɑːn.ˈɡiːɾ]), was the fourth Mughal emperor of the Mughal Empire, reigning from 1605 until his death in 1627.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        77.661,
+        27.091
+      ],
+      "year": 1569
+    }
   }
 }

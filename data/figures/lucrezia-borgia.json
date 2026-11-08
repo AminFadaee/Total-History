@@ -15,8 +15,9 @@
     "Papal States"
   ],
   "related": [],
-  "contribution": "An Italian noblewoman of the House of Borgia who was the illegitimate daughter of Pope Alexander VI and Vannozza dei Cattanei.",
+  "contribution": "An Italian-Spanish noblewoman of the House of Borgia who was the illegitimate daughter of Pope Alexander VI and Vannozza dei Cattanei.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/lucrezia-borgia.jpg",
   "image_credit": "Attributed to Dosso Dossi · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Papal States"
+      ],
+      "born_in": [
+        "Papal States"
       ]
     },
-    "lead": "Lucrezia Borgia (18 April 1480 – 24 June 1519) was an Italian noblewoman of the House of Borgia who was the illegitimate daughter of Pope Alexander VI and Vannozza dei Cattanei. She was a former governor of Spoleto.",
+    "lead": "Lucrezia Borgia (18 April 1480 – 24 June 1519) was an Italian-Spanish noblewoman of the House of Borgia who was the illegitimate daughter of Pope Alexander VI and Vannozza dei Cattanei. She was a former governor of Spoleto.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.1,
+        41.93333333
+      ],
+      "year": 1480
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian Renaissance architect active in the Venetian Republic.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/andrea-palladio.jpg",
   "image_credit": "Alessandro Maganza · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Republic of Venice"
+      ],
+      "born_in": [
+        "Republic of Venice"
       ]
     },
     "lead": "Andrea Palladio ( pə-LAH-dee-oh; Italian: [anˈdrɛːa palˈlaːdjo]; Venetian: Andrea Paładio; Padova, 30 November 1508 – 19 August 1580) was an Italian Renaissance architect active in the Venetian Republic. Palladio, influenced by Roman and Greek architecture, primarily Vitruvius, is widely considered to be one of the most influential individuals in the history of architecture. While he designed churches and palaces, he was best known for country houses and villas. His teachings, summarized in the architectural treatise, The Four Books of Architecture, gained him wide recognition.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.86666667,
+        45.41666667
+      ],
+      "year": 1508
+    }
   }
 }

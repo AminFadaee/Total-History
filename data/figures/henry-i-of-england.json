@@ -1,0 +1,52 @@
+{
+  "id": "Q101384",
+  "slug": "henry-i-of-england",
+  "name": "Henry I of England",
+  "wikipedia": "Henry I of England",
+  "role": "King of England from 1100 to 1135",
+  "life": "c. 1068–1135",
+  "lifetime": [
+    1068,
+    1135
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Duchy of Normandy"
+  ],
+  "related": [
+    "County of Anjou"
+  ],
+  "contribution": "King of England from 1100 to his death in 1135.",
+  "setting": "Duchy of Normandy",
+  "modern_country": "",
+  "image": "images/henry-i-of-england.jpg",
+  "image_credit": "Matthew Paris · Public domain",
+  "image_kind": "Later depiction",
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Duchy of Normandy"
+      ],
+      "lead": [
+        "Duchy of Normandy",
+        "County of Anjou"
+      ],
+      "born_in": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Henry I (c. 1068 – 1 December 1135), also known as Henry Beauclerc, was King of England from 1100 to his death in 1135. He was the fourth son of William the Conqueror and was educated in Latin and the liberal arts. On William's death in 1087, Henry's elder brothers Robert Curthose and William Rufus inherited Normandy and England, respectively, thereby leaving Henry landless. He subsequently purchased the County of Cotentin in western Normandy from Robert, but his brothers deposed him in 1091. He gradually rebuilt his power base in the Cotentin and allied himself with William Rufus against Robert.",
+    "image": "",
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -1.06777778,
+        53.78361111
+      ],
+      "year": 1068
+    }
+  }
+}

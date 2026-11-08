@@ -19,6 +19,7 @@
   ],
   "contribution": "King of Spain and the Indies during the early 19th century, and king of the Spains during the Spanish liberal period.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/ferdinand-vii.jpg",
   "image_credit": "Vicente López Portaña · Public domain",
   "image_kind": "Portrait from life",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
-    "lead": "Ferdinand VII (Spanish: Fernando VII; 14 October 1784 – 29 September 1833) was King of Spain and the Indies during the early 19th century, and king of the Spains during the Spanish liberal period. He reigned as a prisoner of Napoleon, in absentia, or without effective sovereignty during the periods of Spanish liberalism, 1808–1813 and 1820–1823 (Trienio Liberal). Before 1813, he was known as el Deseado (the Desired), and after, as el Rey Felón (the Criminal King).",
+    "lead": "Ferdinand VII (Spanish: Fernando VII; 14 October 1784 – 29 September 1833) was King of Spain and the Indies during the early 19th century, and king of the Spains during the Spanish liberal period. He reigned as a prisoner of Napoleon, in absentia, or without effective sovereignty during the periods of Spanish liberalism, 1808–1813 and 1820–1823 (Trienio Liberal). Before 1813, he was known as el Deseado (the Desired), and after, as el Rey Felón (the Felon King).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.14777778,
+        40.58888889
+      ],
+      "year": 1784
+    }
   }
 }

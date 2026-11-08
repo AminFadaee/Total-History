@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A South African politician who served as the fourth prime minister of South Africa from 1948 to 1954.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/d-f-malan.jpg",
   "image_credit": "Suidpunt · Public domain",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "British Cape Colony"
+      ],
+      "born_in": [
+        "British Cape Colony"
       ]
     },
     "lead": "Daniël François Malan  (Afrikaans pronunciation: [ˈdɑːni.əl franˈsʋɑː mɑːˈlan]; 22 May 1874 – 7 February 1959) was a South African politician who served as the fourth prime minister of South Africa from 1948 to 1954. The National Party implemented the system of apartheid, which enforced racial segregation laws, during his tenure as prime minister.",
     "image": "",
-    "photo": "model 0.97, one person 0.99"
+    "photo": "model 0.97, one person 0.99",
+    "birth": {
+      "location": [
+        18.86736667,
+        -33.35046944
+      ],
+      "year": 1874
+    }
   }
 }

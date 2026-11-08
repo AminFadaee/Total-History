@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "The founding emperor of the Tang dynasty of China, reigning from 618 to 626 CE.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/emperor-gaozu-of-tang.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Northern Zhou"
+      ],
+      "born_in": [
+        "Northern Zhou"
       ]
     },
     "lead": "Emperor Gaozu of Tang (Chinese: 唐高祖; pinyin: Táng Gāozǔ; Wade–Giles: T'ang Kao-tsu; 7 April 566 – 25 June 635), personal name Li Yuan, courtesy name Shude, Xianbei name Daye Yuan, was the founding emperor of the Tang dynasty of China, reigning from 618 to 626 CE. Under the Sui dynasty, Li Yuan was the governor in the area of modern-day Shanxi, and was based in Taiyuan.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        108.85833333,
+        34.30833333
+      ],
+      "year": 566
+    }
   }
 }

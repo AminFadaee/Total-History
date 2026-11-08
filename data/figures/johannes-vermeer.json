@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Dutch painter who specialized in domestic interior scenes of middle-class life.",
   "setting": "",
+  "modern_country": "Netherlands",
   "image": "images/johannes-vermeer.jpg",
   "image_credit": "Johannes Vermeer · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Dutch Republic"
+      ],
+      "born_in": [
+        "Dutch Republic"
       ]
     },
     "lead": "Johannes Vermeer ( vər-MEER, vər-MAIR, Dutch: [joːˈɦɑnəs fərˈmeːr]; see below; also known as Jan Vermeer; October 1632 – 15 December 1675) was a Dutch painter who specialized in domestic interior scenes of middle-class life. He is considered one of the greatest painters of the Dutch Golden Age. During his lifetime, he was a moderately successful provincial genre painter, recognized in Delft and The Hague. He produced relatively few paintings, primarily earning his living as an art dealer. He was not wealthy; at his death, his wife was left in debt.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        4.35916667,
+        52.01166667
+      ],
+      "year": 1632
+    }
   }
 }

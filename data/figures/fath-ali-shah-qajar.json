@@ -19,6 +19,7 @@
   ],
   "contribution": "The second Shah of Qajar Iran.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/fath-ali-shah-qajar.jpg",
   "image_credit": "Mihr 'Ali · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Zand Dynasty"
+      ],
+      "born_in": [
+        "Zand Dynasty"
       ]
     },
     "lead": "Fath-Ali Shah Qajar (Persian: فتحعلى‌شاه قاجار, romanized: Fatḥ-ʻAli Šâh Qâjâr; 5 August 1772 – 24 October 1834) was the second Shah of Qajar Iran. He reigned from 17 June 1797 until his death on 24 October 1834. His reign saw the irrevocable ceding of Iran's northern territories in the Caucasus, comprising what is nowadays Georgia, Derbent, Azerbaijan, and Armenia, to the Russian Empire following the Russo-Persian Wars of 1804–1813 and 1826–1828 and the resulting treaties of Gulistan and Turkmenchay. These two treaties are closely tied to Fath-Ali Shah's legacy amongst Iranians, who often view him as a weak ruler.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        54.34194444,
+        36.16555556
+      ],
+      "year": 1772
+    }
   }
 }

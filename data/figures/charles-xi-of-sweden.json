@@ -19,6 +19,7 @@
   ],
   "contribution": "King of Sweden from 1660 until his death in 1697.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-xi-of-sweden.jpg",
   "image_credit": "David Klöcker Ehrenstrahl · Public domain",
   "image_kind": "Portrait from life",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Swedish Empire"
+      ],
+      "born_in": [
+        "Swedish Empire"
       ]
     },
     "lead": "Charles XI or Carl (Swedish: Karl XI; 4 December [O.S. 24 November] 1655 – 15 April [O.S. 5 April] 1697) was King of Sweden from 1660 until his death in 1697.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.07166667,
+        59.32666667
+      ],
+      "year": 1655
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A French playwright, actor, and poet, widely regarded as one of the great writers in the French language and world literature.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/moliere.jpg",
   "image_credit": "Pierre Mignard I · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of France"
+      ],
+      "born_in": [
+        "Kingdom of France"
       ]
     },
     "lead": "Jean-Baptiste Poquelin (French pronunciation: [ʒɑ̃ batist pɔklɛ̃]; 15 January 1622 (baptised) – 17 February 1673), known by his stage name Molière (UK: , US: ; French: [mɔljɛʁ] ), was a French playwright, actor, and poet, widely regarded as one of the great writers in the French language and world literature. His extant works include comedies, farces, tragicomedies, comédie-ballets, and more. His plays have been translated into every major living language and are performed at the Comédie-Française more often than those of any other playwright today. His influence is such that the French language is often referred to as the \"language of Molière\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        2.35222222,
+        48.85666667
+      ],
+      "year": 1622
+    }
   }
 }

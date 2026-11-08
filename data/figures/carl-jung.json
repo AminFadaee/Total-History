@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Swiss psychiatrist, psychotherapist, and psychologist who founded the school of analytical psychology.",
   "setting": "",
+  "modern_country": "Switzerland",
   "image": "images/carl-jung.jpg",
   "image_credit": "Unbekannt · PDM-owner",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Swiss Confederation"
+      ],
+      "born_in": [
+        "Swiss Confederation"
       ]
     },
     "lead": "Carl Gustav Jung ( YUUNG; Swiss Standard German: [ˈkarl ˈjʊŋ]; 26 July 1875 – 6 June 1961) was a Swiss psychiatrist, psychotherapist, and psychologist who founded the school of analytical psychology. He was a prolific author of over twenty books, illustrator, correspondent, and academic, best known for his concept of archetypes. Widely considered one of the most influential psychologists of all time, Jung's work has fostered not only scholarship, but also popular interest. His work has been influential in the fields of psychiatry, anthropology, archaeology, literature, philosophy, psychology, and religious studies.",
     "image": "",
-    "photo": "model 0.92, one person 0.99, in Category:Portrait photographs of Carl Gustav Jung"
+    "photo": "model 0.92, one person 0.99, in Category:Portrait photographs of Carl Gustav Jung",
+    "birth": {
+      "location": [
+        9.31666667,
+        47.58333333
+      ],
+      "year": 1875
+    }
   }
 }

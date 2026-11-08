@@ -12,11 +12,13 @@
   "occupation": "",
   "birth_country": "",
   "civilizations": [
+    "French colonial empire",
     "Morocco"
   ],
   "related": [],
   "contribution": "He played a key role in the organization of the independence struggle during the Algerian war.",
   "setting": "",
+  "modern_country": "Algeria",
   "image": "images/abane-ramdane.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -25,18 +27,28 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Francoist Spain",
-        "Morocco"
+        "Morocco",
+        "Francoist Spain"
       ],
       "lead": [
         "Morocco"
       ],
       "citizenship": [
         "French Fourth Republic"
+      ],
+      "born_in": [
+        "French colonial empire"
       ]
     },
     "lead": "Abane Ramdane (Arabic: عبان رمضان; Kabyle: Remḍan Ɛebban; June 10, 1920 – December 26, 1957) was an Algerian political activist and revolutionary. He played a key role in the organization of the independence struggle during the Algerian war. His influence was so great that he was known as \"the architect of the revolution\".  He was also the architect of the Soummam conference in Béjaïa in 1956 and was very close to Frantz Fanon.",
     "image": "",
-    "photo": "model 1.00, one person 1.00, captured 1951, during their lifetime"
+    "photo": "model 1.00, one person 1.00, captured 1951, during their lifetime",
+    "birth": {
+      "location": [
+        4.20666667,
+        36.63666667
+      ],
+      "year": 1920
+    }
   }
 }

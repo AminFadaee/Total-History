@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A grand-daughter of the Islamic prophet Muhammad, and the eldest daughter of Ali and Fatima.",
   "setting": "",
+  "modern_country": "Saudi Arabia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,18 @@
       ],
       "lead": [
         "Umayyad Caliphate"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Zaynab bint Ali (Arabic: زَيْنَب بِنْت عَلِيّ, c. 626–682), commonly known as Zaynab al-Kubra, was a grand-daughter of the Islamic prophet Muhammad, and the eldest daughter of Ali and Fatima. She is best known for her role in the aftermath of the Battle of Karbala, in which her brother Husayn and most of her male relatives were massacred by the forces of the Umayyad caliph Yazid. Following the battle, Zaynab was among the survivors of Husayn's family who were taken captive by the Umayyad forces.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        39.61,
+        24.47
+      ],
+      "year": 626
+    }
   }
 }

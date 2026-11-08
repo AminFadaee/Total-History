@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "The second and final emperor of the Empire of Brazil.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/pedro-ii-of-brazil.jpg",
   "image_credit": "Alphonse Liébert · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Empire of Brazil"
+      ],
+      "born_in": [
+        "Empire of Brazil"
       ]
     },
     "lead": "Dom Pedro II (Pedro de Alcântara João Carlos Leopoldo Salvador Bibiano Francisco Xavier de Paula Leocádio Miguel Gabriel Rafael Gonzaga; 2 December 1825 – 5 December 1891), known as \"the Magnanimous\" (Portuguese: O Magnânimo), was the second and final emperor of the Empire of Brazil. He reigned from 1831 until his deposition in the military coup of 1889, presiding over the longest and most stable reign in Brazilian history.",
     "image": "",
-    "photo": "model 0.73, one person 0.96, in Category:Pedro II of Brazil photographed by Liébert"
+    "photo": "model 0.73, one person 0.96, in Category:Pedro II of Brazil photographed by Liébert",
+    "birth": {
+      "location": [
+        -43.22583333,
+        -22.90555556
+      ],
+      "year": 1825
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of the Two Sicilies from 1830 until his death in 1859.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/ferdinand-ii-of-the-two-sicilies.jpg",
   "image_credit": "Raffaele Messina · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Naples (Napoleonic)"
       ]
     },
     "lead": "Ferdinand II (Italian: Ferdinando Carlo Maria; Sicilian: Ferdinannu Carlu Maria; Neapolitan: Ferdinando Carlo Maria; 12 January 1810 –  22 May 1859) was King of the Two Sicilies from 1830 until his death in 1859.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.35305556,
+        38.11083333
+      ],
+      "year": 1810
+    }
   }
 }

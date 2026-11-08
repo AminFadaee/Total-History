@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Albanian ruler who served as pasha of the Pashalik of Yanina, a large part of western Rumelia, in the Ottoman Empire.",
   "setting": "",
+  "modern_country": "Albania",
   "image": "images/ali-pasha-of-yanina.jpg",
   "image_credit": "Joseph Cartwright · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Ali Pasha (1743 – 24 January 1822), commonly known as Ali Pasha of Yanina or Ali Pasha of Tepelena, was an Albanian ruler who served as pasha of the Pashalik of Yanina, a large part of western Rumelia, in the Ottoman Empire. Under his rule, it acquired a high degree of autonomy and even managed to stay de facto independent. The capital of the Pashalik was Ioannina, which, along with Tepelena, was Ali's headquarters.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        20.01888889,
+        40.29666667
+      ],
+      "year": 1750
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Rattanakosin from 1824 to his death in 1851.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "images/rama-iii.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Rattanakosin Kingdom"
+      ],
+      "born_in": [
+        "Rattanakosin Kingdom"
       ]
     },
     "lead": "Nangklao (born Thap; 31 March 1788 – 2 April 1851), also known by his posthumous regnal name Rama III, was King of Rattanakosin from 1824 to his death in 1851. During his reign, he initiated the country's first cautious engagements with the West. Siam's territory also reached its greatest extent during this period.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        100.49,
+        13.7425
+      ],
+      "year": 1788
+    }
   }
 }

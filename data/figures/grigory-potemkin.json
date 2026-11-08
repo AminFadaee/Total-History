@@ -1,0 +1,55 @@
+{
+  "id": "Q243201",
+  "slug": "grigory-potemkin",
+  "name": "Grigory Potemkin",
+  "wikipedia": "Grigory Potemkin",
+  "role": "Russian military leader and statesman",
+  "life": "1739–1791",
+  "lifetime": [
+    1739,
+    1791
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [
+    "Ottoman Empire"
+  ],
+  "contribution": "A Russian military leader, statesman, nobleman, and favourite of Catherine the Great.",
+  "setting": "",
+  "modern_country": "Russia",
+  "image": "images/grigory-potemkin.jpg",
+  "image_credit": "After Johann Baptist von Lampi the Elder · Public domain",
+  "image_kind": "Later depiction",
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Ottoman Empire",
+        "Russian Empire"
+      ],
+      "citizenship": [
+        "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Prince Grigory Aleksandrovich Potemkin-Tauricheski (11 October [O.S. 30 September] 1739 – 16 October [O.S. 5 October] 1791) was a Russian military leader, statesman, nobleman, and favourite of Catherine the Great. He died during negotiations over the Treaty of Iași, which ended a war with the Ottoman Empire that he had overseen.",
+    "image": "",
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        32.173888888889,
+        55.146388888889
+      ],
+      "year": 1739
+    }
+  }
+}

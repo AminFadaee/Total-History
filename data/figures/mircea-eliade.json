@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Romanian historian of religion, fiction writer, philosopher, and professor at the University of Chicago.",
   "setting": "",
+  "modern_country": "Romania",
   "image": "images/mircea-eliade.jpg",
   "image_credit": "Elena Ancu Damian · CC0",
   "image_kind": "Photograph",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "Kingdom of Romania"
+      ],
+      "born_in": [
+        "Kingdom of Romania"
       ]
     },
     "lead": "Mircea Eliade (Romanian: [ˈmirt͡ʃe̯a eliˈade]; 13 March [O.S. 28 February] 1907 – April 22, 1986) was a Romanian historian of religion, fiction writer, philosopher, and professor at the University of Chicago. One of the most influential scholars of religion of the 20th century and interpreter of religious experience, he established paradigms in religious studies. His theory that hierophanies form the basis of religion, splitting the human experience of reality into sacred and profane space and time, has proved influential. One of his most instrumental contributions to religious studies was his theory of eternal return, which holds that myths and rituals do not simply commemorate hierophanies, but (at least in the minds of the religious) actually participate in them.",
     "image": "",
-    "photo": "model 0.91, one person 0.97, in Category:Portrait photographs of Mircea Eliade"
+    "photo": "model 0.91, one person 0.97, in Category:Portrait photographs of Mircea Eliade",
+    "birth": {
+      "location": [
+        26.10388889,
+        44.4325
+      ],
+      "year": 1907
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Talmudist and Kabbalist.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Morocco"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Chaim ibn Attar or Ḥayyim ben Moshe ibn Attar (Arabic: حاييم بن موشي بن عطار, Hebrew: חיים בן משה בן עטר; c. 1696 – 7 July 1743) also known as the Or ha-Ḥayyim after his popular commentary on the Torah, was a Talmudist and Kabbalist. He is arguably considered to be one of the most prominent Rabbis of Morocco, and is highly regarded in Hassidic Judaism.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -6.816667,
+        34.05
+      ],
+      "year": 1696
+    }
   }
 }

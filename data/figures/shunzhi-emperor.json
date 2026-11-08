@@ -19,6 +19,7 @@
   ],
   "contribution": "The second emperor of the Qing dynasty, and the first Qing emperor to rule over China proper.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/shunzhi-emperor.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -38,10 +39,20 @@
       ],
       "citizenship": [
         "Qing Dynasty"
+      ],
+      "born_in": [
+        "Later Jin Dynasty"
       ]
     },
     "lead": "The Shunzhi Emperor (15 March 1638 – 5 February 1661), personal name Fulin, was the second emperor of the Qing dynasty, and the first Qing emperor to rule over China proper. Upon the death of his father Hong Taiji, a committee of Manchu princes chose the 5-year-old Fulin as successor. The princes also appointed two co-regents: Dorgon, the 14th son of Nurhaci, and Jirgalang, one of Nurhaci's nephews, both of whom were members of the Aisin-Gioro clan. In November 1644, the Shunzhi Emperor was enthroned as emperor of China in Beijing.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        123.42805556,
+        41.8025
+      ],
+      "year": 1638
+    }
   }
 }

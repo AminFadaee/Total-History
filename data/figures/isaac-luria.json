@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A leading rabbi and Jewish mystic in the community of Safed in the Galilee region of Ottoman Palestine, now Israel.",
   "setting": "",
+  "modern_country": "Palestine",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Isaac ben Solomon Ashkenazi Luria (Hebrew: יִצְחָק בן שלמה אשכנזי לוּרְיָא; born 5294 c. 1534 – died 5332, c. July 25, 1572), commonly known in Jewish religious circles as Ha'ari, Ha'ari Hakadosh or Arizal, was a leading rabbi and Jewish mystic in the community of Safed in the Galilee region of Ottoman Palestine, now Israel. He is considered the father of contemporary Kabbalah. His teachings are referred to as Lurianic Kabbalah.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        35.21666667,
+        31.78333333
+      ],
+      "year": 1534
+    }
   }
 }

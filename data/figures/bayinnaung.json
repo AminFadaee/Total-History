@@ -23,6 +23,7 @@
   ],
   "contribution": "King of Burma from 30 April 1550 until his death in 1581, during the Toungoo dynasty.",
   "setting": "",
+  "modern_country": "Myanmar",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -46,10 +47,20 @@
       ],
       "birthplace": [
         "Toungoo dynasty"
+      ],
+      "born_in": [
+        "Toungoo dynasty"
       ]
     },
     "lead": "Bayinnaung Kyawhtin Nawrahta (Burmese: ဘုရင့်နောင် ကျော်ထင်နော်ရထာ; Thai: บุเรงนองกะยอดินนรธา; 16 January 1516 – 10 October 1581) was King of Burma from 30 April 1550 until his death in 1581, during the Toungoo dynasty. His reign is considered one of the most momentous in Burmese history, famously described as \"the greatest explosion of human energy ever seen in Burma\". During his rule, he assembled the largest empire in Southeast Asian history, which encompassed much of present-day Myanmar, as well as the Shan States, Lan Na, Lan Xang, Manipur, and the Ayutthaya Kingdom.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        96.43333333,
+        18.93333333
+      ],
+      "year": 1516
+    }
   }
 }

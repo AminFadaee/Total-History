@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A semi-legendary regent and a politician of the Asuka period in Japan who served under Empress Suiko.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/prince-shotoku.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Asuka Japan"
+      ],
+      "born_in": [
+        "Asuka Japan"
       ]
     },
-    "lead": "Prince Shōtoku (聖徳太子, Shōtoku Taishi; February 7, 574 – April 8, 622), also known as Prince Umayado/Umayato (厩戸皇子, 厩戸王, Umayado/Umayato no ōji, Umayado/Umayato no miko, Umayado/Umayato Ō) or Prince Kamitsumiya (上宮皇子, Kamitsumiya no ōji, Kamitsumiya no miko), was a semi-legendary regent and a politician of the Asuka period in Japan who served under Empress Suiko. He was the son of Emperor Yōmei and his consort, Princess Hashihito no Anahobe, who was also Yōmei's younger half-sister. But later, he was adopted by Prince Shōtoken. His parents were relatives of the ruling Soga clan and also he was involved in the defeat of the rival Mononobe clan. The primary source of the life and accomplishments of Prince Shōtoku comes from the Nihon Shoki. The Prince is renowned for modernizing the government administration and for promoting Buddhism in Japan. He also had two different families that fought over his custody.",
+    "lead": "Prince Shōtoku (聖徳太子, Shōtoku Taishi; February 7, 574 – April 8, 622), also known as Prince Umayado/Umayato (厩戸皇子, 厩戸王, Umayado/Umayato no ōji, Umayado/Umayato no miko, Umayado/Umayato Ō) or Prince Kamitsumiya (上宮皇子, Kamitsumiya no ōji, Kamitsumiya no miko), was a semi-legendary regent and a politician of the Asuka period in Japan who served under Empress Suiko. He was the son of Emperor Yōmei and his consort, Princess Hashihito no Anahobe, who was also Yōmei's younger half-sister. But later, he was adopted by Prince Shōtoken. His parents were relatives of the ruling Soga clan and also he was involved in the defeat of the rival Mononobe clan. The primary source of the life and accomplishments of Prince Shōtoku comes from the Nihon Shoki. The Prince is renowned for modernizing the government administration and for promoting Buddhism in Japan.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        135.76666667,
+        34.56666667
+      ],
+      "year": 574
+    }
   }
 }

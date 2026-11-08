@@ -20,6 +20,7 @@
   ],
   "contribution": "An Egyptian politician and military officer who was the third president of Egypt from 1970 until his assassination in 1981.",
   "setting": "United Arab Republic",
+  "modern_country": "Egypt",
   "image": "images/anwar-sadat.jpg",
   "image_credit": "The original uploader was Prince UAE at Arabic Wikipedia. · Public domain",
   "image_kind": "Photograph",
@@ -40,10 +41,18 @@
       ],
       "vital_section": [
         "Republic of Egypt"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Muhammad Anwar es-Sadat (25 December 1918 – 6 October 1981) was an Egyptian politician and military officer who was the third president of Egypt from 1970 until his assassination in 1981. A former member of the Free Officers movement, Sadat was vice president under Gamal Abdel Nasser on two occasions and assumed the office on Nasser's death in 1970.",
     "image": "",
-    "photo": "model 0.74, one person 0.94, captured 1978, during their lifetime"
+    "photo": "model 0.74, one person 0.94, captured 1978, during their lifetime",
+    "birth": {
+      "location": [
+        30.99,
+        30.52
+      ],
+      "year": 1918
+    }
   }
 }

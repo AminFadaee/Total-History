@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The fifth of the ten Sikh Gurus.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/guru-arjan.jpg",
   "image_credit": "Family workshop of Purkhu of Kangra · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Guru Arjan (Gurmukhi: ਗੁਰੂ ਅਰਜਨ, pronunciation: [gʊɾuː əɾd͡ʒənᵊ]; 15 April 1563 – 30 May 1606) was the fifth of the ten Sikh Gurus. He compiled the first official edition of the Sikh scripture called the Adi Granth, which later expanded into the Guru Granth Sahib. He is regarded as the first of the two Gurus martyred in the Sikh faith. He is credited for founding the settlements of Kartarpur (Jalandhar district), Hargobindpur, and Tarn Taran.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        75.15,
+        31.36666667
+      ],
+      "year": 1563
+    }
   }
 }

@@ -17,6 +17,7 @@
   ],
   "contribution": "A pre-Socratic Greek philosopher from Miletus in Ionia, Asia Minor.",
   "setting": "Southern Europe, 6th century BC",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -26,10 +27,18 @@
     "civilization_votes": {
       "lead": [
         "Lydia"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Thales of Miletus ( THAY-leez; Ancient Greek: Θαλῆς; c. 626/623  – c. 548/545 BC) was a pre-Socratic Greek philosopher from Miletus in Ionia, Asia Minor. Thales was one of the Seven Sages, founding figures of Ancient Greece.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.27833333,
+        37.53027778
+      ],
+      "year": -623
+    }
   }
 }

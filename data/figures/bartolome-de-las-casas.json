@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Spanish lawyer, clergyman, writer, and activist best known for his work as a historian and social reformer.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/bartolome-de-las-casas.jpg",
   "image_credit": "anonymous / Unidentified painter · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Crown of Castile"
+      ],
+      "born_in": [
+        "Crown of Castile"
       ]
     },
     "lead": "Bartolomé de las Casas, OP (US:  lahss KAH-səss; Spanish pronunciation: [baɾtoloˈme ðe las ˈkasas]); 11 November 1484 – 18 July 1566) was a Spanish lawyer, clergyman, writer, and activist best known for his work as a historian and social reformer. He arrived in Hispaniola as a layman, then became a Dominican friar. He was appointed as the first resident Bishop of Chiapas, and the first officially appointed \"Protector of the Indians\". His extensive writings, the most famous being A Short Account of the Destruction of the Indies and Historia de Las Indias, chronicle the first decades of colonization of the Caribbean islands. He described and railed against the atrocities committed by the conquistadores against the Indigenous peoples.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -5.99,
+        37.39
+      ],
+      "year": 1484
+    }
   }
 }

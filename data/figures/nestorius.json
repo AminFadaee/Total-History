@@ -19,6 +19,7 @@
   ],
   "contribution": "An early Christian prelate who served as Archbishop of Constantinople from 10 April 428 to 11 July 431.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/nestorius.jpg",
   "image_credit": "Dionisius · Public domain",
   "image_kind": "Later depiction",
@@ -34,10 +35,20 @@
       ],
       "citizenship": [
         "Byzantine Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
     "lead": "Nestorius of Constantinople (; Ancient Greek: Νεστόριος; Syriac: ܡܪܝ ܢܣܛܘܪܝܣ, Mār Nesṭōrīs;  c. 386 – c. 451) was an early Christian prelate who served as Archbishop of Constantinople from 10 April 428 to 11 July 431. He was a Christian theologian from the Catechetical School of Antioch, and several of his teachings in the fields of Christology and Mariology were seen as controversial and heretical, causing major disputes.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        36.93333333,
+        37.58333333
+      ],
+      "year": 381
+    }
   }
 }

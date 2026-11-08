@@ -22,6 +22,7 @@
   ],
   "contribution": "King of Poland and Supreme Duke of the Grand Duchy of Lithuania from 1434, as well as King of Hungary and Croatia as Vladislaus I from 1440 until his presumed death at the Battle of Varna.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/wadysaw-iii-of-poland.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Portrait from life",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Kingdom of Poland"
+      ],
+      "born_in": [
+        "Kingdom of Poland"
       ]
     },
     "lead": "Władysław III of Poland (31 October 1424 – presumably 10 November 1444), also known as Ladislaus of Varna, was King of Poland and Supreme Duke of the Grand Duchy of Lithuania from 1434, as well as King of Hungary and Croatia as Vladislaus I from 1440 until his presumed death at the Battle of Varna. He was the eldest son of Władysław II Jagiełło (Jogaila) by his fourth wife, Lithuanian noblewoman Sophia of Halshany.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        19.93722222,
+        50.06138889
+      ],
+      "year": 1424
+    }
   }
 }

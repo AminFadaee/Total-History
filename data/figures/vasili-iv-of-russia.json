@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Tsar of all Russia from 1606 to 1610, after the murder of False Dmitri I.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/vasili-iv-of-russia.jpg",
   "image_credit": "Collective of Kremlin armory · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Tsardom of Russia"
+      ],
+      "born_in": [
+        "Tsardom of Russia"
       ]
     },
     "lead": "Vasili IV Ivanovich Shuisky (Russian: Василий IV Иванович Шуйский, romanized: Vasiliy IV Ivanovich Shuyskiy, c. 1552 – 12 September 1612) was Tsar of all Russia from 1606 to 1610, after the murder of False Dmitri I. His rule coincided with the Time of Troubles. He was the only member of House of Shuisky to become tsar and the last member of the Rurikid dynasty (Yurievichi branch) to rule as tsar.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        44.0075,
+        56.32694444
+      ],
+      "year": 1552
+    }
   }
 }

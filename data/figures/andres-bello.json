@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Venezuelan humanist, diplomat, poet, legislator, philosopher, educator and philologist, whose political and literary works constitute an important part of Spanish American culture.",
   "setting": "",
+  "modern_country": "",
   "image": "images/andres-bello.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Andrés de Jesús María y José Bello López (Spanish pronunciation: [anˈdɾes ˈβeʝo]; November 29, 1781 – October 15, 1865) was a Venezuelan humanist, diplomat, poet, legislator, philosopher, educator and philologist, whose political and literary works constitute an important part of Spanish American culture.  Bello is featured on the old 1992 50 and 1998 2,000 Venezuelan bolívar notes and the 20,000 Chilean peso notes.",
     "image": "",
-    "photo": "model 0.97, one person 0.96"
+    "photo": "model 0.97, one person 0.96",
+    "birth": {
+      "location": [
+        -66.90361111,
+        10.48055556
+      ],
+      "year": 1781
+    }
   }
 }

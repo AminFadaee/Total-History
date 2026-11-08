@@ -21,6 +21,7 @@
   ],
   "contribution": "A French philosopher, writer, and political activist.",
   "setting": "",
+  "modern_country": "Algeria",
   "image": "images/albert-camus.jpg",
   "image_credit": "Photograph by United Press International · Public domain",
   "image_kind": "Photograph",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "French colonial empire"
+      ],
+      "born_in": [
+        "French colonial empire"
       ]
     },
     "lead": "Albert Camus ( kam-OO; French: [albɛʁ kamy] ; 7 November 1913 – 4 January 1960) was a French philosopher, writer, and political activist. He was the recipient of the 1957 Nobel Prize in Literature at the age of 44, the second-youngest recipient in history, and the first laureate in literature born in Africa. His works include The Stranger, The Plague, The Myth of Sisyphus, The Fall and The Rebel.",
     "image": "",
-    "photo": "model 0.96, one person 0.99"
+    "photo": "model 0.96, one person 0.99",
+    "birth": {
+      "location": [
+        7.75,
+        36.68333333
+      ],
+      "year": 1913
+    }
   }
 }

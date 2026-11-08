@@ -12,11 +12,13 @@
   "occupation": "",
   "birth_country": "",
   "civilizations": [
+    "Portuguese Empire",
     "Kingdom of Portugal"
   ],
   "related": [],
   "contribution": "A Brazilian-Portuguese dramatist born in colonial Brazil, known as \"the Jew\".",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/antonio-jose-da-silva.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -29,10 +31,20 @@
       ],
       "citizenship": [
         "Kingdom of Portugal"
+      ],
+      "born_in": [
+        "Portuguese Empire"
       ]
     },
     "lead": "António José da Silva Coutinho (8 May 1705 – 18 October 1739) was a Brazilian-Portuguese dramatist born in colonial Brazil, known as \"the Jew\" (O Judeu). The Brazilian spelling of his first name is Antônio; António José da Silva Coutinho in Hebrew is אנטוניו ז'וזה דה סילווה.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -43.205555555555556,
+        -22.91111111111111
+      ],
+      "year": 1705
+    }
   }
 }

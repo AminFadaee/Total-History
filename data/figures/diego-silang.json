@@ -19,6 +19,7 @@
   ],
   "contribution": "A Filipino revolutionary leader who allied with British forces to overthrow Spanish rule in the northern Philippines and establish an independent Ilocano state.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,18 @@
       "lead": [
         "Kingdom of Great Britain",
         "Spanish Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Diego Silang y Andaya (Spanish: [ˈdjeɣo si.ˈlaŋg]; December 16, 1730 – May 28, 1763)  was a Filipino revolutionary leader who allied with British forces to overthrow Spanish rule in the northern Philippines and establish an independent Ilocano state. His revolt was fueled by grievances stemming from Spanish taxation and abuses, and by his belief in self-government, that the administration and leadership of the Roman Catholic Church and government in the Ilocos be invested in trained Ilocano officials. His wife, the Itneg Gabriela Cariño, took on leadership of his revolt after his assassination.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        120.35548055555556,
+        16.398208333333333
+      ],
+      "year": 1730
+    }
   }
 }

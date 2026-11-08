@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Turkish politician, who was the founder and president of the Nationalist Movement Party and the Grey Wolves.",
   "setting": "",
+  "modern_country": "",
   "image": "images/alparslan-turkes.jpg",
   "image_credit": "Alparslan TÜRKEŞ · Public domain",
   "image_kind": "Photograph",
@@ -33,10 +34,20 @@
       "citizenship": [
         "Republic of Turkey",
         "Turkish Republic of Northern Cyprus"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Alparslan Türkeş (Turkish pronunciation: [alˈpaɾsɫan tyɾˈceʃ]; 25 November 1917 – 4 April 1997) was a Turkish politician, who was the founder and president of the Nationalist Movement Party (MHP) and the Grey Wolves (Ülkü Ocakları). He ran the Grey Wolves training camps from 1968 to 1978. He represented the far-right of the Turkish political spectrum. He was and still is called Başbuğ (\"Leader\") by his devotees.",
     "image": "",
-    "photo": "model 1.00, one person 0.99, captured 1930, during their lifetime"
+    "photo": "model 1.00, one person 0.99, captured 1930, during their lifetime",
+    "birth": {
+      "location": [
+        33.365,
+        35.1725
+      ],
+      "year": 1917
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese samurai and politician who was one of the most influential figures in Japanese history.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/saigo-takamori.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Tokugawa Shogunate"
+      ],
+      "born_in": [
+        "Tokugawa Shogunate"
       ]
     },
-    "lead": "Saigō Takamori (Japanese: 西郷 隆盛; 23 January 1828 – 24 September 1877) was a Japanese samurai and politician who was one of the most influential figures in Japanese history. He played a key role in the Meiji Restoration, which overthrew the Tokugawa shogunate in 1868, and subsequently served in the new Meiji government. However, he later became disillusioned with the direction of the new regime and led the Satsuma Rebellion against it in 1877, in which he was killed.",
+    "lead": "Saigō Takamori (西郷 隆盛; 23 January 1828 – 24 September 1877) was a Japanese samurai and politician who was one of the most influential figures in Japanese history. He played a key role in the Meiji Restoration, which overthrew the Tokugawa shogunate in 1868, and subsequently served in the new Meiji government. However, he later became disillusioned with the direction of the new regime and led the Satsuma Rebellion against it in 1877, in which he was killed.",
     "image": "",
-    "photo": "model 0.92, one person 0.98, captured 1870, during their lifetime"
+    "photo": "model 0.92, one person 0.98, captured 1870, during their lifetime",
+    "birth": {
+      "location": [
+        130.55,
+        31.6
+      ],
+      "year": 1828
+    }
   }
 }

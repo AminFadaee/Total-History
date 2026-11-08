@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Chinese novelist, poet, and politician during the Ming dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Ming Dynasty"
+      ],
+      "born_in": [
+        "Ming Dynasty"
       ]
     },
-    "lead": "Wu Cheng'en (traditional Chinese: 吳承恩; simplified Chinese: 吴承恩; pinyin: Wú Chéng'ēn; Wade–Giles: Wu2 Ch‘êng2-ên1; Jyutping: Ng4 Sing4 Jan1, c. 1500 – 1582 or 1505–1580), courtesy name Ruzhong (汝忠), was a Chinese novelist, poet, and politician during the Ming dynasty. He is considered by many to be the author of Journey to the West, one of the Classic Chinese Novels.",
+    "lead": "Wu Cheng'en (traditional Chinese: 吳承恩; simplified Chinese: 吴承恩; pinyin: Wú Chéng'ēn; Wade–Giles: Wu² Ch‘êng²-ên¹; Jyutping: Ng4 Sing4 Jan1, c. 1500 – 1582 or 1505–1580), courtesy name Ruzhong (汝忠), was a Chinese novelist, poet, and politician during the Ming dynasty. He is considered by many to be the author of Journey to the West, one of the Classic Chinese Novels.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        119.113,
+        33.551
+      ],
+      "year": 1500
+    }
   }
 }

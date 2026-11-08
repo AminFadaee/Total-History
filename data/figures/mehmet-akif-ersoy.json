@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Turkish poet, writer, academic, politician, and the author of the Turkish National Anthem.",
   "setting": "",
+  "modern_country": "",
   "image": "images/mehmet-akif-ersoy.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -33,10 +34,18 @@
       "citizenship": [
         "Ottoman Empire",
         "Republic of Turkey"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Mehmet Akif Ersoy  (20 December 1873 – 27 December 1936) was a Turkish poet, writer, academic, politician, and the author of the Turkish National Anthem. Widely regarded as one of the premiere literary minds of his time, Ersoy is noted for his command of the Turkish language, as well as his patriotism and role in the Turkish War of Independence.",
     "image": "",
-    "photo": "model 0.94, one person 0.98"
+    "photo": "model 0.94, one person 0.98",
+    "birth": {
+      "location": [
+        28.98,
+        41.0125
+      ],
+      "year": 1873
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "A 19th-century Cuban-born Spanish writer.",
   "setting": "",
+  "modern_country": "Cuba",
   "image": "images/gertrudis-gomez-de-avellaneda.jpg",
   "image_credit": "Federico de Madrazo y Kuntz · Public domain",
   "image_kind": "Portrait from life",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Gertrudis Gómez de Avellaneda y Arteaga (March 23, 1814 – February 1, 1873)  was a 19th-century Cuban-born Spanish writer. Born in Puerto Príncipe, now Camagüey, she lived in Cuba until she was 22. Her family moved to Spain in 1836, where she started writing as La Peregrina (The Pilgrim) and lived there until 1859, when she moved back to Cuba with her second husband until his death in 1863, after which she moved back to Spain. She died in Madrid in 1873 from diabetes at the age of 58.",
     "image": "",
-    "photo": "FEDERICO DE MADRAZO -Gertrudis Gómez de Avellaneda (Museo Lázaro Galdiano, 1857).jpg: model 0.09, one person 0.98, captured 1857, during their lifetime; Retrato de Gertrudis Gómez de Avellaneda.jpg: model 0.12, one person 0.99; Gertrudis Gómez de Avellane.jpg: model 0.14, one person 0.99; Cubans collage.jpg: model 0.98, one person 0.03, in Category:Portrait photographs of men; SAB de Gertrudis Gómez de Avellaneda.jpg: model 0.50, one person 0.00; Poetisa Gertrudis Gómez.JPG: model 0.23, one person 0.96; Gertrudis Gomez de Avellaneda.png: model 0.14, one person 0.98; Doña Gertrudis Gómez de Avellaneda, de Perea.jpg: model 0.04, one person 0.99; Poetisa Gertrudis Gómez (cropped).jpg: model 0.21, one person 0.98; Gertrudis Gómez de Avellaneda.jpg: model 0.12, one person 1.00"
+    "photo": "FEDERICO DE MADRAZO -Gertrudis Gómez de Avellaneda (Museo Lázaro Galdiano, 1857).jpg: model 0.09, one person 0.98, captured 1857, during their lifetime; Retrato de Gertrudis Gómez de Avellaneda.jpg: model 0.12, one person 0.99; Gertrudis Gómez de Avellane.jpg: model 0.14, one person 0.99; Cubans collage.jpg: model 0.98, one person 0.03, in Category:Portrait photographs of men; SAB de Gertrudis Gómez de Avellaneda.jpg: model 0.50, one person 0.00; Poetisa Gertrudis Gómez.JPG: model 0.23, one person 0.96; Gertrudis Gomez de Avellaneda.png: model 0.14, one person 0.98; Doña Gertrudis Gómez de Avellaneda, de Perea.jpg: model 0.04, one person 0.99; Poetisa Gertrudis Gómez (cropped).jpg: model 0.21, one person 0.98; Gertrudis Gómez de Avellaneda.jpg: model 0.12, one person 1.00",
+    "birth": {
+      "location": [
+        -77.9075,
+        21.38388889
+      ],
+      "year": 1814
+    }
   }
 }

@@ -20,6 +20,7 @@
   ],
   "contribution": "King of France from 1226 until his death in 1270.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/louis-ix-of-france.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Portrait from life",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Kingdom of France"
+      ],
+      "born_in": [
+        "Kingdom of France"
       ]
     },
     "lead": "Louis IX (25 April 1214 – 25 August 1270), also known as Saint Louis, was King of France from 1226 until his death in 1270. He is widely recognized as the most distinguished of the Direct Capetians, is the sole king of France to be canonised as a saint of the Catholic Church, and is also the direct ancestor of all subsequent French kings. Following the death of his father, Louis VIII, he was crowned in Reims at the age of 12. His mother, Blanche of Castile, effectively ruled the kingdom as regent until he came of age, and continued to serve as his trusted adviser until her death.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        2.0456,
+        48.9294
+      ],
+      "year": 1214
+    }
   }
 }

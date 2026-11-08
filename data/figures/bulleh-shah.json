@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Punjabi philosopher, reformer and poet, regarded as one of the greatest poets of the Punjabi language.",
   "setting": "",
+  "modern_country": "Pakistan",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Sayyid Abdullah Shah Qadri (c. 1680 – 1757), popularly known as Baba Bulleh Shah and vocatively as Bulleya, was a Punjabi philosopher, reformer and poet, regarded as one of the greatest poets of the Punjabi language. His literary oeuvre, comprising over 150 kafi and 94 other poetic compositions, reflect themes of Sufi and humanist philosophy—for which he is regarded as 'Poet of the People'.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        71.06666667,
+        29.23333333
+      ],
+      "year": 1680
+    }
   }
 }

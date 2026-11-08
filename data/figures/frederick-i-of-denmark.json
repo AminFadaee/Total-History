@@ -18,8 +18,9 @@
   "related": [
     "Electorate of Saxony"
   ],
-  "contribution": "King of Denmark and Norway from 1523 and 1524, respectively, until his death in 1533, and earlier co-duke Duke of Schleswig and Holstein.",
+  "contribution": "King of Denmark and Norway from 1523 and 1524, respectively, until his death in 1533, and earlier co-Duke of Schleswig and Holstein.",
   "setting": "",
+  "modern_country": "Denmark",
   "image": "images/frederick-i-of-denmark.jpg",
   "image_credit": "Attributed to Jacob Binck · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Kalmar Union"
+      ],
+      "born_in": [
+        "Kalmar Union"
       ]
     },
-    "lead": "Frederick I (Danish and Norwegian: Frederik; German: Friedrich; 7 October 1471 – 10 April 1533) was King of Denmark and Norway from 1523 and 1524, respectively, until his death in 1533, and earlier co-duke Duke of Schleswig and Holstein.",
+    "lead": "Frederick I (Danish and Norwegian: Frederik; German: Friedrich; 7 October 1471 – 10 April 1533) was King of Denmark and Norway from 1523 and 1524, respectively, until his death in 1533, and earlier co-Duke of Schleswig and Holstein.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        9.49194444,
+        55.24972222
+      ],
+      "year": 1471
+    }
   }
 }

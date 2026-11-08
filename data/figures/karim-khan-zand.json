@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The founder of the Zand dynasty, ruling all of Iran except for Khorasan and Balochistan from 1751 to 1779.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/karim-khan-zand.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Safavid Dynasty"
+      ],
+      "born_in": [
+        "Safavid Dynasty"
       ]
     },
     "lead": "Mohammad Karim Khan Zand (Persian: محمدکریم خان زند, romanized: Mohammad Karīm Khân-e Zand; c. 1705 – 1 March 1779) was the founder of the Zand dynasty, ruling all of Iran (Persia) except for Khorasan and Balochistan from 1751 to 1779. He also ruled over some of the Caucasian lands and occupied Basra for some years.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        49.04555556,
+        34.13527778
+      ],
+      "year": 1705
+    }
   }
 }

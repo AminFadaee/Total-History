@@ -23,6 +23,7 @@
   ],
   "contribution": "King of Poland and Grand Duke of Lithuania from 1506 until his death in 1548.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/sigismund-i-the-old.jpg",
   "image_credit": "Hans von Kulmbach · Public domain",
   "image_kind": "Portrait from life",
@@ -39,10 +40,18 @@
         "Duchy of Masovia",
         "Principality of Moldavia",
         "Grand Principality of Moscow"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Sigismund I the Old (Polish: Zygmunt I Stary, Lithuanian: Žygimantas I Senasis; 1 January 1467 – 1 April 1548) was King of Poland and Grand Duke of Lithuania from 1506 until his death in 1548. He was a member of the Jagiellonian dynasty, the son of Casimir IV and younger brother of Kings John I Albert and Alexander Jagiellon. He was nicknamed \"the Old\" in later historiography to distinguish him from his son and successor, Sigismund II Augustus. Before ascending to the Polish and Lithuanian thrones, he was Duke of Głogów from 1499, Duke of Opava from 1501, and governor of Silesia from 1504 on behalf of his brother, King Vladislaus II of Bohemia and Hungary.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        21.56666667,
+        51.58333333
+      ],
+      "year": 1467
+    }
   }
 }

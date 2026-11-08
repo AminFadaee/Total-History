@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese tea master considered the most important influence on the Japanese tea ceremony, particularly the tradition of wabi-cha.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/sen-no-rikyu.jpg",
   "image_credit": "painted by 長谷川等伯, calligraphy by 春屋宗園 · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Warring States Japan"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
     "lead": "Sen no Rikyū (Japanese: 千 利休; 1522 – April 21, 1591), also known simply as Rikyū, was a Japanese tea master considered the most important influence on the Japanese tea ceremony, particularly the tradition of wabi-cha. He was also the first to emphasize several key aspects of the ceremony, including rustic simplicity, directness of approach and honesty of self. Originating from the Sengoku and Azuchi–Momoyama periods, these aspects of the tea ceremony persist.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        135.48305556,
+        34.57333333
+      ],
+      "year": 1522
+    }
   }
 }

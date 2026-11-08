@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian poet, playwright, orator, journalist, aristocrat, and Royal Italian Army officer during World War I.",
   "setting": "",
+  "modern_country": "",
   "image": "images/gabriele-d-annunzio.jpg",
   "image_credit": "Agence de presse Meurisse · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Kingdom of Italy"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "General Gabriele D'Annunzio, Prince of Montenevoso (12 March 1863 – 1 March 1938), sometimes written d'Annunzio as he used to sign himself, was an Italian poet, playwright, orator, journalist, aristocrat, and Royal Italian Army officer during World War I. He occupied a prominent place in Italian literature from 1889 to 1910 and in its political life from 1914 to 1924. He had the epithets il Profeta (The Prophet) and il Vate (The Poet): vate stems from the Latin vates, meaning a prophetic, divinatory, or inspirational poet.",
     "image": "",
-    "photo": "model 0.91, one person 0.99, in Category:Black and white portrait photographs of male people from Gallica"
+    "photo": "model 0.91, one person 0.99, in Category:Black and white portrait photographs of male people from Gallica",
+    "birth": {
+      "location": [
+        14.21416667,
+        42.46388889
+      ],
+      "year": 1863
+    }
   }
 }

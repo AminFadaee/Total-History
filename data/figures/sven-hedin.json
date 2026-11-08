@@ -21,6 +21,7 @@
   ],
   "contribution": "A Swedish geographer, topographer, explorer, photographer, travel writer and illustrator of his own works.",
   "setting": "",
+  "modern_country": "",
   "image": "images/sven-hedin.jpg",
   "image_credit": "George Grantham Bain Collection (Library of Congress) · Public domain",
   "image_kind": "Photograph",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "United Kingdoms of Sweden and Norway"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
     "lead": "Sven Anders Hedin, KNO1kl RVO, (19 February 1865 – 26 November 1952) was a Swedish geographer, topographer, explorer, photographer, travel writer and illustrator of his own works. During four expeditions to Central Asia, he made the Transhimalaya known in the West and located sources of the Brahmaputra, Indus and Sutlej Rivers. He also mapped lake Lop Nur, and the remains of cities, grave sites and the Great Wall of China in the deserts of the Tarim Basin. In his book Från pol till pol (From Pole to Pole), Hedin describes a journey through Asia and Europe between the late 1880s and the early 1900s. While traveling, Hedin visited Turkey, the Caucasus, Tehran, Iraq, lands of the Kyrgyz people and the Russian Far East, India, China and Japan. The posthumous publication of his Central Asia Atlas marked the conclusion of his life's work.",
     "image": "",
-    "photo": "model 0.93, one person 0.99"
+    "photo": "model 0.93, one person 0.99",
+    "birth": {
+      "location": [
+        18.06861111,
+        59.32944444
+      ],
+      "year": 1865
+    }
   }
 }

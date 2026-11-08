@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "German noble.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/christian-duke-of-saxe-eisenberg.jpg",
   "image_credit": "Unidentified painter · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Christian of Saxe-Eisenberg (6 January 1653 – 28 April 1707) was a duke of Saxe-Eisenberg.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        10.705,
+        50.94916667
+      ],
+      "year": 1653
+    }
   }
 }

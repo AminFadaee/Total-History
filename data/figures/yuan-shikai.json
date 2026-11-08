@@ -21,6 +21,7 @@
   ],
   "contribution": "A Chinese general and statesman.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/yuan-shikai.jpg",
   "image_credit": "Photo by Rio V. De Sieux · Public domain",
   "image_kind": "Photograph",
@@ -48,10 +49,20 @@
       ],
       "birthplace": [
         "Qing Dynasty"
+      ],
+      "born_in": [
+        "Qing Dynasty"
       ]
     },
-    "lead": "Yuan Shikai (traditional Chinese: 袁世凱; simplified Chinese: 袁世凯; pinyin: Yuán Shìkǎi; Wade–Giles: Yüan2 Shih4-k'ai3; 16 September 1859 – 6 June 1916) was a Chinese general and statesman. As leader of the Beiyang Army, he played a decisive role in securing the abdication of the Qing court. He served as the second provisional president and the first formal president of the Republic of China, with his administration known as the Beiyang government. He declared himself Emperor of the Chinese Empire in December 1915 but was forced to abdicate in March 1916.",
+    "lead": "Yuan Shikai (traditional Chinese: 袁世凱; simplified Chinese: 袁世凯; pinyin: Yuán Shìkǎi; Wade–Giles: Yüan² Shih⁴-k'ai³; 16 September 1859 – 6 June 1916) was a Chinese general and statesman. As leader of the Beiyang Army, he played a decisive role in securing the abdication of the Qing court. He served as the second provisional president and the first formal president of the Republic of China, with his administration known as the Beiyang government. He declared himself Emperor of the Chinese Empire in December 1915 but was forced to abdicate in March 1916.",
     "image": "",
-    "photo": "model 0.81, one person 0.97, captured 1915, during their lifetime"
+    "photo": "model 0.81, one person 0.97, captured 1915, during their lifetime",
+    "birth": {
+      "location": [
+        114.8753,
+        33.4658
+      ],
+      "year": 1859
+    }
   }
 }

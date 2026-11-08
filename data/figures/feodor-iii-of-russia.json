@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Tsar of all Russia from 1676 until his death in 1682.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/feodor-iii-of-russia.jpg",
   "image_credit": "Иван Салтанов, Ерофей Елин, Лука Смолянинов · Public domain",
   "image_kind": "Portrait from life",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Tsardom of Russia"
+      ],
+      "born_in": [
+        "Tsardom of Russia"
       ]
     },
     "lead": "Feodor III or Fyodor III Alekseyevich (Russian: Фёдор III Алексеевич; 9 June 1661 – 7 May 1682) was Tsar of all Russia from 1676 until his death in 1682. Despite poor health from childhood, he managed to pass reforms on improving meritocracy within the civil and military state administration as well as founding the Slavic Greek Latin Academy.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        37.61722222,
+        55.75583333
+      ],
+      "year": 1661
+    }
   }
 }

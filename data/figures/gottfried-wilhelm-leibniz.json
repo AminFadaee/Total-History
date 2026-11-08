@@ -15,8 +15,9 @@
     "Electorate of Saxony"
   ],
   "related": [],
-  "contribution": "A German polymath active as a mathematician, philosopher, scientist, and diplomat.",
+  "contribution": "A German polymath active as a mathematician, philosopher, scientist, engineer, inventor, historian and diplomat.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/gottfried-wilhelm-leibniz.jpg",
   "image_credit": "Christoph Bernhard Francke · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Electorate of Saxony"
+      ],
+      "born_in": [
+        "Electorate of Saxony"
       ]
     },
-    "lead": "Gottfried Wilhelm Leibniz (or Leibnitz; 1 July 1646 [O.S. 21 June] – 14 November 1716) was a German polymath active as a mathematician, philosopher, scientist, and diplomat. Alongside Isaac Newton, he is widely credited with the invention of calculus. He is also credited with making foundational contributions to other areas of mathematics, such as binary arithmetic and statistics.",
+    "lead": "Gottfried Wilhelm Leibniz (or Leibnitz; 1 July 1646 [O.S. 21 June] – 14 November 1716) was a German polymath active as a mathematician, philosopher, scientist, engineer, inventor, historian and diplomat. Alongside Isaac Newton, he is widely credited with the invention of calculus. He is also credited with making foundational contributions to other areas of mathematics, such as binary arithmetic and statistics.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.375,
+        51.34
+      ],
+      "year": 1646
+    }
   }
 }

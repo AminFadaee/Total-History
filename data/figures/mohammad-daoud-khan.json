@@ -20,6 +20,7 @@
   ],
   "contribution": "An Afghan military officer and politician who served as prime minister of Afghanistan from 1953 to 1963 and, as leader of the 1973 Afghan coup d'état which overthrew the monarchy, served as the first president of Afghanistan from 1973 until his assassination in 1978.",
   "setting": "",
+  "modern_country": "Afghanistan",
   "image": "images/mohammad-daoud-khan.jpg",
   "image_credit": "Unknown author / Government of Afghanistan; processing by Roman Kubanskiy · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       "citizenship": [
         "Kingdom of Afghanistan",
         "Republic of Afghanistan"
+      ],
+      "born_in": [
+        "Emirate of Afghanistan"
       ]
     },
     "lead": "Mohammad Daoud Khan (18 July 1909 – 28 April 1978), also romanized as Daud Khan or Dawood Khan, was an Afghan military officer and politician who served as prime minister of Afghanistan from 1953 to 1963 and, as leader of the 1973 Afghan coup d'état which overthrew the monarchy, served as the first president of Afghanistan from 1973 until his assassination in 1978.",
     "image": "",
-    "photo": "model 0.92, one person 1.00, captured 1973, during their lifetime"
+    "photo": "model 0.92, one person 1.00, captured 1973, during their lifetime",
+    "birth": {
+      "location": [
+        69.17833333,
+        34.52527778
+      ],
+      "year": 1909
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The seventh of ten Gurus of the Sikh religion.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/guru-har-rai.jpg",
   "image_credit": "Seu-Nainsukh workshop of Guler · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Guru Har Rai (Gurmukhi: ਗੁਰੂ ਹਰਿ ਰਾਇ, pronunciation: [gʊɾuː ɦəɾ ɾaːɪ]; 16 January 1630 – 6 October 1661) revered as the seventh Nanak, was the seventh of ten Gurus of the Sikh religion. He became the Sikh leader at age 14, on 3 March 1644, after the death of his grandfather and the sixth Sikh leader Guru Hargobind. He guided the Sikhs for about seventeen years, till his death at age 31.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        76.563549,
+        31.1820758
+      ],
+      "year": 1630
+    }
   }
 }

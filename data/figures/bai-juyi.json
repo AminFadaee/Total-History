@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Chinese musician, poet, and politician during the Tang dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/bai-juyi.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Tang Dynasty"
+      ],
+      "born_in": [
+        "Tang Dynasty"
       ]
     },
     "lead": "Bai Juyi (also Bo Juyi or Po Chü-i; Chinese: 白居易, Mandarin pinyin Bái Jūyì; 772–846), courtesy name Letian (樂天), was a Chinese musician, poet, and politician during the Tang dynasty. Many of his poems concern his career or observations made about everyday life, including as governor of three different provinces. He achieved fame as a writer of verse in a low-key, near vernacular style that was popular throughout medieval East Asia.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        113.7402,
+        34.3964
+      ],
+      "year": 772
+    }
   }
 }

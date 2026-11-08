@@ -12,12 +12,13 @@
   "occupation": "Politician",
   "birth_country": "Russia",
   "civilizations": [
-    "Principality of Ryazan",
-    "Kievan Rus'"
+    "Kievan Rus'",
+    "Principality of Ryazan"
   ],
   "related": [],
   "contribution": "Prince of Vladimir-Suzdal from 1157 until his death.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/andrey-bogolyubsky.jpg",
   "image_credit": "Unknown author · CC BY-SA 4.0",
   "image_kind": "Depiction",
@@ -26,8 +27,8 @@
   "checks": {
     "civilization_votes": {
       "death": [
-        "Kievan Rus'",
-        "Principality of Ryazan"
+        "Principality of Ryazan",
+        "Kievan Rus'"
       ],
       "citizenship": [
         "Principality of Rostov-Suzdal",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kievan Rus'"
+      ],
+      "born_in": [
+        "Kievan Rus'"
       ]
     },
     "lead": "Andrey I Yuryevich Bogolyubsky (Russian: Андрей Ю́рьевич Боголюбский, lit. 'Andrey Yuryevich of Bogolyubovo'; died 28 June 1174) was Prince of Vladimir-Suzdal from 1157 until his death. During repeated internecine wars between the princely clans, Andrey accompanied his father Yuri Dolgorukiy during a brief capture of Kiev in 1149. 20 years later, his son led the Sack of Kiev (1169). He was canonized as a saint in the Russian Orthodox Church in 1702.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        39.41666667,
+        57.18333333
+      ],
+      "year": 1111
+    }
   }
 }

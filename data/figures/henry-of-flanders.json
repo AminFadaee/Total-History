@@ -19,6 +19,7 @@
   ],
   "contribution": "Latin emperor of Constantinople from 1206 until his death in 1216.",
   "setting": "",
+  "modern_country": "",
   "image": "images/henry-of-flanders.jpg",
   "image_credit": "Vassil · CC0",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "County of Flanders"
+      ],
+      "born_in": [
+        "County of Flanders"
       ]
     },
     "lead": "Henry of Flanders (1178? – 11 June 1216) was Latin emperor of Constantinople from 1206 until his death in 1216. He was one of the leaders of the Fourth Crusade in which the Byzantine Empire was conquered and Latin Empire formed.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        3.52333333,
+        50.35805556
+      ],
+      "year": 1174
+    }
   }
 }

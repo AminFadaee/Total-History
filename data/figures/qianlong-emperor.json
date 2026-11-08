@@ -19,6 +19,7 @@
   ],
   "contribution": "The fifth emperor of the Qing dynasty and the fourth Qing emperor to rule over China proper.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/qianlong-emperor.jpg",
   "image_credit": "Unidentified painter · Public domain",
   "image_kind": "Portrait from life",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Qing Dynasty"
+      ],
+      "born_in": [
+        "Qing Dynasty"
       ]
     },
     "lead": "The Qianlong Emperor (25 September 1711 – 7 February 1799), also known by his temple name Emperor Gaozong of Qing, personal name Hongli, was the fifth emperor of the Qing dynasty and the fourth Qing emperor to rule over China proper. He reigned officially from 1735 until his abdication and retirement in 1796, but retained ultimate power subsequently until his death in 1799, making him one of history's longest-reigning and longest-lived monarchs.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        116.41111111,
+        39.94694444
+      ],
+      "year": 1711
+    }
   }
 }

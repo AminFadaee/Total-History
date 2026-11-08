@@ -19,6 +19,7 @@
   ],
   "contribution": "King of Burma from 1530 to 1550, and the founder of the First Toungoo Empire.",
   "setting": "",
+  "modern_country": "Myanmar",
   "image": "images/tabinshwehti.jpg",
   "image_credit": "R. C. Temple · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Toungoo dynasty"
+      ],
+      "born_in": [
+        "Toungoo dynasty"
       ]
     },
     "lead": "Tabinshwehti (Burmese: တပင်‌ရွှေထီး, [dəbɪ̀ɰ̃ ʃwè tʰí]; 16 April 1516 – 30 April 1550) was king of Burma from 1530 to 1550, and the founder of the First Toungoo Empire. His military campaigns (1534–1549) created the largest kingdom in Burma since the fall of the Pagan Empire in 1287. His administratively fragile kingdom proved to be the impetus for the eventual reunification of the entire country by his successor and brother-in-law Bayinnaung.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        96.43333333,
+        18.93333333
+      ],
+      "year": 1516
+    }
   }
 }

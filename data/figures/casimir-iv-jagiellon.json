@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "Grand Duke of Lithuania from 1440 and King of Poland as Casimir IV from 1447 until his death in 1492.",
   "setting": "",
+  "modern_country": "",
   "image": "images/casimir-iv-jagiellon.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Kingdom of Poland"
+      ],
+      "born_in": [
+        "Kingdom of Poland"
       ]
     },
     "lead": "Casimir Andrew Jagiellon (Polish: Kazimierz Andrzej Jagiellończyk [kaˈʑimjɛʂ jaɡʲɛ(l)ˈlɔj̃t͡ʂɨk] ; Lithuanian: ; 30 November 1427 – 7 June 1492) was Grand Duke of Lithuania from 1440 and King of Poland as Casimir IV from 1447 until his death in 1492. He was one of the most active Polish-Lithuanian rulers; under him, Poland defeated the Teutonic Knights in the Thirteen Years' War and recovered Pomerania.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        19.93722222,
+        50.06138889
+      ],
+      "year": 1427
+    }
   }
 }

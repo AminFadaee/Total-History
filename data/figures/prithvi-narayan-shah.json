@@ -20,6 +20,7 @@
   ],
   "contribution": "The last monarch of the Gorkha Kingdom and the founding monarch of the unified Kingdom of Nepal, also referred to as the Gorkha Empire.",
   "setting": "",
+  "modern_country": "",
   "image": "images/prithvi-narayan-shah.jpg",
   "image_credit": "CAPTAIN MEDUSA · Public domain",
   "image_kind": "Depiction",
@@ -44,10 +45,20 @@
       ],
       "birthplace": [
         "Gorkha Kingdom"
+      ],
+      "born_in": [
+        "Gorkha Kingdom"
       ]
     },
     "lead": "Prithvi Narayan Shah (Nepali: पृथ्वीनारायण शाह; 7 January 1723 – 11 January 1775) was the last monarch of the Gorkha Kingdom and the founding monarch of the unified Kingdom of Nepal, also referred to as the Gorkha Empire. He is credited with initiating the Unification of Nepal and relocating Kathmandu as the royal capital. He ruled Gorkha from 1743 to 1768 and Nepal from 1768 until his death in 1775. Through a series of strategic conquests, systemic economic blockades, and fragile political alliances, he expanded Gorkha's territory and laid the sovereign framework of modern Nepal.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        84.68333333,
+        28.28333333
+      ],
+      "year": 1723
+    }
   }
 }

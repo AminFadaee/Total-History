@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An ancient Greek tragedian, one of three from whom at least two plays have survived in full.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Classical Athens"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Sophocles (; Ancient Greek: Σοφοκλῆς, pronounced [so.pʰo.klɛ̂ːs], Sophoklễs; c. 497/496 – winter 406/405 BC) was an ancient Greek tragedian, one of three from whom at least two plays have survived in full. His first plays were written later than, or contemporary with, those of Aeschylus and earlier than, or contemporary with, those of Euripides. Sophocles wrote more than 120 plays, but only seven have survived in a complete form: Ajax, Antigone, Women of Trachis, Oedipus Rex, Electra, Philoctetes, and Oedipus at Colonus. For almost 50 years, Sophocles was the most celebrated playwright in the dramatic competitions of the city-state of Athens, which took place during the religious festivals of the Lenaea and the Dionysia. He competed in 30 competitions, won 24, and was never judged lower than second place. Aeschylus won 13 competitions and was sometimes beaten by Sophocles; Euripides won four.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        23.721885,
+        37.99907
+      ],
+      "year": -497
+    }
   }
 }

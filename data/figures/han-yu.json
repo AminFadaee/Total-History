@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An essayist, Confucian scholar, poet, and government official during the Tang dynasty who significantly influenced the development of Neo-Confucianism.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/han-yu.jpg",
   "image_credit": "Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Tang Dynasty"
+      ],
+      "born_in": [
+        "Tang Dynasty"
       ]
     },
     "lead": "Han Yu (Chinese: 韓愈; 768 – 25 December 824), courtesy name Tuizhi (Chinese: 退之), and commonly known by his posthumous name Han Wengong (韓文公), was an essayist, Confucian scholar, poet, and government official during the Tang dynasty who significantly influenced the development of Neo-Confucianism. Described as \"comparable in stature to Dante, Shakespeare or Goethe\" for his influence on the Chinese literary tradition,  Han Yu stood for strong central authority in politics and orthodoxy in cultural matters.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        112.7914,
+        34.9073
+      ],
+      "year": 768
+    }
   }
 }

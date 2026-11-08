@@ -15,15 +15,25 @@
   "related": [],
   "contribution": "An Ancient Greek mathematician, physicist, engineer, astronomer, and inventor from the city of Syracuse in Sicily.",
   "setting": "Southern Europe, 3rd century BC",
+  "modern_country": "",
   "image": "images/archimedes.jpg",
   "image_credit": "Domenico Fetti · Public domain",
   "image_kind": "Later depiction",
   "photo": "",
   "photo_credit": "",
   "checks": {
-    "civilization_votes": {},
+    "civilization_votes": {
+      "born_in": []
+    },
     "lead": "Archimedes of Syracuse ( AR-kih-MEE-deez; c. 287 – c. 212 BC) was an Ancient Greek mathematician, physicist, engineer, astronomer, and inventor from the city of Syracuse in Sicily. Although few details of his life are known, based on his surviving work, he is considered one of the leading scientists in classical antiquity, and one of the greatest mathematicians of all time. Archimedes anticipated modern calculus and analysis by applying the concept of the infinitesimals and the method of exhaustion to derive and rigorously prove many geometrical theorems, including the area of a circle, the surface area and volume of a sphere, the area of an ellipse, the area under a parabola, the volume of a segment of a paraboloid of revolution, the volume of a segment of a hyperboloid of revolution, and the area of a spiral.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        15.2875,
+        37.06916667
+      ],
+      "year": -287
+    }
   }
 }

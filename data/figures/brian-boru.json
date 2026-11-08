@@ -15,8 +15,9 @@
     "Viking settlements"
   ],
   "related": [],
-  "contribution": "He ended the domination of the High Kingship of Ireland by the Uí Néill, and is likely responsible for ending Viking invasions of Ireland.",
+  "contribution": "He ended the domination of the High Kingship of Ireland by the Uí Néill dynasty and is responsible for ending Viking invasions of Ireland.",
   "setting": "",
+  "modern_country": "",
   "image": "images/brian-boru.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,18 @@
       ],
       "lead": [
         "Viking settlements"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Brian Boru (Middle Irish: Brian Bóruma mac Cennétig; modern Irish: Brian Bóramha; c. 941 – 23 April 1014) was the High King of Ireland from 1002 to 1014. He ended the domination of the High Kingship of Ireland by the Uí Néill, and is likely responsible for ending Viking invasions of Ireland. Brian Boru is mentioned in the Annals of Inisfallen and in Chronicon Scotorum as \"Brian mac Cennétig\" (Brian, son of Cennétig). The name Brian of Bóruma or Brian Boru was given to him posthumously. Brian built on the achievements of his father, Cennétig mac Lorcain, and especially his elder brother, Mathgamain. Brian first made himself king of Munster, then subjugated Leinster, eventually becoming High King of Ireland. He was the founder of the O'Brien dynasty, and is widely regarded as one of the most successful and unifying monarchs in medieval Ireland.",
+    "lead": "Brian Boru (Middle Irish: Brian Bóruma mac Cennétig; modern Irish: Brian Bóramha; c. 941 – 23 April 1014) was the High King of Ireland from 1002 to 1014. He ended the domination of the High Kingship of Ireland by the Uí Néill dynasty and is responsible for ending Viking invasions of Ireland. Brian Boru is mentioned in the Annals of Inisfallen and in Chronicon Scotorum as \"Brian mac Cennétig\" (Brian, son of Cennétig). The name Brian of Bóruma or Brian Boru was given to him posthumously. Brian built on the achievements of his father, Cennétig mac Lorcain, and especially his elder brother, Mathgamain. Brian first made himself king of Munster, then subjugated Leinster, eventually becoming High King of Ireland. He was the founder of the O'Brien dynasty, and is widely regarded as one of the most successful and unifying monarchs in medieval Ireland.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -8.45,
+        52.8
+      ],
+      "year": 941
+    }
   }
 }

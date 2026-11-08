@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He served the Tokugawa clan as a general and is credited with saving the life of Tokugawa Ieyasu, later helping him to become the ruler of united Japan.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/hattori-hanzo.jpg",
   "image_credit": "Unknown · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Warring States Japan"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
-    "lead": "Hattori Hanzō (服部 半蔵; c. 1542 – January 2, 1597) or Second Hanzō, nicknamed Oni no Hanzō (鬼の半蔵, Damon Hanzō), was a samurai of the Sengoku era. He served the Tokugawa clan as a general and is credited with saving the life of Tokugawa Ieyasu, later helping him to become the ruler of united Japan.",
+    "lead": "Hattori Hanzō (服部 半蔵; c. 1542 – January 2, 1597) or Second Hanzō, nicknamed Oni no Hanzō (鬼の半蔵, Demon Hanzō), was a samurai of the Sengoku era. He served the Tokugawa clan as a general and is credited with saving the life of Tokugawa Ieyasu, later helping him to become the ruler of united Japan.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        137.17436111,
+        34.95433333
+      ],
+      "year": 1542
+    }
   }
 }

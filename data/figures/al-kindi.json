@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Mesopotamian Arab polymath who was active as a philosopher, mathematician, physician, and music theorist.",
   "setting": "",
+  "modern_country": "Iraq",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Abbasid Caliphate"
+      ],
+      "born_in": [
+        "Abbasid Caliphate"
       ]
     },
     "lead": "Abū Yūsuf Yaʻqūb ibn ʼIsḥāq aṣ-Ṣabbāḥ al-Kindī (; Arabic: أبو يوسف يعقوب بن إسحاق الصبّاح الكندي; Latin: Alkindus; c. 801–873 AD) was a Mesopotamian Arab polymath who was active as a philosopher, mathematician, physician, and music theorist. Al-Kindi was the first of the Islamic peripatetic philosophers, and is hailed as the \"father of Arab philosophy\".",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        44.4,
+        32.03
+      ],
+      "year": 801
+    }
   }
 }

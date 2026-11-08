@@ -19,8 +19,9 @@
     "French Third Republic",
     "United Kingdom"
   ],
-  "contribution": "A fascist dictator who was the prime minister of Italy from 1922 until his deposition in 1943.",
+  "contribution": "A fascist politician who served as the Prime Minister of Italy from 1922 until his deposition in 1943 and then as dictator of the Italian Social Republic, a puppet state of Nazi Germany.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/benito-mussolini.jpg",
   "image_credit": "Unknown · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Kingdom of Italy"
+      ],
+      "born_in": [
+        "Kingdom of Italy"
       ]
     },
-    "lead": "Benito Amilcare Andrea Mussolini (29 July 1883 – 28 April 1945) was a fascist dictator who was the prime minister of Italy from 1922 until his deposition in 1943. Known as Il Duce during his rule, he established a totalitarian dictatorship led by the National Fascist Party (PNF) in the Kingdom of Italy.",
+    "lead": "Benito Amilcare Andrea Mussolini (29 July 1883 – 28 April 1945) was a fascist politician who served as the Prime Minister of Italy from 1922 until his deposition in 1943 and then as dictator of the Italian Social Republic, a puppet state of Nazi Germany. Known as Il Duce during his regime, he established a totalitarian dictatorship led by the ruling National Fascist Party (PNF) in the Kingdom of Italy. He was one of the major national leaders in the Second World War in the Axis powers.",
     "image": "",
-    "photo": "model 0.83, one person 1.00, captured 1939, during their lifetime"
+    "photo": "model 0.83, one person 1.00, captured 1939, during their lifetime",
+    "birth": {
+      "location": [
+        11.98333333,
+        44.1
+      ],
+      "year": 1883
+    }
   }
 }

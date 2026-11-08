@@ -26,6 +26,7 @@
   ],
   "contribution": "A French general and statesman who led the Free French Forces against Nazi Germany and its puppet state of Vichy France in World War II and chaired the Provisional Government of the French Republic from 1944 to 1946 to restore democracy in France.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-de-gaulle.jpg",
   "image_credit": "The National Archives UK · No restrictions",
   "image_kind": "Photograph",
@@ -56,10 +57,20 @@
       ],
       "birthplace": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "French Third Republic"
       ]
     },
     "lead": "Charles André Joseph Marie de Gaulle (22 November 1890 – 9 November 1970) was a French general and statesman who led the Free French Forces against Nazi Germany and its puppet state of Vichy France in World War II and chaired the Provisional Government of the French Republic from 1944 to 1946 to restore democracy in France. Following the 1958 Algiers putsch, he came out of retirement at the request of President René Coty, who appointed him Prime Minister. He commissioned a new 1958 French constitution which was approved by voters in a swift majority, during a referendum, establishing the French Fifth Republic. He was subsequently elected the President of France later that year, a position he held until his resignation in 1969.",
     "image": "",
-    "photo": "model 0.95, one person 0.99, captured 1945, during their lifetime"
+    "photo": "model 0.95, one person 0.99, captured 1945, during their lifetime",
+    "birth": {
+      "location": [
+        3.0583,
+        50.6278
+      ],
+      "year": 1890
+    }
   }
 }

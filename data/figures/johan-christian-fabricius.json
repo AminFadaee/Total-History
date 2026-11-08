@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Danish zoologist, specialising in the \"Insecta\", which at that time included all arthropods: insects, arachnids, crustaceans and others.",
   "setting": "",
+  "modern_country": "Denmark",
   "image": "images/johan-christian-fabricius.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Denmark-Norway"
+      ],
+      "born_in": [
+        "Denmark-Norway"
       ]
     },
     "lead": "Johann Christian Fabricius (7 January 1745 – 3 March 1808) was a Danish zoologist, specialising in the \"Insecta\", which at that time included all arthropods: insects, arachnids, crustaceans and others. He was a student of Carl Linnaeus, and is considered one of the most important entomologists of the 18th century, having named nearly 10,000 species of animals, and established the basis for the modern insect classification.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        8.86388889,
+        54.94277778
+      ],
+      "year": 1745
+    }
   }
 }

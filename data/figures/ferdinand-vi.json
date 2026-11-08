@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Spain from 9 July 1746 until his death in 1759.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/ferdinand-vi.jpg",
   "image_credit": "Louis-Michel van Loo · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Ferdinand VI (Spanish: Fernando; 23 September 1713 – 10 August 1759), called the Learned (el Prudente) and the Just (el Justo), was King of Spain from 9 July 1746 until his death in 1759. He was the third ruler of the Spanish Bourbon dynasty. He was the son of King Philip V and Queen Maria Luisa.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -3.71416667,
+        40.41805556
+      ],
+      "year": 1713
+    }
   }
 }

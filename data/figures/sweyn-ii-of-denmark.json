@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Denmark from 1047 until his death in 1076.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Kingdom of Denmark"
+      ],
+      "born_in": [
+        "North Sea Empire"
       ]
     },
     "lead": "Sweyn II (c. 1019 – 28 April 1076), also known as Sweyn Estridsson (Old Norse: Sveinn Ástríðarson, Danish: Svend Estridsen) and Sweyn Ulfsson, was King of Denmark from 1047 until his death in 1076. He was the son of Ulf Thorgilsson and Estrid Svendsdatter, and the grandson of Sweyn Forkbeard through his mother's line. He was married at least twice, and fathered 20 children or more out of wedlock, including the five future kings Harald Hen, Saint Canute, Oluf Hunger, Eric Evergood, and Niels.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -1.38,
+        53.13
+      ],
+      "year": 1020
+    }
   }
 }

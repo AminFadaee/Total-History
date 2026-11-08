@@ -20,6 +20,7 @@
   ],
   "contribution": "King of England from 1189 until his death in 1199.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/richard-i-of-england.jpg",
   "image_credit": "Matthew Paris · Public domain",
   "image_kind": "Later depiction",
@@ -40,10 +41,18 @@
         "Duchy of Gascony",
         "Duchy of Aquitaine",
         "Angevin Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Richard I (8 September 1157 – 6 April 1199), known as Richard the Lionheart or Richard Cœur de Lion (Old Norman French: Quor de Lion) because of his reputation as a great military leader and warrior, was King of England from 1189 until his death in 1199. He also ruled as Duke of Normandy, Aquitaine, and Gascony; Lord of Cyprus; Count of Poitiers, Anjou, Maine, and Nantes; and was overlord of Brittany at various times during the same period. He was the third of five sons of Henry II of England and Eleanor of Aquitaine and was therefore not expected to become king, but his two elder brothers predeceased their father.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -1.2627,
+        51.755
+      ],
+      "year": 1157
+    }
   }
 }

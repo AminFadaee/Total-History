@@ -1,0 +1,54 @@
+{
+  "id": "Q554264",
+  "slug": "antonio-maceo",
+  "name": "Antonio Maceo",
+  "wikipedia": "Antonio Maceo",
+  "role": "Cuban independence general",
+  "life": "1845–1896",
+  "lifetime": [
+    1845,
+    1896
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Cuba",
+  "civilizations": [
+    "Spanish Empire"
+  ],
+  "related": [
+    "Venezuela"
+  ],
+  "contribution": "General José Antonio de la Caridad Maceo y Grajales was a Cuban general and second-in-command of the Cuban Army of Independence.",
+  "setting": "",
+  "modern_country": "Cuba",
+  "image": "images/antonio-maceo.jpg",
+  "image_credit": "Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/antonio-maceo-photo.jpg",
+  "photo_credit": "Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of Spain"
+      ],
+      "lead": [
+        "Venezuela"
+      ],
+      "birthplace": [
+        "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
+      ]
+    },
+    "lead": "Lt. General José Antonio de la Caridad Maceo y Grajales (June 14, 1845 – December 7, 1896) was a Cuban general and second-in-command of the Cuban Army of Independence.",
+    "image": "",
+    "photo": "model 0.94, one person 0.86",
+    "birth": {
+      "location": [
+        -75.82944444,
+        20.02166667
+      ],
+      "year": 1845
+    }
+  }
+}

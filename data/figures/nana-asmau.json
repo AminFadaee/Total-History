@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Fula princess, poet, teacher, public intellectual, political actor and scholarly authority and a daughter of the founder of the Sokoto Caliphate, Usman dan Fodio.",
   "setting": "",
+  "modern_country": "Nigeria",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Sokoto Caliphate"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Nana Asmaʾu (; full name: Asmaʾu bint Shehu Usman dan Fodiyo , Arabic: نانا أسماء بنت عثمان فودي; 1793–1864) was a Fula princess, poet, teacher, public intellectual, political actor and scholarly authority and a daughter of the founder of the Sokoto Caliphate, Usman dan Fodio. She remains a revered figure in northern Nigeria.",
     "image": "no candidate image",
-    "photo": "no candidate image"
+    "photo": "no candidate image",
+    "birth": {
+      "location": [
+        5.24777778,
+        13.06722222
+      ],
+      "year": 1793
+    }
   }
 }

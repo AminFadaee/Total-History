@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The Afsharid king of the western part of Khorasan from 1748 to 1796, with a two-month interruption.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/shahrokh-shah.jpg",
   "image_credit": "Christies.com · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Afsharid Iran"
+      ],
+      "born_in": [
+        "Afsharid Iran"
       ]
     },
     "lead": "Shahrokh Mirza (Persian: شاهرخ‌میرزا‎; 1734–1796), better known by his dynastic title of Shahrokh Shah (شاهرخ‌ شاه‎), was the Afsharid king (shah) of the western part of Khorasan (corresponding to the present-day Khorasan Province) from 1748 to 1796, with a two-month interruption.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        59.54333333,
+        36.32638889
+      ],
+      "year": 1734
+    }
   }
 }

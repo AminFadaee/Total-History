@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Albanian politician, revolutionary, and communist political theorist who was the leader of Albania from 1944 until his death in 1985.",
   "setting": "People's Socialist Republic of Albania",
+  "modern_country": "Albania",
   "image": "images/enver-hoxha.jpg",
   "image_credit": "None listed · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "citizenship": [
         "People's Socialist Republic of Albania"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Enver Halil Hoxha (16 October 1908 – 11 April 1985) was an Albanian politician, revolutionary, and communist political theorist who was the leader of Albania from 1944 until his death in 1985. He served as the First Secretary of the Party of Labour of Albania from 1941 until his death, while concurrently holding membership in its Politburo, chairman of the Democratic Front of Albania, and commander-in-chief of the Albanian People's Army. Additionally, he was the twenty-second Prime Minister of Albania from 1944 to 1954, periodically assuming the titles of foreign minister and defence minister.",
     "image": "",
-    "photo": "model 0.94, one person 1.00"
+    "photo": "model 0.94, one person 1.00",
+    "birth": {
+      "location": [
+        20.13333333,
+        40.06666667
+      ],
+      "year": 1908
+    }
   }
 }

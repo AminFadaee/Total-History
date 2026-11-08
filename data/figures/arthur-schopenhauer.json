@@ -11,10 +11,13 @@
   ],
   "occupation": "Philosopher",
   "birth_country": "Poland",
-  "civilizations": [],
+  "civilizations": [
+    "Polish-Lithuanian Commonwealth"
+  ],
   "related": [],
   "contribution": "He is known for his 1818 work The World as Will and Representation, which characterizes the phenomenal world as the manifestation of a blind and irrational noumenal will.",
-  "setting": "Western Europe, 19th century",
+  "setting": "",
+  "modern_country": "Poland",
   "image": "images/arthur-schopenhauer.jpg",
   "image_credit": "Johann Schäfer · Public domain",
   "image_kind": "Photograph",
@@ -24,10 +27,20 @@
     "civilization_votes": {
       "death": [
         "Grand Duchy of Hesse"
+      ],
+      "born_in": [
+        "Polish-Lithuanian Commonwealth"
       ]
     },
-    "lead": "Arthur Schopenhauer (22 February 1788 – 21 September 1860), also known as the “Philosopher of Pessimism”, was a German philosopher and writer. He is known for his 1818 work The World as Will and Representation (expanded in 1844), which characterizes the phenomenal world as the manifestation of a blind and irrational noumenal will. Building on the transcendental idealism of Immanuel Kant, Schopenhauer developed an atheistic, metaphysical and ethical system that rejected the contemporaneous ideas of German idealism.",
+    "lead": "Arthur Schopenhauer (22 February 1788 – 21 September 1860), also known as the \"Philosopher of Pessimism\", was a German philosopher and writer. He is known for his 1818 work The World as Will and Representation (expanded in 1844), which characterizes the phenomenal world as the manifestation of a blind and irrational noumenal will. Building on the transcendental idealism of Immanuel Kant, Schopenhauer developed an atheistic, metaphysical and ethical system that rejected the contemporaneous ideas of German idealism.",
     "image": "",
-    "photo": "model 0.73, one person 0.94, in Category:Arthur Schopenhauer, second photograph made by Johann Schäfer (1859)"
+    "photo": "model 0.73, one person 0.94, in Category:Arthur Schopenhauer, second photograph made by Johann Schäfer (1859)",
+    "birth": {
+      "location": [
+        18.64527778,
+        54.3475
+      ],
+      "year": 1788
+    }
   }
 }

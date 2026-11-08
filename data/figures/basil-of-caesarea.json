@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An early Christian prelate.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/basil-of-caesarea.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
     "lead": "Basil of Caesarea, also called Saint Basil the Great (330 – 1 or 2 January 379), was an early Christian prelate. He served as Bishop of Caesarea Mazaca in Cappadocia from 370 until his death in 379. He was an influential theologian who supported the Nicene Creed and opposed heresies within the early Christian church such as Arianism and Apollinarianism.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        35.4875,
+        38.7225
+      ],
+      "year": 329
+    }
   }
 }

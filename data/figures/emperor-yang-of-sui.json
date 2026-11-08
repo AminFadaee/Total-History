@@ -21,6 +21,7 @@
   ],
   "contribution": "The second emperor of the Sui dynasty of China.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/emperor-yang-of-sui.jpg",
   "image_credit": "Yan Liben · Public domain",
   "image_kind": "Later depiction",
@@ -42,10 +43,20 @@
       ],
       "citizenship": [
         "Sui Dynasty"
+      ],
+      "born_in": [
+        "Northern Zhou"
       ]
     },
     "lead": "Emperor Yang of Sui (Chinese: 隋煬帝, 569 – 11 April 618), personal name Yang Guang (楊廣), alternative name Ying (英), childhood name Amo (阿摩), Xianbei name Puliuru Guang (普六茹廣), was the second emperor of the Sui dynasty of China.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        108.85833333,
+        34.30833333
+      ],
+      "year": 569
+    }
   }
 }

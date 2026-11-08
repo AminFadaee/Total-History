@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The novel sequence La Comédie humaine, described as a panorama of post-Napoleonic French life, is generally viewed as his magnum opus.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/honore-de-balzac.jpg",
   "image_credit": "Louis-Auguste Bisson · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Bourbon Kingdom of France"
+      ],
+      "born_in": [
+        "French First Republic"
       ]
     },
     "lead": "Honoré de Balzac ( BAL-zak, also US:  BAWL-; French: [ɔnɔʁe d(ə) balzak]; born Honoré Balzac; 20 May 1799 – 18 August 1850) was a French novelist and playwright. The novel sequence La Comédie humaine, described as a panorama of post-Napoleonic French life, is generally viewed as his magnum opus.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        0.689167,
+        47.393611
+      ],
+      "year": 1799
+    }
   }
 }

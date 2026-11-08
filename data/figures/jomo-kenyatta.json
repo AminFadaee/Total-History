@@ -1,0 +1,53 @@
+{
+  "id": "Q173563",
+  "slug": "jomo-kenyatta",
+  "name": "Jomo Kenyatta",
+  "wikipedia": "Jomo Kenyatta",
+  "role": "President of Kenya from 1964 to 1978",
+  "life": "1893–1978",
+  "lifetime": [
+    1893,
+    1978
+  ],
+  "occupation": "Politician",
+  "birth_country": "Kenya",
+  "civilizations": [
+    "Republic of Kenya"
+  ],
+  "related": [
+    "British Empire"
+  ],
+  "contribution": "A Kenyan anti-colonial activist and politician who governed Kenya as its Prime Minister from 1963 to 1964 and then as its first President from 1964 to his death in 1978.",
+  "setting": "Republic of Kenya",
+  "modern_country": "Kenya",
+  "image": "images/jomo-kenyatta.jpg",
+  "image_credit": "Pridan Moshe · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/jomo-kenyatta-photo.jpg",
+  "photo_credit": "Pridan Moshe · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Republic of Kenya"
+      ],
+      "lead": [
+        "Republic of Kenya",
+        "British Empire"
+      ],
+      "citizenship": [
+        "Republic of Kenya"
+      ],
+      "born_in": []
+    },
+    "lead": "Jomo Kenyatta (c. 1897 – 22 August 1978) was a Kenyan anti-colonial activist and politician who governed Kenya as its Prime Minister from 1963 to 1964 and then as its first President from 1964 to his death in 1978. He played a significant role in the transformation of Kenya from a colony of the British Empire into an independent republic. Ideologically an African nationalist and a conservative, he led the Kenya African National Union (KANU) party from 1961 until his death.",
+    "image": "",
+    "photo": "model 0.94, one person 0.97, captured 1966, during their lifetime",
+    "birth": {
+      "location": [
+        36.92,
+        -1.05
+      ],
+      "year": 1893
+    }
+  }
+}

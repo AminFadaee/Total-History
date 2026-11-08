@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "His Nahuatl names mean \"Runs Swiftly with a Shield\" and \"Rising Eagle\", respectively, and he claimed descent from the lords of Tenango-Amecameca-Chalco.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Domingo Francisco de San Antón Muñón Chimalpahin Quauhtlehuanitzin (1579, Amecameca, Chalco – 1660, Mexico City), usually referred to simply as Chimalpahin or Chimalpain, was a Nahua annalist from Chalco. His Nahuatl names (Nahuatl pronunciation: [tʃiːmaɬˈpaː.in kʷaːʍtɬeːwaˈnitsin]) mean \"Runs Swiftly with a Shield\" and \"Rising Eagle\", respectively, and he claimed descent from the lords of Tenango-Amecameca-Chalco. He was the grandson of the late Don Domingo Hernández Ayopochtzin, a seventh-generation descendant of the founding king of the polity. Don Domingo was learned and esteemed, especially for his education and his record-keeping skills in the ancient tradition.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -98.76666667,
+        19.11666667
+      ],
+      "year": 1579
+    }
   }
 }

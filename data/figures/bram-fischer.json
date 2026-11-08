@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A South African Communist lawyer of Afrikaner descent with partial Anglo-African ancestry from his paternal grandmother, notable for anti-apartheid activism and for the legal defence of anti-apartheid figures, including Nelson Mandela, at the Rivonia Trial.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/bram-fischer.jpg",
   "image_credit": "Unknown author · CC BY 2.5",
   "image_kind": "Photograph",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "South Africa"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Abram  Fischer (23 April 1908 – 8 May 1975) was a South African Communist lawyer of Afrikaner descent with partial Anglo-African ancestry from his paternal grandmother, notable for anti-apartheid activism and for the legal defence of anti-apartheid figures, including Nelson Mandela, at the Rivonia Trial. Following the trial, he was himself put on trial accused of furthering communism. He was sentenced to life imprisonment and diagnosed with cancer while in prison. The South African Prisons Act was extended to include his brother's house in Bloemfontein,  where he died two months later.",
     "image": "",
-    "photo": "no candidate image"
+    "photo": "no candidate image",
+    "birth": {
+      "location": [
+        26.21666667,
+        -29.11666667
+      ],
+      "year": 1908
+    }
   }
 }

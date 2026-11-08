@@ -23,6 +23,7 @@
   ],
   "contribution": "The Prince of Wallachia, Prince of Moldavia and de facto ruler of Transylvania.",
   "setting": "",
+  "modern_country": "",
   "image": "images/michael-the-brave.jpg",
   "image_credit": "Aegidius Sadeler · Public domain",
   "image_kind": "Portrait from life",
@@ -47,10 +48,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Michael the Brave (Romanian: Mihai Viteazul [miˈhaj viˈte̯azul] or Mihai Bravu [ˈbravu]; 1558 – 9 August 1601), born as Mihai Pătrașcu, was the Prince of Wallachia (as Michael II, 1593–1601), Prince of Moldavia (1600) and de facto ruler of Transylvania (1599–1600). He is considered one of Romania's greatest national heroes. Since the 19th century, Michael the Brave has been regarded by Romanian nationalists as a symbol of Romanian unity, as his reign marked the first time in history all principalities inhabited by Romanians were under the same ruler.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.82833333,
+        44.69111111
+      ],
+      "year": 1558
+    }
   }
 }

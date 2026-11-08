@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Russian composer of the Romantic period.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/pyotr-ilyich-tchaikovsky.jpg",
   "image_credit": "Nikolai Kuznetsov · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Pyotr Ilyich Tchaikovsky (  chy-KOF-skee; 7 May 1840 – 6 November 1893) was a Russian composer of the Romantic period. He was the first Russian composer whose music made a lasting impression internationally. Tchaikovsky wrote some of the most popular concert and theatrical music in the classical repertoire, including the 1812 Overture, his First Piano Concerto, the Violin Concerto, the Romeo and Juliet Overture-Fantasy, several symphonies, the opera Eugene Onegin, and the ballets Swan Lake, The Sleeping Beauty and The Nutcracker.",
     "image": "",
-    "photo": "Porträt des Komponisten Pjotr I. Tschaikowski (1840-1893).jpg: model 0.02, one person 0.98; Tchaikovsky's signature (transparent).png: model 0.23, one person 0.00, captured 1850, during their lifetime; Tchaikovsky's signature.jpg: model 0.17, one person 0.00, captured 1850, during their lifetime; Скиццы.png: model 0.77, one person 0.00, captured 1892, during their lifetime; Il diario di Tchaikovsky \"No. 6\", giugno 1887.jpg: model 0.87, one person 0.00; Чайковський-Дворжаку.jpg: model 0.74, one person 0.00, captured 1889, during their lifetime; Tschaikowski-Bank.JPG: model 0.06, one person 0.03; Vintage vinyl records (Unsplash).jpg: model 0.92, one person 0.11, classified as a photograph on Commons; Tchaikovsky signature 1887.jpg: model 0.05, one person 0.00, captured 1887, during their lifetime; П.А. Россиев статья Где жил П.И. Чайковский. Журнал Новый мир. № 134. 1904 г. ч2.jpg: model 0.79, one person 0.00"
+    "photo": "Porträt des Komponisten Pjotr I. Tschaikowski (1840-1893).jpg: model 0.02, one person 0.98; Tchaikovsky's signature (transparent).png: model 0.23, one person 0.00, captured 1850, during their lifetime; Tchaikovsky's signature.jpg: model 0.17, one person 0.00, captured 1850, during their lifetime; Скиццы.png: model 0.77, one person 0.00, captured 1892, during their lifetime; Il diario di Tchaikovsky \"No. 6\", giugno 1887.jpg: model 0.87, one person 0.00; Чайковський-Дворжаку.jpg: model 0.74, one person 0.00, captured 1889, during their lifetime; Tschaikowski-Bank.JPG: model 0.06, one person 0.03; Vintage vinyl records (Unsplash).jpg: model 0.92, one person 0.11, classified as a photograph on Commons; Tchaikovsky signature 1887.jpg: model 0.05, one person 0.00, captured 1887, during their lifetime; П.А. Россиев статья Где жил П.И. Чайковский. Журнал Новый мир. № 134. 1904 г. ч2.jpg: model 0.79, one person 0.00",
+    "birth": {
+      "location": [
+        54.0,
+        57.05
+      ],
+      "year": 1840
+    }
   }
 }

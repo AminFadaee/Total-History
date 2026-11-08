@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Swedish Catholic mystic and the founder of the Bridgettines.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/bridget-of-sweden.jpg",
   "image_credit": "Hermann Rode (late 15th century) · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Bridget of Sweden, OSsS (c. 1304 – 23 July 1373), also known as Birgitta Birgersdotter and Birgitta of Vadstena (Swedish: heliga Birgitta), was a Swedish Catholic mystic and the founder of the Bridgettines. Outside Sweden, she was also known as the Princess of Nericia. She was the mother of Catherine of Vadstena.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.0,
+        60.0
+      ],
+      "year": 1303
+    }
   }
 }

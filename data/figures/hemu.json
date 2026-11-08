@@ -19,6 +19,7 @@
   ],
   "contribution": "An Indian king who previously served as a general and Wazir of Adil Shah Suri of the Sur Empire during a period in Indian history when the Mughals and Afghans were vying for power across North India.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/hemu.jpg",
   "image_credit": "1602-03 artist · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Delhi Sultanate"
+      ],
+      "born_in": [
+        "Delhi Sultanate"
       ]
     },
     "lead": "Hemu (; 1501 – 5 November 1556), also known as Hemu Vikramaditya and Hemchandra Vikramaditya, was an Indian king (maharaja) who previously served as a general and Wazir of Adil Shah Suri of the Sur Empire during a period in Indian history when the Mughals and Afghans were vying for power across North India. He fought Afghan rebels across North India from Punjab to Bengal and Mughal forces of Humayun and Akbar in Agra and Delhi, winning 22 battles for Adil Shah Suri.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        76.635539,
+        27.54978
+      ],
+      "year": 1501
+    }
   }
 }

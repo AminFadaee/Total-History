@@ -1,0 +1,61 @@
+{
+  "id": "Q188939",
+  "slug": "emilio-aguinaldo",
+  "name": "Emilio Aguinaldo",
+  "wikipedia": "Emilio Aguinaldo",
+  "role": "Filipino revolutionary leader",
+  "life": "1869–1964",
+  "lifetime": [
+    1869,
+    1964
+  ],
+  "occupation": "Politician",
+  "birth_country": "Philippines",
+  "civilizations": [
+    "Republic of the Philippines"
+  ],
+  "related": [
+    "Kingdom of Spain",
+    "United States of America",
+    "Empire of Japan"
+  ],
+  "contribution": "A Filipino revolutionary, statesman, and military leader who served as president of the Philippines from 1899 to 1901, and the president of the first constitutional republic in Asia.",
+  "setting": "Republic of the Philippines",
+  "modern_country": "Philippines",
+  "image": "images/emilio-aguinaldo.jpg",
+  "image_credit": "Harris & Ewing Photo Studio · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/emilio-aguinaldo-photo.jpg",
+  "photo_credit": "Unknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Republic of the Philippines"
+      ],
+      "lead": [
+        "Kingdom of Spain",
+        "United States of America",
+        "Empire of Japan"
+      ],
+      "citizenship": [
+        "Republic of the Philippines"
+      ],
+      "birthplace": [
+        "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
+      ]
+    },
+    "lead": "Emilio Aguinaldo y Famy (Spanish: [eˈmiljo aɣiˈnaldo j ˈfami]: March 22, 1869 – February 6, 1964) was a Filipino revolutionary, statesman, and military leader who served as president of the Philippines from 1899 to 1901, and the president of the first constitutional republic in Asia. He led Philippine forces first against Restoration-era Spain in the Philippine Revolution (1896–1898), then in the Spanish–American War (1898), and later against the United States during the Philippine–American War (1899–1901). He is regarded in the Philippines as the country's first president during the period of the First Philippine Republic, although his presidency was not widely recognized outside of the revolutionary Philippines.",
+    "image": "",
+    "photo": "model 0.86, one person 0.99, in Category:1898 portrait photographs of men",
+    "birth": {
+      "location": [
+        120.9,
+        14.43
+      ],
+      "year": 1869
+    }
+  }
+}

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Brazilian poet, novelist, musicologist, art historian and critic, and photographer.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/mario-de-andrade.jpg",
   "image_credit": "Michelle Rizzo (1869-1929) derivative work: Materialscientist · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Brazilian Republic"
+      ],
+      "born_in": [
+        "Brazilian Republic"
       ]
     },
     "lead": "Mário Raul de Morais Andrade (Portuguese pronunciation: [ˈmaɾiu ʁaˈu dʒi moˈɾajs  ɐ̃ˈdɾadʒi]; October 9, 1893 – February 25, 1945) was a Brazilian poet, novelist, musicologist, art historian and critic, and photographer. He wrote one of the first and most influential collections of modern Brazilian poetry, Paulicéia Desvairada (Hallucinated City), published in 1922. He has had considerable influence on modern Brazilian literature, and as a scholar and essayist—he was a pioneer of the field of ethnomusicology—his influence has reached far beyond Brazil.",
     "image": "",
-    "photo": "model 0.96, one person 0.99"
+    "photo": "model 0.96, one person 0.99",
+    "birth": {
+      "location": [
+        -46.63333333,
+        -23.55
+      ],
+      "year": 1893
+    }
   }
 }

@@ -22,6 +22,7 @@
   ],
   "contribution": "King of León, Galicia, and Castile.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/alfonso-vi-of-leon-and-castile.jpg",
   "image_credit": "Uploaded by MaiDireLollo · Public domain",
   "image_kind": "Depiction",
@@ -51,10 +52,20 @@
       ],
       "birthplace": [
         "Kingdom of León"
+      ],
+      "born_in": [
+        "Kingdom of León"
       ]
     },
     "lead": "Alfonso VI (c. 1040/1041 – 1 July 1109), nicknamed the Brave (El Bravo) or the Valiant, was king of León (1065–1109), Galicia (1071–1109), and Castile (1072–1109).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -8.54444444,
+        42.87777778
+      ],
+      "year": 1040
+    }
   }
 }

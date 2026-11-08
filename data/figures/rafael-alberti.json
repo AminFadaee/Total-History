@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Spanish poet, a member of the Generation of '27.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/rafael-alberti.jpg",
   "image_credit": "Nemo · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Rafael Alberti Merello (16 December 1902 – 28 October 1999) was a Spanish poet, a member of the Generation of '27. He is considered one of the greatest literary figures of the so-called Silver Age of Spanish Literature, and he won numerous prizes and awards. He died aged 96.",
     "image": "",
-    "photo": "model 0.74, one person 0.92, captured 1978, during their lifetime"
+    "photo": "model 0.74, one person 0.92, captured 1978, during their lifetime",
+    "birth": {
+      "location": [
+        -6.23814722,
+        36.60146944
+      ],
+      "year": 1902
+    }
   }
 }

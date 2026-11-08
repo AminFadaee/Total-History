@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An American writer, poet, editor, and literary critic who is best known for his poetry and short stories, particularly his tales involving mystery and the macabre.",
   "setting": "",
+  "modern_country": "United States",
   "image": "images/edgar-allan-poe.jpg",
   "image_credit": "Unknown author; Restored by Yann Forget and Adam Cuerden · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
     "lead": "Edgar Allan Poe (January 19, 1809 – October 7, 1849) was an American writer, poet, editor, and literary critic who is best known for his poetry and short stories, particularly his tales involving mystery and the macabre. He is widely regarded as one of the central figures of Romanticism and Gothic fiction in the United States and of early American literature.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -71.05777778,
+        42.36027778
+      ],
+      "year": 1809
+    }
   }
 }

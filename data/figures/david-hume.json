@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Scottish philosopher, historian, economist and essayist who is known for his highly influential system of empiricism, philosophical scepticism and metaphysical naturalism.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/david-hume.jpg",
   "image_credit": "Allan Ramsay · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of Great Britain"
+      ],
+      "born_in": [
+        "Kingdom of Great Britain"
       ]
     },
     "lead": "David Hume (; born David Home; 7 May 1711 – 25 August 1776) was a Scottish philosopher, historian, economist and essayist who is known for his highly influential system of empiricism, philosophical scepticism and metaphysical naturalism. Beginning with A Treatise of Human Nature (1739–40), Hume strove to create a naturalistic science of man that examined the psychological basis of human nature. Following John Locke, Hume rejected the existence of innate ideas, holding that all our ideas derive ultimately from impressions, but in his fork he distinguished relations of ideas, known a priori, from matters of fact, whose knowledge rests on experience. This places him in the empiricist tradition of Locke and George Berkeley, while drawing his experimental method from Francis Bacon.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -3.18555556,
+        55.95055556
+      ],
+      "year": 1711
+    }
   }
 }

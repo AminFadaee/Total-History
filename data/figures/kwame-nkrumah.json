@@ -20,8 +20,9 @@
     "Union of Soviet Socialist Republics",
     "Guinea"
   ],
-  "contribution": "A Ghanaian politician, political theorist, and revolutionary.",
+  "contribution": "A Ghanaian politician, political theorist and revolutionary.",
   "setting": "",
+  "modern_country": "",
   "image": "images/kwame-nkrumah.jpg",
   "image_credit": "Abbie Rowe · Public domain",
   "image_kind": "Photograph",
@@ -50,10 +51,20 @@
       ],
       "birthplace": [
         "British Gold Coast"
+      ],
+      "born_in": [
+        "British Gold Coast"
       ]
     },
-    "lead": "Kwame Nkrumah (born Francis Nwia Kofi Ngonloma, /(ə)nˈkruːmə/ (ə)n-KROO-mə; 21 September 1909 – 27 April 1972) was a Ghanaian politician, political theorist, and revolutionary. He served as Prime Minister of the Gold Coast from 1952 until 1957, when it gained independence from the United Kingdom. He was then the first prime minister and then the president of Ghana, from 1957 until 1966. An influential advocate of Pan-Africanism, Nkrumah was a founding member of the Organisation of African Unity (OAU) and winner of the Lenin Peace Prize from the Soviet Union in 1962.",
+    "lead": "Kwame Nkrumah (born Francis Nwia Kofi Nkrumah  (ə)n-KROO-mə; 21 September 1909 – 27 April 1972) was a Ghanaian politician, political theorist and revolutionary. He served as Prime Minister of the Gold Coast from 1952 until 1957, when it gained independence from the United Kingdom. He was then the first prime minister and then the president of Ghana, from 1957 until 1966. An influential advocate of Pan-Africanism, Nkrumah was a founding member of the Organisation of African Unity (OAU) and winner of the Lenin Peace Prize from the Soviet Union in 1962.",
     "image": "",
-    "photo": "model 0.93, one person 1.00, captured 1961, during their lifetime"
+    "photo": "model 0.93, one person 1.00, captured 1961, during their lifetime",
+    "birth": {
+      "location": [
+        -2.32222222,
+        4.96388889
+      ],
+      "year": 1909
+    }
   }
 }

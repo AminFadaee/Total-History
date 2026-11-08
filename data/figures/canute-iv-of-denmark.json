@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Canute was an ambitious king who sought to strengthen the Danish monarchy, devotedly supported the Roman Catholic Church, and wanted the English throne.",
   "setting": "",
+  "modern_country": "Denmark",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Kingdom of Denmark"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Canute IV (c. 1042 – 10 July 1086), later known as Canute the Holy (Danish: Knud IV den Hellige) or Saint Canute (Sankt Knud), was King of Denmark from 1080 until 1086. Canute was an ambitious king who sought to strengthen the Danish monarchy, devotedly supported the Roman Catholic Church, and wanted the English throne. Slain by rebels in 1086, he was the first Danish king to be canonized. He was recognized by the Roman Catholic Church as patron saint of Denmark in 1101.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        10.0,
+        56.0
+      ],
+      "year": 1043
+    }
   }
 }

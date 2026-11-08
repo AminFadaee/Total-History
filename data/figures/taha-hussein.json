@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "Among the most influential 20th-century Egyptian writers and intellectuals, and a leading figure of the Arab Renaissance and the modernist movement in the Arab world.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/taha-hussein.jpg",
   "image_credit": "Original uploader was Zerida at en.wikipedia (Original text: Zerida) · Public domain",
   "image_kind": "Photograph",
@@ -36,10 +37,18 @@
         "Kingdom of Egypt",
         "United Arab Republic",
         "Republic of Egypt"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Taha Hussein (Arabic: طه حسين, romanized: Ṭāhā Ḥusayn, Egyptian Arabic: [ˈtˤɑːhɑ ħ(e)ˈseːn]; November 15, 1889 – October 28, 1973) was among the most influential 20th-century Egyptian writers and intellectuals, and a leading figure of the Arab Renaissance and the modernist movement in the Arab world. His sobriquet was \"The Dean of Arabic Literature\" (Arabic: عميد الأدب العربي, romanized: ʿAmīd al-Adab al-ʿArabī).",
+    "lead": "Taha Hussein (Arabic: طه حسين, romanized: Ṭāhā Ḥusayn, Egyptian Arabic: [ˈtˤɑːhɑ ħ(e)ˈseːn]; November 14, 1889 – October 28, 1973) was among the most influential 20th-century Egyptian writers and intellectuals, and a leading figure of the Arab Renaissance and the modernist movement in the Arab world. His sobriquet was \"The Dean of Arabic Literature\" (Arabic: عميد الأدب العربي, romanized: ʿAmīd al-Adab al-ʿArabī).",
     "image": "",
-    "photo": "model 0.94, one person 0.99"
+    "photo": "model 0.94, one person 0.99",
+    "birth": {
+      "location": [
+        30.85,
+        28.65
+      ],
+      "year": 1889
+    }
   }
 }

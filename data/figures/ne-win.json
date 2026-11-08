@@ -1,0 +1,61 @@
+{
+  "id": "Q315522",
+  "slug": "ne-win",
+  "name": "Ne Win",
+  "wikipedia": "Ne Win",
+  "role": "Leader of Burma",
+  "life": "1911–2002",
+  "lifetime": [
+    1911,
+    2002
+  ],
+  "occupation": "Politician",
+  "birth_country": "Myanmar (Burma)",
+  "civilizations": [
+    "Burma"
+  ],
+  "related": [
+    "United States of America",
+    "Union of Soviet Socialist Republics",
+    "People's Republic of China"
+  ],
+  "contribution": "A Burmese general and politician who served as Burma's head of government from 1958 to 1960 and again from 1962 to 1974; and also as head of state from 1962 to 1981.",
+  "setting": "Burma",
+  "modern_country": "Myanmar",
+  "image": "images/ne-win.jpg",
+  "image_credit": "Moshe Pridan · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/ne-win-photo.jpg",
+  "photo_credit": "Moshe Pridan · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Burma"
+      ],
+      "lead": [
+        "United States of America",
+        "Union of Soviet Socialist Republics",
+        "People's Republic of China"
+      ],
+      "citizenship": [
+        "Burma"
+      ],
+      "birthplace": [
+        "British Raj"
+      ],
+      "born_in": [
+        "British Raj"
+      ]
+    },
+    "lead": "Ne Win (born Shu Maung; 24 May 1911 – 5 December 2002) was a Burmese general and politician who served as Burma's head of government from 1958 to 1960 and again from 1962 to 1974; and also as head of state from 1962 to 1981. Ne Win was Burma's military dictator during the Socialist Republic of the Union of Burma period of 1962 to 1988.",
+    "image": "",
+    "photo": "model 0.91, one person 0.96, captured 1959, during their lifetime",
+    "birth": {
+      "location": [
+        95.38333333,
+        18.85
+      ],
+      "year": 1910
+    }
+  }
+}

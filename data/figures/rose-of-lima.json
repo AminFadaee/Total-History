@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A member of the Third Order of Saint Dominic in Lima, Peru, Spanish Empire, who became known for both her life of severe penance and her care of the poverty stricken of the city through her own private efforts.",
   "setting": "",
+  "modern_country": "Peru",
   "image": "images/rose-of-lima.jpg",
   "image_credit": "Cicero Moraes · CC BY-SA 2.5",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Rose of Lima (born Isabel Flores de Oliva; 20 April 1586 – 24 August 1617) (Latin: Rosa Limana, Spanish: Rosa de Lima), was a member of the Third Order of Saint Dominic in Lima, Peru, Spanish Empire, who became known for both her life of severe penance and her care of the poverty stricken of the city through her own private efforts.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -77.0375,
+        -12.06
+      ],
+      "year": 1586
+    }
   }
 }

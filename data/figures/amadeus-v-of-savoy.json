@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Count of Savoy from 1285 until his death.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/amadeus-v-of-savoy.jpg",
   "image_credit": "unknow person · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Amadeus V (Italian: Amedeo V di Savoia; 1249 – 16 October 1323), also known as Amadeus the Great (il Conte Grande, 'The Great Count'), was Count of Savoy from 1285 until his death. In recognition of his service to the Holy Roman Empire, he was granted the titles of Imperial Count and Imperial Vicar of Lombardy, along with lordship over Asti and Ivrea.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        5.8591,
+        45.6456
+      ],
+      "year": 1249
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "A Romanian politician who was the second and last leader of Communist Romania as general secretary of the Romanian Communist Party from 1965 until his overthrow and execution in 1989.",
   "setting": "Socialist Republic of Romania",
+  "modern_country": "Romania",
   "image": "images/nicolae-ceausescu.jpg",
   "image_credit": "unknown · Attribution",
   "image_kind": "Portrait from life",
@@ -39,10 +40,20 @@
       "citizenship": [
         "Kingdom of Romania",
         "Socialist Republic of Romania"
+      ],
+      "born_in": [
+        "Austria-Hungary"
       ]
     },
     "lead": "Nicolae Ceaușescu (8 February [O.S. 26 January] 1918 – 25 December 1989) was a Romanian politician who was the second and last leader of Communist Romania as general secretary of the Romanian Communist Party from 1965 until his overthrow and execution in 1989. He was also the country's head of state from 1967 to 1989, serving as President of the State Council from 1967 to 1974 and as President of the Republic from 1974 until 1989.",
     "image": "",
-    "photo": "Nicolae Ceaușescu.jpg: model 0.58, one person 0.93; Samizdat-Romania.jpg: model 0.66, one person 0.11; Omagiu, by Constantin Nitescu, circa 1980.jpg: model 0.09, one person 0.27, captured 1980, during their lifetime; Ceaușescu family.jpg: model 0.91, one person 0.01, in Category:20th-century family portrait photography; Aba Gefen Ceaușescu.jpg: model 0.84, one person 0.03, captured 1982, during their lifetime; Bundesarchiv Bild 183-1989-1215-038, Berlin, Demonstration für Rumänien.jpg: model 0.92, one person 0.08; Bundesarchiv Bild 183-1989-1221-032, Berlin, Demonstration für Rumänien.jpg: model 0.92, one person 0.15, captured 1989, during their lifetime; Ceaușescu macheta crucișătorului Muntenia.jpg: model 0.60, one person 0.08, captured 1977, during their lifetime; Arghezi, Bodnăraș and Ceaușescu at Mărțișor.png: model 0.94, one person 0.21, captured 1965, during their lifetime; Bundesarchiv Bild 183-1989-1220-032, Berlin, Demonstration für Rumänien, Mahnwache.jpg: model 0.87, one person 0.14, captured 1989, during their lifetime"
+    "photo": "Nicolae Ceaușescu.jpg: model 0.58, one person 0.93; Samizdat-Romania.jpg: model 0.66, one person 0.11; Omagiu, by Constantin Nitescu, circa 1980.jpg: model 0.09, one person 0.27, captured 1980, during their lifetime; Ceaușescu family.jpg: model 0.91, one person 0.01, in Category:20th-century family portrait photography; Aba Gefen Ceaușescu.jpg: model 0.84, one person 0.03, captured 1982, during their lifetime; Bundesarchiv Bild 183-1989-1215-038, Berlin, Demonstration für Rumänien.jpg: model 0.92, one person 0.08; Bundesarchiv Bild 183-1989-1221-032, Berlin, Demonstration für Rumänien.jpg: model 0.92, one person 0.15, captured 1989, during their lifetime; Ceaușescu macheta crucișătorului Muntenia.jpg: model 0.60, one person 0.08, captured 1977, during their lifetime; Arghezi, Bodnăraș and Ceaușescu at Mărțișor.png: model 0.94, one person 0.21, captured 1965, during their lifetime; Bundesarchiv Bild 183-1989-1220-032, Berlin, Demonstration für Rumänien, Mahnwache.jpg: model 0.87, one person 0.14, captured 1989, during their lifetime",
+    "birth": {
+      "location": [
+        24.55,
+        44.57
+      ],
+      "year": 1918
+    }
   }
 }

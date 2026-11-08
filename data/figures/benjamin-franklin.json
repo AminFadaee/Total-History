@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An American polymath active as a physicist, philosopher, statesman and inventor who was one of the Founding Fathers of the United States.",
   "setting": "",
+  "modern_country": "United States",
   "image": "images/benjamin-franklin.jpg",
   "image_credit": "Joseph-Siffred Duplessis · Public domain",
   "image_kind": "Portrait from life",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "English Colonial Empire"
+      ],
+      "born_in": [
+        "English Colonial Empire"
       ]
     },
     "lead": "Benjamin Franklin (January 17, 1706 [O.S. January 6, 1705] – April 17, 1790) was an American polymath active as a physicist, philosopher, statesman and inventor who was one of the Founding Fathers of the United States. He was a drafter and signer of the Declaration of Independence, and the first postmaster general.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -71.05777778,
+        42.36027778
+      ],
+      "year": 1706
+    }
   }
 }

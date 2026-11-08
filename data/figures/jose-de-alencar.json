@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Brazilian novelist, lawyer, politician, orator, and dramatist.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/jose-de-alencar.jpg",
   "image_credit": "Alberto Henschel · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Empire of Brazil"
+      ],
+      "born_in": [
+        "Empire of Brazil"
       ]
     },
     "lead": "José Martiniano de Alencar (1 May 1829 – 12 December 1877) was a Brazilian novelist, lawyer, politician, orator, and dramatist. He is considered to be one of the most famous and influential Brazilian Romantic novelists of the 19th century, and a major exponent of the literary tradition known as \"Indianism\". Sometimes he signed his works with the pen name Erasmo. He was patron of the 23rd chair of the Brazilian Academy of Letters.",
     "image": "",
-    "photo": "model 0.83, one person 0.97, captured 1870, during their lifetime"
+    "photo": "model 0.83, one person 0.97, captured 1870, during their lifetime",
+    "birth": {
+      "location": [
+        -38.5275,
+        -3.7275
+      ],
+      "year": 1829
+    }
   }
 }

@@ -12,11 +12,13 @@
   "occupation": "Writer",
   "birth_country": "Hungary",
   "civilizations": [
+    "Austria-Hungary",
     "United Kingdom"
   ],
   "related": [],
   "contribution": "An Austro-Hungarian-born author and journalist.",
   "setting": "",
+  "modern_country": "Hungary",
   "image": "images/arthur-koestler.jpg",
   "image_credit": "Eric Koch for Anefo · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -34,10 +36,20 @@
         "United Kingdom",
         "Republic of Austria",
         "Hungarian Republic"
+      ],
+      "born_in": [
+        "Austria-Hungary"
       ]
     },
     "lead": "Arthur Koestler  (5 September 1905 – 1 March 1983) was an Austro-Hungarian-born author and journalist. Koestler was born in Budapest, and was educated in Austria, apart from his early school years. In 1931, Koestler joined the Communist Party of Germany but resigned in 1938 after becoming disillusioned with Stalinism.",
     "image": "",
-    "photo": "model 0.98, one person 0.98, in Category:Photographs by Eric Koch in Amsterdam (1969)"
+    "photo": "model 0.98, one person 0.98, in Category:Photographs by Eric Koch in Amsterdam (1969)",
+    "birth": {
+      "location": [
+        19.05138889,
+        47.4925
+      ],
+      "year": 1905
+    }
   }
 }

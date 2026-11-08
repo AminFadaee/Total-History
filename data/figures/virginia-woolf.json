@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An English writer and one of the most influential 20th-century modernist authors.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/virginia-woolf.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Adeline Virginia Woolf ( \"wolf\"; née Stephen; 25 January 1882 –  28 March 1941) was an English writer and one of the most influential 20th-century modernist authors. She helped to pioneer the use of stream of consciousness narration as a literary device.",
     "image": "",
-    "photo": "model 0.85, one person 0.94, in Category:Photographs of Virginia Woolf"
+    "photo": "model 0.85, one person 0.94, in Category:Photographs of Virginia Woolf",
+    "birth": {
+      "location": [
+        -0.18272222,
+        51.50036111
+      ],
+      "year": 1882
+    }
   }
 }

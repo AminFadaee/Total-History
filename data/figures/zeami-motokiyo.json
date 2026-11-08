@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "",
   "setting": "",
+  "modern_country": "Japan",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Ashikaga Shogunate"
+      ],
+      "born_in": [
+        "Ashikaga Shogunate"
       ]
     },
     "lead": "Zeami Motokiyo (世阿弥 元清; Japanese pronunciation: [dze.a.mʲi], c. 1363 – c. 1443), also called Kanze Motokiyo (観世 元清), was a Japanese aesthetician, actor, and playwright.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        136.9,
+        35.18333333
+      ],
+      "year": 1363
+    }
   }
 }

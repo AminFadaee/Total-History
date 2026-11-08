@@ -19,6 +19,7 @@
   ],
   "contribution": "A Japanese historical figure in the late Sengoku period.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/yodo-dono.jpg",
   "image_credit": "奈良県立美術館収蔵『傳 淀殿畫像』 / Nara Museum of Art · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Warring States Japan"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
-    "lead": "Yodo-dono (淀殿) or Yodo-gimi (淀君; [jo.do(ꜜ).ɡʲi.mʲi, -ŋʲi.mʲi], 1569 – June 4, 1615), also known as Lady Chacha (茶々; [tɕaꜜ.tɕa]), was a Japanese historical figure in the late Sengoku period. She was the concubine and the second wife of Japanese ruler Toyotomi Hideyoshi. As the mother of his son and successor Hideyori, she acted as Hideyori's guardian in the restoration of the Toyotomi clan after the fall of the Council of Five Elders, and alongside her son, led the last anti-Tokugawa shogunate resistance in the siege of Osaka.",
+    "lead": "Yodo-dono (淀殿) or Yodo-gimi (淀君; [jò̞.dó̞.ɡ̟ʲì.mʲì, -ŋ̟ʲì.mʲì, -ɡ̟ʲí.mʲí, -ŋ̟ʲí.mʲí], 1569 – June 4, 1615), also known as Lady Chacha (茶々; [c̟͡ɕä́.c̟͡ɕä̀]), was a Japanese historical figure in the late Sengoku period. She was the concubine and the second wife of Japanese ruler Toyotomi Hideyoshi. As the mother of his son and successor Hideyori, she acted as Hideyori's guardian in the restoration of the Toyotomi clan after the fall of the Council of Five Elders, and alongside her son, led the last anti-Tokugawa shogunate resistance in the siege of Osaka.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        136.277,
+        35.459284
+      ],
+      "year": 1569
+    }
   }
 }

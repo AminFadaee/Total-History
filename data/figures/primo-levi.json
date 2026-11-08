@@ -20,6 +20,7 @@
   ],
   "contribution": "A Jewish Italian chemist, partisan, Holocaust survivor and writer.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/primo-levi.jpg",
   "image_credit": "Unknown (Mondadori Publishers) · Public domain",
   "image_kind": "Photograph",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Kingdom of Italy"
+      ],
+      "born_in": [
+        "Kingdom of Italy"
       ]
     },
     "lead": "Primo Michele Levi (Italian: [ˈpriːmo ˈlɛːvi]; 31 July 1919 – 11 April 1987) was a Jewish Italian chemist, partisan, Holocaust survivor and writer. He was the author of several books, collections of short stories, essays, poems and one novel. His best-known works include: If This Is a Man (Se questo è un uomo, 1947, published as Survival in Auschwitz in the United States), his account of the year he spent as a prisoner in the Auschwitz concentration camp in Nazi-occupied Poland; and The Periodic Table (1975), a collection of mostly autobiographical short stories, each named after a chemical element which plays a role in each story, which the Royal Institution named the best science book ever written.",
     "image": "",
-    "photo": "model 0.97, one person 1.00, captured 1950, during their lifetime"
+    "photo": "model 0.97, one person 1.00, captured 1950, during their lifetime",
+    "birth": {
+      "location": [
+        7.67611111,
+        45.07916667
+      ],
+      "year": 1919
+    }
   }
 }

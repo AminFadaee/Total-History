@@ -24,6 +24,7 @@
   ],
   "contribution": "A ruler of the Turkoman Aq Qoyunlu state and is generally considered to be its strongest ruler.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/uzun-hasan.jpg",
   "image_credit": "1467-1473 artist · Public domain",
   "image_kind": "Portrait from life",
@@ -48,10 +49,20 @@
       ],
       "birthplace": [
         "Aq Qoyunlu"
+      ],
+      "born_in": [
+        "Aq Qoyunlu"
       ]
     },
     "lead": "Uzun Hasan or Uzun Hassan (Persian: اوزون حسن; February or March 1425 – January 5, 1478) was a ruler of the Turkoman Aq Qoyunlu state and is generally considered to be its strongest ruler. Hasan was from the Bayandur tribe and presided over the confederation's territorial apex, when it included parts or all of present-day Iraq, Turkey, Azerbaijan, Iran, Transcaucasia, and Syria.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        40.24,
+        37.91
+      ],
+      "year": 1423
+    }
   }
 }

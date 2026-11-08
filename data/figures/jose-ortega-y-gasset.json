@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "He worked during the first half of the 20th century while Spain oscillated between monarchy, republicanism and dictatorship.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/jose-ortega-y-gasset.jpg",
   "image_credit": "SAS Scandinavian Airlines · Public domain",
   "image_kind": "Photograph",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "José Ortega y Gasset ( or-TAY-gə; Spanish: [xoˈse oɾˈteɣa j ɣaˈset]; 9 May 1883 – 18 October 1955) was a Spanish philosopher and essayist. He worked during the first half of the 20th century while Spain oscillated between monarchy, republicanism and dictatorship. His philosophy has been characterized as a \"philosophy of life\" that comprised \"a long-hidden beginning in a pragmatist metaphysics\" inspired by William James and with a general method from a realist phenomenology imitating Edmund Husserl, which served both his proto-existentialism (prior to Martin Heidegger's), and his realist historicism, which has been compared to both Wilhelm Dilthey and Benedetto Croce.",
     "image": "",
-    "photo": "model 0.98, one person 0.96, captured 1950, during their lifetime"
+    "photo": "model 0.98, one person 0.96, captured 1950, during their lifetime",
+    "birth": {
+      "location": [
+        -3.70333333,
+        40.41694444
+      ],
+      "year": 1883
+    }
   }
 }

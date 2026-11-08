@@ -23,6 +23,7 @@
   ],
   "contribution": "A Byzantine emperor of the 12th century who reigned over a crucial turning point in the history of Byzantium and the Mediterranean.",
   "setting": "",
+  "modern_country": "",
   "image": "images/manuel-i-komnenos.jpg",
   "image_credit": "Uploader: Tokle · Public domain",
   "image_kind": "Portrait from life",
@@ -46,10 +47,18 @@
       ],
       "vital_section": [
         "Byzantine Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Manuel I Komnenos (Greek: Μανουήλ Κομνηνός, romanized: Manouḗl Komnēnós; 28 November 1118 – 24 September 1180) was a Byzantine emperor of the 12th century who reigned over a crucial turning point in the history of Byzantium and the Mediterranean. His reign saw the last flowering of the Komnenian restoration, during which the Byzantine Empire experienced a resurgence of military and economic power and enjoyed a cultural revival.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        28.98,
+        41.0125
+      ],
+      "year": 1118
+    }
   }
 }

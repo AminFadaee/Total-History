@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Turkish politician and military officer who served as the president of Turkey from 1938 to 1950, and as its prime minister three times: from 1923 to 1924, 1925 to 1937, and 1961 to 1965.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/ismet-inonu.jpg",
   "image_credit": "Unknown. Official photo of President. · Public domain",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Mustafa İsmet İnönü (24 September 1884 – 25 December 1973) was a Turkish politician and military officer who served as the president of Turkey from 1938 to 1950, and as its prime minister three times: from 1923 to 1924, 1925 to 1937, and 1961 to 1965.",
     "image": "",
-    "photo": "model 0.95, one person 1.00, captured 1938, during their lifetime"
+    "photo": "model 0.95, one person 1.00, captured 1938, during their lifetime",
+    "birth": {
+      "location": [
+        27.13916667,
+        38.41861111
+      ],
+      "year": 1884
+    }
   }
 }

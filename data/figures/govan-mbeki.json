@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A South African politician, military commander, Communist leader who served as the Secretary of Umkhonto we Sizwe, at its inception in 1961.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/govan-mbeki.jpg",
   "image_credit": "South African Police · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,18 @@
       ],
       "citizenship": [
         "South Africa"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Govan Archibald Mvunyelwa Mbeki (9 July 1910 – 30 August 2001) was a South African politician, military commander, Communist leader who served as the Secretary of Umkhonto we Sizwe, at its inception in 1961. He was also the younger son of Chief Skelewu Mbeki and Johanna Mabula and also the father of the former South African president Thabo Mbeki and political economist Moeletsi Mbeki.",
     "image": "",
-    "photo": "model 0.97, one person 0.99, in Category:Black and white photographs of South Africa in the 1960s"
+    "photo": "model 0.97, one person 0.99, in Category:Black and white photographs of South Africa in the 1960s",
+    "birth": {
+      "location": [
+        27.933333,
+        -32.2
+      ],
+      "year": 1910
+    }
   }
 }

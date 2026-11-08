@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A German philosopher whose work was central to the development of phenomenology, hermeneutics, and existentialism.",
   "setting": "Federal Republic of Germany",
+  "modern_country": "Germany",
   "image": "images/martin-heidegger.jpg",
   "image_credit": "Willy Pragher · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "German Empire"
+      ],
+      "born_in": [
+        "German Empire"
       ]
     },
-    "lead": "Martin Heidegger (26 September 1889 – 26 May 1976) was a German philosopher whose work was central to the development of phenomenology, hermeneutics, and existentialism. He has had significant impact within subsequent philosophy, social sciences and humanities, and theology.",
+    "lead": "Martin Heidegger (26 September 1889 – 26 May 1976) was a German philosopher whose work was central to the development of phenomenology, hermeneutics, and existentialism. He has had significant influence within subsequent philosophy, social sciences and humanities, and theology.",
     "image": "",
-    "photo": "model 0.98, one person 0.99, in Category:1960 photographs by Willy Pragher"
+    "photo": "model 0.98, one person 0.99, in Category:1960 photographs by Willy Pragher",
+    "birth": {
+      "location": [
+        9.1125,
+        47.99277778
+      ],
+      "year": 1889
+    }
   }
 }

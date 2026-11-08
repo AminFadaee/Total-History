@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The sixth emperor of the Qing dynasty and the fifth Qing emperor to rule over China proper.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/jiaqing-emperor.jpg",
   "image_credit": "Annonymous Qing Dynasty Court Painter · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Qing Dynasty"
+      ],
+      "born_in": [
+        "Qing Dynasty"
       ]
     },
-    "lead": "The Jiaqing Emperor (13 November 1760 – 2 September 1820), also known by his temple name Emperor Renzong of Qing, personal name Yongyan, was the sixth emperor of the Qing dynasty and the fifth Qing emperor to rule over China proper. He was the 15th son of the Qianlong Emperor. During his reign, he prosecuted Heshen, the corrupt favorite of his father and attempted to restore order within the empire while curbing the smuggling of opium into China. Assessments of his reign are mixed, either seen as the \"beginning of the end\" of the Qing dynasty, or as a period of moderate reform that presaged the intellectual movements of the 1860s.",
+    "lead": "The Jiaqing Emperor (13 November 1760 – 2 September 1820), also known by his temple name Emperor Renzong of Qing, personal name Yongyan, was the sixth emperor of the Qing dynasty and the fifth Qing emperor to rule over China proper. He was the 15th son of the Qianlong Emperor. During his reign, he prosecuted Heshen, the corrupt favorite of his father, and attempted to restore order within the empire while curbing the smuggling of opium into China. Assessments of his reign are mixed, either seen as the \"beginning of the end\" of the Qing dynasty, or as a period of moderate reform that presaged the intellectual movements of the 1860s.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        116.2925,
+        40.00722222
+      ],
+      "year": 1760
+    }
   }
 }

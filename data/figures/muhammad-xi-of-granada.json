@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 22nd and last Nasrid ruler of the Emirate of Granada in Iberia.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/muhammad-xi-of-granada.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Emirate of Granada"
+      ],
+      "born_in": [
+        "Emirate of Granada"
       ]
     },
-    "lead": "Abu Abdallah Muhammad XI (Arabic: أبو عبد الله محمد الثاني عشر, romanized: Abū ʿAbdi-llāh Muḥammad ath-thānī ʿashar; c. 1460–1533), known in Europe as Boabdil, was the 22nd and last Nasrid ruler of the Emirate of Granada in Iberia.",
+    "lead": "Abu Abdallah Muhammad XI (Arabic: أبو عبد الله محمد الحادي عشر, romanized: Abū ʿAbdi-llāh Muḥammad al-ḥādī ʿashar; c. 1460–1533), known in Europe as Boabdil, was the 22nd and last Nasrid ruler of the Emirate of Granada in Iberia.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -3.59,
+        37.1775
+      ],
+      "year": 1459
+    }
   }
 }

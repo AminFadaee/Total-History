@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Dominican writer, teacher and politician.",
   "setting": "",
+  "modern_country": "Dominican Republic",
   "image": "images/francisco-gregorio-billini.jpg",
   "image_credit": "Unknown/Desconocido · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Dominican Republic"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Francisco Gregorio Billini y Aristi (May 25, 1844 – November 28, 1898) was a Dominican writer, teacher and politician. Supported by the former president Ulises Heureaux, he won the national elections in 1884, and served as the 23rd president of the Dominican Republic, from September 1, 1884 to May 16, 1885. He resigned in 1885 to avoid creating a civil war as he found opposition, as Gregorio Luperon believed he was Ulises Heureaux puppet and a way of the dictator to maintain political power while Heureaux opposed him when Billini's policies affected his power and interests in the country.",
     "image": "",
-    "photo": "Francisco Billini.jpg: model 0.57, one person 0.98"
+    "photo": "Francisco Billini.jpg: model 0.57, one person 0.98",
+    "birth": {
+      "location": [
+        -69.93611111111112,
+        18.4625
+      ],
+      "year": 1844
+    }
   }
 }

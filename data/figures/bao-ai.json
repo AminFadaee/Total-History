@@ -21,6 +21,7 @@
   ],
   "contribution": "The 13th and final emperor of the Nguyễn dynasty, the last ruling dynasty of Vietnam.",
   "setting": "",
+  "modern_country": "Vietnam",
   "image": "images/bao-ai.jpg",
   "image_credit": "không rõ. The original uploader was Dongsonvh at Vietnamese Wikipedia. · Public domain",
   "image_kind": "Photograph",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "French Indochina"
+      ],
+      "born_in": [
+        "French Indochina"
       ]
     },
     "lead": "Bảo Đại (Vietnamese: [ɓâw ɗâjˀ], chữ Hán: 保大, lit. \"keeper of greatness\", 22 October 1913 – 31 July 1997), born Nguyễn Phúc Vĩnh Thụy (chữ Hán: 阮福永瑞), was the 13th and final emperor of the Nguyễn dynasty, the last ruling dynasty of Vietnam. From 1926 to 1945, he was de jure emperor of Đại Nam, which consisted of the French protectorates of Annam and Tonkin within French Indochina, covering the present-day central and northern Vietnam. Bảo Đại ascended the throne in 1932.",
     "image": "",
-    "photo": "model 0.97, one person 1.00, captured 1953, during their lifetime"
+    "photo": "model 0.97, one person 1.00, captured 1953, during their lifetime",
+    "birth": {
+      "location": [
+        107.57777778,
+        16.46972222
+      ],
+      "year": 1913
+    }
   }
 }

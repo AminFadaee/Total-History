@@ -24,6 +24,7 @@
   ],
   "contribution": "The first ruler and founder of the Durrani Empire.",
   "setting": "",
+  "modern_country": "Afghanistan",
   "image": "images/ahmad-shah-durrani.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Depiction",
@@ -48,10 +49,20 @@
       ],
       "citizenship": [
         "Durrani Empire"
+      ],
+      "born_in": [
+        "Hotaki Dynasty"
       ]
     },
     "lead": "Ahmad Shah Durrani (born Ahmad Khan Abdali; c. 1720–1722 – 16–23 October 1772) was the first ruler and founder of the Durrani Empire. He is often regarded as the founder of modern Afghanistan. As Shah, he relentlessly led military campaigns for over 25 years across West Asia, Central Asia, and South Asia, creating one of the largest Islamic empires in the world, encompassing Afghanistan, much of Pakistan, Iranian Khorasan, and parts of Northern India.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        62.20305556,
+        34.34194444
+      ],
+      "year": 1722
+    }
   }
 }

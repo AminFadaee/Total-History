@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A South African anti-apartheid activist, traditional leader, and politician who served as the President-General of the African National Congress from 1952 until his assassination in 1967.",
   "setting": "",
+  "modern_country": "",
   "image": "images/albert-luthuli.jpg",
   "image_credit": "Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,18 @@
       ],
       "vital_section": [
         "South Africa"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Albert John Luthuli (c. 1898 – 21 July 1967) was a South African anti-apartheid activist, traditional leader, and politician who served as the President-General of the African National Congress from 1952 until his assassination in 1967.",
     "image": "",
-    "photo": "model 0.91, one person 0.99"
+    "photo": "model 0.91, one person 0.99",
+    "birth": {
+      "location": [
+        28.58,
+        -20.17
+      ],
+      "year": 1898
+    }
   }
 }

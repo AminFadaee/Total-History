@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The sixth king of Siam from the Chakri dynasty, titled Rama VI.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "images/vajiravudh.jpg",
   "image_credit": "ร้านถ่ายรูปหลวงฉายานรสิงห์ · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Rattanakosin Kingdom"
+      ],
+      "born_in": [
+        "Rattanakosin Kingdom"
       ]
     },
     "lead": "Vajiravudh  (1 January 1880 – 26 November 1925) was the sixth king of Siam from the Chakri dynasty, titled Rama VI. He reigned from 1910 until his death in 1925. King Vajiravudh is best known for his efforts to create and promote Siamese nationalism. His reign was characterized by Siam's further Westernization, minimal participation in World War I, and lavish spending on arts and culture. He had keen interests in Siamese history, archaeology, and literature, as well as economics, politics and world affairs, and founded the country's first university, Chulalongkorn University.",
     "image": "",
-    "photo": "model 0.96, one person 0.93, captured 1920, during their lifetime"
+    "photo": "model 0.96, one person 0.93, captured 1920, during their lifetime",
+    "birth": {
+      "location": [
+        100.49916667,
+        13.76444444
+      ],
+      "year": 1880
+    }
   }
 }

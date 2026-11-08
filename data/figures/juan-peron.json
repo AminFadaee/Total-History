@@ -20,6 +20,7 @@
   ],
   "contribution": "An Argentine military officer and politician who was the 29th and 40th president of Argentina, serving from 1946 to his overthrow in 1955, and from 1973 until his death in 1974.",
   "setting": "",
+  "modern_country": "Argentina",
   "image": "images/juan-peron.jpg",
   "image_credit": "Unknown author. · Public domain",
   "image_kind": "Photograph",
@@ -39,10 +40,18 @@
       ],
       "citizenship": [
         "Argentine Republic"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Juan Domingo Perón (UK: , US:  , Spanish: [ˈxwan doˈmiŋɡo peˈɾon] ; 8 October 1895 – 1 July 1974) was an Argentine military officer and politician who was the 29th and 40th president of Argentina, serving from 1946 to his overthrow in 1955, and from 1973 until his death in 1974. He was the only Argentine president elected three times and holds the highest percentage of votes in clean elections. Perón was one of the most important, and controversial, Argentine politicians of the 20th century; his influence extends to today. Perón's ideas, policies and movement are known as Peronism, which continues to be a force in Argentine politics.",
     "image": "",
-    "photo": "model 0.97, one person 0.98, captured 1948, during their lifetime"
+    "photo": "model 0.97, one person 0.98, captured 1948, during their lifetime",
+    "birth": {
+      "location": [
+        -59.31666667,
+        -35.41666667
+      ],
+      "year": 1895
+    }
   }
 }

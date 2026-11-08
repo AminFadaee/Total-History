@@ -1,0 +1,46 @@
+{
+  "id": "Q11735530",
+  "slug": "karamchand-gandhi",
+  "name": "Karamchand Gandhi",
+  "wikipedia": "Karamchand Gandhi",
+  "role": "Father of Mahatma Gandhi",
+  "life": "1822–1885",
+  "lifetime": [
+    1822,
+    1885
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "British Empire"
+  ],
+  "related": [],
+  "contribution": "A court official in Porbandar.",
+  "setting": "",
+  "modern_country": "India",
+  "image": "images/karamchand-gandhi.jpg",
+  "image_credit": "Unknown author · Public domain",
+  "image_kind": "Portrait from life",
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "birthplace": [
+        "British Empire"
+      ],
+      "born_in": [
+        "British Empire"
+      ]
+    },
+    "lead": "Karamchand Uttamchand \"Kaba\" Gandhi (1822 – 16 November 1885) was a court official in Porbandar. He served as Diwan of Porbandar and Rajkot and was the father of Mahatma Gandhi.",
+    "image": "",
+    "photo": "Karamchand Gandhi.jpg: model 0.67, one person 0.99, captured 1885, during their lifetime",
+    "birth": {
+      "location": [
+        69.62930556,
+        21.64166667
+      ],
+      "year": 1822
+    }
+  }
+}

@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A German philosopher and a major figure in the tradition of German idealism.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/georg-wilhelm-friedrich-hegel.jpg",
   "image_credit": "Jakob Schlesinger · Public domain",
   "image_kind": "Portrait from life",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Georg Wilhelm Friedrich Hegel (27 August 1770 – 14 November 1831) was a German philosopher and a major figure in the tradition of German idealism. His influence on Western philosophy extends across a wide range of topics—from metaphysical issues in epistemology and ontology, to political philosophy, to philosophy of art and philosophy of religion.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        9.18,
+        48.7775
+      ],
+      "year": 1770
+    }
   }
 }

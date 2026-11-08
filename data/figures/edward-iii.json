@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of England from January 1327 until his death in 1377.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/edward-iii.jpg",
   "image_credit": "TheAncientHistorian · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Edward III (13 November 1312 – 21 June 1377), also known as Edward of Windsor before accession, was King of England from January 1327 until his death in 1377. He is noted for his military success and for restoring royal authority after the disastrous and unorthodox reign of his father, Edward II. Edward III transformed the Kingdom of England into one of the most formidable military powers in Europe. His fifty-year reign is one of the longest in English history and saw vital developments in legislation and government, in particular the evolution of the English Parliament, as well as the ravages of the Black Death. He outlived his eldest son, Edward the Black Prince, and was succeeded by his grandson, Richard II.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.60416667,
+        51.48333333
+      ],
+      "year": 1312
+    }
   }
 }

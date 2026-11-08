@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/charles-darwin.jpg",
   "image_credit": "Herbert Rose Barraud · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Charles Robert Darwin ( DAR-win; 12 February 1809 – 19 April 1882) was an English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology. His proposition that all species  have descended from a common ancestor is now  accepted and considered a fundamental scientific concept. In a joint presentation with Alfred Russel Wallace, he proposed that this branching pattern of evolution resulted from a process he called natural selection, in which the struggle for existence has a similar effect to the artificial selection involved in selective breeding. Darwin has been described as one of the most influential figures in human history and was honoured by burial in Westminster Abbey.",
     "image": "",
-    "photo": "model 0.86, one person 0.95, in Category:1881 portrait photographs"
+    "photo": "model 0.86, one person 0.95, in Category:1881 portrait photographs",
+    "birth": {
+      "location": [
+        -2.754,
+        52.708
+      ],
+      "year": 1809
+    }
   }
 }

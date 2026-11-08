@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Ahmad Ali al-Badaoni al-Bukhari, popularly called Nizamuddin Auliya, also known as Hazrat Nizamuddin, Sultan-ul-Mashaikh and Mahbub-e-Ilahi, was an Indian Sunni Muslim scholar, Sufi saint of the Chishti Order, and is one of the most famous Sufis from the Indian subcontinent.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/nizamuddin-auliya.jpg",
   "image_credit": "Unknown author · CC BY-SA 2.5",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Delhi Sultanate"
+      ],
+      "born_in": [
+        "Delhi Sultanate"
       ]
     },
     "lead": "Khawaja Syed Muhammad b. Ahmad Ali al-Badaoni al-Bukhari, popularly called Nizamuddin Auliya (sometimes spelled Awliya; 1238 – 3 April 1325), also known as Hazrat Nizamuddin (lit. 'Holy Nizamuddin'), Sultan-ul-Mashaikh (lit. 'Leader of the pious') and Mahbub-e-Ilahi (lit. 'Beloved of God'), was an Indian Sunni Muslim scholar, Sufi saint of the Chishti Order, and is one of the most famous Sufis from the Indian subcontinent. His predecessors were Fariduddin Ganjshakar, Qutbuddin Bakhtiyar Kaki, and Moinuddin Chishti, who were the masters of the Chishti spiritual chain or silsila in the Indian subcontinent.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        79.12,
+        28.05
+      ],
+      "year": 1238
+    }
   }
 }

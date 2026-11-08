@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A German priest, theologian, author, hymnwriter, professor, and former Augustinian friar.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/martin-luther.jpg",
   "image_credit": "Lucas Cranach the Elder · Public domain",
   "image_kind": "Portrait from life",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Martin Luther ( LOO-thər; German: [ˈmaʁtiːn ˈlʊtɐ] ; 10 November 1483 – 18 February 1546) was a German priest, theologian, author, hymnwriter, professor, and former Augustinian friar. Luther was the seminal figure of the Protestant Reformation, and his theological beliefs form the basis of Lutheranism. He is considered one of the most influential figures in Western and Christian history.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.54666667,
+        51.52861111
+      ],
+      "year": 1483
+    }
   }
 }

@@ -22,6 +22,7 @@
   ],
   "contribution": "The last king of Romania, reigning from 20 July 1927 to 8 June 1930 and again from 6 September 1940 until his forced abdication on 30 December 1947.",
   "setting": "",
+  "modern_country": "Romania",
   "image": "images/michael-i-of-romania.jpg",
   "image_credit": "Jozef Trylinski · Public domain",
   "image_kind": "Photograph",
@@ -52,10 +53,20 @@
       ],
       "birthplace": [
         "Kingdom of Romania"
+      ],
+      "born_in": [
+        "Kingdom of Romania"
       ]
     },
     "lead": "Michael I (Romanian: Mihai I Romanian: [miˈhaj ɨnˈtɨj] ; 25 October 1921 – 5 December 2017) was the last king of Romania, reigning from 20 July 1927 to 8 June 1930 and again from 6 September 1940 until his forced abdication on 30 December 1947.",
     "image": "",
-    "photo": "model 0.98, one person 1.00, in Category:1947 black and white portrait photographs of men"
+    "photo": "model 0.98, one person 1.00, in Category:1947 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        25.54265,
+        45.35984
+      ],
+      "year": 1921
+    }
   }
 }

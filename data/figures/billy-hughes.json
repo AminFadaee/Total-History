@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The seventh prime minister of Australia, serving from 1915 to 1923.",
   "setting": "",
+  "modern_country": "",
   "image": "images/billy-hughes.jpg",
   "image_credit": "Fairfax Corporation · Public domain",
   "image_kind": "Photograph",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "William Morris Hughes (25 September 1862 – 28 October 1952) was the seventh prime minister of Australia, serving from 1915 to 1923. He led the nation during World War I, and his influence on national politics spanned several decades. He was a member of the federal parliament from the Federation of Australia in 1901 until his death in 1952, and is the only person to have served as a parliamentarian for more than 50 years. He represented six political parties during his career, leading five, outlasting four, and being expelled from three.",
     "image": "",
-    "photo": "model 0.72, one person 0.96, captured 1919, during their lifetime"
+    "photo": "model 0.72, one person 0.96, captured 1919, during their lifetime",
+    "birth": {
+      "location": [
+        -0.1395,
+        51.4887
+      ],
+      "year": 1862
+    }
   }
 }

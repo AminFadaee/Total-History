@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He is considered the most influential artist of the Flemish Baroque tradition.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/peter-paul-rubens.jpg",
   "image_credit": "Peter Paul Rubens · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Sir Peter Paul Rubens ( ROO-bənz; Dutch: [ˈpeːtər pʌul ˈrybəns]; 28 June 1577 – 30 May 1640) was a Flemish artist and diplomat. He is considered the most influential artist of the Flemish Baroque tradition. Rubens's highly charged compositions reference erudite aspects of classical and Christian history. His unique and immensely popular Baroque style emphasised movement, colour, and sensuality, which followed the immediate, dramatic artistic style promoted in the Counter-Reformation. Rubens was a painter producing altarpieces, portraits, landscapes, and history paintings of mythological and allegorical subjects. He was also a prolific designer of cartoons for the Flemish tapestry workshops and of frontispieces for the publishers in Antwerp.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        8.01666667,
+        50.88333333
+      ],
+      "year": 1577
+    }
   }
 }

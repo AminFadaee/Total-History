@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The third Almohad caliph.",
   "setting": "",
+  "modern_country": "Morocco",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Almohad Caliphate"
+      ],
+      "born_in": [
+        "Almohad Caliphate"
       ]
     },
     "lead": "Abū Yūsuf Yaʿqūb ibn Yūsuf ibn Abd al-Muʾmin al-Manṣūr (Arabic: أبو يوسف يعقوب بن يوسف بن عبد المؤمن المنصور; d. 23 January 1199), commonly known as Yaqub al-Mansur (يعقوب المنصور) or Moulay Yacoub (مولاي يعقوب), was the third Almohad caliph. Succeeding his father, al-Mansur reigned from 1184 to 1199. His reign was distinguished by the flourishing of trade, architecture, philosophy and the sciences, as well as by victorious military campaigns in which he was successful in repelling the tide of the Reconquista in the Iberian Peninsula.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -6.0,
+        32.0
+      ],
+      "year": 1160
+    }
   }
 }

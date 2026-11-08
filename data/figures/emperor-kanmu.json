@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "The 50th emperor of Japan, according to the traditional order of succession.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/emperor-kanmu.jpg",
   "image_credit": "Unknown · Public domain",
   "image_kind": "Depiction",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Nara Japan"
+      ],
+      "born_in": [
+        "Nara Japan"
       ]
     },
     "lead": "Emperor Kanmu (桓武天皇, Kammu-tennō; 735 – April 9, 806), or Kammu, was the 50th emperor of Japan, according to the traditional order of succession. Kammu reigned from 781 to 806, and it was during his reign that the scope of the emperor's powers reached its peak. His reign saw the transition from the Nara period to the Heian period.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        135.805,
+        34.68444444
+      ],
+      "year": 737
+    }
   }
 }

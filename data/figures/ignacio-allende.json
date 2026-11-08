@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A captain of the Spanish Army in New Spain who came to sympathize with the Mexican independence movement.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/ignacio-allende.jpg",
   "image_credit": "Ramón Pérez · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Ignacio José de Allende y Unzaga (US: , UK: , Spanish: [iɣˈnasjo aˈʝende]; January 21, 1769 – June 26, 1811), commonly known as Ignacio Allende, was a captain of the Spanish Army in New Spain who came to sympathize with the Mexican independence movement. He attended the secret meetings organized by Josefa Ortiz de Domínguez, where the possibility of an independent Mexico was discussed. He fought along with  Miguel Hidalgo y Costilla in the first stage of the struggle, eventually succeeding him in leadership of the rebellion. Allende was captured by Spanish colonial authorities while he was in Coahuila and executed for treason in Chihuahua.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -100.74361111,
+        20.91416667
+      ],
+      "year": 1769
+    }
   }
 }

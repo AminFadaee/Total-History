@@ -23,6 +23,7 @@
   ],
   "contribution": "Shah of Iran from 1925 to 1941 and founder of the Pahlavi dynasty.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/reza-shah.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Qajar Dynasty"
+      ],
+      "born_in": [
+        "Qajar Dynasty"
       ]
     },
     "lead": "Reza Shah Pahlavi (previously Reza Khan; 15 March 1878 – 26 July 1944) was Shah of Iran from 1925 to 1941 and founder of the Pahlavi dynasty. Originally an army officer, he became a politician, serving as minister of war and prime minister of Iran, and was elected shah following the deposition of Ahmad Shah, the last monarch of the Qajar dynasty.",
     "image": "",
-    "photo": "model 0.82, one person 0.94, captured 1931, during their lifetime"
+    "photo": "model 0.82, one person 0.94, captured 1931, during their lifetime",
+    "birth": {
+      "location": [
+        52.83777778,
+        36.06694444
+      ],
+      "year": 1878
+    }
   }
 }

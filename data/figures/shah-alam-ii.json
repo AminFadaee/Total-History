@@ -19,6 +19,7 @@
   ],
   "contribution": "The seventeenth Mughal emperor and the son of Alamgir II.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/shah-alam-ii.jpg",
   "image_credit": "Unknown artist · Public domain",
   "image_kind": "Portrait from life",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Shah Alam II (Persian: شاه عالم دوم, Persian pronunciation: [ʃɑːh ʔɑː.ˈlam]; 25 June 1728 – 19 November 1806), also known by his birth name Ali Gohar, or Ali Gauhar, was the seventeenth Mughal emperor and the son of Alamgir II.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        77.20888889,
+        28.61388889
+      ],
+      "year": 1728
+    }
   }
 }

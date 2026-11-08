@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 21st monarch of Joseon.",
   "setting": "",
+  "modern_country": "South Korea",
   "image": "images/yeongjo-of-joseon.jpg",
   "image_credit": "Chae Yong-sin / Jo Seokjin · Public domain",
   "image_kind": "Portrait from life",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Joseon"
+      ],
+      "born_in": [
+        "Joseon"
       ]
     },
-    "lead": "Yeongjo (Korean: 영조; Hanja: 英祖; 31 October 1694 – 22 April 1776), personal name Yi Geum, was the 21st monarch of Joseon. The second son of King Sukjong, he ascended to the throne upon the death of his elder half-brother, King Gyeongjong. His life was characterized by political infighting and resentment due to his biological mother's low-born origins.",
+    "lead": "Yeongjo (Korean: 영조; Hanja: 英祖; 31 October 1694 – 22 April 1776), personal name Yi Geum, was the 21st monarch of Joseon. The second son of King Sukjong, he acceded to the throne upon the death of his elder half-brother, King Gyeongjong. His life was characterized by political infighting and resentment due to his biological mother's low-born origins.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        126.99277778,
+        37.57944444
+      ],
+      "year": 1694
+    }
   }
 }

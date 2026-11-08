@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A German polymath who was an astronomer, mathematician, astrologer, natural philosopher and music theorist.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/johannes-kepler.jpg",
   "image_credit": "Hans von Aachen · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Johannes Kepler (27 December 1571 – 15 November 1630) was a German polymath who was an astronomer, mathematician, astrologer, natural philosopher and music theorist. He is a key figure in the 17th-century Scientific Revolution, best known for his laws of planetary motion, and his books Astronomia nova, Harmonice Mundi, and Epitome Astronomiae Copernicanae. The variety and impact of his work made Kepler one of the founders and fathers of modern astronomy, the scientific method, natural science, and modern science. He has been described as the \"father of science fiction\" for his novel Somnium.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        8.87055556,
+        48.75083333
+      ],
+      "year": 1571
+    }
   }
 }

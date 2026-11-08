@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "Queen of Castile from 1504 and Queen of Aragon from 1516 to her death in 1555.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/joanna-of-castile.jpg",
   "image_credit": "Juan de Flandes · Public domain",
   "image_kind": "Portrait from life",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Crown of Castile"
+      ],
+      "born_in": [
+        "Crown of Castile"
       ]
     },
     "lead": "Joanna or Joan (also known as Joanna the Mad or Joan the Mad; Spanish: Juana la Loca; 6 November 1479 – 12 April 1555) was Queen of Castile from 1504 and Queen of Aragon from 1516 to her death in 1555. She was the daughter of Queen Isabella I of Castile and King Ferdinand II of Aragon. Joanna was married by arrangement to the Austrian archduke Philip the Handsome on 20 October 1496. Following the deaths of her elder brother John, elder sister Isabella, and nephew Miguel between 1497 and 1500, Joanna became the heir presumptive to the crowns of Castile and Aragon. When her mother died in 1504, she became queen of Castile. Her father proclaimed himself governor and administrator of Castile.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.02444444,
+        39.85666667
+      ],
+      "year": 1479
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Barbarossa's naval victories secured Ottoman dominance over the Mediterranean during the mid-16th century.",
   "setting": "",
+  "modern_country": "Greece",
   "image": "images/hayreddin-barbarossa.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -28,12 +29,23 @@
         "Ottoman Empire"
       ],
       "birthplace": [
-        "Ottoman Empire",
-        "Republic of Genoa"
+        "Republic of Genoa",
+        "Ottoman Empire"
+      ],
+      "born_in": [
+        "Republic of Genoa",
+        "Ottoman Empire"
       ]
     },
     "lead": "Hayreddin Barbarossa (Arabic: خير الدين بربروس, romanized: Khayr al-Dīn Barbarūs; Turkish: Barbaros Hayrettin Paşa), also known as Hayreddin Pasha, Hızır Hayrettin Pasha, and simply Hızır Reis (c. 1466/1483 – 4 July 1546), was an Ottoman corsair and later admiral of the Ottoman Navy. Barbarossa's naval victories secured Ottoman dominance over the Mediterranean during the mid-16th century.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        26.28,
+        39.21
+      ],
+      "year": 1478
+    }
   }
 }

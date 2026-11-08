@@ -1,0 +1,54 @@
+{
+  "id": "Q132524",
+  "slug": "ayn-rand",
+  "name": "Ayn Rand",
+  "wikipedia": "Ayn Rand",
+  "role": "Russian-American philosopher",
+  "life": "1905–1982",
+  "lifetime": [
+    1905,
+    1982
+  ],
+  "occupation": "Writer",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire",
+    "United States of America"
+  ],
+  "related": [],
+  "contribution": "She is known for her fiction and for developing a philosophical system which she named Objectivism.",
+  "setting": "",
+  "modern_country": "Russia",
+  "image": "images/ayn-rand.jpg",
+  "image_credit": "Photo portrait credited to \"Talbot\" (though not on original dust jacket). Published by the Bobbs-Merrill Company. · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/ayn-rand-photo.jpg",
+  "photo_credit": "Photo portrait credited to \"Talbot\" (though not on original dust jacket). Published by the Bobbs-Merrill Company. · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
+        "Union of Soviet Socialist Republics",
+        "United States of America"
+      ],
+      "born_in": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Alice O'Connor (born Alisa Zinovyevna Rosenbaum; February 2 [O.S. January 20], 1905 – March 6, 1982), better known by her pen name Ayn Rand ( ), was a Russian-American writer and philosopher. She is known for her fiction and for developing a philosophical system which she named Objectivism.",
+    "image": "",
+    "photo": "model 0.77, one person 0.97, in Category:1943 black and white portrait photographs of women",
+    "birth": {
+      "location": [
+        30.30861111,
+        59.9375
+      ],
+      "year": 1905
+    }
+  }
+}

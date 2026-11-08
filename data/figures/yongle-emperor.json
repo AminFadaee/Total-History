@@ -19,6 +19,7 @@
   ],
   "contribution": "The third emperor of the Ming dynasty of China, reigning from 1402 to 1424.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/yongle-emperor.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "citizenship": [
         "Ming Dynasty"
+      ],
+      "born_in": [
+        "Yuan Dynasty"
       ]
     },
     "lead": "The Yongle Emperor (2 May 1360 – 12 August 1424), personal name Zhu Di, was the third emperor of the Ming dynasty of China, reigning from 1402 to 1424. He was the fourth son of the Hongwu Emperor, the founder of the dynasty.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        118.77888889,
+        32.06083333
+      ],
+      "year": 1360
+    }
   }
 }

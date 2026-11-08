@@ -20,6 +20,7 @@
   ],
   "contribution": "A French painter, sculptor, printmaker, ceramist, and writer, whose work has been primarily associated with the Post-Impressionist and Symbolist movements.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/paul-gauguin.jpg",
   "image_credit": "Louis-Maurice Boutet de Monvel · Public domain",
   "image_kind": "Photograph",
@@ -33,10 +34,20 @@
       ],
       "citizenship": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "French Second Republic"
       ]
     },
     "lead": "Eugène Henri Paul Gauguin (; French: [øʒɛn ɑ̃ʁi pɔl ɡoɡɛ̃]; 7 June 1848 – 8 May 1903) was a French painter, sculptor, printmaker, ceramist, and writer, whose work has been primarily associated with the Post-Impressionist and Symbolist movements. He was also an influential practitioner of wood engraving and woodcuts as art forms. While only moderately successful during his lifetime, Gauguin has since been recognized for his experimental use of color and Synthetist style that were distinct from Impressionism.",
     "image": "",
-    "photo": "model 0.90, one person 0.93, in Category:1891 black and white portrait photographs of men"
+    "photo": "model 0.90, one person 0.93, in Category:1891 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        2.48333333,
+        48.81666667
+      ],
+      "year": 1848
+    }
   }
 }

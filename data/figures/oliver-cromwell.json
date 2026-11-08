@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An English statesman and soldier, widely regarded as one of the most important figures in British history.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/oliver-cromwell.jpg",
   "image_credit": "After Samuel Cooper · Public domain",
   "image_kind": "Portrait from life",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
-    "lead": "Oliver Cromwell (25 April 1599 – 3 September 1658) was an English statesman and soldier, widely regarded as one of the most important figures in British history. He came to prominence during the Wars of the Three Kingdoms, initially as a senior commander in the Parliamentarian army and later as a politician. A leading advocate of the execution of Charles I in January 1649, which led to the establishment of the Commonwealth of England, Cromwell ruled as Lord Protector from December 1653 until his death in September 1658.",
+    "lead": "Oliver Cromwell (25 April 1599 – 3 September 1658) was an English statesman and soldier, widely regarded as one of the most important figures in British history. He came to prominence during the Wars of the Three Kingdoms, initially as a senior commander in the Parliamentarian army and later as a republican politician. A leading advocate of the execution of Charles I in January 1649, which led to the establishment of the Commonwealth of England, Cromwell ruled as Lord Protector from December 1653 until his death in September 1658.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.1717,
+        52.3364
+      ],
+      "year": 1599
+    }
   }
 }

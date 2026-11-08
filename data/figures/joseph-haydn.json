@@ -12,12 +12,13 @@
   "occupation": "Composer",
   "birth_country": "Austria",
   "civilizations": [
-    "Holy Roman Empire",
-    "Habsburg Monarchy"
+    "Habsburg Monarchy",
+    "Holy Roman Empire"
   ],
   "related": [],
   "contribution": "An Austrian composer of the Classical period.",
   "setting": "",
+  "modern_country": "Austria",
   "image": "images/joseph-haydn.jpg",
   "image_credit": "Thomas Hardy · Public domain",
   "image_kind": "Portrait from life",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "Habsburg Monarchy"
+      ],
+      "born_in": [
+        "Habsburg Monarchy"
       ]
     },
     "lead": "Franz Joseph Haydn ( HY-dən; German: [ˈfʁants ˈjoːzɛf ˈhaɪdn̩] ; 31 March 1732 – 31 May 1809) was an Austrian composer of the Classical period. He was pivotal in the evolution of chamber music forms such as the string quartet and piano trio. His contributions to musical form have led him to be called \"Father of the Symphony\", \"Father of the String quartet\" and \"Father of Sonata Form\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        16.85833333,
+        48.06666667
+      ],
+      "year": 1732
+    }
   }
 }

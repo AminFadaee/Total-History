@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Maghrebi Muslim traveller, explorer, and scholar from Tangier, Morocco.",
   "setting": "",
+  "modern_country": "Morocco",
   "image": "images/ibn-battuta.jpg",
   "image_credit": "Léon Benett · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Marinid Sultanate"
+      ],
+      "born_in": [
+        "Marinid Sultanate"
       ]
     },
     "lead": "Ibn Battuta (; 24 February 1304–1368/1369) was a Maghrebi Muslim traveller, explorer, and scholar from Tangier, Morocco. Over a 30-year period (1325–1354) he visited much of Africa, Asia, and the Iberian Peninsula. Near the end of his life, Ibn Battuta dictated an account of his journeys, titled A Gift to Those Who Contemplate the Wonders of Cities and the Marvels of Travelling, commonly known as The Rihla.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -5.80388889,
+        35.77666667
+      ],
+      "year": 1304
+    }
   }
 }

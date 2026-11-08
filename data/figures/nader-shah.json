@@ -22,6 +22,7 @@
   ],
   "contribution": "The founder of the Afsharid dynasty of Iran and one of the most powerful rulers in Iranian history, ruling as the emperor of Iran from 1736 to 1747, when he was assassinated during a rebellion.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/nader-shah.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -48,10 +49,20 @@
       ],
       "birthplace": [
         "Safavid Dynasty"
+      ],
+      "born_in": [
+        "Safavid Dynasty"
       ]
     },
-    "lead": "Nader Shah Afshar (born Nadr Qoli; Persian: نادرشاه افشار; 6 August 1698 or 22 October 1688 – 20 June 1747) was the founder of the Afsharid dynasty of Iran and one of the most powerful rulers in Iranian history, ruling as the emperor of Iran (Persia) from 1736 to 1747, when he was assassinated during a rebellion. He fought numerous campaigns throughout West Asia, the Caucasus, Central Asia, and South Asia, emerging victorious from the battles of Herat, Mihmandust, Murche-Khort, Kirkuk, Yeghevārd, Khyber Pass, Karnal, and Kars. Nader belonged to the Turkoman Afshars, one of the seven Qizilbash tribes that helped the Safavid dynasty establish their power in Iran.",
+    "lead": "Nader Shah Afshar (born Nadr Qoli; Persian: نادرشاه افشار; 6 August 1698 or 22 November 1688 – 20 June 1747) was the founder of the Afsharid dynasty of Iran and one of the most powerful rulers in Iranian history, ruling as the emperor of Iran (Persia) from 1736 to 1747, when he was assassinated during a rebellion. He fought numerous campaigns throughout West Asia, the Caucasus, Central Asia, and South Asia, emerging victorious from the battles of Herat, Mihmandust, Murche-Khort, Kirkuk, Yeghevārd, Khyber Pass, Karnal, and Kars. Nader belonged to the Turkoman Afshars, one of the seven Qizilbash tribes that helped the Safavid dynasty establish their power in Iran.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        59.16777778,
+        36.62944444
+      ],
+      "year": 1688
+    }
   }
 }

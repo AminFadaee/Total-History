@@ -19,6 +19,7 @@
   ],
   "contribution": "A Finnish military sniper during the Winter War between Finland and the Soviet Union in World War II.",
   "setting": "",
+  "modern_country": "Finland",
   "image": "images/simo-hayha.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "citizenship": [
         "Republic of Finland"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Simo Häyhä (17 December 1905 –  1 April 2002), often referred to by his nickname The White Death, was a Finnish military sniper during the Winter War between Finland and the Soviet Union in World War II. He used a Finnish-produced M/28-30 rifle (a variant of the Mosin–Nagant) and a Suomi KP/-31 submachine gun. Häyhä is believed to have killed more than 500 enemy soldiers during the conflict, the highest number of sniper kills in any major war. Consequently, he is generally regarded as the deadliest sniper in history.",
     "image": "",
-    "photo": "model 0.97, one person 0.89, captured 1940, during their lifetime"
+    "photo": "model 0.97, one person 0.89, captured 1940, during their lifetime",
+    "birth": {
+      "location": [
+        29.35,
+        61.43333333
+      ],
+      "year": 1905
+    }
   }
 }

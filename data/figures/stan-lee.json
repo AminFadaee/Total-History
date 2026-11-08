@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An American comic book writer, editor, publisher, and producer.",
   "setting": "",
+  "modern_country": "United States",
   "image": "images/stan-lee.jpg",
   "image_credit": "US Embassy Tokyo · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
-    "lead": "Stan Lee (born Stanley Martin Lieber ; December 28, 1922 – November 12, 2018) was an American comic book writer, editor, publisher, and producer. He rose through the ranks of a family-run business called Timely Comics, which later became Marvel Comics. He was Marvel's primary creative leader for two decades, expanding it from a small publishing house division to a multimedia corporation that dominated the comics and film industries.",
+    "lead": "Stan Lee (born Stanley Martin Lieber ; December 28, 1922 – November 12, 2018) was an American comic book writer, editor, publisher, and producer. He rose through the ranks of a family-run business called Timely Comics, which later became Marvel Comics. Lee was Marvel's primary creative leader for two decades, expanding it from a small publishing house division to a prominent multimedia corporation that dominated the comics and film industries.",
     "image": "",
-    "photo": "model 0.80, one person 0.83, captured 2016, during their lifetime"
+    "photo": "model 0.80, one person 0.83, captured 2016, during their lifetime",
+    "birth": {
+      "location": [
+        -73.96666667,
+        40.78333333
+      ],
+      "year": 1922
+    }
   }
 }

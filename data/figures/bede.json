@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An English Benedictine monk, author and scholar.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/bede.jpg",
   "image_credit": "anonymous · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Northumbria"
+      ],
+      "born_in": [
+        "Kingdom of Northumbria"
       ]
     },
     "lead": "Bede, OSB (; Old English: Bēda [ˈbeːdɑ]; 672/3 – 26 May 735), also known as the Venerable Bede or Bede the Venerable, was an English Benedictine monk, author and scholar. He was one of the best known writers during the Early Middle Ages, and his most famous work, Ecclesiastical History of the English People, gained him the title \"The Father of English History\". He served at the monastery of St Peter and its companion monastery of St Paul in the Kingdom of Northumbria of the Angles.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -2.5,
+        55.0
+      ],
+      "year": 672
+    }
   }
 }

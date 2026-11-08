@@ -3,7 +3,7 @@
   "slug": "countess-charlotte-brabantina-of-nassau",
   "name": "Countess Charlotte Brabantina of Nassau",
   "wikipedia": "Countess Charlotte Brabantina of Nassau",
-  "role": "Dutch noble",
+  "role": "Duchess of Thouars",
   "life": "1580–1631",
   "lifetime": [
     1580,
@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The fifth daughter of William the Silent and his third wife, Charlotte of Bourbon.",
   "setting": "",
+  "modern_country": "",
   "image": "images/countess-charlotte-brabantina-of-nassau.jpg",
   "image_credit": "Unidentified painter · Public domain",
   "image_kind": "Later depiction",
@@ -30,10 +31,18 @@
       "citizenship": [
         "Dutch Republic",
         "Kingdom of France"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Countess Charlotte Brabantina of Nassau (Antwerp, 17 September 1580 – Château-Renard, August 1631) was the fifth daughter of William the Silent and his third wife, Charlotte of Bourbon.  She lived in her life at the French royal court and performed many successful assignments as a mediator.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        4.3997222222222225,
+        51.221111111111114
+      ],
+      "year": 1580
+    }
   }
 }

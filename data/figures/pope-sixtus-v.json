@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Head of the Catholic Church and ruler of the Papal States from 24 April 1585 to his death in August 1590.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/pope-sixtus-v.jpg",
   "image_credit": "Didier Descouens · Public domain",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Papal States"
+      ],
+      "born_in": [
+        "Papal States"
       ]
     },
     "lead": "Pope Sixtus V (Italian: Sisto V; 13 December 1521 – 27 August 1590), born Felice Piergentile, was head of the Catholic Church and ruler of the Papal States from 24 April 1585 to his death in August 1590. As a youth, he joined the Franciscan order, where he displayed talents as a scholar and preacher, and enjoyed the patronage of Pius V, who made him a cardinal. As a cardinal, he was known as Cardinal Montalto.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.86583333,
+        42.98972222
+      ],
+      "year": 1520
+    }
   }
 }

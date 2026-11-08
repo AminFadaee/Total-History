@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A military officer and politician who served as the 37th president of Guatemala from July 1, 1978, to March 23, 1982.",
   "setting": "",
+  "modern_country": "Guatemala",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Guatemala"
+      ],
+      "born_in": [
+        "Guatemala"
       ]
     },
     "lead": "Fernando Romeo Lucas García (4 July 1924 – 27 May 2006) was a military officer and politician who served as the 37th president of Guatemala from July 1, 1978, to March 23, 1982. He was elected as the nominee for the Institutional Democratic Party (with the support of the Revolutionary Party). During Lucas García's regime, tensions between the radical left and the government increased. The military started to murder political opponents while counterinsurgency measures further terrorized populations of poor civilians.",
     "image": "no candidate shows one person",
-    "photo": "Retrato oficial de Presidente Fernando Romeo Lucas Garcia.jpg: model 0.63, one person 0.50, captured 1950, during their lifetime"
+    "photo": "Retrato oficial de Presidente Fernando Romeo Lucas Garcia.jpg: model 0.63, one person 0.50, captured 1950, during their lifetime",
+    "birth": {
+      "location": [
+        -90.326285,
+        15.425675
+      ],
+      "year": 1924
+    }
   }
 }

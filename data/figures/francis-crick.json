@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An English molecular biologist, biophysicist, and neuroscientist.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/francis-crick.jpg",
   "image_credit": "Unknown author · CC BY 4.0",
   "image_kind": "Photograph",
@@ -26,10 +27,20 @@
     "civilization_votes": {
       "citizenship": [
         "United Kingdom"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Francis Harry Compton Crick (8 June 1916 – 28 July 2004) was an English molecular biologist, biophysicist, and neuroscientist. He, James Watson, Rosalind Franklin, and Maurice Wilkins played crucial roles in deciphering the helical structure of the DNA molecule.",
     "image": "",
-    "photo": "model 0.96, one person 0.99, in Category:1995 black and white portrait photographs of men"
+    "photo": "model 0.96, one person 0.99, in Category:1995 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        -0.846,
+        52.25
+      ],
+      "year": 1916
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Catholic saint and was the first person to be canonized from what is now Ecuador.",
   "setting": "",
+  "modern_country": "Ecuador",
   "image": "images/mariana-de-jesus-de-paredes.jpg",
   "image_credit": "Antonio Salas · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Mariana of Jesus de Paredes (Spanish: Mariana or María Ana de Jesús de Paredes; October 31, 1618 – May 26, 1645) is a Catholic saint and was the first person to be canonized from what is now Ecuador. She was a recluse who is said to have sacrificed herself for the salvation of her city. She was beatified by Pope Pius IX in 1853 and canonized by Pope Pius XII in 1950. She is the patroness saint of Ecuador. Her relics are in the Church of the Society of Jesus in Quito. Her feast day is celebrated on May 26, and on May 28 in the Franciscan Order.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -78.5125,
+        -0.22
+      ],
+      "year": 1618
+    }
   }
 }

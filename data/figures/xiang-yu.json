@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Chinese warlord who founded and led the short-lived kingdom-state of Western Chu during the interregnum period between the Qin and Han dynasties known as the Chu–Han Contention.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/xiang-yu.jpg",
   "image_credit": "ShangGuan Zhou（上官周） · Public domain",
   "image_kind": "Depiction",
@@ -37,10 +38,20 @@
       ],
       "vital_section": [
         "Han Dynasty"
+      ],
+      "born_in": [
+        "Chu"
       ]
     },
     "lead": "Xiang Yu (c. 232 – c. January 202 BC), born Xiang Ji, was a Chinese warlord who founded and led the short-lived kingdom-state of Western Chu during the interregnum period between the Qin and Han dynasties known as the Chu–Han Contention (206–202 BC).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        118.275,
+        33.963
+      ],
+      "year": -232
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Soviet rocket engineer and spacecraft designer who led the development of the Soviet space program during the early years of the Space Race.",
   "setting": "",
+  "modern_country": "Ukraine",
   "image": "images/sergei-korolev.jpg",
   "image_credit": "Unknown author · CC BY 4.0",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Union of Soviet Socialist Republics"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Sergei Pavlovich Korolev (12 January 1907 [O.S. 30 December 1906] – 14 January 1966) was a Soviet rocket engineer and spacecraft designer who led the development of the Soviet space program during the early years of the Space Race.",
     "image": "",
-    "photo": "model 0.90, one person 0.99"
+    "photo": "model 0.90, one person 0.99",
+    "birth": {
+      "location": [
+        28.66666667,
+        50.25
+      ],
+      "year": 1906
+    }
   }
 }

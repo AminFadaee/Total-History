@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Hereditary Princess of Brunswick; married 14 October 1790 to Hereditary Prince Charles George August of Brunswick-Wolfenbüttel, son of Charles William Ferdinand, Duke of Brunswick-Wolfenbüttel.",
   "setting": "",
+  "modern_country": "Netherlands",
   "image": "images/princess-louise-of-orange-nassau.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Dutch Republic"
+      ],
+      "born_in": [
+        "Dutch Republic"
       ]
     },
     "lead": "Princess Frederica Louise Wilhelmina of Orange-Nassau (28 November 1770 – 15 October 1819) was a Hereditary Princess of Brunswick; married 14 October 1790 to Hereditary Prince Charles George August of Brunswick-Wolfenbüttel (1766 – 20 September 1806), son of Charles William Ferdinand, Duke of Brunswick-Wolfenbüttel. She was known in the family as \"Loulou\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        4.31,
+        52.08
+      ],
+      "year": 1770
+    }
   }
 }

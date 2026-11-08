@@ -15,8 +15,9 @@
     "Byzantine Empire"
   ],
   "related": [],
-  "contribution": "A Christian theologian and Patriarch of Alexandria from 412 to 444.",
+  "contribution": "An Egyptian Christian theologian and Patriarch of Alexandria from 412 to 444.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/cyril-of-alexandria.jpg",
   "image_credit": "Catedrales e Iglesias/Cathedrals and Churches from Puebla de los Ángeles, Mexico · CC BY 2.0",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Byzantine Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
-    "lead": "Cyril of Alexandria (Ancient Greek: Κύριλλος Ἀλεξανδρείας; Coptic: Ⲡⲁⲡⲁ Ⲕⲩⲣⲓⲗⲗⲟⲩ ⲁ̅ or Coptic: Ⲡⲓⲁⲅⲓⲟⲥ Ⲁⲃⲃⲁ Ⲕⲩⲣⲓⲗⲗⲟⲥ ⲡⲓⲥⲧⲩⲗⲗⲟⲥ ⲛ̀ⲧⲉ ⲡⲓⲛⲁϩϯ or ⲡⲓ̀ⲁⲅⲓⲟⲥ Ⲕⲓⲣⲓⲗⲗⲟⲥ; c. 376–444) was a Christian theologian and Patriarch of Alexandria from 412 to 444.",
+    "lead": "Cyril of Alexandria (Ancient Greek: Κύριλλος Ἀλεξανδρείας; Coptic: Ⲡⲁⲡⲁ Ⲕⲩⲣⲓⲗⲗⲟⲩ ⲁ̅ or Coptic: Ⲡⲓⲁⲅⲓⲟⲥ Ⲁⲃⲃⲁ Ⲕⲩⲣⲓⲗⲗⲟⲥ ⲡⲓⲥⲧⲩⲗⲗⲟⲥ ⲛ̀ⲧⲉ ⲡⲓⲛⲁϩϯ or ⲡⲓ̀ⲁⲅⲓⲟⲥ Ⲕⲓⲣⲓⲗⲗⲟⲥ; c. 376–444) was an Egyptian Christian theologian and Patriarch of Alexandria from 412 to 444.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        31.16361111,
+        30.96861111
+      ],
+      "year": 376
+    }
   }
 }

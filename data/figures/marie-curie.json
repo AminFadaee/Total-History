@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "She shared the 1903 Nobel Prize in Physics with her husband, Pierre Curie, \"for their joint researches on the radioactivity phenomena discovered by Professor Henri Becquerel\".",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/marie-curie.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Maria Salomea Skłodowska Curie  (née Skłodowska; 7 November 1867 – 4 July 1934), better known as Marie Curie, was a Polish and naturalised-French physicist and chemist. She shared the 1903 Nobel Prize in Physics with her husband, Pierre Curie, \"for their joint researches on the  radioactivity phenomena discovered by Professor Henri Becquerel\". She won the 1911 Nobel Prize in Chemistry \"[for] the discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element\".",
     "image": "",
-    "photo": "model 0.90, one person 0.95, in Category:1900 back and white portrait photographs of women"
+    "photo": "model 0.90, one person 0.95, in Category:1900 back and white portrait photographs of women",
+    "birth": {
+      "location": [
+        21.01111111,
+        52.23
+      ],
+      "year": 1867
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/frida-kahlo.jpg",
   "image_credit": "Guillermo Kahlo · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Mexico"
+      ],
+      "born_in": [
+        "Mexico"
       ]
     },
     "lead": "Magdalena Carmen Frida Kahlo y Calderón (Spanish pronunciation: [ˈfɾiða ˈkalo]; 6 July 1907 – 13 July 1954) was a Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico. Inspired by the country's popular culture, she employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society. Her paintings often had strong autobiographical elements and mixed realism with fantasy. In addition to belonging to the post-revolutionary Mexicayotl movement, which sought to define a Mexican identity, Kahlo has been described as a surrealist or magical realist. She is also known for painting about her experience of chronic pain. Her 1940 self-portrait titled The Dream (The Bed) holds the record for the most expensive work by a female artist ever auctioned, at $54.7 million.",
     "image": "",
-    "photo": "model 0.94, one person 1.00"
+    "photo": "model 0.94, one person 1.00",
+    "birth": {
+      "location": [
+        -99.13333333,
+        19.43333333
+      ],
+      "year": 1907
+    }
   }
 }

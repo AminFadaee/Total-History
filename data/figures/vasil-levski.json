@@ -20,6 +20,7 @@
   ],
   "contribution": "A Bulgarian revolutionary who is, today, a national hero of Bulgaria.",
   "setting": "",
+  "modern_country": "Bulgaria",
   "image": "images/vasil-levski.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Vasil Levski (Bulgarian: Васил Левски, spelled in old Bulgarian orthography as Василъ Львскій, pronounced [vɐˈsiɫ ˈlɛfski]), born Vasil Ivanov Kunchev (Васил Иванов Кунчев; 18 July 1837 – 18 February 1873), was a Bulgarian revolutionary who is, today, a national hero of Bulgaria. Dubbed the Apostle of Freedom, Levski ideologised and strategised a revolutionary movement to liberate Bulgaria from Ottoman rule. Levski founded the Internal Revolutionary Organisation, and sought to foment a nationwide uprising through a network of secret regional committees.",
     "image": "",
-    "photo": "model 0.91, one person 0.98"
+    "photo": "model 0.91, one person 0.98",
+    "birth": {
+      "location": [
+        24.80722222,
+        42.64361111
+      ],
+      "year": 1837
+    }
   }
 }

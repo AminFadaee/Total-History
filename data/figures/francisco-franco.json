@@ -3,7 +3,7 @@
   "slug": "francisco-franco",
   "name": "Francisco Franco",
   "wikipedia": "Francisco Franco",
-  "role": "Dictator of Spain from 1939 to 1975",
+  "role": "Leader of Spain from 1939 to 1975",
   "life": "1892–1975",
   "lifetime": [
     1892,
@@ -22,6 +22,7 @@
   ],
   "contribution": "A Spanish military general and the dictator of Spain from 1939 until his death in 1975.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/francisco-franco.jpg",
   "image_credit": "Unknown author · CC0",
   "image_kind": "Photograph",
@@ -46,10 +47,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Francisco Franco Bahamonde (4 December 1892 – 20 November 1975) was a Spanish military general and the dictator of Spain from 1939 until his death in 1975. He had led the Nationalist forces in overthrowing the Second Spanish Republic during the Spanish Civil War from 1936 to 1939. This period in Spanish history, from the Nationalist victory to Franco's death, is commonly known as Francoist Spain.",
     "image": "",
-    "photo": "model 0.91, one person 1.00, in Category:Portrait photographs of Francisco Franco"
+    "photo": "model 0.91, one person 1.00, in Category:Portrait photographs of Francisco Franco",
+    "birth": {
+      "location": [
+        -8.23277778,
+        43.48444444
+      ],
+      "year": 1892
+    }
   }
 }

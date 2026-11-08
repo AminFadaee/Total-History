@@ -3,7 +3,7 @@
   "slug": "gustav-mahler",
   "name": "Gustav Mahler",
   "wikipedia": "Gustav Mahler",
-  "role": "Austro-Bohemian composer and conductor",
+  "role": "Composer and conductor",
   "life": "1860–1911",
   "lifetime": [
     1860,
@@ -12,11 +12,13 @@
   "occupation": "Composer",
   "birth_country": "Czechia",
   "civilizations": [
+    "Austrian Empire",
     "Kingdom of Bohemia"
   ],
   "related": [],
   "contribution": "An Austro-Bohemian Romantic composer, and one of the leading conductors of his generation.",
   "setting": "",
+  "modern_country": "Czechia",
   "image": "images/gustav-mahler.jpg",
   "image_credit": "Moritz Nähr · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +36,20 @@
         "Margraviate of Moravia",
         "Kingdom of Bohemia",
         "Duchy of Styria"
+      ],
+      "born_in": [
+        "Austrian Empire"
       ]
     },
     "lead": "Gustav Mahler (German: [ˈɡʊstaf ˈmaːlɐ] ; 7 July 1860 – 18 May 1911) was an Austro-Bohemian Romantic composer, and one of the leading conductors of his generation. As a composer he acted as a bridge between the 19th-century tradition and the modernism of the early 20th century. While in his lifetime his status as a conductor was established beyond question, his own music gained wide popularity only after periods of relative neglect, which included a ban on its performance in much of Europe during the Nazi era. After 1945 his compositions were rediscovered by a new generation of listeners; Mahler then became one of the most frequently performed and recorded of all composers, a position he has sustained into the 21st century.",
     "image": "",
-    "photo": "model 0.94, one person 0.99, in Category:1907 black and white portrait photographs of men"
+    "photo": "model 0.94, one person 0.99, in Category:1907 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        15.30416667,
+        49.59277778
+      ],
+      "year": 1860
+    }
   }
 }

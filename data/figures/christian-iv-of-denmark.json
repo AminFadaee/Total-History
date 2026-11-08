@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Denmark and Norway, and Duke of Holstein and Schleswig from 1588 until his death in 1648.",
   "setting": "",
+  "modern_country": "Denmark",
   "image": "images/christian-iv-of-denmark.jpg",
   "image_credit": "Pieter Isaacsz · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Denmark-Norway"
+      ],
+      "born_in": [
+        "Denmark-Norway"
       ]
     },
     "lead": "Christian IV (12 April 1577 – 28 February 1648) was King of Denmark and Norway, and Duke of Holstein and Schleswig from 1588 until his death in 1648. His reign of 59 years and 330 days makes him the longest-reigning monarch in Scandinavian history.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.30083333,
+        55.935
+      ],
+      "year": 1577
+    }
   }
 }

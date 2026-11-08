@@ -19,6 +19,7 @@
   ],
   "contribution": "His reign was plagued by domestic revolts and religious dissension, but was more successful on the foreign front.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Byzantine Empire"
+      ],
+      "born_in": [
+        "Byzantine Empire"
       ]
     },
     "lead": "Zeno (; Latin: Zeno; Ancient Greek: Ζήνων, romanized: Zēnōn; c. 425 – 9 April 491) was Eastern Roman emperor from 474 to 475 and again from 476 to 491. His reign was plagued by domestic revolts and religious dissension, but was more successful on the foreign front. He is credited with further stabilizing the Eastern empire, while the Western Roman Empire fell following the deposition of Romulus Augustulus.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        32.690517,
+        36.699801
+      ],
+      "year": 425
+    }
   }
 }

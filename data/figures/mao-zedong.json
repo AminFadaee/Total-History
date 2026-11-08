@@ -17,8 +17,9 @@
   "related": [
     "Taiwan"
   ],
-  "contribution": "A Chinese communist revolutionary, political theorist and the founder of the People's Republic of China.",
+  "contribution": "A Chinese revolutionary and political theorist who founded the People's Republic of China and was its paramount leader from 1949 until his death in 1976.",
   "setting": "People's Republic of China",
+  "modern_country": "China",
   "image": "images/mao-zedong.jpg",
   "image_credit": "Chen Zhengqing (1917–1966) · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       ],
       "vital_section": [
         "People's Republic of China"
+      ],
+      "born_in": [
+        "Qing Dynasty"
       ]
     },
-    "lead": "Mao Zedong (26 December 1893 – 9 September 1976) was a Chinese communist revolutionary, political theorist and the founder of the People's Republic of China (PRC). He served as China's paramount leader from 1949 until his death in 1976 primarily through his role as the Chairman of the Chinese Communist Party (CCP). Mao Zedong Thought, which he advocated as a Chinese adaptation of Marxism–Leninism, influenced movements and Maoist organizations worldwide.",
+    "lead": "Mao Zedong (26 December 1893 – 9 September 1976) was a Chinese revolutionary and political theorist who founded the People's Republic of China (PRC) and was its paramount leader from 1949 until his death in 1976. Most political control he exercised came through his position as Chairman of the Chinese Communist Party (CCP). His political philosophy, known as Mao Zedong Thought, was promoted as a Chinese adaptation of Marxism–Leninism, and has influenced communist political movements and organizations worldwide.",
     "image": "",
-    "photo": "model 0.82, one person 0.96, in Category:Photographs distributed by Associated Press"
+    "photo": "model 0.82, one person 0.96, in Category:Photographs distributed by Associated Press",
+    "birth": {
+      "location": [
+        112.5267,
+        27.915
+      ],
+      "year": 1893
+    }
   }
 }

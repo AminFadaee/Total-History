@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Fijian chief, monarch, and warlord who united part of Fiji's warring tribes, establishing a Fijian kingdom.",
   "setting": "",
+  "modern_country": "",
   "image": "images/seru-epenisa-cakobau.jpg",
   "image_credit": "Francis Herbert Dufty · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,18 @@
       ],
       "lead": [
         "Kingdom of Fiji"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Ratu Seru Epenisa Cakobau (pronounced [ˈseru epeˈniːsa ðakomˈbau]; occasionally spelled Cacobau) (c. 1815 – 1 February 1883) was a Fijian chief, monarch, and warlord (Vunivalu) who united part of Fiji's warring tribes, establishing a Fijian kingdom. He served as its only king from 1871 to 1874.",
     "image": "",
-    "photo": "model 0.94, one person 0.99, in Category:Black and white portrait photographs of men"
+    "photo": "model 0.94, one person 0.99, in Category:Black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        179.091,
+        -17.709
+      ],
+      "year": 1815
+    }
   }
 }

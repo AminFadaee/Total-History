@@ -19,6 +19,7 @@
   ],
   "contribution": "An Americo-Liberian politician.",
   "setting": "",
+  "modern_country": "",
   "image": "images/william-d-coleman-politician.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "citizenship": [
         "Republic of Liberia"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
     "lead": "William David Coleman (July 18, 1842 – July 12, 1908) was an Americo-Liberian politician. A True Whig Party member, he served as the 13th president of Liberia from 1896 to 1900. Born in Fayette County, Kentucky, United States, he emigrated to Liberia in 1853. In 1877, he was elected to the House of Representatives and served as Speaker of the House of Representatives until 1879. Later he served in the Senate and then as vice president before assuming the presidency when Joseph James Cheeseman died in office.",
     "image": "",
-    "photo": "model 0.73, one person 0.99, captured 1897, during their lifetime"
+    "photo": "model 0.73, one person 0.99, captured 1897, during their lifetime",
+    "birth": {
+      "location": [
+        -84.46,
+        38.04
+      ],
+      "year": 1842
+    }
   }
 }

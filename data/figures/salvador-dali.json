@@ -19,6 +19,7 @@
   ],
   "contribution": "A Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/salvador-dali.jpg",
   "image_credit": "Van Vechten, Carl, 1880-1964. · Public domain",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Salvador Domingo Felipe Jacinto Dalí i Domènech, Marquess of Dalí de Púbol (11 May 1904 – 23 January 1989), known as Salvador Dalí, was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.",
     "image": "",
-    "photo": "model 0.96, one person 0.98"
+    "photo": "model 0.96, one person 0.98",
+    "birth": {
+      "location": [
+        2.965,
+        42.26666667
+      ],
+      "year": 1904
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "A Japanese samurai and daimyō and one of the leading figures of the Sengoku and Azuchi-Momoyama periods.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/oda-nobunaga.jpg",
   "image_credit": "狩野宗秀 (Kanō Sōshū, 1551 - 1601) · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Warring States Japan"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
-    "lead": "Oda Nobunaga (織田 信長; [o.da (|) no.bɯ(ꜜ).na.ɡa, -na.ŋa] ; 23 June 1534 – 21 June 1582) was a Japanese samurai and daimyō and one of the leading figures of the Sengoku and Azuchi-Momoyama periods. He was the Tenka-bito (天下人; lit. 'person under heaven') and regarded as the first \"Great Unifier\" of Japan. He is sometimes referred as the \"Demon Daimyō\" and \"Demon King of the Sixth Heaven\".",
+    "lead": "Oda Nobunaga (織田 信長; 23 June 1534 – 21 June 1582) was a Japanese samurai and daimyō and one of the leading figures of the Sengoku and Azuchi-Momoyama periods. He was the Tenka-bito (天下人; lit. 'person under heaven') and regarded as the first \"Great Unifier\" of Japan. He is sometimes referred as the \"Demon Daimyō\" and \"Demon King of the Sixth Heaven\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        136.9,
+        35.18333333
+      ],
+      "year": 1534
+    }
   }
 }

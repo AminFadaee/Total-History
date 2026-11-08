@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian composer known primarily for his operas.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/giacomo-puccini.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Kingdom of Italy"
+      ],
+      "born_in": [
+        "Austrian Empire"
       ]
     },
-    "lead": "Giacomo Antonio Domenico Michele Secondo Maria Puccini (1858 – 1924) was an Italian composer known primarily for his operas. Widely regarded as the greatest and most successful proponent of Italian opera after Verdi, he was descended from a long line of composers, stemming from the late Baroque era. Though his early work was firmly rooted in traditional late-nineteenth-century Romantic Italian opera, it later developed in the realistic verismo style, of which he became one of the leading exponents.",
+    "lead": "Giacomo Antonio Domenico Michele Secondo Maria Puccini (22 December 1858 – 29 November 1924) was an Italian composer known primarily for his operas. Widely regarded as the greatest and most successful proponent of Italian opera after Verdi, he was descended from a long line of composers, stemming from the late Baroque era. Though his early work was firmly rooted in traditional late-nineteenth-century Romantic Italian opera, it later developed in the realistic verismo style, of which he became one of the leading exponents.",
     "image": "",
-    "photo": "model 0.74, one person 0.97, in Category:Photographs of Giacomo Puccini"
+    "photo": "model 0.74, one person 0.97, in Category:Photographs of Giacomo Puccini",
+    "birth": {
+      "location": [
+        10.50277778,
+        43.84166667
+      ],
+      "year": 1858
+    }
   }
 }

@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An Iranian economist and politician who served as Prime Minister of Iran from 1965 to 1977 and Secretary-General of the Rastakhiz Party from 1975 to 1976.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/amir-abbas-hoveyda.jpg",
   "image_credit": "Pahlavi Dynasty · Public domain",
   "image_kind": "Portrait from life",
@@ -36,10 +37,20 @@
       ],
       "citizenship": [
         "Islamic Republic of Iran"
+      ],
+      "born_in": [
+        "Qajar Dynasty"
       ]
     },
     "lead": "Amir-Abbas Hoveyda (18 February 1919 – 7 April 1979) was an Iranian economist and politician who served as Prime Minister of Iran from 1965 to 1977 and Secretary-General of the Rastakhiz Party from 1975 to 1976. He was the longest-serving prime minister in Iran's history, serving in office for over 12 years. He also served as deputy prime minister and minister of finance in the cabinet of his predecessor, Hassan Ali Mansur.",
     "image": "",
-    "photo": "PM Amir Abbas Hoveyda.jpg: model 0.28, one person 0.91, captured 1974, during their lifetime; Hoveyda.jpg: model 0.25, one person 0.87, captured 1977, during their lifetime; Amir Abbas Hoveyda portrait.jpg: model 0.64, one person 0.79, captured 1970, during their lifetime; Hoveydacabinet1974.jpg: model 0.95, one person 0.00, captured 1975, during their lifetime; Hoveida and Demirel.jpg: model 0.99, one person 0.10, captured 1970, during their lifetime; Fpchina1972.jpg: model 0.75, one person 0.00, captured 1972, during their lifetime; Hoveydacabinet.jpg: model 0.86, one person 0.00; P hrastakhiz 9.jpg: model 0.73, one person 0.00, captured 1976, during their lifetime; PM Amir Abbas Hoveyda (cropped).jpg: model 0.20, one person 0.94, captured 1974, during their lifetime; NIOC Board Members.jpg: model 0.95, one person 0.00"
+    "photo": "PM Amir Abbas Hoveyda.jpg: model 0.28, one person 0.91, captured 1974, during their lifetime; Hoveyda.jpg: model 0.25, one person 0.87, captured 1977, during their lifetime; Amir Abbas Hoveyda portrait.jpg: model 0.64, one person 0.79, captured 1970, during their lifetime; Hoveydacabinet1974.jpg: model 0.95, one person 0.00, captured 1975, during their lifetime; Hoveida and Demirel.jpg: model 0.99, one person 0.10, captured 1970, during their lifetime; Fpchina1972.jpg: model 0.75, one person 0.00, captured 1972, during their lifetime; Hoveydacabinet.jpg: model 0.86, one person 0.00; P hrastakhiz 9.jpg: model 0.73, one person 0.00, captured 1976, during their lifetime; PM Amir Abbas Hoveyda (cropped).jpg: model 0.20, one person 0.94, captured 1974, during their lifetime; NIOC Board Members.jpg: model 0.95, one person 0.00",
+    "birth": {
+      "location": [
+        51.38888889,
+        35.68916667
+      ],
+      "year": 1919
+    }
   }
 }

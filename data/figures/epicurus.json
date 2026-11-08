@@ -12,6 +12,7 @@
   "occupation": "Philosopher",
   "birth_country": "Greece",
   "civilizations": [
+    "Second Athenian League",
     "Classical Athens"
   ],
   "related": [
@@ -19,6 +20,7 @@
   ],
   "contribution": "An ancient Greek philosopher who founded the philosophical school of Epicureanism, which teaches that management of one's desires, removal of unnecessary fears, friendship, and virtuous living lead to a pleasant life and constant happiness, the highest good.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -34,10 +36,20 @@
       ],
       "citizenship": [
         "Classical Athens"
+      ],
+      "born_in": [
+        "Second Athenian League"
       ]
     },
     "lead": "Epicurus (, EH-pih-KURE-əs; Ancient Greek: Ἐπίκουρος Epikouros; 341–270 BC) was an ancient Greek philosopher who founded the philosophical school of Epicureanism, which teaches that management of one's desires, removal of unnecessary fears, friendship, and virtuous living lead to a pleasant life and constant happiness, the highest good.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        26.83333333,
+        37.75
+      ],
+      "year": -341
+    }
   }
 }

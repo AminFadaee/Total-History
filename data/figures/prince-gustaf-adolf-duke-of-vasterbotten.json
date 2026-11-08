@@ -19,6 +19,7 @@
   ],
   "contribution": "A Swedish prince who for most of his life was second in the line of succession to the Swedish throne with the title of Hereditary Prince.",
   "setting": "",
+  "modern_country": "",
   "image": "images/prince-gustaf-adolf-duke-of-vasterbotten.jpg",
   "image_credit": "Unknown photographer · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Prince Gustaf Adolf of Sweden, Duke of Västerbotten (Gustaf Adolf Oscar Fredrik Arthur Edmund; 22 April 1906 – 26 January 1947) was a Swedish prince who for most of his life was second in the line of succession to the Swedish throne with the title of Hereditary Prince.",
     "image": "",
-    "photo": "model 0.98, one person 0.98, captured 1932, during their lifetime"
+    "photo": "model 0.98, one person 0.98, captured 1932, during their lifetime",
+    "birth": {
+      "location": [
+        18.07166667,
+        59.32694444
+      ],
+      "year": 1906
+    }
   }
 }

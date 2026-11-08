@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese samurai, daimyo and the 15th and final shōgun of the Ashikaga shogunate in Japan who reigned from 1568 to 1573 when he staged a revolt and was overthrown.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/ashikaga-yoshiaki.jpg",
   "image_credit": "松平定信（編） · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Ashikaga Shogunate"
+      ],
+      "born_in": [
+        "Ashikaga Shogunate"
       ]
     },
     "lead": "Ashikaga Yoshiaki (足利 義昭; 5 December 1537 – 19 October 1597) was a Japanese samurai, daimyo and the 15th and final shōgun of the Ashikaga shogunate in Japan who reigned from 1568 to 1573 when he staged a revolt and was overthrown. His father, Ashikaga Yoshiharu, was the twelfth shōgun, and his brother, Ashikaga Yoshiteru, was the thirteenth shōgun.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        135.76833333,
+        35.01166667
+      ],
+      "year": 1537
+    }
   }
 }

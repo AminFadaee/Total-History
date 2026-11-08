@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He was elected twice as lawspeaker of the Icelandic parliament, the Althing.",
   "setting": "",
+  "modern_country": "Iceland",
   "image": "images/snorri-sturluson.jpg",
   "image_credit": "Christian Krohg · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Icelandic Commonwealth"
+      ],
+      "born_in": [
+        "Icelandic Commonwealth"
       ]
     },
     "lead": "Snorri Sturluson (Old Norse: [ˈsnorːe ˈsturloˌson]; Icelandic: [ˈstnɔrːɪ ˈstʏ(r)tlʏˌsɔːn]; 1179 – 23 September 1241) was an Icelandic historian, poet, knight, and politician. He was elected twice as lawspeaker of the Icelandic parliament, the Althing. He is commonly thought to have authored or compiled portions of the Prose Edda, which is a major source for what is today known about Norse mythology and alliterative verse, and Heimskringla, a history of the Norse kings that begins with legendary material in Ynglinga saga and moves through to early medieval Scandinavian history. For stylistic and methodological reasons, Snorri is often taken to be the author of Egil's Saga. He was assassinated in 1241 by men claiming to be agents of the King of Norway.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -21.82983611111111,
+        65.21800833333333
+      ],
+      "year": 1179
+    }
   }
 }

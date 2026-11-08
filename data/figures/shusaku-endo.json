@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Japanese writer who wrote from the perspective of a Japanese Catholic.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/shusaku-endo.jpg",
   "image_credit": "Unknown photographer · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Empire of Japan"
+      ],
+      "born_in": [
+        "Empire of Japan"
       ]
     },
-    "lead": "Shūsaku Endō (遠藤 周作, Endō Shūsaku; March 27, 1923 – September 29, 1996) was a Japanese writer who wrote from the perspective of a Japanese Catholic. Internationally, he is known for his 1966 historical fiction novel Silence, adapted into a 2016 film by Martin Scorsese. He was the laureate of several prestigious literary accolades, including the Akutagawa Prize and the Order of Culture, and was inducted into the Roman Catholic Order of St. Sylvester by Pope Paul VI.",
+    "lead": "Shūsaku Endō (遠藤 周作, Endō Shūsaku; March 27, 1923 – September 29, 1996) was a Japanese writer who wrote from the perspective of a Japanese Catholic. Internationally, he is known for his 1966 historical fiction novel Silence, adapted into a 2016 film by Martin Scorsese. He was a laureate of several prestigious literary accolades, including the Akutagawa Prize and the Order of Culture, and was inducted into the Roman Catholic Order of St. Sylvester by Pope Paul VI.",
     "image": "",
-    "photo": "model 0.87, one person 0.99, in Category:1966 black and white portrait photographs of men"
+    "photo": "model 0.87, one person 0.99, in Category:1966 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        139.69222222,
+        35.68972222
+      ],
+      "year": 1923
+    }
   }
 }

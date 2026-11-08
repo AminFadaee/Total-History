@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 11th emperor of the Ming dynasty of China, reigning from 1505 to 1521.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/zhengde-emperor.jpg",
   "image_credit": "Palace Painter · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Ming Dynasty"
+      ],
+      "born_in": [
+        "Ming Dynasty"
       ]
     },
     "lead": "The Zhengde Emperor (14 November 1491 – 20 April 1521), personal name Zhu Houzhao, was the 11th emperor of the Ming dynasty of China, reigning from 1505 to 1521. He succeeded his father, the Hongzhi Emperor.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        116.3975,
+        39.90666667
+      ],
+      "year": 1491
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The Haseki Sultan as a favorite consort and legal wife of Ottoman sultan Ahmed I and Valide Sultan as mother of Murad IV and Ibrahim, and grandmother of Mehmed IV.",
   "setting": "",
+  "modern_country": "",
   "image": "images/kosem-sultan.jpg",
   "image_credit": "Claes Rålamb · CC BY-SA 4.0",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Republic of Venice"
+      ],
+      "born_in": [
+        "Republic of Venice"
       ]
     },
     "lead": "Kösem Sultan (Ottoman Turkish: كسم سلطان; 1589 – 2 September 1651), also known as Mahpeyker Kösem  Sultan (Ottoman Turkish: ماه پیكر;), was the Haseki Sultan as a favorite consort and legal wife of Ottoman sultan Ahmed I and Valide Sultan as mother of Murad IV and Ibrahim, and grandmother of Mehmed IV. She effectively ruled as regent of the Ottoman Empire during the minority of Murad IV from 1623 to 1632, from 1640 to 1648 during the unstable rule of Ibrahim, and again from 1648 until her assassination in 1651 during the minority of Mehmed IV. She was one of the most powerful and influential women in Ottoman history, as well as a central and controversial figure during the period known as the Sultanate of Women.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        25.13916667,
+        37.61333333
+      ],
+      "year": 1590
+    }
   }
 }

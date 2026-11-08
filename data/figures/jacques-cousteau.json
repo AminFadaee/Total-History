@@ -1,0 +1,52 @@
+{
+  "id": "Q83233",
+  "slug": "jacques-cousteau",
+  "name": "Jacques Cousteau",
+  "wikipedia": "Jacques Cousteau",
+  "role": "French oceanographer and author",
+  "life": "1910–1997",
+  "lifetime": [
+    1910,
+    1997
+  ],
+  "occupation": "Explorer",
+  "birth_country": "France",
+  "civilizations": [
+    "French Third Republic"
+  ],
+  "related": [],
+  "contribution": "A French naval officer, oceanographer, filmmaker and author.",
+  "setting": "",
+  "modern_country": "France",
+  "image": "images/jacques-cousteau.jpg",
+  "image_credit": "NASA employee · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/jacques-cousteau-photo.jpg",
+  "photo_credit": "NASA employee · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "French Fifth Republic"
+      ],
+      "citizenship": [
+        "People's Democratic Republic of Algeria"
+      ],
+      "birthplace": [
+        "French Third Republic"
+      ],
+      "born_in": [
+        "French Third Republic"
+      ]
+    },
+    "lead": "Jacques-Yves Cousteau (, also UK: ; French: [ʒak iv kusto]; 11 June 1910 – 25 June 1997) was a French naval officer, oceanographer, filmmaker and author. He co-invented the first successful open-circuit self-contained underwater breathing apparatus (SCUBA), called the Aqua-Lung, which assisted him in producing some of the first underwater documentaries.",
+    "image": "",
+    "photo": "model 0.94, one person 0.99, captured 1976, during their lifetime",
+    "birth": {
+      "location": [
+        -0.4447,
+        44.9956
+      ],
+      "year": 1910
+    }
+  }
+}

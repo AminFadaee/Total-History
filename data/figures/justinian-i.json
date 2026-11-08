@@ -21,6 +21,7 @@
   ],
   "contribution": "Eastern Roman Emperor who ruled from 527 to 565 (482-565).",
   "setting": "",
+  "modern_country": "North Macedonia",
   "image": "images/justinian-i.jpg",
   "image_credit": "Petar Milošević · CC BY-SA 4.0",
   "image_kind": "Depiction",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Byzantine Empire"
+      ],
+      "born_in": [
+        "Byzantine Empire"
       ]
     },
-    "lead": "Justinian I (Latin: Iustinianus, Ancient Greek: Ἰουστινιανός, romanized: Ioustinianós; 482 – 14 November 565), also known as Justinian the Great, was Roman emperor from 527 to 565.",
+    "lead": "Justinian I (Latin: Iustinianus, Byzantine Greek: Ἰουστινιανός, romanized: Ioustinianós; 482 – 14 November 565), also known as Justinian the Great, was Roman emperor from 527 to 565.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        21.61138889,
+        41.89805556
+      ],
+      "year": 482
+    }
   }
 }

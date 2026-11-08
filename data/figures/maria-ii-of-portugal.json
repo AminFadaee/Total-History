@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Her supporters considered her to be the rightful queen also during the period between her two reigns.",
   "setting": "",
+  "modern_country": "",
   "image": "images/maria-ii-of-portugal.jpg",
   "image_credit": "John Simpson · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Portuguese Empire"
+      ],
+      "born_in": [
+        "Portuguese Empire"
       ]
     },
     "lead": "Dona Maria II (Maria da Glória Joana Carlota Leopoldina da Cruz Francisca Xavier de Paula Isidora Micaela Gabriela Rafaela Gonzaga de Habsburgo-Lorena e Bragança; 4 April 1819 – 15 November 1853) also known as \"the Educator\" (Portuguese: a Educadora) or as \"the Good Mother\" (a Boa Mãe), was Queen of Portugal from 1826 to 1828, and again from 1834 to 1853. Her supporters considered her to be the rightful queen also during the period between her two reigns.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -43.22583333,
+        -22.90555556
+      ],
+      "year": 1819
+    }
   }
 }

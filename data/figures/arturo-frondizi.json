@@ -19,6 +19,7 @@
   ],
   "contribution": "An Argentine lawyer, journalist, teacher, statesman, and politician.",
   "setting": "",
+  "modern_country": "",
   "image": "images/arturo-frondizi.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Brazilian Republic"
+      ],
+      "born_in": [
+        "Brazilian Republic"
       ]
     },
     "lead": "Arturo Frondizi Ércoli (Paso de los Libres, October 28, 1908 – Buenos Aires, April 18, 1995) was an Argentine lawyer, journalist, teacher, statesman, and politician. He was elected president of Argentina and governed from May 1, 1958, to March 29, 1962, when he was overthrown in a military coup. His government was characterized by its strong developmentalist policies (inspired by Rogelio Frigerio), that was less promoted by the State and more oriented to the development of heavy industry as a consequence of the entry of multinational companies.",
     "image": "",
-    "photo": "model 0.82, one person 0.96, in Category:Black and white photographs of sitting men"
+    "photo": "model 0.82, one person 0.96, in Category:Black and white photographs of sitting men",
+    "birth": {
+      "location": [
+        -57.08333333,
+        -29.71666667
+      ],
+      "year": 1908
+    }
   }
 }

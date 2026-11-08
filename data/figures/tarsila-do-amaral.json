@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "She is considered one of the leading Latin American modernist artists, and is regarded as the painter who best achieved Brazilian aspirations for nationalistic expression in a modern style.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/tarsila-do-amaral.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Brazilian Republic"
+      ],
+      "born_in": [
+        "Empire of Brazil"
       ]
     },
     "lead": "Tarsila de Aguiar do Amaral (Portuguese pronunciation: [taʁˈsilɐ du ɐmaˈɾaw]; 1 September 1886 – 17 January 1973) was a Brazilian painter, draftswoman, and translator. She is considered one of the leading Latin American modernist artists, and is regarded as the painter who best achieved Brazilian aspirations for nationalistic expression in a modern style. As a member of the Grupo dos Cinco, Tarsila is also considered a major influence in the modern art movement in Brazil, alongside Anita Malfatti, Menotti Del Picchia, Mário de Andrade, and Oswald de Andrade. She was instrumental in the formation of the aesthetic movement, Antropofagia (1928–1929); in fact, Tarsila was the one with her celebrated painting, Abaporu, who inspired Oswald de Andrade's famous Manifesto Antropófago.",
     "image": "",
-    "photo": "model 0.94, one person 0.99, captured 1925, during their lifetime"
+    "photo": "model 0.94, one person 0.99, captured 1925, during their lifetime",
+    "birth": {
+      "location": [
+        -47.50777778,
+        -22.995
+      ],
+      "year": 1886
+    }
   }
 }

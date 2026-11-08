@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Mexican general, statesman, and revolutionary who served as the 51st president of Mexico from 1934 to 1940.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/lazaro-cardenas.jpg",
   "image_credit": "Aurelio Escobar Castellanos · CC BY 2.5",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Mexico"
+      ],
+      "born_in": [
+        "Mexico"
       ]
     },
-    "lead": "Lázaro Cárdenas del Río (Spanish pronunciation: [ˈlasaɾo ˈkaɾðenas] ; 21 May 1895 – 19 October 1970) was a Mexican general, statesman, and revolutionary who served as the 51st president of Mexico from 1934 to 1940. Previously, he served as a general in the Constitutional Army during the Mexican Revolution and as Governor of Michoacán and President of the Institutional Revolutionary Party. He later served as the Secretary of National Defence. During his presidency, which is considered the end of the Maximato, he implemented massive land reform programs, led the nationalization of the country's oil industry, and implemented a welfare state.",
+    "lead": "Lázaro Cárdenas del Río (Spanish: [ˈlasaɾo ˈkaɾðenas] ; 21 May 1895 – 19 October 1970) was a Mexican general, statesman, and revolutionary who served as the 51st president of Mexico from 1934 to 1940. Previously, he served as a general in the Constitutional Army during the Mexican Revolution and as Governor of Michoacán and President of the Institutional Revolutionary Party. He later served as the Secretary of National Defence. During his presidency, which is considered the end of the Maximato, he implemented massive land reform programs, led the nationalization of the country's oil industry, and implemented a welfare state.",
     "image": "",
-    "photo": "model 0.84, one person 0.99, captured 1934, during their lifetime"
+    "photo": "model 0.84, one person 0.99, captured 1934, during their lifetime",
+    "birth": {
+      "location": [
+        -102.43,
+        19.59
+      ],
+      "year": 1895
+    }
   }
 }

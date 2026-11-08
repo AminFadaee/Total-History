@@ -1,0 +1,52 @@
+{
+  "id": "Q173746",
+  "slug": "paul-erdos",
+  "name": "Paul Erdős",
+  "wikipedia": "Paul Erdős",
+  "role": "Hungarian mathematician",
+  "life": "1913–1996",
+  "lifetime": [
+    1913,
+    1996
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Hungary",
+  "civilizations": [
+    "Hungarian Republic"
+  ],
+  "related": [],
+  "contribution": "He was one of the most prolific mathematicians and producers of mathematical conjectures of all times.",
+  "setting": "Hungarian Republic",
+  "modern_country": "Hungary",
+  "image": "images/paul-erdos.jpg",
+  "image_credit": "Topsy Kretts · CC BY 3.0",
+  "image_kind": "Photograph",
+  "photo": "images/paul-erdos-photo.jpg",
+  "photo_credit": "Topsy Kretts · CC BY 3.0",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Republic of Poland"
+      ],
+      "citizenship": [
+        "Hungarian Republic"
+      ],
+      "vital_section": [
+        "Hungarian Republic"
+      ],
+      "born_in": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Paul Erdős (Hungarian: Erdős Pál [ˈɛrdøːʃ ˈpaːl]; 26 March 1913 – 20 September 1996) was a Hungarian mathematician. He was one of the most prolific mathematicians and producers of mathematical conjectures of all times. Erdős pursued and proposed problems in discrete mathematics, graph theory, number theory, mathematical analysis, approximation theory, set theory, and probability theory. Much of his work centered on discrete mathematics, cracking many previously unsolved problems in the field. He championed and contributed to Ramsey theory, which studies the conditions in which order necessarily appears. Overall, his work leaned towards solving previously open problems, rather than developing or exploring new areas of mathematics.",
+    "image": "",
+    "photo": "model 0.95, one person 0.99",
+    "birth": {
+      "location": [
+        19.05138889,
+        47.4925
+      ],
+      "year": 1913
+    }
+  }
+}

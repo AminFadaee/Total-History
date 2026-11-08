@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "He was the last president to belong to the Republican Party.",
   "setting": "",
+  "modern_country": "",
   "image": "images/james-spriggs-payne.jpg",
   "image_credit": "unlisted · Public domain",
   "image_kind": "Depiction",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
     "lead": "James Spriggs Payne (December 19, 1819 – January 31, 1882) served as the fourth and eighth president of Liberia, from 1868 to 1870 and from 1876 to 1878. He was the last president to belong to the Republican Party.",
     "image": "",
-    "photo": "James Payne2.jpg: model 0.88, one person 0.99"
+    "photo": "James Payne2.jpg: model 0.88, one person 0.99",
+    "birth": {
+      "location": [
+        -77.43666667,
+        37.54083333
+      ],
+      "year": 1819
+    }
   }
 }

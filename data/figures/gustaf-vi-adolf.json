@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Sweden from 29 October 1950 until his death in 1973.",
   "setting": "",
+  "modern_country": "",
   "image": "images/gustaf-vi-adolf.jpg",
   "image_credit": "Unknown photographer for Anefo · CC0",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United Kingdoms of Sweden and Norway"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
     "lead": "Gustaf VI Adolf (Oscar Fredrik Wilhelm Olaf Gustaf Adolf; 11 November 1882 – 15 September 1973) was King of Sweden from 29 October 1950 until his death in 1973. He was the eldest son of Gustaf V and his wife, Victoria of Baden. Before Gustaf Adolf acceded to the throne, he was crown prince for nearly 43 years during his father's reign. As king, and shortly before his death, he gave his approval to constitutional changes which removed the Swedish monarchy's last political powers. He was a lifelong amateur archeologist particularly interested in Ancient Italian cultures.",
     "image": "",
-    "photo": "model 0.95, one person 1.00, captured 1962, during their lifetime"
+    "photo": "model 0.95, one person 1.00, captured 1962, during their lifetime",
+    "birth": {
+      "location": [
+        18.07166667,
+        59.32694444
+      ],
+      "year": 1882
+    }
   }
 }

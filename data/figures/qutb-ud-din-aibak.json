@@ -22,6 +22,7 @@
   ],
   "contribution": "A Turkic general of the Ghurid emperor Muhammad Ghori.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -41,10 +42,20 @@
         "Gahadavala Dynasty",
         "Chaulukya Dynasty",
         "Chandela Kingdom"
+      ],
+      "born_in": [
+        "Kara-Khitans"
       ]
     },
-    "lead": "Qutb ud-Din Aibak (Persian: قطب‌الدین ایبک; 1150 – 4 November 1210) was a Turkic general of the Ghurid emperor Muhammad Ghori. He was in charge of the Ghurid territories in northern India, and after Muhammad Ghori's assassination in 1206, he established his own independent rule in Lahore, laying the foundations for the Sultanate of Delhi.",
+    "lead": "Qutb ud-Din Aibak (Persian: قطب‌الدین ایبک; 1150 – 4 November 1210) was a Turkic general of the Ghurid emperor Muhammad Ghori. He was in charge of the Ghurid territories in northern India, and after Muhammad Ghori's assassination in 1206, he established his own independent rule in Lahore and Delhi, laying the foundations for the Sultanate of Delhi.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        63.9,
+        45.3
+      ],
+      "year": 1150
+    }
   }
 }

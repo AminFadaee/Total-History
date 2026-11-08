@@ -1,0 +1,53 @@
+{
+  "id": "Q60025",
+  "slug": "hannah-arendt",
+  "name": "Hannah Arendt",
+  "wikipedia": "Hannah Arendt",
+  "role": "German, Jewish, and American historian and philosopher",
+  "life": "1906–1975",
+  "lifetime": [
+    1906,
+    1975
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Germany",
+  "civilizations": [
+    "United States of America"
+  ],
+  "related": [],
+  "contribution": "A German and American philosopher, political theorist, and public historian.",
+  "setting": "",
+  "modern_country": "Germany",
+  "image": "images/hannah-arendt.jpg",
+  "image_credit": "Barbara Niggl Radloff · CC BY-SA 4.0",
+  "image_kind": "Photograph",
+  "photo": "images/hannah-arendt-photo.jpg",
+  "photo_credit": "Barbara Niggl Radloff · CC BY-SA 4.0",
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
+        "Prussia",
+        "United States of America"
+      ],
+      "born_in": [
+        "German Empire"
+      ]
+    },
+    "lead": "Hannah Arendt (born Johanna Arendt; 14 October 1906 – 4 December 1975) was a German and American philosopher, political theorist, and public historian. She was one of the most influential political theorists of the twentieth century.",
+    "image": "",
+    "photo": "model 0.99, one person 0.98, in Category:Photographs by Barbara Niggl Radloff in the Münchner Stadtmuseum",
+    "birth": {
+      "location": [
+        9.7008,
+        52.3689
+      ],
+      "year": 1906
+    }
+  }
+}

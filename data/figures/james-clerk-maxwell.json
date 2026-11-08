@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Scottish physicist and mathematician who was responsible for the classical theory of electromagnetic radiation, which was the first theory to describe electricity, magnetism and light as different manifestations of the same phenomenon.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/james-clerk-maxwell.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "James Clerk Maxwell  (13 June 1831 – 5 November 1879) was a Scottish physicist and mathematician who was responsible for the classical theory of electromagnetic radiation, which was the first theory to describe electricity, magnetism and light as different manifestations of the same phenomenon. Maxwell's equations for electromagnetism achieved the second great unification in physics, where the first one had been realised by Isaac Newton. Maxwell was also key in the creation of statistical mechanics.",
     "image": "",
-    "photo": "James-Clerk-Maxwell-1831-1879.jpg: model 0.55, one person 0.99, captured 1870, during their lifetime; James Clerk Maxwell big.jpg: model 0.10, one person 0.99; Tartan Ribbon.jpg: model 0.91, one person 0.06, captured 1861, during their lifetime; YoungJamesClerkMaxwell.jpg: model 0.83, one person 0.98; Postcard-from-Maxwell-to-Tait.jpg: model 0.51, one person 0.00; JamesClerkMaxwell-KatherineMaxwell-1869.jpg: model 0.90, one person 0.41; James Clerk Maxwell.jpg: model 0.08, one person 0.94; James-clerk-maxwell3.jpg: model 0.56, one person 0.98; James-clerk-maxwell 1.jpg: model 0.71, one person 1.00; James clerk maxwell.jpg: model 0.67, one person 0.99"
+    "photo": "James-Clerk-Maxwell-1831-1879.jpg: model 0.55, one person 0.99, captured 1870, during their lifetime; James Clerk Maxwell big.jpg: model 0.10, one person 0.99; Tartan Ribbon.jpg: model 0.91, one person 0.06, captured 1861, during their lifetime; YoungJamesClerkMaxwell.jpg: model 0.83, one person 0.98; Postcard-from-Maxwell-to-Tait.jpg: model 0.51, one person 0.00; JamesClerkMaxwell-KatherineMaxwell-1869.jpg: model 0.90, one person 0.41; James Clerk Maxwell.jpg: model 0.08, one person 0.94; James-clerk-maxwell3.jpg: model 0.56, one person 0.98; James-clerk-maxwell 1.jpg: model 0.71, one person 1.00; James clerk maxwell.jpg: model 0.67, one person 0.99",
+    "birth": {
+      "location": [
+        -3.18916667,
+        55.95333333
+      ],
+      "year": 1831
+    }
   }
 }

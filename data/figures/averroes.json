@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Andalusian polymath and jurist who was proficient in a variety of intellectual fields, including philosophy, theology, medicine, astronomy, physics, psychology, mathematics, neurology, Islamic jurisprudence, law, and linguistics.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/averroes.jpg",
   "image_credit": "Sailko · CC BY 3.0",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Almoravid Dynasty"
+      ],
+      "born_in": [
+        "Almoravid Dynasty"
       ]
     },
     "lead": "Ibn Rushd (14 April 1126 – 11 December 1198), Latinized as Averroes, was an Andalusian polymath and jurist who was proficient in a variety of intellectual fields, including philosophy, theology, medicine, astronomy, physics, psychology, mathematics, neurology,  Islamic jurisprudence, law, and linguistics. The author of more than 100 books and treatises, his philosophical works include numerous commentaries on Aristotle, for which he was known in the Western world as \"The Commentator\" and \"Father of Rationalism\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.7795675,
+        37.88450722
+      ],
+      "year": 1126
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "Sultan of Morocco from 30 November 1822 to 28 August 1859, as a ruler of the 'Alawi dynasty.",
   "setting": "",
+  "modern_country": "Morocco",
   "image": "images/abd-al-rahman-of-morocco.jpg",
   "image_credit": "Eugène Delacroix · Public domain",
   "image_kind": "Portrait from life",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Morocco"
+      ],
+      "born_in": [
+        "Morocco"
       ]
     },
     "lead": "Moulay Abd al-Rahman bin Hisham (Arabic: عبد الرحمن بن هشام; 19 February 1778 – 28 August 1859) was Sultan of Morocco from 30 November 1822 to 28 August 1859, as a ruler of the 'Alawi dynasty. He was a son of Moulay Hisham. He was proclaimed sultan in Fes after the death of Moulay Sulayman.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -5.00333333,
+        34.04333333
+      ],
+      "year": 1779
+    }
   }
 }

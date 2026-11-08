@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "His 1893 work The Scream has become one of the iconic and acclaimed images in all of Western art.",
   "setting": "",
+  "modern_country": "Norway",
   "image": "images/edvard-munch.jpg",
   "image_credit": "Anders Beer Wilse · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "United Kingdoms of Sweden and Norway"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
     "lead": "Edvard Munch ( MUUNK; Norwegian: [ˈɛ̀dvɑɖ ˈmʊŋk] ; 12 December 1863 – 23 January 1944) was a Norwegian painter. His 1893 work The Scream has become one of the iconic and acclaimed images in all of Western art.",
     "image": "",
-    "photo": "model 0.77, one person 1.00, in Category:1921 black and white portrait photographs of men"
+    "photo": "model 0.77, one person 1.00, in Category:1921 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        11.30883,
+        60.79653
+      ],
+      "year": 1863
+    }
   }
 }

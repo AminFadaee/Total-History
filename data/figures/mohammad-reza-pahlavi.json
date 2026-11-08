@@ -19,6 +19,7 @@
   ],
   "contribution": "The last Shah of Iran, reigning from 1941 to 1979 as the second monarch of the Pahlavi dynasty.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/mohammad-reza-pahlavi.jpg",
   "image_credit": "Unknown photographer · Public domain",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "citizenship": [
         "Pahlavi Dynasty"
+      ],
+      "born_in": [
+        "Qajar Dynasty"
       ]
     },
     "lead": "Mohammad Reza Pahlavi (26 October 1919 – 27 July 1980) was the last Shah of Iran, reigning from 1941 to 1979 as the second monarch of the Pahlavi dynasty. He succeeded his father, Reza Shah, and ruled the Imperial State of Iran until his overthrow in the Islamic Revolution, which abolished the nearly 2,500-year-old Iranian monarchy. During his reign, he assumed the title Shahanshah (lit. 'King of Kings'), and held several other titles, including Aryamehr (lit. 'Light of the Aryans') and Bozorg Arteshtaran (lit. 'Grand Army Commander').",
     "image": "",
-    "photo": "model 0.98, one person 0.85, captured 1949, during their lifetime"
+    "photo": "model 0.98, one person 0.85, captured 1949, during their lifetime",
+    "birth": {
+      "location": [
+        51.38888889,
+        35.68916667
+      ],
+      "year": 1919
+    }
   }
 }

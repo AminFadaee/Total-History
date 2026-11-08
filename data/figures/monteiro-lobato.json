@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "One of Brazil's most influential writers, mostly for his children's books set in the fictional Sítio do Picapau Amarelo but he had been previously a prolific writer of fiction, a translator and an art critic.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/monteiro-lobato.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Brazilian Republic"
+      ],
+      "born_in": [
+        "Empire of Brazil"
       ]
     },
     "lead": "José Bento Renato Monteiro Lobato (Portuguese: [mõˈtejɾu loˈbatu]; 18 April 1882 – 4 July 1948) was one of Brazil's most influential writers, mostly for his children's books set in the fictional Sítio do Picapau Amarelo (Yellow Woodpecker Farm) but he had been previously a prolific writer of fiction, a translator and an art critic. He also founded one of Brazil's first publishing houses (Companhia Editora Nacional) and was a supporter of nationalism.",
     "image": "",
-    "photo": "model 0.85, one person 0.97, captured 1901, during their lifetime"
+    "photo": "model 0.85, one person 0.97, captured 1901, during their lifetime",
+    "birth": {
+      "location": [
+        -45.55555556,
+        -23.025
+      ],
+      "year": 1882
+    }
   }
 }

@@ -20,6 +20,7 @@
   ],
   "contribution": "The son of Charles I, Duke of Orléans, and Marie of Cleves, he succeeded his second cousin once removed and brother-in-law, Charles VIII, who died childless in 1498.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/louis-xii.jpg",
   "image_credit": "Workshop of Jean Perréal · Public domain",
   "image_kind": "Portrait from life",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Kingdom of France"
+      ],
+      "born_in": [
+        "Kingdom of France"
       ]
     },
     "lead": "Louis XII (27 June 1462 – 1 January 1515), also known as Louis of Orléans, was King of France from 1498 to 1515 and King of Naples (as Louis III) from 1501 to 1504. The son of Charles I, Duke of Orléans, and Marie of Cleves, he succeeded his second cousin once removed and brother-in-law, Charles VIII, who died childless in 1498.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        1.33095,
+        47.585501
+      ],
+      "year": 1462
+    }
   }
 }

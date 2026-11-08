@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Soviet politician and diplomat during the Cold War.",
   "setting": "",
+  "modern_country": "Belarus",
   "image": "images/andrei-gromyko.jpg",
   "image_credit": "Mieremet, Rob / Anefo · CC BY-SA 3.0 nl",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Union of Soviet Socialist Republics"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Andrei Andreyevich Gromyko (18 July [O.S. 5 July] 1909 – 2 July 1989) was a Soviet politician and diplomat during the Cold War. He served as Minister of Foreign Affairs (1957–1985) and as Chairman of the Presidium of the Supreme Soviet (1985–1988). Gromyko was responsible for many top decisions on Soviet foreign policy until he retired in 1988. In the 1940s, Western pundits called him Mr. Nyet (\"Mr. No\"), or Grim Grom, because of his frequent use of the Soviet veto in the United Nations Security Council.",
     "image": "",
-    "photo": "model 0.93, one person 0.98, captured 1972, during their lifetime"
+    "photo": "model 0.93, one person 0.98, captured 1972, during their lifetime",
+    "birth": {
+      "location": [
+        30.98416667,
+        52.44527778
+      ],
+      "year": 1909
+    }
   }
 }

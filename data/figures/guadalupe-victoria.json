@@ -23,6 +23,7 @@
   ],
   "contribution": "A Mexican general and politician who fought for independence against the Spanish Empire in the Mexican War of Independence and after the adoption of the Constitution of 1824, was elected as the first president of the United Mexican States.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/guadalupe-victoria.jpg",
   "image_credit": "Carlos Paris · CC BY-SA 3.0",
   "image_kind": "Portrait from life",
@@ -46,10 +47,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Guadalupe Victoria (Spanish pronunciation: [ɡwaðaˈlupe βikˈtoɾja]; 29 September 1786 – 21 March 1843), born José Miguel Ramón Adaucto Fernández y Félix, was a Mexican general and politician who fought for independence against the Spanish Empire in the Mexican War of Independence and after the adoption of the Constitution of 1824, was elected as the first president of the United Mexican States. He was a deputy in the Mexican Chamber of Deputies for Durango and a member of the Supreme Executive Power following the downfall of the First Mexican Empire, which was followed by the 1824 Constitution and his presidency. He later served as Governor of Puebla.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -106.96555556,
+        24.97
+      ],
+      "year": 1786
+    }
   }
 }

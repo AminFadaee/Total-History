@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Ottoman Turkish explorer who traveled through his home country during its cultural zenith as well as neighboring lands.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Ottoman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Dervish Mehmed Zillî (25 March 1611 – 1684), known as Evliya Çelebi (Ottoman Turkish: اوليا چلبى), was an Ottoman Turkish explorer who traveled through his home country during its cultural zenith as well as neighboring lands. He travelled for over 40 years, recording his commentary in a travelogue called the Seyahatnâme (\"Book of Travel\"). The name Çelebi is an honorific meaning \"gentleman\" or \"man of God\".",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        28.98,
+        41.0125
+      ],
+      "year": 1611
+    }
   }
 }

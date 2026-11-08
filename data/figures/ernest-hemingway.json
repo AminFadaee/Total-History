@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An American novelist, short-story writer, and journalist.",
   "setting": "",
+  "modern_country": "United States",
   "image": "images/ernest-hemingway.jpg",
   "image_credit": "Lloyd Arnold · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
     "lead": "Ernest Miller Hemingway ( HEM-ing-way; July 21, 1899 – July 2, 1961) was an American novelist, short-story writer, and journalist. Known for an economical, understated style that influenced later 20th-century writers, he has been romanticized for his adventurous lifestyle and outspoken, blunt public image. Some of his seven novels, six short-story collections and two non-fiction works have become classics of American literature, and he was awarded the 1954 Nobel Prize in Literature.",
     "image": "",
-    "photo": "model 0.86, one person 0.98, in Category:1939 black and white portrait photographs of men"
+    "photo": "model 0.86, one person 0.98, in Category:1939 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        -87.78944444,
+        41.88833333
+      ],
+      "year": 1899
+    }
   }
 }

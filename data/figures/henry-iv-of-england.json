@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of England from 1399 to 1413, Lord of Ireland and duke of Aquitaine.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Henry IV (c. April 1367 – 20 March 1413), also known as Henry Bolingbroke (having been born at Bolingbroke Castle), was King of England from 1399 to 1413, Lord of Ireland and duke of Aquitaine. Henry was the son of John of Gaunt, Duke of Lancaster, and a grandson of King Edward III.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        0.016942,
+        53.165161
+      ],
+      "year": 1367
+    }
   }
 }

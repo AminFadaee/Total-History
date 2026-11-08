@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He was a founding member and one-time leader of the Italian Communist Party.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/antonio-gramsci.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Italy"
+      ],
+      "born_in": [
+        "Kingdom of Italy"
       ]
     },
     "lead": "Antonio Francesco Gramsci (UK:  GRAM-shee, US:  GRAHM-shee; Italian: [anˈtɔːnjo franˈtʃesko ˈɡramʃi] ; 22 January 1891 – 27 April 1937) was an Italian Marxist philosopher, journalist and politician. He was a founding member and one-time leader of the Italian Communist Party. A vocal critic of Benito Mussolini and fascism, he was imprisoned in 1926, and remained in prison until shortly before his death in 1937.",
     "image": "",
-    "photo": "model 0.74, one person 0.99, captured 1922, during their lifetime"
+    "photo": "model 0.74, one person 0.99, captured 1922, during their lifetime",
+    "birth": {
+      "location": [
+        8.81666667,
+        39.76666667
+      ],
+      "year": 1891
+    }
   }
 }

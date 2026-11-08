@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Swedish painter representative of the Arts and Crafts movement.",
   "setting": "",
+  "modern_country": "",
   "image": "images/carl-larsson.jpg",
   "image_credit": "Carl Larsson · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "United Kingdoms of Sweden and Norway"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
     "lead": "Carl Olof Larsson (Swedish pronunciation: [ˈkɑːɭ ˈlɑ̌ːʂɔn] ; 28 May 1853 – 22 January 1919) was a Swedish painter representative of the Arts and Crafts movement. His many paintings include oils, watercolors, and frescoes. He is principally known for his watercolors of idyllic family life. He considered his finest work to be Midvinterblot (Midwinter Sacrifice), a large painting now displayed inside the Swedish National Museum of Fine Arts.",
     "image": "",
-    "photo": "Carl Larsson selfportrait 1891.png: model 0.02, one person 0.97, captured 1891, during their lifetime; Carl Larsson - Self Portrait.png: model 0.01, one person 0.92; Prästgatan 78 Gamla stan.jpg: model 0.48, one person 0.01, classified as a photograph on Commons; Lilla Hyttnäs 1911.jpg: model 0.97, one person 0.10, captured 1911, during their lifetime; Carl Larsson signature.png: model 0.63, one person 0.08; Intgeriör från foajén på Dramatiska teatern vid Nybroplan, Stockholmskällan C2143.jpg: model 0.98, one person 0.00, captured 1908, during their lifetime; Sundbornhydroelectricpowerstation07130009.jpg: model 0.91, one person 0.00, classified as a photograph on Commons; Taflor ur Sveriges historia.jpg: model 0.44, one person 0.08, captured 1897, during their lifetime; Tjefka, Carl Larsson 1890.jpg: model 0.02, one person 0.36; Fra Kunstnermøte i Gøteborg, juni 1881 (11114049584).jpg: model 0.95, one person 0.00, in Category:1881 portrait photographs"
+    "photo": "Carl Larsson selfportrait 1891.png: model 0.02, one person 0.97, captured 1891, during their lifetime; Carl Larsson - Self Portrait.png: model 0.01, one person 0.92; Prästgatan 78 Gamla stan.jpg: model 0.48, one person 0.01, classified as a photograph on Commons; Lilla Hyttnäs 1911.jpg: model 0.97, one person 0.10, captured 1911, during their lifetime; Carl Larsson signature.png: model 0.63, one person 0.08; Intgeriör från foajén på Dramatiska teatern vid Nybroplan, Stockholmskällan C2143.jpg: model 0.98, one person 0.00, captured 1908, during their lifetime; Sundbornhydroelectricpowerstation07130009.jpg: model 0.91, one person 0.00, classified as a photograph on Commons; Taflor ur Sveriges historia.jpg: model 0.44, one person 0.08, captured 1897, during their lifetime; Tjefka, Carl Larsson 1890.jpg: model 0.02, one person 0.36; Fra Kunstnermøte i Gøteborg, juni 1881 (11114049584).jpg: model 0.95, one person 0.00, in Category:1881 portrait photographs",
+    "birth": {
+      "location": [
+        18.06861111,
+        59.32944444
+      ],
+      "year": 1853
+    }
   }
 }

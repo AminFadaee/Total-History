@@ -19,6 +19,7 @@
   ],
   "contribution": "An Ancient Greek polymath: a philosopher, scholar, mathematician, geographer, poet, astronomer, and music theorist.",
   "setting": "",
+  "modern_country": "Libya",
   "image": "images/eratosthenes.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Ptolemaic Kingdom"
+      ],
+      "born_in": [
+        "Ptolemaic Kingdom"
       ]
     },
     "lead": "Eratosthenes of Cyrene ( err-ə-TOSS-thə-neez; Ancient Greek: Ἐρατοσθένης [eratostʰénɛːs]; c. 276 BC – c. 195/194 BC) was an Ancient Greek polymath: a philosopher, scholar, mathematician, geographer, poet, astronomer, and music theorist. Eratosthenes eventually became the chief librarian at the Library of Alexandria. His work was the precursor to the modern discipline of geography, and he introduced some of its terminology, coining the terms geography and geographer.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        21.85805556,
+        32.825
+      ],
+      "year": -276
+    }
   }
 }

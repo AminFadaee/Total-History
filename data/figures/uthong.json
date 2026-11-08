@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "The founder and first monarch of the Ayutthaya Kingdom, reigning from 1351 to 1369.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Sukhothai Kingdom"
+      ],
+      "born_in": [
+        "Sukhothai Kingdom"
       ]
     },
     "lead": "King U-thong (Thai: พระเจ้าอู่ทอง; pronounced [ʔùː.tʰɔ̄ːŋ]) or King Ramathibodi I (Thai: สมเด็จพระรามาธิบดีที่ ๑; Rāmādhipatī; , 1314–1369) was the founder and first monarch of the Ayutthaya Kingdom, reigning from 1351 to 1369. He is traditionally regarded as a pivotal figure in Thai history for unifying the rival power centers of Lopburi (Lavo) and Suphan Buri (Suphannaphum), establishing a centralized state that would dominate mainland Southeast Asia for over four centuries.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        100.11694444,
+        14.4675
+      ],
+      "year": 1314
+    }
   }
 }

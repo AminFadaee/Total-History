@@ -19,6 +19,7 @@
   ],
   "contribution": "The ninth Safavid king (1694–1722).",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/soltan-hoseyn.jpg",
   "image_credit": "Original: Muhammad Ali (painter)Cropped: TRAJAN 117 · Public domain",
   "image_kind": "Depiction",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Safavid Dynasty"
+      ],
+      "born_in": [
+        "Safavid Dynasty"
       ]
     },
     "lead": "Soltan Hoseyn (Persian: سلطان حسین, romanized: Soltān-Hoseyn; 1668 – 9 September 1727) was the Safavid shah of Iran from 1694 to 1722. He was the son and successor of Shah Suleiman (r. 1666–1694).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        51.6675,
+        32.64472222
+      ],
+      "year": 1668
+    }
   }
 }

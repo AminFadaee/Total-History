@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian composer best known for his operas.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/giuseppe-verdi.jpg",
   "image_credit": "Ferdinand Mulnier · Public domain",
   "image_kind": "Portrait from life",
@@ -33,10 +34,20 @@
       "citizenship": [
         "Duchy of Parma and Piacenza",
         "Kingdom of Italy"
+      ],
+      "born_in": [
+        "First French Empire"
       ]
     },
     "lead": "Giuseppe Fortunino Francesco Verdi ( VAIR-dee; Italian: [dʒuˈzɛppe ˈverdi]; 9 or 10 October 1813 – 27 January 1901) was an Italian composer best known for his operas. He was born near Busseto, a small town in the modern province of Parma, to a family of moderate means, receiving a musical education with the help of a local patron named Antonio Barezzi.",
     "image": "",
-    "photo": "Boldini - Ritratto di Giuseppe Verdi (1886) Google Art Project.jpg: model 0.06, one person 0.97, captured 1886, during their lifetime; Giuseppi Verdi by Ferdinand Mulnier c1870.jpg: model 0.45, one person 0.65, in Category:Photographs of Giuseppe Verdi; Giuseppe Verdi xilografia.jpg: model 0.23, one person 0.98; Il Tabarro - Giuseppe Verdi - Edizione Ricordi2.jpg: model 0.03, one person 0.40; Giuseppe Verdi Nabucco Bologna Museo Internationale e biblioteca della musica di bologna 28-04-2012 9-21-060.jpg: model 0.87, one person 0.00, classified as a photograph on Commons; Fiumei Városi Színház.jpg: model 0.83, one person 0.00, captured 1890, during their lifetime; Giuseppe Verdi baptismal certificate.jpg: model 0.48, one person 0.00; RIGOLETTO POSTER.LA SCALA.מודעת ריגולטו מוזאון לה סקאלה.jpg: model 0.79, one person 0.03, classified as a photograph on Commons; Villa Condulmer 20250531 171610.jpg: model 0.04, one person 0.00; The desk book of facts for physicians and pharmacistis (1909) (14577607748).jpg: model 0.53, one person 0.01"
+    "photo": "Boldini - Ritratto di Giuseppe Verdi (1886) Google Art Project.jpg: model 0.06, one person 0.97, captured 1886, during their lifetime; Giuseppi Verdi by Ferdinand Mulnier c1870.jpg: model 0.45, one person 0.65, in Category:Photographs of Giuseppe Verdi; Giuseppe Verdi xilografia.jpg: model 0.23, one person 0.98; Il Tabarro - Giuseppe Verdi - Edizione Ricordi2.jpg: model 0.03, one person 0.40; Giuseppe Verdi Nabucco Bologna Museo Internationale e biblioteca della musica di bologna 28-04-2012 9-21-060.jpg: model 0.87, one person 0.00, classified as a photograph on Commons; Fiumei Városi Színház.jpg: model 0.83, one person 0.00, captured 1890, during their lifetime; Giuseppe Verdi baptismal certificate.jpg: model 0.48, one person 0.00; RIGOLETTO POSTER.LA SCALA.מודעת ריגולטו מוזאון לה סקאלה.jpg: model 0.79, one person 0.03, classified as a photograph on Commons; Villa Condulmer 20250531 171610.jpg: model 0.04, one person 0.00; The desk book of facts for physicians and pharmacistis (1909) (14577607748).jpg: model 0.53, one person 0.01",
+    "birth": {
+      "location": [
+        10.07222222,
+        44.9525
+      ],
+      "year": 1813
+    }
   }
 }

@@ -16,8 +16,9 @@
     "United States of America"
   ],
   "related": [],
-  "contribution": "The only president of the Confederate States from 1861 to 1865, leading the Confederacy during the American Civil War.",
+  "contribution": "The only president of the Confederate States, from 1861 to 1865, leading the Confederacy during the American Civil War.",
   "setting": "",
+  "modern_country": "",
   "image": "images/jefferson-davis.jpg",
   "image_credit": "Mathew Benjamin Brady · Public domain",
   "image_kind": "Portrait from life",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
-    "lead": "Jefferson F. Davis (June 3, 1808 – December 6, 1889) was the only president of the Confederate States from 1861 to 1865, leading the Confederacy during the American Civil War. Before the war, he was a member of the Democratic Party who represented Mississippi in the House of Representatives from 1845 to 1846 and in the United States Senate from 1857 to 1861. From 1853 to 1857, he served as the 23rd United States secretary of war during the administration of President Franklin Pierce.",
+    "lead": "Jefferson F. Davis (June 3, 1808 – December 6, 1889) was the only president of the Confederate States, from 1861 to 1865, leading the Confederacy during the American Civil War. Before the war, he was a member of the Democratic Party who represented Mississippi in the House of Representatives from 1845 to 1846 and in the United States Senate from 1857 to 1861. From 1853 to 1857, he served as the 23rd United States secretary of war during the administration of President Franklin Pierce.",
     "image": "",
-    "photo": "President-Jefferson-Davis.jpg: model 0.55, one person 0.97, in Category:Photographs by Mathew Brady; Jefferson Davis by Vannerson, 1859.jpg: model 0.67, one person 0.99, in Category:1859 portrait photographs of men; Confederate Veteran cover Vol I No 5.jpg: model 0.51, one person 0.71; Risefallofconfed01daviuoft 0001.jpg: model 0.60, one person 0.00, captured 1881, during their lifetime; Jefferson Davis - Project Gutenberg eText 15393.jpg: model 0.64, one person 0.99; JeffersonDavisSig.png: model 0.10, one person 0.00; Jefferson Davis.png: model 0.65, one person 0.99, in Category:Black and white portrait photographs of men; President Davis Reenactor.jpg: model 0.73, one person 0.77; Davis to Corse Envelope.jpg: model 0.76, one person 0.00, captured 1867, during their lifetime; Davis to Corse Letter 1.jpg: model 0.77, one person 0.00, captured 1867, during their lifetime"
+    "photo": "President-Jefferson-Davis.jpg: model 0.55, one person 0.97, in Category:Photographs by Mathew Brady; Jefferson Davis by Vannerson, 1859.jpg: model 0.67, one person 0.99, in Category:1859 portrait photographs of men; Confederate Veteran cover Vol I No 5.jpg: model 0.51, one person 0.71; Risefallofconfed01daviuoft 0001.jpg: model 0.60, one person 0.00, captured 1881, during their lifetime; Jefferson Davis - Project Gutenberg eText 15393.jpg: model 0.64, one person 0.99; JeffersonDavisSig.png: model 0.10, one person 0.00; Jefferson Davis.png: model 0.65, one person 0.99, in Category:Black and white portrait photographs of men; President Davis Reenactor.jpg: model 0.73, one person 0.77; Davis to Corse Envelope.jpg: model 0.76, one person 0.00, captured 1867, during their lifetime; Davis to Corse Letter 1.jpg: model 0.77, one person 0.00, captured 1867, during their lifetime",
+    "birth": {
+      "location": [
+        -87.30388889,
+        36.84333333
+      ],
+      "year": 1808
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Norwegian writer who received the 1903 Nobel Prize in Literature \"as a tribute to his noble, magnificent and versatile poetry, which has always been distinguished by both the freshness of its inspiration and the rare purity of its spirit\".",
   "setting": "",
+  "modern_country": "Norway",
   "image": "images/bjrnstjerne-bjrnson.jpg",
   "image_credit": "Erwin Raupp / Adam Cuerden · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "United Kingdoms of Sweden and Norway"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
-    "lead": "Bjørnstjerne Martinius Bjørnson ( BYURN-sən, Norwegian: [ˈbjø̂ːɳstjæːɳə mɑrˈtiːnɪʉ̂s ˈbjø̂ːɳsɔn]; 8 December 1832 – 26 April 1910) was a Norwegian writer who received the 1903 Nobel Prize in Literature \"as a tribute to his noble, magnificent and versatile poetry, which has always been distinguished by both the freshness of its inspiration and the rare purity of its spirit\". The first Norwegian Nobel laureate, he was a prolific polemicist and extremely influential in Norwegian public life and Scandinavian cultural debate. Bjørnson is considered to be one of \"the four greats\" of Norwegian literature, alongside Ibsen, Lie, and Kielland. He is also celebrated for his lyrics to the Norwegian national anthem, \"Ja, vi elsker dette landet\". The composer Fredrikke Waaler based a composition for voice and piano (Spinnersken) on a text by Bjørnson, as did Anna Teichmüller (Die Prinzessin).",
+    "lead": "Bjørnstjerne Martinius Bjørnson ( BYURN-sən; Norwegian: [ˈbjø̂ːɳstjæːɳə mɑrˈtiːnɪʉ̂s ˈbjø̂ːɳsɔn]; 8 December 1832 – 26 April 1910) was a Norwegian writer who received the 1903 Nobel Prize in Literature \"as a tribute to his noble, magnificent and versatile poetry, which has always been distinguished by both the freshness of its inspiration and the rare purity of its spirit\". The first Norwegian Nobel laureate, he was a prolific polemicist and extremely influential in Norwegian public life and Scandinavian cultural debate. Bjørnson is considered to be one of \"the four greats\" of Norwegian literature, alongside Ibsen, Lie, and Kielland. He is also celebrated for his lyrics to the Norwegian national anthem, \"Ja, vi elsker dette landet\". The composer Fredrikke Waaler based a composition for voice and piano (Spinnersken) on a text by Bjørnson, as did Anna Teichmüller (Die Prinzessin).",
     "image": "",
-    "photo": "model 0.80, one person 0.97, in Category:1908 black and white portrait photographs of men"
+    "photo": "model 0.80, one person 0.97, in Category:1908 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        10.28710781,
+        62.5823042
+      ],
+      "year": 1832
+    }
   }
 }

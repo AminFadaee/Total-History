@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Spanish neuroscientist, pathologist, and histologist specialising in neuroanatomy, and the central nervous system.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/santiago-ramon-y-cajal.jpg",
   "image_credit": "Original photo is anonymous although published by Clark University in 1899. Restoration by Garrondo · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Santiago Ramón y Cajal (Spanish: [sanˈtjaɣo raˈmon i kaˈxal]; 1 May 1852 – 17 October 1934) was a Spanish neuroscientist, pathologist, and histologist specialising in neuroanatomy, and the central nervous system. He and Camillo Golgi received the Nobel Prize in Physiology or Medicine in 1906. Ramón y Cajal was the first Spaniard to win a scientific Nobel Prize. His original investigations of the microscopic structure of the brain made him a pioneer of modern neuroscience.",
     "image": "",
-    "photo": "model 0.93, one person 0.98, captured 1899, during their lifetime"
+    "photo": "model 0.93, one person 0.98, captured 1899, during their lifetime",
+    "birth": {
+      "location": [
+        -1.09277778,
+        42.46138889
+      ],
+      "year": 1852
+    }
   }
 }

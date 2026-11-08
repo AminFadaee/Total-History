@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The eighth Fatimid Caliph from 1036 until 1094.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Fatimid Caliphate"
+      ],
+      "born_in": [
+        "Fatimid Caliphate"
       ]
     },
     "lead": "Abū Tamīm Maʿad al-Mustanṣir bi'llāh (Arabic: أبو تميم معد المستنصر بالله‎; 2 July 1029 – 29 December 1094) was the eighth Fatimid Caliph from 1036 until 1094. He was one of the longest reigning Muslim rulers. His reign was the twilight of the Fatimid state. The start of his reign saw the continuation of competent administrators running the Fatimid state (Anushtakin, al-Jarjara'i, and later al-Yazuri), overseeing the state's prosperity in the first two decades of al-Mustansir's reign. However, the break out of court infighting between the Turkish and Berber/Sudanese court factions following al-Yazuri's assassination, coinciding with natural disasters in Egypt and the gradual loss of administrative control over Fatimid possessions outside of Egypt, almost resulted in the total collapse of the Fatimid state in the 1060s, before the appointment of the Armenian general Badr al-Jamali, who assumed power as vizier in 1073, and became the de facto dictator of the country under the nominal rule of al-Mustansir.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        31.23583333,
+        30.04444444
+      ],
+      "year": 1029
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The sultan of the Ottoman Empire from 1603 until his death in 1617.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/ahmed-i.jpg",
   "image_credit": "17th century artist · CC0",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Ahmed I (Ottoman Turkish: احمد اول Aḥmed-i evvel; Turkish: I. Ahmed; 18 April 1590 – 22 November 1617) was the sultan of the Ottoman Empire from 1603 until his death in 1617.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.42916667,
+        38.61444444
+      ],
+      "year": 1590
+    }
   }
 }

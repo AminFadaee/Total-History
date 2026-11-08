@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An Indian academic, philosopher and statesman who served as the Vice President of India from 1952 to 1962 and President of India from 1962 to 1967.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/sarvepalli-radhakrishnan.jpg",
   "image_credit": "White House · Public domain",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "British Raj"
+      ],
+      "born_in": [
+        "British Raj"
       ]
     },
     "lead": "Sarvepalli Radhakrishnan (; 5 September 1888 – 17 April 1975) was an Indian academic, philosopher and statesman who served as the Vice President of India from 1952 to 1962 and President of India from 1962 to 1967. He was the ambassador of India to the Soviet Union from 1949 to 1952. He was also the vice-chancellor of Banaras Hindu University from 1939 to 1948 and the vice-chancellor of Andhra University from 1931 to 1936. Radhakrishnan is considered one of the most influential and distinguished 20th century scholars of comparative religion and philosophy, he held the King George V Chair of Mental and Moral Science at the University of Calcutta from 1921 to 1932 and Spalding Chair of Eastern Religion and Ethics at University of Oxford from 1936 to 1952.",
     "image": "",
-    "photo": "model 0.91, one person 0.99, captured 1962, during their lifetime"
+    "photo": "model 0.91, one person 0.99, captured 1962, during their lifetime",
+    "birth": {
+      "location": [
+        79.63,
+        13.18
+      ],
+      "year": 1888
+    }
   }
 }

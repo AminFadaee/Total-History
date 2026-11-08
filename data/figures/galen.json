@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Considered to be one of the most accomplished of all medical researchers of antiquity, Galen influenced the development of various scientific disciplines, including anatomy, physiology, pathology, pharmacology, and neurology, as well as philosophy and logic.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/galen.jpg",
   "image_credit": "Georg Paul Busch (engraver) · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
     "lead": "Aelius Galenus or Claudius Galenus (Greek: Κλαύδιος Γαληνός; September 129 – c. 216 CE), often anglicized as Galen () or Galen of Pergamon, was a Roman and Greek physician, surgeon, and philosopher. Considered to be one of the most accomplished of all medical researchers of antiquity, Galen influenced the development of various scientific disciplines, including anatomy, physiology, pathology, pharmacology, and neurology, as well as philosophy and logic.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.18416667,
+        39.1325
+      ],
+      "year": 129
+    }
   }
 }

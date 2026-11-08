@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Chinese warlord in the late Eastern Han dynasty who later became the founding emperor of Shu Han, one of the Three Kingdoms of China.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/liu-bei.jpg",
   "image_credit": "Yan Liben (閻立本) · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Han Dynasty"
+      ],
+      "born_in": [
+        "Han Dynasty"
       ]
     },
     "lead": "Liu Bei (Chinese: 劉備, ; Mandarin pronunciation: [ljǒʊ pêɪ]; 161 – 10 June 223 AD), courtesy name Xuande (玄德), was a Chinese warlord in the late Eastern Han dynasty who later became the founding emperor of Shu Han, one of the Three Kingdoms of China.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        115.974,
+        39.485
+      ],
+      "year": 161
+    }
   }
 }

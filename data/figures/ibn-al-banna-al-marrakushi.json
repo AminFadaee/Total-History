@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Moroccan Arab polymath who was active as a mathematician, astronomer, Islamic scholar, Sufi and astrologer.",
   "setting": "",
+  "modern_country": "Morocco",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Marinid Sultanate"
+      ],
+      "born_in": [
+        "Marinid Sultanate"
       ]
     },
     "lead": "Ibn al‐Bannāʾ al‐Marrākushī (Arabic: ابن البناء المراكشي), full name: Abu'l-Abbas Ahmad ibn Muhammad ibn Uthman al-Azdi al-Marrakushi (Arabic: أبو العباس أحمد بن محمد بن عثمان الأزدي)  (29 December 1256 – 31 July 1321), was a Moroccan Arab polymath who was active as a mathematician, astronomer, Islamic scholar, Sufi and astrologer.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -8.00888889,
+        31.63
+      ],
+      "year": 1256
+    }
   }
 }

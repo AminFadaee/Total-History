@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A samurai, daimyo and the founder and the first shogun of the Kamakura shogunate, ruling from 1192 until 1199, also the first shogun in the history of Japan to hold de-facto power over Japan.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/minamoto-no-yoritomo.jpg",
   "image_credit": "Fujiwara no Takanobu · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Heian Japan"
+      ],
+      "born_in": [
+        "Heian Japan"
       ]
     },
-    "lead": "Minamoto no Yoritomo (源 頼朝; Japanese pronunciation: [mʲi.na.mo.to no (|) jo.ɾʲi.to.mo], May 9, 1147 – February 9, 1199) was a samurai, daimyo and the founder and the first shogun of the Kamakura shogunate, ruling from 1192 until 1199, also the first  shogun in the history of Japan to hold de-facto power over Japan. He was married to Hōjō Masako, who acted as regent (shikken) after his death.",
+    "lead": "Minamoto no Yoritomo (源 頼朝; Japanese pronunciation: [mʲì.nä́.mó̞.tó̞ nó̞ | jò̞.ɾʲí.tó̞.mó̞, -nó̞ jó̞-]; May 9, 1147 – February 9, 1199) was a samurai, daimyo and the founder and the first shogun of the Kamakura shogunate, ruling from 1192 until 1199, also the first  shogun in the history of Japan to hold de-facto power over Japan. He was married to Hōjō Masako, who acted as regent (shikken) after his death.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        136.91111111,
+        35.12805556
+      ],
+      "year": 1147
+    }
   }
 }

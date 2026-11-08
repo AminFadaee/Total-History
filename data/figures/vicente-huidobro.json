@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Chilean poet, writer, editor and literary critic.",
   "setting": "",
+  "modern_country": "Chile",
   "image": "images/vicente-huidobro.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Republic of Chile"
+      ],
+      "born_in": [
+        "Republic of Chile"
       ]
     },
     "lead": "Vicente García-Huidobro Fernández (Latin American Spanish: [biˈsente ɣwiˈðoβɾo]; January 10, 1893 – January 2, 1948), known by the pseudonym Vicente Huidobro, was a Chilean poet, writer, editor and literary critic. A proponent of the avant-garde, Huidobro was the founder of Creationism (Spanish: creacionismo) and is considered one of the four greats of Chilean poetry.",
     "image": "",
-    "photo": "model 0.96, one person 0.97"
+    "photo": "model 0.96, one person 0.97",
+    "birth": {
+      "location": [
+        -70.65,
+        -33.4375
+      ],
+      "year": 1893
+    }
   }
 }

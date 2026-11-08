@@ -19,6 +19,7 @@
   ],
   "contribution": "The Sultan of the Ghaznavid Empire, ruling from 998 to 1030.",
   "setting": "",
+  "modern_country": "Afghanistan",
   "image": "images/mahmud-of-ghazni.jpg",
   "image_credit": "11th century artist · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Ghaznavid Empire"
+      ],
+      "born_in": [
+        "Ghaznavid Empire"
       ]
     },
     "lead": "Abu al-Qasim Mahmud ibn Sabuktigin (Persian: ابوالقاسم محمود بن سبکتگین, romanized: Abu al-Qāṣim Maḥmūd ibn Sabuktigīn; 2 October 971 – 30 April 1030), commonly known as Mahmud of Ghazni or Mahmud Ghaznavi (محمود غزنوی), was the Sultan of the Ghaznavid Empire, ruling from 998 to 1030. Mahmud was known by his honorific title Yamin al-Dawla (یمین‌ الدوله, lit. 'Right Hand of the State'). At the time of his death, his kingdom had been transformed into an extensive military empire, which extended from present-day northwestern Iran proper to the Punjab in the Indian subcontinent and Khwarazm in Transoxiana.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        68.42333333,
+        33.54916667
+      ],
+      "year": 971
+    }
   }
 }

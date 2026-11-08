@@ -20,6 +20,7 @@
   ],
   "contribution": "King of Poland, Grand Duke of Lithuania and claimant of the thrones of Sweden and Russia.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/wadysaw-iv-vasa.jpg",
   "image_credit": "Peter Paul Rubens · Public domain",
   "image_kind": "Portrait from life",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"
+      ],
+      "born_in": [
+        "Polish-Lithuanian Commonwealth"
       ]
     },
     "lead": "Władysław IV Vasa or Ladislaus IV (9 June 1595 – 20 May 1648) was King of Poland, Grand Duke of Lithuania and claimant of the thrones of Sweden and Russia. Born into the House of Vasa as a prince of Poland and of Sweden, Władysław IV was the eldest son of Sigismund III Vasa and his first wife, Anna of Austria.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        19.76777778,
+        50.40444444
+      ],
+      "year": 1595
+    }
   }
 }

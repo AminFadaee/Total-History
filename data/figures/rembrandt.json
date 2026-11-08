@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Dutch Golden Age painter, printmaker, and draughtsman.",
   "setting": "",
+  "modern_country": "Netherlands",
   "image": "images/rembrandt.jpg",
   "image_credit": "Rembrandt · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Dutch Republic"
+      ],
+      "born_in": [
+        "Dutch Republic"
       ]
     },
     "lead": "Rembrandt Harmenszoon van Rijn (15 July 1606 – 4 October 1669), known mononymously as Rembrandt, was a Dutch Golden Age painter, printmaker, and draughtsman. He is generally considered one of the greatest visual artists in the history of Western art. It is estimated that Rembrandt's surviving works amount to about three hundred paintings, three hundred etchings, and several hundred drawings.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        4.49,
+        52.16
+      ],
+      "year": 1606
+    }
   }
 }

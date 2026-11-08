@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He created some of literature's best-known fictional characters, and is regarded by many as the greatest novelist of the Victorian era.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-dickens.jpg",
   "image_credit": "Jeremiah Gurney · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "United Kingdom of Great Britain and Ireland"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Charles John Huffam Dickens ( ; 7 February 1812 – 9 June 1870) was an English writer and journalist. He created some of literature's best-known fictional characters, and is regarded by many as the greatest novelist of the Victorian era. His works enjoyed unprecedented popularity during his lifetime and, by the 20th century, critics and scholars had recognised him as a literary genius. His novels and short stories are widely read today.",
     "image": "",
-    "photo": "model 0.87, one person 0.95, in Category:Daguerreotype portraits"
+    "photo": "model 0.87, one person 0.95, in Category:Daguerreotype portraits",
+    "birth": {
+      "location": [
+        -1.08722222,
+        50.80583333
+      ],
+      "year": 1812
+    }
   }
 }

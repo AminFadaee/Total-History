@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The Tsarevich of Russia, the eldest son of Tsar Peter I and his first wife, Eudoxia Lopukhina.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/alexei-petrovich-tsarevich-of-russia.jpg",
   "image_credit": "Johann Gottfried Tannauer · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Tsardom of Russia"
+      ],
+      "born_in": [
+        "Tsardom of Russia"
       ]
     },
     "lead": "Alexei Petrovich Romanov (Russian: Алексей Петрович; 28 February 1690 – 26 June 1718), was the Tsarevich of Russia, the eldest son of Tsar Peter I and his first wife, Eudoxia Lopukhina.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        37.61722222,
+        55.75583333
+      ],
+      "year": 1690
+    }
   }
 }

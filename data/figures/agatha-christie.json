@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An English author known for her 66 detective novels and 14 short-story collections, particularly those revolving around fictional detectives Hercule Poirot, Tommy and Tuppence, and Miss Marple.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/agatha-christie.jpg",
   "image_credit": "Joop van Bilsen for Anefo · CC0",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Dame Agatha Mary Clarissa Mallowan, Lady Mallowan (née Miller, 15 September 1890 – 12 January 1976), usually known by her first married name, Agatha Christie, was an English author known for her 66 detective novels and 14 short-story collections, particularly those revolving around fictional detectives Hercule Poirot (with the novel debut being The Mysterious Affair at Styles in 1920), Tommy and Tuppence (with the novel debut being The Secret Adversary in 1922), and Miss Marple (with the novel debut being The Murder at the Vicarage in 1930). She is widely regarded as one of the greatest writers of all time, particularly in the mystery genre.",
     "image": "",
-    "photo": "model 0.98, one person 0.92, in Category:Photographs by Joop van Bilsen at Schiphol Airport (1964)"
+    "photo": "model 0.98, one person 0.92, in Category:Photographs by Joop van Bilsen at Schiphol Airport (1964)",
+    "birth": {
+      "location": [
+        -3.53,
+        50.47
+      ],
+      "year": 1890
+    }
   }
 }

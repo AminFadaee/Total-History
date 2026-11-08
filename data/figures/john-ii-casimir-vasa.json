@@ -22,6 +22,7 @@
   ],
   "contribution": "King of Poland and Grand Duke of Lithuania from 1648 to his abdication in 1668 as well as a claimant to the throne of Sweden from 1648 to 1660.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/john-ii-casimir-vasa.jpg",
   "image_credit": "Daniel Schultz · Public domain",
   "image_kind": "Portrait from life",
@@ -47,10 +48,20 @@
       ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"
+      ],
+      "born_in": [
+        "Polish-Lithuanian Commonwealth"
       ]
     },
     "lead": "John II Casimir Vasa (Polish: Jan II Kazimierz Waza; Lithuanian: Jonas Kazimieras Vaza; 22 March 1609 – 16 December 1672) was King of Poland and Grand Duke of Lithuania from 1648 to his abdication in 1668 as well as a claimant to the throne of Sweden from 1648 to 1660. He was the first son of Sigismund III Vasa with his second wife Constance of Austria. John Casimir succeeded his older half-brother, Władysław IV Vasa.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        19.93722222,
+        50.06138889
+      ],
+      "year": 1609
+    }
   }
 }

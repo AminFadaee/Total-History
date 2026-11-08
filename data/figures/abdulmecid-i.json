@@ -21,6 +21,7 @@
   ],
   "contribution": "He succeeded his father Mahmud II on 2 July 1839.",
   "setting": "",
+  "modern_country": "",
   "image": "images/abdulmecid-i.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -38,10 +39,18 @@
       ],
       "citizenship": [
         "Ottoman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Abdülmecid I (Ottoman Turkish: عبد المجید اول, romanized: ʿAbdü'l-Mecîd, Turkish: I. Abdülmecid; 25 April 1823 – 25 June 1861) was the 31st sultan of the Ottoman Empire. He succeeded his father Mahmud II on 2 July 1839.",
     "image": "",
-    "photo": "Sultan Abdülmecid - Google Art Project.jpg: model 0.01, one person 0.99, captured 1850, during their lifetime; Sultan-abdulmecidin-hatti.jpg: model 0.34, one person 0.00, captured 1860, during their lifetime; Khalili Collection Hajj and Arts of Pilgrimage txt 0249.1.jpg: model 0.35, one person 0.00, classified as a photograph on Commons; Sultan's Firman for the construction of a Christian church.png: model 0.78, one person 0.00, captured 1858, during their lifetime"
+    "photo": "Sultan Abdülmecid - Google Art Project.jpg: model 0.01, one person 0.99, captured 1850, during their lifetime; Sultan-abdulmecidin-hatti.jpg: model 0.34, one person 0.00, captured 1860, during their lifetime; Khalili Collection Hajj and Arts of Pilgrimage txt 0249.1.jpg: model 0.35, one person 0.00, classified as a photograph on Commons; Sultan's Firman for the construction of a Christian church.png: model 0.78, one person 0.00, captured 1858, during their lifetime",
+    "birth": {
+      "location": [
+        28.98,
+        41.0125
+      ],
+      "year": 1823
+    }
   }
 }

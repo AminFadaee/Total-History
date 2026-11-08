@@ -1,0 +1,58 @@
+{
+  "id": "Q151509",
+  "slug": "ibn-saud",
+  "name": "Ibn Saud",
+  "wikipedia": "Ibn Saud",
+  "role": "King of Saudi Arabia from 1932 to 1953",
+  "life": "c. 1876–1953",
+  "lifetime": [
+    1876,
+    1953
+  ],
+  "occupation": "Politician",
+  "birth_country": "Saudi Arabia",
+  "civilizations": [
+    "Kingdom of Saudi Arabia"
+  ],
+  "related": [
+    "Kingdom of Hejaz and Nejd"
+  ],
+  "contribution": "A Najdi war leader, statesman, and religious leader who became the founder and first King of Saudi Arabia, reigning from 23 September 1932 until his death in 1953.",
+  "setting": "Kingdom of Saudi Arabia",
+  "modern_country": "Saudi Arabia",
+  "image": "images/ibn-saud.jpg",
+  "image_credit": "Lcxzdf56 (talk · contribs) · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/ibn-saud-photo.jpg",
+  "photo_credit": "Lcxzdf56 (talk · contribs) · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Saudi Arabia"
+      ],
+      "death": [
+        "Kingdom of Saudi Arabia"
+      ],
+      "lead": [
+        "Kingdom of Hejaz and Nejd",
+        "Kingdom of Saudi Arabia"
+      ],
+      "citizenship": [
+        "Kingdom of Saudi Arabia"
+      ],
+      "born_in": [
+        "Emirate of Nejd"
+      ]
+    },
+    "lead": "Abdulaziz bin Abdul Rahman bin Faisal Al Saud (Arabic: عَبْدُ الْعَزِيزِ بْنُ عَبْدِ الرَّحْمَٰنِ بْنِ فَيْصَلٍ آلِ سُعُود, romanized: ʿAbd al-ʿAzīz ibn ʿAbd al-Raḥmān ibn Fayṣal Āl Saʿūd; 15 January 1876 – 9 November 1953), known in the Western world as Ibn Saud (Arabic: ابن سعود; Ibn Suʿūd), and known with his kunya Abu Turki (Arabic: أَبُو تُرْكِي), was a Najdi war leader, statesman, and religious leader who became the founder and first King of Saudi Arabia, reigning from 23 September 1932 until his death in 1953. He had ruled parts of the kingdom since 1902, having previously been Emir, Sultan, King of Nejd, and King of Hejaz.",
+    "image": "",
+    "photo": "model 0.96, one person 0.92, in Category:Men wearing keffiyeh in monochrome photographs",
+    "birth": {
+      "location": [
+        46.71666667,
+        24.63333333
+      ],
+      "year": 1875
+    }
+  }
+}

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 33rd King of Tibet from 618 or 629 until his death in 650, and the founder of the Tibetan Empire.",
   "setting": "",
+  "modern_country": "China",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,18 @@
       ],
       "lead": [
         "Tibetan Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Songtsen Gampo (Tibetan: སྲོང་བཙན་སྒམ་པོ, Wylie: srong btsan sgam po) was the 33rd King (Tsenpo) of Tibet from 618 or 629 until his death in 650, and the founder of the Tibetan Empire. The first of the \"Three Dharma Kings of Tibet\", he formally introduced Buddhism to Tibet and built the Jokhang, under the influence of his queen Bhrikuti, from the Licchavi kingdom of Nepal. He unified the Tibetan Plateau, conquered lands adjacent to Tibet, and moved the capital to the Potala Palace in Lhasa.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        91.7298,
+        29.8393
+      ],
+      "year": 604
+    }
   }
 }

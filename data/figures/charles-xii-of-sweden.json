@@ -23,6 +23,7 @@
   ],
   "contribution": "He belonged to the House of Palatinate-Zweibrücken, a branch line of the House of Wittelsbach.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-xii-of-sweden.jpg",
   "image_credit": "David von Krafft · Public domain",
   "image_kind": "Portrait from life",
@@ -46,10 +47,20 @@
       ],
       "birthplace": [
         "Swedish Empire"
+      ],
+      "born_in": [
+        "Swedish Empire"
       ]
     },
     "lead": "Charles XII, sometimes Carl XII (Swedish: Karl XII; 17 June 1682 – 30 November 1718 O.S.), was King of Sweden from 1697 to 1718. He belonged to the House of Palatinate-Zweibrücken, a branch line of the House of Wittelsbach. Charles was the only surviving son of Charles XI and Ulrika Eleonora the Elder. He assumed power, after a seven-month caretaker government, at the age of fifteen.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.07166667,
+        59.32666667
+      ],
+      "year": 1682
+    }
   }
 }

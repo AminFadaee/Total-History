@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "His most important work is Os Sertões, a non-fictional account of the military expeditions promoted by the Brazilian government against the rebellious village of Canudos, known as the War of Canudos.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/euclides-da-cunha.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Empire of Brazil"
+      ],
+      "born_in": [
+        "Empire of Brazil"
       ]
     },
     "lead": "Euclides da Cunha (Brazilian Portuguese: [ewˈklidʒiz da ˈkũɲɐ], January 20, 1866 – August 15, 1909) was a Brazilian journalist, sociologist and engineer. His most important work is Os Sertões (Rebellion in the Backlands), a non-fictional account of the military expeditions promoted by the Brazilian government against the rebellious village of Canudos, known as the War of Canudos.",
     "image": "",
-    "photo": "Euclides da Cunha.jpg: model 0.85, one person 0.95; Euclydes da Cunha.jpg: model 0.17, one person 1.00; Instituto Histórico Geográfico São Paulo.jpg: model 0.12, one person 0.01; Grupo Escolar de Bebedouro 1913.jpg: model 0.98, one person 0.02; Primos Arnaldo, Euclides e Nestor Pimenta da Cunha c 1900.png: model 0.90, one person 0.00, captured 1900, during their lifetime; Biblioteca Pública do Estado 47.JPG: model 0.02, one person 0.11, classified as a photograph on Commons; EUCLIDES DA CUNHA AUTOGRAFO.jpg: model 0.28, one person 0.00; Vista do pov. Juá - panoramio.jpg: model 0.87, one person 0.00; Toca da Ilusão - panoramio.jpg: model 0.21, one person 0.05; VISTA DO POV. JUÁ - panoramio.jpg: model 0.70, one person 0.00, classified as a photograph on Commons"
+    "photo": "Euclides da Cunha.jpg: model 0.85, one person 0.95; Euclydes da Cunha.jpg: model 0.17, one person 1.00; Instituto Histórico Geográfico São Paulo.jpg: model 0.12, one person 0.01; Grupo Escolar de Bebedouro 1913.jpg: model 0.98, one person 0.02; Primos Arnaldo, Euclides e Nestor Pimenta da Cunha c 1900.png: model 0.90, one person 0.00, captured 1900, during their lifetime; Biblioteca Pública do Estado 47.JPG: model 0.02, one person 0.11, classified as a photograph on Commons; EUCLIDES DA CUNHA AUTOGRAFO.jpg: model 0.28, one person 0.00; Vista do pov. Juá - panoramio.jpg: model 0.87, one person 0.00; Toca da Ilusão - panoramio.jpg: model 0.21, one person 0.05; VISTA DO POV. JUÁ - panoramio.jpg: model 0.70, one person 0.00, classified as a photograph on Commons",
+    "birth": {
+      "location": [
+        -42.36777778,
+        -21.98083333
+      ],
+      "year": 1866
+    }
   }
 }

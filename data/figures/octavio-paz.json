@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "For his body of work, he was awarded the 1977 Jerusalem Prize, the 1981 Miguel de Cervantes Prize, the 1982 Neustadt International Prize for Literature, and the 1990 Nobel Prize in Literature.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/octavio-paz.jpg",
   "image_credit": "Foto: Jonn Leffmann · CC BY 3.0",
   "image_kind": "Photograph",
@@ -30,10 +31,18 @@
       "citizenship": [
         "Mexico",
         "Second Spanish Republic"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Octavio Paz Lozano (March 31, 1914 – April 19, 1998) was a Mexican philosopher, poet, and diplomat. For his body of work, he was awarded the 1977 Jerusalem Prize, the 1981 Miguel de Cervantes Prize, the 1982 Neustadt International Prize for Literature, and the 1990 Nobel Prize in Literature.",
     "image": "",
-    "photo": "model 0.93, one person 0.99, captured 1988, during their lifetime"
+    "photo": "model 0.93, one person 0.99, captured 1988, during their lifetime",
+    "birth": {
+      "location": [
+        -99.13333333,
+        19.43333333
+      ],
+      "year": 1914
+    }
   }
 }

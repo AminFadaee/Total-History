@@ -20,6 +20,7 @@
   ],
   "contribution": "A Portuguese dictator, academic, and economist who served as the Prime Minister of Portugal from 1932 to 1968.",
   "setting": "",
+  "modern_country": "Portugal",
   "image": "images/antonio-de-oliveira-salazar.jpg",
   "image_credit": "Manuel Alves de San Payo · Public domain",
   "image_kind": "Photograph",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Kingdom of Portugal"
+      ],
+      "born_in": [
+        "Kingdom of Portugal"
       ]
     },
     "lead": "António de Oliveira Salazar (28 April 1889 – 27 July 1970) was a Portuguese dictator, academic, and economist who served as the Prime Minister of Portugal from 1932 to 1968. Having come to power under the Ditadura Nacional (\"National Dictatorship\"), he reframed the regime as the corporatist Estado Novo (\"New State\"), with himself as dictator. The regime he created lasted until 1974, making it one of the longest-lived authoritarian dictatorships in modern Europe.",
     "image": "",
-    "photo": "model 0.92, one person 0.99, captured 1950, during their lifetime"
+    "photo": "model 0.92, one person 0.99, captured 1950, during their lifetime",
+    "birth": {
+      "location": [
+        -8.11666667,
+        40.4
+      ],
+      "year": 1889
+    }
   }
 }

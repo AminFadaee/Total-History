@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Nahua peasant and Marian visionary.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/juan-diego.jpg",
   "image_credit": "Miguel Cabrera · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Aztec Triple Alliance"
+      ],
+      "born_in": [
+        "Aztec Triple Alliance"
       ]
     },
     "lead": "Juan Diego Cuauhtlatoatzin (1474–1548), also known simply as Juan Diego (Spanish pronunciation: [ˌxwanˈdjeɣo]), was a Nahua peasant and Marian visionary. He is said to have been granted apparitions of Our Lady of Guadalupe on four occasions in December 1531: three at the hill of Tepeyac and a fourth before don Juan de Zumárraga, then the first bishop of Mexico. The Basilica of Our Lady of Guadalupe, located at the foot of Tepeyac, houses the cloak (tilmahtli) that is traditionally said to be Juan Diego's, and upon which the image of the Virgin is said to have been miraculously impressed as proof of the authenticity of the apparitions.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -99.18333333,
+        19.68333333
+      ],
+      "year": 1474
+    }
   }
 }

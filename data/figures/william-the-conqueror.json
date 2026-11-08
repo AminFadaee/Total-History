@@ -21,6 +21,7 @@
   ],
   "contribution": "The first Norman king of England, reigning from 1066 until his death.",
   "setting": "",
+  "modern_country": "",
   "image": "images/william-the-conqueror.jpg",
   "image_credit": "Myrabella · Public domain",
   "image_kind": "Portrait from life",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Duchy of Normandy"
+      ],
+      "born_in": [
+        "Duchy of Normandy"
       ]
     },
     "lead": "William the Conqueror (c. 1028 – 9 September 1087), sometimes called William the Bastard, was the first Norman king of England (as William I), reigning from 1066 until his death. A descendant of Rollo, he was Duke of Normandy (as William II) from 1035 onward. By 1060, following a long struggle, his hold on Normandy was secure. In 1066, following the death of Edward the Confessor, William invaded England, leading a Franco-Norman army to victory over the Anglo-Saxon forces of Harold Godwinson at the Battle of Hastings. He suppressed subsequent English revolts in what has become known as the Norman Conquest. The rest of his life was marked by struggles to consolidate his hold over England and his continental lands, and by difficulties with his eldest son, Robert Curthose.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.1975,
+        48.89722222
+      ],
+      "year": 1028
+    }
   }
 }

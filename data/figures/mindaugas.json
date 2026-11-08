@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The first known Grand Duke of Lithuania and the only crowned King of Lithuania.",
   "setting": "",
+  "modern_country": "Lithuania",
   "image": "images/mindaugas.jpg",
   "image_credit": "Bernard Zaydler · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,18 @@
       ],
       "death": [
         "Grand Duchy of Lithuania"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Mindaugas (c. 1203 – 12 September 1263) was the first known Grand Duke of Lithuania and the only crowned King of Lithuania. Little is known of his origins, early life, or rise to power; he is mentioned in a 1219 treaty as an elder duke, and in 1236 as the leader of all the Lithuanians. The contemporary and modern sources discussing his ascent mention strategic marriages along with banishment or murder of his rivals. He extended his domain into regions southeast of Lithuania proper during the 1230s and 1240s. In 1250 or 1251, during the course of internal power struggles, he was baptized as a Roman Catholic; this action enabled him to establish an alliance with the Livonian Order, a long-standing antagonist of the Lithuanians. By 1245, Mindaugas was already being referred to as \"the highest king\" in certain documents. During the summer of 1253, he was crowned king, ruling between 300,000 and 400,000 subjects, and was nicknamed as Mindaugas the Sapient by the Livonians.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        24.0,
+        55.0
+      ],
+      "year": 1203
+    }
   }
 }

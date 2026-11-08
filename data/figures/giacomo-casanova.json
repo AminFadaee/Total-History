@@ -19,6 +19,7 @@
   ],
   "contribution": "An Italian adventurer and writer who was born in the Republic of Venice and travelled extensively throughout Europe.",
   "setting": "",
+  "modern_country": "",
   "image": "images/giacomo-casanova.jpg",
   "image_credit": "Francesco Giuseppe Casanova · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,18 @@
       ],
       "citizenship": [
         "Republic of Venice"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Giacomo Girolamo Casanova (; Italian: [ˈdʒaːkomo dʒiˈrɔːlamo kazaˈnɔːva, kasa-]; 2 April 1725 – 4 June 1798) was an Italian adventurer and writer who was born in the Republic of Venice and travelled extensively throughout Europe. He is chiefly remembered for his autobiography, written in French and published posthumously as  Histoire de ma vie (\"The Story of My Life\").  That work has come to be regarded as a unique and provocative source of information on the customs and norms of European social life in the 18th century.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.33583333,
+        45.4375
+      ],
+      "year": 1725
+    }
   }
 }

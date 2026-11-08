@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Visigothic nobleman who founded the Kingdom of Asturias in 718.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/pelagius-of-asturias.jpg",
   "image_credit": "Luis de Madrazo y Kuntz · CC BY-SA 4.0",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Visigothic Kingdom"
+      ],
+      "born_in": [
+        "Visigothic Kingdom"
       ]
     },
     "lead": "Pelagius (Spanish: Pelayo; c. 685 – 737) was a Visigothic nobleman who founded the Kingdom of Asturias in 718. Pelagius is credited with initiating the Reconquista, the Christian reconquest of the Iberian Peninsula from the Moors, and establishing the Asturian monarchy.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.72638889,
+        43.10888889
+      ],
+      "year": 685
+    }
   }
 }

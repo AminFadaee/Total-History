@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 28th president of the United States, serving from 1913 to 1921.",
   "setting": "",
+  "modern_country": "United States",
   "image": "images/woodrow-wilson.jpg",
   "image_credit": "Harris & Ewing, photographer · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
     "lead": "Thomas Woodrow Wilson (December 28, 1856 – February 3, 1924) was the 28th president of the United States, serving from 1913 to 1921. He was the only Democrat to serve as president during the Progressive Era, when Republicans dominated the presidency and legislative branches. As president, Wilson made significant economic reforms and led the United States through World War I. He was the leading architect of the League of Nations, and his stance on foreign policy came to be known as Wilsonian idealism.",
     "image": "",
-    "photo": "model 0.93, one person 0.98, captured 1914, during their lifetime"
+    "photo": "model 0.93, one person 0.98, captured 1914, during their lifetime",
+    "birth": {
+      "location": [
+        -79.07638889,
+        38.15805556
+      ],
+      "year": 1856
+    }
   }
 }

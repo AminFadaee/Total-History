@@ -1,0 +1,52 @@
+{
+  "id": "Q222744",
+  "slug": "cesar-vallejo",
+  "name": "César Vallejo",
+  "wikipedia": "César Vallejo",
+  "role": "Peruvian writer & poet",
+  "life": "1892–1938",
+  "lifetime": [
+    1892,
+    1938
+  ],
+  "occupation": "Writer",
+  "birth_country": "Peru",
+  "civilizations": [
+    "Republic of Peru"
+  ],
+  "related": [],
+  "contribution": "A Peruvian poet, writer, playwright, and journalist.",
+  "setting": "Republic of Peru",
+  "modern_country": "Peru",
+  "image": "images/cesar-vallejo.jpg",
+  "image_credit": "Prefecture of Police of Paris · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/cesar-vallejo-photo.jpg",
+  "photo_credit": "Prefecture of Police of Paris · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "French Third Republic"
+      ],
+      "citizenship": [
+        "Republic of Peru"
+      ],
+      "birthplace": [
+        "Republic of Peru"
+      ],
+      "born_in": [
+        "Republic of Peru"
+      ]
+    },
+    "lead": "César Abraham Vallejo Mendoza (Spanish: [ˈsesaɾ βaˈʝexo]; March 16, 1892 – April 15, 1938) was a Peruvian poet, writer, playwright, and journalist. Although he published only two books of poetry during his lifetime, he is considered one of the great poetic innovators of the 20th century in any language. Thomas Merton called him \"the greatest universal poet since Dante\". The late British poet, critic and biographer Martin Seymour-Smith, a leading authority on world literature, called Vallejo \"the greatest twentieth-century poet in any language.\" He was a member of the intellectual community called North Group formed in the Peruvian north coastal city of Trujillo.",
+    "image": "",
+    "photo": "model 0.92, one person 0.99",
+    "birth": {
+      "location": [
+        -78.17831944,
+        -8.15021667
+      ],
+      "year": 1892
+    }
+  }
+}

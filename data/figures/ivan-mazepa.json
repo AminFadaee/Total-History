@@ -21,6 +21,7 @@
   ],
   "contribution": "A Ukrainian military, political and civic leader who served as hetman of the Cossack Hetmanate in 1687–1709.",
   "setting": "",
+  "modern_country": "",
   "image": "images/ivan-mazepa.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"
+      ],
+      "born_in": [
+        "Polish-Lithuanian Commonwealth"
       ]
     },
     "lead": "Ivan Stepanovych Mazepa (30 March [O.S. 20 March] 1639 – 2 October [O.S. 21 September] 1709) was a Ukrainian military, political and civic leader who served as hetman of the Cossack Hetmanate in 1687–1709. His long and stable rule was marked by economical and political recovery from the Ruin. A loyal subject of Russia during most of his rule, Mazepa's close relationship with Tsar Peter I deteriorated as a result of the latter's administrative reforms, which increasingly deprived Mazepa and the Hetmanate of their autonomy. In 1708, Mazepa abandoned his alliance with Peter I and sided with Charles XII of Sweden after the Tsar refused to protect the Hetmanate against the advancing Swedes, instead ordering that much of Ukraine be burned to prevent the Swedes from gaining access to supplies and winter quarters.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        30.11527778,
+        49.79888889
+      ],
+      "year": 1639
+    }
   }
 }

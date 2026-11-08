@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Russian and Soviet novelist and playwright.",
   "setting": "",
+  "modern_country": "Ukraine",
   "image": "images/mikhail-bulgakov.jpg",
   "image_credit": "Moisej Nappelbaum · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Mikhail Afanasyevich Bulgakov ( buul-GAH-kof; Russian: Михаи́л Афана́сьевич Булга́ков, IPA: [mʲɪxɐˈil ɐfɐˈnasʲjɪvʲɪdʑ bʊlˈɡakəf] 15 May [O.S. 3 May] 1891 – 10 March 1940) was a Russian and Soviet novelist and playwright. His novel The Master and Margarita, published posthumously, has been called one of the masterpieces of the 20th century. He also wrote the novel The White Guard and the plays Ivan Vasilievich, Flight (also called The Run), and The Days of the Turbins.",
     "image": "",
-    "photo": "model 0.95, one person 0.99, in Category:Photographs by Moisej Nappelbaum"
+    "photo": "model 0.95, one person 0.99, in Category:Photographs by Moisej Nappelbaum",
+    "birth": {
+      "location": [
+        30.52333333,
+        50.45
+      ],
+      "year": 1891
+    }
   }
 }

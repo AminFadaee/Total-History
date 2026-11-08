@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Bactrian or Sogdian princess who married Alexander the Great after he invaded Persia and defeated Darius, ruler of the Achaemenid Empire.",
   "setting": "",
+  "modern_country": "Afghanistan",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Achaemenid Empire"
+      ],
+      "born_in": [
+        "Achaemenid Empire"
       ]
     },
-    "lead": "Roxana (died c. 310 BC, Ancient Greek: Ῥωξάνη, Rhōxánē; Old Iranian: *Raṷxšnā- \"shining, radiant, brilliant\", Persian: روشنک, romanized: Rawšanak) sometimes known as Roxanne, Roxanna, Roxzana, and Roxane, was a Bactrian or Sogdian princess who married Alexander the Great after he invaded Persia and defeated Darius, ruler of the Achaemenid Empire.",
+    "lead": "Roxana (died 311/304 BC, Ancient Greek: Ῥωξάνη, Rhōxánē; Old Iranian: *Raṷxšnā- \"shining, radiant, brilliant\", Persian: روشنک, romanized: Rawšanak) sometimes known as Roxanne, Roxanna, Roxzana, and Roxane, was a Bactrian or Sogdian princess who married Alexander the Great after he invaded Persia and defeated Darius, ruler of the Achaemenid Empire.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        66.8989,
+        36.7581
+      ],
+      "year": -347
+    }
   }
 }

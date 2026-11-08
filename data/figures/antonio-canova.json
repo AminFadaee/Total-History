@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian Neoclassical sculptor, famous for his marble sculptures.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/antonio-canova.jpg",
   "image_credit": "Antonio Canova · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Republic of Venice"
+      ],
+      "born_in": [
+        "Republic of Venice"
       ]
     },
     "lead": "Antonio Canova (Italian pronunciation: [anˈtɔːnjo kaˈnɔːva]; 1 November 1757 – 13 October 1822) was an Italian Neoclassical sculptor, famous for his marble sculptures. Often regarded as the greatest of the Neoclassical artists, his sculpture was inspired by the Baroque and the classical revival, and has been characterised as having avoided the melodramatics of the former, and the cold artificiality of the latter.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.88333333,
+        45.85
+      ],
+      "year": 1757
+    }
   }
 }

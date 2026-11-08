@@ -16,8 +16,9 @@
     "United Kingdoms of Sweden and Norway"
   ],
   "related": [],
-  "contribution": "King of Sweden from 1809 and King of Norway from 1814 to his death.",
+  "contribution": "King of Sweden from 1809 and King of Norway from 1814 to his death in 1818.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-xiii.jpg",
   "image_credit": "Carl Frederik von Breda · Public domain",
   "image_kind": "Portrait from life",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
-    "lead": "Charles XIII or Carl XIII (Swedish: Karl XIII; 7 October 1748 – 5 February 1818) was King of Sweden from 1809 and King of Norway from 1814 to his death. In Norway, he is known as Charles II. He was the second son (and younger brother to King Gustav III) of King Adolf Frederick of Sweden and Louisa Ulrika of Prussia, sister of Frederick the Great.",
+    "lead": "Charles XIII or Carl XIII (Swedish: Karl XIII; 7 October 1748 – 5 February 1818) was King of Sweden from 1809 and King of Norway from 1814 to his death in 1818. In Norway, he is known as Charles II. He was the second son (and younger brother to King Gustav III) of King Adolf Frederick of Sweden and Louisa Ulrika of Prussia, sister of Frederick the Great.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.06861111,
+        59.32944444
+      ],
+      "year": 1748
+    }
   }
 }

@@ -1,0 +1,52 @@
+{
+  "id": "Q509228",
+  "slug": "borrell-ii",
+  "name": "Borrell II",
+  "wikipedia": "Borrell II",
+  "role": "Count of Barcelona, Girona and Ausona and Count of Urgell",
+  "life": "928–993",
+  "lifetime": [
+    928,
+    993
+  ],
+  "occupation": "Politician",
+  "birth_country": "Spain",
+  "civilizations": [
+    "County of Urgell"
+  ],
+  "related": [
+    "County of Osona"
+  ],
+  "contribution": "",
+  "setting": "County of Urgell",
+  "modern_country": "",
+  "image": "images/borrell-ii.jpg",
+  "image_credit": "Anonymous · Public domain",
+  "image_kind": "Later depiction",
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "County of Urgell"
+      ],
+      "death": [
+        "County of Barcelona"
+      ],
+      "lead": [
+        "County of Osona"
+      ],
+      "born_in": []
+    },
+    "lead": "Borrell II (died 993) was the count of Barcelona, Girona and Ausona from 945 and count of Urgell from 948.",
+    "image": "",
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        2.17694444,
+        41.38277778
+      ],
+      "year": 927
+    }
+  }
+}

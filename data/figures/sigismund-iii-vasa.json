@@ -22,6 +22,7 @@
   ],
   "contribution": "King of Poland and Grand Duke of Lithuania from 1587 to 1632 and, as Sigismund, King of Sweden from 1592 to 1599.",
   "setting": "",
+  "modern_country": "",
   "image": "images/sigismund-iii-vasa.jpg",
   "image_credit": "Martin Kober · Public domain",
   "image_kind": "Portrait from life",
@@ -49,10 +50,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Sigismund III Vasa (Polish: Zygmunt III Waza, Lithuanian: Žygimantas Vaza; 20 June 1566 – 30 April 1632 N.S.) was King of Poland and Grand Duke of Lithuania from 1587 to 1632 and, as Sigismund, King of Sweden from 1592 to 1599. He was the first Polish sovereign from the House of Vasa. Zealously religious, he imposed Catholicism across the vast realm, and his crusades against neighbouring states marked Poland's largest territorial expansion. A deeply polarising ruler, he presided over the end of the Golden Age of prosperity and achievement, further distinguished by the transfer of the country's capital from Kraków to Warsaw.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        17.21916667,
+        59.25611111
+      ],
+      "year": 1566
+    }
   }
 }

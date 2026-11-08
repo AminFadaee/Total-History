@@ -21,6 +21,7 @@
   ],
   "contribution": "The 14th and last emperor of the Eastern Han dynasty of China.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/emperor-xian-of-han.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Han Dynasty"
+      ],
+      "born_in": [
+        "Han Dynasty"
       ]
     },
     "lead": "Emperor Xian of Han (2 April 181 – 21 April 234), personal name Liu Xie (劉協), courtesy name Bohe, was the 14th and last emperor of the Eastern Han dynasty of China. He reigned from 28 September 189 until his abdication and subsequent end of the dynasty on 11 December 220.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        112.4539,
+        34.6197
+      ],
+      "year": 181
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "A Brazilian quilombola leader and one of the pioneers of resistance to enslavement of Africans by the Portuguese in colonial Brazil.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/zumbi.jpg",
   "image_credit": "Antônio Parreiras · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Portuguese Empire"
+      ],
+      "born_in": [
+        "Portuguese Empire"
       ]
     },
     "lead": "Zumbi (c. 1655 – November 20, 1695), also known as Zumbi dos Palmares (Portuguese pronunciation: [zũˈbi dus pɐwˈmaɾis]), was a Brazilian quilombola leader and one of the pioneers of resistance to enslavement of Africans by the Portuguese in colonial Brazil. He was also the last of the kings of the Quilombo dos Palmares, a settlement of Afro-Brazilian people who liberated themselves from enslavement in the Captaincy of Pernambuco (present-day state of Alagoas, Brazil). He is revered in Afro-Brazilian culture as a symbol of African freedom.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -36.08805556,
+        -9.17
+      ],
+      "year": 1655
+    }
   }
 }

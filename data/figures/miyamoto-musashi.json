@@ -15,8 +15,9 @@
     "Tokugawa Shogunate"
   ],
   "related": [],
-  "contribution": "A Japanese swordsman, strategist, artist, and writer who became renowned through stories of his unique double-bladed swordsmanship and undefeated record in his 62 duels.",
+  "contribution": "A Japanese swordsman, strategist, artist, and writer, who became renowned through stories of his unique double-bladed swordsmanship and undefeated record in his 62 duels.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/miyamoto-musashi.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,20 @@
       ],
       "lead": [
         "Tokugawa Shogunate"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
-    "lead": "Miyamoto Musashi (宮本 武蔵; Japanese pronunciation: [mʲi.ja.mo.to (|) mɯꜜ.sa.ɕi], c. 1583 – 13 June 1645) was a Japanese swordsman, strategist, artist, and writer who became renowned through stories of his unique double-bladed swordsmanship and undefeated record in his 62 duels. Musashi is considered a kensei (sword saint) of Japan. He was the founder of the Niten Ichi-ryū (or Nito Ichi-ryū) style of swordsmanship. In his final years, Musashi authored The Book of Five Rings (五輪の書, Go Rin No Sho) and Dokkōdō (獨行道, The Path of Aloneness).",
+    "lead": "Miyamoto Musashi (宮本 武蔵; Japanese pronunciation: [mʲi.ja.mo.to (|) mɯꜜ.sa.ɕi], c. 1583 – 13 June 1645) was a Japanese swordsman, strategist, artist, and writer, who became renowned through stories of his unique double-bladed swordsmanship and undefeated record in his 62 duels. Musashi is considered a kensei (sword saint) of Japan. He was the founder of the Niten Ichi-ryū (or Nito Ichi-ryū) style of swordsmanship. In his final years, Musashi authored The Book of Five Rings (五輪の書, Go Rin No Sho) and Dokkōdō (獨行道, The Path of Aloneness).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        133.91666667,
+        34.65
+      ],
+      "year": 1584
+    }
   }
 }

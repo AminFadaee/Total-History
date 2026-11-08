@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of England, Lord of Ireland, and Duke of Aquitaine from 1413 until his death in 1422.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/henry-v-of-england.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Henry V (16 September 1386 – 31 August 1422), also called Henry of Monmouth, was King of England, Lord of Ireland, and Duke of Aquitaine from 1413 until his death in 1422. His victory at Agincourt in 1415 and his conquest of Normandy gave England the upper hand in the Hundred Years' War and led, by the Treaty of Troyes in 1420, to his recognition as heir and regent of France. This was the high-water mark of the English cause in the war. Celebrated in William Shakespeare's Henriad as one of the greatest warrior-kings of medieval England, Henry was also a forceful ruler at home, restoring public order, working closely with Parliament, and enforcing a strict religious orthodoxy.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -2.7168518,
+        51.812499
+      ],
+      "year": 1386
+    }
   }
 }

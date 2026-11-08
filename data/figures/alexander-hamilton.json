@@ -20,6 +20,7 @@
   ],
   "contribution": "An American military officer, statesman, and Founding Father who served as the first U.S. secretary of the treasury from 1789 to 1795 under the presidency of George Washington.",
   "setting": "",
+  "modern_country": "",
   "image": "images/alexander-hamilton.jpg",
   "image_credit": "John Trumbull · Public domain",
   "image_kind": "Portrait from life",
@@ -43,10 +44,18 @@
       ],
       "citizenship": [
         "United States of America"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Alexander Hamilton (January 11, 1755, or 1757 – July 12, 1804) was an American military officer, statesman, and Founding Father who served as the first U.S. secretary of the treasury from 1789 to 1795 under the presidency of George Washington. He also founded America's first political party, the Federalist Party, in 1789.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -62.62694444,
+        17.14305556
+      ],
+      "year": 1755
+    }
   }
 }

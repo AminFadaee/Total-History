@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese samurai, daimyo and the third shōgun of the Tokugawa dynasty.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/tokugawa-iemitsu.jpg",
   "image_credit": "The author creates a file. · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Tokugawa Shogunate"
+      ],
+      "born_in": [
+        "Tokugawa Shogunate"
       ]
     },
-    "lead": "Tokugawa Iemitsu (徳川 家光; 12 August 1604 – 8 June 1651) was a Japanese samurai, daimyo and the third shōgun of the Tokugawa dynasty. He was the eldest son of Tokugawa Hidetada with Oeyo, and the grandson of Tokugawa Ieyasu. Lady Kasuga was his wet nurse, who acted as his political adviser and was at the forefront of shogunate negotiations with the Imperial court. Iemitsu ruled from 1623 to 1651; during this period he crucified Christians, expelled all Europeans from Japan and closed the borders of the country, a foreign policy that continued for over 200 years after its institution.",
+    "lead": "Tokugawa Iemitsu (徳川 家光; 12 August 1604 – 8 June 1651) was a Japanese samurai, daimyo and the first shōgun of the Tokugawa dynasty. He was the eldest son of Tokugawa Hidetada with Oeyo, and the grandson of Tokugawa Ieyasu. Lady Kasuga was his wet nurse, who acted as his political adviser and was at the forefront of shogunate negotiations with the Imperial court. Iemitsu ruled from 1623 to 1651; during this period he crucified Christians, expelled all Europeans from Japan and closed the borders of the country, a foreign policy that continued for over 200 years after its institution.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        139.77444444,
+        35.68388889
+      ],
+      "year": 1604
+    }
   }
 }

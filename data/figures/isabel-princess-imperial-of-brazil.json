@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The Princess Imperial of Brazil and heir presumptive to the throne of the Empire of Brazil.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/isabel-princess-imperial-of-brazil.jpg",
   "image_credit": "Joaquim Insley Pacheco · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Empire of Brazil"
+      ],
+      "born_in": [
+        "Empire of Brazil"
       ]
     },
     "lead": "Dona Isabel (29 July 1846 – 14 November 1921), known as \"the Redemptress\" (A Redentora), was the Princess Imperial of Brazil and heir presumptive to the throne of the Empire of Brazil. She served as regent of the empire on three occasions and was a central figure in Brazilian history during the final decades of the monarchy.",
     "image": "",
-    "photo": "model 0.80, one person 0.98, in Category:Isabel, Princess Imperial of Brazil in Photographs"
+    "photo": "model 0.80, one person 0.98, in Category:Isabel, Princess Imperial of Brazil in Photographs",
+    "birth": {
+      "location": [
+        -43.22583333,
+        -22.90555556
+      ],
+      "year": 1846
+    }
   }
 }

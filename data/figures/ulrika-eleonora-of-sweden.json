@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "Queen of Sweden from 5 December 1718 until her abdication on 29 February 1720 in favour of Frederick, her husband.",
   "setting": "",
+  "modern_country": "",
   "image": "images/ulrika-eleonora-of-sweden.jpg",
   "image_credit": "Attributed to Georg Desmarées · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Swedish Empire"
+      ],
+      "born_in": [
+        "Swedish Empire"
       ]
     },
     "lead": "Ulrika Eleonora or Ulrica Eleanor (23 January 1688 – 24 November 1741), also known as Ulrika Eleonora the Younger, was Queen of Sweden from 5 December 1718 until her abdication on 29 February 1720 in favour of Frederick, her husband.  Upon his accession, as King Frederick I, she served as his queen consort until her death on 24 November 1741.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.07166667,
+        59.32694444
+      ],
+      "year": 1688
+    }
   }
 }

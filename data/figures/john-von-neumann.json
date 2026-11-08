@@ -1,0 +1,54 @@
+{
+  "id": "Q17455",
+  "slug": "john-von-neumann",
+  "name": "John von Neumann",
+  "wikipedia": "John von Neumann",
+  "role": "Hungarian and American mathematician and physicist",
+  "life": "1903–1957",
+  "lifetime": [
+    1903,
+    1957
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Hungary",
+  "civilizations": [
+    "Austria-Hungary",
+    "United States of America"
+  ],
+  "related": [],
+  "contribution": "A Hungarian and American mathematician, physicist, computer scientist and engineer.",
+  "setting": "",
+  "modern_country": "Hungary",
+  "image": "images/john-von-neumann.jpg",
+  "image_credit": "Attribution",
+  "image_kind": "Photograph",
+  "photo": "images/john-von-neumann-photo.jpg",
+  "photo_credit": "Attribution",
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
+        "Hungarian Republic",
+        "United States of America"
+      ],
+      "born_in": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "John von Neumann ( von NOY-mən; Hungarian: Neumann János Lajos; December 28, 1903 – February 8, 1957) was a Hungarian and American mathematician, physicist, computer scientist and engineer. Von Neumann had perhaps the widest breadth of any mathematician of his time, integrating pure and applied sciences and making major contributions to many fields, including mathematics, physics, economics, computing, and statistics. He was a pioneer in building the mathematical framework of quantum physics, in the development of functional analysis, and in game theory, introducing or codifying concepts including cellular automata, the universal constructor and the digital computer. His analysis of the structure of self-replication preceded the discovery of the structure of DNA.",
+    "image": "",
+    "photo": "model 0.98, one person 0.99, in Category:Black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        19.05138889,
+        47.4925
+      ],
+      "year": 1903
+    }
+  }
+}

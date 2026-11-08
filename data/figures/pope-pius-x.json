@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "Head of the Catholic Church from 4 August 1903 until his death in August 1914.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/pope-pius-x.jpg",
   "image_credit": "Ernest Walter Histed · Public domain",
   "image_kind": "Photograph",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Austrian Empire"
+      ],
+      "born_in": [
+        "Austrian Empire"
       ]
     },
     "lead": "Pope Pius X (Italian: Pio X; born Giuseppe Melchiorre Sarto; 2 June 1835 – 20 August 1914) was head of the Catholic Church from 4 August 1903 until his death in August 1914. He opposed modernist interpretations of Catholic doctrine, and promoted liturgical reforms and Thomist scholastic theology. He initiated the preparation of the 1917 Code of Canon Law, the first comprehensive and systemic work of its kind, which was ultimately promulgated by his successor. He is venerated as a saint in the Catholic Church.",
     "image": "",
-    "photo": "model 0.88, one person 0.99, in Category:20th-century black and white portrait photographs of men at half length in religious clothing"
+    "photo": "model 0.88, one person 0.99, in Category:20th-century black and white portrait photographs of men at half length in religious clothing",
+    "birth": {
+      "location": [
+        11.91666667,
+        45.72777778
+      ],
+      "year": 1835
+    }
   }
 }

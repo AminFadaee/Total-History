@@ -12,11 +12,13 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
+    "Prussia",
     "Holy Roman Empire"
   ],
   "related": [],
   "contribution": "The reigning duke of Mecklenburg in the Mecklenburg-Schwerin portion of the duchy of Mecklenburg from 1692 until 1713.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/frederick-william-duke-of-mecklenburg-schwerin.jpg",
   "image_credit": "Unidentified painter · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +34,20 @@
       ],
       "birthplace": [
         "Prussia"
+      ],
+      "born_in": [
+        "Prussia"
       ]
     },
     "lead": "Frederick William (28 March 1675 – 31 July 1713) was the reigning duke of Mecklenburg in the Mecklenburg-Schwerin portion of the duchy of Mecklenburg from 1692 until 1713.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.56666667,
+        53.26666667
+      ],
+      "year": 1675
+    }
   }
 }

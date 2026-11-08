@@ -12,11 +12,13 @@
   "occupation": "",
   "birth_country": "",
   "civilizations": [
+    "Spanish Empire",
     "French Third Republic"
   ],
   "related": [],
   "contribution": "A clown who performed in a Paris circus around the 1900s.",
   "setting": "",
+  "modern_country": "Cuba",
   "image": "images/chocolat-clown.jpg",
   "image_credit": "Du Guy · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +31,20 @@
       ],
       "citizenship": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Rafael Padilla (ca. 1865/68 – 4 November 1917), known professionally as Chocolat, was a clown who performed in a Paris circus around the 1900s. Rafael was of Afro-Cuban descent and was one of the earliest successful black entertainers in modern France. He was the first black clown to play a lead role in a circus pantomime act, and with his longtime partner George Foottit, they revolutionized the art of clowning by pairing the sophisticated white clown with the foolish auguste clown.",
     "image": "",
-    "photo": "model 0.76, one person 0.55, in Category:Photographs by Du Guy"
+    "photo": "model 0.76, one person 0.55, in Category:Photographs by Du Guy",
+    "birth": {
+      "location": [
+        -79.5,
+        22
+      ],
+      "year": 1865
+    }
   }
 }

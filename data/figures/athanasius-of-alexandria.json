@@ -15,8 +15,9 @@
     "Roman Empire"
   ],
   "related": [],
-  "contribution": "A Christian theologian and the 20th Patriarch of Alexandria.",
+  "contribution": "An Egyptian Christian theologian and the 20th Patriarch of Alexandria.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/athanasius-of-alexandria.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
-    "lead": "Athanasius I of Alexandria (c. 296–298 – 2 May 373), also called Athanasius the Great, Athanasius the Confessor, or, among Coptic Christians, Athanasius the Apostolic, was a Christian theologian and the 20th Patriarch of Alexandria. His intermittent episcopacy spanned 45 years (328 – 373).",
+    "lead": "Athanasius I of Alexandria (c. 296–298 – 2 May 373), also called Athanasius the Great, Athanasius the Confessor, or, among Coptic Christians, Athanasius the Apostolic, was an Egyptian Christian theologian and the 20th Patriarch of Alexandria. His intermittent episcopacy spanned 45 years (328 – 373).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        29.8925,
+        31.1975
+      ],
+      "year": 295
+    }
   }
 }

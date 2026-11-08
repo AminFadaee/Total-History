@@ -27,6 +27,7 @@
   ],
   "contribution": "King of Aragon from 1479 until his death in 1516.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/ferdinand-ii-of-aragon.jpg",
   "image_credit": "anonymous / Unidentified painter · Public domain",
   "image_kind": "Portrait from life",
@@ -56,10 +57,20 @@
       ],
       "birthplace": [
         "Crown of Aragon"
+      ],
+      "born_in": [
+        "Crown of Aragon"
       ]
     },
-    "lead": "Ferdinand II (10 March 1452 – 23 January 1516), also known as Ferdinand the Catholic (Spanish: Fernando el Católico), was King of Aragon from 1479 until his death in 1516. As the husband and co-ruler of Queen Isabella I of Castile, he was also King of Castile from 1475 to 1504 (as Ferdinand V). He reigned jointly with Isabella over a dynastically unified Spain; together, they are known as the Catholic Monarchs. Ferdinand is considered the de facto first king of Spain, and was described as such during his reign, even though, legally, Castile and Aragon remained two separate kingdoms until they were formally united by the Nueva Planta decrees issued between 1707 and 1716.",
+    "lead": "Ferdinand II (10 March 1452 – 23 January 1516), also known as Ferdinand the Catholic (Spanish: Fernando el Católico, Catalan: Ferran el Catòlic), was King of Aragon from 1479 until his death in 1516. As the husband and co-ruler of Queen Isabella I of Castile, he was also King of Castile from 1475 to 1504 (as Ferdinand V). He reigned jointly with Isabella over a dynastically unified Spain; together, they are known as the Catholic Monarchs. Ferdinand is considered the de facto first king of Spain, and was described as such during his reign, even though, legally, Castile and Aragon remained two separate kingdoms until they were formally united by the Nueva Planta decrees issued between 1707 and 1716.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.88333333,
+        41.65
+      ],
+      "year": 1452
+    }
   }
 }

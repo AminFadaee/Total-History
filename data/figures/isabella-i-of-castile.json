@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Queen of Castile and León from 1474 until her death in 1504.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/isabella-i-of-castile.jpg",
   "image_credit": "anonymous · Public domain",
   "image_kind": "Portrait from life",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Crown of Castile"
+      ],
+      "born_in": [
+        "Crown of Castile"
       ]
     },
     "lead": "Isabella I (Spanish: Isabel I; 22 April 1451 – 26 November 1504), also known as Isabella the Catholic (Spanish: Isabel la Católica), was Queen of Castile and León from 1474 until her death in 1504. She was also Queen of Aragon from 1479 until her death as the wife of King Ferdinand II. Reigning together over a dynastically unified Spain, Isabella and Ferdinand are known as the Catholic Monarchs. Her reign marked the end of the Reconquista and also the start of the Spanish Empire, allowing Spain to become a major force in European politics.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.99888889,
+        41.08944444
+      ],
+      "year": 1451
+    }
   }
 }

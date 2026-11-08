@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Duke of Savoy, King of Sardinia and ruler of the Savoyard states from his father's abdication on 3 September 1730 until his death in 1773.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/charles-emmanuel-iii.jpg",
   "image_credit": "Maria Giovanna Clementi · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Kingdom of Sardinia"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Charles Emmanuel III (27 April 1701 – 20 February 1773) was Duke of Savoy, King of Sardinia and ruler of the Savoyard states from his father's abdication on 3 September 1730 until his death in 1773. He was the paternal grandfather of the last three mainline kings of Sardinia. In the War of the Polish Succession, he initially gained Lombardy but later ceded it for smaller territorial gains. During the War of the Austrian Succession, he defended Piedmont against a Franco-Spanish army, winning the Battle of Assietta. The Treaty of Aix-la-Chapelle restored lost lands and expanded his territory. He strengthened ties with Spain through marriage alliances. He chose not to get involved in the Seven Years War and instead focused on administrative reforms and maintaining a well-disciplined army.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        7.67611111,
+        45.07916667
+      ],
+      "year": 1701
+    }
   }
 }

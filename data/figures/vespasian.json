@@ -15,8 +15,9 @@
     "Roman Empire"
   ],
   "related": [],
-  "contribution": "The last emperor to reign in the Year of the Four Emperors, he founded the Flavian dynasty, which ruled the empire for 27 years.",
+  "contribution": "The last emperor to reign in the Year of the Four Emperors, he founded the Flavian dynasty, which lasted for 27 years.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
-    "lead": "Vespasian (; Latin: Vespasianus [wɛspasiˈaːnus]; 17 November 9 AD – 23 June 79) was Roman emperor from 69 to 79. The last emperor to reign in the Year of the Four Emperors, he founded the Flavian dynasty, which ruled the empire for 27 years. His fiscal reforms and consolidation of the empire brought political stability and an extensive building program.",
+    "lead": "Vespasian (; full birth name Latin: Titus Flavius Vespasianus, pronounced [ˈt̪ɪt̪ʊs ˈfɫaːwijʊs wɛs.pasiˈjaːnʊs]) 17 November 9 AD – 23 June 79) was Roman emperor from 69 to 79. The last emperor to reign in the Year of the Four Emperors, he founded the Flavian dynasty, which lasted for 27 years. His fiscal reforms and consolidation of the empire brought political stability and an extensive building program.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.17055556,
+        42.59361111
+      ],
+      "year": 9
+    }
   }
 }

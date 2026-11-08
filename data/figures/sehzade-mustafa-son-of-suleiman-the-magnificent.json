@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Ottoman prince, son of sultan Suleiman the Magnificent and his concubine Mahidevran Hatun.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/sehzade-mustafa-son-of-suleiman-the-magnificent.jpg",
   "image_credit": "1558 Ottoman artist · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
-    "lead": "Şehzade Mustafa (Ottoman Turkish: شهزاده مصطفى; c.1516/1517 – 6 October 1553) was an Ottoman prince, son of sultan Suleiman the Magnificent and his concubine Mahidevran Hatun. Mustafa was Suleiman's oldest surviving son, governor of Manisa from 1533 to 1541 and of Amasya from 1541 to 1553, when he was executed by his father's order on charges of sedition and treason.",
+    "lead": "Şehzade Mustafa (Ottoman Turkish: شهزاده مصطفى; c. 1516/1517 – 6 October 1553) was an Ottoman prince, son of sultan Suleiman the Magnificent and his concubine Mahidevran Hatun. Mustafa was Suleiman's oldest surviving son, governor of Manisa from 1533 to 1541 and of Amasya from 1541 to 1553, when he was executed by his father's order on charges of sedition and treason.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.42916667,
+        38.61444444
+      ],
+      "year": 1515
+    }
   }
 }

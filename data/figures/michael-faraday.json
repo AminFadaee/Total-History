@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An English chemist and physicist who contributed vastly to the study of electrochemistry and electromagnetism.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/michael-faraday.jpg",
   "image_credit": "Probably albumen carte-de-visite by John Watkins · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "Kingdom of Great Britain"
       ]
     },
-    "lead": "Michael Faraday (22 September 1791 – 25 August 1867) was an English chemist and physicist who contributed vastly to the study of electrochemistry and electromagnetism. His main discoveries include the principles underlying electromagnetic induction, diamagnetism, and electrolysis. Although Faraday received little formal education, as a self-made man, he was one of the most influential scientists in history. It was by his research on the magnetic field around a conductor carrying a direct current that Faraday established the concept of the electromagnetic field in physics. Faraday also established that magnetism could affect rays of light and that there was an underlying relationship between the two phenomena. He similarly discovered the principles of electromagnetic induction, diamagnetism, and the laws of electrolysis. His inventions of electromagnetic rotary devices formed the foundation of electric motor technology, and it was largely due to his efforts that electricity became practical for use in technology. The SI unit of capacitance, the farad, is named after him.",
+    "lead": "Michael Faraday (22 September 1791 – 25 August 1867) was an English chemist and physicist who contributed vastly to the study of electrochemistry and electromagnetism. His main discoveries include the principles underlying electromagnetic induction, diamagnetism, and electrolysis. Despite receiving little formal education, as an autodidact Faraday became one of the most influential scientists in history. It was by his research on the magnetic field around a conductor carrying a direct current that Faraday established the concept of the electromagnetic field in physics. Faraday also established that magnetism could affect rays of light and that there was an underlying relationship between the two phenomena. He similarly discovered the principles of electromagnetic induction, diamagnetism, and the laws of electrolysis. His inventions of electromagnetic rotary devices formed the foundation of electric motor technology, and it was largely due to his efforts that electricity became practical for use in technology. The SI unit of capacitance, the farad, is named after him.",
     "image": "",
-    "photo": "model 0.73, one person 0.96, captured 1861, during their lifetime"
+    "photo": "model 0.73, one person 0.96, captured 1861, during their lifetime",
+    "birth": {
+      "location": [
+        -0.10111111,
+        51.49277778
+      ],
+      "year": 1791
+    }
   }
 }

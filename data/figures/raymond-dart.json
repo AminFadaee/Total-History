@@ -12,11 +12,13 @@
   "occupation": "Anthropologist",
   "birth_country": "Australia",
   "civilizations": [
+    "British Empire",
     "South Africa"
   ],
   "related": [],
   "contribution": "An Australian anatomist and anthropologist, best known for his involvement in the 1924 discovery of the first fossil found of Australopithecus africanus, an extinct hominin closely related to humans, at Taung in the North of South Africa in the Northwest province.",
   "setting": "",
+  "modern_country": "Australia",
   "image": "images/raymond-dart.jpg",
   "image_credit": "Smithsonian Institution Archives · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +37,20 @@
       ],
       "birthplace": [
         "British Empire"
+      ],
+      "born_in": [
+        "British Empire"
       ]
     },
     "lead": "Raymond Arthur Dart (4 February 1893 – 22 November 1988) was an Australian anatomist and anthropologist, best known for his involvement in the 1924 discovery of the first fossil found of Australopithecus africanus, an extinct hominin closely related to humans, at Taung in the North of South Africa in the Northwest province. He also did extensive work on physical anthropology in the tradition of scientific racism.",
     "image": "",
-    "photo": "model 0.97, one person 0.99, captured 1968, during their lifetime"
+    "photo": "model 0.97, one person 0.99, captured 1968, during their lifetime",
+    "birth": {
+      "location": [
+        153.02805556,
+        -27.46777778
+      ],
+      "year": 1893
+    }
   }
 }

@@ -12,13 +12,15 @@
   "occupation": "Writer",
   "birth_country": "Ireland",
   "civilizations": [
+    "United Kingdom of Great Britain and Ireland",
     "Éire"
   ],
   "related": [
     "Austria-Hungary"
   ],
   "contribution": "An Irish novelist, poet, and literary critic.",
-  "setting": "Éire",
+  "setting": "",
+  "modern_country": "Ireland",
   "image": "images/james-joyce.jpg",
   "image_credit": "Alex Ehrenzweig derivative work: RedAppleJack derivative work: Missionary · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +44,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "James Augustine Aloysius Joyce (born James Augusta Joyce; 2 February 1882 – 13 January 1941) was an Irish novelist, poet, and literary critic. He contributed to the modernist movement and is regarded among the most influential and important writers of the 20th century. Joyce's novel Ulysses (1922) is a landmark in which the episodes of Homer's Odyssey are paralleled in a variety of literary styles, particularly stream of consciousness. His other well-known works include the short-story collection Dubliners (1914) and the novels A Portrait of the Artist as a Young Man (1916) and Finnegans Wake (1939). His other writings include two books of poetry, a play, correspondence, and occasional journalism.",
     "image": "",
-    "photo": "model 0.92, one person 0.98"
+    "photo": "model 0.92, one person 0.98",
+    "birth": {
+      "location": [
+        -6.27433333,
+        53.31166667
+      ],
+      "year": 1882
+    }
   }
 }

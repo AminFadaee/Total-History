@@ -19,6 +19,7 @@
   "related": [],
   "contribution": "An Indonesian statesman, nationalist, and independence activist who served as the country's first vice president as well as the third prime minister.",
   "setting": "",
+  "modern_country": "",
   "image": "images/mohammad-hatta.jpg",
   "image_credit": "Uncredited, possibly employee(s) of Gunung Agung · Public domain",
   "image_kind": "Photograph",
@@ -46,10 +47,20 @@
       ],
       "birthplace": [
         "Dutch East Indies"
+      ],
+      "born_in": [
+        "Dutch East Indies"
       ]
     },
     "lead": "Mohammad Hatta ( né Athar; 12 August 1902 – 14 March 1980) was an Indonesian statesman, nationalist, and independence activist who served as the country's first vice president as well as the third prime minister. Known as \"The Proclamator\", he and a number of Indonesians, including the first president of Indonesia, Sukarno, fought for the independence of Indonesia from the Netherlands. Hatta was an important figure during the Indonesian national awakening and during the national revolution. As a youth he was politically active in both the Netherlands and the Indies, which led him to be imprisoned in the Boven Digoel concentration camp for his activism. He also played a crucial role in the proclamation of Indonesian independence, being the second person to sign the declaration besides Sukarno, thus making him one of the founders of Indonesia.",
     "image": "",
-    "photo": "model 0.91, one person 0.99, captured 1954, during their lifetime"
+    "photo": "model 0.91, one person 0.99, captured 1954, during their lifetime",
+    "birth": {
+      "location": [
+        100.36916667,
+        -0.30555556
+      ],
+      "year": 1902
+    }
   }
 }

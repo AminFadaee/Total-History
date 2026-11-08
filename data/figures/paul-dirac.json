@@ -12,13 +12,14 @@
   "occupation": "Physicist",
   "birth_country": "United Kingdom",
   "civilizations": [
+    "United Kingdom of Great Britain and Ireland",
     "Swiss Confederation",
-    "United Kingdom",
-    "United Kingdom of Great Britain and Ireland"
+    "United Kingdom"
   ],
   "related": [],
-  "contribution": "An English theoretical physicist who is considered to be one of the founders of quantum mechanics.",
+  "contribution": "An English theoretical physicist who was one of the founders of quantum mechanics.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/paul-dirac.jpg",
   "image_credit": "Nobel Foundation · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
-    "lead": "Paul Adrien Maurice Dirac ( dih-RAK; 8 August 1902 – 20 October 1984) was an English theoretical physicist who is considered to be one of the founders of quantum mechanics. Dirac laid the foundations for both quantum electrodynamics and quantum field theory, coining the former term. He was Lucasian Professor of Mathematics at the University of Cambridge from 1932 to 1969, and a professor of physics at Florida State University from 1970 to 1984. Dirac shared the 1933 Nobel Prize in Physics with Erwin Schrödinger \"for the discovery of new productive forms of atomic theory.\"",
+    "lead": "Paul Adrien Maurice Dirac ( dih-RAK; 8 August 1902 – 20 October 1984) was an English theoretical physicist who was one of the founders of quantum mechanics. Dirac laid the foundations for quantum electrodynamics and quantum field theory. He was Lucasian Professor of Mathematics at the University of Cambridge from 1932 to 1969, and a professor of physics at Florida State University from 1970 to 1984. Dirac shared the 1933 Nobel Prize in Physics with Erwin Schrödinger \"for the discovery of new productive forms of atomic theory.\"",
     "image": "",
-    "photo": "model 0.95, one person 0.99, captured 1933, during their lifetime"
+    "photo": "model 0.95, one person 0.99, captured 1933, during their lifetime",
+    "birth": {
+      "location": [
+        -2.5975,
+        51.45361111
+      ],
+      "year": 1902
+    }
   }
 }

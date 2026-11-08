@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "One of Chile's best-known painters and figures in 20th century surrealist art across the Americas and Europe.",
   "setting": "",
+  "modern_country": "Chile",
   "image": "images/roberto-matta.jpg",
   "image_credit": "Autor desconocido · Public domain",
   "image_kind": "Portrait from life",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Republic of Chile"
+      ],
+      "born_in": [
+        "Republic of Chile"
       ]
     },
     "lead": "Roberto Antonio Sebástian Matta-Echaurren (Spanish: [roˈβeɾto ˈmata]; November 11, 1911 – November 23, 2002), usually known simply as Matta, also as  Sebastián Matta or Roberto Matta, was one of Chile's best-known painters and figures in 20th century surrealist art across the Americas and Europe.",
     "image": "",
-    "photo": "Matta revista cleaned.jpg: model 0.41, one person 0.79, in Category:Black and white photographs of men standing; RobertoMatta Three Figures 1958c..jpg: model 0.14, one person 0.02; Verbo América.jpg: model 0.78, one person 0.00; Ojo con los desarrolladores.jpg: model 0.38, one person 0.02; Museo de la Solidaridad - Segunda Sala de Exposiciones Vista Panorámica.jpg: model 0.50, one person 0.01; Matta, Roberto - Surrealismo en roca 03 detalle.jpg: model 0.20, one person 0.29; Matta por Alexander Tadlock -Mosqueto con Monjitas, mBA -fRF3.jpg: model 0.24, one person 0.08, classified as a photograph on Commons; Matta, Roberto - Surrealismo en roca 02.jpg: model 0.22, one person 0.03; Matta, Roberto - Surrealismo en roca 04 detalle.jpg: model 0.49, one person 0.06, classified as a photograph on Commons; Matta, Roberto - Surrealismo en roca 05 detalle.jpg: model 0.37, one person 0.01"
+    "photo": "Matta revista cleaned.jpg: model 0.41, one person 0.79, in Category:Black and white photographs of men standing; RobertoMatta Three Figures 1958c..jpg: model 0.14, one person 0.02; Verbo América.jpg: model 0.78, one person 0.00; Ojo con los desarrolladores.jpg: model 0.38, one person 0.02; Museo de la Solidaridad - Segunda Sala de Exposiciones Vista Panorámica.jpg: model 0.50, one person 0.01; Matta, Roberto - Surrealismo en roca 03 detalle.jpg: model 0.20, one person 0.29; Matta por Alexander Tadlock -Mosqueto con Monjitas, mBA -fRF3.jpg: model 0.24, one person 0.08, classified as a photograph on Commons; Matta, Roberto - Surrealismo en roca 02.jpg: model 0.22, one person 0.03; Matta, Roberto - Surrealismo en roca 04 detalle.jpg: model 0.49, one person 0.06, classified as a photograph on Commons; Matta, Roberto - Surrealismo en roca 05 detalle.jpg: model 0.37, one person 0.01",
+    "birth": {
+      "location": [
+        -70.65,
+        -33.4375
+      ],
+      "year": 1911
+    }
   }
 }

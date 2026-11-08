@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 17th prime minister of Australia, serving from 1966 until his disappearance and presumed death in 1967.",
   "setting": "",
+  "modern_country": "Australia",
   "image": "images/harold-holt.jpg",
   "image_credit": "Frank Wolfe, White House Photo Office · Public domain",
   "image_kind": "Photograph",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Commonwealth of Australia"
+      ],
+      "born_in": [
+        "Commonwealth of Australia"
       ]
     },
     "lead": "Harold Edward Holt (5 August 1908 – 17 December 1967) was the 17th prime minister of Australia, serving from 1966 until his disappearance and presumed death in 1967. He held office as leader of the Liberal Party of Australia and held various ministerial positions from 1949 to 1966 in the governments of Robert Menzies and Arthur Fadden.",
     "image": "",
-    "photo": "Harold Holt SEATO.jpg: model 0.88, one person 0.97; Harold Holt bust.jpg: model 0.01, one person 0.20; Cheviot Beach.png: model 0.92, one person 0.01; Harold Holt signature.jpg: model 0.52, one person 0.00; Holt and Menzies.jpg: model 0.89, one person 0.19, captured 1950, during their lifetime; Make Like Harold Holt.jpg: model 0.50, one person 0.02, classified as a photograph on Commons; Cheviot Beach (cropped).png: model 0.95, one person 0.02"
+    "photo": "Harold Holt SEATO.jpg: model 0.88, one person 0.97; Harold Holt bust.jpg: model 0.01, one person 0.20; Cheviot Beach.png: model 0.92, one person 0.01; Harold Holt signature.jpg: model 0.52, one person 0.00; Holt and Menzies.jpg: model 0.89, one person 0.19, captured 1950, during their lifetime; Make Like Harold Holt.jpg: model 0.50, one person 0.02, classified as a photograph on Commons; Cheviot Beach (cropped).png: model 0.95, one person 0.02",
+    "birth": {
+      "location": [
+        151.1644,
+        -33.8942
+      ],
+      "year": 1908
+    }
   }
 }

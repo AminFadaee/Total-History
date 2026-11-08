@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Swedish writer, poet and former sailor.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/harry-martinson.jpg",
   "image_credit": "Gunnar Herbert Lundh · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
     "lead": "Harry Martinson (6 May 1904 – 11 February 1978) was a Swedish writer, poet and former sailor. In 1949 he was elected into the Swedish Academy. He was awarded a joint Nobel Prize in Literature in 1974 together with fellow Swede Eyvind Johnson \"for writings that catch the dewdrop and reflect the cosmos\". The choice was controversial, as both Martinson and Johnson were members of the academy.",
     "image": "",
-    "photo": "model 0.98, one person 0.90, in Category:Photographs by Gunnar Lundh"
+    "photo": "model 0.98, one person 0.90, in Category:Photographs by Gunnar Lundh",
+    "birth": {
+      "location": [
+        14.51666667,
+        56.23333333
+      ],
+      "year": 1904
+    }
   }
 }

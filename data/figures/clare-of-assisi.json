@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian saint who was one of the first followers of Francis of Assisi.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/clare-of-assisi.jpg",
   "image_credit": "Simone Martini · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Chiara Offreduccio (16 July 1194 – 11 August 1253), known as Clare of Assisi (sometimes spelled Clara, Clair or Claire; Italian: Chiara d'Assisi), is an Italian saint who was one of the first followers of Francis of Assisi.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.38888889,
+        43.11222222
+      ],
+      "year": 1193
+    }
   }
 }

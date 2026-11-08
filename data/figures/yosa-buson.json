@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese poet and painter of the Edo period.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/yosa-buson.jpg",
   "image_credit": "Matsumura Goshun · Public domain",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Tokugawa Shogunate"
+      ],
+      "born_in": [
+        "Tokugawa Shogunate"
       ]
     },
     "lead": "Yosa (no) Buson (与謝 蕪村; Japanese pronunciation: [joꜜ.sa | bɯꜜ.soɴ]) was a Japanese poet and painter of the Edo period. He lived from 1716 – January 17, 1784. Along with Matsuo Bashō and Kobayashi Issa, Buson is considered among the greatest poets of the Edo Period. He is also known for completing haiga as a style of art, working with haibun prose, and experimenting with a mixed Chinese-Japanese style of poetry.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        135.50222222,
+        34.69388889
+      ],
+      "year": 1716
+    }
   }
 }

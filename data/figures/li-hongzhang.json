@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Chinese statesman of the late Qing dynasty.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/li-hongzhang.jpg",
   "image_credit": "Russell & Sons · Public domain",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Qing Dynasty"
+      ],
+      "born_in": [
+        "Qing Dynasty"
       ]
     },
     "lead": "Li Hongzhang, Marquis Suyi (Chinese: 李鴻章; also Li Hung-chang; February 15, 1823 – November 7, 1901) was a Chinese statesman of the late Qing dynasty. He held important positions in the Qing government, including the Viceroy of Zhili, Huguang and Liangguang. He was the founder and commander of the Huai Army and the Beiyang Fleet, and a leader of the Self-Strengthening Movement.",
     "image": "",
-    "photo": "model 0.72, one person 0.97, captured 1896, during their lifetime"
+    "photo": "model 0.72, one person 0.97, captured 1896, during their lifetime",
+    "birth": {
+      "location": [
+        117.2273,
+        31.8206
+      ],
+      "year": 1823
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Leader of the Kazakh Little jüz in present-day western and central Kazakhstan.",
   "setting": "",
+  "modern_country": "Kazakhstan",
   "image": "images/abul-khair-khan.jpg",
   "image_credit": "John Castle · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Kazakh Khanate"
+      ],
+      "born_in": [
+        "Kazakh Khanate"
       ]
     },
     "lead": "Mirza Abū'l-Khair Muhammed Khan bin Qājı Abdūllah Sultan (Kazakh: میرزا ابو الخیر محمد خان بن حاجی عبد الله سلطان, Мырза Әбілқайыр Мұхаммед хан бин Қажы Абдұллаh Сұлтан, Myrza Äbılqaiyr Mūhammed Han bin Qajy Abdūllah Sūltan, [mərˈzɑ æˌbɘʟ̠qɑˈjər mʊχɑmˈmʲet χɑn bɯjn qɑˈʒə ɑbdʊɫ̚ˈɫɑ(h) sʊɫˈtɑn]), more commonly known by his short name Abū'l-Khair Khan (1693–1748) was leader of the Kazakh Little jüz in present-day western and central Kazakhstan.  During this period, the Little jüz participated in the Kazakh-Dzungar Wars mainly to avenge the \"Great Disaster\" Dzungar invasion of major Kazakh territories. Under Abu'l-Khair's strong leadership, the Kazakh ghazis defeated Dzungar forces at the Bulanty river in 1726 and in the Battle of Anrakai in 1729.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        68.26916667,
+        43.30194444
+      ],
+      "year": 1693
+    }
   }
 }

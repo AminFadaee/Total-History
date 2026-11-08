@@ -19,6 +19,7 @@
   ],
   "contribution": "The third Roman emperor, ruling from AD 37 until his assassination in AD 41.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,18 @@
       ],
       "citizenship": [
         "Roman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Gaius Julius Caesar Augustus Germanicus (31 August AD 12 – 24 January AD 41), also called Gaius or Caligula (), was the third Roman emperor, ruling from AD 37 until his assassination in AD 41. He was the son of the Roman general Germanicus and Agrippina the Elder, Augustus's granddaughter, members of the first ruling family of the Roman Empire. He was born two years before Tiberius became emperor. Gaius accompanied his father, mother and siblings on campaign in Germania, at little more than four or five years old. He had been named after Gaius Julius Caesar, but his father's soldiers affectionately nicknamed him \"Caligula\" ('little boot').",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.62861111111111,
+        41.44830555555556
+      ],
+      "year": 12
+    }
   }
 }

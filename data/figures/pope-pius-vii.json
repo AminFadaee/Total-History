@@ -19,6 +19,7 @@
   ],
   "contribution": "Head of the Catholic Church from 14 March 1800 to his death in August 1823.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/pope-pius-vii.jpg",
   "image_credit": "Jacques-Louis David · Public domain",
   "image_kind": "Portrait from life",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Papal States"
+      ],
+      "born_in": [
+        "Papal States"
       ]
     },
     "lead": "Pope Pius VII (Italian: Pio VII; born Barnaba Niccolò Maria Luigi Chiaramonti; 14 August 1742 – 20 August 1823) was head of the Catholic Church from 14 March 1800 to his death in August 1823. He was the leader of the Papal States from June 1800 to 17 May 1809 and again from 1814 to his death. Chiaramonti was also a monk of the Order of Saint Benedict in addition to being a well-known theologian and bishop.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.24444444,
+        44.13888889
+      ],
+      "year": 1742
+    }
   }
 }

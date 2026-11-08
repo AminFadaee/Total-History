@@ -19,6 +19,7 @@
   ],
   "contribution": "The last king of the Konbaung dynasty of Burma and also the last Burmese monarch in the country's history.",
   "setting": "",
+  "modern_country": "Myanmar",
   "image": "images/thibaw-min.jpg",
   "image_credit": "Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,18 @@
       "lead": [
         "Konbaung Dynasty",
         "British Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Thibaw Min, also Thebaw (Burmese: သီပေါ‌မင်း, pronounced [θìbɔ́ mɪ́ɰ̃]; 1 January 1859 – 16 December 1916), was the last king of the Konbaung dynasty of Burma (Myanmar) and also the last Burmese monarch in the country's history. His reign ended when the Royal Burmese armed forces were defeated by the forces of the British Empire in the Third Anglo-Burmese War, on 29 November 1885, prior to its official annexation on 1 January 1886.",
     "image": "",
-    "photo": "model 0.95, one person 0.99, in Category:Black and white photographs of Myanmar"
+    "photo": "model 0.95, one person 0.99, in Category:Black and white photographs of Myanmar",
+    "birth": {
+      "location": [
+        96.08444444,
+        21.98305556
+      ],
+      "year": 1859
+    }
   }
 }

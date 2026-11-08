@@ -3,7 +3,7 @@
   "slug": "cesare-borgia",
   "name": "Cesare Borgia",
   "wikipedia": "Cesare Borgia",
-  "role": "Italian cardinal deacon",
+  "role": "Italian-Spanish cardinal deacon and condottiero",
   "life": "1475–1507",
   "lifetime": [
     1475,
@@ -15,8 +15,9 @@
     "Papal States"
   ],
   "related": [],
-  "contribution": "An Italian cardinal deacon and later a condottiero, as well as a member of the Spanish House of Borgia.",
+  "contribution": "An Italian-Spanish cardinal deacon and condottiero from the House of Borgia.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/cesare-borgia.jpg",
   "image_credit": "After Bartolomeo Veneto · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Papal States"
+      ],
+      "born_in": [
+        "Papal States"
       ]
     },
-    "lead": "Cesare Borgia (13 September 1475 – 12 March 1507) was an Italian cardinal deacon and later a condottiero, as well as a member of the Spanish House of Borgia. He was the illegitimate son of Pope Alexander VI and sibling to Lucrezia Borgia.",
+    "lead": "Cesare Borgia (13 September 1475 – 12 March 1507) was an Italian-Spanish cardinal deacon and condottiero from the House of Borgia. He was the illegitimate son of Pope Alexander VI and sibling to Lucrezia Borgia.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.1,
+        41.93333333
+      ],
+      "year": 1475
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Persian lyric poet whose collected works are regarded by many Iranians as one of the highest pinnacles of Persian literature.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/hafez.jpg",
   "image_credit": "Anselm Feuerbach · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Timurid Empire"
+      ],
+      "born_in": [
+        "Ilkhanate"
       ]
     },
     "lead": "Khajeh Shams-od-Din Mohammad Hafez Shirazi (1325–1390), also known by his pen name Hafez, was a Persian lyric poet whose collected works are regarded by many Iranians as one of the highest pinnacles of Persian literature. His works are often found in the homes of Persian speakers, who learn his poems by heart and use them as everyday proverbs and sayings. His life and poems have become the subjects of much analysis, commentary, and interpretation, influencing post-14th century Persian writing more than any other Persian author. He is also known by his sobriquet Lisan al-Ghayb (Tongue of the Unseen).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        52.5425,
+        29.61
+      ],
+      "year": 1325
+    }
   }
 }

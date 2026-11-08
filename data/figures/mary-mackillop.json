@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Together with Julian Tenison-Woods, she founded the Sisters of St Joseph of the Sacred Heart, a congregation of religious sisters that established a number of schools and welfare institutions throughout Australia and New Zealand, with an emphasis on education for the rural poor.",
   "setting": "",
+  "modern_country": "Australia",
   "image": "images/mary-mackillop.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Commonwealth of Australia"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Mary Helen MacKillop RSJ (religious name Mary of the Cross; 15 January 1842 – 8 August 1909) was an Australian religious sister. She was born in Melbourne but is best known for her activities in South Australia. Together with Julian Tenison-Woods, she founded the Sisters of St Joseph of the Sacred Heart (the Josephites), a congregation of religious sisters that established a number of schools and welfare institutions throughout Australia and New Zealand, with an emphasis on education for the rural poor.",
     "image": "",
-    "photo": "model 0.91, one person 0.96, captured 1869, during their lifetime"
+    "photo": "model 0.91, one person 0.96, captured 1869, during their lifetime",
+    "birth": {
+      "location": [
+        144.9785,
+        -37.7984
+      ],
+      "year": 1842
+    }
   }
 }

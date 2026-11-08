@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An ancient Greek tragedian, often described as the father of tragedy.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -26,10 +27,18 @@
     "civilization_votes": {
       "citizenship": [
         "Classical Athens"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Aeschylus (UK: , US: ; Ancient Greek: Αἰσχύλος Aischýlos; c. 525/524 – c. 456/455 BC) was an ancient Greek tragedian, often described as the father of tragedy. Academic knowledge of the genre begins with his work, and understanding of earlier Greek tragedy is largely based on inferences made from reading his surviving plays. According to Aristotle, he expanded the number of characters in the theatre and allowed conflict among them. Formerly, characters interacted only with the chorus.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        23.53333333,
+        38.03333333
+      ],
+      "year": -525
+    }
   }
 }

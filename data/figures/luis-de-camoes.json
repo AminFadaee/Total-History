@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Portuguese poet, considered Portugal's and the Portuguese language's greatest poet.",
   "setting": "",
+  "modern_country": "",
   "image": "images/luis-de-camoes.jpg",
   "image_credit": "Fernão Gomes · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of Portugal"
+      ],
+      "born_in": [
+        "Kingdom of Portugal"
       ]
     },
     "lead": "Luís Vaz de Camões (European Portuguese: [luˈiʒ ˈvaʒ ðɨ kaˈmõjʃ]; c. 1524 or 1525 – 10 June 1580), sometimes rendered in English as Camoens or Camoëns ( KAM-oh-ənz), was a Portuguese poet, considered Portugal's and the Portuguese language's greatest poet. His mastery of verse has been compared to that of Shakespeare, Milton, Vondel, Homer, Virgil and Dante. He wrote a considerable amount of lyrical poetry and drama but is best remembered for his epic work Os Lusíadas (The Lusiads). His collection of poetry The Parnasum of Luís de Camões was lost during his life. The influence of his masterpiece Os Lusíadas is so profound that Portuguese is sometimes called the \"language of Camões\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -9.18333333,
+        38.7
+      ],
+      "year": 1524
+    }
   }
 }

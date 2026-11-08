@@ -20,6 +20,7 @@
   ],
   "contribution": "The Voivode of Wallachia from 1386 until his death in 1418.",
   "setting": "",
+  "modern_country": "Romania",
   "image": "images/mircea-the-elder.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Principality of Wallachia"
+      ],
+      "born_in": [
+        "Principality of Wallachia"
       ]
     },
     "lead": "Mircea the Elder (Romanian: Mircea cel Bătrân, pronounced [ˈmirtʃe̯a tʃel bəˈtrɨn] ; c. 1355 – 31 January 1418) was the Voivode of Wallachia from 1386 until his death in 1418. He was the son of Radu I of Wallachia and brother of Dan I of Wallachia, after whose death he inherited the throne.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        24.67916667,
+        45.13916667
+      ],
+      "year": 1355
+    }
   }
 }

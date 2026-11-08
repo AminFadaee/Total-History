@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A South African writer, anti-apartheid activist, and educator.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/alan-paton.jpg",
   "image_credit": "Crown Studios The original uploader was Perijove at Swahili Wikipedia. · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "South Africa"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Alan Stewart Paton (11 January 1903 – 12 April 1988) was a South African writer, anti-apartheid activist, and educator. His works include the novels Cry, the Beloved Country (1948), Too Late the Phalarope (1953), and the short story The Waste Land. He was posthumously awarded the Order of Ikhamanga in Gold for his literary contributions to the anti-apartheid movement.",
     "image": "",
-    "photo": "model 0.92, one person 0.98, captured 1968, during their lifetime"
+    "photo": "model 0.92, one person 0.98, captured 1968, during their lifetime",
+    "birth": {
+      "location": [
+        30.38333333,
+        -29.61666667
+      ],
+      "year": 1903
+    }
   }
 }

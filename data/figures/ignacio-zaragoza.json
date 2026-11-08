@@ -1,0 +1,51 @@
+{
+  "id": "Q558759",
+  "slug": "ignacio-zaragoza",
+  "name": "Ignacio Zaragoza",
+  "wikipedia": "Ignacio Zaragoza",
+  "role": "Mexican Army officer and politician",
+  "life": "1829–1862",
+  "lifetime": [
+    1829,
+    1862
+  ],
+  "occupation": "Politician",
+  "birth_country": "United States",
+  "civilizations": [
+    "Federated Republic of Mexico"
+  ],
+  "related": [
+    "Second French Empire"
+  ],
+  "contribution": "He is best known for leading a Mexican army of 3,791 men which defeated a 5,730-strong force of French troops at the battle of Puebla on May 5, 1862 during the second French intervention in Mexico.",
+  "setting": "",
+  "modern_country": "United States",
+  "image": "images/ignacio-zaragoza.jpg",
+  "image_credit": "Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/ignacio-zaragoza-photo.jpg",
+  "photo_credit": "Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Second Federal Republic of Mexico"
+      ],
+      "lead": [
+        "Second French Empire"
+      ],
+      "born_in": [
+        "Federated Republic of Mexico"
+      ]
+    },
+    "lead": "Ignacio Zaragoza Seguín (March 24, 1829 – September 8, 1862) was a Mexican military officer and politician. He is best known for leading a Mexican army of 3,791 men which defeated a 5,730-strong force of French troops at the battle of Puebla on May 5, 1862 during the second French intervention in Mexico. The Mexican victory is celebrated annually as Cinco de Mayo.",
+    "image": "",
+    "photo": "model 0.93, one person 0.99",
+    "birth": {
+      "location": [
+        -97.38166667,
+        28.64666667
+      ],
+      "year": 1829
+    }
+  }
+}

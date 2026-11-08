@@ -19,6 +19,7 @@
   ],
   "contribution": "The second emperor of the Gupta Empire of ancient India.",
   "setting": "",
+  "modern_country": "India",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,20 @@
       ],
       "citizenship": [
         "Gupta Empire"
+      ],
+      "born_in": [
+        "Yaudheya Republic"
       ]
     },
     "lead": "Samudragupta (Gupta script:  Sa-mu-dra-gu-pta; 318–375) was the second emperor of the Gupta Empire of ancient India. As a son of the Gupta emperor Chandragupta I and the Licchavi princess Kumaradevi, he inherited the kingdom and transformed it into a vast empire through his military campaigns.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        77.25222222,
+        28.61777778
+      ],
+      "year": 335
+    }
   }
 }

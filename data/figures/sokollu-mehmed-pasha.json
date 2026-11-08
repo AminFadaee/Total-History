@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He was most notable for being the grand vizier of the Ottoman Empire.",
   "setting": "",
+  "modern_country": "Bosnia and Herzegovina",
   "image": "images/sokollu-mehmed-pasha.jpg",
   "image_credit": "Ganzfigur mit Turban u. Stab. Kupferstich von Dominicus Custos n. Giovanni Battista Fontana aus: Jacob Schrenck von Notzing, Der aller Durchleuchtigisten und Grossmächtigen Kayser... 1603. 43 x 29 cm. - Im w. Rd. etw. fleckig, etw. fingerfl · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Sokollu Mehmed Pasha (Ottoman Turkish: صوقوللى محمد پاشا, romanized: Sokollu Mehmet Paşa; Serbian: Мехмед-паша Соколовић, romanized: Mehmed-paša Sokolović; pronounced [měxmet pâʃa sokǒːloʋitɕ]; 1505 – 11 October 1579) was an Ottoman statesman. He was most notable for being the grand vizier of the Ottoman Empire. Born in Ottoman Herzegovina into an Orthodox Christian family, Mehmed was abducted as a young boy as part of the so-called \"blood tax\" to serve as a janissary to the Ottoman devşirme system of recruiting Christian boys to be raised as officers or administrators for the state. He rose through the ranks of the Ottoman imperial system, eventually holding positions as commander of the imperial guard (1543–1546), High Admiral of the Fleet (1546–1551), Governor-General of Rumelia (1551–1555), Third Vizier (1555–1561), Second Vizier (1561–1565), and Grand Vizier (1565–1579, for a total of 14 years, three months, 17 days) under three sultans: Suleiman the Magnificent, Selim II, and Murad III. He was assassinated in 1579, ending his near 15-years of service to several Sultans, as sole legal representative in the administration of state affairs.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        19.36666667,
+        43.61666667
+      ],
+      "year": 1505
+    }
   }
 }

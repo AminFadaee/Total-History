@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Japanese daimyō. He was born into the Nagao clan, and after adoption into the Uesugi clan, ruled Echigo Province in the Sengoku period of Japan.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/uesugi-kenshin.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Warring States Japan"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
     "lead": "Nagao Kagetora (長尾 景虎; February 18, 1530 – April 19, 1578), later known as Uesugi Kenshin (上杉 謙信), was a Japanese daimyō (magnate). He was born into the Nagao clan, and after adoption into the Uesugi clan, ruled Echigo Province in the Sengoku period of Japan. He was one of the most powerful daimyō of the Sengoku period. Known as the \"Dragon of Echigo\", while chiefly remembered for his prowess on the battlefield as a military genius and war hero, Kenshin is also regarded as an extremely skillful administrator who fostered the growth of local industries and trade, as his rule saw a marked rise in the standard of living of Echigo.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        138.205597,
+        37.147108
+      ],
+      "year": 1530
+    }
   }
 }

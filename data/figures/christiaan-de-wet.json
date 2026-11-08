@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Boer general, rebel leader and politician.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/christiaan-de-wet.jpg",
   "image_credit": "Reinhold Thiele · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "British Cape Colony"
+      ],
+      "born_in": [
+        "British Cape Colony"
       ]
     },
     "lead": "Christiaan Rudolf de Wet (7 October 1854 – 3 February 1922) was a Boer general, rebel leader and politician.",
     "image": "",
-    "photo": "model 0.87, one person 0.99, captured 1900, during their lifetime"
+    "photo": "model 0.87, one person 0.99, captured 1900, during their lifetime",
+    "birth": {
+      "location": [
+        26.53138889,
+        -30.2125
+      ],
+      "year": 1854
+    }
   }
 }

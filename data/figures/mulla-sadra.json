@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Iranian Twelver Shi'i Islamic mystic, philosopher, theologian, and ‘Ālim who led the cultural renaissance in the country during the 17th century.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Safavid Dynasty"
+      ],
+      "born_in": [
+        "Safavid Dynasty"
       ]
     },
     "lead": "Ṣadr ad-Dīn Muḥammad Shīrāzī, more commonly known as Mullā Ṣadrā (Persian: ملا صدرا; Arabic: صدر المتألهین; c. 1571/2 – c. 1635/40), was an Iranian Twelver Shi'i Islamic mystic, philosopher, theologian, and ‘Ālim who led the cultural renaissance in the country during the 17th century. According to Oliver Leaman, Mulla Sadra is arguably the single most important and influential philosopher in the Muslim world in the last four hundred years. Though not its founder, he is considered the master of the Illuminationist (or, Ishraghi or Ishraqi) school of Philosophy, a seminal figure who synthesized the many tracts of the Islamic Golden Age philosophies into what he called the Transcendent Theosophy or al-hikmah al-muta’āliyah.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        52.5425,
+        29.61
+      ],
+      "year": 1571
+    }
   }
 }

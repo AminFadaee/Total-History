@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Best known for writing The Jewish War, he was born in Jerusalem—then part of the Roman province of Judea—to a father of priestly descent and a mother who claimed Hasmonean royal ancestry.",
   "setting": "",
+  "modern_country": "Palestine",
   "image": "images/josephus.jpg",
   "image_credit": "Rijksmuseum · CC0",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
     "lead": "Flavius Josephus (born Yosef ben Mattityahu; c. AD 36 – c. 100) was a Roman–Jewish historian and military leader.  Best known for writing The Jewish War, he was born in Jerusalem—then part of the Roman province of Judea—to a father of priestly descent and a mother who claimed Hasmonean royal ancestry.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        35.21666667,
+        31.78333333
+      ],
+      "year": 37
+    }
   }
 }

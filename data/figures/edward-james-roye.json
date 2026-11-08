@@ -16,8 +16,9 @@
     "United States of America"
   ],
   "related": [],
-  "contribution": "A Liberian merchant and politician who served as the fifth president of Liberia from 1870 until his overthrow in the 1871 Liberian coup d'état and subsequent death.",
+  "contribution": "An Americo-Liberian merchant and politician who served as the fifth president of Liberia from 1870 until his overthrow in the 1871 Liberian coup d'état and subsequent death.",
   "setting": "",
+  "modern_country": "",
   "image": "images/edward-james-roye.jpg",
   "image_credit": "Miscellaneous Items in High Demand, PPOC, Library of Congress · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
-    "lead": "Edward James Roye (February 3, 1815 – February 11, 1872) was a Liberian merchant and politician who served as the fifth president of Liberia from 1870 until his overthrow in the 1871 Liberian coup d'état and subsequent death. He had previously served as the fourth Chief Justice of Liberia from 1865 until 1868. He was the first member of Liberia's True Whig Party to serve as president.",
+    "lead": "Edward James Roye (February 3, 1815 – c. February 11, 1872) was an Americo-Liberian merchant and politician who served as the fifth president of Liberia from 1870 until his overthrow in the 1871 Liberian coup d'état and subsequent death. He had previously served as the fourth Chief Justice of Liberia from 1865 until 1868. He was the first member of Liberia's True Whig Party to serve as president.",
     "image": "",
-    "photo": "model 0.90, one person 1.00, captured 1850, during their lifetime"
+    "photo": "model 0.90, one person 1.00, captured 1850, during their lifetime",
+    "birth": {
+      "location": [
+        -82.39722222,
+        40.07916667
+      ],
+      "year": 1815
+    }
   }
 }

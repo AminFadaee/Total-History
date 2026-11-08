@@ -12,11 +12,13 @@
   "occupation": "Sociologist",
   "birth_country": "Germany",
   "civilizations": [
+    "Grand Duchy of Saxe-Weimar-Eisenach",
     "Weimar Republic"
   ],
   "related": [],
   "contribution": "A German sociologist, historian, jurist, and political economist who was one of the central figures in the development of sociology and the social sciences more generally.",
   "setting": "",
+  "modern_country": "",
   "image": "images/max-weber.jpg",
   "image_credit": "Ernst Gottmann · Public domain",
   "image_kind": "Photograph",
@@ -36,10 +38,20 @@
       ],
       "birthplace": [
         "Grand Duchy of Saxe-Weimar-Eisenach"
+      ],
+      "born_in": [
+        "Grand Duchy of Saxe-Weimar-Eisenach"
       ]
     },
-    "lead": "Maximilian Carl Emil Weber (; German: [ˈveːbɐ] ; 21 April 1864 – 14 June 1920) was a German sociologist, historian, jurist, and political economist who was one of the central figures in the development of sociology and the social sciences more generally. His ideas continue to influence social theory and research.",
+    "lead": "Maximilian Carl Emil Weber ( VAY-ber; German: [ˈveːbɐ] ; 21 April 1864 – 14 June 1920) was a German sociologist, historian, jurist, and political economist who was one of the central figures in the development of sociology and the social sciences more generally. His ideas continue to influence social theory and research.",
     "image": "",
-    "photo": "model 0.86, one person 0.98, captured 1918, during their lifetime"
+    "photo": "model 0.86, one person 0.98, captured 1918, during their lifetime",
+    "birth": {
+      "location": [
+        11.02888889,
+        50.97805556
+      ],
+      "year": 1864
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "A king of Numidia, the ancient kingdom of the Numidians in northwest Africa.",
   "setting": "",
+  "modern_country": "Algeria",
   "image": "images/jugurtha.jpg",
   "image_credit": "Joachin Ibarra, scanned by Shlavozensky · Public domain",
   "image_kind": "Later depiction",
@@ -44,10 +45,20 @@
       ],
       "birthplace": [
         "Kingdom of Numidia"
+      ],
+      "born_in": [
+        "Kingdom of Numidia"
       ]
     },
     "lead": "Jugurtha or Jugurthen (  c. 160 – 104 BC) was a king of Numidia, the ancient kingdom of the Numidians in northwest Africa. When the Numidian king Micipsa, who had adopted Jugurtha, died in 118 BC, Micipsa's two sons, Hiempsal and Adherbal, along with Jugurtha, were in line for succession. Jugurtha arranged to have Hiempsal killed in 117 BC and, after a civil war, defeated and killed Adherbal in 112 BC.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        6.61194444,
+        36.3675
+      ],
+      "year": -160
+    }
   }
 }

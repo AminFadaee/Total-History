@@ -19,6 +19,7 @@
   ],
   "contribution": "He was also Duke of Bohemia between 1003 and 1004 as Boleslaus IV.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/bolesaw-i-the-brave.jpg",
   "image_credit": "Marcello Bacciarelli · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kingdom of Poland"
+      ],
+      "born_in": [
+        "Kingdom of Poland"
       ]
     },
     "lead": "Bolesław I the Brave (c. 967 – 17 June 1025), less often known as Bolesław the Great, was Duke of Poland from 992 to 1025 and the first King of Poland in 1025. He was also Duke of Bohemia between 1003 and 1004 as  Boleslaus IV. A member of the Piast dynasty, Bolesław was a capable monarch and a strong mediator in Central European affairs. He continued to proselytise Western Christianity among his subjects and raised Poland to the rank of a kingdom, thus becoming the first Polish ruler to hold the title of rex, Latin for King.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        16.93361111,
+        52.40833333
+      ],
+      "year": 967
+    }
   }
 }

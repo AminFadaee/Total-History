@@ -20,6 +20,7 @@
   ],
   "contribution": "The Aztec ruler of Tenochtitlan from 1520 to 1521, and the last Aztec Emperor.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Aztec Triple Alliance"
+      ],
+      "born_in": [
+        "Aztec Triple Alliance"
       ]
     },
     "lead": "Cuauhtémoc (Nahuatl pronunciation: [kʷaːʍˈtemoːk] , Spanish pronunciation: [kwawˈtemok] ), also known as Cuauhtemotzín, Guatimozín, or Guatémoc, was the Aztec ruler (tlatoani) of Tenochtitlan from 1520 to 1521, and the last Aztec Emperor.  The name Cuauhtemōc means \"one who has descended like an eagle\", commonly rendered in English as \"Descending Eagle\", evoking a raptor diving toward its prey.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -99.13333333,
+        19.43333333
+      ],
+      "year": 1495
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The Great Royal Wife of the Egyptian pharaoh Amenhotep III, mother of pharaoh Akhenaten and grandmother of pharaoh Tutankhamun; her parents were Yuya and Thuya.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "New Kingdom of Egypt"
+      ],
+      "born_in": [
+        "New Kingdom of Egypt"
       ]
     },
     "lead": "Tiye (c. 1398 BC – 1338 BC, also spelled Tye, Taia, Tiy and Tiyi) was the Great Royal Wife of the Egyptian pharaoh Amenhotep III, mother of pharaoh Akhenaten and grandmother of pharaoh Tutankhamun; her parents were Yuya and Thuya. In 2010, DNA analysis confirmed her as the mummy known as \"The Elder Lady\" found in the tomb of Amenhotep II (KV35) in 1898.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        31.75,
+        26.56666667
+      ],
+      "year": -1398
+    }
   }
 }

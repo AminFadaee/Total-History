@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "One of the most famous Neoclassic writers in colonial Brazil, he was also the ouvidor and the ombudsman of the city of Ouro Preto, as well as the desembargador of the appeal court in Bahia.",
   "setting": "",
+  "modern_country": "Portugal",
   "image": "images/tomas-antonio-gonzaga.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Kingdom of Portugal"
+      ],
+      "born_in": [
+        "Kingdom of Portugal"
       ]
     },
     "lead": "Tomás António Gonzaga (11 August 1744 – c. 1810) was a Portuguese poet. One of the most famous Neoclassic writers in colonial Brazil, he was also the ouvidor and the ombudsman of the city of Ouro Preto (formerly \"Vila Rica\"), as well as the desembargador of the appeal court in Bahia. He wrote under the pen name Dirceu.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -8.62,
+        41.146
+      ],
+      "year": 1744
+    }
   }
 }

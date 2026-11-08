@@ -20,6 +20,7 @@
   ],
   "contribution": "King of Poland and Grand Duke of Lithuania from 1674 until his death in 1696.",
   "setting": "",
+  "modern_country": "Ukraine",
   "image": "images/john-iii-sobieski.jpg",
   "image_credit": "Marcello Bacciarelli · Public domain",
   "image_kind": "Later depiction",
@@ -43,10 +44,20 @@
       ],
       "vital_section": [
         "Polish-Lithuanian Commonwealth"
+      ],
+      "born_in": [
+        "Polish-Lithuanian Commonwealth"
       ]
     },
     "lead": "John III Sobieski (Polish: Jan III Sobieski (Polish pronunciation: [ˈjan ˈtʂɛt͡ɕi sɔˈbʲɛskʲi]); Lithuanian: Jonas III Sobieskis (Lithuanian pronunciation: ['joːnäs  so'bʲɛskis]); Latin: Ioannes III Sobiscius (Latin pronunciation: [joˈannɛs soˈbiʃiʊs]) 17 August 1629 – 17 June 1696) was King of Poland and Grand Duke of Lithuania from 1674 until his death in 1696.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        24.883333333333,
+        49.966666666667
+      ],
+      "year": 1629
+    }
   }
 }

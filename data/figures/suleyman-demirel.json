@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Turkish politician, engineer, and statesman who served as the president of Turkey from 1993 to 2000.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/suleyman-demirel.jpg",
   "image_credit": "-hax0r · Attribution",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Republic of Turkey"
+      ],
+      "born_in": [
+        "Republic of Turkey"
       ]
     },
     "lead": "Süleyman Sami Demirel (1 November 1924 – 17 June 2015) was a Turkish politician, engineer, and statesman who served as the president of Turkey from 1993 to 2000. He previously served as the prime minister of Turkey seven times between 1965 and 1993. He was the leader of the Justice Party (AP) from 1964 to 1980 and the leader of the True Path Party (DYP) from 1987 to 1993.",
     "image": "",
-    "photo": "model 0.87, one person 0.98, captured 2009, during their lifetime"
+    "photo": "model 0.87, one person 0.98, captured 2009, during their lifetime",
+    "birth": {
+      "location": [
+        30.63861111,
+        37.95083333
+      ],
+      "year": 1924
+    }
   }
 }

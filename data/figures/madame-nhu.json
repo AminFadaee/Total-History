@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The de facto First Lady of South Vietnam from 1955 to 1963.",
   "setting": "",
+  "modern_country": "Vietnam",
   "image": "images/madame-nhu.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "French Indochina"
+      ],
+      "born_in": [
+        "French Indochina"
       ]
     },
     "lead": "Trần Lệ Xuân (Vietnamese pronunciation: [t͡ɕən˨˩ le˧˨ʔ swən˧˧]; 22 August 1924 – 24 April 2011), more popularly known in English as Madame Nhu, was the de facto First Lady of South Vietnam from 1955 to 1963. She was the wife of Ngô Đình Nhu, who was the brother and chief advisor to President Ngô Đình Diệm. As Diệm was a lifelong bachelor and because she and her family lived in the Saigon Governor’s Palace together with him, she was considered to be the first lady.",
     "image": "",
-    "photo": "model 0.98, one person 0.99, captured 1950, during their lifetime"
+    "photo": "model 0.98, one person 0.99, captured 1950, during their lifetime",
+    "birth": {
+      "location": [
+        105.85,
+        21.0
+      ],
+      "year": 1924
+    }
   }
 }

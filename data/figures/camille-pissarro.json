@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Danish-French Impressionist and Neo-Impressionist painter born on the island of Saint Thomas.",
   "setting": "",
+  "modern_country": "",
   "image": "images/camille-pissarro.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "French Third Republic"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Jacob Abraham Camille Pissarro ( piss-AR-oh; French: [kamij pisaʁo]; 10 July 1830 – 13 November 1903) was a Danish-French Impressionist and Neo-Impressionist painter born on the island of Saint Thomas (now in the US Virgin Islands, but then in the Danish West Indies). His importance resides in his contributions to both Impressionism and Post-Impressionism. Pissarro studied from great forerunners, including Gustave Courbet and Jean-Baptiste-Camille Corot. He later studied and worked alongside Georges Seurat and Paul Signac when he took on the Neo-Impressionist style at the age of 54.",
+    "lead": "Jacob Abraham Camille Pissarro ( piss-AR-oh; French: [kamij pisaʁo]; 10 July 1830 – 13 November 1903) was a Danish-French Impressionist and Neo-Impressionist painter born on the island of Saint Thomas (now in the United States Virgin Islands, but then in the Danish West Indies). His importance resides in his contributions to both Impressionism and Post-Impressionism. Pissarro studied from great forerunners, including Gustave Courbet and Jean-Baptiste-Camille Corot. He later studied and worked alongside Georges Seurat and Paul Signac when he took on the Neo-Impressionist style at the age of 54.",
     "image": "",
-    "photo": "Pissarro, Camille - Autoportrait 1873 040.jpg: model 0.02, one person 0.97, captured 1873, during their lifetime; Pissarro-portrait-c1900.jpg: model 0.64, one person 0.97, classified as a photograph on Commons; Impressionism pissaro.jpg: model 0.07, one person 0.26; Atelier de Camille Pissarro à Eragny sur Epte en juin 2026.jpg: model 0.93, one person 0.02; Camille Pissarro at his studio in Eragny-sur-Epte, c. 1900.jpg: model 1.00, one person 0.15, captured 1900, during their lifetime; Camille Pissarro, Pontremoli collection.jpg: model 0.10, one person 0.04; Lettre Pissarro à Monet - 8 juin 1892.jpg: model 0.60, one person 0.02, captured 1892, during their lifetime; Rouen ca 1900.jpg: model 0.96, one person 0.02, captured 1895, during their lifetime; Location Hotels Pissarro Rouen.jpg: model 0.89, one person 0.01, captured 1895, during their lifetime; Deux paysans ).jpg: model 0.03, one person 0.09"
+    "photo": "Pissarro, Camille - Autoportrait 1873 040.jpg: model 0.02, one person 0.97, captured 1873, during their lifetime; Pissarro-portrait-c1900.jpg: model 0.64, one person 0.97, classified as a photograph on Commons; Impressionism pissaro.jpg: model 0.07, one person 0.26; Atelier de Camille Pissarro à Eragny sur Epte en juin 2026.jpg: model 0.93, one person 0.02; Camille Pissarro at his studio in Eragny-sur-Epte, c. 1900.jpg: model 1.00, one person 0.15, captured 1900, during their lifetime; Camille Pissarro, Pontremoli collection.jpg: model 0.10, one person 0.04; Lettre Pissarro à Monet - 8 juin 1892.jpg: model 0.60, one person 0.02, captured 1892, during their lifetime; Rouen ca 1900.jpg: model 0.96, one person 0.02, captured 1895, during their lifetime; Location Hotels Pissarro Rouen.jpg: model 0.89, one person 0.01, captured 1895, during their lifetime; Deux paysans ).jpg: model 0.03, one person 0.09",
+    "birth": {
+      "location": [
+        -64.95,
+        18.35
+      ],
+      "year": 1830
+    }
   }
 }

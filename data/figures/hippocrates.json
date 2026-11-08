@@ -15,15 +15,25 @@
   "related": [],
   "contribution": "A Greek physician and philosopher of the classical period who is considered one of the most outstanding figures in the history of medicine.",
   "setting": "Southern Europe, 5th century BC",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
   "photo": "",
   "photo_credit": "",
   "checks": {
-    "civilization_votes": {},
+    "civilization_votes": {
+      "born_in": []
+    },
     "lead": "Hippocrates of Kos (; Ancient Greek: Ἱπποκράτης ὁ Κῷος, romanized: Hippokrátēs ho Kôios; c. 460 – c. 370 BC), also known as Hippocrates II, named after his grandfather Hippocrates I (also Hippocrates of Kos or Hippocrates I of Kos) was a Greek physician and philosopher of the classical period who is considered one of the most outstanding figures in the history of medicine. He is traditionally referred to as the \"Father of Medicine\" in recognition of his lasting contributions to the field, such as the use of prognosis and clinical observation, the systematic categorization of diseases, and the (later discredited) formulation of humoral theory. His studies set out the basic ideas of modern-day specialties, including surgery, urology, neurology, acute medicine and orthopedics, and advanced the systematic study of clinical medicine.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.23333333,
+        36.85
+      ],
+      "year": -460
+    }
   }
 }

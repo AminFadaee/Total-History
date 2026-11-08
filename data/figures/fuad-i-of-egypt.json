@@ -20,6 +20,7 @@
   ],
   "contribution": "He was the last Sultan and later first King of Egypt and the Sudan.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/fuad-i-of-egypt.jpg",
   "image_credit": "Brain News Service (publisher) · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Khedivate of Egypt"
+      ],
+      "born_in": [
+        "Khedivate of Egypt"
       ]
     },
     "lead": "Fuad I (Arabic: فؤاد الأول Fu’ād al-Awwal; 26 March 1868 – 28 April 1936) was the ruler of Egypt from 1917 to 1936. He was the last Sultan and later first King of Egypt and the Sudan. The ninth ruler of Egypt and Sudan from the Muhammad Ali dynasty, he ascended to the throne in 1917, succeeding his elder brother Hussein Kamel. He replaced the title of Sultan with King when the United Kingdom unilaterally declared Egyptian independence in 1922.",
     "image": "",
-    "photo": "model 0.96, one person 0.96, in Category:Black and white photographs of Egypt"
+    "photo": "model 0.96, one person 0.96, in Category:Black and white photographs of Egypt",
+    "birth": {
+      "location": [
+        31.23583333,
+        30.04444444
+      ],
+      "year": 1868
+    }
   }
 }

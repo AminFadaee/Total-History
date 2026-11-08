@@ -19,6 +19,7 @@
   ],
   "contribution": "A statesman, historian, and physician in Ilkhanate Iran.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/rashid-al-din-hamadani.jpg",
   "image_credit": "Jami al-Tawarikh artist, 1420-1430 artist · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Mongol Empire"
+      ],
+      "born_in": [
+        "Mongol Empire"
       ]
     },
     "lead": "Rashīd al-Dīn Ṭabīb (Persian: رشیدالدین طبیب;‎ 1247–1318; also known as Rašīd al-Dīn Fażl-Allāh Hamadānī or Rashīd al-Dīn Faḍlullāh Hamadānī, i.e. \"of Hamadan\", Persian: رشیدالدین فضل‌الله همدانی) was a statesman, historian, and physician in Ilkhanate Iran.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        48.51472222,
+        34.79833333
+      ],
+      "year": 1247
+    }
   }
 }

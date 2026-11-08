@@ -20,6 +20,7 @@
   ],
   "contribution": "A Japanese statesman and samurai of the Satsuma Domain.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/okubo-toshimichi.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -36,10 +37,20 @@
       "lead": [
         "Prussia",
         "Tokugawa Shogunate"
+      ],
+      "born_in": [
+        "Tokugawa Shogunate"
       ]
     },
-    "lead": "Ōkubo Toshimichi (Japanese: 大久保 利通; 26 September 1830 – 14 May 1878) was a Japanese statesman and samurai of the Satsuma Domain. Regarded as one of the main founders of modern Japan, he was one of the \"Three Great Nobles\" who led the Meiji Restoration in 1868, alongside Kido Takayoshi and Saigō Takamori. His policies, often characterized by realism and a focus on national strength (fukoku kyōhei), has led some historians to compare his role in Japan to that of Otto von Bismarck in Prussia.",
+    "lead": "Ōkubo Toshimichi (大久保 利通; Japanese pronunciation: [ò̞ó̞.kɯ̈́.bó̞ | tò̞.ɕí.mʲì.c̟͡ɕì, -bó̞ tó̞-, ó̞ó̞-]; 26 September 1830 – 14 May 1878) was a Japanese statesman and samurai of the Satsuma Domain. Regarded as one of the main founders of modern Japan, he was one of the \"Three Great Nobles\" who led the Meiji Restoration in 1868, alongside Kido Takayoshi and Saigō Takamori. His policies, often characterized by realism and a focus on national strength (fukoku kyōhei), has led some historians to compare his role in Japan to that of Otto von Bismarck in Prussia.",
     "image": "",
-    "photo": "model 0.89, one person 0.99, captured 1878, during their lifetime"
+    "photo": "model 0.89, one person 0.99, captured 1878, during their lifetime",
+    "birth": {
+      "location": [
+        130.551639,
+        31.578694
+      ],
+      "year": 1830
+    }
   }
 }

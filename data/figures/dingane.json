@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Zulu prince who became king of the Zulu Kingdom in 1828, after assassinating his half-brother Shaka Zulu.",
   "setting": "",
+  "modern_country": "",
   "image": "images/dingane.jpg",
   "image_credit": "Allen Francis Gardiner · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,18 @@
       ],
       "citizenship": [
         "Zululand"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Dingane KaSenzangakhona Zulu (c. 1795–29 January 1840), commonly referred to as Dingane, Dingarn or Dingaan, was a Zulu prince who became king of the Zulu Kingdom in 1828, after assassinating his half-brother Shaka Zulu. He set up his royal capital, uMgungundlovu, translated to \"Place of the Elephant\" or \"elephant swallower\". He also constructed one of numerous military encampments, or kraals, in the eMakhosini Valley just south of the White Umfolozi River, on the slope of Lion Hill (Singonyama).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        31.0,
+        -29.0
+      ],
+      "year": 1795
+    }
   }
 }

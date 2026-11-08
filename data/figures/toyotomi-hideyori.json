@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The son and designated successor of Toyotomi Hideyoshi, the general who united all of Japan toward the end of the Sengoku period.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/toyotomi-hideyori.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Tokugawa Shogunate"
+      ],
+      "born_in": [
+        "Warring States Japan"
       ]
     },
     "lead": "Toyotomi Hideyori (豊臣 秀頼; August 28, 1593 – June 4, 1615) was the son and designated successor of Toyotomi Hideyoshi, the general who united all of Japan toward the end of the Sengoku period. His mother, Yodo-dono, was the niece of Oda Nobunaga.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        135.52583333,
+        34.68722222
+      ],
+      "year": 1593
+    }
   }
 }

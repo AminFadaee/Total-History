@@ -11,10 +11,13 @@
   ],
   "occupation": "Philosopher",
   "birth_country": "Netherlands",
-  "civilizations": [],
+  "civilizations": [
+    "Duchy of Burgundy"
+  ],
   "related": [],
   "contribution": "He was, through his writings and translations, one of the most influential scholars of the Northern Renaissance and a major figure of Western culture.",
-  "setting": "Western Europe, 16th century",
+  "setting": "",
+  "modern_country": "Netherlands",
   "image": "images/erasmus.jpg",
   "image_credit": "Hans Holbein the Younger · Public domain",
   "image_kind": "Portrait from life",
@@ -24,10 +27,20 @@
     "civilization_votes": {
       "death": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Duchy of Burgundy"
       ]
     },
     "lead": "Desiderius Erasmus Roterodamus ( DEZ-i-DEER-ee-əs irr-AZ-məs; Dutch: [ˌdeːziˈdeːrijʏs eːˈrɑsmʏs]; 28 October c. 1466 – 12 July 1536), commonly known in English as Erasmus of Rotterdam or simply Erasmus, was a Dutch humanist, theologian, and philosopher. He was, through his writings and translations, one of the most influential scholars of the Northern Renaissance and a major figure of Western culture.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        4.48,
+        51.92
+      ],
+      "year": 1466
+    }
   }
 }

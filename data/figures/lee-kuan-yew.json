@@ -19,8 +19,9 @@
     "British Empire",
     "Federation of Malaya"
   ],
-  "contribution": "A Singaporean politician, barrister and statesman who served as the first prime minister of Singapore from 1959 to 1990.",
+  "contribution": "A Singaporean politician and barrister who served as the first prime minister of Singapore from 1959 to 1990.",
   "setting": "Republic of Singapore",
+  "modern_country": "Singapore",
   "image": "images/lee-kuan-yew.jpg",
   "image_credit": "White House Photographic Office. 1974-1977 · Public domain",
   "image_kind": "Photograph",
@@ -42,10 +43,18 @@
       ],
       "citizenship": [
         "Republic of Singapore"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Lee Kuan Yew (born Harry Lee Kuan Yew; 16 September 1923 – 23 March 2015), also known as LKY, was a Singaporean politician, barrister and statesman who served as the first prime minister of Singapore from 1959 to 1990. A member of the People's Action Party (PAP), his authoritarian governance oversaw the transformation of post-independence Singapore into a highly developed country and one of the four Asian Tigers. He is regarded as the founding father of modern Singapore.",
+    "lead": "Lee Kuan Yew (born Harry Lee Kuan Yew; 16 September 1923 – 23 March 2015), also known as LKY, was a Singaporean politician and barrister who served as the first prime minister of Singapore from 1959 to 1990. A member of the People's Action Party (PAP), his authoritarian governance oversaw the transformation of post-independence Singapore into a highly developed country and one of the four Asian Tigers. He is regarded as the founding father of modern Singapore.",
     "image": "",
-    "photo": "model 0.89, one person 0.95, in Category:1975 portrait photographs of men"
+    "photo": "model 0.89, one person 0.95, in Category:1975 portrait photographs of men",
+    "birth": {
+      "location": [
+        103.83333333,
+        1.28333333
+      ],
+      "year": 1923
+    }
   }
 }

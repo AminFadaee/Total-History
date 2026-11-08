@@ -22,6 +22,7 @@
   ],
   "contribution": "A Vietnamese communist revolutionary and statesman who founded the Democratic Republic of Vietnam in 1945.",
   "setting": "",
+  "modern_country": "Vietnam",
   "image": "images/ho-chi-minh.jpg",
   "image_credit": "Tăng Tuyết Minh · Public domain",
   "image_kind": "Photograph",
@@ -48,10 +49,20 @@
       ],
       "birthplace": [
         "French Indochina"
+      ],
+      "born_in": [
+        "French Indochina"
       ]
     },
     "lead": "Hồ Chí Minh (born Nguyễn Sinh Cung; 19 May 1890 – 2 September 1969), colloquially known as Uncle Ho (Bác Hồ) among other aliases and sobriquets, was a Vietnamese communist revolutionary and statesman who founded the Democratic Republic of Vietnam in 1945 (known as North Vietnam after 1954). He served as its first president from 1946 until his death in 1969 and as its first prime minister from 1945 to 1955. A committed Marxist–Leninist, Hồ played a central role in establishing the Indochinese Communist Party in 1930 and later led its successor, the Workers' Party of Vietnam (renamed Communist Party of Vietnam after 1976), as chairman until his death.",
     "image": "",
-    "photo": "model 0.97, one person 0.98, captured 1926, during their lifetime"
+    "photo": "model 0.97, one person 0.98, captured 1926, during their lifetime",
+    "birth": {
+      "location": [
+        105.31666667,
+        18.88333333
+      ],
+      "year": 1890
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Roman poet who lived during the reign of Augustus.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "citizenship": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Republic"
       ]
     },
     "lead": "Publius Ovidius Naso (Latin: [ˈpuːbliʊs ɔˈwɪdiʊs ˈnaːsoː]; 20 March 43 BC – AD 17/18), known in English as Ovid ( OV-id), was a Roman poet who lived during the reign of Augustus. He was a younger contemporary of Virgil and Horace, with whom he is often ranked as one of the three canonical poets of Latin literature. The Imperial scholar Quintilian considered him to be the last of the Latin love elegists. Although Ovid enjoyed enormous popularity during his lifetime, the emperor Augustus exiled him to Tomis, the capital of the newly organized province of Moesia, on the Black Sea, where he remained for the last nine or 10 years of his life. Ovid himself attributed his banishment to a carmen et error (\"poem and a mistake\"), but his reluctance to disclose specifics has resulted in much speculation among scholars.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.93333333,
+        42.03333333
+      ],
+      "year": -43
+    }
   }
 }

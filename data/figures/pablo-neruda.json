@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Chilean poet-diplomat and politician who won the 1971 Nobel Prize in Literature.",
   "setting": "",
+  "modern_country": "Chile",
   "image": "images/pablo-neruda.jpg",
   "image_credit": "Unknown (Mondadori Publishers) · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Republic of Chile"
+      ],
+      "born_in": [
+        "Republic of Chile"
       ]
     },
     "lead": "Pablo Neruda ( nə-ROO-də; Spanish: [ˈpaβlo neˈɾuða] ; born Ricardo Eliécer Neftalí Reyes Basoalto; 12 July 1904 – 23 September 1973) was a Chilean poet-diplomat and politician who won the 1971 Nobel Prize in Literature. Neruda became known as a poet when he was 13 years old and wrote in a variety of styles, including surrealist poems, historical epics, political manifestos, a prose autobiography, and passionate love poems such as the ones in his collection Twenty Love Poems and a Song of Despair (1924).",
     "image": "",
-    "photo": "model 0.99, one person 1.00, captured 1963, during their lifetime"
+    "photo": "model 0.99, one person 1.00, captured 1963, during their lifetime",
+    "birth": {
+      "location": [
+        -71.83333333,
+        -36.15
+      ],
+      "year": 1904
+    }
   }
 }

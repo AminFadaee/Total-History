@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "Born in Baltimore, Maryland, United States, his family emigrated to Liberia in 1845.",
   "setting": "",
+  "modern_country": "",
   "image": "images/garretson-w-gibson.jpg",
   "image_credit": "Johnston, Harry Hamilton, Sir, 1858-1927; Royal Geographical Society (Great Britain) · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       "citizenship": [
         "Republic of Liberia",
         "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
       ]
     },
     "lead": "Garretson Warner Gibson (May 20, 1832 – April 26, 1910) was the 14th president of Liberia from 1900 to 1904. Born in Baltimore, Maryland, United States, his family emigrated to Liberia in 1845. After receiving an education in mission schools, he returned to Maryland to study theology. Ordained a priest, he served as rector of the Episcopalian Trinity Church in Monrovia. He also served as Chaplain of the Liberian Senate. Later, he served as President of the Trustee Board of Liberia College and at one time President of the college.",
     "image": "",
-    "photo": "model 0.85, one person 0.97, captured 1907, during their lifetime"
+    "photo": "model 0.85, one person 0.97, captured 1907, during their lifetime",
+    "birth": {
+      "location": [
+        -76.615,
+        39.286388888889
+      ],
+      "year": 1832
+    }
   }
 }

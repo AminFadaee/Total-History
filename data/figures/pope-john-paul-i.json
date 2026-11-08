@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "Head of the Catholic Church and sovereign of Vatican City from 26 August 1978 until his death 33 days later.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/pope-john-paul-i.jpg",
   "image_credit": "Anefo · CC0",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Kingdom of Italy"
+      ],
+      "born_in": [
+        "Kingdom of Italy"
       ]
     },
     "lead": "Pope John Paul I (born Albino Luciani; 17 October 1912 – 28 September 1978) was head of the Catholic Church and sovereign of Vatican City from 26 August 1978 until his death 33 days later. His reign is among the shortest in papal history, giving rise to the first year of three popes since 1605. John Paul I remains the most recent Italian-born pope, the last in a succession of such popes that started with Clement VII in 1523. He was the first pope to have been born in the 20th century, as well as the last pope to die in it.",
     "image": "",
-    "photo": "model 0.95, one person 0.99, in Category:Portrait photographs of Ioannes Paulus I"
+    "photo": "model 0.95, one person 0.99, in Category:Portrait photographs of Ioannes Paulus I",
+    "birth": {
+      "location": [
+        11.91666667,
+        46.35
+      ],
+      "year": 1912
+    }
   }
 }

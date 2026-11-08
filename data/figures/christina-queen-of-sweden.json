@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Queen of Sweden from 1632 until her abdication in 1654.",
   "setting": "",
+  "modern_country": "",
   "image": "images/christina-queen-of-sweden.jpg",
   "image_credit": "Jacob Ferdinand Voet · Public domain",
   "image_kind": "Portrait from life",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Swedish Empire"
+      ],
+      "born_in": [
+        "Swedish Empire"
       ]
     },
     "lead": "Christina (Swedish: Kristina; 18 December [O.S. 8 December] 1626 – 19 April 1689), a member of the House of Vasa, was Queen of Sweden from 1632 until her abdication in 1654. Her conversion to Catholicism and refusal to marry led her to relinquish her throne and move to Rome.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.07166667,
+        59.32666667
+      ],
+      "year": 1626
+    }
   }
 }

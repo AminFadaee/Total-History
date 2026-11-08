@@ -28,6 +28,7 @@
   ],
   "contribution": "King of Spain from 1556, King of Portugal from 1580, and King of Naples and Sicily from 1554 until his death in 1598.",
   "setting": "",
+  "modern_country": "",
   "image": "images/philip-ii-of-spain.jpg",
   "image_credit": "Sofonisba Anguissola · Public domain",
   "image_kind": "Portrait from life",
@@ -64,10 +65,20 @@
       ],
       "birthplace": [
         "Kingdom of Spain"
+      ],
+      "born_in": [
+        "Kingdom of Spain"
       ]
     },
     "lead": "Philip II (21 May 1527 – 13 September 1598), sometimes known in Spain as Philip the Prudent (Spanish: Felipe el Prudente), was King of Spain from 1556, King of Portugal from 1580, and King of Naples and Sicily from 1554 until his death in 1598. He was also jure uxoris King of England and Ireland from his marriage to Queen Mary I in 1554 until her death in 1558. Further, he was Duke of Milan from 1540. From 1555, he was Lord of the Seventeen Provinces of the Netherlands.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.72361111,
+        41.65277778
+      ],
+      "year": 1527
+    }
   }
 }

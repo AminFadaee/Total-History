@@ -19,6 +19,7 @@
   ],
   "contribution": "By his father's will, Charles received, by way of appanage, the Duchy of Södermanland, which included the provinces of Närke and Värmland; but he did not come into actual possession of them till after the fall of Eric and the succession to the throne of John in 1569.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-ix-of-sweden.jpg",
   "image_credit": "Unidentified painter · Public domain",
   "image_kind": "Depiction",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Charles IX, also Carl (Swedish: Karl IX; 4 October 1550 – 30 October 1611), reigned as King of Sweden from 1604 until 1611. He was the youngest son of King Gustav I (r. 1523–1560) and his second wife, Margaret Leijonhufvud, the brother of King John III and half-brother of King Erik XIV, and the uncle of Sigismund, who became king both of Sweden and of Poland. By his father's will, Charles received, by way of appanage, the Duchy of Södermanland, which included the provinces of Närke and Värmland; but he did not come into actual possession of them till after the fall of Eric and the succession to the throne of John in 1569.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.07166667,
+        59.32666667
+      ],
+      "year": 1550
+    }
   }
 }

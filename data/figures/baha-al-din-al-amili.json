@@ -12,12 +12,13 @@
   "occupation": "Philosopher",
   "birth_country": "Lebanon",
   "civilizations": [
-    "Safavid Dynasty",
-    "Ottoman Empire"
+    "Ottoman Empire",
+    "Safavid Dynasty"
   ],
   "related": [],
   "contribution": "A Twelver Shia Muslim scholar and polymath in Safavid Iran, who composed various works in Arabic and Persian.",
   "setting": "",
+  "modern_country": "Lebanon",
   "image": "images/baha-al-din-al-amili.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
-    "lead": "Baha al-Din al-Amili (Arabic: بهاء الدين العاملي; Persian: بهاءالدین عاملی: 18 February 1547 – 1 September 1621), commonly known as Sheikh Bahāʾī, was a Twelver Shia Muslim scholar and polymath in Safavid Iran, who composed various works in Arabic and Persian. Closely tied to the court of Shah Abbas the Great, he became known for his role in the intellectual sphere of Isfahan and is seen as a leading figure in his field, with seventy-seven scholars counted among his students. An ethnic Arab, he was originally from Jabal Amil (present-day south Lebanon) in Ottoman Syria. During his childhood, his family moved to Iran, where his father Husayn ibn Abd al-Samad became the shaykh al-Islam in Herat under Tahmasp I.",
+    "lead": "Baha al-Din al-Amili (Arabic: بهاء الدين العاملي; Persian: بهاءالدین عاملی: 18 February 1547 – 1 September 1621), commonly known as Sheikh Bahāʾī, was a Twelver Shia Muslim scholar and polymath in Safavid Iran, who composed various works in Arabic and Persian. Closely tied to the court of Shah Abbas I (r. 1587–1629), he became known for his role in the intellectual sphere of Isfahan and is seen as a leading figure in his field, with seventy-seven scholars counted among his students.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        36.20732222,
+        34.00633611
+      ],
+      "year": 1547
+    }
   }
 }

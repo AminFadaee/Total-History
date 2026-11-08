@@ -1,0 +1,52 @@
+{
+  "id": "Q3355",
+  "slug": "amelia-earhart",
+  "name": "Amelia Earhart",
+  "wikipedia": "Amelia Earhart",
+  "role": "American aviation pioneer",
+  "life": "1897–1939",
+  "lifetime": [
+    1897,
+    1939
+  ],
+  "occupation": "Pilot",
+  "birth_country": "United States",
+  "civilizations": [
+    "United States of America"
+  ],
+  "related": [],
+  "contribution": "An American aviator who became one of the most celebrated aviation pioneers.",
+  "setting": "",
+  "modern_country": "United States",
+  "image": "images/amelia-earhart.jpg",
+  "image_credit": "NBC Photo-NBC Radio · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/amelia-earhart-photo.jpg",
+  "photo_credit": "NBC Photo-NBC Radio · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "United States of America"
+      ],
+      "citizenship": [
+        "United States of America"
+      ],
+      "birthplace": [
+        "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
+      ]
+    },
+    "lead": "Amelia Mary Earhart ( AIR-hart; born July 24, 1897; disappeared July 2, 1937; declared dead January 5, 1939) was an American aviator who became one of the most celebrated aviation pioneers.",
+    "image": "",
+    "photo": "model 0.85, one person 0.93, captured 1935, during their lifetime",
+    "birth": {
+      "location": [
+        -95.12833333,
+        39.5625
+      ],
+      "year": 1897
+    }
+  }
+}

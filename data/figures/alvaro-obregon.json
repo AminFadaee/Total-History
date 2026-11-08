@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Mexican general, inventor and politician who served as the 46th President of Mexico from 1920 to 1924.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/alvaro-obregon.jpg",
   "image_credit": "Robert Runyon · Public domain",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Mexico"
+      ],
+      "born_in": [
+        "Mexico"
       ]
     },
     "lead": "Álvaro Obregón Salido (Spanish pronunciation: [ˈalβaɾo oβɾeˈɣon]; 19 February 1880 – 17 July 1928) was a Mexican general, inventor and politician who served as the 46th President of Mexico from 1920 to 1924. Obregón was re-elected to the presidency in 1928 but was assassinated before he could take office.",
     "image": "",
-    "photo": "model 0.86, one person 0.78, captured 1914, during their lifetime"
+    "photo": "model 0.86, one person 0.78, captured 1914, during their lifetime",
+    "birth": {
+      "location": [
+        -109.4461,
+        27.0813
+      ],
+      "year": 1880
+    }
   }
 }

@@ -26,8 +26,9 @@
     "German Empire",
     "French Third Republic"
   ],
-  "contribution": "The first President of France from 1848 to 1852 and then Emperor of the French from 1852 until his deposition in 1870.",
+  "contribution": "The first president of France from 1848 to 1852 and then Emperor of the French from 1852 until his deposition in 1870.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/napoleon-iii.jpg",
   "image_credit": "Mayer & Peirson, France · Public domain",
   "image_kind": "Photograph",
@@ -57,10 +58,20 @@
       ],
       "citizenship": [
         "Bourbon Kingdom of France"
+      ],
+      "born_in": [
+        "First French Empire"
       ]
     },
-    "lead": "Napoleon III (born Charles-Louis Napoléon Bonaparte; 20 April 1808 – 9 January 1873) was the first President of France from 1848 to 1852 and then Emperor of the French from 1852 until his deposition in 1870. He was the first elected president, second emperor, and the last monarch of France. He established the Second French Empire in 1852, which began a period of rapid industrialization and expansion of infrastructure in France and saw the rise of French influence in geopolitics after several decades of instability. As head of state of France for 22 years, he was the longest-reigning French head of state since the end of the Ancien régime.",
+    "lead": "Napoleon III (born Charles-Louis Napoléon Bonaparte; 20 April 1808 – 9 January 1873) was the first president of France from 1848 to 1852 and then Emperor of the French from 1852 until his deposition in 1870. He was the first elected president, second emperor, and the last monarch of France. He established the Second French Empire in 1852, which began a period of rapid industrialization and expansion of infrastructure in France and saw the rise of French influence in geopolitics after several decades of instability. As head of state of France for 22 years, he was the longest-reigning French head of state since the end of the Ancien régime.",
     "image": "",
-    "photo": "model 0.94, one person 0.91, in Category:Albumen prints"
+    "photo": "model 0.94, one person 0.91, in Category:Albumen prints",
+    "birth": {
+      "location": [
+        2.35222222,
+        48.85666667
+      ],
+      "year": 1808
+    }
   }
 }

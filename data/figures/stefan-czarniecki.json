@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Polish nobleman, general and military commander.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/stefan-czarniecki.jpg",
   "image_credit": "Brodero Matthisen · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"
+      ],
+      "born_in": [
+        "Polish-Lithuanian Commonwealth"
       ]
     },
     "lead": "Stefan Czarniecki of the Łodzia coat of arms ([ˈstɛfan t͡ʂarˈɲɛt͡skʲi] ; 1599 – 16 February 1665) was a Polish nobleman, general and military commander. In his career, he rose from a petty nobleman to a magnate holding one of the highest offices in the Commonwealth, something that was unprecedented in the Commonwealth's history. On 22 July 1664 he received the office of the Voivode of Kijów and on 2 January 1665, a few weeks before his death, he was given the office of Field Hetman (one of the top military commanders) of the Crown of the Polish Kingdom. He is remembered as an accomplished military commander and regarded as a Polish national hero. His status in Polish history is acknowledged by a mention of his name in the Polish national anthem.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        19.91666667,
+        50.8
+      ],
+      "year": 1599
+    }
   }
 }

@@ -24,6 +24,7 @@
   ],
   "contribution": "King of the Romans from 1486 and Holy Roman Emperor from 1508 until his death in 1519.",
   "setting": "",
+  "modern_country": "",
   "image": "images/maximilian-i-holy-roman-emperor.jpg",
   "image_credit": "Albrecht Dürer · Public domain",
   "image_kind": "Portrait from life",
@@ -47,10 +48,18 @@
       ],
       "citizenship": [
         "Holy Roman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Maximilian I (22 March 1459 – 12 January 1519) was King of the Romans from 1486 and Holy Roman Emperor from 1508 until his death in 1519. He was never crowned by the Pope, as the journey to Rome was blocked by the Venetians. He proclaimed himself elected emperor in 1508 at Trento, with Pope Julius II later recognising it. This broke the tradition of requiring a papal coronation for the adoption of the Imperial title. Maximilian was the only surviving son of Frederick III, Holy Roman Emperor and Eleanor of Portugal, Holy Roman Empress. From his coronation as King of the Romans in 1486, he ran a double government, or Doppelregierung with his father until Frederick's death in 1493.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        16.25,
+        47.81666667
+      ],
+      "year": 1459
+    }
   }
 }

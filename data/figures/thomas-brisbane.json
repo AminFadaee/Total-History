@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "He served in many important wars of the late 18th and early 19th centuries, including front-line action during the Peninsular War.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/thomas-brisbane.jpg",
   "image_credit": "E. E. Friedrich T. Schenck (1811-1885) · Public domain",
   "image_kind": "Portrait from life",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Kingdom of Great Britain"
+      ],
+      "born_in": [
+        "Kingdom of Great Britain"
       ]
     },
     "lead": "Major-General Sir Thomas Makdougall Brisbane, 1st Baronet (23 July 1773 – 27 January 1860) was a British Army officer, colonial administrator and astronomer. He served in many important wars of the late 18th and early 19th centuries, including front-line action during the Peninsular War. Upon the recommendation of the Duke of Wellington, with whom Brisbane had served, he was appointed as Governor of New South Wales from 1821 to 1825.",
     "image": "",
-    "photo": "Thomasbrisbane.jpg: model 0.09, one person 0.97; Largs, The Brisbane Aisle.JPG: model 0.95, one person 0.00; Simon Jacques Rochard - Sir Thomas Makdougall Brisbane - B1974.2.88 - Yale Center for British Art.jpg: model 0.07, one person 0.97; Gouverneur Thomas Brisbane.jpg: model 0.34, one person 0.98, captured 1850, during their lifetime; Three Sisters Memorial Cairn, Largs.JPG: model 0.24, one person 0.00, classified as a photograph on Commons; General Sir Thomas Brisbane 1894 by Jessie Drummond 02.jpg: model 0.44, one person 0.40; General Sir Thomas Brisbane 1894 by Jessie Drummond 01.jpg: model 0.02, one person 0.82; Thomas Brisbane - John Watson Gordon (page 253 crop).jpg: model 0.64, one person 0.98"
+    "photo": "Thomasbrisbane.jpg: model 0.09, one person 0.97; Largs, The Brisbane Aisle.JPG: model 0.95, one person 0.00; Simon Jacques Rochard - Sir Thomas Makdougall Brisbane - B1974.2.88 - Yale Center for British Art.jpg: model 0.07, one person 0.97; Gouverneur Thomas Brisbane.jpg: model 0.34, one person 0.98, captured 1850, during their lifetime; Three Sisters Memorial Cairn, Largs.JPG: model 0.24, one person 0.00, classified as a photograph on Commons; General Sir Thomas Brisbane 1894 by Jessie Drummond 02.jpg: model 0.44, one person 0.40; General Sir Thomas Brisbane 1894 by Jessie Drummond 01.jpg: model 0.02, one person 0.82; Thomas Brisbane - John Watson Gordon (page 253 crop).jpg: model 0.64, one person 0.98",
+    "birth": {
+      "location": [
+        -4.87,
+        55.795
+      ],
+      "year": 1773
+    }
   }
 }

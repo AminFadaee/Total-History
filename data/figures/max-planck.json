@@ -20,6 +20,7 @@
   "related": [],
   "contribution": "Planck made many contributions to theoretical physics, primarily in his role as the originator of quantum theory and one of the founders of modern physics, which revolutionized understanding of atomic and subatomic processes.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/max-planck.jpg",
   "image_credit": "Courtesy of the Clendening History of Medicine Library, University of Kansas Medical Center. · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -35,10 +36,18 @@
         "Weimar Republic",
         "German Empire",
         "Nazi Germany"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Max Karl Ernst Ludwig Planck (; German: [ˈmaks ˈplaŋk] ; 23 April 1858 – 4 October 1947) was a German theoretical physicist. Planck made many contributions to theoretical physics, primarily in his role as the originator of quantum theory and one of the founders of modern physics, which revolutionized understanding of atomic and subatomic processes. He is known for the Planck constant, h {\\displaystyle h} , which is of foundational importance for quantum physics, and which he used to derive a set of units, now called Planck units, expressed in terms of physical constants. The Planck relation, E= h {\\displaystyle h} ν, states that the energy of a photon is proportional to its frequency.",
+    "lead": "Max Karl Ernst Ludwig Planck (; German: [ˈmaks ˈplaŋk] ; 23 April 1858 – 4 October 1947) was a German theoretical physicist. Planck made many contributions to theoretical physics, primarily in his role as the originator of quantum theory and one of the founders of modern physics, which revolutionized understanding of atomic and subatomic processes. He is known for the Planck constant, h, which is of foundational importance for quantum physics, and which he used to derive a set of units, now called Planck units, expressed in terms of physical constants. The Planck relation, E= hν, states that the energy of a photon is proportional to its frequency.",
     "image": "",
-    "photo": "model 0.83, one person 0.99, in Category:Black and white portrait photographs of male scientists"
+    "photo": "model 0.83, one person 0.99, in Category:Black and white portrait photographs of male scientists",
+    "birth": {
+      "location": [
+        10.13944444,
+        54.32333333
+      ],
+      "year": 1858
+    }
   }
 }

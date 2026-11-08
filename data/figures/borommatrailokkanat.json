@@ -19,6 +19,7 @@
   ],
   "contribution": "He was one of many monarchs who gained the epithet King of White Elephants.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Ayutthaya Kingdom"
+      ],
+      "born_in": [
+        "Ayutthaya Kingdom"
       ]
     },
     "lead": "Borommatrailokkanat (Thai: บรมไตรโลกนาถ, pronounced [bɔ̄ː.rōm.mā.trāj.lôːk.kā.nâːt], Sanskrit: Paramatrailōkanātha) or Trailok (1431–1488) was the king of the Ayutthaya Kingdom from 1448 to 1488. He was one of many monarchs who gained the epithet King of White Elephants (Thai: พระเจ้าช้างเผือก, RTGS: Phra Chao Chang Phueak). He was the first Thai king to possess a \"noble\" or white elephant, which, according to Buddhist belief, was a \"glorious and happy sign\". His reign was also known for massive reforms of Thai bureaucracy and a successful campaign against the Lan Na Kingdom to the north. He was revered as one of the greatest monarchs of Thailand.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        100.56055556,
+        14.34777778
+      ],
+      "year": 1431
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Indian spiritual teacher, mystic and poet, who is regarded as the founder of Sikhism and is the first of the ten Sikh gurus.",
   "setting": "",
+  "modern_country": "Pakistan",
   "image": "images/guru-nanak.jpg",
   "image_credit": "Amritpal Singh Mann. Painted by Jaimal Singh Naqqash (1860–1916), Mehtab Singh Naqqash (1871–1940), and Hukum Singh. · CC BY-SA 4.0",
   "image_kind": "Later depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Delhi Sultanate"
+      ],
+      "born_in": [
+        "Delhi Sultanate"
       ]
     },
     "lead": "Gurū Nānak (15 April 1469 – 22 September 1539; Gurmukhi: ਗੁਰੂ ਨਾਨਕ), also known as Bābā Nānak (Father Nanak), was an Indian spiritual teacher, mystic and poet, who is regarded as the founder of Sikhism and is the first of the ten Sikh gurus.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        74.0,
+        31.0
+      ],
+      "year": 1469
+    }
   }
 }

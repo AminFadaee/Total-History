@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The son of Juba I and client king of Numidia and Mauretania.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -36,10 +37,18 @@
       "citizenship": [
         "Roman Republic",
         "Roman Empire"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Juba II of Mauretania (Latin: Gaius Iulius Iuba; Ancient Greek: Ἰóβας, Ἰóβα or Ἰούβας; c. 48 BC – AD 23) was the son of Juba I and client king of Numidia (30–25 BC) and Mauretania (25 BC – AD 23). Aside from his very successful reign, he was a highly respected scholar and author. His first wife and co-ruler was Cleopatra Selene II, daughter of Queen Cleopatra VII of Ptolemaic Egypt and Roman Triumvir Mark Antony.",
+    "lead": "Juba II of Mauretania (Latin: Gaius Iulius Iuba; Ancient Greek: Ἰóβας, Ἰóβα or Ἰούβας; c. 48 BC – AD 23) was the son of Juba I and client king of Numidia (30–25 BC) and Mauretania (25 BC – AD 23). His capital, Caesarea (modern-day Cherchell, Algeria), made his reign an important part of the ancient history of present-day Algeria. Aside from his very successful reign, he was a highly respected scholar and author. His first wife and co-ruler was Cleopatra Selene II, daughter of Queen Cleopatra VII of Ptolemaic Egypt and Roman Triumvir Mark Antony.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        7.75,
+        36.8825
+      ],
+      "year": -52
+    }
   }
 }

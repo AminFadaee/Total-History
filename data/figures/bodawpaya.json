@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The sixth king of the Konbaung dynasty of Burma.",
   "setting": "",
+  "modern_country": "Myanmar",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "lead": [
         "Konbaung Dynasty"
+      ],
+      "born_in": [
+        "Toungoo dynasty"
       ]
     },
     "lead": "Bodawpaya (Burmese: ဘိုးတော်ဘုရား, pronounced [bódɔ̀ pʰəjá]; Thai: ปดุง; 11 March 1745 – 5 June 1819) was the sixth king of the Konbaung dynasty of Burma. Born Maung Shwe Waing and later Badon Min, he was the fourth son of Alaungpaya, founder of the dynasty and the Third Burmese Empire. He was proclaimed king after deposing his nephew Phaungkaza Maung Maung, son of his eldest brother Naungdawgyi, at Ava. Bodawpaya moved the royal capital back to Amarapura in 1782. He was titled Hsinbyumyashin (lit. 'Lord of the White Elephants'), not to be confused with his older brother Hsinbyushin. However, he became known to posterity as Bodawpaya (Grandsire) in relation to his successor, his grandson Bagyidaw (Royal Elder Uncle), who in turn was given this name in relation to his nephew Mindon Min. He fathered 70 sons and 67 daughters by about 54 consorts.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        95.7,
+        22.56666667
+      ],
+      "year": 1745
+    }
   }
 }

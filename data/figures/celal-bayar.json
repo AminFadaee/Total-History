@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Turkish economist and politician who was the president of Turkey from 1950 to 1960.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/celal-bayar.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -34,10 +35,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Mahmut Celâlettin \"Celâl\" Bayar (16 May 1883 – 22 August 1986) was a Turkish economist and politician who was the president of Turkey from 1950 to 1960. He previously served as the prime minister of Turkey from 1937 to 1939.",
     "image": "",
-    "photo": "model 0.93, one person 1.00, captured 1935, during their lifetime"
+    "photo": "model 0.93, one person 1.00, captured 1935, during their lifetime",
+    "birth": {
+      "location": [
+        29.15611111,
+        40.43166667
+      ],
+      "year": 1883
+    }
   }
 }

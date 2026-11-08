@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The second Mauryan emperor of Magadha in ancient India.",
   "setting": "",
+  "modern_country": "India",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "citizenship": [
         "Maurya Empire"
+      ],
+      "born_in": [
+        "Nanda Empire"
       ]
     },
     "lead": "Bindusara (r. c. 297 – c. 273 BCE) was the second Mauryan emperor of Magadha in ancient India. The ancient Greco-Roman writers called him Amitrochates, a name likely derived from his Sanskrit title Amitraghāta (\"slayer of enemies\").",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        85.137553,
+        25.5940343
+      ],
+      "year": -320
+    }
   }
 }

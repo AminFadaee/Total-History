@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An English-born American Founding Father, inventor, political philosopher, and statesman.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/thomas-paine.jpg",
   "image_credit": "Auguste Millière / After George Romney / After William Sharp · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Great Britain"
+      ],
+      "born_in": [
+        "Kingdom of Great Britain"
       ]
     },
     "lead": "Thomas Paine (born Thomas Pain, February 9, 1737 [O.S. January 29, 1736]  – June 8, 1809; ) was an English-born American Founding Father, inventor, political philosopher, and statesman. He authored Common Sense (1776) and The American Crisis (1776–1783), two of the most influential pamphlets at the start of the American Revolution, and he helped to inspire the colonial era patriots in 1776 to declare independence from Great Britain. His ideas reflected Enlightenment-era ideals of human rights.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        0.74,
+        52.41
+      ],
+      "year": 1737
+    }
   }
 }

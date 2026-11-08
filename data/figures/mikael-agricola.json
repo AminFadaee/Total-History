@@ -19,6 +19,7 @@
   ],
   "contribution": "A Finnish Lutheran clergyman who became the de facto founder of literary Finnish and a prominent proponent of the Protestant Reformation in Sweden, including Finland, which was a Swedish territory at the time.",
   "setting": "",
+  "modern_country": "",
   "image": "images/mikael-agricola.jpg",
   "image_credit": "Albert Edelfelt · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Mikael Agricola (Finnish: [ˈmikɑel ˈɑɡrikolɑ] ; c. 1510 – 9 April 1557) was a Finnish Lutheran clergyman who became the de facto founder of literary Finnish and a prominent proponent of the Protestant Reformation in Sweden, including Finland, which was a Swedish territory at the time. He is often called the \"father of literary Finnish\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        26.03333333,
+        60.45
+      ],
+      "year": 1510
+    }
   }
 }

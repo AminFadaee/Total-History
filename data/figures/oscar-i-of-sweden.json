@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "King of Sweden and Norway from 8 March 1844 until his death in 1859.",
   "setting": "",
+  "modern_country": "",
   "image": "images/oscar-i-of-sweden.jpg",
   "image_credit": "Erik Wahlbergson · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Bourbon Kingdom of France"
+      ],
+      "born_in": [
+        "French First Republic"
       ]
     },
     "lead": "Oscar I (born Joseph François Oscar Bernadotte; 4 July 1799 – 8 July 1859) was King of Sweden and Norway from 8 March 1844 until his death in 1859. He was the second monarch of the House of Bernadotte.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        2.32722222,
+        48.86527778
+      ],
+      "year": 1799
+    }
   }
 }

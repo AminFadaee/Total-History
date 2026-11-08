@@ -15,8 +15,9 @@
     "Ottoman Empire"
   ],
   "related": [],
-  "contribution": "An Ottoman viceroy and governor of mixed Turkish-Albanian origin, who became the de facto ruler of Egypt from 1805 to 1848 and is widely considered the founder of modern Egypt.",
+  "contribution": "An Ottoman viceroy who became the de facto ruler of Egypt from 1805 to 1848, and is widely considered the founder of modern Egypt.",
   "setting": "",
+  "modern_country": "",
   "image": "images/muhammad-ali-of-egypt.jpg",
   "image_credit": "Auguste Couder · Public domain",
   "image_kind": "Portrait from life",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Ottoman Empire"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Muhammad Ali (4 March 1769 – 2 August 1849) was an Ottoman viceroy and governor of mixed Turkish-Albanian origin, who became the de facto ruler of Egypt from 1805 to 1848 and is widely considered the founder of modern Egypt. At the height of his rule in 1840, he controlled Egypt, Sudan, Hejaz, the Levant, Cyprus, Crete and parts of Greece and transformed Cairo from a mere Ottoman provincial capital to the center of an expansive empire.",
+    "lead": "Muhammad Ali (4 March 1769 – 2 August 1849) was an Ottoman viceroy who became the de facto ruler of Egypt from 1805 to 1848, and is widely considered the founder of modern Egypt. A governor of Albanian origin, Ali extended his control from Egypt to include Sudan, Hejaz, the Levant, Cyprus, Crete and parts of Greece at the height of his rule in 1840, and transformed Cairo from a mere Ottoman provincial capital to the center of an expansive empire.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        24.4,
+        40.93333333
+      ],
+      "year": 1769
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An indigenous Aymara leader who started a major rebellion in colonial-era Upper Peru, laying siege to La Paz for six months.",
   "setting": "",
+  "modern_country": "Bolivia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Túpac Katari or Catari (also Túpaj Katari) (c. 1750 – 13 November 1781), born Julián Apasa Nina, was an indigenous Aymara leader who started a major rebellion in colonial-era Upper Peru (now Bolivia), laying siege to La Paz for six months. His wife Bartolina Sisa and his sister Gregoria Apaza participated in the rebellion by his side. The rebellion was ultimately put down by Spanish loyalists and Katari was executed by quartering.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -68.0,
+        -17.1
+      ],
+      "year": 1750
+    }
   }
 }

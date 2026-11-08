@@ -20,6 +20,7 @@
   ],
   "contribution": "Roman emperor from AD 54 until his suicide in AD 68.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -39,10 +40,18 @@
       ],
       "citizenship": [
         "Roman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Nero Claudius Caesar Augustus Germanicus (born Lucius Domitius Ahenobarbus, later Nero Claudius Caesar Drusus Germanicus; 15 December AD 37 – 9 June AD 68) was Roman emperor from AD 54 until his suicide in AD 68. He was the final emperor of the Julio-Claudian dynasty, which comprised the first five emperors.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        12.62861111111111,
+        41.44830555555556
+      ],
+      "year": 37
+    }
   }
 }

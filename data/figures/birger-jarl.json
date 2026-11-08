@@ -15,8 +15,9 @@
     "Kingdom of Sweden"
   ],
   "related": [],
-  "contribution": "A Swedish statesman and regent, jarl, and a member of the House of Bjälbo, who played a pivotal role in consolidating Sweden after the civil wars between the House of Erik and the House of Sverker.",
+  "contribution": "A Swedish statesman, regent, jarl, and a member of the House of Bjälbo, who played a pivotal role in consolidating Sweden after the civil wars between the House of Erik and the House of Sverker.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/birger-jarl.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
-    "lead": "Birger Jarl or Birger Magnusson (c. 1210 – 21 October 1266) was a Swedish statesman and regent, jarl, and a member of the House of Bjälbo, who played a pivotal role in consolidating Sweden after the civil wars between the House of Erik and the House of Sverker. His first marriage was to Princess Ingeborg of Sweden, which created his base of power. Birger led the Second Swedish Crusade, which established Swedish rule in Finland. Additionally, he is traditionally attributed with the foundation of the Swedish capital, Stockholm, around 1250. Birger used the Latin title of dux sveorum et guttorum (\"duke of Swedes and Geats\").",
+    "lead": "Birger Jarl or Birger Magnusson (c. 1210 – 21 October 1266) was a Swedish statesman, regent, jarl, and a member of the House of Bjälbo, who played a pivotal role in consolidating Sweden after the civil wars between the House of Erik and the House of Sverker. His first marriage was to Princess Ingeborg of Sweden, which created his base of power. Birger led the Second Swedish Crusade, which established Swedish rule in Finland. Additionally, he is traditionally attributed with the foundation of the Swedish capital, Stockholm, around 1250. Birger used the Latin title of dux sveorum et guttorum (\"duke of Swedes and Geats\").",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        15.62527778,
+        58.41583333
+      ],
+      "year": 1210
+    }
   }
 }

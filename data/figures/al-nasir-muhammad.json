@@ -15,8 +15,9 @@
     "Mamluk Sultanate"
   ],
   "related": [],
-  "contribution": "The ninth Mamluk sultan of the Bahri dynasty who ruled Egypt between 1293–1294, 1299–1309, and 1310 until his death in 1341.",
+  "contribution": "The Sultan of Egypt between 1293–1294, 1299–1309, and 1310 until his death in 1341.",
   "setting": "",
+  "modern_country": "Egypt",
   "image": "images/al-nasir-muhammad.jpg",
   "image_credit": "14th century artist · Public domain",
   "image_kind": "Depiction",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "Mamluk Sultanate"
+      ],
+      "born_in": [
+        "Mamluk Sultanate"
       ]
     },
-    "lead": "Al-Malik an-Nasir Nasir ad-Din Muhammad ibn Qalawun (Arabic: الملك الناصر ناصر الدين محمد بن قلاوون), commonly known as an-Nasir Muhammad (Arabic: الناصر محمد), or by his kunya: Abu al-Ma'ali (أبو المعالي) or as Ibn Qalawun (1285–1341) was the ninth Mamluk sultan of the Bahri dynasty who ruled Egypt between 1293–1294, 1299–1309, and 1310 until his death in 1341. During his first reign, he was overthrown by Kitbugha and al-Shuja‘i, and during his second reign by Baybars II and Sayf al-Din Salar. During his third reign, he had Baybars executed to suppress further insurgency.",
+    "lead": "Al-Malik an-Nasir Nasir ad-Din Muhammad ibn Qalawun (Arabic: الملك الناصر ناصر الدين محمد بن قلاوون), commonly known as an-Nasir Muhammad (Arabic: الناصر محمد), or by his kunya: Abu al-Ma'ali (أبو المعالي) or as Ibn Qalawun (1285–1341) was the Sultan of Egypt between 1293–1294, 1299–1309, and 1310 until his death in 1341. During his first reign, he was overthrown by Kitbugha and al-Shuja‘i, and during his second reign by Baybars II and Sayf al-Din Salar. During his third reign, he had Baybars executed to suppress further insurgency. He was the ninth and longest reigning Mamluk sultan of the Bahri dynasty of Egypt.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        31.23583333,
+        30.04444444
+      ],
+      "year": 1285
+    }
   }
 }

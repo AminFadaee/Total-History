@@ -21,6 +21,7 @@
   ],
   "contribution": "King of Scotland from 1649 until 1651 and King of England, Scotland, and Ireland from the 1660 Restoration of the monarchy until his death in 1685.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/charles-ii-of-england.jpg",
   "image_credit": "Peter Lely · Public domain",
   "image_kind": "Portrait from life",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Charles II (29 May 1630 – 6 February 1685) was King of Scotland from 1649 until 1651 and King of England, Scotland, and Ireland from the 1660 Restoration of the monarchy until his death in 1685.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.13777778,
+        51.50472222
+      ],
+      "year": 1630
+    }
   }
 }

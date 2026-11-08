@@ -12,11 +12,13 @@
   "occupation": "Religious figure",
   "birth_country": "Ukraine",
   "civilizations": [
+    "Principality of Moldavia",
     "Polish-Lithuanian Commonwealth"
   ],
   "related": [],
   "contribution": "A Jewish mystic and healer regarded as the founder of Hasidic Judaism.",
   "setting": "",
+  "modern_country": "Ukraine",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +37,20 @@
       ],
       "birthplace": [
         "Principality of Moldavia"
+      ],
+      "born_in": [
+        "Principality of Moldavia"
       ]
     },
     "lead": "Israel ben Eliezer (c. 1700 −1760), known as the Baal Shem Tov (; Hebrew: בעל שם טוב) or BeShT (בעש״ט), was a Jewish mystic and healer regarded as the founder of Hasidic Judaism. A baal shem tov is a \"Master of the Good Name\".  The term has also been used to refer to one able to work miracles using a secret name of God. Other sources explain his sobriquet as arising from a reputation of being a saintly, or superior, Baal Shem ('miracle-worker'); hence, he was given the nickname Baal Shem Tov (the \"good Baal Shem\").",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        26.41666667,
+        48.53333333
+      ],
+      "year": 1700
+    }
   }
 }

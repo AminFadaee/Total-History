@@ -22,6 +22,7 @@
   ],
   "contribution": "He and his brother Constantine VIII were crowned before their father Romanos II died in 963, but they were too young to rule.",
   "setting": "",
+  "modern_country": "",
   "image": "images/basil-ii.jpg",
   "image_credit": "from the Middle Ages, unknown · Public domain",
   "image_kind": "Later depiction",
@@ -44,10 +45,18 @@
       ],
       "vital_section": [
         "Byzantine Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Basil II Porphyrogenitus (Greek: Βασίλειος Πορφυρογέννητος, romanized: Basíleios Porphyrogénnētos; 958 – 15 December 1025), given the epithet The Bulgar-Slayer, was the senior Byzantine emperor from 976 to 1025. He and his brother Constantine VIII were crowned before their father Romanos II died in 963, but they were too young to rule. The throne thus went to two generals, Nikephoros Phokas (r. 963–969) and John Tzimiskes (r. 969–976) before Basil became senior emperor, though his influential great-uncle Basil Lekapenos remained as the de facto ruler until 985. His reign of 49 years and 11 months was the longest of any Roman emperor.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        28.98,
+        41.0125
+      ],
+      "year": 958
+    }
   }
 }

@@ -12,12 +12,13 @@
   "occupation": "Writer",
   "birth_country": "France",
   "civilizations": [
-    "People's Democratic Republic of Algeria",
-    "French Third Republic"
+    "French Third Republic",
+    "People's Democratic Republic of Algeria"
   ],
   "related": [],
   "contribution": "A French existentialist philosopher, writer, social theorist, and feminist activist.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/simone-de-beauvoir.jpg",
   "image_credit": "Moshe Milner · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "French Third Republic"
       ]
     },
     "lead": "Simone Lucie Ernestine Marie Bertrand de Beauvoir (9 January 1908 – 14 April 1986) was a French existentialist philosopher, writer, social theorist, and feminist activist. Though she did not consider herself a philosopher, nor was she considered one at the time of her death, she had a significant influence on both feminist existentialism and feminist theory.",
     "image": "",
-    "photo": "model 0.99, one person 0.62, in Category:Photographs by Moshe Milner"
+    "photo": "model 0.99, one person 0.62, in Category:Photographs by Moshe Milner",
+    "birth": {
+      "location": [
+        2.35222222,
+        48.85666667
+      ],
+      "year": 1908
+    }
   }
 }

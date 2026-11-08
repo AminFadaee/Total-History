@@ -17,8 +17,9 @@
   "related": [
     "Empire of Brazil"
   ],
-  "contribution": "A Brazilian politician and military officer who served as the head of provisional government and the first president of Brazil.",
+  "contribution": "A Brazilian military officer and politician who served as the first president of Brazil after leading the coup d'état that deposed Emperor Pedro II and established the First Brazilian Republic on 15 November 1889.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/deodoro-da-fonseca.jpg",
   "image_credit": "Bror Kronstrand · Public domain",
   "image_kind": "Portrait from life",
@@ -40,10 +41,20 @@
       ],
       "birthplace": [
         "Empire of Brazil"
+      ],
+      "born_in": [
+        "Empire of Brazil"
       ]
     },
-    "lead": "Manuel Deodoro da Fonseca (5 August 1827 – 23 August 1892) was a Brazilian politician and military officer who served as the head of provisional government and the first president of Brazil. He was born in Alagoas in a military family, followed a military career, and became a national figure. Fonseca took office as provisional president after heading a military coup that deposed Emperor Pedro II and established the First Brazilian Republic in 1889, disestablishing the Empire. After his election in 1891, he stepped down the same year under great political pressure when he dissolved the National Congress. He died less than a year later.",
+    "lead": "Manuel Deodoro da Fonseca (5 August 1827 – 23 August 1892) was a Brazilian military officer and politician who served as the first president of Brazil after leading the coup d'état that deposed Emperor Pedro II and established the First Brazilian Republic on 15 November 1889. Following the coup, Fonseca served as head of the provisional government and was subsequently elected in 1891 by the Constituent Congress as Brazil's first constitutional president. Fonseca resigned from office on 23 November 1891 under great political pressure after dissolving the National Congress on 3 November, being succeeded by vice president Floriano Peixoto. He died less than a year later.",
     "image": "",
-    "photo": "Deodoro da Fonseca sak.jpg: model 0.03, one person 0.92; Deodoro da Fonseca (gravura).jpg: model 0.08, one person 0.99; Deodoro da Fonseca por Valle.jpg: model 0.14, one person 0.97, captured 1891, during their lifetime; Compromisso Constitucional, Aurélio de Figueiredo 1896.jpg: model 0.17, one person 0.01; Rosa da Fonseca e seus sete filhos (cortado).jpg: model 0.31, one person 0.00, captured 1865, during their lifetime; Deodoro da Fonseca por Valle 2.jpg: model 0.44, one person 0.93, captured 1891, during their lifetime; CF - 1891 (cropped).jpg: model 0.13, one person 0.00; Proclamação da República. Ovação popular ao General Deodoro da Fonseca e Bucayuva, na Rua do Ouvidor.jpg: model 0.10, one person 0.05, captured 1889, during their lifetime; Assinatura de Deodoro da Fonseca.jpg: model 0.71, one person 0.00; Deodoro da Fonseca.jpg: model 0.58, one person 0.94, captured 1892, during their lifetime"
+    "photo": "Deodoro da Fonseca sak.jpg: model 0.03, one person 0.92; Deodoro da Fonseca (gravura).jpg: model 0.08, one person 0.99; Deodoro da Fonseca por Valle.jpg: model 0.14, one person 0.97, captured 1891, during their lifetime; Compromisso Constitucional, Aurélio de Figueiredo 1896.jpg: model 0.17, one person 0.01; Rosa da Fonseca e seus sete filhos (cortado).jpg: model 0.31, one person 0.00, captured 1865, during their lifetime; Deodoro da Fonseca por Valle 2.jpg: model 0.44, one person 0.93, captured 1891, during their lifetime; CF - 1891 (cropped).jpg: model 0.13, one person 0.00; Proclamação da República. Ovação popular ao General Deodoro da Fonseca e Bucayuva, na Rua do Ouvidor.jpg: model 0.10, one person 0.05, captured 1889, during their lifetime; Assinatura de Deodoro da Fonseca.jpg: model 0.71, one person 0.00; Deodoro da Fonseca.jpg: model 0.58, one person 0.94, captured 1892, during their lifetime",
+    "birth": {
+      "location": [
+        -35.895,
+        -9.71
+      ],
+      "year": 1827
+    }
   }
 }

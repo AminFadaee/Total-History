@@ -21,6 +21,7 @@
   ],
   "contribution": "The ruler of the First Bulgarian Empire from 893 until his death in 927.",
   "setting": "",
+  "modern_country": "Bulgaria",
   "image": "images/simeon-i-of-bulgaria.jpg",
   "image_credit": "Nikolai Karaneschev · CC BY 3.0",
   "image_kind": "Depiction",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "First Bulgarian Empire"
+      ],
+      "born_in": [
+        "First Bulgarian Empire"
       ]
     },
     "lead": "Simeon I the Great (Church Slavonic: цѣсар҄ь Сѷмеѡ́нъ А҃ Вели́къ; Bulgarian: цар Симеон I Велики, romanized: Simeon I Veliki [simɛˈɔn ˈpɤrvi vɛˈliki]; Greek: Συμεών Αʹ ὁ Μέγας, romanized: Sumeṓn prôtos ho Mégas) was the ruler of the First Bulgarian Empire from 893 until his death in 927. Simeon's successful campaigns against the Byzantines, Magyars and Serbs led Bulgaria to its greatest territorial expansion ever, making it the most powerful state in contemporary Eastern and Southeast Europe. His reign was also a period of unmatched cultural prosperity and enlightenment later deemed the Golden Age of Bulgarian culture.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.132,
+        43.387
+      ],
+      "year": 864
+    }
   }
 }

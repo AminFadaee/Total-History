@@ -20,6 +20,7 @@
   ],
   "contribution": "The King of Kings of Sasanian Iran from 579 to 590.",
   "setting": "",
+  "modern_country": "Iraq",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Sasanian Empire"
+      ],
+      "born_in": [
+        "Sasanian Empire"
       ]
     },
     "lead": "Hormizd IV (also spelled Hormozd IV or Ohrmazd IV; Middle Persian: 𐭠𐭥𐭧𐭥𐭬𐭦𐭣) was the King of Kings of Sasanian Iran from 579 to 590. He was the son and successor of Khosrow I (r. 531–579) and his mother was a Khazar princess.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        44.58055556,
+        33.09361111
+      ],
+      "year": 540
+    }
   }
 }

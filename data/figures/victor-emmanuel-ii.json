@@ -21,6 +21,7 @@
   ],
   "contribution": "King of Sardinia from 23 March 1849 until 17 March 1861, when he assumed the title of King of Italy and became the first king of an independent, united Italy since the 6th century, a title he held until his death in 1878.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/victor-emmanuel-ii.jpg",
   "image_credit": "Eugène Disdéri · Public domain",
   "image_kind": "Photograph",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Kingdom of Sardinia"
+      ],
+      "born_in": [
+        "Kingdom of Sardinia"
       ]
     },
     "lead": "Victor Emmanuel II (Italian: Vittorio Emanuele II; full name: Vittorio Emanuele Maria Alberto Eugenio Ferdinando Tommaso di Savoia; 14 March 1820 – 9 January 1878) was King of Sardinia (also informally known as Piedmont–Sardinia) from 23 March 1849 until 17 March 1861, when he assumed the title of King of Italy and became the first king of an independent, united Italy since the 6th century, a title he held until his death in 1878. Borrowing from the old Latin title Pater Patriae of the Roman emperors, the Italians gave him the epithet of \"Father of the Fatherland\" (Italian: Padre della Patria).",
     "image": "",
-    "photo": "model 0.96, one person 0.98, in Category:Cartes de visite of France"
+    "photo": "model 0.96, one person 0.98, in Category:Cartes de visite of France",
+    "birth": {
+      "location": [
+        7.68611111,
+        45.06888889
+      ],
+      "year": 1820
+    }
   }
 }

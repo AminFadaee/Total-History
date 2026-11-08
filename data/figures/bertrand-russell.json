@@ -21,6 +21,7 @@
   ],
   "contribution": "A founder of analytic philosophy, he was a leading philosopher of the 20th century who produced pioneering work in logic, set theory, and philosophy of language.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/bertrand-russell.jpg",
   "image_credit": "Bassano Ltd · Public domain",
   "image_kind": "Photograph",
@@ -47,10 +48,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Bertrand Arthur William Russell, 3rd Earl Russell (18 May 1872 – 2 February 1970), was an English mathematician and philosopher. A founder of analytic philosophy, he was a leading philosopher of the 20th century who produced pioneering work in logic, set theory, and philosophy of language. Russell popularised philosophy to the general public and was a controversial figure for his outspoken atheism, pacifism, and opposition to nuclear weapons. Despite his extensive contributions to mathematics, Russell was more known to the public for his books and commentary on several social and political issues.",
     "image": "",
-    "photo": "model 0.91, one person 0.99"
+    "photo": "model 0.91, one person 0.99",
+    "birth": {
+      "location": [
+        -2.7256,
+        51.74506
+      ],
+      "year": 1872
+    }
   }
 }

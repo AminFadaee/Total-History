@@ -21,6 +21,7 @@
   ],
   "contribution": "A Mexican general, politician, and caudillo who served as the eighth president of Mexico on multiple occasions between 1833 and 1855.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/antonio-lopez-de-santa-anna.jpg",
   "image_credit": "Meade Brothers · Public domain",
   "image_kind": "Photograph",
@@ -49,10 +50,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Antonio de Padua María Severino López de Santa Anna y Pérez de Lebrón (21 February 1794 – 21 June 1876), often known as Santa Anna, was a Mexican general, politician, and caudillo who served as the eighth president of Mexico on multiple occasions between 1833 and 1855. A controversial and pivotal figure in Mexican politics during the 19th century, he has been called an \"uncrowned monarch\" by some historians who refer to the 30 years after Mexico's independence as the \"Age of Santa Anna.\" Santa Anna is often remembered in Mexico as a vendepatria due to the loss of Mexican territory to the United States during his rule.",
     "image": "",
-    "photo": "model 0.72, one person 0.99, in Category:1853 portrait photographs of men"
+    "photo": "model 0.72, one person 0.99, in Category:1853 portrait photographs of men",
+    "birth": {
+      "location": [
+        -96.9275,
+        19.54
+      ],
+      "year": 1794
+    }
   }
 }

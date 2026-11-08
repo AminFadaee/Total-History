@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Prussian-born army officer who played a leading role in the American Revolutionary War by reforming the Continental Army into a disciplined and professional fighting force.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/friedrich-wilhelm-von-steuben.jpg",
   "image_credit": "Charles Willson Peale · Public domain",
   "image_kind": "Portrait from life",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Prussia"
+      ],
+      "born_in": [
+        "Prussia"
       ]
     },
     "lead": "Friedrich Wilhelm August Heinrich Ferdinand Freiherr von Steuben ( STEW-bən or  stew-BEN, German: [ˈfʁiːdʁɪç ˈvɪlhɛlm fɔn ˈʃtɔʏbn̩]; born Friedrich Wilhelm Ludolf Gerhard Augustin Louis Freiherr von Steuben; September 17, 1730 – November 28, 1794), often referred to in English as Baron von Steuben, was a Prussian-born army officer who played a leading role in the American Revolutionary War by reforming the Continental Army into a disciplined and professional fighting force. His contributions marked a significant improvement in the performance of U.S. troops, and he is consequently regarded as one of the fathers of the United States Army.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.63916667,
+        52.13166667
+      ],
+      "year": 1730
+    }
   }
 }

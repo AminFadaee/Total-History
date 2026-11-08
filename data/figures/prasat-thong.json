@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The founder and first monarch of the Prasat Thong dynasty, the fourth ruling house of the Ayutthaya Kingdom.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "images/prasat-thong.jpg",
   "image_credit": "Sun Colreone · CC BY-SA 4.0",
   "image_kind": "Portrait from life",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Ayutthaya Kingdom"
+      ],
+      "born_in": [
+        "Ayutthaya Kingdom"
       ]
     },
     "lead": "Prasat Thong (Thai: ปราสาททอง, pronounced [prāː.sàːt.tʰɔ̄ːŋ]; c. 1599–1655; reigned 1629–1655) was the founder and first monarch of the Prasat Thong dynasty, the fourth ruling house of the Ayutthaya Kingdom. Formerly a high-ranking official known as Okya Kalahom (Thai: ออกญากลาโหม), he rose to prominence during the reign of King Songtham by assisting in the suppression of a rebellion led by the king's son, Phra Sisin, in collaboration with the Japanese mercenary leader Yamada Nagamasa. Following a series of succession crises after Songtham's death, he seized power in 1629, briefly installing the infant Athittayawong as a puppet king before executing him and ascending the throne himself. His reign was marked by the reassertion of Siamese authority over Cambodia, though it also saw a weakening of Ayutthaya's control over its northern principalities.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        100.56055556,
+        14.34777778
+      ],
+      "year": 1599
+    }
   }
 }

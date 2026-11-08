@@ -23,6 +23,7 @@
   ],
   "contribution": "President of France from 1969 until his death in 1974.",
   "setting": "French Fifth Republic",
+  "modern_country": "France",
   "image": "images/georges-pompidou.jpg",
   "image_credit": "Farabola · Public domain",
   "image_kind": "Photograph",
@@ -48,10 +49,20 @@
       ],
       "birthplace": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "French Third Republic"
       ]
     },
     "lead": "Georges Jean Raymond Pompidou ( POMP-id-oo; French: [ʒɔʁʒ(ə) pɔ̃pidu] ; 5 July 1911 – 2 April 1974) was President of France from 1969 until his death in 1974. He had previously served from 1962 to 1968 as Prime Minister of France under President Charles de Gaulle, with whom he was closely associated throughout his career.",
     "image": "",
-    "photo": "model 0.91, one person 0.98, captured 1969, during their lifetime"
+    "photo": "model 0.91, one person 0.98, captured 1969, during their lifetime",
+    "birth": {
+      "location": [
+        2.7322,
+        45.3722
+      ],
+      "year": 1911
+    }
   }
 }

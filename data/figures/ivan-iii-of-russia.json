@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Grand Prince of Moscow and all Russia from 1462 until his death in 1505.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/ivan-iii-of-russia.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -33,10 +34,20 @@
       ],
       "birthplace": [
         "Grand Principality of Moscow"
+      ],
+      "born_in": [
+        "Grand Principality of Moscow"
       ]
     },
     "lead": "Ivan III Vasilyevich (Russian: Иван III Васильевич; 22 January 1440 – 27 October 1505), also known as Ivan the Great, was Grand Prince of Moscow and all Russia from 1462 until his death in 1505. Ivan served as the co-ruler and regent for his blind father Vasily II before he officially ascended the throne.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        37.61722222,
+        55.75583333
+      ],
+      "year": 1440
+    }
   }
 }

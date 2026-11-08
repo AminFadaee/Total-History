@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A French writer who has been called the first great French prose author.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/francois-rabelais.jpg",
   "image_credit": "anonymous / Unidentified painter · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of France"
+      ],
+      "born_in": [
+        "Kingdom of France"
       ]
     },
     "lead": "François Rabelais (UK: , US: ; French: [fʁɑ̃swa ʁablɛ]; born between 1483 and 1494; died 1553) was a French writer who has been called the first great French prose author. A humanist of the French Renaissance and Greek scholar, he attracted opposition from both Protestant theologian John Calvin and from the hierarchy of the Catholic Church. Though in his day he was best known as a physician, scholar, diplomat, and Catholic priest, later he became better known as a satirist for his depictions of the grotesque, and for his larger-than-life characters.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        0.2436,
+        47.1678
+      ],
+      "year": 1494
+    }
   }
 }

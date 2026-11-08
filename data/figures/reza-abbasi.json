@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The leading Persian miniaturist of the Isfahan School during the later Safavid period, spending most of his career working for Shah Abbas I.",
   "setting": "",
+  "modern_country": "Iran",
   "image": "images/reza-abbasi.jpg",
   "image_credit": "Muin Musavvir · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Safavid Dynasty"
+      ],
+      "born_in": [
+        "Safavid Dynasty"
       ]
     },
     "lead": "Reza Abbasi (Persian: رضا عباسی), also known as Agha Reza (c. 1565 – 1635), was the leading Persian miniaturist of the Isfahan School during the later Safavid period, spending most of his career working for Shah Abbas I. He is considered to be the last great master of the Persian miniature, best known for his single miniatures for muraqqa or albums, especially single figures of beautiful youths.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        51.4325,
+        33.9825
+      ],
+      "year": 1565
+    }
   }
 }

@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "A Taiwanese politician, economist, and agronomist who served as the fourth president of the Republic of China and chairman of the Kuomintang from 1988 to 2000.",
   "setting": "",
+  "modern_country": "Taiwan",
   "image": "images/lee-teng-hui.jpg",
   "image_credit": "李登輝基金會（Lee Teng-hui Foundation） · CC BY 4.0",
   "image_kind": "Photograph",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Empire of Japan"
+      ],
+      "born_in": [
+        "Empire of Japan"
       ]
     },
-    "lead": "Lee Teng-hui (Chinese: 李登輝; pinyin: Lǐ Dēnghuī; 15 January 1923 – 30 July 2020) was a Taiwanese politician, economist, and agronomist who served as the fourth president of the Republic of China and chairman of the Kuomintang from 1988 to 2000. He was the first president to be born in Taiwan, the last to be indirectly elected, and the first to be directly elected.",
+    "lead": "Lee Teng-hui (Chinese: 李登輝; pinyin: Lǐ Dēnghuī; 15 January 1923 – 30 July 2020) was a Taiwanese politician, economist, and agronomist who served as the fourth president of the Republic of China and chairman of the Kuomintang from 1988 to 2000. He was the first president born in Taiwan, the first to be directly elected, and also the last to be indirectly elected.",
     "image": "",
-    "photo": "model 0.76, one person 0.98, captured 2016, during their lifetime"
+    "photo": "model 0.76, one person 0.98, captured 2016, during their lifetime",
+    "birth": {
+      "location": [
+        121.52527778,
+        25.23666667
+      ],
+      "year": 1923
+    }
   }
 }

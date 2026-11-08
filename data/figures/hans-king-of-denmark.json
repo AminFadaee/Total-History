@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Scandinavian monarch who ruled under the Kalmar Union.",
   "setting": "",
+  "modern_country": "Denmark",
   "image": "images/hans-king-of-denmark.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kalmar Union"
+      ],
+      "born_in": [
+        "Kalmar Union"
       ]
     },
     "lead": "Hans, or sometimes called John (also Johannes; 2 February 1455 – 20 February 1513), was a Scandinavian monarch who ruled under the Kalmar Union. He was King of Denmark from 1482 to 1513, King of Norway from 1483 to 1513, and King of Sweden (where he has also been called Johan II) from 1497 to 1501. Additionally, from 1482 to 1513, he held the titles of Duke of Schleswig and Holstein, which he governed jointly with his brother, Frederick.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        9.92416667,
+        57.04944444
+      ],
+      "year": 1455
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The sultan of the Ottoman Empire from 1640 until his death in 1648.",
   "setting": "",
+  "modern_country": "",
   "image": "images/ibrahim-of-the-ottoman-empire.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Ottoman Empire"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Ibrahim (; Ottoman Turkish: ابراهيم; Turkish: İbrahim; 13 October 1617 – 18 August 1648) was the sultan of the Ottoman Empire from 1640 until his death in 1648.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        28.984,
+        41.013
+      ],
+      "year": 1615
+    }
   }
 }

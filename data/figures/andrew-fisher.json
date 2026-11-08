@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The fifth prime minister of Australia from 1908 to 1909, from 1910 to 1913 and from 1914 to 1915.",
   "setting": "",
+  "modern_country": "",
   "image": "images/andrew-fisher.jpg",
   "image_credit": "National Library of Australia · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Andrew Fisher (29 August 1862 – 22 October 1928) was the fifth prime minister of Australia from 1908 to 1909, from 1910 to 1913 and from 1914 to 1915. He held office as the leader of the Australian Labor Party (ALP), and was particularly notable for leading the party to its first federal election victory and first majority government at the 1910 federal election.",
     "image": "",
-    "photo": "model 0.84, one person 0.99, captured 1912, during their lifetime"
+    "photo": "model 0.84, one person 0.99, captured 1912, during their lifetime",
+    "birth": {
+      "location": [
+        -4.55277778,
+        55.61222222
+      ],
+      "year": 1862
+    }
   }
 }

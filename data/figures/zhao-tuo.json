@@ -20,6 +20,7 @@
   ],
   "contribution": "A Chinese general of the Qin dynasty and the first king and emperor of Nanyue.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -44,10 +45,20 @@
       ],
       "birthplace": [
         "Wei"
+      ],
+      "born_in": [
+        "Wei"
       ]
     },
     "lead": "Zhao Tuo (240–137 BC, Chinese: 趙佗) also known as Emperor Wu and as Triệu Đà or Triệu Vũ Đế in Vietnamese, was a Chinese general of the Qin dynasty and the first king and emperor of Nanyue. He participated in the Qin conquest of the Baiyue peoples of Guangdong, Guangxi, and Northern Vietnam. After the fall of the Qin, he established the independent kingdom of Nanyue with its capital in Panyu (now Guangzhou) in 204 BC. Upon the establishment of the Han dynasty, Zhao initially accepted a position similar to its other kings, recognizing Liu Bang's nominal authority in exchange for good relations and autonomy. After relations became strained, he declared himself emperor of Nanyue in 185 BC, reigning until his death. Some traditional Vietnamese historians considered him the founder of the Triệu dynasty while some contemporary historians contest that he was a foreign invader, due to his Han Chinese origin.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        114.571,
+        38.146
+      ],
+      "year": -230
+    }
   }
 }

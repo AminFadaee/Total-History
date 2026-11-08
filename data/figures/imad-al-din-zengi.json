@@ -19,6 +19,7 @@
   ],
   "contribution": "A Turkoman atabeg of the Seljuk Empire, who ruled Mosul, Aleppo, Hama, and, later, Edessa.",
   "setting": "",
+  "modern_country": "Syria",
   "image": "images/imad-al-din-zengi.jpg",
   "image_credit": "Неи3вестен · Public domain",
   "image_kind": "Later depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Great Seljuk Empire"
+      ],
+      "born_in": [
+        "Great Seljuk Empire"
       ]
     },
-    "lead": "Al-Malik al-Mansur Abu al-Mudhaffar Imad al-Din Zengi bin Aq Sunqur al-Hajib bin Abdullah (Arabic: المَلِكُ المَنْصُور أَبُو المُظَفَّرِ عِمَادُ اَلدِّينِ زَنْكِي بْنُ آقِ سَنقَر الحَاجِب بْنِ عَبْدِ الله ; c. 1084/88 – 14 September 1146), also romanized as Zangi, Zengui, Zenki, and Zanki, was a Turkoman atabeg of the Seljuk Empire, who ruled Mosul, Aleppo, Hama, and, later, Edessa. He was the namesake and founder of the Zengid dynasty of atabegs of the Seljuk Empire.",
+    "lead": "Al-Malik al-Mansur Abu al-Mudhaffar Imad al-Din Zengi bin Aq Sunqur al-Hajib bin Abdullah (Arabic: المَلِكُ المَنْصُور أَبُو المُظَفَّرِ عِمَادُ اَلدِّينِ زَنْكِي بْنُ آقِ سَنقَر الحَاجِب بْنِ عَبْدِ الله ; c. 1084/88 – 14 September 1146), also romanized as Zangi, Zengui, Zenki, and Zanki, was a Turkoman atabeg of the Seljuk Empire, who ruled Mosul, Aleppo, Hama, and, later, Edessa. He was the namesake and founder of the Zengid dynasty of atabegs.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        37.16,
+        36.2
+      ],
+      "year": 1087
+    }
   }
 }

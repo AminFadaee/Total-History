@@ -20,6 +20,7 @@
   "related": [],
   "contribution": "A Venezuelan general and politician who served as the president of Bolivia from 1825 to 1828.",
   "setting": "",
+  "modern_country": "Venezuela",
   "image": "images/antonio-jose-de-sucre.jpg",
   "image_credit": "Martín Tovar y Tovar (1827 - 1902) · Public domain",
   "image_kind": "Depiction",
@@ -44,10 +45,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Antonio José de Sucre y Alcalá (Spanish pronunciation: [anˈtonjo xoˈse ðe ˈsukɾej alkaˈla] ; 3 February 1795 – 4 June 1830), known as the \"Gran Mariscal de Ayacucho\" (English: \"Grand Marshal of Ayacucho\"), was a Venezuelan general and politician who served as the president of Bolivia from 1825 to 1828. A close friend and associate of Simón Bolívar, he was one of the primary leaders of South America's struggle for independence from the Spanish Empire.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -64.1675,
+        10.45638889
+      ],
+      "year": 1795
+    }
   }
 }

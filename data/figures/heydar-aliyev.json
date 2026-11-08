@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Azerbaijani politician who was a Soviet party boss in the Azerbaijan Soviet Socialist Republic from 1969 to 1982, and the third president of Azerbaijan from 1993 to 2003.",
   "setting": "",
+  "modern_country": "Azerbaijan",
   "image": "images/heydar-aliyev.jpg",
   "image_credit": "Tərxan Paşazadə · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Union of Soviet Socialist Republics"
+      ],
+      "born_in": [
+        "Union of Soviet Socialist Republics"
       ]
     },
     "lead": "Heydar Alirza oghlu Aliyev (10 May 1923 – 12 December 2003) was an Azerbaijani politician who was a Soviet party boss in the Azerbaijan Soviet Socialist Republic from 1969 to 1982, and the third president of Azerbaijan from 1993 to 2003.",
     "image": "",
-    "photo": "model 0.84, one person 0.93, classified as a photograph on Commons"
+    "photo": "model 0.84, one person 0.93, classified as a photograph on Commons",
+    "birth": {
+      "location": [
+        45.41055556,
+        39.21611111
+      ],
+      "year": 1923
+    }
   }
 }

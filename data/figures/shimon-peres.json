@@ -3,7 +3,7 @@
   "slug": "shimon-peres",
   "name": "Shimon Peres",
   "wikipedia": "Shimon Peres",
-  "role": "Israeli politician",
+  "role": "Former prime minister and president of Israel",
   "life": "1923–2016",
   "lifetime": [
     1923,
@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An Israeli politician and statesman who served as the prime minister of Israel from 1984 to 1986 and from 1995 to 1996 and as the president of Israel from 2007 to 2014.",
   "setting": "",
+  "modern_country": "Belarus",
   "image": "images/shimon-peres.jpg",
   "image_credit": "Moshe Pridan · Public domain",
   "image_kind": "Photograph",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "Second Polish Republic"
+      ],
+      "born_in": [
+        "Second Polish Republic"
       ]
     },
     "lead": "Shimon Peres ( shee-MOHN PERR-ess, -⁠ez; Hebrew: שמעון פרס [ʃiˌmon ˈpeʁes] ; born Szymon Perski, Polish: [ˈʂɨmɔn ˈpɛrskʲi]; 2 August 1923 – 28 September 2016) was an Israeli politician and statesman who served as the prime minister of Israel from 1984 to 1986 and from 1995 to 1996 and as the president of Israel from 2007 to 2014. He was a member of twelve cabinets and represented five political parties in a political career spanning 70 years. Peres was elected to the Knesset in November 1959 and except for three months out of office in early 2006, served as a member of the Knesset continuously until he was elected president in 2007. Serving in the Knesset for 48 years (with the first uninterrupted stretch lasting more than 46 years), Peres is the longest serving member in the Knesset's history. At the time of his retirement from politics in 2014, he was the world's oldest head of state and was considered the last link to Israel's founding generation, as well as the last Prime Minister to make aliyah rather than being born on territory that would become Israel.",
     "image": "",
-    "photo": "model 0.94, one person 0.96"
+    "photo": "model 0.94, one person 0.96",
+    "birth": {
+      "location": [
+        26.23333333,
+        54.13333333
+      ],
+      "year": 1923
+    }
   }
 }

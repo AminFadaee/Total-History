@@ -24,6 +24,7 @@
   ],
   "contribution": "King of England from 1154 until his death in 1189.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/henry-ii-of-england.jpg",
   "image_credit": "Public domain",
   "image_kind": "Later depiction",
@@ -51,10 +52,20 @@
       ],
       "birthplace": [
         "County of Anjou"
+      ],
+      "born_in": [
+        "County of Anjou"
       ]
     },
-    "lead": "Henry II ( (1133-March-05) (1189-July-06)5 March 1133 – 6 July 1189) was King of England from 1154 until his death in 1189. During his reign he controlled England, limited parts of Wales and Ireland, and much of France (including Normandy, Anjou, and Aquitaine), an area that was later called the Angevin Empire, and also held power over Scotland for a time and the Duchy of Brittany.",
+    "lead": "Henry II ( (1133-March-05) (1189-July-06)5 March 1133 – 6 July 1189) was King of England from 1154 until his death in 1189. During his reign, he controlled England, limited parts of Wales and Ireland, and much of France (including Normandy, Anjou, and Aquitaine), an area that was later called the Angevin Empire, and also held power over Scotland for a time and the Duchy of Brittany.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        0.1984,
+        48.0077
+      ],
+      "year": 1133
+    }
   }
 }

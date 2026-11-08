@@ -19,8 +19,9 @@
     "Goths",
     "Byzantium"
   ],
-  "contribution": "Roman emperor from AD 306 to 337 and the first Roman emperor to convert to Christianity.",
+  "contribution": "A Roman emperor from AD 306 to 337, co-ruling as part of the Tetrarchy until 324.",
   "setting": "",
+  "modern_country": "Serbia",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -45,10 +46,20 @@
       ],
       "birthplace": [
         "Roman Empire"
+      ],
+      "born_in": [
+        "Roman Empire"
       ]
     },
-    "lead": "Constantine I (27 February 272 – 22 May 337), also known as Constantine the Great, was Roman emperor from AD 306 to 337 and the first Roman emperor to convert to Christianity. He played a pivotal role in elevating the status of Christianity in the Roman Empire, the Edict of Milan decriminalising Christian practice and ceasing Christian persecution. This was a turning point in the Christianisation of the Roman Empire. He founded the city of Constantinople (now Istanbul) and made it the capital of the Empire, which it remained for over a millennium.",
+    "lead": "Constantine I (27 February 272 – 22 May 337), also known as Constantine the Great, was a Roman emperor from AD 306 to 337, co-ruling as part of the Tetrarchy until 324. The first Roman emperor to convert to Christianity, Constantine played a pivotal role in elevating the religion's status in the Roman Empire, with the Edict of Milan decriminalising its practice and ceasing Christian persecution. He founded the city of Constantinople (now Istanbul) and made it the capital of the Empire, which it remained for over a millennium.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        21.89583333,
+        43.32083333
+      ],
+      "year": 272
+    }
   }
 }

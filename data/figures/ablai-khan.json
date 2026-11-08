@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Khan of the Middle Jüz and was the last independent Kazakh Khan of the Kazakh Khanate before the Khanate was absorbed into the Russian Empire.",
   "setting": "",
+  "modern_country": "Kazakhstan",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kazakh Khanate"
+      ],
+      "born_in": [
+        "Kazakh Khanate"
       ]
     },
     "lead": "Wāli-ūllah Abū'l-Mansūr Khan (Kazakh: ولی الله ابو المنصور خان, Уәлиұллаh Әбілмансұр хан, romanized: Uäliūllah Äbılmansūr Han), better known as Abylai Khan or Ablai Khan (May 23, 1711 — May 23, 1781) was Khan of the Middle Jüz (central region) and was the last independent Kazakh Khan of the Kazakh Khanate before the Khanate was absorbed into the Russian Empire.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        68.26916667,
+        43.30194444
+      ],
+      "year": 1711
+    }
   }
 }

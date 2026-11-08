@@ -19,6 +19,7 @@
   ],
   "contribution": "The fourth Sultan of Egypt and Syria, and brother of Saladin, who founded both the Sultanate of Egypt, and the Ayyubid dynasty.",
   "setting": "",
+  "modern_country": "Syria",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -41,10 +42,20 @@
       ],
       "birthplace": [
         "Zengid dynasty"
+      ],
+      "born_in": [
+        "Zengid dynasty"
       ]
     },
     "lead": "Al-Adil I (Arabic: العادل, in full al-Malik al-Adil Sayf ad-Din Abu-Bakr Ahmed ibn Najm ad-Din Ayyub, Arabic: الملك العادل سيف الدين أبو بكر بن أيوب,‎ \"Ahmed, son of Najm ad-Din Ayyub, father of Bakr, the Just King, Sword of the Faith\"; 1145 – 31 August 1218) was the fourth Sultan of Egypt and Syria, and brother of Saladin, who founded both the Sultanate of Egypt, and the Ayyubid dynasty. He was known to the Crusaders as Saphadin (derived from his laqab or honorific title Sayf ad-Din, meaning \"Sword of Faith\"), a name by which he is still known in the Western world. A gifted and effective administrator and organizer, Al-Adil provided crucial military and civilian support for the great campaigns of Saladin (an early example of a great minister of war). He was also a capable general and strategist in his own right, and was instrumental in the transformation of the decayed Fatimid Caliphate of Cairo into the Ayyubid Sultanate of Egypt.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        36.29194444,
+        33.51305556
+      ],
+      "year": 1145
+    }
   }
 }

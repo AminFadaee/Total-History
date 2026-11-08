@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The twelfth Sultan of Aceh, under whom the sultanate achieved its greatest territorial extent, holding sway as the strongest power and wealthiest state in the western Indonesian archipelago and the Strait of Malacca.",
   "setting": "",
+  "modern_country": "Indonesia",
   "image": "images/iskandar-muda.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Sultanate of Aceh"
+      ],
+      "born_in": [
+        "Sultanate of Aceh"
       ]
     },
     "lead": "Iskandar Muda (1583? – 27 December 1636) was the twelfth Sultan of Aceh, under whom the sultanate achieved its greatest territorial extent, holding sway as the strongest power and wealthiest state in the western Indonesian archipelago and the Strait of Malacca.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        95.3175,
+        5.55
+      ],
+      "year": 1583
+    }
   }
 }

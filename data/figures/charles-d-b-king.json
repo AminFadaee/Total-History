@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Liberian politician who served as the 17th president of Liberia from 1920 to 1930.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-d-b-king.jpg",
   "image_credit": "Auguste Léon · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Republic of Liberia"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Charles Dunbar Burgess King (12 March 1875 – 4 September 1961) was a Liberian politician who served as the 17th president of Liberia from 1920 to 1930. He was of Americo-Liberian and Sierra Leone Creole descent. He was a member of the True Whig Party, which ruled the country from 1878 until 1980.",
     "image": "",
-    "photo": "model 0.82, one person 0.99, in Category:1927 portrait photographs of men"
+    "photo": "model 0.82, one person 0.99, in Category:1927 portrait photographs of men",
+    "birth": {
+      "location": [
+        -10.80138889,
+        6.31333333
+      ],
+      "year": 1875
+    }
   }
 }

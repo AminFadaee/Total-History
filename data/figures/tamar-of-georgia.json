@@ -21,6 +21,7 @@
   ],
   "contribution": "A member of the Bagrationi dynasty, her position as the first woman to rule Georgia in her own right was emphasized by the title mepe, afforded to Tamar in the medieval Georgian sources.",
   "setting": "",
+  "modern_country": "Georgia",
   "image": "images/tamar-of-georgia.jpg",
   "image_credit": "13th century painter · Public domain",
   "image_kind": "Depiction",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Kingdom of Georgia"
+      ],
+      "born_in": [
+        "Kingdom of Georgia"
       ]
     },
     "lead": "Tamar the Great (Georgian: თამარ მეფე, romanized: tamar mepe [ˈt̪ʰämäɾ ˈme̞pʰe̞], lit. 'King Tamar'; c. 1160 or c. 1166 – 18 January 1213) reigned as the Queen of Georgia from 1184 to 1213, presiding over the apex of the Georgian Golden Age. A member of the Bagrationi dynasty, her position as the first woman to rule Georgia in her own right was emphasized by the title mepe (\"King\"), afforded to Tamar in the medieval Georgian sources.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        44.71944444,
+        41.84638889
+      ],
+      "year": 1166
+    }
   }
 }

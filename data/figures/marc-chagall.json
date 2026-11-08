@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Russian and French artist of Jewish ancestry.",
   "setting": "",
+  "modern_country": "Belarus",
   "image": "images/marc-chagall.jpg",
   "image_credit": "Pierre Choumoff · Public domain",
   "image_kind": "Portrait from life",
@@ -36,10 +37,20 @@
       ],
       "birthplace": [
         "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
       ]
     },
     "lead": "Marc Chagall (born Moishe Shagal; 6 July [O.S. 24 June] 1887 – 28 March 1985) was a Russian and French artist of Jewish ancestry. An early modernist, he was associated with the École de Paris, as well as several major artistic styles and created works in a wide range of artistic formats, including painting, drawings, book illustrations, stained glass, stage sets, ceramics, tapestries and fine art prints.",
     "image": "",
-    "photo": "Shagal Choumoff.jpg: model 0.63, one person 0.89, in Category:Photographs by Pierre Choumoff; VitebskVKhU.jpg: model 0.50, one person 0.00; Herwarth und Nell Walden in ihrer Berliner Wohnung, 1916.png: model 0.89, one person 0.01, in Category:1916 black and white portrait photographs of men; Gedenktafel Potsdamer Str 1 (Tierg) Varian Fry.jpg: model 0.28, one person 0.12, classified as a photograph on Commons; Plaque Marc Chagall, 4 villa Eugène-Manuel, Paris 16.jpg: model 0.69, one person 0.02, classified as a photograph on Commons; Aba - Shagal.JPG: model 0.97, one person 0.21, classified as a photograph on Commons; The Jewish children's commune in Malakhovka 5.jpg: model 0.99, one person 0.02, captured 1920, during their lifetime; HISTORICAL PHOTOS - Varian Fry and Marc Chagall.jpg: model 0.92, one person 0.06; Marc Chagall at the New Bezalel Jerusalem 01.jpg: model 0.89, one person 0.06, captured 1951, during their lifetime; Marc Chagall CI.jpg: model 0.95, one person 0.14, captured 1929, during their lifetime"
+    "photo": "Shagal Choumoff.jpg: model 0.63, one person 0.89, in Category:Photographs by Pierre Choumoff; VitebskVKhU.jpg: model 0.50, one person 0.00; Herwarth und Nell Walden in ihrer Berliner Wohnung, 1916.png: model 0.89, one person 0.01, in Category:1916 black and white portrait photographs of men; Gedenktafel Potsdamer Str 1 (Tierg) Varian Fry.jpg: model 0.28, one person 0.12, classified as a photograph on Commons; Plaque Marc Chagall, 4 villa Eugène-Manuel, Paris 16.jpg: model 0.69, one person 0.02, classified as a photograph on Commons; Aba - Shagal.JPG: model 0.97, one person 0.21, classified as a photograph on Commons; The Jewish children's commune in Malakhovka 5.jpg: model 0.99, one person 0.02, captured 1920, during their lifetime; HISTORICAL PHOTOS - Varian Fry and Marc Chagall.jpg: model 0.92, one person 0.06; Marc Chagall at the New Bezalel Jerusalem 01.jpg: model 0.89, one person 0.06, captured 1951, during their lifetime; Marc Chagall CI.jpg: model 0.95, one person 0.14, captured 1929, during their lifetime",
+    "birth": {
+      "location": [
+        30.8,
+        55.01666667
+      ],
+      "year": 1887
+    }
   }
 }

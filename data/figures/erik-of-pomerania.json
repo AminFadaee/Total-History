@@ -21,6 +21,7 @@
   "related": [],
   "contribution": "He was initially co-ruler with his great-aunt Margaret I until her death in 1412.",
   "setting": "",
+  "modern_country": "",
   "image": "images/erik-of-pomerania.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -47,10 +48,20 @@
       ],
       "birthplace": [
         "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Erik of Pomerania (c. 1381/1382 – 24 September 1459) ruled over the Kalmar Union from 1396 until 1439. He was initially co-ruler with his great-aunt Margaret I until her death in 1412. Erik is known as Erik III as King of Norway (1389–1442), Erik VII as King of Denmark (1396–1439) and has been called Erik XIII as King of Sweden (1396–1434, 1436–39). Erik was ultimately deposed from all three kingdoms of the union, but in 1449 he inherited one of the partitions of the Duchy of Pomerania and ruled it as duke until his death in 1459. His epithet of Pomerania was a pejorative intended to insinuate that he did not belong in Scandinavia.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        16.41194444,
+        54.41972222
+      ],
+      "year": 1381
+    }
   }
 }

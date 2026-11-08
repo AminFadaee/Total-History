@@ -1,0 +1,63 @@
+{
+  "id": "Q8612",
+  "slug": "andrew-johnson",
+  "name": "Andrew Johnson",
+  "wikipedia": "Andrew Johnson",
+  "role": "President of the United States from 1865 to 1869",
+  "life": "1808–1875",
+  "lifetime": [
+    1808,
+    1875
+  ],
+  "occupation": "Politician",
+  "birth_country": "United States",
+  "civilizations": [
+    "United States of America"
+  ],
+  "related": [
+    "Confederate States of America"
+  ],
+  "contribution": "The 17th president of the United States, serving from 1865 to 1869.",
+  "setting": "",
+  "modern_country": "United States",
+  "image": "images/andrew-johnson.jpg",
+  "image_credit": "Mathew Brady, Retouched by Mmxx · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/andrew-johnson-photo.jpg",
+  "photo_credit": "Mathew Brady, Retouched by Mmxx · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "United States of America"
+      ],
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "lead": [
+        "Confederate States of America"
+      ],
+      "citizenship": [
+        "United States of America"
+      ],
+      "birthplace": [
+        "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
+      ]
+    },
+    "lead": "Andrew Johnson (December 29, 1808 – July 31, 1875) was the 17th president of the United States, serving from 1865 to 1869. The 16th vice president, he assumed the presidency following the assassination of Abraham Lincoln. Johnson was a War Democrat who ran with Lincoln on the National Union Party ticket in the 1864 presidential election, coming to office as the American Civil War concluded. Johnson favored quick restoration of the seceded states to the Union without protection for the newly freed people who were formerly enslaved, as well as pardoning ex-Confederates. This led to conflict with the Republican Party-dominated U.S. Congress, culminating in his impeachment by the House of Representatives in 1868. He was acquitted in the Senate by one vote.",
+    "image": "",
+    "photo": "model 0.90, one person 0.99, captured 1875, during their lifetime",
+    "birth": {
+      "location": [
+        -78.76194444,
+        35.85416667
+      ],
+      "year": 1808
+    }
+  }
+}

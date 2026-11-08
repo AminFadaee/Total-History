@@ -15,6 +15,7 @@
   "related": [],
   "contribution": "An Indian mathematician and astronomer who is credited as the first person to understand and formalize the concept of the number zero for nothing in mathematics.",
   "setting": "South Asia, 7th century",
+  "modern_country": "",
   "image": "images/brahmagupta.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -24,10 +25,18 @@
     "civilization_votes": {
       "death": [
         "Maitraka Dynasty"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Brahmagupta  (c. 598 – c. 668 CE) was an Indian mathematician and astronomer who is credited as the first person to understand and formalize the concept of the number zero for nothing in mathematics. He is the author of two early works on mathematics and astronomy: the Brāhmasphuṭasiddhānta (BSS, \"correctly established doctrine of Brahma\", dated 628), a theoretical treatise, and the Khandakhadyaka (\"edible bite\", dated 665), a more practical text. He is also credited with the first clear description of the quadratic formula (the solution of the quadratic equation) in his main work, the Brāhma-sphuṭa-siddhānta.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        72.25,
+        25.0
+      ],
+      "year": 598
+    }
   }
 }

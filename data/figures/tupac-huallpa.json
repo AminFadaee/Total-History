@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The first vassal Sapa Inca installed by the Spanish conquistadors, during the Spanish conquest of the Inca Empire led by Francisco Pizarro.",
   "setting": "",
+  "modern_country": "Peru",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Inca Empire"
+      ],
+      "born_in": [
+        "Inca Empire"
       ]
     },
     "lead": "Túpac Huallpa (alternatively Tupaq Wallpa or Huallpa Túpac); before July 1533 – October 1533), original name Awki Wallpa Túpaq, was the first vassal Sapa Inca installed by the Spanish conquistadors, during the Spanish conquest of the Inca Empire led by Francisco Pizarro.",
     "image": "no candidate image",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -71.97222222,
+        -13.525
+      ],
+      "year": 1510
+    }
   }
 }

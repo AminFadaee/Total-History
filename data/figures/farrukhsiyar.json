@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He rose to the throne after deposing his uncle Jahandar Shah.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/farrukhsiyar.jpg",
   "image_credit": "Gurkan1526 · CC0",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Farrukhsiyar (Persian: فرخ‌سیار, Persian pronunciation: [faɾ.ˈɾux saj.ˈjɑːɾ]; 20 August 1683 – 9 April 1719), also spelled as Farrukh Siyar, was the tenth Mughal Emperor from 1713 to 1719. He rose to the throne after deposing his uncle Jahandar Shah. He was an emperor only in name, with all effective power in the hands of the two courtiers, the Sayyid brothers.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        75.32,
+        19.88
+      ],
+      "year": 1685
+    }
   }
 }

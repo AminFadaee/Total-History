@@ -12,11 +12,13 @@
   "occupation": "Writer",
   "birth_country": "United Kingdom",
   "civilizations": [
+    "United Kingdom of Great Britain and Ireland",
     "Swiss Confederation"
   ],
   "related": [],
   "contribution": "An English writer and journalist regarded by many as one of the leading novelists of the 20th century.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/graham-greene.jpg",
   "image_credit": "FOTO:Fortepan — ID 84697: Adományozó/Donor: Magyar Hírek folyóirat. archive copy at the Wayback Machine · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -35,10 +37,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "Henry Graham Greene (2 October 1904 – 3 April 1991) was an English writer and journalist regarded by many as one of the leading novelists of the 20th century.",
     "image": "",
-    "photo": "model 0.94, one person 0.99, in Category:1975 black and white portrait photographs of men"
+    "photo": "model 0.94, one person 0.99, in Category:1975 black and white portrait photographs of men",
+    "birth": {
+      "location": [
+        -0.56,
+        51.76
+      ],
+      "year": 1904
+    }
   }
 }

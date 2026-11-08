@@ -19,6 +19,7 @@
   ],
   "contribution": "Head of the Catholic Church and leader of the Papal States from 7 January 1566 to his death, in May 1572.",
   "setting": "",
+  "modern_country": "",
   "image": "images/pope-pius-v.jpg",
   "image_credit": "Bartolomeo Passarotti and workshop · Public domain",
   "image_kind": "Portrait from life",
@@ -38,10 +39,20 @@
       ],
       "citizenship": [
         "Papal States"
+      ],
+      "born_in": [
+        "Kingdom of France"
       ]
     },
     "lead": "Pope Pius V, OP (Italian: Pio V; 17 January 1504 – 1 May 1572), born Antonio Ghislieri (and from 1518 called Michele Ghislieri), was head of the Catholic Church and leader of the Papal States from 7 January 1566 to his death, in May 1572.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        8.6783333333333,
+        44.826388888889
+      ],
+      "year": 1504
+    }
   }
 }

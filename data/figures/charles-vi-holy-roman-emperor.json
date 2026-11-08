@@ -31,6 +31,7 @@
   ],
   "contribution": "Holy Roman Emperor and ruler of the Austrian Habsburg monarchy from 1711 until his death, succeeding his elder brother, Joseph I.",
   "setting": "",
+  "modern_country": "",
   "image": "images/charles-vi-holy-roman-emperor.jpg",
   "image_credit": "Attributed to Martin van Meytens · Public domain",
   "image_kind": "Later depiction",
@@ -64,10 +65,20 @@
       ],
       "birthplace": [
         "Habsburg Monarchy"
+      ],
+      "born_in": [
+        "Habsburg Monarchy"
       ]
     },
     "lead": "Charles VI (German: Karl; Latin: Carolus; 1 October 1685 – 20 October 1740) was Holy Roman Emperor and ruler of the Austrian Habsburg monarchy from 1711 until his death, succeeding his elder brother, Joseph I. He unsuccessfully claimed the throne of Spain following the death of his relative Charles II of Spain. In 1708, he married Elisabeth Christine of Brunswick-Wolfenbüttel, by whom he had his four children: Leopold Johann (who died in infancy), Maria Theresa, Maria Anna (Governess of the Austrian Netherlands), and Maria Amalia (who also died in infancy).",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        16.36527778,
+        48.20638889
+      ],
+      "year": 1685
+    }
   }
 }

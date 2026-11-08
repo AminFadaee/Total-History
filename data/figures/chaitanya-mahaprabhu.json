@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Indian Hindu saint from Bengal and the founder of Gaudiya Vaishnavism.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/chaitanya-mahaprabhu.jpg",
   "image_credit": "Self · Public domain",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Sultanate of Bengal"
+      ],
+      "born_in": [
+        "Sultanate of Bengal"
       ]
     },
     "lead": "Chaitanya Mahaprabhu (Bengali: মহাপ্রভু শ্রীচৈতন্য দেব; Sanskrit: चैतन्य महाप्रभु, romanized: Caitanya Mahāprabhu), born Vishvambhara Mishra (IAST: Viśvambhara Miśra) (18 February 1486 – 14 June 1534), was an Indian Hindu saint from Bengal and the founder of Gaudiya Vaishnavism. Chaitanya Mahaprabhu's mode of worshipping Krishna with bhajan-kirtan and dance influenced Vaishnavism in Bengal. He is often considered to be an incarnation of lord Krishna. He is also sometimes considered to be the combined Avatar of goddess Radha and lord Krishna.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        88.37,
+        23.42
+      ],
+      "year": 1486
+    }
   }
 }

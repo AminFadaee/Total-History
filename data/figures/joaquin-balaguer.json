@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Dominican politician, scholar, writer, and lawyer who was the 41st, 45th and 49th president of the Dominican Republic, serving three non-consecutive terms from 1960 to 1962, 1966 to 1978, and 1986 to 1996.",
   "setting": "",
+  "modern_country": "Dominican Republic",
   "image": "images/joaquin-balaguer.jpg",
   "image_credit": "Mary Anne Fackelman · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Dominican Republic"
+      ],
+      "born_in": [
+        "Dominican Republic"
       ]
     },
     "lead": "Joaquín Antonio Balaguer Ricardo (1 September 1906 – 14 July 2002) was a Dominican politician, scholar, writer, and lawyer who was the 41st, 45th and 49th president of the Dominican Republic, serving three non-consecutive terms from 1960 to 1962, 1966 to 1978, and 1986 to 1996. He previously served as the 24th vice president under President Héctor Trujillo from 1957 to 1960.",
     "image": "",
-    "photo": "model 0.76, one person 0.80, captured 1988, during their lifetime"
+    "photo": "model 0.76, one person 0.80, captured 1988, during their lifetime",
+    "birth": {
+      "location": [
+        -70.87,
+        19.56
+      ],
+      "year": 1906
+    }
   }
 }

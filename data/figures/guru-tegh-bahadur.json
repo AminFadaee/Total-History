@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The ninth of ten gurus who founded the Sikh religion and was the leader of Sikhs from 1664 until his beheading in 1675.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/guru-tegh-bahadur.jpg",
   "image_credit": "MUGHAL INDIA, 18TH CENTURY · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Mughal Empire"
+      ],
+      "born_in": [
+        "Mughal Empire"
       ]
     },
     "lead": "Guru Tegh Bahadur (Punjabi: ਗੁਰੂ ਤੇਗ਼ ਬਹਾਦਰ (Gurmukhi); Punjabi pronunciation: [gʊɾuː t̯eːɣ bəɦaːd̯ʊɾᵊ], Teġ Bahādur; 1 April 1621 – 11 November 1675) was the ninth of ten gurus who founded the Sikh religion and was the leader of Sikhs from 1664 until his beheading in 1675. He was born in Amritsar, Punjab, India in 1621 and was the youngest son of Guru Hargobind, the sixth Sikh guru. Considered a principled and fearless warrior, he was a learned spiritual scholar and a poet whose 115 hymns are included in the Guru Granth Sahib, which is the main text of Sikhism. He was the founder of Anandpur Sahib in 1664.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        74.86,
+        31.64
+      ],
+      "year": 1621
+    }
   }
 }

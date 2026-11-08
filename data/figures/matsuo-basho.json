@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The most famous Japanese poet of the Edo period.",
   "setting": "",
+  "modern_country": "Japan",
   "image": "images/matsuo-basho.jpg",
   "image_credit": "unknown · Public domain",
   "image_kind": "Depiction",
@@ -26,10 +27,20 @@
     "civilization_votes": {
       "birthplace": [
         "Tokugawa Shogunate"
+      ],
+      "born_in": [
+        "Tokugawa Shogunate"
       ]
     },
-    "lead": "Matsuo Bashō (松尾 芭蕉; Japanese pronunciation: [ma.tsɯ.o (|) ba.ɕoː], 1644 – November 28, 1694); born Matsuo Kinsaku (松尾 金作), later known as Matsuo Chūemon Munefusa (松尾 忠右衛門 宗房) was the most famous Japanese poet of the Edo period. During his lifetime, Bashō was recognized for his works in the collaborative haikai no renga form; today, after centuries of commentary, he is recognized as the greatest master of haiku (then called hokku). He is also well known for his travel essays beginning with Records of a Weather-Exposed Skeleton (1684), written after his journey west to Kyoto and Nara.",
+    "lead": "Matsuo Bashō (松尾 芭蕉; Japanese pronunciation: [mä̀.t͡sɨ́.ó̞ | bä̀.ɕó̞ó̞, -ó̞ bä́-], 1644 – November 28, 1694); born Matsuo Kinsaku (松尾 金作), later known as Matsuo Chūemon Munefusa (松尾 忠右衛門 宗房) was the most famous Japanese poet of the Edo period. During his lifetime, Bashō was recognized for his works in the collaborative haikai no renga form; today, after centuries of commentary, he is recognized as the greatest master of haiku (then called hokku). He is also well known for his travel essays beginning with Records of a Weather-Exposed Skeleton (1684), written after his journey west to Kyoto and Nara.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        135.76833333,
+        35.01166667
+      ],
+      "year": 1644
+    }
   }
 }

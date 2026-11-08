@@ -20,6 +20,7 @@
   ],
   "contribution": "He was the first left-wing politician to assume the presidency under the Fifth Republic, successfully remaining in office longer than any other republican head of state in French history.",
   "setting": "French Fifth Republic",
+  "modern_country": "France",
   "image": "images/francois-mitterrand.jpg",
   "image_credit": "Comet Photo AG (Zürich) · CC BY-SA 4.0",
   "image_kind": "Photograph",
@@ -43,10 +44,20 @@
       ],
       "birthplace": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "French Third Republic"
       ]
     },
-    "lead": "François Maurice Adrien Marie Mitterrand (26 October 1916 – 8 January 1996) was President of France from 1981 to 1995. He was the first left-wing politician to assume the presidency under the Fifth Republic, successfully remaining in office longer than any other republican head of state in French history.",
+    "lead": "François Marie Adrien Maurice Mitterrand (26 October 1916 – 8 January 1996) was President of France from 1981 to 1995. He was the first left-wing politician to assume the presidency under the Fifth Republic, successfully remaining in office longer than any other republican head of state in French history.",
     "image": "",
-    "photo": "model 0.82, one person 0.92, captured 1983, during their lifetime"
+    "photo": "model 0.82, one person 0.92, captured 1983, during their lifetime",
+    "birth": {
+      "location": [
+        -0.1758,
+        45.6814
+      ],
+      "year": 1916
+    }
   }
 }

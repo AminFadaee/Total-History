@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Dominican revolutionary, politician, and former president of the Dominican Republic.",
   "setting": "",
+  "modern_country": "Dominican Republic",
   "image": "images/francisco-del-rosario-sanchez.jpg",
   "image_credit": "General de San Juan · CC BY-SA 4.0",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "citizenship": [
         "Dominican Republic"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Francisco del Rosario Sánchez (March 9, 1817 – July 4, 1861) was a Dominican revolutionary, politician, and former president of the Dominican Republic. He is considered by Dominicans as the second prominent leader of the Dominican War of Independence, after Juan Pablo Duarte and before Matías Ramón Mella. Widely acknowledged as one of the Founding Fathers of the Dominican Republic, and the only martyr of the three, he is honored as a national hero. In addition, the Order of Merit of Duarte, Sánchez and Mella is named partially in his honor.",
     "image": "",
-    "photo": "Museo de Historia y Geografía - Retrato del General Sánchez.jpg: model 0.03, one person 0.94, classified as a photograph on Commons; Francisco del Rosario.jpg: model 0.27, one person 0.99; Los Padres de la Patria - Monumento a los Héroes de la Restauración.jpg: model 0.04, one person 0.07, classified as a photograph on Commons; Fotografía de Francisco del Rosario Sánchez.jpg: model 0.88, one person 0.97; Los primeros magistrados.png: model 0.85, one person 0.01; DO-santo domingo, republica dominicana, 2013 photo (20).JPG: model 0.01, one person 0.01, classified as a photograph on Commons; Trini-FdRSánchez.jpg: model 0.00, one person 0.01; DOM Santo Domingo, Parque Independencia, Altar de la Patria 0006.jpg: model 0.05, one person 0.08; DOM Santo Domingo, Parque Independencia, Altar de la Patria 0005.jpg: model 0.00, one person 0.01"
+    "photo": "Museo de Historia y Geografía - Retrato del General Sánchez.jpg: model 0.03, one person 0.94, classified as a photograph on Commons; Francisco del Rosario.jpg: model 0.27, one person 0.99; Los Padres de la Patria - Monumento a los Héroes de la Restauración.jpg: model 0.04, one person 0.07, classified as a photograph on Commons; Fotografía de Francisco del Rosario Sánchez.jpg: model 0.88, one person 0.97; Los primeros magistrados.png: model 0.85, one person 0.01; DO-santo domingo, republica dominicana, 2013 photo (20).JPG: model 0.01, one person 0.01, classified as a photograph on Commons; Trini-FdRSánchez.jpg: model 0.00, one person 0.01; DOM Santo Domingo, Parque Independencia, Altar de la Patria 0006.jpg: model 0.05, one person 0.08; DOM Santo Domingo, Parque Independencia, Altar de la Patria 0005.jpg: model 0.00, one person 0.01",
+    "birth": {
+      "location": [
+        -69.93611111111112,
+        18.4625
+      ],
+      "year": 1817
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "His large frescoes helped establish the mural movement in Mexican and international art.",
   "setting": "",
+  "modern_country": "Mexico",
   "image": "images/diego-rivera.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Mexico"
+      ],
+      "born_in": [
+        "Mexico"
       ]
     },
     "lead": "Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez (Spanish pronunciation: [ˈdjeɣo riˈβeɾa]; December 8, 1886 – November 24, 1957) was a Mexican painter. His large frescoes helped establish the mural movement in Mexican and international art.",
     "image": "",
-    "photo": "model 0.88, one person 0.98, captured 1957, during their lifetime"
+    "photo": "model 0.88, one person 0.98, captured 1957, during their lifetime",
+    "birth": {
+      "location": [
+        -101.25666667,
+        21.01777778
+      ],
+      "year": 1886
+    }
   }
 }

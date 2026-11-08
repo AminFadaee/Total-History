@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Brazilian educator and Marxist philosopher whose work has affected global thought on education.",
   "setting": "",
+  "modern_country": "",
   "image": "images/paulo-freire.jpg",
   "image_credit": "Slobodan Dimitro · CC BY-SA 3.0",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Brazilian Republic"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Paulo Reglus Neves Freire (19 September 1921 – 2 May 1997) was a Brazilian educator and Marxist philosopher whose work has affected global thought on education. He is best known for Pedagogy of the Oppressed, in which he reimagines teaching as a political act of liberation rather than critical cultural  transmission of values. A founder of critical pedagogy, Freire’s influence spans literacy movements, liberation theology, postcolonial education, Marxism, and contemporary theories of social justice and learning. He is widely regarded as one of the most important educational theorists of the twentieth century, alongside figures such as John Dewey and Maria Montessori.",
     "image": "",
-    "photo": "model 0.94, one person 0.98, captured 1977, during their lifetime"
+    "photo": "model 0.94, one person 0.98, captured 1977, during their lifetime",
+    "birth": {
+      "location": [
+        -34.9,
+        -8.05
+      ],
+      "year": 1921
+    }
   }
 }

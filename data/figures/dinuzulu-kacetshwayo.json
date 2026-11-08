@@ -19,6 +19,7 @@
   ],
   "contribution": "The king of the Zulu nation from 20 May 1884 until his death in 1913.",
   "setting": "",
+  "modern_country": "South Africa",
   "image": "images/dinuzulu-kacetshwayo.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Zululand"
+      ],
+      "born_in": [
+        "Zululand"
       ]
     },
     "lead": "Dinuzulu kaCetshwayo (c. 1868 – 18 October 1913, commonly misspelled Dinizulu) was the king of the Zulu nation from 20 May 1884 until his death in 1913. He succeeded his father Cetshwayo, who was the last king of the Zulus to be officially recognised as such by the British. Zululand had been broken up into thirteen smaller territories by the British government after the Anglo-Zulu War, and Cetshwayo, and subsequently Dinuzulu, administered one of them. The British later realised the futility of breaking up Zululand into the territories and restored Cetshwayo as paramount leader of the territories. However, they left one of Cetshwayo's relatives, Usibepu (Zibhebhu), alone with his lands intact. On 22 July 1883, Usibepu attacked Cetshwayo's new kraal in Ulundi, wounding the king and causing him to flee to Eshowe.",
     "image": "",
-    "photo": "model 0.96, one person 0.99, classified as a photograph on Commons"
+    "photo": "model 0.96, one person 0.99, classified as a photograph on Commons",
+    "birth": {
+      "location": [
+        31.08333333,
+        -28.36666667
+      ],
+      "year": 1868
+    }
   }
 }

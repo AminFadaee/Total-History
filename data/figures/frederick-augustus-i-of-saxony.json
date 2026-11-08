@@ -20,6 +20,7 @@
   "related": [],
   "contribution": "A member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 and as the first King of Saxony from 1806 to 1827.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/frederick-augustus-i-of-saxony.jpg",
   "image_credit": "Carl Christian Vogel von Vogelstein · Public domain",
   "image_kind": "Portrait from life",
@@ -48,10 +49,20 @@
       ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"
+      ],
+      "born_in": [
+        "Polish-Lithuanian Commonwealth"
       ]
     },
     "lead": "Frederick Augustus I of Saxony (German: Friedrich August I., Polish: Fryderyk August I, French: Frédéric-Auguste Ier, 23 December 1750 – 5 May 1827) was a member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 (as Frederick Augustus III) and as the first King of Saxony from 1806 to 1827. He was also Duke of Warsaw from 1807 to 1815, a legitimate candidate to the Polish throne after the Constitution of 3 May 1791 (in 1812–1813 he was proclaimed, but unrecognized, King of Poland by the General Confederation of the Kingdom of Poland) and a short-lived disputed Grand Duke of Lithuania in 1812.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        13.74,
+        51.05
+      ],
+      "year": 1750
+    }
   }
 }

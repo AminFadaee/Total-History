@@ -20,6 +20,7 @@
   ],
   "contribution": "",
   "setting": "",
+  "modern_country": "Uzbekistan",
   "image": "images/umar-shaikh-mirza-ii.jpg",
   "image_credit": "1707-12 artist · Public domain",
   "image_kind": "Later depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Timurid Empire"
+      ],
+      "born_in": [
+        "Timurid Empire"
       ]
     },
     "lead": "Umar Shaikh Mirza II (Persian: عمر شیخ میرزا دوم; 1456–1494) was the Timurid ruler of the Fergana Valley. He was the fourth son of Abu Sa'id Mirza, the ruler of the Timurid Empire in what is now Kazakhstan, Uzbekistan, Afghanistan, Tajikistan and eastern Iran.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        66.97583333,
+        39.65472222
+      ],
+      "year": 1456
+    }
   }
 }

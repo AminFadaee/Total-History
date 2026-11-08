@@ -15,8 +15,9 @@
     "Brazilian Republic"
   ],
   "related": [],
-  "contribution": "A Brazilian Catholic prelate who served as Archbishop of Olinda and Recife from 1964 to 1985 during the military dictatorship in Brazil.",
+  "contribution": "A Brazilian Catholic prelate who served as Archbishop of Olinda and Recife from 1964 to 1985.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/helder-camara.jpg",
   "image_credit": "Hans Peters for Anefo · CC BY-SA 3.0 nl",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "Brazilian Republic"
+      ],
+      "born_in": [
+        "Brazilian Republic"
       ]
     },
-    "lead": "Hélder Pessoa Câmara  (7 February 1909 – 27 August 1999) was a Brazilian Catholic prelate who served as Archbishop of Olinda and Recife from 1964 to 1985 during the military dictatorship in Brazil. He was declared a Servant of God in 2015.",
+    "lead": "Hélder Pessoa Câmara  (7 February 1909 – 27 August 1999) was a Brazilian Catholic prelate who served as Archbishop of Olinda and Recife from 1964 to 1985. He was declared a Servant of God in 2015.",
     "image": "",
-    "photo": "model 0.97, one person 0.98, in Category:Photographs by Hans Peters"
+    "photo": "model 0.97, one person 0.98, in Category:Photographs by Hans Peters",
+    "birth": {
+      "location": [
+        -38.5275,
+        -3.7275
+      ],
+      "year": 1909
+    }
   }
 }

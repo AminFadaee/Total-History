@@ -1,0 +1,52 @@
+{
+  "id": "Q82457",
+  "slug": "william-wallace",
+  "name": "William Wallace",
+  "wikipedia": "William Wallace",
+  "role": "Scottish knight",
+  "life": "1270–1305",
+  "lifetime": [
+    1270,
+    1305
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of Alba"
+  ],
+  "related": [],
+  "contribution": "A Scottish knight who became one of the main leaders during the First War of Scottish Independence.",
+  "setting": "Kingdom of Alba",
+  "modern_country": "United Kingdom",
+  "image": "images/william-wallace.jpg",
+  "image_credit": "Public domain",
+  "image_kind": "Depiction",
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Scotland"
+      ],
+      "death": [
+        "Kingdom of England"
+      ],
+      "birthplace": [
+        "Kingdom of Alba"
+      ],
+      "born_in": [
+        "Kingdom of Alba"
+      ]
+    },
+    "lead": "Sir William Wallace (Scottish Gaelic: Uilleam Uallas, pronounced [ˈɯʎam ˈuəl̪ˠəs̪]; Norman French: William le Waleys; c. 1270 – 23 August 1305) was a Scottish knight who became one of the main leaders during the First War of Scottish Independence.",
+    "image": "",
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -4.48421,
+        55.83061
+      ],
+      "year": 1270
+    }
+  }
+}

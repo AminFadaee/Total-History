@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "He succeeded his father, Huayna Capac and his brother Ninan Cuyochi, both of whom died of smallpox during the same year while campaigning near Quito.",
   "setting": "",
+  "modern_country": "Peru",
   "image": "images/huascar.jpg",
   "image_credit": "Public domain",
   "image_kind": "Portrait from life",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Inca Empire"
+      ],
+      "born_in": [
+        "Inca Empire"
       ]
     },
     "lead": "Huáscar () (Classical Quechua: Waskhar, pronounced [waskʰar]) also Guazcar (before 1527 – 1532) was Sapa Inca of the Inca Empire from 1527 to 1532. He succeeded his father, Huayna Capac and his brother Ninan Cuyochi, both of whom died of smallpox during the same year while campaigning near Quito. From 1529 to 1532, Huáscar fought the Inca civil war against his half-brother Atahualpa, who prevailed and captured Huáscar. Shortly thereafter, Atahualpa was captured by the Spanish conquistador Francisco Pizarro and had Huáscar killed.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -76.0,
+        -10.0
+      ],
+      "year": 1490
+    }
   }
 }

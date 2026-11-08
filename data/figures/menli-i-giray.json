@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Thrice the khan of the Crimean Khanate and the sixth son of Hacı I Giray.",
   "setting": "",
+  "modern_country": "Russia",
   "image": "images/menli-i-giray.jpg",
   "image_credit": "Turkish miniature (XVI century) · Public domain",
   "image_kind": "Depiction",
@@ -29,10 +30,20 @@
       ],
       "death": [
         "Crimean Khanate"
+      ],
+      "born_in": [
+        "Blue Horde"
       ]
     },
     "lead": "Meñli I Giray (1445–1515) was thrice the khan of the Crimean Khanate (1466, 1469–1475, 1478–1515) and the sixth son of Hacı I Giray.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        34.4,
+        45.3
+      ],
+      "year": 1445
+    }
   }
 }

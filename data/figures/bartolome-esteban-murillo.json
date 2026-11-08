@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "Although he is best known for his religious works, Murillo also produced a considerable number of paintings of contemporary women and children.",
   "setting": "",
+  "modern_country": "Spain",
   "image": "images/bartolome-esteban-murillo.jpg",
   "image_credit": "Bartolomé Esteban Murillo · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Iberian Union"
+      ],
+      "born_in": [
+        "Iberian Union"
       ]
     },
     "lead": "Bartolomé Esteban Murillo ( mure-IL-oh, m(y)uu-REE-oh, Spanish: [baɾtoloˈme esˈteβam muˈɾiʎo]; late December 1617, baptised 1 January 1618 – 3 April 1682) was a Spanish Baroque painter. Although he is best known for his religious works, Murillo also produced a considerable number of paintings of contemporary women and children. These lively realistic portraits of flower girls, street urchins, and beggars constitute an extensive record of the everyday life of his times. He also painted two self-portraits, one in the Frick Collection portraying him in his 30s, and one in London's National Gallery portraying him about 20 years later. In 2017–18, the two museums held an exhibition of them.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -5.99,
+        37.39
+      ],
+      "year": 1617
+    }
   }
 }

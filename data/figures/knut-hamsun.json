@@ -19,6 +19,7 @@
   ],
   "contribution": "A Norwegian writer who was awarded the 1920 Nobel Prize in Literature for his novel Growth of the Soil.",
   "setting": "",
+  "modern_country": "Norway",
   "image": "images/knut-hamsun.jpg",
   "image_credit": "Nasjonalbiblioteket from Norway · Public domain",
   "image_kind": "Photograph",
@@ -31,10 +32,20 @@
       ],
       "birthplace": [
         "United Kingdoms of Sweden and Norway"
+      ],
+      "born_in": [
+        "United Kingdoms of Sweden and Norway"
       ]
     },
-    "lead": "Knut Hamsun (; 4 August 1859 – 19 February 1952) was a Norwegian writer who was awarded the 1920 Nobel Prize in Literature for his novel Growth of the Soil. Hamsun's work spans more than 70 years and shows variation with regard to consciousness, subject, perspective and environment. He published more than 23 novels, a collection of poetry, some short stories and plays, a travelogue, works of non-fiction and some essays.",
+    "lead": "Knut Hamsun (; Norwegian: [ˈhɑmsʉn]; 4 August 1859 – 19 February 1952) was a Norwegian writer who was awarded the 1920 Nobel Prize in Literature for his novel Growth of the Soil. Hamsun's work spans more than 70 years and shows variation with regard to consciousness, subject, perspective and environment. He published more than 23 novels, a collection of poetry, some short stories and plays, a travelogue, works of non-fiction and some essays.",
     "image": "",
-    "photo": "model 0.82, one person 0.96, in Category:Photographs of Knut Hamsun"
+    "photo": "model 0.82, one person 0.96, in Category:Photographs of Knut Hamsun",
+    "birth": {
+      "location": [
+        8.63916667,
+        61.81083333
+      ],
+      "year": 1859
+    }
   }
 }

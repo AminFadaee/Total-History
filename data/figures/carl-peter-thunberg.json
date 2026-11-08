@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Swedish naturalist and an \"apostle\" of Carl Linnaeus.",
   "setting": "",
+  "modern_country": "Sweden",
   "image": "images/carl-peter-thunberg.jpg",
   "image_credit": "Jacob Fredrik Ek · Public domain",
   "image_kind": "Depiction",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Kingdom of Sweden"
+      ],
+      "born_in": [
+        "Kingdom of Sweden"
       ]
     },
     "lead": "Carl Peter Thunberg, also known as Karl Peter von Thunberg, Carl Pehr Thunberg, or Carl Per Thunberg (11 November 1743 – 8 August 1828), was a Swedish naturalist and an \"apostle\" of Carl Linnaeus. After studying under Linnaeus at Uppsala University, he spent seven years travelling in southern Africa and Asia, collecting and describing many plants and animals new to European science, and observing local cultures. He has been called \"the father of South African botany\", \"pioneer of Occidental Medicine in Japan\", and the \"Japanese Linnaeus\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        14.16055556,
+        57.78277778
+      ],
+      "year": 1743
+    }
   }
 }

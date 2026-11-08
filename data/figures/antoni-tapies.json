@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Catalan painter, sculptor, and art theorist.",
   "setting": "",
+  "modern_country": "",
   "image": "images/antoni-tapies.jpg",
   "image_credit": "Teresa Tàpies Domènech · CC BY-SA 4.0",
   "image_kind": "Photograph",
@@ -29,10 +30,18 @@
       ],
       "citizenship": [
         "Kingdom of Spain"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Antoni Tàpies i Puig, 1st Marquess of Tàpies (Catalan: [ənˈtɔni ˈtapi.əs]; 13 December 1923 – 6 February 2012) was a Catalan painter, sculptor, and art theorist.",
     "image": "",
-    "photo": "model 0.87, one person 0.99, captured 2002, during their lifetime"
+    "photo": "model 0.87, one person 0.99, captured 2002, during their lifetime",
+    "birth": {
+      "location": [
+        2.17694444,
+        41.38277778
+      ],
+      "year": 1923
+    }
   }
 }

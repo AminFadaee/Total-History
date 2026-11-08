@@ -18,6 +18,7 @@
   "related": [],
   "contribution": "An Irish playwright, critic, polemicist and political activist.",
   "setting": "",
+  "modern_country": "Ireland",
   "image": "images/george-bernard-shaw.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "United Kingdom of Great Britain and Ireland"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
     "lead": "George Bernard Shaw (26 July 1856 – 2 November 1950) was an Irish playwright, critic, polemicist and political activist. His influence on Western theatre, culture and politics extended from the 1880s to his death and beyond. He wrote more than sixty plays, including major works such as Man and Superman (1902), Pygmalion (1913) and Saint Joan (1923). With a range incorporating both contemporary satire and historical allegory, Shaw became the leading dramatist of his generation, and was awarded the 1925 Nobel Prize in Literature.",
     "image": "",
-    "photo": "model 0.91, one person 0.99, captured 1915, during their lifetime"
+    "photo": "model 0.91, one person 0.99, captured 1915, during their lifetime",
+    "birth": {
+      "location": [
+        -6.27,
+        53.33222222
+      ],
+      "year": 1856
+    }
   }
 }

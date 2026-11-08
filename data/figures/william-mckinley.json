@@ -1,0 +1,65 @@
+{
+  "id": "Q35041",
+  "slug": "william-mckinley",
+  "name": "William McKinley",
+  "wikipedia": "William McKinley",
+  "role": "President of the United States from 1897 to 1901",
+  "life": "1843–1901",
+  "lifetime": [
+    1843,
+    1901
+  ],
+  "occupation": "Politician",
+  "birth_country": "United States",
+  "civilizations": [
+    "United States of America"
+  ],
+  "related": [
+    "Republic of Hawai'i",
+    "British Empire",
+    "German Empire"
+  ],
+  "contribution": "The 25th president of the United States, serving from 1897 until his assassination in 1901.",
+  "setting": "",
+  "modern_country": "United States",
+  "image": "images/william-mckinley.jpg",
+  "image_credit": "photographer · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/william-mckinley-photo.jpg",
+  "photo_credit": "Unknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "United States of America",
+        "Spanish Empire"
+      ],
+      "category": [
+        "United States of America"
+      ],
+      "lead": [
+        "Republic of Hawai'i",
+        "British Empire",
+        "German Empire"
+      ],
+      "citizenship": [
+        "United States of America"
+      ],
+      "birthplace": [
+        "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
+      ]
+    },
+    "lead": "William McKinley (January 29, 1843 – September 14, 1901) was the 25th president of the United States, serving from 1897 until his assassination in 1901. A member of the Republican Party, he led a realignment that made Republicans largely dominant in the industrial states and nationwide for decades. McKinley successfully led the U.S. in the Spanish–American War and oversaw a period of American expansionism, with the annexations of Hawaii, Puerto Rico, Guam, the Philippines, and American Samoa.",
+    "image": "",
+    "photo": "model 0.98, one person 0.98",
+    "birth": {
+      "location": [
+        -80.75722222,
+        41.18527778
+      ],
+      "year": 1843
+    }
+  }
+}

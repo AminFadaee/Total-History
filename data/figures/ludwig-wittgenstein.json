@@ -12,11 +12,13 @@
   "occupation": "Philosopher",
   "birth_country": "Austria",
   "civilizations": [
+    "Austria-Hungary",
     "United Kingdom"
   ],
   "related": [],
   "contribution": "An Austro-British philosopher who worked in logic, philosophy of mathematics, philosophy of mind, and philosophy of language.",
   "setting": "",
+  "modern_country": "Austria",
   "image": "images/ludwig-wittgenstein.jpg",
   "image_credit": "Moritz Nähr · Public domain",
   "image_kind": "Photograph",
@@ -33,10 +35,20 @@
       ],
       "birthplace": [
         "Austria-Hungary"
+      ],
+      "born_in": [
+        "Austria-Hungary"
       ]
     },
     "lead": "Ludwig Josef Johann Wittgenstein ( VIT-gən-s(h)tyne; Austrian German: [ˈluːdvɪk ˈjoːsɛf ˈjoːhan ˈvɪtɡn̩ʃtaɪn]; 26 April 1889 – 29 April 1951) was an Austro-British philosopher who worked in logic, philosophy of mathematics, philosophy of mind, and philosophy of language.",
     "image": "",
-    "photo": "model 0.96, one person 0.99"
+    "photo": "model 0.96, one person 0.99",
+    "birth": {
+      "location": [
+        16.3725,
+        48.20833333
+      ],
+      "year": 1889
+    }
   }
 }

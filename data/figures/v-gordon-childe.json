@@ -20,6 +20,7 @@
   ],
   "contribution": "An Australian archaeologist who specialised in the study of European prehistory.",
   "setting": "",
+  "modern_country": "Australia",
   "image": "images/v-gordon-childe.jpg",
   "image_credit": "Swan Watson, Andrew · Public domain",
   "image_kind": "Photograph",
@@ -39,10 +40,20 @@
       ],
       "birthplace": [
         "British Empire"
+      ],
+      "born_in": [
+        "British Empire"
       ]
     },
-    "lead": "Vere Gordon Childe (14 April 1892 – 19 October 1957) was an Australian archaeologist who specialised in the study of European prehistory. He spent most of his life in the United Kingdom, working as an academic for the University of Edinburgh and then the Institute of Archaeology, London. He wrote twenty-six books during his career. Initially an early proponent of culture-historical archaeology, he later became the first exponent of Marxist archaeology in the Western world.",
+    "lead": "Vere Gordon Childe (14 April 1892 – 19 October 1957) was an Australian archaeologist who specialised in the study of European prehistory. He spent most of his life in the United Kingdom, working as an academic for the University of Edinburgh and then the Institute of Archaeology, London. He wrote 26 books during his career. Initially an early proponent of culture-historical archaeology, he later became the first exponent of Marxist archaeology in the Western world.",
     "image": "",
-    "photo": "model 0.98, one person 1.00, in Category:Black and white portrait photographs of men wearing glasses"
+    "photo": "model 0.98, one person 1.00, in Category:Black and white portrait photographs of men wearing glasses",
+    "birth": {
+      "location": [
+        151.21,
+        -33.86777778
+      ],
+      "year": 1892
+    }
   }
 }

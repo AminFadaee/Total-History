@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Indian writer, historian, and politician who served as the grand vizier of the Mughal Empire from his appointment in 1579, until his death in 1602.",
   "setting": "",
+  "modern_country": "India",
   "image": "images/abul-fazl.jpg",
   "image_credit": "Govardhan · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Sur Empire"
+      ],
+      "born_in": [
+        "Sur Empire"
       ]
     },
     "lead": "Abu'l-Fazl ibn Mubarak (14 January 1551 – 22 August 1602), also known as Abul Fazl, Abu'l Fadl and Abu'l-Fadl 'Allami, was an Indian writer, historian, and politician who served as the grand vizier of the Mughal Empire from his appointment in 1579, until his death in 1602. His notable works include the Akbarnama, Ain-i-Akbari, and a Persian translation of the Bible.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        78.02,
+        27.18
+      ],
+      "year": 1551
+    }
   }
 }

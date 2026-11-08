@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The 25th king of Ngoenyang and the first king of Lan Na.",
   "setting": "",
+  "modern_country": "Thailand",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -38,10 +39,20 @@
       ],
       "birthplace": [
         "Haripuñjaya"
+      ],
+      "born_in": [
+        "Haripuñjaya"
       ]
     },
     "lead": "Mangrai (Northern Thai: ᨻᩕ᩠ᨿᩣᨾᩢ᩠ᨦᩁᩣ᩠ᨿ; Thai: มังราย; c. 1238–1311) was the 25th king of Ngoenyang (r. 1261–1292) and the first king of Lan Na (r. 1292–1311). He established a new city, Chiang Mai, as the capital of the Lan Na Kingdom (1296–1558).",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        100.08763889,
+        20.27536111
+      ],
+      "year": 1238
+    }
   }
 }

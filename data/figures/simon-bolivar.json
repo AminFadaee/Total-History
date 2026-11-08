@@ -21,6 +21,7 @@
   ],
   "contribution": "A Venezuelan military officer and statesman who led what are currently the countries of Bolivia, Colombia, Ecuador, Panama, Peru, and Venezuela to independence from the Spanish Empire.",
   "setting": "",
+  "modern_country": "Venezuela",
   "image": "images/simon-bolivar.jpg",
   "image_credit": "Ricardo Acevedo Bernal · Public domain",
   "image_kind": "Later depiction",
@@ -49,10 +50,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
-    "lead": "Simón José Antonio de la Santísima Trinidad Bolívar Palacios Ponte y Blanco (24 July 1783 – 17 December 1830) was a Venezuelan military officer and statesman who led what are currently the countries of Bolivia, Colombia, Ecuador, Panama, Peru, and Venezuela to independence from the Spanish Empire. He is known colloquially as El Libertador, \"the Liberator,\" of America.",
+    "lead": "Simón José Antonio de la Santísima Trinidad Bolívar Palacios Ponte y Blanco (24 July 1783 – 17 December 1830) was a Venezuelan military officer and statesman who led what are currently the countries of Bolivia, Colombia, Ecuador, Panama, Peru, and Venezuela to independence from the Spanish Empire. He is known colloquially as El Libertador, \"the Liberator\", of America.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -66.90361111,
+        10.48055556
+      ],
+      "year": 1783
+    }
   }
 }

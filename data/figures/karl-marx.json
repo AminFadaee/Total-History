@@ -15,8 +15,9 @@
     "German Confederation"
   ],
   "related": [],
-  "contribution": "A German philosopher, social and political theorist, and revolutionary socialist.",
+  "contribution": "A German philosopher, social and political theorist, journalist, and revolutionary socialist.",
   "setting": "",
+  "modern_country": "Germany",
   "image": "images/karl-marx.jpg",
   "image_credit": "Michiel Hendryckx · CC BY-SA 4.0",
   "image_kind": "Photograph",
@@ -29,10 +30,20 @@
       ],
       "birthplace": [
         "German Confederation"
+      ],
+      "born_in": [
+        "German Confederation"
       ]
     },
-    "lead": "Karl Marx (German: [ˈkaʁl ˈmaʁks]; 5 May 1818 – 14 March 1883) was a German philosopher, social and political theorist, and revolutionary socialist. He developed the theory of historical materialism, analysing societal structure and change, particularly class struggle under capitalism, and predicting the system's ultimate replacement by communism. Marx co-authored The Communist Manifesto (1848) with Friedrich Engels, and undertook a critique of classical political economy in his magnum opus, Das Kapital (1867–1894). His ideas and their later development, collectively known as Marxism, have had enormous influence on intellectual, political, and social history, and have inspired revolutionary movements in many countries.",
+    "lead": "Karl Marx (German: [ˈkaʁl ˈmaʁks]; 5 May 1818 – 14 March 1883) was a German philosopher, social and political theorist, journalist, and revolutionary socialist. He developed the theory of historical materialism, analysing societal structure and change, particularly class struggle under capitalism, and predicting the system's ultimate replacement by communism. Marx co-authored The Communist Manifesto (1848) with Friedrich Engels, and undertook a critique of classical political economy in his magnum opus, Das Kapital (1867–1894). His ideas and their later development, collectively known as Marxism, have had enormous influence on intellectual, political, and social history, and have inspired revolutionary movements in many countries.",
     "image": "",
-    "photo": "model 0.95, one person 0.99"
+    "photo": "model 0.95, one person 0.99",
+    "birth": {
+      "location": [
+        6.64138889,
+        49.75666667
+      ],
+      "year": 1818
+    }
   }
 }

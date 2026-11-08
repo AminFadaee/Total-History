@@ -20,6 +20,7 @@
   ],
   "contribution": "A Polish military engineer, statesman, and military leader who became a national hero in Poland, the United States, Lithuania, and Belarus.",
   "setting": "",
+  "modern_country": "Belarus",
   "image": "images/tadeusz-kosciuszko.jpg",
   "image_credit": "Josef Grassi · Public domain",
   "image_kind": "Portrait from life",
@@ -42,10 +43,20 @@
       ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"
+      ],
+      "born_in": [
+        "Polish-Lithuanian Commonwealth"
       ]
     },
     "lead": "Andrzej Tadeusz Bonawentura Kościuszko (English: Andrew Thaddeus Bonaventure Kosciuszko; February 4 or 12, 1746 – October 15, 1817) was a Polish military engineer, statesman, and military leader who became a national hero in Poland, the United States, Lithuania, and Belarus. He fought in the Polish–Lithuanian Commonwealth's struggles against Russia and Prussia, and on the U.S. side in the American Revolutionary War. As Supreme Commander of the Polish National Armed Forces, he led the 1794 Kościuszko Uprising.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        25.125,
+        52.7675
+      ],
+      "year": 1746
+    }
   }
 }

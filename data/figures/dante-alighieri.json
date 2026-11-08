@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "His Divine Comedy, originally called Comedìa and later christened Divina by Giovanni Boccaccio, is widely considered one of the most important poems of the Middle Ages and the greatest literary work in the Italian language.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/dante-alighieri.jpg",
   "image_credit": "Sandro Botticelli · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Republic of Florence"
+      ],
+      "born_in": [
+        "Republic of Florence"
       ]
     },
     "lead": "Dante Alighieri (Italian: [ˈdante aliˈɡjɛːri]; most likely baptized Durante di Alighiero degli Alighieri; c. May 1265 – September 14, 1321), widely known mononymously as Dante, was an Italian poet, writer, and philosopher. His Divine Comedy, originally called Comedìa (modern Italian: Commedia) and later christened Divina by Giovanni Boccaccio, is widely considered one of the most important poems of the Middle Ages and the greatest literary work in the Italian language.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.25416667,
+        43.77138889
+      ],
+      "year": 1265
+    }
   }
 }

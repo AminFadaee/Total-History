@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Polish szlachcic, magnate, statesman and the first ordynat of Zamość. He served as Royal Secretary from 1565, Deputy Chancellor from 1576, Grand Chancellor of the Crown from 1578, and Great Hetman of the Crown from 1581.",
   "setting": "",
+  "modern_country": "Poland",
   "image": "images/jan-zamoyski.jpg",
   "image_credit": "Jan Szwankowski · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,18 @@
       ],
       "citizenship": [
         "Polish-Lithuanian Commonwealth"
-      ]
+      ],
+      "born_in": []
     },
     "lead": "Jan Zamoyski (Latin: Ioannes Zamoyski de Zamoscie; 19 March 1542 – 3 June 1605) was a Polish szlachcic (nobleman), magnate, statesman and the first ordynat of Zamość. He served as Royal Secretary from 1565, Deputy Chancellor from 1576, Grand Chancellor of the Crown from 1578, and Great Hetman of the Crown from 1581.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        23.23277778,
+        50.69194444
+      ],
+      "year": 1542
+    }
   }
 }

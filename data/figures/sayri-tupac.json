@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Inca ruler in Peru.",
   "setting": "",
+  "modern_country": "Peru",
   "image": "images/sayri-tupac.jpg",
   "image_credit": "Felipe Huaman Puma de Ayala · Public domain",
   "image_kind": "Portrait from life",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Neo-Inca State"
+      ],
+      "born_in": [
+        "Neo-Inca State"
       ]
     },
     "lead": "Sayri Túpac (1534/1535 – 1560) was an Inca ruler in Peru. He was a son of siblings Manco Inca Yupanqui and Cura Ocllo. After the death of his mother in 1539 and of his father in 1544, both at the hands of Spanish conquerors, he became the ruler of the Neo-Inca State in Vilcabamba. He ruled until his death in 1560.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -76.0,
+        -10.0
+      ],
+      "year": 1535
+    }
   }
 }

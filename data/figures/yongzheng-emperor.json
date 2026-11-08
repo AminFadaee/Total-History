@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The fourth emperor of the Qing dynasty, and the third Qing emperor to rule over China proper.",
   "setting": "",
+  "modern_country": "China",
   "image": "images/yongzheng-emperor.jpg",
   "image_credit": "anonymous · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Qing Dynasty"
+      ],
+      "born_in": [
+        "Qing Dynasty"
       ]
     },
     "lead": "The Yongzheng Emperor (13 December 1678 – 8 October 1735), also known by his temple name Emperor Shizong of Qing, personal name Yinzhen, was the fourth emperor of the Qing dynasty, and the third Qing emperor to rule over China proper.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        116.39083333,
+        39.91583333
+      ],
+      "year": 1678
+    }
   }
 }

@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "The beloved consort of Emperor Xuanzong of Tang during his later years.",
   "setting": "",
+  "modern_country": "China",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Tang Dynasty"
+      ],
+      "born_in": [
+        "Tang Dynasty"
       ]
     },
     "lead": "Yang Yuhuan (Chinese: 楊玉環; 719 – 15 July 756), often known as Yang Guifei or Lady Yang (楊貴妃, with guifei being the highest rank for imperial consorts during her time), and known briefly by the Taoist nun name Taizhen (太真), was the beloved consort of Emperor Xuanzong of Tang during his later years. She is known as one of the Four Beauties of ancient China.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        110.448,
+        34.867
+      ],
+      "year": 719
+    }
   }
 }

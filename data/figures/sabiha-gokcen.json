@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Turkish aviator.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "images/sabiha-gokcen.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +33,20 @@
       ],
       "citizenship": [
         "Republic of Turkey"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Sabiha Gökçen (Turkish: [sabiˈha ɟøcˈtʃɛn], born Ćorović; 22 March 1913 – 22 March 2001) was a Turkish aviator. During her flight career, she flew around 8,000 hours and participated in 32 different military operations. She became the world's first female fighter pilot, at age 23. As an orphan, she was one of the nine children adopted by Mustafa Kemal Atatürk.",
     "image": "",
-    "photo": "model 1.00, one person 0.90"
+    "photo": "model 1.00, one person 0.90",
+    "birth": {
+      "location": [
+        29.05,
+        40.18333333
+      ],
+      "year": 1913
+    }
   }
 }

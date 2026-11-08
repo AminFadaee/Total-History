@@ -19,6 +19,7 @@
   ],
   "contribution": "A Vietnamese poet born at the end of the Lê dynasty.",
   "setting": "",
+  "modern_country": "Vietnam",
   "image": "images/ho-xuan-huong.jpg",
   "image_credit": "胡春香，東州阮友進收集，河內，東京印館出版，1916年。(Đông Châu Nguyễn Hữu Tiến:《Giai nhân di mặc》 Hà Nội, 1916). Original uploader was Iflwlou at zh.wikipedia · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Nguyễn lords"
+      ],
+      "born_in": [
+        "Nguyễn lords"
       ]
     },
     "lead": "Hồ Xuân Hương (胡春香; 1772–1822) was a Vietnamese poet born at the end of the Lê dynasty. She grew up in an era of political and social turmoil – the time of the Tây Sơn rebellion and a three-decade civil war that led to Nguyễn Ánh seizing power as Emperor Gia Long and starting the Nguyễn dynasty. She wrote poetry using chữ Nôm (Southern Script), which adapts Chinese characters for writing demotic Vietnamese. She is considered to be one of Vietnam's greatest classical poets. Xuân Diệu, a prominent modern poet, dubbed her \"The Queen of Nôm poetry\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        108.0,
+        16.0
+      ],
+      "year": 1772
+    }
   }
 }

@@ -3,7 +3,7 @@
   "slug": "arthur-c-clarke",
   "name": "Arthur C. Clarke",
   "wikipedia": "Arthur C. Clarke",
-  "role": "British science fiction writer",
+  "role": "English science fiction writer",
   "life": "1917–2008",
   "lifetime": [
     1917,
@@ -12,11 +12,13 @@
   "occupation": "Writer",
   "birth_country": "United Kingdom",
   "civilizations": [
+    "United Kingdom of Great Britain and Ireland",
     "Sri Lanka"
   ],
   "related": [],
-  "contribution": "An English science fiction writer, science writer, futurist, inventor, undersea explorer, and television series host.",
-  "setting": "Sri Lanka",
+  "contribution": "An English science fiction writer, inventor, undersea explorer and TV series host.",
+  "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/arthur-c-clarke.jpg",
   "image_credit": "ITU Pictures · CC BY 2.0",
   "image_kind": "Photograph",
@@ -32,10 +34,20 @@
       ],
       "citizenship": [
         "United Kingdom"
+      ],
+      "born_in": [
+        "United Kingdom of Great Britain and Ireland"
       ]
     },
-    "lead": "Sir Arthur Charles Clarke (16 December 1917 – 19 March 2008) was an English  science fiction writer, science writer, futurist, inventor, undersea explorer, and television series host.",
+    "lead": "Sir Arthur Charles Clarke (16 December 1917 – 19 March 2008) was an English  science fiction writer, inventor, undersea explorer and TV series host.",
     "image": "",
-    "photo": "model 0.94, one person 0.97, captured 1965, during their lifetime"
+    "photo": "model 0.94, one person 0.97, captured 1965, during their lifetime",
+    "birth": {
+      "location": [
+        -3.4738,
+        51.2038
+      ],
+      "year": 1917
+    }
   }
 }

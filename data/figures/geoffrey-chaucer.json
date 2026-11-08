@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An English poet, writer and civil servant best known for The Canterbury Tales.",
   "setting": "",
+  "modern_country": "United Kingdom",
   "image": "images/geoffrey-chaucer.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Kingdom of England"
+      ],
+      "born_in": [
+        "Kingdom of England"
       ]
     },
     "lead": "Geoffrey Chaucer (; JEF-ree CHAW-sər; c. 1343 – 25 October 1400) was an English poet, writer and civil servant best known for The Canterbury Tales. He has been called the 'father of English literature', or alternatively, the 'father of English poetry'.  He was the first writer to be buried in what has since become Poets' Corner in Westminster Abbey.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -0.1275,
+        51.50722222
+      ],
+      "year": 1343
+    }
   }
 }

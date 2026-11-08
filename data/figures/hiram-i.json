@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A Phoenician king of Tyre according to the Hebrew Bible.",
   "setting": "",
+  "modern_country": "",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -29,10 +30,18 @@
       ],
       "lead": [
         "Phoenicia"
-      ]
+      ],
+      "born_in": []
     },
-    "lead": "Hiram I (Phoenician: 𐤇𐤓𐤌 Ḥirōm 'my brother is exalted'; Hebrew: חירם Ḥīrām; also called Hirom or Huram) was a Phoenician king of Tyre according to the Hebrew Bible. His regnal years have been calculated by some as 980 to 947 BC, in succession to his father, Abibaal. Hiram was succeeded as King of Tyre by his son Baal-Eser I. Hiram is also mentioned in the writings of Menander of Ephesus (early 2nd century BC), as preserved in Josephus's Against Apion, which adds to the biblical account. According to Josephus, Hiram lived for 53 years and reigned for 34.",
+    "lead": "Hiram I (Phoenician: 𐤇𐤓𐤌 Ḥirōm 'my brother is exalted'; Hebrew: חירם Ḥīrām; also called Hirom or Huram) was a Phoenician king of Tyre. His regnal years have been calculated by some as 980 to 947 BC, in succession to his father, Abibaal. Hiram was succeeded as King of Tyre by his son Baal-Eser I. Hiram is also mentioned in the writings of Menander of Ephesus (early 2nd century BC), as preserved in Josephus's Against Apion, which adds to the biblical account. According to Josephus, Hiram lived for 53 years and reigned for 34.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        35.19611111,
+        33.27083333
+      ],
+      "year": -1000
+    }
   }
 }

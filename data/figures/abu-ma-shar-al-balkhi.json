@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An early Persian Muslim astrologer, thought to be the greatest astrologer of the Abbasid court in Baghdad.",
   "setting": "",
+  "modern_country": "Afghanistan",
   "image": "images/abu-ma-shar-al-balkhi.jpg",
   "image_credit": "Martin Kraft · CC BY-SA 3.0",
   "image_kind": "Depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Abbasid Caliphate"
+      ],
+      "born_in": [
+        "Abbasid Caliphate"
       ]
     },
     "lead": "Abu Ma‘shar al-Balkhi, Latinized as Albumasar (also Albusar, Albuxar, Albumazar; full name Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī  ابومَعْشَر جعفر بن محمد بن عمر بلخی; 10 August 787 – 9 March 886, AH 171–272), was an early Persian Muslim astrologer, thought to be the greatest astrologer of the Abbasid court in Baghdad. While he was not a major innovator, his practical manuals for training astrologers profoundly influenced Muslim intellectual history and, through translations, that of western Europe and Byzantium.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        66.89805556,
+        36.75805556
+      ],
+      "year": 787
+    }
   }
 }

@@ -19,6 +19,7 @@
   ],
   "contribution": "A Brazilian lawyer and politician who served as the 22nd president of Brazil from 31 January to 25 August 1961, when he resigned from office.",
   "setting": "",
+  "modern_country": "Brazil",
   "image": "images/janio-quadros.jpg",
   "image_credit": "Agência Brasil · Public domain",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Brazilian Republic"
+      ],
+      "born_in": [
+        "Brazilian Republic"
       ]
     },
-    "lead": "Jânio da Silva Quadros (Portuguese: [ˈʒɐ̃niu dɐ ˈsiwvɐ ˈkwadɾus] ; 25 January 1917 – 16 February 1992) was a Brazilian lawyer and politician who served as the 22nd president of Brazil from 31 January to 25 August 1961, when he resigned from office. He also served as the 24th and 36th mayor of São Paulo, and the 18th governor of the state of São Paulo. Quadros was known for his populist style of government and eccentric behavior.",
+    "lead": "Jânio da Silva Quadros (Brazilian Portuguese: [ˈʒɐ̃ni.u dɐ ˈsiwvɐ ˈkwadɾus] ; 25 January 1917 – 16 February 1992) was a Brazilian lawyer and politician who served as the 22nd president of Brazil from 31 January to 25 August 1961, when he resigned from office. He also served as the 24th and 36th mayor of São Paulo, and the 18th governor of the state of São Paulo. Quadros was known for his populist style of government and eccentric behavior.",
     "image": "",
-    "photo": "model 0.90, one person 0.99, captured 1961, during their lifetime"
+    "photo": "model 0.90, one person 0.99, captured 1961, during their lifetime",
+    "birth": {
+      "location": [
+        -54.615,
+        -20.48388889
+      ],
+      "year": 1917
+    }
   }
 }

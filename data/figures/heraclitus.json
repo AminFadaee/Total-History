@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A pre-Socratic Greek philosopher from the city of Ephesus, which was then part of the Persian Empire.",
   "setting": "",
+  "modern_country": "Turkey",
   "image": "",
   "image_credit": "",
   "image_kind": "",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Achaemenid Empire"
+      ],
+      "born_in": [
+        "Achaemenid Empire"
       ]
     },
     "lead": "Heraclitus (; Ancient Greek: Ἡράκλειτος, romanized: Hērákleitos; fl. c. 500 BC) was a pre-Socratic Greek philosopher from the city of Ephesus, which was then part of the Persian Empire. He exerts a wide influence on Western philosophy, both ancient and modern, through the works of such authors as Plato, Aristotle, the Stoics, Georg Wilhelm Friedrich Hegel, Friedrich Nietzsche, and Martin Heidegger.",
     "image": "no candidate shows one person",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        27.34194444,
+        37.94111111
+      ],
+      "year": -535
+    }
   }
 }

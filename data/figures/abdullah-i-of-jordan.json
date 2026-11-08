@@ -24,6 +24,7 @@
   ],
   "contribution": "The ruler of Jordan from 11 April 1921 until his assassination in 1951.",
   "setting": "",
+  "modern_country": "Saudi Arabia",
   "image": "images/abdullah-i-of-jordan.jpg",
   "image_credit": "Author not identified at this source · Public domain",
   "image_kind": "Photograph",
@@ -52,10 +53,20 @@
       ],
       "birthplace": [
         "Ottoman Empire"
+      ],
+      "born_in": [
+        "Ottoman Empire"
       ]
     },
     "lead": "Abdullah I (né Abdullah bin Hussein al-Hashimi; 2 February 1882 – 20 July 1951) was the ruler of Jordan from 11 April 1921 until his assassination in 1951. He was the Emir of Transjordan, a British protectorate, until 25 May 1946, after which he was king of an independent Jordan. As a member of the Hashemite dynasty, the royal family of Jordan since 1921, Abdullah was a 38th-generation direct descendant of Muhammad.",
     "image": "",
-    "photo": "model 0.95, one person 0.95, captured 1928, during their lifetime"
+    "photo": "model 0.95, one person 0.95, captured 1928, during their lifetime",
+    "birth": {
+      "location": [
+        39.82333333,
+        21.4225
+      ],
+      "year": 1882
+    }
   }
 }

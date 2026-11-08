@@ -15,15 +15,25 @@
   "related": [],
   "contribution": "A Renaissance polymath who formulated a model of the universe that placed the Sun rather than Earth at its center.",
   "setting": "Eastern Europe, 16th century",
+  "modern_country": "",
   "image": "images/nicolaus-copernicus.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Later depiction",
   "photo": "",
   "photo_credit": "",
   "checks": {
-    "civilization_votes": {},
+    "civilization_votes": {
+      "born_in": []
+    },
     "lead": "Nicolaus Copernicus (19 February 1473 – 24 May 1543) was a Renaissance polymath who formulated a model of the universe that placed the Sun rather than Earth at its center. The publication of Copernicus's model in his book De revolutionibus orbium coelestium (On the Revolutions of the Celestial Spheres), just before his death in 1543, was a major event in the history of science, triggering the Copernican Revolution and making a pioneering contribution to the Scientific Revolution. Though a similar heliocentric model had been developed eighteen centuries earlier by Aristarchus of Samos, an ancient Greek astronomer, Copernicus likely arrived at his model independently.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        18.61111111,
+        53.02222222
+      ],
+      "year": 1473
+    }
   }
 }

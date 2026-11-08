@@ -19,6 +19,7 @@
   ],
   "contribution": "A Venezuelan military leader and revolutionary who fought in the American Revolutionary War, the French Revolution and the Spanish American wars of independence.",
   "setting": "",
+  "modern_country": "Venezuela",
   "image": "images/francisco-de-miranda.jpg",
   "image_credit": "Martin Tovar y Tovar · Public domain",
   "image_kind": "Later depiction",
@@ -35,10 +36,20 @@
       ],
       "birthplace": [
         "Spanish Empire"
+      ],
+      "born_in": [
+        "Spanish Empire"
       ]
     },
     "lead": "Sebastián Francisco de Miranda y Rodríguez de Espinoza (28 March 1750 – 14 July 1816), commonly known as Francisco de Miranda (Latin American Spanish: [fɾanˈsisko ðe miˈɾanda]), was a Venezuelan military leader and revolutionary who fought in the American Revolutionary War, the French Revolution and the Spanish American wars of independence. He is regarded as a precursor of South America's liberation from the Spanish Empire, and remains known as the \"First Universal Venezuelan\" and the \"Great Universal American\".",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -66.90361111,
+        10.48055556
+      ],
+      "year": 1750
+    }
   }
 }

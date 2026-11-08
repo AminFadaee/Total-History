@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "A French nobleman and chemist who was central to the 18th-century chemical revolution and who had a large influence on both the history of chemistry and the history of biology.",
   "setting": "",
+  "modern_country": "France",
   "image": "images/antoine-lavoisier.jpg",
   "image_credit": "Jacques-Louis David · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Kingdom of France"
+      ],
+      "born_in": [
+        "Kingdom of France"
       ]
     },
     "lead": "Antoine-Laurent de Lavoisier ( lə-VWAH-zee-ay; French: [ɑ̃twan lɔʁɑ̃ də lavwazje]; 26 August 1743 – 8 May 1794), also Antoine Lavoisier after the French Revolution, was a French nobleman and chemist who was central to the 18th-century chemical revolution and who had a large influence on both the history of chemistry and the history of biology.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        2.35222222,
+        48.85666667
+      ],
+      "year": 1743
+    }
   }
 }

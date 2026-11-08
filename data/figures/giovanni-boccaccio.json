@@ -17,6 +17,7 @@
   "related": [],
   "contribution": "An Italian writer, poet, correspondent of Petrarch, and an important Renaissance humanist.",
   "setting": "",
+  "modern_country": "Italy",
   "image": "images/giovanni-boccaccio.jpg",
   "image_credit": "Raffaello Sanzio Morghen / After Vincenzo Gozzini · Public domain",
   "image_kind": "Later depiction",
@@ -32,10 +33,20 @@
       ],
       "birthplace": [
         "Republic of Florence"
+      ],
+      "born_in": [
+        "Republic of Florence"
       ]
     },
     "lead": "Giovanni Boccaccio (16 June 1313 – 21 December 1375) was an Italian writer, poet, correspondent of Petrarch, and an important Renaissance humanist. Born in the town of Certaldo, he gained sufficient notoriety to be known simply as \"the Certaldese\". Boccaccio ranked among the most important figures in the European literary panorama of the fourteenth century. Some scholars (including Vittore Branca) define him as the greatest European prose writer of his time, a versatile writer who amalgamated different literary trends and genres, making them converge in original works, thanks to a creative activity exercised under the banner of experimentalism.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.04111111,
+        43.54777778
+      ],
+      "year": 1313
+    }
   }
 }
