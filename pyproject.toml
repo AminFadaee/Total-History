@@ -41,5 +41,5 @@ dev = [
 testpaths = ["tests"]
 
 [tool.page-in-history]
-# The pre-commit review of fact-file changes (see README). Off while the rulers are being sourced.
-review = false
+# The pre-commit review of fact-file changes (see README).
+review = true
