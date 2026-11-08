@@ -4,6 +4,7 @@ import pytest
 from page_in_history.dates import Span, centuries, parse, parse_range, period_label
 from page_in_history.deck import century_tag
 from page_in_history.figures import lifetime
+from page_in_history.photos import visible
 from page_in_history.polities import DATED, RulingRole, row_years, same_name
 from page_in_history.sentences import contribution, first_paragraph
 from page_in_history.sources.wikidata import YEAR_PRECISION, Year
@@ -140,3 +141,8 @@ def test_first_paragraph(extract, paragraph):
 ])
 def test_dated_descriptions(description, dated):
     assert bool(DATED.search(description)) == dated
+
+
+def test_commons_credit_drops_hidden_copies():
+    assert visible('Unknown author<span style="display: none;">Unknown author</span>') == "Unknown author"
+    assert visible('<a href="x">Jane</a> &amp; Doe') == "Jane & Doe"

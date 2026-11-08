@@ -22,9 +22,10 @@ TAG_UNSAFE = re.compile(r"[^\w-]+")
 MAX_MODERN_COUNTRIES = 10
 MAX_COUNTRY_TAGS = 3
 ASKED_KINDS = (PictureKind.PHOTOGRAPH, PictureKind.FROM_LIFE)
-SOURCE_NAMES = {"wikipedia.org": "Wikipedia", "worldhistory.org": "World History Encyclopedia",
-                "britannica.com": "Britannica", "iranicaonline.org": "Encyclopaedia Iranica", "treccani.it": "Treccani",
-                "larousse.fr": "Larousse", "encyclopediaofukraine.com": "Encyclopedia of Ukraine"}
+SOURCE_NAMES = {"wikipedia.org": "Wikipedia", "wikidata.org": "Wikidata",
+                "worldhistory.org": "World History Encyclopedia", "britannica.com": "Britannica",
+                "iranicaonline.org": "Encyclopaedia Iranica", "treccani.it": "Treccani", "larousse.fr": "Larousse",
+                "encyclopediaofukraine.com": "Encyclopedia of Ukraine"}
 
 logger = logging.getLogger(__name__)
 

@@ -178,7 +178,7 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
 
 def _disputes(polity: Polity, overrides: list[Override], name_of) -> list[dict]:
     """Each disputed value beside the deck's own, with the source of each: the deck's value first, cited by the
-    override that set it when there is one."""
+    override that set it, or for a period Wikidata and the infobox agree on, by its Wikidata item."""
     disputes = []
     for disputed in dict.fromkeys(o.disputed for o in overrides if o.action == "dispute"):
         others = [o for o in overrides if o.action == "dispute" and o.disputed == disputed]
@@ -187,7 +187,8 @@ def _disputes(polity: Polity, overrides: list[Override], name_of) -> list[dict]:
             if own is None:
                 raise ValueError(f"{polity.name}: a dispute over the period {disputed} needs a period {disputed}")
             setter = next((o for o in overrides if o.field == "period" and o.action == "set" and disputed in o.value), None)
-            values = [{"value": own.earliest, "circa": own.circa, "source": setter.cited if setter else ""}]
+            confirmed = f"https://www.wikidata.org/wiki/{polity.id}" if polity.period.confirmed else ""
+            values = [{"value": own.earliest, "circa": own.circa, "source": setter.cited if setter else confirmed}]
             values += [{"value": o.value[disputed], "circa": o.value.get("circa", False), "source": o.cited} for o in others]
         else:
             home = next((item for item in getattr(polity, disputed) if item["home"]), None)

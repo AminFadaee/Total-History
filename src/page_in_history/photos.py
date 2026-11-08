@@ -1,4 +1,5 @@
 import hashlib
+import html as markup
 import logging
 import re
 from dataclasses import dataclass
@@ -45,6 +46,7 @@ NOT_PHOTOGRAPHIC = re.compile(r"painting|drawing|lithograph|engraving|etching|wo
 PORTRAIT_CATEGORY = re.compile(r"portraits? of|paintings of|photographs of|depictions of|drawings of|engravings of", re.IGNORECASE)
 MACHINE_DATE = re.compile(r"QS:P\d*,\+(\d{3,4})-")
 HUMAN_YEAR = re.compile(r"(?<!\d)(\d{3,4})(?!\d)")
+HIDDEN = re.compile(r"<(\w+)[^>]*display:\s*none[^>]*>.*?</\1>", re.IGNORECASE | re.DOTALL)
 
 
 
@@ -388,7 +390,7 @@ class PortraitFinder:
         files = {}
         for title, entry in found.items():
             metadata = entry["page"].get("imageinfo", [{}])[0].get("extmetadata", {})
-            artist = plain(metadata.get("Artist", {}).get("value", ""))
+            artist = visible(metadata.get("Artist", {}).get("value", ""))
             licence = metadata.get("LicenseShortName", {}).get("value", "")
             files[title] = CommonsFile(title, entry["page"].get("pageid"), entry["categories"],
                                        plain(metadata.get("DateTimeOriginal", {}).get("value", "")),
@@ -459,6 +461,11 @@ def capture_year(captured: str) -> int | None:
 
 def plain(html: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html)).strip()
+
+
+def visible(html: str) -> str:
+    """The text a reader sees: hidden copies ('Unknown author' twice) dropped and entities decoded."""
+    return markup.unescape(plain(HIDDEN.sub("", html)))
 
 
 def life_span(person: Entity) -> tuple[int, int]:
