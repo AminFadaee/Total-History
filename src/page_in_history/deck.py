@@ -231,7 +231,8 @@ FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
 PHOTO = '<div class="value image photo">{{Photo}}</div>'
 PHOTO_CREDITED = '<div class="value image photo">{{Photo}}<div class="credit">{{PhotoCredit}}</div></div>'
-FIGURE_INFO = info(("Civilization", "Civilization"), ("Known for", "Contribution"), ("Related", "Related"))
+FIGURE_INFO = info(("Civilization", "Civilization"), ("Setting", "Setting"), ("Known for", "Contribution"),
+                   ("Related", "Related"))
 
 FIGURE_TEMPLATES = (
     Template("Who", Subdeck.FIGURES, ("Role",),
@@ -244,7 +245,7 @@ FIGURE_TEMPLATES = (
 )
 
 FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "Contribution", "Image", "ImageCredit",
-                 "ImageKind", "Photo", "PhotoCredit", "Related")
+                 "ImageKind", "Photo", "PhotoCredit", "Related", "Setting")
 
 CSS = """
 .card {
@@ -487,7 +488,8 @@ class DeckBuilder:
             "Name": escaped(document["name"]),
             "Role": escaped(document["role"]),
             "Life": escaped(document["life"]),
-            "Civilization": joined(civilizations) or escaped(document.get("setting", "")),
+            "Civilization": joined(civilizations),
+            "Setting": "" if civilizations else escaped(document.get("setting", "")),
             "CivilizationMap": self.media.image(maps[civilizations[0]]) if civilizations else "",
             "Contribution": escaped(document["contribution"]),
             "Image": self.media.image(document["image"]),
