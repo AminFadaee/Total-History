@@ -6,6 +6,7 @@ from dataclasses import asdict, dataclass, field
 
 from shapely.geometry import Point
 
+from page_in_history.births import Birth, agreed_birth
 from page_in_history.dates import century_label, period_label
 from page_in_history.naming import slugify
 from page_in_history.photos import PictureKind, PortraitFinder
@@ -49,6 +50,8 @@ MIN_JOINING_KM2 = 20_000
 DEATH_DISCOUNT = 0.5
 HEAD_OFFICES = ("P1906", "P1313")
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
+SAME_LAND_BEFORE_BIRTH = 100
+SAME_LAND_STEP = 5
 LEADING_CENTURY = re.compile(r"^(?:c\.\s*)?\d+(?:st|nd|rd|th)[- ]century(?:[- ](?:BCE?|AD|CE))?[- ]+", re.IGNORECASE)
 DATES_IN_PARENTHESES = re.compile(r"\s*\([^()]*\d[^()]*\)")
 TRAILING_YEAR = re.compile(r",\s*(?:c\.\s*)?\d{1,4}\s*(?:BCE?|AD|CE)?\s*$")
@@ -71,6 +74,7 @@ class Figure:
     related: list[str]
     contribution: str
     setting: str = ""
+    modern_country: str = ""
     image: str = ""
     image_credit: str = ""
     image_kind: str = ""
@@ -163,6 +167,9 @@ class FigureBuilder:
         self.head_offices: dict[str, set[str]] = {}
         self.languages: dict[str, int] = {}
         self.country_regions: dict[str, str] | None = None
+        self.countries = None
+        self.births: dict[str, Birth | None] = {}
+        self.drawn: dict[int, object] = {}
         for state in catalog.by_qid:
             for office in catalog.entities[state].ids(*HEAD_OFFICES, preferred_only=False):
                 self.head_offices.setdefault(office, set()).add(state)
@@ -183,36 +190,42 @@ class FigureBuilder:
 
     def build(self, polity_names: set[str], start: int, end: int) -> list[Figure]:
         """Every candidate is placed against the whole catalog, so civilizations outside the selection can join
-        through their people; then each civilization's figures are chosen era by era. Everyone on Meta-Wiki's list of
-        1,000 articles, and everyone renowned (known in 90 languages and among the first 60 of their region and period),
-        is kept even when none of their civilizations is in the deck: under their own state, or by region and century
-        when no state can be found for them, as for Aristotle and Herodotus."""
+        through their people; then each state's figures are chosen era by era. A figure belongs to their first
+        civilization in the deck, or else to their own state even when it has no civilization card (Ibn Saud under the
+        Kingdom of Saudi Arabia). Everyone on Meta-Wiki's list of 1,000 articles, and everyone renowned (known in 90
+        languages and among the first 60 of their region and period), is kept even when no state can be found for them,
+        by region and century, as for Aristotle and Herodotus."""
         candidates = [candidate for candidate in self._candidates()
                       if candidate.lifetime[1] >= start and candidate.lifetime[0] <= end]
         self.prepare(candidates)
         placed = [(candidate, *self.civilizations(candidate)) for candidate in candidates]
         self.joined = self.people_backed(placed, polity_names)
         deck = polity_names | set(self.joined)
-        figures = [entry for entry in placed if set(entry[1]) & deck]
+        figures = [entry for entry in placed if entry[1]]
         chosen = self.select([(candidate, civilizations) for candidate, civilizations, *_ in figures], deck)
-        homes = {next(name for name in civilizations if name in deck) for candidate, civilizations, *_ in figures
+        homes = {self._home(civilizations, deck) for candidate, civilizations, *_ in figures
                  if candidate.person.id in chosen}
         empty = deck - homes
         known = {candidate.person.id for candidate in candidates}
         filling = [entry for entry in self._second_pass(empty, known, start, end)
-                   if next((name for name in entry[1] if name in deck), None) in empty]
+                   if entry[1] and self._home(entry[1], deck) in empty]
         chosen |= self.select([(candidate, civilizations) for candidate, civilizations, *_ in filling], deck, per_cell=0)
         figures += filling
-        filled = {next(name for name in civilizations if name in deck) for candidate, civilizations, *_ in filling
+        filled = {self._home(civilizations, deck) for candidate, civilizations, *_ in filling
                   if candidate.person.id in chosen}
         logger.info("A second pass found figures for %d of %d civilizations without one", len(filled), len(empty))
-        self.extended = [{"id": candidate.person.id, "name": candidate.title,
-                          "civilization": next(name for name in civilizations if name in deck)}
-                         for candidate, civilizations, *_ in figures if candidate.person.id not in chosen]
-        outside = [entry for entry in placed if entry[0].essential and not set(entry[1]) & deck]
-        logger.info("%d people placed in the deck's civilizations, %d chosen, and %d essential people outside them",
+        self.extended = [{"id": candidate.person.id, "name": candidate.title, "civilization": home}
+                         for candidate, civilizations, *_ in figures if candidate.person.id not in chosen
+                         and (home := self._home(civilizations, deck)) in deck]
+        outside = [entry for entry in placed if entry[0].essential and not entry[1]]
+        logger.info("%d people placed in a state, %d chosen, and %d essential people placed in none",
                     len(figures), len(chosen), len(outside))
         return self._assemble([entry for entry in figures if entry[0].person.id in chosen] + outside, deck)
+
+    @staticmethod
+    def _home(civilizations: list[str], deck: set[str]) -> str | None:
+        """The person's first civilization in the deck, or else their first state."""
+        return next((name for name in civilizations if name in deck), civilizations[0] if civilizations else None)
 
     def _country_region(self, known) -> str:
         """The region of the person's birth country by Pantheon, for those the database files under no region."""
@@ -292,8 +305,8 @@ class FigureBuilder:
         return self.catalog.years(qid)[0] < LIVING_ON_MAP_BEFORE and self.cliopatria.rows(name).Area.max() >= MIN_JOINING_KM2
 
     def select(self, placed: list[tuple[Candidate, list[str]]], deck: set[str], per_cell: int = PER_CELL) -> set[str]:
-        """The figures for the deck. Each figure belongs to its first civilization in the deck, and each civilization
-        is split into eras of at most 150 years, so its people compete with their own contemporaries. In each such
+        """The figures for the deck. Each figure belongs to their first civilization in the deck, or else their first
+        state, and each is split into eras of at most 150 years, so its people compete with their own contemporaries. In each such
         segment people are ranked by the database's visibility score; chosen are those among the first 60 of their
         region and period, the segment's best person always, and anyone on Meta-Wiki's list of 1,000 articles, at most
         25 a segment. Composers are capped at 20 across the deck. Someone with a Wikipedia article in fewer than 10
@@ -302,7 +315,7 @@ class FigureBuilder:
         for candidate, civilizations in placed:
             if not candidate.core and self.languages.get(candidate.person.id, 0) < MIN_LANGUAGES:
                 continue
-            home = next(name for name in civilizations if name in deck)
+            home = self._home(civilizations, deck)
             segments.setdefault((home, self._window(home, candidate)), []).append(candidate)
         chosen: dict[str, tuple[Candidate, str]] = {}
         for (home, _), people in segments.items():
@@ -339,7 +352,7 @@ class FigureBuilder:
         self.ex_officio = {qid for qid, office in self.offices.items()
                            if any(POSITION in facets[facet].ids("P31", preferred_only=False)
                                   for facet in office.ids("P1269") if facet in facets)}
-        self.places = self.wikidata.entities([qid for candidate in candidates for qid in candidate.person.ids("P20")])
+        self.places = self.wikidata.entities([qid for candidate in candidates for qid in candidate.person.ids("P20", "P19")])
         self.categories = self._category_states(self.wikipedia.categories(titles))
         texts = self.wikipedia.wikitext(titles)
         self.links = {title: lead_links(texts.get(title, "")) for title in titles}
@@ -505,7 +518,7 @@ class FigureBuilder:
         dates meet the person's adult life comes before one that had ended or not yet begun, as Tang before Sui for
         Xuanzang; then the best supported, a place of death counting half there since exiles die abroad; among equals
         the one the person lived in longest as an adult, then one they were a citizen of, then one whose office they
-        held."""
+        held. Then the birthplace decides, where two sources agree on it (see _by_birthplace)."""
         person, adulthood = candidate.person, candidate.adulthood
         sources = {
             "office": self._offices(candidate),
@@ -531,11 +544,51 @@ class FigureBuilder:
                            key=support)
         if not confirmed and candidate.essential:
             confirmed = sorted(sorted({qid for source in SINGLE_VOTE_SOURCES for qid in sources[source]}), key=support)
-        confirmed = self._rulers_first(confirmed, headed)
+        confirmed = self._by_birthplace(candidate, self._rulers_first(confirmed, headed), sources, headed)
         related = [qid for qid in sources["lead"] if qid not in confirmed]
         names = self.catalog.by_qid
         readable = {source: [names[qid].name for qid in qids] for source, qids in sources.items() if qids}
+        if birth := self.births.get(person.id):
+            readable["born_in"] = [names[qid].name for qid in self._states_at(birth.location, birth.year)]
         return [names[qid].name for qid in confirmed], [names[qid].name for qid in related], readable
+
+    def _by_birthplace(self, candidate: Candidate, confirmed: list[str], sources: dict, headed: Counter) -> list[str]:
+        """The states drawn at the person's birthplace in their birth year, smallest first, so Tesla belongs to the
+        Austrian Empire and Gödel to Austria-Hungary, and someone the other sources place nowhere gets a state. The
+        placement from the other sources stands for a ruler, for someone holding an office of that state, and when
+        that state held the birthplace at some time from a century before the birth to the end of the person's
+        life, a later regime on the same land (Pasteur's Third Republic, Bismarck's German Empire); the birthplace then
+        adds nothing, so a ruled state without a civilization card is not displaced by a birth state that has one (Ibn
+        Saud's Kingdom of Saudi Arabia, not the Emirate of Nejd)."""
+        birth = self.births[candidate.person.id] = self._birth(candidate)
+        born = self._states_at(birth.location, birth.year) if birth else []
+        if not born:
+            return confirmed
+        if confirmed and (confirmed[0] in sources["office"] or any(years > 0 for years in headed.values())
+                          or self._same_land(confirmed[0], birth, candidate.adulthood)):
+            return confirmed
+        return born + [qid for qid in confirmed if qid not in born]
+
+    def _birth(self, candidate: Candidate) -> Birth | None:
+        """Where and when the person was born, when Pantheon, Wikidata and the database of notable people agree on the
+        place (within 100 km) and on the year (within two years): every one of them that gives it, at least two."""
+        person = candidate.person
+        known = self.pantheon.get(person.id)
+        wikidata = next((self.places[qid].coordinates() for qid in person.ids("P19")
+                         if qid in self.places and self.places[qid].coordinates()), None)
+        database, year = None, None
+        if person.id in self.frame.index:
+            row = self.frame.loc[person.id]
+            if not math.isnan(row.bplo1) and not math.isnan(row.bpla1):
+                database = (float(row.bplo1), float(row.bpla1))
+            year = round(row.birth)
+        births = person.years("P569")
+        return agreed_birth([known.birthplace if known else None, wikidata, database],
+                            [known.birth_year if known else None, births[0].earliest if births else None, year])
+
+    def _same_land(self, qid: str, birth: Birth, adulthood: tuple[int, int]) -> bool:
+        years = range(birth.year - SAME_LAND_BEFORE_BIRTH, max(adulthood[1], birth.year) + 1, SAME_LAND_STEP)
+        return any(qid in self._states_at(birth.location, year) for year in years)
 
     @staticmethod
     def _rulers_first(confirmed: list[str], headed: Counter) -> list[str]:
@@ -610,9 +663,27 @@ class FigureBuilder:
         return self._states_at(found.birthplace, found.birth_year)
 
     def _states_at(self, location: tuple[float, float], year: int) -> list[str]:
-        rows = self.cliopatria.at(year)
-        rows = rows[rows.geometry.contains(Point(location))]
-        return [self.catalog.identities[name].qid for name in rows.Name if name in self.catalog.identities]
+        """The states drawn at the point in the year, smallest first."""
+        if year not in self.drawn:
+            rows = self.cliopatria.at(year)
+            self.drawn[year] = rows[rows.Name.isin(self.catalog.identities)].sort_values("Area", kind="stable")
+        rows = self.drawn[year]
+        return [self.catalog.identities[name].qid for name in rows.Name[rows.geometry.contains(Point(location))]]
+
+    def _modern_country(self, candidate: Candidate, home: str | None) -> str:
+        """Today's country at the agreed birthplace, when the person's state held that spot at their birth or later on
+        the same land: Moshe Dayan's Ottoman Empire is modern-day Israel. Empty otherwise, as for a ruler born abroad.
+        A dependency is named as its sovereign country, as on the civilization cards."""
+        birth = self.births.get(candidate.person.id)
+        if not birth or not home:
+            return ""
+        qid = self.catalog.identities[home].qid
+        if qid not in self._states_at(birth.location, birth.year) and not self._same_land(qid, birth, candidate.adulthood):
+            return ""
+        if self.countries is None:
+            self.countries = naturalearth.countries(self.http)
+        found = self.countries[self.countries.listed & self.countries.contains(Point(birth.location))]
+        return found.listed_as.iloc[0] if len(found) else ""
 
     def _assemble(self, figures: list, deck: set[str]) -> list[Figure]:
         """Each figure under its article's title without the disambiguator ('Fuzuli', not 'Fuzuli (poet)'), kept only
@@ -644,13 +715,15 @@ class FigureBuilder:
                 contribution=contribution(paragraph, role_text, person.description),
                 setting="" if set(civilizations) & deck else setting(
                     civilizations, candidate.region or self._country_region(known), candidate.adulthood),
+                modern_country=self._modern_country(candidate, self._home(civilizations, deck)),
                 image=image,
                 image_credit=credit,
                 image_kind=image_kind or "",
                 photo=photo.file if photo else "",
                 photo_credit=photo.credit if photo else "",
                 checks={"civilization_votes": votes, "lead": paragraph, "image": image_check,
-                        "photo": photo.check if photo else photo_check},
+                        "photo": photo.check if photo else photo_check,
+                        "birth": asdict(birth) if (birth := self.births.get(person.id)) else None},
             ))
         names = Counter(figure.name for figure in assembled)
         for figure in assembled:

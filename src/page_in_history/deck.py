@@ -392,6 +392,15 @@ def joined(items: list[str], separator: str = ", ") -> str:
     return separator.join(escaped(item) for item in items)
 
 
+def with_modern_country(names: list[str], document: dict) -> list[str]:
+    """The figure's state followed by today's country at their birthplace: 'Ottoman Empire (modern-day Israel)', but
+    not 'Kingdom of Romania (modern-day Romania)'."""
+    country = document.get("modern_country", "")
+    if not names or not names[0] or not country or country in names[0]:
+        return names
+    return [f"{names[0]} (modern-day {country})"] + names[1:]
+
+
 def countries(names: list[str]) -> str:
     shown = joined(names[:MAX_MODERN_COUNTRIES])
     hidden = len(names) - MAX_MODERN_COUNTRIES
@@ -461,8 +470,8 @@ class DeckBuilder:
             "Name": escaped(document["name"]),
             "Role": escaped(document["role"]),
             "Life": escaped(document["life"]),
-            "Civilization": joined(civilizations),
-            "Setting": "" if civilizations else escaped(document.get("setting", "")),
+            "Civilization": joined(with_modern_country(civilizations, document)),
+            "Setting": "" if civilizations else joined(with_modern_country([document.get("setting", "")], document)),
             "CivilizationMap": self.media.image(maps[civilizations[0]]) if civilizations else "",
             "Contribution": escaped(document["contribution"]),
             "Image": self.media.image(document["image"]),

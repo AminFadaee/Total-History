@@ -1,8 +1,9 @@
 """The pure rules the pipeline applies to source text, each on the cases that once went wrong or easily could."""
 import pytest
 
+from page_in_history.births import Birth, agreed_birth
 from page_in_history.dates import Span, centuries, parse, parse_range, period_label
-from page_in_history.deck import century_tag
+from page_in_history.deck import century_tag, with_modern_country
 from page_in_history.figures import lifetime
 from page_in_history.photos import visible
 from page_in_history.polities import DATED, RulingRole, row_years, same_name
@@ -188,3 +189,30 @@ def test_label_falls_back_to_the_multilingual_one():
 def test_commons_credit_drops_file_names():
     assert visible("Honourable Bertrand Russell.jpg: Photographer not identified") == "Photographer not identified"
     assert visible("A_b.jpg: *A.jpg: Alex Ehrenzweig derivative work: RedAppleJack") == "Alex Ehrenzweig derivative work: RedAppleJack"
+
+
+ULM, NEAR_ULM, MUMBAI, SHIVNERI = (9.99, 48.4), (10.2, 48.6), (72.88, 19.08), (73.86, 19.2)
+
+
+@pytest.mark.parametrize("places, years, birth", [
+    ([ULM, ULM, ULM], [1879, 1879, 1879], Birth(ULM, 1879)),
+    ([None, NEAR_ULM, ULM], [None, 1879, 1880], Birth(NEAR_ULM, 1879)),
+    ([MUMBAI, SHIVNERI, SHIVNERI], [1630, 1630, 1630], None),
+    ([SHIVNERI, SHIVNERI, None], [1630, None, 1631], Birth(SHIVNERI, 1630)),
+    ([MUMBAI, SHIVNERI, None], [1630, 1630, 1630], None),
+    ([ULM, None, None], [1879, 1879, None], None),
+    ([ULM, ULM, None], [1500, None, 1440], None),
+])
+def test_a_birth_needs_two_sources_on_place_and_year(places, years, birth):
+    assert agreed_birth(places, years) == birth
+
+
+@pytest.mark.parametrize("names, country, shown", [
+    (["Ottoman Empire"], "Israel", ["Ottoman Empire (modern-day Israel)"]),
+    (["Kingdom of Romania"], "Romania", ["Kingdom of Romania"]),
+    (["Qing Dynasty", "Republic of China"], "China", ["Qing Dynasty (modern-day China)", "Republic of China"]),
+    (["Han Dynasty"], "", ["Han Dynasty"]),
+    ([], "China", []),
+])
+def test_modern_country_follows_the_first_state(names, country, shown):
+    assert with_modern_country(names, {"modern_country": country}) == shown
