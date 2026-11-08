@@ -21,6 +21,7 @@
   ],
   "contribution": "A French-Swiss architectural designer, painter, urban planner and writer who is described as one of the pioneers of what is now regarded as modern architecture.",
   "setting": "",
+  "modern_country": "",
   "image": "images/le-corbusier.jpg",
   "image_credit": "Joop van Bilsen for Anefo · CC0",
   "image_kind": "Photograph",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "French Third Republic"
       ]
     },
     "lead": "Charles-Édouard Jeanneret (6 October 1887 – 27 August 1965), known as Le Corbusier, was a French-Swiss architectural designer, painter, urban planner and writer who is described as one of the pioneers of what is now regarded as modern architecture. He was born in Switzerland to French-speaking Swiss parents and acquired French nationality in 1930. He designed buildings in Europe, Japan, India, and the Americas during a five-decade career. He considered that \"the roots of modern architecture are to be found in Viollet-le-Duc.\"",
     "image": "",
-    "photo": "model 0.79, one person 0.96, in Category:Photographs by Joop van Bilsen in Amsterdam (1964)"
+    "photo": "model 0.79, one person 0.96, in Category:Photographs by Joop van Bilsen in Amsterdam (1964)",
+    "birth": {
+      "location": [
+        6.825,
+        47.10133333
+      ],
+      "year": 1887
+    }
   }
 }

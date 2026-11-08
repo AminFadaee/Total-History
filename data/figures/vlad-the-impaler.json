@@ -20,6 +20,7 @@
   ],
   "contribution": "Voivode of Wallachia during three separate reigns.",
   "setting": "",
+  "modern_country": "",
   "image": "images/vlad-the-impaler.jpg",
   "image_credit": "Anonymous · Public domain",
   "image_kind": "Depiction",
@@ -37,10 +38,20 @@
       ],
       "birthplace": [
         "Kingdom of Hungary"
+      ],
+      "born_in": [
+        "Kingdom of Hungary"
       ]
     },
     "lead": "Vlad III (1428–31 – 1476/77), commonly known as Vlad the Impaler (Romanian: Vlad Țepeș [ˈvlad ˈtsepeʃ]) or Vlad Dracula ( DRAK-yuu-lə, -⁠yə-; Romanian: Vlad Drăculea [ˈdrəkule̯a]), was Voivode of Wallachia during three separate reigns (1448, 1456–1462, and 1476). He was born in the House of Drăculești, as the son of Vlad II Dracul. Vlad is chiefly remembered for his efforts to strengthen central authority, suppress the power of rival boyars, and resist the expansion of the Ottoman Empire. His 1462 campaign against Sultan Mehmed II, including the Night Attack at Târgoviște, became one of the most notable military episodes of his reign. He was killed in battle in 1476 or 1477 during his final attempt to retain the Wallachian throne.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        24.79111111,
+        46.21694444
+      ],
+      "year": 1431
+    }
   }
 }

@@ -12,11 +12,13 @@
   "occupation": "Writer",
   "birth_country": "Belgium",
   "civilizations": [
+    "Kingdom of Belgium",
     "Argentine Republic"
   ],
   "related": [],
   "contribution": "An Argentine and naturalised French novelist, short story writer, poet, essayist, and translator.",
   "setting": "",
+  "modern_country": "",
   "image": "images/julio-cortazar.jpg",
   "image_credit": "Sara Facio · Public domain",
   "image_kind": "Photograph",
@@ -39,10 +41,20 @@
       ],
       "birthplace": [
         "Kingdom of Belgium"
+      ],
+      "born_in": [
+        "Kingdom of Belgium"
       ]
     },
     "lead": "Julio Florencio Cortázar (Latin American Spanish: [ˈxuljo koɾˈtasaɾ] ; 26 August 1914 – 12 February 1984) was an Argentine and naturalised French novelist, short story writer, poet, essayist, and translator. Known as one of the founders of the Latin American Boom, Cortázar influenced an entire generation of Spanish-speaking readers and writers in America and Europe.",
     "image": "",
-    "photo": "model 0.95, one person 1.00"
+    "photo": "model 0.95, one person 1.00",
+    "birth": {
+      "location": [
+        4.36666667,
+        50.83333333
+      ],
+      "year": 1914
+    }
   }
 }

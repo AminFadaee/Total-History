@@ -12,11 +12,13 @@
   "occupation": "Companion",
   "birth_country": "Italy",
   "civilizations": [
-    "Kingdom of France"
+    "Kingdom of France",
+    "Republic of Florence"
   ],
   "related": [],
   "contribution": "Queen of France from 1547 to 1559 by marriage to King Henry II.",
   "setting": "",
+  "modern_country": "",
   "image": "images/catherine-de-medici.jpg",
   "image_credit": "Attributed to Germain Le Mannier · Public domain",
   "image_kind": "Portrait from life",
@@ -32,10 +34,20 @@
       ],
       "birthplace": [
         "Republic of Florence"
+      ],
+      "born_in": [
+        "Republic of Florence"
       ]
     },
-    "lead": "Catherine de' Medici (13 April 1519 – 5 January 1589) was Queen of France from 1547 to 1559 by marriage to King Henry II. She was the mother of French kings Francis II, Charles IX, and Henry III, and a cousin to Pope Clement VII. The years during which her sons reigned have been called \"the age of Catherine de' Medici\" since she had extensive, albeit at times varying, influence on the political life of France.",
+    "lead": "Catherine de' Medici (13 April 1519 – 5 January 1589) was Queen of France from 1547 to 1559 by marriage to King Henry II. She was the mother of French kings Francis II, Charles IX, and Henry III, and a cousin to Pope Clement VII. The years during which her sons reigned have been called \"the age of Catherine de' Medici\" since she had extensive, albeit at times varying, influence on French politics.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.25416667,
+        43.77138889
+      ],
+      "year": 1519
+    }
   }
 }

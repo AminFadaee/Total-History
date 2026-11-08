@@ -12,11 +12,13 @@
   "occupation": "Writer",
   "birth_country": "South Africa",
   "civilizations": [
-    "United Kingdom"
+    "United Kingdom",
+    "Free Orange State"
   ],
   "related": [],
   "contribution": "He was the author of the high fantasy works The Hobbit and The Lord of the Rings.",
   "setting": "",
+  "modern_country": "",
   "image": "images/j-r-r-tolkien.jpg",
   "image_credit": "Unknown photo studio commissioned by Tolkien's students 1925/6 (private communication from Catherine McIlwaine, Tolkien Archivist, Bodleian Library) · Public domain",
   "image_kind": "Photograph",
@@ -32,10 +34,20 @@
       ],
       "citizenship": [
         "United Kingdom"
+      ],
+      "born_in": [
+        "Free Orange State"
       ]
     },
-    "lead": "John Ronald Reuel Tolkien (; 3 January 1892 – 2 September 1973) was an English writer and academic philologist. He was the author of the high fantasy works The Hobbit (1937) and The Lord of the Rings (1954–1955).",
+    "lead": "John Ronald Reuel Tolkien (3 January 1892 – 2 September 1973) was an English writer and academic philologist. He was the author of the high fantasy works The Hobbit (1937) and The Lord of the Rings (1954–1955).",
     "image": "",
-    "photo": "model 0.96, one person 0.99, in Category:1920s portrait photographs of men"
+    "photo": "model 0.96, one person 0.99, in Category:1920s portrait photographs of men",
+    "birth": {
+      "location": [
+        26.21666667,
+        -29.11666667
+      ],
+      "year": 1892
+    }
   }
 }

@@ -12,11 +12,13 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
+    "Electorate of Trier",
     "Kalmar Union"
   ],
   "related": [],
-  "contribution": "King of Denmark, Sweden and Norway during the era of the Kalmar Union.",
+  "contribution": "King of Denmark, Sweden, and Norway during the Kalmar Union.",
   "setting": "",
+  "modern_country": "",
   "image": "images/christopher-of-bavaria.jpg",
   "image_credit": "Unknown author · Public domain",
   "image_kind": "Depiction",
@@ -35,10 +37,20 @@
       ],
       "birthplace": [
         "Electorate of Trier"
+      ],
+      "born_in": [
+        "Electorate of Trier"
       ]
     },
-    "lead": "Christopher of Bavaria (Danish and Norwegian: Christoffer; Swedish: Kristofer; 26 February 1416 – 5/6 January 1448) was King of Denmark (1440–48, as Christopher III), Sweden (1441–48) and Norway (1442–48) during the era of the Kalmar Union. He ruled after the Kalmar Union's King Erik of Pomerania was deposed. Early in his reign, he put down two peasant rebellions in Funen and Jutland. He was disliked by the Swedish nobles, as they pointed to his inability to manage harvest failures and to stop Erik's plundering. They also questioned his foreign background.",
+    "lead": "Christopher of Bavaria (Danish and Norwegian: Christoffer; Swedish: Kristofer; 26 February 1416 – 5/6 January 1448) was King of Denmark (1440–1448, as Christopher III), Sweden (1441–1448), and Norway (1442–1448) during the Kalmar Union. He ruled after the Kalmar Union's King Erik of Pomerania was deposed. Early in his reign, he put down two peasant rebellions in Funen and Jutland. He was disliked by the Swedish nobles, as they pointed to his inability to manage harvest failures and to stop Erik's plundering. They also questioned his foreign background.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        11.46666667,
+        49.28333333
+      ],
+      "year": 1416
+    }
   }
 }

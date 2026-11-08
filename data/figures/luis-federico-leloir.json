@@ -12,11 +12,13 @@
   "occupation": "Chemist",
   "birth_country": "France",
   "civilizations": [
-    "Argentine Republic"
+    "Argentine Republic",
+    "French Third Republic"
   ],
   "related": [],
   "contribution": "An Argentine physician and biochemist who received the 1970 Nobel Prize in Chemistry for his discovery of the metabolic pathways by which carbohydrates are synthesized and converted into energy in the body.",
   "setting": "",
+  "modern_country": "",
   "image": "images/luis-federico-leloir.jpg",
   "image_credit": "Public domain",
   "image_kind": "Photograph",
@@ -33,10 +35,20 @@
       ],
       "birthplace": [
         "French Third Republic"
+      ],
+      "born_in": [
+        "French Third Republic"
       ]
     },
     "lead": "Luis Federico Leloir  (6 September 1906 – 2 December 1987) was an Argentine physician and biochemist who received the 1970 Nobel Prize in Chemistry for his discovery of the metabolic pathways by which carbohydrates are synthesized and converted into energy in the body. Although born in France, Leloir received the majority of his education at the University of Buenos Aires and was director of the private research group Fundación Instituto Campomar until his death in 1987. His research into sugar nucleotides, carbohydrate metabolism, and renal hypertension garnered international attention and led to significant progress in understanding, diagnosing and treating the congenital disease galactosemia. Leloir is buried in La Recoleta Cemetery, Buenos Aires.",
     "image": "",
-    "photo": "model 0.95, one person 0.99"
+    "photo": "model 0.95, one person 0.99",
+    "birth": {
+      "location": [
+        2.35222222,
+        48.85666667
+      ],
+      "year": 1906
+    }
   }
 }

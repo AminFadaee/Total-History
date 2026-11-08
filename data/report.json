@@ -5,7 +5,7 @@
     "end": 2024
   },
   "civilizations": 496,
-  "figures": 2962,
+  "figures": 2963,
   "failures": [],
   "errata_dropped": [
     {
@@ -8883,6 +8883,105 @@
     }
   ],
   "needs_verification": [],
+  "figure_overrides_applied": [
+    {
+      "figure": "J. R. R. Tolkien",
+      "field": "civilization",
+      "value": "United Kingdom"
+    },
+    {
+      "figure": "George Orwell",
+      "field": "civilization",
+      "value": "United Kingdom"
+    },
+    {
+      "figure": "Luis Federico Leloir",
+      "field": "civilization",
+      "value": "Argentine Republic"
+    },
+    {
+      "figure": "Catherine de' Medici",
+      "field": "civilization",
+      "value": "Kingdom of France"
+    },
+    {
+      "figure": "Doris Lessing",
+      "field": "civilization",
+      "value": "United Kingdom"
+    },
+    {
+      "figure": "Le Corbusier",
+      "field": "civilization",
+      "value": "Swiss Confederation"
+    },
+    {
+      "figure": "Huldrych Zwingli",
+      "field": "civilization",
+      "value": "Old Swiss Confederacy"
+    },
+    {
+      "figure": "Michel de Montaigne",
+      "field": "civilization",
+      "value": "Kingdom of France"
+    },
+    {
+      "figure": "Max Weber",
+      "field": "civilization",
+      "value": "Prussia"
+    },
+    {
+      "figure": "Tokugawa Iemitsu",
+      "field": "contribution",
+      "value": "A Japanese samurai, daimyo and the third shōgun of the Tokugawa dynasty."
+    },
+    {
+      "figure": "Muqan Qaghan",
+      "field": "contribution",
+      "value": "The second son of Bumin Qaghan and the third khagan of the Göktürks and the First Turkic Khaganate."
+    },
+    {
+      "figure": "Selim III",
+      "field": "contribution",
+      "value": "Regarded as an enlightened ruler, he was eventually deposed and imprisoned by the Janissaries, who placed his cousin Mustafa on the throne as Mustafa IV."
+    },
+    {
+      "figure": "George H. W. Bush",
+      "field": "contribution",
+      "value": "The 41st president of the United States, serving from 1989 to 1993."
+    },
+    {
+      "figure": "Hasan ibn Ali",
+      "field": "contribution",
+      "value": "The eldest son of Ali and Fatima and a grandson of the Islamic prophet Muhammad."
+    },
+    {
+      "figure": "Hiram I",
+      "field": "contribution",
+      "value": "A Phoenician king of Tyre according to the Hebrew Bible."
+    },
+    {
+      "figure": "Perseus of Macedon",
+      "field": "contribution",
+      "value": "King of the ancient Greek kingdom of Macedon from 179 until 168 BC."
+    },
+    {
+      "figure": "Al-Ghazali",
+      "field": "contribution",
+      "value": "A Shafi'i Ash'ari Sunni Muslim scholar and polymath."
+    },
+    {
+      "figure": "Yasovarman I",
+      "field": "role",
+      "value": "King of the Khmer Empire"
+    }
+  ],
+  "figure_overrides_unused": [
+    {
+      "figure": "Lý Nhân Tông",
+      "field": "civilization",
+      "value": "Đại Việt"
+    }
+  ],
   "unresolved_polities": {
     "Ahi Republic": "Wikipedia link 'Ahis' is not a polity article",
     "Alans": "Wikipedia link 'Alans' is not a polity article",

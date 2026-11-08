@@ -12,6 +12,7 @@
   "occupation": "Religious figure",
   "birth_country": "Spain",
   "civilizations": [
+    "County of Foix",
     "Kingdom of Navarre"
   ],
   "related": [
@@ -20,6 +21,7 @@
   ],
   "contribution": "A Navarrese cleric and missionary.",
   "setting": "",
+  "modern_country": "",
   "image": "images/francis-xavier.jpg",
   "image_credit": "Public domain",
   "image_kind": "Depiction",
@@ -38,10 +40,20 @@
       ],
       "birthplace": [
         "County of Foix"
+      ],
+      "born_in": [
+        "County of Foix"
       ]
     },
     "lead": "Francis Xavier (born Francisco de Jasso y Azpilicueta; formerly de Jasso y de Xabier; 7 April 1506 – 3 December 1552), venerated as Saint Francis Xavier, was a Navarrese cleric and missionary. He co-founded the Society of Jesus and, as a representative of the Portuguese Empire, led the first Christian mission to Japan.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -1.21666667,
+        42.6
+      ],
+      "year": 1506
+    }
   }
 }

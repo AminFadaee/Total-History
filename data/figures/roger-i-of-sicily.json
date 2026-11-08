@@ -12,11 +12,13 @@
   "occupation": "Nobleman",
   "birth_country": "France",
   "civilizations": [
+    "Duchy of Normandy",
     "Emirate of Sicily"
   ],
   "related": [],
   "contribution": "A Norman nobleman who became the first Grand Count of Sicily from 1071 to 1101.",
   "setting": "",
+  "modern_country": "",
   "image": "images/roger-i-of-sicily.jpg",
   "image_credit": "An artist from Château de Pirou, Normandia · Public domain",
   "image_kind": "Depiction",
@@ -32,10 +34,20 @@
       ],
       "birthplace": [
         "Duchy of Normandy"
+      ],
+      "born_in": [
+        "Duchy of Normandy"
       ]
     },
     "lead": "Roger I (Italian: Ruggero; Arabic: رُجار, romanized: Rujār; Maltese: Ruġġieru; Norse: Rogeirr; c. 1031 – 22 June 1101), nicknamed \"Roger Bosso\" and \"Grand Count Roger\", was a Norman nobleman who became the first Grand Count of Sicily from 1071 to 1101.",
     "image": "",
-    "photo": "no death year in or after 1860"
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        -1.3006,
+        49.1272
+      ],
+      "year": 1031
+    }
   }
 }
