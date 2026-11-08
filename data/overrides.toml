@@ -9456,3 +9456,1435 @@ source = "https://en.wikipedia.org/wiki/Duchy_of_Savoy"
 quote = "was a territorial entity of the Savoyard state that existed from 1416 until 1847 and was a possession of the House of Savoy"
 retrieved = 2026-11-07
 note = "the opening sentence without its dates, which follow a wider definition than the card's period"
+
+[[override]]
+civilization = "Dutch Republic"
+civilization_id = "Q170072"
+field = "key_figures"
+action = "set"
+value = ["Maurice, Prince of Orange", "Frederick Henry, Prince of Orange", "William II of Orange", "William V, Prince of Orange"]
+value_id = ["Q164062", "Q167236", "Q311455", "Q312215"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Maurice, Prince of Orange (no cited sentence says he held the stadtholderate or headed the Republic); no source yet for William II of Orange (no cited sentence found in his or the state article)"
+sources = [
+  { fact = "Frederick Henry, Prince of Orange was a ruler or leading figure of Dutch Republic", source = "https://en.wikipedia.org/wiki/Frederick_Henry%2C_Prince_of_Orange", quote = "For twenty-two years, he remained at the head of government in the United Provinces, and in his time the power of the stadtholderate reached its peak." },
+  { fact = "William V, Prince of Orange was a ruler or leading figure of Dutch Republic", source = "https://en.wikipedia.org/wiki/William_V%2C_Prince_of_Orange", quote = "William V assumed the position of stadtholder and Captain-General of the Dutch States Army on his majority in 1766." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Dzungar Khanate"
+civilization_id = "Q1923401"
+field = "key_figures"
+action = "set"
+value = ["Erdeni Batur", "Sengge", "Galdan Boshugtu Khan", "Tsewang Rabtan Khan"]
+value_id = ["Q743749", "Q865752", "Q1395045", "Q1398132"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Erdeni Batur was a ruler or leading figure of Dzungar Khanate", source = "https://en.wikipedia.org/wiki/Erdeni_Batur", quote = "Erdeni Batur was the son of Kharkhul who was taishi (Mongolian: тайш) of the dominant Choros tribe and the leader of the allied Four Oirat, collectively known as \"Dzungars.\" After the death of his father in 1634, Erdeni Batur assumed his father's position and formed the Dzungar Khanate on the Tarbagatai Mountains, marrying Amin Dara." },
+  { fact = "Sengge was a ruler or leading figure of Dzungar Khanate", source = "https://en.wikipedia.org/wiki/Sengge", quote = "Sengge ruled over a section of the Dzungar from 1653 until his murder in 1671 by his two older half-brothers Chechen Tayiji and Zotov Batur." },
+  { fact = "Galdan Boshugtu Khan was a ruler or leading figure of Dzungar Khanate", source = "https://en.wikipedia.org/wiki/Dzungar_Khanate", quote = "In 1678, Galdan received from the Dalai Lama the title of Boshogtu Khan, making the Dzungars the leading tribe within the Oirats." },
+  { fact = "Tsewang Rabtan Khan was a ruler or leading figure of Dzungar Khanate", source = "https://en.wikipedia.org/wiki/Tsewang_Rabtan_Khan", quote = "During which, Tsewang had revolted against Galdan and defecting to the Qing side on 1689, and soon consolidating himself as the Khong tayiji of the Dzungar Khanate in 1697." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Early Dynastic Period of Egypt"
+civilization_id = "Q187979"
+field = "key_figures"
+action = "set"
+value = ["Narmer", "Den", "Khasekhemwy"]
+value_id = ["Q189582", "Q151822", "Q294266"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Narmer was a ruler or leading figure of Early Dynastic Period of Egypt", source = "https://en.wikipedia.org/wiki/Early_Dynastic_Period_%28Egypt%29", quote = "During his reign in Upper Egypt, King Narmer defeated his enemies on the Delta and merged both the Kingdom of Upper and Lower Egypt under his single rule." },
+  { fact = "Den was a ruler or leading figure of Early Dynastic Period of Egypt", source = "https://en.wikipedia.org/wiki/Den_%28pharaoh%29", quote = "Den was interred within a tomb (\"Tomb T\") in the Umm El Qa'ab area of Abydos, which is associated with other First Dynasty kings." },
+  { fact = "Khasekhemwy was a ruler or leading figure of Early Dynastic Period of Egypt", source = "https://en.wikipedia.org/wiki/Khasekhemwy", quote = "In addition, Manetho states Khasekhemwy ruled Egypt for thirty years, while the Turin King List states it was only twenty-seven years and a lifespan of forty years." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "East Franks"
+civilization_id = "Q153080"
+field = "key_figures"
+action = "set"
+value = ["Louis the German", "Charles the Fat", "Henry the Fowler", "Otto the Great"]
+value_id = ["Q152463", "Q150712", "Q150620", "Q43915"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Charles the Fat (no cited sentence on his page mentions East Francia or kingship)"
+sources = [
+  { fact = "Louis the German was a ruler or leading figure of East Franks", source = "https://en.wikipedia.org/wiki/Louis_the_German", quote = "As there exist only 172 royal documents from 59 years of his reign as first the King of Bavaria and later the King of East Francia, it is impossible to construct a detailed picture of Louis' whereabouts in the East Frankish kingdom." },
+  { fact = "Henry the Fowler was a ruler or leading figure of East Franks", source = "https://en.wikipedia.org/wiki/Henry_the_Fowler", quote = "Henry the Fowler (German: Heinrich der Vogler or Heinrich der Finkler; Latin: Henricus Auceps or Henry I (German: Heinrich I.); c. 876 – 2 July 936) was the duke of Saxony from 912 and the king of East Francia from 919 until his death in 936." },
+  { fact = "Otto the Great was a ruler or leading figure of East Franks", source = "https://en.wikipedia.org/wiki/Otto_the_Great", quote = "Otto I (23 November 912 – 7 May 973), known as Otto the Great (German: Otto der Große; Italian: Ottone il Grande) or Otto of Saxony (German: Otto von Sachsen; Italian: Ottone di Sassonia), was an East Frankish (German) king from 936 and Holy Roman Emperor from 962 until his death in 973." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Eastern Wu"
+civilization_id = "Q274488"
+field = "key_figures"
+action = "set"
+value = ["Sun Quan", "Sun Liang", "Sun Xiu", "Sun Hao"]
+value_id = ["Q313327", "Q470034", "Q468767", "Q470030"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Sun Hao (cited sentences only imply he was chosen as emperor; none states it)"
+sources = [
+  { fact = "Sun Quan was a ruler or leading figure of Eastern Wu", source = "https://en.wikipedia.org/wiki/Eastern_Wu", quote = "Despite Sun Quan proclaiming himself emperor in 229, its politics reflected its warlord origins." },
+  { fact = "Sun Liang was a ruler or leading figure of Eastern Wu", source = "https://en.wikipedia.org/wiki/Sun_Liang", quote = "Sun Liang (243 – 260), courtesy name Ziming, was the second emperor of the state of Eastern Wu during the Three Kingdoms period of China." },
+  { fact = "Sun Xiu was a ruler or leading figure of Eastern Wu", source = "https://en.wikipedia.org/wiki/Sun_Xiu", quote = "In November 258, after a failed coup against the regent Sun Chen (Sun Jun's cousin and successor), Sun Liang was deposed and replaced with Sun Xiu as the new emperor of Wu." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Electorate of Saxony"
+civilization_id = "Q156199"
+field = "key_figures"
+action = "set"
+value = ["Rudolf I of Saxe-Wittenberg", "Frederick I, Elector of Saxony", "Frederick III of Saxony", "Frederick Augustus I of Saxony"]
+value_id = ["Q699820", "Q704939", "Q77233", "Q53444"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Frederick Augustus I of Saxony (no cited sentence found in his or the state article)"
+sources = [
+  { fact = "Rudolf I of Saxe-Wittenberg was a ruler or leading figure of Electorate of Saxony", source = "https://en.wikipedia.org/wiki/Electorate_of_Saxony", quote = "Through it Emperor Charles IV permanently granted the electoral privilege to the Duke of Saxony, being the Duke Rudolf I of Saxe-Wittenberg, and decreed the indivisibility of the Saxon ducal territory." },
+  { fact = "Frederick I, Elector of Saxony was a ruler or leading figure of Electorate of Saxony", source = "https://en.wikipedia.org/wiki/Electorate_of_Saxony", quote = "Since Frederick I's support for Sigismund's efforts during the religious Hussite Wars of 1419–1434 was of great importance to the king, he awarded the Saxon inheritance to the Wettin claimant, granting both the Duchy of Saxe-Wittenberg and the Saxon electoral dignity to Frederick I in 1423." },
+  { fact = "Frederick III of Saxony was a ruler or leading figure of Electorate of Saxony", source = "https://en.wikipedia.org/wiki/Frederick_III_of_Saxony", quote = "Frederick protected Luther to safeguard the reputation of Saxony's University and to protect Saxony from external interference; since Saxony was a electorate for the imperial throne, neither the Popes nor the Habsburg emperors were willing to affect the imperial election by pursuing the matter against Frederick." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Emirate of Bukhara"
+civilization_id = "Q746558"
+field = "key_figures"
+action = "set"
+value = ["Shah Murad", "Nasrullah Khan", "Sayyid Mir Muhammad Alim Khan"]
+value_id = ["Q4521263", "Q3870512", "Q558626"]
+retrieved = 2026-11-07
+note = "Abdurauf Fitrat dropped: reformist writer and scholar of Bukhara, not a ruler or state official in the cited text"
+sources = [
+  { fact = "Shah Murad was a ruler or leading figure of Emirate of Bukhara", source = "https://en.wikipedia.org/wiki/Emirate_of_Bukhara", quote = "The Emirate of Bukhara was officially created in 1785, upon the assumption of rulership by the Manghit emir, Shah Murad." },
+  { fact = "Nasrullah Khan was a ruler or leading figure of Emirate of Bukhara", source = "https://en.wikipedia.org/wiki/Nasrullah_Khan_%28emir_of_Bukhara%29", quote = "Amir Nasrulloh or Nasrullah Khan (Chagatai and Persian: نصرالله خان), or Amir Muhammad Nasrullah Bahadur Khan, was the Emir of Bukhara from 24 April 1827 to 20 October 1860." },
+  { fact = "Sayyid Mir Muhammad Alim Khan was a ruler or leading figure of Emirate of Bukhara", source = "https://en.wikipedia.org/wiki/Emirate_of_Bukhara", quote = "Reformists within the Emirate had found the conservative emir, Mohammed Alim Khan, unwilling to loosen his grip on power, and had turned to the Russian Bolshevik revolutionaries for military assistance." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Emirate of Córdoba"
+civilization_id = "Q1337854"
+field = "key_figures"
+action = "set"
+value = ["Abd al-Rahman I", "Hisham I of Córdoba", "Abd ar-Rahman II", "Abd al-Rahman III"]
+value_id = ["Q29000", "Q348593", "Q307412", "Q190418"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Abd ar-Rahman II (no cited sentence found)"
+sources = [
+  { fact = "Abd al-Rahman I was a ruler or leading figure of Emirate of Córdoba", source = "https://en.wikipedia.org/wiki/Emirate_of_C%C3%B3rdoba", quote = "In 756, Abd al-Rahman I, a prince of the deposed Umayyad royal family, refused to recognize the authority of the Abbasid Caliphate and became an independent emir of Córdoba." },
+  { fact = "Hisham I of Córdoba was a ruler or leading figure of Emirate of Córdoba", source = "https://en.wikipedia.org/wiki/Hisham_I_of_C%C3%B3rdoba", quote = "Hisham I Al-Reda ibn Abd ar-Rahman (Arabic: هشام بن عبد الرحمن الداخل) was the second Emir of Cordoba, ruling from 788 to 796 in al-Andalus." },
+  { fact = "Abd al-Rahman III was a ruler or leading figure of Emirate of Córdoba", source = "https://en.wikipedia.org/wiki/Emirate_of_C%C3%B3rdoba", quote = "From 756 it was ruled as an independent emirate until Abd al-Rahman III proclaimed himself as caliph in 929." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Emirate of Diriyah"
+civilization_id = "Q146871"
+field = "key_figures"
+action = "set"
+value = ["Muhammad bin Saud Al Muqrin", "Abdulaziz bin Muhammad Al Saud", "Saud bin Abdulaziz Al Saud", "Abdullah bin Saud Al Saud"]
+value_id = ["Q1319659", "Q307187", "Q2227089", "Q307587"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Muhammad bin Saud Al Muqrin was a ruler or leading figure of Emirate of Diriyah", source = "https://en.wikipedia.org/wiki/Muhammad_bin_Saud_Al_Muqrin", quote = "Muhammad bin Saud Al Muqrin Al Saud (Arabic: محمد بن سعود آل مقرن, romanized: Muḥammad bin Suʿūd Āl Muqrin; 1687 – 1765), also known as Ibn Saud, was the emir of Diriyah and is considered the founder of the First Saudi State and the Saud dynasty, named after his father, Saud bin Muhammad Al Muqrin." },
+  { fact = "Abdulaziz bin Muhammad Al Saud was a ruler or leading figure of Emirate of Diriyah", source = "https://en.wikipedia.org/wiki/Abdulaziz_bin_Muhammad_Al_Saud", quote = "Abdulaziz bin Muhammad Al Saud (Arabic: عبد العزيز بن محمد آل سعود ʿAbd al ʿAzīz bin Muḥammad Āl Suʿūd; 1720–1803) was the second ruler of the Emirate of Diriyah." },
+  { fact = "Saud bin Abdulaziz Al Saud was a ruler or leading figure of Emirate of Diriyah", source = "https://en.wikipedia.org/wiki/Saud_bin_Abdulaziz_Al_Saud_%281748%E2%80%931814%29", quote = "Saud bin Abdulaziz Al Saud (Arabic: سعود بن عبد العزيز بن محمد بن سعود, romanized: Suʿūd ibn ʿAbd al-ʿAzīz ibn Muḥammad ibn Suʿūd; 1748 – 27 April 1814) ruled the First Saudi State from 1803 to 1814." },
+  { fact = "Abdullah bin Saud Al Saud was a ruler or leading figure of Emirate of Diriyah", source = "https://en.wikipedia.org/wiki/Abdullah_bin_Saud_Al_Saud", quote = "Abdullah bin Saud Al Saud (Arabic: عبد الله بن سعود آل سعود, romanized: ʿAbd Allāh bin Suʿūd Āl Suʿūd; died May 1819) was the last ruler of the First Saudi State, from 1814 to 1818, and was executed in Istanbul under the Ottoman Empire." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Emirate of Granada"
+civilization_id = "Q238445"
+field = "key_figures"
+action = "set"
+value = ["Muhammad I of Granada", "Muhammad II of Granada", "Muhammad III of Granada", "Muhammad XI of Granada"]
+value_id = ["Q510879", "Q972278", "Q704786", "Q312763"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Muhammad III of Granada (cited sentences only mention him as grandson and crown prince, none states his rule)"
+sources = [
+  { fact = "Muhammad I of Granada was a ruler or leading figure of Emirate of Granada", source = "https://en.wikipedia.org/wiki/Emirate_of_Granada", quote = "After Almohad control retreated in 1228, the ambitious Muhammad I Ibn al-Ahmar rose to power and established the Nasrid dynasty in control of a sizeable portion of this territory, roughly corresponding to the modern Spanish provinces of Granada, Almería, and Málaga." },
+  { fact = "Muhammad II of Granada was a ruler or leading figure of Emirate of Granada", source = "https://en.wikipedia.org/wiki/Emirate_of_Granada", quote = "During Muhammad II's reign, a long-term pattern of diplomacy and geopolitical competition became evident, with the Nasrids, Castilians, and Marinids each playing with or against each other at various times." },
+  { fact = "Muhammad XI of Granada was a ruler or leading figure of Emirate of Granada", source = "https://en.wikipedia.org/wiki/Muhammad_XI_of_Granada", quote = "Muhammad XI was the son of Abu l-Hasan Ali, Sultan of the Emirate of Granada whom he succeeded in 1482, as a result of both court intrigue and unrest amongst the population at large." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Emirate of Jabal Shammar"
+civilization_id = "Q5362837"
+field = "key_figures"
+action = "set"
+value = ["Abdullah bin Ali Al Rashid", "Muhammad bin Talal Al Rashid"]
+value_id = ["Q2820938", "Q12240160"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Muhammad bin Talal Al Rashid (page says his rule began in 1921 after the emirate ended; role in the state unclear)"
+sources = [
+  { fact = "Abdullah bin Ali Al Rashid was a ruler or leading figure of Emirate of Jabal Shammar", source = "https://en.wikipedia.org/wiki/Abdullah_bin_Ali_Al_Rashid", quote = "He founded the Emirate in 1836 and ruled it until 1848." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Emirate of Nejd"
+civilization_id = "Q146862"
+field = "key_figures"
+action = "set"
+value = ["Turki bin Abdullah Al Saud", "Abdul Rahman bin Faisal Al Saud"]
+value_id = ["Q2460824", "Q317421"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Turki bin Abdullah Al Saud was a ruler or leading figure of Emirate of Nejd", source = "https://en.wikipedia.org/wiki/Turki_bin_Abdullah_Al_Saud_%281755%E2%80%931834%29", quote = "Turki bin Abdullah Al Saud (Arabic: ترکي بن عبدالله بن محمد;‎ 1755 – 9 May 1834) was the founder of the Emirate of Najd, also known as Second Saudi State and ruled Najd from 1823–1834 following administration by the Ottoman Empire." },
+  { fact = "Abdul Rahman bin Faisal Al Saud was a ruler or leading figure of Emirate of Nejd", source = "https://en.wikipedia.org/wiki/Emirate_of_Nejd", quote = "Upon Faisal's death in 1865 the state began to decline because different rulers, namely Abdullah, Saud, Abdul Rahman and Saud's sons, became the head of the state until 1891." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Emirate of Sicily"
+civilization_id = "Q1250763"
+field = "key_figures"
+action = "set"
+value = ["Abu'l-Qasim Ali ibn al-Hasan al-Kalbi", "Abd Allah ibn Muhammad", "Thiqat al-Dawla", "Jaʿfar II al-Kalbī"]
+value_id = ["Q335628", "Q13195326", "Q13195336", "Q15109151"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Abd Allah ibn Muhammad (no Wikipedia page title given; nothing found); no source yet for Jaʿfar II al-Kalbī (no Wikipedia page title given; nothing found)"
+sources = [
+  { fact = "Abu'l-Qasim Ali ibn al-Hasan al-Kalbi was a ruler or leading figure of Emirate of Sicily", source = "https://en.wikipedia.org/wiki/Abu%27l-Qasim_Ali_ibn_al-Hasan_al-Kalbi", quote = "The next year Abu'l-Qasim, Ahmad's brother, was elevated to governor." },
+  { fact = "Thiqat al-Dawla was a ruler or leading figure of Emirate of Sicily", source = "https://en.wikipedia.org/wiki/Thiqat_al-Dawla", quote = "Thiqat ruled over the Emirate at its peak, but his rule also marked the beginning of a period of decline that would eventually lead to its fall." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Empire of Brazil"
+civilization_id = "Q217230"
+field = "key_figures"
+action = "set"
+value = ["Pedro I of Brazil", "Pedro II of Brazil", "Isabel, Princess Imperial of Brazil"]
+value_id = ["Q939", "Q156774", "Q464449"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Pedro I of Brazil was a ruler or leading figure of Empire of Brazil", source = "https://en.wikipedia.org/wiki/Pedro_I_of_Brazil", quote = "(Although Maria II had already been recognized as queen, all Portuguese coins for the period 1826–1828 bear the name and image of Pedro IV.) He found it difficult, at the very least, to keep his position as Brazilian emperor separate from his obligations to protect his daughter's interests in Portugal." },
+  { fact = "Pedro II of Brazil was a ruler or leading figure of Empire of Brazil", source = "https://en.wikipedia.org/wiki/Pedro_II_of_Brazil", quote = "Dom Pedro II (Pedro de Alcântara João Carlos Leopoldo Salvador Bibiano Francisco Xavier de Paula Leocádio Miguel Gabriel Rafael Gonzaga; 2 December 1825 – 5 December 1891), known as \"the Magnanimous\" (Portuguese: O Magnânimo), was the second and final emperor of the Empire of Brazil." },
+  { fact = "Isabel, Princess Imperial of Brazil was a ruler or leading figure of Empire of Brazil", source = "https://en.wikipedia.org/wiki/Isabel%2C_Princess_Imperial_of_Brazil", quote = "Isabel was appointed regent with full powers to govern Brazil in the Emperor's absence, though prime minister José Paranhos, Viscount of Rio Branco, and Gaston were expected to hold the reins of power in reality." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Empire of China"
+civilization_id = "Q175379"
+field = "key_figures"
+action = "set"
+value = ["Yuan Shikai"]
+value_id = ["Q210329"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Yuan Shikai was a ruler or leading figure of Empire of China", source = "https://en.wikipedia.org/wiki/Empire_of_China", quote = "Three years later, Yuan Shikai restored imperial rule with himself as the emperor." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Empire of Japan"
+civilization_id = "Q188712"
+field = "key_figures"
+action = "set"
+value = ["Emperor Meiji", "Emperor Taishō", "Hirohito", "Hideki Tojo"]
+value_id = ["Q174231", "Q157052", "Q34479", "Q160847"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Emperor Taishō (only an indirect mention as Hirohito's father; none states his reign)"
+sources = [
+  { fact = "Emperor Meiji was a ruler or leading figure of Empire of Japan", source = "https://en.wikipedia.org/wiki/Empire_of_Japan", quote = "Yoshinobu was stripped of all his power by Emperor Meiji and most of Japan accepted the emperor's rule." },
+  { fact = "Hirohito was a ruler or leading figure of Empire of Japan", source = "https://en.wikipedia.org/wiki/Hirohito", quote = "After returning to Japan, Hirohito became Regent of Japan (Sesshō) on 25 November 1921, in place of his ailing father, who was affected by mental illness." },
+  { fact = "Hideki Tojo was a ruler or leading figure of Empire of Japan", source = "https://en.wikipedia.org/wiki/Hideki_Tojo", quote = "The result was a compromise where Tojo would become prime minister while \"re-examining\" the options for dealing with the crisis with the United States, though no promise was made Tojo would attempt to avoid a war." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Empire of Trebizond"
+civilization_id = "Q178913"
+field = "key_figures"
+action = "set"
+value = ["Alexios I of Trebizond", "Manuel I of Trebizond", "John II of Trebizond", "David of Trebizond"]
+value_id = ["Q314442", "Q366036", "Q452041", "Q503069"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Alexios I of Trebizond was a ruler or leading figure of Empire of Trebizond", source = "https://en.wikipedia.org/wiki/Empire_of_Trebizond", quote = "The empire traces its foundation to April 1204, when Alexios Komnenos and his brother David took advantage of the preoccupation of the central Byzantine government with the encampment of the soldiers of the Fourth Crusade outside their walls (June 1203 – mid-April 1204) and seized the city of Trebizond and the surrounding province of Chaldia with troops provided by their relative, Tamar of Georgia." },
+  { fact = "Manuel I of Trebizond was a ruler or leading figure of Empire of Trebizond", source = "https://en.wikipedia.org/wiki/Manuel_I_of_Trebizond", quote = "Manuel I Megas Komnenos (Greek: Μανουὴλ Κομνηνός; died March 1263) was the Emperor of Trebizond from 1238 until his death." },
+  { fact = "John II of Trebizond was a ruler or leading figure of Empire of Trebizond", source = "https://en.wikipedia.org/wiki/John_II_of_Trebizond", quote = "John II Megas Komnenos (Ancient Greek: Ἰωάννης Μέγας Κομνηνός, Iōannēs Megas Komnēnos) (c. 1262 – 16 August 1297) was Emperor of Trebizond from June 1280 to his death in 1297." },
+  { fact = "David of Trebizond was a ruler or leading figure of Empire of Trebizond", source = "https://en.wikipedia.org/wiki/David_of_Trebizond", quote = "Although John IV had made his nephew Alexios V his heir, Alexios was a minor; according to Laonikos Chalkokondyles David, with the support of the Kabasitanoi archontes, pushed the young emperor aside and took the throne for himself." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Ethiopian Empire"
+civilization_id = "Q207521"
+field = "key_figures"
+action = "set"
+value = ["Tewodros II", "Menelik II", "Zewditu", "Haile Selassie"]
+value_id = ["Q262589", "Q244748", "Q148524", "Q41178"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Tewodros II was a ruler or leading figure of Ethiopian Empire", source = "https://en.wikipedia.org/wiki/Tewodros_II", quote = "Tewodros II (Ge'ez: ዳግማዊ ቴዎድሮስ, once referred to by the English cognate Theodore; baptized as Kassa, c. 1818 – 15 April 1868) was Emperor of Ethiopia from 1855 until his death in 1868." },
+  { fact = "Menelik II was a ruler or leading figure of Ethiopian Empire", source = "https://en.wikipedia.org/wiki/Menelik_II", quote = "Following the death of Yohannes at the Battle of Metemma in 1889, Menelik was crowned emperor at Mount Entoto on 3 November 1889." },
+  { fact = "Zewditu was a ruler or leading figure of Ethiopian Empire", source = "https://en.wikipedia.org/wiki/Ethiopian_Empire", quote = "During the reign of Empress Zewditu, a modernizing faction within the imperial elite under Ras Tafari began to challenge the reactionary faction." },
+  { fact = "Haile Selassie was a ruler or leading figure of Ethiopian Empire", source = "https://en.wikipedia.org/wiki/Haile_Selassie", quote = "A few years before he began his reign over the Ethiopian Empire, Selassie defeated Ethiopian army commander Ras Gugsa Welle Bitul, nephew of Empress Taytu Betul, at the Battle of Anchem." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Fatimid Caliphate"
+civilization_id = "Q160307"
+field = "key_figures"
+action = "set"
+value = ["Abd Allah al-Mahdi Billah", "Al-Hakim bi-Amr Allah", "Al-Musta'li", "Al-Adid"]
+value_id = ["Q307629", "Q342137", "Q285668", "Q286460"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Abd Allah al-Mahdi Billah was a ruler or leading figure of Fatimid Caliphate", source = "https://en.wikipedia.org/wiki/Fatimid_Caliphate", quote = "After the conquest, Abdallah al-Mahdi Billah was retrieved from his temporary residence in Sijilmasa, a remote Moroccan city at the edge of the Sahara, and accepted as the Imam of the movement, becoming the first caliph and the founder of the dynasty in 909." },
+  { fact = "Al-Hakim bi-Amr Allah was a ruler or leading figure of Fatimid Caliphate", source = "https://en.wikipedia.org/wiki/Al-Hakim_bi-Amr_Allah", quote = "'The Ruler by the Order of God'), was the sixth Fatimid caliph and 16th Ismaili imam (996–1021)." },
+  { fact = "Al-Musta'li was a ruler or leading figure of Fatimid Caliphate", source = "https://en.wikipedia.org/wiki/Al-Musta%27li", quote = "According to the Mamluk-era historian al-Maqrizi, al-Afdal placed Ahmad on the throne and declared him caliph as al-Musta'li bi'llah (literal translation" },
+  { fact = "Al-Adid was a ruler or leading figure of Fatimid Caliphate", source = "https://en.wikipedia.org/wiki/Fatimid_Caliphate", quote = "The last three caliphs, al-Zafir (r. 1149–1154), al-Fa'iz (r. 1154–1160), and al-Adid (r. 1160–1171), were all children when they came to the throne." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Federal Republic of Central America"
+civilization_id = "Q190025"
+field = "key_figures"
+action = "set"
+value = ["Manuel José Arce", "Francisco Morazán"]
+value_id = ["Q1433911", "Q332111"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Manuel José Arce was a ruler or leading figure of Federal Republic of Central America", source = "https://en.wikipedia.org/wiki/Manuel_Jos%C3%A9_Arce", quote = "Manuel José Arce y Fagoaga (1 January 1787 – 14 December 1847) was a Salvadoran statesman and military officer who served as the first president of the Federal Republic of Central America from 1825 to 1829." },
+  { fact = "Francisco Morazán was a ruler or leading figure of Federal Republic of Central America", source = "https://en.wikipedia.org/wiki/Francisco_Moraz%C3%A1n", quote = "Francisco Morazán won the popular vote of the 1830 presidential election, against the conservative challenger José Cecilio del Valle." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Federated Republic of Mexico"
+civilization_id = "Q1109279"
+field = "key_figures"
+action = "set"
+value = ["Guadalupe Victoria", "Vicente Guerrero", "Valentín Gómez Farías", "Antonio López de Santa Anna"]
+value_id = ["Q311425", "Q315618", "Q358534", "Q189145"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Guadalupe Victoria was a ruler or leading figure of Federated Republic of Mexico", source = "https://en.wikipedia.org/wiki/Guadalupe_Victoria", quote = "On 2 October 1824, Guadalupe Victoria was declared the first president of the United Mexican States for the period 1825–1829." },
+  { fact = "Vicente Guerrero was a ruler or leading figure of Federated Republic of Mexico", source = "https://en.wikipedia.org/wiki/First_Mexican_Republic", quote = "For Guerrero's supporters, a visibly mixed-race man from Mexico's periphery becoming president of Mexico was a step toward in what one 1829 pamphleteer called \"the reconquest of this land by its legitimate owners\" and called Guerrero \"that immortal hero, favorite son of Nezahualcoyotzin\", the famous ruler of prehispanic Texcoco." },
+  { fact = "Valentín Gómez Farías was a ruler or leading figure of Federated Republic of Mexico", source = "https://en.wikipedia.org/wiki/First_Mexican_Republic", quote = "The First Republic would finally collapse after the overthrow of the liberal president Valentín Gómez Farías, through a rebellion led by his former vice-president, General Antonio López de Santa Anna who had switched sides." },
+  { fact = "Antonio López de Santa Anna was a ruler or leading figure of Federated Republic of Mexico", source = "https://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna", quote = "Santa Anna was elected President as a liberal in 1833 and again in 1847, sharing power with the liberal Vice President, Valentín Gómez Farías." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "First Bulgarian Empire"
+civilization_id = "Q203817"
+field = "key_figures"
+action = "set"
+value = ["Asparuh of Bulgaria", "Krum", "Boris I of Bulgaria", "Simeon I of Bulgaria"]
+value_id = ["Q189450", "Q192104", "Q311057", "Q192264"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Asparuh of Bulgaria was a ruler or leading figure of First Bulgarian Empire", source = "https://en.wikipedia.org/wiki/First_Bulgarian_Empire", quote = "It was founded in 680–681 after a group of Bulgars, led by Asparuh, moved south to the northeastern Balkans, and secured Byzantine recognition and their right to settle south of the Danube by defeating – possibly with the help of local South Slavic tribes – the Byzantine army led by Constantine IV." },
+  { fact = "Krum was a ruler or leading figure of First Bulgarian Empire", source = "https://en.wikipedia.org/wiki/First_Bulgarian_Empire", quote = "During the reign of Krum (r. 803–814) Bulgaria doubled in size and expanded to the south, west and north, occupying the vast lands along the middle Danube, becoming European medieval great power during the 9th and 10th century along with the Byzantine and Frankish Empires." },
+  { fact = "Boris I of Bulgaria was a ruler or leading figure of First Bulgarian Empire", source = "https://en.wikipedia.org/wiki/Boris_I_of_Bulgaria", quote = "In the Bulgarian sources from that period, Boris I is called \"Knyaz\", however during the Second Bulgarian Empire he was retrospectively called \"Tsar\", similar to the title of his son Simeon I." },
+  { fact = "Simeon I of Bulgaria was a ruler or leading figure of First Bulgarian Empire", source = "https://en.wikipedia.org/wiki/Simeon_I_of_Bulgaria", quote = "Simeon I the Great (Church Slavonic: цѣсар҄ь Сѷмеѡ́нъ А҃ Вели́къ; Bulgarian: цар Симеон I Велики, romanized: Simeon I Veliki [simɛˈɔn ˈpɤrvi vɛˈliki]; Greek: Συμεών Αʹ ὁ Μέγας, romanized: Sumeṓn prôtos ho Mégas) was the ruler of the First Bulgarian Empire from 893 until his death in 927." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "First French Empire"
+civilization_id = "Q71084"
+field = "key_figures"
+action = "set"
+value = ["Napoleon", "Napoleon II"]
+value_id = ["Q517", "Q7723"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Napoleon was a ruler or leading figure of First French Empire", source = "https://en.wikipedia.org/wiki/Napoleon", quote = "On 18 May the senate proclaimed Napoleon Emperor of the French and approved a new constitution." },
+  { fact = "Napoleon II was a ruler or leading figure of First French Empire", source = "https://en.wikipedia.org/wiki/Napoleon_II", quote = "The child became Emperor of the French under the regnal name of Napoleon II." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "First Mexican Empire"
+civilization_id = "Q285658"
+field = "key_figures"
+action = "set"
+value = ["Agustín de Iturbide"]
+value_id = ["Q133808"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Agustín de Iturbide was a ruler or leading figure of First Mexican Empire", source = "https://en.wikipedia.org/wiki/Agust%C3%ADn_de_Iturbide", quote = "The refusal by Ferdinand VII of Spain to accept the Mexican crown paved the way for Iturbide to assume the mantle of emperor on 21 July 1822." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Four Oirats"
+civilization_id = "Q4332415"
+field = "key_figures"
+action = "set"
+value = ["Esen Taishi"]
+value_id = ["Q9263"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Esen Taishi (no cited sentence says he led or ruled the Four Oirats)"
+
+[[override]]
+civilization = "Francia"
+civilization_id = "Q146246"
+field = "key_figures"
+action = "set"
+value = ["Clovis I", "Charles Martel", "Charlemagne", "Louis the Pious"]
+value_id = ["Q82339", "Q3301", "Q3044", "Q43974"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Clovis I was a ruler or leading figure of Francia", source = "https://en.wikipedia.org/wiki/Clovis_I", quote = "Clovis I (Latin: Chlodovechus; reconstructed Frankish: *Hlodowig c. 466 – 27 November 511) was the first Frankish king to unite the Franks, changing the form of leadership from a group of petty kings to rule by a single king, and ensuring that the kingship was passed down to his heirs." },
+  { fact = "Charles Martel was a ruler or leading figure of Francia", source = "https://en.wikipedia.org/wiki/Charles_Martel", quote = "Charles Martel (/mɑːrˈtɛl/; c. 688 – 22 October 741), Martel being an Old French sobriquet meaning \"The Hammer\", was a Frankish political and military leader who, as Duke and Prince of the Franks and Mayor of the Palace, was the de facto ruler of the Franks from 718 until his death." },
+  { fact = "Charlemagne was a ruler or leading figure of Francia", source = "https://en.wikipedia.org/wiki/Charlemagne", quote = "Carloman died suddenly, on 4 December 771, leaving Charlemagne as sole king of the Franks." },
+  { fact = "Louis the Pious was a ruler or leading figure of Francia", source = "https://en.wikipedia.org/wiki/Louis_the_Pious", quote = "However, Charlemagne's other legitimate sons died—Pepin in 810 and Charles in 811—and Louis was crowned co-emperor with an already ailing Charlemagne in Aachen on 11 September 813." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Francoist Spain"
+civilization_id = "Q13474305"
+field = "key_figures"
+action = "set"
+value = ["Francisco Franco"]
+value_id = ["Q29179"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Francisco Franco was a ruler or leading figure of Francoist Spain", source = "https://en.wikipedia.org/wiki/Francisco_Franco", quote = "Later, following the deaths of much of the rebel leadership, he became his faction's only leader, and was appointed generalissimo and head of state in 1936." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Free French"
+civilization_id = "Q152582"
+field = "key_figures"
+action = "set"
+value = ["Charles de Gaulle"]
+value_id = ["Q2042"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Charles de Gaulle was a ruler or leading figure of Free French", source = "https://en.wikipedia.org/wiki/Free_French", quote = "This would form the essential legal basis of de Gaulle's government in exile, that the armistice soon to be signed with the Nazis was not merely dishonourable but illegal, and that in signing it, the French government would itself be committing treason." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Free Orange State"
+civilization_id = "Q218023"
+field = "key_figures"
+action = "set"
+value = ["Marthinus Wessel Pretorius", "Johannes Brand", "Francis William Reitz", "Martinus Theunis Steyn"]
+value_id = ["Q440141", "Q1390594", "Q726327", "Q2355196"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Marthinus Wessel Pretorius (no cited sentence found)"
+sources = [
+  { fact = "Johannes Brand was a ruler or leading figure of Free Orange State", source = "https://en.wikipedia.org/wiki/Johannes_Brand", quote = "He was elected president of the Orange Free State in 1863, and subsequently re-elected for five year terms in 1869, 1874, 1879 and 1884." },
+  { fact = "Francis William Reitz was a ruler or leading figure of Free Orange State", source = "https://en.wikipedia.org/wiki/Francis_William_Reitz", quote = "When State President Brand suddenly died in 1888, Reitz won the presidential elections unopposed." },
+  { fact = "Martinus Theunis Steyn was a ruler or leading figure of Free Orange State", source = "https://en.wikipedia.org/wiki/Martinus_Theunis_Steyn", quote = "The election was held in February 1896 and resulted in a decisive victory for Steyn, who assumed office as president." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "French colonial empire"
+civilization_id = "Q179023"
+field = "key_figures"
+action = "set"
+value = ["Napoleon III", "Adolphe Thiers", "Patrice de MacMahon", "Raymond Poincaré"]
+value_id = ["Q7721", "Q5738", "Q158838", "Q191974"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Adolphe Thiers (no cited sentence ties him to the colonial empire or its head of state); no source yet for Patrice de MacMahon (no cited sentence ties him to the colonial empire); no source yet for Raymond Poincaré (no cited sentence ties him to the colonial empire)"
+sources = [
+  { fact = "Napoleon III was a ruler or leading figure of French colonial empire", source = "https://en.wikipedia.org/wiki/French_colonial_empire", quote = "In the first eight years of his rule Napoleon III paid little attention to Algeria." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "French Indochina"
+civilization_id = "Q185682"
+field = "key_figures"
+action = "set"
+value = ["Raymond Poincaré", "Khải Định", "Bảo Đại", "Albert Lebrun"]
+value_id = ["Q191974", "Q468758", "Q223771", "Q158749"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Raymond Poincaré (no cited sentence ties him to Indochina); no source yet for Khải Định (monarch of Annam, a protectorate inside Indochina rather than the state itself); no source yet for Bảo Đại (emperor of Annam, a protectorate inside Indochina rather than the state itself); no source yet for Albert Lebrun (no cited sentence ties him to Indochina)"
+
+[[override]]
+civilization = "French Third Republic"
+civilization_id = "Q70802"
+field = "key_figures"
+action = "set"
+value = ["Adolphe Thiers", "Patrice de MacMahon", "Raymond Poincaré", "Albert Lebrun"]
+value_id = ["Q5738", "Q158838", "Q191974", "Q158749"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Adolphe Thiers (cited sentences do not say he was president of the Third Republic)"
+sources = [
+  { fact = "Patrice de MacMahon was a ruler or leading figure of French Third Republic", source = "https://en.wikipedia.org/wiki/Patrice_de_MacMahon", quote = "In May 1873, MacMahon was elected President of the French Third Republic, by the royalist and conservative majority in the National Assembly." },
+  { fact = "Raymond Poincaré was a ruler or leading figure of French Third Republic", source = "https://en.wikipedia.org/wiki/Raymond_Poincar%C3%A9", quote = "Poincaré won election as President of the Republic in 1913, in succession to Armand Fallières." },
+  { fact = "Albert Lebrun was a ruler or leading figure of French Third Republic", source = "https://en.wikipedia.org/wiki/Albert_Lebrun", quote = "An end must be made.\" With the Cabinet wanting to ask for an armistice, on 17 June 1940 Prime Minister Paul Reynaud resigned, recommending to President Lebrun that he appoint Marechal Philippe Pétain in his place, which he did that day." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Abbasid Caliphate"
+civilization_id = "Q12536"
+field = "key_figures"
+action = "set"
+value = ["Al-Saffah", "Al-Mansur", "Harun al-Rashid", "Al-Ma'mun"]
+value_id = ["Q252087", "Q31066", "Q131002", "Q61056"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Al-Saffah was a ruler or leading figure of Abbasid Caliphate", source = "https://en.wikipedia.org/wiki/Al-Saffah", quote = "Al-Saffah was the first caliph of the Abbasid dynasty." },
+  { fact = "Al-Mansur was a ruler or leading figure of Abbasid Caliphate", source = "https://en.wikipedia.org/wiki/Al-Mansur", quote = "He became the first caliph of the Abbasid Caliphate in 750 after defeating his rivals." },
+  { fact = "Harun al-Rashid was a ruler or leading figure of Abbasid Caliphate", source = "https://en.wikipedia.org/wiki/Harun_al-Rashid", quote = "Large scale hostilities broke out with Byzantium, and under his rule, the Abbasid Empire reached its peak." },
+  { fact = "Al-Ma'mun was a ruler or leading figure of Abbasid Caliphate", source = "https://en.wikipedia.org/wiki/Al-Ma%27mun", quote = "'the Reliable'), was the seventh Abbasid caliph, who reigned from 813 until his death in 833." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Achaemenid Empire"
+civilization_id = "Q389688"
+field = "key_figures"
+action = "set"
+value = ["Cyrus the Great", "Darius the Great", "Xerxes I", "Darius III"]
+value_id = ["Q8423", "Q44387", "Q129165", "Q102865"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Cyrus the Great was a ruler or leading figure of Achaemenid Empire", source = "https://en.wikipedia.org/wiki/Cyrus_the_Great", quote = "Cyrus II of Persia (c. 600 – 530 BC), commonly known as Cyrus the Great, was the founder of the Achaemenid Empire." },
+  { fact = "Darius the Great was a ruler or leading figure of Achaemenid Empire", source = "https://en.wikipedia.org/wiki/Darius_the_Great", quote = "Darius I (Old Persian: 𐎭𐎠𐎼𐎹𐎺𐎢𐏁 Dārayavaʰuš; c. 550 – 486 BCE), commonly known as Darius the Great, was the third King of Kings of the Achaemenid Empire, reigning from 522 BCE until his death in 486 BCE." },
+  { fact = "Xerxes I was a ruler or leading figure of Achaemenid Empire", source = "https://en.wikipedia.org/wiki/Xerxes_I", quote = "Xerxes was crowned and succeeded his father in October–December 486 BC when he was about 32 years old." },
+  { fact = "Darius III was a ruler or leading figure of Achaemenid Empire", source = "https://en.wikipedia.org/wiki/Darius_III", quote = "He first adopted the regnal name of Darius (Old Persian: Daraya-vahauš, \"he who holds firm the good(ness)\") when he ascended the Achaemenid throne in 336 BC." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Afsharid Iran"
+civilization_id = "Q63149558"
+field = "key_figures"
+action = "set"
+value = ["Nader Shah", "Adel Shah", "Shahrokh Shah"]
+value_id = ["Q192868", "Q197881", "Q197884"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Nader Shah was a ruler or leading figure of Afsharid Iran", source = "https://en.wikipedia.org/wiki/Nader_Shah", quote = "Nader was crowned Shah of Iran on 8 March 1736, a date his astrologers had chosen as being especially favorable, in attendance of an \"exceptionally large assembly\" composed of the nobility and military and religious elite of the nation, as well as the Ottoman ambassador Ali Pasha." },
+  { fact = "Adel Shah was a ruler or leading figure of Afsharid Iran", source = "https://en.wikipedia.org/wiki/Adel_Shah", quote = "Not much is known about the life of Ali-qoli Khan before his secession to the Afsharid throne." },
+  { fact = "Shahrokh Shah was a ruler or leading figure of Afsharid Iran", source = "https://en.wikipedia.org/wiki/Afsharid_Iran", quote = "Shahrokh died of his injuries soon after and with him the Afsharid dynasty came to an end." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Aghlabid Dynasty"
+civilization_id = "Q207600"
+field = "key_figures"
+action = "set"
+value = ["Ibrahim I ibn al-Aghlab", "Ziyadat Allah I of Ifriqiya", "Ibrahim II of Ifriqiya", "Abdallah II of Ifriqiya"]
+value_id = ["Q692718", "Q207052", "Q336991", "Q335545"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Ibrahim I ibn al-Aghlab was a ruler or leading figure of Aghlabid Dynasty", source = "https://en.wikipedia.org/wiki/Ibrahim_I_ibn_al-Aghlab", quote = "This allowed Ibrahim and his successors to establish the hereditary Aghlabid dynasty." },
+  { fact = "Ziyadat Allah I of Ifriqiya was a ruler or leading figure of Aghlabid Dynasty", source = "https://en.wikipedia.org/wiki/Ziyadat_Allah_I_of_Ifriqiya", quote = "Abu Muhammad Ziyadat Allah I ibn Ibrahim ibn al-Aghlab (Arabic: زيادة الله الأول) (d. 10 June 838) was the Aghlabid ruler (amir) of Ifriqiya from 817 until his death in 838." },
+  { fact = "Ibrahim II of Ifriqiya was a ruler or leading figure of Aghlabid Dynasty", source = "https://en.wikipedia.org/wiki/Ibrahim_II_of_Ifriqiya", quote = "A centralizing ruler, Ibrahim mistrusted the old Arab high aristocracy of Ifriqiya, which had often been a thorn in the side of prior Aghlabid emirs." },
+  { fact = "Abdallah II of Ifriqiya was a ruler or leading figure of Aghlabid Dynasty", source = "https://en.wikipedia.org/wiki/Aghlabid_dynasty", quote = "Ibrahim II died in October 902 while besieging Cosenza in Italy and was succeeded by Abdallah II." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Almoravid Dynasty"
+civilization_id = "Q75613"
+field = "key_figures"
+action = "set"
+value = ["Yusuf ibn Tashfin", "Ali ibn Yusuf", "Tashfin ibn Ali", "Ishaq ibn Ali"]
+value_id = ["Q369981", "Q552458", "Q180992", "Q971532"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Yusuf ibn Tashfin was a ruler or leading figure of Almoravid Dynasty", source = "https://en.wikipedia.org/wiki/Almoravid_dynasty", quote = "Shortly after this, the empire was divided into two branches: a northern one centered in the Maghreb, led by Yusuf ibn Tashfin and his descendants, and a southern one based in the Sahara, led by Abu Bakr ibn Umar and his descendants." },
+  { fact = "Ali ibn Yusuf was a ruler or leading figure of Almoravid Dynasty", source = "https://en.wikipedia.org/wiki/Almoravid_dynasty", quote = "Upon his enthronement, Ali ibn Yusuf was accepted as the new ruler by most Almoravid subjects, except for his nephew, Yahya ibn Abu Bakr, the governor of Fes." },
+  { fact = "Tashfin ibn Ali was a ruler or leading figure of Almoravid Dynasty", source = "https://en.wikipedia.org/wiki/Almoravid_dynasty", quote = "In 1129, following Alfonso I's attacks, Ali ibn Yusuf sent his son (and later successor), Tashfin ibn Ali, to re-organize the military structure in al-Andalus." },
+  { fact = "Ishaq ibn Ali was a ruler or leading figure of Almoravid Dynasty", source = "https://en.wikipedia.org/wiki/Almoravid_dynasty", quote = "The last Almoravid ruler, Ishaq ibn Ali, was killed when the Almohads captured Marrakesh in 1147 and established themselves as the new dominant power in both North Africa and Al-Andalus." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Angevin Empire"
+civilization_id = "Q538677"
+field = "key_figures"
+action = "set"
+value = ["Henry II of England", "Eleanor of Aquitaine", "Richard I of England", "John, King of England"]
+value_id = ["Q102140", "Q178525", "Q42305", "Q129308"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Henry II of England was a ruler or leading figure of Angevin Empire", source = "https://en.wikipedia.org/wiki/Henry_II_of_England", quote = "Henry controlled more of France than any ruler since the 9th century Carolingians; these lands, combined with his possessions in England, Wales, Scotland and later parts of Ireland, produced a vast domain often referred to by historians as the Angevin Empire." },
+  { fact = "Eleanor of Aquitaine was a ruler or leading figure of Angevin Empire", source = "https://en.wikipedia.org/wiki/Eleanor_of_Aquitaine", quote = "She successfully set about restoring order in proverbially restless Aquitaine, and continued in her royal duties as Angevin queen, including acting as regent in various French territories." },
+  { fact = "Richard I of England was a ruler or leading figure of Angevin Empire", source = "https://en.wikipedia.org/wiki/Richard_I_of_England", quote = "The lack of any direct heirs from Richard was the first step in the dissolution of the Angevin Empire." },
+  { fact = "John, King of England was a ruler or leading figure of Angevin Empire", source = "https://en.wikipedia.org/wiki/John%2C_King_of_England", quote = "After Richard's death on 6 April 1199 there were two potential claimants to the Angevin throne: John, whose claim rested on being the sole surviving son of Henry II, and young Arthur I of Brittany, who held a claim as the son of John's elder brother Geoffrey." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Aq Qoyunlu"
+civilization_id = "Q555994"
+field = "key_figures"
+action = "set"
+value = ["Qara Yuluk Uthman Beg", "Uzun Hasan"]
+value_id = ["Q600829", "Q374468"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Qara Yuluk Uthman Beg was a ruler or leading figure of Aq Qoyunlu", source = "https://en.wikipedia.org/wiki/Aq_Qoyunlu", quote = "Founded in the Diyarbakir region by Qara Yuluk Uthman Beg, they ruled parts of present-day eastern Turkey from 1378 to 1508, and in their last decades also ruled Armenia, Azerbaijan, much of Iran, Iraq, and Oman where the ruler of Hormuz recognised Aq Qoyunlu suzerainty." },
+  { fact = "Uzun Hasan was a ruler or leading figure of Aq Qoyunlu", source = "https://en.wikipedia.org/wiki/Uzun_Hasan", quote = "Uzun Hasan or Uzun Hassan (Persian: اوزون حسن; February or March 1425 – January 5, 1478) was a ruler of the Turkoman Aq Qoyunlu state and is generally considered to be its strongest ruler." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Ashanti Empire"
+civilization_id = "Q722071"
+field = "key_figures"
+action = "set"
+value = ["Osei Kofi Tutu I", "Prempeh I"]
+value_id = ["Q713080", "Q437100"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Osei Kofi Tutu I was a ruler or leading figure of Ashanti Empire", source = "https://en.wikipedia.org/wiki/Osei_Kofi_Tutu_I", quote = "Osei Tutu thus became the Asantehene, and the heads of the Amantoo states were given an important role in his ruling council." },
+  { fact = "Prempeh I was a ruler or leading figure of Ashanti Empire", source = "https://en.wikipedia.org/wiki/Prempeh_I", quote = "Prempeh I (Otumfuo Nana Prempeh I; 18 December 1870 – 12 May 1931) was the 13th King of the Ashanti Empire and the Oyoko Abohyen Dynasty." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Ashikaga Shogunate"
+civilization_id = "Q1154406"
+field = "key_figures"
+action = "set"
+value = ["Ashikaga Takauji", "Ashikaga Yoshimitsu", "Ashikaga Yoshiaki"]
+value_id = ["Q297107", "Q248381", "Q434415"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Ashikaga Takauji was a ruler or leading figure of Ashikaga Shogunate", source = "https://en.wikipedia.org/wiki/Ashikaga_Takauji", quote = "His rule began in 1338, beginning the Muromachi period of Japan, and ended with his death in 1358." },
+  { fact = "Ashikaga Yoshimitsu was a ruler or leading figure of Ashikaga Shogunate", source = "https://en.wikipedia.org/wiki/Ashikaga_Yoshimitsu", quote = "Yoshimitsu continued to maintain authority over the shogunate until his death." },
+  { fact = "Ashikaga Yoshiaki was a ruler or leading figure of Ashikaga Shogunate", source = "https://en.wikipedia.org/wiki/Ashikaga_Yoshiaki", quote = "Ashikaga Yoshiaki (足利 義昭; 5 December 1537 – 19 October 1597) was a Japanese samurai, daimyo and the 15th and final shōgun of the Ashikaga shogunate in Japan who reigned from 1568 to 1573 when he staged a revolt and was overthrown." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Assyria"
+civilization_id = "Q41137"
+field = "key_figures"
+action = "set"
+value = ["Ashur-uballit I", "Tiglath-Pileser I", "Sennacherib", "Ashurbanipal"]
+value_id = ["Q299468", "Q296295", "Q207140", "Q171191"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Ashur-uballit I was a ruler or leading figure of Assyria", source = "https://en.wikipedia.org/wiki/Assyria", quote = "Ashur-uballit I was the first native Assyrian ruler to claim the royal title šar (\"king\")." },
+  { fact = "Tiglath-Pileser I was a ruler or leading figure of Assyria", source = "https://en.wikipedia.org/wiki/Tiglath-Pileser_I", quote = "Tiglath-Pileser I (/ˈtɪɡləθ paɪˈliːzər, -ˌlæθ, pɪ-/; from the Hebraic form of Middle Assyrian Akkadian: 𒆪𒋾𒀀𒂍𒈗𒊏, romanized: Tukultī-apil-Ešarra, \"my trust is in the son of Ešarra\") was a king of Assyria during the Middle Assyrian Empire (1114–1076 BC)." },
+  { fact = "Sennacherib was a ruler or leading figure of Assyria", source = "https://en.wikipedia.org/wiki/Sennacherib", quote = "Sennacherib was the son and successor of the Neo-Assyrian king Sargon II, who had reigned as king of Assyria from 722 to 705 BC and as king of Babylon from 710 to 705 BC." },
+  { fact = "Ashurbanipal was a ruler or leading figure of Assyria", source = "https://en.wikipedia.org/wiki/Ashurbanipal", quote = "He is generally remembered as the last great king of Assyria." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Astrakhan Khanate"
+civilization_id = "Q210163"
+field = "key_figures"
+action = "set"
+value = ["Mahmud bin Küchük", "Dervish Ali Astrakhani"]
+value_id = ["Q541678", "Q1991895"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Mahmud bin Küchük (his article and the state article yield no footnote-covered sentence); no source yet for Dervish Ali Astrakhani (his article and the state article yield no footnote-covered sentence)"
+
+[[override]]
+civilization = "Asuka Japan"
+civilization_id = "Q210688"
+field = "key_figures"
+action = "set"
+value = ["Prince Shōtoku"]
+value_id = ["Q263972"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Prince Shōtoku was a ruler or leading figure of Asuka Japan", source = "https://en.wikipedia.org/wiki/Prince_Sh%C5%8Dtoku", quote = "According to tradition, Shōtoku was appointed regent (Sesshō) in 593 by Empress Suiko (554–628), his aunt." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Âu Lạc"
+civilization_id = "Q867227"
+field = "key_figures"
+action = "set"
+value = ["An Dương Vương"]
+value_id = ["Q1274690"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "An Dương Vương was a ruler or leading figure of Âu Lạc", source = "https://en.wikipedia.org/wiki/%C3%82u_L%E1%BA%A1c", quote = "Founded in 257 BCE by a figure called Thục Phán (King An Dương), it was a merger of Nam Cương (Âu Việt) and Văn Lang (Lạc Việt) but succumbed to the state of Nanyue in 179 BCE, which, itself was finally conquered by the Han dynasty." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Austria-Hungary"
+civilization_id = "Q28513"
+field = "key_figures"
+action = "set"
+value = ["Franz Joseph I", "Charles I of Austria"]
+value_id = ["Q51056", "Q51068"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Franz Joseph I was a ruler or leading figure of Austria-Hungary", source = "https://en.wikipedia.org/wiki/Franz_Joseph_I", quote = "Franz Joseph I or Francis Joseph I (German: Franz Joseph Karl [fʁants ˈjoːzɛf ˈkaʁl]; Hungarian: Ferenc József Károly [ˈfɛrɛnt͡s ˈjoːʒɛf ˈkaːroj]; 18 August 1830 – 21 November 1916) was Emperor of Austria, King of Hungary, and the ruler of the other states of the Habsburg monarchy from 2 December 1848 until his death in 1916." },
+  { fact = "Charles I of Austria was a ruler or leading figure of Austria-Hungary", source = "https://en.wikipedia.org/wiki/Charles_I_of_Austria", quote = "Charles succeeded to the thrones on 21 November 1916 upon the death of his grand-uncle, Emperor Franz Joseph." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Austrian Empire"
+civilization_id = "Q131964"
+field = "key_figures"
+action = "set"
+value = ["Francis II, Holy Roman Emperor", "Ferdinand I of Austria", "Franz Joseph I"]
+value_id = ["Q130834", "Q183579", "Q51056"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Francis II, Holy Roman Emperor was a ruler or leading figure of Austrian Empire", source = "https://en.wikipedia.org/wiki/Francis_II%2C_Holy_Roman_Emperor", quote = "In 1804, he had no compunction about announcing that, through his authority as Holy Roman Emperor, he was now Emperor of Austria (at the time a geographical term that had little resonance)." },
+  { fact = "Ferdinand I of Austria was a ruler or leading figure of Austrian Empire", source = "https://en.wikipedia.org/wiki/Ferdinand_I_of_Austria", quote = "Ferdinand I and V (German: Ferdinand Karl Leopold Joseph Franz Marcellin; 19 April 1793 – 29 June 1875) was Emperor of Austria (as Ferdinand I), King of Hungary (as Ferdinand V), and the ruler of the other states of the Habsburg monarchy from March 1835 until his abdication in December 1848." },
+  { fact = "Franz Joseph I was a ruler or leading figure of Austrian Empire", source = "https://en.wikipedia.org/wiki/Franz_Joseph_I", quote = "Franz Joseph I or Francis Joseph I (German: Franz Joseph Karl [fʁants ˈjoːzɛf ˈkaʁl]; Hungarian: Ferenc József Károly [ˈfɛrɛnt͡s ˈjoːʒɛf ˈkaːroj]; 18 August 1830 – 21 November 1916) was Emperor of Austria, King of Hungary, and the ruler of the other states of the Habsburg monarchy from 2 December 1848 until his death in 1916." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Ayutthaya Kingdom"
+civilization_id = "Q841364"
+field = "key_figures"
+action = "set"
+value = ["Uthong", "Naresuan", "Narai", "Ekkathat"]
+value_id = ["Q718191", "Q515704", "Q718197", "Q779323"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Uthong was a ruler or leading figure of Ayutthaya Kingdom", source = "https://en.wikipedia.org/wiki/Uthong", quote = "In 1351, he was formally enthroned as the founding monarch of the Ayutthaya Kingdom." },
+  { fact = "Naresuan was a ruler or leading figure of Ayutthaya Kingdom", source = "https://en.wikipedia.org/wiki/Naresuan", quote = "Naresuan's reign marked a pivotal era of territorial expansion and economic positioning for the Ayutthaya Kingdom." },
+  { fact = "Narai was a ruler or leading figure of Ayutthaya Kingdom", source = "https://en.wikipedia.org/wiki/Narai", quote = "Sensing a possible weakening of Burmese influence in the northern vassal states, King Narai began the Burmese–Siamese War of 1662–64 to bring Chiang Mai under the direct control of Ayutthaya." },
+  { fact = "Ekkathat was a ruler or leading figure of Ayutthaya Kingdom", source = "https://en.wikipedia.org/wiki/Ekkathat", quote = "Ekkathat, at the age of forty, left monkhood to take the throne, becoming the last king of Ayutthaya." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Azerbaijan Democratic Republic"
+civilization_id = "Q206411"
+field = "key_figures"
+action = "set"
+value = ["Fatali Khan Khoyski", "Nasib bey Yusifbeyli", "Mammad Hasan Hajinski"]
+value_id = ["Q984384", "Q2660781", "Q2496129"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Nasib bey Yusifbeyli (his article calls him prime minister but no cited sentence names the Azerbaijan Democratic Republic; its article does not mention him)"
+sources = [
+  { fact = "Fatali Khan Khoyski was a ruler or leading figure of Azerbaijan Democratic Republic", source = "https://en.wikipedia.org/wiki/Fatali_Khan_Khoyski", quote = "Prime Minister Khoyski had the distinct honor to send radiogram to the main political centers of the world on the proclamation of an independent Azerbaijan republic on 30 May 1918." },
+  { fact = "Mammad Hasan Hajinski was a ruler or leading figure of Azerbaijan Democratic Republic", source = "https://en.wikipedia.org/wiki/Mammad_Hasan_Hajinski", quote = "On May 28, 1918, when Azerbaijan Democratic Republic (ADR) was proclaimed, Hajinski was appointed the Minister of Foreign Affairs within the new Cabinet of Azerbaijan established by Prime Minister Fatali Khan Khoyski and held the office until October 6, 1918." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Aztec Triple Alliance"
+civilization_id = "Q2608489"
+field = "key_figures"
+action = "set"
+value = ["Nezahualcoyotl", "Moctezuma I", "Moctezuma II", "Cuauhtémoc"]
+value_id = ["Q379964", "Q13702", "Q141791", "Q297050"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Nezahualcoyotl was a ruler or leading figure of Aztec Triple Alliance", source = "https://en.wikipedia.org/wiki/Nezahualcoyotl_%28tlatoani%29", quote = "In order to defeat the Tepanec Empire, and its ruler Maxtla, he formed an alliance with the tlatoque (kings) of Mexico-Tenochtitlan and Tlacopan (Itzcoatl and Totoquihuaztli I), becoming one of the founders of the Aztec Triple Alliance, commonly known as the Aztec Empire." },
+  { fact = "Moctezuma I was a ruler or leading figure of Aztec Triple Alliance", source = "https://en.wikipedia.org/wiki/Moctezuma_I", quote = "Moctezuma I (c. 1398–1469), also known as Montezuma I, Moteuczomatzin Ilhuicamina (Classical Nahuatl: Motēuczōmah Ilhuicamīna [motɛːkʷˈs̻oːmaḁ ilwikaˈmiːna]) or Huehuemoteuczoma (Huēhuemotēuczōmah [weːwemotɛːkʷˈs̻oːmaḁ]), was the second Aztec emperor and fifth king of Tenochtitlan." },
+  { fact = "Moctezuma II was a ruler or leading figure of Aztec Triple Alliance", source = "https://en.wikipedia.org/wiki/Moctezuma_II", quote = "Moctezuma Xocoyotzin (c. 1466 – 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), reigning from 1502 or 1503 to 1520." },
+  { fact = "Cuauhtémoc was a ruler or leading figure of Aztec Triple Alliance", source = "https://en.wikipedia.org/wiki/Cuauht%C3%A9moc", quote = "When Cuauhtemoc was elected tlatoani in 1520, Tenochtitlan had already been rocked by the invasion of the Spanish and their indigenous allies, the death of Moctezuma II, and the death of Moctezuma's brother Cuitlahuac, who succeeded him as ruler, but died of smallpox shortly afterwards." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Baekje"
+civilization_id = "Q28428"
+field = "key_figures"
+action = "set"
+value = ["Onjo of Paekche", "Geunchogo of Baekje", "Muryeong of Baekje", "Uija of Baekje"]
+value_id = ["Q497285", "Q497601", "Q497878", "Q498030"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Onjo of Paekche was a ruler or leading figure of Baekje", source = "https://en.wikipedia.org/wiki/Onjo_of_Paekche", quote = "Onjo (Korean: 온조; Hanja: 溫祚; ?–28, reigned c. 18 BC – AD 28) was the founding monarch of Paekche, one of the Three Kingdoms of Korea." },
+  { fact = "Geunchogo of Baekje was a ruler or leading figure of Baekje", source = "https://en.wikipedia.org/wiki/Baekje", quote = "Geunchogo established the division of central military and local militaries." },
+  { fact = "Muryeong of Baekje was a ruler or leading figure of Baekje", source = "https://en.wikipedia.org/wiki/Muryeong_of_Baekje", quote = "Muryeong (461/462–523) was the 25th king of Baekje, one of the Three Kingdoms of Korea, reigning from 501 to 523." },
+  { fact = "Uija of Baekje was a ruler or leading figure of Baekje", source = "https://en.wikipedia.org/wiki/Baekje", quote = "King Uija and his son Buyeo Yung were sent into exile in China while at least some of the ruling class fled to Japan." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Bahmani Sultanate"
+civilization_id = "Q374521"
+field = "key_figures"
+action = "set"
+value = ["Ala-ud-Din Bahman Shah", "Mohammed Shah I", "Daud Shah Bahmani", "Ahmad Shah I Wali"]
+value_id = ["Q2749271", "Q3327500", "Q3017007", "Q3482078"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Ala-ud-Din Bahman Shah was a ruler or leading figure of Bahmani Sultanate", source = "https://en.wikipedia.org/wiki/Ala-ud-Din_Bahman_Shah", quote = "On 3 August 1347, the Afghan noble Nasir-ud-Din Ismail Shah, also known as Ismail Mukh, whom the rebel amirs of the Deccan placed on the throne of Daulatabad in 1345, abdicated in favor of Zafar Khan, resulting in the establishment of the Bahmani Sultanate with its headquarters at Hasanabad (Gulbarga)." },
+  { fact = "Mohammed Shah I was a ruler or leading figure of Bahmani Sultanate", source = "https://en.wikipedia.org/wiki/Mohammed_Shah_I", quote = "Mohammed Shah I (died 21 April 1375) was the second ruler of the Bahmani Sultanate, a late medieval kingdom of India." },
+  { fact = "Daud Shah Bahmani was a ruler or leading figure of Bahmani Sultanate", source = "https://en.wikipedia.org/wiki/Daud_Shah_Bahmani", quote = "Following the assassination of Mujahid Shah, Daud Shah was proclaimed the new King, becoming the fourth Bahmani Sultan, with nobles that were present submitting homage to him." },
+  { fact = "Ahmad Shah I Wali was a ruler or leading figure of Bahmani Sultanate", source = "https://en.wikipedia.org/wiki/Ahmad_Shah_I_Wali", quote = "'saint'), was the Sultan of the Bahmani Sultanate from 1 October 1422 to 17 April 1436, and was a great patron of arts and culture." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Balhae"
+civilization_id = "Q28322"
+field = "key_figures"
+action = "set"
+value = ["Ko of Parhae", "Mu of Balhae", "Mun of Balhae", "Sŏn of Balhae"]
+value_id = ["Q702079", "Q704083", "Q706537", "Q706413"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Ko of Parhae was a ruler or leading figure of Balhae", source = "https://en.wikipedia.org/wiki/Ko_of_Parhae", quote = "After a while, Tae Choyŏng realized the meaning of the title and sought to change Parhae's international status." },
+  { fact = "Mu of Balhae was a ruler or leading figure of Balhae", source = "https://en.wikipedia.org/wiki/Mu_of_Balhae", quote = "King Mu (Korean: 무왕; Hanja: 武王) (reigned" },
+  { fact = "Mun of Balhae was a ruler or leading figure of Balhae", source = "https://en.wikipedia.org/wiki/Balhae", quote = "Mun of Balhae referred to himself as \"King of Goryeo\" but Reisa Shimoda suggests that this was not to restore the old name, as noted in the Dai Nihonshi, but as a means of gaining Japan's favor by invoking Goryeo." },
+  { fact = "Sŏn of Balhae was a ruler or leading figure of Balhae", source = "https://en.wikipedia.org/wiki/Balhae", quote = "Both the reigns of Sŏn (Xuan, r. 818–830) and Tae Ijin (Da Yizhen, r. 830–857) saw intrusions by Mohe tribes." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Batavian Republic"
+civilization_id = "Q188553"
+field = "key_figures"
+action = "set"
+value = ["Rutger Jan Schimmelpenninck"]
+value_id = ["Q281640"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Rutger Jan Schimmelpenninck (his English article yields no footnote-covered sentence)"
+
+[[override]]
+civilization = "Belgian Congo"
+civilization_id = "Q213510"
+field = "key_figures"
+action = "set"
+value = ["Leopold II of Belgium", "Albert I of Belgium", "Leopold III of Belgium"]
+value_id = ["Q12967", "Q55008046", "Q12973"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Leopold II of Belgium (cited sentences concern the Congo Free State, a different (personal) state; none says he ruled the Belgian Congo); no source yet for Leopold III of Belgium (no cited sentence in his article mentions the Congo)"
+sources = [
+  { fact = "Albert I of Belgium was a ruler or leading figure of Belgian Congo", source = "https://en.wikipedia.org/wiki/Albert_I_of_Belgium", quote = "An important aspect of the early years of Albert's reign was his institution of many reforms in the administration of the Belgian Congo, Belgium's only colonial possession." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Beylik of Karaman"
+civilization_id = "Q1469100"
+field = "key_figures"
+action = "set"
+value = ["Karim al-Din Karaman"]
+value_id = ["Q6368276"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Karim al-Din Karaman was a ruler or leading figure of Beylik of Karaman", source = "https://en.wikipedia.org/wiki/Beylik_of_Karaman", quote = "His son, Kerîmeddin Karaman Bey, gained tenuous control over the mountainous parts of Cilicia in the middle of the 13th century." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Bijapur Sultanate"
+civilization_id = "Q83821"
+field = "key_figures"
+action = "set"
+value = ["Yusuf Adil Shah", "Sikandar Adil Shah"]
+value_id = ["Q961890", "Q7513543"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Yusuf Adil Shah was a ruler or leading figure of Bijapur Sultanate", source = "https://en.wikipedia.org/wiki/Yusuf_Adil_Shah", quote = "Yusuf Adil Shah (1450 – 5 December 1510), referred as Yusuf Adil Khan or Hidalcão by the Portuguese, was the founder of the Adil Shahi dynasty that ruled the Sultanate of Bijapur for nearly two centuries." },
+  { fact = "Sikandar Adil Shah was a ruler or leading figure of Bijapur Sultanate", source = "https://en.wikipedia.org/wiki/Bijapur_Sultanate", quote = "Sikandar Adil Shah, the last Adil Shahi sultan, ruled for fourteen troubled years." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Brazilian Republic"
+civilization_id = "Q155"
+field = "key_figures"
+action = "set"
+value = ["Deodoro da Fonseca", "Floriano Peixoto", "Prudente de Morais", "Getúlio Vargas"]
+value_id = ["Q200812", "Q238688", "Q310230", "Q156844"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Prudente de Morais (his article yields no cited sentence saying he was president of Brazil)"
+sources = [
+  { fact = "Deodoro da Fonseca was a ruler or leading figure of Brazilian Republic", source = "https://en.wikipedia.org/wiki/Deodoro_da_Fonseca", quote = "From 1889–1891, Deodoro led a provisional government." },
+  { fact = "Floriano Peixoto was a ruler or leading figure of Brazilian Republic", source = "https://en.wikipedia.org/wiki/Floriano_Peixoto", quote = "Floriano Peixoto came to the presidency in a difficult period of the new Brazilian Republic, which was in the midst of a general political and economic crisis made worse by the effects of the bursting of the Encilhamento economic bubble, but his policies successfully put an end to the successive economic crises that had plagued the country since 1889 and in a short period of time the economy stabilized and grew again." },
+  { fact = "Getúlio Vargas was a ruler or leading figure of Brazilian Republic", source = "https://en.wikipedia.org/wiki/Get%C3%BAlio_Vargas", quote = "The 1938 presidential elections were canceled, and Brazil became a dictatorship called the Estado Novo, or New State, led by Vargas." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "British Cape Colony"
+civilization_id = "Q370736"
+field = "key_figures"
+action = "set"
+value = ["George III", "William IV", "Queen Victoria", "Edward VII"]
+value_id = ["Q127318", "Q130822", "Q9439", "Q20875"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "George III was a ruler or leading figure of British Cape Colony", source = "https://en.wikipedia.org/wiki/George_III", quote = "George III (George William Frederick; 4 June 1738 – 29 January 1820) was King of Great Britain and Ireland from 25 October 1760 until his death in 1820." },
+  { fact = "William IV was a ruler or leading figure of British Cape Colony", source = "https://en.wikipedia.org/wiki/William_IV", quote = "When George IV died on 26 June 1830 without surviving legitimate issue, William succeeded him as William IV." },
+  { fact = "Queen Victoria was a ruler or leading figure of British Cape Colony", source = "https://en.wikipedia.org/wiki/Queen_Victoria", quote = "Less than a month later, on 20 June 1837, William IV died at the age of 71, and Victoria became Queen of the United Kingdom." },
+  { fact = "Edward VII was a ruler or leading figure of British Cape Colony", source = "https://en.wikipedia.org/wiki/Edward_VII", quote = "When his mother died on 22 January 1901, Edward became King of the United Kingdom, Emperor of India and, in an innovation, King of the British Dominions." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "British Empire"
+civilization_id = "Q8680"
+field = "key_figures"
+action = "set"
+value = ["Elizabeth I", "George III", "Queen Victoria", "Edward VII"]
+value_id = ["Q7207", "Q127318", "Q9439", "Q20875"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Elizabeth I (no cited sentence ties her to the British Empire; only to England and early overseas contacts)"
+sources = [
+  { fact = "George III was a ruler or leading figure of British Empire", source = "https://en.wikipedia.org/wiki/George_III", quote = "George III (George William Frederick; 4 June 1738 – 29 January 1820) was King of Great Britain and Ireland from 25 October 1760 until his death in 1820." },
+  { fact = "Queen Victoria was a ruler or leading figure of British Empire", source = "https://en.wikipedia.org/wiki/Queen_Victoria", quote = "Less than a month later, on 20 June 1837, William IV died at the age of 71, and Victoria became Queen of the United Kingdom." },
+  { fact = "Edward VII was a ruler or leading figure of British Empire", source = "https://en.wikipedia.org/wiki/Edward_VII", quote = "When his mother died on 22 January 1901, Edward became King of the United Kingdom, Emperor of India and, in an innovation, King of the British Dominions." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "British Raj"
+civilization_id = "Q129286"
+field = "key_figures"
+action = "set"
+value = ["Queen Victoria", "Edward VII", "George V", "George VI"]
+value_id = ["Q9439", "Q20875", "Q269412", "Q280856"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Queen Victoria was a ruler or leading figure of British Raj", source = "https://en.wikipedia.org/wiki/Queen_Victoria", quote = "Disraeli also pushed the Royal Titles Act 1876 through Parliament, so that Victoria took the title \"Empress of India\" from 1 May 1876." },
+  { fact = "Edward VII was a ruler or leading figure of British Raj", source = "https://en.wikipedia.org/wiki/Edward_VII", quote = "When his mother died on 22 January 1901, Edward became King of the United Kingdom, Emperor of India and, in an innovation, King of the British Dominions." },
+  { fact = "George V was a ruler or leading figure of British Raj", source = "https://en.wikipedia.org/wiki/George_V", quote = "By the Silver Jubilee of his reign in 1935, he had become a well-loved king, saying in response to the crowd's adulation, \"I cannot understand it, after all I am only a very ordinary sort of fellow.\"" },
+  { fact = "George VI was a ruler or leading figure of British Raj", source = "https://en.wikipedia.org/wiki/George_VI", quote = "On 22 June 1948, George VI relinquished the title of Emperor of India." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Buyid Dynasty"
+civilization_id = "Q273874"
+field = "key_figures"
+action = "set"
+value = ["Imad al-Dawla", "Mu'izz al-Dawla", "'Adud al-Dawla", "Abu Kalijar"]
+value_id = ["Q912259", "Q2745237", "Q506243", "Q288822"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Imad al-Dawla was a ruler or leading figure of Buyid Dynasty", source = "https://en.wikipedia.org/wiki/Imad_al-Dawla", quote = "Ali ibn Buya (Persian: علی بن بویه, Arabic: علي بن بویه), commonly known by his laqab (honorific epithet) Imad al-Dawla (عمادالدوله; c. 891/2 – December 949), was the founder of the Buyid amirate of Fars, ruling as its amir (ruler) from 934 to 949." },
+  { fact = "Mu'izz al-Dawla was a ruler or leading figure of Buyid Dynasty", source = "https://en.wikipedia.org/wiki/Buyid_dynasty", quote = "In 962 Buyid amir Mu'izz al-Dawla ordered curses against the first three caliphs painted on the walls in the mosques of Baghdad, which were later blotted out by opponents of the Shias." },
+  { fact = "'Adud al-Dawla was a ruler or leading figure of Buyid Dynasty", source = "https://en.wikipedia.org/wiki/%27Adud_al-Dawla", quote = "He is widely regarded as the greatest monarch of the Buyid dynasty, and by the end of his reign he was the most powerful ruler in the Middle East." },
+  { fact = "Abu Kalijar was a ruler or leading figure of Buyid Dynasty", source = "https://en.wikipedia.org/wiki/Abu_Kalijar", quote = "Around 1037 his army marched on Baghdad; although he did not take the city, Jalal al-Dawla recognized him as senior amir." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Byzantine Empire"
+civilization_id = "Q12544"
+field = "key_figures"
+action = "set"
+value = ["Justinian I", "Leo III the Isaurian", "Manuel I Komnenos", "Constantine XI Palaiologos"]
+value_id = ["Q41866", "Q31755", "Q41610", "Q37142"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Justinian I was a ruler or leading figure of Byzantine Empire", source = "https://en.wikipedia.org/wiki/Justinian_I", quote = "Justinian I (Latin: Iustinianus, Byzantine Greek: Ἰουστινιανός, romanized: Ioustinianós; 482 – 14 November 565), also known as Justinian the Great, was Roman emperor from 527 to 565." },
+  { fact = "Leo III the Isaurian was a ruler or leading figure of Byzantine Empire", source = "https://en.wikipedia.org/wiki/Leo_III_the_Isaurian", quote = "Leo III the Isaurian (Greek: Λέων ὁ Ἴσαυρος, romanized: Leōn ō Isauros; c. 685 – 18 June 741), also known as the Syrian, was the first Byzantine emperor of the Isaurian dynasty from 717 until his death in 741." },
+  { fact = "Manuel I Komnenos was a ruler or leading figure of Byzantine Empire", source = "https://en.wikipedia.org/wiki/Manuel_I_Komnenos", quote = "Manuel was also the last Byzantine emperor who, thanks to his military and diplomatic success in the Balkans, could call himself \"ruler of Dalmatia, Bosnia, Croatia, Serbia, Bulgaria and Hungary\"." },
+  { fact = "Constantine XI Palaiologos was a ruler or leading figure of Byzantine Empire", source = "https://en.wikipedia.org/wiki/Constantine_XI_Palaiologos", quote = "In a small civil ceremony at Mystras, possibly in one of the churches or in the Despot's Palace, on 6 January 1449, Constantine was proclaimed Emperor of the Romans." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Caliphate of Córdoba"
+civilization_id = "Q171740"
+field = "key_figures"
+action = "set"
+value = ["Abd al-Rahman III", "Al-Hakam II", "Hisham II of Córdoba", "Sulayman ibn al-Hakam"]
+value_id = ["Q190418", "Q284531", "Q169640", "Q919199"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Sulayman ibn al-Hakam (his article and the state's article yield no cited sentence naming him)"
+sources = [
+  { fact = "Abd al-Rahman III was a ruler or leading figure of Caliphate of Córdoba", source = "https://en.wikipedia.org/wiki/Abd_al-Rahman_III", quote = "In 929, he elevated the emirate to the Caliphate of Córdoba, serving as its first caliph until his death." },
+  { fact = "Al-Hakam II was a ruler or leading figure of Caliphate of Córdoba", source = "https://en.wikipedia.org/wiki/Caliphate_of_C%C3%B3rdoba", quote = "The caliphate reached an intellectual and scholarly peak under Al-Hakam II." },
+  { fact = "Hisham II of Córdoba was a ruler or leading figure of Caliphate of Córdoba", source = "https://en.wikipedia.org/wiki/Hisham_II_of_C%C3%B3rdoba", quote = "Abu'l-Walid Hishām al-Muʾayyad bi-llāh (أبو الوليد هشام المؤيد بالله; 966 – c. 1013), better known as Hisham II, was the third Umayyad caliph of Córdoba, ruling Al-Andalus from 976 to 1009 and again from 1010 to 1013." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Canada"
+civilization_id = "Q16"
+field = "key_figures"
+action = "set"
+value = ["George V", "Edward VIII", "George VI"]
+value_id = ["Q269412", "Q590227", "Q280856"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for George V (no cited sentence says he was king of Canada)"
+sources = [
+  { fact = "Edward VIII was a ruler or leading figure of Canada", source = "https://en.wikipedia.org/wiki/Edward_VIII", quote = "Edward VIII (Edward Albert Christian George Andrew Patrick David; 23 June 1894 – 28 May 1972), later known as the Duke of Windsor, was King of the United Kingdom and the British Dominions, and Emperor of India, from 20 January 1936 until his abdication in December of the same year." },
+  { fact = "George VI was a ruler or leading figure of Canada", source = "https://en.wikipedia.org/wiki/George_VI", quote = "From Ottawa, the King and Queen were accompanied by Canadian prime minister Mackenzie King, to present themselves in North America as King and Queen of Canada." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Cao Wei"
+civilization_id = "Q320930"
+field = "key_figures"
+action = "set"
+value = ["Cao Pi", "Cao Rui", "Cao Fang", "Cao Huan"]
+value_id = ["Q313333", "Q378470", "Q77822", "Q470091"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Cao Pi was a ruler or leading figure of Cao Wei", source = "https://en.wikipedia.org/wiki/Cao_Wei", quote = "Cao Pi ruled for six years until his death on 29 June 226 and was succeeded by his son, Cao Rui, who ruled until his death on 22 January 239." },
+  { fact = "Cao Rui was a ruler or leading figure of Cao Wei", source = "https://en.wikipedia.org/wiki/Cao_Wei", quote = "Cao Pi ruled for six years until his death on 29 June 226 and was succeeded by his son, Cao Rui, who ruled until his death on 22 January 239." },
+  { fact = "Cao Fang was a ruler or leading figure of Cao Wei", source = "https://en.wikipedia.org/wiki/Sima_Yi", quote = "In early 239, when Cao Fang became the new Wei emperor, the Wei government appointed Sima Yi as Palace Attendant and Manager of the Affairs of the Imperial Secretariat (錄尚書事), granted him imperial authority, and ordered him to oversee military affairs within and outside Luoyang." },
+  { fact = "Cao Huan was a ruler or leading figure of Cao Wei", source = "https://en.wikipedia.org/wiki/Cao_Wei", quote = "On 4 February 266, Sima Zhao's son, Sima Yan, forced Cao Huan to abdicate in his favor, replacing Wei with the Jin dynasty on 8 February 266." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Caucasian Iberia"
+civilization_id = "Q19083"
+field = "key_figures"
+action = "set"
+value = ["Pharnavaz I", "Pharasmanes II", "Mirian III", "Vakhtang I"]
+value_id = ["Q372698", "Q2655106", "Q529685", "Q359956"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Pharasmanes II (cited sentences call him king but none ties it explicitly to Iberia's ruler list)"
+sources = [
+  { fact = "Pharnavaz I was a ruler or leading figure of Caucasian Iberia", source = "https://en.wikipedia.org/wiki/Pharnavaz_I", quote = "Pharnavaz I (/fɑːrnɑːvɑːz/) was a king (mepe) of Kartli, an ancient Georgian kingdom known as Iberia in classical antiquity." },
+  { fact = "Mirian III was a ruler or leading figure of Caucasian Iberia", source = "https://en.wikipedia.org/wiki/Mirian_III", quote = "According to the early Medieval Georgian annals and hagiography, Mirian was the first Christian king of Iberia, converted through the ministry of Nino, a Cappadocian female missionary." },
+  { fact = "Vakhtang I was a ruler or leading figure of Caucasian Iberia", source = "https://en.wikipedia.org/wiki/Vakhtang_I_of_Iberia", quote = "He led his people, through an ill-fated alliance with the Byzantine Empire, into a lengthy struggle against Sasanian Iranian hegemony, which ended in Vakhtang's defeat and weakened the kingdom of Iberia." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Centralist Mexico"
+civilization_id = "Q5062192"
+field = "key_figures"
+action = "set"
+value = ["Anastasio Bustamante", "Antonio López de Santa Anna", "José Joaquín de Herrera", "Mariano Paredes"]
+value_id = ["Q354678", "Q189145", "Q373622", "Q440461"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Anastasio Bustamante was a ruler or leading figure of Centralist Mexico", source = "https://en.wikipedia.org/wiki/Centralist_Republic_of_Mexico", quote = "Meanwhile, Corro's administration had ended and Anastasio Bustamante, who had previously been president during the First Mexican Republic was again elected president in 1837." },
+  { fact = "Antonio López de Santa Anna was a ruler or leading figure of Centralist Mexico", source = "https://en.wikipedia.org/wiki/Centralist_Republic_of_Mexico", quote = "The presidency in the meantime was held by Santa Anna who had been rehabilitated by his role in the Pastry War." },
+  { fact = "José Joaquín de Herrera was a ruler or leading figure of Centralist Mexico", source = "https://en.wikipedia.org/wiki/Centralist_Republic_of_Mexico", quote = "Canalizo resigned and on 6 December 1844, congress was restored and José Joaquín de Herrera was installed as the new president with a new cabinet." },
+  { fact = "Mariano Paredes was a ruler or leading figure of Centralist Mexico", source = "https://en.wikipedia.org/wiki/Centralist_Republic_of_Mexico", quote = "On 3 January, Mariano Paredes ascended to the presidency." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Chalukya Dynasty"
+civilization_id = "Q1395011"
+field = "key_figures"
+action = "set"
+value = ["Pulakeshin I", "Kirttivarman I", "Pulakeshin II", "Vikramaditya I"]
+value_id = ["Q7259171", "Q6416224", "Q708370", "Q3576629"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Pulakeshin I was a ruler or leading figure of Chalukya Dynasty", source = "https://en.wikipedia.org/wiki/Chalukya_dynasty", quote = "The Chalukya dynasty was established by Pulakeshin I in 543." },
+  { fact = "Kirttivarman I was a ruler or leading figure of Chalukya Dynasty", source = "https://en.wikipedia.org/wiki/Kirttivarman_I", quote = "Kirttivarman I was a son of Pulakeshin I, the first sovereign ruler of the Chalukya dynasty." },
+  { fact = "Pulakeshin II was a ruler or leading figure of Chalukya Dynasty", source = "https://en.wikipedia.org/wiki/Chalukya_dynasty", quote = "Pulakeshin II extended the Chalukya Empire up to the northern extents of the Pallava kingdom and halted the southward march of Harsha by defeating him on the banks of the river Narmada." },
+  { fact = "Vikramaditya I was a ruler or leading figure of Chalukya Dynasty", source = "https://en.wikipedia.org/wiki/Chalukya_dynasty", quote = "It recovered during the reign of Vikramaditya I, who succeeded in pushing the Pallavas out of Badami and restoring order to the empire." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Chámpa"
+civilization_id = "Q216786"
+field = "key_figures"
+action = "set"
+value = ["Phạm Dương Mại II", "Vidyanandana", "Jaya Paramesvaravarman II", "Jaya Indravarman VI"]
+value_id = ["Q1062937", "Q12443443", "Q6167408", "Q12428133"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Jaya Indravarman VI (his article has no cited sentence naming Champa; not matched to Champa's Indravarman VI)"
+sources = [
+  { fact = "Phạm Dương Mại II was a ruler or leading figure of Chámpa", source = "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_D%C6%B0%C6%A1ng_M%E1%BA%A1i_II", quote = "Fan Yang Mai II or Pham Duong Mai II was the King of Champa, an area populated by the Cham ethnic group in present-day Vietnam, from 421 to about 446." },
+  { fact = "Vidyanandana was a ruler or leading figure of Chámpa", source = "https://en.wikipedia.org/wiki/Vidyanandana", quote = "He assaulted Vijaya, killing Jaya Indravarman IV, and chased Jaya Indravarman V to Traik where Suryavarman captured Jaya Indravarman V and executed him, then \"reigned without opposition over the Kingdom of Champa.\"" },
+  { fact = "Jaya Paramesvaravarman II was a ruler or leading figure of Chámpa", source = "https://en.wikipedia.org/wiki/Jaya_Paramesvaravarman_II", quote = "Jaya Paramesvaravarman II, born Prince Angsaraja of Turai-vijaya, was the king of Champa from 1220 to 1254." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Chen Dynasty"
+civilization_id = "Q62454"
+field = "key_figures"
+action = "set"
+value = ["Emperor Wu of Chen", "Emperor Wen of Chen", "Emperor Xuan of Chen", "Chen Shubao"]
+value_id = ["Q718217", "Q712113", "Q718227", "Q718206"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Emperor Wu of Chen was a ruler or leading figure of Chen Dynasty", source = "https://en.wikipedia.org/wiki/Chen_dynasty", quote = "In winter 557, Chen Baxian had Emperor Jing yield the throne to him (killing him in the next summer), establishing the Chen dynasty as its Emperor Wu of Chen." },
+  { fact = "Emperor Wen of Chen was a ruler or leading figure of Chen Dynasty", source = "https://en.wikipedia.org/wiki/Chen_dynasty", quote = "In 559, Chen Baxian fell ill, and the throne was passed to his nephew Chen Geng or Emperor Wen of Chen." },
+  { fact = "Emperor Xuan of Chen was a ruler or leading figure of Chen Dynasty", source = "https://en.wikipedia.org/wiki/Chen_dynasty", quote = "Both Chen Bozong and Chen Xu were also very effective and capable rulers who further strengthened and expanded the state, rivaling and even defeating the Northern Zhou and Northern Qi." },
+  { fact = "Chen Shubao was a ruler or leading figure of Chen Dynasty", source = "https://en.wikipedia.org/wiki/Chen_dynasty", quote = "Chen Shubao was the last ruler of the Chen dynasty, and his family held high positions in the Sui royal court." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Chenla"
+civilization_id = "Q1057118"
+field = "key_figures"
+action = "set"
+value = ["Mahendravarman", "Isanavarman I"]
+value_id = ["Q2661387", "Q4205535"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Mahendravarman was a ruler or leading figure of Chenla", source = "https://en.wikipedia.org/wiki/Mahendravarman_%28Chenla%29", quote = "Mahendravarman was a king of the kingdom of Chenla, modern day Cambodia, during the 6th century." },
+  { fact = "Isanavarman I was a ruler or leading figure of Chenla", source = "https://en.wikipedia.org/wiki/Isanavarman_I", quote = "Īśānavarman (Khmer: ឦសានវរ្ម័នទី១, Īsānavarman, Iśânasena) or Yīshēnàxiāndài (Chinese: 伊奢那先代) was a king of the kingdom of Chenla in 7th century, which would later become the Khmer Empire." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Chola dynasty"
+civilization_id = "Q151148"
+field = "key_figures"
+action = "set"
+value = ["Vijayalaya Chola", "Aditya I", "Rajaraja I", "Rajendra I"]
+value_id = ["Q7929271", "Q3535800", "Q2128757", "Q211483"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Vijayalaya Chola was a ruler or leading figure of Chola dynasty", source = "https://en.wikipedia.org/wiki/Chola_dynasty", quote = "The Chola Empire was founded in 848 CE by Vijayalaya, a descendant of Early Cholas." },
+  { fact = "Aditya I was a ruler or leading figure of Chola dynasty", source = "https://en.wikipedia.org/wiki/Aditya_I", quote = "Aditya Chola I was a Chola king who reigned in the late ninth to early tenth century CE." },
+  { fact = "Rajaraja I was a ruler or leading figure of Chola dynasty", source = "https://en.wikipedia.org/wiki/Chola_dynasty", quote = "Under Rajaraja I and his successors Rajendra I, Rajadhiraja I, Rajendra II, Virarajendra, and Kulothunga Chola I, the empire became a military, economic and cultural powerhouse in South Asia and Southeast Asia." },
+  { fact = "Rajendra I was a ruler or leading figure of Chola dynasty", source = "https://en.wikipedia.org/wiki/Rajendra_I", quote = "During his reign, the Chola Empire reached its zenith in the Indian subcontinent; it extended its reach via trade and conquest across the Indian Ocean, making Rajendra one of only a few Indian monarchs who conquered territory beyond South Asia." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Cimmerian Bosporus"
+civilization_id = "Q321371"
+field = "key_figures"
+action = "set"
+value = ["Spartocus I", "Paerisades II"]
+value_id = ["Q2662891", "Q3072504"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Spartocus I was a ruler or leading figure of Cimmerian Bosporus", source = "https://en.wikipedia.org/wiki/Spartocus_I", quote = "Spartocus I (Greek: Σπάρτοκος, romanized: Spartokos) was the founder and first ruler of the Spartocid dynasty in the Bosporan Kingdom." },
+  { fact = "Paerisades II was a ruler or leading figure of Cimmerian Bosporus", source = "https://en.wikipedia.org/wiki/Bosporan_Kingdom", quote = "Eumelus' successor was Spartocus III (303–283 BC) and after him Paerisades II." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Commonwealth of Australia"
+civilization_id = "Q408"
+field = "key_figures"
+action = "set"
+value = ["Edmund Barton", "Alfred Deakin", "George VI"]
+value_id = ["Q23342", "Q313805", "Q280856"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for George VI (cited sentences show King of Canada and India but none says King of Australia)"
+sources = [
+  { fact = "Edmund Barton was a ruler or leading figure of Commonwealth of Australia", source = "https://en.wikipedia.org/wiki/Edmund_Barton", quote = "Barton was appointed prime minister on 1 January 1901, the day on which the new federal constitution came into effect." },
+  { fact = "Alfred Deakin was a ruler or leading figure of Commonwealth of Australia", source = "https://en.wikipedia.org/wiki/Alfred_Deakin", quote = "Deakin was acting prime minister of Australia until Barton's return in October 1902." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Commonwealth of England"
+civilization_id = "Q330362"
+field = "key_figures"
+action = "set"
+value = ["Oliver Cromwell"]
+value_id = ["Q44279"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Oliver Cromwell was a ruler or leading figure of Commonwealth of England", source = "https://en.wikipedia.org/wiki/Oliver_Cromwell", quote = "In December 1653, he was named Lord Protector, a position he retained for the remaining five years of his life." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Confederate States of America"
+civilization_id = "Q81931"
+field = "key_figures"
+action = "set"
+value = ["Jefferson Davis"]
+value_id = ["Q162269"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Jefferson Davis was a ruler or leading figure of Confederate States of America", source = "https://en.wikipedia.org/wiki/Jefferson_Davis", quote = "Although Davis served the United States as a soldier and a war hero, a politician who sat in both houses of Congress, and a cabinet officer, his legacy is mainly defined by his role as president of the Confederacy." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Cossack Hetmanate"
+civilization_id = "Q212439"
+field = "key_figures"
+action = "set"
+value = ["Bohdan Khmelnytsky", "Ivan Vyhovsky", "Ivan Mazepa", "Pylyp Orlyk"]
+value_id = ["Q203808", "Q561414", "Q165419", "Q966936"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Pylyp Orlyk (no cited sentence says he held the hetmanship of the Hetmanate)"
+sources = [
+  { fact = "Bohdan Khmelnytsky was a ruler or leading figure of Cossack Hetmanate", source = "https://en.wikipedia.org/wiki/Cossack_Hetmanate", quote = "The founder of the Hetmanate, Bohdan Khmelnytsky, declared himself the ruler of the Ruthenian state to the Polish representative Adam Kysil in February 1649." },
+  { fact = "Ivan Vyhovsky was a ruler or leading figure of Cossack Hetmanate", source = "https://en.wikipedia.org/wiki/Cossack_Hetmanate", quote = "In response, Ivan Vyhovsky, the general scribe (Ukrainian: писар, romanized: pysar) of the Hetmanate and an adviser to Bohdan Khmelnytsky, was elected hetman in 1657 by the Starshyna council." },
+  { fact = "Ivan Mazepa was a ruler or leading figure of Cossack Hetmanate", source = "https://en.wikipedia.org/wiki/Cossack_Hetmanate", quote = "The period of the Ruin effectively ended when Ivan Mazepa was elected hetman, serving from 1687 to 1708." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "County of Flanders"
+civilization_id = "Q157070"
+field = "key_figures"
+action = "set"
+value = ["Baldwin I of Flanders", "Baldwin V of Hainaut", "Baldwin I, Latin Emperor", "Joan, Countess of Flanders"]
+value_id = ["Q378271", "Q469598", "Q298896", "Q466311"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Baldwin I of Flanders was a ruler or leading figure of County of Flanders", source = "https://en.wikipedia.org/wiki/Baldwin_I_of_Flanders", quote = "He was appointed Margrave of Flanders." },
+  { fact = "Baldwin V of Hainaut was a ruler or leading figure of County of Flanders", source = "https://en.wikipedia.org/wiki/Baldwin_I%2C_Latin_Emperor", quote = "Baldwin V thereupon ruled as Baldwin VIII of Flanders by right of marriage." },
+  { fact = "Baldwin I, Latin Emperor was a ruler or leading figure of County of Flanders", source = "https://en.wikipedia.org/wiki/Baldwin_I%2C_Latin_Emperor", quote = "When Countess Margaret I died in 1194, Flanders descended to her eldest son, Baldwin IX." },
+  { fact = "Joan, Countess of Flanders was a ruler or leading figure of County of Flanders", source = "https://en.wikipedia.org/wiki/Joan%2C_Countess_of_Flanders", quote = "Joan, often called Joan of Constantinople (c. 1199 – 5 December 1244), was the countess of Flanders and Hainaut from 1205 (at the age of six) until her death." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Crimean Khanate"
+civilization_id = "Q160440"
+field = "key_figures"
+action = "set"
+value = ["Haji I Giray", "Meñli I Giray", "Devlet II Giray", "Şahin Giray"]
+value_id = ["Q379718", "Q379724", "Q1206956", "Q2947626"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Devlet II Giray (no cited sentence found for him in his article or the state's)"
+sources = [
+  { fact = "Haji I Giray was a ruler or leading figure of Crimean Khanate", source = "https://en.wikipedia.org/wiki/Crimean_Khanate", quote = "But Hacı Giray then had to fight off internal rivals before he could ascend the throne of the khanate in 1449, after which he moved its capital to Qırq Yer (today part of Bahçeseray)." },
+  { fact = "Meñli I Giray was a ruler or leading figure of Crimean Khanate", source = "https://en.wikipedia.org/wiki/Me%C3%B1li_I_Giray", quote = "Meñli I Giray (1445–1515) was thrice the khan of the Crimean Khanate (1466, 1469–1475, 1478–1515) and the sixth son of Hacı I Giray." },
+  { fact = "Şahin Giray was a ruler or leading figure of Crimean Khanate", source = "https://en.wikipedia.org/wiki/%C5%9Eahin_Giray", quote = "During his brief reign, he embarked on a program to re-build and modernise the Crimean Khanate." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Crown of Aragon"
+civilization_id = "Q204920"
+field = "key_figures"
+action = "set"
+value = ["James I of Aragon", "Peter III of Aragon", "Alfonso V of Aragon", "Ferdinand II of Aragon"]
+value_id = ["Q212052", "Q312311", "Q312304", "Q12860"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "James I of Aragon was a ruler or leading figure of Crown of Aragon", source = "https://en.wikipedia.org/wiki/Crown_of_Aragon", quote = "King James I (13th century) returned to an era of expansion to the South, by conquering and incorporating Mallorca, Ibiza, and a good share of the Kingdom of Valencia into the Crown." },
+  { fact = "Peter III of Aragon was a ruler or leading figure of Crown of Aragon", source = "https://en.wikipedia.org/wiki/Peter_III_of_Aragon", quote = "Peter made his brother James II of Majorca sign the treaty of Perpignan in 1279, in which he recognized the Kingdom of Majorca as a feudal kingdom of Peter III (making the Crown of Aragon an indissoluble unity)." },
+  { fact = "Alfonso V of Aragon was a ruler or leading figure of Crown of Aragon", source = "https://en.wikipedia.org/wiki/Alfonso_V_of_Aragon", quote = "Alfonso the Magnanimous (Alfons el Magnànim in Catalan) (1396 – 27 June 1458) was King of Aragon and King of Sicily (as Alfons V) and the ruler of the Crown of Aragon from 1416 and King of Naples (as Alfons I) from 1442 until his death." },
+  { fact = "Ferdinand II of Aragon was a ruler or leading figure of Crown of Aragon", source = "https://en.wikipedia.org/wiki/Ferdinand_II_of_Aragon", quote = "Ferdinand II (10 March 1452 – 23 January 1516), also known as Ferdinand the Catholic (Spanish: Fernando el Católico, Catalan: Ferran el Catòlic), was King of Aragon from 1479 until his death in 1516." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Crown of Castile"
+civilization_id = "Q217196"
+field = "key_figures"
+action = "set"
+value = ["Ferdinand III of Castile", "Alfonso X of Castile", "Isabella I of Castile", "Joanna of Castile"]
+value_id = ["Q243122", "Q47595", "Q45859", "Q171136"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Ferdinand III of Castile was a ruler or leading figure of Crown of Castile", source = "https://en.wikipedia.org/wiki/Ferdinand_III_of_Castile", quote = "Ferdinand III (Spanish: Fernando; 1199/1201 – 30 May 1252), called the Saint (el Santo), was King of Castile from 1217 and King of León from 1230 as well as King of Galicia from 1231." },
+  { fact = "Alfonso X of Castile was a ruler or leading figure of Crown of Castile", source = "https://en.wikipedia.org/wiki/Alfonso_X_of_Castile", quote = "As a ruler, Alfonso showed legislative capacity, and a wish to provide the kingdoms expanded under his father with a code of laws and a consistent judicial system." },
+  { fact = "Isabella I of Castile was a ruler or leading figure of Crown of Castile", source = "https://en.wikipedia.org/wiki/Isabella_I_of_Castile", quote = "Isabella I (Spanish: Isabel I; 22 April 1451 – 26 November 1504), also known as Isabella the Catholic (Spanish: Isabel la Católica), was Queen of Castile and León from 1474 until her death in 1504." },
+  { fact = "Joanna of Castile was a ruler or leading figure of Crown of Castile", source = "https://en.wikipedia.org/wiki/Joanna_of_Castile", quote = "Joanna or Joan (also known as Joanna the Mad or Joan the Mad; Spanish: Juana la Loca; 6 November 1479 – 12 April 1555) was Queen of Castile from 1504 and Queen of Aragon from 1516 to her death in 1555." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Czechoslovakia"
+civilization_id = "Q33946"
+field = "key_figures"
+action = "set"
+value = ["Tomáš Masaryk", "Edvard Beneš", "Emil Hácha"]
+value_id = ["Q78492", "Q152274", "Q156502"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Tomáš Masaryk was a ruler or leading figure of Czechoslovakia", source = "https://en.wikipedia.org/wiki/Edvard_Bene%C5%A1", quote = "In the early 1920s, Beneš and his mentor, President Masaryk, viewed Kramář as the principal threat to Czechoslovak democracy, seeing him as a \"reactionary\" Czech chauvinist who was opposed to their plans for Czechoslovakia as a multi-cultural, multi-ethnic state." },
+  { fact = "Edvard Beneš was a ruler or leading figure of Czechoslovakia", source = "https://en.wikipedia.org/wiki/Edvard_Bene%C5%A1", quote = "When President Tomáš Masaryk retired in 1935, Beneš succeeded him." },
+  { fact = "Emil Hácha was a ruler or leading figure of Czechoslovakia", source = "https://en.wikipedia.org/wiki/Emil_H%C3%A1cha", quote = "Following the Munich Agreement, Hácha was nominated as successor to Edvard Beneš on 30 November 1938 as President of Czechoslovakia." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Dahomey"
+civilization_id = "Q468814"
+field = "key_figures"
+action = "set"
+value = ["Do-Aklin", "Ghezo", "Béhanzin"]
+value_id = ["Q104548", "Q880285", "Q2366953"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Do-Aklin (cited sentences only make him an ancestor of Dahomey's founder Dakodonu)"
+sources = [
+  { fact = "Ghezo was a ruler or leading figure of Dahomey", source = "https://en.wikipedia.org/wiki/Dahomey", quote = "When King Ghezo ascended the throne in 1818, he was confronted by two immediate obstacles: the Kingdom of Dahomey was in political turmoil, and it was financially unstable." },
+  { fact = "Béhanzin was a ruler or leading figure of Dahomey", source = "https://en.wikipedia.org/wiki/Dahomey", quote = "In 1880, king Béhanzin informed a French mission that firearms were manufactured in the state." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Dál Riata"
+civilization_id = "Q111471"
+field = "key_figures"
+action = "set"
+value = ["Fergus Mór", "Gabrán mac Domangairt", "Áedán mac Gabráin", "Kenneth MacAlpin"]
+value_id = ["Q558767", "Q375287", "Q378755", "Q298263"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Fergus Mór was a ruler or leading figure of Dál Riata", source = "https://en.wikipedia.org/wiki/D%C3%A1l_Riata", quote = "Dál Riata is said to have been founded by the legendary king Fergus Mór (Fergus the Great) in the 5th century." },
+  { fact = "Gabrán mac Domangairt was a ruler or leading figure of Dál Riata", source = "https://en.wikipedia.org/wiki/Gabr%C3%A1n_mac_Domangairt", quote = "Gabrán mac Domangairt (Old Welsh: Gawran map Dinwarch) or Gabrán the Traitor (Gwran Wradouc) was king of Dál Riata in the mid-6th century." },
+  { fact = "Áedán mac Gabráin was a ruler or leading figure of Dál Riata", source = "https://en.wikipedia.org/wiki/%C3%81ed%C3%A1n_mac_Gabr%C3%A1in", quote = "Áedán was the chief king in Dál Riata, ruling over lesser tribal kings." },
+  { fact = "Kenneth MacAlpin was a ruler or leading figure of Dál Riata", source = "https://en.wikipedia.org/wiki/Kenneth_MacAlpin", quote = "Kenneth MacAlpin (c. 810 – 8 February 858) or Kenneth I was King of Dál Riada (841–850), and King of the Picts (848–858), of likely Gaelic origin." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Danish overseas colonies"
+civilization_id = "Q302132"
+field = "key_figures"
+action = "set"
+value = ["Christian IV of Denmark", "Christian IX", "Frederick VIII of Denmark", "Christian X"]
+value_id = ["Q153586", "Q151305", "Q152756", "Q156617"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Frederick VIII of Denmark (his article has no cited sentence matching)"
+sources = [
+  { fact = "Christian IV of Denmark was a ruler or leading figure of Danish overseas colonies", source = "https://en.wikipedia.org/wiki/Danish_India", quote = "On 17 March 1616, Christian IV the King of Denmark-Norway, issued a charter creating a Danish East India Company with a monopoly on trade between Denmark-Norway and Asia for 12 years." },
+  { fact = "Christian IX was a ruler or leading figure of Danish overseas colonies", source = "https://en.wikipedia.org/wiki/Christian_IX", quote = "However, he signed a treaty in 1874 that allowed Iceland, then a Danish possession, to have its own constitution, albeit one under Danish rule." },
+  { fact = "Christian X was a ruler or leading figure of Danish overseas colonies", source = "https://en.wikipedia.org/wiki/Christian_X", quote = "There, the three Scandinavian monarchs King Christian X of Denmark, King Haakon VII of Norway (Christian's brother) and King Gustav V of Sweden (Christian's mother's cousin) met along with their foreign ministers to discuss and emphasize the neutrality of the Nordic countries, and in a joint declaration, confirmed the three states' strict neutrality during the war." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Delhi Sultanate"
+civilization_id = "Q229411"
+field = "key_figures"
+action = "set"
+value = ["Qutb ud-Din Aibak", "Razia Sultan", "Muhammad bin Tughluq", "Ibrahim Khan Lodi"]
+value_id = ["Q311151", "Q465076", "Q381830", "Q381754"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Qutb ud-Din Aibak was a ruler or leading figure of Delhi Sultanate", source = "https://en.wikipedia.org/wiki/Delhi_Sultanate", quote = "Qutb ud-Din Aibak, a former slave of Mu'izz ad-Din Muhammad Ghori, was the first ruler of the Delhi Sultanate." },
+  { fact = "Razia Sultan was a ruler or leading figure of Delhi Sultanate", source = "https://en.wikipedia.org/wiki/Delhi_Sultanate", quote = "It was also one of the few powers to repel attacks by the Mongols (from the Chagatai Khanate) and saw the enthronement of one of the few female rulers in Islamic history, Razia Sultana (r. 1236 – 1240)." },
+  { fact = "Muhammad bin Tughluq was a ruler or leading figure of Delhi Sultanate", source = "https://en.wikipedia.org/wiki/Delhi_Sultanate", quote = "The sultanate reached its geographical zenith under the Tughlaq dynasty, occupying most of the Indian subcontinent during the reign of Muhammad bin Tughluq." },
+  { fact = "Ibrahim Khan Lodi was a ruler or leading figure of Delhi Sultanate", source = "https://en.wikipedia.org/wiki/Ibrahim_Khan_Lodi", quote = "Ibrahim Khan Lodi (Persian: ابراهیم خان لودی; 1480 – 21 April 1526) was the last Sultan of the Delhi Sultanate, who became Sultan in 1517 after the death of his father Sikandar Khan." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Denmark-Norway"
+civilization_id = "Q62651"
+field = "key_figures"
+action = "set"
+value = ["Frederick II of Denmark", "Christian IV of Denmark", "Frederick III of Denmark", "Christian VII"]
+value_id = ["Q154041", "Q153586", "Q157812", "Q156572"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Frederick II of Denmark was a ruler or leading figure of Denmark-Norway", source = "https://en.wikipedia.org/wiki/Frederick_II_of_Denmark", quote = "Frederick II (Danish: Frederik 2.; 1 July 1534 – 4 April 1588) was King of Denmark and Norway and Duke of Schleswig and Holstein from 1559 until his death in 1588." },
+  { fact = "Christian IV of Denmark was a ruler or leading figure of Denmark-Norway", source = "https://en.wikipedia.org/wiki/Christian_IV_of_Denmark", quote = "Christian IV (12 April 1577 – 28 February 1648) was King of Denmark and Norway, and Duke of Holstein and Schleswig from 1588 until his death in 1648." },
+  { fact = "Frederick III of Denmark was a ruler or leading figure of Denmark-Norway", source = "https://en.wikipedia.org/wiki/Frederick_III_of_Denmark", quote = "But he rightly regarded the accession of Charles X of Sweden on 6 June 1654 as a source of danger to Denmark–Norway." },
+  { fact = "Christian VII was a ruler or leading figure of Denmark-Norway", source = "https://en.wikipedia.org/wiki/Christian_VII", quote = "Christian VII (29 January 1749 – 13 March 1808) was King of Denmark and Norway and Duke of Schleswig and Holstein from 1766 until his death in 1808." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Dominican Republic"
+civilization_id = "Q786"
+field = "key_figures"
+action = "set"
+value = ["Juan Pablo Duarte", "Ulises Heureaux", "Rafael Trujillo", "Joaquín Balaguer"]
+value_id = ["Q188122", "Q722921", "Q152474", "Q147989"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Juan Pablo Duarte (founding father, declared president by Mella but only a junta member, never held the office)"
+sources = [
+  { fact = "Ulises Heureaux was a ruler or leading figure of Dominican Republic", source = "https://en.wikipedia.org/wiki/Ulises_Heureaux", quote = "Heureaux ruled the Dominican Republic as a dictator." },
+  { fact = "Rafael Trujillo was a ruler or leading figure of Dominican Republic", source = "https://en.wikipedia.org/wiki/Rafael_Trujillo", quote = "He was the country's 36th and 39th president, from 1930 to 1938 and from 1942 to 1952 respectively." },
+  { fact = "Joaquín Balaguer was a ruler or leading figure of Dominican Republic", source = "https://en.wikipedia.org/wiki/Joaqu%C3%ADn_Balaguer", quote = "Nevertheless, Balaguer was also considered to be instrumental in the liberalization of the Dominican government, and his time as leader of the Dominican Republic saw major changes such as legalized political activities, surprise army promotions and demotions, promoting health and education improvements and instituting modest land reforms." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Duchy of Aquitaine"
+civilization_id = "Q7703611"
+field = "key_figures"
+action = "set"
+value = ["William VIII of Aquitaine", "William X of Aquitaine", "Eleanor of Aquitaine"]
+value_id = ["Q462896", "Q453121", "Q178525"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for William VIII of Aquitaine (cited sentences do not say he was duke)"
+sources = [
+  { fact = "William X of Aquitaine was a ruler or leading figure of Duchy of Aquitaine", source = "https://en.wikipedia.org/wiki/William_X_of_Aquitaine", quote = "William succeeded to the duchy of Aquitaine in 1126." },
+  { fact = "Eleanor of Aquitaine was a ruler or leading figure of Duchy of Aquitaine", source = "https://en.wikipedia.org/wiki/Eleanor_of_Aquitaine", quote = "Eleanor, aged 13, then became the duchess of Aquitaine, and thus one of the richest and most eligible heiresses in Europe." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Duchy of Bavaria"
+civilization_id = "Q47261"
+field = "key_figures"
+action = "set"
+value = ["Henry I of Bavaria", "Henry the Lion", "Albert V of Bavaria", "Maximilian I, Elector of Bavaria"]
+value_id = ["Q367571", "Q105378", "Q60907", "Q57206"]
+retrieved = 2026-11-07
+needs_verification = true
+note = "no source yet for Albert V of Bavaria (no cited sentences found in his article)"
+sources = [
+  { fact = "Henry I of Bavaria was a ruler or leading figure of Duchy of Bavaria", source = "https://en.wikipedia.org/wiki/Henry_I%2C_Duke_of_Bavaria", quote = "After the death of the Luitpolding duke Berthold of Bavaria, Otto, at the instigation of his mother Matilda, enfeoffed Henry with the Duchy of Bavaria in 948." },
+  { fact = "Henry the Lion was a ruler or leading figure of Duchy of Bavaria", source = "https://en.wikipedia.org/wiki/Henry_the_Lion", quote = "At the end of the reign of his father in law Lothar, he ruled over the duchies of Bavaria and Saxony, and over the March of Tuscany in the Mathilda Guter, specifically the extensive lands in Swabia, Bavaria, Saxony and Italy." },
+  { fact = "Maximilian I, Elector of Bavaria was a ruler or leading figure of Duchy of Bavaria", source = "https://en.wikipedia.org/wiki/Maximilian_I%2C_Elector_of_Bavaria", quote = "In 1595 he married his cousin, Elisabeth Renata (also known as Elizabeth of Lorraine), daughter of Charles III, Duke of Lorraine, and became Duke of Bavaria upon his father's abdication in 1597." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Duchy of Burgundy"
+civilization_id = "Q4712"
+field = "key_figures"
+action = "set"
+value = ["Robert I of Burgundy", "John the Fearless", "Philip the Good", "Charles the Bold"]
+value_id = ["Q346934", "Q298901", "Q239337", "Q151120"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Robert I of Burgundy was a ruler or leading figure of Duchy of Burgundy", source = "https://en.wikipedia.org/wiki/Robert_I_of_Burgundy", quote = "Robert I (1011 – 21 March 1076), known as the Old or the Headstrong (Old French: Tête-Hardi), was Duke of Burgundy from 1032 to his death." },
+  { fact = "John the Fearless was a ruler or leading figure of Duchy of Burgundy", source = "https://en.wikipedia.org/wiki/John_the_Fearless", quote = "Before his accession to become the Duke of Burgundy, John was one of the principal leaders of the French forces sent to aid Sigismund, King of Hungary in his crusade against Sultan Bayezid I of the Ottoman Empire." },
+  { fact = "Philip the Good was a ruler or leading figure of Duchy of Burgundy", source = "https://en.wikipedia.org/wiki/Philip_the_Good", quote = "In 1419, at the age of 24, Philip became Duke of Burgundy (fief of France) and Count of Flanders (France), Artois (France) and Count Palatine of Burgundy (Holy Roman Empire), upon the assassination of John the Fearless, his father." },
+  { fact = "Charles the Bold was a ruler or leading figure of Duchy of Burgundy", source = "https://en.wikipedia.org/wiki/Charles_the_Bold", quote = "Fourteen days later, Charles formally assumed the title of Duke of Burgundy." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
+
+[[override]]
+civilization = "Dutch East Indies"
+civilization_id = "Q188161"
+field = "key_figures"
+action = "set"
+value = ["Dirk Fock", "Andries Cornelis Dirk de Graeff", "Bonifacius Cornelis de Jonge", "Alidius Tjarda van Starkenborgh Stachouwer"]
+value_id = ["Q768372", "Q510497", "Q4942013", "Q457517"]
+retrieved = 2026-11-07
+sources = [
+  { fact = "Dirk Fock was a ruler or leading figure of Dutch East Indies", source = "https://en.wikipedia.org/wiki/Dirk_Fock", quote = "He served as Governor of Suriname (1908–1911), Speaker of the House of Representatives (1917–1921) and Governor-General of the Dutch East Indies (1921–1926)." },
+  { fact = "Andries Cornelis Dirk de Graeff was a ruler or leading figure of Dutch East Indies", source = "https://en.wikipedia.org/wiki/Andries_Cornelis_Dirk_de_Graeff", quote = "After his East Indies stint, de Graeff became envoy in Tokyo (1919-1922) and in Washington (1922-1926), and was governor-general of the Dutch East Indies from 1926–1931." },
+  { fact = "Bonifacius Cornelis de Jonge was a ruler or leading figure of Dutch East Indies", source = "https://en.wikipedia.org/wiki/Bonifacius_Cornelis_de_Jonge", quote = "Bonifacius Cornelis de Jonge (22 January 1875 – 24 June 1958) was a Dutch politician and aristocrat who served as governor-general of the Dutch East Indies from 1931 to 1936." },
+  { fact = "Alidius Tjarda van Starkenborgh Stachouwer was a ruler or leading figure of Dutch East Indies", source = "https://en.wikipedia.org/wiki/Alidius_Tjarda_van_Starkenborgh_Stachouwer", quote = "Jonkheer Alidius Warmoldus Lambertus Tjarda van Starkenborgh Stachouwer (7 March 1888 – 16 August 1978) was a Dutch nobleman and statesman, primarily noted for being the last colonial Governor-General of the Dutch East Indies, now Indonesia." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
