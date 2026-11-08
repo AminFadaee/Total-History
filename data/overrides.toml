@@ -8325,9 +8325,8 @@ field = "key_figures"
 action = "set"
 value = ["Niqmaddu II", "Niqmepa", "Ammurapi"]
 value_id = ["Q365876", "Q365686", "Q11513"]
-retrieved = 2026-10-27
+retrieved = 2026-11-07
 needs_verification = false
-note = "partly sourced: no source yet for Ammurapi"
 sources = [
   { fact = "Niqmaddu II was a ruler or leading figure of Ugarit", source = "https://en.wikipedia.org/wiki/Ugarit", quote = "During the reign of his son Niqmaddu II (c. 1350 – c. 1315 BC) Ugarit became a vassal of the Hittite Empire, first under a viceroy in Karkemiš and then, with the Hititte collapse, directly under Karkemiš." },
   { fact = "Niqmepa was a ruler or leading figure of Ugarit", source = "https://en.wikipedia.org/wiki/Niqmepa", quote = "was the fifth-from-last King of Ugarit" },
@@ -9525,11 +9524,10 @@ civilization = "Eastern Wu"
 civilization_id = "Q274488"
 field = "key_figures"
 action = "set"
-value = ["Sun Quan", "Sun Liang", "Sun Xiu", "Sun Hao"]
-value_id = ["Q313327", "Q470034", "Q468767", "Q470030"]
+value = ["Sun Quan", "Sun Liang", "Sun Xiu"]
+value_id = ["Q313327", "Q470034", "Q468767"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Sun Hao (cited sentences only imply he was chosen as emperor; none states it)"
+note = "Sun Hao dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Sun Quan was a ruler or leading figure of Eastern Wu", source = "https://en.wikipedia.org/wiki/Eastern_Wu", quote = "Despite Sun Quan proclaiming himself emperor in 229, its politics reflected its warlord origins." },
   { fact = "Sun Liang was a ruler or leading figure of Eastern Wu", source = "https://en.wikipedia.org/wiki/Sun_Liang", quote = "Sun Liang (243 – 260), courtesy name Ziming, was the second emperor of the state of Eastern Wu during the Three Kingdoms period of China." },
@@ -9622,11 +9620,10 @@ civilization = "Emirate of Jabal Shammar"
 civilization_id = "Q5362837"
 field = "key_figures"
 action = "set"
-value = ["Abdullah bin Ali Al Rashid", "Muhammad bin Talal Al Rashid"]
-value_id = ["Q2820938", "Q12240160"]
+value = ["Abdullah bin Ali Al Rashid"]
+value_id = ["Q2820938"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Muhammad bin Talal Al Rashid (page says his rule began in 1921 after the emirate ended; role in the state unclear)"
+note = "Muhammad bin Talal Al Rashid dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Abdullah bin Ali Al Rashid was a ruler or leading figure of Emirate of Jabal Shammar", source = "https://en.wikipedia.org/wiki/Abdullah_bin_Ali_Al_Rashid", quote = "He founded the Emirate in 1836 and ruled it until 1848." },
 ]
@@ -9651,11 +9648,10 @@ civilization = "Emirate of Sicily"
 civilization_id = "Q1250763"
 field = "key_figures"
 action = "set"
-value = ["Abu'l-Qasim Ali ibn al-Hasan al-Kalbi", "Abd Allah ibn Muhammad", "Thiqat al-Dawla", "Jaʿfar II al-Kalbī"]
-value_id = ["Q335628", "Q13195326", "Q13195336", "Q15109151"]
+value = ["Abu'l-Qasim Ali ibn al-Hasan al-Kalbi", "Thiqat al-Dawla"]
+value_id = ["Q335628", "Q13195336"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Abd Allah ibn Muhammad (no Wikipedia page title given; nothing found); no source yet for Jaʿfar II al-Kalbī (no Wikipedia page title given; nothing found)"
+note = "Abd Allah ibn Muhammad dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Jaʿfar II al-Kalbī dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Abu'l-Qasim Ali ibn al-Hasan al-Kalbi was a ruler or leading figure of Emirate of Sicily", source = "https://en.wikipedia.org/wiki/Abu%27l-Qasim_Ali_ibn_al-Hasan_al-Kalbi", quote = "The next year Abu'l-Qasim, Ahmad's brother, was elevated to governor." },
   { fact = "Thiqat al-Dawla was a ruler or leading figure of Emirate of Sicily", source = "https://en.wikipedia.org/wiki/Thiqat_al-Dawla", quote = "Thiqat ruled over the Emirate at its peak, but his rule also marked the beginning of a period of decline that would eventually lead to its fall." },
@@ -9887,11 +9883,10 @@ civilization = "Free Orange State"
 civilization_id = "Q218023"
 field = "key_figures"
 action = "set"
-value = ["Marthinus Wessel Pretorius", "Johannes Brand", "Francis William Reitz", "Martinus Theunis Steyn"]
-value_id = ["Q440141", "Q1390594", "Q726327", "Q2355196"]
+value = ["Johannes Brand", "Francis William Reitz", "Martinus Theunis Steyn"]
+value_id = ["Q1390594", "Q726327", "Q2355196"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Marthinus Wessel Pretorius (no cited sentence found)"
+note = "Marthinus Wessel Pretorius dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Johannes Brand was a ruler or leading figure of Free Orange State", source = "https://en.wikipedia.org/wiki/Johannes_Brand", quote = "He was elected president of the Orange Free State in 1863, and subsequently re-elected for five year terms in 1869, 1874, 1879 and 1884." },
   { fact = "Francis William Reitz was a ruler or leading figure of Free Orange State", source = "https://en.wikipedia.org/wiki/Francis_William_Reitz", quote = "When State President Brand suddenly died in 1888, Reitz won the presidential elections unopposed." },
@@ -9920,11 +9915,10 @@ civilization = "French Indochina"
 civilization_id = "Q185682"
 field = "key_figures"
 action = "set"
-value = ["Raymond Poincaré", "Khải Định", "Bảo Đại", "Albert Lebrun"]
-value_id = ["Q191974", "Q468758", "Q223771", "Q158749"]
+value = ["Raymond Poincaré", "Albert Lebrun"]
+value_id = ["Q191974", "Q158749"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Khải Định (monarch of Annam, a protectorate inside Indochina rather than the state itself); no source yet for Bảo Đại (emperor of Annam, a protectorate inside Indochina rather than the state itself)"
+note = "Khải Định dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Bảo Đại dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Raymond Poincaré was a ruler or leading figure of French Indochina", source = "https://www.britannica.com/biography/Raymond-Poincare", quote = "Raymond Poincaré (born August 20, 1860, Bar-le-Duc, France—died October 15, 1934, Paris) was a French statesman who as prime minister in 1912 largely determined the policy that led to France’s involvement in World War I, during which he served as president of the Third Republic." },
   { fact = "Albert Lebrun was a ruler or leading figure of French Indochina", source = "https://www.britannica.com/biography/Albert-Lebrun", quote = "was the 14th and last president (1932–40) of France’s Third Republic." },
@@ -10106,11 +10100,10 @@ civilization = "Astrakhan Khanate"
 civilization_id = "Q210163"
 field = "key_figures"
 action = "set"
-value = ["Mahmud bin Küchük", "Dervish Ali Astrakhani"]
-value_id = ["Q541678", "Q1991895"]
+value = []
+value_id = []
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Mahmud bin Küchük (his article and the state article yield no footnote-covered sentence); no source yet for Dervish Ali Astrakhani (his article and the state article yield no footnote-covered sentence)"
+note = "Mahmud bin Küchük dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Dervish Ali Astrakhani dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 
 [[override]]
 civilization = "Asuka Japan"
@@ -10188,11 +10181,10 @@ civilization = "Azerbaijan Democratic Republic"
 civilization_id = "Q206411"
 field = "key_figures"
 action = "set"
-value = ["Fatali Khan Khoyski", "Nasib bey Yusifbeyli", "Mammad Hasan Hajinski"]
-value_id = ["Q984384", "Q2660781", "Q2496129"]
+value = ["Fatali Khan Khoyski", "Mammad Hasan Hajinski"]
+value_id = ["Q984384", "Q2496129"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Nasib bey Yusifbeyli (his article calls him prime minister but no cited sentence names the Azerbaijan Democratic Republic; its article does not mention him)"
+note = "Nasib bey Yusifbeyli dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Fatali Khan Khoyski was a ruler or leading figure of Azerbaijan Democratic Republic", source = "https://en.wikipedia.org/wiki/Fatali_Khan_Khoyski", quote = "Prime Minister Khoyski had the distinct honor to send radiogram to the main political centers of the world on the proclamation of an independent Azerbaijan republic on 30 May 1918." },
   { fact = "Mammad Hasan Hajinski was a ruler or leading figure of Azerbaijan Democratic Republic", source = "https://en.wikipedia.org/wiki/Mammad_Hasan_Hajinski", quote = "On May 28, 1918, when Azerbaijan Democratic Republic (ADR) was proclaimed, Hajinski was appointed the Minister of Foreign Affairs within the new Cabinet of Azerbaijan established by Prime Minister Fatali Khan Khoyski and held the office until October 6, 1918." },
@@ -10435,11 +10427,10 @@ civilization = "Canada"
 civilization_id = "Q16"
 field = "key_figures"
 action = "set"
-value = ["George V", "Edward VIII", "George VI"]
-value_id = ["Q269412", "Q590227", "Q280856"]
+value = ["Edward VIII", "George VI"]
+value_id = ["Q590227", "Q280856"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for George V (no cited sentence says he was king of Canada)"
+note = "George V dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Edward VIII was a ruler or leading figure of Canada", source = "https://en.wikipedia.org/wiki/Edward_VIII", quote = "Edward VIII (Edward Albert Christian George Andrew Patrick David; 23 June 1894 – 28 May 1972), later known as the Duke of Windsor, was King of the United Kingdom and the British Dominions, and Emperor of India, from 20 January 1936 until his abdication in December of the same year." },
   { fact = "George VI was a ruler or leading figure of Canada", source = "https://en.wikipedia.org/wiki/George_VI", quote = "From Ottawa, the King and Queen were accompanied by Canadian prime minister Mackenzie King, to present themselves in North America as King and Queen of Canada." },
@@ -10467,11 +10458,10 @@ civilization = "Caucasian Iberia"
 civilization_id = "Q19083"
 field = "key_figures"
 action = "set"
-value = ["Pharnavaz I", "Pharasmanes II", "Mirian III", "Vakhtang I"]
-value_id = ["Q372698", "Q2655106", "Q529685", "Q359956"]
+value = ["Pharnavaz I", "Mirian III", "Vakhtang I"]
+value_id = ["Q372698", "Q529685", "Q359956"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Pharasmanes II (cited sentences call him king but none ties it explicitly to Iberia's ruler list)"
+note = "Pharasmanes II dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Pharnavaz I was a ruler or leading figure of Caucasian Iberia", source = "https://en.wikipedia.org/wiki/Pharnavaz_I", quote = "Pharnavaz I (/fɑːrnɑːvɑːz/) was a king (mepe) of Kartli, an ancient Georgian kingdom known as Iberia in classical antiquity." },
   { fact = "Mirian III was a ruler or leading figure of Caucasian Iberia", source = "https://en.wikipedia.org/wiki/Mirian_III", quote = "According to the early Medieval Georgian annals and hagiography, Mirian was the first Christian king of Iberia, converted through the ministry of Nino, a Cappadocian female missionary." },
@@ -10516,11 +10506,10 @@ civilization = "Chámpa"
 civilization_id = "Q216786"
 field = "key_figures"
 action = "set"
-value = ["Phạm Dương Mại II", "Vidyanandana", "Jaya Paramesvaravarman II", "Jaya Indravarman VI"]
-value_id = ["Q1062937", "Q12443443", "Q6167408", "Q12428133"]
+value = ["Phạm Dương Mại II", "Vidyanandana", "Jaya Paramesvaravarman II"]
+value_id = ["Q1062937", "Q12443443", "Q6167408"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Jaya Indravarman VI (his article has no cited sentence naming Champa; not matched to Champa's Indravarman VI)"
+note = "Jaya Indravarman VI dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Phạm Dương Mại II was a ruler or leading figure of Chámpa", source = "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_D%C6%B0%C6%A1ng_M%E1%BA%A1i_II", quote = "Fan Yang Mai II or Pham Duong Mai II was the King of Champa, an area populated by the Cham ethnic group in present-day Vietnam, from 421 to about 446." },
   { fact = "Vidyanandana was a ruler or leading figure of Chámpa", source = "https://en.wikipedia.org/wiki/Vidyanandana", quote = "He assaulted Vijaya, killing Jaya Indravarman IV, and chased Jaya Indravarman V to Traik where Suryavarman captured Jaya Indravarman V and executed him, then \"reigned without opposition over the Kingdom of Champa.\"" },
@@ -10593,11 +10582,10 @@ civilization = "Commonwealth of Australia"
 civilization_id = "Q408"
 field = "key_figures"
 action = "set"
-value = ["Edmund Barton", "Alfred Deakin", "George VI"]
-value_id = ["Q23342", "Q313805", "Q280856"]
+value = ["Edmund Barton", "Alfred Deakin"]
+value_id = ["Q23342", "Q313805"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for George VI (cited sentences show King of Canada and India but none says King of Australia)"
+note = "George VI dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Edmund Barton was a ruler or leading figure of Commonwealth of Australia", source = "https://en.wikipedia.org/wiki/Edmund_Barton", quote = "Barton was appointed prime minister on 1 January 1901, the day on which the new federal constitution came into effect." },
   { fact = "Alfred Deakin was a ruler or leading figure of Commonwealth of Australia", source = "https://en.wikipedia.org/wiki/Alfred_Deakin", quote = "Deakin was acting prime minister of Australia until Barton's return in October 1902." },
@@ -10635,11 +10623,10 @@ civilization = "Cossack Hetmanate"
 civilization_id = "Q212439"
 field = "key_figures"
 action = "set"
-value = ["Bohdan Khmelnytsky", "Ivan Vyhovsky", "Ivan Mazepa", "Pylyp Orlyk"]
-value_id = ["Q203808", "Q561414", "Q165419", "Q966936"]
+value = ["Bohdan Khmelnytsky", "Ivan Vyhovsky", "Ivan Mazepa"]
+value_id = ["Q203808", "Q561414", "Q165419"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Pylyp Orlyk (no cited sentence says he held the hetmanship of the Hetmanate)"
+note = "Pylyp Orlyk dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Bohdan Khmelnytsky was a ruler or leading figure of Cossack Hetmanate", source = "https://en.wikipedia.org/wiki/Cossack_Hetmanate", quote = "The founder of the Hetmanate, Bohdan Khmelnytsky, declared himself the ruler of the Ruthenian state to the Polish representative Adam Kysil in February 1649." },
   { fact = "Ivan Vyhovsky was a ruler or leading figure of Cossack Hetmanate", source = "https://en.wikipedia.org/wiki/Cossack_Hetmanate", quote = "In response, Ivan Vyhovsky, the general scribe (Ukrainian: писар, romanized: pysar) of the Hetmanate and an adviser to Bohdan Khmelnytsky, was elected hetman in 1657 by the Starshyna council." },
@@ -10668,11 +10655,10 @@ civilization = "Crimean Khanate"
 civilization_id = "Q160440"
 field = "key_figures"
 action = "set"
-value = ["Haji I Giray", "Meñli I Giray", "Devlet II Giray", "Şahin Giray"]
-value_id = ["Q379718", "Q379724", "Q1206956", "Q2947626"]
+value = ["Haji I Giray", "Meñli I Giray", "Şahin Giray"]
+value_id = ["Q379718", "Q379724", "Q2947626"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Devlet II Giray (no cited sentence found for him in his article or the state's)"
+note = "Devlet II Giray dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Haji I Giray was a ruler or leading figure of Crimean Khanate", source = "https://en.wikipedia.org/wiki/Crimean_Khanate", quote = "But Hacı Giray then had to fight off internal rivals before he could ascend the throne of the khanate in 1449, after which he moved its capital to Qırq Yer (today part of Bahçeseray)." },
   { fact = "Meñli I Giray was a ruler or leading figure of Crimean Khanate", source = "https://en.wikipedia.org/wiki/Me%C3%B1li_I_Giray", quote = "Meñli I Giray (1445–1515) was thrice the khan of the Crimean Khanate (1466, 1469–1475, 1478–1515) and the sixth son of Hacı I Giray." },
@@ -10811,11 +10797,10 @@ civilization = "Dominican Republic"
 civilization_id = "Q786"
 field = "key_figures"
 action = "set"
-value = ["Juan Pablo Duarte", "Ulises Heureaux", "Rafael Trujillo", "Joaquín Balaguer"]
-value_id = ["Q188122", "Q722921", "Q152474", "Q147989"]
+value = ["Ulises Heureaux", "Rafael Trujillo", "Joaquín Balaguer"]
+value_id = ["Q722921", "Q152474", "Q147989"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Juan Pablo Duarte (founding father, declared president by Mella but only a junta member, never held the office)"
+note = "Juan Pablo Duarte dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Ulises Heureaux was a ruler or leading figure of Dominican Republic", source = "https://en.wikipedia.org/wiki/Ulises_Heureaux", quote = "Heureaux ruled the Dominican Republic as a dictator." },
   { fact = "Rafael Trujillo was a ruler or leading figure of Dominican Republic", source = "https://en.wikipedia.org/wiki/Rafael_Trujillo", quote = "He was the country's 36th and 39th president, from 1930 to 1938 and from 1942 to 1952 respectively." },
@@ -10828,11 +10813,10 @@ civilization = "Duchy of Aquitaine"
 civilization_id = "Q7703611"
 field = "key_figures"
 action = "set"
-value = ["William VIII of Aquitaine", "William X of Aquitaine", "Eleanor of Aquitaine"]
-value_id = ["Q462896", "Q453121", "Q178525"]
+value = ["William X of Aquitaine", "Eleanor of Aquitaine"]
+value_id = ["Q453121", "Q178525"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for William VIII of Aquitaine (cited sentences do not say he was duke)"
+note = "William VIII of Aquitaine dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "William X of Aquitaine was a ruler or leading figure of Duchy of Aquitaine", source = "https://en.wikipedia.org/wiki/William_X_of_Aquitaine", quote = "William succeeded to the duchy of Aquitaine in 1126." },
   { fact = "Eleanor of Aquitaine was a ruler or leading figure of Duchy of Aquitaine", source = "https://en.wikipedia.org/wiki/Eleanor_of_Aquitaine", quote = "Eleanor, aged 13, then became the duchess of Aquitaine, and thus one of the richest and most eligible heiresses in Europe." },
@@ -10892,11 +10876,10 @@ civilization = "Funj Sultanate"
 civilization_id = "Q1475713"
 field = "key_figures"
 action = "set"
-value = ["Amara Dunqas", "Adlan I", "Badi II", "Adlan II"]
-value_id = ["Q4740071", "Q4683264", "Q3632772", "Q4683265"]
+value = ["Amara Dunqas", "Adlan I", "Badi II"]
+value_id = ["Q4740071", "Q4683264", "Q3632772"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Adlan II (only cited sentence is a battle with the vizier of Sennar; the Funj Sultanate article names an 'Adlan II' deposed in 1611-12, which reads like a mix-up with Adlan I)"
+note = "Adlan II dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Amara Dunqas was a ruler or leading figure of Funj Sultanate", source = "https://en.wikipedia.org/wiki/Amara_Dunqas", quote = "Amara Dunqas was the first ruler of the Kingdom of Sennar, which he ruled from 1504 - 1533/4." },
   { fact = "Adlan I was a ruler or leading figure of Funj Sultanate", source = "https://en.wikipedia.org/wiki/Funj_Sultanate", quote = "However, the new Funj sultan, Adlan I, managed to turn the tide of war against Ajib, eventually killing him in 1611 or 1612." },
@@ -11000,11 +10983,10 @@ civilization = "Golden Horde"
 civilization_id = "Q79965"
 field = "key_figures"
 action = "set"
-value = ["Orda Khan", "Batu Khan", "Jani Beg", "Tokhtamysh"]
-value_id = ["Q380393", "Q175138", "Q735288", "Q309585"]
+value = ["Batu Khan", "Jani Beg", "Tokhtamysh"]
+value_id = ["Q175138", "Q735288", "Q309585"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Orda Khan (no cited sentence in the Orda Khan or Golden Horde articles names him as ruler of the Golden Horde (Orda led the Blue/White Horde wing; cited text only says he led a delegation to Karakorum))"
+note = "Orda Khan dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Batu Khan was a ruler or leading figure of Golden Horde", source = "https://en.wikipedia.org/wiki/Batu_Khan", quote = "The Great Khan installed Batu as Khan of the Golden Horde (also known as the Ulus of Jochi or Kipchak Khanate)." },
   { fact = "Jani Beg was a ruler or leading figure of Golden Horde", source = "https://en.wikipedia.org/wiki/Jani_Beg", quote = "Jani Beg (Persian: جانی بیگ, Turki/Kypchak: جانی بک; died 1357), also known as Janibek Khan, was Khan of the Golden Horde from 1342 until his death in 1357." },
@@ -11048,11 +11030,10 @@ civilization = "Grand Duchy of Tuscany"
 civilization_id = "Q154849"
 field = "key_figures"
 action = "set"
-value = ["Cosimo I de' Medici", "Ferdinand IV of Tuscany"]
-value_id = ["Q48547", "Q313167"]
+value = ["Cosimo I de' Medici"]
+value_id = ["Q48547"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Ferdinand IV of Tuscany (the quoted source calls his reign hypothetical)"
+note = "Ferdinand IV of Tuscany dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Cosimo I de' Medici was a ruler or leading figure of Grand Duchy of Tuscany", source = "https://en.wikipedia.org/wiki/Cosimo_I_de%27_Medici", quote = "In 1569, Pope Pius V elevated him to the rank of Grand Duke of Tuscany." },
 ]
@@ -11175,11 +11156,10 @@ civilization = "Hafsid Dynasty"
 civilization_id = "Q752662"
 field = "key_figures"
 action = "set"
-value = ["Abu Zakariya Yahya", "Muhammad I al-Mustansir", "Abu al-Abbas Ahmad II", "Abu Abdallah Muhammad V al-Hasan"]
-value_id = ["Q29480", "Q1951858", "Q335558", "Q2822168"]
+value = ["Abu Zakariya Yahya", "Abu Abdallah Muhammad V al-Hasan"]
+value_id = ["Q29480", "Q2822168"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Muhammad I al-Mustansir (the quote was not found on the page); no source yet for Abu al-Abbas Ahmad II (the quote was not found on the page)"
+note = "Muhammad I al-Mustansir dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Abu al-Abbas Ahmad II dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Abu Zakariya Yahya was a ruler or leading figure of Hafsid Dynasty", source = "https://en.wikipedia.org/wiki/Hafsid_dynasty", quote = "The Kasbah Mosque of Tunis was one of the first works of this period, built by Abu Zakariya (the first independent Hafsid ruler) at the beginning of his reign." },
   { fact = "Abu Abdallah Muhammad V al-Hasan was a ruler or leading figure of Hafsid Dynasty", source = "https://en.wikipedia.org/wiki/Abu_Abdallah_Muhammad_V_al-Hasan", quote = "Abu Abdallah Muhammad V al-Hasan (Arabic: أبو عبد الله محمد الحسن), often called “Moulay Hasan” and sometimes “Muleasses” in 16th century writings, was the Hafsid caliph of Tunis from 1526 to 1543." },
@@ -11329,11 +11309,10 @@ civilization = "Icelandic Commonwealth"
 civilization_id = "Q62389"
 field = "key_figures"
 action = "set"
-value = ["Sturla Sighvatsson", "Gissur Þorvaldsson", "Kolbeinn ungi Arnórsson", "Sturla Þórðarson"]
-value_id = ["Q2427752", "Q2717045", "Q2625881", "Q553947"]
+value = []
+value_id = []
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Sturla Sighvatsson (goði/chieftain of the Age of the Sturlungs; no allowed sentence names him as head or official of the Commonwealth); no source yet for Gissur Þorvaldsson (made Earl of Iceland under the Norwegian king in 1258; no sentence ties him to the Commonwealth itself); no source yet for Kolbeinn ungi Arnórsson (no cited sentence mentions the state or a title); no source yet for Sturla Þórðarson (chieftain and saga writer; no sentence names him as ruler or official of the Commonwealth)"
+note = "Sturla Sighvatsson dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Gissur Þorvaldsson dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Kolbeinn ungi Arnórsson dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Sturla Þórðarson dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 
 [[override]]
 civilization = "Ifat Sultanate"
@@ -11401,10 +11380,9 @@ action = "set"
 value = ["George V", "George VI"]
 value_id = ["Q269412", "Q280856"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for George VI (no allowed sentence names George VI as monarch of the Free State)"
 sources = [
   { fact = "George V was a ruler or leading figure of Irish Free State", source = "https://en.wikipedia.org/wiki/Irish_Free_State", quote = "It had two elements; the first, an oath to the Free State, as by law established, the second part a promise of fidelity, to His Majesty, King George V, his heirs and successors." },
+  { fact = "George VI was a ruler or leading figure of Irish Free State", source = "https://en.wikipedia.org/wiki/Monarchy_of_the_Irish_Free_State", quote = "The Act also recognized Edward's abdication and the accession of his brother as George VI." },
 ]
 derivation = "every listed person is named a ruler or officer of the state by a source"
 
@@ -11428,11 +11406,10 @@ civilization = "Jin dynasty"
 civilization_id = "Q7352"
 field = "key_figures"
 action = "set"
-value = ["Emperor Wu of Jin", "Emperor Yuan of Jin", "Emperor Gong of Jin"]
-value_id = ["Q7356", "Q7392", "Q7404"]
+value = ["Emperor Wu of Jin", "Emperor Yuan of Jin"]
+value_id = ["Q7356", "Q7392"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Emperor Gong of Jin (no cited sentence about him on his page or the dynasty page)"
+note = "Emperor Gong of Jin dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Emperor Wu of Jin was a ruler or leading figure of Jin dynasty", source = "https://en.wikipedia.org/wiki/Jin_dynasty_%28266%E2%80%93420%29", quote = "It was founded by Sima Yan, posthumously known as Emperor Wu of Jin, who previously served as the regent of the Cao Wei dynasty." },
   { fact = "Emperor Yuan of Jin was a ruler or leading figure of Jin dynasty", source = "https://en.wikipedia.org/wiki/Jin_dynasty_%28266%E2%80%93420%29", quote = "After the fall of Chang'an and the execution of Emperor Min of Jin, Sima Rui, posthumously known as Emperor Yuan, was enthroned as Jin emperor in 318." },
@@ -11518,11 +11495,10 @@ civilization = "Kara-Khanid Khanate"
 civilization_id = "Q494354"
 field = "key_figures"
 action = "set"
-value = ["Bilge Kul Qadır Khan", "Ali-Tegin", "Uthman ibn Ibrahim"]
-value_id = ["Q6673079", "Q11244566", "Q10942611"]
+value = ["Bilge Kul Qadır Khan", "Uthman ibn Ibrahim"]
+value_id = ["Q6673079", "Q10942611"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Ali-Tegin (Karakhanid prince who held Transoxiana; no sentence says he ruled the khanate itself)"
+note = "Ali-Tegin dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Bilge Kul Qadır Khan was a ruler or leading figure of Kara-Khanid Khanate", source = "https://en.wikipedia.org/wiki/Bilge_Kul_Qad%C4%B1r_Khan", quote = "Kül Bilge Qadır Khan (Karakhanid: کُلْ بِلْكا قَادِرْ خَانْ) or Bilge Kul Qara Khan was the first known Qara-Khagan (supreme ruler) of the Karakhanids." },
   { fact = "Uthman ibn Ibrahim was a ruler or leading figure of Kara-Khanid Khanate", source = "https://en.wikipedia.org/wiki/Uthman_ibn_Ibrahim", quote = "Uthman ibn Ibrahim was a Karakhanid ruler in Transoxiana from 1204 to 1212." },
@@ -11534,11 +11510,10 @@ civilization = "Kara-Khitans"
 civilization_id = "Q862304"
 field = "key_figures"
 action = "set"
-value = ["Yelü Dashi", "Yelü Yilie", "Yelü Pusuwan", "Kuchlug"]
-value_id = ["Q1330091", "Q848946", "Q8005268", "Q1071957"]
+value = ["Yelü Dashi", "Yelü Pusuwan", "Kuchlug"]
+value_id = ["Q1330091", "Q8005268", "Q1071957"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Yelü Yilie (no allowed sentence naming him as ruler of the Qara Khitai)"
+note = "Yelü Yilie dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Yelü Dashi was a ruler or leading figure of Kara-Khitans", source = "https://en.wikipedia.org/wiki/Yel%C3%BC_Dashi", quote = "Yelü Dashi (Chinese: 耶律大石; pinyin: Yēlǜ Dàshí; Wade–Giles: Yeh-Lü Ta-Shih; alternatively Chinese: 耶律達實; pinyin: Yēlǜ Dáshí), courtesy name Zhongde (重德), also known by his temple name as the Emperor Dezong of Western Liao (西遼德宗), was the founder of the Western Liao dynasty (Qara Khitai)." },
   { fact = "Yelü Pusuwan was a ruler or leading figure of Kara-Khitans", source = "https://en.wikipedia.org/wiki/Qara_Khitai", quote = "Known as Empress Chengtian, Pusuwan refocused the Qara Khitai's attention westward." },
@@ -11583,11 +11558,10 @@ civilization = "Khanate of Khiva"
 civilization_id = "Q491106"
 field = "key_figures"
 action = "set"
-value = ["Abu al-Ghazi Bahadur", "Muhammad Amin Bahadur Khan", "Isfandiyar Khan", "Sayid Abdullah"]
-value_id = ["Q336146", "Q4308809", "Q3827276", "Q11947892"]
+value = ["Abu al-Ghazi Bahadur", "Muhammad Amin Bahadur Khan", "Isfandiyar Khan"]
+value_id = ["Q336146", "Q4308809", "Q3827276"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Sayid Abdullah (no cited sentence on his page)"
+note = "Sayid Abdullah dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Abu al-Ghazi Bahadur was a ruler or leading figure of Khanate of Khiva", source = "https://en.wikipedia.org/wiki/Abu_al-Ghazi_Bahadur", quote = "Abu al-Ghazi Bahadur (Chagatai and Persian: ابوالغازی بهادرخان, Abulgazi, Ebulgazi, Abu-l-Ghazi, August 24, 1603 – 1663) was the Khan of Khiva from 1643 to 1663." },
   { fact = "Muhammad Amin Bahadur Khan was a ruler or leading figure of Khanate of Khiva", source = "https://en.wikipedia.org/wiki/Muhammad_Amin_Bahadur_Khan", quote = "Muhammad Amin Bahadur Khan (Turki and Persian: محمد امین بهادر خان; Khiva, 1817 - Sarahs, 1855), was the 7th Khan of the Uzbek Kungrat dynasty in the Khanate of Khiva." },
@@ -11727,11 +11701,10 @@ civilization = "Kingdom of Axum"
 civilization_id = "Q139377"
 field = "key_figures"
 action = "set"
-value = ["Zoskales", "Ezana of Axum", "Kaleb of Axum", "Najashi"]
-value_id = ["Q2736541", "Q379898", "Q705378", "Q676801"]
+value = ["Ezana of Axum", "Kaleb of Axum", "Najashi"]
+value_id = ["Q379898", "Q705378", "Q676801"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Zoskales (the quote does not plainly say he ruled this state)"
+note = "Zoskales dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Ezana of Axum was a ruler or leading figure of Kingdom of Axum", source = "https://en.wikipedia.org/wiki/Ezana_of_Axum", quote = "Ezana (Ge'ez: ዔዛና, ‘Ezana, unvocalized ዐዘነ ‘zn); Ancient Greek: Ἠεζάνα, Aezana) was the ruler of the Kingdom of Aksum (320s – c. 360 AD)." },
   { fact = "Kaleb of Axum was a ruler or leading figure of Kingdom of Axum", source = "https://en.wikipedia.org/wiki/Kingdom_of_Aksum", quote = "Aksumite dominance in the Red Sea culminated during the reign of Kaleb of Axum (514–542), who, at the behest of the Byzantine emperor Justin I, invaded the Himyarite Kingdom in Yemen to end the persecution of Christians perpetrated by the Jewish king Dhu Nuwas." },
@@ -12025,11 +11998,10 @@ civilization = "Kingdom of Jerusalem"
 civilization_id = "Q55502"
 field = "key_figures"
 action = "set"
-value = ["Godfrey of Bouillon", "Baldwin I of Jerusalem", "Amalric of Jerusalem", "Henry II of Cyprus"]
-value_id = ["Q76721", "Q51717", "Q311808", "Q546497"]
+value = ["Godfrey of Bouillon", "Baldwin I of Jerusalem", "Amalric of Jerusalem"]
+value_id = ["Q76721", "Q51717", "Q311808"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Henry II of Cyprus (no cited sentence found on his page or the state's article naming him as its king)"
+note = "Henry II of Cyprus dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Godfrey of Bouillon was a ruler or leading figure of Kingdom of Jerusalem", source = "https://en.wikipedia.org/wiki/Godfrey_of_Bouillon", quote = "Godfrey of Bouillon (c. 1060 – 18 July 1100) was a preeminent leader of the First Crusade, and the first ruler of the Kingdom of Jerusalem from 1099 to 1100." },
   { fact = "Baldwin I of Jerusalem was a ruler or leading figure of Kingdom of Jerusalem", source = "https://en.wikipedia.org/wiki/Kingdom_of_Jerusalem", quote = "His brother Baldwin of Boulogne successfully outmanoeuvred Daimbert and claimed Jerusalem for himself as \"King of the Latins of Jerusalem\"." },
@@ -12058,11 +12030,10 @@ civilization = "Kingdom of Kongo"
 civilization_id = "Q796583"
 field = "key_figures"
 action = "set"
-value = ["João I of Kongo", "Afonso I of Kongo", "Pedro I of Kongo", "Álvaro III of Kongo"]
-value_id = ["Q1522957", "Q383455", "Q2412791", "Q2840567"]
+value = ["João I of Kongo", "Afonso I of Kongo", "Álvaro III of Kongo"]
+value_id = ["Q1522957", "Q383455", "Q2840567"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Pedro I of Kongo (sentences say he succeeded Afonso I but none names the Kingdom of Kongo as his office)"
+note = "Pedro I of Kongo dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "João I of Kongo was a ruler or leading figure of Kingdom of Kongo", source = "https://en.wikipedia.org/wiki/Jo%C3%A3o_I_of_Kongo", quote = "King Nzinga-a-Nkuwu was the fifth ruler of Kongo." },
   { fact = "Afonso I of Kongo was a ruler or leading figure of Kingdom of Kongo", source = "https://en.wikipedia.org/wiki/Afonso_I_of_Kongo", quote = "Trade and religious exchange between the two kingdoms grew after Afonso's rise to the Kongolese throne, as the Portuguese supported his pro-catholic policies." },
@@ -12123,11 +12094,10 @@ civilization = "Kingdom of Nepal"
 civilization_id = "Q1078602"
 field = "key_figures"
 action = "set"
-value = ["Prithvi Narayan Shah", "Rana Bahadur Shah", "Prithvi Bir Bikram Shah", "Tribhuvan of Nepal"]
-value_id = ["Q574450", "Q2714575", "Q886987", "Q381928"]
+value = ["Prithvi Narayan Shah", "Rana Bahadur Shah", "Tribhuvan of Nepal"]
+value_id = ["Q574450", "Q2714575", "Q381928"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Prithvi Bir Bikram Shah (no cited sentence ties him to ruling Nepal)"
+note = "Prithvi Bir Bikram Shah dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Prithvi Narayan Shah was a ruler or leading figure of Kingdom of Nepal", source = "https://en.wikipedia.org/wiki/Prithvi_Narayan_Shah", quote = "Prithvi Narayan Shah (Nepali: पृथ्वीनारायण शाह; 7 January 1723 – 11 January 1775) was the last monarch of the Gorkha Kingdom and the founding monarch of the unified Kingdom of Nepal, also referred to as the Gorkha Empire." },
   { fact = "Rana Bahadur Shah was a ruler or leading figure of Kingdom of Nepal", source = "https://en.wikipedia.org/wiki/Kingdom_of_Nepal", quote = "King Pratap Singh Shah died on 22 November 1777 with his infant son Rana Bahadur Shah succeeding as the King of Nepal." },
@@ -12204,11 +12174,10 @@ civilization = "Kingdom of Pontus"
 civilization_id = "Q7380487"
 field = "key_figures"
 action = "set"
-value = ["Pharnaces I of Pontus", "Mithridates V Euergetes", "Mithridates VI Eupator", "Pharnaces II of Pontus"]
-value_id = ["Q359215", "Q373015", "Q185126", "Q313052"]
+value = ["Pharnaces I of Pontus", "Mithridates V Euergetes", "Mithridates VI Eupator"]
+value_id = ["Q359215", "Q373015", "Q185126"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Pharnaces II of Pontus (sources say only that he tried to reconquer Pontus and ruled the Bosporan Kingdom)"
+note = "Pharnaces II of Pontus dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Pharnaces I of Pontus was a ruler or leading figure of Kingdom of Pontus", source = "https://en.wikipedia.org/wiki/Pharnaces_I_of_Pontus", quote = "Pharnaces I (Greek: Φαρνάκης; lived 2nd century BC) was the fifth king of Pontus." },
   { fact = "Mithridates V Euergetes was a ruler or leading figure of Kingdom of Pontus", source = "https://en.wikipedia.org/wiki/Kingdom_of_Pontus", quote = "His successor, Mithridates V of Pontus Euergetes, remained a friend of Rome and in 149 BC sent ships and a small force of auxiliaries to aid Rome in the Third Punic War." },
@@ -12364,11 +12333,10 @@ civilization = "Kingdom of Urartu"
 civilization_id = "Q185068"
 field = "key_figures"
 action = "set"
-value = ["Argišti I", "Sarduri II", "Argišti II", "Sarduri III"]
-value_id = ["Q317030", "Q353497", "Q380815", "Q1060531"]
+value = ["Argišti I", "Sarduri II", "Sarduri III"]
+value_id = ["Q317030", "Q353497", "Q1060531"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Argišti II (article has no footnote-covered sentences)"
+note = "Argišti II dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Argišti I was a ruler or leading figure of Kingdom of Urartu", source = "https://en.wikipedia.org/wiki/Argi%C5%A1ti_I", quote = "Argišti I, was the sixth known king of Urartu, reigning from 786 BC to 764 BC." },
   { fact = "Sarduri II was a ruler or leading figure of Kingdom of Urartu", source = "https://www.britannica.com/biography/Sarduri-II", quote = "next attacked the Urartian ruler Sarduri II and his neo-Hittite and Aramaean allies, whom he defeated in 743 BC." },
@@ -12443,11 +12411,10 @@ civilization = "Later Tang"
 civilization_id = "Q1143126"
 field = "key_figures"
 action = "set"
-value = ["Li Cunxu", "Li Siyuan", "Li Conghou", "Li Congke"]
-value_id = ["Q706815", "Q703646", "Q708431", "Q713115"]
+value = ["Li Cunxu", "Li Siyuan", "Li Congke"]
+value_id = ["Q706815", "Q703646", "Q713115"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Li Conghou (allowed sentences about his taking the throne do not name the state)"
+note = "Li Conghou dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Li Cunxu was a ruler or leading figure of Later Tang", source = "https://en.wikipedia.org/wiki/Li_Cunxu", quote = "Li Cunxu conquered the Later Liang dynasty in 923 and proclaimed himself emperor of the Later Tang, which he referred to as the \"Restored Tang\"." },
   { fact = "Li Siyuan was a ruler or leading figure of Later Tang", source = "https://en.wikipedia.org/wiki/Later_Tang", quote = "Following Li Cunxu's assassination in 926 AD, subsequent rulers, including Mingzong (Li Siyuan), faced challenges such as corruption and factional infighting." },
@@ -12491,11 +12458,10 @@ civilization = "Liang Dynasty"
 civilization_id = "Q1069868"
 field = "key_figures"
 action = "set"
-value = ["Emperor Wu of Liang", "Emperor Jianwen of Liang", "Emperor Yuan of Liang", "Xiao Yuanming"]
-value_id = ["Q736726", "Q1140994", "Q1149114", "Q1059874"]
+value = ["Emperor Wu of Liang"]
+value_id = ["Q736726"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Emperor Jianwen of Liang (allowed sentences do not name Liang or his reign); no source yet for Emperor Yuan of Liang (article has no footnote-covered sentences; Liang article only mentions a painting); no source yet for Xiao Yuanming (article has no footnote-covered sentences)"
+note = "Emperor Jianwen of Liang dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Emperor Yuan of Liang dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Xiao Yuanming dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Emperor Wu of Liang was a ruler or leading figure of Liang Dynasty", source = "https://en.wikipedia.org/wiki/Liang_dynasty", quote = "The Liang dynasty began when Xiao Yan, a Southern Qi royal and general usurped the throne of Emperor He in 502." },
 ]
@@ -12522,11 +12488,10 @@ civilization = "Liu Song Dynasty"
 civilization_id = "Q49697"
 field = "key_figures"
 action = "set"
-value = ["Emperor Wu of Song", "Emperor Wen of Song", "Emperor Xiaowu of Song", "Emperor Ming of Song"]
-value_id = ["Q49699", "Q49702", "Q718246", "Q718195"]
+value = ["Emperor Wu of Song", "Emperor Wen of Song", "Emperor Ming of Song"]
+value_id = ["Q49699", "Q49702", "Q718195"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Emperor Xiaowu of Song (allowed sentences cover only his time as governor)"
+note = "Emperor Xiaowu of Song dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Emperor Wu of Song was a ruler or leading figure of Liu Song Dynasty", source = "https://en.wikipedia.org/wiki/Liu_Song_dynasty", quote = "Finally, in 420, Sima Dewen abdicated in favour of Liu Yu, who declared himself the ruler of the new Song dynasty." },
   { fact = "Emperor Wen of Song was a ruler or leading figure of Liu Song Dynasty", source = "https://en.wikipedia.org/wiki/Emperor_Wen_of_Song", quote = "Under Emperor Wen of Song, Zhang Chang helped defeat the Northern Wei invasion of Pengcheng." },
@@ -12718,11 +12683,10 @@ civilization = "Maya civilization"
 civilization_id = "Q28567"
 field = "key_figures"
 action = "set"
-value = ["Kʼinich Janaabʼ Pakal", "Kʼinich Kan Bahlam II", "Uaxaclajuun Ubʼaah Kʼawiil", "Kʼinich Kʼan Joy Chitam II"]
-value_id = ["Q371384", "Q1282634", "Q6644671", "Q951995"]
+value = ["Kʼinich Janaabʼ Pakal", "Uaxaclajuun Ubʼaah Kʼawiil", "Kʼinich Kʼan Joy Chitam II"]
+value_id = ["Q371384", "Q6644671", "Q951995"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Kʼinich Kan Bahlam II (no cited sentence ties him to the Maya in general terms (only Palenque and the throne); state article does not name him)"
+note = "Kʼinich Kan Bahlam II dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Kʼinich Janaabʼ Pakal was a ruler or leading figure of Maya civilization", source = "https://en.wikipedia.org/wiki/Maya_civilization", quote = "Mosaic funerary masks could also be fashioned from jade, such as that of Kʼinich Janaabʼ Pakal, king of Palenque." },
   { fact = "Uaxaclajuun Ubʼaah Kʼawiil was a ruler or leading figure of Maya civilization", source = "https://en.wikipedia.org/wiki/Maya_civilization", quote = "Copán reached the height of its cultural and artistic development during the rule of Uaxaclajuun Ubʼaah Kʼawiil, who ruled from 695 to 738." },
@@ -12953,11 +12917,10 @@ civilization = "Neo-Inca State"
 civilization_id = "Q10715354"
 field = "key_figures"
 action = "set"
-value = ["Manco Inca Yupanqui", "Sayri Túpac", "Titu Cusi", "Túpac Amaru"]
-value_id = ["Q332049", "Q467934", "Q381752", "Q296269"]
+value = ["Manco Inca Yupanqui", "Titu Cusi", "Túpac Amaru"]
+value_id = ["Q332049", "Q381752", "Q296269"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Sayri Túpac (no cited sentence names the Neo-Inca State or Vilcabamba for him)"
+note = "Sayri Túpac dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Manco Inca Yupanqui was a ruler or leading figure of Neo-Inca State", source = "https://en.wikipedia.org/wiki/Manco_Inca_Yupanqui", quote = "Manco Inca Yupanqui (Cusco Quechua: Manqu Inka Yupanki, c. 1515 – 1544) was the founder and first Sapa Inca of the independent Neo-Inca State in Vilcabamba, although he was originally a puppet Inca Emperor installed by the Spaniards." },
   { fact = "Titu Cusi was a ruler or leading figure of Neo-Inca State", source = "https://en.wikipedia.org/wiki/Titu_Cusi", quote = "During his rule at Vilcabamba, the provisional governor-general Lope Garcia de Castro wanted to negotiate with him." },
@@ -13061,11 +13024,10 @@ civilization = "Northern Wei"
 civilization_id = "Q875305"
 field = "key_figures"
 action = "set"
-value = ["Emperor Daowu of Northern Wei", "Emperor Taiwu of Northern Wei", "Emperor Xiaowen of Northern Wei", "Emperor Xuanwu of Northern Wei"]
-value_id = ["Q1149178", "Q1194963", "Q1327614", "Q1194968"]
+value = ["Emperor Daowu of Northern Wei", "Emperor Taiwu of Northern Wei", "Emperor Xiaowen of Northern Wei"]
+value_id = ["Q1149178", "Q1194963", "Q1327614"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Emperor Xuanwu of Northern Wei (his article has no cited sentences and the state article does not mention him)"
+note = "Emperor Xuanwu of Northern Wei dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Emperor Daowu of Northern Wei was a ruler or leading figure of Northern Wei", source = "https://en.wikipedia.org/wiki/Emperor_Daowu_of_Northern_Wei", quote = "Emperor Daowu of Northern Wei ((北)魏道武帝; 4 August 371 – 6 November 409), personal name Tuoba Gui (拓跋珪), né Tuoba Shegui (拓跋渉珪), was the founding emperor of the Northern Wei dynasty of China." },
   { fact = "Emperor Taiwu of Northern Wei was a ruler or leading figure of Northern Wei", source = "https://en.wikipedia.org/wiki/Northern_Wei", quote = "The Celestial Masters of the north urged the persecution of Buddhists under the Taiwu Emperor in the Northern Wei, attacking Buddhism and the Buddha as wicked and as anti-stability and anti-family." },
@@ -13078,11 +13040,10 @@ civilization = "Northern Yuan"
 civilization_id = "Q8959"
 field = "key_figures"
 action = "set"
-value = ["Toghon Temür", "Biligtü Khan Ayushiridara", "Esen Taishi", "Dayan Khan"]
-value_id = ["Q8666", "Q8916", "Q9263", "Q9304"]
+value = ["Biligtü Khan Ayushiridara", "Esen Taishi", "Dayan Khan"]
+value_id = ["Q8916", "Q9263", "Q9304"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Toghon Temür (cited text calls him the last ruler of the Yuan; no sentence makes him a Northern Yuan ruler)"
+note = "Toghon Temür dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Biligtü Khan Ayushiridara was a ruler or leading figure of Northern Yuan", source = "https://en.wikipedia.org/wiki/Northern_Yuan", quote = "The Ming army pursued the Yuan remnants into the Mongolian steppe in 1372 but was defeated by Biligtü Khan Ayushiridara (r. 1370–1378) and his general Köke Temür (d. 1375)." },
   { fact = "Esen Taishi was a ruler or leading figure of Northern Yuan", source = "https://en.wikipedia.org/wiki/Northern_Yuan", quote = "After executing the rebellious Tayisung Khan (r. 1433–1453) and his brother Agbarjin in 1453, Esen took the title of not just khan, but also Yuan Emperor." },
@@ -13109,11 +13070,10 @@ civilization = "Odrysian Kingdom"
 civilization_id = "Q870517"
 field = "key_figures"
 action = "set"
-value = ["Amadocus I", "Seuthes III", "Cersobleptes", "Rhescuporis I"]
-value_id = ["Q610906", "Q878522", "Q887051", "Q2713411"]
+value = ["Amadocus I", "Seuthes III", "Cersobleptes"]
+value_id = ["Q610906", "Q878522", "Q887051"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Rhescuporis I (his article has no cited sentences; the Sapaean ruler belonged to a different Thracian kingdom)"
+note = "Rhescuporis I dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Amadocus I was a ruler or leading figure of Odrysian Kingdom", source = "https://en.wikipedia.org/wiki/Odrysian_Kingdom", quote = "Seuthes I was eventually succeeded by Amadocus I, also known as Medokos, in around 410 or 405 BC." },
   { fact = "Seuthes III was a ruler or leading figure of Odrysian Kingdom", source = "https://en.wikipedia.org/wiki/Seuthes_III", quote = "Seuthes III (Ancient Greek: Σεύθης, Seuthēs) was a Thracian king of Odrysia, a part of Thrace, during the late 4th century BC (securely attested between 324 and 312 BC)." },
@@ -13190,11 +13150,10 @@ civilization = "Oyo Empire"
 civilization_id = "Q849623"
 field = "key_figures"
 action = "set"
-value = ["Ọranyan", "Adeyemi I Alowolodu"]
-value_id = ["Q3509066", "Q96007216"]
+value = ["Adeyemi I Alowolodu"]
+value_id = ["Q96007216"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Ọranyan (legendary founder of Oyo; the articles call his origins legendary, so his reign is not firmly attested)"
+note = "Ọranyan dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Adeyemi I Alowolodu was a ruler or leading figure of Oyo Empire", source = "https://en.wikipedia.org/wiki/Adeyemi_I_Alowolodu", quote = "Adeyemi I was the ruler of the Oyo Empire from 1876 to 1905." },
 ]
@@ -13266,11 +13225,10 @@ civilization = "Phrygia"
 civilization_id = "Q32579"
 field = "key_figures"
 action = "set"
-value = ["Gordias", "Midas"]
-value_id = ["Q1413020", "Q308398"]
+value = ["Midas"]
+value_id = ["Q308398"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Gordias (legendary king; Herodotus' Gordias is a different or contested figure and his rule is not firmly attested)"
+note = "Gordias dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Midas was a ruler or leading figure of Phrygia", source = "https://en.wikipedia.org/wiki/Midas", quote = "Another King Midas ruled Phrygia in the late 8th century BCE." },
 ]
@@ -13313,11 +13271,10 @@ civilization = "Portuguese Republic"
 civilization_id = "Q45"
 field = "key_figures"
 action = "set"
-value = ["Manuel de Arriaga", "Bernardino Machado", "António José de Almeida", "Manuel Teixeira Gomes"]
-value_id = ["Q286764", "Q455317", "Q551542", "Q878532"]
+value = ["Manuel de Arriaga", "Bernardino Machado"]
+value_id = ["Q286764", "Q455317"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for António José de Almeida (no cited sentence in his article names an office); no source yet for Manuel Teixeira Gomes (no cited sentence in his article names an office)"
+note = "António José de Almeida dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Manuel Teixeira Gomes dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Manuel de Arriaga was a ruler or leading figure of Portuguese Republic", source = "https://en.wikipedia.org/wiki/Manuel_de_Arriaga", quote = "As one of the older figures of the Republican regime (he was 71), he was elected president on 24 August 1911; he did not campaign for the position, and noted that it was a heavy burden, which he believed he was personally incapable of fulfilling its duties, but accepted it \"for the good of the Republic\"." },
   { fact = "Bernardino Machado was a ruler or leading figure of Portuguese Republic", source = "https://en.wikipedia.org/wiki/Bernardino_Machado", quote = "In June of that year, Bernardino Machado requested the resignation of the executive who presided, but was again called to form a government: the 7th Republican government was once again \"extra-partisan\", with all the ministers, except for the president, who was independent." },
@@ -13329,11 +13286,10 @@ civilization = "Principality of Kiev"
 civilization_id = "Q1483430"
 field = "key_figures"
 action = "set"
-value = ["Vladimir II Monomakh", "Mstislav I of Kiev", "Yuri Dolgorukiy", "Alexander Nevsky"]
-value_id = ["Q60928", "Q41514", "Q275106", "Q174044"]
+value = ["Vladimir II Monomakh", "Mstislav I of Kiev", "Alexander Nevsky"]
+value_id = ["Q60928", "Q41514", "Q174044"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Yuri Dolgorukiy (no cited sentences available in his article or the Kiev article)"
+note = "Yuri Dolgorukiy dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Vladimir II Monomakh was a ruler or leading figure of Principality of Kiev", source = "https://en.wikipedia.org/wiki/Vladimir_II_Monomakh", quote = "Vladimir II Monomakh (Old East Slavic: Володимѣръ Мономахъ, romanized: Volodiměrŭ Monomakhŭ; Christian name: Basil (Васи́лий); 26 May 1053 – 19 May 1125) was Grand Prince of Kiev from 1113 to 1125." },
   { fact = "Mstislav I of Kiev was a ruler or leading figure of Principality of Kiev", source = "https://en.wikipedia.org/wiki/Mstislav_I_of_Kiev", quote = "Thereafter, he was Monomakh's co-ruler in Belgorod Kievsky, and inherited the Kievan throne after his death." },
@@ -13438,11 +13394,10 @@ civilization = "Qin"
 civilization_id = "Q34756"
 field = "key_figures"
 action = "set"
-value = ["Duke Xiao of Qin", "King Huiwen of Qin", "King Wu of Qin", "King Zhaoxiang of Qin"]
-value_id = ["Q553245", "Q564282", "Q564288", "Q553240"]
+value = ["Duke Xiao of Qin", "King Huiwen of Qin"]
+value_id = ["Q553245", "Q564282"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for King Wu of Qin (no cited sentence found in his article, the Qin or Warring States articles); no source yet for King Zhaoxiang of Qin (no cited sentence found in his article, the Qin or Warring States articles)"
+note = "King Wu of Qin dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); King Zhaoxiang of Qin dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Duke Xiao of Qin was a ruler or leading figure of Qin", source = "https://en.wikipedia.org/wiki/Duke_Xiao_of_Qin", quote = "Duke Xiao ruled Qin for 24 years and died at the age of 44 in 338 BC." },
   { fact = "King Huiwen of Qin was a ruler or leading figure of Qin", source = "https://en.wikipedia.org/wiki/King_Huiwen_of_Qin", quote = "King Huiwen of Qin (Chinese: 秦惠文王; 356–311 BC), also known as Lord Huiwen of Qin (Chinese: 秦惠文君), personal name Ying Si, was a king of the state of Qin during the Eastern Zhou dynasty, reigning from 338 to 311 BC." },
@@ -13517,11 +13472,10 @@ civilization = "Republic of Chile"
 civilization_id = "Q298"
 field = "key_figures"
 action = "set"
-value = ["Bernardo O'Higgins", "José Manuel Balmaceda", "Arturo Alessandri", "Pedro Aguirre Cerda"]
-value_id = ["Q28930", "Q1322", "Q848", "Q845"]
+value = ["Bernardo O'Higgins", "José Manuel Balmaceda", "Arturo Alessandri"]
+value_id = ["Q28930", "Q1322", "Q848"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Pedro Aguirre Cerda (the sentence on his presidency does not name Chile)"
+note = "Pedro Aguirre Cerda dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Bernardo O'Higgins was a ruler or leading figure of Republic of Chile", source = "https://en.wikipedia.org/wiki/Bernardo_O%27Higgins", quote = "Marching south to attack O'Higgins, now ruler of Chile, Carrera was arrested by supporters of O'Higgins and executed under questionable circumstances in 1821; his two brothers had already been killed by royalist forces in the preceding years, bringing the long-running feud to an end." },
   { fact = "José Manuel Balmaceda was a ruler or leading figure of Republic of Chile", source = "https://en.wikipedia.org/wiki/Jos%C3%A9_Manuel_Balmaceda", quote = "Balmaceda became President of Chile on September 18, 1886, following the 1886 election, with 98 percent of the vote." },
@@ -13565,11 +13519,10 @@ civilization = "Republic of Liberia"
 civilization_id = "Q1014"
 field = "key_figures"
 action = "set"
-value = ["Joseph Jenkins Roberts", "Stephen Allen Benson", "Charles D. B. King", "William Tubman"]
-value_id = ["Q360164", "Q718220", "Q730622", "Q301707"]
+value = ["Joseph Jenkins Roberts", "William Tubman"]
+value_id = ["Q360164", "Q301707"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Stephen Allen Benson (cited sentences do not name his presidency together with Liberia); no source yet for Charles D. B. King (the quote was not found on the page)"
+note = "Stephen Allen Benson dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Charles D. B. King dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Joseph Jenkins Roberts was a ruler or leading figure of Republic of Liberia", source = "https://en.wikipedia.org/wiki/Joseph_Jenkins_Roberts", quote = "After his first presidency, Roberts served for fifteen years as a major general in the Liberian Army, as well as a diplomatic representative of the nation to France and Great Britain." },
   { fact = "William Tubman was a ruler or leading figure of Republic of Liberia", source = "https://www.britannica.com/biography/William-V-S-Tubman", quote = "Tubman (born Nov. 29, 1895, Harper, Liberia—died July 23, 1971, London, Eng.) was a statesman whose 27 years as Liberia’s 17th president constituted the longest tenure in that office in the history of Africa’s first republic (proclaimed in 1847)." },
@@ -13581,11 +13534,10 @@ civilization = "Republic of New Granada"
 civilization_id = "Q630882"
 field = "key_figures"
 action = "set"
-value = ["Domingo Caycedo", "Francisco de Paula Santander", "Mariano Ospina Rodríguez"]
-value_id = ["Q1369751", "Q452017", "Q2838427"]
+value = ["Francisco de Paula Santander"]
+value_id = ["Q452017"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Domingo Caycedo (no allowed sentence ties him to the Republic of New Granada (his sentences concern Gran Colombia)); no source yet for Mariano Ospina Rodríguez (only sentences about the cabinet under Herrán without naming the state, and presidency of the Granadine Confederation, a different state)"
+note = "Domingo Caycedo dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Mariano Ospina Rodríguez dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Francisco de Paula Santander was a ruler or leading figure of Republic of New Granada", source = "https://en.wikipedia.org/wiki/Francisco_de_Paula_Santander", quote = "After Bolívar died and Gran Colombia broke up, Santander returned from exile in 1832 and served as President of the Republic of New Granada from 1832 to 1836." },
 ]
@@ -13596,22 +13548,20 @@ civilization = "Republic of Pisa"
 civilization_id = "Q1365493"
 field = "key_figures"
 action = "set"
-value = ["Gabriele Maria Visconti"]
-value_id = ["Q16558276"]
+value = []
+value_id = []
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Gabriele Maria Visconti (no cited sentence in his article mentions Pisa or a title)"
+note = "Gabriele Maria Visconti dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 
 [[override]]
 civilization = "Republic of Ragusa"
 civilization_id = "Q208169"
 field = "key_figures"
 action = "set"
-value = ["Nikola Vitov Gučetić", "Ivan Bunić Vučić"]
-value_id = ["Q1764051", "Q1637923"]
+value = ["Ivan Bunić Vučić"]
+value_id = ["Q1637923"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Nikola Vitov Gučetić (no cited sentence in his article mentions Ragusa or an office)"
+note = "Nikola Vitov Gučetić dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Ivan Bunić Vučić was a ruler or leading figure of Republic of Ragusa", source = "https://en.wikipedia.org/wiki/Ivan_Bunić_Vučić", quote = "He was a member of the Ragusean aristocracy (see House of Bunić), and was four times elected as Rector (Knez) of the Republic of Ragusa." },
 ]
@@ -13622,11 +13572,10 @@ civilization = "Republic of Venice"
 civilization_id = "Q4948"
 field = "key_figures"
 action = "set"
-value = ["Paolo Lucio Anafesto", "Enrico Dandolo", "Andrea Gritti", "Francesco Morosini"]
-value_id = ["Q336023", "Q205688", "Q345506", "Q34481"]
+value = ["Enrico Dandolo", "Andrea Gritti", "Francesco Morosini"]
+value_id = ["Q205688", "Q345506", "Q34481"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Paolo Lucio Anafesto (article says first Doge only according to later tradition and 'allegedly')"
+note = "Paolo Lucio Anafesto dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Enrico Dandolo was a ruler or leading figure of Republic of Venice", source = "https://en.wikipedia.org/wiki/Enrico_Dandolo", quote = "One of Dandolo's first decrees as doge was to evict all foreigners who had lived in Venice for fewer than two years on 16 August 1192." },
   { fact = "Andrea Gritti was a ruler or leading figure of Republic of Venice", source = "https://en.wikipedia.org/wiki/Andrea_Gritti", quote = "Elected Doge in 1523, Gritti concluded a treaty with Charles V, ending Venice's active involvement in the Italian Wars." },
@@ -13714,11 +13663,10 @@ civilization = "Ryukyu Kingdom"
 civilization_id = "Q28025"
 field = "key_figures"
 action = "set"
-value = ["Shō Hashi", "Shō Shin", "Shō Kō", "Shō Tai"]
-value_id = ["Q1372130", "Q281765", "Q1131659", "Q1372454"]
+value = ["Shō Shin", "Shō Kō", "Shō Tai"]
+value_id = ["Q281765", "Q1131659", "Q1372454"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Shō Hashi (sentences say he succeeded as king of Chūzan and that histories credit him with founding the Ryukyu Kingdom, but none states he ruled it)"
+note = "Shō Hashi dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Shō Shin was a ruler or leading figure of Ryukyu Kingdom", source = "https://en.wikipedia.org/wiki/Shō_Shin", quote = "The reign of Shō Shin also saw the expansion of the kingdom's control over several of the outlying Ryukyu Islands." },
   { fact = "Shō Kō was a ruler or leading figure of Ryukyu Kingdom", source = "https://en.wikipedia.org/wiki/Shō_Kō", quote = "Shō Kō (尚灝) (14 July 1787 – 5 July 1834) was a king of the Ryukyu Kingdom, who held the throne from 1804 to 1828, when he was forced to abdicate in favor of his son, Shō Iku." },
@@ -13731,11 +13679,10 @@ civilization = "Saadi Sultanate"
 civilization_id = "Q1136188"
 field = "key_figures"
 action = "set"
-value = ["Mohammed al-Shaykh", "Abu Abdallah Muhammad II Saadi", "Abu Marwan Abd al-Malik I Saadi", "Ahmad al-Mansur"]
-value_id = ["Q1951892", "Q334768", "Q335118", "Q400911"]
+value = ["Mohammed al-Shaykh", "Abu Marwan Abd al-Malik I Saadi", "Ahmad al-Mansur"]
+value_id = ["Q1951892", "Q335118", "Q400911"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Abu Abdallah Muhammad II Saadi (his own article has no cited sentences; the Saadi dynasty article mentions him only as the claimant for whom Portugal intervened)"
+note = "Abu Abdallah Muhammad II Saadi dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Mohammed al-Shaykh was a ruler or leading figure of Saadi Sultanate", source = "https://en.wikipedia.org/wiki/Saadi_dynasty", quote = "Al-Qai'm's son, Ahmad al-Araj, secured control of Marrakesh by 1525 and, after a period of rivalry, his brother Muhammad al-Shaykh captured Agadir from the Portuguese and eventually captured Fez from the Wattasids, securing control over nearly all of Morocco." },
   { fact = "Abu Marwan Abd al-Malik I Saadi was a ruler or leading figure of Saadi Sultanate", source = "https://en.wikipedia.org/wiki/Abu_Marwan_Abd_al-Malik_I_Saadi", quote = "When Abd al-Malik became Sultan, he asked Henry III of France that Guillaume Bérard be appointed Consul of France in Morocco." },
@@ -13764,11 +13711,10 @@ civilization = "Samanid Empire"
 civilization_id = "Q12150341"
 field = "key_figures"
 action = "set"
-value = ["Ahmad ibn Asad", "Ismail Samani", "Abd al-Malik II"]
-value_id = ["Q860258", "Q862648", "Q307293"]
+value = ["Ahmad ibn Asad", "Ismail Samani"]
+value_id = ["Q860258", "Q862648"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Abd al-Malik II (sentences mention only the Samanid state's abolition under his reign without saying he was its amir)"
+note = "Abd al-Malik II dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Ahmad ibn Asad was a ruler or leading figure of Samanid Empire", source = "https://en.wikipedia.org/wiki/Samanid_Empire", quote = "Early Samanid amirs participated in the funerals of prominent religious scholars, with Ahmad ibn Asad and his son Nasr each leading funeral prayers on notable occasions." },
   { fact = "Ismail Samani was a ruler or leading figure of Samanid Empire", source = "https://en.wikipedia.org/wiki/Ismail_Samani", quote = "Abū Ibrāhīm Ismā'īl ibn-i Aḥmad-i Sāmāni (Persian: ابو ابراهیم اسماعیل بن احمد سامانی; May 849 – 24 November 907), better known simply as Amir Ismail-i Samani (اسماعیل سامانی), and also known as Isma'il ibn-i Ahmad (اسماعیل بن احمد), was the Samanid amir of Transoxiana (892–907) and Khorasan (900–907)." },
@@ -13811,11 +13757,10 @@ civilization = "Second Bulgarian Empire"
 civilization_id = "Q420759"
 field = "key_figures"
 action = "set"
-value = ["Peter II of Bulgaria", "Ivan Asen II"]
-value_id = ["Q905368", "Q313427"]
+value = ["Ivan Asen II"]
+value_id = ["Q313427"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Peter II of Bulgaria (the quote names Peter IV; identifying him with Peter II is not in the source)"
+note = "Peter II of Bulgaria dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Ivan Asen II was a ruler or leading figure of Second Bulgarian Empire", source = "https://en.wikipedia.org/wiki/Ivan_Asen_II", quote = "It referred to him as the \"tsar of the Bulgarians, Greeks and other countries\", implying that he was planning to revive the Byzantine Empire under his rule." },
 ]
@@ -13997,8 +13942,11 @@ action = "set"
 value = ["Usman dan Fodio", "Muhammed Bello"]
 value_id = ["Q380452", "Q608989"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Usman dan Fodio (the quote was not found on the page); no source yet for Muhammed Bello (the quote was not found on the page)"
+sources = [
+  { fact = "Usman dan Fodio was a ruler or leading figure of Sokoto Caliphate", source = "https://en.wikipedia.org/wiki/Usman_dan_Fodio", quote = "Shehu Usman dan Fodio (Fula: Usmanu bi Fodiye; 15 December 1754 – 20 April 1817) was a Fulani Islamic scholar, theologian, religious teacher, poet, author, revolutionary, general, and philosopher who founded the Sokoto Caliphate and ruled as its first caliph." },
+  { fact = "Muhammed Bello was a ruler or leading figure of Sokoto Caliphate", source = "https://en.wikipedia.org/wiki/Muhammed_Bello", quote = "Muhammadu Bello (pronunciation; Arabic: محمد بلو ابن عثمان ابن فودي, romanized: Muḥammad Bello bin ʿUthmān bin Fūdī; 3 November 1781 – 25 October 1837) was the second Caliph of Sokoto and reigned from 1817 until 1837." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Song dynasty"
@@ -14066,11 +14014,10 @@ civilization = "Southern Qi"
 civilization_id = "Q62456"
 field = "key_figures"
 action = "set"
-value = ["Emperor Gao of Southern Qi", "Emperor Wu of Southern Qi", "Emperor He of Southern Qi"]
-value_id = ["Q1194981", "Q940037", "Q1190420"]
+value = ["Emperor Gao of Southern Qi", "Emperor Wu of Southern Qi"]
+value_id = ["Q1194981", "Q940037"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Emperor He of Southern Qi (no cited sentence on his or the state's article names him)"
+note = "Emperor He of Southern Qi dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Emperor Gao of Southern Qi was a ruler or leading figure of Southern Qi", source = "https://en.wikipedia.org/wiki/Southern_Qi", quote = "The dynasty began in 479, when Xiao Daocheng forced the Emperor Shun of Liu Song into yielding the throne to him, ending Liu Song and starting Southern Qi, as its Emperor Gao." },
   { fact = "Emperor Wu of Southern Qi was a ruler or leading figure of Southern Qi", source = "https://en.wikipedia.org/wiki/Emperor_Wu_of_Southern_Qi", quote = "Emperor Wu of Southern Qi (南齊武帝) (440– 27 August 493), personal name Xiao Ze (蕭賾), courtesy name Xuanyuan (宣遠), childhood name Long'er (龍兒), was the second emperor of the Chinese Southern Qi dynasty." },
@@ -14098,11 +14045,10 @@ civilization = "Sui Dynasty"
 civilization_id = "Q7405"
 field = "key_figures"
 action = "set"
-value = ["Emperor Wen of Sui", "Emperor Yang of Sui", "Yang You"]
-value_id = ["Q7418", "Q7419", "Q7420"]
+value = ["Emperor Wen of Sui", "Emperor Yang of Sui"]
+value_id = ["Q7418", "Q7419"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Yang You (only called Prince of Dai; no sentence gives him the throne)"
+note = "Yang You dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Emperor Wen of Sui was a ruler or leading figure of Sui Dynasty", source = "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui", quote = "Emperor Wen of Sui (隋文帝; 21 July 541 – 13 August 604), personal name Yang Jian (楊堅), childhood name Naluoyan (那羅延), Xianbei name Puliuru Jian (普六茹堅), was the founding emperor of the Sui dynasty of China." },
   { fact = "Emperor Yang of Sui was a ruler or leading figure of Sui Dynasty", source = "https://en.wikipedia.org/wiki/Sui_dynasty", quote = "After a series of military campaigns against the Goguryeo in the Korean Peninsula, which had ended in defeat by 614 AD, the dynasty disintegrated amid popular revolts that culminated in the assassination of Emperor Yang by a minister named Yuwen Huaji in 618 AD." },
@@ -14244,11 +14190,10 @@ civilization = "Swiss Confederation"
 civilization_id = "Q39"
 field = "key_figures"
 action = "set"
-value = ["Jonas Furrer", "Gustave Ador", "Marcel Pilet-Golaz", "Philipp Etter"]
-value_id = ["Q380083", "Q115592", "Q115803", "Q532343"]
+value = ["Jonas Furrer", "Gustave Ador", "Marcel Pilet-Golaz"]
+value_id = ["Q380083", "Q115592", "Q115803"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Philipp Etter (no cited sentence gives him a federal office)"
+note = "Philipp Etter dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Jonas Furrer was a ruler or leading figure of Swiss Confederation", source = "https://en.wikipedia.org/wiki/Jonas_Furrer", quote = "Jonas Furrer (3 March 1805 – 25 July 1861) was a Swiss lawyer and politician who served as a member of the Federal Council, from 1848 to 1861, and as the first president of the Swiss Confederation from 1848 to 1849, and again in 1852, 1855 and 1858." },
   { fact = "Gustave Ador was a ruler or leading figure of Swiss Confederation", source = "https://en.wikipedia.org/wiki/Gustave_Ador", quote = "Towards the end of 1918, he was elected by Parliament to be the Swiss President for 1919, but retired from the Federal Executive at the end of his year of office, on 31 December 1919." },
@@ -14293,11 +14238,10 @@ civilization = "Teutonic Order"
 civilization_id = "Q156020"
 field = "key_figures"
 action = "set"
-value = ["Hermann von Salza", "Ulrich von Jungingen", "Konrad von Jungingen", "Albert, Duke of Prussia"]
-value_id = ["Q57994", "Q330895", "Q508965", "Q40433"]
+value = ["Hermann von Salza", "Ulrich von Jungingen", "Albert, Duke of Prussia"]
+value_id = ["Q57994", "Q330895", "Q40433"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Konrad von Jungingen (no cited sentence gives him the office of grand master)"
+note = "Konrad von Jungingen dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Hermann von Salza was a ruler or leading figure of Teutonic Order", source = "https://www.britannica.com/biography/Hermann-von-Salza", quote = "Hermann Von Salza (born c. 1170—died March 20, 1239, Salerno [Italy]) was the German grand master (Hochmeister), from 1210 to 1239, of the organization of German crusaders called the Teutonic Order." },
   { fact = "Ulrich von Jungingen was a ruler or leading figure of Teutonic Order", source = "https://www.britannica.com/event/Battle-of-Grunwald-1410", quote = "The Teutonic Knights contested the sincerity of Jagiellon’s conversion, and in 1409 the order’s militant Grand Master Ulrich von Jungingen declared war on Poland and Lithuania." },
@@ -14460,11 +14404,10 @@ civilization = "Twenty-second Dynasty of Egypt"
 civilization_id = "Q737629"
 field = "key_figures"
 action = "set"
-value = ["Shoshenq I", "Osorkon I", "Osorkon IV"]
-value_id = ["Q311811", "Q515574", "Q718214"]
+value = ["Shoshenq I"]
+value_id = ["Q311811"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Osorkon I (cited sentences do not tie him to the Twenty-second Dynasty); Takelot II dropped: pharaoh of the Twenty-third Dynasty, a different dynasty; no source yet for Osorkon IV (placement in the 22nd or the 23rd Dynasty is disputed)"
+note = "Takelot II dropped: pharaoh of the Twenty-third Dynasty, a different dynasty; Osorkon I dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Osorkon IV dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Shoshenq I was a ruler or leading figure of Twenty-second Dynasty of Egypt", source = "https://www.britannica.com/biography/Sheshonk-I", quote = "Sheshonk I (flourished 10th century BCE) was the first king (c. 943–c. 923 BCE) of the 22nd dynasty of ancient Egypt (see ancient Egypt: the 22nd and 23rd dynasties)." },
 ]
@@ -14662,11 +14605,14 @@ civilization = "Volga Bulgaria"
 civilization_id = "Q185488"
 field = "key_figures"
 action = "set"
-value = ["Almış", "Ghabdula Chelbir"]
-value_id = ["Q657805", "Q9265041"]
+value = ["Almış"]
+value_id = ["Q657805"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Almış (sentences call Almış king of the Saqaliba / sender of an embassy but none says he ruled Volga Bulgaria); no source yet for Ghabdula Chelbir (no cited sentences in his article)"
+note = "Ghabdula Chelbir dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
+sources = [
+  { fact = "Almış was a ruler or leading figure of Volga Bulgaria", source = "https://en.wikipedia.org/wiki/Islam_in_Tatarstan", quote = "In 921, Bulgar ruler Almış sent an ambassador to the Caliph requesting religious instruction." },
+]
+derivation = "every listed person is named a ruler or officer of the state by a source"
 
 [[override]]
 civilization = "Warring States Japan"
@@ -14689,11 +14635,10 @@ civilization = "Wattasid dynasty"
 civilization_id = "Q970799"
 field = "key_figures"
 action = "set"
-value = ["Abu Abd Allah al-Burtuqali Muhammad ibn Muhammad", "Ali Abu Hassun", "Abu al-Abbas Ahmad ibn Muhammad", "Sayyida al Hurra"]
-value_id = ["Q307599", "Q997320", "Q335546", "Q4299447"]
+value = ["Ali Abu Hassun", "Abu al-Abbas Ahmad ibn Muhammad"]
+value_id = ["Q997320", "Q335546"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Abu Abd Allah al-Burtuqali Muhammad ibn Muhammad (article only calls him sultan; no cited sentence names the Wattasids); no source yet for Sayyida al Hurra (governed Tetouan and belonged to the dynasty by marriage; no sentence says she held an office of the Wattasid state)"
+note = "Abu Abd Allah al-Burtuqali Muhammad ibn Muhammad dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Sayyida al Hurra dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Ali Abu Hassun was a ruler or leading figure of Wattasid dynasty", source = "https://en.wikipedia.org/wiki/Ali_Abu_Hassun", quote = "The Jazoulite Sufi brotherhoods and the followers of Sidi Ahmed Ben Youssef, repressed by the Saadi ruler, were too ready to support the Wattasid ruler Abu Hassun." },
   { fact = "Abu al-Abbas Ahmad ibn Muhammad was a ruler or leading figure of Wattasid dynasty", source = "https://en.wikipedia.org/wiki/Abu_al-Abbas_Ahmad_ibn_Muhammad", quote = "Abu al-Abbas Ahmad ibn Muhammad (Arabic: أبو العباس أحمد بن محمد), also Sultan Ahmad, or Ahmad al-Wattasi, was a Wattasid Sultan." },
@@ -14751,11 +14696,10 @@ civilization = "Western Wei"
 civilization_id = "Q1143164"
 field = "key_figures"
 action = "set"
-value = ["Emperor Wen of Western Wei", "Emperor Fei of Western Wei", "Emperor Gong of Western Wei", "Yuwen Tai"]
-value_id = ["Q2985487", "Q2660296", "Q2665689", "Q1071587"]
+value = ["Yuwen Tai"]
+value_id = ["Q1071587"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Emperor Wen of Western Wei (no cited sentence in his article names Western Wei with his reign as emperor); no source yet for Emperor Fei of Western Wei (no cited sentence says he reigned (only his father's origins and succession context)); no source yet for Emperor Gong of Western Wei (no cited sentences in his article)"
+note = "Emperor Wen of Western Wei dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Emperor Fei of Western Wei dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Emperor Gong of Western Wei dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Yuwen Tai was a ruler or leading figure of Western Wei", source = "https://en.wikipedia.org/wiki/Yuwen_Tai", quote = "Yuwen Tai spent much of his effort on preserving existence of Western Wei against repeated attacks led by Gao Huan." },
 ]
@@ -14766,11 +14710,10 @@ civilization = "Western Xia"
 civilization_id = "Q7427"
 field = "key_figures"
 action = "set"
-value = ["Emperor Jingzong of Western Xia", "Emperor Renzong of Western Xia", "Last Emperor of Western Xia"]
-value_id = ["Q7438", "Q7453", "Q7459"]
+value = ["Emperor Jingzong of Western Xia"]
+value_id = ["Q7438"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Emperor Renzong of Western Xia (no cited sentence names him in his article or the Western Xia article); no source yet for Last Emperor of Western Xia (sentences give him as nephew of Xianzong and killed by the Mongols but none says he held the throne of Western Xia)"
+note = "Emperor Renzong of Western Xia dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia); Last Emperor of Western Xia dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Emperor Jingzong of Western Xia was a ruler or leading figure of Western Xia", source = "https://en.wikipedia.org/wiki/Western_Xia", quote = "In 1038, Yuanhao declared himself emperor (wu zu or Blue Son of Heaven), posthumously Emperor Jingzong of Western Xia, of the Great Xia with his capital at Xingqing in modern Yinchuan." },
 ]
@@ -14837,11 +14780,10 @@ civilization = "Zayyanid dynasty"
 civilization_id = "Q307697"
 field = "key_figures"
 action = "set"
-value = ["Yaghmurasen ibn Zyan", "Abu Sa'id Uthman I, Abd al-Wadid", "Abu Hammu Musa I", "Abu Tashfin Abd al-Rahman I"]
-value_id = ["Q335451", "Q335327", "Q324772", "Q335416"]
+value = ["Yaghmurasen ibn Zyan", "Abu Hammu Musa I", "Abu Tashfin Abd al-Rahman I"]
+value_id = ["Q335451", "Q324772", "Q335416"]
 retrieved = 2026-11-07
-needs_verification = true
-note = "no source yet for Abu Sa'id Uthman I, Abd al-Wadid (no cited sentence names him in his article or the dynasty article)"
+note = "Abu Sa'id Uthman I, Abd al-Wadid dropped: no source found (no footnote-covered Wikipedia sentence, nothing on Britannica or World History Encyclopedia)"
 sources = [
   { fact = "Yaghmurasen ibn Zyan was a ruler or leading figure of Zayyanid dynasty", source = "https://en.wikipedia.org/wiki/Zayyanid_dynasty", quote = "On the collapse of the Almohad Caliphate's rule around 1236, the Kingdom of Tlemcen became independent under the rule of the Zayyanids, and Yaghmurasen Ibn Zyan." },
   { fact = "Abu Hammu Musa I was a ruler or leading figure of Zayyanid dynasty", source = "https://en.wikipedia.org/wiki/Zayyanid_dynasty", quote = "After an eight-year siege of Tlemcen by the Marinids that ended in 1307, the reigns of Abu Hammu I (r. 1308–1318) and Abu Tashufin I (r. 1318–1337) marked a second political apogee of the Zayyanids with a consolidated hold over the central Maghreb." },

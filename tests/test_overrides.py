@@ -19,6 +19,9 @@ def test_every_override_cites_its_source():
         if override.action == "none" or override.needs_verification:
             assert override.source == "" or override.source.startswith("https://") or override.page, override
             continue
+        if override.action == "set" and override.value == []:
+            assert override.note.strip(), override
+            continue
         if override.sources:
             assert all(cited["quote"].strip() for cited in override.sources), override
         else:
