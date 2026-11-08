@@ -21,7 +21,6 @@ MEDIA_PREFIX = "pih"
 TAG_UNSAFE = re.compile(r"[^\w-]+")
 MAX_MODERN_COUNTRIES = 10
 MAX_COUNTRY_TAGS = 3
-GENERIC_PLACE_WORDS = {"city", "new", "old", "great", "san", "of", "the", "al", "el", "de"}
 ASKED_KINDS = (PictureKind.PHOTOGRAPH, PictureKind.FROM_LIFE)
 SOURCE_NAMES = {"wikipedia.org": "Wikipedia", "wikidata.org": "Wikidata",
                 "worldhistory.org": "World History Encyclopedia", "britannica.com": "Britannica",
@@ -98,14 +97,6 @@ def asked_picture(document: dict) -> tuple[str, str] | None:
             else f'{document["image_kind"]} · {document["image_credit"]}'
         return document["image"], credit
     return None
-
-
-def asks_capital(document: dict) -> bool:
-    """Whether the Capital card is made: the civilization has a capital and none of them is in its name (Venice for
-    the Republic of Venice), which would give the answer away."""
-    words = set(re.findall(r"\w+", document["name"].lower()))
-    named = {word for capital in document["capitals"] for word in re.findall(r"\w+", capital["name"].lower())}
-    return bool(document["capitals"]) and not (named - GENERIC_PLACE_WORDS) & words
 
 
 def period_text(period: dict) -> str:
@@ -469,7 +460,7 @@ class DeckBuilder:
             "AskPeriod": "yes" if period_text(period) else "",
             "PeriodNote": "<br>".join(escaped(text) for end in ("start", "end") if (text := dispute_text(document, end))),
             "Capital": joined([capital["name"] for capital in document["capitals"]]),
-            "AskCapital": "yes" if asks_capital(document) else "",
+            "AskCapital": "yes" if document["capitals"] else "",
             **succession_fields(document),
             "Rulers": joined([figure["name"] for figure in document["key_figures"]], " · "),
             "Summary": escaped(document.get("summary", "")),
