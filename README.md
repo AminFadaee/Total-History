@@ -328,6 +328,15 @@ ruler of the state; the conquest that ended it falls within 30 years of its end)
 entries carry the same source, quote and flag. A test lists every civilization with a field neither filled nor marked not
 applicable.
 
+`data/figure_overrides.toml` does the same for figures. An entry names the figure and its Wikidata id and sets one
+field: `civilization`, the state the person belongs to, with its Wikidata id, for someone the rules file under a
+birthplace they have no tie to (Tolkien, born in Bloemfontein); `contribution`, the "Known for" line; or `role`, for
+when the Wikipedia text the deck reads has gone wrong. Each cites a web page or a book with the page, quotes the
+passage and gives the date it was read. The state comes first among the person's civilizations, so their segment,
+card and today's country at the birthplace follow it, but it does not bring a civilization into the deck. An entry for
+someone the deck does not hold this time is listed under `figure_overrides_unused` in `data/report.json` instead of
+failing the collect.
+
 Two language-inference models read texts for the successions and the key figures (DeBERTa, about 740 MB, and BART,
 about 1.6 GB). They come with the same extra, are downloaded into `cache/` the first time a text is new to them, and their
 readings are kept in `data/succession_scores.json` and `data/ruler_scores.json`, so a collect on the committed data

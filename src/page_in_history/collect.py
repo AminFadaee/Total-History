@@ -9,6 +9,7 @@ from urllib.parse import quote
 from PIL import Image
 
 from page_in_history.errata import apply_errata, load_errata
+from page_in_history.figure_overrides import load_figure_overrides
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
 from page_in_history.lineages import Lineages
@@ -70,6 +71,10 @@ class DataPaths:
         return self.root / "overrides.toml"
 
     @property
+    def figure_overrides(self) -> pathlib.Path:
+        return self.root / "figure_overrides.toml"
+
+    @property
     def report(self) -> pathlib.Path:
         return self.root / "report.json"
 
@@ -118,7 +123,9 @@ class Collector:
         polities = builder.build(selected)
         logger.info("Selected %d civilizations: %s", len(polities), ", ".join(polity.name for polity in polities))
         classifier = PhotoClassifier(self.http) if self.photos is PhotoMode.MODEL else None
-        figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http, PortraitFinder(self.http, classifier))
+        figure_overrides = load_figure_overrides(self.paths.figure_overrides)
+        figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http, PortraitFinder(self.http, classifier),
+                                       figure_overrides)
         figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
         polities += builder.build([catalog.identities[name] for name in figure_builder.joined])
         builder.mark_repeated_maps(polities)
@@ -148,7 +155,8 @@ class Collector:
                 figure.image, figure.photo = "", ""
         self._write(polities, figures)
         write_json(self.output.root / "extended.json", figure_builder.extended)
-        self._report(scope, catalog, cliopatria, lineages, polities, figures, dropped, applied)
+        self._report(scope, catalog, cliopatria, lineages, polities, figures, dropped, applied,
+                     figure_overrides, figure_builder.unused_overrides(figures))
 
     def _draw(self, polities: list[Polity], cliopatria: Cliopatria, countries, builder: PolityBuilder) -> None:
         """Each civilization's map, and for one whose capitals are placed its Capital card's maps: the capitals
@@ -203,7 +211,7 @@ class Collector:
         logger.info("Wrote %d civilizations and %d figures", len(polities), len(figures))
 
     def _report(self, scope: Slice, catalog: PolityCatalog, cliopatria: Cliopatria, lineages: Lineages, polities,
-                figures, dropped, applied) -> None:
+                figures, dropped, applied, figure_overrides, unused) -> None:
         write_json(self.output.report, {
             "slice": asdict(scope),
             "civilizations": len(polities),
@@ -212,6 +220,8 @@ class Collector:
             "errata_dropped": [erratum.to_json() for erratum in dropped],
             "overrides_applied": [override.to_json() for override in applied],
             "needs_verification": [override.to_json() for override in applied if override.needs_verification],
+            "figure_overrides_applied": [override.to_json() for override in figure_overrides if override not in unused],
+            "figure_overrides_unused": [override.to_json() for override in unused],
             "unresolved_polities": dict(sorted(catalog.unresolved.items())),
             "ignored_cliopatria_steps": [asdict(spike) for spike in cliopatria.spikes],
             "lineage_handovers": [handover.to_json() for handover in lineages.handovers],

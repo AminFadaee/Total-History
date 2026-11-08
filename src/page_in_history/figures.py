@@ -8,6 +8,7 @@ from shapely.geometry import Point
 
 from page_in_history.births import Birth, agreed_birth
 from page_in_history.dates import century_label, period_label
+from page_in_history.figure_overrides import FigureOverride
 from page_in_history.naming import slugify
 from page_in_history.photos import PictureKind, PortraitFinder
 from page_in_history.sentences import balanced, contribution, first_paragraph
@@ -155,7 +156,8 @@ class Candidate:
 
 
 class FigureBuilder:
-    def __init__(self, catalog: PolityCatalog, pantheon: dict[str, Person], http, portraits: PortraitFinder):
+    def __init__(self, catalog: PolityCatalog, pantheon: dict[str, Person], http, portraits: PortraitFinder,
+                 overrides: list[FigureOverride] = ()):
         self.catalog = catalog
         self.portraits = portraits
         self.cliopatria = catalog.cliopatria
@@ -170,6 +172,7 @@ class FigureBuilder:
         self.countries = None
         self.births: dict[str, Birth | None] = {}
         self.voted: dict[str, list[str]] = {}
+        self.overrides = {(override.figure_id, override.field): override for override in overrides}
         self.drawn: dict[int, object] = {}
         for state in catalog.by_qid:
             for office in catalog.entities[state].ids(*HEAD_OFFICES, preferred_only=False):
@@ -550,6 +553,10 @@ class FigureBuilder:
         confirmed = self._rulers_first(confirmed, headed)
         self.voted[person.id] = [self.catalog.by_qid[qid].name for qid in confirmed]
         confirmed = self._by_birthplace(candidate, confirmed, sources, headed)
+        if override := self.overrides.get((person.id, "civilization")):
+            if self.catalog.by_qid.get(override.value_id) is None or self.catalog.by_qid[override.value_id].name != override.value:
+                raise ValueError(f"Figure override names a state that is not in the catalogue: {override.value}")
+            confirmed = [override.value_id] + [qid for qid in confirmed if qid != override.value_id]
         related = [qid for qid in sources["lead"] if qid not in confirmed]
         names = self.catalog.by_qid
         readable = {source: [names[qid].name for qid in qids] for source, qids in sources.items() if qids}
@@ -703,6 +710,15 @@ class FigureBuilder:
         found = self.countries[self.countries.listed & self.countries.contains(Point(birth.location))]
         return found.listed_as.iloc[0] if len(found) else ""
 
+    def _overridden(self, qid: str, field: str, value: str) -> str:
+        override = self.overrides.get((qid, field))
+        return override.value if override else value
+
+    def unused_overrides(self, figures: list[Figure]) -> list[FigureOverride]:
+        """Overrides for people the deck does not hold this time, reported rather than applied."""
+        held = {figure.id for figure in figures}
+        return [override for override in self.overrides.values() if override.figure_id not in held]
+
     def _assemble(self, figures: list, deck: set[str]) -> list[Figure]:
         """Each figure under its article's title without the disambiguator ('Fuzuli', not 'Fuzuli (poet)'), kept only
         when two figures would otherwise share a name (Francis Bacon and Francis Bacon (artist))."""
@@ -712,7 +728,7 @@ class FigureBuilder:
             title, person, span = candidate.title, candidate.person, candidate.lifetime
             extract, short_description = introductions.get(title, ("", None))
             paragraph = first_paragraph(extract)
-            role_text = role(short_description or person.description)
+            role_text = self._overridden(person.id, "role", role(short_description or person.description))
             image, credit, image_kind, image_check = self.portraits.illustration(person)
             photo, photo_check = self.portraits.photograph(person)
             if photo and image_kind is not PictureKind.PHOTOGRAPH:
@@ -730,7 +746,7 @@ class FigureBuilder:
                 birth_country=known.birth_country if known else "",
                 civilizations=civilizations,
                 related=related,
-                contribution=contribution(paragraph, role_text, person.description),
+                contribution=self._overridden(person.id, "contribution", contribution(paragraph, role_text, person.description)),
                 setting="" if set(civilizations) & deck else setting(
                     civilizations, candidate.region or self._country_region(known), candidate.adulthood),
                 modern_country=self._modern_country(candidate, self._home(civilizations, deck)),

@@ -94,13 +94,16 @@ def approved(data_dir: pathlib.Path) -> bool:
 
 
 def sources(data_dir: pathlib.Path) -> dict[tuple[str, str], list[str]]:
-    """The cited sources of each override, by civilization and top-level field of the fact file."""
+    """The cited sources of each override, by civilization or figure and top-level field of the fact file."""
     fields = {"capital": "capitals", "period": "period", "map_year": "map_year"}
     found: dict[tuple[str, str], list[str]] = {}
     for entry in tomllib.loads((data_dir / "overrides.toml").read_text()).get("override", []):
         cited = [cite["source"] for cite in entry.get("sources", [])] or [entry.get("source", "")]
         key = (entry["civilization"], fields.get(entry["field"], entry["field"]))
         found.setdefault(key, []).extend(source for source in cited if source)
+    for entry in tomllib.loads(path.read_text()).get("figure", []) if (path := data_dir / "figure_overrides.toml").exists() else []:
+        field = "civilizations" if entry["field"] == "civilization" else entry["field"]
+        found.setdefault((entry["figure"], field), []).append(entry["source"])
     return found
 
 
