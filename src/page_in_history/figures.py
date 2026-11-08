@@ -169,6 +169,7 @@ class FigureBuilder:
         self.country_regions: dict[str, str] | None = None
         self.countries = None
         self.births: dict[str, Birth | None] = {}
+        self.voted: dict[str, list[str]] = {}
         self.drawn: dict[int, object] = {}
         for state in catalog.by_qid:
             for office in catalog.entities[state].ids(*HEAD_OFFICES, preferred_only=False):
@@ -287,10 +288,12 @@ class FigureBuilder:
         first 10 of their region and period, or one among the first 3, as Confucius is for Lu, or one on Meta-Wiki's
         list of 1,000 articles or renowned, as Laozi is for Chu and Isabella I for Castile. A civilization must
         have begun before 1930 and reached 20,000 km², so modern republics, a co-prince of Andorra or a free city do
-        not bring in their state."""
+        not bring in their state. People count where the other sources place them, before their birthplace decides,
+        so a birthplace files a person but does not bring a civilization in or take one out."""
         strong: Counter = Counter()
         very_strong: Counter = Counter()
-        for candidate, civilizations, *_ in placed:
+        for candidate, *_ in placed:
+            civilizations = self.voted[candidate.person.id]
             if civilizations and civilizations[0] not in polity_names:
                 rank = candidate.cell_rank or PER_CELL + 1
                 strong[civilizations[0]] += rank <= STRONG_RANK
@@ -544,7 +547,9 @@ class FigureBuilder:
                            key=support)
         if not confirmed and candidate.essential:
             confirmed = sorted(sorted({qid for source in SINGLE_VOTE_SOURCES for qid in sources[source]}), key=support)
-        confirmed = self._by_birthplace(candidate, self._rulers_first(confirmed, headed), sources, headed)
+        confirmed = self._rulers_first(confirmed, headed)
+        self.voted[person.id] = [self.catalog.by_qid[qid].name for qid in confirmed]
+        confirmed = self._by_birthplace(candidate, confirmed, sources, headed)
         related = [qid for qid in sources["lead"] if qid not in confirmed]
         names = self.catalog.by_qid
         readable = {source: [names[qid].name for qid in qids] for source, qids in sources.items() if qids}
