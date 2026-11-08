@@ -82,6 +82,8 @@
   "tier": "Core",
   "map": "maps/ming-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/ming-dynasty-capital.png",
+  "capital_map_answer": "maps/ming-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

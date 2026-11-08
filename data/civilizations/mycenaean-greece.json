@@ -49,6 +49,8 @@
   "tier": "Core",
   "map": "maps/mycenaean-greece.png",
   "map_asked": true,
+  "capital_map": "maps/mycenaean-greece-capital.png",
+  "capital_map_answer": "maps/mycenaean-greece-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": false,

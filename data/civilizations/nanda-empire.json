@@ -73,6 +73,8 @@
   "tier": "Extended",
   "map": "maps/nanda-empire.png",
   "map_asked": true,
+  "capital_map": "maps/nanda-empire-capital.png",
+  "capital_map_answer": "maps/nanda-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

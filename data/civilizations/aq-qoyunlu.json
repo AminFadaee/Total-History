@@ -76,6 +76,8 @@
   "tier": "Core",
   "map": "maps/aq-qoyunlu.png",
   "map_asked": true,
+  "capital_map": "maps/aq-qoyunlu-capital.png",
+  "capital_map_answer": "maps/aq-qoyunlu-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

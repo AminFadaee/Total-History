@@ -73,6 +73,8 @@
   "tier": "Core",
   "map": "maps/satavahana-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/satavahana-dynasty-capital.png",
+  "capital_map_answer": "maps/satavahana-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

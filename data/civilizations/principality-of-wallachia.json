@@ -97,6 +97,8 @@
   "tier": "Core",
   "map": "maps/principality-of-wallachia.png",
   "map_asked": true,
+  "capital_map": "maps/principality-of-wallachia-capital.png",
+  "capital_map_answer": "maps/principality-of-wallachia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

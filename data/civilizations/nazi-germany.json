@@ -91,6 +91,8 @@
   "tier": "Core",
   "map": "maps/nazi-germany.png",
   "map_asked": true,
+  "capital_map": "maps/nazi-germany-capital.png",
+  "capital_map_answer": "maps/nazi-germany-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

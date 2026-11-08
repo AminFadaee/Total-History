@@ -77,6 +77,8 @@
   "tier": "Core",
   "map": "maps/gran-colombia.png",
   "map_asked": true,
+  "capital_map": "maps/gran-colombia-capital.png",
+  "capital_map_answer": "maps/gran-colombia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

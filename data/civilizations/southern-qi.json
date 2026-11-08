@@ -65,6 +65,8 @@
   "tier": "Core",
   "map": "maps/southern-qi.png",
   "map_asked": false,
+  "capital_map": "maps/southern-qi-capital.png",
+  "capital_map_answer": "maps/southern-qi-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

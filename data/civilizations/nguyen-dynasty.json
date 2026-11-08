@@ -73,6 +73,8 @@
   "tier": "Core",
   "map": "maps/nguyen-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/nguyen-dynasty-capital.png",
+  "capital_map_answer": "maps/nguyen-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -56,6 +56,8 @@
   "tier": "Extended",
   "map": "maps/alodia.png",
   "map_asked": true,
+  "capital_map": "maps/alodia-capital.png",
+  "capital_map_answer": "maps/alodia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

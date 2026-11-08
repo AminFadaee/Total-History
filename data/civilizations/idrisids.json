@@ -83,6 +83,8 @@
   "tier": "Extended",
   "map": "maps/idrisids.png",
   "map_asked": true,
+  "capital_map": "maps/idrisids-capital.png",
+  "capital_map_answer": "maps/idrisids-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

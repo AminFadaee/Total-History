@@ -69,6 +69,8 @@
   "tier": "Extended",
   "map": "maps/zayyanid-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/zayyanid-dynasty-capital.png",
+  "capital_map_answer": "maps/zayyanid-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": false,

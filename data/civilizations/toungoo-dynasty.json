@@ -92,6 +92,8 @@
   "tier": "Core",
   "map": "maps/toungoo-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/toungoo-dynasty-capital.png",
+  "capital_map_answer": "maps/toungoo-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

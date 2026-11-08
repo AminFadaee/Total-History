@@ -90,6 +90,8 @@
   "tier": "Extended",
   "map": "maps/ostrogothic-kingdom.png",
   "map_asked": true,
+  "capital_map": "maps/ostrogothic-kingdom-capital.png",
+  "capital_map_answer": "maps/ostrogothic-kingdom-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

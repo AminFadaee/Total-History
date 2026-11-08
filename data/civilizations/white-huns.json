@@ -80,6 +80,8 @@
   "tier": "Core",
   "map": "maps/white-huns.png",
   "map_asked": true,
+  "capital_map": "maps/white-huns-capital.png",
+  "capital_map_answer": "maps/white-huns-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

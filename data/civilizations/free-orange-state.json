@@ -69,6 +69,8 @@
   "tier": "Extended",
   "map": "maps/free-orange-state.png",
   "map_asked": true,
+  "capital_map": "maps/free-orange-state-capital.png",
+  "capital_map_answer": "maps/free-orange-state-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

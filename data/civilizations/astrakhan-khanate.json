@@ -57,6 +57,8 @@
   "tier": "Extended",
   "map": "maps/astrakhan-khanate.png",
   "map_asked": true,
+  "capital_map": "maps/astrakhan-khanate-capital.png",
+  "capital_map_answer": "maps/astrakhan-khanate-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

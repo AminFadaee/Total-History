@@ -67,6 +67,8 @@
   "tier": "Essential",
   "map": "maps/roman-kingdom.png",
   "map_asked": true,
+  "capital_map": "maps/roman-kingdom-capital.png",
+  "capital_map_answer": "maps/roman-kingdom-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

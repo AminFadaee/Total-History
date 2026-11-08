@@ -63,6 +63,8 @@
   "tier": "Extended",
   "map": "maps/united-kingdoms-of-sweden-and-norway.png",
   "map_asked": true,
+  "capital_map": "maps/united-kingdoms-of-sweden-and-norway-capital.png",
+  "capital_map_answer": "maps/united-kingdoms-of-sweden-and-norway-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

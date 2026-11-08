@@ -73,6 +73,8 @@
   "tier": "Essential",
   "map": "maps/phoenicia.png",
   "map_asked": true,
+  "capital_map": "maps/phoenicia-capital.png",
+  "capital_map_answer": "maps/phoenicia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

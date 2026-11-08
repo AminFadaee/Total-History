@@ -73,6 +73,8 @@
   "tier": "Extended",
   "map": "maps/second-spanish-republic.png",
   "map_asked": false,
+  "capital_map": "maps/second-spanish-republic-capital.png",
+  "capital_map_answer": "maps/second-spanish-republic-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

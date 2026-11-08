@@ -61,6 +61,8 @@
   "tier": "Extended",
   "map": "maps/western-xia.png",
   "map_asked": true,
+  "capital_map": "maps/western-xia-capital.png",
+  "capital_map_answer": "maps/western-xia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

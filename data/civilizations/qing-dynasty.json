@@ -77,6 +77,8 @@
   "tier": "Core",
   "map": "maps/qing-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/qing-dynasty-capital.png",
+  "capital_map_answer": "maps/qing-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

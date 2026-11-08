@@ -120,6 +120,8 @@
   "tier": "Core",
   "map": "maps/neo-assyrian-empire.png",
   "map_asked": true,
+  "capital_map": "maps/neo-assyrian-empire-capital.png",
+  "capital_map_answer": "maps/neo-assyrian-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

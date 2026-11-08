@@ -66,6 +66,8 @@
   "tier": "Extended",
   "map": "maps/indo-parthians.png",
   "map_asked": true,
+  "capital_map": "maps/indo-parthians-capital.png",
+  "capital_map_answer": "maps/indo-parthians-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

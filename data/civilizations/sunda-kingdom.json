@@ -62,6 +62,8 @@
   "tier": "Extended",
   "map": "maps/sunda-kingdom.png",
   "map_asked": true,
+  "capital_map": "",
+  "capital_map_answer": "",
   "disputes": [],
   "checks": {
     "infobox": true,

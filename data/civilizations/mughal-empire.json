@@ -100,6 +100,8 @@
   "tier": "Essential",
   "map": "maps/mughal-empire.png",
   "map_asked": true,
+  "capital_map": "maps/mughal-empire-capital.png",
+  "capital_map_answer": "maps/mughal-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

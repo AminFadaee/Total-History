@@ -73,6 +73,8 @@
   "tier": "Extended",
   "map": "maps/nara-japan.png",
   "map_asked": true,
+  "capital_map": "maps/nara-japan-capital.png",
+  "capital_map_answer": "maps/nara-japan-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": false,

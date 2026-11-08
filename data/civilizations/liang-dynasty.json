@@ -71,6 +71,8 @@
   "tier": "Core",
   "map": "maps/liang-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/liang-dynasty-capital.png",
+  "capital_map_answer": "maps/liang-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -75,6 +75,8 @@
   "tier": "Core",
   "map": "maps/yuan-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/yuan-dynasty-capital.png",
+  "capital_map_answer": "maps/yuan-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

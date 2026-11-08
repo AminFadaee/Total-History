@@ -49,6 +49,8 @@
   "tier": "Core",
   "map": "maps/teotihuacan.png",
   "map_asked": true,
+  "capital_map": "maps/teotihuacan-capital.png",
+  "capital_map_answer": "maps/teotihuacan-capital-answer.png",
   "disputes": [
     {
       "field": "end",

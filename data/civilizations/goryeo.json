@@ -94,6 +94,8 @@
   "tier": "Core",
   "map": "maps/goryeo.png",
   "map_asked": true,
+  "capital_map": "maps/goryeo-capital.png",
+  "capital_map_answer": "maps/goryeo-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

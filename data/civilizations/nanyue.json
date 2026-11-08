@@ -80,6 +80,8 @@
   "tier": "Core",
   "map": "maps/nanyue.png",
   "map_asked": true,
+  "capital_map": "maps/nanyue-capital.png",
+  "capital_map_answer": "maps/nanyue-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

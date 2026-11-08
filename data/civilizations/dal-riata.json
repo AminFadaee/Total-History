@@ -66,6 +66,8 @@
   "tier": "Extended",
   "map": "maps/dal-riata.png",
   "map_asked": true,
+  "capital_map": "maps/dal-riata-capital.png",
+  "capital_map_answer": "maps/dal-riata-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

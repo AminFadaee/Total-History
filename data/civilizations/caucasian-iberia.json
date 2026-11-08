@@ -71,6 +71,8 @@
   "tier": "Core",
   "map": "maps/caucasian-iberia.png",
   "map_asked": true,
+  "capital_map": "maps/caucasian-iberia-capital.png",
+  "capital_map_answer": "maps/caucasian-iberia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

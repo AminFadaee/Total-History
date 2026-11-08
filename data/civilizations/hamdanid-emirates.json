@@ -92,6 +92,8 @@
   "tier": "Extended",
   "map": "maps/hamdanid-emirates.png",
   "map_asked": true,
+  "capital_map": "maps/hamdanid-emirates-capital.png",
+  "capital_map_answer": "maps/hamdanid-emirates-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

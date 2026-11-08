@@ -67,6 +67,8 @@
   "tier": "Extended",
   "map": "maps/white-horde.png",
   "map_asked": true,
+  "capital_map": "maps/white-horde-capital.png",
+  "capital_map_answer": "maps/white-horde-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": false,

@@ -87,6 +87,8 @@
   "tier": "Core",
   "map": "maps/iberian-union.png",
   "map_asked": true,
+  "capital_map": "maps/iberian-union-capital.png",
+  "capital_map_answer": "maps/iberian-union-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

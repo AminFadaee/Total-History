@@ -99,6 +99,8 @@
   "tier": "Core",
   "map": "maps/principality-of-moldavia.png",
   "map_asked": true,
+  "capital_map": "maps/principality-of-moldavia-capital.png",
+  "capital_map_answer": "maps/principality-of-moldavia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

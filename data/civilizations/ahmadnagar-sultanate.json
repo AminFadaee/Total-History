@@ -105,6 +105,8 @@
   "tier": "Core",
   "map": "maps/ahmadnagar-sultanate.png",
   "map_asked": true,
+  "capital_map": "maps/ahmadnagar-sultanate-capital.png",
+  "capital_map_answer": "maps/ahmadnagar-sultanate-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

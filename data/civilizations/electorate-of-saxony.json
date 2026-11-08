@@ -82,6 +82,8 @@
   "tier": "Extended",
   "map": "maps/electorate-of-saxony.png",
   "map_asked": true,
+  "capital_map": "maps/electorate-of-saxony-capital.png",
+  "capital_map_answer": "maps/electorate-of-saxony-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

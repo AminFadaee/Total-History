@@ -83,6 +83,8 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-romania.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-romania-capital.png",
+  "capital_map_answer": "maps/kingdom-of-romania-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -99,6 +99,8 @@
   "tier": "Core",
   "map": "maps/great-jin.png",
   "map_asked": true,
+  "capital_map": "maps/great-jin-capital.png",
+  "capital_map_answer": "maps/great-jin-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

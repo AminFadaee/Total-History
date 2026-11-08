@@ -68,6 +68,8 @@
   "tier": "Core",
   "map": "maps/netherlands.png",
   "map_asked": true,
+  "capital_map": "maps/netherlands-capital.png",
+  "capital_map_answer": "maps/netherlands-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": false,

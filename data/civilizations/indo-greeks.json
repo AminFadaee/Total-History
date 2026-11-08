@@ -87,6 +87,8 @@
   "tier": "Core",
   "map": "maps/indo-greeks.png",
   "map_asked": true,
+  "capital_map": "maps/indo-greeks-capital.png",
+  "capital_map_answer": "maps/indo-greeks-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

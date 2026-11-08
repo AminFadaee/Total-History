@@ -74,6 +74,8 @@
   "tier": "Core",
   "map": "maps/tokugawa-shogunate.png",
   "map_asked": true,
+  "capital_map": "maps/tokugawa-shogunate-capital.png",
+  "capital_map_answer": "maps/tokugawa-shogunate-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

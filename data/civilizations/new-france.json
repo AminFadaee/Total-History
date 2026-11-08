@@ -74,6 +74,8 @@
   "tier": "Extended",
   "map": "maps/new-france.png",
   "map_asked": true,
+  "capital_map": "maps/new-france-capital.png",
+  "capital_map_answer": "maps/new-france-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

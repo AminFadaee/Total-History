@@ -73,6 +73,8 @@
   "tier": "Extended",
   "map": "maps/empire-of-trebizond.png",
   "map_asked": true,
+  "capital_map": "maps/empire-of-trebizond-capital.png",
+  "capital_map_answer": "maps/empire-of-trebizond-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

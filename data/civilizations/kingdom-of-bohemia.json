@@ -75,6 +75,8 @@
   "tier": "Core",
   "map": "maps/kingdom-of-bohemia.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-bohemia-capital.png",
+  "capital_map_answer": "maps/kingdom-of-bohemia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

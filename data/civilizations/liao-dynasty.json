@@ -69,6 +69,8 @@
   "tier": "Core",
   "map": "maps/liao-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/liao-dynasty-capital.png",
+  "capital_map_answer": "maps/liao-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

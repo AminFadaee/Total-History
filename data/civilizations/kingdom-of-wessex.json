@@ -66,6 +66,8 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-wessex.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-wessex-capital.png",
+  "capital_map_answer": "maps/kingdom-of-wessex-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

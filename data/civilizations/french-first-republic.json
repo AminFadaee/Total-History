@@ -72,6 +72,8 @@
   "tier": "Core",
   "map": "maps/french-first-republic.png",
   "map_asked": true,
+  "capital_map": "maps/french-first-republic-capital.png",
+  "capital_map_answer": "maps/french-first-republic-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -92,6 +92,8 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-israel-samaria.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-israel-samaria-capital.png",
+  "capital_map_answer": "maps/kingdom-of-israel-samaria-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

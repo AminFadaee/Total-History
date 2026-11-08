@@ -73,6 +73,8 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-northumbria.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-northumbria-capital.png",
+  "capital_map_answer": "maps/kingdom-of-northumbria-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

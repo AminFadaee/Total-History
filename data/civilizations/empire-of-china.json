@@ -61,6 +61,8 @@
   "tier": "Core",
   "map": "maps/empire-of-china.png",
   "map_asked": false,
+  "capital_map": "maps/empire-of-china-capital.png",
+  "capital_map_answer": "maps/empire-of-china-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

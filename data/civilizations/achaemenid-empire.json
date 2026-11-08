@@ -137,6 +137,8 @@
   "tier": "Essential",
   "map": "maps/achaemenid-empire.png",
   "map_asked": true,
+  "capital_map": "maps/achaemenid-empire-capital.png",
+  "capital_map_answer": "maps/achaemenid-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

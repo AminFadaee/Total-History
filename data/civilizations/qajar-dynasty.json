@@ -75,6 +75,8 @@
   "tier": "Core",
   "map": "maps/qajar-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/qajar-dynasty-capital.png",
+  "capital_map_answer": "maps/qajar-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -92,6 +92,8 @@
   "tier": "Extended",
   "map": "maps/greco-bactrian-kingdom.png",
   "map_asked": true,
+  "capital_map": "maps/greco-bactrian-kingdom-capital.png",
+  "capital_map_answer": "maps/greco-bactrian-kingdom-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

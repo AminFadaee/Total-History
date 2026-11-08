@@ -89,6 +89,8 @@
   "tier": "Core",
   "map": "maps/sultanate-of-rum.png",
   "map_asked": true,
+  "capital_map": "maps/sultanate-of-rum-capital.png",
+  "capital_map_answer": "maps/sultanate-of-rum-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

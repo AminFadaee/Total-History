@@ -104,6 +104,8 @@
   "tier": "Essential",
   "map": "maps/spanish-empire.png",
   "map_asked": true,
+  "capital_map": "maps/spanish-empire-capital.png",
+  "capital_map_answer": "maps/spanish-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

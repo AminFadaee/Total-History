@@ -48,6 +48,8 @@
   "tier": "Essential",
   "map": "maps/indus-valley-civilization.png",
   "map_asked": true,
+  "capital_map": "",
+  "capital_map_answer": "",
   "disputes": [],
   "checks": {
     "infobox": false,

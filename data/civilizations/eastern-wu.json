@@ -78,6 +78,8 @@
   "tier": "Core",
   "map": "maps/eastern-wu.png",
   "map_asked": true,
+  "capital_map": "maps/eastern-wu-capital.png",
+  "capital_map_answer": "maps/eastern-wu-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

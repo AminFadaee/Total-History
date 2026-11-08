@@ -75,6 +75,8 @@
   "tier": "Core",
   "map": "maps/russian-republic.png",
   "map_asked": false,
+  "capital_map": "maps/russian-republic-capital.png",
+  "capital_map_answer": "maps/russian-republic-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

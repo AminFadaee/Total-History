@@ -85,6 +85,8 @@
   "tier": "Core",
   "map": "maps/samanid-empire.png",
   "map_asked": true,
+  "capital_map": "maps/samanid-empire-capital.png",
+  "capital_map_answer": "maps/samanid-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

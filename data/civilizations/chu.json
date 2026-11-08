@@ -85,6 +85,8 @@
   "tier": "Core",
   "map": "maps/chu.png",
   "map_asked": true,
+  "capital_map": "maps/chu-capital.png",
+  "capital_map_answer": "maps/chu-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

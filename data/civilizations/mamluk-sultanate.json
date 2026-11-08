@@ -87,6 +87,8 @@
   "tier": "Core",
   "map": "maps/mamluk-sultanate.png",
   "map_asked": true,
+  "capital_map": "maps/mamluk-sultanate-capital.png",
+  "capital_map_answer": "maps/mamluk-sultanate-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

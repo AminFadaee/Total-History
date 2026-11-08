@@ -62,6 +62,8 @@
   "tier": "Extended",
   "map": "maps/mexico.png",
   "map_asked": true,
+  "capital_map": "maps/mexico-capital.png",
+  "capital_map_answer": "maps/mexico-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -73,6 +73,8 @@
   "tier": "Core",
   "map": "maps/zhou-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/zhou-dynasty-capital.png",
+  "capital_map_answer": "maps/zhou-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

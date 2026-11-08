@@ -68,6 +68,8 @@
   "tier": "Core",
   "map": "maps/maurya-empire.png",
   "map_asked": true,
+  "capital_map": "maps/maurya-empire-capital.png",
+  "capital_map_answer": "maps/maurya-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -76,6 +76,8 @@
   "tier": "Core",
   "map": "maps/kievan-rus.png",
   "map_asked": true,
+  "capital_map": "maps/kievan-rus-capital.png",
+  "capital_map_answer": "maps/kievan-rus-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

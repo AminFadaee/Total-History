@@ -61,6 +61,8 @@
   "tier": "Extended",
   "map": "maps/second-french-empire.png",
   "map_asked": false,
+  "capital_map": "maps/second-french-empire-capital.png",
+  "capital_map_answer": "maps/second-french-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

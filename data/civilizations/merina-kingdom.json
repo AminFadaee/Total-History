@@ -66,6 +66,8 @@
   "tier": "Extended",
   "map": "maps/merina-kingdom.png",
   "map_asked": true,
+  "capital_map": "maps/merina-kingdom-capital.png",
+  "capital_map_answer": "maps/merina-kingdom-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

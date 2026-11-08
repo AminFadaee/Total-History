@@ -473,7 +473,7 @@ def visible(html: str) -> str:
     first, *rest = markup.unescape(plain(HIDDEN.sub("", html))).split(";")
     text = ";".join([first, *(clause for clause in rest if not FOOTNOTE.search(clause))])
     text = FILE_NAME.sub("", re.sub(r"\(\s*(?:talk|discuss)?\s*\)", "", FOOTNOTE.sub("", text)))
-    text = re.sub(r"([^\s()][^()]*?) \(\s*\1\s*\)", r"\1", re.sub(r"\bUser:", "", text))
+    text = re.sub(r"([^\s()][^()]*?) \(\s*\1\s*\)", r"\1", re.sub(r"\b(?:User|Creator):", "", text))
     return re.sub(r"\s+", " ", text).strip()
 
 

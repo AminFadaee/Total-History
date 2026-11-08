@@ -74,6 +74,8 @@
   "tier": "Extended",
   "map": "maps/unified-silla.png",
   "map_asked": true,
+  "capital_map": "maps/unified-silla-capital.png",
+  "capital_map_answer": "maps/unified-silla-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

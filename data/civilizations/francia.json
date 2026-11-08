@@ -107,6 +107,8 @@
   "tier": "Core",
   "map": "maps/francia.png",
   "map_asked": true,
+  "capital_map": "maps/francia-capital.png",
+  "capital_map_answer": "maps/francia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

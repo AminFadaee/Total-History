@@ -63,6 +63,8 @@
   "tier": "Core",
   "map": "maps/elam.png",
   "map_asked": true,
+  "capital_map": "maps/elam-capital.png",
+  "capital_map_answer": "maps/elam-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": false,

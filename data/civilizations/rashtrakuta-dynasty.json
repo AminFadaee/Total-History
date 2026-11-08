@@ -73,6 +73,8 @@
   "tier": "Core",
   "map": "maps/rashtrakuta-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/rashtrakuta-dynasty-capital.png",
+  "capital_map_answer": "maps/rashtrakuta-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

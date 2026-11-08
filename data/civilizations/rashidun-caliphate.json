@@ -105,6 +105,8 @@
   "tier": "Core",
   "map": "maps/rashidun-caliphate.png",
   "map_asked": true,
+  "capital_map": "maps/rashidun-caliphate-capital.png",
+  "capital_map_answer": "maps/rashidun-caliphate-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -84,6 +84,8 @@
   "tier": "Core",
   "map": "maps/tsardom-of-russia.png",
   "map_asked": true,
+  "capital_map": "maps/tsardom-of-russia-capital.png",
+  "capital_map_answer": "maps/tsardom-of-russia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

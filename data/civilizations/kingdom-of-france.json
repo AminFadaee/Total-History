@@ -84,6 +84,8 @@
   "tier": "Core",
   "map": "maps/kingdom-of-france.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-france-capital.png",
+  "capital_map_answer": "maps/kingdom-of-france-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

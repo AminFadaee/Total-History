@@ -74,6 +74,8 @@
   "tier": "Core",
   "map": "maps/kingdom-of-great-britain.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-great-britain-capital.png",
+  "capital_map_answer": "maps/kingdom-of-great-britain-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

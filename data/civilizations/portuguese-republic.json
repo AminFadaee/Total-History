@@ -66,6 +66,8 @@
   "tier": "Extended",
   "map": "maps/portuguese-republic.png",
   "map_asked": false,
+  "capital_map": "maps/portuguese-republic-capital.png",
+  "capital_map_answer": "maps/portuguese-republic-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

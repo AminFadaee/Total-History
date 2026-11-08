@@ -75,6 +75,8 @@
   "tier": "Core",
   "map": "maps/majapahit.png",
   "map_asked": true,
+  "capital_map": "maps/majapahit-capital.png",
+  "capital_map_answer": "maps/majapahit-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

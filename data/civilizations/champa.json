@@ -101,6 +101,8 @@
   "tier": "Core",
   "map": "maps/champa.png",
   "map_asked": true,
+  "capital_map": "maps/champa-capital.png",
+  "capital_map_answer": "maps/champa-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

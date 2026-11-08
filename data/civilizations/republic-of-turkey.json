@@ -66,6 +66,8 @@
   "tier": "Extended",
   "map": "maps/republic-of-turkey.png",
   "map_asked": true,
+  "capital_map": "maps/republic-of-turkey-capital.png",
+  "capital_map_answer": "maps/republic-of-turkey-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

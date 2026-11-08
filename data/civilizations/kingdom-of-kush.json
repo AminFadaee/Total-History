@@ -88,6 +88,8 @@
   "tier": "Core",
   "map": "maps/kingdom-of-kush.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-kush-capital.png",
+  "capital_map_answer": "maps/kingdom-of-kush-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

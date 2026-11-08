@@ -77,6 +77,8 @@
   "tier": "Core",
   "map": "maps/khanate-of-bukhara.png",
   "map_asked": true,
+  "capital_map": "maps/khanate-of-bukhara-capital.png",
+  "capital_map_answer": "maps/khanate-of-bukhara-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

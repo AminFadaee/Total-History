@@ -97,6 +97,8 @@
   "tier": "Core",
   "map": "maps/ai-viet.png",
   "map_asked": true,
+  "capital_map": "maps/ai-viet-capital.png",
+  "capital_map_answer": "maps/ai-viet-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

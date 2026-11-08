@@ -78,6 +78,8 @@
   "tier": "Extended",
   "map": "maps/margraviate-of-brandenburg.png",
   "map_asked": true,
+  "capital_map": "maps/margraviate-of-brandenburg-capital.png",
+  "capital_map_answer": "maps/margraviate-of-brandenburg-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

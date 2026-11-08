@@ -141,6 +141,8 @@
   "tier": "Essential",
   "map": "maps/roman-empire.png",
   "map_asked": true,
+  "capital_map": "maps/roman-empire-capital.png",
+  "capital_map_answer": "maps/roman-empire-capital-answer.png",
   "disputes": [
     {
       "field": "end",

@@ -74,6 +74,8 @@
   "tier": "Core",
   "map": "maps/first-french-empire.png",
   "map_asked": true,
+  "capital_map": "maps/first-french-empire-capital.png",
+  "capital_map_answer": "maps/first-french-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

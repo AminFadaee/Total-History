@@ -55,6 +55,8 @@
   "tier": "Essential",
   "map": "maps/maya-civilization.png",
   "map_asked": true,
+  "capital_map": "",
+  "capital_map_answer": "",
   "disputes": [],
   "checks": {
     "infobox": false,

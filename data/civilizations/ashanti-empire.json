@@ -66,6 +66,8 @@
   "tier": "Core",
   "map": "maps/ashanti-empire.png",
   "map_asked": true,
+  "capital_map": "maps/ashanti-empire-capital.png",
+  "capital_map_answer": "maps/ashanti-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

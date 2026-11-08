@@ -82,6 +82,8 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-sardinia.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-sardinia-capital.png",
+  "capital_map_answer": "maps/kingdom-of-sardinia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

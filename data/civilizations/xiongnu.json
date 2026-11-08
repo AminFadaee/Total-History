@@ -65,6 +65,8 @@
   "tier": "Core",
   "map": "maps/xiongnu.png",
   "map_asked": true,
+  "capital_map": "maps/xiongnu-capital.png",
+  "capital_map_answer": "maps/xiongnu-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

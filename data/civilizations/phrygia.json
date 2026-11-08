@@ -61,6 +61,8 @@
   "tier": "Core",
   "map": "maps/phrygia.png",
   "map_asked": true,
+  "capital_map": "maps/phrygia-capital.png",
+  "capital_map_answer": "maps/phrygia-capital-answer.png",
   "disputes": [
     {
       "field": "end",

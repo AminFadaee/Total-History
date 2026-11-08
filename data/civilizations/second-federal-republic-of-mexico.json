@@ -74,6 +74,8 @@
   "tier": "Extended",
   "map": "maps/second-federal-republic-of-mexico.png",
   "map_asked": false,
+  "capital_map": "maps/second-federal-republic-of-mexico-capital.png",
+  "capital_map_answer": "maps/second-federal-republic-of-mexico-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

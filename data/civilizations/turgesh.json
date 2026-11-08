@@ -74,6 +74,8 @@
   "tier": "Extended",
   "map": "maps/turgesh.png",
   "map_asked": true,
+  "capital_map": "maps/turgesh-capital.png",
+  "capital_map_answer": "maps/turgesh-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

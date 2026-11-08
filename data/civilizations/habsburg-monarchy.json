@@ -84,6 +84,8 @@
   "tier": "Core",
   "map": "maps/habsburg-monarchy.png",
   "map_asked": true,
+  "capital_map": "maps/habsburg-monarchy-capital.png",
+  "capital_map_answer": "maps/habsburg-monarchy-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

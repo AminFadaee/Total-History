@@ -40,6 +40,8 @@
   "tier": "Core",
   "map": "maps/olmec-civilization.png",
   "map_asked": true,
+  "capital_map": "",
+  "capital_map_answer": "",
   "disputes": [],
   "checks": {
     "infobox": false,

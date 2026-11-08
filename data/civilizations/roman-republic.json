@@ -91,6 +91,8 @@
   "tier": "Essential",
   "map": "maps/roman-republic.png",
   "map_asked": true,
+  "capital_map": "maps/roman-republic-capital.png",
+  "capital_map_answer": "maps/roman-republic-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

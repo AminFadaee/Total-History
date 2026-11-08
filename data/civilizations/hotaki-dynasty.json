@@ -83,6 +83,8 @@
   "tier": "Extended",
   "map": "maps/hotaki-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/hotaki-dynasty-capital.png",
+  "capital_map_answer": "maps/hotaki-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

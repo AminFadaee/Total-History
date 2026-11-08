@@ -69,6 +69,8 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-neustria.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-neustria-capital.png",
+  "capital_map_answer": "maps/kingdom-of-neustria-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

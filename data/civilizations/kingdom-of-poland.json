@@ -90,6 +90,8 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-poland.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-poland-capital.png",
+  "capital_map_answer": "maps/kingdom-of-poland-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

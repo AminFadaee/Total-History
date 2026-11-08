@@ -59,6 +59,8 @@
   "tier": "Extended",
   "map": "maps/commonwealth-of-australia.png",
   "map_asked": true,
+  "capital_map": "maps/commonwealth-of-australia-capital.png",
+  "capital_map_answer": "maps/commonwealth-of-australia-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

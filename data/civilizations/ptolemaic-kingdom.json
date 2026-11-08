@@ -71,6 +71,8 @@
   "tier": "Core",
   "map": "maps/ptolemaic-kingdom.png",
   "map_asked": true,
+  "capital_map": "maps/ptolemaic-kingdom-capital.png",
+  "capital_map_answer": "maps/ptolemaic-kingdom-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

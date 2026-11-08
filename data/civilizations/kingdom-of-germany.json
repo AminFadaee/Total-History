@@ -76,6 +76,8 @@
   "tier": "Core",
   "map": "maps/kingdom-of-germany.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-germany-capital.png",
+  "capital_map_answer": "maps/kingdom-of-germany-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": false,

@@ -108,6 +108,8 @@
   "tier": "Core",
   "map": "maps/ilkhanate.png",
   "map_asked": true,
+  "capital_map": "maps/ilkhanate-capital.png",
+  "capital_map_answer": "maps/ilkhanate-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

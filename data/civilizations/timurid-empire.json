@@ -102,6 +102,8 @@
   "tier": "Core",
   "map": "maps/timurid-empire.png",
   "map_asked": true,
+  "capital_map": "maps/timurid-empire-capital.png",
+  "capital_map_answer": "maps/timurid-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -21,7 +21,7 @@
   },
   "capitals": [
     {
-      "name": "Worms, Germany",
+      "name": "Worms",
       "location": [
         8.3620898,
         49.6302618
@@ -66,6 +66,8 @@
   "tier": "Extended",
   "map": "maps/burgundians.png",
   "map_asked": true,
+  "capital_map": "maps/burgundians-capital.png",
+  "capital_map_answer": "maps/burgundians-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": false,

@@ -77,6 +77,8 @@
   "tier": "Extended",
   "map": "maps/saffarid-dynasty.png",
   "map_asked": true,
+  "capital_map": "maps/saffarid-dynasty-capital.png",
+  "capital_map_answer": "maps/saffarid-dynasty-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

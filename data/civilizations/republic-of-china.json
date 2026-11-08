@@ -93,6 +93,8 @@
   "tier": "Core",
   "map": "maps/republic-of-china.png",
   "map_asked": true,
+  "capital_map": "maps/republic-of-china-capital.png",
+  "capital_map_answer": "maps/republic-of-china-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

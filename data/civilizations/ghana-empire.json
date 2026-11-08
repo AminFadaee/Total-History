@@ -70,6 +70,8 @@
   "tier": "Core",
   "map": "maps/ghana-empire.png",
   "map_asked": true,
+  "capital_map": "maps/ghana-empire-capital.png",
+  "capital_map_answer": "maps/ghana-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

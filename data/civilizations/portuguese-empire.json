@@ -91,6 +91,8 @@
   "tier": "Core",
   "map": "maps/portuguese-empire.png",
   "map_asked": true,
+  "capital_map": "maps/portuguese-empire-capital.png",
+  "capital_map_answer": "maps/portuguese-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

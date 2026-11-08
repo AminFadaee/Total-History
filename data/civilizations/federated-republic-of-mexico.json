@@ -74,6 +74,8 @@
   "tier": "Extended",
   "map": "maps/federated-republic-of-mexico.png",
   "map_asked": true,
+  "capital_map": "maps/federated-republic-of-mexico-capital.png",
+  "capital_map_answer": "maps/federated-republic-of-mexico-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

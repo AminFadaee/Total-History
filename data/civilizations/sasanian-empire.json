@@ -105,6 +105,8 @@
   "tier": "Core",
   "map": "maps/sasanian-empire.png",
   "map_asked": true,
+  "capital_map": "maps/sasanian-empire-capital.png",
+  "capital_map_answer": "maps/sasanian-empire-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -67,6 +67,8 @@
   "tier": "Extended",
   "map": "maps/republic-of-finland.png",
   "map_asked": true,
+  "capital_map": "maps/republic-of-finland-capital.png",
+  "capital_map_answer": "maps/republic-of-finland-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

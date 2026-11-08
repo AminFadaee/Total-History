@@ -60,6 +60,8 @@
   "tier": "Core",
   "map": "maps/gojoseon.png",
   "map_asked": true,
+  "capital_map": "",
+  "capital_map_answer": "",
   "disputes": [],
   "checks": {
     "infobox": true,

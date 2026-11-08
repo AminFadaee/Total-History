@@ -90,6 +90,8 @@
   "tier": "Core",
   "map": "maps/crown-of-aragon.png",
   "map_asked": true,
+  "capital_map": "maps/crown-of-aragon-capital.png",
+  "capital_map_answer": "maps/crown-of-aragon-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

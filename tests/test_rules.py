@@ -160,6 +160,7 @@ def test_commons_credit_drops_footnote_marks():
     assert visible("derivative work: Snitty (<a>talk</a>) Maome.jpg: Unknown") == "derivative work: Snitty Unknown"
     assert visible("A.Skromnitsky (<a>A.Skromnitsky</a> (<a>talk</a>))") == "A.Skromnitsky"
     assert visible("User:-hax0r") == "-hax0r"
+    assert visible("Creator:Wojciech Stefanowski") == "Wojciech Stefanowski"
 
 
 @pytest.mark.parametrize("paragraph", [

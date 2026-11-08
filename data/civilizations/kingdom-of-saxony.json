@@ -74,6 +74,8 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-saxony.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-saxony-capital.png",
+  "capital_map_answer": "maps/kingdom-of-saxony-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

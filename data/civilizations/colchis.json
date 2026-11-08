@@ -50,6 +50,8 @@
   "tier": "Extended",
   "map": "maps/colchis.png",
   "map_asked": true,
+  "capital_map": "maps/colchis-capital.png",
+  "capital_map_answer": "maps/colchis-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

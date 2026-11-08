@@ -69,6 +69,8 @@
   "tier": "Core",
   "map": "maps/shu-han.png",
   "map_asked": true,
+  "capital_map": "maps/shu-han-capital.png",
+  "capital_map_answer": "maps/shu-han-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -73,6 +73,8 @@
   "tier": "Core",
   "map": "maps/french-third-republic.png",
   "map_asked": true,
+  "capital_map": "maps/french-third-republic-capital.png",
+  "capital_map_answer": "maps/french-third-republic-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

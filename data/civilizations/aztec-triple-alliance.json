@@ -75,6 +75,8 @@
   "tier": "Essential",
   "map": "maps/aztec-triple-alliance.png",
   "map_asked": true,
+  "capital_map": "maps/aztec-triple-alliance-capital.png",
+  "capital_map_answer": "maps/aztec-triple-alliance-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

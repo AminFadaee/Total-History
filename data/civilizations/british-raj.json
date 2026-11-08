@@ -97,6 +97,8 @@
   "tier": "Core",
   "map": "maps/british-raj.png",
   "map_asked": true,
+  "capital_map": "maps/british-raj-capital.png",
+  "capital_map_answer": "maps/british-raj-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

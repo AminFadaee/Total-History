@@ -81,6 +81,8 @@
   "tier": "Extended",
   "map": "maps/kingdom-of-afghanistan.png",
   "map_asked": true,
+  "capital_map": "maps/kingdom-of-afghanistan-capital.png",
+  "capital_map_answer": "maps/kingdom-of-afghanistan-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

@@ -63,6 +63,8 @@
   "tier": "Core",
   "map": "maps/sabaeans.png",
   "map_asked": true,
+  "capital_map": "maps/sabaeans-capital.png",
+  "capital_map_answer": "maps/sabaeans-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,

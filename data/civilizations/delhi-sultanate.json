@@ -107,6 +107,8 @@
   "tier": "Core",
   "map": "maps/delhi-sultanate.png",
   "map_asked": true,
+  "capital_map": "maps/delhi-sultanate-capital.png",
+  "capital_map_answer": "maps/delhi-sultanate-capital-answer.png",
   "disputes": [],
   "checks": {
     "infobox": true,
