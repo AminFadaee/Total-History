@@ -26,8 +26,10 @@ one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neig
 | Succession | Sasanian Empire, before it in Iran: ? | Parthian Empire | the previous ruler of its home region is confirmed |
 | Succession | Mongol Empire, before it in Kyrgyzstan: ? | Kara-Khitans | another region it took over or handed on (up to three a side) |
 | Periods | When: Achaemenid Empire | 550–330 BC | the period is confirmed, or Wikidata gives it as approximate (c. 57 BC – AD 892 for Silla), or the state still exists (since 1867 for Canada) |
+| Capitals | Parthian Empire, capital: ? | Ctesiphon, Qumis, Nisa | it has a capital, and no capital is in its name (not Venice for the Republic of Venice) |
+| Locations | Where: Sasanian Empire | its map | it has a Map card |
 
-The back of each card also shows what the civilization was (the opening sentence of its Wikipedia article without its
+The backs of the Map, Period and Where cards also show what the civilization was (the opening sentence of its Wikipedia article without its
 subject, cut at "was", "refers to", "comprised" and the like; or its short description when that sentence cannot be cut
 or begins with a circumstance, "Under Islamic rule …"; when the article describes a place as it is today though the map
 stops drawing it before 1900, only a short description that dates it, "Ancient Mesoamerican city" for Teotihuacan, and

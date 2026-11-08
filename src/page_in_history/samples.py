@@ -44,6 +44,8 @@ SAMPLES = (
     Sample("Page in History civilization", "Before", "Sasanian Empire", "civilization-before.webp"),
     Sample("Page in History civilization", "After", "Abbasid Caliphate", "civilization-after.webp"),
     Sample("Page in History civilization", "Period", "Achaemenid Empire", "civilization-period.webp"),
+    Sample("Page in History civilization", "Capital", "Parthian Empire", "civilization-capital.webp"),
+    Sample("Page in History civilization", "Where", "Sasanian Empire", "civilization-where.webp"),
     Sample("Page in History figure", "Who", "Cyrus the Great", "figure-who.webp"),
     Sample("Page in History figure", "Photo", "Albert Einstein", "figure-photo.webp"),
 )
