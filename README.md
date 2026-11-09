@@ -118,10 +118,12 @@ Notes are tagged so you can filter or suspend groups of them:
   the Habsburg Monarchy), when it stands for a listed people the catalogue leaves out as its own
   (the Göktürks for the Göktürk Khaganate), or when it is part of a listed civilization the deck does not have itself
   (the Roman Republic and Empire of Ancient Rome) or of a listed era that names it among its parts (Shu Han of the
-  Three Kingdoms). Peoples and mapless civilizations without a capital, key figures or a confirmed period (the Goths, Troy), countries that still
+  Three Kingdoms). Peoples and mapless civilizations without a capital, key figures or a confirmed period (the Brythons), countries that still
   exist (the United States, Mexico), and eras without a capital or confirmed period, whatever figures they have (the
   Viking Age), are Extended. A state whose neighbouring phase of the same name is Core or Essential is Core too (the
-  Caliphate of Córdoba beside the Emirate of Córdoba)
+  Caliphate of Córdoba beside the Emirate of Córdoba). Tiers judge the civilization as its cards show it, after the
+  overrides, and an override can set a tier by hand with its reason (the Saxons, a people the sources give a duke and
+  a period, stay Extended)
 
 To study one kind of question, make a filtered deck from a search such as `card:Capital`,
 `tag:PIH::Category::Figures` or `tag:PIH::Tier::Essential`. To skip a kind, find it in the browser and suspend the
@@ -316,13 +318,14 @@ test fails on an entry that no longer matches anything.
 
 `data/overrides.toml` is the reverse: a reviewed, sourced list of facts the automated sources miss or get wrong. An
 entry names a civilization, one field (`before`, `after`, `period`, `capital`, `key_figures`, `map_year`,
-`modern_countries` or `summary`) and an action: `add` appends to a list, `set` replaces the field (the whole list for
+`modern_countries`, `summary` or `tier`) and an action: `add` appends to a list, `set` replaces the field (the whole list for
 capitals, key figures and modern countries; `{ start, end, circa }` or `{ since }` for a period, each a year or, when the source gives only that, a century such as
 `"6th century"`) and `none` records that
 the field does not apply, with the reason, in the civilization's `checks.not_applicable`, so a deliberate gap can be told
 from a missing one; `dispute` records another value a different source gives for a period's start or end, or for the
 home `before` or `after`, which the card shows beside the deck's own; `same_state = true` on an added `before` or `after` marks it as the same state
-under another name. Setting `map_year` redraws the map at that year, and the parts and modern countries follow it unless
+under another name. Setting `tier` is an editorial choice rather than a fact, so it gives its reason in `note` instead of a source.
+Setting `map_year` redraws the map at that year, and the parts and modern countries follow it unless
 an override sets them as well. Each entry cites its source, a web page or a book with the page number, quotes the passage and gives the date it was read. A
 fact no single page states is built from smaller ones: the entry lists `sources`, each the fact it supports, its page
 and the quote, and names in `derivation` the rule that combines them (every listed person's own biography names them a

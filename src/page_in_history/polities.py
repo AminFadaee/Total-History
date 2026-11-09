@@ -1956,8 +1956,8 @@ class PolityBuilder:
         Habsburg Monarchy), when the catalogue left out a listed people as its own (the Göktürks for the
         Göktürk Khaganate), or when it is a part of a listed civilization that is not in the deck itself (the Roman
         Republic and Empire of Ancient Rome) or of a listed era that names it among its parts (Shu Han of the Three
-        Kingdoms). A people, or a civilization with no map, without a capital, rulers or a confirmed period (the Goths,
-        the Saxons, Troy; not the Hittites or the Huns), a country that still exists, whose item is today's country (the Kingdom of Sweden, Mexico), and an
+        Kingdoms). A people, or a civilization with no map, without a capital, rulers or a confirmed period (the
+        Brythons; not the Hittites or the Huns), a country that still exists, whose item is today's country (the Kingdom of Sweden, Mexico), and an
         era with no capital or confirmed period, whatever figures it has (the Viking Age), are Extended. An Extended state whose neighbouring phase, the one before or after it in Wikidata
         under the same name once the kind of state is set aside, is Core or Essential becomes Core (the Caliphate of
         Córdoba beside the Emirate of Córdoba), unless it is one of those excluded above."""

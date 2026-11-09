@@ -5,13 +5,14 @@ from dataclasses import dataclass, field
 
 from page_in_history.dates import Span, parse
 from page_in_history.errata import Erratum
-from page_in_history.polities import Polity
+from page_in_history.polities import Polity, Tier
 from page_in_history.sources.wikidata import Wikidata
 
 SIDES = ("before", "after")
 LIST_FIELDS = {"before": "before", "after": "after", "capital": "capitals", "key_figures": "key_figures",
                "modern_countries": "modern_countries"}
-FIELDS = (*LIST_FIELDS, "period", "map_year", "summary", "map")
+FIELDS = (*LIST_FIELDS, "period", "map_year", "summary", "map", "tier")
+TIERS = ("Essential", "Core", "Extended")
 ACTIONS = ("add", "set", "none", "dispute")
 ADDABLE = ("before", "after", "capital", "key_figures")
 DISPUTABLE = ("period", *SIDES)
@@ -87,6 +88,10 @@ def _validate(override: Override) -> None:
         return
     if override.field == "map":
         raise ValueError(f"{who}: a map can only be marked not applicable")
+    if override.field == "tier":
+        if override.action != "set" or override.value not in TIERS or not override.note.strip():
+            raise ValueError(f"{who}: a tier is set to one of {', '.join(TIERS)}, with the reason in the note")
+        return
     if override.action == "dispute":
         _validate_dispute(override, who)
     if override.same_state and (override.field not in SIDES or override.action not in ("add", "set")):
@@ -151,7 +156,7 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
             raise ValueError(f"Override names a civilization that is not in the deck: {override.civilization}")
         if override.action == "none":
             polity.checks.setdefault("not_applicable", {})[override.field] = override.note
-        elif override.action == "dispute":
+        elif override.action == "dispute" or override.field == "tier":
             continue
         elif override.field == "period":
             _set_period(polity, override)
@@ -174,6 +179,14 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
     for polity in polities:
         polity.disputes = _disputes(polity, [o for o in overrides if o.civilization_id == polity.id], name_of)
     return overrides
+
+
+def apply_tiers(polities: list[Polity], overrides: list[Override]) -> None:
+    """Tiers set by hand, after the rule has assigned them: an editorial choice with its reason, not a fact."""
+    by_id = {polity.id: polity for polity in polities}
+    for override in overrides:
+        if override.field == "tier" and (polity := by_id.get(override.civilization_id)):
+            polity.tier = Tier(override.value)
 
 
 def _disputes(polity: Polity, overrides: list[Override], name_of) -> list[dict]:

@@ -6,7 +6,7 @@ from types import SimpleNamespace
 import pytest
 
 from page_in_history.dates import Span
-from page_in_history.overrides import FIELDS, LIST_FIELDS, apply_overrides, load_overrides, period_span
+from page_in_history.overrides import FIELDS, LIST_FIELDS, apply_overrides, apply_tiers, load_overrides, period_span
 from page_in_history.polities import Period, Polity
 
 DATA = pathlib.Path(__file__).resolve().parents[1] / "data"
@@ -18,6 +18,9 @@ def test_every_override_cites_its_source():
     for override in OVERRIDES:
         if override.action == "none" or override.needs_verification:
             assert override.source == "" or override.source.startswith("https://") or override.page, override
+            continue
+        if override.field == "tier":
+            assert override.note.strip(), override
             continue
         if override.action == "set" and override.value == []:
             assert override.note.strip(), override
@@ -53,6 +56,8 @@ def reflected(override, civilization) -> bool:
         period = civilization["period"]
         return all(period[end] and Span(period[end]["earliest"], period[end]["latest"]) == period_span(year)
                    for end, year in override.value.items() if end != "circa")
+    if override.field == "tier":
+        return civilization["tier"] == override.value
     if override.field in ("map_year", "summary"):
         return civilization[override.field] == override.value
     if override.field == "modern_countries":
@@ -128,6 +133,8 @@ def test_apply_every_field_and_action():
     assert polity.after == [] and polity.checks["not_applicable"] == {"after": "still exists", "map": "not drawn in Cliopatria"}
     assert polity.map_year == 1100 and polity.modern_countries == ["Testia", "Otheria"]
     assert polity.summary == "A test state."
+    apply_tiers([polity], overrides)
+    assert polity.tier == "Extended"
 
 
 def test_derived_entries_name_their_rule_and_each_source(tmp_path):

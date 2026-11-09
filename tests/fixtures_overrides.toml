@@ -86,3 +86,11 @@ civilization_id = "Q1"
 field = "map"
 action = "none"
 note = "not drawn in Cliopatria"
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
+field = "tier"
+action = "set"
+value = "Extended"
+note = "a minor state"

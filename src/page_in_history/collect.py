@@ -14,7 +14,7 @@ from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
 from page_in_history.lineages import Lineages
 from page_in_history.maps import MapJob, MapStyle, render_all
-from page_in_history.overrides import apply_overrides, check_against_errata, load_overrides
+from page_in_history.overrides import apply_overrides, apply_tiers, check_against_errata, load_overrides
 from page_in_history.photos import COMMONS_FILE, PhotoClassifier, PhotoMode, PortraitFinder, digest
 from page_in_history.power import PowerScores
 from page_in_history.polities import Polity, PolityBuilder, PolityCatalog
@@ -135,12 +135,13 @@ class Collector:
         scores = PowerScores(self.paths.root / "ruler_scores.json", self.http)
         builder.choose_key_figures(polities, figures, scores)
         scores.save()
-        builder.assign_tiers(polities)
         errata, overrides = load_errata(self.paths.errata), load_overrides(self.paths.overrides)
         check_against_errata(overrides, errata)
         dropped = apply_errata(polities, errata)
         applied = apply_overrides(polities, overrides, wikidata)
         builder.follow_map_years(polities, applied)
+        builder.assign_tiers(polities)
+        apply_tiers(polities, overrides)
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))
         self.failures: list[str] = []
