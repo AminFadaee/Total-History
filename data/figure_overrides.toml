@@ -181,3 +181,31 @@ value = "King of the Khmer Empire"
 source = "https://en.wikipedia.org/wiki/Yasovarman_I"
 quote = "was an Angkorian king who reigned in 889–910 CE."
 retrieved = 2026-11-08
+[[figure]]
+figure = "Joan of Arc"
+figure_id = "Q7226"
+field = "civilization"
+value = "Kingdom of France"
+value_id = "Q70972"
+source = "https://en.wikipedia.org/wiki/Joan_of_Arc"
+quote = "Joan of Arc was born c. 1412 in Domrémy, a small village in the Meuse valley now in the Vosges department in the north-east of France."
+retrieved = 2026-11-09
+
+[[figure]]
+figure = "Lê Thái Tông"
+figure_id = "Q2986223"
+field = "civilization"
+value = "Đại Việt"
+value_id = "Q430309"
+source = "https://en.wikipedia.org/wiki/L%C3%AA_Th%C3%A1i_T%C3%B4ng"
+quote = "was the second Emperor of the Lê dynasty of Đại Việt from 1433 until his death in 1442."
+retrieved = 2026-11-09
+
+[[figure]]
+figure = "Ibn Yunus"
+figure_id = "Q459921"
+field = "life"
+value = "c. 950–1009"
+source = "https://mathshistory.st-andrews.ac.uk/Biographies/Yunus/"
+quote = "Ibn Yunus (950 - 1009)"
+retrieved = 2026-11-09

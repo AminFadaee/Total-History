@@ -330,8 +330,9 @@ applicable.
 
 `data/figure_overrides.toml` does the same for figures. An entry names the figure and its Wikidata id and sets one
 field: `civilization`, the state the person belongs to, with its Wikidata id, for someone the rules file under a
-birthplace they have no tie to (Tolkien, born in Bloemfontein); `contribution`, the "Known for" line; or `role`, for
-when the Wikipedia text the deck reads has gone wrong. Each cites a web page or a book with the page, quotes the
+birthplace they have no tie to (Tolkien, born in Bloemfontein); `contribution`, the "Known for" line; `role`, for
+when the Wikipedia text the deck reads has gone wrong; or `life`, the life years the card shows, when Wikidata's are
+wrong (Ibn Yunus died in 1009, not 958). Each cites a web page or a book with the page, quotes the
 passage and gives the date it was read. The state comes first among the person's civilizations, so their segment,
 card and today's country at the birthplace follow it, but it does not bring a civilization into the deck. An entry for
 someone the deck does not hold this time is listed under `figure_overrides_unused` in `data/report.json` instead of

@@ -740,7 +740,7 @@ class FigureBuilder:
                 name=display_name(title),
                 wikipedia=title,
                 role=role_text,
-                life=life_label(person.years("P569"), person.years("P570")),
+                life=self._overridden(person.id, "life", life_label(person.years("P569"), person.years("P570"))),
                 lifetime=list(span),
                 occupation=known.occupation.capitalize() if known else "",
                 birth_country=known.birth_country if known else "",

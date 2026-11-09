@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 from page_in_history.overrides import cites
 
-FIELDS = ("civilization", "contribution", "role")
+FIELDS = ("civilization", "contribution", "role", "life")
 
 
 @dataclass(frozen=True)
