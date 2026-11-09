@@ -1,0 +1,57 @@
+{
+  "id": "Q1618",
+  "slug": "charles-lindbergh",
+  "name": "Charles Lindbergh",
+  "wikipedia": "Charles Lindbergh",
+  "role": "American aviator and eugenicist",
+  "life": "1902–1974",
+  "lifetime": [
+    1902,
+    1974
+  ],
+  "occupation": "Pilot",
+  "birth_country": "United States",
+  "civilizations": [
+    "United States of America"
+  ],
+  "related": [
+    "Nazi Germany"
+  ],
+  "contribution": "An American aviator, military officer, and author.",
+  "setting": "",
+  "modern_country": "United States",
+  "image": "images/charles-lindbergh.jpg",
+  "image_credit": "Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/charles-lindbergh-photo.jpg",
+  "photo_credit": "Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "United States of America"
+      ],
+      "lead": [
+        "Nazi Germany"
+      ],
+      "citizenship": [
+        "United States of America"
+      ],
+      "birthplace": [
+        "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
+      ]
+    },
+    "lead": "Charles Augustus Lindbergh (February 4, 1902 – August 26, 1974) was an American aviator, military officer, and author. On May 20–21, 1927, he made the first nonstop flight from New York to Paris, a distance of 3,600 miles (5,800 km), flying alone for over 33 hours. His aircraft, the Spirit of St. Louis, was built to compete for the $25,000 Orteig Prize for the first flight between the two cities. Although not the first transatlantic flight, it was the first solo crossing of the Atlantic and the longest at the time by nearly 2,000 miles (3,200 km), setting a new flight distance world record. The achievement garnered Lindbergh worldwide fame and stands as one of the most consequential flights in history, signalling a new era of international air transportation.",
+    "image": "",
+    "photo": "model 0.99, one person 1.00, captured 1927, during their lifetime",
+    "birth": {
+      "location": [
+        -83.04583333,
+        42.33138889
+      ],
+      "year": 1902
+    }
+  }
+}

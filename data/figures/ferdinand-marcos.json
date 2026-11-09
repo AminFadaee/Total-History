@@ -1,0 +1,56 @@
+{
+  "id": "Q1463",
+  "slug": "ferdinand-marcos",
+  "name": "Ferdinand Marcos",
+  "wikipedia": "Ferdinand Marcos",
+  "role": "President of the Philippines from 1965 to 1986",
+  "life": "1917–1989",
+  "lifetime": [
+    1917,
+    1989
+  ],
+  "occupation": "Politician",
+  "birth_country": "Philippines",
+  "civilizations": [
+    "Republic of the Philippines",
+    "United States of America"
+  ],
+  "related": [],
+  "contribution": "A Filipino lawyer and politician who served as the tenth president of the Philippines from 1965 to 1986.",
+  "setting": "",
+  "modern_country": "Philippines",
+  "image": "images/ferdinand-marcos.jpg",
+  "image_credit": "derivative work: Bluemask Spec. 4 Dino Bartomucci · CC BY-SA 3.0",
+  "image_kind": "Photograph",
+  "photo": "images/ferdinand-marcos-photo.jpg",
+  "photo_credit": "derivative work: Bluemask Spec. 4 Dino Bartomucci · CC BY-SA 3.0",
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Republic of the Philippines"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
+        "Republic of the Philippines"
+      ],
+      "birthplace": [
+        "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
+      ]
+    },
+    "lead": "Ferdinand Emmanuel Edralin Marcos Sr. (September 11, 1917 – September 28, 1989) was a Filipino lawyer and politician who served as the tenth president of the Philippines from 1965 to 1986. From 1972 to 1981, Marcos ruled the Philippines under martial law, embracing a policy of \"constitutional authoritarianism.\" Following the lifting of martial law in 1981, a wide-ranging economic crisis, and the assassination of Ninoy Aquino, Marcos was deposed in 1986 by the People Power Revolution and was succeeded as president by Aquino's widow, Corazon Aquino. He was also the father of Bongbong Marcos, the incumbent president of the Philippines since 2022.",
+    "image": "",
+    "photo": "model 0.85, one person 0.82, captured 1982, during their lifetime",
+    "birth": {
+      "location": [
+        120.6447,
+        18.1578
+      ],
+      "year": 1917
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "Q42985",
+  "slug": "ivan-pavlov",
+  "name": "Ivan Pavlov",
+  "wikipedia": "Ivan Pavlov",
+  "role": "Russian physiologist",
+  "life": "1849–1936",
+  "lifetime": [
+    1849,
+    1936
+  ],
+  "occupation": "Biologist",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire",
+    "Union of Soviet Socialist Republics"
+  ],
+  "related": [],
+  "contribution": "A Russian and Soviet experimental neurologist and physiologist known for his discovery of classical conditioning through his experiments with dogs.",
+  "setting": "",
+  "modern_country": "Russia",
+  "image": "images/ivan-pavlov.jpg",
+  "image_credit": "Unknown author · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/ivan-pavlov-photo.jpg",
+  "photo_credit": "Unknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "citizenship": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "birthplace": [
+        "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Ivan Petrovich Pavlov (Russian: Иван Петрович Павлов, IPA: [ɪˈvan pʲɪˈtrovʲɪtɕ ˈpavləf] ; 26 September [O.S. 14 September] 1849 – 27 February 1936) was a Russian and Soviet experimental neurologist and physiologist known for his discovery of classical conditioning through his experiments with dogs. Pavlov also conducted significant research on the physiology of digestion, for which he was awarded the Nobel Prize in Physiology or Medicine in 1904.",
+    "image": "",
+    "photo": "model 0.98, one person 0.99",
+    "birth": {
+      "location": [
+        39.7425,
+        54.63
+      ],
+      "year": 1849
+    }
+  }
+}

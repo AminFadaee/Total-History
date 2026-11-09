@@ -1,0 +1,52 @@
+{
+  "id": "Q4441",
+  "slug": "emily-dickinson",
+  "name": "Emily Dickinson",
+  "wikipedia": "Emily Dickinson",
+  "role": "American poet",
+  "life": "1830–1886",
+  "lifetime": [
+    1830,
+    1886
+  ],
+  "occupation": "Writer",
+  "birth_country": "United States",
+  "civilizations": [
+    "United States of America"
+  ],
+  "related": [],
+  "contribution": "Largely unpublished and unknown during her lifetime, her work is now widely regarded as canonical.",
+  "setting": "",
+  "modern_country": "United States",
+  "image": "images/emily-dickinson.jpg",
+  "image_credit": "Unknown author · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/emily-dickinson-photo.jpg",
+  "photo_credit": "Unknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
+        "United States of America"
+      ],
+      "birthplace": [
+        "United States of America"
+      ],
+      "born_in": [
+        "United States of America"
+      ]
+    },
+    "lead": "Emily Elizabeth Dickinson (December 10, 1830 – May 15, 1886) was an American poet. Largely unpublished and unknown during her lifetime, her work is now widely regarded as canonical. The Poetry Foundation describes her as having \"created in her writing a distinctively elliptical language for expressing what was possible but not yet realized.\"",
+    "image": "",
+    "photo": "model 0.88, one person 0.99, in Category:Daguerreotype portraits",
+    "birth": {
+      "location": [
+        -72.51666667,
+        42.38333333
+      ],
+      "year": 1830
+    }
+  }
+}

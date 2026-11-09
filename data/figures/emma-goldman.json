@@ -1,0 +1,62 @@
+{
+  "id": "Q79969",
+  "slug": "emma-goldman",
+  "name": "Emma Goldman",
+  "wikipedia": "Emma Goldman",
+  "role": "Russian-born anarchist",
+  "life": "1869–1940",
+  "lifetime": [
+    1869,
+    1940
+  ],
+  "occupation": "Social activist",
+  "birth_country": "Lithuania",
+  "civilizations": [
+    "Russian Empire",
+    "United States of America"
+  ],
+  "related": [
+    "Union of Soviet Socialist Republics"
+  ],
+  "contribution": "A Russian-born anarchist revolutionary, political activist, and writer.",
+  "setting": "",
+  "modern_country": "Lithuania",
+  "image": "images/emma-goldman.jpg",
+  "image_credit": "Takuma Kajiwara · Public domain",
+  "image_kind": "Photograph",
+  "photo": "images/emma-goldman-photo.jpg",
+  "photo_credit": "Takuma Kajiwara · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "United States of America"
+      ],
+      "lead": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "citizenship": [
+        "Russian Empire",
+        "United States of America",
+        "United Kingdom",
+        "French Third Republic"
+      ],
+      "birthplace": [
+        "Russian Empire"
+      ],
+      "born_in": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Emma Goldman (June 27, 1869 – May 14, 1940) was a Russian-born anarchist revolutionary, political activist, and writer. She played a pivotal role in the development of anarchist political philosophy in North America and Europe in the first half of the 20th century.",
+    "image": "",
+    "photo": "model 0.84, one person 0.98, captured 1911, during their lifetime",
+    "birth": {
+      "location": [
+        23.88611111,
+        54.89722222
+      ],
+      "year": 1869
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "Q7226",
+  "slug": "joan-of-arc",
+  "name": "Joan of Arc",
+  "wikipedia": "Joan of Arc",
+  "role": "French folk heroine and saint",
+  "life": "c. 1412–1431",
+  "lifetime": [
+    1412,
+    1431
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France",
+    "Holy Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A patron saint of France, honored as a defender of the French nation for her role in the siege of Orléans and securing the coronation of Charles VII of France during the Hundred Years' War.",
+  "setting": "",
+  "modern_country": "",
+  "image": "images/joan-of-arc.jpg",
+  "image_credit": "Clément de Fauquembergue · Public domain",
+  "image_kind": "Portrait from life",
+  "photo": "",
+  "photo_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of England"
+      ],
+      "citizenship": [
+        "Kingdom of France"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
+      ],
+      "born_in": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Joan of Arc (French: Jeanne d'Arc [ʒan daʁk] ; Middle French: Jehanne Darc [ʒəˈãnə ˈdark]; c. 1412 – 30 May 1431) is a patron saint of France, honored as a defender of the French nation for her role in the siege of Orléans and securing the coronation of Charles VII of France during the Hundred Years' War. Claiming to be acting under divine guidance, she became a military leader who gained recognition as a savior of France.",
+    "image": "",
+    "photo": "no death year in or after 1860",
+    "birth": {
+      "location": [
+        5.6758,
+        48.4431
+      ],
+      "year": 1412
+    }
+  }
+}

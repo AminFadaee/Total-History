@@ -1,0 +1,54 @@
+{
+  "id": "Q83326",
+  "slug": "bela-bartok",
+  "name": "Béla Bartók",
+  "wikipedia": "Béla Bartók",
+  "role": "Hungarian composer",
+  "life": "1881–1945",
+  "lifetime": [
+    1881,
+    1945
+  ],
+  "occupation": "Composer",
+  "birth_country": "Romania",
+  "civilizations": [
+    "Austria-Hungary",
+    "United States of America"
+  ],
+  "related": [],
+  "contribution": "A Hungarian composer, pianist and ethnomusicologist.",
+  "setting": "",
+  "modern_country": "Romania",
+  "image": "images/bela-bartok.jpg",
+  "image_credit": "RIA Novosti · CC BY-SA 3.0",
+  "image_kind": "Photograph",
+  "photo": "images/bela-bartok-photo.jpg",
+  "photo_credit": "RIA Novosti · CC BY-SA 3.0",
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
+        "Hungarian Republic",
+        "United States of America"
+      ],
+      "birthplace": [
+        "Austria-Hungary"
+      ],
+      "born_in": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Béla Viktor János Bartók (; Hungarian: [ˈbɒrtoːk ˈbeːlɒ]; 25 March 1881 – 26 September 1945) was a Hungarian composer, pianist and ethnomusicologist. He is considered one of the most important composers of the 20th century; he and Franz Liszt are regarded as Hungary's greatest composers. Among his notable works are the opera Bluebeard's Castle, the ballet The Miraculous Mandarin, Music for Strings, Percussion and Celesta, the Concerto for Orchestra and six string quartets. Through his collection and analytical study of folk music, he was one of the founders of comparative musicology, which later became known as ethnomusicology. Per Anthony Tommasini, Bartók \"has empowered generations of subsequent composers to incorporate folk music and classical traditions from whatever culture into their works,\" and was \"a formidable modernist who in the face of Schoenberg’s breathtaking formulations showed another way, forging a language that was an amalgam of tonality, unorthodox scales and atonal wanderings.\" His work is often described as being a combination of traditional peasants' folk music and avant-garde music.",
+    "image": "",
+    "photo": "model 0.90, one person 0.99, in Category:Portrait photographs of Béla Bartók",
+    "birth": {
+      "location": [
+        20.6125,
+        46.06361111
+      ],
+      "year": 1881
+    }
+  }
+}
