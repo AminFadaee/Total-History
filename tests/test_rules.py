@@ -49,7 +49,7 @@ def years(*values: int) -> list[Year]:
 
 @pytest.mark.parametrize("birth, death, span", [
     (years(1638), years(1715), (1638, 1715)), ([], years(453), (383, 453)), (years(1205), [], (1205, 1275)),
-    (years(-499), years(453), (383, 453)), ([], [], None),
+    (years(-499), years(453), (383, 453)), ([], [], None), (years(-250), years(-257), (-327, -257)),
 ])
 def test_lifetime(birth, death, span):
     assert lifetime(birth, death) == span

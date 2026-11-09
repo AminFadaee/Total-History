@@ -98,10 +98,11 @@ class Figure:
 
 
 def lifetime(birth: list[Year], death: list[Year]) -> tuple[int, int] | None:
-    """The years a person lived; a birth that would make the life longer than 120 years is set aside, as life_label does."""
+    """The years a person lived; a birth that would make the life longer than 120 years, or that falls after the death
+    (Bai Qi, born 250 and dead 257 BC by Wikidata), is set aside, as life_label does."""
     if not birth and not death:
         return None
-    if birth and death and max(year.latest for year in death) - min(year.earliest for year in birth) > MAX_LIFE_YEARS:
+    if birth and death and not 0 <= max(year.latest for year in death) - min(year.earliest for year in birth) <= MAX_LIFE_YEARS:
         return lifetime([], death)
     start = min(year.earliest for year in birth) if birth else min(year.earliest for year in death) - ASSUMED_LIFESPAN
     end = max(year.latest for year in death) if death else max(year.latest for year in birth) + ASSUMED_LIFESPAN
@@ -111,7 +112,7 @@ def lifetime(birth: list[Year], death: list[Year]) -> tuple[int, int] | None:
 def life_label(birth: list[Year], death: list[Year]) -> str:
     """'550–330 BC', or 'died 1357' when the birth is unknown or would make a life longer than 120 years, as for
     kings of Aksum whose birth Wikidata gives a thousand years early, or 'born 1205' when the death is unknown."""
-    if birth and death and death[0].latest - birth[0].earliest <= MAX_LIFE_YEARS:
+    if birth and death and 0 <= death[0].latest - birth[0].earliest <= MAX_LIFE_YEARS:
         return period_label(birth[0].as_span(), death[0].as_span())
     if death:
         return f"died {death[0].as_span().label()}"
