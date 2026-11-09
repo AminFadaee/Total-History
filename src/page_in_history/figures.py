@@ -2,6 +2,8 @@ import logging
 import math
 import re
 from collections import Counter
+
+import pandas as pd
 from dataclasses import asdict, dataclass, field
 
 from shapely.geometry import Point
@@ -39,6 +41,8 @@ MIN_LANGUAGES = 10
 RENOWNED_LANGUAGES = 90
 SECOND_PASS_PEOPLE = 30
 MAX_COMPOSERS = 20
+LOCAL_TOP = 20
+LISTED_LEVEL = 4
 COMPOSER = "COMPOSER"
 ADULT_AGE = 20
 POST_WAR = 1945
@@ -172,6 +176,8 @@ class FigureBuilder:
         self.countries = None
         self.births: dict[str, Birth | None] = {}
         self.voted: dict[str, list[str]] = {}
+        self.listed: set[str] = set()
+        self.important: set[str] = set()
         self.overrides = {(override.figure_id, override.field): override for override in overrides}
         self.drawn: dict[int, object] = {}
         for state in catalog.by_qid:
@@ -315,7 +321,9 @@ class FigureBuilder:
         state, and each is split into eras of at most 150 years, so its people compete with their own contemporaries. In each such
         segment people are ranked by the database's visibility score; chosen are those among the first 60 of their
         region and period, the segment's best person always, and anyone on Meta-Wiki's list of 1,000 articles, at most
-        25 a segment. Composers are capped at 20 across the deck. Someone with a Wikipedia article in fewer than 10
+        25 a segment, and beyond that anyone important: on Meta-Wiki's list or Vital Articles level 3 or 4, or among
+        the first 20 of their region and period by both the database and Pantheon (see _locally_important). Composers
+        are capped at 20 across the deck, the important ones aside. Someone with a Wikipedia article in fewer than 10
         languages is left out, unless on Meta-Wiki's list: such people are known only to specialists."""
         segments: dict[tuple[str, int], list[Candidate]] = {}
         for candidate, civilizations in placed:
@@ -328,12 +336,14 @@ class FigureBuilder:
             ranked = sorted(people, key=lambda candidate: -candidate.score)
             wanted = [candidate for index, candidate in enumerate(ranked)
                       if index == 0 or candidate.core or (candidate.cell_rank and candidate.cell_rank <= per_cell)]
-            kept = wanted[:MAX_PER_SEGMENT] + [candidate for candidate in wanted[MAX_PER_SEGMENT:] if candidate.core]
+            kept = wanted[:MAX_PER_SEGMENT] + [candidate for candidate in wanted[MAX_PER_SEGMENT:]
+                                               if candidate.person.id in self.important]
             for candidate in kept:
                 chosen[candidate.person.id] = (candidate, home)
         composers = sorted((candidate for candidate, *_ in chosen.values() if self._occupation(candidate) == COMPOSER),
                            key=lambda candidate: -candidate.score)
-        return set(chosen) - {candidate.person.id for candidate in composers[MAX_COMPOSERS:]}
+        return set(chosen) - {candidate.person.id for candidate in composers[MAX_COMPOSERS:]
+                              if candidate.person.id not in self.important}
 
     def _window(self, home: str, candidate: Candidate) -> int:
         first, last = self.catalog.years(self.catalog.identities[home].qid)
@@ -434,6 +444,7 @@ class FigureBuilder:
         pool = notable.pool(self.frame, POST_WAR, ADULT_AGE, self.per_cell)
         core = {entry.qid for entry in vital.essential_people(self.http) if entry.list == CORE_LIST}
         self.sections = self._vital_sections()
+        self.important = core | self.listed | self._locally_important()
         ranks = {qid: int(rank) for qid, rank in pool.cell_rank.items()}
         qids = list(dict.fromkeys(list(pool.index) + sorted(core)))
         self.languages.update(self.wikidata.language_editions(qids))
@@ -463,8 +474,22 @@ class FigureBuilder:
         placement vote."""
         entries = vital.people(self.http, self.wikipedia)
         pages = self.wikipedia.resolve([entry.title for entry in entries])
-        return {pages[entry.title].qid: entry.section.split(" > ") for entry in entries
-                if entry.title in pages and pages[entry.title].qid}
+        found = [(pages[entry.title].qid, entry) for entry in entries if entry.title in pages and pages[entry.title].qid]
+        self.listed = {qid for qid, entry in found if entry.level <= LISTED_LEVEL}
+        return {qid: entry.section.split(" > ") for qid, entry in found}
+
+    def _locally_important(self) -> set[str]:
+        """People among the first 20 of their region and period both by the database's visibility score and by
+        Pantheon's popularity, two independent rankings that each compare people only with their contemporaries and
+        neighbours, so leading figures of Central Asia count as Lermontov does for Russia."""
+        adults = notable.adults(self.frame, POST_WAR, ADULT_AGE)
+        cells = ["region", "period"]
+        visible = adults.groupby(cells).score.rank(ascending=False, method="first")
+        popular = adults.join(pd.Series({qid: person.popularity for qid, person in self.pantheon.items()
+                                         if person.popularity is not None and person.occupation not in EXCLUDED_OCCUPATIONS},
+                                        name="popularity"), how="inner")
+        popular = popular.groupby(cells).popularity.rank(ascending=False, method="first")
+        return set(visible.index[visible <= LOCAL_TOP]) & set(popular.index[popular <= LOCAL_TOP])
 
     def _excluded(self, person: Entity) -> bool:
         found = self.pantheon.get(person.id)

@@ -209,7 +209,11 @@ cards rather than deleting them: deleted cards come back when you import an upda
    two, and people compete only with their contemporaries.
 7. **Figures.** Within each segment, people are ranked by the database's visibility score. Chosen are the candidates
    from step 3, the segment's best person even when they are not one, and anyone on Meta-Wiki's list, at most 25 a
-   segment. Composers are capped at 20 across the deck. Someone whose Wikipedia article exists in fewer than 10
+   segment, and beyond that anyone important: on Meta-Wiki's list or Vital Articles level 3 or 4, or among the first 20
+   of their region and period by both the database and Pantheon, two rankings that each compare people only with
+   their contemporaries, so Lermontov counts for Russia as Kurmangazy does for Central Asia. A crowded segment grows
+   for its important people and nobody is pushed out. Composers are capped at 20 across the deck, the important ones
+   aside. Someone whose Wikipedia article exists in fewer than 10
    languages is left out unless they are on Meta-Wiki's list: such people are known mostly to specialists.
 8. **Civilizations still empty.** For each deck civilization with no figure after step 7, the database's 30
    highest-scored people from the regions under its largest extent (and those it files under no region), whose adult
