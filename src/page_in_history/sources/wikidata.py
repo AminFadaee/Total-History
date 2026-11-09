@@ -33,12 +33,16 @@ class Year:
 
     @property
     def earliest(self) -> int:
-        """Wikidata stores the 1180s as 1180 and the 190s BC as -190, but the 3rd century as 300 and the 6th
-        century BC as -600; a millennium BC is the one holding the year, so -500 is the 1st millennium BC."""
+        """Wikidata stores the 1180s as 1180 and the 190s BC as -190; a century is the one holding the year, which
+        Wikidata often gives as the century's last (300 for the 3rd century, -600 for the 6th century BC) but not
+        always (1240 for Fibonacci's death in the 13th century); a millennium BC is the one holding the year, so -500
+        is the 1st millennium BC."""
         if self.span == 1:
             return self.value
         if self.span == 10:
             return self.value if self.value > 0 else self.value - 9
+        if self.span == 100:
+            return (self.value - 1) // 100 * 100 + 1 if self.value > 0 else -((-self.value - 1) // 100 + 1) * 100
         if self.span == 1000 and self.value < 0:
             return -((-self.value - 1) // 1000 + 1) * 1000
         return self.value - self.span + 1 if self.value > 0 else self.value

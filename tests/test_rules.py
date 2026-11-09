@@ -216,3 +216,8 @@ def test_a_birth_needs_two_sources_on_place_and_year(places, years, birth):
 ])
 def test_modern_country_follows_the_first_state(names, country, shown):
     assert with_modern_country(names, {"modern_country": country}) == shown
+
+
+@pytest.mark.parametrize("value, earliest", [(300, 201), (1240, 1201), (901, 901), (-600, -600), (-550, -600), (-1, -100)])
+def test_a_century_is_the_one_holding_the_year(value, earliest):
+    assert Year(value, YEAR_PRECISION - 2, False).earliest == earliest
