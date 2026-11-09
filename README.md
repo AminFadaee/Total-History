@@ -193,7 +193,7 @@ cards rather than deleting them: deleted cards come back when you import an upda
    Eastern Asia or West Africa) in one period of birth (before 500, 500–1500, 1500–1750, 1750–1900, after 1900). Within
    each cell people are ranked by the database's visibility score, and the first 60 of every cell are candidates, so
    every part of the world and of history brings the same number and the many recent figures do not crowd out the few
-   ancient ones. Everyone on Meta-Wiki's list of 1,000 is a candidate too. Left out: people whose adult life began in 1945 or later, people who died before 20, sport, business and entertainment,
+   ancient ones. Everyone on Meta-Wiki's list of 1,000 is a candidate too. Left out: people whose adult life began in 1945 or later (someone who died before 20, as Joan of Arc, is placed over their whole life), sport, business and entertainment,
    and figures Wikidata files as legendary rather than human (Moses; Jesus is filed as both).
 4. **Placement.** Each candidate is tied to the civilizations they belonged to as an adult, from seven sources
    (offices, categories, citizenship, the Vital Articles section, place of death, birthplace and the links in their

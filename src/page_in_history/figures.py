@@ -428,7 +428,7 @@ class FigureBuilder:
         """The first people of every region and period in the cross-verified database of notable people, and
         everyone on Meta-Wiki's core list of 1,000 articles every Wikipedia should have, so no essential figure depends
         on the database alone. Left out: people whose adult life began after the Second World War, since the deck is
-        about history; people who died before 20, who had no adult life to place; sport, business and entertainment; and figures Wikidata files as legendary and not as human,
+        about history (someone who died young, as Joan of Arc, is placed over their whole life); sport, business and entertainment; and figures Wikidata files as legendary and not as human,
         such as Moses (Jesus is filed as both)."""
         self.frame = notable.load(self.http)
         pool = notable.pool(self.frame, POST_WAR, ADULT_AGE, self.per_cell)
@@ -450,7 +450,7 @@ class FigureBuilder:
                 continue
             seen.add(person.id)
             span = lifetime(person.years("P569"), person.years("P570"))
-            if span and span[0] + ADULT_AGE < POST_WAR and span[1] >= span[0] + ADULT_AGE:
+            if span and span[0] + ADULT_AGE < POST_WAR:
                 score = float(self.frame.score.get(qid, 0.0))
                 region = notable.region_name(self.frame.region.get(qid, notable.UNKNOWN_REGION))
                 renowned = qid not in core and qid in ranks and self.languages.get(qid, 0) >= RENOWNED_LANGUAGES
