@@ -14853,3 +14853,39 @@ source = "https://en.wikipedia.org/wiki/Silla"
 quote = "was a Korean kingdom that existed between 57 BCE and 935 CE and was located on the southern and central parts of the Korean Peninsula."
 retrieved = 2026-11-08
 note = "the opening sentence without its dates: the deck ends Silla at 668, where Unified Silla begins"
+
+[[override]]
+civilization = "Saxons"
+civilization_id = "Q101985"
+field = "tier"
+action = "set"
+value = "Extended"
+note = "Continental Saxons are mainly known through resistance to Charlemagne's conquest; a regional tribal confederation closer to Burgundians than to Lombards, and Anglo-Saxon England is separate."
+retrieved = 2026-11-09
+
+[[override]]
+civilization = "Chaldea"
+civilization_id = "Q200969"
+field = "tier"
+action = "set"
+value = "Extended"
+note = "Chaldeans are best known as the dynasty of the Neo-Babylonian Empire, which is a separate deck entry, so this is largely duplicate coverage of a tribal region."
+retrieved = 2026-11-09
+
+[[override]]
+civilization = "Land of Punt"
+civilization_id = "Q282350"
+field = "tier"
+action = "set"
+value = "Extended"
+note = "Known only from Egyptian trade expeditions (Hatshepsut), its location is uncertain and it left no own records; similar in weight to Nabataeans and Hyksos."
+retrieved = 2026-11-09
+
+[[override]]
+civilization = "Scandinavian minor kingdoms"
+civilization_id = "Q213649"
+field = "tier"
+action = "set"
+value = "Extended"
+note = "Near-duplicate of Viking settlements in coverage, and petty kingdoms are by nature minor; keep the single Core Viking entry and let this be suspended."
+retrieved = 2026-11-09

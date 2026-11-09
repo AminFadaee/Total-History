@@ -8880,6 +8880,30 @@
       "field": "summary",
       "action": "set",
       "value": "A Korean kingdom located on the southern and central parts of the Korean Peninsula."
+    },
+    {
+      "civilization": "Saxons",
+      "field": "tier",
+      "action": "set",
+      "value": "Extended"
+    },
+    {
+      "civilization": "Chaldea",
+      "field": "tier",
+      "action": "set",
+      "value": "Extended"
+    },
+    {
+      "civilization": "Land of Punt",
+      "field": "tier",
+      "action": "set",
+      "value": "Extended"
+    },
+    {
+      "civilization": "Scandinavian minor kingdoms",
+      "field": "tier",
+      "action": "set",
+      "value": "Extended"
     }
   ],
   "needs_verification": [],
