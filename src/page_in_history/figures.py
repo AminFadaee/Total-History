@@ -42,6 +42,12 @@ RENOWNED_LANGUAGES = 90
 SECOND_PASS_PEOPLE = 30
 MAX_COMPOSERS = 20
 LOCAL_TOP = 20
+RELATIVE_MAX_LANGUAGES = 15
+OFFICE_RUN_KEEP = 2
+RELATIVE_ROLE = re.compile(r"\b(consort|princess|prince|duchess|countess|wife of|mother of|daughter of|son of|queen mother|"
+                           r"royal family|grand duchess|archduchess|landgravine|margravine|electress)\b", re.IGNORECASE)
+RULING_ROLE = re.compile(r"\b(king|emperor|sultan|shah|khan|regent|ruler|president|prime minister)\b", re.IGNORECASE)
+OFFICE_ROLE = re.compile(r"^(president|prime minister|governor[- ]general|premier|head of state|chancellor)\b", re.IGNORECASE)
 LISTED_LEVEL = 4
 COMPOSER = "COMPOSER"
 ADULT_AGE = 20
@@ -230,7 +236,30 @@ class FigureBuilder:
         outside = [entry for entry in placed if entry[0].essential and not entry[1]]
         logger.info("%d people placed in a state, %d chosen, and %d essential people placed in none",
                     len(figures), len(chosen), len(outside))
-        return self._assemble([entry for entry in figures if entry[0].person.id in chosen] + outside, deck)
+        return self._trim(self._assemble([entry for entry in figures if entry[0].person.id in chosen] + outside, deck), deck)
+
+    def _trim(self, figures: list[Figure], deck: set[str]) -> list[Figure]:
+        """Two kinds of fill are left out, never touching anyone important, anyone on a Vital Articles list, or a
+        civilization's only figure: royal relatives with no rule of their own known in fewer than 15 languages (minor
+        princesses and consorts), and beyond the best-known two, the unlisted holders of one office of one state
+        (the fifth Liberian president)."""
+        homes = Counter(self._home(figure.civilizations, deck) for figure in figures)
+        spared = lambda figure: (figure.id in self.important or figure.id in self.sections
+                                 or homes[self._home(figure.civilizations, deck)] == 1)
+        trimmed = {figure.id for figure in figures if not spared(figure) and RELATIVE_ROLE.search(figure.role)
+                   and not RULING_ROLE.search(figure.role) and self.languages.get(figure.id, 0) < RELATIVE_MAX_LANGUAGES}
+        runs: dict[tuple, list[Figure]] = {}
+        for figure in figures:
+            if not spared(figure) and (office := OFFICE_ROLE.match(figure.role)):
+                runs.setdefault((self._home(figure.civilizations, deck), office.group(1).lower()), []).append(figure)
+        for holders in runs.values():
+            ranked = sorted(holders, key=lambda figure: -self.languages.get(figure.id, 0))
+            trimmed |= {figure.id for figure in ranked[OFFICE_RUN_KEEP:]}
+        self.extended += [{"id": figure.id, "name": figure.wikipedia, "civilization": home} for figure in figures
+                          if figure.id in trimmed and (home := self._home(figure.civilizations, deck)) in deck]
+        logger.info("Left out %d figures as fill: %s", len(trimmed),
+                    ", ".join(figure.name for figure in figures if figure.id in trimmed))
+        return [figure for figure in figures if figure.id not in trimmed]
 
     @staticmethod
     def _home(civilizations: list[str], deck: set[str]) -> str | None:

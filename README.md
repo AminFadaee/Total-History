@@ -215,7 +215,10 @@ cards rather than deleting them: deleted cards come back when you import an upda
    of their region and period by both the database and Pantheon, two rankings that each compare people only with
    their contemporaries, so Lermontov counts for Russia as Kurmangazy does for Central Asia. A crowded segment grows
    for its important people and nobody is pushed out. Composers are capped at 20 across the deck, the important ones
-   aside. Someone whose Wikipedia article exists in fewer than 10
+   aside. Two kinds of fill are then left out, never anyone important, anyone on a Vital Articles list or a
+   civilization's only figure: royal relatives with no rule of their own known in fewer than 15 languages (minor
+   princesses and consorts), and beyond the best-known two, the unlisted holders of one office of one state (the
+   fifth Liberian president). Someone whose Wikipedia article exists in fewer than 10
    languages is left out unless they are on Meta-Wiki's list: such people are known mostly to specialists.
 8. **Civilizations still empty.** For each deck civilization with no figure after step 7, the database's 30
    highest-scored people from the regions under its largest extent (and those it files under no region), whose adult
