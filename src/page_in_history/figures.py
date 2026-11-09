@@ -63,6 +63,7 @@ HEAD_OFFICES = ("P1906", "P1313")
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
 SAME_LAND_BEFORE_BIRTH = 100
 SAME_LAND_STEP = 5
+OCCUPATION_YEARS = 5
 LEADING_CENTURY = re.compile(r"^(?:c\.\s*)?\d+(?:st|nd|rd|th)[- ]century(?:[- ](?:BCE?|AD|CE))?[- ]+", re.IGNORECASE)
 DATES_IN_PARENTHESES = re.compile(r"\s*\([^()]*\d[^()]*\)")
 TRAILING_YEAR = re.compile(r",\s*(?:c\.\s*)?\d{1,4}\s*(?:BCE?|AD|CE)?\s*$")
@@ -184,6 +185,8 @@ class FigureBuilder:
         self.births: dict[str, Birth | None] = {}
         self.voted: dict[str, list[str]] = {}
         self.listed: set[str] = set()
+        self.office_first: set[str] = set()
+        self.member_of: dict[str, set[str]] = {}
         self.important: set[str] = set()
         self.overrides = {(override.figure_id, override.field): override for override in overrides}
         self.drawn: dict[int, object] = {}
@@ -218,14 +221,16 @@ class FigureBuilder:
         placed = [(candidate, *self.civilizations(candidate)) for candidate in candidates]
         self.joined = self.people_backed(placed, polity_names)
         deck = polity_names | set(self.joined)
+        self._ruled_homes(placed, deck)
         figures = [entry for entry in placed if entry[1]]
         chosen = self.select([(candidate, civilizations) for candidate, civilizations, *_ in figures], deck)
         homes = {self._home(civilizations, deck) for candidate, civilizations, *_ in figures
                  if candidate.person.id in chosen}
         empty = deck - homes
         known = {candidate.person.id for candidate in candidates}
-        filling = [entry for entry in self._second_pass(empty, known, start, end)
-                   if entry[1] and self._home(entry[1], deck) in empty]
+        second = self._second_pass(empty, known, start, end)
+        self._ruled_homes(second, deck)
+        filling = [entry for entry in second if entry[1] and self._home(entry[1], deck) in empty]
         chosen |= self.select([(candidate, civilizations) for candidate, civilizations, *_ in filling], deck, per_cell=0)
         figures += filling
         filled = {self._home(civilizations, deck) for candidate, civilizations, *_ in filling
@@ -261,6 +266,19 @@ class FigureBuilder:
         logger.info("Left out %d figures as fill: %s", len(trimmed),
                     ", ".join(figure.name for figure in figures if figure.id in trimmed))
         return [figure for figure in figures if figure.id not in trimmed]
+
+    def _ruled_homes(self, placed: list[tuple], deck: set[str]) -> None:
+        """Someone whose first state is one they held office in or ruled belongs to it even when it has no
+        civilization card, when no source says they belonged to any of their deck civilizations (an office,
+        citizenship, category or Vital Articles section); those become related ones, so a deck civilization from
+        their place of death or an opening link does not take them (Marcos, President of the Philippines, not the
+        United States, where he died)."""
+        for candidate, civilizations, related, *_ in placed:
+            qid = candidate.person.id
+            if qid in self.office_first and civilizations and civilizations[0] not in deck \
+                    and not self.member_of.get(qid, set()) & (set(civilizations[1:]) & deck):
+                related[:] = list(dict.fromkeys(related + civilizations[1:]))
+                del civilizations[1:]
 
     @staticmethod
     def _home(civilizations: list[str], deck: set[str]) -> str | None:
@@ -608,6 +626,9 @@ class FigureBuilder:
         confirmed = self._rulers_first(confirmed, headed)
         self.voted[person.id] = [self.catalog.by_qid[qid].name for qid in confirmed]
         confirmed = self._by_birthplace(candidate, confirmed, sources, headed)
+        if confirmed and (confirmed[0] in sources["office"] or headed[confirmed[0]] > 0):
+            self.office_first.add(person.id)
+        self.member_of[person.id] = {self.catalog.by_qid[qid].name for qid in member}
         if override := self.overrides.get((person.id, "civilization")):
             if self.catalog.by_qid.get(override.value_id) is None or self.catalog.by_qid[override.value_id].name != override.value:
                 raise ValueError(f"Figure override names a state that is not in the catalogue: {override.value}")
@@ -616,7 +637,7 @@ class FigureBuilder:
         names = self.catalog.by_qid
         readable = {source: [names[qid].name for qid in qids] for source, qids in sources.items() if qids}
         if birth := self.births.get(person.id):
-            readable["born_in"] = [names[qid].name for qid in self._states_at(birth.location, birth.year)]
+            readable["born_in"] = [names[qid].name for qid in self._states_at(birth.location, birth.year, lasting=True)]
         return [names[qid].name for qid in confirmed], [names[qid].name for qid in related], readable
 
     def _by_birthplace(self, candidate: Candidate, confirmed: list[str], sources: dict, headed: Counter) -> list[str]:
@@ -628,7 +649,7 @@ class FigureBuilder:
         adds nothing, so a ruled state without a civilization card is not displaced by a birth state that has one (Ibn
         Saud's Kingdom of Saudi Arabia, not the Emirate of Nejd)."""
         birth = self.births[candidate.person.id] = self._birth(candidate)
-        born = self._states_at(birth.location, birth.year) if birth else []
+        born = self._states_at(birth.location, birth.year, lasting=True) if birth else []
         if not born:
             return confirmed
         if confirmed and (confirmed[0] in sources["office"] or any(years > 0 for years in headed.values())
@@ -668,7 +689,7 @@ class FigureBuilder:
 
     def _same_land(self, qid: str, birth: Birth, adulthood: tuple[int, int]) -> bool:
         years = range(birth.year - SAME_LAND_BEFORE_BIRTH, max(adulthood[1], birth.year) + 1, SAME_LAND_STEP)
-        return any(qid in self._states_at(birth.location, year) for year in years)
+        return any(qid in self._states_at(birth.location, year, lasting=True) for year in years)
 
     @staticmethod
     def _rulers_first(confirmed: list[str], headed: Counter) -> list[str]:
@@ -742,13 +763,29 @@ class FigureBuilder:
             return []
         return self._states_at(found.birthplace, found.birth_year)
 
-    def _states_at(self, location: tuple[float, float], year: int) -> list[str]:
-        """The states drawn at the point in the year, smallest first."""
+    def _states_at(self, location: tuple[float, float], year: int, lasting: bool = False) -> list[str]:
+        """The states drawn at the point in the year, smallest first; with lasting, only those that held it for more
+        than five years running, so an occupation (the American zone of Germany, the American occupation of Cuba) is
+        not taken for the state of a birthplace."""
         if year not in self.drawn:
             rows = self.cliopatria.at(year)
             self.drawn[year] = rows[rows.Name.isin(self.catalog.identities)].sort_values("Area", kind="stable")
         rows = self.drawn[year]
-        return [self.catalog.identities[name].qid for name in rows.Name[rows.geometry.contains(Point(location))]]
+        names = list(rows.Name[rows.geometry.contains(Point(location))])
+        return [self.catalog.identities[name].qid for name in names
+                if not lasting or self._held_for(name, location, year) > OCCUPATION_YEARS]
+
+    def _held_for(self, name: str, location: tuple[float, float], year: int) -> int:
+        """How many years running the state held the point, through the given year."""
+        rows = self.cliopatria.rows(name)
+        inside = rows[rows.geometry.contains(Point(location))]
+        runs: list[list[int]] = []
+        for first, last in sorted(zip(inside.FromYear, inside.ToYear)):
+            if runs and first <= runs[-1][1] + 1:
+                runs[-1][1] = max(runs[-1][1], last)
+            else:
+                runs.append([first, last])
+        return next((last - first + 1 for first, last in runs if first <= year <= last), 0)
 
     def _modern_country(self, candidate: Candidate, home: str | None) -> str:
         """Today's country at the agreed birthplace, when the person's state held that spot at their birth or later on
@@ -758,7 +795,7 @@ class FigureBuilder:
         if not birth or not home:
             return ""
         qid = self.catalog.identities[home].qid
-        if qid not in self._states_at(birth.location, birth.year) and not self._same_land(qid, birth, candidate.adulthood):
+        if qid not in self._states_at(birth.location, birth.year, lasting=True) and not self._same_land(qid, birth, candidate.adulthood):
             return ""
         if self.countries is None:
             self.countries = naturalearth.countries(self.http)
