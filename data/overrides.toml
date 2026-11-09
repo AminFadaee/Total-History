@@ -14889,3 +14889,21 @@ action = "set"
 value = "Extended"
 note = "Near-duplicate of Viking settlements in coverage, and petty kingdoms are by nature minor; keep the single Core Viking entry and let this be suspended."
 retrieved = 2026-11-09
+
+[[override]]
+civilization = "Troy"
+civilization_id = "Q22647"
+field = "tier"
+action = "set"
+value = "Extended"
+note = "Kept Extended as the outside reviews' tier fit set it (tests/review_cases.toml): a city rather than a state, known mostly through the Homeric tradition."
+retrieved = 2026-11-09
+
+[[override]]
+civilization = "Ugarit"
+civilization_id = "Q191369"
+field = "tier"
+action = "set"
+value = "Extended"
+note = "Kept Extended as the outside reviews' tier fit set it (tests/review_cases.toml): a single Late Bronze Age city-state."
+retrieved = 2026-11-09

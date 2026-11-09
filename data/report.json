@@ -8904,6 +8904,18 @@
       "field": "tier",
       "action": "set",
       "value": "Extended"
+    },
+    {
+      "civilization": "Troy",
+      "field": "tier",
+      "action": "set",
+      "value": "Extended"
+    },
+    {
+      "civilization": "Ugarit",
+      "field": "tier",
+      "action": "set",
+      "value": "Extended"
     }
   ],
   "needs_verification": [],
