@@ -85,6 +85,11 @@ def test_period_label_across_the_era():
     assert period_label(start, end) == "27 BC – AD 14"
 
 
+def test_contribution_ends_at_a_stray_comma():
+    paragraph = "Ibn Yunus (c. 950 – 1009) was an Arab and Egyptian astronomer and mathematician,. The Fatimids gave him gifts."
+    assert contribution(paragraph, "Egyptian mathematician", None) == "An Arab and Egyptian astronomer and mathematician."
+
+
 def test_contribution_spaces_words_once():
     paragraph = "Ugarit (/uːˈɡɑːrɪt/) was an ancient city in what is today northern Syria, at a site known in  Arabic as Ras Shamra."
     assert "  " not in contribution(paragraph, "Ugarit", None)

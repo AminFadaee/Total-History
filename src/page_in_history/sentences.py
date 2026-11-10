@@ -81,6 +81,7 @@ def contribution(paragraph: str, role_text: str, description: str | None, min_ne
     ('Concurrently, he was …'), or, past the opening one, opens on family, birth or a name ('He was son of …', 'He is
     numbered as Olaf I') or tells who succeeded whom; else Wikidata's description if it says that much more; else
     nothing."""
+    paragraph = re.sub(r",\s*\.", ".", paragraph)
     candidates = [(predicate(paragraph), True)] + [(sentence, False) for sentence in sentences(paragraph)[1:]]
     text = next((candidate for candidate, opening in candidates
                  if candidate and balanced(candidate) == candidate and not NAME_GLOSS.match(candidate)
