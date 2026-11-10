@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 from page_in_history.overrides import cites
 
-FIELDS = ("civilization", "contribution", "role", "life")
+FIELDS = ("civilization", "contribution", "role", "life", "exclude")
 
 
 @dataclass(frozen=True)
@@ -14,9 +14,9 @@ class FigureOverride:
     figure_id: str
     field: str
     value: str
-    source: str
-    quote: str
-    retrieved: datetime.date
+    source: str = ""
+    quote: str = ""
+    retrieved: datetime.date | None = None
     value_id: str = ""
     page: str = ""
     note: str = ""
@@ -33,9 +33,12 @@ def load_figure_overrides(path: pathlib.Path) -> list[FigureOverride]:
         who = f"{override.figure}, {override.field}"
         if override.field not in FIELDS:
             raise ValueError(f"{who}: a figure override sets one of {', '.join(FIELDS)}")
-        if not cites(override.source, override.page) or not override.quote.strip():
+        if override.field == "exclude":
+            if not override.note.strip():
+                raise ValueError(f"{who}: leaving someone out is an editorial choice and gives its reason in the note")
+        elif not cites(override.source, override.page) or not override.quote.strip():
             raise ValueError(f"{who}: an override cites an https page, or a book with its page, and quotes it")
-        if not isinstance(override.retrieved, datetime.date):
+        if override.field != "exclude" and not isinstance(override.retrieved, datetime.date):
             raise ValueError(f"{who}: an override gives the date its source was read")
         if override.field == "civilization" and not override.value_id:
             raise ValueError(f"{who}: a civilization override gives the state's Wikidata id")

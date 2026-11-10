@@ -21,7 +21,16 @@ retrieved = 2026-11-08
 
 def test_the_deck_overrides_load():
     for override in load_figure_overrides(DATA / "figure_overrides.toml"):
-        assert isinstance(override.retrieved, datetime.date)
+        assert override.note.strip() if override.field == "exclude" else isinstance(override.retrieved, datetime.date)
+
+
+def test_leaving_someone_out_needs_a_reason(tmp_path):
+    path = tmp_path / "figure_overrides.toml"
+    path.write_text('[[figure]]\nfigure = "Longinus"\nfigure_id = "Q1"\nfield = "exclude"\nvalue = "legend"\n')
+    with pytest.raises(ValueError):
+        load_figure_overrides(path)
+    path.write_text(path.read_text() + 'note = "a figure of legend"\n')
+    assert [override.field for override in load_figure_overrides(path)] == ["exclude"]
 
 
 def test_a_well_formed_override_loads(tmp_path):

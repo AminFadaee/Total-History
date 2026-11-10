@@ -239,3 +239,17 @@ value_id = "Q170174"
 source = "https://en.wikipedia.org/wiki/Gian_Lorenzo_Bernini"
 quote = "Once he was brought to Rome, he rarely left its walls"
 retrieved = 2026-11-09
+
+[[figure]]
+figure = "Longinus"
+figure_id = "Q319947"
+field = "exclude"
+value = "legend"
+note = "A figure of Christian legend (the soldier who pierced Jesus with a lance); the deck keeps religious figures only where historians accept the person existed."
+
+[[figure]]
+figure = "Numa Pompilius"
+figure_id = "Q200031"
+field = "exclude"
+value = "legend"
+note = "The legendary second king of Rome; the deck leaves out figures of legend."

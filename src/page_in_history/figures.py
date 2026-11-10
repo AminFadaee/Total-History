@@ -505,7 +505,8 @@ class FigureBuilder:
         candidates, seen = [], set()
         for qid in qids:
             person = people.get(qid)
-            if not person or person.id in seen or not person.enwiki or qid in legendary or self._excluded(person):
+            if not person or person.id in seen or not person.enwiki or qid in legendary or self._excluded(person) \
+                    or (person.id, "exclude") in self.overrides:
                 continue
             seen.add(person.id)
             span = lifetime(person.years("P569"), person.years("P570"))
