@@ -808,9 +808,11 @@ class FigureBuilder:
         return override.value if override else value
 
     def unused_overrides(self, figures: list[Figure]) -> list[FigureOverride]:
-        """Overrides for people the deck does not hold this time, reported rather than applied."""
+        """Overrides for people the deck does not hold this time, reported rather than applied; an exclusion is applied
+        by the person's absence."""
         held = {figure.id for figure in figures}
-        return [override for override in self.overrides.values() if override.figure_id not in held]
+        return [override for override in self.overrides.values()
+                if override.figure_id not in held and override.field != "exclude"]
 
     def _assemble(self, figures: list, deck: set[str]) -> list[Figure]:
         """Each figure under its article's title without the disambiguator ('Fuzuli', not 'Fuzuli (poet)'), kept only

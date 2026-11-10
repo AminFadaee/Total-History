@@ -103,7 +103,8 @@ def sources(data_dir: pathlib.Path) -> dict[tuple[str, str], list[str]]:
         found.setdefault(key, []).extend(source for source in cited if source)
     for entry in tomllib.loads(path.read_text()).get("figure", []) if (path := data_dir / "figure_overrides.toml").exists() else []:
         field = "civilizations" if entry["field"] == "civilization" else entry["field"]
-        found.setdefault((entry["figure"], field), []).append(entry["source"])
+        if entry.get("source"):
+            found.setdefault((entry["figure"], field), []).append(entry["source"])
     return found
 
 
