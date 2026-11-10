@@ -5,7 +5,7 @@
     "end": 2024
   },
   "civilizations": 496,
-  "figures": 3046,
+  "figures": 3047,
   "failures": [],
   "errata_dropped": [
     {
@@ -9047,6 +9047,16 @@
     },
     {
       "figure": "Ancus Marcius",
+      "field": "exclude",
+      "value": "legend"
+    },
+    {
+      "figure": "Albert Einstein",
+      "field": "civilization",
+      "value": "German Empire"
+    },
+    {
+      "figure": "Tullus Hostilius",
       "field": "exclude",
       "value": "legend"
     }

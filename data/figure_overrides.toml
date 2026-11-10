@@ -277,3 +277,10 @@ value_id = "Q43287"
 source = "https://en.wikipedia.org/wiki/Albert_Einstein"
 quote = "Einstein was born in Ulm as a subject to the Kingdom of Württemberg in the German Empire on 14 March 1879."
 retrieved = 2026-11-10
+
+[[figure]]
+figure = "Tullus Hostilius"
+figure_id = "Q200859"
+field = "exclude"
+value = "legend"
+note = "A legendary king of Rome; the deck leaves out figures of legend."
