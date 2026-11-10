@@ -5,7 +5,7 @@ import os
 import pathlib
 import re
 import unicodedata
-from collections.abc import Callable
+from collections.abc import Callable, Iterator
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 
@@ -22,12 +22,13 @@ MAX_SHARED_WORDS = 0.6
 MAX_MENTIONS = 2
 DERIVED = re.compile(r"(?:ian|ians|ean|eans|ist|ists|ism|isms|ismo|ista|istas|ismus|ic|ics|ite|ites|esque)$")
 TAGGED = re.compile(r"citation needed|reference demanded|clarification needed|according to whom|by whom|dubious|"
-                    r"pronunciation|\[|[^\x00-\u024f\u1e00-\u1eff\u2010-\u206f]", re.IGNORECASE)
+                    r"pronunciation|\[|[^\x00-\u024f\u1e00-\u1eff\u2000-\u206f]", re.IGNORECASE)
 NAME_LIST = re.compile(r"this person\W+(?:\w+\W+){0,2}this person|\bas this person\b|"
                        r"this person,? (?:or|also known as|known as|born|né|née) [A-Z]|this person of [A-Z]|"
                        r"pen.?name|referred to as|also called|nicknamed", re.IGNORECASE)
 MIN_WORDS = 6
-POINTING_BACK = re.compile(r"\b(?:the latter|the former|this same|that same|the result)\b", re.IGNORECASE)
+POINTING_BACK = re.compile(r"^(?:He|She|His|Her|Thus|Hence)\b|\b(?:the latter|the former|this same|that same|the result|"
+                           r"as a result)\b", re.IGNORECASE)
 STEM_LETTERS = 5
 PROGRESS_EVERY = 500
 SECTIONS = re.compile(r"legacy|assessment|reputation|historiography|achievements|significance|influence|evaluation|"
@@ -36,6 +37,7 @@ TITLES = {"of", "the", "de", "da", "di", "von", "van", "der", "al", "el", "ibn",
           "emperor", "empress", "king", "queen", "saint", "st", "pope", "sultan", "khan", "prince", "princess", "duke",
           "duchess", "count", "lord", "sir", "lady", "mansa", "shah", "tsar", "caliph", "pharaoh", "great", "elder",
           "younger"}
+EPITHETS = {"great", "elder", "younger"}
 COMMON = {"as", "is", "an", "in", "on", "at", "to", "by", "or", "he", "she", "it", "we", "us", "no", "so", "do", "up"}
 NUMERAL = re.compile(r"^(?:[IVXL]+|\d+(?:st|nd|rd|th)?)$")
 WORD = re.compile(r"[^\W\d_](?:[^\W\d_]|['’-][^\W\d_])*'?s?|[^\W\d_]+", re.UNICODE)
@@ -105,8 +107,9 @@ def hide(sentence: str, names: list[str]) -> str | None:
     of their name words (with joining words and a regnal number inside it) becomes one mention; title words alone, such
     as 'Emperor' in another ruler's title, are left as they are, and a title just before or after the name goes with it
     ('King Sweyn's', 'Zahir Shah'). A name that names something else (Rákóczi's War of Independence, the Tokugawa
-    shogunate), a word made from it (Zoroastrian) or holding it (Bâkî in Abdülbâkî), a sentence that lists the person's
-    names or gives a pronunciation, and one Wikipedia tags as unsourced are not used."""
+    shogunate, Sun Liang for Sun Quan), a word made from it (Zoroastrian) or holding it (Bâkî in Abdülbâkî), a title that ends their name left
+    on its own ('Khan overthrew the monarchy' for Mohammad Daoud Khan), a sentence that lists the person's names or
+    gives a pronunciation, and one Wikipedia tags as unsourced are not used."""
     words = {fold(part) for form in names for word in WORD.findall(form) for part in [word, *re.split(r"[-’']", word)]
              if fold(part) not in TITLES | COMMON and len(part) > 1}
     stems = {word[:STEM_LETTERS] for word in words}
@@ -129,7 +132,7 @@ def hide(sentence: str, names: list[str]) -> str | None:
                     break
             last = tokens[end].group()
             possessive = bool(re.search(r"['’]s?\W*$", last))
-            if possessive and end + 1 < len(tokens) and tokens[end + 1].group()[:1].isupper():
+            if end + 1 < len(tokens) and tokens[end + 1].group()[:1].isupper() and (possessive or last[-1:].isalpha()):
                 return None
             trailing = re.search(r"[^\w'’]*$", last).group()
             if out and fold(out[-1]) == "the":
@@ -148,6 +151,9 @@ def hide(sentence: str, names: list[str]) -> str | None:
            if word != bare and bare not in ("this", "person")):
         return None
     if any(stem(word) in stems for word in WORD.findall(text) if fold(word) not in ("this", "person")):
+        return None
+    endings = {fold(form.split()[-1]) for form in names if form.split()} & (TITLES - EPITHETS)
+    if any(fold(re.sub(r"['’]s?$", "", word)) in endings for word in WORD.findall(text) if word[:1].isupper()):
         return None
     text = text[0].upper() + text[1:]
     return re.sub(r"(?<=[.!?] )this person", "This person", text)
@@ -210,24 +216,24 @@ def repeats(sentence: str, summary: str) -> bool:
     return bool(said and told) and max(shared / len(said), shared / len(told)) > MAX_SHARED_WORDS
 
 
-def best_line(scores: LegacyScores, subject: Subject, name: str, role: str, text: str, names: list[str] | None = None,
-              summary: str = "") -> str:
-    """The best-scored sentence of the text that says what the person or civilization is remembered for, with the
-    names hidden when given; empty when none scores the subject's minimum or every good one would give the name away.
-    A sentence that repeats the summary is not used, nor, where a line must stand on its own, one that leans on the
-    sentence before it ('However, …', '… the latter …')."""
+def good_lines(scores: LegacyScores, subject: Subject, name: str, role: str, text: str, names: list[str] | None = None,
+               summary: str = "") -> Iterator[str]:
+    """The sentences of the text that say well enough what the person or civilization is remembered for, best scored
+    first, with the names hidden when given; none scores below the subject's minimum or would give the name away. A
+    sentence that repeats the summary, that Wikipedia tags as unsourced or that gives a pronunciation is not used, nor,
+    where a line must stand on its own, one that leans on the sentence before it ('However, …', '… the latter …') or
+    speaks of an unnamed ruler ('He consolidated …')."""
     candidates = [sentence for sentence in sentences(re.sub(r"\s*\n+\s*", " ", text))
-                  if len(sentence.split()) >= MIN_WORDS and not (subject.standalone and (LEANING.match(sentence) or POINTING_BACK.search(sentence)))
-                  and not repeats(sentence, summary)]
+                  if len(sentence.split()) >= MIN_WORDS and not repeats(sentence, summary)
+                  and not (subject.standalone and (LEANING.match(sentence) or POINTING_BACK.search(sentence)))]
     ranked = sorted(zip(scores.scores(subject, name, role, candidates), range(0, -len(candidates), -1), candidates),
                     reverse=True)
     for score, _, sentence in ranked:
         if score < subject.min_score:
-            break
-        if line := hide(sentence, names) if names else sentence:
+            return
+        if (line := hide(sentence, names) if names else sentence) and not TAGGED.search(line):
             line = line if re.search(r"[.!?\"”’)]$", line) else line + "."
-            return re.sub(r"\s{2,}", " ", re.sub(r",\s*([,.])", r"\1", line))
-    return ""
+            yield re.sub(r"\s{2,}", " ", re.sub(r",\s*([,.])", r"\1", line))
 
 
 def legacy_sections(text: str) -> str:
@@ -254,24 +260,32 @@ def add_legacy(figures: list, wikipedia, scores: LegacyScores) -> None:
     def pick(index: int, text: str, introduction: str) -> str:
         figure = figures[index]
         names = name_forms([figure.name, figure.wikipedia], introduction)
-        return best_line(scores, FIGURE, figure.name, figure.role, text, names)
+        return next(good_lines(scores, FIGURE, figure.name, figure.role, text, names), "")
 
     for figure, line in zip(figures, legacy_lines(wikipedia, [figure.wikipedia for figure in figures], pick)):
         figure.legacy = line
     logger.info("Found a legacy line for %d of %d figures", sum(bool(figure.legacy) for figure in figures), len(figures))
 
 
-def add_civilization_legacy(polities: list, wikipedia, scores: LegacyScores) -> None:
+def add_civilization_legacy(polities: list, wikipedia, scores: LegacyScores,
+                            rejected: set[tuple[str, str]]) -> set[tuple[str, str]]:
     """Each civilization's legacy line, read from the article its title leads to (the Caliphate of Córdoba's is now
-    the Umayyad state of Córdoba's)."""
+    the Umayyad state of Córdoba's), passing over the (civilization, line) pairs a review rejected for the next best
+    line; returns the rejected pairs it passed over."""
+    passed = set()
     pages = wikipedia.resolve([polity.wikipedia for polity in polities])
     titles = [pages[polity.wikipedia].title if polity.wikipedia in pages else polity.wikipedia for polity in polities]
 
     def pick(index: int, text: str, _: str) -> str:
         polity = polities[index]
-        return best_line(scores, CIVILIZATION, polity.name, CIVILIZATION_ROLE, text, summary=polity.summary)
+        for line in good_lines(scores, CIVILIZATION, polity.name, CIVILIZATION_ROLE, text, summary=polity.summary):
+            if (polity.name, line) not in rejected:
+                return line
+            passed.add((polity.name, line))
+        return ""
 
     for polity, line in zip(polities, legacy_lines(wikipedia, titles, pick)):
         polity.legacy = line
     logger.info("Found a legacy line for %d of %d civilizations", sum(bool(polity.legacy) for polity in polities),
                 len(polities))
+    return passed

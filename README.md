@@ -41,8 +41,11 @@ The legacy line is one sentence of the civilization's English Wikipedia article,
 scored for what the civilization is remembered for: inventions, law, institutions, religion, art and monuments, writing,
 science, trade, its influence on later peoples, being the largest or first of its kind, rather than its dates, extent,
 succession of rulers, a single event or one ruler's deeds. It needs a score of at least 7, and a sentence that mostly
-repeats what the civilization was, or that leans on the one before it ("However, …", "This …", "the latter"), is not used. Its name
-is not hidden, since the card names it.
+repeats what the civilization was, that leans on the one before it ("However, …", "This …", "As a result", "the latter"),
+that speaks of an unnamed ruler ("He consolidated …"), that gives a pronunciation or that Wikipedia tags as unsourced is
+not used. Its name is not hidden, since the card names it. Every line was reviewed by hand; one that speaks of another
+state or period, a single event, trivia or a sentence it leans on is listed in `data/errata.toml`, and the next best
+sentence is used instead, or none.
 
 When reputable sources disagree on a period's start or end, or on what came before or after in the home region, the card
 shows every value with its source: "First Bulgarian Empire or Francia", or under a period "Sources differ on the end:
@@ -86,7 +89,7 @@ and cut to today's coastline.
 |---|---|---|---|
 | Who | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for, their civilization and its map, and today's country at their birthplace (Moshe Dayan: Ottoman Empire, modern-day Israel) | always |
 | Photo | a portrait | the person | a photograph of them alone is found (they died in 1860 or later; see below), or their Who card picture is a portrait made in their lifetime |
-| Legacy | what they are remembered for, without their name: "This person is most famously known as the builder of Angkor Wat…" | the person | a sentence of their article says it well enough (see below) |
+| Legacy | what they are remembered for, without their name: "He is most famously known as the builder of Angkor Wat…" | the person | a sentence of their article says it well enough (see below) |
 | Legacy reverse | Suryavarman II, legacy: ? | what they are remembered for | as for Legacy |
 
 Photographs and portraits made in the person's lifetime are asked about; the back of the card says which it is. The
@@ -328,8 +331,8 @@ Photographs are recognised with an image model by default. It needs the optional
 and relies on Commons categories alone.
 
 `data/errata.toml` lists answers the sources give correctly but the rules pick wrongly, as found by outside reviews: a
-civilization's successor, predecessor, key figure or capital to drop, each with the review's reason. It only removes;
-nothing is ever added or changed by hand. `collect` applies it last, records what it dropped in `data/report.json`, and a
+civilization's successor, predecessor, key figure or capital to drop, or a legacy line to pass over for the next best
+sentence, each with the review's reason. It only removes; nothing is ever added or changed by hand. `collect` applies it last, records what it dropped in `data/report.json`, and a
 test fails on an entry that no longer matches anything.
 
 `data/overrides.toml` is the reverse: a reviewed, sourced list of facts the automated sources miss or get wrong. An
@@ -369,7 +372,8 @@ they were, their offices, family or trivia; it needs a score of at least 8, so p
 have none. Every form of their name (the article's own, the name it opens with and what its first sentence also calls
 them, middle names and spelling variants included) is replaced by "this person", and a sentence where any part of the
 name would remain, where the name is part of something else's name (Rákóczi's War of Independence, the Tokugawa
-shogunate), where a word is made from the name (Zoroastrian), that lists or glosses the person's names or gives a
+shogunate, Sun Liang beside Sun Quan), where a word is made from the name (Zoroastrian), where a title that ends the
+name stands on its own ("Khan overthrew the monarchy"), that lists or glosses the person's names or gives a
 pronunciation, or that Wikipedia tags as unsourced, is not used; a title right before or after the name goes with it
 ("King Olav's leadership" becomes "This person's leadership").
 The model is qwen3.5:4b, run through a local [Ollama](https://ollama.com) at temperature 0 and pinned to one digest; its

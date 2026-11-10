@@ -46,8 +46,11 @@ SAMPLES = (
     Sample("Page in History civilization", "Period", "Achaemenid Empire", "civilization-period.webp"),
     Sample("Page in History civilization", "Capital", "Parthian Empire", "civilization-capital.webp"),
     Sample("Page in History civilization", "Where", "Sasanian Empire", "civilization-where.webp"),
+    Sample("Page in History civilization", "Legacy", "Han Dynasty", "civilization-legacy.webp"),
     Sample("Page in History figure", "Who", "Cyrus the Great", "figure-who.webp"),
     Sample("Page in History figure", "Photo", "Albert Einstein", "figure-photo.webp"),
+    Sample("Page in History figure", "Legacy", "Suryavarman II", "figure-legacy.webp"),
+    Sample("Page in History figure", "Legacy reverse", "Suryavarman II", "figure-legacy-reverse.webp"),
 )
 
 

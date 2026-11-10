@@ -8,7 +8,7 @@ from urllib.parse import quote
 
 from PIL import Image
 
-from page_in_history.errata import apply_errata, load_errata
+from page_in_history.errata import apply_errata, legacy_rejections, load_errata, passed_legacy
 from page_in_history.figure_overrides import load_figure_overrides
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
@@ -147,7 +147,8 @@ class Collector:
                     ", ".join(figure_builder.joined))
         legacy_scores = LegacyScores(self.paths.root / "legacy_scores.json")
         add_legacy(figures, wikipedia, legacy_scores)
-        add_civilization_legacy(polities, wikipedia, legacy_scores)
+        passed = add_civilization_legacy(polities, wikipedia, legacy_scores, legacy_rejections(errata))
+        dropped += passed_legacy(errata, passed)
         legacy_scores.save()
         self.failures: list[str] = []
         self._draw([polity for polity in polities if polity.borders], cliopatria, countries, builder)

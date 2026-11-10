@@ -254,4 +254,7 @@ def test_every_erratum_matched_something_in_the_last_collect(civilizations):
     assert not stale, stale
     for entry in errata:
         answers = civilizations[entry["civilization"]][entry["field"]]
-        assert entry["value"] not in [answer["name"] for answer in answers], entry
+        if entry["field"] == "legacy":
+            assert answers != entry["value"], entry
+        else:
+            assert entry["value"] not in [answer["name"] for answer in answers], entry

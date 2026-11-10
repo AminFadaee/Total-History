@@ -6,8 +6,9 @@ import pytest
 from page_in_history.births import Birth, agreed_birth
 from page_in_history.dates import Span, centuries, parse, parse_range, period_label
 from page_in_history.deck import CIVILIZATION_TEMPLATES, century_tag, with_modern_country
+from page_in_history.errata import Erratum, legacy_rejections, passed_legacy
 from page_in_history.figures import lifetime
-from page_in_history.legacy import CIVILIZATION, LegacyScores, best_line, hide, legacy_sections, name_forms, repeats
+from page_in_history.legacy import CIVILIZATION, LegacyScores, good_lines, hide, legacy_sections, name_forms, repeats
 from page_in_history.photos import visible
 from page_in_history.polities import DATED, RulingRole, row_years, same_name
 from page_in_history.sentences import contribution, first_paragraph, sentences
@@ -250,6 +251,10 @@ def test_a_century_is_the_one_holding_the_year(value, earliest):
      "Zoroaster composed hymns that cover core Zoroastrian beliefs", None),
     (["Tokugawa Yoshinobu"], "Prince Tokugawa Yoshinobu (1837 – 1913) was a Japanese samurai.",
      "Yoshinobu was the 15th and last shōgun of the Tokugawa shogunate", None),
+    (["Sun Quan"], "Sun Quan (182 – 252) was the founder of Eastern Wu.",
+     "He was succeeded by his son, Sun Liang", None),
+    (["Mohammad Daoud Khan"], "Mohammad Daoud Khan (1909 – 1978) was an Afghan politician.",
+     "Having failed to persuade the King, Khan overthrew the monarchy in a coup", None),
     (["Olav V"], "Olav V (1903 – 1991) was King of Norway.",
      "King Olav's leadership made him a symbol of Norwegian independence",
      "This person's leadership made him a symbol of Norwegian independence"),
@@ -288,9 +293,10 @@ def test_a_civilization_legacy_line_stands_on_its_own_and_scores_seven():
             "It spread its language, laws, and customs. Its rulers fought many wars with neighbours.")
     scores = FixedScores({"The empire was the largest in history": 9, "However, it spread its laws across the region": 9,
                           "It spread its language, laws, and customs": 7, "Its rulers fought many wars with neighbours.": 6})
-    assert best_line(scores, CIVILIZATION, "Mali Empire", "civilization", text, summary="The largest empire in history.") \
-        == "It spread its language, laws, and customs."
-    assert best_line(scores, CIVILIZATION, "Mali Empire", "civilization", "Its rulers fought many wars with neighbours.") == ""
+    lines = good_lines(scores, CIVILIZATION, "Mali Empire", "civilization", text, summary="The largest empire in history.")
+    assert list(lines) == ["It spread its language, laws, and customs."]
+    lines = good_lines(scores, CIVILIZATION, "Mali Empire", "civilization", "Its rulers fought many wars with neighbours.")
+    assert list(lines) == []
 
 
 def test_every_civilization_card_back_shows_the_legacy_line():
@@ -302,5 +308,30 @@ def test_a_civilization_legacy_line_does_not_point_back_and_is_tidied():
             "It was the legal predecessor of  the present-day Federal Republic of Germany,")
     scores = FixedScores({"From then on the latter also shaped the language of the court": 9,
                           "It was the legal predecessor of  the present-day Federal Republic of Germany,": 8})
-    assert best_line(scores, CIVILIZATION, "Brandenburg", "civilization", text) \
+    assert next(good_lines(scores, CIVILIZATION, "Brandenburg", "civilization", text), "") \
         == "It was the legal predecessor of the present-day Federal Republic of Germany."
+
+
+def test_a_civilization_legacy_line_names_its_subject_and_gives_no_pronunciation():
+    text = ("He made a famous pilgrimage to Mecca that caused inflation in Egypt. "
+            "Toltec culture emanating from Tōllān [ˈtoːlːãːn̥] was the epitome of civilization. "
+            "At its peak, Mali was the largest empire in West Africa.")
+    scores = FixedScores({"He made a famous pilgrimage to Mecca that caused inflation in Egypt": 9,
+                          "Toltec culture emanating from Tōllān [ˈtoːlːãːn̥] was the epitome of civilization": 9,
+                          "At its peak, Mali was the largest empire in West Africa.": 8})
+    assert list(good_lines(scores, CIVILIZATION, "Mali Empire", "civilization", text)) == [
+        "At its peak, Mali was the largest empire in West Africa."]
+
+
+def test_a_legacy_erratum_is_matched_when_its_line_is_passed_over():
+    erratum = Erratum("Vandal Kingdom", "legacy", "North Africa hosted many writers.", "About Roman North Africa.")
+    other = Erratum("Vandal Kingdom", "after", "Byzantine Empire", "A list answer.")
+    assert legacy_rejections([erratum, other]) == {("Vandal Kingdom", "North Africa hosted many writers.")}
+    assert passed_legacy([erratum, other], {("Vandal Kingdom", "North Africa hosted many writers.")}) == [erratum]
+    assert passed_legacy([erratum], set()) == []
+
+
+def test_a_legacy_line_may_hold_thin_spaces():
+    text = "The world's earliest known texts come from Uruk and date to c. 3350 BC."
+    scores = FixedScores({text: 9})
+    assert list(good_lines(scores, CIVILIZATION, "Sumer", "civilization", text)) == [text]
