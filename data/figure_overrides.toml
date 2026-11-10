@@ -267,3 +267,13 @@ figure_id = "Q206741"
 field = "exclude"
 value = "legend"
 note = "A legendary king of Rome; the deck leaves out figures of legend."
+
+[[figure]]
+figure = "Albert Einstein"
+figure_id = "Q937"
+field = "civilization"
+value = "German Empire"
+value_id = "Q43287"
+source = "https://en.wikipedia.org/wiki/Albert_Einstein"
+quote = "Einstein was born in Ulm as a subject to the Kingdom of Württemberg in the German Empire on 14 March 1879."
+retrieved = 2026-11-10
