@@ -14907,3 +14907,17 @@ action = "set"
 value = "Extended"
 note = "Kept Extended as the outside reviews' tier fit set it (tests/review_cases.toml): a single Late Bronze Age city-state."
 retrieved = 2026-11-09
+
+[[override]]
+civilization = "Dál Riata"
+civilization_id = "Q111471"
+field = "after"
+action = "set"
+value = "Kingdom of Alba"
+value_id = "Q1991742"
+region = "United Kingdom"
+retrieved = 2026-11-10
+sources = [
+  { fact = "Dál Riata and Pictland merged to form the Kingdom of Alba", source = "https://en.wikipedia.org/wiki/D%C3%A1l_Riata", quote = "Under the House of Alpin, Dál Riata and Pictland merged to form the Kingdom of Alba or Scotland." },
+]
+derivation = "the kingdom Dál Riata merged into"

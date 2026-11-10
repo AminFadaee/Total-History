@@ -284,3 +284,79 @@ figure_id = "Q200859"
 field = "exclude"
 value = "legend"
 note = "A legendary king of Rome; the deck leaves out figures of legend."
+
+[[figure]]
+figure = "Henry VIII"
+figure_id = "Q38370"
+field = "contribution"
+value = "King of England from 1509 until his death in 1547."
+source = "https://www.worldhistory.org/Henry_VIII_of_England/"
+quote = "Henry VIII of England ruled as king from 1509 to 1547."
+retrieved = 2026-11-10
+note = "He took the title King of Ireland only in 1541; the same page: \"his adoption of the title 'King of Ireland' in 1541 where previous English kings had only called themselves 'Lord of Ireland'\""
+
+[[figure]]
+figure = "Henry VIII"
+figure_id = "Q38370"
+field = "role"
+value = "King of England from 1509 to 1547"
+source = "https://www.worldhistory.org/Henry_VIII_of_England/"
+quote = "Henry VIII of England ruled as king from 1509 to 1547."
+retrieved = 2026-11-10
+
+[[figure]]
+figure = "Maria Theresa"
+figure_id = "Q131706"
+field = "contribution"
+value = "The ruler of the Habsburg Monarchy from 1740 until her death in 1780."
+source = "https://www.worldhistory.org/Maria_Theresa/"
+quote = "Maria Theresa (1717-1780) was the ruler of the Habsburg Monarchy, a sprawling empire that included Austria, Hungary, Bohemia, and other territories"
+retrieved = 2026-11-10
+
+[[figure]]
+figure = "Max Brod"
+figure_id = "Q28480"
+field = "contribution"
+value = "Best remembered as the friend and biographer of Franz Kafka."
+source = "https://en.wikipedia.org/wiki/Max_Brod"
+quote = "Although he was a prolific writer in his own right, he is best remembered as the friend and biographer of Franz Kafka."
+retrieved = 2026-11-10
+
+[[figure]]
+figure = "Wolfgang Amadeus Mozart"
+figure_id = "Q254"
+field = "contribution"
+value = "A composer who wrote a wide range of works including piano concertos, string quartets, symphonies, operas, and sacred music."
+source = "https://www.worldhistory.org/Wolfgang_Amadeus_Mozart/"
+quote = "Wolfgang Amadeus Mozart (1756-1791) was an Austrian composer who wrote a wide range of works including piano concertos, string quartets, symphonies, operas, and sacred music"
+retrieved = 2026-11-10
+
+[[figure]]
+figure = "Hasanuddin of Gowa"
+figure_id = "Q1616295"
+field = "civilization"
+value = "Sultanate of Gowa"
+value_id = "Q1408641"
+source = "https://en.wikipedia.org/wiki/Hasanuddin_of_Gowa"
+quote = "was the 16th Ruler of The Sultanate of Gowa as Sombaya Ri Gowa XVI from 1653 to 1669."
+retrieved = 2026-11-10
+
+[[figure]]
+figure = "Heraclius II of Georgia"
+figure_id = "Q379624"
+field = "civilization"
+value = "Kingdom of Kartli-Kakheti"
+value_id = "Q282475"
+source = "https://en.wikipedia.org/wiki/Heraclius_II_of_Georgia"
+quote = "to becoming the penultimate king of the united kingdoms of Kakheti and Kartli in eastern Georgia, his reign is regarded as the swan song of the Georgian monarchy."
+retrieved = 2026-11-10
+
+[[figure]]
+figure = "Ian Smith"
+figure_id = "Q313424"
+field = "civilization"
+value = "Rhodesia"
+value_id = "Q217169"
+source = "https://en.wikipedia.org/wiki/Rhodesia"
+quote = "Field was succeeded by Ian Smith, chairman of the conservative Rhodesian Front Party and an outspoken critic of any immediate transition to majority rule."
+retrieved = 2026-11-10
