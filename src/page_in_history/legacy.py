@@ -13,7 +13,7 @@ from page_in_history.sentences import sentences
 OLLAMA = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
 OLLAMA = OLLAMA if OLLAMA.startswith("http") else f"http://{OLLAMA}"
 MODEL = "qwen3.5:4b"
-MODEL_DIGEST = "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd"
+MODEL_DIGEST = "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04"
 MIN_SCORE = 8
 MAX_MENTIONS = 2
 DERIVED = re.compile(r"(?:ian|ians|ean|eans|ist|ists|ism|isms|ismo|ista|istas|ismus|ic|ics|ite|ites|esque)$")
