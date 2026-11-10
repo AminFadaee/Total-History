@@ -253,3 +253,10 @@ figure_id = "Q200031"
 field = "exclude"
 value = "legend"
 note = "The legendary second king of Rome; the deck leaves out figures of legend."
+
+[[figure]]
+figure = "Saint George"
+figure_id = "Q48438"
+field = "exclude"
+value = "legend"
+note = "A martyr known through hagiographic legend (the dragon); the deck leaves out figures of legend."
