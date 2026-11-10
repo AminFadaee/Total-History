@@ -4,9 +4,9 @@
   "name": "Bernardo I of Kongo",
   "wikipedia": "Bernardo I of Kongo",
   "role": "Mwene Kongo",
-  "life": "died 1566",
+  "life": "16th century – 1566",
   "lifetime": [
-    1496,
+    1501,
     1566
   ],
   "occupation": "",
@@ -19,7 +19,7 @@
   ],
   "contribution": "A 16th-century manikongo of the Kingdom of Kongo, a region encompassing areas in 21st-century Angola and the Democratic Republic of Congo.",
   "setting": "",
-  "modern_country": "",
+  "modern_country": "Angola",
   "image": "images/bernardo-i-of-kongo.jpg",
   "image_credit": "Affricoll9 · CC BY-SA 4.0",
   "image_kind": "Depiction",
@@ -36,11 +36,20 @@
       "lead": [
         "Kingdom of Kongo",
         "Portuguese Empire"
+      ],
+      "born_in": [
+        "Kingdom of Kongo"
       ]
     },
     "lead": "Bernardo I of Kongo (died 1567) was a 16th-century manikongo (ruler) of the Kingdom of Kongo, a region encompassing areas in 21st-century Angola and the Democratic Republic of Congo. He came to power after murdering his half-brother Afonso II who was less well-disposed toward the Portuguese.",
     "image": "",
     "photo": "no death year in or after 1860",
-    "birth": null
+    "birth": {
+      "location": [
+        14.25,
+        -6.2666666666667
+      ],
+      "year": 1501
+    }
   }
 }

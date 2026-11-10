@@ -5,7 +5,7 @@
     "end": 2024
   },
   "civilizations": 496,
-  "figures": 3062,
+  "figures": 3046,
   "failures": [],
   "errata_dropped": [
     {
@@ -9029,6 +9029,26 @@
       "figure": "Gian Lorenzo Bernini",
       "field": "civilization",
       "value": "Papal States"
+    },
+    {
+      "figure": "Longinus",
+      "field": "exclude",
+      "value": "legend"
+    },
+    {
+      "figure": "Numa Pompilius",
+      "field": "exclude",
+      "value": "legend"
+    },
+    {
+      "figure": "Saint George",
+      "field": "exclude",
+      "value": "legend"
+    },
+    {
+      "figure": "Ancus Marcius",
+      "field": "exclude",
+      "value": "legend"
     }
   ],
   "figure_overrides_unused": [
@@ -9701,15 +9721,6 @@
       "to": null
     },
     {
-      "name": "Caucasian Albania",
-      "side": "before",
-      "years": [
-        -63,
-        -2
-      ],
-      "to": null
-    },
-    {
       "name": "Chen",
       "side": "after",
       "years": [
@@ -10264,15 +10275,6 @@
       "years": [
         -93,
         113
-      ],
-      "to": null
-    },
-    {
-      "name": "Kingdom of Sophene",
-      "side": "before",
-      "years": [
-        -256,
-        -202
       ],
       "to": null
     },
@@ -10975,6 +10977,15 @@
       "years": [
         1032,
         1071
+      ],
+      "to": null
+    },
+    {
+      "name": "Haudenosaunee",
+      "side": "before",
+      "years": [
+        1450,
+        1500
       ],
       "to": null
     },

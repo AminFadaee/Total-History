@@ -6,8 +6,8 @@
   "map_year": 500,
   "period": {
     "start": {
-      "earliest": -1,
-      "latest": 98,
+      "earliest": -200,
+      "latest": -101,
       "circa": false
     },
     "end": {
@@ -106,7 +106,7 @@
       ]
     },
     "cliopatria_years": [
-      -1,
+      -63,
       509
     ],
     "identity": "same item in Cliopatria and Wikipedia",

@@ -6,15 +6,18 @@
   "role": "Ancient Greek mathematician",
   "life": "4th century BC – 285 BC",
   "lifetime": [
-    -333,
+    -400,
     -285
   ],
   "occupation": "Mathematician",
   "birth_country": "Egypt",
-  "civilizations": [],
+  "civilizations": [
+    "Classical Athens",
+    "Thirtieth Dynasty of Egypt"
+  ],
   "related": [],
   "contribution": "An ancient Greek mathematician active as a geometer and logician.",
-  "setting": "Southern Europe, 3rd century BC",
+  "setting": "",
   "modern_country": "",
   "image": "images/euclid.jpg",
   "image_credit": "Justus van Gent · Public domain",
@@ -25,6 +28,12 @@
     "civilization_votes": {
       "death": [
         "Ptolemaic Kingdom"
+      ],
+      "citizenship": [
+        "Classical Athens"
+      ],
+      "birthplace": [
+        "Thirtieth Dynasty of Egypt"
       ]
     },
     "lead": "Euclid (; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician. Considered the \"father of geometry\", he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.",
