@@ -173,3 +173,375 @@ reason = "Final review: Shiloh was the cult centre of the tribes before the mona
 source = "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)"
 quote = "Israel was consolidated as a kingdom in the first half of 9th century BCE, with its capital at Tirzah first, and next at the city of Samaria from 880 BCE."
 retrieved = 2026-11-07
+
+[[remove]]
+civilization = "Angevin Empire"
+field = "legacy"
+value = "The 12th century brought about Gothic architecture, first known as opus francigenum, from the work of Abbot Suger at Saint Denis in 1140."
+reason = "Legacy review: About Gothic architecture at Saint-Denis, in the French royal domain, not the Angevin lands."
+
+[[remove]]
+civilization = "Brazilian Republic"
+field = "legacy"
+value = "The country's first constitution in 1824 established a bicameral legislature and enshrined principles such as freedom of religion and the press; slavery was gradually abolished until its final abolition in 1888."
+reason = "Legacy review: About the constitution of 1824, which was the Empire of Brazil's."
+
+[[remove]]
+civilization = "Byzantine Empire"
+field = "legacy"
+value = "Constantine I legalised Christianity and founded the new Eastern capital of Constantinople."
+reason = "Legacy review: Constantine's legalising of Christianity belongs to the Roman Empire before the Byzantine period."
+
+[[remove]]
+civilization = "Canada"
+field = "legacy"
+value = "Canada is a parliamentary democracy and a constitutional monarchy in the Westminster tradition."
+reason = "Legacy review: Says what kind of state it is, not what it is remembered for."
+
+[[remove]]
+civilization = "Chaldea"
+field = "legacy"
+value = "Other classical Latin writers who speak of them as distinguished for their knowledge of astronomy and astrology are Pliny the Elder, Valerius Maximus, Aulus Gellius, Cato the Elder, Lucretius, and Juvenal."
+reason = "Legacy review: A list of Latin writers who mention the Chaldeans, not their legacy."
+
+[[remove]]
+civilization = "Cossack Hetmanate"
+field = "legacy"
+value = "Establishment of vassal relations with the Tsardom of Moscow in the Treaty of Pereiaslav of 1654 is considered a benchmark of the Cossack Hetmanate in Soviet, Ukrainian, and Russian historiography."
+reason = "Legacy review: A treaty's place in historiography, without saying what the Hetmanate left."
+
+[[remove]]
+civilization = "Dominican Republic"
+field = "legacy"
+value = "The colony of Santo Domingo became the site of the first permanent European settlement in the Americas."
+reason = "Legacy review: About the Spanish colony of Santo Domingo, before the republic."
+
+[[remove]]
+civilization = "Duchy of Burgundy"
+field = "legacy"
+value = "With his marriage with Countess Margaret III of Flanders, he laid the foundation for a Burgundian State which expanded further north in the Low Countries collectively known as the Burgundian Netherlands."
+reason = "Legacy review: One duke's marriage, with the duke left unnamed."
+
+[[remove]]
+civilization = "Dzungar Khanate"
+field = "legacy"
+value = "The defeat of the Dzungars led to the Qing conquest of Mongolia, Tibet, and the creation of Xinjiang as a political administrative unit."
+reason = "Legacy review: What followed its defeat, which is the Qing's legacy."
+
+[[remove]]
+civilization = "Fatimid Caliphate"
+field = "legacy"
+value = "The Fatimids traced their ancestry from the Islamic prophet Muhammad's daughter Fatima and her husband Ali, considered the first Imam of Shi'a Islam."
+reason = "Legacy review: The dynasty's claimed ancestry, not what it is remembered for."
+
+[[remove]]
+civilization = "Francia"
+field = "legacy"
+value = "Charlemagne was crowned Holy Roman Emperor in 800, thus creating the Frankish-Roman Empire, also referred to as the Carolingian Empire."
+reason = "Legacy review: A single event, Charlemagne's coronation."
+
+[[remove]]
+civilization = "French First Republic"
+field = "legacy"
+value = "On 25 September 1792, the Republic was declared \"one and indivisible\""
+reason = "Legacy review: A single event, a declaration."
+
+[[remove]]
+civilization = "French Third Republic"
+field = "legacy"
+value = "The French constitutional laws of 1875 defined the composition of the Third Republic."
+reason = "Legacy review: Says which laws defined it, not what it is remembered for."
+
+[[remove]]
+civilization = "Funan"
+field = "legacy"
+value = "The \"Mountain Kings\" of Funan were claimed as the forebears of the Malacca Sultanate and Brunei Sultanate."
+reason = "Legacy review: A later claim of descent by other sultanates."
+
+[[remove]]
+civilization = "Ghurid Dynasty"
+field = "legacy"
+value = "Their conquests in the Indian subcontinent nevertheless survived for several centuries under the evolving Delhi Sultanate established by Qutb ud-Din Aibak."
+reason = "Legacy review: Leans on the sentence before it ('nevertheless') and speaks of the Delhi Sultanate."
+
+[[remove]]
+civilization = "Goths"
+field = "legacy"
+value = "Gothic architecture, Gothic literature and the modern-day Goth subculture ultimately derive their names from the ancient Goths, though the Goths themselves did not directly create or influence these art forms."
+reason = "Legacy review: Says that the Goths did not create what bears their name."
+
+[[remove]]
+civilization = "Hittites"
+field = "legacy"
+value = "The history of the Hittite civilization is known mostly from cuneiform texts found in their former territories, and from diplomatic and commercial correspondence found in the various archives of Assyria, Babylonia, Egypt and the broader Middle East; the decipherment of these texts was a key event in the history of Indo-European studies."
+reason = "Legacy review: About the decipherment of Hittite texts in modern times."
+
+[[remove]]
+civilization = "Kingdom of Asturias"
+field = "legacy"
+value = "Pilgrims from all over Europe opened a way of communication between the isolated Asturias and the Carolingian lands and beyond."
+reason = "Legacy review: Vague about what the pilgrims' route brought."
+
+[[remove]]
+civilization = "Kingdom of Judah"
+field = "legacy"
+value = "After the fall of Babylon to the Achaemenid Empire, the Achaemenid king Cyrus the Great permitted the Jewish exiles to return to their homeland and re-establish their communal and religious institutions under Persian overlordship."
+reason = "Legacy review: About Cyrus and the Achaemenid Empire after Judah's fall."
+
+[[remove]]
+civilization = "Kingdom of Scotland"
+field = "legacy"
+value = "In the 17th century, the creation of Justices of Peace and Commissioners of Supply helped to increase the effectiveness of local government."
+reason = "Legacy review: A minor administrative change."
+
+[[remove]]
+civilization = "Kingdom of the Two Sicilies"
+field = "legacy"
+value = "The annexation of the Kingdom of the Two Sicilies completed the first phase of Italian unification, and the new Kingdom of Italy was proclaimed in 1861 after uniting with other Italian states."
+reason = "Legacy review: Its annexation by Italy, the end of the kingdom."
+
+[[remove]]
+civilization = "Latin Empire"
+field = "legacy"
+value = "The last Latin emperor, Baldwin II, went into exile, but the imperial title survived, with several pretenders to it, until the 14th century."
+reason = "Legacy review: The survival of a title among pretenders after the empire fell."
+
+[[remove]]
+civilization = "Mahdist State"
+field = "legacy"
+value = "The Mahdi did not live long after this victory, and his successor Abdallahi ibn Muhammad consolidated the new state, with administrative and judiciary systems based on their interpretation of Islamic law."
+reason = "Legacy review: Leans on the sentence before it ('this victory')."
+
+[[remove]]
+civilization = "Margraviate of Brandenburg"
+field = "legacy"
+value = "The Prussian-dominated North German Confederation later transformed in 1871 into the German Empire; it was the legal predecessor of the united German Reich of 1871–1945, and as such a direct ancestor of the present-day Federal Republic of Germany."
+reason = "Legacy review: About the North German Confederation and the German Empire."
+
+[[remove]]
+civilization = "Mexico"
+field = "legacy"
+value = "New Spain became a major center of the transoceanic economy during the Age of Discovery, fueled by silver mining and its position as a hub between Europe and Asia."
+reason = "Legacy review: About New Spain, the colony before independent Mexico."
+
+[[remove]]
+civilization = "Mughal Empire"
+field = "legacy"
+value = "The relative peace maintained by the empire during much of the 17th century was a factor in India's economic expansion."
+reason = "Legacy review: A weak claim about peace and growth that leaves out what the empire is remembered for."
+
+[[remove]]
+civilization = "Netherlands"
+field = "legacy"
+value = "The Dutch Republic experienced major political, economic, and cultural development; this period is commonly known as the Dutch Golden Age."
+reason = "Legacy review: About the Dutch Republic, a different state in the deck."
+
+[[remove]]
+civilization = "New France"
+field = "legacy"
+value = "The continent-traversing Saint Lawrence and Mississippi rivers were means of carrying French influence through much of North America."
+reason = "Legacy review: Vague: rivers as means of carrying French influence."
+
+[[remove]]
+civilization = "Old Kingdom of Norway"
+field = "legacy"
+value = "It has the world's largest sovereign wealth fund, with a value of US$2.1 trillion."
+reason = "Legacy review: About modern Norway's sovereign wealth fund."
+
+[[remove]]
+civilization = "Ostrogothic Kingdom"
+field = "legacy"
+value = "Most of the social institutions of the late Western Roman Empire were preserved during his rule."
+reason = "Legacy review: Leans on the sentence before it ('during his rule')."
+
+[[remove]]
+civilization = "Pahlavi Dynasty"
+field = "legacy"
+value = "Under his rule, Iran became a centralized unitary state and underwent a series of modernization reforms, including infrastructure development, the expansion of education, and the secularization of state institutions."
+reason = "Legacy review: Leans on the sentence before it ('under his rule')."
+
+[[remove]]
+civilization = "Peru-Bolivian Confederation"
+field = "legacy"
+value = "Historian Jorge Basadre frames the confederation as part of a period of \"determination of the nationalities\" in western South America."
+reason = "Legacy review: One historian's framing, not what it is remembered for."
+
+[[remove]]
+civilization = "Portuguese Republic"
+field = "legacy"
+value = "During the Age of Discovery, the kingdom made several advancements in nautical science and maritime exploration to discover new territories and sea routes, which led to the establishment of the Portuguese Empire."
+reason = "Legacy review: About the Kingdom of Portugal in the Age of Discovery."
+
+[[remove]]
+civilization = "Republic of Austria"
+field = "legacy"
+value = "It hosts the Organization for Security and Co-operation in Europe and the Organization of the Petroleum Exporting Countries and is a founding member of the Organisation for Economic Co-operation and Development and Interpol."
+reason = "Legacy review: The organisations Austria hosts today, not a legacy."
+
+[[remove]]
+civilization = "Republic of Turkey"
+field = "legacy"
+value = "The Republic was proclaimed on 29 October 1923, modelled on the reforms initiated by its founder and first president, Mustafa Kemal Atatürk."
+reason = "Legacy review: A single event, the proclamation."
+
+[[remove]]
+civilization = "Scythia"
+field = "legacy"
+value = "A consequence of the Scythians' close contacts with Greeks was a progressive Hellenisation of the Scythian aristocracy."
+reason = "Legacy review: The Hellenisation of its aristocracy, not what Scythia left."
+
+[[remove]]
+civilization = "Second Federal Republic of Mexico"
+field = "legacy"
+value = "The Liberal revolt which in turn overthrew him in 1855, would inaugurate what would come to be known as La Reforma, a series of substantial unprecedented reforms in Mexican constitutional history, most notably the separation of church and state and the nationalization of Catholic Church lands."
+reason = "Legacy review: Leans on the sentence before it ('overthrew him') and describes the reform that ended it."
+
+[[remove]]
+civilization = "Shang Dynasty"
+field = "legacy"
+value = "Most prominently, the site has yielded the earliest known examples of Chinese writing—a corpus primarily consisting of divination texts inscribed on oracle bones, which were usually either turtle shells or ox scapulae."
+reason = "Legacy review: Leans on the sentence before it ('the site')."
+
+[[remove]]
+civilization = "Sultanate of Bengal"
+field = "legacy"
+value = "In 1500, the royal capital of Gaur was the fifth-most populous city in the world."
+reason = "Legacy review: A fact about its capital's size."
+
+[[remove]]
+civilization = "Thonburi Kingdom"
+field = "legacy"
+value = "The kingdom was founded by Taksin, who reunited Siam following the collapse of the Ayutthaya Kingdom, which saw the country separate into five warring regional states."
+reason = "Legacy review: Its founding, not what it is remembered for."
+
+[[remove]]
+civilization = "Tulunids"
+field = "legacy"
+value = "Ahmad ibn Tulun changed the taxation system and aligned himself with the merchant community."
+reason = "Legacy review: One ruler's tax change."
+
+[[remove]]
+civilization = "Vandal Kingdom"
+field = "legacy"
+value = "According to historian Richard Miles, North Africa hosted \"many of the most innovative writers and natural scientists\" of the late Latin-speaking Western Roman Empire."
+reason = "Legacy review: About Roman North Africa before the Vandals."
+
+[[remove]]
+civilization = "Western Roman Empire"
+field = "legacy"
+value = "The papal coronation of the Frankish king Charlemagne as Roman Emperor in 800 marked a new imperial line that would evolve into the Holy Roman Empire."
+reason = "Legacy review: Charlemagne's coronation, centuries after the Western Roman Empire fell."
+
+[[remove]]
+civilization = "Xiongnu"
+field = "legacy"
+value = "The purpose of raiding the Central Plain was not simply for goods, but to force the Central Plain polity to pay regular tribute."
+reason = "Legacy review: The purpose of raids, not what the Xiongnu left."
+
+[[remove]]
+civilization = "Angevin Empire"
+field = "legacy"
+value = "Richard I's personal arms—three golden lions passant guardant on a red field—continue to appear in most subsequent English royal heraldry and in variations on the flags of both Normandy and Aquitaine."
+reason = "Legacy review: One king's coat of arms in later heraldry."
+
+[[remove]]
+civilization = "Byzantine Empire"
+field = "legacy"
+value = "Theodosius I made Christianity the state religion and Greek gradually replaced Latin for official use."
+reason = "Legacy review: Theodosius I's reign belongs to the Roman Empire before the Byzantine period."
+
+[[remove]]
+civilization = "Dominican Republic"
+field = "legacy"
+value = "The country is also the site of the first cathedral, palace, monastery, and fortress built in the Americas, located in Santo Domingo's Colonial Zone, a World Heritage Site."
+reason = "Legacy review: About colonial Santo Domingo, before the republic."
+
+[[remove]]
+civilization = "Ethiopian Empire"
+field = "legacy"
+value = "Reacting to these challenges, in the 1630s Emperor Fasilides founded the new capital of Gondar, marking the start of a new golden age known as the Gondarine period."
+reason = "Legacy review: Leans on the sentence before it ('these challenges')."
+
+[[remove]]
+civilization = "Ghurid Dynasty"
+field = "legacy"
+value = "The early coins of the Delhi Sultanate followed the same Ghurid weight and inscription standards.The Ghurid numismatic model became the basis for the developing Indo-Islamic coinage systems for centuries to follow."
+reason = "Legacy review: Two sentences run together."
+
+[[remove]]
+civilization = "Goths"
+field = "legacy"
+value = "In medieval and modern Spain, the Visigoths were believed to be the progenitors of the Spanish nobility."
+reason = "Legacy review: A later Spanish belief about the Visigoths."
+
+[[remove]]
+civilization = "Hittites"
+field = "legacy"
+value = "Scholars once attributed the development of iron-smelting to the Hittites, who were thought to have monopolized ironworking during the Bronze Age."
+reason = "Legacy review: A view scholars once held and no longer do."
+
+[[remove]]
+civilization = "Kingdom of Wessex"
+field = "legacy"
+value = "It was during this period that the system of shires was established."
+reason = "Legacy review: Leans on the sentence before it ('this period')."
+
+[[remove]]
+civilization = "Mexico"
+field = "legacy"
+value = "It ranks first in the Americas and seventh in the world by the number of UNESCO World Heritage Sites."
+reason = "Legacy review: A count of World Heritage Sites."
+
+[[remove]]
+civilization = "Pahlavi Dynasty"
+field = "legacy"
+value = "Supported by rising oil revenues and Western backing during the Cold War, he pursued an extensive military buildup and launched the White Revolution, a broad reform program that implemented sweeping land reform while expanding state investment in education, healthcare, infrastructure, and industrial development."
+reason = "Legacy review: Speaks of an unnamed ruler ('he pursued')."
+
+[[remove]]
+civilization = "Republic of Austria"
+field = "legacy"
+value = "Being the heartland of the Habsburg monarchy since the late 13th century, Austria was a major imperial power in Central Europe for centuries and, from the 16th century, Vienna also served as the Holy Roman Empire's administrative capital."
+reason = "Legacy review: About Habsburg Austria, before the republic."
+
+[[remove]]
+civilization = "Shang Dynasty"
+field = "legacy"
+value = "The inscriptions provide critical insight into many topics from the politics, economy, and religious practices to the art and medicine of the early stages of Chinese history."
+reason = "Legacy review: Leans on the sentence before it ('the inscriptions')."
+
+[[remove]]
+civilization = "Tulunids"
+field = "legacy"
+value = "The capital of the Abbasid caliphate was moved to Samarra, which served as the seat of the Abbasid state for almost fifty years and became the center of the new Turkic dominance."
+reason = "Legacy review: About the Abbasid capital at Samarra."
+
+[[remove]]
+civilization = "Western Roman Empire"
+field = "legacy"
+value = "Roman law, particularly the Corpus Juris Civilis collected on the orders of Justinian I, is the basis of modern civil law."
+reason = "Legacy review: Justinian's code was made in the Eastern Roman Empire after the western empire fell."
+
+[[remove]]
+civilization = "Ethiopian Empire"
+field = "legacy"
+value = "It saw relative peace, the successful integration of the Oromo and a flourishing of culture."
+reason = "Legacy review: Leans on the sentence before it ('it saw' a period named there)."
+
+[[remove]]
+civilization = "Goths"
+field = "legacy"
+value = "In Spain, a man acting with arrogance would be said to be \"haciéndose los godos\""
+reason = "Legacy review: A Spanish idiom."
+
+[[remove]]
+civilization = "Western Roman Empire"
+field = "legacy"
+value = "Civil law is by far the most widespread system of law in the world, in force in some form in about 150 countries."
+reason = "Legacy review: About civil law today, not the empire."
+
+[[remove]]
+civilization = "Ethiopian Empire"
+field = "legacy"
+value = "Emperor Tewodros II put an end to the Zemene Mesafint, reunified the Empire and led it into the modern period before dying during the British Expedition to Abyssinia."
+reason = "Legacy review: One emperor's deeds."
