@@ -295,3 +295,12 @@ def test_a_civilization_legacy_line_stands_on_its_own_and_scores_seven():
 
 def test_every_civilization_card_back_shows_the_legacy_line():
     assert all("{{Legacy}}" in template.back for template in CIVILIZATION_TEMPLATES)
+
+
+def test_a_civilization_legacy_line_does_not_point_back_and_is_tidied():
+    text = ("From then on the latter also shaped the language of the court. "
+            "It was the legal predecessor of  the present-day Federal Republic of Germany,")
+    scores = FixedScores({"From then on the latter also shaped the language of the court": 9,
+                          "It was the legal predecessor of  the present-day Federal Republic of Germany,": 8})
+    assert best_line(scores, CIVILIZATION, "Brandenburg", "civilization", text) \
+        == "It was the legal predecessor of the present-day Federal Republic of Germany."

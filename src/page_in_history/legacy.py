@@ -27,6 +27,7 @@ NAME_LIST = re.compile(r"this person\W+(?:\w+\W+){0,2}this person|\bas this pers
                        r"this person,? (?:or|also known as|known as|born|né|née) [A-Z]|this person of [A-Z]|"
                        r"pen.?name|referred to as|also called|nicknamed", re.IGNORECASE)
 MIN_WORDS = 6
+POINTING_BACK = re.compile(r"\b(?:the latter|the former|this same|that same|the result)\b", re.IGNORECASE)
 STEM_LETTERS = 5
 PROGRESS_EVERY = 500
 SECTIONS = re.compile(r"legacy|assessment|reputation|historiography|achievements|significance|influence|evaluation|"
@@ -214,9 +215,9 @@ def best_line(scores: LegacyScores, subject: Subject, name: str, role: str, text
     """The best-scored sentence of the text that says what the person or civilization is remembered for, with the
     names hidden when given; empty when none scores the subject's minimum or every good one would give the name away.
     A sentence that repeats the summary is not used, nor, where a line must stand on its own, one that leans on the
-    sentence before it ('However, …')."""
+    sentence before it ('However, …', '… the latter …')."""
     candidates = [sentence for sentence in sentences(re.sub(r"\s*\n+\s*", " ", text))
-                  if len(sentence.split()) >= MIN_WORDS and not (subject.standalone and LEANING.match(sentence))
+                  if len(sentence.split()) >= MIN_WORDS and not (subject.standalone and (LEANING.match(sentence) or POINTING_BACK.search(sentence)))
                   and not repeats(sentence, summary)]
     ranked = sorted(zip(scores.scores(subject, name, role, candidates), range(0, -len(candidates), -1), candidates),
                     reverse=True)
@@ -224,8 +225,8 @@ def best_line(scores: LegacyScores, subject: Subject, name: str, role: str, text
         if score < subject.min_score:
             break
         if line := hide(sentence, names) if names else sentence:
-            line = re.sub(r",\s*,", ",", line)
-            return line if re.search(r"[.!?\"”’)]$", line) else line + "."
+            line = line if re.search(r"[.!?\"”’)]$", line) else line + "."
+            return re.sub(r"\s{2,}", " ", re.sub(r",\s*([,.])", r"\1", line))
     return ""
 
 

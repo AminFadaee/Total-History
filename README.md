@@ -41,7 +41,7 @@ The legacy line is one sentence of the civilization's English Wikipedia article,
 scored for what the civilization is remembered for: inventions, law, institutions, religion, art and monuments, writing,
 science, trade, its influence on later peoples, being the largest or first of its kind, rather than its dates, extent,
 succession of rulers, a single event or one ruler's deeds. It needs a score of at least 7, and a sentence that mostly
-repeats what the civilization was, or that leans on the one before it ("However, …", "This …"), is not used. Its name
+repeats what the civilization was, or that leans on the one before it ("However, …", "This …", "the latter"), is not used. Its name
 is not hidden, since the card names it.
 
 When reputable sources disagree on a period's start or end, or on what came before or after in the home region, the card
