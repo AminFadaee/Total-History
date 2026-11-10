@@ -28,13 +28,21 @@ one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neig
 | Period | When: Achaemenid Empire | 550–330 BC | the period is confirmed, or Wikidata gives it as approximate (c. 57 BC – AD 892 for Silla), or the state still exists (since 1867 for Canada) |
 | Capital | Parthian Empire, capital: ?, on its map with the capitals dotted | Ctesiphon, Qumis, Nisa, named on the map | it has a capital; the map only when a capital's place is known |
 | Where | Where: Sasanian Empire | its map | it has a Map card |
+| Legacy | Han Dynasty, legacy: ? | what it is remembered for: "There were significant advances in science and technology during the Han period, including the invention of papermaking…" | a sentence of its article says it well enough (see below) |
 
 The backs of the Map, Period and Where cards also show what the civilization was (the opening sentence of its Wikipedia article without its
 subject, cut at "was", "refers to", "comprised" and the like; or its short description when that sentence cannot be cut
 or begins with a circumstance, "Under Islamic rule …"; when the article describes a place as it is today though the map
 stops drawing it before 1900, only a short description that dates it, "Ancient Mesoamerican city" for Teotihuacan, and
-nothing for medieval Norway), the capital, key figures, the civilizations before and after, and the modern countries
-on its territory.
+nothing for medieval Norway), its legacy, the capital, key figures, the civilizations before and after, and the modern
+countries on its territory. The backs of the other cards show its legacy too.
+
+The legacy line is one sentence of the civilization's English Wikipedia article, chosen like a figure's (see below) but
+scored for what the civilization is remembered for: inventions, law, institutions, religion, art and monuments, writing,
+science, trade, its influence on later peoples, being the largest or first of its kind, rather than its dates, extent,
+succession of rulers, a single event or one ruler's deeds. It needs a score of at least 7, and a sentence that mostly
+repeats what the civilization was, or that leans on the one before it ("However, …", "This …"), is not used. Its name
+is not hidden, since the card names it.
 
 When reputable sources disagree on a period's start or end, or on what came before or after in the home region, the card
 shows every value with its source: "First Bulgarian Empire or Francia", or under a period "Sources differ on the end:
@@ -144,7 +152,7 @@ cards rather than deleting them: deleted cards come back when you import an upda
 | [Cross-verified database of notable people](https://doi.org/10.21410/7E4/RDAG3O) (Laouenan et al., *Scientific Data*, 2022) | 2.29 million people with their Wikidata id, region, period and a visibility score built from language editions, page length, page views, external links and biographical completeness | Who can be a figure, how figures rank against their contemporaries, and a check on birthplaces and birth years |
 | [Meta-Wiki's list of articles every Wikipedia should have](https://meta.wikimedia.org/wiki/List_of_articles_every_Wikipedia_should_have) | 1,000 articles chosen by editors from many language communities | A safety net: the people on it are always considered |
 | [Pantheon](https://pantheon.world/) 2025 | Occupation and birthplace of 88,000 well-known people | Leaving out occupations such as sport and entertainment, telling rulers from others, the birthplace vote and the birthplace a figure is filed under |
-| [qwen3.5:4b](https://ollama.com/library/qwen3.5) through Ollama | A score from 0 to 10 for each sentence of a figure's article introduction (and legacy sections) | Choosing the legacy line |
+| [qwen3.5:4b](https://ollama.com/library/qwen3.5) through Ollama | A score from 0 to 10 for each sentence of a figure's or civilization's article introduction (and legacy sections) | Choosing the legacy line |
 | [Natural Earth](https://www.naturalearthdata.com/) | Today's borders, coastline and rivers | Maps, modern countries, today's country at a figure's birthplace |
 | [Wikimedia Commons](https://commons.wikimedia.org/) and [CLIP](https://github.com/openai/CLIP) | Images and an image model | Portraits and photographs |
 

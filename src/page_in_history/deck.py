@@ -144,12 +144,17 @@ def info(*lines: tuple[str, str]) -> str:
 
 
 CIVILIZATION_TITLE = '{{Name}}<div class="subtitle">{{Period}}</div>'
-CIVILIZATION_INFO = info(("What", "Summary"), ("Capital", "Capital"), ("Key figures", "Rulers"),
-                         ("Before", "BeforeList"), ("After", "AfterList"), ("Today", "ModernCountries"))
+CIVILIZATION_FACTS = (("What", "Summary"), ("Capital", "Capital"), ("Key figures", "Rulers"), ("Before", "BeforeList"),
+                      ("After", "AfterList"), ("Today", "ModernCountries"))
+CIVILIZATION_INFO = info(CIVILIZATION_FACTS[0], ("Legacy", "Legacy"), *CIVILIZATION_FACTS[1:])
+CIVILIZATION_LEGACY = info(("Legacy", "Legacy"))
 SUCCESSION_SLOTS = 3
 MAP_IMAGE = '<div class="image map">{{Map}}</div>'
 MAP_THUMBNAIL = '<div class="thumbnail map">{{Map}}</div>'
 NOTE = '<div class="note">{{{{{}}}}}</div>'
+LEGACY = '<div class="value {{LegacyLength}}">{{Legacy}}</div>'
+LEGACY_ANSWER = '<div class="value answer {{LegacyLength}}">{{Legacy}}</div>'
+LONG_LEGACY_WORDS = 30
 
 
 def slot(side: str, number: int) -> str:
@@ -166,7 +171,7 @@ def neighbour_template(side: str, number: int = 1) -> Template:
     return Template(field, (field,),
                     face(entity(CIVILIZATION_TITLE), label, UNKNOWN_VALUE),
                     face(entity(CIVILIZATION_TITLE), label, value(f"{{{{{field}}}}}", answered=True)) + note
-                    + MAP_THUMBNAIL)
+                    + CIVILIZATION_LEGACY + MAP_THUMBNAIL)
 
 
 CIVILIZATION_TEMPLATES = (
@@ -185,25 +190,26 @@ CIVILIZATION_TEMPLATES = (
              + conditional("CapitalMap", '<div class="image map">{{CapitalMap}}</div>'),
              face(entity(CIVILIZATION_TITLE), "Capital", value("{{Capital}}", answered=True))
              + conditional("CapitalMapAnswer", '<div class="image map">{{CapitalMapAnswer}}</div>')
-             + inverted("CapitalMapAnswer", MAP_THUMBNAIL)),
+             + CIVILIZATION_LEGACY + inverted("CapitalMapAnswer", MAP_THUMBNAIL)),
     Template("Where", ("AskMap",),
              face(entity(CIVILIZATION_TITLE), "Where", UNKNOWN_VALUE),
              face(entity(CIVILIZATION_TITLE), "Where", MAP_IMAGE) + CIVILIZATION_INFO),
+    Template("Legacy", ("Legacy",),
+             face(entity(CIVILIZATION_TITLE), "Legacy", UNKNOWN_VALUE),
+             face(entity(CIVILIZATION_TITLE), "Legacy", LEGACY_ANSWER) + info(*CIVILIZATION_FACTS) + MAP_THUMBNAIL),
 )
 
 CIVILIZATION_FIELDS = ("Id", "Name", "Map", "AskMap", "Period", "AskPeriod", "Capital", "Before", "BeforeRegion",
                        "After", "AfterRegion", "Rulers", "ModernCountries", "Summary", "BeforeList", "AfterList",
                        *(f"{slot(side, number)}{part}" for side in ("Before", "After")
                          for number in range(2, SUCCESSION_SLOTS + 1) for part in ("", "Region")),
-                       "PeriodNote", "BeforeNote", "AfterNote", "AskCapital", "CapitalMap", "CapitalMapAnswer")
+                       "PeriodNote", "BeforeNote", "AfterNote", "AskCapital", "CapitalMap", "CapitalMapAnswer", "Legacy",
+                       "LegacyLength")
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
 PHOTO = '<div class="value image photo">{{Photo}}</div>'
 PHOTO_CREDITED = '<div class="value image photo">{{Photo}}<div class="credit">{{PhotoCredit}}</div></div>'
-LEGACY = '<div class="value {{LegacyLength}}">{{Legacy}}</div>'
-LEGACY_ANSWER = '<div class="value answer {{LegacyLength}}">{{Legacy}}</div>'
-LONG_LEGACY_WORDS = 30
 FIGURE_INFO = info(("Civilization", "Civilization"), ("Setting", "Setting"), ("Known for", "Contribution"),
                    ("Related", "Related"))
 
@@ -417,6 +423,11 @@ def countries(names: list[str]) -> str:
     return f"{shown} and {hidden} more" if hidden > 0 else shown
 
 
+def legacy_fields(document: dict) -> dict:
+    line = document.get("legacy", "")
+    return {"Legacy": escaped(line), "LegacyLength": "long" if len(line.split()) > LONG_LEGACY_WORDS else ""}
+
+
 class MediaLibrary:
     def __init__(self, data_dir: pathlib.Path, build_dir: pathlib.Path):
         self.data_dir = data_dir
@@ -465,6 +476,7 @@ class DeckBuilder:
             **succession_fields(document),
             "Rulers": joined([figure["name"] for figure in document["key_figures"]], " · "),
             "Summary": escaped(document.get("summary", "")),
+            **legacy_fields(document),
             "ModernCountries": countries(document["modern_countries"])
                                + (f" · overseas: {countries(document['overseas_countries'])}" if document.get("overseas_countries") else ""),
         }
@@ -490,8 +502,7 @@ class DeckBuilder:
             "Photo": self.media.image(asked[0]) if asked else "",
             "PhotoCredit": escaped(asked[1]) if asked else "",
             "Related": joined([name for name in document["related"] if name in maps]),
-            "Legacy": escaped(document.get("legacy", "")),
-            "LegacyLength": "long" if len(document.get("legacy", "").split()) > LONG_LEGACY_WORDS else "",
+            **legacy_fields(document),
         }
         tags = figure_tags(document, civilizations)
         self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, document["id"])

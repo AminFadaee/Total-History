@@ -1,14 +1,16 @@
 """The pure rules the pipeline applies to source text, each on the cases that once went wrong or easily could."""
+import pathlib
+
 import pytest
 
 from page_in_history.births import Birth, agreed_birth
 from page_in_history.dates import Span, centuries, parse, parse_range, period_label
-from page_in_history.deck import century_tag, with_modern_country
+from page_in_history.deck import CIVILIZATION_TEMPLATES, century_tag, with_modern_country
 from page_in_history.figures import lifetime
-from page_in_history.legacy import hide, legacy_sections, name_forms
+from page_in_history.legacy import CIVILIZATION, LegacyScores, best_line, hide, legacy_sections, name_forms, repeats
 from page_in_history.photos import visible
 from page_in_history.polities import DATED, RulingRole, row_years, same_name
-from page_in_history.sentences import contribution, first_paragraph
+from page_in_history.sentences import contribution, first_paragraph, sentences
 from page_in_history.sources.wikidata import YEAR_PRECISION, Entity, Year
 
 
@@ -259,3 +261,37 @@ def test_a_legacy_line_hides_every_part_of_the_name(names, opening, sentence, hi
 def test_legacy_sections_are_found_by_heading():
     text = "Intro.\n\n== Early life ==\nBorn in Ulm.\n\n== Legacy ==\nHe founded modern physics.\n\n== Notes ==\nx"
     assert legacy_sections(text).strip() == "He founded modern physics."
+
+
+class FixedScores(LegacyScores):
+    def __init__(self, scores: dict[str, int]):
+        super().__init__(pathlib.Path("unused"))
+        self.fixed = scores
+
+    def scores(self, subject, name, role, sentences):
+        return [self.fixed.get(sentence, 0) for sentence in sentences]
+
+
+def test_a_sentence_ends_after_a_single_quote():
+    assert sentences("The caliphs were 'rightly guided'. Endowed with piety, their era is a golden age.") == [
+        "The caliphs were 'rightly guided'", "Endowed with piety, their era is a golden age."]
+
+
+def test_a_legacy_line_that_repeats_the_summary_is_not_used():
+    summary = "The largest contiguous empire in history."
+    assert repeats("The Mongol Empire was the largest contiguous empire in history", summary)
+    assert not repeats("It connected East and West in a Pax Mongolica, allowing the exchange of trade and ideas", summary)
+
+
+def test_a_civilization_legacy_line_stands_on_its_own_and_scores_seven():
+    text = ("The empire was the largest in history. However, it spread its laws across the region. "
+            "It spread its language, laws, and customs. Its rulers fought many wars with neighbours.")
+    scores = FixedScores({"The empire was the largest in history": 9, "However, it spread its laws across the region": 9,
+                          "It spread its language, laws, and customs": 7, "Its rulers fought many wars with neighbours.": 6})
+    assert best_line(scores, CIVILIZATION, "Mali Empire", "civilization", text, summary="The largest empire in history.") \
+        == "It spread its language, laws, and customs."
+    assert best_line(scores, CIVILIZATION, "Mali Empire", "civilization", "Its rulers fought many wars with neighbours.") == ""
+
+
+def test_every_civilization_card_back_shows_the_legacy_line():
+    assert all("{{Legacy}}" in template.back for template in CIVILIZATION_TEMPLATES)

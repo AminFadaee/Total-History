@@ -9,7 +9,7 @@ FILLER = {"the", "a", "an", "of", "from", "to", "and", "in", "ad", "bc", "bce", 
 SUBJECT_END = re.compile(r"\b(?:was|is|were|refers to|comprised|comprises|consisted of|consists of|denotes|describes)\s+",
                          re.IGNORECASE)
 PARENTHESES = re.compile(r"\s*\([^()]*\)")
-SENTENCE_END = re.compile(r"(?:(?<=[a-z0-9\])\"”])|(?<=\s[IVX]{2})|(?<=\s[IVX]{3})|(?<=\s[IVX]{4})|(?<=\s(?:AD|BC|CE))|(?<=\sBCE))"
+SENTENCE_END = re.compile(r"(?:(?<=[a-z0-9\])\"”'’])|(?<=\s[IVX]{2})|(?<=\s[IVX]{3})|(?<=\s[IVX]{4})|(?<=\s(?:AD|BC|CE))|(?<=\sBCE))"
                           r"(?<!\sDr)(?<!\sMr)(?<!\sMrs)(?<!\sSt)(?<!\sMt)(?<!\sc)(?<!\sca)\.\s+(?=[ʻ\"“]?[A-ZÀ-ÖØ-Þ])"
                           r"|(?<=\.[\"”])\s+(?=[A-Z])"
                           r"|(?<=\s[IVX])\.\s+(?=(?:He|She|His|Her|They|Their|The|In|After|During|It|As|Under)\b)")
@@ -54,7 +54,7 @@ def first_paragraph(extract: str) -> str:
 
 def sentences(paragraph: str) -> list[str]:
     """The sentences without parentheses; one does not end after "Dr.", "St." or "c.", and does after a quotation
-    ('… "the father of modern drama". He …')."""
+    ('… "the father of modern drama". He …', "… 'rightly guided'. Endowed …")."""
     return [sentence.strip() for sentence in SENTENCE_END.split(PARENTHESES.sub("", paragraph)) if sentence.strip()]
 
 

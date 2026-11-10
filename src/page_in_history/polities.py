@@ -201,6 +201,7 @@ class Polity:
     overseas_countries: list[str] = field(default_factory=list)
     borders: bool = True
     summary: str = ""
+    legacy: str = ""
     tier: str = ""
     map: str = ""
     map_asked: bool = True

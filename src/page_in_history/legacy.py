@@ -5,16 +5,20 @@ import os
 import pathlib
 import re
 import unicodedata
+from collections.abc import Callable
+from concurrent.futures import ThreadPoolExecutor
+from dataclasses import dataclass
 
 import requests
 
-from page_in_history.sentences import sentences
+from page_in_history.sentences import LEANING, sentences, words
 
 OLLAMA = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
 OLLAMA = OLLAMA if OLLAMA.startswith("http") else f"http://{OLLAMA}"
 MODEL = "qwen3.5:4b"
 MODEL_DIGEST = "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04"
-MIN_SCORE = 8
+WORKERS = 8
+MAX_SHARED_WORDS = 0.6
 MAX_MENTIONS = 2
 DERIVED = re.compile(r"(?:ian|ians|ean|eans|ist|ists|ism|isms|ismo|ista|istas|ismus|ic|ics|ite|ites|esque)$")
 TAGGED = re.compile(r"citation needed|reference demanded|clarification needed|according to whom|by whom|dubious|"
@@ -36,7 +40,7 @@ NUMERAL = re.compile(r"^(?:[IVXL]+|\d+(?:st|nd|rd|th)?)$")
 WORD = re.compile(r"[^\W\d_](?:[^\W\d_]|['’-][^\W\d_])*'?s?|[^\W\d_]+", re.UNICODE)
 OPENING_NAME = re.compile(r"^(.+?)\s*(?:\(|,| was | is | were )")
 ALSO_KNOWN = re.compile(r"(?:also known as|known as|born|or)\s+([A-Z][^,;()]+)")
-PROMPT = """Rate how well this sentence from a Wikipedia introduction says what the person is remembered for: their lasting contribution or historical significance (works, discoveries, founding, conquests, reforms, firsts, movements).
+FIGURE_PROMPT = """Rate how well this sentence from a Wikipedia introduction says what the person is remembered for: their lasting contribution or historical significance (works, discoveries, founding, conquests, reforms, firsts, movements).
 Low scores (0-3): identity only ("A Swedish writer"), offices and dates, family, birth or death circumstances, trivia.
 High scores (8-10): the achievement or significance itself.
 
@@ -44,6 +48,26 @@ Person: {name} ({role})
 Sentence: {sentence}
 
 Answer with a single integer from 0 to 10 and nothing else."""
+CIVILIZATION_PROMPT = """Rate how well this sentence from a Wikipedia article says what the civilization is remembered for: its lasting achievements or historical significance (inventions, law, institutions, religion, art and monuments, writing and language, science, trade, influence on later peoples, being the largest or first of its kind).
+Low scores (0-3): identity only ("A kingdom in West Africa"), founding and end dates, territorial extent, succession of rulers or dynasties, a single event (a coronation, a declaration, a battle, a treaty), one ruler's deeds, wars without lasting result, trivia.
+High scores (8-10): the achievement or significance itself, or what later ages inherited from it.
+
+Civilization: {name} ({role})
+Sentence: {sentence}
+
+Answer with a single integer from 0 to 10 and nothing else."""
+
+
+@dataclass(frozen=True)
+class Subject:
+    prompt: str
+    min_score: int
+    standalone: bool
+
+
+FIGURE = Subject(FIGURE_PROMPT, 8, standalone=False)
+CIVILIZATION = Subject(CIVILIZATION_PROMPT, 7, standalone=True)
+CIVILIZATION_ROLE = "civilization"
 
 logger = logging.getLogger(__name__)
 
@@ -129,9 +153,10 @@ def hide(sentence: str, names: list[str]) -> str | None:
 
 
 class LegacyScores:
-    """The model's scores of how well each sentence says what a person is remembered for, kept with the data so a build
-    gives the same legacy lines on any machine and the model reads only sentences it has not read before. The model is
-    qwen3.5:4b through Ollama, pinned to one digest, at temperature 0; OLLAMA_HOST points to another machine's Ollama."""
+    """The model's scores of how well each sentence says what a person or civilization is remembered for, kept with the
+    data so a build gives the same legacy lines on any machine and the model reads only sentences it has not read
+    before. The model is qwen3.5:4b through Ollama, pinned to one digest, at temperature 0, asked several sentences at a
+    time; OLLAMA_HOST points to another machine's Ollama."""
 
     def __init__(self, path: pathlib.Path):
         self.path = path
@@ -140,16 +165,19 @@ class LegacyScores:
         self.checked = False
         self.read = 0
 
-    def score(self, name: str, role: str, sentence: str) -> int:
-        key = hashlib.sha1(f"{name}\n{role}\n{sentence}".encode()).hexdigest()
-        if key not in self.saved:
+    def scores(self, subject: Subject, name: str, role: str, sentences: list[str]) -> list[int]:
+        keys = [hashlib.sha1(f"{name}\n{role}\n{sentence}".encode()).hexdigest() for sentence in sentences]
+        missing = {key: sentence for key, sentence in zip(keys, sentences) if key not in self.saved}
+        if missing:
             self._check_model()
-            self.saved[key] = self._ask(name, role, sentence)
-            self.read += 1
-            if self.read % PROGRESS_EVERY == 0:
-                logger.info("Scored %d new sentences for legacy", self.read)
-        self.used[key] = self.saved[key]
-        return self.used[key]
+            with ThreadPoolExecutor(WORKERS) as pool:
+                found = pool.map(lambda sentence: self._ask(subject.prompt, name, role, sentence), missing.values())
+                self.saved.update(zip(missing, found))
+            if (self.read + len(missing)) // PROGRESS_EVERY > self.read // PROGRESS_EVERY:
+                logger.info("Scored %d new sentences for legacy", self.read + len(missing))
+            self.read += len(missing)
+        self.used.update((key, self.saved[key]) for key in keys)
+        return [self.saved[key] for key in keys]
 
     def _check_model(self) -> None:
         if self.checked:
@@ -160,11 +188,11 @@ class LegacyScores:
         self.checked = True
 
     @staticmethod
-    def _ask(name: str, role: str, sentence: str) -> int:
+    def _ask(prompt: str, name: str, role: str, sentence: str) -> int:
         response = requests.post(f"{OLLAMA}/api/chat", timeout=300, json={
             "model": MODEL, "stream": False, "think": False, "keep_alive": "5m",
             "options": {"temperature": 0, "num_ctx": 2048, "num_predict": 6},
-            "messages": [{"role": "user", "content": PROMPT.format(name=name, role=role, sentence=sentence)}]})
+            "messages": [{"role": "user", "content": prompt.format(name=name, role=role, sentence=sentence)}]})
         found = re.search(r"\d+", response.json()["message"]["content"])
         return min(int(found.group()), 10) if found else 0
 
@@ -173,20 +201,31 @@ class LegacyScores:
         logger.info("Kept the legacy scores of %d sentences", len(self.used))
 
 
-def best_line(scores: LegacyScores, name: str, role: str, names: list[str], texts: list[str]) -> str:
-    """The best-scored sentence that says what the person is remembered for, from the first text that has one (the
-    article's introduction, then its legacy sections), with the person hidden; empty when none scores at least 5 or
-    every good one would give the name away."""
-    for text in texts:
-        candidates = [sentence for sentence in sentences(re.sub(r"\s*\n+\s*", " ", text)) if len(sentence.split()) >= MIN_WORDS]
-        ranked = sorted(((scores.score(name, role, sentence), -index, sentence) for index, sentence in enumerate(candidates)),
-                        reverse=True)
-        for score, _, sentence in ranked:
-            if score < MIN_SCORE:
-                break
-            if hidden := hide(sentence, names):
-                hidden = re.sub(r",\s*,", ",", hidden)
-                return hidden if re.search(r"[.!?\"”’)]$", hidden) else hidden + "."
+def repeats(sentence: str, summary: str) -> bool:
+    """Whether the sentence mostly says again what the summary says (the Mongol Empire 'was the largest contiguous
+    empire in history')."""
+    said, told = words(sentence), words(summary)
+    shared = len(said & told)
+    return bool(said and told) and max(shared / len(said), shared / len(told)) > MAX_SHARED_WORDS
+
+
+def best_line(scores: LegacyScores, subject: Subject, name: str, role: str, text: str, names: list[str] | None = None,
+              summary: str = "") -> str:
+    """The best-scored sentence of the text that says what the person or civilization is remembered for, with the
+    names hidden when given; empty when none scores the subject's minimum or every good one would give the name away.
+    A sentence that repeats the summary is not used, nor, where a line must stand on its own, one that leans on the
+    sentence before it ('However, …')."""
+    candidates = [sentence for sentence in sentences(re.sub(r"\s*\n+\s*", " ", text))
+                  if len(sentence.split()) >= MIN_WORDS and not (subject.standalone and LEANING.match(sentence))
+                  and not repeats(sentence, summary)]
+    ranked = sorted(zip(scores.scores(subject, name, role, candidates), range(0, -len(candidates), -1), candidates),
+                    reverse=True)
+    for score, _, sentence in ranked:
+        if score < subject.min_score:
+            break
+        if line := hide(sentence, names) if names else sentence:
+            line = re.sub(r",\s*,", ",", line)
+            return line if re.search(r"[.!?\"”’)]$", line) else line + "."
     return ""
 
 
@@ -196,18 +235,42 @@ def legacy_sections(text: str) -> str:
     return "\n".join(parts[index + 2] for index in range(1, len(parts) - 2, 3) if SECTIONS.search(parts[index + 1]))
 
 
+def legacy_lines(wikipedia, titles: list[str], pick: Callable[[int, str, str], str]) -> list[str]:
+    """Each article's legacy line, as pick(index, text, introduction) chooses it from the introduction, or else from
+    the legacy sections."""
+    introductions = wikipedia.introductions(titles)
+    openings = [introductions.get(title, ("", None))[0] for title in titles]
+    lines = [pick(index, opening, opening) for index, opening in enumerate(openings)]
+    unfound = [index for index, line in enumerate(lines) if not line]
+    articles = wikipedia.article_texts([titles[index] for index in unfound])
+    for index in unfound:
+        lines[index] = pick(index, legacy_sections(articles.get(titles[index], "")), openings[index])
+    return lines
+
+
 def add_legacy(figures: list, wikipedia, scores: LegacyScores) -> None:
-    """Each figure's legacy line: the best sentence of their article's introduction, or else of its legacy sections,
-    with the person hidden."""
-    introductions = wikipedia.introductions([figure.wikipedia for figure in figures])
-    unfound = []
-    for figure in figures:
-        introduction = introductions.get(figure.wikipedia, ("", None))[0]
+    """Each figure's legacy line, with the person hidden."""
+    def pick(index: int, text: str, introduction: str) -> str:
+        figure = figures[index]
         names = name_forms([figure.name, figure.wikipedia], introduction)
-        figure.legacy = best_line(scores, figure.name, figure.role, names, [introduction])
-        if not figure.legacy:
-            unfound.append((figure, names))
-    articles = wikipedia.article_texts([figure.wikipedia for figure, _ in unfound])
-    for figure, names in unfound:
-        figure.legacy = best_line(scores, figure.name, figure.role, names, [legacy_sections(articles.get(figure.wikipedia, ""))])
+        return best_line(scores, FIGURE, figure.name, figure.role, text, names)
+
+    for figure, line in zip(figures, legacy_lines(wikipedia, [figure.wikipedia for figure in figures], pick)):
+        figure.legacy = line
     logger.info("Found a legacy line for %d of %d figures", sum(bool(figure.legacy) for figure in figures), len(figures))
+
+
+def add_civilization_legacy(polities: list, wikipedia, scores: LegacyScores) -> None:
+    """Each civilization's legacy line, read from the article its title leads to (the Caliphate of Córdoba's is now
+    the Umayyad state of Córdoba's)."""
+    pages = wikipedia.resolve([polity.wikipedia for polity in polities])
+    titles = [pages[polity.wikipedia].title if polity.wikipedia in pages else polity.wikipedia for polity in polities]
+
+    def pick(index: int, text: str, _: str) -> str:
+        polity = polities[index]
+        return best_line(scores, CIVILIZATION, polity.name, CIVILIZATION_ROLE, text, summary=polity.summary)
+
+    for polity, line in zip(polities, legacy_lines(wikipedia, titles, pick)):
+        polity.legacy = line
+    logger.info("Found a legacy line for %d of %d civilizations", sum(bool(polity.legacy) for polity in polities),
+                len(polities))

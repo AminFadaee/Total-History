@@ -12,7 +12,7 @@ from page_in_history.errata import apply_errata, load_errata
 from page_in_history.figure_overrides import load_figure_overrides
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
-from page_in_history.legacy import LegacyScores, add_legacy
+from page_in_history.legacy import LegacyScores, add_civilization_legacy, add_legacy
 from page_in_history.lineages import Lineages
 from page_in_history.maps import MapJob, MapStyle, render_all
 from page_in_history.overrides import apply_overrides, apply_tiers, check_against_errata, load_overrides
@@ -147,6 +147,7 @@ class Collector:
                     ", ".join(figure_builder.joined))
         legacy_scores = LegacyScores(self.paths.root / "legacy_scores.json")
         add_legacy(figures, wikipedia, legacy_scores)
+        add_civilization_legacy(polities, wikipedia, legacy_scores)
         legacy_scores.save()
         self.failures: list[str] = []
         self._draw([polity for polity in polities if polity.borders], cliopatria, countries, builder)
