@@ -5,7 +5,7 @@
     "end": 2024
   },
   "civilizations": 496,
-  "figures": 3047,
+  "figures": 3046,
   "failures": [],
   "errata_dropped": [
     {
@@ -8916,6 +8916,12 @@
       "field": "tier",
       "action": "set",
       "value": "Extended"
+    },
+    {
+      "civilization": "Dál Riata",
+      "field": "after",
+      "action": "set",
+      "value": "Kingdom of Alba"
     }
   ],
   "needs_verification": [],
@@ -9059,6 +9065,46 @@
       "figure": "Tullus Hostilius",
       "field": "exclude",
       "value": "legend"
+    },
+    {
+      "figure": "Henry VIII",
+      "field": "contribution",
+      "value": "King of England from 1509 until his death in 1547."
+    },
+    {
+      "figure": "Henry VIII",
+      "field": "role",
+      "value": "King of England from 1509 to 1547"
+    },
+    {
+      "figure": "Maria Theresa",
+      "field": "contribution",
+      "value": "The ruler of the Habsburg Monarchy from 1740 until her death in 1780."
+    },
+    {
+      "figure": "Max Brod",
+      "field": "contribution",
+      "value": "Best remembered as the friend and biographer of Franz Kafka."
+    },
+    {
+      "figure": "Wolfgang Amadeus Mozart",
+      "field": "contribution",
+      "value": "A composer who wrote a wide range of works including piano concertos, string quartets, symphonies, operas, and sacred music."
+    },
+    {
+      "figure": "Hasanuddin of Gowa",
+      "field": "civilization",
+      "value": "Sultanate of Gowa"
+    },
+    {
+      "figure": "Heraclius II of Georgia",
+      "field": "civilization",
+      "value": "Kingdom of Kartli-Kakheti"
+    },
+    {
+      "figure": "Ian Smith",
+      "field": "civilization",
+      "value": "Rhodesia"
     }
   ],
   "figure_overrides_unused": [
