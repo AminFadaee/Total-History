@@ -17,7 +17,11 @@ MODEL_DIGEST = "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04
 MIN_SCORE = 8
 MAX_MENTIONS = 2
 DERIVED = re.compile(r"(?:ian|ians|ean|eans|ist|ists|ism|isms|ismo|ista|istas|ismus|ic|ics|ite|ites|esque)$")
-TAGGED = re.compile(r"citation needed|reference demanded|clarification needed|according to whom|by whom|dubious", re.IGNORECASE)
+TAGGED = re.compile(r"citation needed|reference demanded|clarification needed|according to whom|by whom|dubious|"
+                    r"pronunciation|\[|[^\x00-\u024f\u1e00-\u1eff\u2010-\u206f]", re.IGNORECASE)
+NAME_LIST = re.compile(r"this person\W+(?:\w+\W+){0,2}this person|\bas this person\b|"
+                       r"this person,? (?:or|also known as|known as|born|né|née) [A-Z]|this person of [A-Z]|"
+                       r"pen.?name|referred to as|also called|nicknamed", re.IGNORECASE)
 MIN_WORDS = 6
 STEM_LETTERS = 5
 PROGRESS_EVERY = 500
@@ -74,11 +78,12 @@ def name_forms(names: list[str], opening: str) -> list[str]:
 def hide(sentence: str, names: list[str]) -> str | None:
     """The sentence with the person replaced by 'this person', or None when any part of their name would remain. A run
     of their name words (with joining words and a regnal number inside it) becomes one mention; title words alone, such
-    as 'Emperor' in another ruler's title, are left as they are, and a title just before the name goes with it ('King
-    Sweyn's' becomes 'this person's'). A name that names something else (Rákóczi's War of Independence, the Tokugawa
-    shogunate), a word made from it (Zoroastrian), a sentence that lists the person's names, and one Wikipedia tags as
-    unsourced are not used."""
-    words = {fold(word) for form in names for word in WORD.findall(form) if fold(word) not in TITLES | COMMON and len(word) > 1}
+    as 'Emperor' in another ruler's title, are left as they are, and a title just before or after the name goes with it
+    ('King Sweyn's', 'Zahir Shah'). A name that names something else (Rákóczi's War of Independence, the Tokugawa
+    shogunate), a word made from it (Zoroastrian) or holding it (Bâkî in Abdülbâkî), a sentence that lists the person's
+    names or gives a pronunciation, and one Wikipedia tags as unsourced are not used."""
+    words = {fold(part) for form in names for word in WORD.findall(form) for part in [word, *re.split(r"[-’']", word)]
+             if fold(part) not in TITLES | COMMON and len(part) > 1}
     stems = {word[:STEM_LETTERS] for word in words}
     for token in WORD.findall(sentence):
         bare = fold(re.sub(r"['’]s?$", "", token))
@@ -93,8 +98,7 @@ def hide(sentence: str, names: list[str]) -> str | None:
             while end + 1 < len(tokens):
                 following = re.sub(r"^\W+|\W+$", "", tokens[end + 1].group())
                 if following and (stem(following) in stems or NUMERAL.match(following)
-                                  or (fold(following) in TITLES and end + 2 < len(tokens)
-                                      and stem(re.sub(r"^\W+|\W+$", "", tokens[end + 2].group())) in stems)):
+                                  or (fold(re.sub(r"['’]s?$", "", following)) in TITLES and following[:1].isupper())):
                     end += 1
                 else:
                     break
@@ -113,7 +117,10 @@ def hide(sentence: str, names: list[str]) -> str | None:
             out.append(tokens[index].group())
             index += 1
     text = " ".join(out)
-    if text.count("this person") > MAX_MENTIONS or "known as this person" in text or TAGGED.search(text):
+    if text.count("this person") > MAX_MENTIONS or NAME_LIST.search(text) or TAGGED.search(text):
+        return None
+    if any(word in bare for word in words if len(word) > 3 for bare in (fold(token) for token in WORD.findall(text))
+           if word != bare and bare not in ("this", "person")):
         return None
     if any(stem(word) in stems for word in WORD.findall(text) if fold(word) not in ("this", "person")):
         return None

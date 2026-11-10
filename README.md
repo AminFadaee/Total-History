@@ -361,7 +361,9 @@ they were, their offices, family or trivia; it needs a score of at least 8, so p
 have none. Every form of their name (the article's own, the name it opens with and what its first sentence also calls
 them, middle names and spelling variants included) is replaced by "this person", and a sentence where any part of the
 name would remain, where the name is part of something else's name (Rákóczi's War of Independence, the Tokugawa
-shogunate), that lists the person's names, or that Wikipedia tags as unsourced, is not used.
+shogunate), where a word is made from the name (Zoroastrian), that lists or glosses the person's names or gives a
+pronunciation, or that Wikipedia tags as unsourced, is not used; a title right before or after the name goes with it
+("King Olav's leadership" becomes "This person's leadership").
 The model is qwen3.5:4b, run through a local [Ollama](https://ollama.com) at temperature 0 and pinned to one digest; its
 scores are kept in `data/legacy_scores.json`, so a collect on the committed data needs Ollama only for sentences it has
 not scored before.
