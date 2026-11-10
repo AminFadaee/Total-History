@@ -201,6 +201,9 @@ FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
 PHOTO = '<div class="value image photo">{{Photo}}</div>'
 PHOTO_CREDITED = '<div class="value image photo">{{Photo}}<div class="credit">{{PhotoCredit}}</div></div>'
+LEGACY = '<div class="value {{LegacyLength}}">{{Legacy}}</div>'
+LEGACY_ANSWER = '<div class="value answer {{LegacyLength}}">{{Legacy}}</div>'
+LONG_LEGACY_WORDS = 30
 FIGURE_INFO = info(("Civilization", "Civilization"), ("Setting", "Setting"), ("Known for", "Contribution"),
                    ("Related", "Related"))
 
@@ -213,15 +216,15 @@ FIGURE_TEMPLATES = (
              face(UNKNOWN_ENTITY, "Portrait", PHOTO),
              face(entity(FIGURE_TITLE, answered=True), "Portrait", PHOTO_CREDITED) + FIGURE_INFO),
     Template("Legacy", ("Legacy",),
-             face(UNKNOWN_ENTITY, "Legacy", value("{{Legacy}}")),
-             face(entity(FIGURE_TITLE, answered=True), "Legacy", value("{{Legacy}}")) + FIGURE_INFO + PORTRAIT),
+             face(UNKNOWN_ENTITY, "Legacy", LEGACY),
+             face(entity(FIGURE_TITLE, answered=True), "Legacy", LEGACY) + FIGURE_INFO + PORTRAIT),
     Template("Legacy reverse", ("Legacy",),
              face(entity("{{Name}}"), "Legacy", UNKNOWN_VALUE),
-             face(entity(FIGURE_TITLE), "Legacy", value("{{Legacy}}", answered=True)) + FIGURE_INFO + PORTRAIT),
+             face(entity(FIGURE_TITLE), "Legacy", LEGACY_ANSWER) + FIGURE_INFO + PORTRAIT),
 )
 
 FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "Contribution", "Image", "ImageCredit",
-                 "ImageKind", "Photo", "PhotoCredit", "Related", "Setting", "Legacy")
+                 "ImageKind", "Photo", "PhotoCredit", "Related", "Setting", "Legacy", "LegacyLength")
 
 CSS = """
 .card {
@@ -239,6 +242,7 @@ CSS = """
 .divider { border: none; border-top: 1px solid var(--line); width: min(60%, 360px); margin: 14px auto; }
 .label { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
 .value { font-size: 24px; line-height: 1.35; max-width: 32em; margin: 0 auto; }
+.value.long { font-size: 19px; }
 .unknown { color: var(--faint); font-weight: 600; }
 .answer { color: var(--accent); font-weight: 700; }
 .image img { width: 100%; max-width: 900px; height: auto; max-height: 60vh; object-fit: contain; }
@@ -487,6 +491,7 @@ class DeckBuilder:
             "PhotoCredit": escaped(asked[1]) if asked else "",
             "Related": joined([name for name in document["related"] if name in maps]),
             "Legacy": escaped(document.get("legacy", "")),
+            "LegacyLength": "long" if len(document.get("legacy", "").split()) > LONG_LEGACY_WORDS else "",
         }
         tags = figure_tags(document, civilizations)
         self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, document["id"])

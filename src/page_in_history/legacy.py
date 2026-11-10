@@ -185,7 +185,8 @@ def best_line(scores: LegacyScores, name: str, role: str, names: list[str], text
             if score < MIN_SCORE:
                 break
             if hidden := hide(sentence, names):
-                return hidden
+                hidden = re.sub(r",\s*,", ",", hidden)
+                return hidden if re.search(r"[.!?\"”’)]$", hidden) else hidden + "."
     return ""
 
 
