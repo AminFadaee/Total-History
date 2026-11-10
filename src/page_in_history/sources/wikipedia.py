@@ -208,6 +208,16 @@ class Wikipedia:
                 found[page["title"]] = (page.get("extract") or "", page.get("pageprops", {}).get("wikibase-shortdesc"))
         return found
 
+    def article_texts(self, titles: list[str]) -> dict[str, str]:
+        """The plain text of whole articles with their == headings ==, one request each."""
+        found: dict[str, str] = {}
+        for title in sorted(set(titles)):
+            params = {"action": "query", "titles": title, "prop": "extracts", "explaintext": 1, "exsectionformat": "wiki",
+                      "format": "json", "formatversion": 2}
+            pages = self.http.json(API, params, namespace="wikipedia")["query"]["pages"]
+            found[title] = (pages[0].get("extract") or "") if pages else ""
+        return found
+
     def page_wikitext(self, title: str) -> str:
         params = {"action": "parse", "page": title, "prop": "wikitext", "format": "json", "formatversion": 2}
         return self.http.json(API, params, namespace="wikipedia")["parse"]["wikitext"]

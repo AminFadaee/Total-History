@@ -5,6 +5,7 @@ from page_in_history.births import Birth, agreed_birth
 from page_in_history.dates import Span, centuries, parse, parse_range, period_label
 from page_in_history.deck import century_tag, with_modern_country
 from page_in_history.figures import lifetime
+from page_in_history.legacy import hide, legacy_sections, name_forms
 from page_in_history.photos import visible
 from page_in_history.polities import DATED, RulingRole, row_years, same_name
 from page_in_history.sentences import contribution, first_paragraph
@@ -226,3 +227,35 @@ def test_modern_country_follows_the_first_state(names, country, shown):
 @pytest.mark.parametrize("value, earliest", [(300, 201), (1240, 1201), (901, 901), (-600, -600), (-550, -600), (-1, -100)])
 def test_a_century_is_the_one_holding_the_year(value, earliest):
     assert Year(value, YEAR_PRECISION - 2, False).earliest == earliest
+
+
+@pytest.mark.parametrize("names, opening, sentence, hidden", [
+    (["Alan Turing"], "Alan Mathison Turing (1912 – 1954) was an English mathematician.",
+     "Alan Mathison Turing was widely regarded as the father of theoretical computer science",
+     "This person was widely regarded as the father of theoretical computer science"),
+    (["Wisława Szymborska"], "Maria Wisława Anna Szymborska (1923 – 2012) was a Polish poet.",
+     "In Poland, Szymborska's books have reached sales rivaling prose authors",
+     "In Poland, this person's books have reached sales rivaling prose authors"),
+    (["Zhao Tuo"], "Zhao Tuo, also known as Emperor Wu and as Triệu Đà, was a Chinese general.",
+     "Triệu Đà founded the kingdom of Nanyue", "This person founded the kingdom of Nanyue"),
+    (["Catherine I of Russia"], "Catherine I (1684 – 1727) was Empress of Russia.",
+     "Catherine I was Empress of Russia from 1725", "This person was Empress of Russia from 1725"),
+    (["Emperor Wen of Chen"], "Emperor Wen of Chen (522–566) was an emperor.",
+     "He was succeeded by his brother, the Emperor Xuan", "He was succeeded by his brother, the Emperor Xuan"),
+    (["Francis II Rákóczi"], "Francis II Rákóczi (1676 – 1735) was a Hungarian nobleman.",
+     "He led Rákóczi's War of Independence against the Habsburgs", None),
+    (["Zoroaster"], "Zoroaster, also known as Zarathustra, was an Iranian reformer.",
+     "Zoroaster composed hymns that cover core Zoroastrian beliefs", None),
+    (["Tokugawa Yoshinobu"], "Prince Tokugawa Yoshinobu (1837 – 1913) was a Japanese samurai.",
+     "Yoshinobu was the 15th and last shōgun of the Tokugawa shogunate", None),
+    (["Olav V"], "Olav V (1903 – 1991) was King of Norway.",
+     "King Olav's leadership made him a symbol of Norwegian independence",
+     "This person's leadership made him a symbol of Norwegian independence"),
+])
+def test_a_legacy_line_hides_every_part_of_the_name(names, opening, sentence, hidden):
+    assert hide(sentence, name_forms(names, opening)) == hidden
+
+
+def test_legacy_sections_are_found_by_heading():
+    text = "Intro.\n\n== Early life ==\nBorn in Ulm.\n\n== Legacy ==\nHe founded modern physics.\n\n== Notes ==\nx"
+    assert legacy_sections(text).strip() == "He founded modern physics."

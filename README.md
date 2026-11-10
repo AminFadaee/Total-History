@@ -78,6 +78,8 @@ and cut to today's coastline.
 |---|---|---|---|
 | Who | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for, their civilization and its map, and today's country at their birthplace (Moshe Dayan: Ottoman Empire, modern-day Israel) | always |
 | Photo | a portrait | the person | a photograph of them alone is found (they died in 1860 or later; see below), or their Who card picture is a portrait made in their lifetime |
+| Legacy | what they are remembered for, without their name: "This person is most famously known as the builder of Angkor Wat…" | the person | a sentence of their article says it well enough (see below) |
+| Legacy reverse | Suryavarman II, legacy: ? | what they are remembered for | as for Legacy |
 
 Photographs and portraits made in the person's lifetime are asked about; the back of the card says which it is. The
 back of the Who card shows the person's picture labelled by kind: a photograph,
@@ -142,6 +144,7 @@ cards rather than deleting them: deleted cards come back when you import an upda
 | [Cross-verified database of notable people](https://doi.org/10.21410/7E4/RDAG3O) (Laouenan et al., *Scientific Data*, 2022) | 2.29 million people with their Wikidata id, region, period and a visibility score built from language editions, page length, page views, external links and biographical completeness | Who can be a figure, how figures rank against their contemporaries, and a check on birthplaces and birth years |
 | [Meta-Wiki's list of articles every Wikipedia should have](https://meta.wikimedia.org/wiki/List_of_articles_every_Wikipedia_should_have) | 1,000 articles chosen by editors from many language communities | A safety net: the people on it are always considered |
 | [Pantheon](https://pantheon.world/) 2025 | Occupation and birthplace of 88,000 well-known people | Leaving out occupations such as sport and entertainment, telling rulers from others, the birthplace vote and the birthplace a figure is filed under |
+| [qwen3.5:4b](https://ollama.com/library/qwen3.5) through Ollama | A score from 0 to 10 for each sentence of a figure's article introduction (and legacy sections) | Choosing the legacy line |
 | [Natural Earth](https://www.naturalearthdata.com/) | Today's borders, coastline and rivers | Maps, modern countries, today's country at a figure's birthplace |
 | [Wikimedia Commons](https://commons.wikimedia.org/) and [CLIP](https://github.com/openai/CLIP) | Images and an image model | Portraits and photographs |
 
@@ -275,6 +278,7 @@ Requires Python 3.13 and [uv](https://docs.astral.sh/uv/).
 
 ```sh
 uv sync --extra ml   # or plain `uv sync` and collect with --photos metadata
+ollama pull qwen3.5:4b   # scores legacy lines; needed only for sentences not yet in data/legacy_scores.json
 ```
 
 ```sh
@@ -348,6 +352,18 @@ passage and gives the date it was read. The state comes first among the person's
 card and today's country at the birthplace follow it, but it does not bring a civilization into the deck. An entry for
 someone the deck does not hold this time is listed under `figure_overrides_unused` in `data/report.json` instead of
 failing the collect.
+
+The legacy line is one sentence of the person's English Wikipedia article: the sentence of its introduction, or failing that of
+a section headed Legacy, Assessment, Reputation, Historiography or the like, that a language model scores highest, from 0 to
+10, for saying what the person is remembered for (works, discoveries, foundings, conquests, reforms, firsts) rather than who
+they were, their offices, family or trivia; it needs a score of at least 8, so people known only for holding an office
+have none. Every form of their name (the article's own, the name it opens with and what its first sentence also calls
+them, middle names and spelling variants included) is replaced by "this person", and a sentence where any part of the
+name would remain, where the name is part of something else's name (Rákóczi's War of Independence, the Tokugawa
+shogunate), that lists the person's names, or that Wikipedia tags as unsourced, is not used.
+The model is qwen3.5:4b, run through a local [Ollama](https://ollama.com) at temperature 0 and pinned to one digest; its
+scores are kept in `data/legacy_scores.json`, so a collect on the committed data needs Ollama only for sentences it has
+not scored before.
 
 Two language-inference models read texts for the successions and the key figures (DeBERTa, about 740 MB, and BART,
 about 1.6 GB). They come with the same extra, are downloaded into `cache/` the first time a text is new to them, and their

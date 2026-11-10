@@ -212,10 +212,16 @@ FIGURE_TEMPLATES = (
     Template("Photo", ("Photo",),
              face(UNKNOWN_ENTITY, "Portrait", PHOTO),
              face(entity(FIGURE_TITLE, answered=True), "Portrait", PHOTO_CREDITED) + FIGURE_INFO),
+    Template("Legacy", ("Legacy",),
+             face(UNKNOWN_ENTITY, "Legacy", value("{{Legacy}}")),
+             face(entity(FIGURE_TITLE, answered=True), "Legacy", value("{{Legacy}}")) + FIGURE_INFO + PORTRAIT),
+    Template("Legacy reverse", ("Legacy",),
+             face(entity("{{Name}}"), "Legacy", UNKNOWN_VALUE),
+             face(entity(FIGURE_TITLE), "Legacy", value("{{Legacy}}", answered=True)) + FIGURE_INFO + PORTRAIT),
 )
 
 FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "Contribution", "Image", "ImageCredit",
-                 "ImageKind", "Photo", "PhotoCredit", "Related", "Setting")
+                 "ImageKind", "Photo", "PhotoCredit", "Related", "Setting", "Legacy")
 
 CSS = """
 .card {
@@ -480,6 +486,7 @@ class DeckBuilder:
             "Photo": self.media.image(asked[0]) if asked else "",
             "PhotoCredit": escaped(asked[1]) if asked else "",
             "Related": joined([name for name in document["related"] if name in maps]),
+            "Legacy": escaped(document.get("legacy", "")),
         }
         tags = figure_tags(document, civilizations)
         self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, document["id"])

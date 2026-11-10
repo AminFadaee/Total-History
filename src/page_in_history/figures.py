@@ -87,6 +87,7 @@ class Figure:
     contribution: str
     setting: str = ""
     modern_country: str = ""
+    legacy: str = ""
     image: str = ""
     image_credit: str = ""
     image_kind: str = ""
