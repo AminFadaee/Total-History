@@ -279,6 +279,7 @@ Requires Python 3.13 and [uv](https://docs.astral.sh/uv/).
 ```sh
 uv sync --extra ml   # or plain `uv sync` and collect with --photos metadata
 ollama pull qwen3.5:4b   # scores legacy lines; needed only for sentences not yet in data/legacy_scores.json
+                         # (OLLAMA_HOST=http://other-machine:11434 uses another machine's Ollama)
 ```
 
 ```sh

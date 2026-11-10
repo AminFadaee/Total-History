@@ -1,6 +1,7 @@
 import hashlib
 import json
 import logging
+import os
 import pathlib
 import re
 import unicodedata
@@ -9,7 +10,8 @@ import requests
 
 from page_in_history.sentences import sentences
 
-OLLAMA = "http://localhost:11434"
+OLLAMA = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
+OLLAMA = OLLAMA if OLLAMA.startswith("http") else f"http://{OLLAMA}"
 MODEL = "qwen3.5:4b"
 MODEL_DIGEST = "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd"
 MIN_SCORE = 8
@@ -122,7 +124,7 @@ def hide(sentence: str, names: list[str]) -> str | None:
 class LegacyScores:
     """The model's scores of how well each sentence says what a person is remembered for, kept with the data so a build
     gives the same legacy lines on any machine and the model reads only sentences it has not read before. The model is
-    qwen3.5:4b through a local Ollama, pinned to one digest, at temperature 0."""
+    qwen3.5:4b through Ollama, pinned to one digest, at temperature 0; OLLAMA_HOST points to another machine's Ollama."""
 
     def __init__(self, path: pathlib.Path):
         self.path = path
