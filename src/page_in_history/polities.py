@@ -1778,14 +1778,24 @@ class PolityBuilder:
         return [name for name in dict.fromkeys(found) if name not in (identity.name, *parts)]
 
     def follow_map_years(self, polities: list[Polity], overrides: list) -> None:
-        """Redraws a civilization whose map year an override set: its parts follow the new year, and so do its modern
-        countries unless an override sets them too."""
+        """Redraws a civilization whose map year an override set, or whose period an override moved past its map year
+        (Mitanni, whose map showed 1500 BC before a period that begins c. 1475 BC), for which the largest extent is
+        found again within the new period: its parts follow the new year, and so do its modern countries unless an
+        override sets them too."""
         years = {o.civilization_id for o in overrides if o.field == "map_year" and o.action == "set"}
+        periods = {o.civilization_id for o in overrides if o.field == "period" and o.action == "set"}
         countries = {o.civilization_id for o in overrides if o.field == "modern_countries" and o.action == "set"}
         for polity in polities:
-            if polity.id not in years or not polity.borders:
+            if not polity.borders:
                 continue
             identity = self.catalog.identities[polity.name]
+            start, end = polity.period.start, polity.period.end
+            if polity.id in periods and polity.id not in years and start and end \
+                    and not start.earliest <= polity.map_year <= end.latest:
+                polity.map_year, _ = self._peak(identity.name, polity.parts, self.cliopatria.rows(identity.name),
+                                                polity.period, polity.capitals)
+            elif polity.id not in years:
+                continue
             listed = [self.catalog.by_qid[qid].name for qid in self.catalog.entities[identity.qid].ids("P527", preferred_only=False)
                       if qid in self.catalog.by_qid and qid != identity.qid]
             polity.parts = listed + self._pieces(identity, polity.map_year, listed)

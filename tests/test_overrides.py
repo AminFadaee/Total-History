@@ -116,7 +116,7 @@ class FakeEntity:
 class FakeWikidata:
     def entities(self, ids):
         return {"Q2": FakeEntity("Oldland"), "Q3": FakeEntity("Newtown", (1.0, 2.0)),
-                "Q4": FakeEntity("Ruler A"), "Q5": FakeEntity("Ruler B")}
+                "Q4": FakeEntity("Ruler A label"), "Q5": FakeEntity("Ruler B label")}
 
 
 def test_apply_every_field_and_action():

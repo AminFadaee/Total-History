@@ -165,7 +165,7 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
         elif override.field == "capital":
             _fill_capitals(polity, override, entities)
         elif override.field == "key_figures":
-            _fill_key_figures(polity, override, name_of)
+            _fill_key_figures(polity, override)
         elif override.field == "modern_countries":
             polity.modern_countries = list(override.value)
         elif override.field == "map_year":
@@ -262,8 +262,10 @@ def _capital(name: str, entity) -> dict:
     return {"name": name, "location": list(location) if location else None, "founded": founded}
 
 
-def _fill_key_figures(polity: Polity, override: Override, name_of) -> None:
-    figures = [{"id": qid, "name": name_of(qid)} for qid in override.value_ids]
+def _fill_key_figures(polity: Polity, override: Override) -> None:
+    """The people the override names, under the names it gives them, which are their English Wikipedia titles rather
+    than Wikidata's labels (Ferdinand III of Castile, not 'of Castille')."""
+    figures = [{"id": qid, "name": name} for qid, name in zip(override.value_ids, override.values)]
     kept = polity.key_figures if override.action == "add" else []
     if len(kept) + len(figures) > MAX_KEY_FIGURES:
         raise ValueError(f"{polity.name}: no room for the key figures {[figure['name'] for figure in figures]}")

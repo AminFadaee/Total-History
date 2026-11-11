@@ -346,6 +346,7 @@ the field does not apply, with the reason, in the civilization's `checks.not_app
 from a missing one; `dispute` records another value a different source gives for a period's start or end, or for the
 home `before` or `after`, which the card shows beside the deck's own; `same_state = true` on an added `before` or `after` marks it as the same state
 under another name. Setting `tier` is an editorial choice rather than a fact, so it gives its reason in `note` instead of a source.
+A `period` set by an override that leaves the map year outside it has the largest extent found again within it.
 Setting `map_year` redraws the map at that year, and the parts and modern countries follow it unless
 an override sets them as well. Each entry cites its source, a web page or a book with the page number, quotes the passage and gives the date it was read. A
 fact no single page states is built from smaller ones: the entry lists `sources`, each the fact it supports, its page
