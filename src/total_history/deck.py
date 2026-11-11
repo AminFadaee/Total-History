@@ -3,6 +3,8 @@ import html
 import logging
 import pathlib
 import re
+import unicodedata
+from collections import Counter
 from dataclasses import dataclass
 from datetime import date
 from urllib.parse import urlparse
@@ -22,6 +24,8 @@ TAG_UNSAFE = re.compile(r"[^\w-]+")
 MAX_MODERN_COUNTRIES = 10
 MAX_COUNTRY_TAGS = 3
 ASKED_KINDS = (PictureKind.PHOTOGRAPH, PictureKind.FROM_LIFE)
+NAME_WORD = re.compile(r"[^\W\d_]+")
+SETTLEMENT_WORDS = {"city"}
 SOURCE_NAMES = {"wikipedia.org": "Wikipedia", "wikidata.org": "Wikidata",
                 "worldhistory.org": "World History Encyclopedia", "britannica.com": "Britannica",
                 "iranicaonline.org": "Encyclopaedia Iranica", "treccani.it": "Treccani", "larousse.fr": "Larousse",
@@ -145,17 +149,14 @@ def info(*lines: tuple[str, str]) -> str:
 
 
 CIVILIZATION_TITLE = '{{Name}}<div class="subtitle">{{Period}}</div>'
-CIVILIZATION_FACTS = (("What", "Summary"), ("Capital", "Capital"), ("Key figures", "Rulers"), ("Before", "BeforeList"),
-                      ("After", "AfterList"), ("Today", "ModernCountries"))
-CIVILIZATION_INFO = info(CIVILIZATION_FACTS[0], ("Legacy", "Legacy"), *CIVILIZATION_FACTS[1:])
+CIVILIZATION_INFO = info(("What", "Summary"), ("Legacy", "Legacy"), ("Capital", "Capital"), ("Key figures", "Rulers"),
+                         ("Before", "BeforeList"), ("After", "AfterList"), ("Today", "ModernCountries"))
 CIVILIZATION_LEGACY = info(("Legacy", "Legacy"))
 SUCCESSION_SLOTS = 3
 MAP_IMAGE = '<div class="image map">{{Map}}</div>'
 MAP_THUMBNAIL = '<div class="thumbnail map">{{Map}}</div>'
 NOTE = '<div class="note">{{{{{}}}}}</div>'
-LEGACY = '<div class="value {{LegacyLength}}">{{Legacy}}</div>'
-LEGACY_ANSWER = '<div class="value answer {{LegacyLength}}">{{Legacy}}</div>'
-LONG_LEGACY_WORDS = 30
+LINKS = '<div class="links" data-qid="{{Id}}" data-query="{{Name}}"></div>'
 
 
 def slot(side: str, number: int) -> str:
@@ -195,45 +196,37 @@ CIVILIZATION_TEMPLATES = (
     Template("Where", ("AskMap",),
              face(entity(CIVILIZATION_TITLE), "Where", UNKNOWN_VALUE),
              face(entity(CIVILIZATION_TITLE), "Where", MAP_IMAGE) + CIVILIZATION_INFO),
-    Template("Legacy", ("Legacy",),
-             face(entity(CIVILIZATION_TITLE), "Legacy", UNKNOWN_VALUE),
-             face(entity(CIVILIZATION_TITLE), "Legacy", LEGACY_ANSWER) + info(*CIVILIZATION_FACTS) + MAP_THUMBNAIL),
 )
 
 CIVILIZATION_FIELDS = ("Id", "Name", "Map", "AskMap", "Period", "AskPeriod", "Capital", "Before", "BeforeRegion",
                        "After", "AfterRegion", "Rulers", "ModernCountries", "Summary", "BeforeList", "AfterList",
                        *(f"{slot(side, number)}{part}" for side in ("Before", "After")
                          for number in range(2, SUCCESSION_SLOTS + 1) for part in ("", "Region")),
-                       "PeriodNote", "BeforeNote", "AfterNote", "AskCapital", "CapitalMap", "CapitalMapAnswer", "Legacy",
-                       "LegacyLength")
+                       "PeriodNote", "BeforeNote", "AfterNote", "AskCapital", "CapitalMap", "CapitalMapAnswer", "Legacy")
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
 PHOTO = '<div class="value image photo">{{Photo}}</div>'
 PHOTO_CREDITED = '<div class="value image photo">{{Photo}}<div class="credit">{{PhotoCredit}}</div></div>'
-FIGURE_INFO = info(("Civilization", "Civilization"), ("Setting", "Setting"), ("Known for", "Contribution"),
-                   ("Related", "Related"))
-FIGURE_LEGACY_INFO = info(("Civilization", "Civilization"), ("Setting", "Setting"), ("Known for", "ContributionBesideLegacy"),
-                          ("Related", "Related"))
+FIGURE_ABOUT = conditional("KnownFor", '<div class="about">{{KnownFor}}</div>') \
+               + conditional("Legacy", '<div class="about">{{Legacy}}</div>')
+FIGURE_INFO = FIGURE_ABOUT + info(("Civilization", "Civilization"), ("Setting", "Setting"), ("Related", "Related"))
+CIVILIZATION_MAP = conditional("CivilizationMap", '<div class="thumbnail map">{{CivilizationMap}}</div>')
 
 FIGURE_TEMPLATES = (
     Template("Who", ("Role",),
              face(entity("{{Name}}"), "Who", UNKNOWN_VALUE),
-             face(entity(FIGURE_TITLE), "Who", value("{{Role}}", answered=True)) + FIGURE_INFO + PORTRAIT
-             + conditional("CivilizationMap", '<div class="thumbnail map">{{CivilizationMap}}</div>')),
+             face(entity(FIGURE_TITLE), "Who", value("{{Role}}", answered=True)) + FIGURE_INFO + PORTRAIT + CIVILIZATION_MAP),
     Template("Photo", ("Photo",),
              face(UNKNOWN_ENTITY, "Portrait", PHOTO),
              face(entity(FIGURE_TITLE, answered=True), "Portrait", PHOTO_CREDITED) + FIGURE_INFO),
-    Template("Legacy", ("Legacy",),
-             face(UNKNOWN_ENTITY, "Legacy", LEGACY),
-             face(entity(FIGURE_TITLE, answered=True), "Legacy", LEGACY) + FIGURE_LEGACY_INFO + PORTRAIT),
-    Template("Legacy reverse", ("Legacy",),
-             face(entity("{{Name}}"), "Legacy", UNKNOWN_VALUE),
-             face(entity(FIGURE_TITLE), "Legacy", LEGACY_ANSWER) + FIGURE_LEGACY_INFO + PORTRAIT),
+    Template("Who reverse", ("AskReverse",),
+             face(UNKNOWN_ENTITY, "Who", value("{{Role}}")) + FIGURE_ABOUT,
+             face(entity(FIGURE_TITLE, answered=True), "Who", value("{{Role}}")) + FIGURE_INFO + PORTRAIT + CIVILIZATION_MAP),
 )
 
-FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "Contribution", "Image", "ImageCredit",
-                 "ImageKind", "Photo", "PhotoCredit", "Related", "Setting", "Legacy", "LegacyLength", "ContributionBesideLegacy")
+FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "KnownFor", "Legacy", "AskReverse", "Image",
+                 "ImageCredit", "ImageKind", "Photo", "PhotoCredit", "Related", "Setting")
 
 CSS = """
 .card {
@@ -251,7 +244,7 @@ CSS = """
 .divider { border: none; border-top: 1px solid var(--line); width: min(60%, 360px); margin: 14px auto; }
 .label { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
 .value { font-size: 24px; line-height: 1.35; max-width: 32em; margin: 0 auto; }
-.value.long { font-size: 19px; }
+.about { font-size: 18px; line-height: 1.4; max-width: 32em; margin: 10px auto 0; }
 .unknown { color: var(--faint); font-weight: 600; }
 .answer { color: var(--accent); font-weight: 700; }
 .image img { width: 100%; max-width: 900px; height: auto; max-height: 60vh; object-fit: contain; }
@@ -265,6 +258,10 @@ CSS = """
 .photo img { max-height: 55vh; max-width: 100%; border-radius: 6px; }
 .credit { font-size: 12px; color: var(--muted); margin-top: 4px; }
 .note { font-size: 14px; color: var(--muted); margin: 8px auto 0; max-width: 32em; }
+.links { display: flex; justify-content: center; gap: 20px; margin-top: 22px; }
+.links a { color: var(--muted); line-height: 0; opacity: .8; }
+.links a:hover { color: var(--accent); opacity: 1; }
+.links svg { width: 22px; height: 22px; }
 """
 
 
@@ -334,6 +331,32 @@ MAP_ZOOM_SCRIPT = """
       event.stopPropagation();
       open(image, event);
     });
+  });
+})();
+</script>
+"""
+
+
+LINKS_SCRIPT = """
+<script>
+(function () {
+  var STROKE = 'fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"';
+  var ICONS = {
+    wikipedia: '<text x="12" y="18" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="19" font-weight="700" fill="currentColor">W</text>',
+    images: '<rect x="3" y="5" width="18" height="14" rx="2" ' + STROKE + '/><circle cx="9" cy="10" r="1.7" fill="currentColor"/><path d="M4 18l5-5 3 3 3-4 5 6" ' + STROKE + '/>',
+    youtube: '<rect x="2.5" y="5.5" width="19" height="13" rx="4" ' + STROKE + '/><path d="M10 9.2v5.6l5-2.8z" fill="currentColor"/>'
+  };
+  var root = document.getElementById("qa") || document.body;
+
+  function link(title, url, icon) {
+    return '<a href="' + url + '" title="' + title + '" aria-label="' + title + '"><svg viewBox="0 0 24 24">' + icon + '</svg></a>';
+  }
+
+  root.querySelectorAll(".links").forEach(function (box) {
+    var query = encodeURIComponent(box.dataset.query);
+    box.innerHTML = link("Wikipedia", "https://www.wikidata.org/wiki/Special:GoToLinkedPage/enwiki/" + box.dataset.qid, ICONS.wikipedia)
+      + link("Google Images", "https://www.google.com/search?tbm=isch&q=" + query, ICONS.images)
+      + link("YouTube", "https://www.youtube.com/results?search_query=" + query, ICONS.youtube);
   });
 })();
 </script>
@@ -426,9 +449,53 @@ def countries(names: list[str]) -> str:
     return f"{shown} and {hidden} more" if hidden > 0 else shown
 
 
-def legacy_fields(document: dict) -> dict:
-    line = document.get("legacy", "")
-    return {"Legacy": escaped(line), "LegacyLength": "long" if len(line.split()) > LONG_LEGACY_WORDS else ""}
+def name_words(text: str) -> list[str]:
+    plain = "".join(letter for letter in unicodedata.normalize("NFKD", text.lower()) if not unicodedata.combining(letter))
+    return NAME_WORD.findall(plain)
+
+
+def named_after(civilization: str, capital: str) -> bool:
+    """Whether the civilization's name holds the capital's, so that asking for it would give it away: Genoa for the
+    Republic of Genoa, Córdoba for the Caliphate of Córdoba, Mexico City for Mexico."""
+    words = [word for word in name_words(capital) if word not in SETTLEMENT_WORDS]
+    return bool(words) and set(words) <= set(name_words(civilization))
+
+
+def capital_asked(document: dict) -> bool:
+    """Whether the Capital card is made: not for a civilization named after every capital it has, most often its only
+    one."""
+    names = [capital["name"] for capital in document["capitals"]]
+    return bool(names) and not all(named_after(document["name"], name) for name in names)
+
+
+def known_for(document: dict) -> str:
+    """What the person is known for, left out when their legacy line says the same."""
+    return "" if repeats(document.get("legacy", ""), document["contribution"]) else document["contribution"]
+
+
+def described(document: dict) -> tuple[str, str, str]:
+    """What the Who reverse card shows of a person: their role, what they are known for and their legacy line."""
+    return document["role"], known_for(document), document.get("legacy", "")
+
+
+def told_apart(figures: list[dict]) -> set[str]:
+    """The people the Who reverse card can ask for: those described by more than their role, in words no one else in
+    the deck shares."""
+    shared = Counter(described(document) for document in figures)
+    return {document["id"] for document in figures if any(described(document)[1:]) and shared[described(document)] == 1}
+
+
+def study_order(civilizations: list[dict], figures: list[dict]) -> dict[str, int]:
+    """The position of each note among the new cards: civilizations by when they began, each followed by the people
+    filed first under it, by birth; someone under no civilization of the deck comes where their own life began."""
+    starts = {document["name"]: start_year(document) for document in civilizations}
+    places = {document["id"]: (starts[document["name"]], document["name"], 0, 0, "") for document in civilizations}
+    for document in figures:
+        home = next((name for name in document["civilizations"] if name in starts), None)
+        born = document["lifetime"][0]
+        places[document["id"]] = (starts[home], home, 1, born, document["name"]) if home \
+            else (born, document["name"], 1, born, "")
+    return {identity: position for position, identity in enumerate(sorted(places, key=places.get), start=1)}
 
 
 class MediaLibrary:
@@ -462,7 +529,7 @@ class DeckBuilder:
         self.root = genanki.Deck(stable_id(DECK_NAME), DECK_NAME, description())
         self.notes = 0
 
-    def add_civilization(self, document: dict) -> None:
+    def add_civilization(self, document: dict, position: int) -> None:
         period = document["period"]
         values = {
             "Id": document["id"],
@@ -473,20 +540,20 @@ class DeckBuilder:
             "AskPeriod": "yes" if period_text(period) else "",
             "PeriodNote": "<br>".join(escaped(text) for end in ("start", "end") if (text := dispute_text(document, end))),
             "Capital": joined([capital["name"] for capital in document["capitals"]]),
-            "AskCapital": "yes" if document["capitals"] else "",
+            "AskCapital": "yes" if capital_asked(document) else "",
             "CapitalMap": self.media.image(document.get("capital_map", "")),
             "CapitalMapAnswer": self.media.image(document.get("capital_map_answer", "")),
             **succession_fields(document),
             "Rulers": joined([figure["name"] for figure in document["key_figures"]], " · "),
             "Summary": escaped(document.get("summary", "")),
-            **legacy_fields(document),
+            "Legacy": escaped(document.get("legacy", "")),
             "ModernCountries": countries(document["modern_countries"])
                                + (f" · overseas: {countries(document['overseas_countries'])}" if document.get("overseas_countries") else ""),
         }
         self._add(self.civilization_model, CIVILIZATION_FIELDS, CIVILIZATION_TEMPLATES, values,
-                  civilization_tags(document), document["id"])
+                  civilization_tags(document), document["id"], position)
 
-    def add_figure(self, document: dict, maps: dict[str, str]) -> None:
+    def add_figure(self, document: dict, maps: dict[str, str], position: int, reversible: bool) -> None:
         """Only civilizations in the deck are shown, so each one named has its own map and cards."""
         civilizations = [name for name in document["civilizations"] if name in maps]
         asked = asked_picture(document)
@@ -498,19 +565,18 @@ class DeckBuilder:
             "Civilization": joined(with_modern_country(civilizations, document)),
             "Setting": "" if civilizations else joined(with_modern_country([document.get("setting", "")], document)),
             "CivilizationMap": self.media.image(maps[civilizations[0]]) if civilizations else "",
-            "Contribution": escaped(document["contribution"]),
-            "ContributionBesideLegacy": "" if repeats(document.get("legacy", ""), document["contribution"])
-                                        else escaped(document["contribution"]),
+            "KnownFor": escaped(known_for(document)),
+            "Legacy": escaped(document.get("legacy", "")),
+            "AskReverse": "yes" if reversible else "",
             "Image": self.media.image(document["image"]),
             "ImageCredit": escaped(document["image_credit"]),
             "ImageKind": document.get("image_kind") or "Depiction",
             "Photo": self.media.image(asked[0]) if asked else "",
             "PhotoCredit": escaped(asked[1]) if asked else "",
             "Related": joined([name for name in document["related"] if name in maps]),
-            **legacy_fields(document),
         }
         tags = figure_tags(document, civilizations)
-        self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, document["id"])
+        self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, document["id"], position)
 
     def write(self, output: pathlib.Path) -> None:
         if self.media.missing:
@@ -520,13 +586,13 @@ class DeckBuilder:
         package.write_to_file(str(output))
         logger.info("Wrote %d notes and %d media files to %s", self.notes, len(self.media.files), output)
 
-    def _add(self, model, fields, templates, values, tags, identity: str) -> None:
+    def _add(self, model, fields, templates, values, tags, identity: str, position: int) -> None:
         cards = [genanki.Card(ord) for ord, template in enumerate(templates)
                  if all(values[field] for field in template.requires)]
         if not cards:
             return
         note = AskedNote(cards, model=model, fields=[values[name] for name in fields], tags=sorted(set(tags)),
-                          guid=genanki.guid_for(identity))
+                          guid=genanki.guid_for(identity), due=position)
         self.root.add_note(note)
         self.notes += 1
 
@@ -536,8 +602,8 @@ class DeckBuilder:
             model_id,
             name,
             fields=[{"name": field} for field in fields],
-            templates=[Template(t.name, t.requires, guarded(t.requires, t.front), t.back)
-                       .as_genanki(MAP_ZOOM_SCRIPT) for t in templates],
+            templates=[Template(t.name, t.requires, guarded(t.requires, t.front), t.back + LINKS)
+                       .as_genanki(MAP_ZOOM_SCRIPT + LINKS_SCRIPT) for t in templates],
             css=CSS + MAP_ZOOM_CSS,
             sort_field_index=1,
         )
@@ -551,9 +617,10 @@ def start_year(document: dict) -> int:
 def build_deck(civilizations: list[dict], figures: list[dict], data_dir: pathlib.Path, build_dir: pathlib.Path,
                output: pathlib.Path) -> None:
     builder = DeckBuilder(data_dir, build_dir)
-    for document in sorted(civilizations, key=start_year):
-        builder.add_civilization(document)
     maps = {document["name"]: document["map"] for document in civilizations}
-    for document in sorted(figures, key=lambda document: document["name"]):
-        builder.add_figure(document, maps)
+    reversible, positions = told_apart(figures), study_order(civilizations, figures)
+    for document in civilizations:
+        builder.add_civilization(document, positions[document["id"]])
+    for document in figures:
+        builder.add_figure(document, maps, positions[document["id"]], document["id"] in reversible)
     builder.write(output)

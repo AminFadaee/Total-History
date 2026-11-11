@@ -29,9 +29,8 @@ one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neig
 | Before | Sasanian Empire, before it in Iran: ? | Parthian Empire | the previous ruler of its home region is confirmed |
 | Before2, Before3, After2, After3 | Mongol Empire, before it in Kyrgyzstan: ? | Kara-Khitans | another region it took over or handed on (up to three a side) |
 | Period | When: Achaemenid Empire | 550–330 BC | the period is confirmed, or Wikidata gives it as approximate (c. 57 BC – AD 892 for Silla), or the state still exists (since 1867 for Canada) |
-| Capital | Parthian Empire, capital: ?, on its map with the capitals dotted | Ctesiphon, Qumis, Nisa, named on the map | it has a capital; the map only when a capital's place is known |
+| Capital | Parthian Empire, capital: ?, on its map with the capitals dotted | Ctesiphon, Qumis, Nisa, named on the map | it has a capital and is not named after it (see below); the map only when a capital's place is known |
 | Where | Where: Sasanian Empire | its map | it has a Map card |
-| Legacy | Han Dynasty, legacy: ? | what it is remembered for: "There were significant advances in science and technology during the Han period, including the invention of papermaking…" | a sentence of its article says it well enough (see below) |
 
 <p>
   <img src="docs/samples/civilization-map.webp" width="49%" alt="Map card for the Parthian Empire">
@@ -39,7 +38,6 @@ one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neig
   <img src="docs/samples/civilization-period.webp" width="49%" alt="Period card for the Achaemenid Empire">
   <img src="docs/samples/civilization-capital.webp" width="49%" alt="Capital card for the Parthian Empire">
   <img src="docs/samples/civilization-where.webp" width="49%" alt="Where card for the Sasanian Empire">
-  <img src="docs/samples/civilization-legacy.webp" width="49%" alt="Legacy card for the Han Dynasty">
 </p>
 
 The backs of the Map, Period and Where cards also show what the civilization was (the opening sentence of its Wikipedia article without its
@@ -47,7 +45,12 @@ subject, cut at "was", "refers to", "comprised" and the like; or its short descr
 or begins with a circumstance, "Under Islamic rule …"; when the article describes a place as it is today though the map
 stops drawing it before 1900, only a short description that dates it, "Ancient Mesoamerican city" for Teotihuacan, and
 nothing for medieval Norway), its legacy, the capital, key figures, the civilizations before and after, and the modern
-countries on its territory. The backs of the other cards show its legacy too.
+countries on its territory. The backs of the other cards show its legacy too. The legacy is there to read, not to be
+asked: no card asks for it.
+
+No Capital card is made for a civilization named after its capital (Genoa for the Republic of Genoa, Córdoba for the
+Caliphate of Córdoba, Mexico City for Mexico), since the question would answer itself; the capital is still shown on the
+other cards. One with several capitals is asked for all of them, unless its name holds every one.
 
 The legacy line is one sentence of the civilization's English Wikipedia article, chosen like a figure's (see below) but
 scored for what the civilization is remembered for: inventions, law, institutions, religion, art and monuments, writing,
@@ -100,16 +103,14 @@ and cut to today's coastline.
 
 | Card | Question | Answer | Made only when |
 |---|---|---|---|
-| Who | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for, their civilization and its map, and today's country at their birthplace (Moshe Dayan: Ottoman Empire, modern-day Israel) | always |
+| Who | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for and their legacy line beneath, their civilization and its map, and today's country at their birthplace (Moshe Dayan: Ottoman Empire, modern-day Israel) | always |
 | Photo | a portrait | the person | a photograph of them alone is found (they died in 1860 or later; see below), or their Who card picture is a portrait made in their lifetime |
-| Legacy | what they are remembered for, without their name: "He is most famously known as the builder of Angkor Wat…" | the person | a sentence of their article says it well enough (see below) |
-| Legacy reverse | Suryavarman II, legacy: ? | what they are remembered for | as for Legacy |
+| Who reverse | the description without the name: "Emperor of the Khmer Empire from 1113 to 1150 · … · He is most famously known as the builder of Angkor Wat…" | the person | they have a Known for or a legacy line, and no one else in the deck is described in the same words |
 
 <p>
   <img src="docs/samples/figure-who.webp" width="49%" alt="Who card for Cyrus the Great">
   <img src="docs/samples/figure-photo.webp" width="49%" alt="Photo card for Albert Einstein">
-  <img src="docs/samples/figure-legacy.webp" width="49%" alt="Legacy card for Suryavarman II">
-  <img src="docs/samples/figure-legacy-reverse.webp" width="49%" alt="Legacy reverse card for Suryavarman II">
+  <img src="docs/samples/figure-who-reverse.webp" width="49%" alt="Who reverse card for Suryavarman II">
 </p>
 
 Photographs and portraits made in the person's lifetime are asked about; the back of the card says which it is. The
@@ -157,6 +158,12 @@ Notes are tagged so you can filter or suspend groups of them:
   Caliphate of Córdoba beside the Emirate of Córdoba). Tiers judge the civilization as its cards show it, after the
   overrides, and an override can set a tier by hand with its reason (the Saxons, a people the sources give a duke and
   a period, stay Extended)
+
+The back of every card ends with a row of small links that open in your browser: the Wikipedia article, a Google Images
+search and a YouTube search for the civilization or person.
+
+New cards come in the order of history: civilizations by when they began, each followed by the people filed first under
+it, by birth; someone whose state has no civilization card comes where their own life began.
 
 To study one kind of question, make a filtered deck from a search such as `card:Capital`,
 `tag:TH::Category::Figures` or `tag:TH::Tier::Essential`. To skip a kind, find it in the browser and suspend the
