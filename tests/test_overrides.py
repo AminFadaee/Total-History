@@ -58,7 +58,7 @@ def reflected(override, civilization) -> bool:
                    for end, year in override.value.items() if end != "circa")
     if override.field == "tier":
         return civilization["tier"] == override.value
-    if override.field in ("map_year", "summary"):
+    if override.field in ("map_year", "summary", "legacy"):
         return civilization[override.field] == override.value
     if override.field == "modern_countries":
         return civilization["modern_countries"] == override.value
