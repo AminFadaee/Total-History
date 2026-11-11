@@ -15367,3 +15367,31 @@ value = { start = 932 }
 source = "https://en.wikipedia.org/wiki/Sunda_Kingdom"
 quote = "was a Sundanese Hindu kingdom located in the western portion of the island of Java from 932 AD to around 1579"
 retrieved = 2026-11-11
+
+[[override]]
+civilization = "United States of America"
+civilization_id = "Q30"
+field = "map_year"
+action = "set"
+value = 1940
+retrieved = 2026-11-11
+needs_verification = false
+note = "the last year before the wartime occupations; from 1945 Cliopatria draws the American occupation zone of Germany as United States territory, which the largest-extent rule would otherwise show"
+sources = [
+  { fact = "The United States existed in the year 1940 (Roosevelt re-elected, 1940)", source = "https://en.wikipedia.org/wiki/History_of_the_United_States", quote = "The New Deal coalition won re-election for Roosevelt in 1936, 1940, and 1944." },
+]
+derivation = "the source shows the state existing at the map year"
+
+[[override]]
+civilization = "Francoist Spain"
+civilization_id = "Q13474305"
+field = "after"
+action = "add"
+value = "Kingdom of Spain"
+value_id = "Q29"
+region = "Spain"
+source = "https://en.wikipedia.org/wiki/Juan_Carlos_I"
+quote = "Franco died on 20 November 1975, and two days later on 22 November the Cortes Españolas proclaimed Juan Carlos King of Spain."
+retrieved = 2026-11-12
+needs_verification = false
+note = "the monarchy followed Franco's state; Wikidata names only the transition to democracy, a change of regime and not a state"

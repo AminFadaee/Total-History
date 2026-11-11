@@ -3,7 +3,7 @@
   "slug": "united-states-of-america",
   "name": "United States of America",
   "wikipedia": "United States",
-  "map_year": 1945,
+  "map_year": 1940,
   "period": {
     "start": {
       "earliest": 1784,
@@ -61,10 +61,7 @@
     "United States"
   ],
   "overseas_countries": [
-    "Greenland",
-    "Philippines",
-    "Iceland",
-    "Palau"
+    "Philippines"
   ],
   "borders": true,
   "summary": "A country primarily located in North America.",
@@ -97,7 +94,8 @@
     "labelled": [
       "Canada",
       "Mexico",
-      "French Fourth Republic",
+      "Greenland",
+      "Nazi Germany",
       "Venezuela"
     ]
   }

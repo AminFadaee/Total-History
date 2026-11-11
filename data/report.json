@@ -1347,12 +1347,6 @@
       "value": "The old Gallo-Roman aristocrats had survived in prestige and as an institution by taking up the episcopal offices, and they were now put in charge of fields such as justice, infrastructure, education and social services."
     },
     {
-      "civilization": "Francoist Spain",
-      "figure": "",
-      "field": "legacy",
-      "value": "The rapid development of this period became known as the \"Spanish Miracle\""
-    },
-    {
       "civilization": "Free Orange State",
       "figure": "",
       "field": "legacy",
@@ -1605,12 +1599,6 @@
       "value": "The dynasty contributed to the conditions for Portugal's maritime expansion, elevating it in European politics and culture."
     },
     {
-      "civilization": "Principality of Hungary",
-      "figure": "",
-      "field": "legacy",
-      "value": "The change from a ranked chiefdom society to a state society was one of the most important developments during this time."
-    },
-    {
       "civilization": "Principality of Wallachia",
       "figure": "",
       "field": "legacy",
@@ -1831,12 +1819,6 @@
       "figure": "Bona Sforza",
       "field": "legacy",
       "value": "Wanting to ensure the continuity of the Jagiellonian dynasty on the Polish throne, the royal couple decided to make the nobles and magnates recognise their only surviving son, the minor Sigismund II Augustus, as heir to the throne."
-    },
-    {
-      "civilization": "",
-      "figure": "Buenaventura Báez",
-      "field": "legacy",
-      "value": "They proposed to establish an institutionalized democratic regime that would guarantee national sovereignty and the country's march towards progress."
     },
     {
       "civilization": "",
@@ -2152,12 +2134,6 @@
     },
     {
       "civilization": "",
-      "figure": "Muhammad Metwalli al-Sha'rawi",
-      "field": "legacy",
-      "value": "During this time, he issued a law that helped establish the first Islamic bank in Egypt in 1979."
-    },
-    {
-      "civilization": "",
       "figure": "Murad III",
       "field": "legacy",
       "value": "This person's name was recited in the Friday prayer and stamped on coinage marking the two traditional signs of sovereignty in the Islamic world."
@@ -2221,12 +2197,6 @@
       "figure": "Rasoherina",
       "field": "legacy",
       "value": "One year after taking the throne, this person deposed Rainivoninahitriniony, appointed his younger brother Rainilaiarivony as prime minister in his stead and contracted a political marriage with him in turn."
-    },
-    {
-      "civilization": "",
-      "figure": "Roman the Great",
-      "field": "legacy",
-      "value": "In 1201–1202 and 1203–1204 this person led two successful campaigns against the Cumans, who were allied with Rurik during that time, and captured Kyiv, installing his brother-in-law Rostislav Rurikovich as its prince."
     },
     {
       "civilization": "",
@@ -2335,12 +2305,6 @@
       "figure": "William D. Coleman",
       "field": "legacy",
       "value": "This person centered his policies on three cornerstones: education, finances, and interior policy."
-    },
-    {
-      "civilization": "",
-      "figure": "William of Rosenberg",
-      "field": "legacy",
-      "value": "They created a library with a vast collection of precious manuscripts and incunables."
     },
     {
       "civilization": "",
@@ -2997,12 +2961,6 @@
       "value": "Teotihuacan, with a population of more than 150,000, had some of the largest pyramidal structures in the pre-Columbian Americas."
     },
     {
-      "civilization": "Old Kingdom of Norway",
-      "figure": "",
-      "field": "legacy",
-      "value": "Burial cairns built close to the sea as far north as Harstad and also inland in the south are characteristic of this period, with rock carving motifs that differ from those of the Stone Age, depicting ships resembling the Hjortspring boat, while large stone burial monuments known as stone ships were also erected."
-    },
-    {
       "civilization": "Portuguese Republic",
       "figure": "",
       "field": "legacy",
@@ -3562,12 +3520,6 @@
     },
     {
       "civilization": "",
-      "figure": "Sabbatai Zevi",
-      "field": "legacy",
-      "value": "They included ideas about the redemption of the Jews and their return to the land of Israel with independent sovereignty."
-    },
-    {
-      "civilization": "",
       "figure": "Saint Remigius",
       "field": "legacy",
       "value": "Because of Clovis's efforts, a large number of churches were established in the formerly pagan lands of the Frankish empire, establishing Catholicism for the first time in Germanic lands, most of whom had been converted to Arian Christianity."
@@ -3583,12 +3535,6 @@
       "figure": "Suluk",
       "field": "legacy",
       "value": "This person, Sul-lu or this person was a Türgesh tribal leader and a Qaghan who defended Transoxiana against Umayyad conquest in the early 8th century."
-    },
-    {
-      "civilization": "",
-      "figure": "Tom of Finland",
-      "field": "legacy",
-      "value": "They also contributed to the spread of a new gay masculinity and confidence."
     },
     {
       "civilization": "",
@@ -12717,6 +12663,18 @@
       "value": {
         "start": 932
       }
+    },
+    {
+      "civilization": "United States of America",
+      "field": "map_year",
+      "action": "set",
+      "value": 1940
+    },
+    {
+      "civilization": "Francoist Spain",
+      "field": "after",
+      "action": "add",
+      "value": "Kingdom of Spain"
     }
   ],
   "needs_verification": [],
