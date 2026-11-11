@@ -405,3 +405,14 @@ def test_a_legacy_line_keeps_particles_and_other_names(names, realms, sentence, 
 def test_a_name_particle_at_the_start_of_a_sentence_goes_with_the_name():
     assert hide("Del Pilar founded the Diariong Tagalog newspaper", name_forms(["Marcelo H. del Pilar"], "")) \
         == "This person founded the Diariong Tagalog newspaper"
+
+
+def test_a_figure_erratum_drops_a_wrong_state_or_known_for_line():
+    from types import SimpleNamespace
+    from page_in_history.errata import apply_figure_errata
+    figure = SimpleNamespace(name="Kimpa Vita", civilizations=["Kathmandu", "Kingdom of Kongo"], related=[], contribution="A fragment.")
+    errata = [Erratum("civilizations", "Kathmandu", "No tie.", figure="Kimpa Vita"),
+              Erratum("contribution", "A fragment.", "Says nothing.", figure="Kimpa Vita"),
+              Erratum("civilizations", "Mali Empire", "No tie.", figure="Kimpa Vita")]
+    assert apply_figure_errata([figure], errata) == errata[:2]
+    assert figure.civilizations == ["Kingdom of Kongo"] and figure.contribution == ""

@@ -256,7 +256,11 @@ def test_every_erratum_matched_something_in_the_last_collect(civilizations, figu
     people = {figure["name"]: figure for figure in figures.values()}
     for entry in errata:
         subject = civilizations[entry["civilization"]] if "civilization" in entry else people[entry["figure"]]
-        if entry["field"] == "legacy":
-            assert subject.get("legacy", "") != entry["value"], entry
+        if entry["field"] in ("legacy", "contribution"):
+            assert subject.get(entry["field"], "") != entry["value"], entry
+        elif entry["field"] == "civilizations":
+            assert entry["value"] not in subject["civilizations"] + subject["related"], entry
+        elif entry["field"] == "modern_countries":
+            assert entry["value"] not in subject["modern_countries"], entry
         else:
             assert entry["value"] not in [answer["name"] for answer in subject[entry["field"]]], entry

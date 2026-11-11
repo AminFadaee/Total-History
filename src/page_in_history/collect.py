@@ -8,7 +8,7 @@ from urllib.parse import quote
 
 from PIL import Image
 
-from page_in_history.errata import apply_errata, legacy_rejections, load_errata, passed_legacy
+from page_in_history.errata import apply_errata, apply_figure_errata, legacy_rejections, load_errata, passed_legacy
 from page_in_history.figure_overrides import load_figure_overrides
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
@@ -138,7 +138,7 @@ class Collector:
         scores.save()
         errata, overrides = load_errata(self.paths.errata), load_overrides(self.paths.overrides)
         check_against_errata(overrides, errata)
-        dropped = apply_errata(polities, errata)
+        dropped = apply_errata(polities, errata) + apply_figure_errata(figures, errata)
         applied = apply_overrides(polities, overrides, wikidata)
         builder.follow_map_years(polities, applied)
         builder.assign_tiers(polities)

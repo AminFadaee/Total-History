@@ -394,8 +394,7 @@ def succession_fields(document: dict) -> dict[str, str]:
 def figure_tags(document: dict, civilizations: list[str]) -> list[str]:
     tags = [tag("Category", "Figures")] + [tag("Civilization", name) for name in civilizations]
     tags += [century_tag(number) for number in centuries(*document["lifetime"])]
-    country = document.get("modern_country") or document["birth_country"]
-    tags += [tag("Country", country)] if country else []
+    tags += [tag("Country", document["modern_country"])] if document.get("modern_country") else []
     tags += [tag("Occupation", document["occupation"])] if document["occupation"] else []
     return tags
 

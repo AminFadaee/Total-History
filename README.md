@@ -118,7 +118,7 @@ Notes are tagged so you can filter or suspend groups of them:
 - civilization: `PIH::Civilization::Sasanian_Empire`, on the civilization and on every figure linked to it
 - century: `PIH::Century::BC::06th`, `PIH::Century::AD::03rd`, every century of a civilization's period or a figure's life
 - country: `PIH::Country::Iran`, the main modern countries of a civilization and its home region, or today's country
-  where a figure was born, as their card names it
+  where a figure was born when the sources agree on the birthplace, as their card names it
 - occupation: `PIH::Occupation::Philosopher`, for figures
 - tier: `PIH::Tier::Essential` for the civilizations on Wikipedia's 1,000 vital articles (Vital Articles level 3), about
   20, which also carry `PIH::Tier::Core`; `PIH::Tier::Core` for those on its 10,000 (level 4), and for those on
@@ -332,8 +332,9 @@ Photographs are recognised with an image model by default. It needs the optional
 and relies on Commons categories alone.
 
 `data/errata.toml` lists answers the sources give correctly but the rules pick wrongly, as found by outside reviews: a
-civilization's successor, predecessor, key figure or capital to drop, or a civilization's or figure's legacy line to pass
-over for the next best sentence, each with the review's reason. It only removes; nothing is ever added or changed by hand. `collect` applies it last, records what it dropped in `data/report.json`, and a
+civilization's successor, predecessor, key figure, capital or modern country to drop, a state a figure was wrongly filed
+under, a figure's Known for line to leave empty, or a civilization's or figure's legacy line to pass over for the next
+best sentence, each with the review's reason. It only removes; nothing is ever added or changed by hand. `collect` applies it last, records what it dropped in `data/report.json`, and a
 test fails on an entry that no longer matches anything.
 
 `data/overrides.toml` is the reverse: a reviewed, sourced list of facts the automated sources miss or get wrong. An
