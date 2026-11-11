@@ -345,8 +345,8 @@ def description() -> str:
 a kind, search for it in the browser and <b>suspend</b> the cards rather than deleting them, because deleted cards
 come back when you import an update.</p>
 <p>Borders come from Cliopatria (Seshat Global History Databank, CC BY 4.0); facts from Wikidata (CC0) and Wikipedia
-(CC BY-SA); people lists from Wikipedia's Vital Articles and Pantheon (CC BY); modern borders from Natural Earth
-(public domain); portraits from Wikimedia Commons under the licence credited on each card. Built {date.today().isoformat()}.</p>
+(CC BY-SA), a few legacy lines from the 1911 Encyclopaedia Britannica (public domain); people lists from Wikipedia's
+Vital Articles and Pantheon (CC BY); modern borders from Natural Earth (public domain); portraits from Wikimedia Commons under the licence credited on each card. Built {date.today().isoformat()}.</p>
 """
 
 

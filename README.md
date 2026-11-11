@@ -255,7 +255,7 @@ candidates from every region and period, and comparing people only with their ow
 The database's own region and birth year are used only to form the cells and as one of the three sources that must
 confirm a birthplace; segments and the 1945 cut use Wikidata's dates, since the database gets a few wrong (it gives
 Shaka a birth year of 1971).
-The deck still reflects who held power and was written about: about 8% of the figures are women.
+The deck still reflects who held power and was written about: about 9% of the figures are women.
 
 ### Details per field
 
