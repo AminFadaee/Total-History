@@ -409,12 +409,15 @@ citation warning), that a language model scores highest, from 0 to
 10, for saying what the person is remembered for (works, discoveries, foundings, conquests, reforms, firsts) rather than who
 they were, their offices, family or trivia; it needs a score of at least 8, so people known only for holding an office
 have none. Like a civilization's, the line must stand on its own: one that leans on the sentence before it ("However,
-…", "Three months later …", "In this position …", "The event …") is not used. The person's name is replaced by "this
+…", "Three months later …", "In this position …", "The event …"), one that points at a time it leaves unnamed ("… during
+this era", "… in the military history of that time"; "the history of this period" after the history it names is fine)
+or that opens on a group ("They embarked on …") is not used. The person's name is replaced by "this
 person": each whole form of it (the article's own, the name it opens with, what its first sentence also calls them,
 "Joan of Arc", "Lakshmibai, Rani of Jhansi"), and a run of their own name's words, with middle names, regnal number and
 epithet inside it ("Alan Mathison Turing", "Tamar the Great"). A word of their longer or other names standing alone
 may be someone else, so the sentence is not used: Augustus for Tiberius, his father Ali for Hasan ibn Ali, Edward II
-beside Edward III. Nor is a sentence used where any part of the name would remain, where the name is part of something
+beside Edward III, or Catherine the Great beside Catherine I (an epithet where the person's name has a regnal number).
+Nor is a sentence used where any part of the name would remain, where the name is part of something
 else's name (Rákóczi's War of Independence, the Tokugawa shogunate, the Fibonacci numbers, Sun Liang beside Sun Quan),
 where a word is made from the name (Zoroastrian), where a title that ends the name stands on its own ("Khan overthrew
 the monarchy"), that gives a nickname, pen name, courtesy name or other name ("nicknamed Scarface", "This person,

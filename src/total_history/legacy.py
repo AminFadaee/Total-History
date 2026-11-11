@@ -28,13 +28,15 @@ NAME_LIST = re.compile(r"this person\W+(?:\w+\W+){0,2}this person|\bas this pers
                        r"pen.?name|referred to as|also called|nicknamed", re.IGNORECASE)
 MIN_WORDS = 6
 POINTING_BACK = re.compile(r"^(?:Thus|Hence|So|Then|Afterwards|After that|Later|Henceforth|Shortly afterwards|Subsequently|"
-                           r"Thereafter|In this position|Indeed|Prior to this|This began|During this period)\b|"
+                           r"Thereafter|In this position|Indeed|Prior to this|This began)\b|"
                            r"^The (?:event|result|baptism|war|treaty|law|site|regency|flight|reforms|inscriptions|"
                            r"constitution|city|town|meetings?|effort)\b|"
                            r"^(?:Two|Three|Four|Several|A few) (?:days|weeks|months|years) later\b|"
                            r"\b(?:the latter|the former|this same|that same|the result|as a result|these meetings|this effort|"
-                           r"during this period)\b", re.IGNORECASE)
+                           r"(?:during|in|at) this (?:period|time|era)|that (?:period|time|era)|"
+                           r"(?!history\b)\w+ of this (?:period|time|era))\b", re.IGNORECASE)
 UNNAMED_PERSON = re.compile(r"^(?:He|She|His|Her)\b")
+GROUP_SUBJECT = re.compile(r"^(?:They|Their|Them)\b")
 STEM_LETTERS = 5
 PROGRESS_EVERY = 500
 SECTIONS = re.compile(r"legacy|assessment|reputation|historiography|achievements|significance|influence|evaluation|"
@@ -190,7 +192,7 @@ def hide(sentence: str, names: list[str], own: list[str] | None = None) -> str |
     every = mine | parents | named | named_parents
     words = {word for word in mine if word not in TITLES | COMMON and len(word) > 1}
     foreign = {word for word in every - mine - places - named_places if word not in TITLES | COMMON and len(word) > 1}
-    numerals = {token for form in names + own for token in form.split() if NUMERAL.match(token)}
+    numerals = {token for form in names + own if name_like(form) for token in form.split() if NUMERAL.match(token)}
     joiners = {fold(word) for form in names + own for word in form.split()[1:-1] if word.islower()}
     for form in sorted({part for form in names + own for part in (form, form.split(",")[0].strip()) if name_like(part)},
                        key=len, reverse=True):
@@ -225,7 +227,8 @@ def hide(sentence: str, names: list[str], own: list[str] | None = None) -> str |
                 out.append(tokens[index].group())
                 index += 1
                 continue
-            if any(NUMERAL.match(part) and part not in numerals for part in run):
+            if any(NUMERAL.match(part) and part not in numerals for part in run) \
+                    or (numerals and any(fold(part) in EPITHETS for part in run)):
                 return None
             last = tokens[end].group()
             possessive = bool(re.search(r"['’]s?\W*$", last))
@@ -339,7 +342,8 @@ def good_lines(scores: LegacyScores, subject: Subject, name: str, role: str, tex
     candidates = [sentence for sentence in sentences(re.sub(r"\s*\n+\s*", " ", text))
                   if len(sentence.split()) >= MIN_WORDS and not repeats(sentence, summary)
                   and not (LEANING.match(sentence) or POINTING_BACK.search(sentence)
-                           or (not subject.person and UNNAMED_PERSON.match(sentence)))]
+                           or (not subject.person and UNNAMED_PERSON.match(sentence))
+                           or (subject.person and GROUP_SUBJECT.match(sentence)))]
     ranked = sorted(zip(scores.scores(subject, name, role, candidates), range(0, -len(candidates), -1), candidates),
                     reverse=True)
     for score, _, sentence in ranked:

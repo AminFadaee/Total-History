@@ -430,6 +430,9 @@ def test_a_legacy_line_keeps_particles_and_other_names(names, realms, sentence, 
      "Cha authored 15 novels between 1955 and 1972", None),
     (["Liu Bei"], "", "His courtesy name was Xuande and he founded Shu Han", None),
     (["Ken Arok"], "", "Ken Arok, Rajasa, was the founder of Singhasari", None),
+    (["Catherine I of Russia"], "Catherine I (1684 – 1727) was Empress of Russia.",
+     "Catherine was the first woman to rule Imperial Russia, including her daughter Elizabeth and granddaughter-in-law "
+     "Catherine the Great", None),
     (["Ibn al-Haytham"], "Ḥasan Ibn al-Haytham (Latinized as Alhazen; c. 965 – 1040) was an Arab mathematician.",
      "Alhazen was the first to explain that vision occurs when light reflects into the eyes",
      "This person was the first to explain that vision occurs when light reflects into the eyes"),
@@ -473,3 +476,29 @@ def test_an_umbrella_part_counts_only_while_it_was_part_of_it():
     assert algeria.within((1925, 1980)) == (1925, 1961)
     assert algeria.within((1965, 1980)) is None
     assert Part("Q1", 1871, None).within((1850, 1900)) == (1871, 1900)
+
+
+@pytest.mark.parametrize("sentence", [
+    "He is the best archaeologically-attested ruler of this period, credited with bringing prosperity to his realm",
+    "He invented Onitsha-style chapbooks during this time",
+    "The memory of his presidency remains prominent due to the progress that Haiti experienced during this era",
+    "He ranks high in the military history of that time as the most persistent opponent of the Ottoman Empire",
+])
+def test_a_figure_legacy_line_does_not_point_at_a_period_it_leaves_unnamed(sentence):
+    assert not list(good_lines(FixedScores({sentence: 10}), FIGURE, "Abeid Karume", "president", sentence))
+
+
+@pytest.mark.parametrize("sentence", [
+    "He is best known for the polemic that recounts the sub-Roman history of Britain, the only source for history of this period",
+    "He renounced Islam and led the resistance, this time directed against the Ottomans",
+])
+def test_a_figure_legacy_line_may_name_its_period_or_say_this_time(sentence):
+    assert list(good_lines(FixedScores({sentence: 10}), FIGURE, "Abeid Karume", "president", sentence))
+
+
+def test_a_figure_legacy_line_is_about_the_person_not_a_group():
+    group = ("They embarked on an epic journey, covering nearly 2,000 miles, through the American interior, "
+             "becoming the first Europeans and African to enter the American West")
+    scores = FixedScores({group: 10})
+    assert not list(good_lines(scores, FIGURE, "Esteban de Dorantes", "explorer", group))
+    assert list(good_lines(scores, CIVILIZATION, "Lydia", "civilization", group))
