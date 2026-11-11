@@ -12709,6 +12709,14 @@
       "field": "before",
       "action": "add",
       "value": "Zhou dynasty"
+    },
+    {
+      "civilization": "Sunda Kingdom",
+      "field": "period",
+      "action": "dispute",
+      "value": {
+        "start": 932
+      }
     }
   ],
   "needs_verification": [],

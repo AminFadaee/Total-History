@@ -65,7 +65,23 @@
   "map_asked": true,
   "capital_map": "",
   "capital_map_answer": "",
-  "disputes": [],
+  "disputes": [
+    {
+      "field": "start",
+      "values": [
+        {
+          "value": 669,
+          "circa": false,
+          "source": "https://www.wikidata.org/wiki/Q1469742"
+        },
+        {
+          "value": 932,
+          "circa": false,
+          "source": "https://en.wikipedia.org/wiki/Sunda_Kingdom"
+        }
+      ]
+    }
+  ],
   "checks": {
     "infobox": true,
     "capital_sources": {

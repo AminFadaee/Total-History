@@ -15357,3 +15357,13 @@ source = "https://www.worldhistory.org/Zhou_Dynasty/"
 quote = "It followed the Shang Dynasty (c. 1600-1046 BCE), and preceded the Qin Dynasty (221-206 BCE"
 retrieved = 2026-10-20
 note = "Zhou -> Qin dynasty; the Qin state (slug qin) is the more exact predecessor but this source names Zhou"
+
+[[override]]
+civilization = "Sunda Kingdom"
+civilization_id = "Q1469742"
+field = "period"
+action = "dispute"
+value = { start = 932 }
+source = "https://en.wikipedia.org/wiki/Sunda_Kingdom"
+quote = "was a Sundanese Hindu kingdom located in the western portion of the island of Java from 932 AD to around 1579"
+retrieved = 2026-11-11
