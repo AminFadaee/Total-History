@@ -1,5 +1,5 @@
 [project]
-name = "page-in-history"
+name = "total-history"
 version = "0.1.0"
 description = "History data pipeline and Anki deck of civilizations and historical figures"
 license = "MIT"
@@ -26,7 +26,7 @@ ml = [
 ]
 
 [project.scripts]
-page-in-history = "page_in_history.main:main"
+total-history = "total_history.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.18,<0.13.0"]
@@ -40,6 +40,6 @@ dev = [
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
-[tool.page-in-history]
+[tool.total-history]
 # The pre-commit review of fact-file changes (see README).
 review = true

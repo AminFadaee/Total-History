@@ -1,7 +1,7 @@
 """A collect replaces the data's output only when it finishes."""
 import pytest
 
-from page_in_history.collect import OUTPUT_DIRS, OUTPUT_FILES, Collector, DataPaths, Slice
+from total_history.collect import OUTPUT_DIRS, OUTPUT_FILES, Collector, DataPaths, Slice
 
 
 def fill(root, text):

@@ -1,2 +1,2 @@
 #!/bin/sh
-exec uv run --quiet page-in-history review --check
+exec uv run --quiet total-history review --check

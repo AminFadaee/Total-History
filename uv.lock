@@ -747,52 +747,6 @@ wheels = [
 ]
 
 [[package]]
-name = "page-in-history"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "genanki" },
-    { name = "geopandas" },
-    { name = "matplotlib" },
-    { name = "mwparserfromhell" },
-    { name = "pillow" },
-    { name = "pyogrio" },
-    { name = "pyproj" },
-    { name = "requests" },
-    { name = "shapely" },
-]
-
-[package.optional-dependencies]
-ml = [
-    { name = "onnxruntime" },
-    { name = "tokenizers" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "pytest" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "genanki", specifier = ">=0.13.1" },
-    { name = "geopandas", specifier = ">=1.1" },
-    { name = "matplotlib", specifier = ">=3.11" },
-    { name = "mwparserfromhell", specifier = ">=0.7" },
-    { name = "onnxruntime", marker = "extra == 'ml'", specifier = ">=1.20" },
-    { name = "pillow", specifier = ">=12.3.0" },
-    { name = "pyogrio", specifier = ">=0.13" },
-    { name = "pyproj", specifier = ">=3.8" },
-    { name = "requests", specifier = ">=2.34" },
-    { name = "shapely", specifier = ">=2.1" },
-    { name = "tokenizers", marker = "extra == 'ml'", specifier = ">=0.20" },
-]
-provides-extras = ["ml"]
-
-[package.metadata.requires-dev]
-dev = [{ name = "pytest", specifier = ">=9.1.1" }]
-
-[[package]]
 name = "pandas"
 version = "3.0.6"
 source = { registry = "https://pypi.org/simple" }
@@ -1207,6 +1161,52 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/37/e9/b56e619fcd583000a2b1254bb46af8dc6a174d3ba3329f454ad5a95a2be2/tokenizers-0.23.3-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:82eb480f6f1c21cea3349dec32cf1a6384c6c1e775f00f83b0d51197bc013687", size = 10237491, upload-time = "2026-10-09T10:16:51.943Z" },
     { url = "https://files.pythonhosted.org/packages/6f/68/f58b3beb95f3b62816e91e5e768e684cd63e58f9cbece22036dae3b1c971/tokenizers-0.23.3-cp314-cp314t-win_amd64.whl", hash = "sha256:1554a6eed34d9d6a78d23360f4e06df8dffab1ae08c7e8488e0b3e3b36cc266f", size = 2847654, upload-time = "2026-10-09T10:16:54.166Z" },
 ]
+
+[[package]]
+name = "total-history"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "genanki" },
+    { name = "geopandas" },
+    { name = "matplotlib" },
+    { name = "mwparserfromhell" },
+    { name = "pillow" },
+    { name = "pyogrio" },
+    { name = "pyproj" },
+    { name = "requests" },
+    { name = "shapely" },
+]
+
+[package.optional-dependencies]
+ml = [
+    { name = "onnxruntime" },
+    { name = "tokenizers" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "genanki", specifier = ">=0.13.1" },
+    { name = "geopandas", specifier = ">=1.1" },
+    { name = "matplotlib", specifier = ">=3.11" },
+    { name = "mwparserfromhell", specifier = ">=0.7" },
+    { name = "onnxruntime", marker = "extra == 'ml'", specifier = ">=1.20" },
+    { name = "pillow", specifier = ">=12.3.0" },
+    { name = "pyogrio", specifier = ">=0.13" },
+    { name = "pyproj", specifier = ">=3.8" },
+    { name = "requests", specifier = ">=2.34" },
+    { name = "shapely", specifier = ">=2.1" },
+    { name = "tokenizers", marker = "extra == 'ml'", specifier = ">=0.20" },
+]
+provides-extras = ["ml"]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=9.1.1" }]
 
 [[package]]
 name = "tqdm"

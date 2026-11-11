@@ -1,4 +1,4 @@
-# Page in History
+# Total History
 
 An Anki deck of civilizations and the people who shaped them, and the pipeline that builds it.
 
@@ -311,12 +311,12 @@ ollama pull qwen3.5:4b   # scores legacy lines; needed only for sentences not ye
 ```
 
 ```sh
-uv run page-in-history collect   # select civilizations and figures, render maps into data/
-uv run page-in-history check     # what was confirmed, what was left out and why
-uv run page-in-history deck      # build build/page_in_history.apkg
-uv run page-in-history samples   # render the sample cards shown above into docs/samples/, in night mode
+uv run total-history collect   # select civilizations and figures, render maps into data/
+uv run total-history check     # what was confirmed, what was left out and why
+uv run total-history deck      # build build/total_history.apkg
+uv run total-history samples   # render the sample cards shown above into docs/samples/, in night mode
 uv run pytest                    # check the data against its invariants and the cases outside reviews raised
-uv run page-in-history review    # review what a collect changed in the fact files and approve it
+uv run total-history review    # review what a collect changed in the fact files and approve it
 ```
 
 Every collect rewrites the fact files, `data/civilizations/` and `data/figures/`. It writes into `data.partial/` and
@@ -325,7 +325,7 @@ replaces the data's output only once the whole run has finished, so a collect th
 commit field by field, shows each change as old → new with the sources of any override behind it, and asks per
 civilization to accept, reject, accept all the rest or skip. Only a review that accepts every change approves the data,
 for exactly its current contents. The pre-commit hook in `hooks/` refuses a commit of fact files nobody approved; enable it
-once with `git config core.hooksPath hooks`, and turn it off with `review = false` under `[tool.page-in-history]` in
+once with `git config core.hooksPath hooks`, and turn it off with `review = false` under `[tool.total-history]` in
 `pyproject.toml`. `review --approve` approves without asking.
 
 The tests cover three things:

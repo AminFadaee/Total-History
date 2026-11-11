@@ -4,7 +4,7 @@ import pathlib
 
 import pytest
 
-from page_in_history.figure_overrides import load_figure_overrides
+from total_history.figure_overrides import load_figure_overrides
 
 DATA = pathlib.Path(__file__).resolve().parents[1] / "data"
 ENTRY = '''[[figure]]

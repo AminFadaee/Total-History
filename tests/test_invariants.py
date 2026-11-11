@@ -4,9 +4,9 @@ import pathlib
 import re
 import tomllib
 
-from page_in_history.deck import period_text
-from page_in_history.figures import MAX_LIFE_YEARS
-from page_in_history.polities import same_name
+from total_history.deck import period_text
+from total_history.figures import MAX_LIFE_YEARS
+from total_history.polities import same_name
 
 DATA = pathlib.Path(__file__).resolve().parents[1] / "data"
 ACCEPTED = tomllib.loads((pathlib.Path(__file__).with_name("accepted.toml")).read_text())

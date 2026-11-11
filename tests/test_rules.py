@@ -3,17 +3,17 @@ import pathlib
 
 import pytest
 
-from page_in_history.births import Birth, agreed_birth
-from page_in_history.dates import Span, centuries, parse, parse_range, period_label
-from page_in_history.deck import CIVILIZATION_TEMPLATES, century_tag, with_modern_country
-from page_in_history.errata import Erratum, legacy_rejections, passed_legacy
-from page_in_history.figures import lifetime
-from page_in_history.legacy import CIVILIZATION, FIGURE, LegacyScores, good_lines, hide, legacy_sections, name_forms, repeats
-from page_in_history.photos import visible
-from page_in_history.polities import DATED, RulingRole, row_years, same_name
-from page_in_history.sentences import contribution, first_paragraph, sentences
-from page_in_history.sources.wikidata import YEAR_PRECISION, Entity, Year
-from page_in_history.sources.wikipedia import cited
+from total_history.births import Birth, agreed_birth
+from total_history.dates import Span, centuries, parse, parse_range, period_label
+from total_history.deck import CIVILIZATION_TEMPLATES, century_tag, with_modern_country
+from total_history.errata import Erratum, legacy_rejections, passed_legacy
+from total_history.figures import lifetime
+from total_history.legacy import CIVILIZATION, FIGURE, LegacyScores, good_lines, hide, legacy_sections, name_forms, repeats
+from total_history.photos import visible
+from total_history.polities import DATED, RulingRole, row_years, same_name
+from total_history.sentences import contribution, first_paragraph, sentences
+from total_history.sources.wikidata import YEAR_PRECISION, Entity, Year
+from total_history.sources.wikipedia import cited
 
 
 @pytest.mark.parametrize("text, years", [
@@ -456,7 +456,7 @@ def test_a_name_particle_at_the_start_of_a_sentence_goes_with_the_name():
 
 def test_a_figure_erratum_drops_a_wrong_state_known_for_line_or_life():
     from types import SimpleNamespace
-    from page_in_history.errata import apply_figure_errata
+    from total_history.errata import apply_figure_errata
     figure = SimpleNamespace(name="Kimpa Vita", civilizations=["Kathmandu", "Kingdom of Kongo"], related=[],
                              contribution="A fragment.", life="c. 55 BC – c. AD 12")
     errata = [Erratum("civilizations", "Kathmandu", "No tie.", figure="Kimpa Vita"),
@@ -468,7 +468,7 @@ def test_a_figure_erratum_drops_a_wrong_state_known_for_line_or_life():
 
 
 def test_an_umbrella_part_counts_only_while_it_was_part_of_it():
-    from page_in_history.figures import Part
+    from total_history.figures import Part
     algeria = Part("Q262", None, 1962)
     assert algeria.within((1925, 1980)) == (1925, 1961)
     assert algeria.within((1965, 1980)) is None

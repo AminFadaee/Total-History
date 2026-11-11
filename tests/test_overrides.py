@@ -5,9 +5,9 @@ from types import SimpleNamespace
 
 import pytest
 
-from page_in_history.dates import Span
-from page_in_history.overrides import FIELDS, LIST_FIELDS, apply_overrides, apply_tiers, load_overrides, period_span
-from page_in_history.polities import Period, Polity
+from total_history.dates import Span
+from total_history.overrides import FIELDS, LIST_FIELDS, apply_overrides, apply_tiers, load_overrides, period_span
+from total_history.polities import Period, Polity
 
 DATA = pathlib.Path(__file__).resolve().parents[1] / "data"
 
@@ -193,7 +193,7 @@ retrieved = 2026-11-07
 
 
 def test_a_dispute_keeps_the_deck_value_and_lists_each_source(tmp_path):
-    from page_in_history.deck import dispute_text, succession_fields
+    from total_history.deck import dispute_text, succession_fields
     path = tmp_path / "overrides.toml"
     path.write_text(DISPUTES)
     polity = Polity(id="Q1", slug="testland", name="Testland", wikipedia="Testland", map_year=500,
@@ -232,7 +232,7 @@ def test_a_period_end_can_be_a_century(tmp_path):
 
 
 def test_a_side_can_be_the_same_state_under_another_name(tmp_path):
-    from page_in_history.deck import succession_fields
+    from total_history.deck import succession_fields
     path = tmp_path / "overrides.toml"
     entry = "[[override]]" + DISPUTES.split("\n\n[[override]]")[2]
     path.write_text(entry.replace('action = "dispute"', 'action = "add"') + "same_state = true\n")
@@ -247,7 +247,7 @@ def test_a_side_can_be_the_same_state_under_another_name(tmp_path):
 
 
 def test_a_book_is_cited_with_its_page(tmp_path):
-    from page_in_history.deck import source_name
+    from total_history.deck import source_name
     book = "Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
     path = tmp_path / "overrides.toml"
     entry = DISPUTES.split("\n\n[[override]]")[0].replace('"https://en.wikipedia.org/wiki/Testland"', f'"{book}"')
