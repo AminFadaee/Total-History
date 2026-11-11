@@ -2,6 +2,9 @@
 
 An Anki deck of civilizations and the people who shaped them, and the pipeline that builds it.
 
+**Get the deck:** download `total_history.apkg` from the
+[latest release](https://github.com/AminFadaee/A-Page-in-History/releases/latest).
+
 It covers the civilizations that Wikipedia's editors list as vital, that Wikipedia writes about in many languages,
 that ruled a vast territory, or whose people are among the best known of their age, from Akkad and Old Kingdom Egypt
 to the Samanids, the Ottoman and Qing empires and the United States, and the people who shaped them, chosen era by era
@@ -418,6 +421,23 @@ Two language-inference models read texts for the successions and the key figures
 about 1.6 GB). They come with the same extra, are downloaded into `cache/` the first time a text is new to them, and their
 readings are kept in `data/succession_scores.json` and `data/ruler_scores.json`, so a collect on the committed data
 reads nothing again.
+
+## Releasing
+
+Releases are built by GitHub Actions from the committed data and maps.
+
+```sh
+uv run total-history collect
+uv run total-history review
+git add data
+git commit -m "Update data"
+git push
+git tag v0.1.2
+git push origin v0.1.2
+```
+
+Pushing the tag runs the tests, builds `total_history.apkg` and publishes it as a release under that tag. The release
+notes are read from `docs/releases/<tag>.md`. Every push to master runs the tests.
 
 ## Licence
 
