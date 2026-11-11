@@ -49,6 +49,9 @@ class Http:
         path.write_text(json.dumps(data))
         return data
 
+    def text(self, url: str, accept: str = "text/html") -> str:
+        return self._get(url, None, accept=accept).text
+
     def per_key(self, namespace: str, keys: list[str], fetch) -> dict:
         """Values cached one key at a time, so a batch query that is rerun with a slightly different set of keys only
         fetches the new ones. `fetch` takes the missing keys and returns their values; keys it leaves out are

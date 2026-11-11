@@ -146,8 +146,9 @@ class Collector:
         logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
                     ", ".join(figure_builder.joined))
         legacy_scores = LegacyScores(self.paths.root / "legacy_scores.json")
-        add_legacy(figures, wikipedia, legacy_scores)
-        passed = add_civilization_legacy(polities, wikipedia, legacy_scores, legacy_rejections(errata))
+        rejected = legacy_rejections(errata)
+        passed = add_legacy(figures, wikipedia, legacy_scores, rejected)
+        passed |= add_civilization_legacy(polities, wikipedia, legacy_scores, rejected)
         dropped += passed_legacy(errata, passed)
         legacy_scores.save()
         self.failures: list[str] = []

@@ -1,4 +1,6 @@
+import html
 import re
+import urllib.parse
 from dataclasses import dataclass, field
 
 import mwparserfromhell as mw
@@ -20,6 +22,14 @@ BEFORE_CHRIST = re.compile(r"\bBCE?\b")
 SENTENCE_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z\[])")
 CAPITAL_WORD = re.compile(r"\bcapital\b", re.IGNORECASE)
 API = "https://en.wikipedia.org/w/api.php"
+PAGE_HTML = "https://en.wikipedia.org/api/rest_v1/page/html/{}"
+WARNING_BOX = re.compile(r'class="[^"]*\bbox-(?:More_citations_needed|Unreferenced|Disputed|Original_research|Unreliable_sources|'
+                         r'Primary_sources|Self-published|Verification|Dubious|Factual_accuracy|POV|Unbalanced|Fringe|'
+                         r'Third-party|One_source|Citation_style)', re.IGNORECASE)
+INLINE_WARNING = re.compile(r'<sup[^>]*class="[^"]*Inline-Template[^"]*"[^>]*>.*?</sup>', re.DOTALL)
+FOOTNOTE = re.compile(r'<sup[^>]*class="[^"]*reference[^"]*"[^>]*>.*?</sup>', re.DOTALL)
+CITED_SPLIT = re.compile(r"(?<=[.!?])((?:\s*[\x01\x02])*)\s+(?=[A-Z\"'“(])")
+MIN_CITED_CHARACTERS, MAX_CITED_CHARACTERS = 20, 450
 EDITION_API = "https://{}.wikipedia.org/w/api.php"
 EDITION_HOSTS = {"be_x_old": "be-tarask"}
 BATCH = 50
@@ -218,9 +228,49 @@ class Wikipedia:
             found[title] = (pages[0].get("extract") or "") if pages else ""
         return found
 
+    def cited_sentences(self, titles: list[str]) -> dict[str, list[str]]:
+        """The sentences of each whole article that a footnote covers, cached per title."""
+        def fetch(missing: list[str]) -> dict[str, list[str]]:
+            return {title: cited(self.http.text(PAGE_HTML.format(urllib.parse.quote(title.replace(" ", "_"), safe="")))) for title in missing}
+
+        return self.http.per_key("cited-sentences-by-title", titles, fetch)
+
     def page_wikitext(self, title: str) -> str:
         params = {"action": "parse", "page": title, "prop": "wikitext", "format": "json", "formatversion": 2}
         return self.http.json(API, params, namespace="wikipedia")["parse"]["wikitext"]
+
+
+def cited(page: str) -> list[str]:
+    """The sentences of an article's HTML that a footnote covers: each sentence of a paragraph back to the previous
+    footnote. An inline warning ([citation needed], [dubious] …) disqualifies its sentence and those before it back to the
+    previous footnote, a section under a citation or dispute box is skipped, and so is the whole article when its lead
+    carries one."""
+    sections = re.split(r"(?=<section[ >])", page)
+    if sections and WARNING_BOX.search(sections[0] + (sections[1] if len(sections) > 1 else "")[:3000]):
+        return []
+    found = []
+    for section in sections:
+        own = re.split(r"<section[ >]", section[1:])[0] if section.startswith("<section") else section
+        if WARNING_BOX.search(own):
+            continue
+        for paragraph in re.findall(r"<p[^>]*>(.*?)</p>", own, re.DOTALL):
+            paragraph = FOOTNOTE.sub(" \x01", INLINE_WARNING.sub(" \x02", paragraph))
+            paragraph = re.sub(r"<sup[^>]*>.*?</sup>", "", paragraph, flags=re.DOTALL)
+            text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", paragraph))).strip() + " "
+            parts = CITED_SPLIT.split(text)
+            run = []
+            for sentence, notes in zip(parts[0::2], parts[1::2] + [""]):
+                sentence = sentence.strip()
+                if "\x02" in sentence or "\x02" in notes:
+                    run = []
+                    continue
+                clean = re.sub(r"\s*\x01", "", sentence).strip()
+                if MIN_CITED_CHARACTERS < len(clean) < MAX_CITED_CHARACTERS:
+                    run.append(clean)
+                if "\x01" in notes or sentence.endswith("\x01"):
+                    found += run
+                    run = []
+    return found
 
 
 def without_notes(code: Wikicode) -> Wikicode:

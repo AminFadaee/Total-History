@@ -246,15 +246,17 @@ def test_what_lines_keep_to_the_period(civilizations):
         and (said[0] < years[0] - STATED_YEAR_SLACK or said[1] > years[1] + STATED_YEAR_SLACK)})
 
 
-def test_every_erratum_matched_something_in_the_last_collect(civilizations):
+def test_every_erratum_matched_something_in_the_last_collect(civilizations, figures):
     errata = tomllib.loads((DATA / "errata.toml").read_text())["remove"]
     dropped = json.loads((DATA / "report.json").read_text())["errata_dropped"]
-    fields = ("civilization", "field", "value")
-    stale = [entry for entry in errata if not any(all(entry[key] == found[key] for key in fields) for found in dropped)]
+    fields = ("civilization", "figure", "field", "value")
+    stale = [entry for entry in errata
+             if not any(all(entry.get(key, "") == found.get(key, "") for key in fields) for found in dropped)]
     assert not stale, stale
+    people = {figure["name"]: figure for figure in figures.values()}
     for entry in errata:
-        answers = civilizations[entry["civilization"]][entry["field"]]
+        subject = civilizations[entry["civilization"]] if "civilization" in entry else people[entry["figure"]]
         if entry["field"] == "legacy":
-            assert answers != entry["value"], entry
+            assert subject.get("legacy", "") != entry["value"], entry
         else:
-            assert entry["value"] not in [answer["name"] for answer in answers], entry
+            assert entry["value"] not in [answer["name"] for answer in subject[entry["field"]]], entry

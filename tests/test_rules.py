@@ -13,6 +13,7 @@ from page_in_history.photos import visible
 from page_in_history.polities import DATED, RulingRole, row_years, same_name
 from page_in_history.sentences import contribution, first_paragraph, sentences
 from page_in_history.sources.wikidata import YEAR_PRECISION, Entity, Year
+from page_in_history.sources.wikipedia import cited
 
 
 @pytest.mark.parametrize("text, years", [
@@ -251,6 +252,8 @@ def test_a_century_is_the_one_holding_the_year(value, earliest):
      "Zoroaster composed hymns that cover core Zoroastrian beliefs", None),
     (["Tokugawa Yoshinobu"], "Prince Tokugawa Yoshinobu (1837 – 1913) was a Japanese samurai.",
      "Yoshinobu was the 15th and last shōgun of the Tokugawa shogunate", None),
+    (["Anna Leopoldovna", "Elisabeth Katharina Christine"], "Anna Leopoldovna (1718 – 1746) was regent of Russia.",
+     "She worked with Field Marshal Burkhard Christoph von Münnich to overthrow him", None),
     (["Sun Quan"], "Sun Quan (182 – 252) was the founder of Eastern Wu.",
      "He was succeeded by his son, Sun Liang", None),
     (["Mohammad Daoud Khan"], "Mohammad Daoud Khan (1909 – 1978) was an Afghan politician.",
@@ -324,8 +327,8 @@ def test_a_civilization_legacy_line_names_its_subject_and_gives_no_pronunciation
 
 
 def test_a_legacy_erratum_is_matched_when_its_line_is_passed_over():
-    erratum = Erratum("Vandal Kingdom", "legacy", "North Africa hosted many writers.", "About Roman North Africa.")
-    other = Erratum("Vandal Kingdom", "after", "Byzantine Empire", "A list answer.")
+    erratum = Erratum("legacy", "North Africa hosted many writers.", "About Roman North Africa.", civilization="Vandal Kingdom")
+    other = Erratum("after", "Byzantine Empire", "A list answer.", civilization="Vandal Kingdom")
     assert legacy_rejections([erratum, other]) == {("Vandal Kingdom", "North Africa hosted many writers.")}
     assert passed_legacy([erratum, other], {("Vandal Kingdom", "North Africa hosted many writers.")}) == [erratum]
     assert passed_legacy([erratum], set()) == []
@@ -335,3 +338,14 @@ def test_a_legacy_line_may_hold_thin_spaces():
     text = "The world's earliest known texts come from Uruk and date to c. 3350 BC."
     scores = FixedScores({text: 9})
     assert list(good_lines(scores, CIVILIZATION, "Sumer", "civilization", text)) == [text]
+
+
+def test_only_sentences_a_footnote_covers_are_cited():
+    page = ('<section><p>The kingdom built canals. It traded salt widely.<sup class="mw-ref reference">[1]</sup> '
+            'Its coins were famous across the region.</p></section>'
+            '<section><p>Its scholars wrote on astronomy for centuries.<sup class="Inline-Template">[citation needed]</sup> '
+            'The court spoke Persian and wrote in Arabic script.<sup class="reference">[2]</sup></p></section>'
+            '<section><div class="box-Unreferenced">x</div><p>Its laws were copied by its neighbours for ages.'
+            '<sup class="reference">[3]</sup></p></section>')
+    assert cited(page) == ["The kingdom built canals.", "It traded salt widely.",
+                           "The court spoke Persian and wrote in Arabic script."]

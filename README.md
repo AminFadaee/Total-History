@@ -45,7 +45,8 @@ repeats what the civilization was, that leans on the one before it ("However, â€
 that speaks of an unnamed ruler ("He consolidated â€¦"), that gives a pronunciation or that Wikipedia tags as unsourced is
 not used. Its name is not hidden, since the card names it. Every line was reviewed by hand; one that speaks of another
 state or period, a single event, trivia or a sentence it leans on is listed in `data/errata.toml`, and the next best
-sentence is used instead, or none.
+sentence is used instead, or none. When neither the introduction nor a legacy section has a line, the cited sentences of
+the whole article are scored as for a figure (see below).
 
 When reputable sources disagree on a period's start or end, or on what came before or after in the home region, the card
 shows every value with its source: "First Bulgarian Empire or Francia", or under a period "Sources differ on the end:
@@ -331,8 +332,8 @@ Photographs are recognised with an image model by default. It needs the optional
 and relies on Commons categories alone.
 
 `data/errata.toml` lists answers the sources give correctly but the rules pick wrongly, as found by outside reviews: a
-civilization's successor, predecessor, key figure or capital to drop, or a legacy line to pass over for the next best
-sentence, each with the review's reason. It only removes; nothing is ever added or changed by hand. `collect` applies it last, records what it dropped in `data/report.json`, and a
+civilization's successor, predecessor, key figure or capital to drop, or a civilization's or figure's legacy line to pass
+over for the next best sentence, each with the review's reason. It only removes; nothing is ever added or changed by hand. `collect` applies it last, records what it dropped in `data/report.json`, and a
 test fails on an entry that no longer matches anything.
 
 `data/overrides.toml` is the reverse: a reviewed, sourced list of facts the automated sources miss or get wrong. An
@@ -365,8 +366,10 @@ card and today's country at the birthplace follow it, but it does not bring a ci
 someone the deck does not hold this time is listed under `figure_overrides_unused` in `data/report.json` instead of
 failing the collect.
 
-The legacy line is one sentence of the person's English Wikipedia article: the sentence of its introduction, or failing that of
-a section headed Legacy, Assessment, Reputation, Historiography or the like, that a language model scores highest, from 0 to
+The legacy line is one sentence of the person's English Wikipedia article: the sentence of its introduction, failing that of
+a section headed Legacy, Assessment, Reputation, Historiography or the like, and failing that of any sentence of the article
+a footnote covers (back to the previous footnote in its paragraph, none in a paragraph with a "citation needed" or under a
+citation warning; such a sentence must also stand on its own, as a civilization's must), that a language model scores highest, from 0 to
 10, for saying what the person is remembered for (works, discoveries, foundings, conquests, reforms, firsts) rather than who
 they were, their offices, family or trivia; it needs a score of at least 8, so people known only for holding an office
 have none. Every form of their name (the article's own, the name it opens with and what its first sentence also calls

@@ -14,25 +14,32 @@ logger = logging.getLogger(__name__)
 
 @dataclass(frozen=True)
 class Erratum:
-    civilization: str
     field: str
     value: str
     reason: str
+    civilization: str = ""
+    figure: str = ""
     source: str = ""
     quote: str = ""
     retrieved: datetime.date | None = None
     needs_verification: bool = False
 
+    @property
+    def subject(self) -> str:
+        return self.civilization or self.figure
+
     def to_json(self) -> dict:
-        return {"civilization": self.civilization, "field": self.field, "value": self.value}
+        return {"civilization": self.civilization, "figure": self.figure, "field": self.field, "value": self.value}
 
 
 def load_errata(path: pathlib.Path) -> list[Erratum]:
     entries = tomllib.loads(path.read_text()).get("remove", []) if path.exists() else []
     errata = [Erratum(**entry) for entry in entries]
     for erratum in errata:
-        if erratum.field not in (*REMOVABLE_FIELDS, LEGACY):
-            raise ValueError(f"{erratum.civilization}: {erratum.field} is not a list or a legacy line that errata may remove")
+        if bool(erratum.civilization) == bool(erratum.figure):
+            raise ValueError(f"{erratum.subject}: an erratum names either a civilization or a figure")
+        if erratum.field not in (*REMOVABLE_FIELDS, LEGACY) or (erratum.figure and erratum.field != LEGACY):
+            raise ValueError(f"{erratum.subject}: {erratum.field} is not a list or a legacy line that errata may remove")
     return errata
 
 
@@ -53,15 +60,16 @@ def apply_errata(polities: list[Polity], errata: list[Erratum]) -> list[Erratum]
 
 
 def legacy_rejections(errata: list[Erratum]) -> set[tuple[str, str]]:
-    return {(erratum.civilization, erratum.value) for erratum in errata if erratum.field == LEGACY}
+    """The (civilization or figure, line) pairs a review rejected."""
+    return {(erratum.subject, erratum.value) for erratum in errata if erratum.field == LEGACY}
 
 
 def passed_legacy(errata: list[Erratum], passed: set[tuple[str, str]]) -> list[Erratum]:
     """The legacy errata whose line came up and was passed over, warning about the rest."""
     matched = []
     for erratum in (erratum for erratum in errata if erratum.field == LEGACY):
-        if (erratum.civilization, erratum.value) in passed:
+        if (erratum.subject, erratum.value) in passed:
             matched.append(erratum)
         else:
-            logger.warning("Errata entry matches nothing: %s, legacy, %s", erratum.civilization, erratum.value)
+            logger.warning("Errata entry matches nothing: %s, legacy, %s", erratum.subject, erratum.value)
     return matched

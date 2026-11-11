@@ -7,7 +7,7 @@ import re
 import unicodedata
 from collections.abc import Callable, Iterator
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 import requests
 
@@ -27,8 +27,9 @@ NAME_LIST = re.compile(r"this person\W+(?:\w+\W+){0,2}this person|\bas this pers
                        r"this person,? (?:or|also known as|known as|born|né|née) [A-Z]|this person of [A-Z]|"
                        r"pen.?name|referred to as|also called|nicknamed", re.IGNORECASE)
 MIN_WORDS = 6
-POINTING_BACK = re.compile(r"^(?:He|She|His|Her|Thus|Hence)\b|\b(?:the latter|the former|this same|that same|the result|"
-                           r"as a result)\b", re.IGNORECASE)
+POINTING_BACK = re.compile(r"^(?:Thus|Hence)\b|\b(?:the latter|the former|this same|that same|the result|as a result)\b",
+                           re.IGNORECASE)
+UNNAMED_PERSON = re.compile(r"^(?:He|She|His|Her)\b")
 STEM_LETTERS = 5
 PROGRESS_EVERY = 500
 SECTIONS = re.compile(r"legacy|assessment|reputation|historiography|achievements|significance|influence|evaluation|"
@@ -66,10 +67,11 @@ class Subject:
     prompt: str
     min_score: int
     standalone: bool
+    person: bool
 
 
-FIGURE = Subject(FIGURE_PROMPT, 8, standalone=False)
-CIVILIZATION = Subject(CIVILIZATION_PROMPT, 7, standalone=True)
+FIGURE = Subject(FIGURE_PROMPT, 8, standalone=False, person=True)
+CIVILIZATION = Subject(CIVILIZATION_PROMPT, 7, standalone=True, person=False)
 CIVILIZATION_ROLE = "civilization"
 
 logger = logging.getLogger(__name__)
@@ -107,7 +109,7 @@ def hide(sentence: str, names: list[str]) -> str | None:
     of their name words (with joining words and a regnal number inside it) becomes one mention; title words alone, such
     as 'Emperor' in another ruler's title, are left as they are, and a title just before or after the name goes with it
     ('King Sweyn's', 'Zahir Shah'). A name that names something else (Rákóczi's War of Independence, the Tokugawa
-    shogunate, Sun Liang for Sun Quan), a word made from it (Zoroastrian) or holding it (Bâkî in Abdülbâkî), a title that ends their name left
+    shogunate, Sun Liang for Sun Quan, Burkhard Christoph von Münnich for Anna Leopoldovna), a word made from it (Zoroastrian) or holding it (Bâkî in Abdülbâkî), a title that ends their name left
     on its own ('Khan overthrew the monarchy' for Mohammad Daoud Khan), a sentence that lists the person's names or
     gives a pronunciation, and one Wikipedia tags as unsourced are not used."""
     words = {fold(part) for form in names for word in WORD.findall(form) for part in [word, *re.split(r"[-’']", word)]
@@ -139,6 +141,8 @@ def hide(sentence: str, names: list[str]) -> str | None:
                 return None
             if out and fold(re.sub(r"\W", "", out[-1])) in TITLES and out[-1][:1].isupper():
                 out.pop()
+            if out and out[-1][:1].isupper() and out[-1][-1:].isalpha() and len(out) > 1 and not re.search(r"[.!?:]$", out[-2]):
+                return None
             out.append(("this person's" if possessive else "this person") + trailing)
             index = end + 1
         else:
@@ -221,11 +225,12 @@ def good_lines(scores: LegacyScores, subject: Subject, name: str, role: str, tex
     """The sentences of the text that say well enough what the person or civilization is remembered for, best scored
     first, with the names hidden when given; none scores below the subject's minimum or would give the name away. A
     sentence that repeats the summary, that Wikipedia tags as unsourced or that gives a pronunciation is not used, nor,
-    where a line must stand on its own, one that leans on the sentence before it ('However, …', '… the latter …') or
-    speaks of an unnamed ruler ('He consolidated …')."""
+    where a line must stand on its own, one that leans on the sentence before it ('However, …', '… the latter …') or,
+    for a civilization, speaks of an unnamed ruler ('He consolidated …')."""
     candidates = [sentence for sentence in sentences(re.sub(r"\s*\n+\s*", " ", text))
                   if len(sentence.split()) >= MIN_WORDS and not repeats(sentence, summary)
-                  and not (subject.standalone and (LEANING.match(sentence) or POINTING_BACK.search(sentence)))]
+                  and not (subject.standalone and (LEANING.match(sentence) or POINTING_BACK.search(sentence)
+                                                   or (not subject.person and UNNAMED_PERSON.match(sentence))))]
     ranked = sorted(zip(scores.scores(subject, name, role, candidates), range(0, -len(candidates), -1), candidates),
                     reverse=True)
     for score, _, sentence in ranked:
@@ -242,29 +247,45 @@ def legacy_sections(text: str) -> str:
     return "\n".join(parts[index + 2] for index in range(1, len(parts) - 2, 3) if SECTIONS.search(parts[index + 1]))
 
 
-def legacy_lines(wikipedia, titles: list[str], pick: Callable[[int, str, str], str]) -> list[str]:
-    """Each article's legacy line, as pick(index, text, introduction) chooses it from the introduction, or else from
-    the legacy sections."""
+def legacy_lines(wikipedia, titles: list[str], pick: Callable[[int, str, str, bool], str]) -> list[str]:
+    """Each article's legacy line, as pick(index, text, introduction, body) chooses it from the introduction, else from
+    the legacy sections, else from the cited sentences of the whole article (body true), which stand further from what
+    the article says first and so must stand on their own."""
     introductions = wikipedia.introductions(titles)
     openings = [introductions.get(title, ("", None))[0] for title in titles]
-    lines = [pick(index, opening, opening) for index, opening in enumerate(openings)]
+    lines = [pick(index, opening, opening, False) for index, opening in enumerate(openings)]
     unfound = [index for index, line in enumerate(lines) if not line]
     articles = wikipedia.article_texts([titles[index] for index in unfound])
     for index in unfound:
-        lines[index] = pick(index, legacy_sections(articles.get(titles[index], "")), openings[index])
+        lines[index] = pick(index, legacy_sections(articles.get(titles[index], "")), openings[index], False)
+    unfound = [index for index in unfound if not lines[index]]
+    cited = wikipedia.cited_sentences([titles[index] for index in unfound])
+    for index in unfound:
+        body = "\n".join(sentence if re.search(r"[.!?\"”]$", sentence) else sentence + "."
+                          for sentence in cited.get(titles[index], []))
+        lines[index] = pick(index, body, openings[index], True)
     return lines
 
 
-def add_legacy(figures: list, wikipedia, scores: LegacyScores) -> None:
-    """Each figure's legacy line, with the person hidden."""
-    def pick(index: int, text: str, introduction: str) -> str:
+def add_legacy(figures: list, wikipedia, scores: LegacyScores, rejected: set[tuple[str, str]]) -> set[tuple[str, str]]:
+    """Each figure's legacy line, with the person hidden, passing over the (figure, line) pairs a review rejected for
+    the next best line; returns the rejected pairs it passed over."""
+    passed = set()
+
+    def pick(index: int, text: str, introduction: str, body: bool) -> str:
         figure = figures[index]
         names = name_forms([figure.name, figure.wikipedia], introduction)
-        return next(good_lines(scores, FIGURE, figure.name, figure.role, text, names), "")
+        subject = replace(FIGURE, standalone=True) if body else FIGURE
+        for line in good_lines(scores, subject, figure.name, figure.role, text, names):
+            if (figure.name, line) not in rejected:
+                return line
+            passed.add((figure.name, line))
+        return ""
 
     for figure, line in zip(figures, legacy_lines(wikipedia, [figure.wikipedia for figure in figures], pick)):
         figure.legacy = line
     logger.info("Found a legacy line for %d of %d figures", sum(bool(figure.legacy) for figure in figures), len(figures))
+    return passed
 
 
 def add_civilization_legacy(polities: list, wikipedia, scores: LegacyScores,
@@ -276,7 +297,7 @@ def add_civilization_legacy(polities: list, wikipedia, scores: LegacyScores,
     pages = wikipedia.resolve([polity.wikipedia for polity in polities])
     titles = [pages[polity.wikipedia].title if polity.wikipedia in pages else polity.wikipedia for polity in polities]
 
-    def pick(index: int, text: str, _: str) -> str:
+    def pick(index: int, text: str, _: str, __: bool) -> str:
         polity = polities[index]
         for line in good_lines(scores, CIVILIZATION, polity.name, CIVILIZATION_ROLE, text, summary=polity.summary):
             if (polity.name, line) not in rejected:
