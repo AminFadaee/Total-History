@@ -60,6 +60,7 @@ SUCCESSION_STEPS = 3
 MIN_JOINING_KM2 = 20_000
 DEATH_DISCOUNT = 0.5
 HEAD_OFFICES = ("P1906", "P1313")
+GENERIC_TITLES = {"Q28640", "Q136649946", "Q1326966", "Q3320743", "Q56019"}  # profession, type of position, honorific, title of honor, military rank
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
 SAME_LAND_BEFORE_BIRTH = 100
 SAME_LAND_STEP = 5
@@ -145,6 +146,23 @@ def setting(civilizations: list[str], region: str, adulthood: tuple[int, int]) -
 
 
 @dataclass(frozen=True)
+class Part:
+    """A state Wikidata says made up an umbrella, with the years it did when Wikidata gives them."""
+    state: str
+    start: int | None
+    end: int | None
+
+    @classmethod
+    def of(cls, state: str, claim: dict) -> "Part":
+        return cls(state, qualifier_year(claim, "P580"), qualifier_year(claim, "P582"))
+
+    def within(self, years: tuple[int, int]) -> tuple[int, int] | None:
+        first = max(years[0], self.start) if self.start is not None else years[0]
+        last = min(years[1], self.end - 1) if self.end is not None else years[1]
+        return (first, last) if first <= last else None
+
+
+@dataclass(frozen=True)
 class Candidate:
     title: str
     person: Entity
@@ -194,6 +212,9 @@ class FigureBuilder:
         for state in catalog.by_qid:
             for office in catalog.entities[state].ids(*HEAD_OFFICES, preferred_only=False):
                 self.head_offices.setdefault(office, set()).add(state)
+        generic = {qid for qid, office in self.wikidata.entities(sorted(self.head_offices)).items()
+                   if GENERIC_TITLES & set(office.ids("P31", preferred_only=False))}
+        self.head_offices = {office: states for office, states in self.head_offices.items() if office not in generic}
         self.led = self._infobox_leaders()
 
     def _infobox_leaders(self) -> dict[str, set[str]]:
@@ -427,30 +448,38 @@ class FigureBuilder:
     def _prepare_citizenships(self, candidates: list[Candidate]) -> None:
         """Wikidata often gives citizenship as an umbrella civilization (Ancient Rome) or today's country (France)
         rather than a state Cliopatria draws. An umbrella counts for its parts, the states Wikidata lists as making it
-        up; when none of them existed then, it counts like a country. A country counts for the Cliopatria state that
+        up, while they were part of it (Algeria of France until 1962) and, when it has a capital, only those that held
+        the capital at some time, so Cisleithania is not each of its crown lands; when none of them existed then, it
+        counts like a country. A country counts for the Cliopatria state that
         held its capital, but only one Wikidata ties to the country, as an earlier form of it (Kingdom of Great Britain
         for the United Kingdom) or by naming it as its country; the holder of a capital is otherwise often an occupier,
         such as Japan in Seoul. Both are judged over the person's adult life."""
         others = {qid for candidate in candidates for qid in candidate.person.ids("P27", preferred_only=False)
                   if qid not in self.catalog.by_qid}
         items = self.wikidata.entities(list(others))
-        part_of: dict[str, set[str]] = {}
+        part_of: dict[str, set[Part]] = {}
         for state in self.catalog.by_qid:
-            for whole in self.catalog.entities[state].ids("P361", preferred_only=False):
-                part_of.setdefault(whole, set()).add(state)
-        self.umbrellas = {qid: ({part for part in item.ids("P527", preferred_only=False) if part in self.catalog.by_qid}
-                                | part_of.get(qid, set())) for qid, item in items.items()}
+            for claim in self.catalog.entities[state].statements("P361", preferred_only=False):
+                part_of.setdefault(claim["mainsnak"]["datavalue"]["value"]["id"], set()).add(Part.of(state, claim))
         capitals = self.wikidata.entities([capital for item in items.values() for capital in item.ids("P36")])
         frame = self.cliopatria.frame
+        self.umbrellas: dict[str, set[Part]] = {}
         self.capital_holders: dict[str, list[tuple[str, int, int]]] = {}
         for qid, item in items.items():
             location = next((capitals[c].coordinates() for c in item.ids("P36") if c in capitals and capitals[c].coordinates()), None)
+            parts = {Part.of(claim["mainsnak"]["datavalue"]["value"]["id"], claim)
+                     for claim in item.statements("P527", preferred_only=False)} | part_of.get(qid, set())
+            self.umbrellas[qid] = {part for part in parts if part.state in self.catalog.by_qid
+                                   and (location is None or self._ever_held(part.state, location))}
             if location:
                 rows = frame[frame.geometry.contains(Point(location)) & frame.Name.isin(self.catalog.identities)]
                 holders = [(self.catalog.identities[name].qid, int(first), int(last))
                            for name, first, last in zip(rows.Name, rows.FromYear, rows.ToYear)]
                 linked = self._linked({holder for holder, *_ in holders}, qid)
                 self.capital_holders[qid] = [holder for holder in holders if holder[0] in linked]
+
+    def _ever_held(self, state: str, location: tuple[float, float]) -> bool:
+        return bool(self.cliopatria.rows(self.catalog.by_qid[state].name).geometry.contains(Point(location)).any())
 
     def _linked(self, holders: set[str], country: str) -> set[str]:
         """The holders Wikidata ties to the country: through their country (P17), or a chain of up to three
@@ -473,7 +502,8 @@ class FigureBuilder:
         for qid in person.ids("P27", preferred_only=False):
             if qid in self.catalog.by_qid:
                 found.append(qid)
-            elif parts := [part for part in sorted(self.umbrellas.get(qid, ())) if self._active(part, adulthood)]:
+            elif parts := sorted({part.state for part in self.umbrellas.get(qid, ())
+                                  if (years := part.within(adulthood)) and self._active(part.state, years)}):
                 found += parts
             elif self.capital_holders.get(qid):
                 years: Counter = Counter()
@@ -731,8 +761,9 @@ class FigureBuilder:
         return found
 
     def _head_states(self, qid: str, term: tuple[int, int]) -> set[str]:
-        """The states an office heads during a term: those naming it as their head of state or government, and, for an
-        office Wikidata classes as a head of state or government, monarch, emperor, king or president, the states it
+        """The states an office heads during a term: those naming it as their head of state or government, unless it is
+        a generic title (sultan, which the Beylik of Karaman names, would make every Sultan of Delhi its head), and, for
+        an office Wikidata classes as a head of state or government, monarch, emperor, king or president, the states it
         names as its jurisdiction or country (Emperor of the French for the First and Second Empires)."""
         states = set(self.head_offices.get(qid, ()))
         if qid in self.head_kind:

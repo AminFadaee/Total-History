@@ -8,7 +8,7 @@ from page_in_history.dates import Span, centuries, parse, parse_range, period_la
 from page_in_history.deck import CIVILIZATION_TEMPLATES, century_tag, with_modern_country
 from page_in_history.errata import Erratum, legacy_rejections, passed_legacy
 from page_in_history.figures import lifetime
-from page_in_history.legacy import CIVILIZATION, LegacyScores, good_lines, hide, legacy_sections, name_forms, repeats
+from page_in_history.legacy import CIVILIZATION, FIGURE, LegacyScores, good_lines, hide, legacy_sections, name_forms, repeats
 from page_in_history.photos import visible
 from page_in_history.polities import DATED, RulingRole, row_years, same_name
 from page_in_history.sentences import contribution, first_paragraph, sentences
@@ -402,17 +402,74 @@ def test_a_legacy_line_keeps_particles_and_other_names(names, realms, sentence, 
     assert hide(sentence, name_forms(names, "", realms)) == hidden
 
 
+@pytest.mark.parametrize("names, opening, sentence, hidden", [
+    (["Tiberius"], "Tiberius Julius Caesar Augustus (42 BC – AD 37) was Roman emperor.",
+     "Augustus adopted him as his heir in AD 4", None),
+    (["Hasan ibn Ali"], "", "Hasan succeeded his father Ali as caliph", None),
+    (["Alan Turing"], "Alan Mathison Turing (1912 – 1954) was an English mathematician.",
+     "Alan Mathison Turing was an English mathematician", "This person was an English mathematician"),
+    (["Ibn Hajar al-Haytami"], "", "Ibn Hajar al-Haytami was a leading Shafi'i jurist", "This person was a leading Shafi'i jurist"),
+    (["Joan of Arc"], "", "Joan of Arc lifted the siege of Orléans", "This person lifted the siege of Orléans"),
+    (["Parameswara"], "", "Parameswara founded the port of Malacca", "This person founded the port of Malacca"),
+    (["Edward III of England"], "", "He was crowned after his father, Edward II, was deposed", None),
+    (["Edward III of England"], "", "Edward III made England a military power", "This person made England a military power"),
+    (["Mary, mother of Jesus"], "", "Mary is venerated in Christianity", "This person is venerated in Christianity"),
+    (["Mary, mother of Jesus"], "", "She is said to have conceived Jesus by the Holy Spirit",
+     "She is said to have conceived Jesus by the Holy Spirit"),
+    (["Fibonacci"], "", "He is known for the Fibonacci numbers in Western mathematics", None),
+    (["Catherine of Alexandria"], "", "The Catherine wheel is named after her martyrdom", None),
+    (["Bernard Freyberg"], "", "He became the youngest general in the British Army", "He became the youngest general in the British Army"),
+    (["Al Capone"], "", "He was nicknamed Scarface after a fight in a bar", None),
+    (["Lakshmibai, Rani of Jhansi"], "", "Lakshmibai, Rani of Jhansi was one of the leading figures of the rebellion",
+     "This person was one of the leading figures of the rebellion"),
+    (["Nizam-ul-Mulk, Asaf Jah I"], "", "Political intrigues compelled Asaf Jah to rebel against the emperor", None),
+    (["Tamar of Georgia"], "", "Tamar the Great reigned as the Queen of Georgia", "This person reigned as the Queen of Georgia"),
+    (["Ganga Zumba"], "Nganga Nzumba (c. 1630 – 1678) was the first leader of Palmares.",
+     "Nganga Nzumba was the first leader of the runaway slave settlement", "This person was the first leader of the runaway slave settlement"),
+    (["Jin Yong"], "Louis Cha Leung-yung (1924 – 2018), better known by his pen name Jin Yong, was a novelist.",
+     "Cha authored 15 novels between 1955 and 1972", None),
+    (["Liu Bei"], "", "His courtesy name was Xuande and he founded Shu Han", None),
+    (["Ken Arok"], "", "Ken Arok, Rajasa, was the founder of Singhasari", None),
+    (["Ibn al-Haytham"], "Ḥasan Ibn al-Haytham (Latinized as Alhazen; c. 965 – 1040) was an Arab mathematician.",
+     "Alhazen was the first to explain that vision occurs when light reflects into the eyes",
+     "This person was the first to explain that vision occurs when light reflects into the eyes"),
+])
+def test_a_legacy_line_hides_only_the_persons_own_name(names, opening, sentence, hidden):
+    assert hide(sentence, name_forms(names, opening), name_forms(names, "")) == hidden
+
+
+@pytest.mark.parametrize("sentence", [
+    "Three months later he was named president of the republic",
+    "In this position he reorganised the army of the republic",
+    "Henceforth the colony was ruled from London by the crown",
+    "Shortly afterwards the new king was crowned in Uppsala",
+    "The constitution was suspended by the emperor in that year",
+])
+def test_a_figure_legacy_line_stands_on_its_own(sentence):
+    assert not list(good_lines(FixedScores({sentence: 10}), FIGURE, "Abeid Karume", "president", sentence))
+
+
 def test_a_name_particle_at_the_start_of_a_sentence_goes_with_the_name():
     assert hide("Del Pilar founded the Diariong Tagalog newspaper", name_forms(["Marcelo H. del Pilar"], "")) \
         == "This person founded the Diariong Tagalog newspaper"
 
 
-def test_a_figure_erratum_drops_a_wrong_state_or_known_for_line():
+def test_a_figure_erratum_drops_a_wrong_state_known_for_line_or_life():
     from types import SimpleNamespace
     from page_in_history.errata import apply_figure_errata
-    figure = SimpleNamespace(name="Kimpa Vita", civilizations=["Kathmandu", "Kingdom of Kongo"], related=[], contribution="A fragment.")
+    figure = SimpleNamespace(name="Kimpa Vita", civilizations=["Kathmandu", "Kingdom of Kongo"], related=[],
+                             contribution="A fragment.", life="c. 55 BC – c. AD 12")
     errata = [Erratum("civilizations", "Kathmandu", "No tie.", figure="Kimpa Vita"),
               Erratum("contribution", "A fragment.", "Says nothing.", figure="Kimpa Vita"),
+              Erratum("life", "c. 55 BC – c. AD 12", "No source gives dates.", figure="Kimpa Vita"),
               Erratum("civilizations", "Mali Empire", "No tie.", figure="Kimpa Vita")]
-    assert apply_figure_errata([figure], errata) == errata[:2]
-    assert figure.civilizations == ["Kingdom of Kongo"] and figure.contribution == ""
+    assert apply_figure_errata([figure], errata) == errata[:3]
+    assert figure.civilizations == ["Kingdom of Kongo"] and figure.contribution == "" and figure.life == ""
+
+
+def test_an_umbrella_part_counts_only_while_it_was_part_of_it():
+    from page_in_history.figures import Part
+    algeria = Part("Q262", None, 1962)
+    assert algeria.within((1925, 1980)) == (1925, 1961)
+    assert algeria.within((1965, 1980)) is None
+    assert Part("Q1", 1871, None).within((1850, 1900)) == (1871, 1900)

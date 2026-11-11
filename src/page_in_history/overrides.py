@@ -270,9 +270,9 @@ def _capital(name: str, entity) -> dict:
 
 def _fill_key_figures(polity: Polity, override: Override, name_of) -> None:
     """The people the override names, by their English Wikipedia titles rather than Wikidata's labels (Ferdinand III of
-    Castile, not 'of Castille')."""
-    figures = [{"id": qid, "name": name_of(qid)} for qid in override.value_ids]
+    Castile, not 'of Castille'); one already there is not added again."""
     kept = polity.key_figures if override.action == "add" else []
+    figures = [{"id": qid, "name": name_of(qid)} for qid in override.value_ids if qid not in {item["id"] for item in kept}]
     if len(kept) + len(figures) > MAX_KEY_FIGURES:
         raise ValueError(f"{polity.name}: no room for the key figures {[figure['name'] for figure in figures]}")
     polity.key_figures[:] = kept + figures

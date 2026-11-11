@@ -9,7 +9,7 @@ from page_in_history.polities import Polity
 
 REMOVABLE_FIELDS = ("before", "after", "key_figures", "capitals", "modern_countries")
 LEGACY = "legacy"
-FIGURE_FIELDS = ("civilizations", "contribution", LEGACY)
+FIGURE_FIELDS = ("civilizations", "contribution", "life", LEGACY)
 
 logger = logging.getLogger(__name__)
 
@@ -79,13 +79,13 @@ def passed_legacy(errata: list[Erratum], passed: set[tuple[str, str]]) -> list[E
 
 def apply_figure_errata(figures: list, errata: list[Erratum]) -> list[Erratum]:
     """Drops a state a figure was wrongly filed under (from their states and their related ones), or a Known for line
-    a review found wrong, leaving it empty; returns the entries that matched something."""
+    or life dates a review found wrong, leaving them empty; returns the entries that matched something."""
     by_name = {figure.name: figure for figure in figures}
     dropped = []
     for erratum in (erratum for erratum in errata if erratum.figure and erratum.field != LEGACY):
         figure = by_name.get(erratum.figure)
-        if figure and erratum.field == "contribution" and figure.contribution == erratum.value:
-            figure.contribution = ""
+        if figure and erratum.field in ("contribution", "life") and getattr(figure, erratum.field) == erratum.value:
+            setattr(figure, erratum.field, "")
         elif figure and erratum.field == "civilizations" and erratum.value in figure.civilizations + figure.related:
             figure.civilizations = [name for name in figure.civilizations if name != erratum.value]
             figure.related = [name for name in figure.related if name != erratum.value]
