@@ -3,7 +3,7 @@
 An Anki deck of civilizations and the people who shaped them, and the pipeline that builds it.
 
 **Get the deck:** download `total_history.apkg` from the
-[latest release](https://github.com/AminFadaee/A-Page-in-History/releases/latest).
+[latest release](https://github.com/AminFadaee/Total-History/releases/latest).
 
 It covers the civilizations that Wikipedia's editors list as vital, that Wikipedia writes about in many languages,
 that ruled a vast territory, or whose people are among the best known of their age, from Akkad and Old Kingdom Egypt
