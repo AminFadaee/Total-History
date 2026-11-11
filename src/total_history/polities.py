@@ -131,7 +131,9 @@ MAPLESS_KINDS = {
     "Q417175": "kingdom", "Q486972": "settlement", "Q10864048": "subdivision", "Q11514315": "period",
     "Q164950": "dynasty", "Q41710": "ethnic group", "Q8432": "civilization",
 }
-NEIGHBOUR_ROOTS = {**MAPLESS_KINDS, "Q2577883": "occupied territory", **dict.fromkeys(EVENT_KINDS, "event")}
+REGIME_CHANGE = "Q1673271"
+NEIGHBOUR_ROOTS = {**MAPLESS_KINDS, "Q2577883": "occupied territory",
+                   **dict.fromkeys(EVENT_KINDS | {REGIME_CHANGE}, "event")}
 NOT_MAPLESS = {"subdivision", "period", "dynasty", "ethnic group", "civilization"}
 KINDS = {
     "Q3624078": "sovereign state",
@@ -1220,7 +1222,8 @@ class PolityBuilder:
 
     @staticmethod
     def _stateful(kinds: set[str]) -> bool:
-        """Anything but a subdivision, an event, a territory that is only occupied or a city that is not also a city-state."""
+        """Anything but a subdivision, an event (a war, a treaty, or a change of regime such as the Spanish transition to
+        democracy), a territory that is only occupied or a city that is not also a city-state."""
         return not kinds & {"subdivision", "event"} and not ("occupied territory" in kinds and not kinds & STATE_KINDS) \
             and not ("settlement" in kinds and "city-state" not in kinds)
 

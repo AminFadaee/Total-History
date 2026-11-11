@@ -13,7 +13,7 @@ from total_history.errata import Erratum, legacy_rejections, passed_legacy
 from total_history.figures import lifetime
 from total_history.legacy import CIVILIZATION, FIGURE, LegacyScores, good_lines, hide, legacy_sections, name_forms, repeats
 from total_history.photos import visible
-from total_history.polities import DATED, PolityBuilder, RulingRole, row_years, same_name
+from total_history.polities import DATED, NEIGHBOUR_ROOTS, REGIME_CHANGE, PolityBuilder, RulingRole, row_years, same_name
 from total_history.sentences import contribution, first_paragraph, sentences
 from total_history.sources.cliopatria import Cliopatria, holding, occupation
 from total_history.sources.wikidata import YEAR_PRECISION, Entity, Year
@@ -546,3 +546,9 @@ def test_an_overseas_occupation_is_cut_from_the_map():
     shapes = builder._shapes("United States", [], 1945, [{"location": [-99.0, 36.0]}], None)
     assert shapes[shapes.Name == "United States"].geometry.union_all().equals(MultiPolygon([home, philippines]))
     assert set(shapes.Name) == {"United States", "Denmark"}
+
+
+def test_a_change_of_regime_is_an_event_not_a_neighbour():
+    assert NEIGHBOUR_ROOTS[REGIME_CHANGE] == "event"
+    assert not PolityBuilder._stateful({"period", "event"})
+    assert PolityBuilder._stateful({"period"})
