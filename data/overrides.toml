@@ -15029,3 +15029,51 @@ value = "The Order established its rule during the Prussian Crusade from the 123
 source = "https://en.wikipedia.org/wiki/State_of_the_Teutonic_Order"
 quote = "The Order established its rule during the Prussian Crusade from the 1230s, conquering territories inhabited by the Old Prussians and developing a network of castles and settlements"
 retrieved = 2026-11-11
+
+[[override]]
+civilization = "German Confederation"
+civilization_id = "Q151624"
+field = "after"
+action = "set"
+value = "North German Confederation"
+value_id = "Q150981"
+region = "Germany"
+source = "https://en.wikipedia.org/wiki/North_German_Confederation"
+quote = "Austria agreed to step back from taking any part in German affairs and to accept the creation of a North German Confederation under Prussia's leadership."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Buyid Dynasty"
+civilization_id = "Q273874"
+field = "after"
+action = "set"
+value = "Great Seljuk Empire"
+value_id = "Q3708094"
+region = "Iran"
+source = "https://en.wikipedia.org/wiki/Buyid_dynasty"
+quote = "In 1055, Tughril occupied Baghdad, the seat of the caliphate, and ousted the last of the Buyid rulers."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Jalayirid Sultanate"
+civilization_id = "Q866716"
+field = "after"
+action = "set"
+value = "Qara Qoyunlu"
+value_id = "Q324470"
+region = "Iraq"
+source = "https://en.wikipedia.org/wiki/Jalayirids"
+quote = "The Jalayirids were finally eliminated by the Qara Qoyunlu in 1432."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Tokugawa Shogunate"
+civilization_id = "Q205662"
+field = "before"
+action = "set"
+value = "Warring States Japan"
+value_id = "Q204023"
+region = "Japan"
+source = "https://en.wikipedia.org/wiki/Azuchi%E2%80%93Momoyama_period"
+quote = "The Azuchi–Momoyama period ended with the Tokugawa victory at the Battle of Sekigahara in 1600"
+retrieved = 2026-11-11
