@@ -7,6 +7,7 @@ from page_in_history.dates import Span, parse
 from page_in_history.errata import Erratum
 from page_in_history.polities import Polity, Tier
 from page_in_history.sources.wikidata import Wikidata
+from page_in_history.sources.wikipedia import display_name
 
 SIDES = ("before", "after")
 LIST_FIELDS = {"before": "before", "after": "after", "capital": "capitals", "key_figures": "key_figures",
@@ -148,7 +149,12 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
     entities = wikidata.entities([qid for override in overrides for qid in override.value_ids])
 
     def name_of(qid: str) -> str:
-        return by_id[qid].name if qid in by_id else entities[qid].label
+        """A civilization of the deck by its own name; anyone else by their English Wikipedia title, as figures are
+        named, else Wikidata's label."""
+        if qid in by_id:
+            return by_id[qid].name
+        entity = entities[qid]
+        return display_name(entity.enwiki) if entity.enwiki else entity.label
 
     for override in overrides:
         polity = by_id.get(override.civilization_id)
@@ -165,7 +171,7 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
         elif override.field == "capital":
             _fill_capitals(polity, override, entities)
         elif override.field == "key_figures":
-            _fill_key_figures(polity, override)
+            _fill_key_figures(polity, override, name_of)
         elif override.field == "modern_countries":
             polity.modern_countries = list(override.value)
         elif override.field == "map_year":
@@ -262,10 +268,10 @@ def _capital(name: str, entity) -> dict:
     return {"name": name, "location": list(location) if location else None, "founded": founded}
 
 
-def _fill_key_figures(polity: Polity, override: Override) -> None:
-    """The people the override names, under the names it gives them, which are their English Wikipedia titles rather
-    than Wikidata's labels (Ferdinand III of Castile, not 'of Castille')."""
-    figures = [{"id": qid, "name": name} for qid, name in zip(override.value_ids, override.values)]
+def _fill_key_figures(polity: Polity, override: Override, name_of) -> None:
+    """The people the override names, by their English Wikipedia titles rather than Wikidata's labels (Ferdinand III of
+    Castile, not 'of Castille')."""
+    figures = [{"id": qid, "name": name_of(qid)} for qid in override.value_ids]
     kept = polity.key_figures if override.action == "add" else []
     if len(kept) + len(figures) > MAX_KEY_FIGURES:
         raise ValueError(f"{polity.name}: no room for the key figures {[figure['name'] for figure in figures]}")

@@ -103,8 +103,8 @@ def test_every_field_is_filled_or_marked_not_applicable(civilizations):
 
 
 class FakeEntity:
-    def __init__(self, label: str, location=None):
-        self.label, self.location = label, location
+    def __init__(self, label: str, location=None, enwiki: str | None = None):
+        self.label, self.location, self.enwiki = label, location, enwiki
 
     def years(self, prop):
         return []
@@ -116,7 +116,7 @@ class FakeEntity:
 class FakeWikidata:
     def entities(self, ids):
         return {"Q2": FakeEntity("Oldland"), "Q3": FakeEntity("Newtown", (1.0, 2.0)),
-                "Q4": FakeEntity("Ruler A label"), "Q5": FakeEntity("Ruler B label")}
+                "Q4": FakeEntity("Ruler A label", enwiki="Ruler A"), "Q5": FakeEntity("Ruler B label", enwiki="Ruler B (king)")}
 
 
 def test_apply_every_field_and_action():
