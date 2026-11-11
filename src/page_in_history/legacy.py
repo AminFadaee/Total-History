@@ -34,11 +34,15 @@ STEM_LETTERS = 5
 PROGRESS_EVERY = 500
 SECTIONS = re.compile(r"legacy|assessment|reputation|historiography|achievements|significance|influence|evaluation|"
                       r"historical (?:view|perception|image)|memory|commemoration", re.IGNORECASE)
-TITLES = {"of", "the", "de", "da", "di", "von", "van", "der", "al", "el", "ibn", "bin", "bint", "ben", "and", "le", "la",
+TITLES = {"of", "the", "de", "da", "di", "del", "du", "dos", "das", "von", "van", "der", "al", "el", "ibn", "bin", "bint", "ben", "and", "le", "la",
           "emperor", "empress", "king", "queen", "saint", "st", "pope", "sultan", "khan", "prince", "princess", "duke",
           "duchess", "count", "lord", "sir", "lady", "mansa", "shah", "tsar", "caliph", "pharaoh", "great", "elder",
           "younger"}
 EPITHETS = {"great", "elder", "younger"}
+BROKEN = re.compile(r"(?<!\.[A-Z])(?<!\b[a-z])(?<!\be\.g)(?<!\bi\.e)(?<!\bc)(?<!\bca)(?<!\bvs)\. [a-z]")
+HONOUR = re.compile(r"\bin (?:his|her) hono(?:u)?r\b|\bnamed (?:after|for) (?:him|her)\b|\bafter whom\b", re.IGNORECASE)
+DETERMINERS = {"a", "an", "his", "her", "its", "their", "our", "own"}
+NEAR_LETTERS = 5
 COMMON = {"as", "is", "an", "in", "on", "at", "to", "by", "or", "he", "she", "it", "we", "us", "no", "so", "do", "up"}
 NUMERAL = re.compile(r"^(?:[IVXL]+|\d+(?:st|nd|rd|th)?)$")
 WORD = re.compile(r"[^\W\d_](?:[^\W\d_]|['’-][^\W\d_])*'?s?|[^\W\d_]+", re.UNICODE)
@@ -85,23 +89,37 @@ def stem(word: str) -> str:
     return fold(re.sub(r"['’]s?$", "", word))[:STEM_LETTERS]
 
 
-def name_forms(names: list[str], opening: str) -> list[str]:
+def name_forms(names: list[str], opening: str, realms: tuple[str, ...] = ()) -> list[str]:
     """The person's names: those given, the name the article opens with, and what its first sentence calls them besides
-    ('also known as Emperor Wu'). A territorial 'of …' after a regnal number or title is not part of the name (Catherine
-    I of Russia), but it is in Joan of Arc."""
+    ('also known as Emperor Wu'). A territorial 'of …' after a regnal number or title, or naming one of the person's own
+    realms, is not part of the name (Catherine I of Russia, Taejo of Joseon), but it is in Joan of Arc."""
     forms = list(names)
     first = sentences(opening)[0] if opening else ""
     if found := OPENING_NAME.match(first):
         forms.append(found.group(1))
     forms += [part.strip() for match in ALSO_KNOWN.finditer(first.split(" was ")[0])
               for part in re.split(r"\s+and\s+(?:as\s+)?|\s+or\s+|,", match.group(1))]
+    realm = {fold(word)[:STEM_LETTERS] for name in realms for word in WORD.findall(name or "") if fold(word) not in TITLES}
     trimmed = []
     for form in forms:
         form = re.sub(r"\s*\(.*?\)", "", form)
         head, _, tail = form.partition(" of ")
         words = head.split()
-        trimmed.append(head if tail and (NUMERAL.match(words[-1]) or fold(words[0]) in TITLES) else form)
+        place = {fold(word)[:STEM_LETTERS] for word in WORD.findall(tail) if fold(word) not in TITLES}
+        stripped = tail and (NUMERAL.match(words[-1]) or fold(words[0]) in TITLES or (place and place <= realm))
+        trimmed.append(head.split(",")[0] if stripped else form)
     return list(dict.fromkeys(form for form in trimmed if form.strip()))
+
+
+def near(word: str, other: str) -> bool:
+    """One letter apart from the same first letter: a spelling of the same name (Ahmed for Ahmad), not another name
+    (Janga beside Ganga)."""
+    if word == other or word[:1] != other[:1] or abs(len(word) - len(other)) > 1:
+        return False
+    if len(word) == len(other):
+        return sum(a != b for a, b in zip(word, other)) == 1
+    short, long = sorted((word, other), key=len)
+    return any(long[:index] + long[index + 1:] == short for index in range(len(long)))
 
 
 def hide(sentence: str, names: list[str]) -> str | None:
@@ -112,8 +130,13 @@ def hide(sentence: str, names: list[str]) -> str | None:
     shogunate, Sun Liang for Sun Quan, Burkhard Christoph von Münnich for Anna Leopoldovna), a word made from it (Zoroastrian) or holding it (Bâkî in Abdülbâkî), a title that ends their name left
     on its own ('Khan overthrew the monarchy' for Mohammad Daoud Khan), a sentence that lists the person's names or
     gives a pronunciation, and one Wikipedia tags as unsourced are not used."""
-    words = {fold(part) for form in names for word in WORD.findall(form) for part in [word, *re.split(r"[-’']", word)]
-             if fold(part) not in TITLES | COMMON and len(part) > 1}
+    if HONOUR.search(sentence):
+        return None
+    named = [word for form in names for word in WORD.findall(form) if any(part[:1].isupper() for part in re.split(r"[-’']", word))]
+    parts = [part for word in named for part in [word, *re.split(r"[-’']", word)] if part[:1].isupper() or part == word]
+    every = {fold(part) for part in parts}
+    joiners = {fold(word) for form in names for word in form.split()[1:-1] if word.islower()}
+    words = {word for word in every if word not in TITLES | COMMON and len(word) > 1}
     stems = {word[:STEM_LETTERS] for word in words}
     for token in WORD.findall(sentence):
         bare = fold(re.sub(r"['’]s?$", "", token))
@@ -123,11 +146,14 @@ def hide(sentence: str, names: list[str]) -> str | None:
     out, index = [], 0
     while index < len(tokens):
         word = re.sub(r"^\W+|\W+$", "", tokens[index].group())
-        if word and stem(word) in stems:
+        if word and fold(re.sub(r"['’]s?$", "", word)) in words:
             end, possessive = index, False
             while end + 1 < len(tokens):
                 following = re.sub(r"^\W+|\W+$", "", tokens[end + 1].group())
-                if following and (stem(following) in stems or NUMERAL.match(following)
+                after = re.sub(r"^\W+|\W+$", "", tokens[end + 2].group()) if end + 2 < len(tokens) else ""
+                if following and (fold(re.sub(r"['’]s?$", "", following)) in words or NUMERAL.match(following)
+                                  or (following.islower() and fold(following) in TITLES | joiners
+                                      and fold(re.sub(r"['’]s?$", "", after)) in words)
                                   or (fold(re.sub(r"['’]s?$", "", following)) in TITLES and following[:1].isupper())):
                     end += 1
                 else:
@@ -137,10 +163,16 @@ def hide(sentence: str, names: list[str]) -> str | None:
             if end + 1 < len(tokens) and tokens[end + 1].group()[:1].isupper() and (possessive or last[-1:].isalpha()):
                 return None
             trailing = re.search(r"[^\w'’]*$", last).group()
-            if out and fold(out[-1]) == "the":
-                return None
+            if trailing == "." and end + 1 < len(tokens) and tokens[end + 1].group()[:1].islower():
+                trailing = ""
             if out and fold(re.sub(r"\W", "", out[-1])) in TITLES and out[-1][:1].isupper():
                 out.pop()
+            if out and out[-1][:1].isupper() and fold(re.sub(r"\W", "", out[-1])) in every:
+                out.pop()
+            if out and fold(out[-1]) in ("the", *DETERMINERS):
+                return None
+            if len(out) > 2 and fold(out[-1]) == "of" and out[-2][:1].isupper() and not re.search(r"[.!?:]$", out[-3]):
+                return None
             if out and out[-1][:1].isupper() and out[-1][-1:].isalpha() and len(out) > 1 and not re.search(r"[.!?:]$", out[-2]):
                 return None
             out.append(("this person's" if possessive else "this person") + trailing)
@@ -154,11 +186,15 @@ def hide(sentence: str, names: list[str]) -> str | None:
     if any(word in bare for word in words if len(word) > 3 for bare in (fold(token) for token in WORD.findall(text))
            if word != bare and bare not in ("this", "person")):
         return None
-    if any(stem(word) in stems for word in WORD.findall(text) if fold(word) not in ("this", "person")):
+    if any(stem(word) in stems for word in WORD.findall(text) if word[:1].isupper() and fold(word) not in ("this", "person")):
+        return None
+    if any(near(fold(re.sub(r"['’]s?$", "", token)), word) for token in WORD.findall(text) if len(token) >= NEAR_LETTERS
+           for word in words if len(word) >= NEAR_LETTERS):
         return None
     endings = {fold(form.split()[-1]) for form in names if form.split()} & (TITLES - EPITHETS)
     if any(fold(re.sub(r"['’]s?$", "", word)) in endings for word in WORD.findall(text) if word[:1].isupper()):
         return None
+    text = re.sub(r"^this person, (?=(?:was|is|were)\b)", "this person ", text)
     text = text[0].upper() + text[1:]
     return re.sub(r"(?<=[.!?] )this person", "This person", text)
 
@@ -236,9 +272,14 @@ def good_lines(scores: LegacyScores, subject: Subject, name: str, role: str, tex
     for score, _, sentence in ranked:
         if score < subject.min_score:
             return
-        if (line := hide(sentence, names) if names else sentence) and not TAGGED.search(line):
-            line = line if re.search(r"[.!?\"”’)]$", line) else line + "."
+        if (line := hide(sentence, names) if names else sentence) and not TAGGED.search(line) and not BROKEN.search(line):
+            line = line if re.search(r"[.!?][\"”’)]*$", line) else line + "."
             yield re.sub(r"\s{2,}", " ", re.sub(r",\s*([,.])", r"\1", line))
+
+
+def unended(line: str) -> str:
+    """The line without its closing full stops, so a review of it still holds when its ending is tidied."""
+    return line.rstrip(".")
 
 
 def legacy_sections(text: str) -> str:
@@ -267,6 +308,11 @@ def legacy_lines(wikipedia, titles: list[str], pick: Callable[[int, str, str, bo
     return lines
 
 
+def realms(figure) -> tuple[str, ...]:
+    """The states and countries a figure belongs to, whose names can follow theirs ('Taejo of Joseon')."""
+    return (*figure.civilizations, figure.setting, figure.modern_country, figure.birth_country)
+
+
 def add_legacy(figures: list, wikipedia, scores: LegacyScores, rejected: set[tuple[str, str]]) -> set[tuple[str, str]]:
     """Each figure's legacy line, with the person hidden, unless an override set it, passing over the (figure, line) pairs a review rejected for
     the next best line; returns the rejected pairs it passed over."""
@@ -274,12 +320,12 @@ def add_legacy(figures: list, wikipedia, scores: LegacyScores, rejected: set[tup
 
     def pick(index: int, text: str, introduction: str, body: bool) -> str:
         figure = figures[index]
-        names = name_forms([figure.name, figure.wikipedia], introduction)
+        names = name_forms([figure.name, figure.wikipedia], introduction, realms(figure))
         subject = replace(FIGURE, standalone=True) if body else FIGURE
         for line in good_lines(scores, subject, figure.name, figure.role, text, names):
-            if (figure.name, line) not in rejected:
+            if (figure.name, unended(line)) not in rejected:
                 return line
-            passed.add((figure.name, line))
+            passed.add((figure.name, unended(line)))
         return ""
 
     for figure, line in zip(figures, legacy_lines(wikipedia, [figure.wikipedia for figure in figures], pick)):
@@ -300,9 +346,9 @@ def add_civilization_legacy(polities: list, wikipedia, scores: LegacyScores,
     def pick(index: int, text: str, _: str, __: bool) -> str:
         polity = polities[index]
         for line in good_lines(scores, CIVILIZATION, polity.name, CIVILIZATION_ROLE, text, summary=polity.summary):
-            if (polity.name, line) not in rejected:
+            if (polity.name, unended(line)) not in rejected:
                 return line
-            passed.add((polity.name, line))
+            passed.add((polity.name, unended(line)))
         return ""
 
     for polity, line in zip(polities, legacy_lines(wikipedia, titles, pick)):

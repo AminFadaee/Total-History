@@ -10,6 +10,7 @@ from urllib.parse import urlparse
 import genanki
 
 from page_in_history.dates import Span, centuries, period_label
+from page_in_history.legacy import repeats
 from page_in_history.photos import PictureKind
 
 DECK_NAME = "Page in History"
@@ -212,6 +213,8 @@ PHOTO = '<div class="value image photo">{{Photo}}</div>'
 PHOTO_CREDITED = '<div class="value image photo">{{Photo}}<div class="credit">{{PhotoCredit}}</div></div>'
 FIGURE_INFO = info(("Civilization", "Civilization"), ("Setting", "Setting"), ("Known for", "Contribution"),
                    ("Related", "Related"))
+FIGURE_LEGACY_INFO = info(("Civilization", "Civilization"), ("Setting", "Setting"), ("Known for", "ContributionBesideLegacy"),
+                          ("Related", "Related"))
 
 FIGURE_TEMPLATES = (
     Template("Who", ("Role",),
@@ -223,14 +226,14 @@ FIGURE_TEMPLATES = (
              face(entity(FIGURE_TITLE, answered=True), "Portrait", PHOTO_CREDITED) + FIGURE_INFO),
     Template("Legacy", ("Legacy",),
              face(UNKNOWN_ENTITY, "Legacy", LEGACY),
-             face(entity(FIGURE_TITLE, answered=True), "Legacy", LEGACY) + FIGURE_INFO + PORTRAIT),
+             face(entity(FIGURE_TITLE, answered=True), "Legacy", LEGACY) + FIGURE_LEGACY_INFO + PORTRAIT),
     Template("Legacy reverse", ("Legacy",),
              face(entity("{{Name}}"), "Legacy", UNKNOWN_VALUE),
-             face(entity(FIGURE_TITLE), "Legacy", LEGACY_ANSWER) + FIGURE_INFO + PORTRAIT),
+             face(entity(FIGURE_TITLE), "Legacy", LEGACY_ANSWER) + FIGURE_LEGACY_INFO + PORTRAIT),
 )
 
 FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "Contribution", "Image", "ImageCredit",
-                 "ImageKind", "Photo", "PhotoCredit", "Related", "Setting", "Legacy", "LegacyLength")
+                 "ImageKind", "Photo", "PhotoCredit", "Related", "Setting", "Legacy", "LegacyLength", "ContributionBesideLegacy")
 
 CSS = """
 .card {
@@ -391,7 +394,8 @@ def succession_fields(document: dict) -> dict[str, str]:
 def figure_tags(document: dict, civilizations: list[str]) -> list[str]:
     tags = [tag("Category", "Figures")] + [tag("Civilization", name) for name in civilizations]
     tags += [century_tag(number) for number in centuries(*document["lifetime"])]
-    tags += [tag("Country", document["birth_country"])] if document["birth_country"] else []
+    country = document.get("modern_country") or document["birth_country"]
+    tags += [tag("Country", country)] if country else []
     tags += [tag("Occupation", document["occupation"])] if document["occupation"] else []
     return tags
 
@@ -496,6 +500,8 @@ class DeckBuilder:
             "Setting": "" if civilizations else joined(with_modern_country([document.get("setting", "")], document)),
             "CivilizationMap": self.media.image(maps[civilizations[0]]) if civilizations else "",
             "Contribution": escaped(document["contribution"]),
+            "ContributionBesideLegacy": "" if repeats(document.get("legacy", ""), document["contribution"])
+                                        else escaped(document["contribution"]),
             "Image": self.media.image(document["image"]),
             "ImageCredit": escaped(document["image_credit"]),
             "ImageKind": document.get("image_kind") or "Depiction",

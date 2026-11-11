@@ -24,6 +24,8 @@ LINEAGE = re.compile(r"^(?:(?:He|She) (?:was|is|may have been) (?:still )?(?:the
                      r"|\b(?:he|she) (?:is|was) (?:also |commonly |better |usually )(?:known|referred to|called) as\b"
                      r"|\bsucceeded by\b", re.IGNORECASE)
 HATNOTE = re.compile(r"Note:")
+MAINTENANCE = re.compile(r"citation needed|reference demanded|clarification needed|according to whom|by whom|dubious – discuss",
+                         re.IGNORECASE)
 
 
 def balanced(text: str) -> str:
@@ -78,13 +80,14 @@ def contribution(paragraph: str, role_text: str, description: str | None, min_ne
     than the role, at least two words it does not have, when the opening one only repeats it ('The tenth Mughal
     emperor from 1713 to 1719'), only glosses the name ('Also known as …', 'His form of address was …') or is left
     hanging once its dates are cut ('… who ruled from'), and skipping one that leans on the sentence before it
-    ('Concurrently, he was …'), or, past the opening one, opens on family, birth or a name ('He was son of …', 'He is
+    ('Concurrently, he was …') or carrying a Wikipedia maintenance tag ('reference demanded'), or, past the opening one, opens on family, birth or a name ('He was son of …', 'He is
     numbered as Olaf I') or tells who succeeded whom; else Wikidata's description if it says that much more; else
     nothing."""
     paragraph = re.sub(r",\s*\.", ".", paragraph)
     candidates = [(predicate(paragraph), True)] + [(sentence, False) for sentence in sentences(paragraph)[1:]]
     text = next((candidate for candidate, opening in candidates
                  if candidate and balanced(candidate) == candidate and not NAME_GLOSS.match(candidate)
+                 and not MAINTENANCE.search(candidate)
                  and not DANGLING.search(candidate) and not LEANING.match(candidate)
                  and (opening or not LINEAGE.search(candidate))
                  and len(words(candidate) - words(role_text)) >= min_new_words), "")

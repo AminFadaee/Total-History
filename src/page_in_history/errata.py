@@ -4,6 +4,7 @@ import pathlib
 import tomllib
 from dataclasses import dataclass
 
+from page_in_history.legacy import unended
 from page_in_history.polities import Polity
 
 REMOVABLE_FIELDS = ("before", "after", "key_figures", "capitals")
@@ -61,14 +62,14 @@ def apply_errata(polities: list[Polity], errata: list[Erratum]) -> list[Erratum]
 
 def legacy_rejections(errata: list[Erratum]) -> set[tuple[str, str]]:
     """The (civilization or figure, line) pairs a review rejected."""
-    return {(erratum.subject, erratum.value) for erratum in errata if erratum.field == LEGACY}
+    return {(erratum.subject, unended(erratum.value)) for erratum in errata if erratum.field == LEGACY}
 
 
 def passed_legacy(errata: list[Erratum], passed: set[tuple[str, str]]) -> list[Erratum]:
     """The legacy errata whose line came up and was passed over, warning about the rest."""
     matched = []
     for erratum in (erratum for erratum in errata if erratum.field == LEGACY):
-        if (erratum.subject, erratum.value) in passed:
+        if (erratum.subject, unended(erratum.value)) in passed:
             matched.append(erratum)
         else:
             logger.warning("Errata entry matches nothing: %s, legacy, %s", erratum.subject, erratum.value)

@@ -117,8 +117,8 @@ Notes are tagged so you can filter or suspend groups of them:
 - category: `PIH::Category::Civilizations` or `PIH::Category::Figures`
 - civilization: `PIH::Civilization::Sasanian_Empire`, on the civilization and on every figure linked to it
 - century: `PIH::Century::BC::06th`, `PIH::Century::AD::03rd`, every century of a civilization's period or a figure's life
-- country: `PIH::Country::Iran`, the main modern countries of a civilization and its home region, or where a figure
-  was born
+- country: `PIH::Country::Iran`, the main modern countries of a civilization and its home region, or today's country
+  where a figure was born, as their card names it
 - occupation: `PIH::Occupation::Philosopher`, for figures
 - tier: `PIH::Tier::Essential` for the civilizations on Wikipedia's 1,000 vital articles (Vital Articles level 3), about
   20, which also carry `PIH::Tier::Core`; `PIH::Tier::Core` for those on its 10,000 (level 4), and for those on

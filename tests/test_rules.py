@@ -329,8 +329,8 @@ def test_a_civilization_legacy_line_names_its_subject_and_gives_no_pronunciation
 def test_a_legacy_erratum_is_matched_when_its_line_is_passed_over():
     erratum = Erratum("legacy", "North Africa hosted many writers.", "About Roman North Africa.", civilization="Vandal Kingdom")
     other = Erratum("after", "Byzantine Empire", "A list answer.", civilization="Vandal Kingdom")
-    assert legacy_rejections([erratum, other]) == {("Vandal Kingdom", "North Africa hosted many writers.")}
-    assert passed_legacy([erratum, other], {("Vandal Kingdom", "North Africa hosted many writers.")}) == [erratum]
+    assert legacy_rejections([erratum, other]) == {("Vandal Kingdom", "North Africa hosted many writers")}
+    assert passed_legacy([erratum, other], {("Vandal Kingdom", "North Africa hosted many writers")}) == [erratum]
     assert passed_legacy([erratum], set()) == []
 
 
@@ -349,3 +349,59 @@ def test_only_sentences_a_footnote_covers_are_cited():
             '<sup class="reference">[3]</sup></p></section>')
     assert cited(page) == ["The kingdom built canals.", "It traded salt widely.",
                            "The court spoke Persian and wrote in Arabic script."]
+
+
+@pytest.mark.parametrize("names, realms, sentence, hidden", [
+    (["Fahd of Saudi Arabia"], ("Kingdom of Saudi Arabia",), "He introduced the Basic Law of Saudi Arabia in 1992",
+     "He introduced the Basic Law of Saudi Arabia in 1992"),
+    (["Taejo of Joseon"], ("Joseon",), "Taejo was the first monarch of Joseon", "This person was the first monarch of Joseon"),
+    (["Joan of Arc"], ("Kingdom of France",), "Joan of Arc lifted the siege of Orléans", "This person lifted the siege of Orléans"),
+    (["Commodus"], (), "His reign is commonly thought to end the Pax Romana", "His reign is commonly thought to end the Pax Romana"),
+    (["Garcia II", "Garcia Afonso for short"], (), "He is Kongo's greatest king for his piety",
+     "He is Kongo's greatest king for his piety"),
+    (["Anders Celsius"], (), "The scale was later renamed Celsius in his honour", None),
+    (["Louis Pasteur"], (), "Pasteur discovered vaccination and pasteurization", None),
+    (["Daniel Gabriel Fahrenheit"], (), "Observers could use their own Fahrenheit thermometers", None),
+    (["Khafre"], (), "His pyramid at Giza, the Pyramid of Khafre, is the second largest", None),
+    (["Ahmad ibn Ibrahim al-Ghazi"], (), "Imam Ahmed won nearly all his battles against the Ethiopians", None),
+    (["Ahmad ibn Ibrahim al-Ghazi"], (), "Imam Ahmed's conquests reached the borders of Funj", None),
+    (["Ibn al-Jazzar"], (), "Ibn al-Jazzar, was a physician famous for his writings", "This person was a physician famous for his writings"),
+    (["An Dương Vương"], (), "An Dương Vương was the founding king of Âu Lạc", "This person was the founding king of Âu Lạc"),
+    (["Sergio Osmeña", "Sergio Osmeña Sr."], (), "Sergio Osmeña Sr. was a Filipino lawyer", "This person was a Filipino lawyer"),
+])
+def test_a_legacy_line_hides_only_the_name(names, realms, sentence, hidden):
+    assert hide(sentence, name_forms(names, "", realms)) == hidden
+
+
+def test_a_broken_sentence_is_not_a_legacy_line_and_a_closing_quote_gets_its_full_stop():
+    text = 'Writers celebrated him alongside Ranna. heralded the classical era of literature. It became "the empire on which the sun never sets"'
+    scores = FixedScores({'Writers celebrated him alongside Ranna. heralded the classical era of literature': 9,
+                          'It became "the empire on which the sun never sets"': 8})
+    assert list(good_lines(scores, CIVILIZATION, "Spain", "civilization", text)) == [
+        'It became "the empire on which the sun never sets".']
+
+
+def test_a_rejected_legacy_line_stays_rejected_when_its_full_stop_changes():
+    erratum = Erratum("legacy", 'It was declared "one and indivisible"', "A single event.", civilization="French First Republic")
+    assert ("French First Republic", 'It was declared "one and indivisible"') in legacy_rejections([erratum])
+    assert passed_legacy([erratum], {("French First Republic", 'It was declared "one and indivisible"')}) == [erratum]
+
+
+@pytest.mark.parametrize("names, realms, sentence, hidden", [
+    (["Abd al-Malik ibn Marwan"], (), "Abd al-Malik's reforms introduced a single Islamic currency",
+     "This person's reforms introduced a single Islamic currency"),
+    (["Johannes Gensfleisch zur Laden zum Gutenberg"], (), "Johannes Gensfleisch zur Laden zum Gutenberg invented the printing press",
+     "This person invented the printing press"),
+    (["Juan Ramón Jiménez"], (), "One of Jiménez's most important contributions was pure poetry",
+     "One of this person's most important contributions was pure poetry"),
+    (["Ganga Zumba"], (), "Ganga Zumba led Quilombo dos Palmares, or Angola Janga", "This person led Quilombo dos Palmares, or Angola Janga"),
+    (["John, King of England"], ("Kingdom of England",), "John lost Normandy to King Philip II of France",
+     "This person lost Normandy to King Philip II of France"),
+])
+def test_a_legacy_line_keeps_particles_and_other_names(names, realms, sentence, hidden):
+    assert hide(sentence, name_forms(names, "", realms)) == hidden
+
+
+def test_a_name_particle_at_the_start_of_a_sentence_goes_with_the_name():
+    assert hide("Del Pilar founded the Diariong Tagalog newspaper", name_forms(["Marcelo H. del Pilar"], "")) \
+        == "This person founded the Diariong Tagalog newspaper"
