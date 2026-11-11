@@ -3,7 +3,7 @@
   "slug": "duchy-of-bavaria",
   "name": "Duchy of Bavaria",
   "wikipedia": "Duchy of Bavaria",
-  "map_year": 1352,
+  "map_year": 1510,
   "period": {
     "start": {
       "earliest": 555,
@@ -67,9 +67,7 @@
   ],
   "modern_countries": [
     "Germany",
-    "Poland",
-    "Austria",
-    "Italy"
+    "Austria"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -104,24 +102,16 @@
     },
     "labelled": [
       "Holy Roman Empire",
-      "Kingdom of Poland",
-      "Kingdom of Bohemia",
       "House of Habsburg",
-      "Teutonic Order",
-      "House of Ascania",
+      "Kingdom of Bohemia",
+      "Electorate of Trier",
       "Kingdom of Hungary",
-      "Grand Duchy of Lithuania",
-      "Kingdom of France",
-      "Kingdom of England",
-      "Principality of Wallachia",
-      "Kingdom of Denmark",
-      "Banate of Bosnia",
-      "Duchy of Brittany",
-      "Capetian House of Anjou",
-      "County of Flanders",
-      "Kingdom of Arles",
       "House of Bourbon",
-      "County of Savoy"
+      "Republic of Venice",
+      "Electorate of Saxony",
+      "Duchy of Savoy",
+      "Duchy of Lorraine",
+      "County of Nevers"
     ]
   }
 }

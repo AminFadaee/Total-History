@@ -14,9 +14,7 @@
   "civilizations": [
     "Austria-Hungary",
     "Nazi Germany",
-    "Margraviate of Moravia",
-    "Kingdom of Bohemia",
-    "Duchy of Styria"
+    "Kingdom of Bohemia"
   ],
   "related": [],
   "contribution": "An Austrian theoretical physicist who developed fundamental results in quantum theory.",
@@ -31,9 +29,7 @@
   "checks": {
     "civilization_votes": {
       "citizenship": [
-        "Margraviate of Moravia",
         "Kingdom of Bohemia",
-        "Duchy of Styria",
         "Nazi Germany"
       ],
       "birthplace": [

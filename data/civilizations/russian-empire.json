@@ -44,12 +44,6 @@
       "region": "Russia",
       "name": "Tsardom of Russia",
       "home": true
-    },
-    {
-      "id": "Q49683",
-      "region": "Lithuania",
-      "name": "Grand Duchy of Lithuania",
-      "home": false
     }
   ],
   "after": [
@@ -82,11 +76,20 @@
     "Russia",
     "Ukraine",
     "Poland",
-    "Estonia",
+    "Finland",
+    "Belarus",
+    "Lithuania",
     "Latvia",
+    "Estonia",
+    "Moldova",
     "Georgia",
     "Armenia",
-    "Azerbaijan"
+    "Azerbaijan",
+    "Kazakhstan",
+    "Uzbekistan",
+    "Turkmenistan",
+    "Kyrgyzstan",
+    "Tajikistan"
   ],
   "overseas_countries": [],
   "borders": true,

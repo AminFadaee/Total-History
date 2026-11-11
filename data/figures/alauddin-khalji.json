@@ -12,7 +12,6 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "Beylik of Karaman",
     "Delhi Sultanate"
   ],
   "related": [
@@ -24,7 +23,7 @@
   ],
   "contribution": "The Khalji dynasty Sultan of Delhi from 1296 until his death in 1316.",
   "setting": "",
-  "modern_country": "",
+  "modern_country": "India",
   "legacy": "This person instituted a number of significant administrative changes in the Delhi Sultanate, related to revenues, price controls, and society.",
   "image": "images/alauddin-khalji.jpg",
   "image_credit": "14th century author · Public domain",
@@ -33,9 +32,6 @@
   "photo_credit": "",
   "checks": {
     "civilization_votes": {
-      "office": [
-        "Beylik of Karaman"
-      ],
       "death": [
         "Delhi Sultanate"
       ],

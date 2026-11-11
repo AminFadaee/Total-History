@@ -19,16 +19,7 @@
     "core": null,
     "since": null
   },
-  "capitals": [
-    {
-      "name": "Truro",
-      "location": [
-        -5.051,
-        50.26
-      ],
-      "founded": null
-    }
-  ],
+  "capitals": [],
   "parts": [],
   "before": [],
   "after": [
@@ -59,8 +50,8 @@
   "tier": "Extended",
   "map": "maps/cornwall.png",
   "map_asked": true,
-  "capital_map": "maps/cornwall-capital.png",
-  "capital_map_answer": "maps/cornwall-capital-answer.png",
+  "capital_map": "",
+  "capital_map_answer": "",
   "disputes": [],
   "checks": {
     "infobox": false,

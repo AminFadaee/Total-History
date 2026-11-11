@@ -481,12 +481,6 @@ value = "Scholars once attributed the development of iron-smelting to the Hittit
 reason = "Legacy review: A view scholars once held and no longer do."
 
 [[remove]]
-civilization = "Kingdom of Wessex"
-field = "legacy"
-value = "It was during this period that the system of shires was established."
-reason = "Legacy review: Leans on the sentence before it ('this period')."
-
-[[remove]]
 civilization = "Mexico"
 field = "legacy"
 value = "It ranks first in the Americas and seventh in the world by the number of UNESCO World Heritage Sites."
@@ -503,12 +497,6 @@ civilization = "Republic of Austria"
 field = "legacy"
 value = "Being the heartland of the Habsburg monarchy since the late 13th century, Austria was a major imperial power in Central Europe for centuries and, from the 16th century, Vienna also served as the Holy Roman Empire's administrative capital."
 reason = "Legacy review: About Habsburg Austria, before the republic."
-
-[[remove]]
-civilization = "Shang Dynasty"
-field = "legacy"
-value = "The inscriptions provide critical insight into many topics from the politics, economy, and religious practices to the art and medicine of the early stages of Chinese history."
-reason = "Legacy review: Leans on the sentence before it ('the inscriptions')."
 
 [[remove]]
 civilization = "Tulunids"
@@ -689,12 +677,6 @@ civilization = "Ethiopian Empire"
 field = "legacy"
 value = "A no less important work produced during his reign was the Fetha Nagast or \"Law of the Kings,\" which served as the country's legal code."
 reason = "Legacy review: Leans on a sentence it does not include."
-
-[[remove]]
-civilization = "Federated Republic of Mexico"
-field = "legacy"
-value = "The Constitution of 1824 began by declaring the absolute independence of the country, confirming the Roman Catholic religion as the only one permitted in the nation, and formally establishing the states that were to make up the republic Government was then divided into the three separate legislative, executive, and judicial branches."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
 civilization = "Four Oirats"
@@ -1063,12 +1045,6 @@ value = "In 1209, the Qocho ruler Idiqut Barchuk Art Tegin declared his allegian
 reason = "Legacy review: About another state, period or person."
 
 [[remove]]
-civilization = "Vichy France"
-field = "legacy"
-value = "The law excluded Jews from the administration, the armed forces, entertainment, arts, media, and certain professions, such as teaching, law, and medicine."
-reason = "Legacy review: Leans on a sentence it does not include."
-
-[[remove]]
 civilization = "Xiongnu"
 field = "legacy"
 value = "Even so, Sima Qian also drew a distinct line between the settled Huaxia people to the pastoral nomads, characterizing them as two polar groups in the sense of a civilization versus an uncivilized society: the Hua–Yi distinction."
@@ -1183,22 +1159,10 @@ value = "He is depicted conducting the funerary rites for the deceased monarch a
 reason = "Legacy review: Leans on a sentence it does not include."
 
 [[remove]]
-figure = "Baba Sali"
-field = "legacy"
-value = "Several years after his arrival in Israel, the news reached this person that Jewish life in Morocco had spiritually deteriorated greatly, so he returned to his country of birth to lead and inspire the community there."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 figure = "Bahadur Shah I"
 field = "legacy"
 value = "In 1670, Mu'azzam organised an insurgency to overthrow Aurangzeb and proclaim himself the Mughal emperor."
 reason = "Legacy review: A single episode, not what it is remembered for."
-
-[[remove]]
-figure = "Bodawpaya"
-field = "legacy"
-value = "The Burmese force entered Assam in January 1817 and defeated the Assamese force in the battle of Ghiladhari."
-reason = "Legacy review: About another state, period or person."
 
 [[remove]]
 figure = "Bohemond III of Antioch"
@@ -1324,12 +1288,6 @@ reason = "Legacy review: A minor detail or trivia, not what it is remembered for
 figure = "Farrukhsiyar"
 field = "legacy"
 value = "He set fire to the Hindu area of Srinagar and forbade the Pandits from wearing turbans."
-reason = "Legacy review: A single episode, not what it is remembered for."
-
-[[remove]]
-figure = "Fyodor Ushakov"
-field = "legacy"
-value = "This person's squadron then blockaded French bases in Italy, notably Genoa and Ancona, and successfully assaulted Naples and Rome."
 reason = "Legacy review: A single episode, not what it is remembered for."
 
 [[remove]]
@@ -1549,12 +1507,6 @@ value = "This person's name was recited in the Friday prayer and stamped on coin
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
-figure = "Nasrullah Khan"
-field = "legacy"
-value = "Implementation of Shariah and shrine visitation helped this person consolidate his power base in Bukhara."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 figure = "Nathuram Godse"
 field = "legacy"
 value = "He led a group of 15 to 20 young men who rushed at Gandhi during a prayer meeting at Panchgani."
@@ -1639,12 +1591,6 @@ value = "This person was widely regarded as a strong contender for the Ottoman t
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
-figure = "Seti I"
-field = "legacy"
-value = "It was also the first tomb to feature decorations on every passageway and chamber with highly refined bas-reliefs and colourful paintings – fragments of which, including a large column depicting this person with the goddess Hathor, can be seen in the National Archaeological Museum, Florence."
-reason = "Legacy review: Leans on a sentence it does not include."
-
-[[remove]]
 figure = "Shahrokh Shah"
 field = "legacy"
 value = "This person's compassionate behaviour and generosity with his treasure helped with the stabilization of Khorasan."
@@ -1717,12 +1663,6 @@ value = "The reign of her husband began the period traditionally known as the Ag
 reason = "Legacy review: About another state, period or person."
 
 [[remove]]
-figure = "Valdemar I of Denmark"
-field = "legacy"
-value = "The reign of this person saw the rise of Denmark, which reached its medieval zenith under his son this person."
-reason = "Legacy review: Garbled where the name was hidden."
-
-[[remove]]
 figure = "Vincent of Lérins"
 field = "legacy"
 value = "It is known for this person's famous maxim: \"Moreover, in the Catholic Church itself, all possible care must be taken, that we hold that faith which has been believed everywhere, always, by all.\""
@@ -1753,12 +1693,6 @@ value = "He returned their slaves and confiscated property, and reinstated them 
 reason = "Legacy review: Leans on a sentence it does not include."
 
 [[remove]]
-figure = "Yazid of Morocco"
-field = "legacy"
-value = "This person attempted to undo the innovations instituted by his father, dismantling much of his father's system."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 figure = "Zhang Fei"
 field = "legacy"
 value = "This person led 20 horsemen to cover Liu Bei's retreat."
@@ -1774,12 +1708,6 @@ reason = "Legacy review: A minor detail or trivia, not what it is remembered for
 civilization = "Argentine Republic"
 field = "legacy"
 value = "Suffrage is universal, equal, secret and mandatory."
-reason = "Legacy review: About another state, period or person."
-
-[[remove]]
-civilization = "Brazilian Republic"
-field = "legacy"
-value = "The constitution reserves 25% of the state budget and 18% of federal taxes and municipal taxes for education."
 reason = "Legacy review: About another state, period or person."
 
 [[remove]]
@@ -2005,21 +1933,9 @@ value = "The remainder of the reign of Charles XI is remarkable for a revolution
 reason = "Legacy review: A single episode, not what it is remembered for."
 
 [[remove]]
-civilization = "Xiongnu"
-field = "legacy"
-value = "Indeed, Chinese sources link many nomadic peoples on their northern borders to the Xiongnu, just as Greco-Roman historiographers called Avars and Huns \"Scythians\""
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 figure = "Ahmed III"
 field = "legacy"
 value = "As part of the fief system, this person reorganized the land law in 1705."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
-figure = "Ay"
-field = "legacy"
-value = "During this period, he consolidated the return to the old religious ways that he had initiated as senior advisor and constructed a mortuary temple at Medinet Habu for his own use."
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
@@ -2029,22 +1945,10 @@ value = "He appealed to Muslims in name of religion and declared a jihad against
 reason = "Legacy review: A single episode, not what it is remembered for."
 
 [[remove]]
-figure = "Benedict the Moor"
-field = "legacy"
-value = "His image strengthened the religious and cultural identity of this person descendants in a country deeply marked by the legacy of slavery."
-reason = "Legacy review: Garbled where the name was hidden."
-
-[[remove]]
 figure = "Bohemond III of Antioch"
 field = "legacy"
 value = "After his son was installed in Tripoli, this person became \"the greatest of the Franks and their most extensive ruler\", according to Ibn Al-Athir."
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
-figure = "Buenaventura Báez"
-field = "legacy"
-value = "Indeed, since he became president and taking advantage of the expansionist interest of Washington government circles, this person had entered into negotiations to annex the country to the United States."
-reason = "Legacy review: Leans on a sentence it does not include."
 
 [[remove]]
 figure = "Celer"
@@ -2074,12 +1978,6 @@ reason = "Legacy review: Leans on a sentence it does not include."
 figure = "Haakon VI"
 field = "legacy"
 value = "Throughout the reign of this person, the Norwegian military was extensively reformed."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
-figure = "Huineng"
-field = "legacy"
-value = "Despite his lack of formal training, he demonstrated his understanding to the fifth patriarch, Daman Hongren, who then supposedly chose this person as his true successor instead of his publicly known selection of Yuquan Shenxiu."
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
@@ -2152,12 +2050,6 @@ reason = "Legacy review: A minor detail or trivia, not what it is remembered for
 figure = "Murad III"
 field = "legacy"
 value = "Following the example of his father Selim II, this person was the second Ottoman sultan who never went on campaign during his reign, instead spending it entirely in Constantinople."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
-figure = "Nasrullah Khan"
-field = "legacy"
-value = "The evolution of the administrative system under this person culminated with the elimination of the controversial post of qushbegi."
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
@@ -2305,12 +2197,6 @@ value = "The majority of Boric's Cabinet—14 out of 24—were women, which was 
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
-civilization = "Republic of Texas"
-field = "legacy"
-value = "The Constitution itself could be amended through a two-thirds vote in both houses of Congress, followed by ratification by the people."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 civilization = "Swedish Empire"
 field = "legacy"
 value = "The amount of revenue accruing to the Crown from the whole \"Reduktion\" is impossible to estimate; but by these means, combined with careful management and rigid economy, Charles XI reduced the national debt by three quarters."
@@ -2357,12 +2243,6 @@ figure = "Haakon VI"
 field = "legacy"
 value = "In 1364, Duke Albert enlisted military support from several powerful North German noblemen and proceeded to swiftly invade and conquer Sweden and subsequently installed his son as the new king."
 reason = "Legacy review: About another state, period or person."
-
-[[remove]]
-figure = "Huineng"
-field = "legacy"
-value = "Doctrinally, the Southern School is associated with the teaching that enlightenment is sudden, while the Northern School is associated with the teaching that enlightenment is gradual."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
 figure = "Inukai Tsuyoshi"
@@ -2437,12 +2317,6 @@ value = "This person accepted the promotion, and successfully helped the order a
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
-figure = "Huineng"
-field = "legacy"
-value = "The Dharma was passed to this person at night, when the Patriarch transmitted \"the doctrine of sudden enlightenment\" as well as his robe and bowl to this person."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 figure = "Pompey"
 field = "legacy"
 value = "Following his conquest of Jerusalem, this person installed Hyrcanus as a client ruler, allowing him to serve as high priest while denying him the title of king; Aristobulus and his sons were taken as captives to Rome."
@@ -2485,12 +2359,6 @@ value = "The Mapuche are notable for their long and determined resistance to for
 reason = "Legacy review: About another state, period or person."
 
 [[remove]]
-figure = "Huineng"
-field = "legacy"
-value = "According to Peter Gregory, the most important ideas in the Platform Sutra, for which it is best known, form a set of three key interrelated doctrines: no-thought, nonform, also translated as nonattribute, and nonabiding."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 figure = "Pompey"
 field = "legacy"
 value = "This person had five wives:. This person's military glory was second to none for two decades, yet his decisions were occasionally criticized by some of his contemporaries."
@@ -2527,12 +2395,6 @@ value = "It is formed from cast glass and translucent marble and has been descri
 reason = "Legacy review: Leans on a sentence it does not include."
 
 [[remove]]
-figure = "Huineng"
-field = "legacy"
-value = "He says, \"Suchness is the essence of thought, thought is the function of suchness.\""
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 civilization = "Mexico"
 field = "legacy"
 value = "From this meeting of two millennia old culinary traditions, were born pozole, mole sauce, barbacoa and tamale in its current forms, chocolate, a large range of breads, tacos, and the broad repertoire of Mexican street foods."
@@ -2545,12 +2407,6 @@ value = "The 1494 Treaty of Tordesillas divided newly encountered non-European t
 reason = "Legacy review: About another state, period or person."
 
 [[remove]]
-figure = "Huineng"
-field = "legacy"
-value = "He says rather than attach to characteristics and obstruct the Way, one should not abide in things."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 civilization = "Mexico"
 field = "legacy"
 value = "Mexico is the site of the domestication of maize, tomato, and beans, which produced an agricultural surplus."
@@ -2560,12 +2416,6 @@ reason = "Legacy review: About another state, period or person."
 civilization = "Portuguese Republic"
 field = "legacy"
 value = "Portuguese Sign Language is officially protected by the country's constitution."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
-figure = "Huineng"
-field = "legacy"
-value = "When alive, one keeps sitting without lying down:When dead, one lies down without sitting up.In both cases, a set of stinking bones!What has it to do with the great lesson of life? This person taught that meditation and wisdom were not sequential, with one being prior to and giving rise to the other, since in that case \"the Dharma would have two characteristics.\""
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
@@ -2581,12 +2431,6 @@ value = "Over time, foreign and native influences, together with advancements in
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
-figure = "Huineng"
-field = "legacy"
-value = "For this person, wisdom is the function of meditation, while meditation is the essence of wisdom."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 civilization = "Mexico"
 field = "legacy"
 value = "They were commissioned by the Mexican government to paint large-scale historical murals on the walls of public buildings, which helped shape popular perceptions of the Mexican Revolution and Mexican cultural identity."
@@ -2599,18 +2443,6 @@ value = "Portuguese literature flourished during the Age of Discovery with write
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
 
 [[remove]]
-figure = "Huineng"
-field = "legacy"
-value = "He criticizes mere motionlessness of the body, as well as the practices of concentrating on mind and on purity."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
-figure = "Abdallahi ibn Muhammad"
-field = "legacy"
-value = "This person invaded Ethiopia with 60,000 Ansar troops and sacked Gondar in 1887, destroying nearly every church in the city."
-reason = "Legacy review: A single episode, not what it is remembered for."
-
-[[remove]]
 figure = "Abdülmecid I"
 field = "legacy"
 value = "By these enactments it was provided that the sultan's subjects of all classes should have their lives and property protected; that taxes should be fairly imposed and justice impartially administered; and that all should have full religious liberty and equal civil rights."
@@ -2621,24 +2453,6 @@ figure = "Ageng Tirtayasa of Banten"
 field = "legacy"
 value = "During the 1670s, Banten leveraged turmoil in the Mataram court to assert predominance over Cirebon, reshaping power on Java's north coast."
 reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
-figure = "Alexander Suvorov"
-field = "legacy"
-value = "According to one statement, Masséna himself would later confess that he would exchange all of his victories for this person's passage of the Alps; as per another, Masséna said that he would never forgive him for the crossing accomplished by him in Switzerland."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
-figure = "Anselm of Canterbury"
-field = "legacy"
-value = "Beginning during his time at this person composed dialogues and treatises with both a mystical and a rational or philosophical approach, this latter aspect causing him sometimes to be credited as the founder of Scholasticism."
-reason = "Legacy review: Garbled where the name was hidden."
-
-[[remove]]
-figure = "Birger Jarl"
-field = "legacy"
-value = "This person was a Swedish statesman, regent, this person, and a member of the House of Bjälbo, who played a pivotal role in consolidating Sweden after the civil wars between the House of Erik and the House of Sverker."
-reason = "Legacy review: Garbled where the name was hidden."
 
 [[remove]]
 figure = "Catherine de' Medici"
@@ -2665,12 +2479,6 @@ value = "He then established the state of Cao Wei with himself as the new empero
 reason = "Legacy review: About another state, period or person."
 
 [[remove]]
-figure = "Fahd of Saudi Arabia"
-field = "legacy"
-value = "The most significant change by the edict was that the King did acquire the right to appoint or dismiss his heir apparent based on suitability rather than seniority and that the grandsons of this person became eligible for the throne."
-reason = "Legacy review: Leans on a sentence it does not include."
-
-[[remove]]
 figure = "Friedrich Wilhelm von Steuben"
 field = "legacy"
 value = "This person, often referred to in English as Baron von this person, was a Prussian-born army officer who played a leading role in the American Revolutionary War by reforming the Continental Army into a disciplined and professional fighting force."
@@ -2683,27 +2491,9 @@ value = "It launched a Comintern-backed international organization of black labo
 reason = "Legacy review: Leans on a sentence it does not include."
 
 [[remove]]
-figure = "Hirohito"
-field = "legacy"
-value = "This person era that corresponded to his reign was initially characterized by heightened Japanese nationalism and militarism, developments which culminated in Japan's entry into World War II as an Axis power."
-reason = "Legacy review: Garbled where the name was hidden."
-
-[[remove]]
-figure = "Ibn Hajar al-Asqalani"
-field = "legacy"
-value = "This person., or simply ibn this person, was a classic Islamic scholar \"whose life work constitutes the final summation of the science of hadith.\""
-reason = "Legacy review: Garbled where the name was hidden."
-
-[[remove]]
 figure = "Idris of Libya"
 field = "legacy"
 value = "It established the United Kingdom of Libya through the unification of Cyrenaica, Tripolitania and Fezzan, appointing this person to rule it as king."
-reason = "Legacy review: Leans on a sentence it does not include."
-
-[[remove]]
-figure = "Isma'il Pasha of Egypt"
-field = "legacy"
-value = "However, this person's policies placed the Khedivate of Egypt and Sudan in severe debt, leading to the sale of the country's shares in the Suez Canal Company to the British government, and his ultimate toppling from power in 1879 under British and French pressure."
 reason = "Legacy review: Leans on a sentence it does not include."
 
 [[remove]]
@@ -2731,27 +2521,9 @@ value = "Along with them and Athanasius of Alexandria he is also regarded by the
 reason = "Legacy review: Leans on a sentence it does not include."
 
 [[remove]]
-figure = "Kayqubad I"
-field = "legacy"
-value = "The sultan, sometimes styled this person the Great, is remembered today for his rich architectural legacy and the brilliant court culture that flourished under his reign."
-reason = "Legacy review: Garbled where the name was hidden."
-
-[[remove]]
-figure = "Luis Enríquez de Guzmán, 9th Count of Alba de Liste"
-field = "legacy"
-value = "This person was viceroy of New Spain from June 28, 1650 to August 14, 1653 and thereafter viceroy of Peru, from February 24, 1655 to December 31, 1661)."
-reason = "Legacy review: Garbled where the name was hidden."
-
-[[remove]]
 figure = "Ōtani Yoshitsugu"
 field = "legacy"
 value = "This person retreat left the Western Army's right flank wide open, which Masanori and Hideaki then exploited to roll the flank of the Western Army."
-reason = "Legacy review: Garbled where the name was hidden."
-
-[[remove]]
-figure = "Ousanas"
-field = "legacy"
-value = "This person tradition credits Abreha and Atsbeha with being the first Christian kings of the country."
 reason = "Legacy review: Garbled where the name was hidden."
 
 [[remove]]
@@ -2773,12 +2545,6 @@ value = "The country sought independence in 1946, and the Emirate became the Has
 reason = "Legacy review: About another state, period or person."
 
 [[remove]]
-figure = "Vasili IV of Russia"
-field = "legacy"
-value = "What does this person do—he who has come so close to the hatchet and the block? He has nothing more important to do than conspire anew, to succeed, to have himself elected Tsar, to fall and during his fall to preserve more dignity and strength of spirit than he had ever had in his entire life."
-reason = "Legacy review: A minor detail or trivia, not what it is remembered for."
-
-[[remove]]
 figure = "Abdallahi ibn Muhammad"
 field = "legacy"
 value = "He successfully repulsed the Ethiopians at the Battle of Metemma on 9 March 1889, where the Ethiopian Emperor Yohannes IV was killed."
@@ -2789,12 +2555,6 @@ figure = "Ahmad al-Maqqari"
 field = "legacy"
 value = "This person was an Algerian scholar, biographer and historian who is best known for his Nafh at-Tib ,S a compendium of the history of Al-Andalus which provided a basis for the scholarly research on the subject until the twentieth century."
 reason = "Legacy review: Garbled where the name was hidden."
-
-[[remove]]
-figure = "Emperor Gaozu of Tang"
-field = "legacy"
-value = "These acts of reform paved the way for the reign of Emperor Taizong, which ultimately pushed Tang to the height of its power."
-reason = "Legacy review: Leans on a sentence it does not include."
 
 [[remove]]
 figure = "Emperor Xian of Han"
@@ -2827,22 +2587,10 @@ value = "Kingdom of Poland"
 reason = "Audit (Opus, 2026-11-11), checked against the data: an office Wikidata misfiles; he ruled Bohemia."
 
 [[remove]]
-figure = "Hazael"
-field = "civilizations"
-value = "Kingdom of Judah"
-reason = "Audit (Opus, 2026-11-11), checked against the data: an office Wikidata misfiles; he was king of Aram-Damascus, an enemy of Judah."
-
-[[remove]]
 figure = "Alexander Nevsky"
 field = "civilizations"
 value = "Grand Duchy of Lithuania"
 reason = "Audit (Opus, 2026-11-11), checked against the data: an office Wikidata misfiles; he fought the Lithuanians."
-
-[[remove]]
-figure = "Antonín Dvořák"
-field = "civilizations"
-value = "Duchy of Styria"
-reason = "Audit (Opus, 2026-11-11), checked against the data: no tie to Styria."
 
 [[remove]]
 figure = "Alexandre Pétion"
@@ -2965,18 +2713,6 @@ value = "After his release, he helped found the Liberal Democratic Party."
 reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
 
 [[remove]]
-figure = "François Duvalier"
-field = "legacy"
-value = "Afterwards, he consolidated his power step by step, culminating in 1964 when he declared himself president for life after another sham referendum and election."
-reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
-
-[[remove]]
-figure = "Justin I"
-field = "legacy"
-value = "This facilitated the ending of the Acacian schism between the churches of Rome and Constantinople, resulting in good relations between this person and the papacy."
-reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
-
-[[remove]]
 figure = "Giacomo Casanova"
 field = "legacy"
 value = "As a consequence of this, this person's name has become a byword for a male seducer and libertine, like \"Lothario\" or \"Don Juan\"."
@@ -2995,33 +2731,15 @@ value = "Following their defeat, he succeeded in reuniting Vietnam after centuri
 reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
 
 [[remove]]
-figure = "Ertuğrul"
-field = "legacy"
-value = "This set off the chain of events that would ultimately lead to the founding of the Ottoman Empire."
-reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
-
-[[remove]]
 figure = "Osman II"
 field = "legacy"
 value = "It was the first time in the Ottoman history that a sultan was executed by the janissaries."
 reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
 
 [[remove]]
-figure = "Seneca the Younger"
-field = "legacy"
-value = "These writings constitute one of the most important bodies of primary material for ancient Stoicism."
-reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
-
-[[remove]]
 figure = "Ptolemy"
 field = "legacy"
 value = "The first was his astronomical treatise now known as the Almagest, originally entitled Mathēmatikḗ Syntaxis."
-reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
-
-[[remove]]
-figure = "Dnyaneshwar"
-field = "legacy"
-value = "These are the oldest surviving literary works in the Marathi language, and considered to be milestones in Marathi literature."
 reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
 
 [[remove]]
@@ -3067,24 +2785,6 @@ value = "From there, he led the Crossing of the Andes to Chile, and triumphed at
 reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
 
 [[remove]]
-figure = "Jadwiga of Poland"
-field = "legacy"
-value = "After that, this person marched into the Kingdom of Galicia–Volhynia, which had been under Hungarian rule, and persuaded most of the inhabitants to become subjects of the Polish Crown."
-reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
-
-[[remove]]
-figure = "Idris Alooma"
-field = "legacy"
-value = "Furthermore, he introduced significant legal reforms based on Islamic law, establishing qadi courts that operated independently from the executive branch."
-reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
-
-[[remove]]
-figure = "Jean Batten"
-field = "legacy"
-value = "The flight set the record for a woman's solo flight between the two countries."
-reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
-
-[[remove]]
 figure = "Roger I of Sicily"
 field = "legacy"
 value = "By 1090, he had conquered the entire island."
@@ -3094,12 +2794,6 @@ reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentenc
 figure = "Charles XII of Sweden"
 field = "legacy"
 value = "Leading the Swedish army against the alliance, this person won multiple victories despite being significantly outnumbered."
-reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
-
-[[remove]]
-figure = "Ahmad ibn Tulun"
-field = "legacy"
-value = "Within four years he had established himself as a virtually independent ruler by evicting the caliphal fiscal agent, Ibn al-Mudabbir, taking over control of Egypt's finances, and establishing a large military force consisting of native Egyptians personally loyal to himself."
 reason = "Audit (Opus, 2026-11-11), checked against the data: leans on a sentence it does not include."
 
 [[remove]]
@@ -3167,12 +2861,6 @@ figure = "Bill Phillips"
 field = "contribution"
 value = "Phillips, MBE was a New Zealand economist who spent most of his academic career as a professor of economics at the London School of Economics."
 reason = "Audit (Opus, 2026-11-11), checked against the data: garbled opening."
-
-[[remove]]
-figure = "Harald Hardrada"
-field = "contribution"
-value = "He unsuccessfully claimed the Danish throne until 1064 and the English throne in 1066 but was unsuccessful and got shot in the throat by an arrow at the battle of Stamford Bridge."
-reason = "Audit (Opus, 2026-11-11), checked against the data: repeats itself and is informal."
 
 [[remove]]
 figure = "Maeda Toshiie"
@@ -3247,21 +2935,9 @@ value = "This person was thus key in establishing the \"1955 System\" under whic
 reason = "Legacy review: Leans on a sentence it does not include."
 
 [[remove]]
-figure = "Muryeong of Baekje"
-field = "legacy"
-value = "China's Liang shu gives his surname as Yeo and personal name as Yung, and states that he restored Baekje into a strong nation."
-reason = "Legacy review: Gives away the person's name."
-
-[[remove]]
 figure = "Cleopatra Selene II"
 field = "legacy"
 value = "She brought the cult of Isis to Caesarea."
-reason = "Legacy review: A minor detail, not what it is remembered for."
-
-[[remove]]
-figure = "Georg Solti"
-field = "legacy"
-value = "This person recruited many rising young American singers such as Claire Watson and Sylvia Stahlman, to the extent that the house acquired the nickname \"Amerikanische Oper am Main\"."
 reason = "Legacy review: A minor detail, not what it is remembered for."
 
 [[remove]]
@@ -3281,3 +2957,729 @@ figure = "Yodo-dono"
 field = "legacy"
 value = "She was also the founder of the temple Yogen-in."
 reason = "Legacy review: A minor detail, not what it is remembered for."
+
+[[remove]]
+figure = "Julian"
+field = "civilizations"
+value = "Sasanian Empire"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he died on campaign against the Sasanians."
+
+[[remove]]
+figure = "Louis II of Hungary"
+field = "civilizations"
+value = "Ottoman Empire"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he died fighting the Ottomans at Mohács."
+
+[[remove]]
+figure = "Krim Belkacem"
+field = "civilizations"
+value = "Federal Republic of Germany"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he was murdered in Frankfurt; no other tie."
+
+[[remove]]
+figure = "Juan Álvarez"
+field = "civilizations"
+value = "Second Mexican Empire"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he fought the French intervention and its empire."
+
+[[remove]]
+figure = "Siad Barre"
+field = "civilizations"
+value = "Federal Republic of Nigeria"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he died in exile in Lagos; no other tie."
+
+[[remove]]
+figure = "Zhuge Liang"
+field = "civilizations"
+value = "Cao Wei"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he was chancellor of Shu Han, Cao Wei's enemy."
+
+[[remove]]
+figure = "Uthumphon"
+field = "civilizations"
+value = "Konbaung Dynasty"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he died a captive in Burma; he was king of Ayutthaya."
+
+[[remove]]
+figure = "Teresa Cristina of the Two Sicilies"
+field = "civilizations"
+value = "Kingdom of Portugal"
+reason = "Audit (Opus, 2026-11-11), checked against the data: she died in exile in Porto; Empress of Brazil."
+
+[[remove]]
+figure = "Li Zicheng"
+field = "civilizations"
+value = "Qing Dynasty"
+reason = "Audit (Opus, 2026-11-11), checked against the data: a rebel against the Ming whom the Qing defeated."
+
+[[remove]]
+figure = "Chiang Kai-shek"
+field = "civilizations"
+value = "People's Republic of China"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he led the Republic of China against the Communists."
+
+[[remove]]
+figure = "Augustine of Hippo"
+field = "civilizations"
+value = "Byzantine Empire"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he lived in Roman North Africa, which the Eastern Empire did not rule."
+
+[[remove]]
+figure = "Daniel of Galicia"
+field = "civilizations"
+value = "Grand Duchy of Lithuania"
+reason = "Audit (Opus, 2026-11-11), checked against the data: an office Wikidata misfiles; he ruled Galicia–Volhynia."
+
+[[remove]]
+figure = "Abane Ramdane"
+field = "civilizations"
+value = "Morocco"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he was killed in Morocco; an Algerian leader."
+
+[[remove]]
+figure = "Max Weber"
+field = "civilizations"
+value = "Grand Duchy of Saxe-Weimar-Eisenach"
+reason = "Audit (Opus, 2026-11-11), checked against the data: his birthplace Erfurt was Prussian in 1864."
+
+[[remove]]
+figure = "Michel de Montaigne"
+field = "civilizations"
+value = "County of Foix"
+reason = "Audit (Opus, 2026-11-11), checked against the data: his birthplace in Périgord is mapped to Foix."
+
+[[remove]]
+figure = "Gao Huan"
+field = "civilizations"
+value = "Rouran Khaganate"
+reason = "Audit (Opus, 2026-11-11), checked against the data: his birthplace in Northern Wei is mapped to the Rouran."
+
+[[remove]]
+figure = "Rosa Luxemburg"
+field = "civilizations"
+value = "Austria-Hungary"
+reason = "Audit (Opus, 2026-11-11), checked against the data: her birthplace Zamość was in Russian Poland in 1871."
+
+[[remove]]
+figure = "Sabahattin Ali"
+field = "civilizations"
+value = "Principality of Bulgaria"
+reason = "Audit (Opus, 2026-11-11), checked against the data: his birthplace Eğridere was Ottoman in 1907."
+
+[[remove]]
+figure = "Renia Spiegel"
+field = "civilizations"
+value = "Kingdom of Romania"
+reason = "Audit (Opus, 2026-11-11), checked against the data: her birthplace Uhryńkowce was in Poland in 1924."
+
+[[remove]]
+figure = "William of Rosenberg"
+field = "civilizations"
+value = "Kingdom of Spain"
+reason = "Audit (Opus, 2026-11-11), checked against the data: his birthplace in Bohemia is mapped to Spain; a Bohemian magnate."
+
+[[remove]]
+figure = "Ramon Llull"
+field = "civilizations"
+value = "Almohad Caliphate"
+reason = "Audit (Opus, 2026-11-11), checked against the data: Majorca was Aragonese from 1229, before his birth about 1232."
+
+[[remove]]
+figure = "Pedro VI of Kongo"
+field = "civilizations"
+value = "Kingdom of Lunda"
+reason = "Audit (Opus, 2026-11-11), checked against the data: his birthplace in Kongo is mapped to Lunda; King of Kongo."
+
+[[remove]]
+figure = "Simon Kimbangu"
+field = "civilizations"
+value = "Kingdom of Lunda"
+reason = "Audit (Opus, 2026-11-11), checked against the data: his birthplace Nkamba in Lower Congo is mapped to Lunda."
+
+[[remove]]
+figure = "Nanda Bayin"
+field = "civilizations"
+value = "Ayutthaya Kingdom"
+reason = "Audit (Opus, 2026-11-11), checked against the data: King of Toungoo Burma, Ayutthaya's enemy."
+
+[[remove]]
+figure = "Sambhaji"
+field = "civilizations"
+value = "Mughal Empire"
+reason = "Audit (Opus, 2026-11-11), checked against the data: the Maratha Chhatrapati, executed by the Mughals."
+
+[[remove]]
+figure = "Prithviraj Chauhan"
+field = "civilizations"
+value = "Ghurid Dynasty"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he died fighting the Ghurids."
+
+[[remove]]
+figure = "Zayd ibn Haritha al-Kalbi"
+field = "civilizations"
+value = "Byzantine Empire"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he was killed fighting the Byzantines at Mu'tah."
+
+[[remove]]
+figure = "Imru' al-Qais"
+field = "civilizations"
+value = "Byzantine Empire"
+reason = "Audit (Opus, 2026-11-11), checked against the data: a Kindite prince who died on a journey to Byzantium."
+
+[[remove]]
+figure = "Omar al-Mukhtar"
+field = "civilizations"
+value = "Italian Africa"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he led the resistance to Italian rule and was executed by Italy."
+
+[[remove]]
+figure = "Lady Triệu"
+field = "civilizations"
+value = "Eastern Wu"
+reason = "Audit (Opus, 2026-11-11), checked against the data: she led a revolt against Eastern Wu."
+
+[[remove]]
+figure = "Hồ Quý Ly"
+field = "civilizations"
+value = "Ming Dynasty"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he founded the Hồ dynasty, which the Ming overthrew."
+
+[[remove]]
+figure = "Brian Boru"
+field = "civilizations"
+value = "Viking settlements"
+reason = "Audit (Opus, 2026-11-11), checked against the data: High King of Ireland who died fighting the Vikings at Clontarf."
+
+[[remove]]
+figure = "Andriscus"
+field = "civilizations"
+value = "Roman Republic"
+reason = "Audit (Opus, 2026-11-11), checked against the data: he claimed the throne of Macedon against Rome."
+
+[[remove]]
+figure = "Maxtla"
+field = "civilizations"
+value = "Tenochtitlan"
+reason = "Audit (Opus, 2026-11-11), checked against the data: a Tepanec ruler of Azcapotzalco, Tenochtitlan's enemy; tlatoani is a generic title."
+
+[[remove]]
+figure = "Tezozomoc"
+field = "civilizations"
+value = "Tenochtitlan"
+reason = "Audit (Opus, 2026-11-11), checked against the data: a Tepanec ruler of Azcapotzalco, Tenochtitlan's overlord; tlatoani is a generic title."
+
+[[remove]]
+civilization = "British Raj"
+field = "modern_countries"
+value = "Sri Lanka"
+reason = "Audit (Opus, 2026-11-11), checked against the data: Ceylon was a separate Crown colony, never part of the Raj."
+
+[[remove]]
+civilization = "Belgian Congo"
+field = "modern_countries"
+value = "Rwanda"
+reason = "Audit (Opus, 2026-11-11), checked against the data: Ruanda-Urundi was a separate mandate, not part of the colony."
+
+[[remove]]
+civilization = "Belgian Congo"
+field = "modern_countries"
+value = "Burundi"
+reason = "Audit (Opus, 2026-11-11), checked against the data: Ruanda-Urundi was a separate mandate, not part of the colony."
+
+[[remove]]
+civilization = "Old Kingdom of Norway"
+field = "modern_countries"
+value = "Denmark"
+reason = "Audit (Opus, 2026-11-11), checked against the data: the map year falls in the Kalmar Union, a union of crowns; Norway held no Danish land."
+
+[[remove]]
+civilization = "Hunnic Empire"
+field = "modern_countries"
+value = "Luxembourg"
+reason = "Audit (Opus, 2026-11-11), checked against the data: the map spills over the Rhine border."
+
+[[remove]]
+civilization = "Ghassanids"
+field = "modern_countries"
+value = "Iraq"
+reason = "Audit (Opus, 2026-11-11), checked against the data: the Ghassanids held Syria and Jordan; Iraq was Lakhmid."
+
+[[remove]]
+figure = "Amenemhat I"
+field = "contribution"
+value = "Egyptian-Sudanese king."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a wrong description; he was an Egyptian pharaoh."
+
+[[remove]]
+figure = "Ba Jin"
+field = "contribution"
+value = "In addition to his impact on Chinese literature, he also wrote three original works in Esperanto, and as a political activist he wrote Family."
+reason = "Audit (Opus, 2026-11-11), checked against the data: garbled; Family is a novel, not activism."
+
+[[remove]]
+figure = "Chimalpahin"
+field = "contribution"
+value = "His Nahuatl names mean \"Runs Swiftly with a Shield\" and \"Rising Eagle\", respectively, and he claimed descent from the lords of Tenango-Amecameca-Chalco."
+reason = "Audit (Opus, 2026-11-11), checked against the data: about his names, not what he did."
+
+[[remove]]
+figure = "Daniel Bashiel Warner"
+field = "contribution"
+value = "Prior to this, he served as the third Secretary of State in the cabinet of Joseph Jenkins Roberts from 1854 to 1856 and the fifth vice president of Liberia under President Stephen Allen Benson from 1860 to 1864."
+reason = "Audit (Opus, 2026-11-11), checked against the data: leans on an unseen sentence ('Prior to this')."
+
+[[remove]]
+figure = "Annette Kellerman"
+field = "contribution"
+value = "An Australian professional swimmer, vaudeville star, film actress, and writer, usually spelt with a single final n as Annette Kellerman."
+reason = "Audit (Opus, 2026-11-11), checked against the data: ends on a spelling note."
+
+[[remove]]
+figure = "Affandi"
+field = "contribution"
+value = "Born in Cirebon, West Java, as the son of R. Koesoema, who was a surveyor at a local sugar factory, Affandi finished his upper secondary school in Jakarta."
+reason = "Audit (Opus, 2026-11-11), checked against the data: about his schooling, not his painting."
+
+[[remove]]
+figure = "Edogawa Ranpo"
+field = "contribution"
+value = "In the pen name, the surname is Edogawa."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a note on his pen name."
+
+[[remove]]
+figure = "Jaan Kross"
+field = "contribution"
+value = "He won the 1995 International Nonino Prize in Italy."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a minor prize, not what he is known for."
+
+[[remove]]
+figure = "Jijabai"
+field = "contribution"
+value = "He belonged to the lineage of Devagiri Yadavas."
+reason = "Audit (Opus, 2026-11-11), checked against the data: about someone else ('He belonged')."
+
+[[remove]]
+figure = "Lê Duẩn"
+field = "contribution"
+value = "Lê Văn Nhuận, was a Vietnamese communist politician."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a broken sentence that opens with his birth name."
+
+[[remove]]
+figure = "Gregory V of Constantinople"
+field = "contribution"
+value = "He was responsible for much restoration work to the Patriarchal Cathedral of St George, which had been badly damaged by fire in 1738."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a minor restoration, not what he is known for."
+
+[[remove]]
+figure = "Hilary R. W. Johnson"
+field = "contribution"
+value = "He was elected four times."
+reason = "Audit (Opus, 2026-11-11), checked against the data: too thin to say anything."
+
+[[remove]]
+figure = "Kahlil Gibran"
+field = "contribution"
+value = "He was also considered a philosopher, although he himself rejected the title."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a side note, not what he is known for."
+
+[[remove]]
+figure = "Matias Aires"
+field = "contribution"
+value = "He immigrated to Portugal in late 1716."
+reason = "Audit (Opus, 2026-11-11), checked against the data: about a move, not what he is known for."
+
+[[remove]]
+figure = "Jayavarman VII"
+field = "contribution"
+value = "He was the first Khmer king devoted to Buddhism; only one other had been a Buddhist."
+reason = "Audit (Opus, 2026-11-11), checked against the data: contradicts itself."
+
+[[remove]]
+figure = "Hadrian"
+field = "contribution"
+value = "Hadrian was born in Italica, in the present-day Andalusian province of Seville in southern Spain, an Italic settlement in Hispania Baetica; his gens Aelia came from the town of Hadria in central Italy."
+reason = "Audit (Opus, 2026-11-11), checked against the data: about his birthplace, not his reign."
+
+[[remove]]
+figure = "Maria II of Portugal"
+field = "contribution"
+value = "Her supporters considered her to be the rightful queen also during the period between her two reigns."
+reason = "Audit (Opus, 2026-11-11), checked against the data: about her supporters, not her reign."
+
+[[remove]]
+figure = "Hồ Quý Ly"
+field = "contribution"
+value = "Quý Ly rose from a post as an official served the court of the ruling Trần dynasty and a military general fought against the Cham forces during the Cham–Vietnamese War."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a broken sentence."
+
+[[remove]]
+figure = "Lapulapu"
+field = "contribution"
+value = "First recorded as Çilapulapu, was a Datu of Mactan, an island now part of the Philippines."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a broken sentence that opens with another spelling of his name."
+
+[[remove]]
+figure = "Võ Văn Kiệt"
+field = "contribution"
+value = "Phan Văn Hòa, and includes aliases Sáu Dân, Chín Dũng, Chín Hòa, Tám Thuận."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a broken list of his aliases."
+
+[[remove]]
+figure = "Najashi"
+field = "contribution"
+value = "An Arabic term, a loanword from the word negus, and refers to the ruler of the Kingdom of Aksum who reigned from 614 to 630."
+reason = "Audit (Opus, 2026-11-11), checked against the data: about the word, not the person."
+
+[[remove]]
+figure = "Pedro II of Kongo"
+field = "contribution"
+value = "Born around 1575 and died on April 13, 1624."
+reason = "Audit (Opus, 2026-11-11), checked against the data: only his dates."
+
+[[remove]]
+figure = "Rumiñawi"
+field = "contribution"
+value = "Hispanicized spellings of his name include Rumiaoui, Ruminavi, Ruminagui, Rumiñagui, and Rumiñahui."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a list of spellings of his name."
+
+[[remove]]
+figure = "Suriyenthrathibodi"
+field = "contribution"
+value = "Originally named Duea or Maduea, and King Chulalongkorn later issued a royal judgement identifying his regnal name as Sanphet VIII."
+reason = "Audit (Opus, 2026-11-11), checked against the data: about his names."
+
+[[remove]]
+figure = "Toktogul Satylganov"
+field = "contribution"
+value = "The Kyrgyz town of Toktogul in the Jalal-Abad Region is named in his honour."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a town named after him, not what he did."
+
+[[remove]]
+figure = "Nizami Ganjavi"
+field = "contribution"
+value = "Jamal ad-Dīn Abū Muḥammad Ilyās ibn-Yūsuf ibn-Zakkī, was a 12th-century poet."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a broken sentence that opens with his full name."
+
+[[remove]]
+figure = "Atahualpa"
+field = "contribution"
+value = "Caccha Pachacuti Inca Yupanqui Inca, was the last effective Inca emperor, reigning from April 1532 until his capture and execution in July-August of the following year, as part of the Spanish conquest of the Inca Empire."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a broken sentence that opens with his full name."
+
+[[remove]]
+figure = "Vladislaus II of Hungary"
+field = "contribution"
+value = "As the eldest son of Casimir IV Jagiellon, he was expected to inherit the Crown Kingdom of Poland and adjacent Grand Duchy of Lithuania."
+reason = "Audit (Opus, 2026-11-11), checked against the data: misleading; he became King of Bohemia and Hungary, not Poland."
+
+[[remove]]
+figure = "Folke Bernadotte"
+field = "contribution"
+value = "In World War II, he negotiated the release of about 450 Danish Jews, about 10,000 Jews total, and 30,550 non-Jewish prisoners of many nations from the Nazi German Theresienstadt Ghetto."
+reason = "Audit (Opus, 2026-11-11), checked against the data: gives all the numbers to Theresienstadt alone."
+
+[[remove]]
+figure = "Ahmad al-Maqqari"
+field = "contribution"
+value = "An Algerian scholar, biographer and historian who is best known for his Nafh at-Tib ,S a compendium of the history of Al-Andalus which provided a basis for the scholarly research on the subject until the twentieth century."
+reason = "Audit (Opus, 2026-11-11), checked against the data: a garbled title ('Nafh at-Tib ,S')."
+
+[[remove]]
+figure = "Thorismund"
+field = "contribution"
+value = "Killed in the Battle of the Catalaunian Plains in 451 AD."
+reason = "Audit (Opus, 2026-11-11), checked against the data: wrong; his father Theodoric fell at the Catalaunian Plains, and he was murdered in 453."
+
+[[remove]]
+figure = "Kanishka"
+field = "life"
+value = "78–144"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: no birth or death dates are known; Wikipedia gives only his reign, c. 127–150."
+
+[[remove]]
+figure = "Shutruk-Nakhunte"
+field = "life"
+value = "died 1165 BC"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: no death date is known; Wikipedia gives only his reign, about 1184–1155 BC."
+
+[[remove]]
+figure = "Pontius Pilate"
+field = "life"
+value = "born 12 BC"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: no birth date is known; Wikipedia gives only his governorship, 26/27–36/37."
+
+[[remove]]
+figure = "Saint Anne"
+field = "life"
+value = "c. 55 BC – c. AD 12"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: known only from Christian tradition; no dates are given."
+
+[[remove]]
+figure = "Zoroaster"
+field = "life"
+value = "c. 628–551 BC"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: his dates are traditional and contested by most scholars."
+
+[[remove]]
+figure = "Perdiccas III of Macedon"
+field = "life"
+value = "4th century BC – 359 BC"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: no death date is given beyond the end of his reign in 360 BC."
+
+[[remove]]
+figure = "Mara Takla Haymanot"
+field = "life"
+value = "died 12th century"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: no dates are given for him."
+
+[[remove]]
+civilization = "Sikh Empire"
+field = "after"
+value = "British Raj"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: Company rule followed in 1849, not the Raj (1858)."
+source = "https://en.wikipedia.org/wiki/Sikh_Empire"
+quote = "It existed from 1799, when Maharaja Ranjit Singh captured Lahore, to 1849, when it was defeated and annexed by the British East India Company following the Second Anglo-Sikh War."
+retrieved = 2026-11-11
+
+[[remove]]
+civilization = "British Raj"
+field = "before"
+value = "Sikh Empire"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: the Sikh Empire fell to Company rule in 1849, before the Raj."
+source = "https://en.wikipedia.org/wiki/Sikh_Empire"
+quote = "It existed from 1799, when Maharaja Ranjit Singh captured Lahore, to 1849, when it was defeated and annexed by the British East India Company following the Second Anglo-Sikh War."
+retrieved = 2026-11-11
+
+[[remove]]
+civilization = "Russian Empire"
+field = "before"
+value = "Grand Duchy of Lithuania"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: Russia took the lands from the Commonwealth in the partitions."
+source = "https://en.wikipedia.org/wiki/Russian_Empire"
+quote = "incorporating territories of the Polish–Lithuanian Commonwealth during the Partitions of Poland"
+retrieved = 2026-11-11
+
+[[remove]]
+civilization = "Cornwall"
+field = "capitals"
+value = "Truro"
+reason = "Audit (Opus, 2026-11-11), checked against English Wikipedia: Truro became a city only in 1877; no capital is recorded for the kingdom."
+source = "https://en.wikipedia.org/wiki/Truro"
+quote = "It was awarded city status in 1877, following the creation of the Diocese of Truro in the previous year."
+retrieved = 2026-11-11
+
+[[remove]]
+civilization = "Ethiopian Empire"
+field = "legacy"
+value = "The warlike emperor of Amda Seyon I conducted many campaigns in Gojjam, Damot and Eritrea, but his most important campaigns were against his Muslim enemies to the east, which shifted the balance of power in favour of the Christians for the next two centuries."
+reason = "Legacy review (2026-11-11): about one emperor's campaigns, and garbled."
+
+[[remove]]
+civilization = "Kingdom of Sweden"
+field = "legacy"
+value = "Already during the first of those three periods, the 'Era of Liberty' the Swedish Riksdag had developed into a very active parliament, and this tradition continued into the nineteenth century, laying the basis for the transition towards modern democracy at the end of that century."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('those three periods')."
+
+[[remove]]
+civilization = "Second Federal Republic of Mexico"
+field = "legacy"
+value = "Freedom of speech, freedom of the press, and freedom of petition were recognized, with freedom of the press to be limited only by \"respect to private life, morality, and the public peace.\""
+reason = "Legacy review (2026-11-11): leans on the sentence before it (what recognized them)."
+
+[[remove]]
+civilization = "South African Republic"
+field = "legacy"
+value = "The Second Boer War was a watershed for the British Army in particular and for the British Empire as a whole."
+reason = "Legacy review (2026-11-11): about the British Army, not the republic."
+
+[[remove]]
+figure = "Abdel-Hamid ibn Badis"
+field = "legacy"
+value = "The Association would have later a great influence on Algerian Muslim politics up to the Algerian War of Independence."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('The Association')."
+
+[[remove]]
+figure = "Abdul Haris Nasution"
+field = "legacy"
+value = "It was perhaps he who first realised that Supersemar not only gave Suharto emergency powers but also gave him executive control."
+reason = "Legacy review (2026-11-11): a speculation about Suharto, not what he is remembered for."
+
+[[remove]]
+figure = "Celâl Bayar"
+field = "legacy"
+value = "He founded the İzmir branch of Union and Progress in 1911."
+reason = "Legacy review (2026-11-11): a minor detail, not what he is remembered for."
+
+[[remove]]
+figure = "Chien-Shiung Wu"
+field = "legacy"
+value = "This person thus established herself as the leading physicist on beta decay."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('thus')."
+
+[[remove]]
+figure = "Epicurus"
+field = "legacy"
+value = "Matter is made up of atoms, tiny bodies that are unable to be broken down into smaller parts, that only have the unchanging qualities of shape, size, and weight."
+reason = "Legacy review (2026-11-11): states a doctrine without saying it is his."
+
+[[remove]]
+figure = "Gunther"
+field = "legacy"
+value = "The historical this person's death became the basis for a tradition in Germanic heroic legend in which the legendary this person met his death at the court of Attila the Hun."
+reason = "Legacy review (2026-11-11): garbled ('the historical this person')."
+
+[[remove]]
+figure = "Hasan ibn Ali"
+field = "legacy"
+value = "Another Sunni hadith, also attributed to Muhammad, predicted that the prophetic succession would last for thirty years, which may have been interpreted by some early Sunni scholars as evidence that this person's caliphate was rightly-guided."
+reason = "Legacy review (2026-11-11): about a hadith, not the person."
+
+[[remove]]
+figure = "John Casimir, Duke of Saxe-Coburg"
+field = "legacy"
+value = "Under his rule, the town of Coburg prospered and many Renaissance buildings were erected that still remain today."
+reason = "Legacy review (2026-11-11): names Coburg, which gives his title away."
+
+[[remove]]
+figure = "Karađorđe"
+field = "legacy"
+value = "The uprising kindled the flame of ethno-religious nationalism among the Christians of Southeastern Europe and inspired the subsequent Greek War of Independence."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('The uprising')."
+
+[[remove]]
+figure = "Ken Arok"
+field = "legacy"
+value = "He is considered the ancestor of the Rajasa dynasty of the Singhasari and Majapahit line of monarchs."
+reason = "Legacy review (2026-11-11): names the Rajasa dynasty after his own regnal name."
+
+[[remove]]
+figure = "John Hunyadi"
+field = "legacy"
+value = "This person immediately advocated for an offensive, anti-Ottoman strategy."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('immediately')."
+
+[[remove]]
+figure = "Maximian"
+field = "legacy"
+value = "On either the same day or a month later, Diocletian did the same for Galerius, thus establishing the \"Tetrarchy\", or \"rule of four\"."
+reason = "Legacy review (2026-11-11): about Diocletian, and leans on the sentence before it ('did the same')."
+
+[[remove]]
+figure = "Mu'in al-Din Chishti"
+field = "legacy"
+value = "Most of the Indian Sunni saints are this person in their affiliation, including Nizamuddin Awliya and Amir Khusrow."
+reason = "Legacy review (2026-11-11): garbled: the Chishti order's name is hidden as his."
+
+[[remove]]
+figure = "Muhammad bin Tughluq"
+field = "legacy"
+value = "If not for Tughlaq's creation of a Muslim elite at Daulatabad, there would have been no stable Muslim power like the Bahmani Sultanate to check the rising power of the Hindu Vijayanagara Empire."
+reason = "Legacy review (2026-11-11): gives his name in another spelling ('Tughlaq')."
+
+[[remove]]
+figure = "Pope Pius II"
+field = "legacy"
+value = "Aeneas Silvius' longest and most enduring work is the story of his life, the Commentaries, which was the first autobiography of a pope to have been published."
+reason = "Legacy review (2026-11-11): gives his own name ('Aeneas Silvius')."
+
+[[remove]]
+figure = "Rama II"
+field = "legacy"
+value = "His reign was known as the \"Golden Age of Rattanakosin Literature\" as Loetlanaphalai was patron to a number of poets in his court, and the King himself was a renowned poet and artist."
+reason = "Legacy review (2026-11-11): gives his own name ('Loetlanaphalai')."
+
+[[remove]]
+figure = "Ranavalona I"
+field = "legacy"
+value = "Others admire her effort to preserve Malagasy traditions and independence."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('Others')."
+
+[[remove]]
+figure = "Roy Campbell"
+field = "legacy"
+value = "Krige would also go on to become a literary and political mentor to the many young Afrikaans language poets and writers of the literary movement known as the Sestigers, which Louise Viljoen, in her biography of poet Ingrid Jonker, has described as nothing less than \"a cultural revolt\" against apartheid and the National Party from within \"the heart of Afrikanerdom.\""
+reason = "Legacy review (2026-11-11): about Uys Krige, not the person."
+
+[[remove]]
+figure = "Sabbatai Zevi"
+field = "legacy"
+value = "They included ideas about the redemption of the Jews and their return to the land of Israel with independent sovereignty."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('They')."
+
+[[remove]]
+figure = "Saint Remigius"
+field = "legacy"
+value = "Because of Clovis's efforts, a large number of churches were established in the formerly pagan lands of the Frankish empire, establishing Catholicism for the first time in Germanic lands, most of whom had been converted to Arian Christianity."
+reason = "Legacy review (2026-11-11): about Clovis, not the person."
+
+[[remove]]
+figure = "Shaaban bin Robert"
+field = "legacy"
+value = "He is also honoured as the national poet."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('also') and says little."
+
+[[remove]]
+figure = "Suluk"
+field = "legacy"
+value = "This person, Sul-lu or this person was a Türgesh tribal leader and a Qaghan who defended Transoxiana against Umayyad conquest in the early 8th century."
+reason = "Legacy review (2026-11-11): garbled ('This person, Sul-lu or this person')."
+
+[[remove]]
+figure = "Tom of Finland"
+field = "legacy"
+value = "They also contributed to the spread of a new gay masculinity and confidence."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('They also')."
+
+[[remove]]
+figure = "Nebuchadnezzar II"
+field = "legacy"
+value = "Through this conquest, the subsequent capture of the Phoenician city of Tyre, and other campaigns in the Levant, this person restored the Neo-Babylonian Empire's fortunes in the ancient Near East."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('this conquest')."
+
+[[remove]]
+figure = "Abdul Haris Nasution"
+field = "legacy"
+value = "In June, at a commanders' meeting, his suggestion that TNI should fight guerrilla warfare against the Dutch was approved."
+reason = "Legacy review (2026-11-11): a single meeting, not what he is remembered for."
+
+[[remove]]
+figure = "Ahmed Abdallah"
+field = "legacy"
+value = "The Comoros became a one-party state, with the UCP being the only legal party, the regime became dictatorial, supervised by mercenaries who controlled the country and avoided various coup attempts."
+reason = "Legacy review (2026-11-11): about the regime, not the person."
+
+[[remove]]
+figure = "Chien-Shiung Wu"
+field = "legacy"
+value = "Lee and Yang's theoretical calculations predicted that the beta particles from the cobalt-60 atoms would be emitted asymmetrically and the hypothetical \"law of conservation of parity\" was invalid."
+reason = "Legacy review (2026-11-11): about Lee and Yang's predictions, not her work."
+
+[[remove]]
+figure = "Gunther"
+field = "legacy"
+value = "Most significantly, he plays a role in the German Nibelungenlied, the medieval Latin Waltharius, and his counter part Gunnarr in the Old Norse Poetic Edda and Völsunga saga."
+reason = "Legacy review (2026-11-11): leans on the sentence before it ('Most significantly')."
+
+[[remove]]
+figure = "Sabbatai Zevi"
+field = "legacy"
+value = "This person's initials were posted in almost every synagogue."
+reason = "Legacy review (2026-11-11): trivia."
+
+[[remove]]
+figure = "Suluk"
+field = "legacy"
+value = "Throughout the conflicts, the Arab army had to withdraw to find fresh water, such as in the Day of Thirst in 724 and the Battle of the Defile in 731."
+reason = "Legacy review (2026-11-11): about the Arab army, not the person."
+
+[[remove]]
+civilization = "Second Federal Republic of Mexico"
+field = "legacy"
+value = "Person and home were made inviolable with the exception of arrests by court issued warrant with a clearly defined criminal charge."
+reason = "Legacy review (2026-11-11): leans on the sentence before it (what made them inviolable)."
+
+[[remove]]
+figure = "Maximian"
+field = "legacy"
+value = "Apparently wishing to inflict as much punishment as possible on the tribes, he devastated previously secure land, killed as many as he could, and drove the remainder back into the Sahara."
+reason = "Legacy review (2026-11-11): a single campaign, not what he is remembered for."

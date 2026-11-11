@@ -1251,3 +1251,459 @@ sources = [
   { fact = "His government lasted from 1956 to 1960", source = "https://countrystudies.us/somalia/14.htm", quote = "The term of office of the Iise government was four years (1956-60)" },
 ]
 derivation = "replaces Wikipedia's lead line, which dates his premiership from 1949, before the trust territory existed; the Library of Congress country study (public domain) gives 1956-60"
+
+[[figure]]
+figure = "Albrecht Dürer"
+figure_id = "Q5580"
+field = "civilization"
+value = "Holy Roman Empire"
+value_id = "Q12548"
+source = "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer"
+quote = "Born in Nuremberg, Dürer established his reputation and influence across Europe in his twenties due to his high-quality woodcut prints."
+retrieved = 2026-11-11
+derivation = "born in Nuremberg, which was then a Free Imperial City of the Holy Roman Empire"
+sources = [
+  { fact = "Nuremberg was a Free Imperial City of the Holy Roman Empire", source = "https://en.wikipedia.org/wiki/Nuremberg", quote = "It became a Free Imperial City in the 13th century." },
+]
+
+[[figure]]
+figure = "Toussaint Louverture"
+figure_id = "Q205783"
+field = "civilization"
+value = "Kingdom of France"
+value_id = "Q70972"
+source = "https://en.wikipedia.org/wiki/Toussaint_Louverture"
+quote = "born as a slave in the French colony of Saint-Domingue"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Faustin Soulouque"
+figure_id = "Q560853"
+field = "civilization"
+value = "Empire of Haiti"
+value_id = "Q2006756"
+source = "https://en.wikipedia.org/wiki/Faustin_Soulouque"
+quote = "Emperor of Haiti from 1849 to 1859"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Ashraf Pahlavi"
+figure_id = "Q2419984"
+field = "civilization"
+value = "Pahlavi Dynasty"
+value_id = "Q107258515"
+source = "https://en.wikipedia.org/wiki/Ashraf_Pahlavi"
+quote = "a member of the Pahlavi dynasty"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Thomas Aquinas"
+figure_id = "Q9438"
+field = "civilization"
+value = "Kingdom of Sicily"
+value_id = "Q188586"
+source = "https://en.wikipedia.org/wiki/Thomas_Aquinas"
+quote = "controlled at that time by the Kingdom of Sicily"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Xiang Yu"
+figure_id = "Q182266"
+field = "civilization"
+value = "Chu"
+value_id = "Q504759"
+source = "https://en.wikipedia.org/wiki/Xiang_Yu"
+quote = "A nobleman of the former state of Chu, Xiang Yu rebelled against the Qin dynasty under the command of his uncle, Xiang Liang"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Sambhaji"
+figure_id = "Q2737041"
+field = "civilization"
+value = "Maratha Empire"
+value_id = "Q83618"
+source = "https://en.wikipedia.org/wiki/Sambhaji"
+quote = "ruled from 1681 to 1689 as the second king (Chhatrapati) of the Maratha Empire"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Nanda Bayin"
+figure_id = "Q3182715"
+field = "civilization"
+value = "Toungoo dynasty"
+value_id = "Q519718"
+source = "https://en.wikipedia.org/wiki/Nanda_Bayin"
+quote = "He presided over the collapse of the First Toungoo Empire"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Simon Kimbangu"
+figure_id = "Q742357"
+field = "civilization"
+value = "Belgian Congo"
+value_id = "Q213510"
+source = "https://en.wikipedia.org/wiki/Simon_Kimbangu"
+quote = "causing suspicion amongst the Belgian authorities"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "William of Rosenberg"
+figure_id = "Q1357841"
+field = "civilization"
+value = "Habsburg Monarchy"
+value_id = "Q153136"
+source = "https://en.wikipedia.org/wiki/William_of_Rosenberg"
+quote = "In 1572, he negotiated with Emperor Maximilian II"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Ramon Llull"
+figure_id = "Q193660"
+field = "civilization"
+value = "Crown of Aragon"
+value_id = "Q204920"
+source = "https://en.wikipedia.org/wiki/Ramon_Llull"
+quote = "James I had conquered the formerly Almohad-ruled Majorca as part of a larger move to integrate the territories of the Balearic Islands (now part of Spain) into the Crown of Aragon"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Andriscus"
+figure_id = "Q362068"
+field = "civilization"
+value = "Antigonid dynasty"
+value_id = "Q237325"
+source = "https://en.wikipedia.org/wiki/Andriscus"
+quote = "last independent king of Macedon in 149 BC"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Herbert Macaulay"
+figure_id = "Q734986"
+field = "civilization"
+value = "British Empire"
+value_id = "Q8680"
+source = "https://en.wikipedia.org/wiki/Herbert_Macaulay"
+quote = "distaste for the British rule of the Lagos Colony"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Adelaide Casely-Hayford"
+figure_id = "Q4681689"
+field = "civilization"
+value = "British Empire"
+value_id = "Q8680"
+source = "https://en.wikipedia.org/wiki/Adelaide_Casely-Hayford"
+quote = "was born on 2 June 1868 in Freetown, British Sierra Leone"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Blanche of Castile"
+figure_id = "Q353"
+field = "civilization"
+value = "Kingdom of France"
+value_id = "Q70972"
+source = "https://en.wikipedia.org/wiki/Blanche_of_Castile"
+quote = "was Queen of France by marriage to Louis VIII"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Bernard of Clairvaux"
+figure_id = "Q188411"
+field = "civilization"
+value = "Duchy of Burgundy"
+value_id = "Q4712"
+source = "https://en.wikipedia.org/wiki/Bernard_of_Clairvaux"
+quote = "both members of the highest nobility of Burgundy"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Lü Bu"
+figure_id = "Q317846"
+field = "civilization"
+value = "Han Dynasty"
+value_id = "Q7209"
+source = "https://en.wikipedia.org/wiki/L%C3%BC_Bu"
+quote = "who lived during the late Eastern Han dynasty"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Puyi"
+figure_id = "Q185152"
+field = "civilization"
+value = "Qing Dynasty"
+value_id = "Q8733"
+source = "https://en.wikipedia.org/wiki/Puyi"
+quote = "reigned as the Xuantong Emperor of the Qing dynasty"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Mohammad Zahir Shah"
+figure_id = "Q152265"
+field = "civilization"
+value = "Kingdom of Afghanistan"
+value_id = "Q1138904"
+source = "https://en.wikipedia.org/wiki/Mohammad_Zahir_Shah"
+quote = "was the last king of Afghanistan, reigning from 8 November 1933"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Omar al-Mukhtar"
+figure_id = "Q212388"
+field = "civilization"
+value = "Ottoman Empire"
+value_id = "Q12560"
+source = "https://en.wikipedia.org/wiki/Omar_al-Mukhtar"
+quote = "in the region of Ottoman Cyrenaica"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Juan Santos Atahualpa"
+figure_id = "Q3123284"
+field = "role"
+value = "Messianic leader of an indigenous rebellion against the Viceroyalty of Peru"
+source = "https://en.wikipedia.org/wiki/Juan_Santos_Atahualpa"
+quote = "was the messianic leader of a successful indigenous rebellion in the Amazon Basin and Andean foothills against the Viceroyalty of Peru"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Thorismund"
+figure_id = "Q313079"
+field = "life"
+value = "c. 420–453"
+source = "https://en.wikipedia.org/wiki/Thorismund"
+quote = "(c. 420–453), became king of the Visigoths after his father Theodoric I was killed"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Lapulapu"
+figure_id = "Q216275"
+field = "life"
+value = "fl. 1521"
+source = "https://en.wikipedia.org/wiki/Lapulapu"
+quote = "Lapulapu (fl. 1521), also spelled Lapu-Lapu"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Dawit I"
+figure_id = "Q716024"
+field = "life"
+value = "died 1413"
+source = "https://en.wikipedia.org/wiki/Dawit_I"
+quote = "was Emperor of Ethiopia from 1382 until his death on October 6, 1413"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Lü Bu"
+figure_id = "Q317846"
+field = "life"
+value = "died 199"
+source = "https://en.wikipedia.org/wiki/L%C3%BC_Bu"
+quote = "died 7 February 199"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Daniel of Galicia"
+figure_id = "Q58607"
+field = "life"
+value = "1201–1266"
+source = "https://en.wikipedia.org/wiki/Daniel_of_Galicia"
+quote = "Daniel Romanovich (1201–1266) was Prince of Galicia"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Al-Nasir Muhammad"
+figure_id = "Q293505"
+field = "role"
+value = "Mamluk Sultan of Egypt from 1293 to 1294, 1299 to 1309 and 1310 to 1341"
+source = "https://en.wikipedia.org/wiki/Al-Nasir_Muhammad"
+quote = "who ruled Egypt between 1293–1294, 1299–1309, and 1310 until his death in 1341"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Al-Nasir Muhammad"
+figure_id = "Q293505"
+field = "life"
+value = "1285–1341"
+source = "https://en.wikipedia.org/wiki/Al-Nasir_Muhammad"
+quote = "Ibn Qalawun (1285–1341)"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Abd al-Hafid of Morocco"
+figure_id = "Q276936"
+field = "role"
+value = "Sultan of Morocco from 1908 to 1912"
+source = "https://en.wikipedia.org/wiki/Abd_al-Hafid_of_Morocco"
+quote = "was the Sultan of Morocco from 1908 to 1912"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Sonni Ali"
+figure_id = "Q945436"
+field = "life"
+value = "died 1492"
+source = "https://en.wikipedia.org/wiki/Sonni_Ali"
+quote = "His death, on November 6, 1492, is a matter of conjecture."
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Taqi ad-Din Muhammad ibn Ma'ruf"
+figure_id = "Q1379164"
+field = "life"
+value = "1526–1585"
+source = "https://en.wikipedia.org/wiki/Taqi_ad-Din_Muhammad_ibn_Ma%27ruf"
+quote = "1526–1585) was an Ottoman polymath active in Cairo and Constantinople"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Ovadia Yosef"
+figure_id = "Q467172"
+field = "role"
+value = "Talmudic scholar, posek and Sephardi Chief Rabbi of Israel from 1972 to 1983"
+source = "https://en.wikipedia.org/wiki/Ovadia_Yosef"
+quote = "the Sephardi Chief Rabbi of Israel from 1972 to 1983"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Virgilio Barco Vargas"
+figure_id = "Q540192"
+field = "role"
+value = "28th President of Colombia"
+source = "https://en.wikipedia.org/wiki/Virgilio_Barco_Vargas"
+quote = "who served as the 28th President of Colombia serving from 7 August 1986 to 7 August 1990"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Emperor Xuanzong of Tang"
+figure_id = "Q9746"
+field = "role"
+value = "Emperor of the Tang dynasty from 712 to 756"
+source = "https://en.wikipedia.org/wiki/Emperor_Xuanzong_of_Tang"
+quote = "was an emperor of the Tang dynasty of China, reigning from 712 to 756"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Mircea the Elder"
+figure_id = "Q322043"
+field = "role"
+value = "Voivode of Wallachia from 1386 to 1418"
+source = "https://en.wikipedia.org/wiki/Mircea_the_Elder"
+quote = "was the Voivode of Wallachia from 1386 until his death in 1418"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Sayri Túpac"
+figure_id = "Q467934"
+field = "role"
+value = "Ruler of the Neo-Inca State"
+source = "https://en.wikipedia.org/wiki/Sayri_T%C3%BApac"
+quote = "he became the ruler of the Neo-Inca State in Vilcabamba"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Sayri Túpac"
+figure_id = "Q467934"
+field = "life"
+value = "1534/1535–1560"
+source = "https://en.wikipedia.org/wiki/Sayri_T%C3%BApac"
+quote = "Sayri Túpac (1534/1535 – 1560) was an Inca ruler in Peru"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Muhammad ibn Abd al-Wahhab"
+figure_id = "Q69351"
+field = "role"
+value = "Arab Muslim scholar, theologian and reformer"
+source = "https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab"
+quote = "was an Arab Muslim scholar, theologian, preacher, activist, religious leader, jurist, and reformer"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Muhammad IX of Granada"
+figure_id = "Q559406"
+field = "role"
+value = "Sultan of Granada from 1419 to 1453"
+source = "https://en.wikipedia.org/wiki/Muhammad_IX_of_Granada"
+quote = "He ruled a total of about 28 years across four intervals: 1419–1427, 1430–31, 1432–1445 and 1447–1453."
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Muhammad XI of Granada"
+figure_id = "Q312763"
+field = "role"
+value = "Last Nasrid ruler of the Emirate of Granada"
+source = "https://en.wikipedia.org/wiki/Muhammad_XI_of_Granada"
+quote = "was the 22nd and last Nasrid ruler of the Emirate of Granada"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Tizoc"
+figure_id = "Q336816"
+field = "role"
+value = "Seventh tlatoani of Tenochtitlan"
+source = "https://en.wikipedia.org/wiki/Tizoc"
+quote = "was the seventh tlatoani of Tenochtitlan"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Adam Mickiewicz"
+figure_id = "Q79822"
+field = "role"
+value = "Polish poet, dramatist and political activist"
+source = "https://en.wikipedia.org/wiki/Adam_Mickiewicz"
+quote = "was a Polish poet, dramatist, essayist, publicist, translator and political activist"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Bodawpaya"
+figure_id = "Q796571"
+field = "role"
+value = "Sixth king of the Konbaung dynasty of Burma"
+source = "https://en.wikipedia.org/wiki/Bodawpaya"
+quote = "was the sixth king of the Konbaung dynasty of Burma"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Isabel Moctezuma"
+figure_id = "Q465561"
+field = "role"
+value = "Last Aztec empress"
+source = "https://en.wikipedia.org/wiki/Isabel_Moctezuma"
+quote = "and as such the last Aztec empress"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Mara Takla Haymanot"
+figure_id = "Q887434"
+field = "role"
+value = "King and founder of the Zagwe dynasty"
+source = "https://en.wikipedia.org/wiki/Mara_Takla_Haymanot"
+quote = "was King  and the founder of the Zagwe dynasty"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Luis Enríquez de Guzmán, 9th Count of Alba de Liste"
+figure_id = "Q2735157"
+field = "role"
+value = "Viceroy of New Spain and Peru"
+source = "https://en.wikipedia.org/wiki/Luis_Enr%C3%ADquez_de_Guzm%C3%A1n,_9th_Count_of_Alba_de_Liste"
+quote = "was viceroy of New Spain from June 28, 1650 to August 14, 1653 and thereafter viceroy of Peru"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Luis Enríquez de Guzmán, 9th Count of Alba de Liste"
+figure_id = "Q2735157"
+field = "life"
+value = "c. 1600–1667"
+source = "https://en.wikipedia.org/wiki/Luis_Enr%C3%ADquez_de_Guzm%C3%A1n,_9th_Count_of_Alba_de_Liste"
+quote = "(c. 1600 – March 12, 1667)"
+retrieved = 2026-11-11
+
+[[figure]]
+figure = "Gamal Abdel Nasser"
+figure_id = "Q39524"
+field = "role"
+value = "President of Egypt from 1954 to 1970"
+source = "https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser"
+quote = "who served as the second president of Egypt from 1954 until his death in 1970"
+retrieved = 2026-11-11

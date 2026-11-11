@@ -3,7 +3,7 @@
   "slug": "west-franks",
   "name": "West Franks",
   "wikipedia": "West Francia",
-  "map_year": 886,
+  "map_year": 900,
   "period": {
     "start": {
       "earliest": 843,
@@ -73,18 +73,7 @@
     }
   ],
   "modern_countries": [
-    "France",
-    "Germany",
-    "Italy",
-    "Austria",
-    "Switzerland",
-    "Netherlands",
-    "Croatia",
-    "Belgium",
-    "Slovenia",
-    "Luxembourg",
-    "Liechtenstein",
-    "San Marino"
+    "France"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -113,16 +102,22 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Paris",
     "labelled": [
-      "First Bulgarian Empire",
-      "Great Moravia",
-      "Scandinavian minor kingdoms",
-      "Byzantine Empire",
-      "Kievan Rus'",
+      "East Franks",
+      "Lower Burgundy",
+      "Upper Burgundy",
       "Emirate of Córdoba",
-      "Magyars",
       "Kingdom of Asturias",
+      "Principality of Hungary",
       "Kingdom of Wessex",
-      "Danelaw"
+      "Danelaw",
+      "Duchy of Bohemia",
+      "Principality of Serbia",
+      "Nitra",
+      "Great Moravia",
+      "Duchy of Croatia",
+      "Principality of Salerno",
+      "Papal States",
+      "Obotrites"
     ]
   }
 }

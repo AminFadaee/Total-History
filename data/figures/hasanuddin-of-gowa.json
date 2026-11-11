@@ -14,9 +14,7 @@
   "civilizations": [
     "Sultanate of Gowa"
   ],
-  "related": [
-    "Mataram Sultanate"
-  ],
+  "related": [],
   "contribution": "The 16th Ruler of The Sultanate of Gowa as Sombaya Ri Gowa XVI from 1653 to 1669.",
   "setting": "Sultanate of Gowa",
   "modern_country": "",
@@ -29,7 +27,6 @@
   "checks": {
     "civilization_votes": {
       "office": [
-        "Mataram Sultanate",
         "Sultanate of Gowa"
       ],
       "death": [

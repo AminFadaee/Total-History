@@ -149,12 +149,13 @@ def test_extended_figures_belong_to_deck_civilizations(civilizations):
 
 
 def test_lifetimes_are_plausible(figures):
-    """A life dated at both ends spans 120 years at most; one dated only by a vague death (a century) keeps its doubt."""
+    """A life dated at both ends spans 120 years at most; one dated only by a vague death (a century) keeps its doubt, and
+    one a review left undated shows no dates."""
     for figure in figures.values():
         if figure.get("lifetime"):
             born, died = figure["lifetime"]
             assert born <= died, figure["name"]
-            if not figure["life"].startswith(("died", "born")):
+            if figure["life"] and not figure["life"].startswith(("died", "born")):
                 assert died - born <= MAX_LIFE_YEARS, figure["name"]
 
 

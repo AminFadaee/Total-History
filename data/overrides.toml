@@ -214,19 +214,6 @@ quote = "After the fall of the Akkadian Empire, the Gutians claimed succession a
 retrieved = 2026-10-20
 
 [[override]]
-civilization = "Qin dynasty"
-civilization_id = "Q7183"
-field = "before"
-action = "add"
-value = "Zhou dynasty"
-value_id = "Q35216"
-region = "China"
-source = "https://www.worldhistory.org/Zhou_Dynasty/"
-quote = "It followed the Shang Dynasty (c. 1600-1046 BCE), and preceded the Qin Dynasty (221-206 BCE"
-retrieved = 2026-10-20
-note = "Zhou -> Qin dynasty; the Qin state (slug qin) is the more exact predecessor but this source names Zhou"
-
-[[override]]
 civilization = "Uyghur Khaganate"
 civilization_id = "Q831218"
 field = "after"
@@ -3806,12 +3793,13 @@ civilization_id = "Q2365048"
 field = "modern_countries"
 action = "set"
 needs_verification = false
-value = ["Ethiopia", "Somalia"]
-retrieved = 2026-10-28
+value = ["Ethiopia", "Somalia", "Djibouti"]
+retrieved = 2026-11-11
 derivation = "every listed item has its own source"
 sources = [
   { fact = "Ethiopia", source = "https://en.wikipedia.org/wiki/Adal_Sultanate", quote = "However, in the integral regions of the Ethiopian Empire, such as Bete Amhara, Tigray and Shewa, the local population bitterly resisted the Adalite occupation." },
   { fact = "Somalia", source = "https://en.wikipedia.org/wiki/Adal_Sultanate", quote = "At its height, the polity under Sultan Badlay controlled the territory stretching from Cape Guardafui in Somalia to the port city of Suakin in Sudan." },
+  { fact = "Djibouti", source = "https://en.wikipedia.org/wiki/History_of_Djibouti", quote = "The Djibouti area, along with other localities in the Horn region, was later the seat of the medieval Adal and Ifat Sultanates." },
 ]
 
 [[override]]
@@ -9077,18 +9065,19 @@ civilization_id = "Q34266"
 field = "modern_countries"
 action = "set"
 needs_verification = false
-value = ["Russia", "Ukraine", "Poland", "Estonia", "Latvia", "Georgia", "Armenia", "Azerbaijan"]
-retrieved = 2026-10-28
+value = ["Russia", "Ukraine", "Poland", "Finland", "Belarus", "Lithuania", "Latvia", "Estonia", "Moldova", "Georgia", "Armenia", "Azerbaijan", "Kazakhstan", "Uzbekistan", "Turkmenistan", "Kyrgyzstan", "Tajikistan"]
+retrieved = 2026-11-11
 derivation = "every listed item has its own source"
 sources = [
-  { fact = "Russia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "The administrative boundaries of European Russia, excluding Finland and Congress Poland, coincided approximately with the East European Plain." },
-  { fact = "Ukraine", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Much of Russia's expansion occurred in the 17th century, culminating in the first Russian colonization of the Pacific, the Russo-Polish War (1654–1667) which led to the incorporation of left-bank Ukraine, and the Russian conquest of Siberia." },
-  { fact = "Poland", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Russian emperors quelled two uprisings in their newly acquired Polish territories: the November Uprising in 1830 and the January Uprising in 1863." },
-  { fact = "Estonia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "The formerly Swedish-controlled Baltic provinces of Livonia and Estonia, along with the Duchy of Courland, were incorporated into the empire following the Great Northern War and the Third Partition of Poland." },
-  { fact = "Latvia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "The formerly Swedish-controlled Baltic provinces of Livonia and Estonia, along with the Duchy of Courland, were incorporated into the empire following the Great Northern War and the Third Partition of Poland." },
-  { fact = "Georgia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Following the incorporation of the Eastern Georgian Kingdom into the empire in 1801, Russian forces clashed with Persia over control of the Caucasus during the Russo-Persian War (1804–1813), and also became involved in the Caucasian War against the Caucasian Imamate." },
-  { fact = "Armenia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Despite losing almost all recently consolidated territories in the first year of the Russo-Persian War of 1826–1828, Russia managed to favorably bring an end to the war with the Treaty of Turkmenchay, including the formal acquisition of what are now Armenia, Azerbaijan, and Iğdır Province." },
-  { fact = "Azerbaijan", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "At the conclusion of the war, Persia irrevocably ceded what is now Dagestan, eastern Georgia, and most of Azerbaijan to Russia, under the Treaty of Gulistan." },
+  { fact = "Russia", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "It spanned most of northern Eurasia from its establishment in 1721 until the proclamation of the Russian Republic in 1917." },
+  { fact = "Ukraine, Belarus, Finland, Georgia, Armenia and Azerbaijan", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Prior to 1917 the Russian Empire included most of Dnieper Ukraine, Belarus (part of former Grand Duchy of Lithuania), Bessarabia, the Grand Duchy of Finland, Armenia, Azerbaijan, Georgia" },
+  { fact = "Poland", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Poland was partitioned by its rivals in 1772–1815, most of its land and population taken under Russian rule." },
+  { fact = "Lithuania", source = "https://en.wikipedia.org/wiki/Russian_Empire", quote = "Russia lost the entire territory of Poland and Lithuania, part of the Baltic region" },
+  { fact = "Latvia", source = "https://en.wikipedia.org/wiki/Governorate_of_Courland", quote = "Its territory corresponded to the historical regions of Kurzeme, Zemgale and Sēlija in modern-day Latvia" },
+  { fact = "Estonia", source = "https://en.wikipedia.org/wiki/Estonian_Governorate", quote = "was a province (guberniya) and one of the Baltic governorates of the Russian Empire" },
+  { fact = "Moldova (Bessarabia)", source = "https://en.wikipedia.org/wiki/Bessarabia", quote = "About two thirds of Bessarabia lies within modern-day Moldova" },
+  { fact = "Kazakhstan", source = "https://en.wikipedia.org/wiki/History_of_Kazakhstan", quote = "The Russian Empire started to integrate the Kazakh steppe." },
+  { fact = "Uzbekistan, Turkmenistan, Tajikistan and Kyrgyzstan (Russian Turkestan)", source = "https://en.wikipedia.org/wiki/Russian_Turkestan", quote = "Russian Turkestan was the vast region of Central Asia governed by the Russian Empire" },
 ]
 
 [[override]]
@@ -15077,3 +15066,294 @@ region = "Japan"
 source = "https://en.wikipedia.org/wiki/Azuchi%E2%80%93Momoyama_period"
 quote = "The Azuchi–Momoyama period ended with the Tokugawa victory at the Battle of Sekigahara in 1600"
 retrieved = 2026-11-11
+
+[[override]]
+civilization = "Republic of Ragusa"
+civilization_id = "Q208169"
+field = "after"
+action = "set"
+value = "First French Empire"
+value_id = "Q71084"
+region = "Croatia"
+source = "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+quote = "The republic was conquered by Napoleon's French Empire in 1806 and formally annexed by the Napoleonic Kingdom of Italy in 1808."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Zengid dynasty"
+civilization_id = "Q189545"
+field = "after"
+action = "set"
+value = "Ayyubid Sultanate"
+value_id = "Q180114"
+region = "Syria"
+source = "https://en.wikipedia.org/wiki/Zengid_dynasty"
+quote = "After the death of his master Nur al-Din in 1174, Saladin successively took Damascus (1174) and Aleppo (1183) from the Zengids, ending their rule in Syria."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Duchy of Warsaw"
+civilization_id = "Q152115"
+field = "before"
+action = "set"
+value = "Kingdom of Prussia"
+value_id = "Q27306"
+region = "Poland"
+source = "https://en.wikipedia.org/wiki/Duchy_of_Warsaw"
+quote = "It initially consisted of ethnically Polish lands ceded to France by Prussia under the terms of the Treaties of Tilsit"
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Polish-Lithuanian Commonwealth"
+civilization_id = "Q172107"
+field = "after"
+action = "set"
+value = "Russian Empire"
+value_id = "Q34266"
+region = "Poland"
+source = "https://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_Commonwealth"
+quote = "The country was partitioned in three stages by the Russian Empire, the German Kingdom of Prussia, and the Austrian Habsburg monarchy."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Lanna Kingdom"
+civilization_id = "Q1059707"
+field = "after"
+action = "set"
+value = "Thonburi Kingdom"
+value_id = "Q1115291"
+region = "Thailand"
+source = "https://en.wikipedia.org/wiki/Lanna_Kingdom"
+quote = "Burmese control ended with the retreat of that force, and Siam under Taksin of the Thonburi Kingdom took Lanna in 1776."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Duchy of Savoy"
+civilization_id = "Q426025"
+field = "before"
+action = "set"
+value = "County of Savoy"
+value_id = "Q1232887"
+region = "France"
+source = "https://en.wikipedia.org/wiki/Duchy_of_Savoy"
+quote = "It was created when Sigismund, Holy Roman Emperor, raised the County of Savoy into a duchy for Amadeus VIII."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Second Polish Republic"
+civilization_id = "Q207272"
+field = "after"
+action = "set"
+value = "Nazi Germany"
+value_id = "Q7318"
+region = "Poland"
+source = "https://en.wikipedia.org/wiki/Second_Polish_Republic"
+quote = "The Second Republic was taken over in 1939 on the eve of its twenty-first anniversary, after it was invaded by Nazi Germany, the Soviet Union, and the Slovak Republic"
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Republic of Genoa"
+civilization_id = "Q174306"
+field = "period"
+action = "set"
+value = { start = 1099, end = 1797 }
+source = "https://en.wikipedia.org/wiki/Republic_of_Genoa"
+quote = "The Republic of Genoa was a medieval and early modern maritime republic from the years 1099 to 1797 in Liguria on the northwestern Italian coast."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "West Franks"
+civilization_id = "Q46370"
+field = "map_year"
+action = "set"
+value = 900
+source = "https://en.wikipedia.org/wiki/West_Francia"
+quote = "constitutes the initial stage of the Kingdom of France and extends from the Treaty of Verdun in 843 to 987, the beginning of the Capetian dynasty"
+retrieved = 2026-11-11
+note = "the map in 886 shows Charles the Fat's reunited empire; Cliopatria draws the West Franks alone from 898 to 910"
+
+[[override]]
+civilization = "Duchy of Bavaria"
+civilization_id = "Q47261"
+field = "map_year"
+action = "set"
+value = 1510
+source = "https://en.wikipedia.org/wiki/Duchy_of_Bavaria"
+quote = "Duke Albrecht IV of Bavaria-Munich united Bavaria in 1503 through war and primogeniture."
+retrieved = 2026-11-11
+note = "the map in 1352 draws the Wittelsbach holdings with Brandenburg and Tyrol"
+
+[[override]]
+civilization = "German Empire"
+civilization_id = "Q43287"
+field = "map_year"
+action = "set"
+value = 1910
+source = "https://en.wikipedia.org/wiki/German_Empire"
+quote = "was the period of the German Reich from the unification of Germany in 1871 until the November revolution in 1918"
+retrieved = 2026-11-11
+note = "the map in 1917 draws the wartime occupation of Belgium and the east"
+
+[[override]]
+civilization = "German Empire"
+civilization_id = "Q43287"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["Germany", "Poland", "France", "Russia", "Denmark", "Lithuania"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Germany", source = "https://en.wikipedia.org/wiki/German_Empire", quote = "The German Empire consisted of 25 states, each with its own nobility" },
+  { fact = "Poland (Province of Posen)", source = "https://en.wikipedia.org/wiki/German_Empire", quote = "Poles were treated as an ethnic minority even where they made up the majority, as in the Province of Posen" },
+  { fact = "France (Alsace-Lorraine)", source = "https://en.wikipedia.org/wiki/Alsace-Lorraine", quote = "was a territory of the German Empire between 1871 and 1918, comprising most of Alsace and part of Lorraine" },
+  { fact = "Russia (East Prussia, capital Königsberg, now Kaliningrad)", source = "https://en.wikipedia.org/wiki/East_Prussia", quote = "Its capital city was Königsberg (present-day Kaliningrad, Russia)." },
+  { fact = "Denmark (North Schleswig)", source = "https://en.wikipedia.org/wiki/Schleswig-Holstein_Question", quote = "Northern Schleswig was returned to Denmark." },
+  { fact = "Lithuania (Memel)", source = "https://en.wikipedia.org/wiki/Klaip%C4%97da", quote = "the Kingdom of Prussia and the German Empire" },
+]
+
+[[override]]
+civilization = "Sultanate of Sulu"
+civilization_id = "Q422065"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["Philippines", "Malaysia", "Indonesia"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Philippines", source = "https://en.wikipedia.org/wiki/Sultanate_of_Sulu", quote = "ruled the Sulu Archipelago, coastal areas of Zamboanga City, and certain portions of Palawan in today's Philippines" },
+  { fact = "Malaysia (Sabah)", source = "https://en.wikipedia.org/wiki/Sultanate_of_Sulu", quote = "later becoming part of Malaysia in 1963 under the name of Sabah" },
+  { fact = "Indonesia (Bulungan, North Kalimantan)", source = "https://en.wikipedia.org/wiki/Sultanate_of_Sulu", quote = "Sulu became a dominant power in the region, bringing Bulungan, in present-day North Kalimantan, Indonesia, within its sphere of influence." },
+]
+
+[[override]]
+civilization = "Ifat Sultanate"
+civilization_id = "Q157727"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["Ethiopia", "Djibouti", "Somalia"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Ethiopia", source = "https://en.wikipedia.org/wiki/Sultanate_of_Ifat", quote = "The kingdom ruled over parts of what are now Ethiopia, Djibouti, Somaliland, Somalia." },
+  { fact = "Djibouti", source = "https://en.wikipedia.org/wiki/Sultanate_of_Ifat", quote = "The kingdom ruled over parts of what are now Ethiopia, Djibouti, Somaliland, Somalia." },
+  { fact = "Somalia", source = "https://en.wikipedia.org/wiki/Sultanate_of_Ifat", quote = "The kingdom ruled over parts of what are now Ethiopia, Djibouti, Somaliland, Somalia." },
+]
+
+[[override]]
+civilization = "Prussia"
+civilization_id = "Q38872"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["Germany", "Poland", "Russia", "Lithuania"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Germany", source = "https://en.wikipedia.org/wiki/Prussia", quote = "was a German state centred on the North European Plain" },
+  { fact = "Poland (Danzig)", source = "https://en.wikipedia.org/wiki/Prussia", quote = "Danzig in Prussia (now Gdańsk, Poland)" },
+  { fact = "Russia (Königsberg)", source = "https://en.wikipedia.org/wiki/Prussia", quote = "Königsberg in Prussia (now Kaliningrad, Russia)" },
+  { fact = "Lithuania (Memel)", source = "https://en.wikipedia.org/wiki/Prussia", quote = "Memel in Prussia (now Klaipėda, Lithuania)" },
+]
+
+[[override]]
+civilization = "Cimmerian Bosporus"
+civilization_id = "Q321371"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["Russia", "Ukraine"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "the Bosporan Kingdom held eastern Crimea and the Taman Peninsula", source = "https://en.wikipedia.org/wiki/Bosporan_Kingdom", quote = "The Bosporan Kingdom covered the eastern half of Crimea and the Taman Peninsula" },
+  { fact = "Russia (Taman Peninsula)", source = "https://en.wikipedia.org/wiki/Taman_Peninsula", quote = "is a peninsula in Krasnodar Krai, Russia" },
+  { fact = "Ukraine (Crimea)", source = "https://en.wikipedia.org/wiki/Crimea", quote = "The region, internationally recognised as part of Ukraine, has been under Russian occupation since 2014." },
+]
+
+[[override]]
+civilization = "Gallic Empire"
+civilization_id = "Q273025"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["France", "United Kingdom", "Belgium", "Luxembourg", "Germany"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "the Gallic Empire held Gaul and Britannia", source = "https://en.wikipedia.org/wiki/Gallic_Empire", quote = "recognized as emperor in northern Gaul and Britannia" },
+  { fact = "France, Belgium, Luxembourg and parts of Germany (Gaul)", source = "https://en.wikipedia.org/wiki/Gaul", quote = "encompassing present-day Belgium, France, Luxembourg, and parts of Germany, Netherlands, Northern Italy and Switzerland" },
+  { fact = "Germany (Cologne was its capital)", source = "https://en.wikipedia.org/wiki/Colonia_Claudia_Ara_Agrippinensium", quote = "In AD 260 Postumus made Cologne the capital of the Gallic Empire" },
+  { fact = "United Kingdom (Britannia)", source = "https://en.wikipedia.org/wiki/Britannia", quote = "the Latin Britannia was the name variously applied to the British Isles, Great Britain, and the Roman province of Britain during the Roman Empire" },
+]
+
+[[override]]
+civilization = "Neo-Inca State"
+civilization_id = "Q10715354"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["Peru"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "the state's capital was Vilcabamba", source = "https://en.wikipedia.org/wiki/Neo-Inca_State", quote = "Vilcabamba became the capital of the state until the death of Tupaq Amaru in 1572" },
+  { fact = "Peru (Vilcabamba)", source = "https://en.wikipedia.org/wiki/Vilcabamba,_Peru", quote = "is a lost city in the Echarate District of La Convención Province in the Cuzco Region of Peru" },
+]
+
+[[override]]
+civilization = "Songhai Empire"
+civilization_id = "Q202687"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["Mali", "Niger", "Mauritania", "Senegal"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Mali, Niger, Mauritania and Senegal", source = "https://en.wikipedia.org/wiki/Songhai_Empire", quote = "The Songhai Empire at its zenith extended over the current territories of Mali, Niger, Nigeria, Mauritania, Senegal, most other Guinean Coast countries and Algeria." },
+]
+
+[[override]]
+civilization = "Hamdanid Emirates"
+civilization_id = "Q837187"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["Syria", "Iraq", "Turkey"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "Syria", source = "https://en.wikipedia.org/wiki/Hamdanid_dynasty", quote = "was a Shia Muslim Arab dynasty that ruled Upper Mesopotamia and Syria (890–1004)" },
+  { fact = "Iraq", source = "https://en.wikipedia.org/wiki/Hamdanid_dynasty", quote = "their area of control in northern Iraq was divided between the Uqaylids and the Marwanids" },
+  { fact = "Turkey (Mardin)", source = "https://en.wikipedia.org/wiki/Hamdanid_dynasty", quote = "By 892–893, he was in possession of Mardin" },
+  { fact = "Mardin is in Turkey", source = "https://en.wikipedia.org/wiki/Mardin", quote = "is a city and seat of the Artuklu District of Mardin Province in Turkey" },
+]
+
+[[override]]
+civilization = "Burgundians"
+civilization_id = "Q150412"
+field = "modern_countries"
+action = "set"
+needs_verification = false
+value = ["France", "Switzerland"]
+retrieved = 2026-11-11
+derivation = "every listed item has its own source"
+sources = [
+  { fact = "France and Switzerland", source = "https://en.wikipedia.org/wiki/Burgundians", quote = "In the fifth century they established the powerful Kingdom of the Burgundians within the Roman empire in what is now western Switzerland and south-eastern France." },
+]
+
+[[override]]
+civilization = "Qin dynasty"
+civilization_id = "Q7183"
+field = "before"
+action = "add"
+value = "Zhou dynasty"
+value_id = "Q35216"
+region = "China"
+source = "https://www.worldhistory.org/Zhou_Dynasty/"
+quote = "It followed the Shang Dynasty (c. 1600-1046 BCE), and preceded the Qin Dynasty (221-206 BCE"
+retrieved = 2026-10-20
+note = "Zhou -> Qin dynasty; the Qin state (slug qin) is the more exact predecessor but this source names Zhou"

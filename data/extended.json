@@ -1560,6 +1560,11 @@
     "civilization": "Russian Empire"
   },
   {
+    "id": "Q331876",
+    "name": "Charbel Makhlouf",
+    "civilization": "Ottoman Empire"
+  },
+  {
     "id": "Q332157",
     "name": "Shankar Dayal Sharma",
     "civilization": "British Raj"
@@ -2300,11 +2305,6 @@
     "civilization": "British Raj"
   },
   {
-    "id": "Q4670101",
-    "name": "Abu Bakr ibn Muhammad",
-    "civilization": "Beylik of Karaman"
-  },
-  {
     "id": "Q467694",
     "name": "Lachlan Macquarie",
     "civilization": "United Kingdom of Great Britain and Ireland"
@@ -2313,6 +2313,11 @@
     "id": "Q4679883",
     "name": "Adam Tas",
     "civilization": "Dutch Republic"
+  },
+  {
+    "id": "Q4681689",
+    "name": "Adelaide Casely-Hayford",
+    "civilization": "British Empire"
   },
   {
     "id": "Q4695346",
@@ -2393,11 +2398,6 @@
     "id": "Q484044",
     "name": "Queen Inmok",
     "civilization": "Joseon"
-  },
-  {
-    "id": "Q4841010",
-    "name": "Badlay ibn Sa'ad ad-Din",
-    "civilization": "Beylik of Karaman"
   },
   {
     "id": "Q48872094",
@@ -2900,11 +2900,6 @@
     "civilization": "Kingdom of Portugal"
   },
   {
-    "id": "Q6751903",
-    "name": "Mansur ad-Din of Adal",
-    "civilization": "Beylik of Karaman"
-  },
-  {
     "id": "Q6752370",
     "name": "Manuel Aguilar y Bustamante",
     "civilization": "Spanish Empire"
@@ -2928,11 +2923,6 @@
     "id": "Q6893011",
     "name": "Mohammed Bagayogo",
     "civilization": "Songhai Empire"
-  },
-  {
-    "id": "Q6932863",
-    "name": "Muhammad ibn Azhar ad-Din",
-    "civilization": "Beylik of Karaman"
   },
   {
     "id": "Q696402",
@@ -3153,6 +3143,11 @@
     "id": "Q7349430",
     "name": "Robert Russa Moton",
     "civilization": "United States of America"
+  },
+  {
+    "id": "Q734986",
+    "name": "Herbert Macaulay",
+    "civilization": "British Empire"
   },
   {
     "id": "Q737280",
@@ -3470,19 +3465,9 @@
     "civilization": "Yuan Dynasty"
   },
   {
-    "id": "Q963733",
-    "name": "Muhammad ibn Tughj al-Ikhshid",
-    "civilization": "Buyid Dynasty"
-  },
-  {
     "id": "Q336991",
     "name": "Ibrahim II of Ifriqiya",
     "civilization": "Aghlabid Dynasty"
-  },
-  {
-    "id": "Q481505",
-    "name": "Abu al-Misk Kafur",
-    "civilization": "Buyid Dynasty"
   },
   {
     "id": "Q257745",
@@ -3605,6 +3590,16 @@
     "civilization": "Liang Dynasty"
   },
   {
+    "id": "Q537742",
+    "name": "Alexios III of Trebizond",
+    "civilization": "Empire of Trebizond"
+  },
+  {
+    "id": "Q4205685",
+    "name": "Išpakāya",
+    "civilization": "Scythia"
+  },
+  {
     "id": "Q885563",
     "name": "Humban-haltash III",
     "civilization": "Elam"
@@ -3653,11 +3648,6 @@
     "id": "Q357771",
     "name": "Paul of Samosata",
     "civilization": "Kingdom of Osroene"
-  },
-  {
-    "id": "Q1143326",
-    "name": "Ardys I",
-    "civilization": "Kingdom of Judah"
   },
   {
     "id": "Q1285773",
@@ -3730,18 +3720,8 @@
     "civilization": "Kingdom of Urartu"
   },
   {
-    "id": "Q816398",
-    "name": "Ben-Hadad III",
-    "civilization": "Kingdom of Judah"
-  },
-  {
     "id": "Q313423",
     "name": "Amon of Judah",
-    "civilization": "Kingdom of Judah"
-  },
-  {
-    "id": "Q455594",
-    "name": "Necho I",
     "civilization": "Kingdom of Judah"
   },
   {
@@ -3752,11 +3732,6 @@
   {
     "id": "Q192998",
     "name": "Servius Tullius",
-    "civilization": "Roman Kingdom"
-  },
-  {
-    "id": "Q229432",
-    "name": "Lucretia",
     "civilization": "Roman Kingdom"
   },
   {
@@ -3785,11 +3760,6 @@
     "civilization": "Elam"
   },
   {
-    "id": "Q537742",
-    "name": "Alexios III of Trebizond",
-    "civilization": "Empire of Trebizond"
-  },
-  {
     "id": "Q1193546",
     "name": "King Ping of Zhou",
     "civilization": "Zhou Dynasty"
@@ -3800,11 +3770,6 @@
     "civilization": "Jin"
   },
   {
-    "id": "Q261333",
-    "name": "King Xi of Zhou",
-    "civilization": "Kingdom of Judah"
-  },
-  {
     "id": "Q1133572",
     "name": "Duke Huai of Jin",
     "civilization": "Jin"
@@ -3813,11 +3778,6 @@
     "id": "Q1052199",
     "name": "Duke Wu of Jin",
     "civilization": "Jin"
-  },
-  {
-    "id": "Q198154",
-    "name": "King Zhuang of Chu",
-    "civilization": "Kingdom of Judah"
   },
   {
     "id": "Q1184856",
@@ -3875,24 +3835,9 @@
     "civilization": "Kingdom of Asturias"
   },
   {
-    "id": "Q316115",
-    "name": "Alfonso IX of León",
-    "civilization": "Kingdom of León"
-  },
-  {
-    "id": "Q164889",
-    "name": "Manfred, King of Sicily",
-    "civilization": "Kingdom of Sicily"
-  },
-  {
     "id": "Q766247",
     "name": "Lutipri",
     "civilization": "Kingdom of Urartu"
-  },
-  {
-    "id": "Q1060366",
-    "name": "Zakkur",
-    "civilization": "Kingdom of Judah"
   },
   {
     "id": "Q353497",
@@ -3950,14 +3895,9 @@
     "civilization": "Kingdom of Mercia"
   },
   {
-    "id": "Q297855",
-    "name": "Cyaxares",
-    "civilization": "Kingdom of Judah"
-  },
-  {
     "id": "Q271527",
     "name": "Astyages",
-    "civilization": "Kingdom of Judah"
+    "civilization": "Median Kingdom"
   },
   {
     "id": "Q380815",
@@ -4045,9 +3985,9 @@
     "civilization": "Liu Song Dynasty"
   },
   {
-    "id": "Q1150588",
-    "name": "Madyes",
-    "civilization": "Kingdom of Judah"
+    "id": "Q271260",
+    "name": "Mandane of Media",
+    "civilization": "Median Kingdom"
   },
   {
     "id": "Q541989",

@@ -3,7 +3,7 @@
   "slug": "german-empire",
   "name": "German Empire",
   "wikipedia": "German Empire",
-  "map_year": 1917,
+  "map_year": 1910,
   "period": {
     "start": {
       "earliest": 1871,
@@ -73,9 +73,10 @@
   "modern_countries": [
     "Germany",
     "Poland",
-    "Lithuania",
-    "Belgium",
-    "Luxembourg"
+    "France",
+    "Russia",
+    "Denmark",
+    "Lithuania"
   ],
   "overseas_countries": [],
   "borders": true,
@@ -104,12 +105,13 @@
     "identity": "same item in Cliopatria and Wikipedia",
     "home": "Berlin",
     "labelled": [
-      "Russian Republic",
+      "Russian Empire",
       "Austria-Hungary",
       "French Third Republic",
-      "United Kingdom of Great Britain and Ireland",
-      "Kingdom of Sweden",
-      "Kingdom of Norway"
+      "Swiss Confederation",
+      "Kingdom of Belgium",
+      "Kingdom of Romania",
+      "Serbs"
     ]
   }
 }
