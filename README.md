@@ -364,8 +364,9 @@ real person (Longinus), an editorial choice that gives its reason in `note` inst
 passage and gives the date it was read; further `sources` (each with the fact it supports and its quote) and a
 `derivation` saying how they bear on the value may follow.
 
-A legacy line set by hand, for a civilization or a figure, is a sentence of the English Wikipedia article quoted as it
-stands (the name hidden for a figure), never a paraphrase, since the card text keeps Wikipedia's licence. It is either a
+A legacy line set by hand, for a civilization or a figure, is a sentence quoted as it stands (the name hidden for a
+figure), never a paraphrase, from an openly licensed source: the English Wikipedia article, or for a few the public-domain
+1911 Encyclopaedia Britannica article Wikidata links to. It is either a
 sentence a footnote covers, or one of the article's unfootnoted introduction that Britannica confirms, quoted in
 `sources`; Britannica is never card text. These were chosen for the Core civilizations and for figures with articles in
 40 or more Wikipedia languages that the rules left without a line. The state comes first among the person's civilizations, so their segment,
@@ -402,6 +403,7 @@ The code is released under the [MIT licence](LICENSE). The data keeps the licenc
 - Cliopatria: CC BY 4.0
 - Wikidata: CC0
 - Wikipedia: CC BY-SA
+- Encyclopaedia Britannica, 11th edition (1911), via Wikisource: public domain (a few legacy lines)
 - Pantheon: CC BY
 - Cross-verified database of notable people: CC BY-SA 4.0
 - Meta-Wiki: CC BY-SA
