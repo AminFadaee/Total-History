@@ -149,10 +149,10 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
     entities = wikidata.entities([qid for override in overrides for qid in override.value_ids])
 
     def name_of(qid: str) -> str:
-        """A civilization of the deck by its own name; anyone else by their English Wikipedia title, as figures are
-        named, else Wikidata's label."""
-        if qid in by_id:
-            return by_id[qid].name
+        return by_id[qid].name if qid in by_id else entities[qid].label
+
+    def person_name(qid: str) -> str:
+        """A person by their English Wikipedia title, as figures are named, else Wikidata's label."""
         entity = entities[qid]
         return display_name(entity.enwiki) if entity.enwiki else entity.label
 
@@ -171,7 +171,7 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
         elif override.field == "capital":
             _fill_capitals(polity, override, entities)
         elif override.field == "key_figures":
-            _fill_key_figures(polity, override, name_of)
+            _fill_key_figures(polity, override, person_name)
         elif override.field == "modern_countries":
             polity.modern_countries = list(override.value)
         elif override.field == "map_year":
