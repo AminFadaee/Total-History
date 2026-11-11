@@ -94,6 +94,8 @@ class Figure:
     image_kind: str = ""
     photo: str = ""
     photo_credit: str = ""
+    languages: int = 0
+    vital_level: int | None = None
     checks: dict = field(default_factory=dict)
 
     def to_json(self) -> dict:
@@ -204,6 +206,7 @@ class FigureBuilder:
         self.births: dict[str, Birth | None] = {}
         self.voted: dict[str, list[str]] = {}
         self.listed: set[str] = set()
+        self.vital_levels: dict[str, int] = {}
         self.office_first: set[str] = set()
         self.member_of: dict[str, set[str]] = {}
         self.important: set[str] = set()
@@ -555,7 +558,9 @@ class FigureBuilder:
         entries = vital.people(self.http, self.wikipedia)
         pages = self.wikipedia.resolve([entry.title for entry in entries])
         found = [(pages[entry.title].qid, entry) for entry in entries if entry.title in pages and pages[entry.title].qid]
-        self.listed = {qid for qid, entry in found if entry.level <= LISTED_LEVEL}
+        for qid, entry in found:
+            self.vital_levels[qid] = min(entry.level, self.vital_levels.get(qid, entry.level))
+        self.listed = {qid for qid, level in self.vital_levels.items() if level <= LISTED_LEVEL}
         return {qid: entry.section.split(" > ") for qid, entry in found}
 
     def _locally_important(self) -> set[str]:
@@ -875,6 +880,8 @@ class FigureBuilder:
                 image_kind=image_kind or "",
                 photo=photo.file if photo else "",
                 photo_credit=photo.credit if photo else "",
+                languages=self.languages.get(person.id, 0),
+                vital_level=self.vital_levels.get(person.id),
                 checks={"civilization_votes": votes, "lead": paragraph, "image": image_check,
                         "photo": photo.check if photo else photo_check,
                         "birth": asdict(birth) if (birth := self.births.get(person.id)) else None},
