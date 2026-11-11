@@ -815,7 +815,7 @@ class FigureBuilder:
 
     def _holding(self, name: str, location: tuple[float, float], year: int) -> range:
         rows = self.cliopatria.rows(name)
-        return holding(rows[rows.geometry.contains(Point(location))], year)
+        return holding(rows[rows.geometry.contains(Point(location))], year, bridged=False)
 
     def _modern_country(self, candidate: Candidate, home: str | None) -> str:
         """Today's country at the agreed birthplace, when the person's state held that spot at their birth or later on

@@ -18,14 +18,16 @@ HOLDING_GAP_YEARS = 5
 logger = logging.getLogger(__name__)
 
 
-def holding(steps: pd.DataFrame, year: int) -> range:
+def holding(steps: pd.DataFrame, year: int, bridged: bool = True) -> range:
     """The years the time steps hold without a break, around the year (empty when they do not hold it); five years or
-    less is an occupation. A hold of more than five years goes on when it resumes within five years, so a short loss
-    does not cut it (the United States in the Philippines, 1898–1946, though Japan held them in 1942–44), while two
-    short holds do not add up to a lasting one (the American occupations of Cuba, 1898–1902 and 1906–09)."""
+    less is an occupation. Bridged, a hold of more than five years goes on when it resumes within five years, so a
+    short loss does not cut it (the United States in the Philippines, 1898–1946, though Japan held them in 1942–44),
+    while two short holds do not add up to a lasting one (the American occupations of Cuba, 1898–1902 and 1906–09).
+    Unbridged, any break ends the hold: a state's last year on land it had lost is not the state of someone born
+    there (the Ottoman Empire in Cilicia in 1922, after the French occupation)."""
     runs: list[list[int]] = []
     for first, last in sorted(zip(steps.FromYear, steps.ToYear)):
-        gap = HOLDING_GAP_YEARS if runs and runs[-1][1] - runs[-1][0] + 1 > OCCUPATION_YEARS else 1
+        gap = HOLDING_GAP_YEARS if bridged and runs and runs[-1][1] - runs[-1][0] + 1 > OCCUPATION_YEARS else 1
         if runs and first <= runs[-1][1] + gap:
             runs[-1][1] = max(runs[-1][1], last)
         else:

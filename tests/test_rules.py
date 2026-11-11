@@ -522,6 +522,10 @@ def test_holding_bridges_a_short_loss_of_a_lasting_hold(held, year, years):
     assert holding(held, year) == years
 
 
+def test_an_unbridged_hold_ends_at_any_break():
+    assert holding(steps((1516, 1918), (1922, 1922)), 1922, bridged=False) == range(1922, 1923)
+
+
 @pytest.mark.parametrize("held, home, occupied", [
     (range(1941, 1946), range(1776, 2025), True),
     (range(1898, 1947), range(1776, 2025), False),
