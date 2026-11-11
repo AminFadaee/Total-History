@@ -14921,3 +14921,111 @@ sources = [
   { fact = "Dál Riata and Pictland merged to form the Kingdom of Alba", source = "https://en.wikipedia.org/wiki/D%C3%A1l_Riata", quote = "Under the House of Alpin, Dál Riata and Pictland merged to form the Kingdom of Alba or Scotland." },
 ]
 derivation = "the kingdom Dál Riata merged into"
+
+[[override]]
+civilization = "Chagatai Khanate"
+civilization_id = "Q487829"
+field = "legacy"
+action = "set"
+value = "Over time, its Mongol ruling groups underwent a gradual and uneven process of linguistic and cultural Turkification and Islamization, though Mongolian political and administrative traditions remained important."
+source = "https://en.wikipedia.org/wiki/Chagatai_Khanate"
+quote = "Over time, its Mongol ruling groups underwent a gradual and uneven process of linguistic and cultural Turkification and Islamization, though Mongolian political and administrative traditions remained important"
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Crown of Aragon"
+civilization_id = "Q204920"
+field = "legacy"
+action = "set"
+value = "During the Crown of Aragon, the Catalan culture and language underwent a vigorous expansion."
+source = "https://en.wikipedia.org/wiki/Crown_of_Aragon"
+quote = "During the Crown of Aragon, the Catalan culture and language underwent a vigorous expansion."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Francia"
+civilization_id = "Q146246"
+field = "legacy"
+action = "set"
+value = "In 800, it evolved into the Carolingian Empire, thus becoming the longest lasting Germanic kingdom from the era of Great Migrations."
+source = "https://en.wikipedia.org/wiki/Francia"
+quote = "In 800, it evolved into the Carolingian Empire, thus becoming the longest lasting Germanic kingdom from the era of Great Migrations"
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Khwarezmid Empire"
+civilization_id = "Q63134381"
+field = "legacy"
+action = "set"
+value = "The Khwarazmian Empire eventually became the most powerful state in and around Persia, defeating the Seljuk Empire and claiming territory from the western regions of the Ghurid Empire, and even threatening the Abbasid Caliphate."
+source = "https://en.wikipedia.org/wiki/Khwarazmian_Empire"
+quote = "The Khwarazmian Empire eventually became the most powerful state in and around Persia, defeating the Seljuk Empire and claiming territory from the western regions of the Ghurid Empire, and even threatening the Abbasid Caliphate"
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Kingdom of Hungary"
+civilization_id = "Q171150"
+field = "legacy"
+action = "set"
+value = "By the 12th century, the kingdom had become a European power."
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Hungary"
+quote = "By the 12th century, the kingdom had become a European power."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "New Kingdom of Egypt"
+civilization_id = "Q180568"
+field = "legacy"
+action = "set"
+value = "Possibly as a result of the foreign rule of the Hyksos during the Second Intermediate Period, the New Kingdom saw a historic expansion into the Levant, thus marking Egypt's greatest territorial extent."
+source = "https://en.wikipedia.org/wiki/New_Kingdom_of_Egypt"
+quote = "Possibly as a result of the foreign rule of the Hyksos during the Second Intermediate Period, the New Kingdom saw a historic expansion into the Levant, thus marking Egypt's greatest territorial extent"
+retrieved = 2026-11-11
+sources = [
+  { fact = "Britannica confirms the line", source = "https://www.britannica.com/topic/New-Kingdom-Egyptian-history", quote = "The New Kingdom of ancient Egypt, spanning from approximately 1539 to 1077 BCE, was a period of significant expansion and prosperity." },
+]
+derivation = "the value is the Wikipedia sentence quoted, from the article's unfootnoted introduction; Britannica confirms it"
+
+[[override]]
+civilization = "Principality of Hungary"
+civilization_id = "Q2899771"
+field = "legacy"
+action = "set"
+value = "The principality as a warrior state, with a new-found military might, conducted vigorous raids ranging widely from Constantinople to central Spain."
+source = "https://en.wikipedia.org/wiki/Principality_of_Hungary"
+quote = "The principality as a warrior state, with a new-found military might, conducted vigorous raids ranging widely from Constantinople to central Spain."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Principality of Rostov-Suzdal"
+civilization_id = "Q83546"
+field = "legacy"
+action = "set"
+value = "The original territory of the grand principality would later serve as the core of the centralized Russian state."
+source = "https://en.wikipedia.org/wiki/Vladimir-Suzdal"
+quote = "The original territory of the grand principality would later serve as the core of the centralized Russian state."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Principality of Wallachia"
+civilization_id = "Q171393"
+field = "legacy"
+action = "set"
+value = "Wallachia is a geographical region of modern-day Romania, as well as one of the two historical Romanian principalities that laid the foundation for the establishment of the modern Romanian state."
+source = "https://en.wikipedia.org/wiki/Wallachia"
+quote = "Wallachia is a geographical region of modern-day Romania, as well as one of the two historical Romanian principalities that laid the foundation for the establishment of the modern Romanian state"
+retrieved = 2026-11-11
+sources = [
+  { fact = "Britannica confirms the line", source = "https://www.britannica.com/place/Walachia", quote = "Walachia, principality on the lower Danube River, which in 1859 joined Moldavia to form the state of Romania." },
+]
+derivation = "the value is the Wikipedia sentence quoted, from the article's unfootnoted introduction; Britannica confirms it"
+
+[[override]]
+civilization = "Teutonic Order"
+civilization_id = "Q156020"
+field = "legacy"
+action = "set"
+value = "The Order established its rule during the Prussian Crusade from the 1230s, conquering territories inhabited by the Old Prussians and developing a network of castles and settlements."
+source = "https://en.wikipedia.org/wiki/State_of_the_Teutonic_Order"
+quote = "The Order established its rule during the Prussian Crusade from the 1230s, conquering territories inhabited by the Old Prussians and developing a network of castles and settlements"
+retrieved = 2026-11-11
