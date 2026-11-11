@@ -133,19 +133,19 @@ which finds fewer photographs.
 
 Notes are tagged so you can filter or suspend groups of them:
 
-- category: `PIH::Category::Civilizations` or `PIH::Category::Figures`
-- civilization: `PIH::Civilization::Sasanian_Empire`, on the civilization and on every figure linked to it
-- century: `PIH::Century::BC::06th`, `PIH::Century::AD::03rd`, every century of a civilization's period or a figure's life
-- country: `PIH::Country::Iran`, the main modern countries of a civilization and its home region, or today's country
+- category: `TH::Category::Civilizations` or `TH::Category::Figures`
+- civilization: `TH::Civilization::Sasanian_Empire`, on the civilization and on every figure linked to it
+- century: `TH::Century::BC::06th`, `TH::Century::AD::03rd`, every century of a civilization's period or a figure's life
+- country: `TH::Country::Iran`, the main modern countries of a civilization and its home region, or today's country
   where a figure was born when the sources agree on the birthplace, as their card names it
-- occupation: `PIH::Occupation::Philosopher`, for figures
-- tier: `PIH::Tier::Essential` for the civilizations on Wikipedia's 1,000 vital articles (Vital Articles level 3), about
-  20, which also carry `PIH::Tier::Core`; `PIH::Tier::Core` for those on its 10,000 (level 4), and for those on
+- occupation: `TH::Occupation::Philosopher`, for figures
+- tier: `TH::Tier::Essential` for the civilizations on Wikipedia's 1,000 vital articles (Vital Articles level 3), about
+  20, which also carry `TH::Tier::Core`; `TH::Tier::Core` for those on its 10,000 (level 4), and for those on
   its 50,000 (level 5) that were vast and lasting, their drawn area summed over their years reaching 150 million
   km²·years, a million km² for 150 years, without being colonies (the Rashidun Caliphate, the Ilkhanate), and for any
   other state that took part in, or was the country of, at least 15 wars, battles, revolutions or treaties known in 30
   or more Wikipedia languages (the Dutch Republic, the First French Empire), about 240 with the Essential ones;
-  `PIH::Tier::Extended` for the rest, which you may suspend. A state counts as listed when a listed dynasty is its own
+  `TH::Tier::Extended` for the rest, which you may suspend. A state counts as listed when a listed dynasty is its own
   (the Safavid dynasty for Safavid Iran), when it bears the name of a listed people or order (the Aztecs for the Aztec
   Empire, the Teutonic Order for its state), when it holds the name of a listed dynasty of its time (the House of Habsburg for
   the Habsburg Monarchy), when it stands for a listed people the catalogue leaves out as its own
@@ -159,7 +159,7 @@ Notes are tagged so you can filter or suspend groups of them:
   a period, stay Extended)
 
 To study one kind of question, make a filtered deck from a search such as `card:Capital`,
-`tag:PIH::Category::Figures` or `tag:PIH::Tier::Essential`. To skip a kind, find it in the browser and suspend the
+`tag:TH::Category::Figures` or `tag:TH::Tier::Essential`. To skip a kind, find it in the browser and suspend the
 cards rather than deleting them: deleted cards come back when you import an update.
 
 ## How the deck is chosen

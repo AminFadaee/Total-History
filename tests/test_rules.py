@@ -61,8 +61,8 @@ def test_lifetime(birth, death, span):
 
 
 @pytest.mark.parametrize("number, tag", [
-    (-6, "PIH::Century::BC::06th"), (1, "PIH::Century::AD::01st"), (3, "PIH::Century::AD::03rd"), (11, "PIH::Century::AD::11th"),
-    (12, "PIH::Century::AD::12th"), (13, "PIH::Century::AD::13th"), (21, "PIH::Century::AD::21st"),
+    (-6, "TH::Century::BC::06th"), (1, "TH::Century::AD::01st"), (3, "TH::Century::AD::03rd"), (11, "TH::Century::AD::11th"),
+    (12, "TH::Century::AD::12th"), (13, "TH::Century::AD::13th"), (21, "TH::Century::AD::21st"),
 ])
 def test_century_tag(number, tag):
     assert century_tag(number) == tag

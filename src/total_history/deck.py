@@ -16,7 +16,7 @@ from total_history.photos import PictureKind
 DECK_NAME = "Total History"
 CIVILIZATION_MODEL_ID = 1_812_604_221
 FIGURE_MODEL_ID = 1_812_604_222
-TAG_PREFIX = "PIH"
+TAG_PREFIX = "TH"
 MEDIA_PREFIX = "pih"
 TAG_UNSAFE = re.compile(r"[^\w-]+")
 MAX_MODERN_COUNTRIES = 10
@@ -344,7 +344,7 @@ def description() -> str:
     return f"""
 <p><b>{DECK_NAME}</b>: civilizations on the map and the people who shaped them.</p>
 <p>Everything is in one deck. To study one kind of question, make a filtered deck from a search such as
-<code>card:Capital</code>, <code>tag:PIH::Category::Figures</code> or <code>tag:PIH::Tier::Essential</code>. To skip
+<code>card:Capital</code>, <code>tag:TH::Category::Figures</code> or <code>tag:TH::Tier::Essential</code>. To skip
 a kind, search for it in the browser and <b>suspend</b> the cards rather than deleting them, because deleted cards
 come back when you import an update.</p>
 <p>Borders come from Cliopatria (Seshat Global History Databank, CC BY 4.0); facts from Wikidata (CC0) and Wikipedia
@@ -354,7 +354,7 @@ Vital Articles and Pantheon (CC BY); modern borders from Natural Earth (public d
 
 
 def century_tag(number: int) -> str:
-    """'PIH::Century::BC::06th', 'PIH::Century::AD::03rd': padded so the tag browser sorts them in order."""
+    """'TH::Century::BC::06th', 'TH::Century::AD::03rd': padded so the tag browser sorts them in order."""
     suffix = "th" if 10 <= abs(number) % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(abs(number) % 10, "th")
     return tag("Century", "BC" if number < 0 else "AD", f"{abs(number):02d}{suffix}")
 
