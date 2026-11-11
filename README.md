@@ -30,6 +30,15 @@ one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neig
 | Where | Where: Sasanian Empire | its map | it has a Map card |
 | Legacy | Han Dynasty, legacy: ? | what it is remembered for: "There were significant advances in science and technology during the Han period, including the invention of papermaking…" | a sentence of its article says it well enough (see below) |
 
+<p>
+  <img src="docs/samples/civilization-map.webp" width="49%" alt="Map card for the Parthian Empire">
+  <img src="docs/samples/civilization-after.webp" width="49%" alt="After card for the Abbasid Caliphate">
+  <img src="docs/samples/civilization-period.webp" width="49%" alt="Period card for the Achaemenid Empire">
+  <img src="docs/samples/civilization-capital.webp" width="49%" alt="Capital card for the Parthian Empire">
+  <img src="docs/samples/civilization-where.webp" width="49%" alt="Where card for the Sasanian Empire">
+  <img src="docs/samples/civilization-legacy.webp" width="49%" alt="Legacy card for the Han Dynasty">
+</p>
+
 The backs of the Map, Period and Where cards also show what the civilization was (the opening sentence of its Wikipedia article without its
 subject, cut at "was", "refers to", "comprised" and the like; or its short description when that sentence cannot be cut
 or begins with a circumstance, "Under Islamic rule …"; when the article describes a place as it is today though the map
@@ -92,6 +101,13 @@ and cut to today's coastline.
 | Photo | a portrait | the person | a photograph of them alone is found (they died in 1860 or later; see below), or their Who card picture is a portrait made in their lifetime |
 | Legacy | what they are remembered for, without their name: "He is most famously known as the builder of Angkor Wat…" | the person | a sentence of their article says it well enough (see below) |
 | Legacy reverse | Suryavarman II, legacy: ? | what they are remembered for | as for Legacy |
+
+<p>
+  <img src="docs/samples/figure-who.webp" width="49%" alt="Who card for Cyrus the Great">
+  <img src="docs/samples/figure-photo.webp" width="49%" alt="Photo card for Albert Einstein">
+  <img src="docs/samples/figure-legacy.webp" width="49%" alt="Legacy card for Suryavarman II">
+  <img src="docs/samples/figure-legacy-reverse.webp" width="49%" alt="Legacy reverse card for Suryavarman II">
+</p>
 
 Photographs and portraits made in the person's lifetime are asked about; the back of the card says which it is. The
 back of the Who card shows the person's picture labelled by kind: a photograph,
@@ -298,7 +314,7 @@ ollama pull qwen3.5:4b   # scores legacy lines; needed only for sentences not ye
 uv run page-in-history collect   # select civilizations and figures, render maps into data/
 uv run page-in-history check     # what was confirmed, what was left out and why
 uv run page-in-history deck      # build build/page_in_history.apkg
-uv run page-in-history samples   # render sample cards into docs/samples/
+uv run page-in-history samples   # render the sample cards shown above into docs/samples/, in night mode
 uv run pytest                    # check the data against its invariants and the cases outside reviews raised
 uv run page-in-history review    # review what a collect changed in the fact files and approve it
 ```
