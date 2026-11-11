@@ -26,6 +26,9 @@ MAX_COUNTRY_TAGS = 3
 ASKED_KINDS = (PictureKind.PHOTOGRAPH, PictureKind.FROM_LIFE)
 NAME_WORD = re.compile(r"[^\W\d_]+")
 SETTLEMENT_WORDS = {"city"}
+TIERS = ("Essential", "Core", "Extended")
+CORE_VITAL_LEVEL = 4
+ESSENTIAL_LANGUAGES = 150
 SOURCE_NAMES = {"wikipedia.org": "Wikipedia", "wikidata.org": "Wikidata",
                 "worldhistory.org": "World History Encyclopedia", "britannica.com": "Britannica",
                 "iranicaonline.org": "Encyclopaedia Iranica", "treccani.it": "Treccani", "larousse.fr": "Larousse",
@@ -382,9 +385,13 @@ def century_tag(number: int) -> str:
     return tag("Century", "BC" if number < 0 else "AD", f"{abs(number):02d}{suffix}")
 
 
+def tier_tags(tier: str) -> list[str]:
+    """The tier's tag; an Essential note is Core too."""
+    return [tag("Tier", name) for name in dict.fromkeys((tier, "Core") if tier == "Essential" else (tier,))]
+
+
 def civilization_tags(document: dict) -> list[str]:
-    tiers = [document["tier"]] + (["Core"] if document.get("tier") == "Essential" else []) if document.get("tier") else []
-    tags = [tag("Category", "Civilizations"), tag("Civilization", document["name"])] + [tag("Tier", tier) for tier in tiers]
+    tags = [tag("Category", "Civilizations"), tag("Civilization", document["name"])] + tier_tags(document["tier"])
     period = document["period"]
     if period["confirmed"]:
         tags += [century_tag(number) for number in centuries(period["start"]["earliest"], period["end"]["latest"])]
@@ -416,6 +423,7 @@ def succession_fields(document: dict) -> dict[str, str]:
 
 def figure_tags(document: dict, civilizations: list[str]) -> list[str]:
     tags = [tag("Category", "Figures")] + [tag("Civilization", name) for name in civilizations]
+    tags += tier_tags(figure_tier(document))
     tags += [century_tag(number) for number in centuries(*document["lifetime"])]
     tags += [tag("Country", document["modern_country"])] if document.get("modern_country") else []
     tags += [tag("Occupation", document["occupation"])] if document["occupation"] else []
@@ -485,16 +493,28 @@ def told_apart(figures: list[dict]) -> set[str]:
     return {document["id"] for document in figures if any(described(document)[1:]) and shared[described(document)] == 1}
 
 
+def figure_tier(document: dict) -> str:
+    """Core for a person on Wikipedia's 10,000 vital articles (Vital Articles level 4), Essential for those of them
+    with an article in at least 150 languages (Aristotle, Napoleon, Marie Curie), Extended for everyone else."""
+    if document.get("vital_level") is None or document["vital_level"] > CORE_VITAL_LEVEL:
+        return "Extended"
+    return "Essential" if document.get("languages", 0) >= ESSENTIAL_LANGUAGES else "Core"
+
+
 def study_order(civilizations: list[dict], figures: list[dict]) -> dict[str, int]:
-    """The position of each note among the new cards: civilizations by when they began, each followed by the people
-    filed first under it, by birth; someone under no civilization of the deck comes where their own life began."""
+    """The position of each note among the new cards: the Essential tier first, then Core, then Extended, and within
+    a tier civilizations by when they began, each followed by the tier's people filed first under it, by birth;
+    someone whose civilization is in another tier, or not in the deck, comes where their own life began."""
     starts = {document["name"]: start_year(document) for document in civilizations}
-    places = {document["id"]: (starts[document["name"]], document["name"], 0, 0, "") for document in civilizations}
+    tiers = {document["name"]: TIERS.index(document["tier"]) for document in civilizations}
+    places = {document["id"]: (tiers[document["name"]], starts[document["name"]], document["name"], 0, 0, "")
+              for document in civilizations}
     for document in figures:
+        tier, born = TIERS.index(figure_tier(document)), document["lifetime"][0]
         home = next((name for name in document["civilizations"] if name in starts), None)
-        born = document["lifetime"][0]
-        places[document["id"]] = (starts[home], home, 1, born, document["name"]) if home \
-            else (born, document["name"], 1, born, "")
+        home = home if home and tiers[home] == tier else None
+        places[document["id"]] = (tier, starts[home], home, 1, born, document["name"]) if home \
+            else (tier, born, document["name"], 1, born, "")
     return {identity: position for position, identity in enumerate(sorted(places, key=places.get), start=1)}
 
 

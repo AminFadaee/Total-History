@@ -164,13 +164,17 @@ Notes are tagged so you can filter or suspend groups of them:
   Viking Age), are Extended. A state whose neighbouring phase of the same name is Core or Essential is Core too (the
   Caliphate of Córdoba beside the Emirate of Córdoba). Tiers judge the civilization as its cards show it, after the
   overrides, and an override can set a tier by hand with its reason (the Saxons, a people the sources give a duke and
-  a period, stay Extended)
+  a period, stay Extended). A figure is `TH::Tier::Core` when on Wikipedia's 10,000 vital articles (Vital Articles
+  level 4), about 890 people; those of them with an article in at least 150 Wikipedia languages are `TH::Tier::Essential`
+  too (Aristotle, Napoleon, Marie Curie), about 150; everyone else is `TH::Tier::Extended`
 
 The back of every card ends with a row of small links that open in your browser: the Wikipedia article, a Google Images
 search and a YouTube search for the civilization or person.
 
-New cards come in the order of history: civilizations by when they began, each followed by the people filed first under
-it, by birth; someone whose state has no civilization card comes where their own life began.
+New cards come a tier at a time, Essential first, then Core, then Extended, and within a tier in the order of history:
+civilizations by when they began, each followed by the tier's people filed first under it, by birth; someone whose
+civilization is in another tier, or has no card, comes where their own life began. The Essential tier is about 540
+cards, a month at twenty new cards a day.
 
 To study one kind of question, make a filtered deck from a search such as `card:Capital`,
 `tag:TH::Category::Figures` or `tag:TH::Tier::Essential`. To skip a kind, find it in the browser and suspend the

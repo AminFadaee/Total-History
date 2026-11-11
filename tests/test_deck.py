@@ -7,21 +7,22 @@ import zipfile
 
 import pytest
 
-from total_history.deck import (CIVILIZATION_TEMPLATES, FIGURE_TEMPLATES, LINKS, capital_asked, known_for, named_after,
-                                study_order, told_apart)
+from total_history.deck import (CIVILIZATION_TEMPLATES, FIGURE_TEMPLATES, LINKS, capital_asked, figure_tier, known_for,
+                                named_after, study_order, told_apart)
 
 DECK = pathlib.Path(__file__).resolve().parents[1] / "build" / "total_history.apkg"
 MEDIA_REFERENCE = re.compile(r'src="([^"]+)"')
 FIELD_SEPARATOR = "\x1f"
 
 
-def civilization(name: str, start: int, identity: str | None = None) -> dict:
-    return {"id": identity or name, "name": name, "period": {"start": {"earliest": start}}, "map_year": start}
+def civilization(name: str, start: int, tier: str = "Core") -> dict:
+    return {"id": name, "name": name, "period": {"start": {"earliest": start}}, "map_year": start, "tier": tier}
 
 
-def figure(name: str, born: int, civilizations: list[str], role: str = "King", contribution: str = "", legacy: str = "") -> dict:
+def figure(name: str, born: int, civilizations: list[str], role: str = "King", contribution: str = "", legacy: str = "",
+           vital_level: int | None = 4, languages: int = 60) -> dict:
     return {"id": name, "name": name, "lifetime": [born, born + 60], "civilizations": civilizations, "role": role,
-            "contribution": contribution, "legacy": legacy}
+            "contribution": contribution, "legacy": legacy, "vital_level": vital_level, "languages": languages}
 
 
 @pytest.mark.parametrize("name, capital", [("Republic of Genoa", "Genoa"), ("Caliphate of Córdoba", "Córdoba"),
@@ -63,6 +64,21 @@ def test_new_cards_follow_each_civilization_with_its_people():
               figure("Stranger", -100, ["Elsewhere"])]
     order = study_order([rome, han], people)
     assert sorted(order, key=order.get) == ["Han", "Wu", "Stranger", "Rome", "Augustus", "Trajan"]
+
+
+def test_new_cards_come_a_tier_at_a_time():
+    rome, han = civilization("Rome", -27, "Essential"), civilization("Han", -202)
+    people = [figure("Augustus", -63, ["Rome"], languages=200), figure("Trajan", 53, ["Rome"]),
+              figure("Wu", -156, ["Han"], languages=150), figure("Nerva", 30, ["Rome"], vital_level=5, languages=200)]
+    order = study_order([rome, han], people)
+    assert sorted(order, key=order.get) == ["Wu", "Rome", "Augustus", "Han", "Trajan", "Nerva"]
+    assert order["Trajan"] > order["Han"] and order["Nerva"] == len(order)
+
+
+@pytest.mark.parametrize("vital_level, languages, tier", [(4, 150, "Essential"), (4, 149, "Core"), (5, 250, "Extended"),
+                                                           (None, 115, "Extended")])
+def test_a_figures_tier_follows_the_vital_articles_and_its_languages(vital_level, languages, tier):
+    assert figure_tier(figure("A", 1, [], vital_level=vital_level, languages=languages)) == tier
 
 
 @pytest.mark.parametrize("template", CIVILIZATION_TEMPLATES + FIGURE_TEMPLATES, ids=lambda template: template.name)
