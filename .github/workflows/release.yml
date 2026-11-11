@@ -26,6 +26,9 @@ jobs:
       - name: Build the deck
         run: uv run total-history deck
 
+      - name: Check the built deck
+        run: uv run pytest tests/test_deck.py
+
       - name: Publish release
         run: |
           notes="docs/releases/${GITHUB_REF_NAME}.md"
