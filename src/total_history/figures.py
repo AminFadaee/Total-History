@@ -16,6 +16,7 @@ from total_history.photos import PictureKind, PortraitFinder
 from total_history.sentences import balanced, contribution, first_paragraph
 from total_history.polities import ASSUMED_LIFESPAN, HUMAN, LIVING_ON_MAP_BEFORE, PolityCatalog, RulingRole, dates, stems
 from total_history.sources import naturalearth, notable, vital
+from total_history.sources.cliopatria import OCCUPATION_YEARS, holding
 from total_history.sources.pantheon import Person
 from total_history.sources.wikidata import Entity, Year, qualifier_year
 from total_history.sources.wikipedia import country_infobox, display_name, lead_links
@@ -64,7 +65,6 @@ GENERIC_TITLES = {"Q28640", "Q136649946", "Q1326966", "Q3320743", "Q56019"}  # p
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
 SAME_LAND_BEFORE_BIRTH = 100
 SAME_LAND_STEP = 5
-OCCUPATION_YEARS = 5
 LEADING_CENTURY = re.compile(r"^(?:c\.\s*)?\d+(?:st|nd|rd|th)[- ]century(?:[- ](?:BCE?|AD|CE))?[- ]+", re.IGNORECASE)
 DATES_IN_PARENTHESES = re.compile(r"\s*\([^()]*\d[^()]*\)")
 TRAILING_YEAR = re.compile(r",\s*(?:c\.\s*)?\d{1,4}\s*(?:BCE?|AD|CE)?\s*$")
@@ -806,19 +806,11 @@ class FigureBuilder:
         rows = self.drawn[year]
         names = list(rows.Name[rows.geometry.contains(Point(location))])
         return [self.catalog.identities[name].qid for name in names
-                if not lasting or self._held_for(name, location, year) > OCCUPATION_YEARS]
+                if not lasting or len(self._holding(name, location, year)) > OCCUPATION_YEARS]
 
-    def _held_for(self, name: str, location: tuple[float, float], year: int) -> int:
-        """How many years running the state held the point, through the given year."""
+    def _holding(self, name: str, location: tuple[float, float], year: int) -> range:
         rows = self.cliopatria.rows(name)
-        inside = rows[rows.geometry.contains(Point(location))]
-        runs: list[list[int]] = []
-        for first, last in sorted(zip(inside.FromYear, inside.ToYear)):
-            if runs and first <= runs[-1][1] + 1:
-                runs[-1][1] = max(runs[-1][1], last)
-            else:
-                runs.append([first, last])
-        return next((last - first + 1 for first, last in runs if first <= year <= last), 0)
+        return holding(rows[rows.geometry.contains(Point(location))], year)
 
     def _modern_country(self, candidate: Candidate, home: str | None) -> str:
         """Today's country at the agreed birthplace, when the person's state held that spot at their birth or later on

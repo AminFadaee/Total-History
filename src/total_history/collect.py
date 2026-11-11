@@ -152,7 +152,7 @@ class Collector:
         dropped += passed_legacy(errata, passed)
         legacy_scores.save()
         self.failures: list[str] = []
-        self._draw([polity for polity in polities if polity.borders], cliopatria, countries, builder)
+        self._draw([polity for polity in polities if polity.borders], countries, builder)
         for figure in figures:
             try:
                 figure.image = self._image(figure.image, figure.slug)
@@ -166,16 +166,17 @@ class Collector:
         self._report(scope, catalog, cliopatria, lineages, polities, figures, dropped, applied,
                      figure_overrides, figure_builder.unused_overrides(figures))
 
-    def _draw(self, polities: list[Polity], cliopatria: Cliopatria, countries, builder: PolityBuilder) -> None:
+    def _draw(self, polities: list[Polity], countries, builder: PolityBuilder) -> None:
         """Each civilization's map, and for one whose capitals are placed its Capital card's maps: the capitals
         dotted, then named."""
-        jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
+        shapes = {polity.id: builder.map_shapes(polity) for polity in polities}
+        jobs = [MapJob(polity.name, polity.map_year, shapes[polity.id],
                        [capital["location"] for capital in polity.capitals if capital["location"]
                         and (capital.get("founded") is None or capital["founded"] <= polity.map_year)],
                        self.output.maps / f"{polity.slug}.png", polity.parts, builder.colonial_power(polity.id))
                 for polity in polities]
         located = [polity for polity in polities if any(capital["location"] for capital in polity.capitals)]
-        capital_jobs = [MapJob(polity.name, polity.map_year, cliopatria.at(polity.map_year),
+        capital_jobs = [MapJob(polity.name, polity.map_year, shapes[polity.id],
                                [tuple(capital["location"]) for capital in polity.capitals if capital["location"]],
                                self.output.maps / f"{polity.slug}-{style.value}.png", polity.parts,
                                builder.colonial_power(polity.id), style,

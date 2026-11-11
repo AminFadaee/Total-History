@@ -6,11 +6,10 @@ import numpy as np
 import shapely
 from shapely.geometry import Point
 
-from total_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES
+from total_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, HOLDING_GAP_YEARS
 
 WINDOW_YEARS = 30
 MIN_HOLD_YEARS = 6
-HOLDING_GAP_YEARS = 5
 HEARTLAND_GRID = 60
 PARTITION_SHARE = 0.15
 PARTITION_HOLDERS = 3

@@ -14,11 +14,11 @@ from total_history.badged import BadgedInfoboxes
 from total_history.dates import Span
 from total_history.naming import slugify
 from total_history.sources import vital
-from total_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
+from total_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria, holding, occupation
 from total_history.sources.wikidata import Entity, Wikidata, entity_id, qualifier_year
 from total_history.sources.wikipedia import (Infobox, Page, Wikipedia, country_infobox, display_name,
                                                   lead_capital_links, person_titles, place_name, ruler_succession)
-from total_history.regions import home, regions
+from total_history.regions import Region, home, regions
 from total_history.sentences import contribution, first_paragraph, opening
 from total_history.power import CONSORT, OTHER_STATE, PRIVATE, RULER, SERVANT, PowerScores
 from total_history.consensus import agreed
@@ -1726,13 +1726,13 @@ class PolityBuilder:
         capitals = self._capitals(entity, infobox, rows, period)
         parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
                  if qid in self.catalog.by_qid and qid != identity.qid]
-        map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
-        if drawn and (pieces := self._pieces(identity, map_year, parts)):
-            parts += pieces
-            extent = self._territory([identity.name, *parts], map_year).geometry.union_all()
+        map_year = self._peak(identity.name, parts, rows, period, capitals) if drawn else first
+        if drawn:
+            parts += self._pieces(identity, map_year, parts)
         home = self._home(entity, period, capitals)
         anchor = self.succession.home(identity.qid, **home)
-        modern = self._modern_countries(extent, capitals, entity.coordinates()) if drawn \
+        modern = self._modern_countries(self._extent(identity.name, parts, map_year, capitals, entity.coordinates()),
+                                        capitals, entity.coordinates()) if drawn \
             else (self._country_at([capital["location"] for capital in capitals if capital["location"]]
                                    or [entity.coordinates()]), [])
         polity = Polity(
@@ -1789,20 +1789,63 @@ class PolityBuilder:
             if not polity.borders:
                 continue
             identity = self.catalog.identities[polity.name]
+            location = self.catalog.entities[identity.qid].coordinates()
             start, end = polity.period.start, polity.period.end
             if polity.id in periods and polity.id not in years and start and end \
                     and not start.earliest <= polity.map_year <= end.latest:
-                polity.map_year, _ = self._peak(identity.name, polity.parts, self.cliopatria.rows(identity.name),
-                                                polity.period, polity.capitals)
+                polity.map_year = self._peak(identity.name, polity.parts, self.cliopatria.rows(identity.name),
+                                             polity.period, polity.capitals)
             elif polity.id not in years:
                 continue
             listed = [self.catalog.by_qid[qid].name for qid in self.catalog.entities[identity.qid].ids("P527", preferred_only=False)
                       if qid in self.catalog.by_qid and qid != identity.qid]
             polity.parts = listed + self._pieces(identity, polity.map_year, listed)
-            extent = self._territory([identity.name, *polity.parts], polity.map_year).geometry.union_all()
+            extent = self._extent(identity.name, polity.parts, polity.map_year, polity.capitals, location)
             if polity.id not in countries and not extent.is_empty:
                 polity.modern_countries, polity.overseas_countries = self._modern_countries(
-                    extent, polity.capitals, self.catalog.entities[identity.qid].coordinates())
+                    extent, polity.capitals, location)
+
+    def map_shapes(self, polity: Polity) -> gpd.GeoDataFrame:
+        """The polities its map draws in its year, without its occupations."""
+        return self._shapes(polity.name, polity.parts, polity.map_year, polity.capitals,
+                            self.catalog.entities[polity.id].coordinates())
+
+    def _extent(self, name: str, parts: list[str], year: int, capitals: list[dict], location):
+        shapes = self._shapes(name, parts, year, capitals, location)
+        return shapes[shapes.Name.isin([name, *parts])].geometry.union_all()
+
+    def _shapes(self, name: str, parts: list[str], year: int, capitals: list[dict], location) -> gpd.GeoDataFrame:
+        """The polities of the year, with the civilization's occupations cut out of its shapes."""
+        shown = self.cliopatria.at(year)
+        occupied = self._occupations([name, *parts], year, capitals, location)
+        if not occupied:
+            return shown
+        own = shown.Name.isin([name, *parts])
+        cut = shapely.union_all([region.geometry for region in occupied])
+        shown = shown.copy()
+        shown.loc[own, "geometry"] = shown.geometry[own].difference(cut)
+        return shown[~shown.geometry.is_empty]
+
+    def _occupations(self, names: list[str], year: int, capitals: list[dict], location) -> list[Region]:
+        """The regions away from its home region (more than 800 km of sea or land away, as the map groups it) that the
+        civilization held for five years or less running, taken after it held its home and given up while it still
+        held it: the Empire of Japan's Guam in 1943, the United States' Greenland and Iceland in 1945, but not its
+        Philippines, held since 1898 though Japan took them in 1942–44. A region held until the civilization ended is
+        its own (the colonies of the French Second Republic), and land in the home region is never an occupation, so a
+        short peak at home stays (Nazi Germany in 1943)."""
+        territory = self._territory(names, year).geometry.union_all()
+        if territory.is_empty:
+            return []
+        found = regions(territory)
+        main = self._home_land(found, capitals, location)
+        if main is None:
+            return []
+        rows = self.cliopatria.frame[self.cliopatria.frame.Name.isin(names)]
+
+        def held(region: Region) -> range:
+            return holding(rows[rows.geometry.intersects(region.geometry)], year)
+
+        return [region for region in found if region is not main and occupation(held(region), held(main))]
 
     def colonial_power(self, qid: str) -> bool:
         return bool(set(self.catalog.entities[qid].ids("P31", preferred_only=False)) & COLONIAL_POWERS)
@@ -1818,7 +1861,7 @@ class PolityBuilder:
         of its capitals, so that a year of foreign occupation is not shown, nor one when its homeland is drawn as
         another state (Macedon under Polyperchon in 318 BC). A last step that begins when the period ends and is a fifth
         or more larger than the one before it is the successor's shape, not the state's (the German Confederation
-        at the Prussian annexations of 1866, Sardinia as Italy in 1861), and is passed over; with that year's territory."""
+        at the Prussian annexations of 1866, Sardinia as Italy in 1861), and is passed over."""
         first = None
         if period.confirmed:
             within = rows[(rows.ToYear >= period.start.earliest) & (rows.FromYear <= period.end.latest)]
@@ -1832,12 +1875,11 @@ class PolityBuilder:
             territory = self._territory([name, *parts], year)
             shape = territory.geometry.union_all()
             held = sum(shape.buffer(CAPITAL_TOLERANCE_DEGREES).contains(point) for point in points)
-            snapshots.append((held, float(territory.Area.sum()), year, shape))
+            snapshots.append((held, float(territory.Area.sum()), year))
         if len(snapshots) > 1 and period.confirmed and snapshots[-1][2] >= period.end.earliest \
                 and snapshots[-1][1] > TRANSITION_GROWTH * snapshots[-2][1]:
             snapshots.pop()
-        _, _, year, shape = max(snapshots, key=lambda snapshot: snapshot[:3])
-        return year, shape
+        return max(snapshots)[2]
 
     def _period(self, entity: Entity, infobox: Infobox, clio_start: int | None, clio_end: int | None) -> Period:
         """Each end needs two sources to agree. Wikidata's inception or start time and dissolution or end time all
@@ -2603,15 +2645,23 @@ class PolityBuilder:
                 found[country.listed_as] = found.get(country.listed_as, 0) + overlap
                 units.setdefault(country.listed_as, {})[country.name] = overlap
         ranked = sorted(found, key=found.get, reverse=True)
-        points = [capital["location"] for capital in capitals if capital["location"]] or ([location] if location else [])
-        found = regions(geometry)
-        if points and not any(region.geometry.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(point))
-                              for region in found for point in points):
+        main = self._home_land(regions(geometry), capitals, location)
+        if main is None:
             return ranked, []
-        home_region = equal_area_shape(home(found, points).geometry, self.cliopatria.frame.crs)
+        home_region = equal_area_shape(main.geometry, self.cliopatria.frame.crs)
         nearby = self.countries[self.countries.listed & self.countries.intersects(home_region)]
         at_home = [country for country in nearby.itertuples() if country.geometry.intersection(home_region).area > 0]
         sovereigns, names = {country.listed_as for country in at_home}, {country.name for country in at_home}
         overseas = [unit for name in ranked if name not in sovereigns
                     for unit in sorted(units[name], key=units[name].get, reverse=True) if unit not in names]
         return [name for name in ranked if name in sovereigns], list(dict.fromkeys(overseas))
+
+    @staticmethod
+    def _home_land(found: list[Region], capitals: list[dict], location) -> Region | None:
+        """The region around its capitals, or its Wikidata location when it has none; none for an empire drawn without
+        its homeland, whose capitals lie outside every region (the French colonial empire)."""
+        points = [capital["location"] for capital in capitals if capital["location"]] or ([location] if location else [])
+        if points and not any(region.geometry.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(point))
+                              for region in found for point in points):
+            return None
+        return home(found, points)

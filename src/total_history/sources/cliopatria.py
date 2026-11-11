@@ -3,6 +3,7 @@ import zipfile
 from dataclasses import dataclass
 
 import geopandas as gpd
+import pandas as pd
 from shapely.validation import make_valid
 
 from total_history.http import Http
@@ -11,8 +12,32 @@ URL = "https://github.com/Seshat-Global-History-Databank/cliopatria/raw/main/cli
 EQUAL_AREA = "EPSG:6933"
 CAPITAL_TOLERANCE_DEGREES = 0.1  # how far outside a drawn border a capital can lie, as on a coast or lagoon
 SPIKE_RATIO = 2.5
+OCCUPATION_YEARS = 5
+HOLDING_GAP_YEARS = 5
 
 logger = logging.getLogger(__name__)
+
+
+def holding(steps: pd.DataFrame, year: int) -> range:
+    """The years the time steps hold without a break, around the year (empty when they do not hold it); five years or
+    less is an occupation. A hold of more than five years goes on when it resumes within five years, so a short loss
+    does not cut it (the United States in the Philippines, 1898–1946, though Japan held them in 1942–44), while two
+    short holds do not add up to a lasting one (the American occupations of Cuba, 1898–1902 and 1906–09)."""
+    runs: list[list[int]] = []
+    for first, last in sorted(zip(steps.FromYear, steps.ToYear)):
+        gap = HOLDING_GAP_YEARS if runs and runs[-1][1] - runs[-1][0] + 1 > OCCUPATION_YEARS else 1
+        if runs and first <= runs[-1][1] + gap:
+            runs[-1][1] = max(runs[-1][1], last)
+        else:
+            runs.append([first, last])
+    return next((range(int(first), int(last) + 1) for first, last in runs if first <= year <= last), range(0))
+
+
+def occupation(held: range, home: range) -> bool:
+    """Whether land held for these years, away from a state's home held for those, was an occupation: held for five
+    years or less, taken after the state held its home and given up while it still held it (Greenland, held by the
+    United States in 1941–45). Land held until the state lost its home is its own, however briefly it stood."""
+    return len(held) <= OCCUPATION_YEARS and home.start < held.start and held.stop < home.stop
 
 
 @dataclass(frozen=True)

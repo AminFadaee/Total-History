@@ -1,7 +1,10 @@
 """The pure rules the pipeline applies to source text, each on the cases that once went wrong or easily could."""
 import pathlib
 
+import geopandas as gpd
+import pandas as pd
 import pytest
+from shapely.geometry import MultiPolygon, box
 
 from total_history.births import Birth, agreed_birth
 from total_history.dates import Span, centuries, parse, parse_range, period_label
@@ -10,8 +13,9 @@ from total_history.errata import Erratum, legacy_rejections, passed_legacy
 from total_history.figures import lifetime
 from total_history.legacy import CIVILIZATION, FIGURE, LegacyScores, good_lines, hide, legacy_sections, name_forms, repeats
 from total_history.photos import visible
-from total_history.polities import DATED, RulingRole, row_years, same_name
+from total_history.polities import DATED, PolityBuilder, RulingRole, row_years, same_name
 from total_history.sentences import contribution, first_paragraph, sentences
+from total_history.sources.cliopatria import Cliopatria, holding, occupation
 from total_history.sources.wikidata import YEAR_PRECISION, Entity, Year
 from total_history.sources.wikipedia import cited
 
@@ -502,3 +506,43 @@ def test_a_figure_legacy_line_is_about_the_person_not_a_group():
     scores = FixedScores({group: 10})
     assert not list(good_lines(scores, FIGURE, "Esteban de Dorantes", "explorer", group))
     assert list(good_lines(scores, CIVILIZATION, "Lydia", "civilization", group))
+
+
+def steps(*spans: tuple[int, int]) -> pd.DataFrame:
+    return pd.DataFrame(spans, columns=["FromYear", "ToYear"])
+
+
+@pytest.mark.parametrize("held, year, years", [
+    (steps((1898, 1941), (1945, 1946)), 1945, range(1898, 1947)),
+    (steps((1898, 1902), (1906, 1909)), 1907, range(1906, 1910)),
+    (steps((1941, 1941), (1942, 1945)), 1943, range(1941, 1946)),
+    (steps((1941, 1945)), 1950, range(0)),
+])
+def test_holding_bridges_a_short_loss_of_a_lasting_hold(held, year, years):
+    assert holding(held, year) == years
+
+
+@pytest.mark.parametrize("held, home, occupied", [
+    (range(1941, 1946), range(1776, 2025), True),
+    (range(1898, 1947), range(1776, 2025), False),
+    (range(1848, 1853), range(1848, 1853), False),
+    (range(1942, 1944), range(1940, 1944), False),
+])
+def test_occupation_is_a_short_hold_away_from_a_home_still_held(held, home, occupied):
+    assert occupation(held, home) == occupied
+
+
+def test_an_overseas_occupation_is_cut_from_the_map():
+    home, greenland, philippines = box(-100, 35, -98, 37), box(-40, 70, -38, 72), box(122, 10, 124, 12)
+    frame = gpd.GeoDataFrame({
+        "Name": ["United States"] * 4 + ["Denmark"],
+        "FromYear": [1898, 1941, 1945, 1946, 1941], "ToYear": [1940, 1944, 1945, 2024, 1945],
+        "geometry": [MultiPolygon([home, philippines]), MultiPolygon([home, greenland]),
+                     MultiPolygon([home, greenland, philippines]), MultiPolygon([home, philippines]),
+                     box(10, 55, 12, 57)],
+    }, crs="EPSG:4326")
+    builder = object.__new__(PolityBuilder)
+    builder.cliopatria = Cliopatria(frame, spikes=[])
+    shapes = builder._shapes("United States", [], 1945, [{"location": [-99.0, 36.0]}], None)
+    assert shapes[shapes.Name == "United States"].geometry.union_all().equals(MultiPolygon([home, philippines]))
+    assert set(shapes.Name) == {"United States", "Denmark"}
