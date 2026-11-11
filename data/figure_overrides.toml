@@ -1223,3 +1223,31 @@ value = "King of West-Mauretania, ally of Caesar, ally of Mark Antony"
 source = "https://en.wikipedia.org/wiki/Bogud"
 quote = "Bogud supported Mark Antony, while Bocchus stood by Octavian"
 retrieved = 2026-11-11
+
+[[figure]]
+figure = "Qutuz"
+figure_id = "Q336471"
+field = "contribution"
+value = "Mamluk sultan of Egypt from 1259, who led the army that defeated the Mongols at the Battle of Ain Jalut in 1260."
+source = "https://en.wikipedia.org/wiki/Qutuz"
+quote = "On 12 November 1259, Al-Mansur Ali was deposed by Qutuz."
+retrieved = 2026-11-11
+sources = [
+  { fact = "The battle was fought in 1260 between the Mamluk army and the Mongols", source = "https://en.wikipedia.org/wiki/Qutuz", quote = "The Battle of Ain Jalut was fought on 3 September 1260 in southeastern Galilee between the Egyptian Mamluk army and the Mongols." },
+  { fact = "He led the Egyptian army there", source = "https://en.wikipedia.org/wiki/Qutuz", quote = "where the Egyptian army led by Qutuz waited." },
+  { fact = "The Mongols were defeated", source = "https://en.wikipedia.org/wiki/Qutuz", quote = "Hulagu died in 1265 and would never avenge the defeat of the Mongols at Ain Jalut." },
+]
+derivation = "replaces Wikipedia's lead line, whose 'de facto ruler for two decades' contradicts its own cited body (vice-sultan from 1253); each fact is a footnoted sentence of the article"
+
+[[figure]]
+figure = "Abdullahi Issa"
+figure_id = "Q317806"
+field = "contribution"
+value = "The first prime minister of the Italian trust territory of Somalia, from 1956 to 1960."
+source = "https://countrystudies.us/somalia/14.htm"
+quote = "Abdullaahi Iise, leader of the SYL in the assembly, became the first prime minister of a government composed of five ministerial posts, all held by Somalis."
+retrieved = 2026-11-11
+sources = [
+  { fact = "His government lasted from 1956 to 1960", source = "https://countrystudies.us/somalia/14.htm", quote = "The term of office of the Iise government was four years (1956-60)" },
+]
+derivation = "replaces Wikipedia's lead line, which dates his premiership from 1949, before the trust territory existed; the Library of Congress country study (public domain) gives 1956-60"
