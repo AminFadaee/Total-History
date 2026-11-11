@@ -83,6 +83,16 @@ retrieved = 2026-10-20
 [[override]]
 civilization = "Testland"
 civilization_id = "Q1"
+field = "legacy"
+action = "set"
+value = "Testland invented the test."
+source = "https://example.org/legacy"
+quote = "Testland invented the test."
+retrieved = 2026-11-11
+
+[[override]]
+civilization = "Testland"
+civilization_id = "Q1"
 field = "map"
 action = "none"
 note = "not drawn in Cliopatria"

@@ -268,7 +268,7 @@ def legacy_lines(wikipedia, titles: list[str], pick: Callable[[int, str, str, bo
 
 
 def add_legacy(figures: list, wikipedia, scores: LegacyScores, rejected: set[tuple[str, str]]) -> set[tuple[str, str]]:
-    """Each figure's legacy line, with the person hidden, passing over the (figure, line) pairs a review rejected for
+    """Each figure's legacy line, with the person hidden, unless an override set it, passing over the (figure, line) pairs a review rejected for
     the next best line; returns the rejected pairs it passed over."""
     passed = set()
 
@@ -283,14 +283,14 @@ def add_legacy(figures: list, wikipedia, scores: LegacyScores, rejected: set[tup
         return ""
 
     for figure, line in zip(figures, legacy_lines(wikipedia, [figure.wikipedia for figure in figures], pick)):
-        figure.legacy = line
+        figure.legacy = figure.legacy or line
     logger.info("Found a legacy line for %d of %d figures", sum(bool(figure.legacy) for figure in figures), len(figures))
     return passed
 
 
 def add_civilization_legacy(polities: list, wikipedia, scores: LegacyScores,
                             rejected: set[tuple[str, str]]) -> set[tuple[str, str]]:
-    """Each civilization's legacy line, read from the article its title leads to (the Caliphate of Córdoba's is now
+    """Each civilization's legacy line, unless an override set it, read from the article its title leads to (the Caliphate of Córdoba's is now
     the Umayyad state of Córdoba's), passing over the (civilization, line) pairs a review rejected for the next best
     line; returns the rejected pairs it passed over."""
     passed = set()
@@ -306,7 +306,7 @@ def add_civilization_legacy(polities: list, wikipedia, scores: LegacyScores,
         return ""
 
     for polity, line in zip(polities, legacy_lines(wikipedia, titles, pick)):
-        polity.legacy = line
+        polity.legacy = polity.legacy or line
     logger.info("Found a legacy line for %d of %d civilizations", sum(bool(polity.legacy) for polity in polities),
                 len(polities))
     return passed

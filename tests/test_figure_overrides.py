@@ -57,3 +57,13 @@ def test_one_override_per_figure_and_field(tmp_path):
     path.write_text(ENTRY + "\n" + ENTRY)
     with pytest.raises(ValueError):
         load_figure_overrides(path)
+
+
+def test_a_further_source_says_what_it_supports_and_how(tmp_path):
+    path = tmp_path / "figure_overrides.toml"
+    further = 'sources = [\n  { fact = "Britannica confirms it", source = "https://example.org/b", quote = "a writer" },\n]\n'
+    path.write_text(ENTRY + further)
+    with pytest.raises(ValueError):
+        load_figure_overrides(path)
+    path.write_text(ENTRY + further + 'derivation = "the value is the first quote; the second confirms it"\n')
+    assert load_figure_overrides(path)[0].sources[0]["quote"] == "a writer"

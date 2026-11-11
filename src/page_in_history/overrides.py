@@ -11,7 +11,7 @@ from page_in_history.sources.wikidata import Wikidata
 SIDES = ("before", "after")
 LIST_FIELDS = {"before": "before", "after": "after", "capital": "capitals", "key_figures": "key_figures",
                "modern_countries": "modern_countries"}
-FIELDS = (*LIST_FIELDS, "period", "map_year", "summary", "map", "tier")
+FIELDS = (*LIST_FIELDS, "period", "map_year", "summary", "legacy", "map", "tier")
 TIERS = ("Essential", "Core", "Extended")
 ACTIONS = ("add", "set", "none", "dispute")
 ADDABLE = ("before", "after", "capital", "key_figures")
@@ -109,7 +109,7 @@ def _validate(override: Override) -> None:
     if override.field == "period" and any(period_span(year) is None for key, year in override.value.items()
                                            if key in ("start", "end", "since")):
         raise ValueError(f"{who}: a period end is a year or a written date such as \"6th century\"")
-    if override.field in ("map_year", "summary") and override.action == "add":
+    if override.field in ("map_year", "summary", "legacy") and override.action == "add":
         raise ValueError(f"{who}: {override.field} can only be set")
     if override.action == "set" and override.field in LIST_FIELDS and not isinstance(override.value, list) \
             and override.field not in SIDES:
@@ -170,6 +170,8 @@ def apply_overrides(polities: list[Polity], overrides: list[Override], wikidata:
             polity.modern_countries = list(override.value)
         elif override.field == "map_year":
             polity.map_year = override.value
+        elif override.field == "legacy":
+            polity.legacy = override.value
         else:
             polity.summary = override.value
     for polity in polities:

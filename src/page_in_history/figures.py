@@ -843,6 +843,7 @@ class FigureBuilder:
                 civilizations=civilizations,
                 related=related,
                 contribution=self._overridden(person.id, "contribution", contribution(paragraph, role_text, person.description)),
+                legacy=self._overridden(person.id, "legacy", ""),
                 setting="" if set(civilizations) & deck else setting(
                     civilizations, candidate.region or self._country_region(known), candidate.adulthood),
                 modern_country=self._modern_country(candidate, self._home(civilizations, deck)),

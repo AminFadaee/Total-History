@@ -132,7 +132,7 @@ def test_apply_every_field_and_action():
     assert polity.before == [{"id": "Q2", "region": "Testregion", "name": "Oldland", "home": True}]
     assert polity.after == [] and polity.checks["not_applicable"] == {"after": "still exists", "map": "not drawn in Cliopatria"}
     assert polity.map_year == 1100 and polity.modern_countries == ["Testia", "Otheria"]
-    assert polity.summary == "A test state."
+    assert polity.summary == "A test state." and polity.legacy == "Testland invented the test."
     apply_tiers([polity], overrides)
     assert polity.tier == "Extended"
 

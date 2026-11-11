@@ -338,7 +338,7 @@ test fails on an entry that no longer matches anything.
 
 `data/overrides.toml` is the reverse: a reviewed, sourced list of facts the automated sources miss or get wrong. An
 entry names a civilization, one field (`before`, `after`, `period`, `capital`, `key_figures`, `map_year`,
-`modern_countries`, `summary` or `tier`) and an action: `add` appends to a list, `set` replaces the field (the whole list for
+`modern_countries`, `summary`, `legacy` or `tier`) and an action: `add` appends to a list, `set` replaces the field (the whole list for
 capitals, key figures and modern countries; `{ start, end, circa }` or `{ since }` for a period, each a year or, when the source gives only that, a century such as
 `"6th century"`) and `none` records that
 the field does not apply, with the reason, in the civilization's `checks.not_applicable`, so a deliberate gap can be told
@@ -359,9 +359,16 @@ applicable.
 field: `civilization`, the state the person belongs to, with its Wikidata id, for someone the rules file under a
 birthplace they have no tie to (Tolkien, born in Bloemfontein); `contribution`, the "Known for" line; `role`, for
 when the Wikipedia text the deck reads has gone wrong; `life`, the life years the card shows, when Wikidata's are
-wrong (Ibn Yunus died in 1009, not 958); or `exclude`, which leaves out a figure of legend that Wikidata files as a
+wrong (Ibn Yunus died in 1009, not 958); `legacy`, the legacy line, with the person's name hidden as on the card; or `exclude`, which leaves out a figure of legend that Wikidata files as a
 real person (Longinus), an editorial choice that gives its reason in `note` instead of a source. Each cites a web page or a book with the page, quotes the
-passage and gives the date it was read. The state comes first among the person's civilizations, so their segment,
+passage and gives the date it was read; further `sources` (each with the fact it supports and its quote) and a
+`derivation` saying how they bear on the value may follow.
+
+A legacy line set by hand, for a civilization or a figure, is a sentence of the English Wikipedia article quoted as it
+stands (the name hidden for a figure), never a paraphrase, since the card text keeps Wikipedia's licence. It is either a
+sentence a footnote covers, or one of the article's unfootnoted introduction that Britannica confirms, quoted in
+`sources`; Britannica is never card text. These were chosen for the Core civilizations and for figures with articles in
+40 or more Wikipedia languages that the rules left without a line. The state comes first among the person's civilizations, so their segment,
 card and today's country at the birthplace follow it, but it does not bring a civilization into the deck. An entry for
 someone the deck does not hold this time is listed under `figure_overrides_unused` in `data/report.json` instead of
 failing the collect.
