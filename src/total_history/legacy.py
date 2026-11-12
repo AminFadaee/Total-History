@@ -59,6 +59,7 @@ NAMING = {"numbers", "sequence", "syndrome", "wheel", "scale", "effect", "law", 
 NICKNAME = re.compile(r"\b(?:nicknamed?|sobriquet|courtesy name|personal name|temple name|posthumous name|regnal name|pen name|"
                       r"poetic title|pseudonym|also spelled|transliterated|romani[sz]ed as|latini[sz]ed as|usually known by|"
                       r"popularly known as|commonly known as|better known as|known by the|(?:sometimes|often|also) (?:styled|titled))\b|^Known as\b", re.IGNORECASE)
+OWN_NAMESAKE = re.compile(r"\b(?:his|her)\b(?:\s+[\w'’-]+){1,4}\s+of this person\b", re.IGNORECASE)
 APPOSITIVE = re.compile(r"^this person, (?:[A-Z][\w’'.-]*\s?)+,? (?:was|is|were)\b")
 ALIAS = re.compile(r"\((?:[^()]*?)\b(?:Latini[sz]ed|romani[sz]ed|anglici[sz]ed|transliterated|also known|known)(?: as)? "
                    r"([A-Z][\w’'-]+(?: [A-Z][\w’'-]+)*)")
@@ -254,7 +255,7 @@ def hide(sentence: str, names: list[str], own: list[str] | None = None) -> str |
             index += 1
     text = " ".join(out)
     if "Personmark" in text or text.count("this person") > MAX_MENTIONS or NAME_LIST.search(text) or TAGGED.search(text) \
-            or APPOSITIVE.search(text):
+            or APPOSITIVE.search(text) or OWN_NAMESAKE.search(text):
         return None
     if any(fold(re.sub(r"['’]s?$", "", token)) in foreign for token in WORD.findall(text)
            if any(part[:1].isupper() for part in re.split(r"[-’']", token))):

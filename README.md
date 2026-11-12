@@ -429,7 +429,8 @@ epithet inside it ("Alan Mathison Turing", "Tamar the Great"). A word of their l
 may be someone else, so the sentence is not used: Augustus for Tiberius, his father Ali for Hasan ibn Ali, Edward II
 beside Edward III, or Catherine the Great beside Catherine I (an epithet where the person's name has a regnal number).
 Nor is a sentence used where any part of the name would remain, where the name is part of something
-else's name (Rákóczi's War of Independence, the Tokugawa shogunate, the Fibonacci numbers, Sun Liang beside Sun Quan),
+else's name (Rákóczi's War of Independence, the Tokugawa shogunate, the Fibonacci numbers, Sun Liang beside Sun Quan, or "his six yogas of Naropa",
+the person's own thing under their name),
 where a word is made from the name (Zoroastrian), where a title that ends the name stands on its own ("Khan overthrew
 the monarchy"), that gives a nickname, pen name, courtesy name or other name ("nicknamed Scarface", "This person,
 Rajasa, was"), that lists the person's names or gives a pronunciation, or that Wikipedia tags as unsourced; a title
