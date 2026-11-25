@@ -5,10 +5,11 @@ import sqlite3
 import tempfile
 import zipfile
 
+import genanki
 import pytest
 
-from total_history.deck import (CIVILIZATION_TEMPLATES, FIGURE_TEMPLATES, LINKS, capital_asked, figure_tier, known_for,
-                                named_after, study_order, told_apart)
+from total_history.deck import (CIVILIZATION_TEMPLATES, FIGURE_TEMPLATES, LINKS, capital_asked, civilization_guid, figure_guid,
+                                figure_tier, known_for, named_after, study_order, told_apart)
 
 DECK = pathlib.Path(__file__).resolve().parents[1] / "build" / "total_history.apkg"
 MEDIA_REFERENCE = re.compile(r'src="([^"]+)"')
@@ -125,3 +126,11 @@ def test_every_note_has_its_own_place_among_the_new_cards(package):
 def test_no_card_asks_for_a_legacy_line(package):
     names = {template["name"] for model in package["models"].values() for template in model["tmpls"]}
     assert not {name for name in names if "Legacy" in name}
+
+
+def test_a_civilization_never_shares_a_note_with_a_country_deck():
+    assert civilization_guid("Q414") != genanki.guid_for("Q414")
+
+
+def test_figures_keep_their_notes():
+    assert figure_guid("Q517") == genanki.guid_for("Q517")

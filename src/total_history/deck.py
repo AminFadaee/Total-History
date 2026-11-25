@@ -59,6 +59,14 @@ class AskedNote(genanki.Note):
         return self.asked
 
 
+def civilization_guid(qid: str) -> str:
+    return genanki.guid_for("civilization", qid)
+
+
+def figure_guid(qid: str) -> str:
+    return genanki.guid_for(qid)
+
+
 def stable_id(name: str) -> int:
     return int(hashlib.sha256(name.encode()).hexdigest()[:12], 16) % (1 << 40) + (1 << 30)
 
@@ -571,7 +579,7 @@ class DeckBuilder:
                                + (f" · overseas: {countries(document['overseas_countries'])}" if document.get("overseas_countries") else ""),
         }
         self._add(self.civilization_model, CIVILIZATION_FIELDS, CIVILIZATION_TEMPLATES, values,
-                  civilization_tags(document), document["id"], position)
+                  civilization_tags(document), civilization_guid(document["id"]), position)
 
     def add_figure(self, document: dict, maps: dict[str, str], position: int, reversible: bool) -> None:
         """Only civilizations in the deck are shown, so each one named has its own map and cards."""
@@ -596,7 +604,7 @@ class DeckBuilder:
             "Related": joined([name for name in document["related"] if name in maps]),
         }
         tags = figure_tags(document, civilizations)
-        self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, document["id"], position)
+        self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, figure_guid(document["id"]), position)
 
     def write(self, output: pathlib.Path) -> None:
         if self.media.missing:
@@ -606,13 +614,13 @@ class DeckBuilder:
         package.write_to_file(str(output))
         logger.info("Wrote %d notes and %d media files to %s", self.notes, len(self.media.files), output)
 
-    def _add(self, model, fields, templates, values, tags, identity: str, position: int) -> None:
+    def _add(self, model, fields, templates, values, tags, guid: str, position: int) -> None:
         cards = [genanki.Card(ord) for ord, template in enumerate(templates)
                  if all(values[field] for field in template.requires)]
         if not cards:
             return
         note = AskedNote(cards, model=model, fields=[values[name] for name in fields], tags=sorted(set(tags)),
-                          guid=genanki.guid_for(identity), due=position)
+                          guid=guid, due=position)
         self.root.add_note(note)
         self.notes += 1
 
