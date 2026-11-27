@@ -1,0 +1,53 @@
+{
+  "id": "Q7382025",
+  "slug": "russian-conquest-of-bukhara",
+  "name": "Russian conquest of Bukhara",
+  "title": "Russian conquest of Bukhara",
+  "wikipedia": "Russian conquest of Bukhara",
+  "years": [
+    1842,
+    1868
+  ],
+  "editions": 6,
+  "infobox_years": [
+    1842,
+    1868
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of wars, invasions, and subsequent conquests of the Central Asian Emirate of Bukhara by the Russian Empire.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Emirate of Bukhara"
+      ],
+      "civilizations": [
+        "Q746558"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q746558",
+        "name": "Emirate of Bukhara",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

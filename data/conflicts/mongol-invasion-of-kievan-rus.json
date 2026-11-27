@@ -51,13 +51,6 @@
   "roles": {
     "central": [
       {
-        "id": "Q1108445",
-        "name": "Kievan Rus'",
-        "evidence": [
-          "mutual"
-        ]
-      },
-      {
         "id": "Q239502",
         "name": "Kingdom of Galicia–Volhynia",
         "evidence": [
@@ -85,6 +78,16 @@
         "evidence": [
           "infobox",
           "mutual"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q1108445",
+        "name": "Kievan Rus'",
+        "evidence": [
+          "mutual",
+          "override"
         ]
       }
     ]

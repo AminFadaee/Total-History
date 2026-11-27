@@ -38,13 +38,14 @@
     }
   ],
   "roles": {
-    "central": [
+    "ending": [
       {
         "id": "Q206411",
         "name": "Azerbaijan Democratic Republic",
         "evidence": [
           "infobox",
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ]

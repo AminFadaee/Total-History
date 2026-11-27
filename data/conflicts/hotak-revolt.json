@@ -1,0 +1,50 @@
+{
+  "id": "Q135185486",
+  "slug": "hotak-revolt",
+  "name": "Kandahar Rebellion",
+  "title": "Kandahar Rebellion",
+  "wikipedia": "Hotak revolt",
+  "years": [
+    null,
+    null
+  ],
+  "editions": 2,
+  "infobox_years": [
+    1709,
+    1709
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A major uprising by the Afghan Hotak tribe against Safavid Persian rule in 1709, led by Mirwais Hotak.",
+  "result": "Hotak victory",
+  "sides": [
+    {
+      "combatants": [
+        "Hotak",
+        "Pashtuns"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Safavid Dynasty"
+      ],
+      "civilizations": [
+        "Q18234383"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q627449",
+        "name": "Hotaki Dynasty",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

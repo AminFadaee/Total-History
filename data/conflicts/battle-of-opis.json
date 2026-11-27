@@ -1,0 +1,56 @@
+{
+  "id": "Q3434300",
+  "slug": "battle-of-opis",
+  "name": "Battle of Opis",
+  "title": "Battle of Opis",
+  "wikipedia": "Battle of Opis",
+  "years": [
+    -539,
+    -539
+  ],
+  "editions": 16,
+  "infobox_years": [
+    -539,
+    -539
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    44.7,
+    33.18138888888889
+  ],
+  "summary": "The last major military engagement between the Achaemenid Empire and the Neo-Babylonian Empire, which took place in September 539 BC, during the Persian invasion of Mesopotamia.",
+  "result": "Persian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Neo-Babylonian Empire"
+      ],
+      "civilizations": [
+        "Q624887"
+      ]
+    },
+    {
+      "combatants": [
+        "Achaemenid Empire"
+      ],
+      "civilizations": [
+        "Q389688"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q47690",
+        "name": "Babylonia",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  },
+  "map": "conflicts/conflict-maps/battle-of-opis.png",
+  "map_asked": false
+}

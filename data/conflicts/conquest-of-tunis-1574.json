@@ -42,11 +42,12 @@
     }
   ],
   "roles": {
-    "central": [
+    "ending": [
       {
         "id": "Q752662",
         "name": "Hafsid Dynasty",
         "evidence": [
+          "override",
           "wikidata"
         ]
       }

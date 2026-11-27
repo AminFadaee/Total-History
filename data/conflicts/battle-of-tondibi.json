@@ -38,13 +38,14 @@
     }
   ],
   "roles": {
-    "central": [
+    "ending": [
       {
         "id": "Q202687",
         "name": "Songhai Empire",
         "evidence": [
           "infobox",
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ]

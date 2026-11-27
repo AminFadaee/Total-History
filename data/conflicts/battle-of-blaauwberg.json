@@ -1,0 +1,69 @@
+{
+  "id": "Q2786767",
+  "slug": "battle-of-blaauwberg",
+  "name": "Battle of Blaauwberg",
+  "title": "Battle of Blaauwberg",
+  "wikipedia": "Battle of Blaauwberg",
+  "years": [
+    1806,
+    1806
+  ],
+  "editions": 10,
+  "infobox_years": [
+    1806,
+    1806
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    18.46555556,
+    -33.75611111
+  ],
+  "summary": "A successful British amphibious operation during the War of the Third Coalition which lasted from 8–18 January 1806 and resulted in the capture of the Dutch Cape Colony.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q174193"
+      ]
+    },
+    {
+      "combatants": [
+        "Batavian Republic",
+        "Dutch Cape Colony",
+        "First French Empire"
+      ],
+      "civilizations": [
+        "Q188553",
+        "Q4807130",
+        "Q71084"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q4807130",
+        "name": "Dutch Cape Colony",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q370736",
+        "name": "British Cape Colony",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

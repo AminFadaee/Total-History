@@ -1,0 +1,64 @@
+{
+  "id": "Q981042",
+  "slug": "siege-of-florence-15291530",
+  "name": "Siege of Florence",
+  "title": "Siege of Florence",
+  "wikipedia": "Siege of Florence (1529–1530)",
+  "years": [
+    1529,
+    1530
+  ],
+  "editions": 13,
+  "infobox_years": [
+    1529,
+    1530
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    11.25,
+    43.7833
+  ],
+  "summary": "Successful Habsburg siege of Florence.",
+  "result": "Habsburg-Papal victory",
+  "sides": [
+    {
+      "combatants": [
+        "Republic of Florence"
+      ],
+      "civilizations": [
+        "Q148540"
+      ]
+    },
+    {
+      "combatants": [
+        "Holy Roman Empire",
+        "Habsburg Spain",
+        "Papal States",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q170174",
+        "Q29"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q148540",
+        "name": "Republic of Florence",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  },
+  "map": "conflicts/conflict-maps/siege-of-florence-15291530.png",
+  "map_asked": true
+}

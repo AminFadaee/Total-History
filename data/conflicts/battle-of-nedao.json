@@ -1,0 +1,59 @@
+{
+  "id": "Q841211",
+  "slug": "battle-of-nedao",
+  "name": "Battle of Nedao",
+  "title": "Battle of Nedao",
+  "wikipedia": "Battle of Nedao",
+  "years": [
+    454,
+    454
+  ],
+  "editions": 30,
+  "infobox_years": [
+    454,
+    454
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    19.0166666667,
+    44.9333333333
+  ],
+  "summary": "Fought in Pannonia in 454 between the Huns and their former vassals or allies.",
+  "result": "Germanic victory",
+  "sides": [
+    {
+      "combatants": [
+        "Gepids",
+        "Heruli",
+        "Rugii",
+        "Sciri",
+        "Suebi"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Hunnic Empire",
+        "Alans"
+      ],
+      "civilizations": [
+        "Q45813"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q45813",
+        "name": "Hunnic Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "Q1432624",
+  "slug": "genko-war",
+  "name": "Genkō War",
+  "title": "Genkō War",
+  "wikipedia": "Genkō War",
+  "years": [
+    1331,
+    1333
+  ],
+  "editions": 17,
+  "infobox_years": [
+    1331,
+    1333
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A civil war fought in Japan between the Emperor Go-Daigo and the Kamakura Shogunate from 1331 to 1333.",
+  "result": "Fall of the Kamakura Shogunate",
+  "sides": [
+    {
+      "combatants": [
+        "Go-Daigo"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Kamakura Shogunate"
+      ],
+      "civilizations": [
+        "Q736839"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q736839",
+        "name": "Kamakura Shogunate",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "Q827612",
+  "slug": "jugurthine-war",
+  "name": "Jugurthine War",
+  "title": "Jugurthine War",
+  "wikipedia": "Jugurthine War",
+  "years": [
+    -111,
+    -105
+  ],
+  "editions": 36,
+  "infobox_years": [
+    -111,
+    -105
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict between the Roman Republic and King Jugurtha of Numidia, a kingdom on the north African coast roughly corresponding to modern-day Algeria.",
+  "result": "Mauretania given some Numidian territory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic",
+        "Mauretania"
+      ],
+      "civilizations": [
+        "Q17167"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Numidia",
+        "Mauretania"
+      ],
+      "civilizations": [
+        "Q102679"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q102679",
+        "name": "Kingdom of Numidia",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

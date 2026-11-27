@@ -1,0 +1,57 @@
+{
+  "id": "Q24945556",
+  "slug": "fall-of-angkor",
+  "name": "Siege of Angkor",
+  "title": "Siege of Angkor",
+  "wikipedia": "Fall of Angkor",
+  "years": [
+    1431,
+    1431
+  ],
+  "editions": 4,
+  "infobox_years": [
+    1430,
+    1431
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    103.833333333,
+    13.433333333
+  ],
+  "summary": "The capture of the Khmer capital at Angkor by the Ayutthaya Kingdom, conventionally dated to 1431.",
+  "result": "Ayutthayan troops loot Angkor",
+  "sides": [
+    {
+      "combatants": [
+        "Ayutthaya Kingdom"
+      ],
+      "civilizations": [
+        "Q841364"
+      ]
+    },
+    {
+      "combatants": [
+        "Khmer Empire"
+      ],
+      "civilizations": [
+        "Q201705"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q201705",
+        "name": "Khmer Empire",
+        "evidence": [
+          "infobox",
+          "override"
+        ]
+      }
+    ]
+  },
+  "map": "conflicts/conflict-maps/fall-of-angkor.png",
+  "map_asked": true
+}

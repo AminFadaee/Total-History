@@ -1,0 +1,54 @@
+{
+  "id": "Q214028",
+  "slug": "july-revolution",
+  "name": "July Revolution",
+  "title": "July Revolution",
+  "wikipedia": "July Revolution",
+  "years": [
+    1830,
+    1830
+  ],
+  "editions": 65,
+  "infobox_years": [
+    1830,
+    1830
+  ],
+  "years_confirmed": true,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A second French Revolution after the first of 1789–99.",
+  "result": "Revolutionary victory",
+  "sides": [
+    {
+      "combatants": [
+        "Liberal Party",
+        "Républicanisme en France",
+        "Bonapartism",
+        "Doctrinaires"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Bourbon Kingdom of France",
+        "Royal Guard (France)",
+        "French Royal Army"
+      ],
+      "civilizations": [
+        "Q207162"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q207162",
+        "name": "Bourbon Kingdom of France",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

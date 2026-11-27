@@ -1,0 +1,51 @@
+{
+  "id": "Q1848807",
+  "slug": "lam-son-uprising",
+  "name": "Lam Sơn uprising",
+  "title": "Lam Sơn uprising",
+  "wikipedia": "Lam Sơn uprising",
+  "years": [
+    1418,
+    1427
+  ],
+  "editions": 11,
+  "infobox_years": [
+    1418,
+    1427
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A rebellion against Ming China led by Vietnamese leader Lê Lợi.",
+  "result": "Lam Sơn rebel victory:",
+  "sides": [
+    {
+      "combatants": [
+        "Lan Xang"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Ming Dynasty",
+        "Lan Xang"
+      ],
+      "civilizations": [
+        "Q9903"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q10800789",
+        "name": "Lê Dynasty",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

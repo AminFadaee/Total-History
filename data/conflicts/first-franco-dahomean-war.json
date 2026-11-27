@@ -1,0 +1,53 @@
+{
+  "id": "Q2092939",
+  "slug": "first-franco-dahomean-war",
+  "name": "First Franco-Dahomean War",
+  "title": "First Franco-Dahomean War",
+  "wikipedia": "First Franco-Dahomean War",
+  "years": [
+    1890,
+    1890
+  ],
+  "editions": 13,
+  "infobox_years": [
+    1890,
+    1890
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought in 1890 between France, led by General Alfred-Amédée Dodds, and Dahomey under King Béhanzin.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "Dahomey"
+      ],
+      "civilizations": [
+        "Q468814"
+      ]
+    },
+    {
+      "combatants": [
+        "Porto-Novo",
+        "French Third Republic"
+      ],
+      "civilizations": [
+        "Q70802"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q468814",
+        "name": "Dahomey",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

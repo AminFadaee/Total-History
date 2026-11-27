@@ -1,0 +1,59 @@
+{
+  "id": "Q182062",
+  "slug": "greek-war-of-independence",
+  "name": "Greek War of Independence",
+  "title": "Greek War of Independence",
+  "wikipedia": "Greek War of Independence",
+  "years": [
+    1821,
+    1829
+  ],
+  "editions": 72,
+  "infobox_years": [
+    1821,
+    1829
+  ],
+  "years_confirmed": true,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A successful war of independence fought by Greek revolutionaries against the Ottoman Empire from 1821 to 1829.",
+  "result": "Independence of Greece",
+  "sides": [
+    {
+      "combatants": [
+        "klepht",
+        "armatole",
+        "Messenian Senate",
+        "Peloponnesian Senate",
+        "Senate of Western Continental Greece",
+        "Areopagus of Eastern Continental Greece",
+        "Military-Political System of Samos",
+        "Filiki Eteria",
+        "Sacred Band (1821)",
+        "First Hellenic Republic",
+        "Greece"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q209065",
+        "name": "Kingdom of Greece",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

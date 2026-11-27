@@ -1,0 +1,59 @@
+{
+  "id": "Q2629782",
+  "slug": "french-conquest-of-algeria",
+  "name": "French conquest of Algeria",
+  "title": "French conquest of Algeria",
+  "wikipedia": "French conquest of Algeria",
+  "years": [
+    1830,
+    1904
+  ],
+  "editions": 24,
+  "infobox_years": [
+    1830,
+    1903
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Conquest of Algeria by France, 1830–1903.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "Bourbon Kingdom of France",
+        "Kingdom of France",
+        "July Monarchy"
+      ],
+      "civilizations": [
+        "Q207162",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Regency of Algiers",
+        "Beylik of Titteri",
+        "Western Beylik",
+        "Beylik of Constantine",
+        "Emirate of Abdelkader",
+        "Kingdom of Beni Abbas",
+        "Awlad Sidi Shaykh",
+        "Kel Ahaggar"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q218272",
+        "name": "French Algeria",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

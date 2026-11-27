@@ -1,0 +1,52 @@
+{
+  "id": "Q42976",
+  "slug": "october-revolution",
+  "name": "October Revolution",
+  "title": "October Revolution",
+  "wikipedia": "October Revolution",
+  "years": [
+    1917,
+    1917
+  ],
+  "editions": 109,
+  "infobox_years": [
+    1917,
+    1917
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The second of two revolutions in Russia in 1917.",
+  "result": "Bolshevik victory",
+  "sides": [
+    {
+      "combatants": [
+        "Communist Party of the Soviet Union",
+        "Left Socialist-Revolutionaries",
+        "anarchism in Russia"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Russian Republic",
+        "Russia"
+      ],
+      "civilizations": [
+        "Q139319"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q139319",
+        "name": "Russian Republic",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

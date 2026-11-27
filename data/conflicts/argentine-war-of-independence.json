@@ -54,13 +54,14 @@
     }
   ],
   "roles": {
-    "central": [
+    "founding": [
       {
         "id": "Q414",
         "name": "Argentine Republic",
         "evidence": [
           "infobox",
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ]

@@ -1,0 +1,50 @@
+{
+  "id": "Q5933860",
+  "slug": "abbasid-revolution",
+  "name": "Abbasid Revolution",
+  "title": "Abbasid Revolution",
+  "wikipedia": "Abbasid revolution",
+  "years": [
+    746,
+    750
+  ],
+  "editions": 33,
+  "infobox_years": [
+    747,
+    750
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The overthrow of the Umayyad Caliphate, the second major caliphate, by the Hashimiyya movement, resulting in the establishment of the Abbasid Caliphate, the third major caliphate.",
+  "result": "Abbasid victory",
+  "sides": [
+    {
+      "combatants": [
+        "Abbasids",
+        "Kaysanites Shia"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Umayyad Caliphate"
+      ],
+      "civilizations": [
+        "Q8575586"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q12536",
+        "name": "Abbasid Caliphate",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

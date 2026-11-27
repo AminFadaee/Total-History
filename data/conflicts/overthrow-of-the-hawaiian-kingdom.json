@@ -1,0 +1,53 @@
+{
+  "id": "Q10931943",
+  "slug": "overthrow-of-the-hawaiian-kingdom",
+  "name": "Overthrow of the Hawaiian Kingdom",
+  "title": "Overthrow of the Hawaiian Kingdom",
+  "wikipedia": "Overthrow of the Hawaiian Kingdom",
+  "years": [
+    1893,
+    1893
+  ],
+  "editions": 16,
+  "infobox_years": [
+    1893,
+    1893
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Overthrown in a coup d'état against Queen Liliʻuokalani that took place on January 17, 1893, on the island of Oahu.",
+  "result": "United States victory",
+  "sides": [
+    {
+      "combatants": [
+        "Committee of Safety",
+        "United States of America",
+        "Hawaii"
+      ],
+      "civilizations": [
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Hawaï'i"
+      ],
+      "civilizations": [
+        "Q156418"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q156418",
+        "name": "Kingdom of Hawaï'i",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

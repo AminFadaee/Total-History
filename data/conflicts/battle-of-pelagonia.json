@@ -1,0 +1,62 @@
+{
+  "id": "Q763428",
+  "slug": "battle-of-pelagonia",
+  "name": "Battle of Pelagonia",
+  "title": "Battle of Pelagonia",
+  "wikipedia": "Battle of Pelagonia",
+  "years": [
+    1259,
+    1259
+  ],
+  "editions": 24,
+  "infobox_years": [
+    1259,
+    1259
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    21.566666666666666,
+    40.81666666666667
+  ],
+  "summary": "Battle between Frankish and Byzantine forces in 1259.",
+  "result": "Nicaean victory",
+  "sides": [
+    {
+      "combatants": [
+        "Nicaean Empire"
+      ],
+      "civilizations": [
+        "Q181254"
+      ]
+    },
+    {
+      "combatants": [
+        "Despotate of Epirus",
+        "Principality of Achaea",
+        "Duchy of Athens",
+        "Duchy of the Archipelago",
+        "Lordship of Negroponte",
+        "Kingdom of Sicily"
+      ],
+      "civilizations": [
+        "Q188586"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q181254",
+        "name": "Nicaean Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  },
+  "map": "conflicts/conflict-maps/battle-of-pelagonia.png",
+  "map_asked": true
+}

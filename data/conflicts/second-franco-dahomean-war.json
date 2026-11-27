@@ -39,13 +39,14 @@
     }
   ],
   "roles": {
-    "central": [
+    "ending": [
       {
         "id": "Q468814",
         "name": "Dahomey",
         "evidence": [
           "infobox",
           "mutual",
+          "override",
           "wikidata"
         ]
       }

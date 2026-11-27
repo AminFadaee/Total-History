@@ -1,0 +1,65 @@
+{
+  "id": "Q243684",
+  "slug": "eighth-crusade",
+  "name": "Eighth Crusade",
+  "title": "Eighth Crusade",
+  "wikipedia": "Eighth Crusade",
+  "years": [
+    1270,
+    1270
+  ],
+  "editions": 54,
+  "infobox_years": [
+    1270,
+    1270
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "The second Crusade launched by Louis IX of France, this one against the Hafsid dynasty in Ifriqiya in 1270.",
+  "result": "No changes in territory, though there were changes in economic and political rights in the Treaty of Tunis",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of France",
+        "Crown of Aragon",
+        "Kingdom of Sicily",
+        "Kingdom of Navarre",
+        "County of Luxembourg",
+        "Kingdom of Scotland"
+      ],
+      "civilizations": [
+        "Q188586",
+        "Q200262",
+        "Q204920",
+        "Q230791",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Hafsid Dynasty"
+      ],
+      "civilizations": [
+        "Q752662"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q752662",
+        "name": "Hafsid Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

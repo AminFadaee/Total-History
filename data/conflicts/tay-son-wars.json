@@ -1,0 +1,74 @@
+{
+  "id": "Q10747200",
+  "slug": "tay-son-wars",
+  "name": "Tây Sơn wars",
+  "title": "Tây Sơn wars",
+  "wikipedia": "Tây Sơn wars",
+  "years": [
+    null,
+    null
+  ],
+  "editions": 5,
+  "infobox_years": [
+    1771,
+    1802
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military conflicts that followed the Vietnamese peasant uprising at Tây Sơn that were led by three brothers: Nguyễn Nhạc, Nguyễn Huệ, and Nguyễn Lữ. These revolutionary forces grew and later overthrew the ruling Vietnamese elite families and the ruling Lê dynasty.",
+  "result": "Final Nguyễn victory",
+  "sides": [
+    {
+      "combatants": [
+        "Tây Sơn dynasty",
+        "Chams",
+        "Hoa people",
+        "Pirates of the South China Coast"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Nguyễn lords",
+        "Post-Angkor Cambodia",
+        "Rattanakosin Kingdom",
+        "French assistance to Nguyễn Ánh",
+        "Kingdom of Vientiane",
+        "Hoa people",
+        "Kingdom of France"
+      ],
+      "civilizations": [
+        "Q1155700",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Trịnh lords"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Qing Dynasty",
+        "Lê Chiêu Thống"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q6500483",
+        "name": "Nguyễn dynasty",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Q3119106",
+  "slug": "moroccan-invasion-of-the-songhai-empire",
+  "name": "Saadian invasion of the Songhai Empire",
+  "title": "Saadian invasion of the Songhai Empire",
+  "wikipedia": "Moroccan invasion of the Songhai Empire",
+  "years": [
+    null,
+    null
+  ],
+  "editions": 6,
+  "infobox_years": [
+    1590,
+    1599
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "1590–1599 war.",
+  "result": "Moroccan victory",
+  "sides": [
+    {
+      "combatants": [
+        "Saadi Sultanate",
+        "Pashalik of Timbuktu"
+      ],
+      "civilizations": [
+        "Q1136188"
+      ]
+    },
+    {
+      "combatants": [
+        "Songhai Empire",
+        "Mali Empire"
+      ],
+      "civilizations": [
+        "Q184536",
+        "Q202687"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q202687",
+        "name": "Songhai Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

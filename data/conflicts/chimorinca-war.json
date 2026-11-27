@@ -1,0 +1,54 @@
+{
+  "id": "Q65119540",
+  "slug": "chimorinca-war",
+  "name": "Chimor–Inca War",
+  "title": "Chimor–Inca War",
+  "wikipedia": "Chimor–Inca War",
+  "years": [
+    1470,
+    1470
+  ],
+  "editions": 4,
+  "infobox_years": [
+    1470,
+    1470
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict fought in the late 15th century between the Inca Empire and the Chimor Empire of coastal Peru.",
+  "result": "Annexation of the vast Chimú Empire and establishment of Chinchaysuyo",
+  "sides": [
+    {
+      "combatants": [
+        "Chimor",
+        "Cajamarca"
+      ],
+      "civilizations": [
+        "Q581741"
+      ]
+    },
+    {
+      "combatants": [
+        "Inca Empire"
+      ],
+      "civilizations": [
+        "Q28573"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q581741",
+        "name": "Chimor",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "Q2707090",
+  "slug": "rus-byzantine-war-907",
+  "name": "Rus'–Byzantine War of 907",
+  "title": "Rus'–Byzantine War of 907",
+  "wikipedia": "Rus'–Byzantine War (907)",
+  "years": [
+    907,
+    907
+  ],
+  "editions": 16,
+  "infobox_years": null,
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "War between Rus and Byzantine empire.",
+  "result": "Disputed",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Kievan Rus'"
+      ],
+      "civilizations": [
+        "Q1108445"
+      ]
+    }
+  ],
+  "roles": {
+    "second": [
+      {
+        "id": "Q1108445",
+        "name": "Kievan Rus'",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

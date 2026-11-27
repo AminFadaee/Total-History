@@ -1,0 +1,64 @@
+{
+  "id": "Q1072889",
+  "slug": "chilean-war-of-independence",
+  "name": "Chilean War of Independence",
+  "title": "Chilean War of Independence",
+  "wikipedia": "Chilean War of Independence",
+  "years": [
+    1812,
+    1812
+  ],
+  "editions": 20,
+  "infobox_years": [
+    1812,
+    1827
+  ],
+  "years_confirmed": false,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A military and political event that allowed the emancipation of Chile from the Spanish Monarchy, ending the colonial period and initiating the formation of an independent republic.",
+  "result": "Patriots victory",
+  "sides": [
+    {
+      "combatants": [
+        "Patriot",
+        "Patria Vieja",
+        "New Fatherland",
+        "United Provinces of the Río de la Plata",
+        "Mapuche",
+        "Pehuenche"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Royalist",
+        "Spanish Empire",
+        "Kingdom of Spain",
+        "Spanish America",
+        "Viceroyalty of Peru",
+        "Captaincy General of Chile",
+        "Governorate of Chiloé",
+        "Huilliche people"
+      ],
+      "civilizations": [
+        "Q29",
+        "Q80702"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q298",
+        "name": "Republic of Chile",
+        "evidence": [
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

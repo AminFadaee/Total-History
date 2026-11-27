@@ -1,0 +1,56 @@
+{
+  "id": "Q2081446",
+  "slug": "mongolian-revolution-of-1921",
+  "name": "Outer Mongolian Revolution of 1921",
+  "title": "Outer Mongolian Revolution of 1921",
+  "wikipedia": "Mongolian Revolution of 1921",
+  "years": [
+    1921,
+    1921
+  ],
+  "editions": 20,
+  "infobox_years": [
+    1921,
+    1921
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military and political event by which Mongolian revolutionaries, with the assistance of the Soviet Red Army, expelled Russian White Guards from the country, and founded the Mongolian People's Republic in 1924.",
+  "result": "Independence of Mongolia",
+  "sides": [
+    {
+      "combatants": [
+        "Mongolian People's Party"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Bogd Khanate of Mongolia"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Anhui clique",
+        "Republic of China"
+      ],
+      "civilizations": [
+        "Q13426199"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q212056",
+        "name": "Mongolian People's Republic",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

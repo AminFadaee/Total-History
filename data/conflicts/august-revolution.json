@@ -1,0 +1,65 @@
+{
+  "id": "Q769960",
+  "slug": "august-revolution",
+  "name": "August Revolution",
+  "title": "August Revolution",
+  "wikipedia": "August Revolution",
+  "years": [
+    1945,
+    1945
+  ],
+  "editions": 29,
+  "infobox_years": [
+    1945,
+    1945
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A revolution led by the Viet Minh against the Japanese occupation of Vietnam and the Empire of Vietnam from 16 to 30 August 1945.",
+  "result": "Viet Minh victory",
+  "sides": [
+    {
+      "combatants": [
+        "Vietnamese Independence League",
+        "National Liberation Commitee of Vietnam",
+        "Vanguard Youth",
+        "Hương Sơn",
+        "Hòa Hảo",
+        "Caodaism",
+        "Trotskyism in Vietnam",
+        "Vietnam Revolutionary League",
+        "Nationalist Party of Vietnam",
+        "Đại Việt Nationalist Party",
+        "Vietnam"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Empire of Vietnam",
+        "Mặt trận Quốc gia Thống nhất",
+        "Vanguard Youth",
+        "Đại Việt National Socialist Party",
+        "Empire of Japan",
+        "Vietnam",
+        "Japan"
+      ],
+      "civilizations": [
+        "Q188712"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q6500483",
+        "name": "Nguyễn dynasty",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "Q4111313",
+  "slug": "wilhelminer-war",
+  "name": "Wilhelminer War",
+  "title": "Wilhelminer War",
+  "wikipedia": "Wilhelminer War",
+  "years": [
+    882,
+    884
+  ],
+  "editions": 5,
+  "infobox_years": null,
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A minor war fought in the March of Pannonia from 882 to 884.",
+  "result": "",
+  "sides": [],
+  "roles": {
+    "central": [
+      {
+        "id": "Q193152",
+        "name": "Great Moravia",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

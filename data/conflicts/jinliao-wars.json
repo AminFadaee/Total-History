@@ -1,0 +1,64 @@
+{
+  "id": "Q138641826",
+  "slug": "jinliao-wars",
+  "name": "Jin–Liao wars",
+  "title": "Jin–Liao wars",
+  "wikipedia": "Jin–Liao wars",
+  "years": [
+    null,
+    null
+  ],
+  "editions": 2,
+  "infobox_years": [
+    1114,
+    1125
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Large-scale wars between the Khitan-led Liao dynasty and the Jurchen-led Jin dynasty.",
+  "result": "Jin took control of the greater part of Liao territories",
+  "sides": [
+    {
+      "combatants": [
+        "Great Jin"
+      ],
+      "civilizations": [
+        "Q5066"
+      ]
+    },
+    {
+      "combatants": [
+        "Liao Dynasty"
+      ],
+      "civilizations": [
+        "Q4958"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q4958",
+        "name": "Liao Dynasty",
+        "evidence": [
+          "override"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q5066",
+        "name": "Great Jin",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

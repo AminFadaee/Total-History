@@ -36,12 +36,13 @@
     }
   ],
   "roles": {
-    "central": [
+    "founding": [
       {
         "id": "Q128938",
         "name": "Shang Dynasty",
         "evidence": [
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ]

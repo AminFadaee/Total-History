@@ -1,0 +1,72 @@
+{
+  "id": "Q2397066",
+  "slug": "mongol-invasions-of-syria",
+  "name": "Mongol invasions of the Levant",
+  "title": "Mongol invasions of the Levant",
+  "wikipedia": "Mongol invasions of Syria",
+  "years": [
+    1260,
+    1323
+  ],
+  "editions": 15,
+  "infobox_years": [
+    1260,
+    1323
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "",
+  "result": "Mamluk victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ilkhanate",
+        "Armenian Kingdom of Cilicia",
+        "Kingdom of Georgia",
+        "Sultanate of Rum",
+        "Principality of Antioch",
+        "County of Tripoli",
+        "Golden Horde",
+        "Kingdom of Jerusalem",
+        "Knights Templar",
+        "Knights Hospitaller"
+      ],
+      "civilizations": [
+        "Q154667",
+        "Q178084",
+        "Q335088",
+        "Q55502",
+        "Q975405"
+      ]
+    },
+    {
+      "combatants": [
+        "Mamluk Sultanate",
+        "Ayyubid Sultanate",
+        "Nizari Ismaili state",
+        "Golden Horde",
+        "Beylik of Karaman",
+        "Abbasids"
+      ],
+      "civilizations": [
+        "Q1469100",
+        "Q180114",
+        "Q282428"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q180114",
+        "name": "Ayyubid Sultanate",
+        "evidence": [
+          "infobox",
+          "override"
+        ]
+      }
+    ]
+  }
+}

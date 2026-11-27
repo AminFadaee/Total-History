@@ -1,0 +1,71 @@
+{
+  "id": "Q16707899",
+  "slug": "jihad-of-usman-dan-fodio",
+  "name": "Sokoto Revolution",
+  "title": "Sokoto Revolution",
+  "wikipedia": "Jihad of Usman dan Fodio",
+  "years": [
+    1804,
+    1808
+  ],
+  "editions": 15,
+  "infobox_years": [
+    1804,
+    1808
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A religio-military conflict in present-day Nigeria and Cameroon.",
+  "result": "Sokoto victory",
+  "sides": [
+    {
+      "combatants": [
+        "Sokoto Caliphate"
+      ],
+      "civilizations": [
+        "Q600524"
+      ]
+    },
+    {
+      "combatants": [
+        "Hausa Kingdoms",
+        "Gobir",
+        "Kingdom of Katsina",
+        "Kingdom of Kano",
+        "Hadejia",
+        "Daura Emirate",
+        "Zazzau",
+        "Kingdom of Kebbi",
+        "Kanem–Bornu Empire",
+        "Oyo Empire"
+      ],
+      "civilizations": [
+        "Q1139762",
+        "Q1591030",
+        "Q849623"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q1591030",
+        "name": "Hausa Kingdoms",
+        "evidence": [
+          "override"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q600524",
+        "name": "Sokoto Caliphate",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

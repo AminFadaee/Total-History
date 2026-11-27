@@ -1,0 +1,51 @@
+{
+  "id": "Q515561",
+  "slug": "battle-of-hafrsfjord",
+  "name": "Battle of Hafrsfjord",
+  "title": "Battle of Hafrsfjord",
+  "wikipedia": "Battle of Hafrsfjord",
+  "years": [
+    872,
+    872
+  ],
+  "editions": 22,
+  "infobox_years": [
+    872,
+    900
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    5.67147778,
+    58.94145278
+  ],
+  "summary": "A naval battle fought in Hafrsfjord sometime between 872 and 900 that resulted in the unification of Norway, later known as the Kingdom of Norway.",
+  "result": "Unification of the petty kingdoms of Norway",
+  "sides": [
+    {
+      "combatants": [
+        "Vestfold"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Hordaland",
+        "Agder"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q20",
+        "name": "Old Kingdom of Norway",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

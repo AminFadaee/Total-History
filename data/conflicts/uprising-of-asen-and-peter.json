@@ -1,0 +1,52 @@
+{
+  "id": "Q196176",
+  "slug": "uprising-of-asen-and-peter",
+  "name": "Uprising of Asen and Peter",
+  "title": "Uprising of Asen and Peter",
+  "wikipedia": "Uprising of Asen and Peter",
+  "years": [
+    1185,
+    1187
+  ],
+  "editions": 16,
+  "infobox_years": [
+    1185,
+    1187
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A revolt of Bulgarians and Vlachs living in Moesia and the Balkan Mountains, then the theme of Paristrion of the Byzantine Empire, caused by a tax increase.",
+  "result": "Recognition of the Second Bulgarian Empire",
+  "sides": [
+    {
+      "combatants": [
+        "Bulgarians",
+        "Vlachs"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q420759",
+        "name": "Second Bulgarian Empire",
+        "evidence": [
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

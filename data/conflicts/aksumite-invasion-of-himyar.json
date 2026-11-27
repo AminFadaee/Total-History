@@ -1,0 +1,58 @@
+{
+  "id": "Q113331496",
+  "slug": "aksumite-invasion-of-himyar",
+  "name": "Aksumite invasion of Himyar",
+  "title": "Aksumite invasion of Himyar",
+  "wikipedia": "Aksumite invasion of Himyar",
+  "years": [
+    518,
+    525
+  ],
+  "editions": 4,
+  "infobox_years": [
+    518,
+    525
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of two invasions from 518 to 525 fought between the Christian Kingdom of Aksum and the Jewish Himyarite Kingdom.",
+  "result": "Himyar annexed by Aksum",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Axum"
+      ],
+      "civilizations": [
+        "Q139377"
+      ]
+    },
+    {
+      "combatants": [
+        "Himyarite Kingdom"
+      ],
+      "civilizations": [
+        "Q289577"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q289577",
+        "name": "Himyarite Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "Q7930888",
+  "slug": "maccabean-revolt",
+  "name": "Maccabean Revolt",
+  "title": "Maccabean Revolt",
+  "wikipedia": "Maccabean Revolt",
+  "years": [
+    -167,
+    -160
+  ],
+  "editions": 43,
+  "infobox_years": [
+    -167,
+    -141
+  ],
+  "years_confirmed": false,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A Jewish rebellion led by the Maccabees against the Seleucid Empire and against Hellenistic influence on Jewish life.",
+  "result": "Jewish victory",
+  "sides": [
+    {
+      "combatants": [
+        "Maccabees"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Seleucid Empire"
+      ],
+      "civilizations": [
+        "Q93180"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q104028",
+        "name": "Judea",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

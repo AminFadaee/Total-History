@@ -1,0 +1,58 @@
+{
+  "id": "Q20015062",
+  "slug": "second-central-american-civil-war",
+  "name": "Second Central American Civil War",
+  "title": "Second Central American Civil War",
+  "wikipedia": "Second Central American Civil War",
+  "years": [
+    1838,
+    1840
+  ],
+  "editions": 4,
+  "infobox_years": [
+    1838,
+    1840
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military conflict in Central America between 1838 and 1840.",
+  "result": "Dissolution of the Federal Republic of Central America",
+  "sides": [
+    {
+      "combatants": [
+        "Federal Republic of Central America",
+        "El Salvador"
+      ],
+      "civilizations": [
+        "Q190025"
+      ]
+    },
+    {
+      "combatants": [
+        "Guatemala",
+        "Nicaragua",
+        "Honduras"
+      ],
+      "civilizations": [
+        "Q774"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q190025",
+        "name": "Federal Republic of Central America",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

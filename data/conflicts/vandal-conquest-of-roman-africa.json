@@ -1,0 +1,53 @@
+{
+  "id": "Q11789247",
+  "slug": "vandal-conquest-of-roman-africa",
+  "name": "Vandal conquest of Roman Africa",
+  "title": "Vandal conquest of Roman Africa",
+  "wikipedia": "Vandal conquest of Roman Africa",
+  "years": [
+    429,
+    442
+  ],
+  "editions": 9,
+  "infobox_years": [
+    429,
+    442
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The conquest of Mauretania Tingitana, Mauretania Caesariensis, and Africa Proconsolaris by the migrating Vandals and Alans.",
+  "result": "First Phase:",
+  "sides": [
+    {
+      "combatants": [
+        "Vandals",
+        "Alans"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Western Roman Empire",
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277",
+        "Q42834"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q10416611",
+        "name": "Vandal Kingdom",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

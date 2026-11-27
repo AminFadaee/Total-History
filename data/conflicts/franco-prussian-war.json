@@ -97,6 +97,18 @@
         ]
       }
     ],
+    "ending": [
+      {
+        "id": "Q150981",
+        "name": "North German Confederation",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ],
     "founding": [
       {
         "id": "Q70802",
@@ -104,6 +116,16 @@
         "evidence": [
           "infobox",
           "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q43287",
+        "name": "German Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
           "wikidata"
         ]
       }

@@ -1,0 +1,71 @@
+{
+  "id": "Q170306",
+  "slug": "german-revolution-of-19181919",
+  "name": "German Revolution of 1918–1919",
+  "title": "German Revolution of 1918–1919",
+  "wikipedia": "German revolution of 1918–1919",
+  "years": [
+    1918,
+    1918
+  ],
+  "editions": 60,
+  "infobox_years": [
+    1918,
+    1919
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Overthrow of the German Empire.",
+  "result": "Weimar Republic victory",
+  "sides": [
+    {
+      "combatants": [
+        "Imperial German Army",
+        "Free Corps",
+        "Reichswehr",
+        "Der Stahlhelm, Bund der Frontsoldaten",
+        "Social Democratic Party of Germany",
+        "German Empire",
+        "Weimar Republic"
+      ],
+      "civilizations": [
+        "Q41304",
+        "Q43287"
+      ]
+    },
+    {
+      "combatants": [
+        "Social Democratic Party of Germany",
+        "Independent Social Democratic Party of Germany",
+        "Spartacus League",
+        "Communist Party of Germany",
+        "International Communists of Germany",
+        "Revolutionary Stewards",
+        "Free Association of German Trade Unions",
+        "People's State of Bavaria",
+        "Bavarian Soviet Republic",
+        "Bremen Soviet Republic",
+        "Würzburg Soviet Republic",
+        "Alsace-Lorraine Soviet Republic"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q41304",
+        "name": "Weimar Republic",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

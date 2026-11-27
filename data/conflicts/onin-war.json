@@ -47,12 +47,15 @@
         "evidence": [
           "mutual"
         ]
-      },
+      }
+    ],
+    "founding": [
       {
         "id": "Q204023",
         "name": "Warring States Japan",
         "evidence": [
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ]

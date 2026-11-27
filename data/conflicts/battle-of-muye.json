@@ -39,6 +39,17 @@
     }
   ],
   "roles": {
+    "central": [
+      {
+        "id": "Q128938",
+        "name": "Shang Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
     "ending": [
       {
         "id": "Q128938",
@@ -47,6 +58,16 @@
           "infobox",
           "mutual",
           "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q35216",
+        "name": "Zhou Dynasty",
+        "evidence": [
+          "mutual",
+          "override"
         ]
       }
     ]

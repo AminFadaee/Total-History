@@ -1,0 +1,53 @@
+{
+  "id": "Q952881",
+  "slug": "second-french-intervention-in-mexico",
+  "name": "Second French intervention in Mexico",
+  "title": "Second French intervention in Mexico",
+  "wikipedia": "Second French intervention in Mexico",
+  "years": [
+    1861,
+    1867
+  ],
+  "editions": 35,
+  "infobox_years": [
+    1861,
+    1867
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military invasion of the Republic of Mexico by the French Empire of Napoleon III, purportedly to force the collection of Mexican debts in conjunction with Great Britain and Spain.",
+  "result": "Republican victory",
+  "sides": [
+    {
+      "combatants": [
+        "Second Federal Republic of Mexico"
+      ],
+      "civilizations": [
+        "Q7443295"
+      ]
+    },
+    {
+      "combatants": [
+        "Second French Empire",
+        "Second Mexican Empire"
+      ],
+      "civilizations": [
+        "Q371334",
+        "Q71092"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q371334",
+        "name": "Second Mexican Empire",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

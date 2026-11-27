@@ -42,11 +42,12 @@
     }
   ],
   "roles": {
-    "central": [
+    "founding": [
       {
         "id": "Q102679",
         "name": "Kingdom of Numidia",
         "evidence": [
+          "override",
           "wikidata"
         ]
       }

@@ -1,0 +1,76 @@
+{
+  "id": "Q2568851",
+  "slug": "battle-of-baku",
+  "name": "Battle of Baku",
+  "title": "Battle of Baku",
+  "wikipedia": "Battle of Baku",
+  "years": [
+    1918,
+    1918
+  ],
+  "editions": 25,
+  "infobox_years": [
+    1918,
+    1918
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    49.783333,
+    40.45
+  ],
+  "summary": "Battles involving Armenian National movement.",
+  "result": "Central Powers victory",
+  "sides": [
+    {
+      "combatants": [
+        "Central Powers",
+        "Azerbaijan Democratic Republic",
+        "Mensheviks",
+        "Socialist Revolutionary Party",
+        "Armenian Revolutionary Federation",
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q206411",
+        "Q28513",
+        "Q43287"
+      ]
+    },
+    {
+      "combatants": [
+        "26 Baku Commissars",
+        "Russian Soviet Federative Socialist Republic"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Centrocaspian Dictatorship",
+        "Armenian Revolutionary Federation",
+        "White movement",
+        "Democratic Republic of Georgia",
+        "United Kingdom of Great Britain and Ireland",
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q34266"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q206411",
+        "name": "Azerbaijan Democratic Republic",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

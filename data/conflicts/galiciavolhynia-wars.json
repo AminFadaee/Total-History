@@ -1,0 +1,61 @@
+{
+  "id": "Q2545349",
+  "slug": "galiciavolhynia-wars",
+  "name": "Galicia–Volhynia Wars",
+  "title": "Galicia–Volhynia Wars",
+  "wikipedia": "Galicia–Volhynia Wars",
+  "years": [
+    1340,
+    1392
+  ],
+  "editions": 14,
+  "infobox_years": [
+    1340,
+    1392
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Several wars fought in the years 1340–1392 over the succession in the Kingdom of Galicia–Volhynia, also known as Ruthenia.",
+  "result": "Fall of the Kingdom of Galicia–Volhynia",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Poland",
+        "Kingdom of Hungary",
+        "Duchy of Masovia"
+      ],
+      "civilizations": [
+        "Q171150",
+        "Q8890160"
+      ]
+    },
+    {
+      "combatants": [
+        "Grand Duchy of Lithuania",
+        "Golden Horde"
+      ],
+      "civilizations": [
+        "Q49683",
+        "Q79965"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q239502",
+        "name": "Kingdom of Galicia–Volhynia",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

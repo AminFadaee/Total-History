@@ -47,12 +47,13 @@
     }
   ],
   "roles": {
-    "central": [
+    "ending": [
       {
         "id": "Q218272",
         "name": "French Algeria",
         "evidence": [
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ],

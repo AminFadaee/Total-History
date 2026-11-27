@@ -1,0 +1,49 @@
+{
+  "id": "Q5162457",
+  "slug": "nandamauryan-war",
+  "name": "Conquest of the Nanda Empire",
+  "title": "Conquest of the Nanda Empire",
+  "wikipedia": "Nanda–Mauryan War",
+  "years": [
+    -321,
+    -320
+  ],
+  "editions": 4,
+  "infobox_years": [
+    -323,
+    -321
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A war fought in ancient India from c. 323 BCE to 321 BCE between the Emperor Dhana Nanda of the Nanda dynasty and the forces of Chandragupta Maurya that led to the establishment of the Mauryan Empire in Magadha.",
+  "result": "Mauryan victory",
+  "sides": [
+    {
+      "combatants": [
+        "Nanda Empire"
+      ],
+      "civilizations": [
+        "Q949268"
+      ]
+    },
+    {
+      "combatants": [
+        "list of Mauryan rulers"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q949268",
+        "name": "Nanda Empire",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

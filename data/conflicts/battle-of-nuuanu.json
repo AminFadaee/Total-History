@@ -1,0 +1,51 @@
+{
+  "id": "Q4871927",
+  "slug": "battle-of-nuuanu",
+  "name": "Battle of Nuʻuanu",
+  "title": "Battle of Nuʻuanu",
+  "wikipedia": "Battle of Nuʻuanu",
+  "years": [
+    1795,
+    1795
+  ],
+  "editions": 1,
+  "infobox_years": [
+    1795,
+    1795
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -157.79313888888888,
+    21.367055555555556
+  ],
+  "summary": "A key battle in the final days of King Kamehameha I's wars to conquer the Hawaiian Islands.",
+  "result": "Kamehameha I victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Hawaï'i"
+      ],
+      "civilizations": [
+        "Q156418"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q156418",
+        "name": "Kingdom of Hawaï'i",
+        "evidence": [
+          "infobox",
+          "override"
+        ]
+      }
+    ]
+  }
+}

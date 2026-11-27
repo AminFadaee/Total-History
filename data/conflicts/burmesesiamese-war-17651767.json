@@ -38,13 +38,14 @@
     }
   ],
   "roles": {
-    "central": [
+    "ending": [
       {
         "id": "Q841364",
         "name": "Ayutthaya Kingdom",
         "evidence": [
           "infobox",
           "mutual",
+          "override",
           "wikidata"
         ]
       }

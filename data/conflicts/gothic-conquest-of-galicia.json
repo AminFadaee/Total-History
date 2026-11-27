@@ -1,0 +1,53 @@
+{
+  "id": "Q139022679",
+  "slug": "gothic-conquest-of-galicia",
+  "name": "Gothic conquest of Galicia",
+  "title": "Gothic conquest of Galicia",
+  "wikipedia": "Gothic conquest of Galicia",
+  "years": [
+    569,
+    585
+  ],
+  "editions": 1,
+  "infobox_years": [
+    569,
+    585
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A prolonged military conflict between the Visigothic king Liuvigild and the Suebi Kingdom of Galicia, culminating in the latter's defeat and annexation in 585.",
+  "result": "Galicia annexed by the Visigothic Kingdom",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of the Suebi"
+      ],
+      "civilizations": [
+        "Q1048918"
+      ]
+    },
+    {
+      "combatants": [
+        "Visigothic Kingdom"
+      ],
+      "civilizations": [
+        "Q126936"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q1048918",
+        "name": "Kingdom of the Suebi",
+        "evidence": [
+          "infobox",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

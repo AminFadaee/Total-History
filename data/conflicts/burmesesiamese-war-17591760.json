@@ -1,0 +1,53 @@
+{
+  "id": "Q1632880",
+  "slug": "burmesesiamese-war-17591760",
+  "name": "Burmese–Siamese War of 1759–60",
+  "title": "Burmese–Siamese War of 1759–60",
+  "wikipedia": "Burmese–Siamese War (1759–1760)",
+  "years": [
+    1759,
+    1760
+  ],
+  "editions": 9,
+  "infobox_years": [
+    1759,
+    1760
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The military conflict between the Konbaung dynasty of Burma and the Ban Phlu Luang Dynasty of the Ayutthaya Kingdom of Siam, in which the Burmese forces under King Alaungpaya of the Konbaung dynasty invaded Siam.",
+  "result": "Inconclusive. Burmese gained Dawei and upper Tenasserim but failed to capture Ayutthaya.",
+  "sides": [
+    {
+      "combatants": [
+        "Konbaung Dynasty"
+      ],
+      "civilizations": [
+        "Q1062422"
+      ]
+    },
+    {
+      "combatants": [
+        "Ayutthaya Kingdom"
+      ],
+      "civilizations": [
+        "Q841364"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q841364",
+        "name": "Ayutthaya Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

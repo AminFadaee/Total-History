@@ -1,0 +1,52 @@
+{
+  "id": "Q114717",
+  "slug": "siege-of-pavia-773774",
+  "name": "Siege of Pavia",
+  "title": "Siege of Pavia",
+  "wikipedia": "Siege of Pavia (773–774)",
+  "years": [
+    773,
+    774
+  ],
+  "editions": 15,
+  "infobox_years": [
+    773,
+    774
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    9.154166666666667,
+    45.184999999999995
+  ],
+  "summary": "Fought in 773–774 in northern Italy, near Ticinum, and resulted in the victory of the Franks under Charlemagne against the Lombards under King Desiderius.",
+  "result": "Frankish Victory",
+  "sides": [
+    {
+      "combatants": [
+        "Francia"
+      ],
+      "civilizations": [
+        "Q146246"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of the Lombards"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q130900",
+        "name": "Lombards",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

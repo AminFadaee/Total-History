@@ -38,13 +38,14 @@
     }
   ],
   "roles": {
-    "central": [
+    "ending": [
       {
         "id": "Q746558",
         "name": "Emirate of Bukhara",
         "evidence": [
           "infobox",
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ]

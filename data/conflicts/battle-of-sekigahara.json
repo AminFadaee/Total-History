@@ -37,12 +37,13 @@
     }
   ],
   "roles": {
-    "central": [
+    "founding": [
       {
         "id": "Q205662",
         "name": "Tokugawa Shogunate",
         "evidence": [
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ]

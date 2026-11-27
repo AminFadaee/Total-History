@@ -1,0 +1,55 @@
+{
+  "id": "Q1361199",
+  "slug": "conquest-of-the-khanate-of-sibir",
+  "name": "Conquest of the Khanate of Sibir",
+  "title": "Conquest of the Khanate of Sibir",
+  "wikipedia": "Conquest of the Khanate of Sibir",
+  "years": [
+    1581,
+    1585
+  ],
+  "editions": 8,
+  "infobox_years": [
+    1582,
+    1598
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    105,
+    60
+  ],
+  "summary": "A Muslim state located just east of the middle Ural Mountains.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Tsardom of Russia"
+      ],
+      "civilizations": [
+        "Q186096"
+      ]
+    },
+    {
+      "combatants": [
+        "Khanate of Sibir"
+      ],
+      "civilizations": [
+        "Q190513"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q190513",
+        "name": "Khanate of Sibir",
+        "evidence": [
+          "infobox",
+          "override"
+        ]
+      }
+    ]
+  }
+}

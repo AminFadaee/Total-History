@@ -1,0 +1,48 @@
+{
+  "id": "Q7509876",
+  "slug": "siege-of-bijapur",
+  "name": "Siege of Bijapur",
+  "title": "Siege of Bijapur",
+  "wikipedia": "Siege of Bijapur",
+  "years": [
+    1685,
+    1686
+  ],
+  "editions": 4,
+  "infobox_years": [
+    1685,
+    1686
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    75.7087,
+    16.8276
+  ],
+  "summary": "A military conflict between the Mughal Empire and the Bijapur Sultanate, over the latter's fortified capital city of Bijapur.",
+  "result": "Mughal victory",
+  "sides": [
+    {
+      "combatants": [],
+      "civilizations": []
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q83821",
+        "name": "Bijapur Sultanate",
+        "evidence": [
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

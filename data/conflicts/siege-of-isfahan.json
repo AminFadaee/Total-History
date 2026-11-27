@@ -1,0 +1,56 @@
+{
+  "id": "Q5913740",
+  "slug": "siege-of-isfahan",
+  "name": "Siege of Isfahan",
+  "title": "Siege of Isfahan",
+  "wikipedia": "Siege of Isfahan",
+  "years": [
+    1722,
+    1722
+  ],
+  "editions": 12,
+  "infobox_years": [
+    1722,
+    1722
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    51.6675,
+    32.644722222
+  ],
+  "summary": "A six-month-long siege of Isfahan, the capital of the Safavid dynasty of Iran, by the Hotaki-led Afghan army.",
+  "result": "Hotaki victory",
+  "sides": [
+    {
+      "combatants": [
+        "Hotaki Dynasty"
+      ],
+      "civilizations": [
+        "Q627449"
+      ]
+    },
+    {
+      "combatants": [
+        "Safavid Dynasty"
+      ],
+      "civilizations": [
+        "Q18234383"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q18234383",
+        "name": "Safavid Dynasty",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  },
+  "map": "conflicts/conflict-maps/siege-of-isfahan.png",
+  "map_asked": false
+}

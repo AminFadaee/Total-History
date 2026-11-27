@@ -54,13 +54,25 @@
         "evidence": [
           "infobox"
         ]
-      },
+      }
+    ],
+    "ending": [
       {
         "id": "Q193152",
         "name": "Great Moravia",
         "evidence": [
           "infobox",
-          "mutual"
+          "mutual",
+          "override"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q2899771",
+        "name": "Principality of Hungary",
+        "evidence": [
+          "override"
         ]
       }
     ]

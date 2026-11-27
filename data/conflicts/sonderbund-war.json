@@ -1,0 +1,74 @@
+{
+  "id": "Q688297",
+  "slug": "sonderbund-war",
+  "name": "Sonderbund War",
+  "title": "Sonderbund War",
+  "wikipedia": "Sonderbund War",
+  "years": [
+    1847,
+    1847
+  ],
+  "editions": 31,
+  "infobox_years": [
+    1847,
+    1847
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A civil war in Switzerland, then still a relatively loose confederacy of cantons.",
+  "result": "Confederate victory",
+  "sides": [
+    {
+      "combatants": [
+        "Restoration in Switzerland",
+        "Canton of Appenzell Ausserrhoden",
+        "Swiss Confederation",
+        "Canton of Aargau",
+        "Canton of Basel-Landschaft",
+        "Canton of Basel-Stadt",
+        "Bern",
+        "Geneva",
+        "Glarus",
+        "Canton of the Grisons",
+        "Schaffhausen",
+        "St. Gallen",
+        "Solothurn",
+        "Canton of Thurgau",
+        "Canton of Ticino",
+        "Canton of Vaud",
+        "Zurich"
+      ],
+      "civilizations": [
+        "Q39"
+      ]
+    },
+    {
+      "combatants": [
+        "Fribourg",
+        "Lucerne",
+        "Canton of Nidwalden",
+        "Canton of Obwalden",
+        "Schwyz",
+        "Uri",
+        "Canton of Valais",
+        "Zug"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q39",
+        "name": "Swiss Confederation",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

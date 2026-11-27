@@ -1,0 +1,61 @@
+{
+  "id": "Q703523",
+  "slug": "battle-of-stilo",
+  "name": "Battle of Stilo",
+  "title": "Battle of Stilo",
+  "wikipedia": "Battle of Stilo",
+  "years": [
+    982,
+    982
+  ],
+  "editions": 19,
+  "infobox_years": [
+    982,
+    982
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    17.2022,
+    39.0254
+  ],
+  "summary": "Fought on 13 or 14 July 982 near Crotone in Calabria between the forces of Holy Roman Emperor Otto II and his Italo-Lombard allies and those of the Kalbid emir of Sicily, Abu'l-Qasim, who had declared a holy war against the Germans.",
+  "result": "Fatimid-Sicilian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Holy Roman Empire",
+        "Duchy of Benevento"
+      ],
+      "civilizations": [
+        "Q12548"
+      ]
+    },
+    {
+      "combatants": [
+        "Fatimid Caliphate",
+        "Emirate of Sicily"
+      ],
+      "civilizations": [
+        "Q1250763",
+        "Q160307"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q1250763",
+        "name": "Emirate of Sicily",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  },
+  "map": "conflicts/conflict-maps/battle-of-stilo.png",
+  "map_asked": true
+}

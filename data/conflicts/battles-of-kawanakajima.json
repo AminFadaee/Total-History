@@ -1,0 +1,50 @@
+{
+  "id": "Q1143044",
+  "slug": "battles-of-kawanakajima",
+  "name": "Battles of Kawanakajima",
+  "title": "Battles of Kawanakajima",
+  "wikipedia": "Battles of Kawanakajima",
+  "years": [
+    1553,
+    1564
+  ],
+  "editions": 22,
+  "infobox_years": [
+    1553,
+    1564
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    138.194722,
+    36.648611
+  ],
+  "summary": "A series of battles fought in the Sengoku period of Japan between Takeda Shingen of Kai Province and Uesugi Kenshin of Echigo Province from 1553 to 1564.",
+  "result": "Inconclusive",
+  "sides": [
+    {
+      "combatants": [
+        "Takeda clan"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Uesugi clan"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q204023",
+        "name": "Warring States Japan",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

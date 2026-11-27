@@ -43,21 +43,20 @@
     }
   ],
   "roles": {
-    "central": [
-      {
-        "id": "Q181254",
-        "name": "Nicaean Empire",
-        "evidence": [
-          "mutual"
-        ]
-      }
-    ],
     "founding": [
       {
         "id": "Q178897",
         "name": "Latin Empire",
         "evidence": [
           "mutual"
+        ]
+      },
+      {
+        "id": "Q181254",
+        "name": "Nicaean Empire",
+        "evidence": [
+          "mutual",
+          "override"
         ]
       }
     ]

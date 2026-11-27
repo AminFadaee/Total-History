@@ -1,0 +1,34 @@
+{
+  "id": "Q193245",
+  "slug": "carnation-revolution",
+  "name": "Carnation Revolution",
+  "title": "Carnation Revolution",
+  "wikipedia": "Carnation Revolution",
+  "years": [
+    1974,
+    1974
+  ],
+  "editions": 62,
+  "infobox_years": null,
+  "years_confirmed": false,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    -9,
+    39
+  ],
+  "summary": "A military coup in Portugal by officers that on 25 April 1974 overthrew Marcelo Caetano and the Estado Novo regime established by António de Oliveira Salazar.",
+  "result": "",
+  "sides": [],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q824489",
+        "name": "Estado Novo",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

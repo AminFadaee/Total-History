@@ -1,0 +1,65 @@
+{
+  "id": "Q101534",
+  "slug": "february-revolution",
+  "name": "February Revolution",
+  "title": "February Revolution",
+  "wikipedia": "February Revolution",
+  "years": [
+    1917,
+    1917
+  ],
+  "editions": 84,
+  "infobox_years": [
+    1917,
+    1917
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The first of two revolutions which took place in Russia in 1917.",
+  "result": "Revolutionary victory",
+  "sides": [
+    {
+      "combatants": [
+        "Russian Empire",
+        "Saint Petersburg Police",
+        "Special Corps of Gendarmes",
+        "Ministry of Internal Affairs (Russian Empire)",
+        "Imperial Russian Army",
+        "Black Hundreds",
+        "Russian Assembly",
+        "Russian Monarchist Union",
+        "Union of the Russian People"
+      ],
+      "civilizations": [
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "socialism",
+        "Socialist Revolutionary Party",
+        "Communist Party of the Soviet Union",
+        "Russian Social Democratic Labour Party (menshevik)",
+        "Armenian Revolutionary Federation",
+        "Progressive Bloc",
+        "Constitutional Democratic Party",
+        "Union of October 17",
+        "Progressive Party"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q34266",
+        "name": "Russian Empire",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

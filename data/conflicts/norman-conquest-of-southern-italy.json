@@ -67,12 +67,13 @@
     }
   ],
   "roles": {
-    "central": [
+    "ending": [
       {
         "id": "Q1250763",
         "name": "Emirate of Sicily",
         "evidence": [
-          "infobox"
+          "infobox",
+          "override"
         ]
       }
     ],

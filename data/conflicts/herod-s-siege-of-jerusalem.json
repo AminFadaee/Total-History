@@ -1,0 +1,53 @@
+{
+  "id": "Q11160826",
+  "slug": "herod-s-siege-of-jerusalem",
+  "name": "Siege of Jerusalem",
+  "title": "Herod's siege of Jerusalem",
+  "wikipedia": "Herod's siege of Jerusalem",
+  "years": [
+    -37,
+    -37
+  ],
+  "editions": 9,
+  "infobox_years": [
+    -36,
+    -36
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    35.216666666667,
+    31.783333333333
+  ],
+  "summary": "The final step in his campaign to secure the throne of Judea.",
+  "result": "Roman-Herodian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Herodian dynasty",
+        "Roman Republic"
+      ],
+      "civilizations": [
+        "Q17167"
+      ]
+    },
+    {
+      "combatants": [
+        "Hasmonean dynasty"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q104028",
+        "name": "Judea",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

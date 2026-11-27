@@ -1,0 +1,77 @@
+{
+  "id": "Q190517",
+  "slug": "1911-revolution",
+  "name": "Xinhai Revolution",
+  "title": "Xinhai Revolution",
+  "wikipedia": "1911 Revolution",
+  "years": [
+    1911,
+    1912
+  ],
+  "editions": 70,
+  "infobox_years": [
+    1911,
+    1912
+  ],
+  "years_confirmed": true,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "End of Qing dynasty in China.",
+  "result": "Revolutionary victory",
+  "sides": [
+    {
+      "combatants": [
+        "Military of the Qing dynasty",
+        "Royalist Party",
+        "Qing Dynasty"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    },
+    {
+      "combatants": [
+        "Tongmenghui",
+        "Yellow Sand Society",
+        "Shanxi Military Government",
+        "Szechwan Military Government",
+        "Great China Yunnan Military Governor's Office",
+        "Gelaohui",
+        "Tiandihui",
+        "Ganden Phodrang",
+        "Bogd Khanate of Mongolia",
+        "Tannu Uriankhai",
+        "Republic of China",
+        "Tibet"
+      ],
+      "civilizations": [
+        "Q13426199"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q8733",
+        "name": "Qing Dynasty",
+        "evidence": [
+          "override"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q13426199",
+        "name": "Republic of China",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

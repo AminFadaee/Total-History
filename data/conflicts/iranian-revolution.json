@@ -1,0 +1,31 @@
+{
+  "id": "Q126065",
+  "slug": "iranian-revolution",
+  "name": "Iranian Revolution",
+  "title": "Iranian Revolution",
+  "wikipedia": "Iranian Revolution",
+  "years": [
+    1978,
+    1979
+  ],
+  "editions": 95,
+  "infobox_years": null,
+  "years_confirmed": false,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Revolution in Iran from 1978 to 1979.",
+  "result": "",
+  "sides": [],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q107258515",
+        "name": "Pahlavi Dynasty",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

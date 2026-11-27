@@ -1,0 +1,79 @@
+{
+  "id": "Q2697981",
+  "slug": "argentine-civil-wars",
+  "name": "Argentine Civil Wars",
+  "title": "Argentine Civil Wars",
+  "wikipedia": "Argentine Civil Wars",
+  "years": [
+    1814,
+    1880
+  ],
+  "editions": 20,
+  "infobox_years": [
+    1814,
+    1880
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of civil conflicts of varying intensity that took place from 1814 to 1853 in the territories of Argentina.",
+  "result": "Sanction of the Constitution in 1853",
+  "sides": [
+    {
+      "combatants": [
+        "League Federal",
+        "Banda Oriental",
+        "Córdoba Province",
+        "Entre Ríos Province",
+        "Corrientes Province",
+        "Santa Fe Province",
+        "Misiones Orientales",
+        "Federal pact",
+        "La Rioja Province",
+        "Santiago del Estero Province",
+        "Buenos Aires Province",
+        "Argentine Confederation",
+        "National Autonomist Party"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Supreme Director of the United Provinces of the Río de la Plata",
+        "Buenos Aires Province",
+        "Tucumán Province",
+        "Salta Province",
+        "Mendoza Province",
+        "Catamarca Province",
+        "Santiago del Estero Province",
+        "Unitarian League",
+        "Córdoba Province",
+        "San Luis Province",
+        "San Juan Province",
+        "La Rioja Province",
+        "Ejército Grande",
+        "Entre Ríos Province",
+        "Corrientes Province",
+        "Santa Fe Province",
+        "Colorado Party",
+        "Empire of Brazil",
+        "State of Buenos Aires"
+      ],
+      "civilizations": [
+        "Q217230"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q414",
+        "name": "Argentine Republic",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

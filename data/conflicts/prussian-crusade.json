@@ -1,0 +1,99 @@
+{
+  "id": "Q2665664",
+  "slug": "prussian-crusade",
+  "name": "Prussian Crusade",
+  "title": "Prussian Crusade",
+  "wikipedia": "Prussian Crusade",
+  "years": [
+    1217,
+    1274
+  ],
+  "editions": 26,
+  "infobox_years": [
+    997,
+    1274
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of 13th-century campaigns of Roman Catholic crusaders, primarily led by the Teutonic Knights, to Christianize under duress the pagan Old Prussians.",
+  "result": "Teutonic Knights gain control of Prussia",
+  "sides": [
+    {
+      "combatants": [
+        "Crusades",
+        "Teutonic Order",
+        "Order of Dobrzyń",
+        "Duchy of Masovia",
+        "Kingdom of Poland",
+        "Holy Roman Empire",
+        "Kingdom of Bohemia",
+        "Duchy of Silesia",
+        "Brunswick-Lüneburg",
+        "Principality of Brunswick-Wolfenbüttel",
+        "Margraviate of Brandenburg",
+        "Margraviate of Meissen",
+        "March of Lusatia",
+        "Duchy of Thuringia",
+        "Duchy of Austria",
+        "Margraviate of Moravia",
+        "Duchy of Saxony",
+        "Principality of Anhalt",
+        "County of Mark",
+        "Duchy of Jülich",
+        "Magdeburg",
+        "County of Regenstein",
+        "House of Schwarzburg",
+        "House of Habsburg",
+        "Duchy of Pomerania",
+        "Duchy of Pomerelia",
+        "Duchy of Gdańsk",
+        "Duchy of Świecie and Lubiszewo",
+        "Duchy of Lubiszewo",
+        "Kingdom of Galicia–Volhynia",
+        "Order of Calatrava"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q148499",
+        "Q239502",
+        "Q42585",
+        "Q8890160"
+      ]
+    },
+    {
+      "combatants": [
+        "Baltic mythology",
+        "Old Prussians",
+        "Bartians",
+        "Eastern Galindians",
+        "Natangians",
+        "Nadruvians",
+        "Pomesianians",
+        "Pogesania",
+        "Sambians",
+        "Warmians",
+        "Yotvingians",
+        "Skalvians",
+        "Grand Duchy of Lithuania",
+        "Duchy of Pomerania"
+      ],
+      "civilizations": [
+        "Q49683"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q156020",
+        "name": "Teutonic Order",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}
