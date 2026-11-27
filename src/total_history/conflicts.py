@@ -13,7 +13,7 @@ from total_history.naming import slugify
 from total_history.sentences import contribution, first_paragraph, opening
 from total_history.sources import vital
 from total_history.sources.wikidata import Entity, Wikidata, Year
-from total_history.sources.wikipedia import Wikipedia, lead_links, link_targets, plain_text
+from total_history.sources.wikipedia import Wikipedia, lead_links, link_targets, plain_text, without_notes
 
 CONFLICT_ROOTS = ["Q198", "Q178561", "Q831663", "Q188055", "Q645883", "Q124734", "Q6107280"]
 FIGHT_ROOTS = ["Q178561", "Q188055"]
@@ -22,7 +22,7 @@ ALLIANCE_ROOTS = ["Q1127126"]
 ALLIANCE_DEPTH = 2
 CONFLICT_INFOBOX = "Infobox military conflict"
 MIN_EDITIONS = 5
-DECADE_PRECISION = 8
+DATE_PRECISIONS = (9, 8)
 BIG_LEVEL_ALONE, BIG_LEVEL = 3, 4
 BIG_BELLIGERENTS_ALONE, BIG_BELLIGERENTS = 2, 5
 YEARS_BEFORE_END, YEARS_AFTER_END = 5, 1
@@ -42,6 +42,11 @@ SUPPORTERS = re.compile(r"\bsupport(?:ed)?\s+by\b|\bsupport\s*:", re.IGNORECASE)
 FOUNDING_WORDS = re.compile(r"\b(independence|independent|establish\w*|founded|founding|foundation|creation|created|"
                             r"formation|formed|unification|unified|proclaim\w*)\b", re.IGNORECASE)
 VICTORY = re.compile(r"\bvictor(y|ious)\b", re.IGNORECASE)
+ERA_YEAR = re.compile(r"\b(\d{1,4})\s*(BCE|BC|AD|CE)\b|\b(AD|CE)\s*(\d{1,4})\b")
+BARE_YEAR = re.compile(r"(?<![\d/])(\d{3,4})(?!\d)")
+BC = re.compile(r"\bBCE?\b")
+AD = re.compile(r"\b(?:AD|CE)\b")
+YEARS_AGREE = 1
 RESULT_BULLET = re.compile(r"^[\s*•:]+|\s+$")
 SUMMARY_WORDS_BEYOND_NAME = 1
 
@@ -49,8 +54,19 @@ logger = logging.getLogger(__name__)
 
 
 def precise(years: list[Year]) -> list[Year]:
-    """The dates given to the decade or better, or all of them when none is."""
-    return [year for year in years if year.precision >= DECADE_PRECISION] or years
+    """The dates given to the year or better, else to the decade, else all of them: an item that also gives a decade
+    ("1840s" beside 1846) is read by its exact years."""
+    for precision in DATE_PRECISIONS:
+        if found := [year for year in years if year.precision >= precision]:
+            return found
+    return years
+
+
+def confirmed(conflict: "Conflict") -> bool:
+    """Whether Wikidata's years and the infobox's agree, within a year at each end."""
+    box = conflict.infobox.years
+    return conflict.start is not None and box is not None \
+        and abs(conflict.start - box[0]) <= YEARS_AGREE and abs(conflict.end - box[1]) <= YEARS_AGREE
 
 
 class Evidence(StrEnum):
@@ -71,10 +87,11 @@ class Role(StrEnum):
 @dataclass
 class Infobox:
     """Each item and the sides it fought on, an alliance counting for its members; the items each side's column
-    names, in order; and the lines of the result."""
+    names, in order; the lines of the result; and the first and last year its date line names."""
     sides: dict[str, set[str]] = field(default_factory=dict)
     results: list[tuple[set[str], str]] = field(default_factory=list)
     columns: dict[str, list[str]] = field(default_factory=dict)
+    years: tuple[int, int] | None = None
 
 
 @dataclass
@@ -189,7 +206,8 @@ class ConflictCollector:
 
     Reviewed overrides then set or remove a pick, a big war or a civilization's place in one, and a conflict an override
     takes out of a role is not used in another of the civilization's; an override that no longer changes anything
-    fails the run. A conflict whose name another chosen conflict shares is titled by its article or its years."""
+    fails the run. A conflict whose name another chosen conflict shares is titled by its article or its years. Its years
+are confirmed when the infobox's date line names the same first and last year, within a year."""
 
     def __init__(self, http: Http):
         self.http = http
@@ -449,7 +467,8 @@ class ConflictCollector:
         conflicts = {}
         for qid, entity in entities.items():
             sides, results = boxes[qid]
-            infobox = Infobox({}, [(resolved(links), words) for links, words in results])
+            infobox = Infobox({}, [(resolved(links), words) for links, words in results],
+                              years=self._infobox_years(texts.get(entity.enwiki or "", "")))
             for side, links in sides.items():
                 infobox.columns[side] = list(dict.fromkeys(items[title] for title in links if title in items))
                 for item in resolved(links):
@@ -458,7 +477,10 @@ class ConflictCollector:
             starts = [year.earliest for year in precise(entity.years("P580") + entity.years("P585"))]
             ends = [year.latest for year in precise(entity.years("P582") + entity.years("P585"))]
             start = min(starts) if starts else None
-            conflicts[qid] = Conflict(qid, entity.label or qid, entity.enwiki, start, max(ends) if ends else start,
+            end = max(ends) if ends else start
+            if start is not None and end < start:
+                start = end = None
+            conflicts[qid] = Conflict(qid, entity.label or qid, entity.enwiki, start, end,
                                       editions.get(qid, 0), infobox, resolved(leads[qid]),
                                       participants[qid].union(*(members.get(item, set()) for item in participants[qid])),
                                       bool(set(entity.ids("P31")) & fights), entity.coordinates())
@@ -508,6 +530,31 @@ class ConflictCollector:
                         results.append((link_targets(piece), plain_text(piece)))
             break
         return sides, results
+
+    @staticmethod
+    def _infobox_years(wikitext: str) -> tuple[int, int] | None:
+        """The first and last year the infobox's date line names, its notes left out: a year written with its era
+        ("53 BC", "AD 9") or any three- or four-digit number, all BC when the line says BC and never AD."""
+        for template in mw.parse(wikitext).filter_templates():
+            if not str(template.name).strip().lower().startswith(CONFLICT_INFOBOX.lower()):
+                continue
+            date = next((param.value for param in template.params if str(param.name).strip().lower() == "date"), None)
+            if date is None:
+                return None
+            code = without_notes(mw.parse(str(date)))
+            for inner in reversed(code.filter_templates()):
+                values = [str(param.value).strip() for param in inner.params if not param.showkey]
+                try:
+                    code.replace(inner, f" {' '.join(values)} ")
+                except ValueError:
+                    pass
+            text = code.strip_code()
+            before_christ = bool(BC.search(text)) and not AD.search(text)
+            found = [(-int(match.group(1)) if match.group(2).upper().startswith("B") else int(match.group(1)))
+                     if match.group(1) else int(match.group(4)) for match in ERA_YEAR.finditer(text)]
+            found += [-int(year) if before_christ else int(year) for year in BARE_YEAR.findall(ERA_YEAR.sub(" ", text))]
+            return (min(found), max(found)) if found else None
+        return None
 
     def _big(self, civilizations: list[Civilization],
              conflicts: dict[str, Conflict]) -> dict[str, list[tuple[Civilization, Candidate]]]:
@@ -624,5 +671,7 @@ class ConflictCollector:
         result = next((words for _, words in conflict.infobox.results if RESULT_BULLET.sub("", words)), "")
         return {"id": conflict.id, "slug": slugify(conflict.wikipedia or conflict.name), "name": conflict.name, "title": title,
                 "wikipedia": conflict.wikipedia, "years": [conflict.start, conflict.end], "editions": conflict.editions,
+                "infobox_years": list(conflict.infobox.years) if conflict.infobox.years else None,
+                "years_confirmed": confirmed(conflict),
                 "vital_level": level, "battle": conflict.fight, "point": list(conflict.point) if conflict.point else None,
                 "summary": summary, "result": RESULT_BULLET.sub("", result), "sides": sides, "roles": roles}

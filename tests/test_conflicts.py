@@ -87,3 +87,16 @@ def test_overrides_give_their_grounds(tmp_path):
         load_conflict_overrides(path)
     path.write_text(path.read_text() + 'note = "A NATO air campaign the Netherlands joined, not a war of its own."\n')
     assert load_conflict_overrides(path)[0].action == "remove"
+
+
+@pytest.mark.parametrize("date, years", [
+    ("28 July 1914{{snd}}11 November 1918<br>({{Age in years, months and days|year1=1914|year2=1918}})", (1914, 1918)),
+    ("April 12, 1861{{snd}}May 26, 1865{{efn|name=End1|{{Cite web|date=May 29, 1865}}}}", (1861, 1865)),
+    ("633–651{{sfn|Pourshariati|2008|pp=469}}", (633, 651)),
+    ("{{start and end dates|1846|4|25|1848|2|2}}", (1846, 1848)),
+    ("264–146 BC", (-264, -146)),
+    ("54 BC – 217 AD", (-54, 217)),
+    ("July 1–3, 1863", (1863, 1863)),
+])
+def test_infobox_years_read_the_date_line_without_its_notes(date, years):
+    assert ConflictCollector._infobox_years(f"{{{{Infobox military conflict\n|date={date}\n}}}}") == years

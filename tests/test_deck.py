@@ -10,7 +10,7 @@ import pytest
 
 from total_history.deck import (CIVILIZATION_TEMPLATES, CONFLICT_TEMPLATES, FIGURE_TEMPLATES, LINKS, capital_asked,
                                 civilization_guid, conflict_asked, conflict_guid, figure_guid, figure_tier, known_for, named_after,
-                                roles_text, sides_asked, turning_points, sides_text, study_order, told_apart, years_asked, years_text)
+                                roles_text, sides_asked, turning_points, years_note, sides_text, study_order, told_apart, years_asked, years_text)
 
 DECK = pathlib.Path(__file__).resolve().parents[1] / "build" / "total_history.apkg"
 MEDIA_REFERENCE = re.compile(r'src="([^"]+)"')
@@ -143,8 +143,12 @@ def test_a_conflict_never_shares_a_note_with_a_civilization():
     assert conflict_guid("Q8418") not in (civilization_guid("Q8418"), figure_guid("Q8418"))
 
 
-def conflict(title: str, years: tuple, sides: list[list[str]], roles: dict, vital_level: int | None = None) -> dict:
+def conflict(title: str, years: tuple, sides: list[list[str]], roles: dict, vital_level: int | None = None,
+             infobox_years: tuple | None = None) -> dict:
+    box = infobox_years or years
+    confirmed = years[0] is not None and abs(years[0] - box[0]) <= 1 and abs(years[1] - box[1]) <= 1
     return {"id": title, "title": title, "years": list(years), "vital_level": vital_level,
+            "infobox_years": list(box), "years_confirmed": confirmed,
             "sides": [{"combatants": names, "civilizations": []} for names in sides],
             "roles": {role: [{"name": name} for name in names] for role, names in roles.items()}}
 
@@ -196,3 +200,11 @@ def test_rise_and_fall_name_the_conflict_with_its_years():
 def test_new_card_types_come_after_the_old_ones_so_reviews_keep_their_cards():
     names = [template.name for template in CIVILIZATION_TEMPLATES]
     assert names[-2:] == ["Rise", "Fall"] and names.index("Where") == len(names) - 3
+
+
+def test_when_is_asked_only_when_the_sources_agree_and_the_back_says_when_they_do_not():
+    wars = conflict("American Indian Wars", (1609, 1924), [], {"big": ["United States of America"]}, infobox_years=(1609, 1890))
+    assert not years_asked(wars)
+    assert years_note(wars) == "Sources differ: 1609–1924 (Wikidata) · 1609–1890 (Wikipedia)"
+    punic = conflict("Punic Wars", (-264, -146), [], {"central": ["Carthage"]}, vital_level=4, infobox_years=(-264, -146))
+    assert years_asked(punic) and years_note(punic) == ""

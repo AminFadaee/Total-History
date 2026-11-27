@@ -258,7 +258,8 @@ FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap"
                  "ImageCredit", "ImageKind", "Photo", "PhotoCredit", "Related", "Setting")
 
 CONFLICT_TITLE = '{{Name}}<div class="subtitle">{{Years}}</div>'
-CONFLICT_INFO = info(("What", "Summary"), ("Result", "Result"), ("Fought", "Sides"), ("For the deck", "Roles"))
+CONFLICT_INFO = info(("What", "Summary"), ("Result", "Result"), ("Fought", "Sides"), ("For the deck", "Roles"),
+                     ("Dates", "YearsNote"))
 CONFLICT_MAP = conditional("Map", MAP_IMAGE)
 
 CONFLICT_TEMPLATES = (
@@ -273,7 +274,8 @@ CONFLICT_TEMPLATES = (
              face(entity("{{Name}}"), "When", value("{{Years}}", answered=True)) + CONFLICT_INFO + CONFLICT_MAP),
 )
 
-CONFLICT_FIELDS = ("Id", "Name", "Years", "AskYears", "Sides", "AskSides", "Map", "AskMap", "Summary", "Result", "Roles")
+CONFLICT_FIELDS = ("Id", "Name", "Years", "AskYears", "Sides", "AskSides", "Map", "AskMap", "Summary", "Result", "Roles",
+                   "YearsNote")
 
 CSS = """
 .card {
@@ -575,9 +577,20 @@ def sides_asked(document: dict) -> bool:
 
 
 def years_asked(document: dict) -> bool:
-    """Whether the When card is made: for a big war, or a conflict on Vital Articles level 3 or 4, not for a battle."""
+    """Whether the When card is made: for a big war, or a conflict on Vital Articles level 3 or 4, not for a battle,
+    when Wikidata's years and the infobox's agree."""
     level = document.get("vital_level")
-    return bool(years_text(document)) and ("big" in document["roles"] or level is not None and level <= WHEN_VITAL_LEVEL)
+    return bool(document.get("years_confirmed")) \
+        and ("big" in document["roles"] or level is not None and level <= WHEN_VITAL_LEVEL)
+
+
+def years_note(document: dict) -> str:
+    """'Sources differ: 1609–1924 (Wikidata) · 1609–1890 (Wikipedia)', when both give years and they do not agree."""
+    box = document.get("infobox_years")
+    if document.get("years_confirmed") or not box or document["years"][0] is None:
+        return ""
+    theirs = years_text({"years": box})
+    return f"Sources differ: {years_text(document)} (Wikidata) · {theirs} (Wikipedia)"
 
 
 def turning_points(conflicts: list[dict]) -> dict[str, dict[str, str]]:
@@ -743,6 +756,7 @@ class DeckBuilder:
             "Summary": escaped(document["summary"]),
             "Result": escaped(document["result"]),
             "Roles": roles_text(document),
+            "YearsNote": escaped(years_note(document)),
         }
         self._add(self.conflict_model, CONFLICT_FIELDS, CONFLICT_TEMPLATES, values, conflict_tags(document, tier),
                   conflict_guid(document["id"]), position)

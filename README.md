@@ -148,7 +148,7 @@ which finds fewer photographs.
 |---|---|---|---|
 | Who fought | Who fought: Battle of Carrhae | Roman Republic against Parthian Empire | its infobox has two sides, each naming one to four combatants, and it is not a big war |
 | Which conflict | a map of the battlefield, the two sides painted and named, and the year | Battle of Carrhae | it has a map (see below) and no other conflict's map could be taken for it: none with the same two sides within 500 km and 50 years |
-| When | When: Punic Wars | 264–146 BC | it is a big war, or on Wikipedia's Vital Articles level 3 or 4 (mostly major wars; single battles are not asked) |
+| When | When: Punic Wars | 264–146 BC | it is a big war, or on Wikipedia's Vital Articles level 3 or 4 (mostly major wars; single battles are not asked), and Wikidata's years and its infobox's agree within a year at each end |
 
 <p>
   <img src="docs/samples/conflict-who-fought.webp" width="49%" alt="Who fought card for the Battle of Carrhae">
@@ -160,7 +160,9 @@ The conflicts are each civilization's big, founding, central, ending and second 
 [Conflicts](#conflicts) below). A side is named as its infobox names it, a deck civilization by its own name. The back
 shows what the conflict was (the opening sentence of its article without its subject, as for a civilization), the first
 line of its infobox result, its sides, and what it was to each civilization in the deck ("Ended Aztec Triple Alliance ·
-Defining conflict of Crown of Castile").
+Defining conflict of Crown of Castile"). Its years are Wikidata's, to the year where Wikidata gives them so, and when
+the infobox's date line (its notes left out) names other years the back says so: "Sources differ: 1609–1924
+(Wikidata) · 1609–1890 (Wikipedia)". A Wikidata range that ends before it begins is left out.
 
 A conflict has a map when Wikidata gives its battlefield, it is not a big war, and each of its first two sides holds a
 deck civilization Cliopatria draws in its first year within 7 degrees of the battlefield, so both sides are in view. The map is framed on the battlefield, which is crossed; only the
@@ -205,7 +207,7 @@ New cards come a tier at a time, Essential first, then Core, then Extended, and 
 civilizations by when they began, each followed by the tier's people filed first under it, by birth, then by its
 conflicts of the tier, by date; someone or something whose civilization is in another tier, or has no card, comes where
 its own years begin. The Essential tier is about 600 cards, a month at twenty new cards a day; the conflicts add about
-650 cards in all, with the 50 Rise and 140 Fall cards.
+640 cards in all, with the 50 Rise and 140 Fall cards.
 
 To study one kind of question, make a filtered deck from a search such as `card:Capital`,
 `tag:TH::Category::Figures` or `tag:TH::Tier::Essential`. To skip a kind, find it in the browser and suspend the
