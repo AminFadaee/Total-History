@@ -1,0 +1,1209 @@
+# Reviewed corrections to the chosen conflicts. Setting a pick or a place in a big war cites the page and quotes
+# it; removing one gives its reason in the note. Each was checked against the live page; see README, Building it yourself.
+
+[[conflict]]
+civilization = "Achaemenid Empire"
+civilization_id = "Q389688"
+conflict = "Greco-Persian Wars"
+conflict_id = "Q76026"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Achaemenid_Empire"
+quote = "The Ionian Revolt constituted the first major conflict between Greece and the Achaemenid Empire, and as such represents the first phase of the Greco-Persian Wars."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Austria-Hungary"
+civilization_id = "Q28513"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Austria-Hungary"
+quote = "It was dissolved shortly after Hungary terminated the union with Austria in 1918 at the end of World War I."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Austrian Empire"
+civilization_id = "Q131964"
+conflict = "War of the Third Coalition"
+conflict_id = "Q249232"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Austrian_Empire"
+quote = "Austrian unwillingness to join the Third Coalition was overcome by British subsidies, but the Austrians withdrew from the war yet again after a decisive defeat at the Battle of Austerlitz."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Ayyubid Sultanate"
+civilization_id = "Q180114"
+conflict = "Third Crusade"
+conflict_id = "Q51655"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+quote = "Meanwhile, the Crusaders and the Ayyubids fought near Acre that year and were joined by the reinforcements from Europe."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Belgian Congo"
+civilization_id = "Q213510"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Belgian_Congo"
+quote = "During World War I, an initial stand-off between the Force Publique and the German colonial army in German East Africa (Tanganyika) turned into open warfare with a joint Anglo-Belgian invasion of German colonial territory in 1916 and 1917 during the East African campaign."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Belgian Congo"
+civilization_id = "Q213510"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Belgian_Congo"
+quote = "Belgian Congolese forces (with Belgian officers) notably fought against the Italian colonial army in Italian East Africa, and were victorious in Asosa, Bortaï and in the Siege of Saïo under Major-general Auguste-Eduard Gilliaert during the second East African campaign of 1940–1941."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Brazilian Republic"
+civilization_id = "Q155"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Brazil"
+quote = "In addition to its participation in the battle of the Atlantic, Brazil sent an expeditionary force to fight in the Italian campaign."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Brazilian Republic"
+civilization_id = "Q155"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Brazil_during_World_War_I"
+quote = "However, following the repeated sinking of Brazilian merchant ships by German submarines, President Venceslau Brás declared war against the Central Powers in 1917."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "British Empire"
+civilization_id = "Q8680"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/British_Empire"
+quote = "During the Second World War, the Eighth Army was made up of units from many different countries in the British Empire and Commonwealth; it fought in the North African and Italian campaigns."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "British Empire"
+civilization_id = "Q8680"
+conflict = "Napoleonic Wars"
+conflict_id = "Q78994"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/British_Empire"
+quote = "After the defeat of France in the Napoleonic Wars (1803–1815), Britain emerged as the principal naval and imperial power of the 19th century and expanded its imperial holdings."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "British Empire"
+civilization_id = "Q8680"
+conflict = "Seven Years' War"
+conflict_id = "Q33143"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/British_Empire"
+quote = "Along with its victory over France in India, the Seven Years' War therefore left Britain as the world's most powerful maritime power."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "British Raj"
+civilization_id = "Q129286"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/British_Raj"
+quote = "With the outbreak of World War II in 1939, the viceroy, Lord Linlithgow, declared war on India's behalf without consulting Indian leaders, leading the Congress provincial ministries to resign in protest."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "British Raj"
+civilization_id = "Q129286"
+conflict = "Second Anglo-Afghan War"
+conflict_id = "Q233507"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/British_Raj"
+quote = "governmental actions like the use of Indian troops in imperial campaigns (e.g., in the Second Anglo-Afghan War)"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "British Raj"
+civilization_id = "Q129286"
+conflict = "Burma campaign"
+conflict_id = "Q221519"
+role = "ending"
+action = "remove"
+note = "The Raj ended by partition under the Indian Independence Act in 1947, not by the Burma campaign (which ended in 1945). No war ended it."
+source = "https://en.wikipedia.org/wiki/British_Raj"
+quote = "It lasted until 1947 when the British Raj was partitioned into two sovereign dominion states"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Canada"
+civilization_id = "Q16"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Canada"
+quote = "Because Britain still maintained control of Canada's foreign affairs under the British North America Act, 1867, its declaration of war in 1914 automatically brought Canada into the First World War."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Canada"
+civilization_id = "Q16"
+conflict = "Battle of Vimy Ridge"
+conflict_id = "Q393299"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Canada"
+quote = "Volunteers sent to the Western Front later became part of the Canadian Corps, which played a substantial role in the Battle of Vimy Ridge and other major engagements of the war."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Cao Wei"
+civilization_id = "Q320930"
+conflict = "Conquest of Shu by Wei"
+conflict_id = "Q1196063"
+role = "ending"
+action = "remove"
+note = "Wei ended when its last emperor was forced to abdicate to the Jin, not by a war. The conquest of Shu (263) was a Wei victory over another state."
+source = "https://en.wikipedia.org/wiki/Cao_Wei"
+quote = "On 4 February 266, Sima Zhao's son, Sima Yan, forced Cao Huan to abdicate in his favor, replacing Wei with the Jin dynasty on 8 February 266."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Centralist Mexico"
+civilization_id = "Q5062192"
+conflict = "Mexican–American War"
+conflict_id = "Q6683"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Centralist_Republic_of_Mexico"
+quote = "It would ultimately last until 1846, when the Constitution of 1824 was restored at the beginning of the Mexican–American War."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Commonwealth of Australia"
+civilization_id = "Q408"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Australia"
+quote = "In 1914, Australia joined the Allies in the First World War, and took part in the fighting on several fronts."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Commonwealth of England"
+civilization_id = "Q330362"
+conflict = "Second English Civil War"
+conflict_id = "Q3025332"
+role = "founding"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Commonwealth_of_England"
+quote = "the Kingdom of England was dissolved into a republic after the end of the Second English Civil War and the trial and execution of Charles I."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Confederate States of America"
+civilization_id = "Q81931"
+conflict = "Battle of Gettysburg"
+conflict_id = "Q33132"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Confederate_States_of_America"
+quote = "Lee's strike into Pennsylvania was repulsed at Gettysburg, Pennsylvania despite Pickett's famous charge and other acts of valor."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Cossack Hetmanate"
+civilization_id = "Q212439"
+conflict = "Polish–Russian War (1654–1667)"
+conflict_id = "Q631991"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Cossack_Hetmanate"
+quote = "As a result of the treaty, the Zaporozhian Host became an autonomous Hetmanate within the Russian state. The treaty also led to the Russo-Polish War of 1654–1667."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "County of Flanders"
+civilization_id = "Q157070"
+conflict = "Franco-Flemish War"
+conflict_id = "Q195983"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/County_of_Flanders"
+quote = "In 1302 these town militia and few Flemish nobles won an unexpected victory over the French army at the Battle of the Golden Spurs."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Crown of Castile"
+civilization_id = "Q217196"
+conflict = "Reconquista"
+conflict_id = "Q79791"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Reconquista"
+quote = "After his conquest of Córdoba, Ferdinand III of Castile requested financial aid from Pope Gregory IX."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Czechoslovakia"
+civilization_id = "Q33946"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Czechoslovak_government-in-exile"
+quote = "Ultimately, units of the First Division of the Czechoslovak Army fought alongside their hosts in the final stages of the Battle of France."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Czechoslovakia"
+civilization_id = "Q33946"
+conflict = "Warsaw Pact invasion of Czechoslovakia"
+conflict_id = "Q1773668"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Czechoslovakia"
+quote = "A period of political liberalization in 1968, the Prague Spring, ended when the Soviet Union, assisted by other Warsaw Pact countries, invaded Czechoslovakia."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Denmark-Norway"
+civilization_id = "Q62651"
+conflict = "Thirty Years' War"
+conflict_id = "Q2487"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Denmark%E2%80%93Norway"
+quote = "Not long after the Kalmar war, Denmark–Norway became involved in another greater war, in which they fought together with the mainly north German and other Protestant states against the Catholic states led by German Catholic League."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Denmark-Norway"
+civilization_id = "Q62651"
+conflict = "Northern Seven Years' War"
+conflict_id = "Q158677"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Denmark%E2%80%93Norway"
+quote = "After Eric introduced blockades in an attempt to hinder trade with Russia (Sweden and Russia were disputing over Estonia), Lübeck and the Polish–Lithuanian Commonwealth joined Denmark–Norway in a war alliance."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Denmark-Norway"
+civilization_id = "Q62651"
+conflict = "Scanian War"
+conflict_id = "Q166001"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Scanian_War"
+quote = "The Scanian War was a part of the Northern Wars involving the union of Denmark–Norway, Brandenburg and Sweden."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Duchy of Burgundy"
+civilization_id = "Q4712"
+conflict = "Armagnac–Burgundian Civil War"
+conflict_id = "Q1021160"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Armagnac%E2%80%93Burgundian_Civil_War"
+quote = "The Armagnac–Burgundian Civil War was a conflict between two cadet branches of the French royal family: the House of Orléans (Armagnac faction) and the House of Burgundy (Burgundian faction) from 1407 to 1435."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Duchy of Savoy"
+civilization_id = "Q426025"
+conflict = "Siege of Turin"
+conflict_id = "Q693282"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Duchy_of_Savoy"
+quote = "France invaded again, and Savoy was saved by Austrian troops led by the Duke's cousin, Prince Eugene of Savoy at the siege of Turin."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Dutch East Indies"
+civilization_id = "Q188161"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Dutch_East_Indies"
+quote = "Allied forces were quickly overwhelmed by the Japanese and on 8 March 1942 the Royal Dutch East Indies Army surrendered in Java."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Empire of Japan"
+civilization_id = "Q188712"
+conflict = "Second Sino-Japanese War"
+conflict_id = "Q170314"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Empire_of_Japan"
+quote = "The Imperial Japanese Armed Forces initially achieved large-scale military successes during the Second Sino-Japanese War and the Pacific War, most notably in the attack on Pearl Harbor in Hawaii on 7 December 1941."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "First French Empire"
+civilization_id = "Q71084"
+conflict = "Peninsular War"
+conflict_id = "Q152499"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/First_French_Empire"
+quote = "The Iberian Peninsula became a war zone from the Pyrenees to the Straits of Gibraltar and saw the Grande Armée facing the remnants of the Spanish Army, as well as British and Portuguese forces."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Francia"
+civilization_id = "Q146246"
+conflict = "Saxon Wars"
+conflict_id = "Q499909"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Saxon_Wars"
+quote = "The Saxon Wars were 32 years of campaigns and insurrections from 772, when Charlemagne first entered Saxony with the intent to conquer, to 804 when the last rebellion of tribesmen was defeated."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Francoist Spain"
+civilization_id = "Q13474305"
+conflict = "Ifni War"
+conflict_id = "Q1640107"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Francoist_Spain"
+quote = "The year after, Mohammed V invaded Spanish Sahara during the Ifni War (known as the \"Forgotten War\" in Spain)."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Francoist Spain"
+civilization_id = "Q13474305"
+conflict = "Spanish Civil War"
+conflict_id = "Q10859"
+role = "founding"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Francoist_Spain"
+quote = "The regime emerged from the Nationalist side in the Spanish Civil War and developed into a dictatorship centred on Franco and the institutions of the FET y de las JONS"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French First Republic"
+civilization_id = "Q58296"
+conflict = "French Revolutionary Wars"
+conflict_id = "Q207318"
+role = "ending"
+action = "remove"
+note = "The Republic ended when Napoleon was proclaimed Emperor in 1804, not through a war."
+source = "https://en.wikipedia.org/wiki/French_First_Republic"
+quote = "The First Republic lasted until the declaration of the First Empire on 18 May 1804 under Napoléon Bonaparte, although the form of government changed several times."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French Indochina"
+civilization_id = "Q185682"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/French_Indochina"
+quote = "After the Fall of France during World War II, the colony was administered by the Vichy government and was under Japanese occupation until 9 March 1945, when the Japanese army overthrew the colonial regime."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French Third Republic"
+civilization_id = "Q70802"
+conflict = "Spanish Civil War"
+conflict_id = "Q10859"
+role = "big"
+action = "remove"
+note = "France was neutral, not a combatant."
+source = "https://en.wikipedia.org/wiki/French_Third_Republic"
+quote = "Blum declared neutrality in the Spanish Civil War (1936–1939) to avoid the civil conflict spilling over into France itself."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French Third Republic"
+civilization_id = "Q70802"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Battle_of_France"
+quote = "The fascist and collaborationist Vichy government, led by Marshal Philippe Pétain replaced the Third Republic and German military occupation began along the French North Sea and Atlantic coasts and their hinterlands."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French Third Republic"
+civilization_id = "Q70802"
+conflict = "Battle of France"
+conflict_id = "Q151340"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/French_Third_Republic"
+quote = "The French Third Republic (French: Troisième République, sometimes written as La IIIe République) was the system of government adopted in France from 4 September 1870, when the Second French Empire collapsed during the Franco-Prussian War, until 10 July 1940, after the Fall of France during World War II led to the formation of the Vichy government."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French colonial empire"
+civilization_id = "Q179023"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/French_colonial_empire"
+quote = "By 1943, all of the colonies, except for Indochina under Japanese control, had joined the Free French cause."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French colonial empire"
+civilization_id = "Q179023"
+conflict = "Seven Years' War"
+conflict_id = "Q33143"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/French_colonial_empire"
+quote = "France began to establish colonies in the Americas, the Caribbean, and India in the 16th century but lost most of its possessions after its defeat in the Seven Years' War."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French colonial empire"
+civilization_id = "Q179023"
+conflict = "First Indochina War"
+conflict_id = "Q748780"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/French_colonial_empire"
+quote = "The war dragged on until 1954, when the Viet Minh decisively defeated the French at the Battle of Điện Biên Phủ in northern Vietnam, which was the last major battle between the French and the Vietnamese in the First Indochina War."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French colonial empire"
+civilization_id = "Q179023"
+conflict = "Algerian War"
+conflict_id = "Q200790"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/French_colonial_empire"
+quote = "Robert Aldrich argues that with Algerian independence in 1962, it appeared that the Empire practically had come to an end, as the remaining colonies were quite small and lacked active nationalist movements."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "German Empire"
+civilization_id = "Q43287"
+conflict = "Second Boer War"
+conflict_id = "Q215112"
+role = "big"
+action = "remove"
+note = "The German Empire was neutral; it supported the Boers diplomatically and only volunteers fought."
+source = "https://en.wikipedia.org/wiki/Second_Boer_War"
+quote = "As a result, the Boer cause attracted volunteers from neutral countries, including the German Empire, the United States, Russia and parts of the British Empire, such as Australia and Ireland."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Gran Colombia"
+civilization_id = "Q199821"
+conflict = "Peruvian–Bolivian War of 1828"
+conflict_id = "Q5816677"
+role = "ending"
+action = "remove"
+note = "It was dissolved by political secession in 1830–31, not ended by a war."
+source = "https://en.wikipedia.org/wiki/Gran_Colombia"
+quote = "Gran Colombia was dissolved in 1831 due to the political differences that existed between supporters of federalism and centralism, as well as regional tensions among the peoples that made up the republic."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Habsburg Monarchy"
+civilization_id = "Q153136"
+conflict = "Thirty Years' War"
+conflict_id = "Q2487"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
+quote = "Regaining control was vital for the Austrian Habsburgs, but chronic financial weakness left them dependent on Maximilian and Spain for the resources needed to achieve this."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Habsburg Monarchy"
+civilization_id = "Q153136"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Habsburg_monarchy"
+quote = "The monarchy began to fracture in the face of inevitable defeat during the final years of World War I and ultimately disbanded with proclamation of the State of Slovenes, Croats and Serbs, the Republic of German-Austria and the First Hungarian Republic in late 1918."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Italian Africa"
+civilization_id = "Q926295"
+conflict = "Second Italo-Ethiopian War"
+conflict_id = "Q94916"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Italian_Empire"
+quote = "In its second invasion of Ethiopia in 1935–36, Italy was successful and it merged its new conquest with its older east African colonies to create Italian East Africa (Italian: Africa Orientale Italiana)."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kazakh Khanate"
+civilization_id = "Q1433867"
+conflict = "Kazakh–Dzungar Wars"
+conflict_id = "Q4208075"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Kazakh_Khanate"
+quote = "Before he became khan, Ablai participated in the Kazakh–Dzungar Wars and proved himself a talented organizer and commander."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Khwarezmid Empire"
+civilization_id = "Q63134381"
+conflict = "Mongol campaigns in Central Asia"
+conflict_id = "Q2330335"
+role = "second"
+action = "remove"
+note = "This umbrella campaign's Khwarazmian part is the same Mongol invasion of the Khwarazmian Empire already used for this civ (that article is also in data/conflicts), so the second slot duplicates it."
+source = "https://en.wikipedia.org/wiki/Mongol_campaigns_in_Central_Asia"
+quote = "These were followed by a major campaign against Khwarazm."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Bavaria"
+civilization_id = "Q154195"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Bavaria"
+quote = "In July 1914, the Bavarian Army numbered 92,400 or 11 percent of the total Imperial German Army."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of England"
+civilization_id = "Q179876"
+conflict = "Wars of the Roses"
+conflict_id = "Q127751"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Kingdom_of_England"
+quote = "The kingdom had little time to recover before entering the Wars of the Roses (1455–1487), a series of civil wars over possession of the throne between the House of Lancaster (whose heraldic symbol was the red rose) and the House of York (whose symbol was the white rose), each led by different branches of the descendants of Edward III."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of France"
+civilization_id = "Q70972"
+conflict = "Hundred Years' War"
+conflict_id = "Q12551"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Kingdom_of_France"
+quote = "The most notorious of them all are the series of conflicts known as the Hundred Years' War (1337–1453) in which the kings of England laid claim to the French throne."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Hungary"
+civilization_id = "Q171150"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Hungary"
+quote = "This arrangement lasted until 1918, when the Central Powers went down in defeat in World War I."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Naples"
+civilization_id = "Q173065"
+conflict = "Hundred Days"
+conflict_id = "Q199955"
+role = "second"
+action = "remove"
+note = "Naples' part in the Hundred Days is the Neapolitan War, which data/conflicts already uses as this civ's ending. As second it repeats the ending."
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Naples"
+quote = "Therefore, when Napoleon returned to France for the Hundred Days in 1815, Murat once again sided with him."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Portugal"
+civilization_id = "Q45670"
+conflict = "Napoleonic Wars"
+conflict_id = "Q78994"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Peninsular_War"
+quote = "The Peninsular War (1808–1814) was fought in the Iberian Peninsula by the Iberian nations Spain and Portugal, along with the United Kingdom, against the invading and occupying forces of the First French Empire during the Napoleonic Wars."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Sardinia"
+civilization_id = "Q2577303"
+conflict = "First Italian War of Independence"
+conflict_id = "Q920894"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/First_Italian_War_of_Independence"
+quote = "The part of the conflict which was fought by King Charles Albert of Sardinia against Austria in Northern Italy was a royal war and consisted of two campaigns."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Saxony"
+civilization_id = "Q153015"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Royal_Saxon_Army"
+quote = "When the First World War started, the two Saxon Army Corps, and the XII (Royal Saxon) Reserve Corps were mobilized as part of the 3rd Army under command of the former Saxon War Minister, Generaloberst Max von Hausen."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Scotland"
+civilization_id = "Q230791"
+conflict = "Wars of the Three Kingdoms"
+conflict_id = "Q2577772"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Scotland"
+quote = "It also helped precipitate the Wars of the Three Kingdoms, during which the Scots carried out major military interventions."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Serbia"
+civilization_id = "Q241748"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Serbia"
+quote = "On 28 July 1914, Austria-Hungary declared war against Serbia."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Sweden"
+civilization_id = "Q34"
+conflict = "Great Northern War"
+conflict_id = "Q151616"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Sweden"
+quote = "After the Battle of Narva in 1700, one of the first battles of the Great Northern War, the Russian army was so severely devastated that Sweden had an open chance to invade Russia."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Korean Empire"
+civilization_id = "Q28233"
+conflict = "Battle of Namdaemun"
+conflict_id = "Q12601111"
+role = "ending"
+action = "remove"
+note = "It ended by treaty annexation in 1910. The 1907 Namdaemun battle followed the disbanding of the army and did not end the empire."
+source = "https://en.wikipedia.org/wiki/Korean_Empire"
+quote = "After the Japan–Korea Treaty of 1910 was signed on 22 August 1910, the Korean Empire was annexed."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Lan Xang"
+civilization_id = "Q853477"
+conflict = "Đại Việt–Lan Xang War (1479–1484)"
+conflict_id = "Q10747221"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t%E2%80%93Lan_Xang_War_(1479%E2%80%931484)"
+quote = "The Đại Việt–Lan Xang War of 1479–84, also known as the White Elephant War, was a military conflict precipitated by the invasion of the Lao kingdom of Lan Xang by the Vietnamese Đại Việt Empire."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Later Jin Dynasty"
+civilization_id = "Q1062546"
+conflict = "Battle of Dalinghe"
+conflict_id = "Q7480131"
+role = "ending"
+action = "remove"
+note = "Later Jin ended by renaming itself Qing in 1636, not through the 1631 Dalinghe battle."
+source = "https://en.wikipedia.org/wiki/Later_Jin_(1616%E2%80%931636)"
+quote = "The following year, Hong Taiji officially renamed the realm to \"Great Qing\", thus marking the start of the Qing dynasty."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Latin Empire"
+civilization_id = "Q178897"
+conflict = "Struggle for Constantinople (1204–1261)"
+conflict_id = "Q42320984"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Struggle_for_Constantinople_(1204%E2%80%931261)"
+quote = "The struggle for Constantinople was a complex series of conflicts following the dissolution of the Byzantine Empire in the aftermath of the Fourth Crusade in 1204, fought between the Latin Empire established by the Crusaders, various Byzantine successor states, and foreign powers such as the Second Bulgarian Empire and Sultanate of Rum, for control of Constantinople and supremacy within the former imperial territories."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Margraviate of Brandenburg"
+civilization_id = "Q148499"
+conflict = "Thirty Years' War"
+conflict_id = "Q2487"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
+quote = "Once again, French financial power bridged differences between the potential allies, and under the 1631 Treaty of Bärwalde, Richelieu agreed to fund the Swedes and German states including Hesse-Kassel, Saxony, and Brandenburg."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Mexico"
+civilization_id = "Q96"
+conflict = "Spanish Civil War"
+conflict_id = "Q10859"
+role = "big"
+action = "remove"
+note = "Mexico supplied the Republic with aid and arms but did not fight as a combatant."
+source = "https://en.wikipedia.org/wiki/Spanish_Civil_War"
+quote = "Mexico abstained from following the French-British non-intervention proposals, and provided $2,000,000 in aid and material assistance, which included 20,000 rifles and 20 million cartridges."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Mexico"
+civilization_id = "Q96"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Mexico"
+quote = "Historically, Mexico has remained neutral in international conflicts, with the exception of World War II."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Mongol Empire"
+civilization_id = "Q12557"
+conflict = "Mongol conquest of Western Xia"
+conflict_id = "Q14750447"
+role = "founding"
+action = "remove"
+note = "The empire came from the unification of the Mongol tribes, and per the civ article the conflict with Western Xia came after the 1206 proclamation ('Genghis quickly came into conflict with the Jin dynasty of the Jurchens and the Western Xia'). The suggested title doesn't exist, and 'Rise of Genghis Khan' is a biographical article, not a war."
+source = "https://en.wikipedia.org/wiki/Mongol_Empire"
+quote = "With these victories, Temüjin became the undisputed ruler of not only Mongolia, but a newly unified people."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Morocco"
+civilization_id = "Q1028"
+conflict = "Green March"
+conflict_id = "Q870684"
+role = "second"
+action = "remove"
+note = "The Green March was a demonstration, not a war. The suggested Rif War was a Rif uprising against Spain that set up the Republic of the Rif; the Morocco article doesn't show Morocco as a combatant, so no replacement was set."
+source = "https://en.wikipedia.org/wiki/Green_March"
+quote = "The Green March (Arabic: المسيرة الخضراء, romanized: al-masīrat ul-khaḍrāʾ) was a strategic mass demonstration in November 1975, coordinated by the Moroccan government and the military, to force Spain to hand over the disputed, autonomous semi-metropolitan province of Spanish Sahara to Morocco."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Mughal Empire"
+civilization_id = "Q33296"
+conflict = "Deccan wars"
+conflict_id = "Q139845"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Deccan_wars"
+quote = "The Deccan wars, also known as Mughal–Maratha wars, were a series of military conflicts between the Mughals and the Marathas after the death of Maratha Chhatrapati Shivaji in 1680 until the death of Mughal Emperor Aurangzeb in 1707."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Netherlands"
+civilization_id = "Q55"
+conflict = "Indonesian National Revolution"
+conflict_id = "Q1332160"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Netherlands"
+quote = "Soon after VE Day, the Dutch fought a colonial war against the new Republic of Indonesia."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Novgorod Republic"
+civilization_id = "Q151536"
+conflict = "Battle on the Ice"
+conflict_id = "Q14689"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Novgorod_Republic"
+quote = "The Baltic German campaigns ended in failure after the Battle on the Ice in 1242."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Pahlavi Dynasty"
+civilization_id = "Q107258515"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Allies_of_World_War_II"
+quote = "Iran: 9 September 1943"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Papal States"
+civilization_id = "Q170174"
+conflict = "War of the League of Cambrai"
+conflict_id = "Q636365"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/War_of_the_League_of_Cambrai"
+quote = "The main participants of the war, who fought for its entire duration, were France, the Holy Roman Empire, the Papal States, and the Republic of Venice"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Portuguese Republic"
+civilization_id = "Q45"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Portugal"
+quote = "During World War I, Portugal fought for the Allies."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Portuguese Republic"
+civilization_id = "Q45"
+conflict = "Portuguese Colonial War"
+conflict_id = "Q609836"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Portugal"
+quote = "ultimately leading to the Portuguese Colonial War from 1961 to 1974."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Principality of Moldavia"
+civilization_id = "Q10957559"
+conflict = "Battle of Vaslui"
+conflict_id = "Q1073358"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Moldavia"
+quote = "dealt with Ottoman reprisals in a major victory (the 1475 Battle of Vaslui)"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Prussia"
+civilization_id = "Q38872"
+conflict = "Seven Years' War"
+conflict_id = "Q33143"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Seven_Years%27_War"
+quote = "The primary warring states were Great Britain and Prussia fighting against France and Austria"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Prussia"
+civilization_id = "Q38872"
+conflict = "Napoleonic Wars"
+conflict_id = "Q78994"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Napoleonic_Wars"
+quote = "Concerned about increasing French power, Prussia joined Britain and Russia in the Fourth Coalition, which resumed war in October 1806."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Rattanakosin Kingdom"
+civilization_id = "Q1155700"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Siam_in_World_War_I"
+quote = "The Kingdom of Siam, now known as Thailand, was a participant in World War I on the Allied side."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Republic of Finland"
+civilization_id = "Q33"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Finland"
+quote = "During World War II, Finland fought against the Soviet Union in the Winter War and the Continuation War, and later against Nazi Germany in the Lapland War."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Republic of Florence"
+civilization_id = "Q148540"
+conflict = "Italian Wars"
+conflict_id = "Q273348"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Italian_Wars"
+quote = "Later joined by Florence, following the overthrow of Savonarola, the Papal States and Mantua, this coalition cut off Charles and his army from their bases in France."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Republic of Pisa"
+civilization_id = "Q1365493"
+conflict = "Battle of Meloria (1284)"
+conflict_id = "Q118951"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Republic_of_Pisa"
+quote = "The rivalry between Pisa and Republic of Genoa intensified in the 13th century and resulted in the naval Battle of Meloria (1284), with the casus belli of the rally of Giudice di Cinarca in Pisa, fought right in front of the Pisan port."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Republic of Texas"
+civilization_id = "Q170588"
+conflict = "Mexican–American War"
+conflict_id = "Q6683"
+role = "central"
+action = "remove"
+note = "The war followed annexation, so the Republic never fought it. The 1842 invasions are in the civ article ('On March 5, 1842, a Mexican force of over 500 men, led by Ráfael Vásquez, invaded Texas for the first time since the revolution.') but aren't linked to any conflict article, and the suggested title isn't a confirmed article, so I set no replacement."
+source = "https://en.wikipedia.org/wiki/Republic_of_Texas"
+quote = "Consequently, the annexation led to the Mexican–American War."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Republic of Turkey"
+civilization_id = "Q43"
+conflict = "Turkish invasion of Cyprus"
+conflict_id = "Q1050999"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Turkey"
+quote = "Turkey remained neutral during most of World War II, but was involved in the Korean War, and more significantly, in the Cyprus conflict."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Republic of Turkey"
+civilization_id = "Q43"
+conflict = "Kurdish–Turkish conflict"
+conflict_id = "Q6445763"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Turkey"
+quote = "PKK started a \"campaign of terrorist attacks on civilian and military targets\" in the 1980s."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Roman Empire"
+civilization_id = "Q2277"
+conflict = "Revolt of Alaric I"
+conflict_id = "Q64005407"
+role = "ending"
+action = "remove"
+note = "The civ article puts the 395 break down to Theodosius I's death, not a war, and never mentions Alaric's revolt. I set no replacement because the page gives none."
+source = "https://en.wikipedia.org/wiki/Roman_Empire"
+quote = "Theodosius I, the last emperor to rule over both East and West, died in 395 after making Christianity the state religion."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Second Polish Republic"
+civilization_id = "Q207272"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Second_Polish_Republic"
+quote = "The Second Republic was taken over in 1939 on the eve of its twenty-first anniversary, after it was invaded by Nazi Germany, the Soviet Union, and the Slovak Republic, marking the beginning of the European theatre of the Second World War."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Second Spanish Republic"
+civilization_id = "Q178038"
+conflict = "Battle of the Ebro"
+conflict_id = "Q1280119"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Battle_of_the_Ebro"
+quote = "The Battle of the Ebro (Spanish: Batalla del Ebro, Catalan: Batalla de l'Ebre) was the longest and largest battle of the Spanish Civil War"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Sikh Empire"
+civilization_id = "Q83572"
+conflict = "First Anglo-Sikh War"
+conflict_id = "Q582584"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Sikh_Empire"
+quote = "Following the defeat of the Sikhs in the First Anglo-Sikh War"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Silla"
+civilization_id = "Q28456"
+conflict = "Goguryeo–Tang War"
+conflict_id = "Q703179"
+role = "ending"
+action = "remove"
+note = "Silla came out of 668 the victor ('it conquered the other two kingdoms, Paekche in 660 and Goguryeo in 668. Thereafter, Unified Silla occupied most of the Korean Peninsula') and lasted until it handed power to Goryeo in 935. If the deck's Silla civ is meant to end in 668, its dates are the thing to check."
+source = "https://en.wikipedia.org/wiki/Silla"
+quote = "was a Korean kingdom that existed between 57 BCE and 935 CE"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "South Africa"
+civilization_id = "Q258"
+conflict = "World War I"
+conflict_id = "Q361"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Military_history_of_South_Africa_during_World_War_I"
+quote = "South Africa's participation in the First World War occurred automatically when the British Government declared war on Germany in August 1914."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "South Africa"
+civilization_id = "Q258"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/South_Africa"
+quote = "In 1939, the party split over the entry of the Union into World War II as an ally of the United Kingdom"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "South African Republic"
+civilization_id = "Q550374"
+conflict = "Anglo-Zulu War"
+conflict_id = "Q228911"
+role = "second"
+action = "remove"
+note = "The republic had been annexed by Britain by the time of the 1879 Anglo-Zulu War, whose infobox lists the United Kingdom, Colony of Natal and 'Boer Volunteers', not the ZAR (https://en.wikipedia.org/wiki/Anglo-Zulu_War)."
+source = "https://en.wikipedia.org/wiki/South_African_Republic"
+quote = "gave Sir Theophilus Shepstone the pretext he required to annex the republic [as the Transvaal, a British colony, on 12 April 1877]."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Sui Dynasty"
+civilization_id = "Q7405"
+conflict = "Transition from Sui to Tang"
+conflict_id = "Q4272591"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Sui_dynasty"
+quote = "After a series of military campaigns against the Goguryeo in the Korean Peninsula, which had ended in defeat by 614 AD, the dynasty disintegrated amid popular revolts that culminated in the assassination of Emperor Yang by a minister named Yuwen Huaji in 618 AD."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Swedish Empire"
+civilization_id = "Q215443"
+conflict = "Great Northern War"
+conflict_id = "Q151616"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Swedish_Empire"
+quote = "The beginning of the period is usually taken as the reign of Gustavus Adolphus, who ascended the throne in 1611, and its end as the loss of territories in 1721 following the Great Northern War."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Swiss Confederation"
+civilization_id = "Q39"
+conflict = "Aerial incidents in Switzerland in World War II"
+conflict_id = "Q690235"
+role = "central"
+action = "remove"
+note = "The current pick is a set of neutrality-violation incidents, not a war, and the article adds 'Switzerland was not invaded during either of the world wars.' The Sonderbund War (1847) comes just before the 1848 federal state and would be its founding, not central."
+source = "https://en.wikipedia.org/wiki/Switzerland"
+quote = "Switzerland has maintained a policy of armed neutrality since the 16th century and has not fought an international war since 1815."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Teutonic Order"
+civilization_id = "Q156020"
+conflict = "Thirteen Years' War (1454–1466)"
+conflict_id = "Q315921"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/State_of_the_Teutonic_Order"
+quote = "Following its defeat by Poland and Lithuania at the Battle of Grunwald in 1410, the Order faced continuing political and military challenges, culminating in the Thirteen Years' War (1454–1466)."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "United Kingdom of Great Britain and Ireland"
+civilization_id = "Q174193"
+conflict = "Irish Rebellion of 1798"
+conflict_id = "Q944941"
+role = "founding"
+action = "set"
+source = "https://en.wikipedia.org/wiki/United_Kingdom_of_Great_Britain_and_Ireland"
+quote = "A brief period of limited independence for the Kingdom of Ireland came to an end following the Irish Rebellion of 1798, which occurred during the British war with revolutionary France. The Kingdom of Great Britain's fear of an independent Ireland siding against them with Revolutionary France resulted in the decision to unite the two countries."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Vichy France"
+civilization_id = "Q69808"
+conflict = "Battle of France"
+conflict_id = "Q151340"
+role = "founding"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Vichy_France"
+quote = "was a French rump state headed by Marshal Philippe Pétain during World War II, established as a result of German victory in the Battle of France."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Viking settlements"
+civilization_id = "Q12567"
+conflict = "Great Heathen Army"
+conflict_id = "Q1419965"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Great_Heathen_Army"
+quote = "The Great Heathen Army, also known as the Great Danish Army and the Viking Great Army, was a coalition of Scandinavian warriors mainly originating in Denmark who invaded England in AD 865."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Western Xia"
+civilization_id = "Q7427"
+conflict = "Song–Xia wars"
+conflict_id = "Q10947454"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Western_Xia"
+quote = "What ensued was a prolonged war with the Song dynasty which resulted in several victories at great cost to the Xia economy."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "White Huns"
+civilization_id = "Q26576"
+conflict = "Perso-Turkic war of 588–589"
+conflict_id = "Q2319952"
+role = "central"
+action = "remove"
+note = "The 588-589 war came after the empire's collapse, and its infobox lists only 'Hephthalite principalities'. The suggested 'Hephthalite–Sasanian wars' has no Wikipedia article (the page does not exist). The civ article links no conflict article for the c. 560 destruction, so I set no replacement."
+source = "https://en.wikipedia.org/wiki/Hephthalites"
+quote = "Around 560 CE their empire was destroyed by an alliance of the First Turkic Khaganate and the Sasanian Empire, but some of them remained as local rulers in the region of Tokharistan"
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Yugoslavia"
+civilization_id = "Q36704"
+conflict = "World War II"
+conflict_id = "Q362"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Yugoslavia"
+quote = "The kingdom was invaded and occupied by the Axis powers in April 1941, marking the start of World War II in Yugoslavia."
+retrieved = 2026-11-27
