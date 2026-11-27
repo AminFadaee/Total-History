@@ -24,6 +24,17 @@ quote = "The Ionian Revolt constituted the first major conflict between Greece a
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Almoravid Dynasty"
+civilization_id = "Q75613"
+conflict = "Battle of Uclés (1108)"
+conflict_id = "Q2459925"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Battle_of_Ucl%C3%A9s_(1108)"
+quote = "The Battle of Uclés was fought on 29 May 1108 during the Reconquista period near Uclés just south of the river Tagus between the Christian forces of Castile and León under Alfonso VI and the forces of the Muslim Almoravids under Tamim ibn-Yusuf."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Argentine Republic"
 civilization_id = "Q414"
 conflict = "Argentine War of Independence"
@@ -32,6 +43,28 @@ role = "founding"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Argentine_War_of_Independence"
 quote = "The Argentine War of Independence (Spanish: guerra de la independencia argentina) was a set of military events from 1810 to 1825 which resulted in the consolidation of Argentina as an independent country from Spanish rule."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Armenian Kingdom of Cilicia"
+civilization_id = "Q335088"
+conflict = "Fall of Sis"
+conflict_id = "Q124260231"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Fall_of_Sis"
+quote = "The fall of Sis or the siege of Sis was the capture of Sis and the destruction of the Armenian Kingdom of Cilicia by the Mamluk Sultanate."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Ashanti Empire"
+civilization_id = "Q722071"
+conflict = "War of the Golden Stool"
+conflict_id = "Q356920"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool"
+quote = "The outcome was the annexation of Ashanti by the British so that it became part of His Majesty's dominions and a British Crown Colony with its administration undertaken by a Chief Commissioner under the authority of the Governor of the Gold Coast."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -65,6 +98,17 @@ role = "central"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Austrian_Empire"
 quote = "Austrian unwillingness to join the Third Coalition was overcome by British subsidies, but the Austrians withdrew from the war yet again after a decisive defeat at the Battle of Austerlitz."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Austrian Empire"
+civilization_id = "Q131964"
+conflict = "Austro-Prussian War"
+conflict_id = "Q153650"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Austrian_Empire"
+quote = "After Austria was defeated in the Austro-Prussian War of 1866, the Austro-Hungarian Compromise of 1867 was adopted, joining the Kingdom of Hungary and the Empire of Austria to form Austria-Hungary."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -278,6 +322,18 @@ quote = "It led to the dissolution of the East India Company and forced the Brit
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Buyid Dynasty"
+civilization_id = "Q273874"
+conflict = "Syrian campaigns of John Tzimiskes"
+conflict_id = "Q48725085"
+role = "central"
+action = "remove"
+note = "The Buyid dynasty article never mentions Tzimiskes or his campaigns (its only Byzantine mention is this border line). The campaigns article does list the Buyids among belligerents, so they were involved, but it is not supported as their single most notable conflict."
+source = "https://en.wikipedia.org/wiki/Buyid_dynasty"
+quote = "Under him, the Buyid realm stretched from the Byzantine border in Syria in the west to the borders of Khorasan in the east."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Canada"
 civilization_id = "Q16"
 conflict = "World War I"
@@ -364,6 +420,18 @@ role = "central"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Confederate_States_of_America"
 quote = "Lee's strike into Pennsylvania was repulsed at Gettysburg, Pennsylvania despite Pickett's famous charge and other acts of valor."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Confederate States of America"
+civilization_id = "Q81931"
+conflict = "American Indian Wars"
+conflict_id = "Q849680"
+role = "second"
+action = "remove"
+note = "The CSA article never mentions the American Indian Wars; its Indian-related text is about Native troops fighting for the Confederacy in the Civil War. The 1609-1924 span is not a CSA war."
+source = "https://en.wikipedia.org/wiki/Confederate_States_of_America"
+quote = "Over half of the American Indian troops participating in the War from the Indian Territory supported the Confederacy."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -485,6 +553,17 @@ role = "ending"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
 quote = "The Hundred Years' War finally saw the Kingdom of France gain full control over Aquitaine in 1453 with much of its territory directly incorporated into the French royal domain itself."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Duchy of Bavaria"
+civilization_id = "Q47261"
+conflict = "War of the Spanish Succession"
+conflict_id = "Q150701"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/War_of_the_Spanish_Succession"
+quote = "Bavaria, Liège, and Cologne allied with France, as did the Spanish-ruled Imperial states of Milan, the Spanish Netherlands and Mantua."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -653,6 +732,17 @@ quote = "The regime emerged from the Nationalist side in the Spanish Civil War a
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Free French"
+civilization_id = "Q152582"
+conflict = "Battle of Bir Hakeim"
+conflict_id = "Q836128"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Free_France"
+quote = "Koenig defended Bir Hakeim from 26 May to 11 June against superior German and Italian forces led by Generaloberst Erwin Rommel, proving that the FFF could be taken seriously by the Allies as a fighting force."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "French Algeria"
 civilization_id = "Q218272"
 conflict = "Algerian War"
@@ -698,6 +788,17 @@ quote = "After the Fall of France during World War II, the colony was administer
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "French Indochina"
+civilization_id = "Q185682"
+conflict = "Sino-French War"
+conflict_id = "Q706183"
+role = "founding"
+action = "set"
+source = "https://en.wikipedia.org/wiki/French_Indochina"
+quote = "France obtained control over northern Vietnam following its victory over China in the Sino-French War (1884–85)."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "French Second Republic"
 civilization_id = "Q58326"
 conflict = "French Revolution of 1848"
@@ -729,6 +830,18 @@ role = "big"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Battle_of_France"
 quote = "The fascist and collaborationist Vichy government, led by Marshal Philippe Pétain replaced the Third Republic and German military occupation began along the French North Sea and Atlantic coasts and their hinterlands."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "French Third Republic"
+civilization_id = "Q70802"
+conflict = "Second Boer War"
+conflict_id = "Q215112"
+role = "big"
+action = "remove"
+note = "France appears in the infobox only under the Boer side's 'Foreign volunteers' list, not as a state belligerent."
+source = "https://en.wikipedia.org/wiki/Second_Boer_War"
+quote = "As a result, the Boer cause attracted volunteers from neutral countries, including the German Empire, the United States, Russia and parts of the British Empire, such as Australia and Ireland."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -821,6 +934,17 @@ quote = "In the final days of the war, with German victory all but assured, the 
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Goths"
+civilization_id = "Q42193"
+conflict = "Muslim conquest of the Iberian Peninsula"
+conflict_id = "Q1455917"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Goths"
+quote = "Their kingdom fell and was progressively conquered by the Umayyad Caliphate from 711 after the defeat of their last king Roderic at the Battle of Guadalete."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Gran Colombia"
 civilization_id = "Q199821"
 conflict = "Peruvian–Bolivian War of 1828"
@@ -899,6 +1023,17 @@ quote = "The forces of Usman dan Fodio slowly took over more and more of the Hau
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Heian Japan"
+civilization_id = "Q193292"
+conflict = "Genpei War"
+conflict_id = "Q737542"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Genpei_War"
+quote = "It resulted in the downfall of the Taira and the establishment of the Kamakura shogunate under Minamoto no Yoritomo, who appointed himself as Shōgun in 1192, governing Japan as a military dictator from the eastern city of Kamakura."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Himyarite Kingdom"
 civilization_id = "Q289577"
 conflict = "Aksumite invasion of Himyar"
@@ -907,6 +1042,17 @@ role = "ending"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Himyar"
 quote = "Following a period of political decline and conflict, the kingdom fell to an Aksumite invasion in the early sixth century."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Holy Roman Empire"
+civilization_id = "Q12548"
+conflict = "Schmalkaldic War"
+conflict_id = "Q168556"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Schmalkaldic_War"
+quote = "The Schmalkaldic War (German: Schmalkaldischer Krieg; July 1546 – May 1547) was fought within the territories of the Holy Roman Empire between the allied forces of Charles V, Holy Roman Emperor and Maurice, Duke of Saxony against the Lutheran Schmalkaldic League"
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -1009,6 +1155,17 @@ quote = "Before he became khan, Ablai participated in the Kazakh–Dzungar Wars 
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Khanate of Bukhara"
+civilization_id = "Q577668"
+conflict = "Mughal Central Asia campaign"
+conflict_id = "Q130328799"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Mughal_Central_Asia_campaign"
+quote = "The Mughal Central Asia Campaign, also known as the Balkh Campaign, was a military campaign from 1645–1647 undertook by Mughal emperor Shah Jahan against the Uzbek Khanate of Bukhara in Central Asia."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Khanate of Sibir"
 civilization_id = "Q190513"
 conflict = "Conquest of the Khanate of Sibir"
@@ -1098,6 +1255,17 @@ quote = "Polish conquest of the kingdom in 1349 led to it being fully absorbed b
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Kingdom of Great Britain"
+civilization_id = "Q161885"
+conflict = "Jacobite rising of 1745"
+conflict_id = "Q1049945"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Jacobite_rising_of_1745"
+quote = "The Jacobite rising of 1745 was an attempt to regain the British throne for the exiled House of Stuart."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Kingdom of Greece"
 civilization_id = "Q209065"
 conflict = "Greek War of Independence"
@@ -1176,6 +1344,17 @@ quote = "Therefore, when Napoleon returned to France for the Hundred Days in 181
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Kingdom of Nepal"
+civilization_id = "Q1078602"
+conflict = "Battle of Kathmandu"
+conflict_id = "Q4871400"
+role = "founding"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Battle_of_Kathmandu"
+quote = "Shah's victory marked the establishment of the Shah dynasty in Nepal and the end of the rule of the indigenous Newars."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Kingdom of Numidia"
 civilization_id = "Q102679"
 conflict = "Second Punic War"
@@ -1206,6 +1385,17 @@ role = "big"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Peninsular_War"
 quote = "The Peninsular War (1808–1814) was fought in the Iberian Peninsula by the Iberian nations Spain and Portugal, along with the United Kingdom, against the invading and occupying forces of the First French Empire during the Napoleonic Wars."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Kingdom of Romania"
+civilization_id = "Q203493"
+conflict = "Romanian War of Independence"
+conflict_id = "Q3778687"
+role = "founding"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Kingdom_of_Romania"
+quote = "The country gained its independence from the Ottoman Empire during the 1877–1878 Russo-Turkish War (known locally as the Romanian War of Independence), after which it was forced to cede the southern part of Bessarabia in exchange for Northern Dobruja."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -1343,6 +1533,17 @@ quote = "After the victory, Charlemagne had himself declared rex Langobardorum, 
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Lydia"
+civilization_id = "Q620765"
+conflict = "Siege of Sardis (547 BC)"
+conflict_id = "Q3436155"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Lydia"
+quote = "Cyrus retaliated by intervening in Cappadocia and defeated the Lydians at Pteria in a battle, and again at Thymbra before besieging and capturing the Lydian capital of Sardis, thus bringing an end to the rule of the Mermnad dynasty and to the Lydian Empire."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Lê Dynasty"
 civilization_id = "Q10800789"
 conflict = "Lam Sơn uprising"
@@ -1362,6 +1563,28 @@ role = "big"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
 quote = "Once again, French financial power bridged differences between the potential allies, and under the 1631 Treaty of Bärwalde, Richelieu agreed to fund the Swedes and German states including Hesse-Kassel, Saxony, and Brandenburg."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Maurya Empire"
+civilization_id = "Q62943"
+conflict = "Nanda–Mauryan War"
+conflict_id = "Q5162457"
+role = "founding"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Nanda%E2%80%93Mauryan_War"
+quote = "The war brought an end to the Nanda dynasty and established the Maurya Empire with Chandragupta Maurya as its emperor."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Maya civilization"
+civilization_id = "Q28567"
+conflict = "Spanish conquest of Petén"
+conflict_id = "Q7573336"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Maya_civilization"
+quote = "In the 16th century, the Spanish Empire colonized the Mesoamerican region, and a lengthy series of campaigns saw the fall of Nojpetén, the last Maya city, in 1697."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -1654,6 +1877,39 @@ quote = "Concerned about increasing French power, Prussia joined Britain and Rus
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Prussia"
+civilization_id = "Q38872"
+conflict = "Franco-Prussian War"
+conflict_id = "Q46083"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Franco-Prussian_War"
+quote = "The Franco-Prussian War, occasionally known as the Franco-German War, and sometimes referred to in France as the War of 1870, was a conflict between France and the North German Confederation led by Prussia."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Prussia"
+civilization_id = "Q38872"
+conflict = "War of the Austrian Succession"
+conflict_id = "Q32929"
+role = "big"
+action = "set"
+source = "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession"
+quote = "This was challenged by a coalition between France, Prussia, and Bavaria, while Maria Theresa was backed by Great Britain, the Dutch Republic, and Hanover, collectively known as the Pragmatic Allies."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Qajar Dynasty"
+civilization_id = "Q63158027"
+conflict = "Russo-Persian War (1804–1813)"
+conflict_id = "Q1139887"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Qajar_Iran"
+quote = "The Qajar army suffered a major military defeat in the war, and under the terms of the Treaty of Gulistan in 1813, Iran was forced to cede most of its Caucasian territories comprising modern-day Georgia, Dagestan, and most of Azerbaijan."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Qing Dynasty"
 civilization_id = "Q8733"
 conflict = "1911 Revolution"
@@ -1673,6 +1929,17 @@ role = "big"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Siam_in_World_War_I"
 quote = "The Kingdom of Siam, now known as Thailand, was a participant in World War I on the Allied side."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Rattanakosin Kingdom"
+civilization_id = "Q1155700"
+conflict = "1893 Franco-Siamese crisis"
+conflict_id = "Q1359846"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/1893_Franco-Siamese_crisis"
+quote = "The Siamese subsequently agreed to cede the area that constitutes most of present-day Laos to France, an act that led to the significant expansion of French Indochina."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -1739,6 +2006,17 @@ role = "ending"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Siege_of_Florence_(1529%E2%80%931530)"
 quote = "They overthrew the Republic of Florence and installed Alessandro de' Medici as the ruler of the city."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Republic of Genoa"
+civilization_id = "Q174306"
+conflict = "Italian campaign of 1796–1797"
+conflict_id = "Q699511"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Republic_of_Genoa"
+quote = "The republic began when Genoa became a self-governing commune in the 11th century and ended when it was conquered by the French First Republic under Napoleon and replaced with the Ligurian Republic."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -1945,6 +2223,17 @@ retrieved = 2026-11-27
 [[conflict]]
 civilization = "Sokoto Caliphate"
 civilization_id = "Q600524"
+conflict = "Burmi campaign"
+conflict_id = "Q131360015"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Burmi_campaign"
+quote = "This marked the effective end of the Sokoto Caliphate, with its eastern territories, alongside some of its western territories, absorbed into British Northern Nigeria."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Sokoto Caliphate"
+civilization_id = "Q600524"
 conflict = "Jihad of Usman dan Fodio"
 conflict_id = "Q16707899"
 role = "founding"
@@ -2010,6 +2299,17 @@ quote = "After a series of military campaigns against the Goguryeo in the Korean
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Sur Empire"
+civilization_id = "Q373650"
+conflict = "Battle of Kannauj"
+conflict_id = "Q108485662"
+role = "founding"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Sur_Empire"
+quote = "Following this victory, Sher Khan was crowned a second time on 17 May 1540 as Sher Shah, being declared as Emperor of Northern India, while also donning the epithet of Sultan Adil, meaning \"Just King\"."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Swedish Empire"
 civilization_id = "Q215443"
 conflict = "Great Northern War"
@@ -2057,6 +2357,17 @@ retrieved = 2026-11-27
 [[conflict]]
 civilization = "Teutonic Order"
 civilization_id = "Q156020"
+conflict = "Polish–Teutonic War (1519–1521)"
+conflict_id = "Q558423"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Polish%E2%80%93Teutonic_War_(1519%E2%80%931521)"
+quote = "Four years later, under the Treaty of Kraków, part of the Catholic Monastic State of the Teutonic Order became secularized as the Duchy of Prussia."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Teutonic Order"
+civilization_id = "Q156020"
 conflict = "Prussian Crusade"
 conflict_id = "Q2665664"
 role = "founding"
@@ -2074,6 +2385,17 @@ role = "second"
 action = "set"
 source = "https://en.wikipedia.org/wiki/State_of_the_Teutonic_Order"
 quote = "Following its defeat by Poland and Lithuania at the Battle of Grunwald in 1410, the Order faced continuing political and military challenges, culminating in the Thirteen Years' War (1454–1466)."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Thirtieth Dynasty of Egypt"
+civilization_id = "Q386303"
+conflict = "Second Achaemenid conquest of Egypt"
+conflict_id = "Q119840646"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Thirtieth_Dynasty_of_Egypt"
+quote = "It was founded after the overthrow of Nepherites II in 380 BC by Nectanebo I, and was disestablished upon the invasion of Egypt by the Achaemenid king Artaxerxes III in 343 BC."
 retrieved = 2026-11-27
 
 [[conflict]]
@@ -2154,6 +2476,17 @@ quote = "was a French rump state headed by Marshal Philippe Pétain during World
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Vichy France"
+civilization_id = "Q69808"
+conflict = "Syria–Lebanon campaign"
+conflict_id = "Q770698"
+role = "second"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Vichy_France"
+quote = "Consequently, on 8 June, British and Commonwealth forces invaded Syria and Lebanon; this was known as the Syria-Lebanon campaign, or Operation Exporter."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Viking settlements"
 civilization_id = "Q12567"
 conflict = "Great Heathen Army"
@@ -2210,6 +2543,17 @@ quote = "Around 560 CE their empire was destroyed by an alliance of the First Tu
 retrieved = 2026-11-27
 
 [[conflict]]
+civilization = "Xin Dynasty"
+civilization_id = "Q504769"
+conflict = "Red Eyebrows"
+conflict_id = "Q759985"
+role = "central"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Red_Eyebrows"
+quote = "The Red Eyebrows (Chinese: 赤眉; pinyin: Chìméi) was one of the two major peasant rebellion movements against Wang Mang's short-lived Xin dynasty, the other being Lülin."
+retrieved = 2026-11-27
+
+[[conflict]]
 civilization = "Yugoslavia"
 civilization_id = "Q36704"
 conflict = "World War II"
@@ -2218,6 +2562,17 @@ role = "big"
 action = "set"
 source = "https://en.wikipedia.org/wiki/Yugoslavia"
 quote = "The kingdom was invaded and occupied by the Axis powers in April 1941, marking the start of World War II in Yugoslavia."
+retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Yugoslavia"
+civilization_id = "Q36704"
+conflict = "Yugoslav Wars"
+conflict_id = "Q242352"
+role = "ending"
+action = "set"
+source = "https://en.wikipedia.org/wiki/Yugoslav_Wars"
+quote = "The conflicts both led up to and resulted from the breakup of Yugoslavia, which began in mid-1991, into six independent countries matching the six republics that had previously constituted Yugoslavia: Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, Serbia, and Macedonia, which was later renamed to North Macedonia."
 retrieved = 2026-11-27
 
 [[conflict]]
