@@ -207,7 +207,7 @@ New cards come a tier at a time, Essential first, then Core, then Extended, and 
 civilizations by when they began, each followed by the tier's people filed first under it, by birth, then by its
 conflicts of the tier, by date; someone or something whose civilization is in another tier, or has no card, comes where
 its own years begin. The Essential tier is about 600 cards, a month at twenty new cards a day; the conflicts add about
-640 cards in all, with the 50 Rise and 140 Fall cards.
+770 cards in all, with the 90 Rise and 190 Fall cards.
 
 To study one kind of question, make a filtered deck from a search such as `card:Capital`,
 `tag:TH::Category::Figures` or `tag:TH::Tier::Essential`. To skip a kind, find it in the browser and suspend the
