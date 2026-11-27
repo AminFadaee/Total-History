@@ -8,6 +8,7 @@ from urllib.parse import quote
 
 from PIL import Image
 
+from total_history.conflict_maps import draw_maps, map_jobs, told_apart
 from total_history.conflicts import ConflictCollector
 from total_history.errata import apply_errata, apply_figure_errata, legacy_rejections, load_errata, passed_legacy
 from total_history.conflict_overrides import load_conflict_overrides
@@ -31,6 +32,7 @@ OUTPUT_DIRS = ("civilizations", "figures", "maps", "images")
 OUTPUT_FILES = ("extended.json", "report.json")
 IMAGE_WIDTH = 480
 IMAGE_QUALITY = 85
+CONFLICT_MAPS = "conflict-maps"
 MAP_WORKERS = max(1, min(4, (os.cpu_count() or 2) // 2))
 
 logger = logging.getLogger(__name__)
@@ -254,12 +256,21 @@ def write_json(path: pathlib.Path, document: dict) -> None:
 
 
 def write_conflicts(paths: DataPaths, cache_dir: pathlib.Path) -> None:
-    """Replaces the conflict files with those chosen for the collected civilizations, each named after its article."""
-    documents = ConflictCollector(Http(cache_dir)).collect(load_documents(paths.civilizations),
-                                                           load_conflict_overrides(paths.conflict_overrides))
+    """Replaces the conflict files with those chosen for the collected civilizations, each named after its article,
+    with the maps of those that have one."""
+    http = Http(cache_dir)
+    civilizations = load_documents(paths.civilizations)
+    documents = ConflictCollector(http).collect(civilizations, load_conflict_overrides(paths.conflict_overrides))
     staging = paths.conflicts.with_name(f"{paths.conflicts.name}.partial")
     shutil.rmtree(staging, ignore_errors=True)
     staging.mkdir(parents=True)
+    jobs = map_jobs(documents, civilizations, Cliopatria.load(http), staging / CONFLICT_MAPS)
+    draw_maps([job for _, job in jobs], naturalearth.countries(http), naturalearth.rivers(http), fonts.inter(http),
+              cache_dir / "conflict-maps")
+    asked = told_apart(jobs)
+    for document, job in jobs:
+        document["map"] = f"{paths.conflicts.name}/{CONFLICT_MAPS}/{job.output.name}"
+        document["map_asked"] = document["id"] in asked
     for document in documents:
         write_json(staging / f"{document['slug']}.json", document)
     shutil.rmtree(paths.conflicts, ignore_errors=True)

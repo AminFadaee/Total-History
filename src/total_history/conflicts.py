@@ -10,6 +10,7 @@ from total_history.conflict_overrides import ConflictOverride
 from total_history.dates import Span, period_label
 from total_history.http import Http
 from total_history.naming import slugify
+from total_history.sentences import contribution, first_paragraph, opening
 from total_history.sources import vital
 from total_history.sources.wikidata import Entity, Wikidata, Year
 from total_history.sources.wikipedia import Wikipedia, lead_links, link_targets, plain_text
@@ -41,6 +42,8 @@ SUPPORTERS = re.compile(r"\bsupport(?:ed)?\s+by\b|\bsupport\s*:", re.IGNORECASE)
 FOUNDING_WORDS = re.compile(r"\b(independence|independent|establish\w*|founded|founding|foundation|creation|created|"
                             r"formation|formed|unification|unified|proclaim\w*)\b", re.IGNORECASE)
 VICTORY = re.compile(r"\bvictor(y|ious)\b", re.IGNORECASE)
+RESULT_BULLET = re.compile(r"^[\s*•:]+|\s+$")
+SUMMARY_WORDS_BEYOND_NAME = 1
 
 logger = logging.getLogger(__name__)
 
@@ -67,8 +70,11 @@ class Role(StrEnum):
 
 @dataclass
 class Infobox:
+    """Each item and the sides it fought on, an alliance counting for its members; the items each side's column
+    names, in order; and the lines of the result."""
     sides: dict[str, set[str]] = field(default_factory=dict)
     results: list[tuple[set[str], str]] = field(default_factory=list)
+    columns: dict[str, list[str]] = field(default_factory=dict)
 
 
 @dataclass
@@ -83,6 +89,7 @@ class Conflict:
     lead: set[str]
     participants: set[str]
     fight: bool
+    point: tuple[float, float] | None = None
 
     @property
     def belligerents(self) -> set[str]:
@@ -188,6 +195,14 @@ class ConflictCollector:
         self.http = http
         self.wikipedia = Wikipedia(http)
         self.wikidata = Wikidata(http)
+        self._levels: dict[str, int] | None = None
+
+    @property
+    def levels(self) -> dict[str, int]:
+        """The Vital Articles level of each article on the lists."""
+        if self._levels is None:
+            self._levels = vital.article_levels(self.http, self.wikipedia)
+        return self._levels
 
     def collect(self, documents: list[dict], overrides: list[ConflictOverride] = ()) -> list[dict]:
         civilizations = self._civilizations(documents)
@@ -249,9 +264,40 @@ class ConflictCollector:
         logger.info("Chose %d big wars and %s", len(big), ", ".join(
             f"{sum(role in r for r in roles.values())} {role}" for role in (Role.CENTRAL, Role.ENDING, Role.FOUNDING, Role.SECOND)))
         order = sorted(roles, key=lambda qid: (conflicts[qid].start is None, conflicts[qid].start or 0, conflicts[qid].name))
-        titles = self._titles([conflicts[qid] for qid in order])
-        return [self._document(conflicts[qid], titles[qid], {role: roles[qid][role] for role in Role if role in roles[qid]})
-                for qid in order]
+        chosen = [conflicts[qid] for qid in order]
+        titles = self._titles(chosen)
+        sides, summaries = self._sides(chosen, civilizations), self._summaries(chosen)
+        return [self._document(conflict, titles[conflict.id], sides[conflict.id], summaries.get(conflict.wikipedia, ""),
+                               self.levels.get(conflict.wikipedia),
+                               {role: roles[conflict.id][role] for role in Role if role in roles[conflict.id]})
+                for conflict in chosen]
+
+    def _sides(self, chosen: list[Conflict], civilizations: list[Civilization]) -> dict[str, list[dict]]:
+        """Each conflict's infobox sides, in column order: the combatants the column names, a deck civilization by its
+        own name and anything else by its Wikidata label, and the deck civilizations fighting on it, an alliance's
+        members among them. A civilization the infobox places on more than one side is on none."""
+        owners = {identity: civilization for civilization in civilizations for identity in civilization.identities}
+        labels = {qid: entity.label for qid, entity in self.wikidata.entities(
+            sorted({item for conflict in chosen for column in conflict.infobox.columns.values() for item in column})).items()}
+        found = {}
+        for conflict in chosen:
+            fighting: dict[str, set[str]] = {}
+            for item, sides in conflict.infobox.sides.items():
+                if item in owners:
+                    fighting.setdefault(owners[item].id, set()).update(sides)
+            found[conflict.id] = [
+                {"combatants": list(dict.fromkeys(name for item in conflict.infobox.columns[side]
+                                                  if (name := owners[item].name if item in owners else labels.get(item)))),
+                 "civilizations": sorted(civilization for civilization, sides in fighting.items() if sides == {side})}
+                for side in sorted(conflict.infobox.columns, key=int)]
+        return found
+
+    def _summaries(self, chosen: list[Conflict]) -> dict[str, str]:
+        """What each conflict was: the opening sentence of its article without its subject, as for a civilization, or
+        its short description."""
+        introductions = self.wikipedia.introductions([conflict.wikipedia for conflict in chosen if conflict.wikipedia])
+        return {title: contribution(opening(first_paragraph(extract)), title, description, SUMMARY_WORDS_BEYOND_NAME)
+                for title, (extract, description) in introductions.items()}
 
     @staticmethod
     def _titles(chosen: list[Conflict]) -> dict[str, str]:
@@ -405,6 +451,7 @@ class ConflictCollector:
             sides, results = boxes[qid]
             infobox = Infobox({}, [(resolved(links), words) for links, words in results])
             for side, links in sides.items():
+                infobox.columns[side] = list(dict.fromkeys(items[title] for title in links if title in items))
                 for item in resolved(links):
                     for member in {item} | members.get(item, set()):
                         infobox.sides.setdefault(member, set()).add(side)
@@ -414,7 +461,7 @@ class ConflictCollector:
             conflicts[qid] = Conflict(qid, entity.label or qid, entity.enwiki, start, max(ends) if ends else start,
                                       editions.get(qid, 0), infobox, resolved(leads[qid]),
                                       participants[qid].union(*(members.get(item, set()) for item in participants[qid])),
-                                      bool(set(entity.ids("P31")) & fights))
+                                      bool(set(entity.ids("P31")) & fights), entity.coordinates())
         return conflicts
 
     def _alliance_members(self, items: set[str]) -> dict[str, set[str]]:
@@ -469,7 +516,7 @@ class ConflictCollector:
             for candidate in civilization.candidates:
                 if candidate.during and not candidate.weak:
                     members.setdefault(candidate.conflict.id, []).append((civilization, candidate))
-        levels = vital.article_levels(self.http, self.wikipedia)
+        levels = self.levels
         shared = {candidate.conflict.id for civilization in civilizations for candidate in civilization.candidates}
 
         def qualifies(qid: str) -> bool:
@@ -572,7 +619,10 @@ class ConflictCollector:
         return min(pool, key=lambda candidate: (not candidate.in_lead, -candidate.conflict.editions), default=None)
 
     @staticmethod
-    def _document(conflict: Conflict, title: str, roles: dict[str, list[dict]]) -> dict:
+    def _document(conflict: Conflict, title: str, sides: list[dict], summary: str, level: int | None,
+                  roles: dict[str, list[dict]]) -> dict:
+        result = next((words for _, words in conflict.infobox.results if RESULT_BULLET.sub("", words)), "")
         return {"id": conflict.id, "slug": slugify(conflict.wikipedia or conflict.name), "name": conflict.name, "title": title,
                 "wikipedia": conflict.wikipedia, "years": [conflict.start, conflict.end], "editions": conflict.editions,
-                "roles": roles}
+                "vital_level": level, "battle": conflict.fight, "point": list(conflict.point) if conflict.point else None,
+                "summary": summary, "result": RESULT_BULLET.sub("", result), "sides": sides, "roles": roles}
