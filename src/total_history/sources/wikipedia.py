@@ -235,6 +235,12 @@ class Wikipedia:
 
         return self.http.per_key("cited-sentences-by-title", titles, fetch)
 
+    def linking_articles(self, title: str, template: str, limit: int = 500) -> list[str]:
+        """Articles that link to the title and carry the template, as the search engine finds them."""
+        params = {"action": "query", "list": "search", "srsearch": f'hastemplate:"{template}" linksto:"{title}"',
+                  "srlimit": limit, "srprop": "", "format": "json", "formatversion": 2}
+        return [hit["title"] for hit in self.http.json(API, params, namespace="wikipedia")["query"]["search"]]
+
     def page_wikitext(self, title: str) -> str:
         params = {"action": "parse", "page": title, "prop": "wikitext", "format": "json", "formatversion": 2}
         return self.http.json(API, params, namespace="wikipedia")["parse"]["wikitext"]

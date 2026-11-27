@@ -9,6 +9,7 @@ BATCH = 20
 ENTITY_CHUNK = 500
 KIND_BATCH = 150
 EVENT_BATCH = 10
+INSTANCE_BATCH = 200
 CIRCA = "Q5727902"
 SOURCING_CIRCUMSTANCES = "P1480"
 YEAR_PRECISION = 9
@@ -279,6 +280,80 @@ class Wikidata:
             for row in self.query(f"SELECT ?item ?subject WHERE {{ VALUES ?item {{ {items} }} ?subject wdt:{prop} ?item }}"):
                 found[entity_id(row["item"])].append(entity_id(row["subject"]))
         return found
+
+    def subclasses(self, roots: list[str]) -> set[str]:
+        """The roots and every class below them."""
+        found = set(roots)
+        for root in roots:
+            found |= {entity_id(row["c"]) for row in self.query(f"SELECT ?c WHERE {{ ?c wdt:P279+ wd:{root} }}")}
+        return found
+
+    def instance_classes(self, ids: list[str]) -> dict[str, set[str]]:
+        """The classes each item is directly an instance of (P31)."""
+        unique = sorted(set(ids))
+        found: dict[str, set[str]] = {qid: set() for qid in unique}
+        for start in range(0, len(unique), INSTANCE_BATCH):
+            items = " ".join(f"wd:{qid}" for qid in unique[start : start + INSTANCE_BATCH])
+            for row in self.query(f"SELECT ?e ?c WHERE {{ VALUES ?e {{ {items} }} ?e wdt:P31 ?c }}"):
+                found[entity_id(row["e"])].add(entity_id(row["c"]))
+        return found
+
+    def participations(self, ids: list[str]) -> dict[str, dict[str, set[str]]]:
+        """The events each item took part in (P710, P1344) or is a facet of (P1269), with the classes of each event."""
+        unique = sorted(set(ids))
+        found: dict[str, dict[str, set[str]]] = {qid: {} for qid in unique}
+        for start in range(0, len(unique), EVENT_BATCH):
+            items = " ".join(f"wd:{qid}" for qid in unique[start : start + EVENT_BATCH])
+            rows = self.query(f"SELECT DISTINCT ?item ?event ?cls WHERE {{ VALUES ?item {{ {items} }} "
+                              "{ ?event wdt:P710 ?item } UNION { ?item wdt:P1344 ?event } UNION { ?event wdt:P1269 ?item } "
+                              "?event wdt:P31 ?cls }")
+            for row in rows:
+                found[entity_id(row["item"])].setdefault(entity_id(row["event"]), set()).add(entity_id(row["cls"]))
+        return found
+
+    def same_as(self, ids: list[str]) -> dict[str, set[str]]:
+        """The items each item is said to be the same as (P460), in either direction."""
+        found: dict[str, set[str]] = {qid: set() for qid in ids}
+        values = " ".join(f"wd:{qid}" for qid in sorted(set(ids)))
+        for row in self.query(f"SELECT ?a ?b WHERE {{ VALUES ?a {{ {values} }} {{ ?a wdt:P460 ?b }} UNION {{ ?b wdt:P460 ?a }} }}"):
+            found[entity_id(row["a"])].add(entity_id(row["b"]))
+        return found
+
+    def members(self, ids: list[str]) -> dict[str, set[str]]:
+        """The items that are members of (P463) each item."""
+        found: dict[str, set[str]] = {qid: set() for qid in ids}
+        values = " ".join(f"wd:{qid}" for qid in sorted(set(ids)))
+        for row in self.query(f"SELECT ?a ?m WHERE {{ VALUES ?a {{ {values} }} ?m wdt:P463 ?a }}"):
+            found[entity_id(row["a"])].add(entity_id(row["m"]))
+        return found
+
+    def values(self, ids: list[str], properties: list[str]) -> dict[str, set[str]]:
+        """The items each item names under any of the properties."""
+        unique = sorted(set(ids))
+        found: dict[str, set[str]] = {qid: set() for qid in unique}
+        predicates = " ".join(f"wdt:{prop}" for prop in properties)
+        for start in range(0, len(unique), INSTANCE_BATCH):
+            values = " ".join(f"wd:{qid}" for qid in unique[start : start + INSTANCE_BATCH])
+            for row in self.query(f"SELECT ?a ?b WHERE {{ VALUES ?a {{ {values} }} VALUES ?p {{ {predicates} }} ?a ?p ?b . "
+                                  f"FILTER(isIRI(?b)) }}"):
+                found[entity_id(row["a"])].add(entity_id(row["b"]))
+        return found
+
+    def ancestors(self, ids: list[str]) -> dict[str, set[str]]:
+        """Everything each item is part of (P361), through any chain."""
+        unique = sorted(set(ids))
+        found: dict[str, set[str]] = {qid: set() for qid in unique}
+        for start in range(0, len(unique), INSTANCE_BATCH):
+            values = " ".join(f"wd:{qid}" for qid in unique[start : start + INSTANCE_BATCH])
+            for row in self.query(f"SELECT ?a ?b WHERE {{ VALUES ?a {{ {values} }} ?a wdt:P361+ ?b }}"):
+                found[entity_id(row["a"])].add(entity_id(row["b"]))
+        return found
+
+    def nested(self, ids: list[str]) -> set[str]:
+        """The items that are part of (P361), through any chain, another of the items."""
+        values = " ".join(f"wd:{qid}" for qid in sorted(set(ids)))
+        rows = self.query(f"SELECT DISTINCT ?a WHERE {{ VALUES ?a {{ {values} }} VALUES ?b {{ {values} }} ?a wdt:P361+ ?b }}")
+        return {entity_id(row["a"]) for row in rows}
 
     def query(self, sparql: str) -> list[dict]:
         data = self.http.json(SPARQL, {"query": sparql, "format": "json"}, namespace="sparql")
