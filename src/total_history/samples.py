@@ -50,6 +50,9 @@ SAMPLES = (
     Sample("Total History figure", "Who", "Cyrus the Great", "figure-who.webp"),
     Sample("Total History figure", "Who reverse", "Suryavarman II", "figure-who-reverse.webp"),
     Sample("Total History figure", "Photo", "Albert Einstein", "figure-photo.webp"),
+    Sample("Total History conflict", "Who fought", "Battle of Carrhae", "conflict-who-fought.webp"),
+    Sample("Total History conflict", "Which conflict", "Battle of Carrhae", "conflict-which.webp"),
+    Sample("Total History conflict", "When", "Punic Wars", "conflict-when.webp"),
 )
 
 

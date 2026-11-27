@@ -18,3 +18,8 @@ def civilizations() -> dict[str, dict]:
 @pytest.fixture(scope="session")
 def figures() -> dict[str, dict]:
     return {document["id"]: document for document in load("figures")}
+
+
+@pytest.fixture(scope="session")
+def conflicts() -> dict[str, dict]:
+    return {document["id"]: document for document in load("conflicts")}

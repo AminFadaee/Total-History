@@ -8,8 +8,9 @@ import zipfile
 import genanki
 import pytest
 
-from total_history.deck import (CIVILIZATION_TEMPLATES, FIGURE_TEMPLATES, LINKS, capital_asked, civilization_guid, figure_guid,
-                                figure_tier, known_for, named_after, study_order, told_apart)
+from total_history.deck import (CIVILIZATION_TEMPLATES, CONFLICT_TEMPLATES, FIGURE_TEMPLATES, LINKS, capital_asked,
+                                civilization_guid, conflict_asked, conflict_guid, figure_guid, figure_tier, known_for, named_after,
+                                roles_text, sides_asked, sides_text, study_order, told_apart, years_asked, years_text)
 
 DECK = pathlib.Path(__file__).resolve().parents[1] / "build" / "total_history.apkg"
 MEDIA_REFERENCE = re.compile(r'src="([^"]+)"')
@@ -82,7 +83,8 @@ def test_a_figures_tier_follows_the_vital_articles_and_its_languages(vital_level
     assert figure_tier(figure("A", 1, [], vital_level=vital_level, languages=languages)) == tier
 
 
-@pytest.mark.parametrize("template", CIVILIZATION_TEMPLATES + FIGURE_TEMPLATES, ids=lambda template: template.name)
+@pytest.mark.parametrize("template", CIVILIZATION_TEMPLATES + FIGURE_TEMPLATES + CONFLICT_TEMPLATES,
+                         ids=lambda template: template.name)
 def test_no_question_shows_the_links(template):
     assert "links" not in template.front and LINKS not in template.back
 
@@ -101,9 +103,10 @@ def package() -> dict:
     return {"media": media, "models": models, "notes": notes, "cards": cards}
 
 
-def test_the_deck_holds_every_civilization_and_figure_once(package, civilizations, figures):
+def test_the_deck_holds_every_civilization_figure_and_conflict_once(package, civilizations, figures, conflicts):
     guids = [guid for _, guid, _, _ in package["notes"]]
-    assert len(guids) == len(set(guids)) == len(civilizations) + len(figures)
+    asked = [document for document in conflicts.values() if conflict_asked(document)]
+    assert len(guids) == len(set(guids)) == len(civilizations) + len(figures) + len(asked)
 
 
 def test_every_picture_on_a_card_is_in_the_package(package):
@@ -134,3 +137,48 @@ def test_a_civilization_never_shares_a_note_with_a_country_deck():
 
 def test_figures_keep_their_notes():
     assert figure_guid("Q517") == genanki.guid_for("Q517")
+
+
+def test_a_conflict_never_shares_a_note_with_a_civilization():
+    assert conflict_guid("Q8418") not in (civilization_guid("Q8418"), figure_guid("Q8418"))
+
+
+def conflict(title: str, years: tuple, sides: list[list[str]], roles: dict, vital_level: int | None = None) -> dict:
+    return {"id": title, "title": title, "years": list(years), "vital_level": vital_level,
+            "sides": [{"combatants": names, "civilizations": []} for names in sides],
+            "roles": {role: [{"name": name} for name in names] for role, names in roles.items()}}
+
+
+def test_who_fought_names_both_sides_and_is_asked_only_of_a_clean_infobox():
+    carrhae = conflict("Battle of Carrhae", (-53, -53), [["Roman Republic"], ["Parthian Empire"]], {"central": ["Parthian Empire"]})
+    lepanto = conflict("Battle of Lepanto", (1571, 1571), [["Spanish Empire", "Republic of Venice", "Papal States"],
+                                                          ["Ottoman Empire"]], {"second": ["Ottoman Empire"]})
+    assert sides_text(carrhae) == "Roman Republic against Parthian Empire"
+    assert sides_text(lepanto) == "Spanish Empire, Republic of Venice and Papal States against Ottoman Empire"
+    assert sides_asked(carrhae) and sides_asked(lepanto)
+    crowded = conflict("Crowded", (1, 2), [["A", "B", "C", "D", "E"], ["F"]], {"central": ["F"]})
+    three = conflict("Three", (1, 2), [["A"], ["B"], ["C"]], {"central": ["A"]})
+    world = conflict("World War II", (1939, 1945), [["Allies"], ["Axis"]], {"big": ["Nazi Germany"]})
+    assert not any(sides_asked(document) for document in (crowded, three, world))
+
+
+def test_only_big_wars_and_the_better_known_conflicts_ask_when():
+    assert years_text(conflict("Punic Wars", (-264, -146), [], {})) == "264–146 BC"
+    assert years_text(conflict("Battle of Carrhae", (-53, -53), [], {})) == "53 BC"
+    assert years_asked(conflict("Punic Wars", (-264, -146), [], {"central": ["Carthage"]}, vital_level=4))
+    assert years_asked(conflict("World War I", (1914, 1918), [], {"big": ["German Empire"]}))
+    assert not years_asked(conflict("Battle of Carrhae", (-53, -53), [], {"central": ["Parthian Empire"]}, vital_level=5))
+
+
+def test_the_back_says_what_the_conflict_was_to_each_civilization():
+    aztecs = conflict("Spanish conquest of the Aztec Empire", (1519, 1521), [], {
+        "ending": ["Aztec Triple Alliance"], "central": ["Crown of Castile"]})
+    assert roles_text(aztecs) == "Ended Aztec Triple Alliance · Defining conflict of Crown of Castile"
+
+
+def test_conflicts_follow_their_civilization_and_its_people():
+    rome, han = civilization("Rome", -27), civilization("Han", -202)
+    people = [figure("Trajan", 53, ["Rome"])]
+    wars = [conflict("Dacian Wars", (101, 106), [], {"central": ["Rome"]}), conflict("Elsewhere", (-300, -290), [], {})]
+    order = study_order([rome, han], people, wars)
+    assert sorted(order, key=order.get) == ["Han", "Rome", "Trajan", "Dacian Wars", "Elsewhere"]

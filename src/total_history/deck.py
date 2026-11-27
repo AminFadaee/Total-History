@@ -18,6 +18,11 @@ from total_history.photos import PictureKind
 DECK_NAME = "Total History"
 CIVILIZATION_MODEL_ID = 1_812_604_221
 FIGURE_MODEL_ID = 1_812_604_222
+CONFLICT_MODEL_ID = 1_812_604_223
+MAX_SIDE_NAMES = 4
+WHEN_VITAL_LEVEL = 4
+ROLE_PHRASES = {"founding": "Brought about {}", "ending": "Ended {}", "central": "Defining conflict of {}",
+                "second": "A major war of {}", "big": "Fought by {}"}
 TAG_PREFIX = "TH"
 MEDIA_PREFIX = "pih"
 TAG_UNSAFE = re.compile(r"[^\w-]+")
@@ -65,6 +70,10 @@ def civilization_guid(qid: str) -> str:
 
 def figure_guid(qid: str) -> str:
     return genanki.guid_for(qid)
+
+
+def conflict_guid(qid: str) -> str:
+    return genanki.guid_for("conflict", qid)
 
 
 def stable_id(name: str) -> int:
@@ -239,6 +248,24 @@ FIGURE_TEMPLATES = (
 FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "KnownFor", "Legacy", "AskReverse", "Image",
                  "ImageCredit", "ImageKind", "Photo", "PhotoCredit", "Related", "Setting")
 
+CONFLICT_TITLE = '{{Name}}<div class="subtitle">{{Years}}</div>'
+CONFLICT_INFO = info(("What", "Summary"), ("Result", "Result"), ("Fought", "Sides"), ("For the deck", "Roles"))
+CONFLICT_MAP = conditional("Map", MAP_IMAGE)
+
+CONFLICT_TEMPLATES = (
+    Template("Who fought", ("AskSides",),
+             face(entity("{{Name}}"), "Who fought", UNKNOWN_VALUE),
+             face(entity(CONFLICT_TITLE), "Who fought", value("{{Sides}}", answered=True)) + CONFLICT_INFO + CONFLICT_MAP),
+    Template("Which conflict", ("AskMap",),
+             face(UNKNOWN_ENTITY, "Which conflict", MAP_IMAGE),
+             face(entity(CONFLICT_TITLE, answered=True), "Which conflict", MAP_IMAGE) + CONFLICT_INFO),
+    Template("When", ("AskYears",),
+             face(entity("{{Name}}"), "When", UNKNOWN_VALUE),
+             face(entity("{{Name}}"), "When", value("{{Years}}", answered=True)) + CONFLICT_INFO + CONFLICT_MAP),
+)
+
+CONFLICT_FIELDS = ("Id", "Name", "Years", "AskYears", "Sides", "AskSides", "Map", "AskMap", "Summary", "Result", "Roles")
+
 CSS = """
 .card {
   --text: #1d1d1f; --muted: #8a8a8e; --faint: #c2c2c8; --accent: #0a66c2;
@@ -376,7 +403,7 @@ LINKS_SCRIPT = """
 
 def description() -> str:
     return f"""
-<p><b>{DECK_NAME}</b>: civilizations on the map and the people who shaped them.</p>
+<p><b>{DECK_NAME}</b>: civilizations on the map, the people who shaped them and the wars they fought.</p>
 <p>Everything is in one deck. To study one kind of question, make a filtered deck from a search such as
 <code>card:Capital</code>, <code>tag:TH::Category::Figures</code> or <code>tag:TH::Tier::Essential</code>. To skip
 a kind, search for it in the browser and <b>suspend</b> the cards rather than deleting them, because deleted cards
@@ -509,10 +536,76 @@ def figure_tier(document: dict) -> str:
     return "Essential" if document.get("languages", 0) >= ESSENTIAL_LANGUAGES else "Core"
 
 
-def study_order(civilizations: list[dict], figures: list[dict]) -> dict[str, int]:
+def years_text(document: dict) -> str:
+    """'53 BC', '1519–1521', '30 BC – AD 14'."""
+    start, end = document["years"]
+    if start is None:
+        return ""
+    first, last = Span(start, start), Span(end, end)
+    return first.label() if first == last else period_label(first, last)
+
+
+def side_names(side: dict) -> str:
+    names = side["combatants"]
+    return names[0] if len(names) == 1 else f"{', '.join(names[:-1])} and {names[-1]}"
+
+
+def sides_text(document: dict) -> str:
+    """'Roman Republic against Parthian Empire', or for a conflict of more sides each one on its own."""
+    sides = [side for side in document["sides"] if side["combatants"]]
+    return " against ".join(escaped(side_names(side)) for side in sides) if len(sides) == 2 \
+        else " · ".join(escaped(side_names(side)) for side in sides)
+
+
+def sides_asked(document: dict) -> bool:
+    """Whether the Who fought card is made: not for a big war, and only for an infobox of two sides, each naming one to
+    four combatants."""
+    sides = document["sides"]
+    return "big" not in document["roles"] and len(sides) == 2 \
+        and all(1 <= len(side["combatants"]) <= MAX_SIDE_NAMES for side in sides)
+
+
+def years_asked(document: dict) -> bool:
+    """Whether the When card is made: for a big war, or a conflict on Vital Articles level 3 or 4, not for a battle."""
+    level = document.get("vital_level")
+    return bool(years_text(document)) and ("big" in document["roles"] or level is not None and level <= WHEN_VITAL_LEVEL)
+
+
+def conflict_asked(document: dict) -> bool:
+    """Whether the conflict gets a note: when one of its cards is made."""
+    return sides_asked(document) or years_asked(document) or bool(document.get("map_asked"))
+
+
+def roles_text(document: dict) -> str:
+    """What the conflict is to the deck's civilizations: 'Ended Aztec Triple Alliance · Defining conflict of Crown of
+    Castile'."""
+    return " · ".join(ROLE_PHRASES[role].format(countries([member["name"] for member in document["roles"][role]]))
+                      for role in ROLE_PHRASES if role in document["roles"])
+
+
+def role_civilizations(document: dict) -> list[str]:
+    return list(dict.fromkeys(member["name"] for role in ROLE_PHRASES for member in document["roles"].get(role, [])))
+
+
+def conflict_tier(document: dict, tiers: dict[str, str]) -> str:
+    """The highest tier of the civilizations it matters to."""
+    return min((tiers[name] for name in role_civilizations(document) if name in tiers), key=TIERS.index, default="Extended")
+
+
+def conflict_tags(document: dict, tier: str) -> list[str]:
+    tags = [tag("Category", "Conflicts")] + [tag("Civilization", name) for name in role_civilizations(document)]
+    tags += tier_tags(tier)
+    start, end = document["years"]
+    if start is not None:
+        tags += [century_tag(number) for number in centuries(start, end)]
+    return tags
+
+
+def study_order(civilizations: list[dict], figures: list[dict], conflicts: list[dict] = ()) -> dict[str, int]:
     """The position of each note among the new cards: the Essential tier first, then Core, then Extended, and within
-    a tier civilizations by when they began, each followed by the tier's people filed first under it, by birth;
-    someone whose civilization is in another tier, or not in the deck, comes where their own life began."""
+    a tier civilizations by when they began, each followed by the tier's people filed first under it, by birth, then
+    the tier's conflicts it is first named in, by date; someone or something whose civilization is in another tier, or
+    not in the deck, comes where its own years begin."""
     starts = {document["name"]: start_year(document) for document in civilizations}
     tiers = {document["name"]: TIERS.index(document["tier"]) for document in civilizations}
     places = {document["id"]: (tiers[document["name"]], starts[document["name"]], document["name"], 0, 0, "")
@@ -523,6 +616,12 @@ def study_order(civilizations: list[dict], figures: list[dict]) -> dict[str, int
         home = home if home and tiers[home] == tier else None
         places[document["id"]] = (tier, starts[home], home, 1, born, document["name"]) if home \
             else (tier, born, document["name"], 1, born, "")
+    named_tiers = {document["name"]: document["tier"] for document in civilizations}
+    for document in conflicts:
+        tier, began = TIERS.index(conflict_tier(document, named_tiers)), document["years"][0] or 0
+        home = next((name for name in role_civilizations(document) if name in starts and tiers[name] == tier), None)
+        places[document["id"]] = (tier, starts[home], home, 2, began, document["title"]) if home \
+            else (tier, began, document["title"], 2, began, "")
     return {identity: position for position, identity in enumerate(sorted(places, key=places.get), start=1)}
 
 
@@ -554,6 +653,7 @@ class DeckBuilder:
         self.civilization_model = self._model(CIVILIZATION_MODEL_ID, f"{DECK_NAME} civilization",
                                               CIVILIZATION_FIELDS, CIVILIZATION_TEMPLATES)
         self.figure_model = self._model(FIGURE_MODEL_ID, f"{DECK_NAME} figure", FIGURE_FIELDS, FIGURE_TEMPLATES)
+        self.conflict_model = self._model(CONFLICT_MODEL_ID, f"{DECK_NAME} conflict", CONFLICT_FIELDS, CONFLICT_TEMPLATES)
         self.root = genanki.Deck(stable_id(DECK_NAME), DECK_NAME, description())
         self.notes = 0
 
@@ -606,6 +706,23 @@ class DeckBuilder:
         tags = figure_tags(document, civilizations)
         self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, figure_guid(document["id"]), position)
 
+    def add_conflict(self, document: dict, tier: str, position: int) -> None:
+        values = {
+            "Id": document["id"],
+            "Name": escaped(document["title"]),
+            "Years": escaped(years_text(document)),
+            "AskYears": "yes" if years_asked(document) else "",
+            "Sides": sides_text(document),
+            "AskSides": "yes" if sides_asked(document) else "",
+            "Map": self.media.image(document.get("map", "")),
+            "AskMap": "yes" if document.get("map_asked") else "",
+            "Summary": escaped(document["summary"]),
+            "Result": escaped(document["result"]),
+            "Roles": roles_text(document),
+        }
+        self._add(self.conflict_model, CONFLICT_FIELDS, CONFLICT_TEMPLATES, values, conflict_tags(document, tier),
+                  conflict_guid(document["id"]), position)
+
     def write(self, output: pathlib.Path) -> None:
         if self.media.missing:
             raise FileNotFoundError(f"{len(self.media.missing)} media files are missing, e.g. {self.media.missing[0]}")
@@ -642,13 +759,17 @@ def start_year(document: dict) -> int:
     return start["earliest"] if start else document["map_year"]
 
 
-def build_deck(civilizations: list[dict], figures: list[dict], data_dir: pathlib.Path, build_dir: pathlib.Path,
-               output: pathlib.Path) -> None:
+def build_deck(civilizations: list[dict], figures: list[dict], conflicts: list[dict], data_dir: pathlib.Path,
+               build_dir: pathlib.Path, output: pathlib.Path) -> None:
     builder = DeckBuilder(data_dir, build_dir)
+    conflicts = [document for document in conflicts if conflict_asked(document)]
     maps = {document["name"]: document["map"] for document in civilizations}
-    reversible, positions = told_apart(figures), study_order(civilizations, figures)
+    tiers = {document["name"]: document["tier"] for document in civilizations}
+    reversible, positions = told_apart(figures), study_order(civilizations, figures, conflicts)
     for document in civilizations:
         builder.add_civilization(document, positions[document["id"]])
     for document in figures:
         builder.add_figure(document, maps, positions[document["id"]], document["id"] in reversible)
+    for document in conflicts:
+        builder.add_conflict(document, conflict_tier(document, tiers), positions[document["id"]])
     builder.write(output)

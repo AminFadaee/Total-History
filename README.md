@@ -1,6 +1,6 @@
 # Total History
 
-An Anki deck of civilizations and the people who shaped them, and the pipeline that builds it.
+An Anki deck of civilizations, the people who shaped them and the wars they fought, and the pipeline that builds it.
 
 **Get the deck:** download `total_history.apkg` from the
 [latest release](https://github.com/AminFadaee/Total-History/releases/latest).
@@ -17,8 +17,9 @@ empty otherwise. A reviewed list of sourced overrides fills or corrects what the
 
 ## The deck
 
-One deck with two note types; each kind of question is its own card type. The civilization is the hub and every figure links to
-one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neighbours, what came before and after.
+One deck with three note types; each kind of question is its own card type. The civilization is the hub and every figure and
+conflict links to one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neighbours, what came before and
+after, and the war that ended it.
 
 ### Civilization notes
 
@@ -137,12 +138,36 @@ of 200 photographs at the lower bar and wrongly accepted 2 of 210 pictures that 
 Commons. Without the model (`--photos metadata`), a file is accepted only when a photographic Commons category says so,
 which finds fewer photographs.
 
+### Conflict notes
+
+| Card | Question | Answer | Made only when |
+|---|---|---|---|
+| Who fought | Who fought: Battle of Carrhae | Roman Republic against Parthian Empire | its infobox has two sides, each naming one to four combatants, and it is not a big war |
+| Which conflict | a map of the battlefield, the two sides painted and named, and the year | Battle of Carrhae | it has a map (see below) and no other conflict's map could be taken for it: none with the same two sides within 500 km and 50 years |
+| When | When: Punic Wars | 264–146 BC | it is a big war, or on Wikipedia's Vital Articles level 3 or 4 (mostly major wars; single battles are not asked) |
+
+<p>
+  <img src="docs/samples/conflict-who-fought.webp" width="49%" alt="Who fought card for the Battle of Carrhae">
+  <img src="docs/samples/conflict-which.webp" width="49%" alt="Which conflict card for the Battle of Carrhae">
+  <img src="docs/samples/conflict-when.webp" width="49%" alt="When card for the Punic Wars">
+</p>
+
+The conflicts are each civilization's big, founding, central, ending and second wars (see
+[Conflicts](#conflicts) below). A side is named as its infobox names it, a deck civilization by its own name. The back
+shows what the conflict was (the opening sentence of its article without its subject, as for a civilization), the first
+line of its infobox result, its sides, and what it was to each civilization in the deck ("Ended Aztec Triple Alliance ·
+Defining conflict of Crown of Castile").
+
+A conflict has a map when Wikidata gives its battlefield, it is not a big war, and each of its first two sides holds a
+deck civilization Cliopatria draws in its first year within 7 degrees of the battlefield, so both sides are in view. The map is framed on the battlefield, which is crossed; only the
+two sides' civilizations are painted, each side in its own colour and named in white, and the world inset shows both.
+
 ### Tags
 
 Notes are tagged so you can filter or suspend groups of them:
 
-- category: `TH::Category::Civilizations` or `TH::Category::Figures`
-- civilization: `TH::Civilization::Sasanian_Empire`, on the civilization and on every figure linked to it
+- category: `TH::Category::Civilizations`, `TH::Category::Figures` or `TH::Category::Conflicts`
+- civilization: `TH::Civilization::Sasanian_Empire`, on the civilization and on every figure and conflict linked to it
 - century: `TH::Century::BC::06th`, `TH::Century::AD::03rd`, every century of a civilization's period or a figure's life
 - country: `TH::Country::Iran`, the main modern countries of a civilization and its home region, or today's country
   where a figure was born when the sources agree on the birthplace, as their card names it
@@ -166,15 +191,17 @@ Notes are tagged so you can filter or suspend groups of them:
   overrides, and an override can set a tier by hand with its reason (the Saxons, a people the sources give a duke and
   a period, stay Extended). A figure is `TH::Tier::Core` when on Wikipedia's 10,000 vital articles (Vital Articles
   level 4), about 890 people; those of them with an article in at least 150 Wikipedia languages are `TH::Tier::Essential`
-  too (Aristotle, Napoleon, Marie Curie), about 150; everyone else is `TH::Tier::Extended`
+  too (Aristotle, Napoleon, Marie Curie), about 150; everyone else is `TH::Tier::Extended`. A conflict takes the
+  highest tier of the civilizations it is linked to
 
 The back of every card ends with a row of small links that open in your browser: the Wikipedia article, a Google Images
 search and a YouTube search for the civilization or person.
 
 New cards come a tier at a time, Essential first, then Core, then Extended, and within a tier in the order of history:
-civilizations by when they began, each followed by the tier's people filed first under it, by birth; someone whose
-civilization is in another tier, or has no card, comes where their own life began. The Essential tier is about 540
-cards, a month at twenty new cards a day.
+civilizations by when they began, each followed by the tier's people filed first under it, by birth, then by its
+conflicts of the tier, by date; someone or something whose civilization is in another tier, or has no card, comes where
+its own years begin. The Essential tier is about 590 cards, a month at twenty new cards a day; the conflicts add about
+460 cards in all.
 
 To study one kind of question, make a filtered deck from a search such as `card:Capital`,
 `tag:TH::Category::Figures` or `tag:TH::Tier::Essential`. To skip a kind, find it in the browser and suspend the
@@ -320,6 +347,36 @@ The deck still reflects who held power and was written about: about 9% of the fi
 Cliopatria occasionally labels a single time step with the wrong shape (Alexander's empire appears as the Ptolemaic
 Kingdom for 326–324 BC). A step more than 2.5 times larger than both its neighbours is ignored and reported by
 `check`.
+
+### Conflicts
+
+A civilization's candidate conflicts are the wars, battles, campaigns, sieges, military operations, rebellions and
+revolts (by Wikidata's classes, not mythical or fictional) that its English Wikipedia article links to, that Wikidata
+lists it in, or whose military-conflict infobox links to it; one found outside its article must link back to it from
+its opening. A candidate is kept when Wikidata names the civilization a participant, the infobox names it a combatant
+(not among those "supported by", an alliance such as the Axis counting for its members), or, as weaker evidence, when
+the two articles link each other; and when it began within the civilization's period or overlaps it by a year. From
+these come five sets:
+
+- **Big wars:** wars on Vital Articles level 3 fought by at least two deck civilizations, or on level 4 by at least
+  five, counting only Wikidata or infobox evidence, and not part of another big war (World War II, the Napoleonic
+  Wars, the Reconquista)
+- **Founding:** a conflict that began by the civilization's start, lasted at most 50 years, and in which it fought a
+  predecessor, won by the result, or is named in a result line with a word such as independence or unification (the
+  Texas Revolution, the Turkish War of Independence)
+- **Central:** its best candidate that is not a big war and has five language editions: one linked from its article's
+  opening first, then one backed by Wikidata or the infobox, then the most editions; not its ending or founding
+  conflict, nor part of either, unless no other is left
+- **Ending:** a conflict of at most 50 years reaching from five years before the civilization's end to a year after,
+  that a successor (or the state it belongs to) fought on the other side, that the civilization lost as a war its
+  article links, or whose result names it with a word such as fall or annexed (the Spanish conquest of the Aztec
+  Empire, the Second Boer War)
+- **Second:** for Essential and Core civilizations and those with 20 or more candidates, another war, not a battle,
+  with 15 language editions that Wikidata or the infobox say it fought, and not part of its other picks
+
+A reviewed list in `data/conflict_overrides.toml` corrects what the rules get wrong (see Building it yourself). A
+conflict whose name another chosen conflict shares is titled by its article or with its years ("Siege of Jerusalem
+(587 BC)").
 
 ## Building it yourself
 

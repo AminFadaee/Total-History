@@ -74,8 +74,8 @@ def main() -> None:
             print(quality.report(DataPaths(args.data_dir)))
         case "deck":
             paths = DataPaths(args.data_dir)
-            build_deck(load_documents(paths.civilizations), load_documents(paths.figures), args.data_dir, BUILD_DIR,
-                       args.output)
+            build_deck(load_documents(paths.civilizations), load_documents(paths.figures),
+                       load_documents(paths.conflicts), args.data_dir, BUILD_DIR, args.output)
         case "review":
             raise SystemExit(check(args.data_dir) if args.check else
                              review(args.data_dir, sys.stdin.isatty() and not args.approve, args.approve))
