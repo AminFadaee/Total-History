@@ -333,6 +333,7 @@ ollama pull qwen3.5:4b   # scores legacy lines; needed only for sentences not ye
 
 ```sh
 uv run total-history collect   # select civilizations and figures, render maps into data/
+uv run total-history conflicts # choose the wars and battles of the collected civilizations into data/conflicts/
 uv run total-history check     # what was confirmed, what was left out and why
 uv run total-history deck      # build build/total_history.apkg
 uv run total-history samples   # render the sample cards shown above into docs/samples/, in night mode
@@ -402,6 +403,14 @@ wrong (Ibn Yunus died in 1009, not 958); `legacy`, the legacy line, with the per
 real person (Longinus), an editorial choice that gives its reason in `note` instead of a source. Each cites a web page or a book with the page, quotes the
 passage and gives the date it was read; further `sources` (each with the fact it supports and its quote) and a
 `derivation` saying how they bear on the value may follow.
+
+`data/conflict_overrides.toml` does the same for conflicts. An entry names the conflict and its Wikidata id, a role
+(`big`, `central`, `ending`, `founding` or `second`) and an action, `set` or `remove`, and for any role but `big` the
+civilization and its Wikidata id. Setting a civilization's pick or its place in a big war cites a web page or a book
+with the page, quotes the passage and gives the date it was read; removing one, or adding or dropping a big war
+itself, is an editorial choice that gives its reason in `note`. A conflict an entry takes out of a role is not used
+in another of that civilization's. An entry that no longer changes anything fails the run, so the list only holds what
+the rules still get wrong. Each entry was checked against the live page it cites.
 
 A legacy line set by hand, for a civilization or a figure, is a sentence quoted as it stands (the name hidden for a
 figure), never a paraphrase, from an openly licensed source: the English Wikipedia article, or for a few the public-domain

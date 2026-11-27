@@ -8,7 +8,9 @@ from urllib.parse import quote
 
 from PIL import Image
 
+from total_history.conflicts import ConflictCollector
 from total_history.errata import apply_errata, apply_figure_errata, legacy_rejections, load_errata, passed_legacy
+from total_history.conflict_overrides import load_conflict_overrides
 from total_history.figure_overrides import load_figure_overrides
 from total_history.figures import Figure, FigureBuilder
 from total_history.http import Http
@@ -56,6 +58,10 @@ class DataPaths:
         return self.root / "figures"
 
     @property
+    def conflicts(self) -> pathlib.Path:
+        return self.root / "conflicts"
+
+    @property
     def maps(self) -> pathlib.Path:
         return self.root / "maps"
 
@@ -70,6 +76,10 @@ class DataPaths:
     @property
     def overrides(self) -> pathlib.Path:
         return self.root / "overrides.toml"
+
+    @property
+    def conflict_overrides(self) -> pathlib.Path:
+        return self.root / "conflict_overrides.toml"
 
     @property
     def figure_overrides(self) -> pathlib.Path:
@@ -241,6 +251,20 @@ class Collector:
 
 def write_json(path: pathlib.Path, document: dict) -> None:
     path.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n")
+
+
+def write_conflicts(paths: DataPaths, cache_dir: pathlib.Path) -> None:
+    """Replaces the conflict files with those chosen for the collected civilizations, each named after its article."""
+    documents = ConflictCollector(Http(cache_dir)).collect(load_documents(paths.civilizations),
+                                                           load_conflict_overrides(paths.conflict_overrides))
+    staging = paths.conflicts.with_name(f"{paths.conflicts.name}.partial")
+    shutil.rmtree(staging, ignore_errors=True)
+    staging.mkdir(parents=True)
+    for document in documents:
+        write_json(staging / f"{document['slug']}.json", document)
+    shutil.rmtree(paths.conflicts, ignore_errors=True)
+    staging.rename(paths.conflicts)
+    logger.info("Wrote %d conflicts", len(documents))
 
 
 def load_documents(directory: pathlib.Path) -> list[dict]:

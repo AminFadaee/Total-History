@@ -4,7 +4,7 @@ import pathlib
 import sys
 
 from total_history import quality
-from total_history.collect import Collector, DataPaths, Slice, load_documents
+from total_history.collect import Collector, DataPaths, Slice, load_documents, write_conflicts
 from total_history.deck import build_deck
 from total_history.photos import PhotoMode
 from total_history.review import check, review
@@ -39,6 +39,9 @@ def parse_args() -> argparse.Namespace:
                          help="how photographs are recognised: an image model and Commons metadata (needs "
                               "'uv sync --extra ml'), or Commons metadata only")
 
+    conflicts = commands.add_parser("conflicts", help="choose the wars and battles of the collected civilizations")
+    conflicts.add_argument("--data-dir", type=pathlib.Path, default=DATA_DIR)
+
     check = commands.add_parser("check", help="report what was confirmed, left out and why")
     check.add_argument("--data-dir", type=pathlib.Path, default=DATA_DIR)
 
@@ -65,6 +68,8 @@ def main() -> None:
     match args.command:
         case "collect":
             Collector(DataPaths(args.data_dir), CACHE_DIR, args.photos).run(Slice(args.region, args.start, args.end))
+        case "conflicts":
+            write_conflicts(DataPaths(args.data_dir), CACHE_DIR)
         case "check":
             print(quality.report(DataPaths(args.data_dir)))
         case "deck":
