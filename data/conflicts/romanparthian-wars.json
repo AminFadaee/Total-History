@@ -9,6 +9,31 @@
     226
   ],
   "editions": 30,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts between the Parthian Empire and the Roman Republic and Roman Empire.",
+  "result": "Stalemate",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic",
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q17167",
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Parthian Empire"
+      ],
+      "civilizations": [
+        "Q1986139"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,36 @@
     1863
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -98.217777777778,
+    19.051388888889
+  ],
+  "summary": "1863 battle of the second French intervention in Mexico.",
+  "result": "Franco-Imperial victory",
+  "sides": [
+    {
+      "combatants": [
+        "Second Mexican Empire",
+        "Second French Empire"
+      ],
+      "civilizations": [
+        "Q371334",
+        "Q71092"
+      ]
+    },
+    {
+      "combatants": [
+        "Second Federal Republic of Mexico",
+        "Mexico"
+      ],
+      "civilizations": [
+        "Q7443295",
+        "Q96"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

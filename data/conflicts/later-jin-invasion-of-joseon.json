@@ -9,6 +9,35 @@
     1627
   ],
   "editions": 17,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "1627 invasion of Korea by Jurchens.",
+  "result": "Later Jin victory",
+  "sides": [
+    {
+      "combatants": [
+        "Joseon",
+        "Ming Dynasty"
+      ],
+      "civilizations": [
+        "Q28179",
+        "Q9903"
+      ]
+    },
+    {
+      "combatants": [
+        "Later Jin Dynasty"
+      ],
+      "civilizations": [
+        "Q1062546"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

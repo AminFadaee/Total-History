@@ -9,6 +9,31 @@
     554
   ],
   "editions": 49,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Byzantine–Gothic war in Italy.",
+  "result": "Byzantine Empire conquered the Ostrogothic Kingdom",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire",
+        "Franks"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Ostrogothic Kingdom",
+        "Franks"
+      ],
+      "civilizations": [
+        "Q583038"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

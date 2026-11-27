@@ -9,6 +9,34 @@
     1473
   ],
   "editions": 16,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    40.02222222222222,
+    39.97361111111111
+  ],
+  "summary": "Fought between the Aq Qoyunlu and the Ottoman Empire on 11 August 1473.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    },
+    {
+      "combatants": [
+        "Aq Qoyunlu",
+        "Timurid Empire"
+      ],
+      "civilizations": [
+        "Q484195",
+        "Q555994"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +49,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-otlukbeli.png",
+  "map_asked": true
 }

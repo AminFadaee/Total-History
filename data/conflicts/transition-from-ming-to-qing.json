@@ -9,6 +9,47 @@
     1683
   ],
   "editions": 23,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A decades-long period of conflict between the Qing dynasty, established by the Manchu Aisin Gioro clan in Manchuria, and the Ming dynasty in China proper and later in South China.",
+  "result": "Collapse of the Ming dynasty and Southern Ming dynasty",
+  "sides": [
+    {
+      "combatants": [
+        "Qing Dynasty",
+        "Aisin Gioro",
+        "Manchu",
+        "Joseon"
+      ],
+      "civilizations": [
+        "Q28179",
+        "Q8733"
+      ]
+    },
+    {
+      "combatants": [
+        "Ming Dynasty",
+        "Southern Ming",
+        "Koxinga"
+      ],
+      "civilizations": [
+        "Q1198163",
+        "Q9903"
+      ]
+    },
+    {
+      "combatants": [
+        "Shun dynasty",
+        "Xi dynasty",
+        "She-An Rebellion",
+        "Evenki people",
+        "Daur people",
+        "Nanai"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

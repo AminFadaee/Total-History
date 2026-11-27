@@ -9,6 +9,29 @@
     1904
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An invasion of Manchuria by the Korean Empire.",
+  "result": "Korean victory",
+  "sides": [
+    {
+      "combatants": [
+        "Korean Empire"
+      ],
+      "civilizations": [
+        "Q28233"
+      ]
+    },
+    {
+      "combatants": [
+        "Qing Dynasty"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,40 @@
     1918
   ],
   "editions": 59,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought in 1918 for the leadership and control of recently independent Finland between White Finland and the Finnish Socialist Workers' Republic.",
+  "result": "Finnish Whites victory",
+  "sides": [
+    {
+      "combatants": [
+        "Whites",
+        "Swedish Brigade",
+        "Estonia",
+        "Polish Legion in Finland",
+        "White Army",
+        "German Empire",
+        "Second Polish Republic",
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q207272",
+        "Q34266",
+        "Q43287"
+      ]
+    },
+    {
+      "combatants": [
+        "Finnish Socialist Workers' Republic",
+        "Russian Soviet Federative Socialist Republic",
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q174193"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

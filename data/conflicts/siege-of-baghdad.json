@@ -9,6 +9,32 @@
     1258
   ],
   "editions": 55,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    44.335,
+    33.3475
+  ],
+  "summary": "Mongol conquest of the Abbasid Caliphate (1258).",
+  "result": "Mongol victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ilkhanate"
+      ],
+      "civilizations": [
+        "Q178084"
+      ]
+    },
+    {
+      "combatants": [
+        "Abbasid Caliphate"
+      ],
+      "civilizations": [
+        "Q12536"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

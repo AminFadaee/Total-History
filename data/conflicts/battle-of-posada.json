@@ -9,6 +9,32 @@
     1330
   ],
   "editions": 19,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    25.618333333333332,
+    45.286944444444444
+  ],
+  "summary": "Fought between Basarab I of Wallachia and Charles I of Hungary.",
+  "result": "Wallachian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Hungary"
+      ],
+      "civilizations": [
+        "Q171150"
+      ]
+    },
+    {
+      "combatants": [
+        "Principality of Wallachia"
+      ],
+      "civilizations": [
+        "Q171393"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-posada.png",
+  "map_asked": true
 }

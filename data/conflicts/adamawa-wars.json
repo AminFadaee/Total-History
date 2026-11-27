@@ -9,6 +9,40 @@
     1907
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    12.45,
+    5.15
+  ],
+  "summary": "Initially a series of military expeditions and border conflicts between the German Schutztruppe in Kamerun and the Fula and Hausa Sunni Muslim states and tribes that were a part of the Sokoto Empire, particularly the Emirate of Adamawa in the northern half of the region.",
+  "result": "German victory",
+  "sides": [
+    {
+      "combatants": [
+        "German Empire",
+        "Kamerun",
+        "British Empire"
+      ],
+      "civilizations": [
+        "Q43287",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Sokoto Caliphate",
+        "Adamawa Emirate",
+        "Fulbe people",
+        "Hausa people",
+        "Mahdist State"
+      ],
+      "civilizations": [
+        "Q3125368",
+        "Q600524"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {
@@ -21,5 +55,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/adamawa-wars.png",
+  "map_asked": true
 }

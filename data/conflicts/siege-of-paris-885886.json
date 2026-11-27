@@ -9,6 +9,32 @@
     886
   ],
   "editions": 27,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    2.347,
+    48.854
+  ],
+  "summary": "Part of a Viking raid on the Seine, in the western part of the Frankish Empire.",
+  "result": "Frankish victory",
+  "sides": [
+    {
+      "combatants": [
+        "Viking settlements"
+      ],
+      "civilizations": [
+        "Q12567"
+      ]
+    },
+    {
+      "combatants": [
+        "Francia"
+      ],
+      "civilizations": [
+        "Q146246"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,35 @@
     1880
   ],
   "editions": 44,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military conflict fought between the British Raj and the Emirate of Afghanistan from 1878 to 1880, when the latter was ruled by Sher Ali Khan of the Barakzai dynasty, the son of former Emir Dost Mohammad Khan.",
+  "result": "Kandahar re-ceded to Afghanistan. Districts of Quetta, Pishin, Sibi, Harnai & Thal Chotiali ceded to British India",
+  "sides": [
+    {
+      "combatants": [
+        "British Empire",
+        "Afzalids",
+        "British Raj",
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q129286",
+        "Q174193",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Emirate of Afghanistan",
+        "National Party"
+      ],
+      "civilizations": [
+        "Q1335260"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

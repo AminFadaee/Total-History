@@ -9,6 +9,42 @@
     -197
   ],
   "editions": 37,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between Macedon, led by Philip V of Macedon, and Rome, allied with Pergamon, Rhodes, Athens, Athamania, Dardania, Illyria and since 199 BC, the Aetolian League.",
+  "result": "Macedonia gives up all possessions and client states in Orestis, Thessaly, southern Greece, Thrace and Anatolia",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic",
+        "Kingdom of Pergamon",
+        "Rhodes",
+        "Aetolian League",
+        "history of Athens",
+        "Athamanians",
+        "Kingdom of Dardania",
+        "Illyrians",
+        "Achaean League",
+        "Sparta"
+      ],
+      "civilizations": [
+        "Q17167",
+        "Q2022162",
+        "Q5690"
+      ]
+    },
+    {
+      "combatants": [
+        "Macedonia",
+        "Boeotia Regional Unit",
+        "Acarnanian League"
+      ],
+      "civilizations": [
+        "Q83958"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

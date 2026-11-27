@@ -9,6 +9,39 @@
     1699
   ],
   "editions": 54,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts between the Ottoman Empire and the Holy League consisting of the Holy Roman Empire, Poland-Lithuania, Venice, Russia, and the Kingdom of Hungary.",
+  "result": "The Habsburg monarchy wins lands in Hungary, the Principality of Transylvania and the Balkans",
+  "sides": [
+    {
+      "combatants": [
+        "Holy League",
+        "Holy Roman Empire",
+        "Polish-Lithuanian Commonwealth",
+        "Tsardom of Russia",
+        "Republic of Venice",
+        "Knights Hospitaller",
+        "Papal States"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q170174",
+        "Q172107",
+        "Q186096",
+        "Q4948"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

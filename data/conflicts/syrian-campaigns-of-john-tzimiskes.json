@@ -9,6 +9,34 @@
     975
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of campaigns undertaken by the Byzantine emperor John I Tzimiskes against the Fatimid Caliphate in the Levant and against the Abbasid Caliphate in Syria.",
+  "result": "Byzantine victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Fatimid Caliphate",
+        "Buyid Dynasty",
+        "Hamdanid Emirates",
+        "Damascus"
+      ],
+      "civilizations": [
+        "Q160307",
+        "Q273874",
+        "Q837187"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

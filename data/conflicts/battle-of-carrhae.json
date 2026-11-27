@@ -9,6 +9,32 @@
     -53
   ],
   "editions": 48,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    39.033333,
+    36.866667
+  ],
+  "summary": "Fought in 53 BC between the Roman Republic and the Parthian Empire near the ancient town of Carrhae.",
+  "result": "Parthian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic"
+      ],
+      "civilizations": [
+        "Q17167"
+      ]
+    },
+    {
+      "combatants": [
+        "Parthian Empire"
+      ],
+      "civilizations": [
+        "Q1986139"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +47,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-carrhae.png",
+  "map_asked": true
 }

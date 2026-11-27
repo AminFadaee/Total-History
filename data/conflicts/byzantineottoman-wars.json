@@ -9,6 +9,36 @@
     1479
   ],
   "editions": 38,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of decisive conflicts between the Byzantine Greeks and Ottoman Turks and their allies that led to the final destruction of the Byzantine Empire and the rise of the Ottoman Empire.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    },
+    {
+      "combatants": [
+        "Roman Empire",
+        "Byzantines",
+        "Maniots",
+        "Despotate of the Morea",
+        "Empire of Trebizond",
+        "Principality of Theodoro",
+        "Despotate of Epirus"
+      ],
+      "civilizations": [
+        "Q178913",
+        "Q2277"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

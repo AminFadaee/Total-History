@@ -9,6 +9,29 @@
     1818
   ],
   "editions": 29,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought from early 1811 until 1818 between the Ottoman Empire, its vassal the Eyalet of Egypt, and the Wahhabis’ Emirate of Diriyah, resulting in the destruction of the latter.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    },
+    {
+      "combatants": [
+        "Emirate of Diriyah"
+      ],
+      "civilizations": [
+        "Q146871"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

@@ -9,6 +9,29 @@
     628
   ],
   "editions": 37,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Byzantine Empire and the Sasanian Empire.",
+  "result": "Byzantine victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Sasanian Empire"
+      ],
+      "civilizations": [
+        "Q83891"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

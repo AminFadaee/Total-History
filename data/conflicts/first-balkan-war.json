@@ -9,6 +9,34 @@
     1913
   ],
   "editions": 76,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "1912–1913 war between the Balkan League and the Ottoman Empire.",
+  "result": "Balkan League victory",
+  "sides": [
+    {
+      "combatants": [
+        "Balkan League",
+        "Kingdom of Bulgaria",
+        "Kingdom of Serbia",
+        "Kingdom of Greece",
+        "Kingdom of Montenegro"
+      ],
+      "civilizations": [
+        "Q209065",
+        "Q241748"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

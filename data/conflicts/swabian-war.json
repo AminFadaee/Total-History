@@ -9,6 +9,34 @@
     1499
   ],
   "editions": 31,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    8.231973,
+    46.798562
+  ],
+  "summary": "The last major armed conflict between the Old Swiss Confederacy and the House of Habsburg.",
+  "result": "Swiss victory",
+  "sides": [
+    {
+      "combatants": [
+        "Swabian League",
+        "Holy Roman Empire"
+      ],
+      "civilizations": [
+        "Q12548"
+      ]
+    },
+    {
+      "combatants": [
+        "Three Leagues",
+        "Old Swiss Confederacy"
+      ],
+      "civilizations": [
+        "Q435583"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

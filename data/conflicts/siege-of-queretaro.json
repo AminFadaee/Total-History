@@ -9,6 +9,31 @@
     1867
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -100.3881,
+    20.5881
+  ],
+  "summary": "The culminating battle of the Second French intervention in Mexico and the Second Mexican Empire.",
+  "result": "Mexican Republican victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mexico"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Second Mexican Empire",
+        "Mexico"
+      ],
+      "civilizations": [
+        "Q371334"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

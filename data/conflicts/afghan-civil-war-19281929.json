@@ -9,6 +9,33 @@
     1938
   ],
   "editions": 15,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought from 14 November 1928 to 13 October 1929.",
+  "result": "Anti-Saqqawist victory",
+  "sides": [
+    {
+      "combatants": [
+        "Saqqawists",
+        "Emirate of Afghanistan"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Kingdom of Afghanistan",
+        "Hazaras",
+        "Wardak",
+        "Red Army intervention in Afghanistan (1929)",
+        "Union of Soviet Socialist Republics"
+      ],
+      "civilizations": [
+        "Q1138904",
+        "Q15180"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

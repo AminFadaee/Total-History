@@ -9,6 +9,53 @@
     1713
   ],
   "editions": 29,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The second in a series of French and Indian Wars fought in North America involving the colonial empires of Great Britain, France, and Spain.",
+  "result": "Peace of Utrecht",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Spain",
+        "New Spain",
+        "Wabanaki Confederacy",
+        "Mohawks of Kahnawá:ke",
+        "Choctaw",
+        "Timucua",
+        "Apalachee people",
+        "Natchez people",
+        "Kingdom of France",
+        "New France"
+      ],
+      "civilizations": [
+        "Q170604",
+        "Q29",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "British America",
+        "New England colonies",
+        "Muscogee",
+        "Chickasaw",
+        "Yamasee",
+        "Kingdom of England",
+        "Kingdom of Great Britain"
+      ],
+      "civilizations": [
+        "Q161885",
+        "Q179876"
+      ]
+    },
+    {
+      "combatants": [
+        "Iroquois"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

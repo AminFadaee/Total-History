@@ -9,6 +9,36 @@
     1554
   ],
   "editions": 9,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -5.003333333333333,
+    34.04333333333333
+  ],
+  "summary": "Battle in Africa.",
+  "result": "Fez becomes an Ottoman vassal",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Wattasid dynasty",
+        "Regency of Algiers",
+        "Kingdom of Kuku"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q970799"
+      ]
+    },
+    {
+      "combatants": [
+        "Saadi Sultanate"
+      ],
+      "civilizations": [
+        "Q1136188"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

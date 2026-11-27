@@ -9,6 +9,33 @@
     -154
   ],
   "editions": 19,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "154 BC rebellion against the Han dynasty of China.",
+  "result": "Han victory, further centralization of imperial power",
+  "sides": [
+    {
+      "combatants": [
+        "Han Dynasty"
+      ],
+      "civilizations": [
+        "Q7209"
+      ]
+    },
+    {
+      "combatants": [
+        "Wu Kingdom",
+        "Chu Kingdom",
+        "Kingdom of Zhao",
+        "Jiaoxi Commandery",
+        "Jiaodong Kingdom",
+        "Zichuan Kingdom",
+        "Jinan Commandery"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

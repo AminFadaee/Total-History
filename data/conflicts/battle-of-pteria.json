@@ -9,6 +9,32 @@
     -547
   ],
   "editions": 23,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    35.3333,
+    39.9167
+  ],
+  "summary": "Fought in 547 BC between the Persian forces of Cyrus the Great and the Lydian forces of Croesus.",
+  "result": "Indecisive",
+  "sides": [
+    {
+      "combatants": [
+        "Lydia"
+      ],
+      "civilizations": [
+        "Q620765"
+      ]
+    },
+    {
+      "combatants": [
+        "Achaemenid Empire"
+      ],
+      "civilizations": [
+        "Q389688"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-pteria.png",
+  "map_asked": true
 }

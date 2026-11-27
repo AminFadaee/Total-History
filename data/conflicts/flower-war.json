@@ -9,6 +9,45 @@
     1519
   ],
   "editions": 19,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A ritual war fought intermittently between the Aztec Triple Alliance and its enemies on and off for many years in the vicinity and the regions around the capital city of Tenochtitlan, probably ending with the arrival of the Spaniards in 1519.",
+  "result": "Subsumed by the Spanish conquest of the Mexica",
+  "sides": [
+    {
+      "combatants": [
+        "Aztec Triple Alliance"
+      ],
+      "civilizations": [
+        "Q2608489"
+      ]
+    },
+    {
+      "combatants": [
+        "Tlaxcala"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Cholula"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Huejotzingo"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Atlixco"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

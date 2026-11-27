@@ -9,6 +9,38 @@
     1941
   ],
   "editions": 44,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    53,
+    32
+  ],
+  "summary": "The joint invasion of the officially neutral Imperial State of Iran by the United Kingdom and the Soviet Union in August 1941, during World War II.",
+  "result": "Anglo-Soviet victory{{bulletedlist",
+  "sides": [
+    {
+      "combatants": [
+        "Union of Soviet Socialist Republics",
+        "British Empire",
+        "British Raj",
+        "Commonwealth of Australia"
+      ],
+      "civilizations": [
+        "Q129286",
+        "Q15180",
+        "Q408",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Pahlavi Dynasty"
+      ],
+      "civilizations": [
+        "Q107258515"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +52,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/anglo-soviet-invasion-of-iran.png",
+  "map_asked": true
 }

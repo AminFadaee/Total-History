@@ -9,6 +9,50 @@
     null
   ],
   "editions": 15,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Roman conquest of Italy from 588 BC to 7 BC.",
+  "result": "Complete Roman conquest of the Italian Peninsula",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Kingdom",
+        "Roman Republic",
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q17167",
+        "Q201038",
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Etruscans",
+        "Ligures",
+        "Latins",
+        "Adriatic Veneti",
+        "Umbri",
+        "Osci",
+        "Campanians",
+        "Samnites",
+        "Lucanians",
+        "Cisalpine Gaul",
+        "Iapyges",
+        "Picentes",
+        "Marsi",
+        "Hernici",
+        "Aequi",
+        "Italiotes",
+        "history of Taranto",
+        "Epirus"
+      ],
+      "civilizations": [
+        "Q17161"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,36 @@
     1141
   ],
   "editions": 18,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    66.9,
+    39.8
+  ],
+  "summary": "Fought in September 1141 between the Qara Khitai and the Seljuk Empire and its vassal-state the Kara-Khanid Khanate.",
+  "result": "Qara Khitai victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kara-Khitans",
+        "Karluks"
+      ],
+      "civilizations": [
+        "Q862304"
+      ]
+    },
+    {
+      "combatants": [
+        "Great Seljuk Empire",
+        "Kara-Khanid Khanate",
+        "Kakuyids"
+      ],
+      "civilizations": [
+        "Q3708094",
+        "Q494354"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -30,5 +60,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-qatwan.png",
+  "map_asked": true
 }

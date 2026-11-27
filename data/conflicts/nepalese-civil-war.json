@@ -9,6 +9,35 @@
     2006
   ],
   "editions": 40,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    84,
+    28
+  ],
+  "summary": "A protracted and countrywide armed conflict in the then Kingdom of Nepal between the Kingdom's rulers and the Communist Party of Nepal, with the latter making significant use of guerrilla warfare.",
+  "result": "Comprehensive Peace Accord",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Nepal",
+        "Nepalese Army",
+        "Nepal Police",
+        "Armed Police Force (Nepal)",
+        "Nepal"
+      ],
+      "civilizations": [
+        "Q1078602"
+      ]
+    },
+    {
+      "combatants": [
+        "Communist Party of Nepal (Maoist Centre)",
+        "People's Liberation Army, Nepal"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

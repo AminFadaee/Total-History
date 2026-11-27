@@ -9,6 +9,36 @@
     1515
   ],
   "editions": 36,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    9.316666666666666,
+    45.36666666666667
+  ],
+  "summary": "The last major engagement of the War of the League of Cambrai.",
+  "result": "Franco-Venetian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of France",
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q4948",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Old Swiss Confederacy",
+        "Duchy of Milan"
+      ],
+      "civilizations": [
+        "Q153529",
+        "Q435583"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

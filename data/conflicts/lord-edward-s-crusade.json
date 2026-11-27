@@ -9,6 +9,46 @@
     1272
   ],
   "editions": 50,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military expedition to the Holy Land under the command of Edward Longshanks, later king of England, in 1271–1272.",
+  "result": "Inconclusive",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of England",
+        "Principality of Antioch",
+        "County of Tripoli",
+        "religious military order",
+        "England",
+        "Kingdom of Cyprus",
+        "Kingdom of Jerusalem",
+        "Ilkhanate",
+        "Knights Templar",
+        "Knights Hospitaller",
+        "Teutonic Order"
+      ],
+      "civilizations": [
+        "Q178084",
+        "Q179876",
+        "Q55502"
+      ]
+    },
+    {
+      "combatants": [
+        "Bahri dynasty",
+        "Mamluk Sultanate"
+      ],
+      "civilizations": [
+        "Q282428"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

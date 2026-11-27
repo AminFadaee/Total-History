@@ -9,6 +9,29 @@
     1287
   ],
   "editions": 18,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military conflicts between Kublai Khan's Yuan dynasty, a division of the Mongol Empire, and the Pagan Empire that took place between 1277 and 1287.",
+  "result": "Mongol victory",
+  "sides": [
+    {
+      "combatants": [
+        "Yuan Dynasty"
+      ],
+      "civilizations": [
+        "Q7313"
+      ]
+    },
+    {
+      "combatants": [
+        "Pagan Kingdom"
+      ],
+      "civilizations": [
+        "Q888574"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

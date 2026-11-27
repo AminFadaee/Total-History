@@ -9,6 +9,33 @@
     1824
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A major military and technical feat.",
+  "result": "Turco-Egyptian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Egypt eyalet"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Funj Sultanate",
+        "Shaigiya people",
+        "Sultanate of Darfur"
+      ],
+      "civilizations": [
+        "Q1475713"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

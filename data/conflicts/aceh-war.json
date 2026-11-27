@@ -9,6 +9,37 @@
     1904
   ],
   "editions": 22,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    97.41,
+    4.59
+  ],
+  "summary": "An armed military conflict between the Sultanate of Aceh and the Kingdom of the Netherlands which was triggered by discussions between representatives of Aceh and the United States in Singapore during early 1873.",
+  "result": "Dutch victory",
+  "sides": [
+    {
+      "combatants": [
+        "Royal Netherlands East Indies Army",
+        "Korps Marechaussee te voet",
+        "Royal Netherlands Navy",
+        "Kingdom of the Netherlands",
+        "Dutch East Indies"
+      ],
+      "civilizations": [
+        "Q188161"
+      ]
+    },
+    {
+      "combatants": [
+        "Sultanate of Aceh",
+        "ulema"
+      ],
+      "civilizations": [
+        "Q1061057"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {
@@ -20,5 +51,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/aceh-war.png",
+  "map_asked": true
 }

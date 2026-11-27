@@ -9,6 +9,42 @@
     -632
   ],
   "editions": 16,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    114.529,
+    34.6711
+  ],
+  "summary": "Battle between Chinese states of Jin and Chu (632 BCE).",
+  "result": "Jin victory",
+  "sides": [
+    {
+      "combatants": [
+        "Jin",
+        "Qi",
+        "Qin",
+        "Song"
+      ],
+      "civilizations": [
+        "Q34756",
+        "Q837855",
+        "Q912043"
+      ]
+    },
+    {
+      "combatants": [
+        "Chu",
+        "Chen",
+        "Cai",
+        "Shen Guo",
+        "Xi",
+        "Wey"
+      ],
+      "civilizations": [
+        "Q504759"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -35,5 +71,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-chengpu.png",
+  "map_asked": true
 }

@@ -9,6 +9,35 @@
     1829
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A civil political and military conflict within the Federal Republic of Central America which lasted from 1826 until 1829.",
+  "result": "Protective Allied Army of the Law victory",
+  "sides": [
+    {
+      "combatants": [
+        "liberalism and conservatism in Latin America",
+        "Guatemala",
+        "Honduras",
+        "Central America"
+      ],
+      "civilizations": [
+        "Q774"
+      ]
+    },
+    {
+      "combatants": [
+        "Protective Allied Army of the Law",
+        "liberalism and conservatism in Latin America",
+        "El Salvador",
+        "Honduras",
+        "Nicaragua",
+        "Central America"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

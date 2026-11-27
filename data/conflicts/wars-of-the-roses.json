@@ -9,6 +9,38 @@
     1487
   ],
   "editions": 79,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of armed confrontations, machinations, battles and campaigns fought for control of the English throne from 1455 to 1487.",
+  "result": "{{plainlist|",
+  "sides": [
+    {
+      "combatants": [
+        "House of Lancaster",
+        "House of Tudor",
+        "Kingdom of France",
+        "Kingdom of Scotland",
+        "Duchy of Brittany",
+        "Francis II",
+        "Henry VII of England"
+      ],
+      "civilizations": [
+        "Q230791",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "House of York",
+        "Burgundian State",
+        "Duchy of Brittany",
+        "Francis II",
+        "Pierre Landais"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

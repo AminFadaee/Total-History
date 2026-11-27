@@ -9,6 +9,42 @@
     1572
   ],
   "editions": 33,
+  "vital_level": 4,
+  "battle": false,
+  "point": [
+    -71.983333,
+    -13.522222
+  ],
+  "summary": "One of the most important campaigns in the Spanish colonization of the Americas.",
+  "result": "Former Incan Empire incorporated into the Spanish Empire",
+  "sides": [
+    {
+      "combatants": [
+        "New Castile Governorate",
+        "New Toledo Governorate",
+        "Viceroyalty of Peru",
+        "Cañari",
+        "Huanca people",
+        "Chanka people",
+        "Chachapoya culture",
+        "Huascar",
+        "Spanish Empire"
+      ],
+      "civilizations": [
+        "Q80702"
+      ]
+    },
+    {
+      "combatants": [
+        "Inca Empire",
+        "Neo-Inca State"
+      ],
+      "civilizations": [
+        "Q10715354",
+        "Q28573"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,32 @@
     1917
   ],
   "editions": 32,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A misunderstanding by the commander in chief of the Russian Army, General Lavr Kornilov, from 10 to 13 September 1917, against the Russian Provisional Government headed by Alexander Kerensky and the Petrograd Soviet of Soldiers' and Workers' Deputies.",
+  "result": "Russian Republic proclaimed",
+  "sides": [
+    {
+      "combatants": [
+        "Russian Revolution Army",
+        "Russia"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Russian Provisional Government",
+        "Petrograd Soviet",
+        "Russia"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "founding": [
       {

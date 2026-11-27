@@ -9,6 +9,33 @@
     1266
   ],
   "editions": 15,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between two Mongol leaders, Berke Khan of the Golden Horde and Hulegu Khan of the Ilkhanate.",
+  "result": "Inconclusive",
+  "sides": [
+    {
+      "combatants": [
+        "Ilkhanate"
+      ],
+      "civilizations": [
+        "Q178084"
+      ]
+    },
+    {
+      "combatants": [
+        "Golden Horde"
+      ],
+      "civilizations": [
+        "Q79965"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

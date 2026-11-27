@@ -9,6 +9,37 @@
     1870
   ],
   "editions": 60,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A war in South America that lasted from 1864 to 1870.",
+  "result": "Paraguay permanently lost its claims to lands amounting to almost 40% of its prewar claimed territories.",
+  "sides": [
+    {
+      "combatants": [
+        "Paraguayan Legion",
+        "Colorado Party",
+        "Uruguayan War",
+        "Empire of Brazil",
+        "Argentine Republic",
+        "Paraguay",
+        "Uruguay"
+      ],
+      "civilizations": [
+        "Q217230",
+        "Q414"
+      ]
+    },
+    {
+      "combatants": [
+        "Uruguay",
+        "National Party",
+        "Uruguayan War",
+        "Paraguay"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

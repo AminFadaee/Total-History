@@ -9,6 +9,36 @@
     1815
   ],
   "editions": 21,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between the Napoleonic Kingdom of Naples and the Austrian Empire.",
+  "result": "Austrian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Austrian Empire",
+        "Grand Duchy of Tuscany",
+        "United Kingdom of Great Britain and Ireland",
+        "Kingdom of Sicily",
+        "Tuscany"
+      ],
+      "civilizations": [
+        "Q131964",
+        "Q154849",
+        "Q174193",
+        "Q188586"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Naples"
+      ],
+      "civilizations": [
+        "Q173065"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

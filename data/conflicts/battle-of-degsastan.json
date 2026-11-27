@@ -9,6 +9,27 @@
     603
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "Fought around 603 between king Æthelfrith of Bernicia and the Gaels under Áedán mac Gabráin, king of Dál Riada.",
+  "result": "Bernician victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Bernicia"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Dál Riata"
+      ],
+      "civilizations": [
+        "Q111471"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

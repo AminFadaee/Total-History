@@ -9,6 +9,29 @@
     1905
   ],
   "editions": 88,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Russian Empire and the Empire of Japan over rival imperial ambitions in Manchuria and the Korean Empire.",
+  "result": "Japanese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Empire of Japan"
+      ],
+      "civilizations": [
+        "Q188712"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

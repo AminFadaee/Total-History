@@ -9,6 +9,32 @@
     1327
   ],
   "editions": 16,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Series of military offensives (1221–1327).",
+  "result": "Delhi Sultanate victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mongol Empire",
+        "Chagatai Khanate",
+        "Qara'unas"
+      ],
+      "civilizations": [
+        "Q12557",
+        "Q487829"
+      ]
+    },
+    {
+      "combatants": [
+        "Delhi Sultanate"
+      ],
+      "civilizations": [
+        "Q229411"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

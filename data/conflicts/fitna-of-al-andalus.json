@@ -9,6 +9,36 @@
     1031
   ],
   "editions": 13,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A civil war in the Caliphate of Córdoba.",
+  "result": "Sulayman ibn al-Hakam becomes Caliph after the capture of Córdoba.",
+  "sides": [
+    {
+      "combatants": [
+        "Hisham II",
+        "Amirids",
+        "Saqaliba"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Muhammad II of Córdoba",
+        "Saqaliba"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Sulayman ibn al-Hakam",
+        "Berbers",
+        "Hammudid dynasty"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

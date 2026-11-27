@@ -9,6 +9,31 @@
     1609
   ],
   "editions": 14,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "1609 invasion by Satsuma.",
+  "result": "Ryukyu becomes a vassal state",
+  "sides": [
+    {
+      "combatants": [
+        "Ryukyu Kingdom"
+      ],
+      "civilizations": [
+        "Q28025"
+      ]
+    },
+    {
+      "combatants": [
+        "Satsuma Domain"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

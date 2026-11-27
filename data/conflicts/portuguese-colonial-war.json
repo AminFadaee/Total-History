@@ -9,6 +9,32 @@
     1974
   ],
   "editions": 37,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A 13-year-long conflict fought between Portugal's military and the emerging nationalist movements in Portugal's African colonies between 1961 and 1974.",
+  "result": "Carnation Revolution",
+  "sides": [
+    {
+      "combatants": [
+        "Estado Novo"
+      ],
+      "civilizations": [
+        "Q824489"
+      ]
+    },
+    {
+      "combatants": [
+        "People's Movement for the Liberation of Angola",
+        "National Liberation Front of Angola",
+        "National Union for the Total Independence of Angola",
+        "African Party for the Independence of Guinea and Cape Verde",
+        "FRELIMO",
+        "Mozambique"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

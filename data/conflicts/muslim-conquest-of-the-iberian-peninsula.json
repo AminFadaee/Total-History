@@ -9,6 +9,31 @@
     726
   ],
   "editions": 47,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "8th-century conquest by the Umayyads.",
+  "result": "Establishment of Al-Andalus",
+  "sides": [
+    {
+      "combatants": [
+        "Umayyad Caliphate"
+      ],
+      "civilizations": [
+        "Q8575586"
+      ]
+    },
+    {
+      "combatants": [
+        "Visigothic Kingdom",
+        "Kingdom of Asturias"
+      ],
+      "civilizations": [
+        "Q126936",
+        "Q231392"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

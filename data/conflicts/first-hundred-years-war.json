@@ -9,6 +9,52 @@
     1259
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts and disputes during the High Middle Ages in which the House of Capet, rulers of the Kingdom of France, fought the House of Plantagenet, rulers of the Kingdom of England.",
+  "result": "The Kingdom of France acquires Normandy, Maine, Anjou, Touraine, Poitou, Thouars, Saintonge, Angoumois, Auvergne and Berry.",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of France",
+        "County of Toulouse",
+        "County of Flanders",
+        "Duchy of Brittany",
+        "Kingdom of Scotland",
+        "Marshal of the Army of God and Holy Church",
+        "County of Blois",
+        "County of La Marche",
+        "Poitou"
+      ],
+      "civilizations": [
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Angevin Empire",
+        "Duchy of Normandy",
+        "Duchy of Aquitaine",
+        "county of Anjou",
+        "Kingdom of England",
+        "Holy Roman Empire",
+        "County of Toulouse",
+        "County of Flanders",
+        "Duchy of Brittany",
+        "County of Boulogne",
+        "County of La Marche",
+        "Counts of Dammartin",
+        "Kingdom of Scotland"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q179876",
+        "Q538677",
+        "Q7703611"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

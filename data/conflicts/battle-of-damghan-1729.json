@@ -9,6 +9,32 @@
     1729
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    54.7,
+    36.25
+  ],
+  "summary": "Fought on 29 September to 5 October 1729, near the city of Damghan.",
+  "result": "Safavid victory",
+  "sides": [
+    {
+      "combatants": [
+        "Safavid Dynasty"
+      ],
+      "civilizations": [
+        "Q18234383"
+      ]
+    },
+    {
+      "combatants": [
+        "Hotaki Dynasty"
+      ],
+      "civilizations": [
+        "Q627449"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-damghan-1729.png",
+  "map_asked": true
 }

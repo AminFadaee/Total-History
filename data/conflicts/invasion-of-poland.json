@@ -9,6 +9,34 @@
     1939
   ],
   "editions": 75,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A joint attack on the Republic of Poland by Nazi Germany, the Slovak Republic, and the Soviet Union, which marked the beginning of World War II.",
+  "result": "German–Soviet victory",
+  "sides": [
+    {
+      "combatants": [
+        "Slovak invasion of Poland",
+        "Soviet invasion of Poland",
+        "Nazi Germany",
+        "Slovak Republic",
+        "Union of Soviet Socialist Republics"
+      ],
+      "civilizations": [
+        "Q15180",
+        "Q7318"
+      ]
+    },
+    {
+      "combatants": [
+        "Second Polish Republic"
+      ],
+      "civilizations": [
+        "Q207272"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

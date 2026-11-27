@@ -9,6 +9,32 @@
     926
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    16.5,
+    45
+  ],
+  "summary": "Fought in the Bosnian highlands between the armies of the Bulgarian Empire, under the rule of Bulgarian Tsar Simeon I, who at the time also fought a war with the Byzantine Empire, and the Kingdom of Croatia under Tomislav, the first king of the Croatian state.",
+  "result": "Croatian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Croatia"
+      ],
+      "civilizations": [
+        "Q858841"
+      ]
+    },
+    {
+      "combatants": [
+        "First Bulgarian Empire"
+      ],
+      "civilizations": [
+        "Q203817"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/croatianbulgarian-battle-of-926.png",
+  "map_asked": true
 }

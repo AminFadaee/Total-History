@@ -9,6 +9,31 @@
     763
   ],
   "editions": 40,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A civil war in China that lasted from 755 to 763, at the approximate midpoint of the Tang dynasty.",
+  "result": "Tang victory",
+  "sides": [
+    {
+      "combatants": [
+        "Tang Dynasty",
+        "Uyghur Khaganate",
+        "Abbasid Caliphate"
+      ],
+      "civilizations": [
+        "Q12536",
+        "Q831218",
+        "Q9683"
+      ]
+    },
+    {
+      "combatants": [
+        "Yan"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

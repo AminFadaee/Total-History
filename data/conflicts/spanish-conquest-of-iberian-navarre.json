@@ -9,6 +9,36 @@
     1529
   ],
   "editions": 17,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    -1.64417,
+    42.8183
+  ],
+  "summary": "Initiated by King Ferdinand II of Aragon and completed by his grandson and successor Holy Roman Emperor Charles V in a series of military campaigns lasting from 1512 to 1529.",
+  "result": "Iberian Navarre annexed to Castile",
+  "sides": [
+    {
+      "combatants": [
+        "Crown of Castile",
+        "Crown of Aragon"
+      ],
+      "civilizations": [
+        "Q204920",
+        "Q217196"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Navarre",
+        "Kingdom of France"
+      ],
+      "civilizations": [
+        "Q200262",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +51,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/spanish-conquest-of-iberian-navarre.png",
+  "map_asked": true
 }

@@ -9,6 +9,33 @@
     null
   ],
   "editions": 10,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military campaigns and expeditions by the Han dynasty in modern-day Southern China and Northern Vietnam.",
+  "result": "Han victory",
+  "sides": [
+    {
+      "combatants": [
+        "Han Dynasty",
+        "Dong'ou Kingdom",
+        "Yelang"
+      ],
+      "civilizations": [
+        "Q7209"
+      ]
+    },
+    {
+      "combatants": [
+        "Nanyue",
+        "Minyue",
+        "Dian kingdom"
+      ],
+      "civilizations": [
+        "Q827040"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

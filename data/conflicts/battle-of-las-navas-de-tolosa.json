@@ -9,6 +9,44 @@
     1212
   ],
   "editions": 46,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    -3.5490277777778,
+    38.343
+  ],
+  "summary": "An important turning point in the Reconquista and the history of medieval Spain.",
+  "result": "Christian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Order of Santiago",
+        "Crown of Aragon",
+        "Kingdom of Castile",
+        "Kingdom of Navarre",
+        "Kingdom of Portugal",
+        "Knights Templar",
+        "Order of Calatrava",
+        "Crusades",
+        "Kingdom of León"
+      ],
+      "civilizations": [
+        "Q175276",
+        "Q179293",
+        "Q200262",
+        "Q204920",
+        "Q45670"
+      ]
+    },
+    {
+      "combatants": [
+        "Almohad Caliphate"
+      ],
+      "civilizations": [
+        "Q199688"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +59,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-las-navas-de-tolosa.png",
+  "map_asked": true
 }

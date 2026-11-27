@@ -9,6 +9,37 @@
     589
   ],
   "editions": 8,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of wars between the Franks and the Visigoths, but it also involved the Burgundians, the Ostrogoths and the Romans.",
+  "result": "Gallia Aquitania is annexed by the Franks",
+  "sides": [
+    {
+      "combatants": [
+        "Francia",
+        "Armorica",
+        "Kingdom of the Burgundians",
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q146246",
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Visigothic Kingdom",
+        "Ostrogothic Kingdom",
+        "Kingdom of the Burgundians",
+        "Alamanni"
+      ],
+      "civilizations": [
+        "Q126936",
+        "Q583038"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

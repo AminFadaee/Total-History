@@ -9,6 +9,46 @@
     1842
   ],
   "editions": 50,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Durranis backed by the British Empire and the Sikh Empire, and the Barakzais of Kabul and Kandahar, alongside their regional allies, from 1838 to 1842.",
+  "result": "Barakzai Afghan victory",
+  "sides": [
+    {
+      "combatants": [
+        "Durrani dynasty",
+        "Durrani Empire",
+        "East India Company",
+        "Sikh Empire",
+        "Sind State",
+        "Maimana Khanate",
+        "Kholm",
+        "British Empire"
+      ],
+      "civilizations": [
+        "Q467627",
+        "Q83572",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Barakzai dynasty",
+        "Emirate of Afghanistan",
+        "Principality of Qandahar",
+        "Hotak",
+        "Tokhi",
+        "Ghilzai",
+        "Khanate of Kalat",
+        "Marri-Bugti County",
+        "Kholm"
+      ],
+      "civilizations": [
+        "Q1335260"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

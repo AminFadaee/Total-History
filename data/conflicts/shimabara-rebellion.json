@@ -9,6 +9,32 @@
     1638
   ],
   "editions": 37,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "An uprising that occurred in the Shimabara Domain of the Tokugawa shogunate in Japan from 17 December 1637 to 15 April 1638.",
+  "result": "Tokugawa victory",
+  "sides": [
+    {
+      "combatants": [
+        "Tokugawa Shogunate",
+        "Dutch East India Company",
+        "Dutch Republic",
+        "VOC"
+      ],
+      "civilizations": [
+        "Q170072",
+        "Q205662"
+      ]
+    },
+    {
+      "combatants": [
+        "Catholic Church in Japan",
+        "ronin"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,31 @@
     632
   ],
   "editions": 28,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    46.45665,
+    24.88666
+  ],
+  "summary": "Fought in December 632 as part of the Ridda Wars against a rebellion within the Rashidun Caliphate in the region of al-Yamama between the forces of Abu Bakr and Musaylima, a self-proclaimed prophet.",
+  "result": "Rashidun Caliphate victory",
+  "sides": [
+    {
+      "combatants": [
+        "Rashidun Caliphate"
+      ],
+      "civilizations": [
+        "Q12490507"
+      ]
+    },
+    {
+      "combatants": [
+        "Banu Hanifa",
+        "Musaylimah"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "founding": [
       {

@@ -9,6 +9,41 @@
     1940
   ],
   "editions": 74,
+  "vital_level": 5,
+  "battle": true,
+  "point": null,
+  "summary": "The German invasion of the Low Countries and France during the Second World War.",
+  "result": "Axis victory",
+  "sides": [
+    {
+      "combatants": [
+        "Nazi Germany",
+        "Kingdom of Italy"
+      ],
+      "civilizations": [
+        "Q172579",
+        "Q7318"
+      ]
+    },
+    {
+      "combatants": [
+        "Polish Army in France",
+        "French Third Republic",
+        "Belgium",
+        "United Kingdom",
+        "Netherlands",
+        "Polish government-in-exile",
+        "Canada in the world wars and interwar years",
+        "Czechoslovak government-in-exile",
+        "Luxembourg"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q55",
+        "Q70802"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

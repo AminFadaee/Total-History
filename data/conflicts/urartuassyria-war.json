@@ -9,6 +9,29 @@
     -750
   ],
   "editions": 9,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between the Kingdom of Urartu and the Neo-Assyrian Empire.",
+  "result": "Assyrian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Urartu"
+      ],
+      "civilizations": [
+        "Q185068"
+      ]
+    },
+    {
+      "combatants": [
+        "Assyria"
+      ],
+      "civilizations": [
+        "Q41137"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,46 @@
     1683
   ],
   "editions": 63,
+  "vital_level": 4,
+  "battle": true,
+  "point": [
+    16.335,
+    48.235
+  ],
+  "summary": "1683 battle between the Christian European States and the Ottomans.",
+  "result": "Christian coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Crimean Khanate",
+        "Principality of Upper Hungary",
+        "Principality of Moldavia",
+        "Principality of Transylvania",
+        "Principality of Wallachia"
+      ],
+      "civilizations": [
+        "Q10957559",
+        "Q12560",
+        "Q160440",
+        "Q171393"
+      ]
+    },
+    {
+      "combatants": [
+        "Habsburg Monarchy",
+        "Archduchy of Austria",
+        "Crown of the Kingdom of Poland",
+        "Holy Roman Empire",
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q153136",
+        "Q172107"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -28,5 +68,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-vienna.png",
+  "map_asked": true
 }

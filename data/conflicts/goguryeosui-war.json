@@ -9,6 +9,30 @@
     614
   ],
   "editions": 17,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of invasions launched by the Sui dynasty of China against Goguryeo, one of the Three Kingdoms of Korea, between AD 598 and AD 614.",
+  "result": "Goguryeo victory",
+  "sides": [
+    {
+      "combatants": [
+        "Goguryeo",
+        "Eastern Turkic Khaganate"
+      ],
+      "civilizations": [
+        "Q28370"
+      ]
+    },
+    {
+      "combatants": [
+        "Sui Dynasty"
+      ],
+      "civilizations": [
+        "Q7405"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,34 @@
     1913
   ],
   "editions": 68,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict fought between the Tsardom of Bulgaria and its former Balkan League allies, Serbia, Montenegro and Greece, who were later joined by Romania and the Ottoman Empire.",
+  "result": "Bulgarian defeat",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Bulgaria"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Kingdom of Serbia",
+        "Kingdom of Greece",
+        "Kingdom of Romania",
+        "Kingdom of Montenegro",
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q203493",
+        "Q209065",
+        "Q241748"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

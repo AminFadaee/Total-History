@@ -9,6 +9,44 @@
     1899
   ],
   "editions": 42,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    32,
+    15
+  ],
+  "summary": "Fought between the Mahdist Sudanese, led by Muhammad Ahmad bin Abdullah, who had proclaimed himself the \"Mahdi\" of Islam, and the forces of the Khedivate of Egypt, initially, and later the forces of Britain.",
+  "result": "Establishment of Anglo-Egyptian Sudan, a polity jointly ruled by Britain and Egypt",
+  "sides": [
+    {
+      "combatants": [
+        "Colony of New South Wales",
+        "Italian Eritrea",
+        "British Empire",
+        "Khedivate of Egypt",
+        "presidencies and provinces in British India",
+        "Canada",
+        "Kingdom of Italy",
+        "Ethiopian Empire",
+        "Congo Free State",
+        "New South Wales"
+      ],
+      "civilizations": [
+        "Q16",
+        "Q172579",
+        "Q207521",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Mahdist State"
+      ],
+      "civilizations": [
+        "Q3125368"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

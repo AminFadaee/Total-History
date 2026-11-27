@@ -9,6 +9,36 @@
     663
   ],
   "editions": 20,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    126.667,
+    36
+  ],
+  "summary": "A battle between Paekche restoration forces and their ally Yamato Japan against the allied forces of Silla and Tang China.",
+  "result": "Paekche falls and is absorbed by the alliance, Tamna withdraws from the mainland, and Yamato cuts ties with Silla.",
+  "sides": [
+    {
+      "combatants": [
+        "Tang Dynasty",
+        "Silla"
+      ],
+      "civilizations": [
+        "Q28456",
+        "Q9683"
+      ]
+    },
+    {
+      "combatants": [
+        "Yamato Kingship",
+        "Baekje",
+        "Tamna"
+      ],
+      "civilizations": [
+        "Q28428"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

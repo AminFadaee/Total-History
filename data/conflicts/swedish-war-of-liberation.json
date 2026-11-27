@@ -9,6 +9,33 @@
     1523
   ],
   "editions": 30,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A significant historical event in Sweden.",
+  "result": "Kingdom of Sweden regains independence",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Sweden",
+        "History of the Free and Hanseatic City of Lübeck"
+      ],
+      "civilizations": [
+        "Q34"
+      ]
+    },
+    {
+      "combatants": [
+        "Kalmar Union",
+        "Denmark",
+        "Old Kingdom of Norway"
+      ],
+      "civilizations": [
+        "Q20",
+        "Q62623"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

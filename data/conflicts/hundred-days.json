@@ -9,6 +9,55 @@
     1815
   ],
   "editions": 63,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "1815 period of the Napoleonic Wars.",
+  "result": "Coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Prussia",
+        "United Kingdom of the Netherlands",
+        "Kingdom of Hanover",
+        "Bourbon Kingdom of France",
+        "Duchy of Nassau",
+        "Grand Duchy of Tuscany",
+        "Kingdom of Sardinia",
+        "Restoration in Switzerland",
+        "United Kingdom of Great Britain and Ireland",
+        "Austrian Empire",
+        "Hanover",
+        "Bourbon Restoration",
+        "Brunswick",
+        "Kingdom of Württemberg",
+        "Nassau",
+        "Tuscany",
+        "Russian Empire",
+        "Swiss Confederation"
+      ],
+      "civilizations": [
+        "Q131964",
+        "Q154849",
+        "Q164079",
+        "Q174193",
+        "Q207162",
+        "Q2577303",
+        "Q34266",
+        "Q39"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Naples",
+        "First French Empire"
+      ],
+      "civilizations": [
+        "Q173065",
+        "Q71084"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

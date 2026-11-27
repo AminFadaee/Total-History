@@ -9,6 +9,47 @@
     1660
   ],
   "editions": 42,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Swedish Empire and the Polish–Lithuanian Commonwealth, with participation at different times by Russia, Brandenburg-Prussia, the Habsburg monarchy, and Denmark–Norway.",
+  "result": "Denmark–Norway cedes Scania, Halland, Blekinge, Bohuslän and Ven to Sweden.",
+  "sides": [
+    {
+      "combatants": [
+        "Swedish Empire",
+        "Brandenburg-Prussia",
+        "Swedish Lithuania",
+        "Cossack Hetmanate",
+        "Transylvania",
+        "Margraviate of Brandenburg"
+      ],
+      "civilizations": [
+        "Q212439",
+        "Q215443"
+      ]
+    },
+    {
+      "combatants": [
+        "Polish-Lithuanian Commonwealth",
+        "Denmark-Norway",
+        "Tsardom of Russia",
+        "Brandenburg-Prussia",
+        "Crimean Khanate",
+        "Habsburg Monarchy",
+        "Dutch Republic",
+        "Margraviate of Brandenburg"
+      ],
+      "civilizations": [
+        "Q153136",
+        "Q160440",
+        "Q170072",
+        "Q172107",
+        "Q186096",
+        "Q62651"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

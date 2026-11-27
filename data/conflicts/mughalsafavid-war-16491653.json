@@ -9,6 +9,32 @@
     1653
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Mughal and Safavid empires in the territory of modern Afghanistan.",
+  "result": "Safavid victory",
+  "sides": [
+    {
+      "combatants": [
+        "Safavid Dynasty",
+        "Khanate of Bukhara"
+      ],
+      "civilizations": [
+        "Q18234383",
+        "Q577668"
+      ]
+    },
+    {
+      "combatants": [
+        "Mughal Empire",
+        "Jaipur State"
+      ],
+      "civilizations": [
+        "Q33296"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

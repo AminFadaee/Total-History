@@ -9,6 +9,34 @@
     1556
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An uprising against Tsardom of Russia.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Tsardom of Russia",
+        "Mari people"
+      ],
+      "civilizations": [
+        "Q186096"
+      ]
+    },
+    {
+      "combatants": [
+        "Volga Tatars",
+        "Chuvash people",
+        "Mari people",
+        "Udmurts",
+        "Nogai Horde"
+      ],
+      "civilizations": [
+        "Q631210"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

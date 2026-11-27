@@ -9,6 +9,32 @@
     1818
   ],
   "editions": 26,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The final and decisive conflict between the British East India Company and the Maratha Empire.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "Peshwa",
+        "Gwalior State",
+        "Indore State",
+        "Nagpur kingdom",
+        "Pindari",
+        "Maratha Empire"
+      ],
+      "civilizations": [
+        "Q83618"
+      ]
+    },
+    {
+      "combatants": [
+        "East India Company"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "ending": [
       {

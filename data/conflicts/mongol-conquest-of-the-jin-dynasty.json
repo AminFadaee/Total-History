@@ -9,6 +9,34 @@
     1234
   ],
   "editions": 17,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Mongol Empire and the Jurchen-led Jin dynasty in Manchuria and North China.",
+  "result": "Mongol–Song victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mongol Empire",
+        "Eastern Liao",
+        "Western Xia",
+        "Song dynasty"
+      ],
+      "civilizations": [
+        "Q12557",
+        "Q7462"
+      ]
+    },
+    {
+      "combatants": [
+        "Great Jin",
+        "Western Xia"
+      ],
+      "civilizations": [
+        "Q5066"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

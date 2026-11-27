@@ -9,6 +9,53 @@
     1396
   ],
   "editions": 48,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    24.895833333333,
+    43.705833333333
+  ],
+  "summary": "1396 battle during the Ottoman wars in Europe.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Moravian Serbia"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    },
+    {
+      "combatants": [
+        "Crusades",
+        "Kingdom of Hungary",
+        "Holy Roman Empire",
+        "Kingdom of France",
+        "Duchy of Burgundy",
+        "Croatia in personal union with Hungary",
+        "Principality of Wallachia",
+        "Knights Hospitaller",
+        "Republic of Venice",
+        "Republic of Genoa",
+        "Tsardom of Vidin",
+        "Teutonic Order",
+        "Byzantine Empire under the Palaiologos dynasty",
+        "County of Cilli",
+        "District of Branković"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q156020",
+        "Q171393",
+        "Q174306",
+        "Q4712",
+        "Q4948",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -19,5 +66,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-nicopolis.png",
+  "map_asked": true
 }

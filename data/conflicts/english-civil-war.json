@@ -9,6 +9,30 @@
     1651
   ],
   "editions": 98,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of civil wars and political machinations between Royalists and Parliamentarians in the Kingdom of England from 1642 to 1651.",
+  "result": "Parliamentarian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roundhead",
+        "Covenanters",
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q179876"
+      ]
+    },
+    {
+      "combatants": [
+        "Cavalier",
+        "Covenanters"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

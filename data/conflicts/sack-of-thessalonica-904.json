@@ -9,6 +9,34 @@
     904
   ],
   "editions": 19,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    22.9,
+    40.65
+  ],
+  "summary": "The capture and subsequent sack of the Byzantine city of Thessalonica by the Abbasid Caliphate and Tulunids in the year 904, led by Leo of Tripoli, a privateer and Muslim convert.",
+  "result": "Abbasid victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Abbasid Caliphate",
+        "Tulunids"
+      ],
+      "civilizations": [
+        "Q12536",
+        "Q726798"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

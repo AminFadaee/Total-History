@@ -9,6 +9,56 @@
     1598
   ],
   "editions": 56,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of civil wars between French Catholics and Protestants from 1562 to 1598.",
+  "result": "See Aftermath",
+  "sides": [
+    {
+      "combatants": [
+        "Protestantism",
+        "Huguenots",
+        "Politique",
+        "Malcontents",
+        "Kingdom of England",
+        "Kingdom of Scotland",
+        "Kingdom of Navarre",
+        "United Provinces"
+      ],
+      "civilizations": [
+        "Q179876",
+        "Q200262",
+        "Q230791"
+      ]
+    },
+    {
+      "combatants": [
+        "Grand Duchy of Tuscany",
+        "Kingdom of France",
+        "Spanish Empire",
+        "Papal States"
+      ],
+      "civilizations": [
+        "Q154849",
+        "Q170174",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Catholic Church",
+        "Catholic League",
+        "Spanish Empire",
+        "Duchy of Savoy",
+        "Portuguese Empire"
+      ],
+      "civilizations": [
+        "Q200464",
+        "Q426025"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

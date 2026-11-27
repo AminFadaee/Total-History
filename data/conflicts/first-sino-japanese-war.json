@@ -9,6 +9,29 @@
     1895
   ],
   "editions": 77,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between the Qing dynasty of China and the Empire of Japan primarily for influence over Korea.",
+  "result": "Qing lost suzerainty over Korea, ceded Taiwan and the Penghu Islands to Japan",
+  "sides": [
+    {
+      "combatants": [
+        "Qing Dynasty"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    },
+    {
+      "combatants": [
+        "Empire of Japan"
+      ],
+      "civilizations": [
+        "Q188712"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

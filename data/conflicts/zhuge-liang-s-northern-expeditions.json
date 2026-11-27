@@ -9,6 +9,32 @@
     null
   ],
   "editions": 15,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of five military campaigns launched by the state of Shu Han against the rival state of Cao Wei from 228 to 234 during the Three Kingdoms period in China.",
+  "result": "See aftermath",
+  "sides": [
+    {
+      "combatants": [
+        "Cao Wei"
+      ],
+      "civilizations": [
+        "Q320930"
+      ]
+    },
+    {
+      "combatants": [
+        "Shu Han",
+        "Qiang",
+        "Xianbei"
+      ],
+      "civilizations": [
+        "Q320925",
+        "Q861054"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

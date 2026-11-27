@@ -9,6 +9,33 @@
     1871
   ],
   "editions": 83,
+  "vital_level": 4,
+  "battle": false,
+  "point": [
+    2.3513888888889,
+    48.856944444444
+  ],
+  "summary": "A French revolutionary government that seized power in Paris on 18 March 1871 and controlled parts of the city until 28 May 1871.",
+  "result": "Revolt suppressed",
+  "sides": [
+    {
+      "combatants": [
+        "French Third Republic",
+        "French Army",
+        "France"
+      ],
+      "civilizations": [
+        "Q70802"
+      ]
+    },
+    {
+      "combatants": [
+        "communard",
+        "National Guard of France (1789-1872)"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

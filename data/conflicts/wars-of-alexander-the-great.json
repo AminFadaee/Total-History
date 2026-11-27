@@ -9,6 +9,42 @@
     -323
   ],
   "editions": 32,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Conflicts of Alexander the Great (336–325 BC).",
+  "result": "Macedonian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Macedonia",
+        "League of Corinth",
+        "Gandhara"
+      ],
+      "civilizations": [
+        "Q83958"
+      ]
+    },
+    {
+      "combatants": [
+        "Achaemenid Empire",
+        "Illyrians",
+        "Thracians",
+        "polis",
+        "Bactria",
+        "Sogdia",
+        "Uxii",
+        "Pauravas",
+        "Aśvakas",
+        "Cophen Campaign",
+        "Malli",
+        "Mallian Campaign"
+      ],
+      "civilizations": [
+        "Q389688"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

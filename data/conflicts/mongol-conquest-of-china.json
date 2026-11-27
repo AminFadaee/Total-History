@@ -9,6 +9,42 @@
     1279
   ],
   "editions": 16,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of major military efforts by the Mongol Empire to conquer various empires that were ruling over China for 74 years.",
+  "result": "Mongol victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mongol Empire",
+        "Western Xia",
+        "Song dynasty",
+        "Eastern Liao",
+        "Goryeo",
+        "Yuan Dynasty",
+        "Kingdom of Dali"
+      ],
+      "civilizations": [
+        "Q12557",
+        "Q28208",
+        "Q7313"
+      ]
+    },
+    {
+      "combatants": [
+        "Western Xia",
+        "Great Jin",
+        "Eastern Xia",
+        "Later Liao",
+        "Song dynasty",
+        "Kingdom of Dali"
+      ],
+      "civilizations": [
+        "Q5066"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

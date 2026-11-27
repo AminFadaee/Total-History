@@ -9,6 +9,35 @@
     1757
   ],
   "editions": 55,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    88.25,
+    23.8
+  ],
+  "summary": "A decisive victory of the British East India Company, under the leadership of Robert Clive, over the Nawab of Bengal and his French allies on 23 June 1757.",
+  "result": "Bengal came under de facto control of the British East India Company",
+  "sides": [
+    {
+      "combatants": [
+        "East India Company",
+        "Kingdom of Great Britain"
+      ],
+      "civilizations": [
+        "Q161885"
+      ]
+    },
+    {
+      "combatants": [
+        "Bengal Subah",
+        "Kingdom of France",
+        "French Indies Company"
+      ],
+      "civilizations": [
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

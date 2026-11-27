@@ -9,6 +9,55 @@
     1648
   ],
   "editions": 74,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict in the Habsburg Netherlands between disparate groups of rebels and the Spanish government.",
+  "result": "Peace of Münster",
+  "sides": [
+    {
+      "combatants": [
+        "Union of Utrecht",
+        "Act of Abjuration",
+        "Instruction of 12 April 1588",
+        "States General",
+        "Pacification of Ghent",
+        "Seventeen Provinces",
+        "Duchy of Luxembourg",
+        "Union of Arras",
+        "Anglo-Spanish War",
+        "Anglo-Spanish War of 1625–1630",
+        "French Wars of Religion",
+        "Franco-Spanish War",
+        "Francis, Duke of Anjou",
+        "Treaty of Plessis-les-Tours",
+        "Kingdom of Portugal",
+        "Portuguese Restoration War",
+        "Treaty of The Hague",
+        "Huguenots",
+        "County of Nassau",
+        "Dutch Republic",
+        "Kingdom of England",
+        "Kingdom of France"
+      ],
+      "civilizations": [
+        "Q170072",
+        "Q179876",
+        "Q45670",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Spanish Empire",
+        "Holy Roman Empire"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q80702"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

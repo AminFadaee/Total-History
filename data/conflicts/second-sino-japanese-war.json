@@ -9,6 +9,51 @@
     1945
   ],
   "editions": 84,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Republic of China and the Empire of Japan and its puppet states between 1937 and 1945, following a period of conflict that started in 1931.",
+  "result": "China recovers territories lost to Japan since the Treaty of Shimonoseki, as well as retaking de facto control from the Japanese puppet states",
+  "sides": [
+    {
+      "combatants": [
+        "Chinese Communist Party",
+        "Soviet Volunteer Group",
+        "American Volunteer Group",
+        "China Burma India Theater",
+        "Republic of China",
+        "Kuomintang",
+        "British Empire",
+        "United Kingdom",
+        "presidencies and provinces in British India",
+        "British rule in Myanmar",
+        "United States of America",
+        "Union of Soviet Socialist Republics",
+        "Mongolian People's Republic"
+      ],
+      "civilizations": [
+        "Q13426199",
+        "Q145",
+        "Q15180",
+        "Q212056",
+        "Q30",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Wang Jingwei regime",
+        "North China Political Council",
+        "Empire of Japan",
+        "Manchukuo",
+        "Mengjiang",
+        "People's Republic of China"
+      ],
+      "civilizations": [
+        "Q188712"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

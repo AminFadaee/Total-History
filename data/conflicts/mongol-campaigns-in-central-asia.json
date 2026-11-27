@@ -9,6 +9,43 @@
     1221
   ],
   "editions": 24,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Series of military campaigns (1209–1236).",
+  "result": "Mongol Empire gains control of most of Central Asia",
+  "sides": [
+    {
+      "combatants": [
+        "Mongol Empire",
+        "Qocho",
+        "Karluks"
+      ],
+      "civilizations": [
+        "Q12557"
+      ]
+    },
+    {
+      "combatants": [
+        "Merkit people",
+        "Naimans",
+        "Kara-Khitans",
+        "Cuman-Kipchak Confederation"
+      ],
+      "civilizations": [
+        "Q1122052",
+        "Q862304"
+      ]
+    },
+    {
+      "combatants": [
+        "Khwarezmid Empire"
+      ],
+      "civilizations": [
+        "Q63134381"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

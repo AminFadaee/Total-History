@@ -9,6 +9,45 @@
     -449
   ],
   "editions": 78,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of armed conflicts involving various Greek city-states and the Achaemenid Empire from 499 BC to 449 BC.",
+  "result": "Greek victory",
+  "sides": [
+    {
+      "combatants": [
+        "Classical Athens",
+        "Sparta",
+        "Peloponnesian League",
+        "Delian League",
+        "Ancient Corinth",
+        "Plataea",
+        "Thebes",
+        "Thespiae",
+        "Salamis",
+        "Ionian Revolt",
+        "Ancient Egypt"
+      ],
+      "civilizations": [
+        "Q5690",
+        "Q844930"
+      ]
+    },
+    {
+      "combatants": [
+        "Halicarnassus",
+        "Ancient Thessaly",
+        "Boeotia Regional Unit",
+        "Thebes",
+        "Achaemenid Macedonia",
+        "Achaemenid Empire"
+      ],
+      "civilizations": [
+        "Q389688"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

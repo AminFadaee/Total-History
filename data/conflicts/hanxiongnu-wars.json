@@ -9,6 +9,38 @@
     89
   ],
   "editions": 16,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military conflicts fought from 133 BC to 89 AD between the agrarian Chinese Han dynasty and the nomadic pastoralist Xiongnu confederacy, although extended conflicts can be traced back as early as 200 BC and as late as 188 AD.",
+  "result": "Han victory",
+  "sides": [
+    {
+      "combatants": [
+        "Xiongnu",
+        "Qiang",
+        "Wuhuan",
+        "Wusun"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Han Dynasty",
+        "Xin Dynasty",
+        "Xiongnu",
+        "Qiang",
+        "Wuhuan",
+        "Xianbei",
+        "Wusun"
+      ],
+      "civilizations": [
+        "Q504769",
+        "Q7209",
+        "Q861054"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

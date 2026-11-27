@@ -9,6 +9,37 @@
     1864
   ],
   "editions": 66,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A civil war in late imperial China fought between the ruling Qing dynasty and the rebelling Taiping Heavenly Kingdom.",
+  "result": "Qing victory",
+  "sides": [
+    {
+      "combatants": [
+        "Qing Dynasty",
+        "Second French Empire",
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q71092",
+        "Q8733"
+      ]
+    },
+    {
+      "combatants": [
+        "Taiping Heavenly Kingdom",
+        "Nian Rebellion",
+        "Red Turban Rebellion",
+        "Tiandihui",
+        "Small Swords Society",
+        "Miao rebellion of 1854–73",
+        "Black Flag Army"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

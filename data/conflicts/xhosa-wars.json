@@ -9,6 +9,33 @@
     1879
   ],
   "editions": 20,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of nine wars between the Xhosa Kingdom and the British Empire as well as Trekboers from the Dutch colonial empire in what is now the Eastern Cape in South Africa.",
+  "result": "Expansion of the Cape Colony",
+  "sides": [
+    {
+      "combatants": [
+        "Xhosa people"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Dutch Cape Colony",
+        "Trekboer",
+        "British Cape Colony",
+        "British Empire",
+        "Dutch Empire"
+      ],
+      "civilizations": [
+        "Q370736",
+        "Q4807130",
+        "Q8680"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,31 @@
     578
   ],
   "editions": 8,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of pre-Islamic battles that took place in the 6th century, when the Kingdom of Aksum and the Sasanian Empire fought for control over South Arabia.",
+  "result": "Establishment of Sasanian Yemen",
+  "sides": [
+    {
+      "combatants": [
+        "Sasanian Empire",
+        "Himyarite Kingdom"
+      ],
+      "civilizations": [
+        "Q289577",
+        "Q83891"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Axum"
+      ],
+      "civilizations": [
+        "Q139377"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

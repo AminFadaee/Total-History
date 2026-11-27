@@ -9,6 +9,30 @@
     1192
   ],
   "editions": 16,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    76.94,
+    29.78
+  ],
+  "summary": "Fought in 1192 between the Ghurid forces of Muhammad Ghuri and the Rajput Confederacy of Prithviraj Chauhan.",
+  "result": "Muhammad Ghuri conquers much of northwestern India including Delhi",
+  "sides": [
+    {
+      "combatants": [
+        "Ghurid Dynasty"
+      ],
+      "civilizations": [
+        "Q199443"
+      ]
+    },
+    {
+      "combatants": [
+        "Rajput"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

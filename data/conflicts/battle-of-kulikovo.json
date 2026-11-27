@@ -9,6 +9,49 @@
     1380
   ],
   "editions": 52,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    38.6535,
+    53.6525
+  ],
+  "summary": "Fought between the forces of Mamai, a powerful Mongol military commander of the Golden Horde, and Russian forces led by Grand Prince Dmitry of Moscow.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Grand Principality of Moscow",
+        "Principality of Beloozero",
+        "Principality of Yaroslavl",
+        "Principality of Rostov-Suzdal",
+        "Starodub-on-the-Klyazma",
+        "Mologa",
+        "Kashin",
+        "Vyazma",
+        "Dorogobuzh",
+        "Upper Oka Principality",
+        "Principality of Polotsk",
+        "Bryansk"
+      ],
+      "civilizations": [
+        "Q170770",
+        "Q83546"
+      ]
+    },
+    {
+      "combatants": [
+        "mercenary",
+        "Principality of Ryazan",
+        "Cumans",
+        "Circassians",
+        "Ossetians",
+        "Golden Horde"
+      ],
+      "civilizations": [
+        "Q79965"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

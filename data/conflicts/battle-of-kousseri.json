@@ -9,6 +9,33 @@
     1900
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    15.0333,
+    12.0667
+  ],
+  "summary": "A major engagement fought between France and the forces of the warlord Rabih az-Zubayr in the Rabih War.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kanem–Bornu Empire"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "French Third Republic",
+        "Kingdom of Baguirmi",
+        "Kanem–Bornu Empire",
+        "France"
+      ],
+      "civilizations": [
+        "Q70802"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

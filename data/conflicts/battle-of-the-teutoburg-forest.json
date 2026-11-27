@@ -9,6 +9,37 @@
     9
   ],
   "editions": 64,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    8.125833333333333,
+    52.4075
+  ],
+  "summary": "A major battle fought between an alliance of Germanic peoples and the Roman Empire between 8 and 11 September 9 AD, possibly near modern Kalkriese.",
+  "result": "Germanic victory",
+  "sides": [
+    {
+      "combatants": [
+        "Germanic people",
+        "Angrivarii",
+        "Bructeri",
+        "Chatti",
+        "Cherusci",
+        "Marsi",
+        "Sicambri",
+        "Usipi"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

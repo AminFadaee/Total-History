@@ -9,6 +9,37 @@
     1827
   ],
   "editions": 42,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    21.687777777778,
+    36.935833333333
+  ],
+  "summary": "A naval battle fought on 20 October 1827, during the Greek War of Independence, in Navarino Bay, on the west coast of the Peloponnese peninsula, in the Ionian Sea.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "United Kingdom of Great Britain and Ireland",
+        "Bourbon Restoration",
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Egypt eyalet",
+        "Ottoman Empire",
+        "Regency of Algiers"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

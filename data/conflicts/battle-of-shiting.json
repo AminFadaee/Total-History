@@ -9,6 +9,32 @@
     228
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    116.55305555555556,
+    30.760833333333334
+  ],
+  "summary": "Fought between the states of Cao Wei and Eastern Wu in 228 during the Three Kingdoms period of China.",
+  "result": "Eastern Wu victory",
+  "sides": [
+    {
+      "combatants": [
+        "Eastern Wu"
+      ],
+      "civilizations": [
+        "Q274488"
+      ]
+    },
+    {
+      "combatants": [
+        "Cao Wei"
+      ],
+      "civilizations": [
+        "Q320930"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-shiting.png",
+  "map_asked": true
 }

@@ -9,6 +9,33 @@
     1968
   ],
   "editions": 41,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Jointly invaded by four fellow Warsaw Pact countries: the Soviet Union, the Polish People's Republic, the People's Republic of Bulgaria, and the Hungarian People's Republic.",
+  "result": "Warsaw Pact victory",
+  "sides": [
+    {
+      "combatants": [
+        "Warsaw Pact",
+        "Union of Soviet Socialist Republics",
+        "Polish People's Republic",
+        "People's Republic of Bulgaria",
+        "Hungarian People's Republic",
+        "East Germany"
+      ],
+      "civilizations": [
+        "Q15180",
+        "Q33946"
+      ]
+    },
+    {
+      "combatants": [
+        "Czechoslovak Socialist Republic"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

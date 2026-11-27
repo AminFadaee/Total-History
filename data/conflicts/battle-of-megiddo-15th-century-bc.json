@@ -9,6 +9,36 @@
     -1457
   ],
   "editions": 37,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    35.184444444444445,
+    32.585277777777776
+  ],
+  "summary": "Fought between Egyptian forces under the command of Pharaoh Thutmose III and a large rebellious coalition of Canaanite vassal states led by the king of Kadesh.",
+  "result": "Egyptian victory",
+  "sides": [
+    {
+      "combatants": [
+        "New Kingdom of Egypt"
+      ],
+      "civilizations": [
+        "Q180568"
+      ]
+    },
+    {
+      "combatants": [
+        "Canaan",
+        "Kadesh",
+        "Tel Megiddo",
+        "Mitanni",
+        "Hurrians"
+      ],
+      "civilizations": [
+        "Q178665"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +50,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-megiddo-15th-century-bc.png",
+  "map_asked": true
 }

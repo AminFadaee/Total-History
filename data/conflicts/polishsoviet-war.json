@@ -9,6 +9,34 @@
     1921
   ],
   "editions": 68,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought primarily between the Second Polish Republic and the Russian Soviet Federative Socialist Republic, following World War I and the Russian Revolution.",
+  "result": "{{ublist|Polish victory<ref>",
+  "sides": [
+    {
+      "combatants": [
+        "Provisional Polish Revolutionary Committee",
+        "Russian Soviet Federative Socialist Republic",
+        "Ukrainian Soviet Socialist Republic",
+        "Byelorussian Soviet Socialist Republic"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Battle of Daugavpils",
+        "Second Polish Republic",
+        "Ukrainian People's Republic",
+        "Belarusian People's Republic",
+        "Latvia"
+      ],
+      "civilizations": [
+        "Q207272"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

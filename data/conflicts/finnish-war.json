@@ -9,6 +9,38 @@
     1809
   ],
   "editions": 46,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    22.966666666666665,
+    62
+  ],
+  "summary": "Fought between the Kingdom of Sweden and the Russian Empire from 21 February 1808 to 17 September 1809 as part of the Napoleonic Wars.",
+  "result": "Treaty of Fredrikshamn",
+  "sides": [
+    {
+      "combatants": [
+        "Russian Empire",
+        "First French Empire",
+        "Denmark-Norway"
+      ],
+      "civilizations": [
+        "Q34266",
+        "Q62651",
+        "Q71084"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Sweden",
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q34"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,36 @@
     1475
   ],
   "editions": 22,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    27.745,
+    46.605
+  ],
+  "summary": "A battle that was fought on 10 January 1475, between Stephen III of Moldavia and the Ottoman governor of Rumelia, Hadım Suleiman Pasha.",
+  "result": "Moldavian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Principality of Moldavia",
+        "Crown of the Kingdom of Poland",
+        "Kingdom of Hungary"
+      ],
+      "civilizations": [
+        "Q10957559"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Principality of Wallachia"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q171393"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +51,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-vaslui.png",
+  "map_asked": true
 }

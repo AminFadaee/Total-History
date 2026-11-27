@@ -9,6 +9,35 @@
     732
   ],
   "editions": 65,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    0.5343888888888889,
+    46.987611111111114
+  ],
+  "summary": "Fought on 10 October 732, and was an important battle during the Umayyad invasion of Gaul.",
+  "result": "Frankish victoryn.d.",
+  "sides": [
+    {
+      "combatants": [
+        "Francia",
+        "Duchy of Aquitaine",
+        "Duchy of Gascony"
+      ],
+      "civilizations": [
+        "Q146246",
+        "Q7703611"
+      ]
+    },
+    {
+      "combatants": [
+        "Umayyad Caliphate"
+      ],
+      "civilizations": [
+        "Q8575586"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

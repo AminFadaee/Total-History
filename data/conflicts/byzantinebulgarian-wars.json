@@ -9,6 +9,31 @@
     1355
   ],
   "editions": 35,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts fought between the Byzantine Empire and the Bulgarian Empire which began already in the late 5th century when the Bulgars defeated a 15.000 Roman army led by Magister Aristus.",
+  "result": "Both states had numerous territorial changes.",
+  "sides": [
+    {
+      "combatants": [
+        "First Bulgarian Empire",
+        "Second Bulgarian Empire"
+      ],
+      "civilizations": [
+        "Q203817",
+        "Q420759"
+      ]
+    },
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

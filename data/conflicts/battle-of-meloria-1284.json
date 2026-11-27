@@ -9,6 +9,32 @@
     1284
   ],
   "editions": 18,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    9.97558611,
+    43.31718611
+  ],
+  "summary": "Fought near the islet of Meloria in the Ligurian Sea on 5 and 6 August 1284 between the fleets of the Republics of Genoa and Pisa as part of the Genoese-Pisan War.",
+  "result": "Genoese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Republic of Genoa"
+      ],
+      "civilizations": [
+        "Q174306"
+      ]
+    },
+    {
+      "combatants": [
+        "Republic of Pisa"
+      ],
+      "civilizations": [
+        "Q1365493"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -31,5 +57,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-meloria-1284.png",
+  "map_asked": true
 }

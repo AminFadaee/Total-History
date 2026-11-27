@@ -9,6 +9,41 @@
     1679
   ],
   "editions": 34,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A part of the Northern Wars involving the union of Denmark–Norway, Brandenburg and Sweden.",
+  "result": "{{Plainlist|",
+  "sides": [
+    {
+      "combatants": [
+        "Denmark-Norway",
+        "Brandenburg-Prussia",
+        "Prince-Bishopric of Münster",
+        "Principality of Lüneburg",
+        "Landgraviate of Hesse-Kassel",
+        "Dutch Republic",
+        "Habsburg Monarchy",
+        "Margraviate of Brandenburg"
+      ],
+      "civilizations": [
+        "Q148499",
+        "Q153136",
+        "Q170072",
+        "Q62651"
+      ]
+    },
+    {
+      "combatants": [
+        "Swedish Empire",
+        "Kingdom of France"
+      ],
+      "civilizations": [
+        "Q215443",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

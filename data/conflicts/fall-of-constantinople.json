@@ -9,6 +9,47 @@
     1453
   ],
   "editions": 80,
+  "vital_level": 4,
+  "battle": true,
+  "point": [
+    28.935,
+    41.03
+  ],
+  "summary": "Captured by the Ottoman Empire on 29 May 1453 as part of the culmination of a 53-day siege which had begun on 6 April.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Serbian Despotate",
+        "Ottoman Empire"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Byzantine Empire under the Palaiologos dynasty",
+        "Crown of Aragon",
+        "Kingdom of France",
+        "Varangian Guard",
+        "Orkhan",
+        "Republic of Genoa",
+        "Republic of Venice",
+        "Papal States",
+        "Kingdom of Sicily",
+        "Ottoman Empire",
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q170174",
+        "Q174306",
+        "Q188586",
+        "Q204920",
+        "Q2277",
+        "Q4948",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

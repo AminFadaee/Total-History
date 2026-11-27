@@ -9,6 +9,31 @@
     null
   ],
   "editions": 4,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military conflicts fought by the Northern Song dynasty, Western Xia dynasty, and Liao dynasty from the late 10th century to the early 12th century.",
+  "result": "Tangut independence",
+  "sides": [
+    {
+      "combatants": [
+        "Dingnan Jiedushi"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Song dynasty"
+      ],
+      "civilizations": [
+        "Q7462"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

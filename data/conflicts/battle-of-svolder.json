@@ -9,6 +9,30 @@
     1000
   ],
   "editions": 30,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    12.75,
+    55.75
+  ],
+  "summary": "A large naval battle during the Viking age, fought in September 1000 in the western Baltic Sea between King Olaf of Norway and an alliance of the Kings of Denmark and Sweden and Olaf's enemies in Norway.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Norway"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "history of Denmark",
+        "Kingdom of Sweden",
+        "Earls of Lade"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

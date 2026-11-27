@@ -9,6 +9,59 @@
     1918
   ],
   "editions": 41,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    44.3,
+    39.7
+  ],
+  "summary": "Armed conflicts between the Russian Empire and the Ottoman Empire, later including Armenia, Azerbaijan, Georgia, the Mountainous Republic of the Northern Caucasus, the German Empire, the Central Caspian Dictatorship, and the British Empire, as part of the Middle Eastern theatre during World War I.",
+  "result": "Independence of Armenia, Azerbaijan, and Georgia",
+  "sides": [
+    {
+      "combatants": [
+        "Allies of the First World War",
+        "Russian Empire",
+        "Russian Provisional Government",
+        "Russian Republic",
+        "Transcaucasian Democratic Federative Republic",
+        "Centrocaspian Dictatorship",
+        "26 Baku Commissars",
+        "Russia",
+        "Russian Soviet Federative Socialist Republic",
+        "First Republic of Armenia",
+        "British Empire"
+      ],
+      "civilizations": [
+        "Q13426199",
+        "Q139319",
+        "Q172579",
+        "Q188712",
+        "Q203493",
+        "Q209065",
+        "Q30",
+        "Q34266",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Central Powers",
+        "Mountainous Republic of the Northern Caucasus",
+        "Azerbaijan Democratic Republic",
+        "Turkish Republic of Aras",
+        "Democratic Republic of Georgia",
+        "Ottoman Empire",
+        "German Empire"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q206411",
+        "Q28513",
+        "Q43287"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {
@@ -19,5 +72,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/caucasus-campaign.png",
+  "map_asked": true
 }

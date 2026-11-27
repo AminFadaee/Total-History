@@ -9,6 +9,27 @@
     205
   ],
   "editions": 40,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A peasant revolt during the late Eastern Han dynasty of ancient China.",
+  "result": "Rebellion suppressed, Han victory",
+  "sides": [
+    {
+      "combatants": [
+        "Han Dynasty"
+      ],
+      "civilizations": [
+        "Q7209"
+      ]
+    },
+    {
+      "combatants": [
+        "Yellow Turban Army"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

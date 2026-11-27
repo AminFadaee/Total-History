@@ -9,6 +9,57 @@
     1944
   ],
   "editions": 71,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    -0.6,
+    49.34
+  ],
+  "summary": "The landing operations and associated airborne operations on 6 June 1944 of the Allied invasion of Normandy in Operation Overlord during the Second World War.",
+  "result": "Five Allied beachheads established in Normandy",
+  "sides": [
+    {
+      "combatants": [
+        "Allies of World War II",
+        "Polish Armed Forces in the West",
+        "Nygaardsvold's Cabinet",
+        "United Kingdom",
+        "United States of America",
+        "Canada",
+        "Provisional Government of the French Republic",
+        "Commonwealth of Australia",
+        "Czechoslovak government-in-exile",
+        "Dutch government-in-exile",
+        "Old Kingdom of Norway",
+        "Dominion of New Zealand",
+        "Greek government-in-exile",
+        "Union of South Africa",
+        "Southern Rhodesia",
+        "Polish government-in-exile"
+      ],
+      "civilizations": [
+        "Q13426199",
+        "Q145",
+        "Q15180",
+        "Q152582",
+        "Q16",
+        "Q20",
+        "Q207521",
+        "Q209065",
+        "Q30",
+        "Q408",
+        "Q55"
+      ]
+    },
+    {
+      "combatants": [
+        "Nazi Germany"
+      ],
+      "civilizations": [
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

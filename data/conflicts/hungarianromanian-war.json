@@ -9,6 +9,31 @@
     1920
   ],
   "editions": 26,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between Hungary and Romania from 13 November 1918 to 3 August 1919.",
+  "result": "Romanian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Hungary",
+        "First Hungarian Republic",
+        "Hungarian Soviet Republic"
+      ],
+      "civilizations": [
+        "Q171150"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Romania"
+      ],
+      "civilizations": [
+        "Q203493"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,35 @@
     1939
   ],
   "editions": 32,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    118.59,
+    47.7303
+  ],
+  "summary": "A series of minor and major conflicts fought between the Soviet Union, Mongolia and Japan in Northeast Asia from 1932 to 1939.",
+  "result": "Soviet–Mongolian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Union of Soviet Socialist Republics",
+        "Mongolian People's Republic"
+      ],
+      "civilizations": [
+        "Q15180",
+        "Q212056"
+      ]
+    },
+    {
+      "combatants": [
+        "Empire of Japan",
+        "Manchukuo"
+      ],
+      "civilizations": [
+        "Q188712"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {
@@ -20,5 +49,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/sovietjapanese-border-conflicts.png",
+  "map_asked": false
 }

@@ -9,6 +9,33 @@
     1940
   ],
   "editions": 42,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "A military campaign, part of Case Yellow, the Nazi German invasion of the Low Countries and France during World War II.",
+  "result": "German victory",
+  "sides": [
+    {
+      "combatants": [
+        "Netherlands",
+        "French Third Republic",
+        "United Kingdom"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q55",
+        "Q70802"
+      ]
+    },
+    {
+      "combatants": [
+        "Nazi Germany"
+      ],
+      "civilizations": [
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

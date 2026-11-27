@@ -9,6 +9,32 @@
     1388
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    118,
+    48.1
+  ],
+  "summary": "Fought between the Ming and Northern Yuan dynasties at the Buir Lake in 1388.",
+  "result": "Ming victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ming Dynasty"
+      ],
+      "civilizations": [
+        "Q9903"
+      ]
+    },
+    {
+      "combatants": [
+        "Northern Yuan"
+      ],
+      "civilizations": [
+        "Q8959"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-buir-lake.png",
+  "map_asked": true
 }

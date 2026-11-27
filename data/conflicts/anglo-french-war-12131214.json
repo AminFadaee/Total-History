@@ -9,6 +9,38 @@
     1214
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A major medieval conflict that pitted the Kingdom of France against the Kingdom of England and various other states.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of France"
+      ],
+      "civilizations": [
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Angevin Empire",
+        "Duchy of Aquitaine",
+        "Holy Roman Empire",
+        "County of Flanders",
+        "County of Boulogne",
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q157070",
+        "Q179876",
+        "Q538677",
+        "Q7703611"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

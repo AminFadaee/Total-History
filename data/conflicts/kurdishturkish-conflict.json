@@ -9,6 +9,42 @@
     1921
   ],
   "editions": 25,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Wars between two groups.",
+  "result": "Ongoing",
+  "sides": [
+    {
+      "combatants": [
+        "Government of the Grand National Assembly",
+        "Kurdistan Region of Iraq",
+        "Ottoman Empire",
+        "Republic of Turkey",
+        "Kurdistan"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q43"
+      ]
+    },
+    {
+      "combatants": [
+        "Society for the Rise of Kurdistan",
+        "Republic of Ararat",
+        "Xoybûn",
+        "Kurdistan Workers' Party",
+        "Koma Civakên Kurdistan",
+        "People's Defence Forces",
+        "Free Women's Units",
+        "YDG-H",
+        "Civil Protection Units",
+        "Turkish Hezbollah",
+        "Kurdistan Freedom Falcons"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

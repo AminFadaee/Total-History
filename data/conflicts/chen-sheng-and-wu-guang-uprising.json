@@ -9,6 +9,25 @@
     null
   ],
   "editions": 15,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The first uprising against the Qin dynasty following the death of Qin Shi Huang.",
+  "result": "Qin victory",
+  "sides": [
+    {
+      "combatants": [],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Qin dynasty"
+      ],
+      "civilizations": [
+        "Q7183"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,36 @@
     1860
   ],
   "editions": 57,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Two conflicts waged between the Qing dynasty and the Western powers during the mid-19th century.",
+  "result": "{{ubli",
+  "sides": [
+    {
+      "combatants": [
+        "First Opium War",
+        "United Kingdom of Great Britain and Ireland",
+        "East India Company",
+        "Second Opium War",
+        "British Empire",
+        "Second French Empire"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q71092",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Qing Dynasty"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

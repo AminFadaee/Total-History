@@ -9,6 +9,41 @@
     740
   ],
   "editions": 15,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Military campaigns of the Arab Umayyad Caliphate in India.",
+  "result": "Victory of Indian kingdoms",
+  "sides": [
+    {
+      "combatants": [
+        "Karkota dynasty",
+        "Gurjara-Pratihara Dynasty",
+        "Mori Kingdom",
+        "Chahamanas of Shakambhari",
+        "Guhilas of Medapata",
+        "Gurjaras of Lata",
+        "Chalukya Dynasty",
+        "Rashtrakuta Dynasty",
+        "Kingdom of Valabhi",
+        "Chavda dynasty",
+        "Saindhava"
+      ],
+      "civilizations": [
+        "Q1395011",
+        "Q5324",
+        "Q856691"
+      ]
+    },
+    {
+      "combatants": [
+        "Umayyad Caliphate"
+      ],
+      "civilizations": [
+        "Q8575586"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

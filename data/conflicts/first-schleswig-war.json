@@ -9,6 +9,37 @@
     1851
   ],
   "editions": 36,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military conflict in southern Denmark and northern Germany rooted in the Schleswig–Holstein question: who should control the duchies of Schleswig, Holstein and Lauenburg, which at the time were ruled by the king of Denmark in a personal union.",
+  "result": "Status quo ante bellum",
+  "sides": [
+    {
+      "combatants": [
+        "Duchy of Schleswig",
+        "Duchy of Holstein",
+        "German Confederation",
+        "Prussia",
+        "Kingdom of Saxony",
+        "Kingdom of Hanover",
+        "Mecklenburg-Schwerin"
+      ],
+      "civilizations": [
+        "Q151624",
+        "Q153015",
+        "Q164079",
+        "Q38872"
+      ]
+    },
+    {
+      "combatants": [
+        "Unitary State",
+        "Denmark"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,41 @@
     1099
   ],
   "editions": 84,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The first of a series of religious wars, or Crusades, which were initiated, supported and at times directed by the Latin Church in the Middle Ages.",
+  "result": "The Crusade assists in capturing Nicaea, restoring much of western Anatolia to the Byzantine Empire",
+  "sides": [
+    {
+      "combatants": [
+        "Army of Raymond of Saint-Gilles",
+        "Army of Godfrey of Bouillon",
+        "Army of Robert Curthose on the First Crusade",
+        "Army of Robert II of Flanders on the First Crusade",
+        "Army of Hugh the Great on the First Crusade",
+        "Armies of Bohemond of Taranto",
+        "People's Crusade",
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Great Seljuk Empire",
+        "Sultanate of Rum",
+        "Danishmendid dynasty",
+        "Fatimid Caliphate"
+      ],
+      "civilizations": [
+        "Q160307",
+        "Q3708094",
+        "Q975405"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

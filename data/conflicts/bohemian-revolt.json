@@ -9,6 +9,49 @@
     1620
   ],
   "editions": 23,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An uprising of the Bohemian estates against the rule of the Habsburg dynasty that began the Thirty Years' War.",
+  "result": "Imperial victory",
+  "sides": [
+    {
+      "combatants": [
+        "Lands of the Bohemian Crown",
+        "Duchies of Silesia",
+        "Electoral Palatinate",
+        "Upper Austria",
+        "Lower Austria",
+        "Principality of Transylvania",
+        "Bohemia",
+        "Republic of Austria",
+        "Transylvania"
+      ],
+      "civilizations": [
+        "Q40"
+      ]
+    },
+    {
+      "combatants": [
+        "Habsburg Monarchy",
+        "Kingdom of Bohemia",
+        "Spanish Empire",
+        "Catholic League",
+        "Electorate of Saxony",
+        "Holy Roman Empire",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q153136",
+        "Q156199",
+        "Q29",
+        "Q42585",
+        "Q47261",
+        "Q80702"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

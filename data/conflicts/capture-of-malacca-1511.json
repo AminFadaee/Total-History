@@ -9,6 +9,32 @@
     1511
   ],
   "editions": 14,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    102.256,
+    2.20569
+  ],
+  "summary": "Portuguese military conquest.",
+  "result": "Portuguese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Portuguese Empire"
+      ],
+      "civilizations": [
+        "Q200464"
+      ]
+    },
+    {
+      "combatants": [
+        "Sultanate of Malacca"
+      ],
+      "civilizations": [
+        "Q46652"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

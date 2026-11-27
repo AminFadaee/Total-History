@@ -9,6 +9,36 @@
     1340
   ],
   "editions": 21,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -5.615,
+    36.045
+  ],
+  "summary": "A battle of the allied Christian armies of King Alfonso XI of Castile and King Afonso IV of Portugal against the allied Muslim armies of Sultan Abu al-Hasan 'Ali of the Marinids and Emir Yusuf I of the Emirate of Granada.",
+  "result": "Castilian–Portuguese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Crown of Castile",
+        "Kingdom of Portugal"
+      ],
+      "civilizations": [
+        "Q217196",
+        "Q45670"
+      ]
+    },
+    {
+      "combatants": [
+        "Marinid Sultanate",
+        "Emirate of Granada"
+      ],
+      "civilizations": [
+        "Q238445",
+        "Q582861"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -30,5 +60,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-rio-salado.png",
+  "map_asked": true
 }

@@ -9,6 +9,47 @@
     1814
   ],
   "editions": 65,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought in the Iberian Peninsula by the Iberian nations Spain and Portugal, along with the United Kingdom, against the invading and occupying forces of the First French Empire during the Napoleonic Wars.",
+  "result": "Coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "Spain from 1808 to 1874",
+        "history of Portugal 1777–1834",
+        "Kingdom of Spain",
+        "United Kingdom of Great Britain and Ireland",
+        "Portuguese Republic"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q29",
+        "Q45"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Naples",
+        "Confederation of the Rhine",
+        "Kingdom of Holland",
+        "Switzerland in the Napoleonic era",
+        "First French Empire",
+        "Spain under Joseph Bonaparte",
+        "Kingdom of Italy",
+        "Duchy of Warsaw",
+        "Netherlands"
+      ],
+      "civilizations": [
+        "Q152115",
+        "Q154741",
+        "Q173065",
+        "Q55",
+        "Q71084"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

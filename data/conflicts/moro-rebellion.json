@@ -9,6 +9,33 @@
     null
   ],
   "editions": 15,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict between the Moro people and the United States Armed Forces during the Philippine–American War.",
+  "result": "American victory",
+  "sides": [
+    {
+      "combatants": [
+        "Insular Government of the Philippine Islands",
+        "United States of America"
+      ],
+      "civilizations": [
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "Sultanate of Sulu",
+        "Sultanate of Maguindanao",
+        "Confederate States of Lanao",
+        "First Philippine Republic"
+      ],
+      "civilizations": [
+        "Q422065"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

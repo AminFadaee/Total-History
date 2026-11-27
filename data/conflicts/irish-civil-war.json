@@ -9,6 +9,29 @@
     1923
   ],
   "editions": 54,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict that followed the Irish War of Independence and accompanied the establishment of the Irish Free State, an entity independent from the United Kingdom but within the British Empire.",
+  "result": "Consolidation of the Irish Free State",
+  "sides": [
+    {
+      "combatants": [
+        "Irish Free State"
+      ],
+      "civilizations": [
+        "Q31747"
+      ]
+    },
+    {
+      "combatants": [
+        "Munster Republic",
+        "Irish Republican Army",
+        "Ireland"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,30 @@
     1950
   ],
   "editions": 83,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the government of the Republic of China, led by the Kuomintang, and the Chinese Communist Party.",
+  "result": "Communists proclaim the People's Republic of China in mainland China on 1 October 1949",
+  "sides": [
+    {
+      "combatants": [
+        "Kuomintang",
+        "Republic of China"
+      ],
+      "civilizations": [
+        "Q13426199"
+      ]
+    },
+    {
+      "combatants": [
+        "Chinese Communist Party",
+        "Chinese Soviet Republic",
+        "People's Republic of China"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "ending": [
       {

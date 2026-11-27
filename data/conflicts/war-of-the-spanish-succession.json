@@ -9,6 +9,58 @@
     1714
   ],
   "editions": 78,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A European great power conflict.",
+  "result": "Philip V recognised as King of Spain, but renounces his place in the French line of succession.",
+  "sides": [
+    {
+      "combatants": [
+        "Spanish House of Bourbon",
+        "Spanish Empire",
+        "Kingdom of Spain",
+        "Electorate of Cologne",
+        "Prince-Bishopric of Liège",
+        "History of Portugal",
+        "Duchy of Savoy",
+        "Duchy of Mantua",
+        "Kingdom of France",
+        "Electorate of Bavaria",
+        "Portuguese Republic",
+        "Savoy",
+        "Mantua"
+      ],
+      "civilizations": [
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "House of Habsburg",
+        "Spanish Empire",
+        "Kingdom of Spain",
+        "Kingdom of England",
+        "Kingdom of Scotland",
+        "Acts of Union 1707",
+        "History of Portugal",
+        "Duchy of Savoy",
+        "Holy Roman Empire",
+        "Kingdom of Great Britain",
+        "Dutch Republic",
+        "Kingdom of Prussia",
+        "Portuguese Republic",
+        "Savoy"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q161885",
+        "Q170072",
+        "Q179876",
+        "Q230791"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

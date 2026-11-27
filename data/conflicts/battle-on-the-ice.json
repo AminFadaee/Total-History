@@ -9,6 +9,33 @@
     1242
   ],
   "editions": 48,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    27.5,
+    58.233333333333334
+  ],
+  "summary": "1242 battle of the Northern Crusades on the frozen Lake Peipus.",
+  "result": "Novgorod – Vladimir victory",
+  "sides": [
+    {
+      "combatants": [
+        "Livonian Order",
+        "Bishopric of Dorpat"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Novgorod Republic",
+        "Principality of Rostov-Suzdal"
+      ],
+      "civilizations": [
+        "Q151536",
+        "Q83546"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

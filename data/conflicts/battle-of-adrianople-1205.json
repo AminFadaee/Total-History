@@ -9,6 +9,35 @@
     1205
   ],
   "editions": 25,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    26.5667,
+    41.6667
+  ],
+  "summary": "Bulgarian victory over the Latin Empire.",
+  "result": "Bulgarian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Second Bulgarian Empire",
+        "Cumans"
+      ],
+      "civilizations": [
+        "Q420759"
+      ]
+    },
+    {
+      "combatants": [
+        "Latin Empire",
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q178897",
+        "Q4948"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,29 @@
     1654
   ],
   "editions": 36,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A naval conflict between the Commonwealth of England and the Dutch Republic.",
+  "result": "Treaty of Westminster",
+  "sides": [
+    {
+      "combatants": [
+        "Dutch Republic"
+      ],
+      "civilizations": [
+        "Q170072"
+      ]
+    },
+    {
+      "combatants": [
+        "Commonwealth of England"
+      ],
+      "civilizations": [
+        "Q330362"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

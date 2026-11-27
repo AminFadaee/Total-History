@@ -9,6 +9,31 @@
     1041
   ],
   "editions": 18,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Military raids undertaken by the Rus' between the late 9th century and c. 1041 on the Caspian Sea shores, of what are nowadays Iran, Dagestan, and Azerbaijan.",
+  "result": "Rus' victory",
+  "sides": [
+    {
+      "combatants": [
+        "Rus' people",
+        "Gorgan",
+        "Alans"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Khazaria",
+        "Volga Bulgaria"
+      ],
+      "civilizations": [
+        "Q173282",
+        "Q185488"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,41 @@
     1086
   ],
   "editions": 44,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -6.901389,
+    38.923056
+  ],
+  "summary": "A conflict fought in 1086 between the Almoravid army, led by their king, Yusuf ibn Tashfin, and the forces of King Alfonso VI of Castile.",
+  "result": "Muslim Coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of León",
+        "Kingdom of Castile",
+        "Kingdom of Aragon"
+      ],
+      "civilizations": [
+        "Q175276",
+        "Q179293",
+        "Q199442"
+      ]
+    },
+    {
+      "combatants": [
+        "Almoravid Dynasty",
+        "Taifa of Seville",
+        "Taifa of Badajoz",
+        "Taifa of Granada",
+        "Taifa of Málaga",
+        "Taifa of Albarracín"
+      ],
+      "civilizations": [
+        "Q75613"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +56,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-sagrajas.png",
+  "map_asked": true
 }

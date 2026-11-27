@@ -9,6 +9,33 @@
     1799
   ],
   "editions": 10,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    12.5,
+    42.5
+  ],
+  "summary": "Dissolved and dismembered by the French general Napoleon Bonaparte and the Habsburg monarchy on 12 May 1797, ending approximately 1,100 years of its existence.",
+  "result": "Venetian Republic dissolved",
+  "sides": [
+    {
+      "combatants": [
+        "French First Republic",
+        "France"
+      ],
+      "civilizations": [
+        "Q58296"
+      ]
+    },
+    {
+      "combatants": [
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q4948"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

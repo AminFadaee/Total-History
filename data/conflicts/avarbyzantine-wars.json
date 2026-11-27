@@ -9,6 +9,37 @@
     626
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts between the Byzantine Empire and the Avar Khaganate.",
+  "result": "Byzantine victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire",
+        "Antes people"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Avar Khaganate",
+        "Sabir people",
+        "Kutrigurs",
+        "Slavs",
+        "Sclaveni",
+        "Bulgars",
+        "Sasanian Empire"
+      ],
+      "civilizations": [
+        "Q68962",
+        "Q83891"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

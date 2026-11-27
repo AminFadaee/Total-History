@@ -9,6 +9,36 @@
     1288
   ],
   "editions": 19,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Launched by the Mongol Empire, and later the Yuan dynasty, against the kingdom of Đại Việt ruled by the Trần dynasty and the kingdom of Champa in 1258, 1282–1284, 1285, and 1287–1288.",
+  "result": "See Aftermath section",
+  "sides": [
+    {
+      "combatants": [
+        "Mongol Empire",
+        "Yuan Dynasty"
+      ],
+      "civilizations": [
+        "Q12557",
+        "Q7313"
+      ]
+    },
+    {
+      "combatants": [
+        "Đại Việt",
+        "Tran dynasty",
+        "Chámpa",
+        "Song dynasty"
+      ],
+      "civilizations": [
+        "Q216786",
+        "Q430309",
+        "Q7462"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

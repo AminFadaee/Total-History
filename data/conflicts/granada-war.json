@@ -9,6 +9,31 @@
     1492
   ],
   "editions": 34,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military campaigns between 1482 and 1492 during the reign of the Catholic Monarchs, Isabella I of Castile and Ferdinand II of Aragon, against the Nasrid dynasty's Emirate of Granada.",
+  "result": "Castilian–Aragonese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Crown of Castile",
+        "Crown of Aragon"
+      ],
+      "civilizations": [
+        "Q204920",
+        "Q217196"
+      ]
+    },
+    {
+      "combatants": [
+        "Emirate of Granada"
+      ],
+      "civilizations": [
+        "Q238445"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

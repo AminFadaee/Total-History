@@ -9,6 +9,33 @@
     1471
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military expedition launched by Emperor Lê Thánh Tông of Đại Việt under the Lê dynasty and is widely regarded as the event that marked the downfall of Champa.",
+  "result": "Northern Champa was annexed to Đại Việt",
+  "sides": [
+    {
+      "combatants": [
+        "Chámpa"
+      ],
+      "civilizations": [
+        "Q216786"
+      ]
+    },
+    {
+      "combatants": [
+        "Đại Việt"
+      ],
+      "civilizations": [
+        "Q430309"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,33 @@
     1435
   ],
   "editions": 24,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between two cadet branches of the French royal family: the House of Orléans and the House of Burgundy from 1407 to 1435.",
+  "result": "Treaty of Arras",
+  "sides": [
+    {
+      "combatants": [
+        "Armagnac"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Burgundian party"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q179876"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,43 @@
     1920
   ],
   "editions": 64,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "An extended sequence of armed regional conflicts in Mexico from 20 November 1910 to 1 December 1920.",
+  "result": "Revolutionary victory",
+  "sides": [
+    {
+      "combatants": [
+        "Porfiriato",
+        "Federal Army",
+        "Factions in the Mexican Revolution",
+        "Mexico",
+        "Maderism",
+        "Conventionists",
+        "División del Norte",
+        "Liberation Army of the South",
+        "Constitutionalists in the Mexican Revolution"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Maderism",
+        "Factions in the Mexican Revolution",
+        "Mexicano Liberal Party",
+        "Liberation Army of the South",
+        "Mexico",
+        "Felicistas",
+        "Constitutional Army",
+        "Constitutionalists in the Mexican Revolution",
+        "División del Norte",
+        "Aureliano Blanquet",
+        "Álvaro Obregón"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

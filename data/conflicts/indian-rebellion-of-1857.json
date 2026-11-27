@@ -9,6 +9,49 @@
     1858
   ],
   "editions": 80,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A major uprising in India in 1857–58 against the rule of the British East India Company, which functioned as a sovereign power on behalf of the British Crown.",
+  "result": "Some princely states annexed into British India. Other princely states retain their dominions and autonomy.",
+  "sides": [
+    {
+      "combatants": [
+        "Mughal Empire",
+        "Sepoy",
+        "mutiny",
+        "Oudh State",
+        "Rampur State",
+        "Rani Lakshmibai",
+        "Jhansi State",
+        "Nana Sahib",
+        "Jagdishpur estate",
+        "Gwalior State",
+        "Kingdom of Marwar",
+        "Banda"
+      ],
+      "civilizations": [
+        "Q33296"
+      ]
+    },
+    {
+      "combatants": [
+        "United Kingdom of Great Britain and Ireland",
+        "Company rule in India",
+        "Rajputana Agency",
+        "Patiala State",
+        "Kapurthala State",
+        "Rampur State",
+        "Kingdom of Marwar",
+        "Nabha State",
+        "Kingdom of Nepal"
+      ],
+      "civilizations": [
+        "Q1078602",
+        "Q174193"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

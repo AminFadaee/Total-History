@@ -9,6 +9,60 @@
     1941
   ],
   "editions": 30,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military campaign fought in East Africa during the Second World War by the Allies of World War II, mainly from the British Empire, against Italy and its colony of Italian East Africa, between June 1940 and November 1941.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "British Empire",
+        "British Raj",
+        "Union of South Africa",
+        "Anglo-Egyptian Sudan",
+        "Kenya Colony",
+        "Colonial Nigeria",
+        "Gold Coast Colony",
+        "British Somaliland",
+        "Uganda Protectorate",
+        "Nyasaland",
+        "Commonwealth of Australia",
+        "Dominion of New Zealand",
+        "Arbegnoch",
+        "Belgian government in exile",
+        "French Equatorial Africa",
+        "United Kingdom",
+        "Kenya",
+        "Nigeria",
+        "Gold Coast",
+        "Northern Rhodesia",
+        "Southern Rhodesia",
+        "Uganda",
+        "Ethiopia",
+        "Belgian Congo",
+        "Free French",
+        "France"
+      ],
+      "civilizations": [
+        "Q129286",
+        "Q145",
+        "Q152582",
+        "Q213510",
+        "Q408",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Italy",
+        "Italian East Africa"
+      ],
+      "civilizations": [
+        "Q172579"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

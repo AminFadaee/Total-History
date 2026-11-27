@@ -9,6 +9,44 @@
     1839
   ],
   "editions": 21,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Period in Russian and Central Asian history.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kara-Kyrgyz Khanate",
+        "Turkic peoples",
+        "Tsardom of Russia",
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q186096",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Kazakh rebellions",
+        "Khanate of Khiva",
+        "Kara-Kyrgyz Khanate",
+        "Turkmen tribes",
+        "Emirate of Afghanistan",
+        "Khanate of Kokand",
+        "Emirate of Bukhara",
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q1335260",
+        "Q174193",
+        "Q491106",
+        "Q696241",
+        "Q746558"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

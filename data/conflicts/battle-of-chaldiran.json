@@ -9,6 +9,32 @@
     1514
   ],
   "editions": 43,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    44.326997222222,
+    39.088852777778
+  ],
+  "summary": "1514 battle of the Ottoman–Persian wars.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    },
+    {
+      "combatants": [
+        "Safavid Dynasty"
+      ],
+      "civilizations": [
+        "Q18234383"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-chaldiran.png",
+  "map_asked": true
 }

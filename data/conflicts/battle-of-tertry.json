@@ -9,6 +9,35 @@
     687
   ],
   "editions": 14,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    3.96944444,
+    49.86305556
+  ],
+  "summary": "An important engagement in Merovingian Gaul between the forces of Austrasia under Pepin II on one side and those of Neustria and Burgundy on the other.",
+  "result": "Austrasian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Austrasia"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Kingdom of Neustria",
+        "Burgundy"
+      ],
+      "civilizations": [
+        "Q106577"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

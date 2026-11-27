@@ -9,6 +9,32 @@
     567
   ],
   "editions": 7,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "War in eastern Europe.",
+  "result": "Lombard–Avar victory; Avar conquest of Gepidia; Byzantine restoration in Syrmia",
+  "sides": [
+    {
+      "combatants": [
+        "Lombards",
+        "Avar Khaganate"
+      ],
+      "civilizations": [
+        "Q130900",
+        "Q68962"
+      ]
+    },
+    {
+      "combatants": [
+        "Gepids",
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

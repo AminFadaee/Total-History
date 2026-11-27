@@ -9,6 +9,37 @@
     661
   ],
   "editions": 42,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The first civil war in the Islamic community.",
+  "result": "Umayyad victory",
+  "sides": [
+    {
+      "combatants": [
+        "Rashidun Caliphate"
+      ],
+      "civilizations": [
+        "Q12490507"
+      ]
+    },
+    {
+      "combatants": [
+        "Umayyad Caliphate",
+        "Bilad al-Sham",
+        "Uthmaniyya"
+      ],
+      "civilizations": [
+        "Q8575586"
+      ]
+    },
+    {
+      "combatants": [
+        "Kharijites"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "ending": [
       {

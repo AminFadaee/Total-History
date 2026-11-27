@@ -9,6 +9,34 @@
     939
   ],
   "editions": 20,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -4.81666667,
+    41.6
+  ],
+  "summary": "A military battle that started on 19 July 939 in the Iberian Peninsula between the troops of the King of León Ramiro II and Cordovan caliph Abd al-Rahman III near the walls of the city of Simancas.",
+  "result": "Leonese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of León",
+        "Kingdom of Navarre"
+      ],
+      "civilizations": [
+        "Q175276",
+        "Q200262"
+      ]
+    },
+    {
+      "combatants": [
+        "Emirate of Córdoba"
+      ],
+      "civilizations": [
+        "Q1337854"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

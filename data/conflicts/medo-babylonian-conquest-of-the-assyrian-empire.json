@@ -9,6 +9,32 @@
     -609
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The last war fought by the Neo-Assyrian Empire, between 626 and 609 BC.",
+  "result": "Medo-Babylonian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Medes",
+        "Neo-Babylonian Empire"
+      ],
+      "civilizations": [
+        "Q624887"
+      ]
+    },
+    {
+      "combatants": [
+        "Neo-Assyrian Empire",
+        "Twenty-sixth Dynasty of Egypt"
+      ],
+      "civilizations": [
+        "Q10914393",
+        "Q662410"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

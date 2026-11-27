@@ -9,6 +9,82 @@
     1991
   ],
   "editions": 107,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict between Iraq and a 42-country coalition led by the United States in response to the Iraqi invasion of Kuwait on 2 August 1990.",
+  "result": "Coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "Coalition of the Gulf War",
+        "Afghan mujahideen",
+        "United States of America",
+        "United Kingdom",
+        "France",
+        "Saudi Arabia",
+        "Egypt",
+        "Kuwait",
+        "Argentine Republic",
+        "Commonwealth of Australia",
+        "Bahrain",
+        "Bangladesh",
+        "Belgium",
+        "Canada",
+        "Czech and Slovak Federal Republic",
+        "Denmark",
+        "Germany",
+        "Greece",
+        "Honduras",
+        "Hungary",
+        "Italy",
+        "Japan",
+        "Luxembourg",
+        "Morocco",
+        "Netherlands",
+        "New Zealand",
+        "Somalia",
+        "Old Kingdom of Norway",
+        "Oman",
+        "Pakistan",
+        "Philippines",
+        "Poland",
+        "Portuguese Republic",
+        "Qatar",
+        "Romania",
+        "Senegal",
+        "Sierra Leone",
+        "Singapore",
+        "South Korea",
+        "Kingdom of Spain",
+        "Kingdom of Sweden",
+        "Syrian Arab Republic",
+        "Republic of Turkey",
+        "United Arab Emirates",
+        "United Nations"
+      ],
+      "civilizations": [
+        "Q1028",
+        "Q145",
+        "Q16",
+        "Q20",
+        "Q29",
+        "Q30",
+        "Q34",
+        "Q408",
+        "Q414",
+        "Q43",
+        "Q45",
+        "Q55"
+      ]
+    },
+    {
+      "combatants": [
+        "Ba'athist Iraq"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "big": [
       {

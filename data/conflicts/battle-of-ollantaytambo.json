@@ -9,6 +9,36 @@
     1537
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -72.26333333333334,
+    -13.258055555555556
+  ],
+  "summary": "Battle in the Spanish conquest of the Inca Empire.",
+  "result": "Incan victory",
+  "sides": [
+    {
+      "combatants": [
+        "Inca Empire"
+      ],
+      "civilizations": [
+        "Q28573"
+      ]
+    },
+    {
+      "combatants": [
+        "Spanish Empire"
+      ],
+      "civilizations": [
+        "Q80702"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "founding": [
       {
@@ -19,5 +49,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-ollantaytambo.png",
+  "map_asked": true
 }

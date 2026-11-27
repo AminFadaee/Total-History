@@ -9,6 +9,30 @@
     1878
   ],
   "editions": 25,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "1878 conquest of Ottoman-controlled Bosnia and Herzegovina by Austria-Hungary.",
+  "result": "Austro-Hungarian occupation of Bosnia and Herzegovina",
+  "sides": [
+    {
+      "combatants": [
+        "Austria-Hungary"
+      ],
+      "civilizations": [
+        "Q28513"
+      ]
+    },
+    {
+      "combatants": [
+        "Bosnia vilayet",
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

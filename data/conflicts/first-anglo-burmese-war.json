@@ -9,6 +9,34 @@
     1826
   ],
   "editions": 29,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The first of three wars fought between the British and Burmese empires in the 19th century.",
+  "result": "Pyrrhic British victory",
+  "sides": [
+    {
+      "combatants": [
+        "British Empire",
+        "East India Company",
+        "Rattanakosin Kingdom"
+      ],
+      "civilizations": [
+        "Q1155700",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Konbaung Dynasty",
+        "Shan States",
+        "Jingpo people"
+      ],
+      "civilizations": [
+        "Q1062422"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

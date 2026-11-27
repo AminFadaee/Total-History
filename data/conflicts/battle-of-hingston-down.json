@@ -9,6 +9,34 @@
     838
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -4.2473,
+    50.521
+  ],
+  "summary": "Battle between a combined force of Cornish and Vikings against West Saxons in 838.",
+  "result": "West Saxon victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Wessex"
+      ],
+      "civilizations": [
+        "Q105313"
+      ]
+    },
+    {
+      "combatants": [
+        "Cornish people",
+        "Danes",
+        "Viking settlements"
+      ],
+      "civilizations": [
+        "Q12567"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

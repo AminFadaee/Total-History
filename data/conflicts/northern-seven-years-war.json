@@ -9,6 +9,29 @@
     1570
   ],
   "editions": 37,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Kingdom of Sweden and a coalition of Denmark–Norway, Lübeck, and Poland–Lithuania between 1563 and 1570.",
+  "result": "Status quo ante bellum in Scandinavia",
+  "sides": [
+    {
+      "combatants": [
+        "Denmark-Norway",
+        "History of the Free and Hanseatic City of Lübeck",
+        "Polish–Lithuanian union"
+      ],
+      "civilizations": [
+        "Q62651"
+      ]
+    },
+    {
+      "combatants": [
+        "history of Sweden (1523–1611)"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

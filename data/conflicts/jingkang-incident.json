@@ -9,6 +9,33 @@
     1127
   ],
   "editions": 16,
+  "vital_level": 5,
+  "battle": true,
+  "point": null,
+  "summary": "An episode of invasions and atrocities that took place in 1127 during the Jin–Song wars when the troops of the Jurchen-led Jin dynasty besieged and sacked Bianjing, the capital of the Han-led Northern Song dynasty.",
+  "result": "The Northern Song capital and territories north of the Huai River fell to the Jin",
+  "sides": [
+    {
+      "combatants": [
+        "Song dynasty"
+      ],
+      "civilizations": [
+        "Q7462"
+      ]
+    },
+    {
+      "combatants": [
+        "Great Jin"
+      ],
+      "civilizations": [
+        "Q5066"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

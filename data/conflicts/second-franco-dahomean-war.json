@@ -9,6 +9,30 @@
     1894
   ],
   "editions": 14,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A major conflict between France, led by General Alfred-Amédée Dodds, and Dahomey under King Béhanzin.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "Dahomey"
+      ],
+      "civilizations": [
+        "Q468814"
+      ]
+    },
+    {
+      "combatants": [
+        "Porto-Novo",
+        "French Third Republic"
+      ],
+      "civilizations": [
+        "Q70802"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

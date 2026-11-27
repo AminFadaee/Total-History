@@ -9,6 +9,45 @@
     null
   ],
   "editions": 9,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The period of Chinese history between the end of the Sui dynasty and the start of the Tang dynasty.",
+  "result": "China united by the Tang dynasty",
+  "sides": [
+    {
+      "combatants": [
+        "Tang Dynasty"
+      ],
+      "civilizations": [
+        "Q9683"
+      ]
+    },
+    {
+      "combatants": [
+        "Sui Dynasty",
+        "Xue Ju",
+        "Li Gui",
+        "Liu Wuzhou",
+        "Wang Shichong",
+        "Dou Jiande",
+        "Liu Heita",
+        "Xiao Xian"
+      ],
+      "civilizations": [
+        "Q7405"
+      ]
+    },
+    {
+      "combatants": [
+        "Goguryeo",
+        "Eastern Turkic Khaganate"
+      ],
+      "civilizations": [
+        "Q28370"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

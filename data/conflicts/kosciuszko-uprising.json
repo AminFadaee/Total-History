@@ -9,6 +9,35 @@
     1794
   ],
   "editions": 42,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "An uprising against the Russian and Prussian influence on the Polish–Lithuanian Commonwealth, led by Tadeusz Kościuszko in Poland–Lithuania and the Prussian partition in 1794.",
+  "result": "Dissolution of the Polish–Lithuanian Commonwealth",
+  "sides": [
+    {
+      "combatants": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "civilizations": [
+        "Q172107"
+      ]
+    },
+    {
+      "combatants": [
+        "Russian Empire",
+        "Kingdom of Prussia",
+        "Habsburg Monarchy",
+        "Duchy of Courland and Semigallia",
+        "Holy Roman Empire"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q153136",
+        "Q34266"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

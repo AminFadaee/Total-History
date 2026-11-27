@@ -9,6 +9,38 @@
     1000
   ],
   "editions": 30,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    19,
+    47
+  ],
+  "summary": "A series of historical events ending with the settlement of the Hungarians in Central Europe in the late 9th and early 10th century.",
+  "result": "Hungarian conquest and settlement of the Carpathian Basin, foundation of the Hungarian state, establishment of Grand Principality of Hungary",
+  "sides": [
+    {
+      "combatants": [
+        "Magyar tribe",
+        "Roman Empire",
+        "Great Moravia",
+        "East Franks"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "First Bulgarian Empire",
+        "Pechenegs",
+        "Great Moravia",
+        "East Franks"
+      ],
+      "civilizations": [
+        "Q203817"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

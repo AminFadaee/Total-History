@@ -9,6 +9,40 @@
     2003
   ],
   "editions": 47,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The first stage of the Iraq War.",
+  "result": "Coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "coalition of the willing",
+        "Kurdistan Region of Iraq",
+        "Kurdistan Democratic Party",
+        "Patriotic Union of Kurdistan",
+        "Iraqi National Congress",
+        "Free Iraqi Forces",
+        "United States of America",
+        "United Kingdom",
+        "Commonwealth of Australia",
+        "Poland",
+        "Kurdistan"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q30",
+        "Q408"
+      ]
+    },
+    {
+      "combatants": [
+        "People's Mojahedin Organization of Iran",
+        "Ba'athist Iraq"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,49 @@
     null
   ],
   "editions": 16,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Accomplished through the combined military efforts of the Allied Powers, including the Free French forces in London and Africa, and the French Resistance.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "French Resistance",
+        "maquis",
+        "Bureau Central de Renseignements et d'Action",
+        "National Council of the Resistance",
+        "Francs-tireurs et partisans",
+        "French Forces of the Interior",
+        "Provisional Government of the French Republic",
+        "United States of America",
+        "United Kingdom",
+        "Canada",
+        "Polish government-in-exile",
+        "Czechoslovak government-in-exile",
+        "Free French",
+        "France"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q152582",
+        "Q16",
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "Vichy France",
+        "Sigmaringen enclave",
+        "Nazi Germany",
+        "Italian Social Republic"
+      ],
+      "civilizations": [
+        "Q69808",
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

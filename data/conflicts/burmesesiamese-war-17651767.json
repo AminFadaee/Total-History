@@ -9,6 +9,29 @@
     1767
   ],
   "editions": 15,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The second military conflict between Burma under the Konbaung dynasty and Ayutthaya Kingdom under the Siamese Ban Phlu Luang dynasty that lasted from 1765 until 1767; the war ended the 417-year-old Ayutthaya Kingdom.",
+  "result": "Burmese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Konbaung Dynasty"
+      ],
+      "civilizations": [
+        "Q1062422"
+      ]
+    },
+    {
+      "combatants": [
+        "Ayutthaya Kingdom"
+      ],
+      "civilizations": [
+        "Q841364"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,46 @@
     1571
   ],
   "editions": 70,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    21.3,
+    38.2
+  ],
+  "summary": "A naval engagement that took place on 7 October 1571 when a fleet of the Holy League, a coalition of Catholic states arranged by Pope Pius V and led by the navies of the Spanish Empire and the Republic of Venice, inflicted a major defeat on the fleet of the Ottoman Empire in the Gulf of Patras.",
+  "result": "Holy League victory",
+  "sides": [
+    {
+      "combatants": [
+        "Holy League",
+        "Grand Duchy of Tuscany",
+        "Order of Saint Stephen",
+        "Spanish Empire",
+        "Republic of Venice",
+        "Republic of Genoa",
+        "Duchy of Savoy",
+        "Knights Hospitaller",
+        "Papal States"
+      ],
+      "civilizations": [
+        "Q154849",
+        "Q170174",
+        "Q174306",
+        "Q426025",
+        "Q4948",
+        "Q80702"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Regency of Algiers"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +60,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-lepanto.png",
+  "map_asked": true
 }

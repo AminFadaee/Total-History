@@ -9,6 +9,43 @@
     -63
   ],
   "editions": 38,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    35,
+    39
+  ],
+  "summary": "Three conflicts fought between the Roman Republic and the Pontic kingdom of Mithridates VI Eupator.",
+  "result": "Pontus and Syria become Roman provinces",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic",
+        "Bithynia",
+        "Rhodes",
+        "Galatia",
+        "Cyzicus"
+      ],
+      "civilizations": [
+        "Q17167"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Pontus",
+        "Kingdom of Armenia",
+        "Caucasian Iberia",
+        "Caucasian Albania",
+        "Sarmatians"
+      ],
+      "civilizations": [
+        "Q177076",
+        "Q19083",
+        "Q208404",
+        "Q7380487"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -30,5 +67,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/mithridatic-wars.png",
+  "map_asked": true
 }

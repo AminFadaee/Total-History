@@ -9,6 +9,32 @@
     652
   ],
   "editions": 13,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    30.743889,
+    18.223056
+  ],
+  "summary": "A military engagement between early Arab forces of the Rashidun Caliphate and the Nubian-Christian forces of the kingdom of Makuria in 652.",
+  "result": "Makurian victory; Baqt between Makuria and Rashidun Caliphate",
+  "sides": [
+    {
+      "combatants": [
+        "Rashidun Caliphate"
+      ],
+      "civilizations": [
+        "Q12490507"
+      ]
+    },
+    {
+      "combatants": [
+        "Makuria Kingdom"
+      ],
+      "civilizations": [
+        "Q829356"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

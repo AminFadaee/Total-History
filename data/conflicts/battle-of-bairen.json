@@ -9,6 +9,35 @@
     1097
   ],
   "editions": 8,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -0.255,
+    39.00111111
+  ],
+  "summary": "Fought between the forces of Rodrigo Díaz de Vivar, also known as \"El Cid\", in coalition with Peter I of Aragon, against the forces of the Almoravid dynasty, under the command of Muhammad ibn Tasufin.",
+  "result": "Christian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Aragon",
+        "Lordship of Valencia",
+        "Kingdom of Castile"
+      ],
+      "civilizations": [
+        "Q179293",
+        "Q199442"
+      ]
+    },
+    {
+      "combatants": [
+        "Almoravid Dynasty"
+      ],
+      "civilizations": [
+        "Q75613"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +49,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-bairen.png",
+  "map_asked": true
 }

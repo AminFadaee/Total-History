@@ -9,6 +9,37 @@
     1938
   ],
   "editions": 25,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    0.475,
+    41.163888888889
+  ],
+  "summary": "The longest and largest battle of the Spanish Civil War and the greatest, in terms of manpower, logistics and material ever fought on Spanish soil.",
+  "result": "Nationalist victory",
+  "sides": [
+    {
+      "combatants": [
+        "Republican faction",
+        "International Brigades",
+        "Kingdom of Spain"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Nationalist faction",
+        "Legionary Air Force",
+        "Condor Legion",
+        "Kingdom of Spain",
+        "Fascist Italy",
+        "Nazi Germany"
+      ],
+      "civilizations": [
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

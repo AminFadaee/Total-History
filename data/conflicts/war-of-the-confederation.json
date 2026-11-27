@@ -9,6 +9,31 @@
     1839
   ],
   "editions": 19,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A military confrontation waged by the United Restoration Army, the alliance of the land and naval forces of Chile and the Restoration Army of Peru, formed in 1836 by Peruvian soldiers opposed to the confederation, and the Argentine Confederation against the Peru–Bolivian Confederation between 1836 and 1839.",
+  "result": "Chilean–Peruvian restorationist victory",
+  "sides": [
+    {
+      "combatants": [
+        "Restoration",
+        "Peruvian Republic",
+        "Conservative Republic",
+        "Argentine Confederation"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Peruvian Republic",
+        "Peru-Bolivian Confederation"
+      ],
+      "civilizations": [
+        "Q899706"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

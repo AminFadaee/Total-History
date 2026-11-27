@@ -9,6 +9,45 @@
     1816
   ],
   "editions": 30,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A set of military events from 1810 to 1825 which resulted in the consolidation of Argentina as an independent country from Spanish rule.",
+  "result": "Argentine victory",
+  "sides": [
+    {
+      "combatants": [
+        "Patriot",
+        "United Provinces of the Río de la Plata",
+        "League Federal",
+        "Patria Vieja",
+        "New Fatherland",
+        "Republiqueta",
+        "Argentine Republic",
+        "Republic of Chile"
+      ],
+      "civilizations": [
+        "Q298",
+        "Q414"
+      ]
+    },
+    {
+      "combatants": [
+        "Royalist",
+        "Kingdom of Spain",
+        "Viceroyalty of Peru",
+        "Viceroyalty of the Río de la Plata",
+        "Captaincy General of Chile",
+        "Paraguay Intendancy",
+        "Paraguay campaign",
+        "United Kingdom of Portugal, Brazil and the Algarves",
+        "Portuguese invasion of the Banda Oriental (1811–12)"
+      ],
+      "civilizations": [
+        "Q29"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

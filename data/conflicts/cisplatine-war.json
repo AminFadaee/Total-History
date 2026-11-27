@@ -9,6 +9,27 @@
     1828
   ],
   "editions": 26,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict fought in the 1820s between the Empire of Brazil and the United Provinces of the Río de la Plata over control of the Banda Oriental following its annexation by Brazil as the Cisplatina province.",
+  "result": "Preliminary Peace Convention",
+  "sides": [
+    {
+      "combatants": [
+        "Empire of Brazil"
+      ],
+      "civilizations": [
+        "Q217230"
+      ]
+    },
+    {
+      "combatants": [
+        "United Provinces of the Río de la Plata"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

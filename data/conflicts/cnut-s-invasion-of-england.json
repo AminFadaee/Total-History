@@ -9,6 +9,32 @@
     1016
   ],
   "editions": 8,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    -0.30694444,
+    51.47861111
+  ],
+  "summary": "1016 Danish conquest of England.",
+  "result": "Edmund Ironside cedes all of England, save Wessex, to Cnut.",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Denmark"
+      ],
+      "civilizations": [
+        "Q756617"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q179876"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -19,5 +45,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/cnut-s-invasion-of-england.png",
+  "map_asked": true
 }

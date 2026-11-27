@@ -9,6 +9,52 @@
     1368
   ],
   "editions": 33,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Uprisings against the Yuan dynasty between 1351 and 1368, eventually leading to its collapse.",
+  "result": "Yuan dynasty overthrown",
+  "sides": [
+    {
+      "combatants": [
+        "Yuan Dynasty",
+        "Ming conquest of Yunnan",
+        "Goryeo"
+      ],
+      "civilizations": [
+        "Q28208",
+        "Q7313"
+      ]
+    },
+    {
+      "combatants": [
+        "Ming Dynasty"
+      ],
+      "civilizations": [
+        "Q9903"
+      ]
+    },
+    {
+      "combatants": [
+        "Tianwan",
+        "Chen Han",
+        "Ming Xia"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Kingdom of Dazhou"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Ispah rebellion"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

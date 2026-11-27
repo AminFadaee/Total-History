@@ -9,6 +9,32 @@
     1851
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A Civil War in the Republic of New Granada between Liberals and Conservatives, fought between May and September 1851.",
+  "result": "Victory for the Liberals",
+  "sides": [
+    {
+      "combatants": [
+        "Colombian Conservative Party"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Republic of New Granada",
+        "Colombian Liberal Party"
+      ],
+      "civilizations": [
+        "Q630882"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

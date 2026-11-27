@@ -9,6 +9,37 @@
     1823
   ],
   "editions": 27,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of wars between the Ottoman Empire and the Safavid, Afsharid, Zand, and Qajar states of Iran through the 16th–19th centuries.",
+  "result": "Indecisive",
+  "sides": [
+    {
+      "combatants": [
+        "Afsharid Iran",
+        "Zand Dynasty",
+        "Qajar Dynasty",
+        "Safavid Dynasty"
+      ],
+      "civilizations": [
+        "Q146597",
+        "Q18234383",
+        "Q63149558",
+        "Q63158027"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Crimean Khanate"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q160440"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

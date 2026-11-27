@@ -9,6 +9,32 @@
     -647
   ],
   "editions": 11,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    48.25778,
+    32.18922
+  ],
+  "summary": "A battle involving Assyrians and Elamites.",
+  "result": "Assyrian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Assyria"
+      ],
+      "civilizations": [
+        "Q41137"
+      ]
+    },
+    {
+      "combatants": [
+        "Elam"
+      ],
+      "civilizations": [
+        "Q128904"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

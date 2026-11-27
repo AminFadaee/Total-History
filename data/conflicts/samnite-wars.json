@@ -9,6 +9,37 @@
     -290
   ],
   "editions": 45,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Roman Republic and the Samnites, who lived on a stretch of the Apennine Mountains south of Rome and north of the Lucanian tribe.",
+  "result": "Roman control over much of central Italy and part of southern Italy",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic",
+        "Latins",
+        "Campanians"
+      ],
+      "civilizations": [
+        "Q17167"
+      ]
+    },
+    {
+      "combatants": [
+        "Samnites",
+        "Aequi",
+        "Hernici",
+        "Etruscans",
+        "Umbri",
+        "Senones",
+        "Apulia"
+      ],
+      "civilizations": [
+        "Q17161"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

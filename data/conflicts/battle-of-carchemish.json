@@ -9,6 +9,34 @@
     -605
   ],
   "editions": 29,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    38.015,
+    36.8297
+  ],
+  "summary": "A battle fought around 605 BCE between the armies of Egypt, allied with the remnants of the Neo-Assyrian Empire, against the armies of Babylonia.",
+  "result": "Babylonian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Twenty-sixth Dynasty of Egypt",
+        "Neo-Assyrian Empire"
+      ],
+      "civilizations": [
+        "Q10914393",
+        "Q662410"
+      ]
+    },
+    {
+      "combatants": [
+        "Neo-Babylonian Empire"
+      ],
+      "civilizations": [
+        "Q624887"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

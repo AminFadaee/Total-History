@@ -9,6 +9,36 @@
     -957
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military conflict between the Zhou dynasty under King Zhao and the state of Chu from 961 to 957 BC.",
+  "result": "Chu victory",
+  "sides": [
+    {
+      "combatants": [
+        "Zhou Dynasty",
+        "Cai",
+        "E",
+        "Zeng",
+        "Deng",
+        "Western Guo"
+      ],
+      "civilizations": [
+        "Q35216"
+      ]
+    },
+    {
+      "combatants": [
+        "Chu",
+        "Han River",
+        "Xian"
+      ],
+      "civilizations": [
+        "Q504759"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

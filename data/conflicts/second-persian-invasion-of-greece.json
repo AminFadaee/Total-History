@@ -9,6 +9,35 @@
     -479
   ],
   "editions": 25,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "480–479 BC phase of the Greco-Persian Wars.",
+  "result": "Greek victory",
+  "sides": [
+    {
+      "combatants": [
+        "Sparta",
+        "Classical Athens",
+        "Ancient Corinth",
+        "Megara",
+        "Tegea",
+        "Aegina"
+      ],
+      "civilizations": [
+        "Q5690",
+        "Q844930"
+      ]
+    },
+    {
+      "combatants": [
+        "Achaemenid Empire"
+      ],
+      "civilizations": [
+        "Q389688"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

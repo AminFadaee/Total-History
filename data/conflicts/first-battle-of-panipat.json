@@ -9,6 +9,32 @@
     1526
   ],
   "editions": 46,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    76.97277777777778,
+    29.401666666666667
+  ],
+  "summary": "Fought between the invading forces of Babur against Ibrahim Khan Lodi, the Sultan of Delhi, in North India.",
+  "result": "Mughal victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mughal Empire"
+      ],
+      "civilizations": [
+        "Q33296"
+      ]
+    },
+    {
+      "combatants": [
+        "Delhi Sultanate"
+      ],
+      "civilizations": [
+        "Q229411"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

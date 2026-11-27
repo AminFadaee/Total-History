@@ -9,6 +9,28 @@
     1921
   ],
   "editions": 58,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A guerrilla war fought in Ireland from 1919 to 1921 between the Irish Republican Army and British forces: the British Army, along with the quasi-military Royal Irish Constabulary and its paramilitary forces the Auxiliaries and Ulster Special Constabulary.",
+  "result": "Creation of the Irish Free State and Northern Ireland",
+  "sides": [
+    {
+      "combatants": [
+        "Irish Republic",
+        "Ireland"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q174193"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

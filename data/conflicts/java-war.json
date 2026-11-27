@@ -9,6 +9,29 @@
     1830
   ],
   "editions": 26,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict in central and eastern Java from 1825 to 1830, between native Javanese rebels headed by Prince Diponegoro and the Dutch East Indies supported by Javanese princely states.",
+  "result": "Dutch victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mangkunegaran",
+        "Pakualaman",
+        "Yogyakarta Sultanate",
+        "Surakarta Sunanate",
+        "Dutch East Indies"
+      ],
+      "civilizations": [
+        "Q188161"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

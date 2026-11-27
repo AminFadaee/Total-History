@@ -9,6 +9,46 @@
     1941
   ],
   "editions": 88,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The invasion of the Soviet Union by Nazi Germany and several of its European Axis allies starting on Sunday, 22 June 1941, during World War II.",
+  "result": "Axis strategic failure",
+  "sides": [
+    {
+      "combatants": [
+        "German-occupied Europe",
+        "puppet state",
+        "250th Infantry Division",
+        "Legion of French Volunteers Against Bolshevism",
+        "369th Croatian Reinforced Infantry Regiment",
+        "Croatian Air Force Legion",
+        "Croatian Naval Assembly – Black Sea",
+        "Light Transport Brigade",
+        "3 Cavalry Division Amedeo Duca d'Aosta",
+        "Nazi Germany",
+        "Kingdom of Romania",
+        "Republic of Finland",
+        "Kingdom of Italy",
+        "Kingdom of Hungary",
+        "Slovak Republic"
+      ],
+      "civilizations": [
+        "Q172579",
+        "Q203493",
+        "Q33",
+        "Q7318"
+      ]
+    },
+    {
+      "combatants": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "civilizations": [
+        "Q15180"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

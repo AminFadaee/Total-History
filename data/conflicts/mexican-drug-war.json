@@ -9,6 +9,70 @@
     2006
   ],
   "editions": 50,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    -99.1456,
+    19.4194
+  ],
+  "summary": "An ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates.",
+  "result": "",
+  "sides": [
+    {
+      "combatants": [
+        "federal government of Mexico",
+        "Mexican Armed Forces",
+        "Cuerpo de Fuerzas Especiales de México",
+        "Naval Infantry Force",
+        "BIS",
+        "Mexican National Guard",
+        "Secretaría de Seguridad y Protección Ciudadana",
+        "Federal Police of Mexico",
+        "National Intelligence Center",
+        "General Prosecutor of the Republic",
+        "Policía Federal Ministerial",
+        "law enforcement in Mexico",
+        "Grupos de Autodefensa Comunitaria",
+        "Mexico"
+      ],
+      "civilizations": [
+        "Q96"
+      ]
+    },
+    {
+      "combatants": [
+        "List of Mexican drug cartels",
+        "Sinaloa Cartel",
+        "Jalisco New Generation Cartel",
+        "Cártel del Noreste",
+        "Gulf Cartel",
+        "The New Michoacan Family",
+        "Los Viagras",
+        "Juárez Cartel",
+        "Cárteles Unidos",
+        "Santa Rosa de Lima Cartel",
+        "Caborca Cartel",
+        "La Línea",
+        "Cártel de Tijuana",
+        "La Unión Tepito",
+        "Los Mazatlecos",
+        "La Barredora",
+        "Guerreros Unidos",
+        "Sangre Nueva Zeta",
+        "Zetas Vieja Escuela",
+        "Los Mexicles",
+        "La Familia Michoacana",
+        "Los Zetas",
+        "Knights Templar Cartel",
+        "Sonora Cartel",
+        "Milenio Cartel",
+        "Los Negros",
+        "Independent Cartel of Acapulco",
+        "Beltrán Leyva Cartel"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

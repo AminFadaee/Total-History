@@ -9,6 +9,56 @@
     1380
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A war of succession in the Golden Horde from 1359 to 1381.",
+  "result": "Defeat of Mamai by Tokhtamysh",
+  "sides": [
+    {
+      "combatants": [
+        "Sarai",
+        "Grand Principality of Moscow",
+        "Principality of Suzdal—Nizhny Novgorod",
+        "Murad Khan",
+        "Tokhtamysh",
+        "Timurid Empire"
+      ],
+      "civilizations": [
+        "Q484195"
+      ]
+    },
+    {
+      "combatants": [
+        "Mamai",
+        "Crimea",
+        "Grand Principality of Moscow",
+        "Mukhsha",
+        "Principality of Tver",
+        "Principality of Ryazan",
+        "Grand Duchy of Lithuania"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Sighnaq",
+        "Battle of Blue Waters",
+        "Treaty of Lyubutsk",
+        "Grand Duchy of Lithuania",
+        "Principality of Moldavia",
+        "Principality of Tver",
+        "Principality of Ryazan",
+        "Muscovite–Volga Bulgars war",
+        "Bolghar Gord",
+        "Grand Principality of Moscow",
+        "Principality of Suzdal—Nizhny Novgorod"
+      ],
+      "civilizations": [
+        "Q10957559"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

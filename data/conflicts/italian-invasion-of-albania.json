@@ -9,6 +9,27 @@
     1939
   ],
   "editions": 38,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A brief military campaign which was launched by Italy against Albania in 1939.",
+  "result": "Italian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Italy"
+      ],
+      "civilizations": [
+        "Q172579"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Albania"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

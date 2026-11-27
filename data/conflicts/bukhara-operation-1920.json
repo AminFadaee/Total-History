@@ -9,6 +9,29 @@
     1920
   ],
   "editions": 11,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military conflict fought between the Russian Soviet Federative Socialist Republic and the Young Bukharans against the Emirate of Bukhara.",
+  "result": "Communist victory",
+  "sides": [
+    {
+      "combatants": [
+        "Young Bukharians",
+        "Russian Soviet Federative Socialist Republic"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Basmachi movement",
+        "Emirate of Bukhara"
+      ],
+      "civilizations": [
+        "Q746558"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,33 @@
     1821
   ],
   "editions": 52,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict and political movement that eventually resulted in Mexico's independence from the Spanish Empire.",
+  "result": "Spain loses the continental area of Viceroyalty of New Spain to Mexico, with the exception of fortress San Juan de Ulúa",
+  "sides": [
+    {
+      "combatants": [
+        "Mexican Army",
+        "Patriot",
+        "Army of the Three Guarantees"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "New Spain",
+        "Royalist",
+        "Spanish Empire",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q29",
+        "Q80702"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

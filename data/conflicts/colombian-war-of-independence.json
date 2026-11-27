@@ -9,6 +9,51 @@
     1825
   ],
   "editions": 18,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    -73.4303,
+    5.4504
+  ],
+  "summary": "1810-1825 Colombian revolution.",
+  "result": "Dissolution of the Viceroyalty of New Granada and reorganization of its territories into independent Gran Colombia, encompassing present-day Colombia.",
+  "sides": [
+    {
+      "combatants": [
+        "United Provinces of New Granada",
+        "Free and Independent State of Cundinamarca",
+        "Casanare Province",
+        "Guayana Region",
+        "Orinoco River",
+        "First Republic of Venezuela",
+        "Second Republic of Venezuela",
+        "Third Republic of Venezuela",
+        "Gran Colombia"
+      ],
+      "civilizations": [
+        "Q199821"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Spain",
+        "Viceroyalty of New Granada",
+        "Captaincy General of Venezuela",
+        "Real Audiencia de Quito",
+        "Santa Marta Province",
+        "Cartagena",
+        "Panama City",
+        "Pasto",
+        "Popayán",
+        "Maracaibo",
+        "Puerto Cabello",
+        "Viceroyalty of Peru",
+        "Captaincy General of Puerto Rico",
+        "Captaincy General of Cuba"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "founding": [
       {

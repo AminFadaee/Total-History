@@ -9,6 +9,30 @@
     1856
   ],
   "editions": 18,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A war of independence that began when the Dominican Republic declared independence from the Republic of Haiti on February 27, 1844 and ended on January 24, 1856.",
+  "result": "Separation of the Santo Domingo territory from Haiti",
+  "sides": [
+    {
+      "combatants": [
+        "First Republic (Dominican Republic)",
+        "Dominican Republic"
+      ],
+      "civilizations": [
+        "Q786"
+      ]
+    },
+    {
+      "combatants": [
+        "Republic of Haiti (1820–1849)",
+        "Second Empire of Haiti",
+        "Haiti"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "founding": [
       {

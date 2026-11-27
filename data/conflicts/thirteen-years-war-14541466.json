@@ -9,6 +9,35 @@
     1466
   ],
   "editions": 35,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict fought in 1454–1466 between the Prussian Confederation, allied with the Crown of the Kingdom of Poland, and the State of the Teutonic Order.",
+  "result": "{{plainlist|",
+  "sides": [
+    {
+      "combatants": [
+        "Crown of the Kingdom of Poland",
+        "Prussian Confederation",
+        "Kingdom of Poland"
+      ],
+      "civilizations": [
+        "Q8890160"
+      ]
+    },
+    {
+      "combatants": [
+        "Teutonic Order",
+        "Denmark",
+        "Livonian Order",
+        "County of Holland",
+        "Duchy of Żagań"
+      ],
+      "civilizations": [
+        "Q156020"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

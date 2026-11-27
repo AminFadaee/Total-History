@@ -9,6 +9,35 @@
     759
   ],
   "editions": 20,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Attempted invasion of southwest Francia by the Umayyad Caliphate (719–759 AD).",
+  "result": "Frankish victory",
+  "sides": [
+    {
+      "combatants": [
+        "Umayyad Caliphate",
+        "Emirate of Córdoba"
+      ],
+      "civilizations": [
+        "Q1337854",
+        "Q8575586"
+      ]
+    },
+    {
+      "combatants": [
+        "Francia",
+        "Duchy of Aquitaine",
+        "Duchy of Gascony",
+        "Kingdom of the Lombards"
+      ],
+      "civilizations": [
+        "Q146246",
+        "Q7703611"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

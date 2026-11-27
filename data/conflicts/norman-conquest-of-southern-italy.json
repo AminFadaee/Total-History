@@ -9,6 +9,58 @@
     1200
   ],
   "editions": 33,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    16.5128,
+    41.0086
+  ],
+  "summary": "Historical event in the European Middle Ages.",
+  "result": "{{Plain list",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire",
+        "Catepanate of Italy",
+        "Papal States",
+        "Lombards",
+        "Duchy of Benevento",
+        "Principality of Salerno",
+        "Principality of Capua",
+        "Holy Roman Empire",
+        "Republic of Venice",
+        "Duchy of Naples",
+        "Duchy of Gaeta",
+        "Duchy of Amalfi",
+        "Kalbids",
+        "Emirate of Sicily",
+        "Zirid Dynasty",
+        "Almohad Caliphate"
+      ],
+      "civilizations": [
+        "Q1250763",
+        "Q12548",
+        "Q130900",
+        "Q170174",
+        "Q199688",
+        "Q2277",
+        "Q4948"
+      ]
+    },
+    {
+      "combatants": [
+        "Italo-Normans",
+        "Hauteville family",
+        "Duchy of Apulia and Calabria",
+        "County of Sicily",
+        "Kingdom of Sicily",
+        "Kingdom of Africa"
+      ],
+      "civilizations": [
+        "Q188586"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

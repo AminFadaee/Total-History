@@ -9,6 +9,30 @@
     960
   ],
   "editions": 15,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "Fought on 8 November 960 between the Byzantines, led by Leo Phokas the Younger, and the forces of the Hamdanid Emirate of Aleppo under the emir Sayf al-Dawla.",
+  "result": "Byzantine victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Hamdanid Emirates",
+        "Aleppo"
+      ],
+      "civilizations": [
+        "Q837187"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

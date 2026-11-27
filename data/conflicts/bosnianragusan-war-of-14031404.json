@@ -9,6 +9,27 @@
     1404
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military conflict fought between the Kingdom of Bosnia and the Republic of Ragusa between 1403 and 1404, which ended with a treaty signed officially in 1405.",
+  "result": "Ragusan victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Bosnia"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Republic of Ragusa"
+      ],
+      "civilizations": [
+        "Q208169"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

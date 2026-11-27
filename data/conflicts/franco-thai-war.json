@@ -9,6 +9,30 @@
     1941
   ],
   "editions": 33,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between Thailand and Vichy France over certain areas of French Indochina.",
+  "result": "Disputed territories in French Indochina ceded to Thailand",
+  "sides": [
+    {
+      "combatants": [
+        "Vichy France",
+        "French Indochina"
+      ],
+      "civilizations": [
+        "Q185682",
+        "Q69808"
+      ]
+    },
+    {
+      "combatants": [
+        "history of Thailand (1932-1973)",
+        "Thailand"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

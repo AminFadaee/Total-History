@@ -9,6 +9,38 @@
     1281
   ],
   "editions": 48,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Taken by Kublai Khan of the Yuan dynasty in 1274 and 1281 to conquer the Japanese archipelago after the submission of the Korean kingdom of Goryeo to vassaldom.",
+  "result": "Japanese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kamakura Shogunate",
+        "Hōjō clan",
+        "Sō clan",
+        "Shōni clan",
+        "Taira clan",
+        "Kikuchi clan",
+        "Ōtomo clan",
+        "Shimazu clan",
+        "Matsura clan"
+      ],
+      "civilizations": [
+        "Q736839"
+      ]
+    },
+    {
+      "combatants": [
+        "Yuan Dynasty",
+        "Goryeo under Mongol rule"
+      ],
+      "civilizations": [
+        "Q7313"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,29 @@
     1827
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The first attempt by Texans to secede from Mexico.",
+  "result": "Mexican victory",
+  "sides": [
+    {
+      "combatants": [
+        "Federated Republic of Mexico",
+        "Mexico"
+      ],
+      "civilizations": [
+        "Q1109279",
+        "Q96"
+      ]
+    },
+    {
+      "combatants": [
+        "Texians"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

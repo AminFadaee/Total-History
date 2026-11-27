@@ -9,6 +9,33 @@
     1919
   ],
   "editions": 16,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A civil war that took place in China from December 1915 to July 1916.",
+  "result": "National Protection Army victory",
+  "sides": [
+    {
+      "combatants": [
+        "Yunnan clique",
+        "Guizhou clique",
+        "Old Guangxi clique",
+        "Republic of China",
+        "Kuomintang"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Beiyang Government",
+        "Empire of China",
+        "Republic of China"
+      ],
+      "civilizations": [
+        "Q175379"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,47 @@
     1774
   ],
   "editions": 46,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A major armed conflict that saw Russian armies victorious against the Ottoman Empire.",
+  "result": "Russian victory Treaty of Küçük Kaynarca",
+  "sides": [
+    {
+      "combatants": [
+        "Cossack Hetmanate",
+        "Zaporozhian Host",
+        "Kabardia",
+        "Kalmyk Khanate",
+        "Kingdom of Kartli-Kakheti",
+        "Kingdom of Imereti",
+        "Bulutkapan Ali Bey",
+        "Daher el-Omar",
+        "Orlov Revolt",
+        "Maniots",
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q212439",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Crimean Khanate",
+        "Mount Lebanon Emirate",
+        "Pashalik of Scutari",
+        "Egypt eyalet",
+        "Bar Confederation",
+        "Ottoman Empire",
+        "Circassia"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q160440"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

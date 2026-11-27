@@ -9,6 +9,32 @@
     1836
   ],
   "editions": 52,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    -100,
+    31
+  ],
+  "summary": "A rebellion by Anglo-American immigrants as well as Hispanic Texans against the centralist government of Mexico in the Mexican state of Coahuila y Tejas.",
+  "result": "Texian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Republic of Texas"
+      ],
+      "civilizations": [
+        "Q170588"
+      ]
+    },
+    {
+      "combatants": [
+        "Centralist Mexico"
+      ],
+      "civilizations": [
+        "Q5062192"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

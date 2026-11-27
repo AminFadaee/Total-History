@@ -9,6 +9,39 @@
     1913
   ],
   "editions": 80,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Two conflicts that took place in the Balkan states in 1912 and 1913.",
+  "result": "First Balkan War:",
+  "sides": [
+    {
+      "combatants": [
+        "First Balkan War",
+        "Ottoman Empire",
+        "Second Balkan War",
+        "Kingdom of Bulgaria"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "First Balkan War",
+        "Kingdom of Bulgaria",
+        "Kingdom of Serbia",
+        "Kingdom of Greece",
+        "Kingdom of Montenegro",
+        "Second Balkan War",
+        "Kingdom of Romania",
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q203493",
+        "Q209065",
+        "Q241748"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

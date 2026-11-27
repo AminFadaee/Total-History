@@ -9,6 +9,29 @@
     660
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "660 battle between the Korean kingdoms of Baekje and Silla.",
+  "result": "Silla victory",
+  "sides": [
+    {
+      "combatants": [
+        "Silla"
+      ],
+      "civilizations": [
+        "Q28456"
+      ]
+    },
+    {
+      "combatants": [
+        "Baekje"
+      ],
+      "civilizations": [
+        "Q28428"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

@@ -9,6 +9,35 @@
     663
   ],
   "editions": 9,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between Paekche and the allied forces of the Tang dynasty and Silla between 660 and 663.",
+  "result": "Annexation of Paekche by Tang",
+  "sides": [
+    {
+      "combatants": [
+        "Tang Dynasty",
+        "Silla"
+      ],
+      "civilizations": [
+        "Q28456",
+        "Q9683"
+      ]
+    },
+    {
+      "combatants": [
+        "Baekje",
+        "Yamato Kingship",
+        "Battle of Baekgang",
+        "Goguryeo"
+      ],
+      "civilizations": [
+        "Q28370",
+        "Q28428"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

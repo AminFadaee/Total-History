@@ -9,6 +9,34 @@
     1886
   ],
   "editions": 28,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict between two expanding empires, the British Empire and the Konbaung dynasty, that became British Indian Empire's most expensive and longest war, costing 5–13 million pounds sterling and spanning over 60 years.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "United Kingdom of Great Britain and Ireland",
+        "East India Company",
+        "Indian Empire",
+        "Rattanakosin Kingdom"
+      ],
+      "civilizations": [
+        "Q1155700",
+        "Q174193"
+      ]
+    },
+    {
+      "combatants": [
+        "Shan States",
+        "Konbaung Dynasty"
+      ],
+      "civilizations": [
+        "Q1062422"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

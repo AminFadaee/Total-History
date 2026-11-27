@@ -9,6 +9,40 @@
     1286
   ],
   "editions": 31,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military venture waged by the Kingdom of France against the Crown of Aragon.",
+  "result": "Aragonese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of France",
+        "Kingdom of Majorca",
+        "Kingdom of Navarre",
+        "Republic of Genoa"
+      ],
+      "civilizations": [
+        "Q174306",
+        "Q200262",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Crown of Aragon",
+        "Principality of Catalonia",
+        "Kingdom of Valencia"
+      ],
+      "civilizations": [
+        "Q204920"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,41 @@
     1300
   ],
   "editions": 16,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts between the Jurchen-led Jin dynasty and the Han-led Song dynasty.",
+  "result": "Jurchens conquer northern China",
+  "sides": [
+    {
+      "combatants": [
+        "Great Jin",
+        "puppet state",
+        "Da Chu",
+        "co-belligerence",
+        "Western Xia",
+        "Eastern Xia"
+      ],
+      "civilizations": [
+        "Q5066"
+      ]
+    },
+    {
+      "combatants": [
+        "Song dynasty",
+        "Mongol Empire",
+        "Siege of Caizhou",
+        "Khitan people",
+        "Mongol conquest of the Jin dynasty",
+        "Western Xia",
+        "Eastern Xia"
+      ],
+      "civilizations": [
+        "Q12557",
+        "Q7462"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

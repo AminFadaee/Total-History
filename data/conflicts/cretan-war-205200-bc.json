@@ -9,6 +9,40 @@
     -200
   ],
   "editions": 21,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought by King Philip V of Macedon, the Aetolian League, many Cretan cities and Spartan pirates against the forces of Rhodes and later Attalus I of Pergamum, Byzantium, Cyzicus, Athens, and Knossos.",
+  "result": "Eastern Crete to Rhodes",
+  "sides": [
+    {
+      "combatants": [
+        "Macedonia",
+        "Ierapetra",
+        "Olous",
+        "Aetolian League",
+        "Sparta",
+        "Acarnania"
+      ],
+      "civilizations": [
+        "Q5690",
+        "Q83958"
+      ]
+    },
+    {
+      "combatants": [
+        "Rhodes",
+        "Pergamon",
+        "Byzantium",
+        "Cyzicus",
+        "Athens",
+        "Knossos"
+      ],
+      "civilizations": [
+        "Q23725"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

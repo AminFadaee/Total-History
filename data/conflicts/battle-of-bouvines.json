@@ -9,6 +9,67 @@
     1214
   ],
   "editions": 32,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    3.225,
+    50.58
+  ],
+  "summary": "Battle ending the 1202–1214 Anglo-French Wars.",
+  "result": "French victory; Truce of Chinon",
+  "sides": [
+    {
+      "combatants": [
+        "France in the Middle Ages",
+        "Duchy of Burgundy",
+        "County of Champagne",
+        "list of counts of Dreux",
+        "Ponthieu",
+        "County of Saint-Pol",
+        "Beaumont-sur-Oise",
+        "Count of Soissons",
+        "list of lords, counts and dukes of Perche",
+        "County of Auxerre",
+        "County of Nevers",
+        "duke of Nemours",
+        "Lords of Coucy",
+        "Duchy of Normandy",
+        "Duchy of Brittany",
+        "Prince-Bishopric of Liège"
+      ],
+      "civilizations": [
+        "Q4712"
+      ]
+    },
+    {
+      "combatants": [
+        "Holy Roman Empire",
+        "County of Hainaut",
+        "Kingdom of Germany",
+        "Duchy of Brabant",
+        "Counts of Louvain",
+        "Duchy of Lorraine",
+        "County of Holland",
+        "County of Namur",
+        "Duchy of Limburg",
+        "Duchy of Saxony",
+        "Electoral Palatinate",
+        "County of Tecklenburg",
+        "County of Katzenelnbogen",
+        "free imperial city",
+        "Dortmund",
+        "County of Flanders",
+        "Kingdom of England",
+        "County of Boulogne"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q157070",
+        "Q175211",
+        "Q179876"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

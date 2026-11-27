@@ -9,6 +9,44 @@
     1580
   ],
   "editions": 41,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Being undermined by the activities of Russian explorers.",
+  "result": "Dissolution and annexation of the Sibir Khanate",
+  "sides": [
+    {
+      "combatants": [
+        "Tsardom of Russia",
+        "Russian Empire",
+        "Don Cossacks",
+        "Indigenous peoples of North Asia"
+      ],
+      "civilizations": [
+        "Q186096",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Daur people",
+        "Yakuts",
+        "Koryaks",
+        "Chukchis",
+        "Buryats",
+        "Jaxa",
+        "Qing Dynasty",
+        "Indigenous peoples of North Asia",
+        "Khanate of Sibir",
+        "Dzungar Khanate"
+      ],
+      "civilizations": [
+        "Q190513",
+        "Q1923401",
+        "Q8733"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

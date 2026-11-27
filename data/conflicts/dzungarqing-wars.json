@@ -9,6 +9,32 @@
     1759
   ],
   "editions": 16,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A decades-long series of conflicts that pitted the Dzungar Khanate against the Qing dynasty and its Mongol vassals.",
+  "result": "Qing victory",
+  "sides": [
+    {
+      "combatants": [
+        "Dzungar Khanate"
+      ],
+      "civilizations": [
+        "Q1923401"
+      ]
+    },
+    {
+      "combatants": [
+        "Qing Dynasty",
+        "Khalkhas",
+        "Kumul Khanate",
+        "Khoshut Khanate"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

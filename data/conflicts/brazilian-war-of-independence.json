@@ -9,6 +9,38 @@
     1824
   ],
   "editions": 18,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    -53,
+    -14
+  ],
+  "summary": "An armed conflict that led to the separation of Brazil from the United Kingdom of Portugal, Brazil and the Algarves.",
+  "result": "Independentist victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Brazil",
+        "Independence of Brazil",
+        "list of monarchs of Brazil",
+        "Brazilian Republic",
+        "Empire of Brazil"
+      ],
+      "civilizations": [
+        "Q155",
+        "Q217230"
+      ]
+    },
+    {
+      "combatants": [
+        "United Kingdom of Portugal, Brazil and the Algarves",
+        "Portuguese Republic"
+      ],
+      "civilizations": [
+        "Q45"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

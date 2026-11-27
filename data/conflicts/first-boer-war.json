@@ -9,6 +9,29 @@
     1881
   ],
   "editions": 52,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought from 16 December 1880 until 23 March 1881 between the United Kingdom and Boers of the Transvaal.",
+  "result": "Boer victory",
+  "sides": [
+    {
+      "combatants": [
+        "South African Republic"
+      ],
+      "civilizations": [
+        "Q550374"
+      ]
+    },
+    {
+      "combatants": [
+        "British Empire"
+      ],
+      "civilizations": [
+        "Q8680"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

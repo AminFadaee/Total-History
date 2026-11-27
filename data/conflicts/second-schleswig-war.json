@@ -9,6 +9,31 @@
     1864
   ],
   "editions": 50,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The second military conflict over the Schleswig–Holstein question of the 19th century.",
+  "result": "Denmark loses Schleswig, Holstein and Lauenburg",
+  "sides": [
+    {
+      "combatants": [
+        "Prussia",
+        "Austrian Empire",
+        "Kingdom of Prussia"
+      ],
+      "civilizations": [
+        "Q131964",
+        "Q38872"
+      ]
+    },
+    {
+      "combatants": [
+        "Unitary State",
+        "Denmark"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

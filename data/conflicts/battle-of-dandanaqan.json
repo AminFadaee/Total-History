@@ -9,6 +9,32 @@
     1040
   ],
   "editions": 25,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    61.345353,
+    37.391933
+  ],
+  "summary": "Fought in 1040 between the Seljuq Turkmens and the Ghaznavid Empire near the city of Merv.",
+  "result": "Khorasan annexed by the Seljuks",
+  "sides": [
+    {
+      "combatants": [
+        "Ghaznavid Empire"
+      ],
+      "civilizations": [
+        "Q249578"
+      ]
+    },
+    {
+      "combatants": [
+        "Great Seljuk Empire"
+      ],
+      "civilizations": [
+        "Q3708094"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-dandanaqan.png",
+  "map_asked": true
 }

@@ -9,6 +9,34 @@
     799
   ],
   "editions": 21,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts fought between the Khazar Khaganate and successive Arab caliphates in the Caucasus region from c. 642 to 799 CE.",
+  "result": "The Khazar-controlled portion of the South Caucasus is annexed, but the Arab advance into the North Caucasus proceeds no further than Derbent",
+  "sides": [
+    {
+      "combatants": [
+        "Rashidun Caliphate",
+        "Umayyad Caliphate",
+        "Abbasid Caliphate"
+      ],
+      "civilizations": [
+        "Q12490507",
+        "Q12536",
+        "Q8575586"
+      ]
+    },
+    {
+      "combatants": [
+        "Khazaria",
+        "khanate"
+      ],
+      "civilizations": [
+        "Q173282"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

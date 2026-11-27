@@ -9,6 +9,39 @@
     -36
   ],
   "editions": 17,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military campaign by Mark Antony, the eastern triumvir of the Roman Republic, against the Parthian Empire under Phraates IV.",
+  "result": "Status quo ante bellum",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic",
+        "Kingdom of Armenia",
+        "Galatians",
+        "Kingdom of Cappadocia",
+        "Kingdom of Pontus",
+        "Herodian Kingdom of Judea"
+      ],
+      "civilizations": [
+        "Q17167",
+        "Q208404",
+        "Q7380487"
+      ]
+    },
+    {
+      "combatants": [
+        "Parthian Empire",
+        "Atropatene",
+        "Hasmonean Judea"
+      ],
+      "civilizations": [
+        "Q1986139",
+        "Q260437"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

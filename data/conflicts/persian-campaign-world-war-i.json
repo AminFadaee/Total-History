@@ -9,6 +9,66 @@
     1918
   ],
   "editions": 28,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    51.4166669,
+    35.7
+  ],
+  "summary": "A series of military conflicts between the Ottoman Empire, British Empire and Russian Empire in various areas of what was then neutral Qajar Iran, beginning in December 1914 and ending with the Armistice of Mudros on 30 October 1918, as part of the Middle Eastern Theatre of World War I.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "Allies of the First World War",
+        "Armenian volunteer units",
+        "Assyrian volunteers",
+        "Russian Empire",
+        "British Empire"
+      ],
+      "civilizations": [
+        "Q13426199",
+        "Q172579",
+        "Q188712",
+        "Q203493",
+        "Q209065",
+        "Q30",
+        "Q34266",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Central Powers",
+        "Simko Shikak revolt",
+        "Ottoman Empire",
+        "German Empire"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q28513",
+        "Q43287"
+      ]
+    },
+    {
+      "combatants": [
+        "Qajar Dynasty",
+        "Qashqai people",
+        "Feyli Kurds",
+        "Lorestan Province",
+        "Mazandaran Province",
+        "Tangestan County",
+        "Achomi people",
+        "Swedish volunteers in Persia",
+        "Kingdom of Sweden",
+        "Iran"
+      ],
+      "civilizations": [
+        "Q34",
+        "Q63158027"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +80,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/persian-campaign-world-war-i.png",
+  "map_asked": true
 }

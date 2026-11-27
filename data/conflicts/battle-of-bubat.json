@@ -9,6 +9,29 @@
     1357
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "The battle between the Sundanese royal family and the Majapahit army that took place in Bubat Square on the northern part of Trowulan in 1279 Saka or 1357 CE.",
+  "result": "Majapahit victory",
+  "sides": [
+    {
+      "combatants": [
+        "Majapahit"
+      ],
+      "civilizations": [
+        "Q49326"
+      ]
+    },
+    {
+      "combatants": [
+        "Sunda Kingdom"
+      ],
+      "civilizations": [
+        "Q1469742"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

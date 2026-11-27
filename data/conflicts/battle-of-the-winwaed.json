@@ -9,6 +9,30 @@
     655
   ],
   "editions": 17,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "Fought on 15 November 655 between King Penda of Mercia and Oswiu of Bernicia, ending in the Mercians' defeat and Penda's death.",
+  "result": "Northumbrian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Northumbria"
+      ],
+      "civilizations": [
+        "Q107299"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Mercia",
+        "Kingdom of East Anglia"
+      ],
+      "civilizations": [
+        "Q105092"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

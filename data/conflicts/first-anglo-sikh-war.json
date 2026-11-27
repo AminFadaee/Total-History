@@ -9,6 +9,33 @@
     1846
   ],
   "editions": 35,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Sikh Empire and the British Empire from 1845 to 1846 around the Firozpur district of Punjab.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "British Empire",
+        "East India Company",
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Sikh Empire",
+        "Ladwa State"
+      ],
+      "civilizations": [
+        "Q83572"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

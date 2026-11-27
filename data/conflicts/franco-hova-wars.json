@@ -9,6 +9,34 @@
     1895
   ],
   "editions": 13,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Two French military interventions in Madagascar between 1883 and 1896 that overthrew the ruling monarchy of the Merina Kingdom, and resulted in Madagascar becoming a French colony.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "French Third Republic",
+        "France"
+      ],
+      "civilizations": [
+        "Q70802"
+      ]
+    },
+    {
+      "combatants": [
+        "Merina Kingdom"
+      ],
+      "civilizations": [
+        "Q1071439"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

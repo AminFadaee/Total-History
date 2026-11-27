@@ -9,6 +9,33 @@
     1574
   ],
   "editions": 19,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    10.18,
+    36.800833333
+  ],
+  "summary": "Ottoman victory over Spain.",
+  "result": "Ottomans capture Tunis",
+  "sides": [
+    {
+      "combatants": [
+        "Spanish Empire",
+        "Habsburg Spain"
+      ],
+      "civilizations": [
+        "Q80702"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -19,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/conquest-of-tunis-1574.png",
+  "map_asked": true
 }

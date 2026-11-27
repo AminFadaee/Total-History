@@ -9,6 +9,42 @@
     1697
   ],
   "editions": 53,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A European great power conflict from 1688 to 1697 between France and the Grand Alliance.",
+  "result": "Peace of Ryswick",
+  "sides": [
+    {
+      "combatants": [
+        "Grand Alliance",
+        "Savoyard state",
+        "Dutch Republic",
+        "Kingdom of England",
+        "Kingdom of Scotland",
+        "Holy Roman Empire",
+        "Spanish Empire",
+        "Duchy of Savoy"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q170072",
+        "Q179876",
+        "Q230791",
+        "Q426025",
+        "Q80702"
+      ]
+    },
+    {
+      "combatants": [
+        "Jacobite succession",
+        "Kingdom of France"
+      ],
+      "civilizations": [
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

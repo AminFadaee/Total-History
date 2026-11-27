@@ -9,6 +9,32 @@
     1879
   ],
   "editions": 47,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought in present-day South Africa from January to early July 1879 between forces of the British Empire and the Zulu Kingdom.",
+  "result": "British forced division of Zululand into Chiefdoms with British appointed leaders",
+  "sides": [
+    {
+      "combatants": [
+        "South African Republic",
+        "United Kingdom of Great Britain and Ireland",
+        "Colony of Natal"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q550374"
+      ]
+    },
+    {
+      "combatants": [
+        "Zululand"
+      ],
+      "civilizations": [
+        "Q729768"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

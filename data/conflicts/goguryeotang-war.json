@@ -9,6 +9,35 @@
     668
   ],
   "editions": 20,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between Goguryeo and the Tang dynasty.",
+  "result": "Tang-Silla coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "Tang Dynasty",
+        "Silla"
+      ],
+      "civilizations": [
+        "Q28456",
+        "Q9683"
+      ]
+    },
+    {
+      "combatants": [
+        "Goguryeo",
+        "Baekje",
+        "Yamato period",
+        "Battle of Baekgang"
+      ],
+      "civilizations": [
+        "Q28370",
+        "Q28428"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

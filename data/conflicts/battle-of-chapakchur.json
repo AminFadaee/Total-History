@@ -9,6 +9,29 @@
     1467
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "A decisive battle fought between Qara Qoyunlu under the leadership of Jahan Shah and Aq Qoyunlu under the leadership of Uzun Hasan.",
+  "result": "Aq Qoyunlu victory",
+  "sides": [
+    {
+      "combatants": [
+        "Aq Qoyunlu"
+      ],
+      "civilizations": [
+        "Q555994"
+      ]
+    },
+    {
+      "combatants": [
+        "Qara Qoyunlu"
+      ],
+      "civilizations": [
+        "Q324470"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

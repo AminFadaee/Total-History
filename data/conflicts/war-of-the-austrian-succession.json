@@ -9,6 +9,51 @@
     1748
   ],
   "editions": 68,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between the European great powers, fought primarily in Europe, the Atlantic Ocean and Mediterranean Sea.",
+  "result": "Treaty of Aix-la-Chapelle",
+  "sides": [
+    {
+      "combatants": [
+        "History of Spain (1700–1808)",
+        "Savoyard state",
+        "Duchy of Modena and Reggio",
+        "Kingdom of France",
+        "Kingdom of Prussia",
+        "Electorate of Bavaria",
+        "Electorate of Saxony",
+        "Kingdom of Sardinia",
+        "Republic of Genoa",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q174306",
+        "Q29",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Habsburg Monarchy",
+        "Electorate of Hanover",
+        "Savoyard state",
+        "Kingdom of Great Britain",
+        "Dutch Republic",
+        "Electorate of Saxony",
+        "Kingdom of Sardinia",
+        "Russian Empire",
+        "Hanover"
+      ],
+      "civilizations": [
+        "Q153136",
+        "Q161885",
+        "Q170072",
+        "Q34266"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

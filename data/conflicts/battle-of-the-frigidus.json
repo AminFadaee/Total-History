@@ -9,6 +9,33 @@
     394
   ],
   "editions": 35,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    13.93615556,
+    45.87041111
+  ],
+  "summary": "Fought on 5 and 6 September 394 between the armies of the Roman emperor Theodosius the Great and the rebel augustus Eugenius, in the eastern border of Roman Italy.",
+  "result": "Theodosius gains Western Empire",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire",
+        "Visigoths"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Western Roman Empire"
+      ],
+      "civilizations": [
+        "Q42834"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

@@ -9,6 +9,55 @@
     1916
   ],
   "editions": 74,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    26.2775,
+    40.2375
+  ],
+  "summary": "A military campaign in the First World War on the Gallipoli Peninsula from 19 February 1915 to 9 January 1916.",
+  "result": "Central Powers victory",
+  "sides": [
+    {
+      "combatants": [
+        "Allies of the First World War",
+        "French protectorate of Tunisia",
+        "French West Africa",
+        "British Empire",
+        "United Kingdom of Great Britain and Ireland",
+        "presidencies and provinces in British India",
+        "Sultanate of Egypt",
+        "Commonwealth of Australia",
+        "Dominion of New Zealand",
+        "Newfoundland and Labrador",
+        "French Third Republic"
+      ],
+      "civilizations": [
+        "Q13426199",
+        "Q172579",
+        "Q174193",
+        "Q188712",
+        "Q203493",
+        "Q209065",
+        "Q30",
+        "Q408",
+        "Q70802",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Central Powers",
+        "Ottoman Empire",
+        "German Empire"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q28513",
+        "Q43287"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -19,5 +68,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/gallipoli-campaign.png",
+  "map_asked": true
 }

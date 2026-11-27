@@ -9,6 +9,29 @@
     1898
   ],
   "editions": 85,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict fought between the United States and Spain in 1898.",
+  "result": "American victory",
+  "sides": [
+    {
+      "combatants": [
+        "United States of America"
+      ],
+      "civilizations": [
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q29"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

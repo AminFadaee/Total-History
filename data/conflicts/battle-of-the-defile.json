@@ -9,6 +9,34 @@
     731
   ],
   "editions": 15,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    66.90972222222223,
+    39.29388888888889
+  ],
+  "summary": "Fought in the Takhtakaracha Pass between a large army of the Umayyad Caliphate and the Turkic Türgesh khaganate over three days in July 731 CE.",
+  "result": "See Aftermath",
+  "sides": [
+    {
+      "combatants": [
+        "Umayyad Caliphate"
+      ],
+      "civilizations": [
+        "Q8575586"
+      ]
+    },
+    {
+      "combatants": [
+        "Türgesh",
+        "khanate",
+        "Transoxiana"
+      ],
+      "civilizations": [
+        "Q1277895"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +48,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-the-defile.png",
+  "map_asked": true
 }

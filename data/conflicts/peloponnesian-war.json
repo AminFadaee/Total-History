@@ -9,6 +9,52 @@
     -404
   ],
   "editions": 81,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought in the Eastern Mediterranean between the Athenian-led Delian League and the Spartan-led Peloponnesian League from 431 to 404 BC for hegemony over Ancient Greece.",
+  "result": "Spartan hegemony over Athens and its allies",
+  "sides": [
+    {
+      "combatants": [
+        "Classical Athens",
+        "Delian League",
+        "Ancient Thessaly",
+        "Plataea",
+        "Argos",
+        "Acarnania",
+        "Ancient Elis",
+        "Mantineia",
+        "Segesta",
+        "Etruscan cities"
+      ],
+      "civilizations": [
+        "Q844930"
+      ]
+    },
+    {
+      "combatants": [
+        "Sparta",
+        "Peloponnesian League",
+        "Thebes",
+        "Boeotia Regional Unit",
+        "Delphi",
+        "Phocis",
+        "Doris",
+        "Ambracia",
+        "Macedonia",
+        "Syracuse",
+        "Tissaphernes",
+        "Achaemenid Empire",
+        "Cyrus the Younger"
+      ],
+      "civilizations": [
+        "Q389688",
+        "Q5690",
+        "Q83958"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

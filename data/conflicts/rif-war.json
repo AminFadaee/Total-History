@@ -9,6 +9,37 @@
     1927
   ],
   "editions": 39,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "An anti-colonial war fought from 1921 to 1926 between the indigenous Berber tribes of the mountainous Rif region of northern Morocco and Spain.",
+  "result": "Spanish-French victory",
+  "sides": [
+    {
+      "combatants": [
+        "Spain under the Restoration",
+        "Spanish protectorate in Morocco",
+        "French protectorate in Morocco",
+        "French West Africa",
+        "French Third Republic",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q29",
+        "Q70802"
+      ]
+    },
+    {
+      "combatants": [
+        "Republic of the Rif",
+        "Riffian people",
+        "Jebala Tribal Confederation",
+        "Ghomara",
+        "Senhaja de Srair people"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

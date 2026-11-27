@@ -9,6 +9,30 @@
     878
   ],
   "editions": 24,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -2.2422222222222,
+    51.440277777778
+  ],
+  "summary": "Fought in May 878 between the West Saxon army of King Alfred the Great and the Great Heathen Army led by the Danish warlord Guthrum.",
+  "result": "Saxon victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Wessex"
+      ],
+      "civilizations": [
+        "Q105313"
+      ]
+    },
+    {
+      "combatants": [
+        "Great Heathen Army"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

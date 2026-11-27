@@ -9,6 +9,33 @@
     1543
   ],
   "editions": 16,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A war fought between the Christian Ethiopian Empire and the Muslim Adal Sultanate from 1529 to 1543.",
+  "result": "Ethiopian–Portuguese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ethiopian Empire",
+        "Portuguese Empire"
+      ],
+      "civilizations": [
+        "Q200464",
+        "Q207521"
+      ]
+    },
+    {
+      "combatants": [
+        "Adal Sultanate",
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q2365048"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

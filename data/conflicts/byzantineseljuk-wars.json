@@ -9,6 +9,40 @@
     1308
   ],
   "editions": 23,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts in the Middle Ages between the Byzantine Empire and the Seljuk Empire.",
+  "result": "Both states had numerous territorial changes.",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire",
+        "Empire of Trebizond",
+        "Nicaean Empire",
+        "Crusader states"
+      ],
+      "civilizations": [
+        "Q178913",
+        "Q181254",
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Great Seljuk Empire",
+        "Sultanate of Rum",
+        "Danishmendid dynasty",
+        "Tzachas",
+        "Turkoman (ethnonym)",
+        "Mirdasid dynasty"
+      ],
+      "civilizations": [
+        "Q3708094",
+        "Q975405"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

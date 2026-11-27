@@ -9,6 +9,37 @@
     1390
   ],
   "editions": 19,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A Franco-Genoese military expedition in 1390 that led to the siege of Mahdia, then a stronghold of the Barbary pirates in Hafsidi Ifriqiya.",
+  "result": "Hafsid-Zayyanid victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of France",
+        "Republic of Genoa"
+      ],
+      "civilizations": [
+        "Q174306",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Hafsid Dynasty",
+        "Kingdom of Tlemcen",
+        "Hafsids of Béjaïa"
+      ],
+      "civilizations": [
+        "Q752662"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

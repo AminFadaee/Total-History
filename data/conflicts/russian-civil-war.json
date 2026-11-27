@@ -9,6 +9,80 @@
     1922
   ],
   "editions": 100,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A multi-party civil war in the former Russian Empire, lasting from 1917 to 1922, sparked by the overthrowing of the Russian Provisional Government in the October Revolution, as many factions vied to determine Russia's political future.",
+  "result": "Bolshevik victory",
+  "sides": [
+    {
+      "combatants": [
+        "Bolsheviks",
+        "republic of the Soviet Union",
+        "Russian Soviet Federative Socialist Republic",
+        "Ukrainian Soviet Socialist Republic",
+        "Byelorussian Soviet Socialist Republic",
+        "Transcaucasian Socialist Federative Soviet Republic",
+        "Left Socialist-Revolutionaries",
+        "Green armies",
+        "Makhnovshchina",
+        "Socialist Revolutionary Party",
+        "Mensheviks"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "White movement",
+        "Russian Republic",
+        "Russian State",
+        "South Russia",
+        "Allied intervention in the Russian Civil War",
+        "Empire of Japan",
+        "United Kingdom of Great Britain and Ireland",
+        "United States of America",
+        "French Third Republic",
+        "First Czechoslovak Republic"
+      ],
+      "civilizations": [
+        "Q139319",
+        "Q174193",
+        "Q188712",
+        "Q30",
+        "Q70802"
+      ]
+    },
+    {
+      "combatants": [
+        "pro-independence movements in the Russian Civil War",
+        "Mountainous Republic of the Northern Caucasus",
+        "Basmachi movement",
+        "Second Polish Republic",
+        "Republic of Finland",
+        "Ukrainian People's Republic",
+        "Belarusian People's Republic",
+        "Estonia",
+        "Latvia",
+        "Lithuania",
+        "Democratic Republic of Georgia",
+        "First Republic of Armenia",
+        "Azerbaijan Democratic Republic",
+        "Moldavian Democratic Republic",
+        "Central Powers intervention in the Russian Civil War",
+        "German Empire",
+        "Austria-Hungary",
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q206411",
+        "Q207272",
+        "Q28513",
+        "Q33",
+        "Q43287"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

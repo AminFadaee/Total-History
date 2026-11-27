@@ -9,6 +9,36 @@
     1477
   ],
   "editions": 32,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between the Burgundian State and the Old Swiss Confederacy and its allies.",
+  "result": "Extinction of Valois Burgundy and division between Valois France and Habsburg heirs",
+  "sides": [
+    {
+      "combatants": [
+        "Burgundian State",
+        "Duchy of Savoy",
+        "Duchy of Burgundy"
+      ],
+      "civilizations": [
+        "Q426025",
+        "Q4712"
+      ]
+    },
+    {
+      "combatants": [
+        "Lower League",
+        "Kingdom of France",
+        "Old Swiss Confederacy",
+        "Duchy of Lorraine"
+      ],
+      "civilizations": [
+        "Q435583",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,35 @@
     1805
   ],
   "editions": 74,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    16.7625,
+    49.128055555555555
+  ],
+  "summary": "Fought on Monday 2 December 1805, near Austerlitz, being the decisive engagement of the War of the Third Coalition.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "First French Empire",
+        "Kingdom of Italy"
+      ],
+      "civilizations": [
+        "Q71084"
+      ]
+    },
+    {
+      "combatants": [
+        "Russian Empire",
+        "Austrian Empire"
+      ],
+      "civilizations": [
+        "Q131964",
+        "Q34266"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

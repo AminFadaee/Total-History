@@ -9,6 +9,40 @@
     1240
   ],
   "editions": 42,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "13th-century Mongol military campaign in Europe.",
+  "result": "Mongol victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mongol Empire"
+      ],
+      "civilizations": [
+        "Q12557"
+      ]
+    },
+    {
+      "combatants": [
+        "Principality of Kiev",
+        "Principality of Rostov-Suzdal",
+        "Kingdom of Galicia–Volhynia",
+        "Principality of Smolensk",
+        "Principality of Turov and Pinsk",
+        "Principality of Chernigov",
+        "Principality of Ryazan",
+        "Principality of Pereyaslavl",
+        "Cumans"
+      ],
+      "civilizations": [
+        "Q1322662",
+        "Q1483430",
+        "Q239502",
+        "Q83546"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

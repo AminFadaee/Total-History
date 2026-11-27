@@ -9,6 +9,51 @@
     1530
   ],
   "editions": 28,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    12.5,
+    42.5
+  ],
+  "summary": "Fought between the Habsburg dominions of Emperor Charles V—chiefly the Holy Roman Empire and Spain—and the League of Cognac, an alliance comprising the Kingdom of France, Pope Clement VII, the Republic of Venice, the Duchy of Milan and the Republic of Florence, later joined by the Kingdom of England.",
+  "result": "Habsburg victory:",
+  "sides": [
+    {
+      "combatants": [
+        "Holy Roman Empire",
+        "Habsburg Spain",
+        "Margravate of Mantua",
+        "Papal States",
+        "Duchy of Ferrara",
+        "Republic of Genoa",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q29"
+      ]
+    },
+    {
+      "combatants": [
+        "Papal States",
+        "Pontifical Swiss Guard",
+        "Duchy of Urbino",
+        "Kingdom of France",
+        "Duchy of Milan",
+        "Republic of Venice",
+        "Republic of Florence",
+        "Republic of Genoa",
+        "Old Swiss Confederacy"
+      ],
+      "civilizations": [
+        "Q148540",
+        "Q153529",
+        "Q435583",
+        "Q4948",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -32,5 +77,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/war-of-the-league-of-cognac.png",
+  "map_asked": true
 }

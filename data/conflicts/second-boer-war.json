@@ -9,6 +9,85 @@
     1902
   ],
   "editions": 66,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict fought between 1899 and 1902 between the British Empire and the Boer republics, triggered by the discovery of gold in the Transvaal, specifically the Witwatersrand gold fields, and the ensuing political dispute over the voting rights of British expatriates.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "British Empire",
+        "British Cape Colony",
+        "Colony of Natal",
+        "Basutoland",
+        "Bechuanaland Protectorate",
+        "company rule in Rhodesia",
+        "Colony of New Zealand",
+        "Colony of New South Wales",
+        "history of Western Australia",
+        "Colony of Tasmania",
+        "history of South Australia",
+        "Victoria",
+        "Colony of Queensland",
+        "Federation of Australia",
+        "United Kingdom of Great Britain and Ireland",
+        "British Raj",
+        "British Ceylon",
+        "Canada",
+        "New Zealand",
+        "New South Wales",
+        "Tasmania",
+        "Commonwealth of Australia",
+        "Queensland"
+      ],
+      "civilizations": [
+        "Q129286",
+        "Q16",
+        "Q174193",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "British Cape Colony",
+        "Boer",
+        "Boer foreign volunteers",
+        "Commonwealth of Australia",
+        "Austria-Hungary",
+        "Belgium",
+        "Denmark",
+        "French Third Republic",
+        "German Empire",
+        "Kingdom of Greece",
+        "history of Ireland from 1801 to 1923",
+        "Kingdom of Italy",
+        "Netherlands",
+        "Congress Poland",
+        "Russian Empire",
+        "United Kingdoms of Sweden and Norway",
+        "United States of America",
+        "South African Republic",
+        "Free Orange State",
+        "United Kingdom",
+        "volkstaat"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q172579",
+        "Q209065",
+        "Q218023",
+        "Q28513",
+        "Q30",
+        "Q34266",
+        "Q43287",
+        "Q55",
+        "Q550374",
+        "Q62589",
+        "Q70802"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

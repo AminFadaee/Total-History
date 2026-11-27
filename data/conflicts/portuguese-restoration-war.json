@@ -9,6 +9,30 @@
     1668
   ],
   "editions": 33,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of armed conflicts from December 1640 to February 1668 that ended with the Treaty of Lisbon which dissolved the Iberian Union between Portugal and Spain.",
+  "result": "Treaty of Lisbon",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Portugal"
+      ],
+      "civilizations": [
+        "Q45670"
+      ]
+    },
+    {
+      "combatants": [
+        "Habsburg Spain",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q29"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

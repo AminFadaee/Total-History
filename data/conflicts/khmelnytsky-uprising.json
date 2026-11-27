@@ -9,6 +9,55 @@
     1657
   ],
   "editions": 40,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A successful Cossack rebellion with elements of a religious war that took place between 1648 and 1657 in the eastern territories of the Polish–Lithuanian Commonwealth.",
+  "result": "{{ublist|Cossack victory<ref name=\"uprising\">",
+  "sides": [
+    {
+      "combatants": [
+        "Khmelnytsky's campaign of 1648",
+        "Zaporizhian Sich",
+        "Crimean Khanate",
+        "Cossack Hetmanate",
+        "Lemkos",
+        "Gorals",
+        "Principality of Moldavia",
+        "Vasile Lupu",
+        "Principality of Wallachia",
+        "Sovereign's Campaign of 1654",
+        "Tsardom of Russia",
+        "Swedish Empire",
+        "Margraviate of Brandenburg",
+        "Transylvanian campaign into Poland (1657)",
+        "Principality of Transylvania"
+      ],
+      "civilizations": [
+        "Q148499",
+        "Q212439",
+        "Q215443"
+      ]
+    },
+    {
+      "combatants": [
+        "Polish-Lithuanian Commonwealth",
+        "Principality of Moldavia",
+        "Gheorghe Ștefan",
+        "Principality of Wallachia",
+        "Principality of Transylvania",
+        "Crimean Khanate",
+        "Tsardom of Russia",
+        "Holy Roman Empire",
+        "Denmark-Norway"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q172107",
+        "Q62651"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

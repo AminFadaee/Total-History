@@ -9,6 +9,34 @@
     1997
   ],
   "editions": 30,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The first of two civil wars within the West African nation of Liberia.",
+  "result": "NPFL victory",
+  "sides": [
+    {
+      "combatants": [
+        "Republic of Liberia",
+        "Armed Forces of Liberia",
+        "United Liberation Movement of Liberia for Democracy",
+        "Liberia Peace Council",
+        "Lofa Defense Force"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Armed Forces of Liberia",
+        "Greater Liberia",
+        "National Patriotic Front of Liberia",
+        "Independent National Patriotic Front of Liberia",
+        "National Patriotic Front of Liberia – Central Revolutionary Council",
+        "Republic of Liberia"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,34 @@
     1836
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An internal conflict in Peru with the involvement of the Bolivian army of Andres de Santa Cruz.",
+  "result": "Pro-Confederate victory",
+  "sides": [
+    {
+      "combatants": [
+        "Peru-Bolivian Confederation",
+        "Luis José de Orbegoso",
+        "Andrés de Santa Cruz",
+        "Peru",
+        "Bolivia"
+      ],
+      "civilizations": [
+        "Q899706"
+      ]
+    },
+    {
+      "combatants": [
+        "Restoration Army of Peru",
+        "Felipe Santiago Salaverry",
+        "Agustín Gamarra",
+        "Peru"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "founding": [
       {

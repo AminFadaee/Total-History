@@ -9,6 +9,30 @@
     1539
   ],
   "editions": 9,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "A notable military engagement between the Mughal Emperor, Humayun, and the Afghan ruler, Sher Shah Suri.",
+  "result": "Suri victory",
+  "sides": [
+    {
+      "combatants": [
+        "Sur Empire",
+        "Ujjainiya"
+      ],
+      "civilizations": [
+        "Q373650"
+      ]
+    },
+    {
+      "combatants": [
+        "Mughal Empire"
+      ],
+      "civilizations": [
+        "Q33296"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

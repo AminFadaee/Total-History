@@ -9,6 +9,28 @@
     1833
   ],
   "editions": 45,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of early 19th-century conflicts across the Spanish Empire that resulted in new independent nation states in the Americas.",
+  "result": "Patriot victory",
+  "sides": [
+    {
+      "combatants": [
+        "Patriot"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Kingdom of Spain",
+        "Spanish America"
+      ],
+      "civilizations": [
+        "Q29"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,35 @@
     1900
   ],
   "editions": 13,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    -0.97,
+    5.45
+  ],
+  "summary": "A series of five conflicts that took place between 1824 and 1900 between the Ashanti Empire—in the Akan interior of the Gold Coast—and the British Empire and its African allies.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "African Company of Merchants",
+        "Danish Gold Coast",
+        "British Empire",
+        "Denmark"
+      ],
+      "civilizations": [
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Ashanti Empire"
+      ],
+      "civilizations": [
+        "Q722071"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

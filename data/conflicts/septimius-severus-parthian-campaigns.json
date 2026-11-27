@@ -9,6 +9,35 @@
     198
   ],
   "editions": 7,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military campaigns fought between the Roman Empire, under Emperor Septimius Severus, and the Parthian Empire of Vologases V and its allies, forming part of the long-running Roman–Parthian Wars.",
+  "result": "Roman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire",
+        "Kingdom of Osroene"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Parthian Empire",
+        "Kingdom of Osroene",
+        "Adiabene",
+        "Kingdom of Araba",
+        "Kingdom of Armenia"
+      ],
+      "civilizations": [
+        "Q1986139",
+        "Q208404"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

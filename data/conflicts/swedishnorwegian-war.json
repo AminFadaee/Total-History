@@ -9,6 +9,30 @@
     1814
   ],
   "editions": 27,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A war fought between Sweden and Norway in the summer of 1814.",
+  "result": "Swedish victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Norway",
+        "Old Kingdom of Norway"
+      ],
+      "civilizations": [
+        "Q20"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Sweden"
+      ],
+      "civilizations": [
+        "Q34"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

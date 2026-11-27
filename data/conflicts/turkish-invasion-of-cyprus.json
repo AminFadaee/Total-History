@@ -9,6 +9,31 @@
     1974
   ],
   "editions": 47,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "1974 military conflict.",
+  "result": "Turkey occupies 36.2% of Cyprus",
+  "sides": [
+    {
+      "combatants": [
+        "Turkish Resistance Organisation",
+        "Republic of Turkey"
+      ],
+      "civilizations": [
+        "Q43"
+      ]
+    },
+    {
+      "combatants": [
+        "1974 Cypriot coup d'état",
+        "EOKA B",
+        "Greek junta",
+        "Cyprus"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

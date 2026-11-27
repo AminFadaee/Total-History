@@ -9,6 +9,29 @@
     -111
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "A military conflict between the Han Empire and the Nanyue kingdom in modern Guangdong, Guangxi, and Northern Vietnam.",
+  "result": "Han victory",
+  "sides": [
+    {
+      "combatants": [
+        "Han Dynasty"
+      ],
+      "civilizations": [
+        "Q7209"
+      ]
+    },
+    {
+      "combatants": [
+        "Nanyue"
+      ],
+      "civilizations": [
+        "Q827040"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

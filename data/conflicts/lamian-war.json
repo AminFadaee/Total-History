@@ -9,6 +9,35 @@
     -322
   ],
   "editions": 35,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An unsuccessful attempt by Athens and a large coalition of Greek states to end the hegemony of Macedonia over Greece just after the death of Alexander the Great.",
+  "result": "Macedonian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Classical Athens",
+        "Aetolian League",
+        "Thessalian League",
+        "Phocis"
+      ],
+      "civilizations": [
+        "Q844930"
+      ]
+    },
+    {
+      "combatants": [
+        "Macedonia",
+        "Boeotia Regional Unit",
+        "Euboea",
+        "Acarnanian League"
+      ],
+      "civilizations": [
+        "Q83958"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

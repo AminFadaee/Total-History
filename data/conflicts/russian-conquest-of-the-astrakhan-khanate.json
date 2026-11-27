@@ -9,6 +9,41 @@
     1556
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "16th-century military action.",
+  "result": "Russian Victory",
+  "sides": [
+    {
+      "combatants": [
+        "Nogai Horde",
+        "Tsardom of Russia",
+        "Nogais"
+      ],
+      "civilizations": [
+        "Q186096"
+      ]
+    },
+    {
+      "combatants": [
+        "Astrakhan Khanate",
+        "Nogai Horde",
+        "Crimean Khanate",
+        "diplomacy",
+        "military",
+        "Nogais"
+      ],
+      "civilizations": [
+        "Q160440",
+        "Q210163"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,31 @@
     1940
   ],
   "editions": 88,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A war between the Soviet Union and Finland.",
+  "result": "Cession of the Gulf of Finland islands, Karelian Isthmus, Ladoga Karelia, Salla, Rybachy Peninsula and lease of Hanko to the Soviet Union",
+  "sides": [
+    {
+      "combatants": [
+        "foreign support in the Winter War",
+        "Republic of Finland"
+      ],
+      "civilizations": [
+        "Q33"
+      ]
+    },
+    {
+      "combatants": [
+        "Finnish Democratic Republic",
+        "Union of Soviet Socialist Republics"
+      ],
+      "civilizations": [
+        "Q15180"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

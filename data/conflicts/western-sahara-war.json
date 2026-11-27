@@ -9,6 +9,34 @@
     1991
   ],
   "editions": 21,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict between the Sahrawi indigenous Polisario Front and Morocco from 1975 to 1991, being the most significant phase of the Western Sahara conflict.",
+  "result": "Morocco controls approximately 80% of the territory, the Polisario Front controls 20%",
+  "sides": [
+    {
+      "combatants": [
+        "Royal Moroccan Armed Forces",
+        "Opération Lamantin",
+        "French Air and Space Force",
+        "Morocco",
+        "Mauritania",
+        "France"
+      ],
+      "civilizations": [
+        "Q1028"
+      ]
+    },
+    {
+      "combatants": [
+        "Polisario Front",
+        "Sahrawi Arab Democratic Republic",
+        "Algeria"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

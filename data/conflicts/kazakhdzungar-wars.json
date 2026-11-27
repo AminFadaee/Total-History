@@ -9,6 +9,30 @@
     1741
   ],
   "editions": 11,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military conflicts between the Kazakh jüzes and the Dzungar Khanate lasting from the 17th to the mid-18th century.",
+  "result": "",
+  "sides": [
+    {
+      "combatants": [
+        "jüz",
+        "Kazakh Khanate"
+      ],
+      "civilizations": [
+        "Q1433867"
+      ]
+    },
+    {
+      "combatants": [
+        "Dzungar Khanate"
+      ],
+      "civilizations": [
+        "Q1923401"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

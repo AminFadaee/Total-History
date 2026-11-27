@@ -9,6 +9,52 @@
     -188
   ],
   "editions": 36,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military conflict between two coalitions, one led by the Roman Republic and the other led by the Seleucid king Antiochus III.",
+  "result": "Treaty of Apamea{{bulletlist",
+  "sides": [
+    {
+      "combatants": [
+        "Seleucid Empire",
+        "Aetolian League",
+        "Galatians",
+        "Athamanians",
+        "Kingdom of Cappadocia",
+        "Ancient Elis",
+        "Messene"
+      ],
+      "civilizations": [
+        "Q93180"
+      ]
+    },
+    {
+      "combatants": [
+        "Roman Republic",
+        "Kingdom of Pergamon",
+        "Rhodes",
+        "Macedonia",
+        "Achaean League",
+        "Thessalian League",
+        "Boeotia Regional Unit",
+        "Acarnanian League",
+        "Vis",
+        "Kos",
+        "Erythrae",
+        "history of Athens",
+        "Carthage",
+        "Kingdom of Numidia"
+      ],
+      "civilizations": [
+        "Q102679",
+        "Q17167",
+        "Q2022162",
+        "Q2429397",
+        "Q83958"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

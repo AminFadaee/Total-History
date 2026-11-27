@@ -9,6 +9,40 @@
     1651
   ],
   "editions": 32,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The collective term for a series of conflicts fought between 1639 and 1653 in England, Scotland, and Ireland, then separate entities in a personal union under Charles I.",
+  "result": "Parliamentarian victory; monarchy abolished, Commonwealth of England established",
+  "sides": [
+    {
+      "combatants": [
+        "Cavalier"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Covenanters"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Confederate Ireland"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Roundhead",
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q179876"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

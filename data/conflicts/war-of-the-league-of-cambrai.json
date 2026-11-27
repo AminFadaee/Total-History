@@ -9,6 +9,48 @@
     1516
   ],
   "editions": 30,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought from December 1508 to December 1516, as part of the wider Italian Wars of 1494–1559.",
+  "result": "Franco–Venetian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Papal States",
+        "Kingdom of France",
+        "Holy Roman Empire",
+        "Spanish Empire",
+        "Duchy of Ferrara",
+        "Kingdom of Scotland",
+        "Republic of Florence",
+        "Kingdom of Navarre",
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q148540",
+        "Q200262",
+        "Q230791",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Republic of Venice",
+        "Papal States",
+        "Spanish Empire",
+        "Holy Roman Empire",
+        "Kingdom of England",
+        "Old Swiss Confederacy",
+        "Duchy of Milan"
+      ],
+      "civilizations": [
+        "Q153529",
+        "Q179876",
+        "Q435583"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

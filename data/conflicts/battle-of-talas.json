@@ -9,6 +9,36 @@
     751
   ],
   "editions": 47,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    72.233333333333,
+    42.525
+  ],
+  "summary": "An armed confrontation between the Abbasid Caliphate along with the Tibetan Empire against the Tang dynasty and its allies in 751.",
+  "result": "Abbasid victory",
+  "sides": [
+    {
+      "combatants": [
+        "Abbasid Caliphate",
+        "Tibetan Empire"
+      ],
+      "civilizations": [
+        "Q12536",
+        "Q2431480"
+      ]
+    },
+    {
+      "combatants": [
+        "Tang Dynasty",
+        "Principality of Farghana",
+        "Karkota dynasty"
+      ],
+      "civilizations": [
+        "Q9683"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +51,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-talas.png",
+  "map_asked": true
 }

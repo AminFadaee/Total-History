@@ -9,6 +9,32 @@
     1794
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    57.083333333333336,
+    30.283333333333335
+  ],
+  "summary": "The capture of the city of Kerman by the Qajar forces led by Agha Mohammad Khan Qajar against Zand forces led by Lotf Ali Khan which resulted in a decisive Qajar victory.",
+  "result": "Qajar victory",
+  "sides": [
+    {
+      "combatants": [
+        "Zand Dynasty"
+      ],
+      "civilizations": [
+        "Q146597"
+      ]
+    },
+    {
+      "combatants": [
+        "Qajar Dynasty"
+      ],
+      "civilizations": [
+        "Q63158027"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

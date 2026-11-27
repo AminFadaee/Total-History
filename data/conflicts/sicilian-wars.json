@@ -9,6 +9,28 @@
     -265
   ],
   "editions": 24,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts fought between ancient Carthage and the Greek city-states led by Syracuse over control of Sicily and the western Mediterranean between 580 and 265 BC.",
+  "result": "Carthage retains Western Sicily and the Greeks the eastern part until the Punic Wars",
+  "sides": [
+    {
+      "combatants": [
+        "Carthage"
+      ],
+      "civilizations": [
+        "Q2429397"
+      ]
+    },
+    {
+      "combatants": [
+        "Sicily",
+        "Syracuse"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

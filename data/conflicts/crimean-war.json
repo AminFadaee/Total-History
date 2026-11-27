@@ -9,6 +9,37 @@
     1856
   ],
   "editions": 92,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between Russia and an alliance of the Ottoman Empire, France, the United Kingdom, and Sardinia from October 1853 to February 1856.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Second French Empire",
+        "United Kingdom of Great Britain and Ireland",
+        "Kingdom of Sardinia"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q174193",
+        "Q2577303",
+        "Q71092"
+      ]
+    },
+    {
+      "combatants": [
+        "Russian Empire",
+        "Kingdom of Greece"
+      ],
+      "civilizations": [
+        "Q209065",
+        "Q34266"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

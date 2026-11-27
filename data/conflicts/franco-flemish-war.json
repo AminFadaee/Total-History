@@ -9,6 +9,29 @@
     1305
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between the Kingdom of France and the County of Flanders between 1297 and 1305.",
+  "result": "Flanders cedes Lille, Douai, and Bethune to France",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of France"
+      ],
+      "civilizations": [
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "County of Flanders"
+      ],
+      "civilizations": [
+        "Q157070"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,36 @@
     1761
   ],
   "editions": 38,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    76.97,
+    29.39
+  ],
+  "summary": "1761 battle between the Durrani Empire and Marathas.",
+  "result": "Durrani victoryMughal emperor exiled to Awadh",
+  "sides": [
+    {
+      "combatants": [
+        "Durrani Empire"
+      ],
+      "civilizations": [
+        "Q467627"
+      ]
+    },
+    {
+      "combatants": [
+        "Maratha Empire",
+        "Peshwa",
+        "Indore State",
+        "Gwalior State",
+        "Baroda State"
+      ],
+      "civilizations": [
+        "Q83618"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +50,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/third-battle-of-panipat.png",
+  "map_asked": true
 }

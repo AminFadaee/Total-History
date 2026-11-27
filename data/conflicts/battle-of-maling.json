@@ -9,6 +9,32 @@
     -342
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    115.3975,
+    35.8858333333
+  ],
+  "summary": "",
+  "result": "Qi Victory",
+  "sides": [
+    {
+      "combatants": [
+        "Qi"
+      ],
+      "civilizations": [
+        "Q837855"
+      ]
+    },
+    {
+      "combatants": [
+        "Wei"
+      ],
+      "civilizations": [
+        "Q912052"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-maling.png",
+  "map_asked": true
 }

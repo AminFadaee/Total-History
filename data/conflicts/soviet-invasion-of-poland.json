@@ -9,6 +9,34 @@
     1939
   ],
   "editions": 54,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    23.8,
+    52
+  ],
+  "summary": "1939 World War II invasion.",
+  "result": "Territory of Eastern Poland annexed by the Soviet Union",
+  "sides": [
+    {
+      "combatants": [
+        "Second Polish Republic"
+      ],
+      "civilizations": [
+        "Q207272"
+      ]
+    },
+    {
+      "combatants": [
+        "Nazi Germany",
+        "Union of Soviet Socialist Republics"
+      ],
+      "civilizations": [
+        "Q15180",
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {
@@ -20,5 +48,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/soviet-invasion-of-poland.png",
+  "map_asked": true
 }

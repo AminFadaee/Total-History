@@ -9,6 +9,32 @@
     1818
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    46.57555555555556,
+    24.733333333333334
+  ],
+  "summary": "A successful Ottoman siege that took place in late 1818 at the end of the Wahhabi War of 1811–1818 during the Nejd Expedition.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    },
+    {
+      "combatants": [
+        "Emirate of Diriyah"
+      ],
+      "civilizations": [
+        "Q146871"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -19,5 +45,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/siege-of-diriyah.png",
+  "map_asked": true
 }

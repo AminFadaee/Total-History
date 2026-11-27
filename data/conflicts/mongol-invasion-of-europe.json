@@ -9,6 +9,61 @@
     1242
   ],
   "editions": 36,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "1220s–1240s military campaign.",
+  "result": "Volga Bulgaria, Cumania, Alania, and the Russian principalities become Mongol tributary states and vassals; Georgia subjugated; parts of Hungary temporarily occupied.",
+  "sides": [
+    {
+      "combatants": [
+        "Kievan Rus'",
+        "Principality of Rostov-Suzdal",
+        "Principality of Kiev",
+        "Kingdom of Galicia–Volhynia",
+        "Novgorod Republic",
+        "Principality of Smolensk",
+        "Principality of Turov and Pinsk",
+        "Principality of Chernigov",
+        "Principality of Ryazan",
+        "Principality of Pereyaslavl",
+        "Cumans",
+        "Alania",
+        "Kingdom of Poland",
+        "Kingdom of Hungary",
+        "Croatia in personal union with Hungary",
+        "Kingdom of Bohemia",
+        "Margraviate of Meissen",
+        "Duchy of Austria",
+        "Kingdom of Serbia",
+        "Cuman-Kipchak Confederation",
+        "Holy Roman Empire",
+        "Second Bulgarian Empire"
+      ],
+      "civilizations": [
+        "Q1108445",
+        "Q1122052",
+        "Q12548",
+        "Q1322662",
+        "Q1483430",
+        "Q151536",
+        "Q171150",
+        "Q239502",
+        "Q420759",
+        "Q42585",
+        "Q83546",
+        "Q8890160"
+      ]
+    },
+    {
+      "combatants": [
+        "Mongol Empire"
+      ],
+      "civilizations": [
+        "Q12557"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

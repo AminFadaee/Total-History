@@ -9,6 +9,38 @@
     1939
   ],
   "editions": 17,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Part of the Spanish Civil War.",
+  "result": "Nationalist victory",
+  "sides": [
+    {
+      "combatants": [
+        "Republican faction",
+        "Generalitat of Catalonia",
+        "Second Spanish Republic",
+        "Catalonia"
+      ],
+      "civilizations": [
+        "Q178038"
+      ]
+    },
+    {
+      "combatants": [
+        "Nationalist faction",
+        "Corpo Truppe Volontarie",
+        "Condor Legion",
+        "Francoist Spain",
+        "Fascist Italy",
+        "Nazi Germany"
+      ],
+      "civilizations": [
+        "Q13474305",
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

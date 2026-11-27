@@ -9,6 +9,74 @@
     1918
   ],
   "editions": 230,
+  "vital_level": 3,
+  "battle": false,
+  "point": null,
+  "summary": "A global conflict between two coalitions: the Allies and the Central Powers.",
+  "result": "Allied Powers victory",
+  "sides": [
+    {
+      "combatants": [
+        "Allies of the First World War",
+        "French colonial empire",
+        "French Algeria",
+        "French West Africa",
+        "French protectorate of Tunisia",
+        "British Empire",
+        "Russian Republic",
+        "Bolsheviks",
+        "armistice between Russia and the Central Powers",
+        "Treaty of Brest-Litovsk",
+        "October Revolution",
+        "French Third Republic",
+        "United Kingdom of Great Britain and Ireland",
+        "Commonwealth of Australia",
+        "Canada in World War I",
+        "British Ceylon",
+        "Sultanate of Egypt",
+        "Newfoundland and Labrador",
+        "Dominion of New Zealand",
+        "British Raj",
+        "Union of South Africa",
+        "Russian Empire",
+        "Kingdom of Italy",
+        "United States of America",
+        "Empire of Japan",
+        "France"
+      ],
+      "civilizations": [
+        "Q129286",
+        "Q13426199",
+        "Q139319",
+        "Q172579",
+        "Q174193",
+        "Q179023",
+        "Q188712",
+        "Q203493",
+        "Q209065",
+        "Q218272",
+        "Q30",
+        "Q34266",
+        "Q408",
+        "Q70802",
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Central Powers",
+        "German Empire",
+        "Austria-Hungary",
+        "Ottoman Empire",
+        "Kingdom of Bulgaria"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q28513",
+        "Q43287"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

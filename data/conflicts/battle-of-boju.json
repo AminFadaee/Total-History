@@ -9,6 +9,30 @@
     -506
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "The decisive battle of the war fought in 506 BC between Wu and Chu, two major kingdoms during the Spring and Autumn period of ancient China.",
+  "result": "Wu victory",
+  "sides": [
+    {
+      "combatants": [
+        "Wu",
+        "Cai"
+      ],
+      "civilizations": [
+        "Q912068"
+      ]
+    },
+    {
+      "combatants": [
+        "Chu"
+      ],
+      "civilizations": [
+        "Q504759"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

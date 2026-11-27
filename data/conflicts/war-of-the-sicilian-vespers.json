@@ -9,6 +9,36 @@
     1302
   ],
   "editions": 17,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict waged by several medieval European kingdoms over control of Sicily from 1282 to 1302.",
+  "result": "Division of the pre-war Kingdom of Sicily into Trinacria and Angevin Kingdom of Naples",
+  "sides": [
+    {
+      "combatants": [
+        "Crown of Aragon",
+        "Kingdom of Sicily"
+      ],
+      "civilizations": [
+        "Q188586",
+        "Q204920"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Naples",
+        "Kingdom of France",
+        "Kingdom of Majorca",
+        "Kingdom of Navarre"
+      ],
+      "civilizations": [
+        "Q173065",
+        "Q200262",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

@@ -9,6 +9,50 @@
     1949
   ],
   "editions": 49,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Second and final stage of the 1948 Palestine war.",
+  "result": "Egyptian occupation of the Gaza Strip",
+  "sides": [
+    {
+      "combatants": [
+        "Haganah",
+        "Palmach",
+        "Hish",
+        "Guard Corps",
+        "Irgun",
+        "Lehi",
+        "Druze Faith",
+        "Bedoui",
+        "Israel Defense Forces",
+        "Sword Battalion",
+        "Mahal",
+        "Israel"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "All-Palestine Protectorate",
+        "Army of the Holy War",
+        "Arab Liberation Army",
+        "al-Najjada",
+        "Muslim Brotherhood",
+        "Arab League",
+        "Kingdom of Egypt",
+        "Transjordan",
+        "Kingdom of Iraq",
+        "First Syrian Republic",
+        "Lebanon",
+        "Saudi Arabia",
+        "Kingdom of Yemen"
+      ],
+      "civilizations": [
+        "Q124943"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

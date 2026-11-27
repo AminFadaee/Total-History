@@ -9,6 +9,29 @@
     1665
   ],
   "editions": 11,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "1665 battle during the Portuguese colonisation of the Kingdom of Kongo.",
+  "result": "Portuguese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Kongo"
+      ],
+      "civilizations": [
+        "Q796583"
+      ]
+    },
+    {
+      "combatants": [
+        "Portuguese Republic"
+      ],
+      "civilizations": [
+        "Q45"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

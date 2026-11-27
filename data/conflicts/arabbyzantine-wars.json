@@ -9,6 +9,57 @@
     1059
   ],
   "editions": 52,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of wars from the 7th to 11th centuries between the successive Islamic caliphates and the Byzantine Empire.",
+  "result": "Both states had numerous territorial changes.",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire",
+        "First Bulgarian Empire",
+        "Mardaites",
+        "Kingdom of Italy",
+        "Italian city-state"
+      ],
+      "civilizations": [
+        "Q203817",
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Muslim",
+        "first Islamic state",
+        "Rashidun Caliphate",
+        "Umayyad Caliphate",
+        "Sunni Islam",
+        "Abbasid Caliphate",
+        "Aghlabid Dynasty",
+        "Emirate of Bari",
+        "Emirate of Crete",
+        "Zirid Dynasty",
+        "Shia Islam",
+        "Fatimid Caliphate",
+        "Hamdanid Emirates",
+        "Mirdasid dynasty",
+        "Emirate of Sicily",
+        "Numayrid dynasty",
+        "Uqaylid dynasty",
+        "Banu Munqidh"
+      ],
+      "civilizations": [
+        "Q12490507",
+        "Q1250763",
+        "Q12536",
+        "Q160307",
+        "Q207600",
+        "Q837187",
+        "Q8575586"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

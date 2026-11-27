@@ -9,6 +9,36 @@
     1923
   ],
   "editions": 64,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    11.592,
+    48.1304
+  ],
+  "summary": "A failed coup d'état led by Nazi Party leader Adolf Hitler, General Erich Ludendorff, and other Kampfbund leaders in Munich, Bavaria, on 8–9 November 1923, during the Weimar Republic.",
+  "result": "German government victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kampfbund",
+        "Nazi Party",
+        "Sturmabteilung",
+        "Stoßtrupp Adolf Hitler",
+        "Bund Reichskriegsflagge",
+        "Freikorps Oberland"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Bavarian Police",
+        "Weimar Republic"
+      ],
+      "civilizations": [
+        "Q41304"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

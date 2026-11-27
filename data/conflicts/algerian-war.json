@@ -9,6 +9,38 @@
     1962
   ],
   "editions": 70,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict between France and the Algerian National Liberation Front from 1954 to 1962, which led to Algeria winning its independence from France.",
+  "result": "Algerian victory",
+  "sides": [
+    {
+      "combatants": [
+        "National Liberation Front",
+        "National Liberation Army",
+        "Algerian People's National Armed Forces",
+        "Algerian National Movement",
+        "Algerian Communist Party"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "French Fourth Republic",
+        "French Fifth Republic",
+        "French Armed Forces",
+        "Algerians",
+        "Harki",
+        "Service de Documentation Extérieure et de Contre-Espionnage",
+        "La Main Rouge",
+        "Front Algérie Française",
+        "Secret Army Organization",
+        "France"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

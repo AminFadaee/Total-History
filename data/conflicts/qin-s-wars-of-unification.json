@@ -9,6 +9,37 @@
     -221
   ],
   "editions": 20,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military campaigns launched in the late 3rd century BC by the state of Qin against the other six states remaining in China – Han, Zhao, Yan, Wei, Chu and Qi.",
+  "result": "Qin victory",
+  "sides": [
+    {
+      "combatants": [
+        "Qin"
+      ],
+      "civilizations": [
+        "Q34756"
+      ]
+    },
+    {
+      "combatants": [
+        "Han",
+        "Zhao",
+        "Dai",
+        "Yan",
+        "Wei",
+        "Chu",
+        "Qi"
+      ],
+      "civilizations": [
+        "Q504759",
+        "Q837855",
+        "Q912052"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

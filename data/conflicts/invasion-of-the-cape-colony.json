@@ -9,6 +9,27 @@
     1795
   ],
   "editions": 11,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "A British military expedition launched in 1795 against the Dutch Cape Colony at the Cape of Good Hope.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Great Britain"
+      ],
+      "civilizations": [
+        "Q161885"
+      ]
+    },
+    {
+      "combatants": [
+        "Dutch East India Company"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

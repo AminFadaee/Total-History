@@ -9,6 +9,32 @@
     1393
   ],
   "editions": 18,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the kingdoms remaining from the disintegrating Second Bulgarian Empire, and the Ottoman Empire, in the second half of the 14th century.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Second Bulgarian Empire",
+        "Tsardom of Vidin",
+        "Despotate of Dobruja",
+        "Despotate of Lovech"
+      ],
+      "civilizations": [
+        "Q420759"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

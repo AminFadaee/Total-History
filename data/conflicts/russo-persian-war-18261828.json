@@ -9,6 +9,29 @@
     1828
   ],
   "editions": 40,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The last major military conflict between the Russian Empire and Qajar Iran, which was fought over territorial disputes in the South Caucasus region.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Qajar Dynasty"
+      ],
+      "civilizations": [
+        "Q63158027"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

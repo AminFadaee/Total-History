@@ -9,6 +9,36 @@
     1258
   ],
   "editions": 11,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Several Mongol campaigns against Muslim states in the Middle East and Central Asia between 1219 and 1258.",
+  "result": "Mongol victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mongol Empire",
+        "Ilkhanate",
+        "Golden Horde"
+      ],
+      "civilizations": [
+        "Q12557",
+        "Q178084",
+        "Q79965"
+      ]
+    },
+    {
+      "combatants": [
+        "Khwarezmid Empire",
+        "Abbasid Caliphate",
+        "Nizari Ismaili state"
+      ],
+      "civilizations": [
+        "Q12536",
+        "Q63134381"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

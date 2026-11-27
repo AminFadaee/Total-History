@@ -9,6 +9,29 @@
     1776
   ],
   "editions": 7,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A major military conflict between the Konbaung dynasty of Burma and the Thonburi Kingdom of Siam.",
+  "result": "Siamese victory; depopulation of Northern Cities and destruction of Phitsanulok",
+  "sides": [
+    {
+      "combatants": [
+        "Konbaung Dynasty"
+      ],
+      "civilizations": [
+        "Q1062422"
+      ]
+    },
+    {
+      "combatants": [
+        "Thonburi Kingdom"
+      ],
+      "civilizations": [
+        "Q1115291"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

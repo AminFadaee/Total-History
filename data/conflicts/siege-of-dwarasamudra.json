@@ -9,6 +9,36 @@
     1311
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    75.99166666666666,
+    13.216944444444444
+  ],
+  "summary": "Siege of Hoysala Empire by Delhi Sultanate.",
+  "result": "Delhi Sultanate victory",
+  "sides": [
+    {
+      "combatants": [
+        "Delhi Sultanate"
+      ],
+      "civilizations": [
+        "Q229411"
+      ]
+    },
+    {
+      "combatants": [
+        "Hoysala Kingdom"
+      ],
+      "civilizations": [
+        "Q466581"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

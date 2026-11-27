@@ -9,6 +9,34 @@
     406
   ],
   "editions": 21,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Mixed group of barbarians invading Gaul (406).",
+  "result": "Decisive Barbarian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Vandals",
+        "Hasdingi",
+        "Silingi",
+        "Alans",
+        "Suebi"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Western Roman Empire",
+        "Franks",
+        "foederati",
+        "Limitanei"
+      ],
+      "civilizations": [
+        "Q42834"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

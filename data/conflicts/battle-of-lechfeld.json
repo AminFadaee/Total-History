@@ -9,6 +9,38 @@
     955
   ],
   "editions": 39,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    10.92,
+    48.35
+  ],
+  "summary": "A series of military engagements over the course of three days from 10 to 12 August 955 in which the Kingdom of Germany, led by King Otto I the Great, defeated the Hungarian army led by Harka Bulcsú and the chieftains Lél and Súr.",
+  "result": "German victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Germany",
+        "Duchy of Saxony",
+        "Duchy of Thuringia",
+        "Duchy of Bavaria",
+        "Duchy of Swabia",
+        "Duchy of Bohemia"
+      ],
+      "civilizations": [
+        "Q175211",
+        "Q47261"
+      ]
+    },
+    {
+      "combatants": [
+        "Principality of Hungary"
+      ],
+      "civilizations": [
+        "Q2899771"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -34,5 +66,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-lechfeld.png",
+  "map_asked": true
 }

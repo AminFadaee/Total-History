@@ -9,6 +9,31 @@
     1066
   ],
   "editions": 54,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    -0.9125,
+    53.9925
+  ],
+  "summary": "1066 battle in England.",
+  "result": "English victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q179876"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Norway",
+        "Norwegian Jarldom of Orkney"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

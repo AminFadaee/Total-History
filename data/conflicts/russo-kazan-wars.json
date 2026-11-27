@@ -9,6 +9,31 @@
     1552
   ],
   "editions": 13,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of short, intermittent wars fought between the Grand Principality of Moscow and the Khanate of Kazan between 1437 and 1556.",
+  "result": "Khanate of Kazan conquered by the Tsardom of Russia",
+  "sides": [
+    {
+      "combatants": [
+        "Grand Principality of Moscow",
+        "Tsardom of Russia"
+      ],
+      "civilizations": [
+        "Q170770",
+        "Q186096"
+      ]
+    },
+    {
+      "combatants": [
+        "Khanate of Kazan"
+      ],
+      "civilizations": [
+        "Q186537"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

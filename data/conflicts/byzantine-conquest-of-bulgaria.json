@@ -9,6 +9,37 @@
     1018
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Invasion of the First Bulgarian Empire (968–1018).",
+  "result": "Byzantine victory",
+  "sides": [
+    {
+      "combatants": [
+        "First Bulgarian Empire",
+        "Kievan Rus'",
+        "Pechenegs"
+      ],
+      "civilizations": [
+        "Q203817"
+      ]
+    },
+    {
+      "combatants": [
+        "Roman Empire",
+        "Kievan Rus'",
+        "Kingdom of Hungary",
+        "Duklja",
+        "Kingdom of Croatia"
+      ],
+      "civilizations": [
+        "Q171150",
+        "Q2277",
+        "Q858841"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

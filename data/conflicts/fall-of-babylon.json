@@ -9,6 +9,32 @@
     -539
   ],
   "editions": 21,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    44.42111111111111,
+    32.5425
+  ],
+  "summary": "Conquest of the Neo-Babylonian Empire by the Achaemenid Empire.",
+  "result": "Achaemenid victory",
+  "sides": [
+    {
+      "combatants": [
+        "Achaemenid Empire"
+      ],
+      "civilizations": [
+        "Q389688"
+      ]
+    },
+    {
+      "combatants": [
+        "Neo-Babylonian Empire"
+      ],
+      "civilizations": [
+        "Q624887"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/fall-of-babylon.png",
+  "map_asked": true
 }

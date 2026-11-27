@@ -9,6 +9,36 @@
     1862
   ],
   "editions": 18,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military operations between 1858 and 1862, launched by a joint naval expedition force on behalf of the French Empire and the Kingdom of Spain against the Nguyễn period Vietnamese state.",
+  "result": "Cochinchina becomes a French colony",
+  "sides": [
+    {
+      "combatants": [
+        "Second French Empire",
+        "Spain from 1808 to 1874",
+        "Spanish East Indies",
+        "Bombardment of Qui Nhon",
+        "Kingdom of Spain",
+        "United States of America"
+      ],
+      "civilizations": [
+        "Q29",
+        "Q30",
+        "Q71092"
+      ]
+    },
+    {
+      "combatants": [
+        "Nguyễn dynasty"
+      ],
+      "civilizations": [
+        "Q6500483"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

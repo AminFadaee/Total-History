@@ -9,6 +9,49 @@
     1453
   ],
   "editions": 125,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts between the kingdoms of England and France, and a civil war in France during the late Middle Ages.",
+  "result": "French and allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of France",
+        "House of Valois",
+        "Burgundian State",
+        "Duchy of Brittany",
+        "Crown of Castile",
+        "Kingdom of Bohemia",
+        "Kingdom of Scotland",
+        "Glyndŵr Rebellion",
+        "Crown of Aragon"
+      ],
+      "civilizations": [
+        "Q204920",
+        "Q217196",
+        "Q230791",
+        "Q42585"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of England",
+        "Kingdom of France",
+        "House of Plantagenet",
+        "Burgundian State",
+        "Duchy of Brittany",
+        "Kingdom of Portugal",
+        "Kingdom of Navarre",
+        "Duchy of Gascony"
+      ],
+      "civilizations": [
+        "Q179876",
+        "Q200262",
+        "Q45670"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

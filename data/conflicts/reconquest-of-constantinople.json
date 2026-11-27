@@ -9,6 +9,34 @@
     1261
   ],
   "editions": 24,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    28.97694444,
+    41.01666667
+  ],
+  "summary": "Recaptured in 1261 from the Latin Empire by Nicaean forces led by the general Alexios Strategopoulos.",
+  "result": "Nicaean victory",
+  "sides": [
+    {
+      "combatants": [
+        "Nicaean Empire"
+      ],
+      "civilizations": [
+        "Q181254"
+      ]
+    },
+    {
+      "combatants": [
+        "Latin Empire",
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q178897",
+        "Q4948"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {
@@ -28,5 +56,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/reconquest-of-constantinople.png",
+  "map_asked": true
 }

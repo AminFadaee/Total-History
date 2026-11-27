@@ -9,6 +9,50 @@
     451
   ],
   "editions": 58,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    4.5,
+    49
+  ],
+  "summary": "Part of the Hunnic invasion of the Roman province of Gaul.",
+  "result": "Inconclusive",
+  "sides": [
+    {
+      "combatants": [
+        "Western Roman Empire",
+        "Visigothic Kingdom",
+        "Salian Franks",
+        "Ripuarian Franks",
+        "Kingdom of the Burgundians",
+        "Saxons",
+        "Armorica",
+        "Alans",
+        "Olibrones"
+      ],
+      "civilizations": [
+        "Q101985",
+        "Q126936",
+        "Q42834"
+      ]
+    },
+    {
+      "combatants": [
+        "Hunnic Empire",
+        "Amali dynasty",
+        "Rugii",
+        "Sciri",
+        "Thuringi",
+        "Franks",
+        "Gepids",
+        "Kingdom of the Burgundians",
+        "Heruli"
+      ],
+      "civilizations": [
+        "Q45813"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -36,5 +80,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-the-catalaunian-plains.png",
+  "map_asked": true
 }

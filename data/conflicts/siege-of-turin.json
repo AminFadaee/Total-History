@@ -9,6 +9,42 @@
     1706
   ],
   "editions": 24,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    7.674166666666666,
+    45.07111111111111
+  ],
+  "summary": "1706 battle of the War of the Spanish Succession.",
+  "result": "Grand Alliance victory",
+  "sides": [
+    {
+      "combatants": [
+        "Habsburg Monarchy",
+        "Holy Roman Empire",
+        "Duchy of Savoy",
+        "Prussia",
+        "Austrian Empire"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q131964",
+        "Q153136",
+        "Q38872",
+        "Q426025"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of France",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q29",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +57,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/siege-of-turin.png",
+  "map_asked": true
 }

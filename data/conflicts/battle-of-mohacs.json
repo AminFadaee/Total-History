@@ -9,6 +9,32 @@
     1526
   ],
   "editions": 65,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    18.647222222222,
+    45.941388888889
+  ],
+  "summary": "1526 battle of the Ottoman–Hungarian Wars.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Hungary"
+      ],
+      "civilizations": [
+        "Q171150"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-mohacs.png",
+  "map_asked": true
 }

@@ -9,6 +9,41 @@
     1815
   ],
   "editions": 86,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict initiated by the United States against the United Kingdom and its allies fought mainly in North America and at sea during the wider Napoleonic Wars.",
+  "result": "Inconclusive",
+  "sides": [
+    {
+      "combatants": [
+        "Cherokee",
+        "Chickasaw",
+        "Choctaw",
+        "Lower Creek",
+        "Tuscarora Nation",
+        "United States of America"
+      ],
+      "civilizations": [
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "Tecumseh's Confederacy",
+        "Red Sticks",
+        "Menominee",
+        "Six Nations of the Grand River 40",
+        "Spanish West Florida",
+        "United Kingdom of Great Britain and Ireland",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q29"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

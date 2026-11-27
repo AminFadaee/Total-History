@@ -9,6 +9,63 @@
     1606
   ],
   "editions": 36,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An indecisive land war between the Holy Roman Empire and the Ottoman Empire, primarily over the principalities of Wallachia, Transylvania, and Moldavia.",
+  "result": "Inconclusive",
+  "sides": [
+    {
+      "combatants": [
+        "Holy Roman Empire",
+        "Habsburg Monarchy",
+        "Electorate of Saxony",
+        "Duchy of Mantua",
+        "Savoyard state",
+        "Grand Duchy of Tuscany",
+        "Southern Netherlands",
+        "Kingdom of Hungary",
+        "Kingdom of Croatia",
+        "Principality of Transylvania",
+        "Habsburg Spain",
+        "Zaporozhian Cossacks",
+        "Uprising in Banat",
+        "Duchy of Ferrara",
+        "Polish-Lithuanian Commonwealth",
+        "Principality of Wallachia",
+        "Principality of Moldavia",
+        "Papal States",
+        "Mantua",
+        "Duchy of Savoy",
+        "Spanish Empire"
+      ],
+      "civilizations": [
+        "Q10957559",
+        "Q12548",
+        "Q153136",
+        "Q154849",
+        "Q156199",
+        "Q170174",
+        "Q171393",
+        "Q172107",
+        "Q426025",
+        "Q80702"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Crimean Khanate",
+        "Nogai Horde",
+        "hajduk"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q160440",
+        "Q631210"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

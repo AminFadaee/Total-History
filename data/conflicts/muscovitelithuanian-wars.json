@@ -9,6 +9,39 @@
     1583
   ],
   "editions": 30,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of wars between the Grand Duchy of Lithuania and the Grand Duchy of Moscow, which was later unified with other Russian principalities to eventually become the Tsardom of Russia.",
+  "result": "",
+  "sides": [
+    {
+      "combatants": [
+        "Grand Duchy of Lithuania",
+        "Golden Horde",
+        "Kingdom of Poland",
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "civilizations": [
+        "Q172107",
+        "Q49683",
+        "Q79965",
+        "Q8890160"
+      ]
+    },
+    {
+      "combatants": [
+        "Novgorod Republic",
+        "Grand Principality of Moscow",
+        "Tsardom of Russia"
+      ],
+      "civilizations": [
+        "Q151536",
+        "Q170770",
+        "Q186096"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

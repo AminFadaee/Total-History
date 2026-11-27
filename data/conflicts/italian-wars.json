@@ -9,6 +9,66 @@
     1559
   ],
   "editions": 49,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts fought between 1494 and 1559 in the Italian Peninsula, with subsidiary theatres in Flanders, the Rhineland and Mediterranean Sea.",
+  "result": "Peace of Cateau-Cambrésis",
+  "sides": [
+    {
+      "combatants": [
+        "Duke of Romagna",
+        "Ottoman Empire",
+        "Kingdom of France",
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Catholic Monarchs",
+        "Kingdom of Sardinia",
+        "Spanish Netherlands",
+        "State of Presidi",
+        "Habsburg Austria",
+        "Spanish Empire",
+        "Kingdom of Sicily",
+        "Kingdom of Naples",
+        "Duchy of Milan",
+        "Holy Roman Empire",
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q80702"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Sardinia",
+        "Kingdom of Naples",
+        "Kingdom of Sicily",
+        "Monarchy of Spain",
+        "Republic of Venice",
+        "Duchy of Milan",
+        "Republic of Florence",
+        "Republic of Pisa",
+        "Papal States",
+        "Duchy of Ferrara",
+        "Republic of Genoa"
+      ],
+      "civilizations": [
+        "Q1365493",
+        "Q148540",
+        "Q170174",
+        "Q174306",
+        "Q4948"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

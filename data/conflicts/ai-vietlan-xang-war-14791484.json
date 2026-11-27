@@ -9,6 +9,33 @@
     1480
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military conflict precipitated by the invasion of the Lao kingdom of Lan Xang by the Vietnamese Đại Việt Empire.",
+  "result": "Lan Xang, Lan Na defensive victory",
+  "sides": [
+    {
+      "combatants": [
+        "Đại Việt"
+      ],
+      "civilizations": [
+        "Q430309"
+      ]
+    },
+    {
+      "combatants": [
+        "Lan Xang",
+        "Lanna Kingdom",
+        "Muang Phuan",
+        "Shan States"
+      ],
+      "civilizations": [
+        "Q1059707",
+        "Q853477"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

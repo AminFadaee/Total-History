@@ -9,6 +9,34 @@
     1917
   ],
   "editions": 30,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    2.773888888888889,
+    50.379444444444445
+  ],
+  "summary": "Part of the Battle of Arras, in the Pas-de-Calais department of France, during the First World War.",
+  "result": "British Empire victory",
+  "sides": [
+    {
+      "combatants": [
+        "Canada",
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q16",
+        "Q174193"
+      ]
+    },
+    {
+      "combatants": [
+        "German Empire"
+      ],
+      "civilizations": [
+        "Q43287"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

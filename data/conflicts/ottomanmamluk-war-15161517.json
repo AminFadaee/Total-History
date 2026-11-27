@@ -9,6 +9,29 @@
     1517
   ],
   "editions": 27,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The second major conflict between the Egypt-based Mamluk Sultanate and the Ottoman Empire, which led to the Fall of the Mamluk Sultanate and the incorporation of the Levant, Egypt, and the Hejaz as provinces of the Ottoman Empire.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    },
+    {
+      "combatants": [
+        "Mamluk Sultanate"
+      ],
+      "civilizations": [
+        "Q282428"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

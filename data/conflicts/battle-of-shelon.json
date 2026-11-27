@@ -9,6 +9,32 @@
     1471
   ],
   "editions": 21,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    30.76666667,
+    58.2
+  ],
+  "summary": "A decisive battle between the forces of the Grand Principality of Moscow under Ivan III and the Novgorod Republic, which took place on the Shelon River on 14 July 1471.",
+  "result": "Muscovite victory",
+  "sides": [
+    {
+      "combatants": [
+        "Novgorod Republic"
+      ],
+      "civilizations": [
+        "Q151536"
+      ]
+    },
+    {
+      "combatants": [
+        "Grand Principality of Moscow"
+      ],
+      "civilizations": [
+        "Q170770"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-shelon.png",
+  "map_asked": true
 }

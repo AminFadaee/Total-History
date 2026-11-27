@@ -9,6 +9,29 @@
     -146
   ],
   "editions": 84,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of wars fought between the Roman Republic and the Carthaginian Empire during the period 264 to 146 BC.",
+  "result": "Roman conquest of all Carthaginian territories",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic"
+      ],
+      "civilizations": [
+        "Q17167"
+      ]
+    },
+    {
+      "combatants": [
+        "Carthage"
+      ],
+      "civilizations": [
+        "Q2429397"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

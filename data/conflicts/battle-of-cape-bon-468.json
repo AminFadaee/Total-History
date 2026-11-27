@@ -9,6 +9,31 @@
     468
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "An engagement during a joint military expedition of the Western and Eastern Roman Empires led by Basiliscus against the Vandal capital of Carthage in 468.",
+  "result": "Vandal and Alan victory",
+  "sides": [
+    {
+      "combatants": [
+        "Vandal Kingdom"
+      ],
+      "civilizations": [
+        "Q10416611"
+      ]
+    },
+    {
+      "combatants": [
+        "Western Roman Empire",
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277",
+        "Q42834"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

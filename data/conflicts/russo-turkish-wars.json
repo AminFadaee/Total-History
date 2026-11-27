@@ -9,6 +9,37 @@
     1918
   ],
   "editions": 49,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Series of conflicts between 1568 and 1918.",
+  "result": "Ottomans permanently lose Crimea, most of Bessarabia and parts of modern Ukraine, and most of the Caucasus",
+  "sides": [
+    {
+      "combatants": [
+        "Tsardom of Russia",
+        "Russian Empire",
+        "Russian Republic",
+        "Russian Soviet Federative Socialist Republic"
+      ],
+      "civilizations": [
+        "Q139319",
+        "Q186096",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Crimean Khanate",
+        "Khedivate of Egypt"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q160440"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,32 @@
     221
   ],
   "editions": 16,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    111.28694444444444,
+    30.691944444444445
+  ],
+  "summary": "Fought between the Shu Han and Eastern Wu dynasties, in the years 221 and 222 during the early Three Kingdoms period of China.",
+  "result": "Eastern Wu victory",
+  "sides": [
+    {
+      "combatants": [
+        "Eastern Wu"
+      ],
+      "civilizations": [
+        "Q274488"
+      ]
+    },
+    {
+      "combatants": [
+        "Shu Han"
+      ],
+      "civilizations": [
+        "Q320925"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

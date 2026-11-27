@@ -9,6 +9,27 @@
     1922
   ],
   "editions": 55,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between Greece and the Turkish National Movement during the partitioning of the Ottoman Empire in the aftermath of World War I, between 15 May 1919 and 14 October 1922.",
+  "result": "Lands initially ceded to the Kingdom of Greece from the Ottoman Empire are incorporated into the Republic of Turkey.",
+  "sides": [
+    {
+      "combatants": [
+        "Turkish National Movement"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Kingdom of Greece"
+      ],
+      "civilizations": [
+        "Q209065"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

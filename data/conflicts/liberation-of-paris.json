@@ -9,6 +9,39 @@
     1944
   ],
   "editions": 47,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    2.29642,
+    48.8735
+  ],
+  "summary": "A battle that took place during World War II from 19 August 1944 until the German garrison surrendered the French capital on 25 August 1944.",
+  "result": "Free French and allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "Free French",
+        "Provisional Government of the French Republic",
+        "United States of America",
+        "United Kingdom"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q152582",
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "Vichy France",
+        "Nazi Germany"
+      ],
+      "civilizations": [
+        "Q69808",
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

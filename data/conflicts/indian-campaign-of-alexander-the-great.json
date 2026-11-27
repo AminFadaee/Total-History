@@ -9,6 +9,33 @@
     -325
   ],
   "editions": 17,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Ancient Greek military campaign in the northwestern Indian subcontinent.",
+  "result": "Macedonian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Macedonia",
+        "Gandhāra"
+      ],
+      "civilizations": [
+        "Q83958"
+      ]
+    },
+    {
+      "combatants": [
+        "Aśvakas",
+        "Cophen Campaign",
+        "Pauravas",
+        "Malli",
+        "Mallian Campaign",
+        "Agalassoi"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

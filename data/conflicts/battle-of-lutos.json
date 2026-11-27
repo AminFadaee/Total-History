@@ -9,6 +9,32 @@
     794
   ],
   "editions": 17,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -6.41667,
+    43.3333
+  ],
+  "summary": "",
+  "result": "Christian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Asturias"
+      ],
+      "civilizations": [
+        "Q231392"
+      ]
+    },
+    {
+      "combatants": [
+        "Emirate of Córdoba"
+      ],
+      "civilizations": [
+        "Q1337854"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-lutos.png",
+  "map_asked": true
 }

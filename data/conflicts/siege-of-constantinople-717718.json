@@ -9,6 +9,34 @@
     718
   ],
   "editions": 45,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    28.975,
+    41.0125
+  ],
+  "summary": "Besieged by the Muslim Arabs of the Umayyad Caliphate.",
+  "result": "Byzantine–Bulgarian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Umayyad Caliphate"
+      ],
+      "civilizations": [
+        "Q8575586"
+      ]
+    },
+    {
+      "combatants": [
+        "Roman Empire",
+        "First Bulgarian Empire"
+      ],
+      "civilizations": [
+        "Q203817",
+        "Q2277"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,30 @@
     -478
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    120.953,
+    30.8997
+  ],
+  "summary": "Fought between the states of Wu and Yue in the Spring and Autumn period of Chinese history.",
+  "result": "Yue victory",
+  "sides": [
+    {
+      "combatants": [
+        "Wu"
+      ],
+      "civilizations": [
+        "Q912068"
+      ]
+    },
+    {
+      "combatants": [
+        "Yue"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "ending": [
       {

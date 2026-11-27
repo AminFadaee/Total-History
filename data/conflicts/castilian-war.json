@@ -9,6 +9,32 @@
     1578
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between the Spanish Empire and several Muslim states in Southeast Asia, including the Sultanates of Brunei, Sulu, and Maguindanao.",
+  "result": "Status quo ante bellum",
+  "sides": [
+    {
+      "combatants": [
+        "Brunei",
+        "Sultanate of Sulu",
+        "Sultanate of Maguindanao"
+      ],
+      "civilizations": [
+        "Q422065"
+      ]
+    },
+    {
+      "combatants": [
+        "Captaincy General of the Philippines",
+        "Spanish Empire"
+      ],
+      "civilizations": [
+        "Q80702"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

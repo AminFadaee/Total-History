@@ -9,6 +9,39 @@
     1805
   ],
   "editions": 26,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A large conflict within the Maratha Empire involving the East India Company.",
+  "result": "British-Peshwa victory",
+  "sides": [
+    {
+      "combatants": [
+        "United Kingdom of Great Britain and Ireland",
+        "East India Company",
+        "Bhat family",
+        "Baroda State",
+        "Nizam of Hyderabad",
+        "Mughal Empire",
+        "Kota State",
+        "Maratha Empire"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q33296"
+      ]
+    },
+    {
+      "combatants": [
+        "Gwalior State",
+        "Nagpur kingdom",
+        "Indore State",
+        "Bharatpur State",
+        "Maratha Empire"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

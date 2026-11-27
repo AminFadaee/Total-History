@@ -9,6 +9,40 @@
     1195
   ],
   "editions": 26,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -4,
+    38.95277778
+  ],
+  "summary": "Fought between the Almohads led by Abu Yusuf Ya'qub al-Mansur and King Alfonso VIII of Castile.",
+  "result": "Almohad victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Castile",
+        "Order of Santiago",
+        "Order of Aviz",
+        "Kingdom of Navarre",
+        "Kingdom of León",
+        "Kingdom of Aragon"
+      ],
+      "civilizations": [
+        "Q175276",
+        "Q199442",
+        "Q200262"
+      ]
+    },
+    {
+      "combatants": [
+        "Almohad Caliphate",
+        "Kingdom of Castile"
+      ],
+      "civilizations": [
+        "Q199688"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -20,5 +54,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-alarcos.png",
+  "map_asked": true
 }

@@ -9,6 +9,33 @@
     476
   ],
   "editions": 9,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    12.2,
+    44.41666667
+  ],
+  "summary": "Germanic seizure of the Western Roman Empire's capital.",
+  "result": "Germanic victory",
+  "sides": [
+    {
+      "combatants": [
+        "Germanic people",
+        "Heruli",
+        "Sciri",
+        "Turcilingi"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Western Roman Empire"
+      ],
+      "civilizations": [
+        "Q42834"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

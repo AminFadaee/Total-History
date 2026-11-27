@@ -9,6 +9,43 @@
     1763
   ],
   "editions": 33,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military conflicts in the middle of the 18th century in India's coastal Carnatic region, a dependency of Hyderabad State, India.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mughal Empire",
+        "Carnatic state",
+        "Bengal Subah",
+        "Hyderabad State"
+      ],
+      "civilizations": [
+        "Q1240096",
+        "Q33296"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of France",
+        "India Company"
+      ],
+      "civilizations": [
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Great Britain",
+        "East India Company"
+      ],
+      "civilizations": [
+        "Q161885"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

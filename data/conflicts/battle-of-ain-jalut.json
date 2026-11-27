@@ -9,6 +9,36 @@
     1260
   ],
   "editions": 50,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    35.357,
+    32.55
+  ],
+  "summary": "Fought between the Bahri Mamluks of Egypt and the Ilkhanate on 3 September 1260 near the spring of Ain Jalut in southeastern Galilee in the Jezreel Valley.",
+  "result": "Mamluk victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mamluk Sultanate"
+      ],
+      "civilizations": [
+        "Q282428"
+      ]
+    },
+    {
+      "combatants": [
+        "Ilkhanate",
+        "Armenian Kingdom of Cilicia",
+        "Kingdom of Georgia"
+      ],
+      "civilizations": [
+        "Q154667",
+        "Q178084",
+        "Q335088"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +51,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-ain-jalut.png",
+  "map_asked": true
 }

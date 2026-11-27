@@ -9,6 +9,33 @@
     -201
   ],
   "editions": 74,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The second in a series of three wars fought between Carthage and the Roman Republic, who were at the time the two main powers in the western Mediterranean.",
+  "result": "Roman conquest of Carthaginian Iberia",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic",
+        "Massalia",
+        "Maesulians"
+      ],
+      "civilizations": [
+        "Q17167"
+      ]
+    },
+    {
+      "combatants": [
+        "Carthage",
+        "Syracuse",
+        "Masaesyli"
+      ],
+      "civilizations": [
+        "Q2429397"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,30 @@
     -1046
   ],
   "editions": 25,
+  "vital_level": 5,
+  "battle": true,
+  "point": null,
+  "summary": "Fought between forces of the ancient Chinese Shang dynasty led by Di Xin and the rebel state of Zhou led by King Wu.",
+  "result": "Zhou victory",
+  "sides": [
+    {
+      "combatants": [
+        "Shang Dynasty"
+      ],
+      "civilizations": [
+        "Q128938"
+      ]
+    },
+    {
+      "combatants": [
+        "Predynastic Zhou",
+        "Shu",
+        "Qiang",
+        "Dapeng"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "ending": [
       {

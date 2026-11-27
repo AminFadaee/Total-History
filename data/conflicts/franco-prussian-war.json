@@ -9,6 +9,43 @@
     1871
   ],
   "editions": 90,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between France and the North German Confederation led by Prussia.",
+  "result": "German annexation of Alsace–Lorraine",
+  "sides": [
+    {
+      "combatants": [
+        "Redshirts",
+        "Second French Empire",
+        "French Third Republic"
+      ],
+      "civilizations": [
+        "Q70802",
+        "Q71092"
+      ]
+    },
+    {
+      "combatants": [
+        "unification of Germany",
+        "Grand Duchy of Hesse",
+        "North German Confederation",
+        "Kingdom of Prussia",
+        "Kingdom of Saxony",
+        "Kingdom of Bavaria",
+        "Kingdom of Württemberg",
+        "Baden",
+        "German Empire"
+      ],
+      "civilizations": [
+        "Q150981",
+        "Q153015",
+        "Q154195",
+        "Q43287"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

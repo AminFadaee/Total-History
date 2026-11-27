@@ -9,6 +9,40 @@
     1942
   ],
   "editions": 51,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    -2.029,
+    35.085
+  ],
+  "summary": "An Allied invasion of French North Africa during World War II.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "United States of America",
+        "United Kingdom"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "French Algeria",
+        "Vichy France",
+        "French protectorate in Morocco",
+        "Nazi Germany",
+        "Fascist Italy"
+      ],
+      "civilizations": [
+        "Q218272",
+        "Q69808",
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,32 @@
     -1274
   ],
   "editions": 57,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    36.498028,
+    34.555487
+  ],
+  "summary": "A major military conflict in the early 13th century BC, between the attacking Ramesses II of the Egyptian Empire and defending Muwatalli II of the Hittite Empire.",
+  "result": "Inconclusive",
+  "sides": [
+    {
+      "combatants": [
+        "New Kingdom of Egypt"
+      ],
+      "civilizations": [
+        "Q180568"
+      ]
+    },
+    {
+      "combatants": [
+        "Hittites"
+      ],
+      "civilizations": [
+        "Q5406"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -29,5 +55,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-kadesh.png",
+  "map_asked": true
 }

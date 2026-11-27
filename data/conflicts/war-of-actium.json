@@ -9,6 +9,28 @@
     -30
   ],
   "editions": 27,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The last civil war of the Roman Republic, fought between Mark Antony and Octavian.",
+  "result": "Rome annexes Egypt and control over eastern provinces reasserted",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Roman Republic",
+        "Ptolemaic Kingdom"
+      ],
+      "civilizations": [
+        "Q2320005"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

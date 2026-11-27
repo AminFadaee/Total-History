@@ -9,6 +9,43 @@
     1291
   ],
   "editions": 35,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    35.08333333,
+    32.93333333
+  ],
+  "summary": "Part of the Crusades.",
+  "result": "Mamluk victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mamluk Sultanate",
+        "Ayyubid Sultanate",
+        "لیستی فەرمانڕەوای ئەیووبیەکام",
+        "Hama"
+      ],
+      "civilizations": [
+        "Q180114",
+        "Q282428"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Jerusalem",
+        "personal union",
+        "Kingdom of Cyprus",
+        "Knights Templar",
+        "Knights Hospitaller",
+        "Teutonic Order",
+        "Knights of Saint Thomas",
+        "Order of Saint Lazarus"
+      ],
+      "civilizations": [
+        "Q55502"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {
@@ -21,5 +58,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/siege-of-acre-1291.png",
+  "map_asked": true
 }

@@ -9,6 +9,39 @@
     null
   ],
   "editions": 34,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A coalition of Scandinavian warriors mainly originating in Denmark who invaded England in AD 865.",
+  "result": "Treaty of Alfred and Guthrum",
+  "sides": [
+    {
+      "combatants": [
+        "Viking settlements",
+        "Danes",
+        "Kingdom of Norway",
+        "Swedes"
+      ],
+      "civilizations": [
+        "Q12567"
+      ]
+    },
+    {
+      "combatants": [
+        "Anglo-Saxon England",
+        "Heptarchy",
+        "Kingdom of Wessex",
+        "Kingdom of Northumbria",
+        "Kingdom of Mercia",
+        "Kingdom of East Anglia"
+      ],
+      "civilizations": [
+        "Q105092",
+        "Q105313",
+        "Q107299"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

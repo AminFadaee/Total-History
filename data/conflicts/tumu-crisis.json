@@ -9,6 +9,32 @@
     1449
   ],
   "editions": 20,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    115.6,
+    40.383333333333
+  ],
+  "summary": "A border conflict between the Oirat Mongols and the Ming dynasty of China.",
+  "result": "Mongol victory",
+  "sides": [
+    {
+      "combatants": [
+        "Oirats",
+        "Tatar (Mongolia)",
+        "Uriankhai"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Ming Dynasty"
+      ],
+      "civilizations": [
+        "Q9903"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

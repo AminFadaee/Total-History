@@ -9,6 +9,33 @@
     1599
   ],
   "editions": 8,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -4.55,
+    13.9
+  ],
+  "summary": "A military engagement between forces of the Mali Empire and the Moroccan Pashalik of Timbuktu.",
+  "result": "Moroccan Victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mali Empire"
+      ],
+      "civilizations": [
+        "Q184536"
+      ]
+    },
+    {
+      "combatants": [
+        "Saadi Sultanate",
+        "Pashalik of Timbuktu"
+      ],
+      "civilizations": [
+        "Q1136188"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +48,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-jenne.png",
+  "map_asked": true
 }

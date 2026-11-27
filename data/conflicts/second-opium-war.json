@@ -9,6 +9,36 @@
     1860
   ],
   "editions": 66,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the United Kingdom and France against the Qing dynasty of China between 1856 and 1860.",
+  "result": "Kowloon Peninsula and Stonecutters Island ceded to form part of British Hong Kong",
+  "sides": [
+    {
+      "combatants": [
+        "United Kingdom of Great Britain and Ireland",
+        "Indian Empire",
+        "Second French Empire",
+        "Russian Empire",
+        "United States of America"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q30",
+        "Q34266",
+        "Q71092"
+      ]
+    },
+    {
+      "combatants": [
+        "Qing Dynasty"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,60 @@
     1261
   ],
   "editions": 8,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A complex series of conflicts following the dissolution of the Byzantine Empire in the aftermath of the Fourth Crusade in 1204, fought between the Latin Empire established by the Crusaders, various Byzantine successor states, and foreign powers such as the Second Bulgarian Empire and Sultanate of Rum, for control of Constantinople and supremacy within the former imperial territories.",
+  "result": "Nicaean victory",
+  "sides": [
+    {
+      "combatants": [
+        "Latin Empire",
+        "Kingdom of Thessalonica",
+        "Principality of Achaea",
+        "Duchy of Philippopolis",
+        "Duchy of Athens",
+        "Duchy of the Archipelago",
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q178897",
+        "Q4948"
+      ]
+    },
+    {
+      "combatants": [
+        "Nicaean Empire",
+        "Empire of Thessalonica",
+        "Empire of Trebizond",
+        "Despotate of Epirus",
+        "history of Thessaly",
+        "Republic of Genoa"
+      ],
+      "civilizations": [
+        "Q174306",
+        "Q178913",
+        "Q181254"
+      ]
+    },
+    {
+      "combatants": [
+        "Second Bulgarian Empire",
+        "Kingdom of Georgia",
+        "Sultanate of Rum",
+        "Kingdom of Serbia",
+        "Kingdom of Sicily",
+        "Mongol Empire"
+      ],
+      "civilizations": [
+        "Q12557",
+        "Q154667",
+        "Q188586",
+        "Q420759",
+        "Q975405"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

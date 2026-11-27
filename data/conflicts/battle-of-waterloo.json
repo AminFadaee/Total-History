@@ -9,6 +9,41 @@
     1815
   ],
   "editions": 94,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    4.412222222222222,
+    50.67805555555555
+  ],
+  "summary": "Fought on Sunday 18 June 1815, near Waterloo, being the last engagement with Napoleon I.",
+  "result": "Coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "First French Empire"
+      ],
+      "civilizations": [
+        "Q71084"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Hanover",
+        "Duchy of Nassau",
+        "United Kingdom of Great Britain and Ireland",
+        "Prussia",
+        "United Kingdom of the Netherlands",
+        "Hanover",
+        "Nassau",
+        "Brunswick"
+      ],
+      "civilizations": [
+        "Q164079",
+        "Q174193",
+        "Q38872"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

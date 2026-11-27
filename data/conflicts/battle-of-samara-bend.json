@@ -9,6 +9,29 @@
     1223
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "The first battle between the Volga Bulgaria and the Mongol Empire, which took place during the autumn of 1223 at the southern border of Volga Bulgaria, one of the first skirmishes or battles the Mongols lost.",
+  "result": "Bulgar tactical victory",
+  "sides": [
+    {
+      "combatants": [
+        "Volga Bulgaria"
+      ],
+      "civilizations": [
+        "Q185488"
+      ]
+    },
+    {
+      "combatants": [
+        "Mongol Empire"
+      ],
+      "civilizations": [
+        "Q12557"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,42 @@
     1759
   ],
   "editions": 30,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -71.22,
+    46.80166666666667
+  ],
+  "summary": "A pivotal battle in the Seven Years' War—whose North American theatre is referred to by Americans as the French and Indian War.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "British America",
+        "Kingdom of Great Britain"
+      ],
+      "civilizations": [
+        "Q161885"
+      ]
+    },
+    {
+      "combatants": [
+        "French Canada",
+        "Mi’kmaw",
+        "Wolastoqiyik",
+        "Abenaki people",
+        "Potawatomi",
+        "Odawa",
+        "Wyandot people",
+        "Kingdom of France",
+        "New France"
+      ],
+      "civilizations": [
+        "Q170604",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,37 @@
     1667
   ],
   "editions": 40,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A major conflict between the Tsardom of Russia and the Polish–Lithuanian Commonwealth.",
+  "result": "Russia gains control of left-bank Ukraine, Kiev and Smolensk.",
+  "sides": [
+    {
+      "combatants": [
+        "Cossack Hetmanate",
+        "Tsardom of Russia"
+      ],
+      "civilizations": [
+        "Q186096"
+      ]
+    },
+    {
+      "combatants": [
+        "Cossack Hetmanate",
+        "Right-bank Ukraine",
+        "Duchy of Prussia",
+        "Polish-Lithuanian Commonwealth",
+        "Crimean Khanate",
+        "Margraviate of Brandenburg"
+      ],
+      "civilizations": [
+        "Q148499",
+        "Q160440",
+        "Q172107"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

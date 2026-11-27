@@ -9,6 +9,35 @@
     1636
   ],
   "editions": 22,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Now Korea, establishing the former's status as the hegemon in the Imperial Chinese tributary system and formally severing Joseon's relationship with the Han-led Ming dynasty.",
+  "result": "Qing victory",
+  "sides": [
+    {
+      "combatants": [
+        "Qing Dynasty"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    },
+    {
+      "combatants": [
+        "Joseon",
+        "Ming Dynasty"
+      ],
+      "civilizations": [
+        "Q28179",
+        "Q9903"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

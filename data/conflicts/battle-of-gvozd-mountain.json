@@ -9,6 +9,32 @@
     1097
   ],
   "editions": 13,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    15.516666666666667,
+    44.9
+  ],
+  "summary": "Fought between the army of Petar Snačić and King Coloman I of Hungary.",
+  "result": "Hungarian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Croatia"
+      ],
+      "civilizations": [
+        "Q858841"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Hungary"
+      ],
+      "civilizations": [
+        "Q171150"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {
@@ -20,5 +46,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-gvozd-mountain.png",
+  "map_asked": true
 }

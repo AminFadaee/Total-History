@@ -9,6 +9,36 @@
     74
   ],
   "editions": 62,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The first of three major Jewish rebellions against the Roman Empire.",
+  "result": "Roman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Judean provisional government"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Zealotry",
+        "Galilean",
+        "Edom",
+        "Sicarii"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

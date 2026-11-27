@@ -9,6 +9,48 @@
     1573
   ],
   "editions": 32,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between 1570 and 1573.",
+  "result": "Ottoman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Barbary Coast"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    },
+    {
+      "combatants": [
+        "Holy League",
+        "Republic of Venice",
+        "Habsburg Spain",
+        "Kingdom of Sicily",
+        "Kingdom of Naples",
+        "Papal States",
+        "Republic of Genoa",
+        "Duchy of Parma and Piacenza",
+        "Grand Duchy of Tuscany",
+        "Duchy of Urbino",
+        "Duchy of Savoy",
+        "Knights Hospitaller",
+        "Anti-Ottoman revolts of 1565–1572"
+      ],
+      "civilizations": [
+        "Q154849",
+        "Q170174",
+        "Q173065",
+        "Q174306",
+        "Q188586",
+        "Q426025",
+        "Q4948"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

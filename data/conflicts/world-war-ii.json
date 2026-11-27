@@ -9,6 +9,44 @@
     1945
   ],
   "editions": 242,
+  "vital_level": 3,
+  "battle": false,
+  "point": null,
+  "summary": "A global conflict between two coalitions: the Allies and the Axis powers.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "Allies of World War II"
+      ],
+      "civilizations": [
+        "Q13426199",
+        "Q145",
+        "Q15180",
+        "Q152582",
+        "Q16",
+        "Q20",
+        "Q207521",
+        "Q209065",
+        "Q30",
+        "Q408",
+        "Q55"
+      ]
+    },
+    {
+      "combatants": [
+        "Axis Powers"
+      ],
+      "civilizations": [
+        "Q171150",
+        "Q172579",
+        "Q188712",
+        "Q203493",
+        "Q7318",
+        "Q926295"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

@@ -9,6 +9,39 @@
     1945
   ],
   "editions": 28,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Coordinated by the Western Allies during the final months of hostilities in the European theatre of World War II.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "United States of America",
+        "United Kingdom",
+        "Dominion of Newfoundland",
+        "Provisional Government of the French Republic",
+        "Canada",
+        "Polish government-in-exile",
+        "Belgium"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q16",
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "Government of National Unity",
+        "Nazi Germany",
+        "Kingdom of Hungary"
+      ],
+      "civilizations": [
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

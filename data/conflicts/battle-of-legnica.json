@@ -9,6 +9,34 @@
     1241
   ],
   "editions": 42,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    16.222777777778,
+    51.145277777778
+  ],
+  "summary": "Fought between the Mongol Empire and combined European forces at the village of Legnickie Pole, approximately 10 kilometres southeast of the city of Legnica in the Duchy of Silesia on 9 April 1241.",
+  "result": "Mongol victory",
+  "sides": [
+    {
+      "combatants": [
+        "Mongol Empire"
+      ],
+      "civilizations": [
+        "Q12557"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Poland",
+        "Margraviate of Moravia",
+        "Knights Templar"
+      ],
+      "civilizations": [
+        "Q8890160"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

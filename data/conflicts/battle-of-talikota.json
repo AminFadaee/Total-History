@@ -9,6 +9,38 @@
     1565
   ],
   "editions": 22,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    76.31183333,
+    16.47330556
+  ],
+  "summary": "A watershed battle fought between the Vijayanagara Empire and an alliance of the Deccan sultanates.",
+  "result": "Deccan Sultanates alliance victory",
+  "sides": [
+    {
+      "combatants": [
+        "Deccan sultanates",
+        "Ahmadnagar Sultanate",
+        "Bijapur Sultanate",
+        "Golconda Sultanate",
+        "Bidar Sultanate",
+        "Berar Sultanate"
+      ],
+      "civilizations": [
+        "Q400998",
+        "Q83821"
+      ]
+    },
+    {
+      "combatants": [
+        "Vijayanagara Empire"
+      ],
+      "civilizations": [
+        "Q167639"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -34,5 +66,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-talikota.png",
+  "map_asked": true
 }

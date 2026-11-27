@@ -9,6 +9,34 @@
     1941
   ],
   "editions": 45,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    -0.1275,
+    51.50694444
+  ],
+  "summary": "A bombing campaign by Nazi Germany and Fascist Italy against the United Kingdom during the Second World War.",
+  "result": "Axis strategic failure",
+  "sides": [
+    {
+      "combatants": [
+        "United Kingdom"
+      ],
+      "civilizations": [
+        "Q145"
+      ]
+    },
+    {
+      "combatants": [
+        "Nazi Germany",
+        "Kingdom of Italy"
+      ],
+      "civilizations": [
+        "Q172579",
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

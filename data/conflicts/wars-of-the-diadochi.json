@@ -9,6 +9,40 @@
     -275
   ],
   "editions": 29,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of conflicts fought between the generals of Alexander the Great, known as the Diadochi, over who would rule his empire following his death.",
+  "result": "{{unbulleted list",
+  "sides": [
+    {
+      "combatants": [
+        "Antipatrid dynasty",
+        "Antigonid dynasty",
+        "Ptolemaic Kingdom",
+        "Lysimachus",
+        "Polyperchon"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Perdiccas",
+        "Polyperchon",
+        "Epirus",
+        "Ptolemaic Kingdom",
+        "Nabataeans",
+        "Antipatrid dynasty",
+        "Lysimachus",
+        "Caria",
+        "Seleucid Empire"
+      ],
+      "civilizations": [
+        "Q220594",
+        "Q93180"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

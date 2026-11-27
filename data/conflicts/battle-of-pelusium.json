@@ -9,6 +9,32 @@
     -525
   ],
   "editions": 23,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    32.5451,
+    31.0416
+  ],
+  "summary": "The first major battle between the Achaemenid Empire and Egypt.",
+  "result": "Egypt annexed by the Achaemenid Empire",
+  "sides": [
+    {
+      "combatants": [
+        "Achaemenid Empire"
+      ],
+      "civilizations": [
+        "Q389688"
+      ]
+    },
+    {
+      "combatants": [
+        "Twenty-sixth Dynasty of Egypt"
+      ],
+      "civilizations": [
+        "Q662410"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {
@@ -19,5 +45,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-pelusium.png",
+  "map_asked": true
 }

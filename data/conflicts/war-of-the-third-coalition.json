@@ -9,6 +9,50 @@
     1806
   ],
   "editions": 51,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A European conflict lasting from 1805 to 1806 and was the first conflict of the Napoleonic Wars.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "Austrian Empire",
+        "United Kingdom of Great Britain and Ireland",
+        "Russian Empire",
+        "Kingdom of Naples",
+        "Kingdom of Sicily",
+        "history of Sweden from 1772 through 1809",
+        "Kingdom of Sweden"
+      ],
+      "civilizations": [
+        "Q131964",
+        "Q173065",
+        "Q174193",
+        "Q188586",
+        "Q34",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "First French Empire",
+        "Batavian Republic",
+        "Kingdom of Italy",
+        "Kingdom of Etruria",
+        "History of Spain (1700–1808)",
+        "Electorate of Bavaria",
+        "Electorate of Württemberg",
+        "Electorate of Baden",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q188553",
+        "Q29",
+        "Q71084"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

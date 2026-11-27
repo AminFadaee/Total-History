@@ -9,6 +9,32 @@
     1236
   ],
   "editions": 7,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    50.39771945,
+    54.98527223
+  ],
+  "summary": "A battle for the capital city of Volga Bulgaria, between the Volga Bulgars and the Mongols.",
+  "result": "Mongol victory",
+  "sides": [
+    {
+      "combatants": [
+        "Volga Bulgaria"
+      ],
+      "civilizations": [
+        "Q185488"
+      ]
+    },
+    {
+      "combatants": [
+        "Mongol Empire"
+      ],
+      "civilizations": [
+        "Q12557"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

@@ -9,6 +9,29 @@
     1920
   ],
   "editions": 25,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Part of the Russian Civil War in 1920.",
+  "result": "Soviet victory",
+  "sides": [
+    {
+      "combatants": [
+        "Communist Party of Azerbaijan",
+        "Russian Soviet Federative Socialist Republic",
+        "Azerbaijan Soviet Socialist Republic"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Azerbaijan Democratic Republic"
+      ],
+      "civilizations": [
+        "Q206411"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

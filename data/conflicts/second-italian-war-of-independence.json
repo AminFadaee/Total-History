@@ -9,6 +9,31 @@
     1859
   ],
   "editions": 46,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought by the Second French Empire and the Kingdom of Sardinia against the Austrian Empire in 1859 and played a crucial part in the process of Italian Unification.",
+  "result": "Sardinia annexes Lombardy from Austria, occupies and later annexes Habsburg-ruled Tuscany, Modena and Emilia, as well as Papal-ruled Romagna",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Sardinia",
+        "Second French Empire"
+      ],
+      "civilizations": [
+        "Q2577303",
+        "Q71092"
+      ]
+    },
+    {
+      "combatants": [
+        "Austrian Empire"
+      ],
+      "civilizations": [
+        "Q131964"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

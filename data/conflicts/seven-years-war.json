@@ -9,6 +9,49 @@
     1763
   ],
   "editions": 95,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A global conflict fought by numerous great powers, primarily in Europe, with significant subsidiary campaigns in North America and the Indian subcontinent.",
+  "result": "Anglo-Prussian coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "personal union",
+        "History of Portugal",
+        "Seven Years' War",
+        "Kingdom of Great Britain",
+        "Electorate of Hanover",
+        "Kingdom of Prussia",
+        "Russian Empire",
+        "Kingdom of Portugal"
+      ],
+      "civilizations": [
+        "Q161885",
+        "Q45670"
+      ]
+    },
+    {
+      "combatants": [
+        "Imperial Diet",
+        "Seven Years' War",
+        "Kingdom of Sweden",
+        "Bengal Subah",
+        "Kingdom of France",
+        "Holy Roman Empire",
+        "Russian Empire",
+        "Kingdom of Spain",
+        "Swedish Empire"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q215443",
+        "Q29",
+        "Q34",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

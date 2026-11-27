@@ -9,6 +9,56 @@
     1410
   ],
   "editions": 69,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    20.12472222222222,
+    53.486111111111114
+  ],
+  "summary": "Fought on 15 July 1410 during the Polish–Lithuanian–Teutonic War.",
+  "result": "Polish–Lithuanian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Crown of the Kingdom of Poland",
+        "Grand Duchy of Lithuania",
+        "Duchy of Warsaw (Middle Ages)",
+        "Duchy of Płock",
+        "Pomerania-Stolp",
+        "Duchy of Belz",
+        "Principality of Moldavia",
+        "Principality of Smolensk",
+        "Lipka Tatars",
+        "Golden Horde",
+        "Lands of the Bohemian Crown",
+        "Margraviate of Moravia",
+        "Silesia",
+        "Principality of Wallachia"
+      ],
+      "civilizations": [
+        "Q10957559",
+        "Q171393",
+        "Q49683",
+        "Q79965"
+      ]
+    },
+    {
+      "combatants": [
+        "Teutonic Order",
+        "Crusades",
+        "Pomerania-Stettin",
+        "Duchy of Oleśnica",
+        "Prince-Bishopric of Warmia",
+        "Roman Catholic Diocese of Pomesania",
+        "Bishopric of Samland",
+        "mercenary",
+        "Western Europe"
+      ],
+      "civilizations": [
+        "Q156020"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -29,5 +79,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-grunwald.png",
+  "map_asked": true
 }

@@ -9,6 +9,39 @@
     1996
   ],
   "editions": 37,
+  "vital_level": 5,
+  "battle": false,
+  "point": [
+    -90.5,
+    14.633333333333
+  ],
+  "summary": "Fought from 1960 to 1996 between the government of Guatemala and various leftist rebel groups.",
+  "result": "Creation and military control of the Franja Transversal del Norte",
+  "sides": [
+    {
+      "combatants": [
+        "politics of Guatemala",
+        "Guatemalan military",
+        "Movement of Organized Nationalist Action",
+        "Patrullas de Autodefensa Civil",
+        "Guatemala"
+      ],
+      "civilizations": [
+        "Q774"
+      ]
+    },
+    {
+      "combatants": [
+        "Guatemalan National Revolutionary Unity",
+        "Guatemalan Party of Labour",
+        "Revolutionary Movement 13th November",
+        "Rebel Armed Forces",
+        "Guerrilla Army of the Poor",
+        "Organization of People in Arms"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

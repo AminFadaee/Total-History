@@ -9,6 +9,33 @@
     -168
   ],
   "editions": 35,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A series of six wars between the Seleucid Empire and the Ptolemaic Kingdom of Egypt, successor states to Alexander the Great's empire, during the 3rd and 2nd centuries BC over the region of Coele-Syria.",
+  "result": "Inconclusive",
+  "sides": [
+    {
+      "combatants": [
+        "Ptolemaic Kingdom",
+        "Roman Republic"
+      ],
+      "civilizations": [
+        "Q17167",
+        "Q2320005"
+      ]
+    },
+    {
+      "combatants": [
+        "Seleucid Empire",
+        "Macedonia"
+      ],
+      "civilizations": [
+        "Q83958",
+        "Q93180"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

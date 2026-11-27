@@ -9,6 +9,34 @@
     560
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    64.433333,
+    39.766667
+  ],
+  "summary": "Battle that dissolved the Hephthalite Empire.",
+  "result": "Perso-Turkic victory",
+  "sides": [
+    {
+      "combatants": [
+        "Sasanian Empire",
+        "Göktürk Khaganate"
+      ],
+      "civilizations": [
+        "Q15146034",
+        "Q83891"
+      ]
+    },
+    {
+      "combatants": [
+        "White Huns"
+      ],
+      "civilizations": [
+        "Q26576"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -29,5 +57,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-gol-zarriun.png",
+  "map_asked": true
 }

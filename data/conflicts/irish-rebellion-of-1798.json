@@ -9,6 +9,33 @@
     1798
   ],
   "editions": 34,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A popular insurrection against the British Crown in what was then the separate, but subordinate, Kingdom of Ireland.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "Irish Republic",
+        "Society of United Irishmen",
+        "Defenders",
+        "French First Republic"
+      ],
+      "civilizations": [
+        "Q58296"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Great Britain",
+        "Kingdom of Ireland"
+      ],
+      "civilizations": [
+        "Q161885"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

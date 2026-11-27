@@ -9,6 +9,35 @@
     1185
   ],
   "editions": 37,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A national civil war between the Taira and Minamoto clans during the late Heian period of Japan.",
+  "result": "Minamoto clan victory",
+  "sides": [
+    {
+      "combatants": [
+        "Minamoto clan",
+        "Miura clan",
+        "Takeda clan",
+        "Hōjō clan",
+        "Chiba clan"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Taira clan"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Minamoto clan"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

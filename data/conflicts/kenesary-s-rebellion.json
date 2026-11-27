@@ -9,6 +9,36 @@
     1847
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The longest uprising of the Kazakh people on the territory of modern Kazakhstan under the leadership of Khan Kenesary Qasymov against the Russian Empire.",
+  "result": "Uprising suppressed",
+  "sides": [
+    {
+      "combatants": [
+        "Khanate of Kokand",
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Kazakh Khanate"
+      ],
+      "civilizations": [
+        "Q1433867"
+      ]
+    },
+    {
+      "combatants": [
+        "Khanate of Kokand"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "ending": [
       {

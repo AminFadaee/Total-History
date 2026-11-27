@@ -9,6 +9,39 @@
     1812
   ],
   "editions": 45,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Russian Empire and the Ottoman Empire as one of 12 Russo-Turkish wars.",
+  "result": "See #Aftermath",
+  "sides": [
+    {
+      "combatants": [
+        "Principality of Mingrelia",
+        "Principality of Guria",
+        "Principality of Abkhazia",
+        "Principality of Moldavia",
+        "Principality of Wallachia",
+        "Russian Empire",
+        "Revolutionary Serbia",
+        "Prince-Bishopric of Montenegro"
+      ],
+      "civilizations": [
+        "Q10957559",
+        "Q171393",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Budjak Horde",
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

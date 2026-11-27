@@ -9,6 +9,44 @@
     -338
   ],
   "editions": 49,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    22.8475,
+    38.495
+  ],
+  "summary": "Fought in 338 BC, near the city of Chaeronea in Boeotia, between Macedonia under Philip II and an alliance of Greek city-states led by Athens and Thebes.",
+  "result": "Macedonian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Macedonia",
+        "Thessalian League",
+        "Argos",
+        "Arcadia",
+        "Phocis"
+      ],
+      "civilizations": [
+        "Q83958"
+      ]
+    },
+    {
+      "combatants": [
+        "Classical Athens",
+        "Thebes",
+        "Ancient Corinth",
+        "Megara",
+        "Achaea",
+        "Chalkída",
+        "Epidaurus",
+        "Acarnania",
+        "Troezen"
+      ],
+      "civilizations": [
+        "Q844930"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

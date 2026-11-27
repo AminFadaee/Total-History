@@ -9,6 +9,30 @@
     1849
   ],
   "editions": 75,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "An invasion of Mexico by the United States.",
+  "result": "Mexican Cession",
+  "sides": [
+    {
+      "combatants": [
+        "United States of America",
+        "California Republic"
+      ],
+      "civilizations": [
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "Second Federal Republic of Mexico"
+      ],
+      "civilizations": [
+        "Q7443295"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

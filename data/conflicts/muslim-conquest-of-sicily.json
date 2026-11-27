@@ -9,6 +9,38 @@
     902
   ],
   "editions": 20,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    14,
+    37.5
+  ],
+  "summary": "827–902 Aghlabid campaign against the Byzantines.",
+  "result": "Aghlabid conquest of Sicily and parts of southern Italy",
+  "sides": [
+    {
+      "combatants": [
+        "Aghlabid Dynasty",
+        "Abbasid Caliphate",
+        "Emirate of Córdoba"
+      ],
+      "civilizations": [
+        "Q12536",
+        "Q1337854",
+        "Q207600"
+      ]
+    },
+    {
+      "combatants": [
+        "Roman Empire",
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q2277",
+        "Q4948"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

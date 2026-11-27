@@ -9,6 +9,56 @@
     1192
   ],
   "editions": 72,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "An attempt led by King Philip II of France, King Richard I of England, and Emperor Frederick Barbarossa to reconquer the Holy Land following the capture of Jerusalem by the Ayyubid sultan Saladin in 1187.",
+  "result": "See Outcome",
+  "sides": [
+    {
+      "combatants": [
+        "Angevin Empire",
+        "Kingdom of France",
+        "Holy Roman Empire",
+        "Kingdom of Hungary (1000–1301)",
+        "Republic of Genoa",
+        "Kingdom of Navarre",
+        "Republic of Pisa",
+        "Kingdom of Jerusalem",
+        "Principality of Antioch",
+        "Knights Templar",
+        "Knights Hospitaller",
+        "Teutonic Order",
+        "Kingdom of Portugal",
+        "Sancho I of Portugal"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q1365493",
+        "Q174306",
+        "Q200262",
+        "Q45670",
+        "Q538677",
+        "Q55502",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Ayyubid Sultanate",
+        "Sultanate of Rum",
+        "Nizari Ismaili state",
+        "Order of Assassins",
+        "Roman Empire",
+        "Cyprus"
+      ],
+      "civilizations": [
+        "Q180114",
+        "Q2277",
+        "Q975405"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,37 @@
     1870
   ],
   "editions": 46,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    4.945555555555556,
+    49.69861111111111
+  ],
+  "summary": "Fought during the Franco-Prussian War from 1 to 2 September 1870.",
+  "result": "German victory",
+  "sides": [
+    {
+      "combatants": [
+        "North German Confederation",
+        "Kingdom of Prussia",
+        "Kingdom of Saxony",
+        "Kingdom of Bavaria"
+      ],
+      "civilizations": [
+        "Q150981",
+        "Q153015",
+        "Q154195"
+      ]
+    },
+    {
+      "combatants": [
+        "Second French Empire"
+      ],
+      "civilizations": [
+        "Q71092"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {
@@ -19,5 +50,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-sedan.png",
+  "map_asked": true
 }

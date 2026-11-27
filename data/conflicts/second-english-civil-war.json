@@ -9,6 +9,29 @@
     1648
   ],
   "editions": 13,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Part of Wars of the Three Kingdoms (1648).",
+  "result": "Parliamentarian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Cavalier",
+        "Covenanters"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Roundhead",
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q179876"
+      ]
+    }
+  ],
   "roles": {
     "founding": [
       {

@@ -9,6 +9,34 @@
     654
   ],
   "editions": 54,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Rashidun Caliphate's conquest of the Sasanian Empire.",
+  "result": "Muslim victory",
+  "sides": [
+    {
+      "combatants": [
+        "Rashidun Caliphate"
+      ],
+      "civilizations": [
+        "Q12490507"
+      ]
+    },
+    {
+      "combatants": [
+        "Sasanian Empire",
+        "Kanarang",
+        "House of Ispahbudhan",
+        "House of Mihrān",
+        "House of Karen",
+        "House of Suren"
+      ],
+      "civilizations": [
+        "Q83891"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

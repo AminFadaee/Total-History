@@ -9,6 +9,59 @@
     1869
   ],
   "editions": 52,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A civil war in Japan fought from 1868 to 1869 between forces of the ruling Tokugawa shogunate and a coalition seeking to seize political power in the name of the Imperial Court.",
+  "result": "Imperial victory",
+  "sides": [
+    {
+      "combatants": [
+        "Imperial Court in Kyoto",
+        "Tozama daimyo",
+        "daimyo",
+        "Kumamoto Domain",
+        "Satsuma Domain",
+        "Chōshū Domain",
+        "Tosa Domain",
+        "Hiroshima Domain",
+        "Tsu Domain",
+        "Kubota Domain",
+        "Saga Domain",
+        "Ōgaki Domain",
+        "Yodo Domain",
+        "Hirosaki Domain",
+        "Kuroishi Domain",
+        "Empire of Japan"
+      ],
+      "civilizations": [
+        "Q188712"
+      ]
+    },
+    {
+      "combatants": [
+        "Ōtaki Domain",
+        "Iyo-Matsuyama Domain",
+        "Jōzai Domain",
+        "Nagaoka Domain",
+        "Sendai Domain",
+        "Morioka Domain",
+        "Kuwana Domain",
+        "Tokugawa Shogunate",
+        "Aizu Domain",
+        "Takamatsu Domain",
+        "Ōuetsu Reppan Dōmei",
+        "Shōnai Domain",
+        "Tsu Domain",
+        "Ōgaki Domain",
+        "Yodo Domain",
+        "Republic of Ezo"
+      ],
+      "civilizations": [
+        "Q205662"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

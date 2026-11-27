@@ -9,6 +9,39 @@
     1641
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Military engagements between the forces of the Portuguese Empire and the various Malay states and dynasties, fought intermittently from 1509 to 1641 in the Malay Peninsula and Strait of Malacca.",
+  "result": "Establishment of Portuguese Malacca",
+  "sides": [
+    {
+      "combatants": [
+        "Sultan of Perak",
+        "Kedah Sultanate",
+        "Portuguese Empire"
+      ],
+      "civilizations": [
+        "Q200464"
+      ]
+    },
+    {
+      "combatants": [
+        "Sultanate of Malacca",
+        "Johor Sultanate",
+        "Pahang Sultanate",
+        "Patani Kingdom",
+        "Sultanate of Demak",
+        "Kalinyamat Sultanate",
+        "Dutch Republic",
+        "VOC"
+      ],
+      "civilizations": [
+        "Q170072",
+        "Q46652"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

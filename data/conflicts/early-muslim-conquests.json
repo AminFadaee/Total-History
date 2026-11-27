@@ -9,6 +9,55 @@
     750
   ],
   "editions": 63,
+  "vital_level": 4,
+  "battle": false,
+  "point": [
+    36,
+    34
+  ],
+  "summary": "A series of wars initiated by the Islamic prophet Muhammad, and continued by the early Muslims.",
+  "result": "Muslim victory",
+  "sides": [
+    {
+      "combatants": [
+        "first Islamic state",
+        "Rashidun Caliphate",
+        "Umayyad Caliphate"
+      ],
+      "civilizations": [
+        "Q12490507",
+        "Q8575586"
+      ]
+    },
+    {
+      "combatants": [
+        "Sasanian Empire",
+        "Roman Empire",
+        "Makuria Kingdom",
+        "Khazaria",
+        "Western Turkic Khaganate",
+        "Türgesh",
+        "Tang Dynasty",
+        "Second Turkic Khaganate",
+        "Brahmin dynasty of Sindh",
+        "Karkota dynasty",
+        "Visigothic Kingdom",
+        "Kingdom of Asturias",
+        "Francia"
+      ],
+      "civilizations": [
+        "Q126936",
+        "Q1277895",
+        "Q146246",
+        "Q173282",
+        "Q2277",
+        "Q231392",
+        "Q829356",
+        "Q83891",
+        "Q9683"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

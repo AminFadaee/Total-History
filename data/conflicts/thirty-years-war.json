@@ -9,6 +9,58 @@
     1648
   ],
   "editions": 124,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "One of the most destructive conflicts in European history.",
+  "result": "Peace of Westphalia",
+  "sides": [
+    {
+      "combatants": [
+        "Lands of the Bohemian Crown",
+        "Swedish Empire",
+        "Electoral Palatinate",
+        "Savoyard state",
+        "Dutch Republic",
+        "Heilbronn League",
+        "Landgraviate of Hesse-Kassel",
+        "Brandenburg-Prussia",
+        "Denmark-Norway",
+        "Electorate of Saxony",
+        "Kingdom of Bohemia",
+        "Duchy of Savoy",
+        "Peace of Prague",
+        "Kingdom of France"
+      ],
+      "civilizations": [
+        "Q156199",
+        "Q170072",
+        "Q215443",
+        "Q42585",
+        "Q426025",
+        "Q62651",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Spanish Empire",
+        "Catholic League",
+        "Habsburg Monarchy",
+        "Electorate of Bavaria",
+        "Kingdom of Spain",
+        "Peace of Prague",
+        "Holy Roman Empire"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q153136",
+        "Q29",
+        "Q47261",
+        "Q80702"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

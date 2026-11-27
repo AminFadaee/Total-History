@@ -9,6 +9,43 @@
     1739
   ],
   "editions": 43,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Caused by the Ottoman Empire's war with Persia and the continuing raids by the Crimean Tatars.",
+  "result": "Habsburg monarchy cedes Kingdom of Serbia, Oltenia, southern Banat to the Ottoman Empire",
+  "sides": [
+    {
+      "combatants": [
+        "Russian Empire",
+        "Cossack Hetmanate",
+        "Terek Cossacks",
+        "Kabardia",
+        "Habsburg Monarchy",
+        "Kingdom of Serbia",
+        "Kalmyk Khanate"
+      ],
+      "civilizations": [
+        "Q153136",
+        "Q212439",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire",
+        "Crimean Khanate",
+        "Principality of Moldavia",
+        "Principality of Wallachia"
+      ],
+      "civilizations": [
+        "Q10957559",
+        "Q12560",
+        "Q160440",
+        "Q171393"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

@@ -9,6 +9,29 @@
     1932
   ],
   "editions": 11,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "War between China and Tibet.",
+  "result": "Chinese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Republic of China"
+      ],
+      "civilizations": [
+        "Q13426199"
+      ]
+    },
+    {
+      "combatants": [
+        "Tibet"
+      ],
+      "civilizations": [
+        "Q2444884"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

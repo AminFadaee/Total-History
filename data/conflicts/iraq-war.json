@@ -9,6 +9,57 @@
     2011
   ],
   "editions": 96,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A protracted armed conflict in Iraq from 2003 to 2011.",
+  "result": "See Aftermath",
+  "sides": [
+    {
+      "combatants": [
+        "coalition of the willing",
+        "Iraqi National Congress",
+        "Free Iraqi Forces",
+        "United States of America",
+        "United Kingdom",
+        "Commonwealth of Australia",
+        "Poland",
+        "Kurdistan Region of Iraq",
+        "KDP",
+        "PUK",
+        "Multi-National Force – Iraq",
+        "Sons of Iraq"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q30",
+        "Q408"
+      ]
+    },
+    {
+      "combatants": [
+        "Ba'athist Iraq",
+        "combatants of the Iraq War",
+        "Al-Qaeda",
+        "Al-Qaeda in Iraq",
+        "Mujahideen Shura Council",
+        "Islamic State of Iraq",
+        "Islamic Army in Iraq",
+        "Jama'at al-Tawhid wal-Jihad",
+        "Assembly of the Helpers of Sunnah",
+        "Army of the Men of the Naqshbandi Order",
+        "Mujahideen Army",
+        "1920 Revolution Brigade",
+        "Hamas of Iraq",
+        "Mahdi Army",
+        "Kata'ib Hezbollah",
+        "Asa'ib Ahl al-Haq",
+        "Promised Day Brigades",
+        "Islamic State"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

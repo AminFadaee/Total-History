@@ -9,6 +9,65 @@
     1797
   ],
   "editions": 47,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A set of wars between a coalition of several European powers and France fought from 1792 to 1797.",
+  "result": "French annexation of the Austrian Netherlands, the Left Bank of the Rhine, Savoy, and other smaller territories",
+  "sides": [
+    {
+      "combatants": [
+        "Habsburg Monarchy",
+        "Kingdom of Sardinia",
+        "Electorate of Hanover",
+        "Electorate of Saxony",
+        "Landgraviate of Hesse-Kassel",
+        "Dutch Republic",
+        "Émigré armies of the French Revolutionary Wars",
+        "Catholic and Royal Army",
+        "Spanish Empire",
+        "War of the Pyrenees",
+        "Papal States",
+        "Holy Roman Empire",
+        "Kingdom of Prussia",
+        "Electorate of Bavaria",
+        "Kingdom of Great Britain",
+        "Kingdom of Portugal",
+        "Kingdom of Naples",
+        "Hanover",
+        "Hesse",
+        "Kingdom of France",
+        "ESP"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q153136",
+        "Q156199",
+        "Q161885",
+        "Q170072",
+        "Q170174",
+        "Q173065",
+        "Q2577303",
+        "Q45670",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "French constitutional monarchy",
+        "French First Republic",
+        "Society of United Irishmen",
+        "sister republic",
+        "Spanish Empire",
+        "Batavian Republic",
+        "ESP"
+      ],
+      "civilizations": [
+        "Q188553",
+        "Q58296"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

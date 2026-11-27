@@ -9,6 +9,27 @@
     1948
   ],
   "editions": 22,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military operation launched in September 1948 that resulted in the annexation of the princely state of Hyderabad by India, which was dubbed a \"police action\".",
+  "result": "Indian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Dominion of India"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Hyderabad State"
+      ],
+      "civilizations": [
+        "Q1240096"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

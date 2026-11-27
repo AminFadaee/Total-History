@@ -9,6 +9,36 @@
     1814
   ],
   "editions": 23,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A naval conflict between Denmark–Norway and Great Britain supported by Sweden during the Napoleonic Wars.",
+  "result": "Anglo-Swedish victory",
+  "sides": [
+    {
+      "combatants": [
+        "Finnish War",
+        "Denmark-Norway",
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q34266",
+        "Q62651"
+      ]
+    },
+    {
+      "combatants": [
+        "Dano-Swedish War of 1808-1809",
+        "Dano-Swedish War",
+        "United Kingdom of Great Britain and Ireland",
+        "Kingdom of Sweden"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q34"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

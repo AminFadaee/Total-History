@@ -9,6 +9,69 @@
     1807
   ],
   "editions": 47,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A war spanning 1806–1807 that saw a multinational coalition fight against Napoleon's French Empire, subsequently being defeated.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Prussia",
+        "Electorate of Saxony",
+        "history of Sweden from 1772 through 1809",
+        "Kingdom of Sicily",
+        "Septinsular Republic",
+        "Prince-Bishopric of Montenegro",
+        "Poljica",
+        "Russian Empire",
+        "United Kingdom of Great Britain and Ireland",
+        "Prussia",
+        "Kingdom of Sweden"
+      ],
+      "civilizations": [
+        "Q156199",
+        "Q174193",
+        "Q188586",
+        "Q34",
+        "Q34266",
+        "Q38872"
+      ]
+    },
+    {
+      "combatants": [
+        "First French Empire",
+        "Confederation of the Rhine",
+        "Kingdom of Etruria",
+        "Kingdom of Holland",
+        "Kingdom of Italy",
+        "Kingdom of Naples",
+        "Kingdom of Saxony",
+        "Republic of Ragusa",
+        "Polish Legions",
+        "Switzerland in the Napoleonic era",
+        "Spanish Empire",
+        "Ottoman Empire",
+        "Greater Poland Uprising of 1806",
+        "Holland",
+        "Denmark",
+        "Ragusa",
+        "Duchy of Warsaw",
+        "Old Swiss Confederacy"
+      ],
+      "civilizations": [
+        "Q12560",
+        "Q152115",
+        "Q153015",
+        "Q154741",
+        "Q173065",
+        "Q208169",
+        "Q435583",
+        "Q71084",
+        "Q80702"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

@@ -9,6 +9,33 @@
     1563
   ],
   "editions": 8,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A war between the Toungoo dynasty of Burma and the Ayutthaya Kingdom of Siam.",
+  "result": "Burmese victory",
+  "sides": [
+    {
+      "combatants": [
+        "Ayutthaya Kingdom"
+      ],
+      "civilizations": [
+        "Q841364"
+      ]
+    },
+    {
+      "combatants": [
+        "First Toungoo Empire",
+        "Sukhothai Kingdom",
+        "Lanna Kingdom",
+        "Post-Angkor Cambodia"
+      ],
+      "civilizations": [
+        "Q1059707",
+        "Q863279"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

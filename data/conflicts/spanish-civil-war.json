@@ -9,6 +9,60 @@
     1939
   ],
   "editions": 118,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought in Spain from 1936 to 1939 between the Republicans and the Nationalist rebels.",
+  "result": "Nationalist victory",
+  "sides": [
+    {
+      "combatants": [
+        "Republican faction",
+        "Spanish Republic at War",
+        "Spanish Republican Armed Forces",
+        "Popular Front",
+        "Unión General de Trabajadores",
+        "Confederación Nacional del Trabajo",
+        "Iberian Anarchist Federation",
+        "Workers' Party of Marxist Unification",
+        "Juan Negrín",
+        "Second Spanish Republic"
+      ],
+      "civilizations": [
+        "Q178038"
+      ]
+    },
+    {
+      "combatants": [
+        "Nationalist faction",
+        "Nationalist zone",
+        "Spanish Armed Forces (1939-1975)",
+        "Unión Militar Española",
+        "Falange Española Tradicionalista y de las JONS",
+        "Francisco Franco",
+        "Unification Decree (Spain, 1937)",
+        "Falange Española de las JONS",
+        "Requetés",
+        "Traditionalist Communion",
+        "Army of Africa",
+        "Spanish Confederation of the Autonomous Right",
+        "Renovación Española",
+        "international response to the Spanish Civil War",
+        "Viriatos",
+        "Irish Brigade",
+        "Joan of Arc Battalion",
+        "Corpo Truppe Volontarie",
+        "Condor Legion",
+        "Kingdom of Spain",
+        "Italy",
+        "Nazi Germany"
+      ],
+      "civilizations": [
+        "Q29",
+        "Q7318"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

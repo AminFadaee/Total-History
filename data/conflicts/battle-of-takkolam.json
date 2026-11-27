@@ -9,6 +9,29 @@
     949
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "A military engagement between a contingent of troops led by Rajaditya, crown prince and eldest son of the Chola king Parantaka I, and another led by the Rashtrakuta king Krishna III at Takkolam in southern India.",
+  "result": "Rashtrakuta victory",
+  "sides": [
+    {
+      "combatants": [
+        "Chola Empire",
+        "Chera/Perumals of Makotai"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Rashtrakuta Dynasty",
+        "Western Ganga dynasty"
+      ],
+      "civilizations": [
+        "Q856691"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

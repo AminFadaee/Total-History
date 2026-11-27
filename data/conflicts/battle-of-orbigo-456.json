@@ -9,6 +9,33 @@
     456
   ],
   "editions": 13,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -5.70655,
+    41.9899
+  ],
+  "summary": "Battle near Astorga, Spain.",
+  "result": "Visigothic victory",
+  "sides": [
+    {
+      "combatants": [
+        "Visigoths",
+        "Burgundians",
+        "Western Roman Empire"
+      ],
+      "civilizations": [
+        "Q150412",
+        "Q42834"
+      ]
+    },
+    {
+      "combatants": [
+        "Suebi"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

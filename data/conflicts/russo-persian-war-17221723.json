@@ -9,6 +9,37 @@
     1723
   ],
   "editions": 31,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A war between the Russian Empire and Safavid Iran, triggered by the tsar's attempt to expand Russian influence in the Caspian and Caucasus regions and to prevent its rival, the Ottoman Empire, from territorial gains in the region at the expense of declining Safavid Iran.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Cossack Hetmanate",
+        "Kingdom of Kartli",
+        "Kabardia",
+        "Kalmyk Khanate",
+        "Shamkhalate of Tarki",
+        "Tabasaran Principality",
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q212439",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Safavid Dynasty",
+        "Chechens"
+      ],
+      "civilizations": [
+        "Q18234383"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

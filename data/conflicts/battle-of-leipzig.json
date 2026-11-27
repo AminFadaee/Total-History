@@ -9,6 +9,56 @@
     1813
   ],
   "editions": 63,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    12.413333333333334,
+    51.312222222222225
+  ],
+  "summary": "Fought from 16 to 19 October 1813 at Leipzig, Saxony.",
+  "result": "Coalition victory",
+  "sides": [
+    {
+      "combatants": [
+        "Duchy of Mecklenburg-Schwerin",
+        "O Battery (The Rocket Troop) Royal Horse Artillery",
+        "Russian Empire",
+        "Austrian Empire",
+        "Kingdom of Prussia",
+        "Kingdom of Sweden",
+        "Kingdom of Württemberg",
+        "United Kingdom of Great Britain and Ireland",
+        "Mecklenburg-Schwerin",
+        "Kingdom of Saxony"
+      ],
+      "civilizations": [
+        "Q131964",
+        "Q174193",
+        "Q34",
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Grand Duchy of Baden",
+        "Duchy of Warsaw",
+        "Kingdom of Westphalia",
+        "Kingdom of Naples",
+        "First French Empire",
+        "Kingdom of Italy",
+        "Kingdom of Saxony",
+        "Kingdom of Württemberg",
+        "Grand Duchy of Hesse",
+        "Baden",
+        "Westphalia"
+      ],
+      "civilizations": [
+        "Q152115",
+        "Q173065",
+        "Q71084"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -37,5 +87,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-leipzig.png",
+  "map_asked": true
 }

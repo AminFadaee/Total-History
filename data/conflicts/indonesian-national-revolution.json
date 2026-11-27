@@ -9,6 +9,50 @@
     1949
   ],
   "editions": 48,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "An armed conflict and diplomatic struggle between the Republic of Indonesia and the Dutch Empire and an internal social revolution during postwar and postcolonial Indonesia.",
+  "result": "Netherlands cedes control of most territories of the Dutch East Indies to the United States of Indonesia",
+  "sides": [
+    {
+      "combatants": [
+        "Indonesia",
+        "Emergency Government of the Republic of Indonesia",
+        "Indonesian National Armed Forces",
+        "Indonesian National Police",
+        "Japanese holdout",
+        "Darul Islam",
+        "People's Democratic Front",
+        "Tangerang Republic",
+        "Dominion of India",
+        "Japan",
+        "India"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Dutch East Indies",
+        "Royal Netherlands East Indies Army",
+        "Netherlands Indies Civil Administration",
+        "Pao An Tui",
+        "Japanese Surrendered Personnel",
+        "Netherlands",
+        "United Kingdom",
+        "British Raj",
+        "Commonwealth of Australia",
+        "Japan"
+      ],
+      "civilizations": [
+        "Q129286",
+        "Q145",
+        "Q188161",
+        "Q408",
+        "Q55"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

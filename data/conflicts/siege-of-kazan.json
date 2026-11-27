@@ -9,6 +9,33 @@
     1552
   ],
   "editions": 18,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    49.114444444444,
+    55.790833333333
+  ],
+  "summary": "The final battle of the Russo-Kazan Wars and led to the fall of the Khanate of Kazan.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Tsardom of Russia",
+        "Qasim Khanate"
+      ],
+      "civilizations": [
+        "Q186096"
+      ]
+    },
+    {
+      "combatants": [
+        "Khanate of Kazan"
+      ],
+      "civilizations": [
+        "Q186537"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

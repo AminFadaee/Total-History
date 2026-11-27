@@ -9,6 +9,47 @@
     1735
   ],
   "editions": 49,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A major European conflict sparked by a civil war in the Polish–Lithuanian Commonwealth over the succession to Augustus II the Strong, which the other European powers widened in pursuit of their own national interests.",
+  "result": "Austria loses the crowns of Naples and Sicily to Charles of Parma",
+  "sides": [
+    {
+      "combatants": [
+        "Stanisław Leszczyński",
+        "History of Spain (1700–1808)",
+        "Duchy of Savoy",
+        "Kingdom of Sardinia",
+        "Kingdom of France",
+        "Duchy of Parma and Piacenza",
+        "Kingdom of Spain"
+      ],
+      "civilizations": [
+        "Q2577303",
+        "Q29",
+        "Q426025",
+        "Q70972"
+      ]
+    },
+    {
+      "combatants": [
+        "Augustus III of Poland",
+        "Russian Empire",
+        "Habsburg Monarchy",
+        "Holy Roman Empire",
+        "Electorate of Saxony",
+        "Prussia"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q153136",
+        "Q156199",
+        "Q34266",
+        "Q38872"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

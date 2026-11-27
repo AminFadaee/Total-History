@@ -9,6 +9,34 @@
     1204
   ],
   "editions": 37,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    28.945,
+    41.0375
+  ],
+  "summary": "1204 conquest during the Fourth Crusade.",
+  "result": "Crusader victory",
+  "sides": [
+    {
+      "combatants": [
+        "Crusades",
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q4948"
+      ]
+    },
+    {
+      "combatants": [
+        "Byzantine Empire under the Angelos dynasty",
+        "Varangian Guard",
+        "Genoa",
+        "Pisa"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,34 @@
     1943
   ],
   "editions": 24,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    17.7625,
+    43.6542
+  ],
+  "summary": "A major Axis offensive launched against the Yugoslav Partisans throughout occupied Yugoslavia during World War II.",
+  "result": "Partisan retreat with heavy losses, Chetnik defeat, Axis failure to achieve strategic goals",
+  "sides": [
+    {
+      "combatants": [
+        "Anti-Communist Volunteer Militia",
+        "Nazi Germany",
+        "Fascist Italy",
+        "Independent State of Croatia",
+        "Chetniks"
+      ],
+      "civilizations": [
+        "Q7318"
+      ]
+    },
+    {
+      "combatants": [
+        "Yugoslav Partisans"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

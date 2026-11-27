@@ -9,6 +9,32 @@
     1863
   ],
   "editions": 57,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    -77.22583333333333,
+    39.81138888888889
+  ],
+  "summary": "Fought in the American Civil War between the Union and Confederate armies in and around Gettysburg, Pennsylvania.",
+  "result": "Union victory",
+  "sides": [
+    {
+      "combatants": [
+        "United States of America"
+      ],
+      "civilizations": [
+        "Q30"
+      ]
+    },
+    {
+      "combatants": [
+        "Confederate States of America"
+      ],
+      "civilizations": [
+        "Q81931"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -21,5 +47,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-gettysburg.png",
+  "map_asked": true
 }

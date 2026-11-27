@@ -9,6 +9,27 @@
     1501
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "Fought in 1501 near Sharur, close to Nakhchivan, between the forces of Ismail ibn Shaykh Haydar and the Aq Qoyunlu army of Alvand Mirza.",
+  "result": "Safavid victory",
+  "sides": [
+    {
+      "combatants": [
+        "Safavid order"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Aq Qoyunlu"
+      ],
+      "civilizations": [
+        "Q555994"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

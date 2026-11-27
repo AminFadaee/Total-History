@@ -9,6 +9,32 @@
     1930
   ],
   "editions": 20,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military campaigns in 1929 and 1930 that constituted a Chinese civil war between the Nationalist Kuomintang government in Nanjing led by Generalissimo Chiang Kai-shek and several regional military commanders and warlords who were former allies of Chiang.",
+  "result": "Nationalist government victory",
+  "sides": [
+    {
+      "combatants": [
+        "National Government of the Republic of China",
+        "Republic of China"
+      ],
+      "civilizations": [
+        "Q13426199"
+      ]
+    },
+    {
+      "combatants": [
+        "Yen Hsi-shan",
+        "Feng Yuxiang",
+        "Li Tsung-jen",
+        "Chang Fa-kwei",
+        "Tang Shengzhi"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

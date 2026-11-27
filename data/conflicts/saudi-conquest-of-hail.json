@@ -9,6 +9,27 @@
     1921
   ],
   "editions": 5,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between the Third Saudi State and the Emirate of Jabal Shammar, led by its final Rashidi ruler, Muhammad bin Talal.",
+  "result": "Saudi victory",
+  "sides": [
+    {
+      "combatants": [
+        "Third Saudi State"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Emirate of Jabal Shammar"
+      ],
+      "civilizations": [
+        "Q5362837"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

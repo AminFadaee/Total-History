@@ -9,6 +9,29 @@
     -208
   ],
   "editions": 10,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "An engagement that was fought in 208 BC between the Seleucid Empire and the Greco-Bactrian Kingdom.",
+  "result": "Seleucid victory",
+  "sides": [
+    {
+      "combatants": [
+        "Seleucid Empire"
+      ],
+      "civilizations": [
+        "Q93180"
+      ]
+    },
+    {
+      "combatants": [
+        "Greco-Bactrian Kingdom"
+      ],
+      "civilizations": [
+        "Q488880"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

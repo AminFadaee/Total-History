@@ -9,6 +9,38 @@
     -88
   ],
   "editions": 41,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Roman Republic and several of its autonomous allies, largely from 91 to 88 BC in Italy, with some holdouts persisting until 87 BC.",
+  "result": "Roman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic"
+      ],
+      "civilizations": [
+        "Q17167"
+      ]
+    },
+    {
+      "combatants": [
+        "Marsi",
+        "Paeligni",
+        "Vestini",
+        "Marrucini",
+        "Picentes",
+        "Frentani",
+        "Samnites",
+        "Campanians",
+        "Iapyges",
+        "Lucanians",
+        "Hirpini",
+        "Venosa"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "second": [
       {

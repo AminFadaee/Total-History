@@ -9,6 +9,55 @@
     1149
   ],
   "editions": 75,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The second major crusade launched from Europe.",
+  "result": "{{Plainlist|",
+  "sides": [
+    {
+      "combatants": [
+        "France in the Middle Ages",
+        "Holy Roman Empire",
+        "Kingdom of England",
+        "Kingdom of Sicily",
+        "Kingdom of Portugal",
+        "County of Barcelona",
+        "Kingdom of León",
+        "Kingdom of Jerusalem",
+        "County of Tripoli",
+        "Principality of Antioch",
+        "Knights Templar",
+        "Barcelona"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q175276",
+        "Q179876",
+        "Q188586",
+        "Q45670",
+        "Q55502"
+      ]
+    },
+    {
+      "combatants": [
+        "Sultanate of Rum",
+        "Zengid dynasty",
+        "Burid dynasty",
+        "Fatimid Caliphate",
+        "Almoravid Dynasty",
+        "Roman Empire",
+        "Battle of Constantinople"
+      ],
+      "civilizations": [
+        "Q160307",
+        "Q189545",
+        "Q2277",
+        "Q75613",
+        "Q975405"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

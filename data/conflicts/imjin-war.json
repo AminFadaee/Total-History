@@ -9,6 +9,29 @@
     1598
   ],
   "editions": 46,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of two Japanese invasions of Korea: an initial invasion in 1592 also individually called the \"Imjin War\", a brief truce in 1596 between the conflicts, followed by a second invasion in 1597 called the Chŏngyu War.",
+  "result": "Joseon and Ming victory",
+  "sides": [
+    {
+      "combatants": [
+        "Joseon",
+        "Ming Dynasty"
+      ],
+      "civilizations": [
+        "Q28179",
+        "Q9903"
+      ]
+    },
+    {
+      "combatants": [
+        "Azuchi-Momoyama period"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

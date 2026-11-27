@@ -9,6 +9,93 @@
     1434
   ],
   "editions": 51,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A series of civil wars fought between the Hussites and the combined Catholic forces of Holy Roman Emperor Sigismund, the Papacy, and European monarchs loyal to the Roman Catholic Church, as well as various Hussite factions.",
+  "result": "Victory of the moderate Hussites and Catholics over the radical Hussites:",
+  "sides": [
+    {
+      "combatants": [
+        "Czech lands",
+        "Hussites",
+        "Kingdom of Bohemia",
+        "Taborite",
+        "Prague Hussites",
+        "Orebites",
+        "Hussites of Žatec and Louny",
+        "Margraviate of Moravia",
+        "Grand Duchy of Lithuania"
+      ],
+      "civilizations": [
+        "Q49683"
+      ]
+    },
+    {
+      "combatants": [
+        "Crusades",
+        "Catholic Church",
+        "Kingdom of Hungary",
+        "Croatia in personal union with Hungary",
+        "Cumans",
+        "Holy Roman Empire",
+        "Kingdom of Germany",
+        "Lands of the Bohemian Crown",
+        "Landfrieden",
+        "Plzeň",
+        "Kingdom of Bohemia",
+        "Sudeten Germans",
+        "Margraviate of Moravia",
+        "Roman Catholic Archdiocese of Olomouc",
+        "Duchies of Silesia",
+        "Duchy of Oleśnica",
+        "Duchy of Nysa",
+        "Świdnica",
+        "Duchy of Ziębice",
+        "Duchy of Żagań",
+        "Roman Catholic Archdiocese of Wrocław",
+        "Duchy of Opava",
+        "Upper Lusatia",
+        "Lower Lusatia",
+        "Egerland",
+        "County of Kladsko",
+        "Margraviate of Meissen",
+        "Electorate of Saxony",
+        "Duchy of Austria",
+        "Electoral Palatinate",
+        "Margraviate of Brandenburg",
+        "Bavaria-Landshut",
+        "Electorate of Trier",
+        "Electorate of Cologne",
+        "Electorate of Mainz",
+        "Duchy of Thuringia",
+        "Landgraviate of Hesse",
+        "Prince-Bishopric of Würzburg",
+        "Brunswick-Lüneburg",
+        "Swabia",
+        "free imperial city",
+        "Teutonic Order",
+        "Knights Hospitaller",
+        "Papal States",
+        "Kingdom of England",
+        "Serbian Despotate",
+        "Crown of the Kingdom of Poland",
+        "Utraquism",
+        "Prague Hussites",
+        "Hussites",
+        "Taborite",
+        "Adamites"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q148499",
+        "Q156199",
+        "Q170174",
+        "Q175211",
+        "Q179876"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

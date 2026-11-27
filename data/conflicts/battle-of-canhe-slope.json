@@ -9,6 +9,31 @@
     395
   ],
   "editions": 7,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "A battle in the history of China in 395 where the Xianbei-led Later Yan dynasty, then ruling over northern and central China, had launched a punitive campaign against its former vassal, the Northern Wei dynasty, also of Xianbei extraction.",
+  "result": "Northern Wei victory",
+  "sides": [
+    {
+      "combatants": [
+        "Later Yan"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Northern Wei"
+      ],
+      "civilizations": [
+        "Q875305"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

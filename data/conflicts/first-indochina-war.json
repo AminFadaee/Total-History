@@ -9,6 +9,36 @@
     1954
   ],
   "editions": 65,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Fought in French Indochina between the French Union and the Viet Minh and their respective allies, from 19 December 1946 until 11 August 1954.",
+  "result": "Dissolution of French Indochina",
+  "sides": [
+    {
+      "combatants": [
+        "Vietnamese Independence League",
+        "People's Army of Vietnam",
+        "Pathet Lao",
+        "United Issarak Front",
+        "North Vietnam",
+        "Laos"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "French Union",
+        "French Fourth Republic",
+        "State of Vietnam",
+        "French Protectorate of Cambodia",
+        "South Vietnam",
+        "Kingdom of Laos",
+        "Cambodia"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

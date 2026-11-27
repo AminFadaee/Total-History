@@ -9,6 +9,31 @@
     1769
   ],
   "editions": 18,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A war fought between the Qing dynasty of China and the Konbaung dynasty of Burma.",
+  "result": "Burmese tributary missions to the Qing resumed in 1788",
+  "sides": [
+    {
+      "combatants": [
+        "Qing Dynasty",
+        "Burmese–Siamese War of 1765–1767",
+        "Thailand"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    },
+    {
+      "combatants": [
+        "Konbaung Dynasty"
+      ],
+      "civilizations": [
+        "Q1062422"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

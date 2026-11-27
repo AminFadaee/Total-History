@@ -9,6 +9,34 @@
     -612
   ],
   "editions": 23,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    43.15277777777778,
+    36.35944444444445
+  ],
+  "summary": "A major battle that marked the climax of the Conquest of the Assyrian Empire in 612 BC.",
+  "result": "Medo-Babylonian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Neo-Babylonian Empire",
+        "Median Kingdom"
+      ],
+      "civilizations": [
+        "Q20437507",
+        "Q624887"
+      ]
+    },
+    {
+      "combatants": [
+        "Neo-Assyrian Empire"
+      ],
+      "civilizations": [
+        "Q10914393"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -19,5 +47,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/fall-of-nineveh.png",
+  "map_asked": true
 }

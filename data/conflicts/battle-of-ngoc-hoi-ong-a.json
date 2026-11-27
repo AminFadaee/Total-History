@@ -9,6 +9,29 @@
     1788
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "Fought between the forces of the Vietnamese Tây Sơn dynasty and the Chinese Qing dynasty in Ngọc Hồi and Đống Đa in northern Vietnam from 1788 to 1789.",
+  "result": "Tây Sơn victory.",
+  "sides": [
+    {
+      "combatants": [
+        "Qing Dynasty",
+        "Lê Dynasty"
+      ],
+      "civilizations": [
+        "Q10800789",
+        "Q8733"
+      ]
+    },
+    {
+      "combatants": [
+        "Tây Sơn dynasty"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "ending": [
       {

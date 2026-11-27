@@ -9,6 +9,32 @@
     1800
   ],
   "editions": 46,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    8.6833333333333,
+    44.883333333333
+  ],
+  "summary": "Fought on 14 June 1800 between French forces under the First Consul Napoleon Bonaparte and Austrian forces near the city of Alessandria, in Piedmont, Italy.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "French First Republic"
+      ],
+      "civilizations": [
+        "Q58296"
+      ]
+    },
+    {
+      "combatants": [
+        "Habsburg Monarchy"
+      ],
+      "civilizations": [
+        "Q153136"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

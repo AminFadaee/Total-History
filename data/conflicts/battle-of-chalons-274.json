@@ -9,6 +9,32 @@
     274
   ],
   "editions": 14,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    4.365,
+    48.9575
+  ],
+  "summary": "Fought in 273 or 274 in the land of the Catalauni, at an unknown location probably not far from the present-day Châlons-en-Champagne, France.",
+  "result": "Roman victory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Gallic Empire"
+      ],
+      "civilizations": [
+        "Q273025"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {
@@ -30,5 +56,7 @@
         ]
       }
     ]
-  }
+  },
+  "map": "conflicts/conflict-maps/battle-of-chalons-274.png",
+  "map_asked": true
 }

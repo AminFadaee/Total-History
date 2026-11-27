@@ -9,6 +9,40 @@
     1229
   ],
   "editions": 57,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A military and ideological campaign initiated by Pope Innocent III to eliminate Catharism in Languedoc, what is now southern France.",
+  "result": "Crusader victory, Treaty of Paris",
+  "sides": [
+    {
+      "combatants": [
+        "Crusades",
+        "Medieval Inquisition",
+        "Dominican Order",
+        "France in the Middle Ages"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Catharism",
+        "County of Toulouse",
+        "family Trencavel",
+        "Crown of Aragon",
+        "County of Foix",
+        "Kingdom of England"
+      ],
+      "civilizations": [
+        "Q179876",
+        "Q204920"
+      ]
+    },
+    {
+      "combatants": [],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,29 @@
     534
   ],
   "editions": 35,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict fought in North Africa between the forces of the Byzantine Empire and the Germanic Vandal Kingdom.",
+  "result": "Byzantines annex Vandal territory",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    },
+    {
+      "combatants": [
+        "Vandal Kingdom"
+      ],
+      "civilizations": [
+        "Q10416611"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

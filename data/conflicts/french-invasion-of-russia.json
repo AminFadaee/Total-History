@@ -9,6 +9,58 @@
     1812
   ],
   "editions": 76,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Initiated by Napoleon with the aim of forcing the Russian Empire to comply with the continental blockade of the United Kingdom.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "First French Empire",
+        "Duchy of Warsaw",
+        "Lithuanian Provisional Governing Commission",
+        "Kingdom of Italy",
+        "Kingdom of Naples",
+        "Switzerland in the Napoleonic era",
+        "Confederation of the Rhine",
+        "Kingdom of Saxony",
+        "Kingdom of Bavaria",
+        "Kingdom of Westphalia",
+        "Kingdom of Württemberg",
+        "Grand Duchy of Hesse",
+        "Grand Duchy of Berg",
+        "Grand Duchy of Baden",
+        "Grand Duchy of Frankfurt",
+        "Grand Duchy of Würzburg",
+        "Old Swiss Confederacy",
+        "Austrian Empire",
+        "Kingdom of Prussia",
+        "Westphalia",
+        "Baden"
+      ],
+      "civilizations": [
+        "Q131964",
+        "Q152115",
+        "Q153015",
+        "Q154195",
+        "Q154741",
+        "Q173065",
+        "Q435583",
+        "Q71084"
+      ]
+    },
+    {
+      "combatants": [
+        "Russian Empire",
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q174193",
+        "Q34266"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

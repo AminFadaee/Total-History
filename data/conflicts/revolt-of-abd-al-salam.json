@@ -9,6 +9,32 @@
     null
   ],
   "editions": 6,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An early 19th century uprising against the Sokoto Caliphate led by Abd al-Salam of Kware, a Ba-Are Hausa scholar and one of the principal disciples of Shehu Usman dan Fodio, founder of the Caliphate.",
+  "result": "Sokoto victory",
+  "sides": [
+    {
+      "combatants": [
+        "Sultanate of Agadez",
+        "Sokoto Caliphate"
+      ],
+      "civilizations": [
+        "Q600524"
+      ]
+    },
+    {
+      "combatants": [
+        "Kware",
+        "Kouré",
+        "Gobir",
+        "Kingdom of Kebbi",
+        "Kingdom of Zamfara"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "central": [
       {

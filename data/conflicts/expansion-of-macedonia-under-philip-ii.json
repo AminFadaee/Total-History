@@ -9,6 +9,42 @@
     -336
   ],
   "editions": 15,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Rise of Macedon.",
+  "result": "Macedonian hegemony",
+  "sides": [
+    {
+      "combatants": [
+        "Macedonia"
+      ],
+      "civilizations": [
+        "Q83958"
+      ]
+    },
+    {
+      "combatants": [
+        "Illyrians",
+        "Paeonia",
+        "Phocis",
+        "Chalkidian League",
+        "Odrysian Kingdom",
+        "Getae",
+        "Triballi",
+        "Scythia",
+        "Classical Athens",
+        "Thebes",
+        "Achaemenid Empire"
+      ],
+      "civilizations": [
+        "Q131802",
+        "Q389688",
+        "Q844930",
+        "Q870517"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

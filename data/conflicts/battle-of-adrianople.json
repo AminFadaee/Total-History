@@ -9,6 +9,35 @@
     378
   ],
   "editions": 50,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    26.6,
+    41.8
+  ],
+  "summary": "Fought between the Eastern Roman army led by the Roman emperor Valens and Gothic rebels, led by Fritigern.",
+  "result": "Gothic–Alan victory",
+  "sides": [
+    {
+      "combatants": [
+        "Goths",
+        "Thervingi",
+        "Greuthungi",
+        "Alans"
+      ],
+      "civilizations": [
+        "Q42193"
+      ]
+    },
+    {
+      "combatants": [
+        "Roman Empire"
+      ],
+      "civilizations": [
+        "Q2277"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

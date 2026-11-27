@@ -9,6 +9,85 @@
     1924
   ],
   "editions": 45,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Initially fought by European colonial empires, the United States, Confederate States and Republic of Texas against various American Indian tribes in North America.",
+  "result": "European Colonist Victory",
+  "sides": [
+    {
+      "combatants": [
+        "indigenous peoples of the Americas",
+        "Indigenous peoples of the United States in North America",
+        "Cherokee",
+        "Comanche",
+        "Muscogee",
+        "Lakota people",
+        "Miami people",
+        "Shawnee",
+        "Seminole",
+        "Wampanoag people",
+        "Western Confederacy",
+        "Tecumseh's Confederacy",
+        "Alaska Natives"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "settler",
+        "viceroyalty",
+        "colonial empire",
+        "British Empire",
+        "British America",
+        "Kingdom of Great Britain",
+        "United Kingdom",
+        "British North America",
+        "French colonial empire",
+        "Kingdom of France",
+        "New France",
+        "Kingdom of Spain",
+        "Council of the Indies",
+        "New Spain",
+        "Dutch Empire",
+        "New Netherland",
+        "Swedish Empire",
+        "New Sweden",
+        "Russian colonization of North America",
+        "United States of America",
+        "indigenous peoples of the Americas",
+        "Kingdom of England",
+        "Kingdom of Scotland",
+        "name of Canada",
+        "Thirteen Colonies",
+        "Spanish Empire",
+        "Dutch Republic",
+        "Russian Empire",
+        "Mexico",
+        "Republic of Texas",
+        "Confederate States of America"
+      ],
+      "civilizations": [
+        "Q145",
+        "Q161885",
+        "Q170072",
+        "Q170588",
+        "Q170604",
+        "Q179023",
+        "Q179876",
+        "Q215443",
+        "Q230791",
+        "Q29",
+        "Q30",
+        "Q34266",
+        "Q70972",
+        "Q80702",
+        "Q81931",
+        "Q8680",
+        "Q96"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {

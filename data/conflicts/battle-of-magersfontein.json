@@ -9,6 +9,34 @@
     1899
   ],
   "editions": 16,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    24.698333333333334,
+    -28.969444444444445
+  ],
+  "summary": "Fought on 11 December 1899, at Magersfontein, near Kimberley, South Africa, on the borders of the Cape Colony and the independent republic of the Orange Free State.",
+  "result": "Boer victory",
+  "sides": [
+    {
+      "combatants": [
+        "United Kingdom of Great Britain and Ireland"
+      ],
+      "civilizations": [
+        "Q174193"
+      ]
+    },
+    {
+      "combatants": [
+        "South African Republic",
+        "Free Orange State"
+      ],
+      "civilizations": [
+        "Q218023",
+        "Q550374"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

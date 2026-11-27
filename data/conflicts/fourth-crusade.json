@@ -9,6 +9,35 @@
     1204
   ],
   "editions": 76,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A Latin Christian armed expedition called by Pope Innocent III.",
+  "result": "See Aftermath",
+  "sides": [
+    {
+      "combatants": [
+        "France in the Middle Ages",
+        "Holy Roman Empire",
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q4948"
+      ]
+    },
+    {
+      "combatants": [
+        "Byzantine Empire under the Angelos dynasty",
+        "Kingdom of Hungary (1000–1301)",
+        "Croatia in personal union with Hungary",
+        "Ayyubid Sultanate"
+      ],
+      "civilizations": [
+        "Q180114"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

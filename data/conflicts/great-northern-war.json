@@ -9,6 +9,42 @@
     1721
   ],
   "editions": 76,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "Swedish-Russian conflict (1700–1721).",
+  "result": "{{plainlist|",
+  "sides": [
+    {
+      "combatants": [
+        "Swedish Empire",
+        "Duke of Holstein-Gottorp",
+        "Polish-Lithuanian Commonwealth",
+        "Cossack Hetmanate",
+        "Zaporizhian Sich"
+      ],
+      "civilizations": [
+        "Q215443"
+      ]
+    },
+    {
+      "combatants": [
+        "Tsardom of Russia",
+        "Cossack Hetmanate",
+        "Denmark-Norway",
+        "Electorate of Saxony",
+        "Polish-Lithuanian Commonwealth",
+        "Kingdom of Prussia",
+        "Electorate of Hanover",
+        "Kalmyk Khanate"
+      ],
+      "civilizations": [
+        "Q156199",
+        "Q186096",
+        "Q62651"
+      ]
+    }
+  ],
   "roles": {
     "big": [
       {

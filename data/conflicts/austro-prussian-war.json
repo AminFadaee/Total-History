@@ -9,6 +9,65 @@
     1866
   ],
   "editions": 67,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "Fought in 1866 between the Austrian Empire and the Kingdom of Prussia, with each also being aided by various allies within the German Confederation.",
+  "result": "Italo-Prussian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Prussia",
+        "Duchy of Saxe-Lauenburg",
+        "Grand Duchy of Mecklenburg-Schwerin",
+        "Duchy of Brunswick",
+        "Duchy of Saxe-Coburg and Gotha",
+        "Duchy of Saxe-Altenburg",
+        "Grand Duchy of Mecklenburg-Strelitz",
+        "Grand Duchy of Oldenburg",
+        "Duchy of Anhalt",
+        "Principality of Schwarzburg-Sondershausen",
+        "Principality of Waldeck",
+        "Principality of Lippe",
+        "History of the Free and Hanseatic City of Lübeck",
+        "Bremen",
+        "Hamburg",
+        "Kingdom of Italy",
+        "Prussia",
+        "Brunswick"
+      ],
+      "civilizations": [
+        "Q172579",
+        "Q38872"
+      ]
+    },
+    {
+      "combatants": [
+        "Electorate of Hesse",
+        "Grand Duchy of Hesse",
+        "Duchy of Nassau",
+        "Duchy of Saxe-Meiningen",
+        "Principality of Reuss-Greiz",
+        "Schaumburg-Lippe",
+        "Free City of Frankfurt",
+        "German Confederation",
+        "Austrian Empire",
+        "Kingdom of Bavaria",
+        "Kingdom of Saxony",
+        "Kingdom of Hanover",
+        "Württemberg",
+        "Baden",
+        "Hesse"
+      ],
+      "civilizations": [
+        "Q131964",
+        "Q151624",
+        "Q153015",
+        "Q154195",
+        "Q164079"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

@@ -9,6 +9,33 @@
     1644
   ],
   "editions": 15,
+  "vital_level": 5,
+  "battle": true,
+  "point": [
+    119.77555555555556,
+    39.97888888888889
+  ],
+  "summary": "A decisive battle leading to the beginning of the Qing dynasty rule in China proper.",
+  "result": "Qing victory",
+  "sides": [
+    {
+      "combatants": [
+        "Qing Dynasty",
+        "Ming Dynasty",
+        "Shanhai Pass"
+      ],
+      "civilizations": [
+        "Q8733",
+        "Q9903"
+      ]
+    },
+    {
+      "combatants": [
+        "Shun dynasty"
+      ],
+      "civilizations": []
+    }
+  ],
   "roles": {
     "ending": [
       {

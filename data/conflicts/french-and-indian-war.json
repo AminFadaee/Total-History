@@ -9,6 +9,33 @@
     1763
   ],
   "editions": 55,
+  "vital_level": 4,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict in North America between Great Britain and France, along with their respective Indigenous allies.",
+  "result": "France cedes New France east of the Mississippi River to Great Britain, retaining Saint Pierre and Miquelon, and transfers Louisiana to Spain.",
+  "sides": [
+    {
+      "combatants": [
+        "British America",
+        "Kingdom of Great Britain"
+      ],
+      "civilizations": [
+        "Q161885"
+      ]
+    },
+    {
+      "combatants": [
+        "French Canada",
+        "Kingdom of France",
+        "New France"
+      ],
+      "civilizations": [
+        "Q170604",
+        "Q70972"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

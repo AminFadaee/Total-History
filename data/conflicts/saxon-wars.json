@@ -9,6 +9,31 @@
     804
   ],
   "editions": 25,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "32 years of campaigns and insurrections from 772, when Charlemagne first entered Saxony with the intent to conquer, to 804 when the last rebellion of tribesmen was defeated.",
+  "result": "Frankish victory",
+  "sides": [
+    {
+      "combatants": [
+        "Francia",
+        "Obotrites"
+      ],
+      "civilizations": [
+        "Q146246"
+      ]
+    },
+    {
+      "combatants": [
+        "Saxons",
+        "Frisians"
+      ],
+      "civilizations": [
+        "Q101985"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

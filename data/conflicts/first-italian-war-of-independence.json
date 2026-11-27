@@ -9,6 +9,32 @@
     1849
   ],
   "editions": 39,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought by the Kingdom of Sardinia and Italian volunteers against the Austrian Empire and other conservative states from 23 March 1848 to 22 August 1849 in the Italian Peninsula.",
+  "result": "Return to the status quo ante bellum",
+  "sides": [
+    {
+      "combatants": [
+        "Kingdom of Sardinia",
+        "Revolutions of 1848 in the Italian states"
+      ],
+      "civilizations": [
+        "Q2577303"
+      ]
+    },
+    {
+      "combatants": [
+        "Austrian Empire",
+        "French Second Republic"
+      ],
+      "civilizations": [
+        "Q131964",
+        "Q58326"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

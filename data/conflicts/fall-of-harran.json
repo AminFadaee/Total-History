@@ -9,6 +9,31 @@
     -609
   ],
   "editions": 12,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "The siege and capture of the Assyrian city of Harran by the Median and Neo-Babylonian empires.",
+  "result": "Medo-Babylonian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Neo-Babylonian Empire",
+        "Median Kingdom"
+      ],
+      "civilizations": [
+        "Q20437507",
+        "Q624887"
+      ]
+    },
+    {
+      "combatants": [
+        "Neo-Assyrian Empire"
+      ],
+      "civilizations": [
+        "Q10914393"
+      ]
+    }
+  ],
   "roles": {
     "ending": [
       {

@@ -9,6 +9,44 @@
     -168
   ],
   "editions": 32,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A war fought between the Roman Republic and King Perseus of Macedon.",
+  "result": "Macedon divided into four merides",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Republic",
+        "Kingdom of Pergamon",
+        "Thessalian League",
+        "Achaean League",
+        "Thesprotians",
+        "Chaonians",
+        "Aetolia",
+        "Illyrian kingdom"
+      ],
+      "civilizations": [
+        "Q17167",
+        "Q2022162"
+      ]
+    },
+    {
+      "combatants": [
+        "Macedonia",
+        "Odrysian Kingdom",
+        "Molossians",
+        "Athamanians",
+        "Crete",
+        "Aetolia",
+        "Illyrian kingdom"
+      ],
+      "civilizations": [
+        "Q83958",
+        "Q870517"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

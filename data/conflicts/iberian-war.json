@@ -9,6 +9,43 @@
     532
   ],
   "editions": 23,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought from 526 to 532 between the Byzantine Empire and the Sasanian Empire over the eastern Georgian kingdom of Iberia—a Sasanian client state that defected to the Byzantines.",
+  "result": "Inconclusive",
+  "sides": [
+    {
+      "combatants": [
+        "Roman Empire",
+        "Caucasian Iberia",
+        "Lazica",
+        "Ghassanids",
+        "Hunnic Empire",
+        "Heruli",
+        "Kingdom of Axum",
+        "Kindah Kingdom"
+      ],
+      "civilizations": [
+        "Q139377",
+        "Q19083",
+        "Q2277",
+        "Q45813",
+        "Q733668"
+      ]
+    },
+    {
+      "combatants": [
+        "Sasanian Empire",
+        "Lakhmid Kingdom",
+        "Sabir people"
+      ],
+      "civilizations": [
+        "Q83891",
+        "Q943191"
+      ]
+    }
+  ],
   "roles": {
     "central": [
       {

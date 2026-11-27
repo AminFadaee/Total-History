@@ -9,6 +9,27 @@
     1402
   ],
   "editions": 16,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A three-year civil war from 1399 to 1402 in the early years of the Ming dynasty of China between the Jianwen Emperor and his uncle, Zhu Di, Prince of Yan.",
+  "result": "Yan victory",
+  "sides": [
+    {
+      "combatants": [
+        "Prince of Yan"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Ming Dynasty"
+      ],
+      "civilizations": [
+        "Q9903"
+      ]
+    }
+  ],
   "roles": {
     "second": [
       {
