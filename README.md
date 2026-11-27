@@ -32,6 +32,8 @@ after, and the war that ended it.
 | Period | When: Achaemenid Empire | 550–330 BC | the period is confirmed, or Wikidata gives it as approximate (c. 57 BC – AD 892 for Silla), or the state still exists (since 1867 for Canada) |
 | Capital | Parthian Empire, capital: ?, on its map with the capitals dotted | Ctesiphon, Qumis, Nisa, named on the map | it has a capital and is not named after it (see below); the map only when a capital's place is known |
 | Where | Where: Sasanian Empire | its map | it has a Map card |
+| Rise | How it began: Republic of Texas | Texas Revolution (1835–1836) | it has a founding conflict (see [Conflicts](#conflicts)) |
+| Fall | How it ended: Aztec Triple Alliance | Spanish conquest of the Aztec Empire (1519–1521) | it has an ending conflict |
 
 <p>
   <img src="docs/samples/civilization-map.webp" width="49%" alt="Map card for the Parthian Empire">
@@ -39,6 +41,8 @@ after, and the war that ended it.
   <img src="docs/samples/civilization-period.webp" width="49%" alt="Period card for the Achaemenid Empire">
   <img src="docs/samples/civilization-capital.webp" width="49%" alt="Capital card for the Parthian Empire">
   <img src="docs/samples/civilization-where.webp" width="49%" alt="Where card for the Sasanian Empire">
+  <img src="docs/samples/civilization-rise.webp" width="49%" alt="Rise card for the Republic of Texas">
+  <img src="docs/samples/civilization-fall.webp" width="49%" alt="Fall card for the Aztec Triple Alliance">
 </p>
 
 The backs of the Map, Period and Where cards also show what the civilization was (the opening sentence of its Wikipedia article without its
@@ -200,8 +204,8 @@ search and a YouTube search for the civilization or person.
 New cards come a tier at a time, Essential first, then Core, then Extended, and within a tier in the order of history:
 civilizations by when they began, each followed by the tier's people filed first under it, by birth, then by its
 conflicts of the tier, by date; someone or something whose civilization is in another tier, or has no card, comes where
-its own years begin. The Essential tier is about 590 cards, a month at twenty new cards a day; the conflicts add about
-460 cards in all.
+its own years begin. The Essential tier is about 600 cards, a month at twenty new cards a day; the conflicts add about
+650 cards in all, with the 50 Rise and 140 Fall cards.
 
 To study one kind of question, make a filtered deck from a search such as `card:Capital`,
 `tag:TH::Category::Figures` or `tag:TH::Tier::Essential`. To skip a kind, find it in the browser and suspend the

@@ -10,7 +10,7 @@ import pytest
 
 from total_history.deck import (CIVILIZATION_TEMPLATES, CONFLICT_TEMPLATES, FIGURE_TEMPLATES, LINKS, capital_asked,
                                 civilization_guid, conflict_asked, conflict_guid, figure_guid, figure_tier, known_for, named_after,
-                                roles_text, sides_asked, sides_text, study_order, told_apart, years_asked, years_text)
+                                roles_text, sides_asked, turning_points, sides_text, study_order, told_apart, years_asked, years_text)
 
 DECK = pathlib.Path(__file__).resolve().parents[1] / "build" / "total_history.apkg"
 MEDIA_REFERENCE = re.compile(r'src="([^"]+)"')
@@ -182,3 +182,17 @@ def test_conflicts_follow_their_civilization_and_its_people():
     wars = [conflict("Dacian Wars", (101, 106), [], {"central": ["Rome"]}), conflict("Elsewhere", (-300, -290), [], {})]
     order = study_order([rome, han], people, wars)
     assert sorted(order, key=order.get) == ["Han", "Rome", "Trajan", "Dacian Wars", "Elsewhere"]
+
+
+def test_rise_and_fall_name_the_conflict_with_its_years():
+    texas = conflict("Texas Revolution", (1835, 1836), [], {"founding": ["Republic of Texas"]})
+    texas["roles"]["founding"][0]["id"] = "Q170588"
+    aztecs = conflict("Spanish conquest of the Aztec Empire", (1519, 1521), [], {"ending": ["Aztec Triple Alliance"]})
+    aztecs["roles"]["ending"][0]["id"] = "Q12542"
+    assert turning_points([texas, aztecs]) == {"Q170588": {"Rise": "Texas Revolution (1835–1836)"},
+                                              "Q12542": {"Fall": "Spanish conquest of the Aztec Empire (1519–1521)"}}
+
+
+def test_new_card_types_come_after_the_old_ones_so_reviews_keep_their_cards():
+    names = [template.name for template in CIVILIZATION_TEMPLATES]
+    assert names[-2:] == ["Rise", "Fall"] and names.index("Where") == len(names) - 3

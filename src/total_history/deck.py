@@ -216,13 +216,22 @@ CIVILIZATION_TEMPLATES = (
     Template("Where", ("AskMap",),
              face(entity(CIVILIZATION_TITLE), "Where", UNKNOWN_VALUE),
              face(entity(CIVILIZATION_TITLE), "Where", MAP_IMAGE) + CIVILIZATION_INFO),
+    Template("Rise", ("Rise",),
+             face(entity(CIVILIZATION_TITLE), "How it began", UNKNOWN_VALUE),
+             face(entity(CIVILIZATION_TITLE), "How it began", value("{{Rise}}", answered=True))
+             + CIVILIZATION_INFO + MAP_THUMBNAIL),
+    Template("Fall", ("Fall",),
+             face(entity(CIVILIZATION_TITLE), "How it ended", UNKNOWN_VALUE),
+             face(entity(CIVILIZATION_TITLE), "How it ended", value("{{Fall}}", answered=True))
+             + CIVILIZATION_INFO + MAP_THUMBNAIL),
 )
 
 CIVILIZATION_FIELDS = ("Id", "Name", "Map", "AskMap", "Period", "AskPeriod", "Capital", "Before", "BeforeRegion",
                        "After", "AfterRegion", "Rulers", "ModernCountries", "Summary", "BeforeList", "AfterList",
                        *(f"{slot(side, number)}{part}" for side in ("Before", "After")
                          for number in range(2, SUCCESSION_SLOTS + 1) for part in ("", "Region")),
-                       "PeriodNote", "BeforeNote", "AfterNote", "AskCapital", "CapitalMap", "CapitalMapAnswer", "Legacy")
+                       "PeriodNote", "BeforeNote", "AfterNote", "AskCapital", "CapitalMap", "CapitalMapAnswer", "Legacy",
+                       "Rise", "Fall")
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
@@ -571,6 +580,19 @@ def years_asked(document: dict) -> bool:
     return bool(years_text(document)) and ("big" in document["roles"] or level is not None and level <= WHEN_VITAL_LEVEL)
 
 
+def turning_points(conflicts: list[dict]) -> dict[str, dict[str, str]]:
+    """For each civilization, the conflict that brought it about and the one that ended it, with their years:
+    {"Q2429253": {"Rise": "Texas Revolution (1835–1836)"}}."""
+    found: dict[str, dict[str, str]] = {}
+    for document in conflicts:
+        years = years_text(document)
+        named = f"{document['title']} ({years})" if years else document["title"]
+        for role, field in (("founding", "Rise"), ("ending", "Fall")):
+            for member in document["roles"].get(role, []):
+                found.setdefault(member["id"], {})[field] = named
+    return found
+
+
 def conflict_asked(document: dict) -> bool:
     """Whether the conflict gets a note: when one of its cards is made."""
     return sides_asked(document) or years_asked(document) or bool(document.get("map_asked"))
@@ -657,7 +679,7 @@ class DeckBuilder:
         self.root = genanki.Deck(stable_id(DECK_NAME), DECK_NAME, description())
         self.notes = 0
 
-    def add_civilization(self, document: dict, position: int) -> None:
+    def add_civilization(self, document: dict, position: int, turns: dict[str, str] | None = None) -> None:
         period = document["period"]
         values = {
             "Id": document["id"],
@@ -677,6 +699,8 @@ class DeckBuilder:
             "Legacy": escaped(document.get("legacy", "")),
             "ModernCountries": countries(document["modern_countries"])
                                + (f" · overseas: {countries(document['overseas_countries'])}" if document.get("overseas_countries") else ""),
+            "Rise": escaped((turns or {}).get("Rise")),
+            "Fall": escaped((turns or {}).get("Fall")),
         }
         self._add(self.civilization_model, CIVILIZATION_FIELDS, CIVILIZATION_TEMPLATES, values,
                   civilization_tags(document), civilization_guid(document["id"]), position)
@@ -762,12 +786,13 @@ def start_year(document: dict) -> int:
 def build_deck(civilizations: list[dict], figures: list[dict], conflicts: list[dict], data_dir: pathlib.Path,
                build_dir: pathlib.Path, output: pathlib.Path) -> None:
     builder = DeckBuilder(data_dir, build_dir)
+    turns = turning_points(conflicts)
     conflicts = [document for document in conflicts if conflict_asked(document)]
     maps = {document["name"]: document["map"] for document in civilizations}
     tiers = {document["name"]: document["tier"] for document in civilizations}
     reversible, positions = told_apart(figures), study_order(civilizations, figures, conflicts)
     for document in civilizations:
-        builder.add_civilization(document, positions[document["id"]])
+        builder.add_civilization(document, positions[document["id"]], turns.get(document["id"]))
     for document in figures:
         builder.add_figure(document, maps, positions[document["id"]], document["id"] in reversible)
     for document in conflicts:
