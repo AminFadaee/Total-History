@@ -1,0 +1,24 @@
+{
+  "id": "Q249232",
+  "slug": "war-of-the-third-coalition",
+  "name": "War of the Third Coalition",
+  "title": "War of the Third Coalition",
+  "wikipedia": "War of the Third Coalition",
+  "years": [
+    1805,
+    1806
+  ],
+  "editions": 51,
+  "roles": {
+    "central": [
+      {
+        "id": "Q131964",
+        "name": "Austrian Empire",
+        "evidence": [
+          "infobox",
+          "override"
+        ]
+      }
+    ]
+  }
+}

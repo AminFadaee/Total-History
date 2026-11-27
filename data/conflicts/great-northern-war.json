@@ -1,0 +1,101 @@
+{
+  "id": "Q151616",
+  "slug": "great-northern-war",
+  "name": "Great Northern War",
+  "title": "Great Northern War",
+  "wikipedia": "Great Northern War",
+  "years": [
+    1700,
+    1721
+  ],
+  "editions": 76,
+  "roles": {
+    "big": [
+      {
+        "id": "Q212439",
+        "name": "Cossack Hetmanate",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q62651",
+        "name": "Denmark-Norway",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q156199",
+        "name": "Electorate of Saxony",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q161885",
+        "name": "Kingdom of Great Britain",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q12560",
+        "name": "Ottoman Empire",
+        "evidence": [
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q172107",
+        "name": "Polish-Lithuanian Commonwealth",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q215443",
+        "name": "Swedish Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q186096",
+        "name": "Tsardom of Russia",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q34",
+        "name": "Kingdom of Sweden",
+        "evidence": [
+          "override"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q215443",
+        "name": "Swedish Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

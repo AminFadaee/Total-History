@@ -1,0 +1,35 @@
+{
+  "id": "Q1552718",
+  "slug": "granada-war",
+  "name": "Granada War",
+  "title": "Granada War",
+  "wikipedia": "Granada War",
+  "years": [
+    1482,
+    1492
+  ],
+  "editions": 34,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q238445",
+        "name": "Emirate of Granada",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q217196",
+        "name": "Crown of Castile",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

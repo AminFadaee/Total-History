@@ -1,0 +1,31 @@
+{
+  "id": "Q228284",
+  "slug": "expedition-of-the-thousand",
+  "name": "Expedition of the Thousand",
+  "title": "Expedition of the Thousand",
+  "wikipedia": "Expedition of the Thousand",
+  "years": [
+    1860,
+    1861
+  ],
+  "editions": 34,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q2577303",
+        "name": "Kingdom of Sardinia",
+        "evidence": [
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q180393",
+        "name": "Kingdom of the Two Sicilies",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

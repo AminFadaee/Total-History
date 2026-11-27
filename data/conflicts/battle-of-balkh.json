@@ -1,0 +1,33 @@
+{
+  "id": "Q4087412",
+  "slug": "battle-of-balkh",
+  "name": "Battle of Balkh",
+  "title": "Battle of Balkh",
+  "wikipedia": "Battle of Balkh",
+  "years": [
+    900,
+    900
+  ],
+  "editions": 7,
+  "roles": {
+    "central": [
+      {
+        "id": "Q45310",
+        "name": "Saffarid Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q12150341",
+        "name": "Samanid Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "Q79911",
+  "slug": "russian-civil-war",
+  "name": "Russian Civil War",
+  "title": "Russian Civil War",
+  "wikipedia": "Russian Civil War",
+  "years": [
+    1917,
+    1922
+  ],
+  "editions": 100,
+  "roles": {
+    "big": [
+      {
+        "id": "Q206411",
+        "name": "Azerbaijan Democratic Republic",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q188712",
+        "name": "Empire of Japan",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q43287",
+        "name": "German Empire",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q139319",
+        "name": "Russian Republic",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q207272",
+        "name": "Second Polish Republic",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q15180",
+        "name": "Union of Soviet Socialist Republics",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

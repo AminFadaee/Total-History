@@ -1,0 +1,32 @@
+{
+  "id": "Q200855",
+  "slug": "battle-of-vienna",
+  "name": "Battle of Vienna",
+  "title": "Battle of Vienna",
+  "wikipedia": "Battle of Vienna",
+  "years": [
+    1683,
+    1683
+  ],
+  "editions": 63,
+  "roles": {
+    "central": [
+      {
+        "id": "Q153136",
+        "name": "Habsburg Monarchy",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q172107",
+        "name": "Polish-Lithuanian Commonwealth",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

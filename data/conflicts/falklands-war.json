@@ -1,0 +1,33 @@
+{
+  "id": "Q48249",
+  "slug": "falklands-war",
+  "name": "Falklands War",
+  "title": "Falklands War",
+  "wikipedia": "Falklands War",
+  "years": [
+    1982,
+    1982
+  ],
+  "editions": 89,
+  "roles": {
+    "second": [
+      {
+        "id": "Q414",
+        "name": "Argentine Republic",
+        "evidence": [
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q145",
+        "name": "United Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

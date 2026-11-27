@@ -1,0 +1,74 @@
+{
+  "id": "Q254106",
+  "slug": "crimean-war",
+  "name": "Crimean War",
+  "title": "Crimean War",
+  "wikipedia": "Crimean War",
+  "years": [
+    1853,
+    1856
+  ],
+  "editions": 92,
+  "roles": {
+    "big": [
+      {
+        "id": "Q8680",
+        "name": "British Empire",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q209065",
+        "name": "Kingdom of Greece",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q2577303",
+        "name": "Kingdom of Sardinia",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q12560",
+        "name": "Ottoman Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q34266",
+        "name": "Russian Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q71092",
+        "name": "Second French Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q174193",
+        "name": "United Kingdom of Great Britain and Ireland",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

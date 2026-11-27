@@ -1,0 +1,35 @@
+{
+  "id": "Q2887977",
+  "slug": "battle-of-hormozdgan",
+  "name": "Battle of Hormozdgan",
+  "title": "Battle of Hormozdgan",
+  "wikipedia": "Battle of Hormozdgan",
+  "years": [
+    224,
+    224
+  ],
+  "editions": 18,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q1986139",
+        "name": "Parthian Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q83891",
+        "name": "Sasanian Empire",
+        "evidence": [
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

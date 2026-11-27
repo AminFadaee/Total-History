@@ -1,0 +1,24 @@
+{
+  "id": "Q1280119",
+  "slug": "battle-of-the-ebro",
+  "name": "Battle of the Ebro",
+  "title": "Battle of the Ebro",
+  "wikipedia": "Battle of the Ebro",
+  "years": [
+    1938,
+    1938
+  ],
+  "editions": 25,
+  "roles": {
+    "central": [
+      {
+        "id": "Q178038",
+        "name": "Second Spanish Republic",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

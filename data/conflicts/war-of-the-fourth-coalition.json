@@ -1,0 +1,33 @@
+{
+  "id": "Q605977",
+  "slug": "war-of-the-fourth-coalition",
+  "name": "War of the Fourth Coalition",
+  "title": "War of the Fourth Coalition",
+  "wikipedia": "War of the Fourth Coalition",
+  "years": [
+    1806,
+    1807
+  ],
+  "editions": 47,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q156199",
+        "name": "Electorate of Saxony",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q152115",
+        "name": "Duchy of Warsaw",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

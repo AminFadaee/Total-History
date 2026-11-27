@@ -1,0 +1,31 @@
+{
+  "id": "Q735349",
+  "slug": "russian-conquest-of-siberia",
+  "name": "Colonization of Siberia",
+  "title": "Colonization of Siberia",
+  "wikipedia": "Russian conquest of Siberia",
+  "years": [
+    1580,
+    1580
+  ],
+  "editions": 41,
+  "roles": {
+    "central": [
+      {
+        "id": "Q190513",
+        "name": "Khanate of Sibir",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q186096",
+        "name": "Tsardom of Russia",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

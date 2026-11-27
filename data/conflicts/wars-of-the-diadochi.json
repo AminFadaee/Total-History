@@ -1,0 +1,32 @@
+{
+  "id": "Q2912306",
+  "slug": "wars-of-the-diadochi",
+  "name": "Wars of the Diadochi",
+  "title": "Wars of the Diadochi",
+  "wikipedia": "Wars of the Diadochi",
+  "years": [
+    -322,
+    -275
+  ],
+  "editions": 29,
+  "roles": {
+    "central": [
+      {
+        "id": "Q220594",
+        "name": "Nabataeans",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q2320005",
+        "name": "Ptolemaic Kingdom",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

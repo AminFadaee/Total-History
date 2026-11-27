@@ -1,0 +1,70 @@
+{
+  "id": "Q46083",
+  "slug": "franco-prussian-war",
+  "name": "Franco-Prussian War",
+  "title": "Franco-Prussian War",
+  "wikipedia": "Franco-Prussian War",
+  "years": [
+    1870,
+    1871
+  ],
+  "editions": 90,
+  "roles": {
+    "big": [
+      {
+        "id": "Q70802",
+        "name": "French Third Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q154195",
+        "name": "Kingdom of Bavaria",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q153015",
+        "name": "Kingdom of Saxony",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q150981",
+        "name": "North German Confederation",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q71092",
+        "name": "Second French Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q70802",
+        "name": "French Third Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

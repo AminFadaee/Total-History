@@ -1,0 +1,31 @@
+{
+  "id": "Q8683",
+  "slug": "cold-war",
+  "name": "Cold War",
+  "title": "Cold War",
+  "wikipedia": "Cold War",
+  "years": [
+    1945,
+    1991
+  ],
+  "editions": 183,
+  "roles": {
+    "central": [
+      {
+        "id": "Q15180",
+        "name": "Union of Soviet Socialist Republics",
+        "evidence": [
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q30",
+        "name": "United States of America",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

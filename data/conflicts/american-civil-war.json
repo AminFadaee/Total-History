@@ -1,0 +1,47 @@
+{
+  "id": "Q8676",
+  "slug": "american-civil-war",
+  "name": "American Civil War",
+  "title": "American Civil War",
+  "wikipedia": "American Civil War",
+  "years": [
+    1861,
+    1865
+  ],
+  "editions": 154,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q81931",
+        "name": "Confederate States of America",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q81931",
+        "name": "Confederate States of America",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q30",
+        "name": "United States of America",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "Q165725",
+  "slug": "balkan-wars",
+  "name": "Balkan Wars",
+  "title": "Balkan Wars",
+  "wikipedia": "Balkan Wars",
+  "years": [
+    1912,
+    1913
+  ],
+  "editions": 80,
+  "roles": {
+    "central": [
+      {
+        "id": "Q209065",
+        "name": "Kingdom of Greece",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q203493",
+        "name": "Kingdom of Romania",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q12560",
+        "name": "Ottoman Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

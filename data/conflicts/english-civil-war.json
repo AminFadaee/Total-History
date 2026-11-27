@@ -1,0 +1,31 @@
+{
+  "id": "Q80330",
+  "slug": "english-civil-war",
+  "name": "English Civil War",
+  "title": "English Civil War",
+  "wikipedia": "English Civil War",
+  "years": [
+    1642,
+    1651
+  ],
+  "editions": 98,
+  "roles": {
+    "central": [
+      {
+        "id": "Q330362",
+        "name": "Commonwealth of England",
+        "evidence": [
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q179876",
+        "name": "Kingdom of England",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

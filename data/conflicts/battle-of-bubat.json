@@ -1,0 +1,34 @@
+{
+  "id": "Q4201090",
+  "slug": "battle-of-bubat",
+  "name": "Battle of Bubat",
+  "title": "Battle of Bubat",
+  "wikipedia": "Battle of Bubat",
+  "years": [
+    1357,
+    1357
+  ],
+  "editions": 5,
+  "roles": {
+    "central": [
+      {
+        "id": "Q49326",
+        "name": "Majapahit",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q1469742",
+        "name": "Sunda Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

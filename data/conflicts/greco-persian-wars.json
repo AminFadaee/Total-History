@@ -1,0 +1,26 @@
+{
+  "id": "Q76026",
+  "slug": "greco-persian-wars",
+  "name": "Greco-Persian Wars",
+  "title": "Greco-Persian Wars",
+  "wikipedia": "Greco-Persian Wars",
+  "years": [
+    -499,
+    -449
+  ],
+  "editions": 78,
+  "roles": {
+    "second": [
+      {
+        "id": "Q389688",
+        "name": "Achaemenid Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

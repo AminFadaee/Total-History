@@ -1,0 +1,39 @@
+{
+  "id": "Q1123201",
+  "slug": "spanish-american-wars-of-independence",
+  "name": "Spanish American wars of independence",
+  "title": "Spanish American wars of independence",
+  "wikipedia": "Spanish American wars of independence",
+  "years": [
+    1808,
+    1833
+  ],
+  "editions": 45,
+  "roles": {
+    "central": [
+      {
+        "id": "Q285658",
+        "name": "First Mexican Empire",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q199821",
+        "name": "Gran Colombia",
+        "evidence": [
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q29",
+        "name": "Kingdom of Spain",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

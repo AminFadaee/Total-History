@@ -1,0 +1,287 @@
+{
+  "id": "Q362",
+  "slug": "world-war-ii",
+  "name": "World War II",
+  "title": "World War II",
+  "wikipedia": "World War II",
+  "years": [
+    1939,
+    1945
+  ],
+  "editions": 242,
+  "roles": {
+    "big": [
+      {
+        "id": "Q16",
+        "name": "Canada",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q408",
+        "name": "Commonwealth of Australia",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q188712",
+        "name": "Empire of Japan",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q207521",
+        "name": "Ethiopian Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q152582",
+        "name": "Free French",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q926295",
+        "name": "Italian Africa",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q209065",
+        "name": "Kingdom of Greece",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q171150",
+        "name": "Kingdom of Hungary",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q172579",
+        "name": "Kingdom of Italy",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q203493",
+        "name": "Kingdom of Romania",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q7318",
+        "name": "Nazi Germany",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q55",
+        "name": "Netherlands",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q13426199",
+        "name": "Republic of China",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q15180",
+        "name": "Union of Soviet Socialist Republics",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q145",
+        "name": "United Kingdom",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q30",
+        "name": "United States of America",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q213510",
+        "name": "Belgian Congo",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q155",
+        "name": "Brazilian Republic",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q8680",
+        "name": "British Empire",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      },
+      {
+        "id": "Q129286",
+        "name": "British Raj",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q33946",
+        "name": "Czechoslovakia",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q188161",
+        "name": "Dutch East Indies",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q185682",
+        "name": "French Indochina",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q70802",
+        "name": "French Third Republic",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q179023",
+        "name": "French colonial empire",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q96",
+        "name": "Mexico",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q107258515",
+        "name": "Pahlavi Dynasty",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q33",
+        "name": "Republic of Finland",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q207272",
+        "name": "Second Polish Republic",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q258",
+        "name": "South Africa",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q36704",
+        "name": "Yugoslavia",
+        "evidence": [
+          "override"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q188712",
+        "name": "Empire of Japan",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q171150",
+        "name": "Kingdom of Hungary",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q172579",
+        "name": "Kingdom of Italy",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q203493",
+        "name": "Kingdom of Romania",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

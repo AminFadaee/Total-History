@@ -1,0 +1,93 @@
+{
+  "id": "Q215112",
+  "slug": "second-boer-war",
+  "name": "Second Boer War",
+  "title": "Second Boer War",
+  "wikipedia": "Second Boer War",
+  "years": [
+    1899,
+    1902
+  ],
+  "editions": 66,
+  "roles": {
+    "big": [
+      {
+        "id": "Q370736",
+        "name": "British Cape Colony",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q8680",
+        "name": "British Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q408",
+        "name": "Commonwealth of Australia",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q218023",
+        "name": "Free Orange State",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q70802",
+        "name": "French Third Republic",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q550374",
+        "name": "South African Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q174193",
+        "name": "United Kingdom of Great Britain and Ireland",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q218023",
+        "name": "Free Orange State",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q550374",
+        "name": "South African Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

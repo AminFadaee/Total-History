@@ -1,0 +1,41 @@
+{
+  "id": "Q218678",
+  "slug": "north-african-campaign",
+  "name": "North African campaign",
+  "title": "North African campaign",
+  "wikipedia": "North African campaign",
+  "years": [
+    1940,
+    1943
+  ],
+  "editions": 50,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q926295",
+        "name": "Italian Africa",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q129286",
+        "name": "British Raj",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q69808",
+        "name": "Vichy France",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

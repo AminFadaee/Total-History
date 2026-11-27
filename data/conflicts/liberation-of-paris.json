@@ -1,0 +1,32 @@
+{
+  "id": "Q696835",
+  "slug": "liberation-of-paris",
+  "name": "Liberation of Paris",
+  "title": "Liberation of Paris",
+  "wikipedia": "Liberation of Paris",
+  "years": [
+    1944,
+    1944
+  ],
+  "editions": 47,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q152582",
+        "name": "Free French",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q69808",
+        "name": "Vichy France",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

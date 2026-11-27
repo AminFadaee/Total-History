@@ -1,0 +1,40 @@
+{
+  "id": "Q139808",
+  "slug": "battle-of-the-catalaunian-plains",
+  "name": "Battle of the Maureaco Fields",
+  "title": "Battle of the Maureaco Fields",
+  "wikipedia": "Battle of the Catalaunian Plains",
+  "years": [
+    451,
+    451
+  ],
+  "editions": 58,
+  "roles": {
+    "central": [
+      {
+        "id": "Q150412",
+        "name": "Burgundians",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q45813",
+        "name": "Hunnic Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q42834",
+        "name": "Western Roman Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

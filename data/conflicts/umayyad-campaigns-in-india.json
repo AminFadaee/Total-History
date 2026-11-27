@@ -1,0 +1,31 @@
+{
+  "id": "Q4087317",
+  "slug": "umayyad-campaigns-in-india",
+  "name": "Umayyad campaigns in India",
+  "title": "Umayyad campaigns in India",
+  "wikipedia": "Umayyad campaigns in India",
+  "years": [
+    664,
+    740
+  ],
+  "editions": 15,
+  "roles": {
+    "central": [
+      {
+        "id": "Q1395011",
+        "name": "Chalukya Dynasty",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q5324",
+        "name": "Gurjara-Pratihara Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

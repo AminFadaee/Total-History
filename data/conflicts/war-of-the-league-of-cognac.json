@@ -1,0 +1,36 @@
+{
+  "id": "Q1429256",
+  "slug": "war-of-the-league-of-cognac",
+  "name": "War of the League of Cognac",
+  "title": "War of the League of Cognac",
+  "wikipedia": "War of the League of Cognac",
+  "years": [
+    1526,
+    1530
+  ],
+  "editions": 28,
+  "roles": {
+    "central": [
+      {
+        "id": "Q148540",
+        "name": "Republic of Florence",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q153529",
+        "name": "Duchy of Milan",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

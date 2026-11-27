@@ -1,0 +1,129 @@
+{
+  "id": "Q207318",
+  "slug": "french-revolutionary-wars",
+  "name": "French Revolutionary Wars",
+  "title": "French Revolutionary Wars",
+  "wikipedia": "French Revolutionary Wars",
+  "years": [
+    1792,
+    1802
+  ],
+  "editions": 57,
+  "roles": {
+    "big": [
+      {
+        "id": "Q188553",
+        "name": "Batavian Republic",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q62651",
+        "name": "Denmark-Norway",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q170072",
+        "name": "Dutch Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q58296",
+        "name": "French First Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q154849",
+        "name": "Grand Duchy of Tuscany",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q153136",
+        "name": "Habsburg Monarchy",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q161885",
+        "name": "Kingdom of Great Britain",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q435583",
+        "name": "Old Swiss Confederacy",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q34266",
+        "name": "Russian Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q80702",
+        "name": "Spanish Empire",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q174193",
+        "name": "United Kingdom of Great Britain and Ireland",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q435583",
+        "name": "Old Swiss Confederacy",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q58296",
+        "name": "French First Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

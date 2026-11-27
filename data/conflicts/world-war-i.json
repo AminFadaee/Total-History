@@ -1,0 +1,259 @@
+{
+  "id": "Q361",
+  "slug": "world-war-i",
+  "name": "World War I",
+  "title": "World War I",
+  "wikipedia": "World War I",
+  "years": [
+    1914,
+    1918
+  ],
+  "editions": 230,
+  "roles": {
+    "big": [
+      {
+        "id": "Q28513",
+        "name": "Austria-Hungary",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q8680",
+        "name": "British Empire",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q129286",
+        "name": "British Raj",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q188712",
+        "name": "Empire of Japan",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q179023",
+        "name": "French colonial empire",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q70802",
+        "name": "French Third Republic",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q43287",
+        "name": "German Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q209065",
+        "name": "Kingdom of Greece",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q172579",
+        "name": "Kingdom of Italy",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q203493",
+        "name": "Kingdom of Romania",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q12560",
+        "name": "Ottoman Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q13426199",
+        "name": "Republic of China",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q34266",
+        "name": "Russian Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q139319",
+        "name": "Russian Republic",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q174193",
+        "name": "United Kingdom of Great Britain and Ireland",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q30",
+        "name": "United States of America",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q213510",
+        "name": "Belgian Congo",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q155",
+        "name": "Brazilian Republic",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q16",
+        "name": "Canada",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q408",
+        "name": "Commonwealth of Australia",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q153136",
+        "name": "Habsburg Monarchy",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q154195",
+        "name": "Kingdom of Bavaria",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q171150",
+        "name": "Kingdom of Hungary",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q153015",
+        "name": "Kingdom of Saxony",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q241748",
+        "name": "Kingdom of Serbia",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      },
+      {
+        "id": "Q45",
+        "name": "Portuguese Republic",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q1155700",
+        "name": "Rattanakosin Kingdom",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q258",
+        "name": "South Africa",
+        "evidence": [
+          "override"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q28513",
+        "name": "Austria-Hungary",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q43287",
+        "name": "German Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q12560",
+        "name": "Ottoman Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

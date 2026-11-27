@@ -1,0 +1,34 @@
+{
+  "id": "Q1616064",
+  "slug": "mithridatic-wars",
+  "name": "Mithridatic Wars",
+  "title": "Mithridatic Wars",
+  "wikipedia": "Mithridatic Wars",
+  "years": [
+    -88,
+    -63
+  ],
+  "editions": 38,
+  "roles": {
+    "central": [
+      {
+        "id": "Q7380487",
+        "name": "Kingdom of Pontus",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q208404",
+        "name": "Kingdom of Armenia",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

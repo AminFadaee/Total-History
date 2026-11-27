@@ -1,0 +1,35 @@
+{
+  "id": "Q1332160",
+  "slug": "indonesian-national-revolution",
+  "name": "Indonesian National Revolution",
+  "title": "Indonesian National Revolution",
+  "wikipedia": "Indonesian National Revolution",
+  "years": [
+    1945,
+    1949
+  ],
+  "editions": 48,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q188161",
+        "name": "Dutch East Indies",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q55",
+        "name": "Netherlands",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

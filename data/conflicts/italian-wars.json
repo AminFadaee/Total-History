@@ -1,0 +1,101 @@
+{
+  "id": "Q273348",
+  "slug": "italian-wars",
+  "name": "Italian Wars",
+  "title": "Italian Wars",
+  "wikipedia": "Italian Wars",
+  "years": [
+    1494,
+    1559
+  ],
+  "editions": 49,
+  "roles": {
+    "big": [
+      {
+        "id": "Q153529",
+        "name": "Duchy of Milan",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q179876",
+        "name": "Kingdom of England",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q70972",
+        "name": "Kingdom of France",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q173065",
+        "name": "Kingdom of Naples",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q188586",
+        "name": "Kingdom of Sicily",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q12560",
+        "name": "Ottoman Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q170174",
+        "name": "Papal States",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q4948",
+        "name": "Republic of Venice",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q80702",
+        "name": "Spanish Empire",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q148540",
+        "name": "Republic of Florence",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

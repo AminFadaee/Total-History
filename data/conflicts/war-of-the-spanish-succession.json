@@ -1,0 +1,73 @@
+{
+  "id": "Q150701",
+  "slug": "war-of-the-spanish-succession",
+  "name": "War of the Spanish Succession",
+  "title": "War of the Spanish Succession",
+  "wikipedia": "War of the Spanish Succession",
+  "years": [
+    1701,
+    1714
+  ],
+  "editions": 78,
+  "roles": {
+    "big": [
+      {
+        "id": "Q426025",
+        "name": "Duchy of Savoy",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q170072",
+        "name": "Dutch Republic",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q70972",
+        "name": "Kingdom of France",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q161885",
+        "name": "Kingdom of Great Britain",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q29",
+        "name": "Kingdom of Spain",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q80702",
+        "name": "Spanish Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q1330607",
+  "slug": "syrian-wars",
+  "name": "Syrian Wars",
+  "title": "Syrian Wars",
+  "wikipedia": "Syrian Wars",
+  "years": [
+    -274,
+    -168
+  ],
+  "editions": 35,
+  "roles": {
+    "central": [
+      {
+        "id": "Q2320005",
+        "name": "Ptolemaic Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q93180",
+        "name": "Seleucid Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

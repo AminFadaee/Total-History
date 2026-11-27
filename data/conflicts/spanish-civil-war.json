@@ -1,0 +1,66 @@
+{
+  "id": "Q10859",
+  "slug": "spanish-civil-war",
+  "name": "Spanish Civil War",
+  "title": "Spanish Civil War",
+  "wikipedia": "Spanish Civil War",
+  "years": [
+    1936,
+    1939
+  ],
+  "editions": 118,
+  "roles": {
+    "big": [
+      {
+        "id": "Q172579",
+        "name": "Kingdom of Italy",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q29",
+        "name": "Kingdom of Spain",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q7318",
+        "name": "Nazi Germany",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q178038",
+        "name": "Second Spanish Republic",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q15180",
+        "name": "Union of Soviet Socialist Republics",
+        "evidence": [
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q13474305",
+        "name": "Francoist Spain",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

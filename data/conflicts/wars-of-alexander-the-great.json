@@ -1,0 +1,25 @@
+{
+  "id": "Q551888",
+  "slug": "wars-of-alexander-the-great",
+  "name": "Wars of Alexander the Great",
+  "title": "Wars of Alexander the Great",
+  "wikipedia": "Wars of Alexander the Great",
+  "years": [
+    -336,
+    -323
+  ],
+  "editions": 32,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q389688",
+        "name": "Achaemenid Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

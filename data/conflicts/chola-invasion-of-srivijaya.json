@@ -1,0 +1,31 @@
+{
+  "id": "Q16957926",
+  "slug": "chola-invasion-of-srivijaya",
+  "name": "Chola invasion of Srivijaya",
+  "title": "Chola invasion of Srivijaya",
+  "wikipedia": "Chola invasion of Srivijaya",
+  "years": [
+    1025,
+    1025
+  ],
+  "editions": 12,
+  "roles": {
+    "central": [
+      {
+        "id": "Q151148",
+        "name": "Chola dynasty",
+        "evidence": [
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q234197",
+        "name": "Srivijaya",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

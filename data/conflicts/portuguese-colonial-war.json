@@ -1,0 +1,38 @@
+{
+  "id": "Q609836",
+  "slug": "portuguese-colonial-war",
+  "name": "Portuguese Colonial War",
+  "title": "Portuguese Colonial War",
+  "wikipedia": "Portuguese Colonial War",
+  "years": [
+    1961,
+    1974
+  ],
+  "editions": 37,
+  "roles": {
+    "central": [
+      {
+        "id": "Q824489",
+        "name": "Estado Novo",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q200464",
+        "name": "Portuguese Empire",
+        "evidence": [
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q45",
+        "name": "Portuguese Republic",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

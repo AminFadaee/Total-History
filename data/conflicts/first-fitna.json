@@ -1,0 +1,34 @@
+{
+  "id": "Q1417059",
+  "slug": "first-fitna",
+  "name": "First Fitna",
+  "title": "First Fitna",
+  "wikipedia": "First Fitna",
+  "years": [
+    656,
+    661
+  ],
+  "editions": 42,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q12490507",
+        "name": "Rashidun Caliphate",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q8575586",
+        "name": "Umayyad Caliphate",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

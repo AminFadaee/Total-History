@@ -1,0 +1,36 @@
+{
+  "id": "Q887684",
+  "slug": "muslim-conquest-of-persia",
+  "name": "Muslim conquest of Persia",
+  "title": "Muslim conquest of Persia",
+  "wikipedia": "Muslim conquest of Persia",
+  "years": [
+    633,
+    654
+  ],
+  "editions": 54,
+  "roles": {
+    "central": [
+      {
+        "id": "Q12490507",
+        "name": "Rashidun Caliphate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q83891",
+        "name": "Sasanian Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

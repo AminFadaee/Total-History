@@ -1,0 +1,60 @@
+{
+  "id": "Q2986801",
+  "slug": "qin-s-wars-of-unification",
+  "name": "Qin's Wars of Unification",
+  "title": "Qin's Wars of Unification",
+  "wikipedia": "Qin's wars of unification",
+  "years": [
+    -230,
+    -221
+  ],
+  "editions": 20,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q504759",
+        "name": "Chu",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q837855",
+        "name": "Qi",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q34756",
+        "name": "Qin",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q912052",
+        "name": "Wei",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q7183",
+        "name": "Qin dynasty",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

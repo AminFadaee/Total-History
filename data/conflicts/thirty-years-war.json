@@ -1,0 +1,128 @@
+{
+  "id": "Q2487",
+  "slug": "thirty-years-war",
+  "name": "Thirty Years' War",
+  "title": "Thirty Years' War",
+  "wikipedia": "Thirty Years' War",
+  "years": [
+    1618,
+    1648
+  ],
+  "editions": 124,
+  "roles": {
+    "big": [
+      {
+        "id": "Q47261",
+        "name": "Duchy of Bavaria",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q426025",
+        "name": "Duchy of Savoy",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q170072",
+        "name": "Dutch Republic",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q156199",
+        "name": "Electorate of Saxony",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q42585",
+        "name": "Kingdom of Bohemia",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q70972",
+        "name": "Kingdom of France",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q230791",
+        "name": "Kingdom of Scotland",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q29",
+        "name": "Kingdom of Spain",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q34",
+        "name": "Kingdom of Sweden",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q80702",
+        "name": "Spanish Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q215443",
+        "name": "Swedish Empire",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q62651",
+        "name": "Denmark-Norway",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q153136",
+        "name": "Habsburg Monarchy",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q148499",
+        "name": "Margraviate of Brandenburg",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

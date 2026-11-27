@@ -1,0 +1,31 @@
+{
+  "id": "Q4218",
+  "slug": "hungarian-conquest-of-the-carpathian-basin",
+  "name": "Hungarian conquest of the Carpathian Basin",
+  "title": "Hungarian conquest of the Carpathian Basin",
+  "wikipedia": "Hungarian conquest of the Carpathian Basin",
+  "years": [
+    801,
+    1000
+  ],
+  "editions": 30,
+  "roles": {
+    "central": [
+      {
+        "id": "Q153080",
+        "name": "East Franks",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q193152",
+        "name": "Great Moravia",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "Q51655",
+  "slug": "third-crusade",
+  "name": "Third Crusade",
+  "title": "Third Crusade",
+  "wikipedia": "Third Crusade",
+  "years": [
+    1189,
+    1192
+  ],
+  "editions": 72,
+  "roles": {
+    "central": [
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q55502",
+        "name": "Kingdom of Jerusalem",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q538677",
+        "name": "Angevin Empire",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q180114",
+        "name": "Ayyubid Sultanate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

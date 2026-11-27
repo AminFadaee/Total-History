@@ -1,0 +1,35 @@
+{
+  "id": "Q151340",
+  "slug": "battle-of-france",
+  "name": "Battle of France",
+  "title": "Battle of France",
+  "wikipedia": "Battle of France",
+  "years": [
+    1940,
+    1940
+  ],
+  "editions": 74,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q70802",
+        "name": "French Third Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q69808",
+        "name": "Vichy France",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

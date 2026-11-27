@@ -1,0 +1,34 @@
+{
+  "id": "Q6683",
+  "slug": "mexicanamerican-war",
+  "name": "Mexican-American War",
+  "title": "Mexican-American War",
+  "wikipedia": "Mexican–American War",
+  "years": [
+    1840,
+    1849
+  ],
+  "editions": 75,
+  "roles": {
+    "central": [
+      {
+        "id": "Q7443295",
+        "name": "Second Federal Republic of Mexico",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q5062192",
+        "name": "Centralist Mexico",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

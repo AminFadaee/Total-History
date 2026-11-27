@@ -1,0 +1,31 @@
+{
+  "id": "Q1517749",
+  "slug": "battle-of-the-winwaed",
+  "name": "Battle of the Winwaed",
+  "title": "Battle of the Winwaed",
+  "wikipedia": "Battle of the Winwaed",
+  "years": [
+    655,
+    655
+  ],
+  "editions": 17,
+  "roles": {
+    "central": [
+      {
+        "id": "Q105092",
+        "name": "Kingdom of Mercia",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q107299",
+        "name": "Kingdom of Northumbria",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

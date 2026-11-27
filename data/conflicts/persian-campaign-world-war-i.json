@@ -1,0 +1,24 @@
+{
+  "id": "Q372822",
+  "slug": "persian-campaign-world-war-i",
+  "name": "Persian Campaign",
+  "title": "Persian Campaign",
+  "wikipedia": "Persian campaign (World War I)",
+  "years": [
+    1914,
+    1918
+  ],
+  "editions": 28,
+  "roles": {
+    "central": [
+      {
+        "id": "Q63158027",
+        "name": "Qajar Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "Q3950956",
+  "slug": "battle-of-qatwan",
+  "name": "Battle of Qatwan",
+  "title": "Battle of Qatwan",
+  "wikipedia": "Battle of Qatwan",
+  "years": [
+    1141,
+    1141
+  ],
+  "editions": 18,
+  "roles": {
+    "central": [
+      {
+        "id": "Q494354",
+        "name": "Kara-Khanid Khanate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q862304",
+        "name": "Kara-Khitans",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "Q1750892",
+  "slug": "sack-of-constantinople",
+  "name": "Siege of Constantinople",
+  "title": "Sack of Constantinople",
+  "wikipedia": "Sack of Constantinople",
+  "years": [
+    1204,
+    1204
+  ],
+  "editions": 37,
+  "roles": {
+    "central": [
+      {
+        "id": "Q181254",
+        "name": "Nicaean Empire",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q178897",
+        "name": "Latin Empire",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

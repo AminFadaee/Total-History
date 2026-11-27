@@ -1,0 +1,35 @@
+{
+  "id": "Q208156",
+  "slug": "mongol-invasions-of-japan",
+  "name": "Mongol invasions of Japan",
+  "title": "Mongol invasions of Japan",
+  "wikipedia": "Mongol invasions of Japan",
+  "years": [
+    1274,
+    1281
+  ],
+  "editions": 48,
+  "roles": {
+    "central": [
+      {
+        "id": "Q736839",
+        "name": "Kamakura Shogunate",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q7313",
+        "name": "Yuan Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

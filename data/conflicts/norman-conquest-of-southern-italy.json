@@ -1,0 +1,33 @@
+{
+  "id": "Q74011",
+  "slug": "norman-conquest-of-southern-italy",
+  "name": "Norman conquest of southern Italy",
+  "title": "Norman conquest of southern Italy",
+  "wikipedia": "Norman conquest of southern Italy",
+  "years": [
+    1001,
+    1200
+  ],
+  "editions": 33,
+  "roles": {
+    "central": [
+      {
+        "id": "Q1250763",
+        "name": "Emirate of Sicily",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q188586",
+        "name": "Kingdom of Sicily",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

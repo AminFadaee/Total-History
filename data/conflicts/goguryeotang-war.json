@@ -1,0 +1,34 @@
+{
+  "id": "Q703179",
+  "slug": "goguryeotang-war",
+  "name": "Goguryeo–Tang War",
+  "title": "Goguryeo–Tang War",
+  "wikipedia": "Goguryeo–Tang War",
+  "years": [
+    645,
+    668
+  ],
+  "editions": 20,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q28370",
+        "name": "Goguryeo",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q9683",
+        "name": "Tang Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

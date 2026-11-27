@@ -1,0 +1,34 @@
+{
+  "id": "Q852171",
+  "slug": "mongol-invasion-of-europe",
+  "name": "Mongol invasion of Europe",
+  "title": "Mongol invasion of Europe",
+  "wikipedia": "Mongol invasion of Europe",
+  "years": [
+    1223,
+    1242
+  ],
+  "editions": 36,
+  "roles": {
+    "central": [
+      {
+        "id": "Q1122052",
+        "name": "Cuman-Kipchak Confederation",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q420759",
+        "name": "Second Bulgarian Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

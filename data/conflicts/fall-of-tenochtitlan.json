@@ -1,0 +1,31 @@
+{
+  "id": "Q593267",
+  "slug": "fall-of-tenochtitlan",
+  "name": "Fall of Tenochtitlan",
+  "title": "Fall of Tenochtitlan",
+  "wikipedia": "Fall of Tenochtitlan",
+  "years": [
+    1521,
+    1521
+  ],
+  "editions": 23,
+  "roles": {
+    "central": [
+      {
+        "id": "Q2608489",
+        "name": "Aztec Triple Alliance",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q13695",
+        "name": "Tenochtitlan",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

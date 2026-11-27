@@ -1,0 +1,31 @@
+{
+  "id": "Q42320984",
+  "slug": "struggle-for-constantinople-12041261",
+  "name": "Nicaean–Latin wars",
+  "title": "Nicaean–Latin wars",
+  "wikipedia": "Struggle for Constantinople (1204–1261)",
+  "years": [
+    1204,
+    1261
+  ],
+  "editions": 8,
+  "roles": {
+    "central": [
+      {
+        "id": "Q178913",
+        "name": "Empire of Trebizond",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q178897",
+        "name": "Latin Empire",
+        "evidence": [
+          "infobox",
+          "override"
+        ]
+      }
+    ]
+  }
+}

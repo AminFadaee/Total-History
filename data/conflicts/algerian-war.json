@@ -1,0 +1,32 @@
+{
+  "id": "Q200790",
+  "slug": "algerian-war",
+  "name": "Algerian War",
+  "title": "Algerian War",
+  "wikipedia": "Algerian War",
+  "years": [
+    1954,
+    1962
+  ],
+  "editions": 70,
+  "roles": {
+    "central": [
+      {
+        "id": "Q218272",
+        "name": "French Algeria",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q179023",
+        "name": "French colonial empire",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

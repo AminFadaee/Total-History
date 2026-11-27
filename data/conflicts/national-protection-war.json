@@ -1,0 +1,44 @@
+{
+  "id": "Q1345258",
+  "slug": "national-protection-war",
+  "name": "National Protection War",
+  "title": "National Protection War",
+  "wikipedia": "National Protection War",
+  "years": [
+    1915,
+    1919
+  ],
+  "editions": 16,
+  "roles": {
+    "central": [
+      {
+        "id": "Q175379",
+        "name": "Empire of China",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q175379",
+        "name": "Empire of China",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q175379",
+        "name": "Empire of China",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "Q499909",
+  "slug": "saxon-wars",
+  "name": "Saxon Wars",
+  "title": "Saxon Wars",
+  "wikipedia": "Saxon Wars",
+  "years": [
+    772,
+    804
+  ],
+  "editions": 25,
+  "roles": {
+    "central": [
+      {
+        "id": "Q101985",
+        "name": "Saxons",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q146246",
+        "name": "Francia",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

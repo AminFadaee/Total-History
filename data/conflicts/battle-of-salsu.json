@@ -1,0 +1,33 @@
+{
+  "id": "Q29680",
+  "slug": "battle-of-salsu",
+  "name": "Battle of Salsu",
+  "title": "Battle of Salsu",
+  "wikipedia": "Battle of Salsu",
+  "years": [
+    612,
+    612
+  ],
+  "editions": 22,
+  "roles": {
+    "central": [
+      {
+        "id": "Q28370",
+        "name": "Goguryeo",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q7405",
+        "name": "Sui Dynasty",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Q1455917",
+  "slug": "muslim-conquest-of-the-iberian-peninsula",
+  "name": "Umayyad conquest of Hispania",
+  "title": "Umayyad conquest of Hispania",
+  "wikipedia": "Muslim conquest of the Iberian Peninsula",
+  "years": [
+    711,
+    726
+  ],
+  "editions": 47,
+  "roles": {
+    "central": [
+      {
+        "id": "Q231392",
+        "name": "Kingdom of Asturias",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q8575586",
+        "name": "Umayyad Caliphate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q126936",
+        "name": "Visigothic Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

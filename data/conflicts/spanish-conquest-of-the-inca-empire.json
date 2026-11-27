@@ -1,0 +1,40 @@
+{
+  "id": "Q636771",
+  "slug": "spanish-conquest-of-the-inca-empire",
+  "name": "Spanish conquest of the Inca Empire",
+  "title": "Spanish conquest of the Inca Empire",
+  "wikipedia": "Spanish conquest of the Inca Empire",
+  "years": [
+    1532,
+    1572
+  ],
+  "editions": 33,
+  "roles": {
+    "central": [
+      {
+        "id": "Q10715354",
+        "name": "Neo-Inca State",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q28573",
+        "name": "Inca Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q10715354",
+        "name": "Neo-Inca State",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

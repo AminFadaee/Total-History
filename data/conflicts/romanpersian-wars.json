@@ -1,0 +1,77 @@
+{
+  "id": "Q500409",
+  "slug": "romanpersian-wars",
+  "name": "Roman–Persian Wars",
+  "title": "Roman–Persian Wars",
+  "wikipedia": "Roman–Persian wars",
+  "years": [
+    -54,
+    628
+  ],
+  "editions": 52,
+  "roles": {
+    "big": [
+      {
+        "id": "Q12544",
+        "name": "Byzantine Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q733668",
+        "name": "Ghassanids",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q42193",
+        "name": "Goths",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q943191",
+        "name": "Lakhmid Kingdom",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q1986139",
+        "name": "Parthian Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q2277",
+        "name": "Roman Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q17167",
+        "name": "Roman Republic",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q83891",
+        "name": "Sasanian Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

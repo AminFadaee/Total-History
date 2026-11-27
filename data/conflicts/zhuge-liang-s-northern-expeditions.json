@@ -1,0 +1,34 @@
+{
+  "id": "Q1198171",
+  "slug": "zhuge-liang-s-northern-expeditions",
+  "name": "Zhuge Liang's Northern Expeditions",
+  "title": "Zhuge Liang's Northern Expeditions",
+  "wikipedia": "Zhuge Liang's Northern Expeditions",
+  "years": [
+    null,
+    null
+  ],
+  "editions": 15,
+  "roles": {
+    "central": [
+      {
+        "id": "Q320930",
+        "name": "Cao Wei",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q320925",
+        "name": "Shu Han",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

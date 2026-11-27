@@ -1,0 +1,41 @@
+{
+  "id": "Q151005",
+  "slug": "battle-of-leipzig",
+  "name": "Battle of Leipzig",
+  "title": "Battle of Leipzig",
+  "wikipedia": "Battle of Leipzig",
+  "years": [
+    1813,
+    1813
+  ],
+  "editions": 63,
+  "roles": {
+    "central": [
+      {
+        "id": "Q34",
+        "name": "Kingdom of Sweden",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q154741",
+        "name": "Confederation of the Rhine",
+        "evidence": [
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q152115",
+        "name": "Duchy of Warsaw",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Q273069",
+  "slug": "battle-of-lechfeld",
+  "name": "Battle of Lechfeld",
+  "title": "Battle of Lechfeld",
+  "wikipedia": "Battle of Lechfeld",
+  "years": [
+    955,
+    955
+  ],
+  "editions": 39,
+  "roles": {
+    "central": [
+      {
+        "id": "Q47261",
+        "name": "Duchy of Bavaria",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q175211",
+        "name": "Kingdom of Germany",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q2899771",
+        "name": "Principality of Hungary",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

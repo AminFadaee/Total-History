@@ -1,0 +1,25 @@
+{
+  "id": "Q6900329",
+  "slug": "the-blitz",
+  "name": "the Blitz",
+  "title": "the Blitz",
+  "wikipedia": "The Blitz",
+  "years": [
+    1940,
+    1941
+  ],
+  "editions": 45,
+  "roles": {
+    "second": [
+      {
+        "id": "Q7318",
+        "name": "Nazi Germany",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

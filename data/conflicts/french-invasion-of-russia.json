@@ -1,0 +1,38 @@
+{
+  "id": "Q179250",
+  "slug": "french-invasion-of-russia",
+  "name": "French invasion of Russia",
+  "title": "French invasion of Russia",
+  "wikipedia": "French invasion of Russia",
+  "years": [
+    1812,
+    1812
+  ],
+  "editions": 76,
+  "roles": {
+    "central": [
+      {
+        "id": "Q154741",
+        "name": "Confederation of the Rhine",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q152115",
+        "name": "Duchy of Warsaw",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q154195",
+        "name": "Kingdom of Bavaria",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

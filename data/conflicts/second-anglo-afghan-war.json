@@ -1,0 +1,36 @@
+{
+  "id": "Q233507",
+  "slug": "second-anglo-afghan-war",
+  "name": "Second Anglo-Afghan War",
+  "title": "Second Anglo-Afghan War",
+  "wikipedia": "Second Anglo-Afghan War",
+  "years": [
+    1878,
+    1880
+  ],
+  "editions": 44,
+  "roles": {
+    "central": [
+      {
+        "id": "Q129286",
+        "name": "British Raj",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q1335260",
+        "name": "Emirate of Afghanistan",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

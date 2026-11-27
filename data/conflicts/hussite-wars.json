@@ -1,0 +1,33 @@
+{
+  "id": "Q478301",
+  "slug": "hussite-wars",
+  "name": "Hussite Wars",
+  "title": "Hussite Wars",
+  "wikipedia": "Hussite Wars",
+  "years": [
+    1419,
+    1434
+  ],
+  "editions": 51,
+  "roles": {
+    "central": [
+      {
+        "id": "Q156199",
+        "name": "Electorate of Saxony",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q42585",
+        "name": "Kingdom of Bohemia",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

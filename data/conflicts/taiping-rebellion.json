@@ -1,0 +1,24 @@
+{
+  "id": "Q192408",
+  "slug": "taiping-rebellion",
+  "name": "Taiping Rebellion",
+  "title": "Taiping Rebellion",
+  "wikipedia": "Taiping Rebellion",
+  "years": [
+    1850,
+    1864
+  ],
+  "editions": 66,
+  "roles": {
+    "second": [
+      {
+        "id": "Q8733",
+        "name": "Qing Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

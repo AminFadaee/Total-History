@@ -1,0 +1,34 @@
+{
+  "id": "Q3436196",
+  "slug": "medo-persian-conflict",
+  "name": "Medo-Persian conflict",
+  "title": "Medo-Persian conflict",
+  "wikipedia": "Medo-Persian conflict",
+  "years": [
+    -553,
+    -550
+  ],
+  "editions": 17,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q20437507",
+        "name": "Median Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q389688",
+        "name": "Achaemenid Empire",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Q58947",
+  "slug": "paraguayan-war",
+  "name": "Paraguayan War",
+  "title": "Paraguayan War",
+  "wikipedia": "Paraguayan War",
+  "years": [
+    1864,
+    1870
+  ],
+  "editions": 60,
+  "roles": {
+    "central": [
+      {
+        "id": "Q217230",
+        "name": "Empire of Brazil",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "Q4520158",
+  "slug": "battle-of-shanhai-pass",
+  "name": "Battle of Shanhai Pass",
+  "title": "Battle of Shanhai Pass",
+  "wikipedia": "Battle of Shanhai Pass",
+  "years": [
+    1644,
+    1644
+  ],
+  "editions": 15,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q9903",
+        "name": "Ming Dynasty",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q8733",
+        "name": "Qing Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Q195983",
+  "slug": "franco-flemish-war",
+  "name": "Franco-Flemish War",
+  "title": "Franco-Flemish War",
+  "wikipedia": "Franco-Flemish War",
+  "years": [
+    1297,
+    1305
+  ],
+  "editions": 12,
+  "roles": {
+    "central": [
+      {
+        "id": "Q157070",
+        "name": "County of Flanders",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

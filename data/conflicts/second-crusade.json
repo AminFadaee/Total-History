@@ -1,0 +1,31 @@
+{
+  "id": "Q51654",
+  "slug": "second-crusade",
+  "name": "Second Crusade",
+  "title": "Second Crusade",
+  "wikipedia": "Second Crusade",
+  "years": [
+    1147,
+    1149
+  ],
+  "editions": 75,
+  "roles": {
+    "second": [
+      {
+        "id": "Q75613",
+        "name": "Almoravid Dynasty",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q55502",
+        "name": "Kingdom of Jerusalem",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

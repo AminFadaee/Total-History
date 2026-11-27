@@ -1,0 +1,35 @@
+{
+  "id": "Q654006",
+  "slug": "northern-war-of-16551660",
+  "name": "Second Northern War",
+  "title": "Second Northern War",
+  "wikipedia": "Northern War of 1655–1660",
+  "years": [
+    1655,
+    1660
+  ],
+  "editions": 42,
+  "roles": {
+    "central": [
+      {
+        "id": "Q215443",
+        "name": "Swedish Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q172107",
+        "name": "Polish-Lithuanian Commonwealth",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

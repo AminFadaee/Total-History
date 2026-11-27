@@ -1,0 +1,34 @@
+{
+  "id": "Q1231684",
+  "slug": "battle-of-chalons-274",
+  "name": "Battle of Châlons",
+  "title": "Battle of Châlons",
+  "wikipedia": "Battle of Châlons (274)",
+  "years": [
+    274,
+    274
+  ],
+  "editions": 14,
+  "roles": {
+    "central": [
+      {
+        "id": "Q273025",
+        "name": "Gallic Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q273025",
+        "name": "Gallic Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

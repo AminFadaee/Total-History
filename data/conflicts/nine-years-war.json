@@ -1,0 +1,31 @@
+{
+  "id": "Q152218",
+  "slug": "nine-years-war",
+  "name": "Nine Years' War",
+  "title": "Nine Years' War",
+  "wikipedia": "Nine Years' War",
+  "years": [
+    1688,
+    1697
+  ],
+  "editions": 53,
+  "roles": {
+    "second": [
+      {
+        "id": "Q426025",
+        "name": "Duchy of Savoy",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q170072",
+        "name": "Dutch Republic",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

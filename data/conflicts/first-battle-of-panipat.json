@@ -1,0 +1,34 @@
+{
+  "id": "Q605321",
+  "slug": "first-battle-of-panipat",
+  "name": "Battle of Panipat",
+  "title": "First Battle of Panipat",
+  "wikipedia": "First Battle of Panipat",
+  "years": [
+    1526,
+    1526
+  ],
+  "editions": 46,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q229411",
+        "name": "Delhi Sultanate",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q33296",
+        "name": "Mughal Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

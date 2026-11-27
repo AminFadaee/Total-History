@@ -1,0 +1,38 @@
+{
+  "id": "Q1362188",
+  "slug": "battle-of-talikota",
+  "name": "Battle of Talikota",
+  "title": "Battle of Talikota",
+  "wikipedia": "Battle of Talikota",
+  "years": [
+    1565,
+    1565
+  ],
+  "editions": 22,
+  "roles": {
+    "central": [
+      {
+        "id": "Q400998",
+        "name": "Ahmadnagar Sultanate",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q83821",
+        "name": "Bijapur Sultanate",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q167639",
+        "name": "Vijayanagara Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

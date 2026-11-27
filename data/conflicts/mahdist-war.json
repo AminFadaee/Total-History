@@ -1,0 +1,36 @@
+{
+  "id": "Q31944",
+  "slug": "mahdist-war",
+  "name": "Mahdist War",
+  "title": "Mahdist War",
+  "wikipedia": "Mahdist War",
+  "years": [
+    1881,
+    1899
+  ],
+  "editions": 42,
+  "roles": {
+    "central": [
+      {
+        "id": "Q3125368",
+        "name": "Mahdist State",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q3125368",
+        "name": "Mahdist State",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

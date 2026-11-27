@@ -1,0 +1,32 @@
+{
+  "id": "Q3104848",
+  "slug": "fitna-of-al-andalus",
+  "name": "Fitna of al-Andalus",
+  "title": "Fitna of al-Andalus",
+  "wikipedia": "Fitna of al-Andalus",
+  "years": [
+    1009,
+    1031
+  ],
+  "editions": 13,
+  "roles": {
+    "central": [
+      {
+        "id": "Q171740",
+        "name": "Caliphate of Córdoba",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q171740",
+        "name": "Caliphate of Córdoba",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "Q150812",
+  "slug": "invasion-of-poland",
+  "name": "1939 Invasion of Poland",
+  "title": "1939 Invasion of Poland",
+  "wikipedia": "Invasion of Poland",
+  "years": [
+    1939,
+    1939
+  ],
+  "editions": 75,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q207272",
+        "name": "Second Polish Republic",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

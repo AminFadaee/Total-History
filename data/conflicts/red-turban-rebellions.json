@@ -1,0 +1,42 @@
+{
+  "id": "Q112524",
+  "slug": "red-turban-rebellions",
+  "name": "Red Turban Rebellion",
+  "title": "Red Turban Rebellion",
+  "wikipedia": "Red Turban Rebellions",
+  "years": [
+    1351,
+    1368
+  ],
+  "editions": 33,
+  "roles": {
+    "central": [
+      {
+        "id": "Q28208",
+        "name": "Goryeo",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q7313",
+        "name": "Yuan Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q9903",
+        "name": "Ming Dynasty",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

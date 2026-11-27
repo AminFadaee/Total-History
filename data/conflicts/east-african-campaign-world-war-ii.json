@@ -1,0 +1,24 @@
+{
+  "id": "Q1052120",
+  "slug": "east-african-campaign-world-war-ii",
+  "name": "East African Campaign",
+  "title": "East African Campaign",
+  "wikipedia": "East African campaign (World War II)",
+  "years": [
+    1940,
+    1941
+  ],
+  "editions": 30,
+  "roles": {
+    "central": [
+      {
+        "id": "Q213510",
+        "name": "Belgian Congo",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

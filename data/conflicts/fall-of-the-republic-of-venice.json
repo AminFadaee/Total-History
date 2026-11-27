@@ -1,0 +1,24 @@
+{
+  "id": "Q3649504",
+  "slug": "fall-of-the-republic-of-venice",
+  "name": "Fall of the Republic of Venice",
+  "title": "Fall of the Republic of Venice",
+  "wikipedia": "Fall of the Republic of Venice",
+  "years": [
+    1790,
+    1799
+  ],
+  "editions": 10,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q4948",
+        "name": "Republic of Venice",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

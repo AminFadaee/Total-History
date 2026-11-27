@@ -1,0 +1,84 @@
+{
+  "id": "Q12551",
+  "slug": "hundred-years-war",
+  "name": "Hundred Years' War",
+  "title": "Hundred Years' War",
+  "wikipedia": "Hundred Years' War",
+  "years": [
+    1337,
+    1453
+  ],
+  "editions": 125,
+  "roles": {
+    "big": [
+      {
+        "id": "Q157070",
+        "name": "County of Flanders",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q217196",
+        "name": "Crown of Castile",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q4712",
+        "name": "Duchy of Burgundy",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q179876",
+        "name": "Kingdom of England",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q70972",
+        "name": "Kingdom of France",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q200262",
+        "name": "Kingdom of Navarre",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q230791",
+        "name": "Kingdom of Scotland",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ],
+    "central": [
+      {
+        "id": "Q70972",
+        "name": "Kingdom of France",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

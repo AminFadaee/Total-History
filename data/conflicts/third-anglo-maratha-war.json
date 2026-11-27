@@ -1,0 +1,34 @@
+{
+  "id": "Q617210",
+  "slug": "third-anglo-maratha-war",
+  "name": "Third Anglo-Maratha War",
+  "title": "Third Anglo-Maratha War",
+  "wikipedia": "Third Anglo-Maratha War",
+  "years": [
+    1817,
+    1818
+  ],
+  "editions": 26,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q83618",
+        "name": "Maratha Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q8680",
+        "name": "British Empire",
+        "evidence": [
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

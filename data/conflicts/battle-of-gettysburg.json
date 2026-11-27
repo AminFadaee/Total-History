@@ -1,0 +1,25 @@
+{
+  "id": "Q33132",
+  "slug": "battle-of-gettysburg",
+  "name": "Battle of Gettysburg",
+  "title": "Battle of Gettysburg",
+  "wikipedia": "Battle of Gettysburg",
+  "years": [
+    1863,
+    1863
+  ],
+  "editions": 57,
+  "roles": {
+    "central": [
+      {
+        "id": "Q81931",
+        "name": "Confederate States of America",
+        "evidence": [
+          "infobox",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

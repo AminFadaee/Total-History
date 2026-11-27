@@ -1,0 +1,34 @@
+{
+  "id": "Q1567698",
+  "slug": "muscovitelithuanian-wars",
+  "name": "Muscovite-Lithuanian Wars",
+  "title": "Muscovite-Lithuanian Wars",
+  "wikipedia": "Muscovite–Lithuanian Wars",
+  "years": [
+    1487,
+    1583
+  ],
+  "editions": 30,
+  "roles": {
+    "second": [
+      {
+        "id": "Q49683",
+        "name": "Grand Duchy of Lithuania",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q170770",
+        "name": "Grand Principality of Moscow",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

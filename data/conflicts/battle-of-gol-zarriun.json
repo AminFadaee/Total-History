@@ -1,0 +1,33 @@
+{
+  "id": "Q13600791",
+  "slug": "battle-of-gol-zarriun",
+  "name": "Battle of Gol-Zarriun",
+  "title": "Battle of Gol-Zarriun",
+  "wikipedia": "Battle of Gol-Zarriun",
+  "years": [
+    560,
+    560
+  ],
+  "editions": 12,
+  "roles": {
+    "central": [
+      {
+        "id": "Q15146034",
+        "name": "Göktürk Khaganate",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q26576",
+        "name": "White Huns",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

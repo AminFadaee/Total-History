@@ -1,0 +1,103 @@
+{
+  "id": "Q33143",
+  "slug": "seven-years-war",
+  "name": "Seven Years' War",
+  "title": "Seven Years' War",
+  "wikipedia": "Seven Years' War",
+  "years": [
+    1756,
+    1763
+  ],
+  "editions": 95,
+  "roles": {
+    "big": [
+      {
+        "id": "Q156199",
+        "name": "Electorate of Saxony",
+        "evidence": [
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q153136",
+        "name": "Habsburg Monarchy",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q70972",
+        "name": "Kingdom of France",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q161885",
+        "name": "Kingdom of Great Britain",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q170604",
+        "name": "New France",
+        "evidence": [
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q34266",
+        "name": "Russian Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q80702",
+        "name": "Spanish Empire",
+        "evidence": [
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q8680",
+        "name": "British Empire",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q179023",
+        "name": "French colonial empire",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q38872",
+        "name": "Prussia",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

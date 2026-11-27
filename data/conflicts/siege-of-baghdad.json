@@ -1,0 +1,35 @@
+{
+  "id": "Q369560",
+  "slug": "siege-of-baghdad",
+  "name": "Siege of Baghdad",
+  "title": "Siege of Baghdad",
+  "wikipedia": "Siege of Baghdad",
+  "years": [
+    1258,
+    1258
+  ],
+  "editions": 55,
+  "roles": {
+    "central": [
+      {
+        "id": "Q178084",
+        "name": "Ilkhanate",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q12536",
+        "name": "Abbasid Caliphate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

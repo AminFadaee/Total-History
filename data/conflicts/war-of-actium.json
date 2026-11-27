@@ -1,0 +1,24 @@
+{
+  "id": "Q2116320",
+  "slug": "war-of-actium",
+  "name": "Final War of the Roman Republic",
+  "title": "Final War of the Roman Republic",
+  "wikipedia": "War of Actium",
+  "years": [
+    -32,
+    -30
+  ],
+  "editions": 27,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q2320005",
+        "name": "Ptolemaic Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "Q166001",
+  "slug": "scanian-war",
+  "name": "Scanian War",
+  "title": "Scanian War",
+  "wikipedia": "Scanian War",
+  "years": [
+    1675,
+    1679
+  ],
+  "editions": 34,
+  "roles": {
+    "central": [
+      {
+        "id": "Q148499",
+        "name": "Margraviate of Brandenburg",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q62651",
+        "name": "Denmark-Norway",
+        "evidence": [
+          "infobox",
+          "override",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q215443",
+        "name": "Swedish Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

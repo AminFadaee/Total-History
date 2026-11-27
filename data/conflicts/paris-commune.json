@@ -1,0 +1,24 @@
+{
+  "id": "Q133132",
+  "slug": "paris-commune",
+  "name": "Paris Commune",
+  "title": "Paris Commune",
+  "wikipedia": "Paris Commune",
+  "years": [
+    1871,
+    1871
+  ],
+  "editions": 83,
+  "roles": {
+    "central": [
+      {
+        "id": "Q70802",
+        "name": "French Third Republic",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

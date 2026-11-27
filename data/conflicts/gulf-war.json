@@ -1,0 +1,54 @@
+{
+  "id": "Q37643",
+  "slug": "gulf-war",
+  "name": "Gulf War",
+  "title": "Gulf War",
+  "wikipedia": "Gulf War",
+  "years": [
+    1990,
+    1991
+  ],
+  "editions": 107,
+  "roles": {
+    "big": [
+      {
+        "id": "Q414",
+        "name": "Argentine Republic",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q16",
+        "name": "Canada",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q43",
+        "name": "Republic of Turkey",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q145",
+        "name": "United Kingdom",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q30",
+        "name": "United States of America",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

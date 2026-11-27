@@ -1,0 +1,34 @@
+{
+  "id": "Q18817",
+  "slug": "war-of-the-first-coalition",
+  "name": "War of the First Coalition",
+  "title": "War of the First Coalition",
+  "wikipedia": "War of the First Coalition",
+  "years": [
+    1792,
+    1797
+  ],
+  "editions": 47,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q170072",
+        "name": "Dutch Republic",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q188553",
+        "name": "Batavian Republic",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

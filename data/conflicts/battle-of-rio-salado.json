@@ -1,0 +1,34 @@
+{
+  "id": "Q1792643",
+  "slug": "battle-of-rio-salado",
+  "name": "Battle of Río Salado",
+  "title": "Battle of Río Salado",
+  "wikipedia": "Battle of Río Salado",
+  "years": [
+    1340,
+    1340
+  ],
+  "editions": 21,
+  "roles": {
+    "central": [
+      {
+        "id": "Q238445",
+        "name": "Emirate of Granada",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q582861",
+        "name": "Marinid Sultanate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

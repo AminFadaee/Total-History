@@ -1,0 +1,35 @@
+{
+  "id": "Q118951",
+  "slug": "battle-of-meloria-1284",
+  "name": "Battle of Meloria",
+  "title": "Battle of Meloria",
+  "wikipedia": "Battle of Meloria (1284)",
+  "years": [
+    1284,
+    1284
+  ],
+  "editions": 18,
+  "roles": {
+    "central": [
+      {
+        "id": "Q174306",
+        "name": "Republic of Genoa",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q1365493",
+        "name": "Republic of Pisa",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

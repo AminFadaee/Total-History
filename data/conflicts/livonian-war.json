@@ -1,0 +1,36 @@
+{
+  "id": "Q246863",
+  "slug": "livonian-war",
+  "name": "Livonian War",
+  "title": "Livonian War",
+  "wikipedia": "Livonian War",
+  "years": [
+    1558,
+    1583
+  ],
+  "editions": 58,
+  "roles": {
+    "founding": [
+      {
+        "id": "Q172107",
+        "name": "Polish-Lithuanian Commonwealth",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q186096",
+        "name": "Tsardom of Russia",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

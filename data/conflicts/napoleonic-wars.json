@@ -1,0 +1,151 @@
+{
+  "id": "Q78994",
+  "slug": "napoleonic-wars",
+  "name": "Napoleonic Wars",
+  "title": "Napoleonic Wars",
+  "wikipedia": "Napoleonic Wars",
+  "years": [
+    1803,
+    1815
+  ],
+  "editions": 97,
+  "roles": {
+    "big": [
+      {
+        "id": "Q131964",
+        "name": "Austrian Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q62651",
+        "name": "Denmark-Norway",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q71084",
+        "name": "First French Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q58296",
+        "name": "French First Republic",
+        "evidence": [
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q154849",
+        "name": "Grand Duchy of Tuscany",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q153136",
+        "name": "Habsburg Monarchy",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q154195",
+        "name": "Kingdom of Bavaria",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q164079",
+        "name": "Kingdom of Hanover",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q2577303",
+        "name": "Kingdom of Sardinia",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q153015",
+        "name": "Kingdom of Saxony",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q34",
+        "name": "Kingdom of Sweden",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q34266",
+        "name": "Russian Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q174193",
+        "name": "United Kingdom of Great Britain and Ireland",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q8680",
+        "name": "British Empire",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q45670",
+        "name": "Kingdom of Portugal",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q38872",
+        "name": "Prussia",
+        "evidence": [
+          "override"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

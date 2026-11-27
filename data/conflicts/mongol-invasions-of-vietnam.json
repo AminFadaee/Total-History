@@ -1,0 +1,31 @@
+{
+  "id": "Q2448644",
+  "slug": "mongol-invasions-of-vietnam",
+  "name": "Mongol invasions of Vietnam",
+  "title": "Mongol invasions of Vietnam",
+  "wikipedia": "Mongol invasions of Vietnam",
+  "years": [
+    1258,
+    1288
+  ],
+  "editions": 19,
+  "roles": {
+    "central": [
+      {
+        "id": "Q430309",
+        "name": "Đại Việt",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q216786",
+        "name": "Chámpa",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

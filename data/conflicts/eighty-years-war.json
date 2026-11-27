@@ -1,0 +1,42 @@
+{
+  "id": "Q164432",
+  "slug": "eighty-years-war",
+  "name": "Eighty Years' War",
+  "title": "Eighty Years' War",
+  "wikipedia": "Eighty Years' War",
+  "years": [
+    1568,
+    1648
+  ],
+  "editions": 74,
+  "roles": {
+    "central": [
+      {
+        "id": "Q170072",
+        "name": "Dutch Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q377350",
+        "name": "Iberian Union",
+        "evidence": [
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q80702",
+        "name": "Spanish Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "Q540978",
+  "slug": "second-italian-war-of-independence",
+  "name": "Second Italian War of Independence",
+  "title": "Second Italian War of Independence",
+  "wikipedia": "Second Italian War of Independence",
+  "years": [
+    1859,
+    1859
+  ],
+  "editions": 46,
+  "roles": {
+    "central": [
+      {
+        "id": "Q71092",
+        "name": "Second French Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q154849",
+        "name": "Grand Duchy of Tuscany",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q2577303",
+        "name": "Kingdom of Sardinia",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

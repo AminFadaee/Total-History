@@ -1,0 +1,40 @@
+{
+  "id": "Q212658",
+  "slug": "war-of-the-polish-succession",
+  "name": "War of the Polish Succession",
+  "title": "War of the Polish Succession",
+  "wikipedia": "War of the Polish Succession",
+  "years": [
+    1733,
+    1735
+  ],
+  "editions": 49,
+  "roles": {
+    "central": [
+      {
+        "id": "Q173065",
+        "name": "Kingdom of Naples",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q156199",
+        "name": "Electorate of Saxony",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q153136",
+        "name": "Habsburg Monarchy",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

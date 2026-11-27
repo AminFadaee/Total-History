@@ -1,0 +1,25 @@
+{
+  "id": "Q83055",
+  "slug": "operation-barbarossa",
+  "name": "Operation Barbarossa",
+  "title": "Operation Barbarossa",
+  "wikipedia": "Operation Barbarossa",
+  "years": [
+    1941,
+    1941
+  ],
+  "editions": 88,
+  "roles": {
+    "central": [
+      {
+        "id": "Q7318",
+        "name": "Nazi Germany",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

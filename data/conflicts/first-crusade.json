@@ -1,0 +1,50 @@
+{
+  "id": "Q51649",
+  "slug": "first-crusade",
+  "name": "First Crusade",
+  "title": "First Crusade",
+  "wikipedia": "First Crusade",
+  "years": [
+    1090,
+    1099
+  ],
+  "editions": 84,
+  "roles": {
+    "central": [
+      {
+        "id": "Q335088",
+        "name": "Armenian Kingdom of Cilicia",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q3708094",
+        "name": "Great Seljuk Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q160307",
+        "name": "Fatimid Caliphate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q975405",
+        "name": "Sultanate of Rum",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

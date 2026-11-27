@@ -1,0 +1,33 @@
+{
+  "id": "Q638530",
+  "slug": "texas-revolution",
+  "name": "Texas Revolution",
+  "title": "Texas Revolution",
+  "wikipedia": "Texas Revolution",
+  "years": [
+    1835,
+    1836
+  ],
+  "editions": 52,
+  "roles": {
+    "founding": [
+      {
+        "id": "Q5062192",
+        "name": "Centralist Mexico",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q170588",
+        "name": "Republic of Texas",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

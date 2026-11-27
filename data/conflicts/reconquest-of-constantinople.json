@@ -1,0 +1,32 @@
+{
+  "id": "Q1400402",
+  "slug": "reconquest-of-constantinople",
+  "name": "Reconquest of Constantinople",
+  "title": "Reconquest of Constantinople",
+  "wikipedia": "Reconquest of Constantinople",
+  "years": [
+    1261,
+    1261
+  ],
+  "editions": 24,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q178897",
+        "name": "Latin Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q181254",
+        "name": "Nicaean Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "Q1290590",
+  "slug": "siege-of-jerusalem-587-bc",
+  "name": "Siege of Jerusalem",
+  "title": "Siege of Jerusalem (587 BC)",
+  "wikipedia": "Siege of Jerusalem (587 BC)",
+  "years": [
+    -589,
+    -587
+  ],
+  "editions": 24,
+  "roles": {
+    "central": [
+      {
+        "id": "Q624887",
+        "name": "Neo-Babylonian Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q48685",
+        "name": "Kingdom of Judah",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

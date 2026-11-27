@@ -1,0 +1,34 @@
+{
+  "id": "Q309184",
+  "slug": "boshin-war",
+  "name": "Boshin War",
+  "title": "Boshin War",
+  "wikipedia": "Boshin War",
+  "years": [
+    1868,
+    1869
+  ],
+  "editions": 52,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q205662",
+        "name": "Tokugawa Shogunate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q188712",
+        "name": "Empire of Japan",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

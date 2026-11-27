@@ -1,0 +1,39 @@
+{
+  "id": "Q2313318",
+  "slug": "battle-of-chengpu",
+  "name": "Battle of Chengpu",
+  "title": "Battle of Chengpu",
+  "wikipedia": "Battle of Chengpu",
+  "years": [
+    -632,
+    -632
+  ],
+  "editions": 16,
+  "roles": {
+    "central": [
+      {
+        "id": "Q504759",
+        "name": "Chu",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q912043",
+        "name": "Jin",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q837855",
+        "name": "Qi",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

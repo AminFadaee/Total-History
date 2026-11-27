@@ -1,0 +1,37 @@
+{
+  "id": "Q152499",
+  "slug": "peninsular-war",
+  "name": "Peninsular War",
+  "title": "Peninsular War",
+  "wikipedia": "Peninsular War",
+  "years": [
+    1808,
+    1814
+  ],
+  "editions": 65,
+  "roles": {
+    "central": [
+      {
+        "id": "Q29",
+        "name": "Kingdom of Spain",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q71084",
+        "name": "First French Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

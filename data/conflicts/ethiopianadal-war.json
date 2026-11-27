@@ -1,0 +1,36 @@
+{
+  "id": "Q2915203",
+  "slug": "ethiopianadal-war",
+  "name": "Ethiopian–Adal War",
+  "title": "Ethiopian–Adal War",
+  "wikipedia": "Ethiopian–Adal War",
+  "years": [
+    1529,
+    1543
+  ],
+  "editions": 16,
+  "roles": {
+    "central": [
+      {
+        "id": "Q2365048",
+        "name": "Adal Sultanate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q207521",
+        "name": "Ethiopian Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

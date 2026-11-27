@@ -1,0 +1,40 @@
+{
+  "id": "Q744969",
+  "slug": "hanxiongnu-wars",
+  "name": "Han–Xiongnu Wars",
+  "title": "Han–Xiongnu Wars",
+  "wikipedia": "Han–Xiongnu wars",
+  "years": [
+    -139,
+    89
+  ],
+  "editions": 16,
+  "roles": {
+    "central": [
+      {
+        "id": "Q861054",
+        "name": "Xianbei",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q504769",
+        "name": "Xin Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q188836",
+        "name": "Xiongnu",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

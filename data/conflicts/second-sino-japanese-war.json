@@ -1,0 +1,35 @@
+{
+  "id": "Q170314",
+  "slug": "second-sino-japanese-war",
+  "name": "Second Sino-Japanese War",
+  "title": "Second Sino-Japanese War",
+  "wikipedia": "Second Sino-Japanese War",
+  "years": [
+    1937,
+    1945
+  ],
+  "editions": 84,
+  "roles": {
+    "central": [
+      {
+        "id": "Q188712",
+        "name": "Empire of Japan",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q13426199",
+        "name": "Republic of China",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

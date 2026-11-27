@@ -1,0 +1,32 @@
+{
+  "id": "Q3486010",
+  "slug": "siege-of-queretaro",
+  "name": "Siege of Querétaro",
+  "title": "Siege of Querétaro",
+  "wikipedia": "Siege of Querétaro",
+  "years": [
+    1867,
+    1867
+  ],
+  "editions": 6,
+  "roles": {
+    "central": [
+      {
+        "id": "Q371334",
+        "name": "Second Mexican Empire",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q371334",
+        "name": "Second Mexican Empire",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

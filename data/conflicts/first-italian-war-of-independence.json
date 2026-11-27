@@ -1,0 +1,39 @@
+{
+  "id": "Q920894",
+  "slug": "first-italian-war-of-independence",
+  "name": "First Italian War of Independence",
+  "title": "First Italian War of Independence",
+  "wikipedia": "First Italian War of Independence",
+  "years": [
+    1848,
+    1849
+  ],
+  "editions": 39,
+  "roles": {
+    "central": [
+      {
+        "id": "Q2577303",
+        "name": "Kingdom of Sardinia",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      },
+      {
+        "id": "Q180393",
+        "name": "Kingdom of the Two Sicilies",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q170174",
+        "name": "Papal States",
+        "evidence": [
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

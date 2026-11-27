@@ -1,0 +1,34 @@
+{
+  "id": "Q315342",
+  "slug": "burgundian-wars",
+  "name": "Burgundian Wars",
+  "title": "Burgundian Wars",
+  "wikipedia": "Burgundian Wars",
+  "years": [
+    1474,
+    1477
+  ],
+  "editions": 32,
+  "roles": {
+    "central": [
+      {
+        "id": "Q435583",
+        "name": "Old Swiss Confederacy",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q4712",
+        "name": "Duchy of Burgundy",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

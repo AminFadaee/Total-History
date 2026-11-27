@@ -1,0 +1,32 @@
+{
+  "id": "Q1122337",
+  "slug": "second-persian-invasion-of-greece",
+  "name": "Second Persian invasion of Greece",
+  "title": "Second Persian invasion of Greece",
+  "wikipedia": "Second Persian invasion of Greece",
+  "years": [
+    -480,
+    -479
+  ],
+  "editions": 25,
+  "roles": {
+    "second": [
+      {
+        "id": "Q844930",
+        "name": "Classical Athens",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q5690",
+        "name": "Sparta",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

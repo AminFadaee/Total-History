@@ -1,0 +1,33 @@
+{
+  "id": "Q33570",
+  "slug": "battle-of-grunwald",
+  "name": "Battle of Grunwald",
+  "title": "Battle of Grunwald",
+  "wikipedia": "Battle of Grunwald",
+  "years": [
+    1410,
+    1410
+  ],
+  "editions": 69,
+  "roles": {
+    "central": [
+      {
+        "id": "Q49683",
+        "name": "Grand Duchy of Lithuania",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q156020",
+        "name": "Teutonic Order",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "Q1134220",
+  "slug": "mongol-invasion-of-kievan-rus",
+  "name": "Mongol invasion of Kievan Rus'",
+  "title": "Mongol invasion of Kievan Rus'",
+  "wikipedia": "Mongol invasion of Kievan Rus'",
+  "years": [
+    1223,
+    1240
+  ],
+  "editions": 42,
+  "roles": {
+    "central": [
+      {
+        "id": "Q1108445",
+        "name": "Kievan Rus'",
+        "evidence": [
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q239502",
+        "name": "Kingdom of Galicia–Volhynia",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q1322662",
+        "name": "Principality of Chernigov",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q1483430",
+        "name": "Principality of Kiev",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q83546",
+        "name": "Principality of Rostov-Suzdal",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q40949",
+  "slug": "american-revolutionary-war",
+  "name": "American Revolutionary War",
+  "title": "American Revolutionary War",
+  "wikipedia": "American Revolutionary War",
+  "years": [
+    1775,
+    1783
+  ],
+  "editions": 107,
+  "roles": {
+    "central": [
+      {
+        "id": "Q161885",
+        "name": "Kingdom of Great Britain",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q30",
+        "name": "United States of America",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

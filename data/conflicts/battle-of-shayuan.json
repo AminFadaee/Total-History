@@ -1,0 +1,32 @@
+{
+  "id": "Q3271035",
+  "slug": "battle-of-shayuan",
+  "name": "Battle of Shayuan",
+  "title": "Battle of Shayuan",
+  "wikipedia": "Battle of Shayuan",
+  "years": [
+    537,
+    537
+  ],
+  "editions": 6,
+  "roles": {
+    "central": [
+      {
+        "id": "Q307069",
+        "name": "Eastern Wei",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q1143164",
+        "name": "Western Wei",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

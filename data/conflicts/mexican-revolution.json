@@ -1,0 +1,24 @@
+{
+  "id": "Q214426",
+  "slug": "mexican-revolution",
+  "name": "Mexican Revolution",
+  "title": "Mexican Revolution",
+  "wikipedia": "Mexican Revolution",
+  "years": [
+    1910,
+    1920
+  ],
+  "editions": 64,
+  "roles": {
+    "central": [
+      {
+        "id": "Q96",
+        "name": "Mexico",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

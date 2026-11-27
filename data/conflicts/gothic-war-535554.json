@@ -1,0 +1,36 @@
+{
+  "id": "Q477973",
+  "slug": "gothic-war-535554",
+  "name": "Gothic War of 535–554",
+  "title": "Gothic War of 535–554",
+  "wikipedia": "Gothic War (535–554)",
+  "years": [
+    535,
+    554
+  ],
+  "editions": 49,
+  "roles": {
+    "central": [
+      {
+        "id": "Q583038",
+        "name": "Ostrogothic Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q583038",
+        "name": "Ostrogothic Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

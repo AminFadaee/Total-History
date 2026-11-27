@@ -1,0 +1,34 @@
+{
+  "id": "Q654722",
+  "slug": "battle-of-mulayda",
+  "name": "Battle of Mulayda",
+  "title": "Battle of Mulayda",
+  "wikipedia": "Battle of Mulayda",
+  "years": [
+    1891,
+    1891
+  ],
+  "editions": 9,
+  "roles": {
+    "central": [
+      {
+        "id": "Q146862",
+        "name": "Emirate of Nejd",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q146862",
+        "name": "Emirate of Nejd",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

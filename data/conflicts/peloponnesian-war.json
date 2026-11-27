@@ -1,0 +1,32 @@
+{
+  "id": "Q33745",
+  "slug": "peloponnesian-war",
+  "name": "Peloponnesian War",
+  "title": "Peloponnesian War",
+  "wikipedia": "Peloponnesian War",
+  "years": [
+    -431,
+    -404
+  ],
+  "editions": 81,
+  "roles": {
+    "central": [
+      {
+        "id": "Q844930",
+        "name": "Classical Athens",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q5690",
+        "name": "Sparta",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

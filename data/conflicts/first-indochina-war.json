@@ -1,0 +1,32 @@
+{
+  "id": "Q748780",
+  "slug": "first-indochina-war",
+  "name": "First Indochina War",
+  "title": "First Indochina War",
+  "wikipedia": "First Indochina War",
+  "years": [
+    1946,
+    1954
+  ],
+  "editions": 65,
+  "roles": {
+    "central": [
+      {
+        "id": "Q179023",
+        "name": "French colonial empire",
+        "evidence": [
+          "override"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q185682",
+        "name": "French Indochina",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

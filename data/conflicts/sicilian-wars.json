@@ -1,0 +1,25 @@
+{
+  "id": "Q1235331",
+  "slug": "sicilian-wars",
+  "name": "Greek-Punic Wars",
+  "title": "Greek-Punic Wars",
+  "wikipedia": "Sicilian Wars",
+  "years": [
+    -580,
+    -265
+  ],
+  "editions": 24,
+  "roles": {
+    "second": [
+      {
+        "id": "Q2429397",
+        "name": "Carthage",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

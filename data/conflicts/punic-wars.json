@@ -1,0 +1,34 @@
+{
+  "id": "Q124988",
+  "slug": "punic-wars",
+  "name": "Punic Wars",
+  "title": "Punic Wars",
+  "wikipedia": "Punic Wars",
+  "years": [
+    -264,
+    -146
+  ],
+  "editions": 84,
+  "roles": {
+    "central": [
+      {
+        "id": "Q2429397",
+        "name": "Carthage",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q17167",
+        "name": "Roman Republic",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

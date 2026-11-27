@@ -1,0 +1,35 @@
+{
+  "id": "Q75665",
+  "slug": "second-macedonian-war",
+  "name": "Second Macedonian War",
+  "title": "Second Macedonian War",
+  "wikipedia": "Second Macedonian War",
+  "years": [
+    -200,
+    -197
+  ],
+  "editions": 37,
+  "roles": {
+    "central": [
+      {
+        "id": "Q2022162",
+        "name": "Kingdom of Pergamon",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q83958",
+        "name": "Macedonia",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

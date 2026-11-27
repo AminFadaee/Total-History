@@ -1,0 +1,33 @@
+{
+  "id": "Q203729",
+  "slug": "battle-of-kadesh",
+  "name": "Battle of Kadesh",
+  "title": "Battle of Kadesh",
+  "wikipedia": "Battle of Kadesh",
+  "years": [
+    -1274,
+    -1274
+  ],
+  "editions": 57,
+  "roles": {
+    "central": [
+      {
+        "id": "Q5406",
+        "name": "Hittites",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q180568",
+        "name": "New Kingdom of Egypt",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "Q48314",
+  "slug": "battle-of-waterloo",
+  "name": "Battle of Waterloo",
+  "title": "Battle of Waterloo",
+  "wikipedia": "Battle of Waterloo",
+  "years": [
+    1815,
+    1815
+  ],
+  "editions": 94,
+  "roles": {
+    "central": [
+      {
+        "id": "Q164079",
+        "name": "Kingdom of Hanover",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q38872",
+        "name": "Prussia",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

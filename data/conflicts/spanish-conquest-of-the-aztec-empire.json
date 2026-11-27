@@ -1,0 +1,48 @@
+{
+  "id": "Q828435",
+  "slug": "spanish-conquest-of-the-aztec-empire",
+  "name": "Spanish conquest of the Aztec Empire",
+  "title": "Spanish conquest of the Aztec Empire",
+  "wikipedia": "Spanish conquest of the Aztec Empire",
+  "years": [
+    1519,
+    1521
+  ],
+  "editions": 43,
+  "roles": {
+    "central": [
+      {
+        "id": "Q217196",
+        "name": "Crown of Castile",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q844750",
+        "name": "Zapotec Civilization",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q2608489",
+        "name": "Aztec Triple Alliance",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      },
+      {
+        "id": "Q13695",
+        "name": "Tenochtitlan",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

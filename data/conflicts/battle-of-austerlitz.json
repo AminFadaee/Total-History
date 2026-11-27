@@ -1,0 +1,32 @@
+{
+  "id": "Q134114",
+  "slug": "battle-of-austerlitz",
+  "name": "Battle of Austerlitz",
+  "title": "Battle of Austerlitz",
+  "wikipedia": "Battle of Austerlitz",
+  "years": [
+    1805,
+    1805
+  ],
+  "editions": 74,
+  "roles": {
+    "central": [
+      {
+        "id": "Q71084",
+        "name": "First French Empire",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q154741",
+        "name": "Confederation of the Rhine",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

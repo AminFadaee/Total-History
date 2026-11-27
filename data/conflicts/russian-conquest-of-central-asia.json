@@ -1,0 +1,34 @@
+{
+  "id": "Q25591101",
+  "slug": "russian-conquest-of-central-asia",
+  "name": "Russian colonisation of Central Asia",
+  "title": "Russian colonisation of Central Asia",
+  "wikipedia": "Russian conquest of Central Asia",
+  "years": [
+    1839,
+    1839
+  ],
+  "editions": 21,
+  "roles": {
+    "central": [
+      {
+        "id": "Q491106",
+        "name": "Khanate of Khiva",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q34266",
+        "name": "Russian Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

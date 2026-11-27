@@ -1,0 +1,24 @@
+{
+  "id": "Q87779",
+  "slug": "battle-of-the-teutoburg-forest",
+  "name": "Battle of the Teutoburg Forest",
+  "title": "Battle of the Teutoburg Forest",
+  "wikipedia": "Battle of the Teutoburg Forest",
+  "years": [
+    9,
+    9
+  ],
+  "editions": 64,
+  "roles": {
+    "central": [
+      {
+        "id": "Q2277",
+        "name": "Roman Empire",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

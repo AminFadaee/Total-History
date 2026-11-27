@@ -1,0 +1,34 @@
+{
+  "id": "Q208297",
+  "slug": "irish-war-of-independence",
+  "name": "Irish War of Independence",
+  "title": "Irish War of Independence",
+  "wikipedia": "Irish War of Independence",
+  "years": [
+    1919,
+    1921
+  ],
+  "editions": 58,
+  "roles": {
+    "ending": [
+      {
+        "id": "Q174193",
+        "name": "United Kingdom of Great Britain and Ireland",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "founding": [
+      {
+        "id": "Q31747",
+        "name": "Irish Free State",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

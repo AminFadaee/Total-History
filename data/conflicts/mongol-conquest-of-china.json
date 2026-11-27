@@ -1,0 +1,33 @@
+{
+  "id": "Q4301657",
+  "slug": "mongol-conquest-of-china",
+  "name": "Mongol invasion of China",
+  "title": "Mongol invasion of China",
+  "wikipedia": "Mongol conquest of China",
+  "years": [
+    1205,
+    1279
+  ],
+  "editions": 16,
+  "roles": {
+    "central": [
+      {
+        "id": "Q26472",
+        "name": "Kingdom of Dali",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q5066",
+        "name": "Great Jin",
+        "evidence": [
+          "infobox"
+        ]
+      }
+    ]
+  }
+}

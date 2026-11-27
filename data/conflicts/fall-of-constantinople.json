@@ -1,0 +1,36 @@
+{
+  "id": "Q160077",
+  "slug": "fall-of-constantinople",
+  "name": "Fall of Constantinople",
+  "title": "Fall of Constantinople",
+  "wikipedia": "Fall of Constantinople",
+  "years": [
+    1453,
+    1453
+  ],
+  "editions": 80,
+  "roles": {
+    "central": [
+      {
+        "id": "Q12560",
+        "name": "Ottoman Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q12544",
+        "name": "Byzantine Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

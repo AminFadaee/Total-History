@@ -1,0 +1,34 @@
+{
+  "id": "Q4446152",
+  "slug": "jinsong-wars",
+  "name": "Jurchen campaigns against the Song dynasty",
+  "title": "Jurchen campaigns against the Song dynasty",
+  "wikipedia": "Jin–Song wars",
+  "years": [
+    1125,
+    1300
+  ],
+  "editions": 16,
+  "roles": {
+    "central": [
+      {
+        "id": "Q5066",
+        "name": "Great Jin",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ],
+    "second": [
+      {
+        "id": "Q7462",
+        "name": "Song dynasty",
+        "evidence": [
+          "infobox",
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q94916",
+  "slug": "second-italo-ethiopian-war",
+  "name": "Second Italo-Ethiopian War",
+  "title": "Second Italo-Ethiopian War",
+  "wikipedia": "Second Italo-Ethiopian War",
+  "years": [
+    1935,
+    1937
+  ],
+  "editions": 54,
+  "roles": {
+    "central": [
+      {
+        "id": "Q207521",
+        "name": "Ethiopian Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q926295",
+        "name": "Italian Africa",
+        "evidence": [
+          "override"
+        ]
+      },
+      {
+        "id": "Q172579",
+        "name": "Kingdom of Italy",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

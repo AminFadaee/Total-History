@@ -1,0 +1,33 @@
+{
+  "id": "Q1501724",
+  "slug": "portuguese-restoration-war",
+  "name": "Portuguese Restoration War",
+  "title": "Portuguese Restoration War",
+  "wikipedia": "Portuguese Restoration War",
+  "years": [
+    1640,
+    1668
+  ],
+  "editions": 33,
+  "roles": {
+    "central": [
+      {
+        "id": "Q45670",
+        "name": "Kingdom of Portugal",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "id": "Q377350",
+        "name": "Iberian Union",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

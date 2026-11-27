@@ -1,0 +1,73 @@
+{
+  "id": "Q74623",
+  "slug": "great-turkish-war",
+  "name": "Great Turkish War",
+  "title": "Great Turkish War",
+  "wikipedia": "Great Turkish War",
+  "years": [
+    1683,
+    1699
+  ],
+  "editions": 54,
+  "roles": {
+    "big": [
+      {
+        "id": "Q153136",
+        "name": "Habsburg Monarchy",
+        "evidence": [
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q12560",
+        "name": "Ottoman Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q170174",
+        "name": "Papal States",
+        "evidence": [
+          "infobox"
+        ]
+      },
+      {
+        "id": "Q172107",
+        "name": "Polish-Lithuanian Commonwealth",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q4948",
+        "name": "Republic of Venice",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "wikidata"
+        ]
+      },
+      {
+        "id": "Q186096",
+        "name": "Tsardom of Russia",
+        "evidence": [
+          "infobox",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

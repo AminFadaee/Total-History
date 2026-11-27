@@ -1,0 +1,25 @@
+{
+  "id": "Q693282",
+  "slug": "siege-of-turin",
+  "name": "Siege of Turin",
+  "title": "Siege of Turin",
+  "wikipedia": "Siege of Turin",
+  "years": [
+    1706,
+    1706
+  ],
+  "editions": 24,
+  "roles": {
+    "central": [
+      {
+        "id": "Q426025",
+        "name": "Duchy of Savoy",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}
