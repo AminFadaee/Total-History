@@ -2585,3 +2585,30 @@ action = "set"
 source = "https://en.wikipedia.org/wiki/Zhou_dynasty"
 quote = "Around 1046 BC, Wen's son Wu and his ally Jiang Ziya led an army of 45,000 men and 300 chariots across the Yellow River and defeated Di Xin at the Battle of Muye, marking the beginning of the Zhou dynasty."
 retrieved = 2026-11-27
+
+[[conflict]]
+civilization = "Empire of China"
+civilization_id = "Q175379"
+conflict = "National Protection War"
+conflict_id = "Q1345258"
+role = "founding"
+action = "remove"
+note = "Final audit: Yuan Shikai proclaimed the empire himself; the National Protection War was the revolt against it."
+
+[[conflict]]
+civilization = "German Empire"
+civilization_id = "Q43287"
+conflict = "Boxer Rebellion"
+conflict_id = "Q150229"
+role = "central"
+action = "remove"
+note = "Final audit: the Boxer Rebellion was a peripheral expedition for Germany, not its defining conflict."
+
+[[conflict]]
+civilization = "Kingdom of Sweden"
+civilization_id = "Q34"
+conflict = "Battle of Leipzig"
+conflict_id = "Q151005"
+role = "central"
+action = "remove"
+note = "Final audit: Sweden was a peripheral ally at Leipzig, not a defining conflict of the kingdom."
