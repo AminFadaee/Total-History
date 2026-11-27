@@ -1,0 +1,55 @@
+{
+  "id": "Q1139887",
+  "slug": "russo-persian-war-18041813",
+  "name": "Russo-Persian War of 1804–13",
+  "title": "Russo-Persian War of 1804–13",
+  "wikipedia": "Russo-Persian War (1804–1813)",
+  "years": [
+    1804,
+    1813
+  ],
+  "editions": 37,
+  "infobox_years": [
+    1804,
+    1813
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "One of the many wars between the Iranian Empire and Imperial Russia, and, like many of their other conflicts, began as a territorial dispute.",
+  "result": "Russian victory",
+  "sides": [
+    {
+      "combatants": [
+        "Russian Empire"
+      ],
+      "civilizations": [
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Qajar Dynasty",
+        "Ganja khanate",
+        "Erivan Khanate"
+      ],
+      "civilizations": [
+        "Q63158027"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q63158027",
+        "name": "Qajar Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

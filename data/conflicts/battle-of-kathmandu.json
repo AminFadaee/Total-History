@@ -1,0 +1,51 @@
+{
+  "id": "Q4871400",
+  "slug": "battle-of-kathmandu",
+  "name": "Battle of Kathmandu",
+  "title": "Battle of Kathmandu",
+  "wikipedia": "Battle of Kathmandu",
+  "years": [
+    1768,
+    1768
+  ],
+  "editions": 7,
+  "infobox_years": [
+    1768,
+    1768
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    85.366666666667,
+    27.716666666667
+  ],
+  "summary": "1768 siege in the Gorkhali conquest of Nepal.",
+  "result": "Gorkhali victory",
+  "sides": [
+    {
+      "combatants": [
+        "Gorkha Kingdom"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Kantipur",
+        "East India Company"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q1078602",
+        "name": "Kingdom of Nepal",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

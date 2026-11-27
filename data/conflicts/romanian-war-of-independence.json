@@ -1,0 +1,53 @@
+{
+  "id": "Q3778687",
+  "slug": "romanian-war-of-independence",
+  "name": "Romanian War of Independence",
+  "title": "Romanian War of Independence",
+  "wikipedia": "Romanian War of Independence",
+  "years": [
+    1877,
+    1878
+  ],
+  "editions": 34,
+  "infobox_years": [
+    1877,
+    1878
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The name used in Romanian historiography to refer to the phase of the Russo-Turkish War, in which Romania, fighting on the Russian side of the war, gained independence from the Ottoman Empire.",
+  "result": "Northern Dobruja passed from Ottoman Empire to Romania",
+  "sides": [
+    {
+      "combatants": [
+        "United Principalities of Moldavia and Wallachia",
+        "Russian Empire",
+        "Romania"
+      ],
+      "civilizations": [
+        "Q34266"
+      ]
+    },
+    {
+      "combatants": [
+        "Ottoman Empire"
+      ],
+      "civilizations": [
+        "Q12560"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q203493",
+        "name": "Kingdom of Romania",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

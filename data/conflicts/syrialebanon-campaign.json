@@ -1,0 +1,67 @@
+{
+  "id": "Q770698",
+  "slug": "syrialebanon-campaign",
+  "name": "Syria–Lebanon campaign",
+  "title": "Syria–Lebanon campaign",
+  "wikipedia": "Syria–Lebanon campaign",
+  "years": [
+    1941,
+    1941
+  ],
+  "editions": 33,
+  "infobox_years": [
+    1941,
+    1941
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "The liberation of Syria and Lebanon from German control in June and July 1941 by British Commonwealth forces during the Second World War.",
+  "result": "Allied victory",
+  "sides": [
+    {
+      "combatants": [
+        "Iraq Levies",
+        "Emirate of Transjordan",
+        "Czechoslovak government-in-exile",
+        "United Kingdom",
+        "British Raj",
+        "British Mandate for Palestine",
+        "Jordan",
+        "Commonwealth of Australia",
+        "Free French",
+        "Czechoslovakia"
+      ],
+      "civilizations": [
+        "Q129286",
+        "Q145",
+        "Q152582",
+        "Q33946",
+        "Q408"
+      ]
+    },
+    {
+      "combatants": [
+        "First Syrian Republic",
+        "Vichy France",
+        "French mandate of Lebanon"
+      ],
+      "civilizations": [
+        "Q69808"
+      ]
+    }
+  ],
+  "roles": {
+    "second": [
+      {
+        "id": "Q69808",
+        "name": "Vichy France",
+        "evidence": [
+          "infobox",
+          "override"
+        ]
+      }
+    ]
+  }
+}

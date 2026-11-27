@@ -1,0 +1,58 @@
+{
+  "id": "Q699511",
+  "slug": "italian-campaign-of-17961797",
+  "name": "Italian Campaign of 1796-1797",
+  "title": "Italian Campaign of 1796-1797",
+  "wikipedia": "Italian campaign of 1796–1797",
+  "years": [
+    1796,
+    1797
+  ],
+  "editions": 15,
+  "infobox_years": [
+    1796,
+    1797
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A series of military operations in Italy during the War of the First Coalition.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "sister republic",
+        "French First Republic"
+      ],
+      "civilizations": [
+        "Q58296"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Sardinia",
+        "Holy Roman Empire",
+        "Papal States",
+        "Republic of Venice"
+      ],
+      "civilizations": [
+        "Q12548",
+        "Q170174",
+        "Q2577303",
+        "Q4948"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q174306",
+        "name": "Republic of Genoa",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

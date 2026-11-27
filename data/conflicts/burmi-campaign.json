@@ -1,0 +1,55 @@
+{
+  "id": "Q131360015",
+  "slug": "burmi-campaign",
+  "name": "Battle of Burmi",
+  "title": "Battle of Burmi",
+  "wikipedia": "Burmi campaign",
+  "years": [
+    1903,
+    1903
+  ],
+  "editions": 2,
+  "infobox_years": [
+    1903,
+    1903
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "A series of military engagements in 1903 between the British Empire, through its protectorate in Northern Nigeria, and the Sokoto Caliphate.",
+  "result": "British victory",
+  "sides": [
+    {
+      "combatants": [
+        "Northern Nigeria Protectorate",
+        "British Empire"
+      ],
+      "civilizations": [
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Sokoto Caliphate"
+      ],
+      "civilizations": [
+        "Q600524"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q600524",
+        "name": "Sokoto Caliphate",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

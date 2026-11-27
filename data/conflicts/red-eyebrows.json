@@ -1,0 +1,32 @@
+{
+  "id": "Q759985",
+  "slug": "red-eyebrows",
+  "name": "Red Eyebrows",
+  "title": "Red Eyebrows",
+  "wikipedia": "Red Eyebrows",
+  "years": [
+    17,
+    27
+  ],
+  "editions": 26,
+  "infobox_years": null,
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "One of the two major peasant rebellion movements against Wang Mang's short-lived Xin dynasty, the other being Lülin.",
+  "result": "",
+  "sides": [],
+  "roles": {
+    "central": [
+      {
+        "id": "Q504769",
+        "name": "Xin Dynasty",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

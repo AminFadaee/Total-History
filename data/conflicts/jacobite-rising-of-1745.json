@@ -1,0 +1,50 @@
+{
+  "id": "Q1049945",
+  "slug": "jacobite-rising-of-1745",
+  "name": "Jacobite rising of 1745",
+  "title": "Jacobite rising of 1745",
+  "wikipedia": "Jacobite rising of 1745",
+  "years": [
+    1745,
+    1746
+  ],
+  "editions": 26,
+  "infobox_years": [
+    1745,
+    1746
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "An attempt to regain the British throne for the exiled House of Stuart.",
+  "result": "Government victory",
+  "sides": [
+    {
+      "combatants": [
+        "Government of the United Kingdom",
+        "Kingdom of Great Britain"
+      ],
+      "civilizations": [
+        "Q161885"
+      ]
+    },
+    {
+      "combatants": [
+        "Jacobite Army"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "second": [
+      {
+        "id": "Q161885",
+        "name": "Kingdom of Great Britain",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

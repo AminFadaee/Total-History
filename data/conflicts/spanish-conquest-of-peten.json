@@ -1,0 +1,57 @@
+{
+  "id": "Q7573336",
+  "slug": "spanish-conquest-of-peten",
+  "name": "Spanish conquest of Petén metides",
+  "title": "Spanish conquest of Petén metides",
+  "wikipedia": "Spanish conquest of Petén",
+  "years": [
+    1618,
+    1697
+  ],
+  "editions": 9,
+  "infobox_years": [
+    1618,
+    1697
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "The last stage of the conquest of Guatemala, a prolonged conflict during the Spanish colonisation of the Americas.",
+  "result": "Incorporation of the Petén Basin into the Captaincy General of Guatemala",
+  "sides": [
+    {
+      "combatants": [
+        "Spanish Empire"
+      ],
+      "civilizations": [
+        "Q80702"
+      ]
+    },
+    {
+      "combatants": [
+        "Maya civilization",
+        "Itza people",
+        "Ko'woj",
+        "Kejache",
+        "Yalain",
+        "Lakandon Ch'ol",
+        "Manche Ch'ol"
+      ],
+      "civilizations": [
+        "Q28567"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q28567",
+        "name": "Maya civilization",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

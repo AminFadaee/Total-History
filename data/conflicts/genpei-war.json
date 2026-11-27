@@ -44,12 +44,13 @@
     }
   ],
   "roles": {
-    "central": [
+    "ending": [
       {
         "id": "Q193292",
         "name": "Heian Japan",
         "evidence": [
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ],

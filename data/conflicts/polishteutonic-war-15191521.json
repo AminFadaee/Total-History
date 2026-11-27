@@ -1,0 +1,48 @@
+{
+  "id": "Q558423",
+  "slug": "polishteutonic-war-15191521",
+  "name": "Polish–Teutonic War of 1519–21",
+  "title": "Polish–Teutonic War of 1519–21",
+  "wikipedia": "Polish–Teutonic War (1519–1521)",
+  "years": [
+    1519,
+    1521
+  ],
+  "editions": 11,
+  "infobox_years": [
+    1519,
+    1521
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought between the Kingdom of Poland and the Teutonic Knights, ending with the Compromise of Thorn in April 1521.",
+  "result": "Polish victory",
+  "sides": [
+    {
+      "combatants": [
+        "Teutonic Order"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "History of Poland during the Jagiellonian dynasty"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q156020",
+        "name": "Teutonic Order",
+        "evidence": [
+          "mutual",
+          "override"
+        ]
+      }
+    ]
+  }
+}

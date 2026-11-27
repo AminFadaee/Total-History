@@ -1,0 +1,56 @@
+{
+  "id": "Q1359846",
+  "slug": "1893-franco-siamese-crisis",
+  "name": "1893 Franco-Siamese crisis",
+  "title": "1893 Franco-Siamese crisis",
+  "wikipedia": "1893 Franco-Siamese crisis",
+  "years": [
+    1893,
+    1893
+  ],
+  "editions": 20,
+  "infobox_years": [
+    1893,
+    1893
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A conflict between the French Third Republic and the Kingdom of Siam.",
+  "result": "French victory",
+  "sides": [
+    {
+      "combatants": [
+        "French Third Republic",
+        "French Indochina"
+      ],
+      "civilizations": [
+        "Q185682",
+        "Q70802"
+      ]
+    },
+    {
+      "combatants": [
+        "Rattanakosin Kingdom"
+      ],
+      "civilizations": [
+        "Q1155700"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q1155700",
+        "name": "Rattanakosin Kingdom",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

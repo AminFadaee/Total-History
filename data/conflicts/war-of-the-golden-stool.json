@@ -1,0 +1,54 @@
+{
+  "id": "Q356920",
+  "slug": "war-of-the-golden-stool",
+  "name": "War of the Golden Stool",
+  "title": "War of the Golden Stool",
+  "wikipedia": "War of the Golden Stool",
+  "years": [
+    1900,
+    1900
+  ],
+  "editions": 12,
+  "infobox_years": [
+    1900,
+    1900
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A campaign in 1900 during the series of conflicts between the United Kingdom and the Ashanti Empire, an autonomous state in West Africa that fractiously co-existed with the British and its vassal coastal tribes.",
+  "result": "British military victory",
+  "sides": [
+    {
+      "combatants": [
+        "British Empire"
+      ],
+      "civilizations": [
+        "Q8680"
+      ]
+    },
+    {
+      "combatants": [
+        "Ashanti Empire"
+      ],
+      "civilizations": [
+        "Q722071"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q722071",
+        "name": "Ashanti Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

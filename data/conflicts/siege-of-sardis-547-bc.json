@@ -1,14 +1,14 @@
 {
-  "id": "Q1568965",
-  "slug": "battle-of-pteria",
-  "name": "Battle of Pteria",
-  "title": "Battle of Pteria",
-  "wikipedia": "Battle of Pteria",
+  "id": "Q3436155",
+  "slug": "siege-of-sardis-547-bc",
+  "name": "Siege of Sardis",
+  "title": "Siege of Sardis",
+  "wikipedia": "Siege of Sardis (547 BC)",
   "years": [
     -547,
     -547
   ],
-  "editions": 23,
+  "editions": 13,
   "infobox_years": [
     -547,
     -547
@@ -17,11 +17,11 @@
   "vital_level": null,
   "battle": true,
   "point": [
-    35.3333,
-    39.9167
+    28.040278,
+    38.488333
   ],
-  "summary": "Fought in 547 BC between the Persian forces of Cyrus the Great and the Lydian forces of Croesus.",
-  "result": "Indecisive",
+  "summary": "The last decisive conflict after the Battle of Thymbra, which was fought between the forces of Croesus of Lydia and Cyrus the Great.",
+  "result": "Persian victory",
   "sides": [
     {
       "combatants": [
@@ -47,11 +47,12 @@
         "name": "Lydia",
         "evidence": [
           "infobox",
-          "mutual"
+          "mutual",
+          "override"
         ]
       }
     ]
   },
-  "map": "conflicts/conflict-maps/battle-of-pteria.png",
-  "map_asked": true
+  "map": "conflicts/conflict-maps/siege-of-sardis-547-bc.png",
+  "map_asked": false
 }

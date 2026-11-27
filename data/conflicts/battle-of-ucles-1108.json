@@ -1,0 +1,61 @@
+{
+  "id": "Q2459925",
+  "slug": "battle-of-ucles-1108",
+  "name": "Battle of Uclés",
+  "title": "Battle of Uclés",
+  "wikipedia": "Battle of Uclés (1108)",
+  "years": [
+    1108,
+    1108
+  ],
+  "editions": 16,
+  "infobox_years": [
+    1108,
+    1108
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": [
+    -2.85,
+    39.9833
+  ],
+  "summary": "Fought on 29 May 1108 during the Reconquista period near Uclés just south of the river Tagus between the Christian forces of Castile and León under Alfonso VI and the forces of the Muslim Almoravids under Tamim ibn-Yusuf.",
+  "result": "Almoravid retake Cuenca, Huete, Belinchón, Ocaña, Medinaceli, and Uclés.",
+  "sides": [
+    {
+      "combatants": [
+        "Almoravid Dynasty"
+      ],
+      "civilizations": [
+        "Q75613"
+      ]
+    },
+    {
+      "combatants": [
+        "Kingdom of Castile",
+        "Kingdom of León"
+      ],
+      "civilizations": [
+        "Q175276",
+        "Q179293"
+      ]
+    }
+  ],
+  "roles": {
+    "second": [
+      {
+        "id": "Q75613",
+        "name": "Almoravid Dynasty",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  },
+  "map": "conflicts/conflict-maps/battle-of-ucles-1108.png",
+  "map_asked": true
+}

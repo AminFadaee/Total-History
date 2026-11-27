@@ -1,0 +1,54 @@
+{
+  "id": "Q124260231",
+  "slug": "fall-of-sis",
+  "name": "Fall of Sis",
+  "title": "Fall of Sis",
+  "wikipedia": "Fall of Sis",
+  "years": [
+    1375,
+    1375
+  ],
+  "editions": 3,
+  "infobox_years": [
+    1375,
+    1375
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "The capture of Sis and the destruction of the Armenian Kingdom of Cilicia by the Mamluk Sultanate.",
+  "result": "Mamluk victory",
+  "sides": [
+    {
+      "combatants": [
+        "Armenian Kingdom of Cilicia"
+      ],
+      "civilizations": [
+        "Q335088"
+      ]
+    },
+    {
+      "combatants": [
+        "Mamluk Sultanate"
+      ],
+      "civilizations": [
+        "Q282428"
+      ]
+    }
+  ],
+  "roles": {
+    "ending": [
+      {
+        "id": "Q335088",
+        "name": "Armenian Kingdom of Cilicia",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

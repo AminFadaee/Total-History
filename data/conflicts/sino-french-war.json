@@ -1,0 +1,52 @@
+{
+  "id": "Q706183",
+  "slug": "sino-french-war",
+  "name": "Sino-French War",
+  "title": "Sino-French War",
+  "wikipedia": "Sino-French War",
+  "years": [
+    1884,
+    1885
+  ],
+  "editions": 37,
+  "infobox_years": [
+    1884,
+    1885
+  ],
+  "years_confirmed": true,
+  "vital_level": 5,
+  "battle": false,
+  "point": null,
+  "summary": "A limited conflict fought from August 1884 to April 1885 between the French Third Republic and the Qing dynasty for the suzerainty of Vietnam.",
+  "result": "See #Aftermath",
+  "sides": [
+    {
+      "combatants": [
+        "French Third Republic"
+      ],
+      "civilizations": [
+        "Q70802"
+      ]
+    },
+    {
+      "combatants": [
+        "Black Flag Army",
+        "Qing Dynasty"
+      ],
+      "civilizations": [
+        "Q8733"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q185682",
+        "name": "French Indochina",
+        "evidence": [
+          "override"
+        ]
+      }
+    ]
+  }
+}

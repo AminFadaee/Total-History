@@ -1,0 +1,52 @@
+{
+  "id": "Q108485662",
+  "slug": "battle-of-kannauj",
+  "name": "Battle of Kannauj",
+  "title": "Battle of Kannauj",
+  "wikipedia": "Battle of Kannauj",
+  "years": [
+    null,
+    null
+  ],
+  "editions": 6,
+  "infobox_years": [
+    1540,
+    1540
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": true,
+  "point": null,
+  "summary": "1540 battle during Sur campaigns against the Mughal Empire.",
+  "result": "Sur victory",
+  "sides": [
+    {
+      "combatants": [
+        "Sur Empire"
+      ],
+      "civilizations": [
+        "Q373650"
+      ]
+    },
+    {
+      "combatants": [
+        "Mughal Empire"
+      ],
+      "civilizations": [
+        "Q33296"
+      ]
+    }
+  ],
+  "roles": {
+    "founding": [
+      {
+        "id": "Q373650",
+        "name": "Sur Empire",
+        "evidence": [
+          "infobox",
+          "override"
+        ]
+      }
+    ]
+  }
+}

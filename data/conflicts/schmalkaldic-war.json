@@ -1,0 +1,67 @@
+{
+  "id": "Q168556",
+  "slug": "schmalkaldic-war",
+  "name": "Schmalkaldic War",
+  "title": "Schmalkaldic War",
+  "wikipedia": "Schmalkaldic War",
+  "years": [
+    1546,
+    1547
+  ],
+  "editions": 40,
+  "infobox_years": [
+    1546,
+    1547
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "Fought within the territories of the Holy Roman Empire between the allied forces of Charles V, Holy Roman Emperor and Maurice, Duke of Saxony against the Lutheran Schmalkaldic League, with the forces directly loyal to Charles fighting under the command of Fernando Álvarez de Toledo, 3rd Duke of Alba.",
+  "result": "Imperial victory",
+  "sides": [
+    {
+      "combatants": [
+        "Holy Roman Empire",
+        "Archduchy of Austria",
+        "Electorate of Saxony",
+        "Lands of the Bohemian Crown",
+        "Habsburg Spain",
+        "Kingdom of Hungary"
+      ],
+      "civilizations": [
+        "Q12548"
+      ]
+    },
+    {
+      "combatants": [
+        "Schmalkaldic League",
+        "Electorate of Saxony",
+        "Landgraviate of Hesse",
+        "Electoral Palatinate",
+        "Bremen",
+        "Lübeck",
+        "Brunswick-Lüneburg",
+        "Duchy of Württemberg",
+        "Duchy of Pomerania",
+        "Anhalt-Köthen",
+        "Neumark"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "second": [
+      {
+        "id": "Q12548",
+        "name": "Holy Roman Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override",
+          "wikidata"
+        ]
+      }
+    ]
+  }
+}

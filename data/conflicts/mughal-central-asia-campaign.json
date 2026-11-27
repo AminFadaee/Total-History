@@ -1,0 +1,56 @@
+{
+  "id": "Q130328799",
+  "slug": "mughal-central-asia-campaign",
+  "name": "Mughal Central Asia Campaign",
+  "title": "Mughal Central Asia Campaign",
+  "wikipedia": "Mughal Central Asia campaign",
+  "years": [
+    null,
+    null
+  ],
+  "editions": 3,
+  "infobox_years": [
+    1645,
+    1647
+  ],
+  "years_confirmed": false,
+  "vital_level": null,
+  "battle": false,
+  "point": null,
+  "summary": "A military campaign from 1645–1647 undertook by Mughal emperor Shah Jahan against the Uzbek Khanate of Bukhara in Central Asia.",
+  "result": "Uzbek territories of Balkh and Badakhshan falls to Mughal India for a time period with Murad Bakhsh becoming its governor.",
+  "sides": [
+    {
+      "combatants": [
+        "Mughal Empire",
+        "Jaipur State",
+        "Nurpur kingdom"
+      ],
+      "civilizations": [
+        "Q33296"
+      ]
+    },
+    {
+      "combatants": [
+        "Khanate of Bukhara",
+        "Kazakh Khanate"
+      ],
+      "civilizations": [
+        "Q1433867",
+        "Q577668"
+      ]
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q577668",
+        "name": "Khanate of Bukhara",
+        "evidence": [
+          "infobox",
+          "override"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "Q842357",
+  "slug": "hogen-rebellion",
+  "name": "Hōgen rebellion",
+  "title": "Hōgen rebellion",
+  "wikipedia": "Hōgen rebellion",
+  "years": [
+    1156,
+    1156
+  ],
+  "editions": 25,
+  "infobox_years": [
+    1156,
+    1156
+  ],
+  "years_confirmed": true,
+  "vital_level": null,
+  "battle": false,
+  "point": [
+    135.768,
+    35.0117
+  ],
+  "summary": "A short civil war fought in order to resolve a dispute about Japanese Imperial succession.",
+  "result": "Victory for Emperor Go-Shirakawa; establishment of Minamoto-Taira rivalry",
+  "sides": [
+    {
+      "combatants": [
+        "Emperor Go-Shirakawa"
+      ],
+      "civilizations": []
+    },
+    {
+      "combatants": [
+        "Emperor Sutoku"
+      ],
+      "civilizations": []
+    }
+  ],
+  "roles": {
+    "central": [
+      {
+        "id": "Q193292",
+        "name": "Heian Japan",
+        "evidence": [
+          "mutual"
+        ]
+      }
+    ]
+  }
+}

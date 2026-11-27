@@ -92,6 +92,15 @@
     ],
     "ending": [
       {
+        "id": "Q131964",
+        "name": "Austrian Empire",
+        "evidence": [
+          "infobox",
+          "mutual",
+          "override"
+        ]
+      },
+      {
         "id": "Q151624",
         "name": "German Confederation",
         "evidence": [
@@ -117,14 +126,6 @@
       }
     ],
     "second": [
-      {
-        "id": "Q131964",
-        "name": "Austrian Empire",
-        "evidence": [
-          "infobox",
-          "mutual"
-        ]
-      },
       {
         "id": "Q154195",
         "name": "Kingdom of Bavaria",
